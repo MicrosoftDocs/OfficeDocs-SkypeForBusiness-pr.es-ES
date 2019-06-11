@@ -1,37 +1,79 @@
-﻿---
-title: Administración de perfiles de directivas de ancho de banda de red
-TOCTitle: Administración de perfiles de directivas de ancho de banda de red
-ms:assetid: bc7b1a8a-5dce-425f-a84d-6a9aff569c20
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721867(v=OCS.15)
-ms:contentKeyID: 49889658
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: administración de perfiles de directiva de ancho de banda de red'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing network bandwidth policy profiles
+ms:assetid: bc7b1a8a-5dce-425f-a84d-6a9aff569c20
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721867(v=OCS.15)
+ms:contentKeyID: 49733800
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8a7828c8895ef056c800547ec9e8247956421459
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827889"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administración de perfiles de directivas de ancho de banda de red
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Administrar perfiles de directiva de ancho de banda de red en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-15_
 
-Use los procedimientos de esta sección para administrar los perfiles de directiva de ancho de banda de red. Para más información sobre los requisitos de ancho de banda de red para el tráfico multimedia, consulte [Requisitos de ancho de banda de red para el tráfico multimedia de Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
+Use los procedimientos de esta sección para administrar los perfiles de la Directiva de ancho de banda de red. Para obtener más información sobre los requisitos de ancho de banda de red para el tráfico multimedia, consulte [requisitos de ancho de banda de red para el tráfico multimedia en Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md).
 
-## En esta sección
+<div>
 
-  - [Visualización de la información de perfil de directiva de ancho de banda de red](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Creación o modificación de perfiles de directivas de ancho de banda](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
+  - [Ver la información de Perfil de la Directiva de ancho de banda en Lync Server 2013](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)
 
-  - [Eliminación de perfiles de directivas de ancho de banda de red](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
+  - [Crear o modificar perfiles de directiva de ancho de banda en Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)
 
-## Secciones relacionadas
+  - [Eliminar perfiles de directiva de ancho de banda de red en Lync Server 2013](lync-server-2013-deleting-network-bandwidth-policy-profiles.md)
 
-[Planificación de red para Lync Server](lync-server-2013-network-planning.md)
+</div>
 
-## Vea también
+<div>
 
-#### Conceptos
+## <a name="related-sections"></a>Secciones relacionadas
 
-[Requisitos de ancho de banda de red para el tráfico multimedia de Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)
+[Planificación de red para Lync Server 2013](lync-server-2013-network-planning.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Requisitos de ancho de banda de red para el tráfico multimedia en Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

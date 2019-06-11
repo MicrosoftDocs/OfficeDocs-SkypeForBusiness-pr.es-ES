@@ -1,73 +1,103 @@
-﻿---
-title: "Topología de referencia para grandes organizaciones con varios centros de datos"
-TOCTitle: Topología de referencia para grandes organizaciones con varios centros de datos
-ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398797(v=OCS.15)
-ms:contentKeyID: 48276126
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Topología de referencia para grandes organizaciones con varios centros de datos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reference topology for large organizations with multiple data centers
+ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398797(v=OCS.15)
+ms:contentKeyID: 48184887
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2460378d19f8edb4e845778cacaf01c7141204c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823836"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Topología de referencia para grandes organizaciones con varios centros de datos para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="reference-topology-for-lync-server-2013-in-large-organizations-with-multiple-data-centers"></a>Topología de referencia para grandes organizaciones con varios centros de datos para Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-22_
 
-La topología de referencia para una organización de gran tamaño con varios centros de datos es compatible con organizaciones de cualquier tamaño con más de un sitio central. La topología exacta del diagrama siguiente es para una organización de 50 000 usuarios, con 20 000 usuarios en el Sitio central A, 20 000 en el Sitio central B y un total de 10 000 en el Sitio central C y los sitios de sucursal. El tipo de topología mostrada en este diagrama puede adaptarse a organizaciones con un número cualquiera de usuarios.
+La topología de referencia para una organización de gran tamaño con varios centros de datos es compatible con organizaciones de cualquier tamaño con más de un sitio central. La topología exacta del diagrama siguiente es para una organización de 50 000 usuarios, con 20 000 usuarios en el sitio central A, 20 000 en el sitio central B y un total de 10 000 en el sitio central C y los sitios de sucursal. El tipo de topología mostrada en este diagrama puede adaptarse a organizaciones con cualquier cantidad de usuarios.
 
-Además de la alta disponibilidad de los grupos de servidores de Servidores front-end, esta topología es compatible con recuperación ante desastres. Los Grupos de servidores front-end en los sitios centrales A y B quedarán emparejados. Si uno de estos grupos de servidores deja de funcionar, el administrador podrá pasar los servicios para los usuarios afectados al grupo emparejado en el sitio no afectado.
+Además de la alta disponibilidad proporcionada por los grupos de servidores de aplicaciones para el usuario, esta topología agrega compatibilidad de recuperación ante desastres. Los grupos front-end de los sitios centrales A y B están emparejados. Si uno de estos grupos de servidores deja de funcionar, el administrador podrá cambiar los servicios de los usuarios afectados al grupo emparejado en el sitio no afectado.
 
 Esta topología se muestra en varios diagramas con información general seguida de vistas detalladas de los sitios centrales.
 
 **Información general de la topología de referencia para organizaciones de gran tamaño con varios centros de datos**
 
-![Topología de referencia para varios centros de datos](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Topología de referencia para varios centros de datos")
+![Topología de referencia para varios centros de datos] (images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Topología de referencia para varios centros de datos")
 
 **Topología de referencia para organizaciones de gran tamaño: Vista detallada del Sitio central A**
 
-![Topologías de referencia de planeación A](images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "Topologías de referencia de planeación A")
+![dab33f19-e77b-42da-9047-858fb9851264] (images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
 
 **Topología de referencia para organizaciones de gran tamaño: Vista detallada del Sitio central B**
 
-![Topologías de referencia de planeación B](images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "Topologías de referencia de planeación B")
+![5ccaf1d4-bd53-4cb7-96fe-723147334e7f] (images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
 
 **Topología de referencia para organizaciones de gran tamaño: Vista detallada del Sitio central C**
 
-![Topologías de referencia de planeación C](images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "Topologías de referencia de planeación C")
+![7238ca40-340c-491f-b497-ddc2665dadb6] (images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
 
-  - **Grupos de servidores front-end se emparejan para habilitar la recuperación ante desastres.**   Los Grupos de servidores front-end del Sitio A y el Sitio B se emparejan entre sí para ofrecer compatibilidad con recuperación ante desastres. Si el grupo de servidores de un sitio causa un error, el administrador puede activar la conmutación por error y pasar lo usuarios de ese sitio al Grupo de servidores front-end emparejado del otro sitio con un mínimo de interrupción del servicio para los usuarios. Cada uno de estos dos grupos de servidores front-end tiene seis servidores, suficiente para 40 000 usuarios en ambos grupos en caso de conmutación por error. Para obtener más información, consulte [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
+  - **Los grupos de servidores front-end se emparejan para habilitar la recuperación ante desastres.**    Los grupos de aplicaciones para el usuario del sitio a y el sitio B están emparejados entre sí, para proporcionar compatibilidad con la recuperación ante desastres. Si se produce un error en el grupo de un sitio, el administrador puede migrar por error los usuarios de ese sitio a la agrupación front-end del otro sitio, con una interrupción mínima de servicio para los usuarios. Each of these two Front End pools has six servers, which is enough for all 40,000 users in both pools in case of failover. Para obtener más información, vea [planear la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
-  - **Servidores back-end se reflejan**   Para ofrecer mayor disponibilidad de cara a las características básicas, la organización ha implementado un par reflejado de Servidores back-end para cada Grupo de servidores front-end. Se trata de una topología opcional y puede optar por implementar un único Servidor back-end en su lugar.
+  - **Los servidores de servicios**   de fondo se reflejan para proporcionar una mayor disponibilidad para las características básicas de los usuarios, la organización ha implementado un par de servidores back-end reflejados para cada grupo de servidores front-end. Esta es una topología opcional y puede optar por implementar un único servidor de servicios de fondo en su lugar.
 
-  - **Uso del servidor Standard Edition en un sitio de sucursal.** Esta organización considera el Sitio C como un sitio de sucursal porque solo tiene 600 empleados. Sin embargo, los usuarios de este sitio realizan muchas conferencias de A/V entre ellos. Si se hubiera implementado en Lync Server como sitio de sucursal, los medios de dichas conferencias se ejecutarían en la red de área extensa (WAN) hasta y desde un sitio central que tuviera un front-end implementado. Para evitar esta posible carga de ancho de banda, se han instalado un par de servidores Standard Edition en este sitio, que hospedarán las conferencias. Y como se han instalado allí los servidores Standard Edition, Lync Server lo considera por definición un sitio central y lo trata como tal en Generador de topologías y en la Herramienta de planeación.
+  - **Usar un servidor Standard Edition en un sitio de sucursal.**    Esta organización considera que el sitio C es un sitio de sucursal porque tiene solo 600 empleados. However, the users there have many A/V conferences among themselves. Si se ha implementado en Lync Server como sitio de sucursal, los medios de estas conferencias se ejecutarán en la red de área extensa (WAN) a y desde un sitio central que tiene un servidor front-end implementado. Para evitar esta carga potencial de ancho de banda, han instalado un par de servidores Standard Edition en este sitio, que hospedarán estas conferencias. Y como los servidores Standard Edition están instalados allí, Lync Server por definición lo considera un sitio central, y se trata como tal en el generador de topologías y la herramienta de planeación.
     
-    Aquí un solo servidor Standard Edition puede ofrecer suficiente rendimiento, pero la organización ha implementado dos y los ha emparejado para ofrecer alta disponibilidad en caso de que un servidor deje de funcionar.
+    Solo un servidor Standard Edition sería suficiente para el rendimiento, pero la organización ha implementado dos y los ha emparejado para ofrecer alta disponibilidad en caso de que un servidor se quede sin funcionar.
     
-    A pesar de que el Sitio C se considera un sitio central, no es necesario implementar servidores perimetrales en él. En este ejemplo, el Sitio C usará los servidores perimetrales implementados en el Sitio A.
+    A pesar de que el sitio C se considera un sitio central, no es necesario implementar servidores perimetrales en él. En este ejemplo, el sitio C usará los servidores perimetrales implementados en el sitio A.
 
-  - **Supervisión y Archivado**   Esta organización ha implementado Supervisión y Archivado. Si se implementa Supervisión o Archivado, se ejecutará en todos los servidores front-end. Las bases de datos de estas características pueden combinarse con la base de datos back-end o bien ubicarse en un servidor aparte. Esta organización ha ubicado dichas bases de datos en un servidor aparte de los servidores back-end, en el Sitio central B. Las bases de datos de esta ubicación reciben datos de Supervisión y Archivado desde los servidores front-end de todos los sitios.
+  - **La supervisión**y el archivado de esta organización han implementado la supervisión y el archivado.    Si se implementa la supervisión o el archivado, se ejecutarán en todos los servidores front-end. Las bases de datos de estas características pueden combinarse con la base de datos back-end, o bien ubicarse en un servidor aparte. Esta organización ha ubicado dichas bases de datos en un servidor aparte de los servidores back-end, en el sitio central B. Las bases de datos de esta ubicación reciben datos de supervisión y archivado desde los servidores front-end de todos los sitios.
 
-  - **Opciones de implementación en sitios de sucursal.**   Esta organización tiene en realidad más de 50 sitios de sucursal y en los diagramas detallados solo se muestran tres de ellos. Los Sitios de sucursal 1 y 3 no disponen de un vínculo WAN resistente al sitio central, por lo que tienen implementadas Aplicaciones de sucursal con funciones de supervivencia para proporcionar servicio telefónico en caso de que el vínculo WAN al sitio central dejara de funcionar. No obstante, el Sitio de sucursal 2 tiene un vínculo WAN resistente, de modo que solo necesita una puerta de enlace de red telefónica conmutada (RTC). La puerta de enlace RTC implementada en este caso admite el desvío de medios, por lo que en el Sitio de sucursal B no es necesario ningún servidor de mediación. Para obtener más información sobre cómo decidir qué instalar en un sitio de sucursal, consulte [Planear la resistencia de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) en la documentación sobre planeamiento.
+  - **Opciones de implementación de sitio de sucursal.**    En realidad, esta organización tiene más de 50 sitios de sucursales, solo tres de los cuales se muestran en los diagramas detallados. Los sitios de sucursales 1 y 3 no tienen un vínculo WAN resistente al sitio central, por lo que tienen equipos de sucursales reutilizables implementados para proporcionar servicio telefónico en caso de que se produzca un vínculo WAN al sitio central. El sitio de la sucursal 2 no obstante, tiene un vínculo WAN resistente, por lo que solo necesita una puerta de enlace de red telefónica conmutada (RTC). La puerta de enlace RTC implementada admite la omisión de medios, por lo que no es necesario un servidor de mediación en el sitio de sucursal B. Para más información sobre cómo decidir qué instalar en un sitio de sucursal, consulte [planificación de la resistencia de telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) en la documentación de planificación.
 
-  - **Enlace troncal SIP y servidor de mediación.**   Observe que en el Sitio central B, el servidor de mediación no está instalado con los servidores front-end. Esto se debe a que el servidor de mediación independiente es recomendable para sitios que usen el enlace troncal SIP. En la mayoría de casos restantes, se recomienda instalar el servidor de mediación con el servidor front-end. Para obtener más información sobre las topologías de servidor de mediación, consulte [Componentes y topologías para el servidor de mediación en Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) en la documentación sobre planeamiento.
+  - **Servidor de mediación y Troncalización SIP.**    Observe que en el sitio central B, el servidor de mediación no se colocará con los servidores front-end. Esto se debe a que se recomienda un servidor de mediación independiente para los sitios que usan Troncalización SIP. En la mayoría de las demás instancias, le recomendamos que Collocate servidor de mediación con el servidor front-end. Para obtener más información sobre las topologías de servidores de mediación, vea [componentes y topologías de servidor de mediación en Lync server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) en la documentación de planeación.
 
-  - **Chat persistente implementado.**   Esta organización ha implementado los servidores necesarios para habilitar Chat persistente. Ha implementado varios servidores front-end de Chat persistente para, por un lado, procesar la carga del número de usuarios del grupo de servidores y, por otro, ofrecer alta disponibilidad. También ha implementado Cumplimiento para Chat persistente y ha ubicado el Almacén de Chat persistente y el Almacén de Cumplimiento de Chat persistente en servidores aparte. Estos almacenes pueden combinarse entre sí e incluso con el servidor back-end, pero esta organización ha optado por separarlos para ofrecer un mejor rendimiento.
+  - **El chat persistente se ha implementado.**    Esta organización ha implementado los servidores necesarios para habilitar el chat persistente. Ha implementado varios servidores front-end de chat persistente para, por un lado, procesar la carga de la cantidad de usuarios del grupo de servidores y, por otro, ofrecer alta disponibilidad. También ha implementado el cumplimiento para el chat persistente y ha ubicado el almacén de chat persistente y el almacén de cumplimiento de chat persistente en servidores independientes. Estos almacenes pueden combinarse entre sí e incluso con el servidor back-end, pero esta organización ha optado por separarlos para ofrecer un mejor rendimiento.
 
-  - **Equilibrio de carga de DNS.**   Grupo de servidores front-end y el grupo de servidores perimetrales. De esta forma, no son necesarios equilibradores de carga de hardware para la interfaz interna de los servidores perimetrales y se reduce significativamente la cantidad de tiempo que se debe invertir en la configuración y el mantenimiento de los equilibradores de carga de hardware para el resto de grupos de servidores, ya que los equilibradores de carga de hardware solo se necesitan para el tráfico HTTP. Para obtener información detallada sobre el equilibrio de carga de DNS, consulte [Equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md) en la documentación sobre planeamiento.
+  - **Equilibrio de carga de DNS.**    El grupo de servidores front-end y el grupo de servidores perimetrales. De esta manera, no son necesarios los equilibradores de carga de hardware para la interfaz interna de los servidores perimetrales y se reduce significativamente la cantidad de tiempo que necesaria para la instalación y el mantenimiento de los equilibradores de carga de hardware para el resto de los grupos de servidores, ya que los equilibradores de carga de hardware solo se necesitan para el tráfico HTTP. Para obtener más información sobre el equilibrio de carga de DNS, consulte [equilibrio de carga de DNS en Lync Server 2013](lync-server-2013-dns-load-balancing.md) en la documentación de planeación.
 
-  - **Implementación de mensajería unificada de Exchange.**   Lync Server funciona tanto con implementaciones *locales* como *alojadas* de mensajería unificada de Exchange. El Sitio central A incluye un servidor de Mensajería unificada de Exchange (UM) que ejecuta Microsoft Exchange Server, en lugar de Lync Server. Las funciones de Mensajería unificada de Exchange para Lync Server se ejecutan en el grupo de servidores front-end.
+  - **Implementación de mensajería unificada de Exchange.**   Lync Server funciona con las implementaciones *locales* de mensajería unificada de Exchange (UM) y la mensajería unificada de Exchange *hospedada* . El sitio central A incluye un servidor de mensajería unificada (UM) de Exchange, que ejecuta Microsoft Exchange Server, no Lync Server. La funcionalidad de mensajería unificada de Exchange para Lync Server se ejecuta en el grupo de servidores front-end.
     
-    El Sitio central B usa servicios de Exchange hospedados, de modo que las funciones del servidor de mensajería unificada de Exchange también están hospedadas.
+    El sitio central B usa servicios de Exchange hospedados, de modo que las funciones del servidor de mensajería unificada de Exchange también están hospedadas.
     
-    Para obtener información detallada sobre cómo usar Mensajería unificada de Exchange, consulte [Planear la integración de la mensajería unificada de Exchange en Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) y [Integración de la mensajería unificada de Exchange hospedada en Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) en la documentación de planeación.
+    Para obtener más información sobre la mensajería unificada de Exchange, consulte [planificación de la integración de mensajería unificada de Exchange en Lync server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) y la [integración de mensajería unificada de Exchange hospedada en Lync Server 2013](lync-server-2013-hosted-exchange-unified-messaging-integration.md) en la documentación de planificación.
 
-  - **Office Web Apps Server.**   Se recomienda implementar un Office Web Apps Server o granja de servidores de Office Web Apps Server en cada organización que use conferencias web. Puede implementar una única granja de servidores de Office Web Apps Server en un sitio que sirva tráfico desde todos los sitios, o bien implementarla en cada sitio. Office Web Apps Server permite presentar diapositivas de PowerPoint en conferencias web. Para obtener más información, consulte [Configuración de la integración de Office Web Apps Server y Lync Server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
+  - **Office Web Apps Server.**   Recomendamos implementar un servidor de Office Web Apps o una granja de servidores de Office Web Apps en cada organización que use conferencias web. Puede implementar una sola granja de Office Web Apps Server en un sitio que sirva de tráfico de todos los sitios o implementarla en cada sitio. El servidor de Office Web Apps permite presentar diapositivas de PowerPoint en conferencias web. Para obtener más información, vea [configurar la integración con Office Web Apps Server y Lync server 2013](lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md).
 
-  - **Pueden agregarse Directores.**   Si esta organización deseara una mayor seguridad contra ataques por denegación de servicio, podría implementar también un grupo de servidores de Directores. Un Director es un rol de servidor opcional y aparte en Lync Server que no hospeda cuentas de usuario ni facilita servicios de presencia o conferencia. Sirve como servidor interno de próximo salto al que un Servidor perimetral enruta el tráfico SIP entrante destinado a los servidores internos. El Director preautentica las solicitudes entrantes y las redirige al servidor o grupo de servidores principales del usuario. La preautenticación en el Director permite omitir solicitudes de cuentas de usuario desconocidas en la implementación. Un Director ayuda a aislar a los servidores front-end del tráfico malintencionado, como son los ataques por denegación de servicio. Si la red se inunda de tráfico externo no válido en este tipo de ataque, dicho tráfico finalizará en el Director.
+  - **Se pueden agregar directores.**   Si esta organización desea aumentar la seguridad contra ataques de denegación de servicio, también podría implementar un grupo de directores. Un director es un rol de servidor independiente y opcional de Lync Server que no aloja cuentas de usuario o proporciona servicios de presencia o de conferencia. Actúa como un servidor interno del próximo salto al que un servidor perimetral enruta el tráfico SIP entrante destinado a los servidores internos. El director autentica previamente las solicitudes entrantes y las redirige al grupo de servidores o al grupo de servidores domésticos del usuario. La autenticación previa en el director permite quitar las solicitudes de cuentas de usuario desconocidas de la implementación. Un director ayuda a aislar a los servidores front-end de tráfico malintencionado, como ataques de denegación de servicio (DoS). Si la red se inunda con tráfico externo no válido en tal ataque, el tráfico termina en el director.
 
-  - **Se ha implementado System Center Operations Manager.**   Se recomienda supervisar el estado de su implementación de Lync Server para garantizar la disponibilidad del servicio a los usuarios finales. Puede supervisar Lync con el módulo de administración de System Center Operations Manager para Lync, que puede obtener como descarga gratuita de Microsoft. Con el módulo de administración de Lync podrá obtener alertas proactivas en tiempo real cuando surjan problemas, ejecutar transacciones sintéticas para probar la funcionalidad de extremo a extremo de Lync, obtener informes de disponibilidad del servicio, etc. Esto le ayudará a responder proactivamente a problemas con su implementación antes de que los usuarios finales sufran las consecuencias.
+  - **Se ha implementado System Center Operations Manager.**   Le recomendamos que supervise el estado de la implementación de Lync Server para garantizar la disponibilidad del servicio para los usuarios finales. Puede supervisar Lync con el paquete de administración de System Center Operations Manager para Lync que está disponible como descarga gratuita de Microsoft. Con el paquete de administración de Lync, puede obtener alertas en tiempo real de forma activa cuando se producen problemas, ejecutar transacciones sintéticas para probar la funcionalidad completa de Lync, obtener informes para la disponibilidad del servicio, etc. This helps you to proactively respond to issues with your deployment before end-users experience them.
     
-    Esta organización tiene implementado un servidor System Center Operations Manager en cada sitio central.
+    Esta organización ha implementado un servidor de System Center Operations Manager en cada sitio central.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

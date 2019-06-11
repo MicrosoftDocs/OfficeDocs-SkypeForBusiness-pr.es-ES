@@ -1,39 +1,59 @@
-﻿---
-title: Introducción al enrutamiento basado en ubicación de las conferencias
-TOCTitle: Introducción al enrutamiento basado en ubicación de las conferencias
-ms:assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn362815(v=OCS.15)
-ms:contentKeyID: 56271309
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: información general sobre el enrutamiento basado en la ubicación para conferencias'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of Location-Based Routing for conferencing
+ms:assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362815(v=OCS.15)
+ms:contentKeyID: 56335084
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 895a89ee59edaf973ae5194658c4cdf12564542e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825439"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Introducción al enrutamiento basado en ubicación de las conferencias
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="overview-of-location-based-routing-for-conferencing-in-lync-server-2013"></a>Información general de enrutamiento basado en ubicación para conferencias en Lync Server 2013
 
-La aplicación de conferencias de enrutamiento basado en ubicación proporciona a las conferencias de Lync un mecanismo para prevenir la omisión de tarifas RTC. La aplicación supervisa las conferencias activas y aplica restricciones de enrutamiento basado en ubicación según la ubicación de los usuarios de Lync que participan.
+</div>
 
-La aplicación de conferencias de enrutamiento basado en ubicación determina si se debe aplicar el enrutamiento basado en ubicación en una reunión de Lync si se cumplen los siguientes criterios:
+<div id="mainSection">
 
-  - El organizador de la reunión tiene habilitado el enrutamiento basado en ubicación. Se aplicarán restricciones de enrutamiento basado en ubicación únicamente a las conferencias organizadas por usuarios que tienen habilitado el enrutamiento basado en ubicación.
+<div id="mainBody">
 
-  - Al menos un participante de la reunión es un extremo RTC. Se aplicarán restricciones de enrutamiento basado en ubicación únicamente a las conferencias que incluyen extremos RTC.
+<span> </span>
 
-  - Se localiza el sitio de red que usó la puerta de enlace RTC para conectar la conferencia a la RTC, así como los sitios de red desde donde se conectan los organizadores y participantes.
+_**Última modificación del tema:** 2013-07-19_
 
-La aplicación de conferencias de enrutamiento basado en ubicación no permite la participación de usuarios de Lync y extremos RTC de distintos sitios de red en la misma conferencia. Si el organizador de una reunión tiene habilitado el enrutamiento basado en ubicación, la aplicación de conferencias aplica las siguientes restricciones:
+La aplicación de conferencia de enrutamiento basada en la ubicación proporciona a las conferencias de Lync un mecanismo para la prevención de la omisión de llamadas RTC. La aplicación supervisa las conferencias activas e impone restricciones de enrutamiento basadas en la ubicación en función de la ubicación de los usuarios de Lync que participan.
 
-  - Los extremos que pueden unirse a una reunión de Lync dependen de los extremos que ya se unieron a la conferencia, y esta restricción se ajusta a medida que los extremos conectados abandonan la conferencia y nuevos extremos se unen a ella. Si los organizadores y participantes se unen a una reunión de Lync desde el mismo sitio de red, entonces pueden unirse un extremo RTC, otro participante del mismo sitio de red, un participante de otro sitio de red y uno de un sitio de red desconocido.
+La aplicación de conferencia de enrutamiento basada en la ubicación determina si se debe aplicar el enrutamiento basado en la ubicación en una reunión de Lync si se cumplen los criterios siguientes:
 
-  - Si los organizadores y participantes se unen a una reunión desde sitios de red distintos o desconocidos, no puede unirse un extremo RTC si la llamada RTC ingresa desde un tronco SIP habilitado para el enrutamiento basado en ubicación.
+  - El organizador de la reunión está habilitado para el enrutamiento basado en la ubicación. Las restricciones de enrutamiento basadas en la ubicación solo se aplicarán a conferencias organizadas por usuarios que están habilitados para el enrutamiento basado en la ubicación.
 
-  - Si los organizadores y participantes se unen a la reunión desde el mismo sitio de red y algunos participantes se unen desde la RTC, no puede unirse un extremo de Lync desde otro sitio de red.
+  - Al menos uno de los participantes de la reunión es un extremo de RTC. Las restricciones de enrutamiento basadas en la ubicación solo se aplican a las conferencias que incluyen puntos de conexión RTC.
 
-Estas restricciones de enrutamiento basado en ubicación para conferencias se resumen en la siguiente tabla.
+  - El sitio de red donde se utiliza la puerta de enlace RTC para conectar la conferencia con la RTC se encuentra (al igual que los sitios de red) en la ubicación desde donde se conectan los organizadores y los participantes.
+
+La aplicación de conferencia de enrutamiento basado en la ubicación impide la participación de los usuarios de Lync y los puntos finales de RTC de diferentes sitios de red en la misma conferencia. Si el organizador de una reunión está habilitado para el enrutamiento basado en la ubicación, la aplicación de conferencias aplicará las siguientes restricciones:
+
+  - Los puntos de conexión que pueden unirse a una reunión de Lync dependen de los puntos de conexión que ya se hayan unido a la Conferencia, y esta restricción se ajusta como puntos de conexión Unidos y los puntos de conexión nuevos se unen a la Conferencia. Si los organizadores y los participantes se unen a una reunión de Lync desde el mismo sitio de red, se permite que otro participante de RTC, otro participante del mismo sitio de red, otro participante de un sitio de red diferente o de un participante de un sitio de red desconocido participación.
+
+  - Si organizadores y participantes se unen a la reunión desde diferentes sitios de red o sitios de red desconocidos, no se permite la entrada a la reunión de un extremo de RTC, si la llamada de RTC entra de un tronco SIP habilitado para el enrutamiento basado en ubicación.
+
+  - Si todos los organizadores y participantes se unen a la reunión desde el mismo sitio de red y hay participantes que se unen a la misma reunión de la RTC, no se permite unirse a la reunión con un punto de conexión de Lync desde un sitio de red diferente.
+
+En la tabla siguiente se resumen las restricciones de enrutamiento basadas en la ubicación de las conferencias.
 
 
 <table>
@@ -44,52 +64,59 @@ Estas restricciones de enrutamiento basado en ubicación para conferencias se re
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Usuarios de una conferencia en cualquier punto</p></td>
-<td><p>Usuarios que pueden unirse a la conferencia</p></td>
-<td><p>Usuarios que no pueden unirse a la conferencia</p></td>
+<td><p>Usuario(s) en una conferencia en un momento determinado</p></td>
+<td><p>Usuarios(s) con permiso para unirse a la conferencia</p></td>
+<td><p>Usuarios(s) sin permiso para unirse a la conferencia</p></td>
 </tr>
 <tr class="even">
-<td><p>Usuarios del cliente VoIP de Lync de un solo sitio de red</p></td>
-<td><p>Usuario del cliente VoIP de Lync del mismo sitio de red</p>
-<p>Usuario del cliente VoIP de Lync de otro sitio de red</p>
-<p>Usuario del cliente VoIP de Lync de un sitio de red desconocido</p>
+<td><p>Usuarios del cliente de VoIP de Lync desde un único sitio de red</p></td>
+<td><p>Usuario de cliente de VoIP de Lync desde el mismo sitio de red</p>
+<p>Usuario de cliente de VoIP de Lync desde un sitio de red diferente</p>
+<p>Usuario de cliente de VoIP de Lync desde un sitio de red desconocido</p>
 <p>Usuario del cliente VoIP de Lync federado</p>
-<p>Usuario que se une desde un extremo RTC</p></td>
-<td><p>Ninguno</p>
-<p></p></td>
+<p>Usuario que se une desde un extremo de RTC</p></td>
+<td><p>Ninguno</p></td>
 </tr>
 <tr class="odd">
-<td><p>Usuarios del cliente VoIP de Lync de un sitio de red desconocido</p></td>
-<td><p>Usuario del cliente VoIP de Lync de cualquier sitio</p>
-<p>Usuario del cliente VoIP de Lync de un sitio desconocido</p>
+<td><p>Usuarios del cliente de VoIP de Lync desde un sitio de red desconocido</p></td>
+<td><p>Usuario de cliente de VoIP de Lync desde cualquier sitio</p>
+<p>Usuario de cliente de VoIP de Lync desde un sitio desconocido</p>
 <p>Usuario del cliente VoIP de Lync federado</p></td>
-<td><p>Usuario que se une a través de un extremo RTC</p>
-<p></p></td>
+<td><p>Usuario que se une a través de un extremo de RTC</p></td>
 </tr>
 <tr class="even">
-<td><p>Usuarios del cliente VoIP de Lync de otros sitios de red</p></td>
-<td><p>Usuario del cliente VoIP de Lync de cualquier sitio de red</p>
-<p>Usuario del cliente VoIP de Lync de un sitio de red desconocido</p>
+<td><p>Usuarios de Lync VoIP clientes de diferentes sitios de red</p></td>
+<td><p>Usuario de cliente de VoIP de Lync desde cualquier sitio de red</p>
+<p>Usuario de cliente de VoIP de Lync desde un sitio de red desconocido</p>
 <p>Usuario del cliente VoIP de Lync federado</p></td>
-<td><p>Usuario que se une a través de un extremo RTC</p></td>
+<td><p>Usuario que se une a través de un extremo de RTC</p></td>
 </tr>
 <tr class="odd">
-<td><p>Usuarios del cliente VoIP de Lync de un solo sitio de red y usuarios que se unen desde un extremo RTC</p></td>
-<td><p>Usuario del cliente VoIP de Lync del mismo sitio de red</p>
-<p></p></td>
-<td><p>Usuario del cliente VoIP de Lync de otro sitio de red</p>
-<p>Usuario del cliente VoIP de Lync de un sitio de red desconocido</p>
+<td><p>Usuarios del cliente de VoIP de Lync desde un único sitio de red y usuarios que se unen desde un punto final de RTC</p></td>
+<td><p>Usuario de cliente de VoIP de Lync desde el mismo sitio de red</p></td>
+<td><p>Usuario de cliente de VoIP de Lync desde un sitio de red diferente</p>
+<p>Usuario de cliente de VoIP de Lync desde un sitio de red desconocido</p>
 <p>Usuario del cliente VoIP de Lync federado</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Estas son características adicionales de la aplicación de conferencias de enrutamiento basado en ubicación:
+A continuación se muestran características adicionales de la aplicación de conferencia de enrutamiento basada en ubicación:
 
-  - Cuando un usuario no puede unirse a una conferencia debido a las restricciones de enrutamiento basado en ubicación, se rechazará su llamada a la conferencia y el cliente Lync informará de que esta no se ha completado o ha finalizado.
+  - Cuando un usuario no puede unirse a una conferencia con las restricciones de enrutamiento basadas en la ubicación, se rechazarán las llamadas de los usuarios a la Conferencia y su cliente de Lync informará de que la llamada no se completó o ha finalizado.
 
-  - Independientemente de su estado, no se impedirá la conexión de un extremo RTC que se une a una conferencia con restricciones de enrutamiento basado en ubicación si lo hace a través de un tronco que no tiene habilitado el enrutamiento basado en ubicación.
+  - Un punto final de RTC que se une a una conferencia con las fuerzas de enrutamiento basadas en la ubicación no se verá restringido a unirse a la Conferencia, independientemente de su estado, si el punto de conexión se une a través de un tronco que no está habilitado para el enrutamiento basado en la ubicación.
 
-  - Un sistema PBX conectado a un servidor de mediación a través de un tronco SIP que no realiza llamadas a la RTC tendrá las mismas restricciones que los usuarios de Lync ubicados en el mismo sitio de red en el que está definido el tronco SIP. Por ejemplo, un extremo RTC podrá unirse a una conferencia con un usuario de PBX y uno de Lync si se encuentran en el mismo sitio de red. Por el contrario, el extremo RTC no podrá unirse si el usuario de PBX y el de Lync se encuentran en sitios de red diferentes.
+  - Un sistema PBX conectado a un servidor de mediación a través de un tronco de SIP que no esté de salida las llamadas a la RTC tendrán las mismas fuerzas que los usuarios de Lync que se encuentren en el mismo sitio de red en el que se define el tronco del SIP. Por ejemplo, un punto final de RTC podrá unirse a una conferencia con un usuario de PBX y un usuario de Lync si se encuentran en el mismo sitio de red; de lo contrario, el punto final de RTC no podrá unirse a la Conferencia si el usuario de PBX se encuentra en otro sitio de red que el usuario de Lync.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

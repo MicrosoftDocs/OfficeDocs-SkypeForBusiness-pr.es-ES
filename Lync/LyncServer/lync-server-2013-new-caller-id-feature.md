@@ -1,27 +1,61 @@
-﻿---
-title: 'Lync Server 2013: Nueva característica Id. de autor de llamada'
-TOCTitle: Nueva característica Id. de autor de llamada
-ms:assetid: 1529a207-cba0-4051-870a-f89606b0f3fd
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687974(v=OCS.15)
-ms:contentKeyID: 49888897
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Nueva característica Id. de autor de llamada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New caller ID feature
+ms:assetid: 1529a207-cba0-4051-870a-f89606b0f3fd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687974(v=OCS.15)
+ms:contentKeyID: 49733562
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b50fa5c5e25c2fb27fbc10273604b438dabca76d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826468"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Nueva característica Id. de autor de llamada en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="new-caller-id-feature-in-lync-server-2013"></a>Nueva característica Id. de autor de llamada en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-05_
 
-Lync Server 2013 ofrece al administrador la flexibilidad necesaria para modificar el formato del número de teléfono de la parte que realiza la llamada. Esta característica de presentación del Id. de autor de llamada permite al administrador modificar el número de teléfono de la parte que realiza la llamada con un formato de marcación que pueda interpretar el tronco si fuese necesario. Por ejemplo, puede escribir una regla de conversión para quitar "+44" del inicio de la cadena de marcado y sustituirlo por "0144".
+Lync Server 2013 proporciona al administrador la flexibilidad de modificar el formato del número de teléfono de la persona que llama. Esta característica de presentación de identificación de llamadas permite al administrador modificar el número de teléfono de la persona que llama a un formato de marcado comprensible por el interlocutor troncal, si es necesario. Por ejemplo, puede escribir una regla de conversión para quitar el prefijo +34 del principio de una cadena de llamada y sustituirlo por 0134.
 
-Ahora, gracias a Lync Server 2013, tanto el número de teléfono de la persona que realiza la llamada como el número de teléfono de la persona llamada pueden convertirse a distintos formatos según sea necesario. Esta flexibilidad permite que Lync Server 2013 sirva como convertidor de tronco entre distintos sistemas telefónicos.
+Ahora, con Lync Server 2013, el número de teléfono de la persona que llama y el número de teléfono de la persona que llama se pueden traducir a otros formatos, según sea necesario. Esta flexibilidad hace posible que Lync Server 2013 funcione como traductor troncal entre diferentes sistemas de telefonía.
 
-## Vea también
+<div>
 
-#### Conceptos
+## <a name="see-also"></a>Vea también
 
-[Nuevas características de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)
+
+[Nuevas características de la telefonía IP empresarial en Lync Server 2013](lync-server-2013-new-enterprise-voice-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

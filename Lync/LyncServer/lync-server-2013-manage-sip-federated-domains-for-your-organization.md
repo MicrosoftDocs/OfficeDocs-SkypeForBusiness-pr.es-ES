@@ -1,41 +1,79 @@
-﻿---
-title: 'Lync Server 2013: Administrar dominios federados SIP para la organización'
-TOCTitle: Administrar dominios federados SIP para la organización
-ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ552454(v=OCS.15)
-ms:contentKeyID: 49115309
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Administrar dominios federados SIP para la organización'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage SIP federated domains for your organization
+ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
+ms:contentKeyID: 48679565
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4022edf2509d0fe75ec8cc91b8f1e3a519f1f21c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828253"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar dominios federados SIP para la organización en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="manage-sip-federated-domains-for-your-organization-in-lync-server-2013"></a>Administrar dominios federados SIP para la organización en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-19_
 
 Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
 
-Para administrar y configurar los dominios SIP con los que se puede federar, puede hacer lo siguiente:
+Para administrar y configurar dominios SIP con los que se puede federar, puede hacer lo siguiente:
 
-  - Cree o modifique una lista de dominios permitidos que incluya dominios de socios federados SIP.
+  - Crear o editar una lista de dominios permitidos de dominios de socios federados de SIP.
 
-  - Cree o modifique una lista de dominios bloqueados que incluya dominios de socios federados SIP.
+  - Crear o editar una lista de dominios bloqueados de dominios federados de SIP.
 
-Para realizar estas tareas, use los procedimientos descritos en esta sección.
+Para realizar estas tareas, siga los procedimientos de esta sección.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Configurar la compatibilidad con dominios externos permitidos en Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md)
 
   - [Configurar la compatibilidad con dominios externos bloqueados en Lync Server 2013](lync-server-2013-configure-support-for-blocked-external-domains.md)
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Configurar directivas para controlar el acceso de usuarios federados en Lync Server 2013](lync-server-2013-configure-policies-to-control-federated-user-access.md)  
 [Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md)  
-[Habilitar o deshabilitar la detección de socios de federación en Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)
+[Habilitar o deshabilitar la detección de socios de federación en Lync Server 2013](lync-server-2013-enable-or-disable-discovery-of-federation-partners.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

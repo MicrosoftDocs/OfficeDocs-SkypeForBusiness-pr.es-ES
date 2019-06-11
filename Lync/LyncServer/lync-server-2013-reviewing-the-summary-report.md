@@ -1,23 +1,43 @@
-﻿---
-title: Revisión del informe de resumen en Lync Server 2013
-TOCTitle: Revisión del informe de resumen en Lync Server 2013
-ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558626(v=OCS.15)
-ms:contentKeyID: 52061617
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: revisar el informe de Resumen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reviewing the Summary Report
+ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558626(v=OCS.15)
+ms:contentKeyID: 51541459
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b42532da1272a06309b51d1f0090285fcf10c1f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822324"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Revisión del informe de resumen en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="reviewing-the-summary-report-in-lync-server-2013"></a>Revisar el informe de resumen en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-21_
 
-El informe de administrador de Lync Server es el primero de los cuatro informes de gran valor en los que se detalla minuciosamente su diseño. La información plasmada tanto en este informe como en los otros tres relacionados constituye una documentación sensacional para los equipos de TI:
+El informe del administrador de Lync Server es el primero de cuatro informes valiosos que documentan el diseño en detalle. La información de este informe y los otros tres informes asociados es una excelente documentación para los equipos de tecnología de la información:
 
-![Informe de administración de resúmenes generales](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Informe de administración de resúmenes generales")
+![Informe de administración general de Resumen] (images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Informe de administración general de Resumen")
 
   - Informe de certificados
 
@@ -29,9 +49,23 @@ En el informe de resumen se recoge la información de configuración general rel
 
 El diseñador y cada uno de los equipos encargados de implementar, administrar y mantener la infraestructura deben revisar el informe de resumen en busca de datos precisos para asegurarse de que los errores se reduzcan al mínimo.
 
-## Vea también
+<div>
 
-#### Otros recursos
+## <a name="see-also"></a>Vea también
 
-[Revisión de los informes del administrador en Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)
+
+[Revisión de los informes del administrador en Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

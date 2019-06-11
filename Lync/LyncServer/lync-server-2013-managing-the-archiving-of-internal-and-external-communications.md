@@ -1,45 +1,83 @@
-﻿---
-title: "Administrar el archivado de comunicaciones internas y externas en Lync Server 2013"
-TOCTitle: "Gest. de l'arch. des comm. int. et ext. dans Lync Server 2013"
-ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204977(v=OCS.15)
-ms:contentKeyID: 48275571
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Administrar el archivado de las comunicaciones internas y externas
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing the Archiving of internal and external communications
+ms:assetid: 6c2cf941-3204-4f1a-a7e0-416c828056d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204977(v=OCS.15)
+ms:contentKeyID: 48184417
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3a9e3c0a0708075eecc28282021f98724325ff6c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827728"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar el archivado de las comunicaciones internas y externas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-the-archiving-of-internal-and-external-communications-in-lync-server-2013"></a>Administrar el archivado de comunicaciones internas y externas en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-09_
 
-En Lync Server 2013, las directivas de archivado se usan para habilitar y deshabilitar el archivado en las comunicaciones internas y externas en caso de que no se use la integración en Microsoft Exchange, o cuando haya usuarios que no se hospeden en Exchange 2013 con sus buzones en conservación local. Esto engloba las siguientes directivas de archivado:
+En Lync Server 2013, se usan directivas de archivado para habilitar y deshabilitar el archivado de comunicaciones internas y comunicaciones externas si no se usa la integración de Microsoft Exchange o si hay usuarios que no están alojados en Exchange 2013 con sus buzones puestos en Conservación local. Esto incluye las siguientes directivas de archivado:
 
-  - Una directiva global que se crea de manera predeterminada cuando Lync Server 2013 se implementa.
+  - Una directiva global que se crea de forma predeterminada al implementar Lync Server 2013.
 
-  - Directivas opcionales de nivel de sitio y usuario que se pueden crear para especificar el modo en que el archivado se implementa en relación con determinados sitios y usuarios:
+  - Directivas opcionales a nivel de sitio y de usuario que puede crear y usar para especificar cómo se implementa el archivado para usuarios o sitios específicos.
 
-En principio, las directivas de archivado se configuran cuando se implementa el archivado, pero se pueden cambiar, agregar y eliminar directivas después de la implementación. En el Panel de control de Lync Server 2013, puede usar la página **Directiva de archivado** del grupo **Archivado y supervisión** para administrar las directivas a nivel global, de sitio y de usuario. Si integra su almacenamiento de Lync Server con el almacenamiento de Exchange 2013, las directivas de usuario de Exchange tendrán prioridad frente las directivas de archivado del Lync Server 2013.
+Inicialmente, debe configurar las directivas de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar directivas después de la implementación. En el panel de control de Lync Server 2013, puede usar la página **Directiva** de archivado del grupo **archivado y supervisión** para administrar directivas a nivel global, nivel de sitio y nivel de usuario. Si integra el almacenamiento de Lync Server con el almacenamiento de Exchange 2013, las directivas de usuario de Exchange tienen prioridad sobre las directivas de archivado de Lync Server 2013.
 
-Para obtener más información acerca de cómo se implementan las directivas, incluyendo la jerarquía de directivas, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeamiento, relativa a la implementación o sobre operaciones.
+Para obtener más información sobre cómo se implementan las directivas, incluida la jerarquía de directivas, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones.
+
+<div>
 
 
 > [!NOTE]
-> Para controlar la implementación del archivado, debe especificar una serie de opciones en las configuraciones de archivado, como, por ejemplo, si se van a archivar los mensajes instantáneos o las conferencias, el uso del modo crítico y las opciones de purgado. De forma predeterminada, no hay ninguna opción habilitada en la configuración de archivado global ni en ninguna configuración de archivado de sitio o de grupo. Antes de habilitar el archivado, debe especificar todas las opciones adecuadas en las configuraciones de archivado relativas a las comunicaciones internas y externas. Para obtener información, consulte <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">Administrar las opciones de configuración de archivado de Lync Server 2013 para su organización, sitios y grupos de servidores</A> en la documentación de operaciones.<BR>Si ha habilitado la integración con Microsoft Exchange en su implementación, las directivas de Exchange controlarán si se habilita el archivado para los usuarios hospedados en Exchange 2013 cuyos buzones están en conservación local. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuración de directivas para el archivado al usar la integración de Exchange Server</A> en la documentación de implementación.
+> Para controlar la implementación de archivado, debe especificar las opciones para archivar las configuraciones, por ejemplo, si desea archivar la mensajería instantánea o la Conferencia, el uso del modo crítico y las opciones de depuración. De forma predeterminada, no se habilita ninguna opción en la configuración global de archivado ni en ninguna configuración de archivado de sitios o grupos. Debe especificar todas las opciones apropiadas en las configuraciones de archivado antes de habilitar el archivado de las comunicaciones internas o externas en las directivas de archivado. Para obtener más información, vea <A href="lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md">administrar las opciones de configuración de archivado en Lync Server 2013 para su organización, sitios y grupos</A> en la documentación de operaciones.<BR>Si habilita la integración de Microsoft Exchange para su implementación, las directivas de Exchange controlan si el archivado está habilitado para los usuarios alojados en Exchange 2013 y si sus buzones se colocan en la retención local. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configurar directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación de implementación.
 
 
 
-## En esta sección
+</div>
 
-  - [Crear una directiva de archivado para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para sitios o usuarios específicos](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)
+<div>
 
-  - [Cambiar una directiva de archivado para habilitar o deshabilitar el archivado de comunicaciones internas o externas para sus organizaciones, sitios usuarios](lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Aplicación de una directiva de archivado a los usuarios](lync-server-2013-applying-an-archiving-policy-to-users.md)
+  - [Crear una directiva de archivado en Lync Server 2013 para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para usuarios o sitios específicos](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)
 
-  - [Configuración de directivas para el archivado al usar la integración de Exchange Server](lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md)
+  - [Cambiar una directiva de archivado en Lync Server 2013 para habilitar o deshabilitar el archivado de comunicaciones internas o externas para la organización, los sitios o los usuarios](lync-server-2013-changing-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-your-organization-sites-or-us.md)
 
-  - [Eliminar una directiva de archivado](lync-server-2013-deleting-an-archiving-policy.md)
+  - [Aplicar una directiva de archivado a los usuarios en Lync Server 2013](lync-server-2013-applying-an-archiving-policy-to-users.md)
+
+  - [Configurar directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server](lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md)
+
+  - [Eliminar una directiva de archivado en Lync Server 2013](lync-server-2013-deleting-an-archiving-policy.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

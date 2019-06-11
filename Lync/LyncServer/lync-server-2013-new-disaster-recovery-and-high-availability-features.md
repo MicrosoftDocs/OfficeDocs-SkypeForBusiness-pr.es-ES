@@ -1,29 +1,63 @@
-﻿---
-title: "Lync Server 2013: Nuevas funciones alta disponibilidad y recuperación ante desastres"
-TOCTitle: Nuevas funciones de alta disponibilidad y recuperación ante desastres
-ms:assetid: 4fa7cd0f-784b-4d3f-b839-432c2ecaf7c1
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204892(v=OCS.15)
-ms:contentKeyID: 48275208
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Nuevas funciones de alta disponibilidad y recuperación ante desastres'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New disaster recovery and high availability features
+ms:assetid: 4fa7cd0f-784b-4d3f-b839-432c2ecaf7c1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204892(v=OCS.15)
+ms:contentKeyID: 48184130
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e93e2265d401c6dca16f5c00c339fbdc893aba0a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826342"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Nuevas funciones de alta disponibilidad y recuperación ante desastres en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="new-disaster-recovery-and-high-availability-features-in-lync-server-2013"></a>Nuevas funciones de alta disponibilidad y recuperación ante desastres en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-20_
 
-Como en Lync Server 2010, el esquema de alta disponibilidad principal de Lync Server 2013 se basa en la redundancia de servidor a través de grupos. Si se produce un error en un servidor que ejecuta un rol de servidor determinado, los demás servidores del grupo que ejecutan el mismo rol asumen la carga de dicho servidor. Esto se aplica a los servidores front-end, los servidores perimetrales, los servidores de mediación y los directores.
+Como en Lync Server 2010, el esquema de alta disponibilidad (HA) principal para Lync Server 2013 se basa en la redundancia del servidor a través de la agrupación. Si un servidor que ejecuta un determinado rol de servidor tiene errores, los demás servidores del grupo que ejecutan el mismo rol recogen la carga de ese servidor. Esto es válido en servidores front-end, servidores perimetrales, servidores de mediación y directores.
 
-Lync Server 2013 agrega nuevas medidas de recuperación ante desastres al permitir emparejar grupos front-end ubicados en dos centros de datos. Si uno de los grupos emparejadas se desactiva, un administrador puede conmutar por error los usuarios de un grupo a otro grupo de la pareja, para proporcionar continuidad del servicio. Estas funciones no necesitan una red o soluciones de hardware caras como redes de almacenamiento o discos compartidos.
+Lync Server 2013 agrega nuevas medidas de recuperación ante desastres permitiéndole emparejar grupos de servidores front-end ubicados en dos centros de recursos. Si una de las agrupaciones emparejadas deja de funcionar, un administrador puede migrar por error los usuarios de ese grupo al otro grupo en el par, para proporcionar la continuación del servicio. Esta funcionalidad no requiere soluciones costosas de red o de hardware, como redes de almacenamiento o discos compartidos.
 
-Lync Server 2013 también agrega alta disponibilidad del servidor back-end. Se trata de una topología opcional en la que implementa dos servidores back-end para un grupo front-end y configura una creación de reflejo de SQL sincrónica para todas las bases de datos de Lync que se ejecutan en los servidores back-end. Puede elegir si desea implementar un testigo para el reflejo.
+Lync Server 2013 también agrega la alta disponibilidad del servidor back end. Esta es una topología opcional en la que se implementan dos servidores de servicios de fondo para un grupo de servidores front-end y se configuran los reflejos de SQL sincrónico para todas las bases de datos de Lync que se ejecutan en los servidores back-end. Puede elegir si desea implementar un testigo para el reflejo.
 
-## Vea también
+<div>
 
-#### Conceptos
+## <a name="see-also"></a>Vea también
 
-[Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+
+[Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

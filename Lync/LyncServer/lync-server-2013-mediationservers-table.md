@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla MediationServers'
-TOCTitle: Tabla MediationServers
-ms:assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412743(v=OCS.15)
-ms:contentKeyID: 48276158
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla MediationServers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: MediationServers table
+ms:assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412743(v=OCS.15)
+ms:contentKeyID: 48184929
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e211bf9339df49faef7fa83bffa7c65b732b2684
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827203"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla MediationServers en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="mediationservers-table-in-lync-server-2013"></a>Tabla MediationServers en Lync Server 2013
 
-La tabla MediationServers es una tabla auxiliar. En cada registro se almacena información sobre un servidor de mediación que participa en llamadas con registros en esta base de datos.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2010-11-06_
+
+La tabla MediationServers es una tabla de soporte. Cada registro almacena información acerca de un servidor de mediación implicado en llamadas que tienen registros en la base de datos.
 
 
 <table>
@@ -36,8 +56,8 @@ La tabla MediationServers es una tabla auxiliar. En cada registro se almacena in
 <tbody>
 <tr class="odd">
 <td><p><strong>MediationServerId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
+<td><p>int</p></td>
+<td><p>Primary</p></td>
 <td><p>Número único que identifica este servidor de mediación.</p></td>
 </tr>
 <tr class="even">
@@ -48,4 +68,15 @@ La tabla MediationServers es una tabla auxiliar. En cada registro se almacena in
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

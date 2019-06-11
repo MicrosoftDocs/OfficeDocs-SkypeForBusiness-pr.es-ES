@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla McuJoinsAndLeaves'
-TOCTitle: Tabla McuJoinsAndLeaves
-ms:assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398316(v=OCS.15)
-ms:contentKeyID: 48275233
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla McuJoinsAndLeaves'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: McuJoinsAndLeaves table
+ms:assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398316(v=OCS.15)
+ms:contentKeyID: 48184115
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5a936b6d6d9b371238873909646a146b94f659c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827581"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla McuJoinsAndLeaves en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="mcujoinsandleaves-table-in-lync-server-2013"></a>Tabla McuJoinsAndLeaves en Lync Server 2013
 
-Cada uno de los registros de esta tabla contiene detalles de llamada relativos a una combinación de entrada o salida de un usuario y del servidor de conferencias. Por ejemplo, si un usuario se une a una conferencia que incluye conferencias web y elementos de audio/vídeo, se crearía un registro para la unión a la conferencia web de ese usuario, y se crearía otro registro para la unión a la conferencia de audio/vídeo por parte del usuario.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-28_
+
+Cada registro de esta tabla contiene detalles de la llamada acerca de una combinación de una Unión de usuario o de un servidor de conferencia y un servidor de conferencia. Por ejemplo, si un usuario se une a una conferencia que incluye conferencias web y elementos de audio/vídeo, se creará un registro para la combinación de conferencias por Internet de ese usuario y otro para la combinación de audio y videoconferencias del usuario.
 
 
 <table>
@@ -36,71 +56,82 @@ Cada uno de los registros de esta tabla contiene detalles de llamada relativos a
 <tbody>
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
-<td><p>Datetime</p></td>
-<td><p>Principal, Externa</p></td>
-<td><p>Hora de la instancia de conferencia. Se usa junto con <strong>SessionIdSeq</strong> para identificar una instancia de conferencia de forma única. Vea la <a href="lync-server-2013-conferences-table.md">Tabla Conferences en Lync Server 2013</a>.</p></td>
+<td><p>datetime</p></td>
+<td><p>Principal, extranjero</p></td>
+<td><p>Hora de la instancia de conferencia. Se usa junto con <strong>SessionIdSeq</strong> para identificar de forma exclusiva una instancia de conferencia. Para obtener más información, vea la <a href="lync-server-2013-conferences-table.md">tabla conferencias en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal, Externa</p></td>
-<td><p>Número que identifica la instancia de conferencia. Se usa junto con <strong>SessionIdTime</strong> para identificar una instancia de conferencia de forma única. Vea <a href="lync-server-2013-conferences-table.md">Tabla Conferences en Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Principal, extranjero</p></td>
+<td><p>Número de identificación para identificar la instancia de la Conferencia. Se usa junto con <strong>SessionIdTime</strong> para identificar de forma exclusiva una instancia de conferencia. Para obtener más información, vea la <a href="lync-server-2013-conferences-table.md">tabla conferencias en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal, Externa</p></td>
-<td><p>Número único que identifica este usuario. Vea <a href="lync-server-2013-users-table.md">Tabla Users en Lync Server 2013</a> para obtener más información.</p></td>
+<td><p><strong>Iddeusuario</strong></p></td>
+<td><p>int</p></td>
+<td><p>Principal, extranjero</p></td>
+<td><p>Número único que identifica a este usuario. Para obtener más información, consulte la <a href="lync-server-2013-users-table.md">tabla usuarios en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuUserInstance</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
-<td><p>Si un usuario se encuentra conectado a varios equipos de forma simultánea, McuUserInstance identifica de forma única la combinación de usuario/dispositivo.</p></td>
+<td><p>int</p></td>
+<td><p>Primary</p></td>
+<td><p>Si un usuario ha iniciado sesión en varios equipos o dispositivos a la vez, McuUserInstancerá de forma exclusiva la combinación de usuario y dispositivo.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IsFromPstn</strong></p></td>
 <td><p>bit</p></td>
 <td><p> </p></td>
-<td><p>Indica si el usuario se está uniendo desde una RTC o no.</p></td>
+<td><p>Si el usuario se une desde una RTC o no.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>McuId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal, Externa</p></td>
-<td><p>Número único que identifica este servidor de conferencias. Vea <a href="lync-server-2013-mcus-table.md">Tabla Mcus en Lync Server 2013</a> para obtener más información.</p></td>
+<td><p>int</p></td>
+<td><p>Principal, extranjero</p></td>
+<td><p>Número único que identifica este servidor de conferencia. Para obtener más información, consulte la <a href="lync-server-2013-mcus-table.md">tabla MCU en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogSessionIdTime</strong></p></td>
-<td><p>Datetime</p></td>
-<td><p>Externa</p></td>
-<td><p>Hora de la solicitud de sesión. Se usa en combinación con <strong>SessionIdSeq</strong> para identificar de forma única una sesión. Vea la <a href="lync-server-2013-dialogs-table.md">Tabla Dialogs en Lync Server 2013</a>.</p></td>
+<td><p>datetime</p></td>
+<td><p>Extranjero</p></td>
+<td><p>Hora de la solicitud de sesión. Se usa en conjunción con <strong>SessionIdSeq</strong> para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogSessionIdSeq</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Externa</p></td>
-<td><p>Número para identificar la sesión. Se usa junto con <strong>SessionIdTime</strong> como identificación única de una sesión. Para más información, vea la <a href="lync-server-2013-dialogs-table.md">Tabla Dialogs en Lync Server 2013</a>.</p></td>
+<td><p>int</p></td>
+<td><p>Extranjero</p></td>
+<td><p>Número de identificación para identificar la sesión. Se usa en conjunción con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserJoinTime</strong></p></td>
-<td><p>Datetime</p></td>
+<td><p>datetime</p></td>
 <td><p> </p></td>
-<td><p>Hora a la que este usuario se une a este servidor de conferencias.</p></td>
+<td><p>El momento en que este usuario se une a este servidor de conferencia.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserLeaveTime</strong></p></td>
-<td><p>Datetime</p></td>
+<td><p>datetime</p></td>
 <td><p> </p></td>
-<td><p>Hora a la que este usuario sale de este servidor de conferencias.</p></td>
+<td><p>Hora en que este usuario abandona este servidor de conferencia.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>ClientVerId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Externa</p></td>
-<td><p>Identificador que especifica el número de versión de software de cliente que se usa en la conferencia. Para más información, vea <a href="lync-server-2013-clientversions-table.md">Tabla ClientVersions en Lync Server 2013</a>.</p>
+<td><p>int</p></td>
+<td><p>Extranjero</p></td>
+<td><p>Identificador que especifica el número de versión del uso de software de cliente en la Conferencia. Para obtener más información, consulte la <a href="lync-server-2013-clientversions-table.md">tabla ClientVersions en Lync Server 2013</a> .</p>
 <p>Este campo se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

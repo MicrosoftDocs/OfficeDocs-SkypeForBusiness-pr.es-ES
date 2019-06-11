@@ -1,64 +1,106 @@
-﻿---
-title: Restaurar, supervisar o archivar datos
-TOCTitle: Restaurar, supervisar o archivar datos
-ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202175(v=OCS.15)
-ms:contentKeyID: 52061690
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: restaurar o archivar datos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring monitoring or archiving data
+ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202175(v=OCS.15)
+ms:contentKeyID: 51541483
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 803cb6050d4230653a13f1e3e66c2a092911c509
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822387"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Restaurar, supervisar o archivar datos
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="restoring-monitoring-or-archiving-data-in-lync-server-2013"></a>Restaurar o archivar datos en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-18_
 
-La restauración de los datos de archivado y supervisión no es necesaria para que Lync Server vuelva a funcionar correctamente después de un error. Sin embargo, si los datos de archivado y supervisión son esenciales para su organización, se recomienda restaurarlos después de volver a crear las bases de datos.
+La restauración de datos de supervisión y archivado no es necesaria para que Lync Server funcione correctamente después de un error. Sin embargo, si la supervisión y el archivado de datos son esenciales para su organización, querrá restaurar los datos después de volver a crear las bases de datos.
 
-El siguiente procedimiento describe cómo usar SQL Server Management Studio para restaurar datos de archivado o supervisión.
+En el procedimiento siguiente se describe cómo usar SQL Server Management Studio para restaurar o archivar datos.
 
-## Para restaurar datos de archivado o supervisión de un archivo de copia de seguridad
+<div>
 
-1.  Inicie sesión en el servidor que va a restaurar como miembro del grupo Administradores en el equipo local o un grupo con derechos de usuario equivalentes.
+## <a name="to-restore-monitoring-or-archiving-data-from-a-backup-file"></a>Para restaurar datos de supervisión o de archivado desde un archivo de copia de seguridad
 
-2.  Para abrir SQL Server Management Studio, haga clic en **Inicio**, en **Todos los programas**, en **Microsoft SQL Server 2012** o **Microsoft SQL Server 2008 R2** y, a continuación, en **SQL Server Management Studio**.
+1.  Inicie sesión en el servidor que va a restaurar como miembro del grupo administradores en el equipo local o en un grupo con derechos de usuario equivalentes.
 
-3.  En **Conectar al servidor**, conéctese a la instancia de SQL Server indicando al menos el nombre del servidor y la información de autenticación.
+2.  Abra SQL Server Management Studio: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft SQL Server 2012** o **Microsoft SQL Server 2008 R2**y, a continuación, haga clic en **SQL Server Management Studio**.
 
-4.  En **Explorador de objetos**, haga clic con el botón secundario del mouse en **Bases de datos** y, a continuación, haga clic en **Restaurar base de datos**.
+3.  En **conectar con el servidor**, conéctese a la instancia de SQL Server proporcionando al menos el nombre del servidor y la información de autenticación.
 
-5.  En **Seleccionar una página**, haga clic en **General** y, a continuación, en **Base de datos de destino**, seleccione el nombre de la base de datos de la siguiente forma:
+4.  En el **Explorador de objetos**, haga clic con el botón secundario en **bases**de datos y luego haga clic en **restaurar base de datos**.
+
+5.  En **seleccionar una página**, haga clic en **General**y, a continuación, en **base de datos** Seleccione el nombre de la base de datos de la siguiente manera:
     
-      - Para un Base de datos de archivado, seleccione **LcsLog**.
+      - Para una base de datos de archivado, seleccione **LcsLog**.
     
-      - Para una base de datos de registros de detalles de las llamadas (CDR), seleccione **LcsCDR**.
+      - Para obtener una base de datos de grabación de detalles de llamadas (CDR), seleccione **LcsCDR**.
     
-      - Para una base de datos de calidad de la experiencia (QoE), seleccione **QoEMetrics**.
+      - Para obtener una base de datos de calidad de la experiencia (QoE), seleccione **QoEMetrics**.
 
-6.  Haga clic en **Dispositivos de origen**.
+6.  Haga clic en **desde dispositivo**.
 
-7.  En **Seleccionar los conjuntos de copia de seguridad que se van a restaurar**, haga clic en el archivo de copia de seguridad y, a continuación, haga clic en **Restaurar**.
+7.  En **seleccionar los conjuntos de copia de seguridad que se restaurarán**, haga clic en el archivo de copia de seguridad y luego en **restaurar**.
 
-8.  En **Seleccionar una página**, haga clic en **Opciones**, compruebe que la ruta del archivo de datos y la ruta del registro se encuentran en la carpeta correcta y, a continuación, haga clic en **Aceptar**.
+8.  En **seleccionar una página**, haga clic en **Opciones**, compruebe que la ruta del archivo de datos y la ruta de registro estén en la carpeta correcta y, a continuación, haga clic en **Aceptar**.
 
-## Para asegurarse de que las listas de control de acceso (ACL) son correctas
+</div>
 
-1.  Expanda **Bases de datos**, expanda la base de datos de archivado o supervisión, expanda **Seguridad** y, a continuación, expanda **Usuarios**.
+<div>
+
+## <a name="to-make-sure-that-access-control-lists-acls-are-correct"></a>Para asegurarse de que las listas de control de acceso (ACL) sean correctas
+
+1.  Expanda **bases**de datos, expanda la base de datos de archivado o supervisión, expanda **seguridad**y, a continuación, expanda **usuarios**.
 
 2.  Compruebe que el grupo de dominio RTCComponentUniversalServices existe como usuario.
 
-3.  Si RTCComponentUniversalServices no existe en **Usuarios**, siga estos pasos:
+3.  Si RTCComponentUniversalServices no existe en **usuarios**, haga lo siguiente:
     
-    1.  Haga clic con el botón secundario del mouse en **Usuarios** y, a continuación, haga clic en **Nuevo usuario**.
+    1.  Haga clic con el botón secundario en **usuarios**y luego haga clic en **nuevo usuario**.
     
-    2.  En **Nombre de inicio de sesión**, escriba el nombre del grupo que falta, RTCComponentUniversalServices.
+    2.  En **nombre de inicio de sesión**, escriba el nombre del grupo que falta, RTCComponentUniversalServices.
     
-    3.  En **Miembros del rol de base de datos**, seleccione el permiso **ServerRole** y, a continuación, haga clic en **Aceptar**.
+    3.  En pertenencia al rol de la **** **base de datos**, seleccione el permiso y haga clic en **Aceptar**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > No será necesario reiniciar el servicio de archivado o supervisión.
+    > [!NOTE]  
+    > No es necesario que reinicie el servicio de archivado o supervisión.
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

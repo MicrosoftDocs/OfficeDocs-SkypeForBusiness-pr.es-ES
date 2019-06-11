@@ -1,59 +1,98 @@
-﻿---
-title: 'Lync Server 2013: Información general sobre el acceso de usuarios externos'
-TOCTitle: Información general sobre el acceso de usuarios externos
-ms:assetid: 97aded6c-5fa3-4225-95a6-9ad094d61654
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398775(v=OCS.15)
-ms:contentKeyID: 48276095
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Información general sobre el acceso de usuarios externos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of external user access
+ms:assetid: 97aded6c-5fa3-4225-95a6-9ad094d61654
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398775(v=OCS.15)
+ms:contentKeyID: 48184934
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a527df5a3bc7b296d17860c7a02876dbc31fbc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825523"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Información general sobre el acceso de usuarios externos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="overview-of-external-user-access-in-lync-server-2013"></a>Información general sobre el acceso de usuarios externos en Lync Server 2013
 
-En esta documentación, se usa el término *usuario externo* para definir a una gran categoría de usuarios que se comunican con sus usuarios de Lync Server 2013 y Lync 2013 desde fuera del firewall. Los usuarios externos que puede autorizar para que usen Lync Server 2013 para comunicarse con usuarios internos (es decir, usuarios que inician sesión en Lync Server desde dentro del firewall) son:
+</div>
 
-  - **Usuarios remotos**   Usuarios de su organización que inician sesión en Lync Server desde fuera del firewall.
+<div id="mainSection">
 
-  - **Usuarios federados :** usuarios que tienen una cuenta con un cliente o una organización socia de confianza, como Lync Server 2010, Lync Server 2013 o Office Communications Server 2007 R2. Los usuarios federados también pueden ser miembros de organizaciones de socios definidas utilizando el Protocolo extensible de mensajería y presencia (XMPP) mediante el proxy XMPP del Servidor perimetral y de la puerta de enlace XMPP del Servidor front-end o del grupo. Una relación de confianza definida, denominada una federación, no está relacionada ni depende de la relación de confianza de Servicios de dominio de Active Directory.
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-11-07_
+
+En esta documentación, usamos el término *usuario externo* para definir una categoría grande de usuarios que se comunican con los usuarios de lync Server 2013 y Lync 2013 desde fuera del firewall. Los usuarios externos que pueden autorizar para comunicar Lync Server 2013 con usuarios internos (es decir, los usuarios que inician sesión en Lync Server desde dentro del firewall) pueden incluir lo siguiente:
+
+  - **Usuarios remotos**   usuarios de su organización que inician sesión en Lync Server desde fuera del firewall.
+
+  - **Usuarios federados**   usuarios que tienen una cuenta con un cliente de confianza o una organización asociada, como Lync Server 2010, Lync Server 2013 u Office Communications Server 2007 R2. Los usuarios federados también pueden ser miembros de organizaciones de socios definidas con el protocolo de presencia y mensajería extensible (XMPP) a través del proxy XMPP en el servidor perimetral y la puerta de enlace XMPP en el servidor o grupo de servidores front-end. Una relación de confianza definida, denominada Federación, no está relacionada o depende de una relación de confianza de los servicios de dominio de Active Directory.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Se anunció que la fecha de finalización de AOL y Yahoo! será en junio de 2014. Para obtener detalles, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</A>.
+    > [!NOTE]  
+    > Una fecha de fin de vida de junio de 2014 para AOL y Yahoo! ha sido anunciado. Para obtener más información, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">compatibilidad de la conectividad de mensajería instantánea pública en Lync Server 2013</A>.
 
-
-
-  - **Usuarios de Conectividad de mensajería instantánea pública**   Contactos que sus usuarios establecen mediante servicios de conectividad de mensajería instantánea pública (Windows Live, Yahoo\! y AOL).
-
-  - **Usuarios móviles :** usuarios miembros de su organización que utilizan un smartphone o tableta que ejecuta un inicio de sesión de cliente de Lync Mobile en su implementación interna y que son capaces de comunicarse con los otros tipos de usuarios. El usuario móvil utiliza los servicios de movilidad publicados en el servidor inverso para acceder a la implementación interna. Para obtener información detallada acerca de las funciones y capacidades disponibles para Lync Mobile, consulte las tablas de comparación de clientes en [http://go.microsoft.com/fwlink/?linkid=234777\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=234777%26clcid=0xc0a).
-
-  - **Usuarios anónimos :** usuarios que no disponen de una cuenta de usuario en los Servicios de dominio de Active Directory de la organización o en un dominio federado permitido, pero que han recibido una invitación para participar de forma remota en una conferencia local.
-
-La implementación perimetral sirve para autenticar estos tipos de usuarios externos y controlar el acceso externo para los siguientes tipos de comunicación:
-
-  - **Mensajería instantánea y presencia :** los usuarios externos autorizados pueden participar en conversaciones y conferencias de mensajería instantánea y pueden obtener información sobre el estado de presencia de otros usuarios. Los usuarios de proveedores del servicio de mensajería instantánea pública pueden participar en conversaciones de mensajería instantánea con usuarios individuales de Lync Server de la misma organización y obtener acceso a información de presencia, pero no pueden participar en conferencias de mensajería instantánea entre varias partes de Lync Server, sino que se restringen a comunicación punto a punto. Los usuarios de proveedores de servicios de mensajería instantánea pública no pueden utilizar la transferencia de archivos, y el audio y el vídeo en comunicaciones de punto a punto solo se permite a los usuarios de Windows Messenger y no a los de proveedores de servicios de mensajería instantánea pública.
     
-    Se admiten los protocolos SIP y XMPP. Para ofrecer servicios para XMPP, consulte [Planeación de la federación SIP, la federación XMPP y la mensajería instantánea pública en Lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md).
+    </div>
 
-  - **Conferencia web :** los usuarios externos autorizados pueden participar en conferencias hospedadas en la implementación de Lync Server. Los usuarios remotos, federados y anónimos pueden habilitarse para la participación en conferencias web, pero los usuarios de mensajería instantánea pública no pueden participar en conferencias. Según las opciones que seleccione, los usuarios habilitados para conferencia web podrán participar en el uso compartido de aplicaciones y escritorios, además de actuar como organizadores o moderadores de reuniones.
+  - **Usuarios de conectividad de mensajería instantánea pública**   contactos que los usuarios establecen a través de servicios de conectividad de mensajería instantánea pública (Windows Live, Yahoo\! y AOL).
 
-  - **Conferencia A/V :** los usuarios externos autorizados pueden participar en conferencias de audio y video que hospeda su host de Lync Server. Los usuarios de Windows Messenger pueden utilizar el audio y el video en las comunicaciones punto a punto, pero no lo pueden hacer otros usuarios de proveedores de servicios de mensajería instantánea.
+  - **Usuarios móviles usuarios**   que son miembros de su organización que usan un teléfono inteligente o una tableta con un cliente de Lync Mobile inicie sesión en su implementación interna y podrá comunicarse con las otras clases de usuarios. El usuario móvil usa los servicios de movilidad que se publican a través del proxy inverso para obtener acceso a la implementación interna. Para obtener más información sobre las características y capacidades disponibles para Lync Mobile, consulte las tablas de [http://go.microsoft.com/fwlink/p/?LinkID=234777](http://go.microsoft.com/fwlink/p/?linkid=234777)comparación de clientes móviles en.
 
-Para controlar las comunicaciones a través del firewall, puede configurar una o más directivas que sirvan para definir el modo en que se comunican los usuarios de dentro y fuera del firewall. Además, puede configurar otros parámetros y aplicar directivas para usuarios internos individuales o para tipos específicos de usuarios externos para controlar las comunicaciones con usuarios externos.
+  - **Usuarios anónimos**   usuarios que no tienen una cuenta de usuario en los servicios de dominio de Active Directory de su organización o en un dominio federado admitido, pero que han recibido invitaciones para que participen de forma remota en una conferencia local.
 
-Roles de Lync Server 2013 que se utilizan para ofrecer acceso externo:
+La implementación del extremo proporciona acceso externo para los siguientes tipos de comunicación:
 
-**Servidor perimetral :** el Servidor perimetral es un servidor o grupo de servidores que ejecuta los servicios que permiten el acceso externo a los servicios de mensajería instantánea y presencia, conferencia, audio y video y otros medios (por ejemplo, la transferencia de archivos). Opcionalmente, puede configurar el Servidor perimetral para establecer relaciones de federación con las demás implementaciones de Lync Server o Office Communications Server 2007 R2 y otras federaciones XMPP. La característica opcional de conectividad de mensajería instantánea pública se habilita y se configura mediante el Servidor perimetral.
+  - **La mensajería instantánea y**   los usuarios externos autorizados pueden participar en conversaciones y conferencias de mensajería instantánea, y pueden obtener información sobre el estado de presencia de los demás. Los usuarios de proveedores de servicios de mensajería instantánea pública pueden participar en conversaciones de mensajería instantánea con usuarios individuales de Lync Server en la organización y obtener acceso a información de presencia, pero no pueden participar en conferencias de mensajería instantánea con Lync Server. Es estrictamente una comunicación de punto a punto. La transferencia de archivos no es compatible con los usuarios de proveedores de servicios de mensajería instantánea pública, y el audio o vídeo de las comunicaciones de punto a punto es compatible con los usuarios de Windows Messenger 2011, pero no con otros usuarios de proveedores de servicios de mensajería instantánea pública.
+    
+    Se admiten los protocolos SIP y XMPP. Para proporcionar servicios para XMPP, consulte [planificación de SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md).
 
-**Director :** el Director es un servidor o grupo de servidores opcional que ejecuta el rol de Lync Server 2013  Director que autentica previamente las solicitudes de los usuarios y las redirige al inicio de los usuarios de Servidor front-end o Grupo de servidores front-end, pero no hospeda ninguna cuenta de usuario.
+  - **Las conferencias**   web autorizadas a los usuarios externos pueden participar en conferencias que se hospedan en la implementación de Lync Server. Los usuarios remotos, los usuarios federados y los usuarios anónimos pueden habilitarse para la participación en conferencias web, pero los usuarios de la mensajería instantánea pública no pueden participar en conferencias. En función de las opciones que seleccione, los usuarios habilitados para conferencias web pueden participar en el escritorio y compartir aplicaciones, y pueden actuar como organizadores o moderadores de reuniones.
 
-**Servidor inverso :** un servidor inverso es un término general para los servidores especializados que publican recursos disponibles en la red interna y recuperan información para los clientes desde el recurso publicado. Lync Server 2013 utiliza el servidor inverso para publicar varias características, como las reuniones de conferencia, las ubicaciones de unión a conferencias, la libreta de direcciones, la expansión de la lista de distribución, la descarga del contenido de las reuniones, las actualizaciones de los dispositivos, los servicios de movilidad, y mucho más. Se puede utilizar cualquier servidor inverso que cumpla los requisitos de la publicación de las ubicaciones de recursos necesarias. Microsoft Forefront Threat Management Gateway (TMG) 2010 se utiliza como ejemplo para los fines de ilustración de las reglas de publicación necesarias, pero Forefront TMG 2010 no es necesario.
+  - **Conferencias a/V**   los usuarios externos autorizados pueden participar en conferencias de audio y vídeo que aloje su implementación de Lync Server. El audio o vídeo de las comunicaciones de punto a punto es compatible con los usuarios de Windows Messenger 2011, pero no con otros usuarios de proveedores de servicios de mensajería instantánea pública.
+
+Para controlar las comunicaciones, puede configurar una o más directivas que definan cómo los usuarios de dentro y fuera de la organización se comunican entre sí. También puede configurar opciones y aplicar directivas para usuarios internos individuales o para determinados tipos de usuarios externos para controlar las comunicaciones con usuarios externos.
+
+Roles de 2013 de Lync Server que se usan para proporcionar acceso externo:
+
+**Servidor perimetral el**   servidor perimetral es un servidor o un grupo de servidores que ejecutan los servicios que permiten acceso externo a los servicios de mensajería instantánea y presencia, Conferencia, audio/vídeo y otros elementos multimedia (por ejemplo, la transferencia de archivos). De manera opcional, puede configurar el servidor perimetral para federarse con otras implementaciones de Lync Server o de Office Communications Server 2007 R2 y otras implementaciones de XMPP. La característica de conectividad de mensajería instantánea pública opcional está habilitada y configurada a través del servidor perimetral.
+
+**Director**   el director es un servidor opcional o un grupo de servidores que ejecuta el rol de Director de Lync Server 2013 que previamente autentica las solicitudes de usuario y enruta las solicitudes al servidor front-end de los usuarios o al grupo de servidores front-end, pero no aloja ninguna cuenta de usuario.
+
+**Proxy**   inverso un proxy inverso es un término general para servidores especializados que publican recursos disponibles en la red interna y recuperan información para los clientes del recurso publicado. Lync Server 2013 usa el proxy inverso para publicar varias características, como reuniones de conferencia, ubicaciones de combinación de conferencias, la libreta de direcciones, expansión de la lista de distribución, descarga del contenido de la reunión, actualizaciones de dispositivos, servicios de movilidad, etc. Se puede usar cualquier proxy inverso que cumpla los requisitos para publicar las ubicaciones de recursos que sean necesarias. Microsoft Forefront Threat Management Gateway (TMG) 2010 se usa como ejemplo para ilustrar las reglas de publicación necesarias, pero Forefront TMG 2010 no es necesario.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Lync Server 2013 admite tanto IPv4 como IPv6. Windows Server 2008 R2, Windows Server 2012 y Windows Server 2012 R2 usan una pila doble que puede usar IPv4 e IPv6 simultáneamente. Esto es importante debido a la naturaleza transicional de una implementación que se mueve de IPv4 a IPv6. IPv4 se puede admitir en algunas áreas, mientras que IPv6 se puede utilizar en otras áreas de la implementación. Esto es especialmente importante cuando hay implementaciones de Internet e internas implicadas. Los clientes externos deben comunicarse a través del proxy inverso para usar servicios como movilidad, reuniones o descarga de libretas de direcciones, entre otros. Actualmente, Forefront Threat Management Gateway 2010 e Internet Security and Acceleration Server 2006 no admiten el direccionamiento IPv6, independientemente de la versión del sistema operativo donde estén implementados. Debe realizar la planeación de acuerdo con el uso que haga de IPv6 e IPv4 en relación con los clientes externos.
+> Lync Server 2013 admite IPv4 e IPv6. Windows Server&nbsp;2008&nbsp;r2, Windows Server 2012 y Windows Server 2012 R2 usan una pila doble que puede usar IPv4 y IPv6 al mismo tiempo. Esto es importante debido a la naturaleza transitoria de una implementación que se mueve de IPv4 a IPv6. IPv4 puede ser compatible en algunas áreas, donde en otras áreas de la implementación, se puede usar IPv6. Esto es especialmente importante cuando se trata de Internet y de las implementaciones internas. Los clientes externos deben comunicarse a través del proxy inverso para usar servicios como la movilidad, las reuniones, la descarga de la libreta de direcciones y otros. En la actualidad, Forefront Threat Management Gateway 2010 e Internet Security and Acceleration Server 2006 no admiten las direcciones IPv6, independientemente de la versión del sistema operativo en el que se hayan implementado. Debe planificar según corresponda en relación con el uso que usted hace de IPv6 e IPv4 en relación con clientes externos.
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

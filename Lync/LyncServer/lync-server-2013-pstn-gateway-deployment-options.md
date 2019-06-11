@@ -1,89 +1,139 @@
-﻿---
-title: 'Lync Server 2013: Opciones de implementación de la puerta de enlace RTC'
-TOCTitle: Opciones de implementación de la puerta de enlace RTC
-ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398899(v=OCS.15)
-ms:contentKeyID: 48276761
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Opciones de implementación de la puerta de enlace RTC'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN gateway deployment options
+ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398899(v=OCS.15)
+ms:contentKeyID: 48185445
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 137c9996429e953db22bea0c0dbd382f5a7af9a2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823822"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Opciones de implementación de la puerta de enlace RTC en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="pstn-gateway-deployment-options-in-lync-server-2013"></a>Opciones de implementación de la puerta de enlace RTC en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-21_
 
-## Puertas de enlace RTC
+<div>
 
-Las puertas de enlace RTC son componentes de hardware de terceros que convierten la señalización y los medios entre la infraestructura de Telefonía IP empresarial y la RTC ya sea de forma directa o con una conexión a troncos SIP. En cualquier topología, la puerta de enlace finaliza la RTC. Se encuentra aislada en su propia subred y se conecta a la red de empresa a través del Servidor de mediación.
+## <a name="pstn-gateways"></a>Puertas de enlace RTC
 
-Una empresa con varios sitios, normalmente deberá implementar una o más puertas de enlace en cada sitio. Los sitios de sucursal pueden conectarse a la RTC con una puerta de enlace o con una Aplicación de sucursal con funciones de supervivencia, que combina una puerta de enlace y servidores en un mismo componente. Si los sitios de sucursal usan una puerta de enlace, se necesita un registrador y un Servidor de mediación en el sitio, a menos que el vínculo WAN sea resistente. Uno o más Servidores de mediación, instalados en Servidores front-end, pueden enrutar llamadas para una o más puertas de enlace en cada sitio. Recomendamos que el registrador, el Servidor de mediación y la puerta de enlace necesarios en el sitio se implementen como Aplicación de sucursal con funciones de supervivencia.
+Las puertas de enlace de red de telefonía pública conmutada (RTC) son componentes de hardware de terceros que traducen las señales y los medios entre la infraestructura de telefonía IP empresarial y la RTC, ya sea directamente o a través de una conexión a los troncos SIP. En cualquiera de las dos topologías, la puerta de enlace finaliza la RTC. La puerta de enlace está aislada en su propia subred y está conectada a la red de la empresa a través del servidor de mediación.
 
-Determinar el número, el tamaño y la ubicación de las puertas de enlace RTC es, posiblemente, la decisión más importante y costosa que hay que tomar al planear la infraestructura de Telefonía IP empresarial.
+Una empresa con varios sitios normalmente implementaría una o más puertas de enlace en cada sitio. Los sitios de sucursales se pueden conectar a la RTC a través de una puerta de enlace o a través de un equipo de sucursales con la supervivencia, que combina puerta de enlace y servidores en un único cuadro. Si los sitios de sucursal usan una puerta de enlace, se necesita un registrador y un servidor de mediación en el sitio, a menos que el vínculo WAN sea resistente. Uno o varios servidores de mediación, que se colocan en servidores front-end, pueden enrutar las llamadas de una o más puertas de enlace en cada sitio. Recomendamos que el registrador, el servidor de mediación y la puerta de enlace necesaria en el sitio se implementen como un equipo de sucursal con la supervivencia.
 
-A continuación presentamos las principales preguntas que hay que plantearse. Recuerde que las respuestas a estas preguntas están todas interrelacionadas
+Determinar el número, el tamaño y la ubicación de las puertas de enlace RTC es quizás la decisión más importante y costosa que debe tomarse al planear la infraestructura de voz empresarial.
 
-  - ¿Cuántas puertas de enlace RTC se necesitan? La respuesta depende del número de usuarios, el número previsto de llamadas simultáneas (carga de tráfico) y el número de sitios (cada sitio necesita una).
+Estas son las principales preguntas que debe tener en cuenta. Tenga en cuenta que las respuestas a estas preguntas son totalmente interdependientes
 
-  - ¿Qué tamaño deben tener las puertas de enlace? La respuesta depende del número de usuarios en el sitio y en la carga de trabajo.
+  - ¿Cuántas puertas de enlace RTC se necesitan? La respuesta depende del número de usuarios, el número anticipado de llamadas simultáneas (carga de tráfico) y el número de sitios (cada sitio necesita uno).
 
-  - ¿Dónde deben colocarse las puertas de enlace? La respuesta depende en parte de la topología y en parte de la distribución geográfica de la organización.
+  - ¿Qué tamaño deberían tener las puertas de enlace? La respuesta depende del número de usuarios del sitio y de la carga de tráfico.
 
-Tenga en cuenta también las opciones de topología de la puerta de enlace (para más información, vea Topologías de puerta de enlace más adelante, en este tema).
+  - ¿Dónde se deben ubicar los gateways? La respuesta depende en parte de la topología y en parte de la distribución geográfica de su organización.
 
-## Compatibilidad con troncos M:N
+También debe tener en cuenta las opciones de topología de la puerta de enlace (para obtener información detallada, vea topologías de puertas de enlace más adelante en este tema).
 
-Los Servidores de mediación pueden enrutar las llamadas a través de varias puertas de enlace, de los controladores de borde de sesión (SBC) proporcionados por los proveedores de servicios de telefonía por Internet, o de una combinación de ambos. Además, varios Servidores de mediación del grupo de servidores pueden interactuar con varias puertas de enlace. La ruta lógica definida entre un Servidor de mediación y una puerta de enlace se denomina un *tronco* . Cuando un usuario interno realiza una llamada RTC, la lógica de redirección de salida del Grupo de servidores front-end elige el tronco al que se redireccionarán todas las posibles combinaciones que pueden estar disponibles para redirigir esta llamada en concreto. Con el equilibrio de carga de DNS, si una llamada no llega a una puerta de enlace debido a un problema con un servidor de mediación del grupo de servidores, se reintentará la llamada en un Servidor de mediación alternativo del grupo de servidores.
+<div>
 
-Para más información sobre la planeación de varias puertas de enlace, vea [Tronco M:N en Lync Server 2013](lync-server-2013-m-n-trunk.md).
+## <a name="mn-trunk-support"></a>Compatibilidad con troncos M:N
 
-Para obtener más información detallada sobre otras mejoras de enrutamiento saliente, vea [Rutas de voz en Lync Server 2013](lync-server-2013-voice-routes.md).
+Los servidores de mediación pueden enrutar las llamadas a través de varias puertas de enlace, controladores de borde de sesión (SBCs) proporcionados por proveedores de servicios de telefonía por Internet o una combinación de ambos. Además, varios servidores de mediación en el grupo pueden interactuar con varias puertas de enlace. La ruta lógica definida entre un servidor de mediación y la puerta de enlace se denomina *troncal*. Cuando un usuario interno realiza una llamada RTC, la lógica de enrutamiento de salida en el grupo de servidores front-end elige el tronco que se va a enrutar sobre todas las combinaciones posibles que pueden estar disponibles para enrutar esa llamada en particular. Con el equilibrio de carga de DNS, si una llamada no logra alcanzar una puerta de enlace debido a un problema con un servidor de mediación en particular en el grupo, la llamada se volverá a intentar con un servidor de mediación alternativo en el grupo.
 
-## Topologías de puerta de enlace
+Para obtener más información sobre la planeación de varias puertas de enlace, consulte [M:N trunk in Lync Server 2013](lync-server-2013-m-n-trunk.md).
 
-Cuando vaya a responder las preguntas fundamentales de la implementación de puertas de enlace, haga lo siguiente:
+Para obtener más información sobre otras mejoras de enrutamiento saliente, vea [rutas de voz en Lync Server 2013](lync-server-2013-voice-routes.md).
 
-1.  Cuente los sitios donde desea proporcionar conectividad con RTC mediante Telefonía IP empresarial.
+</div>
 
-2.  Calcule el tráfico en cada sitio (número de usuarios y promedio de llamadas por hora y por usuario).
+<div>
 
-3.  Implemente una o varias puertas de enlace en cada sitio para administrar el tráfico previsto.
+## <a name="gateway-topologies"></a>Topologías de puerta de enlace
 
-La topología de puertas de enlace distribuidas resultante se muestra en la figura siguiente.
+Cuando considere las preguntas fundamentales de la implementación de puertas de enlace, siga estos pasos:
 
-**Topología de puertas de enlace distribuida**
+1.  Contar los sitios en los que desea proporcionar conectividad RTC mediante telefonía IP empresarial.
 
-![Diagrama de topología de puerta de enlace distribuida](images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Diagrama de topología de puerta de enlace distribuida")
+2.  Estimar el tráfico de cada sitio (número de usuarios y número promedio de llamadas por hora por usuario).
 
-Con esta topología, las llamadas entre los empleados de cada sitio y entre los sitios se redirigen a través de la intranet de la compañía. Las llamadas a la RTC se redirigen a través de la red IP de la empresa a las puertas de enlace que se encuentran más cerca de la ubicación de los números de destino. No obstante, ¿qué sucede si la organización admite docenas, cientos o incluso miles de sitios distribuidos por uno o varios continentes, como es el caso de muchas entidades financieras y otras empresas de gran tamaño? En esos casos, no es práctico implementar una puerta de enlace independiente en cada sitio.
+3.  Implemente una o más puertas de enlace en cada sitio para controlar el tráfico anticipado.
 
-Para solucionar este problema, muchas compañías grandes prefieren implementar uno o varios sitios centrales de telefonía de gran tamaño, tal y como se muestra en la figura siguiente.
+La topología de la puerta de enlace distribuida resultante se muestra en la siguiente ilustración.
+
+**Topología de puerta de enlace distribuida**
+
+![Diagrama de topología de puerta de enlace distribuida] (images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Diagrama de topología de puerta de enlace distribuida")
+
+Con esta topología, las llamadas entre los trabajadores de cada sitio y entre sitios se enrutan a través de la intranet. Las llamadas a la RTC se enrutan a través de la red IP de la empresa a las puertas de enlace que están más cerca de la ubicación de los números de destino. Pero, ¿qué sucede si su organización admite decenas, cientos o incluso miles de sitios distribuidos en uno o más continentes, ya que muchas instituciones financieras y otras grandes empresas sí lo hacen? En estos casos, no es práctico implementar una puerta de enlace independiente en cada sitio.
+
+Para solucionar este problema, muchas de las grandes empresas prefieren implementar uno o varios sitios centrales de telefonía grandes, tal y como se muestra en la siguiente ilustración.
 
 **Topología de sitio central de telefonía**
 
-![Topología de puerta de enlace de centro de datos](images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Topología de puerta de enlace de centro de datos")
+![Topología de puerta de enlace de centro de datos] (images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Topología de puerta de enlace de centro de datos")
 
-En esta topología, en cada sitio central se implementan varias puertas de enlace grandes que puedan hacer frente a la carga de usuarios prevista. El proveedor de servicios de telefonía de la compañía transfiere a un sitio central todas las llamadas para los usuarios de la empresa. La lógica de redirección del sitio central determina si la llamada debe redirigirse a través de la intranet o a la RTC.
+En esta topología, se implementan varias puertas de enlace grandes suficientes para dar cabida a la carga de usuarios prevista en cada sitio central. El proveedor de servicios telefónicos de la empresa reenvía todas las llamadas a los usuarios de la empresa a un sitio central. La lógica de enrutamiento en el sitio central determina si la llamada se debe enrutar a través de la intranet o de la RTC.
 
-## Ubicación de las puertas de enlace
+</div>
 
-La ubicación de las puertas de enlace también puede determinar los tipos de puertas de enlace elegidos y su configuración. Hay docenas de protocolos RTC, pero ninguno es un estándar mundial. Si todas las puertas de enlace se encuentran en un solo país o región, esto no supone un problema. Ahora bien, si se colocan puertas de enlace en varios países o regiones, cada una de ellas debe configurarse según las normas RTC de cada país o región. Es más, las puertas de enlace certificadas para, por ejemplo, Canadá pueden no estar certificadas en la India, Brasil o la Unión Europea.
+<div>
 
-## Tamaño y número de las puertas de enlace
+## <a name="gateway-location"></a>Ubicación de la puerta de enlace
 
-Las puertas de enlace RTC que la mayoría de las organizaciones considerarán implementar varía entre 2 y 960 puertos. (Hay puertas de enlace incluso más grandes, pero las usan principalmente los proveedores de servicios de telefonía.) A la hora de valorar el número de puertos que la organización necesita, siga estas directrices:
+La ubicación de la puerta de enlace también puede determinar los tipos de puertas de enlace que elija y cómo se configuran. Hay docenas de protocolos de RTC, ninguno de los cuales es un estándar de todo el mundo. Si todas las puertas de enlace están ubicadas en un solo país o región, esto no es un problema, pero si encuentra puertas de enlace en varios países o regiones, cada una de ellas debe estar configurada de acuerdo con los estándares de la RTC de ese país o región. Además, las puertas de enlace que están certificadas para funcionar, por ejemplo, Canadá, pueden no estar certificadas en India, Brasil ni la Unión Europea.
 
-  - Las organizaciones con necesidades de telefonía reducidas (una llamada de RTC por usuario y por hora) deben asignar un puerto por cada quince usuarios. Por ejemplo, si hay veinte usuarios, se necesitará una puerta de enlace con dos puertos.
+</div>
 
-  - Las organizaciones con necesidades de telefonía moderadas (dos llamadas de RTC por usuario y por hora) deben asignar un puerto por cada diez usuarios. Por ejemplo, si hay cien usuarios, se necesitará un total de diez puertos asignados a una o varias puertas de enlace.
+<div>
 
-  - Las organizaciones con grandes necesidades de telefonía (tres o más llamadas de RTC por usuario y por hora) deben asignar un puerto por cada cinco usuarios. Por ejemplo, si hay 47 000 usuarios, se necesitarán 9400 puertos repartidos entre al menos diez puertas de enlace grandes.
+## <a name="gateway-size-and-number"></a>Número y tamaño de la puerta de enlace
 
-  - Se pueden adquirir puertos adicionales a medida que aumenta el número de usuarios o el tráfico de la organización.
+Las puertas de enlace RTC que la mayoría de las organizaciones considerará para implementar intervalos de 2 a tan sólo puertos de 960. (Hay incluso puertas de enlace más grandes, pero las usan principalmente los proveedores de servicios de telefonía). Al estimar el número de puertos que necesita su organización, siga estas pautas:
 
-Sea cual sea el número de usuarios, existe la opción de implementar menos puertas de enlace grandes o más puertas de enlace pequeñas. Como regla general, se recomienda un mínimo de dos puertas de enlace para mantener la disponibilidad si una de ellas deja de funcionar.
+  - Las organizaciones con uso de telefonía leve (una llamada de RTC por usuario por hora) deben asignar un puerto por cada 15 usuarios. Por ejemplo, si tiene 20 usuarios, necesitará una puerta de enlace con dos puertos.
 
-Cada puerta de enlace RTC implementada debe tener por lo menos un Servidor de mediación correspondiente.
+  - Las organizaciones con uso moderado de telefonía (dos llamadas RTC por usuario por hora) deben asignar un puerto por cada 10 usuarios. Por ejemplo, si tiene 100 usuarios, necesitará un total de 10 puertos asignados entre una o más puertas de enlace.
+
+  - Las organizaciones con uso intensivo de telefonía (tres o más llamadas RTC por usuario por hora) deben asignar un puerto por cada cinco usuarios. Por ejemplo, si tiene 47.000 usuarios, necesitará un total de 9.400 puertos asignados entre al menos 10 puertas de enlace grandes.
+
+  - Se pueden adquirir puertos adicionales a medida que aumenta el número de usuarios o la cantidad de tráfico de la organización.
+
+Para cualquier número de usuarios que deba admitir, tiene la opción de implementar menos puertas de enlace, más grandes o más pequeñas. Como regla, se recomienda usar un mínimo de dos puertas de enlace para una organización para mantener la disponibilidad si una de ellas falla.
+
+Cada puerta de enlace RTC que implemente debe tener al menos un servidor de mediación correspondiente.
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

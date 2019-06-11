@@ -1,21 +1,41 @@
-﻿---
-title: Supervisar el rendimiento de la movilidad
-TOCTitle: Supervisar el rendimiento de la movilidad
-ms:assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh690033(v=OCS.15)
-ms:contentKeyID: 48276141
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: supervisión de la movilidad para el rendimiento'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Monitoring mobility for performance
+ms:assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690033(v=OCS.15)
+ms:contentKeyID: 48184908
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b3b6cbdefcb7c78f68fe8838109dea3be5b8203d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826636"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Supervisar el rendimiento de la movilidad
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="monitoring-mobility-for-performance-in-lync-server-2013"></a>Supervisión de la movilidad para el rendimiento en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-14_
 
-El servicio de movilidad de Lync Server aumenta la carga en Servidores front-end y Grupos de servidores front-end. Los dispositivos móviles que mantienen una conexión con el servidor incluso si la aplicación móvil está minimizada, como los dispositivos Android y Nokia, exigen una mayor carga que los dispositivos que finalizan la conexión con el servidor cuando se minimiza la aplicación móvil. A medida que aumenta el uso de la movilidad, debe supervisar el rendimiento de la misma para determinar cuándo necesita aumentar su capacidad.
+El servicio de movilidad de Lync Server (MCX) y la API Web de comunicaciones unificadas (UCWA) aumentan la carga en los servidores front-end y en las agrupaciones front-end. Dispositivos móviles que mantienen una conexión con el servidor incluso cuando la aplicación móvil está minimizada, como los dispositivos Android y Nokia que ejecutan Lync 2010 Mobile, así como los dispositivos Apple y Android que ejecutan Lync 2013 Mobile, imponen una carga mayor que los dispositivos que finalizar la conexión con el servidor cuando se minimice la aplicación móvil. A medida que aumenta el uso de la movilidad, es preciso supervisar el rendimiento para determinar cuándo necesita aumentar su capacidad.
 
 Hay varios límites que afectan al rendimiento de la movilidad:
 
@@ -27,17 +47,31 @@ Hay varios límites que afectan al rendimiento de la movilidad:
 
   - Longitud de la cola de IIS
 
-Otros límites en los servidores que pueden afectar al rendimiento de la movilidad son un máximo de doce inicios de sesión simultáneos, autenticaciones y renovaciones y finalizaciones de sesión. Estos máximos no tienen que modificarse para la mayoría de implementaciones.
+Otros límites en los servidores que pueden influir en el rendimiento de la movilidad son un máximo de doce inicios de sesión simultáneos, autenticaciones, renovaciones de sesión y finalizaciones. Estos máximos no tienen que modificarse para la mayoría de implementaciones.
 
-## En esta sección
+<div>
 
-  - [Supervisión de los límites de capacidad de la memoria del servidor](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Supervisar el uso de UCWA y del servicio de movilidad](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
+  - [Supervisión de los límites de capacidad de memoria del servidor en Lync Server 2013](lync-server-2013-monitoring-for-server-memory-capacity-limits.md)
 
-  - [Configurar el servicio de movilidad para alto rendimiento](lync-server-2013-configuring-mobility-service-for-high-performance.md)
+  - [Supervisar el uso del servicio de movilidad y de UCWA en Lync Server 2013](lync-server-2013-monitoring-mobility-service-and-ucwa-usage.md)
 
-  - [Supervisar archivos de registro de seguimiento de solicitudes de IIS](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
+  - [Configurar el servicio de movilidad para un alto rendimiento en Lync Server 2013](lync-server-2013-configuring-mobility-service-for-high-performance.md)
 
-  - [Contadores de rendimiento de movilidad](lync-server-2013-mobility-performance-counters.md)
+  - [Supervisar los archivos de registro de seguimiento de solicitudes en Lync Server 2013](lync-server-2013-monitoring-iis-request-tracing-log-files.md)
+
+  - [Contadores de rendimiento de movilidad en Lync Server 2013](lync-server-2013-mobility-performance-counters.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

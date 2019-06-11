@@ -1,111 +1,161 @@
-﻿---
-title: 'Lync Server 2013: QoE reports'
+---
+title: 'Lync Server 2013: informes de QoE'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: QoE reports
 ms:assetid: 49c827af-b8dd-4c6e-b0dc-b4bc6d60e9a3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn720913(v=OCS.15)
-ms:contentKeyID: 62246704
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720913(v=OCS.15)
+ms:contentKeyID: 63969601
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 04960c43dc8e29c6e5af44a1d3109e40dd578479
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823738"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# QoE reports in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="qoe-reports-in-lync-server-2013"></a>Informes de calidad de la calidad en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2014-05-01_
 
-## QoE summary/trend reports
+<div>
 
-The QoE summary/trends reports are useful for finding the peak usage times of day and examining the media quality during those times to help assure that your organization's network resources are sufficient. Your organization can also use the many filters available in the report to isolate performance numbers for certain locations, client and device types, and servers.
+## <a name="qoe-summarytrend-reports"></a>Resumen/informes de tendencias de QoE
 
-QoE summary/trend reports consist of:
+Los informes de tendencias y de Resumen de la QoE son útiles para encontrar las horas de uso máxima del día y examinar la calidad de los medios para asegurarse de que los recursos de red de la organización son suficientes. Su organización también puede usar los muchos filtros disponibles en el informe para aislar los números de rendimiento para determinadas ubicaciones, tipos de dispositivos y clientes, y servidores.
 
-  - UC-to-UC Summary/Trend Report
+Los informes de tendencias y de Resumen de QoE constan de:
 
-  - PSTN Summary/Trend Report
+  - Resumen/Informe de tendencias de UC a UC
 
-  - Conference Summary/Trend Report
+  - Informe de tendencias o Resumen de RTC
 
-## QoE performance reports
+  - Resumen de la Conferencia/informe de tendencias
 
-QoE performance reports provide details about the three reports that concentrate on the QoE performance of Mediation Servers, A/V Conferencing Servers, and endpoint locations.
+</div>
 
-## Mediation server performance report
+<div>
 
-The Mediation Server Performance report lists the metrics achieved by one or more Mediation during the specified time period. The metrics for the unified communications (UC)-to-Mediation Server leg and the Mediation Server-to-Gateway leg of each call are reported separately. Use this report to compare the volume and performance of your organization's various Mediation Servers.
+## <a name="qoe-performance-reports"></a>Informes de rendimiento de QoE
 
-For each Mediation Server (and for each call leg), the report displays the following:
+Los informes de rendimiento de QoE proporcionan detalles sobre los tres informes que se concentran en el rendimiento de QoE de los servidores de mediación, servidores de conferencia A/V y ubicaciones de puntos de conexión.
 
-  - Number of calls
+</div>
 
-  - Packet Loss
+<div>
 
-  - Round Trip Time
+## <a name="mediation-server-performance-report"></a>Informe de rendimiento del servidor de mediación
 
-  - Jitter
+El informe de rendimiento del servidor de mediación enumera las métricas logradas por una o más mediación durante el período de tiempo especificado. Se informa por separado de las métricas de la pierna de las comunicaciones unificadas (UC) y la pierna del servidor a la puerta de enlace de cada llamada. Use este informe para comparar el volumen y el rendimiento de los diversos servidores de mediación de su organización.
 
-  - Conversational mean opinion score (MOS)
+Para cada servidor de mediación (y para cada una de las llamadas), el informe muestra lo siguiente:
 
-  - Sending MOS
+  - Número de llamadas
 
-  - Listening MOS
+  - Pérdida de paquetes
 
-  - Network MOS
+  - Tiempo de ida y vuelta
 
-  - Network MOS Degradation
+  - Vibración
 
-  - Echo Return
+  - Puntuación de la media de conversación (MOS)
 
-  - Signal Level
+  - Envío de MOS
 
-## A/V conferencing server performance report
+  - Escuchando MOS
 
-The A/V Conferencing Server Performance report provides lists of metrics achieved by one or more A/V Conferencing Servers during the specified time period. This report can be used to compare the volume and performance of your organization’s various A/V Conferencing Servers. Your organization can also isolate the report to show only the experience for specific client types, such as Lync clients or PSTN clients.
+  - MOS de red
 
-For each A/V Conferencing Server, the report displays the following:
+  - Degradación de MOS de red
 
-  - Number of conferences
+  - Retorno de eco
 
-  - Packet Loss
+  - Nivel de señal
 
-  - Round Trip Time
+</div>
 
-  - Jitter
+<div>
 
-  - Conversational mean opinion score (MOS)
+## <a name="av-conferencing-server-performance-report"></a>Informe de rendimiento del servidor de conferencia A/V
 
-  - Sending MOS
+El informe de rendimiento del servidor de conferencia A/V proporciona listas de métricas realizadas por uno o varios servidores de conferencia A/V durante el período de tiempo especificado. Este informe se puede usar para comparar el volumen y el rendimiento de varios servidores de conferencia A/V de su organización. Su organización también puede aislar el informe para que muestre solo la experiencia de tipos de clientes específicos, como clientes de Lync o clientes RTC.
 
-  - Listening MOS
+Para cada servidor de conferencia A/V, el informe muestra lo siguiente:
 
-  - Network MOS
+  - Número de conferencias
 
-  - Network MOS Degradation
+  - Pérdida de paquetes
 
-  - Echo Return
+  - Tiempo de ida y vuelta
 
-  - Signal Level
+  - Vibración
 
-## Location-based performance report
+  - Puntuación de la media de conversación (MOS)
 
-The Location-Based Performance report provides a list of network locations and for each location shows the number of calls in each pre-determined range of quality. The goal of this report is to provide insight into the media quality of the bulk of your organization’s telephone calls for various locations so that you can identify poorly performing locations, and see the different grades of media quality in your organization’s different locations.
+  - Envío de MOS
 
-When displaying the report, different tables of metrics appear—one table for each metric your organization decides to report on. You can choose from the following metrics for this report:
+  - Escuchando MOS
 
-  - Conversational mean opinion score (MOS)
+  - MOS de red
 
-  - Network MOS
+  - Degradación de MOS de red
 
-  - Network MOS Degradation
+  - Retorno de eco
 
-  - Sending MOS
+  - Nivel de señal
 
-  - Listening MOS
+</div>
 
-  - Packet Loss
+<div>
 
-  - Jitter
+## <a name="location-based-performance-report"></a>Informe de rendimiento basado en la ubicación
 
-  - Latency
+El informe de rendimiento basado en la ubicación proporciona una lista de ubicaciones de red y de cada ubicación muestra el número de llamadas en cada rango predeterminado de calidad. El objetivo de este informe es proporcionar una perspectiva de la calidad de los medios de la mayor parte de las llamadas telefónicas de la organización para las diversas ubicaciones, de modo que pueda identificar las ubicaciones con un bajo rendimiento y ver los diferentes grados de calidad de los medios de su organización ubicaciones diferentes.
+
+Al mostrar el informe, aparecen tablas de métricas diferentes: una tabla por cada métrica en la que la organización decide informar. Puede elegir entre las siguientes métricas para este informe:
+
+  - Puntuación de la media de conversación (MOS)
+
+  - MOS de red
+
+  - Degradación de MOS de red
+
+  - Envío de MOS
+
+  - Escuchando MOS
+
+  - Pérdida de paquetes
+
+  - Vibración
+
+  - Latencia
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

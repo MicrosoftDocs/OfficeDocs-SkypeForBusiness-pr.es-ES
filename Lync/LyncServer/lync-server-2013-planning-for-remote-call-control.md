@@ -1,73 +1,118 @@
-﻿---
-title: 'Lync Server 2013: Planificar el control remoto de llamadas'
-TOCTitle: Planificar el control remoto de llamadas
-ms:assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558658(v=OCS.15)
-ms:contentKeyID: 48275559
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planificación de control remoto de llamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for remote call control
+ms:assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558658(v=OCS.15)
+ms:contentKeyID: 48184371
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8ede2b5d63c57864f478cb8fd9bcd4689a91ab3d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824557"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planificar el control remoto de llamadas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-remote-call-control-in-lync-server-2013"></a>Planear el control remoto de llamadas en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-05_
 
-En Lync Server 2013, la compatibilidad con escenarios de control remoto de llamadas permite a los usuarios controlar sus teléfonos de central de conmutación (PBX) usando Lync 2013 en sus equipos de escritorio. En esta sección se describen las características del control remoto de llamadas y los requisitos necesarios para implementar el control remoto de llamadas.
+En Lync Server 2013, la compatibilidad con los escenarios de control remoto de llamadas permite a los usuarios controlar sus teléfonos de central de conmutación (PBX) con Lync 2013 en sus equipos de escritorio. En esta sección se describen las características y los requisitos de control remoto de llamadas para implementar el control remoto de llamadas.
 
-Gracias a la integración entre una PBX y Lync Server 2013, los usuarios con control remoto de llamadas habilitado pueden usar la interfaz de usuario (UI) de Lync 2013 para controlar las llamadas de sus teléfonos PBX mediante las siguientes acciones:
+La integración entre una PBX y Lync Server 2013 permite que los usuarios habilitados para el control remoto de llamadas usen la interfaz de usuario (IU) de Lync 2013 para controlar las llamadas en sus teléfonos PBX de las siguientes maneras:
 
-
-> [!NOTE]
-> Las funcionalidades de la PBX que hospeda el teléfono PBX de un usuario son las que determinan en última instancia las características de control remoto de llamadas disponibles para el usuario.
+<div>
 
 
+> [!NOTE]  
+> En última instancia, las capacidades de la PBX que hospeda el teléfono PBX de un usuario determinan las características de control remoto de llamadas que estarán disponibles para ese usuario.
 
-  - Efectuar una llamada realizada
+
+
+</div>
+
+  - Realizar una llamada saliente
 
   - Responder a una llamada entrante
 
   - Responder a una llamada entrante con un mensaje instantáneo
     
+    <div>
+    
 
-    > [!NOTE]
-    > Es decir, cuando el número de teléfono del autor de la llamada puede asociarse a una dirección de mensajería instantánea de la lista de direcciones global (GAL) de la organización, de la lista de contactos de Lync del destinatario o de la organización de un socio federado.
+    > [!NOTE]  
+    > Es decir, cuando el número de teléfono de la persona que llama se puede asociar con una dirección de mensaje instantáneo en la lista global de direcciones (GAL) de la organización, en la lista de contactos de Lync de la persona que llama o en la organización de un socio federado.
 
-
+    
+    </div>
 
   - Transferir una llamada
 
   - Desviar una llamada entrante
 
-  - Poner llamadas en espera
+  - Poner las llamadas en espera
 
   - Alternar entre varias llamadas simultáneas
 
-  - Responder a una segunda llamada mientras se está participando en una llamada (es decir, poner llamadas en espera)
+  - Contestar una segunda llamada mientras ya está en una llamada (es decir, llamada en espera)
 
-  - Marcar dígitos de tono de marcado de frecuencia múltiple (DTMF)
+  - Marcar dígitos de multifrecuencia de tono dual (DTMF)
 
-  - En la ventana Conversación, escribir notas en el programa Microsoft Office OneNote
+  - En la ventana de conversación, escriba notas en el programa de toma de notas de Microsoft Office OneNote
 
-Además, cuando un usuario tiene el control remoto de llamadas habilitado, Lync 2013 le proporciona la siguiente información de llamada:
+Además, cuando un usuario está habilitado para el control remoto de llamadas, Lync 2013 proporciona al usuario la siguiente información de la llamada:
 
-  - Identificación de un autor de llamada mediante su nombre, si el número de teléfono del autor de la llamada figura en la lista de contactos del cliente de mensajería y colaboración de Microsoft Office Outlook, en la lista de contactos de Lync o en la GAL de la organización de un usuario con el control remoto de llamadas habilitado.
+  - Identificación de una persona que llama cuando el número de teléfono de la persona que llama está en la lista de contactos de un cliente de mensajería y colaboración de Microsoft Office Outlook habilitado para el control de llamadas remoto, lista de contactos de Lync o la GAL de su organización.
 
-  - Últimas llamadas entrantes y realizadas, que se guardan en la carpeta Historial de conversaciones de Outlook.
+  - Llamadas entrantes y salientes anteriores, que se guardan en la carpeta Historial de conversaciones de Outlook.
 
-  - Notificaciones de llamadas perdidas, que se envían a la carpeta Bandeja de entrada de Outlook del usuario, pero que se emiten únicamente si Lync se está ejecutando cuando se recibe la llamada entrante.
+  - Notificaciones de llamadas perdidas, que se envían a la carpeta Bandeja de entrada de Outlook del usuario, pero se generan solo si Lync se está ejecutando cuando se recibe la llamada entrante.
 
-## Control remoto de llamadas y Telefonía IP empresarial
+<div>
 
-Como las características del control remoto de llamadas son independientes de las características de Telefonía IP empresarial y los usuarios no pueden estar habilitados para ambas opciones, Telefonía IP empresarial proporciona un subconjunto de características que está disponible también para los usuarios con el control remoto de llamadas habilitado. Si Telefonía IP empresarial está implementado, los usuarios con el control remoto de llamadas habilitado podrán usar Lync para acceder a las siguientes características de Telefonía IP empresarial:
+## <a name="remote-call-control-and-enterprise-voice"></a>Control remoto de llamadas y telefonía IP empresarial
 
-  - Efectuar y recibir llamadas de audio de otro cliente de Lync
+Aunque las características de control remoto de llamadas son independientes de las características de telefonía IP empresarial y los usuarios no pueden habilitarse para ambas, la telefonía IP empresarial ofrece un subconjunto de características que también están disponibles para los usuarios que están habilitados para el control remoto de llamadas. Si se implementa la telefonía IP empresarial, los usuarios habilitados para el control remoto de llamadas pueden usar Lync para acceder a las siguientes características de telefonía IP empresarial:
 
-  - Unirse a la parte de audio de una conferencia creada por un usuario habilitado para Telefonía IP empresarial
+  - Realizar y recibir llamadas de audio a otro cliente de Lync
 
-## En esta sección
+  - Unirse a la parte de audio de una conferencia creada por un usuario que está habilitado para telefonía IP empresarial
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Implementación de tareas para el control remoto de llamadas en Lync Server 2013](lync-server-2013-deployment-tasks-for-remote-call-control.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

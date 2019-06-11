@@ -1,45 +1,85 @@
-﻿---
-title: 'Lync Server 2013: Preparar dominios'
-TOCTitle: Preparar dominios
-ms:assetid: 8eea541c-5f9d-4afc-92a8-a31d6f742544
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398721(v=OCS.15)
-ms:contentKeyID: 48275992
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Preparar dominios'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Preparing domains
+ms:assetid: 8eea541c-5f9d-4afc-92a8-a31d6f742544
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398721(v=OCS.15)
+ms:contentKeyID: 48184816
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9c1f5693a14084627d20ae66fa6ec85f6b6c6c6f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823850"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Preparar dominios para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="preparing-domains-for-lync-server-2013"></a>Preparar dominios para Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-29_
 
-La preparación del dominio es el último paso de la preparación de Servicios de dominio de Active Directory para Lync Server 2013. El paso de preparación del dominio agrega las entradas de control de acceso (ACE) necesarias a los grupos universales que conceden permisos para hospedar y administrar los usuarios dentro del dominio. La preparación del dominio crea entradas ACE en la raíz del dominio y tres contenedores integrados: usuarios, equipos y controladores de dominio.
+La preparación del dominio es el último paso en la preparación de los servicios de dominio de Active Directory para Lync Server 2013. El paso de preparación del dominio agrega las entradas de control de acceso (ACE) necesarias a los grupos universales que conceden permisos para hospedar y administrar los usuarios dentro del dominio. La preparación del dominio crea entradas ACE en la raíz del dominio y tres contenedores integrados: usuarios, equipos y controladores de dominio.
 
-Puede ejecutar la preparación del dominio en cualquier equipo del dominio donde esté implementando Lync Server. Debe preparar todos los dominios que hospedarán usuarios o Lync Server.
+Puede ejecutar la preparación del dominio en cualquier equipo del dominio donde vaya a implementar Lync Server. Debe preparar todos los dominios que van a hospedar Lync Server o los usuarios.
 
-Si la herencia de permisos está deshabilitada o los permisos de usuarios autenticados están deshabilitados en su organización, hay pasos adicionales que debe realizar durante la preparación de los dominios. Para ver más detalles, consulte [Preparar Servicios de dominio de Active Directory bloqueados en Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md)
+Si la herencia de permisos está deshabilitada o los permisos de usuario autenticados están deshabilitados en su organización, debe seguir pasos adicionales durante la preparación del dominio. Para obtener más información, consulte [preparar servicios de dominio de Active Directory bloqueados en Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md).
 
-Si en su organización se usan unidades organizativas (OU) en lugar de los tres contenedores integrados (es decir, usuarios, equipos y controladores de dominio), debe conceder acceso de lectura de las OU al grupo Usuarios autenticados. El acceso de lectura de los contenedores se necesita para preparar dominios. Si el grupo Usuarios autenticados no tiene acceso de lectura de la OU, ejecute el cmdlet **Grant-CsOuPermission** según se indica en los siguientes códigos de ejemplo, para conceder permisos de lectura a cada OU.
+Si su organización usa unidades organizativas (OU) en lugar de los tres contenedores integrados (es decir, usuarios, equipos y controladores de dominio), debe conceder acceso de lectura a las unidades organizativas para el grupo usuarios autenticados. El acceso de lectura a los contenedores es necesario para la preparación del dominio. Si el grupo usuarios autenticados no tiene acceso de lectura a la unidad organizativa, ejecute el cmdlet **Grant-CsOuPermission** como se muestra en los siguientes ejemplos de código para conceder permisos de lectura para cada unidad organizativa.
 
-```
-Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
-```
-```
-Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
-```
+   ```
+    Grant-CsOuPermission -ObjectType <User | Computer | InetOrgPerson | Contact | AppContact | Device> -OU <DN of the OU > 
+   ```
 
-Para ver los detalles sobre el cmdlet **Grant-CsOuPermission**, consulte la documentación de Shell de administración de Lync Server.
+   ```
+    Grant-CsOuPermission -ObjectType "user","contact",inetOrgPerson" -OU "ou=Redmond,dc=contoso,dc=net"
+   ```
+
+Para obtener más información sobre el cmdlet **Grant-CsOuPermission** , consulte la documentación del shell de administración de Lync Server.
+
+<div class="">
+
 
 > [!TIP]  
-> Para obtener detalles sobre las ACE creadas en la raíz del dominio y en los contenedores de usuarios, equipos y controladores de dominio, consulte <a href="lync-server-2013-changes-made-by-domain-preparation.md">Cambios realizados por la preparación del dominio en Lync Server 2013</a>.
+> Para más información sobre las entradas ACE creadas en la raíz del dominio y en los contenedores usuarios, equipos y controladores de dominio, vea <A href="lync-server-2013-changes-made-by-domain-preparation.md">cambios realizados por la preparación del dominio en Lync Server 2013</A>.
 
 
 
-## En esta sección
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Ejecutar la preparación del dominio para Lync Server 2013](lync-server-2013-running-domain-preparation.md)
 
   - [Uso de cmdlets para revertir la preparación del dominio para Lync Server 2013](lync-server-2013-using-cmdlets-to-reverse-domain-preparation.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

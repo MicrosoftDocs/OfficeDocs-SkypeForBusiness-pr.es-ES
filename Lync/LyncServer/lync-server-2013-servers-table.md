@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla Servers'
-TOCTitle: Tabla Servers
-ms:assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398223(v=OCS.15)
-ms:contentKeyID: 48274524
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla Servers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Servers table
+ms:assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398223(v=OCS.15)
+ms:contentKeyID: 48183487
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a360a9fbffed50747b695ec3f517ffc4002cc9cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822016"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla Servers en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="servers-table-in-lync-server-2013"></a>Tabla Servers en Lync Server 2013
 
-La tabla Servers es una tabla auxiliar que almacena información acerca de los distintos servidores. Cada registro de la tabla representa un servidor.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2010-11-05_
+
+La tabla servidores es una tabla de soporte que almacena información sobre los distintos servidores. Cada registro de la tabla representa un servidor.
 
 
 <table>
@@ -36,8 +56,8 @@ La tabla Servers es una tabla auxiliar que almacena información acerca de los d
 <tbody>
 <tr class="odd">
 <td><p><strong>ServerId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
+<td><p>int</p></td>
+<td><p>Primary</p></td>
 <td><p>Número único que identifica este servidor.</p></td>
 </tr>
 <tr class="even">
@@ -48,4 +68,15 @@ La tabla Servers es una tabla auxiliar que almacena información acerca de los d
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

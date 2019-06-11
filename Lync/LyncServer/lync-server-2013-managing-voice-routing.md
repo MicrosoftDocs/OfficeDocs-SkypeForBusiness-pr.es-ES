@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Administrar el enrutamiento de voz'
-TOCTitle: Administrar el enrutamiento de voz
-ms:assetid: da558f8c-18c5-4ad5-94d1-b22e777f12bd
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182596(v=OCS.15)
-ms:contentKeyID: 48276864
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Administrar el enrutamiento de voz'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing voice routing
+ms:assetid: da558f8c-18c5-4ad5-94d1-b22e777f12bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182596(v=OCS.15)
+ms:contentKeyID: 48185554
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cbfdaa2359493941e2bde6cbbfcb857b75071c5f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827616"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar el enrutamiento de voz en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-voice-routing-in-lync-server-2013"></a>Administrar el enrutamiento de voz en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-01_
 
-Los temas de esta sección indican, paso a paso, los procedimientos de las tareas que puede realizar usando el grupo **Enrutamiento de voz** en el Panel de control de Lync Server.
+Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que puede realizar con el grupo de **enrutamiento de voz** en el panel de control de Lync Server.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Definición de reglas de traducción y reglas de normalización en Lync Server 2013](lync-server-2013-defining-translation-rules-and-normalization-rules.md)
 
@@ -27,13 +49,28 @@ Los temas de esta sección indican, paso a paso, los procedimientos de las tarea
 
   - [Configurar planes de marcado en Lync Server 2013](lync-server-2013-configuring-dial-plans.md)
 
-## Vea también
+</div>
 
-#### Conceptos
+<div>
 
-[Planear la telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+## <a name="see-also"></a>Vea también
 
-#### Otros recursos
 
-[Administrar características de administración de llamadas en Lync Server 2013](lync-server-2013-managing-call-management-features.md)
+[Planificación de telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md)  
+
+
+[Administrar características de administración de llamadas en Lync Server 2013](lync-server-2013-managing-call-management-features.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

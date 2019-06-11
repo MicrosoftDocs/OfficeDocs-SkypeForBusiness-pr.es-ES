@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Planificar para grupos de respuesta'
-TOCTitle: Planificar para grupos de respuesta
-ms:assetid: 7c10ce08-0068-4b22-8ecc-33e94811c900
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398617(v=OCS.15)
-ms:contentKeyID: 48275787
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planificar para grupos de respuesta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for response groups
+ms:assetid: 7c10ce08-0068-4b22-8ecc-33e94811c900
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398617(v=OCS.15)
+ms:contentKeyID: 48184608
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1b9e0bd7da85a06295819955b77916f419e2a0f2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824291"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planificar para grupos de respuesta en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-response-groups-in-lync-server-2013"></a>Planificar para grupos de respuesta en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-06-19_
 
-Si su organización tiene grupos de personas que responden y administran algunos tipos de llamadas, como las de servicio al cliente, una mesa de ayuda interna, o dispone de asistencia general telefónica para un departamento, puede implementar el Lync ServerAplicación de grupo de respuesta para administrar este tipo de llamadas. El Aplicación de grupo de respuesta redirecciona y pone en cola a las llamadas entrantes a personas designadas, conocidos como agentes. Puede aumentar el uso de los servicios de asistencia telefónica y reducir los gastos de estos servicios por medio de estos grupos de respuesta. En esta sección se describen las consideraciones de planificación para Grupo de respuesta.
+Si su organización tiene grupos de personas que responden y administran determinados tipos de llamadas, como el servicio de atención al cliente, un departamento de soporte técnico interno o un soporte técnico telefónico general para un departamento, puede implementar la aplicación de grupo de respuesta de Lync Server para administrar estos tipos de llamadas. La aplicación de grupo de respuesta dirige y pone en cola las llamadas entrantes a personas designadas, que reciben el nombre de agentes. Puedes aumentar el uso de los servicios de asistencia telefónica y reducir la sobrecarga de ejecutar dichos servicios con un grupo de respuesta. En esta sección se describen las consideraciones de planeación para el grupo de respuesta.
 
-## En esta sección
+<div>
 
-  - [Información general sobre la aplicación del grupo de respuesta en Lync Server 2013](lync-server-2013-overview-of-the-response-group-application.md)
+## <a name="in-this-section"></a>En esta sección
+
+  - [Información general de la aplicación de grupo de respuesta en Lync Server 2013](lync-server-2013-overview-of-the-response-group-application.md)
 
   - [Componentes usados por el grupo de respuesta en Lync Server 2013](lync-server-2013-components-used-by-response-group.md)
 
@@ -29,5 +51,17 @@ Si su organización tiene grupos de personas que responden y administran algunos
 
   - [Planificar la capacidad para el grupo de respuesta en Lync Server 2013](lync-server-2013-capacity-planning-for-response-group.md)
 
-  - [Proceso de implementación para grupos de respuesta en Lync Server 2013](lync-server-2013-deployment-process-for-response-group.md)
+  - [Proceso de implementación para un grupo de respuesta en Lync Server 2013](lync-server-2013-deployment-process-for-response-group.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

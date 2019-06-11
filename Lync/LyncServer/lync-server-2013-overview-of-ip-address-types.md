@@ -1,37 +1,63 @@
-﻿---
-title: 'Lync Server 2013: Información general sobre los tipos de direcciones IP'
-TOCTitle: Información general sobre los tipos de direcciones IP para Lync Server
-ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205363(v=OCS.15)
-ms:contentKeyID: 48277109
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Información general sobre los tipos de direcciones IP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of IP address types for Lync Server
+ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205363(v=OCS.15)
+ms:contentKeyID: 48185759
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 90d31045879c4e6f488c232687346ed0413ef62b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825516"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Información general sobre los tipos de direcciones IP en Lync Server para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="overview-of-ip-address-types-for-lync-server-2013"></a>Información general sobre los tipos de direcciones IP en Lync Server para Lync Server 2013
 
-Al configurar direcciones IP en Lync Server 2013, tendrá tres opciones. Puede configurar Lync Server 2013 para admitir solo la versión 4 de IP (IPv4), solo la versión 6 de IP (IPv6) o una combinación de ambas versiones (conocida como *pila dual* ). Cada tipo de configuración entraña varios aspectos que debe tener en cuenta:
+</div>
 
-  - **Solo IPv4 :** IPv6 se creó porque se estaban agotando las direcciones IPv4. Con el paso del tiempo, IPv6 será completamente compatible en todo el mundo, pero en este momento muchas empresas y dispositivos con los que su empresa necesitará comunicarse aún no admiten IPv6 y pueden tardar mucho en admitirlo. Una configuración de solo IPv4 le garantizará que su implementación de Lync Server se pueda comunicar con la mayoría de dispositivos existentes.
+<div id="mainSection">
 
-  - **Solo IPv6 :** por el contrario, en este momento una implementación completa de IPv6 excluirá la comunicación con muchos dispositivos existentes.
+<div id="mainBody">
 
-  - **Pila dual :** la pila dual es una red habilitada tanto las direcciones IPv4 como IPv6. Lync Server 2013 es compatible con esta configuración porque en la mayoría de los casos la transición de solo IPv4 a solo IPv6 tardará varios años.
+<span> </span>
 
-En los apartados siguientes se resume la compatibilidad entre estas tres configuraciones para varias características de Lync Server.
+_**Última modificación del tema:** 2013-01-29_
+
+Tiene tres opciones para configurar las direcciones IP en Lync Server 2013. Puede configurar Lync Server 2013 para que admita solo IP versión 4 (IPv4), solo IP versión 6 (IPv6) o una combinación de ambos (conocido como una *pila doble*). Cada tipo de configuración entraña varios aspectos que necesita tener en cuenta:
+
+  - **IPv4 solo**   se creó IPv6 porque el mundo se está quedando sin direcciones IPv4. En última instancia, IPv6 será totalmente compatible en todo el mundo, pero en este momento, muchas de las compañías y dispositivos que su empresa podría necesitar para comunicarse aún no son compatibles con IPv6, y es posible que no lo hagan durante algún tiempo. Una configuración de solo IPv4 le ayudará a asegurarse de que su implementación de Lync Server pueda comunicarse con la mayoría de los dispositivos existentes.
+
+  - **Solo IPv6 a**   la inversa, una implementación de IPv6 completa, en este momento, excluirá la comunicación con muchos dispositivos existentes.
+
+  - **** Pila Dual Stack es una red en la que se habilitan las direcciones IPv4 e IPv6.    Esta configuración es compatible con Lync Server 2013 porque, en la mayoría de los casos, la transición de IPv4 completa a Full-IPv6 llevará varios años.
+
+En las secciones siguientes se describe la compatibilidad entre estas tres configuraciones para varias características de Lync Server.
+
+<div>
 
 
-> [!NOTE]
-> La configuración de tipo solo IPv6 en el cliente o el servidor solo se admite en entornos de ensayo y con fines de validación, no se admite en implementaciones de producción.
+> [!NOTE]  
+> La configuración de tipo solo IPv6 en el cliente o el servidor solo se admite en entornos de laboratorio y con fines de validación, no se admite en implementaciones de producción.
 
 
 
-## Registro de clientes
+</div>
+
+<div>
+
+## <a name="client-registration"></a>Registro de clientes
 
 
 <table>
@@ -78,7 +104,11 @@ En los apartados siguientes se resume la compatibilidad entre estas tres configu
 </table>
 
 
-## Cliente de punto a punto
+</div>
+
+<div>
+
+## <a name="peer-to-peer-client"></a>Cliente de punto a punto
 
 Las comunicaciones de punto a punto incluyen audio, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos. Después de que se hayan registrado con éxito ambos clientes, se admiten las combinaciones siguientes.
 
@@ -119,9 +149,13 @@ Las comunicaciones de punto a punto incluyen audio, audio y vídeo, uso comparti
 </table>
 
 
-## Conferencia
+</div>
 
-Las conferencias incluyen audio y vídeo, uso compartido de aplicaciones y colaboración de datos (pizarra y uso compartido de archivos).
+<div>
+
+## <a name="conferencing"></a>Conferencia
+
+Las conferencias incluyen audio/vídeo, uso compartido de aplicaciones y colaboración de datos (pizarras y uso compartido de archivos).
 
 
 <table>
@@ -168,9 +202,13 @@ Las conferencias incluyen audio y vídeo, uso compartido de aplicaciones y colab
 </table>
 
 
-## Servidor de mediación/RTC
+</div>
 
-Lync Server 2013 no admite la omisión de medios para las llamadas de la red telefónica conmutada (RTC) si el tráfico se produce a través de una interfaz IPv6. Si se requiere la omisión de medios, se recomienda que la puerta de enlace RTC se configure con IPv4.
+<div>
+
+## <a name="mediation-serverpstn"></a>Servidor de mediación/RTC
+
+Lync Server 2013 no admite omisión de multimedia para llamadas de red telefónica conmutada (RTC) si el tráfico se realiza a través de una interfaz de IPv6. Si se requiere la omisión de medios, recomendamos que la puerta de enlace RTC se configure con IPv4.
 
 
 <table>
@@ -206,9 +244,13 @@ Lync Server 2013 no admite la omisión de medios para las llamadas de la red tel
 </table>
 
 
-\* La interfaz principal es la interfaz que se comunica con los componentes de Lync Server.
+\*La interfaz principal es la interfaz que se comunica con los componentes de Lync Server.
 
-## Comunicaciones de punto a punto de usuarios remotos
+</div>
+
+<div>
+
+## <a name="remote-user-peer-to-peer-communications"></a>Comunicaciones de punto a punto de usuarios remotos
 
 Las comunicaciones de punto a punto con usuarios remotos incluyen mensajería instantánea, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos.
 
@@ -249,11 +291,15 @@ Las comunicaciones de punto a punto con usuarios remotos incluyen mensajería in
 </table>
 
 
-## Configuración del grupo de servidores front-end y del grupo de servidores perimetrales
+</div>
 
-La tabla siguiente muestra la matriz de compatibilidad entre el grupo de servidores Servidor front-end y el grupo de servidores Servidor perimetral interno.
+<div>
 
-### Matriz del grupo de servidores front-end y del grupo de servidores perimetrales (perímetro interno)
+## <a name="front-end-pool-and-edge-pool-configuration"></a>Configuración del grupo de servidores front-end y del grupo de servidores perimetrales
+
+En la tabla siguiente se muestra la matriz de soporte técnico entre el grupo de servidores front-end y el grupo de servidores perimetrales internos.
+
+### <a name="front-end-pool-and-edge-pool-internal-edge-matrix"></a>Matriz del grupo de servidores front-end y del grupo de servidores perimetrales (perímetro interno)
 
 <table>
 <colgroup>
@@ -264,7 +310,7 @@ La tabla siguiente muestra la matriz de compatibilidad entre el grupo de servido
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td><p><strong>Grupo de servidores perimetrales: IPv4</strong></p></td>
 <td><p><strong>Grupo de servidores perimetrales: pila dual</strong></p></td>
 <td><p><strong>Grupo de servidores perimetrales: IPv6</strong></p></td>
@@ -273,29 +319,29 @@ La tabla siguiente muestra la matriz de compatibilidad entre el grupo de servido
 <td><p><strong>Grupo de servidores front-end: IPv4</strong></p></td>
 <td><p>Sí</p></td>
 <td><p>Sí</p></td>
-<td><p>N.º</p></td>
+<td><p>No</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Grupo de servidores front-end: pila dual</strong></p></td>
+<td><p>Sí </p></td>
 <td><p>Sí</p></td>
-<td><p>Sí</p></td>
-<td><p>N.º</p></td>
+<td><p>No</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Grupo de servidores front-end: IPv6</strong></p></td>
-<td><p>N.º</p></td>
-<td><p>N.º</p></td>
-<td><p>Sí</p></td>
+<td><p>No</p></td>
+<td><p>Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados</p></td>
+<td><p>Sí*</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\* Use esta combinación únicamente en un entorno de ensayo.
+\*Use esta combinación solo en un entorno de laboratorio.
 
 La tabla siguiente es una matriz de combinaciones admitidas de las interfaces perimetrales interna y externa.
 
-### Matriz del grupo de servidores perimetrales (perímetro interno) y del grupo de servidores perimetrales (perímetro externo)
+### <a name="edge-pool-internal-edge-and-edge-pool-external-edge-matrix"></a>Matriz del grupo de servidores perimetrales (perímetro interno) y del grupo de servidores perimetrales (perímetro externo)
 
 <table>
 <colgroup>
@@ -306,7 +352,7 @@ La tabla siguiente es una matriz de combinaciones admitidas de las interfaces pe
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td><p><strong>Grupo de servidores perimetrales (perímetro externo): IPv4</strong></p></td>
 <td><p><strong>Grupo de servidores perimetrales (perímetro externo): pila dual</strong></p></td>
 <td><p><strong>Grupo de servidores perimetrales (perímetro externo): IPv6</strong></p></td>
@@ -315,49 +361,73 @@ La tabla siguiente es una matriz de combinaciones admitidas de las interfaces pe
 <td><p><strong>Grupo de servidores perimetrales (perímetro interno): IPv4</strong></p></td>
 <td><p>Sí</p></td>
 <td><p>Sí</p></td>
-<td><p>N.º</p></td>
+<td><p>No</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Grupo de servidores perimetrales (perímetro interno): pila dual</strong></p></td>
-<td><p>N.º</p></td>
+<td><p>No</p></td>
 <td><p>Sí</p></td>
-<td><p>N.º</p></td>
+<td><p>No</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Grupo de servidores perimetrales (perímetro interno): IPv6</strong></p></td>
-<td><p>N.º</p></td>
-<td><p>N.º</p></td>
-<td><p>Sí</p></td>
+<td><p>No</p></td>
+<td><p>Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados</p></td>
+<td><p>Sí*</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\* Use esta combinación únicamente en un entorno de ensayo.
+\*Use esta combinación solo en un entorno de laboratorio.
 
-## Compatibilidad avanzada de Telefonía IP empresarial para IPv6
+</div>
+
+<div>
+
+## <a name="advanced-enterprise-voice-support-for-ipv6"></a>Compatibilidad avanzada de Telefonía IP empresarial para IPv6
 
 Las implementaciones que incluyen el control de admisión de llamadas (CAC), Enhanced 9-1-1 (E9-1-1) o la omisión de medios se deben configurar como implementaciones de solo IPv4 o de pila dual.
 
-
-> [!NOTE]
-> En una implementación de pila dual, incluso si un cliente de Lync se conecta a un Lync Server mediante IPv6, Lync hará un gran esfuerzo para asignar una dirección IPv4 adecuada que admita E9-1-1.
+<div>
 
 
+> [!NOTE]  
+> En una implementación con dos pilas, incluso si un cliente de Lync se conecta a un servidor de Lync mediante IPv6, Lync hará todo lo posible para asignar una dirección IPv4 adecuada para admitir E9-1-1.
 
-No se puede usar Servicio de información de ubicaciones con direcciones IPv6.
+
+
+</div>
+
+No se admite el servicio de información de ubicación con direcciones IPv6.
 
 La mensajería unificada (MU) de Exchange no admite IPv6. Para la MU de Exchange, asegúrese de que la resolución de DNS no devuelve una dirección IPv6. El uso de IPv6 puede provocar un fallo cuando se envían las llamadas al correo de voz.
 
-## Compatibilidad con otras características de Lync Server 2013 para IPv6
+</div>
 
-Además de las características y los componentes mencionados anteriormente, Lync Server 2013 admite IPv6 para las siguientes características:
+<div>
+
+## <a name="other-lync-server-2013-feature-support-for-ipv6"></a>Otra compatibilidad con características de Lync Server 2013 para IPv6
+
+Además de las características y componentes mencionados anteriormente, Lync Server 2013 admite IPv6 para las siguientes características:
 
   - **Chat persistente**
     
-    Puede configurar IPv6 para Chat persistente utilizando Generador de topologías. Para obtener información detallada acerca de la configuración de Chat persistente, consulte la documentación acerca de la implementación del servidor de chat persistente.
+    Para configurar IPv6 para la conversación persistente, use el generador de topología. Para obtener más información sobre cómo configurar una conversación persistente, consulte la documentación de implementación del servidor de chat persistente.
 
-  - **Informes de Calidad de la experiencia (QoE) y registro de detalles de llamadas (CDR)**
+  - **Informes de Calidad de la experiencia (QoE) y registro detallado de llamadas (CDR)**
     
     Los informes de supervisión incluyen la dirección IP cuando se guarda en la base de datos del servidor de supervisión, tanto del tipo IPv4 como IPv6.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

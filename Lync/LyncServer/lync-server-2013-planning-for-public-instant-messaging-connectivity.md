@@ -1,49 +1,91 @@
-﻿---
-title: Planear la conectividad de mensajería instantánea pública en Lync Server 2013
-TOCTitle: Planear la conectividad de mensajería instantánea pública en Lync Server 2013
-ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205349(v=OCS.15)
-ms:contentKeyID: 48277022
-ms.date: 03/09/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planeamiento de la conectividad de mensajería instantánea pública'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for public instant messaging connectivity
+ms:assetid: e75e8884-05c7-414a-8014-bc9aa8126fb7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205349(v=OCS.15)
+ms:contentKeyID: 48185698
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4432484fbd6056d51a38090a18dbe106851d7c0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824578"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planear la conectividad de mensajería instantánea pública en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2017-03-09_
+# <a name="planning-for-public-instant-messaging-connectivity-in-lync-server-2013"></a>Planeamiento de la conectividad de mensajería instantánea pública en Lync Server 2013
 
-La conectividad de mensajería instantánea pública es una clase especial de federación y está configurada para que los usuarios internos y externos de Lync Server 2013 puedan agregar contactos desde cualquiera de las siguientes aplicaciones:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-10-07_
+
+La conectividad de mensajería instantánea pública es una clase de Federación y está configurada para permitir a los usuarios internos y externos de Lync Server 2013 agregar contactos de cualquiera de las siguientes opciones:
 
   - Contactos de Messenger
 
-  - Contactos de Yahoo\!
+  - Yahoo\! contactos
 
   - Contactos de America Online (AOL)
 
+<div>
+
+
 > [!IMPORTANT]  
-> <ul>
-> <li><p>Desde el 1 de septiembre de 2012 no se pueden comprar ni renovar acuerdos de licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (“PIC USL”). Los clientes que dispongan de licencias activas podrán mantener su federación con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha de cierre anunciada para AOL y Yahoo! se sitúa en junio de 2014. Para más información, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
-> <li><p>La PIC USL es una licencia de suscripción por usuario y mes necesaria para que Lync Server o el servidor Office Communications Server puedan federarse con Yahoo! Messenger. La capacidad de Microsoft para prestar este servicio ha dependido siempre del soporte ofrecido por Yahoo!, cuyo acuerdo subyacente no se va a renovar.</p></li>
-> <li><p>Lync es ahora más que nunca una poderosa herramienta de conexión entre empresas y con individuos de todo el mundo. La federación con Windows Live Messenger no precisa de ninguna licencia de usuario/dispositivo extra, aparte de la licencia CAL de Lync Standard. Esta lista incluirá también la federación con Skype, lo que permitirá a los usuarios de Lync llegar a cientos de millones de personas mediante voz y mensajería instantánea.</p></li>
-> </ul>
+> <UL>
+> <LI>
+> <P>A partir del 1 de septiembre de 2012, la licencia de suscripción de usuario de la conectividad de mensajería instantánea pública de Microsoft Lync (PIC USL) ya no está disponible para la compra de contratos nuevos o de renovación. Los clientes con licencias activas podrán seguir federando a Yahoo! Messenger hasta la fecha de cierre del servicio. Una fecha de fin de vida de junio de 2014 para AOL y Yahoo! ha sido anunciado. Para obtener más información, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">compatibilidad de la conectividad de mensajería instantánea pública en Lync Server 2013</A>.</P>
+> <LI>
+> <P>El PIC USL es una licencia por usuario y por mes de suscripción que es necesaria para que Lync Server o Office Communications Server se federe con Yahoo! Mensajería. La capacidad de Microsoft para proporcionar este servicio está supeditada al soporte de Yahoo!, el contrato subyacente para el cual no se renovará.</P>
+> <LI>
+> <P>Más que nunca, Lync es una herramienta eficaz para la conexión entre organizaciones y con personas de todo el mundo. La Federación con Windows Live Messenger no requiere licencias adicionales para usuarios y dispositivos más allá de la CAL de Lync Standard. La Federación de Skype se agrega a esta lista, lo que permite a los usuarios de Lync llegar a cientos de millones de personas a través de la mensajería instantánea y la voz.</P></LI></UL>
 
 
-Esta clase de federación requiere las siguientes consideraciones de planificación:
 
-  - Los usuarios de Windows Live Messenger pueden tener una comunicación audiovisual punto a punto con usuarios de Lync Server 2013 además de la mensajería instantánea. Sus Servidores perimetrales deben cumplir unos determinados requisitos de puerto y protocolo. Para más información, consulte [Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).
+</div>
 
-  - La mensajería instantánea de Yahoo no tiene ningún requisito único aparte de los que se suelen usar en la planificación e implementación del Servidor perimetral típico que proporciona federación.
+Esta clase de Federación requiere las siguientes consideraciones de planeación:
 
-  - America Online requiere una configuración de certificado única. Además del uso de clave mejorada del servidor normal (EKU), America Online requiere el certificado o los certificados (en el caso de un grupo de servidores de Servidor perimetral) para contener también el EKU del cliente.
+  - Los usuarios de Windows Live Messenger pueden tener una comunicación visual o de audio de punto a punto con los usuarios de Lync Server 2013, además de la mensajería instantánea. Los servidores perimetrales deben cumplir con requisitos de puerto y protocolo específicos. Para obtener más información, consulte [determinar el firewall externo a/V y los requisitos de puerto para Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md).
 
-## En esta sección
+  - La mensajería instantánea de Yahoo no tiene requisitos únicos, excepto los que normalmente se usan en la planificación y la implementación del servidor perimetral típico que proporciona la Federación.
 
-  - [Resumen de certificado - Conectividad de mensajería instantánea pública](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
+  - America Online requiere que el certificado del servidor perimetral asignado al servicio perimetral de acceso tenga un uso mejorado de clave (EKU) de cliente.
 
-  - [Resumen de puertos - Conectividad de mensajería instantánea pública](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
+<div>
 
-  - [Resumen de DNS - Conectividad de mensajería instantánea pública](https://technet.microsoft.com/es-es/library/jj618375\(v=ocs.15\))
+## <a name="in-this-section"></a>En esta sección
+
+  - [Resumen del certificado: conectividad de mensajería instantánea pública en Lync Server 2013](lync-server-2013-certificate-summary-public-instant-messaging-connectivity.md)
+
+  - [Resumen de puertos: conectividad de mensajería instantánea pública en Lync Server 2013](lync-server-2013-port-summary-public-instant-messaging-connectivity.md)
+
+  - [Resumen de DNS: conectividad de mensajería instantánea pública en Lync Server 2013](https://technet.microsoft.com/en-us/library/jj618375\(v=ocs.15\))
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,34 +1,61 @@
-﻿---
-title: "Resumen de puerto: federación SIP, federación XMPP y mensajería instantánea pública"
-TOCTitle: "Résumé des ports - Féd. SIP, XMPP et messagerie instantanée publique"
-ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618373(v=OCS.15)
-ms:contentKeyID: 49115308
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Resumen de puertos: SIP, Federación XMPP y mensajería instantánea pública'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - SIP, XMPP federation, and public instant messaging
+ms:assetid: ab05bdd6-e9b0-4b1b-9dd9-29ab88e8befe
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618373(v=OCS.15)
+ms:contentKeyID: 49105660
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b2edcad9806c5e6c8714f3face301211633a53fc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824319"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de puerto: federación SIP, federación XMPP y mensajería instantánea pública
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="port-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumen de puertos: SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013
 
-Los requisitos de puerto, protocolo y firewall para la federación con Microsoft Lync Server 2013, Lync Server 2010 y Office Communications Server son similares a los requisitos del Servidor perimetral implementado. Los clientes inician la comunicación con el Servidor perimetral de acceso a través de TLS/SIP/TCP 443. Sin embargo, los socios federados iniciarán las comunicaciones con el Servidor perimetral de acceso a través de MTLS/SIP/TCP 5061.
+</div>
 
-Para configurar en el firewall los puertos y protocolos necesarios para admitir la conectividad de mensajería instantánea pública, antes debe tener en cuenta que SIP/MTLS/TCP 5061 es bidireccional: es decir, permite a los contactos de la MI pública contactar con los clientes de Lync y a Lync contactar con los contactos de la MI pública.
+<div id="mainSection">
 
-Windows Live Messenger puede participar en comunicaciones de audio y vídeo con los clientes de Lync, por lo que la configuración de puertos y protocolos del firewall es muy similar a la que tendría normalmente en el firewall para admitir a los clientes de Lync como usuarios externos.
+<div id="mainBody">
 
-> [!IMPORTANT]  
-> Lync es, ahora más que nunca, una eficaz herramienta para conectar organizaciones e individuos de todo el mundo. La federación con Windows Live Messenger no precisa de ninguna licencia de usuario o dispositivo adicional, aparte de la licencia de acceso de cliente (CAL) estándar de Lync. Esta lista incluirá también la federación con Skype, lo que permitirá a los usuarios de Lync llegar a cientos de millones de personas con voz y mensajería instantánea.<br />
-> La federación con los contactos de clientes Messenger finalizará oficialmente el 15 de marzo de 2013, excepto en China continental. Skype pasará a ser el cliente de federación de los usuarios federados que usaban Messenger.
+<span> </span>
+
+_**Última modificación del tema:** 2013-03-15_
+
+Los requisitos de puertos, protocolos y firewalls para la Federación con Microsoft Lync Server 2013, Lync Server 2010 y Office Communications Server son similares a los del servidor perimetral implementado. Los clientes inician la comunicación con el servicio perimetral de acceso a través de TLS/SIP/TCP 443. Sin embargo, los socios federados iniciarán las comunicaciones con el servicio perimetral de acceso a través de MTLS/SIP/TCP 5061.
+
+Para configurar el firewall para los puertos y protocolos necesarios para admitir la conectividad de mensajería instantánea pública, primero tenga en cuenta que el SIP/MTLS/TCP 5061 es bidireccional para tener en cuenta la capacidad de los contactos en el proveedor de mensajería instantánea pública para ponerse en contacto con los clientes de Lync o para que Lync pueda Póngase en contacto con contactos públicos de mensajería instantánea.
+
+Windows Live Messenger puede participar en comunicaciones de audio y vídeo con clientes de Lync. Esto cuenta con una configuración de protocolo y un puerto de Firewall muy similar que normalmente tendría en el firewall para admitir clientes de Lync como usuarios externos.
+
+<div>
 
 
-Los puertos y protocolos definidos para el proxy de protocolo extensible de mensajería y presencia (XMPP) implementado en el Servidor perimetral posibilitan las comunicaciones desde el socio federado de XMPP hasta el Servidor perimetral, y también posibilitan la comunicación desde su Servidor perimetral hasta el socio federado de XMPP. Además, hay una regla definida en el firewall de conexión interna para las comunicaciones entre el Servidor front-end o el Grupo de servidores front-end y el Servidor perimetral o el Grupo de servidores perimetrales.
+> [!IMPORTANT]
+> Más que nunca, Lync es una herramienta eficaz para la conexión entre organizaciones y con personas de todo el mundo. La Federación con Windows Live Messenger no requiere licencias de usuario o de dispositivo adicionales aparte de la licencia de acceso de cliente (CAL) de Lync. La Federación de Skype se agrega a esta lista, lo que permite a los usuarios de Lync llegar a cientos de millones de personas con la mensajería instantánea y la voz.<BR>La Federación con los contactos de los clientes de Messenger terminará oficialmente el 15 de marzo de 2013, excepto en el caso de China continental. Skype se convertirá en el cliente de Federación para los usuarios federados que antes usaban Messenger.
 
-## Resumen del firewall: federación SIP
+
+
+</div>
+
+Los puertos y protocolos definidos para el proxy protocolo de presencia y mensajería extensible (XMPP) implementado en el servidor perimetral permiten las comunicaciones del socio XMPP federado hasta el servidor perimetral, y también permiten la comunicación desde el servidor perimetral al XMPP socio federado. Una regla también se define en el Firewall de orientación interna desde el servidor front-end o el grupo front-end hasta el servidor perimetral o el grupo Edge.
+
+<div>
+
+## <a name="firewall-summary---sip-federation"></a>Resumen del firewall: Federación SIP
 
 
 <table>
@@ -40,7 +67,7 @@ Los puertos y protocolos definidos para el proxy de protocolo extensible de mens
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rol/Protocolo/TCP o UDP/Puerto</th>
+<th>Función/protocolo/TCP o UDP/puerto</th>
 <th>Dirección IP de origen</th>
 <th>Dirección IP de destino</th>
 <th>Notas</th>
@@ -48,16 +75,20 @@ Los puertos y protocolos definidos para el proxy de protocolo extensible de mens
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Acceso/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Dirección IP pública de Servidor perimetral de acceso</p></td>
+<td><p>Acceso/SIP (MTLS)/TCP/5061</p></td>
+<td><p>Dirección IP pública del servicio perimetral de acceso</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Para la conectividad de MI pública y federada mediante SIP</p></td>
+<td><p>Para conectividad de mensajería instantánea pública y federada con SIP</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Resumen del firewall: Conectividad de mensajería instantánea pública
+</div>
+
+<div>
+
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Resumen del firewall: conectividad de mensajería instantánea pública
 
 
 <table>
@@ -69,7 +100,7 @@ Los puertos y protocolos definidos para el proxy de protocolo extensible de mens
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rol/Protocolo/TCP o UDP/Puerto</th>
+<th>Función/protocolo/TCP o UDP/puerto</th>
 <th>Dirección IP de origen</th>
 <th>Dirección IP de destino</th>
 <th>Notas</th>
@@ -77,46 +108,50 @@ Los puertos y protocolos definidos para el proxy de protocolo extensible de mens
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Acceso/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Socios de conectividad de MI pública</p></td>
-<td><p>Interfaz de acceso del Servidor perimetral</p></td>
-<td><p>Para la conectividad de MI pública y federada mediante SIP.</p></td>
+<td><p>Acceso/SIP (MTLS)/TCP/5061</p></td>
+<td><p>Partners de conectividad de mensajería instantánea pública</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
+<td><p>Para la conectividad de mensajería instantánea pública y federada que usan SIP.</p></td>
 </tr>
 <tr class="even">
-<td><p>Acceso/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Interfaz de acceso del Servidor perimetral</p></td>
-<td><p>Socios de conectividad de MI pública</p></td>
-<td><p>Para la conectividad de MI pública y federada mediante SIP.</p></td>
+<td><p>Acceso/SIP (MTLS)/TCP/5061</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
+<td><p>Partners de conectividad de mensajería instantánea pública</p></td>
+<td><p>Para la conectividad de mensajería instantánea pública y federada que usan SIP.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Acceso/SIP(TLS)/TCP/443</p></td>
+<td><p>Acceso/SIP (TLS)/TCP/443</p></td>
 <td><p>Clientes</p></td>
-<td><p>Interfaz de acceso del Servidor perimetral</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
 <td><p>Tráfico SIP de cliente a servidor para el acceso de usuarios externos.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/TCP/50.000–59.999</p></td>
-<td><p>Interfaz de acceso del Servidor perimetral</p></td>
+<td><p>A/V/RTP/TCP/50000-59.999 SESIONES</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
 <td><p>Clientes de Live Messenger</p></td>
-<td><p>Se usa para las sesiones de A/V con Windows Live Messenger si se ha configurado la conectividad de MI pública.</p></td>
+<td><p>Se usa para sesiones de A/V con Windows Live Messenger si está configurada la conectividad de mensajería instantánea pública.</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>Interfaz de acceso del Servidor perimetral</p></td>
+<td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
 <td><p>Clientes de Live Messenger</p></td>
-<td><p>Obligatorio para la conectividad de MI pública con Windows Live Messenger.</p></td>
+<td><p>Necesario para la conectividad de mensajería instantánea pública con Windows Live Messenger.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
+<td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
 <td><p>Clientes de Live Messenger</p></td>
-<td><p>Interfaz de acceso del Servidor perimetral</p></td>
-<td><p>Obligatorio para la conectividad de MI pública con Windows Live Messenger.</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
+<td><p>Necesario para la conectividad de mensajería instantánea pública con Windows Live Messenger.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Resumen del firewall: Protocolo extensible de mensajería y presencia (XMPP)
+</div>
+
+<div>
+
+## <a name="firewall-summary---extensible-messaging-and-presence-protocol-xmpp"></a>Resumen de Firewall: Protocolo de presencia y mensajería extensible (XMPP)
 
 
 <table>
@@ -128,7 +163,7 @@ Los puertos y protocolos definidos para el proxy de protocolo extensible de mens
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo/TCP o UDP/Puerto</th>
+<th>Protocolo/TCP o UDP/puerto</th>
 <th>Origen (dirección IP)</th>
 <th>Destino (dirección IP)</th>
 <th>Comentarios</th>
@@ -138,33 +173,48 @@ Los puertos y protocolos definidos para el proxy de protocolo extensible de mens
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Dirección IP de la interfaz del Servidor perimetral de acceso</p></td>
-<td><p>Puerto de comunicación estándar de servidor a servidor para XMPP. Permite la comunicación con el servidor proxy XMPP del Servidor perimetral desde socios XMPP federados</p></td>
+<td><p>Dirección IP de la interfaz de servicio perimetral de Access</p></td>
+<td><p>Puerto de comunicación de servidor a servidor estándar para XMPP. Permite la comunicación con el proxy XMPP del servidor perimetral de socios de XMPP</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Dirección IP de la interfaz del Servidor perimetral de acceso</p></td>
+<td><p>Dirección IP de la interfaz de servicio perimetral de Access</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Puerto de comunicación estándar de servidor a servidor para XMPP. Permite la comunicación desde el servidor proxy XMPP del Servidor perimetral hasta los socios XMPP federados</p></td>
+<td><p>Puerto de comunicación de servidor a servidor estándar para XMPP. Permite la comunicación desde el proxy XMPP del servidor perimetral a socios XMPP de Federación</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/23456</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>IP interna de la interfaz del Servidor perimetral</p></td>
-<td><p>Tráfico XMPP interno desde la puerta de enlace XMPP del Servidor front-end o del Grupo de servidores front-end hasta el Servidor perimetral</p></td>
+<td><p>IP de la interfaz del servidor perimetral interno</p></td>
+<td><p>Tráfico de XMPP interno de la puerta de enlace XMPP del servidor front-end o del grupo front-end al servidor perimetral</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+</div>
 
-#### Conceptos
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
 [Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
 
-#### Otros recursos
 
-[Administrar socios federados XMPP para su organización en Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)
+[Administrar socios federados XMPP para su organización en Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

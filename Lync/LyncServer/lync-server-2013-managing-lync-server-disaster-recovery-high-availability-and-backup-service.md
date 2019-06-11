@@ -1,42 +1,70 @@
-﻿---
-title: "Recuperación ante desastres, alta disponibilidad y servicio de copia de seguridad"
-TOCTitle: Administrar la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad en Lync Server 2013
-ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721939(v=OCS.15)
-ms:contentKeyID: 49889817
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Administración de recuperación ante desastres, alta disponibilidad y servicio de copia de seguridad de Lync Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
+ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)
+ms:contentKeyID: 49733876
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cada393fca28895ee5f23a12fdd55eabd211128e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828015"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a>Administrar la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-12_
 
-En esta sección se incluyen procedimientos para operaciones de recuperación ante desastres, así como para el mantenimiento del Servicio de copia de seguridad, el cual sincroniza los datos entre grupos de servidores front-end asociados.
+Esta sección contiene procedimientos para las operaciones de recuperación ante desastres, así como para mantener el servicio de copia de seguridad que sincroniza los datos de las agrupaciones frontales emparejadas.
 
-Los procedimientos de recuperación ante desastres, tanto de conmutación por error, como por recuperación, son manuales. Si se produce un desastre, el administrador deberá invocar manualmente los procedimientos de conmutación por error. Y lo mismo ocurre con la conmutación por recuperación después de la reparación del grupo de servidores.
+Los procedimientos de recuperación ante desastres, tanto de failover como failback, son manuales. Si se produce un desastre, el administrador debe invocar manualmente los procedimientos de conmutación por error. Lo mismo se aplica a la conmutación por recuperación después de reparar el grupo.
 
-Para los procedimientos de recuperación ante desastres expuestos a continuación, se supone que:
+Los procedimientos de recuperación de desastres en el resto de esta sección suponen lo siguiente:
 
-  - Tiene una implementación con grupos de servidores front-end emparejados, localizados en centros diferentes, como se describe en [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). El Servicio de copia de seguridad se ha estado ejecutando en estos grupos emparejados para mantenerlos sincronizados.
+  - Tiene una implementación con las agrupaciones frontales emparejadas, que se encuentran en diferentes sitios, como se describe en [planear la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). El servicio de copia de seguridad se ha ejecutado en estas agrupaciones emparejadas para mantenerlas sincronizadas.
 
-  - Si el Almacén de administración central está hospedado en uno de los grupos de servidores, está instalado y en ejecución en los dos grupos de servidores emparejados. En uno de los grupos de servidores se hospeda el maestro activo y, en el otro, el maestro en espera.
+  - Si el almacén central de administración se encuentra en cualquiera de las dos agrupaciones, se instalará y se ejecutará en ambos pools emparejados, con uno de esos grupos que alojen el maestro activo y el otro grupo que aloje al modo de espera.
 
-> [!IMPORTANT]  
-> En los procedimientos siguientes, el parámetro <em>PoolFQDN</em> hace referencia al FQDN del grupo afectado por el desastre y no al grupo desde el cual se redirige a los usuarios afectados. Para el mismo conjunto de usuarios afectados, se refiere al mismo grupo tanto en los cmdlets de conmutación por error, como de conmutación por recuperación (es decir, el grupo de servidores que hospedó en primer lugar a los usuarios antes de la conmutación por error).<br />
-> Por ejemplo, supongamos que se hizo de la conmutación por error de todos los usuarios hospedados en el grupo P1 al grupo de servidores de reserva, el P2. Si el administrador quiere mover a todos los usuarios que actualmente están siendo atendidos por P2 a P1, el administrador deberá dar los siguientes pasos:
-> <ol>
-> <li><p>Conmutar por recuperación a todos los usuarios hospedados inicialmente en P1 de P2 a P1 usando el cmdlet de conmutación por recuperación. En este caso, el <em>PoolFQDN</em> es el FQDN de P1.</p></li>
-> <li><p>Conmutar por error a todos los usuarios hospedados inicialmente en P2 a P1 usando el cmdlet de conmutación por error. En este caso, el <em>PoolFQDN</em> es el FQDN de P2.</p></li>
-> <li><p>Si después el administrador desea llevar a cabo la conmutación por recuperación de los usuarios de P2 de vuelta a P2, el <em>PoolFQDN</em> será el FQDN de P2.</p></li>
-> </ol>
-> Observe que el paso 1 anterior se debe llevar a cabo antes que el paso 2 para mantener la integridad del grupo de servidores. Si intenta realizar el paso 2 antes que el paso 1, el cmdlet del paso 2 no se completará correctamente.
+<div>
 
 
-## En esta sección
+> [!IMPORTANT]
+> En los procedimientos siguientes, el parámetro <EM>PoolFQDN</EM> se refiere al FQDN del grupo de servidores que se ve afectado por el desastre, no al grupo desde el que se redirige a los usuarios afectados. Para el mismo conjunto de usuarios afectados, se refiere al mismo grupo en cmdlets de conmutación por error y de conmutación por error (es decir, el grupo que ha alojado primero los usuarios antes de la conmutación por error).<BR>Por ejemplo, supongamos que se produjo un error en todos los usuarios alojados en un grupo P1 en el grupo de copia de seguridad, P2. Si el administrador desea mover todos los usuarios que actualmente son atendidas por P2, el administrador debe realizar los siguientes pasos: 
+> <OL>
+> <LI>
+> <P>Realice la conmutación por recuperación de todos los usuarios originalmente alojados en P1 desde P2 a P1 con el cmdlet de conmutación por recuperación. En este caso, el <EM>PoolFQDN</EM> es P1's FQDN.</P>
+> <LI>
+> <P>Conmute por error a todos los usuarios que se hayan alojado originalmente en P2 a P1 mediante el cmdlet de conmutación por error. En este caso, el <EM>PoolFQDN</EM> es P2's FQDN.</P>
+> <LI>
+> <P>Si, posteriormente, el administrador desea volver a realizar la conmutación por error de esos usuarios P2 a P2, la <EM>PoolFQDN</EM> es P2's FQDN.</P></LI></OL>Tenga en cuenta que el paso 1 anterior debe realizarse antes del paso 2 para preservar la integridad del grupo. Si intenta paso 2 antes del paso 1, se producirá un error en el cmdlet paso 2.
+
+
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Configurar y supervisar el servicio de copia de seguridad en Lync Server 2013](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 
@@ -56,9 +84,25 @@ Para los procedimientos de recuperación ante desastres expuestos a continuació
 
   - [Restauración de contenidos de conferencia mediante el servicio de copias de seguridad en Lync Server 2013](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
 
-## Vea también
+</div>
 
-#### Conceptos
+<div>
 
-[Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+## <a name="see-also"></a>Vea también
+
+
+[Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

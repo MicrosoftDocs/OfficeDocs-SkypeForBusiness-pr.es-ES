@@ -1,54 +1,105 @@
-﻿---
-title: 'Lync Server 2013: Información general sobre los enlaces troncales SIP'
-TOCTitle: Información general sobre los enlaces troncales SIP
-ms:assetid: 204f2c21-436f-4b2d-93ea-d6db98fa2952
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398285(v=OCS.15)
-ms:contentKeyID: 48274657
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Información general sobre los enlaces troncales SIP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of SIP trunking
+ms:assetid: 204f2c21-436f-4b2d-93ea-d6db98fa2952
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398285(v=OCS.15)
+ms:contentKeyID: 48183601
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2e2c79261923456575e208aa472daae4aaab5f55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825348"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Información general sobre los enlaces troncales SIP en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="overview-of-sip-trunking-in-lync-server-2013"></a>Información general sobre los enlaces troncales SIP en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-05_
 
-La implementación de un enlace troncal SIP puede suponer un enorme avance a la hora de simplificar las telecomunicaciones de la organización y adaptarse a las mejoras más recientes de las comunicaciones en tiempo real. Una de las principales ventajas del enlace troncal SIP consiste en que es posible consolidar las conexiones de la organización a la red telefónica conmutada (RTC) en un único sitio central, cosa que con la versión anterior no era posible, ya que se usaban troncos de multiplexación por división de tiempo (TDM), lo que normalmente requería un tronco por cada sucursal.
+La implementación de un enlace troncal SIP puede suponer un enorme avance a la hora de simplificar las telecomunicaciones de la organización y adaptarse a las mejoras más recientes de las comunicaciones en tiempo real. Una de las principales ventajas del enlace troncal SIP consiste en que es posible consolidar las conexiones de la organización a la red telefónica conmutada (RTC) en un único sitio central, cosa que con la versión anterior no era posible, ya que se usaban troncos de multiplexación por división de tiempo (TDM), lo que normalmente necesitaba un tronco por cada sitio de sucursal.
 
-## Enlace troncal SIP en Lync Server 
+<div>
 
-Las funciones de enlace troncal SIP de Lync Server 2013 hacen posible que:
+## <a name="sip-trunking-in-lync-server"></a>Troncalización SIP en Lync Server
 
-  - Un usuario de la empresa dentro o fuera del firewall corporativo pueda realizar una llamada local o de larga distancia especificada por un número conforme a E.164 con terminación en la RTC como un servicio del proveedor de servicios correspondiente.
+Las capacidades de Troncalización SIP de Lync Server 2013 permiten lo siguiente:
 
-  - Cualquier suscriptor de RTC puede ponerse en contacto con un usuario de la empresa dentro o fuera del firewall corporativo marcando un número de llamada directa a la extensión (DID) asociado a ese usuario de la empresa.
+  - Un usuario de la empresa, ya sea dentro o fuera del firewall de la empresa, puede hacer una llamada local o una llamada de larga distancia especificada por un número compatible con E. 164 que haya finalizado en la RTC como servicio del proveedor de servicios correspondiente.
 
-## Ahorro económico
+  - Cualquier abonado de RTC puede ponerse en contacto con un usuario empresarial dentro o fuera del Firewall corporativo marcando un número de marcado interno directo que está asociado con ese usuario de la empresa.
+
+</div>
+
+<div>
+
+## <a name="cost-savings"></a>Ahorro económico
 
 El ahorro económico inherente al enlace troncal SIP puede ser considerable:
 
-  - El costo de las llamadas de larga distancia suele ser mucho menor con un tronco SIP.
+  - El coste de las llamadas de larga distancia suele ser mucho menor con un tronco SIP.
 
-  - Es posible reducir tanto los costos de facilidad de uso como la complejidad de la implementación.
+  - Es posible reducir tanto los costes de manejabilidad como la complejidad de la implementación.
 
-  - Las tasas de interfaz de acceso básica (BRI) y de interfaz de acceso principal (PRI) se pueden evitar si se conecta un tronco SIP directamente al ITSP, a un costo visiblemente menor. En los troncos TDM, los proveedores del servicio establecían el cargo de las llamadas por minuto. El costo del enlace troncal SIP se puede basar en el uso de ancho de banda, que puede adquirirse en incrementos más pequeños y, por tanto, más económicos (el costo real depende del modelo de servicio del ITSP que se elija).
+  - Las tasas de interfaz de acceso básica (BRI) y de interfaz de acceso principal (PRI) se pueden evitar si se conecta un tronco SIP directamente al ITSP, a un coste visiblemente menor. En los enlaces troncales TDM, los proveedores de servicios establecen el cargo de las llamadas por minuto. El coste del enlace troncal SIP se puede basar en el uso de ancho de banda, que puede comprarse en incrementos más pequeños y, por tanto, más económicos (el coste real depende del modelo de servicio del ITSP que elijas).
 
-## Enlace troncal SIP frente a puerta de enlace RTC o PBX IP
+<div>
 
-Como los troncos SIP se conectan directamente al proveedor del servicio, se puede prescindir de las puertas de enlace RTC y, en consecuencia, del costo de administración y complejidad que estas conllevan. El uso de un tronco SIP se traduce en un ahorro económico muy significativo gracias a que se requiere menos mantenimiento y administración.
+## <a name="sip-trunking-vs-hosting-a-pstn-gateway-or-ip-pbx"></a>Enlace troncal SIP en comparación con el hospedaje de una puerta de enlace RTC o PBX IP
 
-## Servicios de VoIP ampliados
+Como los troncos SIP se conectan directamente al proveedor de servicios, se puede prescindir de las puertas de enlace RTC y, en consecuencia, del coste de administración y complejidad que estas conllevan. El uso de un tronco SIP se traduce en un ahorro económico muy significativo, ya que requiere menos mantenimiento y administración.
 
-Con frecuencia, las características de voz constituyen la principal motivación para implementar un enlace troncal SIP, si bien la compatibilidad de voz es solo el primer paso. Con el enlace troncal SIP, se pueden ampliar las funciones de VoIP y lograr que Lync Server 2013 ofrezca un conjunto de servicios más completo. Por ejemplo:
+</div>
 
-  - La mayor eficacia en la detección de presencia de dispositivos que no ejecutan Lync Server 2013 permite una mejor integración con los teléfonos móviles, de modo que se podrá saber cuándo un usuario se encuentra realizando una llamada de teléfono móvil.
+</div>
+
+<div>
+
+## <a name="expanded-voip-services"></a>Servicios de VoIP ampliados
+
+Con frecuencia, las características de voz constituyen la principal motivación para implementar un enlace troncal SIP, si bien la compatibilidad de voz es solo el primer paso. Con los troncales SIP, puede ampliar las capacidades de VoIP y habilitar Lync Server 2013 para ofrecer un conjunto de servicios más completo. Por ejemplo:
+
+  - La detección de presencia mejorada para dispositivos que no ejecutan Lync Server 2013 puede proporcionar mejor integración con teléfonos móviles, lo que le permite ver cuándo un usuario se encuentra en una llamada de teléfono móvil.
 
   - El servicio de llamadas de emergencia E9-1-1 permite que los responsables que atienden las llamadas al 911 sepan dónde se encuentra la persona que realiza la llamada a través de su número de teléfono.
 
+<div>
 
-> [!NOTE]
-> Contacte con su ITSP para obtener una lista de los servicios que este admite y que se pueden habilitar en la organización.
 
+> [!NOTE]  
+> Ponte en contacto con tu ITSP para obtener una lista de los servicios que este admite y que puedes habilitar en tu organización.
+
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

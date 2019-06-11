@@ -1,39 +1,77 @@
-﻿---
-title: "Lync Server 2013: Planear recuperación ante desastres de estacionamiento de llamadas"
-TOCTitle: Planear la recuperación ante desastres del estacionamiento de llamadas
-ms:assetid: f7cf3958-177b-4340-a864-35a6f44d6d88
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205395(v=OCS.15)
-ms:contentKeyID: 48277235
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planear la recuperación ante desastres del estacionamiento de llamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for Call Park disaster recovery
+ms:assetid: f7cf3958-177b-4340-a864-35a6f44d6d88
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205395(v=OCS.15)
+ms:contentKeyID: 48185867
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2a7da940f55574e1c6d50aeb06c0c80710bdbaad
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825005"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planear la recuperación ante desastres del estacionamiento de llamadas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-call-park-disaster-recovery-in-lync-server-2013"></a>Planear la recuperación ante desastres del estacionamiento de llamadas en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-30_
 
-En esta sección se describen algunas formas de preparar la Aplicación de estacionamiento de llamadas para la recuperación ante desastres y algunas consideraciones sobre el proceso de recuperación ante desastres.
+En esta sección se describen algunas formas de preparar la aplicación de estacionamiento de llamadas para la recuperación ante desastres y algunas consideraciones para el proceso de recuperación ante desastres.
 
-## Preparación para la recuperación ante desastres de Estacionamiento de llamadas
+<div>
 
-Recuerde las siguientes prácticas recomendadas a la hora de preparar y llevar a cabo procedimientos de recuperación ante desastres.
+## <a name="preparing-for-call-park-disaster-recovery"></a>Preparación de la recuperación ante desastres de estacionamiento de llamadas
 
-  - Planee la recuperación ante desastres cuando realice la planeación de capacidad. Para ver la capacidad de recuperación ante desastres, cada grupo de servidores de un grupo emparejado debe poder gestionar las cargas de trabajo de los servicios de Estacionamiento de llamadas en ambos grupos de servidores. Para obtener información acerca de la planeación de capacidad de Estacionamiento de llamadas, consulte [Planificar la capacidad para el estacionamiento de llamadas en Lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md).
+Tenga en cuenta lo siguiente cuando prepare y lleve a cabo procedimientos de recuperación ante desastres.
 
-  - Durante la recuperación ante desastres, los usuarios que hayan sido redirigidos al grupo de servidores de copia de seguridad como parte del proceso de conmutación por error usan el servicio Estacionamiento de llamadas implementado en el grupo de servidores de copia de seguridad. En consecuencia, la compatibilidad con Estacionamiento de llamadas durante la recuperación ante desastres requiere que Aplicación de estacionamiento de llamadas se implemente y habilite tanto en el grupo de servidores principal como en el de copia de seguridad.
+  - Planee la recuperación de desastres cuando realice su plan de capacidad. Para la capacidad de recuperación ante desastres, cada grupo de un grupo emparejado debe poder administrar las cargas de trabajo de los servicios de estacionamiento de llamadas en ambos grupos. Para obtener más información sobre la planeación de la capacidad de estacionamiento de llamadas, consulte [planificación de la capacidad de estacionamiento de llamadas en Lync Server 2013](lync-server-2013-capacity-planning-for-call-park.md).
 
-  - Cada grupo de servidores debe tener un intervalo válido de números de órbita para que lo usen los usuarios hospedados en dicho grupo para estacionar llamadas.
+  - Durante la recuperación de desastres, los usuarios que se han redirigido al grupo de copia de seguridad como parte del proceso de conmutación por error usan el servicio de estacionamiento de llamadas que se ejecuta en el grupo de copias de seguridad. Por lo tanto, la compatibilidad con el parque de llamadas durante la recuperación de desastres requiere que la aplicación de estacionamiento de llamadas se implemente y se habilite en el grupo primario y en el grupo de copia de seguridad.
 
-  - Conserve siempre una copia de seguridad aparte de la música en espera personalizada que se haya cargado para Estacionamiento de llamadas. El proceso de recuperación ante desastres de Lync Server 2013 no realiza la copia de seguridad de estos archivos, por lo que se perderán si los archivos cargados en el grupo de servidores se dañan o borran.
+  - Cada grupo debe tener un intervalo válido de números de órbita para los usuarios que estén alojados en ese grupo para usarlos en las llamadas de aparcamiento.
 
-## Consideraciones sobre la recuperación ante desastres de Estacionamiento de llamadas
+  - Mantenga siempre una copia de seguridad separada de cualquier música personalizada en espera que se haya cargado para el parque de llamadas. No se realiza una copia de seguridad de estos archivos como parte del proceso de recuperación de desastres de Lync Server 2013 y se perderán si los archivos cargados en el grupo están dañados, están dañados o se hayan borrado.
 
-Solo puede definir un conjunto de opciones de configuración de Aplicación de estacionamiento de llamadas y un archivo de audio de música en espera personalizada por cada grupo de servidores. Estas configuraciones incluyen el umbral de tiempo en espera, música en espera, número máximo de intentos de respuesta de llamadas y el URI del tiempo en espera. Para ver estas opciones de configuración, ejecute el cmdlet **Get-CsCpsConfiguration**. Encontrará información detallada sobre el cmdlet **Get-CsCpsConfiguration** en [Get-CsCpsConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCpsConfiguration).
+</div>
 
-Durante la recuperación ante desastres, Estacionamiento de llamadas usa la Aplicación de estacionamiento de llamadas en el grupo de servidores de reserva, de modo que no hay una copia de seguridad de la configuración del grupo de servidores principal. Si no se puede recuperar el grupo de servidores principal y se implementa un nuevo grupo para sustituirlo, la configuración del grupo de servidores principal se perderá y tendrá que volver a configurar las opciones de Estacionamiento de llamadas y los archivos de audio de música en espera personalizados.
+<div>
 
-Si implementa un grupo de servidores nuevo con un nombre de dominio completo (FQDN) diferente para sustituir al principal, tendrá que volver a asignar todos los intervalos de órbita de Estacionamiento de llamadas asociados al grupo de servidores principal al FQDN del grupo nuevo. Para ello, puede usar el cmdlet Panel de control de Lync Server o el **Set-CsCallParkOrbit**. Si desea información sobre el cmdlet **Set-CsCallParkOrbit**, consulte [Set-CsCallParkOrbit](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCallParkOrbit).
+## <a name="call-park-disaster-recovery-considerations"></a>Consideraciones de recuperación ante desastres de estacionamiento de llamadas
+
+Solo puede definir un conjunto de parámetros de configuración de la aplicación de estacionamiento de llamadas y un archivo de audio de música en espera personalizado por grupo de servidores. Esta configuración incluye el umbral de tiempo de espera, la música en espera, los intentos de recogida máxima de llamadas y el URI de tiempo de espera. Para ver estas opciones de configuración, ejecute el cmdlet **Get-CsCpsConfiguration** . Para obtener más información sobre el cmdlet **Get-CsCpsConfiguration** , vea [Get-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCpsConfiguration).
+
+Durante la recuperación de desastres, el parque de llamadas usa la aplicación de estacionamiento de llamadas del grupo de copia de seguridad, por lo que no se realiza una copia de seguridad de la configuración del grupo principal. Si el repositorio principal no se puede recuperar e implementa un nuevo grupo para reemplazar el grupo primario, se perderán las opciones de configuración del grupo principal y tendrá que volver a configurar la configuración de la suspensión de llamada y los archivos de audio de música activada en el nuevo grupo.
+
+Si implementa un nuevo grupo de servidores con un nombre de dominio completo (FQDN) diferente para reemplazar el grupo primario, tendrá que reasignar todos los intervalos de órbita del parque de llamadas asociados con el grupo primario al FQDN del nuevo grupo. Para reasignar intervalos orbitales al nuevo grupo, puede usar el panel de control de Lync Server o el cmdlet **set-CsCallParkOrbit** . Para obtener más información sobre el cmdlet **set-CsCallParkOrbit** , consulte [set-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/Set-CsCallParkOrbit).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

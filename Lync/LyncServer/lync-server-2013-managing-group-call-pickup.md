@@ -1,31 +1,65 @@
-﻿---
-title: Administrar la respuesta de llamadas en grupo en Lync Server 2013
-TOCTitle: Administrar la respuesta de llamadas en grupo en Lync Server 2013
-ms:assetid: 85846a25-e175-4854-b31f-528f219f9a05
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945640(v=OCS.15)
-ms:contentKeyID: 52061703
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: administración de la recogida de llamadas grupales'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Group Call Pickup
+ms:assetid: 85846a25-e175-4854-b31f-528f219f9a05
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945640(v=OCS.15)
+ms:contentKeyID: 51541494
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 11d6968f6ac75ea9d560acff5845b1b61523f684
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828022"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar la respuesta de llamadas en grupo en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-group-call-pickup-in-lync-server-2013"></a>Administración de la recogida de llamadas en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-22_
 
-La actualización acumulativa de Lync Server 2013 de febrero de 2013 presenta la respuesta de llamadas en grupo como nueva característica de Telefonía IP empresarial. La respuesta de llamadas en grupo permite a los usuarios de telefonía IP empresarial responder a llamadas dirigidas a otro usuario al marcar un número de respuesta de llamadas en grupo.
+Actualización acumulativa para Lync Server 2013: febrero de 2013 presenta la recogida de llamadas grupales como una nueva característica de voz empresarial. La recogida de llamadas grupales permite que los usuarios de telefonía IP atiendan las llamadas que están sonando por otro usuario marcando un número de grupo de recogida de llamadas.
 
-Los temas de esta sección describen detalladamente las tareas para configurar la respuesta de llamadas en grupo en su implementación.
+Los temas de esta sección proporcionan procedimientos paso a paso para las tareas que realiza para configurar la recogida de llamadas grupales en su implementación.
 
-## En esta sección
+<div>
 
-  - [Configurar los intervalos numéricos de respuesta de llamadas en grupo](lync-server-2013-configure-group-call-pickup-number-ranges.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Asigar números de respuesta de llamadas en grupo a los usuarios](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
+  - [Configurar intervalos de números de recogida de llamadas en Lync Server 2013](lync-server-2013-configure-group-call-pickup-number-ranges.md)
 
-  - [Habilitar o deshabilitar la respuesta de llamadas en grupo para los usuarios](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
+  - [Asignar números de recogida de llamadas grupales a los usuarios de Lync Server 2013](lync-server-2013-assign-group-call-pickup-numbers-to-users.md)
 
-  - [Administrar la respuesta de llamadas en grupo durante la recuperación ante desastres](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
+  - [Habilitar o deshabilitar la recogida de llamadas de grupo para los usuarios en Lync Server 2013](lync-server-2013-enable-or-disable-group-call-pickup-for-users.md)
+
+  - [Administrar la recogida de llamadas grupales durante la recuperación de desastres en Lync Server 2013](lync-server-2013-manage-group-call-pickup-during-disaster-recovery.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

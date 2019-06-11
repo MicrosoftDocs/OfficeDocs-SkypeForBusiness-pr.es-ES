@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla Phones'
-TOCTitle: Tabla Phones
-ms:assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425923(v=OCS.15)
-ms:contentKeyID: 48275037
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla Phones'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Phones table
+ms:assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425923(v=OCS.15)
+ms:contentKeyID: 48183996
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 920454a5db71c1e6f3cd2ea2ae1134d149b4f297
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825180"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla Phones en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="phones-table-in-lync-server-2013"></a>Tabla Phones en Lync Server 2013
 
-La tabla Teléfonos es una tabla auxiliar. Los registros de la tabla contienen información sobre un número de teléfono que ha participado en llamadas VoIP que cuentan con registros en la base de datos.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-08-20_
+
+La tabla teléfonos es una tabla de soporte técnico. Cada registro de la tabla almacena información acerca de un número de teléfono implicado en llamadas VoIP que tienen registros en la base de datos.
 
 
 <table>
@@ -36,23 +56,34 @@ La tabla Teléfonos es una tabla auxiliar. Los registros de la tabla contienen i
 <tbody>
 <tr class="odd">
 <td><p><strong>PhoneId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
+<td><p>int</p></td>
+<td><p>Primary</p></td>
 <td><p>Número único que identifica este teléfono.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>PhoneUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p>nvarchar (450)</p></td>
 <td><p> </p></td>
 <td><p>Número de teléfono.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>dateTime</p></td>
-<td><p></p></td>
+<td><p>Fechas</p></td>
+<td></td>
 <td><p>Marca de tiempo (solo para uso interno).</p>
 <p>Este campo se introdujo en Microsoft Lync Server 2013.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

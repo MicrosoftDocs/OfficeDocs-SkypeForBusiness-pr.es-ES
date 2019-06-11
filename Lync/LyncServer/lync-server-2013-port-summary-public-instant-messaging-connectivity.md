@@ -1,30 +1,57 @@
-﻿---
-title: Resumen de puertos - Conectividad de mensajería instantánea pública
-TOCTitle: Resumen de puertos - Conectividad de mensajería instantánea pública
-ms:assetid: f46756ec-1401-4ca2-a4a4-5cd28bcfdc7f
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618376(v=OCS.15)
-ms:contentKeyID: 49129324
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumen de puertos: conectividad de mensajería instantánea pública'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - Public instant messaging connectivity
+ms:assetid: f46756ec-1401-4ca2-a4a4-5cd28bcfdc7f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618376(v=OCS.15)
+ms:contentKeyID: 49105663
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5bb6b8d0d9277b7d77440519596da76585b9d91b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824249"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de puertos - Conectividad de mensajería instantánea pública
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="port-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Resumen de puertos: conectividad de mensajería instantánea pública en Lync Server 2013
 
-Para configurar un firewall para puertos y protocolos necesarios para la conectividad de mensajería instantánea (MI) pública, antes debe tener en cuenta que SIP/MTLS/TCP 5061 es bidireccional; es decir, permite a los contactos de la MI pública conectar con clientes de Lync y a Lync conectar con los contactos de la MI pública.
+</div>
 
-Windows Live Messenger puede participar en comunicaciones de audio y vídeo con clientes Lync, lo cual permite una configuración de puertos y protocolos de firewall muy similar a la que tendría normalmente en el firewall para dar soporte a clientes Lync como usuarios externos.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-02-16_
+
+Para configurar el firewall para los puertos y protocolos necesarios para admitir la conectividad de mensajería instantánea pública, primero tenga en cuenta que el SIP/MTLS/TCP 5061 es bidireccional para tener en cuenta la capacidad de los contactos en el proveedor de mensajería instantánea pública para ponerse en contacto con los clientes de Lync o para que Lync pueda Póngase en contacto con contactos públicos de mensajería instantánea.
+
+Windows Live Messenger puede participar en comunicaciones de audio y vídeo con clientes de Lync. Esto cuenta con una configuración de protocolo y un puerto de Firewall muy similar que normalmente tendría en el firewall para admitir clientes de Lync como usuarios externos.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Lync es ahora más que nunca una poderosa herramienta de conexión entre empresas y con individuos de todo el mundo. La federación con Windows Live Messenger no precisa de ninguna licencia de usuario/dispositivo extra, aparte de la licencia de acceso de cliente (CAL) de Lync Standard. Esta lista incluirá también la federación con Skype, lo que permitirá a los usuarios de Lync llegar a cientos de millones de personas mediante voz y mensajería instantánea.<br />
-> La federación con los contactos del cliente de Messenger finalizará oficialmente el 15 de marzo de 2013, excepto en Chino continental. Skype pasará a ser el cliente de federación de los usuarios federados que usaban Messenger.
+> Más que nunca, Lync es una herramienta eficaz para la conexión entre organizaciones y con personas de todo el mundo. La Federación con Windows Live Messenger no requiere licencias de usuario o de dispositivo adicionales aparte de la licencia de acceso de cliente (CAL) de Lync. La Federación de Skype se agrega a esta lista, lo que permite a los usuarios de Lync llegar a cientos de millones de personas con la mensajería instantánea y la voz.<BR>La Federación con los contactos de los clientes de Messenger terminará oficialmente el 15 de marzo de 2013, excepto en el caso de China continental. Skype se convertirá en el cliente de Federación para los usuarios federados que antes usaban Messenger.
 
 
-## Resumen de firewall: Conectividad de mensajería instantánea pública
+
+</div>
+
+<div>
+
+## <a name="firewall-summary--public-instant-messaging-connectivity"></a>Resumen del firewall: conectividad de mensajería instantánea pública
 
 
 <table>
@@ -36,7 +63,7 @@ Windows Live Messenger puede participar en comunicaciones de audio y vídeo con 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rol/Protocolo/TCP o UDP/Puerto</th>
+<th>Función/protocolo/TCP o UDP/puerto</th>
 <th>Dirección IP de origen</th>
 <th>Dirección IP de destino</th>
 <th>Notas</th>
@@ -44,49 +71,65 @@ Windows Live Messenger puede participar en comunicaciones de audio y vídeo con 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Acceso/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Socios de conectividad de MI pública</p></td>
-<td><p>Interfaz de acceso de Servidor perimetral</p></td>
-<td><p>Para la conectividad de MI pública y federada mediante SIP.</p></td>
+<td><p>Acceso/SIP (MTLS)/TCP/5061</p></td>
+<td><p>Partners de conectividad de mensajería instantánea pública</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
+<td><p>Para la conectividad de mensajería instantánea pública y federada que usan SIP.</p></td>
 </tr>
 <tr class="even">
-<td><p>Acceso/SIP(MTLS)/TCP/5061</p></td>
-<td><p>Interfaz de acceso de Servidor perimetral</p></td>
-<td><p>Socios de conectividad de MI pública</p></td>
-<td><p>Para la conectividad de MI pública y federada mediante SIP.</p></td>
+<td><p>Acceso/SIP (MTLS)/TCP/5061</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
+<td><p>Partners de conectividad de mensajería instantánea pública</p></td>
+<td><p>Para la conectividad de mensajería instantánea pública y federada que usan SIP.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Acceso/SIP(TLS)/TCP/443</p></td>
+<td><p>Acceso/SIP (TLS)/TCP/443</p></td>
 <td><p>Clientes</p></td>
-<td><p>Interfaz de acceso de Servidor perimetral</p></td>
-<td><p>Tráfico SIP de cliente a servidor para acceso de usuarios externos.</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
+<td><p>Tráfico SIP de cliente a servidor para el acceso de usuarios externos.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/RTP/TCP/50.000-59.999</p></td>
-<td><p>Interfaz de acceso de Servidor perimetral</p></td>
+<td><p>A/V/RTP/TCP/50000-59.999 SESIONES</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
 <td><p>Clientes de Live Messenger</p></td>
-<td><p>Usado para sesiones de A/V con Windows Live Messenger si se ha configurado la conectividad de MI.</p></td>
+<td><p>Se usa para sesiones de A/V con Windows Live Messenger si está configurada la conectividad de mensajería instantánea pública.</p></td>
 </tr>
 <tr class="odd">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
-<td><p>Interfaz de acceso de Servidor perimetral</p></td>
+<td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
 <td><p>Clientes de Live Messenger</p></td>
-<td><p>Obligatorio para la conectividad de MI pública con Windows Live Messenger.</p></td>
+<td><p>Necesario para la conectividad de mensajería instantánea pública con Windows Live Messenger.</p></td>
 </tr>
 <tr class="even">
-<td><p>A/V/STUN,MSTURN/UDP/3478</p></td>
+<td><p>A/V/STUN, MSTURN/UDP/3478</p></td>
 <td><p>Clientes de Live Messenger</p></td>
-<td><p>Interfaz de acceso de Servidor perimetral</p></td>
-<td><p>Obligatorio para la conectividad de MI pública con Windows Live Messenger.</p></td>
+<td><p>Interfaz de acceso al servidor perimetral</p></td>
+<td><p>Necesario para la conectividad de mensajería instantánea pública con Windows Live Messenger.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+</div>
 
-#### Conceptos
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
-[Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)
+[Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013](lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,31 +1,69 @@
-﻿---
-title: Planeación de la administración y la virtualización
-TOCTitle: Planeación de la administración y la virtualización
-ms:assetid: 0b774fcd-211e-42f3-8542-f8699a8e2420
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687966(v=OCS.15)
-ms:contentKeyID: 49888883
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planeamiento de la capacidad de administración y la virtualización'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for manageability and virtualization
+ms:assetid: 0b774fcd-211e-42f3-8542-f8699a8e2420
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687966(v=OCS.15)
+ms:contentKeyID: 49733551
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eba3cede21a7ec63ddfb6db7dafe0c5166831817
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824753"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planeación de la administración y la virtualización
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="planning-for-manageability-and-virtualization-in-lync-server-2013"></a>Planeamiento de la capacidad de administración y la virtualización en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-07-05_
 
-Esta sección incluye temas sobre la planificación de una administración simple de su implementación de Lync Server 2013.
+En esta sección se incluyen temas sobre cómo planear la administración sencilla de la implementación de Lync Server 2013.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Planeación del control de acceso basado en roles en Lync Server 2013](lync-server-2013-planning-for-role-based-access-control.md)
 
   - [Planeación de las direcciones URL simples en Lync Server 2013](lync-server-2013-planning-for-simple-urls.md)
 
-  - [Ejecución de Lync Server en servidores virtuales](lync-server-2013-running-lync-server-on-virtual-servers.md)
+  - [Ejecutar Lync Server 2013 en servidores virtuales](lync-server-2013-running-lync-server-on-virtual-servers.md)
 
-  - [Planeación e implementación de la autenticación en dos fases en Lync Server 2013](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md)
+  - [Autenticación en dos fases en Lync Server 2013](lync-server-2013-planning-for-and-deploying-two-factor-authentication.md)
 
-## Secciones relacionadas
+</div>
+
+<div>
+
+## <a name="related-sections"></a>Secciones relacionadas
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,27 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Escenarios de proxy inverso'
-TOCTitle: Escenarios de proxy inverso
-ms:assetid: 13108f59-a660-4ff1-8404-079d1cb646f2
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204691(v=OCS.15)
-ms:contentKeyID: 48274493
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Escenarios de proxy inverso'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Scenarios for reverse proxy
+ms:assetid: 13108f59-a660-4ff1-8404-079d1cb646f2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204691(v=OCS.15)
+ms:contentKeyID: 48183468
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1621e8bb0241e82f9f4678d4fe39a4f66f6bcf9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822247"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Escenarios de proxy inverso en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="scenarios-for-reverse-proxy-in-lync-server-2013"></a>Escenarios de proxy inverso en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-01-21_
 
-Los servidores proxy inversos son necesarios en Lync Server 2013 para proporcionar acceso a servicios y recursos, como las direcciones URL sencillas de acceso telefónico y de reunión, la libreta de direcciones, el contenido de la reunión, la expansión de lista de distribución, los servicios de movilidad, etc. El escenario de proxy inverso típico en Lync Server 2013 es permitir a los clientes externos (por ejemplo, el cliente de escritorio o el cliente de Lync Web App) el acceso a los servicios web externos de Director o Servidor front-end.
+Los proxies inversos son necesarios en Lync Server 2013 para proporcionar acceso a servicios y recursos como la reunión y las direcciones URL simples de acceso telefónico, la libreta de direcciones, el contenido de la reunión, la expansión de la lista de distribución, los servicios de movilidad y otros. El escenario típico de proxy inverso en Lync Server 2013 es permitir que los clientes externos (por ejemplo, el cliente de escritorio o el cliente de Lync Web App) tengan acceso al director o a los servicios web externos del servidor front-end.
 
 **Proxy inverso y servicios web externos**
 
-![Proxy inverso y servicios web externos](images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "Proxy inverso y servicios web externos")
+![13142405-d5c9-45b7-a8b7-a8c89f09c97c] (images/JJ204932.13142405-d5c9-45b7-a8b7-a8c89f09c97c(OCS.15).jpg "13142405-d5c9-45b7-a8b7-a8c89f09c97c")
 
-Durante la fase de planeación, se definen los requisitos del proxy inverso en una implementación de Lync Server 2013. El proxy inverso permite el acceso a características para los siguientes clientes externos:
+Durante la fase de planeación, se definen los requisitos para el proxy inverso en una implementación de Lync Server 2013. El proxy inverso permite el acceso a características para los siguientes clientes externos:
 
   - Cliente de escritorio de Microsoft Lync 2013
 
@@ -31,44 +51,51 @@ Durante la fase de planeación, se definen los requisitos del proxy inverso en u
 
   - Aplicación de la Tienda Windows de Lync
 
-Al planear la implementación de Lync Server 2013, se asignan los requisitos reales de Lync Server 2013 a las características del proxy inverso.
+Al planear la implementación de Lync Server 2013, se asignan los requisitos reales para Lync Server 2013 a las características de proxy inverso.
 
-1.  Los clientes externos se conectarán al proxy inverso en el puerto TCP 443 y usarán la Capa de sockets seguros (SSL) o la Seguridad de la capa de transporte (TLS). Los clientes de Microsoft Lync Mobile se pueden conectar en el puerto TCP 80, pero solamente al establecer la conexión inicial con los servicios de detección de Lync y si el administrador ha configurado los registros CNAME (o alias) del Sistema de nombres de dominio (DNS) adecuados y acepta que esta comunicación no se cifrará.
+1.  Los clientes externos se conectarán al proxy inverso en el puerto TCP 443 y usarán nivel de socket seguro (SSL) o seguridad de la capa de transporte (TLS). Los clientes móviles de Microsoft Lync se pueden conectar en el puerto TCP 80, pero solo cuando se realiza la conexión inicial a los servicios Discover de Lync y el administrador ha configurado los registros CNAME (o alias) del sistema de nombres de dominio (DNS) apropiados y acepta que este la comunicación no se cifrará.
 
-2.  Los servicios web externos de Lync Server 2013 (implementados en el Servidor front-end y/o en el Director) esperan una conexión desde un proxy inverso en el puerto TCP 4443 y que la conexión sea SSL/TLS.
+2.  Lync Server 2013 los servicios web externos (implementados en el servidor front-end o el director) esperan una conexión de un proxy inverso en el puerto TCP 4443 y espera que la conexión sea SSL/TLS.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Los puertos de escucha predeterminados sugeridos para los servicios web externos son TCP 8080 para el tráfico HTTP y TCP 4443 para el tráfico HTTPS. La Generador de topologías proporciona una oportunidad para invalidar los valores predeterminados y definir sus propios puertos de escucha para los servicios web externos. Es importante tener en cuenta que el proxy inverso se comunica con los servicios web externos y los clientes externos se comunican con el proxy inverso. Los clientes externos lo hacen en el puerto TCP 443, pero puede redefinir el puerto en el que el proxy inverso se comunica con los servicios web externos. Las opciones de la Generador de topologías para invalidar los puertos de escucha predeterminados de los servicios web le permiten resolver los conflictos en los puertos de escucha que pueden surgir en la infraestructura.
-    
+    > Los puertos de escucha predeterminada sugeridos para los servicios web externos son TCP 8080 para tráfico HTTP y TCP 4443 para tráfico HTTPS. El generador de topología proporciona una oportunidad para reemplazar los valores predeterminados y definir sus propios puertos de escucha para los servicios web externos. Es importante tener en cuenta que el proxy inverso se comunica con los servicios web externos y los clientes externos se comunican con el proxy inverso. El cliente externo se comunica con el proxy inverso en el puerto TCP 443, pero puede redefinir el puerto en el que se comunica el proxy inverso con los servicios web externos. Las opciones del generador de topologías para invalidar los puertos de escucha predeterminados para los servicios web le permiten resolver conflictos de puertos de escucha que pueden surgir en su infraestructura.
 
+    
+    </div>
 
-3.  Los servicios web externos de Lync Server 2013 esperan un encabezado host sin modificar desde el cliente para identificar el servicio y el directorio de servidores web que intenta usar el cliente. Las solicitudes deben aparecer como si provinieran del proxy inverso.
+3.  Lync Server 2013 los servicios web externos esperan un encabezado de host sin modificar del cliente para identificar qué servicio y el directorio de servidor web está intentando usar el cliente. Las solicitudes deberían mostrarse como si proceden del proxy inverso
 
-4.  Los servicios web externos usan directorios virtuales (vDir) de servidor web definidos que proporcionan los servicios ofrecidos a los clientes. Los servicios web identificables como externos específicos son los siguientes:
+4.  Los servicios web externos usan directorios virtuales de servidor Web (vDir) definidos que proporcionan los servicios ofrecidos a los clientes. Los servicios web identificables externamente son:
     
-      - El vDir “Meet” para reuniones de conferencia web
+      - El vDir "reunirse" para reuniones de conferencia Web
     
-      - El vDir “Dialin” para acceso telefónico y conferencias telefónicas
+      - El envuelvedo "vDir" para el acceso telefónico y las conferencias telefónicas
     
-      - El vDir “Autodiscover” para Aplicación de la Tienda Windows de Lync, Lync Mobile y el cliente de escritorio Lync 2013. La Detección automática en Lync Server 2013 se conoce con el nombre DNS “lyncdiscover”
+      - El servicio de "detección automática" de la aplicación Lync de la tienda Windows, Lync Mobile y el cliente de escritorio Lync 2013. La detección automática de Lync Server 2013 se conoce en el nombre DNS "lyncdiscover"
     
-      - Los clientes externos acceden a los servicios no definidos mediante llamadas directas a los servicios web externos. Por ejemplo, se accede a la expansión de grupos de distribución (DLX) y al Servicio de libreta de direcciones (ABS) mediante llamadas directas a los servicios web externos y a los vDirs asociados. El cliente conoce la ruta de acceso real al vDir y construye un Localizador uniforme de recursos (URL) en función de esta información. El cliente podría acceder al Servicio de libreta de direcciones con una dirección URL similar a `https://externalweb.contoso.com/abs/handler`
+      - El cliente externo tiene acceso a los servicios no definidos a través de llamadas directas a los servicios web externos. Por ejemplo, se obtiene acceso a la expansión del grupo de distribución (DLX) y al servicio de libreta de direcciones (ABS) mediante llamadas directas a los servicios web externos y la vDirs asociada. El cliente conoce la ruta de acceso real al vDir y construye un localizador de registros (URL) uniforme en función de esta información. El cliente tendría acceso al servicio de libreta de direcciones mediante una dirección URL similar a`https://externalweb.contoso.com/abs/handler`
     
-      - En las conferencias, el Servidor Office Web Apps se define y configura como parte de la topología de Lync Server
+      - El servidor de Office Web Apps cuando se define una conferencia y se configura como parte de la topología de Lync Server
+        
+        <div>
         
 
-        > [!NOTE]
-        > El Servidor Office Web Apps es un servidor de roles independiente y no se configura como parte de los servicios web externos. Este servidor se publica por separado para el acceso del cliente.
+        > [!NOTE]  
+        > El servidor de Office Web Apps es un servidor de roles independiente y no está configurado como parte de los servicios web externos. Este servidor se ha publicado por separado para el acceso de los clientes.
 
+        
+        </div>
 
+5.  Defina los puentes SSL para cada servicio. El puerto externo TCP 443 se asigna al puerto de servicios Web externo TCP 4443. Para HTTP sin cifrar, el puerto TCP 80 se asigna al puerto de servicios Web externo TCP 8080
 
-5.  Defina el protocolo de puente SSL para cada servicio. El puerto externo TCP 443 se asigna al puerto TCP 4443 de los servicios web externos. En el caso de HTTP sin cifrar, el puerto TCP 80 se asigna al puerto TCP 8080 de los servicios web externos.
+6.  Planificación de escuchas de proxy invertidas para publicar recursos de servidor Web
 
-6.  Planear la publicación de recursos de servidores web por parte de las escuchas del proxy inverso
+7.  Solicite y configure el certificado para el proxy inverso en función de los servicios que se ofrecerán. Si se ha configurado con los nombres alternativos de asunto correctos, el certificado puede ser compartido por todos los agentes de escucha configurados en el servidor proxy inverso.
 
-7.  Solicite y configure el certificado para el proxy inverso en función de los servicios que se proporcionarán. Si se configura con los nombres alternativos del sujeto correctos, este certificado se puede compartir entre todas las escuchas configuradas en el servidor proxy inverso.
-
-Recursos disponibles para planear la implementación de su proxy inverso:
+Recursos disponibles para planear la implementación del proxy inverso:
 
   - [Recopilación de datos en Lync Server 2013](lync-server-2013-data-collection.md)
 
@@ -77,4 +104,14 @@ Recursos disponibles para planear la implementación de su proxy inverso:
   - [Resumen de puerto - Proxy inverso en Lync Server 2013](lync-server-2013-port-summary-reverse-proxy.md)
 
   - [Resumen DNS - Proxy inverso en Lync Server 2013](lync-server-2013-dns-summary-reverse-proxy.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

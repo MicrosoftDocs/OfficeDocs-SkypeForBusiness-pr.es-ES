@@ -1,27 +1,61 @@
-﻿---
-title: Planeación e implementación de la autenticación en dos fases en Lync Server 2013
-TOCTitle: Planeación e implementación de la autenticación en dos fases en Lync Server 2013
-ms:assetid: 442a88df-ebc2-4335-9c59-0ce1adc1471e
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn308563(v=OCS.15)
-ms:contentKeyID: 56271284
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planeamiento e implementación de la autenticación en dos fases'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for and deploying two-factor authentication
+ms:assetid: 442a88df-ebc2-4335-9c59-0ce1adc1471e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308563(v=OCS.15)
+ms:contentKeyID: 54973686
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8c902a3abd0035cbffa5bb10ed05cad6fa7bcc6b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825096"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planeación e implementación de la autenticación en dos fases en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="two-factor-authentication-in-lync-server-2013"></a>Autenticación en dos fases en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-07-11_
 
-La autenticación en dos fases proporciona seguridad mejorada al exigir a los usuarios que cumplan dos criterios de autenticación: una combinación de nombre de usuario/contraseña y un token o certificado. Esto se conoce también como “algo que tiene, algo que conoce”. Un ejemplo típico de autenticación en dos fases con un certificado es el uso de tarjetas inteligentes. Una tarjeta inteligente contiene un certificado asociado con la cuenta del usuario y se puede validar con información de certificado y usuario almacenada en un servidor. Al comparar la información del usuario (nombre de usuario y contraseña) con el certificado proporcionado, el servidor valida las credenciales y autentica al usuario.
+La autenticación en dos fases proporciona una mayor seguridad al requerir que los usuarios cumplan dos criterios de autenticación: una combinación de nombre de usuario y contraseña y un token o certificado. Esto se conoce también como "un elemento que tiene, un elemento que conoce". Un ejemplo típico de autenticación en dos fases con un certificado es el uso de tarjetas inteligentes. Una tarjeta inteligente contiene un certificado asociado con la cuenta del usuario y se puede validar con información de certificado y usuario almacenada en un servidor. Al comparar la información del usuario (nombre de usuario y contraseña) con el certificado proporcionado, el servidor valida las credenciales y autentica al usuario.
 
-## En esta sección
+<div>
 
-[Planeación de la autenticación en dos fases](lync-server-2013-planning-for-two-factor-authentication.md)
+## <a name="in-this-section"></a>En esta sección
 
-[Configuración de la autenticación en dos fases](lync-server-2013-configuring-two-factor-authentication.md)
+[Planeamiento de la autenticación en dos fases en Lync Server 2013](lync-server-2013-planning-for-two-factor-authentication.md)
 
-[Uso de la autenticación en dos fases con un cliente de Lync](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
+[Configuración de la autenticación en dos fases en Lync Server 2013](lync-server-2013-configuring-two-factor-authentication.md)
+
+[Usar la autenticación en dos fases con el cliente de Lync y Lync Server 2013](lync-server-2013-using-two-factor-authentication-with-lync-client.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

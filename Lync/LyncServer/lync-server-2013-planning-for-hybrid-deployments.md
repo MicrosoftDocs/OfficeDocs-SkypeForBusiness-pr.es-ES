@@ -1,39 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Planear las implementaciones híbridas de Lync Server'
-TOCTitle: Planear las implementaciones híbridas de Lync Server
-ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205403(v=OCS.15)
-ms:contentKeyID: 48277253
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: planeamiento de implementaciones híbridas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for hybrid deployments
+ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
+ms:contentKeyID: 48185910
+ms.date: 05/25/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b528e22e24635d47755096cd4bf81d4066feb3c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825152"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planear las implementaciones híbridas de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="planning-for-lync-server-2013-hybrid-deployments"></a>Planeación de implementaciones híbridas de Lync Server 2013
 
-Cuando planee una implementación híbrida, tenga en cuenta los siguientes requisitos para los usuarios y la infraestructura de red.
+</div>
 
-## Requisitos de infraestructura
+<div id="mainSection">
 
-Debe disponer en su entorno de los siguientes elementos para implementar y configurar una implementación híbrida de Lync Server 2013:
+<div id="mainBody">
 
-  - Un inquilino de Office 365 con Lync Online habilitado.
+<span> </span>
 
-  - Un servidor de Servicios de federación de Active Directory (AD FS) local o que use Microsoft Azure. Para obtener más información sobre AD FS, vea [Servicios de federación de Active Directory (AD FS) 2.0](http://go.microsoft.com/fwlink/p/?linkid=393795) o [Configurar Servicios de federación de Active Directory para Windows Azure Pack](http://go.microsoft.com/fwlink/p/?linkid=522475).
+_**Última modificación del tema:** 2016-05-25_
 
-  - Una implementación local de Lync Server 2013 o Lync Server 2010 con las actualizaciones acumulativas para Lync Server 2010: marzo de 2013 (o posterior) aplicadas.
+Al planear una implementación híbrida, debe tener en cuenta los siguientes requisitos para los usuarios y su infraestructura de red.
 
-  - Herramientas administrativas de Lync Server 2013.
+<div>
 
-  - Sincronización de directorios. Para obtener más información sobre la sincronización de directorios, vea [Administración de identidad híbrida](http://go.microsoft.com/fwlink/p/?linkid=231010).
+## <a name="infrastructure-requirements"></a>Requisitos de infraestructura
 
-## Compatibilidad con clientes de Lync
+Debe tener el siguiente configurado en su entorno para implementar e implementar una implementación híbrida.
 
-Hay algunas diferencias en las características compatibles con los clientes de Lync y en las disponibles en entornos locales y en línea. Antes de decidir dónde hospedará a los usuarios de su organización, consulte la compatibilidad de clientes de las diversas configuraciones de Lync Server. Los siguientes clientes son compatibles con Skype Empresarial Online en una implementación híbrida de Lync:
+  - Un inquilino de Microsoft Office 365 con Skype empresarial online habilitado. Tenga en cuenta que solo puede usar un único inquilino para una configuración híbrida con su implementación local.
+
+  - Una sola implementación local (infraestructura) de Skype empresarial Server o Lync Server implementada en una topología compatible. Consulte requisitos de topología.
+    
+    Para obtener información sobre cómo configurar su implementación de Lync Server 2013 o Lync Server 2010 para entornos híbridos, consulte Configuración de implementaciones híbridas de [Lync server 2013](lync-server-2013-configuring-hybrid-deployments.md).
+
+  - Herramientas administrativas de Skype empresarial Server 2015. Si está usando Lync Server 2013 o Lync Server 2010, puede usar las herramientas administrativas de Lync Server 2013.
+
+  - Para admitir el inicio de sesión único con Office 365 de modo que los usuarios puedan usar las mismas credenciales de inicio de sesión para iniciar sesión en Office como locales, puede usar las características de sincronización de contraseñas de Azure Active Directory (AAD) Connect. También puede usar los Servicios de federación de Active Directory (AD FS) para el inicio de sesión único con Office 365.
+    
+    Para obtener más información, consulte [integrar las identidades locales con Azure Active Directory](http://go.microsoft.com/fwlink/p/?linkid=619754).
+
+  - Una única solución de sincronización de directorios para mantener sincronizados los objetos de Active Directory locales y en línea. Para obtener más información sobre la sincronización de directorios, consulte [herramientas de integración de directorios](http://go.microsoft.com/fwlink/p/?linkid=530320).
+
+</div>
+
+<div>
+
+## <a name="lync-client-support"></a>Compatibilidad con clientes de Lync
+
+Existen algunas diferencias en las características compatibles con los clientes de Lync, así como las características disponibles en entornos locales y en línea. Antes de decidir dónde desea alojar a los usuarios de su organización, puede ver la compatibilidad de cliente para las distintas configuraciones de Lync Server. Los siguientes clientes son compatibles con Skype empresarial online en una implementación híbrida de Lync:
 
   - Lync 2010
 
@@ -47,71 +77,154 @@ Hay algunas diferencias en las características compatibles con los clientes de 
 
   - Lync para Mac 2011
 
-  - Sistema de salas de Lync
+  - Sistema Lync Room
 
   - Lync Basic 2013
 
-Para obtener información detallada sobre la compatibilidad de clientes, vea los siguientes temas:
+Para obtener más información sobre la compatibilidad del cliente, vea los siguientes temas:
 
-  - [Clientes para Lync Online](http://go.microsoft.com/fwlink/?linkid=281902)
+  - [Clientes de Lync Online](http://go.microsoft.com/fwlink/?linkid=281902)
 
   - [Tablas de comparación de clientes para Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md)
 
   - [Tablas de comparación de clientes móviles para Lync Server 2013](lync-server-2013-mobile-client-comparison-tables.md)
 
-## Requisitos de topología
+</div>
 
-Para configurar la implementación de Lync Server 2013 para implementaciones híbridas con Skype Empresarial Online, debe disponer de una de las siguientes topologías compatibles:
+<span id="BKMK_Topology"></span>
 
-  - Microsoft Office Communications Server 2007 R2 con una implementación local de Lync Server 2013. El Servidor perimetral de federación de Lync Server 2013 y el servidor del próximo salto desde el Servidor perimetral de federación deben ejecutar Lync Server 2013. Debe contar con un Almacén de administración central implementado. El Servidor perimetral y el grupo deben estar implementados a escala local.
+<div>
+
+## <a name="topology-requirements"></a>Requisitos de topología
+
+Para configurar la implementación de un entorno híbrido con Skype empresarial online, debe tener una de las siguientes topologías compatibles:
+
+  - Una implementación de Skype empresarial Server 2015 con todos los servidores que ejecutan Skype empresarial Server 2015.
+
+  - Una implementación de Lync Server 2013 con todos los servidores que ejecutan Lync Server 2013.
+
+  - Una implementación de Lync Server 2010 con todos los servidores que ejecutan Lync Server 2010 y las últimas actualizaciones acumulativas.
     
-    > [!IMPORTANT]  
-    > Esta topología se admite, pero parte de la funcionalidad puede estar limitada. Por ejemplo, es posible que la información de presencia no funcione como se espera entre los usuarios de Microsoft Lync Online y los usuarios locales de Office Communications Server 2007 R2.
+      - El servidor perimetral de Federación y el servidor de próximo salto del servidor perimetral de Federación deben ejecutar Lync Server 2010 con las últimas actualizaciones acumulativas.
     
+      - Las herramientas administrativas de Skype empresarial Server 2015 o Lync Server 2013 deben instalarse en al menos un servidor o en una estación de trabajo de administración.
 
-
-  - Microsoft Lync Server 2010 con las actualizaciones acumulativas para Lync Server 2010: marzo de 2013 (o posterior) aplicadas y las herramientras administrativas de Lync Server 2013 instaladas localmente. El Servidor perimetral de federación y el servidor del próximo salto desde el Servidor perimetral de federación deben ejecutar Microsoft Lync Server 2010 con las actualizaciones acumulativas de marzo de 2013 (o posterior) aplicadas, o Lync Server 2013.
+  - Una implementación mixta de Lync Server 2013 y Skype empresarial Server 2015 con los siguientes roles de servidor en al menos un sitio que ejecute Skype empresarial Server 2015:
     
-    > [!IMPORTANT]  
-    > Las herramientas administrativas de Lync Server 2013 deben instalarse en un servidor aparte que tenga acceso para conectarse con la implementación existente de Lync Server 2010. El cmdlet Move-CsUser para mover usuarios desde la implementación local a Lync Online debe ejecutarse desde las herramientas administrativas de Lync Server 2013 conectadas a la implementación local.
+      - Al menos un grupo de servidores Enterprise o un servidor Standard Edition
     
+      - El grupo de directores asociado con la federación SIP, si existe
+    
+      - El grupo de servidores perimetrales asociado con la federación SIP
+
+  - Una implementación mixta de Lync Server 2010 y Skype empresarial Server 2015 con los siguientes servidores en al menos un sitio que ejecute Skype empresarial Server 2015:
+    
+      - Al menos un grupo de servidores Enterprise o un servidor Standard Edition
+    
+      - El grupo de directores asociado con la federación SIP, si existe
+    
+      - El grupo de servidores perimetrales asociado con la federación SIP para el sitio
+
+  - Una implementación mixta de Lync Server 2010 y Lync Server 2013 con los siguientes roles de servidor en al menos un sitio que ejecute Lync Server 2013:
+    
+      - Al menos un grupo de servidores Enterprise o un servidor Standard Edition en el sitio
+    
+      - El grupo de directores asociado con la federación SIP, si existe en el sitio
+    
+      - El grupo de servidores perimetrales asociado con la federación SIP para el sitio
+
+<div>
 
 
-  - Una implementación de Lync Server 2013 donde todos los servidores ejecuten Lync Server 2013.
+> [!IMPORTANT]  
+> Toda la administración de usuarios, incluidos los movimientos de usuarios locales y UNRESOLVED_TOKEN_VAL (skypeforbusiness) en línea, debe realizarse con la última versión instalada de las herramientas administrativas. Las herramientas administrativas deben instalarse en un servidor independiente que tenga acceso de conexión a la implementación local existente y a Internet. El cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-CsUser</A> para mover usuarios de la implementación local a UNRESOLVED_TOKEN_VAL (skype16_online) debe ejecutarse desde las herramientas administrativas conectadas a la implementación local.
 
-Para obtener más información sobre las topologías compatibles, vea [Topologías compatibles en Lync Server 2013](lync-server-2013-supported-topologies.md) y [Topologías de referencia de Lync Server 2013 para implementaciones híbridas de Enterprise](http://go.microsoft.com/fwlink/p/?linkid=398709).
 
-Para obtener información de solución de problemas sobre implementaciones híbridas y la conexión de PowerShell a Lync Online, vea [Lync Online: solución de problemas de Lync PowerShell e implementaciones híbridas](http://go.microsoft.com/fwlink/p/?linkid=306718).
 
-## Requisitos para las listas de permitidos/bloqueados de la federación
+</div>
+
+Para obtener más información sobre las topologías admitidas, consulte topologías [admitidas en Lync server 2013](lync-server-2013-supported-topologies.md)y topologías de [referencia de Lync Server 2013 para implementaciones híbridas empresariales](http://go.microsoft.com/fwlink/p/?linkid=398709).
+
+Para obtener información sobre la solución de problemas de implementaciones híbridas y sobre cómo conectar PowerShell a Lync Online, vea [Lync Online: Lync PowerShell y solución de problemas híbrida](http://go.microsoft.com/fwlink/p/?linkid=306718).
+
+</div>
+
+<div>
+
+## <a name="requirements-for-federation-allowedblocked-lists"></a>Requisitos para las listas de Federación permitida/bloqueada
 
 La lista de dominios permitidos incluye los dominios que tienen configurado un nombre de dominio completo (FQDN) del perímetro de asociado. En ocasiones, se conocen como *servidores de asociado permitidos* o *asociados directos de federación*. Familiarícese con la diferencia entre las federaciones abiertas y cerradas, conocidas respectivamente como *detección de asociado* o *lista de dominios de asociado permitidos* en las implementaciones locales.
 
-Los requisitos siguientes deben cumplirse para configurar correctamente una implementación híbrida:
+Los requisitos siguientes necesitan cumplirse para configurar correctamente una implementación híbrida:
 
-  - La coincidencia de dominios debe configurarse de la misma manera para la implementación local y para el inquilino de Office 365. Si la detección de asociado está habilitada en la implementación local, configure una federación abierta para el inquilino en línea. Si, por el contrario, la detección de asociado no está habilitada, configure una federación cerrada para el inquilino en línea.
+  - La coincidencia de dominios necesita configurarse de la misma manera para la implementación local y para el inquilino de Office 365. Si la detección de asociado está habilitada en la implementación local, configure una federación abierta para el inquilino en línea. Si, por el contrario, la detección de asociado no está habilitada, configure una federación cerrada para el inquilino en línea.
 
-  - La lista de dominios bloqueados de la implementación local debe coincidir exactamente con la lista de dominios bloqueados del inquilino en línea.
+  - La lista de dominios bloqueados de la implementación local necesita coincidir exactamente con la lista de dominios bloqueados del inquilino en línea.
 
-  - La lista de dominios permitidos de la implementación local debe coincidir exactamente con la lista de dominios permitidos del inquilino en línea.
+  - La lista de dominios permitidos de la implementación local necesita coincidir exactamente con la lista de dominios permitidos del inquilino en línea.
 
-  - La federación debe habilitarse para las comunicaciones externas del inquilino en línea, que se configura con el Panel de control de Lync Online.
+  - La Federación debe habilitarse para las comunicaciones externas del inquilino en línea, que se configura con el panel de control de Lync Online.
 
-## Configuración de DNS
+</div>
 
-Cuando cree registros SRV de DNS para implementaciones híbridas, los registros \_sipfederationtls.\_tcp.\<dominio\> y \_sip.\_tls.\<dominio\>, deben apuntar al proxy de acceso local.
+<div>
 
-## Observaciones sobre el firewall
+## <a name="dns-settings"></a>Configuración DNS
 
-Los equipos de la red deben poder efectuar búsquedas estándar de DNS en Internet. Si estos equipos acceden a sitios de Internet estándar, la red cumplirá este requisito.
+Al crear registros DNS para implementaciones híbridas, todos los registros DNS externos de Lync deberían apuntar a la infraestructura local. Para obtener más información sobre los registros DNS necesarios, consulte [los requisitos del sistema de nombres de dominio (DNS) de Lync Server 2013](lync-server-2013-domain-name-system-dns-requirements.md).
 
-Según la ubicación del centro de datos de Microsoft Online Services, configure también los dispositivos de firewall de la red para que acepten conexiones basadas en nombres de dominio con comodín (por ejemplo, todo el tráfico desde \*.outlook.com). Si los firewall de la organización no admiten configuraciones de nombres con comodín, determine manualmente los intervalos de las direcciones IP que desea permitir y los puertos especificados.
+Además, debe asegurarse de que la resolución DNS que se describe en la siguiente tabla funciona en su implementación local:
 
-Consulte el tema de ayuda [Intervalos de direcciones IP y URL de Office 365](http://go.microsoft.com/fwlink/p/?linkid=252942).
 
-## Requisitos de puerto y protocolo
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p>Registro DNS</p></td>
+<td><p>Lo puede resolver</p></td>
+<td><p>Requisito de DNS</p></td>
+</tr>
+<tr class="even">
+<td><p>Registro SRV de DNS para _sipfederationtls. _ TCP. &lt;sipdomain.com&gt; para todos los dominios SIP compatibles que se resuelven para acceder a las IP externas perimetrales</p></td>
+<td><p>Servidores perimetrales</p></td>
+<td><p>Habilite la comunicación federada en una configuración híbrida. El servidor perimetral tiene que saber hacia dónde redirigir el tráfico federado para el dominio SIP que se divide entre las formas local y en línea.</p></td>
+</tr>
+<tr class="odd">
+<td><p>DNS un registro (s) para el servicio de conferencias web perimetrales FQDN, por ejemplo, webcon.contoso.com la resolución de las IP externas perimetrales de la conferencia Web</p></td>
+<td><p>Equipos de usuarios conectados a la red corporativa interna</p></td>
+<td><p>Permitir que los usuarios en línea presenten o vean contenido en reuniones hospedadas en el entorno. El contenido incluye archivos de PowerPoint, pizarras, sondeos y notas compartidas.</p></td>
+</tr>
+</tbody>
+</table>
 
-Además de los requisitos de puerto para la comunicación de Lync Server 2013 interna, configure también los puertos siguientes.
+
+Según el modo en que se configure DNS en su organización, es posible que tenga que agregar estos registros a la zona DNS hospedada interna de los dominios SIP correspondientes para proporcionar resolución DNS interna a estos registros.
+
+</div>
+
+<div>
+
+## <a name="firewall-considerations"></a>Consideraciones sobre el Firewall
+
+Los equipos de la red deben poder realizar búsquedas DNS estándar de Internet. Si estos equipos pueden comunicarse con sitios de Internet estándar, su red cumple con este requisito.
+
+En función de la ubicación del centro de datos de Microsoft Online Services, también debe configurar los dispositivos de Firewall de red para que acepten conexiones basadas en nombres de dominio con comodín ( \*por ejemplo, todo el tráfico de. Outlook.com). Si los firewalls de su organización no admiten configuraciones de nombre comodín, tendrá que determinar manualmente los intervalos de direcciones IP que desea permitir y los puertos especificados.
+
+Consulte el tema de ayuda [Office 365 URL e intervalos de direcciones IP](http://go.microsoft.com/fwlink/p/?linkid=252942).
+
+</div>
+
+<span id="b"></span>
+
+<div>
+
+## <a name="port-and-protocol-requirements"></a>Requisitos de puerto y protocolo
+
+Además de los requisitos de puerto para la comunicación interna de Lync Server 2013, también debe configurar los siguientes puertos.
 
 
 <table>
@@ -121,7 +234,7 @@ Además de los requisitos de puerto para la comunicación de Lync Server 2013 in
 </colgroup>
 <thead>
 <tr class="header">
-<th>Protocolo o puerto</th>
+<th>Protocolo/puerto</th>
 <th>Aplicaciones</th>
 </tr>
 </thead>
@@ -130,13 +243,13 @@ Además de los requisitos de puerto para la comunicación de Lync Server 2013 in
 <td><p>TCP 443</p></td>
 <td><p>Entrada abierta</p>
 <ul>
-<li><p>Servicios de federación de Active Directory (rol de servidor de federación)</p>
-<p>Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Descripción de los servicios del rol AD FS</a>.</p></li>
-<li><p>Servicios de federación de Active Directory (rol de servidor proxy)</p></li>
+<li><p>Servicios de Federación de Active Directory (rol de servidor de Federación)</p>
+<p>Para obtener más información, consulte <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Understanding AD FS role Services</a>.</p></li>
+<li><p>Servicios de Federación de Active Directory (rol de servidor proxy)</p></li>
 <li><p>Portal de Microsoft Online Services</p></li>
-<li><p>El portal de mi empresa</p></li>
+<li><p>Portal de mi empresa</p></li>
 <li><p>Outlook Web App</p></li>
-<li><p>Cliente de Lync (comunicación a Lync Online desde implementación local de Lync Server)</p></li>
+<li><p>Cliente de Lync (comunicación a Lync Online desde Lync Server local)</p></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -148,7 +261,7 @@ Además de los requisitos de puerto para la comunicación de Lync Server 2013 in
 </tr>
 <tr class="odd">
 <td><p>TCP 5061</p></td>
-<td><p>Entrada o salida abierta en el Servidor perimetral</p></td>
+<td><p>Entrada o salida abierta en el servidor perimetral</p></td>
 </tr>
 <tr class="even">
 <td><p>PSOM/TLS 443</p></td>
@@ -163,46 +276,6 @@ Además de los requisitos de puerto para la comunicación de Lync Server 2013 in
 <td><p>Entrada o salida abierta para sesiones de audio y vídeo</p></td>
 </tr>
 <tr class="odd">
-<td><p>RTP/TCP 50000-59999</p></td>
-<td><p>Salida abierta para sesiones de audio y vídeo</p></td>
-</tr>
-<tr class="even">
-<td><p>TCP 443</p></td>
-<td><p>Entrada abierta</p>
-<ul>
-<li><p>Servicios de federación de Active Directory (rol de servidor de federación)</p>
-<p>Para obtener más información, vea <a href="http://go.microsoft.com/fwlink/p/?linkid=281899">Descripción de los servicios del rol AD FS</a>.</p></li>
-<li><p>Servicios de federación de Active Directory (rol de servidor proxy)</p></li>
-<li><p>Portal de Microsoft Online Services</p></li>
-<li><p>El portal de mi empresa</p></li>
-<li><p>Outlook Web App</p></li>
-<li><p>Cliente de Lync (comunicación a Lync Online desde implementación local de Lync Server)</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>TCP 80 y 443</p></td>
-<td><p>Entrada abierta</p>
-<ul>
-<li><p>Herramienta de sincronización de directorios de Microsoft Online Services</p></li>
-</ul></td>
-</tr>
-<tr class="even">
-<td><p>TCP 5061</p></td>
-<td><p>Entrada o salida abierta en el Servidor perimetral</p></td>
-</tr>
-<tr class="odd">
-<td><p>PSOM/TLS 443</p></td>
-<td><p>Entrada o salida abierta para sesiones de uso compartido de datos</p></td>
-</tr>
-<tr class="even">
-<td><p>STUN/TCP 443</p></td>
-<td><p>Entrada o salida abierta para sesiones de uso compartido de aplicaciones, vídeo y audio</p></td>
-</tr>
-<tr class="odd">
-<td><p>STUN/UDP 3478</p></td>
-<td><p>Entrada o salida abierta para sesiones de audio y vídeo</p></td>
-</tr>
-<tr class="even">
 <td><p>RTP/TCP 50000-59999</p></td>
 <td><p>Salida abierta para sesiones de audio y vídeo</p></td>
 </tr>
@@ -210,38 +283,57 @@ Además de los requisitos de puerto para la comunicación de Lync Server 2013 in
 </table>
 
 
+</div>
 
-> [!NOTE]
-> Si necesita federarse con asociados que ejecuten Office Communications Server 2007, deberá abrir los puertos 50000-59999 RTP/UDP y RTP/TCP de entrada o salida. Para obtener más información sobre los requisitos de firewall de A/V, vea <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013</A>. Para obtener más información sobre puertos y protocolos, vea <A href="lync-server-2013-port-summary-scaled-consolidated-edge-with-hardware-load-balancers.md">Resumen de puerto - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013</A>.
+<div>
 
+## <a name="user-accounts-and-data"></a>Cuentas de usuario y datos
 
+En una implementación híbrida de Lync Server 2013, todos los usuarios que desee que se encontrarán en Lync Online deben crearse en la implementación local, de modo que la cuenta de usuario se cree en servicios de dominio de Active Directory. Después, puede mover el usuario a Skype empresarial online, que moverá la lista de contactos del usuario.
 
-## Cuentas de usuarios y datos
+Al sincronizar cuentas de usuario entre su Lync local y las implementaciones de Lync Online con AD FS y DirSync, debe sincronizar las cuentas de AD de todos los usuarios de Lync de su organización entre las implementaciones de Lync locales y en línea, incluso si los usuarios no se mueven a Lync Online. Si no sincroniza todos los usuarios, puede ser que la comunicación entre los usuarios locales y en línea de su organización no funcione como se podría esperar.
 
-En una implementación híbrida de Lync Server 2013, primero deberá crear en la implementación local los usuarios que desee hospedar en Lync Online, de modo que la cuenta de usuario se cree en Servicios de dominio de Active Directory. Después, puede mover el usuario a Skype Empresarial Online que, a su vez, moverá la lista de contactos del usuario.
+<div>
 
-Al sincronizar cuentas de usuario entre sus implementaciones de Lync local y en línea con AD FS y Dirsync, tiene que sincronizar las cuentas de AD para todos los usuarios de Lync de su organización entre sus implementaciones de Lync local y en línea, incluso si los usuarios no se mueven a Lync Online. Si no sincroniza todos los usuarios, puede ser que la comunicación entre los usuarios locales y en línea de su organización no funcione como se podría esperar.
 
 > [!IMPORTANT]  
-> Si el usuario se crea con el portal en línea de Office 365, la cuenta de usuario no se sincronizará con la implementación local de Active Directory de modo que el usuario no existirá en ella. Si ya tiene usuarios creados en Lync Online y desea configurar una híbrida con Lync Server local, vea <a href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">Mover usuarios de Lync Online a Lync local en Lync Server 2013</a>.
+> Si el usuario se crea mediante el portal en línea para Office 365, la cuenta de usuario no se sincronizará con Active Directory local y el usuario no existirá en Active Directory local. Si ya ha creado usuarios en Lync Online y desea configurar un entorno híbrido con un servidor de Lync local, consulte <A href="lync-server-2013-moving-users-from-lync-online-to-lync-on-premises.md">mover usuarios de Lync Online a Lync local en Lync Server 2013</A>.
 
 
+
+</div>
 
 También debe tener en cuenta los siguientes problemas relacionados con el usuario al planear una implementación híbrida.
 
-  - **Contactos de usuario**   El límite de contactos para los usuarios de Lync Online es de 250. Los contactos que superen dicho número se quitarán de la lista de contactos del usuario cuando la cuenta se mueva a Lync Online.
+  - **Contactos de usuarios**   el límite de contactos para los usuarios de Lync Online es 250. Los contactos que se encuentren por encima de ese número se eliminarán de la lista de contactos del usuario cuando se mueva la cuenta a Lync Online.
 
-  - **Mensajería instantánea y presencia**   Las listas de contactos de usuarios, grupos y listas de control de acceso (ACL) se migran con la cuenta de usuario.
+  - **Mensajería instantánea y presencia**   las listas de contactos, los grupos y las listas de control de acceso (ACL) se migran con la cuenta de usuario.
 
-  - **Datos de conferencia, contenido de reuniones y reuniones programadas**   Este contenido no se migra con la cuenta de usuario. Los usuarios deben reprogramar reuniones una vez que estas cuentas migran a Lync Online.
+  - **Datos de conferencia, contenido de la reunión y reuniones**   programadas este contenido no se migra con la cuenta de usuario. Los usuarios deben reprogramar las reuniones después de migrar sus cuentas a Lync Online.
 
-## Directivas de usuario y características
+</div>
 
-  - En un entorno híbrido de Lync Server 2013, se puede habilitar a los usuarios para mensajería instantánea, voz y reuniones en modo local o en línea, pero no en ambos a la vez.
+<div>
 
-  - **Cliente de Lync**    Algunos usuarios pueden necesitar una nueva versión de cliente cuando pasan a Lync Online. Para Office Communications Server 2007 R2, es necesario mover los usuarios a un grupo de Lync Server 2013 antes de migrar a Lync Online.
+## <a name="user-policies-and-features"></a>Directivas de usuario y características
+
+  - En un entorno híbrido de Lync Server 2013, se puede habilitar a los usuarios para mensajería instantánea, voz y reuniones locales o en línea, pero no ambos simultáneamente.
+
+  - **Cliente de Lync**     es posible que algunos usuarios necesiten una nueva versión de cliente cuando se muevan a Lync Online. Para Office Communications Server 2007 R2, los usuarios deben moverse a un grupo de servidores de Lync Server 2013 antes de la migración a Lync Online.
     
-    Para obtener más información sobre la compatibilidad de clientes, vea [Clientes para Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) y [Configuraciones de puerto de red y clientes Lync compatibles](http://go.microsoft.com/fwlink/p/?linkid=281901) .
+    Para obtener más información sobre la compatibilidad del cliente, consulte [clientes para Lync Online](http://go.microsoft.com/fwlink/p/?linkid=281902) y [configuración de puertos de red y clientes de Lync compatibles](http://go.microsoft.com/fwlink/p/?linkid=281901).
 
-  - **Configuración y directivas locales (no del usuario)**   Las directivas en línea y locales necesitan una configuración diferente. No se pueden establecer directivas globales para aplicarlas a ambas.
+  - **Las directivas locales y de configuración (no de usuario)**   en línea y en las directivas locales requieren una configuración independiente. No puede establecer directivas globales que se apliquen a ambos.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

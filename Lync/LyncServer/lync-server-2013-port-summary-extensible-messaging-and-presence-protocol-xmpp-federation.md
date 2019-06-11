@@ -1,23 +1,45 @@
-﻿---
-title: "Resumen puertos: Federación del protocolo extensible de mensajería y presencia (XMPP)"
-TOCTitle: "Résumé des ports - Féd. XMPP (Extensible Messaging and Presence Protocol)"
-ms:assetid: 62e98fab-7add-4983-a3fa-dbe74e1c3849
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618371(v=OCS.15)
-ms:contentKeyID: 49115289
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Resumen de puertos: Federación protocolo de presencia y mensajería extensible (XMPP)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary -  Extensible messaging and presence protocol (XMPP) federation
+ms:assetid: 62e98fab-7add-4983-a3fa-dbe74e1c3849
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618371(v=OCS.15)
+ms:contentKeyID: 49105658
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b36a74393a8c61d5281bb009d212ee0bb12cf0a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824193"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de puertos - Federación del protocolo extensible de mensajería y presencia (XMPP)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="port-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a>Resumen de puertos: Federación protocolo de presencia y mensajería extensible (XMPP) en Lync Server 2013
 
-Los puertos y protocolos definidos en relación con el proxy de protocolo extensible de mensajería y presencia (XMPP) implementado en el Servidor perimetral posibilitan las comunicaciones entre el asociado federado XMPP y el Servidor perimetral, así como entre el Servidor perimetral y el asociado federado XMPP. También hay definida una regla en el firewall de conexión interna para las comunicaciones entre el Servidor front-end o el Grupo de servidores front-end y el Servidor perimetral o el Grupo de servidores perimetrales.
+</div>
 
-## Resumen de firewall para el protocolo extensible de mensajería y presencia
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-20_
+
+Los puertos y protocolos definidos para el proxy protocolo de presencia y mensajería extensible (XMPP) implementado en el servidor perimetral permiten las comunicaciones del socio XMPP federado hasta el servidor perimetral, y también permiten la comunicación desde el servidor perimetral al XMPP socio federado. Una regla también se define en el Firewall de orientación interna desde el servidor front-end o el grupo front-end hasta el servidor perimetral o el grupo Edge.
+
+<div>
+
+## <a name="firewall-summary-for-extensible-messaging-and-presence-protocol"></a>Resumen de Firewall para el protocolo de presencia y mensajería extensible
 
 
 <table>
@@ -39,32 +61,47 @@ Los puertos y protocolos definidos en relación con el proxy de protocolo extens
 <tr class="odd">
 <td><p>XMPP/TCP/5269</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Dirección IP interna del Servidor perimetral de acceso</p></td>
-<td><p>Puerto de comunicación entre servidores estándar para XMPP. Permite la comunicación con el proxy XMPP del Servidor perimetral desde los asociados XMPP federados</p></td>
+<td><p>Dirección IP de la interfaz de servicio perimetral de Access</p></td>
+<td><p>Puerto de comunicación de servidor a servidor estándar para XMPP. Permite la comunicación con el proxy XMPP del servidor perimetral de socios de XMPP</p></td>
 </tr>
 <tr class="even">
 <td><p>XMPP/TCP/5269</p></td>
-<td><p>Dirección IP interna del Servidor perimetral de acceso</p></td>
+<td><p>Dirección IP de la interfaz de servicio perimetral de Access</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>Puerto de comunicación entre servidores estándar para XMPP. Permite la comunicación desde el proxy XMPP del Servidor perimetral con los asociados XMPP federados</p></td>
+<td><p>Puerto de comunicación de servidor a servidor estándar para XMPP. Permite la comunicación desde el proxy XMPP del servidor perimetral a socios XMPP de Federación</p></td>
 </tr>
 <tr class="odd">
 <td><p>XMPP/MTLS/23456</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>IP de la interfaz del Servidor perimetral interno</p></td>
-<td><p>Tráfico XMPP interno desde la puerta de enlace XMPP del Servidor front-end o del Grupo de servidores front-end hacia el Servidor perimetral</p></td>
+<td><p>IP de la interfaz del servidor perimetral interno</p></td>
+<td><p>Tráfico de XMPP interno de la puerta de enlace XMPP del servidor front-end o del grupo front-end al servidor perimetral</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Configuración XMPP de ejemplo en Lync Server 2013 - Federación XMPP con Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
-#### Otros recursos
 
-[Administrar socios federados XMPP para su organización en Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)
+[Administrar socios federados XMPP para su organización en Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

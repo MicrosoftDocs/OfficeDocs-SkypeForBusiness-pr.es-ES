@@ -1,23 +1,45 @@
-﻿---
-title: Atributos de esquema por clase de Lync Server 2013
-TOCTitle: Atributos de esquema por clase de Lync Server 2013
-ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398544(v=OCS.15)
-ms:contentKeyID: 48275638
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: atributos de esquema por clase'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema attributes by class
+ms:assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398544(v=OCS.15)
+ms:contentKeyID: 48184468
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 09978d9b0cad055b4c3b33976df838ba5543887d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822044"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Atributos de esquema por clase de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="schema-attributes-by-class-in-lync-server-2013"></a>Atributos de esquema por clase en Lync Server 2013
 
-En esta sección se enumeran los atributos de esquema que puede incluir cada una de las clases de Lync Server 2013 y las clases que pueden incluirse en otras clases. Para obtener una lista de todas las clases y sus descripciones, consulte [Clases de esquema y descripciones de Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Para obtener una lista de todos los atributos y sus descripciones, consulte [Atributos de esquema y descripciones de Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
+</div>
 
-## Atributos por clase
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-08-29_
+
+En esta sección se enumeran los atributos de esquema que se pueden incluir en cada clase 2013 de Lync Server y las clases que pueden estar incluidas en otras clases. Para obtener una lista de todas las clases y sus descripciones, vea [clases y descripciones de esquemas en Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Para obtener una lista de todos los atributos y sus descripciones, consulte [atributos y descripciones del esquema en Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).
+
+<div>
+
+## <a name="attributes-by-class"></a>Atributos por clase
 
 
 <table>
@@ -27,13 +49,13 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 </colgroup>
 <thead>
 <tr class="header">
-<th>Clase</th>
+<th>Las</th>
 <th>Puede contener estos atributos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Contacto</p></td>
+<td><p>Con</p></td>
 <td><p>msDS-SourceObjectDN</p>
 <p>msRTCSIP-AcpInfo</p>
 <p>msRTCSIP-ApplicationDestination</p>
@@ -45,7 +67,7 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-GroupingID</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
+<p>msRTCSIP-line</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
@@ -67,7 +89,7 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 <p>ProxyAddresses</p></td>
 </tr>
 <tr class="even">
-<td><p>Mail-Recipient</p></td>
+<td><p>Destinatario de correo</p></td>
 <td><p>msExchUCVoiceMailSettings</p>
 <p>msExchUserHoldPolicies</p></td>
 </tr>
@@ -96,7 +118,7 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-Domain</p></td>
-<td><p>msRTCSIP-Default</p>
+<td><p>msRTCSIP-default</p>
 <p>msRTCSIP-DomainData</p>
 <p>msRTCSIP-DomainName</p></td>
 </tr>
@@ -167,7 +189,7 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 </tr>
 <tr class="odd">
 <td><p>msRTCSIP-MonitoringServer</p></td>
-<td><p>dnsHostName</p>
+<td><p>servicePrincipalName</p>
 <p>msRTCSIP-ExtensionData</p>
 <p>msRTCSIP-ServerVersion</p></td>
 </tr>
@@ -217,7 +239,7 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 <tr class="even">
 <td><p>msRTCSIP-TrustedService</p></td>
 <td><p>msRTCSIP-ExtensionData</p>
-<p>msRTCSIP-Routable</p>
+<p>msRTCSIP-enrutable</p>
 <p>msRTCSIP-RoutingPoolDN</p>
 <p>msRTCSIP-ServerBL</p>
 <p>msRTCSIP-TrustedServerFQDN</p>
@@ -251,7 +273,7 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 <p>msRTCSIP-FederationEnabled</p>
 <p>msRTCSIP-GroupingID</p>
 <p>msRTCSIP-InternetAccessEnabled</p>
-<p>msRTCSIP-Line</p>
+<p>msRTCSIP-line</p>
 <p>msRTCSIP-LineServer</p>
 <p>msRTCSIP-OptionFlags</p>
 <p>msRTCSIP-OriginatorSid</p>
@@ -274,7 +296,9 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 </table>
 
 
-## Clases incluidas en otras clases
+<div>
+
+## <a name="classes-contained-in-other-classes"></a>Clases contenidas en otras clases
 
 
 <table>
@@ -284,7 +308,7 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 </colgroup>
 <thead>
 <tr class="header">
-<th>Clase</th>
+<th>Las</th>
 <th>Puede contener esta clase</th>
 </tr>
 </thead>
@@ -295,18 +319,18 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 <p>msRTCSIP-PoolService</p>
 <p>msRTCSIP-MCU</p>
 <p>msRTCSIP-MCUFactoryService</p>
-<p>msRTCSIP-WebComponents</p>
+<p>msRTCSIP-webcomponents</p>
 <p>msRTCSIP-WebComponentsService</p>
 <p>msRTCSIP-ApplicationServerService</p>
 <p>msRTCSIP-Service</p>
-<p>msRTCSIP-ConnectionPoint</p>
+<p>msRTCSIP-coma</p>
 <p>msRTCSIP-MediationServer</p>
 <p>msRTCSIP-ApplicationServer</p></td>
 </tr>
 <tr class="even">
 <td><p>msRTCSIP-Service</p></td>
 <td><p>msRTCSIP-GlobalContainer</p>
-<p>msRTCSIP-Pools</p>
+<p>msRTCSIP-pools</p>
 <p>msRTCSIP-MCUFactories</p>
 <p>msRTCSIP-TrustedMCUs</p>
 <p>msRTCSIP-TrustedWebComponentsServers</p>
@@ -325,7 +349,7 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 <p>msRTCSIP-MonitoringServer</p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-Pools</p></td>
+<td><p>msRTCSIP-pools</p></td>
 <td><p>msRTCSIP-Pool</p></td>
 </tr>
 <tr class="odd">
@@ -362,4 +386,19 @@ En esta sección se enumeran los atributos de esquema que puede incluir cada una
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

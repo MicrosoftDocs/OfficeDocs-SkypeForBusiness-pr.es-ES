@@ -1,26 +1,61 @@
-﻿---
-title: Requisitos para la ejecución del Analizador de procedimientos recomendados
-TOCTitle: Requisitos para la ejecución del Analizador de procedimientos recomendados
-ms:assetid: 3c7dc44e-5f8a-40a7-9ebb-9ad707ac0007
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg591345(v=OCS.15)
-ms:contentKeyID: 48275028
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: requisitos para la ejecución del analizador de procedimientos recomendados'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Requirements for running Best Practices Analyzer
+ms:assetid: 3c7dc44e-5f8a-40a7-9ebb-9ad707ac0007
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591345(v=OCS.15)
+ms:contentKeyID: 48183880
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dcdba078f60a4e2012840aedf618b2786181a47b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823206"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos para la ejecución del Analizador de procedimientos recomendados
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="requirements-for-running-best-practices-analyzer-in-lync-server-2013"></a>Requisitos para ejecutar el analizador de procedimientos recomendados en Lync Server 2013
 
-Puede utilizar Lync Server 2013, Analizador de procedimientos recomendados para examinar su entorno Lync Server 2013. No puede utilizarlo para examinar entornos previos, pero puede utilizar las versiones anteriores de la herramienta para examinar esos entornos. Para obtener información detallada sobre la descarga y el uso de las versiones de Lync Server 2010 y Office Communications Server 2007 R2 del Analizador de procedimientos recomendados, consulte "Lync Server 2010, Analizador de procedimientos recomendados" en [http://go.microsoft.com/fwlink/?linkid=210536\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=256358%26clcid=0xc0a) y "Analizador de procedimientos recomendados para Office Communications Server 2007 y Office Communications Server 2007 R2" en [http://go.microsoft.com/fwlink/?linkid=256358\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=210651%26clcid=0xc0a).
+</div>
 
-Antes de comenzar con el examen, debe asegurarse de que todos los componentes de su entorno Lync Server 2013 estén en ejecución y en línea.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-19_
+
+Puede usar Lync Server 2013, analizador de procedimientos recomendados para examinar el entorno de Lync Server 2013. No puede usarlo para examinar entornos anteriores, pero puede usar las versiones anteriores de la herramienta para explorar esos entornos. Para obtener más información sobre cómo descargar y usar las versiones de Lync Server 2010 y de Office Communications Server 2007 R2 de Best Practices Analyzer, consulte "Lync Server 2010 [http://go.microsoft.com/fwlink/p/?linkId=210536](http://go.microsoft.com/fwlink/p/?linkid=256358) , Best Practices Analyzer" en la y "Best Practices Analyzer para Office Communications Server 2007 y Office Communications Server 2007 R2 "en [http://go.microsoft.com/fwlink/p/?linkId=256358](http://go.microsoft.com/fwlink/p/?linkid=210651).
+
+Antes de iniciar el examen, debe asegurarse de que todos los componentes del entorno de Lync Server 2013 se estén ejecutando y estén conectados.
+
+<div>
 
 
-> [!NOTE]
-> Según la configuración de sus servidores perimetrales y cualquier configuración de red perimetral relacionada, incluidos los permisos y la configuración de firewall, el Analizador de procedimientos recomendados podría no ser capaz de acceder a sus servidores perimetrales ni examinarlos. Si incluye servidores perimetrales en su examen y los informes indican que hay un problema para acceder a los servidores perimetrales, quizás deba eliminar los servidores perimetrales de las opciones de examen y ejecutar nuevamente el examen de modo tal que los problemas no aparezcan en el informe.
+> [!NOTE]  
+> En función de la configuración de los servidores perimetrales y de cualquier configuración de red perimetral relacionada, incluyendo la configuración y los permisos del firewall, es posible que el analizador de procedimientos recomendados no pueda tener acceso a los servidores perimetrales y explorarlos. Si incluye servidores perimetrales en el análisis y los informes indican que hay un problema con el acceso a servidores perimetrales, es posible que desee quitar los servidores perimetrales de las opciones de búsqueda y ejecutar el examen de nuevo para que no se muestren los problemas en el informe.
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

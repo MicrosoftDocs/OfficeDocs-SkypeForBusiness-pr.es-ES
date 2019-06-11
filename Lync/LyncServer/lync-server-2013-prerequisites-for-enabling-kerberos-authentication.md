@@ -1,35 +1,65 @@
-﻿---
-title: "Lync Server 2013 : Cond. prér. à l’activation de l’authentification Kerberos"
-TOCTitle: Requisitos previos para habilitar la autenticación Kerberos
-ms:assetid: 3f276a21-7476-4bc0-9fd1-59e844d2e9c1
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425909(v=OCS.15)
-ms:contentKeyID: 48275072
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos previos para habilitar la autenticación Kerberos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Prerequisites for enabling Kerberos authentication
+ms:assetid: 3f276a21-7476-4bc0-9fd1-59e844d2e9c1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425909(v=OCS.15)
+ms:contentKeyID: 48183945
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f405daa37007bffba1e02bd10d20d4de907e820e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823682"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos previos para habilitar la autenticación Kerberos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="prerequisites-for-enabling-kerberos-authentication-in-lync-server-2013"></a>Requisitos previos para habilitar la autenticación Kerberos en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-21_
 
-Antes de habilitar la autenticación Kerberos, asegúrese de que se han completado todas las tareas de configuración de requisitos previos y de preparación de la infraestructura:
+Antes de habilitar la autenticación Kerberos, asegúrese de completar todas las preparaciones de configuración y de infraestructura necesarias:
 
-  - Se ha ampliado el esquema de Active Directory para Lync Server 2013.
+  - El esquema de Active Directory se extiende para Lync Server 2013.
 
-  - Se ha realizado la preparación del bosque de Active Directory para Lync Server 2013.
+  - La preparación del bosque de Active Directory se completa para Lync Server 2013.
 
-  - Se ha realizado la preparación del dominio de Active Directory para Lync Server 2013.
+  - La preparación del dominio de Active Directory se completa para Lync Server 2013.
 
-  - El Almacén de administración central se ha instalado correctamente y está disponible.
+  - El almacén de administración central se instaló correctamente y está disponible.
 
-  - La topología se ha creado y publicado con Generador de topologías.
+  - La topología se ha creado y publicado mediante el generador de topologías.
 
-  - Se han definido e implementado los servidores y roles que requieren el Servicios web, como los servidores front-end, los servidores Standard Edition y los directores.
+  - Servidores y roles que requieren servicios web definidos e implementados, incluidos los servidores front-end, los servidores Standard Edition y los directores.
 
-  - Se ha configurado e implementado Servicios de Internet Information Server (IIS) con los servicios de rol recomendados para admitir el Servicios web en Lync Server 2013.
+  - Los servicios de información de Internet (IIS) se configuran e implementan con los servicios de rol recomendados para admitir servicios web en Lync Server 2013.
 
-Una vez satisfechos los requisitos previos, debe estarse preparado para crear una o más cuentas del Servicios web para su uso con la autenticación Kerberos en la implementación. Como mínimo, es necesario crear una cuenta de autenticación Kerberos para cada implementación. Sin embargo, puede crearse una cuenta en cada sitio para proporcionar autenticación local Kerberos en el sitio. Únicamente se puede especificar una sola cuenta de autenticación Kerberos por sitio.
+Una vez cumplidos los requisitos previos, debe estar listo para crear una o varias cuentas para que los servicios web los usen para la autenticación Kerberos de la implementación. Como mínimo, debe crear una cuenta de autenticación Kerberos para cada implementación. Sin embargo, puede crear una cuenta para cada sitio para proporcionar autenticación Kerberos local en el sitio. Solo puede especificar una cuenta de autenticación de Kerberos por sitio.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

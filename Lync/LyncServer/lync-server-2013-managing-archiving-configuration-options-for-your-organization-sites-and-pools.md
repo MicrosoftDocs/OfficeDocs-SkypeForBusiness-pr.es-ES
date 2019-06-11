@@ -1,61 +1,103 @@
-﻿---
-title: "Configuración de archivado de Lync Server 2013 para organización, sitios y servidores"
-TOCTitle: "Gest. des opt. de conf. de l’arch. ds LS 2013 pr vos org., sites et pools"
-ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204802(v=OCS.15)
-ms:contentKeyID: 48274949
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: administración de las opciones de configuración de archivado para su organización, sitios y grupos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Archiving configuration options for your organization, sites, and pools
+ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204802(v=OCS.15)
+ms:contentKeyID: 48183830
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 10efbf23a503364de7034651d94ced43a8d7b750
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828211"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar las opciones de configuración de archivado de Lync Server 2013 para su organización, sitios y grupos de servidores
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="managing-archiving-configuration-options-in-lync-server-2013-for-your-organization-sites-and-pools"></a>Administrar las opciones de configuración de archivado en Lync Server 2013 para su organización, sitios y grupos
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-01_
 
-En Panel de control de Lync Server 2013, la configuración de archivado se usa para especificar cómo se implementa el archivado. Esto incluye las configuraciones de archivado siguientes:
+En el panel de control de Lync Server 2013, se usan configuraciones de archivado para especificar cómo se implementa el archivado. Esto incluye las siguientes configuraciones de archivado:
 
-  - Configuración global creada de forma predeterminada al implementar Lync Server 2013.
+  - Una configuración global que se crea de forma predeterminada al implementar Lync Server 2013.
 
-  - Configuraciones opcionales de nivel de sitio y de grupo que se crean y utilizan para especificar el modo en que se implementa el archivado en sitios o grupos específicos.
+  - Configuraciones de nivel de sitio y de grupo opcionales que puede crear y usar para especificar cómo se implementa el archivado para grupos o sitios específicos.
 
-Inicialmente establece las configuraciones de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones tras la implementación. En Panel de control de Lync Server 2013, puede usar la página de **configuración de archivado** del grupo **de archivado y supervisión** para administrar las configuraciones en el nivel global, el nivel de sitio y el nivel de grupo. Para obtener más información acerca de cómo se implementan las configuraciones de archivado, incluyendo qué opciones puede especificar y la jerarquía de las configuraciones de archivado, vea [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planificación, la documentación sobre implementación o documentación sobre operaciones.
+Inicialmente, debe configurar las configuraciones de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación. En el panel de control de Lync Server 2013, puede usar la página **configuración** de archivado del grupo **archivado y supervisión** para administrar las configuraciones a nivel global, nivel de sitio y nivel de grupo. Para obtener detalles sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, implementación documentación u operación.
 
-
-> [!NOTE]
-> Para utilizar el archivado debe configurar las directivas de archivado para especificar si habilita el archivado para las comunicaciones internas, para las externas o para ambas para todos los usuarios hospedados en Lync Server 2013. De forma predeterminada, el archivado no está habilitado ni para la comunicación interna ni para la externa. Si utiliza la integración con Microsoft Exchange, debe habilitar y configurar Exchange 2013 para que admita el archivado para todos los usuarios hospedados en Exchange 2013 cuyos buzones se hayan puesto en espera.<BR>Antes de habilitar el archivado, especifique la configuración de archivado adecuada para su implementación y, de forma opcional, para determinas grupos y sitios, tal como se describe en esta sección. Para obtener más detalles sobre cómo habilitar el archivado, vea <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurar y asignar directivas de archivado</A> en la documentación sobre implementación.
+<div>
 
 
+> [!NOTE]  
+> Para usar el archivado, debe configurar las directivas de archivado para especificar si desea habilitar el archivado de las comunicaciones internas, de las comunicaciones externas o de ambos para todos los usuarios alojados en Lync Server 2013. De forma predeterminada, el archivado no está habilitado para las comunicaciones internas o externas. Si usa la integración de Microsoft Exchange, debe habilitar y configurar Exchange 2013 para que admita el archivado de todos los usuarios alojados en Exchange 2013 que hayan puesto sus buzones en conservación local.<BR>Antes de habilitar el archivado, debe especificar las configuraciones de archivado apropiadas para su implementación y, opcionalmente, para determinados sitios y grupos, tal y como se describe en esta sección. Para obtener más información sobre cómo habilitar el archivado, vea <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">configurar y asignar directivas de archivado en Lync Server 2013</A> en la documentación de implementación.
 
-**Para ver la información de configuración de archivado usando los cmdlets del Shell de administración de Lync Server**
 
-  - También puede ver la información de configuración de archivado usando el Windows PowerShell de Lync Server y el cmdlet **Get-CsArchivingConfiguration**. Puede ejecutar este cmdlet desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+
+</div>
+
+**Para ver la información de configuración de archivado mediante cmdlets de Windows PowerShell**
+
+  - Puede ver la información de configuración de archivado mediante Windows PowerShell y el cmdlet **Get-CsArchivingConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
     
-    En el Shell de administración de Lync Server, use el comando siguiente para ver la información de la configuración de archivado:
+    En el shell de administración de Lync Server, use el siguiente comando para ver información sobre todas las opciones de configuración de archivado:
     
         Get-CsArchivingConfiguration
 
-## En esta sección
+<div>
 
-  - [Crear una configuración de archivado para administrar el archivado para sitios o grupos de servidores específicos](lync-server-2013-creating-an-archiving-configuration-to-manage-archiving-for-specific-sites-or-pools.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Habilitar y deshabilitar el archivado de sesiones de mensajería instantánea (MI) o de conferencia](lync-server-2013-enabling-or-disabling-archiving-of-im-or-conferencing-sessions.md)
+  - [Creación de una configuración de archivado en Lync Server 2013 para administrar el archivado de sitios o grupos específicos](lync-server-2013-creating-an-archiving-configuration-to-manage-archiving-for-specific-sites-or-pools.md)
 
-  - [Habilitar o deshabilitar la depuración de datos archivados](lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md)
+  - [Habilitar o deshabilitar el archivado de sesiones de mensajería instantánea o de conferencia en Lync Server 2013](lync-server-2013-enabling-or-disabling-archiving-of-im-or-conferencing-sessions.md)
 
-  - [Habilitación o deshabilitación del modo crítico para bloquear o permitir mensajería instantánea y sesiones de conferencia web si hay errores de archivado](lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md)
+  - [Habilitar o deshabilitar la purga de datos archivados en Lync Server 2013](lync-server-2013-enabling-or-disabling-the-purging-of-archived-data.md)
+
+  - [Habilitar o deshabilitar el modo crítico en Lync Server 2013 para bloquear o permitir sesiones de mensajería instantánea y Web si se produce un error de archivado](lync-server-2013-enabling-or-disabling-critical-mode-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails.md)
 
   - [Habilitar o deshabilitar el envío de una renuncia de archivado a socios federados en Lync Server 2013](lync-server-2013-enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)
 
-  - [Habilitar y deshabilitar la integración con Exchange Storage](lync-server-2013-enabling-or-disabling-integration-with-exchange-storage.md)
+  - [Habilitar o deshabilitar la integración de Lync Server 2013 con almacenamiento de Exchange](lync-server-2013-enabling-or-disabling-integration-with-exchange-storage.md)
 
-  - [Eliminar una configuración de archivado](lync-server-2013-deleting-an-archiving-configuration.md)
+  - [Eliminar una configuración de archivado en Lync Server 2013](lync-server-2013-deleting-an-archiving-configuration.md)
 
-## Vea también
+</div>
 
-#### Otros recursos
+<div>
 
-[Administración de archivado en Lync Server 2013](lync-server-2013-managing-archiving.md)
+## <a name="see-also"></a>Vea también
+
+
+[Administración de archivado en Lync Server 2013](lync-server-2013-managing-archiving.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

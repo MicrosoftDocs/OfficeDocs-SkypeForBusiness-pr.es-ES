@@ -1,23 +1,43 @@
-﻿---
-title: "Lync Server 2013: Resumen puerto: Grupo director escalado, equilibr. carga hardware"
-TOCTitle: Resumen de puerto - Grupo de director escalado, equilibrador de carga de hardware
-ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204983(v=OCS.15)
-ms:contentKeyID: 48275596
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumen de puerto - Grupo de director escalado, equilibrador de carga de hardware'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - Scaled Director pool, hardware load balancer
+ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204983(v=OCS.15)
+ms:contentKeyID: 48184434
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f9a78225f7cf523d5f120f291498007fcdfa0cd3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824221"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de puerto - Grupo de director escalado, equilibrador de carga de hardware en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="port-summary---scaled-director-pool-hardware-load-balancer-in-lync-server-2013"></a>Resumen de puerto - Grupo de director escalado, equilibrador de carga de hardware en Lync Server 2013
 
-Los requisitos de puerto del firewall de un Grupo de directores consisten en los puertos que se usan para comunicarse con el Director desde la interfaz interna del Servidor perimetral o desde la interfaz de conexión interna del proxy inverso. Microsoft Lync Server 2013 espera de forma predeterminada que los puertos HTTP/TCP 8080 y HTTPS/TCP 4443 estén abiertos desde el proxy inverso al Director, así como el Grupo de servidores front-end y el Servidor front-end. Además, debe haber comunicación de protocolo de inicio de sesión (SIP) entre la interfaz interna del Servidor perimetral y el Director y entre el Grupo de servidores front-end y el Servidor front-end. El protocolo SIP emplea SIP/MTLS/TCP 5061 desde el Servidor perimetral al Grupo de servidores front-end y al Servidor front-end. De igual modo, se debe crear una regla que permita la comunicación a través de SIP/MTLS/TCP 5061 desde el Director, el Grupo de servidores front-end y el Servidor front-end a la interfaz interna del Servidor perimetral.
+</div>
 
-### Protocolos y puertos del Director para la definición de puertos
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-21_
+
+Los requisitos de puerto de Firewall para un grupo de directores consisten en los puertos que se usan para establecer comunicación con el director desde la interfaz interna del servidor perimetral o la interfaz interna del proxy inverso. Microsoft Lync Server 2013 espera de forma predeterminada que los puertos HTTP/TCP 8080 y HTTPS/TCP 4443 se abran desde el proxy inverso al Director, así como el servidor front-end y el servidor front-end. Además, debe haber comunicación del Protocolo de inicio de sesión (SIP) desde la interfaz interna del servidor perimetral al Director y al grupo de servidores front-end y front-end. El protocolo SIP usa SIP/MTLS/TCP 5061 del servidor perimetral al grupo front-end y al servidor front-end. También se debe crear una regla que permita la comunicación SIP/MTLS/TCP 5061 desde el director, el grupo de servidores front-end y el servidor front-end a la interfaz interna del servidor perimetral.
+
+### <a name="director-ports-and-protocols-for-firewall-definitions"></a>Puertos y protocolos de directores para definiciones de Firewall
 
 <table>
 <colgroup>
@@ -28,7 +48,7 @@ Los requisitos de puerto del firewall de un Grupo de directores consisten en los
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rol/Protocolo/TCP o UDP/Puerto</th>
+<th>Función/protocolo/TCP o UDP/puerto</th>
 <th>Dirección IP de origen</th>
 <th>Dirección IP de destino</th>
 <th>Notas</th>
@@ -37,58 +57,69 @@ Los requisitos de puerto del firewall de un Grupo de directores consisten en los
 <tbody>
 <tr class="odd">
 <td><p>HTTP/TCP 8080</p></td>
-<td><p>Interfaz interna de proxy inverso</p></td>
-<td><p>VIP del equilibrador de carga de hardware del Director</p></td>
-<td><p>La comunicación, que el lado externo del proxy inverso recibe en principio, se envía al VIP del equilibrador de carga de hardware del Director y los servicios web de los Servidores front-end</p></td>
+<td><p>Interfaz interna de proxy invertida</p></td>
+<td><p>Director VIP de equilibrador de carga de hardware</p></td>
+<td><p>Inicialmente recibido por el lado externo del proxy inverso, la comunicación se envía al Director HLB VIP y los servicios Web de los servidores front-end</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTPS/TCP 4443</p></td>
-<td><p>Interfaz interna de proxy inverso</p></td>
-<td><p>VIP del equilibrador de carga de hardware del Director</p></td>
-<td><p>La comunicación, que el lado externo del proxy inverso recibe en principio, se envía al VIP del equilibrador de carga de hardware del Director y los servicios web de los Servidores front-end</p></td>
+<td><p>Interfaz interna de proxy invertida</p></td>
+<td><p>Director VIP de equilibrador de carga de hardware</p></td>
+<td><p>Inicialmente recibido por el lado externo del proxy inverso, la comunicación se envía al Director HLB VIP y los servicios Web de los servidores front-end</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 444</p></td>
 <td><p>Director</p></td>
-<td><p>Servidor front-end o Grupo de servidores front-end</p></td>
-<td><p>Comunicación entre servidores entre el VIP del equilibrador de carga de hardware del Director y el Servidores front-end</p></td>
+<td><p>Servidor front-end o grupo front-end</p></td>
+<td><p>Comunicación entre servidores entre el director HLB VIP y los servidores front-end</p></td>
 </tr>
 <tr class="even">
 <td><p>HTTP/TCP 80</p></td>
 <td><p>Clientes internos</p></td>
-<td><p>VIP del equilibrador de carga de hardware del Director</p></td>
-<td><p>El Director ofrece servicios web tanto a clientes internos como externos.</p></td>
+<td><p>Director VIP de equilibrador de carga de hardware</p></td>
+<td><p>El director proporciona servicios web a clientes externos y internos.</p></td>
 </tr>
 <tr class="odd">
 <td><p>HTTPS/TCP 443</p></td>
 <td><p>Clientes internos</p></td>
-<td><p>VIP del equilibrador de carga de hardware del Director</p></td>
-<td><p>El Director ofrece servicios web tanto a clientes internos como externos.</p></td>
+<td><p>Director VIP de equilibrador de carga de hardware</p></td>
+<td><p>El director proporciona servicios web a clientes externos y internos.</p></td>
 </tr>
 <tr class="even">
 <td><p>SIP/MTLS/TCP 5061</p></td>
-<td><p>Interfaz interna del Servidor perimetral</p></td>
-<td><p>VIP del equilibrador de carga de hardware del Director</p></td>
-<td><p>Comunicación SIP desde el Servidor perimetral al Director y el Servidores front-end.</p></td>
+<td><p>Interfaz interna de Edge Server</p></td>
+<td><p>Director VIP de equilibrador de carga de hardware</p></td>
+<td><p>Comunicación SIP desde el servidor perimetral al Director y a los servidores de aplicaciones para el usuario.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50001</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Director</p></td>
-<td><p>Colección de registros y comandos del controlador del Servicio de registro centralizado (ClsController.exe) o del agente (ClsAgent.exe).</p></td>
+<td><p>Comandos del controlador de registro centralizado (ClsController. exe) o agente (ClsAgent. exe) y recopilación de registros</p></td>
 </tr>
 <tr class="even">
 <td><p>MTLS/TCP/50002</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Director</p></td>
-<td><p>Colección de registros y comandos del controlador del Servicio de registro centralizado (ClsController.exe) o del agente (ClsAgent.exe).</p></td>
+<td><p>Comandos del controlador de registro centralizado (ClsController. exe) o agente (ClsAgent. exe) y recopilación de registros</p></td>
 </tr>
 <tr class="odd">
 <td><p>MTLS/TCP/50003</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>Director</p></td>
-<td><p>Colección de registros y comandos del controlador del Servicio de registro centralizado (ClsController.exe) o del agente (ClsAgent.exe).</p></td>
+<td><p>Comandos del controlador de registro centralizado (ClsController. exe) o agente (ClsAgent. exe) y recopilación de registros</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
