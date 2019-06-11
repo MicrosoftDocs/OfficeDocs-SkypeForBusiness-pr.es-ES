@@ -1,69 +1,126 @@
-﻿---
-title: "Lync Server 2013: Asignar directiva de acceso de usuario externo a usuario con Lync"
-TOCTitle: Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync
-ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398551(v=OCS.15)
-ms:contentKeyID: 48275650
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign an external user access policy to a Lync enabled user
+ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
+ms:contentKeyID: 48184483
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ec487f8aacdc26f910f30a0864ecead1fdb1a745
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842989"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="assign-an-external-user-access-policy-to-a-lync-enabled-user-in-lync-server-2013"></a>Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-22_
 
-Si ha habilitado un usuario para Lync Server, puede configurar la federación SIP, la federación XMPP, el acceso de usuarios remotos y la conectividad de mensajería instantánea desde el Panel de control de Lync Server mediante la aplicación de las directivas adecuadas para usuarios concretos. Por ejemplo, si ha creado una directiva que permita el acceso de usuarios remotos, debe aplicarla al usuario antes de que este pueda conectarse a Lync Server desde una ubicación remota y colaborar con usuarios internos desde dicha ubicación.
+Si se ha habilitado un usuario para Lync Server, puede configurar la Federación SIP, la Federación XMPP, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública (mi) en el panel de control de Lync Server aplicando las directivas apropiadas a usuarios específicos. Por ejemplo, si creó una directiva para admitir el acceso de usuarios remotos, debe aplicarla al usuario antes de que el usuario pueda conectarse a Lync Server desde una ubicación remota y colaborar con usuarios internos desde la ubicación remota.
+
+<div>
 
 
-> [!NOTE]
-> Para permitir el acceso de usuarios externos, debe habilitar la compatibilidad para cada tipo de acceso de usuarios externos que desee permitir y configurar las directivas adecuadas y otras opciones para controlar su uso. Para más información, consulte <A href="lync-server-2013-configuring-support-for-external-user-access.md">Configurar la compatibilidad para el acceso de usuarios externos en Lync Server 2013</A> en la documentación referente a la implementación o <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">Administración de la federación y el acceso externo a Lync Server 2013</A> en la documentación referente a operaciones.
+> [!NOTE]  
+> Para admitir el acceso de usuarios externos, debe habilitar la compatibilidad para cada tipo de acceso de usuario externo que desee admitir, así como configurar las directivas apropiadas y otras opciones para controlar su uso. Para obtener más información, vea configuración de la <A href="lync-server-2013-configuring-support-for-external-user-access.md">compatibilidad con el acceso de usuarios externos en Lync server 2013</A> en la documentación de implementación o <A href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">administrar la Federación y el acceso externo a Lync Server 2013</A> en la documentación de operaciones.
 
 
 
-Use el procedimiento descrito en este tema para aplicar una directiva de acceso de usuarios externos creada previamente a una o varias cuentas de usuario.
+</div>
 
-## Para aplicar una directiva de usuario externo a una cuenta de usuario
+Use el procedimiento de este tema para aplicar una directiva de acceso de usuarios externos creada previamente a una o más cuentas de usuario.
+
+<div>
+
+## <a name="to-apply-an-external-user-policy-to-a-user-account"></a>Para aplicar una directiva de usuario externo a una cuenta de usuario
 
 1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Usuarios** y, a continuación, busque en la cuenta de usuario que desea configurar.
+3.  En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, busque la cuenta de usuario que desea configurar.
 
-4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, a continuación, en **Mostrar detalles** .
+4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
 
-5.  En **Editar usuario de Lync Server** en **Directiva de acceso externo** , seleccione la directiva de usuario que desea aplicar.
+5.  En **Editar usuario de Lync Server** , en **Directiva de acceso externo**, seleccione la Directiva de usuario que desea aplicar.
+    
+    <div>
     
 
-    > [!NOTE]
-    > En la configuración <STRONG>&lt;Automática&gt;</STRONG> , aplique las opciones de directiva global del servidor predeterminada.
+    > [!NOTE]  
+    > La <STRONG> &lt;configuración&gt; automática</STRONG> aplica el servidor predeterminado o la configuración de la directiva global.
 
+    
+    </div>
 
+</div>
 
-## Asignar directivas de acceso externo por usuario mediante cmdlets de Windows PowerShell
+<div>
 
-Las directivas de acceso externo por usuario se pueden asignar con el Windows PowerShell y el cmdlet Grant-CsExternalAccessPolicy. Puede ejecutar el cmdlet desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Asignar directivas de acceso externo por usuario mediante cmdlets de Windows PowerShell
 
-## Para asignar una directiva de acceso externo por usuario a un solo usuario
+Las directivas de acceso externo por usuario se pueden asignar mediante Windows PowerShell y el cmdlet Grant-CsExternalAccessPolicy. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
-  - Este comando asigna la directiva de acceso externo por usuario RedmondExternalAccessPolicy al usuario Ken Myer.
+<div>
+
+## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>Para asignar una directiva de acceso externo por usuario a un solo usuario
+
+  - Este comando asigna el RedmondExternalAccessPolicy de directiva de acceso externo por usuario al usuario Ken Myer.
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
 
-## Para asignar una directiva de acceso externo por usuario a varios usuarios
+</div>
 
-  - Este comando asigna la directiva de acceso externo por usuario USAExternalAccessPolicy a todos los usuarios que tienen cuentas en la unidad organizativa (OU) de los Estados Unidos en Active Directory. Para más información sobre el parámetro OU utilizado en este comando, consulte la información sobre el cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
+<div>
+
+## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>Para asignar una directiva de acceso externo por usuario a varios usuarios
+
+  - Este comando asigna el USAExternalAccessPolicy de directiva de acceso externo por usuario a todos los usuarios que tienen cuentas en la OU de Estados Unidos en Active Directory. Para obtener más información sobre el parámetro de Uo que se usa en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/Get-CsUser) .
     
         Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
 
-## Para cancelar la asignación de una directiva de acceso externo por usuario
+</div>
 
-  - Este comando anula la asignación de una directiva de acceso externo por usuario que se había asignado a Ken Myer. Una vez anulada la asignación, el usuario Ken Myer será administrado por la directiva global o, si la hay, por su directiva de sitio local. Las directivas de sitio tienen preferencia sobre la directiva global.
+<div>
+
+## <a name="to-unassign-a-per-user-external-access-policy"></a>Para cancelar la asignación de una directiva de acceso externo por usuario
+
+  - Este comando elimina la asignación de una directiva de acceso externo por usuario asignada previamente a Ken Myer. Después de quitar la asignación de la directiva por usuario, se usará automáticamente la directiva global o la directiva del sitio local, si existe, para administrar a Ken Myer. La directiva de sitio tiene prioridad sobre la directiva global.
     
         Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy).
+</div>
+
+Para obtener más información, consulte el tema de ayuda para el cmdlet [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,45 @@
-﻿---
-title: "Requisitos de infraestructura de herramientas administrativas de Lync Server 2013"
-TOCTitle: "Conf. req. de l’infr. pour les outils d’adm. dans Lync Server 2013"
-ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg195766(v=OCS.15)
-ms:contentKeyID: 48276306
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: requisitos de infraestructura de herramientas administrativas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Administrative tools infrastructure requirements
+ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195766(v=OCS.15)
+ms:contentKeyID: 48185102
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe2c520bd8af46699f2499efcbcb5ef5a7142339
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34843016"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de infraestructura de herramientas administrativas de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="administrative-tools-infrastructure-requirements-in-lync-server-2013"></a>Requisitos de infraestructura de herramientas administrativas en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-27_
 
-No hay requisitos de infraestructura extra para instalar las herramientas administrativas de Microsoft Lync Server 2013 o realizar la mayoría de tareas de administración utilizando estas herramientas. Para los requisitos de infraestructura de situaciones específicas, consulte los temas de esta sección.
+No existen requisitos de infraestructura adicionales para instalar las herramientas administrativas de Microsoft Lync Server 2013 o para realizar la mayoría de las tareas de administración usando estas herramientas. Para conocer los requisitos de infraestructura de escenarios específicos, consulte los temas de esta sección.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Requisitos para publicar una topología en Lync Server 2013](lync-server-2013-requirements-to-publish-a-topology.md)
 
@@ -27,21 +49,39 @@ No hay requisitos de infraestructura extra para instalar las herramientas admini
 
   - [Editar o configurar direcciones URL sencillas en Lync Server 2013](lync-server-2013-edit-or-configure-simple-urls.md)
 
-## Secciones relacionadas
+</div>
 
-  - [Shell de administración de Lync Server](lync-server-2013-lync-server-management-shell.md)
+<div>
 
-## Vea también
+## <a name="related-sections"></a>Secciones relacionadas
 
-#### Tareas
+  - [Shell de administración de Lync Server 2013](lync-server-2013-lync-server-management-shell.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Instalar las herramientas administrativas de Lync Server 2013](lync-server-2013-install-lync-server-administrative-tools.md)  
 
-#### Conceptos
 
 [Requisitos de software para herramientas administrativas en Lync Server 2013](lync-server-2013-administrative-tools-software-requirements.md)  
 
-#### Otros recursos
 
-[Derechos de administrador y permisos requeridos para la instalación y la administración de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
+[Derechos de administrador y permisos requeridos para la instalación y la administración de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

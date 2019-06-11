@@ -1,93 +1,135 @@
-﻿---
-title: 'Apéndice B: Administrar una aplicación de sucursal con funciones de supervivencia'
-TOCTitle: 'Apéndice B: Administración de una aplicación de sucursal con funciones de supervivencia'
-ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425797(v=OCS.15)
-ms:contentKeyID: 48274809
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Apéndice B: Administración de una aplicación de sucursal con funciones de supervivencia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Appendix B: Managing a Survivable Branch Appliance'
+ms:assetid: 2ec9d505-6d39-491c-9524-8cf36866b855
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425797(v=OCS.15)
+ms:contentKeyID: 48183773
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e267f81327e9d1f49b81ab0d999c37c02da55b31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34843033"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Apéndice B: Administración de una aplicación de sucursal con funciones de supervivencia en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="appendix-b-managing-a-survivable-branch-appliance-in-lync-server-2013"></a>Apéndice B: Administración de una aplicación de sucursal con funciones de supervivencia en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-18_
 
-Este tema describe los procedimientos necesarios para administrar una Aplicación de sucursal con funciones de supervivencia: específicamente, el modo de reemplazar una Aplicación de sucursal con funciones de supervivencia y cambiarle el nombre, así como el modo de cambiar el grupo de servidores front-end de Lync Server 2013 al que la Aplicación de sucursal con funciones de supervivencia está asociada.
+En este tema se describen los procedimientos para administrar una aplicación de rama que sea superviviente. En concreto, cómo reemplazar y cambiar el nombre de un dispositivo de sucursal con la que se puede cambiar el nombre de la aplicación de Skype Server 2013 front end,
 
-## Reemplazar una aplicación de sucursal con funciones de supervivencia
+<div>
 
-1.  Detenga todos los servicios de Lync Server 2013 en la Aplicación de sucursal con funciones de supervivencia. (Consulte la documentación del proveedor de la Aplicación de sucursal con funciones de supervivencia.)
+## <a name="to-replace-a-survivable-branch-appliance"></a>Para reemplazar un dispositivo de sucursal con la supervivencia
 
-2.  (Recomendado) Quite la Aplicación de sucursal con funciones de supervivencia del dominio.
+1.  Detenga todos los servicios de Lync Server 2013 en el equipo con la sucursal que sea sobreviviente. (Consulte la documentación del proveedor de la aplicación de sucursales supervivientes).
 
-3.  Elimine el objeto de equipo de la Aplicación de sucursal con funciones de supervivencia en Servicios de dominio de Active Directory realizando los siguientes pasos:
+2.  Práctica Quite la aplicación de la rama superviviente del dominio.
+
+3.  Elimine el objeto de equipo de la aplicación de sucursal superviviente en servicios de dominio de Active Directory, siguiendo estos pasos:
     
-      - Inicie sesión en un servidor miembro como miembro del grupo Administradores de organización.
+      - Inicie sesión en un servidor miembro como miembro del grupo administradores de la empresa.
     
-      - Haga clic en **Inicio**, en **Herramientas administrativas** y, a continuación, en **Usuarios y equipos de Active Directory**.
+      - Haga clic en **Inicio**, seleccione **herramientas administrativas**y, a continuación, haga clic en **usuarios y equipos de Active**Directory.
     
-      - Haga clic con el botón secundario en el objeto de la Aplicación de sucursal con funciones de supervivencia y haga clic en **Eliminar**.
+      - Haga clic con el botón derecho en el objeto de equipo de rama superviviente y haga clic en **eliminar**.
 
-4.  Vuelva a agregar el objeto de equipo de la Aplicación de sucursal con funciones de supervivencia. Consulte para ello [Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory en Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md).
+4.  Vuelva a agregar el objeto de equipo de la aplicación de la aplicación superviviente. (Consulte [Agregar una aplicación de rama superviviente a Active Directory en Lync Server 2013](lync-server-2013-add-a-survivable-branch-appliance-to-active-directory.md)).
 
-5.  Espere a que se produzca la replicación de Active Directory.
+5.  Espere a que se lleve a cabo la replicación de Active Directory.
 
-6.  Abra el Shell de administración de Lync Server y escriba **Enable-CSTopology**.
+6.  Abra el shell de administración de Lync Server y escriba **enable-CSTopology**.
 
-7.  Conecte la nueva Aplicación de sucursal con funciones de supervivencia a la red y siga los pasos descritos en [Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia - Tareas de sitio central con Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) y en [Implementar una aplicación o servidor de sucursal con funciones de supervivencia con Lync Server 2013 - Tarea en el sitio de sucursal](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
+7.  Conecte el nuevo dispositivo de sucursal superviviente a la red y siga los pasos que se indican en [implementación de un dispositivo o servidor de rama con la supervivencia con Lync server 2013-tareas de sitio central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) e [implementación de un equipo o servidor de sucursal que sea Reviviente con Lync Server 2013- tarea de sitio de sucursal](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
 
-## Cambiar el nombre de una aplicación de sucursal con funciones de supervivencia
+</div>
 
-1.  Mueva los usuarios a un sitio central. Si desea información detallada, vea [Mover usuarios a otro grupo en Lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
+<div>
 
-2.  Detenga todos los servicios de Lync Server 2013 en la Aplicación de sucursal con funciones de supervivencia. (Consulte la documentación del proveedor de la Aplicación de sucursal con funciones de supervivencia.)
+## <a name="to-rename-a-survivable-branch-appliance"></a>Para cambiar el nombre de un equipo de sucursal con la supervivencia
 
-3.  Quite la Aplicación de sucursal con funciones de supervivencia de la topología realizando los siguientes pasos:
+1.  Mover usuarios al sitio central. Para obtener más información, vea [mover usuarios a otro grupo en Lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
+
+2.  Detenga todos los servicios de Lync Server 2013 en el equipo con la sucursal que sea sobreviviente. (Consulte la documentación del proveedor de la aplicación de sucursales supervivientes).
+
+3.  Para quitar la rama superviviente de la topología, siga estos pasos:
     
-      - Haga clic sucesivamente en **Inicio**, **Todos los programas**, **Microsoft Lync Server** y **Generador de topologías de Lync Server**.
+      - Haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server**y, a continuación, haga clic en **generador de topología de Lync Server**.
     
-      - En el árbol de la consola, expanda **Sitios de sucursal**, haga clic en la Aplicación de sucursal con funciones de supervivencia y después haga clic en **Eliminar** en el panel de acciones.
+      - En el árbol de consola, expanda **sitios de sucursales**, haga clic en el dispositivo de rama superviviente y, a continuación, haga clic en **eliminar** en el panel de acciones.
 
-4.  Quite la Aplicación de sucursal con funciones de supervivencia del dominio.
+4.  Quite la aplicación de la rama superviviente del dominio.
 
-5.  Elimine el objeto de equipo de la Aplicación de sucursal con funciones de supervivencia en Active Directory realizando los siguientes pasos:
+5.  Elimine el objeto de equipo de la aplicación de la aplicación superviviente en Active Directory, siguiendo estos pasos:
     
-      - Inicie sesión en un controlador de dominio como miembro del grupo Administradores de organización.
+      - Inicie sesión en un controlador de dominio como miembro del grupo administradores de la empresa.
     
-      - Haga clic en **Inicio**, en **Herramientas administrativas** y, a continuación, en **Usuarios y equipos de Active Directory**.
+      - Haga clic en **Inicio**, seleccione **herramientas administrativas**y, a continuación, haga clic en **usuarios y equipos de Active**Directory.
     
-      - Haga clic con el botón secundario en el objeto de la Aplicación de sucursal con funciones de supervivencia y haga clic en **Eliminar**.
+      - Haga clic con el botón derecho en el objeto de equipo de rama superviviente y haga clic en **eliminar**.
 
-6.  Restaure Aplicación de sucursal con funciones de supervivencia a los valores de fábrica predeterminados (consulte la documentación del proveedor de la aplicación de sucursal con funciones de supervivencia)
+6.  Restaura los valores predeterminados de fábrica de la aplicación de rama que es superviviente. (Consulte la documentación del proveedor de la aplicación de sucursales supervivientes).
 
-7.  Siga los pasos descritos en [Implementación de una aplicación o un servidor de sucursal con funciones de supervivencia - Tareas de sitio central con Lync Server 2013](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) y en [Implementar una aplicación o servidor de sucursal con funciones de supervivencia con Lync Server 2013 - Tarea en el sitio de sucursal](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
+7.  Siga los pasos que se indican en [implementar un dispositivo o servidor de sucursal que sea reviviente con Lync server 2013-tareas de sitio central](lync-server-2013-deploying-a-survivable-branch-appliance-or-server-central-site-tasks.md) e [implementar un equipo o servidor de rama con la supervivencia con Lync Server 2013-tarea de sitio de rama](lync-server-2013-deploy-a-survivable-branch-appliance-or-server-branch-site-task.md).
 
-8.  Mueva los usuarios a la Aplicación de sucursal con funciones de supervivencia con el nuevo nombre. Para más información, consulte [Mover usuarios a otro grupo en Lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
+8.  Mueva a los usuarios al equipo de rama con el nombre cambiado. Para obtener más información, vea [mover usuarios a otro grupo en Lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
 
-## Cambiar el grupo de servidores front-end de Lync Server al que la aplicación de sucursal con funciones de supervivencia está asociada
+</div>
 
-1.  Mueva los usuarios de la Aplicación de sucursal con funciones de supervivencia al grupo de servidores front-end de Lync Server en un sitio central. Para más información, consulte [Mover usuarios a otro grupo en Lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
+<div>
 
-2.  Detenga todos los servicios de Lync Server en la Aplicación de sucursal con funciones de supervivencia. (Consulte la documentación del proveedor de la Aplicación de sucursal con funciones de supervivencia.)
+## <a name="to-change-the-lync-server-front-end-pool-that-the-survivable-branch-appliance-is-associated-with"></a>Para cambiar el grupo de servidores front-end de Lync Server al que está asociado el equipo con la rama superviviente
 
-3.  Actualice el grupo de servidores front-end de Lync Server al que la Aplicación de sucursal con funciones de supervivencia está asociado realizando los siguientes pasos:
+1.  Mueva los usuarios de la aplicación de rama superviviente al grupo de servidores front end de Lync Server en el sitio central. Para obtener más información, vea [mover usuarios a otro grupo en Lync Server 2013](lync-server-2013-move-users-to-another-pool.md).
+
+2.  Detenga todos los servicios de Lync Server en el equipo con la sucursal que sea sobreviviente. (Consulte la documentación del proveedor de la aplicación de sucursales supervivientes).
+
+3.  Actualice el grupo de servidores front-end de Lync Server al que está asociado el equipo con la rama superviviente, siguiendo estos pasos:
     
-      - Haga clic sucesivamente en **Inicio**, **Todos los programas**, **Microsoft Lync Server** y **Generador de topologías de Lync Server**.
+      - Haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server**y, a continuación, haga clic en **generador de topología de Lync Server**.
     
-      - Expanda **Sitios de sucursal**.
+      - Expanda **sitios de sucursales**.
     
-      - Haga clic con el botón secundario en el objeto para modificar Aplicación de sucursal con funciones de supervivencia y, a continuación, haga clic en **Editar propiedades**.
+      - Haga clic con el botón derecho en el objeto de dispositivo de rama superviviente que desee modificar y haga clic en **Editar propiedades** .
     
-      - En Resistencia, seleccione el nuevo Grupo de servidores front-end con el que deba asociarse el Aplicación de sucursal con funciones de supervivencia y, a continuación, haga clic en **Siguiente**.
+      - En resistencia, seleccione el nuevo grupo de servidores front-end al que se va a asociar el equipo con la rama superviviente y, a continuación, haga clic en **siguiente**.
     
-      - En el árbol de la consola, haga clic con el botón secundario en la nueva Aplicación de sucursal con funciones de supervivencia, haga clic en **Topología** y después en **Publicar**.
+      - En el árbol de consola, haga clic con el botón secundario en el nuevo dispositivo de sucursal con el que se hace clic en **topología**y luego en **publicar**.
 
-4.  Reinicie todos los servicios de Lync Server en la Aplicación de sucursal con funciones de supervivencia.
+4.  Reinicie todos los servicios de Lync Server en el equipo con la sucursal que sea sobreviviente.
 
-5.  Pruebe la Aplicación de sucursal con funciones de supervivencia. Para información detallada, consulte [Usuarios particulares en una aplicación o un servidor de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
+5.  Prueba la aplicación de la sucursal con supervivencia. Para obtener más información, consulte [usuarios domésticos en un equipo o servidor de sucursal con la supervivencia en Lync Server 2013](lync-server-2013-home-users-on-a-survivable-branch-appliance-or-server.md).
 
-6.  Mueva los usuarios del grupo de servidores front-end de Lync Server en el sitio central a la Aplicación de sucursal con funciones de supervivencia.
+6.  Mueva los usuarios del grupo de servidores front-end de Lync Server en el sitio central a la aplicación de rama superviviente.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

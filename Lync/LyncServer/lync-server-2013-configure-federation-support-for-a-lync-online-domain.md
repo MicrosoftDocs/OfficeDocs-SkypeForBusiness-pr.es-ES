@@ -1,61 +1,101 @@
-﻿---
-title: Configurar compatibilidad de federación para un dominio de Lync Online
-TOCTitle: Configurar compatibilidad de federación para un dominio de Lync Online
-ms:assetid: 19d5d5be-cd7f-47b8-b6c5-651a3191def7
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202166(v=OCS.15)
-ms:contentKeyID: 48274580
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configurar la compatibilidad de Federación para un dominio de Lync Online'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure federation support for a Lync Online domain
+ms:assetid: 19d5d5be-cd7f-47b8-b6c5-651a3191def7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202166(v=OCS.15)
+ms:contentKeyID: 48183530
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9d7568e3e93850301a0c37fc73ae44cf4f5a84dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842376"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar compatibilidad de federación para un dominio de Lync Online
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-federation-support-for-a-lync-online-domain-in-lync-server-2013"></a>Configurar la compatibilidad de Federación para un dominio de Lync Online en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-01_
 
-Para federar con un cliente de Microsoft Lync Online 2010, se deben seguir estos pasos:
+La Federación con un cliente de Microsoft Lync Online 2010 requiere que complete los pasos siguientes:
 
-  - Configurar compatibilidad para el dominio del cliente de Lync Online 2010 (por ejemplo, contoso.onmicrosoft.com). Tal como se especificó en la sección [Requisitos previos para federar con un cliente de Lync Online](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) de esta documentación, ya debe haber habilitado la federación para su organización. Para ello, se debe especificar el método que se usará para controlar el acceso por dominios federados. Si configuró su organización para que use detección, es opcional agregar el dominio a la lista permitida de su organización. Si no habilitó la detección de dominio, debe agregar el nombre de dominio del cliente de Lync Online a su lista de dominios permitidos. Puede agregar un nombre de dominio mediante Panel de control de Lync Server o mediante la ejecución del cmdlet de **New-CSAllowedDomain**. Para obtener información sobre el uso de Panel de control de Lync Server, incluido cómo habilitar la detección de dominios, consulte [Administrar proveedores federados SIP para la organización en Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) en la documentación sobre operaciones. Para obtener información sobre el uso del cmdlet de **New-CSAllowedDomain** para agregar un dominio, vea [New-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAllowedDomain) en la documentación sobre operaciones.
+  - Configure la compatibilidad del dominio del cliente de Lync Online 2010 (por ejemplo, contoso.onmicrosoft.com). Según se especifica en la sección [requisitos previos para federar con un cliente de Lync Online en Lync Server 2013](lync-server-2013-prerequisites-for-federating-with-a-lync-online-customer.md) de esta documentación, debe haber habilitado la Federación de su organización. Habilitar la Federación requiere especificar el método que se va a usar para controlar el acceso de los dominios federados. Si ha configurado su organización para usar la detección, agregar el dominio a la lista de permitidos de la organización es opcional. Si no ha habilitado la detección de dominios, debe agregar el nombre de dominio del cliente de Lync Online a la lista de dominios permitidos. Puede Agregar un nombre de dominio con el panel de control de Lync Server o ejecutando el cmdlet **New-CSAllowedDomain** . Para obtener detalles sobre el uso del panel de control de Lync Server, incluido el descubrimiento de dominios, consulte [administrar proveedores federados SIP para su organización en Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) en la documentación de operaciones. Para obtener más información sobre cómo usar el cmdlet **New-CSAllowedDomain** para agregar un dominio, vea [New-CSAllowedDomain](https://docs.microsoft.com/powershell/module/skype/New-CsAllowedDomain) en la documentación de operaciones.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Un cliente de Lync Online puede tener varios dominios. Si desea federar con más de uno de los dominios, debe configurar la compatibilidad para cada dominio individual con el que desea admitir la federación, y el administrador del cliente de Lync Online debe habilitar la federación para cada uno de los dominios que se van a federar.
+    > [!NOTE]  
+    > Un cliente de Lync Online puede tener varios dominios. Si desea federar con más de uno de los dominios, debe configurar la compatibilidad para cada dominio con el que desee admitir la Federación, y el administrador del cliente de Lync Online debe habilitar la Federación de cada uno de los dominios que se van a federar.
 
+    
+    </div>
 
-
-  - Configure la compatibilidad para el proveedor de hospedaje del dominio de cliente de Lync Online 2010 con el que desea federar. Use el procedimiento de esta sección para configurar la compatibilidad para el proveedor de hospedaje.
+  - Configure la compatibilidad para el proveedor de hospedaje del dominio de cliente de Lync Online 2010 con el que desea federar. Use el procedimiento de esta sección para configurar la compatibilidad con el proveedor de hospedaje.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Este paso es necesario solamente para federación con un dominio de un cliente de Lync Online, no para federación con cualquier dominio que se implementa localmente en la ubicación de un socio federado.
+    > [!NOTE]  
+    > Este paso solo es necesario para la Federación con un dominio de un cliente de Lync Online, no para la Federación con cualquier dominio que se implemente localmente en la ubicación de un socio federado.
 
+    
+    </div>
 
+<div>
 
-## Para configurar compatibilidad para un proveedor de hospedaje
+## <a name="to-configure-support-for-a-hosting-provider"></a>Para configurar la compatibilidad con un proveedor de hospedaje
 
-1.  Desde un Servidor front-end, Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+1.  Desde un servidor front-end, inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
 
-2.  Ejecute el cmdlet de **New-CsHostingProvider** para crear y configurar el proveedor de hospedaje. Por ejemplo, ejecute:
+2.  Ejecute el cmdlet **New-CsHostingProvider** para crear y configurar el proveedor de hospedaje. Por ejemplo, ejecute lo siguiente:
     
         New-CsHostingProvider -Identity LyncOnline -ProxyFqdn "sipfed.online.lync.com" -VerificationLevel UseSourceVerification -Enabled $True -EnabledSharedAddressSpace $False -HostsOCSUsers $False -IsLocal $False
     
     En el ejemplo anterior se definen los parámetros siguientes:
     
-      - **Identity** especifica un identificador de valor de cadena único para el proveedor de hospedaje que va a crear. Tenga en cuenta que el comando no se completará correctamente si ya se ha configurado un proveedor existente con dicho valor de Identity.
+      - **Identity** especifica un identificador de valor de cadena único para el proveedor de hospedaje que está creando. Tenga en cuenta que el comando no se completará correctamente si ya se ha configurado un proveedor con dicho valor de Identity.
     
-      - **ProxyFQDN** especifica el nombre de dominio completo (FQDN) para el servidor proxy que usa el proveedor de hospedaje. Este valor no puede modificarse. Si el proveedor de hospedaje cambia de servidor proxy, usted tendrá que eliminar y volver a crear la entrada de dicho proveedor.
+      - **ProxyFQDN** especifica el nombre de dominio completo (FQDN) para el servidor proxy usado por el proveedor de hospedaje. Este valor no puede modificarse. Si el proveedor de hospedaje cambia de servidor proxy, tendrá que eliminar y volver a crear la entrada de dicho proveedor.
     
-      - **VerificationLevel** indica de qué manera se comprueban (y si se comprueban) los mensajes enviados desde un proveedor de hospedaje para asegurar que se enviaron realmente desde dicho proveedor.
+      - **VerificationLevel** especifica cómo (o si) se comprueban los mensajes enviados desde un proveedor de hospedaje para asegurarse de que se han enviado desde ese proveedor.
     
-      - **Enabled** indica si la conexión de red entre el dominio y el proveedor de hospedaje está habilitada. No se pueden intercambiar mensajes entre ambas organizaciones hasta que este valor se configure como **True**.
+      - **Habilitada ** indica si la conexión de red entre el dominio y el proveedor de hospedaje está habilitada. No se pueden intercambiar mensajes entre ambas organizaciones hasta que este valor se configure como **True **.
     
-      - **EnabledSharedAddressSpace** indica si el proveedor de hospedaje se está usando en una situación de espacio de direcciones SIP compartido (dominio dividido).
+      - **EnabledSharedAddressSpace ** indica si el proveedor de hospedaje se está usando en un escenario de espacio de direcciones SIP compartido (dominio dividido).
     
-      - **HostsOCSUsers** indica si se usará el proveedor de hospedaje para hospedar las cuentas de Lync Server. Si es **False**, el proveedor hospeda otros tipos de cuenta como, por ejemplo, cuentas de Microsoft Exchange.
+      - **HostsOCSUsers** indica si el proveedor de hospedaje se usa para hospedar cuentas de Lync Server. Si es **False **, el proveedor hospeda otros tipos de cuenta como, por ejemplo, cuentas de Microsoft Exchange.
     
-      - **IsLocal** indica si el servidor proxy utilizado por el proveedor de hospedaje está contenido dentro de su topología de Lync Server.
+      - **IsLocal** indica si el servidor proxy usado por el proveedor de hospedaje está incluido en la topología de Lync Server.
     
-    Para obtener información sobre el uso de este cmdlet, vea [New-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsHostingProvider) en la documentación sobre operaciones.
+    Para obtener más información sobre el uso de este cmdlet, vea [New-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/New-CsHostingProvider) en la documentación de operaciones.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

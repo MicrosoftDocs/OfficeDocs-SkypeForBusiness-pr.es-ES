@@ -1,34 +1,65 @@
-﻿---
-title: 'Lync Server 2013: Planificar la capacidad para el grupo de respuesta'
-TOCTitle: Planificar la capacidad para el grupo de respuesta
-ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412754(v=OCS.15)
-ms:contentKeyID: 48276175
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planificar la capacidad para el grupo de respuesta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Response Group
+ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412754(v=OCS.15)
+ms:contentKeyID: 48184951
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 72f3e49806dc573a4e17bc917834deba97a74ca2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842671"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planificar la capacidad para el grupo de respuesta en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="capacity-planning-for-response-group-in-lync-server-2013"></a>Planificar la capacidad para el grupo de respuesta en Lync Server 2013
 
-En la siguiente tabla se describe el modelo de usuario de Grupo de respuesta que puede usar como base para los requisitos de planeación de la capacidad.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-29_
+
+<div id="sectionSection0" class="section">
+
+En la siguiente tabla se describe el modelo de usuario de grupo de respuesta que puede usar como base para los requisitos de planes de capacidad.
+
+<div>
 
 
-> [!NOTE]
-> En los números de la tabla siguiente se presupone que usa archivos wave mono de 16 bits a 16 kHz (.wav) para todos los archivos de audio de grupo de respuesta. Si usa otros formatos de archivo, como Windows Media Audio (.wma), los números pueden variar.
+> [!NOTE]  
+> En las cantidades de la tabla siguiente se presupone que usas archivos wave (.wav) mono de 16 bits a 16 kHz para todos los archivos de audio del grupo de respuesta. Si usas otros formatos de archivo, como audio de Windows Media (.wma), las cantidades pueden variar.
 
+
+
+</div>
+
+<div>
 
 
 > [!IMPORTANT]  
-> Tenga en cuenta que, para planear la capacidad de recuperación ante desastres, cada grupo de servidores de un grupo formado en par debe poder administrar las cargas de trabajo para todos los grupos de respuesta en ambos grupos.
+> Ten en cuenta que, para planificar la capacidad de la recuperación ante desastres, cada grupo de un grupo emparejado necesita poder gestionar las cargas de trabajo para todos los grupos de respuesta en ambos grupos.
 
 
 
-### Modelo de usuario de grupo de respuesta
+</div>
+
+### <a name="response-group-user-model"></a>Modelo de usuario del grupo de respuesta
 
 <table>
 <colgroup>
@@ -39,46 +70,59 @@ En la siguiente tabla se describe el modelo de usuario de Grupo de respuesta que
 <thead>
 <tr class="header">
 <th>Métrica</th>
-<th>Por grupo de servidores Enterprise Edition (con 8 servidores front-end)</th>
+<th>Por grupo de servidores Enterprise (con 8 servidores front-end)</th>
 <th>Por servidor Standard Edition</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Llamadas entrantes por segundo</p></td>
-<td><p>16</p></td>
+<td><p>apartado</p></td>
 <td><p>2</p></td>
 </tr>
 <tr class="even">
-<td><p>Llamadas simultáneas conectadas a la respuesta interactiva de voz (IVR) o música en espera</p></td>
+<td><p>Llamadas simultáneas conectadas a IVR o a la música en espera</p></td>
 <td><p>480</p></td>
 <td><p>60</p></td>
 </tr>
 <tr class="odd">
-<td><p>Sesiones anónimas simultáneas (sin mensajería instantánea)</p></td>
+<td><p>Sesiones anónimas simultáneas (sin MI)</p></td>
 <td><p>224</p></td>
-<td><p>28</p></td>
+<td><p>apartado</p></td>
 </tr>
 <tr class="even">
-<td><p>Sesiones anónimas simultáneas (con mensajería instantánea)</p></td>
+<td><p>Sesiones anónimas simultáneas (con MI)</p></td>
 <td><p>64</p></td>
-<td><p>8</p></td>
+<td><p>4,8</p></td>
 </tr>
 <tr class="odd">
-<td><p>Agentes activos (formal e informal).</p></td>
+<td><p>Agentes activos (formales e informales)</p></td>
 <td><p>1200</p></td>
 <td><p>1200</p></td>
 </tr>
 <tr class="even">
-<td><p>Número de grupos de búsqueda</p></td>
+<td><p>Cantidad de grupos de extensiones</p></td>
 <td><p>400</p></td>
 <td><p>400</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de grupos de IVR (uso del reconocimiento de voz)</p></td>
+<td><p>Cantidad de grupos de IVR (uso del reconocimiento de voz)</p></td>
 <td><p>200</p></td>
 <td><p>200</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

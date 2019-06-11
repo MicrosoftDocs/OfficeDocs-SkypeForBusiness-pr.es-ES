@@ -1,232 +1,245 @@
-﻿---
-title: Configurar rutas de federación y tráfico multimedia
-TOCTitle: Configurar rutas de federación y tráfico multimedia
-ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721925(v=OCS.15)
-ms:contentKeyID: 49889801
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Configurar rutas de federación y tráfico multimedia
+title: Configurar las rutas de federación y el tráfico multimedia
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure federation routes and media traffic
+ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721925(v=OCS.15)
+ms:contentKeyID: 49733860
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4542ae02cc72dfbac05dfa982e2fbda7f2924919
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842784"
+---
+# <a name="configure-federation-routes-and-media-traffic"></a>Configurar las rutas de federación y el tráfico multimedia
 
  
 
-_**Última modificación del tema:** 2016-12-08_
 
-La federación es una relación de confianza entre dos o más dominios SIP que permite a los usuarios de organizaciones independientes comunicarse a través de los límites de las redes. Tras migrar al grupo de servidores piloto de Lync Server 2013, debe realizar la transición de la ruta de federación de los servidores perimetrales de Microsoft Office Communications Server 2007 R2 a la ruta de federación de los servidores perimetrales de Lync Server 2013.
+La Federación es una relación de confianza entre dos o más dominios SIP que permite a los usuarios de organizaciones independientes comunicarse a través de los límites de la red. Después de migrar a su grupo piloto de Lync Server 2013, tendrá que realizar una transición de la ruta de Federación de los servidores perimetrales de Microsoft Office Communications Server 2007 R2 a la ruta de Federación de sus servidores perimetrales de Lync Server 2013.
 
-Utilice los procedimientos que se describen a continuación para realizar la transición de la ruta de federación y la ruta de tráfico de medios del servidor perimetral y el director de Office Communications Server 2007 R2 al servidor perimetral de Lync Server 2013, para una implementación en un único sitio.
-
-> [!IMPORTANT]  
-> Para cambiar la ruta de federación y la ruta de tráfico de medios, debe programar el tiempo de inactividad por mantenimiento para los servidores perimetrales de Lync Server 2013 y Office Communications Server 2007 R2. Este proceso de transición también implica que el acceso federado no estará disponible durante la interrupción. Debe programar el tiempo de inactividad para un período en el que se prevé una actividad mínima de los usuarios. También debe notificar esta acción a los usuarios finales con antelación suficiente. Planee esta interrupción como corresponda y defina las expectativas adecuadas en la organización.
-
+Use los procedimientos que se describen a continuación para realizar la transición de la ruta de Federación y la ruta de tráfico multimedia desde el servidor perimetral de Office Communications Server 2007 R2 y el director a su servidor perimetral de Lync Server 2013, para una implementación de un solo sitio.
 
 
 > [!IMPORTANT]  
-> > Si el servidor perimetral heredado de Office Communications Server 2007 R2 se configuró para utilizar el mismo FQDN para el servicio perimetral de acceso, el servicio perimetral de conferencia web y el servicio perimetral A/V, no se admiten los procedimientos de esta sección para realizar la transición de la configuración de federación a un servidor perimetral de Lync Server 2013. Si los servicios perimetrales heredados se configuraron para utilizar el mismo FQDN, primero debe migrar todos los usuarios de Office Communications Server 2007 R2 a Lync Server 2013 y, posteriormente, retirar el servidor perimetral de Office Communications Server 2007 R2 antes de habilitar la federación en el servidor perimetral de Lync Server 2013. Para obtener más información, consulte los temas siguientes:
-> <ul>
-> <li><p><a href="move-remaining-users-to-lync-server-2013_1.md">Mover el resto de usuarios a Lync Server 2013</a></p></li>
-> <li><p>&quot;Quitar servidores y roles de servidor&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=268790%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=268790&amp;clcid=0xC0A</a></p></li>
-> </ul>
+> Cambiar la ruta de Federación y la ruta del tráfico multimedia requiere que programe el tiempo de mantenimiento de los servidores perimetrales de Lync Server 2013 y de Office Communications Server 2007 R2. Todo este proceso de transición también significa que el acceso federado no estará disponible durante la interrupción. Debe programar el tiempo de inactividad para una hora en la que espera una actividad mínima de usuario. También debe proporcionar una notificación suficiente a los usuarios finales. Planee en consecuencia para esta interrupción y establezca las expectativas apropiadas dentro de su organización.
+
+
 
 
 > [!IMPORTANT]  
-> Si su federación XMPP se enruta mediante un servidor perimetral de Lync Server 2013, los usuarios del Office Communications Server 2007 R2 heredado no podrán comunicarse con el socio federado XMPP hasta que todos los usuarios se hayan trasladado a Lync Server 2013, se hayan configurado los certificados y las directivas de XMPP, se haya configurado el socio federado XMPP en Lync Server 2013 y, por último, se hayan actualizado las entradas de DNS.
+> Si el servidor perimetral de Office Communications Server 2007 R2 heredado está configurado para usar el mismo FQDN para el servicio perimetral de acceso, el servicio perimetral de conferencia web y el servicio perimetral a/V, los procedimientos de esta sección para realizar la transición de la configuración de Federación a un servidor de Lync 2013 servidor perimetral no es compatible. Si los servicios perimetrales heredados están configurados para usar el mismo FQDN, primero debe migrar todos los usuarios de Office Communications Server 2007 R2 a Lync Server 2013 y, después, retirar el servidor perimetral de Office Communications Server 2007 R2 antes de habilitar la Federación en Servidor perimetral 2013 de Lync Server. Para obtener más información, consulte los temas siguientes: 
+> <UL>
+> <LI>
+> <P><A href="move-remaining-users-to-lync-server-2013_1.md">Mover los usuarios restantes a Lync Server 2013</A></P>
+> <LI>
+> <P>"Quitar los servidores y roles de servidor" en<A href="http://go.microsoft.com/fwlink/p/?linkid=268790">http://go.microsoft.com/fwlink/p/?LinkId=268790</A></P></LI></UL>
 
 
 
-Para publicar, habilitar o deshabilitar una topología correctamente al agregar o quitar un rol de servidor, debe haber iniciado sesión como un usuario que sea miembro de los grupos RTCUniversalServerAdmins y Admins. del dominio. También es posible delegar los derechos y permisos de usuario apropiados para agregar roles de servidor. Para obtener más información, consulte [Delegar permisos de instalación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) en la documentación referente a la implementación del servidor Standard Edition o del servidor Enterprise Edition. Para otros cambios de configuración, únicamente se necesita ser miembro del grupo RTCUniversalServerAdmins.
 
-## Para quitar la asociación de federación heredada de los sitios de Lync Server 2013
+> [!IMPORTANT]  
+> Si la Federación de XMPP se enruta a través de un servidor perimetral de Lync Server 2013, los usuarios heredados de Office Communications Server 2007 R2 no podrán comunicarse con el socio de XMPP federado hasta que todos los usuarios hayan movido a Lync Server 2013, directivas XMPP y se han configurado certificados, el socio XMPP federado se ha configurado en Lync Server 2013 y, por último, se han actualizado las entradas DNS.
 
-1.  Abra la topología del grupo piloto en Generador de topologías.
 
-2.  En el panel izquierdo, vaya al nodo del sitio.
 
-3.  Haga clic con el botón secundario en el sitio y, a continuación, haga clic en **Editar propiedades** .
+Para publicar, habilitar o deshabilitar correctamente una topología al agregar o quitar un rol de servidor, debe haber iniciado sesión como un usuario que sea miembro de los grupos administradores de dominio y RTCUniversalServerAdmins. También es posible delegar los derechos de usuario y permisos adecuados para agregar roles de servidor. Para obtener más información, consulte [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md) en la documentación de implementación de servidor Standard Edition o Enterprise Edition. Para otros cambios de configuración, solo es necesario pertenecer al grupo RTCUniversalServerAdmins.
 
-4.  Seleccione **Ruta de federación** en el panel izquierdo.
+## <a name="to-remove-the-legacy-federation-association-from-lync-server-2013-sites"></a>Para quitar la Asociación de Federación heredada de sitios de 2013 de Lync Server
 
-5.  En Asignación de ruta de federación del sitio, desactive la casilla de verificación situada junto a **Habilitar federación SIP** para deshabilitar la ruta de federación mediante **BackCompatSite**.
+1.  Abra la topología de la agrupación piloto con el generador de topología.
+
+2.  En el panel de la izquierda, vaya al nodo del sitio.
+
+3.  Haga clic con el botón secundario en el sitio y luego haga clic en **Editar propiedades**.
+
+4.  Seleccione **ruta de Federación** en el panel de la izquierda.
+
+5.  En asignación de enrutamiento de Federación de sitios, desactive la casilla situada junto a **Habilitar la Federación SIP** para deshabilitar la ruta de Federación a través de la **BackCompatSite**.
     
-    ![Cuadro de diálogo Editar propiedades, ruta de federación](images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Cuadro de diálogo Editar propiedades, ruta de federación")
+    ![Editar propiedades, ruta de Federación] (images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Editar propiedades, ruta de Federación")
 
 6.  Haga clic en **Aceptar** para cerrar la página Editar propiedades.
 
-7.  En **Generador de topologías**, seleccione el nodo en primera posición **Lync Server**.
+7.  En el **generador**de topologías, seleccione el nodo de nivel superior de **Lync Server**.
 
-8.  En el menú **Acción** , haga clic en **Publicar topología** y complete el asistente.
+8.  En el menú **acción** , haga clic en **publicar topología** y complete el asistente.
 
-## Para configurar el servidor perimetral heredado como servidor perimetral no federado
+## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Para configurar el servidor perimetral heredado como servidor perimetral de no Federación
 
-1.  En **Generador de topologías** , en el menú **Acción** , haga clic en **Combinar la topología de Office Communications Server 2007 R2** .
+1.  Desde el **generador**de topologías, en el menú **acción** haga clic en **combinar topología de Office Communications Server 2007 R2**.
 
 2.  Haga clic en **Siguiente** para continuar.
 
-3.  En **Especificar configuración perimetral** , seleccione el **FQDN interno del servidor perimetral** que actualmente está configurado para la federación y, a continuación, haga clic en **Cambiar** .
+3.  En la **configuración de especificar Edge**, seleccione el **FQDN interno del servidor perimetral** que está configurado actualmente para la Federación y, a continuación, haga clic en **cambiar**.
     
-    ![Combinar la topología OCS 2007 R2, especificar la configuración perimetral](images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "Combinar la topología OCS 2007 R2, especificar la configuración perimetral")
+    ![Combinar OCS 2007 R2 Topology, especificar configuración perimetral] (images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "Combinar OCS 2007 R2 Topology, especificar configuración perimetral")
 
-4.  Haga clic en **Siguiente** y acepte los valores predeterminados hasta llegar a la página **Especificar perímetro externo** :
+4.  Haga clic en **siguiente** y acepte la configuración predeterminada hasta llegar a la página **especificar borde externo** :
     
-    ![Página Especificar perímetro externo del Generador de topologías](images/JJ205243.32e97ce5-92f0-477e-8125-5d2ece237b13(OCS.15).jpg "Página Especificar perímetro externo del Generador de topologías")
+    El ![generador de topología especifica la página de borde externo] El (images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "generador de topología especifica la página de borde externo")
 
-5.  En **Especificar perímetro externo** , desactive la casilla **Este grupo de servidores perimetrales se usa para federación y conectividad de mensajería instantánea pública** . Se quitará la asociación de federación con BackCompatSite.
+5.  En **especificar borde externo**, desactive la casilla **este grupo perimetral se usa para la Federación y la conectividad de mensajería instantánea pública** . Esto quitará la Asociación de Federación con el BackCompatSite.
     
+
     > [!IMPORTANT]  
-    > Este paso es importante. Debe desactivar esta opción para quitar la asociación de federación heredada.
+    > Este paso es importante. Debe desactivar esta opción para quitar la Asociación de Federación heredada.
+
+
+
+6.  Haga clic en **siguiente** y acepte la configuración predeterminada de las páginas restantes del asistente.
+
+7.  En **Resumen**, haga clic en **siguiente** para empezar a combinar las topologías.
+
+8.  En la columna **Estado** , compruebe que el valor es **correcto**y, a continuación, haga clic en **Finalizar** para cerrar el asistente.
+
+9.  En el menú **acción** , seleccione **publicar topología**y, a continuación, haga clic en **siguiente**.
+
+10. Cuando finalice el Asistente para la **publicación** , haga clic en **Finalizar** para cerrar el asistente.
     
-
-
-6.  Haga clic en **Siguiente** y acepte los valores predeterminados de las demás páginas del asistente.
-
-7.  En **Resumen** , haga clic en **Siguiente** para comenzar a combinar topologías.
-
-8.  En la columna **Estado** , compruebe que el valor sea **Correcto** y, a continuación, haga clic en **Finalizar** para cerrar el asistente.
-
-9.  En el menú **Acción** , seleccione **Publicar topología** y, a continuación, haga clic en **Siguiente** .
-
-10. Cuando el **Asistente para publicación** haya finalizado, haga clic en **Finalizar** para cerrar el asistente.
+    ![Generador de topología con sitio que se muestra después de la combinación] (images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Generador de topología con sitio que se muestra después de la combinación")
     
-    ![Generador de topologías con un sitio después de la combinación](images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Generador de topologías con un sitio después de la combinación")
-    
-    Como se muestra en la figura anterior, la **federación SIP** ubicada en **Asignación de ruta de federación del sitio** está definida en **Deshabilitado**.
+    Tal como se muestra en la ilustración anterior, la **Federación SIP** , ubicada en asignación de la **ruta de Federación de sitios** , se establece en deshabilitado. ****
 
-## Para configurar certificados en el servidor perimetral de Lync Server 2013
+## <a name="to-configure-certificates-on-the-lync-server-2013-edge-server"></a>Para configurar certificados en el servidor perimetral de Lync Server 2013
 
-1.  Exporte el certificado externo del servidor proxy de acceso, con la clave privada, desde el servidor perimetral de Office Communications Server 2007 R2 heredado.
+1.  Exporte el certificado del proxy de acceso externo, con la clave privada, desde el servidor perimetral de Office Communications Server 2007 R2 heredado.
 
-2.  En el servidor perimetral de Lync Server 2013, importe el certificado externo del servidor proxy de acceso del paso anterior.
+2.  En el servidor perimetral de Lync Server 2013, importe el certificado externo del proxy de acceso del paso anterior.
 
-3.  Asigne el certificado externo del servidor proxy de acceso a la interfaz externa de Lync Server 2013 del servidor perimetral.
+3.  Asigne el certificado externo del proxy de acceso a la interfaz externa de Lync Server 2013 del servidor perimetral.
 
-4.  No se debe modificar el certificado de la interfaz interna del servidor perimetral de Lync Server 2013.
+4.  El certificado de interfaz interno del servidor perimetral de Lync Server 2013 no debe cambiarse.
 
-## Para cambiar la ruta de federación de Office Communications Server 2007 R2 para que use el servidor perimetral de Lync Server 2013
+## <a name="to-change-office-communications-server-2007-r2-federation-route-to-use-lync-server-2013-edge-server"></a>Para cambiar la ruta de Federación de Office Communications Server 2007 R2 para usar Lync Server 2013 Edge Server
 
-1.  En el Office Communications Server 2007 R2Servidor Standard Edition o Servidor front-end, abra la herramienta administrativa de Office Communications Server 2007 R2.
+1.  En el servidor de Office Communications Server 2007 R2 Standard Edition o el servidor front-end, abra la herramienta administrativa de Office Communications Server 2007 R2.
 
-2.  En el panel izquierdo, expanda el nodo en primera posición y, a continuación, haga clic con el botón secundario en el nodo **Bosque** . Seleccione **Propiedades** y haga clic en **Propiedades globales** .
+2.  En el panel izquierdo, expanda el nodo superior y, a continuación, haga clic con el botón derecho en el nodo del **bosque** . Seleccione **propiedades**y, a continuación, haga clic en **propiedades globales**.
 
 3.  Haga clic en la pestaña **Federación** .
 
-4.  Seleccione la casilla para habilitar la federación y la conectividad de mensajería instantánea pública.
+4.  Active la casilla para habilitar la Federación y la conectividad de mensajería instantánea pública.
 
-5.  Escriba el FQDN del Lync Server 2013  Servidor perimetral y, a continuación, haga clic en **Aceptar** .
+5.  Escriba el FQDN del servidor perimetral de Lync Server 2013 y, a continuación, haga clic en **Aceptar**.
     
-    ![Propiedades globales de OCS, ficha Federación](images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Propiedades globales de OCS, ficha Federación")
+    ![Propiedades globales de OCS, ficha Federación] (images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Propiedades globales de OCS, ficha Federación")
 
-## Para activar la federación del servidor perimetral de Lync Server 2013
+## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>Para activar la Federación de Lync Server 2013 Edge Server
 
-1.  En Generador de topologías, en el panel izquierdo, navegue hasta el nodo Lync Server 2013**Grupos de servidores perimetrales** .
+1.  Desde el generador de topologías, en el panel izquierdo, vaya al nodo de **** las agrupaciones perimetrales de Lync Server 2013.
 
-2.  Expanda el nodo, haga clic con el botón secundario en el Servidor perimetral que aparece y, a continuación, haga clic en **Editar propiedades** .
+2.  Expanda el nodo, haga clic con el botón secundario en el servidor perimetral que aparece y, a continuación, haga clic en **Editar propiedades**.
     
 
-    > [!NOTE]
-    > La federación solo se puede habilitar para un Grupo de servidores perimetrales único. Si tiene varios grupos de servidores perimetrales, seleccione uno para usar como Grupo de servidores perimetrales federado.
+    > [!NOTE]  
+    > La Federación solo se puede habilitar para un único grupo de borde. Si tiene varios grupos de límites, seleccione uno para usarlo como el grupo de servidores perimetrales de Federación.
 
 
 
-3.  En la página **General** , seleccione la casilla de verificación **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)** .
+3.  En la página **General** , active la casilla **Habilitar la Federación para este grupo perimetral (puerto 5061)** .
     
-    ![Editar propiedades, General, habilitar federación de servidores perimetrales](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Editar propiedades, General, habilitar federación de servidores perimetrales")
+    ![Editar propiedades, general, habilitar Federación perimetral] (images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "Editar propiedades, general, habilitar Federación perimetral")
 
 4.  Haga clic en **Aceptar** para cerrar la página Editar propiedades.
 
-5.  A continuación, navegue hasta el nodo del sitio.
+5.  A continuación, vaya al nodo del sitio.
 
-6.  Haga clic con el botón secundario en el sitio y, a continuación, haga clic en **Editar propiedades** .
+6.  Haga clic con el botón secundario en el sitio y luego haga clic en **Editar propiedades**.
 
-7.  En el panel izquierdo, haga clic en **Ruta de federación**.
+7.  En el panel de la izquierda, haga clic en **ruta de Federación**.
 
-8.  En **Asignación de ruta de federación del sitio** , seleccione **Habilitar federación SIP** y, a continuación, seleccione en la lista el Lync Server 2013  Servidor perimetral que se muestra.
+8.  En **asignación**de la ruta de Federación de sitios, seleccione **Habilitar Federación SIP**y, en la lista, seleccione el servidor perimetral 2013 de Lync Server en la lista.
 
-9.  Haga clic en **Aceptar** para cerrar la página **Editar propiedades**.
+9.  Haga clic en **Aceptar** para cerrar la página **Editar propiedades** .
     
-    ![Editar propiedades, General, Asociar grupos de servidores perimetrales](images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Editar propiedades, General, Asociar grupos de servidores perimetrales")
+    ![Editar propiedades, general, asociar grupo Edge] (images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Editar propiedades, general, asociar grupo Edge")
     
-    Para las implementaciones en varios sitios, complete este procedimiento en cada sitio.
+    Para implementaciones de varios sitios, complete este procedimiento en cada sitio.
 
-## Para configurar la ruta de medios de salida del servidor perimetral de Lync Server 2013
+## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a>Para configurar la ruta multimedia de salida de Lync Server 2013 Edge Server
 
-1.  En **Generador de topologías** , navegue hasta el grupo de servidores de Lync Server 2013 debajo de **Servidores front-end Standard Edition** o **Grupos de servidores front-end Enterprise Edition**.
+1.  Desde el **generador**de topologías, vaya al grupo de servidores de Lync Server 2013, debajo de **los servidores de aplicaciones para** el usuario de la edición Standard o **Enterprise Edition**.
 
-2.  Haga clic con el botón secundario en el grupo y, a continuación, haga clic en **Editar propiedades**.
+2.  Haga clic con el botón secundario en el grupo y luego haga clic en **Editar propiedades**.
 
-3.  En la sección **Asociaciones**, seleccione la casilla **Asociar grupo de servidores perimetrales (para componentes multimedia)**.
+3.  En la sección **asociaciones** , active la casilla **asociar grupo perimetral (para componentes multimedia)** .
 
-4.  En el cuadro de la lista desplegable, seleccione el servidor perimetral de Lync Server 2013.
+4.  En el cuadro desplegable, seleccione el servidor perimetral de Lync Server 2013.
     
-    ![Cuadro de diálogo Editar propiedades, asociar grupo de servidores perimetrales](images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Cuadro de diálogo Editar propiedades, asociar grupo de servidores perimetrales")
+    ![Cuadro de diálogo Editar propiedades, asociar grupo perimetral] (images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Cuadro de diálogo Editar propiedades, asociar grupo perimetral")
 
 5.  Haga clic en **Aceptar** para cerrar la página **Editar propiedades** .
 
-## Para publicar cambios de configuración en el servidor perimetral
+## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar cambios en la configuración del servidor perimetral
 
-1.  En **Generador de topologías** , seleccione el nodo en primera posición **Lync Server** .
+1.  En el **generador**de topologías, seleccione el nodo de nivel superior de **Lync Server**.
 
-2.  En el menú **Acción** , haga clic en **Publicar topología** y complete el asistente.
+2.  En el menú **acción** , seleccione **publicar topología** y complete el asistente.
 
-3.  Espere a que se produzca la replicación de Active Directory para todos los grupos de la implementación.
+3.  Espere a que se produzca la replicación de Active Directory en todos los grupos de la implementación.
     
 
-    > [!NOTE]
-    > Es posible que aparezca el mensaje siguiente:<BR><STRONG>Advertencia: la topología contiene más de un servidor perimetral federado. Esta situación se puede producir durante la migración a una versión superior del producto. En ese caso, solo se usará activamente un servidor perimetral para la federación. Compruebe que el registro SRV de DNS externo apunta al servidor perimetral correcto. Si desea implementar varios servidores perimetrales de federación para que estén activos simultáneamente (no en un escenario de migración), asegúrese de que todos los socios federados usan Office Communications Server 2007 R2 o Lync Server, y compruebe que en el registro SRV de DNS externo se enumeran todos los servidores perimetrales habilitados para federación.</STRONG><BR>Se espera que aparezca esta advertencia y se puede omitir con toda seguridad.
+    > [!NOTE]  
+    > Es posible que vea el siguiente mensaje:<BR><STRONG>ADVERTENCIA: la topología contiene más de un servidor perimetral federado. Esto puede ocurrir durante la migración a una versión más reciente del producto. En ese caso, solo se usaría activamente un servidor perimetral para la Federación. Compruebe que el registro SRV de DNS externo apunta al servidor perimetral correcto. Si desea implementar varios servidores perimetrales de Federación de forma simultánea (es decir, no un escenario de migración), compruebe que todos los socios federados usen Office Communications Server 2007 R2 o Lync Server. Compruebe que el registro SRV de DNS externo muestra todos los servidores perimetrales habilitados para la Federación.</STRONG><BR>Esta advertencia es esperada y puede ignorarse de forma segura.
 
 
 
-## Para comprobar la federación y el acceso remoto de usuarios externos
+## <a name="to-verify-federation-and-remote-access-for-external-users"></a>Para comprobar la Federación y el acceso remoto para usuarios externos
 
-1.  Desde el servidor front-end de Lync Server 2013, abra la Shell de administración de Lync Server.
+1.  En el servidor front-end de Lync Server 2013, abra el shell de administración de Lync Server.
 
-2.  Para verificar el estado de federación y el acceso remoto, desde la línea de comandos, escriba lo siguiente:
+2.  Para comprobar el estado de la Federación y el acceso remoto, desde la línea de comandos, escriba lo siguiente:
     
         Get-CsAccessEdgeConfiguration
 
-3.  Para habilitar la federación y el acceso remoto, desde la línea de comandos, escriba lo siguiente:
+3.  Para habilitar la Federación y el acceso remoto, en la línea de comandos, escriba lo siguiente:
     
         Set-CsAccessEdgeConfiguration
     
-    Para obtener más información sobre estos cmdlets, consulte los siguientes temas: [Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration) y [Set-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsAccessEdgeConfiguration).
+    Para obtener más información sobre estos cmdlets, vea los siguientes temas: [Get-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/gg398574\(v=ocs.15\)) y [set-CsAccessEdgeConfiguration](https://technet.microsoft.com/en-us/library/gg413017\(v=ocs.15\)).
 
-4.  Espere hasta que se complete la replicación antes de conectar los servidores perimetrales de Lync Server 2013 y probar la federación y el acceso externo.
+4.  Espere hasta que se haya completado la replicación antes de conectar los servidores perimetrales de Lync Server 2013 y pruebe la Federación y el acceso externo.
 
-## Para configurar el servidor perimetral de Lync Server 2013
+## <a name="to-configure-lync-server-2013-edge-server"></a>Para configurar el servidor perimetral 2013 de Lync Server
 
 1.  Conecte todos los servidores perimetrales de Lync Server 2013.
 
-2.  Actualice las reglas de enrutamiento del firewall externo o la configuración del equilibrador de cargas del hardware con el fin de enviar tráfico SIP para acceso (por lo general, el puerto 443) y federación (por lo general, el puerto 5061) al  Lync Server 2013  Servidor perimetral, en lugar del Servidor perimetral heredado.
+2.  Actualice las reglas de enrutamiento del firewall externo o la configuración del equilibrador de carga de hardware para enviar el tráfico SIP para acceso externo (normalmente el puerto 443) y la Federación (normalmente, el puerto 5061) al servidor perimetral de Lync Server 2013, en lugar del servidor perimetral heredado.
     
 
-    > [!NOTE]
-    > Si no tiene un equilibrador de cargas del hardware, tendrá que actualizar el registro A de DNS para que la federación resuelva el nuevo servidor perimetral de acceso Lync Server. Para realizar esta tarea con las mínimas molestias, reduzca el valor TTL del FQDN del servidor perimetral de acceso a Lync Server externo, de modo que cuando se actualice el DNS para apuntar al nuevo servidor perimetral de acceso a Lync Server, la federación y el acceso remoto se actualicen rápidamente.
+    > [!NOTE]  
+    > Si no tiene un equilibrador de carga de hardware, tendrá que actualizar el registro A de DNS para que la Federación resuelva el nuevo servidor perimetral de acceso de Lync Server. Para lograr esto con el mínimo de interrupciones, reduzca el valor de TTL para el FQDN de perimetral de acceso de Lync Server externo de modo que, cuando se actualice DNS para que apunte al nuevo servidor perimetral de acceso de Lync Server, la Federación y el acceso remoto se actualizarán rápidamente.
 
 
 
-3.  A continuación, detenga **Servidor perimetral de acceso a Lync Server** en cada equipo Servidor perimetral.
+3.  Después, detenga la aplicación **perimetral de acceso de Lync Server** desde cada equipo servidor perimetral.
 
-4.  En cada equipo con el Servidor perimetral heredado, abra el applet **Servicios** en **Herramientas administrativas** .
+4.  Desde cada equipo servidor perimetral heredado, abra el applet **servicios** de las **herramientas administrativas**.
 
-5.  En la lista de servicios, busque **Acceso perimetral de Office Communications Server** .
+5.  En la lista servicios, busque **Office Communications Server Access Edge**.
 
-6.  Haga clic con el botón secundario en el nombre de los servicios y seleccione **Detener** para detener el servicio.
+6.  Haga clic con el botón secundario en el nombre de servicios y, a continuación, seleccione **detener** para detener el servicio.
 
-7.  Establezca el Tipo de inicio en **Deshabilitado** .
+7.  Establezca el tipo de inicio **** en deshabilitado.
 
-8.  Haga clic en **Aceptar** para cerrar la ventana **Propiedades** .
+8.  Haga clic en **Aceptar** para cerrar la ventana **propiedades** .
 
-## Para comprobar la conectividad de los usuarios externos y el acceso externo
+## <a name="to-test-connectivity-of-external-users-and-external-access"></a>Para probar la conectividad de usuarios externos y acceso externo
 
-  - Los usuarios de al menos un dominio federado, un usuario interno de Lync Server 2013 y un usuario de Office Communications Server 2007 R2. Compruebe la mensajería instantánea (MI), la presencia, el audio/vídeo (A/V) y el uso compartido de escritorio.
+  - Usuarios de al menos un dominio federado, un usuario interno de Lync Server 2013 y un usuario en Office Communications Server 2007 R2. Prueba la mensajería instantánea (mi), la presencia, el audio/vídeo (A/V) y el uso compartido del escritorio.
 
-  - Usuarios de cada proveedor de servicios de mensajería instantánea públicos que la organización admita (y para los que se haya completado el aprovisionamiento) que se comuniquen con un usuario de Lync Server 2013 y un usuario de Office Communications Server 2007 R2.
+  - Los usuarios de cada proveedor de servicios de mensajería instantánea pública que su organización admita (y para el que se haya completado el aprovisionamiento) se comuniquen con un usuario en Lync Server 2013 y un usuario en Office Communications Server 2007 R2.
 
-  - Compruebe que los usuarios anónimos se puedan unir a las conferencias.
+  - Comprobar que los usuarios anónimos pueden unirse a conferencias.
 
-  - Un usuario hospedado en Office Communications Server 2007 R2 que usa el acceso de usuarios remotos (inicia sesión en Office Communications Server 2007 R2 desde fuera de la intranet, pero sin una VPN) con un usuario de Lync Server 2013 y un usuario de Office Communications Server 2007 R2. Pruebe las características de mensajería instantánea, presencia, A/V y uso compartido de escritorio.
+  - Un usuario alojado en Office Communications Server 2007 R2 con acceso de usuario remoto (que inicia sesión en Office Communications Server 2007 R2 desde fuera de la intranet pero sin conexión VPN) con un usuario en Lync Server 2013 y un usuario en Office Communications Server 2007 R2. Prueba la mensajería instantánea, la presencia, la A/V y el uso compartido del escritorio.
 
-  - Un usuario hospedado en Lync Server 2013 que usa el acceso de usuarios remotos (inicia sesión en Lync Server 2013 desde fuera de la intranet, pero sin una VPN) con un usuario de Lync Server 2013 y un usuario de Office Communications Server 2007 R2. Pruebe las características de mensajería instantánea, presencia, A/V y uso compartido de escritorio.
+  - Un usuario hospedado en Lync Server 2013 con acceso de usuario remoto (iniciar sesión en Lync Server 2013 desde fuera de la intranet pero sin conexión VPN) con un usuario en Lync Server 2013 y un usuario en Office Communications Server 2007 R2. Prueba la mensajería instantánea, la presencia, la A/V y el uso compartido del escritorio.
 

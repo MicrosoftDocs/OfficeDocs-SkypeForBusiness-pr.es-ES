@@ -1,33 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Capacity and availability management'
+---
+title: 'Lync Server 2013: administración de capacidad y disponibilidad'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Capacity and availability management
 ms:assetid: 207a2997-f482-4bee-892d-d2b112294481
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn720325(v=OCS.15)
-ms:contentKeyID: 62222457
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720325(v=OCS.15)
+ms:contentKeyID: 63969586
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 923dd7a4133da52a68e4d66ee6d5c7c47e7c0421
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842693"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Capacity and availability management in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="capacity-and-availability-management-in-lync-server-2013"></a>Administración de la capacidad y disponibilidad de Lync Server 2013
 
-The purpose of capacity management and availability management is to measure and control system performance. We recommend that you implement capacity management and availability management procedures so that you can measure and control system performance. You have to know whether the system is available and if it can handle the current and the projected demands by setting baselines and monitoring the system to look for trends.
+</div>
 
-## Capacity management
+<div id="mainSection">
 
-Capacity management involves planning, sizing, and controlling service capacity to help guarantee that the minimum performance levels specified in your SLA are exceeded. Good capacity management helps ensure that you can provide IT services at a reasonable cost and still meet the levels of performance defined in your SLAs with the client. These criteria can include the following:
+<div id="mainBody">
 
-  - **System Response Time**   This is the measured time that the system takes to do typical actions. Examples include the time that is required for for the audio/video server role to process audio/video traffic, the time that is required for a client to create and join a conference, or the time taken for presence to be updated in all watcher clients.
+<span> </span>
 
-  - **Storage Capacity**   This is the capacity of a storage system, whether it is a content database, a backup device, or a local drive. Examples include the maximum amount of storage space to be provided per site and the time that backups should be stored before they are overwritten.
+_**Última modificación del tema:** 2014-08-18_
 
-Adjusting capacity is frequently a case of making sure that enough physical resources are available, such as disk space and network bandwidth. The following table lists typical resolutions for capacity-related issues.
+El propósito de la administración de capacidad y la administración de la disponibilidad es medir y controlar el rendimiento del sistema. Le recomendamos que implemente procedimientos de administración de capacidad y de disponibilidad para poder medir y controlar el rendimiento del sistema. Debe saber si el sistema está disponible y si puede manejar las exigencias actuales y previstas configurando líneas de base y supervisando el sistema para buscar tendencias.
 
-### Typical resolutions for capacity-related issues
+<div>
+
+## <a name="capacity-management"></a>Administración de capacidad
+
+La administración de la capacidad implica la planeación, el ajuste de tamaño y el control de la capacidad de servicio para ayudar a garantizar que se superan los niveles de rendimiento mínimos especificados en el SLA. Una buena administración de la capacidad ayuda a garantizar que puedes proporcionar servicios de ti a un coste razonable y seguir satisfaciendo los niveles de rendimiento definidos en los SLAs con el cliente. Estos criterios pueden incluir lo siguiente:
+
+  - **Tiempo de respuesta del sistema**   es el tiempo medido que el sistema tarda en realizar acciones típicas. Algunos ejemplos son el tiempo necesario para que la función de servidor de audio y vídeo procese el tráfico de audio o vídeo, el tiempo necesario para que un cliente se cree y se una a una conferencia, o el tiempo que se tarda en actualizar la presencia en todos los clientes de monitor.
+
+  - **Capacidad de almacenamiento**   esta es la capacidad de un sistema de almacenamiento, ya sea una base de datos de contenido, un dispositivo de copia de seguridad o una unidad local. Algunos ejemplos son la cantidad máxima de espacio de almacenamiento que se debe proporcionar por sitio y el tiempo que las copias de seguridad deben almacenarse antes de que se sobrescriban.
+
+Normalmente, la capacidad de ajuste es asegurarse de que haya suficientes recursos físicos disponibles, como el espacio en el disco y el ancho de banda de la red. En la tabla siguiente se enumeran las resoluciones típicas de problemas relacionados con la capacidad.
+
+### <a name="typical-resolutions-for-capacity-related-issues"></a>Resoluciones típicas de problemas relacionados con la capacidad
 
 <table>
 <colgroup>
@@ -36,64 +58,84 @@ Adjusting capacity is frequently a case of making sure that enough physical reso
 </colgroup>
 <thead>
 <tr class="header">
-<th>Issue</th>
-<th>Possible resolution</th>
+<th>Problema</th>
+<th>Posible resolución</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Remote users having poor audio/video performance</p></td>
-<td><p>Check to see whether appropriate bandwidth is available on the WAN links and if QoS is enabled and appropriately configured. Check QoE data.</p></td>
+<td><p>Usuarios remotos con un bajo rendimiento de audio y vídeo</p></td>
+<td><p>Compruebe si el ancho de banda disponible es adecuado en los vínculos WAN y si QoS está habilitado y configurado correctamente. Consultar los datos de la calidad.</p></td>
 </tr>
 <tr class="even">
-<td><p>Overall response of the Lync environment is slow.</p></td>
-<td><p>Run tests to check that the existing front-end servers can deal with the load. Introduce a new front-end server if it is needed.Check SQL database response times and fix the causes for the delays (for example, improve disk I/O).</p></td>
+<td><p>La respuesta general del entorno de Lync es lenta.</p></td>
+<td><p>Ejecute pruebas para comprobar que los servidores front-end existentes pueden tratar la carga. Introduzca un nuevo servidor de aplicaciones para usuario si es necesario. Compruebe los tiempos de respuesta de la base de datos SQL y corrija las causas de los retrasos (por ejemplo, mejorar la e/s de disco).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Troubleshooting in greater detail is covered in the Lync Server Networking Guide.
+La solución de problemas más detallada se trata en la guía de redes de Lync Server.
 
-Capacity is affected by system configuration and depends on physical resources such as network bandwidth. For example, if a Lync environment is configured to perform a full backup nightly, care must be taken to help guarantee that the effect on the interactive performance experienced by end-users is minimized.
+La capacidad se ve afectada por la configuración del sistema y depende de recursos físicos, como el ancho de banda de la red. Por ejemplo, si un entorno de Lync está configurado para realizar una copia de seguridad completa por la noche, debe tener cuidado para garantizar que se minimice el efecto sobre el rendimiento interactivo experimentado por los usuarios finales.
 
-Capacity management is the process of keeping the capacity of a system within acceptable levels and addresses the following issues:
+La administración de capacidad es el proceso de mantener la capacidad de un sistema dentro de los niveles aceptables y solucionar los problemas siguientes:
 
-  - **Reacting to changes in requirements**   Capacity requirements have to be adjusted to account for changes in the system or the organization. For example, if your environment decides to implement Enterprise Voice, the number and placement of Mediation Servers and public switched telephone network (PSTN) gateways will be very important. If you'll be doing Session Initiation Protocol (SIP) trunking or direct SIP, the overall design will be significantly changed to provide the best Enterprise Voice performance.
+  - ****   El reaccionamiento de los cambios en los requisitos de capacidad debe ajustarse para tener en cuenta los cambios en el sistema o la organización. Por ejemplo, si su entorno decide implementar la telefonía IP empresarial, el número y la ubicación de los servidores de mediación y de las puertas de enlace de red telefónica conmutada (RTC) serán muy importantes. Si va a realizar una Troncalización del Protocolo de inicio de sesión (SIP) o un SIP directo, el diseño general se cambiará significativamente para ofrecer el mejor rendimiento de la telefonía IP empresarial.
 
-  - **Predicting future requirements**   Some capacity requirements change predictably over time. By tracking trends you can plan upgrades in advance. For example, available bandwidth between various Lync sites must be monitored to create a baseline. This baseline will allow you to predict when you have to add more bandwidth to these links as user count in these remote sites increases with time.
+  - **Predicción de requisitos**   futuros algunos requisitos de capacidad cambian de forma predecible a lo largo del tiempo. El seguimiento de las tendencias permite planear actualizaciones por adelantado. Por ejemplo, se debe supervisar el ancho de banda disponible entre los distintos sitios de Lync para crear una línea base. Esta línea base le permitirá predecir cuándo tiene que agregar más ancho de banda a estos vínculos, ya que el recuento de usuarios en estos sitios remotos aumenta con el tiempo.
 
-## Availability management
+</div>
 
-Availability management is the process of making sure that any IT service consistently and cost effectively delivers the level of consistent, reliable service that is required by the customer. Availability management deals with minimizing loss of service and with making sure that appropriate action is taken if service is lost. In a Lync environment, you may be concerned about whether the Enterprise Voice service is available, whether users can join scheduled conferences, and so on. An SLA defines an acceptable frequency and length of outages and allows for certain periods when the system is unavailable for planned maintenance.
+<div>
 
-If you have to provide reports to your management about the availability of systems, or if you have financial or other penalties associated with missing availability targets, you must record availability data. Even if you do not have such formal requirements, it is a good idea to at least know how frequently a system has failed in a certain time period. For example, system availability in the last 12 months and how long it took to recover from each failure. This information will help you measure and improve your team’s effectiveness in responding to a system failure. It can also give you useful information if there is a dispute.
+## <a name="availability-management"></a>Administración de la disponibilidad
 
-Measures related to availability are as follows:
+La administración de la disponibilidad es el proceso de garantizar que cualquier servicio de TI sea consistente y rentable para ofrecer el nivel de servicio coherente y confiable requerido por el cliente. La administración de la disponibilidad se ocupa de minimizar la pérdida de servicio y asegurarse de que se realiza la acción adecuada si se pierde el servicio. En un entorno de Lync, puede que le preocupe la preocupación de si el servicio de telefonía IP empresarial está disponible, si los usuarios pueden unirse a conferencias programadas, etc. Un SLA define una frecuencia y una duración de interrupciones aceptables y permite períodos específicos cuando el sistema no está disponible para el mantenimiento planeado.
 
-  - **Availability**   This is typically expressed as the time that a system or service can be accessed compared to the time that it is down. It is typically expressed as a percentage. (You may see references to “three nines” or “five nines”. These refer to 99.9 percent or 99.999 percent availability.)
+Si tiene que proporcionar informes a su administración sobre la disponibilidad de los sistemas, o si tiene sanciones financieras o de otro tipos relacionados con los objetivos de disponibilidad que faltan, debe registrar los datos de disponibilidad. Incluso si no tiene requisitos formales, es una buena idea conocer con qué frecuencia se ha producido un error en un sistema en un determinado período de tiempo. Por ejemplo, la disponibilidad del sistema en los últimos 12 meses y el tiempo que se tarda en recuperarse de cada error. Esta información le ayudará a medir y mejorar la efectividad de su equipo para responder a un error del sistema. También puede darle información útil si hay una disputa.
 
-  - **Reliability**   This is a measure of the time between failures of a system and is sometimes expressed as mean (or average) time between failures (MTBF).
+Las medidas relacionadas con la disponibilidad son las siguientes:
 
-  - **Time to Repair**   This is the time taken to recover a service after a failure has occurred and is often expressed as mean (meaning average) time to repair (MTTR).
+  - **Disponibilidad**   generalmente se expresa como el momento en que se puede acceder a un sistema o servicio en comparación con el tiempo que está inactivo. Normalmente se expresa como un porcentaje. (Es posible que vea referencias a "tres nueves" o "cinco nueves". Estas referencias hacen referencia al 99,9 por ciento o al 99,999 por ciento de disponibilidad.)
 
-Availability, reliability, and time to repair are related as follows:
+  - **Confiabilidad**   es una medida del tiempo entre los errores de un sistema y a veces se expresa como el tiempo promedio entre errores (MTBF).
 
-**Availability = (MTBF – MTTR) / MTBF**   For example, if a server fails two times over a six-month period and is unavailable for an average of 20 minutes, the MTBF is three months or 90 days and the MTTR is 20 minutes. Therefore, Availability = (90 days – 20 minutes) / 90 days = 99.985 percent.
+  - **Tiempo de reparación**   es el tiempo que se tarda en recuperar un servicio después de que se produjo un error y se suele expresar como media (es decir, el promedio) de tiempo de reparación (MTTR).
 
-Availability management is the process of making sure that availability is maximized and kept within the parameters that are defined in SLAs. Availability management includes the following processes:
+La disponibilidad, la confiabilidad y el tiempo de reparación se relacionan de la siguiente manera:
 
-  - **Monitoring**    Examining when and for how long services are unavailable.
+**Disponibilidad = (MTBF – MTTR)/MTBF**   por ejemplo, si un servidor no funciona dos veces durante un período de seis meses y no está disponible durante un promedio de 20 minutos, la MTBF es de tres meses o 90 días y el MTTR es de 20 minutos. Por lo tanto, Availability = (90 días – 20 minutos)/90 días = 99,985 por ciento.
 
-  - **Reporting**   Availability figures should be regularly provided to management, users, and operations teams. These reports should highlight trends and identify areas that are doing well and areas that require attention. The report should summarize compliance with targets set in the SLAs.
+La administración de la disponibilidad es el proceso de asegurarse de que la disponibilidad se maximice y se mantenga dentro de los parámetros definidos en los SLAs. La administración de la disponibilidad incluye los siguientes procesos:
 
-  - **Improvement**   If availability does not meet targets that are defined in the SLAs or where the trend is toward reduced availability, the availability management process should plan remedial steps. This should include working with other responsible teams to highlight reasons for outages and to plan remedial actions to prevent a recurrence of the outages.
+  - **Supervisión**     del examen Cuándo y por cuánto tiempo los servicios no están disponibles.
 
-Capacity and availability measurements are repetitive tasks that are ideally suited to automated tools and scripts such as Microsoft System Center Operations Manager (anteriormente Microsoft Operations Manager), which is discussed later in this document.
+  - **Informar**   de las cifras de disponibilidad debe proporcionarse regularmente a los equipos de administración, usuarios y operaciones. Estos informes deben resaltar tendencias e identificar las áreas que hacen bien y las áreas que requieren atención. El informe debe resumir el cumplimiento de los objetivos establecidos en los SLA.
 
-## Vea también
+  - **Mejora**   si la disponibilidad no cumple con los objetivos definidos en los SLA o si la tendencia es para reducir la disponibilidad, el proceso de administración de la disponibilidad debe planear los pasos correctos. Esto debe incluir el trabajo con otros equipos responsables de destacar las razones de las interrupciones y planificar las medidas correctivas para evitar una reaparición de las interrupciones.
 
-#### Otros recursos
+Las medidas de capacidad y disponibilidad son tareas repetitivas que son ideales para las herramientas automatizadas y scripts como Microsoft System Center Operations Manager (anteriormente Microsoft Operations Manager), que se trata más adelante en este documento.
 
-[Monitoring Lync Server 2013 with System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Supervisión de Lync Server 2013 con System Center Operations Manager](lync-server-2013-monitoring-lync-server-with-system-center-operations-manager.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

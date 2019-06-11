@@ -1,51 +1,93 @@
-﻿---
-title: Conferencias de Lync Server 2013
-TOCTitle: Conferencias
-ms:assetid: 6129b7e0-9abd-488e-a54e-86094eb9df7a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg417161(v=OCS.15)
-ms:contentKeyID: 48275446
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Conferencias de Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferencing
+ms:assetid: 6129b7e0-9abd-488e-a54e-86094eb9df7a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417161(v=OCS.15)
+ms:contentKeyID: 48184274
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 00f368a375a73eddc78b858c0d85a1bc21a1bd04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842471"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conferencias en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="conferencing-in-lync-server-2013"></a>Conferencias en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-11_
 
-Con la conferencia unificada de Lync Server 2013, los usuarios pueden colaborar, compartir información y coordinar sus esfuerzos en tiempo real. Los usuarios pueden usar todas las herramientas de reuniones, reuniones programadas y colaboración espontánea. Las capacidades de conferencia de voz y vídeo se pueden usar desde cualquier ubicación con conexión a Internet; además, los usuarios que estén lejos de su equipo pueden participar en las conferencias de audio mediante un teléfono de red telefónica conmutada (RTC).
+Con las conferencias unificadas en Lync Server 2013, los usuarios pueden colaborar, compartir información y coordinar sus esfuerzos en tiempo real. Todos los usuarios pueden usar todo el alcance de la colaboración espontánea, las reuniones programadas y las herramientas de reunión. Las capacidades de voz y videoconferencias se pueden usar desde cualquier ubicación con una conexión a Internet, y los usuarios lejos de un equipo pueden participar en conferencias de audio al marcar con un teléfono de red telefónica conmutada (RTC).
 
-Las herramientas de reuniones integradas en Outlook permiten a los organizadores programar una reunión o iniciar una conferencia improvisada con un simple clic, además de facilitar que los asistentes se unan a la reunión. Un cliente web amplía las completas características de conferencia para los participantes que no disponen de la versión de escritorio de Lync.
+Herramientas de reunión integradas en Outlook permite a los organizadores programar una reunión o iniciar una conferencia improvisada con un solo clic, y también facilitar la participación de los asistentes. Un cliente web extiende características de conferencia enriquecidas a los participantes que no están ejecutando la versión de escritorio de Lync.
 
-## Conferencia de audio y vídeo
+<div>
 
-Lync Server proporciona una experiencia de usuario familiar para usuarios de servicios de puente de audio tradicionales, incluidos servicios de acceso telefónico de RTC con comandos de control de llamada por tonos. Al mismo tiempo, incorpora potentes funciones de programación, unión y administración disponibles únicamente con una plataforma integrada de comunicaciones unificadas.
+## <a name="audio-and-video-conferencing"></a>Conferencias de audio y vídeo
 
-Los usuarios pueden programar una reunión desde Outlook con un simple clic. La información detallada como, por ejemplo, hora de la reunión, ubicación y asistentes, se rellena mediante la conocida plantilla de Outlook. Además, la información específica de la llamada de conferencia como, por ejemplo, el número de acceso telefónico, los Id. de la reunión y los recordatorios del número de identificación personal (PIN) se rellenan automáticamente.
+Lync Server proporciona una experiencia de usuario que es familiar para los usuarios de los servicios de puente de audio tradicionales, incluidos los servicios de acceso telefónico PSTN con comandos de control de llamadas por tonos. Al mismo tiempo, incorpora las eficaces características de programación, Unión y administración disponibles solamente con una plataforma de comunicaciones unificadas integrada.
 
-Para ayudar a garantizar que solo puedan participar en la reunión las personas autorizadas, Lync Server proporciona diversos niveles de autenticación para los participantes. Los usuarios que se unan con Lync ya están autenticados mediante servicios de dominio de Active Directory y no tienen que introducir ningún PIN, código de acceso o Id. de reunión.
+Con un solo clic, los usuarios pueden programar una reunión desde Outlook. Los detalles, como la hora de la reunión, la ubicación y los asistentes, siguen la conocida plantilla de Outlook. Además, la información específica de la llamada en conferencia, como el número de acceso telefónico local, los identificadores de reunión y los avisos de número de identificación personal (PIN), se rellenarán automáticamente.
 
-Lync simplifica la experiencia del usuario de videoconferencias mediante la incorporación de vídeo al cliente unificado, de forma que la programación de una reunión con vídeo o el cambio espontáneo a vídeo sean tareas fáciles y sencillas.
+Para ayudar a garantizar que solo las personas autorizadas participen en una llamada, Lync Server proporciona varios niveles de autenticación a los participantes. Los usuarios que se unen mediante Lync ya están autenticados por los servicios de dominio de Active Directory y no necesitan escribir un PIN, un código de acceso o un identificador de reunión.
 
-Lync Server facilita la incorporación de vídeo a llamadas telefónicas estándar con un solo clic. Si una llamada de vídeo o una conferencia tiene varios participantes, cada usuario podrá ver vídeos de hasta cinco usuarios distintos al mismo tiempo, o el moderador podrá decidir que todo el mundo vea un único origen de vídeo.
+Lync simplifica la experiencia de usuario de videoconferencias incorporando video en el cliente unificado, de modo que la programación de una reunión con video o el aumento de la escala de video de forma espontánea es perfecta y sencilla.
 
-Se admite tanto vídeo de alta definición (resolución 1270 x 720; relación de aspecto 16:9) como vídeo VGA (resolución 640 x 480; relación de aspecto 4:3) para las llamadas punto a punto entre usuarios que ejecutan Lync en equipos de tecnología avanzada. La resolución captada por cada participante en una conversación única puede diferir, dependiendo de las características de vídeo del hardware de cada usuario.
+Lync Server facilita la adición de vídeo a una llamada de teléfono estándar con tan solo un clic. Cuando hay varios participantes en una videollamada o una conferencia, cada usuario puede ver el video de hasta otros cinco usuarios al mismo tiempo, o un moderador puede elegir una sola fuente de vídeo para que todos los usuarios la vean exclusivamente.
 
-Los administradores de TI pueden establecer directivas para restringir o deshabilitar vídeo de alta definición o vídeo VGA en clientes, dependiendo de la capacidad del equipo, del ancho de banda de red y de la presencia de una cámara con características para proporcionar la resolución requerida. Estas directivas se exigen a través del aprovisionamiento en banda.
+El vídeo de alta definición (resolución 1270 x 720; relación de aspecto 16:9) y vídeo VGA (resolución de 640 x 480; relación de aspecto 4:3) se admiten para llamadas de punto a punto entre usuarios que ejecutan Lync en equipos de alta definición. La resolución vista por cada participante en una sola conversación puede variar en función de las características de vídeo del hardware respectivo de cada usuario.
 
-## Conferencia web
+Los administradores de TI pueden establecer políticas para restringir o deshabilitar el video VGA o de alta definición en los clientes, en función de la capacidad del equipo, el ancho de banda de red y la presencia de una cámara capaz de ofrecer la resolución requerida. Estas directivas se aplican mediante aprovisionamiento en banda.
 
-Lync Server integra características de uso compartido de conferencias (como escritorio, aplicación, datos adjuntos, pizarra, sondeo y PowerPoint) en el sencillo Lync. En combinación con las conferencias de audio y vídeo, el resultado es una sesión de gran inmersión y colaboración que se pone a disposición muy fácilmente.
+</div>
 
-Para mejorar la experiencia global de los usuarios que hacen o ven presentaciones de PowerPoint, Lync Server 2013 usa Office Web Apps para controlar las presentaciones de PowerPoint. Los usuarios pueden compartir una imagen o copiar y pegar texto con una pizarra en la reunión de Lync. Los moderadores pueden realizar sondeos en la reunión de Lync para pedir a los asistentes que aporten comentarios.
+<div>
 
-El uso compartido del escritorio permite a los moderadores transmitir cualquier visualización, aplicación, página web, documento, software o parte de su escritorio a los participantes remotos en tiempo real, directamente desde Lync. La audiencia puede realizar el seguimiento junto con los movimientos del ratón y las entradas del teclado. Los moderadores pueden elegir entre compartir toda su pantalla o solo una parte. Al compartir sus escritorios, los moderadores pueden integrar a la audiencia en demostraciones interactivas de productos o software desde cualquier ubicación.
+## <a name="web-conferencing"></a>Conferencia web
 
-El uso compartido de aplicaciones permite a los moderadores compartir el control del software de sus escritorios sin perder de vista los comentarios de los participantes o las preguntas de texto. Asimismo, también pueden delegar el control de la aplicación a los participantes en la reunión.
+Lync Server integra características de uso compartido de conferencias como escritorio, aplicación, datos adjuntos, pizarra, sondeo y PowerPoint en el Lync simplificado. Combinado con las conferencias de audio o vídeo, el resultado es una sesión muy envolvente y colaborativa que es simple de facilitar.
 
-## Conferencia de acceso telefónico local
+Para mejorar la experiencia general de los usuarios que presenten o visualicen presentaciones de PowerPoint, Lync Server 2013 usa Office Web Apps para controlar presentaciones de PowerPoint. Los usuarios pueden compartir una imagen o copiar y pegar texto con una pizarra en la reunión de Lync. Los moderadores pueden realizar sondeos en la reunión de Lync para solicitar comentarios de los asistentes.
 
-Los usuarios que no tengan equipo disponen de varios métodos para participar en llamadas de conferencia basadas en Lync Server. Un usuario de RTC puede marcar un número de acceso, obtener acceso al puente de la reunión y, a continuación, introducir el Id. de reunión. Para reuniones más seguras, puede que el usuario también tenga que introducir su PIN para autenticarse en Active Directory. Lync Server también es compatible con dispositivos Lync Phone Edition, que son dispositivos telefónicos IP independientes que proporcionan los partners de Microsoft.
+El uso compartido de escritorio permite a los moderadores difundir elementos visuales, aplicaciones, páginas web, documentos, software o parte de sus escritorios a participantes remotos en tiempo real, directamente desde Lync. Los miembros de la audiencia pueden seguir los movimientos del mouse y las acciones del teclado. Los moderadores pueden elegir compartir la pantalla completa o solo una parte. Al compartir sus escritorios, los moderadores pueden comunicarse con sus audiencias en demostraciones interactivas de productos o software desde cualquier lugar.
+
+El uso compartido de aplicaciones permite a los moderadores compartir el control del software en sus escritorios sin perder la vista de comentarios de los participantes o preguntas de texto. Los moderadores también pueden delegar el control de la aplicación a los participantes de la reunión.
+
+</div>
+
+<div>
+
+## <a name="dial-in-conferencing"></a>Conferencias de acceso telefónico local
+
+Para los usuarios que no usan un equipo personal, hay varios métodos disponibles para unirse a una llamada de conferencia de Lync Server. Un usuario de RTC puede marcar un número de acceso, acceder al puente de la reunión y, a continuación, especificar el identificador de la reunión. Para las reuniones más seguras, el usuario también puede tener que introducir su PIN para autenticar en Active Directory. Lync Server también es compatible con los dispositivos de Lync Phone Edition, que son los dispositivos telefónicos IP independientes proporcionados por los socios de Microsoft.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

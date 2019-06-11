@@ -1,27 +1,51 @@
-﻿---
-title: Vista ConferenceMessageCount
-TOCTitle: Vista ConferenceMessageCount
-ms:assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688129(v=OCS.15)
-ms:contentKeyID: 49889373
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: vista ConferenceMessageCount'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: ConferenceMessageCount view
+ms:assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688129(v=OCS.15)
+ms:contentKeyID: 49733727
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0324c9913a607057c4e1cd161a9040b83d6bd29b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842487"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vista ConferenceMessageCount
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="conferencemessagecount-view-in-lync-server-2013"></a>Vista ConferenceMessageCount en Lync Server 2013
 
-La vista ConferenceMessageCount almacena información acerca del número de mensajes enviados por un usuario a una conferencia. Esta vista se presentó por primera vez en Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-01_
+
+La vista ConferenceMessageCount almacena información acerca de cuántos mensajes envió un usuario a una conferencia. Esta vista se presentó en Microsoft Lync Server 2013.
+
+<div>
 
 
-> [!NOTE]
-> La vista ConferenceMessageCount contiene todas las columnas de la <A href="lync-server-2013-conferencesessiondetails-view.md">Vista ConferenceSessionDetails</A> además de las siguientes columnas.
+> [!NOTE]  
+> La vista ConferenceMessageCount contiene todas las columnas de la <A href="lync-server-2013-conferencesessiondetails-view.md">vista ConferenceSessionDetails de Lync Server 2013</A> , además de las columnas que figuran a continuación.
 
 
+
+</div>
 
 
 <table>
@@ -40,24 +64,35 @@ La vista ConferenceMessageCount almacena información acerca del número de mens
 <tbody>
 <tr class="odd">
 <td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
-<td><p>URI del usuario que envió el mensaje.</p></td>
+<td><p>nvarchar (450)</p></td>
+<td><p>Identificador URI del usuario que envió el mensaje.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserUriType</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p>Tipo de URI del usuario que envió los mensajes. Consulte la <a href="lync-server-2013-uritypes-table.md">Tabla UriTypes en Lync Server 2013</a> para obtener más información.</p></td>
+<td><p>Tipo de URI del usuario que envió los mensajes. Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>UserTenant</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>Inquilino del usuario que envió los mensajes. Consulte la <a href="lync-server-2013-tenants-table.md">Tabla Tenants en Lync Server 2013</a> para obtener más información.</p></td>
+<td><p>identificador</p></td>
+<td><p>Espacio empresarial del usuario que envió los mensajes. Para obtener más información, consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos de Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>UserMessageCount</strong></p></td>
 <td><p>smallint</p></td>
-<td><p>Número de mensajes que envió el usuario durante la sesión de conferencia.</p></td>
+<td><p>Número de mensajes enviados por el usuario durante la sesión de conferencia.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

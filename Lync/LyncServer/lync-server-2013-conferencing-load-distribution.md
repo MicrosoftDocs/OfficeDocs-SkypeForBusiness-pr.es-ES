@@ -1,21 +1,51 @@
-﻿---
-title: Distribución de carga de conferencias
-TOCTitle: Distribución de carga de conferencias
-ms:assetid: 5901a076-1b6f-4720-8837-95fc7f3c37f3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204922(v=OCS.15)
-ms:contentKeyID: 48275333
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Distribución de la carga de conferencias de Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conferencing load distribution
+ms:assetid: 5901a076-1b6f-4720-8837-95fc7f3c37f3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204922(v=OCS.15)
+ms:contentKeyID: 48184233
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cd78b6dcedc66f5a2235b45066be7faf70d4379b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842466"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Distribución de carga de conferencias
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="conferencing-load-distribution-in-lync-server-2013"></a>Distribución de la carga de conferencias en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-22_
 
-A diferencia de algunas otras soluciones dedicadas la videoconferencia, la arquitectura de Lync Server es un modelo de hardware compartidos. Esto significa que el mismo hardware es compartido por muchos de los componentes de software, cada uno de los cuales admite diferentes comunicaciones en tiempo real. Cada tipo de comunicaciones en tiempo real coloca cargas específicas en los servidores. Por ejemplo, el Servidor front-end puede ejecutar los componentes de enrutamiento del protocolo de inicio de sesión (SIP), las aplicaciones web (como la búsqueda de la libreta de direcciones), las aplicaciones de Servicio de conferencia web, Servicio de conferencia A/V, Telefonía IP empresarial (por ejemplo, Aplicación Operador de conferencia y Aplicación de grupo de respuesta), y Servidor de mediación. Un conjunto de bases de datos en el Servidor front-end también permiten el almacenamiento y procesamiento por parte de usuario, contacto, presencia, conferencias y datos de enrutamiento de voz. Con este intercambio de hardware, componentes, servicios y procesos compiten por recursos de CPU y memoria, por eso las cargas de trabajo de comunicación no tienen un impacto directo a escala del servidor.
+A diferencia de otras soluciones de conferencia dedicadas, la arquitectura de Lync Server es un modelo de hardware compartido. Esto significa que muchos componentes de software comparten el mismo hardware, cada uno de los cuales es compatible con diferentes comunicaciones en tiempo real. Cada tipo de comunicación en tiempo real coloca cargas específicas en los servidores. Por ejemplo, el servidor front-end puede ejecutar los componentes de enrutamiento protocolo de inicio de sesión (SIP), aplicaciones web (como la búsqueda de la libreta de direcciones), servicio de conferencias web, servicio de conferencia A/V, aplicaciones de telefonía empresarial (por ejemplo, conferencias Operador y aplicación de grupo de respuesta) y servidor de mediación. Un conjunto de bases de datos en el servidor front-end también proporciona almacenamiento y procesamiento para datos de usuarios, contactos, presencia, Conferencia y enrutamiento de voz. Con este uso compartido de hardware, los componentes, servicios y procesos se compiten por la CPU y los recursos de memoria, de modo que las cargas de trabajo sin conferencias tengan un impacto directo en la escala de servidores.
 
-En comparación con otras soluciones de videoconferencia basadas en el puerto de hardware, la arquitectura de las conferencias de Lync Server es un modelo sin reservas. Cuando un usuario programa una reunión, Lync Server crea un registro en la base de conferencias, que almacena los datos de la conferencia, pero no reserva ningún recurso de hardware para la reunión programada antes de tiempo. En cambio, Lync Server tiene lógica de equilibrio de carga incorporada para asignar dinámicamente recursos de conferencias en los Servidores front-end de manera que distribuye las cargas equitativamente en todos los Servidores front-end del grupo. Esto suministra y usa los recursos de hardware de forma eficaz, pero hace que sea difícil mantener reuniones muy grandes (especialmente sin una planificación adecuada). Por ejemplo, cuando un grupo de Lync Server 2013 se ejecuta cerca de su capacidad máxima, cada Servidor front-end puede alojar reuniones de aproximadamente 125 personas de tamaño medio. Agregar otra reunión pequeña no sería un problema, pero agregar una reunión de 1.000 usuarios sería un problema porque el Servidores front-end probablemente podría admitir esa reunión al mismo tiempo que las otras reuniones de 125 usuarios.
+Comparado con otras soluciones de conferencia basadas en puertos de hardware, la arquitectura de conferencias de Lync Server es un modelo sin reserva. Cuando un usuario programa una reunión, Lync Server crea un registro en la base de datos de conferencia, que almacena los datos de conferencia, pero no reserva los recursos de hardware para la reunión programada con antelación. En su lugar, Lync Server tiene lógica de equilibrio de carga integrada para asignar dinámicamente los recursos de conferencia en los servidores front-end de modo que se distribuyan uniformemente en todos los servidores front-end del grupo. De esta manera, se aplican y utilizan recursos de hardware, pero hace que resulte desafiante dar soporte a reuniones muy grandes (especialmente sin un plan adecuado). Por ejemplo, cuando se ejecuta una agrupación de Lync Server 2013 cerca de su capacidad máxima, cada servidor front-end podría hospedar aproximadamente 125 reuniones de tamaño medio. Agregar otra reunión pequeña no sería un problema, pero agregar una reunión de 1000 usuarios sería un problema porque los servidores front-end probablemente no podrían admitir una reunión tan grande al mismo tiempo que las otras 125 reuniones.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,48 +1,85 @@
-﻿---
-title: Adición y habilitación de una cuenta de usuario de Lync Server
-TOCTitle: Adición y habilitación de una cuenta de usuario de Lync Server
-ms:assetid: 1edd1c1c-307d-450b-abea-33aaf56bdf13
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520961(v=OCS.15)
-ms:contentKeyID: 48274648
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: agregar y habilitar cuentas de usuario para Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add and enable user account for Lync Server
+ms:assetid: 1edd1c1c-307d-450b-abea-33aaf56bdf13
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520961(v=OCS.15)
+ms:contentKeyID: 48183578
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0fc52e76d480e323669b88c1ee461eeccf9aef38
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842951"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Adición y habilitación de una cuenta de usuario de Lync Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="add-and-enable-user-account-for-lync-server-2013"></a>Agregar y habilitar una cuenta de usuario para Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-02_
 
-Después de habilitar una cuenta de usuario en Equipos y usuarios de Active Directory, puede usar Panel de control de Lync Server para crear y habilitar nuevas cuentas de usuario de Lync Server 2013 agregando un usuario de Active Directory a Lync Server.
+Después de habilitar una cuenta de usuario en usuarios y equipos de Active Directory, puede usar el panel de control de Lync Server para crear y habilitar nuevas cuentas de usuario de Lync Server 2013 agregando un usuario de Active Directory a Lync Server.
 
-## Para agregar y habilitar un nuevo usuario de Lync Server
+<div>
+
+## <a name="to-add-and-enable-a-new-lync-server-user"></a>Para agregar y habilitar un nuevo usuario de Lync Server
 
 1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
 4.  Haga clic en **Habilitar usuarios**.
 
-5.  En el cuadro de diálogo **Nuevo usuario de Lync Server**, haga clic en **Agregar**.
+5.  En el cuadro de diálogo **nuevo usuario de Lync Server** , haga clic en **Agregar**.
 
-6.  En el cuadro **Buscar usuarios**, escriba el nombre completo o parcial, el nombre para mostrar, el apellido, el nombre de la cuenta del Administrador de cuentas de seguridad, la dirección de correo electrónico, el nombre principal del usuario (UPN) o el número de teléfono del usuario de Active Directory que está buscando y después haga clic en **Buscar**.
+6.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre, nombre para mostrar, nombre, apellido, nombre de cuenta del administrador de cuentas de seguridad (SAM), dirección de correo electrónico, nombre principal de usuario (UPN) o número de teléfono de la cuenta de usuario de Active Directory que desee y, a continuación, haga clic en **Buscar**.
 
-7.  En la tabla, seleccione la cuenta que desea agregar a Lync Server y después haga clic en **Aceptar**.
+7.  En la tabla, seleccione la cuenta que desea agregar a Lync Server y, a continuación, haga clic en **Aceptar**.
 
-8.  Asigne el usuario a un grupo de servidores, especifique datos adicionales si lo considera necesario y asigne las directivas al usuario que desee; luego haga clic en **Habilitar**.
+8.  Asigne el usuario a un grupo, especifique los detalles adicionales, asigne las directivas al usuario que desee y, a continuación, haga clic en **Habilitar**.
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
 
-[Deshabilitación o rehabilitación de la cuenta de usuario de Lync Server en Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
-[Quitar una cuenta de usuario de Lync Server](lync-server-2013-remove-a-user-account-from-lync-server.md)  
+## <a name="see-also"></a>Vea también
 
-#### Otros recursos
 
-[Habilitar y deshabilitar usuarios para Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)
+[Deshabilitar o volver a habilitar la cuenta de usuario para Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)  
+[Quitar una cuenta de usuario de Lync Server 2013](lync-server-2013-remove-a-user-account-from-lync-server.md)  
+
+
+[Habilitar y deshabilitar usuarios para Lync Server 2013](lync-server-2013-enabling-and-disabling-users-for-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

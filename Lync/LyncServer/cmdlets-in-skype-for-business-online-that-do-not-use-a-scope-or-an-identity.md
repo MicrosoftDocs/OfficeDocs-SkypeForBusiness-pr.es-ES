@@ -1,36 +1,42 @@
-﻿---
-title: Cmdlets que no usan ámbitos ni identidades
-TOCTitle: Cmdlets que no usan ámbitos ni identidades
-ms:assetid: 9c50c732-3c64-4b6a-96fd-8f528eb739ce
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn362824(v=OCS.15)
-ms:contentKeyID: 56271330
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Cmdlets que no usan ámbitos ni identidades
+title: Cmdlets de Skype empresarial online que no usan un ámbito o una identidad
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that do not use a scope or an identity
+ms:assetid: 9c50c732-3c64-4b6a-96fd-8f528eb739ce
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362824(v=OCS.15)
+ms:contentKeyID: 56558839
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4c7f6632640277a6a99626c18f458100f6a8cea0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842092"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-do-not-use-a-scope-or-an-identity"></a>Cmdlets de Skype empresarial online que no usan un ámbito o una identidad
 
  
 
-_**Última modificación del tema:** 2015-06-22_
 
-Los cmdlets que se usan al modificar las listas de dominios permitidos y bloqueados (listas que determinan con qué organizaciones externas se pueden comunicar los usuarios) no usan ámbitos ni el parámetro Identity. De hecho, el cmdlet **New-CsEdgeAllowAllKnownDomains** no incluye absolutamente ningún parámetro. Los cmdlets que no usan ámbitos ni el parámetro Identity son los siguientes:
+Los cmdlets que se usan al modificar las listas permitidas y las listas bloqueadas (listas que determinan de qué organizaciones externas a las que los usuarios pueden comunicarse) no usan un ámbito ni una identidad. De hecho, el cmdlet **New-CsEdgeAllowAllKnownDomains** no tiene ningún parámetro. Los cmdlets que no usan un ámbito o una identidad son:
 
-  - [New-CsEdgeAllowAllKnownDomains](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowAllKnownDomains)
+  - [New-CsEdgeAllowAllKnownDomains](https://technet.microsoft.com/en-us/library/jj994088\(v=ocs.15\))
 
-  - [New-CsEdgeAllowList](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeAllowList)
+  - [New-CsEdgeAllowList](https://technet.microsoft.com/en-us/library/jj994023\(v=ocs.15\))
 
-  - [New-CsEdgeDomainPattern](https://docs.microsoft.com/powershell/module/skype/New-CsEdgeDomainPattern)
+  - [New-CsEdgeDomainPattern](https://technet.microsoft.com/en-us/library/jj994040\(v=ocs.15\))
 
-Tenga en cuenta que en los cmdlets **New-CsEdgeAllowList** y **New-CsEdgeDomainPattern** debe incluir el parámetro Domain. Por ejemplo:
+Tenga en cuenta que, con el cmdlet **New-CsEdgeAllowList** y el cmdlet **New-CsEdgeDomainPattern** , debe incluir el parámetro domain. Por ejemplo:
 
     $x = New-CsEdgeDomainPattern -Domain "fabrikam.com"
 
-## Vea también
+## <a name="see-also"></a>Vea también
 
-#### Conceptos
 
-[Identidades, ámbitos e inquilinos](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Los cmdlets de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Identidades, ámbitos y espacios empresariales en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Los cmdlets de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

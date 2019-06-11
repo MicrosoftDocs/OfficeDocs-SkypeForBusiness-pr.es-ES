@@ -1,63 +1,98 @@
-﻿---
-title: Configurar la supervisión SCOM
-TOCTitle: Configurar la supervisión SCOM
-ms:assetid: 4003d225-2a33-448c-abd9-571750661140
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688033(v=OCS.15)
-ms:contentKeyID: 49889056
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configurar la supervisión SCOM
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Configure SCOM monitoring
+ms:assetid: 4003d225-2a33-448c-abd9-571750661140
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688033(v=OCS.15)
+ms:contentKeyID: 49733624
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b73bbf1ae1a487f8e6dcf8560e37cf5c7a73ba04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842087"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar la supervisión SCOM
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-scom-monitoring"></a>Configurar la supervisión SCOM
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-04_
 
-Después de migrar a Microsoft Lync Server 2013, debe completar unas pocas tareas para configurar Lync Server 2013 para trabajar con System Center Operations Manager.
+Después de migrar a Microsoft Lync Server 2013, debe completar algunas tareas para configurar Lync Server 2013 para que funcione con System Center Operations Manager.
 
-  - Aplique las actualizaciones Lync Server 2010 a un servidor elegido para administrar la lógica de detección central.
+  - Aplique actualizaciones de Lync Server 2010 a un servidor elegido para administrar la lógica de descubrimiento central.
 
-  - Actualice la clave de registro del servidor candidato de detección central.
+  - Actualice la clave del registro del candidato de detección central.
 
-  - Configure el servidor de administración principal de System Center Operations Manager para invalidar el nodo de detección central candidato.
+  - Configure el servidor de administración principal de System Center Operations Manager para que invalide el nodo de detección central candidato.
 
-A continuación se proporcionan instrucciones para realizar cada una de estas tareas.
+A continuación se proporcionan instrucciones para llevar a cabo estas tareas.
 
-**Aplique las actualizaciones Lync Server 2010 a un servidor elegido para administrar la lógica de detección central.**
+**Aplique actualizaciones de Lync Server 2010 a un servidor elegido para administrar la lógica de descubrimiento central.**
 
-1.  Elija un servidor que tenga los archivos del agente System Center Operations Manager instalados y esté configurado como un nodo de detección candidato.
+1.  Elija un servidor que tenga instalados los archivos del agente System Center Operations Manager y esté configurado como un nodo de detección candidato.
 
-2.  Aplique las actualizaciones Lync Server 2010 a este servidor. Vea el tema [Aplicar actualizaciones de Lync Server 2010](apply-lync-server-2010-updates.md).
+2.  Aplique las actualizaciones de Lync Server 2010 a este servidor. Vea el tema sobre cómo [aplicar actualizaciones de Lync Server 2010](apply-lync-server-2010-updates.md).
 
-**Actualice la clave de registro del servidor candidato de detección central.**
+**Actualice la clave del registro del candidato de detección central.**
 
 1.  En el servidor elegido para administrar la lógica de detección central, abra una ventana de comandos de Windows PowerShell.
 
 2.  En la línea de comandos, escriba:
     
-    ```
-    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
-    ```
-    ```
-    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
-    ```
+       ```
+        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
+       ```
+    
+       ```
+        New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
+       ```
+    
+    <div class="">
+    
 
-    > [!NOTE]
-    > Al cambiar el registro, puede recibir un error que indica que el comando ha fallado si la clave de registro ya existe. Si le pasa esto, puede ignorar el error de forma segura.
+    > [!NOTE]  
+    > Siempre que edite el registro, es posible que se produzca un error en el comando si la clave del registro ya existe. Si tiene esto, puede ignorar el error sin riesgos.
 
+    
+    </div>
 
+**Configure su servidor de administración principal de System Center Operations Manager para invalidar el nodo de supervisor de detección central candidato.**
 
-**Configure el servidor de administración principal de System Center Operations Manager para invalidar el nodo de monitor de detección central candidato.**
+1.  En un equipo en el que se haya instalado la consola de System Center Operations Manager, expanda los **objetos del módulo de administración** y seleccione descubrimientos de **objetos**.
 
-1.  En un PC donde se haya instalado la consola de System Center Operations Manager, expanda **Objetos del módulo de administración** y luego seleccione **Detecciones de objetos**.
+2.  Haga clic en **cambiar ámbito...**
 
-2.  Haga clic en **Cambiar ámbito...**
+3.  En la página **objetos del módulo de administración del ámbito** , seleccione candidato de detección de **LS**.
 
-3.  En la página **Objetos de módulo de administración de ámbito**, seleccione **Candidato de detección de LS**.
+4.  Invalide el **valor efectivo candidato** a la detección de LS al nombre del servidor candidato elegido en el procedimiento anterior.
 
-4.  Reemplace el **Valor efectivo de Candidato de detección de LS** con el nombre del servidor candidato elegido en el procedimiento anterior.
+Por último, para finalizar los cambios, reinicie el servicio de mantenimiento en el servidor de administración de raíz de System Center Operations Manager.
 
-Por último, para finalizar los cambios, reinicie el servicio de estado en el Servidor de administración raíz de System Center Operations Manager.
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

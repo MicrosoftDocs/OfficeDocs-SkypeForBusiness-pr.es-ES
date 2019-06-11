@@ -1,63 +1,69 @@
-﻿---
-title: Cmdlets que usan el parámetro Tenant
-TOCTitle: Cmdlets que usan el parámetro Tenant
-ms:assetid: e7fe7c12-fbe0-49c1-9e8c-eef6958f27d0
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn362850(v=OCS.15)
-ms:contentKeyID: 56271366
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Cmdlets que usan el parámetro Tenant
+title: Cmdlets de Skype empresarial online que usan el parámetro tenant
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use the Tenant parameter
+ms:assetid: e7fe7c12-fbe0-49c1-9e8c-eef6958f27d0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362850(v=OCS.15)
+ms:contentKeyID: 56558865
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: aa3b09e6f419c7425332427ccf4a4ff664b9e395
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842089"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets de Skype empresarial online que usan el parámetro tenant
 
  
 
-_**Última modificación del tema:** 2015-06-22_
 
-Para modificar la configuración de proveedor público debe especificarse la identidad del inquilino (incluso cuando solo hay un inquilino). Por ejemplo, este comando establece Windows Live como el único proveedor público con el que podrán comunicarse los usuarios:
+Al modificar la configuración de su proveedor público, siempre tiene que proporcionar una identidad de inquilino. Esto es cierto incluso si solo tienes un único inquilino. Por ejemplo, este comando configura Windows Live como el único proveedor público con el que los usuarios pueden comunicarse:
 
     Set-CsTenantPublicProvider -Tenant "bf19b7db-6960-41e5-a139-2aa373474354" -Provider "WindowsLive"
 
-Afortunadamente no tendrá que escribir el identificador de inquilino (como bf19b7db-6960-41e5-a139-2aa373474354) cada vez que ejecute uno de estos cmdlets. De hecho, si desea recuperar este dato, ejecute el cmdlet [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant), almacénelo en una variable y use la variable cuando llame a los demás cmdlets. Por ejemplo:
+Afortunadamente, no es necesario escribir el identificador de inquilino (por ejemplo, bf19b7db-6960-41e5-A139-2aa373474354) cada vez que se ejecuta uno de estos cmdlets. En su lugar, puede recuperar el identificador de inquilino ejecutando el cmdlet [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\)) , almacenando el identificador de inquilino en una variable y, a continuación, usando esa variable cuando llama a uno de los otros cmdlets. Por ejemplo:
 
     $x = (Get-CsTenant).TenantId
     Set-CsTenantPublicProvider -Tenant $x -Provider "WindowsLive"
 
-Si lo prefiere, puede realizar este procedimiento con un solo comando. Para ello, recupere el identificador de inquilino y canalice el valor hacia el cmdlet Set-CsTenantPublicProvider:
+Como alternativa, puede hacer esto en un solo comando al recuperar el identificador de inquilino y, a continuación, canalizar ese valor al cmdlet Set-CsTenantPublicProvider:
 
     Get-CsTenant | Select-Object TenantId | ForEach-Object {Set-CsTenantPublicProvider -Tenant $_.TenantId -Provider "WindowsLive"}
 
-No es necesario que especifique el identificador de inquilino para llamar al cmdlet **Get-CsTenant**, ya que este comando devuelve información sobre el inquilino:
+No es necesario especificar el identificador de inquilino al llamar al cmdlet **Get-CsTenant** . Este comando devuelve información sobre su espacio empresarial:
 
     Get-CsTenant
 
-Los cmdlets siguientes aceptan la identidad de inquilino. Sin embargo, en estos casos el parámetro es opcional y no es necesario escribirlo para llamar al cmdlet. En su lugar, Windows PowerShell escribirá correctamente la identidad del inquilino de Skype Empresarial Online con el que se haya establecido la conexión:
+Los siguientes cmdlets aceptan una identidad de inquilino. Sin embargo, en estos casos, el parámetro es opcional y no es necesario especificarlo al llamar al cmdlet. En su lugar, Windows PowerShell se encontrará eficazmente con la identidad de inquilino en función del inquilino de Skype empresarial online al que esté conectado actualmente:
 
-  - [Get-CsTenant](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenant)
+  - [Get-CsTenant](https://technet.microsoft.com/en-us/library/jj994044\(v=ocs.15\))
 
-  - [Set-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsTenantFederationConfiguration)
+  - [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080\(v=ocs.15\))
 
-  - [Set-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTenantHybridConfiguration)
+  - [Set-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994046\(v=ocs.15\))
 
-  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
+  - [Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))
 
-  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
+  - [Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))
 
-  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
+  - [Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))
 
-Por ejemplo, puede llamar al cmdlet **Get-CsTenantFederationConfiguration** con este comando:
+Por ejemplo, se puede llamar al cmdlet **Get-CsTenantFederationConfiguration** con este comando:
 
     Get-CsTenantFederationConfiguration
 
-Aunque no es necesario, cuando llame a Get-CsTenantFederationConfiguration puede incluir el parámetro Tenant:
+Aunque no sea necesario, puedes incluir el parámetro tenant cuando llames a get-CsTenantFederationConfiguration:
 
     Get-CsTenantFederationConfiguration -Tenant "bf19b7db-6960-41e5-a139-2aa373474354"
 
-## Vea también
+## <a name="see-also"></a>Vea también
 
-#### Conceptos
 
-[Identidades, ámbitos e inquilinos](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Los cmdlets de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Identidades, ámbitos y espacios empresariales en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Los cmdlets de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

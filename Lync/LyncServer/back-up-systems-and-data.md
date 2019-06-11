@@ -1,21 +1,51 @@
-﻿---
-title: Hacer una copia de seguridad de los datos y los sistemas
-TOCTitle: Hacer una copia de seguridad de los datos y los sistemas
-ms:assetid: d61fddc1-98d4-4577-a371-33f9e221288c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205303(v=OCS.15)
-ms:contentKeyID: 48276812
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Copia de seguridad de los datos y sistemas
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Back up systems and data
+ms:assetid: d61fddc1-98d4-4577-a371-33f9e221288c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205303(v=OCS.15)
+ms:contentKeyID: 48185550
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 85a1b871ca2f10a8cb213f2293dae4ef624242b9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842104"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Hacer una copia de seguridad de los datos y los sistemas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="back-up-systems-and-data"></a>Copia de seguridad de los datos y sistemas
 
-Antes de iniciar la migración a Lync Server 2013, recomendamos que realice una copia de seguridad completa del sistema y documente el sistema existente, incluido un inventario de las cuentas de usuario hospedadas en cada grupo de servidores, de modo que se pueda revertir a Lync Server 2010 cuando sea necesario. Están disponibles varias herramientas y programas para realizar copias de seguridad y restaurar datos, configuraciones y sistemas.
+</div>
 
-Para más información sobre procedimientos, vea [Copia de seguridad y restauración de Lync Server 2010](http://go.microsoft.com/fwlink/p/?linkid=265417).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-18_
+
+Antes de comenzar la migración a Lync Server 2013, le recomendamos encarecidamente que realice una copia de seguridad completa del sistema y documente el sistema existente, lo que incluye un inventario de las cuentas de usuario que se encuentran en cada grupo, de modo que pueda volver a Lync Server 2010 si es necesario. Hay varias herramientas y programas disponibles para realizar copias de seguridad y restaurar los datos, la configuración y los sistemas.
+
+Para obtener detalles y procedimientos, vea [copia de seguridad y restauración de Lync Server 2010](http://go.microsoft.com/fwlink/p/?linkid=265417) .
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

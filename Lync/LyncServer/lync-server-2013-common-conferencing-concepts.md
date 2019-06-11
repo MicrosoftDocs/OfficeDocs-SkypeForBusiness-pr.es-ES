@@ -1,55 +1,105 @@
-﻿---
-title: Conceptos comunes relativos a las conferencias en Lync Server 2013
-TOCTitle: Conceptos comunes relativos a las conferencias en Lync Server 2013
-ms:assetid: a21d4987-1c0a-44c8-8a39-9c17ffb57f3c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688158(v=OCS.15)
-ms:contentKeyID: 49889510
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: conceptos comunes de conferencias'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Common conferencing concepts
+ms:assetid: a21d4987-1c0a-44c8-8a39-9c17ffb57f3c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688158(v=OCS.15)
+ms:contentKeyID: 49733762
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 240415ccdf8c0ab9be2eaf10304973b62c302c79
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842538"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conceptos comunes relativos a las conferencias en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="common-conferencing-concepts-in-lync-server-2013"></a>Conceptos de conferencias comunes en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-19_
 
-Todos los tipos de conferencias tienen varios conceptos en común. Se describen en las siguientes secciones.
+Varios conceptos son comunes a todos los tipos de conferencia. Se describen en las siguientes secciones.
 
-## Directivas y administración de ancho de banda
+<div>
 
-Lync Server 2013 permite a los administradores establecer directivas para los tipos de reuniones que los usuarios pueden organizar. Esto ayuda a aplicar las directivas de la organización y a controlar el uso de ancho de banda. Puede definirse una gran variedad de directivas de reunión y asignarlas a usuarios individuales y grupos de usuarios. También se pueden establecer las directivas que rigen las conversaciones de punto a punto. Para obtener más información sobre cómo establecer directivas de conferencia, consulte [Directivas de conferencia de Lync Server 2013](lync-server-2013-conferencing-policies.md) en la documentación sobre operaciones. Para obtener más información sobre administración de ancho de banda, consulte [Información general sobre el control de admisión de llamadas en Lync Server 2013](lync-server-2013-overview-of-call-admission-control.md) y [Configuración de ancho de banda de vídeo en Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
+## <a name="policies-and-bandwidth-management"></a>Directivas y administración de ancho de banda
 
-## Características de Archivado y Cumplimiento
+Lync Server 2013 permite a los administradores establecer directivas para los tipos de reuniones que los usuarios pueden organizar. Esto le permite exigir las directivas de su organización y controlar el uso del ancho de banda. Puede definir una amplia variedad de políticas de reunión y asignarlas a usuarios individuales y a grupos de usuarios. También puede establecer las directivas que rigen las conversaciones de punto a punto. Para obtener más información sobre cómo configurar directivas de conferencia, consulte [directivas de conferencia en Lync Server 2013](lync-server-2013-conferencing-policies.md) en la documentación de operaciones. Para obtener más información sobre la administración de ancho de banda, vea [información general sobre el control de admisión de llamadas en Lync server 2013](lync-server-2013-overview-of-call-admission-control.md) y [configurar el ancho de banda de vídeo en Lync Server 2013](lync-server-2013-configuring-video-bandwidth.md).
 
-Lync Server 2013 proporciona características que se pueden usar si la organización debe seguir normativas de cumplimiento. Pueden usarse las capacidades de archivado para archivar contenido presentado en las reuniones, así como el contenido de conversaciones y conferencias de mensajería instantánea (MI). Para obtener más información, consulte [Planificar el archivado en Lync Server 2013](lync-server-2013-planning-for-archiving.md) en la documentación sobre planeamiento. Puede usar las características de cumplimiento de Servidor de Chat persistente para archivar conversaciones con varios participantes y basadas en temas que persistan durante mucho tiempo. Para obtener más información, consulte [Planeación del servidor de chat persistente en Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) en la documentación sobre planeamiento.
+</div>
 
-## Función de supervisión
+<div>
 
-La función Servidor de supervisión permite capturar registros de detalles de llamadas (CDR) que puede usar para controlar qué usuarios hablan con qué otros usuarios mediante Lync Server 2013. Para obtener más información sobre cómo implementar y configurar la supervisión, consulte [Implementación de supervisión en Lync Server 2013](lync-server-2013-deploying-monitoring.md).
+## <a name="archiving-and-compliance-features"></a>Características de archivado y cumplimiento
 
-## Habilitar la participación externa en conferencias
+Lync Server 2013 proporciona características que puede usar si su organización debe seguir las normas de cumplimiento. Puede usar las capacidades de archivado para archivar el contenido presentado en las reuniones, así como el contenido de las conversaciones de mensajería instantánea y las conferencias de mensajería instantánea. Para obtener más información, vea [planificación de archivado en Lync Server 2013](lync-server-2013-planning-for-archiving.md) en la documentación de planeación. Puede usar las características de cumplimiento del servidor de chat persistente para archivar conversaciones basadas en temas y en temas que se mantienen a lo largo del tiempo. Para obtener más información, vea [planeación de un servidor de chat persistente en Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) en la documentación de planeación.
 
-Puede aumentar enormemente los beneficios de su inversión en conferencias de Lync Server 2013 si habilita a usuarios externos para que participen también en conferencias cuando se les invite. Entre los usuarios externos se pueden incluir:
+</div>
 
-  - **Usuarios remotos**   Los propios usuarios de su organización cuando están trabajando desde fuera de los firewalls y están usando sus equipos portátiles u otros dispositivos de Lync Server 2013.
+<div>
 
-  - **Usuarios federados**   Usuarios de compañías con las que colabora y que también ejecutan Lync Server 2013. Para habilitar a sus usuarios para que se pongan en contacto fácilmente con estos usuarios, cree relaciones federadas con estas compañías.
+## <a name="monitoring-feature"></a>Característica de supervisión
 
-  - **Usuarios anónimos**   Cualquier otro usuario externo al que sus usuarios inviten específicamente a unirse a determinadas conferencias. Un organizador de reuniones de su compañía puede enviar una invitación por correo electrónico a un usuario externo para una conferencia. El correo electrónico incluye un vínculo en el que el usuario externo puede hacer clic para unirse a la conferencia.
+La característica servidor de supervisión puede capturar registros de detalles de llamadas (CDRs), que puede usar para realizar un seguimiento de los usuarios que se comunican con los otros usuarios de Lync Server 2013. Para obtener detalles sobre la implementación y la configuración de la supervisión, consulte [implementación de la supervisión en Lync Server 2013](lync-server-2013-deploying-monitoring.md).
 
-Para habilitar uno o todos estos escenarios, deberá implementar un servidor perimetral para que le ayude a habilitar comunicaciones seguras entre su implementación de Lync Server 2013 y los usuarios externos. La solución Lync Server 2013 con servidores perimetrales proporciona medios de mayor calidad que otras soluciones como, por ejemplo, una red privada virtual (VPN). Para obtener más información, consulte [Planear acceso de usuarios externos en Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
+</div>
 
-Además, tanto si su organización implementa o no servidores perimetrales, puede habilitar usuarios (ya sean de dentro o de fuera de la organización) para que realicen marcados desde teléfonos RTC para unirse a conferencias de audio locales. Esto se logra mediante la implementación de conferencia de acceso telefónico local de Lync Server 2013.
+<div>
 
-## Compatibilidad entre tipos de reunión y versiones de cliente
+## <a name="enabling-external-participation-in-conferences"></a>Habilitar la participación externa en conferencias
 
-Si va a hacer que Lync Server 2013 interactúe con versiones anteriores de Office Communications Server y sus clientes, debe conocer los aspectos siguientes:
+Puede aumentar enormemente los beneficios de su inversión en conferencias de 2013 de Lync Server al permitir que los usuarios externos también participen en conferencias cuando se inviten. Entre los usuarios externos se pueden incluir:
 
-  - Los usuarios que empleen Lync Server 2013 no pueden programar conferencias de Live Meeting ni modificar ninguna reunión migrada de este tipo.
+  - **A los usuarios**   remotos de su organización, cuando trabajan fuera de los firewalls y usan sus equipos portátiles u otros dispositivos de Lync Server 2013.
 
-  - Los usuarios que empleen Lync Server 2013 y necesiten participar en conferencias de Live Meeting hospedadas en servidores que funcionen con Office Communications Server 2007 R2 deben tener instalado en su equipo el cliente de Live Meeting (además de Lync Server 2013) para participar en dichas reuniones.
+  - **Usuarios federados**   usuarios de empresas con las que trabaja y que también ejecutan Lync Server 2013. Si desea habilitar a sus usuarios para que se pongan en contacto fácilmente con estos otros usuarios, cree relaciones federadas con estas compañías.
 
-  - Al migrar conferencias en línea de Live Meeting a Lync Server 2013, el contenido de la reunión no se migra. Si necesita dicho contenido, deberá volver a cargarlo.
+  - **Usuarios anónimos**   cualquier otro usuario externo al que los usuarios hayan invitado específicamente para unirse a conferencias específicas. Un organizador de reuniones de su compañía puede enviar una invitación por correo electrónico a un usuario externo para una conferencia. El correo electrónico incluye un vínculo en el que el usuario externo puede hacer clic para unirse a la conferencia.
+
+Para habilitar cualquiera de estos escenarios o todos ellos, debe implementar un servidor perimetral que le ayude a habilitar las comunicaciones seguras entre la implementación de Lync Server 2013 y los usuarios externos. La solución Lync Server 2013 que usa servidores perimetrales proporciona un medio de mayor calidad que otras soluciones, como una red privada virtual (VPN). Para obtener más información, consulte [planear el acceso de usuarios externos en Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
+
+Además, tanto si implementa servidores perimetrales como si no, puede habilitar a los usuarios (es decir, dentro o fuera de su organización) llamar desde teléfonos RTC estándar para unirse a conferencias de audio locales. Esto se logra implementando las conferencias de acceso telefónico local de Lync Server 2013.
+
+</div>
+
+<div>
+
+## <a name="compatibility-among-meeting-types-and-client-versions"></a>Compatibilidad entre los tipos de reunión y las versiones de cliente
+
+Si va a tener Lync Server 2013 interopera con versiones anteriores de Office Communications Server y sus clientes, debe tener en cuenta los siguientes problemas:
+
+  - Los usuarios que usen Lync Server 2013 no pueden programar conferencias de Live Meeting ni modificar las reuniones migradas de este tipo.
+
+  - Los usuarios que usan Lync Server 2013 que necesitan asistir a conferencias de Live Meeting hospedadas en servidores que ejecutan Office Communications Server 2007 R2 deben tener el cliente de Live Meeting instalado en su equipo (además de Lync Server 2013) para asistir a estas reuniones.
+
+  - Cuando se migran conferencias de Live Meeting a Lync Server 2013, el contenido de la reunión no se migra. Si se necesita este contenido, se debe volver a cargar.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
