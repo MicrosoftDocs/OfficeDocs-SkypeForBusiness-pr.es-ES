@@ -1,25 +1,59 @@
-﻿---
-title: "Administrar el estacionamiento de llamadas durante la recuperación ante desastres"
-TOCTitle: Administrar el estacionamiento de llamadas durante la recuperación ante desastres
-ms:assetid: 4df96c38-186f-4b0e-b076-bae6236da7db
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688052(v=OCS.15)
-ms:contentKeyID: 49889080
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Administrar el estacionamiento de llamadas durante la recuperación ante desastres'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage Call Park during disaster recovery
+ms:assetid: 4df96c38-186f-4b0e-b076-bae6236da7db
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688052(v=OCS.15)
+ms:contentKeyID: 49733645
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: de37da6b36492c14b1aca5d08d55dc046b4a50d3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828330"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar el estacionamiento de llamadas durante la recuperación ante desastres en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-10_
+# <a name="manage-call-park-during-disaster-recovery-in-lync-server-2013"></a><span data-ttu-id="0c84b-102">Administrar el estacionamiento de llamadas durante la recuperación ante desastres en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c84b-102">Manage Call Park during disaster recovery in Lync Server 2013</span></span>
 
-Lync Server 2013 admite Estacionamiento de llamadas en el grupo de copia de seguridad durante la recuperación ante desastres. En esta sección se describen cosas a considerar si desea admitir Estacionamiento de llamadas durante una interrupción y qué pasa con las llamadas estacionadas durante las fases de una interrupción.
+</div>
 
-## En esta sección
+<div id="mainSection">
 
-  - [Planear la recuperación ante desastres del estacionamiento de llamadas en Lync Server 2013](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+<div id="mainBody">
 
-  - [Experiencia de estacionamiento de llamadas durante un error del grupo de servidores en Lync Server 2013](lync-server-2013-call-park-experience-during-pool-failure.md)
+<span> </span>
+
+<span data-ttu-id="0c84b-103">_**Última modificación del tema:** 2012-09-10_</span><span class="sxs-lookup"><span data-stu-id="0c84b-103">_**Topic Last Modified:** 2012-09-10_</span></span>
+
+<span data-ttu-id="0c84b-104">Lync Server 2013 admite la llamada en el grupo de copia de seguridad durante la recuperación ante desastres.</span><span class="sxs-lookup"><span data-stu-id="0c84b-104">Lync Server 2013 supports Call Park in the backup pool during disaster recovery.</span></span> <span data-ttu-id="0c84b-105">En esta sección se describe lo que hay que tener en cuenta si desea admitir la función deestacionamientor llamadas durante una interrupción y qué sucede con las llamadas estacionadas durante las etapas de una interrupción.</span><span class="sxs-lookup"><span data-stu-id="0c84b-105">This section describes things to consider if you want to support Call Park during an outage and what happens to parked calls during the stages of an outage.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="0c84b-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="0c84b-106">In This Section</span></span>
+
+  - [<span data-ttu-id="0c84b-107">Planear la recuperación ante desastres del estacionamiento de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c84b-107">Planning for Call Park disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-call-park-disaster-recovery.md)
+
+  - [<span data-ttu-id="0c84b-108">Experiencia de estacionamiento de llamadas durante un error del grupo de servidores en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0c84b-108">Call Park experience in Lync Server 2013 during pool failure</span></span>](lync-server-2013-call-park-experience-during-pool-failure.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

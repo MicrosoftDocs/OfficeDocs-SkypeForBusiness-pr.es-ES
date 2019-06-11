@@ -1,51 +1,73 @@
-﻿---
-title: Cambios en el esquema de Lync Server 2013
-TOCTitle: Cambios en el esquema de Lync Server 2013
-ms:assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398944(v=OCS.15)
-ms:contentKeyID: 48276830
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: cambios de esquema en Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Schema changes in Lync Server 2013
+ms:assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398944(v=OCS.15)
+ms:contentKeyID: 48185575
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4bbe1c08b7d03042be2c03511103bfa4e43d39d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822002"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Cambios en el esquema de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="schema-changes-in-lync-server-2013"></a><span data-ttu-id="c1f9d-102">Cambios de esquema en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c1f9d-102">Schema changes in Lync Server 2013</span></span>
 
-Antes de implementar y usar Lync Server 2013, prepare Servicios de dominio de Active Directory con la extensión del esquema. Las extensiones de esquema agregan las clases y los atributos que necesita Lync Server 2013.
+</div>
 
-Lync Server 2013 necesita varios atributos y clases nuevos y modifica algunos de los ya existentes. Además, la mayoría de la información de configuración de Lync Server 2013 se almacena en el Almacén de administración central, en lugar de en AD DS como sucedía en versiones anteriores. La información siguiente continúa almacenándose en AD DS en Lync Server 2013:
+<div id="mainSection">
 
-  - **Extensiones de esquema**:
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="c1f9d-103">_**Última modificación del tema:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="c1f9d-103">_**Topic Last Modified:** 2012-10-18_</span></span>
+
+<span data-ttu-id="c1f9d-104">Antes de implementar y ejecutar Lync Server 2013, debe preparar el esquema para preparar los servicios de dominio de Active Directory.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-104">Before you deploy and operate Lync Server 2013, you must prepare Active Directory Domain Services by extending the schema.</span></span> <span data-ttu-id="c1f9d-105">Las extensiones de esquema agregan las clases y los atributos requeridos por Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-105">The schema extensions add the classes and attributes that are required by Lync Server 2013.</span></span>
+
+<span data-ttu-id="c1f9d-106">Lync Server 2013 requiere varias clases y atributos nuevos y modifica algunas clases y atributos existentes.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-106">Lync Server 2013 requires several new classes and attributes and modifies some existing classes and attributes.</span></span> <span data-ttu-id="c1f9d-107">Además, la información de configuración para Lync Server 2013 se almacena en el almacén de administración central, en lugar de en AD DS, como en versiones anteriores.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-107">In addition, much configuration information for Lync Server 2013 is stored in the Central Management store instead of in AD DS as in previous versions.</span></span> <span data-ttu-id="c1f9d-108">La siguiente información se almacena aún en AD DS en Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="c1f9d-108">The following information is still stored in AD DS in Lync Server 2013:</span></span>
+
+  - <span data-ttu-id="c1f9d-109">**Extensiones de esquema**:</span><span class="sxs-lookup"><span data-stu-id="c1f9d-109">**Schema extensions**:</span></span>
     
-      - Extensiones de objetos de usuario
+      - <span data-ttu-id="c1f9d-110">Extensiones de objetos de usuario</span><span class="sxs-lookup"><span data-stu-id="c1f9d-110">User object extensions</span></span>
     
-      - Extensiones para las clases de Office Communications Server 2007 y de Office Communications Server 2007 R2 con el fin de mantener la compatibilidad con versiones anteriores.
+      - <span data-ttu-id="c1f9d-111">Extensiones para las clases de Office Communications Server 2007 y Office Communications Server 2007 R2 para mantener la compatibilidad con versiones anteriores compatibles</span><span class="sxs-lookup"><span data-stu-id="c1f9d-111">Extensions for Office Communications Server 2007 and Office Communications Server 2007 R2 classes to maintain backward compatibility with supported previous versions</span></span>
 
 <!-- end list -->
 
-  - **Datos** (almacenados en el esquema extendido de Lync Server y en las clases de esquema existentes):
+  - <span data-ttu-id="c1f9d-112">**Datos** (se almacena en el esquema extendido de Lync Server y en las clases de esquema existentes):</span><span class="sxs-lookup"><span data-stu-id="c1f9d-112">**Data** (stored in Lync Server extended schema and in existing schema classes):</span></span>
     
-      - Identificador uniforme de recursos (URI) de SIP del usuario y otros parámetros de usuario
+      - <span data-ttu-id="c1f9d-113">Identificador uniforme de recursos (URI) SIP de usuario y otra configuración de usuario</span><span class="sxs-lookup"><span data-stu-id="c1f9d-113">User SIP Uniform Resource Identifier (URI) and other user settings</span></span>
     
-      - Objetos de contacto para aplicaciones como Grupo de respuesta y Operador de conferencia
+      - <span data-ttu-id="c1f9d-114">Objetos de contacto para aplicaciones como el operador de conferencia y el grupo de respuesta</span><span class="sxs-lookup"><span data-stu-id="c1f9d-114">Contact objects for applications such as Response Group and Conferencing Attendant</span></span>
     
-      - Un puntero al Almacén de administración central
+      - <span data-ttu-id="c1f9d-115">Puntero al almacén de administración central</span><span class="sxs-lookup"><span data-stu-id="c1f9d-115">A pointer to the Central Management store</span></span>
     
-      - Cuenta de autenticación Kerberos (un objeto de equipo opcional)
+      - <span data-ttu-id="c1f9d-116">Cuenta de autenticación Kerberos (un objeto de equipo opcional)</span><span class="sxs-lookup"><span data-stu-id="c1f9d-116">Kerberos Authentication Account (an optional computer object)</span></span>
 
-En este tema se describen los cambios en el esquema de Active Directory que Lync Server 2013 necesita. No obstante, no se describen los cambios en el esquema introducidos en versiones anteriores de Office Communications Server. Para obtener una lista de clases y sus descripciones, vea [Clases de esquema y descripciones de Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md). Para obtener una lista de atributos y sus descripciones, vea [Atributos de esquema y descripciones de Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md). Para obtener una lista de clases con los atributos que pueden contener, vea [Atributos de esquema por clase de Lync Server 2013](lync-server-2013-schema-attributes-by-class.md).
+<span data-ttu-id="c1f9d-117">En este tema se describen los cambios de esquema de Active Directory que necesita Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-117">This topic describes the Active Directory schema changes required by Lync Server 2013.</span></span> <span data-ttu-id="c1f9d-118">No se describen los cambios de esquema introducidos por versiones anteriores de Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-118">It does not describe schema changes that were introduced by previous versions of Office Communications Server.</span></span> <span data-ttu-id="c1f9d-119">Para obtener una lista de las clases y sus descripciones, vea [clases y descripciones de esquemas en Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md).</span><span class="sxs-lookup"><span data-stu-id="c1f9d-119">For a list of classes and their descriptions, see [Schema classes and descriptions in Lync Server 2013](lync-server-2013-schema-classes-and-descriptions.md).</span></span> <span data-ttu-id="c1f9d-120">Para obtener una lista de atributos y sus descripciones, consulte [atributos y descripciones del esquema en Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).</span><span class="sxs-lookup"><span data-stu-id="c1f9d-120">For a list of attributes and their descriptions, see [Schema attributes and descriptions in Lync Server 2013](lync-server-2013-schema-attributes-and-descriptions.md).</span></span> <span data-ttu-id="c1f9d-121">Para obtener una lista de las clases con los atributos que pueden contener, consulte [atributos de esquema por clase en Lync Server 2013](lync-server-2013-schema-attributes-by-class.md).</span><span class="sxs-lookup"><span data-stu-id="c1f9d-121">For a list of classes with the attributes they may contain, see [Schema attributes by class in Lync Server 2013](lync-server-2013-schema-attributes-by-class.md).</span></span>
 
-El prefijo msRTCSIP identifica clases y atributos que son específicos de Lync Server.
+<span data-ttu-id="c1f9d-122">El prefijo msRTCSIP identifica clases y atributos específicos de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-122">The msRTCSIP prefix identifies classes and attributes that are specific to Lync Server.</span></span>
 
-## Nuevos atributos de Active Directory
+<div>
 
-En la tabla siguiente se describen los atributos de Active Directory que agrega Lync Server 2013.
+## <a name="new-active-directory-attributes"></a><span data-ttu-id="c1f9d-123">Nuevos atributos de Active Directory</span><span class="sxs-lookup"><span data-stu-id="c1f9d-123">New Active Directory Attributes</span></span>
 
-### Atributos agregados por Lync Server 2013
+<span data-ttu-id="c1f9d-124">En la siguiente tabla se describen los atributos de Active Directory agregados por Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-124">The following table describes the Active Directory attributes that are added by Lync Server 2013.</span></span>
+
+### <a name="attributes-added-by-lync-server-2013"></a><span data-ttu-id="c1f9d-125">Atributos agregados por Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c1f9d-125">Attributes Added by Lync Server 2013</span></span>
 
 <table>
 <colgroup>
@@ -54,32 +76,36 @@ En la tabla siguiente se describen los atributos de Active Directory que agrega 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Atributo</th>
-<th>Descripción</th>
+<th><span data-ttu-id="c1f9d-126">Atributo</span><span class="sxs-lookup"><span data-stu-id="c1f9d-126">Attribute</span></span></th>
+<th><span data-ttu-id="c1f9d-127">Descripción</span><span class="sxs-lookup"><span data-stu-id="c1f9d-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>msExchUserHoldPolicies</p></td>
-<td><p>Este atributo de varios valores contiene los identificadores de las directivas de retención que se aplican al usuario. Estas directivas conservan los elementos de buzón de correo del usuario mientras dure la retención. Este atributo se comparte con Exchange 2013.</p></td>
+<td><p><span data-ttu-id="c1f9d-128">msExchUserHoldPolicies</span><span class="sxs-lookup"><span data-stu-id="c1f9d-128">msExchUserHoldPolicies</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-129">Este atributo de valor múltiple contiene los identificadores para las directivas de retención que se aplican al usuario.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-129">This multi-value attribute holds identifiers for hold policies that apply to the user.</span></span> <span data-ttu-id="c1f9d-130">Las directivas de retención mantienen los elementos del buzón de correo para el usuario durante el período de espera.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-130">Hold policies preserve mailbox items for the user for the duration of the hold.</span></span> <span data-ttu-id="c1f9d-131">Este atributo se comparte con Exchange 2013.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-131">This attribute is shared with Exchange 2013.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-UserRoutingGroupId</p></td>
-<td><p>Este es el identificador de grupo de enrutamiento SIP. Los usuarios del mismo grupo se registrarán en el mismo servidor front-end.</p></td>
+<td><p><span data-ttu-id="c1f9d-132">msRTCSIP-UserRoutingGroupId</span><span class="sxs-lookup"><span data-stu-id="c1f9d-132">msRTCSIP-UserRoutingGroupId</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-133">Este es el identificador de grupo de enrutamiento SIP.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-133">This is the SIP routing group ID.</span></span> <span data-ttu-id="c1f9d-134">Los usuarios del mismo grupo se registrarán en el mismo servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-134">Users in the same group will register to the same Front End Server.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>msRTCSIP-MirrorBackEndServer</p></td>
-<td><p>Este atributo se usa para almacenar el reflejo del back-end del servidor SQL que el Grupo de servidores front-endusa.</p></td>
+<td><p><span data-ttu-id="c1f9d-135">msRTCSIP-MirrorBackEndServer</span><span class="sxs-lookup"><span data-stu-id="c1f9d-135">msRTCSIP-MirrorBackEndServer</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-136">Este atributo se usa para almacenar el back-end de SQL Server reflejado usado por el grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-136">This attribute is used to store the mirrored SQL Server backend used by the Front End pool.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Clases de Active Directory modificadas
+</div>
 
-En la tabla siguiente se describen las clases de Active Directory que modifica Lync Server 2013.
+<div>
 
-### Clases modificadas por Lync Server 2013
+## <a name="modified-active-directory-classes"></a><span data-ttu-id="c1f9d-137">Clases de Active Directory modificadas</span><span class="sxs-lookup"><span data-stu-id="c1f9d-137">Modified Active Directory Classes</span></span>
+
+<span data-ttu-id="c1f9d-138">En la siguiente tabla se describen las clases de Active Directory que modifica Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c1f9d-138">The following table describes the Active Directory classes that are modified by Lync Server 2013.</span></span>
+
+### <a name="classes-modified-by-lync-server-2013"></a><span data-ttu-id="c1f9d-139">Clases modificadas por Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c1f9d-139">Classes Modified by Lync Server 2013</span></span>
 
 <table>
 <colgroup>
@@ -89,36 +115,49 @@ En la tabla siguiente se describen las clases de Active Directory que modifica L
 </colgroup>
 <thead>
 <tr class="header">
-<th>Clase</th>
-<th>Cambio</th>
-<th>Clase o atributo</th>
+<th><span data-ttu-id="c1f9d-140">Las</span><span class="sxs-lookup"><span data-stu-id="c1f9d-140">Class</span></span></th>
+<th><span data-ttu-id="c1f9d-141">Cambio</span><span class="sxs-lookup"><span data-stu-id="c1f9d-141">Change</span></span></th>
+<th><span data-ttu-id="c1f9d-142">Clase o atributo</span><span class="sxs-lookup"><span data-stu-id="c1f9d-142">Class or Attribute</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>User</p></td>
-<td><p>agregar: mayContain</p>
-<p>agregar: mayContain</p></td>
-<td><p>ProxyAddresses</p>
-<p>msRTCSIP-UserRoutingGroupId</p></td>
+<td><p><span data-ttu-id="c1f9d-143">Usuario</span><span class="sxs-lookup"><span data-stu-id="c1f9d-143">User</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-144">Agregar: mayContain</span><span class="sxs-lookup"><span data-stu-id="c1f9d-144">add: mayContain</span></span></p>
+<p><span data-ttu-id="c1f9d-145">Agregar: mayContain</span><span class="sxs-lookup"><span data-stu-id="c1f9d-145">add: mayContain</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-146">ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="c1f9d-146">ProxyAddresses</span></span></p>
+<p><span data-ttu-id="c1f9d-147">msRTCSIP-UserRoutingGroupId</span><span class="sxs-lookup"><span data-stu-id="c1f9d-147">msRTCSIP-UserRoutingGroupId</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Contact</p></td>
-<td><p>agregar: mayContain</p>
-<p>agregar: mayContain</p></td>
-<td><p>ProxyAddresses</p>
-<p>msRTCSIP-UserRoutingGroupId</p></td>
+<td><p><span data-ttu-id="c1f9d-148">Con</span><span class="sxs-lookup"><span data-stu-id="c1f9d-148">Contact</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-149">Agregar: mayContain</span><span class="sxs-lookup"><span data-stu-id="c1f9d-149">add: mayContain</span></span></p>
+<p><span data-ttu-id="c1f9d-150">Agregar: mayContain</span><span class="sxs-lookup"><span data-stu-id="c1f9d-150">add: mayContain</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-151">ProxyAddresses</span><span class="sxs-lookup"><span data-stu-id="c1f9d-151">ProxyAddresses</span></span></p>
+<p><span data-ttu-id="c1f9d-152">msRTCSIP-UserRoutingGroupId</span><span class="sxs-lookup"><span data-stu-id="c1f9d-152">msRTCSIP-UserRoutingGroupId</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Mail-Recipient</p></td>
-<td><p>agregar: mayContain</p></td>
-<td><p>msExchUserHoldPolicies</p></td>
+<td><p><span data-ttu-id="c1f9d-153">Destinatario de correo</span><span class="sxs-lookup"><span data-stu-id="c1f9d-153">Mail-Recipient</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-154">Agregar: mayContain</span><span class="sxs-lookup"><span data-stu-id="c1f9d-154">add: mayContain</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-155">msExchUserHoldPolicies</span><span class="sxs-lookup"><span data-stu-id="c1f9d-155">msExchUserHoldPolicies</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>msRTCSIP-GlobalTopologySetting</p></td>
-<td><p>agregar: mayContain</p></td>
-<td><p>msRTCSIP-MirrorBackEndServer</p></td>
+<td><p><span data-ttu-id="c1f9d-156">msRTCSIP-GlobalTopologySetting</span><span class="sxs-lookup"><span data-stu-id="c1f9d-156">msRTCSIP-GlobalTopologySetting</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-157">Agregar: mayContain</span><span class="sxs-lookup"><span data-stu-id="c1f9d-157">add: mayContain</span></span></p></td>
+<td><p><span data-ttu-id="c1f9d-158">msRTCSIP-MirrorBackEndServer</span><span class="sxs-lookup"><span data-stu-id="c1f9d-158">msRTCSIP-MirrorBackEndServer</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

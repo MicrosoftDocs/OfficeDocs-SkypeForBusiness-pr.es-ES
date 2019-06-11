@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: Resumen de puerto - Carga equilibrada DNS y HLB'
-TOCTitle: Resumen de puerto - Carga equilibrada DNS y HLB
-ms:assetid: b07c37e4-820e-46ee-a678-1da95d1b87af
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205179(v=OCS.15)
-ms:contentKeyID: 48276369
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumen de puerto - Carga equilibrada DNS y HLB'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Port summary - DNS and HLB load balanced
+ms:assetid: b07c37e4-820e-46ee-a678-1da95d1b87af
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205179(v=OCS.15)
+ms:contentKeyID: 48185149
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5bd2a276f9495d314d2a8d4588f027df08978b94
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824067"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de puerto - Carga equilibrada DNS y HLB en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="port-summary---dns-and-hlb-load-balanced-in-lync-server-2013"></a><span data-ttu-id="12950-102">Resumen de puerto - Carga equilibrada DNS y HLB en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12950-102">Port summary - DNS and HLB load balanced in Lync Server 2013</span></span>
 
-Los requisitos de puertos de firewall para un Director único incluyen los puertos que se usan para establecer la comunicación con el Director desde la interfaz interna o la red interna del proxy inverso. De manera predeterminada, Microsoft Lync Server 2013 espera que los puertos HTTP/TCP 8080 y HTTPS/TCP 4443 estén abiertos del proxy inverso al Director, además del Grupo de servidores front-end y el Servidor front-end. Además, debe haber comunicación del protocolo de inicio de sesión (SIP) de la interfaz interna del Servidor perimetral al Director, y al Grupo de servidores front-end y el Servidor front-end. El protocolo SIP usa SIP/MTLS/TCP 5061 del Servidor perimetral al Grupo de servidores front-end y el Servidor front-end. También se debe crear una regla que permita la comunicación SIP/MTLS/TCP 5061 del Director, el Grupo de servidores front-end y el Servidor front-end a la interfaz interna del Servidor perimetral.
+</div>
 
-### Puertos y protocolos del Director único para definiciones de firewall
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="12950-103">_**Última modificación del tema:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="12950-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+
+<span data-ttu-id="12950-104">Los requisitos del puerto de Firewall para un único Director son los puertos que se usan para establecer comunicación con el director desde la interfaz interna o la red interna del proxy inverso.</span><span class="sxs-lookup"><span data-stu-id="12950-104">Firewall port requirements for a single Director consist of the ports that are used to establish communication with the Director from the internal interface or internal-facing network of the reverse proxy.</span></span> <span data-ttu-id="12950-105">Microsoft Lync Server 2013 espera de forma predeterminada que los puertos HTTP/TCP 8080 y HTTPS/TCP 4443 se abran desde el proxy inverso al Director, así como el servidor front-end y el servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="12950-105">Microsoft Lync Server 2013 by default expects ports HTTP/TCP 8080 and HTTPS/TCP 4443 to be open from the reverse proxy to the Director, as well as the Front End pool and Front End Server.</span></span> <span data-ttu-id="12950-106">Además, debe haber comunicación del Protocolo de inicio de sesión (SIP) desde la interfaz interna del servidor perimetral al Director y al grupo de servidores front-end y front-end.</span><span class="sxs-lookup"><span data-stu-id="12950-106">Additionally, there must be session initiation protocol (SIP) communication from the Edge Server internal interface to the Director and to the Front End pool and Front End Server.</span></span> <span data-ttu-id="12950-107">El protocolo SIP usa SIP/MTLS/TCP 5061 del servidor perimetral al grupo front-end y al servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="12950-107">The SIP protocol uses SIP/MTLS/TCP 5061 from the Edge Server to the Front End pool and Front End Server.</span></span> <span data-ttu-id="12950-108">También se debe crear una regla que permita la comunicación SIP/MTLS/TCP 5061 desde el director, el grupo de servidores front-end y el servidor front-end a la interfaz interna del servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="12950-108">A rule that allows SIP/MTLS/TCP 5061 communication from the Director, Front End pool and Front End Server to the Edge Server internal interface must be created as well.</span></span>
+
+### <a name="single-director-ports-and-protocols-for-firewall-definitions"></a><span data-ttu-id="12950-109">Puertos y protocolos de un solo Director para definiciones de Firewall</span><span class="sxs-lookup"><span data-stu-id="12950-109">Single Director Ports and Protocols for Firewall Definitions</span></span>
 
 <table>
 <colgroup>
@@ -28,67 +48,78 @@ Los requisitos de puertos de firewall para un Director único incluyen los puert
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rol/Protocolo/TCP o UDP/Puerto</th>
-<th>Dirección IP de origen</th>
-<th>Dirección IP de destino</th>
-<th>Notas</th>
+<th><span data-ttu-id="12950-110">Función/protocolo/TCP o UDP/puerto</span><span class="sxs-lookup"><span data-stu-id="12950-110">Role/Protocol/TCP or UDP/Port</span></span></th>
+<th><span data-ttu-id="12950-111">Dirección IP de origen</span><span class="sxs-lookup"><span data-stu-id="12950-111">Source IP address</span></span></th>
+<th><span data-ttu-id="12950-112">Dirección IP de destino</span><span class="sxs-lookup"><span data-stu-id="12950-112">Destination IP address</span></span></th>
+<th><span data-ttu-id="12950-113">Notas</span><span class="sxs-lookup"><span data-stu-id="12950-113">Notes</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>HTTP/TCP 8080</p></td>
-<td><p>Interfaz interna de proxy inverso</p></td>
-<td><p>VIP del equilibrador de carga de hardware del Director</p></td>
-<td><p>Recibida inicialmente por el lado externo del proxy inverso, la comunicación se envía a la VIP del HLB del Director y los servicios web del Servidor front-end.</p></td>
+<td><p><span data-ttu-id="12950-114">HTTP/TCP 8080</span><span class="sxs-lookup"><span data-stu-id="12950-114">HTTP/TCP 8080</span></span></p></td>
+<td><p><span data-ttu-id="12950-115">Interfaz interna de proxy invertida</span><span class="sxs-lookup"><span data-stu-id="12950-115">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="12950-116">Director VIP de equilibrador de carga de hardware</span><span class="sxs-lookup"><span data-stu-id="12950-116">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="12950-117">Inicialmente recibido por el lado externo del proxy inverso, la comunicación se envía al Director HLB VIP y los servicios Web de servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="12950-117">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>HTTPS/TCP 4443</p></td>
-<td><p>Interfaz interna de proxy inverso</p></td>
-<td><p>VIP del equilibrador de carga de hardware del Director</p></td>
-<td><p>Recibida inicialmente por el lado externo del proxy inverso, la comunicación se envía a la VIP del HLB del Director y los servicios web del Servidor front-end.</p></td>
+<td><p><span data-ttu-id="12950-118">HTTPS/TCP 4443</span><span class="sxs-lookup"><span data-stu-id="12950-118">HTTPS/TCP 4443</span></span></p></td>
+<td><p><span data-ttu-id="12950-119">Interfaz interna de proxy invertida</span><span class="sxs-lookup"><span data-stu-id="12950-119">Reverse proxy internal interface</span></span></p></td>
+<td><p><span data-ttu-id="12950-120">Director VIP de equilibrador de carga de hardware</span><span class="sxs-lookup"><span data-stu-id="12950-120">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="12950-121">Inicialmente recibido por el lado externo del proxy inverso, la comunicación se envía al Director HLB VIP y los servicios Web de servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="12950-121">Initially received by the external side of the reverse proxy, the communication is sent on to the Director HLB VIP and Front End Server web services.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTPS/TCP 444</p></td>
-<td><p>Director</p></td>
-<td><p>Grupo de servidores front-end o Servidor front-end</p></td>
-<td><p>Comunicación entre servidores, entre la VIP del HLB del Director y el Servidor front-end o Servidores front-end.</p></td>
+<td><p><span data-ttu-id="12950-122">HTTPS/TCP 444</span><span class="sxs-lookup"><span data-stu-id="12950-122">HTTPS/TCP 444</span></span></p></td>
+<td><p><span data-ttu-id="12950-123">Director</span><span class="sxs-lookup"><span data-stu-id="12950-123">Director</span></span></p></td>
+<td><p><span data-ttu-id="12950-124">Grupo de servidores front-end o servidor front-end</span><span class="sxs-lookup"><span data-stu-id="12950-124">Front End pool or Front End Server</span></span></p></td>
+<td><p><span data-ttu-id="12950-125">Comunicación entre servidores entre el director HLB VIP y el servidor front-end o front-end.</span><span class="sxs-lookup"><span data-stu-id="12950-125">Inter-server communication between the Director HLB VIP and the Front End Server or Front End Servers.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>HTTP/TCP 80</p></td>
-<td><p>Clientes internos</p></td>
-<td><p>VIP del equilibrador de carga de hardware del Director</p></td>
-<td><p>El Director ofrece servicios web tanto a clientes internos como externos.</p></td>
+<td><p><span data-ttu-id="12950-126">HTTP/TCP 80</span><span class="sxs-lookup"><span data-stu-id="12950-126">HTTP/TCP 80</span></span></p></td>
+<td><p><span data-ttu-id="12950-127">Clientes internos</span><span class="sxs-lookup"><span data-stu-id="12950-127">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="12950-128">Director VIP de equilibrador de carga de hardware</span><span class="sxs-lookup"><span data-stu-id="12950-128">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="12950-129">El director proporciona servicios web a clientes externos y internos.</span><span class="sxs-lookup"><span data-stu-id="12950-129">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>HTTPS/TCP 443</p></td>
-<td><p>Clientes internos</p></td>
-<td><p>VIP del equilibrador de carga de hardware del Director</p></td>
-<td><p>El Director ofrece servicios web tanto a clientes internos como externos.</p></td>
+<td><p><span data-ttu-id="12950-130">HTTPS/TCP 443</span><span class="sxs-lookup"><span data-stu-id="12950-130">HTTPS/TCP 443</span></span></p></td>
+<td><p><span data-ttu-id="12950-131">Clientes internos</span><span class="sxs-lookup"><span data-stu-id="12950-131">Internal Clients</span></span></p></td>
+<td><p><span data-ttu-id="12950-132">Director VIP de equilibrador de carga de hardware</span><span class="sxs-lookup"><span data-stu-id="12950-132">Director Hardware Load Balancer VIP</span></span></p></td>
+<td><p><span data-ttu-id="12950-133">El director proporciona servicios web a clientes externos y internos.</span><span class="sxs-lookup"><span data-stu-id="12950-133">The Director provides web services to internal as well as external clients.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>SIP/MTLS/TCP 5061</p></td>
-<td><p>Interfaz interna del Servidor perimetral</p></td>
-<td><p>Director</p></td>
-<td><p>Comunicación SIP del servidor perimetral al Director, además del Servidores front-end.</p></td>
+<td><p><span data-ttu-id="12950-134">SIP/MTLS/TCP 5061</span><span class="sxs-lookup"><span data-stu-id="12950-134">SIP/MTLS/TCP 5061</span></span></p></td>
+<td><p><span data-ttu-id="12950-135">Interfaz interna de Edge Server</span><span class="sxs-lookup"><span data-stu-id="12950-135">Edge Server internal interface</span></span></p></td>
+<td><p><span data-ttu-id="12950-136">Director</span><span class="sxs-lookup"><span data-stu-id="12950-136">Director</span></span></p></td>
+<td><p><span data-ttu-id="12950-137">Comunicación SIP desde el servidor perimetral al Director, así como a los servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="12950-137">SIP communication from the Edge Server to the Director, as well as the Front End Servers.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MTLS/TCP/50001</p></td>
-<td><p>Cualquiera</p></td>
-<td><p>Director</p></td>
-<td><p>Colección de registros y comandos del controlador del Servicio de registro centralizado (ClsController.exe) o del agente (ClsAgent.exe).</p></td>
+<td><p><span data-ttu-id="12950-138">MTLS/TCP/50001</span><span class="sxs-lookup"><span data-stu-id="12950-138">MTLS/TCP/50001</span></span></p></td>
+<td><p><span data-ttu-id="12950-139">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="12950-139">Any</span></span></p></td>
+<td><p><span data-ttu-id="12950-140">Director</span><span class="sxs-lookup"><span data-stu-id="12950-140">Director</span></span></p></td>
+<td><p><span data-ttu-id="12950-141">Comandos del controlador de registro centralizado (ClsController. exe) o agente (ClsAgent. exe) y recopilación de registros</span><span class="sxs-lookup"><span data-stu-id="12950-141">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>MTLS/TCP/50002</p></td>
-<td><p>Cualquiera</p></td>
-<td><p>Director</p></td>
-<td><p>Colección de registros y comandos del controlador del Servicio de registro centralizado (ClsController.exe) o del agente (ClsAgent.exe).</p></td>
+<td><p><span data-ttu-id="12950-142">MTLS/TCP/50002</span><span class="sxs-lookup"><span data-stu-id="12950-142">MTLS/TCP/50002</span></span></p></td>
+<td><p><span data-ttu-id="12950-143">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="12950-143">Any</span></span></p></td>
+<td><p><span data-ttu-id="12950-144">Director</span><span class="sxs-lookup"><span data-stu-id="12950-144">Director</span></span></p></td>
+<td><p><span data-ttu-id="12950-145">Comandos del controlador de registro centralizado (ClsController. exe) o agente (ClsAgent. exe) y recopilación de registros</span><span class="sxs-lookup"><span data-stu-id="12950-145">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>MTLS/TCP/50003</p></td>
-<td><p>Cualquiera</p></td>
-<td><p>Director</p></td>
-<td><p>Colección de registros y comandos del controlador del Servicio de registro centralizado (ClsController.exe) o del agente (ClsAgent.exe).</p></td>
+<td><p><span data-ttu-id="12950-146">MTLS/TCP/50003</span><span class="sxs-lookup"><span data-stu-id="12950-146">MTLS/TCP/50003</span></span></p></td>
+<td><p><span data-ttu-id="12950-147">Cualquiera</span><span class="sxs-lookup"><span data-stu-id="12950-147">Any</span></span></p></td>
+<td><p><span data-ttu-id="12950-148">Director</span><span class="sxs-lookup"><span data-stu-id="12950-148">Director</span></span></p></td>
+<td><p><span data-ttu-id="12950-149">Comandos del controlador de registro centralizado (ClsController. exe) o agente (ClsAgent. exe) y recopilación de registros</span><span class="sxs-lookup"><span data-stu-id="12950-149">Centralized Logging Service controller (ClsController.exe) or agent (ClsAgent.exe)commands and log collection</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

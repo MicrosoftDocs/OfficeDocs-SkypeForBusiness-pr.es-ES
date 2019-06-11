@@ -1,37 +1,71 @@
-﻿---
-title: 'Lync Server 2013: Ubicación de la puerta de enlace RTC'
-TOCTitle: Ubicación de la puerta de enlace RTC
-ms:assetid: 49693a35-fad3-49ee-a71e-c7e4537b79aa
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994031(v=OCS.15)
-ms:contentKeyID: 52061676
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Ubicación de la puerta de enlace RTC'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: PSTN gateway's location
+ms:assetid: 49693a35-fad3-49ee-a71e-c7e4537b79aa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994031(v=OCS.15)
+ms:contentKeyID: 51803940
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b897d9ce438844cde7617bb7c3e1dae086605f09
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823549"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ubicación de la puerta de enlace RTC en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-03-09_
+# <a name="pstn-gateways-location-in-lync-server-2013"></a><span data-ttu-id="571b1-102">Ubicación de la puerta de enlace RTC en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="571b1-102">PSTN gateway's location in Lync Server 2013</span></span>
 
-Las llamadas enrutadas a través de puertas de enlace RTC y PBX podrían necesitar restricciones de enrutamiento según ubicación en función de la ubicación de dichos sistemas. El enrutamiento según ubicación se puede habilitar en la granularidad para cada tronco.
+</div>
 
-El enrutamiento según ubicación presenta el siguiente conjunto de reglas cuando se habilita en un tronco:
+<div id="mainSection">
 
-  - Cuando el enrutamiento según ubicación se habilita para cada tronco, las reglas definen el tronco que se aplicará solo para llamadas enrutadas a través de dicho tronco.
+<div id="mainBody">
 
-  - Para impedir la omisión de tarifa RTC donde las llamadas se originan en un sitio de red distinto que el sitio de red en el que se encuentra la puerta de enlace RTC, el enrutamiento según ubicación presenta la asociación de un sitio de red a un tronco determinado. Esto define el sitio de red que permite que las llamadas se enruten hacia determinado tronco.
+<span> </span>
 
-Los troncos se pueden habilitar para el enrutamiento según ubicación de dos maneras:
+<span data-ttu-id="571b1-103">_**Última modificación del tema:** 2013-03-09_</span><span class="sxs-lookup"><span data-stu-id="571b1-103">_**Topic Last Modified:** 2013-03-09_</span></span>
 
-  - El tronco se define para una puerta de enlace RTC que da salida a llamadas al RTC. Las llamadas entrantes enrutadas por un tronco de este tipo se enrutarán solo a los extremos ubicados dentro del mismo sitio de red que el tronco.
+<span data-ttu-id="571b1-104">Las llamadas enrutadas a través de puertas de enlace y PBX RTC pueden requerir restricciones de enrutamiento basadas en la ubicación, en función de la ubicación de dichos sistemas.</span><span class="sxs-lookup"><span data-stu-id="571b1-104">Calls routed via PSTN gateways and PBXs might require Location-Based Routing restrictions depending on the location of such systems.</span></span> <span data-ttu-id="571b1-105">El enrutamiento basado en la ubicación se puede habilitar en la granularidad según el enlace.</span><span class="sxs-lookup"><span data-stu-id="571b1-105">Location-Based Routing can be enabled at the granularity on a per trunk basis.</span></span>
 
-  - El tronco se define para un par de Servidor de mediación que no da salida a llamadas al RTC y usuarios de servicios con teléfonos heredados en una ubicación estática (p. ej., teléfonos de PBX). Para esta configuración específica, todas las llamadas entrantes enrutadas por un tronco de este tipo se considerarán como originarias del mismo sitio de red que el tronco. Las llamadas de usuarios de PBX tendrán la misma aplicación de enrutamiento según ubicación que los usuarios de Lync que se encuentran en el mismo sitio de red que el tronco. Si dos sistemas PBX ubicados en sitios de red independientes se conectan a través de Lync Server, el enrutamiento según ubicación permitirá enrutamiento de un extremo de PBX en un sitio de red a otro extremo de PBX en el otro sitio de red. Este escenario no se bloqueará mediante el enrutamiento según ubicación. Además de este escenario y de una forma similar que un usuario de Lync en la misma ubicación, los extremos conectados a un par de Servidor de mediación con esta configuración podrán hacer o recibir llamadas hacia y desde otro par de Servidor de mediación que no enrute llamadas al RTC (un extremo conectado a otro PBX) independientemente del sitio de red al que se asocia el par de Servidor de mediación. Todas las llamadas entrantes, llamadas salientes, transferencias de llamadas y reenvíos de llamadas en los que participan los extremos de RTC estarán sujetas al enrutamiento según ubicación para usar solo puertas de enlace RTC que se definan como locales para dicho par de Servidor de mediación.
+<span data-ttu-id="571b1-106">El enrutamiento basado en la ubicación presenta el siguiente conjunto de reglas cuando se habilita en un tronco:</span><span class="sxs-lookup"><span data-stu-id="571b1-106">Location-Based Routing introduces the following set of rules when enabled on a trunk:</span></span>
 
-## Vea también
+  - <span data-ttu-id="571b1-107">Cuando el enrutamiento basado en la ubicación está habilitado para cada troncal, las reglas definidas en ese tronco se aplicarán únicamente a las llamadas dirigidas a través de ese tronco.</span><span class="sxs-lookup"><span data-stu-id="571b1-107">When Location-Based Routing is enabled on a per trunk basis, the rules define on that trunk will be applied only to calls routed through that trunk.</span></span>
 
-#### Otros recursos
+  - <span data-ttu-id="571b1-108">Para evitar que los peajes de RTC omitan donde las llamadas se originan desde un sitio de red diferente que el sitio de red en el que se encuentra la puerta de enlace RTC, el enrutamiento basado en la ubicación introduce la Asociación de un sitio de red a un tronco determinado.</span><span class="sxs-lookup"><span data-stu-id="571b1-108">To prevent PSTN tolls bypass where calls originate from a network site different that the network site where the PSTN gateway is located, Location-Based Routing introduces the association of a network site to a given trunk.</span></span> <span data-ttu-id="571b1-109">Esto define el sitio de red que permite que las llamadas se redirijan hacia determinado tronco.</span><span class="sxs-lookup"><span data-stu-id="571b1-109">This defines the network site that allows calls to be routed to a given trunk.</span></span>
 
-[Instrucciones para el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-guidance-for-location-based-routing.md)
+<span data-ttu-id="571b1-110">Los troncos se pueden habilitar para el enrutamiento basado en la ubicación de dos maneras:</span><span class="sxs-lookup"><span data-stu-id="571b1-110">Trunks can be enabled for Location-Based Routing in two ways:</span></span>
+
+  - <span data-ttu-id="571b1-p103">El tronco se define para una puerta de enlace RTC que realiza llamadas a la RTC. Las llamadas entrantes redirigidas por un tronco de este tipo se redirigen solo a los extremos ubicados dentro del mismo sitio de red que el tronco.</span><span class="sxs-lookup"><span data-stu-id="571b1-p103">The trunk is defined for a PSTN gateway that egresses calls to the PSTN. Incoming calls routed by a trunk of this type will be routed only to endpoints located within the same network site as the trunk.</span></span>
+
+  - <span data-ttu-id="571b1-113">El tronco se define para un servidor de mediación del mismo nivel que no de salida las llamadas a los usuarios de RTC y servicios con teléfonos heredados en ubicaciones estáticas (es decir, teléfonos PBX).</span><span class="sxs-lookup"><span data-stu-id="571b1-113">The trunk is defined for a Mediation Server peer that doesn’t egress calls to the PSTN and services users with legacy phones in a static locations (i.e. PBX phones).</span></span> <span data-ttu-id="571b1-114">Para esta configuración en particular, todas las llamadas entrantes dirigidas por un tronco de este tipo se considerarán originadas desde el mismo sitio de red que el tronco.</span><span class="sxs-lookup"><span data-stu-id="571b1-114">For this particular configuration, all incoming calls routed by a trunk of this type will be considered to be originating from the same network site as the trunk.</span></span> <span data-ttu-id="571b1-115">Las llamadas de usuarios de PBX tendrán la misma aplicación de enrutamiento basada en la ubicación que los usuarios de Lync que se encuentren en el mismo sitio de red que el tronco.</span><span class="sxs-lookup"><span data-stu-id="571b1-115">Calls from PBX users will have the same Location-Based Routing enforcement as Lync users who are located in the same network site as the trunk.</span></span> <span data-ttu-id="571b1-116">Si dos sistemas PBX que se encuentran en sitios de red independientes se conectan a través de Lync Server, el enrutamiento basado en la ubicación permitirá el enrutamiento desde un extremo de PBX de un sitio de red a otro extremo de PBX en el otro sitio de red.</span><span class="sxs-lookup"><span data-stu-id="571b1-116">If two PBX systems located in separate network sites are connected through Lync Server, Location-Based Routing will allow routing from one PBX endpoint in one network site to another PBX endpoint in the other network site.</span></span> <span data-ttu-id="571b1-117">Este escenario no quedará bloqueado por el enrutamiento basado en la ubicación.</span><span class="sxs-lookup"><span data-stu-id="571b1-117">This scenario will not be blocked by Location-Based Routing.</span></span> <span data-ttu-id="571b1-118">Además de este escenario y de forma similar a como usuario de Lync en la misma ubicación, los puntos de conexión conectados a un servidor de mediación del mismo nivel con esta configuración podrán realizar o recibir llamadas a y desde otros servidores de mediación del mismo nivel que no enrutan llamadas a la RTC (i. e. un extremo conectado a un PBX diferente, independientemente del sitio de red al que esté asociado el elemento del mismo nivel del servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="571b1-118">In addition to this scenario and in a similar way as a Lync user in the same location, endpoints connected to a Mediation Server peer with this configuration will be able to make or receive calls to and from other Mediation Server peer that do not route calls to the PSTN (i.e. an endpoint connected to a different PBX) regardless of the network site to which the Mediation Server peer is associated.</span></span> <span data-ttu-id="571b1-119">Todas las llamadas entrantes, las llamadas salientes, las transferencias de llamadas y los reenvíos que impliquen puntos de conexión RTC estarán sujetos a enrutamiento basado en la ubicación para usar solo puertas de enlace RTC definidas como locales para este servidor del mismo nivel de media.</span><span class="sxs-lookup"><span data-stu-id="571b1-119">All inbound calls, outbound calls, call transfers and call forwards involving PSTN endpoints will be subject to Location Based Routing to use only PSTN gateways that are defined as local to such Mediation Server peer.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="571b1-120">Vea también</span><span class="sxs-lookup"><span data-stu-id="571b1-120">See Also</span></span>
+
+
+[<span data-ttu-id="571b1-121">Instrucciones para el enrutamiento basado en ubicación en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="571b1-121">Guidance for Location-Based Routing in Lync Server 2013</span></span>](lync-server-2013-guidance-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

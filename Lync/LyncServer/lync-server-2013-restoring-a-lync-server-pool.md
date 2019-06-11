@@ -1,33 +1,63 @@
-﻿---
-title: Restaurar un grupo de servidores de Lync
-TOCTitle: Restaurar un grupo de servidores de Lync
-ms:assetid: 6fe80fb3-38ad-4931-a07b-1763b61aa448
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202176(v=OCS.15)
-ms:contentKeyID: 52061698
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: restauración de un grupo de servidores de Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring a Lync Server pool
+ms:assetid: 6fe80fb3-38ad-4931-a07b-1763b61aa448
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202176(v=OCS.15)
+ms:contentKeyID: 51541488
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4035ddb27b77e165d612be9e35cbb02970892c8b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823059"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Restaurar un grupo de servidores de Lync
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-18_
+# <a name="restoring-a-lync-server-pool-in-lync-server-2013"></a><span data-ttu-id="06f81-102">Restauración de un grupo de servidores de Lync en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="06f81-102">Restoring a Lync Server pool in Lync Server 2013</span></span>
 
-La implementación de Lync Server puede incluir cualquiera de los siguientes tipos de grupos:
+</div>
 
-  - Servidor front-end
+<div id="mainSection">
 
-  - Servidor de mediación
+<div id="mainBody">
 
-  - Servidor de chat persistente
+<span> </span>
 
-  - Servidor perimetral
+<span data-ttu-id="06f81-103">_**Última modificación del tema:** 2013-02-18_</span><span class="sxs-lookup"><span data-stu-id="06f81-103">_**Topic Last Modified:** 2013-02-18_</span></span>
 
-Si un grupo entero experimenta una interrupción, siga estos procedimientos en cada servidor miembro del grupo.
+<span data-ttu-id="06f81-104">La implementación de Lync Server puede incluir cualquiera de los siguientes tipos de grupos:</span><span class="sxs-lookup"><span data-stu-id="06f81-104">Your Lync Server deployment may include any of the following types of pools:</span></span>
 
-  - En un Grupo de servidores front-end, restaure primero el servidor back-end y, después, cada Servidor front-end. Para obtener información detallada, consulte [Restaurar un servidor back-end Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) y [Restaurar un servidor miembro de Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
+  - <span data-ttu-id="06f81-105">Servidor front-end</span><span class="sxs-lookup"><span data-stu-id="06f81-105">Front End Server</span></span>
 
-  - En el resto de tipos de grupos, restaure cada uno de los servidores miembro. Para obtener información detallada, consulte [Restaurar un servidor miembro de Enterprise Edition](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
+  - <span data-ttu-id="06f81-106">Servidor de mediación</span><span class="sxs-lookup"><span data-stu-id="06f81-106">Mediation Server</span></span>
+
+  - <span data-ttu-id="06f81-107">Servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="06f81-107">Persistent Chat Server</span></span>
+
+  - <span data-ttu-id="06f81-108">Servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="06f81-108">Edge Server</span></span>
+
+<span data-ttu-id="06f81-109">Si todo un grupo sufre una interrupción, siga estos procedimientos para cada uno de los servidores miembros del grupo.</span><span class="sxs-lookup"><span data-stu-id="06f81-109">If an entire pool experiences an outage, follow these procedures for each member server in the pool.</span></span>
+
+  - <span data-ttu-id="06f81-110">Para un grupo de servidores front-end, restaure primero el servidor back-end y, después, restaure cada servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="06f81-110">For a Front End pool, restore the Back End Server first, and then restore each Front End Server.</span></span> <span data-ttu-id="06f81-111">Para obtener más información, consulte [restaurar un servidor de servicios de fondo de la edición empresarial en Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) y [restaurar un servidor miembro de Enterprise Edition en Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).</span><span class="sxs-lookup"><span data-stu-id="06f81-111">For details, see [Restoring an Enterprise Edition Back End Server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-back-end-server.md) and [Restoring an Enterprise Edition member server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).</span></span>
+
+  - <span data-ttu-id="06f81-112">Para todos los demás tipos de grupos, restaure cada servidor miembro.</span><span class="sxs-lookup"><span data-stu-id="06f81-112">For all other types of pools, restore each member server.</span></span> <span data-ttu-id="06f81-113">Para obtener más información, vea [restaurar un servidor miembro de Enterprise Edition en Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).</span><span class="sxs-lookup"><span data-stu-id="06f81-113">For details, see [Restoring an Enterprise Edition member server in Lync Server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

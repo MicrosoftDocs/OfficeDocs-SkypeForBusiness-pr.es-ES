@@ -1,64 +1,108 @@
-﻿---
-title: "Recuperación ante desastres, alta disponibilidad y servicio de copia de seguridad"
-TOCTitle: Administrar la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad en Lync Server 2013
-ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721939(v=OCS.15)
-ms:contentKeyID: 49889817
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Administración de recuperación ante desastres, alta disponibilidad y servicio de copia de seguridad de Lync Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing Lync Server disaster recovery, high availability, and Backup Service
+ms:assetid: f4cd36fb-ffd6-48fa-b761-e11b3bcff91a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721939(v=OCS.15)
+ms:contentKeyID: 49733876
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cada393fca28895ee5f23a12fdd55eabd211128e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34828015"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-11-12_
+# <a name="managing-lync-server-2013-disaster-recovery-high-availability-and-backup-service"></a><span data-ttu-id="a77df-102">Administrar la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-102">Managing Lync Server 2013 disaster recovery, high availability, and Backup Service</span></span>
 
-En esta sección se incluyen procedimientos para operaciones de recuperación ante desastres, así como para el mantenimiento del Servicio de copia de seguridad, el cual sincroniza los datos entre grupos de servidores front-end asociados.
+</div>
 
-Los procedimientos de recuperación ante desastres, tanto de conmutación por error, como por recuperación, son manuales. Si se produce un desastre, el administrador deberá invocar manualmente los procedimientos de conmutación por error. Y lo mismo ocurre con la conmutación por recuperación después de la reparación del grupo de servidores.
+<div id="mainSection">
 
-Para los procedimientos de recuperación ante desastres expuestos a continuación, se supone que:
+<div id="mainBody">
 
-  - Tiene una implementación con grupos de servidores front-end emparejados, localizados en centros diferentes, como se describe en [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). El Servicio de copia de seguridad se ha estado ejecutando en estos grupos emparejados para mantenerlos sincronizados.
+<span> </span>
 
-  - Si el Almacén de administración central está hospedado en uno de los grupos de servidores, está instalado y en ejecución en los dos grupos de servidores emparejados. En uno de los grupos de servidores se hospeda el maestro activo y, en el otro, el maestro en espera.
+<span data-ttu-id="a77df-103">_**Última modificación del tema:** 2012-11-12_</span><span class="sxs-lookup"><span data-stu-id="a77df-103">_**Topic Last Modified:** 2012-11-12_</span></span>
 
-> [!IMPORTANT]  
-> En los procedimientos siguientes, el parámetro <em>PoolFQDN</em> hace referencia al FQDN del grupo afectado por el desastre y no al grupo desde el cual se redirige a los usuarios afectados. Para el mismo conjunto de usuarios afectados, se refiere al mismo grupo tanto en los cmdlets de conmutación por error, como de conmutación por recuperación (es decir, el grupo de servidores que hospedó en primer lugar a los usuarios antes de la conmutación por error).<br />
-> Por ejemplo, supongamos que se hizo de la conmutación por error de todos los usuarios hospedados en el grupo P1 al grupo de servidores de reserva, el P2. Si el administrador quiere mover a todos los usuarios que actualmente están siendo atendidos por P2 a P1, el administrador deberá dar los siguientes pasos:
-> <ol>
-> <li><p>Conmutar por recuperación a todos los usuarios hospedados inicialmente en P1 de P2 a P1 usando el cmdlet de conmutación por recuperación. En este caso, el <em>PoolFQDN</em> es el FQDN de P1.</p></li>
-> <li><p>Conmutar por error a todos los usuarios hospedados inicialmente en P2 a P1 usando el cmdlet de conmutación por error. En este caso, el <em>PoolFQDN</em> es el FQDN de P2.</p></li>
-> <li><p>Si después el administrador desea llevar a cabo la conmutación por recuperación de los usuarios de P2 de vuelta a P2, el <em>PoolFQDN</em> será el FQDN de P2.</p></li>
-> </ol>
-> Observe que el paso 1 anterior se debe llevar a cabo antes que el paso 2 para mantener la integridad del grupo de servidores. Si intenta realizar el paso 2 antes que el paso 1, el cmdlet del paso 2 no se completará correctamente.
+<span data-ttu-id="a77df-104">Esta sección contiene procedimientos para las operaciones de recuperación ante desastres, así como para mantener el servicio de copia de seguridad que sincroniza los datos de las agrupaciones frontales emparejadas.</span><span class="sxs-lookup"><span data-stu-id="a77df-104">This section contains procedures for disaster recovery operations, as well as for maintaining the Backup Service which synchronizes the data in paired Front End pools.</span></span>
+
+<span data-ttu-id="a77df-105">Los procedimientos de recuperación ante desastres, tanto de failover como failback, son manuales.</span><span class="sxs-lookup"><span data-stu-id="a77df-105">Disaster recovery procedures, both failover and failback, are manual.</span></span> <span data-ttu-id="a77df-106">Si se produce un desastre, el administrador debe invocar manualmente los procedimientos de conmutación por error.</span><span class="sxs-lookup"><span data-stu-id="a77df-106">If there is a disaster, the administrator must manually invoke the failover procedures.</span></span> <span data-ttu-id="a77df-107">Lo mismo se aplica a la conmutación por recuperación después de reparar el grupo.</span><span class="sxs-lookup"><span data-stu-id="a77df-107">The same applies to failback after the pool is repaired.</span></span>
+
+<span data-ttu-id="a77df-108">Los procedimientos de recuperación de desastres en el resto de esta sección suponen lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a77df-108">The disaster recovery procedures in the rest of this section assume the following:</span></span>
+
+  - <span data-ttu-id="a77df-109">Tiene una implementación con las agrupaciones frontales emparejadas, que se encuentran en diferentes sitios, como se describe en [planear la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="a77df-109">You have a deployment with paired Front End pools, located in different sites, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span> <span data-ttu-id="a77df-110">El servicio de copia de seguridad se ha ejecutado en estas agrupaciones emparejadas para mantenerlas sincronizadas.</span><span class="sxs-lookup"><span data-stu-id="a77df-110">The Backup Service has been running on these paired pools to keep them synchronized.</span></span>
+
+  - <span data-ttu-id="a77df-111">Si el almacén central de administración se encuentra en cualquiera de las dos agrupaciones, se instalará y se ejecutará en ambos pools emparejados, con uno de esos grupos que alojen el maestro activo y el otro grupo que aloje al modo de espera.</span><span class="sxs-lookup"><span data-stu-id="a77df-111">If the Central Management store is hosted on either pool, it is installed and running on both of the paired pools, with one of those pools hosting the active master and the other pool hosting the standby.</span></span>
+
+<div>
 
 
-## En esta sección
+> [!IMPORTANT]
+> <span data-ttu-id="a77df-112">En los procedimientos siguientes, el parámetro <EM>PoolFQDN</EM> se refiere al FQDN del grupo de servidores que se ve afectado por el desastre, no al grupo desde el que se redirige a los usuarios afectados.</span><span class="sxs-lookup"><span data-stu-id="a77df-112">In the following procedures, the <EM>PoolFQDN</EM> parameter refers to the FQDN of the pool that is affected by disaster, not the pool that affected users are being redirected from.</span></span> <span data-ttu-id="a77df-113">Para el mismo conjunto de usuarios afectados, se refiere al mismo grupo en cmdlets de conmutación por error y de conmutación por error (es decir, el grupo que ha alojado primero los usuarios antes de la conmutación por error).</span><span class="sxs-lookup"><span data-stu-id="a77df-113">For the same set of affected users, it refers to the same pool in both failover and failback cmdlets (that is, the pool that first homed the users before the failover).</span></span><BR><span data-ttu-id="a77df-114">Por ejemplo, supongamos que se produjo un error en todos los usuarios alojados en un grupo P1 en el grupo de copia de seguridad, P2.</span><span class="sxs-lookup"><span data-stu-id="a77df-114">For example, assume a case in which all users homed on a pool P1 were failed over to the backup pool, P2.</span></span> <span data-ttu-id="a77df-115">Si el administrador desea mover todos los usuarios que actualmente son atendidas por P2, el administrador debe realizar los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="a77df-115">If the administrator wants to move all the users currently serviced by P2 to be serviced by P1, the administrator must perform the following steps:</span></span> 
+> <OL>
+> <LI>
+> <P><span data-ttu-id="a77df-116">Realice la conmutación por recuperación de todos los usuarios originalmente alojados en P1 desde P2 a P1 con el cmdlet de conmutación por recuperación.</span><span class="sxs-lookup"><span data-stu-id="a77df-116">Fail back all the users originally homed on P1 from P2 to P1 using the failback cmdlet.</span></span> <span data-ttu-id="a77df-117">En este caso, el <EM>PoolFQDN</EM> es P1's FQDN.</span><span class="sxs-lookup"><span data-stu-id="a77df-117">In this case, the <EM>PoolFQDN</EM> is P1’s FQDN.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="a77df-118">Conmute por error a todos los usuarios que se hayan alojado originalmente en P2 a P1 mediante el cmdlet de conmutación por error.</span><span class="sxs-lookup"><span data-stu-id="a77df-118">Fail over all the users originally homed on P2 to P1 using the failover cmdlet.</span></span> <span data-ttu-id="a77df-119">En este caso, el <EM>PoolFQDN</EM> es P2's FQDN.</span><span class="sxs-lookup"><span data-stu-id="a77df-119">In this case, the <EM>PoolFQDN</EM> is P2’s FQDN.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="a77df-120">Si, posteriormente, el administrador desea volver a realizar la conmutación por error de esos usuarios P2 a P2, la <EM>PoolFQDN</EM> es P2's FQDN.</span><span class="sxs-lookup"><span data-stu-id="a77df-120">If the administrator later wants to fail back those P2 users back to P2, the <EM>PoolFQDN</EM> is P2’s FQDN.</span></span></P></LI></OL><span data-ttu-id="a77df-121">Tenga en cuenta que el paso 1 anterior debe realizarse antes del paso 2 para preservar la integridad del grupo.</span><span class="sxs-lookup"><span data-stu-id="a77df-121">Note that step 1 above must be performed before step 2 to preserve pool integrity.</span></span> <span data-ttu-id="a77df-122">Si intenta paso 2 antes del paso 1, se producirá un error en el cmdlet paso 2.</span><span class="sxs-lookup"><span data-stu-id="a77df-122">If you try step 2 before step 1, the step 2 cmdlet will fail.</span></span>
 
-  - [Configurar y supervisar el servicio de copia de seguridad en Lync Server 2013](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 
-  - [Conmutación por error de un grupo en Lync Server 2013](lync-server-2013-failing-over-a-pool.md)
 
-  - [Conmutación por recuperación de grupo en Lync Server 2013](lync-server-2013-failing-back-a-pool.md)
+</div>
 
-  - [Conmutación por error de una base de datos reflejada en Lync Server 2013](lync-server-2013-failing-over-a-mirrored-database.md)
+<div>
 
-  - [Conmutación por error para el grupo de servidores perimetrales usado para la federación Lync Server en Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
+## <a name="in-this-section"></a><span data-ttu-id="a77df-123">En esta sección</span><span class="sxs-lookup"><span data-stu-id="a77df-123">In This Section</span></span>
 
-  - [Conmutación por error para el grupo de servidores perimetrales para la federación XMPP en Lync Server 2013](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)
+  - [<span data-ttu-id="a77df-124">Configurar y supervisar el servicio de copia de seguridad en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-124">Configuring and monitoring the Backup Service in Lync Server 2013</span></span>](lync-server-2013-configuring-and-monitoring-the-backup-service.md)
 
-  - [Conmutación por recuperación para el grupo de servidores perimetrales que se usa para la federación Lync Server o la federación XMPP en Lync Server 2013](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)
+  - [<span data-ttu-id="a77df-125">Conmutación por error de un grupo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-125">Failing over a pool in Lync Server 2013</span></span>](lync-server-2013-failing-over-a-pool.md)
 
-  - [Cambio del grupo de servidores perimetrales asociado al grupo de servidores front-end Lync Server 2013](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)
+  - [<span data-ttu-id="a77df-126">Conmutación por recuperación de grupo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-126">Failing back a pool in Lync Server 2013</span></span>](lync-server-2013-failing-back-a-pool.md)
 
-  - [Restauración de contenidos de conferencia mediante el servicio de copias de seguridad en Lync Server 2013](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
+  - [<span data-ttu-id="a77df-127">Conmutación por error de una base de datos reflejada en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-127">Failing over a mirrored database in Lync Server 2013</span></span>](lync-server-2013-failing-over-a-mirrored-database.md)
 
-## Vea también
+  - [<span data-ttu-id="a77df-128">Conmutación por error para el grupo de servidores perimetrales usado para la federación Lync Server en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-128">Failing over the Edge pool used for Lync Server federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-lync-server-federation.md)
 
-#### Conceptos
+  - [<span data-ttu-id="a77df-129">Conmutación por error para el grupo de servidores perimetrales para la federación XMPP en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-129">Failing over the Edge pool used for XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-over-the-edge-pool-used-for-xmpp-federation.md)
 
-[Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)
+  - [<span data-ttu-id="a77df-130">Conmutación por recuperación para el grupo de servidores perimetrales que se usa para la federación Lync Server o la federación XMPP en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-130">Failing back the Edge pool used for Lync Server federation or XMPP federation in Lync Server 2013</span></span>](lync-server-2013-failing-back-the-edge-pool-used-for-lync-server-federation-or-xmpp-federation.md)
+
+  - [<span data-ttu-id="a77df-131">Cambio del grupo de servidores perimetrales asociado al grupo de servidores front-end Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-131">Changing the Edge pool associated with a Front End pool in Lync Server 2013</span></span>](lync-server-2013-changing-the-edge-pool-associated-with-a-front-end-pool.md)
+
+  - [<span data-ttu-id="a77df-132">Restauración de contenidos de conferencia mediante el servicio de copias de seguridad en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-132">Restoring conference contents using the Backup Service in Lync Server 2013</span></span>](lync-server-2013-restoring-conference-contents-using-the-backup-service.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="a77df-133">Vea también</span><span class="sxs-lookup"><span data-stu-id="a77df-133">See Also</span></span>
+
+
+[<span data-ttu-id="a77df-134">Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a77df-134">Planning for high availability and disaster recovery in Lync Server 2013</span></span>](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

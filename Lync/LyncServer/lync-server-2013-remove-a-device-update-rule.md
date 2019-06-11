@@ -1,63 +1,113 @@
-﻿---
-title: Quitar una regla de actualización de dispositivos
-TOCTitle: Quitar una regla de actualización de dispositivos
-ms:assetid: ad6e0c6a-cda4-4147-92d5-48bc393ac456
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994066(v=OCS.15)
-ms:contentKeyID: 52061715
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: quitar una regla de actualización de dispositivo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Remove a Device Update rule
+ms:assetid: ad6e0c6a-cda4-4147-92d5-48bc393ac456
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994066(v=OCS.15)
+ms:contentKeyID: 51803977
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3776fe2b80e301e02c099f3c6154afc1c382d0d7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823248"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Quitar una regla de actualización de dispositivos
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-23_
+# <a name="remove-a-device-update-rule-in-lync-server-2013"></a><span data-ttu-id="77af1-102">Quitar una regla de actualización de dispositivo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="77af1-102">Remove a Device Update rule in Lync Server 2013</span></span>
 
-Al quitar una regla de actualización de dispositivos, se elimina definitivamente de la cola de actualización de dispositivos.
+</div>
 
-Eliminar una regla no es lo mismo que desinstalar una actualización de los dispositivos de su implementación o de sus dispositivos de prueba. Para desinstalar una actualización aprobada de la implementación, hay que *restaurar* la regla de actualización de dispositivos. Para más información, consulte [Restaurar una regla de actualización de dispositivos](lync-server-2013-restore-a-device-update-rule.md). Para desinstalar una actualización no aprobada de los dispositivos de prueba, hay que *restablecerla*. Para más información, vea [Restablecer una regla de actualización de dispositivos](lync-server-2013-reset-a-device-update-rule.md).
+<div id="mainSection">
 
-Las reglas de actualización de dispositivos se pueden quitar con Panel de control de Lync Server o Windows PowerShell.
+<div id="mainBody">
 
-## Para quitar reglas de actualización de dispositivos con Panel de control de Lync Server
+<span> </span>
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+<span data-ttu-id="77af1-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="77af1-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="77af1-104">Al quitar una regla de actualización de dispositivo, se sacará de él permanentemente de la cola de actualizaciones de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="77af1-104">Removing a device update rule takes it permanently out of the device update queue.</span></span>
 
-3.  En la barra de navegación izquierda, haga clic en **Clientes** y luego haga clic en el botón de navegación **Actualización de dispositivos**.
+<span data-ttu-id="77af1-105">Quitar una regla es diferente de desinstalar una actualización de los dispositivos de su implementación o de su dispositivo de prueba.</span><span class="sxs-lookup"><span data-stu-id="77af1-105">Removing a rule is different from uninstalling an update from the devices in your deployment or from your test devices.</span></span> <span data-ttu-id="77af1-106">Para desinstalar una actualización aprobada de su implementación, *restaure* la regla de actualización de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="77af1-106">To uninstall an approved update from your deployment, you *restore* the device update rule.</span></span> <span data-ttu-id="77af1-107">Para obtener más información, consulte [restaurar una regla de actualización de dispositivos en Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md).</span><span class="sxs-lookup"><span data-stu-id="77af1-107">For details, see [Restore a Device Update rule in Lync Server 2013](lync-server-2013-restore-a-device-update-rule.md).</span></span> <span data-ttu-id="77af1-108">Para desinstalar una actualización que no haya aprobado de sus dispositivos de prueba \*\* , puede restablecerla.</span><span class="sxs-lookup"><span data-stu-id="77af1-108">To uninstall an update you haven’t approved from your test devices, you *reset* it.</span></span> <span data-ttu-id="77af1-109">Para obtener más información, consulte [restablecer una regla de actualización de dispositivo en Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md).</span><span class="sxs-lookup"><span data-stu-id="77af1-109">For details, see [Reset a Device Update rule in Lync Server 2013](lync-server-2013-reset-a-device-update-rule.md).</span></span>
 
-4.  En la página **Actualización de dispositivos**, elija entre las siguientes opciones:
+<span data-ttu-id="77af1-110">Puede quitar una regla de actualización de dispositivo con el panel de control de Lync Server o Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="77af1-110">You can remove a device update rule by using either Lync Server Control Panel or Windows PowerShell.</span></span>
+
+<div>
+
+## <a name="to-remove-device-update-rules-by-using-lync-server-control-panel"></a><span data-ttu-id="77af1-111">Para quitar las reglas de actualización de dispositivos mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="77af1-111">To remove device update rules by using Lync Server Control Panel</span></span>
+
+1.  <span data-ttu-id="77af1-112">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="77af1-112">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="77af1-113">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="77af1-113">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="77af1-114">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="77af1-114">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="77af1-115">En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación de **actualización de dispositivos** .</span><span class="sxs-lookup"><span data-stu-id="77af1-115">In the left navigation bar, click **Clients**, and then click the **Device Update** navigation button.</span></span>
+
+4.  <span data-ttu-id="77af1-116">En la página **actualización de dispositivo** , siga uno de estos procedimientos:</span><span class="sxs-lookup"><span data-stu-id="77af1-116">On the **Device Update** page, do one of the following:</span></span>
     
-      - Para quitar una regla, seleccione la que desea eliminar.
+      - <span data-ttu-id="77af1-117">Para quitar una regla, seleccione la que quiera eliminar.</span><span class="sxs-lookup"><span data-stu-id="77af1-117">To remove one rule, select the rule you want to delete.</span></span>
     
-      - Para quitar todas las reglas, haga clic en el menú **Editar** y luego haga clic en **Seleccionar todo**.
+      - <span data-ttu-id="77af1-118">Para quitar todas las reglas, haga clic en el menú **Editar** y, a continuación, haga clic en **seleccionar todo**.</span><span class="sxs-lookup"><span data-stu-id="77af1-118">To remove all rules, click the **Edit** menu, and then click **Select All**.</span></span>
 
-5.  Haga clic en **Editar** y después en **Eliminar**.
+5.  <span data-ttu-id="77af1-119">Haga clic en **Editar** y después en **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="77af1-119">Click **Edit**, and then click **Delete**.</span></span>
 
-## Quitar reglas de actualización de dispositivos con cmdlets de Windows PowerShell
+</div>
 
-Las reglas de actualización de dispositivos también se pueden quitar con Windows PowerShell y el cmdlet **Remove-CsDeviceUpdateRule**. Este cmdlet se puede ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Para quitar una sola regla de actualización de dispositivos de un servidor
+## <a name="removing-device-update-rules-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="77af1-120">Quitar las reglas de actualización de dispositivos mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="77af1-120">Removing Device Update Rules by Using Windows PowerShell Cmdlets</span></span>
 
-  - El siguiente comando quita la regla de actualización de dispositivos d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 del servidor web atl-cs-001.litwareinc.com:
+<span data-ttu-id="77af1-121">Las reglas de actualización de dispositivos también se pueden quitar con Windows PowerShell y el cmdlet **Remove-CsDeviceUpdateRule** .</span><span class="sxs-lookup"><span data-stu-id="77af1-121">Device update rules can also be removed by using Windows PowerShell and the **Remove-CsDeviceUpdateRule** cmdlet.</span></span> <span data-ttu-id="77af1-122">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="77af1-122">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="77af1-123">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="77af1-123">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-remove-a-single-device-update-rule-from-a-server"></a><span data-ttu-id="77af1-124">Para quitar una regla de actualización de un solo dispositivo de un servidor</span><span class="sxs-lookup"><span data-stu-id="77af1-124">To remove a single device update rule from a server</span></span>
+
+  - <span data-ttu-id="77af1-125">El siguiente comando quita la regla de actualización de dispositivo d5ce3c10-2588-420A-82ac-dc2d9b1222ff9 del servidor Web en atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="77af1-125">The following command removes the device update rule d5ce3c10-2588-420a-82ac-dc2d9b1222ff9 from the Web server on atl-cs-001.litwareinc.com.</span></span>
     
         Remove-CsDeviceUpdateRule -Identity "service:WebServer:atl-cs-001.litwareinc.com/d5ce3c10-2588-420a-82ac-dc2d9b1222ff9"
 
-## Para quitar todas las reglas de actualización de dispositivos de un servidor
+</div>
 
-  - Este comando quita todas las reglas de actualización de dispositivos del servidor web en atl-cs-001.litwareinc.com:
+<div>
+
+## <a name="to-remove-all-the-device-update-rules-from-a-server"></a><span data-ttu-id="77af1-126">Para quitar todas las reglas de actualización de dispositivos de un servidor</span><span class="sxs-lookup"><span data-stu-id="77af1-126">To remove all the device update rules from a server</span></span>
+
+  - <span data-ttu-id="77af1-127">Este comando quita todas las reglas de actualización de dispositivos del servidor Web en atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="77af1-127">This command removes all the device update rules from the web server on atl-cs-001.litwareinc.com.</span></span>
     
         Get-CsDeviceUpdateRule -Filter "service:WebServer:atl-cs-001.litwareinc.com*" | Remove-CsDeviceUpdateRule
 
-Para más información, consulte el tema de ayuda del cmdlet [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsDeviceUpdateRule).
+</div>
 
-## Vea también
+<span data-ttu-id="77af1-128">Para obtener más información, vea el tema de ayuda sobre el cmdlet [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateRule) .</span><span class="sxs-lookup"><span data-stu-id="77af1-128">For details, see the Help topic for the [Remove-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Remove-CsDeviceUpdateRule) cmdlet.</span></span>
 
-#### Tareas
+</div>
 
-[Aprobar una regla de actualización de dispositivos](lync-server-2013-approve-a-device-update-rule.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="77af1-129">Vea también</span><span class="sxs-lookup"><span data-stu-id="77af1-129">See Also</span></span>
+
+
+[<span data-ttu-id="77af1-130">Aprobar una regla de actualización de dispositivo en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="77af1-130">Approve a Device Update rule in Lync Server 2013</span></span>](lync-server-2013-approve-a-device-update-rule.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

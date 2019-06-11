@@ -1,23 +1,53 @@
-﻿---
-title: Quitar Lync para iPhone y iPad
-TOCTitle: Quitar Lync para iPhone y iPad
-ms:assetid: 4e0a9b6f-2331-4a39-aebc-c501f5219292
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh690979(v=OCS.15)
-ms:contentKeyID: 52061683
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: quitar Lync para iPhone y iPad'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Removing Lync for iPhone and iPad
+ms:assetid: 4e0a9b6f-2331-4a39-aebc-c501f5219292
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690979(v=OCS.15)
+ms:contentKeyID: 51541476
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 182d7b7c8df984bef4adfa09775d789e3a0ba150
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823164"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Quitar Lync para iPhone y iPad
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-19_
+# <a name="removing-lync-for-iphone-and-ipad-in-lync-server-2013"></a><span data-ttu-id="b832d-102">Quitar Lync para iPhone y iPad en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b832d-102">Removing Lync for iPhone and iPad in Lync Server 2013</span></span>
 
-Para quitar Lync 2013 para iPhone o Microsoft Lync 2010 para iPad del dispositivo, realice los siguientes pasos:
+</div>
 
-1.  En la pantalla de inicio del dispositivo móvil, puntee y mantenga presionado el icono de Lync.
+<div id="mainSection">
 
-2.  Cuando los mosaicos empiecen a agitarse y aparezca la **X**, puentee la **X** para eliminar la aplicación.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="b832d-103">_**Última modificación del tema:** 2013-02-19_</span><span class="sxs-lookup"><span data-stu-id="b832d-103">_**Topic Last Modified:** 2013-02-19_</span></span>
+
+<span data-ttu-id="b832d-104">Para quitar Lync 2013 para iPhone o Microsoft Lync 2010 para iPad desde el dispositivo, realice los siguientes pasos:</span><span class="sxs-lookup"><span data-stu-id="b832d-104">To remove Lync 2013 for iPhone or Microsoft Lync 2010 for iPad from the device, perform the following steps:</span></span>
+
+1.  <span data-ttu-id="b832d-105">En la pantalla de inicio del dispositivo móvil, mantenga pulsado el icono de Lync.</span><span class="sxs-lookup"><span data-stu-id="b832d-105">On the mobile device home screen, tap and hold the Lync icon.</span></span>
+
+2.  <span data-ttu-id="b832d-106">Cuando los mosaicos empiecen a agitarse y aparezca la **x** , puntee en la **x** para eliminar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="b832d-106">When the tiles begin to shake and the **X** appears, tap the **X** to delete the application.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

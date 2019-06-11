@@ -1,31 +1,65 @@
-﻿---
-title: Administración de reuniones grandes
-TOCTitle: Administración de reuniones grandes
-ms:assetid: b2112f12-b548-4e71-a3a3-8c14c6bb0de9
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205177(v=OCS.15)
-ms:contentKeyID: 48276389
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: administración de reuniones grandes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing large meetings
+ms:assetid: b2112f12-b548-4e71-a3a3-8c14c6bb0de9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205177(v=OCS.15)
+ms:contentKeyID: 48185146
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c27057f6b8c29078231deedb5fe4492965e89bec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827966"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administración de reuniones grandes
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-01_
+# <a name="managing-large-meetings-in-lync-server-2013"></a><span data-ttu-id="b2890-102">Administración de reuniones grandes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2890-102">Managing large meetings in Lync Server 2013</span></span>
 
-Después de configurar un grupo de servidores dedicado para conferencias de gran tamaño, puede realizar ciertos pasos para garantizar que las reuniones grandes hospedadas en el grupo proporcionen la mejor experiencia de usuario posible. Los temas de esta sección proporcionan detalles sobre cómo organizar y administrar reuniones grandes.
+</div>
 
-## En esta sección
+<div id="mainSection">
 
-  - [Organizadores dedicados](lync-server-2013-dedicated-meeting-organizers.md)
+<div id="mainBody">
 
-  - [Calendarios de reuniones grandes aparte](lync-server-2013-separate-large-meeting-calendar.md)
+<span> </span>
 
-  - [Proceso de programación de reuniones grandes](lync-server-2013-large-meeting-scheduling-process.md)
+<span data-ttu-id="b2890-103">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="b2890-103">_**Topic Last Modified:** 2012-10-01_</span></span>
 
-  - [Detalles de la programación](lync-server-2013-scheduling-details-for-meetings.md)
+<span data-ttu-id="b2890-104">Después de configurar un grupo dedicado para las conferencias grandes, puede tomar medidas para asegurarse de que las reuniones grandes hospedadas en el grupo ofrezcan la mejor experiencia para el usuario.</span><span class="sxs-lookup"><span data-stu-id="b2890-104">After setting up a dedicated pool for large conferences, you can take steps to help ensure that large meetings hosted in the pool provide the best user experience.</span></span> <span data-ttu-id="b2890-105">En los temas de esta sección se proporcionan detalles sobre cómo organizar y administrar reuniones de gran tamaño.</span><span class="sxs-lookup"><span data-stu-id="b2890-105">The topics in this section provide details about how to organize and manage large meetings.</span></span>
 
-  - [Ejecución de reuniones grandes](lync-server-2013-running-large-meetings.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="b2890-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="b2890-106">In This Section</span></span>
+
+  - [<span data-ttu-id="b2890-107">Organizadores de reuniones dedicados en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2890-107">Dedicated meeting organizers in Lync Server 2013</span></span>](lync-server-2013-dedicated-meeting-organizers.md)
+
+  - [<span data-ttu-id="b2890-108">Calendario de reunión grande independiente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2890-108">Separate large-meeting calendar in Lync Server 2013</span></span>](lync-server-2013-separate-large-meeting-calendar.md)
+
+  - [<span data-ttu-id="b2890-109">Proceso de programación de reuniones grandes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2890-109">Large-meeting scheduling process in Lync Server 2013</span></span>](lync-server-2013-large-meeting-scheduling-process.md)
+
+  - [<span data-ttu-id="b2890-110">Detalles de programación de reuniones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2890-110">Scheduling details for meetings in Lync Server 2013</span></span>](lync-server-2013-scheduling-details-for-meetings.md)
+
+  - [<span data-ttu-id="b2890-111">Ejecutar reuniones grandes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b2890-111">Running large meetings in Lync Server 2013</span></span>](lync-server-2013-running-large-meetings.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,37 +1,75 @@
-﻿---
-title: Administración de directivas de PIN
-TOCTitle: Administración de directivas de PIN
-ms:assetid: a698b8c0-2406-4cb8-9faf-6630ec5f104c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721841(v=OCS.15)
-ms:contentKeyID: 49889526
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: administración de directivas de PIN'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Managing PIN policies
+ms:assetid: a698b8c0-2406-4cb8-9faf-6630ec5f104c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721841(v=OCS.15)
+ms:contentKeyID: 49733774
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 80b7ab92f3dbe88c9a820e184b8e88444b0bf4ad
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827854"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administración de directivas de PIN
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-11-01_
+# <a name="managing-pin-policies-in-lync-server-2013"></a><span data-ttu-id="c5f5e-102">Administración de directivas de PIN en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5f5e-102">Managing PIN policies in Lync Server 2013</span></span>
 
-Puede administrar directivas de PIN de Lync Server 2013 desde Panel de control de Lync Server 2013 o Shell de administración de Lync Server. Siga los procedimientos indicados a continuación para configurar directivas de PIN en su organización.
+</div>
 
-## En esta sección
+<div id="mainSection">
 
-  - [Ver información de directivas PIN](lync-server-2013-view-pin-policy-inforrmation.md)
+<div id="mainBody">
 
-  - [Crear una directiva de PIN nueva](lync-server-2013-create-a-new-pin-policy.md)
+<span> </span>
 
-  - [Modificar una directiva de PIN existente](lync-server-2013-modify-an-existing-pin-policy.md)
+<span data-ttu-id="c5f5e-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="c5f5e-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-  - [Eliminar una directiva de PIN](lync-server-2013-delete-a-pin-policy.md)
+<span data-ttu-id="c5f5e-104">Puede administrar las directivas de Terminal Server 2013 de Lync Server en el panel de control de Lync Server 2013 o en el shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c5f5e-104">You can manage Lync Server 2013 PIN polices from either Lync Server 2013 Control Panel or Lync Server Management Shell.</span></span> <span data-ttu-id="c5f5e-105">Use los procedimientos siguientes para configurar las directivas de PIN para su organización.</span><span class="sxs-lookup"><span data-stu-id="c5f5e-105">Use the following procedures to configure PIN policies for your organization.</span></span>
 
-  - [Asignación de una directiva de PIN por usuario](lync-server-2013-assign-a-per-user-pin-policy.md)
+<div>
 
-## Vea también
+## <a name="in-this-section"></a><span data-ttu-id="c5f5e-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="c5f5e-106">In This Section</span></span>
 
-#### Otros recursos
+  - [<span data-ttu-id="c5f5e-107">Ver inforrmation de directiva de PIN en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5f5e-107">View PIN policy inforrmation in Lync Server 2013</span></span>](lync-server-2013-view-pin-policy-inforrmation.md)
 
-[Administración de PIN de usuario](lync-server-2013-managing-user-pins.md)
+  - [<span data-ttu-id="c5f5e-108">Crear una nueva Directiva de PIN en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5f5e-108">Create a new PIN policy in Lync Server 2013</span></span>](lync-server-2013-create-a-new-pin-policy.md)
+
+  - [<span data-ttu-id="c5f5e-109">Modificar una directiva de PIN existente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5f5e-109">Modify an existing PIN policy in Lync Server 2013</span></span>](lync-server-2013-modify-an-existing-pin-policy.md)
+
+  - [<span data-ttu-id="c5f5e-110">Eliminar una directiva de PIN en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5f5e-110">Delete a PIN policy in Lync Server 2013</span></span>](lync-server-2013-delete-a-pin-policy.md)
+
+  - [<span data-ttu-id="c5f5e-111">Asignar una directiva de PIN por usuario en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5f5e-111">Assign a per-user PIN policy in Lync Server 2013</span></span>](lync-server-2013-assign-a-per-user-pin-policy.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="c5f5e-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="c5f5e-112">See Also</span></span>
+
+
+[<span data-ttu-id="c5f5e-113">Administración de PIN de usuario en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c5f5e-113">Managing user PINs in Lync Server 2013</span></span>](lync-server-2013-managing-user-pins.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,94 +1,153 @@
-﻿---
-title: "Colocación de un servidor en una implementación de servidores de Standard Edition"
-TOCTitle: Colocación de un servidor en una implementación de servidores de Standard Edition
-ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398131(v=OCS.15)
-ms:contentKeyID: 48274330
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Colocación de un servidor en una implementación de servidores de Standard Edition'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Server collocation in a Standard Edition server deployment
+ms:assetid: 0763ffab-4fd6-463a-8e62-d97876b376d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398131(v=OCS.15)
+ms:contentKeyID: 48183314
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 950f2ab06a146ec99ef9ebb2ecbc64c885c82d70
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34821967"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Colocación de un servidor en una implementación de servidores de Standard Edition en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-01-20_
+# <a name="server-collocation-in-a-standard-edition-server-deployment-for-lync-server-2013"></a><span data-ttu-id="96a6f-102">Colocación de un servidor en una implementación de servidores de Standard Edition en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="96a6f-102">Server collocation in a Standard Edition server deployment for Lync Server 2013</span></span>
 
-En este tema se describen los roles de servidor, las bases de datos y los recursos compartidos de archivos que se pueden combinar en una implementación de servidor Lync Server 2013 Standard Edition.
+</div>
 
-## Roles de servidor
+<div id="mainSection">
 
-En Lync Server 2013, el servicio de conferencia A/V, el servicio de mediación, la supervisión y el archivado se recopilan en el servidor Standard Edition, aunque es necesaria una configuración adicional para habilitarlos. Puede implementar el servicio de mediación en servidores distintos.
+<div id="mainBody">
 
-Puede recopilar un servidor de aplicaciones de confianza con el servidor Standard Edition.
+<span> </span>
 
-Cada uno de los siguientes roles debe implementarse en un equipo separado:
+<span data-ttu-id="96a6f-103">_**Última modificación del tema:** 2013-01-20_</span><span class="sxs-lookup"><span data-stu-id="96a6f-103">_**Topic Last Modified:** 2013-01-20_</span></span>
 
-  - Director
+<span data-ttu-id="96a6f-104">En esta sección se describen los roles de servidor, las bases de datos y los recursos compartidos de archivos que puede Collocate en una implementación de servidor Standard Edition de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="96a6f-104">This section describes the server roles, databases, and file shares that you can collocate in a Lync Server 2013 Standard Edition server deployment.</span></span>
 
-  - Servidor perimetral
+<div>
 
-  - Servidor de mediación (si no se combina con el servidor de Standard Edition)
+## <a name="server-roles"></a><span data-ttu-id="96a6f-105">Roles de servidor</span><span class="sxs-lookup"><span data-stu-id="96a6f-105">Server Roles</span></span>
 
-  - Servidor Office Web Apps
+<span data-ttu-id="96a6f-106">En Lync Server 2013, el servicio conferencia A/V, servicio de mediación, supervisión y archivado están colocados en el servidor Standard Edition, pero se necesita una configuración adicional para habilitarlos.</span><span class="sxs-lookup"><span data-stu-id="96a6f-106">In Lync Server 2013, A/V Conferencing service, Mediation service, Monitoring, and Archiving are collocated on the Standard Edition Server, but additional configuration is required to enable them.</span></span> <span data-ttu-id="96a6f-107">Puede implementar el servicio de mediación en servidores diferentes.</span><span class="sxs-lookup"><span data-stu-id="96a6f-107">You can choose to deploy Mediation service on separate servers.</span></span>
 
-## Bases de datos
+<span data-ttu-id="96a6f-108">Puede Collocate un servidor de aplicaciones de confianza con un servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="96a6f-108">You can collocate a trusted application server with a Standard Edition server.</span></span>
 
-De manera predeterminada, la base de datos back-end de SQL Server Express se combina con el servidor Standard Edition. No se puede mover a otro equipo diferente. Con una excepción, no se puede combinar con otras bases de datos en el servidor Standard Edition. Si elige implementar Servidor de chat persistente en un servidor Standard Edition, puede colocar la base de datos de chat persistente y la base de datos de conformidad de chat persistente en el mismo servidor Standard Edition.
+<span data-ttu-id="96a6f-109">Los siguientes roles de servidor deben implementarse en un equipo independiente:</span><span class="sxs-lookup"><span data-stu-id="96a6f-109">The following server roles must each be deployed on a separate computer:</span></span>
 
-Se puede combinar cada una de las siguientes bases de datos en un único servidor de base de datos:
+  - <span data-ttu-id="96a6f-110">Director</span><span class="sxs-lookup"><span data-stu-id="96a6f-110">Director</span></span>
 
-  - Base de datos de supervisión
+  - <span data-ttu-id="96a6f-111">Servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="96a6f-111">Edge Server</span></span>
 
-  - Base de datos de archivado
+  - <span data-ttu-id="96a6f-112">Servidor de mediación (si no se ha puesto en el servidor Standard Edition)</span><span class="sxs-lookup"><span data-stu-id="96a6f-112">Mediation Server (if not collocated with the Standard Edition server)</span></span>
 
-  - Una base de datos back-end para un grupo de servidores front-end de Enterprise Edition
+  - <span data-ttu-id="96a6f-113">Servidor Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="96a6f-113">Office Web Apps Server</span></span>
 
-Se puede combinar cualquiera de estas bases de datos, o todas ellas, en una única instancia de SQL o usar una instancia de SQL diferente para cada una, con las siguientes restricciones:
+</div>
 
-  - Cada instancia de SQL puede contener únicamente una base de datos back-end (para un grupo de servidores front-end de Enterprise Edition), una sola base de datos de supervisión, una sola base de datos de archivado, una sola base de datos de chat persistente o una sola base de datos de cumplimiento de chat persistente.
+<div>
 
-  - El servidor de base de datos no admite más de un grupo de servidores front-end Enterprise Edition, un servidor de archivado, un servidor de supervisión, una sola base de datos de Chat persistente y una sola base de datos de Chat persistente, pero admite uno de cada, independientemente de si las bases de datos usan la misma instancia de SQL Server o instancias diferentes de SQL Server.
+## <a name="databases"></a><span data-ttu-id="96a6f-114">Bases de datos</span><span class="sxs-lookup"><span data-stu-id="96a6f-114">Databases</span></span>
 
-Puede combinar un recurso compartido de archivos con las bases de datos, como se describe más adelante en esta sección.
+<span data-ttu-id="96a6f-115">De forma predeterminada, la base de datos back-end de SQL Server Express se encuentra en el servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="96a6f-115">By default, the SQL Server Express back-end database is collocated on the Standard Edition server.</span></span> <span data-ttu-id="96a6f-116">No puedes moverlo a otro equipo.</span><span class="sxs-lookup"><span data-stu-id="96a6f-116">You cannot move it to a separate computer.</span></span> <span data-ttu-id="96a6f-117">Con una excepción, no se pueden Collocate otras bases de datos en el servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="96a6f-117">With one exception, you cannot collocate other databases on the Standard Edition server.</span></span> <span data-ttu-id="96a6f-118">Si elige implementar un servidor de chat persistente en un servidor Standard Edition, puede Collocate la base de datos de chat persistente y la base de datos de cumplimiento de chat persistente en el mismo servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="96a6f-118">If you choose to deploy Persistent Chat Server on a Standard Edition server, you can collocate the Persistent chat database and the Persistent Chat Compliance database on the same Standard Edition server.</span></span>
+
+<span data-ttu-id="96a6f-119">Puede Collocate cada una de las siguientes bases de datos en un único servidor de base de datos:</span><span class="sxs-lookup"><span data-stu-id="96a6f-119">You can collocate each of the following databases on a single database server:</span></span>
+
+  - <span data-ttu-id="96a6f-120">Base de datos de supervisión</span><span class="sxs-lookup"><span data-stu-id="96a6f-120">Monitoring database</span></span>
+
+  - <span data-ttu-id="96a6f-121">Base de datos de archivado</span><span class="sxs-lookup"><span data-stu-id="96a6f-121">Archiving database</span></span>
+
+  - <span data-ttu-id="96a6f-122">Una base de datos back-end para un grupo de servidores front end Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="96a6f-122">A back-end database for an Enterprise Edition Front End pool</span></span>
+
+<span data-ttu-id="96a6f-123">Puede Collocate cualquiera de estas bases de datos, o cualquiera de ellas, en una única instancia de SQL o usar una instancia de SQL diferente para cada una, con las siguientes limitaciones:</span><span class="sxs-lookup"><span data-stu-id="96a6f-123">You can collocate any or any or all of these databases in a single SQL instance or use a separate SQL instances for each, with the following limitations:</span></span>
+
+  - <span data-ttu-id="96a6f-124">Cada instancia de SQL puede contener una única base de datos back-end (para un grupo de servidores front end Enterprise Edition), una única base de datos de supervisión, una base de datos de archivado única, una base de datos de chat persistente y una única base de datos de cumplimiento persistente.</span><span class="sxs-lookup"><span data-stu-id="96a6f-124">Each SQL instance can contain only a single back-end database (for an Enterprise Edition Front End pool), single Monitoring database, single Archiving database, single persistent chat database, and single persistent chat compliance database.</span></span>
+
+  - <span data-ttu-id="96a6f-125">El servidor de base de datos no es compatible con más de un grupo de servidores front-end Enterprise Edition, un servidor que ejecuta el archivado, un servidor que ejecuta supervisión, una base de datos de chat persistente y una única base de datos de cumplimiento persistente, pero puede admitir una de cada uno. independientemente de si las bases de datos usan la misma instancia de SQL Server o instancias independientes de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="96a6f-125">The database server cannot support more than one Enterprise Edition Front End pool, one server running Archiving, one server running Monitoring, single Persistent Chat database, and single Persistent Chat compliance database, but it can support one of each, regardless of whether the databases use the same instance of SQL Server or separate instances of SQL Server.</span></span>
+
+<span data-ttu-id="96a6f-126">Puede Collocate un recurso compartido de archivos con las bases de datos, tal y como se describe más adelante en esta sección.</span><span class="sxs-lookup"><span data-stu-id="96a6f-126">You can collocate a file share with the databases, as described later in this section.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> En Lync Server 2013, tiene la opción de integrar el almacenamiento de supervisión y archivado con el almacenamiento de Exchange 2013 para algunos o para todos los usuarios de su implementación. No puede implementar ningún componente o servidor que ejecute Lync Server en los mismos servidores que el almacenamiento de Exchange.
+> [!NOTE]  
+> <span data-ttu-id="96a6f-127">En Lync Server 2013, tiene la opción de integrar el almacenamiento de supervisión y archivado con el almacenamiento de Exchange 2013 para algunos o todos los usuarios de su implementación.</span><span class="sxs-lookup"><span data-stu-id="96a6f-127">In Lync Server 2013, you have the option of integrating Monitoring and Archiving storage with Exchange 2013 storage for some or all users in your deployment.</span></span> <span data-ttu-id="96a6f-128">No se pueden implementar servidores que ejecuten servidores o componentes de Lync en los mismos servidores que el almacenamiento de Exchange.</span><span class="sxs-lookup"><span data-stu-id="96a6f-128">You cannot deploy any servers running Lync Server or components on the same servers as the Exchange storage.</span></span>
 
+
+
+</div>
+
+<div>
 
 
 > [!IMPORTANT]  
-> Aunque se admite la combinación de las bases de datos, el tamaño de estas puede crecer rápidamente. Por ejemplo, si considera la combinación de la base de datos de archivado con otras bases de datos, tenga en cuenta que si va a archivar los mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de archivado puede aumentar considerablemente. Por este motivo, no se recomienda la combinación de varias bases de datos, especialmente la base de datos de archivado, la base de datos de Chat persistente y la base de datos de cumplimiento de Chat persistente con la base de datos back-end.
+> <span data-ttu-id="96a6f-129">Aunque se admite la collocation de bases de datos, el tamaño de las bases de datos puede crecer rápidamente.</span><span class="sxs-lookup"><span data-stu-id="96a6f-129">Although collocation of databases is supported, the size of the databases can grow quickly.</span></span> <span data-ttu-id="96a6f-130">Por ejemplo, cuando considere collocating la base de datos de archivado con otras bases de datos, tenga en cuenta que si está archivando los mensajes de más de unos pocos usuarios, el espacio en disco que necesita la base de datos de archivado puede crecer muy grande.</span><span class="sxs-lookup"><span data-stu-id="96a6f-130">For example, when you consider collocating the Archiving database with other databases, be aware that if you are archiving the messages of more than a few users, the disk space needed by the Archiving database can grow very large.</span></span> <span data-ttu-id="96a6f-131">Por este motivo, no recomendamos que collocating varias bases de datos, especialmente la base de datos de archivado, la base de datos de chat persistente y la base de datos de cumplimiento persistente con la base de datos back-end de un grupo de empresas.</span><span class="sxs-lookup"><span data-stu-id="96a6f-131">For this reason, we do not recommend collocating multiple databases, especially the Archiving database, Persistent Chat database, and Persistent Chat compliance database with the back-end database of an Enterprise pool.</span></span>
 
 
 
-## Recursos compartidos de archivos
+</div>
 
-El recurso compartido de archivos puede estar en un servidor separado o puede combinarse en el mismo servidor que el de cualquier o todos los siguientes elementos:
+</div>
 
-  - Servidor de base de datos, incluido el servidor back-end de un grupo de servidores front-end de Enterprise Edition
+<div>
 
-  - Base de datos de archivado
+## <a name="file-shares"></a><span data-ttu-id="96a6f-132">Archivos compartidos</span><span class="sxs-lookup"><span data-stu-id="96a6f-132">File Shares</span></span>
 
-  - Base de datos de supervisión
+<span data-ttu-id="96a6f-133">El recurso compartido de archivos puede ser un servidor independiente o se puede incluir en el mismo servidor que cualquiera de los siguientes:</span><span class="sxs-lookup"><span data-stu-id="96a6f-133">The file share can be a separate server or can be collocated on the same server as any or all of the following:</span></span>
 
-  - Base de datos de Chat persistente
+  - <span data-ttu-id="96a6f-134">Servidor de base de datos, incluido el servidor back-end de un grupo de servidores front end Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="96a6f-134">Database server, including the Back End Server of an Enterprise Edition Front End pool</span></span>
 
-  - Base de datos de cumplimiento de Chat persistente
+  - <span data-ttu-id="96a6f-135">Base de datos de archivado</span><span class="sxs-lookup"><span data-stu-id="96a6f-135">Archiving database</span></span>
 
-Se puede usar un solo recurso compartido de archivos para varios grupos de servidores front-end y servidores Standard Edition (todo en el mismo sitio).
+  - <span data-ttu-id="96a6f-136">Base de datos de supervisión</span><span class="sxs-lookup"><span data-stu-id="96a6f-136">Monitoring database</span></span>
+
+  - <span data-ttu-id="96a6f-137">Base de datos de chat persistente</span><span class="sxs-lookup"><span data-stu-id="96a6f-137">Persistent Chat database</span></span>
+
+  - <span data-ttu-id="96a6f-138">Base de datos de cumplimiento de chat persistente</span><span class="sxs-lookup"><span data-stu-id="96a6f-138">Persistent Chat compliance database</span></span>
+
+<span data-ttu-id="96a6f-139">Un solo recurso compartido de archivos se puede usar para varios grupos front-end, servidores Standard Edition (todos en el mismo sitio).</span><span class="sxs-lookup"><span data-stu-id="96a6f-139">A single file share can be used for multiple Front End pools, Standard Edition servers (all in the same site).</span></span>
+
+<div>
 
 
-> [!NOTE]
-> En Lync Server 2013, la supervisión y el archivado usan el recurso compartido de archivos de Lync Server como servidor de Standard Edition.
+> [!NOTE]  
+> <span data-ttu-id="96a6f-140">En Lync Server 2013, la supervisión y el archivado usan el recurso compartido de archivos de Lync Server como servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="96a6f-140">In Lync Server 2013, Monitoring and Archiving use the Lync Server file share as the Standard Edition server.</span></span>
 
 
 
-## Otros componentes
+</div>
 
-No puede combinar un servidor proxy inverso, que no es un componente de Lync Server 2013 pero es un necesario en la implementación si desea proporcionar compatibilidad para compartir contenido web para los usuarios federados con cualquier rol de servidor Lync Server 2013. Sin embargo, puede implementar la compatibilidad de servidor proxy inverso para una implementación de Lync Server 2013 mediante la configuración de la compatibilidad en un servidor proxy inverso existente de su organización que se use para otras aplicaciones.
+</div>
 
-No puede combinar ningún componente de Mensajería unificada de Exchange ni de SharePoint con ningún rol de Lync Server 2013.
+<div>
+
+## <a name="other-components"></a><span data-ttu-id="96a6f-141">Otros componentes</span><span class="sxs-lookup"><span data-stu-id="96a6f-141">Other Components</span></span>
+
+<span data-ttu-id="96a6f-142">No se puede Collocate un servidor proxy inverso, que no es un componente de 2013 de Lync Server, pero es necesario en la implementación si desea permitir el uso compartido de contenido web para usuarios federados con cualquier rol de servidor de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="96a6f-142">You cannot collocate a reverse proxy server, which is not a Lync Server 2013 component, but is required in your deployment if you want to support sharing of web content for federated users with any Lync Server 2013 server role.</span></span> <span data-ttu-id="96a6f-143">Sin embargo, puede implementar el soporte de proxy inverso para una implementación de Lync Server 2013 al configurar la compatibilidad en un servidor proxy inverso existente de su organización que se usa para otras aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="96a6f-143">You can, however, implement reverse proxy support for a Lync Server 2013 deployment by configuring the support on an existing reverse proxy server in your organization that is used for other applications.</span></span>
+
+<span data-ttu-id="96a6f-144">No puede Collocate ningún componente de mensajería unificada de Exchange o componente de SharePoint con ningún rol de 2013 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="96a6f-144">You cannot collocate any Exchange UM component or SharePoint component with any Lync Server 2013 role.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

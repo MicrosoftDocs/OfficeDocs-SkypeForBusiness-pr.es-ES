@@ -1,195 +1,253 @@
-﻿---
-title: "Lync Server 2013: Procedimientos de recuperación ante desastres de grupo de respuesta"
-TOCTitle: Procedimientos de recuperación ante desastres del grupo de respuesta
-ms:assetid: b49577b7-0ca3-4f20-b614-f3a2a0046b58
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205186(v=OCS.15)
-ms:contentKeyID: 48276415
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Procedimientos de recuperación ante desastres del grupo de respuesta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Response group disaster recovery procedures
+ms:assetid: b49577b7-0ca3-4f20-b614-f3a2a0046b58
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205186(v=OCS.15)
+ms:contentKeyID: 48185171
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e7f28f13d1acdbdae58b1aadd6f73871af270b7d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823290"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Procedimientos de recuperación ante desastres del grupo de respuesta en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="response-group-disaster-recovery-procedures-in-lync-server-2013"></a><span data-ttu-id="8a115-102">Procedimientos de recuperación ante desastres del grupo de respuesta en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8a115-102">Response group disaster recovery procedures in Lync Server 2013</span></span>
 
-Durante la fase de conmutación por error de la recuperación ante desastres, los grupos de respuesta residen en varios grupos de servidores: en el grupo de servidores principal (que no está disponible) y en el grupo de servidores de reserva. Los grupos de respuesta de ambos grupos de servidores tienen el mismo nombre y el mismo propietario (el grupo de servidores principal), pero diferentes elementos primarios. Durante este período, los cmdlets del Grupo de respuesta funcionan de un modo ligeramente distinto. Asegúrese de usar los parámetros como se especifica en el procedimiento siguiente. Para más información sobre cómo funcionan los cmdlets durante la fase de conmutación por error, vea el artículo del blog de NextHop "Lync Server 2013: recuperación de grupos de respuesta durante la recuperación ante desastres" en [http://go.microsoft.com/fwlink/?linkid=263957\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=263957%26clcid=0xc0a). Este artículo del blog también se aplica a la versión de lanzamiento de Lync Server 2013.
+</div>
 
-Use los pasos del procedimiento siguiente para preparar y llevar a cabo la recuperación ante desastres de Servicio de grupo de respuesta de Lync Server.
+<div id="mainSection">
 
-## Para la conmutación por error y conmutación por recuperación del grupo de respuesta
+<div id="mainBody">
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<span> </span>
 
-2.  Haga copias de seguridad periódicamente. En la línea de comandos, escriba lo siguiente:
+<span data-ttu-id="8a115-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="8a115-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="8a115-104">Durante la fase de conmutación por error de recuperación ante desastres, los grupos de respuesta residen en varios grupos: en el grupo primario (que no está disponible) y en el grupo de copias de seguridad.</span><span class="sxs-lookup"><span data-stu-id="8a115-104">During the failover phase of disaster recovery, the response groups reside in multiple pools: in the primary pool (which is unavailable) and in the backup pool.</span></span> <span data-ttu-id="8a115-105">Los grupos de respuesta de ambos grupos tienen el mismo nombre y el mismo propietario (el grupo principal), pero tienen diferentes padres.</span><span class="sxs-lookup"><span data-stu-id="8a115-105">The response groups in both pools have the same name and the same owner (the primary pool), but they have different parents.</span></span> <span data-ttu-id="8a115-106">Durante este tiempo, los cmdlets del grupo de respuesta funcionan de manera algo diferente.</span><span class="sxs-lookup"><span data-stu-id="8a115-106">During this time, Response Group cmdlets work a little differently.</span></span> <span data-ttu-id="8a115-107">Asegúrese de usar parámetros según se especifica en el procedimiento siguiente.</span><span class="sxs-lookup"><span data-stu-id="8a115-107">Be sure to use parameters as specified in the following procedure.</span></span> <span data-ttu-id="8a115-108">Para más información sobre cómo funcionan los cmdlets durante la fase de conmutación por error, vea el artículo del blog de NextHop "Lync Server 2013: [http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957)recuperación de grupos de respuesta durante la recuperación ante desastres" en.</span><span class="sxs-lookup"><span data-stu-id="8a115-108">For details about how cmdlets work during the failover phase, see NextHop blog article "Lync Server 2013: Recovering Response Groups During Disaster Recovery" at [http://go.microsoft.com/fwlink/p/?LinkId=263957](http://go.microsoft.com/fwlink/p/?linkid=263957).</span></span> <span data-ttu-id="8a115-109">Este artículo del blog también se aplica a la versión de lanzamiento de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="8a115-109">This blog article also applies to the released version of Lync Server 2013.</span></span>
+
+<span data-ttu-id="8a115-110">Siga los pasos que se indican en el siguiente procedimiento para preparar y realizar la recuperación de desastres para el servicio de grupo de respuesta de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8a115-110">Use the steps in the following procedure to prepare for and perform disaster recovery for Lync Server Response Group service.</span></span>
+
+<div>
+
+## <a name="to-fail-over-and-fail-back-response-group"></a><span data-ttu-id="8a115-111">Para deshacer la conmutación por error y el grupo de respuesta failback</span><span class="sxs-lookup"><span data-stu-id="8a115-111">To fail over and fail back Response Group</span></span>
+
+1.  <span data-ttu-id="8a115-112">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="8a115-112">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="8a115-113">Realizar copias de seguridad rutinariamente.</span><span class="sxs-lookup"><span data-stu-id="8a115-113">Routinely perform backups.</span></span> <span data-ttu-id="8a115-114">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-114">At the command line, type:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>"
     
-    Por ejemplo:
+    <span data-ttu-id="8a115-115">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-115">For example:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimary.zip"
 
-3.  Durante una interrupción, después de la conmutación por error en el grupo de servidores de reserva, importe los grupos de respuesta al grupo de servidores de reserva. En la línea de comandos, escriba lo siguiente:
+3.  <span data-ttu-id="8a115-116">Durante una interrupción, después de la conmutación por error en el grupo de copias de seguridad, importe los grupos de respuesta al grupo de copia de seguridad.</span><span class="sxs-lookup"><span data-stu-id="8a115-116">During an outage, after failover to the backup pool, import the response groups to the backup pool.</span></span> <span data-ttu-id="8a115-117">En la línea de comandos, escriba:</span><span class="sxs-lookup"><span data-stu-id="8a115-117">At the command line, type:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<backup pool FQDN>" -FileName "<backup path and file name>"
     
-    Si desea reemplazar la configuración de nivel de aplicación del grupo de servidores de reserva por la configuración del grupo de servidores principal, incluya el parámetro ReplaceExistingSettings. Por ejemplo:
+    <span data-ttu-id="8a115-118">Si desea reemplazar la configuración de nivel de aplicación del grupo de copias de seguridad por la configuración del grupo principal, incluya el parámetro – ReplaceExistingSettings.</span><span class="sxs-lookup"><span data-stu-id="8a115-118">If you want to replace the application-level settings in the backup pool with the settings from the primary pool, include the –ReplaceExistingSettings parameter.</span></span> <span data-ttu-id="8a115-119">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-119">For example:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:backup.contoso.com" -FileName "C:\RgsExportPrimary.zip" -ReplaceExistingSettings
     
-    > [!CAUTION]  
-    > Si no reemplaza la configuración del grupo de servidores de reserva y no se puede recuperar el grupo de servidores principal, se perderá la configuración del grupo de servidores principal. Para más información, vea <a href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Planeamiento de recuperación ante desastres del grupo de respuesta en Lync Server 2013</a>.
+    <div>
     
 
+    > [!WARNING]  
+    > <span data-ttu-id="8a115-120">Si no reemplaza la configuración del grupo de copias de seguridad y no se puede recuperar el repositorio principal, se perderá la configuración de la agrupación principal.</span><span class="sxs-lookup"><span data-stu-id="8a115-120">If you do not replace the settings in the backup pool and the primary pool can't be recovered, the primary pool settings will be lost.</span></span> <span data-ttu-id="8a115-121">Para obtener más información, consulte <A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">planeación de la recuperación ante desastres de grupos de respuesta en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8a115-121">For details, see <A href="lync-server-2013-planning-for-response-group-disaster-recovery.md">Planning for response group disaster recovery in Lync Server 2013</A>.</span></span>
 
-4.  Compruebe que la importación se haya realizado correctamente. Para ello, muestre los grupos de respuesta importados. Los grupos de respuesta importados siguen siendo propiedad del grupo de servidores principal. Haga lo siguiente:
     
-      - Muestre todos los flujos de trabajo del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se hayan incluido todos los flujos de trabajo del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
+    </div>
+
+4.  <span data-ttu-id="8a115-122">Compruebe que la importación se ha realizado correctamente; para ello, muestra los grupos de respuesta importados.</span><span class="sxs-lookup"><span data-stu-id="8a115-122">Verify that the import was successful by displaying the imported response groups.</span></span> <span data-ttu-id="8a115-123">Los grupos de respuesta importados siguen siendo propiedad del grupo primario.</span><span class="sxs-lookup"><span data-stu-id="8a115-123">The imported response groups are still owned by the primary pool.</span></span> <span data-ttu-id="8a115-124">Siga este procedimiento:</span><span class="sxs-lookup"><span data-stu-id="8a115-124">Do the following:</span></span>
+    
+      - <span data-ttu-id="8a115-125">Mostrar todos los flujos de trabajo del grupo de copias de seguridad que pertenecen al grupo principal y comprobar que se incluyen todos los flujos de trabajo de grupo primario.</span><span class="sxs-lookup"><span data-stu-id="8a115-125">Display all the workflows in the backup pool that are owned by the primary pool, and verify that all the primary pool workflows are included.</span></span> <span data-ttu-id="8a115-126">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-126">At the command line, type:</span></span>
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-127">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-127">For example:</span></span>
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com"
     
-      - Muestre todas las colas del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se hayan incluido todas las colas del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
+      - <span data-ttu-id="8a115-128">Muestre todas las colas del grupo de copia de seguridad que pertenecen al grupo principal y compruebe que se incluyen todas las colas de grupo principales.</span><span class="sxs-lookup"><span data-stu-id="8a115-128">Display all the queues in the backup pool that are owned by the primary pool, and verify that all the primary pool queues are included.</span></span> <span data-ttu-id="8a115-129">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-129">At the command line, type:</span></span>
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-130">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-130">For example:</span></span>
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - Muestre todos los grupos de agentes del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se hayan incluido todos los grupos de agentes del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
+      - <span data-ttu-id="8a115-131">Mostrar todos los grupos de agentes del grupo de copias de seguridad que pertenecen al grupo principal y comprobar que se incluyen todos los grupos de agentes de grupo principales.</span><span class="sxs-lookup"><span data-stu-id="8a115-131">Display all the agent groups in the backup pool that are owned by the primary pool, and verify that all the primary pool agent groups are included.</span></span> <span data-ttu-id="8a115-132">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-132">At the command line, type:</span></span>
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-133">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-133">For example:</span></span>
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - Muestre todo el horario comercial del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se haya incluido todo el horario comercial del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
+      - <span data-ttu-id="8a115-134">Mostrar todas las horas de actividad en el grupo de copia de seguridad que pertenecen al grupo principal y comprobar que se incluyen todos los horarios de negocio principales de la agrupación.</span><span class="sxs-lookup"><span data-stu-id="8a115-134">Display all the hours of business in the backup pool that are owned by the primary pool, and verify that all the primary pool hours of business are included.</span></span> <span data-ttu-id="8a115-135">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-135">At the command line, type:</span></span>
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-136">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-136">For example:</span></span>
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-      - Muestre todos los conjuntos de vacaciones del grupo de servidores de reserva que son propiedad del grupo de servidores principal y compruebe que se hayan incluido todos los conjuntos de vacaciones del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
+      - <span data-ttu-id="8a115-137">Mostrar todos los conjuntos de días no laborables del grupo de copias de seguridad que pertenecen al grupo principal y comprobar que se incluyen todos los conjuntos de días no laborables de la agrupación principal.</span><span class="sxs-lookup"><span data-stu-id="8a115-137">Display all the holiday sets in the backup pool that are owned by the primary pool, and verify that all the primary pool holiday sets are included.</span></span> <span data-ttu-id="8a115-138">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-138">At the command line, type:</span></span>
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer"<primary pool FQDN>
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-139">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-139">For example:</span></span>
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer"primary.contoso.com"
     
-    También puede mostrar todos los grupos de respuesta del grupo de servidores de reserva, incluidos los que son propiedad del grupo de servidores principal y los que son propiedad del grupo de servidores de reserva, con el parámetro –ShowAll en lugar del parámetro –Owner. Por ejemplo:
+    <span data-ttu-id="8a115-140">Como alternativa, puede mostrar todos los grupos de respuesta en el grupo de copias de seguridad, incluidos los que pertenecen al grupo principal y los que pertenecen al grupo de copias de seguridad, con el parámetro – ShowAll en lugar del parámetro – Owner.</span><span class="sxs-lookup"><span data-stu-id="8a115-140">Alternatively, you can display all the response groups in the backup pool, including the ones owned by the primary pool and the ones owned by the backup pool by using the –ShowAll parameter instead of the –Owner parameter.</span></span> <span data-ttu-id="8a115-141">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-141">For example:</span></span>
     
         Get-CsRgsWorkflow -Identity "service:ApplicationServer:<backup pool FQDN>" -ShowAll
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Debe usar el parámetro –ShowAll o el parámetro –Owner. Si no usa ninguno de estos parámetros, los grupos de respuesta importados al grupo de servidores de reserva no aparecerán en los resultados que devuelven los cmdlets.
+    > <span data-ttu-id="8a115-142">Debe usar el parámetro – ShowAll o el parámetro-Owner.</span><span class="sxs-lookup"><span data-stu-id="8a115-142">You must use either the –ShowAll parameter or the –Owner parameter.</span></span> <span data-ttu-id="8a115-143">Si no usa ninguno de estos parámetros, los grupos de respuesta que importó al grupo de copias de seguridad no se mostrarán en los resultados devueltos por los cmdlets.</span><span class="sxs-lookup"><span data-stu-id="8a115-143">If you do not use either of these parameters, the response groups that you imported to the backup pool will not be listed in the results returned by the cmdlets.</span></span>
+
+    
+    </div>
+
+5.  <span data-ttu-id="8a115-144">Verifique que la importación se haya realizado correctamente colocando una llamada a un grupo de respuesta importado y verificando que la llamada se controla correctamente.</span><span class="sxs-lookup"><span data-stu-id="8a115-144">Verify that the import was successful by placing a call to an imported response group and verifying that the call is handled correctly.</span></span>
+
+6.  <span data-ttu-id="8a115-145">Solicitar agentes que sean miembros de grupos de agentes formales para iniciar sesión en sus grupos de agentes en el grupo de copias de seguridad.</span><span class="sxs-lookup"><span data-stu-id="8a115-145">Request agents who are members of formal agent groups to sign in to their agent groups in the backup pool.</span></span>
+
+7.  <span data-ttu-id="8a115-146">Administrar y modificar los grupos de respuesta importados de la forma habitual.</span><span class="sxs-lookup"><span data-stu-id="8a115-146">Manage and modify the imported response groups as usual.</span></span>
+    
+    <div>
     
 
-
-5.  Compruebe que la importación se haya realizado correctamente. Para ello, realice una llamada a un grupo de respuesta importado y compruebe que la llamada se atienda correctamente.
-
-6.  Pida a los agentes que son miembros de grupos de agentes formales que inicien sesión en sus grupos de agentes en el grupo de servidores de reserva.
-
-7.  Administre y modifique los grupos de respuesta importados de la manera habitual.
-    
     > [!IMPORTANT]  
-    > Mientras los grupos de respuesta estén en el grupo de servidores de reserva, deberá usar el Shell de administración de Lync Server para administrarlos. No puede usar el Panel de control de Lync Server para administrar los grupos de respuestas que importó al grupo de servidores de reserva.
+    > <span data-ttu-id="8a115-147">Mientras los grupos de respuesta están en el grupo de copia de seguridad, necesita usar el shell de administración de Lync Server para administrarlos.</span><span class="sxs-lookup"><span data-stu-id="8a115-147">While the response groups are in the backup pool, you need to use Lync Server Management Shell to manage them.</span></span> <span data-ttu-id="8a115-148">No puede usar el panel de control de Lync Server para administrar los grupos de respuesta que importó al grupo de copias de seguridad.</span><span class="sxs-lookup"><span data-stu-id="8a115-148">You cannot use Lync Server Control Panel to manage the response groups that you imported to the backup pool.</span></span>
+
     
+    </div>
 
-
-8.  Una vez que se ha restaurado el grupo de servidores principal y se ha completado la conmutación por recuperación, exporte los grupos de respuesta del grupo de servidores principal que se importaron al grupo de servidores de reserva. En la línea de comandos, escriba lo siguiente:
+8.  <span data-ttu-id="8a115-149">Una vez que se haya restaurado el grupo principal y se haya completado la conmutación por recuperación, exporte los grupos de respuesta del grupo principal que se importaron al grupo de copias de seguridad.</span><span class="sxs-lookup"><span data-stu-id="8a115-149">After the primary pool is restored and failback is complete, export the primary pool response groups that were imported to the backup pool.</span></span> <span data-ttu-id="8a115-150">En la línea de comandos, escriba:</span><span class="sxs-lookup"><span data-stu-id="8a115-150">At the command line, type:</span></span>
     
         Export-CsRgsConfiguration -Source ApplicationServer:<backup pool FQDN> -Owner ApplicationServer:<primary pool FQDN> -FileName "<backup path and file name>"
 
-9.  Importe los grupos de respuesta nuevamente al grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
+9.  <span data-ttu-id="8a115-151">Vuelva a importar los grupos de respuesta al grupo primario.</span><span class="sxs-lookup"><span data-stu-id="8a115-151">Import the response groups back to the primary pool.</span></span> <span data-ttu-id="8a115-152">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-152">At the command line, type:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>"
     
-    Por ejemplo:
+    <span data-ttu-id="8a115-153">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-153">For example:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:primary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip"
     
+    <div>
+    
 
-    > [!NOTE]
-    > Si vuelve a generar un grupo de servidores durante la recuperación, ya sea con el mismo nombre de dominio completo (FQDN) o con uno diferente, debe usar el parámetro –OverwriteOwner. Como regla general, siempre puede usar el parámetro –OverwriteOwner al importar grupos de respuesta nuevamente al grupo de servidores principal.
+    > [!NOTE]  
+    > <span data-ttu-id="8a115-154">Si reconstruye un grupo durante la recuperación, ya sea con el mismo nombre de dominio completo (FQDN) u otro diferente, debe usar el parámetro – OverwriteOwner.</span><span class="sxs-lookup"><span data-stu-id="8a115-154">If you rebuild a pool during recovery, whether with the same or a different fully qualified domain name (FQDN), you need to use the –OverwriteOwner parameter.</span></span> <span data-ttu-id="8a115-155">Como regla general, siempre puede usar el parámetro – OverwriteOwner al importar grupos de respuesta al grupo primario.</span><span class="sxs-lookup"><span data-stu-id="8a115-155">As a rule of thumb, you can always use the –OverwriteOwner parameter when you import response groups back to the primary pool.</span></span>
 
     
-    Si implementó un nuevo grupo de servidores (con el mismo FQDN o con uno diferente) para reemplazar el grupo de servidores principal, y desea usar la configuración de nivel de aplicación del grupo de servidores de reserva para el nuevo grupo, incluya el parámetro –ReplaceExistingSettings. En la línea de comandos, escriba lo siguiente:
+    </div>
+    
+    <span data-ttu-id="8a115-156">Si implementó un nuevo grupo (con el mismo FQDN u otro diferente) para reemplazar el grupo primario y desea usar la configuración de nivel de aplicación del grupo de copias de seguridad para el nuevo grupo, incluya el parámetro – ReplaceExistingSettings.</span><span class="sxs-lookup"><span data-stu-id="8a115-156">If you deployed a new pool (with the same or a different FQDN) to replace the primary pool, and you want to use the application-level settings from the backup pool for the new pool, include the –ReplaceExistingSettings parameter.</span></span> <span data-ttu-id="8a115-157">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-157">At the command line, type:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:<new primary pool FQDN>" -OverwriteOwner -FileName "<exported path and file name>" -ReplaceExistingSettings
     
-    Por ejemplo:
+    <span data-ttu-id="8a115-158">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-158">For example:</span></span>
     
         Import-CsRgsConfiguration -Destination "service:ApplicationServer:newprimary.contoso.com" -OverwriteOwner -FileName "C:\RgsExportPrimaryUpdated.zip" -ReplaceExistingSettings
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Si no desea reemplazar la configuración de nivel de aplicación ni el archivo de audio de música en espera predeterminado del nuevo grupo de servidores por la configuración del grupo de servidores de reserva, el nuevo grupo usará la configuración de nivel de aplicación predeterminada.
-    
+    > <span data-ttu-id="8a115-159">Si no quiere reemplazar la configuración de nivel de aplicación y el archivo de audio de música en espera predeterminado para el nuevo grupo con la configuración del grupo de copias de seguridad, el nuevo grupo usará la configuración predeterminada de nivel de aplicación.</span><span class="sxs-lookup"><span data-stu-id="8a115-159">If you don't want to replace the application-level settings and default music-on-hold audio file for the new pool with the settings from the backup pool, the new pool will use the default application-level settings.</span></span>
 
-
-10. Compruebe que la importación al grupo de servidores principal se haya realizado correctamente. Para ello, muestre la configuración del grupo de respuesta importado. Haga lo siguiente:
     
-      - Muestre todos los flujos de trabajo del grupo de servidores principal y compruebe que se hayan incluido todos los flujos de trabajo importados. En la línea de comandos, escriba lo siguiente:
+    </div>
+
+10. <span data-ttu-id="8a115-160">Compruebe que la importación al grupo primario se ha realizado correctamente mostrando la configuración del grupo de respuesta importado.</span><span class="sxs-lookup"><span data-stu-id="8a115-160">Verify that the import back to the primary pool was successful by displaying the imported response group configuration.</span></span> <span data-ttu-id="8a115-161">Siga este procedimiento:</span><span class="sxs-lookup"><span data-stu-id="8a115-161">Do the following:</span></span>
+    
+      - <span data-ttu-id="8a115-162">Mostrar todos los flujos de trabajo del grupo principal y comprobar que se incluyen todos los flujos de trabajo importados.</span><span class="sxs-lookup"><span data-stu-id="8a115-162">Display all the workflows in the primary pool, and verify that all the imported workflows are included.</span></span> <span data-ttu-id="8a115-163">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-163">At the command line, type:</span></span>
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-164">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-164">For example:</span></span>
         
             Get-CsRgsWorkflow -Identity "service:ApplicationServer: primary.contoso.com" -ShowAll
     
-      - Muestre todas las colas del grupo de servidores principal y compruebe que se hayan incluido todas las colas importadas. En la línea de comandos, escriba lo siguiente:
+      - <span data-ttu-id="8a115-165">Muestre todas las colas del grupo principal y compruebe que todas las colas importadas están incluidas.</span><span class="sxs-lookup"><span data-stu-id="8a115-165">Display all the queues in the primary pool, and verify that all the imported queues are included.</span></span> <span data-ttu-id="8a115-166">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-166">At the command line, type:</span></span>
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-167">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-167">For example:</span></span>
         
             Get-CsRgsQueue -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - Muestre todos los grupos de agentes del grupo de servidores principal y compruebe que se hayan incluido todos los grupos de agentes importados. En la línea de comandos, escriba lo siguiente:
+      - <span data-ttu-id="8a115-168">Mostrar todos los grupos de agentes en el repositorio principal y comprobar que se incluyen todos los grupos de agentes importados.</span><span class="sxs-lookup"><span data-stu-id="8a115-168">Display all the agent groups in the primary pool, and verify that all the imported agent groups are included.</span></span> <span data-ttu-id="8a115-169">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-169">At the command line, type:</span></span>
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer: <primary pool FQDN>" -ShowAll
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-170">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-170">For example:</span></span>
         
             Get-CsRgsAgentGroup -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - Muestre todo el horario comercial del grupo de servidores principal y compruebe que se haya incluido todo el horario comercial importado. En la línea de comandos, escriba lo siguiente:
+      - <span data-ttu-id="8a115-171">Mostrar todas las horas de actividad en el grupo primario y comprobar que se incluyen todos los horarios de negocios importados.</span><span class="sxs-lookup"><span data-stu-id="8a115-171">Display all the hours of business in the primary pool, and verify that all the imported hours of business are included.</span></span> <span data-ttu-id="8a115-172">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-172">At the command line, type:</span></span>
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-173">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-173">For example:</span></span>
         
             Get-CsRgsHoursOfBusiness -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
     
-      - Muestre todos los conjuntos de vacaciones del grupo de servidores principal y compruebe que se hayan incluido todos los conjuntos de vacaciones importados. En la línea de comandos, escriba lo siguiente:
+      - <span data-ttu-id="8a115-174">Mostrar todos los conjuntos de días no laborables del repositorio principal y comprobar que están incluidos todos los conjuntos de festividades importados.</span><span class="sxs-lookup"><span data-stu-id="8a115-174">Display all the holiday sets in the primary pool, and verify that all the imported holiday sets are included.</span></span> <span data-ttu-id="8a115-175">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-175">At the command line, type:</span></span>
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:<primary pool FQDN>" -ShowAll
         
-        Por ejemplo:
+        <span data-ttu-id="8a115-176">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-176">For example:</span></span>
         
             Get-CsRgsHolidaySet -Identity "service:ApplicationServer:primary.contoso.com" -ShowAll
 
-11. Compruebe que la importación se haya realizado correctamente. Para ello, realice una llamada a un grupo de respuesta importado y compruebe que la llamada se atienda correctamente.
+11. <span data-ttu-id="8a115-177">Verifique que la importación se haya realizado correctamente colocando una llamada a un grupo de respuesta importado y verificando que la llamada se controla correctamente.</span><span class="sxs-lookup"><span data-stu-id="8a115-177">Verify that the import was successful by placing a call to an imported response group and verifying that the call is handled correctly.</span></span>
 
-12. También puede quitar del grupo de servidores de reserva los grupos de respuesta que son propiedad del grupo de servidores principal. En la línea de comandos, escriba lo siguiente:
+12. <span data-ttu-id="8a115-178">Si lo desea, puede quitar los grupos de respuesta que pertenecen al grupo principal del grupo de copias de seguridad.</span><span class="sxs-lookup"><span data-stu-id="8a115-178">Optionally, remove the response groups owned by the primary pool from the backup pool.</span></span> <span data-ttu-id="8a115-179">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8a115-179">At the command line, type:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:<backup pool FQDN>" -Owner "service:ApplicationServer:<primary pool FQDN>" -FileName "<backup path and file name>" -RemoveExportedConfiguration
     
-    Por ejemplo:
+    <span data-ttu-id="8a115-180">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="8a115-180">For example:</span></span>
     
         Export-CsRgsConfiguration -Source "service:ApplicationServer:backup.contoso.com" -Owner "service:ApplicationServer:primary.contoso.com" -FileName "C:\RgsExportPrimaryUpdated.zip" -RemoveExportedConfiguration
     
+    <div>
+    
 
-    > [!NOTE]
-    > Este paso crea un nuevo archivo con la configuración exportada y luego lo elimina del grupo de servidores de reserva.
+    > [!NOTE]  
+    > <span data-ttu-id="8a115-181">Este paso crea un nuevo archivo con la configuración exportada y, a continuación, lo quita del grupo de copia de seguridad.</span><span class="sxs-lookup"><span data-stu-id="8a115-181">This step creates a new file with the exported configuration, and then removes it from the backup pool.</span></span>
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

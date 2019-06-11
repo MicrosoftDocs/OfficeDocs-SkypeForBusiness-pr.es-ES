@@ -1,179 +1,246 @@
-﻿---
-title: Restaurar el servidor que hospeda el Almacén de administración central
-TOCTitle: Restaurar el servidor que hospeda el Almacén de administración central
-ms:assetid: 3bd6c82c-07fb-4798-b8f9-e7c78a5a83d5
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202172(v=OCS.15)
-ms:contentKeyID: 52061648
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: restaurar el servidor que hospeda el almacén de administración central'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Restoring the server hosting the Central Management store
+ms:assetid: 3bd6c82c-07fb-4798-b8f9-e7c78a5a83d5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202172(v=OCS.15)
+ms:contentKeyID: 51541464
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 95696c682e7acfba32e4f9a2bfd71ba988f22243
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822450"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Restaurar el servidor que hospeda el Almacén de administración central
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-21_
+# <a name="restoring-the-server-hosting-the-central-management-store-in-lync-server-2013"></a><span data-ttu-id="ff6a0-102">Restaurar el servidor que hospeda el almacén de administración central en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff6a0-102">Restoring the server hosting the Central Management store in Lync Server 2013</span></span>
 
-Una implementación de Lync Server tiene un solo Almacén de administración central, del que se replica una copia en cada servidor que ejecuta un rol de servidor Lync Server. Este tema describe cómo restaurar un servidor back‑end o Servidor Standard Edition que hospeda el Almacén de administración central.
+</div>
 
-Para encontrar el grupo en el que se ubica el Servidor de administración central, abra Generador de topologías, haga clic en **Lync Server** y busque en el panel derecho, en **Servidor de administración central**.
+<div id="mainSection">
 
-Si el servidor back-end que hospeda el Almacén de administración central se encuentra en una configuración reflejada y la base de datos reflejada aún funciona, se recomienda realizar una copia de seguridad de este reflejo que aún se encuentra en funcionamiento y, a continuación, llevar a cabo una restauración completa tanto en la base de datos principal como en la reflejada mediante el proceso de restauración que se detalla más abajo. Esto es necesario porque la restauración del servidor back-end requiere la modificación y publicación de la topología, lo que solo puede llevarse a cabo si la base de datos que hospeda el CMS es operativa. También tenga en cuenta que los roles de las bases de datos principal y reflejada no se pueden intercambiar si la topología no se puede publicar.
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="ff6a0-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="ff6a0-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+
+<span data-ttu-id="ff6a0-104">Una implementación de Lync Server tiene un único almacén de administración central, una copia de la cual se replica en cada servidor que ejecuta un rol de servidor de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-104">A Lync Server deployment has a single Central Management store, a copy of which is replicated to each server running a Lync Server server role.</span></span> <span data-ttu-id="ff6a0-105">En este tema se describe cómo restaurar un servidor de back-end o un servidor Standard Edition que hospeda el almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-105">This topic describes how to restore a Back End Server or Standard Edition server that hosts the Central Management store.</span></span>
+
+<span data-ttu-id="ff6a0-106">Para encontrar el grupo en el que se encuentra el servidor de administración central, abra el generador de topologías, haga clic en **Lync Server**y mire en el panel derecho, en **servidor de administración central**.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-106">To find the pool where the Central Management Server is located, open Topology Builder, click **Lync Server**, and look in the right pane under **Central Management Server**.</span></span>
+
+<span data-ttu-id="ff6a0-107">Si el servidor back-end que hospeda el almacén de administración central está en una configuración duplicada y la base de datos reflejada sigue funcionando, le recomendamos que haga una copia de seguridad de este reflejo en funcionamiento y, a continuación, realice una restauración completa tanto en la base de datos principal como en la base de datos reflejada con esta copia de seguridad siguiendo el procedimiento de restauración que se muestra a continuación.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-107">If the Back End Server that hosts the Central Management store is in a mirrored setup and the mirror database is still functional, we recommend that you make a backup of this still-functioning mirror, and then perform a full restore on both the primary database and the mirror database, using this backup, by following the restoration procedure below.</span></span> <span data-ttu-id="ff6a0-108">Esto es necesario porque la restauración de back-end requiere modificar y publicar la topología, lo cual puede hacerse solo si la base de datos principal que hospeda CMS está operativa.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-108">This is necessary because Back End restore requires modifying and publishing the topology, and this can be done only if the primary database hosting CMS is operational.</span></span> <span data-ttu-id="ff6a0-109">Además, tenga en cuenta que las funciones de base de datos principales y reflejadas no se pueden intercambiar si la topología no se puede publicar.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-109">Also note that the primary and mirror database roles cannot be interchanged if the topology cannot be published.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Si se produjo un error en el servidor back-end o en un Servidor Standard Edition que no hospeda el Almacén de administración central, consulte <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restaurar un servidor back-end Enterprise Edition</A> o <A href="lync-server-2013-restoring-a-standard-edition-server.md">Restaurar un servidor Standard Edition</A>. Si un servidor back-end que hospeda el Almacén de administración central se encuentra en una configuración reflejada y solo se produjo un error en el reflejo, consulte <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restaurar un servidor back-end Enterprise Edition reflejado: reflejar</A>. Si se produjo un error en cualquier otro servidor, consulte <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restaurar un servidor miembro de Enterprise Edition</A>.
+> [!NOTE]  
+> <span data-ttu-id="ff6a0-110">Si se produjo un error en un servidor de back-end o un servidor Standard Edition que no aloja el almacén de administración central, consulte <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">restaurar un servidor de servicios de fondo de la edición empresarial en Lync server 2013</A> o <A href="lync-server-2013-restoring-a-standard-edition-server.md">restaurar un servidor Standard Edition en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-110">If a Back End Server or Standard Edition server that does not host the Central Management store failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-back-end-server.md">Restoring an Enterprise Edition Back End Server in Lync Server 2013</A> or <A href="lync-server-2013-restoring-a-standard-edition-server.md">Restoring a Standard Edition server in Lync Server 2013</A>.</span></span> <span data-ttu-id="ff6a0-111">Si un servidor back-end que hospeda el almacén de administración central está en una configuración reflejada y solo se produjo un error en el reflejo, consulte <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">restaurar un servidor de back-end de empresa duplicada en Lync Server 2013-Mirror</A>.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-111">If a Back End Server that hosts the Central Management store is in a mirrored configuration and only the mirror failed, see <A href="lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md">Restoring a mirrored Enterprise Edition Back End Server in Lync Server 2013 - mirror</A>.</span></span> <span data-ttu-id="ff6a0-112">Si se produce un error en cualquier otro servidor, vea <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">restaurar un servidor miembro de Enterprise Edition en Lync server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-112">If any other server failed, see <A href="lync-server-2013-restoring-an-enterprise-edition-member-server.md">Restoring an Enterprise Edition member server in Lync Server 2013</A>.</span></span>
 
+
+
+</div>
+
+<div>
 
 
 > [!TIP]  
-> Se recomienda que realice una copia de la imagen del sistema antes de iniciar la restauración. Puede usar esta imagen como punto de reversión en caso de que haya errores durante la restauración. Le resultará conveniente realizar la copia de la imagen después de instalar el sistema operativo y SQL Server, y restaurar o volver a inscribir los certificados.
+> <span data-ttu-id="ff6a0-113">Le recomendamos que tome una copia de la imagen del sistema antes de comenzar la restauración.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-113">We recommend that you take an image copy of the system before you start restoration.</span></span> <span data-ttu-id="ff6a0-114">Puede usar esta imagen como punto de reversión, en caso de que algo falle durante la restauración.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-114">You can use this image as a rollback point, in case something goes wrong during restoration.</span></span> <span data-ttu-id="ff6a0-115">Es posible que desee tomar la copia de la imagen después de instalar el sistema operativo y SQL Server, y restaurar o volver a inscribir los certificados.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-115">You might want to take the image copy after you install the operating system and SQL Server, and restore or reenroll the certificates.</span></span>
 
 
 
-## Para restaurar el almacén de administración central
+</div>
 
-1.  Comience con un servidor vacío o nuevo que tenga el mismo nombre de dominio completo (FQDN) que el equipo que causó el error, instale el sistema operativo y, a continuación, restaure o vuelva a inscribir los certificados.
+<div>
+
+## <a name="to-restore-the-central-management-store"></a><span data-ttu-id="ff6a0-116">Para restaurar el almacén de administración central</span><span class="sxs-lookup"><span data-stu-id="ff6a0-116">To restore the Central Management store</span></span>
+
+1.  <span data-ttu-id="ff6a0-117">Empiece con un servidor limpio o nuevo que tenga el mismo nombre de dominio completo (FQDN) que el equipo que ha fallado, instale el sistema operativo y, a continuación, restaure o vuelva a inscribir los certificados.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-117">Start with a clean or new server that has the same fully qualified domain name (FQDN) as the failed computer, install the operating system, and then restore or reenroll the certificates.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Siga los procedimientos de implementación de servidores de la organización para realizar este paso.
+    > [!NOTE]  
+    > <span data-ttu-id="ff6a0-118">Siga los procedimientos de implementación de servidores de su organización para realizar este paso.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-118">Follow your organization's server deployment procedures to perform this step.</span></span>
 
-
-
-2.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins y del grupo de administradores locales, inicie sesión en el servidor que está restaurando.
-
-3.  Si está restaurando una Servidor Standard Edition, restaure el Almacén de archivos copiando el Almacén de archivos correspondiente de $Backup en la ubicación de Almacén de archivos en el servidor y, a continuación, comparta la carpeta.
     
+    </div>
+
+2.  <span data-ttu-id="ff6a0-119">Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins y del grupo de administradores locales, inicie sesión en el servidor que va a restaurar.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-119">From a user account that is a member of the RTCUniversalServerAdmins group and the Local Administrators group, log on to the server that you are restoring.</span></span>
+
+3.  <span data-ttu-id="ff6a0-120">Si está restaurando un servidor Standard Edition, restaure el almacén de archivos copiando el almacén de archivos adecuado de $Backup a la ubicación del almacén de archivos en el servidor y, a continuación, comparta la carpeta.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-120">If you are restoring a Standard Edition server, restore the File Store by copying the appropriate File Store from $Backup to the File Store location on the server, and then share the folder.</span></span>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > La ruta de acceso y nombre de archivo del Almacén de archivos restaurado deben ser exactamente iguales a los del Almacén de archivos del que se ha hecho la copia de seguridad. De este modo, los componentes que usan los archivos podrán acceder a ellos.
-    
+    > <span data-ttu-id="ff6a0-121">La ruta de acceso y el nombre de archivo del almacén de archivos restaurado deben ser exactamente iguales a los de la copia de seguridad del almacén de archivos para que los componentes que los usan puedan acceder a ellos.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-121">The path and file name for the restored File Store should be exactly the same as the backed up File Store so that components that use the files can access them.</span></span>
 
+    
+    </div>
 
-4.  Siga uno de estos procedimientos:
+4.  <span data-ttu-id="ff6a0-122">Siga uno de estos pasos:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-122">Do one of the following:</span></span>
     
-      - Si está instalando un Servidor Standard Edition, busque el medio o la carpeta de instalación de Lync Server e inicie el Asistente para la implementación de Lync Server ubicado en \\setup\\amd64\\Setup.exe. En el Asistente para la implementación, haga clic en **Preparar el primer servidor Standard Edition** y siga los pasos para instalar el Almacén de administración central.
+      - <span data-ttu-id="ff6a0-123">Si va a instalar un servidor Standard Edition, vaya a la carpeta o los elementos multimedia de instalación de Lync Server y, a continuación, inicie el \\asistente\\para\\la implementación de Lync Server, que se encuentra en Setup AMD64 Setup. exe.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-123">If you are installing a Standard Edition server, browse to the Lync Server installation folder or media, and then start the Lync Server Deployment Wizard located at \\setup\\amd64\\Setup.exe.</span></span> <span data-ttu-id="ff6a0-124">En el Asistente para la implementación, haga clic en **preparar el primer servidor Standard Edition** y siga el Asistente para instalar el almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-124">In the Deployment Wizard, click **Prepare first Standard Edition server** and follow the wizard to install the Central Management store.</span></span>
     
-      - Si está instalando un servidor back-end Enterprise, instale SQL Server 2012 o SQL Server 2008 R2. Mantenga los mismos nombres de instancia que se usaron antes del error.
+      - <span data-ttu-id="ff6a0-125">Si va a instalar un servidor de servicios de fondo para empresas, instale SQL Server 2012 o SQL Server 2008 R2, de modo que los nombres de instancia se mantengan igual que antes del error.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-125">If you are installing an Enterprise Back End Server, install SQL Server 2012 or SQL Server 2008 R2, keeping the instance names the same as before the failure.</span></span>
+        
+        <div>
         
 
-        > [!NOTE]
-        > En función del servidor que esté restaurando y de su implementación, el servidor puede incluir varias bases de datos independientes o combinadas. Para instalar SQL Server, siga el mismo procedimiento que usó originalmente para implementar el servidor, incluidos los inicios de sesión y los permisos de SQL Server.
+        > [!NOTE]  
+        > <span data-ttu-id="ff6a0-126">Según el servidor que esté restaurando y en la implementación, el servidor puede incluir varias bases de datos colocadas o independientes.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-126">Depending on the server that you are restoring and on your deployment, the server might include multiple collocated or separate databases.</span></span> <span data-ttu-id="ff6a0-127">Siga el mismo procedimiento para instalar SQL Server que usó originalmente para implementar el servidor, incluidos los permisos y los inicios de sesión de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-127">Follow the same procedure to install SQL Server that you used originally to deploy the server, including SQL Server permissions and logins.</span></span>
 
+        
+        </div>
 
+5.  <span data-ttu-id="ff6a0-128">Desde un servidor front-end, inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-128">From a Front End Server, Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-5.  Desde un servidor front-end, Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
-
-6.  Vuelva a crear el Almacén de administración central. En la línea de comandos, escriba:
+6.  <span data-ttu-id="ff6a0-129">Vuelva a crear el almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-129">Re-create the Central Management store.</span></span> <span data-ttu-id="ff6a0-130">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-130">At the command line, type:</span></span>
     
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    Por ejemplo:
+    <span data-ttu-id="ff6a0-131">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-131">For example:</span></span>
     
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
 
-7.  Defina el punto de control de Servicios de dominio de Active Directory para el Almacén de administración central. En la línea de comandos, escriba:
+7.  <span data-ttu-id="ff6a0-132">Establezca el punto de control de los servicios de dominio de Active Directory para el almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-132">Set the Active Directory Domain Services control point for the Central Management store.</span></span> <span data-ttu-id="ff6a0-133">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-133">At the command line, type:</span></span>
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn <FQDN> -SqlInstanceName <instance name> -Verbose
     
-    Por ejemplo:
+    <span data-ttu-id="ff6a0-134">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-134">For example:</span></span>
     
         Set-CsConfigurationStoreLocation -SqlServerFqdn Server01.contoso.com -SqlInstanceName cms -Verbose
     
+    <div>
+    
 
-    > [!NOTE]
-    > Si pierde el punto de conexión, puede volver a ejecutar este cmdlet.
+    > [!NOTE]  
+    > <span data-ttu-id="ff6a0-135">Si pierde el punto de conexión, puede volver a ejecutar este cmdlet.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-135">If you lose the connection point, you can rerun this cmdlet.</span></span>
 
+    
+    </div>
 
-
-8.  Importe los datos de Almacén de administración central de $Backup. En la línea de comandos, escriba:
+8.  <span data-ttu-id="ff6a0-136">Importar los datos de la tienda de administración central desde $Backup.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-136">Import the Central Management store data from $Backup.</span></span> <span data-ttu-id="ff6a0-137">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-137">At the command line, type:</span></span>
     
         Import-CsConfiguration -FileName <CMS backup file name>
     
-    Por ejemplo:
+    <span data-ttu-id="ff6a0-138">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-138">For example:</span></span>
     
         Import-CsConfiguration -FileName "C:\Config.zip"
 
-9.  Habilite los cambios que acaba de realizar. En la línea de comandos, escriba:
+9.  <span data-ttu-id="ff6a0-139">Habilitar los cambios que acaba de hacer.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-139">Enable the changes you have just made.</span></span> <span data-ttu-id="ff6a0-140">En la línea de comandos, escriba:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-140">At the command line, type:</span></span>
     
         Enable-CsTopology
     
+    <div>
+    
 
-    > [!NOTE]
-    > Una vez habilitada la topología, podrá encontrar el documento de topología en la base de datos.
+    > [!NOTE]  
+    > <span data-ttu-id="ff6a0-141">Después de habilitar la topología, puede encontrar el documento de topología en la base de datos.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-141">After you enable the topology, you can find the topology document in the database.</span></span>
 
+    
+    </div>
 
-
-10. Si está restaurando un Servidor back-end de Enterprise Edition que también hospedaba el CMS, o si necesita volver a crear un reflejo del CMS, siga este paso. De lo contrario, salte al paso 11.
+10. <span data-ttu-id="ff6a0-142">Si está restaurando un servidor de servicios de fondo Enterprise Edition que también ha hospedado el CMS, o si necesita volver a crear un reflejo del CMS, siga este paso.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-142">If you are restoring an Enterprise Edition Back End Server that also hosted the CMS, or if you need to re-create a mirror of the CMS, then follow this step.</span></span> <span data-ttu-id="ff6a0-143">En caso contrario, vaya al paso 11.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-143">Otherwise, skip to step 11.</span></span>
     
-    Haga lo siguiente para instalar las bases de datos independientes:
+    <span data-ttu-id="ff6a0-144">Instale las bases de datos independientes de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-144">Install the stand-alone databases by doing the following:</span></span>
     
-    1.  Inicie el Generador de topologías: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Generador de topologías de Lync Server**.
+    1.  <span data-ttu-id="ff6a0-145">Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-145">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
     
-    2.  Haga clic en **Descargar topología de la implementación existente** y haga clic en **Aceptar**.
+    2.  <span data-ttu-id="ff6a0-146">Haga clic en **Descargar topología de la implementación existente**y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-146">Click **Download Topology from existing deployment**, and then click **OK**.</span></span>
     
-    3.  Seleccione la topología y, a continuación, haga clic en **Guardar**. Haga clic en **Sí** para confirmar la selección.
+    3.  <span data-ttu-id="ff6a0-147">Seleccione la topología y, a continuación, haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-147">Select the topology, and then click **Save**.</span></span> <span data-ttu-id="ff6a0-148">Haga clic en **sí** para confirmar la selección.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-148">Click **Yes** to confirm your selection.</span></span>
     
-    4.  Haga clic con el botón secundario en el nodo **Lync Server 2013** y, a continuación, haga clic en **Instalar base de datos**.
+    4.  <span data-ttu-id="ff6a0-149">Haga clic con el botón derecho en el nodo de **2013 de Lync Server** y, después, haga clic en **instalar base de datos**.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-149">Right-click the **Lync Server 2013** node, and then click **Install Database**.</span></span>
     
-    5.  Siga el asistente **Instalar base de datos**. Si está restaurando una base de datos que no es el Almacén de administración central de este servidor, en la página **Crear bases de datos**, seleccione las bases de datos que quiere volver a crear.
+    5.  <span data-ttu-id="ff6a0-150">Siga el Asistente para la **instalación de bases de datos** .</span><span class="sxs-lookup"><span data-stu-id="ff6a0-150">Follow the **Install Database** wizard.</span></span> <span data-ttu-id="ff6a0-151">Si está restaurando una base de datos que no es el almacén de administración central en este servidor, en la página **crear bases** de datos, seleccione las bases de datos que desea volver a crear.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-151">If you are restoring a database other than the Central Management store on this server, on the **Create databases** page, select the databases you want to recreate.</span></span>
+        
+        <div>
         
 
-        > [!NOTE]
-        > En la página <STRONG>Crear bases de datos</STRONG> solo se muestran bases de datos independientes. Las bases de datos combinadas se crean cuando ejecuta el Asistente para la implementación de Lync Server.
+        > [!NOTE]  
+        > <span data-ttu-id="ff6a0-152">Solo se muestran las bases de datos independientes en la página <STRONG>crear bases de datos</STRONG> .</span><span class="sxs-lookup"><span data-stu-id="ff6a0-152">Only stand-alone databases are displayed on the <STRONG>Create databases</STRONG> page.</span></span> <span data-ttu-id="ff6a0-153">Las bases de datos colocadas se crean al ejecutar el Asistente para la implementación de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-153">Collocated databases are created when you run the Lync Server Deployment Wizard.</span></span>
 
+        
+        </div>
     
-    6.  Si está restaurando un servidor back-end reflejado, siga los pasos restantes del asistente hasta que aparezca el diálogo Crear base de datos reflejada. Seleccione la base de datos que desea instalar y complete el proceso.
+    6.  <span data-ttu-id="ff6a0-154">Si está restaurando un servidor de servicios de fondo reflejado, siga con el resto del asistente hasta que llegue a la pregunta de crear una base de datos de reflejo.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-154">If you are restoring a mirrored Back End Server, continue to follow the rest of the wizard until you come to a prompt of Create Mirror Database.</span></span> <span data-ttu-id="ff6a0-155">Seleccione la base de datos que desea instalar y complete el proceso.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-155">Select the database you want to install, and complete the process.</span></span>
     
-    7.  Siga los pasos restantes del asistente y, a continuación, haga clic en **Finalizar**.
+    7.  <span data-ttu-id="ff6a0-156">Siga el resto del asistente y, a continuación, haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-156">Follow the rest of the wizard, and then click **Finish**.</span></span>
     
+    <div>
+    
+
     > [!TIP]  
-    > En lugar de ejecutar Generador de topologías, puede usar el cmdlet <strong>Install-CsDatabase</strong> para crear cada una de las bases de datos y el cmdlet <strong>Install-CsMirrorDatabase</strong> para configurar la creación de reflejo. Para obtener detalles, consulte <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</a>.
-    
+    > <span data-ttu-id="ff6a0-157">En lugar de ejecutar el generador de topología, puede usar el cmdlet <STRONG>install-CsDatabase</STRONG> para crear cada base de datos y el cmdlet <STRONG>install-CsMirrorDatabase</STRONG> para configurar el reflejo.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-157">Instead of running Topology Builder, you can use the <STRONG>Install-CsDatabase</STRONG> cmdlet to create each database, and the <STRONG>Install-CsMirrorDatabase</STRONG> cmdlet to configure mirroring.</span></span> <span data-ttu-id="ff6a0-158">Para obtener más información, consulte <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsDatabase">install-CsDatabase</A> y <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsMirrorDatabase">install-CsMirrorDatabase</A>.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-158">For details, see <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsDatabase">Install-CsDatabase</A> and <A href="https://docs.microsoft.com/powershell/module/skype/Install-CsMirrorDatabase">Install-CsMirrorDatabase</A>.</span></span>
 
+    
+    </div>
 
-11. Si está restaurando un Servidor Standard Edition, vaya al medio o la carpeta de instalación de Lync Server e inicie el Asistente para la implementación de Lync Server ubicado en \\setup\\amd64\\Setup.exe. Use el Asistente para la implementación de Lync Server para hacer lo siguiente:
+11. <span data-ttu-id="ff6a0-159">Si está restaurando un servidor Standard Edition, vaya a la carpeta o los elementos multimedia de instalación de Lync Server e inicie el Asistente para la implementación \\de\\Lync\\Server que se encuentra en Setup AMD64 Setup. exe.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-159">If you are restoring a Standard Edition server, browse to the Lync Server installation folder or media, and start the Lync Server Deployment Wizard located at \\setup\\amd64\\Setup.exe.</span></span> <span data-ttu-id="ff6a0-160">Use el Asistente para la implementación de Lync Server para hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-160">Use the Lync Server Deployment Wizard to do the following:</span></span>
     
-    1.  Ejecute el **Paso 1: Instalar el almacén de configuración local** para instalar los archivos de configuración local.
+    1.  <span data-ttu-id="ff6a0-161">Ejecute el **paso 1: instalar el almacén de configuración local** para instalar los archivos de configuración local.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-161">Run **Step 1: Install Local Configuration Store** to install the local configuration files.</span></span>
     
-    2.  Ejecute el **Paso 2: Instalar o desinstalar componentes de Lync Server** para instalar los roles de servidor de Lync Server.
+    2.  <span data-ttu-id="ff6a0-162">Ejecute el **paso 2: configurar o quitar los componentes de Lync Server** para instalar los roles de servidor de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-162">Run **Step 2: Setup or Remove Lync Server Components** to install the Lync Server server roles.</span></span>
     
-    3.  Ejecute el **Paso 3: Solicitar, instalar o asignar certificados** para asignar los certificados.
+    3.  <span data-ttu-id="ff6a0-163">Ejecute el **paso 3: solicitar, instalar o asignar certificados** para asignar los certificados.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-163">Run **Step 3: Request, Install or Assign Certificates** to assign the certificates.</span></span>
     
-    4.  Ejecute el **Paso 4: Iniciar servicios** para iniciar los servicios en el servidor.
+    4.  <span data-ttu-id="ff6a0-164">Ejecute el **paso 4: iniciar servicios** para iniciar servicios en el servidor.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-164">Run **Step 4: Start Services** to start services on the server.</span></span>
     
-    Para obtener información detallada sobre cómo ejecutar el Asistente para la implementación, consulte la documentación de implementación correspondiente al rol de servidor que esté restaurando.
+    <span data-ttu-id="ff6a0-165">Para obtener más información sobre cómo ejecutar el Asistente para la implementación, consulte la documentación de implementación del rol de servidor que va a restaurar.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-165">For details about running the Deployment Wizard, see the Deployment documentation for the server role that you are restoring.</span></span>
 
-12. Para restaurar los datos del usuario, siga el siguiente procedimiento:
+12. <span data-ttu-id="ff6a0-166">Restaure los datos de usuario al realizar lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-166">Restore user data by performing the following:</span></span>
     
-    1.  Copie ExportedUserData.zip desde $Backup\\ a un directorio local.
+    1.  <span data-ttu-id="ff6a0-167">Copie ExportedUserData. zip desde $Backup\\ a un directorio local.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-167">Copy ExportedUserData.zip from $Backup\\ to a local directory.</span></span>
     
-    2.  Antes de restaurar los datos de usuario, debe detener los servicios de Lync. Para ello, escriba lo siguiente:
+    2.  <span data-ttu-id="ff6a0-168">Antes de restaurar los datos de usuario, debe detener los servicios de Lync.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-168">Before you restore the user data, you must stop Lync services.</span></span> <span data-ttu-id="ff6a0-169">Para ello, escriba:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-169">To do so, type:</span></span>
         
             Stop-CsWindowsService
     
-    3.  Para restaurar los datos del usuario, en la línea de comandos, escriba:
+    3.  <span data-ttu-id="ff6a0-170">Para restaurar los datos de usuario, en la línea de comandos, escriba:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-170">To restore the user data, at the command line, type:</span></span>
         
             Import-CsUserData -PoolFqdn <Fqdn> -FileName <String>
         
-        Por ejemplo:
+        <span data-ttu-id="ff6a0-171">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-171">For example:</span></span>
         
             Import-CsUserData -PoolFqdn "atl0cs-001.litwareinc.com" -FileName "C:\Logs\ExportedUserDatal.zip"
     
-    4.  Escriba lo siguiente para reiniciar los servicios de Lync:
+    4.  <span data-ttu-id="ff6a0-172">Reinicie los servicios de Lync escribiendo:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-172">Restart Lync services by typing:</span></span>
         
             Start-CsWindowsService
 
-13. Restaure los datos de información de ubicación en el Almacén de administración central. En la línea de comandos, escriba:
+13. <span data-ttu-id="ff6a0-173">Restaure los datos de información de ubicación en el almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-173">Restore Location Information data to the Central Management store.</span></span> <span data-ttu-id="ff6a0-174">En la línea de comandos, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-174">At the command line, type:</span></span>
     
         Import-CsLisConfiguration -FileName <LIS backup file name>
     
-    Por ejemplo:
+    <span data-ttu-id="ff6a0-175">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="ff6a0-175">For example:</span></span>
     
         Import-CsLisConfiguration -FileName "D:\E911Config.zip"
 
-14. Si implementó Grupo de respuesta en este grupo de servidores o Servidor Standard Edition, restaure los datos de configuración de Grupo de respuesta. Para obtener más información, consulte [Restaurar la configuración de grupos de respuesta](lync-server-2013-restoring-response-group-settings.md).
+14. <span data-ttu-id="ff6a0-176">Si ha implementado el grupo de respuesta en este grupo o servidor Standard Edition, restaure los datos de configuración del grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-176">If you deployed Response Group on this pool or Standard Edition server, restore the Response Group configuration data.</span></span> <span data-ttu-id="ff6a0-177">Para obtener más información, consulte [restauración de la configuración de grupo de respuesta en Lync Server 2013](lync-server-2013-restoring-response-group-settings.md).</span><span class="sxs-lookup"><span data-stu-id="ff6a0-177">For details, see [Restoring Response Group settings in Lync Server 2013](lync-server-2013-restoring-response-group-settings.md).</span></span>
 
-15. Si está restaurando un servidor back-end que incluye bases de datos de supervisión o archivado, restaure los datos de supervisión o archivado usando una herramienta de administración de SQL Server, como SQL Server Management Studio. Para obtener detalles, consulte [Restaurar, supervisar o archivar datos](lync-server-2013-restoring-monitoring-or-archiving-data.md).
+15. <span data-ttu-id="ff6a0-178">Si está restaurando un servidor back-end que incluye bases de datos de archivado o supervisión, restaure los datos de archivado o supervisión mediante una herramienta de administración de SQL Server, como SQL Server Management Studio.</span><span class="sxs-lookup"><span data-stu-id="ff6a0-178">If you are restoring a Back End Server that includes Archiving or Monitoring databases, restore the Archiving or Monitoring data by using a SQL Server management tool, such as SQL Server Management Studio.</span></span> <span data-ttu-id="ff6a0-179">Para obtener más información, vea [restaurar o archivar datos en Lync Server 2013](lync-server-2013-restoring-monitoring-or-archiving-data.md).</span><span class="sxs-lookup"><span data-stu-id="ff6a0-179">For details, see [Restoring monitoring or archiving data in Lync Server 2013](lync-server-2013-restoring-monitoring-or-archiving-data.md).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

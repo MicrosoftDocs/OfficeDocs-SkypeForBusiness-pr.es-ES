@@ -1,35 +1,67 @@
-﻿---
-title: new-cswebserviceconfiguration para la administración de la libreta de direcciones
-TOCTitle: New-CsWebServiceConfiguration para la administración de la libreta de direcciones
-ms:assetid: 49e4ecc5-aa3e-4dd4-a32c-b0dea3758fab
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429703(v=OCS.15)
-ms:contentKeyID: 48275185
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: nuevo-CsWebServiceConfiguration para la administración de libretas de direcciones'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New-CsWebServiceConfiguration for Address Book management
+ms:assetid: 49e4ecc5-aa3e-4dd4-a32c-b0dea3758fab
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429703(v=OCS.15)
+ms:contentKeyID: 48184067
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03a973ca1086a9d2ca1ce2d8f19bbb64ba8aae19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826265"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# New-CsWebServiceConfiguration para la administración de la libreta de direcciones
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-11-01_
+# <a name="new-cswebserviceconfiguration-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="108cf-102">Nuevo: CsWebServiceConfiguration para la administración de libretas de direcciones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="108cf-102">New-CsWebServiceConfiguration for Address Book management in Lync Server 2013</span></span>
 
-Quién puede ejecutar este cmdlet: De forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet New-CsWebServiceConfiguration localmente: RTCUniversalServerAdmins. Para devolver una lista de todos los roles de control de acceso basado en roles (RBAC) a los que se ha asignado este cmdlet (incluido cualquier otro rol RBAC personalizado que usted mismo haya creado), ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="108cf-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="108cf-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+
+<span data-ttu-id="108cf-104">¿Quién puede ejecutar este cmdlet? de forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet New-CsWebServiceConfiguration de forma local: RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="108cf-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the New-CsWebServiceConfiguration cmdlet locally: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="108cf-105">Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="108cf-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "New-CsWebServiceConfiguration"}
 
-El cmdlet New-CsWebServiceConfiguration define una nueva configuración de los servicios web de su organización. El ámbito de la configuración de los servicios web solo puede ser de nivel de sitio o de nivel de servicio. No puede crear una configuración de servicios web de nivel global. El atributo EnableGroupExansion resulta de especial interés para la libreta de direcciones. Si se establece en True, los servicios web pueden responder a solicitudes de expansión de grupo.
+<span data-ttu-id="108cf-106">El cmdlet New-CsWebServiceConfiguration define una nueva configuración para los servicios Web de su organización.</span><span class="sxs-lookup"><span data-stu-id="108cf-106">The cmdlet New-CsWebServiceConfiguration defines a new configuration for Web Services in your organization.</span></span> <span data-ttu-id="108cf-107">El ámbito de la configuración de los servicios web solo puede encontrarse en el nivel de sitio o de servicio.</span><span class="sxs-lookup"><span data-stu-id="108cf-107">The scope for the Web Services configuration can only be at the site or service level.</span></span> <span data-ttu-id="108cf-108">No puede crear una nueva configuración de servicios web en el nivel global.</span><span class="sxs-lookup"><span data-stu-id="108cf-108">It cannot create a new Web Services configuration at the global level.</span></span> <span data-ttu-id="108cf-109">Específicamente de interés para la libreta de direcciones es el atributo EnableGroupExansion.</span><span class="sxs-lookup"><span data-stu-id="108cf-109">Specifically of interest to the Address Book is the EnableGroupExansion attribute.</span></span> <span data-ttu-id="108cf-110">Si se establece en true, los servicios Web pueden responder a las solicitudes de expansión de grupo.</span><span class="sxs-lookup"><span data-stu-id="108cf-110">If set to True, the Web Services can respond to requests for group expansion.</span></span>
 
-Por ejemplo:
+<span data-ttu-id="108cf-111">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="108cf-111">For example:</span></span>
 
     New-CsWebServiceConfiguration -Identity site:Redmond -EnableGroupExpansion $False -UseCertificateAuth $True
 
-Para obtener una descripción detallada del comando íntegro, remítase a lo siguiente en la referencia principal de RTCCmdlets de Windows PowerShell de Lync Server.
+<div>
 
-## Vea también
+## <a name="see-also"></a><span data-ttu-id="108cf-112">Vea también</span><span class="sxs-lookup"><span data-stu-id="108cf-112">See Also</span></span>
 
-#### Otros recursos
 
-[New-CsWebServiceConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsWebServiceConfiguration)
+[<span data-ttu-id="108cf-113">New-CsWebServiceConfiguration</span><span class="sxs-lookup"><span data-stu-id="108cf-113">New-CsWebServiceConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsWebServiceConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

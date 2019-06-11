@@ -1,37 +1,71 @@
-﻿---
-title: Revisión del informe de resumen en Lync Server 2013
-TOCTitle: Revisión del informe de resumen en Lync Server 2013
-ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558626(v=OCS.15)
-ms:contentKeyID: 52061617
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: revisar el informe de Resumen'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Reviewing the Summary Report
+ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558626(v=OCS.15)
+ms:contentKeyID: 51541459
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b42532da1272a06309b51d1f0090285fcf10c1f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34822324"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Revisión del informe de resumen en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-21_
+# <a name="reviewing-the-summary-report-in-lync-server-2013"></a><span data-ttu-id="f6dbd-102">Revisar el informe de resumen en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6dbd-102">Reviewing the Summary Report in Lync Server 2013</span></span>
 
-El informe de administrador de Lync Server es el primero de los cuatro informes de gran valor en los que se detalla minuciosamente su diseño. La información plasmada tanto en este informe como en los otros tres relacionados constituye una documentación sensacional para los equipos de TI:
+</div>
 
-![Informe de administración de resúmenes generales](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Informe de administración de resúmenes generales")
+<div id="mainSection">
 
-  - Informe de certificados
+<div id="mainBody">
 
-  - Informe de firewall
+<span> </span>
 
-  - Informe de DNS
+<span data-ttu-id="f6dbd-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="f6dbd-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-En el informe de resumen se recoge la información de configuración general relativa a la red perimetral. Se documenta la ubicación, el nombre de dominio completo y la dirección IP, el tipo de red y los comentarios específicos de un rol en particular.
+<span data-ttu-id="f6dbd-104">El informe del administrador de Lync Server es el primero de cuatro informes valiosos que documentan el diseño en detalle.</span><span class="sxs-lookup"><span data-stu-id="f6dbd-104">The Lync Server Administrator Report is the first of four valuable reports that document your design in detail.</span></span> <span data-ttu-id="f6dbd-105">La información de este informe y los otros tres informes asociados es una excelente documentación para los equipos de tecnología de la información:</span><span class="sxs-lookup"><span data-stu-id="f6dbd-105">The information in this report, and the other three associated reports, is excellent documentation for your Information Technology Teams:</span></span>
 
-El diseñador y cada uno de los equipos encargados de implementar, administrar y mantener la infraestructura deben revisar el informe de resumen en busca de datos precisos para asegurarse de que los errores se reduzcan al mínimo.
+<span data-ttu-id="f6dbd-106">![Informe de administración general de Resumen] (images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Informe de administración general de Resumen")</span><span class="sxs-lookup"><span data-stu-id="f6dbd-106">![General Summary Admin Report](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "General Summary Admin Report")</span></span>
 
-## Vea también
+  - <span data-ttu-id="f6dbd-107">Informe de certificados</span><span class="sxs-lookup"><span data-stu-id="f6dbd-107">Certificates Report</span></span>
 
-#### Otros recursos
+  - <span data-ttu-id="f6dbd-108">Informe de firewall</span><span class="sxs-lookup"><span data-stu-id="f6dbd-108">Firewall Report</span></span>
 
-[Revisión de los informes del administrador en Lync Server 2013](lync-server-2013-reviewing-the-administrator-reports.md)
+  - <span data-ttu-id="f6dbd-109">Informe de DNS</span><span class="sxs-lookup"><span data-stu-id="f6dbd-109">DNS Report</span></span>
+
+<span data-ttu-id="f6dbd-p102">En el informe de resumen se recoge la información de configuración general relativa a la red perimetral. Se documenta la ubicación, el nombre de dominio completo y la dirección IP, el tipo de red y los comentarios específicos de un rol en particular.</span><span class="sxs-lookup"><span data-stu-id="f6dbd-p102">The Summary Report lists general configuration information associated with your Edge network. The location, fully qualified domain name (FQDN) and IP address, type of network, and comments specific to a given role are documented.</span></span>
+
+<span data-ttu-id="f6dbd-112">El diseñador y cada uno de los equipos encargados de implementar, administrar y mantener la infraestructura deben revisar el informe de resumen en busca de datos precisos para asegurarse de que los errores se reduzcan al mínimo.</span><span class="sxs-lookup"><span data-stu-id="f6dbd-112">The designer and each of the teams that will deploy, manage, and maintain the infrastructure should review the summary report for accuracy and to make sure that errors are at a minimum.</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="f6dbd-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="f6dbd-113">See Also</span></span>
+
+
+[<span data-ttu-id="f6dbd-114">Revisión de los informes del administrador en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f6dbd-114">Reviewing the Administrator Reports in Lync Server 2013</span></span>](lync-server-2013-reviewing-the-administrator-reports.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

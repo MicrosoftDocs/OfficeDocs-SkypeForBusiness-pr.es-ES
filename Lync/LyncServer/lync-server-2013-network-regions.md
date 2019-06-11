@@ -1,37 +1,79 @@
-﻿---
-title: Regiones de red
-TOCTitle: Regiones de red
-ms:assetid: 1818e9d2-bbb7-420a-93ea-4c3da3a55ad3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687979(v=OCS.15)
-ms:contentKeyID: 49888904
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: regiones de red'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Network regions
+ms:assetid: 1818e9d2-bbb7-420a-93ea-4c3da3a55ad3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687979(v=OCS.15)
+ms:contentKeyID: 49733567
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1f9a2fd8ce5de11f592d010615ddee9c253913c4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826433"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Regiones de red
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-21_
+# <a name="network-regions-in-lync-server-2013"></a><span data-ttu-id="0db71-102">Regiones de red de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0db71-102">Network regions in Lync Server 2013</span></span>
 
-Las *regiones de red* son los concentradores de red o redes troncales que se usan en la configuración del control de admisión de llamadas, de E9-1-1 y del desvío de medios. Siga los siguientes procedimientos para ver, crear o modificar regiones de red. Por ejemplo, si ya ha creado regiones de red para una característica de voz, no es necesario que cree nuevas regiones de red; otras características avanzadas de Enterprise Voice usarán las mismas regiones de red. Sin embargo, es posible que necesite modificar una definición de región de red existente para aplicar una configuración específica de una característica. Por ejemplo, si ha creado regiones de red para E9-1-1 (que no requieren un sitio central asociado) y, a continuación, implementa el control de admisión de llamadas, debe modificar las definiciones de región de red para especificar un sitio central. Para obtener más información, consulte [Configurar regiones de red para el control de admisión de llamadas en Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="0db71-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="0db71-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+
+<span data-ttu-id="0db71-104">Las *regiones de red* son los concentradores de red o las redes troncales que se usan en la configuración de control de admisión de llamadas, E9-1-1 y omisión de medios.</span><span class="sxs-lookup"><span data-stu-id="0db71-104">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="0db71-105">Use los procedimientos siguientes para ver, crear o modificar regiones de red.</span><span class="sxs-lookup"><span data-stu-id="0db71-105">Use the following procedures to view, create, or modify network regions.</span></span> <span data-ttu-id="0db71-106">Por ejemplo, si ya ha creado regiones de red para una característica de voz, no es necesario crear regiones de red nuevas; otras características avanzadas de telefonía empresarial usarán esas mismas regiones de red.</span><span class="sxs-lookup"><span data-stu-id="0db71-106">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="0db71-107">Sin embargo, es posible que necesite modificar una definición de región de red existente para aplicar una configuración específica de una característica.</span><span class="sxs-lookup"><span data-stu-id="0db71-107">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="0db71-108">Por ejemplo, si ha creado regiones de red para E9-1-1 (que no requieren un sitio central asociado) y, a continuación, implementa el control de admisión de llamadas, debe modificar las definiciones de región de red para especificar un sitio central.</span><span class="sxs-lookup"><span data-stu-id="0db71-108">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="0db71-109">Para obtener más información, vea [configurar regiones de red para CAC en Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span><span class="sxs-lookup"><span data-stu-id="0db71-109">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Cualquier requisito específico de la característica para las definiciones de región de red está documentado en los temas sobre implementación para la característica.
+> [!NOTE]  
+> <span data-ttu-id="0db71-110">En los temas de implementación de la característica se documentan los requisitos específicos de las características de las definiciones de regiones de red.</span><span class="sxs-lookup"><span data-stu-id="0db71-110">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
 
 
 
-## En esta sección
+</div>
 
-1.  [Visualización de la información de región de red](lync-server-2013-viewing-network-region-information.md)
+<div>
 
-2.  [Creación o modificación de regiones de red](lync-server-2013-creating-or-modifying-network-regions.md)
+## <a name="in-this-section"></a><span data-ttu-id="0db71-111">En esta sección</span><span class="sxs-lookup"><span data-stu-id="0db71-111">In This Section</span></span>
 
-3.  [Eliminación de regiones de red existentes](lync-server-2013-deleting-existing-network-regions.md)
+  - [<span data-ttu-id="0db71-112">Ver información de la región de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0db71-112">Viewing network region information in Lync Server 2013</span></span>](lync-server-2013-viewing-network-region-information.md)
 
-## Referencia
+  - [<span data-ttu-id="0db71-113">Crear o modificar regiones de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0db71-113">Creating or modifying network regions in Lync Server 2013</span></span>](lync-server-2013-creating-or-modifying-network-regions.md)
 
-[Implementación de características avanzadas de telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+  - [<span data-ttu-id="0db71-114">Eliminar regiones de red existentes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0db71-114">Deleting existing network regions in Lync Server 2013</span></span>](lync-server-2013-deleting-existing-network-regions.md)
+
+</div>
+
+<div>
+
+## <a name="reference"></a><span data-ttu-id="0db71-115">Referencia</span><span class="sxs-lookup"><span data-stu-id="0db71-115">Reference</span></span>
+
+[<span data-ttu-id="0db71-116">Implementación de características avanzadas de telefonía empresarial en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0db71-116">Deploying advanced Enterprise Voice features in Lync Server 2013</span></span>](lync-server-2013-deploying-advanced-enterprise-voice-features.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

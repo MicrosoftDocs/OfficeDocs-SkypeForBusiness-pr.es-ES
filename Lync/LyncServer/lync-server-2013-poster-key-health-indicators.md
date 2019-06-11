@@ -1,192 +1,157 @@
-﻿---
-title: Indicadores clave de estado de Lync Server 2013
-TOCTitle: 'Póster: Indicadores clave de estado'
-ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn593599(v=OCS.15)
-ms:contentKeyID: 61084820
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: póster: indicadores clave de estado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: 'Poster: Key Health Indicators'
+ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593599(v=OCS.15)
+ms:contentKeyID: 61084873
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9454197642ac87f5d8bc0d768795854d792f9a31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824011"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Indicadores clave de estado de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="key-health-indicators-in-lync-server-2013"></a><span data-ttu-id="189cb-102">Indicadores clave de estado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="189cb-102">Key Health Indicators in Lync Server 2013</span></span>
 
-Este artículo es complementario al póster [Indicadores clave de estado: las bases para el mantenimiento de los servidores de Lync en buen estado](http://go.microsoft.com/fwlink/?linkid=391838), que puede descargar desde el Centro de descarga.
+</div>
 
-![Póster sobre la solución de problemas mediante los datos de KHI](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Póster sobre la solución de problemas mediante los datos de KHI")
+<div id="mainSection">
 
-Puede usar este póster para conocer los indicadores clave de estado (KHI), los contadores de rendimiento con umbrales dirigidos a detectar problemas en la experiencia de los usuarios. Recopilar datos de KHI suele ser el primer paso para implementar la Metodología de calidad de llamadas (CQM), que se centra en garantizar una experiencia de audio de calidad para los usuarios de Lync.
+<div id="mainBody">
 
-Si tiene alguna pregunta sobre el uso de CQM, puede enviarla a cqmfeedback@microsoft.com.
+<span> </span>
 
-En el póster se explican los siguientes puntos:
+<span data-ttu-id="189cb-103">_**Última modificación del tema:** 2014-02-10_</span><span class="sxs-lookup"><span data-stu-id="189cb-103">_**Topic Last Modified:** 2014-02-10_</span></span>
 
-  - ¿Qué son los indicadores clave de estado?
+<span data-ttu-id="189cb-104">Este artículo es un complemento de los [indicadores clave de estado: la base para mantener el póster de los servidores de Lync en buen estado](http://go.microsoft.com/fwlink/?linkid=391838) , que puede descargar desde el centro de descarga.</span><span class="sxs-lookup"><span data-stu-id="189cb-104">This article is a companion to the [Key Health Indicators: The Foundation for Maintaining Healthy Lync Servers](http://go.microsoft.com/fwlink/?linkid=391838) poster, which you can download from the Download Center.</span></span>
 
-  - Recopilar datos de KHI
+<span data-ttu-id="189cb-105">![Póster que describe la solución de problemas con datos de KHI] (images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Póster que describe la solución de problemas con datos de KHI")</span><span class="sxs-lookup"><span data-stu-id="189cb-105">![Poster describing troubleshooting using KHI data](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Poster describing troubleshooting using KHI data")</span></span>
 
-  - Flujo de solución para todos los roles de servidor
+<span data-ttu-id="189cb-106">Puede usar este póster para obtener información sobre los indicadores clave de estado (KHIs), los contadores de rendimiento con umbrales destinados a revelar problemas de experiencia del usuario.</span><span class="sxs-lookup"><span data-stu-id="189cb-106">You can use this poster to learn about Key Health Indicators (KHIs), performance counters with thresholds aimed at revealing user experience issues.</span></span> <span data-ttu-id="189cb-107">La recopilación de datos de KHI suele ser el primer paso para implementar la metodología de calidad de las llamadas (CQM), que se centra en garantizar una experiencia de audio de calidad para los usuarios de Lync.</span><span class="sxs-lookup"><span data-stu-id="189cb-107">Gathering KHI data is usually the first step to implementing the Call Quality Methodology (CQM), which is focused on ensuring a quality audio experience for Lync users.</span></span>
 
-  - Glosario
+<span data-ttu-id="189cb-108">Si tienes preguntas sobre cómo usar CQM, puedes enviar tus preguntas a cqmfeedback@microsoft.com.</span><span class="sxs-lookup"><span data-stu-id="189cb-108">If you have questions about how to use CQM, you can submit your questions to cqmfeedback@microsoft.com.</span></span>
 
-  - Servidores front end
+<span data-ttu-id="189cb-109">En el póster se explican las siguientes áreas:</span><span class="sxs-lookup"><span data-stu-id="189cb-109">The poster explains the following areas:</span></span>
 
-  - Servidores SQL Server back end
+  - <span data-ttu-id="189cb-110">¿Qué son los indicadores de estado clave?</span><span class="sxs-lookup"><span data-stu-id="189cb-110">What are Key Health Indicators?</span></span>
 
-  - Servidores de mediación
+  - <span data-ttu-id="189cb-111">Para recopilar datos de KHI</span><span class="sxs-lookup"><span data-stu-id="189cb-111">To Collect KHI Data</span></span>
 
-  - Servidores perimetrales
+  - <span data-ttu-id="189cb-112">Flujo de corrección para todos los roles de servidor</span><span class="sxs-lookup"><span data-stu-id="189cb-112">Remediation Flow for all Server Roles</span></span>
 
-## ¿Qué son los indicadores clave de estado?
+  - <span data-ttu-id="189cb-113">Glosario</span><span class="sxs-lookup"><span data-stu-id="189cb-113">Glossary</span></span>
 
-Los indicadores clave de estado (KHI) son contadores de rendimiento con umbrales destinados a detectar problemas en la experiencia de los usuarios. Recopilar datos de KHI suele ser el primer paso para implementar la Metodología de calidad de llamada (CQM), una metodología centrada en garantizar una experiencia de audio de calidad para los usuarios de Lync.
+  - <span data-ttu-id="189cb-114">Servidores front-end</span><span class="sxs-lookup"><span data-stu-id="189cb-114">Front-end Servers</span></span>
 
-Los KHI se utilizan junto con las soluciones de supervisión estándar de Lync (por ejemplo, System Center Operations Manager, transacciones sintéticas y servidores de supervisión), pero no las sustituyen.
+  - <span data-ttu-id="189cb-115">Servidores SQL back-end</span><span class="sxs-lookup"><span data-stu-id="189cb-115">Backend SQL Servers</span></span>
 
-Recopile los contadores de rendimiento KHI y rellene las hojas de cálculo KHI distribuidas junto con la guía de conexión de redes para obtener un boletín de puntuaciones que nos ayude a determinar el estado del servidor de una implementación de Lync. La información de las hojas de cálculo le será de ayuda a la hora de reparar el entorno y de conocer mejor otros factores que intervienen. Analice los KHI mensualmente e incorpórelos a los procesos operativos de la implementación que ya tiene en marcha.
+  - <span data-ttu-id="189cb-116">Servidores de mediación</span><span class="sxs-lookup"><span data-stu-id="189cb-116">Mediation Servers</span></span>
 
-Descargue la [Guía para la conexión de redes de Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677) para ver la lista completa de KHI y las hojas de cálculo relacionadas.
+  - <span data-ttu-id="189cb-117">Servidores perimetrales</span><span class="sxs-lookup"><span data-stu-id="189cb-117">Edge Servers</span></span>
 
-## Recopilar datos de KHI
+<span id="WhatIs"></span>
 
-1.  Ejecute el script de KHI incluido en la Guía para la conexión de redes de Lync Server en cada servidor Lync. Se creará un recopilador de datos dentro de cada monitor de rendimiento y le pondrá el nombre KHI. De manera predeterminada, se sondearán los datos cada 15 segundos.
+<div>
 
-2.  Antes de comenzar la jornada laboral, vaya a cada servidor de Lync e inicie el recopilador de datos.
+## <a name="what-are-key-health-indicators"></a><span data-ttu-id="189cb-118">¿Qué son los indicadores de estado clave?</span><span class="sxs-lookup"><span data-stu-id="189cb-118">What are Key Health Indicators?</span></span>
 
-3.  Al final del día, detenga el recopilador de datos de KHI y copie los datos en una ubicación central.
+<span data-ttu-id="189cb-119">Los indicadores de estado de clave son contadores de rendimiento con umbrales destinados a revelar problemas de experiencia del usuario.</span><span class="sxs-lookup"><span data-stu-id="189cb-119">Key Health Indicators are performance counters with thresholds aimed at revealing user experience issues.</span></span> <span data-ttu-id="189cb-120">La recopilación de datos de KHI suele ser el primer paso para implementar la metodología de calidad de las llamadas (CQM), que se centra en garantizar una experiencia de audio de calidad para los usuarios de Lync.</span><span class="sxs-lookup"><span data-stu-id="189cb-120">Gathering KHI data is usually the first step to implementing the Call Quality Methodology (CQM), which is focused on ensuring a quality audio experience for Lync users.</span></span>
 
-4.  Después de utilizar el monitor de rendimiento para rellenar la hoja de datos de KHI incluida en la Guía para la conexión de redes de Lync Server, compare los resultados con los valores recomendados.
+<span data-ttu-id="189cb-121">KHIs se usan además de las soluciones de supervisión estándar de Lync (por ejemplo, System Center Operations Manager, transacciones sintéticas, servidor de supervisión) y no en lugar de esas soluciones.</span><span class="sxs-lookup"><span data-stu-id="189cb-121">KHIs are used in addition to standard Lync Monitoring Solutions (e.g. System Center Operations Manager, Synthetic Transactions, Monitoring Server) and not instead of those solutions.</span></span>
 
-## Flujo de solución para todos los roles de servidor
+<span data-ttu-id="189cb-122">Recopilar los contadores de rendimiento de KHI y rellenar la hoja de cálculo KHI que acompaña a la guía de redes para crear un cuadro de mandos que le ayudará a determinar el estado del servidor de una implementación de Lync.</span><span class="sxs-lookup"><span data-stu-id="189cb-122">Collect the KHI performance counters and populate the KHI spreadsheet accompanying the Networking Guide to produce a scorecard that will help you determine the server health of a Lync deployment.</span></span> <span data-ttu-id="189cb-123">Una vez que se haya rellenado, le guiará para reparar el entorno y le dará información adicional a otros participantes.</span><span class="sxs-lookup"><span data-stu-id="189cb-123">Once populated, it guides you in repairing the environment and gives additional insight to other stakeholders.</span></span> <span data-ttu-id="189cb-124">Evalúe KHIs cada mes e incorpórelo a cualquier proceso operativo en curso de implementación.</span><span class="sxs-lookup"><span data-stu-id="189cb-124">Evaluate KHIs on a monthly basis and incorporate them into any deployment’s ongoing operational processes.</span></span>
 
-Para cada servidor de la implementación de Lync, comience por comprobar que el rendimiento del sistema y el estado del componente del servidor es igual o mayor que el nivel deseado. A continuación, mire los indicadores relacionados con el rol del servidor en la totalidad de la implementación de Lync.
+<span data-ttu-id="189cb-125">Descargue la [Guía de redes de Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677) para ver la lista completa de KHIs y para obtener las hojas de cálculo relacionadas.</span><span class="sxs-lookup"><span data-stu-id="189cb-125">Download the [Lync Server Networking Guide](http://go.microsoft.com/fwlink/p/?linkid=390677) to see the full list of KHIs and to get the related spreadsheets.</span></span>
 
-Begin by collecting KHI  Performance Data for all servers. For each of the system roles (details discussed later in this document) determine whether the basic system components meet the recommended targets. If they do not, remediate the system performance then re-collect KHI data and ensure system health before looking at the metrics specific to the server’s role in the Lync implementation. Component health for all roles is defined as:
+</div>
 
-  - Utilización de la CPU \< 80%
+<span id="ToCollect"></span>
 
-  - Escritura media en disco \< 10 ms
+<div>
 
-  - Lectura media en disco \< 10 ms
+## <a name="to-collect-khi-data"></a><span data-ttu-id="189cb-126">Para recopilar datos de KHI</span><span class="sxs-lookup"><span data-stu-id="189cb-126">To Collect KHI Data</span></span>
 
-  - Available memory  \>20% System Total MB
+1.  <span data-ttu-id="189cb-127">Ejecute el script KHI que se incluye con la guía de redes de Lync Server en cada servidor de Lync.</span><span class="sxs-lookup"><span data-stu-id="189cb-127">Run the KHI script included with the Lync Server Networking Guide on each Lync Server.</span></span> <span data-ttu-id="189cb-128">Esto creará un recopilador de datos dentro del monitor de rendimiento y le dará el nombre KHI.</span><span class="sxs-lookup"><span data-stu-id="189cb-128">This will create a Data Collector inside of Performance Monitor and name it KHI.</span></span> <span data-ttu-id="189cb-129">De forma predeterminada, los datos se sondearán cada 15 segundos.</span><span class="sxs-lookup"><span data-stu-id="189cb-129">By default, data will be polled every 15 seconds.</span></span>
 
-  - Longitud de cola de red \< 2
+2.  <span data-ttu-id="189cb-130">Antes de iniciar el día hábil de la empresa, vaya a cada servidor de Lync e inicie el recopilador de datos de KHI.</span><span class="sxs-lookup"><span data-stu-id="189cb-130">Before the start of your company's business day, go to each Lync Server and start the KHI Data Collector.</span></span>
 
-  - Paquetes descartados (entrada / salida) = 0
+3.  <span data-ttu-id="189cb-131">Al final de ese día, detenga el recopilador de datos de KHI y copie los datos en una ubicación central.</span><span class="sxs-lookup"><span data-stu-id="189cb-131">At the end of that day, stop the KHI Data Collector and copy the data to a central location.</span></span>
 
-## Glosario
+4.  <span data-ttu-id="189cb-132">Después de usar Monitor de rendimiento para rellenar la hoja de cálculo KHI incluida en la descarga de la guía de redes de Lync Server, compare los resultados con los destinos recomendados.</span><span class="sxs-lookup"><span data-stu-id="189cb-132">After using Performance Monitor to fill in the KHI spreadsheet included with the Lync Server Networking Guide download, compare the results to the recommended targets.</span></span>
 
-Los términos y acrónimos siguientes se utilizan en este póster:
+</div>
 
-AS MCU = Unidad de control multipunto para el uso compartido de aplicaciones
+<span id="Remidiation"></span>
 
-AV MCU = Unidad de control multipunto de audio y vídeo
+<div>
 
-IM MCU = Unidad de control multipunto de mensajería instantánea
+## <a name="remediation-flow-for-all-server-roles"></a><span data-ttu-id="189cb-133">Flujo de corrección para todos los roles de servidor</span><span class="sxs-lookup"><span data-stu-id="189cb-133">Remediation Flow for all Server Roles</span></span>
 
-UCWA = API web de comunicaciones unificadas
+<span data-ttu-id="189cb-134">Para cada servidor de la implementación de Lync, primero Compruebe que el estado del componente y el rendimiento del sistema del servidor están en el nivel deseado o por encima de él.</span><span class="sxs-lookup"><span data-stu-id="189cb-134">For each server in your Lync implementation, begin by verifying that the server’s component health and system performance is at or above the desired level.</span></span> <span data-ttu-id="189cb-135">Solo después de eso debería consultar los indicadores relacionados con el rol del servidor en la implementación general de Lync.</span><span class="sxs-lookup"><span data-stu-id="189cb-135">Only after that should you look at the indicators relating to the server’s role in the overall Lync implementation.</span></span>
 
-AV Edge = Transversal de audio y vídeo vía perímetro
+<span data-ttu-id="189cb-136">Comienza con la recopilación de datos de rendimiento de KHI para todos los servidores.</span><span class="sxs-lookup"><span data-stu-id="189cb-136">Begin by collecting KHI Performance Data for all servers.</span></span> <span data-ttu-id="189cb-137">Para cada uno de los roles del sistema (los detalles tratados más adelante en este documento) determine si los componentes básicos del sistema cumplen los objetivos recomendados.</span><span class="sxs-lookup"><span data-stu-id="189cb-137">For each of the system roles (details discussed later in this document) determine whether the basic system components meet the recommended targets.</span></span> <span data-ttu-id="189cb-138">Si no es así, corrija el rendimiento del sistema y vuelva a recopilar datos de KHI y asegúrese de que el estado del sistema antes de ver las métricas específicas de la función del servidor en la implementación de Lync.</span><span class="sxs-lookup"><span data-stu-id="189cb-138">If they do not, remediate the system performance then re-collect KHI data and ensure system health before looking at the metrics specific to the server’s role in the Lync implementation.</span></span> <span data-ttu-id="189cb-139">El estado del componente para todos los roles se define como sigue:</span><span class="sxs-lookup"><span data-stu-id="189cb-139">Component health for all roles is defined as:</span></span>
 
-AV Auth = Autenticación de audio y vídeo
+  - <span data-ttu-id="189cb-140">Uso de \< la CPU 80%</span><span class="sxs-lookup"><span data-stu-id="189cb-140">CPU Utilization \< 80%</span></span>
 
-Pila SIP = Contiene la implementación SIP de Lync
+  - <span data-ttu-id="189cb-141">Promedio de escrituras \< en disco: 10 ms</span><span class="sxs-lookup"><span data-stu-id="189cb-141">Avg. Disk Write \< 10 ms</span></span>
 
-Data Proxy = Usado en las conferencias perimetrales
+  - <span data-ttu-id="189cb-142">Disco de lectura \< promedio: 10 ms</span><span class="sxs-lookup"><span data-stu-id="189cb-142">Avg. Disk Read \< 10 ms</span></span>
 
-LySS = Servicio de almacenamiento de Lync
+  - <span data-ttu-id="189cb-143">Memoria \>disponible 20% de sistema total MB</span><span class="sxs-lookup"><span data-stu-id="189cb-143">Available memory \>20% System Total MB</span></span>
 
-## Servidores front end
+  - <span data-ttu-id="189cb-144">Longitud \< de cola de red 2</span><span class="sxs-lookup"><span data-stu-id="189cb-144">Network Queue Length \< 2</span></span>
 
-Los siguientes objetivos KHI recomendados son específicos de servidores front end además del estado de componentes básicos:
+  - <span data-ttu-id="189cb-145">Paquetes descartados (o fuera) = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-145">Discarded Packets (in / out) = 0</span></span>
 
+</div>
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Área funcional</th>
-<th>Métricas objetivo</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>AS/AV/IM MCU</p></td>
-<td><p>Estado MCU &lt;2</p></td>
-</tr>
-<tr class="even">
-<td><p>Componentes web</p></td>
-<td><p>Tiempos máximos de espera de AD en expansión de lista de distribución &lt;0</p>
-<p>Errores de ABWQ = 0</p>
-<p>Errores de LIS = 0</p>
-<p>Errores de autenticación &lt; 1/s</p>
-<p>Solicitudes de ASP.NET v4 rechazadas = 0</p></td>
-</tr>
-<tr class="odd">
-<td><p>Pila SIP</p></td>
-<td><p>Procesamiento medio de mensajes entrantes &lt; 1 s</p>
-<p>Incoming Responses Dropped &lt; 1/sec Incoming Requests Dropped &lt; 1/sec</p>
-<p>Latencia cola &lt; 100 ms</p>
-<p>Latencia Sproc &lt; 100 ms</p>
-<p>Solicitudes aceleradas = 0</p>
-<p>Errores de autenticación &lt; 1/s</p>
-<p>Tiempo de espera excedido para mensajes entrantes &lt; 2</p>
-<p>Espera media de mensajes entrantes &lt; 1 s</p>
-<p>Conexiones controladas por flujo &lt; 2</p>
-<p>Retraso medio cola de salida &lt; 2 s</p></td>
-</tr>
-<tr class="even">
-<td><p>LySS</p></td>
-<td><p>% de espacio usado por la base de datos del servicio de almacenamiento &lt; 80</p>
-<p>N.º de réplicas errores de replicación = 0</p>
-<p>N.º de eventos de pérdida de datos = 0</p></td>
-</tr>
-<tr class="odd">
-<td><p>SQL</p></td>
-<td><p>Esperanza de vida de la página &gt; 300 s</p>
-<p>Solicitudes en lote / s &lt; 2500</p></td>
-</tr>
-</tbody>
-</table>
+<span id="Glossary"></span>
 
+<div>
 
-## Servidores SQL Server back end
+## <a name="glossary"></a><span data-ttu-id="189cb-146">Glosario</span><span class="sxs-lookup"><span data-stu-id="189cb-146">Glossary</span></span>
 
-Los siguientes objetivos KHI recomendados son específicos de servidores de SQL Server además del estado de componentes básicos:
+<span data-ttu-id="189cb-147">Los siguientes términos y acrónimos se usan en este póster:</span><span class="sxs-lookup"><span data-stu-id="189cb-147">The following terms and acronyms are used in this poster:</span></span>
 
+<span data-ttu-id="189cb-148">Como la unidad de control de varios puntos de la MCU = uso compartido de aplicaciones</span><span class="sxs-lookup"><span data-stu-id="189cb-148">AS MCU = Application Sharing Multi-point Control Unit</span></span>
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Área funcional</th>
-<th>Métricas objetivo</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>SQL</p></td>
-<td><p>Esperanza de vida de la página &gt; 300 s</p>
-<p>Solicitudes en lote / s &lt; 2500</p></td>
-</tr>
-</tbody>
-</table>
+<span data-ttu-id="189cb-149">CABLE MCU = audio/video MCU</span><span class="sxs-lookup"><span data-stu-id="189cb-149">AV MCU = Audio/Video MCU</span></span>
 
+<span data-ttu-id="189cb-150">MI MCU = mensajería instantánea MCU</span><span class="sxs-lookup"><span data-stu-id="189cb-150">IM MCU = Instant Messaging MCU</span></span>
 
-## Servidores de mediación
+<span data-ttu-id="189cb-151">UCWA = API Web de comunicaciones unificadas</span><span class="sxs-lookup"><span data-stu-id="189cb-151">UCWA = Unified Communications Web API</span></span>
 
-Los siguientes objetivos KHI recomendados son específicos de servidores de mediación además del estado de componentes básicos:
+<span data-ttu-id="189cb-152">Borde AV = recorrido de audio o vídeo vía borde</span><span class="sxs-lookup"><span data-stu-id="189cb-152">AV Edge = Traversal of audio/video via edge</span></span>
+
+<span data-ttu-id="189cb-153">Autenticación AV = autenticación de audio y vídeo</span><span class="sxs-lookup"><span data-stu-id="189cb-153">AV Auth = Audio/Video Authentication</span></span>
+
+<span data-ttu-id="189cb-154">SIP Stack = contiene la implementación de SIP principal de Lync</span><span class="sxs-lookup"><span data-stu-id="189cb-154">SIP Stack = Contains Lync’s core SIP implementation</span></span>
+
+<span data-ttu-id="189cb-155">Proxy de datos = usado para conferencias perimetrales</span><span class="sxs-lookup"><span data-stu-id="189cb-155">Data Proxy = Used for edge conferencing</span></span>
+
+<span data-ttu-id="189cb-156">LySS = servicio de almacenamiento de Lync</span><span class="sxs-lookup"><span data-stu-id="189cb-156">LySS = Lync Storage Service</span></span>
+
+</div>
+
+<span id="Front"></span>
+
+<div>
+
+## <a name="front-end-servers"></a><span data-ttu-id="189cb-157">Servidores front-end</span><span class="sxs-lookup"><span data-stu-id="189cb-157">Front-end Servers</span></span>
+
+<span data-ttu-id="189cb-158">Los siguientes destinos KHI recomendados son específicos de los servidores front-end, además del estado básico de los componentes:</span><span class="sxs-lookup"><span data-stu-id="189cb-158">The following recommended KHI targets are specific to front-end servers in addition to basic component health:</span></span>
 
 
 <table>
@@ -196,27 +161,60 @@ Los siguientes objetivos KHI recomendados son específicos de servidores de medi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Área funcional</th>
-<th>Métricas objetivo</th>
+<th><span data-ttu-id="189cb-159">Área funcional</span><span class="sxs-lookup"><span data-stu-id="189cb-159">Functional area</span></span></th>
+<th><span data-ttu-id="189cb-160">Métricas de destino</span><span class="sxs-lookup"><span data-stu-id="189cb-160">Target Metrics</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Servicio del servidor de mediación</p></td>
-<td><p>Índice de error de llamadas de carga = 0</p>
-<p>Llamadas fallidas a causa de Proxy &lt;10</p>
-<p>Llamadas fallidas a causa de puerta de enlace &lt;10</p>
-<p>Llamadas (entrada o salida) rechazadas = 0</p>
-<p>Candidatos medios ausentes = 0</p>
-<p>Errores en comprobación de conectividad de medios = 0</p></td>
+<td><p><span data-ttu-id="189cb-161">AS/AV/MENSAJERÍA INSTANTÁNEA MCU</span><span class="sxs-lookup"><span data-stu-id="189cb-161">AS/AV/IM MCU</span></span></p></td>
+<td><p><span data-ttu-id="189cb-162">Estado &lt;de mantenimiento MCU 2</span><span class="sxs-lookup"><span data-stu-id="189cb-162">MCU Health State &lt;2</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="189cb-163">Componentes Web</span><span class="sxs-lookup"><span data-stu-id="189cb-163">Web Components</span></span></p></td>
+<td><p><span data-ttu-id="189cb-164">Tiempo de espera de anuncio de &lt;expansión de lista de distribución 0</span><span class="sxs-lookup"><span data-stu-id="189cb-164">Distribution List expansion AD timeouts &lt;0</span></span></p>
+<p><span data-ttu-id="189cb-165">Errores de ABWQ = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-165">ABWQ failures = 0</span></span></p>
+<p><span data-ttu-id="189cb-166">Errores de LIS = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-166">LIS failures = 0</span></span></p>
+<p><span data-ttu-id="189cb-167">Errores &lt; de autenticación 1/s</span><span class="sxs-lookup"><span data-stu-id="189cb-167">Authentication Errors &lt; 1/sec</span></span></p>
+<p><span data-ttu-id="189cb-168">Solicitudes ASP.NET V4 rechazadas = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-168">ASP.NET v4 Requests Rejected = 0</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="189cb-169">Pila SIP</span><span class="sxs-lookup"><span data-stu-id="189cb-169">SIP Stack</span></span></p></td>
+<td><p><span data-ttu-id="189cb-170">Promedio de procesamiento &lt; de mensajes entrantes de 1 s</span><span class="sxs-lookup"><span data-stu-id="189cb-170">Avg. Incoming Message Processing &lt; 1 sec</span></span></p>
+<p><span data-ttu-id="189cb-171">Respuestas entrantes &lt; quitadas 1/s solicitudes &lt; entrantes descartadas 1/s</span><span class="sxs-lookup"><span data-stu-id="189cb-171">Incoming Responses Dropped &lt; 1/sec Incoming Requests Dropped &lt; 1/sec</span></span></p>
+<p><span data-ttu-id="189cb-172">Latencia &lt; de cola 100 ms</span><span class="sxs-lookup"><span data-stu-id="189cb-172">Queue Latency &lt; 100 ms</span></span></p>
+<p><span data-ttu-id="189cb-173">Latencia &lt; del procedimiento almacenado 100 ms</span><span class="sxs-lookup"><span data-stu-id="189cb-173">Sproc Latency &lt; 100 ms</span></span></p>
+<p><span data-ttu-id="189cb-174">Solicitudes limitadas = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-174">Throttled Requests = 0</span></span></p>
+<p><span data-ttu-id="189cb-175">Errores &lt; de autenticación 1/s</span><span class="sxs-lookup"><span data-stu-id="189cb-175">Authentication Errors &lt; 1/sec</span></span></p>
+<p><span data-ttu-id="189cb-176">Se agotó el tiempo de &lt; espera de los mensajes entrantes 2</span><span class="sxs-lookup"><span data-stu-id="189cb-176">Incoming Messages Timed Out &lt; 2</span></span></p>
+<p><span data-ttu-id="189cb-177">Promedio de mensajes entrantes &lt; en espera 1 s</span><span class="sxs-lookup"><span data-stu-id="189cb-177">Avg. Incoming Message Hold &lt; 1 sec</span></span></p>
+<p><span data-ttu-id="189cb-178">Conexiones &lt; controladas por flujo 2</span><span class="sxs-lookup"><span data-stu-id="189cb-178">Flow Controlled Connections &lt; 2</span></span></p>
+<p><span data-ttu-id="189cb-179">Retraso &lt; de cola de salida promedio 2 s</span><span class="sxs-lookup"><span data-stu-id="189cb-179">Avg. Out Queue Delay &lt; 2 sec</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="189cb-180">LySS</span><span class="sxs-lookup"><span data-stu-id="189cb-180">LySS</span></span></p></td>
+<td><p><span data-ttu-id="189cb-181">% de espacio usado por la base de &lt; BD de servicio de almacenamiento 80</span><span class="sxs-lookup"><span data-stu-id="189cb-181">% of space used by Storage Service DB &lt; 80</span></span></p>
+<p><span data-ttu-id="189cb-182">#de errores de replicación de réplica = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-182"># of replica replication failures = 0</span></span></p>
+<p><span data-ttu-id="189cb-183">#eventos de pérdida de datos = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-183"># of data loss events = 0</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="189cb-184">SQL</span><span class="sxs-lookup"><span data-stu-id="189cb-184">SQL</span></span></p></td>
+<td><p><span data-ttu-id="189cb-185">Esperanza &gt; de vida de la página 300 s</span><span class="sxs-lookup"><span data-stu-id="189cb-185">Page life expectancy &gt; 300 Sec.</span></span></p>
+<p><span data-ttu-id="189cb-186">Solicitudes de lotes/ &lt; s 2500</span><span class="sxs-lookup"><span data-stu-id="189cb-186">Batch requests / sec &lt; 2500</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Servidores perimetrales
+</div>
 
-Los siguientes objetivos KHI recomendados son específicos de servidores perimetrales además del estado de componentes básicos:
+<span id="BackEnd"></span>
+
+<div>
+
+## <a name="backend-sql-servers"></a><span data-ttu-id="189cb-187">Servidores SQL back-end</span><span class="sxs-lookup"><span data-stu-id="189cb-187">Backend SQL Servers</span></span>
+
+<span data-ttu-id="189cb-188">Los siguientes destinos KHI recomendados son específicos de los servidores SQL Server además del estado básico de los componentes:</span><span class="sxs-lookup"><span data-stu-id="189cb-188">The following recommended KHI targets are specific to SQL servers in addition to basic component health:</span></span>
 
 
 <table>
@@ -226,43 +224,127 @@ Los siguientes objetivos KHI recomendados son específicos de servidores perimet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Área funcional</th>
-<th>Métricas objetivo</th>
+<th><span data-ttu-id="189cb-189">Área funcional</span><span class="sxs-lookup"><span data-stu-id="189cb-189">Functional area</span></span></th>
+<th><span data-ttu-id="189cb-190">Métricas de destino</span><span class="sxs-lookup"><span data-stu-id="189cb-190">Target Metrics</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Autorización AV</p></td>
-<td><p>Solicitudes incorrectas &lt; 20/s</p></td>
-</tr>
-<tr class="even">
-<td><p>Perimetral AV</p></td>
-<td><p>Errores en autenticación &lt;20/s</p>
-<p>Errores en asignación &lt;20/s</p>
-<p>Paquetes perdidos &lt;300/s</p></td>
-</tr>
-<tr class="odd">
-<td><p>Proxy de datos</p></td>
-<td><p>Conexiones de servidor acelerado &lt; 3</p>
-<p>El sistema está acelerado &lt;1</p></td>
-</tr>
-<tr class="even">
-<td><p>Pila SIP</p></td>
-<td><p>Conexiones por encima del límite perdidas &lt; 1</p>
-<p>Tiempo de espera excedido para envíos &lt;10</p>
-<p>Conexiones controladas por flujo &lt;100</p>
-<p>Solicitudes entrantes perdidas &lt; 1/s</p>
-<p>Procesamiento medio de mensajes &lt; 3 s</p></td>
+<td><p><span data-ttu-id="189cb-191">SQL</span><span class="sxs-lookup"><span data-stu-id="189cb-191">SQL</span></span></p></td>
+<td><p><span data-ttu-id="189cb-192">Esperanza &gt; de vida de la página 300 s</span><span class="sxs-lookup"><span data-stu-id="189cb-192">Page life expectancy &gt; 300 Sec.</span></span></p>
+<p><span data-ttu-id="189cb-193">Solicitudes de lotes/ &lt; s 2500</span><span class="sxs-lookup"><span data-stu-id="189cb-193">Batch requests / sec &lt; 2500</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+</div>
 
-#### Otros recursos
+<span id="Mediation"></span>
 
-[Guía para la conexión de redes de Lync Server](http://go.microsoft.com/fwlink/p/?linkid=390677)  
-[Indicadores de estado clave: la base para el mantenimiento de Lync Server en buen estado](http://go.microsoft.com/fwlink/?linkid=391838)  
-[Metodología para la calidad de llamadas en Lync](http://go.microsoft.com/fwlink/?linkid=391841)
+<div>
+
+## <a name="mediation-servers"></a><span data-ttu-id="189cb-194">Servidores de mediación</span><span class="sxs-lookup"><span data-stu-id="189cb-194">Mediation Servers</span></span>
+
+<span data-ttu-id="189cb-195">Los siguientes destinos KHI recomendados son específicos de los servidores de mediación, además del estado básico de los componentes:</span><span class="sxs-lookup"><span data-stu-id="189cb-195">The following recommended KHI targets are specific to mediation servers in addition to basic component health:</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="189cb-196">Área funcional</span><span class="sxs-lookup"><span data-stu-id="189cb-196">Functional area</span></span></th>
+<th><span data-ttu-id="189cb-197">Métricas de destino</span><span class="sxs-lookup"><span data-stu-id="189cb-197">Target Metrics</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="189cb-198">Servicio servidor de mediación</span><span class="sxs-lookup"><span data-stu-id="189cb-198">Mediation Server Service</span></span></p></td>
+<td><p><span data-ttu-id="189cb-199">Índice de error de llamada de carga = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-199">Load Call Failure Index = 0</span></span></p>
+<p><span data-ttu-id="189cb-200">Llamadas fallidas debido al &lt;proxy 10</span><span class="sxs-lookup"><span data-stu-id="189cb-200">Failed Calls due to Proxy &lt;10</span></span></p>
+<p><span data-ttu-id="189cb-201">Llamadas fallidas debido a &lt;la puerta de enlace 10</span><span class="sxs-lookup"><span data-stu-id="189cb-201">Failed Calls due to Gateway &lt;10</span></span></p>
+<p><span data-ttu-id="189cb-202">Llamadas (dentro o salida) rechazadas = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-202">Calls (in or out) rejected = 0</span></span></p>
+<p><span data-ttu-id="189cb-203">Candidatos a medios ausentes = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-203">Media Candidates missing = 0</span></span></p>
+<p><span data-ttu-id="189cb-204">Errores de comprobación de conectividad de medios = 0</span><span class="sxs-lookup"><span data-stu-id="189cb-204">Media Connectivity Check Failures = 0</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<span id="Edge"></span>
+
+<div>
+
+## <a name="edge-servers"></a><span data-ttu-id="189cb-205">Servidores perimetrales</span><span class="sxs-lookup"><span data-stu-id="189cb-205">Edge Servers</span></span>
+
+<span data-ttu-id="189cb-206">Los siguientes destinos KHI recomendados son específicos de los servidores perimetrales además del estado básico de los componentes:</span><span class="sxs-lookup"><span data-stu-id="189cb-206">The following recommended KHI targets are specific to edge servers in addition to basic component health:</span></span>
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="189cb-207">Área funcional</span><span class="sxs-lookup"><span data-stu-id="189cb-207">Functional area</span></span></th>
+<th><span data-ttu-id="189cb-208">Métricas de destino</span><span class="sxs-lookup"><span data-stu-id="189cb-208">Target Metrics</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="189cb-209">Autenticación de AV</span><span class="sxs-lookup"><span data-stu-id="189cb-209">AV Auth</span></span></p></td>
+<td><p><span data-ttu-id="189cb-210">Solicitudes &lt; erróneas 20/s</span><span class="sxs-lookup"><span data-stu-id="189cb-210">Bad Requests &lt; 20/sec</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="189cb-211">Borde AV</span><span class="sxs-lookup"><span data-stu-id="189cb-211">AV Edge</span></span></p></td>
+<td><p><span data-ttu-id="189cb-212">Errores &lt;de auth. 20/s</span><span class="sxs-lookup"><span data-stu-id="189cb-212">Auth. Failures &lt;20/sec</span></span></p>
+<p><span data-ttu-id="189cb-213">Errores &lt;de asignación de 20/s</span><span class="sxs-lookup"><span data-stu-id="189cb-213">Allocation Failures &lt;20/sec</span></span></p>
+<p><span data-ttu-id="189cb-214">Paquetes descartados &lt;300/s</span><span class="sxs-lookup"><span data-stu-id="189cb-214">Packets Dropped &lt;300/sec</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="189cb-215">Proxy de datos</span><span class="sxs-lookup"><span data-stu-id="189cb-215">Data Proxy</span></span></p></td>
+<td><p><span data-ttu-id="189cb-216">Conexiones &lt; de servidor limitado 3</span><span class="sxs-lookup"><span data-stu-id="189cb-216">Throttled Server connections &lt; 3</span></span></p>
+<p><span data-ttu-id="189cb-217">El sistema está limitando &lt;1</span><span class="sxs-lookup"><span data-stu-id="189cb-217">System is Throttling &lt;1</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="189cb-218">Pila SIP</span><span class="sxs-lookup"><span data-stu-id="189cb-218">SIP Stack</span></span></p></td>
+<td><p><span data-ttu-id="189cb-219">Descartar &lt; conexiones por límite 1</span><span class="sxs-lookup"><span data-stu-id="189cb-219">Connections over limit dropped &lt; 1</span></span></p>
+<p><span data-ttu-id="189cb-220">Se agotó el tiempo &lt;de espera de envíos 10</span><span class="sxs-lookup"><span data-stu-id="189cb-220">Sends timed out &lt;10</span></span></p>
+<p><span data-ttu-id="189cb-221">Conexiones &lt;controladas por flujo 100</span><span class="sxs-lookup"><span data-stu-id="189cb-221">Flow Controlled Connections &lt;100</span></span></p>
+<p><span data-ttu-id="189cb-222">Solicitudes entrantes &lt; descartadas 1/s</span><span class="sxs-lookup"><span data-stu-id="189cb-222">Incoming requests dropped &lt; 1/sec</span></span></p>
+<p><span data-ttu-id="189cb-223">Promedio de procesamiento &lt; de mensajes 3 por segundo</span><span class="sxs-lookup"><span data-stu-id="189cb-223">Avg. Message Processing &lt; 3 sec</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="189cb-224">Vea también</span><span class="sxs-lookup"><span data-stu-id="189cb-224">See Also</span></span>
+
+
+[<span data-ttu-id="189cb-225">Guía de redes de Lync Server</span><span class="sxs-lookup"><span data-stu-id="189cb-225">Lync Server Networking Guide</span></span>](http://go.microsoft.com/fwlink/p/?linkid=390677)  
+[<span data-ttu-id="189cb-226">Indicadores clave de estado: la base para mantener los servidores de Lync en buen estado</span><span class="sxs-lookup"><span data-stu-id="189cb-226">Key Health Indicators: The Foundation for Maintaining Healthy Lync Servers</span></span>](http://go.microsoft.com/fwlink/?linkid=391838)  
+[<span data-ttu-id="189cb-227">Metodología de calidad de llamadas de Lync</span><span class="sxs-lookup"><span data-stu-id="189cb-227">Lync Call Quality Methodology</span></span>](http://go.microsoft.com/fwlink/?linkid=391841)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

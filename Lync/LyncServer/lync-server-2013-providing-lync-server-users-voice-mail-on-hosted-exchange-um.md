@@ -1,31 +1,65 @@
-﻿---
-title: "Lync Server 2013: Correo voz a usuarios Lync Server 2013 en mensajería unif. Exchange"
-TOCTitle: Proporcionar correo de voz a usuarios de Lync Server 2013 en la mensajería unificada de Exchange hospedada
-ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425807(v=OCS.15)
-ms:contentKeyID: 48274840
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Proporcionar correo de voz a usuarios de Lync Server 2013 en la mensajería unificada de Exchange hospedada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Providing Lync Server 2013 users voice mail on hosted Exchange UM
+ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425807(v=OCS.15)
+ms:contentKeyID: 48183752
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ba7541ce5d96f59132c86b5c01e9d997836e1e05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823563"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Proporcionar correo de voz a usuarios de Lync Server 2013 en la mensajería unificada de Exchange hospedada
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-24_
+# <a name="providing-lync-server-2013-users-voice-mail-on-hosted-exchange-um"></a><span data-ttu-id="a1fa7-102">Proporcionar correo de voz a usuarios de Lync Server 2013 en la mensajería unificada de Exchange hospedada</span><span class="sxs-lookup"><span data-stu-id="a1fa7-102">Providing Lync Server 2013 users voice mail on hosted Exchange UM</span></span>
 
-Esta sección le guiará por el proceso de proporcionar usuarios en una implementación local de Lync Server 2013 con correo de voz en un servicio de Mensajería unificada de Exchange (UM) hospedado.
+</div>
 
-## En esta sección
+<div id="mainSection">
 
-  - [Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
+<div id="mainBody">
 
-  - [Configurar el servidor perimetral para la integración con la mensajería unificada de Exchange hospedada](lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md)
+<span> </span>
 
-  - [Administrar directivas de correo de voz hospedado en Lync Server 2013](lync-server-2013-manage-hosted-voice-mail-policies.md)
+<span data-ttu-id="a1fa7-103">_**Última modificación del tema:** 2012-09-24_</span><span class="sxs-lookup"><span data-stu-id="a1fa7-103">_**Topic Last Modified:** 2012-09-24_</span></span>
 
-  - [Habilitar a los usuarios para el correo de voz hospedado en Lync Server 2013](lync-server-2013-enable-users-for-hosted-voice-mail.md)
+<span data-ttu-id="a1fa7-104">Esta sección le guiará a través del proceso de proporcionar a los usuarios en una implementación local de Lync Server 2013 con correo de voz en un servicio de mensajería unificada (UM) hospedada de Exchange.</span><span class="sxs-lookup"><span data-stu-id="a1fa7-104">This section guides you through the process of providing users in an on-premises Lync Server 2013 deployment with voice mail on a hosted Exchange Unified Messaging (UM) service.</span></span>
 
-  - [Crear objetos de contacto para la mensajería unificada de Exchange hospedada en Lync Server 2013](lync-server-2013-create-contact-objects-for-hosted-exchange-um.md)
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="a1fa7-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="a1fa7-105">In This Section</span></span>
+
+  - [<span data-ttu-id="a1fa7-106">Crear un registro DNS SRV para la integración con mensajería unificada (UM) hospedada de Exchange</span><span class="sxs-lookup"><span data-stu-id="a1fa7-106">Create a DNS SRV record for integration with hosted Exchange UM</span></span>](lync-server-2013-create-a-dns-srv-record-for-integration-with-hosted-exchange-um.md)
+
+  - [<span data-ttu-id="a1fa7-107">Configurar el servidor perimetral para la integración con la mensajería unificada de Exchange hospedada</span><span class="sxs-lookup"><span data-stu-id="a1fa7-107">Configure the Edge Server for integration with hosted Exchange UM</span></span>](lync-server-2013-configure-the-edge-server-for-integration-with-hosted-exchange-um.md)
+
+  - [<span data-ttu-id="a1fa7-108">Administrar directivas de correo de voz hospedado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1fa7-108">Manage hosted voice mail policies in Lync Server 2013</span></span>](lync-server-2013-manage-hosted-voice-mail-policies.md)
+
+  - [<span data-ttu-id="a1fa7-109">Habilitar a los usuarios para el correo de voz hospedado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1fa7-109">Enable users for hosted voice mail in Lync Server 2013</span></span>](lync-server-2013-enable-users-for-hosted-voice-mail.md)
+
+  - [<span data-ttu-id="a1fa7-110">Crear objetos de contacto para la mensajería unificada de Exchange hospedada en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a1fa7-110">Create contact objects for hosted Exchange UM in Lync Server 2013</span></span>](lync-server-2013-create-contact-objects-for-hosted-exchange-um.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
