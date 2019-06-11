@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: e59c895ed60c53b3199648a0acb142037b936c75
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a96e8866671c6a6a268113b4b8ca89c67bed8fa
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302764"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813053"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-skype-for-business-online"></a>Probar o comprar audioconferencias en Office 365 para Skype for Business Online
 
@@ -69,32 +69,30 @@ If you're a Volume and Licensing customer, you can get pay-per-minute Audio Conf
 3. [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization) for your organization. To set up Communications Credits, see [What are Communications Credits?](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
-    > Si no se han configurado los créditos de comunicaciones, la audioconferencia no funcionará para ningún usuario con licencias de pago por minuto.
+    > Si no se han configurado los créditos de comunicaciones, la audioconferencia no funcionará para ningún usuario con licencias de pago por minuto. Además, si tiene las licencias de pago por minuto de audioconferencia, no tiene que asignar licencias de créditos de comunicaciones por separado a cada usuario para el uso de las conferencias de audio, pero es posible que tenga que asignarlos a otro servicio.
 
 4. [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) que haya comprado a las personas de su organización que vayan a programar o coordinar reuniones.
 
-    > [!NOTE]
-    > Si tiene licencias de audioconferencia con pago por minuto, no tiene que asignar licencias de créditos de comunicaciones por separado a cada usuario específicamente para el uso de las audioconferencias (es posible que tenga que asignarlas para otros servicios).
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Paso 2: configurar el proveedor de servicios de audioconferencia para las personas que conducen o programan reuniones
 
-When you assign an **Audio Conferencing** license to people in your organization who lead or schedule meetings, they are all set up and ready to go! (You don't have to set their audio conferencing provider.)
+Cuando asigna una licencia de **audioconferencia** a personas de su organización que dirigen o programan reuniones, ¡ya están configuradas y listas para empezar! (No tiene que configurar su proveedor de audioconferencias).
 
 ## <a name="step-3-other-admin-tasks"></a>Paso 3: Otras tareas de administrador
 
 Los pasos siguientes son **opcionales**, pero una gran cantidad de administradores como para hacerlo:
 
-1. [Customize meeting invitations](../set-up-skype-for-business-online/customize-meeting-invitations.md). The dial-in numbers that are set for the user will be automatically added to the meeting invitations that are sent to attendees. However, you can add your own help and legal links, a text message, and small company graphic.
+1. [Personalizar invitaciones a reuniones](../set-up-skype-for-business-online/customize-meeting-invitations.md). Los números de acceso telefónico que se establecen para el usuario se agregan automáticamente a las invitaciones de las reuniones que se envían a los asistentes. Sin embargo, puede agregar sus propios vínculos de ayuda y de avisos legales, un mensaje de texto y un pequeño distintivo gráfico de la empresa.
 
-2. [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). This is the phone number that will show up in the meeting that is scheduled by a user.
+2. [Configure los números de teléfono incluidos en los invitados](set-the-phone-numbers-included-on-invites.md). Este es el número de teléfono que aparecerá en la reunión programada por el usuario.
 
-3. [Set auto attendant languages for Audio Conferencing](set-auto-attendant-languages-for-audio-conferencing.md) that the Audio Conferencing auto attendant uses to greet a caller when they dial in to an audio conferencing phone number. This step only applies if you're using Microsoft as your audio conferencing provider.
+3. [Configure los idiomas del operador automático para las conferencias de audio](set-auto-attendant-languages-for-audio-conferencing.md) que el operador automático de audioconferencias usa para saludar a una persona que llama al llamar a un número de teléfono de audioconferencia. Este paso solo se aplica si usa Microsoft como proveedor de servicios de audioconferencia.
 
 4. [Establezca la longitud del PIN para las reuniones de audioconferencia](set-the-pin-length-for-audio-conferencing-meetings.md).
 
 
 > [!NOTE]
-> This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
+> Esta característica aún no está disponible para los clientes con Office 365 operado por 21Vianet en China. Para más detalles, consulte [Obtener información acerca de Office 365 operado por 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
 ## <a name="related-topics"></a>Temas relacionados
 

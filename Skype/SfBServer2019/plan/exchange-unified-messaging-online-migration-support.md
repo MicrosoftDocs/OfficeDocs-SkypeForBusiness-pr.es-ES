@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
-ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
+ms.openlocfilehash: 3beaceb8da8169a6d2bb702841e5f040d2e22a66
+ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34702683"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813085"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -137,7 +137,7 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | MEDIO | Características de los autores de llamadas  | Experiencia de la persona que llama: buzón de voz privado | La persona que llama puede elegir una opción para marcar un mensaje grabado como privado  | N | Y    |
 | MEDIO | Características de los autores de llamadas  | Detección de silencio   |  | N | Y    |
 | MEDIO | Espacio empresarial-características de administración | Buzón de voz protegido en el nivel de servidor    | Tenant-admin puede configurar una regla de nivel de servicio para marcar el buzón de voz como protegido. | Y | S    |
-| MEDIO | Espacio empresarial-características de administración | Límite de tiempo de duración de grabación  | CVM codificado en 5 minutos    | N | Y    |
+| MEDIO | Espacio empresarial-características de administración | Límite de tiempo de duración de grabación  |     | Y | S    |
 | MEDIO | Espacio empresarial-características de administración | Cambiar el tiempo de espera de detección de silencio    |  | N/D    | Y    |
 | MEDIO | Espacio empresarial-características de administración | Cambiar número de error de entrada | CVM: codificado en 3 | N | Y    |
 | MEDIO | Espacio empresarial-características de administración | Cambiar el idioma predeterminado |  | Y | S    |
