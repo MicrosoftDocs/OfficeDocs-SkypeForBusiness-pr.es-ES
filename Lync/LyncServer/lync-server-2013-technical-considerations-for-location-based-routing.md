@@ -1,33 +1,75 @@
-﻿---
-title: 'Lync Server 2013: Consideraciones técnicas para el enrutamiento basado en ubicación'
-TOCTitle: Consideraciones técnicas para el enrutamiento basado en ubicación
-ms:assetid: 2e2a9199-7c6f-48d3-9adb-3873fc4f8c4e
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994027(v=OCS.15)
-ms:contentKeyID: 52061618
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Consideraciones técnicas para el enrutamiento basado en ubicación'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical considerations for Location-Based Routing
+ms:assetid: 2e2a9199-7c6f-48d3-9adb-3873fc4f8c4e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994027(v=OCS.15)
+ms:contentKeyID: 51803936
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 29187cf1a5cf99ae5312f655c924565f6a38a706
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850467"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Consideraciones técnicas para el enrutamiento basado en ubicación en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="technical-considerations-for-location-based-routing-in-lync-server-2013"></a>Consideraciones técnicas para el enrutamiento basado en ubicación en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-03-09_
 
-Al planear el enrutamiento según ubicación, debe considerar el impacto de los siguientes escenarios.
+Al planear el enrutamiento basado en la ubicación, debe considerar el impacto en los siguientes escenarios.
 
-## Recuperación ante desastres
+<div>
 
-Durante una conmutación por error del grupo principal a un grupo de reserva, así como al restaurar operaciones normales al grupo principal, el enrutamiento según ubicación permanece aplicado todas las veces durante un procedimiento de recuperación ante desastres.
+## <a name="disaster-recovery"></a>Recuperación ante desastres
 
-## Aplicación de sucursal con funciones de supervivencia
+Durante una conmutación por error del repositorio principal a un grupo de copia de seguridad, así como al restaurar operaciones normales en el repositorio principal, el enrutamiento basado en la ubicación se mantiene en todo momento durante un procedimiento de recuperación ante desastres.
 
-La configuración del enrutamiento según ubicación afecta a la planeación de dónde se van a implementar las puertas de enlace asociadas a los Aplicaciones de sucursal con funciones de supervivencia. La puerta de enlace asociada a SBA debe estar situada en el mismo sitio de red que Aplicación de sucursal con funciones de supervivencia; de lo contrario, los usuarios hospedados en Aplicación de sucursal con funciones de supervivencia no podrán realizar llamadas salientes si el enrutamiento según ubicación está configurado. Cuando la conexión WAN entre Aplicación de sucursal con funciones de supervivencia y el sitio central está inactiva, las restricciones de enrutamiento según ubicación permanecen aplicadas.
+</div>
 
-## Vea también
+<div>
 
-#### Otros recursos
+## <a name="survivable-branch-appliance"></a>Aplicación de sucursal con funciones de supervivencia
 
-[Planificar el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)
+La configuración del enrutamiento basado en la ubicación afecta al planeamiento de la ubicación en la que se implementan las puertas de enlace asociadas a los dispositivos de las sucursales que son revivientes. La puerta de enlace asociada a su SBA debe estar ubicada en el mismo sitio de red que su equipo de sucursal con la supervivencia; de lo contrario, los usuarios alojados en su equipo de sucursal con su supervivencia no podrán realizar llamadas salientes si el enrutamiento basado en la ubicación está configurado. Cuando la conexión WAN entre el equipo de la sucursal y el sitio central está inactivo, se exige la aplicación de las restricciones de enrutamiento basadas en la ubicación.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Planificar el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-planning-for-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

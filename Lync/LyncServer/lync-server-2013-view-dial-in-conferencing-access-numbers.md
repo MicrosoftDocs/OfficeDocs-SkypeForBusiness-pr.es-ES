@@ -1,45 +1,73 @@
-﻿---
-title: Ver los números de acceso a conferencias de acceso telefónico local
-TOCTitle: Ver los números de acceso a conferencias de acceso telefónico local
-ms:assetid: 41a7dfb4-0c89-4650-b61b-0e1bf875c62b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688037(v=OCS.15)
-ms:contentKeyID: 49889058
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ver números de acceso a conferencias de acceso telefónico local'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View dial-in conferencing access numbers
+ms:assetid: 41a7dfb4-0c89-4650-b61b-0e1bf875c62b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688037(v=OCS.15)
+ms:contentKeyID: 49733628
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b9d9e6ca8d4f388edf6f04f4012726f6abee9e9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850111"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ver los números de acceso a conferencias de acceso telefónico local
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="view-dial-in-conferencing-access-numbers-in-lync-server-2013"></a>Ver los números de acceso a la Conferencia de acceso telefónico local en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-En Panel de control de Lync Server 2013, proporciona números de acceso telefónico a los usuarios para que puedan unirse una reunión externamente.
+En el panel de control de Lync Server 2013, proporciona números de acceso telefónico local a los usuarios para que puedan unirse a una reunión de forma externa.
 
-## Para ver los números de acceso telefónico
+<div>
+
+## <a name="to-view-dial-in-access-numbers"></a>Para ver los números de acceso telefónico local
 
 1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación de la izquierda, haga clic en **Conferencias** y, a continuación, en **Número de acceso telefónico**.
+3.  En la barra de navegación de la izquierda, haga clic en **Conferencia** y después en **Número de acceso telefónico local**.
 
-4.  En la página **Número de acceso telefónico**, haga clic en el número de acceso que desea ver.
+4.  En la página **Número de acceso telefónico local**, haga clic en el número de acceso que desea ver.
 
-5.  En **Editar**, active la casilla **Mostrar detalles...**.
+5.  En **Editar**, seleccione **Mostrar detalles...** casilla de verificación.
 
-## Visualización de números de acceso telefónico a conferencias con los cmdlets de Lync Server PowerShell
+</div>
 
-Los números de acceso telefónico a conferencias también pueden verse con Lync Server PowerShell y el cmdlet Get-CsDialInConferencingAccessNumber. Este cmdlet puede ejecutarse desde Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Visualización de información de configuración de tronco SIP
+## <a name="viewing-dial-in-conferencing-access-numbers-by-using-windows-powershell-cmdlets"></a>Ver los números de acceso a la Conferencia de acceso telefónico local mediante cmdlets de Windows PowerShell
 
-  - Para ver información sobre todos los números de acceso telefónico a conferencias, escriba el siguiente comando en Shell de administración de Lync Server y luego presione ENTRAR:
+Los números de acceso de la Conferencia de acceso telefónico local se pueden ver con Windows PowerShell y el cmdlet Get-CsDialInConferencingAccessNumber. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+
+<div>
+
+## <a name="to-view-dial-in-conferencing-access-numbers"></a>Para ver los números de acceso a la Conferencia de acceso telefónico local
+
+  - Para ver la información sobre todos los números de acceso de la Conferencia de acceso telefónico local, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
     
         Get-CsDialInConferencingAccessNumber
     
-    Eso devolverá información similar a esta:
+    Devolverá información similar a la siguiente:
     
         Identity           : CN={20ca8dc8-5ff8-41f4-b5bb-22ba9972ae2e},
                              CN=Application Contacts,CN=RTCService=Services,
@@ -54,5 +82,19 @@ Los números de acceso telefónico a conferencias también pueden verse con Lync
         HostingProvider    :
         Regions            : {US}
 
-Para más información, vea el tema de ayuda del cmdlet [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingAccessNumber).
+</div>
+
+Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsDialInConferencingAccessNumber](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingAccessNumber) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

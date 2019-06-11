@@ -1,121 +1,173 @@
-﻿---
-title: "Mover servidor de administración central de Lync Server 2010 a Lync Server 2013"
-TOCTitle: "Dépl. du serv. de gest. centralisée Lync Server 2010 vers Lync Server 2013"
-ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688013(v=OCS.15)
-ms:contentKeyID: 49889027
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Mover el servidor de administración central de Lync Server 2010 a Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Move the Lync Server 2010 Central Management Server to Lync Server 2013
+ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688013(v=OCS.15)
+ms:contentKeyID: 49733602
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: abcb361beb82b98cd765b3797b63b22c280fdf70
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849934"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mover el servidor de administración central de Lync Server 2010 a Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="move-the-lync-server-2010-central-management-server-to-lync-server-2013"></a>Mover el servidor de administración central de Lync Server 2010 a Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-11-25_
 
-Tras migrar desde el Lync Server 2010 a Lync Server 2013, tiene que mover el Lync Server 2010Servidor de administración central al Lync Server 2013Servidor front-end o grupo de servidores para poder quitar el servidor de Lync Server 2010 heredado.
+Después de migrar de Lync Server 2010 a Lync Server 2013, debe mover el servidor de administración central de Lync Server 2010 al servidor o grupo de servidores front-end de Lync Server 2013 para poder quitar el servidor de Lync Server 2010 heredado.
 
-El Servidor de administración central es un sistema de réplica múltiple/maestro único, en donde la copia de lectura/escritura de la base de datos se almacena en el Servidor front-end que contiene el Servidor de administración central. Todos los equipos de la topología, incluido el Servidor front-end que contiene el Servidor de administración central, tienen instalada en el equipo una copia de solo lectura de los datos del Almacén de administración central en la base de datos de SQL Server (denominada RTCLOCAL de forma predeterminada) durante la instalación e implementación. La base de datos local recibe actualizaciones de réplicas por medio del agente de replicador de réplicas de Lync Server que se ejecuta como un servicio en todos los equipos. El nombre de la base de datos real en el Servidor de administración central y la réplica local es el XDS, el cual está conformado por los archivos xds.mdf y xds.ldf. Un punto de control de servicio (SCP) hace referencia a la ubicación de la base de datos maestra en Servicios de dominio de Active Directory. Todas las herramientas que utilizan el Servidor de administración central para administrar y configurar Lync Server usan el SCP para ubicar el Almacén de administración central.
+El servidor de administración central es un único sistema de réplica principal/múltiple, donde la copia de lectura y escritura de la base de datos es retenida por el servidor front-end que contiene el servidor de administración central. Cada equipo de la topología, incluido el servidor front-end que contiene el servidor de administración central, tiene una copia de solo lectura de los datos del almacén central de administración en la base de datos de SQL Server (denominada RTCLOCAL de forma predeterminada) instalada en el equipo durante la instalación y implementación. La base de datos local recibe actualizaciones de réplica por medio del agente replicador de réplicas de Lync Server que se ejecuta como un servicio en todos los equipos. El nombre de la base de datos real en el servidor de administración central y la réplica local es XDS, que está compuesto de los archivos XDS. MDF y XDS. ldf. Un punto de control de servicio (SCP) hace referencia a la ubicación de la base de datos maestra en los servicios de dominio de Active Directory. Todas las herramientas que usan el servidor de administración central para administrar y configurar Lync Server usan el SCP para localizar el almacén de administración central.
 
-Tras migrar correctamente el Servidor de administración central, debe quitar las bases de datos del Servidor de administración central del Servidor front-end original. Para obtener información acerca de la eliminación de las bases de datos de Servidor de administración central, vea [Quitar la base de datos de SQL Server para un grupo de servidores front-end](remove-the-sql-server-database-for-a-front-end-pool.md).
+Después de mover correctamente el servidor de administración central, debe quitar las bases de datos del servidor de administración central del servidor front-end original. Para obtener información sobre cómo quitar las bases de datos del servidor de administración central, vea [quitar la base de datos de SQL Server de un grupo de servidores front-end](remove-the-sql-server-database-for-a-front-end-pool.md).
 
-Usa el cmdlet Windows PowerShell**Move-CsManagementServer** en el Shell de administración de Lync Server para mover la base de datos desde la base de datos de SQL Server de Lync Server 2010 a la base de datos de SQL Server de Lync Server 2013 y, a continuación, actualiza el SCP para que señale a la ubicación de Lync Server 2013Servidor de administración central.
+Use el cmdlet **Move-CsManagementServer** de Windows PowerShell en el shell de administración de Lync Server para mover la base de datos de la base de datos de lync Server 2010 de SQL Server a la base de datos de sql server 2013 de Lync Server y, después, actualice el SCP para que apunte a Lync. Server 2013 Ubicación del servidor de administración central.
 
-## Preparación de Lync Server 2013Servidores front-end para mover el Servidor de administración central
+<div>
 
-Use los procedimientos de esta sección para preparar el Lync Server 2013Servidores front-end para mover el Lync Server 2010Servidor de administración central.
+## <a name="preparing-lync-server-2013front-end-servers-before-moving-the-central-management-server"></a>Preparar servidores front-end de Lync Server 2013 antes de mover el servidor de administración central
 
-## Para preparar un Grupo de servidores front-end Enterprise Edition
+Use los procedimientos de esta sección para preparar los servidores front-end de Lync Server 2013 antes de mover el servidor de administración central de Lync Server 2010.
 
-1.  En el Lync Server 2013 Enterprise Edition Grupo de servidores front-end donde desea reubicar el Servidor de administración central: inicie sesión en el equipo donde el Shell de administración de Lync Server está instalado como miembro del grupo **RTCUniversalServerAdmins**. También debe tener permisos y derechos de usuario de sysadmin de la base de datos de SQL Server en la base de datos donde desea instalar el Almacén de administración central.
+<div>
 
-2.  Abra el Shell de administración de Lync Server.
+## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>Preparar un grupo de servidores front-end Enterprise Edition
 
-3.  Para crear el nuevo Almacén de administración central en la base de datos de SQL Server de Lync Server 2013, en el Shell de administración de Lync Server, escriba:
+1.  En el grupo de servidores front-end de Lync Server 2013 Enterprise Edition donde quiere reubicar el servidor de administración central: inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo **RTCUniversalServerAdmins** . También debe tener permisos y derechos de usuario de la base de datos sysadmin de SQL Server en la base de datos donde desee instalar el almacén de administración central.
+
+2.  Abra el shell de administración de Lync Server.
+
+3.  Para crear el nuevo almacén central de administración en la base de datos de Lync Server 2013 de SQL Server, en el shell de administración de Lync Server, escriba:
     
         Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
 
-4.  Confirme que el estado del servicio **Lync Server Front-End** esté en **Iniciado**
+4.  Confirme que el estado del servicio **front-end de Lync Server** se ha **iniciado**.
 
-## Para preparar un Servidor front-end Standard Edition
+</div>
 
-1.  En el Lync Server 2013 Standard Edition Servidor front-end donde desea reubicar el Servidor de administración central: inicie sesión en el equipo donde el Shell de administración de Lync Server está instalado como miembro del grupo **RTCUniversalServerAdmins**.
+<div>
 
-2.  Abra Asistente para la implementación de Lync Server.
+## <a name="to-prepare-a-standard-edition-front-end-server"></a>Para preparar un servidor front-end Standard Edition
 
-3.  En la Asistente para la implementación de Lync Server, haga clic en **Preparar el primer servidor Standard Edition**.
+1.  En el servidor front-end de Lync Server 2013 Standard Edition en el que desea reubicar el servidor de administración central: inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo **RTCUniversalServerAdmins** .
 
-4.  En la página **Ejecutar comandos**, SQL Server Express está instalado como el Servidor de administración central. Se crean las reglas de firewall necesarias. Cuando finalice la instalación de la base de datos y el software necesario como requisito previo, haga clic en **Finalizar**.
+2.  Abra el Asistente para la implementación de Lync Server.
+
+3.  En el Asistente para la implementación de Lync Server, haga clic en **preparar el primer servidor Standard Edition**.
+
+4.  En la página **comandos en ejecución** , SQL Server Express está instalado como servidor de administración central. Se crean las reglas de Firewall necesarias. Cuando haya finalizado la instalación de la base de datos y el software necesario, haga clic en **Finalizar**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Es posible que la instalación inicial necesite bastante tiempo antes de mostrar actualizaciones en la pantalla de resumen de resultados de comandos. Esto se debe a la instalación de SQL Server Express. Si necesita supervisar la instalación de la base de datos, use el Administrador de tareas para hacerlo.
+    > [!NOTE]  
+    > La instalación inicial puede llevar algún tiempo sin actualizaciones visibles en la pantalla Resumen de salida del comando. Esto se debe a la instalación de SQL Server Express. Si necesita supervisar la instalación de la base de datos, use el administrador de tareas para supervisar la configuración.
 
+    
+    </div>
 
-
-5.  Para crear el nuevo Almacén de administración central en el Lync Server 2013 Standard Edition Servidor front-end, en el Shell de administración de Lync Server, escriba:
+5.  Para crear el nuevo almacén central de administración en el servidor front-end de Lync Server 2013 Standard Edition, en el shell de administración de Lync Server, escriba:
     
         Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
 
-6.  Confirme que el estado del servicio **Lync Server Front-End** esté en **Iniciado**
+6.  Confirme que el estado del servicio **front-end de Lync Server** se ha **iniciado**.
 
-## Para mover el Lync Server 2010Servidor de administración central a Lync Server 2013
+</div>
 
-1.  En el servidor Lync Server 2013 que será el Servidor de administración central: inicie sesión en el equipo donde el Shell de administración de Lync Server está instalado como miembro del grupo **RTCUniversalServerAdmins**. También debe tener los permisos y derechos de usuario del administrador de base de datos de SQL Server.
+</div>
 
-2.  Abra Shell de administración de Lync Server.
+<div>
 
-3.  En el Shell de administración de Lync Server, escriba:
+## <a name="to-move-the-lync-server-2010central-management-server-to-lync-server-2013"></a>Para mover el servidor de administración central de Lync Server 2010 a Lync Server 2013
+
+1.  En el servidor de Lync Server 2013 que será el servidor de administración central: inicie sesión en el equipo en el que está instalado el shell de administración de Lync Server como miembro del grupo **RTCUniversalServerAdmins** . También debe tener los derechos de usuario y permisos de administrador de bases de datos de SQL Server.
+
+2.  Abra el Shell de administración de Lync Server.
+
+3.  En el shell de administración de Lync Server, escriba:
     
         Enable-CsTopology
     
-    > [!WARNING]  
-    > Si <code>Enable-CsTopology</code> no se ejecuta correctamente, solucione el problema evitando que el comando se complete antes de continuar. Si <strong>Enable-CsTopology</strong> no se ejecuta correctamente, se producirá un error en la migración que puede dejar a la topología sin ningún Almacén de administración central.
+    <div>
     
 
+    > [!WARNING]  
+    > Si <CODE>Enable-CsTopology</CODE> no es satisfactorio, solucione el problema evitando que se complete el comando antes de continuar. Si <STRONG>enable-CsTopology</STRONG> no se realiza correctamente, el movimiento no se realizará y puede dejar la topología en un estado en el que no haya ningún almacén de administración central.
 
-4.  En el Lync Server 2013Servidor front-end o Grupo de servidores front-end, en el Shell de administración de Lync Server, escriba:
+    
+    </div>
+
+4.  En el servidor front-end de Lync Server 2013 o en el grupo de servidores front-end, en el shell de administración de Lync Server, escriba:
     
         Move-CsManagementServer
 
-5.  El Shell de administración de Lync Server muestra los servidores, almacenes de archivos, almacenes de bases de datos y puntos de conexión de servicio del estado actual y el estado propuesto. Lea la información cuidadosamente y confirme que se trata del origen y el destino deseados. Escriba **S** para continuar o **N** para detener la migración.
+5.  El shell de administración de Lync Server muestra los servidores, los almacenes de archivos, las tiendas de bases de datos y los puntos de conexión de servicio del estado actual y el estado propuesto. Lea la información detenidamente y confirme que este es el origen y el destino previstos. Escriba **Y** para continuar o **N** para detener el movimiento.
 
-6.  Revise las advertencias o los errores generados por el comando **Move-CsManagementServer** y resuélvalos.
+6.  Revise las advertencias o errores generados por el comando **Move-CsManagementServer** y resuélvalos.
 
-7.  En el servidor de Lync Server 2013, abra la Asistente para la implementación de Lync Server.
+7.  En el servidor de Lync Server 2013, abra el Asistente para la implementación de Lync Server.
 
-8.  En Asistente para la implementación de Lync Server, haga clic en **Instalar o actualizar el sistema Lync Server**, en **Paso 2: Instalar o desinstalar componentes de Lync Server**, en **Siguiente**, revise el resumen y, a continuación, haga clic en **Finalizar**.
+8.  En el Asistente para la implementación de Lync Server, haga clic en **instalar o actualizar el sistema Lync Server**, haga clic en **paso 2: configurar o quitar componentes de Lync Server**, haga clic en **siguiente**, revise el Resumen y, a continuación, haga clic en **Finalizar**.
 
-9.  En el servidor de Lync Server 2010, abra la Asistente para la implementación de Lync Server.
+9.  En el servidor de Lync Server 2010, abra el Asistente para la implementación de Lync Server.
 
-10. En Asistente para la implementación de Lync Server, haga clic en **Instalar o actualizar el sistema Lync Server**, en **Paso 2: Instalar o desinstalar componentes de Lync Server**, en **Siguiente**, revise el resumen y, a continuación, haga clic en **Finalizar**.
+10. En el Asistente para la implementación de Lync Server, haga clic en **instalar o actualizar el sistema Lync Server**, haga clic en **paso 2: configurar o quitar componentes de Lync Server**, haga clic en **siguiente**, revise el Resumen y, a continuación, haga clic en **Finalizar**.
 
-11. Reinicie el servidor de Lync Server 2013. Esto es necesario debido un cambio de pertenencia a grupos para acceder a la base de datos de Servidor de administración central.
+11. Reinicie el servidor de Lync Server 2013. Esto se debe a un cambio de pertenencia a grupos para tener acceso a la base de datos del servidor de administración central.
 
-12. Para confirmar que se está efectuando la replicación con el nuevo Almacén de administración central, en el Shell de administración de Lync Server, escriba:
+12. Para confirmar que se está produciendo la replicación con el nuevo almacén de administración central, en el shell de administración de Lync Server, escriba:
     
         Get-CsManagementStoreReplicationStatus
     
-
-    > [!NOTE]
-    > Es posible que la replicación necesite bastante tiempo para actualizar todas las réplicas.
-
-
-
-## Para quitar archivos de Lync Server 2010Almacén de administración central después de un movimiento
-
-1.  En el servidor Lync Server 2010: inicie sesión en el equipo donde el Shell de administración de Lync Server está instalado como miembro del grupo **RTCUniversalServerAdmins**. También debe tener los permisos y derechos de usuario del administrador de base de datos de SQL Server.
-
-2.  Abra Shell de administración de Lync Server
+    <div>
     
+
+    > [!NOTE]  
+    > La replicación puede tardar algún tiempo en actualizar todas las réplicas actuales.
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="to-remove-lync-server-2010central-management-store-files-after-a-move"></a>Para quitar los archivos del almacén central de administración de Lync Server 2010 después de un movimiento
+
+1.  En el servidor de Lync Server 2010: inicie sesión en el equipo en el que está instalado el shell de administración de Lync Server como miembro del grupo **RTCUniversalServerAdmins** . También debe tener los derechos de usuario y permisos de administrador de bases de datos de SQL Server.
+
+2.  Abrir el shell de administración de Lync Server
+    
+    <div>
+    
+
     > [!WARNING]  
-    > No continúe con la eliminación de los archivos de base de datos anteriores hasta que la replicación haya finalizado y esté estable. Si quita los archivos antes de completar la replicación, se interrumpirá el proceso de replicación y el Servidor de administración central migrado quedará en un estado desconocido. Utilice el cmdlet <strong>Get-CsManagementStoreReplicationStatus</strong> para confirmar el estado de la replicación.
+    > No continúe con la eliminación de los archivos de base de datos anteriores hasta que la replicación haya finalizado y sea estable. Si quita los archivos antes de completar la replicación, se interrumpirá el proceso de replicación y dejará el servidor de administración central que acaba de mover en un estado desconocido. Use el cmdlet <STRONG>Get-CsManagementStoreReplicationStatus</STRONG> para confirmar el estado de replicación.
+
     
+    </div>
 
-
-3.  Para quitar los archivos de base de datos de Almacén de administración central del Lync Server 2010Servidor de administración central, escriba:
+3.  Para quitar los archivos de la base de datos del almacén central de administración del servidor de administración central de Lync Server 2010, escriba:
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
     
@@ -123,5 +175,17 @@ Use los procedimientos de esta sección para preparar el Lync Server 2013Servido
     
         Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
     
-    Donde el *\<FQDN of SQL Server\>* es el servidor back-end de Lync Server 2010 en una implementación de Enterprise Edition o el FQDN del servidor Standard Edition.
+    Donde el \<FQDN de SQL Server\> es el servidor Back-End de Lync Server 2010 en una implementación de Enterprise Edition o el FQDN del servidor Standard Edition.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

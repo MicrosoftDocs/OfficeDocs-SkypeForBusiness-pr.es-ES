@@ -1,25 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Comprobación de la implementación perimetral'
-TOCTitle: Comprobación de la implementación perimetral
-ms:assetid: 05ac3530-8756-4c77-8b3b-9d0027029dce
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398108(v=OCS.15)
-ms:contentKeyID: 48274303
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Comprobación de la implementación perimetral'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Verifying your edge deployment
+ms:assetid: 05ac3530-8756-4c77-8b3b-9d0027029dce
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398108(v=OCS.15)
+ms:contentKeyID: 48183290
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 72821ab44426e0a91a41618937bb17de29e425f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850135"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Comprobación de la implementación perimetral en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="verifying-your-edge-deployment-in-lync-server-2013"></a>Comprobación de la implementación perimetral en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2010-11-07_
 
-Una vez finalizada la instalación y la configuración de los componentes perimetrales, deberá comprobar la configuración y la conectividad de los servidores, y comprobar la conectividad de todos los tipos de usuario externo que admita.
+Después de completar la instalación y la configuración de los componentes de Edge, debe comprobar la configuración y la conectividad de los servidores y comprobar la conectividad de cada tipo de usuario externo que admita.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Comprobar la conectividad entre servidores internos y servidores perimetrales en Lync Server 2013](lync-server-2013-verify-connectivity-between-internal-servers-and-edge-servers.md)
 
   - [Comprobar la conectividad de usuarios externos en Lync Server 2013](lync-server-2013-verify-connectivity-for-external-users.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,451 +1,517 @@
-﻿---
-title: 'Lync Server 2013: Viewing status of global settings for a forest'
+---
+title: 'Lync Server 2013: visualización del estado de la configuración global de un bosque'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View status of global settings for a forest
 ms:assetid: 2ab0f2f1-9908-4e6f-aff3-d6b3cc474b6b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn747889(v=OCS.15)
-ms:contentKeyID: 62293600
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747889(v=OCS.15)
+ms:contentKeyID: 63969590
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: e2215e0514f019e94467a204ae86e604dcc0da61
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850049"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# View status of global settings for a forest in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="view-status-of-global-settings-for-a-forest-in-lync-server-2013"></a>Ver el estado de la configuración global de un bosque en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2014-05-20_
 
-Administrators should review the global settings for a Lync Server 2013 deployment monthly. The objective would be to review implemented settings against a set of known configurations—a baseline configuration to help guarantee that settings are valid and to determine whether the baseline documentation should be updated. Changes to global setting should be implemented through a Change Control process which should include documenting the new settings.
+Los administradores deben revisar la configuración global de una implementación de Lync Server 2013 mensualmente. El objetivo sería revisar la configuración implementada con un conjunto de configuraciones conocidas, una configuración de línea base para ayudar a garantizar que la configuración sea válida y para determinar si se debe actualizar la documentación de línea base. Los cambios en la configuración global deben implementarse a través de un proceso de control de cambio que debe incluir la documentación de la nueva configuración.
 
-Global settings that should be reviewed are described in the following sections:
+La configuración global que debe revisarse se describe en las secciones siguientes:
 
-## Check general settings
+<div>
 
-Check general settings, including the supported Session Initiation Protocol (SIP) domains for Lync Server 2013.
+## <a name="check-general-settings"></a>Comprobar la configuración general
 
-SIP domain information can be returned by using Windows PowerShell and the **Get-CsSipDomain** cmdlet. To return this information, run the `Get-CsSipDomain` Windows PowerShell command.
+Compruebe la configuración general, incluidos los dominios del Protocolo de inicio de sesión (SIP) compatibles con Lync Server 2013.
 
-Get-CsSipDomain will return information similar to this for all the authorized SIP domains:
+La información del dominio SIP se puede devolver mediante Windows PowerShell y el cmdlet **Get-CsSipDomain** . Para devolver esta información, ejecute el `Get-CsSipDomain` comando de Windows PowerShell.
 
-Identity Name IsDefault
+Get-CsSipDomain devolverá información similar a esta para todos los dominios SIP autorizados:
+
+Nombre de identidad IsDefault
 
 \-------- ---- ---------
 
-fabrikam.com fabrikam.com True
+fabrikam.com fabrikam.com verdadero
 
-na.fabrikam.com na.fabrikam.com False
+na.fabrikam.com na.fabrikam.com falso
 
-If the IsDefault property is set to True, the corresponding domain is your default SIP domain. You can use the Set-CsSipDomain cmdlet to change the default SIP domain for your organization. However, you can't just delete the default SIP domain because that would leave you without a default domain. If you wanted to delete the fabrikam.com domain (as shown in the previous example), you would first have to configure na.fabrikam.com to be your default domain.
+Si la propiedad IsDefault se establece en true, el dominio correspondiente es su dominio SIP predeterminado. Puede usar el cmdlet Set-CsSipDomain para cambiar el dominio SIP predeterminado de su organización. Sin embargo, no puede eliminar simplemente el dominio SIP predeterminado porque le dejaría sin un dominio predeterminado. Si desea eliminar el dominio fabrikam.com (tal como se muestra en el ejemplo anterior), primero deberá configurar na.fabrikam.com para que sea su dominio predeterminado.
 
-## Check meeting settings
+</div>
 
-Meeting settings include meeting policy definitions and support for participation of anonymous users in meetings.
+<div>
 
-Meeting configuration settings can be retrieved by using Windows PowerShell and the **Get-CsMeetingConfiguration** cmdlet. For example, this command returns information about the global meeting configuration settings:
+## <a name="check-meeting-settings"></a>Comprobar la configuración de la reunión
 
-Get-CsMeetingConfiguration –Identity "Global"Meeting configuration settings can also be configured at the site scope. Because of that, you might want to use the following command, which returns information about all the meeting configuration settings:
+La configuración de la reunión incluye definiciones de la Directiva de reunión y soporte técnico para la participación de usuarios anónimos en reuniones.
+
+La configuración de la reunión se puede recuperar mediante Windows PowerShell y el cmdlet **Get-CsMeetingConfiguration** . Por ejemplo, este comando devuelve información acerca de la configuración global de la reunión:
+
+Las opciones de configuración de reunión "globales" de Get-CsMeetingConfiguration también se pueden configurar en el ámbito del sitio. Por eso, es posible que desee usar el siguiente comando, que devuelve información acerca de todas las opciones de configuración de la reunión:
 
 `Get-CsMeetingConfiguration`
 
-The **Get-CsMeetingConfiguration** cmdlet returns information similar to the following:
+El cmdlet **Get-CsMeetingConfiguration** devuelve información similar a la siguiente:
 
-Identity : Global
+Identidad: global
 
-PstnCallersBypassLobby : True
+PstnCallersBypassLobby: verdadero
 
-EnableAssignedConferenceType : True
+EnableAssignedConferenceType: verdadero
 
-DesignateAsPresenter : Company
+DesignateAsPresenter: compañía
 
-AssignedConferenceTypeByDefault : True
+AssignedConferenceTypeByDefault: verdadero
 
-AdmitAnonymousUsersByDefault : True
+AdmitAnonymousUsersByDefault: verdadero
 
-Again, the final item in the list, **AdmitAnonymousUsersByDefault**, enables or disables the ability of anonymous users to participate in meetings.
+De nuevo, el último elemento de la lista, **AdmitAnonymousUsersByDefault**, habilita o deshabilita la posibilidad de que los usuarios anónimos participen en reuniones.
 
-When checking meeting configuration settings, you might find it useful to compare the current settings against the default equivalents. You can view the default meeting configuration settings by running the following command:
+Al comprobar la configuración de la reunión, es posible que le resulte útil comparar la configuración actual con los equivalentes predeterminados. Para ver la configuración de la reunión predeterminada, ejecute el siguiente comando:
 
 `New-CsMeetingConfiguration -Identity "Global" -InMemory`
 
-The previous command creates an in-memory-only instance of the global meeting configuration settings, an instance that uses the default value for each property. No actual meeting configuration settings are created when you run the command. However, all the default property values will be displayed on-screen.
+El comando anterior crea una instancia en memoria únicamente de la configuración de la reunión global, una instancia que usa el valor predeterminado para cada propiedad. No se crean valores de configuración de reuniones reales al ejecutar el comando. Sin embargo, todos los valores de propiedad predeterminados se mostrarán en pantalla.
 
-## Check Edge Servers and their settings
+</div>
 
-Edge Server information can be retrieved by using Windows PowerShell. This command returns information about all the Edge Servers configured for use in your organization:
+<div>
+
+## <a name="check-edge-servers-and-their-settings"></a>Comprobar los servidores perimetrales y su configuración
+
+La información del servidor perimetral se puede recuperar mediante Windows PowerShell. Este comando devuelve información acerca de todos los servidores perimetrales configurados para su uso en su organización:
 
 `Get-CsService -EdgeServer`
 
-The returned information includes all of the FQDN and port settings for each Edge Server:
+La información devuelta incluye todo el FQDN y la configuración de puerto de cada servidor perimetral:
 
-Identity : EdgeServer: dc.fabrikam.com
+Identidad: EdgeServer: dc.fabrikam.com
 
-Registrar : Registrar: LYNC-SE.fabrikam.com
+Registrar: registrar: LYNC-SE.fabrikam.com
 
-AccessEdgeInternalSipPort : 5061
+AccessEdgeInternalSipPort: 5061
 
-AccessEdgeExternalSipPort : 5061
+AccessEdgeExternalSipPort: 5061
 
-AccessEdgeClientPort : 443
+AccessEdgeClientPort: 443
 
-DataPsomServerPort : 8057
+DataPsomServerPort: 8057
 
-DataPsomClientPort : 444
+DataPsomClientPort: 444
 
-MediaRelayAuthEdgePort : 5062
+MediaRelayAuthEdgePort: 5062
 
-MediaRelayAuthInternalTurnTcpPort : 443
+MediaRelayAuthInternalTurnTcpPort: 443
 
-MediaRelayAuthExternalTurnTcpPort : 445
+MediaRelayAuthExternalTurnTcpPort: 445
 
-MediaRelayAuthInternalTurnUdpPort : 3478
+MediaRelayAuthInternalTurnUdpPort: 3478
 
-MediaRelayAuthExternalTurnUdpPort : 3478
+MediaRelayAuthExternalTurnUdpPort: 3478
 
-MediaCommunicationPortStart : 50000
+MediaCommunicationPortStart: 50000
 
-MediaComunicationPortCount : 10000
+MediaComunicationPortCount: 10000
 
-AccessEdgeExternalFqdn : dc.fabrikam.com
+AccessEdgeExternalFqdn: dc.fabrikam.com
 
-DataEdgeExternalFqdn : dc.fabrikam.com
+DataEdgeExternalFqdn: dc.fabrikam.com
 
 AVEdgeExternalFqdn :
 
 InternalInterfaceFqdn :
 
-ExternalMrasFqdn : dc.fabrikam.com
+ExternalMrasFqdn: dc.fabrikam.com
 
-DependentServiceList : {Registrar:LYNC-SE.fabrikam.com,
+DependentServiceList: {registrar: LYNC-SE.fabrikam.com,
 
-ConferencingServer:LYNC-SE.fabrikam
+ConferencingServer: LYNC-SE. fabrikam
 
-com, MediationServer:LYNC-SE.
+com, MediationServer: LYNC-SE.
 
 fabrikam.com}
 
-ServiceId : fabrikam.com-EdgeServer-2
+ServiceId: fabrikam.com-EdgeServer-2
 
-SiteId : site:fabrikam.com
+SiteId: sitio:fabrikam. com
 
-PoolFqdn : dc.fabrikam.com
+PoolFqdn: dc.fabrikam.com
 
-Version : 5
+Versión: 5
 
-Role : EdgeServer
+Rol: EdgeServer
 
-## Check federation settings
+<div>
 
-Check Federation settings, such as whether it is configured and, if the answer is "yes,", the FQDN and port. Federation is enabled and disabled by using the global collection of Access Edge configuration settings. Among other things, these mean that federation is configured on an all-or-nothing basis: either federation is enabled for the whole organization or federation is disabled for the whole organization
+## <a name="check-federation-settings"></a>Comprobar la configuración de la Federación
 
-Your Access Edge configuration settings can be returned by using Windows PowerShell. To do that, run the following Windows PowerShell command:
+Compruebe la configuración de la Federación, como si está configurada y, si la respuesta es "sí", el FQDN y el puerto. La Federación se habilita y deshabilita mediante la recopilación global de la configuración de los límites de acceso. Entre otras cosas, esto significa que la Federación está configurada de forma todo o nada: la Federación está habilitada para toda la organización o la Federación está deshabilitada para toda la organización.
+
+La configuración de la configuración perimetral de Access se puede devolver mediante Windows PowerShell. Para ello, ejecute el siguiente comando de Windows PowerShell:
 
 `Get-CsAccessEdgeConfiguration`
 
-In turn, that command will return data similar to this:
+A su vez, ese comando devolverá datos similares a este:
 
-Identity : Global
+Identidad: global
 
-AllowAnonymousUsers : False
+AllowAnonymousUsers: falso
 
-AllowFederatedUsers : False
+AllowFederatedUsers: falso
 
-AllowOutsideUsers : False
+AllowOutsideUsers: falso
 
-BeClearingHouse : False
+BeClearingHouse: falso
 
-EnablePartnerDiscovery : False
+EnablePartnerDiscovery: falso
 
-EnableArchivingDisclaimer : False
+EnableArchivingDisclaimer: falso
 
-KeepCrlsUpToDateForPeers : True
+KeepCrlsUpToDateForPeers: verdadero
 
-MarkSourceVerifiableOnOutgoingMessages : True
+MarkSourceVerifiableOnOutgoingMessages: verdadero
 
-OutgoingTlsCountForFederatedPartners : 4
+OutgoingTlsCountForFederatedPartners: 4
 
 RoutingMethod : UseDnsSrvRouting
 
-If the **AllowFederatedUsers** property is set to True, that means that federation is enabled for your organization. (Setting **AllowFederatedUsers** to True also means that, in a split domain scenario, your on-premises users will be able to communicate seamlessly with your in-the-cloud users.)
+Si la propiedad **AllowFederatedUsers** se establece en true, significa que la Federación está habilitada para su organización. (Al establecer **AllowFederatedUsers** en true, también significa que, en un escenario de dominio dividido, los usuarios locales podrán comunicarse sin problemas con los usuarios de la nube).
 
-To retrieve the FQDN and port settings for your Edge Server, see the previous task (Edge Servers and their settings).
+Para recuperar el FQDN y la configuración del puerto de su servidor perimetral, consulte la tarea anterior (servidores perimetrales y su configuración).
 
-Enabling federation at the global scope only means that users can potentially communicate with federated users. To determine whether any individual users can actually communicate with federated users requires you to examine the external user access policy assigned to that user.
+Habilitar la Federación solo en el ámbito global significa que los usuarios pueden comunicarse potencialmente con usuarios federados. Para determinar si los usuarios individuales pueden comunicarse realmente con los usuarios federados, debe examinar la Directiva de acceso de usuarios externos asignada a ese usuario.
 
-External user access information can be returned by using Windows PowerShell. For example, this command returns information for the global external user access policy:
+La información de acceso de usuarios externos se puede devolver mediante Windows PowerShell. Por ejemplo, este comando devuelve información para la Directiva de acceso de usuario externo global:
 
 `Get-CsExternalAccessPolicy -Identity "Global"`
 
-And this command returns information for all the external user access policies:
+Y este comando devuelve información para todas las directivas de acceso de usuarios externos:
 
 `Get-CsExternalAccessPolicy`
 
-The returned information will resemble this:
+La información devuelta tendrá este aspecto:
 
-Identity : False
+Identidad: falso
 
-Description :
+Texto
 
-EnableFederationAccess : False
+EnableFederationAccess: falso
 
-EnablePublicCloudAccess : False
+EnablePublicCloudAccess: falso
 
-EnablePublicCloudAccessAudioVideoAccess : False
+EnablePublicCloudAccessAudioVideoAccess: falso
 
-EnableOutsideAccess : False
+EnableOutsideAccess: falso
 
-If **EnableFederationAccess** is set to True, then users managed by the given policy can communicate with federated users.
+Si **EnableFederationAccess** se establece en true, los usuarios administrados por la directiva determinada pueden comunicarse con los usuarios federados.
 
-## Check archiving settings
+</div>
 
-Check archiving settings for internal and federated communications.Before verifying the settings for internal and external archiving, you should verify that archiving is enabled.
+</div>
 
-Archiving configuration settings can be verified by using Windows PowerShell and the Get-CsArchivingConfiguration cmdlet:
+<div>
+
+## <a name="check-archiving-settings"></a>Comprobar la configuración de archivado
+
+Comprobar la configuración de archivado de las comunicaciones internas y federadas. Antes de comprobar la configuración de los archivados internos y externos, debe comprobar que el archivado está habilitado.
+
+Las opciones de configuración de archivado se pueden comprobar mediante Windows PowerShell y el cmdlet Get-CsArchivingConfiguration:
 
 `Get-CsArchivingConfiguration -Identity "Global"`
 
-Note that archiving settings can also be configured at the site scope. To return information about all the archiving settings, use this command:
+Tenga en cuenta que la configuración de archivado también se puede configurar en el ámbito del sitio. Para obtener información acerca de toda la configuración de archivado, use este comando:
 
 `Get-CsArchivingConfiguration`
 
-The Get-CsArchivingConfiguration cmdlet returns data similar to this:
+El cmdlet Get-CsArchivingConfiguration devuelve datos similares a estos:
 
-Identity : Global
+Identidad: global
 
-EnableArchiving : False
+EnableArchiving: falso
 
-EnablePurging : False
+EnablePurging: falso
 
-PurgeExportedArchivesOnly : False
+PurgeExportedArchivesOnly: falso
 
-BlockOnArchiveFailure : False
+BlockOnArchiveFailure: falso
 
-KeepArchivingDataForDays : 14
+KeepArchivingDataForDays: 14
 
-PurgeHourOfDay : 2
+PurgeHourOfDay: 2
 
-ArchiveDuplicateMessages : True
+ArchiveDuplicateMessages: verdadero
 
-CachePurgingInterval : 24
+CachePurgingInterval: 24
 
-If the EnableArchiving property is set to False, that means that no communication sessions will be archived. If you want to archive instant messaging sessions only, use a command such as the following to enable the archiving of IM sessions:
-
-`Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
-
-To archive conferencing sessions and instant messaging sessions, use this command:
+Si la propiedad EnableArchiving se establece en false, significa que no se archivará ninguna sesión de comunicación. Si desea archivar solo las sesiones de mensajería instantánea, use un comando como el siguiente para habilitar el archivado de sesiones de mensajería instantánea:
 
 `Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
 
-If you’d like to compare your current archiving settings with the default settings, run the following Windows PowerShell command:
+Para archivar sesiones de conferencia y sesiones de mensajería instantánea, use este comando:
+
+`Set-CsArchivingConfiguration -Identity "Global" -EnableArchiving "IMOnly"`
+
+Si quiere comparar la configuración de archivado actual con la configuración predeterminada, ejecute el siguiente comando de Windows PowerShell:
 
 `New-CsArchivingConfiguration -Identity "Global" -InMemory`
 
-That command creates an in-memory-only instance of the global archiving configuration settings. This is not a real collection of settings that is used by Lync Server. However, it does display the default values for all the archiving configuration properties.
+Ese comando crea una instancia de solo memoria de los valores de configuración de archivado global. Esta no es una colección real de opciones de configuración usadas por Lync Server. Sin embargo, muestra los valores predeterminados para todas las propiedades de configuración de archivado.
 
-You can also use this command to return the FQDN of your Archiving servers:
+También puede usar este comando para devolver el FQDN de los servidores de archivado:
 
 `Get-CsService -ArchivingServer`
 
-After you have verified that archiving is enabled, you can then view your archiving policies to determine whether internal and external communication sessions are being archived.
+Después de comprobar que el archivado está habilitado, puede ver las directivas de archivado para determinar si las sesiones de comunicación interna y externa se van a archivar.
 
-Archiving policy information can be retrieved by using the Get-CsArchivingPolicy cmdlet. For example, this command returns information about the global archiving policy:
+La información de la Directiva de archivado se puede recuperar mediante el cmdlet Get-CsArchivingPolicy. Por ejemplo, este comando devuelve información sobre la Directiva de archivado global:
 
 `Get-CsArchivingPolicy -Identity "Global"`
 
-Because archiving policies can also be configured at the site and the per-user scope, you might also want to use this command, which returns information about all the archiving policies:
+Como las directivas de archivado también se pueden configurar en el sitio y en el ámbito de cada usuario, también es posible que desee usar este comando, que devuelve información acerca de todas las directivas de archivado:
 
 `Get-CsArchivingPolicy`
 
-The information that you receive from Get-CsArchivingPolicy will resemble this:
+La información que recibe de Get-CsArchivingPolicy se parecerá a esta:
 
-Identity : Global
+Identidad: global
 
-Description :
+Texto
 
-ArchiveInternal : False
+ArchiveInternal: falso
 
-ArchiveExternal : False
+ArchiveExternal: falso
 
-Note that, by default, both internal and external archiving are disabled in an archiving policy.
+Tenga en cuenta que, de forma predeterminada, el archivado interno y externo están deshabilitados en una directiva de archivado.
 
-## Check CDR settings
+</div>
 
-Check Call Detail Record (CDR) settings for peer-to-peer, conferencing, and Voice call detail recording. Detailed information about your CDR settings can be returned by using the **Get-CsCdrConfiguration** cmdlet. For example, this command returns information about the global collection of CDR configuration settings:
+<div>
+
+## <a name="check-cdr-settings"></a>Comprobar la configuración de CDR
+
+Comprobar la configuración de registro de detalles de llamadas (CDR) para la grabación de detalles de llamadas de punto a punto, Conferencia y Conferencia. Para obtener información detallada sobre la configuración de CDR, puede usar el cmdlet **Get-CsCdrConfiguration** . Por ejemplo, este comando devuelve información acerca de la colección global de opciones de configuración de CDR:
 
 `Get-CsCdrConfiguration -Identity "Global"`
 
-Because CDR can also be configured at the site scope, you might also want to run this command, which returns information about all the CDR configuration settings:
+Como CDR también se puede configurar en el ámbito del sitio, es posible que también desee ejecutar este comando, que devuelve información acerca de todas las opciones de configuración de CDR:
 
 `Get-CsCdrConfiguration`
 
-The Get-CsCdrConfiguration cmdlet returns information similar to this for each collection of CDR configuration settings:
+El cmdlet Get-CsCdrConfiguration devuelve información similar a la siguiente para cada colección de opciones de configuración de CDR:
 
-Identity : Global
+Identidad: global
 
-EnableCDR : True
+EnableCDR: verdadero
 
-EnablePurging : True
+EnablePurging: verdadero
 
-KeepCallDetailForDays : 60
+KeepCallDetailForDays: 60
 
-KeepErrorReportForDays : 60
+KeepErrorReportForDays: 60
 
-PurgeHourOfDay : 2
+PurgeHourOfDay: 2
 
-Similar information can be returned for QoE monitoring by using the Get-CsQoEConfiguration cmdlet. For example, this command returns information about the global collection of QoE configuration settings:
+Se puede devolver información similar para la supervisión de QoE mediante el cmdlet Get-CsQoEConfiguration. Por ejemplo, este comando devuelve información acerca de la colección global de parámetros de configuración de QoE:
 
 `Get-QoEConfiguration -Identity "Global"`
 
-That information will resemble this:
+Esta información se parecerá a la siguiente:
 
-Identity : Global
+Identidad: global
 
 ExternalConsumerIssuedCertId :
 
-EnablePurging : True
+EnablePurging: verdadero
 
-KeepQoEDataForDays : 60
+KeepQoEDataForDays: 60
 
-PurgeHourOfDay : 1
+PurgeHourOfDay: 1
 
-EnableExternalConsumer : False
+EnableExternalConsumer: falso
 
 ExternalConsumerName :
 
 ExternalConsumerURL :
 
-EnableQoE : True
+EnableQoE: verdadero
 
-If you want to compare your current CDR settings with the default CDR settings, the default values can be reviewed by running this command:
+Si desea comparar la configuración actual de CDR con la configuración de CDR predeterminada, puede revisar los valores predeterminados ejecutando este comando:
 
 `New-CsCdrConfiguration -Identity "Global" -InMemory`
 
-Likewise, the default values for QoE monitoring can be retrieved by using this command:
+Del mismo modo, los valores predeterminados para la supervisión de QoE se pueden recuperar con este comando:
 
 `New-CsQoEConfiguration -Identity "Global" -InMemory`
 
-You can also return the FQDN of your Monitoring servers by running this command:
+También puede devolver el FQDN de los servidores de supervisión ejecutando este comando:
 
 `Get-CsService -MonitoringServer`
 
-## Check voice settings
+</div>
 
-The voice settings typically important to administrators are contained in voice policies and voice routes: voice policies contain the settings that determine the capabilities exposed to individual users (such as the ability to forward or transfer calls), while voice routes determine how (and if) calls are routed across the PSTN.
+<div>
 
-Voice policy information can be retrieved by using Windows PowerShell. For example, this command returns information about the global voice policy:
+## <a name="check-voice-settings"></a>Comprobar la configuración de voz
+
+La configuración de voz generalmente importante para los administradores se encuentra en directivas de voz y rutas de voz: las directivas de voz contienen la configuración que determina las capacidades que se exponen a los usuarios individuales (como la capacidad de desviar o transferir llamadas), mientras las rutas de voz determinan cómo (y si) las llamadas se enrutan a través de la RTC.
+
+La información de la Directiva de voz se puede recuperar mediante Windows PowerShell. Por ejemplo, este comando devuelve información sobre la Directiva de voz global:
 
 `Get-CsVoicePolicy -Identity "Global"`
 
-And this command returns information about all the voice policies configured for use in the organization:
+Y este comando devuelve información acerca de todas las directivas de voz configuradas para su uso en la organización:
 
 `Get-CsVoicePolicy`
 
-The information returned by the Get-CsVoicePolicy cmdlet resembles the following:
+La información devuelta por el cmdlet Get-CsVoicePolicy se asemeja a lo siguiente:
 
-Identity : Global
+Identidad: global
 
-PstnUsages : {}
+PstnUsages :{}
 
-Description :
+Texto
 
-AllowSimulRing : True
+AllowSimulRing: verdadero
 
-AllowCallForwarding : True
+AllowCallForwarding: verdadero
 
-AllowPSTNReRouting : True
+AllowPSTNReRouting: verdadero
 
-Name : DefaultPolicy
+Nombre: DefaultPolicy
 
-EnableDelegation : True
+EnableDelegation: verdadero
 
-EnableTeamCall : True
+EnableTeamCall: verdadero
 
-EnableCallTransfer : True
+EnableCallTransfer: verdadero
 
-EnableCallPark : False
+EnableCallPark: falso
 
-EnableMaliciousCallTracing : False
+EnableMaliciousCallTracing: falso
 
-EnableBWPolicyOverride : False
+EnableBWPolicyOverride: falso
 
-PreventPSTNTollBypass : False
+PreventPSTNTollBypass: falso
 
-You can also create queries that returned a subset of your voice policies. For example, this command returns all the voice policies that allow call forwarding:
+También puede crear consultas que devuelvan un subconjunto de las directivas de voz. Por ejemplo, este comando devuelve todas las directivas de voz que permiten el desvío de llamadas:
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $True}`
 
-And this command returns all the voice policies that don’t allow call forwarding:
+Y este comando devuelve todas las directivas de voz que no permiten el desvío de llamadas:
 
 `Get-CsVoicePolicy | Where-Object {$_.AllowCallForwarding -eq $False}`
 
-In Windows PowerShell, use the Get-CsVoiceRouting cmdlet to return information about your voice routes:
+En Windows PowerShell, use el cmdlet Get-CsVoiceRouting para obtener información sobre las rutas de voz:
 
 `Get-CsVoiceRoute`
 
-That command returns information such as this for all the voice routes:
+Ese comando devuelve información como esta para todas las rutas de voz:
 
-Identity : LocalRoute
+Identidad: LocalRoute
 
-Priority : 0
+Prioridad: 0
 
-Description :
+Texto
 
-NumberPattern : ^(\\+1\[0-9\]{10})$
+NumberPattern: ^ (\\+ 1\[0-9\]{10}) $
 
-PstnUsages : {}
+PstnUsages :{}
 
-PstnGatewayList : {}
+PstnGatewayList :{}
 
-Name : LocalRoute
+Nombre: LocalRoute
 
 SuppressCallerId :
 
 AlternateCallerId :
 
-Lync Server allows you to create voice routes that do not have a PSTN usage and do not specify a PSTN gateway. However, you can't actually route calls over a voice route that does not have these two property values configured. Because of that, you might find it useful to periodically run this command, which returns the identity of any voice route that does not have a PSTN usage:
+Lync Server le permite crear rutas de voz que no tienen uso de RTC y no especifican una puerta de enlace RTC. Sin embargo, no puede enrutar llamadas a través de una ruta de voz que no tenga estos dos valores de propiedad configurados. Por eso, es posible que le resulte útil ejecutar periódicamente este comando, que devuelve la identidad de cualquier ruta de voz que no tenga uso de RTC:
 
 `Get-CsVoiceRoute | Where-Object {$_.PstnUsages -eq $Null} | Select-Object Identity`
 
-Similarly, this command returns the identity of any voice route that has not been configured to have a PSTN gateway:
+De forma similar, este comando devuelve la identidad de cualquier ruta de voz que no se haya configurado para tener una puerta de enlace RTC:
 
 `Get-CsVoiceRoute | Where-Object {$_.PstnGatewayList -eq $Null}} | Select-Object Identity`
 
-## Check Conferencing Attendant settings
+</div>
 
-Check conferencing Attendant settings for PSTN dial-in conferencing. Conferencing Attendant settings can only be retrieved by using the **Get-CsDialInConferencingConfiguration** cmdlet. These settings are not available in the Panel de control de Lync Server. To view your Conferencing Attendant settings, use a Windows PowerShell command similar to the following, which returns the global collection of Conferencing Attendant settings:
+<div>
+
+## <a name="check-conferencing-attendant-settings"></a>Comprobar la configuración del operador de conferencias
+
+Comprobar la configuración del operador de conferencias para conferencias de acceso telefónico local RTC. La configuración del operador de conferencia solo se puede recuperar usando el cmdlet **Get-CsDialInConferencingConfiguration** . Esta configuración no está disponible en el panel de control de Lync Server. Para ver la configuración del operador de conferencias, use un comando de Windows PowerShell similar al siguiente, que devuelve la colección global de configuración del operador de Conferencia:
 
 `Get-CsDialInConferencingConfiguration -Identity "Global"`
 
-Note that Conferencing Attendant settings can also be configured at the site scope. To return information about all the Conferencing Attendant settings, use this command instead:
+Tenga en cuenta que la configuración del operador de conferencia también se puede configurar en el ámbito del sitio. Para obtener información acerca de todas las opciones de configuración del operador de conferencia, use este comando:
 
 `Get-CsDialInConferencingConfiguration`
 
-The Get-CsDialInConferencingConfiguration cmdlet returns data similar to this:
+El cmdlet Get-CsDialInConferencingConfiguration devuelve datos similares a estos:
 
-Identity : Global
+Identidad: global
 
 EntryExitAnnouncementsType : UseNames
 
-EnableNameRecording : True
+EnableNameRecording: verdadero
 
-EntryExitAnnouncementsEnabledByDefault : False
+EntryExitAnnouncementsEnabledByDefault: falso
 
-If EntryExitAnnouncementsEnabledByDefault is set to False, that means the conferencing announcements are disabled. To enable entry and exit announcements, run a Windows PowerShell command similar to this:
+Si EntryExitAnnouncementsEnabledByDefault se establece en false, significa que los anuncios de conferencia están deshabilitados. Para habilitar los anuncios de entrada y salida, ejecute un comando de Windows PowerShell similar a este:
 
 `Set-CsDialInConferencingConfiguration -Identity "Global" -EntryExitAnnouncementsEnabledByDefault $True`
 
-## Vea también
+</div>
 
-#### Otros recursos
+<div>
 
-[Get-CsSipDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsSipDomain)  
-[Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration)  
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)  
-[Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAccessEdgeConfiguration)  
-[Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
-[Get-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsArchivingConfiguration)  
-[Get-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsCdrConfiguration)  
-[Get-CsQoEConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsQoEConfiguration)  
-[Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)  
-[Get-CsVoiceRoute](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoiceRoute)  
-[Get-CsDialInConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialInConferencingConfiguration)
+## <a name="see-also"></a>Vea también
+
+
+[Get-CsSipDomain](https://docs.microsoft.com/powershell/module/skype/Get-CsSipDomain)  
+[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsMeetingConfiguration)  
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+[Get-CsAccessEdgeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsAccessEdgeConfiguration)  
+[Get-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsExternalAccessPolicy)  
+[Get-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsArchivingConfiguration)  
+[Get-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsCdrConfiguration)  
+[Get-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsQoEConfiguration)  
+[Get-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsVoicePolicy)  
+[Get-CsVoiceRoute](https://docs.microsoft.com/powershell/module/skype/Get-CsVoiceRoute)  
+[Get-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDialInConferencingConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

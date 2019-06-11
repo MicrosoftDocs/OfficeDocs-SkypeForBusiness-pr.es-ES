@@ -1,21 +1,51 @@
-﻿---
-title: "Usar servidores de chat persistente estirado para la recuperación ante desastres"
-TOCTitle: Usar un grupo de servidores de chat persistente estirado para la recuperación ante desastres
-ms:assetid: 74c5287e-d70d-490a-9adc-ab419917ddd9
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205007(v=OCS.15)
-ms:contentKeyID: 48275701
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Usar un grupo de servidores de chat persistente estirado para la recuperación ante desastres
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using a stretched Persistent Chat Server pool for disaster recovery
+ms:assetid: 74c5287e-d70d-490a-9adc-ab419917ddd9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205007(v=OCS.15)
+ms:contentKeyID: 48184506
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cced4904619fdbda87fecb29f35f11b40270c0ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850230"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usar un grupo de servidores de chat persistente estirado para la recuperación ante desastres en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="using-a-stretched-persistent-chat-server-pool-for-disaster-recovery-in-lync-server-2013"></a>Usar un grupo de servidores de chat persistente estirado para la recuperación ante desastres en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-06_
 
-La solución de recuperación ante desastres para el Servidor de chat persistente está construida en un Grupo de servidores de chat persistente extendido. Esto es similar a la resistencia de sitios metropolitanos en Lync Server 2010; sin embargo, no hay ningún requisito para una red de área local virtual (VLAN) extendida. Al extender el Grupo de servidores de chat persistente, esencialmente configura un grupo de la topología lógicamente, pero coloca físicamente los servidores en el grupo en dos centros de datos diferentes. Configure la creación de reflejo de SQL Server para la base de datos de la misma forma e implemente la base de datos y el reflejo en el mismo centro de datos. Es necesario que configure una base de datos de copia de seguridad en el centro de datos secundario (con un reflejo opcional para proporcionar alta disponibilidad durante la recuperación ante desastres). Se trata de la base de datos de copia de seguridad usada para la conmutación por error durante la recuperación ante desastres.
+La solución de recuperación ante desastres para el servidor de chat persistente se crea en un grupo de servidores de chat persistente ampliado. Esto es similar a la resistencia de sitios metropolitana en Lync Server 2010; sin embargo, no hay ningún requisito para una red de área local virtual extendida (VLAN). Al estirar el grupo de servidores de chat persistente, se configura esencialmente un grupo en la topología de forma lógica, pero los servidores del grupo se colocan físicamente en dos centros de datos diferentes. Configure la creación de reflejos de SQL Server para la base de datos de la misma manera e implemente la base de datos y el reflejo en el mismo centro de datos. Tiene que configurar una base de datos de copia de seguridad en el centro de datos secundario (con un reflejo opcional para proporcionar alta disponibilidad durante la recuperación ante desastres). Esta es la base de datos de copia de seguridad que se usa para la conmutación por error durante la recuperación ante desastres.
 
-Si desea conocer los pasos necesarios para configurar la creación de reflejo de SQL Server para alta disponibilidad, vea [Crear un reflejo de SQL Server en Lync Server 2013](lync-server-2013-sql-server-mirroring.md). Para más información sobre la conmutación por error de la base de datos para la recuperación ante desastres, vea [Configurar registro de transacciones de SQL Server para base de datos principal del servidor de chat persistente en Lync Server 2013](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md) y [Configuración del envío de registro de SQL Server entre el reflejo principal y la base de datos secundaria de envío de registro en Lync Server 2013](lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md).
+Para obtener más información sobre cómo configurar el reflejo de SQL Server para una alta disponibilidad, consulte [reflejos de SQL Server en Lync server 2013](lync-server-2013-sql-server-mirroring.md). Para obtener detalles sobre el failover de la base de datos para recuperación ante desastres, consulte [configurar el trasvase de registros de SQL Server en Lync server 2013 para la base de datos principal del servidor de chat](lync-server-2013-setting-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database.md) y [configurar el trasvase de registros de SQL Server entre el reflejo principal y el registro Base de datos secundaria de envío en Lync Server 2013](lync-server-2013-setting-up-sql-server-log-shipping-between-the-primary-mirror-and-the-log-shipping-secondary-database.md).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

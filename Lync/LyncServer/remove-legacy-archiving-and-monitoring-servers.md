@@ -1,23 +1,53 @@
-﻿---
-title: Quitar servidores de archivado y de supervisión heredados
-TOCTitle: Quitar servidores de archivado y de supervisión heredados
-ms:assetid: befa586b-615c-496e-996e-395a6e36a826
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205221(v=OCS.15)
-ms:contentKeyID: 48276536
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Quitar los servidores de archivado y supervisión heredados
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove legacy Archiving and Monitoring servers
+ms:assetid: befa586b-615c-496e-996e-395a6e36a826
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205221(v=OCS.15)
+ms:contentKeyID: 48185278
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 31f9d3419d9fc46cc4b547c645fa9f938f4a2a23
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849862"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Quitar servidores de archivado y de supervisión heredados
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="remove-legacy-archiving-and-monitoring-servers"></a>Quitar los servidores de archivado y supervisión heredados
 
-Si su implementación heredada contenía un servidor de archivado o de supervisión, tras migrar a Lync Server 2013 dichos servidores pueden quitarse del entorno heredado siempre que se hayan quitado todos los usuarios de los grupos de servidores que queden. Puede quitar el servidor de archivado o de supervisión en cualquier secuencia. El requisito clave es quitar a todos los usuarios de todos los grupos de servidores heredados restantes.
+</div>
 
-Puede mover a usuarios de Lync Server 2010 a Lync Server 2013 siguiendo los procedimientos que se describen en [Fase 4: Mover usuarios de prueba al grupo piloto](phase-4-move-test-users-to-the-pilot-pool.md).
+<div id="mainSection">
 
-Tras confirmar que todos los usuarios se han quitado de los grupos que quedan, siga el procedimiento descrito en la página sobre la desinstalación de Microsoft Lync Server 2010 y la eliminación de roles del servidor [http://go.microsoft.com/fwlink/?linkid=246227\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=246227%26clcid=0xc0a).
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-19_
+
+Si la implementación heredada contenía un servidor de archivado o un servidor de supervisión, después de migrar a Lync Server 2013, esos servidores se pueden quitar del entorno heredado siempre que todos los usuarios hayan sido eliminados de cualquier grupo heredado. Puede quitar el servidor de archivado o el servidor de supervisión en cualquier secuencia. El requisito clave es que se han quitado todos los usuarios de cualquier grupo heredado.
+
+Puede mover usuarios de Lync Server 2010 a Lync Server 2013 siguiendo los procedimientos descritos en la [fase 4: mover usuarios de prueba a la agrupación piloto](phase-4-move-test-users-to-the-pilot-pool.md).
+
+Una vez que haya confirmado que todos los usuarios se han quitado del grupo restante, siga el procedimiento de "desinstalar Microsoft Lync Server 2010 y quitar roles de servidor", que se puede [http://go.microsoft.com/fwlink/p/?linkId=246227](http://go.microsoft.com/fwlink/p/?linkid=246227)descargar en.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

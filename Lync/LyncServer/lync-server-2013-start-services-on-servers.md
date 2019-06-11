@@ -1,33 +1,72 @@
-﻿---
-title: 'Lync Server 2013: Iniciar servicios en servidores'
-TOCTitle: Iniciar servicios en servidores
-ms:assetid: fa26eaed-0529-4f32-9f3f-f32c4bd4b1c8
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413059(v=OCS.15)
-ms:contentKeyID: 48277224
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Iniciar servicios en servidores'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Start services on servers
+ms:assetid: fa26eaed-0529-4f32-9f3f-f32c4bd4b1c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413059(v=OCS.15)
+ms:contentKeyID: 48185912
+ms.date: 09/03/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c0c0c14aea9966e61703e85dd2aff8a2e448d5eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850566"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Iniciar servicios en servidores para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="start-services-on-servers-for-lync-server-2013"></a>Iniciar servicios en servidores para Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2014-09-03_
 
-Para completar correctamente este procedimiento, debe haber iniciado sesión como un usuario miembro del grupo RTCUniversalServerAdmins o tener los permisos correctos delegados. Para obtener más información sobre la delegación de permisos, consulte el tema [Delegar permisos de instalación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+Para completar correctamente este procedimiento, debe haber iniciado sesión como un usuario que sea miembro del grupo RTCUniversalServerAdmins o tener los permisos configurados correctamente. Para obtener más información sobre la delegación de permisos, vea el tema [permisos de configuración de delegación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-Después de instalar el almacén de configuración local en los servidores, instalar los componentes de Lync Server 2013 y configurar certificados en un Servidor front-endServidor front-end, debe iniciar los servicios de Lync Server 2013 en el servidor. Siga el procedimiento descrito a continuación para iniciar los servicios en cada Servidor front-end de la implementación.
+Después de instalar el almacén de configuración local en los servidores, instalar los componentes de Lync Server 2013 y configurar certificados en un servidor front-end o un servidor front-end, debe iniciar los servicios de Lync Server 2013 en el servidor. Use el siguiente procedimiento para iniciar servicios en cada servidor front-end de su implementación.
 
-## Para iniciar servicios en un servidor Standard Edition o front-end
+<div>
 
-1.  En Asistente para la implementación de Lync Server, en la página **Lync Server 2013**, haga clic en **Ejecutar**, junto a **Paso 4: Iniciar servicios**.
+## <a name="to-start-services-on-a-standard-edition-or-front-end-server"></a>Para iniciar servicios en un servidor Standard Edition o front-end
 
-2.  En la página **Iniciar servicios**, haga clic en **Siguiente** para iniciar los servicios de Lync Server en el servidor.
+1.  En el Asistente para la implementación de Lync Server, en la página de **Lync server 2013** , haga clic en **Ejecutar** junto al **paso 4: iniciar servicios**.
+
+2.  En la página **iniciar servicios** , haga clic en **siguiente** para iniciar los servicios de Lync Server en el servidor.
 
 3.  En la página **Ejecución de comandos**, una vez que todos los servicios se hayan iniciado correctamente, haga clic en **Finalizar**.
     
-    > [!IMPORTANT]  
-    > El comando para iniciar los servicios en el servidor es un método de &quot;mejor esfuerzo&quot; para informar de que los servicios ya se han iniciado. Es posible que no refleje el estado actual del servicio. Se recomienda llevar a cabo el paso <strong>Estado del servicio (opcional)</strong> justo después de <strong>Iniciar servicios</strong> para abrir Microsoft Management Console (MMC) y comprobar si los servicios se han iniciado correctamente. Si algún servicio de Lync Server no se ha iniciado, haga clic con el botón secundario en el servicio en cuestión en MMC y haga clic en <strong>Iniciar</strong>.
+    <div>
     
+
+    > [!IMPORTANT]  
+    > El comando para iniciar los servicios en el servidor es el mejor método para notificar que los servicios se han iniciado. Es posible que no refleje el estado actual del servicio. Le recomendamos que use el estado de servicio de Step <STRONG>(opcional)</STRONG> inmediatamente después de <STRONG>iniciar los servicios</STRONG> para abrir Microsoft Management Console (MMC) y confirmar que los servicios se han iniciado correctamente. Si algún servicio de Lync Server no se ha iniciado, puede hacer clic con el botón secundario en el servicio en la MMC y, a continuación, hacer clic en <STRONG>iniciar</STRONG>.
+
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

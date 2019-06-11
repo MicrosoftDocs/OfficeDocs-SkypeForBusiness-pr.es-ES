@@ -1,31 +1,65 @@
-﻿---
-title: Comprobar la federación y el acceso remoto para usuarios externos
-TOCTitle: Comprobar la federación y el acceso remoto para usuarios externos
-ms:assetid: a383fefb-c428-4462-93fd-15ba540fa867
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688163(v=OCS.15)
-ms:contentKeyID: 49889520
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Comprobar la federación y el acceso remoto de usuarios externos
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify federation and remote access for external users
+ms:assetid: a383fefb-c428-4462-93fd-15ba540fa867
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688163(v=OCS.15)
+ms:contentKeyID: 49733768
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 33eb8fddaef96da047a6e87f1961b2fbea73c29d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849834"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Comprobar la federación y el acceso remoto para usuarios externos
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="verify-federation-and-remote-access-for-external-users"></a>Comprobar la federación y el acceso remoto de usuarios externos
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-18_
 
-Después de trasladar la ruta de federación al Servidor perimetral de Lync Server 2013, es necesario realizar algunas pruebas funcionales para confirmar que la federación funciona según lo previsto. Las comprobaciones de acceso de usuarios externos deben abarcar todos los tipos de usuario externo que la organización admita, incluido todos o cualquiera de los indicados a continuación.
+Después de la transición de la ruta de Federación al servidor perimetral de Lync Server 2013, debe realizar algunas pruebas funcionales para comprobar que la Federación se ejecuta según lo esperado. Las pruebas de acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos algunos de los siguientes elementos o todos ellos.
 
-## Probar la conectividad de los usuarios externos y el acceso externo
+<div>
 
-  - Usuarios de al menos un dominio federado, un usuario interno de Lync Server 2013 y un usuario de Lync Server 2010. Compruebe la mensajería instantánea (MI), la presencia, el audio/vídeo (A/V) y el uso compartido de escritorio.
+## <a name="test-connectivity-of-external-users-and-external-access"></a>Probar la conectividad de usuarios externos y acceso externo
 
-  - Usuarios de cada proveedor de servicios de mensajería instantánea públicos que la organización admita (y para los que se haya completado el aprovisionamiento) que se comuniquen con un usuario de Lync Server 2013 y un usuario de Lync Server 2010.
+  - Usuarios de al menos un dominio federado, un usuario interno de Lync Server 2013 y un usuario en Lync Server 2010. Prueba la mensajería instantánea (mi), la presencia, el audio/vídeo (A/V) y el uso compartido del escritorio.
 
-  - Compruebe que los usuarios anónimos se pueden unir a las conferencias.
+  - Usuarios de cada proveedor de servicios de mensajería instantánea pública que admita su organización (y para el que se haya completado el aprovisionamiento) comunicándose con un usuario en Lync Server 2013 y un usuario en Lync Server 2010.
 
-  - Un usuario hospedado en Lync Server 2010 que usa el acceso de usuarios remotos (inicia sesión en Lync Server 2010 desde fuera de la intranet, pero sin una VPN) con un usuario de Lync Server 2013 y un usuario de Lync Server 2010. Pruebe las características de mensajería instantánea, presencia, A/V y uso compartido de escritorio.
+  - Comprobar que los usuarios anónimos pueden unirse a conferencias.
 
-  - Un usuario hospedado en Lync Server 2013 que usa el acceso de usuarios remotos (inicia sesión en Lync Server 2013 desde fuera de la intranet, pero sin una VPN) con un usuario de Lync Server 2013 y un usuario de Lync Server 2010. Pruebe las características de mensajería instantánea, presencia, A/V y uso compartido de escritorio.
+  - Un usuario hospedado en Lync Server 2010 con acceso de usuario remoto (iniciar sesión en Lync Server 2010 desde fuera de la intranet pero sin conexión VPN) con un usuario en Lync Server 2013 y un usuario en Lync Server 2010. Prueba la mensajería instantánea, la presencia, la A/V y el uso compartido del escritorio.
+
+  - Un usuario hospedado en Lync Server 2013 con acceso de usuario remoto (iniciar sesión en Lync Server 2013 desde fuera de la intranet pero sin conexión VPN) con un usuario en Lync Server 2013 y un usuario en Lync Server 2010. Prueba la mensajería instantánea, la presencia, la A/V y el uso compartido del escritorio.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,116 +1,180 @@
-﻿---
-title: Proceso de migración - Detalles
-TOCTitle: Proceso de migración - Detalles
-ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205264(v=OCS.15)
-ms:contentKeyID: 48276665
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Proceso de migración - Detalles
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migration process - details
+ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205264(v=OCS.15)
+ms:contentKeyID: 48185412
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 39560d69842c104c7db956418dabac9aa6d29d7c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849952"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Proceso de migración - Detalles
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="migration-process---details"></a>Proceso de migración - Detalles
 
-Use los siguientes requisitos previos y pasos detallados para migrar Lync Server 2010, chat en grupo o Chat en grupo de Office Communications Server 2007 R2 a Servidor de chat persistente de Lync Server 2013.
+</div>
 
-## Requisitos previos de migración
+<div id="mainSection">
 
-Compruebe que cumple los siguientes requisitos previos antes de migrar Lync Server 2010, chat en grupo o Chat en grupo de Office Communications Server 2007 R2 a Servidor de chat persistente de Lync Server 2013.
+<div id="mainBody">
 
-1.  Implemente al menos un grupo de Lync Server 2013. Si tiene varios grupos de Lync Server 2013, decida qué grupo de Lync Server 2013 hospedará el nuevo Grupo de servidores de chat persistente de Lync Server 2013.
+<span> </span>
 
-2.  Instale Grupo de servidores de chat persistente de Lync Server 2013. Estará vacío (sin categorías, salones ni complementos). Antes de migrar a las categorías, salones o complementos heredados puede crear salones, categorías o complementos en la implementación de Servidor de chat persistente de Lync Server 2013.
+_**Última modificación del tema:** 2012-10-19_
+
+Use los siguientes requisitos previos y pasos detallados para migrar Lync Server 2010, chat grupal o chat grupal de Office Communications Server 2007 R2 a Lync Server 2013, servidor de chat persistente.
+
+<div>
+
+## <a name="prerequisites-for-migration"></a>Requisitos previos para la migración
+
+Asegúrese de que ha cumplido los siguientes requisitos previos antes de migrar Lync Server 2010, chat grupal o chat grupal de Office Communications Server 2007 R2 a Lync Server 2013, servidor de chat persistente.
+
+1.  Implemente un mínimo de un grupo de 2013 de Lync Server. Si tiene varios grupos de servidores de Lync Server 2013, decida qué grupo de servidores de Lync Server 2013 será el grupo principal para el nuevo grupo de servidores de chat persistente de Lync Server 2013.
+
+2.  Instale Lync Server 2013, grupo de servidores de chat persistente. Estará vacío (no hay categorías, salones ni complementos). Antes de migrar las categorías, salas o complementos heredados, puede crear salas, categorías o complementos en su Lync Server 2013, implementación persistente del servidor de chat.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Tenga presente que estos nuevos elementos pueden entrar en conflicto con los elementos heredados que migre. Evite los conflictos de nombres, de lo contrario se sobrescribirán cuando se migren los datos heredados.
+    > Tenga en cuenta que estos elementos recién creados pueden entrar en conflicto con los elementos heredados que migra. Evitar conflictos de nombres; de lo contrario, se sobrescribirán cuando se migren los datos heredados.
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="preparing-the-source-data-for-migration"></a>Preparar los datos de origen para la migración
+
+Realice los siguientes pasos para preparar correctamente los datos de origen para la migración.
+
+1.  Haga una copia de seguridad de las bases de datos de origen para Lync Server 2010, chat grupal u Office Communications Server 2007 R2 chat grupal. Para obtener detalles sobre cómo realizar copias de seguridad de SQL Server, consulte "Introducción a la <http://go.microsoft.com/fwlink/p/?linkid=254851>copia de seguridad (SQL Server)" en.
+    
+    <div>
     
 
-
-## Preparar los datos de origen para la migración
-
-Haga lo siguiente para preparar correctamente los datos de origen para la migración.
-
-1.  Haga una copia de seguridad de las bases de datos de origen para Lync Server 2010, chat en grupo o Chat en grupo de Office Communications Server 2007 R2. Para más información sobre las copias de seguridad de SQL Server, consulte "Información general de copia de seguridad (SQL Server)" en [http://go.microsoft.com/fwlink/?linkid=254851\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=254851%26clcid=0xc0a).
-    
     > [!IMPORTANT]  
-    > Servicios de dominio de Active Directory debe ser el mismo. Una condición de la migración es que no se puede migrar un grupo a una implementación diferente (concretamente, a un bosque de Active Directory diferente).
+    > Los servicios de dominio de Active Directory deben ser iguales. Como condición para la migración, no se puede migrar a un grupo en una implementación diferente (en concreto, en un bosque de Active Directory diferente).
+
+    
+    </div>
+
+2.  Inspeccione su Lync Server 2010, chat grupal u Office Communications Server 2007 R2 chats grupales chat y configuración de categoría. Los cambios en las categorías, salas o complementos de la implementación heredada existente serán realizados por la herramienta de administración de chats grupales.
+    
+    <div>
     
 
-
-2.  Examine la configuración de los salones de chat y las categorías de Lync Server 2010, chat en grupo o Chat en grupo de Office Communications Server 2007 R2. Herramienta de administración de chat en grupo realizará los cambios en las categorías, salones o complementos de la implementación heredada actual.
-    
     > [!TIP]  
-    > Los cambios en las categorías, salones o complementos de la implementación de Servidor de chat persistente de Lync Server 2013 se realizan desde Panel de control de Lync Server o a través de los cmdlets de Windows PowerShell.
+    > Cualquier cambio en las categorías, salas o complementos de su Lync Server 2013, el panel de control de Lync Server o los cmdlets de Windows PowerShell realizan la implementación del servidor de chat persistente.
+
     
+    </div>
     
     Siga estos pasos para preparar el sistema heredado para la migración.
     
-    1.  Servidor de chat persistente admite categorías de un solo nivel, en lugar de un conjunto jerárquico profundo de categorías. Tras la migración, se agrega a las subcategorías el prefijo con los nombres completos de categoría principal. Puede simplificar la estructura de categorías actual conforme a sus necesidades.
+    1.  El servidor de chat persistente admite un único nivel de categorías, a diferencia de un conjunto jerárquico de categorías. Después de la migración, las subcategorías van precedidas de nombres de categorías primarias completas. Es posible que desee simplificar y acoplar la estructura de categorías existente para que la estructura resultante cumpla sus requisitos.
     
-    2.  Compruebe los **administradores** de la categoría raíz. Si existe algún administrador en este nivel, estos usuarios se agregarán como **administradores para todos los salones** tras la migración. Si su organización no requiere esto, tiene que eliminar estos administradores de la categoría raíz.
+    2.  Verifica los **administradores** en la categoría raíz. Si hay algún administrador en este nivel, estos usuarios se agregarán como **administradores a todas las salas después de** la migración. Si esto no es un requisito para su organización, debe quitar estos administradores de la categoría raíz.
     
-    3.  Compruebe la longitud de los nombres de los salones. Tras la migración, debido a que se han simplificado las estructuras de las categorías, si hay salones por debajo de una categoría secundaria, se les agregarán como prefijos los nombres completos de las categorías principales. El límite de los nombres es de 256 caracteres, incluidos los nombres de las categorías principales. Debe comprobar la longitud de los nombres de los salones y posiblemente abreviarlos, si son demasiado largos.
+    3.  Verifique la longitud de los nombres de las salas. Después de la migración, debido a las estructuras de categoría simplificadas, si los salones existen en una categoría secundaria, están prefijados con nombres completos de categorías primarias. El límite de nombres es de 256 caracteres, incluidos los nombres de categorías principales. Debe verificar la longitud de los nombres de las salas y, posiblemente, acortar la longitud si son demasiado largas.
     
-    4.  En Lync Server 2013, si la configuración de la categoría **invitaciones** es true, puede elegir true o false para las invitaciones a los salones de dicha categoría. No obstante, si se configuran las invitaciones con el valor false, los salones de esta categoría tienen las invitaciones desactivadas. Antes de la migración, debe restablecer la configuración de las invitaciones en la versión heredada de Servidor de chat en grupo de Lync Server si desea que existan salones en una categoría determinada. Si no lo hace, durante la migración, Lync Server 2013 muestra advertencias y configura los salones con el valor predeterminado de false.
+    4.  En Lync Server 2013, si la configuración **** de invitaciones de categoría se establece en verdadero, puede elegir verdadero o falso para las invitaciones a salas de esta categoría. Sin embargo, si la configuración de invitaciones de categorías está establecida en falso, las salas de esta categoría tienen desactivadas las invitaciones. Antes de la migración, debe restablecer la configuración de la invitación en la versión del servidor de chat del grupo de Lync Server heredado, si quiere que los salones existan en una categoría específica. De lo contrario, durante la migración, Lync Server 2013 muestra advertencias y establece salas en el valor predeterminado de falso.
     
-    5.  Si ha usado archivos en los salones de chat, debe copiar manualmente con XCOPY los archivos en el nuevo almacén de archivos de Chat persistente tras la migración. Las herramientas no lo hacen.
+    5.  Si ha usado archivos en salones de chat, debe XCOPY manualmente en el nuevo almacén de archivos de chat persistente después de la migración. Las herramientas no hacen esto.
     
-    6.  Si tenía usuarios federados y salones con usuarios federados, tenga en cuenta que Servidor de chat persistente no admite la federación. Los salones con usuarios federados se migrarán, pero los propios usuarios no tendrán acceso al contenido porque no se admite el acceso federado.
+    6.  Si tiene usuarios federados y salas con usuarios federados, tenga en cuenta que el servidor de chat persistente no admite Federación. Se migrarán las salas con usuarios federados; sin embargo, los usuarios ellos mismos no podrán acceder al contenido porque no se admite el acceso federado.
     
     7.  Identifique los salones que no desea migrar y márquelos como deshabilitados.
     
-    8.  Identifique la fecha a partir de la cual desea migrar el contenido de los salones de chat. Por ejemplo, quizás no desee migrar los mensajes anteriores al 1 de enero de 2010, porque ya son obsoletos o no son importantes para migrarlos.
+    8.  Identifique la fecha más allá de la cual desea migrar el contenido del salón de chat. Por ejemplo, es posible que no desee migrar mensajes anteriores al 1 de enero de 2010, ya que estos mensajes pueden estar obsoletos o no son relevantes para la migración.
 
-## Realizar la migración
+</div>
 
-Haga lo siguiente para migrar Servidor de chat en grupo heredado.
+<div>
 
-1.  Cierre los servicios de Lync Server 2010, chat en grupo, Chat en grupo de Office Communications Server 2007 R2, o Servidor de chat persistente de Lync Server 2013. Deben detenerse todos los servicios. Planee, por tanto, esta acción para cuando el tiempo de inactividad sea suficientemente largo. Como se ha descrito antes, no olvide hacer una copia de seguridad de la base de datos de Chat en grupo actual.
+## <a name="performing-the-migration"></a>Realizar la migración
 
-2.  Ejecute el cmdlet Windows PowerShell**Export-CsPersistentChatData** como miembro del rol RBAC de administrador de Chat persistente (CsPersistentChatAdministrator). Para más información sobre los cmdlets de exportación e importación, consulte [Solucionar problemas de configuración de servidores de chat persistentes mediante los cmdlets de Windows PowerShell en Lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
+Realice los siguientes pasos para migrar el servidor de chat de grupo heredado.
+
+1.  Apague Lync Server 2010, chat grupal, chat grupal de Office Communications Server 2007 R2 o Lync Server 2013, servicios de servidor de chat persistentes. Todos los servicios deben detenerse, así que planifique hacerlo en un momento en el que haya suficiente tiempo de inactividad. Como se ha descrito anteriormente, asegúrese de realizar una copia de seguridad de la base de datos de chat de grupo actual.
+
+2.  Ejecute el cmdlet **Export-CsPersistentChatData** de Windows PowerShell como miembro del rol de RBAC de administrador de chat persistente (CsPersistentChatAdministrator). Para obtener más información sobre los cmdlets de exportación/importación, consulte [solución de problemas de configuración del servidor de chat persistente con cmdlets de Windows PowerShell en Lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
     
-    Examine el contenido exportado.
+    Inspeccione el contenido exportado.
 
-3.  Antes de iniciar la importación, cierre los servicios de Servidor de chat persistente de Lync Server 2013. Deben detenerse todos los servicios. Planee, por tanto, esta acción para cuando el tiempo de inactividad sea suficientemente largo.
+3.  Antes de estar listo para importar, apague Lync Server 2013, servicios de servidor de chat persistentes. Todos los servicios deben detenerse, por lo que debe planificar hacerlo en un momento en que haya suficiente tiempo de inactividad.
 
-4.  Haga una copia de seguridad de la base de datos de Chat persistente si ha creado categorías, salones o complementos en la implementación de Lync Server 2013 antes de la migración. Aunque el proceso de exportación e importación es capaz de combinar los datos heredados con la implementación de Lync Server 2013, es conveniente realizar una copia de seguridad por si el contenido se sobrescribe accidentalmente (por ejemplo, en el caso de que se produzcan conflictos con los nombres).
+4.  Realice una copia de seguridad de la base de datos de chat persistente si ha creado categorías, salas o complementos en la implementación de Lync Server 2013 antes de la migración. El proceso de exportación e importación podrá fusionar los datos heredados en la implementación de Lync Server 2013, pero tendrá que realizar una copia de seguridad de la base de datos en caso de que se sobrescriba el contenido por error (por ejemplo, si aún existen conflictos de nombres).
 
-5.  Ejecute el cmdlet **Import-CsPersistentChatData** de Windows PowerShell (herramienta de importación) con un comando **WhatIf** para rellenar Servidor back-end de Grupo de servidores de chat persistente con los datos migrados. En el proceso se producen algunas conversiones para acomodar el modelo de administración simplificado. Corrija los errores o las advertencias que aparezcan.
+5.  Ejecute el cmdlet **Import-CsPersistentChatData** de Windows PowerShell (herramienta de importación) con un comando **Whatif** para rellenar el servidor back-end del grupo de servidores de chat persistente con datos migrados. Algunas conversiones se realizan en el proceso para acomodar el modelo de administración simplificado. Corrija los errores o advertencias que aparezcan.
 
-6.  Ejecute el cmdlet **Import-CsPersistentChatData** de Windows PowerShell de Servidor de chat persistente como miembro del rol RBAC de administrador de Chat persistente (CsPersistentChatAdministrator). Para más información sobre los cmdlets de exportación e importación, consulte [Solucionar problemas de configuración de servidores de chat persistentes mediante los cmdlets de Windows PowerShell en Lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
+6.  Ejecute el cmdlet **Import-CsPersistentChatData** del servidor de chat persistente como miembro del rol de RBAC de administrador de chat persistente (CsPersistentChatAdministrator). Para obtener más información sobre los cmdlets de exportación/importación, consulte [solución de problemas de configuración del servidor de chat persistente con cmdlets de Windows PowerShell en Lync Server 2013](lync-server-2013-troubleshooting-persistent-chat-server-configuration-using-windows-powershell-cmdlets.md).
 
-7.  Debe copiar con XCOPY todos los archivos que se han cargado (toda la carpeta) en el nuevo almacén de archivos de Chat persistente de Lync Server 2013.
+7.  Debe Autocompletar todos los archivos cargados (toda la carpeta) en el nuevo Lync Server 2013, almacén de archivos de chat persistente.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Lync 2013 (cliente) no admite la carga ni la visualización de archivos en los salones de chat. Puede seguir usando el cliente heredado para publicar y ver los archivos en el salón.
+    > Lync 2013 (cliente) no admite la carga ni la visualización de archivos en salones de chat. Aún puede usar el cliente heredado para publicar y ver archivos en el salón.
+
+    
+    </div>
+
+8.  Porte el URI del servidor de búsqueda de chat de Lync Server 2010, chat de grupo u Office Communications Server 2007 R2 a Lync Server 2013, objeto de contacto del servidor de chat persistente. Los pasos siguientes son necesarios si el chat grupal de Lync 2010 o los clientes de chat grupal de Office Communicator 2007 R2 necesitan conectarse a la última versión de Lync 2013, chat persistente (cliente) después de la migración sin cambios en la configuración del cliente:
+    
+      - Elimine la cuenta\<de\>usuario del servidor de búsqueda ocschat @ domainname. com. Esto se usaba para apuntar al servicio de búsqueda en Lync Server 2010, conversación grupal. Puede desinstalar el grupo y quitar las entradas de confianza más adelante.
+    
+      - Cree un extremo heredado (objeto de contacto del servidor de chat persistente) ejecutando el cmdlet de Windows PowerShell, **New-CsPersistentChatEndpoint**, con el URI de SIP idéntico para que el cliente heredado funcione de forma eficaz cuando se reinicie el servicio.
+    
+    El proceso de migración obligatoria ha finalizado en este momento. Los chats grupales de Lync 2010 o de Office Communicator 2007 R2 (clientes) se pueden conectar al nuevo grupo de servidores de chat persistente ahora, de forma transparente.
+    
+    Siga estos pasos adicionales de retiro para Lync Server 2010, chat grupal u Office Communications Server 2007 R2 chat grupal.
+
+9.  Inicie los servicios del servidor de chat persistentes activando todos los equipos del nuevo grupo de servidores de chat persistente.
+
+10. Use el panel de control de Lync Server y los cmdlets de Windows PowerShell para comprobar que los datos se han migrado correctamente.
+
+11. Desinstale chat grupal de Lync 2010 u conversación grupal de Office Communicator 2007 R2 de los equipos del grupo de servidores de chats grupales.
+
+12. Elimine la aplicación de confianza y el grupo de aplicaciones de confianza con cmdlets de Windows PowerShell. Esto elimina estos elementos del almacén de administración central y las entradas de servicios de confianza asociados (EET) de Active Directory. Como alternativa, este paso funciona con el generador de topología (los grupos y las aplicaciones de confianza también tienen un nodo dedicado).
+
+13. Ahora puede empezar a habilitar la funcionalidad del servidor de chat persistente a través de los nuevos clientes. Para obtener más información sobre cómo habilitar el servidor de chat persistente, consulte [implementar un servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
+    
+    <div>
     
 
-
-8.  Designe el puerto del URI del servidor de búsqueda de Lync Server 2010, chat en grupo o Chat en grupo de Office Communications Server 2007 R2 para el objeto contacto de Servidor de chat persistente de Lync Server 2013. Los pasos siguientes son necesarios si los clientes de Chat en grupo de Lync 2010 o Chat en grupo de Office Communicator 2007 R2 tienen que conectarse con la versión más reciente de Chat persistente de Lync 2013 (cliente) después de la migración sin cambios en la configuración del cliente:
-    
-      - Elimine la cuenta de usuario del servidor de búsqueda ocschat@ *\<nombreDeDominio\>* .com. Se usó para señalar al servicio de búsqueda en Lync Server 2010, chat en grupo. Puede desinstalar el grupo y eliminar las entradas de confianza posteriormente.
-    
-      - Cree un extremo heredado (objeto contacto de Servidor de chat persistente) ejecutando el cmdlet **New-CsPersistentChatEndpoint** de Windows PowerShell con el mismo URI SIP, de modo que el cliente heredado funcione correctamente cuando el servicio se reinicie.
-    
-    El proceso de migración obligatorio se completa en este punto. Chat en grupo de Lync 2010 (clientes) o Chat en grupo de Office Communicator 2007 R2 (clientes) pueden conectarse al nuevo Grupo de servidores de chat persistente sin problemas.
-    
-    Siga estos pasos para retirar la implementación de Lync Server 2010, chat en grupo o Chat en grupo de Office Communications Server 2007 R2.
-
-9.  Inicie los servicios de Servidor de chat persistente y, para ello, encienda todos los equipos del nuevo Grupo de servidores de chat persistente.
-
-10. Use los cmdlets de Panel de control de Lync Server y Windows PowerShell para comprobar que los datos se han migrado correctamente.
-
-11. Desinstale Chat en grupo de Lync 2010 o Chat en grupo de Office Communicator 2007 R2 de los equipos del grupo de Servidor de chat en grupo.
-
-12. Elimine la aplicación de confianza y el grupo de aplicaciones de confianza con los cmdlets de Windows PowerShell. Esto elimina estos elementos de Almacén de administración central y las entradas de servicio de confianza asociadas (TSE) de Active Directory. Estos pasos también funcionan con Generador de topologías (los grupos y las aplicaciones de confianza también tienen allí un nodo dedicado).
-
-13. Ahora puede empezar a habilitar la funcionalidad de Servidor de chat persistente a través de los nuevos clientes. Para más información sobre cómo habilitar Servidor de chat persistente, consulte [Implementar el servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
-    
     > [!IMPORTANT]  
-    > Lync Server 2013 admite varios Grupos de servidores de chat persistente. No obstante, se admite la migración de un Chat en grupo de Lync 2010 o un grupo de Chat en grupo de Office Communications Server 2007 R2 a un único Grupo de servidores de chat persistente de Lync Server 2013. Puede agregar otros Grupos de servidores de chat persistente nuevos a la implementación para cumplir los requisitos normativos (por ejemplo, la conservación de datos en una zona geográfica determinada).
+    > Lync Server 2013 admite varios grupos de servidores de chat persistentes. Sin embargo, admitimos migrar un chat grupal de Lync 2010 o un grupo de&nbsp;chats grupales de Office Communications Server 2007 R2 a un solo Lync Server 2013, grupo de servidores de chat persistente. Puede agregar nuevos grupos de servidores de chat persistentes en su implementación para satisfacer las necesidades de reglamentación (por ejemplo, mantener los datos dentro de una ubicación geográfica determinada).
+
     
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

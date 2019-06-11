@@ -1,47 +1,88 @@
-﻿---
-title: Aplicación de una directiva de archivado de Lync Server a un usuario
-TOCTitle: Aplicación de una directiva de archivado de Lync Server a un usuario
-ms:assetid: a23e4876-aa8d-4f49-a3bd-3696616e8290
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205143(v=OCS.15)
-ms:contentKeyID: 48276251
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: aplicar una directiva de archivado de Lync Server a un usuario'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Applying a Lync Server Archiving policy to a user
+ms:assetid: a23e4876-aa8d-4f49-a3bd-3696616e8290
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205143(v=OCS.15)
+ms:contentKeyID: 48185024
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 295f1a0370372d937b07a38eab51cd43d0ef9f5c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850722"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aplicación de una directiva de archivado de Lync Server a un usuario
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="applying-a-lync-server-archiving-policy-to-a-user-in-lync-server-2013"></a>Aplicar una directiva de archivado de Lync Server a un usuario en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-10_
 
-Después de crear una directiva de usuario de Lync Server, debe aplicarla a los usuarios o grupos de usuarios específicos alojados en Lync Server 2013 antes de que surta efecto. Para obtener información detallada sobre la creación de directivas de usuarios para usuarios específicos, consulte [Crear y configurar las directivas de usuarios para el archivado en Lync Server](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md) en documentación referente a la implementación.
+Después de crear una directiva de usuario de Lync Server, debe aplicarla a determinados usuarios o grupos de usuarios alojados en Lync Server 2013 antes de que pueda surtir efecto. Para obtener detalles sobre la creación de directivas de usuario para usuarios específicos, vea [crear y configurar directivas de usuario para archivado en Lync Server 2013](lync-server-2013-creating-and-configuring-user-policies-for-archiving-in-lync-server.md) en la documentación de implementación.
 
-Para obtener información detallada sobre cómo funcionan las políticas de archivado, incluida la jerarquía de las directivas globales, del sitio y del usuario, consulte la documentación referente a la planificación [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md), la documentación referente a la implementación o la documentación referente a las operaciones.
+Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones.
 
-
-> [!NOTE]
-> Para configurar y usar el archivado, es necesario que primero implemente el archivado. Para más información, vea <A href="lync-server-2013-deploying-archiving.md">Implementar archivado en Lync Server 2013</A> en la documentación referente a la implementación.<BR>Si habilitó la integración de Microsoft Exchange para su implementación, las directivas en conservación local de Exchange controlan si el archivado está habilitado para los usuarios que están alojados en Exchange 2013 y que tienen sus buzones de correo en conservación local. Para obtener información detallada, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">Configuración de directivas para el archivado al usar la integración de Exchange Server</A> en la documentación referente a la implementación.<BR>Debe especificar las opciones correctas en la configuración del archivado antes de habilitar el archivado. Para obtener información detallada, consulte <A href="lync-server-2013-configuring-archiving-options.md">Configurar opciones de archivado</A> en la documentación referente a la implementación.
+<div>
 
 
+> [!NOTE]  
+> Para configurar y usar el archivado, es necesario que primero implemente el archivado. Para obtener más información, consulte <A href="lync-server-2013-deploying-archiving.md">implementación del archivado en Lync Server 2013</A> en la documentación de implementación.<BR>Si habilitó la integración de Microsoft Exchange para su implementación, las directivas de retención local de Exchange controlan si el archivado está habilitado para los usuarios alojados en Exchange 2013 y si sus buzones se colocan en conservación local. Para obtener más información, consulte <A href="lync-server-2013-setting-up-policies-for-archiving-when-using-exchange-server-integration.md">configurar directivas para archivar en Lync Server 2013 al usar la integración de Exchange Server</A> en la documentación de implementación.<BR>Debe especificar todas las opciones apropiadas en las configuraciones de archivado antes de habilitar el archivado. Para obtener información detallada, vea <A href="lync-server-2013-configuring-archiving-options.md">configuración de las opciones de archivado en Lync Server 2013</A> en la documentación de implementación.
 
-## Para aplicar una directiva de archivado de Lync Server a un usuario
 
-1.  Desde una cuenta de usuario que se asigne a la función CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y escriba la URL del administrador para abrir el Panel de control de Lync Server 2013. Para obtener más información sobre los diferentes métodos que puede utilizar para iniciar Panel de control de Lync Server 2013, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  En la barra de navegación izquierda, haga clic en **Usuarios** y, a continuación, busque en la cuenta de usuario que desea configurar.
+<div>
 
-4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, a continuación, en **Mostrar detalles** .
+## <a name="to-apply-a-lync-server-archiving-policy-to-a-user"></a>Para aplicar una directiva de archivado de Lync Server a un usuario
 
-5.  En **Editar usuario de Lync Server** en **Directiva de archivado**, seleccione la directiva de usuario de archivado que desea aplicar.
+1.  Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server 2013. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server 2013, consulte [abrir las herramientas administrativas de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, busque la cuenta de usuario que desea configurar.
+
+4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
+
+5.  En **Editar usuario de Lync Server** , en **Directiva**de archivado, seleccione la Directiva de usuario de archivado que desea aplicar.
+    
+    <div>
     
 
-    > [!NOTE]
-    > En configuración <STRONG>&lt;Automática&gt;</STRONG>, aplique la configuración de la instalación del servidor predeterminada. El servidor aplica automáticamente esta configuración.
+    > [!NOTE]  
+    > La <STRONG> &lt;configuración&gt; automática</STRONG> aplica la configuración predeterminada de la instalación del servidor. El servidor aplica automáticamente esta configuración.
 
+    
+    </div>
 
+6.  Haga clic en **Confirmar**.
 
-6.  Haga clic en **Confirmar** .
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

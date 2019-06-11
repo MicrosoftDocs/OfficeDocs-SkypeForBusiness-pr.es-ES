@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblComplianceData'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblComplianceData
 ms:assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558606(v=OCS.15)
-ms:contentKeyID: 48274308
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558606(v=OCS.15)
+ms:contentKeyID: 48183308
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 044a57645a8c49ea74ec4e003f9e12720d0b2268
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850497"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblComplianceData en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="tblcompliancedata-in-lync-server-2013"></a>tblComplianceData en Lync Server 2013
 
-La tabla tblComplianceData contiene los eventos de cumplimiento que aún no procesó el adaptador de cumplimiento.
+</div>
 
-### Columnas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-12_
+
+tblComplianceData contiene los eventos de conformidad que aún no ha procesado el adaptador de cumplimiento.
+
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>
@@ -35,63 +55,63 @@ La tabla tblComplianceData contiene los eventos de cumplimiento que aún no proc
 <tbody>
 <tr class="odd">
 <td><p>cmplEventID</p></td>
-<td><p>bigint, no NULL</p></td>
-<td><p>Id. del evento</p></td>
+<td><p>BIGINT, not null</p></td>
+<td><p>IDENTIFICADOR de evento.</p></td>
 </tr>
 <tr class="even">
 <td><p>entryDate</p></td>
-<td><p>smalldatetime, no NULL</p></td>
-<td><p>Hora de inserción (puede estar lejos en el futuro para cmplType=9 porque la entrada solo es un marcador de posición en ese caso).</p></td>
+<td><p>smalldatetime, not null</p></td>
+<td><p>Hora de inserción (puede ser muy próxima para cmplType = 9 porque la entrada es solo un marcador de posición en ese caso).</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplType</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Tipo de evento de cumplimiento:</p>
+<td><p>int, not null</p></td>
+<td><p>Tipo de evento de conformidad:</p>
 <ul>
-<li><p>1: Chat</p></li>
-<li><p>2: Backchat</p></li>
-<li><p>3: Descarga de archivos</p></li>
-<li><p>4: Carga de archivos</p></li>
-<li><p>9: Transferencia de archivo provisional</p></li>
-<li><p>10: Eliminación de chats (con reemplazo)</p></li>
-<li><p>11: Depuración de chats</p></li>
+<li><p>1: chatear</p></li>
+<li><p>2: chatear</p></li>
+<li><p>3: descarga de archivos</p></li>
+<li><p>4: carga de archivos</p></li>
+<li><p>9: transferencia provisional de archivos</p></li>
+<li><p>10: eliminación de chat (con Replace)</p></li>
+<li><p>11: purgado de chat</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>cmplTime</p></td>
-<td><p>bigint, no NULL</p></td>
+<td><p>BIGINT, not null</p></td>
 <td><p>Marca de tiempo del evento.</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplChannelUri</p></td>
-<td><p>nvarchar (255), no NULL</p></td>
+<td><p>nvarchar (255), not null</p></td>
 <td><p>Identificador uniforme de recursos (URI) del canal.</p></td>
 </tr>
 <tr class="even">
 <td><p>cmplChatID</p></td>
-<td><p>bigint</p></td>
-<td><p>Identificador de chat (correspondiente a la tabla tblChat.chatId).</p></td>
+<td><p>BIGINT</p></td>
+<td><p>IDENTIFICADOR de chat (corresponde a la tabla tblChat. chatId).</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplUserID</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Identificador de entidad de seguridad del póster (correspondiente a la tabla tblPrincipal.prinID).</p></td>
+<td><p>int, not null</p></td>
+<td><p>IDENTIFICADOR principal del póster (correspondiente a la tabla tblPrincipal. prinID).</p></td>
 </tr>
 <tr class="even">
 <td><p>cmplUserUri</p></td>
-<td><p>nvarchar (255), no NULL</p></td>
-<td><p>URI del usuario.</p></td>
+<td><p>nvarchar (255), not null</p></td>
+<td><p>URI de usuario.</p></td>
 </tr>
 <tr class="odd">
 <td><p>cmplMessage</p></td>
-<td><p>nvarchar(max)</p></td>
+<td><p>nvarchar (Max)</p></td>
 <td><p>Mensaje (la codificación depende de cmplType).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Tecla
+### <a name="key"></a>Clave
 
 <table>
 <colgroup>
@@ -111,4 +131,15 @@ La tabla tblComplianceData contiene los eventos de cumplimiento que aún no proc
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

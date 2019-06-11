@@ -1,23 +1,43 @@
-﻿---
-title: Eventos de UCWA
-TOCTitle: Eventos de UCWA
-ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945621(v=OCS.15)
-ms:contentKeyID: 52061612
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: eventos de UCWA'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UCWA events
+ms:assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945621(v=OCS.15)
+ms:contentKeyID: 51541461
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d0671b51e5fbd4b5f072676855d9e8f5201b3e04
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850285"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Eventos de UCWA
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="ucwa-events-in-lync-server-2013"></a>Eventos de UCWA en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-02-15_
 
     The information in this topic pertains to Cumulative Updates for Lync Server 2013: February 2013.
 
-Lync Server 2013 usa la API web de comunicaciones unificadas (UCWA) para una gran cantidad de propósitos, desde el acceso a Microsoft Exchange para realizar búsquedas de contactos hasta la actualización del estado de presencia de los clientes móviles.
+Lync Server 2013 usa la API Web de comunicaciones unificadas (UCWA) para una serie de propósitos, desde el acceso a Microsoft Exchange para las búsquedas de contactos hasta la actualización de presencia para clientes móviles.
 
 UCWA escribirá los registros del comportamiento operativo como tipos de evento informativos, de advertencia y de error. En la siguiente tabla se describen los eventos que pueden escribir los componentes de UCWA.
 
@@ -42,8 +62,8 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <td><p>20001</p></td>
 <td><p>Informativo</p></td>
 <td><p>Se inicializó UCWA</p></td>
-<td><p>N/A</p>
-<p>N/A</p></td>
+<td><p>N/D</p>
+<p>N/D</p></td>
 </tr>
 <tr class="even">
 <td><p>20002</p></td>
@@ -62,7 +82,7 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <tr class="even">
 <td><p>20004</p></td>
 <td><p>Error</p></td>
-<td><p>No se puede acceder a Exchange para fotos HD</p></td>
+<td><p>No se puede obtener acceso a Exchange para fotos HD</p></td>
 <td><p>La conexión a Exchange no está disponible</p>
 <p>Asegúrese de que la conexión a Exchange esté disponible</p></td>
 </tr>
@@ -70,12 +90,12 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <td><p>20005</p></td>
 <td><p>Informativo</p></td>
 <td><p>Se recuperó el acceso a Exchange para fotos HD</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="even">
 <td><p>20006</p></td>
 <td><p>Error</p></td>
-<td><p>No se puede acceder a Exchange para la búsqueda de contactos</p></td>
+<td><p>No se puede obtener acceso a Exchange para la búsqueda de contactos</p></td>
 <td><p>La conexión a Exchange no está disponible</p>
 <p>Asegúrese de que la conexión a Exchange esté disponible</p></td>
 </tr>
@@ -83,7 +103,7 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <td><p>20007</p></td>
 <td><p>Informativo</p></td>
 <td><p>Se recuperó el acceso a Exchange para la búsqueda de contactos</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="even">
 <td><p>20008</p></td>
@@ -131,7 +151,7 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <td><p>20014</p></td>
 <td><p>Informativo</p></td>
 <td><p>Se recuperó la conexión a la MCU de mensajería instantánea</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20015</p></td>
@@ -144,7 +164,7 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <td><p>20016</p></td>
 <td><p>Informativo</p></td>
 <td><p>Se recuperó la conexión a la MCU de audio y vídeo</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20017</p></td>
@@ -157,7 +177,7 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <td><p>20018</p></td>
 <td><p>Informativo</p></td>
 <td><p>Se recuperó la conexión a la MCU de AS</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20019</p></td>
@@ -170,7 +190,7 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <td><p>20020</p></td>
 <td><p>Informativo</p></td>
 <td><p>Se recuperó la conexión a la MCU de datos</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20021</p></td>
@@ -203,7 +223,7 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <tr class="odd">
 <td><p>20025</p></td>
 <td><p>Error</p></td>
-<td><p>No se puede acceder a Active Directory para las fotos</p></td>
+<td><p>No se puede obtener acceso a Active Directory para las fotos</p></td>
 <td><p>La conexión a Active Directory no está disponible</p>
 <p>Asegúrese de que la conexión a Active Directory esté disponible</p></td>
 </tr>
@@ -211,7 +231,7 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 <td><p>20026</p></td>
 <td><p>Informativo</p></td>
 <td><p>Se recuperó el acceso a Active Directory para las fotos</p></td>
-<td><p>N/A</p></td>
+<td><p>N/D</p></td>
 </tr>
 <tr class="odd">
 <td><p>20027</p></td>
@@ -222,4 +242,15 @@ UCWA escribirá los registros del comportamiento operativo como tipos de evento 
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

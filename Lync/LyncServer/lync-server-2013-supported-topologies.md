@@ -1,147 +1,206 @@
-﻿---
-title: 'Lync Server 2013: Topologías compatibles'
-TOCTitle: Topologías compatibles
-ms:assetid: 3475d430-0394-491b-a09b-ba85bd62be70
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425833(v=OCS.15)
-ms:contentKeyID: 48274888
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Topologías compatibles'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported topologies
+ms:assetid: 3475d430-0394-491b-a09b-ba85bd62be70
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425833(v=OCS.15)
+ms:contentKeyID: 48183832
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 295d0cfc212fcf09b9752c43e918861f49ec7a88
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850541"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Topologías compatibles en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="supported-topologies-in-lync-server-2013"></a>Topologías compatibles en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2014-01-14_
 
-El Lync Server 2013 es compatible con la implementación de sitios locales en una organización y la integración de implementaciones locales con las implementaciones Skype Empresarial Online, que se conoce como una implementación híbrida. En una implementación híbrida, algunos usuarios se hospedan en la instalación local y algunos usuarios se hospedan en línea.
+Lync Server 2013 admite la implementación de sitios locales en una organización y la integración de implementaciones locales con implementaciones de Lync Online, que se conoce como una implementación híbrida. En una implementación híbrida, algunos usuarios están alojados en locales y algunos usuarios están alojados en línea.
 
-Para las implementaciones locales, el Lync Server 2013 admite implementaciones de uno o varios sitios que se pueden escalar para satisfacer requisitos de alta disponibilidad y ubicación. Puede estructurar estos sitios y sus componentes para cumplir los requisitos de acceso y resistencia de su organización.
+En el caso de implementaciones locales, Lync Server 2013 admite la implementación de uno o varios sitios que se pueden escalar para cumplir con los requisitos de ubicación y disponibilidad elevados. Puede estructurar estos sitios y sus componentes para cumplir con los requisitos de acceso y resistencia de su organización.
 
-Una implementación local Lync Server 2013 consiste en lo siguiente:
+Una implementación local de Lync Server 2013 consta de lo siguiente:
 
-  - La implementación debe incluir como mínimo un sitio central (también conocido como centro de datos). Cada sitio central debe tener como mínimo un grupo front-end Enterprise Edition o un servidor Standard Edition. Estos consisten en:
+  - Su implementación debe incluir al menos un sitio central (también conocido como un centro de datos). Cada sitio central debe contener al menos un grupo de servidores front-end Enterprise Edition o un servidor Standard Edition. Se componen de las siguientes acciones:
     
-      - Un grupo de servidores front-end de Enterprise Edition, que está formado por uno o varios servidores front-end (normalmente, al menos dos servidores front-end por razones de escalabilidad) y un servidor back-end independiente. Un grupo front-end puede tener un máximo de doce servidores front-end. Se necesita un equilibrio de carga para varios servidores front-end. Para tráfico SIP, se recomienda un equilibrio de carga de DNS, aunque también se admite un equilibrio de carga de hardware. Si usa un equilibrio de carga de DNS para el tráfico SIP, seguirá necesitando un equilibrador de carga de hardware para el tráfico HTTP. Se recomienda SQL Server para la creación de reflejos de bases de datos. La base de datos de back-end requiere una instancia independiente, aunque puede colocar en ella la base de datos de archivado, la base de datos de supervisión, la base de datos de chat persistente y la base de datos de cumplimiento de chat persistente. Lync Server 2013 admite el uso de un clúster compartido para el uso compartido de archivos en su implementación. Para obtener más información sobre los requisitos de almacenamiento de base de datos, vea [Compatibilidad con software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md). Para obtener más información acerca de los requisitos de almacenamiento de archivos, consulte [Compatibilidad con el almacenamiento de archivos en Lync Server 2013](lync-server-2013-file-storage-support.md).
+      - El grupo de servidores front-end Enterprise Edition, que consta de uno o varios servidores front-end (por lo general, al menos dos servidores front-end para escalabilidad) y un servidor back-end independiente. Un grupo de servidores front-end puede contener un máximo de doce servidores front-end. El equilibrio de carga es necesario para varios servidores front-end. Para el tráfico SIP, recomendamos el equilibrio de carga de DNS, pero también se admite el equilibrio de carga de hardware. Si usa el equilibrio de carga de DNS para el tráfico SIP, aún necesita un equilibrador de carga de hardware para el tráfico HTTP. Recomendamos el reflejo de SQL Server para una alta disponibilidad de las bases de datos. La base de datos back-end requiere una instancia independiente, pero puede Collocate la base de datos de archivado, la supervisión de la base de datos, la base de datos de chat persistente y la base de datos de cumplimiento persistente de la conversación. Lync Server 2013 admite el uso de un clúster compartido para los archivos compartidos en la implementación. Para obtener más información sobre los requisitos de almacenamiento de base de datos, consulte [compatibilidad de software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md). Para obtener más información sobre los requisitos de almacenamiento de archivos, consulte [compatibilidad de almacenamiento de archivos en Lync Server 2013](lync-server-2013-file-storage-support.md).
         
+        <div>
+        
+
         > [!IMPORTANT]  
-        > Si combina bases de datos de Lync Server con otras bases de datos, le recomendamos encarecidamente que evalúe todos los factores que pueden afectar a la disponibilidad y al rendimiento. Para comprobar las capacidades de conmutación por error, se recomienda probar todos los escenarios de conmutación por error.
+        > Si Collocate bases de datos de Lync Server, se recomienda encarecidamente evaluar todos los factores que pueden afectar a la disponibilidad y el rendimiento. Para comprobar las capacidades de conmutación por error, se recomienda probar todos los escenarios de conmutación por error.
+
         
+        </div>
     
-      - Un servidor Standard Edition, que incluye una base de datos colocada de SQL Server Express.
+      - Servidor Standard Edition, que incluye una base de datos de SQL Server Express.
 
-  - La implementación también puede tener uno o varios sitios de sucursales asociados al sitio central.
+  - Su implementación también puede tener uno o más sitios de sucursales asociados con un sitio central.
 
-En esta sección se describen los sitios y componentes de una implementación de Lync Server 2013. Para obtener información detallada acerca del sitio, la topología y la planeación de componentes de Lync Server 2013 consulte [Aspectos básicos de la topología a tener en cuenta antes de la planificación para Lync Server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) y [Topologías de referencia en Lync Server 2013](lync-server-2013-reference-topologies.md) en la documentación referente a la planeación. Para obtener información detallada acerca de la integración de componentes anteriores, consulte [Rutas de acceso de migración compatibles y escenarios de coexistencia en Lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
+En esta sección se describen los sitios y componentes de una implementación de Lync Server 2013. Para obtener más información sobre el sitio de Lync Server 2013, la topología y la planeación de componentes, consulte fundamentos de la [topología que debe conocer antes de planear Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md) y las [topologías de referencia en Lync Server 2013](lync-server-2013-reference-topologies.md) en la documentación de planificación. Para obtener más información sobre la integración de componentes de versiones anteriores, consulte [rutas de migración compatibles y escenarios de coexistencia en Lync Server 2013](lync-server-2013-supported-migration-paths-and-coexistence-scenarios.md).
 
-
-> [!NOTE]
-> Los grupos de servidores extendidos no son compatibles con los roles de servidor front-end, perimetral, de mediación y de director.
+<div>
 
 
+> [!NOTE]  
+> Los grupos de servidores estirados no son compatibles con los roles de servidor de front-end, Edge, mediación y director.
 
-## Topología y componentes de un sitio central
 
-Aunque una topología de sitio central debe incluir un grupo front-end o servidor Standard Edition, cada sitio central puede contener lo siguiente:
 
-  - Varios grupos front-end, que pueden estar en el mismo dominio o en dominios diferentes. Sin embargo, todos los servidores front-end de un grupo front-end y el servidor back-end de dicho grupo deben encontrarse en el mismo dominio.
+</div>
+
+<div>
+
+## <a name="central-site-topologies-and-components-on-premises"></a>Topologías y componentes de sitio central (local)
+
+Aunque una topología de sitio central debe incluir un grupo de servidores front-end o un servidor Standard Edition, cada sitio central también puede contener lo siguiente:
+
+  - Varias agrupaciones front end, que pueden estar en el mismo dominio o en dominios diferentes. Sin embargo, todos los servidores front-end de un grupo de servidores front-end y el servidor back-end de ese grupo deben estar en el mismo dominio.
 
   - Varios servidores Standard Edition.
 
-  - El Servidor Office Web Apps, que se utiliza con aplicaciones web de Office en Lync Server 2013 para controlar el uso compartido y la representación de las presentaciones de Microsoft PowerPoint.
+  - Office Web Apps Server, que se usa con aplicaciones Web de Office en Lync Server 2013, para controlar el uso compartido y el procesamiento de presentaciones de Microsoft PowerPoint.
 
-  - Un servidor o grupo perimetral de la red perimetral, si desea que su implementación admita socios federados, conectividad de mensajería instantánea pública, puerta de enlace de protocolo extensible de mensajería y presencia (XMPP), acceso de usuarios remotos, participación de usuarios anónimos en reuniones o Mensajería unificada de Exchange (UM). No se puede colocar ningún otro rol de servidor en un servidor perimetral. Se recomienda un equilibrio de carga de DNS, siempre que sea apropiado, aunque también se admite un equilibrio de carga de hardware. La interfaz perimetral interna y la interfaz perimetral externa deben usar el mismo tipo de equilibrio de carga. No puede usar el equilibrio de carga de DNS en una interfaz perimetral y el equilibro de carga de hardware en la otra interfaz perimetral. Para obtener información detallada acerca de los requisitos y la compatibilidad del equilibrio de carga, consulte [Planear acceso de usuarios externos en Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) en la documentación sobre planeación y [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación sobre implementación.
+  - Servidor perimetral o grupo Edge en la red perimetral, si desea que su implementación admita socios federados, conectividad de mensajería instantánea pública, una puerta de enlace de protocolo de presencia y mensajería extensible (XMPP), acceso de usuarios remotos, participación de usuarios anónimos en reuniones, o mensajería unificada de Exchange (UM). No puede Collocate ningún otro rol de servidor con un servidor perimetral. Recomendamos el equilibrio de carga de DNS, cuando corresponda, pero también se admite el equilibrio de carga de hardware. La interfaz perimetral interna y la interfaz perimetral externa necesitan usar el mismo tipo de equilibrio de carga. No puede usar equilibrio de carga de DNS en una interfaz perimetral y equilibrio de carga de hardware en la otra interfaz perimetral. Para obtener más información sobre los requisitos de equilibrio de carga y la compatibilidad, consulte [planear el acceso de usuarios externos en Lync server 2013](lync-server-2013-planning-for-external-user-access.md) en la documentación de planeación e [implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación de implementación.
 
-  - Servidor o grupo de mediación, si desea permitir Enterprise Voice o conferencias de acceso telefónico en un grupo front-end en el sitio central. En función del modo en el que implemente la compatibilidad con Enterprise Voice, puede colocar el servidor de mediación en un grupo front-end (el predeterminado) o implementar un servidor o grupo de mediación independiente. Puede usar equilibrio de carga de DNS, hardware o aplicaciones (según corresponda) para distribuir el tráfico desde una puerta de enlace del mismo nivel del grupo de servidores de mediación, incluida una puerta de enlace RTC, un sistema IP-PBX o un control de borde de sesión (SBC) troncal SIP. Para obtener información detallada acerca de la topología de servidor de mediación adecuada, consulte [Directrices de implementación para el servidor de mediación en Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) en la documentación referente a la planeación.
+  - Servidor o grupo de mediación, si desea proporcionar soporte técnico de telefonía IP empresarial o conferencias de acceso telefónico local en un grupo de servidores front-end en el sitio central. Según el modo en que implemente la asistencia de voz empresarial, puede Collocate el servidor de mediación en un grupo de servidores front-end (el valor predeterminado) o implementar un servidor o grupo de mediación independiente. Puede usar DNS, hardware o el equilibrio de carga de la aplicación (cuando corresponda) para distribuir el tráfico de un grupo de puerta de enlace del grupo de servidores de mediación, como una puerta de enlace RTC, IP-PBX o un control de borde de sesión (SBC) de SIP. Para obtener más información sobre cómo planear la topología de servidor de mediación adecuada, consulte [directrices de implementación para servidor de mediación en Lync server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) en la documentación de planeación.
 
-  - Servidor de chat persistente, si desea que los usuarios puedan participar en conversaciones entre varias personas basadas en el tema que persisten a lo largo del tiempo. Para ofrecer más capacidad y una mayor fiabilidad, su topología puede incluir equipos que ejecuten el Servidor de chat persistente. No puede colocar un Servidor de chat persistente con otros roles de servidores en un grupo de Enterprise. Sin embargo, puede colocar un Servidor de chat persistente en un servidor Standard Edition. El chat persistente requiere una base de datos y, si implementa el cumplimiento de chat persistente, también necesitará una base de datos de cumplimiento de chat persistente; sin embargo, las bases de datos pueden colocarse con la base de datos de archivado, la base de datos de supervisión o en el servidor back-en de un grupo de servidores front-end Enterprise Edition. Para obtener información detallada acerca de la topología de Servidor de chat persistente adecuada, consulte [Planeación del servidor de chat persistente en Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) en la documentación referente a la planeación.
+  - Servidor de chat persistente, si desea que los usuarios puedan participar a lo largo del tiempo en conversaciones basadas en temas y en varias partes. Para proporcionar más capacidad y una mayor confiabilidad, su topología puede incluir varios equipos que ejecuten el servidor de chat persistente. No puede Collocate servidor de chat persistente con otros roles de servidor en un grupo de servidores Enterprise. Sin embargo, puede Collocate el servidor de chat persistente en un servidor Standard Edition. El chat persistente requiere una base de datos y, si implementa un cumplimiento persistente de las conversaciones, una base de datos de cumplimiento persistente de la conversación, pero las bases de datos se pueden colocar con la base de datos de archivado, la base de datos de supervisión o el servidor back-end de una edición Enterprise Grupo de servidores front-end. Para obtener más información sobre cómo planear la topología adecuada del servidor de chat persistente, consulte [planificación de servidor de chat persistente en Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) en la documentación de planificación.
 
-  - Servidor de supervisión, si desea permitir en su implementación la recopilación de datos de la calidad de la experiencia (QoE) de audio y vídeo y el registro de detalles de las llamadas (CDR) para Enterprise Voice y conferencias A/V. Si lo desea, también puede instalar el Microsoft System Center Operations Manager (anteriormente Microsoft Operations Manager), que usa la supervisión de CDR y los datos de QoE para generar, prácticamente en tiempo real, alertas que muestran el estado de la fiabilidad de las llamadas y la calidad de los medios. El servidor de supervisión, cuando se implementa, se coloca en los servidores front-end o en el servidor Standard Edition. El servidor de supervisión requiere una base de datos, pero la base de datos se puede colocar en la base de datos de archivado, la base de datos de chat persistente, la base de datos de cumplimiento de chat persistente o en el servidor back-end de un grupo de servidores front-end Enterprise Edition.
+  - Supervisión: Si desea admitir la recopilación de datos de la calidad de la experiencia de audio/vídeo (QoE) y la grabación de detalles de llamadas (CDR) de las conferencias de telefonía IP empresarial y A/V de su implementación. De manera opcional, puede instalar Microsoft System Center Operations Manager (anteriormente Microsoft Operations Manager), que usa la supervisión de datos de CDR y QoE para generar alertas casi en tiempo real que muestran el estado de la confiabilidad de las llamadas y la calidad de los medios. La supervisión, cuando se implementa, se encuentra en servidores de aplicaciones para el usuario o en un servidor Standard Edition. La supervisión requiere una base de datos, pero la base de datos puede colocarse con la base de datos de archivado, la base de datos de chat persistente, la base de datos de cumplimiento persistente de chat o en el servidor back-end de un grupo de servidores front end Enterprise Edition.
 
-  - Servidor de archivado, si desea archivar el contenido de las comunicaciones y las reuniones de mensajería instantánea (por razones de cumplimiento de normas) en su implementación. El servidor de archivado, cuando se implementa se coloca en servidores front-end o en un servidor Standard Edition. Su almacenamiento requiere la implementación de una base de datos de archivado o la integración con el almacenamiento de Exchange 2013. Si usa los dos, lo que se conoce como un *modo mixto* , el almacenamiento de Exchange 2013 se utiliza para almacenar datos de archivo para los usuarios que se hospedan en Exchange 2013, y la base de datos de archivo se utiliza para todos los demás usuarios en su implementación. Si requiere una base de datos de archivo, esta base de datos se puede colocar en la base de datos de supervisión, en la base de datos de chat persistente, en la base de datos de cumplimiento de chat persistente o en el servidor back-end de un grupo de servidores front-end. Para obtener información detallada acerca de la topología de archivo adecuada, consulte [Planificar el archivado en Lync Server 2013](lync-server-2013-planning-for-archiving.md) en la documentación referente a la planeación.
+  - Archivar, si desea archivar las comunicaciones y el contenido de la reunión de mensajería instantánea (por razones de cumplimiento normativo) en su implementación. El archivado, cuando se implementa, se encuentra en servidores front-end o en un servidor Standard Edition. El almacenamiento de archivado requiere la implementación de una base de datos de archivado o la integración con el almacenamiento de Exchange 2013. Si usa ambos, lo que se conoce como *modo mixto*, el almacenamiento de Exchange 2013 se usa para almacenar datos de archivo para los usuarios que se encuentran en el 2013 de Exchange y la base de datos de archivado se usa para archivar los datos de todos los demás usuarios de la implementación. Si necesita una base de datos de archivado, la base de datos puede colocarse en la base de datos de supervisión, en la base de datos de chat persistente, en una base de datos de cumplimiento persistente o en el servidor back-end de un grupo de servidores front-end. Para obtener detalles sobre el planeamiento de la topología de archivado adecuada, consulte [planear el archivado en Lync Server 2013](lync-server-2013-planning-for-archiving.md) en la documentación de planeación.
 
-  - Director o grupo de directores, si desea facilitar la resistencia y redireccionamiento de solicitudes de usuario de Lync Server 2013 al grupo principal del usuario, que puede ser un grupo front-end Enterprise Edition o un servidor Standard Edition. Recomendamos implementar un director o grupo de directores en cada sitio central que permita el acceso de usuarios externos y en cada sitio central en el que implemente uno o varios grupos front-end. Cada grupo de directores puede tener un máximo de diez directores. Un director no se puede instalar con ningún otro rol de servidor. Para obtener información detallada acerca de la topología de director adecuada, consulte [Escenarios para el director en Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) en la documentación referente a la planeación.
+  - Grupo de directores o directores, si desea facilitar la resistencia y el redireccionamiento de las solicitudes de usuario de Lync Server 2013 al grupo de hogar del usuario, que puede ser un grupo de servidores front-end Enterprise Edition o un servidor Standard Edition. Le recomendamos que implemente un director o un grupo de directores en cada sitio central que admita el acceso de usuarios externos y en cada sitio central en el que implemente uno o más grupos front-end. Cada grupo de directores puede contener un máximo de diez directores. No se puede incluir un director con ningún otro rol de servidor. Para obtener más información sobre cómo planear la topología de Director adecuada, consulte [escenarios del Director de Lync Server 2013](lync-server-2013-scenarios-for-the-director.md) en la documentación de planeación.
 
-  - Servidor proxy inverso, que no es componente de Lync Server 2013 pero es necesario si desea permitir el uso compartido de contenidos web para los usuarios federados o para el tráfico de movilidad. No puede combinar un servidor proxy inverso con ningún rol de servidor de Lync Server 2013, aunque sí puede dar compatibilidad con servidores proxy inversos para una implementación de Lync Server 2013 configurando la compatibilidad en un servidor proxy inverso existente en su organización que se utilice para otras aplicaciones. Para obtener más detalles acerca de los servidores proxy inversos, consulte [Configuración de los servidores proxy inversos para Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) en la documentación referente a la implementación.
+  - Proxy inverso, que no es un componente de 2013 de Lync Server, pero es necesario si desea permitir el uso compartido de contenido web para usuarios federados o para admitir el tráfico de movilidad. No se puede Collocate un servidor proxy inverso con ningún rol de servidor de Lync Server 2013, pero puede implementar compatibilidad con proxy invertida para una implementación de Lync Server 2013 si configura la compatibilidad en un servidor proxy inverso existente de su organización que se usa para otros aplicación. Para obtener detalles sobre los servidores proxy inversos, vea [configuración de servidores proxy inversos para Lync Server 2013](lync-server-2013-setting-up-reverse-proxy-servers.md) en la documentación de implementación.
 
-
-> [!NOTE]
-> En Lync Server 2013, las conferencias A/V, la supervisión y el archivado ejecutados en servidores front-end han dejado de ser roles de servidor separados.
+<div>
 
 
+> [!NOTE]  
+> En Lync Server 2013, las conferencias, la supervisión y el archivado de A/V se ejecutan en servidores de aplicaciones para el usuario y ya no tienen roles de servidor diferentes.
 
-Todos los grupos front-end y servidores Standard Edition que implemente en un sitio central comparten cualquiera de los siguientes servidores que implemente para el sitio central:
 
-  - Director o grupo de directores
 
-  - Servidor de mediación independiente o grupo
+</div>
+
+Todas las agrupaciones de front-end y los servidores Standard Edition que se implementan en un sitio central comparten cualquiera de las siguientes opciones de implementación para el sitio central:
+
+  - Grupo de directores o directores
+
+  - Servidor o grupo de mediación independiente
 
   - Servidor Office Web Apps
 
-  - Servidor perimetral o grupo perimetral
+  - Servidor perimetral o grupo Edge
 
-  - Grupo o servidor de chat persistente
+  - Servidor o grupo de servidores de chat persistentes
 
   - Supervisión
 
   - Archivado
 
-
-> [!NOTE]
-> Puede implementar un servidor Mensajería unificada de Exchange con la implementación de Lync Server 2013 si desea admitir la integración de mensajería unificada de Exchange 2013, aunque este no sea un componente del sitio de Lync Server 2013.
+<div>
 
 
+> [!NOTE]  
+> Es posible implementar un servidor de mensajería unificada de Exchange con la implementación de Lync Server 2013 si desea admitir la integración de la mensajería unificada de Exchange 2013, pero no es un componente del sitio de Lync Server 2013.
 
-Varios sitios centrales también pueden compartir cualquiera de los siguientes servidores que implemente en un sitio central:
 
-  - Servidor de mediación independiente o grupo
 
-  - Servidor perimetral o grupo perimetral
+</div>
 
-  - Grupo o servidor de chat persistente
+Varios sitios centrales también pueden compartir cualquiera de las siguientes opciones que se implementan en un sitio central:
+
+  - Servidor o grupo de mediación independiente
+
+  - Servidor perimetral o grupo Edge
+
+  - Servidor o grupo de servidores de chat persistentes
 
   - Archivado
 
   - Supervisión
 
-
-> [!NOTE]
-> Es posible implementar un servidor Mensajería unificada de Exchange con la implementación de Lync Server 2013 y compartirlo entre varios sitios centrales, aunque este no sea un componente del sitio Lync Server 2013.
+<div>
 
 
+> [!NOTE]  
+> Es posible implementar un servidor de mensajería unificada de Exchange con la implementación de Lync Server 2013 y compartirlo con varios sitios centrales, pero no es un componente del sitio de Lync Server 2013.
 
-Para obtener información detallada acerca de los roles de servidor de Lync Server 2013, consulte [Roles de servidor en Lync Server 2013](lync-server-2013-server-roles.md) en la documentación sobre la planeación.
 
-Para ver un resumen de los roles de servidor de Lync Server 2013 que se pueden colocar con otros roles de servidor, consulte [Instalación de servidores compatibles en Lync Server 2013](lync-server-2013-supported-server-collocation.md).
 
-Además de los roles y la funcionalidad de servidor explicados en la sección anterior, Lync Server 2013 dispone de componentes y opciones adicionales que pueden incluir alguno de los siguientes elementos o todos ellos:
+</div>
+
+Para obtener más información sobre los roles y la funcionalidad del servidor de Lync Server 2013, vea [roles de servidor en Lync server 2013](lync-server-2013-server-roles.md) en la documentación de planeación.
+
+Para obtener un resumen de la compatibilidad de servidor de Lync Server 2013 Server collocation, consulte compatibilidad con [servidores de collocation de Lync server 2013](lync-server-2013-supported-server-collocation.md).
+
+Además de los roles de servidor y la funcionalidad que se han explicado anteriormente en esta sección, Lync Server 2013 tiene componentes y opciones adicionales, que pueden incluir algunos o todos los elementos siguientes:
 
   - Firewalls
 
-  - Puertas de enlace RTC (si implementa Enterprise Voice)
+  - Puertas de enlace RTC (si se implementa la telefonía IP empresarial)
 
-  - Servidor Mensajería unificada de Exchange
+  - Servidor de mensajería unificada de Exchange
 
   - Equilibrio de carga de DNS
 
   - Equilibradores de carga de hardware
 
-  - Bases de datos SQL Server
+  - Bases de datos de SQL Server
 
   - Recursos compartidos de archivos
 
-Para obtener información detallada acerca de todas las funciones, componentes y opciones de Lync Server 2013 consulte la documentación sobre la planeación.
+Para obtener detalles sobre todas las características, componentes y opciones de Lync Server 2013, consulte la documentación de planeación.
 
-## Topología y componentes de sitios de sucursales
+</div>
 
-Un sitio de sucursal está asociado a un sitio central, y todas las aplicaciones de sucursal con funciones de supervivencia de un sitio de sucursal están asociadas con un grupo de front-end Enterprise Edition o con un servidor Standard Edition del sitio central asociado. Los sitios de sucursales dependen del sitio central para la mayoría de sus funciones, por lo que entre los componentes de un sitio de sucursal solo pueden estar los siguientes:
+<div>
 
-  - Un Aplicación de sucursal con funciones de supervivencia, que combina una puerta de enlace de una red telefónica conmutada (RTC) con algunas funciones de Lync Server. Puede colocar un servidor de mediación con la instancia del registrador de Aplicación de sucursal con funciones de supervivencia e implementar un servidor de mediación independiente o un grupo de servidores de mediación.
+## <a name="branch-site-topologies-and-components-on-premises"></a>Topologías y componentes de sitio de sucursal (local)
 
-  - Un servidor de sucursal con funciones de supervivencia, que es un servidor de Windows Server que tiene instalado un software de servidor de registrador y de mediación de Lync Server 2013.
+Un sitio de sucursal está asociado con un sitio central, y cada uno de los dispositivos de sucursal con la supervivencia de un sitio de sucursal está asociado con un grupo de servidores front-end Enterprise Edition o un servidor Standard Edition en el sitio central asociado. Los sitios de sucursales dependen del sitio central para la mayor parte de su funcionalidad, de modo que los componentes de un sitio de sucursal contienen solo lo siguiente:
 
-  - Una puerta de enlace RTC independiente (no forma parte de la aplicación de sucursal con funciones de supervivencia) y un servidor de mediación independiente.
+  - Un equipo de sucursales con la que se combina una puerta de enlace de red telefónica conmutada (RTC) con alguna funcionalidad de Lync Server. Se puede dar un servidor de mediación con la instancia del registrador de la aplicación de rama superviviente y puede implementar un servidor de mediación o un grupo de servidores de mediación independientes.
 
-Los requisitos para servidores de sucursal con funciones de supervivencia son los mismos que para cualquier rol de servidor de Lync Server 2013.
+  - Un servidor de sucursal con la supervivencia, que es un servidor de Windows Server con el registrador de Lync Server 2013 y el software de servidor de mediación instalado.
+
+  - Una puerta de enlace independiente de RTC (que no forma parte del equipo de sucursal con supervivencia) y un servidor de mediación independiente.
+
+Los requisitos para servidores de sucursal revivientes son los mismos que los de cualquier rol de servidor de Lync Server 2013.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

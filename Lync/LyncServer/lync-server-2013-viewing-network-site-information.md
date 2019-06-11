@@ -1,47 +1,78 @@
-﻿---
-title: Visualización de la información del sitio de red
-TOCTitle: Visualización de la información del sitio de red
-ms:assetid: 24a97d98-b168-4016-81bf-c2c478092b87
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687996(v=OCS.15)
-ms:contentKeyID: 49888925
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ver información del sitio de red'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing network site information
+ms:assetid: 24a97d98-b168-4016-81bf-c2c478092b87
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687996(v=OCS.15)
+ms:contentKeyID: 49733586
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 788440d02a3f41198a870f8419cece4dc8e66900
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850067"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visualización de la información del sitio de red
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="viewing-network-site-information-in-lync-server-2013"></a>Ver información del sitio de red en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-Los sitios de red son las oficinas o ubicaciones configuradas dentro de cada región de una implementación de Enhanced 9-1-1 o control de admisión de llamadas (CAC). Puede ver la información de sitio de red en Panel de control de Lync Server 2013 o Shell de administración de Lync Server. Para obtener detalles acerca de la creación o modificación de sitios de red, vea [Creación o modificación de sitios de red](lync-server-2013-creating-or-modifying-network-sites.md).
+Los sitios de red son las oficinas o ubicaciones configuradas dentro de cada región de control de admisión de llamadas (CAC) o implementación mejorada de 9-1-1. Puede ver la información del sitio de red en el panel de control de Lync Server 2013 o en el shell de administración de Lync Server. Para obtener detalles sobre cómo crear o modificar sitios de red, vea [crear o modificar sitios de red en Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).
 
-## Para ver información de sitio de red en Panel de control de Lync Server
+<div>
+
+## <a name="to-view-network-site-information-in-lync-server-control-panel"></a>Para ver la información del sitio de red en el panel de control de Lync Server
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Sitio** .
+3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, después, en **sitio**.
 
-4.  En la página **Sitio**, haga clic en el sitio que desea ver.
+4.  En la página del **sitio** , haga clic en el sitio que desea ver.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Solo puede ver información para un sitio cada vez.
+    > [!NOTE]  
+    > Solo puede ver la información de un sitio a la vez.
 
+    
+    </div>
 
+5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
 
-5.  En el menú **Editar** , haga clic en **Mostrar detalles** .
+</div>
 
-## Para ver información de sitio de red usando los cmdlets de Shell de administración de Lync Server
+<div>
 
-Puede ver la información de sitio de red usando el cmdlet Get-CsNetworkSite. Este cmdlet se puede ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+## <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>Ver información del sitio de red con cmdlets de Windows PowerShell
 
-## Para ver la información de sitio de red
+Puede ver la información del sitio de red con Windows PowerShell y el cmdlet Get-CsNetworkSite. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
-  - Para ver la información acerca de todos sus sitios de red, escriba el siguiente comando en el Shell de administración de Lync Server y, a continuación, presione ENTRAR:
+<div>
+
+## <a name="to-view-network-site-information"></a>Para ver la información del sitio de red
+
+  - Para ver información sobre todos los sitios de red, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
     
         Get-CsNetworkSite
     
@@ -55,12 +86,30 @@ Puede ver la información de sitio de red usando el cmdlet Get-CsNetworkSite. Es
         BWPolicyProfileID :
         LocationPolicy    :
 
-Para obtener más información, vea el tema de la Ayuda para el cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSite).
+</div>
 
-## Vea también
+Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsNetworkSite](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSite) .
 
-#### Tareas
+</div>
 
-[Creación o modificación de sitios de red](lync-server-2013-creating-or-modifying-network-sites.md)  
-[Eliminación de un sitio de red existente](lync-server-2013-deleting-an-existing-network-site.md)
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Crear o modificar sitios de red en Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md)  
+[Eliminar un sitio de red existente en Lync Server 2013](lync-server-2013-deleting-an-existing-network-site.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

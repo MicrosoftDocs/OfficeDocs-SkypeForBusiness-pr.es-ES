@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing dial-in conferencing session'
+---
+title: 'Lync Server 2013: probar la sesión de conferencia de acceso telefónico local'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing dial-in conferencing session
 ms:assetid: 6c505be5-5af7-450c-b3ca-10d9122bee5c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn743834(v=OCS.15)
-ms:contentKeyID: 62279344
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743834(v=OCS.15)
+ms:contentKeyID: 63969613
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: efcc6d9277f7333989c59b812ed76087b9b6ca9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850351"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing dial-in conferencing session in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="testing-dial-in-conferencing-session-in-lync-server-2013"></a>Probar la sesión de conferencia de acceso telefónico local en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-06-05_
 
 
 <table>
@@ -23,91 +43,117 @@ _**Última modificación del tema:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Programación de verificación</p></td>
+<td><p>Cada día</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Herramienta de prueba</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de administración de Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsDialInConferencing cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permisos necesarios</p></td>
+<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsDialInConferencing. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDialInConferencing&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsDialInConferencing cmdlet verifies whether a user can participate in a dial-in conference. Test-CsDialInConferencing works by trying to log a test user onto the system. If the logon succeeds, the cmdlet will then use the user’s credentials and permissions to try all of the available dial-in conferencing access numbers. The success or failure of each dial-in try will be noted, then the test user will be logged off from Lync Server.Test-CsDialInConferencing only verifies that the appropriate connections can be made. The cmdlet does not actually make any phone calls or create any dial-in conferences that other users can join.
+## <a name="description"></a>Descripción
 
-## Running the test
+El cmdlet test-CsDialInConferencing comprueba si un usuario puede participar en una conferencia de acceso telefónico local. Test-CsDialInConferencing funciona intentando registrar un usuario de prueba en el sistema. Si el inicio de sesión se realiza correctamente, el cmdlet usará las credenciales y permisos del usuario para probar todos los números de acceso disponibles para la Conferencia de acceso telefónico local. El éxito o el fracaso de cada prueba de acceso telefónico se anotará, luego el usuario de prueba se cerrará en Lync Server. prueba-CsDialInConferencing solo verifica que se puedan realizar las conexiones apropiadas. En realidad, el cmdlet no realiza llamadas telefónicas ni crea conferencias de acceso telefónico local a las que otros usuarios pueden unirse.
 
-The Test-CsDialInConferencing cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ejecutar la prueba
+
+El cmdlet test-CsDialInConferencing se puede ejecutar mediante una cuenta de prueba preconfigurada (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación mediante una cuenta de prueba, solo tiene que especificar el FQDN del grupo de servidores de Lync que se está probando. Por ejemplo:
 
     Test-CsDialInConferencing -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-To run this check using an actual user account, you must create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the account SIP address the calling Test-CsDialInConferencing:
+Para ejecutar esta comprobación mediante una cuenta de usuario real, debe crear un objeto de credenciales de Windows PowerShell que contenga el nombre de la cuenta y la contraseña. A continuación, debe incluir ese objeto de credenciales y la dirección SIP de la cuenta de la prueba de llamada: CsDialInConferencing:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsDialInConferencing -TargetFqdn atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsDialInConferencing](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsDialInConferencing) cmdlet.
+Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/Test-CsDialInConferencing) .
 
-## Determining success or failure
+</div>
 
-If the specified user can log on to Lync Server and then make a connection using one of the available dial-in conferencing access numbers, then you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
 
-Result : Success
+Si el usuario especificado puede iniciar sesión en Lync Server y, a continuación, realizar una conexión con uno de los números de acceso de conferencia de acceso telefónico local disponibles, recibirá un resultado similar a este, con la propiedad result marcada como **correcta:**
 
-Latency : 00:00:06.8630376
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+Resultado: éxito
 
-Diagnosis :
+Latencia: 00:00:06.8630376
 
-If the specified user can't make this connection, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+:
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Diagnóstico
 
-Result : Failure
+Si el usuario especificado no puede establecer esta conexión, el resultado se mostrará como error y la información adicional se registrará en las propiedades de diagnóstico y errores:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : The log on was denied. Check that the proper credentials are
+Resultado: error
 
-being used and the account is active.
+Latencia: 00:00:00
 
-Inner Exception:NegotiateSecurityAssociation failed, error: -
+Error: se denegó el inicio de sesión. Comprobar que las credenciales correctas son
+
+se está usando y la cuenta está activa.
+
+Excepción interna: error de NegotiateSecurityAssociation, error:-
 
 2146893044
 
-Diagnosis :
+Diagnóstico
 
-The previous output indicates that the test user was denied access to Lync Server itself. This typically means that the user credentials passed to Test-CsDialInConferencing were not valid. In turn, you should re-create the Windows PowerShell credentials object. Although you can retrieve the password for the user account, you can verify the SIP address by using a command similar to this:
+El resultado anterior indica que el usuario de prueba ha denegado el acceso a Lync Server. Normalmente, esto significa que las credenciales de usuario pasadas a test-CsDialInConferencing no eran válidas. A su vez, debe volver a crear el objeto de credenciales de Windows PowerShell. Aunque puede recuperar la contraseña de la cuenta de usuario, puede comprobar la dirección SIP con un comando parecido a este:
 
     Get-CsUser -Identity "sip:kenmyer@litwareinc.com" | Select-Object SipAddress
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsDialInConferencing might fail:
+<div>
 
-  - You specified a user account that is not valid. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+
+Estas son algunas de las razones comunes por las que test-CsDialInConferencing podría fallar:
+
+  - Ha especificado una cuenta de usuario que no es válida. Puede comprobar que una cuenta de usuario existe ejecutando un comando similar a este:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account is enabled for Lync Server, run a command similar to the following:
+  - La cuenta de usuario es válida, pero la cuenta no está habilitada actualmente para Lync Server. Para comprobar que una cuenta de usuario está habilitada para Lync Server, ejecute un comando similar al siguiente:
     
         Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Si la propiedad Enabled se establece en false, significa que el usuario no está habilitado actualmente para Lync Server.
 
-  - You might have an incorrect dial-in conferencing access number. You can return your currently-configured list of dial-in conferencing access numbers by using this command:
+  - Es posible que tenga un número de acceso de conferencia de acceso telefónico local incorrecto. Puede devolver la lista configurada actualmente de números de acceso a la Conferencia de acceso telefónico local con este comando:
     
         Get-CsDialConferencingAccessNumber
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

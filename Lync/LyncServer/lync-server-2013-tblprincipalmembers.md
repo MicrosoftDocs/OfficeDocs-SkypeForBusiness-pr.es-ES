@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalMembers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalMembers
 ms:assetid: 9a3e24cf-6ef7-4b82-99fc-50ba41800b6f
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615022(v=OCS.15)
-ms:contentKeyID: 48276123
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615022(v=OCS.15)
+ms:contentKeyID: 48184965
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b35af88b4b1c0e32ceb6af97b379ded66b437f7d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850478"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipalMembers en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="tblprincipalmembers-in-lync-server-2013"></a>tblPrincipalMembers en Lync Server 2013
 
-tblPrincipalMembers contiene pertenencias de la entidad principal.
+</div>
 
-### Columnas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-12_
+
+tblPrincipalMembers contiene pertenencias principales.
+
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>
@@ -35,19 +55,19 @@ tblPrincipalMembers contiene pertenencias de la entidad principal.
 <tbody>
 <tr class="odd">
 <td><p>prinID</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Identificador de la entidad de seguridad</p></td>
+<td><p>int, not null</p></td>
+<td><p>IDENTIFICADOR principal.</p></td>
 </tr>
 <tr class="even">
 <td><p>memberADPath</p></td>
-<td><p>nvarchar (384), no NULL</p></td>
-<td><p>Nombre distintivo de un miembro. Un miembro no tiene por qué ser una entidad principal (en la tabla tblPrincipal).</p></td>
+<td><p>nvarchar (384), not null</p></td>
+<td><p>Nombre distintivo de un miembro. Un miembro no tiene que ser un principal (en la tabla tblPrincipal).</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Teclas
+### <a name="keys"></a>Sus
 
 <table>
 <colgroup>
@@ -67,8 +87,19 @@ tblPrincipalMembers contiene pertenencias de la entidad principal.
 </tr>
 <tr class="even">
 <td><p>prinID</p></td>
-<td><p>Clave externa con búsqueda en tblPrincipal.prinID.</p></td>
+<td><p>Clave externa con la búsqueda en tblPrincipal. prinID.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

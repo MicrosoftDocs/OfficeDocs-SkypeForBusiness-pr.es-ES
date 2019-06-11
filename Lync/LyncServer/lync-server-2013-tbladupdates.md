@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblADUpdates'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblADUpdates
 ms:assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615033(v=OCS.15)
-ms:contentKeyID: 48276478
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615033(v=OCS.15)
+ms:contentKeyID: 48185227
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: f171d8346442f915cd71fb48d51bba80bcfa32ca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850511"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblADUpdates en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="tbladupdates-in-lync-server-2013"></a>tblADUpdates en Lync Server 2013
 
-tblADUpdate contiene los cambios de Servicios de dominio de Active Directory que aún no se han procesado en los últimos pasos de la sincronización de Active Directory.
+</div>
 
-### Columnas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-12_
+
+tblADUpdates contiene cambios de servicios de dominio de Active Directory que aún no han sido procesados por los pasos más recientes de sincronización de Active Directory.
+
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>
@@ -35,39 +55,50 @@ tblADUpdate contiene los cambios de Servicios de dominio de Active Directory que
 <tbody>
 <tr class="odd">
 <td><p>prinGuid</p></td>
-<td><p>GUID, no NULL</p></td>
-<td><p>GUID principal del objeto que ha cambiado.</p></td>
+<td><p>GUID, not null</p></td>
+<td><p>GUID principal del objeto que cambió.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinADPath</p></td>
-<td><p>nvarchar (384), no NULL</p></td>
+<td><p>nvarchar (384), not null</p></td>
 <td><p>Nombre distintivo del objeto.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAttributesChanged</p></td>
-<td><p>bit, no NULL</p></td>
+<td><p>bit, not null</p></td>
 <td><p>True si ha cambiado al menos un atributo del objeto.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinMembersChanged</p></td>
-<td><p>bit, no NULL</p></td>
-<td><p>True si ha cambiado la pertenencia.</p></td>
+<td><p>bit, not null</p></td>
+<td><p>True si la pertenencia ha cambiado.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prinAffiliationsChanged</p></td>
-<td><p>bit, no NULL</p></td>
-<td><p>No se usa.</p></td>
+<td><p>bit, not null</p></td>
+<td><p>No usado.</p></td>
 </tr>
 <tr class="even">
 <td><p>prinDeleted</p></td>
-<td><p>bit, no NULL</p></td>
-<td><p>True si se ha eliminado el objeto.</p></td>
+<td><p>bit, not null</p></td>
+<td><p>True si el objeto se ha eliminado.</p></td>
 </tr>
 <tr class="odd">
 <td><p>lastUpdated</p></td>
-<td><p>datetime, no NULL</p></td>
-<td><p>Marca de tiempo correspondiente al momento en que se insertó la fila.</p></td>
+<td><p>DateTime, not null</p></td>
+<td><p>Marca de tiempo del momento en que se insertó la fila.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

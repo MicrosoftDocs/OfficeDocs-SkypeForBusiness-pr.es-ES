@@ -1,31 +1,55 @@
-﻿---
-title: Requisitos de conferencia web
-TOCTitle: Requisitos de conferencia web
-ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ619171(v=OCS.15)
-ms:contentKeyID: 49115270
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: requisitos de conferencia Web'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Web conferencing requirements
+ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619171(v=OCS.15)
+ms:contentKeyID: 49733559
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dddfd7c2fdfe6cbcefcca7533e93c3c377cceea8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850015"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de conferencia web
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="web-conferencing-requirements-in-lync-server-2013"></a>Requisitos de conferencia web en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-01-30_
 
 Si ha elegido habilitar la conferencia web, tiene que planear lo siguiente:
 
-   Obtenga acceso al almacén de archivos, que se usa para almacenar contenido de conferencia web.  
+  - <span></span>  
+    Obtenga acceso al almacén de archivos, que se usa para almacenar contenido de conferencia web.
 
-   Integración con Servidor Office Web Apps, que es necesaria para compartir archivos de PowerPoint durante una conferencia.  
+  - <span></span>  
+    Integración con Office Web Apps Server, que es necesaria para compartir archivos de PowerPoint durante una conferencia.
 
-## Almacén de archivos
+<div>
 
-El servicio de conferencia web de Lync Server 2013 almacena contenido compartido durante las reuniones en el almacén de archivos. Como parte de la implementación, debe especificar un recurso compartido de archivo para usarlo como el almacén de archivos para el servidor de Standard Edition o Enterprise EditionGrupo de servidores front-end. Para ello, use un recurso compartido de archivos ya creado o especificar uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso. Para obtener más información, vea Generador de topologías – Definir el almacén de archivos para el front-end. El servicio de conferencia web cifra el contenido antes de almacenarlo en el almacén de archivos.
+## <a name="file-store"></a>Almacén de archivos
 
-Lync Server 2013 admite el uso de recursos compartidos de red en el almacenamiento conectado directo (DAS) o una red de área de almacenamiento (SAN), incluyendo el Sistema de archivos distribuido (DFS) en una matriz redundante de discos independientes (RAID) para almacenes de archivos. Una vez que la Asistente para la implementación de Lync Server ha definido la ubicación de un recurso compartido de archivos, Lync Server crea una estructura de carpetas dentro del mismo recurso compartido de archivos similar a la siguiente:
+El servicio de conferencias web de Lync Server 2013 almacena contenido compartido durante las reuniones del almacén de archivos. Como parte de la implementación, debe especificar un recurso compartido de archivos para usarlo como el almacén de archivos para el servidor Standard Edition o el grupo front-end de Enterprise Edition. Para ello, use un recurso compartido de archivos ya creado o especifique uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso.Para obtener más información, vea generador de topologías: defina el almacén de archivos para el front-end. El servicio de conferencia web cifra el contenido antes de almacenarlo en el almacén de archivos.
+
+Lync Server 2013 admite el uso de recursos compartidos de archivos en almacenamiento de conexión directa (DAS) o en una red de área de almacenamiento (SAN), incluido el sistema de archivos distribuido (DFS) y en una matriz redundante de discos independientes (RAID) para los almacenes de archivos. Una vez que el Asistente para la implementación de Lync Server haya definido la ubicación del recurso compartido de archivos, Lync Server creará una estructura de carpetas dentro del recurso compartido de archivos similar a:
 
   - 1-ApplicationServer-1
 
@@ -41,20 +65,25 @@ Lync Server 2013 admite el uso de recursos compartidos de red en el almacenamien
 
 El servicio de conferencia web almacena entonces el contenido como diapositivas de PowerPoint, pizarras, sondeos y datos adjuntos en las carpetas CollabContent y CollabMetadata, que se encuentran en la carpeta WebServices.
 
-El administrador debe establecer permisos en el recurso compartido de archivos de manera que los grupos RTC tengan el acceso de lectura y escritura necesario.
+El administrador debe establecer permisos en el recurso compartido de archivos para que los grupos de RTC tengan el acceso necesario de lectura y escritura.
+
+<div>
+
 
 > [!WARNING]  
-> Si encuentra errores con los permisos, abra el Generador de topologías, descargue la topología existente y vuelva a publicarla. La publicación de la topología comprobará los permisos de recurso compartido de archivos y los restablecerá en caso necesario.
+> Si encuentra algún error con los permisos, abra el generador de topologías, descargue y vuelva a publicar la topología existente. La publicación de la topología comprobará los permisos de uso compartido de archivos y los restablecerá si es necesario.
 
 
 
-Puede usar los siguientes valores para administrar la manera en que se almacena el contenido para una reunión:
+</div>
 
-  - **ContentGracePeriod**, que se encuentra en [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), establece cuánto tiempo la conferencia web permanecerá en el servidor una vez haya acabado la reunión.
+Puede usar la siguiente configuración para administrar la forma en que se almacena el contenido de una reunión:
 
-  - **MaxContentStorageMb**, que se encuentra en [Set-CsConferencingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingConfiguration), establece la cantidad máxima del espacio de archivo permitido para el almacenamiento de contenido durante una reunión única.
+  - **ContentGracePeriod**, que se encuentra en [set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration), establece cuánto tiempo permanecerá contenido en el servidor una vez que la reunión haya finalizado.
 
-**MaxUploadFileSizeMb** no limita la configuración de carga de archivos para Lync Web App. El límite de carga de tamaño de archivo para Lync Web App se establece en aproximadamente 30 MB y se controla por el archivo web.config de IIS: /DataCollabWeb/Int\[Ext\]/Handler/web.config. Para configurar el límite de carga de tamaño de archivo para Lync Web App, actualice `maxRequestLength` y `maxAllowedContentLength` en el archivo web.config que se muestra a continuación.
+  - **MaxContentStorageMb**, que se encuentra en [set-CsConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingConfiguration), establece la cantidad máxima de espacio de archivo permitido para el almacenamiento de contenido durante una sola reunión.
+
+**MaxUploadFileSizeMb** no limita la configuración de carga de archivos de Lync Web App. El límite de carga de tamaño de archivo para Lync Web App se establece en aproximadamente 30 MB y está controlado por el archivo Web.\[config\]de IIS:/DataCollabWeb/int ext/handler/Web.config. Para configurar el límite de carga del tamaño de archivo de Lync Web `maxRequestLength` APP `maxAllowedContentLength` , actualice y en el archivo Web. config tal como se muestra a continuación.
 
     <system.web>
         <!-- 
@@ -74,16 +103,36 @@ Puede usar los siguientes valores para administrar la manera en que se almacena 
                     </requestFiltering>
                     </security>
 
-Debe actualizar el archivo web.config para cada Servidor front-end.
+Debe actualizar el archivo Web. config para cada servidor front-end.
 
-## Servidor Office Web Apps
+</div>
 
-Para usar nuevas capacidades los administradores deben instalar Servidor Office Web Apps y deben configurar Lync Server 2013 para comunicarse con Servidor Office Web Apps. Esta documentación ofrece información acerca de cómo configurar Lync Server 2013 para que trabaje con Servidor Office Web Apps. Lo que esta documentación no ofrece es información acerca de cómo instalar Servidor Office Web Apps. Para obtener detalles de instalación, vea el sitio web de implementación de aplicación web de Microsoft Office en <http://go.microsoft.com/fwlink/?linkid=257525>. Esa guía incluye información completa de requisitos previos para Servidor Office Web Apps. Tenga en cuenta que se debe instalar Servidor Office Web Apps en un equipo independiente que no está ejecutando Lync Server, SQL Server, o cualquier otra aplicación de servidor. (No debe tener ninguna versión de Office instalada en dicho equipo.) Cualquier equipo usado para ejecutar Servidor Office Web Apps también debe tener un conjunto específico de software instalado (incluido .NET Framework 4.5 y Windows PowerShell 3.0). Estos requisitos, junto con información acerca de la configuración de certificados y Servicios de Internet Information Server (IIS), se tratan detenidamente en el sitio web de implementación de aplicaciones web de Microsoft Office en <http://go.microsoft.com/fwlink/?linkid=257525>.
+<div>
 
-## Vea también
+## <a name="office-web-apps-server"></a>Servidor Office Web Apps
 
-#### Conceptos
+Para poder usar estas nuevas funciones, los administradores deben instalar Office Web Apps Server y deben configurar Lync Server 2013 para comunicarse con Office Web Apps Server. Esta documentación proporciona información sobre cómo configurar Lync Server 2013 para que funcione con Office Web Apps Server. Lo que no ofrece esta documentación es información sobre cómo instalar Office Web Apps Server. Para obtener información sobre la instalación, vea el sitio web de implementación <http://go.microsoft.com/fwlink/p/?linkid=257525>de Microsoft Office Web Apps en. Esta guía incluye información completa de requisitos previos para Office Web Apps Server. Tenga en cuenta que Office Web Apps Server debe instalarse en un equipo independiente que no ejecute Lync Server, SQL Server ni ninguna otra aplicación de servidor. (No debe tener ninguna versión de Office instalada en ese equipo). Cualquier equipo usado para ejecutar Office Web Apps Server también debe tener instalado un conjunto específico de software (incluidos .NET Framework 4,5 y Windows PowerShell 3,0). Estos requisitos, junto con información sobre cómo configurar certificados y servicios de información de Internet (IIS), se tratan en detalle en el sitio web de implementación <http://go.microsoft.com/fwlink/p/?linkid=257525>de Microsoft Office Web Apps en.
 
-[Información general sobre la conferencia web en Lync Server 2013](lync-server-2013-web-conferencing-overview.md)  
-[Lista de comprobaciones para la implementación de conferencias web en Lync Server 2013](lync-server-2013-deployment-checklist-for-web-conferencing.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Información general sobre las conferencias web en Lync Server 2013](lync-server-2013-web-conferencing-overview.md)  
+[Lista de comprobación de implementación para conferencias web en Lync Server 2013](lync-server-2013-deployment-checklist-for-web-conferencing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

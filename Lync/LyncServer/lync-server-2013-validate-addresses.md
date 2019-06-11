@@ -1,25 +1,45 @@
-﻿---
-title: Validar direcciones
-TOCTitle: Validar direcciones
-ms:assetid: aae557c9-e6f5-4d23-8af1-1d4cd7968c54
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412808(v=OCS.15)
-ms:contentKeyID: 48276321
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: validar direcciones'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Validate addresses
+ms:assetid: aae557c9-e6f5-4d23-8af1-1d4cd7968c54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412808(v=OCS.15)
+ms:contentKeyID: 48185108
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 57ae7698a50706ed0076650a657a8ec503ffa6aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850155"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Validar direcciones
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="validate-addresses-in-lync-server-2013"></a>Validar direcciones en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-17_
 
-Antes de publicar la base de datos de las ubicaciones, debe validar las nuevas ubicaciones comparándolas con la guía de direcciones que mantiene el proveedor de servicios de emergencia.
+Antes de publicar la base de datos de ubicación, debe validar nuevas ubicaciones en relación con la guía de dirección maestra (MSAG) que mantiene su tronco de SIP o la red de telefonía pública conmutada (RTC) E9-1-1 proveedor de servicios.
 
-Para más información sobre los proveedores de servicios de emergencia, consulte [Selección de un proveedor de servicios E9-1-1 en Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
+Para obtener más información sobre los proveedores de servicios E9-1-1 de SIP, consulte [elección de un proveedor de servicios de E9-1-1 para Lync Server 2013](lync-server-2013-choosing-an-e9-1-1-service-provider.md).
 
-Para más información sobre la validación de direcciones, consulte la documentación del Shell de administración de Lync Server para los siguientes cmdlets:
+Para obtener detalles sobre la validación de direcciones, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
   - **Get-CsLisServiceProvider**
 
@@ -29,20 +49,34 @@ Para más información sobre la validación de direcciones, consulte la document
 
   - **Get-CsLisCivicAddress**
 
-  - **Test-CsLisCivicAddress**
+  - **Prueba-CsLisCivicAddress**
 
-## Para validar direcciones ubicadas en la base de datos de ubicaciones
+<div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+## <a name="to-validate-addresses-located-in-the-location-database"></a>Para validar direcciones ubicadas en la base de datos de ubicaciones
 
-2.  Para configurar la conexión de proveedor de servicios de emergencia, ejecute los siguientes cmdlets.
+1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+
+2.  Ejecute los cmdlets siguientes para configurar la conexión de proveedor de servicios de emergencia.
     
         $pwd = Read-Host -AsSecureString <password>
         Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
 
-3.  Para validar las direcciones en la base de datos de ubicaciones, ejecute el siguiente cmdlet.
+3.  Ejecute el cmdlet siguiente para validar las direcciones en la base de datos de ubicaciones.
     
         Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
     
     También puede usar el cmdlet **Test-CsLisCivicAddress** para validar direcciones individuales.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

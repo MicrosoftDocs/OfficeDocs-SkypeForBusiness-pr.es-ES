@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing ability to do group IM'
+---
+title: 'Lync Server 2013: capacidad de pruebas para realizar conversaciones grupales'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing ability to do group IM
 ms:assetid: ca5545bc-51ac-490f-b96b-917bb742ad04
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn743839(v=OCS.15)
-ms:contentKeyID: 62279349
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743839(v=OCS.15)
+ms:contentKeyID: 63969652
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: c371db385b29f68aa8cc9280a901d095c43f2ac2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850364"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing ability to do group IM in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="testing-ability-to-do-group-im-in-lync-server-2013"></a>Capacidad de pruebas para realizar una conversación grupal en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-06-05_
 
 
 <table>
@@ -23,126 +43,152 @@ _**Última modificación del tema:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Programación de verificación</p></td>
+<td><p>Cada día</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Herramienta de prueba</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de administración de Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsGroupIM cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permisos necesarios</p></td>
+<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsGroupIM. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsGroupIM&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsGroupIM cmdlet verifies that users in your organization can conduct group instant messaging sessions. When you run Test-CsGroupIM, the cmdlet attempts to sign in a pair of test users to Lync Server. If successful, Test-CsGroupIM creates a new conference using the first test user, then invites the second user to join the conference. After an exchange of messages, both users are then disconnected from the system. Note that all of this happens without any user interaction, and without affecting any actual users. For example, suppose that the test account sip:kenmyer@litwareinc.com corresponds to a real user who has a real Lync Server account. In that case, the test will be conducted without any disruption to the real Ken Myer. For example, even when the Ken Myer test account logs off from the system, Ken Myer the person will remain logged on. Likewise, the real Ken Myer won't receive an invitation to join the conference. That invitation will be sent to, and accepted by, the test account.
+## <a name="description"></a>Descripción
 
-For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupIM) cmdlet.
+El cmdlet test-CsGroupIM verifica que los usuarios de su organización puedan realizar sesiones grupales de mensajería instantánea. Al ejecutar test-CsGroupIM, el cmdlet intenta iniciar sesión en un par de usuarios de prueba para Lync Server. Si se realiza correctamente, test-CsGroupIM crea una nueva conferencia con el primer usuario de prueba y, a continuación, invita al segundo usuario a unirse a la Conferencia. Después de un intercambio de mensajes, ambos usuarios se desconectan del sistema. Tenga en cuenta que todo esto se produce sin la intervención del usuario y sin afectar a los usuarios reales. Por ejemplo, supongamos que el sip:kenmyer@litwareinc.com de la cuenta de prueba corresponde a un usuario real que tiene una cuenta real de Lync Server. En ese caso, la prueba se realizará sin interrupciones en real Ken Myer. Por ejemplo, incluso cuando la cuenta de prueba Ken Myer cierra la sesión desde el sistema, Ken Myer la persona permanecerá conectada. Del mismo modo, los verdaderos Ken Myer no recibirán una invitación para unirse a la Conferencia. La invitación se enviará a la cuenta de prueba y la aceptará.
 
-## Running the test
+Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) .
 
-The Test-CsGroupIM cmdlet can be run using either a pair of preconfigured test accounts (see Setting Up Test Accounts for Running Lync Server Tests) or the accounts of any two users who are enabled for Lync Server. To run this check using test accounts, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ejecutar la prueba
+
+El cmdlet test-CsGroupIM se puede ejecutar con un par de cuentas de prueba preconfiguradas (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o las cuentas de dos usuarios que están habilitados para Lync Server. Para ejecutar esta comprobación mediante cuentas de prueba, solo tiene que especificar el FQDN del grupo de servidores de Lync que se está probando. Por ejemplo:
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using actual user accounts, you must create two Shell de administración de Lync Server credentials objects (objects that contain the account name and password) for each account. You must then include those credentials objects and the SIP addresses of the two accounts when you call Test-CsGroupIM:
+Para ejecutar esta comprobación con las cuentas de usuario reales, debe crear dos objetos de credenciales del shell de administración de Lync Server (objetos que contengan el nombre y la contraseña de la cuenta) de cada cuenta. Después, debe incluir esos objetos de credenciales y las direcciones SIP de las dos cuentas cuando llame a test-CsGroupIM:
 
     $credential1 = Get-Credential "litwareinc\kenmyer"
     $credential2 = Get-Credential "litwareinc\davidlongmire"
     Test-CsGroupIm -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:kenmyer@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:davidlongmire@litwareinc.com" -ReceiverCredential $credential2
 
-For more information, see the Help documentation for the [Test-CsGroupIM](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsGroupIM) cmdlet.
+Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsGroupIM](https://docs.microsoft.com/powershell/module/skype/Test-CsGroupIM) .
 
-## Determining Success or Failure
+</div>
 
-If the two users can complete a group instant messaging session, you'll receive output similar to this with the Result property marked as **Success:**
+<div>
 
-TargetFqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
 
-Result : Success
+Si los dos usuarios pueden completar una sesión de mensajería instantánea grupal, recibirá un resultado similar a este con la propiedad resultado marcada como **correcto:**
 
-Latency : 00:00:06.3812203
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+Resultado: éxito
 
-Diagnosis :
+Latencia: 00:00:06.3812203
 
-If the two users can't able to complete the instant messaging session, then the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+:
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Diagnóstico
 
-Result : Failure
+Si los dos usuarios no pueden completar la sesión de mensajería instantánea, el resultado se mostrará como error y la información adicional se registrará en las propiedades de error y diagnóstico:
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 404, Not Found
+Resultado: error
 
-Diagnosis : ErrorCode=4005,Source=atl-cs-001.litwareinc.com,
+Latencia: 00:00:00
 
-Reason=Destination URI either not enabled for SIP or does not
+Error: 404, no se encontró
 
-exist.
+Diagnosis: ErrorCode = 4005, Source = ATL-CS-001.litwareinc.com,
 
-Microsoft.Rtc.Signaling.DiagnosticHeader
+Motivo = URI de destino no habilitado para SIP o no
 
-The previous output states that the test failed because at least one of the test accounts was not valid, either because the account does not exist or because the user has not been enabled for Lync Server. You can verify the account exists, and whether or not the account has been enabled for nm-ocs-14-3rd by running a command similar to this:
+condiciones.
+
+Microsoft. RTC. Signaling. DiagnosticHeader
+
+El resultado anterior indica que la prueba no se realizó correctamente porque al menos una de las cuentas de prueba no era válida, ya sea porque la cuenta no existe o porque el usuario no se ha habilitado para Lync Server. Puede comprobar si la cuenta existe y si la cuenta ha sido habilitada para nm-OCS-14-3rd ejecutando un comando similar a este:
 
     "Ken Myer", "David Longmire" | Get-CsUser | Select-Object SipAddress, Enabled
 
-If Test-CsGroupIM fails, then you might want to rerun the test, this time including the Verbose parameter:
+Si prueba-CsGroupIM da error, es posible que desee volver a ejecutar la prueba, esta vez incluido el parámetro detallado:
 
     Test-CsGroupIM -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsGroupIM will return a step-by-step account of each action it tried when it checked the ability of the specified users to participate in a group instant messaging sessions. For example, if your test fails and you are told that one or more of the user accounts is not valid, you can rerun the test using the Verbose parameter and determine which user account is not valid:
+Cuando se incluye el parámetro detallado, test-CsGroupIM devolverá una cuenta paso a paso de cada acción que se probó cuando se comprobó la capacidad de los usuarios especificados para participar en una sesión de mensajería instantánea grupal. Por ejemplo, si se produce un error en la prueba y se dice que una o varias de las cuentas de usuario no son válidas, puede volver a ejecutar la prueba con el parámetro detallado y determinar qué cuenta de usuario no es válida:
 
-Sending Registration request:
+Enviando solicitud de registro:
 
- Target Fqdn      = atl-cs-001.litwareinc.com
+ FQDN de destino = atl-cs-001.litwareinc.com
 
- User SIP Address = sip:kenmyer@litwareinc.com
+ Dirección SIP del usuario = sip:kenmyer@litwareinc.com
 
- Register Port    = 5061
+ Registrar puerto = 5061
 
-Auth type 'IWA' is selected.
+El tipo de autenticación ' IWA ' está seleccionado.
 
-An exception 'The log on was denied. Check that the correct credentials are being used and the account is active'
+Excepción ' se denegó el inicio de sesión. Compruebe que se están usando las credenciales correctas y que la cuenta está activa.
 
-As you can see, in this example the user who has the SIP address sip:kenmyer@litwareinc.com was not able to log on.
+Como puede ver, en este ejemplo, el usuario que tiene la dirección SIP sip:kenmyer@litwareinc.com no pudo iniciar sesión.
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsGroupIM might fail:
+<div>
 
-  - You specified an incorrect user account. You can verify that a user account exists by running a command similar to this:
+## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+
+Estas son algunas de las razones comunes por las que test-CsGroupIM podría fallar:
+
+  - Ha especificado una cuenta de usuario incorrecta. Puede comprobar que una cuenta de usuario existe ejecutando un comando similar a este:
     
         Get-CsUser "sip:kenmyer@litwareinc.com"
 
-  - The user account is valid, but the account is currently not enabled for Lync Server. To verify that a user account was enabled for Lync Server, run a command similar to the following:
+  - La cuenta de usuario es válida, pero la cuenta no está habilitada actualmente para Lync Server. Para comprobar que una cuenta de usuario se ha habilitado para Lync Server, ejecute un comando similar al siguiente:
     
-    Get-CsUser "sip:kenmyer@litwareinc.com" | Select-Object Enabled
+    Get-CsUser "sip:kenmyer@litwareinc.com" | Seleccionar-objeto habilitado
     
-    If the Enabled property is set to False, that means that the user is currently not enabled for Lync Server.
+    Si la propiedad Enabled se establece en false, significa que el usuario no está habilitado actualmente para Lync Server.
 
-  - The instant messaging service might not be available. With Lync Server, you can configure the system so that instant messaging is not available if the archiving database cannot be accessed. You can verify that by running a command similar to the following:
+  - Es posible que el servicio de mensajería instantánea no esté disponible. Con Lync Server, puede configurar el sistema para que la mensajería instantánea no esté disponible si no se puede obtener acceso a la base de datos de archivado. Puede comprobar que al ejecutar un comando similar al siguiente:
     
         Get-CsArchivingConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object BlockOnArchiveFailure
     
-    If BlockOnArchiveFailure is set to True, then you should determine whether or not the archiving database is available. You can return the locations of your archiving databases by using the following command:
+    Si BlockOnArchiveFailure se establece en true, debe determinar si la base de datos de archivado está disponible o no. Puede devolver las ubicaciones de las bases de datos de archivado con el siguiente comando:
     
         Get-CsService -ArchivingDatabase
 
-  - The Archiving Server might not be available. You can retrieve the FQDN of your Archiving Servers by using this command:
+  - Es posible que el servidor de archivado no esté disponible. Puede recuperar el FQDN de los servidores de archivado con este comando:
     
         Get-CsService -ArchivingServer
     
-    You can then ping the appropriate server to verify that it is available. For example:
+    Después, puede hacer ping al servidor apropiado para comprobar que está disponible. Por ejemplo:
     
         ping atl-archiving-001.litwareinc.com
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

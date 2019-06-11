@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing Exchange to Lync notifications'
+---
+title: 'Lync Server 2013: pruebas de notificaciones de Exchange a Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing Exchange to Lync notifications
 ms:assetid: ed2d6325-3cf5-4450-9951-03092bcb0a7c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn727315(v=OCS.15)
-ms:contentKeyID: 62388678
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727315(v=OCS.15)
+ms:contentKeyID: 63969665
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 3fba2f5ad22cb4a741192d5e4d51020b8c04cc39
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850349"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing Exchange to Lync notifications in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="testing-exchange-to-lync-notifications-in-lync-server-2013"></a>Prueba de las notificaciones de Exchange para Lync en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-11-01_
 
 
 <table>
@@ -23,84 +43,114 @@ _**Última modificación del tema:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Programación de verificación</p></td>
+<td><p>Cada día</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Herramienta de prueba</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de administración de Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsExStorageNotification</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permisos necesarios</p></td>
+<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet <strong>Test-CsExStorageNotification</strong> . Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsExStorageNotification&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The **Test-CsExStorageNotification** cmdlet is used to verify that the Microsoft Exchange Server 2013 notification service can notify Lync Server 2013 any time updates are made to a user's Contact List. This cmdlet is valid only if you are using the unified contact store.
+## <a name="description"></a>Descripción
 
-## Running the test
+El cmdlet **Test-CsExStorageNotification** se usa para comprobar que el servicio de notificación de Microsoft Exchange Server 2013 puede notificar a Lync Server 2013 en cualquier momento en que se realicen actualizaciones en la lista de contactos de un usuario. Este cmdlet solo es válido si usa el almacén de contactos unificado.
 
-The command shown in Example 1 tests to see whether the Lync Server Storage Service can connect to the Microsoft Exchange Server mailbox notification service for the user sip:kenmyer@litwareinc.com. In this example, NetNamedPipe is used as the WCF binding.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ejecutar la prueba
+
+El comando que se muestra en el ejemplo 1 prueba si el servicio de almacenamiento de Lync Server puede conectarse al servicio de notificación de buzón de Microsoft Exchange Server para el usuario sip:kenmyer@litwareinc.com. En este ejemplo, NetNamedPipe se usa como enlace de WCF.
 
     Test-CsExStorageNotification -SipUri "sip:kenmyer@litwareinc.com" -Binding "NetNamedPipe"
 
-## Determining success or failure
+</div>
 
-If Exchange integration is configured correctly , you'll receive output similar to this, with the Result property marked as **Success**:
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
 
-Result : Success
+Si la integración de Exchange está configurada correctamente, recibirá un resultado similar a este, con la propiedad result marcada como **correcta**:
 
-Latency : 00:00:00
+FQDN de destino: atl-cs-001.litwareinc.com
 
-Error Message :
+Resultado: éxito
 
-Diagnosis :
+Latencia: 00:00:00
 
-If the specified user can't receive notifications, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+Mensaje de error:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Diagnóstico
 
-Result : Failure
+Si el usuario especificado no puede recibir notificaciones, el resultado se mostrará como error y la información adicional se registrará en las propiedades de diagnóstico y errores:
 
-Latency : 00:00:00
+FQDN de destino: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Resultado: error
 
-did not properly respond after a period of time, or
+Latencia: 00:00:00
 
-established connection failed because connected host has
+Mensaje de error: 10060, error al intentar la conexión porque la persona conectada
 
-failed to respond 10.188.116.96:5061
+no respondió correctamente después de un período de tiempo, o
 
-Inner Exception:A connection attempt failed because the
+error en la conexión establecida porque el host conectado tiene
 
-connected party did not properly respond after a period of
+Error al responder 10.188.116.96:5061
 
-time, or established connection failed because connected host
+Excepción interna: error en el intento de conexión porque el
 
-has failed to respond 10.188.116.96:5061
+la parte conectada no respondió correctamente después de un período de
 
-Diagnosis :
+hora o error de conexión establecida porque el host conectado
 
-## Reasons why the test might have failed
+Error al responder 10.188.116.96:5061
 
-Here are some common reasons why **Test-CsExStorageNotification** might fail:
+Diagnóstico
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if the Microsoft Exchange Server is misconfigured or not yet deployed.
+<div>
 
-## Vea también
+## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
 
-#### Otros recursos
+Estas son algunas de las razones comunes por las que **Test-CsExStorageNotification** podría fallar:
 
-[Test-CsExStorageConnectivity](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsExStorageConnectivity)
+  - Se proporcionó un valor de parámetro incorrecto. Si se usa, los parámetros opcionales deben estar configurados correctamente o se producirá un error en la prueba. Vuelva a ejecutar el comando sin los parámetros opcionales y vea si se realiza correctamente.
+
+  - Este comando fallará si Microsoft Exchange Server está mal configurado o aún no se ha implementado.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Test-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/Test-CsExStorageConnectivity)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

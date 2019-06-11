@@ -1,37 +1,59 @@
-﻿---
-title: Mover directorios de conferencia
-TOCTitle: Mover directorios de conferencia
-ms:assetid: 71a28308-1f3b-4717-b535-2f4bfe3499a1
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204994(v=OCS.15)
-ms:contentKeyID: 48275626
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Mover directorios de conferencia
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Move conference directories
+ms:assetid: 71a28308-1f3b-4717-b535-2f4bfe3499a1
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204994(v=OCS.15)
+ms:contentKeyID: 48184463
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6ba7480e3454d338d9d6f2ff521c09e26b4f17c5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849944"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mover directorios de conferencia
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="move-conference-directories"></a>Mover directorios de conferencia
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-04_
 
-Antes de retirar un grupo de servidores, necesita realizar el siguiente procedimiento para cada directorio de conferencia en su grupo de Office Communications Server 2007 R2.
+Antes de dar de baja un grupo, debe realizar el siguiente procedimiento para cada directorio de conferencia del grupo de Office Communications Server 2007 R2.
 
-## Para mover un directorio de conferencia a Lync Server 2013
+<div>
 
-1.  Abra Shell de administración de Lync Server.
+## <a name="to-move-a-conference-directory-to-lync-server-2013"></a>Para mover un directorio de conferencia a Lync Server 2013
 
-2.  Para obtener la identidad de los directorios de conferencia de su organización, ejecute los comandos siguientes:
+1.  Abra el shell de administración de Lync Server.
+
+2.  Para obtener la identidad de los directorios de conferencia de su organización, ejecute los siguientes comandos:
     
         Get-CsConferenceDirectory
     
-    Debido a que este cmdlet devuelve todos los directorios de conferencia de su organización, es posible que desee limitar los resultados solo a los grupos que desea retirar. Por ejemplo, si desea retirar un grupo con el nombre de dominio completo (FQDN) pool01.contoso.net:
+    Dado que este cmdlet devuelve todos los directorios de conferencia de su organización, es posible que desee limitar los resultados solo a la agrupación que desea retirar. Por ejemplo, si desea retirar un grupo con el nombre de dominio completo (FQDN) pool01.contoso.net:
     
         Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
     
     Este cmdlet devuelve todos los directorios de conferencia en los que el identificador de servicio contiene el FQDN pool01.contoso.net.
 
-3.  Para mover directorios de conferencia, ejecute lo siguiente para cada directorio de conferencia del grupo:
+3.  Para mover los directorios de una conferencia, ejecute lo siguiente para cada directorio de conferencia del Grupo:
     
         Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
     
@@ -39,11 +61,27 @@ Antes de retirar un grupo de servidores, necesita realizar el siguiente procedim
     
         Move-CsConferenceDirectory -Identity 3 -TargetPool pool02.contoso.net
 
-
-> [!NOTE]
-> Es posible que se produzca un error, como se muestra abajo, porque el Shell de administración de Lync Server requiere un conjunto actualizado de permisos de Active Directory. Para solucionarlo, cierre la ventana actual, abra un Shell de administración de Lync Server nuevo y vuelva a ejecutar el comando.
+<div>
 
 
+> [!NOTE]  
+> Puede experimentar un error, que se muestra a continuación, provocado por el shell de administración de Lync Server que requiere un conjunto actualizado de permisos de Active Directory. Para resolver el error, cierre la ventana actual y abra un nuevo shell de administración de Lync Server y vuelva a ejecutar el comando.
 
-![Resultado de error de Move-CsConferenceDirectory](images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Resultado de error de Move-CsConferenceDirectory")
+
+
+</div>
+
+![Salida de error de movimiento-CsConferenceDirectory] (images/JJ204994.4748b9e8-9651-4527-afe1-cbdc6d5ce4a8(OCS.15).jpg "Salida de error de movimiento-CsConferenceDirectory")
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

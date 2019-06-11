@@ -1,59 +1,93 @@
-﻿---
-title: 'Lync Server 2013: Requisitos técnicos para archivado'
-TOCTitle: Requisitos técnicos para archivado
-ms:assetid: 896d60e2-be4b-462d-8357-4cd307ab7304
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205059(v=OCS.15)
-ms:contentKeyID: 48275943
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: requisitos técnicos para el archivado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Archiving
+ms:assetid: 896d60e2-be4b-462d-8357-4cd307ab7304
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205059(v=OCS.15)
+ms:contentKeyID: 48184732
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e4847815f10a48b954d3d83348d95cc137f4b39
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850463"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos técnicos para archivado en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="technical-requirements-for-archiving-in-lync-server-2013"></a>Requisitos técnicos para archivar en Lync Server 2013
 
-Los requisitos técnicos de Lync Server 2013 incluyen lo siguiente:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-09_
+
+Entre los requisitos técnicos de Lync Server 2013 se incluyen los siguientes:
 
   - Requisitos de infraestructura.
 
-  - Software como requisito previo que debe estar instalado para el archivado.
+  - Requisitos previos de software que deben instalarse para el archivado.
 
-  - Requisitos de almacenamiento de datos para el archivado.
+  - Requisitos de almacenamiento de datos para archivar.
 
-  - Requisitos y consideraciones de escalado para su implementación de archivado.
+  - Las consideraciones y los requisitos de escalado para la implementación de archivado.
 
-  - Requisitos y consideraciones de rendimiento para sus bases de datos de archivado.
+  - Consideraciones y requisitos de rendimiento para las bases de datos de archivado.
 
-
-> [!NOTE]
-> La información de escalado y rendimiento no está disponible en esta versión de Lync Server 2013.
+<div>
 
 
+> [!NOTE]  
+> La información de escalabilidad y rendimiento no está disponible en esta versión 2013 de Lync Server.
 
-## Requisitos de infraestructura
 
-Los requisitos de infraestructura de archivado de Lync Server 2013 son los mismos que para la implementación de Lync Server 2013. Para obtener más información, vea [Determinar los requisitos de infraestructura para Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) en la documentación de planificación
 
-## Requisitos previos de archivado
+</div>
 
-Lync Server 2013 simplifica los requisitos previos para el archivado debido a lo siguiente:
+<div>
 
-  - El servidor de archivado ya no es un rol de servidor. En su lugar, los agentes de la colección de datos unificada se ejecutan en los servidores front-end en un grupo de servidores y en servidores Standard Edition para capturar datos de archivado, por lo que no debe configurar plataformas de sistema independientes para el archivado.
+## <a name="infrastructure-requirements"></a>Requisitos de infraestructura
 
-  - El archivado usa el almacenamiento de archivos de Lync Server 2013 para almacenar temporalmente los archivos de contenido de las reuniones, por lo que no debe configurar un almacén de archivos independiente para el archivado.
+Los requisitos de la infraestructura de archivado de Lync Server 2013 son los mismos que para la implementación de Lync Server 2013. Para obtener más información, consulte [determinar los requisitos de infraestructura para Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) en la documentación de planeación.
 
-  - En Lync Server 2013, no es necesario Message Queue Server.
+</div>
 
-## Requisitos de almacenamiento de datos para el archivado
+<div>
 
-De manera adicional, debe configurar la infraestructura de almacenamiento de archivado. Esto incluye uno o ambos de estos procedimientos:
+## <a name="archiving-prerequisites"></a>Requisitos previos de archivado
 
-  - Almacenamiento de **Microsoft Exchange**. Los archivos de contenido de las reuniones, como las presentaciones de PowerPoint, se archivan como datos adjuntos. Si desea usar la integración de Microsoft Exchange para que los datos de archivado de Lync se almacenen con los datos de cumplimiento de Exchange, debe usar Exchange 2013 para la implementación de Exchange y comprobar que el tamaño de almacenamiento máximo permite almacenar los archivos de contenido de las reuniones. Si implementa el archivado mediante la opción de integración de Microsoft Exchange, los datos de archivado de Lync se almacenan con los datos de cumplimiento de Exchange 2013 solo para los usuarios que están hospedados en sus servidores de Exchange 2013. Debe implementar Exchange 2013 antes de implementar y habilitar el archivado mediante la opción de integración de Microsoft Exchange. Si decide usar el almacenamiento de Exchange 2013, no tiene que implementar bases de datos de SQL Server independientes para el archivado, a menos que tenga usuarios de Lync que no estén hospedados en sus servidores de Exchange 2013.
+Lync Server 2013 optimiza los requisitos previos para el archivado debido a lo siguiente:
 
-  - Almacenamiento de bases de datos de **SQL Server para el archivado**. Para admitir usuarios que no estén hospedados en servidores de Exchange 2013, o si no desea usar la opción de integración de Microsoft Exchange, debe implementar el almacenamiento de archivado mediante una base de datos de SQL Server. Lync Server 2013 admite las versiones de 64 bits de SQL Server:
+  - El servidor de archivado ya no es un rol de servidor. En su lugar, los agentes de recopilación de datos unificados se ejecutan en los servidores front-end de un grupo de servidores y servidores Standard Edition para capturar datos para su archivado, por lo que no se configuran plataformas de sistema independientes para archivar.
+
+  - El archivado usa el almacenamiento de archivos de Lync Server 2013 para almacenar temporalmente los archivos de contenido de la reunión, por lo que no se configura un almacén de archivos independiente para archivado.
+
+  - En Lync Server 2013, no se necesita Message Queue Server.
+
+</div>
+
+<div>
+
+## <a name="data-storage-requirements-for-archiving"></a>Requisitos de almacenamiento de datos para archivar
+
+Además, debe configurar la infraestructura para archivar el almacenamiento. Esto incluye una o ambas de las siguientes acciones:
+
+  - **Almacenamiento de Microsoft Exchange**. Meeting content files, such as PowerPoint presentations, are archived as attachments. Si desea usar la integración de Microsoft Exchange para que los datos del archivo de Lync se almacenen con datos de cumplimiento de Exchange, debe usar Exchange 2013 para su implementación de Exchange y asegurarse de que el tamaño máximo de almacenamiento admita el almacenamiento de los archivos de contenido de la reunión. Si implementa el archivado con la opción de integración de Microsoft Exchange, los datos del archivo de Lync se almacenan con los datos de cumplimiento de Exchange 2013 solo para los usuarios alojados en los servidores de Exchange 2013. Debe implementar Exchange 2013 antes de implementar y habilitar el archivado mediante la opción de integración de Microsoft Exchange. Si elige usar el almacenamiento de Exchange 2013, no necesita implementar bases de datos de SQL Server independientes para archivar, a menos que tenga usuarios de Lync que no estén alojados en los servidores de Exchange 2013.
+
+  - **Almacenamiento de base de datos de SQL Server para archivar**. Para admitir usuarios que no están alojados en servidores de Exchange 2013, o si no desea usar la opción de integración de Microsoft Exchange, debe implementar el almacenamiento de archivado con una base de datos de SQL Server. Lync Server 2013 admite las siguientes versiones de 64 bits de SQL Server:
     
       - Microsoft SQL Server 2008 R2 Enterprise
     
@@ -63,10 +97,26 @@ De manera adicional, debe configurar la infraestructura de almacenamiento de arc
     
       - Microsoft SQL Server 2012 Standard
     
+    <div>
+    
 
-    > [!NOTE]
-    > Microsoft SQL Server 2008 R2&nbsp;Express y Microsoft SQL Server 2012&nbsp;Express no son compatibles con el archivado. Las versiones de 32&nbsp;bits de SQL Server no son compatibles. Para conocer los requisitos y las restricciones adicionales de SQL&nbsp;Server, consulte <A href="lync-server-2013-database-software-support.md">Compatibilidad con software de base de datos en Lync Server 2013</A> en la documentación sobre planeación o en la documentación sobre compatibilidad.
+    > [!NOTE]  
+    > Microsoft SQL Server 2008 R2 Express y Microsoft SQL Server 2012 Express no son compatibles con el archivado. no se admiten las versiones de 32 bits de SQL Server. Para obtener más información sobre restricciones y requisitos de SQL Server, consulte <A href="lync-server-2013-database-software-support.md">compatibilidad de software de base de datos en Lync Server 2013</A> en la documentación de planeación o en la documentación de soporte técnico.
 
     
-    Debe configurar las plataformas de SQL Server antes de implementar y habilitar el archivado. Si la cuenta que se usará para publicar la topología tiene los derechos y permisos de administrador apropiados, puede crear la base de datos de archivado (LcsLog) al publicar la topología. También puede crear la base de datos más adelante, incluida como parte del procedimiento de instalación. Para más información sobre SQL Server, consulte el SQL Server TechCenter en [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0xc0a).
+    </div>
+    
+    Debe configurar las plataformas de SQL Server antes de implementar y habilitar el archivado. Si la cuenta que se usará para publicar la topología tiene los derechos y permisos de administrador apropiados, puede crear la base de datos de archivado (LcsLog) al publicar la topología. También puede crear la base de datos más adelante, incluyendo como parte del procedimiento de instalación. Para obtener más información sobre SQL Server, consulte SQL Server TechCenter [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)en.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

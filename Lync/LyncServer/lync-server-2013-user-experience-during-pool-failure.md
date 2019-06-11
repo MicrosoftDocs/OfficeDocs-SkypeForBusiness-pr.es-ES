@@ -1,41 +1,67 @@
-﻿---
-title: 'Lync Server 2013: Experiencia durante conmutación por error del grupo de servidores'
-TOCTitle: Experiencia del usuario durante la conmutación por error del grupo de servidores
-ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205184(v=OCS.15)
-ms:contentKeyID: 48276390
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Experiencia de usuario de Lync Server 2013 durante un error de grupo
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: User experience during pool failure
+ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205184(v=OCS.15)
+ms:contentKeyID: 48185166
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ca33dc8f77ac697b7eea9cc89fee9aa401318566
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850251"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Experiencia del usuario durante la conmutación por error del grupo de servidores en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="user-experience-during-pool-failure-in-lync-server-2013"></a>Experiencia de usuario durante un error de grupo en Lync Server 2013
 
-Si se produce un error en un grupo de servidores y se invoca la conmutación por error, todos los usuarios del grupo de servidores afectado están obligados a cerrar la sesión y luego iniciar sesión en el grupo de servidores de reserva. Durante un período breve los usuarios que inicien sesión en el grupo de servidores de reserva pueden estar en modo de resistencia. En el modo de resistencia, los usuarios no pueden realizar tareas que provoquen un cambio permanente en Lync Server, como agregar un contacto. Una vez finalizada la conmutación por error, todos los usuarios pueden obtener todos los servicios desde el grupo de servidores de reserva.
+</div>
 
-Se interrumpen las sesiones que tenga un usuario cuando se produce un error en el grupo de servidores, y el usuario debe volver a establecer esas sesiones después de la conmutación por error para continuar.
+<div id="mainSection">
 
-No se vuelven a ubicar los usuarios durante la conmutación por error o conmutación por recuperación. Los usuarios que están hospedados en el grupo de servidores donde se produce un error se hospedarán temporalmente en el grupo de servidores de reserva. Cuando se restaura el grupo de servidores principal, esos usuarios vuelven a hospedarse en su grupo de servidores original.
+<div id="mainBody">
 
-Tenga en cuenta que, en Lync 2013, no se replica la base de datos del servidor de información de ubicación en el grupo de servidores de reserva. Como práctica recomendada, el administrador debe copiar esta base de datos periódicamente y usar la última copia de seguridad para restaurar la base de datos en el grupo de servidores de reserva tras la conmutación por error.
+<span> </span>
 
-## Experiencia del usuario durante la conmutación por error
+_**Última modificación del tema:** 2012-10-03_
 
-Cuando un usuario está en un grupo donde se produce un error, se cierra la sesión del usuario. Se finaliza cualquier sesión punto a punto en la que participe el usuario, como las conferencias organizadas por ese usuario. El usuario no podrá volver a iniciar sesión hasta que caduque el temporizador de resistencia del registrador o el administrador inicie los procedimientos de conmutación por error, lo que ocurra primero. Cuando el usuario vuelve a iniciar sesión, iniciará la sesión en el grupo de servidores de reserva. Si inicia sesión antes de que finalice la conmutación por error, estará en modo de resistencia hasta que finalice la conmutación por error. Solamente entonces el usuario podrá establecer nuevas sesiones o restablecer las sesiones anteriores.
+Si se conmuta por error un grupo, todos los usuarios del grupo afectado estarán obligados a cerrar sesión y, a continuación, iniciar sesión en el grupo de copias de seguridad. Durante un período breve los usuarios que inicien sesión en el grupo de copia de seguridad pueden encontrarse en modo de resistencia. En el modo de resistencia, los usuarios no pueden realizar tareas que provocarían un cambio continuo en Lync Server, como agregar un contacto. Una vez finalizada la conmutación por error, todos los usuarios pueden utilizar todos los servicios del grupo de copia de seguridad.
 
-## Experiencia del usuario durante la conmutación por recuperación
+Todas las sesiones que tiene un usuario cuando se produce un error en el grupo, y el usuario debe volver a establecer esas sesiones después de la conmutación por error para continuar.
 
-La conmutación por recuperación de un grupo puede ocurrir cuando un usuario afectado ha iniciado sesión en el grupo de servidores de reserva y el usuario permanece conectado y sigue trabajando durante la conmutación por recuperación. Tenga en cuenta que el proceso de conmutación por recuperación tarda varios minutos en completarse. Como referencia, se espera que tarde 60 minutos como máximo para un grupo de servidores con 20.000 usuarios.
+No se vuelven a ubicar los usuarios durante la conmutación por error o la conmutación por recuperación. Los usuarios que están hospedados en un grupo donde se produce un error se hospedarán temporalmente en el grupo de copia de seguridad. Cuando se restaura el grupo de inicio, el administrador puede migrar por error a estos usuarios para que sean atendidas por su grupo original.
 
-Las siguientes tablas muestran más detalles sobre cómo un usuario con un cliente de Lync 2013 o un cliente de Microsoft Lync 2010 se ve afectado durante y después de la conmutación por recuperación, y también cómo los usuarios de otros grupos ven e interactúan con un usuario de un grupo en el que se realiza una conmutación por recuperación. Los usuarios con clientes de Microsoft Office Communicator 2007 R2 no podrán iniciar sesión hasta que la conmutación por recuperación del grupo de servidores front-end haya finalizado.
+Nota en Lync 2013, la base de datos de la información de ubicación no se replica en el grupo de copias de seguridad. Como procedimiento recomendado, el administrador tiene que realizar una copia de seguridad de la base de datos LIS periódicamente y usar la última versión de dicha copia para restaurar la base de datos LIS en el grupo de copia de seguridad tras la conmutación por error.
 
-El término *usuario afectado* hace referencia a cualquier usuario que sufrió una conmutación por error en el grupo principal y esté hospedado ahora en el grupo de servidores de reserva. Por definición, cualquier usuario originalmente hospedado en el grupo de servidores de reserva no es un usuario afectado.
+<div>
 
-### Experiencia de un usuario afectado en un grupo de conmutación por recuperación
+## <a name="user-experience-during-failover"></a>Experiencia del usuario durante la conmutación por error
+
+Cuando un usuario se encuentra en un grupo que falla, el usuario ha cerrado sesión. Todas las sesiones de punto a punto en las que participó el usuario están terminadas, al igual que las conferencias organizadas por dicho usuario. El usuario no puede volver a iniciar sesión hasta que caduque el temporizador de resistencia del registrador o el administrador inicie los procedimientos de conmutación por error, lo que ocurra primero. Cuando el usuario reinicia sesión, iniciará la sesión en el grupo de copia de seguridad. Si inicia sesión antes de que finalice la conmutación por error, estará en modo de resistencia hasta que finalice la conmutación por error. Solo entonces el usuario puede establecer sesiones nuevas o volver a establecer sesiones anteriores.
+
+</div>
+
+<div>
+
+## <a name="user-experience-during-failback"></a>Experiencia de usuario durante la conmutación por recuperación
+
+La conmutación por recuperación de un grupo puede ocurrir cuando un usuario afectado ha iniciado sesión en el grupo de copia de seguridad y el usuario permanece conectado y sigue trabajando durante la conmutación por recuperación. Tenga en cuenta que el proceso de recuperación tras error tarda varios minutos en completarse.Como referencia, se espera que tarde 60 minutos como máximo para un grupo de 20 000 usuarios.
+
+En las tablas siguientes se muestran más detalles sobre cómo un usuario con un cliente de Lync 2013 o de Microsoft Lync 2010 se ve afectado durante y después de la conmutación por recuperación, y también cómo los usuarios de otros grupos ven e interactúan con un usuario de un grupo que se vuelve a enviar. Los usuarios con clientes de Microsoft Office Communicator 2007 R2 no pueden iniciar sesión hasta que el grupo de servidores front-end no se haya realizado correctamente.
+
+El término *usuario afectado* hace referencia a cualquier usuario que sufrió una conmutación por error en el grupo principal y está hospedado ahora en el grupo de copia de seguridad. Por definición, cualquier usuario que haya alojado originalmente en el grupo de copias de seguridad no es un usuario afectado.
+
+### <a name="user-experience-for-an-affected-user-in-a-pool-in-failback"></a>Experiencia de un usuario afectado en un grupo de conmutación por recuperación
 
 <table>
 <colgroup>
@@ -45,7 +71,7 @@ El término *usuario afectado* hace referencia a cualquier usuario que sufrió u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tarea o estado de usuario</th>
+<th>Tarea o estado del usuario</th>
 <th>Durante la conmutación por recuperación</th>
 <th>Una vez finalizada la conmutación por recuperación</th>
 </tr>
@@ -53,7 +79,7 @@ El término *usuario afectado* hace referencia a cualquier usuario que sufrió u
 <tbody>
 <tr class="odd">
 <td><p>Estado del usuario que ya ha iniciado sesión</p></td>
-<td><p>El usuario permanece en su sesión y sigue conectado al grupo de servidores de reserva. En algún momento, se cerrará la sesión del usuario y volverá a la sesión en el grupo principal original, en el modo de resistencia.</p></td>
+<td><p>El usuario permanece en su sesión y sigue conectado al grupo de copia de seguridad. En algún momento, se cerrará la sesión del usuario y volverá a la sesión en el grupo principal original, en el modo de resistencia.</p></td>
 <td><p>El usuario continúa en su sesión y se coloca en modo normal.</p></td>
 </tr>
 <tr class="even">
@@ -64,7 +90,7 @@ El término *usuario afectado* hace referencia a cualquier usuario que sufrió u
 <tr class="odd">
 <td><p>Conferencias en curso organizadas por un usuario afectado</p></td>
 <td><p>Se terminan todas las modalidades de conferencia. Se mostrará el botón Unirse de nuevo, pero ningún usuario puede volver a unirse mientras el usuario afectado está en modo de resistencia.</p></td>
-<td><p>Ahora funcionan todas las modalidades. Cada participante debe hacer clic para volver a unirse a la conferencia.</p></td>
+<td><p>Ahora funcionan todas las modalidades. Cada participante tiene que hacer clic para volver a unirse a la conferencia.</p></td>
 </tr>
 <tr class="even">
 <td><p>Conferencias en curso organizadas por un usuario no afectado</p></td>
@@ -78,11 +104,11 @@ El término *usuario afectado* hace referencia a cualquier usuario que sufrió u
 </tr>
 <tr class="even">
 <td><p>Presencia según otros usuarios en el mismo grupo</p></td>
-<td><p>Presencia desconocida mientras el usuario está conectado al grupo de servidores de reserva durante el modo de resistencia.</p></td>
+<td><p>Presencia desconocida mientras el usuario está conectado al grupo de copia de seguridad durante el modo de resistencia.</p></td>
 <td><p>Muestra el último estado de presencia establecido por el usuario, y los cambios de presencia ahora se reflejarán.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Disponibilidad del servicio de libreta de direcciones y lista de contactos</p></td>
+<td><p>Disponibilidad del servicio de la libreta de direcciones y la lista de contactos</p></td>
 <td><p>No disponible</p></td>
 <td><p>Disponible</p></td>
 </tr>
@@ -95,7 +121,7 @@ El término *usuario afectado* hace referencia a cualquier usuario que sufrió u
 </table>
 
 
-### Experiencia de un usuario hospedado en un grupo de servidores no afectado durante la conmutación por recuperación de otro grupo
+### <a name="user-experience-for-a-user-homed-in-an-unaffected-pool-during-failback-of-another-pool"></a>Experiencia de un usuario hospedado en un grupo de servidores no afectado durante la conmutación por recuperación de otro grupo
 
 <table>
 <colgroup>
@@ -119,7 +145,7 @@ El término *usuario afectado* hace referencia a cualquier usuario que sufrió u
 <tr class="even">
 <td><p>Conferencias en curso organizadas por un usuario afectado</p></td>
 <td><p>Se terminan todas las modalidades de conferencia.</p></td>
-<td><p>Ahora funcionan todas las modalidades. Cada participante debe hacer clic para volver a unirse a la conferencia.</p></td>
+<td><p>Ahora funcionan todas las modalidades. Cada participante tiene que hacer clic para volver a unirse a la conferencia.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Conferencias en curso organizadas por un usuario no afectado</p></td>
@@ -133,4 +159,17 @@ El término *usuario afectado* hace referencia a cualquier usuario que sufrió u
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

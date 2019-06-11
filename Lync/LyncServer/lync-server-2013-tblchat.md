@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblChat'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblChat
 ms:assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615031(v=OCS.15)
-ms:contentKeyID: 48276443
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615031(v=OCS.15)
+ms:contentKeyID: 48185203
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 620dcb49580f8d19a8f262c22b1005e3cefeac4e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850494"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblChat en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="tblchat-in-lync-server-2013"></a>tblChat en Lync Server 2013
 
-tblChat contiene todos los mensajes de chat.
+</div>
 
-### Columnas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-12_
+
+tblChat contiene todos los mensajes instantáneos.
+
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>
@@ -35,49 +55,49 @@ tblChat contiene todos los mensajes de chat.
 <tbody>
 <tr class="odd">
 <td><p>channelId</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Identificador del nodo.</p></td>
+<td><p>int, not null</p></td>
+<td><p>IDENTIFICADOR de nodo.</p></td>
 </tr>
 <tr class="even">
 <td><p>chatId</p></td>
-<td><p>bigint, no NULL</p></td>
-<td><p>Número secuencial único (por identificador de nodo) que define el orden de los salones de chat, generado por la tabla tblLastChatId.</p></td>
+<td><p>BIGINT, not null</p></td>
+<td><p>Número secuencial único (por identificador de nodo) que define el pedido del salón de chat, generado por la tabla tblLastChatId.</p></td>
 </tr>
 <tr class="odd">
 <td><p>chatDate</p></td>
-<td><p>bigint, no NULL</p></td>
-<td><p>Marca de tiempo del mensaje de chat.</p></td>
+<td><p>BIGINT, not null</p></td>
+<td><p>Marca de tiempo del mensaje de la conversación.</p></td>
 </tr>
 <tr class="even">
-<td><p>userId</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Identificador principal de la persona que publicó el mensaje.</p></td>
+<td><p>Iddeusuario</p></td>
+<td><p>int, not null</p></td>
+<td><p>IDENTIFICADOR principal del póster.</p></td>
 </tr>
 <tr class="odd">
 <td><p>isAlert</p></td>
-<td><p>bit, no NULL</p></td>
-<td><p>True si el mensaje es de alerta. False si no lo es.</p></td>
+<td><p>bit, not null</p></td>
+<td><p>True si el mensaje es un mensaje de alerta. Falso si no lo es.</p></td>
 </tr>
 <tr class="even">
-<td><p>content</p></td>
-<td><p>nvarchar (max), no NULL</p></td>
-<td><p>Contenido del chat (versión de texto sin formato). El contenido suele ser texto sin formato con las siguientes excepciones:</p>
+<td><p>objetos</p></td>
+<td><p>nvarchar (Max), not null</p></td>
+<td><p>Contenido de la conversación (versión de texto sin formato). El contenido suele estar en texto sin formato, con las siguientes excepciones:</p>
 <ul>
-<li><p>Los archivos se representan como vínculos ma-filelink:.</p></li>
-<li><p>Los vínculos se representan como un elemento HTML (aunque el tipo de contenido no puede considerarse como HTML).</p></li>
-<li><p>Las historias se codifican como un formato tipo &quot;[STORY]...&quot;.</p></li>
+<li><p>Los archivos se representan como ma-FileLink: links.</p></li>
+<li><p>Los vínculos se representan como un elemento HTML (aunque el tipo de contenido no se puede considerar HTML).</p></li>
+<li><p>Los casos se codifican como un formato "[artículo]....".</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>rtf</p></td>
-<td><p>varchar(max)</p></td>
-<td><p>Contenido del chat (versión RTF). Puede ser un valor NULL si el cliente no lo proporciona.</p></td>
+<td><p>enriquecido</p></td>
+<td><p>VARCHAR (Max)</p></td>
+<td><p>Contenido de la conversación (la versión RTF). Puede ser null si el cliente no lo proporciona.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Tecla
+### <a name="key"></a>Clave
 
 <table>
 <colgroup>
@@ -92,9 +112,20 @@ tblChat contiene todos los mensajes de chat.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;channelID, chatD&gt;</p></td>
+<td><p>&lt;channelID, conversado&gt;</p></td>
 <td><p>Clave principal.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

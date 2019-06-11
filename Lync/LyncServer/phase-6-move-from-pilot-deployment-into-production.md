@@ -1,31 +1,65 @@
-﻿---
-title: "Phase 6 : Transition d’un dépl. pilote vers un environnement de production"
-TOCTitle: "Phase 6 : Transition d’un dépl. pilote vers un environnement de production"
-ms:assetid: f06425f8-0971-4dd6-9c3c-d400b4a95155
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721932(v=OCS.15)
-ms:contentKeyID: 49889809
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Fase 6: Pasar de la implementación piloto a la producción'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 6: Move from pilot deployment into production'
+ms:assetid: f06425f8-0971-4dd6-9c3c-d400b4a95155
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721932(v=OCS.15)
+ms:contentKeyID: 49733867
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 743fae3912dfb185e2930d08dcb5e092df1ac944
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849902"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fase 6: Pasar de la implementación piloto a la producción
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="phase-6-move-from-pilot-deployment-into-production"></a>Fase 6: Pasar de la implementación piloto a la producción
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-19_
 
-En los temas de esta sección se describen las tareas que debe completar antes de migrar la implementación de Lync Server 2013 de una implementación piloto a una implementación a nivel de producción.
+En los temas de esta sección se describen tareas que debe completar antes de mover la implementación de Lync Server 2013 desde una implementación piloto a una implementación de nivel de producción.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Configurar las rutas de federación y el tráfico multimedia](configure-federation-routes-and-media-traffic.md)
 
-  - [Comprobar la federación y el acceso remoto para usuarios externos](verify-federation-and-remote-access-for-external-users.md)
+  - [Comprobar la federación y el acceso remoto de usuarios externos](verify-federation-and-remote-access-for-external-users.md)
 
-  - [Cambiar URL simples tras la migración](change-simple-urls-after-migration.md)
+  - [Cambiar las direcciones URL simples tras la migración](change-simple-urls-after-migration.md)
 
   - [Mover los usuarios restantes a Lync Server 2013](move-remaining-users-to-lync-server-2013.md)
 
-  - [Configurar una puerta de enlace XMPP en Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013.md)
+  - [Configurar la puerta de enlace XMPP en Lync Server 2013](configure-xmpp-gateway-on-lync-server-2013.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
