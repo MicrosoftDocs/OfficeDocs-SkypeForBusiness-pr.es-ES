@@ -1,25 +1,45 @@
-﻿---
-title: Excepciones de IPsec en Lync Server 2013
-TOCTitle: Excepciones de IPsec en Lync Server 2013
-ms:assetid: 241f1eca-6f2f-44de-90b1-2cb659cbe27c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425719(v=OCS.15)
-ms:contentKeyID: 48274693
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Excepciones IPsec de Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IPsec exceptions
+ms:assetid: 241f1eca-6f2f-44de-90b1-2cb659cbe27c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425719(v=OCS.15)
+ms:contentKeyID: 48183627
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eae9061036c91793800fd744338347196d60494c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834953"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Excepciones de IPsec en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="ipsec-exceptions-in-lync-server-2013"></a>Excepciones de IPsec en Lync Server 2013
 
-En aquellas redes empresariales donde el protocolo de seguridad de Internet o IPsec (consulte IETF RFC 4301-4309) está implementado, IPsec se debe deshabilitar en el intervalo de puertos usado para la entrega de audio, vídeo y vídeo panorámico. Esta recomendación se fundamenta en la necesidad de evitar retrasos en la asignación de los puertos de medios debido a la negociación de IPsec.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-06-27_
+
+En el caso de redes empresariales en las que se ha implementado la seguridad de protocolo de Internet (consulte IETF RFC 4301-4309), debe deshabilitarse IPsec en el rango de puertos que se usan para la entrega de video de audio, vídeo y panorámica. Esta recomendación se fundamenta en la necesidad de evitar retrasos en la asignación de los puertos de medios por la negociación de IPsec.
 
 En la siguiente tabla se detalla la configuración de las excepciones de IPsec recomendadas.
 
-### Excepciones de IPsec recomendadas
+### <a name="recommended-ipsec-exceptions"></a>Excepciones de IPsec recomendadas
 
 <table style="width:100%;">
 <colgroup>
@@ -48,7 +68,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Servidor perimetral A/V interno</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -57,7 +77,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Servidor perimetral A/V externo</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -65,8 +85,8 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidor perimetral A/V interno saliente</p></td>
 <td><p>Servidor perimetral A/V interno</p></td>
 <td><p>Cualquiera</p></td>
-<td><p>TCP y UDP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>TCP &amp; UDP</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -75,7 +95,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidor perimetral A/V externo</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -85,7 +105,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidores</p>
 <p>de mediación</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -95,7 +115,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <p>de mediación</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -104,7 +124,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Servidor front-end que ejecuta operador de conferencia</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -113,7 +133,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidor front-end que ejecuta operador de conferencia</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -122,7 +142,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Servidores front-end</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -131,7 +151,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidores front-end</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -140,7 +160,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Cualquiera</p></td>
 <td><p>Mensajería unificada de Exchange</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -158,7 +178,7 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Servidores de aplicaciones compartidas</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
@@ -167,13 +187,13 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 <td><p>Mensajería unificada de Exchange</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP y TCP</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>No autenticar</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clientes</p></td>
-<td><p>Cualquiera</p></td>
+<td><p>Cualquiera </p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP</p></td>
 <td><p>Intervalo de puertos de medios especificado</p></td>
@@ -182,4 +202,15 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

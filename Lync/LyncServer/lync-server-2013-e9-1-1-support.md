@@ -1,21 +1,51 @@
-﻿---
-title: 'Lync Server 2013: Compatibilidad con E9-1-1'
-TOCTitle: Compatibilidad con E9-1-1
-ms:assetid: 1505daa5-ce84-4153-ae7f-8f70b324c43f
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398220(v=OCS.15)
-ms:contentKeyID: 48274522
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Compatibilidad con E9-1-1'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: E9-1-1 support
+ms:assetid: 1505daa5-ce84-4153-ae7f-8f70b324c43f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398220(v=OCS.15)
+ms:contentKeyID: 48183485
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c520992a3b490dc011cf1d6a146b1429ae826b30
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835334"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Compatibilidad con E9-1-1 en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="e9-1-1-support-in-lync-server-2013"></a>Compatibilidad con E9-1-1 en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-21_
 
-Lync Server 2013 admite Enhanced 9-1-1 (E9-1-1) como parte de una implementación empresarial. E9-1-1 es una característica de notificación de emergencia que asocia el número de teléfono de la persona que llama con una dirección postal (es decir, la calle). La compatibilidad con E9-1-1 solo está disponible en Estados Unidos.
+Lync Server 2013 admite Enhanced 9-1-1 (E9-1-1) como parte de una implementación empresarial. E9-1-1 es una característica de notificación de emergencia que asocia el número de teléfono de la persona que llama con una dirección cívica (es decir, una calle). El soporte técnico de E9-1-1 solo está disponible en los Estados Unidos.
 
-Para admitir el E9-1-1 como parte de una implementación de Lync Server 2013, un proveedor de servicios de emergencia certificado debe proporcionarle un servicio de enrutamiento de E9-1-1 o usar una puerta de enlace de número de identificación de ubicación de emergencia (ELIN). El proveedor de servicios de emergencia enruta las llamadas de emergencia que se originan en Lync Server 2013 al PSAP (Punto de respuesta de seguridad pública) adecuado en función de la información de ubicación que contiene la llamada. Para obtener más información acerca de la compatibilidad con E9-1-1, consulte [Planeación de los servicios de emergencia (E9-1-1) en Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md) en la documentación sobre la planeación.
+Para admitir E9-1-1 como parte de una implementación de Lync Server 2013, debe obtener el servicio de enrutamiento E9-1-1 de un proveedor de servicios de emergencia certificado o usar una puerta de enlace con un número de identificación de ubicación de emergencia (ELIN). El proveedor o el operador de servicios de emergencia dirige las llamadas de emergencia que se originan en Lync Server 2013 al punto de respuesta de seguridad pública (PSAP) correcto, en función de la información de ubicación contenida en la llamada. Para obtener más información sobre el soporte técnico de E9-1-1, consulte [planificación de servicios de emergencia (E9-1-1) en Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md) en la documentación de planificación.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

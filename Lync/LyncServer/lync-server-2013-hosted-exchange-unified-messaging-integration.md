@@ -1,25 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Integración de la mensajería unificada de Exchange hospedada'
-TOCTitle: Integración de la mensajería unificada de Exchange hospedada
-ms:assetid: f4de0165-da3b-499e-98fc-28ddd0db02d5
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413027(v=OCS.15)
-ms:contentKeyID: 48277175
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Integración de la mensajería unificada de Exchange hospedada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hosted Exchange Unified Messaging integration
+ms:assetid: f4de0165-da3b-499e-98fc-28ddd0db02d5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413027(v=OCS.15)
+ms:contentKeyID: 48185829
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a743e79434a521f0bba43e9ad4103625e9720844
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835053"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Integración de la mensajería unificada de Exchange hospedada en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="hosted-exchange-unified-messaging-integration-in-lync-server-2013"></a>Integración de la mensajería unificada de Exchange hospedada en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-20_
 
-Además de la compatibilidad que se ha proporcionado en versiones anteriores de Lync Server 2013 para la integración de implementaciones *locales* de mensajería unificada de Exchange, Lync Server 2013 incorpora compatibilidad para la integración de mensajería unificada de Exchange *hospedada*. Dicha integración hace posible que Lync Server 2013 ofrezca mensajería de voz a los usuarios si transfiere, a todos o a algunos, a un proveedor de servicios de Exchange hospedado, como Microsoft Exchange Online.
+Además de la compatibilidad que las versiones anteriores de Lync Server 2013 han proporcionado para la integración con implementaciones *locales* de mensajería unificada de Exchange (UM), Lync Server 2013 incorpora compatibilidad para la integración con MU de Exchange *hospedado* . La mensajería instantánea de Exchange hospedado permite que Lync Server 2013 proporcione mensajería de voz a los usuarios si se transfieren algunos o todos a un proveedor de servicios de Exchange hospedado como Microsoft Exchange Online.
 
-Lync Server 2013Mensajería unificada de Exchange[Características de la mensajería unificada integrada y Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md) Características de mensajería unificada y Office Communications Server integrados.
+Lync Server 2013 Enterprise Voice usa la infraestructura de mensajería unificada de Exchange para proporcionar contestación de llamadas, notificaciones de llamadas, acceso por voz (incluido el correo de voz) y servicios de operador automático. Para obtener más información, vea [características de la mensajería unificada integrada y Lync Server 2013](lync-server-2013-features-of-integrated-unified-messaging.md).
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Enrutamiento y arquitectura de la mensajería unificada de Exchange hospedada en Lync Server 2013](lync-server-2013-hosted-exchange-um-architecture-and-routing.md)
 
@@ -30,4 +52,16 @@ Lync Server 2013Mensajería unificada de Exchange[Características de la mensaje
   - [Administración de objetos de contactos de Hosted Exchange en Lync Server 2013](lync-server-2013-hosted-exchange-contact-object-management.md)
 
   - [Proceso de implementación para la integración de la mensajería unificada de Exchange hospedada con Lync Server 2013](lync-server-2013-deployment-process-for-integrating-hosted-exchange-um.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

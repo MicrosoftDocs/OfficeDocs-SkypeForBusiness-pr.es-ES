@@ -1,23 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Implementar Lync Server'
-TOCTitle: Implementar Lync Server 2013
-ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412892(v=OCS.15)
-ms:contentKeyID: 48276460
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Implementar Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying Lync Server 2013
+ms:assetid: b76795a4-4e71-4c70-a5c0-d1197fa8028c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412892(v=OCS.15)
+ms:contentKeyID: 48185197
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ce62d2cfa3d98bc982ea2ed2fa19ade6205a62ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835540"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implementar Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deploying-lync-server-2013"></a>Implementar Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-18_
 
-El proceso de implementación de Lync Server 2013 viene determinado por la topología y los componentes de Lync Server que desee instalar, independientemente de si desea implementar un Grupo de servidores front-end o un Servidor Standard Edition, por tanto, es necesario que determine qué desea implementar antes de iniciar el proceso de implementación.
+El proceso de implementación de Lync Server 2013 viene determinado por la topología y los componentes de Lync Server que decida instalar, incluso si desea implementar un grupo de servidores front-end o un servidor Standard Edition. Los temas de esta sección le ayudan a determinar qué entorno desea implementar y le guiará a través del proceso de implementación.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Introducción general a la implementación para Lync Server 2013](lync-server-2013-deployment-overview.md)
 
@@ -36,4 +58,16 @@ El proceso de implementación de Lync Server 2013 viene determinado por la topol
   - [Agregar roles de servidor en Lync Server 2013](lync-server-2013-adding-server-roles.md)
 
   - [Configurar la autenticación Kerberos en Lync Server 2013](lync-server-2013-setting-up-kerberos-authentication.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

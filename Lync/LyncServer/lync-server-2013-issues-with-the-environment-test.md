@@ -1,41 +1,75 @@
-﻿---
-title: Problemas con la prueba de entorno
-TOCTitle: Problemas con la prueba de entorno
-ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205421(v=OCS.15)
-ms:contentKeyID: 48277299
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: problemas con la prueba del entorno'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Issues with the environment test
+ms:assetid: ff1fe0d3-35b2-41ef-87e7-6a61e9e1d2ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205421(v=OCS.15)
+ms:contentKeyID: 48185970
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6ed158c598b9dc5596df23cb845f0adac4c6fed3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834952"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Problemas con la prueba de entorno
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="issues-with-the-environment-test-in-lync-server-2013"></a>Problemas con la prueba de entorno en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-21_
 
-El Analizador de procedimientos recomendados ofrece una forma de verificar que la configuración del entorno de Lync Server 2013 es compatible. Durante la comprobación de los servicios de dominio de Active Directory, el Analizador de procedimientos recomendados realiza las siguientes operaciones:
+El analizador de procedimientos recomendados proporciona una forma de comprobar que el entorno de Lync Server 2013 es una configuración admitida. Como parte de la comprobación de los servicios de dominio de Active Directory, el analizador de procedimientos recomendados hace lo siguiente:
 
-  - Verifica la preparación del bosque y el esquema de Servicios de dominio de Active Directory.
+  - Comprueba la preparación del bosque y el esquema de los servicios de dominio de Active Directory.
 
-  - Identifica el número de sitios y dominios de Servicios de dominio de Active Directory en la implementación.
+  - Identifica el número de dominios y sitios de servicios de dominio de Active Directory en la implementación.
 
-  - Comprueba el bosque y los niveles de dominio.
+  - Comprueba los niveles de bosque y dominio.
 
-  - Comprueba la versión del controlador del dominio.
+  - Comprueba la versión del controlador de dominio.
 
-  - Identifica el contexto de denominación del dominio, la configuración y el esquema.
+  - Identifica el contexto de nomenclatura del dominio, la configuración y el esquema.
 
   - Identifica el número de usuarios habilitados.
 
-  - Comprueba el lugar de almacenamiento de la configuración de los Servicios de dominio de Active Directory.
+  - Comprueba dónde se almacena la configuración de los servicios de dominio de Active Directory global.
 
-  - Comprueba los puertos de conexión de servicio (SCP) de Lync Server.
+  - Comprueba los puntos de conexión de servicio (SCP) de Lync Server.
 
   - Identifica la versión de la base de datos.
 
-## Resolución de problemas del entorno
+<div>
 
-Si durante la prueba del entorno se detectan problemas, probablemente se deban a problemas de configuración de Active Directory o el nivel de software que se ejecuta en determinados servidores. Por ejemplo, si el Analizador de procedimientos recomendados detecta que algún controlador de dominio del entorno ejecuta Windows Server 2000, emitirá una advertencia y será necesario actualizar esos controladores de dominio a una versión compatible de Windows Server.
+## <a name="resolving-issues-with-the-environment"></a>Resolución de problemas con el entorno
+
+Si la prueba de entorno encontró problemas con su entorno, probablemente se deba a problemas con la configuración de Active Directory o el nivel de software que se ejecuta en servidores específicos. Por ejemplo, si el analizador de procedimientos recomendados identifica cualquier controlador de dominio de su entorno que ejecuta Windows Server 2000, emitirá una advertencia y tendrá que actualizar esos controladores de dominio a una versión compatible de Windows Server.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

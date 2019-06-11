@@ -1,48 +1,81 @@
-﻿---
-title: 'Lync Server 2013: Definición del ámbito de la implementación de E9-1-1'
-TOCTitle: Definición del ámbito de la implementación de E9-1-1
-ms:assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425775(v=OCS.15)
-ms:contentKeyID: 48274785
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: definir el ámbito de la implementación de E9-1-1'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Defining the scope of the E9-1-1 deployment
+ms:assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425775(v=OCS.15)
+ms:contentKeyID: 48183707
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ff32a71ec9b724bad9efee68784d284a71b8f385
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835693"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definición del ámbito de la implementación de E9-1-1 en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="defining-the-scope-of-the-e9-1-1-deployment-in-lync-server-2013"></a>Definir el ámbito de la implementación de E9-1-1 en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-06-06_
 
-Antes de configurar Microsoft Lync Server 2013 para E9-1-1, debe planificar la implementación de su E9-1-1. Algunas de las cuestiones que se deben tener en cuenta son:
+Antes de configurar Microsoft Lync Server 2013 para E9-1-1, necesita planear la implementación de E9-1-1. Algunas de las cuestiones que necesitas tener en cuenta son:
 
   - **¿Cuáles son las obligaciones legales y la directiva de su organización con respecto a E9-1-1?**  
-    Los requisitos legales de E9-1-1 para sistemas PBX (llamados sistemas telefónicos de varias líneas o MLTS, en la jerga de E9-1-1) difieren de un estado a otro. Debe consultar a su equipo legal para comprender las obligaciones que podrían aplicarse a la implementación de Lync Server en sus ubicaciones geográficas pertinentes.
+    Los requisitos legales de E9-1-1 para sistemas PBX (llamados sistemas telefónicos de varias líneas o MLTS, en la terminología de E9-1-1) difieren de un estado a otro. Debe consultar a su equipo legal para comprender las obligaciones que se pueden aplicar a su implementación de Lync Server en las geografías relevantes.
 
 <!-- end list -->
 
-  - **¿Qué áreas de la empresa deben habilitarse para E9-1-1?**  
-    Puede habilitar E9-1-1 para las ubicaciones seleccionadas o para toda la empresa. Por ejemplo, puede tener distintos requisitos de E9-1-1 para oficinas en diferentes estados o quizás desee excluir sitios fuera de Estados Unidos.
+  - **¿Qué áreas de la empresa necesitan habilitarse para E9-1-1?**  
+    Puedes habilitar E9-1-1 para determinadas ubicaciones o para toda la empresa. Por ejemplo, puedes tener distintos requisitos de E9-1-1 para oficinas en diferentes estados o quizás desee excluir sitios fuera de EE. UU.
 
 <!-- end list -->
 
   - **¿Cómo implementará E9-1-1 en las sucursales?**  
-    La resistencia de voz de las sucursales es un concepto que es importante tener en cuenta al implementar E9-1-1 en una sucursal. Si tiene troncos SIP de E-9-1-1 centralizados y se produce una interrupción en la red WAN, es posible que los clientes que inicien sesión no puedan obtener una ubicación de un Servicio de información de ubicaciones o conectarse al proveedor de servicios de emergencia. Lync Server proporciona varias estrategias para administrar la resistencia de voz en sucursales que incluyen las siguientes: disponer de redes de datos resistentes, implementar un tronco SIP en cada sucursal o redirigir llamas de emergencia a la puerta de enlace local durante interrupciones. Para obtener más información, consulte [Planificar la resistencia de voz en sitios de sucursal en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
+    La resistencia de voz es un concepto que es importante tener en cuenta al implementar E9-1-1 en un sitio de sucursal. Si tienes troncos de E-9-1-1 SIP centralizados y se produce una interrupción de la WAN, es posible que los clientes que inicien sesión no puedan obtener una ubicación del servicio de información de ubicación o para conectar con el proveedor de servicios de servicios de emergencias. Lync Server proporciona varias estrategias para manejar la resistencia de voz en sucursales, entre las que se incluyen: tener redes de datos resistentes, implementar un tronco SIP en cada sucursal o presionar llamadas de emergencia a la puerta de enlace local durante las interrupciones. Para obtener más información, vea [planeamiento de la resistencia de voz de un sitio de sucursal en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md).
 
 <!-- end list -->
 
   - **¿Se habilitará E9-1-1 para los usuarios que trabajan fuera de la red?**  
-    La adquisición de ubicación automática está disponible solamente para los clientes situados dentro de la red de la organización, por lo que su organización debe decidir si admitir llamadas de E9-1-1 realizadas desde clientes de Lync que están fuera de la organización. Por ejemplo, ¿permitirá a los usuarios realizar llamadas de emergencia si trabajan desde casa o desde un sitio del cliente? Si un cliente se encuentra fuera de la red empresarial, el cliente puede configurarse para solicitar al usuario una ubicación. Sin embargo, dado que estas ubicaciones proporcionadas por el usuario no pueden validarse previamente con la Guía de calles maestra (MSAG), el distribuidor del proveedor de servicios de emergencia deberá confirmar la validez de la ubicación verbalmente con el autor de la llamada antes de enrutar la llamada al Punto de respuesta de seguridad pública (PSAP).
+    La adquisición de ubicación automática solo está disponible para los clientes que se encuentran dentro de la red de la organización, por lo que su organización debe decidir si será compatible con las llamadas de E9 de Lync realizadas desde los clientes de Lync cuando no estén locales. Por ejemplo, ¿permitirás a los usuarios realizar llamadas de emergencia si trabajan desde casa o desde un sitio del cliente? Si un cliente se encuentra fuera de la red empresarial, puede configurarse para solicitar al usuario una ubicación. Pero como estas ubicaciones proporcionadas por el usuario no pueden validarse previamente con la Guía de calles maestra (MSAG), el distribuidor del proveedor de servicios de emergencia tendrá que confirmar la validez de la ubicación verbalmente con el autor de la llamada antes de redirigir la llamada al punto de respuesta de seguridad pública (PSAP).
+    
+    <div>
     
 
-    > [!NOTE]
-    > Los clientes de Lync de los usuarios que se conectan a la red de la organización mediante el uso de VPN pueden recoger información de dirección IP interna, pero debido a que estas direcciones no pueden usarse para identificar la ubicación del usuario real, es esencial que las subredes VPN se excluyan del Servicio de información de ubicaciones.
+    > [!NOTE]  
+    > Los clientes de Lync que se conectan a la red de la organización mediante VPN pueden recopilar información sobre la dirección IP interna, pero como estas direcciones no se pueden usar para identificar la ubicación real del usuario, es esencial que las subredes VPN se excluyan de la Servicio de información de ubicación.
 
-
+    
+    </div>
 
 <!-- end list -->
 
   - **¿Desea proporcionar el enrutamiento de llamadas de emergencia a sitios de fuera de Estados Unidos?**  
-    Puede que quiera proporcionar el enrutamiento de emergencia en áreas de la compañía donde no sirve el proveedor de servicios de emergencia (por ejemplo, en ubicaciones internacionales). Para ello, cree un sitio nuevo y, a continuación, asigne directivas de voz a los sitios que hagan referencia a un uso de RTC que enruta la llamada a través de la puerta de enlace local de RTC.
+    Puede que quieras proporcionar el enrutamiento de emergencia en áreas de la compañía donde no sirve el proveedor de servicios de emergencia (por ejemplo, en ubicaciones internacionales). Para ello, crea un sitio y luego asigna directivas de voz a los sitios que hagan referencia a un uso de RTC que redirige la llamada a través de la puerta de enlace RTC local.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

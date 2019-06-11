@@ -1,39 +1,77 @@
-﻿---
-title: 'Lync Server 2013: Servicio web de actualización de dispositivos'
-TOCTitle: Servicio web de actualización de dispositivos
-ms:assetid: 036f473d-a131-431f-8051-76ccadc5cfba
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994015(v=OCS.15)
-ms:contentKeyID: 52061584
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Servicio web de actualización de dispositivos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device Update Web service
+ms:assetid: 036f473d-a131-431f-8051-76ccadc5cfba
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994015(v=OCS.15)
+ms:contentKeyID: 51803921
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1d2b258b7a088f0deeee029be482f1ed63bc00ef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835419"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Servicio web de actualización de dispositivos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="device-update-web-service-in-lync-server-2013"></a>Servicio web de actualización de dispositivos en Lync Server 2013
 
-Lync Server incluye el Servicio web de actualización de dispositivos, que se instala automáticamente como parte del rol Servicios web. Este servicio le permite bajarse descargas de Microsoft, probarlas y luego implementar las actualizaciones en teléfonos IP de su organización. También puede utilizar el Servicio web de actualización de dispositivos para revertir a versiones anteriores del software en los dispositivos.
+</div>
 
-Esta sección ofrece detalles sobre cómo administrar el Servicio web de actualización de dispositivos y las actualizaciones implementadas usando los registros de actualización de dispositivos, las reglas (Lync Phone Edition usa *reglas* para asociar las actualizaciones de versión de firmware con los dispositivos de hardware) y las opciones de configuración.
+<div id="mainSection">
 
-Si quiere detalles sobre el proceso y las funciones de Servicio web de actualización de dispositivos, vea [Actualizar dispositivos](http://technet.microsoft.com/es-es/library/gg412864\(v=ocs.14\).aspx) en la biblioteca TechNet de Lync Server 2010. (Recuerde que Servicio web de actualización de dispositivos, como todos los componentes de Lync Phone Edition, funciona igual con Lync Server 2013 que con Lync Server 2010).
+<div id="mainBody">
 
-## En esta sección
+<span> </span>
 
-  - [Archivos y registros de actualización de dispositivos en Lync Server 2013](lync-server-2013-device-update-logs-and-files.md)
+_**Última modificación del tema:** 2013-02-20_
+
+Lync Server incluye el servicio Web de actualización de dispositivos, que se instala automáticamente como parte del rol de servicios Web. Este servicio le permite descargar actualizaciones de Microsoft, probarlas y, a continuación, implementarlas en los teléfonos IP de su organización. También puede usar el servicio Web de actualización de dispositivos para revertir dispositivos a versiones de software anteriores.
+
+En esta sección se proporcionan detalles sobre cómo administrar el servicio Web de actualización de dispositivos e implementar actualizaciones mediante el uso de registros de actualización de dispositivos, reglas (Lync Phone Edition usa *reglas* para asociar actualizaciones de versión de firmware con dispositivos de hardware) y la configuración Configuración.
+
+Para obtener más información sobre el proceso y las características del servicio Web de actualización de dispositivos, consulte [actualización de dispositivos](http://technet.microsoft.com/en-us/library/gg412864\(v=ocs.14\).aspx) en la biblioteca de TechNet de 2010 de Lync Server. (Tenga en cuenta que el servicio Web de actualización de dispositivos, como todos los componentes de Lync Phone Edition, funciona de la misma manera con Lync Server 2013 como lo hace con Lync Server 2010).
+
+<div>
+
+## <a name="in-this-section"></a>En esta sección
+
+  - [Registros y archivos de actualización de dispositivos en Lync Server 2013](lync-server-2013-device-update-logs-and-files.md)
 
   - [Reglas de actualización de dispositivos en Lync Server 2013](lync-server-2013-device-update-rules.md)
 
-  - [Opciones de configuración de actualización de dispositivos en Lync Server 2013](lync-server-2013-device-update-configuration-settings.md)
+  - [Configuración de actualización de dispositivos en Lync Server 2013](lync-server-2013-device-update-configuration-settings.md)
 
   - [Ver actualizaciones de software para dispositivos en Lync Server 2013](lync-server-2013-view-software-updates-for-devices-in-your-organization.md)
 
-## Vea también
+</div>
 
-#### Otros recursos
+<div>
 
-[Herramientas y servicios para administrar y resolver problemas de los dispositivos](http://technet.microsoft.com/en-us/library/gg425800\(v=ocs.14\).aspx)
+## <a name="see-also"></a>Vea también
+
+
+[Herramientas y servicios para administrar y solucionar problemas de dispositivos](http://technet.microsoft.com/en-us/library/gg425800\(v=ocs.14\).aspx)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

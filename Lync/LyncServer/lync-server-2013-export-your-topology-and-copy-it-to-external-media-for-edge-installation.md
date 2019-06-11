@@ -1,35 +1,73 @@
-﻿---
-title: "Exportar la topología y copiarla en un medio externo para la instalación perimetral"
-TOCTitle: Exportar la topología y copiarla en un medio externo para la instalación perimetral
-ms:assetid: def9f416-c519-4a72-b242-7d3057d9c1fd
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398983(v=OCS.15)
-ms:contentKeyID: 48276929
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Exportar la topología y copiarla en un medio externo para la instalación perimetral
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Export your topology and copy it to external media for edge installation
+ms:assetid: def9f416-c519-4a72-b242-7d3057d9c1fd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398983(v=OCS.15)
+ms:contentKeyID: 48185615
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7cdd947287ec5b7fef90d27df6df2dd256481000
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835185"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Exportar la topología de Lync Server 2013 y copiarla en un medio externo para la instalación perimetral
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="export-your-lync-server-2013-topology-and-copy-it-to-external-media-for-edge-installation"></a>Exportar la topología de Lync Server 2013 y copiarla en un medio externo para la instalación perimetral
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-08_
 
-Una vez publicada la topología, el Asistente para la implementación de Lync Server debe obtener acceso a los datos del Almacén de administración central para iniciar el proceso de implementación en el servidor. En la red interna, se puede obtener acceso a los datos desde los servidores, pero los servidores perimetrales que no se encuentran en el dominio interno no pueden obtener acceso a los datos. Para hacer que los datos de configuración de la topología estén disponibles para una implementación de servidor perimetral, debe exportar los datos de topología a un archivo y copiarlo en medios externos (por ejemplo, una unidad USB o un recurso compartido de red al que se puede obtener acceso desde el servidor perimetral) antes de ejecutar el Asistente para la implementación de Lync Server en el servidor perimetral. Siga el procedimiento indicado a continuación para hacer que sus datos de configuración de topología estén disponibles en el servidor perimetral que está implementando.
+Después de publicar su topología, el Asistente para la implementación de Lync Server necesita acceso a los datos del almacén central de administración para iniciar el proceso de implementación en el servidor. En la red interna, los datos están disponibles directamente desde los servidores, pero los servidores perimetrales que no se encuentran en el dominio interno no tienen acceso a los datos. Para que los datos de configuración de topología estén disponibles para una implementación de servidor perimetral, debe exportar los datos de la topología a un archivo y copiarlos en medios externos (por ejemplo, una unidad USB o un recurso compartido de red que esté disponible desde el servidor perimetral) antes de ejecutar el servidor de DEP de Lync Server Asistente para loyment en el servidor perimetral. Use el siguiente procedimiento para que los datos de configuración de su topología estén disponibles en el servidor perimetral que va a implementar.
+
+<div>
 
 
 > [!NOTE]
-> Una vez instalado Lync Server 2013 en un servidor perimetral, el servidor perimetral se administra mediante las herramientas administrativas de la red interna que automáticamente replican la configuración en todos los servidores perimetrales de la implementación. La única excepción es la asignación e instalación de certificados, así como la detención y el inicio de servicios que deben realizarse en el servidor perimetral.
+> Después de instalar Lync Server 2013 en un servidor perimetral, administra el servidor perimetral con las herramientas administrativas de la red interna, que automáticamente replican la configuración en los servidores perimetrales de la implementación. La única excepción es asignar e instalar certificados e detener e iniciar servicios, ambos deben realizarse en el servidor perimetral.
 
 
 
-## Para hacer que los datos de la topología estén disponibles en un servidor perimetral mediante el Shell de administración de Communications Server
+</div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<div>
 
-2.  En el Shell de administración de Lync Server, ejecute el cmdlet siguiente:
+## <a name="to-make-your-topology-data-available-on-an-edge-server-by-using-lync-server-management-shell"></a>Para hacer que los datos de su topología estén disponibles en un servidor perimetral mediante el shell de administración de Lync Server
+
+1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+
+2.  En el shell de administración de Lync Server, ejecute el siguiente cmdlet:
     
         Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
 
-3.  Copie el archivo externo a medios externos (por ejemplo, una unidad USB o un recurso compartido de red disponible desde el servidor perimetral durante la implementación).
+3.  Copie el archivo exportado a un medio externo (por ejemplo, una unidad USB o un recurso compartido de red que esté disponible desde el servidor perimetral durante la implementación).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

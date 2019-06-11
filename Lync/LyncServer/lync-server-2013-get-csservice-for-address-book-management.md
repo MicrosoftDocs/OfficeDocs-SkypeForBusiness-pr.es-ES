@@ -1,25 +1,45 @@
-﻿---
-title: Get-CsService para la administración de la libreta de direcciones
-TOCTitle: Get-CsService para la administración de la libreta de direcciones
-ms:assetid: 373b717d-5efa-4c36-a899-a23a5bd922b4
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg429698(v=OCS.15)
-ms:contentKeyID: 48274937
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: get-CsService para la administración de libretas de direcciones'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Get-CsService for Address Book management
+ms:assetid: 373b717d-5efa-4c36-a899-a23a5bd922b4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429698(v=OCS.15)
+ms:contentKeyID: 48183853
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4cfa9bd42bb29ca32ab27dc64d2ee9a111abab8d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835136"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Get-CsService para la administración de la libreta de direcciones
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="get-csservice-for-address-book-management-in-lync-server-2013"></a>Get-CsService para la administración de libretas de direcciones en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-01_
 
-Quién puede ejecutar este cmdlet: De forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet Get-CsService de manera local: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Para devolver una lista de todos los roles de control de acceso basado en roles (RBAC) a los que se ha asignado este cmdlet (incluido cualquier otro rol RBAC personalizado que usted mismo haya creado), ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:
+¿Quién puede ejecutar este cmdlet? de forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet Get-CsService de forma local: RTCUniversalUserAdmins, RTCUniversalServerAdmins. Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Get-CsService"}
 
-Get-CsService tiene importancia para recuperar y mostrar la configuración actual del Servicios web definido en la infraestructura. Al definir el nombre de dominio completo (FQDN) del grupo y el parámetro WebServer, el cmdlet devuelve los servicios basados en web que ofrece el servidor, incluido el controlador de libreta de direcciones y los URI de expansión de la lista de distribución.
+Get-CsService es útil para recuperar y mostrar la configuración actual de los servicios web definidos de su infraestructura. Al definir el nombre de dominio completo (FQDN) de la agrupación y el parámetro webserver, el cmdlet devuelve los servicios basados en web ofrecidos por su servidor, incluidos los URI de expansión de la lista de distribución y el controlador de la libreta de direcciones.
 
 Por ejemplo:
 
@@ -27,103 +47,115 @@ Por ejemplo:
 
 Este cmdlet devuelve lo siguiente:
 
-Identity : WebServer:pool01.contoso.net
+Identidad: WebServer:pool01. contoso. net
 
-FileStore : FileStore:dc01.contoso.net
+Almacén de almacén::DC01. contoso. net
 
-UserServer : UserServer:pool01.contoso.net
+UserServer: UserServer:pool01. contoso. net
 
-PrimaryHttpPort : 80
+PrimaryHttpPort: 80
 
-PrimaryHttpsPort : 443
+PrimaryHttpsPort: 443
 
-ExternalHttpPort : 8080
+ExternalHttpPort: 8080
 
-ExternalHttpsPort : 4443
+ExternalHttpsPort: 4443
 
-PublishedPrimaryHttpPort : 80
+PublishedPrimaryHttpPort: 80
 
-PublishedPrimaryHttpsPort : 443
+PublishedPrimaryHttpsPort: 443
 
-PublishedExternalHttpPort : 80
+PublishedExternalHttpPort: 80
 
-PublishedExternalHttpsPort : 443
+PublishedExternalHttpsPort: 443
 
-ReachPrimaryPsomServerPort : 8060
+ReachPrimaryPsomServerPort: 8060
 
-ReachExternalPsomServerPort : 8061
+ReachExternalPsomServerPort: 8061
 
-AppSharingPortStart : 49152
+AppSharingPortStart: 49152
 
-AppSharingPortCount : 16383
+AppSharingPortCount: 16383
 
-LIServiceInternalUri : https://internalweb.contoso.net/locationinformation/liservice.svc
+LIServiceInternalUri :https://internalweb.contoso.net/locationinformation/liservice.svc
 
-ABHandlerInternalUri : https://internalweb.contoso.net/abs/handler
+ABHandlerInternalUri :https://internalweb.contoso.net/abs/handler
 
-ABHandlerExternalUri : https://csweb.contoso.com/abs/handler
+ABHandlerExternalUri :https://csweb.contoso.com/abs/handler
 
-DLExpansionInternalUri : https://internalweb.contoso.net/groupexpansion/service.svc
+DLExpansionInternalUri :https://internalweb.contoso.net/groupexpansion/service.svc
 
-DLExpansionExternalUri : https://csweb.contoso.com/groupexpansion/service.svc
+DLExpansionExternalUri :https://csweb.contoso.com/groupexpansion/service.svc
 
-CAHandlerInternalUri : https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+CAHandlerInternalUri :https://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-CAHandlerInternalAnonUri : http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
+CAHandlerInternalAnonUri :http://internalweb.contoso.net/CertProv/CertProvisioningService.svc
 
-CollabContentInternalUri : https://internalweb.contoso.net/CollabContent
+CollabContentInternalUri :https://internalweb.contoso.net/CollabContent
 
-CollabContentExternalUri : https://csweb.contoso.com/CollabContent
+CollabContentExternalUri :https://csweb.contoso.com/CollabContent
 
-CAHandlerExternalUri : https://csweb.contoso.com/CertProv/CertProvisioningService.svc
+CAHandlerExternalUri :https://csweb.contoso.com/CertProv/CertProvisioningService.svc
 
-DeviceUpdateDownloadInternalUri : https://internalweb.contoso.net/RequestHandler/ucdevice.upx
+DeviceUpdateDownloadInternalUri :https://internalweb.contoso.net/RequestHandler/ucdevice.upx
 
-DeviceUpdateDownloadExternalUri : https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
+DeviceUpdateDownloadExternalUri :https://csweb.contoso.com/RequestHandlerExt/ucdevice.upx
 
-DeviceUpdateStoreInternalUri : http://internalweb.contoso.net/RequestHandler/Files
+DeviceUpdateStoreInternalUri :http://internalweb.contoso.net/RequestHandler/Files
 
-DeviceUpdateStoreExternalUri : https://csweb.contoso.com/RequestHandlerExt/Files
+DeviceUpdateStoreExternalUri :https://csweb.contoso.com/RequestHandlerExt/Files
 
-RgsAgentServiceInternalUri : https://internalweb.contoso.net/RgsClients/AgentService.svc
+RgsAgentServiceInternalUri :https://internalweb.contoso.net/RgsClients/AgentService.svc
 
-RgsAgentServiceExternalUri : https://csweb.contoso.com/RgsClients/AgentService.svc
+RgsAgentServiceExternalUri :https://csweb.contoso.com/RgsClients/AgentService.svc
 
-MeetExternalUri : https://csweb.contoso.com/Meet
+MeetExternalUri :https://csweb.contoso.com/Meet
 
-DialinExternalUri : https://csweb.contoso.com/Dialin
+DialinExternalUri :https://csweb.contoso.com/Dialin
 
-CscpInternalUri : https://internalweb.contoso.net/Cscp
+CscpInternalUri :https://internalweb.contoso.net/Cscp
 
-ReachExternalUri : https://csweb.contoso.com/Reach
+ReachExternalUri :https://csweb.contoso.com/Reach
 
-ReachInternalUri : https://internalweb.contoso.net/Reach
+ReachInternalUri :https://internalweb.contoso.net/Reach
 
-WebTicketExternalUri : https://csweb.contoso.com/WebTicket/WebTicketService.svc
+WebTicketExternalUri :https://csweb.contoso.com/WebTicket/WebTicketService.svc
 
-WebTicketInternalUri : https://internalweb.contoso.net/WebTicket/WebTicketService.svc
+WebTicketInternalUri :https://internalweb.contoso.net/WebTicket/WebTicketService.svc
 
-ExternalFqdn : csweb.contoso.com
+ExternalFqdn: csweb.contoso.com
 
-InternalFqdn : internalweb.contoso.net
+InternalFqdn: internalweb.contoso.net
 
-DependentServiceList : {Registrar:pool01.contoso.net, ConferencingServer:pool01.contoso.net}
+DependentServiceList: {registrar:pool01. contoso. net, ConferencingServer:pool01. contoso. net}
 
-ServiceId : 1-WebServices-1
+ServiceId: 1-webservices-1
 
-SiteId Site:Redmond
+SiteId: sitio: Redmond
 
-PoolFqdn : pool01.contoso.net
+PoolFqdn: pool01.contoso.net
 
 Versión: 5
 
-Role : WebServer
+Rol: servidor WebServer
 
-Para obtener una descripción detallada del comando íntegro, remítase a lo siguiente en la referencia principal de RTCCmdlets de Windows PowerShell de Lync Server.
+<div>
 
-## Vea también
+## <a name="see-also"></a>Vea también
 
-#### Otros recursos
 
-[Get-CsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsService)
+[Get-CsService](https://docs.microsoft.com/powershell/module/skype/Get-CsService)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

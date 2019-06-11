@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla DeviceDriver'
-TOCTitle: Tabla DeviceDriver
-ms:assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398844(v=OCS.15)
-ms:contentKeyID: 48276667
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla DeviceDriver'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DeviceDriver table
+ms:assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398844(v=OCS.15)
+ms:contentKeyID: 48185449
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ea4ab9ad8b2eda5388791c98c1e1da90d9bd5c65
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835416"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla DeviceDriver en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="devicedriver-table-in-lync-server-2013"></a>Tabla DeviceDriver en Lync Server 2013
 
-La tabla DeviceDriver es una tabla auxiliar. Cada registro representa un controlador que usa un dispositivo de captura o un dispositivo de representación.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-02_
+
+La tabla DeviceDriver es una tabla de soporte. Cada registro representa un controlador usado por un dispositivo de captura o un dispositivo de representación.
 
 
 <table>
@@ -36,16 +56,27 @@ La tabla DeviceDriver es una tabla auxiliar. Cada registro representa un control
 <tbody>
 <tr class="odd">
 <td><p><strong>DeviceDriverKey</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
-<td><p>Número único de identificación de este registro de controlador de dispositivo.</p></td>
+<td><p>int</p></td>
+<td><p>Primary</p></td>
+<td><p>Número único que identifica este registro de controlador de dispositivo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DeviceDriver</strong></p></td>
-<td><p>varchar(256)</p></td>
-<td><p>Único</p></td>
-<td><p>Nombre de controlador de dispositivo.</p></td>
+<td><p>VARCHAR (256)</p></td>
+<td><p>solo</p></td>
+<td><p>Nombre del controlador del dispositivo.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

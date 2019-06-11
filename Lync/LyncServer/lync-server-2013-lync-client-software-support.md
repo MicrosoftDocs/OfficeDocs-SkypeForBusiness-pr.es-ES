@@ -1,29 +1,53 @@
-﻿---
-title: 'Lync Server 2013: Compatibilidad del software cliente Lync'
-TOCTitle: Compatibilidad del software cliente Lync
-ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412781(v=OCS.15)
-ms:contentKeyID: 48276275
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: compatibilidad con el software de cliente de Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync client software support
+ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412781(v=OCS.15)
+ms:contentKeyID: 48184994
+ms.date: 02/25/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9d11037f6a70d99b5e49958e72c1847912f1fff3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834932"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Compatibilidad del software cliente Lync en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="lync-client-software-support-in-lync-server-2013"></a>Compatibilidad del software de cliente de Lync en Lync Server 2013
 
-La siguiente tabla contiene los requisitos de hardware y software mínimos para Lync 2013 y para el Complemento para conferencia en línea para Lync 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2016-02-25_
+
+En esta sección se resume la compatibilidad de software para Lync 2013 y el complemento de reunión en línea para Lync 2013.
+
+<div>
 
 
-> [!NOTE]
-> El Complemento para conferencia en línea para Lync 2013, que admite la administración de reuniones desde dentro del cliente de colaboración y mensajería de Outlook, se instala automáticamente con Lync 2013.
+> [!NOTE]  
+> El complemento de reunión en línea para Lync 2013, que admite la administración de reuniones desde el cliente de mensajería y colaboración de Outlook, se instala automáticamente con Lync 2013.
 
 
 
-### Requisitos de software para Lync 2013 y Complemento para conferencia en línea para Lync 2013
+</div>
+
+### <a name="software-requirements-for-lync-2013-and-the-online-meeting-add-in-for-lync-2013"></a>Requisitos de software para Lync 2013 y complemento de reuniones en línea para Lync 2013
 
 <table>
 <colgroup>
@@ -39,14 +63,15 @@ La siguiente tabla contiene los requisitos de hardware y software mínimos para 
 <tbody>
 <tr class="odd">
 <td><p>Sistema operativo Windows</p></td>
-<td><p>Windows 8,1</p>
+<td><p>Windows 10</p>
+<p>Windows 8.1</p>
 <p>Windows 8</p>
 <p>Sistema operativo Windows 7</p>
-<p>Windows Server 2008 R2 con el Service Pack más reciente</p>
+<p>Windows Server 2008 R2 con el Service Pack más reciente</p>
 <div>
 
-> [!NOTE]
-> Lync 2013 y Complemento para conferencia en línea para Lync 2013 no son compatibles en Windows Vista ni Windows XP (en ninguna versión).
+> [!NOTE]  
+> Lync 2013 y el complemento de reunión en línea para Lync 2013 no son compatibles con Windows Vista o Windows XP (cualquier versión).
 
 
 </div></td>
@@ -57,15 +82,16 @@ La siguiente tabla contiene los requisitos de hardware y software mínimos para 
 </tr>
 <tr class="odd">
 <td><p>Explorador</p></td>
-<td><p>Explorador de Internet Windows Internet Explorer 10</p>
+<td><p>Explorador Internet Explorer 11</p>
+<p>Explorador de Internet de Internet Explorer 10</p>
 <p>Explorador Internet Explorer 9</p>
-<p>Internet Explorer 8</p>
+<p>Explorador Internet Explorer 8</p>
 <p>Explorador Internet Explorer 7</p>
 <p>Explorador web Mozilla Firefox</p>
 <div>
 
-> [!NOTE]
-> Si está usando Lync con Microsoft Exchange Online y su organización implementó un proxy HTTP de autenticación, se requiere Internet Explorer 9 o Internet Explorer 8.
+> [!NOTE]  
+> Si está usando Lync con Microsoft Exchange Online y su organización ha implementado un proxy HTTP de autenticación, se necesita Internet Explorer 9 o Internet Explorer 8.
 
 
 </div></td>
@@ -90,37 +116,67 @@ La siguiente tabla contiene los requisitos de hardware y software mínimos para 
 </table>
 
 
-## Sistemas operativos Macintosh
+<div>
 
-Lync 2013 solo está disponible para Windows. No obstante, Lync Server 2013 es compatible con los siguientes clientes en equipos que ejecuten Mac OS 10.5.8 o sistemas operativos de versiones o Service Packs más recientes (Intel) (actualmente, el sistema operativo de Mac OS 10.9 no es compatible). Para más información sobre características compatibles, consulte [Tablas de comparación de clientes para Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
+## <a name="macintosh-operating-systems"></a>Sistemas operativos Macintosh
 
-  - Microsoft Lync para Mac 2011 (vea "Guía de implementación de Lync para Mac 2011" en [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786))
+Lync 2013 solo está disponible para Windows. Sin embargo, Lync Server 2013 admite los siguientes clientes en equipos que ejecutan Mac OS 10.5.8 o versiones más recientes de los sistemas operativos Service Packs o versiones (basados en Intel) (no se admite actualmente el sistema operativo de Mac OS 10,9). Para obtener más información sobre las características admitidas, vea [tablas de comparación de clientes para Lync Server 2013](lync-server-2013-desktop-client-comparison-tables.md).
 
-  - Microsoft Communicator para Mac 2011 (vea "Guía de implementación de Communicator para Mac 2011") en [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787))
+  - Microsoft Lync para Mac 2011 (consulte "Guía de implementación de Lync para Mac 2011 [http://go.microsoft.com/fwlink/p/?LinkId=268786](http://go.microsoft.com/fwlink/p/?linkid=268786)" en la)
 
-## Exploradores de Lync Web App
+  - Microsoft Communicator para Mac 2011 (consulte la "Guía de implementación de Communicator para Mac [http://go.microsoft.com/fwlink/p/?LinkId=268787](http://go.microsoft.com/fwlink/p/?linkid=268787)2011" en la)
 
-Lync Web App admite combinaciones específicas de sistemas operativos y exploradores. Para obtener más información, consulte [Plataformas admitidas en Lync Web App en Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md) en la documentación sobre planeamiento.
+</div>
 
-## Compatibilidad con Microsoft Office
+<div>
 
-Los clientes de Lync Server 2013 admiten integración con diversas versiones de Microsoft Office, según se resume en esta sección.
+## <a name="lync-web-app-browsers"></a>Exploradores de Lync Web App
+
+Lync Web App admite combinaciones específicas de sistemas operativos y exploradores. Para obtener más información, consulte [plataformas compatibles con Lync Web App para Lync Server 2013](lync-server-2013-lync-web-app-supported-platforms.md) en la documentación de planeación.
+
+</div>
+
+<div>
+
+## <a name="microsoft-office-supportability"></a>Compatibilidad con Microsoft Office
+
+Los clientes de Lync Server 2013 admiten la integración con varias versiones de Microsoft Office, tal y como se resume en esta sección.
 
   - Las características de integración de Lync 2013 son compatibles con Outlook 2013 y Microsoft Outlook 2010.
 
   - Las características de integración de Lync 2013 son compatibles con Microsoft Exchange Server 2013 y Microsoft Exchange Server 2010.
 
-  - El Complemento para reunión en línea de Lync 2013 es compatible con Office 2013 y Microsoft Office 2010.
+  - El complemento de reunión en línea para Lync 2013 es compatible con Office 2013 y Microsoft Office 2010.
 
-## Uso de perfiles obligatorios
+</div>
 
-Si los usuarios planean usar características de conferencia de Lync 2013, no deberían usar perfiles obligatorios de Servicios de dominio de Active Directory para iniciar sesión en el cliente de Lync 2013. Puesto que los perfiles obligatorios son perfiles de usuario de solo lectura, las claves de infraestructura de clave pública (PKI) que son necesarias para la conferencia de Lync 2013 no se pueden guardar en el perfil. Para obtener más información, consulte el artículo 2552221 de Microsoft Knowledge Base, "La característica de conferencia de Lync 2010 provoca error cuando el usuario ha iniciado sesión usando un perfil de usuario obligatorio", en [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221).
+<div>
 
-## Vea también
+## <a name="using-mandatory-profiles"></a>Uso de perfiles obligatorios
 
-#### Conceptos
+Si los usuarios planean usar las características de conferencia de Lync 2013, no deben usar perfiles obligatorios de servicios de dominio de Active Directory para iniciar sesión en el cliente de Lync 2013. Como los perfiles obligatorios son de solo lectura, las claves de infraestructura de clave pública (PKI) que se requieren para las conferencias de Lync 2013 no se pueden guardar en el perfil. Para obtener más información, consulte el artículo 2552221 de Microsoft Knowledge base, "la característica Conferencia de Lync 2010 falla cuando el usuario inicia sesión con un perfil [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=2552221](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2552221)de usuario obligatorio" en.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Compatibilidad de hardware del cliente Lync en Lync Server 2013](lync-server-2013-lync-client-hardware-support.md)  
-[Requisitos de vídeo del cliente de Lync para Lync Server 2013](lync-server-2013-lync-client-video-requirements.md)  
-[Clientes admitidos de implementaciones anteriores en Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md)
+[Requisitos de vídeo de cliente de Lync para Lync Server 2013](lync-server-2013-lync-client-video-requirements.md)  
+[Clientes admitidos de implementaciones anteriores en Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

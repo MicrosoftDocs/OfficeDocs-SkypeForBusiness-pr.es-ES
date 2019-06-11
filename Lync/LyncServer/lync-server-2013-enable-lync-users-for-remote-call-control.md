@@ -1,39 +1,65 @@
-﻿---
-title: "Lync Server 2013: Habilitar a los usuarios de Lync para el control remoto de llamadas"
-TOCTitle: Habilitar a los usuarios de Lync para el control remoto de llamadas
-ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615048(v=OCS.15)
-ms:contentKeyID: 48277166
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Habilitar a los usuarios de Lync para el control remoto de llamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable Lync users for remote call control
+ms:assetid: f39bc10d-034c-4875-a0b8-554e1109e7e6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615048(v=OCS.15)
+ms:contentKeyID: 48185795
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c6eae16d6dae46bab4f6cf745bc2e2a827eabcb3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835314"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar a los usuarios de Lync para el control remoto de llamadas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="enable-lync-users-for-remote-call-control-in-lync-server-2013"></a>Habilitar a los usuarios de Lync para el control remoto de llamadas en Lync Server 2013
 
-Puede configurar a los usuarios de Lync para control remoto de llamadas mediante directivas de aprovisionamiento en banda basadas en servidor. La configuración de aprovisionamiento en banda puede administrarse mediante Panel de control de Lync Server o la interfaz de línea de comandos de Shell de administración de Lync Server. Estas herramientas sustituyen al complemento de WMI (Instrumental de administración de Windows) que se usa para administrar la configuración de directivas de grupo en las versiones anteriores.
+</div>
 
-Si prefiere permitir que los usuarios definan su propia configuración de llamadas remotas en Lync, puede definir la configuración de control remoto de llamadas en el servidor sin especificar los valores de **URI de servidor de línea** y **URI de línea**. Comunique a los usuarios los valores de **URI de servidor de línea** y **URI de línea** correspondientes. Asimismo, facilíteles las instrucciones para definir estas configuraciones. Si desea información sobre la configuración manual del control de llamadas remotas en Lync Server, consulte "Definir opciones y números de teléfono" en <http://go.microsoft.com/fwlink/p/?linkid=210132> en la documentación sobre clientes de Lync en el sitio web de Microsoft Office.
+<div id="mainSection">
 
-Si tiene una implementación existente de Communications Server 2007 R2 o Communications Server 2007, los clientes de Communicator 2007 R2 y Communicator 2007 seguirán usando la directiva de grupo durante la migración en paralelo. Sin embargo, si desea que la configuración de la directiva se aplique a los clientes de Lync, deberá configurar las opciones de aprovisionamiento en banda equivalentes de Lync Server.
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-21_
+
+Puede configurar los usuarios de Lync para el control remoto de llamadas mediante directivas de aprovisionamiento en banda basadas en el servidor. Puede administrar la configuración de aprovisionamiento en banda con el panel de control de Lync Server o la interfaz de línea de comandos del shell de administración de Lync Server. Estas herramientas reemplazan al complemento instrumental de administración de Windows (WMI) que se usó para administrar la configuración de la Directiva de grupo en versiones anteriores.
+
+Si prefiere permitir que los usuarios configuren su propia configuración de control de llamadas remotas en Lync, puede configurar la configuración de control de llamadas remotas para los usuarios del servidor sin especificar valores **URI del servidor de líneas** y URI de **línea** . Asegúrese de comunicar los valores correctos de **URI del servidor de línea** y URI de **línea** a los usuarios, y proporcione a los usuarios las instrucciones para establecer esta configuración. Para obtener información sobre cómo configurar manualmente el control remoto de llamadas en Lync Server, consulte "set phone Options <http://go.microsoft.com/fwlink/p/?linkid=210132> and Numbers" en la documentación del cliente de Lync en el sitio web de Microsoft Office.
+
+Si tiene una implementación existente de Communications Server 2007 R2 o Communications Server 2007, los clientes de Communicator 2007 R2 y Communicator 2007 continuarán usando la Directiva de grupo durante la migración en paralelo. Sin embargo, si desea que la configuración de directivas se lleve a cabo para los clientes de Lync, debe configurar la configuración de aprovisionamiento en banda de Lync Server equivalente.
+
+<div>
 
 
-> [!NOTE]
-> Para que un usuario pueda habilitarse para control remoto de llamadas, debe tener un URI de servidor de línea y un URI de línea. Como se explica en <A href="lync-server-2013-deployment-tasks-for-remote-call-control.md">Implementación de tareas para el control remoto de llamadas en Lync Server 2013</A>, compruebe que se use la sintaxis que la puerta de enlace necesita para esta configuración.<BR>Compruebe que el dominio del URI de servidor de línea sea el mismo que el dominio de destino especificado en el parámetro MatchUri al configurar la ruta estática a la puerta de enlace.<BR>El URI de línea especifica el número de teléfono asignado al usuario en formato E.164, con el prefijo “TEL:” . Por ejemplo, tel:+14255550150. Si desea configurar un número de extensión, el formato es tel:+14255550150;ext=111. Si anteriormente había configurado el URI de línea y no se había cambiado el valor, no hace falta especificar el URI de línea cuando se habilite al usuario para control remoto de llamadas.
+> [!NOTE]  
+> Para habilitar un usuario para el control remoto de llamadas, debe proporcionar al usuario un URI de línea y un URI de servidor de línea. Como se describe en <A href="lync-server-2013-deployment-tasks-for-remote-call-control.md">tareas de implementación para el control remoto de llamadas en Lync Server 2013</A>, debe asegurarse de usar la sintaxis requerida por la puerta de enlace para esta configuración.<BR>Asegúrese de que el dominio del URI del servidor de línea es el mismo que el dominio de destino que especificó en el parámetro MatchUri cuando configuró la ruta estática a la puerta de enlace.<BR>El URI de línea especifica el número de teléfono asignado al usuario en formato E. 164, con el prefijo "TEL:" (por ejemplo, Tel: + 14255550150). Si desea configurar un número de extensión, el formato es Tel: + 14255550150; ext = 111. Si previamente ha configurado el URI de la línea del usuario y el valor no ha cambiado, no es necesario especificar el URI de línea cuando habilita al usuario para el control remoto de llamadas.
 
 
 
-## Para configurar usuarios para control remoto de llamadas mediante el Shell de administración
+</div>
 
-1.  Inicie sesión en un equipo en el que Shell de administración de Lync Server esté instalado como miembro del grupo RTCUniversalServerAdmins o un rol de control de acceso basado en roles al que haya asignado el cmdlet **Set-CsUser**.
+<div>
 
-2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+## <a name="to-enable-remote-call-control-for-lync-enabled-users-by-using-management-shell"></a>Para habilitar el control remoto de llamadas para los usuarios habilitados para Lync mediante el shell de administración
 
-3.  Para usar el cmdlet **Set-CsUser** con el fin de configurar el control remoto de llamadas para un usuario habilitado para Lync, efectúe lo siguiente:
+1.  Inicie sesión en un equipo en el que esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o como un rol de control de acceso basado en roles al que haya asignado el cmdlet **set-CsUser** .
+
+2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+
+3.  Para usar el cmdlet **set-CsUser** para configurar el control remoto de llamadas para un usuario existente habilitado para Lync, haga lo siguiente:
     
         Set-CsUser -Identity <User ID> -EnterpriseVoiceEnabled $false -LineServerUri <SIP URI of the SIP/CSTA gateway> -LineUri <TEL URI of the user> -RemoteCallControlTelephonyEnabled $true
     
@@ -41,25 +67,41 @@ Si tiene una implementación existente de Communications Server 2007 R2 o Commun
     
         Set-CsUser -Identity "Katie Jordan" -EnterpriseVoiceEnabled $false -LineServerUri sip:rccgateway@contoso.net -LineUri tel:+14255550150 -RemoteCallControlTelephonyEnabled $true
 
-## Para configurar usuarios para control remoto de llamadas mediante el Panel de control de Lync Server
+</div>
+
+<div>
+
+## <a name="to-configure-users-for-remote-call-control-by-using-lync-server-control-panel"></a>Para configurar usuarios para el control remoto de llamadas con el panel de control de Lync Server
 
 1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
-4.  En el cuadro **Buscar usuarios**, escriba la primera parte del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar**.
+4.  En el cuadro **Buscar usuarios** , escriba todos (o la primera parte) del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en ** Buscar**.
 
-5.  En la tabla, haga clic en la cuenta de usuario que desee modificar.
+5.  En la tabla, haga clic en la cuenta de usuario que desea modificar.
 
-6.  En el menú **Editar**, haga clic en **Modificar**.
+6.  En el menú **Editar** , haga clic en **modificar**.
 
-7.  En **Telefonía**, lleve a cabo uno de los siguientes procedimientos:
+7.  En **telefonía**, realice una de las siguientes acciones:
     
-      - Para habilitar el control remoto de llamadas y que el usuario pueda controlar su línea de teléfono de escritorio desde Lync 2013 para realizar llamadas de equipo a equipo y de equipo a teléfono, haga clic en **Control remoto de llamada**. En **URI de línea**, especifique el número de teléfono del usuario. En **URI de servidor de línea**, especifique el URI del SIP de la puerta de enlace SIP/CSTA.
+      - Para habilitar el control remoto de llamadas para permitir que el usuario pueda controlar su teléfono de central de conmutación (PBX) de Lync 2013 para hacer llamadas de audio de PC a PC y llamadas de PC a teléfono, haga clic en **control remoto de llamadas**. En **URI de línea**, especifique el número de teléfono del usuario. En **line URI del servidor**, especifique el URI de SIP de la puerta de enlace SIP/CSTA.
     
-      - Para habilitar el control remoto de llamadas, deshabilitar la llamadas de equipo a equipo y que solo el usuario pueda controlar su línea de teléfono de escritorio desde Lync 2013 para realizar llamadas de equipo a teléfono, haga clic en **Control remoto solo de llamada**. En **URI de línea**, especifique el número de teléfono del usuario. En **URI de servidor de línea**, especifique el URI del SIP de la puerta de enlace SIP/CSTA.
+      - Para habilitar el control remoto de llamadas, pero deshabilitar las llamadas de audio de PC a PC y permitir que solo el usuario controle su teléfono PBX desde Lync 2013 para hacer llamadas de equipo a teléfono, haga clic en **control remoto de llamadas únicamente**. En **URI de línea**, especifique el número de teléfono del usuario. En **line URI del servidor**, especifique el URI de SIP de la puerta de enlace SIP/CSTA.
 
-8.  Cuando termine, haga clic en **Confirmar**.
+8.  Cuando haya terminado, haga clic en **confirmar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

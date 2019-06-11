@@ -1,27 +1,49 @@
-﻿---
-title: "Lync Server 2013 : Conf. mat. et logicielle requise pour le directeur"
-TOCTitle: Requisitos de hardware y software para el director
-ms:assetid: 747b701e-7f97-46fe-91c5-1e8d9addf9f7
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398560(v=OCS.15)
-ms:contentKeyID: 48275664
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos de hardware y software para el director'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hardware and software requirements for the Director
+ms:assetid: 747b701e-7f97-46fe-91c5-1e8d9addf9f7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398560(v=OCS.15)
+ms:contentKeyID: 48184517
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a3b1b2a3f642c01d3a4743281554834e9ddda55f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835079"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de hardware y software para el director en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-05-19_
+# <a name="hardware-and-software-requirements-for-the-director-in-lync-server-2013"></a>Requisitos de hardware y software para el director en Lync Server 2013
 
-En esta sección se especifican los requisitos de hardware y software del Director, y los escenarios de combinación admitidos por el Director.
+</div>
 
-## Requisitos de hardware del Director
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-20_
+
+En esta sección se detallan los requisitos de hardware y software para el director y los escenarios de collocation compatibles para el director.
+
+<div>
+
+## <a name="hardware-requirements-for-the-director"></a>Requisitos de hardware para el director
 
 En la tabla siguiente se enumeran los requisitos de hardware para el Director:
 
-### Requisitos de hardware del director
+### <a name="hardware-requirements-for-the-director"></a>Requisitos de hardware para el director
 
 <table>
 <colgroup>
@@ -38,52 +60,72 @@ En la tabla siguiente se enumeran los requisitos de hardware para el Director:
 <tr class="odd">
 <td><p>CPU</p></td>
 <td><ul>
-<li><p>Procesador de 64 bits, cuatro núcleos, 2,0 GHz o superior</p></li>
-<li><p>Procesador de 64 bits, dos núcleos, 2,0 GHz o superior</p></li>
+<li><p>procesador de 64 bits, núcleo cuádruple, 2,0 GHz o superior</p></li>
+<li><p>procesador dual de 64 bits, doble núcleo, 2,0 GHz o superior</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Memoria</p></td>
-<td><p>4 gigabytes (GB).</p></td>
+<td><p>4 gigabytes (GB)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Disco</p></td>
 <td><ul>
-<li><p>Unidad de disco duro a 10.000 rpm</p></li>
-<li><p>Unidad de estado sólido (SSD) de alto rendimiento con un rendimiento igual o superior al de las unidades HDD a 10.000 rpm</p></li>
-<li><p>Dos unidades RAID 10 (seccionado y reflejado) a 15.000 RPM para los archivos de datos de las bases de datos</p></li>
+<li><p>unidad de disco duro (HDD) de 10K RPM</p></li>
+<li><p>Unidad de estado sólido (SSD) de alto rendimiento con rendimiento igual o superior a 10K RPM HDD</p></li>
+<li><p>2 discos RAID 10 (seccionados y reflejados) de 15.000 RPM para archivos de datos de bases de datos</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Red</p></td>
 <td><ul>
-<li><p>Adaptadores de red duales a 1 gigabit por segundo (Gbps) (recomendado)</p></li>
-<li><p>Un solo adaptador de red de 1 Gbps (compatible)</p></li>
+<li><p>Dos adaptadores de red de 1 Gigabit por segundo (Gbps) (recomendado)</p></li>
+<li><p>Un único adaptador de red de 1 Gbps (compatible)</p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 
-## Requisitos de software para el Director
+</div>
 
-El rol de Director solo puede implementarse en servidores que ejecutan Lync Server 2013 Enterprise Edition.
+<div>
 
-Se requiere uno de los siguientes operativos de 64 bits para todos los roles de Directores:
+## <a name="software-requirements-for-the-director"></a>Requisitos de software para el director
 
-  - El sistema operativo Windows Server 2008 R2 Standard
+El rol de Director solo se puede implementar en servidores que ejecuten Lync Server 2013 Enterprise Edition.
 
-  - El sistema operativo Windows Server 2008 R2 Enterprise
+Para los directores, se requiere uno de los siguientes sistemas operativos de 64 bits:
 
-  - El sistema operativo Windows Server 2008 R2 Datacenter
+  - El sistema operativo Windows Server 2008 R2 Standard con Service Pack 1
 
-  - El sistema operativo Windows Server 2012 Standard
+  - El sistema operativo Windows Server 2008 R2 Enterprise con Service Pack 1
+
+  - El sistema operativo Windows Server 2008 R2 Datacenter con Service Pack 1
+
+  - Sistema operativo Windows Server 2012 Standard
 
   - El sistema operativo Windows Server 2012 Datacenter
 
-Lync Server 2013 también requiere la instalación de los programas y las actualizaciones siguientes que se explican en el tema [Compatibilidad y requisitos para un servidor adicional en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).
+Lync Server 2013 también requiere la instalación de los siguientes programas y actualizaciones detallados en el tema [soporte técnico de servidor adicional y requisitos de Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).
 
-## Combinación admitida
+</div>
 
-El rol de servidor de Director no puede instalarse con ningún otro rol de servidor de Lync Server 2013. Sin embargo, si no implementa un Director, los Servidores front-end asumirán el rol.
+<div>
+
+## <a name="supported-collocation"></a>Collocation compatibles
+
+El rol de servidor Director no se puede incluir con ningún otro rol de servidor en Lync Server 2013. Sin embargo, si no implementa un director, los servidores front-end asumirán el rol.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

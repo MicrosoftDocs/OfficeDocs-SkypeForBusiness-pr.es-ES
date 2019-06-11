@@ -1,77 +1,138 @@
-﻿---
-title: "Lync Server 2013: Instalar sistemas operativos y software necesario para servidores"
-TOCTitle: Instalar los sistemas operativos y el software necesario como requisito previo en los servidores
-ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398103(v=OCS.15)
-ms:contentKeyID: 48274293
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Instalar los sistemas operativos y el software necesario como requisito previo en los servidores
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install operating systems and prerequisite software on servers
+ms:assetid: 055991e0-5aeb-43fc-a7ba-d4b02316d73b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398103(v=OCS.15)
+ms:contentKeyID: 48183288
+ms.date: 07/24/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 26a4eed86f12386b10b49d4290a4596b40c1fcc9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835010"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalar los sistemas operativos y el software necesario como requisito previo en los servidores en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="install-operating-systems-and-prerequisite-software-on-servers-for-lync-server-2013"></a>Instalar los sistemas operativos y el software necesario como requisito previo en los servidores en Lync Server 2013
 
-Una vez configurado el hardware y la infraestructura del sistema, deberá instalar los sistemas operativos Windows adecuados y sus actualizaciones, además de todo el software necesario como requisito previo en cada uno de los servidores que esté implementando. Esto incluye cada uno de los roles de servidor de Lync Server 2013 y todos los demás servidores de infraestructura adicionales o servidores que ejecuten SQL Server que sean necesarios para la implementación.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-07-24_
+
+Una vez que haya configurado el hardware y la infraestructura del sistema, tendrá que instalar los sistemas operativos de Windows y las actualizaciones correspondientes, además de todos los demás programas de requisitos previos en cada servidor que vaya a implementar. Esto incluye cada rol de servidor de Lync Server 2013 y todos los servidores de infraestructura adicionales o servidores que ejecuten SQL Server que sean necesarios para su implementación.
+
+<div>
 
 
 > [!NOTE]
-> En esta sección se describe la instalación de sistemas operativos y el software necesario como requisito previo para servidores internos. Si está implementando Servidores perimetrales para admitir el acceso de usuarios externos, debe instalar también sistemas operativos y el software necesario como requisito previo para esos servidores, incluidos los Servidores perimetrales y servidores proxy inversos. Para obtener más información acerca de la preparación de servidores para admitir el acceso de usuarios externos, consulte <A href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">Preparar la instalación de los servidores en la red del perímetro para Lync Server 2013</A> en la documentación referente a la implementación.
+> En esta sección se describe la instalación de sistemas operativos y el software necesario para servidores internos. Si implementa servidores perimetrales para admitir el acceso de usuarios externos, también tendrá que instalar sistemas operativos y el software necesario para esos servidores, incluidos los servidores perimetrales y los servidores proxy inversos. Para obtener más información sobre la preparación de servidores para admitir el acceso de usuarios externos, vea preparación de la <A href="lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network.md">instalación de servidores en la red perimetral para Lync Server 2013</A> en la documentación de implementación.
 
 
 
-## Instalar sistemas operativos Windows en servidores
+</div>
 
-Instale el sistema operativo Windows adecuado en cada uno de los servidores que va a implementar como se describe a continuación:
+<div>
 
-  - **Servidores que ejecutan Lync Server 2013**   Para más información acerca de los requisitos del sistema operativo para los servidores que ejecutan Lync Server 2013, vea [Compatibilidad del sistema operativo con el servidor y las herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación de compatibilidad.
+## <a name="install-windows-operating-systems-on-servers"></a>Instalar sistemas operativos Windows en servidores
 
-  - **Servidores de bases de datos.** Para más información sobre los requisitos del sistema operativo para los servidores de bases de datos, incluida la base de datos back-end, Base de datos de archivado y Base de datos de supervisión, vea la documentación de SQL Server. Para SQL Server 2012, vea los Libros en pantalla de SQL Server 2012 en [http://go.microsoft.com/fwlink/?linkid=218015\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=218015%26clcid=0xc0a).
+En cada servidor que va a implementar, instale el sistema operativo Windows adecuado de la siguiente manera:
+
+  - **Servidores que ejecutan Lync Server 2013**   para obtener más información sobre los requisitos del sistema operativo para servidores que ejecutan Lync Server 2013, vea [compatibilidad del sistema operativo servidor y herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación de soporte técnico.
+
+  - **Servidores de bases de datos**   para obtener información sobre los requisitos del sistema operativo para servidores de bases de datos, como la base de datos back-end, la base de datos archivada y la base de datos de supervisión, consulte la documentación de SQL Server. Para SQL Server 2012, consulte los libros en línea de SQL Server [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)2012 en.
+
+<div>
 
 
 > [!NOTE]
-> Si va a instalar Lync Server 2013 en Windows Server&nbsp;2008&nbsp;R2 con SP1, primero debe instalar la actualización que se describe en el artículo 2646886 de Microsoft Knowledge Base, “SOLUCIÓN: Cuando un módulo llama al método InsertEntityBody en IIS 7.5 se producen daños en el montón” en <A href="http://go.microsoft.com/fwlink/?linkid=3052%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=3052&amp;clcid=0xC0A</A>.<BR>También debe modificar el registro como se describe en el artículo de Knowledge Base, <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">Los Id. de evento 32402 y 61045 se registran en servidores front-end de Lync Server 2013 que están instalados en Windows Server R2 de 2012</A>.
+> Si está instalando Lync Server 2013 en Windows Server&nbsp;2008&nbsp;R2 con SP1, primero debe instalar la actualización que se describe en el artículo 2646886 de Microsoft Knowledge base, "Fix: el montón de daños se produce cuando un módulo llama al método InsertEntityBody en IIS 7,5 ", at <A class=uri href="http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=2646886"> http://go.microsoft.com/fwlink/p/?linkid=3052&amp; kbid = 2646886</A>.<BR>También debe modificar el registro según se describe en el artículo de KB, los <A href="http://go.microsoft.com/fwlink/p/?linkid=506893">identificadores de eventos 32402, 61045 se registran en los servidores front-end de Lync server 2013 que se instalan en Windows server 2012 R2</A>.
 
 
 
-## Instalar Windows Update en los servidores
+</div>
+
+</div>
+
+<div>
+
+## <a name="install-windows-update-on-servers"></a>Instalar Windows Update en servidores
 
 Instale las actualizaciones siguientes desde Windows Update en cada servidor:
 
-  - **Windows Update para servidores que ejecutan Lync Server 2013**   Para obtener más información acerca de las actualizaciones de Windows Update requeridas para los servidores que ejecutan Lync Server 2013, consulte [Requisitos adicionales de software para Lync Server 2013](lync-server-2013-additional-software-requirements.md) en la documentación de planeación.
+  - **Windows Update para servidores que ejecutan Lync Server 2013**   para obtener más información sobre las actualizaciones de Windows Update necesarias para servidores que ejecutan Lync Server 2013, consulte [requisitos de software adicionales para Lync Server 2013](lync-server-2013-additional-software-requirements.md) en la planeación documentación.
 
-  - **Servidores de bases de datos**   Para obtener información sobre las actualizaciones de Windows Update necesarias para los servidores de bases de datos, incluida la base de datos back-end, Base de datos de archivado y Base de datos de supervisión, vea la documentación de SQL Server 2012. Para SQL Server 2012, vea los Libros en pantalla de SQL Server 2012 en [http://go.microsoft.com/fwlink/?linkid=218015\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=218015%26clcid=0xc0a).
+  - **Servidores de base de datos**   para obtener información sobre las actualizaciones de Windows Update necesarias para los servidores de bases de datos, como la base de datos back-end, la base de datos de archivado y la base de datos de supervisión, consulte la documentación 2012 de SQL Server. Para SQL Server 2012, consulte los libros en línea de SQL Server [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)2012 en.
 
-## Instalar otro software necesario como requisito previo en los servidores
+</div>
 
-Lync Server 2013 requiere la instalación de software adicional siguiente en los servidores:
+<div>
 
-  - **Software necesario como requisito previo para servidores que ejecutan Lync Server 2013**   El software adicional necesario como requisito previo para los servidores que ejecutan Lync Server 2013 dependerá del rol de servidor que se implemente. Para más información acerca de requisitos de software específicos, vea [Requisitos adicionales de software para Lync Server 2013](lync-server-2013-additional-software-requirements.md) en la documentación sobre planeación.
+## <a name="install-other-prerequisite-software-on-servers"></a>Instalar otro software necesario en los servidores
 
-  - **Windows Identity Foundation.**Lync Server 2013 requiere la instalación de Windows Identity Foundation para admitir los escenarios de autenticación de servidor a servidor. Para comprobar si se ha instalado en el equipo, vaya a Panel de control, haga clic en **Programas y características**, **Ver actualizaciones instaladas** y mire en **Microsoft Windows**. Para obtener información sobre la instalación de Windows Identity Foundation, vea [http://go.microsoft.com/fwlink/?linkid=204657\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=204657%26clcid=0xc0a).
+Lync Server 2013 requiere la instalación del siguiente software adicional en los servidores:
 
-  - **Microsoft .NET Framework 4.5**   Necesitará la versión de 64 bits de Microsoft .NET Framework 4.5 para Lync Server 2013.
+  - **Requisitos previos de software para servidores que ejecutan Lync Server 2013**   los requisitos de software adicionales para servidores que ejecutan Lync Server 2013 dependen del rol de servidor que se implemente. Para obtener más información sobre los requisitos de software específicos para cada servidor, consulte [requisitos de software adicionales para Lync server 2013](lync-server-2013-additional-software-requirements.md) en la documentación de planeación.
 
-  - **Software necesario como requisito previo para servidores de bases de datos** Para obtener información sobre el Windows Update necesario para servidores de bases de datos, incluida la base de datos back-end, Base de datos de archivado y Base de datos de supervisión, vea la documentación de SQL Server 2012 en [http://go.microsoft.com/fwlink/?linkid=218015\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=218015%26clcid=0xc0a).
+  - **Windows Identity Foundation**   Lync Server 2013 requiere la instalación de Windows Identity Foundation para poder admitir los escenarios de autenticación de servidor a servidor. Para comprobar que ya se ha instalado en el equipo, vaya a panel de control, haga clic en **programas y características**, **vea actualizaciones instaladas**y busque en **Microsoft Windows**. Para obtener más información sobre cómo instalar Windows Identity [http://go.microsoft.com/fwlink/p/?linkId=204657](http://go.microsoft.com/fwlink/p/?linkid=204657)Foundation, consulte.
+
+  - **Microsoft .NET Framework 4,5**   se necesita la edición de 64 bits de Microsoft .NET Framework 4,5 para Lync Server 2013.
+
+  - **Requisitos previos de software para servidores**   de bases de datos para obtener información sobre la actualización de Windows Update requerida para servidores de bases de datos, como la base de datos back-end, la base [http://go.microsoft.com/fwlink/p/?linkId=218015](http://go.microsoft.com/fwlink/p/?linkid=218015)de datos de archivado y la base de datos de supervisión, consulte la documentación de SQL Server 2012 en
+    
+    <div>
     
 
     > [!NOTE]
-    > Lync Server 2013 instala automáticamente Microsoft SQL Server 2012 Express en cada Servidor Standard Edition y en cada servidor que ejecuta Lync Server 2013 en el que se ubica el almacén de configuración local.
+    > Lync Server 2013 instala automáticamente Microsoft SQL Server 2012 Express en cada servidor Standard Edition y en cada servidor que ejecuta Lync Server 2013 en el que se encuentra el almacén de configuración local.
 
+    
+    </div>
 
-
-  - **Tiempo de ejecución de Windows Media Format**   Todos los Servidores front-end y Servidores Standard Edition en los que se vayan a implementar las conferencias deben tener instalado el Tiempo de ejecución de Windows Media. El Tiempo de ejecución de Windows Media Format es necesario para ejecutar los archivos de audio de Windows Media (.wma) que reproducen las aplicaciones de estacionamiento de llamadas, anuncio y grupo de respuesta para los anuncios y la música.
+  - **Windows Media Format Runtime**   todos los servidores front-end y los servidores Standard Edition en los que se van a implementar las conferencias deben tener instalado el Windows Media Format Runtime. El tiempo de ejecución de Windows Media Format es necesario para ejecutar los archivos de audio de Windows Media (. WMA) que las aplicaciones de los grupos estacionamiento, anuncio y respuesta de llamadas se reproducen para anuncios y música.
+    
+    <div>
     
 
     > [!NOTE]
-    > Para Windows Server 2012 y Windows Server 2012 R2, el Tiempo de ejecución de Windows Media Format se instala con Microsoft Media Foundation.
+    > Para Windows Server 2012 y Windows Server 2012 R2, el tiempo de ejecución de Windows Media Format se instala con Microsoft Media Foundation.
 
+    
+    </div>
+    
+    <div>
     
 
     > [!NOTE]
-    > Para Windows Server&nbsp;2008 y Windows Server&nbsp;2008&nbsp;R2, el Tiempo de ejecución de Windows Media Format se instala como parte de la experiencia de escritorio de Windows. Se recomienda instalar la experiencia de escritorio de Windows antes de instalar Lync Server 2013. Si Lync Server 2013 no encuentra este software en el servidor, le solicitará que lo instale y, a continuación, deberá reiniciar el servidor para completar la instalación.
+    > Para Windows Server&nbsp;2008 y windows Server&nbsp;2008&nbsp;R2, el tiempo de ejecución de Windows Media Format se instala como parte de la experiencia de escritorio de Windows. Se recomienda instalar la experiencia de escritorio de Windows antes de instalar Lync Server 2013. Si Lync Server 2013 no encuentra este software en el servidor, le pedirá que lo instale y, a continuación, deberá reiniciar el servidor para completar la instalación.
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

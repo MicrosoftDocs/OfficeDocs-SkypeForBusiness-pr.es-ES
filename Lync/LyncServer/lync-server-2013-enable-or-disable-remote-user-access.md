@@ -1,63 +1,113 @@
-﻿---
-title: "Lync Server 2013 : Activ. ou désactiv. de l’accès des utilisateurs distants"
-TOCTitle: Habilitar y deshabilitar el acceso de usuarios remotos
-ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182586(v=OCS.15)
-ms:contentKeyID: 48276712
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Habilitar y deshabilitar el acceso de usuarios remotos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable remote user access
+ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
+ms:contentKeyID: 48185660
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6a8edd8d6736d181b59579db29cc1e7244b0a750
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835291"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar y deshabilitar el acceso de usuarios remotos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enable-or-disable-remote-user-access-in-lync-server-2013"></a>Habilitar y deshabilitar el acceso de usuarios remotos en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-Los usuarios remotos son usuarios de la organización que tienen una identidad persistente de Active Directory en la organización. Los usuarios remotos suelen iniciar sesión en Lync Server desde fuera del firewall con una red privada virtual (VPN) cuando no están conectados internamente a la red de su organización. Entre los usuarios se encuentran los empleados que trabajan en casa o fuera de la oficina, así como otros trabajadores remotos, como los proveedores de confianza, a los que se conceden credenciales corporativas. Si habilita el acceso de usuarios remotos, los usuarios remotos admitidos se conectan por Internet y no necesitan conectarse usando una VPN para colaborar con usuarios internos que usen Lync Server.
+Los usuarios remotos son usuarios de su organización que tienen una identidad de Active Directory persistente dentro de la organización. Los usuarios remotos suelen iniciar sesión en Lync Server desde fuera de la red mediante una red privada virtual (VPN) cuando no están conectados a la red de su organización. Los usuarios remotos incluyen empleados que trabajan en casa o que están de viaje y otros trabajadores remotos, como proveedores de confianza, a los que se les han concedido credenciales empresariales. Si habilita el acceso de usuarios remotos para usuarios remotos, los usuarios remotos compatibles se conectan a través de Internet y no tienen que conectarse usando una VPN para colaborar con usuarios internos que usen Lync Server.
 
-Si más adelante desea impedir de forma provisional o definitiva el acceso a usuarios de dominios federados, deshabilite la federación para la organización. Para habilitar o deshabilitar el acceso de usuarios federados en su organización, siga el procedimiento de esta sección, que también incluye las opciones de federación adecuadas que debe admitir la organización.
+Para admitir el acceso de usuarios remotos, debe habilitar el acceso de usuarios remotos. Cuando se habilita el acceso de usuarios remotos, se habilita para toda la organización. Si posteriormente desea evitar el acceso de usuarios remotos de forma temporal o permanente, puede deshabilitarlo para su organización. Use el procedimiento de esta sección para habilitar o deshabilitar el acceso de usuarios remotos a su organización.
 
-
-> [!NOTE]
-> Al habilitar el acceso de usuarios remotos solo se especifica que los servidores que ejecuten el servicio perimetral de acceso permitan la comunicación con usuarios remotos, pero dichos usuarios no pueden participar en mensajes instantáneos ni en conferencias de la organización hasta que también se configure una directiva para administrar el uso del acceso de usuarios remotos. La configuración de directiva de Lync Server que se aplica en un nivel de directiva puede invalidar la configuración que se aplica en otro nivel de directiva. La precedencia de directiva de Lync Server es esta: la directiva de usuario (de mayor influencia) invalida una directiva de sitio, y una directiva de sitio invalida una directiva global (de menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto. Para obtener información detallada sobre la configuración de directivas para usar el acceso de usuarios remotos, vea <A href="lync-server-2013-configure-policies-to-control-remote-user-access.md">Configurar directivas para el control del acceso de usuarios remotos en Lync Server 2013</A>.
+<div>
 
 
+> [!NOTE]  
+> Habilitar el acceso de usuarios remotos solo especifica que los servidores que ejecutan el servicio perimetral de acceso admiten comunicaciones con usuarios remotos, pero los usuarios remotos no pueden participar en la mensajería instantánea (mi) ni en conferencias de su organización hasta que también configure en menos una directiva para administrar el uso del acceso de usuarios remotos. La configuración de directiva de Lync Server que se aplica a un nivel de Directiva puede invalidar la configuración que se aplica a otro nivel de directiva. La prioridad de la Directiva de Lync Server es: la Directiva de usuario (más influencia) reemplaza a una directiva de sitio y, después, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto. Para obtener más información sobre cómo configurar directivas para el uso de acceso de usuarios remotos, vea <A href="lync-server-2013-configure-policies-to-control-remote-user-access.md">configurar directivas para controlar el acceso de usuarios remotos en Lync Server 2013</A>.
 
-## Para habilitar o deshabilitar el acceso de usuarios remotos en la organización
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-remote-user-access-for-your-organization"></a>Para habilitar o deshabilitar el acceso de usuarios remotos a su organización
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En el barra de navegación izquierda, haga clic en **Federación y acceso externo** y luego en **Configuración perimetral de acceso**.
+3.  En la barra de navegación izquierda, haga clic en **Federación y acceso externo** y, luego, en **Configuración perimetral de acceso**.
 
-4.  En la página **Configuración perimetral de acceso**, haga clic en **Global**, en **Editar** y, a continuación en **Mostrar detalles**.
+4.  En la página **configuración de perímetro de Access** , haga clic en **global**, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
 
-5.  En **Editar configuración perimetral de acceso**, lleve a cabo uno de los procedimientos siguientes:
+5.  En **Editar configuración del límite de acceso**, realice una de las siguientes acciones:
     
-      - Para habilitar el acceso de usuarios remotos en la organización, active la casilla **Habilitar el acceso remoto de usuarios**.
+      - Para habilitar el acceso de usuarios remotos a su organización, seleccione la casilla de verificación **Habilitar el acceso de usuarios remotos** .
     
-      - Para deshabilitar el acceso remoto de usuarios en la organización, desactive la casilla **Habilitar el acceso remoto de usuarios**.
+      - Para deshabilitar el acceso de usuarios remotos a su organización, desactive la casilla **Habilitar el acceso de usuarios remotos** .
 
 6.  Haga clic en **Confirmar**.
 
-Para que los usuarios remotos inicien sesión en los servidores que ejecuten Lync Server, configure al menos una directiva de acceso externo para admitir el acceso de usuarios remotos. Para obtener información detallada, vea [Configurar directivas para el control del acceso de usuarios remotos en Lync Server 2013](lync-server-2013-configure-policies-to-control-remote-user-access.md) en la documentación sobre implementación o sobre operaciones.
+Para permitir que los usuarios remotos inicien sesión en los servidores que ejecutan Lync Server, también debe configurar al menos una directiva de acceso externo para que admita el acceso de usuarios remotos. Para obtener más información, vea [configurar directivas para controlar el acceso de usuarios remotos en Lync Server 2013](lync-server-2013-configure-policies-to-control-remote-user-access.md) en la documentación de implementación o en la documentación de operaciones.
 
-## Habilitar o deshabilitar el acceso de usuarios remotos con los cmdlets de Windows PowerShell
+</div>
 
-El acceso de usuario remoto se puede administrar mediante Windows PowerShell y el cmdlet Set-CsAccessEdgeConfiguration. Este cmdlet se puede ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Para habilitar el acceso de usuario remoto
+## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar el acceso de usuarios remotos mediante cmdlets de Windows PowerShell
 
-  - Para habilitar el acceso de usuarios remotos, defina el valor de la propiedad **AllowOutsideUsers** en True ($True):
+El acceso de usuarios remotos se puede administrar mediante Windows PowerShell y el cmdlet Set-CsAccessEdgeConfiguration. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+
+<div>
+
+## <a name="to-enable-remote-user-access"></a>Para habilitar el acceso de usuarios remotos
+
+  - Para habilitar el acceso de usuarios remotos, establezca el valor de la propiedad **AllowOutsideUsers** en True ($true):
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
 
-## Para deshabilitar el acceso de usuario remoto
+</div>
 
-  - Para deshabilitar el acceso de usuarios remotos, defina el valor de la propiedad **AllowOutsideUsers** en False ($False):
+<div>
+
+## <a name="to-disable-remote-user-access"></a>Para deshabilitar el acceso de usuarios remotos
+
+  - Para deshabilitar el acceso de usuarios remotos, establezca el valor de la propiedad **AllowOutsideUsers** en False ($false):
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

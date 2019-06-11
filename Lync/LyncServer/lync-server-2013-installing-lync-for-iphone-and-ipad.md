@@ -1,55 +1,88 @@
-﻿---
-title: Instalar Lync para iPhone y iPad
-TOCTitle: Instalar Lync para iPhone y iPad
-ms:assetid: 88d1c149-5842-4ecf-a15e-fcda0330325b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh690987(v=OCS.15)
-ms:contentKeyID: 52061706
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: instalación de Lync para iPhone y iPad'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing Lync for iPhone and iPad
+ms:assetid: 88d1c149-5842-4ecf-a15e-fcda0330325b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690987(v=OCS.15)
+ms:contentKeyID: 51541496
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e3e3b9c954d862789f5fb1d9ad2b128f2269122c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834982"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalar Lync para iPhone y iPad
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="installing-lync-for-iphone-and-ipad-in-lync-server-2013"></a>Instalar Lync para iPhone y iPad en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2014-03-10_
 
-Lync 2013 para iPhone y Lync 2013 para iPad son aplicaciones que pueda instalar el usuario y que están disponibles en Apple App Store.
+Lync 2013 para iPhone y Lync 2013 para iPad son aplicaciones instalables por el usuario que están disponibles en la App Store de Apple.
 
-## Instalar Lync para iPhone y Lync para iPad
+<div>
 
-Puede indicar a sus usuarios que instale Lync 2013 para iPhone y Lync 2013 para iPad remitiéndolos a la App Store desde sus dispositivos. App Store también está disponible en línea para cada dispositivo.
+## <a name="installing-lync-for-iphone-and-lync-for-ipad"></a>Instalación de Lync para iPhone y Lync para iPad
 
-  - Lync para iPhone está disponible en App Store en &lt; http://www.apple.com/iphone/from-the-app-store/&gt;
+Puede indicar a los usuarios que instalen Lync 2013 para iPhone y Lync 2013 para iPad al dirigirlos a la App Store desde sus dispositivos. La App Store para cada dispositivo también está disponible en línea.
 
-  - Lync para iPad está disponible en App Store en &lt; http://www.apple.com/ipad/from-the-app-store/&gt;
+  - Lync para iPhone está disponible en la App Store de \< h<span></span>TTP://www.Apple.com/iphone/From-The-App-Store/>
+
+  - Lync para iPad está disponible en la App Store en \< ht<span></span>TP://www.Apple.com/iPad/From-The-App-Store/>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Los usuarios de iPhone que no tengan instalada la aplicación Lync 2013 y que intenten unirse a una reunión de Lync a partir de una invitación a reunión serán redirigidos a la página Iniciador de participación en reuniones. Esta página contiene un vínculo para instalar la aplicación Lync 2013. Sin embargo, en lugar de dirigir al usuario a la App Store, este vínculo abre un página en blanco del navegador Safari. Para solventar este problema, el usuario puede:
-> <ul>
-> <li><p>Usar el botón <strong>Principal</strong> para enviar la página de Safari al segundo plano y volver a abrir Safari. Y, cuando aparezca la notificación “Abrir esta página en App Store&quot;, pulsar <strong>Abrir</strong> para ir al sitio de descarga de Lync 2013 en la App Store.</p></li>
-> <li><p>Abrir manualmente la App Store, buscar &quot;Lync 2013&quot; y descargar la aplicación.</p></li>
-> </ul>
+> los usuarios de iPhone que no hayan instalado la aplicación Lync 2013 y que intenten unirse a una reunión de Lync desde una invitación de reunión se redirigirán a la página de iniciador de unirse. Esta página contiene un vínculo para instalar la aplicación Lync 2013. Sin embargo, en lugar de dirigir al usuario a App Store, este vínculo abre una página de explorador Safari en blanco. El usuario puede seguir uno de estos dos procedimientos para solucionar este problema: 
+> <UL>
+> <LI>
+> <P>Use el botón <STRONG>Inicio</STRONG> para enviar la página de Safari al fondo y, a continuación, vuelva a abrir Safari. Cuando aparezca la notificación "abrir esta página en App Store", pulse <STRONG>abrir</STRONG> para ser redireccionado a Lync 2013 descargar en App Store.</P>
+> <LI>
+> <P>Abra manualmente el App Store, busque "Lync 2013," y descargue la aplicación.</P></LI></UL>
 
 
-## Comprobar la instalación del cliente móvil
 
-Después de configurar el cliente e iniciar sesión correctamente, realice las siguientes pruebas para comprobar que la instalación de Lync funciona correctamente en su dispositivo móvil.
+</div>
+
+</div>
+
+<div>
+
+## <a name="verifying-mobile-client-installation"></a>Comprobar la instalación del cliente móvil
+
+Después de configurar el cliente e iniciar sesión correctamente, use las siguientes pruebas para comprobar que la instalación de Lync funciona correctamente en su dispositivo móvil.
 
 **Buscar un contacto en el directorio corporativo**
 
-1.  En la lista de contactos, puntee dentro de la barra de búsqueda en la parte superior y empiece a escribir el nombre de un contacto que existe solamente en la lista global de direcciones (GAL).
+1.  En la lista de contactos, pulse dentro de la barra de búsqueda en la parte superior y empiece a escribir el nombre de un contacto que existe solamente en la lista global de direcciones (GAL).
 
 2.  Compruebe que el nombre de contacto aparece en los resultados de búsqueda.
 
 **Probar la mensajería instantánea y la presencia**
 
-1.  En la lista de contactos, puntee un contacto.
+1.  En la lista de contactos, pulse un contacto.
 
-2.  En la tarjeta de contacto, puntee el icono **MI**.
+2.  En la tarjeta de contacto, pulse el icono **mi** .
 
-3.  Compruebe que aparece una ventana de mensajería instantánea (MI) y que puede escribir y enviar un mensaje.
+3.  Compruebe que aparece una ventana de mensajería instantánea (MI) y que puede escribir y enviar un mensaje instantáneo.
 
 **Probar la conferencia saliente**
 
@@ -63,13 +96,25 @@ Después de configurar el cliente e iniciar sesión correctamente, realice las s
 
 **Probar las notificaciones de inserción**
 
-1.  En el dispositivo móvil del usuario A, inicie sesión a Lync con la cuenta del usuario A.
+1.  En el dispositivo móvil del usuario A, inicie sesión en Lync con la cuenta del usuario A.
 
 2.  Abra otra aplicación en el dispositivo móvil.
 
-3.  En un cliente distinto, inicie sesión a Lync con la cuenta del usuario B.
+3.  En un cliente diferente, inicie sesión en Lync con la cuenta del usuario B.
 
-4.  Envíe un mensaje instantáneo del usuario B al usuario A:
+4.  Envíe un mensaje instantáneo del usuario B al usuario A.
 
-5.  Compruebe que aparece una notificación de mensaje instantáneo en el dispositivo móvil del usuario A.
+5.  Compruebe que la notificación de mensaje instantáneo aparece en el dispositivo móvil del usuario A.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

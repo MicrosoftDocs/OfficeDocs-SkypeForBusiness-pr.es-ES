@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla Devices'
-TOCTitle: Tabla Devices
-ms:assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398351(v=OCS.15)
-ms:contentKeyID: 48275273
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla Devices'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Devices table
+ms:assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398351(v=OCS.15)
+ms:contentKeyID: 48184169
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0f78e0b4ba3bb5271a2de43e423dfa4b3baf17cf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835414"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla Devices en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="devices-table-in-lync-server-2013"></a>Tabla Devices en Lync Server 2013
 
-La tabla Dispositivos es una tabla de apoyo. Cada registro almacena información sobre un dispositivo (teléfono de escritorio).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-05-25_
+
+La tabla dispositivos es una tabla de soporte. Cada registro almacena información acerca de un dispositivo (teléfono de escritorio).
 
 
 <table>
@@ -35,29 +55,40 @@ La tabla Dispositivos es una tabla de apoyo. Cada registro almacena información
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>DeviceId</strong></p></td>
+<td><p><strong>ID</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
-<td><p>Número único de identificación de esta versión de hardware.</p></td>
+<td><p>Primary</p></td>
+<td><p>Número único que identifica esta versión de hardware.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>ManufacturerId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Externa</p></td>
-<td><p>Fabricante de este dispositivo. Consulte <a href="lync-server-2013-manufacturers-table.md">Tabla Manufacturers en Lync Server 2013</a>.</p></td>
+<td><p>Extranjero</p></td>
+<td><p>Fabricante de este dispositivo. Para obtener más información, consulte la <a href="lync-server-2013-manufacturers-table.md">tabla de fabricantes en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>HardwareVersionId</strong></p></td>
 <td><p>int</p></td>
-<td><p>Externa</p></td>
-<td><p>Versión de hardware de este dispositivo. Consulte <a href="lync-server-2013-hardwareversions-table.md">Tabla HardwareVersions en Lync Server 2013</a>.</p></td>
+<td><p>Extranjero</p></td>
+<td><p>Versión de hardware de este dispositivo. Para obtener más información, consulte la <a href="lync-server-2013-hardwareversions-table.md">tabla HardwareVersions en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>MacAddress</strong></p></td>
-<td><p>bigint</p></td>
-<td><p></p></td>
+<td><p>BIGINT</p></td>
+<td></td>
 <td><p>Dirección MAC</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

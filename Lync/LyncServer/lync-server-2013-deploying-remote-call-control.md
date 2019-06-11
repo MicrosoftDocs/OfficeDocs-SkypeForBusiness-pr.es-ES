@@ -1,29 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Implementar el control remoto de llamadas'
-TOCTitle: Implementar el control remoto de llamadas
-ms:assetid: 763037f7-7a2a-49ae-acc3-9781b0bff7e0
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558664(v=OCS.15)
-ms:contentKeyID: 48275720
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Implementar el control remoto de llamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying remote call control
+ms:assetid: 763037f7-7a2a-49ae-acc3-9781b0bff7e0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558664(v=OCS.15)
+ms:contentKeyID: 48184536
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8583a8f2e8c95ce9b12ad19d8a8e5369ba756ddd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835526"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implementar el control remoto de llamadas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deploying-remote-call-control-in-lync-server-2013"></a>Implementar el control remoto de llamadas en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-20_
 
-En esta sección se le guiará a través del proceso de implementación de la funcionalidad de control remoto de llamadas para usuarios de la organización.
+Esta sección le guiará a través del proceso de implementación de la funcionalidad de control de llamadas remotas a los usuarios de su organización.
+
+<div>
 
 
-> [!NOTE]
-> Aunque las características de control remoto de llamadas están disponibles para los usuarios remotos que se encuentran fuera del firewall de su organización, los detalles sobre la implementación de escenarios de acceso externo no se abordan en esta documentación. Para más información sobre la implementación del acceso de usuarios externos, consulte <A href="lync-server-2013-deploying-external-user-access.md">Implementar el acceso de usuarios externos en Lync Server 2013</A> en la documentación referente a la implementación.
+> [!NOTE]  
+> Aunque las características de control remoto de llamadas están disponibles para los usuarios remotos mientras están fuera del firewall de la organización, los detalles sobre la implementación de escenarios de acceso externo están fuera del ámbito de esta documentación. Para obtener detalles sobre cómo implementar el acceso de usuarios externos, vea <A href="lync-server-2013-deploying-external-user-access.md">implementar el acceso de usuarios externos en Lync Server 2013</A> en la documentación de implementación.
 
 
 
-## En esta sección
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Configurar Lync Server 2013 para enrutar a una puerta de enlace SIP/CSTA](lync-server-2013-configuring-lync-server-to-route-to-a-sip-csta-gateway.md)
 
@@ -37,9 +63,25 @@ En esta sección se le guiará a través del proceso de implementación de la fu
 
   - [Control remoto de llamadas y normalización de números de teléfono en Lync Server 2013](lync-server-2013-remote-call-control-and-phone-number-normalization.md)
 
-  - [Quitar un host autorizado heredado en Lync Server 2013 (opcional)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (solo si se están migrando usuarios anteriormente habilitados para el control remoto de llamadas)
+  - [Quitar un host autorizado heredado en Lync Server 2013 (opcional)](lync-server-2013-remove-a-legacy-authorized-host-optional.md) (solo si va a migrar usuarios previamente habilitados para el control remoto de llamadas)
 
-## Secciones relacionadas
+</div>
 
-[Planificar el control remoto de llamadas en Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
+<div>
+
+## <a name="related-sections"></a>Secciones relacionadas
+
+[Planear el control remoto de llamadas en Lync Server 2013](lync-server-2013-planning-for-remote-call-control.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

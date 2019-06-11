@@ -1,65 +1,107 @@
-﻿---
-title: 'Lync Server 2013: Concesión de permisos de instalación'
-TOCTitle: Concesión de permisos de instalación
-ms:assetid: 15982bfe-6844-44f6-815a-72dcaf0e4d21
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398225(v=OCS.15)
-ms:contentKeyID: 48274528
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Concesión de permisos de instalación'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Granting setup permissions
+ms:assetid: 15982bfe-6844-44f6-815a-72dcaf0e4d21
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398225(v=OCS.15)
+ms:contentKeyID: 48183491
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 751ec9ba024780344596bfc0513c15f7e9eafec7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835118"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Concesión de permisos de instalación en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="granting-setup-permissions-in-lync-server-2013"></a>Concesión de permisos de instalación en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-08-27_
 
-El cmdlet **Grant-CsSetupPermission** sirve para agregar permisos Read, Write, ReadSPN y WriteSPN al grupo RTCUniversalServerAdmins en relación con una unidad organizativa de Active Directory en particular. De este modo, los miembros del grupo RTCUniversalServerAdmins de dicha unidad podrán instalar servidores que ejecuten Lync Server 2013 en el dominio especificado sin que tengan que pertenecer al grupo administradores del dominio.
+Puede usar el cmdlet **Grant-CsSetupPermission** para agregar permisos de lectura, escritura, ReadSPN y WriteSPN al grupo RTCUniversalServerAdmins para una unidad organizativa (OU) específica de Active Directory. A continuación, los miembros del grupo RTCUniversalServerAdmins de esa unidad organizativa pueden instalar servidores que ejecuten Lync Server 2013 en el dominio especificado sin ser miembros del grupo administradores de dominio.
 
-Use el cmdlet **Test-CsSetupPermission** para comprobar los permisos que ha configurado mediante el cmdlet **Grant-CsSetupPermission**.
+Use el cmdlet **Test-CsSetupPermission** para comprobar los permisos que configuró mediante el cmdlet **Grant-CsSetupPermission** .
 
-El cmdlet **Revoke-CsSetupPermission** sirve para quitar cualquier permiso que se haya otorgado a través del cmdlet **Grant-CsSetupPermission**.
+Puede usar el cmdlet **REVOKE-CsSetupPermission** para quitar los permisos que ha otorgado mediante el cmdlet **Grant-CsSetupPermission** .
 
-## Para conceder permisos de instalación
+<div>
 
-1.  Inicie sesión en un equipo que ejecute Lync Server 2013 del dominio donde desea conceder los permisos de instalación. Use una cuenta que pertenezca al grupo Admins. del dominio o al grupo Administradores de organización (si la unidad organizativa se encuentra en otro dominio secundario).
+## <a name="to-grant-setup-permissions"></a>Para conceder permisos de configuración
 
-2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+1.  Inicie sesión en un equipo que ejecute Lync Server 2013 en el dominio en el que desea conceder permisos de configuración. Use una cuenta que sea miembro del grupo administradores del dominio o del grupo administradores de la organización si la OU está en otro dominio secundario.
+
+2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
 
 3.  Ejecute:
     
         Grant-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside > [-Domain <Domain FQDN>]
     
-    El parámetro ComputerOu se puede especificar como relativo al contexto de nomenclatura predeterminado del dominio especificado (por ejemplo, CN=Computers). Otra opción consiste en especificar este parámetro como nombre distintivo de toda la unidad organizativa (por ejemplo, "CN=Computers,DC=Contoso,DC=com") En este caso, se debe indicar un nombre distintivo de unidad organizativa coherente con el dominio especificado.
+    Puede especificar el parámetro ComputerOu en relación con el contexto de nomenclatura predeterminado del dominio especificado (por ejemplo, CN = Computers). Como alternativa, puede especificar este parámetro como el nombre distintivo (DN) completo de la uo (por ejemplo, "CN = Computers, DC = Contoso, DC = com"). En este último caso, debe especificar un DN de Uo que sea coherente con el dominio que especifique.
     
-    Si no se especifica el parámetro Domain, el valor predeterminado es el dominio local.
+    Si no especifica el parámetro domain, el valor predeterminado es el dominio local.
 
-## Para comprobar permisos de instalación
+</div>
 
-1.  Inicie sesión en un equipo que ejecute Lync Server 2013 en el dominio en el que quiera comprobar los permisos de instalación que se han concedido mediante el cmdlet **Grant-CsSetupPermission**. Use una cuenta que pertenezca al grupo Admins. del dominio o al grupo Administradores de organización (si la unidad organizativa se encuentra en otro dominio secundario).
+<div>
 
-2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+## <a name="to-verify-setup-permissions"></a>Para comprobar los permisos de configuración
+
+1.  Inicie sesión en un equipo que ejecute Lync Server 2013 en el dominio en el que desea comprobar los permisos de configuración que ha otorgado mediante el cmdlet **Grant-CsSetupPermission** . Use una cuenta que sea miembro del grupo administradores del dominio o del grupo administradores de la organización si la OU está en otro dominio secundario.
+
+2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
 
 3.  Ejecute:
     
         Test-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside> [-Domain <Domain FQDN>]
     
-    El parámetro ComputerOu se puede especificar como relativo al contexto de nomenclatura predeterminado del dominio especificado (por ejemplo, CN=Computers). Otra opción consiste en especificar este parámetro como nombre distintivo de toda la unidad organizativa (por ejemplo, "CN=Computers,DC=Contoso,DC=com") En este caso, se debe indicar un nombre distintivo de unidad organizativa coherente con el dominio especificado.
+    Puede especificar el parámetro ComputerOu en relación con el contexto de nomenclatura predeterminado del dominio especificado (por ejemplo, CN = Computers). Como alternativa, puede especificar este parámetro como el nombre distintivo (DN) completo de la uo (por ejemplo, "CN = Computers, DC = Contoso, DC = com"). En este último caso, debe especificar un DN de Uo que sea coherente con el dominio que especifique.
     
-    Si no se especifica el parámetro Domain, el valor predeterminado es el dominio local.
+    Si no especifica el parámetro domain, el valor predeterminado es el dominio local.
 
-## Para revocar permisos de instalación
+</div>
 
-1.  Inicie sesión en un equipo que ejecute Lync Server 2013 en el dominio en el que quiera revocar los permisos de instalación que se han concedido mediante el cmdlet **Grant-CsSetupPermission**. Use una cuenta que pertenezca al grupo Admins. del dominio o al grupo Administradores de organización (si la unidad organizativa se encuentra en otro dominio secundario).
+<div>
 
-2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+## <a name="to-revoke-setup-permissions"></a>Para revocar los permisos de configuración
+
+1.  Inicie sesión en un equipo que ejecute Lync Server 2013 en el dominio en el que desea revocar los permisos de configuración que ha otorgado el cmdlet **Grant-CsSetupPermission** . Use una cuenta que sea miembro del grupo administradores del dominio o del grupo administradores de la organización si la OU está en otro dominio secundario.
+
+2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
 
 3.  Ejecute:
     
         Revoke-CsSetupPermission -ComputerOu <DN of the OU or container where the computer objects that will run Lync Server reside > [-Domain <Domain FQDN>]
     
-    El parámetro ComputerOu se puede especificar como relativo al contexto de nomenclatura predeterminado del dominio especificado (por ejemplo, CN=Computers). Otra opción consiste en especificar este parámetro como nombre distintivo de toda la unidad organizativa (por ejemplo, "CN=Computers,DC=Contoso,DC=com") En este caso, se debe indicar un nombre distintivo de unidad organizativa coherente con el dominio especificado.
+    Puede especificar el parámetro ComputerOu en relación con el contexto de nomenclatura predeterminado del dominio especificado (por ejemplo, CN = Computers). Como alternativa, puede especificar este parámetro como el nombre distintivo (DN) completo de la uo (por ejemplo, "CN = Computers, DC = Contoso, DC = com"). En este último caso, debe especificar un DN de Uo que sea coherente con el dominio que especifique.
     
-    Si no se especifica el parámetro Domain, el valor predeterminado es el dominio local.
+    Si no especifica el parámetro domain, el valor predeterminado es el dominio local.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

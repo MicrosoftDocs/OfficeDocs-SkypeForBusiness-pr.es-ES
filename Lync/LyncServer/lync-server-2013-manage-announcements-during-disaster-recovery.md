@@ -1,29 +1,51 @@
-﻿---
-title: 'Lync Server 2013: Administrar anuncios durante la recuperación ante desastres'
-TOCTitle: Administrar anuncios durante la recuperación ante desastres
-ms:assetid: c33e51ea-421f-42d2-826b-b73968f6bd5b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721874(v=OCS.15)
-ms:contentKeyID: 49889665
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Administrar anuncios durante la recuperación ante desastres'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Manage announcements during disaster recovery
+ms:assetid: c33e51ea-421f-42d2-826b-b73968f6bd5b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721874(v=OCS.15)
+ms:contentKeyID: 49733807
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 65627e68b31e23908e9fd5258a69862f7ea15b79
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834913"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar anuncios durante la recuperación ante desastres en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="manage-announcements-during-disaster-recovery-in-lync-server-2013"></a>Administrar anuncios durante la recuperación ante desastres en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-Lync Server 2013 admite anuncios de llamadas a números no asignados durante las interrupciones del servicio. La restauración de la funcionalidad de los anuncios durante una interrupción es opcional. Si decide hacerlo, debe volver a crear la configuración de los anuncios en el grupo de copia de seguridad. En esta sección se describe cómo puede restaurar los anuncios durante una recuperación ante desastres.
+Lync Server 2013 admite anuncios de llamadas a números no asignados durante las interrupciones. La función de restauración de la presentación durante una interrupción es opcional. Si decide restaurar los anuncios durante una interrupción, tendrá que volver a crear la configuración del anuncio en el grupo de copia de seguridad. En esta sección se describe lo que debe hacer si elige restaurar los anuncios durante la recuperación de desastres.
 
-Esta sección se aplica a los intervalos de números no asignados que usan Aplicación de anuncio y no se aplica a los intervalos de números no asignados que usan el Operador automático de mensajería unificada de Exchange.
+Esta sección se aplica a los intervalos de números sin asignar que usan la aplicación de anuncios. Esta sección no se aplica a los intervalos de números sin asignar que usan el operador automático de mensajería unificada (UM) de Exchange.
 
-## Antes de la interrupción del servicio
+<div>
 
-Con independencia de si decide usar anuncios durante las interrupciones de servicio, debe hacer copias de seguridad independientes de todos los archivos de audio personalizados que configure para Aplicación de anuncio. No se realiza esta copia de seguridad de los anuncios personalizados en el proceso de recuperación ante desastres de Lync Server. Si no hace copias de seguridad independientes, los archivos que ha cargado en el servidor o en el grupo se perderán si se dañan o se borran.
+## <a name="before-an-outage"></a>Antes de una interrupción
 
-Si no tiene copias de seguridad de los archivos de audio personalizados y los archivos de audio originales ya no están disponibles, puede buscar los archivos de audio que ha configurado para Aplicación de anuncio en el almacén de archivos del servidor o grupo donde importó originalmente los archivos. Puede copiar todos los archivos de audio que ha configurado para Aplicación de anuncio desde el almacén de archivos.
+Independientemente de si opta por usar anuncios durante las interrupciones, debe realizar copias de seguridad separadas de los archivos de audio personalizados que haya configurado para la aplicación de anuncios. No se realiza una copia de seguridad de los anuncios personalizados como parte del proceso de recuperación de desastres de Lync Server. Si no se realizan copias de seguridad separadas de los archivos y los archivos que ha cargado en el servidor o grupo de servidores están dañados, dañados o borrados, los archivos se perderán.
+
+Si no tiene copias de seguridad de archivos de audio personalizados y los archivos de audio originales ya no están disponibles, puede buscar los archivos de audio que ha configurado para una aplicación de anuncio en el almacén de archivos del servidor o grupo de servidores donde originalmente ha importado los archivos. Puede copiar todos los archivos de audio que haya configurado para la aplicación de anuncios desde el almacén de archivos.
 
 **Para copiar archivos de audio desde el almacén de archivos**
 
@@ -35,64 +57,87 @@ Si no tiene copias de seguridad de los archivos de audio personalizados y los ar
     
         Xcopy "<Pool File Store Path>\X-ApplicationServer-X\AppServerFiles\RGS\AS" "<Destination: Backup location>"
     
-    Donde X-ApplicationServer-X se refiere al identificador de servicio del servidor de aplicaciones del grupo (por ejemplo, 1-ApplicationServer-1").
+    Donde X-ApplicationServer-X se refiere al identificador de servicio del servidor de aplicaciones del grupo (por ejemplo, 1-ApplicationServer-1 ")
 
 
-## Durante la interrupción del servicio
+</div>
 
-Para usar Aplicación de anuncio durante una interrupción del servicio, debe crear de nuevo la configuración de los anuncios en el grupo de copia de seguridad. Para ello, realice las tareas que se describen en esta sección.
+<div>
 
+## <a name="during-an-outage"></a>Durante una interrupción
 
-> [!NOTE]
-> Es aconsejable que realice estas tareas después de completar la conmutación por error del grupo de copia de seguridad, porque cuando realice las acciones del paso 2, el grupo de copia de seguridad se convertirá en propietario de los intervalos de números no asignados.
+Para usar la aplicación de anuncios durante una interrupción, debe volver a crear la configuración del anuncio en el grupo de copias de seguridad llevando a cabo las tareas descritas en esta sección.
 
-
-
-
-> [!NOTE]
-> Estos pasos no son necesarios para los intervalos de números que usan un número de teléfono del Operador automático de la mensajería unificada de Exchange.
+<div>
 
 
+> [!NOTE]  
+> Le recomendamos que realice estas tareas después de la conmutación por error al grupo de copias de seguridad, ya que, tan pronto como realice el paso 2, el grupo de copia de seguridad tomará la propiedad de los intervalos de números sin asignar.
 
-**Para crear de nuevo la configuración de anuncios del grupo de copia de seguridad**
 
-1.  Cree de nuevo en el grupo de copia de seguridad los anuncios que implementó en el grupo principal tal como se indica:
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Estos pasos no son necesarios para los intervalos de números que usan un número de teléfono de operador automático de mensajería unificada de Exchange.
+
+
+
+</div>
+
+**Para volver a crear la configuración del anuncio en el grupo de copias de seguridad**
+
+1.  Vuelva a crear los anuncios que ha implementado en el grupo principal del grupo de copias de seguridad de la siguiente manera:
     
-    1.  Importe los archivos de audio que ha usado en el grupo principal en el grupo de copia de seguridad con el cmdlet **Import-CsAnnouncementFile**, y especifique el grupo de copia de seguridad para el parámetro Principal.
+    1.  Importe los archivos de audio que se usan en el grupo primario al grupo de copia de seguridad usando el cmdlet **Import-CsAnnouncementFile** y especificando el grupo de copia de seguridad para el parámetro principal.
     
-    2.  Cree de nuevo cada anuncio con el cmdlet **New-CsAnnouncement** y especifique el grupo de copia de seguridad para el parámetro Principal.
+    2.  Vuelva a crear cada anuncio con el cmdlet **New-CsAnnouncement** y especifique el grupo de copias de seguridad para el parámetro principal.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Para más información sobre el uso de estos parámetros a la hora de crear anuncios en el grupo de copia de seguridad, consulte <A href="lync-server-2013-create-an-announcement.md">Crear un anuncio en Lync Server 2013</A>.
+    > [!NOTE]  
+    > Para obtener detalles sobre el uso de estos parámetros para crear anuncios en el grupo de copia de seguridad, vea <A href="lync-server-2013-create-an-announcement.md">crear un anuncio en Lync Server 2013</A>.
 
-
-
-2.  Tras crear los anuncios en el grupo de copia de seguridad, redirija todos los intervalos de números sin asignar que usan anuncios del grupo principal a los anuncios recreados en el grupo de copia de seguridad.
     
-    Para cada intervalo de números no asignados que use un anuncio en el grupo principal, ejecute lo siguiente:
+    </div>
+
+2.  Una vez que todos los anuncios se vuelvan a crear en el grupo de copia de seguridad, redirija todos los intervalos de números no asignados que usan anuncios en el grupo primario para los anuncios recreados en el grupo de copias de seguridad.
+    
+    Para cada intervalo de números no asignado que usa un anuncio en el grupo primario, ejecute lo siguiente:
     
         Set-CsUnassignedNumber -Identity "<name of number range>" -AnnouncementService "<FQDN of backup pool>" -AnnouncementName "<announcement name in backup pool>"
 
-## Después de la interrupción del servicio
+</div>
 
-Cuando el grupo principal se encuentre disponible, deberá redirigir de nuevo a este grupo los intervalos de números no asignados que ha cambiado para la interrupción.
+<div>
+
+## <a name="after-the-outage"></a>Después de la interrupción
+
+Cuando el grupo principal esté disponible, tendrá que redirigir los intervalos de números no asignados que ha cambiado para la interrupción en el repositorio principal.
+
+<div>
 
 
-> [!NOTE]
-> Estos pasos no son necesarios para los intervalos de números que usan un número de teléfono del Operador automático de la mensajería unificada de Exchange.
+> [!NOTE]  
+> Estos pasos no son necesarios para los intervalos de números que usan un número de teléfono de operador automático de mensajería unificada de Exchange.
 
 
 
-**Para restaurar anuncios en el grupo principal**
+</div>
 
-1.  Si ha creado de nuevo el grupo principal durante la recuperación, deberá volver a crear los anuncios en este grupo. Para ello, importe los archivos de audio y cree los anuncios como lo hizo en el grupo de copia de seguridad, con la excepción de que deberá especificar el grupo principal para el parámetro Principal. Para más información, consulte "Durante la interrupción del servicio", más arriba en este tema.
+**Para restaurar anuncios en el grupo primario**
 
-2.  Para cada intervalo de números no asignados que haya cambiado para la interrupción del servicio, ejecute lo siguiente:
+1.  Si tiene que reconstruir el grupo primario durante la recuperación, tendrá que volver a crear los anuncios en el grupo primario importando los archivos de audio y creando anuncios de la misma forma que lo hizo en el grupo de copias de seguridad, excepto que especifique el grupo primario para el principal parámetro. Para obtener más información, vea "durante una interrupción" anteriormente en este tema.
+
+2.  Para cada intervalo de números no asignado que haya cambiado para la interrupción, ejecute lo siguiente:
     
         Set-CsUnassignedNumber [-Identity "<name of number range>"] -AnnouncementService "<FQDN of primary pool>" -AnnouncementName "<announcement name in primary pool>"
 
-3.  Si lo desea, quite los anuncios que ha creado de nuevo en el grupo de copia de seguridad. Obtenga una lista de los anuncios para Aplicación de anuncio del grupo de copia de seguridad. En la línea de comandos, ejecute:
+3.  De manera opcional, quite los anuncios que ha recreado en el grupo de copia de seguridad. Obtenga una lista de anuncios para la aplicación de anuncios del grupo de copia de seguridad. En la línea de comandos, ejecute:
     
         Get-CsAnnouncement -Identity "<Service:service ID>"
     
@@ -100,7 +145,7 @@ Cuando el grupo principal se encuentre disponible, deberá redirigir de nuevo a 
     
         Get-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com
     
-    En la lista resultante, localice los anuncios que desea quitar y copie los GUID. Para cada anuncio que desee quitar, ejecute:
+    En la lista resultante, busque los anuncios que desea quitar y copie los GUIDs. Para cada anuncio que desee quitar, ejecute:
     
         Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
     
@@ -108,4 +153,16 @@ Cuando el grupo principal se encuentre disponible, deberá redirigir de nuevo a 
     
         Remove-CsAnnouncement -Identity "ApplicationServer:redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
 
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

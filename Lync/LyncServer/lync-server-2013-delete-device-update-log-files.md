@@ -1,55 +1,105 @@
-﻿---
-title: Eliminar los archivos de registro de actualización de dispositivos
-TOCTitle: Eliminar los archivos de registro de actualización de dispositivos
-ms:assetid: 58d4097f-5bbf-4824-a04d-2a6555cd93c3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994039(v=OCS.15)
-ms:contentKeyID: 52061642
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: eliminar archivos de registro de actualización de dispositivos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete Device Update log files
+ms:assetid: 58d4097f-5bbf-4824-a04d-2a6555cd93c3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994039(v=OCS.15)
+ms:contentKeyID: 51803949
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 99fb9e6109c6f27e2985de18c2fcdf804dd184c7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835601"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Eliminar los archivos de registro de actualización de dispositivos
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="delete-device-update-log-files-in-lync-server-2013"></a>Eliminar archivos de registro de actualización de dispositivos en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-La Servicio web de actualización de dispositivos mantiene una amplia colección de archivos de registro. Esta colección incluye tanto registros de auditoría ejecutados por el propio servicio como archivos de registro cargados desde dispositivos cliente. Para evitar que el servidor se llene de registros del servicio de Servicio web de actualización de dispositivos, le resultará conveniente borrar los archivos de registro que ya se han guardado por un número específico de días. Establezca este número en función de la actividad de actualización y la cantidad de dispositivos cliente en la organización, y mediante Panel de control de Lync Server o Shell de administración de Lync Server.
+El servicio Web de actualización de dispositivos mantiene una amplia colección de archivos de registro. Esta colección incluye tanto los registros de auditoría realizados por el propio servicio como los archivos de registro cargados desde dispositivos cliente. Para evitar que el servidor se llene de registros de servicio Web de actualización de dispositivos, probablemente desee borrarlos de los archivos de registro que hayan estado en un determinado número de días. Establezca este número de días en función de la actividad de actualización y del número de dispositivos cliente de su organización, y mediante el uso del panel de control de Lync Server o el shell de administración de Lync Server.
 
-## Para borrar el registro de actualización de dispositivos mediante Panel de control de Lync Server
+<div>
 
-1.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-clear-the-device-update-log-by-using-lync-server-control-panel"></a>Para borrar el registro de actualizaciones de dispositivos mediante el panel de control de Lync Server
 
-2.  En la barra de navegación izquierda, haga clic en **Clientes** y, a continuación, en **Configuración de registros de dispositivos**.
+1.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la página **Configuración de registros de dispositivos**, haga doble clic en la configuración que desea cambiar.
+2.  En la barra de navegación izquierda, haga clic en **clientes**y, después, en **configuración de registro del dispositivo**.
 
-4.  En el cuadro de diálogo **Editar configuración de registros**, en **Número de días que mantener los archivos de registros (1-365)**, especifique un número de días.
+3.  En la página **configuración del registro de dispositivos** , haga doble clic en la configuración que desee cambiar.
 
-5.  Haga clic en **Confirmar**. Todos los archivos que han estado en el servidor por más del número de días especificado se borrarán. Este valor se aplicará a esta configuración hasta que lo modifique.
+4.  En el cuadro de diálogo **Editar configuración del registro** , en **número de días para conservar los archivos de registro (1-365)**, especifique un número de días.
 
-## Borrar el registro de actualización de dispositivos mediante los cmdlets de Windows PowerShell
+5.  Haga clic en **Confirmar**. Se eliminan todos los archivos que han estado en el servidor durante más de la cantidad de día especificada. Esta configuración se aplicará a esta configuración hasta que la cambie.
 
-Puede borrar los registros de actualización de dispositivos mediante Windows PowerShell y el cmdlet **Clear-CsDeviceUpdateLog**. Este cmdlet se puede ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.
+</div>
+
+<div>
+
+## <a name="clearing-the-device-update-log-by-using-the-windows-powershell-cmdlets"></a>Borrar el registro de actualizaciones de dispositivos mediante los cmdlets de Windows PowerShell
+
+Puede borrar los registros de actualización de dispositivos con Windows PowerShell y el cmdlet **Clear-CsDeviceUpdateLog** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.
+
+<div>
 
 
-> [!NOTE]
-> Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.
+> [!NOTE]  
+> Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.
 
 
 
-## Para borrar los registros de actualización de dispositivos en un servidor
+</div>
 
-  - El siguiente comando borra el registro de actualización de dispositivos en el servidor web atl-cs-001.litwareinc.com. Todas las entradas del registro guardadas por más de diez días (el valor especificado por el parámetro DaysBack) se quitarán del registro.
+<div>
+
+## <a name="to-clear-device-update-logs-on-one-server"></a>Para borrar los registros de actualización de dispositivos en un servidor
+
+  - El siguiente comando borra el registro de actualizaciones de dispositivos en el servidor Web atl-cs-001.litwareinc.com. Todas las entradas de registro de hace más de 10 días (el valor especificado por el parámetro DaysBack) se quitarán del registro.
     
         Clear-CsDeviceUpdateLog -Identity "service:WebServer:atl-cs-001.litwareinc.com" -DaysBack 10
 
-## Para borrar todos los registros de actualización de dispositivos
+</div>
 
-  - Este comando quita las entradas caducadas (en este ejemplo, entradas guardadas por más de diez días) de todos los registros de actualización de dispositivos que se usan actualmente en la organización.
+<div>
+
+## <a name="to-clear-all-device-update-logs"></a>Para borrar todos los registros de actualización de dispositivos
+
+  - Este comando quita las entradas obsoletas (en este ejemplo, las entradas de más de 10 días de antigüedad) de todos los registros de actualización de dispositivos que se usan en la organización.
     
         Get-CsService -WebServer | Foreach-Object {Clear-CsDeviceUpdateLog -Identity $_.Identity -DaysBack 10}
 
-Para obtener información detallada, consulte el tema de Ayuda acerca del cmdlet [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/en-us/powershell/module/skype/Clear-CsDeviceUpdateLog).
+</div>
+
+Para obtener más información, vea el tema de ayuda sobre el cmdlet [Clear-CsDeviceUpdateLog](https://docs.microsoft.com/powershell/module/skype/Clear-CsDeviceUpdateLog) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

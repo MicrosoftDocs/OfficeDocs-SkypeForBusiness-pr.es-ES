@@ -1,150 +1,189 @@
-﻿---
-title: Herramienta PreCall Diagnostics de Lync en Lync Server 2013
-TOCTitle: Herramienta PreCall Diagnostics de Lync en Lync Server 2013
-ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn451255(v=OCS.15)
-ms:contentKeyID: 59602832
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: herramienta de diagnóstico de PRELLAMADA de Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Lync PreCall Diagnostics Tool
+ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
+ms:contentKeyID: 56708404
+ms.date: 11/04/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834926"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Herramienta PreCall Diagnostics de Lync en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="lync-precall-diagnostics-tool-in-lync-server-2013"></a>Herramienta de diagnóstico de PRELLAMADA de Lync en Lync Server 2013
 
-La herramienta PreCall Diagnostics (PCD) de Lync es una aplicación basada en el cliente que le permite ver el modo en que el estado actual de la red puede afectar a la calidad del audio en la próxima llamada de Telefonía IP empresarial.
+</div>
 
-La PCD es muy útil en situaciones donde es probable que el último acceso de una red sea el más débil (por ejemplo, al usar un portátil en una red Wi-Fi pública o usuarios domésticos). La PCD crea una secuencia de paquetes pequeños que atraviesa este último tramo de la red. La herramienta analiza la secuencia de paquetes para estimar cómo pueden afectar a la calidad de la llamada la vibración y la pérdida existentes en este tramo, y luego elabora un informe. Se puede ejecutar continuamente en el cliente aunque se estén haciendo llamadas. La secuencia de paquetes no tiene efectos significativos sobre el ancho de banda.
+<div id="mainSection">
 
-**La última versión de la PCD, 1.1, incluye las siguientes mejoras:**
+<div id="mainBody">
 
-  - Admite contraseñas más largas, que pueden tener hasta 127 caracteres
+<span> </span>
 
-  - Diagnósticos adicionales para problemas de autenticación de inicio de sesión
+_**Última modificación del tema:** 2016-11-04_
 
-  - Más soporte para las implementaciones híbridas de Lync
+La herramienta de diagnóstico de PRELLAMADA de Lync (PCD) es una aplicación basada en cliente que le permite ver cómo el estado actual de su red puede influir en la calidad del audio en una próxima llamada de telefonía empresarial.
 
-  - Actualizaciones del seleccionador de credenciales
+PCD es más útil en situaciones en las que es probable que el último salto de una red sea el más débil (por ejemplo, con equipos portátiles en una red WiFi pública o usuarios domésticos). PCD crea una pequeña secuencia de paquetes que atraviesa esta pierna final de la red. Después, la herramienta analiza la secuencia de paquetes para estimar cómo la vibración y la pérdida de este segmento pueden influir en la calidad de la llamada y, a continuación, proporciona un informe. Puede ejecutar PCD continuamente en el cliente, incluso mientras se están colocando las llamadas. La secuencia de paquetes no tiene un efecto significativo en el ancho de banda.
 
-  - Mejoras de estabilidad
+**La última versión del PCD, versión 1,1, incluye las siguientes mejoras:**
 
-Todos los comentarios son bienvenidos. Envíenos sus dudas o preguntas de soporte técnico al alias [Comentarios sobre PCD](mailto:pcdfb@microsoft.com) en la dirección <pcdfb@microsoft.com>.
+  - Compatibilidad con contraseñas más largas, que ahora pueden tener hasta 127 caracteres
+
+  - Diagnósticos adicionales para problemas de inicio de sesión de autenticación
+
+  - Mejor compatibilidad para implementaciones híbridas de Lync
+
+  - Actualizaciones del selector de credenciales
+
+  - Mejoras en la estabilidad
+
+Agradecemos todos los comentarios. Envía todas las preguntas o problemas de soporte al alias de [comentarios PCD](mailto:pcdfb@microsoft.com) en <pcdfb@microsoft.com>.
 
 Este tema incluye las secciones siguientes:
 
   - Versiones de PCD de Lync
 
-  - Requisitos del sistema para PCD de Lync
+  - Requisitos del sistema de Lync PCD
 
-  - Características de la PCD de Lync
+  - Características de PCD de Lync
 
-  - Ejecutar PCD de Lync
+  - Ejecución de PCD de Lync
 
   - Desinstalar PCD de Lync
 
-## Versiones de PCD de Lync
+<span id="Version"></span>
 
-Este tema describe las siguientes versiones de la herramienta, que se pueden bajar gratuitamente:
+<div>
 
-  - Aplicación de escritorio para Windows ([http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914))
+## <a name="lync-pcd-versions"></a>Versiones de PCD de Lync
 
-  - Aplicación para Windows 8 Modern ([http://go.microsoft.com/fwlink/?LinkId=322110](http://go.microsoft.com/fwlink/p/?linkid=322110))
+En este tema se describen las siguientes versiones de la herramienta, disponibles para su descarga gratis:
 
+  - Aplicación de escritorio de[http://go.microsoft.com/fwlink/?LinkId=327914](http://go.microsoft.com/fwlink/p/?linkid=327914)Windows ()
 
-> [!NOTE]
-> Los usuarios de Lync para Office 365 pueden usar las dos versiones de la PCD.
+</div>
 
+<span id="Requirements"></span>
 
+<div>
 
-Si quiere usar una versión anterior de la PCD, vea lo siguiente:
+## <a name="lync-pcd-system-requirements"></a>Requisitos del sistema de Lync PCD
 
-  - La versión de 32 bits de la PCD se puede bajar gratis desde el Centro de descarga de Microsoft en [Office Communications Server 2007 R2: herramienta del kit de recursos PreCallDiagnostic (32 bits)](http://go.microsoft.com/fwlink/p/?linkid=164769).
-
-  - La versión de 64 bits de la PCD se incluye con las herramientas de Office Communications Server 2007 R2, que se pueden bajar gratis desde el Centro de descarga de Microsoft en [Office Communications Server 2007 R2: herramientas del kit de recursos](http://go.microsoft.com/fwlink/p/?linkid=145159).
-
-## Requisitos del sistema para PCD de Lync
+<div>
 
 
-> [!NOTE]
-> La PCD requiere que la API web de comunicaciones unificadas (UCWA) esté instalada y configurada para admitir clientes móviles en la implementación de Lync Server. UCWA se instala con Lync Server.
+> [!NOTE]  
+> PCD requiere que la API Web de comunicaciones unificadas (UCWA) se instale y configure para admitir clientes móviles en la implementación de Lync Server. UCWA se instala con Lync Server.
 
 
 
-## Requisitos de la aplicación de escritorio para Windows
+</div>
 
-  - Cualquier edición del sistema operativo Windows 7 o Windows 8
+<div>
 
-  - Microsoft .NET Framework 4.5 disponible en [http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
+## <a name="windows-desktop-app-requirements"></a>Requisitos de la aplicación de escritorio de Windows
 
-## Requisitos de la aplicación para Windows 8 Modern
+  - Cualquier versión del sistema operativo Windows 7 o Windows 8
 
-  - Cualquier edición del sistema operativo Windows 8
+  - Microsoft .NET Framework 4,5 está disponible en[http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
 
-  - Microsoft .NET Framework 4.5 disponible en [http://go.microsoft.com/fwlink/?LinkId=327790](http://go.microsoft.com/fwlink/p/?linkid=327790)
+</div>
 
-## Características de la PCD de Lync
+</div>
 
-La PCD de Lync tiene las características siguientes:
+<span id="features"></span>
 
-  - Se ejecuta, de manera predeterminada, bajo demanda (ráfagas de 2 minutos)
+<div>
 
-  - Se puede ejecutar en el modo Siempre activada (hasta 24 horas en la vista acoplada)
+## <a name="lync-pcd-features"></a>Características de PCD de Lync
 
-  - Vista histórica de las series de pruebas
+El PCD de Lync incluye las características siguientes:
 
-  - Diagnóstico de los errores de inicio de sesión (PCD de Lync solo para Windows 8)
+  - Ejecutar en forma predeterminada a petición (2 minutos de ráfagas)
 
-![Captura de pantalla del progreso de inicio de sesión en las características PCD de Lync](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Captura de pantalla del progreso de inicio de sesión en las características PCD de Lync")
+  - Ejecutar en modo siempre activo (hasta 24 horas en la vista acoplada)
 
-  - Vista gráfica de las métricas de la red: MOS de red, pérdida de paquetes y vibración entre llegadas en pantalla completa y vista acoplada.
+  - Vista histórica de las ejecuciones de pruebas
 
-**Vista de pantalla completa**
+  - Diagnosticar errores de inicio de sesión (PCD de Lync para Windows 8 solamente)
 
-![Gráficos de los resultados de las pruebas de la herramienta de diagnóstico previo a la llamada](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Gráficos de los resultados de las pruebas de la herramienta de diagnóstico previo a la llamada")
+![Captura de pantalla de características de PCD de Lync] (images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Captura de pantalla de características de PCD de Lync")
+
+  - Vista gráfica de métricas de red: MOS de red, pérdida de paquetes e vibración de la interrecepción en la vista de pantalla completa y acoplada.
+
+**Vista pantalla completa**
+
+![Gráficos de resultados de pruebas] de la herramienta de diagnóstico prellamar (images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Gráficos de resultados de pruebas") de la herramienta de diagnóstico prellamar
 
 **Vista acoplada**
 
-![Resultados de la prueba de utilización de la herramienta de diagnóstico previo a la llamada](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Resultados de la prueba de utilización de la herramienta de diagnóstico previo a la llamada")
+![Resultados de pruebas de uso de la herramienta de diagnóstico PRELLAMADA] (images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Resultados de pruebas de uso de la herramienta de diagnóstico PRELLAMADA")
 
-## Ejecutar PCD de Lync
+</div>
 
-## Ejecutar la aplicación de escritorio para Windows
+<span id="running"></span>
 
-1.  Para iniciar la PCD en un sistema Windows 7, seleccione **PreCall Diagnostics** en el menú **Inicio**.
+<div>
+
+## <a name="running-lync-pcd"></a>Ejecución de PCD de Lync
+
+<div>
+
+## <a name="running-windows-desktop-app"></a>Ejecutando la aplicación de escritorio de Windows
+
+1.  Para iniciar el PCD en un sistema Windows 7, seleccione **diagnósticos** de PRELLAMADA en el menú **Inicio** .
     
-    Para iniciar la PCD en un sistema Windows 8, seleccione el icono de la pantalla de Inicio o busque "PreCall Diagnostics".
+    Para iniciar el PCD en un sistema Windows 8, seleccione el icono de la pantalla de inicio o busque "diagnósticos de PRELLAMADA".
     
-    ![Icono de la herramienta de diagnóstico previo a la llamada](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Icono de la herramienta de diagnóstico previo a la llamada")
+    ![Icono] de la herramienta de diagnóstico de PRELLAMADA (images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Icono") de la herramienta de diagnóstico de PRELLAMADA
 
-2.  Cuando la herramienta se inicie, seleccione el método que prefiera para indicar las credenciales, seleccione el modo de funcionamiento de la red en el cuadro de diálogo **Opciones de la herramienta PreCall Diagnostics** y seleccione **Aceptar**:
+2.  Cuando se inicie la herramienta, seleccione el método preferido para proporcionar credenciales y seleccione el modo de funcionamiento de red en el cuadro de diálogo Opciones de la **herramienta de diagnóstico PRELLAMADA** y, a continuación, seleccione **Aceptar**:
 
-3.  Seleccione el botón **Iniciar prueba** para empezar a ejecutar el diagnóstico.
+3.  Seleccione el botón **iniciar prueba** para empezar a ejecutar diagnósticos.
     
-    Si seleccionó la opción **Usar credenciales de red**, la prueba empieza inmediatamente.
+    Si seleccionó la opción **usar credenciales de red** , la prueba se iniciará inmediatamente.
     
-    Si seleccionó la opción **Escribir las credenciales**, se abre el cuadro de diálogo **Seguridad de Windows**. Cuando introduce las credenciales, empieza la prueba.
+    Si seleccionó la opción **permitir especificar mis credenciales** , se abrirá el cuadro de diálogo **seguridad de Windows** . Después de escribir sus credenciales, se inicia la prueba.
 
-## Ejecutar la aplicación para Windows 8 Modern
+</div>
 
+</div>
 
-1.  Para iniciar la PCD, seleccione el icono de la pantalla de Inicio o busque "PreCall Diagnostics".
-    
-    ![Icono de la herramienta de diagnóstico previo a la llamada](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Icono de la herramienta de diagnóstico previo a la llamada")
+<span id="uninstall"></span>
 
-2.  Cuando la herramienta se inicie, escriba las credenciales de Lync y seleccione **Aceptar**.
-    
-    ![Inicio de sesión en la herramienta de diagnóstico previo a la llamada de Lync](images/Dn451255.88039914-4c68-48f6-a9fa-58cb4e3f3488(OCS.15).jpg "Inicio de sesión en la herramienta de diagnóstico previo a la llamada de Lync")
+<div>
 
-3.  Seleccione el botón **Iniciar prueba** para empezar a ejecutar el diagnóstico.
+## <a name="uninstalling-lync-pcd"></a>Desinstalar PCD de Lync
 
-## Desinstalar PCD de Lync
+Para quitar el PCD de Lync, siga el procedimiento correspondiente a su sistema operativo:
 
-Para quitar la PCD de Lync, siga los pasos correspondientes a su sistema operativo:
+  - En un sistema Windows 7, abra el **Panel de control**, seleccione **programas y características**y haga doble clic en diagnósticos de prellamada de **Lync 2013**.
 
-  - En un sistema Windows 7, abra el **Panel de control**, seleccione **Programas y características**, y haga doble clic en **Lync 2013 PreCall Diagnostics**.
+  - En un sistema Windows 8, haga clic con el botón derecho en el mosaico **** de PCD y haga clic en desinstalar en la barra de aplicaciones de la parte inferior de la pantalla de inicio.
 
-  - En un sistema Windows 8, haga clic con el botón secundario en el icono de la PCD y haga clic en **Desinstalar** en la barra de aplicaciones de la parte inferior de la pantalla de Inicio.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

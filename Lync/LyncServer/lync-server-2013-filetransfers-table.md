@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Tabla FileTransfers'
-TOCTitle: Tabla FileTransfers
-ms:assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398353(v=OCS.15)
-ms:contentKeyID: 48275246
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla FileTransfers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: FileTransfers table
+ms:assetid: 5368e67c-d8a9-43a1-9472-a839950dedb3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398353(v=OCS.15)
+ms:contentKeyID: 48184118
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 71e53e59e3ed1391adebff8b7c4046ef3c23aa21
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835151"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla FileTransfers en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="filetransfers-table-in-lync-server-2013"></a>Tabla FileTransfers en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-28_
 
 Cada registro representa una sesión de transferencia de archivos.
 
@@ -37,51 +57,62 @@ Cada registro representa una sesión de transferencia de archivos.
 <tr class="odd">
 <td><p><strong>SessionIdTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p>Principal, Externa</p></td>
-<td><p>Hora de la solicitud de sesión. Se usa en combinación con <strong>SessionIdSeq</strong> para identificar de forma única una sesión. Vea la <a href="lync-server-2013-dialogs-table.md">Tabla Dialogs en Lync Server 2013</a>.</p></td>
+<td><p>Principal, extranjero</p></td>
+<td><p>Hora de la solicitud de sesión. Se usa en conjunción con <strong>SessionIdSeq</strong> para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionIdSeq</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal, Externa</p></td>
-<td><p>Número para identificar la sesión. Se usa junto con <strong>SessionIdTime</strong> como identificación única de una sesión. Para más información, vea la <a href="lync-server-2013-dialogs-table.md">Tabla Dialogs en Lync Server 2013</a>.</p></td>
+<td><p>Principal, extranjero</p></td>
+<td><p>Número de identificación para identificar la sesión. Se usa en conjunción con <strong>SessionIdTime</strong> para identificar de forma única una sesión. Para obtener más información, vea la <a href="lync-server-2013-dialogs-table.md">tabla cuadros de diálogo en Lync Server 2013</a> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Nombre de archivo</strong></p></td>
 <td><p>nvarchar(256)</p></td>
-<td><p></p></td>
+<td></td>
 <td><p>Nombre del archivo.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>FileIdentity</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p></p></td>
-<td><p>Identificador único para distinguir entre las transferencias de archivos en las que participa el mismo nombre de archivo.</p></td>
+<td><p>identificador</p></td>
+<td></td>
+<td><p>Identificador único para distinguir entre transferencias de archivos que impliquen el mismo nombre de archivo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Cookie</strong></p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Principal</p></td>
-<td><p>Se usa para identificar cada mensaje de seguimiento como mensaje asociado a este.</p></td>
+<td><p><strong>Ésta</strong></p></td>
+<td><p>nvarchar(128</p></td>
+<td><p>Primary</p></td>
+<td><p>Se usa para identificar cada mensaje de seguimiento como asociado con este.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Aceptar</strong></p></td>
+<td><p><strong>Aceptable</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Puede ser TRUE o NULL. Si es TRUE, Rechazar y Cancelar serán NULL.</p></td>
+<td></td>
+<td><p>Puede ser TRUE o NULL. Si es verdadero, rechazar y cancelar será nulo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Rechazar</strong></p></td>
+<td><p><strong>Rechace</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Puede ser TRUE o NULL. Si es TRUE, Aceptar y Cancelar serán NULL.</p></td>
+<td></td>
+<td><p>Puede ser TRUE o NULL. Si es verdadero, aceptar y cancelar será nulo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cancelar</strong></p></td>
+<td><p><strong>Cancelar.</strong></p></td>
 <td><p>bit</p></td>
-<td><p></p></td>
-<td><p>Puede ser TRUE o NULL. Si es TRUE, Aceptar y Rechazar serán NULL.</p></td>
+<td></td>
+<td><p>Puede ser TRUE o NULL. Si es verdadero, aceptar y rechazar serán NULOs.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

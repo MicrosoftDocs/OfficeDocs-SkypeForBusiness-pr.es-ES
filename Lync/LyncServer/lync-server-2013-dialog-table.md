@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla Dialog'
-TOCTitle: Tabla Dialog
-ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398313(v=OCS.15)
-ms:contentKeyID: 48275183
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla Dialog'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dialog table
+ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398313(v=OCS.15)
+ms:contentKeyID: 48184068
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d47744cf17d3459c16e382c3551b427aa45b5ce6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835391"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla Dialog en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="dialog-table-in-lync-server-2013"></a>Tabla Dialog en Lync Server 2013
 
-La tabla Diálogo es una tabla de apoyo, en la que cada registro representa un cuadro de diálogo de protocolo de inicio de sesión (SIP).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-02_
+
+La tabla de diálogo es una tabla de soporte técnico; cada registro representa un cuadro de diálogo protocolo de inicio de sesión (SIP).
 
 
 <table>
@@ -36,28 +56,39 @@ La tabla Diálogo es una tabla de apoyo, en la que cada registro representa un c
 <tbody>
 <tr class="odd">
 <td><p><strong>ConferenceDateTime</strong></p></td>
-<td><p>Datetime</p></td>
-<td><p>Principal</p></td>
-<td><p>Momento en el que el agente de calidad de la experiencia (QoE) recibe el primer informe del autor o del destinatario de la llamada. Se usa junto con SessionSeq para identificar una sesión de forma exclusiva.</p></td>
+<td><p>datetime</p></td>
+<td><p>Primary</p></td>
+<td><p>Hora en que el agente de calidad de excelencia (QoE) recibe el primer informe de quien llama o de quien llama. Se usa en conjunción con SessionSeq para identificar de forma única una sesión.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>SessionSeq</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
-<td><p>Número de secuencia que se usa para diferenciar sesiones cuando tienen el mismo ConferenceDateTime.</p></td>
+<td><p>int</p></td>
+<td><p>Primary</p></td>
+<td><p>Número de secuencia para diferenciar las sesiones cuando tienen el mismo ConferenceDateTime.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>DialogID</strong></p></td>
-<td><p>varchar(256)</p></td>
-<td><p></p></td>
-<td><p>Id. de diálogo, exclusivo a nivel global.</p></td>
+<td><p>VARCHAR (256)</p></td>
+<td></td>
+<td><p>IDENTIFICADOR de cuadro de diálogo único de forma global.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>DialogIDChecksum</strong></p></td>
-<td><p>Int</p></td>
-<td><p>índice</p></td>
-<td><p>Suma de comprobación del Id. de diálogo.</p></td>
+<td><p>int</p></td>
+<td><p>clasificación</p></td>
+<td><p>Suma de comprobación del identificador de cuadro de diálogo.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

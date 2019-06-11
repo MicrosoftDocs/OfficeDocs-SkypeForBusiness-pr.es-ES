@@ -1,39 +1,73 @@
-﻿---
-title: 'Implementación híbrida y dominio dividido: detección automática'
-TOCTitle: 'Implementación híbrida y dominio dividido: detección automática'
-ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945652(v=OCS.15)
-ms:contentKeyID: 52061748
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: híbrida y dividida-dominio-detección automática'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hybrid and split-domain - Autodiscover
+ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945652(v=OCS.15)
+ms:contentKeyID: 51541520
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 389288a695f7e8ed96ab72d16f612ffd92a7b013
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835044"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implementación híbrida y dominio dividido: detección automática
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="hybrid-and-split-domain---autodiscover-in-lync-server-2013"></a>Híbrida y dividida en dominios: detección automática en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-14_
 
-Un espacio de direcciones SIP compartido, también conocido como una implementación de *dominio dividido* o una implementación *híbrida*, es una configuración en la que los usuarios se implementan en toda una implementación local y en un entorno en línea. El resultado deseado es que un usuario inicie sesión en la implementación y se le redirija a la ubicación de su servidor principal, independientemente de dónde se encuentre su servidor principal (in situ o en línea). Para lograrlo, la función Detección automática de Lync Server 2013 se utiliza para redirigir al usuario en línea hacia la topología en línea. Esto puede realizarse configurando el localizador uniforme de recursos (URL) de Detección automática mediante el Shell de administración de Lync Server y los cmdlets **Get-CsHostingProvider** y **Set-CsHostingProvider**.
+Un espacio de direcciones SIP compartido, también conocido como implementación de *dominios divididos* o una implementación *híbrida* , es una configuración en la que los usuarios se implementan en una implementación local y en un entorno en línea. El resultado deseado es tener un usuario, independientemente de dónde se encuentre su servidor principal (local o en línea), iniciar sesión en la implementación y ser redirigido a la ubicación del servidor local. Para ello, se usa la característica de detección automática de Lync Server 2013 para redirigir el usuario en línea a la topología de conexión. Para ello, configure el localizador de recursos uniforme (URL) de detección automática mediante el shell de administración de Lync Server, el cmdlet **Get-CsHostingProvider** y el cmdlet **set-CsHostingProvider** .
 
-## Movilidad para la implementación de dominio dividido
+<div>
 
-Deberá recopilar y registrar los siguientes atributos implementados:
+## <a name="mobility-for-the-split-domain-deployment"></a>Movilidad para la implementación de dominios divididos
 
-  - En el Shell de administración de Lync Server, escriba:
+Tendrá que recopilar y registrar los siguientes atributos implementados:
+
+  - Desde el shell de administración de Lync Server, escriba
     
         Get-CsHostingProvider
 
-  - En los resultados, busque el proveedor en línea que tenga el atributo **ProxyFQDN**. Por ejemplo, sipfed.online.lync.com
+  - En los resultados, busque el proveedor en línea con el atributo **ProxyFQDN**. Por ejemplo, sipfed.online.lync.com.
 
-  - Registre el valor del ProxyFQDN.
+  - Registre el valor de la ProxyFQDN.
 
-  - Habilite la federación en el Panel de control de Lync Server local, permitiendo la federación con el proveedor en línea.
+  - Habilitar la Federación en el panel de control de Lync Server local, lo que permite la Federación con el proveedor en línea.
 
-  - Habilite la federación para el proveedor en línea. Todos los usuarios en línea están habilitados de manera predeterminada para la federación de dominios y pueden comunicarse con todos los dominios.
+  - Habilitar la Federación para el proveedor en línea. De forma predeterminada, todos los usuarios conectados están habilitados para la Federación de dominios y pueden comunicarse con todos los dominios.
 
-  - Si desea definir dominios restringidos y permitidos, determine de manera explícita los dominios que permitirá y los que restringirá.
+  - Si va a definir dominios bloqueados y permitidos, determine los dominios que va a permitir o bloquear de forma explícita.
 
-  - Para la federación en línea, debe planificar registros host (A o AAAA, si utiliza IPv6) de DNS, certificados y excepciones de firewall. Asimismo, debe configurar las directivas de federación. Para obtener información detallada, consulte [Planeación de federación de Lync Server y Office Communications Server](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md).
+  - Para la Federación en línea, debe planear las excepciones del firewall, los certificados y los registros de host DNS (A o AAAA, si usa IPv6). Además, debe configurar directivas de Federación. Para obtener información detallada, consulte [planificación de Lync server 2013 y Federación de Office Communications Server](lync-server-2013-planning-for-lync-server-and-office-communications-server-federation.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

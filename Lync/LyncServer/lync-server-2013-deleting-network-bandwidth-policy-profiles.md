@@ -1,54 +1,98 @@
-﻿---
-title: Eliminación de perfiles de directivas de ancho de banda de red
-TOCTitle: Eliminación de perfiles de directivas de ancho de banda de red
-ms:assetid: 4d6beda8-6aa5-4d5e-8a07-363598f0e0c8
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688050(v=OCS.15)
-ms:contentKeyID: 49889079
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: eliminar perfiles de directiva de ancho de banda de red'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deleting network bandwidth policy profiles
+ms:assetid: 4d6beda8-6aa5-4d5e-8a07-363598f0e0c8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688050(v=OCS.15)
+ms:contentKeyID: 49733643
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0c33f781e8818dbefa3dc37b3f17c789099e6add
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835581"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Eliminación de perfiles de directivas de ancho de banda de red
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deleting-network-bandwidth-policy-profiles-in-lync-server-2013"></a>Eliminar perfiles de directiva de ancho de banda de red en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-01_
 
-Como parte del servicio de control de admisión de llamadas (CAC), se usa una directiva de ancho de banda para definir las limitaciones de ancho de banda de ciertas modalidades. En Microsoft Lync Server 2013, solo se pueden asignar limitaciones de ancho de banda a las modalidades de audio y vídeo. Puede establecer las limitaciones generales de ancho de banda y sesión. Puede usar el Panel de control de Lync Server para crear, cambiar o eliminar un perfil de contenedor para estas directivas. Use los siguientes procedimientos para eliminar perfiles de directiva de ancho de banda de red. Para más información sobre cómo crear o cambiar un perfil de directiva de ancho de banda de red, vea [Creación o modificación de perfiles de directivas de ancho de banda](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).
+Como parte de control de admisión de llamadas (CAC), se usa una directiva de ancho de banda para definir limitaciones de ancho de banda para determinadas modalidades. En Microsoft Lync Server 2013, solo se pueden asignar limitaciones de ancho de banda a las modalidades de audio y vídeo. Puede establecer limitaciones generales de ancho de banda y limitaciones de sesión. Puede usar el panel de control de Lync Server para crear, modificar o eliminar un perfil de contenedor para estas directivas. Use los procedimientos siguientes para eliminar los perfiles de la Directiva de ancho de banda de red. Para obtener más información sobre cómo crear o modificar un perfil de directiva de ancho de banda de red, vea [crear o modificar perfiles de directiva de ancho de banda en Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md).
 
-## Para eliminar un perfil de directiva de ancho de banda
+<div>
+
+## <a name="to-delete-a-bandwidth-policy-profile"></a>Para eliminar un perfil de directiva de ancho de banda
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Directiva de ancho de banda**.
+3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, después, en Directiva de **ancho de banda**.
 
-4.  En la página **Directiva de ancho de banda**, haga clic en el perfil de directiva de ancho de banda que desea eliminar.
+4.  En la página **Directiva de ancho de banda** , haga clic en el perfil de directiva de ancho de banda que desea eliminar.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Puede eliminar más de un perfil en la misma operación. Para hacerlo, pulse CTRL y seleccione varios perfiles manteniendo pulsada la tecla CTRL. O bien, para seleccionar todos los perfiles, haga clic en <STRONG>Seleccionar todo</STRONG> en el menú <STRONG>Editar</STRONG>.
+    > [!NOTE]  
+    > Puede eliminar más de un perfil a la vez. Para ello, presione CTRL y seleccione varios perfiles manteniendo presionada la tecla CTRL. O bien, para seleccionar todos los perfiles, haga clic en <STRONG>seleccionar todo</STRONG> en el menú <STRONG>edición</STRONG> .
 
-
-
-5.  En el menú **Editar** , haga clic en **Eliminar** .
     
+    </div>
+
+5.  En el menú **Editar** , haga clic en **eliminar**.
+    
+    <div>
+    
+
     > [!WARNING]  
-    > No puede eliminar un perfil de directiva de ancho de banda que esté asociado a un sitio de red. Primero debe eliminar la asociación establecida con el sitio de red para poder eliminar el perfil. Para más información sobre cómo modificar el sitio de red, vea <a href="lync-server-2013-creating-or-modifying-network-sites.md">Creación o modificación de sitios de red</a>.
+    > No se puede eliminar un perfil de directiva de ancho de banda asociado a un sitio de red. Primero debe quitar la asociación con el sitio de red para poder eliminar el perfil. Para obtener más información sobre cómo modificar el sitio de red, vea <A href="lync-server-2013-creating-or-modifying-network-sites.md">crear o modificar sitios de red en Lync Server 2013</A>.
+
     
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
 
 
-## Vea también
+[Crear o modificar perfiles de directiva de ancho de banda en Lync Server 2013](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
+[Ver la información de Perfil de la Directiva de ancho de banda en Lync Server 2013](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)  
 
-#### Tareas
-
-[Creación o modificación de perfiles de directivas de ancho de banda](lync-server-2013-creating-or-modifying-bandwidth-policy-profiles.md)  
-[Visualización de la información de perfil de directiva de ancho de banda de red](lync-server-2013-viewing-network-bandwidth-policy-profile-information.md)  
-
-#### Otros recursos
 
 [Configurar el control de admisión de llamadas en Lync Server 2013](lync-server-2013-configure-call-admission-control.md)  
-[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)
+[Remove-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkBandwidthPolicyProfile)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

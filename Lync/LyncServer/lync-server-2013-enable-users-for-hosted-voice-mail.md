@@ -1,55 +1,98 @@
-﻿---
-title: "Lync Server 2013 : Activ. des utilisateurs pour la messagerie vocale hébergée"
-TOCTitle: Habilitar a los usuarios para el correo de voz hospedado
-ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413062(v=OCS.15)
-ms:contentKeyID: 48277229
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Habilitar a los usuarios para el correo de voz hospedado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable users for hosted voice mail
+ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413062(v=OCS.15)
+ms:contentKeyID: 48185919
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 45872df26989d8d264ce77406bfbce86f321ccf8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835274"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar a los usuarios para el correo de voz hospedado en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enable-users-for-hosted-voice-mail-in-lync-server-2013"></a>Habilitar a los usuarios para el correo de voz hospedado en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-24_
 
-Siga el procedimiento para que los usuarios de Lync Server 2013 queden habilitados para correo de voz en un servicio de mensajería unificada hospedada de Exchange.
+Siga el procedimiento para habilitar a los usuarios de Lync Server 2013 para el correo de voz en un servicio de mensajería unificada (UM) hospedada de Exchange.
 
-Para obtener información detallada, vea [Administración de usuarios de Hosted Exchange en Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) en la documentación sobre planeamiento.
+Para obtener más información, vea [Administración de usuarios de Exchange hospedado en Lync Server 2013](lync-server-2013-hosted-exchange-user-management.md) en la documentación de planeación.
 
-Para ver los detalles sobre el cmdlet [Set-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUser), consulte la documentación de Shell de administración de Lync Server.
+Para obtener más información sobre el cmdlet [set-CsUser](https://docs.microsoft.com/powershell/module/skype/Set-CsUser) , consulte la documentación del shell de administración de Lync Server.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Antes de habilitar a un usuario de Lync Server 2013 para correo de voz hospedado, debe implementarse una directiva de correo de voz hospedada que se aplique a su cuenta de usuario. Para obtener información detallada, vea <a href="lync-server-2013-hosted-voice-mail-policies.md">Directivas de correo de voz hospedado en Lync Server 2013</a>.
+> Para que un usuario de Lync Server 2013 pueda estar habilitado para el correo de voz hospedado, debe implementarse una directiva de correo de voz hospedada que se aplique a su cuenta de usuario. Para obtener más información, consulte <A href="lync-server-2013-hosted-voice-mail-policies.md">directivas de correo de voz hospedado en Lync Server 2013</A>.
 
 
 
-## Para habilitar a los usuarios para correo de voz hospedado.
+</div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<div>
 
-2.  Ejecute el cmdlet Set-CsUser para configurar la cuenta del usuario para correo de voz hospedado. Por ejemplo, ejecute lo siguiente:
+## <a name="to-enable-users-for-hosted-voice-mail"></a>Para habilitar a los usuarios para el correo de voz hospedado
+
+1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+
+2.  Ejecute el cmdlet Set-CsUser para configurar la cuenta de usuario para el correo de voz hospedado. Por ejemplo, ejecute lo siguiente:
     
         Set-CsUser -HostedVoiceMail $True -Identity "contoso\kenmyer"
     
     En el ejemplo anterior se definen los parámetros siguientes:
     
-      - **HostedVoiceMail** permite que las llamadas de correo de voz de un usuario se enruten a una versión hospedada de mensajería instantánea de Exchange. También indica a Microsoft Lync 2013 que encienda el indicador de “Llamar al correo de voz”.
+      - **HostedVoiceMail** permite enrutar las llamadas de correo de voz de un usuario a la mensajería unificada de Exchange hospedada. También indica a Microsoft Lync 2013 que ilumine el indicador "llamar al correo de voz".
     
-      - **Identity** especifica la cuenta de usuario que modificar. El valor de Identity puede especificarse con cualquiera de los formatos a continuación:
+      - **Identity** especifica la cuenta de usuario que se va a modificar. El valor de identidad puede especificarse con cualquiera de los siguientes formatos:
         
-          - La dirección SIP del usuario
+          - Dirección SIP del usuario
         
-          - El nombre principal de usuario de Active Directory del usuario
+          - Nombre principal de usuario de Active Directory del usuario
         
-          - El nombre con formato dominio\\nombre del usuario (por ejemplo, contoso\\kenmyer)
+          - Nombre de inicio de\\sesión de dominio del usuario (por\\ejemplo, contoso kenmyer)
         
-          - El nombre para mostrar de Servicios de dominio de Active Directory (por ejemplo, Ken Myer). Si usa el nombre para mostrar como valor de Identity, puede usar el asterisco (\*) como carácter comodín. Por ejemplo, el parámetro Identity "\* Smith" devuelve todos los usuarios con un nombre para mostrar que termina con el valor de cadena de caracteres "Smith".
+          - El nombre para mostrar de los servicios de dominio de Active Directory del usuario (por ejemplo, Ken Myer). Si usa el nombre para mostrar como valor de identidad, puede usar el carácter comodín asterisco\*(). Por ejemplo, la identidad "\* Smith" devuelve todos los usuarios que tienen un nombre para mostrar que termina con el valor de cadena "Smith".
+        
+        <div>
         
 
-        > [!NOTE]
-        > El nombre de cuenta SAM de Active Directory del usuario no se puede usar como valor de Identity porque puede que no sea único en el bosque.
+        > [!NOTE]  
+        > El nombre de cuenta SAM del usuario de Active Directory no se puede usar como valor de identidad porque el nombre de cuenta SAM no es necesariamente único en el bosque.
 
+        
+        </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

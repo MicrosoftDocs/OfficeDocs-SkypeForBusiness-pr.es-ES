@@ -1,37 +1,74 @@
-﻿---
-title: "Lync Server 2013: Crear la directiva de enrutamiento VoIP para usuarios de sucursal"
-TOCTitle: Crear la directiva de enrutamiento VoIP para usuarios de sucursal
-ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398196(v=OCS.15)
-ms:contentKeyID: 48274462
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Crear la directiva de enrutamiento VoIP para usuarios de sucursal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create the VoIP routing policy for branch users
+ms:assetid: 10deca9f-f870-4a42-b25d-e4fc53108658
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398196(v=OCS.15)
+ms:contentKeyID: 48183435
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4f53e69069bc1f39f84c057f1e90882d5ae0d65d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835763"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Crear la directiva de enrutamiento VoIP para usuarios de sucursal en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="create-the-voip-routing-policy-for-branch-users-in-lync-server-2013"></a>Crear la directiva de enrutamiento VoIP para usuarios de sucursal en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-23_
 
-Se recomienda crear una directiva de voz sobre IP (VoIP) independiente para los usuarios de las sucursales. Esta directiva deberá contener rutas para salir de la puerta de enlace de la Aplicación de sucursal con funciones de supervivencia o de la puerta de enlace externa del Servidor de sucursal con funciones de supervivencia y rutas de reserva para salir de una puerta de enlace del sitio central. Independientemente de dónde se registre el usuario, ya sea en el registrar de la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia, o bien en el clúster del registrar de reserva del sitio central, la directiva de VoIP del usuario permanece en vigor.
+Recomendamos crear una directiva de voz sobre IP (VoIP) distinta para los usuarios de sucursales. Esta Directiva debe contener rutas a salida de la puerta de enlace de la aplicación de rama superviviente o la puerta de enlace externa y las rutas de seguridad del servidor de sucursal Independientemente del lugar en el que esté registrado el usuario, ya sea en el registrador del equipo de sucursal o en el servidor de sucursal con la supervivencia o en el clúster de registro de backup en el sitio central, la Directiva de VoIP del usuario siempre está activa.
 
-## Para configurar la directiva de enrutamiento VoIP para usuarios de sucursal
+<div>
 
-1.  Cree un plan de marcado de nivel de usuario y asígnelo a los usuarios de sucursal. (Vea [Crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md) en la documentación de operaciones.)
+## <a name="to-configure-the-voip-routing-policy-for-branch-users"></a>Para configurar la Directiva de enrutamiento de VoIP para los usuarios de la sucursal
 
-2.  Asigne normas de normalización que se correspondan con los hábitos de marcado de los usuarios de ese sitio. Si el usuario de la Aplicación de sucursal con funciones de supervivencia o del Servidor de sucursal con funciones de supervivencia se conmuta por error en el grupo de servidores del registrar del sitio central, entrará en vigor el mismo plan de marcado. (Consulte [Crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md) en la documentación de operaciones.)
+1.  Crear un plan de marcado de nivel de usuario y asignarlo a los usuarios de la sucursal. (Consulte [crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md) en la documentación de operaciones).
 
-3.  Configure una ruta de voz que salga de la puerta de enlace de la Aplicación de sucursal con funciones de supervivencia o de la puerta de enlace externa del Servidor de sucursal con funciones de supervivencia. (Vea [Crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md) en la documentación de operaciones.)
+2.  Asigne reglas de normalización que correspondan a los hábitos de marcado de los usuarios de ese sitio. Si el equipo de la sucursal o el usuario de servidor de sucursal supervivientes conmuta por error al grupo de registro de la copia de seguridad en el sitio central, el mismo plan de marcado estará vigente. (Consulte [crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md) en la documentación de operaciones).
 
-4.  Establezca una ruta de llamada de reserva en la puerta de enlace de la Aplicación de sucursal con funciones de supervivencia o del Servidor de sucursal con funciones de supervivencia para orientarla al grupo de servidores del registrar de reserva (combinado con el servidor de mediación) del sitio central. (Consulte la documentación del proveedor de la Aplicación de sucursal con funciones de supervivencia o del Servidor de sucursal con funciones de supervivencia.)
+3.  Configure una ruta de voz que quede a partir de la puerta de enlace de la aplicación de rama superviviente o la puerta de enlace externa de servidor de sucursal. (Consulte [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md) en la documentación de operaciones).
+
+4.  Establezca una ruta de llamada de copia de seguridad en la sucursal con la que se haya sobreviviente o en una puerta de enlace de servidor de sucursal que pueda apuntar al grupo de registro de la copia de seguridad (en el servidor de mediación). (Consulte la documentación del fabricante de su equipo de sucursal o de su equipo de sucursal superviviente).
+    
+    <div>
     
 
-    > [!NOTE]
-    > Esta configuración de la ruta de llamada de reserva garantiza que las llamadas entrantes para el usuario de la sucursal funcionarán cuando la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia no esté disponible (por ejemplo, si está inactivo por mantenimiento). Si el registrar y el servidor de mediación de la Aplicación de sucursal con funciones de supervivencia o el Servidor de sucursal con funciones de supervivencia no están disponibles, y el usuario está registrado con el grupo de servidores del registrar de reserva en el sitio central, las llamadas entrantes seguirán llegando al usuario.
+    > [!NOTE]  
+    > Esta configuración de la ruta de llamada de copia de seguridad ayuda a garantizar que las llamadas entrantes al usuario de la sucursal funcionen cuando la aplicación ramificada o el servidor de sucursal supervivientes no estén disponibles (por ejemplo, si está desactivado para realizar tareas de mantenimiento). Si el servidor de la aplicación de la sucursal o el servidor de la sucursal que mantiene la aplicación no están disponibles, y el usuario está registrado con el grupo de registro de la copia de seguridad en el sitio central, las llamadas entrantes se pueden enrutar al usuario.
 
+    
+    </div>
 
+**Siguiente paso**: [configurar la configuración de redireccionamiento del correo de voz en Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
 
-**Siguiente paso**: [Configurar los valores para volver a enrutar el correo de voz en Lync Server 2013](lync-server-2013-configure-voice-mail-rerouting-settings.md)
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

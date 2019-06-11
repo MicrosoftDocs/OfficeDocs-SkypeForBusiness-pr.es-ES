@@ -1,35 +1,73 @@
-﻿---
-title: Habilitar y deshabilitar usuarios para Lync Server 2013
-TOCTitle: Habilitar y deshabilitar usuarios para Lync Server 2013
-ms:assetid: 796ac454-58a9-41ac-80c2-3723a127d214
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688099(v=OCS.15)
-ms:contentKeyID: 49889237
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: habilitar y deshabilitar usuarios para Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling and disabling users for Lync Server 2013
+ms:assetid: 796ac454-58a9-41ac-80c2-3723a127d214
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688099(v=OCS.15)
+ms:contentKeyID: 49733698
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6d767ffc6f7164a763d31a58b7e2012c749b77a1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835261"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar y deshabilitar usuarios para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enabling-and-disabling-users-for-lync-server-2013"></a>Habilitar y deshabilitar usuarios para Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-01_
 
 Puede habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Lync Server 2013.
 
-## En esta sección
+<div>
 
-  - [Adición y habilitación de una cuenta de usuario de Lync Server](lync-server-2013-add-and-enable-user-account-for-lync-server.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Deshabilitación o rehabilitación de la cuenta de usuario de Lync Server en Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
+  - [Agregar y habilitar una cuenta de usuario para Lync Server 2013](lync-server-2013-add-and-enable-user-account-for-lync-server.md)
 
-  - [Quitar una cuenta de usuario de Lync Server](lync-server-2013-remove-a-user-account-from-lync-server.md)
+  - [Deshabilitar o volver a habilitar la cuenta de usuario para Lync Server 2013](lync-server-2013-disable-or-re-enable-user-account-for-lync-server.md)
 
-## Vea también
+  - [Quitar una cuenta de usuario de Lync Server 2013](lync-server-2013-remove-a-user-account-from-lync-server.md)
 
-#### Otros recursos
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Administración de usuarios en Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
-[Enable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsUser)  
-[Disable-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsUser)
+[Enable-CsUser](https://docs.microsoft.com/powershell/module/skype/Enable-CsUser)  
+[Disable-CsUser](https://docs.microsoft.com/powershell/module/skype/Disable-CsUser)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

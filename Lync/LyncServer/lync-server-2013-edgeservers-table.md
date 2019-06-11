@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla EdgeServers'
-TOCTitle: Tabla EdgeServers
-ms:assetid: aeda8c01-c88c-4f56-b3d0-bac475fae449
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412833(v=OCS.15)
-ms:contentKeyID: 48276351
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla EdgeServers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: EdgeServers table
+ms:assetid: aeda8c01-c88c-4f56-b3d0-bac475fae449
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412833(v=OCS.15)
+ms:contentKeyID: 48185081
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ca947d710693590d6121242e79a6d29088432e0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835328"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla EdgeServers en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="edgeservers-table-in-lync-server-2013"></a>Tabla EdgeServers en Lync Server 2013
 
-La tabla EdgeServers es una tabla auxiliar. En cada registro se almacena información sobre un servidor perimetral que participa en llamadas con registros en esta base de datos.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2010-11-06_
+
+La tabla EdgeServers es una tabla de soporte. Cada registro almacena información acerca de un servidor perimetral implicado en llamadas que tienen registros en la base de datos.
 
 
 <table>
@@ -36,8 +56,8 @@ La tabla EdgeServers es una tabla auxiliar. En cada registro se almacena informa
 <tbody>
 <tr class="odd">
 <td><p><strong>EdgeServerId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
+<td><p>int</p></td>
+<td><p>Primary</p></td>
 <td><p>Número único que identifica este servidor perimetral.</p></td>
 </tr>
 <tr class="even">
@@ -48,4 +68,15 @@ La tabla EdgeServers es una tabla auxiliar. En cada registro se almacena informa
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

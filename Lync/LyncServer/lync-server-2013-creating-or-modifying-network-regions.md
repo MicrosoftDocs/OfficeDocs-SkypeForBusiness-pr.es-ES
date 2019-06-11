@@ -1,75 +1,116 @@
-﻿---
-title: Creación o modificación de regiones de red
-TOCTitle: Creación o modificación de regiones de red
-ms:assetid: bd08bb66-5976-4ece-b45c-7de19569f814
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182579(v=OCS.15)
-ms:contentKeyID: 48276501
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: crear o modificar regiones de red'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating or modifying network regions
+ms:assetid: bd08bb66-5976-4ece-b45c-7de19569f814
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182579(v=OCS.15)
+ms:contentKeyID: 48185266
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0b3ca5d44fd2278ffee8a3e9dd4494575cc64c65
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835759"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Creación o modificación de regiones de red
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="creating-or-modifying-network-regions-in-lync-server-2013"></a>Crear o modificar regiones de red en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-01_
 
-Una región de red interconecta varias partes de una red a través de varias zonas geográficas. Cada región de red debe asociarse con un sitio central. El sitio central es el sitio del centro de datos donde se está ejecutando el servicio de directiva de ancho de banda de CAC (servicio de control de admisión de llamadas). Puede usar el Panel de control de Lync Server para configurar las regiones de red. Las regiones de red incluyen valores de configuración que determinan si se permiten las rutas alterativas a través de Internet para las conexiones de audio y vídeo. En el Panel de control de Lync Server, puede crear, modificar o eliminar una región de red. Siga este tema para crear y modificar regiones de red. Para más información sobre la eliminación de regiones de red existentes, vea [Eliminación de regiones de red existentes](lync-server-2013-deleting-existing-network-regions.md).
+Una región de red interconecta varias partes de una red en varias áreas geográficas. Cada región de la red debe estar asociada con un sitio central. El sitio central es el sitio del centro de datos en el que se está ejecutando el servicio de directivas de ancho de banda de control de admisión de llamadas (CAC). Puede usar el panel de control de Lync Server para configurar regiones de red. Las regiones de red incluyen opciones que determinan si se permiten rutas alternativas a través de Internet para conexiones de audio y vídeo. En el panel de control de Lync Server, puede crear, modificar o eliminar una región de red. Use este tema para crear y modificar regiones de red. Para obtener más información sobre cómo eliminar regiones de red existentes, consulte [eliminar regiones de red existentes en Lync Server 2013](lync-server-2013-deleting-existing-network-regions.md).
 
-## Para crear una región de red
+<div>
+
+## <a name="to-create-a-network-region"></a>Para crear una región de red
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Región**.
+3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, después, en **región**.
 
-4.  En la página **Región**, haga clic en **Nuevo**.
+4.  En la página **región** , haga clic en **nuevo**.
 
-5.  En la página **Región nueva**, escriba un valor en el campo **Nombre**. Este valor debe ser único en la implementación de Microsoft Lync Server 2013.
+5.  En la página **nueva región** , escriba un valor en el campo **nombre** . Este valor debe ser único dentro de la implementación de Microsoft Lync Server 2013.
 
-6.  En la lista desplegable **Sitio central**, seleccione el sitio central para esta región de red.
+6.  En la lista desplegable **sitio central** , seleccione el sitio central de esta región de red.
 
-7.  La casilla **Habilitar ruta alternativa de audio** está activada de forma predeterminada. Este campo determina si las llamadas de audio se enrutarán a través de una ruta de acceso alternativa cuando no exista un ancho de banda adecuado en la ruta de acceso principal. Desactívela solamente si necesita cancelar la descarga de Internet. Si alguna de las llamadas que realice se hará por Internet, esta casilla debe estar marcada, independientemente del ancho de banda.
+7.  La casilla de verificación **Habilitar ruta alternativa de audio** está activada de forma predeterminada. Este campo determina si las llamadas de audio se redirigirán a través de una ruta de acceso alternativa si el ancho de banda adecuado no existe en la ruta de acceso principal. Desactive esta casilla solo si necesita desactivar la descarga en Internet. Si cualquiera de las llamadas va a ser de Internet, esta casilla debe estar activada, independientemente de la configuración del ancho de banda.
 
-8.  La casilla **Habilitar ruta alternativa de vídeo** está activada de forma predeterminada. Este campo determina si las llamadas de vídeo se enrutarán a través de una ruta de acceso alternativa cuando no exista un ancho de banda adecuado en la ruta de acceso principal. Desactívela solamente si necesita cancelar la descarga de Internet. Si alguna de las llamadas que realice se hará por Internet, esta casilla debe estar marcada, independientemente del ancho de banda.
+8.  La casilla de verificación **Habilitar ruta alternativa de vídeo** está activada de forma predeterminada. Este campo determina si las videollamadas se redirigirán a través de una ruta alternativa si el ancho de banda adecuado no existe en la ruta de acceso principal. Desactive esta casilla solo si necesita desactivar la descarga en Internet. Si cualquiera de las llamadas va a ser de Internet, esta casilla debe estar activada, independientemente de la configuración del ancho de banda.
 
-9.  (Opcional) Escriba un valor en el campo **Descripción** para proporcionar información sobre esta región aparte de lo que se pueda deducir de su nombre.
+9.  Faculta Escriba un valor en el campo **Descripción** para proporcionar más información sobre esta región que no puede expresarse solo por el nombre.
 
 10. Haga clic en **Confirmar**.
 
-La tabla **Sitios asociados** no se usa para crear una región de red. Un sitio se asocia a una región cuando se crea o modifica el sitio. Para obtener información detallada, consulte [Creación o modificación de sitios de red](lync-server-2013-creating-or-modifying-network-sites.md).
+La tabla de **sitios asociados** no se usa para crear una región de red. Al crear o modificar el sitio, se asocia un sitio con una región. Para obtener más información, vea [crear o modificar sitios de red en Lync Server 2013](lync-server-2013-creating-or-modifying-network-sites.md).
 
-## Para modificar una región de red
+</div>
+
+<div>
+
+## <a name="to-modify-a-network-region"></a>Para modificar una región de red
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de red** y, a continuación, en **Región**.
+3.  En la barra de navegación izquierda, haga clic en **configuración de red** y, después, en **región**.
 
-4.  En la página **Región**, haga clic en el vínculo regional que desea modificar.
+4.  En la página **región** , haga clic en la región que desea modificar.
 
 5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
 
-6.  En la página **Editar región**, puede modificar la configuración para habilitar y deshabilitar las rutas alternativas de audio y vídeo y modificar la descripción (para obtener información detallada, consulte la sección "Para crear una sección de red" de más arriba en este tema).
+6.  En la página **Editar región** , puede modificar la configuración para habilitar y deshabilitar rutas de audio y vídeo alternativas, y cambiar la descripción (para obtener información detallada, consulte la sección "para crear una región de red" anteriormente en este tema.
 
 7.  Haga clic en **Confirmar**.
 
-En esta página, no se pueden modificar los **Sitios asociados**. La lista de sitios asociados se proporciona a modo de referencia, de forma que pueda saber los sitios que se verán afectados cuando modifique la configuración de la región.
+No puede modificar los **sitios asociados** en esta página. La lista de sitios asociados se proporciona como referencia para que usted sepa qué sitios se verán afectados al modificar la configuración de la región.
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
 
-[Eliminación de regiones de red existentes](lync-server-2013-deleting-existing-network-regions.md)  
-[Configurar regiones de red para el control de admisión de llamadas en Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md)  
+## <a name="see-also"></a>Vea también
 
-#### Otros recursos
 
-[New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)  
-[Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)  
-[Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)  
-[Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
+[Eliminar regiones de red existentes en Lync Server 2013](lync-server-2013-deleting-existing-network-regions.md)  
+[Configurar regiones de red para CAC en Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md)  
+
+
+[New-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)  
+[Set-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)  
+[Remove-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)  
+[Get-CsNetworkRegion](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

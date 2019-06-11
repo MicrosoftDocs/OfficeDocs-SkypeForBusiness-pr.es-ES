@@ -1,27 +1,47 @@
-﻿---
-title: Crear directivas de ubicación en Lync Server 2013
-TOCTitle: Crear directivas de ubicación en Lync Server 2013
-ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413006(v=OCS.15)
-ms:contentKeyID: 48277140
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: crear directivas de ubicación'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create location policies
+ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413006(v=OCS.15)
+ms:contentKeyID: 48185794
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6f420d3b634df79411bbc72cd4c029f9b5d97e19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835851"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Crear directivas de ubicación en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="create-location-policies-in-lync-server-2013"></a>Crear directivas de ubicación en Lync Server 2013
 
-Lync Server usa una directiva de ubicación para habilitar clientes de Lync en E9-1-1 durante el registro de clientes. Una directiva de ubicación contiene la configuración que define cómo se implementará E9-1-1.
+</div>
 
-La directiva de ubicación global puede editarse y crear otras directivas de ubicación con etiqueta. Un cliente obtiene una directiva global si no se ubica en una subred que tenga asociada una directiva de ubicación o, bien, si el cliente no tiene asignada directamente una directiva de ubicación. Las directivas con etiquetas se asignan a subredes o usuarios.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-11_
+
+Lync Server usa una directiva de ubicación para habilitar los clientes de Lync para E9-1-1 durante el registro de clientes. Una directiva de ubicación contiene la configuración que define cómo se implementará E9-1-1.
+
+La directiva de ubicación global puede editarse y crear otras directivas de ubicación con etiqueta. Un cliente obtiene una directiva global si no se ubica en una subred que tenga asociada una directiva de ubicación o, bien, si el cliente no tiene asignada directamente una directiva de ubicación. Las directivas con etiquetas se asignan a subredes o usuarios.  
 
 Para crear una directiva de ubicación, debe usar una cuenta que pertenezca al grupo RTCUniversalServerAdmins, o bien que tenga el rol administrativo CsVoiceAdministrator o derechos y permisos de administrador equivalentes.
 
-Encontrará una descripción completa de las directivas de ubicación en [Definir una directiva de ubicación para Lync Server 2013](lync-server-2013-defining-the-location-policy.md). Los cmdlets de este procedimiento usan una directiva de ubicación definida que aplica los valores siguientes:
+Para obtener una descripción completa de las directivas de ubicación, consulte [definir la Directiva de ubicación de Lync Server 2013](lync-server-2013-defining-the-location-policy.md). Cmdlets de este procedimiento use una directiva de ubicación definida con los valores siguientes:
 
 
 <table>
@@ -84,7 +104,7 @@ Encontrará una descripción completa de las directivas de ubicación en [Defini
 </table>
 
 
-Para obtener información detallada sobre cómo trabajar con directivas de ubicación, consulte la documentación de Shell de administración de Lync Server para los siguientes cmdlets:
+Para obtener más información sobre cómo trabajar con directivas de ubicación, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
   - New-CsLocationPolicy
 
@@ -96,15 +116,20 @@ Para obtener información detallada sobre cómo trabajar con directivas de ubica
 
   - Grant-CsLocationPolicy
 
-## Para crear directivas de ubicación
+<div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+## <a name="to-create-location-policies"></a>Para crear directivas de ubicación
+
+1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+    
+    <div>
     
 
-    > [!NOTE]
+    > [!NOTE]  
     > CsLocationPolicy no funcionará correctamente si el valor de <STRONG>PstnUsage</STRONG> no está ya presente en la lista global de PstnUsages.
 
-
+    
+    </div>
 
 2.  También puede ejecutar el cmdlet siguiente para editar la directiva de ubicación global:
     
@@ -117,4 +142,16 @@ Para obtener información detallada sobre cómo trabajar con directivas de ubica
 4.  Ejecute el cmdlet siguiente para aplicar la directiva de ubicación con etiqueta que se ha creado en el paso 3 en una directiva de usuario.
     
         (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

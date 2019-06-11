@@ -1,25 +1,45 @@
-﻿---
-title: "Lync Server 2013: Determinar requisitos de los puertos y el firewall de A/V externos"
-TOCTitle: Determinar los requisitos de los puertos y el firewall de A/V externos
-ms:assetid: 3b849dc7-175d-40d1-820d-80e6ade6d332
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425882(v=OCS.15)
-ms:contentKeyID: 48274993
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Determinar los requisitos de los puertos y el firewall de A/V externos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Determine external A/V firewall and port requirements
+ms:assetid: 3b849dc7-175d-40d1-820d-80e6ade6d332
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425882(v=OCS.15)
+ms:contentKeyID: 48183872
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b278c60eaca69fd17508d0e82198a002484ce586
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835446"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="determine-external-av-firewall-and-port-requirements-for-lync-server-2013"></a>Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013
 
-La comunicación de audio/vídeo (A/V) puede resultar compleja. Debido a la naturaleza de los protocolos usados en A/V y al modo en que los clientes y servidores usan los protocolos, se garantiza una sección especial para explicar las diferencias entre las versiones del cliente y del servidor.
+</div>
 
-Use la siguiente tabla para determinar los requisitos de firewall A/V y los puertos que se abren. A continuación, revise la terminología de traducción de direcciones de red (NAT) porque NAT puede implementarse de formas muy distintas. Para ver un ejemplo detallado de configuración de puertos de firewall, consulte las arquitecturas de referencia en [Escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+<div id="mainSection">
 
-### Uso general de protocolo para UDP y TCP en tráfico multimedia y de audio y vídeo
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-29_
+
+La comunicación de audio/vídeo (A/V) puede ser compleja. Debido a la naturaleza de los protocolos que se usan en A/V y a la forma en que los clientes y servidores usan los protocolos, se garantiza una sección especial para explicar las diferencias entre las versiones de cliente y servidor.
+
+Use la siguiente tabla de puertos y de Firewall a/V para determinar los requisitos de firewall y qué puertos se deben abrir. A continuación, revise la terminología de traducción de direcciones de red (NAT) porque NAT se puede implementar de muchas formas diferentes. Para obtener un ejemplo detallado de la configuración del puerto del firewall, vea las arquitecturas de referencia en [escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+
+### <a name="general-protocol-usage-for-udp-and-tcp-in-audiovideo-and-media-traffic"></a>Uso general del protocolo para UDP y TCP en el tráfico de audio, vídeo y multimedia
 
 <table>
 <colgroup>
@@ -39,23 +59,25 @@ Use la siguiente tabla para determinar los requisitos de firewall A/V y los puer
 </tr>
 <tr class="even">
 <td><p>TCP</p></td>
-<td><p>Protocolo de capa de transporte de reserva para audio y vídeo</p>
-<p>Protocolo de capa de transporte necesario para el uso compartido de aplicaciones en Office Communications Server 2007 R2, Lync Server 2010 y Lync Server 2013</p>
-<p>Protocolo de capa de transporte necesario para la transferencia de archivos en Lync Server 2010 y Lync Server 2013</p></td>
+<td><p>Protocolo de nivel de transporte de reserva para audio y vídeo</p>
+<p>Protocolo de capa de transporte requerido para compartir aplicaciones a Office Communications Server 2007 R2, Lync Server 2010 y Lync Server 2013</p>
+<p>Protocolo de nivel de transporte requerido para la transferencia de archivos a Lync Server 2010 y Lync Server 2013</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Requisitos de puerto de firewall A/V para el acceso de usuarios externos
+<div>
 
-Los requisitos de puerto de firewall para interfaces externas (e internas) de SIP y conferencias son coherentes, con independencia de la versión del cliente o del socio federado.
+## <a name="external-av-firewall-port-requirements-for-external-user-access"></a>Requisitos del puerto de Firewall A/V externo para el acceso de usuarios externos
 
-No sucede lo mismo con la interfaz perimetral externa de audio y vídeo. Para la federación con Office Communications Server 2007, el servicio perimetral A/V requiere que las reglas de firewall externo permitan que el tráfico RTP/TCP y RTP/UDP del intervalo de puertos de 50.000 a 59.999 fluya en ambas direcciones. En la tabla anterior se presupone que Lync Server 2013 es el principal socio federado y se configura para comunicarse con uno de los cuatro tipos de socio federado incluidos en la lista.
+Los requisitos de puerto de Firewall para las interfaces SIP y de conferencia externas (y internas) son coherentes, independientemente de la versión de su cliente o de la versión del socio de Federación.
 
-Al configurar el intervalo de puertos de audio y vídeo de 50.000 a 59.999, debe tener en cuenta que el intervalo de puertos incluirá los puertos de origen para las comunicaciones con los socios federados. En detalle, considere que una comunicación se inicia desde un socio federado. La comunicación desde los puertos de Servicio perimetral A/V en el intervalo de 50.000 a 59.999 se conectará con el puerto TCP 443 previsto del Servicio perimetral A/V del socio. Por el contrario, el tráfico entrante en su puerto TCP 443 de Servicio perimetral A/V tendrá un puerto de origen en el intervalo de 50.000 a 59.999.
+Lo mismo no sucede con la interfaz externa del borde de audio o vídeo. Para la Federación con Office Communications Server 2007, el servicio perimetral A/V requiere que las reglas de Firewall externas permitan el tráfico RTP/TCP y RTP/UDP en el intervalo de puertos de 50.000 a 59.999 y fluyan en ambas direcciones. En la tabla anterior se supone que Lync Server 2013 es el socio de Federación principal y que se está configurando para comunicarse con uno de los otros tipos de asociados de Federación de la lista.
 
-Los distintos firewalls y directivas para la administración de firewall pueden requerir que se configuren solo reglas de destino, o bien pueden requerir la configuración tanto de reglas de origen como de destino. Si solo se requieren reglas en los puertos de destino, los requisitos de audio y vídeo son los siguientes:
+La configuración del intervalo de puertos de audio/vídeo de 50000-59.999 sesiones debe tener en cuenta que el intervalo de puertos contendrá los puertos de origen de las comunicaciones con los socios de la Federación. En detalle, considere la posibilidad de iniciar una comunicación desde un asociado de Federación. La comunicación de los puertos de servicio perimetral A/V del intervalo de 50000-59.999 sesiones se conectará al puerto TCP 443 esperado del servicio perimetral A/V del socio. A la inversa, el tráfico entrante a su puerto de servicio perimetral de A/V TCP 443 tendrá un puerto de origen en el rango de 50.000 59.999 sesiones.
+
+Los distintos firewalls y directivas de administración de Firewall pueden requerir la configuración de reglas de destino, o bien pueden requerir la configuración de origen y de destino. Si sus requisitos son solo para puertos de destino, los requisitos de audio y vídeo son:
 
 
 <table>
@@ -73,30 +95,30 @@ Los distintos firewalls y directivas para la administración de firewall pueden 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Interfaz de Servicio perimetral A/V</p></td>
+<td><p>Interfaz de servicio perimetral A/V</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
-<td><p>Interfaz de Servicio perimetral A/V</p></td>
+<td><p>Interfaz de servicio perimetral A/V</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
 <tr class="odd">
 <td><p>Cualquiera</p></td>
-<td><p>Interfaz de Servicio perimetral A/V</p></td>
+<td><p>Interfaz de servicio perimetral A/V</p></td>
 <td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
 <td><p>Cualquiera</p></td>
-<td><p>Interfaz de Servicio perimetral A/V</p></td>
+<td><p>Interfaz de servicio perimetral A/V</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Si las directivas requieren definiciones de reglas de firewall tanto entrantes como salientes, los requisitos de audio y vídeo son los siguientes:
+Si las directivas requieren definiciones de reglas de Firewall de entrada y salida, los requisitos de audio y vídeo son:
 
 
 <table>
@@ -116,26 +138,26 @@ Si las directivas requieren definiciones de reglas de firewall tanto entrantes c
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Interfaz de Servicio perimetral A/V</p></td>
+<td><p>Interfaz de servicio perimetral A/V</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>TCP 50.000-59.999</p></td>
 <td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
-<td><p>Interfaz de Servicio perimetral A/V</p></td>
+<td><p>Interfaz de servicio perimetral A/V</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP 3478</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
 <tr class="odd">
 <td><p>Cualquiera</p></td>
-<td><p>Interfaz de Servicio perimetral A/V</p></td>
+<td><p>Interfaz de servicio perimetral A/V</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>TCP 443</p></td>
 </tr>
 <tr class="even">
 <td><p>Cualquiera</p></td>
-<td><p>Interfaz de Servicio perimetral A/V</p></td>
+<td><p>Interfaz de servicio perimetral A/V</p></td>
 <td><p>Cualquiera</p></td>
 <td><p>UDP 3478</p></td>
 </tr>
@@ -143,51 +165,57 @@ Si las directivas requieren definiciones de reglas de firewall tanto entrantes c
 </table>
 
 
-> [!IMPORTANT]  
-> Microsoft Office Communications Server 2007 requiere una configuración ligeramente diferente. El intervalo de puertos TCP y UDP de 50.000 a 59.999 debe tener la entrada y la salida abiertas. Este requisito solo se aplica a Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 y Lync Server 2013 solo requieren la salida abierta del intervalo de TCP de 50.000 a 59.999.
+<div>
 
-
-
-## Requisitos de NAT para el acceso de usuarios externos
-
-NAT suele ser una función de enrutamiento, pero los dispositivos más recientes, como los firewalls e incluso los equilibradores de carga de hardware, pueden configurarse para NAT. En lugar de centrarse en el dispositivo en que se ejecuta NAT, en este tema se describe el comportamiento necesario de NAT.
-
-El Lync Server 2013  software de comunicaciones no admite NAT para tráfico procedente de la interfaz perimetral interna ni hacia ella, pero para la interfaz perimetral externa, se requiere el siguiente comportamiento de NAT.
 
 > [!IMPORTANT]  
-> Debe configurar NAT simétrico para el tráfico entrante y saliente. NAT simétrico es la tecnología NAT descrita en este tema.
+> Microsoft Office Communications Server 2007 requiere una configuración ligeramente distinta. El intervalo de puertos TCP y UDP de 50000-59.999 sesiones debe estar abierto entrante y saliente. Este requisito es solo para Office Communicator 2007. Office Communications Server 2007 R2, Lync Server 2010 y Lync Server 2013 solo requieren el intervalo TCP 50000-59.999 sesiones de salida abierto.
 
 
 
-En esta documentación se usan los acrónimos ChangeDST y ChangeSRC en tablas y dibujos para definir el siguiente comportamiento necesario:
+</div>
 
-  - **ChangeDST**   Proceso de cambio de la dirección IP de destino en paquetes destinados a la red que usa NAT. También se denomina transparencia, enrutamiento de puerto, modo NAT de destino o modo NAT medio.
+</div>
 
-  - **ChangeSRC**   Proceso de cambio de la dirección IP de origen en paquetes que salen de la red que usa NAT. También se denomina proxy, NAT segura, NAT con estado, NAT de origen o modo NAT completo.
+<div>
 
-Con independencia de la convención de nomenclatura usada, el comportamiento de NAT necesario para la interfaz externa del servidor perimetral es el siguiente:
+## <a name="nat-requirements-for-the-edge-service"></a>Requisitos de NAT para el servicio perimetral
 
-  - Para tráfico desde Internet hacia la interfaz perimetral externa:
+Si decide configurar direcciones IP privadas no enrutables para el servicio perimetral, se aplicarán los siguientes requisitos de NAT:
+
+  - NAT solo se puede usar con el equilibrio de carga de DNS. NAT no es compatible con una topología perimetral de equilibrio de carga de hardware (HLB).
+
+  - NAT solo se puede usar en la interfaz de borde externo. NAT no es compatible con la interfaz de borde interno.
+
+  - NAT debe ser simétrico para el tráfico entrante y saliente.
     
-      - Cambiar la dirección IP de destino del paquete entrante de la dirección IP pública de la interfaz perimetral externa a la dirección IP traducida de la interfaz perimetral externa.
-    
-      - Dejar la dirección IP de origen intacta para que haya una ruta de retorno para el tráfico.
+  - Para el tráfico de Internet, NAT debe cambiar la dirección IP de destino de la dirección IP pública habilitada para NAT del servicio perimetral a/V a su dirección IP externa. La dirección IP de origen debe permanecer intacta, de modo que el servicio perimetral A/V pueda encontrar la ruta de medios óptima.
+  
+  Por ejemplo, en la dirección de entrada en la siguiente ilustración, la dirección IP pública 131.107.155.30 se cambió a la dirección IP externa (privada) 10.45.16.10. La dirección IP de origen permanece sin cambios.
+  
+  - Para el tráfico del servicio perimetral a/V a Internet, NAT debe cambiar la dirección IP de origen de la dirección IP externa del servicio perimetral a/V a la dirección IP pública habilitada para NAT.
 
-  - Para tráfico desde la interfaz perimetral externa hacia Internet:
-    
-      - Cambiar la dirección IP de origen del paquete que sale de la interfaz perimetral externa, de la dirección IP traducida a la dirección IP pública de la interfaz perimetral externa, para que la dirección IP del servidor perimetral no quede expuesta y porque se trata de una dirección IP que no se puede enrutar.
-    
-      - Dejar la dirección IP de destino intacta en los paquetes salientes.
+Por ejemplo, en la dirección de salida de la siguiente ilustración, el 10.45.16.10 de la dirección IP externa (privada) se cambió a la dirección IP pública 131.107.155.30.
 
-En la figura siguiente se muestra la distinción entre cambiar la dirección IP de destino (ChangeDST) para el tráfico entrante y cambiar la dirección IP de origen (ChangeSRC) para el tráfico saliente con el servidor perimetral A/V como ejemplo.
+**En la siguiente ilustración se muestra cómo la NAT cambia la dirección IP de destino para el tráfico entrante y la dirección IP de origen para el tráfico saliente.**
 
-**Cambio de la dirección IP de destino (ChangeDST) para el tráfico entrante y cambio de la dirección IP de origen para el tráfico saliente (ChangeSRC)**
+![Cambiar las direcciones IP de destino y de origen] (images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Cambiar las direcciones IP de destino y de origen")
 
-![Cambio de direcciones IP de destino/origen](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Cambio de direcciones IP de destino/origen")
+Los puntos clave son:
 
-Los puntos clave son los siguientes:
+  - El tráfico entrante al servidor que ejecuta el servicio perimetral A/V, la dirección IP de origen no cambia, pero la dirección IP de destino cambia de 131.107.155.30 a la dirección IP traducida de 10.45.16.10.
 
-  - Para el tráfico entrante al servidor que ejecuta el Servicio perimetral A/V, la dirección IP de origen no cambia pero la dirección IP de destino cambia de 131.107.155.30 a la dirección IP traducida de 10.45.16.10.
+  - El tráfico saliente del servidor que ejecuta el servicio perimetral A/V a la estación de trabajo, la dirección IP de origen cambia de la dirección IP pública del servidor a la dirección IP pública del servidor que ejecuta el servicio perimetral A/V. La IP de destino sigue siendo la dirección IP pública de la estación de trabajo. Una vez que el paquete deja el primer dispositivo NAT saliente, la regla del dispositivo NAT cambia la dirección IP de origen del servidor que ejecuta la dirección IP de la interfaz externa del servicio de borde a/V (10.45.16.10) a su dirección IP pública (131.107.155.30).
 
-  - Para el tráfico saliente del servidor que ejecuta el Servicio perimetral A/V que vuelve a la estación de trabajo, la dirección IP de origen cambia de la dirección IP pública del servidor a la dirección IP pública del servidor que ejecuta el Servicio perimetral A/V. La dirección IP de destino permanece en la dirección IP pública de la estación de trabajo. Después de que el paquete sale del primer dispositivo NAT saliente, la regla del dispositivo NAT cambia la dirección IP de origen, de la dirección IP de la interfaz externa del servidor que ejecuta el Servicio perimetral A/V (10.45.16.10) a su dirección IP pública (131.107.155.30).
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

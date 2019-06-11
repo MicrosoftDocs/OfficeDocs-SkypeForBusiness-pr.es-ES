@@ -1,51 +1,85 @@
-﻿---
-title: 'Lync Server 2013: Integración con Microsoft Exchange Server 2013'
-TOCTitle: Integración de Lync Server 2013 y Exchange Server 2013
-ms:assetid: 795dc1c6-524f-4012-8b66-103b55198044
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688098(v=OCS.15)
-ms:contentKeyID: 49889236
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: integración con Microsoft Exchange Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Integrating Lync Server 2013 and Exchange Server 2013
+ms:assetid: 795dc1c6-524f-4012-8b66-103b55198044
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688098(v=OCS.15)
+ms:contentKeyID: 49733697
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5ba140e4f7e33684a280a9d9c4b71f1d7e141a65
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834972"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Integración de Microsoft Lync Server 2013 y Microsoft Exchange Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="integrating-microsoft-lync-server-2013-and-microsoft-exchange-server-2013"></a>Integración de Microsoft Lync Server 2013 y Microsoft Exchange Server 2013
 
-Exchange y Lync Server cuentan con una larga historia en integración y compatibilidad. Esta integración se hace patente sobre todo en sus respectivas aplicaciones cliente. Por ejemplo, la información de presencia de Lync se puede notificar en Microsoft Outlook; del mismo modo, Lync puede usar el calendario de Outlook para actualizar automáticamente esa información de presencia. (Por ejemplo, Lync puede establecer su estado como Ocupado cuando el calendario muestra que tiene una reunión programada.) Aunque no es necesario ejecutar Exchange para ejecutar Lync Server (o viceversa), la complementación de ambos productos evidencia, sin duda, las ventajas del trabajo conjunto.
+</div>
 
-Esta afirmación cobra sentido especialmente con el lanzamiento de Microsoft Lync Server 2013 y Microsoft Exchange Server 2013. Además de la mensajería unificada, la mensajería instantánea y la presencia, características que ya incluían Microsoft Exchange Server 2010 y Microsoft Lync Server 2010, las versiones de 2013 de los productos de servidor presentan una serie de características nuevas. Entre ellas, se incluyen las siguientes:
+<div id="mainSection">
 
-  - **Integración con el archivado de Lync** . En Lync Server 2013, los administradores siguen teniendo la opción de archivar transcripciones de conferencias web y de mensajería instantánea en SQL Server del mismo modo que en Lync Server 2010. La diferencia, no obstante, es que ahora los administradores podrán archivar dichas transcripciones en Exchange 2013, de manera que se almacenarán en los buzones de correo individuales de los usuarios de la misma manera en que Exchange archiva las comunicaciones. Con esto se consigue un único repositorio para todas las comunicaciones electrónicas (tanto de Exchange como de Lync Server), con lo que se facilita en gran medida la tarea de buscar y recuperar dichas comunicaciones en caso de que se necesiten.
+<div id="mainBody">
 
-  - **Almacén de contactos unificado** . En Lync Server 2010, los usuarios mantenían listas de contactos independientes en Outlook y en Lync; de hecho, para asegurarse de tener los mismos contactos en ambos productos, debían mantener listas de contactos duplicadas, una para Outlook y otra para Lync. Sin embargo, con Lync Server 2013, los contactos de los usuarios se pueden almacenar en Exchange 2013 y en el almacén de contactos unificado. El uso de un único almacén de contactos permite que los usuarios solo tengan que mantener un conjunto de contactos, que estará disponible en Lync 2013, Outlook 2013 y Outlook Web Access 2013.
+<span> </span>
 
-  - **El programador de reuniones de Lync de OWA** . Con la integración de Lync Server 2013 y Exchange 2013, los usuarios pueden programar reunionres de Lync desde Outlook Web Access 2013.
+_**Última modificación del tema:** 2014-07-09_
 
-  - **Fotografías de alta resolución** . Lync 2010 solo podía mostrar fotografías pequeñas de los contactos, ya que, como las fotos se almacenaban en Active Directory, su tamaño se limitaba a 48 por 48 píxeles. Con Lync Server 2013, no obstante, las fotografías se pueden almacenar en Microsoft Exchange, por lo que se pueden almacenar fotos de alta resolución y de un máximo de 648 por 648 píxeles. Con este cambio, Lync 2013 se ha actualizado para permitir la visualización de imágenes de alta resolución.
+Exchange y Lync Server tienen un largo historial de integración y compatibilidad. Esta integración es más apreciable dentro de la aplicación cliente correspondiente. Por ejemplo, se puede informar de la información de presencia de Lync en Microsoft Outlook. también puede usar el calendario de Outlook para actualizar automáticamente la información de presencia. (Por ejemplo, Lync puede cambiar su estado a ocupado siempre que su calendario muestre que tiene una reunión programada). Aunque no es necesario ejecutar Exchange para ejecutar Lync Server (o viceversa), hay pocas dudas acerca de que usar los dos productos juntos epitomizes la definición del término "mejor juntos".
 
-Tenga en cuenta que estas nuevas características requieren el uso de tanto Lync Server 2013 como Exchange 2013. Así mismo, los usuarios que deseen obtener todas las ventajas de estas características deberán tener cuentas de Lync Server 2013 y de Exchange 2013 y tendrán que usar las últimas versiones del software cliente (como Lync 2013). El almacén de contactos unificado, por ejemplo, no está disponible para los usuarios hospedados en Lync Server 2010; del mismo modo, no se pueden mostrar fotografías de alta resolución en Lync 2010.
+Esto se aplica especialmente a la publicación de Microsoft Lync Server 2013 y Microsoft Exchange Server 2013. Además de las características, como mensajería unificada y mensajería instantánea y presencia, que se encuentran en Microsoft Exchange Server 2010 y Microsoft Lync Server 2010, las versiones 2013 de los productos de servidor incluyen varias capacidades nuevas. Estas funciones incluyen elementos como los siguientes:
 
-En esta documentación encontrará información sobre la integración de Lync Server 2013 y Exchange 2013, además de instrucciones paso a paso para habilitar características nuevas como el almacén de contactos unificado y la integración con el archivado. Tenga en cuenta que en la documentación no se aborda la instalación y configuración inicial de estos productos. Para más información sobre la implementación de Lync Server 2013, visite el TechCenter de Lync Server 2013 en [http://go.microsoft.com/fwlink/?linkid=246127\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=246127%26clcid=0xc0a). Para más información sobre la implementación de Exchange 2013, visite el TechCenter de Exchange 2013 en [http://go.microsoft.com/fwlink/?linkid=268528\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=268528%26clcid=0xc0a).
+  - **Integración**de archivado de Lync. En Lync Server 2013, los administradores siguen teniendo la opción de archivar la mensajería instantánea y las transcripciones de conferencias por Internet en SQL Server (de la misma manera que estas transcripciones se archivaron en Lync Server 2010). Sin embargo, de forma alternativa, los administradores pueden optar por archivar transcripciones en Exchange 2013, almacenar dichas transcripciones en los buzones de los usuarios individuales de la misma forma en que Exchange archiva las comunicaciones. Eso significa que un único repositorio para todas sus comunicaciones electrónicas (tanto de Exchange como de Lync Server), lo que facilita la búsqueda y la recuperación de esas comunicaciones archivadas en caso de que surja la necesidad.
 
-## En esta sección
+  - **Almacén de contactos unificado**. En Lync Server 2010, los usuarios tenían que mantener listas de contactos independientes en Outlook y Lync; de hecho, para asegurarse de que tenía los mismos contactos disponibles en los dos productos, tenía que mantener listas de contactos duplicadas, una para Outlook y otra para Lync. Sin embargo, con Lync Server 2013, los contactos de usuario se pueden almacenar en Exchange 2013 y en el almacenamiento de contactos unificado. Usar un único almacén de contactos permite a los usuarios mantener un solo conjunto de contactos, con el mismo conjunto de contactos disponibles en Lync 2013, Outlook 2013 y Outlook Web Access 2013.
 
-[Requisitos previos para la integración de Microsoft Lync Server 2013 y Microsoft Exchange Server 2013](lync-server-2013-prerequisites-for-integrating-with-exchange-server-2013.md)
+  - **Programación de reuniones de Lync desde OWA**. Con la integración de Lync Server 2013 y Exchange 2013, los usuarios pueden programar reuniones de Lync desde Outlook Web Access 2013.
 
-[Configuración de aplicaciones de socio en Microsoft Lync Server 2013 y Microsoft Exchange Server 2013](lync-server-2013-configuring-partner-applications-in-lync-server-2013-and-exchange-server-2013.md)
+  - **Fotos de alta resolución**. Lync 2010 solo podría mostrar fotos pequeñas de sus contactos; Esto se debe a que esas fotos se almacenaron en Active Directory y Active Directory impone un píxel de 48 por 48 de tamaño de píxel en las fotos almacenadas. Sin embargo, con Lync Server 2013, las fotos se pueden almacenar en Microsoft Exchange. Esto permite que las fotos de alta resolución sean tan grandes como 648 píxeles por 648 píxeles. Como cabría esperar, Lync 2013 se ha actualizado para permitir la visualización de estas fotografías de alta resolución.
 
-[Configuración de Microsoft Lync Server 2013 para utilizar el archivado de Microsoft Exchange Server 2013](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md)
+Tenga en cuenta que estas nuevas características requieren el uso de Lync Server 2013 y Exchange 2013. Además de eso, los usuarios que esperan sacar el máximo provecho de estas nuevas capacidades deben tener cuentas en Lync Server 2013 y en Exchange 2013, y deben usar las versiones más recientes del software cliente (por ejemplo, Lync 2013). Por ejemplo, el almacén de contactos unificado no está disponible para los usuarios que se han alojado en Lync Server 2010; del mismo modo, las fotos de alta resolución no se pueden mostrar en Lync 2010.
+
+Esta documentación proporciona información acerca de la integración de Lync Server 2013 y de Exchange 2013. incluye información paso a paso sobre cómo habilitar nuevas características, como la integración de archivado y el almacenamiento de contactos unificado. Lo que no hace esta documentación es comentar la configuración inicial y la configuración de estos dos productos. Para obtener detalles sobre la implementación de Lync Server 2013, visite el centro tecnológico de [http://go.microsoft.com/fwlink/p/?LinkId=246127](http://go.microsoft.com/fwlink/p/?linkid=246127)lync Server 2013 en. Para obtener más información sobre la implementación de Exchange 2013, visite el Exchange [http://go.microsoft.com/fwlink/p/?LinkId=268528](http://go.microsoft.com/fwlink/p/?linkid=268528)2013 Tech Center en.
+
+<div>
+
+## <a name="in-this-section"></a>En esta sección
+
+[Requisitos previos para integrar Microsoft Lync Server 2013 y Microsoft Exchange Server 2013](lync-server-2013-prerequisites-for-integrating-with-exchange-server-2013.md)
+
+[Configurar aplicaciones de socio en Microsoft Lync Server 2013 y Microsoft Exchange Server 2013](lync-server-2013-configuring-partner-applications-in-lync-server-2013-and-exchange-server-2013.md)
+
+[Configuración de Microsoft Lync Server 2013 para usar el archivado de Microsoft Exchange Server 2013](configuring-lync-server-2013-to-use-microsoft-exchange-server-2013-archiving.md)
 
 [Configuración de Microsoft SharePoint Server 2013 para buscar datos archivados de Microsoft Lync Server 2013](lync-server-2013-configuring-microsoft-sharepoint-server-2013-to-search-for-archived-lync-server-2013-data.md)
 
-[Configuración de Microsoft Lync Server 2013 para usar el almacén de contactos unificado](lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md)
+[Configuración de Microsoft Lync Server 2013 para usar el almacenamiento de contactos unificado](lync-server-2013-configuring-lync-server-to-use-the-unified-contact-store.md)
 
-[Configuración del uso de fotografías de alta resolución en Microsoft Lync Server 2013](lync-server-2013-configuring-the-use-of-high-resolution-photos.md)
+[Configurar el uso de fotos de alta resolución en Microsoft Lync Server 2013](lync-server-2013-configuring-the-use-of-high-resolution-photos.md)
 
 [Configuración de la mensajería unificada de Microsoft Exchange Server 2013 para el correo de voz de Microsoft Lync Server 2013](lync-server-2013-configuring-microsoft-exchange-server-2013-unified-messaging-for-lync-server-2013-voice-mail.md)
 
-[Integrar Microsoft Lync Server 2013 y Microsoft Outlook Web App 2013](lync-server-2013-integrating-lync-server-and-outlook-web-app-2013.md)
+[Integración de Microsoft Lync Server 2013 y Microsoft Outlook Web App 2013](lync-server-2013-integrating-lync-server-and-outlook-web-app-2013.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

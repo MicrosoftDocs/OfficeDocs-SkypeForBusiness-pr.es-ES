@@ -1,33 +1,53 @@
-﻿---
-title: Transferencias de llamadas de consulta y enrutamiento basado en ubicación
-TOCTitle: Transferencias de llamadas de consulta y enrutamiento basado en ubicación
-ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn362836(v=OCS.15)
-ms:contentKeyID: 56271355
-ms.date: 05/19/2016
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: enrutamiento basado en la ubicación y transferencias de llamadas Consultiva'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Location-Based Routing and consultative call transfers
+ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
+ms:contentKeyID: 56335089
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d7c7b73efb670c5569b8c4600c1759e981cda211
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834938"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Transferencias de llamadas de consulta y enrutamiento basado en ubicación
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="location-based-routing-and-consultative-call-transfers-in-lync-server-2013"></a>Enrutamiento basado en la ubicación y transferencias de llamadas Consultiva en Lync Server 2013
 
-Además de aplicar el enrutamiento basado en ubicación en las reuniones de Lync, la aplicación de conferencias de enrutamiento basado en ubicación aplica las restricciones de esta característica en las consultas de transferencia de llamada que se realizan a extremos RTC. Las consultas de transferencia de llamada son llamadas que se establecen entre dos partes, en las que una de ellas transfiere la llamada a un nuevo usuario. Por ejemplo, un extremo RTC llama al usuario A (destinatario de la llamada de Lync). El usuario A determina que el usuario de RTC se debe transferir al usuario B (usuario de Lync). El usuario A llama al usuario B con el usuario de RTC en espera. El usuario B acepta hablar con el usuario de RTC. El usuario A transfiere la llamada en espera al usuario B.
+</div>
 
-**Flujo de llamadas de consultas de transferencia de llamada**
+<div id="mainSection">
 
-![Enrutamiento basado en ubicación para diagrama de conferencias](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Enrutamiento basado en ubicación para diagrama de conferencias")
+<div id="mainBody">
 
-Cuando un usuario habilitado para el enrutamiento basado en ubicación inicia una consulta de transferencia de llamada de un extremo RTC (como se muestra en la ilustración anterior), se crean dos llamadas activas: una entre el usuario de RTC y el usuario A de Lync, y otra entre el usuario A de Lync y el usuario B de Lync. La aplicación de conferencias de enrutamiento basado en ubicación aplica el siguiente comportamiento:
+<span> </span>
 
-  - Si el tronco SIP que enruta la llamada RTC tiene autorización para reenrutarla al sitio de red en el que se encuentra el usuario B de Lync (es decir, el destino de la transferencia), se permitirá la transferencia de la llamada. De lo contrario, la consulta de transferencia de llamada se bloqueará. Esta autorización se concede si la parte transferida se encuentra en el mismo sitio de red que el tronco SIP que enruta la llamada activa al extremo RTC.
+_**Última modificación del tema:** 2013-07-31_
 
-  - Si el tronco SIP que enruta la llamada RTC entrante no tiene autorización para enrutar llamadas al sitio de red en el que se encuentra la parte transferida (el usuario B de Lync) o la parte transferida se encuentra en un sitio de red desconocido, la consulta de transferencia de llamada al extremo RTC (es decir, el destino de la transferencia) se bloqueará.
+Además de exigir el enrutamiento basado en la ubicación para las reuniones de Lync, la aplicación de conferencia de enrutamiento basada en la ubicación aplica restricciones de enrutamiento basadas en la ubicación en las transferencias de llamadas Consultiva que salida a puntos de conexión RTC. Una transferencia de llamadas Consultiva es una llamada establecida entre dos partes cuando una de las partes la transfiere a un nuevo usuario. Por ejemplo, un punto final de RTC llama al usuario A (llamada de Lync). El usuario A determina que el usuario de RTC debe reenviarse al usuario B (usuario de Lync). El usuario A coloca la llamada con el usuario de la RTC en espera y llama al usuario B. el usuario B acepta hablar con el usuario de la RTC. El usuario A transfiere la llamada en espera al usuario B.
 
-En la siguiente tabla se describe cómo la aplicación de conferencias de enrutamiento basado en ubicación aplica las restricciones correspondientes para las consultas de transferencia de llamada. Si bien los extremos PBX no se asocian directamente con ningún sitio de red, se puede asignar uno al tronco SIP al que el PBX está conectado. De esta forma, el extremo PBX estará asociado a un sitio de red indirectamente.
+**Flujo de llamadas de transferencia de llamada de consulta**
+
+![Enrutamiento basado en la ubicación del diagrama de conferencias] (images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Enrutamiento basado en la ubicación del diagrama de conferencias")
+
+Cuando un usuario habilitado para el enrutamiento basado en la ubicación inicia una llamada Consultiva de un extremo RTC (tal como se muestra en la ilustración anterior), se crean dos llamadas activas, una llamada entre el usuario de la RTC y el usuario de Lync A y la otra entre el usuario de Lync A y el usuario B de Lync. el comportamiento siguiente es aplicado por la aplicación de conferencia de enrutamiento basada en ubicación:
+
+  - Si el enrutamiento de troncal del SIP la llamada RTC está autorizada para redirigir la llamada RTC al sitio de red donde se encuentra el usuario de Lync B (es decir, el destino de transferencia), se permitirá la transferencia de llamadas; de lo contrario, la transferencia de llamadas Consultiva se bloqueará. Esta autorización se realiza en función de si la ubicación de la entidad transferida es el mismo sitio de red que el tronco SIP que está redirigiendo la llamada activa al extremo de RTC.
+
+  - Si el enrutamiento de troncal del SIP, la llamada RTC entrante no está autorizada para enrutar llamadas al sitio de red donde se encuentra la entidad transferida (usuario de Lync B) o la parte transferida se encuentra en un sitio de red desconocido y, después, la transferencia de la llamada consultiva a la RTC. se bloqueará el punto de conexión (es decir, el destino de transferencia de llamadas).
+
+En la tabla siguiente se describe cómo aplica la aplicación de conferencia de enrutamiento basada en ubicación las restricciones de enrutamiento basadas en la ubicación. A pesar de que los extremos de PBX no están directamente asociados con un sitio de red, el tronco SIP al cual está conectado la PBX se puede asignar a un sitio de red. Por lo tanto, el extremo de PBX se puede asociar indirectamente con el sitio de red.
 
 
 <table>
@@ -38,70 +58,81 @@ En la siguiente tabla se describe cómo la aplicación de conferencias de enruta
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Sitio de red de la parte transferida</p></td>
-<td><p>Sitio de red del destino de la transferencia de llamada</p></td>
+<td><p>Sitio de red de la entidad de origen de la transferencia de la llamada</p></td>
+<td><p>Sitio de red del destino de la transferencia de la llamada</p></td>
 <td><p>Comportamiento</p></td>
 </tr>
 <tr class="even">
-<td><p>Extremo RTC</p></td>
-<td><p>Usuario de Lync en el mismo sitio de red (es decir, en el sitio 1)</p></td>
-<td><p>Se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de RTC</p></td>
+<td><p>Usuario de Lync en el mismo sitio de red (es decir, sitio 1)</p></td>
+<td><p>Se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="odd">
-<td><p>Extremo RTC</p></td>
-<td><p>Usuario de Lync en otros sitios de red (es decir, en el sitio 2)</p></td>
-<td><p>No se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de RTC</p></td>
+<td><p>Usuario de Lync en diferentes sitios de red (p. ej., sitio 2)</p></td>
+<td><p>No se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="even">
-<td><p>Extremo RTC</p></td>
+<td><p>Extremo de RTC</p></td>
 <td><p>Usuario de Lync en un sitio de red desconocido</p></td>
-<td><p>No se permitirá la consulta de transferencia</p></td>
+<td><p>No se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="odd">
-<td><p>Extremo RTC</p></td>
-<td><p>Usuario de Lync federado</p></td>
-<td><p>No se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de RTC</p></td>
+<td><p>Usuario federado de Lync</p></td>
+<td><p>No se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="even">
-<td><p>Extremo RTC</p></td>
-<td><p>Extremo PBX en el mismo sitio (es decir, en el sitio 1)</p></td>
-<td><p>Se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de RTC</p></td>
+<td><p>Extremo de PBX en el mismo sitio (es decir, el sitio 1)</p></td>
+<td><p>Se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="odd">
-<td><p>Extremo RTC</p></td>
-<td><p>Extremo PBX en otro sitio (es decir, en el sitio 2)</p></td>
-<td><p>No se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de RTC</p></td>
+<td><p>Extremo de PBX en un sitio diferente (es decir, el sitio 2)</p></td>
+<td><p>No se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="even">
-<td><p>Extremo PBX en el mismo sitio (es decir, en el sitio 1)</p></td>
-<td><p>Extremo RTC</p></td>
-<td><p>Se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de PBX en el mismo sitio (es decir, el sitio 1)</p></td>
+<td><p>Extremo de RTC</p></td>
+<td><p>Se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="odd">
-<td><p>Extremo PBX en otro sitio (es decir, en el sitio 2)</p></td>
-<td><p>Extremo RTC</p></td>
-<td><p>No se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de PBX en un sitio diferente (es decir, el sitio 2)</p></td>
+<td><p>Extremo de RTC</p></td>
+<td><p>No se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="even">
-<td><p>Extremo PBX en cualquier sitio</p></td>
-<td><p>Usuario de Lync en el mismo sitio de red (es decir, en el sitio 1)</p></td>
-<td><p>Se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de PBX en cualquier sitio</p></td>
+<td><p>Usuario de Lync en el mismo sitio de red (es decir, sitio 1)</p></td>
+<td><p>Se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="odd">
-<td><p>Extremo PBX en cualquier sitio</p></td>
-<td><p>Usuario de Lync en otros sitios de red (es decir, en el sitio 2)</p></td>
-<td><p>Se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de PBX en cualquier sitio</p></td>
+<td><p>Usuario de Lync en diferentes sitios de red (p. ej., sitio 2)</p></td>
+<td><p>Se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="even">
-<td><p>Extremo PBX en cualquier sitio</p></td>
+<td><p>Extremo de PBX en cualquier sitio</p></td>
 <td><p>Usuario de Lync en un sitio de red desconocido</p></td>
-<td><p>Se permitirá la consulta de transferencia</p></td>
+<td><p>Se permitirá la transferencia de consulta</p></td>
 </tr>
 <tr class="odd">
-<td><p>Extremo PBX en cualquier sitio</p></td>
-<td><p>Usuario de Lync federado</p></td>
-<td><p>Se permitirá la consulta de transferencia</p></td>
+<td><p>Extremo de PBX en cualquier sitio</p></td>
+<td><p>Usuario federado de Lync</p></td>
+<td><p>Se permitirá la transferencia de consulta</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

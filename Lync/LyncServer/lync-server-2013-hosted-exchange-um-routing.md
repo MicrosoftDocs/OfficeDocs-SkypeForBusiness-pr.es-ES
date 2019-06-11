@@ -1,61 +1,107 @@
-﻿---
-title: 'Lync Server 2013: Enrutamiento de mensajería unificada de Exchange hospedada'
-TOCTitle: " Enrutamiento de mensajería unificada de Exchange hospedada"
-ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398512(v=OCS.15)
-ms:contentKeyID: 48275574
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Enrutamiento de mensajería unificada de Exchange hospedada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Hosted Exchange UM routing
+ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398512(v=OCS.15)
+ms:contentKeyID: 48184422
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 90cc1112effd0eac0a25614ee50d7008ee1c5e37
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835054"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Enrutamiento de mensajería unificada de Exchange hospedada en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="hosted-exchange-um-routing-in-lync-server-2013"></a>Enrutamiento de mensajería unificada de Exchange hospedada en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-01_
 
-La aplicación de enrutamiento de Mensajería unificada de Exchange se ejecuta en el Servidor front-end para enrutar llamadas, ya sea a una implementación local de mensajería unificada (MU) de Microsoft Exchange Server o a un servicio hospedado de Mensajería unificada de Exchange.
+La aplicación de enrutamiento de mensajería unificada de Exchange se ejecuta en el servidor front-end para enrutar llamadas, ya sea a una implementación local de mensajería unificada (UM) de Microsoft Exchange Server o a un servicio de mensajería unificada de Exchange hospedado.
 
-## La aplicación ExUM Routing
+<div>
 
-La aplicación de enrutamiento de Mensajería unificada de Exchange de Lync Server 2013 usa la información de la configuración de la cuenta de usuario y de los parámetros de la directiva de correo de voz hospedado para determinar cómo enrutar las llamadas para la mensajería de voz hospedada, tal y como se muestra en el siguiente diagrama.
+## <a name="the-exum-routing-application"></a>La aplicación de enrutamiento ExUM
 
-**Ejemplo de implementación combinada del enrutamiento UM de Exchange**
+La aplicación Lync Server 2013 Exchange UM Routing usa información de la configuración de la cuenta de usuario y de los parámetros de la Directiva de voz hospedada para determinar cómo enrutar las llamadas para la mensajería de voz hospedada, como se muestra en el siguiente diagrama.
 
-![Implementación local de mensajería unificada de Lync Server Exchange](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Implementación local de mensajería unificada de Lync Server Exchange")
+**Ejemplo de implementación mixta enrutamiento de mensajería unificada de Exchange**
 
-El enrutamiento de la Mensajería unificada de Exchange se puede configurar para enrutar llamadas a usuarios con la Mensajería unificada de Exchange local habilitada, a usuarios con la Mensajería unificada de Exchange hospedada habilitada o una combinación de ambas opciones.
+![Implementación de mensajería unificada de Exchange de Lync Server local] (images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Implementación de mensajería unificada de Exchange de Lync Server local")
 
-Por ejemplo, supongamos que el buzón de correo de Roy y el servicio de Mensajería unificada de Exchange están hospedados en una implementación local de Exchange.
+El enrutamiento de MU de Exchange se puede configurar para que enrute las llamadas a los usuarios que están habilitados para la mensajería unificada de Exchange local para los usuarios que están habilitados para la mensajería unificada de Exchange hospedada o para una combinación de ambas.
 
-  - La información de la dirección proxy de la cuenta de usuario de Roy contiene los datos que la aplicación de enrutamiento de mensajería unificada de Exchange usa para enrutar sus llamadas a un servidor de Mensajería unificada de Exchange local.
+Por ejemplo, supongamos que el buzón de la compañía y el servicio MU de Exchange están alojados en una implementación de Exchange local.
 
-El buzón y el servicio de Mensajería unificada de Exchange de Alice se encuentran en un centro de datos del proveedor de servicios de Exchange hospedado. El enrutamiento de sus llamadas de Mensajería unificada de Exchange se configura de la siguiente forma:
+  - La información de dirección del proxy de la cuenta de usuario de Roy proporciona la información que la aplicación de enrutamiento de ExUM usa para enrutar las llamadas a un servidor local de mensajería unificada de Exchange.
 
-  - Los valores establecidos en el atributo msExchUCVoiceMailSettings de la cuenta de usuario de Alicia le dice a la aplicación ExUM Routing que compruebe los detalles de enrutamiento en una directiva de correo de voz hospedado.
+El buzón de Alice y el servicio MU de Exchange se encuentran en el centro de datos de un proveedor de servicios de Exchange hospedado. El enrutamiento de las llamadas de mensajería unificada de Exchange es el siguiente:
+
+  - Los valores establecidos en el atributo msExchUCVoiceMailSettings de la cuenta de usuario de Alice indican a la aplicación de enrutamiento de ExUM que compruebe los detalles de enrutamiento en una directiva de correo de voz hospedado.
+    
+    <div>
     
 
-    > [!NOTE]
-    > El valor del atributo msExchUCVoiceMailSettings puede establecerlo el proveedor de servicios de Exchange o el administrador de Lync Server 2013. En el ejemplo que se muestra en el diagrama anterior, el valor (CsHostedVoiceMail=1) lo había establecido el administrador de Lync Server 2013 para habilitar el correo de voz hospedado para Alice. Para obtener más información acerca de este atributo, consulte <A href="lync-server-2013-hosted-exchange-user-management.md">Administración de usuarios de Hosted Exchange en Lync Server 2013</A>.
+    > [!NOTE]  
+    > El valor del atributo msExchUCVoiceMailSettings puede ser establecido por el proveedor de servicios de Exchange o el administrador de Lync Server 2013. En el ejemplo que se muestra en el diagrama anterior, el administrador de Lync Server 2013 estableció el valor (CsHostedVoiceMail = 1) para habilitar el correo de voz hospedado para Alice. Para obtener más información sobre este atributo, consulte <A href="lync-server-2013-hosted-exchange-user-management.md">Administración de usuarios de Exchange hospedado en Lync Server 2013</A>.
 
-
-
-  - La directiva de correo de voz hospedado que se ha asignado a la cuenta de usuario de Alicia proporciona la siguiente información de enrutamiento:
     
-      - El destino es el proveedor de servicios de Mensajería unificada de Exchange hospedado (Is.ExUm. *\<hostedExchangeServer\>* .com en este ejemplo).
+    </div>
+
+  - La Directiva de correo de voz hospedada que se asigna a la cuenta de usuario de Alice proporciona detalles de enrutamiento:
     
-      - Las organizaciones se identifican mediante los identificadores de arrendatario, que son los FQDN de enrutamiento de los mensajes SIP para los arrendatarios de Exchange Server ubicados en Is.ExUm. *\<hostedExchangeServer\>* .com (corp.contoso.com y corp.litwareinc.com en este ejemplo).
+      - Destino es el proveedor de servicios de mensajería unificada de Exchange hospedado (LS. ExUm. \<hostedExchangeServer\>. com en este ejemplo).
+    
+      - Las organizaciones se identifican por los identificadores de inquilino, que son los FQDN de enrutamiento de los mensajes SIP para los inquilinos de Exchange Server que se encuentran en LS. ExUm. \<hostedExchangeServer\>. com (Corp.contoso.com y Corp.litwareinc.com en este ejemplo).
+        
+        <div>
         
 
-        > [!NOTE]
-        > El FQDN para Exchange Online es exap.um.outlook.com.
+        > [!NOTE]  
+        > El FQDN de Exchange Online es exap.um.outlook.com.
 
         
-        Para ver información detallada, consulte [Directivas de correo de voz hospedado en Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
+        </div>
+        
+        Para obtener más información, consulte [directivas de correo de voz hospedado en Lync Server 2013](lync-server-2013-hosted-voice-mail-policies.md).
+
+<div>
 
 
-> [!NOTE]
-> Si tanto el atributo msExchUCVoiceMailSettings como la configuración de la dirección proxy de mensajería unificada están presentes en una cuenta de usuario, el atributo msExchUCVoiceMailSettings tendrá prioridad.
+> [!NOTE]  
+> Si el atributo msExchUCVoiceMailSettings y la configuración de la dirección proxy de UM están presentes en una cuenta de usuario, el atributo msExchUCVoiceMailSettings tiene prioridad.
 
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

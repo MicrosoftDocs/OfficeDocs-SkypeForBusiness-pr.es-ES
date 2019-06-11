@@ -1,27 +1,51 @@
-﻿---
-title: Vista FileTransfers
-TOCTitle: Vista FileTransfers
-ms:assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721914(v=OCS.15)
-ms:contentKeyID: 49889772
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: vista FileTransfers'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: FileTransfers view
+ms:assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721914(v=OCS.15)
+ms:contentKeyID: 49733848
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4228bbe42f2e7bcf88b26f9147e514f09c106ac3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835153"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Vista FileTransfers
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="filetransfers-view-in-lync-server-2013"></a>Vista FileTransfers en Lync Server 2013
 
-La vista FileTranfer almacena información sobre sesiones de transferencia de archivos punto a punto. Esta vista se introdujo en Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-01_
+
+La vista FileTransfer almacena información sobre las sesiones de transferencia de archivos de punto a punto. Esta vista se presentó en Microsoft Lync Server 2013.
+
+<div>
 
 
-> [!NOTE]
-> La vista FileTransfers contiene todas las columnas de la <A href="lync-server-2013-sessiondetails-view.md">Vista SessionDetails</A> además de las columnas enumeradas a continuación.
+> [!NOTE]  
+> La vista FileTransfers contiene todas las columnas de la <A href="lync-server-2013-sessiondetails-view.md">vista SessionDetails de Lync Server 2013</A> , además de las columnas que figuran a continuación.
 
 
+
+</div>
 
 
 <table>
@@ -44,30 +68,41 @@ La vista FileTranfer almacena información sobre sesiones de transferencia de ar
 <td><p>Nombre del archivo transferido.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cookie</strong></p></td>
-<td><p>nvarchar(128)</p></td>
-<td><p>Se usa para identificar cada mensaje de seguimiento como mensaje asociado a este.</p></td>
+<td><p><strong>Ésta</strong></p></td>
+<td><p>nvarchar(128</p></td>
+<td><p>Se usa para identificar cada mensaje de seguimiento como asociado con este.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>FileIdentity</strong></p></td>
-<td><p>uniqueidentifier</p></td>
-<td><p>Identificador único para distinguir entre las transferencias de archivos en las que participa el mismo nombre de archivo.</p></td>
+<td><p>identificador</p></td>
+<td><p>Identificador único para distinguir entre transferencias de archivos que impliquen el mismo nombre de archivo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Aceptar</strong></p></td>
+<td><p><strong>Aceptable</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Puede ser TRUE o NULL. Si es TRUE, Rechazar y Cancelar serán NULL.</p></td>
+<td><p>Puede ser TRUE o NULL. Si es verdadero, rechazar y cancelar será nulo.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Rechazar</strong></p></td>
+<td><p><strong>Rechace</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Puede ser TRUE o NULL. Si es TRUE, Aceptar y Cancelar serán NULL.</p></td>
+<td><p>Puede ser TRUE o NULL. Si es verdadero, aceptar y cancelar será nulo.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cancelar</strong></p></td>
+<td><p><strong>Cancelar.</strong></p></td>
 <td><p>bit</p></td>
-<td><p>Puede ser TRUE o NULL. Si es TRUE, Aceptar y Rechazar serán NULL.</p></td>
+<td><p>Puede ser TRUE o NULL. Si es verdadero, aceptar y rechazar serán NULOs.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Informe de dispositivos'
-TOCTitle: Informe de dispositivos
-ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615049(v=OCS.15)
-ms:contentKeyID: 48277165
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: informe de dispositivos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device Report
+ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615049(v=OCS.15)
+ms:contentKeyID: 48185807
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e172837622c4ad40a29cca74dcaf42497c4b2bd5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835448"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Informe de dispositivos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="device-report-in-lync-server-2013"></a>Informe de dispositivos en Lync Server 2013
 
-El informe de dispositivos debería llamarse más bien Informe de micrófono y altavoces porque el informe de dispositivos recupera las métricas relacionadas con las llamadas (como porcentaje de llamadas deficientes, eco y tiempo de conmutación de voz) agrupadas por los micrófonos y los altavoces utilizados durante la llamada. Si está interesado en los teléfonos IP (denominados también "dispositivos"), use el [Informe de inventario de teléfono IP en Lync Server 2013](lync-server-2013-ip-phone-inventory-report.md) en su lugar.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-11-12_
+
+El informe de dispositivos tendría que llamarse más bien Informe de micrófono y altavoces porque el informe de dispositivos recupera las métricas relacionadas con las llamadas (como porcentaje de llamadas deficientes, eco y tiempo de conmutación de voz) agrupadas por los micrófonos y los altavoces utilizados durante la llamada. Si está interesado en teléfonos IP (también conocidos como "dispositivos"), use el [Informe de inventario telefónico de IP en Lync Server 2013 en](lync-server-2013-ip-phone-inventory-report.md) su lugar.
 
 El informe de dispositivos es muy útil para los administradores a la hora de determinar si un tipo concreto de dispositivo está sufriendo un número de llamadas de calidad deficiente superior al de otros. A su vez, puede influir en las decisiones que se tomen respecto a comprar nuevos dispositivos o sustituir los actuales.
 
@@ -105,21 +125,27 @@ Si prefiere ver los totales combinados de un dispositivo concreto (por ejemplo, 
 </table>
 
 
-## Acceso al informe de dispositivos
+<div>
 
-Generalmente, se accede al informe de dispositivos desde la página de inicio de Informes de supervisión. Sin embargo, si está consultando el [Informe de detalles de llamadas en Lync Server 2013](lync-server-2013-call-detail-report.md), puede tener acceso al informe de dispositivos haciendo clic en cualquiera de las métricas siguientes:
+## <a name="accessing-the-device-report"></a>Acceso al informe de dispositivos
+
+Generalmente, se accede al informe de dispositivos desde la página de inicio de Informes de supervisión. Sin embargo, si visualiza el [Informe de detalles de llamadas en Lync Server 2013](lync-server-2013-call-detail-report.md) puede explorar en profundidad el informe de dispositivos para un dispositivo específico haciendo clic en una de las siguientes métricas:
 
   - Dispositivo de captura
 
   - Dispositivo de presentación
 
-Desde el informe de dispositivos, puede tener acceso al [Informe de lista de llamadas en Lync Server 2013](lync-server-2013-call-list-report.md) haciendo clic en cualquiera de las métricas siguientes:
+En el informe de dispositivos, puede explorar en profundidad el [Informe de la lista de llamadas en Lync Server 2013](lync-server-2013-call-list-report.md) haciendo clic en cualquiera de las siguientes métricas:
 
   - Volumen de llamadas
 
   - Porcentaje de llamadas deficientes
 
-## Aprovechamiento del informe de dispositivos
+</div>
+
+<div>
+
+## <a name="making-the-best-use-of-the-device-report"></a>Aprovechamiento del informe de dispositivos
 
 En lo que se refiere a los nombres de dispositivos, el informe de dispositivos es muy detallado. Por ejemplo, supongamos que tiene los siguientes dispositivos de captura:
 
@@ -159,13 +185,17 @@ En lo que se refiere a los nombres de dispositivos, el informe de dispositivos e
 
   - Micrófono Aastra 6725ip (USB Audio Device)-V0
 
-
-> [!NOTE]
-> Tenga en cuenta que los nombres de los dispositivos podrían ser distintos en versiones localizadas de Lync Server 2013. El dispositivo Aastra 6725ip Microphone (Aastra 6725ip)-V0 en inglés, podría tener otro nombre en francés o en español.
+<div>
 
 
+> [!NOTE]  
+> Recuerde que es posible que los nombres de los dispositivos de captura no sean los mismos si ejecuta versiones localizadas de Lync Server 2013. El dispositivo Aastra 6725ip Microphone (Aastra 6725ip)-V0 en inglés, podría tener otro nombre en francés o en español.
 
-Habrá casos en los que desee trabajar con ese nivel de detalles, pero habrá otros en los que solo le interese saber cuántas llamadas utilizaron un micrófono Aastra, sea cual sea, sin importar el número de modelo. Una forma de obtener esta información es exportar los datos del informe de dispositivos a Microsoft Excel y, entonces, guardar los datos en un archivo de valores separados por coma (por ejemplo, C:\\Data\\Devices\_Report.csv). A continuación, podrá utilizar un conjunto de comandos similar al siguiente para importar el archivo .CSB en Windows PowerShell y crear un informe del total de llamadas realizadas con un dispositivo de captura Aastra:
+
+
+</div>
+
+Habrá casos en los que desee trabajar con ese nivel de detalles, pero habrá otros en los que solo le interese saber cuántas llamadas utilizaron un micrófono Aastra, sea cual sea, sin importar el número de modelo. Una forma de obtener información como esta es exportar los datos del informe de dispositivos a Microsoft Excel y, a continuación, guardarlos en un archivo de valores separados por comas (\\por\\ejemplo\_, C: dispositivos de datos-informe. csv). A continuación, podrá utilizar un conjunto de comandos similar al siguiente para importar el archivo .CSB en Windows PowerShell y crear un informe del total de llamadas realizadas con un dispositivo de captura Aastra:
 
     $devices = Import-Csv "C:\Data\Device_Report.csv
     $sum = $devices | Where-Object {$_."Capture device" -match "Aastra"}
@@ -176,13 +206,17 @@ Así se devolverá un único valor correspondiente al número total de llamadas 
 
     384
 
-## Filtros
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. Por ejemplo, el informe de dispositivos permite filtrar elementos como el tipo de llamada (es decir, si la llamada era de un cliente), una llamada de conferencia o una llamada de red telefónica conmutada (RTC). También se puede elegir cómo agrupar los datos. En este caso, los dispositivos se agrupan por hora, día, semana o mes.
 
 En la tabla siguiente, se muestran los filtros que se pueden utilizar en el informe de dispositivos.
 
-### Filtros del informe de dispositivos
+### <a name="device-report-filters"></a>Filtros del informe de dispositivos
 
 <table>
 <colgroup>
@@ -197,23 +231,23 @@ En la tabla siguiente, se muestran los filtros que se pueden utilizar en el info
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Desde</strong></p></td>
+<td><p><strong>De</strong></p></td>
 <td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
-<p>7/7/2012 13:00</p>
-<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 00:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<p>7/7/2012 1:00 P.M.</p>
+<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
-<p>3/7/12</p>
+<p>7/3/2012</p>
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Hasta</strong></p></td>
 <td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</p>
-<p>7/7/2012 13:00</p>
-<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 00:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
-<p>7/7/12</p>
+<p>7/7/2012 1:00 P.M.</p>
+<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
-<p>3/7/2012</p>
+<p>7/3/2012</p>
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="odd">
@@ -248,7 +282,7 @@ En la tabla siguiente, se muestran los filtros que se pueden utilizar en el info
 </tr>
 <tr class="even">
 <td><p><strong>Causa del eco</strong></p></td>
-<td><p>Motivo por el que se ha detectado en una llamada un eco que supera el nivel aceptado. (En las telecomunicaciones, el eco es un reflejo del sonido, el mismo fenómeno que se produce cuando se grita en un pozo.) Seleccione una de las siguientes opciones:</p>
+<td><p>Motivo por el que se ha detectado en una llamada un eco que supera el nivel aceptado (en las telecomunicaciones, el eco es un reflejo del sonido, el mismo fenómeno que se produce cuando se grita en un pozo). Seleccione una de las siguientes opciones:</p>
 <dl>
 <dt><span></span></dt>
 <dd><p>[Todas]</p>
@@ -299,10 +333,10 @@ En la tabla siguiente, se muestran los filtros que se pueden utilizar en el info
 <dd><p>[Todas]</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Interna</p>
+<dd><p>Interno</p>
 </dd>
 <dt><span></span></dt>
-<dd><p>Externa</p>
+<dd><p>Externo</p>
 </dd>
 </dl></td>
 </tr>
@@ -353,21 +387,25 @@ En la tabla siguiente, se muestran los filtros que se pueden utilizar en el info
 </tr>
 <tr class="even">
 <td><p><strong>Nombre del dispositivo</strong></p></td>
-<td><p>Nombre del dispositivo de captura o presentación. Puede escribir el nombre completo del dispositivo o cualquier parte del mismo. Por ejemplo, para encontrar el dispositivo Micrófono (Microsoft LifeCam VX-1000.), puede escribir el nombre completo del dispositivo del modo siguiente:</p>
-<p>Micrófono (Microsoft LifeCam VX-1000.)</p>
+<td><p>Nombre del dispositivo de captura o presentación. Puede escribir el nombre completo del dispositivo o cualquier parte del mismo. Por ejemplo, para encontrar el dispositivo Micrófono (Microsoft LifeCam VX-1000), puede escribir el nombre completo del dispositivo del modo siguiente:</p>
+<p>Micrófono (Microsoft LifeCam VX-1000)</p>
 <p>También puede escribir solo una parte del nombre. Por ejemplo:</p>
 <p>LifeCam</p>
-<p>Tenga en cuenta que el filtro anterior devolverá cualquier dispositivo que contenga la cadena &quot;LifeCam&quot; en cualquier parte del nombre.</p></td>
+<p>Observe que el filtro anterior devuelve cualquier dispositivo que contenga la &quot;cadena&quot; LifeCam en su nombre.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Métricas
+</div>
+
+<div>
+
+## <a name="metrics"></a>Métricas
 
 En la tabla siguiente, se muestra la información que recoge el informe de dispositivos.
 
-### Métricas del informe de dispositivos
+### <a name="device-report-metrics"></a>Métricas del informe de dispositivos
 
 <table>
 <colgroup>
@@ -396,12 +434,12 @@ En la tabla siguiente, se muestra la información que recoge el informe de dispo
 <tr class="odd">
 <td><p><strong>Volumen de llamadas</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Número total de llamadas realizadas.</p></td>
+<td><p>Cantidad total de llamadas realizadas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Porcentaje de llamadas deficientes</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Porcentaje de llamadas clasificadas como deficientes. Una llamada deficiente es aquella durante la cual al menos uno de los valores medidos supera el valor permitido, por ejemplo, una llamada con un exceso de vibraciones.</p></td>
+<td><p>Porcentaje de llamadas que se han clasificado &quot;como malas. &quot; Una llamada deficiente es cualquier llamada que al menos una de las métricas medidas superó el valor permitido (por ejemplo, una llamada que experimentó una vibración excesiva).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Usuarios únicos</strong></p></td>
@@ -441,9 +479,21 @@ En la tabla siguiente, se muestra la información que recoge el informe de dispo
 <tr class="even">
 <td><p><strong>Llamadas con eco (%)</strong></p></td>
 <td><p>Sí</p></td>
-<td><p>Porcentaje del total de llamadas cuyo eco superaba el nivel aceptable.</p>
-<p></p></td>
+<td><p>Porcentaje del total de llamadas cuyo eco superaba el nivel aceptable.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

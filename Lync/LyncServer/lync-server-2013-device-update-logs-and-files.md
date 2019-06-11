@@ -1,33 +1,71 @@
-﻿---
-title: Archivos y registros de actualización de dispositivos en Lync Server 2013
-TOCTitle: Archivos y registros de actualización de dispositivos en Lync Server 2013
-ms:assetid: f7f822b8-0a62-4ff2-a4cb-1ab1ed7503eb
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994090(v=OCS.15)
-ms:contentKeyID: 52061980
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: archivos y registros de actualización de dispositivos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Device Update logs and files
+ms:assetid: f7f822b8-0a62-4ff2-a4cb-1ab1ed7503eb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994090(v=OCS.15)
+ms:contentKeyID: 51804004
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5a5b5e39f7720ac5c148a0d3d36a230d1cf4aa3e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835428"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Archivos y registros de actualización de dispositivos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="device-update-logs-and-files-in-lync-server-2013"></a>Registros y archivos de actualización de dispositivos en Lync Server 2013
 
-Los registros de actualización de dispositivos contienen información importante que se puede usar para administrar Servicio web de actualización de dispositivos y solucionar los problemas relacionados. Se puede cambiar el contenido de los registros, así como quitar registros y actualizaciones del dispositivo que ya no desee o no resulten necesarios. En esta sección se describe cómo usar Panel de control de Lync Server o Shell de administración de Lync Server para modificar la configuración de los registros, borrar el registro de actualización de dispositivos o quitar archivos de registro del servidor.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-02-20_
+
+Los registros de actualización de dispositivos contienen información importante que puede usar para administrar y solucionar problemas del servicio Web de actualización de dispositivos. Puede cambiar lo que se registra y quitar los registros y las actualizaciones de dispositivos que no desee o que ya no necesite. En esta sección se describe cómo puede usar el panel de control de Lync Server o el shell de administración de Lync Server para modificar la configuración de registro, borrar el registro de actualizaciones de dispositivos o quitar archivos de registro del servidor.
+
+<div>
 
 
-> [!NOTE]
-> Para más información sobre los archivos de registro de actualizaciones, vea <A href="http://technet.microsoft.com/es-es/library/gg398250(v=ocs.14).aspx">Tipos y ubicaciones de archivos de registro</A> en la biblioteca de TechNet de Lync Server 2010. Tenga en cuenta que Servicio web de actualización de dispositivos, al igual que todos los componentes de Lync Phone Edition, funciona igual con Lync Server 2013 que con Lync Server 2010.
+> [!NOTE]  
+> Para obtener más información sobre los archivos de registro de actualización de dispositivos, consulte <A href="http://technet.microsoft.com/en-us/library/gg398250(v=ocs.14).aspx">tipos y ubicaciones</A> de los archivos de registro en la biblioteca de TechNet de 2010 de Lync Server. (Tenga en cuenta que el servicio Web de actualización de dispositivos, como todos los componentes de Lync Phone Edition, funciona de la misma manera con Lync Server 2013 como lo hace con Lync Server 2010).
 
 
 
-## En esta sección
+</div>
 
-  - [Modificar la configuración de los archivos de registro de actualización de dispositivos](lync-server-2013-modify-settings-for-device-update-log-files.md)
+<div>
 
-  - [Eliminar los archivos de registro de actualización de dispositivos](lync-server-2013-delete-device-update-log-files.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Quitar los archivos de actualización de dispositivos que no estén asociados a un dispositivo](lync-server-2013-remove-device-update-files-not-associated-with-a-device.md)
+  - [Modificar la configuración de los archivos de registro de actualización de dispositivos en Lync Server 2013](lync-server-2013-modify-settings-for-device-update-log-files.md)
+
+  - [Eliminar archivos de registro de actualización de dispositivos en Lync Server 2013](lync-server-2013-delete-device-update-log-files.md)
+
+  - [Quitar los archivos de actualización de dispositivo no asociados con un dispositivo en quitar archivos de actualización de dispositivo no asociados con un dispositivo en Lync Server 2013](lync-server-2013-remove-device-update-files-not-associated-with-a-device.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,44 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Instalar el almacén de configuración local'
-TOCTitle: Instalar el almacén de configuración local
-ms:assetid: b563030d-d338-411f-9611-28d5eb4b3238
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412874(v=OCS.15)
-ms:contentKeyID: 48276420
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Instalar el almacén de configuración local'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install the Local Configuration store
+ms:assetid: b563030d-d338-411f-9611-28d5eb4b3238
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412874(v=OCS.15)
+ms:contentKeyID: 48185180
+ms.date: 06/28/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 135dedc38bbc24dd69dfd44b74c70db8e3397252
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834991"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalar el almacén de configuración local en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="install-the-local-configuration-store-in-lync-server-2013"></a>Instalar el almacén de configuración local en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2014-06-27_
 
-Antes de seguir estos pasos, asegúrese de que ha iniciado sesión en el servidor con una cuenta de usuario del dominio que sea administrador local y miembro del grupo RTCUniversalReadOnlyAdmins.
+Antes de seguir estos pasos, asegúrese de que ha iniciado sesión en el servidor con una cuenta de usuario de dominio que es un administrador local y un miembro del grupo RTCUniversalReadOnlyAdmin.
 
-Para poder hacer todo cualquier cosa con la Asistente para la implementación de Lync Server, tiene que existir el almacén de configuración local en el servidor. El almacén de configuración local es una copia de solo lectura del Almacén de administración central, que se crea después de la instalación local de SQL Server Express. El propio Almacén de administración central se agrega a la base de datos SQL Server existente instalada en la base de datos de Servidor Standard Edition o basada en SQL Server Express.
+Para poder hacer cualquier cosa con el Asistente para la implementación de Lync Server, necesitamos que el almacén de configuración local exista en un servidor. El almacén de configuración local es una copia de solo lectura del almacén de administración central, que se crea después de la instalación local de SQL Server Express. El almacén de administración central se agrega a la base de datos de SQL Server existente instalada en el servidor Standard Edition o en una base de datos basada en SQL Server Express.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Si no ha ejecutado la configuración de Lync Server 2013 en este servidor antes, se le pedirá una unidad y una ruta para instalar Lync Server 2013. Esto le permitirá instalarlo en una unidad diferente a la del sistema, si su organización lo requiere o si tiene problemas de espacio. Simplemente puede cambiar la ruta de ubicación de la instalación para los archivos de servidor Lync en el cuadro de diálogo Configuración. Si instala los archivos de instalación en esta ruta de acceso, incluido el archivo OCSCore.msi, el resto de los archivos de Lync Server 2013 se implementará también en esta unidad.
+> Si aún no ha ejecutado el programa de instalación de Lync Server 2013 en este servidor, se le pedirá una unidad y una ruta de acceso para instalar Lync Server 2013 en. Esto le permitirá instalar en una unidad distinta de la del sistema, si su organización lo requiere, o si tiene problemas de espacio. Puede cambiar la ruta de acceso de la ubicación de instalación de los archivos de Lync Server en el cuadro de diálogo de configuración a una nueva unidad disponible. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Lync Server 2013 se implementarán también.
 
 
 
-## Para instalar el almacén de configuración local
+</div>
 
-1.  En el disco de instalación, vaya a \\setup\\amd64\\Setup.exe y haga clic en **Aceptar**.
+<div>
 
-2.  Si se le pide que instale Microsoft Visual C++ 2008 distribuible, haga clic en **Sí**.
+## <a name="to-install-the-local-configuration-store"></a>Para instalar el almacén de configuración local
 
-3.  En la página **Lync Server 2013Ubicación de la instalación**, haga clic en **Aceptar**.
+1.  Desde los medios de instalación, vaya \\a\\instalar\\AMD64 Setup. exe y haga clic en **Aceptar**.
 
-4.  En la página **Contrato de licencia para el usuario final**, lea los términos de la licencia, tendrá que seleccionar **Acepto los términos del contrato de licencia** y luego haga clic en **Aceptar** para continuar.
+2.  Si se le pide que instale el paquete redistribuible de Microsoft Visual C++ 2012, haga clic en **sí**.
 
-5.  En la página del asistente para la implementación, haga clic en **Instalar o actualizar el sistema Lync Server** .
+3.  En la página **Ubicación de instalación de Lync Server 2013** , haga clic en **Aceptar**.
 
-6.  En la página **Lync Server 2013**, junto a **Paso 1: Instalar almacén de configuración local**, haga clic en **Ejecutar**.
+4.  En la página contrato de licencia para el **usuario final** , revise los términos de licencia, deberá seleccionar **acepto las condiciones del contrato de licencia**y, a continuación, hacer clic en **Aceptar** para poder continuar.
 
-7.  En la página **Instalar almacén de configuración local**, asegúrese de que la opción **Recuperar directamente del Almacén de administración central** está seleccionada y luego haga clic en **Siguiente**.
+5.  En la página Asistente para la implementación, haga clic en **instalar o actualizar el sistema de Lync Server**.
 
-8.  Una vez completado el proceso de instalación de configuración del servidor local, debe hacer clic en **Finalizar**.
+6.  En la página de **Lync Server 2013** , junto a **STEP1: instalar el almacén de configuración local**, haga clic en **Ejecutar**.
+
+7.  En la página **Instalar almacén de configuración local**, asegúrese de que la opción **Recuperar directamente del Almacén de administración central** esté seleccionada y luego haga clic en **Siguiente**.
+
+8.  Cuando la instalación de configuración del servidor local haya finalizado, haga clic en **Finalizar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
