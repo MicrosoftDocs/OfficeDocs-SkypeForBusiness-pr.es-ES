@@ -1,46 +1,88 @@
-﻿---
-title: Quitar un grupo de servidores front-end o un servidor Standard Edition
-TOCTitle: Quitar un grupo de servidores front-end o un servidor Standard Edition
-ms:assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688115(v=OCS.15)
-ms:contentKeyID: 49889357
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Quitar un grupo de servidores front-end o servidor Standard Edition
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove Front End pool or Standard Edition server
+ms:assetid: 83c39a36-49a1-4ac6-9cc5-b0e441b1fdec
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688115(v=OCS.15)
+ms:contentKeyID: 49733713
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a5a3b08d6e8b4f0b792063b19a47889de11283c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849866"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Quitar un grupo de servidores front-end o un servidor Standard Edition
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-04_
+# <a name="remove-front-end-pool-or-standard-edition-server"></a><span data-ttu-id="bbb44-102">Quitar un grupo de servidores front-end o servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="bbb44-102">Remove Front End pool or Standard Edition server</span></span>
 
-Este tema lo guiará por el proceso de eliminar un Grupo de servidores front-end o un Servidor front-end Standard Edition. Cuando elimina un Grupo de servidores front-end, elimina los Servidor front-end que pertenece al grupo como parte del proceso de eliminación de grupo. Cuando elimina un Servidor front-end Standard Edition, debe eliminar la definición del almacén SQL de Generador de topologías.
+</div>
 
-## Para eliminar un grupo de servidores Front End
+<div id="mainSection">
 
-1.  Abra Generador de topologías.
+<div id="mainBody">
 
-2.  Desplácese hasta el nodo de Lync Server 2010.
+<span> </span>
 
-3.  Amplíe **Grupos de servidores front-end Enterprise Edition** , amplíe el Grupo de servidores front-end, haga clic con el botón secundario en el Grupo de servidores front-end que desea eliminar y luego haga clic en **Eliminar** .
+<span data-ttu-id="bbb44-103">_**Última modificación del tema:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="bbb44-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-4.  Publique la topología, compruebe el estado de replicación y después ejecute el Asistente para la implementación de Lync Server según sea necesario.
+<span data-ttu-id="bbb44-104">Este tema le guiará a través del proceso de eliminación de un grupo de servidores front-end o de un servidor front-end Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="bbb44-104">This topic guides you through the process of removing a Front End pool or a Standard Edition Front End Server.</span></span> <span data-ttu-id="bbb44-105">Al quitar un grupo de servidores front-end, se quita cada servidor front-end que pertenece al grupo como parte del proceso de eliminación de la agrupación.</span><span class="sxs-lookup"><span data-stu-id="bbb44-105">When you remove a Front End pool, you remove each Front End Server that belongs to the pool as a part of the pool removal process.</span></span> <span data-ttu-id="bbb44-106">Al quitar un servidor front-end Standard Edition, debe quitar la definición de la tienda SQL del generador de topología.</span><span class="sxs-lookup"><span data-stu-id="bbb44-106">When you remove a Standard Edition Front End Server, you must remove the SQL Store definition from Topology Builder.</span></span>
 
-## Para eliminar un servidor Front End Standard Edition
+<div>
 
-1.  Abra Generador de topologías.
+## <a name="to-remove-a-front-end-server-pool"></a><span data-ttu-id="bbb44-107">Para quitar un grupo de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="bbb44-107">To remove a Front End Server pool</span></span>
 
-2.  Desplácese hasta el nodo de Lync Server 2010.
+1.  <span data-ttu-id="bbb44-108">Abra el generador de topologías.</span><span class="sxs-lookup"><span data-stu-id="bbb44-108">Open Topology Builder.</span></span>
 
-3.  Amplíe **Servidores front-end Standard Edition** , haga clic con el botón secundario en el Servidor front-end que desea eliminar y luego haga clic en **Eliminar** .
+2.  <span data-ttu-id="bbb44-109">Vaya al nodo de 2010 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="bbb44-109">Navigate to the Lync Server 2010 node.</span></span>
 
-4.  Amplíe **Almacenes SQL** , haga clic con el botón secundario en la base de datos SQL Server asociada con el Servidor front-end Standard Edition y luego haga clic en **Eliminar** .
+3.  <span data-ttu-id="bbb44-110">Expanda agrupaciones **front end de Enterprise Edition**, expanda el grupo de servidores front-end, haga clic con el botón secundario en el grupo de servidores front-end que desee quitar y, a continuación, haga clic en **eliminar**.</span><span class="sxs-lookup"><span data-stu-id="bbb44-110">Expand **Enterprise Edition Front End pools**, expand the Front End pool, right-click the Front End pool that you want to remove, and then click **Delete**.</span></span>
+
+4.  <span data-ttu-id="bbb44-111">Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Asistente para la implementación de Lync Server según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="bbb44-111">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-remove-a-standard-edition-front-end-server"></a><span data-ttu-id="bbb44-112">Para quitar un servidor front-end Standard Edition</span><span class="sxs-lookup"><span data-stu-id="bbb44-112">To remove a Standard Edition Front End server</span></span>
+
+1.  <span data-ttu-id="bbb44-113">Abra el generador de topologías.</span><span class="sxs-lookup"><span data-stu-id="bbb44-113">Open Topology Builder.</span></span>
+
+2.  <span data-ttu-id="bbb44-114">Vaya al nodo de 2010 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="bbb44-114">Navigate to the Lync Server 2010 node.</span></span>
+
+3.  <span data-ttu-id="bbb44-115">Expanda **servidores front-end Standard Edition**, haga clic con el botón secundario en el servidor front-end que desee quitar y, a continuación, haga clic en **eliminar**.</span><span class="sxs-lookup"><span data-stu-id="bbb44-115">Expand **Standard Edition Front End servers**, right-click the Front End Server that you want to remove, and then click **Delete**.</span></span>
+
+4.  <span data-ttu-id="bbb44-116">Expanda **almacenes SQL**, haga clic con el botón secundario en la base de datos de SQL Server asociada al servidor front-end Standard Edition y, después, haga clic en **eliminar**.</span><span class="sxs-lookup"><span data-stu-id="bbb44-116">Expand **SQL stores**, right-click the SQL Server database that is associated with the Standard Edition Front End Server, and then click **Delete**.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Debe eliminar la definición de las bases de datos SQL Server colocadas del Servidor front-end Standard Edition.
+    > <span data-ttu-id="bbb44-117">Debe quitar la definición de las bases de datos de SQL Server en el servidor front-end Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="bbb44-117">You must remove the definition of the collocated SQL Server databases from the Standard Edition Front End Server.</span></span>
+
     
+    </div>
 
+5.  <span data-ttu-id="bbb44-118">Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Asistente para la implementación de Lync Server según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="bbb44-118">Publish the topology, check replication status, and then run the Lync Server Deployment Wizard as needed.</span></span>
 
-5.  Publique la topología, compruebe el estado de replicación y después ejecute el Asistente para la implementación de Lync Server según sea necesario.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

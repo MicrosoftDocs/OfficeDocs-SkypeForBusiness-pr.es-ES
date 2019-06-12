@@ -1,47 +1,81 @@
-﻿---
-title: 'Fase 7: Completar tareas posteriores a la migración'
-TOCTitle: 'Fase 7: Completar tareas posteriores a la migración'
-ms:assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204998(v=OCS.15)
-ms:contentKeyID: 48275613
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Fase 7: Finalización de las tareas posteriores a la migración'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 7: Complete post-migration tasks'
+ms:assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204998(v=OCS.15)
+ms:contentKeyID: 48184485
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8208f2e42fb05532820d72bb89eb69d0ee2f8c9b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849891"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fase 7: Completar tareas posteriores a la migración
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-19_
+# <a name="phase-7-complete-post-migration-tasks"></a><span data-ttu-id="725ae-102">Fase 7: Finalización de las tareas posteriores a la migración</span><span class="sxs-lookup"><span data-stu-id="725ae-102">Phase 7: Complete post-migration tasks</span></span>
 
-En los temas de esta sección se describen las tareas que necesitará realizar después de haber finalizado la migración a Lync Server 2013.
+</div>
 
-## En esta sección
+<div id="mainSection">
 
-  - [Migrar las reuniones y el contenido de reuniones existentes](migrate-existing-meetings-and-meeting-content.md)
+<div id="mainBody">
 
-  - [Migrar números de acceso telefónico local](migrate-dial-in-access-numbers.md)
+<span> </span>
 
-  - [Migrar la configuración de la aplicación de estacionamiento de llamadas](migrate-call-park-application-settings.md)
+<span data-ttu-id="725ae-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="725ae-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-  - [Migrar grupos de respuesta](migrate-response-groups.md)
+<span data-ttu-id="725ae-104">En los temas de esta sección se describen las tareas que tendrá que realizar después de completar la migración a Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="725ae-104">The topics in this section describe tasks that you will need to perform after you have completed your migration to Lync Server 2013.</span></span>
 
-  - [Migrar libreta de direcciones](migrate-address-book.md)
+<div>
 
-  - [Configurar la página de participación en la reunión](configure-the-meeting-join-page.md)
+## <a name="in-this-section"></a><span data-ttu-id="725ae-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="725ae-105">In This Section</span></span>
 
-  - [Quitar servidores de archivado y de supervisión heredados](remove-legacy-archiving-and-monitoring-servers.md)
+  - [<span data-ttu-id="725ae-106">Migración de reuniones existentes y contenido de reuniones</span><span class="sxs-lookup"><span data-stu-id="725ae-106">Migrate existing meetings and meeting content</span></span>](migrate-existing-meetings-and-meeting-content.md)
 
-  - [Configurar servidores de aplicaciones de confianza](configure-trusted-application-servers.md)
+  - [<span data-ttu-id="725ae-107">Migrar los números de acceso telefónico</span><span class="sxs-lookup"><span data-stu-id="725ae-107">Migrate dial-in access numbers</span></span>](migrate-dial-in-access-numbers.md)
 
-  - [Implementar clientes de Lync Server 2013](deploy-lync-server-2013-clients.md)
+  - [<span data-ttu-id="725ae-108">Migrar la configuración de la aplicación de estacionamiento de llamadas</span><span class="sxs-lookup"><span data-stu-id="725ae-108">Migrate Call Park application settings</span></span>](migrate-call-park-application-settings.md)
 
-  - [Conectar una aplicación de sucursal con funciones de supervivencia](connect-a-survivable-branch-appliance.md)
+  - [<span data-ttu-id="725ae-109">Migrar grupos de respuesta</span><span class="sxs-lookup"><span data-stu-id="725ae-109">Migrate response groups</span></span>](migrate-response-groups.md)
 
-  - [Configurar la supervisión SCOM](configure-scom-monitoring.md)
+  - [<span data-ttu-id="725ae-110">Migrar la libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="725ae-110">Migrate Address Book</span></span>](migrate-address-book.md)
 
-  - [Migrar teléfonos de área común](migrate-common-area-phones.md)
+  - [<span data-ttu-id="725ae-111">Configurar la página para unirse a la reunión</span><span class="sxs-lookup"><span data-stu-id="725ae-111">Configure the meeting join page</span></span>](configure-the-meeting-join-page.md)
 
-  - [Migrar dispositivos analógicos](migrate-analog-devices.md)
+  - [<span data-ttu-id="725ae-112">Quitar los servidores de archivado y supervisión heredados</span><span class="sxs-lookup"><span data-stu-id="725ae-112">Remove legacy Archiving and Monitoring servers</span></span>](remove-legacy-archiving-and-monitoring-servers.md)
+
+  - [<span data-ttu-id="725ae-113">Configurar servidores de aplicaciones de confianza</span><span class="sxs-lookup"><span data-stu-id="725ae-113">Configure trusted application servers</span></span>](configure-trusted-application-servers.md)
+
+  - [<span data-ttu-id="725ae-114">Implementar clientes de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="725ae-114">Deploy Lync Server 2013 clients</span></span>](deploy-lync-server-2013-clients.md)
+
+  - [<span data-ttu-id="725ae-115">Conectar una aplicación de sucursal con funciones de supervivencia</span><span class="sxs-lookup"><span data-stu-id="725ae-115">Connect a Survivable Branch Appliance</span></span>](connect-a-survivable-branch-appliance.md)
+
+  - [<span data-ttu-id="725ae-116">Configurar la supervisión SCOM</span><span class="sxs-lookup"><span data-stu-id="725ae-116">Configure SCOM monitoring</span></span>](configure-scom-monitoring.md)
+
+  - [<span data-ttu-id="725ae-117">Migrar teléfonos de área común</span><span class="sxs-lookup"><span data-stu-id="725ae-117">Migrate Common Area Phones</span></span>](migrate-common-area-phones.md)
+
+  - [<span data-ttu-id="725ae-118">Migrar dispositivos analógicos</span><span class="sxs-lookup"><span data-stu-id="725ae-118">Migrate analog devices</span></span>](migrate-analog-devices.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,48 +1,82 @@
-﻿---
-title: 'Lync Server 2013: Configuración de federación de Lync'
-TOCTitle: Configuración de federación de Lync
-ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204800(v=OCS.15)
-ms:contentKeyID: 48274939
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configuración de federación de Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Lync federation
+ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204800(v=OCS.15)
+ms:contentKeyID: 48183822
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe6dc0a2aeb39c86db54d21a2c4be5ff6c5be599
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850653"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de federación de Lync en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="setting-up-lync-federation-in-lync-server-2013"></a><span data-ttu-id="42aae-102">Configuración de federación de Lync en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="42aae-102">Setting up Lync federation in Lync Server 2013</span></span>
 
-Si ya ha implementado los servidores perimetrales, la adición de las características de los escenarios federados será sencilla. Si no ha configurado los servidores perimetrales, debe hacerlo primero. Para obtener más información, vea: [Planear acceso de usuarios externos en Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) en la documentación sobre planeación y [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación sobre implementación.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="42aae-103">_**Última modificación del tema:** 2014-03-27_</span><span class="sxs-lookup"><span data-stu-id="42aae-103">_**Topic Last Modified:** 2014-03-27_</span></span>
+
+<span data-ttu-id="42aae-104">Si ya ha implementado el servidor o servidores perimetrales, agregue las características de escenarios federados hacia delante.</span><span class="sxs-lookup"><span data-stu-id="42aae-104">If you have already deployed you Edge server or servers, adding the federated scenarios features is straight forward.</span></span> <span data-ttu-id="42aae-105">Si no ha configurado servidores perimetrales, debe hacerlo primero.</span><span class="sxs-lookup"><span data-stu-id="42aae-105">If you have not set up Edge Servers, you must do that first.</span></span> <span data-ttu-id="42aae-106">Para obtener más información, vea: [planificación para el acceso de usuarios externos en Lync server 2013](lync-server-2013-planning-for-external-user-access.md) en la documentación de planeación e [implementación de acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="42aae-106">For details, see: [Planning for external user access in Lync Server 2013](lync-server-2013-planning-for-external-user-access.md) in the Planning documentation and [Deploying external user access in Lync Server 2013](lync-server-2013-deploying-external-user-access.md) in the Deployment documentation.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Si va a configurar cualquier combinación de federación XMPP, federación de Lync o conectividad de mensajería instantánea pública, puede implementarlas simultáneamente o una cada vez. Si configura las opciones mediante el generador de topologías y el Shell de administración de Lync Server, y después ejecuta el asistente para la implementación en el servidor perimetral tras la configuración de las opciones de uno, dos o todos los tipos de federación, puede reducir el número de pasos necesarios.
+> [!NOTE]  
+> <span data-ttu-id="42aae-107">Si pretende configurar cualquier combinación de Federación de XMPP, Federación de Lync o conectividad de mensajería instantánea pública, puede implementarla de forma simultánea o una por vez.</span><span class="sxs-lookup"><span data-stu-id="42aae-107">If you intend to setup any combination of XMPP federation, Lync Federation, or public instant messaging connectivity, you can deploy them concurrently or one at a time.</span></span> <span data-ttu-id="42aae-108">Si configura las opciones mediante el generador de topología y el shell de administración de Lync Server, ejecute el Asistente de implementación en el servidor perimetral después de configurar las opciones para uno, dos o tres tipos de Federación, puede reducir el número de pasos necesarios.</span><span class="sxs-lookup"><span data-stu-id="42aae-108">If you configure the options through the Topology Builder and the Lync Server Management shell, then run the Deployment Wizard at the Edge server after configuring the options for one, two or all three federation types, you can reduce the number of steps required.</span></span>
 
 
 
-## Configuración de la federación de Lync en el Generador de topologías y en el Asistente para la implementación
+</div>
 
-1.  En un servidor front-end, abra el Generador de topologías. Expanda los Grupos de servidores perimetrales y, a continuación, haga clic con el botón secundario en Servidor perimetral o Grupo de servidores perimetrales. Seleccione Editar propiedades.
+<div>
 
-2.  En Editar propiedades en General, seleccione Habilitar federación para este grupo de servidores perimetrales (Puerto 5061). Haga clic en Aceptar.
+## <a name="setting-up-lync-federation-in-topology-builder-and-the-deployment-wizard"></a><span data-ttu-id="42aae-109">Configurar la Federación de Lync en el generador de topología y el Asistente para la implementación</span><span class="sxs-lookup"><span data-stu-id="42aae-109">Setting Up Lync Federation in Topology Builder and the Deployment Wizard</span></span>
 
-3.  Haga clic en Acción, seleccione Topología y, finalmente, Publicar. Cuando se le solicite en Publicar la topología, seleccione Siguiente. Una vez completado el proceso de publicación, haga clic en Finalizar.
+1.  <span data-ttu-id="42aae-110">En un servidor front-end, abra Topology Builder.</span><span class="sxs-lookup"><span data-stu-id="42aae-110">On a Front End server, open Topology Builder.</span></span> <span data-ttu-id="42aae-111">Expanda agrupaciones perimetrales y haga clic con el botón derecho en el servidor perimetral o en el grupo de servidores perimetrales.</span><span class="sxs-lookup"><span data-stu-id="42aae-111">Expand Edge pools, then right click your Edge server or Edge server pool.</span></span> <span data-ttu-id="42aae-112">Seleccione Editar propiedades.</span><span class="sxs-lookup"><span data-stu-id="42aae-112">Select Edit properties.</span></span>
 
-4.  En el servidor perimetral, abra el asistente para la implementación de Lync Server. Haga clic en Instalar o en Actualizar Lync Server System y, a continuación, en Instalar o desinstalar componentes de Lync Server. Haga clic en Ejecutar nuevamente.
+2.  <span data-ttu-id="42aae-113">En propiedades de edición, en general, seleccione Habilitar Federación para este grupo perimetral (puerto 5061).</span><span class="sxs-lookup"><span data-stu-id="42aae-113">In Edit Properties under General, select Enable federation for this Edge pool (Port 5061).</span></span> <span data-ttu-id="42aae-114">Haga clic en Aceptar.</span><span class="sxs-lookup"><span data-stu-id="42aae-114">Click OK.</span></span>
 
-5.  En Instalar componentes de Lync Server, haga clic en Siguiente. La pantalla de resumen mostrará las acciones a medida que se ejecuten. Una vez finalizada la implementación, haga clic en Ver registro para ver los archivos de registro disponibles. Haga clic en Finalizar para completar la implementación.
+3.  <span data-ttu-id="42aae-115">Haga clic en acción, seleccione topología, seleccione publicar.</span><span class="sxs-lookup"><span data-stu-id="42aae-115">Click Action, select Topology, select Publish.</span></span> <span data-ttu-id="42aae-116">Cuando se le solicite al publicar la topología, haga clic en siguiente.</span><span class="sxs-lookup"><span data-stu-id="42aae-116">When prompted on Publish the topology, click Next.</span></span> <span data-ttu-id="42aae-117">Una vez finalizada la publicación, haga clic en finalizar.</span><span class="sxs-lookup"><span data-stu-id="42aae-117">When the Publish is finished, click Finish.</span></span>
+
+4.  <span data-ttu-id="42aae-118">En el servidor perimetral, abra el Asistente para la implementación de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="42aae-118">On the Edge server, open the Lync Server Deployment wizard.</span></span> <span data-ttu-id="42aae-119">Haga clic en instalar o actualizar el sistema Lync Server y, a continuación, haga clic en configurar o quitar los componentes de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="42aae-119">Click Install or Update Lync Server System, then click Setup or Remove Lync Server Components.</span></span> <span data-ttu-id="42aae-120">Vuelva a hacer clic en ejecutar.</span><span class="sxs-lookup"><span data-stu-id="42aae-120">Click Run Again.</span></span>
+
+5.  <span data-ttu-id="42aae-121">En instalación de los componentes de Lync Server, haga clic en siguiente.</span><span class="sxs-lookup"><span data-stu-id="42aae-121">At Setup Lync Server components, click Next.</span></span> <span data-ttu-id="42aae-122">La pantalla resumen mostrará las acciones a medida que se ejecutan.</span><span class="sxs-lookup"><span data-stu-id="42aae-122">The summary screen will show actions as they are executed.</span></span> <span data-ttu-id="42aae-123">Una vez que haya finalizado la implementación, haga clic en Ver registro para ver los archivos de registro disponibles.</span><span class="sxs-lookup"><span data-stu-id="42aae-123">Once the deployment is done, click View Log to view available log files.</span></span> <span data-ttu-id="42aae-124">Haga clic en finalizar para completar la implementación.</span><span class="sxs-lookup"><span data-stu-id="42aae-124">Click Finish to complete the deployment.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Puede seleccionar esta opción, pero solo se puede publicar externamente para la federación un servidor perimetral o un grupo de servidores perimetrales de su organización. Cualquier acceso de usuarios federados, incluidos los usuarios de mensajería instantánea pública, se realiza a través del mismo grupo de servidores perimetrales o de un único servidor perimetral. Por ejemplo, si la implementación incluye un grupo de servidores perimetrales o un único servidor perimetral implementado en Nueva York y otro implementado en Londres y habilita la compatibilidad con la federación en el grupo de servidores o el servidor perimetral único de Nueva York, el tráfico de señales de los usuarios federados se realizará a través del grupo de servidores perimetrales o el servidor perimetral único de Nueva York. Esto ocurre incluso para las comunicaciones con los usuarios de Londres, aunque un usuario interno de Londres que llama a un usuario federado de Londres use el grupo de servidores o el servidor perimetral de Londres para el tráfico de audio y vídeo.
+    > <span data-ttu-id="42aae-125">Puede seleccionar esta opción, pero solo se puede publicar externamente un grupo perimetral o un servidor perimetral en su organización para la Federación.</span><span class="sxs-lookup"><span data-stu-id="42aae-125">You can select this option, but only one Edge pool or Edge Server in your organization can be published externally for federation.</span></span> <span data-ttu-id="42aae-126">Todo el acceso de usuarios federados, incluidos los usuarios de mensajería instantánea (mi) pública, con el mismo grupo perimetral o servidor de borde único.</span><span class="sxs-lookup"><span data-stu-id="42aae-126">All access by federated users, including public instant messaging (IM) users, go through the same Edge pool or single Edge Server.</span></span> <span data-ttu-id="42aae-127">Por ejemplo, si la implementación incluye un grupo perimetral o un solo servidor perimetral implementado en Nueva York y uno implementado en Londres y habilita la compatibilidad con la Federación en el grupo de servidores perimetrales de Nueva York o en el único servidor de borde, la señal de tráfico para usuarios federados pasará por la Nueva York. Grupo Edge o servidor perimetral único.</span><span class="sxs-lookup"><span data-stu-id="42aae-127">For example, if your deployment includes an Edge pool or single Edge Server deployed in New York and one deployed in London and you enable federation support on the New York Edge pool or single Edge Server, signal traffic for federated users will go through the New York Edge pool or single Edge Server.</span></span> <span data-ttu-id="42aae-128">Esto es así incluso para las comunicaciones con usuarios de Londres, aunque un usuario interno de Londres que llame a un usuario federado de Londres usa el grupo de servidores o el servidor perimetral de Londres para el tráfico A/V.</span><span class="sxs-lookup"><span data-stu-id="42aae-128">This is true even for communications with London users, although a London internal user calling a London federated user uses the London pool or Edge Server for A/V traffic.</span></span>
+
     
+    </div>
 
+</div>
 
-## Configuración de la federación con socios
+<div>
 
-1.  Para configurar correctamente una federación con otro Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 o Office Communicator 2007, seleccione el tipo de federación de la tabla siguiente y defina los registros DNS SRV, el host DNS (A o AAAA para IPv6) y configure las directivas aplicables al tipo de federación:
+## <a name="configuring-federation-with-partners"></a><span data-ttu-id="42aae-129">Configurar la Federación con socios</span><span class="sxs-lookup"><span data-stu-id="42aae-129">Configuring Federation with Partners</span></span>
+
+1.  <span data-ttu-id="42aae-130">Para configurar una Federación correcta con otro Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2 u Office Communicator 2007, seleccione el tipo de Federación de la tabla siguiente y defina los registros SRV de DNS, el host DNS (A o AAAA para IPv6) y configurar directivas aplicables al tipo de Federación:</span><span class="sxs-lookup"><span data-stu-id="42aae-130">To setup a successful federation with another Microsoft Lync Server 2013, Lync Server 2010, Office Communications Server 2007 R2, or Office Communicator 2007, select the type of federation from the following table and define DNS SRV records, DNS host (A or AAAA for IPv6) and configure policies applicable to the type of federation:</span></span>
     
     
     <table>
@@ -54,77 +88,100 @@ Si ya ha implementado los servidores perimetrales, la adición de las caracterí
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Tipo de federación</th>
-    <th>Registros DNS</th>
-    <th>Definición de directiva</th>
-    <th>Notas</th>
+    <th><span data-ttu-id="42aae-131">Tipo de Federación</span><span class="sxs-lookup"><span data-stu-id="42aae-131">Federation type</span></span></th>
+    <th><span data-ttu-id="42aae-132">Registros DNS</span><span class="sxs-lookup"><span data-stu-id="42aae-132">DNS Records</span></span></th>
+    <th><span data-ttu-id="42aae-133">Definición de Directiva</span><span class="sxs-lookup"><span data-stu-id="42aae-133">Policy Definition</span></span></th>
+    <th><span data-ttu-id="42aae-134">Notas</span><span class="sxs-lookup"><span data-stu-id="42aae-134">Notes</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>Dominio de socio detectado</p></td>
-    <td><p>Configure el registro SRV con el formato _sipfederationtls._tcp.&lt;nombre del domino externo&gt;, donde el valor del puerto del registro SRV es TCP 5061 y el <strong>Host que ofrece este servicio</strong> está definido como sip. &lt;external domain name&gt; – FQDN de su Servidor perimetral de acceso. Vea <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para admitir servidores perimetrales en Lync Server 2013</a> para obtener detalles sobre la creación del registro SRV.</p></td>
+    <td><p><span data-ttu-id="42aae-135">Dominio de socio descubierto</span><span class="sxs-lookup"><span data-stu-id="42aae-135">Discovered Partner Domain</span></span></p></td>
+    <td><p><span data-ttu-id="42aae-136">Configure el registro SRV con el formato _sipfederationtls. _ TCP. &lt;nombre&gt;de dominio externo donde el valor del puerto para el registro SRV es TCP 5061 y el hospedador que <strong>ofrece este servicio</strong> se define como SIP.</span><span class="sxs-lookup"><span data-stu-id="42aae-136">Configure SRV record of the format _sipfederationtls._tcp.&lt;external domain name&gt;Where the port value for the SRV record is TCP 5061 and the <strong>Host offering this service</strong> is defined as sip.</span></span> <span data-ttu-id="42aae-137">&lt;nombre&gt; de dominio externo: el FQDN de su servicio perimetral de acceso.</span><span class="sxs-lookup"><span data-stu-id="42aae-137">&lt;external domain name&gt; – the FQDN of your Access Edge service.</span></span> <span data-ttu-id="42aae-138">Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</span><span class="sxs-lookup"><span data-stu-id="42aae-138">See <a href="lync-server-2013-configure-dns-for-edge-support.md">Configure DNS for edge support in Lync Server 2013</a> for details on creating the SRV record</span></span></p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Habilitar o deshabilitar la detección de socios de federación en Lync Server 2013</a></p></li>
+    <li><p><span data-ttu-id="42aae-139"><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="42aae-139"><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Enable or disable federation and public IM connectivity in Lync Server 2013</a></span></span></p></li>
+    <li><p><span data-ttu-id="42aae-140"><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Habilitar o deshabilitar la detección de socios de federación en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="42aae-140"><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Enable or disable discovery of federation partners in Lync Server 2013</a></span></span></p></li>
     </ul></td>
-    <td><p>En las versiones anteriores, este tipo de federación se conocía como <strong>Federación abierta mejorada</strong>. La creación del registro SRV es obligatoria para este tipo de federación y permite que otros socios puedan detectar su federación.</p></td>
+    <td><p><span data-ttu-id="42aae-141">Las versiones anteriores hacían referencia a este tipo de Federación como <strong>Federación mejorada abierta</strong>.</span><span class="sxs-lookup"><span data-stu-id="42aae-141">Previous versions referred to this type of federation as <strong>Open Enhanced Federation</strong>.</span></span> <span data-ttu-id="42aae-142">La creación del registro SRV es necesaria para este tipo de Federación y es permitir que otros socios descubran su Federación.</span><span class="sxs-lookup"><span data-stu-id="42aae-142">The creation of the SRV record is required for this type of federation and is to allow other partners to discover your federation.</span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Dominio de socio permitido</p></td>
-    <td><p>Configure el registro SRV con el formato _sipfederationtls._tcp.&lt;nombre del domino externo&gt;, donde el valor del puerto del registro SRV es TCP 5061 y el <strong>Host que ofrece este servicio</strong> está definido como sip. &lt;external domain name&gt; – FQDN de su Servidor perimetral de acceso. Vea <a href="lync-server-2013-configure-dns-for-edge-support.md">Configurar DNS para admitir servidores perimetrales en Lync Server 2013</a> para obtener detalles sobre la creación del registro SRV.</p></td>
+    <td><p><span data-ttu-id="42aae-143">Dominio asociado permitido</span><span class="sxs-lookup"><span data-stu-id="42aae-143">Allowed Partner Domain</span></span></p></td>
+    <td><p><span data-ttu-id="42aae-144">Configure el registro SRV con el formato _sipfederationtls. _ TCP. &lt;nombre&gt;de dominio externo donde el valor del puerto para el registro SRV es TCP 5061 y el hospedador que <strong>ofrece este servicio</strong> se define como SIP.</span><span class="sxs-lookup"><span data-stu-id="42aae-144">Configure SRV record of the format _sipfederationtls._tcp.&lt;external domain name&gt;Where the port value for the SRV record is TCP 5061 and the <strong>Host offering this service</strong> is defined as sip.</span></span> <span data-ttu-id="42aae-145">&lt;nombre&gt; de dominio externo: el FQDN de su servicio perimetral de acceso.</span><span class="sxs-lookup"><span data-stu-id="42aae-145">&lt;external domain name&gt; – the FQDN of your Access Edge service.</span></span> <span data-ttu-id="42aae-146">Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</span><span class="sxs-lookup"><span data-stu-id="42aae-146">See <a href="lync-server-2013-configure-dns-for-edge-support.md">Configure DNS for edge support in Lync Server 2013</a> for details on creating the SRV record</span></span></p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></p></li>
+    <li><p><span data-ttu-id="42aae-147"><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="42aae-147"><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Enable or disable federation and public IM connectivity in Lync Server 2013</a></span></span></p></li>
     </ul></td>
-    <td><p>En las versiones anteriores, este tipo de federación se conocía como <strong>Federación abierta mejorada</strong>. La creación del registro SRV es opcional para este tipo de federación y permite que otros socios puedan detectar su federación. Por ello, se trata de una <strong>Federación abierta mejorada</strong> o de un <strong>Dominio de socio detectado</strong>.</p></td>
+    <td><p><span data-ttu-id="42aae-148">Las versiones anteriores hacían referencia a este tipo de Federación como <strong>Federación mejorada</strong>.</span><span class="sxs-lookup"><span data-stu-id="42aae-148">Previous versions referred to this type of federation as <strong>Enhanced Federation</strong>.</span></span> <span data-ttu-id="42aae-149">La creación del registro SRV es opcional para este tipo de Federación y es permitir que otros socios descubran su Federación.</span><span class="sxs-lookup"><span data-stu-id="42aae-149">The creation of the SRV record is optional for this type of federation and is to allow other partners to discover your federation.</span></span> <span data-ttu-id="42aae-150">Por supuesto, esta es una <strong>Federación mejorada abierta</strong>o un <strong>dominio de socio descubierto</strong></span><span class="sxs-lookup"><span data-stu-id="42aae-150">Of course, this is then an <strong>Open Enhanced Federation</strong>, or <strong>Discovered Partner Domain</strong></span></span></p></td>
     </tr>
     <tr class="odd">
-    <td><p>Servidor de socio permitido</p></td>
-    <td><p>Configure el nombre de dominio SIP y el FQDN del Servidor perimetral del socio como un socio de federación en las directivas.</p></td>
+    <td><p><span data-ttu-id="42aae-151">Servidor asociado permitido</span><span class="sxs-lookup"><span data-stu-id="42aae-151">Allowed Partner Server</span></span></p></td>
+    <td><p><span data-ttu-id="42aae-152">Configurar el nombre de dominio SIP y el FQDN del servidor perimetral asociado como un asociado de Federación en las directivas</span><span class="sxs-lookup"><span data-stu-id="42aae-152">Configure the SIP domain name and the partner Edge Server FQDN as a federation partner in Policies</span></span></p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configurar la compatibilidad con dominios externos permitidos en Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configurar la compatibilidad con dominios externos bloqueados en Lync Server 2013</a></p></li>
+    <li><p><span data-ttu-id="42aae-153"><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="42aae-153"><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Enable or disable federation and public IM connectivity in Lync Server 2013</a></span></span></p></li>
+    <li><p><span data-ttu-id="42aae-154"><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configurar la compatibilidad con dominios externos permitidos en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="42aae-154"><a href="lync-server-2013-configure-support-for-allowed-external-domains.md">Configure support for allowed external domains in Lync Server 2013</a></span></span></p></li>
+    <li><p><span data-ttu-id="42aae-155"><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configurar la compatibilidad con dominios externos bloqueados en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="42aae-155"><a href="lync-server-2013-configure-support-for-blocked-external-domains.md">Configure support for blocked external domains in Lync Server 2013</a></span></span></p></li>
     </ul></td>
-    <td><p>Este tipo de federación es la definición de una relación unilateral y no permite la detección de otros socios de federación. Cada socio de federación está configurado específicamente. En versiones anteriores, esto se conocía como <strong>Federación directa</strong>.</p></td>
+    <td><p><span data-ttu-id="42aae-156">Este tipo de Federación es la definición de una relación de uno a uno y no permite la detección de otros socios de Federación.</span><span class="sxs-lookup"><span data-stu-id="42aae-156">This federation type is the definition of a one to one relationship and does not allow for discovery of other federation partners.</span></span> <span data-ttu-id="42aae-157">Cada socio de Federación está configurado de forma explícita.</span><span class="sxs-lookup"><span data-stu-id="42aae-157">Each federation partner is configured explicitly.</span></span> <span data-ttu-id="42aae-158">En versiones anteriores, esto se conocía como <strong>Federación directa</strong></span><span class="sxs-lookup"><span data-stu-id="42aae-158">In previous versions, this was known as <strong>Direct Federation</strong></span></span></p></td>
     </tr>
     <tr class="even">
-    <td><p>Proveedor de hospedaje y proveedor de MI pública</p></td>
-    <td><p>No son necesarios requisitos de DNS específicos para este tipo de federación.</p></td>
+    <td><p><span data-ttu-id="42aae-159">Proveedor de hospedaje y proveedor de mensajería instantánea pública</span><span class="sxs-lookup"><span data-stu-id="42aae-159">Hosting Provider and Public IM Provider</span></span></p></td>
+    <td><p><span data-ttu-id="42aae-160">No se han definido requisitos DNS específicos para este tipo de Federación</span><span class="sxs-lookup"><span data-stu-id="42aae-160">No specific DNS requirements are defined for this type of federation</span></span></p></td>
     <td><ul>
-    <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Crear o editar proveedores federados de SIP públicos en Lync Server 2013</a></p></li>
-    <li><p><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Crear o editar proveedores federados de SIP hospedados en Lync Server 2013</a></p></li>
+    <li><p><span data-ttu-id="42aae-161"><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="42aae-161"><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Enable or disable federation and public IM connectivity in Lync Server 2013</a></span></span></p></li>
+    <li><p><span data-ttu-id="42aae-162"><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Crear o editar proveedores federados de SIP públicos en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="42aae-162"><a href="lync-server-2013-create-or-edit-public-sip-federated-providers.md">Create or edit public SIP federated providers in Lync Server 2013</a></span></span></p></li>
+    <li><p><span data-ttu-id="42aae-163"><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Crear o editar proveedores federados de SIP hospedados en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="42aae-163"><a href="lync-server-2013-create-or-edit-hosted-sip-federated-providers.md">Create or edit hosted SIP federated providers Lync Server 2013</a></span></span></p></li>
     </ul></td>
-    <td><p>Este tipo de federación define los servicios y proveedores de hospedaje que desea configurar para sus usuarios. Suele usarse para la configuración de proveedores de MI pública como, por ejemplo, Windows Live Messenger, Yahoo! y AOL, así como para el hospedaje de proveedores como, por ejemplo, Lync Online y Office 365.</p>
-    
+    <td><p><span data-ttu-id="42aae-164">Este tipo de Federación define los servicios y proveedores de hospedaje que desea configurar para los usuarios.</span><span class="sxs-lookup"><span data-stu-id="42aae-164">This federation type defines services and hosting providers that you want to configure for your users.</span></span> <span data-ttu-id="42aae-165">Los usos típicos incluyen la configuración de proveedores de mensajería instantánea pública, como Windows Live Messenger, Yahoo!</span><span class="sxs-lookup"><span data-stu-id="42aae-165">Typical uses include configuration for public IM providers like Windows Live Messenger, Yahoo!</span></span> <span data-ttu-id="42aae-166">y AOL, así como los proveedores de hospedaje, como Lync Online y Office 365</span><span class="sxs-lookup"><span data-stu-id="42aae-166">and AOL, as well as hosting providers such as Lync Online and Office 365</span></span></p>
+    <div>
+
     > [!IMPORTANT]  
-	> <ul>
-    > <li><p>El 1 de septiembre de 2012, la licencia de suscripción del usuario de Public IM Connectivity de Microsoft Lync (&quot;PIC USL&quot;) dejó de estar disponible para su compra en los contratos nuevos y en las prórrogas de contratos. Los clientes que tengan licencias activas podrán seguir federándose con Yahoo! Messenger hasta la fecha de cierre del servicio. La fecha anunciada para el fin de vida de AOL y Yahoo! es junio de 2014. Para más detalles, vea <a href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Soporte para la conectividad de mensajería instantánea pública en Lync Server 2013</a>.</p></li>
-    > <li><p>PIC USL es una licencia de suscripción por usuario/por mes requerida por Lync Server u Office Communications Server para la federación con Yahoo! Messenger. La posibilidad de Microsoft de proporcionar este servicio depende de la compatibilidad con Yahoo!, cuyo contrato subyacente está llegando a su fin.</p></li>
-    > <li><p>Hoy más que nunca, Lync es una herramienta eficaz para conectarse dentro de una organización y con individuos de todo el mundo. La federación con Windows Live Messenger no requiere ninguna licencia de usuario o dispositivo adicional aparte de la CAL estándar de Lync. La federación con Skype se agregará a esta lista, lo que permitirá a los usuarios de Lync conectarse con cientos de millones de personas a través de mensajería instantánea y voz.</p></li>
-    > </ul>
-	
-	</td>
+    > <UL>
+    > <LI>
+    > <P><span data-ttu-id="42aae-167">A partir del 1 de septiembre de 2012, la licencia de suscripción de usuario de conectividad de mensajería instantánea pública de Microsoft Lync ("PIC USL") ya no está disponible para la compra de contratos nuevos o de renovación.</span><span class="sxs-lookup"><span data-stu-id="42aae-167">As of September 1st, 2012, the Microsoft Lync Public IM Connectivity User Subscription License (“PIC USL”) is no longer available for purchase for new or renewing agreements.</span></span> <span data-ttu-id="42aae-168">Los clientes con licencias activas podrán seguir federando a Yahoo!</span><span class="sxs-lookup"><span data-stu-id="42aae-168">Customers with active licenses will be able to continue to federate with Yahoo!</span></span> <span data-ttu-id="42aae-169">Messenger hasta que se cierre la fecha del servicio.</span><span class="sxs-lookup"><span data-stu-id="42aae-169">Messenger until the service shut down date.</span></span> <span data-ttu-id="42aae-170">Una fecha de fin de vida de junio de 2014 para AOL y Yahoo!</span><span class="sxs-lookup"><span data-stu-id="42aae-170">An end of life date of June 2014 for AOL and Yahoo!</span></span> <span data-ttu-id="42aae-171">ha sido anunciado.</span><span class="sxs-lookup"><span data-stu-id="42aae-171">has been announced.</span></span> <span data-ttu-id="42aae-172">Para obtener más información, consulte <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">compatibilidad de la conectividad de mensajería instantánea pública en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="42aae-172">For details, see <A href="lync-server-2013-support-for-public-instant-messenger-connectivity.md">Support for public instant messenger connectivity in Lync Server 2013</A>.</span></span></P>
+    > <LI>
+    > <P><span data-ttu-id="42aae-173">El PIC USL es una licencia por usuario por mes de suscripción que es necesaria para que Lync Server o Office Communications Server se federe con Yahoo!</span><span class="sxs-lookup"><span data-stu-id="42aae-173">The PIC USL is a per-user per-month subscription license that is required for Lync Server or Office Communications Server to federate with Yahoo!</span></span> <span data-ttu-id="42aae-174">Mensajería.</span><span class="sxs-lookup"><span data-stu-id="42aae-174">Messenger.</span></span> <span data-ttu-id="42aae-175">La capacidad de Microsoft para proporcionar este servicio está supeditada al soporte de Yahoo!, el contrato subyacente para el que se está pospuesto.</span><span class="sxs-lookup"><span data-stu-id="42aae-175">Microsoft’s ability to provide this service has been contingent upon support from Yahoo!, the underlying agreement for which is winding down.</span></span></P>
+    > <LI>
+    > <P><span data-ttu-id="42aae-176">Más que nunca, Lync es una herramienta eficaz para la conexión entre organizaciones y con personas de todo el mundo.</span><span class="sxs-lookup"><span data-stu-id="42aae-176">More than ever, Lync is a powerful tool for connecting across organizations and with individuals around the world.</span></span> <span data-ttu-id="42aae-177">La Federación con Windows Live Messenger no requiere licencias adicionales para usuarios y dispositivos más allá de la CAL de Lync Standard.</span><span class="sxs-lookup"><span data-stu-id="42aae-177">Federation with Windows Live Messenger requires no additional user/device licenses beyond the Lync Standard CAL.</span></span> <span data-ttu-id="42aae-178">La Federación de Skype se agrega a esta lista, lo que permite a los usuarios de Lync llegar a cientos de millones de personas con la mensajería instantánea y la voz.</span><span class="sxs-lookup"><span data-stu-id="42aae-178">Skype federation will be added to this list, enabling Lync users to reach hundreds of millions of people with IM and voice.</span></span></P></LI></UL>
+
+
+    </div></td>
     </tr>
     </tbody>
     </table>
 
 
-2.  Defina y configure los hosts DNS necesarios (A o AAAA para IPv6) así como los registros DNS SRV.
+2.  <span data-ttu-id="42aae-179">Definir y configurar los registros DNS (A o AAAA para IPv6) necesarios y los registros SRV de DNS</span><span class="sxs-lookup"><span data-stu-id="42aae-179">Define and configure any required DNS host (A or AAAA for IPv6) and DNS SRV records</span></span>
 
-3.  Defina y configure las directivas desde el Panel de control de Lync Server o utilizando el Shell de administración de Lync Server y los cmdlets pertinentes. Para obtener más detalles sobre los cmdlets de Shell de administración de Lync Server, vea [Cmdlets de federación y acceso externo en Lync Server 2013](https://docs.microsoft.com/en-us/powershell/module/skype/)
+3.  <span data-ttu-id="42aae-180">Defina y configure las directivas mediante el panel de control de Lync Server o mediante el shell de administración de Lync Server y los cmdlets apropiados.</span><span class="sxs-lookup"><span data-stu-id="42aae-180">Define and configure any policies using the Lync Server Control Panel or by using the Lync Server Management Shell and the appropriate cmdlets.</span></span> <span data-ttu-id="42aae-181">Para obtener más información sobre los cmdlets del shell de administración de Lync Server, consulte cmdlets de [Federación y de acceso externo en Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)</span><span class="sxs-lookup"><span data-stu-id="42aae-181">For details on the Lync Server Management Shell cmdlets, see [Federation and external access cmdlets in Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > El sistema Lync Room (LRS) no muestra el botón Unirse en las reuniones enviadas por organizadores en socios federados de Lync. Para que aparezca el vínculo para unirse a la reunión en LRS, la organización que envía la reunión debe activar TNEF mediante el cmdlet:<BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR>Observe que no es específico de LRS. Outlook y Lync tampoco muestran los vínculos Unirse si las propiedades MAPI no se transportan, pero, en el caso de Outlook, el usuario puede abrir la invitación a la reunión y hacer clic en la dirección URL de la reunión. Cuando se establece TNEFEnabled en True, Exchange 2013 no quita las propiedades MAPI, incluida OnlineMeetingExternalLink, y el botón Unirse se muestra en el aviso.
+    > [!NOTE]  
+    > <span data-ttu-id="42aae-182">Lync Room System (LRS) no muestra el botón unirse a las reuniones enviadas por los organizadores en socios federados de Lync.</span><span class="sxs-lookup"><span data-stu-id="42aae-182">Lync Room System (LRS) does not show join button for meetings sent by organizers in federated Lync partners.</span></span> <span data-ttu-id="42aae-183">Para que un vínculo de unirse a una reunión aparezca en LRS, la organización remitente debe habilitar TNEF con el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="42aae-183">For a meeting join link to appear on LRS, the sending organization must enable TNEF by using the following cmdlet:</span></span><BR><BR><CODE>New-RemoteDomain -DomainName Contoso.com -Name Contoso</CODE><BR><CODE>Set-RemoteDomain -Identity Contoso -TNEFEnabled $true</CODE><BR><span data-ttu-id="42aae-184">Ten en cuenta que esto no es específico de LRS.</span><span class="sxs-lookup"><span data-stu-id="42aae-184">Note that this is not LRS specific.</span></span> <span data-ttu-id="42aae-185">Outlook y Lync tampoco mostrarán vínculos de combinación en este caso, ya que las propiedades de MAPI no se transportan, pero en el caso de Outlook, el usuario puede abrir la invitación a la reunión y hacer clic en la dirección URL de la reunión.</span><span class="sxs-lookup"><span data-stu-id="42aae-185">Outlook and Lync would also not show Join links in this case as MAPI properties are not transported, but in the Outlook case, the user can open up the meeting invite and click on the meeting URL.</span></span> <span data-ttu-id="42aae-186">Cuando TNEFEnabled se establece en true, Exchange 2013 no elimina las propiedades de MAPI, incluidas OnlineMeetingExternalLink y el botón unirse en el aviso.</span><span class="sxs-lookup"><span data-stu-id="42aae-186">When TNEFEnabled is set to true Exchange 2013 does not strip MAPI properties including OnlineMeetingExternalLink and the Join button will be shown on the reminder.</span></span>
+
+    
+    </div>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="42aae-187">Vea también</span><span class="sxs-lookup"><span data-stu-id="42aae-187">See Also</span></span>
 
 
+[<span data-ttu-id="42aae-188">Planificación de SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="42aae-188">Planning for SIP, XMPP federation, and public instant messaging in Lync Server 2013</span></span>](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)  
+[<span data-ttu-id="42aae-189">Administración de la federación y el acceso externo a Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="42aae-189">Managing federation and external access to Lync Server 2013</span></span>](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)  
+  
 
-## Vea también
+</div>
 
-#### Otros recursos
+</div>
 
-[Planeación de la federación SIP, la federación XMPP y la mensajería instantánea pública en Lync Server 2013](lync-server-2013-planning-for-sip-xmpp-federation-and-public-instant-messaging.md)  
-[Administración de la federación y el acceso externo a Lync Server 2013](lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md)
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

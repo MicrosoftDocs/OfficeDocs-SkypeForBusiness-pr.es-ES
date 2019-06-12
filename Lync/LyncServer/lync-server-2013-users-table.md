@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla Users'
-TOCTitle: Tabla Users
-ms:assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412791(v=OCS.15)
-ms:contentKeyID: 48276245
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla Users'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Users table
+ms:assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412791(v=OCS.15)
+ms:contentKeyID: 48185032
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6acc63c2271b5ab58e168d0f0f662c6cb3653aac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850231"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla Users en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="users-table-in-lync-server-2013"></a><span data-ttu-id="59966-102">Tabla Users en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="59966-102">Users table in Lync Server 2013</span></span>
 
-La tabla Users es una tabla auxiliar. En cada registro se almacena información sobre un usuario que participa en llamadas o sesiones con registros en la base de datos.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="59966-103">_**Última modificación del tema:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="59966-103">_**Topic Last Modified:** 2012-09-28_</span></span>
+
+<span data-ttu-id="59966-104">La tabla usuarios es una tabla de soporte técnico.</span><span class="sxs-lookup"><span data-stu-id="59966-104">The Users table is a supporting table.</span></span> <span data-ttu-id="59966-105">Cada registro de la tabla almacena información acerca de un usuario implicado en llamadas o sesiones que tienen registros en la base de datos.</span><span class="sxs-lookup"><span data-stu-id="59966-105">Each record in the table stores information about one user involved in calls or sessions that have records in the database.</span></span>
 
 
 <table>
@@ -27,43 +47,54 @@ La tabla Users es una tabla auxiliar. En cada registro se almacena información 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Columna</th>
-<th>Tipo de datos</th>
-<th>Clave o índice</th>
-<th>Detalles</th>
+<th><span data-ttu-id="59966-106">Columna</span><span class="sxs-lookup"><span data-stu-id="59966-106">Column</span></span></th>
+<th><span data-ttu-id="59966-107">Tipo de datos</span><span class="sxs-lookup"><span data-stu-id="59966-107">Data Type</span></span></th>
+<th><span data-ttu-id="59966-108">Clave o índice</span><span class="sxs-lookup"><span data-stu-id="59966-108">Key/Index</span></span></th>
+<th><span data-ttu-id="59966-109">Detalles</span><span class="sxs-lookup"><span data-stu-id="59966-109">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>NextUpdateTS</strong></p></td>
-<td><p>Datetime</p></td>
-<td><p></p></td>
-<td><p>Marca de tiempo para uso interno.</p></td>
+<td><p><span data-ttu-id="59966-110"><strong>NextUpdateTS</strong></span><span class="sxs-lookup"><span data-stu-id="59966-110"><strong>NextUpdateTS</strong></span></span></p></td>
+<td><p><span data-ttu-id="59966-111">datetime</span><span class="sxs-lookup"><span data-stu-id="59966-111">datetime</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="59966-112">Marca de tiempo para uso interno.</span><span class="sxs-lookup"><span data-stu-id="59966-112">Time stamp for internal use.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>UserId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal</p></td>
-<td><p>Número único que identifica a este usuario.</p></td>
+<td><p><span data-ttu-id="59966-113"><strong>Iddeusuario</strong></span><span class="sxs-lookup"><span data-stu-id="59966-113"><strong>UserId</strong></span></span></p></td>
+<td><p><span data-ttu-id="59966-114">int</span><span class="sxs-lookup"><span data-stu-id="59966-114">int</span></span></p></td>
+<td><p><span data-ttu-id="59966-115">Primary</span><span class="sxs-lookup"><span data-stu-id="59966-115">Primary</span></span></p></td>
+<td><p><span data-ttu-id="59966-116">Número único que identifica a este usuario.</span><span class="sxs-lookup"><span data-stu-id="59966-116">Unique number identifying this user.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserUri</strong></p></td>
-<td><p>nvarchar(450)</p></td>
+<td><p><span data-ttu-id="59966-117"><strong>UserUri</strong></span><span class="sxs-lookup"><span data-stu-id="59966-117"><strong>UserUri</strong></span></span></p></td>
+<td><p><span data-ttu-id="59966-118">nvarchar (450)</span><span class="sxs-lookup"><span data-stu-id="59966-118">nvarchar(450)</span></span></p></td>
 <td><p> </p></td>
-<td><p>URI del usuario.</p></td>
+<td><p><span data-ttu-id="59966-119">URI de usuario.</span><span class="sxs-lookup"><span data-stu-id="59966-119">User URI.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>TenantId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Externa</p></td>
-<td><p>Id. de inquilino de este usuario. Consulte <a href="lync-server-2013-tenants-table.md">Tabla Tenants en Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="59966-120"><strong>TenantId</strong></span><span class="sxs-lookup"><span data-stu-id="59966-120"><strong>TenantId</strong></span></span></p></td>
+<td><p><span data-ttu-id="59966-121">int</span><span class="sxs-lookup"><span data-stu-id="59966-121">int</span></span></p></td>
+<td><p><span data-ttu-id="59966-122">Extranjero</span><span class="sxs-lookup"><span data-stu-id="59966-122">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="59966-123">El identificador de inquilino de este usuario.</span><span class="sxs-lookup"><span data-stu-id="59966-123">This user’s Tenant ID.</span></span> <span data-ttu-id="59966-124">Para obtener más información, consulte la <a href="lync-server-2013-tenants-table.md">tabla de inquilinos de Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="59966-124">See the <a href="lync-server-2013-tenants-table.md">Tenants table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UriTypeId</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Externa</p></td>
-<td><p>Tipo de URI de este usuario. Consulte <a href="lync-server-2013-uritypes-table.md">Tabla UriTypes en Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="59966-125"><strong>UriTypeId</strong></span><span class="sxs-lookup"><span data-stu-id="59966-125"><strong>UriTypeId</strong></span></span></p></td>
+<td><p><span data-ttu-id="59966-126">int</span><span class="sxs-lookup"><span data-stu-id="59966-126">int</span></span></p></td>
+<td><p><span data-ttu-id="59966-127">Extranjero</span><span class="sxs-lookup"><span data-stu-id="59966-127">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="59966-128">Tipo de URI de este usuario.</span><span class="sxs-lookup"><span data-stu-id="59966-128">This user’s URI type.</span></span> <span data-ttu-id="59966-129">Para obtener más información, consulte la <a href="lync-server-2013-uritypes-table.md">tabla UriTypes en Lync Server 2013</a> .</span><span class="sxs-lookup"><span data-stu-id="59966-129">See the <a href="lync-server-2013-uritypes-table.md">UriTypes table in Lync Server 2013</a> for more information.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

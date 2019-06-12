@@ -1,117 +1,53 @@
-﻿---
-title: 'Lync Server 2013: Ubicación de datos y de archivos de registro de SQL Server'
-TOCTitle: Ubicación de datos y de archivos de registro de SQL Server
-ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398479(v=OCS.15)
-ms:contentKeyID: 48275510
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: SQL Ubicación de datos y de archivos de registro de SQL Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: SQL Server data and log file placement
+ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398479(v=OCS.15)
+ms:contentKeyID: 48184395
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0a528ba7a348ebb5c8f865a795f8b1f1c1bc30cb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850587"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Ubicación de datos y de archivos de registro de SQL Server para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="sql-server-data-and-log-file-placement-for-lync-server-2013"></a><span data-ttu-id="6143a-102">Ubicación de datos y de archivos de registro de SQL Server para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6143a-102">SQL Server data and log file placement for Lync Server 2013</span></span>
 
-Durante la planeación e implementación de Microsoft SQL Server 2012 o Microsoft SQL Server 2008 R2 SP1 para Lync Server 2013  Grupo de servidores front-end, para lograr un buen rendimiento es importante tener en cuenta la selección de ubicación de los datos y archivos de registro en los discos duros físicos. La configuración de disco recomendada es implementar un conjunto de discos RAID 1+0 que use 6 cilindros. Si coloca todos los archivos de registro y de base de datos usados por el Grupo de servidores front-end y los servicios y roles de servidor asociados (es decir, Servidor de archivado y supervisión, Servicio de grupo de respuesta de Lync Server, Servicio de estacionamiento de llamadas de Lync Server) en el conjunto de discos RAID mediante la Asistente para la implementación de Lync Server, obtendrá una configuración cuyo buen rendimiento ya se ha probado. En la siguiente tabla se detallan los archivos de base de datos y sus correspondientes funciones.
+</div>
 
+<div id="mainSection">
 
-> [!NOTE]
-> Si sus directivas y configuraciones de SQL Server requieren una instalación más especializada, los archivos de registro y de base de datos se pueden instalar en cualquier ubicación predefinida mediante el Shell de administración de Lync Server. Consulte <A href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Instalación de la base de datos con el Shell de administración de Lync Server en Lync Server 2013</A> para obtener más detalles.
+<div id="mainBody">
 
+<span> </span>
 
+<span data-ttu-id="6143a-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="6143a-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-### Archivos de registro y de datos para el almacén de administración central
+<span data-ttu-id="6143a-104">Durante la planeación y la implementación de Microsoft SQL Server 2012 o Microsoft SQL Server 2008 R2 SP1 para su grupo front-end de Lync Server 2013, una consideración importante es la colocación de los datos y los archivos de registro en discos duros físicos para el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="6143a-104">During the planning and deployment of Microsoft SQL Server 2012 or Microsoft SQL Server 2008 R2 SP1 for your Lync Server 2013 Front End pool, an important consideration is the placement of data and log files onto physical hard disks for performance.</span></span> <span data-ttu-id="6143a-105">La configuración de disco recomendada es implementar un conjunto de RAID 1 + 0 con 6 ejes.</span><span class="sxs-lookup"><span data-stu-id="6143a-105">The recommended disk configuration is to implement a 1+0 RAID set using 6 spindles.</span></span> <span data-ttu-id="6143a-106">Colocar todos los archivos de base de datos y de registro usados por el grupo de servidores front-end y los roles y servicios de servidor asociados (es decir, servidor de archivado y supervisión, servicio de grupo de respuesta de Lync Server, servicio de estacionamiento de llamadas de Lync Server) en el conjunto de unidades RAID con el servidor de Lync. El Asistente para la implementación generará una configuración que se ha probado para un buen rendimiento.</span><span class="sxs-lookup"><span data-stu-id="6143a-106">Placing all database and log files that are used by the Front End pool and associated server roles and services (that is, Archiving and Monitoring Server, Lync Server Response Group service, Lync Server Call Park service) onto the RAID drive set using the Lync Server Deployment Wizard will result in a configuration that has been tested for good performance.</span></span> <span data-ttu-id="6143a-107">Los archivos de base de datos y su responsabilidad se detallan en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="6143a-107">The database files and what they are responsible for is detailed in the following table.</span></span>
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Archivos de base de datos del Almacén de administración central</th>
-<th>Finalidad del registro o archivo de datos</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Xds.ldf</p></td>
-<td><p>Archivo de registro de transacciones para el Almacén de administración central</p></td>
-</tr>
-<tr class="even">
-<td><p>Xds.mdf</p></td>
-<td><p>Mantiene la configuración de la topología Lync Server 2013 actual, según la define y publica Generador de topologías</p></td>
-</tr>
-<tr class="odd">
-<td><p>Lis.mdf</p></td>
-<td><p>Archivo de datos Servicio de información de ubicaciones</p></td>
-</tr>
-<tr class="even">
-<td><p>Lis.ldf</p></td>
-<td><p>Registro de transacciones para el archivo de datos de Servicio de información de ubicaciones</p></td>
-</tr>
-</tbody>
-</table>
+<div>
 
 
-### Archivos de registro y de datos para el usuario, las conferencias y la libreta de direcciones
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Archivos de base de datos principales de Lync Server 2013</th>
-<th>Finalidad del registro o archivo de datos</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Rtc.mdf</p></td>
-<td><p>Datos de usuario persistentes (por ejemplo, listas de control de acceso (ACL), contactos, conferencias programadas)</p></td>
-</tr>
-<tr class="even">
-<td><p>Rtc.ldf</p></td>
-<td><p>Registro de transacciones para datos Rtc</p></td>
-</tr>
-<tr class="odd">
-<td><p>Rtcdyn.mdf</p></td>
-<td><p>Mantiene datos de usuarios transitorios (datos de tiempo de ejecución de presencia)</p></td>
-</tr>
-<tr class="even">
-<td><p>Rtcdyn.ldf</p></td>
-<td><p>Registro de transacciones para datos Rtcdyn</p></td>
-</tr>
-<tr class="odd">
-<td><p>Rtcab.mdf</p></td>
-<td><p>La base de datos de la libreta de direcciones de las comunicaciones en tiempo real (RTC) es el repositorio de SQL Server cuando se almacena la información del servicio de libreta de direcciones</p></td>
-</tr>
-<tr class="even">
-<td><p>Rtcab.ldf</p></td>
-<td><p>Registro de transacciones para el servicio de libreta de direcciones</p></td>
-</tr>
-<tr class="odd">
-<td><p>Rtclocal.mdb</p></td>
-<td><p>Hospeda el directorio de conferencia</p></td>
-</tr>
-<tr class="even">
-<td><p>Rtcxds.mdf</p></td>
-<td><p>Mantiene la copia de seguridad de los datos de usuario</p></td>
-</tr>
-<tr class="odd">
-<td><p>Rtcxds.ldf</p></td>
-<td><p>Registro de transacciones para datos Rtcxds</p></td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]  
+> <span data-ttu-id="6143a-108">Si las directivas y la configuración de SQL Server requieren una instalación más especializada, la base de datos y los archivos de registro se pueden instalar en cualquier ubicación predefinida mediante el shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="6143a-108">If your policies and SQL Server configurations require a more specialized installation, the database and log files can be installed to any pre-defined location using the Lync Server Management Shell.</span></span> <span data-ttu-id="6143a-109">Para obtener más información, vea <A href="lync-server-2013-database-installation-using-lync-server-management-shell.md">instalación de bases de datos con el shell de administración de Lync Server en Lync server 2013</A> .</span><span class="sxs-lookup"><span data-stu-id="6143a-109">See <A href="lync-server-2013-database-installation-using-lync-server-management-shell.md">Database installation using Lync Server Management Shell in Lync Server 2013</A> for more details.</span></span>
 
 
-### Archivos de registro y de datos para el estacionamiento de llamadas y el grupo de respuesta
+
+</div>
+
+### <a name="data-and-log-files-for-central-management-store"></a><span data-ttu-id="6143a-110">Archivos de datos y de registro para el almacén de administración central</span><span class="sxs-lookup"><span data-stu-id="6143a-110">Data and Log Files for Central Management Store</span></span>
 
 <table>
 <colgroup>
@@ -120,40 +56,32 @@ Durante la planeación e implementación de Microsoft SQL Server 2012 o Microsof
 </colgroup>
 <thead>
 <tr class="header">
-<th>Base de datos de la aplicación</th>
-<th>Finalidad del registro o archivo de datos</th>
+<th><span data-ttu-id="6143a-111">Archivos de base de datos de almacenamiento de administración central</span><span class="sxs-lookup"><span data-stu-id="6143a-111">Central Management store database files</span></span></th>
+<th><span data-ttu-id="6143a-112">Archivo de datos o propósito de registro</span><span class="sxs-lookup"><span data-stu-id="6143a-112">Data file or log purpose</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Cpsdyn.mdf</p></td>
-<td><p>Base de datos de información dinámica para la Aplicación de estacionamiento de llamadas</p></td>
+<td><p><span data-ttu-id="6143a-113">XDS. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-113">Xds.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-114">Archivo de registro de transacciones para el almacén de administración central</span><span class="sxs-lookup"><span data-stu-id="6143a-114">Transaction log file for the Central Management store</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Cpsdyn.ldf</p></td>
-<td><p>Registro de transacciones para el archivo de datos de la Aplicación de estacionamiento de llamadas</p></td>
+<td><p><span data-ttu-id="6143a-115">XDS. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-115">Xds.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-116">Mantiene la configuración de la topología actual de Lync Server 2013, definida y publicada por el generador de topologías</span><span class="sxs-lookup"><span data-stu-id="6143a-116">Maintains the configuration of the current Lync Server 2013 topology, as defined and published by Topology Builder</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Rgsconfig.mdf</p></td>
-<td><p>Archivo de datos del servicio de grupo de respuesta de Lync Server para la configuración de los servicios</p></td>
+<td><p><span data-ttu-id="6143a-117">Lis. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-117">Lis.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-118">Archivo de datos del servicio de información de ubicación</span><span class="sxs-lookup"><span data-stu-id="6143a-118">Location Information service data file</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Rgsconfig.ldf</p></td>
-<td><p>Archivo de registro de transacciones para la configuración de la Aplicación de grupo de respuesta</p></td>
-</tr>
-<tr class="odd">
-<td><p>Rgsdyn.mdf</p></td>
-<td><p>Archivo de datos del servicio de grupo de respuesta para operaciones en tiempo de ejecución</p></td>
-</tr>
-<tr class="even">
-<td><p>Rgsdyn.ldf</p></td>
-<td><p>Registro de transacciones para el archivo de datos en tiempo de ejecución del servicio de grupo de respuesta</p></td>
+<td><p><span data-ttu-id="6143a-119">Lis. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-119">Lis.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-120">Registro de transacciones del archivo de datos del servicio de información de ubicación</span><span class="sxs-lookup"><span data-stu-id="6143a-120">Transaction log for the Location Information service data file</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Archivos de registro y de datos para el servidor de supervisión y archivado
+### <a name="data-and-log-files-for-user-conferencing-and-address-book"></a><span data-ttu-id="6143a-121">Archivos de datos y de registro para usuarios, conferencias y libretas de direcciones</span><span class="sxs-lookup"><span data-stu-id="6143a-121">Data and Log files for User, Conferencing, and Address Book</span></span>
 
 <table>
 <colgroup>
@@ -162,42 +90,148 @@ Durante la planeación e implementación de Microsoft SQL Server 2012 o Microsof
 </colgroup>
 <thead>
 <tr class="header">
-<th>Archivos de la base de datos de supervisión y archivado</th>
-<th>Finalidad del registro o archivo de datos</th>
+<th><span data-ttu-id="6143a-122">Archivos de base de datos básicos de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6143a-122">Core Lync Server 2013 database files</span></span></th>
+<th><span data-ttu-id="6143a-123">Archivo de datos o propósito de registro</span><span class="sxs-lookup"><span data-stu-id="6143a-123">Data file or log purpose</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>LcsCdr.mdf</p></td>
-<td><p>Almacén de datos para el proceso de registro de detalles de llamadas (CDR) del Servidor de supervisión</p></td>
+<td><p><span data-ttu-id="6143a-124">RTC. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-124">Rtc.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-125">Datos de usuario persistentes (por ejemplo, listas de control de acceso (ACL), contactos, conferencias programadas)</span><span class="sxs-lookup"><span data-stu-id="6143a-125">Persistent user data (for example, access control lists (ACLs), contacts, scheduled conferences)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>LcsCdr.ldf</p></td>
-<td><p>Registro de transacciones para datos de registro de detalles de llamadas (CDR)</p></td>
+<td><p><span data-ttu-id="6143a-126">RTC. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-126">Rtc.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-127">Registro de transacciones de datos de RTC</span><span class="sxs-lookup"><span data-stu-id="6143a-127">Transaction log for Rtc data</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>QoEMetrics.mdf</p></td>
-<td><p>Archivo de datos de calidad de la experiencia almacenado desde el Servidor de supervisión</p></td>
+<td><p><span data-ttu-id="6143a-128">RTCDyn. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-128">Rtcdyn.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-129">Mantiene datos de usuario transitorios (datos de presencia en tiempo de ejecución)</span><span class="sxs-lookup"><span data-stu-id="6143a-129">Maintains transient user data (presence runtime data)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>QoEMetrics.ldf</p></td>
-<td><p>Registro de transacciones para datos de supervisión</p></td>
+<td><p><span data-ttu-id="6143a-130">RTCDyn. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-130">Rtcdyn.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-131">Registro de transacciones de datos de RTCDyn</span><span class="sxs-lookup"><span data-stu-id="6143a-131">Transaction log for Rtcdyn data</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Lcslog.mdf</p></td>
-<td><p>Archivo de datos para la conservación de los datos de mensajería instantánea y de conferencias en un Servidor de archivado</p></td>
+<td><p><span data-ttu-id="6143a-132">Rtcab. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-132">Rtcab.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-133">La base de datos de la libreta de direcciones de las comunicaciones en tiempo real (RTC) es el repositorio de SQL Server donde se almacena la información del servicio de libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="6143a-133">Real-time communications (RTC) address book database is the SQL Server repository where Address Book service information is stored</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Lcslog.ldf</p></td>
-<td><p>Registro de transacciones para datos de archivado</p></td>
+<td><p><span data-ttu-id="6143a-134">Rtcab. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-134">Rtcab.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-135">Registro de transacciones para el servicio de libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="6143a-135">Transaction log for Address Book Service</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6143a-136">Rtclocal. mdb</span><span class="sxs-lookup"><span data-stu-id="6143a-136">Rtclocal.mdb</span></span></p></td>
+<td><p><span data-ttu-id="6143a-137">Hospeda el directorio de conferencia</span><span class="sxs-lookup"><span data-stu-id="6143a-137">Hosts the conference directory</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6143a-138">Rtcxds. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-138">Rtcxds.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-139">Mantiene la copia de seguridad de los datos de usuario</span><span class="sxs-lookup"><span data-stu-id="6143a-139">Maintains the backup for user data</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6143a-140">Rtcxds. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-140">Rtcxds.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-141">Registro de transacciones de datos de Rtcxds</span><span class="sxs-lookup"><span data-stu-id="6143a-141">Transaction log for Rtcxds data</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-En este tema, se hacen referencias al disco y al conjunto de discos RAID. Tenga en cuenta que en la configuración de recursos de SQL Server, un disco hace referencia a un único dispositivo de hardware. Una unidad de disco duro con dos particiones, una que contiene archivos de registro y otra que contiene archivos de datos, no es lo mismo que dos discos, cada uno de ellos dedicados a archivos de registro o de datos.
+### <a name="data-and-log-files-for-call-park-and-response-group"></a><span data-ttu-id="6143a-142">Archivos de datos y registro para el deestacionamiento de llamada y el grupo de respuesta</span><span class="sxs-lookup"><span data-stu-id="6143a-142">Data and Log Files for Call Park and Response Group</span></span>
 
-En referencia a conjuntos de discos RAID, existen varias tecnologías RAID diferentes de varios proveedores. Y, con la proliferación de redes de área de almacenamiento (SAN), los conjuntos de discos RAID dedicados a un único sistema son cada vez menos habituales. Deberá consultar a su proveedor de RAID o SAN para determinar cuál es la mejor configuración para su diseño de discos al configurar el rendimiento de SQL Server con Lync Server 2013.
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="6143a-143">Base de datos de la aplicación</span><span class="sxs-lookup"><span data-stu-id="6143a-143">Application database</span></span></th>
+<th><span data-ttu-id="6143a-144">Archivo de datos o propósito de registro</span><span class="sxs-lookup"><span data-stu-id="6143a-144">Data file or log purpose</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="6143a-145">Cpsdyn. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-145">Cpsdyn.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-146">Base de datos de información dinámica para la aplicación de estacionamiento de llamadas</span><span class="sxs-lookup"><span data-stu-id="6143a-146">Dynamic information database for the Call Park application</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6143a-147">Cpsdyn. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-147">Cpsdyn.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-148">Registro de transacciones para el archivo de datos de aplicación de estacionamiento de llamadas</span><span class="sxs-lookup"><span data-stu-id="6143a-148">Transaction log for Call Park application data file</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6143a-149">Rgsconfig. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-149">Rgsconfig.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-150">Archivo de datos del servicio de grupo de respuesta de Lync Server para la configuración de los servicios</span><span class="sxs-lookup"><span data-stu-id="6143a-150">Lync Server Response Group service data file for the configuration of the services</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6143a-151">Rgsconfig. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-151">Rgsconfig.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-152">Archivo de registro de transacciones para la configuración de la aplicación de grupo de respuesta</span><span class="sxs-lookup"><span data-stu-id="6143a-152">Transaction log file for the Response Group application configuration</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6143a-153">Rgsdyn. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-153">Rgsdyn.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-154">Archivo de datos de servicio de grupo de respuesta para operaciones en tiempo de ejecución</span><span class="sxs-lookup"><span data-stu-id="6143a-154">Response Group service data file for runtime operations</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6143a-155">Rgsdyn. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-155">Rgsdyn.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-156">Registro de transacciones para el archivo de datos de tiempo de ejecución del servicio de grupo de respuesta</span><span class="sxs-lookup"><span data-stu-id="6143a-156">Transaction log for the Response Group service runtime data file</span></span></p></td>
+</tr>
+</tbody>
+</table>
 
-Además, tenga en cuenta que no todas las unidades de disco se crean del mismo modo; algunas tienen mejor rendimiento que otras. Incluso las unidades del mismo fabricante pueden variar su rendimiento debido a la velocidad de rotación, el tamaño de la memoria caché en el hardware y otros factores.
+
+### <a name="data-and-log-files-for-archiving-and-monitoring-server"></a><span data-ttu-id="6143a-157">Archivos de datos y registro para el servidor de archivado y supervisión</span><span class="sxs-lookup"><span data-stu-id="6143a-157">Data and Log Files for Archiving and Monitoring Server</span></span>
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="6143a-158">Archivar y supervisar archivos de base de datos</span><span class="sxs-lookup"><span data-stu-id="6143a-158">Archiving and Monitoring database files</span></span></th>
+<th><span data-ttu-id="6143a-159">Archivo de datos o propósito de registro</span><span class="sxs-lookup"><span data-stu-id="6143a-159">Data file or log purpose</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="6143a-160">LcsCdr. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-160">LcsCdr.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-161">Almacén de datos para el proceso de grabación de detalles de llamadas (CDR) del servidor de supervisión</span><span class="sxs-lookup"><span data-stu-id="6143a-161">Data store for the call detail recording (CDR) process of the Monitoring Server</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6143a-162">LcsCdr. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-162">LcsCdr.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-163">Registro de transacciones para datos de grabación de detalles de llamadas (CDR)</span><span class="sxs-lookup"><span data-stu-id="6143a-163">Transaction log for call detail recording (CDR) data</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6143a-164">QoEMetrics. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-164">QoEMetrics.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-165">Calidad de la experiencia archivo de datos almacenado desde el servidor de supervisión</span><span class="sxs-lookup"><span data-stu-id="6143a-165">Quality of Experience data file stored from the Monitoring Server</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6143a-166">QoEMetrics. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-166">QoEMetrics.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-167">Registro de transacciones para supervisar datos</span><span class="sxs-lookup"><span data-stu-id="6143a-167">Transaction log for Monitoring data</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="6143a-168">Lcslog. MDF</span><span class="sxs-lookup"><span data-stu-id="6143a-168">Lcslog.mdf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-169">Archivo de datos para la retención de mensajes instantáneos y de conferencia en un servidor de archivado</span><span class="sxs-lookup"><span data-stu-id="6143a-169">Data file for the retention of instant messaging and conferencing data on an Archiving Server</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="6143a-170">Lcslog. ldf</span><span class="sxs-lookup"><span data-stu-id="6143a-170">Lcslog.ldf</span></span></p></td>
+<td><p><span data-ttu-id="6143a-171">Registro de transacciones para archivar datos</span><span class="sxs-lookup"><span data-stu-id="6143a-171">Transaction log for Archiving data</span></span></p></td>
+</tr>
+</tbody>
+</table>
+
+
+<span data-ttu-id="6143a-172">En este tema, se hacen referencias al disco y al conjunto de RAID.</span><span class="sxs-lookup"><span data-stu-id="6143a-172">In this topic, references are made to disk and to RAID set.</span></span> <span data-ttu-id="6143a-173">Tenga en cuenta que en la configuración de los recursos de SQL Server, hacer referencia a un disco significa un único dispositivo de hardware.</span><span class="sxs-lookup"><span data-stu-id="6143a-173">Note that in the configuration of SQL Server resources, referring to a disk means a single hardware device.</span></span> <span data-ttu-id="6143a-174">Una unidad de disco duro con dos particiones, una con archivos de registro y otra partición que contiene archivos de datos, no es la misma que dos discos, cada uno dedicado a archivos de datos o de registro.</span><span class="sxs-lookup"><span data-stu-id="6143a-174">A hard disk drive with two partitions, one holding log files and the other partition holding data files, is not the same as two disks, each dedicated to either log or data files.</span></span>
+
+<span data-ttu-id="6143a-175">En referencia a los conjuntos de RAID, hay varias tecnologías de RAID distintas de diferentes proveedores.</span><span class="sxs-lookup"><span data-stu-id="6143a-175">In reference to RAID sets, there are a number of different RAID technologies from various vendors.</span></span> <span data-ttu-id="6143a-176">Además, con la proliferación de redes de área de almacenamiento (SAN), los conjuntos RAID dedicados a un solo sistema son más separables.</span><span class="sxs-lookup"><span data-stu-id="6143a-176">And, with the proliferation of storage area networks (SAN), RAID sets dedicated to a single system are rarer.</span></span> <span data-ttu-id="6143a-177">Debe consultar a su proveedor de RAID o SAN para determinar cuál es la mejor configuración para su diseño de disco al configurar el rendimiento de SQL Server con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6143a-177">You should consult with your RAID or SAN vendor to determine what the best configuration is for your disk layout when configuring for SQL Server performance with Lync Server 2013.</span></span>
+
+<span data-ttu-id="6143a-178">Tenga en cuenta también que no todas las unidades de disco se crean por igual; Algunos tienen mejor rendimiento que otros.</span><span class="sxs-lookup"><span data-stu-id="6143a-178">Note also that not all disk drives are created equally; some perform better than others.</span></span> <span data-ttu-id="6143a-179">Incluso las unidades del mismo fabricante pueden variar en rendimiento debido a la velocidad de giro, el tamaño de la caché de hardware y otros factores.</span><span class="sxs-lookup"><span data-stu-id="6143a-179">Even drives from the same manufacturer can vary in performance because of rotational speed, hardware cache size, and other factors.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

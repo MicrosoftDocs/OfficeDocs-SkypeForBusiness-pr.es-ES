@@ -1,44 +1,86 @@
-﻿---
-title: Asigar números de respuesta de llamadas en grupo a los usuarios
-TOCTitle: Asigar números de respuesta de llamadas en grupo a los usuarios
-ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945647(v=OCS.15)
-ms:contentKeyID: 52061720
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: asignar números de llamada de grupo a los usuarios'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign Group Call Pickup numbers to users
+ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945647(v=OCS.15)
+ms:contentKeyID: 51541508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e919b1fb4ee225eba1c5317ff1f3049791075bcc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850701"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Asigar números de respuesta de llamadas en grupo a los usuarios
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-01-30_
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a><span data-ttu-id="1e490-102">Asignar números de recogida de llamadas grupales a los usuarios de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1e490-102">Assign Group Call Pickup numbers to users in Lync Server 2013</span></span>
 
-Tras agregar números de grupo de atención de llamadas grupales a la tabla de órbita de estacionamiento de llamadas, puede asignar los grupos a usuarios. Use la herramienta de kit de recursos de activación de característica de extensión secundaria (SEFAUtil) para asignar grupos de atención de llamadas a usuarios.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="1e490-103">_**Última modificación del tema:** 2013-01-30_</span><span class="sxs-lookup"><span data-stu-id="1e490-103">_**Topic Last Modified:** 2013-01-30_</span></span>
+
+<span data-ttu-id="1e490-104">Después de agregar los números del grupo de recogida de llamadas grupales a la tabla de llamadas en órbita, puede asignar los grupos a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="1e490-104">After you add Group Call Pickup group numbers to the call park orbit table, you can assign the groups to users.</span></span> <span data-ttu-id="1e490-105">Use la herramienta del kit de recursos de activación de características de extensión secundaria (SEFAUtil) para asignar grupos de recogida de llamadas a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="1e490-105">Use the secondary extension feature activation (SEFAUtil ) resource kit tool to assign call pickup groups to users.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> En un entorno híbrido, no asigne un grupo de atención de llamadas grupales a los usuarios que se hospeden en línea. Este tipo de usuarios no puede participar en grupos de atención de llamadas grupales; es decir, sus llamadas no pueden ser atendidas por otros usuarios, ni tampoco pueden responder a llamadas de otros usuarios.
+> [!NOTE]  
+> <span data-ttu-id="1e490-106">En una implementación híbrida, no asigne un grupo de recogida de llamadas grupal a los usuarios alojados en línea.</span><span class="sxs-lookup"><span data-stu-id="1e490-106">In a hybrid deployment, do not assign a Group Call Pickup group to users who are homed online.</span></span> <span data-ttu-id="1e490-107">Los usuarios alojados en Internet no pueden participar en la recogida de llamadas grupales.</span><span class="sxs-lookup"><span data-stu-id="1e490-107">Users who are homed online cannot participate in Group Call Pickup.</span></span> <span data-ttu-id="1e490-108">Es decir, otros usuarios no pueden contestar las llamadas y no pueden responder llamadas a otros usuarios.</span><span class="sxs-lookup"><span data-stu-id="1e490-108">That is, their calls cannot be answered by other users, and they cannot answer calls to other users.</span></span>
 
 
 
-## Para asignar un grupo de atención de llamadas grupales a un usuario
+</div>
 
-1.  Inicie sesión como administrador en el equipo en el que haya instalado la herramienta SEFAUtil.
+<div>
 
-2.  En la línea de comandos, ejecute:
+## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a><span data-ttu-id="1e490-109">Para asignar un grupo de recogida de llamadas grupal a un usuario</span><span class="sxs-lookup"><span data-stu-id="1e490-109">To assign a Group Call Pickup group to a user</span></span>
+
+1.  <span data-ttu-id="1e490-110">Inicie sesión como administrador en el equipo en el que haya instalado la herramienta SEFAUtil.</span><span class="sxs-lookup"><span data-stu-id="1e490-110">Log on to the computer where you installed the SEFAUtil tool with administrator rights.</span></span>
+
+2.  <span data-ttu-id="1e490-111">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="1e490-111">At the command line, run:</span></span>
     
         SEFAUtil.exe sip:<sip address of user> /server:<pool FQDN> /enablegrouppickup:<group number>
     
-    Por ejemplo:
+    <span data-ttu-id="1e490-112">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="1e490-112">For example:</span></span>
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
 
-[Habilitar la respuesta de llamadas en grupo para los usuarios](lync-server-2013-enable-group-call-pickup-for-users.md)  
-[Deshabilitar la respuesta de llamadas en grupo para los usuarios](lync-server-2013-disable-group-call-pickup-for-users.md)
+## <a name="see-also"></a><span data-ttu-id="1e490-113">Vea también</span><span class="sxs-lookup"><span data-stu-id="1e490-113">See Also</span></span>
+
+
+[<span data-ttu-id="1e490-114">Habilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1e490-114">Enable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[<span data-ttu-id="1e490-115">Deshabilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1e490-115">Disable Group Call Pickup for users in Lync Server 2013</span></span>](lync-server-2013-disable-group-call-pickup-for-users.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

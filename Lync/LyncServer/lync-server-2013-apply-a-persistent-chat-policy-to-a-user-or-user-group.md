@@ -1,47 +1,88 @@
-﻿---
-title: "Aplicar una directiva de chat persistente a un usuario o grupo de usuarios"
-TOCTitle: Aplicar una directiva de chat persistente a un usuario o grupo de usuarios
-ms:assetid: 809ef4e0-8d42-4feb-b7c0-3995f39867a7
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205038(v=OCS.15)
-ms:contentKeyID: 48275833
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Aplicar una directiva de chat persistente a un usuario o grupo de usuarios'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Apply a Persistent Chat policy to a user or user group
+ms:assetid: 809ef4e0-8d42-4feb-b7c0-3995f39867a7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205038(v=OCS.15)
+ms:contentKeyID: 48184652
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7a2fbed0a752c1bf97bab5a4f67fadf12d8077a6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850719"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Aplicar una directiva de chat persistente a un usuario o grupo de usuarios en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-06_
+# <a name="apply-a-persistent-chat-policy-to-a-user-or-user-group-in-lync-server-2013"></a><span data-ttu-id="da241-102">Aplicar una directiva de chat persistente a un usuario o grupo de usuarios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="da241-102">Apply a Persistent Chat policy to a user or user group in Lync Server 2013</span></span>
 
-Si un usuario se ha habilitado para Lync Server 2013, puede aplicar las políticas apropiadas para que usuarios específicos las habiliten o deshabiliten para Servidor de chat persistente.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="da241-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="da241-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+
+<span data-ttu-id="da241-104">Si se ha habilitado un usuario para Lync Server 2013, puede aplicar las directivas apropiadas a determinados usuarios para habilitarlos o deshabilitarlos para el servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="da241-104">If a user has been enabled for Lync Server 2013, you can apply appropriate policies to specific users to enable or disable them for Persistent Chat Server.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Para configurar y usar el Servidor de chat persistente, primero debe usar el Generador de topologías a fin de agregar la compatibilidad del Servidor de chat persistente con la topología y, luego, publicar la topología. Para más información, vea <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Agregar un servidor de chat persistente a la implementación en Lync Server 2013</A> en la documentación sobre implementación.<BR>Para establecer las opciones de configuración del Servidor de chat persistente, vea <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configurar opciones de servidor de chat persistentes a escala global o para grupos de servidores de chat persistentes en Lync Server 2013</A> en la documentación sobre implementación.
+> [!NOTE]  
+> <span data-ttu-id="da241-105">Para configurar y usar el servidor de chat persistente, primero debe usar topología Builder para agregar la compatibilidad con el servidor de chat persistente a la topología y, a continuación, publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="da241-105">To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology.</span></span> <span data-ttu-id="da241-106">Para obtener más información, vea <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Agregar un servidor de chat persistente a su implementación en Lync Server 2013</A> en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="da241-106">For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="da241-107">Para configurar las opciones de configuración del servidor de chat persistentes, vea <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">configurar las opciones del servidor de chat persistente globalmente o para el grupo de servidores de chat persistente en Lync Server 2013</A> en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="da241-107">To configure Persistent Chat Server configuration settings, see <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
-Utilice el procedimiento de este tema para aplicar una directiva de usuario de Chat persistente creada anteriormente a una o más cuentas de usuario o grupos de usuarios.
+</div>
 
-## Para aplicar una directiva de usuario de Chat persistente a una cuenta de usuario
+<span data-ttu-id="da241-108">Use el procedimiento de este tema para aplicar una directiva de usuario de chat persistente creada previamente a una o más cuentas de usuario o grupos de usuarios.</span><span class="sxs-lookup"><span data-stu-id="da241-108">Use the procedure in this topic to apply a previously created Persistent Chat user policy to one or more user accounts or user groups.</span></span>
 
-1.  En una cuenta de usuario asignada al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+<div>
 
-2.  En el menú **Inicio** , seleccione el Panel de control de Lync Server o abra la ventana del explorador y, después, escriba la dirección URL del administrador. Para más información sobre los diferentes métodos que puede usar para abrir el Panel de control de Lync Server, vea [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a><span data-ttu-id="da241-109">Para aplicar una directiva de usuario de chat persistente a una cuenta de usuario</span><span class="sxs-lookup"><span data-stu-id="da241-109">To apply a Persistent Chat user policy to a user account</span></span>
 
-3.  En la barra de navegación izquierda, haga clic en **Usuarios** y, a continuación, busque en la cuenta de usuario que desea configurar.
+1.  <span data-ttu-id="da241-110">Inicie sesión en cualquier equipo de la implementación interna con una cuenta de usuario asignada a los roles CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="da241-110">From a user account that is assigned to the CsPersistentChatAdministrator, CsAdministrator, or CsUserAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, a continuación, en **Mostrar detalles** .
+2.  <span data-ttu-id="da241-111">En el menú **Inicio** , seleccione el panel de control de Lync Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador.</span><span class="sxs-lookup"><span data-stu-id="da241-111">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="da241-112">Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="da241-112">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-5.  En **Editar usuario de Lync Server**, en **Directiva de Chat persistente**, seleccione la directiva de usuario de Chat persistente que desea aplicar.
+3.  <span data-ttu-id="da241-113">En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, busque la cuenta de usuario que desea configurar.</span><span class="sxs-lookup"><span data-stu-id="da241-113">In the left navigation bar, click **Users**, and then search on the user account that you want to configure.</span></span>
+
+4.  <span data-ttu-id="da241-114">En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.</span><span class="sxs-lookup"><span data-stu-id="da241-114">In the table that lists the search results, click the user account, click **Edit**, and then click **Show details**.</span></span>
+
+5.  <span data-ttu-id="da241-115">En **Editar usuario de Lync Server** en **Directiva de chat persistente**, seleccione la Directiva de usuario de chat persistente que desea aplicar.</span><span class="sxs-lookup"><span data-stu-id="da241-115">In **Edit Lync Server User** under **Persistent Chat policy**, select the Persistent Chat user policy that you want to apply.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > La configuración <STRONG>&lt;Automático&gt;</STRONG> se aplica a la directiva efectiva predeterminada. Esta configuración se aplica automáticamente por el servidor.
+    > [!NOTE]  
+    > <span data-ttu-id="da241-116">La <STRONG> &lt;configuración&gt; automática</STRONG> aplica la Directiva vigente predeterminada.</span><span class="sxs-lookup"><span data-stu-id="da241-116">The <STRONG>&lt;Automatic&gt;</STRONG> settings apply the default effective policy.</span></span> <span data-ttu-id="da241-117">El servidor aplica automáticamente esta configuración.</span><span class="sxs-lookup"><span data-stu-id="da241-117">These settings are applied automatically by the server.</span></span>
 
+    
+    </div>
 
+6.  <span data-ttu-id="da241-118">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="da241-118">Click **Commit**.</span></span>
 
-6.  Haga clic en **Confirmar** .
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

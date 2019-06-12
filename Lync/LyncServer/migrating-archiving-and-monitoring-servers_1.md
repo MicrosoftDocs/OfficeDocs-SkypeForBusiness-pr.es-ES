@@ -1,35 +1,68 @@
-﻿---
-title: Migrar los servidores de archivado y supervisión
-TOCTitle: Migrar los servidores de archivado y supervisión
-ms:assetid: 8d879253-ad76-42b7-8386-e44b110239cf
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688124(v=OCS.15)
-ms:contentKeyID: 49889370
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Migrar servidores de archivado y supervisión
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migrating Archiving and Monitoring servers
+ms:assetid: 8d879253-ad76-42b7-8386-e44b110239cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688124(v=OCS.15)
+ms:contentKeyID: 49733722
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 902970548d4bd9e95e1bd4e7d6eba75e2fe405d3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849966"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Migrar los servidores de archivado y supervisión
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-02_
+# <a name="migrating-archiving-and-monitoring-servers"></a><span data-ttu-id="7f8d8-102">Migrar servidores de archivado y supervisión</span><span class="sxs-lookup"><span data-stu-id="7f8d8-102">Migrating Archiving and Monitoring servers</span></span>
 
-Si implementó el servidor de archivado y el servidor de supervisión en su Office Communications Server 2007 R2, podrá implementar estos servidores en su entorno de Lync Server 2013 después de migrar sus grupos de servidores front-end. No obstante, si las funciones de archivado y supervisión son esenciales para su organización, debe agregar el archivado y la supervisión a su grupo piloto antes de migrar para que dichas funciones estén disponibles durante el proceso de migración.
+</div>
 
-Si desea contar con la funcionalidad de archivado y de supervisión durante la fase de migración y coexistencia, tenga en cuenta lo siguiente:
+<div id="mainSection">
 
-  - Los datos de archivado y los datos de supervisión no se transfieren a la implementación de Lync Server 2013. Los datos de los que realice una copia de seguridad antes de retirar el entorno heredado serán su historial de actividades en Office Communications Server 2007 R2.
+<div id="mainBody">
 
-  - La versión Office Communications Server 2007 R2 del servidor de archivado y del servidor de supervisión solo puede asociarse con un grupo de servidores front-end Office Communications Server 2007 R2. En la versión Lync Server 2013, el archivado y la supervisión ya no son roles del servidor, sino servicio integrados en el grupo de servidores front-end Lync Server 2013.
+<span> </span>
 
-  - Durante el tiempo en que coexisten su implementación heredada y su implementación de Lync Server 2013, la versión Office Communications Server 2007 R2 del servidor de archivado y del servidor de supervisión recopila datos de los usuarios hospedados en grupos de servidores de Office Communications Server 2007 R2. La versión Lync Server 2013 del servidor de archivado y del servidor de supervisión recopila datos de los usuarios hospedados en grupos de servidores de Lync Server 2013.
+<span data-ttu-id="7f8d8-103">_**Última modificación del tema:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="7f8d8-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="7f8d8-104">Si ha implementado el servidor de archivado y el servidor de supervisión en Office Communications Server 2007 R2, puede implementar estos servidores en el entorno de Lync Server 2013 después de migrar los grupos de aplicaciones para el usuario.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-104">If you deployed Archiving Server and Monitoring Server in your Office Communications Server 2007 R2, you can deploy these servers in your Lync Server 2013 environment after you migrate your Front End pools.</span></span> <span data-ttu-id="7f8d8-105">Sin embargo, si la funcionalidad de archivado y supervisión es crítica para su organización, debe agregar el archivado y la supervisión al grupo piloto antes de realizar la migración para que la funcionalidad esté disponible durante el proceso de migración.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-105">If archiving and monitoring functionality are critical to your organization, however, you should add archiving and monitoring to your pilot pool before you migrate so that the functionality is available during the migration process.</span></span>
+
+<span data-ttu-id="7f8d8-106">Si quiere que la funcionalidad de archivado y supervisión durante la migración y la fase de coexistencia, tenga en cuenta las siguientes consideraciones:</span><span class="sxs-lookup"><span data-stu-id="7f8d8-106">If you want archiving and monitoring functionality during the migration and coexistence phase, keep the following considerations in mind:</span></span>
+
+  - <span data-ttu-id="7f8d8-107">Los datos de archivado y supervisión no se mueven a la implementación de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-107">Archiving data and monitoring data are not moved to the Lync Server 2013 deployment.</span></span> <span data-ttu-id="7f8d8-108">Los datos de los que haya hecho una copia de seguridad antes de retirar el entorno heredado serán el historial de actividad en el Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-108">The data you back up prior to decommissioning the legacy environment will be your history of activity in the Office Communications Server 2007 R2.</span></span>
+
+  - <span data-ttu-id="7f8d8-109">La versión de Office Communications Server 2007 R2 del servidor de archivado y del servidor de supervisión solo se puede asociar con un grupo front-end de Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-109">The Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server can be associated only with a Office Communications Server 2007 R2 Front End pool.</span></span> <span data-ttu-id="7f8d8-110">En Lync Server 2013, el archivado y la supervisión ya no tienen roles de servidor, pero los servicios integrados en el grupo front-end de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-110">In Lync Server 2013, Archiving and Monitoring are no longer server roles, but services integrated into the Lync Server 2013 Front End pool.</span></span>
+
+  - <span data-ttu-id="7f8d8-111">Durante el tiempo que coexistan las implementaciones heredadas de Lync Server 2013, la versión de Office Communications Server 2007 R2 del servidor de archivado y el servidor de supervisión recopilan datos para los usuarios alojados en los grupos de Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-111">During the time that your legacy and Lync Server 2013 deployments coexist, the Office Communications Server 2007 R2 version of Archiving Server and Monitoring Server gather data for users homed on Office Communications Server 2007 R2 pools.</span></span> <span data-ttu-id="7f8d8-112">La versión de Lync Server 2013 del servidor de archivado y el servidor de supervisión recopilan datos para los usuarios alojados en los grupos de servidores de Skype empresarial 2013.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-112">The Lync Server 2013 version of Archiving Server and Monitoring Server gather data for users homed on Lync Server 2013 pools.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Durante la fase de migración, mientras sigue utilizando su servidor perimetral heredado con el nuevo grupo piloto Lync Server 2013, la versión Office Communications Server 2007 R2 del servidor de archivado continuará recopilando datos de los usuarios hospedados en grupos de servidores de Office Communications Server 2007 R2, y la versión Lync Server 2013 del servidor de archivado recopilará datos de los usuarios hospedados en grupos de servidores de Lync Server 2013.
+    > [!NOTE]  
+    > <span data-ttu-id="7f8d8-113">Durante la fase de migración, cuando aún está usando su servidor perimetral heredado con el nuevo grupo piloto de Lync Server 2013, la versión R2 de Office Communications Server 2007 R2 recopila datos para usuarios alojados en Office Communications Server 2007 Los grupos R2 y la versión 2013 de Lync Server del servidor de archivado recopilan datos para los usuarios alojados en los grupos de servidores de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-113">During the phase of migration when you are still using your legacy Edge server with the new Lync Server 2013 pilot pool, the Office Communications Server 2007 R2 version of Archiving Server continues to gather data for users homed on Office Communications Server 2007 R2 pools and the Lync Server 2013 version of Archiving Server gathers data for users homed on Lync Server 2013 pools.</span></span>
 
+    
+    </div>
 
+  - <span data-ttu-id="7f8d8-114">Si usa una solución de archivado y supervisión de terceros junto con el servidor de archivado y el servidor de supervisión, hable con su proveedor sobre cuándo y cómo necesita integrar la solución de terceros con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="7f8d8-114">If you use a third-party archiving and monitoring solution in conjunction with Archiving Server and Monitoring Server, talk to your vendor about when and how you need to integrate the third-party solution with Lync Server 2013.</span></span>
 
-  - Si usa una solución de archivado y de supervisión de un tercero junto con el servidor de archivado y el servidor de supervisión, consulte a su proveedor para saber el momento y la forma de integrar la solución del tercero con Lync Server 2013.
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

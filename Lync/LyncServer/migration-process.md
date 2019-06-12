@@ -1,27 +1,65 @@
-﻿---
-title: Proceso de migración
-TOCTitle: Proceso de migración
-ms:assetid: 13d71f4b-9d5e-4ea3-9e93-29fdad7ac68f
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204696(v=OCS.15)
-ms:contentKeyID: 48274507
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Proceso de migración
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Migration process
+ms:assetid: 13d71f4b-9d5e-4ea3-9e93-29fdad7ac68f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204696(v=OCS.15)
+ms:contentKeyID: 48183474
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f48d486332bf03204d25aaadfc2ea351bcf581a7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849965"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Proceso de migración
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-17_
+# <a name="migration-process"></a><span data-ttu-id="71a67-102">Proceso de migración</span><span class="sxs-lookup"><span data-stu-id="71a67-102">Migration process</span></span>
 
-El procedimiento de migración admitido y recomendado para Lync Server 2013 es el procedimiento de migración en paralelo. Este tema describe porqué debería utilizar la migración en paralelo y también incluye información acerca de la prueba de coexistencia.
+</div>
 
-## Migración en paralelo
+<div id="mainSection">
 
-En casi todas las migraciones se debe usar la vía de la migración en paralelo. En una migración de este tipo, se implementa un nuevo servidor con Lync Server 2013 junto con el servidor correspondiente que ejecuta Lync Server 2010 y, tras ello, las operaciones se transfieren al nuevo servidor. En caso de que se deba revertir a Lync Server 2010, solo tendrá que trasladar las operaciones de nuevo a los servidores originales. No olvide que, en esta situación, cualquier reunión que haya programada con clientes actualizados no funcionará, y los clientes también deberán cambiarse a la versión anterior.
+<div id="mainBody">
 
-## Prueba de coexistencia
+<span> </span>
 
-Tras implementar Lync Server 2013 en paralelo con Lync Server 2010, la implementación representa un estado de prueba de coexistencia de Lync Server 2013 y Lync Server 2010. Durante este estado, es importante comprobar y confirmar que los servicios se han iniciado, que todos los sitios se pueden administrar y que los clientes se pueden comunicar con los usuarios tanto actuales como heredados. Antes de la migración de todos los usuarios, es fundamental conocer el estado de cada implementación y asegurarse de que cada una de ellas funciona como debe. Por lo general, la fase de prueba de coexistencia existe durante toda la prueba piloto de Lync Server 2013. Los usuarios heredados se mueven a Lync Server 2013 por un tiempo determinado para garantizar que la compatibilidad de las aplicaciones y las características funcionen correctamente. Tras la prueba piloto, se migran los usuarios y las aplicaciones a la versión de producción de Lync Server 2013, y se retiran las aplicaciones y los grupos de servidores heredados de Lync Server 2010.
+<span data-ttu-id="71a67-103">_**Última modificación del tema:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="71a67-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+
+<span data-ttu-id="71a67-104">El procedimiento de migración recomendado y admitido para Lync Server 2013 es la migración en paralelo.</span><span class="sxs-lookup"><span data-stu-id="71a67-104">The recommended and supported migration procedure for Lync Server 2013 is side-by-side migration.</span></span> <span data-ttu-id="71a67-105">En este tema se describe por qué debería usar la migración en paralelo y también se incluye información sobre las pruebas de coexistencia.</span><span class="sxs-lookup"><span data-stu-id="71a67-105">This topic describes why you should use side-by-side migration and also includes information about coexistence testing.</span></span>
+
+<div>
+
+## <a name="side-by-side-migration"></a><span data-ttu-id="71a67-106">Migración en paralelo</span><span class="sxs-lookup"><span data-stu-id="71a67-106">Side-By-Side Migration</span></span>
+
+<span data-ttu-id="71a67-107">En casi todas las migraciones, debe usar la ruta de migración en paralelo.</span><span class="sxs-lookup"><span data-stu-id="71a67-107">In nearly every migration, you should use the side-by-side migration path.</span></span> <span data-ttu-id="71a67-108">En una migración en paralelo, se implementa un nuevo servidor con Lync Server 2013 junto a un servidor correspondiente que ejecuta Lync Server 2010 y, después, se transfieren las operaciones al nuevo servidor.</span><span class="sxs-lookup"><span data-stu-id="71a67-108">In a side-by-side migration, you deploy a new server with Lync Server 2013 alongside a corresponding server that is running Lync Server 2010, and then transfer operations to the new server.</span></span> <span data-ttu-id="71a67-109">Si es necesario revertir a Lync Server 2010, solo tiene que desplazar las operaciones de vuelta a los servidores originales.</span><span class="sxs-lookup"><span data-stu-id="71a67-109">If it becomes necessary to roll back to Lync Server 2010, you have only to shift operations back to the original servers.</span></span> <span data-ttu-id="71a67-110">Tenga en cuenta que, en este caso, las reuniones nuevas programadas con clientes actualizados no funcionarán y los clientes también necesitarán cambiar de versión.</span><span class="sxs-lookup"><span data-stu-id="71a67-110">Be aware that in this situation any new meetings scheduled with upgraded clients will not work, and the clients would also need to be downgraded.</span></span>
+
+</div>
+
+<div>
+
+## <a name="coexistence-testing"></a><span data-ttu-id="71a67-111">Pruebas de coexistencia</span><span class="sxs-lookup"><span data-stu-id="71a67-111">Coexistence Testing</span></span>
+
+<span data-ttu-id="71a67-112">Después de implementar Lync Server 2013 en paralelo con Lync Server 2010, la implementación representa un estado de prueba de coexistencia de Lync Server 2013 y Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="71a67-112">After you have deployed Lync Server 2013 in parallel with Lync Server 2010, the deployment represents a coexistence testing state of Lync Server 2013 and Lync Server 2010.</span></span> <span data-ttu-id="71a67-113">Mientras se encuentre en este estado, es importante probar y asegurarse de que se inician los servicios, que cada sitio se puede administrar y que los clientes pueden comunicarse con los usuarios actuales y heredados.</span><span class="sxs-lookup"><span data-stu-id="71a67-113">While in this state, it is important to test and ensure that services are started, each site can be administered, and clients can communicate with current and legacy users.</span></span> <span data-ttu-id="71a67-114">Antes de la migración de todos los usuarios, es muy importante comprender el estado de cada implementación y asegurarse de que cada implementación es funcional y funciona correctamente.</span><span class="sxs-lookup"><span data-stu-id="71a67-114">Prior to the migration of all users, it is very important that you understand the state of each deployment and ensure that each deployment is functional and working properly.</span></span> <span data-ttu-id="71a67-115">Por lo general, la fase de pruebas de coexistencia se produce durante las pruebas piloto de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="71a67-115">Typically, the coexistence testing phase exists throughout the pilot testing of Lync Server 2013.</span></span> <span data-ttu-id="71a67-116">Los usuarios heredados se mueven a Lync Server 2013 durante un período de tiempo para garantizar que la compatibilidad de aplicaciones y las características y funciones funcionen correctamente.</span><span class="sxs-lookup"><span data-stu-id="71a67-116">Legacy users are moved to Lync Server 2013 for a period of time to ensure that application compatibility and features and functions are working properly.</span></span> <span data-ttu-id="71a67-117">Después de las pruebas piloto, los usuarios y las aplicaciones se mueven a la versión de producción de Lync Server 2013, y se retirarán las aplicaciones y los grupos heredados de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="71a67-117">After pilot testing, users and applications are moved to the production version of Lync Server 2013, and the legacy pools and applications of Lync Server 2010 are retired.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

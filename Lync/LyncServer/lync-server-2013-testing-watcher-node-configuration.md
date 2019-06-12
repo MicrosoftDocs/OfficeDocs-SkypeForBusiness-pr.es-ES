@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing watcher node configuration'
+---
+title: 'Lync Server 2013: probar la configuración del nodo de monitor'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn751537(v=OCS.15)
-ms:contentKeyID: 62388679
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)
+ms:contentKeyID: 63969667
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 65d2c79de4f86e490244ef63948c263d8f387fc5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850309"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing watcher node configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a><span data-ttu-id="c580e-102">Probar la configuración del nodo de monitor en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c580e-102">Testing watcher node configuration in Lync Server 2013</span></span>
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="c580e-103">_**Última modificación del tema:** 2014-11-03_</span><span class="sxs-lookup"><span data-stu-id="c580e-103">_**Topic Last Modified:** 2014-11-03_</span></span>
 
 
 <table>
@@ -23,93 +43,123 @@ _**Última modificación del tema:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p><span data-ttu-id="c580e-104">Programación de verificación</span><span class="sxs-lookup"><span data-stu-id="c580e-104">Verification schedule</span></span></p></td>
+<td><p><span data-ttu-id="c580e-105">Cada día</span><span class="sxs-lookup"><span data-stu-id="c580e-105">Daily</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
-<td><p>Windows PowerShell</p></td>
+<td><p><span data-ttu-id="c580e-106">Herramienta de prueba</span><span class="sxs-lookup"><span data-stu-id="c580e-106">Testing tool</span></span></p></td>
+<td><p><span data-ttu-id="c580e-107">Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="c580e-107">Windows PowerShell</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de administración de Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWatcherNodeConfiguration</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p><span data-ttu-id="c580e-108">Permisos necesarios</span><span class="sxs-lookup"><span data-stu-id="c580e-108">Permissions required</span></span></p></td>
+<td><p><span data-ttu-id="c580e-109">Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="c580e-109">When run locally using the Lync Server Management Shell, users must be members of the RTCUniversalServerAdmins security group.</span></span></p>
+<p><span data-ttu-id="c580e-110">Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet <strong>Test-CsWatcherNodeConfiguration</strong> .</span><span class="sxs-lookup"><span data-stu-id="c580e-110">When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWatcherNodeConfiguration</strong> cmdlet.</span></span> <span data-ttu-id="c580e-111">Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="c580e-111">To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</span></span></p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot; Test-CsWatcherNodeConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-If you are using Microsoft System Center Operations Manager to monitor Lync Server 2013 then you have the option of setting up "watcher nodes": computers that periodically, and automatically, run synthetic transactions to verify that Lync Server is working as expected. Watcher nodes are assigned to pools, and are managed by using the **CsWatcherNodeConfiguration** cmdlets. Note that you do not need to install watcher nodes if you are using System Center Operations Manager. You can still monitor your system without using watcher nodes. The only difference is that any synthetic transactions that you want to run must be invoked manually instead of automatically invoked by Operations Manager.
+## <a name="description"></a><span data-ttu-id="c580e-112">Descripción</span><span class="sxs-lookup"><span data-stu-id="c580e-112">Description</span></span>
 
-The **Test-CsWatcherNodeConfiguration** cmdlet enables you to verify that a watcher node was configured correctly and is assigned to a valid Lync Server 2013 pool. Note that the **Test-CsWatcherNodeConfiguration** cmdlet must be run on the watcher node itself. The cmdlet cannot be run against remote computers.
+<span data-ttu-id="c580e-113">Si usa Microsoft System Center Operations Manager para supervisar Lync Server 2013, tendrá la opción de configurar "nodos de monitor": equipos que ejecutan de forma periódica y automática transacciones sintéticas para comprobar que Lync Server funciona como esperado.</span><span class="sxs-lookup"><span data-stu-id="c580e-113">If you are using Microsoft System Center Operations Manager to monitor Lync Server 2013 then you have the option of setting up "watcher nodes": computers that periodically, and automatically, run synthetic transactions to verify that Lync Server is working as expected.</span></span> <span data-ttu-id="c580e-114">Los nodos de monitor se asignan a grupos y se administran mediante los cmdlets de **CsWatcherNodeConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="c580e-114">Watcher nodes are assigned to pools, and are managed by using the **CsWatcherNodeConfiguration** cmdlets.</span></span> <span data-ttu-id="c580e-115">Tenga en cuenta que no necesita instalar nodos de monitor si está usando System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="c580e-115">Note that you do not need to install watcher nodes if you are using System Center Operations Manager.</span></span> <span data-ttu-id="c580e-116">Aún puede supervisar el sistema sin usar nodos de monitor.</span><span class="sxs-lookup"><span data-stu-id="c580e-116">You can still monitor your system without using watcher nodes.</span></span> <span data-ttu-id="c580e-117">La única diferencia es que cualquier transacción sintética que desee ejecutar debe invocarse manualmente en lugar de invocarse de forma automática por parte de Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="c580e-117">The only difference is that any synthetic transactions that you want to run must be invoked manually instead of automatically invoked by Operations Manager.</span></span>
 
-## Running the test
+<span data-ttu-id="c580e-118">El cmdlet **Test-CsWatcherNodeConfiguration** le permite comprobar que un nodo de monitor se ha configurado correctamente y se asigna a un grupo de servidores de Lync Server 2013 válido.</span><span class="sxs-lookup"><span data-stu-id="c580e-118">The **Test-CsWatcherNodeConfiguration** cmdlet enables you to verify that a watcher node was configured correctly and is assigned to a valid Lync Server 2013 pool.</span></span> <span data-ttu-id="c580e-119">Tenga en cuenta que el cmdlet **Test-CsWatcherNodeConfiguration** debe ejecutarse en el nodo de monitor en sí.</span><span class="sxs-lookup"><span data-stu-id="c580e-119">Note that the **Test-CsWatcherNodeConfiguration** cmdlet must be run on the watcher node itself.</span></span> <span data-ttu-id="c580e-120">El cmdlet no se puede ejecutar en equipos remotos.</span><span class="sxs-lookup"><span data-stu-id="c580e-120">The cmdlet cannot be run against remote computers.</span></span>
 
-The following command verifies the configuration settings for each watcher node that is being used in the organization.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a><span data-ttu-id="c580e-121">Ejecutar la prueba</span><span class="sxs-lookup"><span data-stu-id="c580e-121">Running the test</span></span>
+
+<span data-ttu-id="c580e-122">El siguiente comando comprueba la configuración de cada nodo de monitor que se usa en la organización.</span><span class="sxs-lookup"><span data-stu-id="c580e-122">The following command verifies the configuration settings for each watcher node that is being used in the organization.</span></span>
 
     Test-CsWatcherNodeConfiguration
 
-## Determining success or failure
+</div>
 
-The following successful sample output shows a system with four edge servers.
+<div>
 
-Validating target pool atl-cs-001.litwareinc.com against topology.
+## <a name="determining-success-or-failure"></a><span data-ttu-id="c580e-123">Determinar el éxito o el fracaso</span><span class="sxs-lookup"><span data-stu-id="c580e-123">Determining success or failure</span></span>
 
-Success: Target pool atl-cs-001.litwareinc.com exists in topology.
+<span data-ttu-id="c580e-124">La siguiente salida de ejemplo correcta muestra un sistema con cuatro servidores perimetrales.</span><span class="sxs-lookup"><span data-stu-id="c580e-124">The following successful sample output shows a system with four edge servers.</span></span>
 
-Success: Target pool atl-cs-001.litwareinc.com has Registrar role installed.
+<span data-ttu-id="c580e-125">Validando la atl-cs-001.litwareinc.com del grupo de destino en topología.</span><span class="sxs-lookup"><span data-stu-id="c580e-125">Validating target pool atl-cs-001.litwareinc.com against topology.</span></span>
 
-Success: Target pool atl-cs-001.litwareinc.com is supported version.
+<span data-ttu-id="c580e-126">Correcto: la atl-cs-001.litwareinc.com del grupo de destino existe en la topología.</span><span class="sxs-lookup"><span data-stu-id="c580e-126">Success: Target pool atl-cs-001.litwareinc.com exists in topology.</span></span>
 
-Success: Port number for 5061 Target pool atl-cs-001.litwareinc.com is correct.
+<span data-ttu-id="c580e-127">Correcto: el atl-cs-001.litwareinc.com del grupo de destino tiene el rol de registrador instalado.</span><span class="sxs-lookup"><span data-stu-id="c580e-127">Success: Target pool atl-cs-001.litwareinc.com has Registrar role installed.</span></span>
 
-Checking for missing pools in watcher node configuration is started. If any error is detected, it will be printed.
+<span data-ttu-id="c580e-128">Correcto: la versión del grupo de atl-cs-001.litwareinc.com es compatible.</span><span class="sxs-lookup"><span data-stu-id="c580e-128">Success: Target pool atl-cs-001.litwareinc.com is supported version.</span></span>
 
-Checking for missing pools in watcher node configuration is finished.
+<span data-ttu-id="c580e-129">Éxito: el número de puerto para la atl-cs-001.litwareinc.com del grupo de destino 5061 es correcto.</span><span class="sxs-lookup"><span data-stu-id="c580e-129">Success: Port number for 5061 Target pool atl-cs-001.litwareinc.com is correct.</span></span>
 
-Checking for watcher node registry keys created by watcher node installation, is started. If any error is detected, it will be printed.
+<span data-ttu-id="c580e-130">Se ha iniciado la búsqueda de grupos que faltan en la configuración del nodo de monitor.</span><span class="sxs-lookup"><span data-stu-id="c580e-130">Checking for missing pools in watcher node configuration is started.</span></span> <span data-ttu-id="c580e-131">Si se detecta cualquier error, se imprimirá.</span><span class="sxs-lookup"><span data-stu-id="c580e-131">If any error is detected, it will be printed.</span></span>
 
-Checking for watcher node registry keys created by watcher node installation, is finished. Detected authentication type is Negotiate.
+<span data-ttu-id="c580e-132">Se ha finalizado la búsqueda de grupos que faltan en la configuración del nodo de monitor.</span><span class="sxs-lookup"><span data-stu-id="c580e-132">Checking for missing pools in watcher node configuration is finished.</span></span>
 
-Successfully validated existence of test user’s credential sip:user1@ atl-cs-001.litwareinc.com in credential management store.
+<span data-ttu-id="c580e-133">Se ha iniciado la comprobación de las claves del registro del nodo de monitor creadas por la instalación del nodo de monitor.</span><span class="sxs-lookup"><span data-stu-id="c580e-133">Checking for watcher node registry keys created by watcher node installation, is started.</span></span> <span data-ttu-id="c580e-134">Si se detecta cualquier error, se imprimirá.</span><span class="sxs-lookup"><span data-stu-id="c580e-134">If any error is detected, it will be printed.</span></span>
 
-Successfully validated existence of test user’s credential sip:user2@ atl-cs-001.litwareinc.com in credential management store.
+<span data-ttu-id="c580e-135">La comprobación de las claves del registro del nodo de monitor creadas por la instalación del nodo de monitor ha finalizado.</span><span class="sxs-lookup"><span data-stu-id="c580e-135">Checking for watcher node registry keys created by watcher node installation, is finished.</span></span> <span data-ttu-id="c580e-136">El tipo de autenticación detectada es Negotiate.</span><span class="sxs-lookup"><span data-stu-id="c580e-136">Detected authentication type is Negotiate.</span></span>
 
-Checking for missing pools in watcher node configuration is started. If any error is detected, it will be printed.
+<span data-ttu-id="c580e-137">Se validó correctamente la existencia de credenciales del usuario de prueba: usuario1 @ atl-cs-001.litwareinc.com en la tienda de administración de credenciales.</span><span class="sxs-lookup"><span data-stu-id="c580e-137">Successfully validated existence of test user’s credential sip:user1@ atl-cs-001.litwareinc.com in credential management store.</span></span>
 
-WARNING: Pool atl-cs-001.litwareinc.com has Registrar
+<span data-ttu-id="c580e-138">Se validó correctamente la existencia del SIP de credenciales del usuario de prueba: usuario2 @ atl-cs-001.litwareinc.com en la tienda de administración de credenciales.</span><span class="sxs-lookup"><span data-stu-id="c580e-138">Successfully validated existence of test user’s credential sip:user2@ atl-cs-001.litwareinc.com in credential management store.</span></span>
 
-role installed, but there are no test users configured for it.
+<span data-ttu-id="c580e-139">Se ha iniciado la búsqueda de grupos que faltan en la configuración del nodo de monitor.</span><span class="sxs-lookup"><span data-stu-id="c580e-139">Checking for missing pools in watcher node configuration is started.</span></span> <span data-ttu-id="c580e-140">Si se detecta cualquier error, se imprimirá.</span><span class="sxs-lookup"><span data-stu-id="c580e-140">If any error is detected, it will be printed.</span></span>
 
-Checking for missing pools in watcher node configuration is finished.
+<span data-ttu-id="c580e-141">ADVERTENCIA: el atl-cs-001.litwareinc.com de grupo tiene registrador</span><span class="sxs-lookup"><span data-stu-id="c580e-141">WARNING: Pool atl-cs-001.litwareinc.com has Registrar</span></span>
 
-Checking for watcher node registry keys created by watcher node installation, is
+<span data-ttu-id="c580e-142">rol instalado, pero no hay ningún usuario de prueba configurado para él.</span><span class="sxs-lookup"><span data-stu-id="c580e-142">role installed, but there are no test users configured for it.</span></span>
 
-started. If any error is detected, it will be printed.
+<span data-ttu-id="c580e-143">Se ha finalizado la búsqueda de grupos que faltan en la configuración del nodo de monitor.</span><span class="sxs-lookup"><span data-stu-id="c580e-143">Checking for missing pools in watcher node configuration is finished.</span></span>
 
-Test-CsWatcherNodeConfiguration : Cannot find Health registry key in
+<span data-ttu-id="c580e-144">La comprobación de las claves del registro del nodo de monitor creadas por la instalación del nodo de monitor es</span><span class="sxs-lookup"><span data-stu-id="c580e-144">Checking for watcher node registry keys created by watcher node installation, is</span></span>
 
-Software\\Microsoft\\Real-Time Communications. Make sure watcher node .msi is
+<span data-ttu-id="c580e-145">Comience.</span><span class="sxs-lookup"><span data-stu-id="c580e-145">started.</span></span> <span data-ttu-id="c580e-146">Si se detecta cualquier error, se imprimirá.</span><span class="sxs-lookup"><span data-stu-id="c580e-146">If any error is detected, it will be printed.</span></span>
 
-installed properly.
+<span data-ttu-id="c580e-147">Prueba-CsWatcherNodeConfiguration: no se puede encontrar la clave del registro de estado en</span><span class="sxs-lookup"><span data-stu-id="c580e-147">Test-CsWatcherNodeConfiguration : Cannot find Health registry key in</span></span>
 
-## Reasons why the test might have failed
+<span data-ttu-id="c580e-148">Software\\comunicaciones\\en tiempo real de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="c580e-148">Software\\Microsoft\\Real-Time Communications.</span></span> <span data-ttu-id="c580e-149">Asegúrese de que el nodo Monitor. msi está</span><span class="sxs-lookup"><span data-stu-id="c580e-149">Make sure watcher node .msi is</span></span>
 
-Here are some common reasons why **Test-CsWatcherNodeConfiguration** might fail:
+<span data-ttu-id="c580e-150">instalado correctamente.</span><span class="sxs-lookup"><span data-stu-id="c580e-150">installed properly.</span></span>
 
-  - Watcher node is not correctly installed.
+</div>
 
-  - No test users are configured.
+<div>
 
-## Vea también
+## <a name="reasons-why-the-test-might-have-failed"></a><span data-ttu-id="c580e-151">Razones por las que se ha producido un error en la prueba</span><span class="sxs-lookup"><span data-stu-id="c580e-151">Reasons why the test might have failed</span></span>
 
-#### Otros recursos
+<span data-ttu-id="c580e-152">Estas son algunas de las razones comunes por las que **Test-CsWatcherNodeConfiguration** podría fallar:</span><span class="sxs-lookup"><span data-stu-id="c580e-152">Here are some common reasons why **Test-CsWatcherNodeConfiguration** might fail:</span></span>
 
-[Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
-[New-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsWatcherNodeConfiguration)  
-[Remove-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
-[Set-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWatcherNodeConfiguration)
+  - <span data-ttu-id="c580e-153">El nodo de monitor no está correctamente instalado.</span><span class="sxs-lookup"><span data-stu-id="c580e-153">Watcher node is not correctly installed.</span></span>
+
+  - <span data-ttu-id="c580e-154">No hay ningún usuario de prueba configurado.</span><span class="sxs-lookup"><span data-stu-id="c580e-154">No test users are configured.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="c580e-155">Vea también</span><span class="sxs-lookup"><span data-stu-id="c580e-155">See Also</span></span>
+
+
+[<span data-ttu-id="c580e-156">Get-CsWatcherNodeConfiguration</span><span class="sxs-lookup"><span data-stu-id="c580e-156">Get-CsWatcherNodeConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
+[<span data-ttu-id="c580e-157">New-CsWatcherNodeConfiguration</span><span class="sxs-lookup"><span data-stu-id="c580e-157">New-CsWatcherNodeConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsWatcherNodeConfiguration)  
+[<span data-ttu-id="c580e-158">Remove-CsWatcherNodeConfiguration</span><span class="sxs-lookup"><span data-stu-id="c580e-158">Remove-CsWatcherNodeConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
+[<span data-ttu-id="c580e-159">Set-CsWatcherNodeConfiguration</span><span class="sxs-lookup"><span data-stu-id="c580e-159">Set-CsWatcherNodeConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsWatcherNodeConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
