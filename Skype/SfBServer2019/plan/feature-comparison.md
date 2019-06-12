@@ -53,7 +53,7 @@ En esta tabla se presentan las características de presencia mejorada que implic
 | Agregar una nota personalizada                                                                                   | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Usar una fotografía de cualquier sitio público para Mi imagen  <br/> (no disponible en Skype empresarial online) | &#x2714;                                      |                           | &#x2714;         |
 
- &#x2776;  El estado de publicación no es compatible con la información de disponibilidad del calendario.
+ &#x2776; no admite el estado de publicación en función de la información de disponibilidad del calendario.
 
 ## <a name="contacts-and-contact-groups-support"></a>Compatibilidad con contactos y grupos de contactos
 <a name="BKMK_Contacts"> </a>
@@ -88,7 +88,7 @@ En esta tabla se presentan las características relacionadas con la compatibilid
 |:-----|:-----|:-----|:-----|  
 |Iniciar la mensajería instantánea con un contacto o enviarle un correo electrónico  |&#x2714;|&#x2714;|&#x2714;|  
 |Navegar entre varias conversaciones de mensajería instantánea o realizar un seguimiento de varias conversaciones en una ventana de única pestaña   |&#x2714;|&#x2714;|&#x2714;| 
-|Registrar las conversaciones de mensajería instantánea en Outlook  |&#x2714;|&#x2714; Si el historial de conversaciones del lado del servidor está activado   |&#x2714;|   
+|Registrar las conversaciones de mensajería instantánea en Outlook  |&#x2714;|&#x2714; si el historial de conversaciones del lado del servidor está activado   |&#x2714;|   
 |Revisar la ortografía |&#x2714;|&#x2714;||   
 |Búsqueda de aptitudes (con integración con SharePoint Server)   <br/> (Los servidores locales de Skype empresarial y los de SharePoint 2013 son necesarios para la búsqueda de aptitudes).  |&#x2714;||&#x2714;|
 |Integración de sistemas de chat en grupo o chat persistente  <br/> (no disponible para Skype empresarial online)|&#x2714;||&#x2714;|  
@@ -111,19 +111,19 @@ Para obtener más información, consulte la [Descripción del servicio de Skype 
 
 |Característica/función | Cliente de Skype empresarial 2016 | Skype Empresarial en Mac | Aplicación web de Skype Empresarial | Cliente de Skype empresarial 2015 | Cliente de Lync 2013 | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
-|Agregar audio de equipo  |&#x2714;|&#x2714;|& # x2714; (requiere complemento)  |&#x2714;|&#x2714;| 
-|Agregar vídeo |&#x2714;|&#x2714;|& # x2714; (requiere complemento) |&#x2714;|&#x2714;| 
+|Agregar audio de equipo  |&#x2714;|&#x2714;|&#x2714; (requiere complemento)  |&#x2714;|&#x2714;| 
+|Agregar vídeo |&#x2714;|&#x2714;|&#x2714; (requiere complemento) |&#x2714;|&#x2714;| 
 |Ver un vídeo entre varias partes (vista de galería)  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Pantalla compartida basada en vídeo    |&#x2714;|&#x2714;|&#x2714; Solo lectura   ||| 
+|Pantalla compartida basada en vídeo    |&#x2714;|&#x2714;|&#x2714; solo lectura   ||| 
 |Usar los controles de moderador en la reunión |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |Obtener acceso a lista de reuniones detallada |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
 |Participar en mensajería instantánea para varios participantes |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|  
-|Compartir el escritorio (si se habilita)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; (requiere complemento) |&#x2714;| &#x2714;|
-|Compartir un programa (si se habilita) |&#x2714;|Ver solamente   |& # x2714; (requiere complemento)  |&#x2714;|&#x2714;|   
+|Compartir el escritorio (si se habilita)  |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776;  (requiere complemento) |&#x2714;| &#x2714;|
+|Compartir un programa (si se habilita) |&#x2714;|Ver solamente   |&#x2714; (requiere complemento)  |&#x2714;|&#x2714;|   
 |Agregar participantes anónimos (si se habilita) |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Usar las reuniones de audio de acceso telefónico & # x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
+|Usar las reuniones de audio de acceso telefónico &#x2777;|&#x2714; |&#x2714;|&#x2714;  |&#x2714;|&#x2714;  |
 |Empezar una reunión de tipo Reunirse ahora|&#x2714;|&#x2714;||&#x2714;|&#x2714;|  
-|Agregar y presentar archivos de Microsoft PowerPoint |&#x2714;| &#x2778; Anotaciones no disponibles   |&#x2714;|&#x2714;|&#x2714;| 
+|Agregar y presentar archivos de Microsoft PowerPoint |&#x2714;| &#x2778; anotaciones no disponibles   |&#x2714;|&#x2714;|&#x2714;| 
 |Explorar archivos de Microsoft PowerPoint |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
 |Agregar y editar las notas de reunión de OneNote  |&#x2714;||Solo editar (no agregar)  |&#x2714;|&#x2714;|
 |Usar una pizarra |&#x2714;||&#x2714;|&#x2714;|&#x2714;|
@@ -141,15 +141,15 @@ Para obtener más información, consulte la [Descripción del servicio de Skype 
 |Establecer el primer plano del vídeo (bloquear vídeo) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
 |Ceder/tomar el control de la pantalla compartida  |&#x2714;||&#x2714;|||
 
- &#x2776;  Los participantes no pueden controlar los escritorios compartidos por usuarios de Skype empresarial en Mac, Lync para Mac 2011 o Communicator para Mac 2011. Skype empresarial en Mac, Lync para Mac 2011 y Communicator para Mac 2011 los usuarios no pueden controlar los escritorios compartidos por usuarios de Windows. Esto tampoco funcionará en la aplicación Web de Skype empresarial en Max OSX.
+ &#x2776; los participantes no pueden controlar los escritorios compartidos por usuarios de Skype empresarial en Mac, Lync para Mac 2011 o Communicator para Mac 2011. Skype empresarial en Mac, Lync para Mac 2011 y Communicator para Mac 2011 los usuarios no pueden controlar los escritorios compartidos por usuarios de Windows. Esto tampoco funcionará en la aplicación Web de Skype empresarial en Max OSX.
 
- &#x2777;  Para Skype empresarial online, esta característica requiere conferencias RTC de Microsoft, mensajería unificada de Exchange o un proveedor de servicios de audioconferencia de terceros.
+ &#x2777; para Skype empresarial online, esta característica requiere conferencias RTC de Microsoft, mensajería unificada de Exchange o un proveedor de servicios de audioconferencia de terceros.
 
- &#x2778;  El cliente de Lync para Mac 2011 no puede ver presentaciones de PowerPoint de Microsoft Office 2013 cuando se han compartido en una conferencia por la aplicación Web de Skype empresarial.
+ &#x2778; el cliente de Lync para Mac 2011 no puede ver presentaciones de PowerPoint de Microsoft Office 2013 cuando se han compartido en una conferencia desde la aplicación Web de Skype empresarial.
 
-&#x2779;  Para las aplicaciones de Skype empresarial 2016, debe usar hacer clic y ejecutar, compilación 16.0.4227 o posterior.
+&#x2779; para las aplicaciones de Skype empresarial 2016, debe usar hacer clic y ejecutar, compilación 16.0.4227 o versiones posteriores.
 
-&#x2780;  Para las aplicaciones de Skype empresarial 2015, debe tener la actualización de septiembre, compilación 15.0.4747 o versiones posteriores.
+&#x2780; para las aplicaciones de Skype empresarial 2015, debe tener la actualización de septiembre, compilación 15.0.4747 o versiones posteriores.
 
 ## <a name="voice-telephony-support"></a>Compatibilidad con voz (telefonía)
 <a name="BKMK_Telephony"> </a>
@@ -180,7 +180,7 @@ En esta tabla se presentan las características relacionadas con la compatibilid
 |Enrutamiento basado en ubicación |&#x2714;|&#x2714;|&#x2714;| 
 |Administrar el grupo de llamada de equipo/grupo de respuesta |&#x2714;||&#x2714;|
 
- &#x2776;  Esta característica no está disponible en Skype empresarial online.
+ &#x2776; esta característica no está disponible en Skype empresarial online.
 
 ## <a name="external-users-support"></a>Compatibilidad con usuarios externos
 <a name="BKMK_ExternalUsers"> </a>
@@ -205,9 +205,9 @@ En esta tabla se presentan las características relacionadas con la compatibilid
 |Grabación del lado cliente de transferencias de archivos, páginas compartidas de OneNote y anotaciones de PowerPoint| &#x2714; &#x2777; ||&#x2714; &#x2777; |
 |Seleccionar la resolución preferida para la grabación  |&#x2714;||&#x2714;|
 
- &#x2776;  La grabación no está disponible en determinados planes independientes de Skype empresarial online. La grabación requiere derechos de cliente completos de Skype Empresarial.
+ &#x2776; grabación no está disponible en determinados planes independientes de Skype empresarial online. La grabación requiere derechos de cliente completos de Skype Empresarial.
 
- &#x2777;  La grabación de transferencias de archivos, páginas de OneNote compartidas y anotaciones de PowerPoint no está disponible en Skype empresarial online.
+ &#x2777; grabación de transferencias de archivos, páginas de OneNote compartidas y anotaciones de PowerPoint no está disponible en Skype empresarial online.
 
 ## <a name="modern-authentication"></a>Autenticación moderna
 <a name="BKMK_Recording"> </a>
@@ -221,7 +221,7 @@ La autenticación moderna también requiere una topología descrita en las topol
 |:-----|:-----|:-----|:-----|  
 |Autenticación moderna |&#x2714;|&#x2714;|&#x2714;|
 |Autenticación multifactor|&#x2714;|&#x2714;|&#x2714;|
-|Autenticación basada en certificado |& # x2714; (solo dispositivo unido a dominio) |&#x2714;|& # x2714; (solo dispositivo unido a dominio)  |
+|Autenticación basada en certificado |&#x2714; (solo dispositivo unido al dominio) |&#x2714;|&#x2714; (solo dispositivo unido al dominio)  |
 |Autenticación Kerberos |&#x2714;||&#x2714;|
 
 ## <a name="archiving-compliance-and-logging-support"></a>Compatibilidad con archivado, cumplimiento y registro
@@ -232,12 +232,12 @@ En esta tabla se presentan las características relacionadas con la compatibilid
 
  | Característica/función | Cliente de Skype empresarial 2015, 2016 o 2019 | Skype Empresarial en Mac | Cliente de Lync 2013 |  
 |:-----|:-----|:-----|:-----|  
-|Archivado de conversaciones de mensajería instantánea en el Historial de conversaciones de Outlook|&#x2714; &#x2776; |&#x2714; Si el historial de conversaciones del lado del servidor está activado  |&#x2714; &#x2776; | 
+|Archivado de conversaciones de mensajería instantánea en el Historial de conversaciones de Outlook|&#x2714; &#x2776; |&#x2714; si el historial de conversaciones del lado del servidor está activado  |&#x2714; &#x2776; | 
 |Archivado del lado cliente de audio, vídeo, uso compartido de aplicaciones, uso compartido de escritorio y contenido cargado  |&#x2714; &#x2776; ||&#x2714; &#x2776; |
 |Archivado de la parte cliente de las transferencias de archivos, páginas de OneNote compartidas y anotaciones de PowerPoint (no disponible en Skype empresarial online)  |&#x2714;||&#x2714;|
 |Acceder a los registros de inicio de sesión desde el icono de Skype empresarial en la barra de tareas |&#x2714;||&#x2714;|
 
- &#x2776;  Para los usuarios de Skype empresarial online, esta característica requiere Exchange Online y está controlada por el atributo de conservación local del buzón del usuario de Exchange.
+ &#x2776; para los usuarios de Skype empresarial online, esta característica requiere Exchange Online y está controlada por el atributo de conservación local del buzón del usuario de Exchange.
 
 ## <a name="client-limitations"></a>Limitaciones de cliente 
 <a name="Types"> </a>

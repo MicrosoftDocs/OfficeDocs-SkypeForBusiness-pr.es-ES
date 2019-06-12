@@ -1,77 +1,117 @@
-﻿---
-title: Visualización de información del PIN de usuario
-TOCTitle: Visualización de información del PIN de usuario
-ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688067(v=OCS.15)
-ms:contentKeyID: 49889197
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ver información de PIN de usuario'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View user PIN information
+ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688067(v=OCS.15)
+ms:contentKeyID: 49733661
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eb3d854f68e9e22e8d8fb1fa0d26f555f09af1ae
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850084"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visualización de información del PIN de usuario
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="view-user-pin-information-in-lync-server-2013"></a>Ver información de PIN de usuario en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-Para unirse a una conferencia de acceso telefónico como usuario autenticado, un usuario de Lync Server 2013 con credenciales de Servicios de dominio de Active Directory (AD DS) necesita un número de identificación personal (PIN). Puede ver información del PIN de un usuario en el Panel de control de Lync Server 2013.
+Para unirse a una conferencia de acceso telefónico local como usuario autenticado, un usuario de Lync Server 2013 con credenciales de servicios de dominio de Active Directory (AD DS) necesita un número de identificación personal (PIN). Puede ver la información del PIN de un usuario desde el panel de control de Lync Server 2013.
+
+<div>
 
 
-> [!NOTE]
-> Puede ver información de estado del PIN como, por ejemplo, si se ha establecido el PIN o cuándo se modificó el PIN, pero no puede ver el PIN actual viendo su estado. Si un usuario ha perdido su PIN, puede restablecerlo siguiendo los procedimientos de <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">Establecer el PIN de conferencia de acceso telefónico local para un usuario en Lync Server 2013</A>
+> [!NOTE]  
+> Puede ver información de estado del PIN como, por ejemplo, si se ha establecido el PIN o cuándo se modificó el PIN, pero no puede ver el PIN actual viendo su estado. Si un usuario ha perdido su PIN, puede restablecerlo siguiendo los procedimientos de establecer el <A href="lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md">PIN de conferencias de acceso telefónico local de un usuario en Lync Server 2013</A>
 
 
 
-## Para ver el PIN de un usuario en Panel de control de Lync Server
+</div>
+
+<div>
+
+## <a name="to-view-a-users-pin-in-lync-server-control-panel"></a>Para ver el PIN de un usuario en el panel de control de Lync Server
 
 1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
 4.  Use uno de los métodos siguientes para encontrar a un usuario:
     
-      - En el cuadro **Buscar usuarios** , escriba la primera porción del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario y, a continuación, haga clic en **Buscar** .
+      - En el cuadro **Buscar usuarios**, escriba la primera porción del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario y, a continuación, haga clic en **Buscar**.
     
-      - Si ha guardado una consulta, haga clic en el icono **Abrir consulta** , utilice el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar** .
+      - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, use el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
 
-5.  (Opcional) Especifique criterios de búsqueda adicionales para restringir los resultados:
+5.  (Opcional) Especificar criterios de búsqueda adicionales para restringir los resultados:
     
-    1.  Haga clic en **Agregar filtro** .
+    1.  Haga clic en **Agregar filtro**.
     
-    2.  Especifique la propiedad de usuario; para ello, escríbala o haga clic en la flecha de la lista desplegable para seleccionar la propiedad.
+    2.  Especifique la propiedad de usuario. Para ello, escríbala o haga clic en la flecha de la lista desplegable para seleccionar la propiedad.
     
-    3.  En la lista desplegable **Igual a** , haga clic en el operador (por ejemplo, **Igual a** o **No igual a** ).
+    3.  En la lista desplegable **Igual a**, haga clic en el operador (por ejemplo, **Igual a** o **No igual a**).
     
     4.  En función de la propiedad de usuario que haya seleccionado, especifique los criterios que desee usar para filtrar los resultados de búsqueda escribiendo o haciendo clic en la flecha de la lista desplegable.
         
-        > [!TIP]  
-        > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong> .
+        <div>
         
+
+        > [!TIP]  
+        > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <STRONG>Agregar filtro</STRONG>.
+
+        
+        </div>
     
-    5.  Haga clic en **Buscar** .
+    5.  Haga clic en **Buscar**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Si el PIN está bloqueado, debe desbloquearlo antes de definirlo. Para desbloquear el PIN, haga clic en el usuario, en <STRONG>Acción</STRONG> y en <STRONG>Desbloquear PIN</STRONG>.
+    > [!NOTE]  
+    > Si el PIN está bloqueado, debe desbloquearlo antes de definirlo. Para desbloquear el PIN, haga clic en el usuario, en <STRONG>Acción</STRONG>y en <STRONG>Desbloquear PIN</STRONG>.
 
+    
+    </div>
 
+6.  Haga clic en un usuario en los resultados de búsqueda, haga clic en **Acción** y luego en **Ver estado de PIN**.
 
-6.  Haga clic en un usuario en los resultados de búsqueda, haga clic en **Acción** y luego en **Ver estado de PIN** .
+</div>
 
-## Para ver la información del PIN del usuario con los cmdlets de Shell de administración de Lync Server
+<div>
 
-Puede ver la información del PIN del usuario con el cmdlet Get-CsClientPinInfo. Este cmdlet se puede ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Ver información de PIN de usuario mediante cmdlets de Windows PowerShell
 
-## Para ver la información del PIN del usuario
+Puede ver la información del PIN del usuario con el cmdlet Get-CsClientPinInfo. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
-  - Para ver la información del PIN de un usuario, escriba un comando similar al siguiente Shell de administración de Lync Server y luego presione ENTRAR:
+<div>
+
+## <a name="to-view-user-pin-information"></a>Para ver la información del PIN del usuario
+
+  - Para ver la información de PIN de un usuario, escriba un comando similar al siguiente en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
     
         Get-CsClientPinInfo -Identity "Ken Myer"
     
-    Eso devolverá información similar a esta:
+    Devolverá información similar a la siguiente:
     
         Identity          : sip:kenmyer@litwareinc.com
         IsPinSet          : False
@@ -79,12 +119,30 @@ Puede ver la información del PIN del usuario con el cmdlet Get-CsClientPinInfo.
         LastPinChangeTime : 9/25/2012 1:35:03 PM
         PinExpirationTime :
 
-Para más información, vea el tema de ayuda del cmdlet [Get-CsConferenceDisclaimer](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferenceDisclaimer).
+</div>
 
-## Vea también
+Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/Get-CsConferenceDisclaimer) .
 
-#### Tareas
+</div>
 
-[Establecer el PIN de conferencia de acceso telefónico local para un usuario en Lync Server 2013](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)  
-[Bloquear o desbloquear un PIN de usuario](lync-server-2013-lock-or-unlock-a-user-pin.md)
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Configurar el PIN de conferencias de acceso telefónico local de un usuario en Lync Server 2013](lync-server-2013-set-a-user-s-dial-in-conferencing-pin.md)  
+[Bloquear o desbloquear un PIN de usuario en Lync Server 2013](lync-server-2013-lock-or-unlock-a-user-pin.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

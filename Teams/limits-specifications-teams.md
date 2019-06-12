@@ -3,7 +3,7 @@ title: Límites y especificaciones para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/07/2019
+ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59e4ea4a914b0877eebb0dfd07cf643a4ecf52d8
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802618"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857409"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -49,7 +49,6 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Característica     | Límite máximo |
 |------------|---------------|
 |Número de personas en una reunión  | 250    |
-|Número de usuarios en un chat privado  | 50    |
 
 ## <a name="storage"></a>Almacenamiento
 
@@ -67,7 +66,7 @@ Ya que Teams se ejecuta en un back-end de SharePoint Online para compartir archi
 |Almacenamiento de archivos de Teams  |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |Hasta 25 TB por grupo o colección de sitios. |
 |Límite de carga de archivos (por archivo)    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |15 GB    |
 
-Cada pestaña Archivos en Teams se ejecuta en un back-end de SharePoint Online, por lo que los límites de almacenamiento anteriores se aplican para cada canal de un equipo.
+Los canales están respaldados por carpetas dentro de la colección de sitios de SharePoint Online creada para el equipo, por lo que las pestañas de archivos de los canales comparten los límites de almacenamiento del equipo al que pertenecen.
 
 Para obtener más información, vea [Límites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
@@ -77,15 +76,16 @@ Los usuarios que participan en conversaciones que forman parte de la lista de Ch
 
 La función de chat de Microsoft Teams funciona en un back-end de Microsoft Exchange, por lo que puede aplicar los límites de mensajería de Exchange en la función de chat en Microsoft Teams. Si los usuarios quieren enviar un correo electrónico a un canal en Teams, pueden hacerlo mediante la dirección de correo electrónico del canal. Cuando un correo electrónico forma parte de un canal, cualquier persona puede responder para iniciar una conversación. Estos son algunos de los límites correspondientes para enviar correo electrónico a un canal. 
 
-|Característica  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
-|---------|---------|---------|---------|---------|
-|Límite de tamaño de mensaje &dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|Límite de datos adjuntos &Dagger;  |base10     |base10     |base10     |base10    |
-|Límite de imágenes en línea &Dagger; |50   |50   |50   |50   |
+|Característica  | Límite máximo  |
+|---------|---------|
+|Número de usuarios en un chat privado  | 100    |
+|Tamaño del mensaje&dagger;  |25 KB   |
+|Número de archivos adjuntos&Dagger;  |base10     |
+|Número de imágenes en línea&Dagger; |50   |
 
 &dagger; Si el mensaje supera este límite, se genera un mensaje de vista previa y se pide al usuario ver o descargar el mensaje original desde el vínculo proporcionado.
 
-&Dagger; Si el número de datos adjuntos o imágenes supera este límite, el mensaje no se procesará y se enviará un correo electrónico NDR al remitente para informarle del error.
+&Dagger;Si el número de archivos adjuntos o imágenes supera este límite, no se procesará el mensaje y se enviará un mensaje de correo electrónico de NDR al remitente para notificarle el error.
 
 > [!NOTE]
 > El tamaño de los mensajes, los datos adjuntos y los límites de las imágenes en línea son los mismos en todas las licencias de Office 365.

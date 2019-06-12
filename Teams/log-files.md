@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0484b84daa1bd8604c5f2caf9cb728f8fce25a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5e670ffb90c91735578668bc42d1622386a0613
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219782"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857401"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
@@ -50,7 +50,7 @@ Para ver una lista completa de los sistemas operativos y los exploradores compat
 <a name="debug-logs"></a>Registros de depuración
 ---------------------------
 
-Estos son los registros más comunes y son necesarios para todos los casos de soporte técnico de Microsoft. Depurar los registros producidos por los clientes de escritorio de Windows y Mac, así como los clientes basado en el explorador. Los registros son texto basados y copia de seguridad que se leen de la parte inferior. Puede leer con cualquier editor de texto en función y se crean los registros de nuevo al iniciar sesión en el cliente.
+Estos son los registros más comunes y son necesarios para todos los casos de soporte técnico de Microsoft. Los registros de depuración los generan los clientes de escritorio de Windows y Mac, así como los clientes basados en explorador. Los registros se basan en texto y se leen de abajo hacia arriba. Se pueden leer con cualquier editor basado en texto y los nuevos registros se crean al iniciar sesión en el cliente.
 
 Los registros de depuración muestran los siguientes flujos de datos:
 
@@ -86,8 +86,12 @@ Los registros de medios contienen datos de diagnóstico sobre el uso compartido 
 
 |Cliente |Ubicación |
 |---------|---------|
-|Windows     |%AppData%\Microsoft\Teams\media-Stack\*.etl         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\*. blog         |
+|            |%appdata%\Microsoft\Teams\skylib\*. blog
+|            |%appdata%\Microsoft\Teams\media-stack\*. ETL         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
+|            |~/Library/Application Support/Microsoft/Teams/\*skylib. blog         |
+
 
 
 <a name="desktop-logs"></a>Registros de escritorio
@@ -105,5 +109,5 @@ Mac OsX:
 
 |Cliente |Ubicación |
 |---------|---------|
-|Windows     |%AppData%\Microsoft\Teams\logs.txt         |
+|Windows     |%appdata%\Microsoft\Teams\logs.txt         |
 |Mac OSX     |~/Library/Application Support/Microsoft/Teams/logs.txt         |

@@ -8,7 +8,7 @@ ms.date: 04/19/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo administrar la configuración de usuario de Microsoft Teams de forma masiva en el centro de administración de Microsoft Teams.
+description: Obtenga información sobre cómo administrar la configuración de usuario de Microsoft Teams en masa en el centro de administración de Microsoft Teams.
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.edit
@@ -22,26 +22,26 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32245085"
 ---
-# <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Editar la configuración de usuario de Microsoft Teams de forma masiva
+# <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Editar la configuración de usuario de Microsoft Teams en masa
 
-Como administrador, puede administrar la configuración de usuario de los equipos en el centro de administración de Microsoft Teams. En la página **usuarios** , puede ver información como la cuenta y detalles de la licencia y editar Directiva y otras opciones de configuración. Puede editar la configuración de los usuarios individualmente o para varios usuarios al mismo tiempo.
+Como administrador, administra la configuración de usuario de Teams en el centro de administración de Microsoft Teams. En la página **usuarios** , puede ver información como detalles de cuentas y licencias, así como editar directivas y otras opciones de configuración. Puede editar la configuración de los usuarios de forma individual o para varios usuarios al mismo tiempo.
 
-## <a name="edit-user-settings-in-bulk"></a>Editar la configuración de usuario de forma masiva
+## <a name="edit-user-settings-in-bulk"></a>Editar la configuración de usuario en masa
 
-Use el centro de administración de Microsoft Teams para editar la configuración de varios usuarios a la vez. Se recomienda la edición de la configuración para 20 usuarios a la vez. Para editar la configuración de un gran número de usuarios, use PowerShell. Para obtener más información, vea [Información general de los equipos de PowerShell](teams-powershell-overview.md).
+Use el centro de administración de Microsoft Teams para editar la configuración de varios usuarios a la vez. Recomendamos editar la configuración de 20 usuarios a la vez. Para editar la configuración de un gran número de usuarios, use PowerShell. Para obtener más información, vea [información general de Teams PowerShell](teams-powershell-overview.md).
 
-1. En la izquierda el centro de administración de Microsoft Teams, seleccione **los usuarios**.
-2. Búsqueda de los usuarios que desee editar o filtrar la vista para mostrar a los usuarios que desea editar.
-3. En la **& #x 2713;** columna (marca de verificación), seleccione los usuarios, realice una de las siguientes opciones:
-    - Seleccione uno de los usuarios a la vez. Un **& #x 2713;** se muestra junto a cada usuario que seleccione. Si selecciona más de 20 usuarios, no se bloqueará pero tenga en cuenta que los usuarios más seleccione, se llevará más tiempo para completar la operación.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, seleccione **usuarios**.
+2. Busque los usuarios que desea editar o filtre la vista para mostrar los usuarios que desea editar.
+3. En la columna **&#x2713;** (marca), seleccione los usuarios siguiendo uno de estos procedimientos:
+    - Seleccione los usuarios de uno en uno. Aparece una **&#x2713;** junto a cada uno de los usuarios que seleccione. Si selecciona más de 20 usuarios, no se bloqueará, pero tenga en cuenta que cuanto más usuarios seleccione, la operación tardará más tiempo en completarse.
 
-        ![Captura de pantalla de la página de los usuarios que muestra la selección del usuario](media/bulk-edit-user-settings-select-users.png)
+        ![Captura de pantalla de la página usuarios que muestra la selección de usuario](media/bulk-edit-user-settings-select-users.png)
 
-    - Haga clic en el & #x 2713; (marca de verificación) en la parte superior de la tabla para seleccionar todos los usuarios (hasta un máximo de 20 usuarios) y, a continuación, en el cuadro de diálogo **Limitar selección** , haga clic en **continuar seleccione todo** para completar la selección.
+    - Haga clic en la &#x2713; (marca de verificación) situada en la parte superior de la tabla para seleccionar todos los usuarios (hasta un máximo de 20 usuarios) y, a continuación, en el cuadro de diálogo **límite de selección** , haga clic en **continuar seleccionando todo** para completar la selección.
 
-        ![Captura de pantalla de la página usuarios, que muestra el límite de selección](media/bulk-edit-user-settings-select-all-limit.png) <br> Un **& #x 2713;** se muestra junto a los usuarios seleccionados.
+        ![Captura de pantalla de la página usuarios, que muestra el límite de selección](media/bulk-edit-user-settings-select-all-limit.png) <br> Se muestra un **&#x2713;** junto a los usuarios seleccionados.
 
-        ![Captura de pantalla de la página usuarios, que muestra 20 usuarios seleccionados](media/bulk-edit-user-settings-select-all.png)
+        ![Captura de pantalla de la página usuarios, en la que se muestran 20 usuarios seleccionados](media/bulk-edit-user-settings-select-all.png)
 4. Haga clic en **Editar configuración**, realice los cambios que desee y, a continuación, haga clic en **Guardar**.
 
     ![Captura de pantalla del panel Editar configuración](media/bulk-edit-user-settings-edit-settings.png)

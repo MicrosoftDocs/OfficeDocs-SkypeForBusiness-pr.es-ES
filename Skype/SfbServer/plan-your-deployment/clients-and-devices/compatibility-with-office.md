@@ -33,7 +33,7 @@ En la siguiente tabla se describen las características de Skype empresarial com
   
 **Compatibilidad de Skype empresarial y Microsoft Office**
 
-|**Característica**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 y 2016**|**Office 2016 para Mac** & # x2776; |
+|**Característica**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 y 2016**|&#x2776; **de Office 2016 para Mac** |
 |:-----|:-----|:-----|:-----|
 |**Características de Outlook** ||||
 |Personalizar invitaciones a reuniones de Outlook (agregar logotipo, URL de ayuda, declinación de responsabilidades, texto del pie de página)  |No  |Sí    |Sí|
@@ -51,7 +51,7 @@ En la siguiente tabla se describen las características de Skype empresarial com
 |Mensajería instantánea y presencia en los archivos de Microsoft Word y Microsoft Excel (etiquetas inteligentes habilitadas)    |Solo Microsoft Word    |Solo Microsoft Word    |No    |
 |Mensajería instantánea y presencia en los sitios de Microsoft SharePoint (debe instalarse Outlook)    |Sí    |Sí    |No    |
    
-&#x2776; : Supone que ha instalado y está ejecutando actualmente un cliente de Skype empresarial en Mac o el cliente de Lync 2011 para Mac.
+&#x2776;: se supone que ha instalado y ejecuta actualmente un cliente de Skype empresarial en Mac o el cliente de Lync 2011 para Mac.
   
 ## <a name="exchange-server-and-skype-for-business"></a>Exchange Server y Skype empresarial
 

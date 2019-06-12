@@ -1,21 +1,41 @@
-﻿---
-title: Tabla UserAgentDef en Lync Server 2013
-TOCTitle: Tabla UserAgentDef en Lync Server 2013
-ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205100(v=OCS.15)
-ms:contentKeyID: 48276083
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: tabla UserAgentDef'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UserAgentDef table
+ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205100(v=OCS.15)
+ms:contentKeyID: 48184860
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b378b6d71bb5163d1d2d2e9146cf3877c0d38a19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850228"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla UserAgentDef en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="useragentdef-table-in-lync-server-2013"></a>Tabla UserAgentDef en Lync Server 2013
 
-La tabla UserAgentDef establece la correspondencia entre los identificadores de agente de usuario y los nombres descriptivos de los agentes. Los agentes de usuario son clientes de software que se utilizan para conectar con Microsoft Lync Server 2013. Esta tabla se incorporó por primera vez en Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-03-25_
+
+La tabla UserAgentDef asigna los identificadores de agente de usuario a los nombres descriptivos del agente. Los agentes de usuario son clientes de software que se usan para conectarse a Microsoft Lync Server 2013. Esta tabla se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -39,8 +59,8 @@ La tabla UserAgentDef establece la correspondencia entre los identificadores de 
 </tr>
 <tr class="even">
 <td><p>2</p></td>
-<td><p>AV-MCU</p></td>
-<td><p>AV-MCU</p></td>
+<td><p>MCU de audio y vídeo</p></td>
+<td><p>MCU de audio y vídeo</p></td>
 </tr>
 <tr class="odd">
 <td><p>4</p></td>
@@ -48,12 +68,12 @@ La tabla UserAgentDef establece la correspondencia entre los identificadores de 
 <td><p>OC</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
+<td><p>4,8</p></td>
 <td><p>OCPhone</p></td>
 <td><p>OCPhone</p></td>
 </tr>
 <tr class="odd">
-<td><p>16</p></td>
+<td><p>apartado</p></td>
 <td><p>LMC</p></td>
 <td><p>LMC</p></td>
 </tr>
@@ -74,22 +94,22 @@ La tabla UserAgentDef establece la correspondencia entre los identificadores de 
 </tr>
 <tr class="odd">
 <td><p>128</p></td>
-<td><p>Attendant</p></td>
-<td><p>Attendant</p></td>
+<td><p>Operador</p></td>
+<td><p>Operador</p></td>
 </tr>
 <tr class="even">
 <td><p>256</p></td>
-<td><p>Conferencing_Announcement_Service_1.0</p></td>
-<td><p>CAS</p></td>
+<td><p>Conferencing_Announcement_Service_ 1.0</p></td>
+<td><p>ENTIDAD</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
-<td><p>Conferencing_Attendant_1.0</p></td>
+<td><p>Conferencing_Attendant_ 1.0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
-<td><p>Conference_Auto_Attendant_1.0</p></td>
+<td><p>Conference_Auto_Attendant_ 1.0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="odd">
@@ -99,23 +119,23 @@ La tabla UserAgentDef establece la correspondencia entre los identificadores de 
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
-<td><p>Call_Park_Service_1.0</p></td>
-<td><p>CPS</p></td>
+<td><p>Call_Park_Service_ 1.0</p></td>
+<td><p>CP</p></td>
 </tr>
 <tr class="odd">
 <td><p>1040</p></td>
 <td><p>Response_Group_Service Announcement_Service</p></td>
-<td><p>AS</p></td>
+<td><p>CUYA</p></td>
 </tr>
 <tr class="even">
 <td><p>2048</p></td>
-<td><p>Microsoft.Rtc.Applications.Ccs</p></td>
+<td><p>Microsoft. RTC. Applications. CCS</p></td>
 <td><p>CCS</p></td>
 </tr>
 <tr class="odd">
 <td><p>16386</p></td>
-<td><p>CoMo</p></td>
-<td><p>CoMo</p></td>
+<td><p>Notifica</p></td>
+<td><p>Notifica</p></td>
 </tr>
 <tr class="even">
 <td><p>16387</p></td>
@@ -144,8 +164,8 @@ La tabla UserAgentDef establece la correspondencia entre los identificadores de 
 </tr>
 <tr class="odd">
 <td><p>16396</p></td>
-<td><p>ST</p></td>
-<td><p>ST</p></td>
+<td><p>San</p></td>
+<td><p>San</p></td>
 </tr>
 <tr class="even">
 <td><p>16397</p></td>
@@ -184,8 +204,8 @@ La tabla UserAgentDef establece la correspondencia entre los identificadores de 
 </tr>
 <tr class="odd">
 <td><p>16404</p></td>
-<td><p>PCS</p></td>
-<td><p>PCS</p></td>
+<td><p>INFORMÁTICO</p></td>
+<td><p>INFORMÁTICO</p></td>
 </tr>
 <tr class="even">
 <td><p>16405</p></td>
@@ -194,8 +214,8 @@ La tabla UserAgentDef establece la correspondencia entre los identificadores de 
 </tr>
 <tr class="odd">
 <td><p>16406</p></td>
-<td><p>OWA</p></td>
-<td><p>OWA</p></td>
+<td><p>Access</p></td>
+<td><p>Access</p></td>
 </tr>
 <tr class="even">
 <td><p>16407</p></td>
@@ -219,8 +239,8 @@ La tabla UserAgentDef establece la correspondencia entre los identificadores de 
 </tr>
 <tr class="even">
 <td><p>32769</p></td>
-<td><p>Puerta de enlace</p></td>
-<td><p>Puerta de enlace</p></td>
+<td><p>Puerta</p></td>
+<td><p>Puerta</p></td>
 </tr>
 <tr class="odd">
 <td><p>32770</p></td>
@@ -229,4 +249,15 @@ La tabla UserAgentDef establece la correspondencia entre los identificadores de 
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

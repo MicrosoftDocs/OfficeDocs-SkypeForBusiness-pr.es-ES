@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPreference'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPreference
 ms:assetid: f94eb128-f782-42ff-a568-ed3529573bc8
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615052(v=OCS.15)
-ms:contentKeyID: 48277258
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615052(v=OCS.15)
+ms:contentKeyID: 48185913
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 652312c5ca48a140ee7f17486ef98debb4e08672
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850508"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPreference en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="tblpreference-in-lync-server-2013"></a>tblPreference en Lync Server 2013
 
-tblPreference contiene las preferencias de cliente de los usuarios. Normalmente, la utilizan los clientes antes de Lync 2013.
+</div>
 
-### Columnas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-24_
+
+tblPreference contiene las preferencias de cliente de los usuarios. Lo usan generalmente los clientes anteriores a Lync 2013.
+
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>
@@ -35,29 +55,29 @@ tblPreference contiene las preferencias de cliente de los usuarios. Normalmente,
 <tbody>
 <tr class="odd">
 <td><p>prefLabel</p></td>
-<td><p>nvarchar (255), no NULL</p></td>
-<td><p>Etiqueta con un formato como: &lt;user sip uri&gt;|username.&lt;preference set&gt;.</p></td>
+<td><p>nvarchar (255), not null</p></td>
+<td><p>Etiqueta con un formato como: &lt;SIP User URI&gt;| username. &lt;conjunto&gt;de preferencias.</p></td>
 </tr>
 <tr class="even">
 <td><p>prefSeqID</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Número secuencial (por etiqueta) para el control de versiones.</p></td>
+<td><p>int, not null</p></td>
+<td><p>Un número secuencial (por etiqueta) para fines de control de versiones.</p></td>
 </tr>
 <tr class="odd">
 <td><p>prefContent</p></td>
-<td><p>nvarchar(max)</p></td>
+<td><p>nvarchar (Max)</p></td>
 <td><p>Contenido codificado.</p></td>
 </tr>
 <tr class="even">
 <td><p>lastModifiedBy</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Identificador de la entidad de seguridad que ha actualizado la preferencia.</p></td>
+<td><p>int, not null</p></td>
+<td><p>IDENTIFICADOR de la identidad que actualizó la preferencia.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Tecla
+### <a name="key"></a>Clave
 
 <table>
 <colgroup>
@@ -77,4 +97,15 @@ tblPreference contiene las preferencias de cliente de los usuarios. Normalmente,
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

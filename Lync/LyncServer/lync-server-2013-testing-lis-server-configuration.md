@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing LIS server configuration'
+---
+title: 'Lync Server 2013: prueba de la configuración del servidor LIS'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing LIS server configuration
 ms:assetid: 6b06e7ab-522f-41a2-878b-e89cd4e3c6da
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn690129(v=OCS.15)
-ms:contentKeyID: 62281130
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690129(v=OCS.15)
+ms:contentKeyID: 63969614
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 8e5baed37e4c72da8b8348dab9702b5d22fbbc5e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850350"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing LIS server configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="testing-lis-server-configuration-in-lync-server-2013"></a>Probar la configuración del servidor LIS en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-06-05_
 
 
 <table>
@@ -23,87 +43,97 @@ _**Última modificación del tema:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Programación de verificación</p></td>
+<td><p>Cada día</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Herramienta de prueba</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de administración de Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the Test-CsLisConfiguration cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permisos necesarios</p></td>
+<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet test-CsLisConfiguration. Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsLisConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Test-CsLisConfiguration cmdlet verifies your ability to contact the LIS web service. If the web service can be contacted, then the test will be considered a success, regardless of whether any specific locations can be found.
+## <a name="description"></a>Descripción
 
-## Running the test
+El cmdlet test-CsLisConfiguration verifica su capacidad para ponerse en contacto con el servicio Web de LIS. Si se puede contactar con el servicio Web, la prueba se considerará satisfactoria, independientemente de si se puede encontrar algún lugar específico.
 
-The Test-CsLisConfguration cmdlet can be run using either a preconfigured test account (see Setting Up Test Accounts for Running Lync Server Tests) or the account of any user who is enabled for Lync Server. To run this check using a test account, you just have to specify the FQDN of the Lync Server pool being tested. For example:
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ejecutar la prueba
+
+El cmdlet test-CsLisConfguration se puede ejecutar mediante una cuenta de prueba preconfigurada (consulte Configurar cuentas de prueba para ejecutar pruebas de Lync Server) o la cuenta de cualquier usuario que esté habilitado para Lync Server. Para ejecutar esta comprobación mediante una cuenta de prueba, solo tiene que especificar el FQDN del grupo de servidores de Lync que se está probando. Por ejemplo:
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"
 
-To run this check using an actual user account, you must first create a Windows PowerShell credentials object that contains the account name and password. You must then include that credentials object and the SIP address assigned to the account when you call Test-CsLisConfiguration:
+Para ejecutar esta comprobación mediante una cuenta de usuario real, primero debe crear un objeto de credenciales de Windows PowerShell que contenga el nombre de la cuenta y la contraseña. Después debes incluir ese objeto de credenciales y la dirección SIP asignada a la cuenta al llamar a test-CsLisConfiguration:
 
     $credential = Get-Credential "litwareinc\kenmyer"
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com"-UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-For more information, see the Help documentation for the [Test-CsLisConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsLisConfiguration) cmdlet.
+Para obtener más información, consulte la documentación de ayuda del cmdlet [Test-CsLisConfiguration](https://docs.microsoft.com/powershell/module/skype/Test-CsLisConfiguration) .
 
-## Determining success or failure
+</div>
 
-If the LIS is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-TargetUri : https://atl-cs-001.litwareinc.com:443/locationinformation/
+## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
 
-liservice.svc
+Si el LIS está configurado correctamente, recibirá un resultado similar a este, con la propiedad result marcada como **correcta:**
 
-TargetFqdn : atl-cs-001.litwareinc.com
+TargetUrihttps://atl-cs-001.litwareinc.com:443/locationinformation/
 
-Result : Success
+liservice. SVC
 
-Latency : 00:00:06.1616913
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error :
+Resultado: éxito
 
-Diagnosis :
+Latencia: 00:00:06.1616913
 
-If the specified user can't log on or log off, the Result will be shown as Failure, and additional information will be recorded in the Error and Diagnosis properties:
+:
 
-TargetUri :
+Diagnóstico
 
-TargetFqdn : atl-cs-001.litwareinc.com
+Si el usuario especificado no puede iniciar sesión o cerrar sesión, el resultado se mostrará como error y la información adicional se registrará en las propiedades de diagnóstico y errores:
 
-Result : Failure
+TargetUri
 
-Latency : 00:00:00
+TargetFqdn: atl-cs-001.litwareinc.com
 
-Error : 11004, The requested name is valid but no data of the requested
+Resultado: error
 
-type was found
+Latencia: 00:00:00
 
-Diagnosis :
+Error: 11004, el nombre solicitado es válido pero no se han especificado datos del
 
-Test-CsLisConfiguration : No matching cluster found in topology.
+se encontró el tipo
 
-For example, the previous output includes the note “No matching cluster found in topology.” That typically indicates a problem with the Edge Server: the LIS using the Edge Server to connect to the service provider and validate addresses.
+Diagnóstico
 
-If Test-CsLisConfiguration fails then you might want to rerun the test, this time including the Verbose parameter:
+Prueba-CsLisConfiguration: no se encontró ningún clúster coincidente en la topología.
+
+Por ejemplo, la salida anterior incluye la nota "no se encontró ningún clúster coincidente en la topología". Esto suele indicar un problema con el servidor perimetral: LIS con el servidor perimetral para conectarse al proveedor de servicios y validar las direcciones.
+
+Si prueba-CsLisConfiguration da error, es posible que desee volver a ejecutar la prueba, esta vez incluido el parámetro detallado:
 
     Test-CsLisConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -Verbose
 
-When the Verbose parameter is included, Test-CsLisConfiguration will return a step-by-step account of each action it tried when it checked the ability of the specified user to log on to Lync Server. For example:
+Cuando se incluye el parámetro detallado, test-CsLisConfiguration devolverá una cuenta paso a paso de cada acción que se probó cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo:
 
-Calling Location Information Service.
+Servicio de información de ubicación de llamadas.
 
-Service Path = https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
+Ruta de servicio =https://atl-cs-001.litwareinc.com:443/locationinformation/liservice.svc
 
 Subnet =
 
@@ -113,23 +143,39 @@ ChassisId =
 
 PortId =
 
-PortIdSubType = Undefined Type
+PortIdSubType = tipo no definido
 
 Mac
 
-An exception 'Location Information Web Service request has failed with a response code Item400.' occurred during Workflow Microsoft.Rtc.SyntheticTrsnactions.Workflows.STLisConfigurationWorkflow execution.
+Error en la solicitud de servicio Web de información de ubicación de excepción con un código de respuesta de Item400 '. durante el flujo de trabajo, Microsoft. RTC. SyntheticTrsnactions. workflows. STLisConfigurationWorkflow Execution.
 
-If you examine the previous output closely, you’ll see that the cmdlet failed after it tried to call the Location Information Service. One of the parameters that were used in that call was this:
+Si examina atentamente la salida anterior, verá que el cmdlet falló después de intentar llamar al servicio de información de ubicación. Uno de los parámetros que se usó en la llamada fue este:
 
 BssId = 5
 
-That’s not a valid value for the Basic Service Set Identifier (BssID). Instead, a BssID should resemble this:
+Ese no es un valor válido para el identificador de conjunto de servicios (BssID) básico. En su lugar, un BssID debe tener un aspecto similar a este:
 
-12-34-56-78-90-ab
+12-34-56-78-90-AB
 
-## Reasons why the test might have failed
+</div>
 
-Here are some common reasons why Test-CsLisConfiguration might fail:
+<div>
 
-  - An incorrect parameter value was supplied. As shown in the previous example, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+
+Estas son algunas de las razones comunes por las que test-CsLisConfiguration podría fallar:
+
+  - Se proporcionó un valor de parámetro incorrecto. Tal y como se muestra en el ejemplo anterior, los parámetros opcionales deben estar configurados correctamente o no se puede realizar la prueba. Vuelva a ejecutar el comando sin los parámetros opcionales y vea si se realiza correctamente.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

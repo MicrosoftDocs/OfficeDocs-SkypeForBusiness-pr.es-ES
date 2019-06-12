@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipalType'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipalType
 ms:assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558633(v=OCS.15)
-ms:contentKeyID: 48274874
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558633(v=OCS.15)
+ms:contentKeyID: 48183787
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 725d097e1e2e75b6430974a4f133cb5fa4130346
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850479"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipalType en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="tblprincipaltype-in-lync-server-2013"></a>tblPrincipalType en Lync Server 2013
 
-tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan para clasificar lo que aparece en la tabla tblPrincipal.
+</div>
 
-### Columnas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-12_
+
+tblPrincipalType contiene tipos de principales para categorizar lo que hay en la tabla tblPrincipal.
+
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>
@@ -35,29 +55,29 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 <tbody>
 <tr class="odd">
 <td><p>ptypeID</p></td>
-<td><p>smallint, no NULL</p></td>
-<td><p>Id. del tipo de entidad de seguridad</p></td>
+<td><p>smallint, not null</p></td>
+<td><p>IDENTIFICADOR de tipo de entidad de identidad.</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeDesc</p></td>
-<td><p>nvarchar (256), no NULL</p></td>
+<td><p>nvarchar (256), not null</p></td>
 <td><p>Descripción del tipo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ptypeIsSystemUser</p></td>
-<td><p>bit, no NULL</p></td>
-<td><p>Verdadero si el tipo corresponde a las entidades de seguridad utilizadas para fines internos.</p></td>
+<td><p>bit, not null</p></td>
+<td><p>True si el tipo corresponde a las entidades de identidad que se usan para fines internos.</p></td>
 </tr>
 <tr class="even">
 <td><p>ptypeIsUser</p></td>
-<td><p>bit, no NULL</p></td>
-<td><p>Verdadero si el tipo es un tipo de usuario.</p></td>
+<td><p>bit, not null</p></td>
+<td><p>True si el tipo es un tipo de usuario.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Tecla
+### <a name="key"></a>Clave
 
 <table>
 <colgroup>
@@ -79,7 +99,7 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 </table>
 
 
-### Valores de las entidades de seguridad
+### <a name="principal-values"></a>Valores principales
 
 <table>
 <colgroup>
@@ -90,7 +110,7 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Id.</th>
+<th>ID</th>
 <th>Rol</th>
 <th>Descripción</th>
 <th>Usuario</th>
@@ -99,59 +119,73 @@ tblPrincipalType contiene los tipos de entidades de seguridad que se utilizan pa
 <tbody>
 <tr class="odd">
 <td><p>1</p></td>
-<td><p>Any</p></td>
-<td><p>Entidad de seguridad genérica sin tipo conocido. No se utiliza en la tabla tblPrincipal.</p></td>
-<td><p></p></td>
+<td><p>Cualquiera</p></td>
+<td><p>Entidad de identidad genérica con un tipo no conocido. No se usa en la tabla tblPrincipal.</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>2</p></td>
 <td><p>AnyUser</p></td>
-<td><p>Entidad de seguridad genérica de tipo de usuario. No se utiliza en la tabla tblPrincipal.</p></td>
+<td><p>Identidad genérica del tipo de usuario. No se usa en la tabla tblPrincipal.</p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="odd">
 <td><p>3</p></td>
 <td><p>AnyGroup</p></td>
-<td><p>Entidad de seguridad genérica con semántica de grupo. No se utiliza en la tabla tblPrincipal.</p></td>
-<td><p></p></td>
+<td><p>Principal genérico con semántica de grupo. No se usa en la tabla tblPrincipal.</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>
 <td><p>SystemUser</p></td>
-<td><p>Entidad de seguridad utilizada internamente por Servidor de chat persistente.</p></td>
-<td><p></p></td>
+<td><p>Principal utilizado internamente por el servidor de chat persistente.</p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>5</p></td>
-<td><p>User</p></td>
-<td><p>Usuario habitual.</p></td>
+<td><p>Usuario</p></td>
+<td><p>Usuario normal.</p></td>
 <td><p>Sí</p></td>
 </tr>
 <tr class="even">
-<td><p>8</p></td>
-<td><p>DC</p></td>
-<td><p>Controlador del dominio Servicios de dominio de Active Directory.</p></td>
-<td><p></p></td>
+<td><p>4,8</p></td>
+<td><p>Clona</p></td>
+<td><p>Controlador de dominio de servicios de dominio de Active Directory.</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>9</p></td>
-<td><p>Group</p></td>
+<td><p>99,999</p></td>
+<td><p>Mesa</p></td>
 <td><p>Grupo de seguridad de Active Directory.</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>10</p></td>
-<td><p>Folder</p></td>
-<td><p>Unidad organizativa o contenedor de Active Directory.</p></td>
-<td><p></p></td>
+<td><p>base10</p></td>
+<td><p>Carpetas</p></td>
+<td><p>Contenedor de Active Directory o unidad de organización.</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+<div>
 
-#### Conceptos
+## <a name="see-also"></a>Vea también
 
-[tblPrincipal enn Lync Server 2013](lync-server-2013-tblprincipal.md)
+
+[tblPrincipal enn Lync Server 2013](lync-server-2013-tblprincipal.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

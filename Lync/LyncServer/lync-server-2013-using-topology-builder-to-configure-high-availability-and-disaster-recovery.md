@@ -1,35 +1,65 @@
-﻿---
-title: "Usar Topology Builder para alta disponibilidad y la recuperación ante desastres"
-TOCTitle: Usar Topology Builder para configurar la alta disponibilidad y la recuperación ante desastres
-ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205172(v=OCS.15)
-ms:contentKeyID: 48276317
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Usar Topology Builder para configurar la alta disponibilidad y la recuperación ante desastres
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using Topology Builder to configure high availability and disaster recovery
+ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205172(v=OCS.15)
+ms:contentKeyID: 48185113
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b167ea64f42510febe0f405d15e2eafab7efc2bd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850165"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Usar Topology Builder para configurar la alta disponibilidad y la recuperación ante desastres en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="using-topology-builder-to-configure-high-availability-and-disaster-recovery-in-lync-server-2013"></a>Usar Topology Builder para configurar la alta disponibilidad y la recuperación ante desastres en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-06_
 
-Siga estos pasos en el Generador de topologías para configurar la disponibilidad alta y la recuperación ante desastres para el Servidor de chat persistente.
+Siga los pasos que se indican en el generador de topología para configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente.
 
-1.  Agregue los almacenas de las bases de datos reflejadas y de las bases de datos secundarias de trasvase de registros de SQL Server.
+1.  Agregue las bases de datos reflejadas y de trasvase de registros que SQL Server almacena.
 
-2.  Edite las propiedades de servicio de Servidor de chat persistente en:
+2.  Edite las propiedades del servicio del servidor de chat persistentes en:
     
-    1.  Habilite el reflejo para la base de datos principal.
+    1.  Habilite la creación de reflejo para la base de datos principal.
     
-    2.  Agregue el almacén SQL Server reflejado principal.
+    2.  Agregue el almacén de SQL Server de reflejo principal.
     
-    3.  Habilite la base de datos de trasvase de registros SQL Server.
+    3.  Habilite la base de datos de trasvase de registros de SQL Server.
     
-    4.  Agregue el almacén SQL Server Trasvase de registros secundarios SQL Server.
+    4.  Agregue el almacén de SQL Server secundario de trasvase de registros de SQL Server.
     
-    5.  Agregue el reflejo del almacén SQL Server para la base de datos secundaria.
+    5.  Agregue el reflejo de la tienda SQL Server para la base de datos secundaria.
     
     6.  Publique la topología.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

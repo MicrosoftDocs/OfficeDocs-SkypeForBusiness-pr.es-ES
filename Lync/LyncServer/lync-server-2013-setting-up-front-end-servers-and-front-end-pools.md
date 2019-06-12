@@ -1,29 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Configurar servidores front-end y grupos de servidores front-end'
-TOCTitle: Configurar servidores front-end y grupos de servidores front-end
-ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398827(v=OCS.15)
-ms:contentKeyID: 48276646
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar servidores front-end y grupos de servidores front-end'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up Front End Servers and Front End pools
+ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398827(v=OCS.15)
+ms:contentKeyID: 48185381
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ab21e5933623af58834d3b9effa5ba1e2beecc43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850678"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar servidores front-end y grupos de servidores front-end para Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="setting-up-front-end-servers-and-front-end-pools-for-lync-server-2013"></a>Configurar servidores front-end y grupos de servidores front-end para Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-01_
 
-En esta sección se le ofrecerán instrucciones para la instalación de Lync Server 2013 y la configuración de roles de servidor para Servidor Standard Edition y Grupo de servidores front-end, incluidos los Servidores front-end y los de cualquier otro servidor colocados con los Servidores front-end. Para instalar y configurar los roles de servidor, deberá ejecutar Asistente para la implementación de Lync Server en cada uno de los equipos en los que desee instalar un rol de servidor. Utilice el Asistente para la implementación para completar los cuatro pasos del proceso de implementación, incluida la instalación del almacén de configuración local, la instalación de los Servidores front-end, la configuración de los certificados y la puesta en marcha de los servicios.
+Esta sección le guiará a través de la instalación de Lync Server 2013 y la configuración de los roles de servidor para el servidor Standard Edition y el grupo front-end, incluidos los servidores front-end y los roles de servidor que se colocan con los servidores front-end. Para instalar y configurar roles de servidor, ejecute el Asistente para la implementación de Lync Server en cada equipo en el que esté instalando un rol de servidor. Utilice el Asistente para la implementación para completar los cuatro pasos de este proceso, incluida la instalación del almacén de configuración local, la instalación de los servidores front-end, la configuración de los certificados y la puesta en marcha de los servicios.
+
+<div>
 
 
-> [!NOTE]
-> Antes de poder instalar los roles de servidor, debe haber publicado correctamente una topología. Para ver más detalles acerca de cómo publicar una topología, consulte <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalización e implementación del diseño de la topología en Lync Server 2013</A>.
+> [!NOTE]  
+> Para poder configurar los roles de servidor, debe haber publicado correctamente una topología. Para obtener más información sobre cómo publicar una topología, consulte <A href="lync-server-2013-finalizing-and-implementing-the-topology-design.md">Finalizar e implementar el diseño de topología en Lync Server 2013</A>.
 
 
 
-## En esta sección
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Instalar el almacén de configuración local en Lync Server 2013](lync-server-2013-install-the-local-configuration-store.md)
 
@@ -36,4 +62,16 @@ En esta sección se le ofrecerán instrucciones para la instalación de Lync Ser
   - [Probar la implementación del grupo de servidores en Lync Server 2013](lync-server-2013-test-the-pool-deployment.md)
 
   - [Comprobar el servidor Standard Edition en Lync Server 2013](lync-server-2013-test-the-standard-edition-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

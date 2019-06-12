@@ -1,34 +1,68 @@
-﻿---
-title: "Lync Server 2013 : Conf. tech. requise pour la déviation du trafic multimédia"
-TOCTitle: Requisitos técnicos para la omisión de medios
-ms:assetid: 6162a204-0e7c-460a-8eb2-e592c6590a8a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398435(v=OCS.15)
-ms:contentKeyID: 48275435
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos técnicos para la omisión de medios'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for media bypass
+ms:assetid: 6162a204-0e7c-460a-8eb2-e592c6590a8a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398435(v=OCS.15)
+ms:contentKeyID: 48184321
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5f59e0c025935ca8c2cd341549cdb58a44e7dbb8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850450"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos técnicos para la omisión de medios en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="technical-requirements-for-media-bypass-in-lync-server-2013"></a>Requisitos técnicos para la omisión de medios en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-21_
 
-En cada llamada a la RTC, el Servidor de mediación determina si los medios del extremo de origen de Lync se pueden enviar directamente a un componente del mismo nivel del Servidor de mediación sin recorrer el Servidor de mediación. El componente del mismo nivel puede ser una puerta de enlace RTC, un sistema IP-PBX o un controlador SBC en un proveedor de servicios de telefonía por Internet (ITSP) asociado con el tronco entre el servidor de mediación hacia el que se ha enrutado la llamada.
+Para cada llamada a la RTC, el servidor de mediación determina si los medios del punto de conexión de Lync de origen se pueden enviar directamente a un servidor de mediación del mismo nivel sin atravesar el servidor de mediación. El componente del mismo nivel puede ser una puerta de enlace RTC, una IP-PBX o un controlador de borde de sesión (SBC) en un proveedor de servicios de telefonía por Internet (ITSP) asociado con el tronco entre el servidor de mediación hacia el que se ha redirigido la llamada.
 
-Puede emplearse el desvío de medios cuando se reúnen los siguientes requisitos:
+Puede emplearse la omisión de medios cuando se reúnen los siguientes requisitos:
 
-  - Un componente del mismo nivel del Servidor de mediación debe admitir las funcionalidades necesarias para el desvío de medios, siendo la más importante la capacidad de controlar varias respuestas bifurcadas (denominadas “diálogos iniciales”). Póngase en contacto con el fabricante de su puerta de enlace, sistema PBX o ITSP para obtener el valor del número máximo de diálogos iniciales que la puerta de enlace, el sistema PBX o el SBC puede aceptar.
+  - Un servidor de mediación debe admitir las capacidades necesarias para la omisión de elementos multimedia, la más importante es la capacidad de controlar varias respuestas bifurcadas (conocidas como "cuadros de diálogo temprano"). Ponte en contacto con el fabricante de tu puerta de enlace o PBX, o con tu ITSP, para obtener el valor de la cantidad máxima de diálogos iniciales que la puerta de enlace, la PBX o el SBC pueden aceptar.
 
-  - El componente del mismo nivel del Servidor de mediación debe aceptar el tráfico de medios directamente desde los extremos de Lync. Muchos ITSP permiten que sus SBC reciban tráfico únicamente desde el Servidor de mediación. Póngase en contacto con su ITSP para averiguar si su SBC acepta el tráfico de medios directamente desde los extremos de Lync.
+  - El servidor de mediación del mismo nivel debe aceptar el tráfico multimedia directamente de los puntos de conexión de Lync. Muchas ITSPs permiten que su SBC reciba únicamente el tráfico del servidor de mediación. Póngase en contacto con su ITSP para determinar si su SBC acepta tráfico multimedia directamente desde los puntos de conexión de Lync.
 
-  - Los clientes de Lync y un componente del mismo nivel del Servidor de mediación deben estar bien conectados, lo que significa que deben estar en la misma región de red o en sitios de red que se conecten a la región sobre vínculos WAN sin límites de ancho de banda.
+  - Los clientes de Lync y un servidor de mediación deben estar conectados correctamente, lo que significa que ya se encuentran en la misma región de red o en sitios de red que se conectan a la región a través de vínculos WAN que no tienen restricciones de ancho de banda
 
-## Vea también
+<div>
 
-#### Conceptos
+## <a name="see-also"></a>Vea también
+
 
 [Modos de omisión de medios en Lync Server 2013](lync-server-2013-media-bypass-modes.md)  
-[Omisión de medios y control de admisión de llamadas en Lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)
+[Omisión de medios y control de admisión de llamadas en Lync Server 2013](lync-server-2013-media-bypass-and-call-admission-control.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

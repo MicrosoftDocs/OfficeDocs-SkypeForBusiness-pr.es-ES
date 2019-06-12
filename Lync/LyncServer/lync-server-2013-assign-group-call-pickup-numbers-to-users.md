@@ -1,29 +1,55 @@
-﻿---
-title: Asigar números de respuesta de llamadas en grupo a los usuarios
-TOCTitle: Asigar números de respuesta de llamadas en grupo a los usuarios
-ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945647(v=OCS.15)
-ms:contentKeyID: 52061720
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: asignar números de llamada de grupo a los usuarios'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign Group Call Pickup numbers to users
+ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945647(v=OCS.15)
+ms:contentKeyID: 51541508
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e919b1fb4ee225eba1c5317ff1f3049791075bcc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850701"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Asigar números de respuesta de llamadas en grupo a los usuarios
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="assign-group-call-pickup-numbers-to-users-in-lync-server-2013"></a>Asignar números de recogida de llamadas grupales a los usuarios de Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-01-30_
 
-Tras agregar números de grupo de atención de llamadas grupales a la tabla de órbita de estacionamiento de llamadas, puede asignar los grupos a usuarios. Use la herramienta de kit de recursos de activación de característica de extensión secundaria (SEFAUtil) para asignar grupos de atención de llamadas a usuarios.
+Después de agregar los números del grupo de recogida de llamadas grupales a la tabla de llamadas en órbita, puede asignar los grupos a los usuarios. Use la herramienta del kit de recursos de activación de características de extensión secundaria (SEFAUtil) para asignar grupos de recogida de llamadas a los usuarios.
+
+<div>
 
 
-> [!NOTE]
-> En un entorno híbrido, no asigne un grupo de atención de llamadas grupales a los usuarios que se hospeden en línea. Este tipo de usuarios no puede participar en grupos de atención de llamadas grupales; es decir, sus llamadas no pueden ser atendidas por otros usuarios, ni tampoco pueden responder a llamadas de otros usuarios.
+> [!NOTE]  
+> En una implementación híbrida, no asigne un grupo de recogida de llamadas grupal a los usuarios alojados en línea. Los usuarios alojados en Internet no pueden participar en la recogida de llamadas grupales. Es decir, otros usuarios no pueden contestar las llamadas y no pueden responder llamadas a otros usuarios.
 
 
 
-## Para asignar un grupo de atención de llamadas grupales a un usuario
+</div>
+
+<div>
+
+## <a name="to-assign-a-group-call-pickup-group-to-a-user"></a>Para asignar un grupo de recogida de llamadas grupal a un usuario
 
 1.  Inicie sesión como administrador en el equipo en el que haya instalado la herramienta SEFAUtil.
 
@@ -35,10 +61,26 @@ Tras agregar números de grupo de atención de llamadas grupales a la tabla de �
     
         SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
 
-[Habilitar la respuesta de llamadas en grupo para los usuarios](lync-server-2013-enable-group-call-pickup-for-users.md)  
-[Deshabilitar la respuesta de llamadas en grupo para los usuarios](lync-server-2013-disable-group-call-pickup-for-users.md)
+## <a name="see-also"></a>Vea también
+
+
+[Habilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-enable-group-call-pickup-for-users.md)  
+[Deshabilitar la recogida de llamadas grupales para los usuarios en Lync Server 2013](lync-server-2013-disable-group-call-pickup-for-users.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

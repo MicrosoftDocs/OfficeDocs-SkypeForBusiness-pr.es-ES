@@ -21,7 +21,7 @@ ms.locfileid: "34280386"
  
 **Resumen:** Obtenga información sobre cómo configurar la opción de unión de reunión sin PIN en Skype empresarial Server.
   
-Cuando una persona que llama de acceso telefónico intenta unirse a una reunión, el servicio operador automático de la Conferencia (CAA) coloca al autor de la llamada en un lápiz que es diferente del de la sala de espera & # x2014; Si un moderador ya no está en una llamada, y la persona que llama no ha entrado en un PIN de relleno. La opción de unión a una reunión sin PIN permite que los autores de llamadas de acceso telefónico local puedan unirse a una reunión sin indicar un PIN de líder incluso si son la primera persona en una llamada. 
+Cuando un autor de llamada de acceso telefónico intenta unirse a una reunión, el servicio operador automático de la Conferencia (CAA) coloca al autor de la llamada en un lápiz que es diferente al de la sala de espera &#x2014; si aún no está en una llamada, y si la persona que llama de acceso telefónico no ha entrado en un PIN de línea directriz. La opción de unión a una reunión sin PIN permite que los autores de llamadas de acceso telefónico local puedan unirse a una reunión sin indicar un PIN de líder incluso si son la primera persona en una llamada. 
   
 Tenga en cuenta lo siguiente al configurar esta característica:
   

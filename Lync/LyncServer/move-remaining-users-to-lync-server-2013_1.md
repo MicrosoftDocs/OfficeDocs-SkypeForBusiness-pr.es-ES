@@ -1,52 +1,105 @@
-﻿---
-title: Mover el resto de usuarios a Lync Server 2013
-TOCTitle: Mover el resto de usuarios a Lync Server 2013
-ms:assetid: 0eb990f0-f720-47a7-aaee-437fbd4c4c33
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ687968(v=OCS.15)
-ms:contentKeyID: 49888887
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Mover los usuarios restantes a Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Move remaining users to Lync Server 2013
+ms:assetid: 0eb990f0-f720-47a7-aaee-437fbd4c4c33
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687968(v=OCS.15)
+ms:contentKeyID: 49733554
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a728afae37c2e8d317cd6c75872c75d358226475
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849940"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mover el resto de usuarios a Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="move-remaining-users-to-lync-server-2013"></a>Mover los usuarios restantes a Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-26_
 
-Puede migrar usuarios a la nueva implementación de Lync Server 2013 con el Panel de control de Lync Server o el Shell de administración de Lync Server. Es preciso que cumpla algunos requisitos para garantizar que la transición a Lync Server 2013 se realice sin problemas. Para más información sobre los requisitos previos para completar los procedimientos descritos en este tema, vea [Configurar clientes para la migración](configure-clients-for-migration_1.md). Para ver los pasos detallados para migrar usuarios, vea [Fase 6: Mover usuarios al grupo piloto](phase-6-move-users-to-the-pilot-pool.md).
+Puede mover usuarios a la nueva implementación de Lync Server 2013 con el panel de control de Lync Server o el shell de administración de Lync Server. Debe cumplir algunos requisitos para garantizar una transición sin problemas a Lync Server 2013. Para obtener más información sobre los requisitos previos para completar los procedimientos de este tema, vea [configurar clientes para la migración](configure-clients-for-migration_1.md). Para conocer los pasos detallados sobre cómo mover usuarios, consulte [fase 6: mover usuarios a la agrupación piloto](phase-6-move-users-to-the-pilot-pool.md).
 
-> [!IMPORTANT]  
-> No puede usar el complemento Usuarios y equipos de Active Directory o las herramientas administrativas de Microsoft Office Communications Server 2007 R2 para desplazar usuarios de los entornos heredados a Lync Server 2013.
-
+<div>
 
 
 > [!IMPORTANT]  
-> El cmdlet <strong>Move-CsLegacyUser</strong> requiere que los nombres de usuario se formen debidamente y que no tengan espacios en blanco al principio o al final. No puede transferir cuentas de usuario con el cmdlet <strong>Move-CsLegacyUser</strong> si tiene espacios en blanco al principio o al final.
+> No puede usar el complemento usuarios y equipos de Active Directory o las herramientas administrativas de Microsoft Office Communications Server 2007 R2 para mover usuarios de su entorno heredado a Lync Server 2013.
 
 
 
-Al migrar usuarios a un grupo de servidores de Lync Server 2013, los datos de los usuarios se migran a la base de datos back-end asociada al nuevo grupo.
+</div>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Estos datos incluyen las reuniones activas creadas por el usuario heredado. Por ejemplo, si un usuario heredado configuró una conferencia del tipo <strong>mi reunión</strong>, esa conferencia seguirá disponible en el nuevo grupo de servidores de Lync Server 2013, tras migrar el usuario. El acceso a esa reunión estará determinado por los mismos detalles de <strong>URL de conferencia e Id. de conferencia</strong>. La única diferencia es que la conferencia ahora se hospedará en el grupo de servidores de Lync Server 2013, en vez del grupo de servidores de Office Communications Server 2007 R2.
+> El cmdlet <STRONG>Move-CsLegacyUser</STRONG> requiere que los nombres de usuario estén formados correctamente y no tengan espacios iniciales ni finales. No puede mover una cuenta de usuario mediante el cmdlet <STRONG>Move-CsLegacyUser</STRONG> si contiene espacios iniciales o finales.
 
 
 
+</div>
 
-> [!NOTE]
-> Para hospedar usuarios en Lync Server 2013 no es necesario implementar clientes actualizados a la vez. La funcionalidad nueva estará disponible para los usuarios únicamente cuando hayan actualizado al nuevo software cliente.
+Al mover un usuario a un grupo de servidores de Lync Server 2013, los datos del usuario se mueven a la base de datos back-end asociada con el nuevo grupo.
+
+<div>
+
+
+> [!IMPORTANT]  
+> Esto incluye las reuniones activas creadas por el usuario heredado. Por ejemplo, si un usuario heredado ha configurado una conferencia de <STRONG>reunión</STRONG> , dicha conferencia seguirá estando disponible en el nuevo grupo de Lync Server 2013, después de que se haya movido al usuario. Los detalles para acceder a la reunión seguirán siendo la misma <STRONG>dirección URL de conferencia y</STRONG>el mismo identificador de conferencia. La única diferencia es que la Conferencia ahora está hospedada en el grupo de servidores de Lync Server 2013, y no en el grupo de Office Communications Server 2007 R2.
 
 
 
-## Tarea posterior a la migración
+</div>
 
-1.  Tras migrar los usuarios, compruebe la directiva de conferencia que tienen asignada.
+<div>
 
-2.  Para garantizar que las reuniones organizadas por usuarios hospedados en Lync Server 2013 funcionen sin problemas con los usuarios federados hospedados en Office Communications Server 2007 R2, la directiva de conferencia asignada a los usuarios migrados debe permitir participantes anónimos.
 
-3.  Las directivas de conferencia que permiten participantes anónimos tienen seleccionada la opción **Permitir a los participantes invitar a usuarios anónimos** en el Panel de control de Lync Server 2013 y tienen la opción **AllowAnonymousParticipantsInMeetings** definida como **True** en el resultado del cmdlet **Get-CsConferencingPolicy** del Shell de administración de Lync Server.
+> [!NOTE]  
+> El alojamiento de usuarios en Lync Server 2013 no requiere que implemente clientes actualizados al mismo tiempo. Las nuevas funcionalidades estarán disponibles solo para los usuarios cuando se actualicen al nuevo software de cliente.
 
-4.  Para más información sobre cómo configurar la directiva de conferencia con el Shell de administración de Lync Server, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy) en la documentación del Shell de administración de Communications Server.
+
+
+</div>
+
+<div>
+
+## <a name="post-migration-task"></a>Tarea posterior a la migración
+
+1.  Después de mover usuarios, Compruebe la Directiva de conferencia que tiene asignada.
+
+2.  Para asegurarse de que las reuniones organizadas por usuarios alojados en Lync Server 2013 funcionan sin problemas con usuarios federados alojados en Office Communications Server 2007 R2, la Directiva de conferencia asignada a los usuarios migrados debe permitir participantes anónimos.
+
+3.  Las directivas de conferencia que permiten a los participantes anónimos **permiten a los participantes invitar a usuarios anónimos** seleccionados en el panel de control de Lync Server 2013 y tienen **AllowAnonymousParticipantsInMeetings** establecido en **verdadero** en el resultado de el cmdlet **Get-CsConferencingPolicy** en el shell de administración de Lync Server.
+
+4.  Para obtener detalles sobre la configuración de la Directiva de Conferencia mediante el shell de administración de Lync Server, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) en la documentación del shell de administración de Lync Server.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

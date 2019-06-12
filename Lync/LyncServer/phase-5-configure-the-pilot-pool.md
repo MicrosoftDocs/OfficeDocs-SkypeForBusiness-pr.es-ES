@@ -1,29 +1,63 @@
-﻿---
-title: 'Fase 5: Configurar el grupo piloto'
-TOCTitle: 'Fase 5: Configurar el grupo piloto'
-ms:assetid: 190faee2-e2d6-45cb-8315-f39e477df418
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204717(v=OCS.15)
-ms:contentKeyID: 48274570
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Fase 5: configurar el grupo piloto'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 5: Configure the pilot pool'
+ms:assetid: 190faee2-e2d6-45cb-8315-f39e477df418
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204717(v=OCS.15)
+ms:contentKeyID: 48183532
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e5ffa799a07cdb5b1583ba96708dc79599d52df5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849905"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fase 5: Configurar el grupo piloto
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="phase-5-configure-the-pilot-pool"></a>Fase 5: configurar el grupo piloto
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-19_
 
-Ahora que ya se creó el grupo piloto y se combinó la información de implementación heredada con Lync Server 2013, esta sección identifica algunas configuraciones que se deben realizar en el grupo piloto.
+Ahora que se ha creado el grupo piloto y la información de implementación heredada se ha fusionado con Lync Server 2013, esta sección identifica algunas configuraciones que deben realizarse en el grupo piloto.
 
-## En esta sección
+<div>
 
-  - [Conectar el grupo piloto a servidores perimetrales heredados](connect-pilot-pool-to-legacy-edge-servers_1.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Autorizar la conexión al servidor perimetral de Office Communications Server 2007 R2](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
+  - [Conecte el grupo de servidores piloto a los servidores perimetrales heredados](connect-pilot-pool-to-legacy-edge-servers_1.md)
 
-  - [Comprobar los valores de configuración](verify-configuration-settings_1.md)
+  - [Autorizar la conexión a Office Communications Server 2007 R2 servidor perimetral](authorize-connection-to-office-communications-server-2007-r2-edge-server.md)
 
-  - [Configurar las directivas y los certificados de acceso a puertas de enlace XMPP](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+  - [Comprobación de los parámetros de configuración](verify-configuration-settings_1.md)
+
+  - [Configurar certificados y directivas de acceso por puerta de enlace XMPP](configure-xmpp-gateway-access-policies-and-certificates_1.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

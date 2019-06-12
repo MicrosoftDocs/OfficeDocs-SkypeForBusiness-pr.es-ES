@@ -1,45 +1,79 @@
-﻿---
-title: 'Fase 9: Completar tareas posteriores a la migración'
-TOCTitle: 'Fase 9: Completar tareas posteriores a la migración'
-ms:assetid: 05b1a858-fd45-4bb9-9cb4-05f001528a88
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204642(v=OCS.15)
-ms:contentKeyID: 48274304
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Fase 9: completar las tareas posteriores a la migración'
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: 'Phase 9: Complete post-migration tasks'
+ms:assetid: 05b1a858-fd45-4bb9-9cb4-05f001528a88
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204642(v=OCS.15)
+ms:contentKeyID: 48183292
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0eb597f14481256dcd3487d31d4415bccca96647
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849882"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Fase 9: Completar tareas posteriores a la migración
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="phase-9-complete-post-migration-tasks"></a>Fase 9: completar las tareas posteriores a la migración
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-15_
 
-En los temas de esta sección se describen las tareas que necesitará realizar después de haber finalizado la migración a Lync Server 2013.
+En los temas de esta sección se describen las tareas que tendrá que realizar después de completar la migración a Lync Server 2013.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Migrar grupos de respuesta](migrate-response-groups_1.md)
 
-  - [Migrar números de acceso telefónico](migrate-dial-in-access-numbers_1.md)
+  - [Migrar los números de acceso telefónico](migrate-dial-in-access-numbers_1.md)
 
-  - [Habilitar la integración de mensajería instantánea y Exchange 2013 Outlook Web App](enable-exchange-2013-outlook-web-app-and-im-integration.md)
+  - [Habilitar Exchange 2013 Outlook Web App y la integración con mensajería instantánea](enable-exchange-2013-outlook-web-app-and-im-integration.md)
 
   - [Migrar la libreta de direcciones](migrate-address-book_1.md)
 
-  - [Habilitar control de llamadas remoto](enable-remote-call-control.md)
+  - [Habilitar control remoto de llamadas](enable-remote-call-control.md)
 
-  - [Quitar los servidores de archivado y de supervisión heredados](remove-legacy-archiving-and-monitoring-servers_1.md)
+  - [Quitar los servidores de archivado y supervisión heredados](remove-legacy-archiving-and-monitoring-servers_1.md)
 
   - [Migrar servidor de mediación](migrate-mediation-server.md)
 
   - [Configurar servidores de aplicaciones de confianza](configure-trusted-application-servers_1.md)
 
-  - [Configurar la página de participación en la reunión](configure-the-meeting-join-page_1.md)
+  - [Configurar la página para unirse a la reunión](configure-the-meeting-join-page_1.md)
 
   - [Implementar clientes de Lync Server 2013](deploy-lync-server-2013-clients_1.md)
 
-  - [Mover objetos de contacto de la mensajería unificada de Exchange](move-exchange-unified-messaging-contact-objects.md)
+  - [Mover objetos de contacto de mensajería unificada de Exchange](move-exchange-unified-messaging-contact-objects.md)
 
-  - [Comprobar que todos los objetos de contacto de mensajería unificada de Exchange se han quitado del grupo de servidores heredado](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
+  - [Comprobar que todos los objetos de contacto de mensajería unificada de Exchange se han quitado del grupo heredado](verify-that-all-exchange-um-contact-objects-are-removed-from-the-legacy-pool.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

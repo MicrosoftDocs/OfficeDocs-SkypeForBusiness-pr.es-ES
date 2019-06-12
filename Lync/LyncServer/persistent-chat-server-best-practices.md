@@ -1,35 +1,69 @@
-﻿---
-title: Procedimientos recomendados para el servidor de chat persistente
-TOCTitle: Procedimientos recomendados para el servidor de chat persistente
-ms:assetid: dc18e7f7-599b-4d32-abf7-cd9e691426a2
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398970(v=OCS.15)
-ms:contentKeyID: 48276904
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Procedimientos recomendados para el servidor de chat persistente
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Persistent Chat Server best practices
+ms:assetid: dc18e7f7-599b-4d32-abf7-cd9e691426a2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398970(v=OCS.15)
+ms:contentKeyID: 48185612
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3ac9419485212df8ecf0a11841a6eaee4c752640
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849924"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Procedimientos recomendados para el servidor de chat persistente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="persistent-chat-server-best-practices"></a>Procedimientos recomendados para el servidor de chat persistente
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-06_
 
-Cuando cree sus categorías y salones de Chat persistente y diseñe el ámbito y la pertenencia, las sugerencias siguientes pueden ayudarlo en su planeación:
+A medida que crea las categorías y los salones de chat persistentes, y diseña su alcance y pertenencia, las siguientes sugerencias pueden ayudar a su planeamiento:
 
-  - Si la compañía no necesita la imposición de zonas de protección de datos confidenciales y no está concediendo acceso a usuarios federados, no limite el ámbito en el árbol de categorías. Ponga a todos los usuarios en el ámbito de la categoría raíz y cree todos los salones de chat en dicha categoría. Después, utilice únicamente las listas de pertenencia para conceder o restringir el acceso a cada salón de chat.
+  - Si su empresa no requiere una pared ética, no limite el ámbito del árbol de categorías. Coloca a todos los usuarios en el ámbito de una categoría y crea todos los salones de chat en esa categoría. Posteriormente, use solo listas de pertenencia para conceder o restringir el acceso a cada salón de chat.
 
-  - En la mayoría de casos, deberá habilitar a los usuarios para crear nuevos salones de chat, para que se puedan iniciar debates sobre temas nuevos en cualquier momento. Para ello, haga que la lista **Creators** sea la misma que la lista de **AllowedMembers**. Ahora bien, si desea que un solo equipo de soporte técnico central o usuarios designados puedan crear salones, convierta la lista **Creators** en el subconjunto apropiado.
+  - En la mayoría de los casos, debe permitir que los usuarios creen nuevos salones de chat para que las discusiones sobre los nuevos temas se puedan iniciar en cualquier momento. Para ello, la lista de **creadores** es la misma que la lista de **AllowedMembers** . Sin embargo, si desea permitir que solo un equipo de soporte técnico central o usuarios designados creen salas, convierta la lista de **creadores** en el subconjunto correspondiente.
 
-  - Proporcione a cada salón de chat un nombre completo y un resumen de temas que lo ubique totalmente dentro de la organización. Como los usuarios no verán el nombre de categoría cuando usen el salón de chat, no puede basarse en el nombre de categoría para ayudar a los usuarios a ver lo que está previsto debatirse en el salón de chat.
+  - Asigne a cada salón de chat un nombre completo y un resumen de descripción que describa Dónde encaja en la organización. Como los usuarios no pueden ver el nombre de la categoría cuando usan el salón de chat, no puede confiar en el nombre de la categoría para ayudar a los usuarios a determinar el foro de discusión previsto para el salón de chat.
 
-  - Probablemente quiera tener un flujo de trabajo de creación de salones personalizado si desea implementar determinadas convenciones de nomenclatura o validaciones. La configuración de Chat persistente permite personalizar **RoomManagementUrl** para que lo hospede. Por ejemplo, cuando los usuarios hagan clic en **Crear un salón** en su cliente de Lync, se redirigirán a la solución personalizada.
+  - Es posible que desee tener un flujo de trabajo de creación de salas personalizada si tiene determinadas convenciones de nomenclatura u otros controles de acceso o validaciones para implementar. La configuración de chat persistente le permite personalizar el **RoomManagementUrl** a algo que hospede. Por ejemplo, cuando los usuarios hacen clic en **crear una sala** en su cliente de Lync, pueden redirigirse a la solución personalizada.
 
-  - Cree varios complementos para que le sea más fácil mejorar la experiencia de los salones de chat incorporando datos de negocio a los salones de chat. Los administradores deben registrar los complementos que desean permitir en el sistema. Los creadores y los administradores de salones de chat pueden elegir en una lista de complementos permitidos aquellos complementos que sean más adecuados para sus respectivos salones.
+  - Cree una variedad de complementos que le ayuden a mejorar la experiencia de los salones de chat aportando otros datos empresariales a salones de chat. Los administradores deben registrar los complementos que desean permitir en el sistema. Los administradores de salones de chat y los creadores pueden elegir en la lista de complementos permitidos para los más importantes para sus respectivos salones.
 
-## Vea también
+<div>
 
-#### Otros recursos
+## <a name="see-also"></a>Vea también
 
-[Administrar categorías, salones de chat y complementos en Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md)
+
+[Administrar categorías, salones de chat y complementos en Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

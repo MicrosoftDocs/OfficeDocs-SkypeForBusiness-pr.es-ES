@@ -1,47 +1,95 @@
-﻿---
-title: Mover los usuarios restantes a Lync Server 2013
-TOCTitle: Mover los usuarios restantes a Lync Server 2013
-ms:assetid: 72025e1b-97d1-40e9-8a98-28c018942b48
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688090(v=OCS.15)
-ms:contentKeyID: 49889226
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Mover los usuarios restantes a Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Move remaining users to Lync Server 2013
+ms:assetid: 72025e1b-97d1-40e9-8a98-28c018942b48
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688090(v=OCS.15)
+ms:contentKeyID: 49733689
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d9d5c747a216ff5407a3150eb1cdcdfb94a3c73c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849930"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mover los usuarios restantes a Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="move-remaining-users-to-lync-server-2013"></a>Mover los usuarios restantes a Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-29_
 
-Puede migrar usuarios a la nueva implementación de Lync Server 2013 con el Panel de control de Lync Server o el Shell de administración de Lync Server. Es preciso que cumpla algunos requisitos para garantizar que la transición a Lync Server 2013 se realice sin problemas. Para más información sobre los requisitos previos para completar los procedimientos descritos en este tema, vea [Configurar clientes para migración](configure-clients-for-migration.md). Para ver los pasos detallados para migrar usuarios, vea [Fase 4: Mover usuarios de prueba al grupo piloto](phase-4-move-test-users-to-the-pilot-pool.md).
+Puede mover usuarios a la nueva implementación de Lync Server 2013 con el panel de control de Lync Server o el shell de administración de Lync Server. Debe cumplir algunos requisitos para garantizar una transición sin problemas a Lync Server 2013. Para obtener más información sobre los requisitos previos para completar los procedimientos de este tema, vea [configurar clientes para la migración](configure-clients-for-migration.md). Para conocer los pasos detallados sobre cómo mover usuarios, consulte [la fase 4: mover usuarios de prueba a la agrupación piloto](phase-4-move-test-users-to-the-pilot-pool.md).
+
+<div>
+
 
 > [!IMPORTANT]  
-> No puede usar el complemento Usuarios y equipos de Active Directory o las herramientas administrativas de Lync Server 2010 para desplazar usuarios de los entornos heredados a Lync Server 2013.
+> No puede usar el complemento usuarios y equipos de Active Directory ni las herramientas administrativas 2010 de Lync Server para mover usuarios de su entorno heredado a Lync Server 2013.
 
 
 
-Al migrar usuarios a un grupo de servidores de Lync Server 2013, los datos de los usuarios se migran a la base de datos back-end asociada al nuevo grupo.
+</div>
+
+Al mover un usuario a un grupo de servidores de Lync Server 2013, los datos del usuario se mueven a la base de datos back-end asociada con el nuevo grupo.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Estos datos incluyen las reuniones activas creadas por el usuario heredado. Por ejemplo, si un usuario heredado configuró una conferencia del tipo <strong>mi reunión</strong> , esa conferencia seguirá disponible en el nuevo grupo de servidores de Lync Server 2013 tras migrar el usuario. El acceso a esa reunión estará determinado por los mismos detalles de <strong>URL de conferencia e ID de conferencia</strong> . La única diferencia es que la conferencia ahora se hospedará en el grupo de servidores de Lync Server 2013, en vez del grupo de servidores de Lync Server 2010.
+> Esto incluye las reuniones activas creadas por el usuario heredado. Por ejemplo, si un usuario heredado ha configurado una conferencia de <STRONG>reunión</STRONG> , dicha conferencia seguirá estando disponible en el nuevo grupo de servidores de Lync Server 2013 después de que se haya movido al usuario. Los detalles para acceder a la reunión seguirán siendo la misma <STRONG>dirección URL de conferencia y</STRONG>el mismo identificador de conferencia. La única diferencia es que la Conferencia ahora está hospedada en el grupo de servidores de Lync Server 2013 y no en el grupo de servidores de Lync Server 2010.
 
 
 
+</div>
 
-> [!NOTE]
-> Para hospedar usuarios en Lync Server 2013 no es necesario implementar clientes actualizados a la vez. La funcionalidad nueva estará disponible para los usuarios únicamente cuando hayan actualizado al nuevo software cliente.
+<div>
+
+
+> [!NOTE]  
+> El alojamiento de usuarios en Lync Server 2013 no requiere que implemente clientes actualizados al mismo tiempo. Las nuevas funcionalidades estarán disponibles solo para los usuarios cuando se actualicen al nuevo software de cliente.
 
 
 
-## Tarea posterior a la migración
+</div>
 
-1.  Tras migrar los usuarios, compruebe la directiva de conferencia que tienen asignada.
+<div>
 
-2.  Para garantizar que las reuniones organizadas por usuarios hospedados en Lync Server 2013 funcionen sin problemas con los usuarios federados hospedados en Lync Server 2010, la directiva de conferencia asignada a los usuarios migrados debe permitir participantes anónimos.
+## <a name="post-migration-task"></a>Tarea posterior a la migración
 
-3.  Las directivas de conferencia que permiten participantes anónimos tienen seleccionada la opción **Permitir a los participantes invitar a usuarios anónimos** en el Panel de control de Lync Server 2013 y tienen la opción **AllowAnonymousParticipantsInMeetings** definida como **True** en el resultado del cmdlet **Get-CsConferencingPolicy** del Shell de administración de Lync Server.
+1.  Después de mover usuarios, Compruebe la Directiva de conferencia que tiene asignada.
 
-4.  Para más información sobre cómo configurar la directiva de conferencia con el Shell de administración de Lync Server, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsConferencingPolicy) en la documentación del Shell de administración de Communications Server.
+2.  Para asegurarse de que las reuniones organizadas por usuarios alojados en Lync Server 2013 funcionan sin problemas con usuarios federados alojados en Lync Server 2010, la Directiva de conferencia asignada a los usuarios migrados debe permitir participantes anónimos.
+
+3.  Las directivas de conferencia que permiten a los participantes anónimos **permiten a los participantes invitar a usuarios anónimos** seleccionados en el panel de control de Lync Server 2013 y tienen **AllowAnonymousParticipantsInMeetings** establecido en **verdadero** en el resultado de el cmdlet **Get-CsConferencingPolicy** en el shell de administración de Lync Server.
+
+4.  Para obtener detalles sobre la configuración de la Directiva de Conferencia mediante el shell de administración de Lync Server, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) en la documentación del shell de administración de Lync Server.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

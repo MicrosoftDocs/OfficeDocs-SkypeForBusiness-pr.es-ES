@@ -31,7 +31,7 @@ Entre las nuevas características de Skype empresarial Server 2019 se incluyen l
 
 La mensajería unificada de Exchange sigue disponible en Skype empresarial Server 2019 al integrar la 2019 de Skype empresarial con Exchange 2013 o Exchange 2016. Debido a cambios en el soporte técnico de Exchange 2019, la integración de mensajería unificada de Exchange se subraya en favor del buzón de voz de nube y las características del operador automático de la nube.  
 
-El buzón de voz de nube permite que todos los usuarios de 2019 Skype users& # x2014, ya estén locales o online& # x2014; tengan acceso al mismo servicio de correo de voz en la nube de Microsoft. El buzón de voz de nube ofrece las siguientes ventajas para los usuarios locales y en línea:
+El buzón de voz de nube permite a todos los usuarios de Skype empresarial 2019&#x2014;si se encuentran en local o en línea&#x2014;tener acceso al mismo servicio de correo de voz en la nube de Microsoft. El buzón de voz de nube ofrece las siguientes ventajas para los usuarios locales y en línea:
 
 - Acceso al buzón de voz en su buzón de Exchange mediante los clientes de Skype empresarial online, Teams o Outlook
 - Posibilidad de usar el portal basado en web para administrar sus opciones de buzón de voz

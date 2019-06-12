@@ -1,21 +1,41 @@
-﻿---
-title: Tabla UserStatistics en Lync Server 2013
-TOCTitle: Tabla UserStatistics en Lync Server 2013
-ms:assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721893(v=OCS.15)
-ms:contentKeyID: 49889712
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: tabla UserStatistics'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: UserStatistics table
+ms:assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721893(v=OCS.15)
+ms:contentKeyID: 49733827
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f0f684850625f61ca72bbcc9c4bc53b56fcc6b38
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850222"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla UserStatistics en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="userstatistics-table-in-lync-server-2013"></a>Tabla UserStatistics en Lync Server 2013
 
-La tabla UserStatistics es una tabla auxiliar. Cada registro de la tabla almacena información sobre el uso del sistema por parte de un usuario individual. Esta tabla se introdujo en Microsoft Lync Server 2013.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-28_
+
+La tabla UserStatistics es una tabla de soporte. Cada registro de la tabla almacena información sobre el uso del sistema por un usuario individual. Esta tabla se introdujo en Microsoft Lync Server 2013.
 
 
 <table>
@@ -29,41 +49,52 @@ La tabla UserStatistics es una tabla auxiliar. Cada registro de la tabla almacen
 <tr class="header">
 <th>Columna</th>
 <th>Tipo de datos</th>
-<th>Clave/Índice</th>
+<th>Clave o índice</th>
 <th>Detalles</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>UserId</strong></p></td>
+<td><p><strong>Iddeusuario</strong></p></td>
 <td><p>int</p></td>
-<td><p>Principal</p></td>
+<td><p>Primary</p></td>
 <td><p>Número único que identifica a este usuario.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastLogInTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Hora de la última vez que el usuario inició sesión.</p></td>
+<td></td>
+<td><p>La última vez que el usuario inició sesión.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizedTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Última vez que el usuario organizó una conferencia.</p></td>
+<td></td>
+<td><p>La última vez que el usuario organizó una conferencia.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>LastCallOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Última vez que el usuario tuvo un error de llamada.</p></td>
+<td></td>
+<td><p>La última vez que el usuario experimentó un error de llamada.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>LastConfOrganizerCallFailureTime</strong></p></td>
 <td><p>datetime</p></td>
-<td><p></p></td>
-<td><p>Última vez que el usuario tuvo un error de llamada como organizador de conferencia.</p></td>
+<td></td>
+<td><p>La última vez que el usuario experimentó un error de llamada como organizador de la Conferencia.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

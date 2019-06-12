@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Requisitos técnicos para grupos de respuesta'
-TOCTitle: Requisitos técnicos para grupos de respuesta
-ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204863(v=OCS.15)
-ms:contentKeyID: 48275154
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos técnicos para grupos de respuesta'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Response Group
+ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204863(v=OCS.15)
+ms:contentKeyID: 48184044
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2dd87cb270d527753d9c6404ded4162791b542f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850452"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos técnicos para grupos de respuesta en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="technical-requirements-for-response-group-in-lync-server-2013"></a>Requisitos técnicos para grupos de respuesta en Lync Server 2013
 
-En esta sección se describen los siguientes requisitos técnicos de la Aplicación de grupo de respuesta:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-11-07_
+
+En esta sección se describen los siguientes requisitos técnicos para la aplicación de grupo de respuesta:
 
   - Requisitos de hardware
 
@@ -23,51 +43,74 @@ En esta sección se describen los siguientes requisitos técnicos de la Aplicaci
 
   - Requisitos de los puertos
 
-  - Requisitos de archivos de audio
+  - Requisitos de los archivos de audio
 
-  - Requisitos de la herramienta de configuración de Grupo de respuesta
+  - Requisitos de la herramienta de configuración de grupos de respuesta
 
-## Requisitos de hardware
+<div>
 
-Los requisitos de hardware de la Aplicación de grupo de respuesta son los mismos que los de Servidores front-end. Encontrará más información sobre los requisitos de hardware, consulte [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación sobre compatibilidad.
+## <a name="hardware-requirements"></a>Requisitos de hardware
 
-## Requisitos de software
+La aplicación de grupo de respuesta tiene los mismos requisitos de hardware que los servidores front-end. Para obtener más información sobre los requisitos de hardware, vea [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación de soporte técnico.
 
-Los requisitos de sistema operativo y requisitos previos de software de la Aplicación de grupo de respuesta son los mismos que los de Servidores front-end. Encontrará más información sobre los requisitos de software, consulte [Compatibilidad del sistema operativo con el servidor y las herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación sobre compatibilidad.
+</div>
 
-Si usa archivos de Windows Media Audio (.wma) para la música y los anuncios de Grupo de respuesta, todos los Servidores front-end o servidores de Standard Edition que ejecuten el Aplicación de grupo de respuesta deben tener instalado el tiempo de ejecución de Windows Media Format en servidores que ejecuten Windows Server 2008 R2 o Microsoft Media Foundation en servidores que ejecuten Windows Server 2012 o Windows Server 2012 R2. Para Windows Server 2008 R2, el tiempo de ejecución de Windows Media Format se instala como parte de la experiencia de escritorio de Windows.
+<div>
 
-Para más detalles sobre los requisitos de audio, vea "Requisitos de archivos de audio" más adelante en esta sección.
+## <a name="software-requirements"></a>Requisitos de software
 
-## Requisitos de los puertos
+La aplicación de grupo de respuesta tiene los mismos requisitos del sistema operativo y requisitos previos de software que los servidores front-end. Para obtener más información sobre los requisitos de software, vea [compatibilidad del sistema operativo servidor y herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación de soporte técnico.
 
-Aplicación de grupo de respuesta usa los siguientes puertos:
+Si usa archivos de audio de Windows Media (. WMA) para la música de grupo de respuesta y anuncios, todos los servidores de aplicaciones para el usuario o ediciones Standard que ejecuten la aplicación de grupo de respuesta deben tener instalado el Windows Media Format Runtime para servidores con Windows Server 2008 R2 o Microsoft Media Foundation para servidores que ejecutan Windows Server 2012 o Windows Server 2012 R2. Para Windows Server 2008 R2, Windows Media Format Runtime se instala como parte de la experiencia de escritorio de Windows.
 
-  - **Puerto 5071**   Se utiliza para solicitudes de escucha SIP
+Para obtener más información sobre los requisitos de audio, consulte "requisitos de archivos de audio" más adelante en esta sección.
 
-  - **Puerto 8404**   Se utiliza para las comunicaciones entre servidores
+</div>
+
+<div>
+
+## <a name="port-requirements"></a>Requisitos de los puertos
+
+La aplicación de grupo de respuesta usa los siguientes puertos:
+
+  - **Puerto 5071**   usado para solicitudes de escucha de SIP
+
+  - **Puerto 8404**   usado para comunicaciones entre servidores
+    
+    <div>
     
 
-    > [!NOTE]
-    > Este puerto se usa para el servicio de correspondencia activo y es necesario cuando la Aplicación de grupo de respuesta se implementa en un grupo de servidores que tiene más de un Servidor front-end.
+    > [!NOTE]  
+    > Este puerto se usa para hacer coincidir el servicio y es necesario cuando la aplicación de grupo de respuesta se implementa en un grupo que tiene más de un servidor front-end.
+
+    
+    </div>
+
+<div>
+
+
+> [!NOTE]  
+> Estos puertos son configuraciones predeterminadas que se pueden cambiar con el cmdlet <STRONG>Set-CsApplicationServer</STRONG>. Para obtener más información sobre este cmdlet, consulte la documentación del shell de administración de Lync Server.
 
 
 
+</div>
 
-> [!NOTE]
-> Estos puertos son configuraciones predeterminadas que se pueden cambiar mediante el cmdlet <STRONG>Set-CsApplicationServer</STRONG>. Para información sobre este cmdlet, vea la documentación de Shell de administración de Lync Server.
+</div>
 
+<div>
 
+## <a name="audio-file-requirements"></a>Requisitos de archivos de audio
 
-## Requisitos de archivos de audio
+La aplicación de grupo de respuesta admite el formato de archivo de onda (. wav) y el formato de archivo de audio de Windows Media (. WMA) para preguntas de mensajes de grupo de respuesta, música en espera o respuesta de voz interactiva (IVR).
 
-Aplicación de grupo de respuesta admite el formato de archivo de onda (.wav) y el formato de archivo de audio Windows Media (.wma) para mensajes de Grupo de respuesta, música en espera o preguntas de respuesta interactiva de voz (IVR).
+El formato de archivo de audio de Windows Media requiere que el Windows Media Format Runtime esté instalado en los servidores front-end que ejecutan Windows Server 2008 R2 y Windows Server 2008. Para obtener más información, mira "Requisitos de software" anteriormente en esta sección.
 
-El formato de archivo de audio Windows Media necesita que esté instalado Tiempo de ejecución de Windows Media Format en el Servidores front-end que ejecuta Windows Server 2008 R2 y Windows Server 2008. Para más información, vea "Requisitos de software" anteriormente en esta sección.
+<div>
 
-## Formatos de archivo wave compatibles
+## <a name="supported-wave-file-formats"></a>Formatos de archivo wave compatibles
 
-Todos los archivos wave deben cumplir los requisitos siguientes:
+Todos los archivos wave necesitan cumplir los requisitos siguientes:
 
   - Archivo de 8 bits o de 16 bits
 
@@ -77,25 +120,39 @@ Todos los archivos wave deben cumplir los requisitos siguientes:
 
   - 4 MB o menos
 
-Para obtener el máximo rendimiento de los archivos wave, se recomienda usar un archivo wave mono de 16 bits a 16 kHz.
+Para obtener el máximo rendimiento de los archivos wave, recomendamos usar un archivo wave mono de 16 bits a 16 kHz.
 
-## Formatos de archivo de audio Windows Media admitidos
+</div>
 
-Si usa un archivo de audio Windows Media, considere la posibilidad de usar velocidades de bits lentas y compruebe el rendimiento del sistema cuando se somete a carga.
+<div>
 
-Puede usar Microsoft Expression Encoder 4 para convertir un archivo al formato de audio de Windows Media. Para descargar Expression Encoder 4, vea [http://go.microsoft.com/fwlink/?linkid=202843\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=202843%26clcid=0xc0a).
+## <a name="supported-windows-media-audio-file-formats"></a>Formatos de archivo de audio de Windows Media compatibles
 
-## Requisitos para la herramienta de configuración del grupo de respuesta
+Si usas un archivo de audio de Windows Media, considera la posibilidad de usar velocidades de bits lentas y comprueba el rendimiento del sistema cuando se somete a carga.
 
-Herramienta de configuración de grupo de respuesta admite combinaciones de los sistemas operativos y los exploradores web que se describen en la tabla siguiente.
+Puedes usar Microsoft Expression Encoder 4 para convertir un archivo al formato de audio de Windows Media. Para descargar Expression Encoder 4, consulte [http://go.microsoft.com/fwlink/p/?linkId=202843](http://go.microsoft.com/fwlink/p/?linkid=202843).
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="response-group-configuration-tool-requirements"></a>Requisitos para la herramienta de configuración del grupo de respuesta
+
+La herramienta de configuración de grupos de respuesta admite las combinaciones de sistemas operativos y exploradores Web que se describen en la tabla siguiente.
+
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Se admiten las versiones de 32 y 64 bits de los sistemas operativos. Solamente se admiten las versiones de 32 bits de Internet Explorer.
 
 
 
-### Sistemas operativos y exploradores web compatibles
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>Sistemas operativos y exploradores web compatibles
 
 <table>
 <colgroup>
@@ -128,10 +185,7 @@ Herramienta de configuración de grupo de respuesta admite combinaciones de los 
 <p>Internet Explorer 9 (modo nativo)</p></td>
 </tr>
 <tr class="even">
-<td><p></p>
-<p></p>
-<p></p>
-<p>Windows Server 2008 R2</p>
+<td><p>Windows Server 2008 R2</p>
 <p>Windows Server 2008 R2 con Service Pack 1</p></td>
 <td><p>Internet Explorer 8 (modo nativo)</p>
 <p>Internet Explorer 9 (modo nativo)</p></td>
@@ -140,17 +194,25 @@ Herramienta de configuración de grupo de respuesta admite combinaciones de los 
 </table>
 
 
-## Consola del agente del grupo de respuesta
+</div>
 
-La consola de agente admite combinaciones de los sistemas operativos y los exploradores web que se describen en la tabla siguiente.
+<div>
+
+## <a name="response-group-agent-console"></a>Consola del agente del grupo de respuesta
+
+La consola del agente admite combinaciones de los sistemas operativos y los exploradores web que se describen en la tabla siguiente.
+
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Se admiten las versiones de 32 y 64 bits de los sistemas operativos. Solamente se admiten las versiones de 32 bits de Internet Explorer.
 
 
 
-### Sistemas operativos y exploradores web compatibles
+</div>
+
+### <a name="supported-operating-systems-and-web-browsers"></a>Sistemas operativos y exploradores web compatibles
 
 <table>
 <colgroup>
@@ -193,9 +255,22 @@ La consola de agente admite combinaciones de los sistemas operativos y los explo
 <p>Chrome 18.0</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

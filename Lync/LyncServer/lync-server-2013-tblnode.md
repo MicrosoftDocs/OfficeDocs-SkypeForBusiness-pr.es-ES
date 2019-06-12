@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblNode'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblNode
 ms:assetid: a31d2961-aa83-4286-a12e-15d279c95f19
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615024(v=OCS.15)
-ms:contentKeyID: 48276179
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615024(v=OCS.15)
+ms:contentKeyID: 48184960
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 84bf7cf57f9890093a56deb2e0769b82e92aa0ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850501"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblNode en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="tblnode-in-lync-server-2013"></a>tblNode en Lync Server 2013
 
-tblNode contiene el árbol de objetos (con nodos de categorías o salones de chat) según se haya administrado en el Panel de control de Lync Server 2013 y en los cmdlets administrativos.
+</div>
 
-### Columnas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-12_
+
+tblNode contiene el árbol de objetos (con nodos de categoría o de salón de chat) tal como se administra en el panel de control y los cmdlets administrativos de Lync Server 2013.
+
+### <a name="columns"></a>Columnas
 
 <table>
 <colgroup>
@@ -35,142 +55,142 @@ tblNode contiene el árbol de objetos (con nodos de categorías o salones de cha
 <tbody>
 <tr class="odd">
 <td><p>nodeID</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Id. de nodo (número único).</p></td>
+<td><p>int, not null</p></td>
+<td><p>IDENTIFICADOR de nodo (número único).</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeGuid</p></td>
-<td><p>GUID, no NULL</p></td>
+<td><p>GUID, not null</p></td>
 <td><p>GUID de nodo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>parentID</p></td>
-<td><p>Int</p></td>
-<td><p>Id. de nodo de elemento primario. El nodo raíz (con id. 1) se incluye también a sí mismo como elemento principal.</p></td>
+<td><p>int</p></td>
+<td><p>IDENTIFICADOR de nodo del elemento primario. El nodo raíz (con identificador 1) también se incluye como principal.</p></td>
 </tr>
 <tr class="even">
-<td><p>nodeType</p></td>
-<td><p>bit, no NULL</p></td>
-<td><p>Verdadero si el nodo es una categoría.</p>
+<td><p>Nodo</p></td>
+<td><p>bit, not null</p></td>
+<td><p>True si el nodo es una categoría.</p>
 <p>Falso si el nodo es un salón de chat.</p></td>
 </tr>
 <tr class="odd">
-<td><p>nodeName</p></td>
-<td><p>nvarchar (256), no NULL</p></td>
-<td><p>Nombre de nodo.</p></td>
+<td><p>nombreDeNodo</p></td>
+<td><p>nvarchar (256), not null</p></td>
+<td><p>Nombre del nodo.</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeDesc</p></td>
-<td><p>nvarchar (256), no NULL</p></td>
-<td><p>Descripción de nodo.</p></td>
+<td><p>nvarchar (256), not null</p></td>
+<td><p>Descripción del nodo.</p></td>
 </tr>
 <tr class="odd">
-<td><p>invite</p></td>
+<td><p>recibir</p></td>
 <td><p>bit</p></td>
-<td><p>Para categorías:</p>
+<td><p>Para las categorías:</p>
 <ul>
-<li><p>Verdadero si se activan las invitaciones.</p></li>
-<li><p>Falso si se desactivan las invitaciones.</p></li>
+<li><p>True si los invitados están activados.</p></li>
+<li><p>False si los invitados están deshabilitados.</p></li>
 </ul>
-<p>Para salones:</p>
+<p>Para salas:</p>
 <ul>
-<li><p>Falso si se desactivan las invitaciones (invalida la categoría principal).</p></li>
-<li><p>NULL si la configuración de invitaciones se ha heredado de la categoría principal.</p></li>
+<li><p>False si los invitados están deshabilitados (reemplaza la categoría principal).</p></li>
+<li><p>NULL si la configuración de invitados se hereda de la categoría principal.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>logged</p></td>
+<td><p>conectarse</p></td>
 <td><p>bit</p></td>
-<td><p>Para categorías:</p>
+<td><p>Para las categorías:</p>
 <ul>
-<li><p>Verdadero si el historial de chat está activado.</p></li>
-<li><p>Falso si el historial de chat está desactivado.</p></li>
+<li><p>True si el historial de chat está activado.</p></li>
+<li><p>Falso si el historial de conversaciones está deshabilitado.</p></li>
 </ul>
-<p>Para salones:</p>
+<p>Para salas:</p>
 <ul>
-<li><p>NULL.</p></li>
+<li><p>Valor.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><p>filePost</p></td>
 <td><p>bit</p></td>
-<td><p>Para categorías:</p>
+<td><p>Para las categorías:</p>
 <ul>
-<li><p>Verdadero si se permite cargar archivos.</p></li>
-<li><p>Falso si no se permite cargar archivos.</p></li>
+<li><p>True si se permiten las cargas de archivos.</p></li>
+<li><p>False si no se permiten las cargas de archivos.</p></li>
 </ul>
-<p>Para salones:</p>
+<p>Para salas:</p>
 <ul>
-<li><p>NULL.</p></li>
+<li><p>Valor.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p>disabled</p></td>
-<td><p>bit, no NULL</p></td>
-<td><p>Verdadero si el salón de chat está desactivado. Se aplica solo a los salones de chat. (Falso para categorías.)</p></td>
+<td><p>habilitar</p></td>
+<td><p>bit, not null</p></td>
+<td><p>True si el salón de chat está deshabilitado. Solo se aplica a salones de chat. (Falso para categorías).</p></td>
 </tr>
 <tr class="odd">
-<td><p></p></td>
-<td><p></p></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><p>behavior</p></td>
-<td><p>smallint, no NULL</p></td>
-<td><p>Comportamiento (consultado en la tabla EnumValue):</p>
+<td><p>problema</p></td>
+<td><p>smallint, not null</p></td>
+<td><p>Comportamiento (que se busca en la tabla EnumValue):</p>
 <ul>
-<li><p>4: Normal (salones de chat normales)</p></li>
-<li><p>5: Auditorium (salones de chat de tipo auditorio, solo pueden contribuir los moderadores).</p></li>
+<li><p>4: normal (salones de chat normales).</p></li>
+<li><p>5: auditorio (salones de chat de Auditorio; solo los moderadores pueden contribuir).</p></li>
 </ul>
 <p>Solo se aplica a salones de chat.</p></td>
 </tr>
 <tr class="odd">
-<td><p>visibility</p></td>
-<td><p>smallint, no NULL</p></td>
-<td><p>Visibilidad (consultado en la tabla EnumValue):</p>
+<td><p>visión</p></td>
+<td><p>smallint, not null</p></td>
+<td><p>Visibilidad (en la tabla EnumValue):</p>
 <ul>
-<li><p>2: Privado</p></li>
-<li><p>3: Con ámbito</p></li>
-<li><p>6: Open</p></li>
+<li><p>2: privado</p></li>
+<li><p>3: ámbito</p></li>
+<li><p>6: abrir</p></li>
 </ul>
 <p>Solo se aplica a salones de chat.</p></td>
 </tr>
 <tr class="even">
 <td><p>siopID</p></td>
 <td><p>Identificador único global</p></td>
-<td><p>GUID complemento si hay un complemento asociado a este salón de chat. (Las categorías no tienen complementos.)</p>
-<p>La información de complemento se consulta en la tabla SiopWhiteList.</p></td>
+<td><p>GUID de complemento si un complemento está asociado con este salón de chat. (Las categorías no tienen complementos).</p>
+<p>La información del complemento se busca en la tabla SiopWhiteList.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeAddedBy</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Id. del principal que creó este nodo.</p></td>
+<td><p>int, not null</p></td>
+<td><p>IDENTIFICADOR de la entidad de identidad que creó este nodo.</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeAddedOn</p></td>
-<td><p>bigint, no NULL</p></td>
-<td><p>Marca de tiempo de creación del nodo.</p></td>
+<td><p>BIGINT, not null</p></td>
+<td><p>Marca de tiempo de la creación del nodo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>nodeUpdatedBy</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Id. del principal que actualizó por última vez este nodo.</p></td>
+<td><p>int, not null</p></td>
+<td><p>IDENTIFICADOR de la entidad de identidad que realizó la última actualización de este nodo.</p></td>
 </tr>
 <tr class="even">
 <td><p>nodeUpdatedOn</p></td>
-<td><p>bigint, no NULL</p></td>
+<td><p>BIGINT, not null</p></td>
 <td><p>Marca de tiempo de la última actualización de este nodo.</p></td>
 </tr>
 <tr class="odd">
 <td><p>purgedOn</p></td>
-<td><p>Datetime</p></td>
-<td><p>Hora de la última operación de purga (retirada de ámbitos de la tabla tblScopedPrincipal y roles de la tabla tblPrincipalRole) que afectó a este nodo. La utiliza el mecanismo interno de actualización de caché del servicio de chat.</p></td>
+<td><p>datetime</p></td>
+<td><p>Hora de la última operación de purga (eliminación de ámbitos de la tabla tblScopedPrincipal y roles de la tabla tblPrincipalRole) que afectó a este nodo. Lo usa el mecanismo de actualización de la caché interna del servicio de chat.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Teclas
+### <a name="keys"></a>Sus
 
 <table>
 <colgroup>
@@ -189,21 +209,32 @@ tblNode contiene el árbol de objetos (con nodos de categorías o salones de cha
 <td><p>Clave principal.</p></td>
 </tr>
 <tr class="even">
-<td><p>behavior</p></td>
-<td><p>Clave externa con búsqueda en la tabla tblEnumValue.valueID.</p></td>
+<td><p>problema</p></td>
+<td><p>Clave externa con la búsqueda en la tabla tblEnumValue. valueID.</p></td>
 </tr>
 <tr class="odd">
-<td><p>visibility</p></td>
-<td><p>Clave externa con búsqueda en la tabla tblEnumValue.valueID.</p></td>
+<td><p>visión</p></td>
+<td><p>Clave externa con la búsqueda en la tabla tblEnumValue. valueID.</p></td>
 </tr>
 <tr class="even">
 <td><p>parentID</p></td>
-<td><p>Clave externa con búsqueda en la tabla RoleType.rtypeID.</p></td>
+<td><p>Clave externa con la búsqueda en la tabla tblNode. nodeID.</p></td>
 </tr>
 <tr class="odd">
 <td><p>siopID</p></td>
-<td><p>Clave externa con búsqueda en la tabla tblSiopWhiteList.siopId.</p></td>
+<td><p>Clave externa con la búsqueda en la tabla tblSiopWhiteList. siopId.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

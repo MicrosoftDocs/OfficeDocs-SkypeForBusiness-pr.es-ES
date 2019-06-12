@@ -1,55 +1,105 @@
-﻿---
-title: Información general sobre la conferencia web en Lync Server 2013
-TOCTitle: Información general sobre la conferencia web en Lync Server 2013
-ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425913(v=OCS.15)
-ms:contentKeyID: 48275079
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Introducción a las conferencias web de Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Web conferencing overview
+ms:assetid: 40616dc4-f705-4890-85bf-79f76a033a9b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425913(v=OCS.15)
+ms:contentKeyID: 48183949
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b0b85bc97f5737f980c83c992a6a21eaeaca4e40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850012"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Información general sobre la conferencia web en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="overview-of-web-conferencing-in-lync-server-2013"></a>Información general sobre las conferencias web en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-30_
 
-Con la conferencia web, los usuarios pueden compartir y colaborar en documentos, como presentaciones PowerPoint, durante las conferencias. Además, los usuarios pueden compartir total o parcialmente el escritorio entre sí en tiempo real, haciendo que parezca como si las personas de la conferencia estuvieran juntas alrededor de la misma mesa en la reunión.
+Con las conferencias web, los usuarios pueden compartir documentos y colaborar en ellos, como presentaciones de PowerPoint, durante las conferencias. Además, los usuarios pueden compartir todos los equipos de escritorio o parte de ellos en tiempo real, de modo que parezca que las personas de la Conferencia se han recopilado alrededor de la misma tabla de la reunión.
 
-## Pizarra y anotaciones
+<div>
+
+## <a name="whiteboard-and-annotations"></a>Pizarra y anotaciones
 
 Una pizarra es un lienzo en blanco que se puede usar para la colaboración con texto, lápiz, dibujos e imágenes. Las anotaciones hechas en las pizarras pueden verlas todos los participantes en la reunión. La característica de pizarra mejora la colaboración porque permite a los participantes de la reunión debatir, intercambiar ideas, tomar notas, etc.
 
-## Sondeo
+</div>
+
+<div>
+
+## <a name="polling"></a>Sondeo
 
 La característica de sondeo mejora la colaboración porque permite a los moderadores averiguar rápidamente las preferencias de los participantes. Durante las conversaciones y reuniones en línea, los moderadores pueden usar el sondeo para recabar respuestas anónimas de los participantes. Todos los moderadores pueden ver los resultados y elegir entre ocultarlos o mostrarlos a todos los asistentes.
 
-## Uso compartido de aplicaciones y escritorios
+</div>
 
-Durante una conferencia puede compartir todo el escritorio, una aplicación individual o monitores individuales en un entorno con varios monitores. Aparte de solo ver el contenido, otros participantes en la conferencia también pueden solicitar el control de la pantalla y, con permiso, interactuar con el contenido (incluido el desplazamiento y la modificación).
+<div>
+
+## <a name="application-sharing-and-desktop-sharing"></a>Uso compartido de aplicaciones y escritorio compartido
+
+Durante una conferencia, puede compartir todo el escritorio, una aplicación individual o monitores individuales en un entorno de varios monitores. Aparte de ver el contenido, otros participantes de la Conferencia también pueden solicitar el control de su pantalla y, con el permiso, interactuar con el contenido (incluido el desplazamiento y la edición).
+
+<div>
 
 
-> [!NOTE]
-> Los participantes que están viendo la conferencia también pueden asumir el control y empezar a compartir contenido durante la reunión
+> [!NOTE]  
+> Los participantes que ven la Conferencia también pueden tomar el control y empezar a compartir contenido durante la reunión.
 
 
 
-## Uso compartido de PowerPoint
+</div>
 
-En Lync 2010, las presentaciones de PowerPoint se veían en una de dos maneras. Para los usuarios que ejecutaban Lync 2010, las presentaciones de PowerPoint aparecían con el formato PowerPoint 97-2003 y se veían usando una copia incrustada del visor de PowerPoint. Para los usuarios que ejecutaban Lync Web App, las presentaciones de PowerPoint se convertían a archivos HTML dinámicos y luego se veían usando una combinación de esos archivos DHTML personalizados y Silverlight. Aunque generalmente era eficaz, este enfoque tenía algunas limitaciones:
+</div>
 
-  - El visor de PowerPoint incrustado (que proporciona la experiencia de visualización óptima) solo está disponible en la plataforma de Windows.
+<div>
 
-  - Muchos dispositivos móviles (incluidos algunos de los teléfonos móviles más populares) no son compatibles con Silverlight.
+## <a name="powerpoint-sharing"></a>Uso compartido de PowerPoint
 
-  - El visor de PowerPoint y el enfoque DHTML/Silverlight no es compatible con todas las características (como las transiciones de diapositivas y el vídeo incrustado) que se encuentran en las versiones más recientes de PowerPoint.
+En Lync 2010, las presentaciones de PowerPoint se visualizaban de una de dos maneras. Para los usuarios que ejecutan Lync 2010, las presentaciones de PowerPoint se mostraban con el formato de PowerPoint 97-2003 y se visualizaban con una copia incrustada de PowerPoint Viewer. Para los usuarios que ejecutan Lync Web App, las presentaciones de PowerPoint se convirtieron en archivos HTML dinámicos y, a continuación, se veían con una combinación de esos archivos DHTML personalizados y Silverlight. Aunque generalmente es eficaz, este enfoque tiene algunas limitaciones:
 
-Para ayudar a abordar estas cuestiones y mejorar la experiencia global de los usuarios al presentar o ver presentaciones de PowerPoint, Lync Server 2013 usa Office Web Apps y Servidor Office Web Apps para controlar las presentaciones de PowerPoint. Entre otras ventajas, este nuevo enfoque permite:
+  - El visor de PowerPoint incrustado (que proporcionó la experiencia de visualización óptima) solo está disponible en la plataforma de Windows.
 
-  - Pantallas de mayor resolución y mayor compatibilidad con las capacidades de PowerPoint, como animaciones, transiciones de diapositivas y vídeo incrustado.
+  - Muchos dispositivos móviles (incluidos algunos de los teléfonos móviles más populares) no admiten Silverlight.
 
-  - Que más dispositivos móviles obtengan acceso a estas presentaciones. Eso es porque Lync Server 2013 usa DHTML estándar y JavaScript para difundir presentaciones de PowerPoint en vez de DHTML personalizado y Silverlight.
+  - El enfoque de PowerPoint Viewer y DHTML/Silverlight no admite todas las características (como las transiciones de diapositiva y el vídeo incrustado) que se encuentran en las versiones más recientes de PowerPoint.
 
-  - Que usuarios con los privilegios adecuados se desplacen a través de una presentación de PowerPoint independiente de la propia presentación. Por ejemplo, mientras que Ken Myer realiza su presentación, Pilar Ackerman puede ver cualquier diapositiva que quiera, sin que esto afecte a la presentación de Ken.
+Para ayudar a solucionar estos problemas y mejorar la experiencia general de los usuarios que presentan o ven presentaciones de PowerPoint, Lync Server 2013 usa Office Web Apps y el servidor de Office Web Apps para controlar presentaciones de PowerPoint. Entre otras ventajas, este nuevo enfoque permite:
+
+  - Pantallas de mayor resolución y mejor compatibilidad con las características de PowerPoint, como animaciones, transiciones de diapositivas y vídeo incrustado.
+
+  - Dispositivos móviles adicionales para acceder a estas presentaciones. Esto se debe a que Lync Server 2013 usa DHTML y JavaScript estándar para difundir presentaciones de PowerPoint en lugar de DHTML y Silverlight personalizados.
+
+  - Los usuarios con los privilegios adecuados para desplazarse por una presentación de PowerPoint independientemente de la presentación. Por ejemplo, si bien Ken Myer está presentando su presentación con diapositivas, Pilar Ackerman puede ver la diapositiva que quiere y sin afectar a la presentación de Ken.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

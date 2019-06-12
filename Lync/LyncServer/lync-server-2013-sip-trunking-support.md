@@ -1,81 +1,135 @@
-﻿---
-title: 'Lync Server 2013: Compatibilidad con conexiones de enlace troncal SIP'
-TOCTitle: Compatibilidad con conexiones de enlace troncal SIP
-ms:assetid: e3042831-e8d8-4ea2-baa2-1a697401ffa0
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399005(v=OCS.15)
-ms:contentKeyID: 48276978
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Compatibilidad con conexiones de enlace troncal SIP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: SIP trunking support
+ms:assetid: e3042831-e8d8-4ea2-baa2-1a697401ffa0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399005(v=OCS.15)
+ms:contentKeyID: 48185714
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d2bdcf814a62bed4954c77be76bef32e1b6807ba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850622"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Compatibilidad con conexiones de enlace troncal SIP en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="sip-trunking-support-in-lync-server-2013"></a>Compatibilidad con conexiones de enlace troncal SIP en Lync Server 2013
 
-Si piensa usar la Telefonía IP empresarial con enlace troncal SIP, debe implementar un servidor de mediación y asegurarse de que el resto de los componentes y la infraestructura cumplen los requisitos de compatibilidad correspondientes al modelo de su implementación. Para conocer los detalles acerca de cómo averiguar si es necesario implementar el enlace troncal SIP, consulte [Información general sobre los enlaces troncales SIP en Lync Server 2013](lync-server-2013-overview-of-sip-trunking.md) en la documentación de planeación.
+</div>
 
-Puede usar el Programa de interoperabilidad abierto de comunicaciones unificadas de Microsoft para la infraestructura de telefonía empresarial, con el fin de encontrar puertas de enlace RTC, PBX IP y servicios de enlace troncal SIP, incluidos los proveedores de servicios de telefonía IP cualificados. Para obtener información detallada, consulte el sitio web del Programa de interoperabilidad abierto de Comunicaciones unificadas de Microsoft en [http://go.microsoft.com/fwlink/?linkid=203309\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=203309%26clcid=0xc0a).
+<div id="mainSection">
 
-## Compatibilidad del servidor de mediación
+<div id="mainBody">
 
-Para implementar el enlace troncal SIP, debe enrutar la conexión a través de un servidor de mediación, que envía a un proxy las sesiones de comunicación entre los clientes de Lync Server 2013 y el proveedor de servicios. El servidor de mediación descodifica el tráfico de medios de clientes y servidores y lo vuelve a codificar antes de enviarlo al proveedor de servicios. La recodificación es necesaria porque los troncos SIP no admiten algunos códecs usados, como la negociación de los protocolos de Audio en tiempo real (RTA) o el Establecimiento interactivo de conectividad (ICE) para el cruce seguro de firewall.
+<span> </span>
 
-Todos los servidores de mediación pueden tener dos adaptadores de red para ofrecer una interfaz de red interna y otra externa. La interfaz externa se suele denominar interfaz de puerta de enlace porque se ha venido usando para la conexión con una puerta de enlace de RTC o una PBX IP. Para implementar un enlace troncal SIP, debe conectar la interfaz externa a un controlador de borde de sesión (SBC) de un proveedor de servicios.
+_**Última modificación del tema:** 2012-10-03_
 
-## Enlace troncal SIP centralizado y distribuido
+Si planea usar telefonía IP empresarial con Troncalización SIP, debe implementar un servidor de mediación y asegurarse de que otros componentes y la infraestructura cumplan con los requisitos de soporte técnico adecuados para su modelo de implementación. Para obtener más información sobre cómo determinar si implementar la Troncalización SIP, consulte [información general sobre el enlace troncal de SIP en Lync Server 2013](lync-server-2013-overview-of-sip-trunking.md) en la documentación de planificación.
 
-El enlace troncal SIP *centralizado* enruta todo el tráfico de VoIP, incluido el tráfico de las sucursales, a través de su centro de datos. El modelo de implementación centralizado es sencillo, rentable y, en general, el método que se suele preferir para implementar troncos SIP con Lync Server 2013.
+Puede usar el programa de interoperabilidad abierta de comunicaciones unificadas de Microsoft para la infraestructura de telefonía empresarial para encontrarse con puertas de enlace de red telefónica conmutada (RTC) públicas, PBX IP y servicios de Troncalización SIP, incluida la telefonía IP calificada. proveedores de servicios. Para obtener más información, consulte el sitio web del programa de interoperabilidad abierta de comunicaciones unificadas de Microsoft en [http://go.microsoft.com/fwlink/p/?LinkId=203309](http://go.microsoft.com/fwlink/p/?linkid=203309).
 
-Según los patrones de uso de su empresa, es posible que no desee enrutar a todos los usuarios a través del enlace troncal SIP centralizado. Para analizar sus necesidades, responda a las siguientes preguntas:
+<div>
 
-  - ¿Qué tamaño tiene cada sitio? ¿Cuántos usuarios tiene?
+## <a name="mediation-server-support"></a>Compatibilidad con el servidor de mediación
 
-  - ¿Qué números de llamada directa a la extensión (DID) reciben más llamadas en cada sitio?
+Para implementar la Troncalización SIP, debe enrutar la conexión a través de un servidor de mediación, que actúa como un proxy para las sesiones de comunicaciones entre los clientes de Lync Server 2013 y el proveedor de servicios. El servidor de mediación descodifica el tráfico multimedia de los clientes y los servidores y lo vuelve a codificar antes de enviarlo al proveedor de servicios. La recodificación es necesaria porque los troncos SIP no admiten algunos códecs usados, como la entrada de audio en tiempo real (RTA) o la negociación de protocolo ICE (establecimiento de conectividad interactiva) para el recorrido de Firewall.
 
-El enlace troncal SIP *distribuido* es un modelo de implementación con el que se implementa un enlace troncal SIP local en una o más sucursales. A partir de entonces, el tráfico de VoIP se enruta desde la sucursal directamente al proveedor de servicios que le corresponda, sin pasar por su centro de datos.
+Cada servidor de mediación puede tener dos adaptadores de red, que proporcionan una interfaz de red interna y externa. La interfaz externa suele denominarse puerta de enlace porque, tradicionalmente, se ha usado para conectarse a una puerta de enlace PSTN o IP-PBX. Para implementar un tronco de SIP, debe conectar la interfaz externa a un controlador de borde de sesión (SBC) en un proveedor de servicios.
+
+</div>
+
+<div>
+
+## <a name="centralized-vs-distributed-sip-trunking"></a>Enlace troncal SIP centralizado en comparación con uno distribuido
+
+*Centralizado* El Troncalización SIP dirige todo el tráfico de voz sobre el protocolo de Internet (VoIP), incluido el tráfico de sitios de sucursales, a través de su centro de datos. El modelo de implementación centralizada es simple, rentable y, por lo general, es el método preferido para implementar los troncos SIP con Lync Server 2013.
+
+Según los patrones de uso dentro de su empresa, es posible que no desee enrutar a todos los usuarios a través del tronco SIP centralizado. Para analizar tus necesidades, responde a las siguientes preguntas:
+
+  - ¿Qué tamaño tiene cada sitio? ¿Cuántos usuarios?
+
+  - ¿Cuáles son los números de marcación directa directos de cada sitio que reciben las llamadas más telefónicas?
+
+*Distribuido* El Troncalización SIP es un modelo de implementación en el que se implementa un enlace SIP local en uno o más sitios de sucursales. El tráfico de VoIP se enruta directamente desde el sitio de la sucursal a su proveedor de servicios, sin necesidad de pasar por su centro de datos.
 
 El enlace troncal SIP distribuido solo es necesario en los siguientes casos:
 
-  - Si la sucursal necesita una conectividad telefónica con funciones de supervivencia (por ejemplo, si se cae la red WAN). Si la sucursal necesita redundancia y conmutación por error, el proveedor de servicios cobrará más por ello y la configuración llevará más tiempo. Se deben analizar estas características en cada sucursal. Es posible que algunas requieran redundancia y conmutación por error y otras, no.
+  - El sitio de la sucursal requiere conectividad telefónica reactivable (por ejemplo, si la WAN deja de funcionar). Si la sucursal necesita redundancia y conmutación por error, el proveedor de servicios cobrará más y la configuración tardará más tiempo. Debe analizarse para cada sitio de sucursal. Es posible que algunas de las sucursales requieran redundancia y conmutación por error, mientras que otras no.
 
-  - Si la sucursal y el centro de datos se encuentran en países o regiones diferentes. Por motivos legales y de compatibilidad, necesita al menos un enlace troncal SIP por cada país o región.
+  - El sitio de la sucursal y el centro de datos se encuentran en diferentes países o regiones. Por motivos legales y de compatibilidad, necesitas al menos un tronco SIP por cada país o región.
 
-Para saber si es recomendable implementar un enlace troncal SIP centralizado o distribuido, se necesita un análisis de coste-beneficio. En algunos casos, puede ser mejor optar por el modelo de implementación distribuido aunque no sea necesario. En las implementaciones totalmente centralizadas, todo el tráfico de las sucursales se enruta mediante vínculos WAN. En lugar de pagar por el ancho de banda necesario para la vinculación WAN, es posible que prefiera usar el enlace troncal SIP distribuido.
+La decisión de implementar Troncalización SIP centralizada o distribuida requiere un análisis de costo-beneficio. En algunos casos, puede resultar ventajoso optar por el modo de implementación distribuida, incluso si no es necesario. En una implementación completamente centralizada, todo el tráfico de los sitios de las sucursales se enruta a través de vínculos de WAN. En lugar de pagar por el ancho de banda necesario para la vinculación WAN, es posible que prefieras usar el enlace troncal SIP distribuido.
 
-
-> [!NOTE]
-> Para obtener detalles sobre cómo y por qué usar el enlace troncal SIP distribuido, vea <A href="lync-server-2013-branch-site-sip-trunking.md">Enlace troncal SIP de sitios de sucursal en Lync Server 2013</A> en la documentación de planeación.
+<div>
 
 
+> [!NOTE]  
+> Para obtener más información sobre por qué y cómo puede usar la Troncalización de SIP distribuido, consulte <A href="lync-server-2013-branch-site-sip-trunking.md">Troncalización SIP de sitio de sucursal en Lync Server 2013</A> en la documentación de planeación.
 
-## Tipos de conexión de enlace troncal SIP compatibles
 
-Lync Server 2013 admite los siguientes tipos de conexión de enlace troncal SIP:
 
-  - La conmutación de etiquetas multiprotocolo (MPLS) es una red privada que dirige y transfiere datos de un nodo de red al siguiente. El ancho de banda de una red MPLS se comparte con los demás suscriptores, y a cada paquete de datos se le asigna una etiqueta para distinguir los datos de cada suscriptor. Este tipo de conexión no necesita VPN. Un posible inconveniente es que el exceso de tráfico de IP puede interferir con el funcionamiento de VoIP, salvo que se le dé prioridad al tráfico de VoIP.
+</div>
 
-  - En general, las conexiones privadas sin otro tipo de tráfico son el tipo de conexión más seguro y fiable (por ejemplo, una línea de T1 o una conexión de fibra óptica alquilada). Este tipo de conexión ofrece la mayor capacidad de transferencia de llamadas, pero suele ser el más caro. No se necesita VPN. Las conexiones privadas son adecuadas para las organizaciones que tengan un gran volumen de llamadas o requisitos de seguridad y disponibilidad muy estrictos.
+</div>
 
-  - La Internet pública es el tipo de conexión menos costoso, pero también el menos fiable y el que tiene la menor capacidad de transferencia de llamadas. El proveedor de servicios de telefonía por Internet (ITSP) puede ayudar a proteger este tipo de conexión de tronco SIP si es compatible con TLS y el protocolo de transporte seguro en tiempo real (SRTP) para cifrar la señal y el tráfico de medios. Si no puede configurar una conexión de tronco SIP a través de Internet para que use TLS y SRTP, se recomienda encarecidamente que utilice un túnel de VPN para ofrecer una conexión más segura. Póngase en contacto con su ITSP para averiguar si admite TLS con SRTP.
+<div>
 
-## Selección de un tipo de conexión
+## <a name="supported-sip-trunking-connection-types"></a>Tipos de conexión de enlace troncal SIP compatibles
 
-El tipo de conexión de enlace troncal SIP más adecuado para su empresa depende de las necesidades y el presupuesto del que disponga.
+Lync Server 2013 admite los siguientes tipos de conexión para Troncalización SIP:
 
-  - Para empresas medianas o grandes normalmente la red MPLS ofrece el mejor servicio. Es capaz de proporcionar el ancho de banda necesario a un precio menor que el de las redes privadas especializadas.
+  - La conmutación de etiquetas multiprotocolo (MPLS) es una red privada que dirige y transfiere datos de un nodo de red al siguiente. El ancho de banda de una red MPLS se comparte con los demás suscriptores, y a cada paquete de datos se le asigna una etiqueta para distinguir los datos de cada suscriptor. Este tipo de conexión no requiere VPN. Un posible inconveniente es que el exceso de tráfico de IP puede interferir en el funcionamiento de VoIP, salvo que el tráfico de VoIP tenga prioridad.
 
-  - Las empresas grandes pueden necesitar una conexión de T1 o fibra óptica privada.
+  - Normalmente, una conexión privada sin otro tráfico es el tipo de conexión más confiable y confiable (por ejemplo, una conexión de fibra óptica con leasing o una línea T1). Este tipo de conexión proporciona la mayor capacidad de carga de llamadas, pero generalmente es la más costosa. No se necesita VPN. Las conexiones privadas son adecuadas para las organizaciones que tienen un gran volumen de llamadas o requisitos de seguridad y disponibilidad muy estrictos.
 
-  - Para empresas pequeñas o sucursales con un volumen de llamadas escaso, el enlace troncal SIP a través de Internet puede ser la mejor opción; sin embargo, este tipo de conexión no se recomienda para sitios medianos o grandes.
+  - La Internet pública es el tipo de conexión menos costosa, pero también el menos confiable y el que tiene la capacidad de hacer llamadas más económicas. El proveedor de servicios de telefonía por Internet (ITSP) puede ayudar a proteger este tipo de conexión de troncal de SIP, si es compatible con la seguridad de la capa de transporte (TLS) y el protocolo de transporte seguro en tiempo real (SRTP) para cifrar el tráfico de señales y multimedia. Si no puede configurar una conexión de troncal de SIP a través de Internet para usar TLS y SRTP, le recomendamos encarecidamente que use un túnel VPN para proporcionar una conexión más segura. Póngase en contacto con su ITSP para determinar si proporciona compatibilidad con TLS con SRTP.
 
-## Compatibilidad de códecs
+<div>
+
+## <a name="selecting-a-connection-type"></a>Seleccionar un tipo de conexión
+
+El tipo de conexión de enlace troncal SIP más adecuado para tu empresa depende de las necesidades y el presupuesto del que dispongas.
+
+  - En el caso de una empresa de tamaño mediano o grande, una red MPLS generalmente proporciona el máximo valor. Puede proporcionar el ancho de banda necesario a una tarifa económica que una red privada especializada.
+
+  - Las grandes empresas pueden requerir una conexión privada de fibra óptica o T1.
+
+  - En el caso de una pequeña empresa o sitio de sucursales con un volumen de llamada bajo, el Troncalización SIP a través de Internet puede ser la mejor opción. Sin embargo, no se recomienda este tipo de conexión para los sitios de tamaño mediano o más grande.
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="codec-support"></a>Compatibilidad de códecs
 
 El proxy del proveedor de servicios debe admitir los siguientes códecs:
 
   - G.711 Ley A (que se usa principalmente fuera de Norteamérica)
 
   - G.711 Ley µ (que se usa en Norteamérica)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing watcher node configuration'
+---
+title: 'Lync Server 2013: probar la configuración del nodo de monitor'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing watcher node configuration
 ms:assetid: f9ecd85c-0ae9-4906-b786-6b002b5a77c6
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn751537(v=OCS.15)
-ms:contentKeyID: 62388679
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn751537(v=OCS.15)
+ms:contentKeyID: 63969667
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 65d2c79de4f86e490244ef63948c263d8f387fc5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850309"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing watcher node configuration in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="testing-watcher-node-configuration-in-lync-server-2013"></a>Probar la configuración del nodo de monitor en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-11-03_
 
 
 <table>
@@ -23,93 +43,123 @@ _**Última modificación del tema:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Programación de verificación</p></td>
+<td><p>Cada día</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Herramienta de prueba</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de administración de Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsWatcherNodeConfiguration</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permisos necesarios</p></td>
+<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet <strong>Test-CsWatcherNodeConfiguration</strong> . Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot; Test-CsWatcherNodeConfiguration&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-If you are using Microsoft System Center Operations Manager to monitor Lync Server 2013 then you have the option of setting up "watcher nodes": computers that periodically, and automatically, run synthetic transactions to verify that Lync Server is working as expected. Watcher nodes are assigned to pools, and are managed by using the **CsWatcherNodeConfiguration** cmdlets. Note that you do not need to install watcher nodes if you are using System Center Operations Manager. You can still monitor your system without using watcher nodes. The only difference is that any synthetic transactions that you want to run must be invoked manually instead of automatically invoked by Operations Manager.
+## <a name="description"></a>Descripción
 
-The **Test-CsWatcherNodeConfiguration** cmdlet enables you to verify that a watcher node was configured correctly and is assigned to a valid Lync Server 2013 pool. Note that the **Test-CsWatcherNodeConfiguration** cmdlet must be run on the watcher node itself. The cmdlet cannot be run against remote computers.
+Si usa Microsoft System Center Operations Manager para supervisar Lync Server 2013, tendrá la opción de configurar "nodos de monitor": equipos que ejecutan de forma periódica y automática transacciones sintéticas para comprobar que Lync Server funciona como esperado. Los nodos de monitor se asignan a grupos y se administran mediante los cmdlets de **CsWatcherNodeConfiguration** . Tenga en cuenta que no necesita instalar nodos de monitor si está usando System Center Operations Manager. Aún puede supervisar el sistema sin usar nodos de monitor. La única diferencia es que cualquier transacción sintética que desee ejecutar debe invocarse manualmente en lugar de invocarse de forma automática por parte de Operations Manager.
 
-## Running the test
+El cmdlet **Test-CsWatcherNodeConfiguration** le permite comprobar que un nodo de monitor se ha configurado correctamente y se asigna a un grupo de servidores de Lync Server 2013 válido. Tenga en cuenta que el cmdlet **Test-CsWatcherNodeConfiguration** debe ejecutarse en el nodo de monitor en sí. El cmdlet no se puede ejecutar en equipos remotos.
 
-The following command verifies the configuration settings for each watcher node that is being used in the organization.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ejecutar la prueba
+
+El siguiente comando comprueba la configuración de cada nodo de monitor que se usa en la organización.
 
     Test-CsWatcherNodeConfiguration
 
-## Determining success or failure
+</div>
 
-The following successful sample output shows a system with four edge servers.
+<div>
 
-Validating target pool atl-cs-001.litwareinc.com against topology.
+## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
 
-Success: Target pool atl-cs-001.litwareinc.com exists in topology.
+La siguiente salida de ejemplo correcta muestra un sistema con cuatro servidores perimetrales.
 
-Success: Target pool atl-cs-001.litwareinc.com has Registrar role installed.
+Validando la atl-cs-001.litwareinc.com del grupo de destino en topología.
 
-Success: Target pool atl-cs-001.litwareinc.com is supported version.
+Correcto: la atl-cs-001.litwareinc.com del grupo de destino existe en la topología.
 
-Success: Port number for 5061 Target pool atl-cs-001.litwareinc.com is correct.
+Correcto: el atl-cs-001.litwareinc.com del grupo de destino tiene el rol de registrador instalado.
 
-Checking for missing pools in watcher node configuration is started. If any error is detected, it will be printed.
+Correcto: la versión del grupo de atl-cs-001.litwareinc.com es compatible.
 
-Checking for missing pools in watcher node configuration is finished.
+Éxito: el número de puerto para la atl-cs-001.litwareinc.com del grupo de destino 5061 es correcto.
 
-Checking for watcher node registry keys created by watcher node installation, is started. If any error is detected, it will be printed.
+Se ha iniciado la búsqueda de grupos que faltan en la configuración del nodo de monitor. Si se detecta cualquier error, se imprimirá.
 
-Checking for watcher node registry keys created by watcher node installation, is finished. Detected authentication type is Negotiate.
+Se ha finalizado la búsqueda de grupos que faltan en la configuración del nodo de monitor.
 
-Successfully validated existence of test user’s credential sip:user1@ atl-cs-001.litwareinc.com in credential management store.
+Se ha iniciado la comprobación de las claves del registro del nodo de monitor creadas por la instalación del nodo de monitor. Si se detecta cualquier error, se imprimirá.
 
-Successfully validated existence of test user’s credential sip:user2@ atl-cs-001.litwareinc.com in credential management store.
+La comprobación de las claves del registro del nodo de monitor creadas por la instalación del nodo de monitor ha finalizado. El tipo de autenticación detectada es Negotiate.
 
-Checking for missing pools in watcher node configuration is started. If any error is detected, it will be printed.
+Se validó correctamente la existencia de credenciales del usuario de prueba: usuario1 @ atl-cs-001.litwareinc.com en la tienda de administración de credenciales.
 
-WARNING: Pool atl-cs-001.litwareinc.com has Registrar
+Se validó correctamente la existencia del SIP de credenciales del usuario de prueba: usuario2 @ atl-cs-001.litwareinc.com en la tienda de administración de credenciales.
 
-role installed, but there are no test users configured for it.
+Se ha iniciado la búsqueda de grupos que faltan en la configuración del nodo de monitor. Si se detecta cualquier error, se imprimirá.
 
-Checking for missing pools in watcher node configuration is finished.
+ADVERTENCIA: el atl-cs-001.litwareinc.com de grupo tiene registrador
 
-Checking for watcher node registry keys created by watcher node installation, is
+rol instalado, pero no hay ningún usuario de prueba configurado para él.
 
-started. If any error is detected, it will be printed.
+Se ha finalizado la búsqueda de grupos que faltan en la configuración del nodo de monitor.
 
-Test-CsWatcherNodeConfiguration : Cannot find Health registry key in
+La comprobación de las claves del registro del nodo de monitor creadas por la instalación del nodo de monitor es
 
-Software\\Microsoft\\Real-Time Communications. Make sure watcher node .msi is
+Comience. Si se detecta cualquier error, se imprimirá.
 
-installed properly.
+Prueba-CsWatcherNodeConfiguration: no se puede encontrar la clave del registro de estado en
 
-## Reasons why the test might have failed
+Software\\comunicaciones\\en tiempo real de Microsoft. Asegúrese de que el nodo Monitor. msi está
 
-Here are some common reasons why **Test-CsWatcherNodeConfiguration** might fail:
+instalado correctamente.
 
-  - Watcher node is not correctly installed.
+</div>
 
-  - No test users are configured.
+<div>
 
-## Vea también
+## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
 
-#### Otros recursos
+Estas son algunas de las razones comunes por las que **Test-CsWatcherNodeConfiguration** podría fallar:
 
-[Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
-[New-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsWatcherNodeConfiguration)  
-[Remove-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
-[Set-CsWatcherNodeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsWatcherNodeConfiguration)
+  - El nodo de monitor no está correctamente instalado.
+
+  - No hay ningún usuario de prueba configurado.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Get-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsWatcherNodeConfiguration)  
+[New-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/New-CsWatcherNodeConfiguration)  
+[Remove-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Remove-CsWatcherNodeConfiguration)  
+[Set-CsWatcherNodeConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsWatcherNodeConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

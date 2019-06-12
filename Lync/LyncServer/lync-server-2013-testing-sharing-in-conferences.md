@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing sharing in conferences'
+---
+title: 'Lync Server 2013: pruebas de uso compartido en conferencias'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing sharing in conferences
 ms:assetid: e6021d70-6ed9-414d-954c-06eef397dc1a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn727314(v=OCS.15)
-ms:contentKeyID: 62388676
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727314(v=OCS.15)
+ms:contentKeyID: 63969660
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: ce4cd1a45d1eddf8875d85ff28886b0c04c29cfe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850327"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing sharing in conferences in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="testing-sharing-in-conferences-in-lync-server-2013"></a>Pruebas de uso compartido en conferencias en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-11-01_
 
 
 <table>
@@ -23,90 +43,116 @@ _**Última modificación del tema:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Programación de verificación</p></td>
+<td><p>Cada día</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Herramienta de prueba</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de administración de Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsDataConference</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permisos necesarios</p></td>
+<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet <strong>Test-CsDataConference</strong> . Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsDataConference&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-In Lync Server 2013, a data conference is any conference where collaborative activities such as whiteboarding or annotations are used. The **Test-CsDataConference** cmdlet enables you to verify that a pair of users are able to take part in a data conference.
+## <a name="description"></a>Descripción
 
-## Running the test
+En Lync Server 2013, una conferencia de datos es cualquier conferencia en la que se usen actividades de colaboración, como pizarras o anotaciones. El cmdlet **Test-CsDataConference** le permite comprobar que un par de usuarios pueden participar en una conferencia de datos.
 
-The command shown in Example 1 verifies that a data conference can be conducted on the pool atl-cs-001.litwareinc.com. This command assumes that you have configured a pair of test users for the specified pool. If no such test users exist, the command will fail.
+</div>
+
+<div>
+
+## <a name="running-the-test"></a>Ejecutar la prueba
+
+El comando que se muestra en el ejemplo 1 comprueba que una conferencia de datos se puede llevar a cabo en el grupo atl-cs-001.litwareinc.com. Este comando supone que ha configurado un par de usuarios de prueba para el grupo especificado. Si no existen esos usuarios de prueba, el comando fallará.
 
     Test-CsDataConference -TargetFqdn "atl-cs-001.litwareinc.com" 
 
-The commands shown in Example 2 test the ability of a pair of users (litwareinc\\pilar and litwareinc\\kenmyer) to log on to Lync Server 2013 and then conduct a data conference. To do this, the first command in the example uses the **Get-Credential** cmdlet to create a Windows PowerShell command-line interface credential object containing the name and password of the user Pilar Ackerman. (Because the logon name, litwareinc\\pilar, has been included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credential object is then stored in a variable named $cred1. The second command does the same thing, this time returning a credential object for the Ken Myer account.
+Los comandos que se muestran en el ejemplo 2 prueban la capacidad de un par\\de usuarios (\\litwareinc Pilar y litwareinc kenmyer) para iniciar sesión en Lync Server 2013 y, a continuación, realizar una conferencia de datos. Para ello, el primer comando del ejemplo usa el cmdlet **Get-Credential** para crear un objeto de credencial de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Pilar Ackerman. (Como el nombre de inicio de\\sesión, litwareinc pilar, se ha incluido como parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta de Pilar Ackerman). El objeto de credencial resultante se almacena en una variable llamada $cred 1. El segundo comando hace lo mismo, pero esta vez devuelve un objeto de credenciales para la cuenta Ken Myer.
 
-With the credential objects in hand, the third command determines whether or not these two users can log on to Lync Server 2013 and conduct a data conference. To carry out this task, the **Test-CsDataConference** cmdlet is called, along with the following parameters: TargetFqdn (the FQDN of the Registrar pool); SenderSipAddress (the SIP address for the first test user); SenderCredential (the Windows PowerShell object containing the credentials for this same user); ReceiverSipAddress (the SIP address for the other test user); and ReceiverCredential (the Windows PowerShell object containing the credentials for the other test user).
+Con los objetos de credenciales a mano, el tercer comando determina si estos dos usuarios pueden iniciar sesión en Lync Server 2013 y realizar una conferencia de datos. Para llevar a cabo esta tarea, se llama al cmdlet **Test-CsDataConference** , junto con los siguientes parámetros: TargetFqdn (el FQDN del grupo de servidores de registrar); SenderSipAddress (dirección SIP del primer usuario de prueba); SenderCredential (el objeto de Windows PowerShell que contiene las credenciales para este mismo usuario); ReceiverSipAddress (la dirección SIP del otro usuario de prueba); y ReceiverCredential (el objeto de Windows PowerShell que contiene las credenciales del otro usuario de prueba).
 
     $credential1 = Get-Credential "litwareinc\pilar" 
     $credential2 = Get-Credential "litwareinc\kenmyer" 
     Test-CsDataConference -TargetFqdn "atl-cs-001.litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential1 -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -ReceiverCredential $credential2
 
-## Determining success or failure
+</div>
 
-If data conferencing is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
 
-Result : Success
+Si la Conferencia de datos se ha configurado correctamente, recibirá un resultado similar a este, con la propiedad result marcada como **correcta:**
 
-Latency : 00:00:00
+FQDN de destino: atl-cs-001.litwareinc.com
 
-Error Message :
+Resultado: éxito
 
-Diagnosis :
+Latencia: 00:00:00
 
-If the specified users can't use data sharing, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Mensaje de error:
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Diagnóstico
 
-Result : Failure
+Si los usuarios especificados no pueden usar el uso compartido de datos, el resultado se mostrará como **error**y la información adicional se registrará en las propiedades de diagnóstico y errores:
 
-Latency : 00:00:00
+FQDN de destino: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Resultado: error
 
-did not properly respond after a period of time, or
+Latencia: 00:00:00
 
-established connection failed because connected host has
+Mensaje de error: 10060, error al intentar la conexión porque la persona conectada
 
-failed to respond \[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061
+no respondió correctamente después de un período de tiempo, o
 
-Inner Exception:A connection attempt failed because the
+error en la conexión establecida porque el host conectado tiene
 
-connected party did not properly respond after a period of
+Error al responder \[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
 
-time, or established connection failed because connected host
+Excepción interna: error en el intento de conexión porque el
 
-has failed to respond
+la parte conectada no respondió correctamente después de un período de
 
-\[2001:4898:e8:f39e:5c9a:ad83:81b3:9944\]:5061
+hora o error de conexión establecida porque el host conectado
 
-Diagnosis :
+Error al responder
 
-## Reasons why the test might have failed
+\[2001:4898: E8: f39e: 5c9a: ad83:81b3:9944\]: 5061
 
-Here are some common reasons why **Test-CsDataConference** might fail:
+Diagnóstico
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - The ability to conduct a data conference depends on the conferencing policy that has been assigned to the user who organized the conference (in the case of the **Test-CsDataConference** cmdlet, that is the "sender"). If the organizer is not allowed to include collaborative activities in his or her meeting (for example, if his or her conferencing policy has the EnableDataCollaboration property set to False) then the **Test-CsDataConference** cmdlet will fail.
+<div>
 
-  - This command will fail if the Edge Server is misconfigured or not yet deployed.
+## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
+
+Estas son algunas de las razones comunes por las que **Test-CsDataConference** podría fallar:
+
+  - Se proporcionó un valor de parámetro incorrecto. Si se usa, los parámetros opcionales deben estar configurados correctamente o se producirá un error en la prueba. Vuelva a ejecutar el comando sin los parámetros opcionales y vea si se realiza correctamente.
+
+  - La posibilidad de llevar a cabo una conferencia de datos depende de la Directiva de conferencia que se haya asignado al usuario que organizó la Conferencia (en el caso del cmdlet **Test-CsDataConference** , que es el "remitente"). Si el organizador no puede incluir actividades de colaboración en su reunión (por ejemplo, si su Directiva de conferencia tiene la propiedad EnableDataCollaboration establecida en falso), el cmdlet **Test-CsDataConference** se producirá un error.
+
+  - Este comando fallará si el servidor perimetral está mal configurado o aún no se ha implementado.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

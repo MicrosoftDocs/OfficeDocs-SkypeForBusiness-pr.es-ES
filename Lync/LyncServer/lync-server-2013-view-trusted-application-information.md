@@ -1,29 +1,47 @@
-﻿---
-title: Visualización de información de aplicaciones de confianza
-TOCTitle: Visualización de información de aplicaciones de confianza
-ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688103(v=OCS.15)
-ms:contentKeyID: 49889242
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: ver información de la aplicación de confianza'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: View trusted application information
+ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)
+ms:contentKeyID: 49733702
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 139a4fedbfd703fea77464929ef3f5800517260e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850090"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visualización de información de aplicaciones de confianza
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-30_
+# <a name="view-trusted-application-information-in-lync-server-2013"></a>Ver la información de la aplicación de confianza en Lync Server 2013
 
-Use el siguiente procedimiento para ver la información de aplicaciones de confianza de Shell de administración de Lync Server 2013 en Shell de administración de Lync Server.
+</div>
 
-## Ver la información de aplicación de confianza al usar los cmdlets Shell de administración de Lync Server
+<div id="mainSection">
 
-Puede ver la información acerca de sus aplicaciones de confianza al usar Shell de administración de Lync Server y el cmdlet **Get-CsTrustedApplication**. Este cmdlet puede ejecutarse desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div id="mainBody">
 
-## Para ver las aplicaciones de confianza
+<span> </span>
 
-  - Para ver todas sus aplicaciones de confianza, escriba el siguiente comando en el Shell de administración de Lync Server y luego presione ENTRAR:
+_**Última modificación del tema:** 2013-02-23_
+
+Puede ver información sobre sus aplicaciones de confianza mediante Windows PowerShell y el cmdlet **Get-CsTrustedApplication** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+
+<div>
+
+## <a name="to-view-trusted-applications"></a>Para ver las aplicaciones de confianza
+
+  - Para ver todas las aplicaciones de confianza, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:
     
         Get-CsConferenceDisclaimer
     
@@ -44,6 +62,18 @@ Puede ver la información acerca de sus aplicaciones de confianza al usar Shell 
         EnterpriseVoiceEnabled : True
         ExUmEnabled            : False
         Enabled                : True
+    
+    Para obtener más información, vea [Get-CsTrustedApplication](https://docs.microsoft.com/powershell/module/skype/Get-CsTrustedApplication).
 
-Para obtener detalles, vea [Get-CsTrustedApplication](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrustedApplication).
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

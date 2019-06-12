@@ -54,18 +54,18 @@ Para usar la aplicación Web de Skype empresarial, un usuario debe tener una de 
 
 | Sistema operativo | Perimetral | Internet Explorer 11 o posterior en 32 y 64 bits | 32 y 64 de bits de Internet Explorer 10 o posterior | Internet Explorer 9 o posterior de 32 y 64 bits | 32-y 64-bit versión de Safari 6.2.8-11. X | 32 y 64 bits de Chrome 18. X o posterior |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Sí   <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí & # x2778; <br/> |
-|Windows 8,1 & # x2776; <br/> |N/D  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D <br/> |Sí & # x2778; <br/> |
-|Windows 8 (basado en Intel) & # x2776; <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |N/D <br/> |N/D  <br/> |Sí & # x2778; <br/> |
-|Windows 7 con SP1 & # x2777; <br/> |N/D  <br/> |Sí  <br/> |No  <br/> |No  <br/> |N/D <br/>|Sí & # x2778; <br/> |
-|Windows Server 2008 R2 con SP1 & # x2777; <br/> |N/D  <br/> |Sí  <br/> |Sí   <br/> |Sí  <br/> |N/D <br/>|Sí & # x2778; <br/> |
-|macOS 10,8 y versiones posteriores (basadas en Intel) & # x2777; <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |Sí <br/> |
+|Windows 10  <br/> |Sí   <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí &#x2778; <br/> |
+|Windows 8,1 &#x2776; <br/> |N/D  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D <br/> |Sí &#x2778; <br/> |
+|&#x2776; de Windows 8 (basado en Intel) <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |N/D <br/> |N/D  <br/> |Sí &#x2778; <br/> |
+|Windows 7 con SP1 &#x2777; <br/> |N/D  <br/> |Sí  <br/> |No  <br/> |No  <br/> |N/D <br/>|Sí &#x2778; <br/> |
+|Windows Server 2008 R2 con SP1 &#x2777; <br/> |N/D  <br/> |Sí  <br/> |Sí   <br/> |Sí  <br/> |N/D <br/>|Sí &#x2778; <br/> |
+|macOS 10,8 y versiones posteriores (basadas en Intel) &#x2777; <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |Sí <br/> |
    
-&#x2776; El complemento del explorador de la aplicación Web de Skype empresarial requiere un complemento de uso compartido específico para usar voz, vídeo, uso compartido y visualización continuas de la pantalla compartida y otras características. A un asistente para una reunión se le ofrece la opción de instalar el complemento para compartir al unirse a la reunión o al iniciar una de estas características. En Windows 8 y Windows 8,1, el complemento para compartir solo se puede instalar si está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con las versiones de Internet Explorer 10 y 11 que no son de escritorio. Tenga en cuenta que Firefox y Safari versión 12,0 y posteriores ya no se admiten.
+&#x2776; el complemento del explorador de la aplicación Web de Skype empresarial requiere un complemento de uso compartido específico para usar voz, vídeo, uso compartido y visualización de pantalla continua y otras características basadas en el equipo. A un asistente para una reunión se le ofrece la opción de instalar el complemento para compartir al unirse a la reunión o al iniciar una de estas características. En Windows 8 y Windows 8,1, el complemento para compartir solo se puede instalar si está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con las versiones de Internet Explorer 10 y 11 que no son de escritorio. Tenga en cuenta que Firefox y Safari versión 12,0 y posteriores ya no se admiten.
   
-&#x2777; En los sistemas operativos Windows 7, Windows Server 2008 R2 y Macintosh compatibles, todas las características están disponibles, como la voz, el vídeo, la visualización de aplicaciones, el uso compartido de aplicaciones, la visualización de escritorio y el uso compartido de escritorio basados en equipos. Para usar estas características, necesita instalar un complemento cuando se le indique. No olvide que la versión 10.7 de Mac OS X ya no es compatible.
+&#x2777; en sistemas operativos Windows 7, Windows Server 2008 R2 y Macintosh compatibles, todas las características están disponibles, como la voz, el vídeo, la visualización de aplicaciones, el uso compartido de aplicaciones, la visualización de escritorio y el uso compartido de escritorio basados en equipos. Para usar estas características, necesita instalar un complemento cuando se le indique. No olvide que la versión 10.7 de Mac OS X ya no es compatible.
   
-&#x2778; El acceso a la aplicación Web de Chrome en Windows iniciará un pequeño programa que cargará la aplicación web en un marco incrustado de Internet Explorer. Este programa requiere la instalación de una de las versiones compatibles de Internet Explorer para que la aplicación web se cargue correctamente.
+&#x2778; el acceso a la aplicación web desde Chrome en Windows iniciará un pequeño programa que cargará la aplicación web en un marco incrustado de Internet Explorer. Este programa requiere la instalación de una de las versiones compatibles de Internet Explorer para que la aplicación web se cargue correctamente.
   
 > [!NOTE]
 > Los usuarios de Office 365 pueden usar Internet Explorer 10 o una versión posterior con Skype empresarial. 
@@ -104,14 +104,14 @@ En esta tabla se comparan las características de las reuniones disponibles para
 |Cambiar el audio a un teléfono para participantes autenticados  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Cambiar el audio a un teléfono para participantes de invitados  <br/> |&#x2714;|&#x2714;|&#x2714;|||
 |Ver un vídeo entre varias partes (vista de galería)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Pantalla compartida basada en vídeo  <br/> |&#x2714;|&#x2714; <br/> |& # x2714; (solo para ver)  <br/> |||
+|Pantalla compartida basada en vídeo  <br/> |&#x2714;|&#x2714; <br/> |&#x2714; (solo lectura)  <br/> |||
 |Usar los controles de moderador en la reunión  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Obtener acceso a lista de reuniones detallada  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Participar en mensajería instantánea para varios participantes  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Establecer mensajes de mensajería instantánea como de importancia alta  <br/> |&#x2714;|||||
 |Compartir el escritorio (si se habilita)  <br/> |&#x2714;|&#x2714;|&#x2714; (requiere complemento)  <br/> |&#x2714; (requiere complemento)  <br/> |&#x2714; (requiere complemento)  <br/> |
-|Compartir un programa (si se habilita)  <br/> |&#x2714;||& # x2714; (solo en Windows; requiere complemento)  <br/> |& # x2714; (solo en Windows; requiere complemento)  <br/> |& # x2714; (solo en Windows; requiere complemento)  <br/> |
-|Tomar el control del escritorio o programa compartido de otro usuario  <br/> |&#x2714;||&#x2714; (&#x2776; Solo en Windows; requiere complemento)  <br/> |&#x2714; (&#x2776; Solo en Windows; requiere complemento)  <br/> |&#x2714; (&#x2776; Solo en Windows; requiere complemento)  <br/> |
+|Compartir un programa (si se habilita)  <br/> |&#x2714;||&#x2714; (solo en Windows; requiere complemento)  <br/> |&#x2714; (solo en Windows; requiere complemento)  <br/> |&#x2714; (solo en Windows; requiere complemento)  <br/> |
+|Tomar el control del escritorio o programa compartido de otro usuario  <br/> |&#x2714;||&#x2714; (solo &#x2776; en Windows; requiere complemento)  <br/> |&#x2714; (solo &#x2776; en Windows; requiere complemento)  <br/> |&#x2714; (solo &#x2776; en Windows; requiere complemento)  <br/> |
 |Permitir que otro usuario tome el control de su escritorio o programa compartidos  <br/> |&#x2714;|||||
 |Agregar participantes anónimos (si se habilita)  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Invitar a participantes por nombre  <br/> |&#x2714;|&#x2714;||||
@@ -135,11 +135,11 @@ En esta tabla se comparan las características de las reuniones disponibles para
 |Convertir a todos en asistentes  <br/> |&#x2714;|||||
 |Producir difusión de reunión de Skype  <br/> |&#x2714;|||||
    
- &#x2776;  Los participantes no pueden controlar los escritorios compartidos por usuarios de Skype empresarial para Mac, Lync para Mac 2011 o Communicator para Mac 2011. Esto tampoco funcionará en la aplicación Web de Skype empresarial en Max OSX.
+ &#x2776; los participantes no pueden controlar los escritorios compartidos por usuarios de Skype empresarial para Mac, Lync para Mac 2011 o Communicator para Mac 2011. Esto tampoco funcionará en la aplicación Web de Skype empresarial en Max OSX.
   
- &#x2777;  Para Skype empresarial online, esta característica requiere conferencias RTC de Microsoft, mensajería unificada de Exchange o un proveedor de servicios de audioconferencia de terceros.
+ &#x2777; para Skype empresarial online, esta característica requiere conferencias RTC de Microsoft, mensajería unificada de Exchange o un proveedor de servicios de audioconferencia de terceros.
   
- &#x2778;  El cliente de Lync para Mac 2011 no puede ver presentaciones de PowerPoint de Microsoft Office 2013 cuando se han compartido en una conferencia por la aplicación Web de Skype empresarial.
+ &#x2778; el cliente de Lync para Mac 2011 no puede ver presentaciones de PowerPoint de Microsoft Office 2013 cuando se han compartido en una conferencia desde la aplicación Web de Skype empresarial.
   
 ## <a name="known-issues-and-troubleshooting"></a>Problemas conocidos y solución de problemas
 <a name="BKMK_Conferencing"> </a>

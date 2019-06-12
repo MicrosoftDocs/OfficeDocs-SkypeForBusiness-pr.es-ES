@@ -1,137 +1,193 @@
-﻿---
-title: 'Lync Server 2013: tareas semanales'
-TOCTitle: Tareas semanales
-ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn722432(v=OCS.15)
-ms:contentKeyID: 62283297
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: tareas semanales'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Weekly tasks
+ms:assetid: d564839b-b49d-4c5d-b67e-dc5abb0f6980
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn722432(v=OCS.15)
+ms:contentKeyID: 63969650
+ms.date: 08/20/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7d3128780c456c3f38f306d31f258ce903eb50a5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850008"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tareas semanales en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="weekly-tasks-in-lync-server-2013"></a>Tareas semanales en Lync Server 2013
 
-Las tareas semanales suelen estar relacionadas con la recopilación y análisis de registros e informes.
+</div>
 
-## Archivar registros de eventos
+<div id="mainSection">
 
-Si los registros de eventos no están configurados para sobrescribir eventos cuando sea preciso, deben archivarse y eliminarse de manera regular. Esta acción es especialmente importante en el caso de los registros de seguridad, que pueden ser necesarios para investigar posibles infracciones de seguridad.
+<div id="mainBody">
 
-Su organización deberá definir directivas y procedimientos para el archivado de registros.
+<span> </span>
 
-## Crear informes
+_**Última modificación del tema:** 2015-08-17_
 
-Cree informes de estado para ayudar en la planificación de la capacidad, la revisión de contratos de nivel de servicio y el análisis del rendimiento. Use datos diarios del registro de eventos y el Monitor de sistema para crear informes sobre el uso de discos, memoria y CPU. Use System Center Operations Manager para generar informes de disponibilidad y tiempo de actividad.
+Las tareas semanales generalmente están relacionadas con la recopilación y el análisis de registros e informes.
 
-Su organización deberá definir directivas y procedimientos para los informes de estado.
+<div>
 
-## Informes de incidencias
+## <a name="archive-event-logs"></a>Archivar registros de eventos
 
-Realice una auditoría semanal de los informes de incidencias de su organización relacionados con Lync Server. Esta auditoría debería incluir lo siguiente:
+Si los registros de eventos no están configurados para sobrescribir eventos según sea necesario, se deben archivar y eliminar regularmente. Esta acción es especialmente importante para los registros de seguridad, que pueden ser necesarios al investigar intentos de violación de la seguridad.
 
-  - Las principales incidencias generadas, resueltas y pendientes.
+Su organización tendrá que definir directivas y procedimientos para el archivado de registro.
 
-  - Soluciones para incidencias sin resolver.
+</div>
 
-  - Actualización de los informes para incluir las nuevas incidencias.
+<div>
 
-  - Actualización de un repositorio de documentos para guías sobre resolución de problemas y análisis finales de interrupciones.
+## <a name="create-reports"></a>Crear informes
 
-Como el sistema de seguimiento de incidencias empleado por su organización es una opción que no depende de Lync Server, no hay disponibles instrucciones o recomendaciones específicas. Consulte la documentación del sistema elegido por la organización.
+Crear informes de estado para ayudar con el planeamiento de la capacidad, las revisiones de SLA y el análisis de rendimiento. Use datos diarios del registro de eventos y el monitor del sistema para crear informes sobre el uso del disco, la memoria y la CPU. Use System Center Operations Manager para generar informes de disponibilidad y de tiempo.
 
-## Comprobar los registros y el rendimiento de IIS
+Su organización tendrá que definir directivas y procedimientos para los informes de estado.
 
-Realice una revisión semanal de los registros y el rendimiento de Servicios de Internet Information Server (IIS). Para obtener más información sobre cómo supervisar los registros y el rendimiento de ISS, vea [Windows Server 2003 Internet Information Services (IIS): visión general del registro de eventos](http://go.microsoft.com/fwlink/?linkid=36077). La revisión debería incluir lo siguiente:
+</div>
 
-  - Contadores de caché del servicio Web para supervisar la caché del servicio WWW.
+<div>
+
+## <a name="incident-reports"></a>Informes de incidentes
+
+Realice una auditoría semanal de los informes de incidentes de la organización relacionados con Lync Server. Esta auditoría debe incluir lo siguiente:
+
+  - Los principales incidentes generados, resueltos y pendientes.
+
+  - Soluciones para incidentes sin resolver.
+
+  - Actualizar informes para incluir nuevos vales de problemas.
+
+  - Actualización de un repositorio de documentos para las guías de solución de problemas y los análisis de las interrupciones.
+
+Puesto que el sistema de seguimiento de incidentes de su organización es una elección independiente de Lync Server, hay instrucciones específicas o punteros que no están disponibles. Consulte la documentación del sistema que eligió su organización.
+
+</div>
+
+<div>
+
+## <a name="check-iis-logs-and-performance"></a>Comprobar los registros y el rendimiento de IIS
+
+Realizar una revisión semanal de los registros y el rendimiento de servicios de información de Internet (IIS). Para obtener más información sobre cómo supervisar los registros y el rendimiento de IIS, vea [información general del registro de eventos de Windows Server 2003 servicios de Internet Information Server (IIS)](http://go.microsoft.com/fwlink/?linkid=36077). La revisión debe incluir lo siguiente:
+
+  - Contadores de caché del servicio web para supervisar la caché del servicio WWW.
 
   - Contadores de páginas Active Server (ASP) para supervisar las aplicaciones que se ejecutan como ASP.
 
-Para obtener más información sobre cómo supervisar los registros y el rendimiento de IIS, vea [Windows Server 2003 Internet Information Services (IIS): visión general del registro de eventos](http://go.microsoft.com/fwlink/?linkid=36077).
+</div>
 
-## Generar informes de base de datos
+<div>
 
-**Para generar informes de la base de datos SQL**
+## <a name="generate-database-reports"></a>Generar informes de base de datos
 
-1.  Abra Lync Server 2013.
-
-2.  En el árbol de consola, expanda el nodo del bosque, expanda **Grupos de servidores Enterprise** y haga clic en el grupo para el que quiere generar un informe de base de datos.
-
-3.  En el panel de detalles, haga clic en la pestaña **Base de datos**.
-
-4.  En la pestaña **Base de datos**, haga lo siguiente:
-    
-    1.  Para ver el nombre de la base de datos, expanda **Configuración general**, donde se muestra el nombre.
-    
-    2.  Para recuperar estadísticas actuales de resumen de usuario para el grupo, expanda **Informes de resumen de usuario**, haga clic en **Ir** y vea los resultados.
-    
-    3.  Para recuperar datos por usuario actuales para un solo usuario del grupo, expanda **Informes por usuario**, escriba el URI del SIP del usuario, haga clic en **Ir** y vea los resultados.
-
-Para recuperar estadísticas actuales de resumen de conferencia del grupo, expanda **Informes de resumen de conferencia**, haga clic en **Ir** y vea los resultados.
-
-## Comprobar si hay actualizaciones de seguridad y Lync Server
-
-Identifique cualquier nuevo Service Pack, revisión o actualización. Si procede, pruébelos en un laboratorio de prueba y use los procedimientos de control de cambios para disponer la implementación en los servidores de producción. Además, Windows Update incluye ahora las actualizaciones de los componentes de Lync Server. Todas las actualizaciones de componentes de Lync Server deben realizarse al mismo tiempo en todos los servidores que ejecutan Lync Server y en los que las actualizaciones son aplicables.
-
-## Ejecutar el Analizador de procedimientos recomendados de Lync Server 2013
-
-El Analizador de procedimientos recomendados de Lync Server 2013 es una herramienta de diagnóstico que recopila información de configuración y determina si esta cumple los procedimientos recomendados por Microsoft. Puede encontrar la documentación para esta herramienta en [Analizador de procedimientos recomendados de Lync Server 2013](lync-server-2013-lync-server-best-practices-analyzer.md) y [Ejecutar el Analizador de procedimientos recomendados](https://technet.microsoft.com/es-es/library/gg398652\(v=ocs.15\)).
-
-La herramienta compara sus datos de configuración de implementación con un conjunto de reglas predefinidas para Lync Server e informa de posible problemas. Por cada problema, la herramienta proporciona la configuración actual en el entorno de Lync Server y la configuración recomendada.
-
-Si dispone del acceso de red adecuado, la herramienta puede examinar el AD DS y los servidores que ejecutan Lync Server 2013 para hacer lo siguiente:
-
-  - Realizar comprobaciones de estado proactivas para verificar que la configuración cumpla las prácticas recomendadas
-
-  - Generar una lista de problemas, como configuraciones poco apropiadas u opciones no admitidas o no recomendadas
-
-  - Valorar el estado general de un sistema
-
-  - Ayudar a resolver problemas específicos
-
-  - Indicarle que descargue actualizaciones disponibles
-
-  - Proporcionar documentación en línea o local sobre los problemas detectados e incluir sugerencias de resolución
-
-  - Generar información de configuración que puede guardarse para su posterior revisión
-
-Asegúrese de que RTCBPA.msi esté instalado en todos los servidores de Lync Server 2013 y genere semanalmente un informe de comprobación de estado. Consulte los resultados y corrija lo que sea necesario.
-
-## Revisar las cifras de contrato de nivel de servicio
-
-Compruebe los datos de rendimiento clave de la semana anterior. Compare el rendimiento con los requisitos del contrato de nivel de servicio. Identifique cualquier tendencia y aquellos elementos que no cumplen sus objetivos.
-
-## Revisar los informes Módulo de administración y Calidad de la experiencia de System Center Operations Manager
-
-Obtenga y revise los informes Módulo de administración y Calidad de la experiencia de Lync Server 2013.
-
-## Generar y ver informes de base de datos para grupos de servidores Enterprise
-
-**Para generar informes de grupos**
+**Para generar informes en la base de datos SQL**
 
 1.  Abra Lync Server 2013.
 
-2.  En el árbol de la consola, expanda el nodo del bosque, expanda **Grupos de servidores Enterprise** y después haga clic en el grupo para el que quiere generar un informe de base de datos.
+2.  En el árbol de consola, expanda el nodo bosque, expanda **grupos empresariales**y, a continuación, haga clic en el grupo para el que desea generar un informe de base de datos.
 
-3.  En el panel de detalles, haga clic en la pestaña **Base de datos**.
+3.  En el panel de detalles, haga clic en la pestaña **base de datos** .
 
-4.  En la pestaña **Base de datos**, haga lo siguiente:
+4.  En la pestaña **base de datos** , haga lo siguiente:
     
-    1.  Para ver el nombre de la base de datos, expanda **Configuración general**, donde se muestra el nombre.
+    1.  Para ver el nombre de la base de datos, expanda **Configuración general**y vea el nombre de la base de datos.
     
-    2.  Para recuperar estadísticas actuales de resumen de usuario para el grupo, expanda **Informes de resumen de usuario**, haga clic en **Ir** y vea los resultados.
+    2.  Para recuperar las estadísticas de Resumen de usuario actuales de la agrupación, expanda **informes de Resumen de usuario**, haga clic en **ir**y vea los resultados.
     
-    3.  Para recuperar datos por usuario actuales para un solo usuario del grupo, expanda **Informes por usuario**, escriba el URI del SIP del usuario, haga clic en **Ir** y vea los resultados.
+    3.  Para recuperar los datos actuales por usuario para un único usuario del grupo, expanda **informes por usuario**, escriba el URI del SIP del usuario, haga clic en **ir**y vea los resultados.
 
-Para recuperar estadísticas actuales de resumen de conferencia del grupo, expanda **Informes de resumen de conferencia**, haga clic en **Ir** y vea los resultados.
+Para recuperar las estadísticas de Resumen de conferencia actuales de la agrupación, expanda **informes de Resumen de conferencia**, haga clic en **ir**y vea los resultados.
 
-Los administradores pueden usar la pestaña **Base de datos** en cada grupo de servidores Enterprise para ver el nombre de la base de datos y obtener y ver informes relativos a la misma.
+</div>
 
-### Informes y descripciones de bases datos
+<div>
+
+## <a name="check-for-security-and-lync-server-updates"></a>Comprobar la seguridad y las actualizaciones de Lync Server
+
+Identifique los nuevos Service Packs, revisiones o actualizaciones. Si es necesario, Pruébelos en un laboratorio de pruebas y use los procedimientos de control de cambios para organizar la implementación en los servidores de producción. Además, las actualizaciones de componentes de Lync Server ahora están disponibles como parte de Windows Update. Todas las actualizaciones de componentes de Lync Server deben actualizarse al mismo tiempo en todos los servidores que ejecuten Lync Server para los que sean aplicables las actualizaciones.
+
+</div>
+
+<div>
+
+## <a name="run-the-lync-server-2013-best-practice-analyzer"></a>Ejecutar el analizador de procedimientos recomendados de Lync Server 2013
+
+La herramienta Best Practices Analyzer de Lync Server 2013 es una herramienta de diagnóstico que recopila información de configuración y determina si la configuración se establece de acuerdo con las prácticas recomendadas de Microsoft. La documentación de esta herramienta está en el [analizador de procedimientos recomendados de Lync Server 2013](lync-server-2013-lync-server-best-practices-analyzer.md).
+
+La herramienta compara los datos de configuración de la implementación con un conjunto de reglas predefinidas para Lync Server e informa de posibles problemas. Para cada problema notificado, la herramienta proporciona la configuración actual en el entorno de Lync Server y la configuración recomendada.
+
+Con el acceso de red correcto, la herramienta puede examinar su AD DS y los servidores que ejecutan Lync Server 2013 para hacer lo siguiente:
+
+  - Realizar comprobaciones de estado de forma proactiva, comprobando que la configuración se establece de acuerdo con las mejores prácticas recomendadas
+
+  - Generar una lista de problemas, como valores de configuración subóptimos o opciones no compatibles o no recomendadas
+
+  - Juzgar el estado general de un sistema
+
+  - Ayudar a solucionar problemas específicos
+
+  - Le pedirá que descargue las actualizaciones si están disponibles
+
+  - Proporcionar documentación en línea y local sobre problemas notificados e incluir sugerencias para la solución de problemas
+
+  - Generar información de configuración que se puede capturar para una revisión posterior
+
+Asegúrese de que RTCBPA. msi esté instalado en todos los servidores de Lync Server 2013 y genere un informe de comprobación de Estado semanal. Anote los resultados y corríjalos, si es necesario.
+
+</div>
+
+<div>
+
+## <a name="review-sla-performance-figures"></a>Revisar las cifras de rendimiento de SLA
+
+Compruebe los datos clave de rendimiento de la semana anterior. Revise el rendimiento según los requisitos del SLA. Identifique tendencias y elementos que no hayan cumplido sus objetivos.
+
+</div>
+
+<div>
+
+## <a name="review-system-center-operations-manager-management-pack-and-quality-of-experience-reports"></a>Revisar el paquete de administración de System Center Operations Manager y los informes de calidad de experiencia
+
+Obtener y revisar el paquete de administración de Lync Server 2013 y los informes de calidad de la experiencia.
+
+</div>
+
+<div>
+
+## <a name="generating-and-viewing-database-reports-for-enterprise-pools"></a>Generar y ver informes de base de datos para grupos de empresa
+
+**Para generar informes de grupo**
+
+1.  Abra Lync Server 2013.
+
+2.  En el árbol de consola, expanda el nodo bosque, expanda **grupos empresariales**y, a continuación, haga clic en el grupo para el que desea generar un informe de base de datos.
+
+3.  En el panel de detalles, haga clic en la pestaña **base de datos** .
+
+4.  En la pestaña **base de datos** , haga lo siguiente:
+    
+    1.  Para ver el nombre de la base de datos, expanda **Configuración general**y vea el nombre de la base de datos.
+    
+    2.  Para recuperar las estadísticas de Resumen de usuario actuales de la agrupación, expanda **informes de Resumen de usuario**, haga clic en **ir**y vea los resultados.
+    
+    3.  Para recuperar los datos actuales por usuario para un único usuario del grupo, expanda **informes por usuario**, escriba el URI del SIP del usuario, haga clic en **ir**y vea los resultados.
+
+Para recuperar las estadísticas de Resumen de conferencia actuales de la agrupación, expanda **informes de Resumen de conferencia**, haga clic en **ir**y vea los resultados.
+
+Para cada grupo de servidores Enterprise, los administradores pueden usar la pestaña **base** de datos para ver el nombre de la base de datos y recuperar y ver informes de la base de datos.
+
+### <a name="database-reports-and-descriptions"></a>Informes y descripciones de bases de datos
 
 <table>
 <colgroup>
@@ -146,82 +202,81 @@ Los administradores pueden usar la pestaña **Base de datos** en cada grupo de s
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Informes de resumen de usuario</p></td>
-<td><p>Dbanalyze /v /report:diag [/sqlserver:value]</p>
-<p>Esta sección muestra información agregada sobre los usuarios de un grupo, como el número de usuarios habilitados, el número medio de contactos por cada uno y el número de usuarios de características específicas.</p>
+<td><p>Informes de Resumen de usuario</p></td>
+<td><p>Dbanalyze/v/Report: diag [/SQLServer: value]</p>
+<p>En esta sección se muestra información de agregado acerca de los usuarios de un grupo, como el número de usuarios habilitados, el número promedio de contactos por usuario y el número de usuarios para características específicas.</p>
 <p>Al usar estos informes, la siguiente información puede resultar útil:</p>
 <ul>
-<li><p>Un usuario habilitado es aquel habilitado en Lync Server 2013 mediante el complemento Usuarios y equipos de Active Directory.</p></li>
-<li><p>Un usuario activo es aquel que tiene sesión iniciada o está registrado.</p></li>
-<li><p>Los informes de resumen también ofrecen información estadística sobre los contactos. Estas estadísticas solo son válidas para la población de usuarios que ha iniciado sesión al menos una vez y que tiene al menos un contacto. Por tanto, no verá 0 como número mínimo de contactos. Debido a esto, si un usuario carece de contactos (pero está activo por estar registrado), podría ver &lt;vacío&gt; en algunos campos.</p></li>
+<li><p>Un usuario habilitado es un usuario que está habilitado para Lync Server 2013 mediante el complemento usuarios y equipos de Active Directory.</p></li>
+<li><p>Un usuario activo es un usuario que ha iniciado sesión o está registrado.</p></li>
+<li><p>Los informes de resumen también ofrecen un conjunto de información estadística sobre los contactos. Estas estadísticas solo son válidas para la población de usuarios que han iniciado sesión al menos una vez y que tienen al menos un contacto. Por lo tanto, generalmente no verás un número mínimo de contactos de 0. Debido a este comportamiento, si un usuario no tiene contactos (pero está activo, en el caso de que el usuario haya registrado), es &lt;posible&gt; que vea: vacío para algunos campos de estadísticas.</p></li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><p>Informes por usuario</p></td>
-<td><p>Dbanalyze /v /report:disk [/sqlserver:value]</p>
-<p>Al contrario que los informes de resumen, que se calculan para una población de usuarios, estos hacen referencia a usuarios específicos.</p></td>
+<td><p>Dbanalyze/v/Report: Disk [/SQLServer: value]</p>
+<p>A diferencia de los informes de Resumen, que se calculan sobre un llenado de usuario, se trata de informes sobre un usuario específico.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Informes de resumen de conferencia</p></td>
-<td><p>Dbanalyze /v /report:conf [/sqlserver:value]</p>
-<p>Esta sección muestra información agregada sobre las estadísticas de resumen de conferencia del grupo, como el número de conferencias activas o el total de participantes.</p></td>
-</tr>
-<tr class="even">
-<td><p>Informes de resumen de usuario</p></td>
-<td><p>Dbanalyze /v /report:diag [/sqlserver:value]</p>
-<p>Esta sección muestra información agregada sobre los usuarios de un grupo, como el número de usuarios habilitados, el número medio de contactos por cada uno y el número de usuarios de características específicas.</p>
-<p>Al usar estos informes, la siguiente información puede resultar útil:</p>
-<ul>
-<li><p>Un usuario habilitado es aquel habilitado en Lync Server 2013 mediante el complemento Usuarios y equipos de Active Directory.</p></li>
-<li><p>Un usuario activo es aquel que tiene sesión iniciada o está registrado.</p></li>
-<li><p>Los informes de resumen también ofrecen información estadística sobre los contactos. Estas estadísticas solo son válidas para la población de usuarios que ha iniciado sesión al menos una vez y que tiene al menos un contacto. Por tanto, no verá 0 como número mínimo de contactos. Debido a esto, si un usuario carece de contactos (pero está activo por estar registrado), podría ver &lt;vacío&gt; en algunos campos.</p></li>
-</ul></td>
-</tr>
-<tr class="odd">
-<td><p>Informes por usuario</p></td>
-<td><p>Dbanalyze /v /report:disk [/sqlserver:value]</p>
-<p>Al contrario que los informes de resumen, que se calculan para una población de usuarios, estos hacen referencia a usuarios específicos.</p></td>
-</tr>
-<tr class="even">
-<td><p>Informes de resumen de conferencia</p></td>
-<td><p>Dbanalyze /v /report:conf [/sqlserver:value]</p>
-<p>Esta sección muestra información agregada sobre las estadísticas de resumen de conferencia del grupo, como el número de conferencias activas o el total de participantes.</p></td>
+<td><p>Informes de Resumen de conferencia</p></td>
+<td><p>Dbanalyze/v/Report: conf [/SQLServer: valor]</p>
+<p>En esta sección se muestra información adicional sobre las estadísticas de Resumen de la Conferencia para el grupo, como el número de conferencias activas y el número total de participantes.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Ejecutar el Analizador de uso de ancho de banda
+</div>
 
-El Analizador de uso de ancho de banda es una herramienta que genera informes sobre diferentes vistas de consumo de ancho de banda por parte de los extremos de comunicaciones unificadas en vínculos WAN de la red empresarial. Estos informes pueden usarse para entender mejor el patrón actual de consumo de ancho de banda y para ayudar en la planificación de su capacidad. También itera en la capacidad de ancho de banda asignada a diferentes vínculos.
+<div>
+
+## <a name="running-bandwidth-utilization-analyzer"></a>Ejecución del analizador de uso de ancho de banda
+
+Bandwidth Utilization Analyzer es una herramienta que genera informes sobre diferentes vistas de consumo de ancho de banda por los puntos de conexión de comunicaciones unificadas en vínculos WAN de la red empresarial. Estos informes se pueden usar para comprender el patrón de consumo de ancho de banda actual y para ayudar con la planificación de capacidad de ancho de banda. Además, también itera en la capacidad de ancho de banda asignada a diferentes vínculos.
 
 Esta herramienta hace lo siguiente:
 
-  - Genera informes específicos sobre el uso de audio en la red
+  - Genera informes específicos para el uso de audio a través de la red.
 
   - Mejora la eficacia de planificación de capacidad y la iteración en la capacidad de ancho de banda asignada a diferentes vínculos
 
-El Analizador de uso de ancho de banda puede generar gráficas a partir de informes de uso y capacidad de ancho de banda. Son las siguientes:
+El analizador de uso de ancho de banda puede generar trazados gráficos de capacidad de ancho de banda e informes de uso. Son los siguientes:
 
   - Todos los vínculos WAN en la red empresarial
 
-  - Filtrados por vínculos WAN elegidos
+  - Filtrado por los vínculos de WAN seleccionados elegidos
 
   - Filtrados por los vínculos WAN que han superado la capacidad de vínculos
 
-  - Filtrados por los vínculos WAN que infrautilizaban el ancho de banda aprovisionado
+  - Filtrado por vínculos WAN que estaban usando el ancho de banda aprovisionado
 
-  - Filtrados por vínculos WAN que estaban alcanzando niveles críticos (un uso de ancho de banda mayor del 90 % de la capacidad del vínculo WAN)
+  - Filtrar por vínculos WAN que alcanzaran niveles críticos (un uso de ancho de banda superior al 90 por ciento de la capacidad de ancho de banda del vínculo WAN)
 
-  - Filtrados por el tipo de vínculo WAN: vínculos de sitio de red, vínculos entre regiones y vínculos dentro de un sitio
+  - Filtrado por tipo de vínculo WAN: vínculos de sitios de red, vínculos interregional y vínculos dentro de un sitio
 
   - Filtrados por región de red
 
-La documentación para esta herramienta está disponible en [Documentación de las herramientas del kit de recursos de Lync Server 2013](https://technet.microsoft.com/es-es/library/jj945604\(v=ocs.15\)).
+La documentación de esta herramienta está disponible en la [documentación de las herramientas del kit de recursos de Lync Server 2013](http://go.microsoft.com/fwlink/?linkid=623245).
 
-## Vea también
+</div>
 
-#### Otros recursos
+<div>
 
-[Lista de comprobación de tareas semanales](lync-server-2013-operations-checklists.md)
+## <a name="see-also"></a>Vea también
+
+
+[Lista de comprobación semanal de tareas](lync-server-2013-operations-checklists.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

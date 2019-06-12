@@ -1,19 +1,39 @@
-﻿---
-title: 'Lync Server 2013: Testing messaging using XMPP'
+---
+title: 'Lync Server 2013: probar la mensajería mediante XMPP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Testing messaging using XMPP
 ms:assetid: ae5305ba-e5fc-4ca0-a805-872b4ebaf981
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn727312(v=OCS.15)
-ms:contentKeyID: 62388675
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727312(v=OCS.15)
+ms:contentKeyID: 63969641
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: acd03cdf2a5215c980b788dbaffafc5936fe5b5e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850345"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Testing messaging using XMPP in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="testing-messaging-using-xmpp-in-lync-server-2013"></a>Probar la mensajería con XMPP en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-11-03_
 
 
 <table>
@@ -23,106 +43,136 @@ _**Última modificación del tema:** 2015-03-09_
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Verification schedule</p></td>
-<td><p>Daily</p></td>
+<td><p>Programación de verificación</p></td>
+<td><p>Cada día</p></td>
 </tr>
 <tr class="even">
-<td><p>Testing tool</p></td>
+<td><p>Herramienta de prueba</p></td>
 <td><p>Windows PowerShell</p></td>
 </tr>
 <tr class="odd">
-<td><p>Permissions required</p></td>
-<td><p>When run locally using the Shell de administración de Lync Server, users must be members of the RTCUniversalServerAdmins security group.</p>
-<p>When run using a remote instance of Windows PowerShell, users must be assigned an RBAC role that has permission to run the <strong>Test-CsXmppIM</strong> cmdlet. To see a list of all RBAC roles that can use this cmdlet, run the following command from the Windows PowerShell prompt:</p>
+<td><p>Permisos necesarios</p></td>
+<td><p>Al ejecutarse de forma local con el shell de administración de Lync Server, los usuarios deben ser miembros del grupo de seguridad RTCUniversalServerAdmins.</p>
+<p>Cuando se ejecuta con una instancia remota de Windows PowerShell, a los usuarios se les debe asignar un rol de RBAC que tenga permiso para ejecutar el cmdlet <strong>Test-CsXmppIM</strong> . Para ver una lista de todos los roles de RBAC que pueden usar este cmdlet, ejecute el siguiente comando en el símbolo del sistema de Windows PowerShell:</p>
 <pre><code>Get-CsAdminRole | Where-Object {$_.Cmdlets -match &quot;Test-CsXmppIM&quot;}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 
-## Description
+<div>
 
-The Extensible Messaging and Presence Protocol (XMPP) is a standard communications protocol (based on XML) used for sending messages across the Internet. XMPP was originally named Jabber, and is supported by several Internet messaging and communication applications, such as Google Talk and Facebook Chat. The **Test-CsXmppIM** cmdlet verifies that a user can exchange instant messages with a user on an XMPP network. Note that, for this test to succeed, you must have a valid SIP address for the XMPP user, and that SIP address must be on a network that was configured as an allowed XMPP partner.
+## <a name="description"></a>Descripción
 
-## Running the test
+El protocolo de presencia y mensajería extensible (XMPP) es un protocolo de comunicaciones estándar (basado en XML) que se usa para enviar mensajes a través de Internet. XMPP se llamaba originalmente Jabber y es compatible con varias aplicaciones de mensajería y comunicaciones de Internet, como Google Talk y la conversación de Facebook. El cmdlet **Test-CsXmppIM** verifica que un usuario puede intercambiar mensajes instantáneos con un usuario en una red XMPP. Tenga en cuenta que, para que esta prueba se realice correctamente, debe tener una dirección SIP válida para el usuario de XMPP, y esa dirección SIP debe estar en una red que se haya configurado como socio XMPP autorizado.
 
-The following example verifies the XMPP instant messaging capabilities for the pool atl-cs-001.litwareinc.com. This command will work only if test users are defined for the pool atl-cs-001.litwareinc.com. If they have, then the command will determine whether the first test user can send an XMPP instant message to a user who has the SIP address adelaney@contoso.com.
+</div>
 
-If test users are not defined, then the command will fail because it won't know which user to log on as. If you have not defined test users for a pool, then you must include the UserSipAddress parameter and the credentials of the user who the command should use when trying to log on.
+<div>
+
+## <a name="running-the-test"></a>Ejecutar la prueba
+
+En el ejemplo siguiente se comprueban las capacidades de mensajería instantánea de XMPP para el grupo atl-cs-001.litwareinc.com. Este comando solo funciona si se han definido usuarios de prueba para el grupo atl-cs-001.litwareinc.com. De ser así, el comando determinará si el primer usuario de prueba puede enviar un mensaje instantáneo XMPP a un usuario que tenga la dirección SIP adelaney@contoso.com.
+
+Si no se definen los usuarios de prueba, el comando fallará porque no sabrá en qué usuario iniciar sesión. Si no ha definido usuarios de prueba para un grupo, debe incluir el parámetro UserSipAddress y las credenciales del usuario que debe usar el comando al intentar iniciar sesión.
 
     Test-CsXmppIM -TargetFqdn "atl-cs-001.litwareinc.com" -Receiver "adelany@contoso.com"
 
-The commands shown in the next example test the ability of a specific user (litwareinc\\pilar) to log on to send an XMPP instant message to the user adelaney@contoso.com. To do this, the first command in the example uses the Get-Credential cmdlet to create a Windows PowerShell command-line interface credential object that contains the name and password of the user Pilar Ackerman. (Because the logon name litwareinc\\pilar was included as a parameter, the Windows PowerShell Credential Request dialog box only requires the administrator to enter the password for the Pilar Ackerman account.) The resulting credential object is then stored in a variable named $cred1.
+Los comandos que se muestran en el siguiente ejemplo prueban la capacidad de un usuario\\específico (litwareinc Pilar) para iniciar sesión y enviar un mensaje instantáneo XMPP a la adelaney@contoso.com de usuario. Para ello, el primer comando del ejemplo usa el cmdlet Get-Credential para crear un objeto de credencial de interfaz de línea de comandos de Windows PowerShell que contiene el nombre y la contraseña del usuario Pilar Ackerman. (Como el nombre de inicio\\de sesión litwareinc Pilar se incluyó como parámetro, el cuadro de diálogo solicitud de credenciales de Windows PowerShell solo requiere que el administrador escriba la contraseña de la cuenta de Pilar Ackerman). El objeto de credencial resultante se almacena en una variable llamada $cred 1.
 
-The second command then checks whether this user can log on to the pool atl-cs-001.litwareinc.com and send the XMPP instant message. To run this task, the **Test-CsXmppIm** cmdlet is called, together with four parameters: TargetFqdn (the FQDN of the Registrar pool); Receiver (the SIP address of the user the message is being addressed to); UserCredential (the Windows PowerShell object that contains Pilar Ackerman’s user credentials); and UserSipAddress (the SIP address that corresponds to the supplied user credentials).
+El segundo comando comprueba si este usuario puede iniciar sesión en el grupo atl-cs-001.litwareinc.com y enviar el mensaje instantáneo XMPP. Para ejecutar esta tarea, se llama al cmdlet **Test-CsXmppIm** , junto con cuatro parámetros: TargetFqdn (el FQDN del grupo de servidores de registrar); Receptor (la dirección SIP del usuario al que se dirige el mensaje); UserCredential (el objeto de Windows PowerShell que contiene las credenciales de usuario de Pilar Ackerman); y UserSipAddress (la dirección SIP que corresponde a las credenciales de usuario suministradas).
 
     $credential = Get-Credential "litwareinc\kenmyer"
     
     Test-CsXmppIM -TargetFqdn "atl-cs-001.litwareinc.com" -Receiver "adelany@contoso.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 
-## Determining success or failure
+</div>
 
-If XMPP instant messaging is correctly configured, you'll receive output similar to this, with the Result property marked as **Success:**
+<div>
 
-Target Fqdn : atl-cs-001.litwareinc.com
+## <a name="determining-success-or-failure"></a>Determinar el éxito o el fracaso
 
-Result : Success
+Si la mensajería instantánea XMPP está configurada correctamente, recibirá una salida similar a la siguiente, con la propiedad result marcada como **correcta:**
 
-Latency : 00:00:02.5361946
+FQDN de destino: atl-cs-001.litwareinc.com
 
-Error Message :
+Resultado: éxito
 
-Diagnosis :
+Latencia: 00:00:02.5361946
 
-If the specified users can't use XMPP instant messaging, the Result will be shown as **Failure**, and additional information will be recorded in the Error and Diagnosis properties:
+Mensaje de error:
 
-WARNING: Failed to read Registrar port number for the given fully qualified
+Diagnóstico
 
-domain name (FQDN). Using default Registrar port number. Exception:
+Si los usuarios especificados no pueden usar la mensajería instantánea de XMPP, el resultado se mostrará como **error**y la información adicional se registrará en las propiedades de diagnóstico y errores:
 
-System.InvalidOperationException: No matching cluster found in topology.
+ADVERTENCIA: no se pudo leer el número de puerto del registrador para el nombre completo
 
-at
+nombre de dominio (FQDN). Usando el número de puerto predeterminado del registrador. Excepción
 
-Microsoft.Rtc.Management.SyntheticTransactions.SipSyntheticTransaction.TryRetri
+System. InvalidOperationException: no se encontró ningún clúster coincidente en la topología.
 
-eveRegistrarPortFromTopology(Int32& registrarPortNumber)
+en
 
-Target Fqdn : atl-cs-001.litwareinc.com
+Microsoft. RTC. Management. SyntheticTransactions. SipSyntheticTransaction. TryRetri
 
-Result : Failure
+eveRegistrarPortFromTopology (Int32& registrarPortNumber)
 
-Latency : 00:00:00
+FQDN de destino: atl-cs-001.litwareinc.com
 
-Error Message : 10060, A connection attempt failed because the connected party
+Resultado: error
 
-did not properly respond after a period of time, or
+Latencia: 00:00:00
 
-established connection failed because connected host has
+Mensaje de error: 10060, error al intentar la conexión porque la persona conectada
 
-failed to respond 10.188.116.96:5061
+no respondió correctamente después de un período de tiempo, o
 
-Inner Exception:A connection attempt failed because the
+error en la conexión establecida porque el host conectado tiene
 
-connected party did not properly respond after a period of
+Error al responder 10.188.116.96:5061
 
-time, or established connection failed because connected host
+Excepción interna: error en el intento de conexión porque el
 
-has failed to respond 10.188.116.96:5061
+la parte conectada no respondió correctamente después de un período de
 
-Diagnosis :
+hora o error de conexión establecida porque el host conectado
 
-## Reasons why the test might have failed
+Error al responder 10.188.116.96:5061
 
-Here are some common reasons why **Test-CsXmppIM** might fail:
+Diagnóstico
 
-  - An incorrect parameter value was supplied. If used, the optional parameters must be configured correctly or the test will fail. Rerun the command without the optional parameters and see whether that succeeds.
+</div>
 
-  - This command will fail if XMPP gateway configuration is misconfigured or not yet deployed.
+<div>
 
-## Vea también
+## <a name="reasons-why-the-test-might-have-failed"></a>Razones por las que se ha producido un error en la prueba
 
-#### Otros recursos
+Estas son algunas de las razones comunes por las que **Test-CsXmppIM** podría fallar:
 
-[Set-CsXmppGatewayConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsXmppGatewayConfiguration)
+  - Se proporcionó un valor de parámetro incorrecto. Si se usa, los parámetros opcionales deben estar configurados correctamente o se producirá un error en la prueba. Vuelva a ejecutar el comando sin los parámetros opcionales y vea si se realiza correctamente.
+
+  - Este comando fallará si la configuración de la puerta de enlace XMPP no se ha configurado correctamente o si aún no se ha implementado.
+
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Set-CsXmppGatewayConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsXmppGatewayConfiguration)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

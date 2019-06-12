@@ -1,23 +1,45 @@
-﻿---
-title: Comprobar los valores de configuración
-TOCTitle: Comprobar los valores de configuración
-ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204848(v=OCS.15)
-ms:contentKeyID: 48275039
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Comprobación de los parámetros de configuración
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Verify configuration settings
+ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)
+ms:contentKeyID: 48183997
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a20b78ac9275657461beb74a7325c0c46e4e40fd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849835"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Comprobar los valores de configuración
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="verify-configuration-settings"></a>Comprobación de los parámetros de configuración
 
-Una vez que haya combinado la topología y ejecutado el cmdlet **Import-CsLegacyConfiguration**, compruebe que la configuración y las directivas de Office Communications Server 2007 R2 se han importado en Lync Server 2013. En la siguiente tabla se enumeran las directivas y la configuración que debería comprobar.
+</div>
 
-## Directivas y configuración para comprobar después de la migración
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-28_
+
+Después de combinar la topología y ejecutar el cmdlet **Import-CsLegacyConfiguration** , compruebe que las directivas y la configuración de Office Communications Server 2007 R2 se han importado a Lync Server 2013. En la tabla siguiente se enumeran las directivas y la configuración que debe comprobar.
+
+<div>
+
+## <a name="policies-and-settings-to-verify-after-migration"></a>Directivas y configuración para comprobar después de la migración
 
 
 <table>
@@ -28,18 +50,18 @@ Una vez que haya combinado la topología y ejecutado el cmdlet **Import-CsLegacy
 <thead>
 <tr class="header">
 <th>Si usa esta carga de trabajo:</th>
-<th>Compruebe estas directivas y configuración:</th>
+<th>Compruebe estas directivas y la configuración:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Mensajería instantánea (MI) y conferencia</p></td>
+<td><p>Mensajería instantánea (mi) y Conferencia</p></td>
 <td><p>Directiva de presencia</p>
 <p>Directiva de conferencia</p></td>
 </tr>
 <tr class="even">
 <td><p>Conferencia de acceso telefónico local</p></td>
-<td><p>Números de acceso telefónico</p>
+<td><p>Números de acceso telefónico local</p>
 <p>Planes de marcado</p></td>
 </tr>
 <tr class="odd">
@@ -47,7 +69,7 @@ Una vez que haya combinado la topología y ejecutado el cmdlet **Import-CsLegacy
 <td><p>Directiva de voz</p>
 <p>Rutas de voz</p>
 <p>Planes de marcado</p>
-<p>Configuración de uso RTC</p></td>
+<p>Configuración de uso de RTC</p></td>
 </tr>
 <tr class="even">
 <td><p>Communicator Web Access</p></td>
@@ -65,73 +87,98 @@ Una vez que haya combinado la topología y ejecutado el cmdlet **Import-CsLegacy
 </table>
 
 
-## Para comprobar directivas y configuración
+</div>
 
-1.  En su entorno de Office Communications Server 2007 R2, anote los nombres de los planes de marcado (anteriormente conocidos como perfiles de ubicación), los números de acceso telefónico de marcado (regiones y números de teléfono de acceso de operador de conferencias), las rutas de voz y las directivas enumeradas en la tabla anterior, además las direcciones URL usadas para Communicator Web Access.
+<div>
 
-2.  En el servidor front-end de Lync Server 2013, abra Panel de control de Lync Server.
+## <a name="to-verify-policies-and-settings"></a>Para comprobar las directivas y la configuración
 
-3.  Para comprobar las directivas de conferencia importadas, en el panel izquierdo, haga clic en **Conferencia**, en **Directiva de conferencia** y, a continuación, compruebe que todas las directivas de conferencia de su entorno de Office Communications Server 2007 R2 se incluyen en la lista.
+1.  En el entorno de Office Communications Server 2007 R2, tome nota de los nombres de los planes de marcado (anteriormente conocidos como perfiles de ubicación), números de acceso telefónico local (números de teléfono y regiones de acceso al operador de conferencias), rutas de voz y las directivas que aparecen en la lista tabla anterior, además de las direcciones URL que se usan para Communicator Web Access.
+
+2.  En el servidor front-end de Lync Server 2013, abra el panel de control de Lync Server.
+
+3.  Para comprobar las directivas de conferencia importadas, en el panel izquierdo, haga clic en **conferencias**, en **Directiva de conferencia**y, a continuación, compruebe que todas las directivas de conferencia del entorno de Office Communications Server 2007 R2 están incluidas en la lista.
+    
+    <div>
     
 
-    > [!NOTE]
-    > La directiva <STRONG>Reunión</STRONG> de las versiones anteriores de Office Communications Server se conoce ahora como la directiva de conferencia en Lync Server 2013. Además, la configuración <STRONG>Participantes anónimos</STRONG> de las versiones anteriores de Office Communications Server es ahora una configuración en la directiva de conferencia de Lync Server 2013.
+    > [!NOTE]  
+    > La Directiva de <STRONG>reunión</STRONG> de las versiones anteriores de Office Communications Server ahora se conoce como la Directiva de conferencia en Lync Server 2013. Además, la configuración <STRONG>Particpants anónima</STRONG> de versiones anteriores de Office Communications Server es ahora una configuración de la Directiva de conferencia de Lync Server 2013.
 
     
-
-    > [!NOTE]
-    > En Office Communications Server 2007 R2, si la directiva de conferencia no se establece en el <STRONG>uso por usuario</STRONG>, solo se importa la configuración de la directiva global. No se importa ninguna otra directivas de conferencia en esta situación.
-
+    </div>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Si <STRONG>Participantes anónimos</STRONG> se establece en <STRONG>Aplicar por usuario</STRONG> en su directiva de conferencia Office Communications Server 2007 R2, se crean dos directivas de conferencia durante la migración: una con <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> establecida en <STRONG>True</STRONG> y otra con <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> establecida en <STRONG>False</STRONG>.
+    > [!NOTE]  
+    > En Office Communications Server 2007 R2, si la Directiva de conferencia no está configurada para <STRONG>usarse por usuario</STRONG>, solo se importa la configuración de directiva global. En esta situación no se importa ninguna otra política de conferencia.
 
-
-
-4.  Para comprobar los planes de marcado importados, haga clic en **Enrutamiento de voz**, en **Plan de marcado** y, a continuación, compruebe que todos los planes de marcado de su entorno de Office Communicator 2007 R2 están incluidos en la lista.
+    
+    </div>
+    
+    <div>
     
 
-    > [!NOTE]
-    > En Lync Server 2013, los <STRONG>perfiles de ubicación</STRONG> se denominan ahora <STRONG>planes de marcado</STRONG>.
+    > [!NOTE]  
+    > Si los <STRONG>participantes anónimos</STRONG> están configurados para exigir el <STRONG>cumplimiento de cada usuario</STRONG> en su Directiva de conferencia de Office Communications Server 2007 R2, durante la migración se crean dos directivas de Conferencia: una con <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> establecido en <STRONG>True</STRONG> y otro con <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> establecido en <STRONG>false</STRONG>.
 
+    
+    </div>
 
-
-5.  Para comprobar las directivas de voz importadas, haga clic en **Enrutamiento de voz**, haga clic en **Directiva de voz** y, a continuación, compruebe que todas las directivas de voz de su entorno de Office Communicator 2007 R2 están incluidas en la lista.
+4.  Para comprobar los planes de marcado importados, haga clic en **enrutamiento de voz**, haga clic en **plan de marcado**y compruebe que todos los planes de marcado en el entorno de Office Communicator 2007 R2 están incluidos en la lista.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Si la directiva de voz no está establecida en el <STRONG>uso por usuario</STRONG> en su entorno de Office Communications Server 2007 R2, solo se importará la configuración de la directiva global. No se importará ninguna otra directiva de voz en esta situación.
+    > [!NOTE]  
+    > En Lync Server 2013, los <STRONG>perfiles de ubicación</STRONG> se conocen ahora como <STRONG>planes de marcado</STRONG>.
 
+    
+    </div>
 
+5.  Para comprobar las directivas de voz importadas, haga clic en **enrutamiento de voz**, en **Directiva de voz**y, a continuación, compruebe que todas las directivas de voz del entorno de Office Communicator 2007 R2 están incluidas en la lista.
+    
+    <div>
+    
 
-6.  Para comprobar las rutas de voz importadas, haga clic en **Enrutamiento de voz**, en **Ruta**y, a continuación, compruebe que todas las rutas de voz de su entorno de Office Communicator 2007 R2 están incluidas en la lista.
+    > [!NOTE]  
+    > Si la Directiva de voz no está configurada para <STRONG>usarse por usuario</STRONG> en el entorno de Office Communications Server 2007 R2, solo se importan las opciones de directiva global. No se importa ninguna otra política de voz en esta situación.
 
-7.  Para comprobar la configuración del uso de RTC importado, haga clic en **Enrutamiento de voz**, en **Uso de RTC** y, a continuación, compruebe que la configuración del uso de RTC de su entorno de Office Communicator 2007 R2 está incluida en la lista.
+    
+    </div>
 
-8.  Para comprobar las directivas de acceso externo importado, haga clic en **Federación y acceso externo**, haga clic en **Directiva de acceso externo** y, a continuación, compruebe que todas las directivas de acceso externo de su entorno de Office Communicator 2007 R2 están incluidas en la lista.
+6.  Para comprobar las rutas de voz importadas, haga clic en **enrutamiento de voz**, en **ruta**y, a continuación, compruebe que todas las rutas de voz de su entorno de Office Communicator 2007 R2 están incluidas en la lista.
 
-9.  Para comprobar las directivas de archivado, haga clic en **Supervisión y archivado**, en **Directiva de archivado** y, a continuación, compruebe que todas las directivas de archivado en su entorno de Office Communications Server 2007 R2 se incluyen en la lista.
+7.  Para comprobar la configuración de uso de RTC importada, haga clic en **enrutamiento de voz**, haga clic en **uso de RTC**y compruebe que la configuración de uso de RTC del entorno de Office Communicator 2007 R2 esté incluida en la lista.
 
-10. Abra Shell de administración de Lync Server.
+8.  Para comprobar las directivas de acceso externo importadas, haga clic en **Federación y acceso externo**, haga clic en **Directiva de acceso externo**y compruebe que todas las directivas de acceso externas de su entorno de Office Communicator 2007 R2 están incluidas en la lista.
+
+9.  Para comprobar las directivas de archivado, haga clic en **supervisión y archivado**, haga clic en **Directiva**de archivado y compruebe que todas las directivas de archivado del entorno de Office Communications Server 2007 R2 están incluidas en la lista.
+
+10. Abra el shell de administración de Lync Server.
 
 11. Para comprobar las directivas de presencia, en la línea de comandos, escriba lo siguiente:
     
         Get-CsPresencePolicy
     
-    Mirando el nombre del parámetro **Identidad**, compruebe que se han importado todas las directivas de presencia de su entorno de Office Communications Server 2007 R2.
+    Al mirar el nombre en el parámetro **Identity** , compruebe que se han importado todas las directivas de presencia en el entorno de Office Communications Server 2007 R2.
 
-## Para comprobar las directivas y la configuración mediante el uso de cmdlets
+</div>
 
-1.  Abra Shell de administración de Lync Server.
+<div>
 
-2.  Ejecute los cmdlets en la tabla siguiente para comprobar las directivas y configuración.
+## <a name="to-verify-policies-and-settings-by-using-cmdlets"></a>Para comprobar las directivas y la configuración mediante cmdlets
+
+1.  Abra el shell de administración de Lync Server.
+
+2.  Ejecute los cmdlets de la tabla siguiente para comprobar las directivas y la configuración.
     
-    La sintaxis de estos cmdlets es similar al siguiente ejemplo:
+    La sintaxis de estos cmdlets es como en el ejemplo siguiente:
     
         Get-CsConferencingPolicy
     
-    Para más información sobre estos cmdlets, ejecute:
+    Para obtener más información sobre estos cmdlets, ejecute:
     
         Get-Help <cmdlet name> -Detailed
 
@@ -143,7 +190,7 @@ Una vez que haya combinado la topología y ejecutado el cmdlet **Import-CsLegacy
 </colgroup>
 <thead>
 <tr class="header">
-<th>Para esta directiva o configuración:</th>
+<th>Para esta Directiva o configuración:</th>
 <th>Use este cmdlet:</th>
 </tr>
 </thead>
@@ -157,7 +204,7 @@ Una vez que haya combinado la topología y ejecutado el cmdlet **Import-CsLegacy
 <td><p><strong>Get-CsConferencingPolicy</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>Números de acceso telefónico</p></td>
+<td><p>Números de acceso telefónico local</p></td>
 <td><p><strong>Get-CsDialInConferencingAccessNumber</strong></p></td>
 </tr>
 <tr class="even">
@@ -190,4 +237,17 @@ Una vez que haya combinado la topología y ejecutado el cmdlet **Import-CsLegacy
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -41,7 +41,7 @@ La ilustración siguiente muestra cómo un usuario verá una llamada entrante de
 
 ![Captura de pantalla de una notificación de llamada entrante](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Una vez que se responde a un operador automático o a una llamada de cola de llamadas, el usuario puede procesar la llamada como cualquier otra llamada & # x2014; puede Agregar o conferencia en otro usuario o transferir la llamada a otra persona. Además, las llamadas de operador automático se desviarán en función de la configuración del usuario.
+Una vez que se responde a un operador automático o a una llamada de cola de llamadas, el usuario puede procesar la llamada como cualquier otra llamada &#x2014; que pueden agregar o realizar una conferencia en otro usuario o transferir la llamada a otra persona. Además, las llamadas de operador automático se desviarán en función de la configuración del usuario.
 
 > [!NOTE] 
 > Las llamadas a la cola de llamadas no se desvían en función de la configuración del usuario. Esto garantiza que los autores de llamadas permanezcan en la cola hasta que un agente pueda contestar la llamada y que la persona que llama no se desvíe de forma inesperada.

@@ -1,27 +1,61 @@
-﻿---
-title: "Lync Server 2013: Requisitos de los servidores front-end, la MI y la presencia"
-TOCTitle: Requisitos técnicos para los servidores front-end, la mensajería instantánea y la presencia
-ms:assetid: 1e2c093a-614a-4b60-8c0c-98f97e859fcb
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398269(v=OCS.15)
-ms:contentKeyID: 48274614
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Requisitos técnicos para los servidores front-end, la mensajería instantánea y la presencia
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Front End Servers, instant messaging, and presence
+ms:assetid: 1e2c093a-614a-4b60-8c0c-98f97e859fcb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398269(v=OCS.15)
+ms:contentKeyID: 48183575
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e44afce7a81e6bbef3f8d1d61dacfe5b64b26d10
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850448"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos técnicos para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="technical-requirements-for-front-end-servers-instant-messaging-and-presence-in-lync-server-2013"></a>Requisitos técnicos para los servidores front-end, la mensajería instantánea y la presencia en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-18_
 
-La mensajería instantánea (IM) y la presencia siempre se ejecutan en los servidores Enterprise EditionGrupos de servidores front-end y Standard Edition. Para obtener más información sobre el hardware, lo sistemas operativos y el software de base de datos admitidos, consulte lo siguiente:
+La mensajería instantánea (MI) y la presencia siempre se ejecutan en los grupos de servidores front-end Enterprise Edition y en los servidores Standard Edition. Para obtener información sobre el hardware, los sistemas operativos y el software de base de datos admitidos, consulte lo siguiente:
 
   - [Hardware admitido en Lync Server 2013](lync-server-2013-supported-hardware.md)
 
   - [Software de servidor y compatibilidad con la infraestructura en Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md)
 
-## Combinación admitida
+<div>
 
-El rol de servidor front-end se puede instalar junto con el servidor de mediación.También es posible ejecutar la supervisión y el archivado en servidores front-end. El servidor front-end no se puede instalar con el servidor perimetral ni director.
+## <a name="supported-collocation"></a>Collocation compatibles
+
+El rol de servidor front-end se puede incluir en el servidor de mediación. También puede ejecutar la supervisión y el archivado en servidores front-end. El servidor front-end no se puede incluir con el servidor EDGE o director.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,55 +1,105 @@
-﻿---
-title: Configurar almacenamiento para el archivado
-TOCTitle: Configurar almacenamiento para el archivado
-ms:assetid: f751245c-743e-454f-8325-968ae5e3de71
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205392(v=OCS.15)
-ms:contentKeyID: 48277197
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración del almacenamiento para archivar'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up storage for Archiving
+ms:assetid: f751245c-743e-454f-8325-968ae5e3de71
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205392(v=OCS.15)
+ms:contentKeyID: 48185858
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6728c02e9aa73faceaa8b3e681a5cf9cc4c700cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850637"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar almacenamiento para el archivado
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="setting-up-storage-for-archiving-in-lync-server-2013"></a>Configurar almacenamiento para archivar en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-12-17_
 
 El almacenamiento de archivado para Lync Server 2013 incluye lo siguiente:
 
-  - **Almacenamiento de datos.** El almacenamiento de datos es necesario para almacenar el contenido de mensajería instantánea.
+  - ****   El almacenamiento de datos de almacenamiento de datos es necesario para almacenar el contenido de mensajes instantáneos.
 
-  - **Almacenamiento de archivos.** El almacenamiento de archivos es necesario para almacenar el almacenamiento de archivos y el almacenamiento de datos de contenido (reunión) de conferencias.
+  - ****   El almacenamiento de archivos de almacenamiento de archivos es necesario para almacenar conferencias (reunión) almacenamiento de datos de contenido y almacenamiento de archivos.
 
-## Configuración de almacenamiento de datos
+<div>
 
-Los requisitos para la configuración de almacenamiento de datos para el archivado en Lync Server 2013 dependen de cómo desea almacenar los datos de archivado:
+## <a name="setting-up-data-storage"></a>Configurar el almacenamiento de datos
 
-  - Integre el archivado de Lync Server 2013 con la implementación de Exchange para almacenar datos de archivado mediante el almacenamiento de Exchange.
+Los requisitos para configurar el almacenamiento de datos para archivar en Lync Server 2013 dependen de cómo quiera almacenar los datos de archivado:
 
-  - Instale servidores de bases de datos de SQL Server independientes para almacenar datos de archivado.
+  - Integre el archivado de Lync Server 2013 con su implementación de Exchange para almacenar datos de archivado con el almacenamiento de Exchange.
 
-## Configuración de almacenamiento de Exchange para datos de archivado
+  - Configure servidores de base de datos de SQL Server independientes para almacenar los datos de archivado.
 
-La configuración de Exchange para el almacenamiento de datos de archivado requiere que la implementación de Exchange esté ejecutando Exchange 2013. Además, los buzones de correo de los usuarios deben estar hospedados en el servidor de Exchange 2013 y deben estar situados en Conservación local. Para más información sobre la configuración de Exchange 2013, consulte la documentación del producto de Exchange.
+<div>
 
-## Configuración de servidores de bases de datos de SQL Server para el almacenamiento de datos de archivado
+## <a name="setting-up-exchange-storage-for-archiving-data"></a>Configurar el almacenamiento de Exchange para archivar datos
 
-El archivado en Lync Server 2013 requiere el software de base de datos de SQL Server para almacenar los datos archivados, a menos que integre la implementación con Exchange.
+La configuración de Exchange para el almacenamiento de datos de archivado requiere que su implementación de Exchange ejecute Exchange 2013. Además, los buzones de usuario deben estar alojados en el servidor de Exchange 2013 y sus buzones deben ponerse en conservación local. Para obtener más información sobre cómo configurar 2013 de Exchange, consulte la documentación del producto de Exchange.
 
-Para las bases de datos de archivado de SQL Server, debe instalar SQL Server en el equipo que hospedará la base de datos de archivado. Puede usar la misma instancia de SQL que usa para la base de datos de back-end de un grupo de servidores front-end. Para un mejor rendimiento, debe implementar la base de datos de archivado en un equipo que sea independiente del Almacén de administración central. Para obtener información sobre la combinación de componentes de Lync Server 2013, consulte [Instalación de servidores compatibles en Lync Server 2013](lync-server-2013-supported-server-collocation.md) en la documentación sobre compatibilidad.
+</div>
 
-Cada servidor de base de datos debe estar ejecutando una versión compatible de SQL Server. Para más información sobre las versiones compatibles, consulte [Requisitos técnicos para archivado en Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) en la documentación sobre planificación.
+<div>
 
-Debe configurar las plataformas de SQL Server antes de implementar y habilitar el archivado. Si la cuenta que se usará para publicar la topología tiene los derechos y permisos de administrador apropiados, puede crear la base de datos de archivado (LcsLog) al publicar la topología. También puede crear la base de datos más adelante, incluida como parte del procedimiento de instalación. Para más información sobre SQL Server, consulte el SQL Server TechCenter en [http://go.microsoft.com/fwlink/?linkid=129045\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=129045%26clcid=0xc0a).
+## <a name="setting-up-sql-server-database-servers-for-storage-of-archiving-data"></a>Configurar servidores de base de datos de SQL Server para el almacenamiento de datos de archivado
+
+El archivado en Lync Server 2013 requiere que el software de base de datos de SQL Server almacene los datos archivados, a menos que integre su implementación con Exchange.
+
+Para bases de datos de archivado de SQL Server, debe instalar SQL Server en el equipo que hospedará la base de datos de archivado. Puede usar la misma instancia de SQL que usa para la base de datos back-end de un grupo de servidores front-end. Para obtener un rendimiento óptimo, debe implementar la base de datos de archivado en un equipo que sea independiente del almacén de administración central. Para obtener más información sobre los componentes de collocating Lync Server 2013, consulte [collocation de servidor compatibles en Lync server 2013](lync-server-2013-supported-server-collocation.md) en la documentación de soporte técnico.
+
+Cada servidor de base de datos debe estar ejecutando una versión compatible de SQL Server. Para obtener más información sobre las versiones compatibles, consulte [requisitos técnicos para archivar en Lync Server 2013](lync-server-2013-technical-requirements-for-archiving.md) en la documentación de planeación.
+
+Debe configurar las plataformas de SQL Server antes de implementar y habilitar el archivado. Si la cuenta que se usará para publicar la topología tiene los derechos y permisos de administrador apropiados, puede crear la base de datos de archivado (LcsLog) al publicar la topología. También puede crear la base de datos más adelante, incluyendo como parte del procedimiento de instalación. Para obtener más información sobre SQL Server, consulte SQL Server TechCenter [http://go.microsoft.com/fwlink/p/?linkID=129045](http://go.microsoft.com/fwlink/p/?linkid=129045)en.
+
+<div>
 
 
-> [!NOTE]
-> Asegúrese de que el tipo de inicio del servicio de agente SQL Server sea Automático y de que el servicio de agente SQL Server se esté ejecutando para la instancia de SQL que hospeda la base de datos de Archivado, de manera que la tarea de mantenimiento predeterminada de SQL Server para el archivado pueda ejecutarse como se programó, bajo el control del servicio de agente SQL Server.
+> [!NOTE]  
+> Asegúrese de que el tipo de inicio del servicio Agente SQL Server sea automático y de que se esté ejecutando el servicio Agente SQL Server para la instancia de SQL que está reteniendo la base de datos de archivado, de modo que el trabajo de mantenimiento de SQL Server predeterminado pueda ejecutarse de acuerdo con el control del servicio Agente SQL Server.
 
 
 
-## Configuración de almacenamiento de archivos
+</div>
 
-El archivado usa el recurso compartido de archivos de Lync Server 2013 que especificó al configurar el grupo de servidores front-end o el servidor Standard Edition. No se puede cambiar el recurso compartido de archivos usado para el archivado. Para más información sobre los sistemas de almacenamiento de archivos compatibles, consulte [Compatibilidad con el almacenamiento de archivos en Lync Server 2013](lync-server-2013-file-storage-support.md) en la documentación sobre compatibilidad.
+</div>
+
+</div>
+
+<div>
+
+## <a name="setting-up-file-storage"></a>Configurar el almacenamiento de archivos
+
+El archivado usa el recurso compartido de archivos 2013 de Lync Server que especificó al configurar el grupo de servidores front-end o el servidor Standard Edition. No puede cambiar el recurso compartido de archivos que se usa para el archivado. Para obtener detalles sobre los sistemas de almacenamiento de archivos admitidos, vea [compatibilidad de almacenamiento de archivos en Lync Server 2013](lync-server-2013-file-storage-support.md) en la documentación de soporte técnico.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

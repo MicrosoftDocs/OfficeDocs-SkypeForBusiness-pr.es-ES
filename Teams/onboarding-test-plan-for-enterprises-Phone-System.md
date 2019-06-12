@@ -492,7 +492,7 @@ Después de completar las pruebas de validación de QoS con la Directiva de grup
 
 **Validación de la configuración de QoS mediante GPO y analizador de mensajes**
 
-**Resumen**de resultados&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pasa&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Recuperación
+**Resumen**de resultados&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; pasar &#9744;&nbsp; &nbsp; &nbsp; &#9744;parcial de errores
 
 <table>
 <tr><th colspan="2">Resaltado de pruebas </th></tr>
@@ -546,7 +546,7 @@ Una vez completada la prueba de la configuración de túnel dividido de los siti
 
 **Validación de configuración de túnel dividido**
 
-**Resumen**de resultados&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pasa&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Recuperación
+**Resumen**de resultados&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; pasar &#9744;&nbsp; &nbsp; &nbsp; &#9744;parcial de errores
 
 <table>
 <tr><th colspan="2">Resaltado de pruebas </th></tr>
@@ -597,7 +597,7 @@ Después de completar todas las pruebas de rendimiento y conectividad de red de 
 
 **Ubicación: Seattle [Inside Wired] cliente para Office 365 resultados**
 
-**Resumen**de resultados&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pasa&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Recuperación 
+**Resumen**de resultados&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; pasar &#9744;&nbsp; &nbsp; &nbsp; &#9744;parcial de errores 
 
 
 
@@ -617,7 +617,7 @@ Después de completar todas las pruebas de rendimiento y conectividad de red de 
 <tr><td>DETERMINADO</td><td>DETERMINADO</td></tr>
 <tr><th colspan="2">Pruebas lowlights  </th></tr> 
 <tr><td><strong>Problema</strong>: alta latencia</td><td><strong>Corrección:</strong> Investigue el enrutamiento de paquetes e implemente la ruta ideal.</td></tr>
-<tr><td><strong>Problema</strong>: el tiempo de ida y vuelta isn& # 39; t duplicar la latencia</td><td><strong>Corrección:</strong> Investigue un posible problema de configuración de firewall o router. Investigue las rutas de tráfico.</td></tr>
+<tr><td><strong>Problema</strong>: el tiempo de recorrido de ida y vuelta es&#39;t duplicar la latencia</td><td><strong>Corrección:</strong> Investigue un posible problema de configuración de firewall o router. Investigue las rutas de tráfico.</td></tr>
 <tr><td><strong>Problema</strong>: pérdida de paquetes elevada </td><td><strong>Corrección:</strong> Compruebe mediante el planificador de la red que se ha asignado suficiente ancho de banda. </td></tr>
 <tr><td><strong>Problema</strong>: alta vibración </td><td> <strong>Corrección:</strong> Investigue si se están usando los valores correctos de punto de código de servicios diferenciados (DSCP). </td></tr>
 <tr><td><strong>Problema</strong>: pérdida de paquetes elevada </td><td><strong>Corrección:</strong> Investigue la pérdida de paquetes. </td></tr>
@@ -718,7 +718,7 @@ Una vez que haya completado todas las pruebas de número de suscriptor, cree un 
 
 **Portabilidad de números de servicio**
 
-**Resumen**de resultados&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pasa&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Recuperación 
+**Resumen**de resultados&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; pasar &#9744;&nbsp; &nbsp; &nbsp; &#9744;parcial de errores 
 
 <table>
 <tr><th colspan="2">Resaltado de pruebas </th></tr>
@@ -776,7 +776,7 @@ A medida que se evalúan los casos de prueba para las características de sistem
 | Sistema telefónico con planes de llamadas          |                              |                                                                                            |                           |                                                                            |
 |------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------|---------------------------|----------------------------------------------------------------------------|
 | IDENTIFICADOR del caso de prueba                             | Título de caso de prueba              | Descripción del caso de prueba                                                                      | Resumen de resultados de casos de prueba | IDENTIFICADOR de defecto asignado (si corresponde)                                         |
-| 1                                        | Realizar llamadas RTC salientes. | Realiza una llamada saliente marcando un número nacional de 10 dígitos.                              |    &#9744; Transcurr<br/>&#9744; Caudal<br/> &#9744; Recuperación                   | Cuando un usuario escribe un número de cuatro dígitos, se produce un error en la llamada que se aplica a la RTC. |
+| 1                                        | Realizar llamadas RTC salientes. | Realiza una llamada saliente marcando un número nacional de 10 dígitos.                              |    &#9744;pase<br/>&#9744;parcial<br/> Error de &#9744;                   | Cuando un usuario escribe un número de cuatro dígitos, se produce un error en la llamada que se aplica a la RTC. |
 
 
 
@@ -798,7 +798,7 @@ Después de que todos los casos de prueba que admiten el sistema telefónico con
 
 **Sistema telefónico de equipos con planes de llamadas**
 
-**Resumen**de resultados&nbsp;&nbsp;&nbsp;: & # 9744; &nbsp; &nbsp; Pasa&nbsp; & # 9744; _AMP_&nbsp; &nbsp; &nbsp; parcial # 9744; Recuperación 
+**Resumen**de resultados&nbsp; &nbsp; &nbsp; :&#9744;&nbsp; &nbsp; &nbsp; pasar &#9744;&nbsp; &nbsp; &nbsp; &#9744;parcial de errores 
 
 <table>
 <tr><th colspan="2">Resaltado de pruebas </th></tr>

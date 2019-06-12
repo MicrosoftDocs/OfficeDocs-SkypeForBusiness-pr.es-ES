@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb614de33f532dcf26d7522969911c46331297a
-ms.sourcegitcommit: 0278cfe7d5ec53e83df4d9c8b9afb0f425cbb9d2
+ms.openlocfilehash: ff59a1973b3a77ec38a2e8da6ef065e221892139
+ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2019
-ms.locfileid: "34802649"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857510"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo que abarque toda la organización en Microsoft Teams
 
@@ -29,7 +29,7 @@ Con los equipos de toda la organización, los administradores globales pueden cr
 
 ![Captura de pantalla de la opción de toda la organización para crear un equipo para toda la organización] (media/create-org-wide-team.png "Captura de pantalla de la opción de toda la organización para crear un equipo para toda la organización")
 
-Cuando se crea un equipo de toda la organización, todos los administradores globales se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se les asigna una licencia de prueba de la nube comercial de Microsoft Teams. Para obtener más información sobre la licencia de prueba, consulte [administrar la oferta de evaluación de la nube comercial](iw-trial-teams.md). Los usuarios que están deshabilitados para equipos, usuarios invitados y la mayoría de las salas no se agregan al equipo. 
+Cuando se crea un equipo de toda la organización, todos los administradores globales se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se les asigna una licencia de prueba de la nube comercial de Microsoft Teams. Para obtener más información sobre la licencia de prueba, consulte [administrar la oferta de evaluación de la nube comercial](iw-trial-teams.md). Estos tipos de cuentas no se agregarán al equipo de toda la organización: cuentas que están bloqueadas para iniciar sesión, usuarios invitados, cuentas de servicio, cuentas de sala o equipamiento o cuentas respaldadas por un buzón de correo compartido.
 
 Puesto que el directorio de su organización se actualiza para incluir nuevos usuarios activos o si los usuarios ya no trabajan en su empresa y su licencia de equipos está deshabilitada, los cambios se sincronizan automáticamente y se agregan o quitan los usuarios del equipo. Los miembros del equipo no pueden abandonar el equipo de toda la organización. Como propietario de un equipo, puede Agregar o quitar usuarios de forma manual si es necesario.
 
