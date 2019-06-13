@@ -55,7 +55,7 @@ ms.locfileid: "33905698"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Soluciones híbridas</h3>
-                                                    <p>Obtenga información acerca de cómo planear un Skype para implementación híbrida de negocio.</p>
+                                                    <p>Obtenga información sobre cómo planear una implementación híbrida de Skype empresarial.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -129,8 +129,8 @@ ms.locfileid: "33905698"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Viaje de Skype para la empresa a los equipos de Microsoft</h3>
-                                                    <p>Busque las instrucciones y herramientas para explorar la ruta de acceso sea óptima para los equipos.</p>
+                                                    <h3>Desplazarse de Skype empresarial a Microsoft Teams</h3>
+                                                    <p>Encuentre orientación y herramientas para explorar su ruta de acceso óptima a teams.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@ ms.locfileid: "33905698"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Usuarios finales</h3>
-                                                    <p>Buscar ayuda, aprendizaje y soporte técnico para Skype para los usuarios empresariales en <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.office.com</a>.</p>
+                                                    <p>Encuentre ayuda, aprendizaje y soporte técnico para usuarios de Skype empresarial en <a href='https://support.office.com/en-us/skype-for-business' target="_blank">support.Office.com</a>.</p>
                                                 </div>
                                             </div>
                                         </div>
