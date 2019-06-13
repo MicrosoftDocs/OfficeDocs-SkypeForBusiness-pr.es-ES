@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a la mensajería segura para las organizaciones sanitarias
-ms.openlocfilehash: da9bc348a52cf8e4ceacdec36594c81386186c0e
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 86640eae696c424e7d6132b277dc0f6c2241ff04
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34912867"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915167"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 

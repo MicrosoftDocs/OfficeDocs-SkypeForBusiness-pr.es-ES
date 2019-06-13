@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: En este artículo se describe cómo supervisar y solucionar problemas de la configuración de enrutamiento directo.
-ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
+ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290411"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34915159"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 
@@ -46,7 +46,7 @@ En el siguiente diagrama se muestra un ejemplo de la configuración:
 
 ![Ejemplo de configuración de opciones de SIP](media/sip-options-config-example.png)
 
-Cuando un usuario llama a Number + 1 425 \<, los siete digits>, el enrutamiento directo evalúa la ruta. Hay dos SBCs en la ruta: sbc1.contoso.com y sbc2.contoso.com. Tanto SBCs tienen la misma prioridad en la ruta. Antes de elegir un SBC, el mecanismo de enrutamiento evalúa el estado de SBCs según el momento en que la SBC envió las opciones de SIP la última vez. 
+Cuando un usuario hace una llamada a Number + 1 425 \<, los siete dígitos>, el enrutamiento directo evalúa la ruta. Hay dos SBCs en la ruta: sbc1.contoso.com y sbc2.contoso.com. Tanto SBCs tienen la misma prioridad en la ruta. Antes de elegir un SBC, el mecanismo de enrutamiento evalúa el estado de SBCs según el momento en que la SBC envió las opciones de SIP la última vez. 
 
 Un SBC se considera saludable si las estadísticas en el momento de enviar la llamada muestran que SBC envía opciones de forma regular.  
 
