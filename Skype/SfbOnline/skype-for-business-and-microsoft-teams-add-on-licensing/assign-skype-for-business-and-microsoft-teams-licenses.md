@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo asignar licencias de Skype Empresarial para el Sistema telefónico, las Audioconferencias, los Planes de llamadas y los Créditos de Comunicaciones. '
-ms.openlocfilehash: 96f2805a031ab122dce0fc354da4a4e60dbded32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 997cffce5b98ed992371a0f43e701b2efc1ae128
+ms.sourcegitcommit: 6d5f09acdcdc8d5a36f7ac785349209e7496f17d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301272"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "34768779"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Asignar licencias de Skype Empresarial
 
@@ -107,20 +107,22 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 |Plan independiente 2 de Skype Empresarial Online  <br/> |MCOSTANDARD  <br/> |
 |Sistema telefónico  <br/> |MCOEV  <br/> |
 |Plan de llamadas internacionales  <br/> |MCOPSTN2  <br/> |
-|Plan de llamada nacional  <br/> |MCOPSTN1  <br/> |
+|Plan de llamadas nacionales (3000 min Estados Unidos/1200 mín. planes de la UE)  <br/> |MCOPSTN1  <br/> |
+|Plan de llamadas nacionales (120)  <br/> |MCOPSTN5  <br/> |
+|Plan de llamadas nacionales (240)  <br/> |MCOPSTN6  <br/> |
 |Créditos de comunicaciones  <br/> |MCOPSTNC  <br/> |
 
 ## <a name="audio-conferencing-tips-and-scripts-for-assigning-licenses"></a>Audioconferencias: sugerencias y scripts para asignar licencias
 
 ### <a name="what-you-need-to-know-before-assigning-audio-conferencing-licenses"></a>Lo que debe saber antes de asignar licencias de audioconferencia
 
-- **Third-party audio conferencing provider**: If someone is already set up to use a third-party audio conferencing provider, when you assign them an **Audio Conferencing** license, they will be changed to use Microsoft as the audio conferencing provider. You can change them back to the third-party provider.
+- **Proveedor de servicios de audioconferencia de terceros**: si alguien ya está configurado para usar un proveedor de servicios de audioconferencia de terceros, cuando le asigne una licencia de **Conferencia** de audio, se cambiará para usar Microsoft como Conferencia de audio. proveedor. Puede volver a cambiar al usuario al proveedor de terceros.
 
-- Next steps: After you assign **Audio Conferencing** licenses, you need to assign an audio conferencing provider. See [Assign Microsoft as the audio conferencing provider].
+- Pasos siguientes: después de asignar las licencias de **audioconferencia** , debe asignar un proveedor de servicios de audioconferencia. Consulte [Asignar a Microsoft como proveedor de audioconferencias].
 
 ### <a name="how-to-assign-an-audio-conferencing-license-to-one-user"></a>Cómo asignar una licencia de audioconferencia a un usuario
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+Los pasos son los mismos que se siguen para asignar una licencia de Office 365. Consulte [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 ### <a name="how-to-assign-audio-conferencing-licenses-in-bulk"></a>Cómo asignar licencias de audioconferencia en masa
 
@@ -130,7 +132,7 @@ The steps are the same as assigning an Office 365 license. See [Assign or remove
 
     Después de instalar los módulos, use el símbolo del sistema de Windows PowerShell y la sintaxis siguiente para asignar las licencias a los usuarios:
 
-    The name of the licenses or product names in the script are listed in italics text. See [Audio Conferencing product names or SKUs used for scripting](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) for all of the product names.
+    El nombre de las licencias o nombres de los productos en el script se muestran en letra cursiva. Ver los nombres de los [productos de audioconferencia o las SKU usadas para](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) los scripts de todos los nombres de productos.
 
     Este ejemplo asigna una licencia Enterprise E3 junto con una licencia de audioconferencia.
 
@@ -187,15 +189,15 @@ foreach ($user in $users)
 
 - **Clientes de Enterprise E5**: incluso si los usuarios tienen asignadas licencias Enterprise E5, le recomendamos que les asigne licencias de **créditos para comunicaciones** .
     
-- **Next steps**: After you assign these licenses, you will need to get your phone numbers for your organization, and then assign those numbers to the people in your organization. For step-by-step instructions, see [Set up Calling Plans](/microsoftteams/set-up-calling-plans).
+- **Pasos siguientes**: Después de asignar estas licencias, tendrá que obtener los números de teléfono para la organización y asignarlos a los miembros de esta. Para obtener instrucciones paso a paso, consulte [configurar planes de llamada](/microsoftteams/set-up-calling-plans).
     
 ### <a name="how-to-assign-a-communications-credits-license-to-one-user"></a>Cómo asignar una licencia de créditos de comunicaciones a un usuario
 
-The steps are the same as assigning an Office 365 license. See [Assign or remove licenses for Office 365 for business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
+Los pasos son los mismos que se siguen para asignar una licencia de Office 365. Consulte [Asignar o cancelar licencia para Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).
 
 ### <a name="how-to-assign-communications-credits-licenses-in-bulk"></a>Cómo asignar las licencias de crédito de comunicaciones a granel
 
-Take a look at the sample script for assigning **Audio Conferencing** licenses. Update it with the info for assigning **Communications Credits** licenses.
+Eche un vistazo a la secuencia de comandos de ejemplo para asignar licencias de **audioconferencia** . Actualícelo con la información para asignar licencias de **créditos de comunicaciones** .
 
 ## <a name="related-topics"></a>Temas relacionados
   

@@ -7,15 +7,15 @@ TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
 ms:contentKeyID: 48183808
-ms.date: 02/07/2017
+ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 442e00cfe36aa94eb1d2306a67707485b4859910
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e2713bfee0397c455407d0dc277851b5588fa774
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834919"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912843"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,10 +75,10 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 <td><p>Internet Explorer 10 de 64 bits</p></td>
 <td><p>Internet Explorer 9 de 32 bits</p></td>
 <td><p>Internet Explorer 9 de 64 bits</p></td>
-<td><p>Firefox 32 bits</p></td>
-<td><p>Firefox 64 bits</p></td>
+<td><p>Firefox 32 bits<sup>4</sup></p></td>
+<td><p>Firefox 64 bits<sup>4</sup></p></td>
 <td><p>Safari</p></td>
-<td><p>Ventanas</p></td>
+<td><p>Chrome<sup>4</sup></p></td>
 </tr>
 <tr class="even">
 <td><p>Windows 10</p></td>
@@ -88,98 +88,100 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
-<td><p>Sí</p></td>
 <td><p>No</p></td>
-<td><p>N/D</p></td>
-<td><p>Sí</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 8,11</p></td>
-<td><p>N/D</p></td>
-<td><p>Sí</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>Sí</p></td>
-<td><p>No</p></td>
-<td><p>N/D</p></td>
-<td><p>Sí</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows 8 (basado en Intel) 1</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>Sí</p></td>
-<td><p>Sí</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>Sí</p></td>
-<td><p>No</p></td>
-<td><p>N/D</p></td>
-<td><p>Sí</p></td>
-</tr>
-<tr class="odd">
-<td><p>Windows 7 con SP12</p></td>
-<td><p>N/D</p></td>
-<td><p>Sí</p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
-<td><p>Sí</p></td>
-<td><p>No</p></td>
-<td><p>N/D</p></td>
-<td><p>No</p></td>
-</tr>
-<tr class="even">
-<td><p>Windows Server 2008 R2 con SP12</p></td>
-<td><p>N/D</p></td>
-<td><p>Sí</p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
-<td><p>Sí </p></td>
-<td><p>Sí</p></td>
 <td><p>No</p></td>
 <td><p>N/D</p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="odd">
-<td><p>Windows Server 2008 con SP23</p></td>
+<td><p>Windows 8,1<sup>1</sup></p></td>
 <td><p>N/D</p></td>
 <td><p>Sí</p></td>
-<td><p>Sí</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
 <td><p>No</p></td>
-<td><p>Sí</p></td>
-<td><p>No</p></td>
-<td><p>Sí</p></td>
 <td><p>No</p></td>
 <td><p>N/D</p></td>
 <td><p>No</p></td>
 </tr>
 <tr class="even">
-<td><p>Mac OS X 10,7 y posteriores (basado en Intel) 2</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
-<td><p>N/D</p></td>
+<td><p>Windows 8 (basado en Intel)<sup>1</sup></p></td>
 <td><p>N/D</p></td>
 <td><p>N/D</p></td>
 <td><p>Sí</p></td>
+<td><p>Sí</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
 <td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>N/D</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows 7 con SP1<sup>2</sup></p></td>
+<td><p>N/D</p></td>
+<td><p>Sí</p></td>
+<td><p>Sí </p></td>
+<td><p>Sí </p></td>
 <td><p>Sí </p></td>
 <td><p>Sí</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>N/D</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="even">
+<td><p>Windows Server 2008 R2 con SP1<sup>2</sup></p></td>
+<td><p>N/D</p></td>
+<td><p>Sí</p></td>
+<td><p>Sí </p></td>
+<td><p>Sí </p></td>
+<td><p>Sí </p></td>
+<td><p>Sí</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>N/D</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="odd">
+<td><p>Windows Server 2008 con SP2<sup>3</sup></p></td>
+<td><p>N/D</p></td>
+<td><p>Sí</p></td>
+<td><p>Sí</p></td>
+<td><p>No</p></td>
+<td><p>Sí</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>N/D</p></td>
+<td><p>No</p></td>
+</tr>
+<tr class="even">
+<td><p>Mac OS X 10,7 y posteriores (basado en Intel)<sup>2</sup></p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>N/D</p></td>
+<td><p>No</p></td>
+<td><p>No</p></td>
+<td><p>Sí</p></td>
+<td><p>No</p></td>
 </tr>
 </tbody>
 </table>
 
 
-1 en Windows 8 y Windows 8,1, el complemento necesario para usar el audio, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, visualización de escritorio y uso compartido de escritorio basado en equipos solo se puede instalar si está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escrito. Estas características no están disponibles con versiones de Internet Explorer 10 o Internet Explorer 11 que no sean de escritorio.
+<sup>1</sup> en Windows 8 y Windows 8,1, el complemento necesario para usar el audio, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, visualización de escritorio y uso compartido de escritorio basado en equipos solo se puede instalar si está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con versiones de Internet Explorer 10 o Internet Explorer 11 que no sean de escritorio.
 
-2 en sistemas operativos Windows 7, Windows Server 2008 R2 y Macintosh compatibles, todas las características están disponibles, como la voz, el vídeo, la visualización de aplicaciones, el uso compartido de aplicaciones, la visualización de escritorio y el uso compartido de escritorio basados en equipos. Para usar estas características, necesita instalar un complemento cuando se le indique. Tenga en cuenta que ya no se admite Mac OS X versión 10,6.
+<sup>2</sup> en sistemas operativos Windows 7, windows Server 2008 R2 y Macintosh compatibles, todas las características están disponibles, como la voz, el vídeo, la visualización de aplicaciones, el uso compartido de aplicaciones, la visualización de escritorio y el uso compartido de escritorio basados en equipos. Para usar estas características, necesita instalar un complemento cuando se le indique. Tenga en cuenta que ya no se admite Mac OS X versión 10,6.
 
-3 en los sistemas operativos Windows Server 2008 compatibles, la voz y el vídeo basados en PC no están disponibles. Las características de visualización de aplicaciones, uso compartido de aplicaciones, visualización del escritorio y uso compartido del escritorio sí están disponibles.
+<sup>3</sup> en los sistemas operativos Windows Server 2008 compatibles, la voz y el vídeo basados en PC no están disponibles. Las características de visualización de aplicaciones, uso compartido de aplicaciones, visualización del escritorio y uso compartido del escritorio sí están disponibles.
+
+<sup>4</sup> el complemento requiere compatibilidad con NPAPI en el explorador. Firefox eliminó la compatibilidad con NPAPI en la versión 52,0 y la compatibilidad con Chrome quitada en la versión 45, por lo que estos exploradores ya no se admiten en sus versiones actuales.
 
 </div>
 

@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams.
-ms.openlocfilehash: b6ab6674da7212f14e7315a34cced60fcabe3e1f
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: bdad8f852855c8f87eb62851ddc3082026bcc0ed
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433258"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912875"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -45,11 +45,11 @@ De forma predeterminada, se crea una directiva denominada global (opción predet
 
 ## <a name="change-or-create-a-meeting-policy"></a>Cambiar o crear una directiva de reunión
 
-Para cambiar o crear una directiva de reunión, vaya al centro de administración de Microsoft Teams > **reuniones** > **** de reuniones. Seleccione una directiva de la lista o seleccione **nueva Directiva**. Si va a crear una nueva Directiva, agregue un nombre y una descripción. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres. Elija la configuración y, a continuación, seleccione **Guardar**.
+Para cambiar o crear una directiva de reunión, vaya al centro de administración de Microsoft Teams >**las directivas de reunión**de **reuniones** > . Seleccione una directiva de la lista o seleccione **nueva Directiva**. Si va a crear una nueva Directiva, agregue un nombre y una descripción. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres. Elija la configuración y, a continuación, seleccione **Guardar**.
 
 Por ejemplo, supongamos que tiene un conjunto de usuarios y quiere limitar la cantidad de ancho de banda que requeriría la reunión. Debe crear una nueva directiva personalizada denominada "ancho de banda limitado" y deshabilitar las siguientes opciones de configuración:
 
-En **audio & vídeo**:
+En **Audio & vídeo**:
 - Desactivar la grabación en la nube
 - Desactivar permitir vídeo IP
 
@@ -85,7 +85,7 @@ También puede asignar una directiva de reunión a uno o más usuarios de la sig
 Al seleccionar una directiva existente en la página **directivas** de la reunión o seleccionar **nueva Directiva** para agregar una nueva Directiva, puede establecer la configuración para lo siguiente.
 
 - [General](#meeting-policy-settings---general)
-- [Audio & video](#meeting-policy-settings---audio--video)
+- [Audio & vídeo](#meeting-policy-settings---audio--video)
 - [Uso compartido de contenido](#meeting-policy-settings---content-sharing)
 - [Participantes & invitados](#meeting-policy-settings---participants--guests)
 
@@ -135,7 +135,7 @@ Tenga en cuenta que si desactiva permitir la programación de **reuniones privad
 
 <a name="bkaudioandvideo"> </a>
 
-## <a name="meeting-policy-settings---audio--video"></a>Configuración de la Directiva de reunión-vídeo de & de audio
+## <a name="meeting-policy-settings---audio--video"></a>Configuración de la Directiva de reunión: vídeo & de audio
 
 - [Permitir la transcripción](#allow-transcription)
 - [Permitir la grabación en la nube](#allow-cloud-recording)
@@ -192,7 +192,7 @@ Si Daniela llama Amanda con video on, Amanda puede contestar la llamada solo con
 
 ### <a name="media-bit-rate-kbs"></a>Velocidad de bits multimedia (KB)
 
-Esta es una directiva por organizador. Esta configuración determina la velocidad de bits de multimedia para las transtransmisións de uso compartido de aplicaciones de audio, vídeo y vídeo en llamadas y reuniones para el usuario. Se aplica a los usuarios de la llamada o a la reunión, tanto al vínculo ascendente como al enlace descendente multimedia. Esta configuración le da un control granular sobre la administración del ancho de banda de su organización. En función de los escenarios de reuniones requeridos por los usuarios, le recomendamos disponer de suficiente ancho de banda para obtener una experiencia de buena calidad. El valor mínimo es 30 Kbps y el valor máximo depende del escenario de la reunión. Para obtener más información sobre el ancho de banda mínimo recomendado para reuniones, llamadas y eventos en vivo de buena calidad en Teams, consulte [requisitos de ancho de banda](prepare-network.md#bandwidth-requirements).
+Esta es una directiva por usuario. Esta configuración determina la velocidad de bits de multimedia para las transtransmisións de uso compartido de aplicaciones de audio, vídeo y vídeo en llamadas y reuniones para el usuario. Se aplica a los usuarios de la llamada o a la reunión, tanto al vínculo ascendente como al enlace descendente multimedia. Esta configuración le da un control granular sobre la administración del ancho de banda de su organización. En función de los escenarios de reuniones requeridos por los usuarios, le recomendamos disponer de suficiente ancho de banda para obtener una experiencia de buena calidad. El valor mínimo es 30 Kbps y el valor máximo depende del escenario de la reunión. Para obtener más información sobre el ancho de banda mínimo recomendado para reuniones, llamadas y eventos en vivo de buena calidad en Teams, consulte [requisitos de ancho de banda](prepare-network.md#bandwidth-requirements).
 
 Si no hay suficiente ancho de banda para una reunión, los participantes verán un mensaje que indica una mala calidad de la red.
 
@@ -312,7 +312,7 @@ Esta es una directiva por organizador. Esta opción controla si se permite la co
 
 <a name="bkparticipantsandguests"> </a>
 
-## <a name="meeting-policy-settings---participants--guests"></a>Configuración de la Directiva de reunión-participantes & invitados
+## <a name="meeting-policy-settings---participants--guests"></a>Configuración de la Directiva de reunión: participantes & invitados
 
 Esta configuración controla los participantes de la reunión en la sala de espera antes de que se admitan en la reunión y el nivel de participación permitido en una reunión.
 
@@ -320,6 +320,9 @@ Esta configuración controla los participantes de la reunión en la sala de espe
 - [Permitir que usuarios anónimos inicien una reunión](#allow-anonymous-people-to-start-a-meeting)
 - [Permitir que los usuarios de acceso telefónico omitan la sala de recepción](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
 - [Permitir que los organizadores invaliden la configuración de la sala](#allow-organizers-to-override-lobby-settings-coming-soon)
+
+> [!NOTE]
+>Las opciones para unirse a una reunión variarán en función de la configuración de cada grupo de equipos y del método de conexión. Si su grupo tiene audioconferencias y lo usa para conectarse, consulte [audioconferencias en Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si su grupo de equipos no tiene audioconferencia, consulte unirse a [una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
 
 ### <a name="automatically-admit-people"></a>Admitir automáticamente personas
 

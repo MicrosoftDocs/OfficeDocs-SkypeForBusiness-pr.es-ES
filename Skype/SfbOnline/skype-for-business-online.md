@@ -56,7 +56,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>We& #39; re aquí para ayudar a</h3>
+                        <h3>Te&#39;mos aquí para ayudarte</h3>
                     </div>
                 </div>
             </div>
@@ -121,7 +121,7 @@ Aprenda a administrar Skype for Business Online para su organización.
 
 ---
 
-<h2>What& #39; s nuevo</h2>
+<h2>Novedades de&#39;</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -134,7 +134,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Artículos</h3>
+                        <h3>Manufactura</h3>
                         <p><a 
                         href="/microsoftteams/setting-up-your-phone-system">Configuración del sistema telefónico en su organización</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integración de terceros con Audioconferencia</a></p>
@@ -238,7 +238,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                 <div class="card">
                     <div class="cardText">
                         <h3>Sistema telefónico</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">¿Qué es Sistema telefónico en Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s lo que se obtiene con el sistema telefónico en Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">¿Qué es Sistema telefónico en Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Aquí&#39;es lo que obtiene con el sistema telefónico en Office 365</a></p>
                </div>
                 </div>
             </div>

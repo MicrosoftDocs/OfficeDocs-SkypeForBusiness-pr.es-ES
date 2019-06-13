@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a la mensajería segura para las organizaciones sanitarias
-ms.openlocfilehash: 167021c475edd760bf9b56d550616ebb199f2fb5
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: da9bc348a52cf8e4ceacdec36594c81386186c0e
+ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681908"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34912867"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 
@@ -38,12 +38,9 @@ La siguiente configuración es de especial interés para las aplicaciones de cui
 
 ## <a name="read-receipts"></a>Confirmaciones de lectura
 
-- ![Icono del número 1, que hace referencia a una llamada en la](../../media/sfbcallout1.png) captura de pantalla anterior, **lectura** de lectura confirmaciones de lectura permite al remitente de un mensaje de conversación saber cuándo ha leído el destinatario el mensaje. Use esta opción para especificar si las confirmaciones de lectura están controladas por el usuario, habilitadas para todos o deshabilitadas para todos. Las confirmaciones de lectura de mensajes son importantes en las organizaciones de cuidado de la salud porque no eliminan certeza acerca de si se leyó un mensaje.
+- ![Icono del número 1, que hace referencia a una llamada en la](../../media/sfbcallout1.png) captura de pantalla anterior, **lectura** de lectura confirmaciones de lectura permite al remitente de un mensaje de conversación saber cuándo el destinatario ha leído el mensaje en 1:1 y los chats grupales o menos. Use esta opción para especificar si las confirmaciones de lectura están controladas por el usuario, en para todos o desactivadas para todo el mundo. Las confirmaciones de lectura de mensajes son importantes en las organizaciones de cuidado de la salud porque no eliminan certeza acerca de si se leyó un mensaje.
 
-  Para las aplicaciones de cuidado de la salud, elija controlado por el **usuario** o **habilitado para todos**. Tenga en cuenta que al usar la configuración **habilitada para todos los usuarios** , la única forma de establecer confirmaciones para todo el inquilino es tener solo una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para tener toda la mensajería las directivas del inquilino usan la misma configuración para los recibos.
-
-  > [!NOTE]
-  > Cuando se usan confirmaciones de lectura en un chat de grupo grande (con más de 100 usuarios, por ejemplo), los mensajes de confirmación pueden sobrecargar los mensajes reales y dar lugar a frustraciones al usuario de la conversación. Esto es algo que tendrás que hacer usuarios conscientes. Un chat grupal más pequeño (es decir, 20 usuarios o menos) hace mejor uso de esta característica.
+  Para las aplicaciones de cuidado de la salud, elija controlado por el **usuario** o **activado para todos**. Tenga en cuenta que al usar la configuración **activado para todos** , la única forma de establecer confirmaciones para todo el inquilino es que solo tenga una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para tener todas las directivas de mensajería en el inquilino usa la misma configuración para los recibos. La característica confirmaciones de lectura es más eficaz cuando la característica está habilitada para **todos los usuarios**.
 
     *Ejemplo de uso sin confirmaciones de lectura:* Jakob Roth, un paciente de alto riesgo, es admitido en el hospital.Sofía Krause es una enfermera que funciona como parte del equipo inter-disciplinar (IDT) de los trabajadores de medicina, incluidos los distintos especialistas, se asigna como Coordinador de atención primaria encargado de este paciente.  Sofía envía correos electrónicos y otros mensajes instantáneos a un grupo de enfermeras y doctores que usan una variedad de clientes y aplicaciones de mensajería, y con frecuencia no recibe respuesta o indica si los miembros del equipo leyeron un mensaje. Debido a los procesos de comunicación, el medicamento de Jakob se ha aplicado de forma indebida y se amplía la estadía de su hospital.
 
