@@ -309,11 +309,15 @@
 ### [Guía de inicio rápido: Configurar Planes de llamadas](configuring-teams-calling-quickstartguide.md)
 
 ## Enrutamiento directo del Sistema telefónico
+
 ### [Información general](direct-routing-landing-page.md)
 ### [Planear el enrutamiento directo](direct-routing-plan.md)
 ### [Configurar el enrutamiento directo](direct-routing-configure.md)
 ### [Migrar a enrutamiento directo](direct-routing-migrating.md)
-### [Supervisar y solucionar problemas de enrutamiento directo](direct-routing-monitor-and-troubleshoot.md)
+
+### Supervisar y solucionar problemas de enrutamiento directo
+#### [Información general](direct-routing-monitor-and-troubleshoot.md)
+#### [Panel de estado](direct-routing-health-dashboard.md)
 ### [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
 ### [Configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md)
 ### [Lista de controladores de borde de sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md)
