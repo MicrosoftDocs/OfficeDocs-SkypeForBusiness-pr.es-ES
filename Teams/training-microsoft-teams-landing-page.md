@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb60e7908a604e680682e7b12c75328410794879
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: a3c9c6791b639fcd1510b3f83cf5749286ee35b8
+ms.sourcegitcommit: 35930c6f634623983aefeed104bc6c66a8aab174
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548345"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "34957544"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 
@@ -133,6 +133,19 @@ Vuelve a menudo para ver las novedades. Esta lista se actualiza para que estés 
                     <div class="cardText">
                         <h3>Introducción al trabajo en equipo en Microsoft 365</h3>
                         <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Obtenga información sobre las herramientas de Microsoft 365 que facilitan el trabajo en equipo para todos los empleados, independientemente de dónde se encuentran o de su relación con su organización. </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    </li>
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Certificación de Microsoft 365: Asociado de administrador de trabajo en equipo</h3>
+                        <p><a href="https://www.microsoft.com/learning/m365-teamwork-administrator.aspx">Los administradores del trabajo en equipo de Microsoft 365 configuran, implementan y administran las cargas de trabajo de Office 365, como SharePoint (en línea, local e híbrido), OneDrive y Teams. </a></p>
                     </div>
                 </div>
             </div>
