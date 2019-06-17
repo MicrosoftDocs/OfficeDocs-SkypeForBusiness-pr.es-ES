@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f652023a0d896c70aab2e6c3c56725568a95c35a
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
+ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857502"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "34933852"
 ---
 ![Actualizar el diagrama de viaje, enfatizando la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Etapas del viaje de actualización, con énfasis en la fase de definición del proyecto")
 
@@ -52,6 +52,9 @@ De forma predeterminada, los usuarios pueden ejecutar equipos junto con Skype em
 En este modo de coexistencia, denominado **islas**, cada una de las aplicaciones cliente funciona como una isla independiente. Skype empresarial habla con Skype empresarial y Teams se comunica con Teams. Los usuarios ejecutan ambos clientes en todo momento y pueden comunicarse de forma nativa en el cliente desde el que se inició la comunicación. Por lo tanto, no hay necesidad de interoperabilidad en el modo **islas** .
 
 Para evitar una experiencia de Skype empresarial confusa o recargada, las comunicaciones externas (federadas), los servicios de voz RTC y las aplicaciones de voz, la integración de Office y muchas otras integraciones continúan siendo manejadas por Skype empresarial.
+
+> [!Important]
+> En el modo **islas** , todos los mensajes de los usuarios federados (personas de fuera de la organización) se envían a Skype empresarial. Después de cambiar al modo **solo para equipos** , todos los mensajes de fuera de la organización se envían a teams.
 
 > [!Tip]
 > La ruta recomendada para los clientes de Skype empresarial online es empezar con el modo **islas** predeterminadas, los equipos de unidades de disco adoptan la saturación de la organización y, a continuación, se desplazan rápidamente al modo de **solo equipos** . Los clientes de entornos híbridos y locales pueden beneficiarse de implementar **Skype empresarial con** el modo de colaboración de equipos como punto de partida en lugar de islas, y pasar de allí a **Skype empresarial con el modo de colaboración y reuniones** de Teams. Si es necesario, y al modo **solo** de Teams cuando la organización está lista para adoptar equipos.

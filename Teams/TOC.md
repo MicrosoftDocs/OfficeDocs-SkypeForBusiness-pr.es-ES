@@ -37,7 +37,7 @@
 ### [Información general](deploy-apps-microsoft-teams-landing-page.md)
 ### [Consideraciones y permisos de las aplicaciones](app-permissions.md)
 ### [Configurar la administración para aplicaciones en Teams](admin-settings.md)
-### [Agregar bots para chats privados y canales en Microsoft Teams](add-bots.md)
+### [Agregar bots para chats personales, chats grupales y canales en Teams](add-bots.md)
 ### [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
 ### [Usar conectores de Office 365 y personalizados](Office-365-custom-connectors.md)
 ### [Publicar aplicaciones en el catálogo de aplicaciones de inquilinos de Teams](tenant-apps-catalog-teams.md)
