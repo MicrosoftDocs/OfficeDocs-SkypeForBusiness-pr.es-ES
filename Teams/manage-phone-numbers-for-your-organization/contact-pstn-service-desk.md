@@ -1,6 +1,6 @@
 ---
 title: Ponerse en contacto con el servicio de asistencia al cliente RTC
-author: Tony Smith
+author: TonySmit
 ms.author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
@@ -22,16 +22,16 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: Cuando reciba números de teléfono o transfiera (transfiriendo) números para su organización, es posible que necesite obtener ayuda y soporte técnico en el servicio de asistencia al cliente de RTC.
-ms.openlocfilehash: 4517e798f5b3157ea3f5e121c9938bc46b6d6eab
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: ada0344c03476cd8d6582d29aed5a0c23226b111
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34868775"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012992"
 ---
-#<a name="pstn-service-desk"></a>Servicio de asistencia al cliente RTC
+# <a name="pstn-service-desk-help"></a>Ayuda del servicio de asistencia al cliente RTC
 
-Si aún necesita ayuda, por favor díganos qué podemos hacer por usted. En la solicitud de ayuda, incluya detalles como el id. de su organización, los dominios, el tipo de números con los que necesita ayuda, cuántos números quiere, la persona que autoriza en la cuenta y otros detalles importantes sobre el problema.
+Si necesitas ayuda para obtener o transferir números pero necesitas ayuda, cuéntanos cómo podemos ayudarte en un mensaje de correo electrónico y enviarlo a nosotros. En la solicitud de ayuda por correo electrónico, incluya tantos detalles como sea posible e incluya detalles como el identificador de su organización, los dominios, el tipo de números sobre los que necesita ayuda, el número de números que desea, la autorización de la persona en la cuenta y otros detalles importantes sobre su problema.
 
 A continuación, envía tu solicitud a una de las siguientes direcciones de correo electrónico:
 

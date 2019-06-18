@@ -16,19 +16,19 @@ description: Obtenga información sobre los pasos necesarios para configurar los
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 827b0d9bcb6c66e2c8d8362773b789b3e4a0cf4f
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: b7f69f036e01c86dd02eabf7f229a80f0c51c520
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344173"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013000"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 
 Cuando está configurando para eventos en vivo, debe realizar varios pasos:
 
-## <a name="step-1-set-up-your-network-for-live-events-in-microsoft-teams"></a>Paso 1: configurar la red para eventos en directo en Microsoft Teams
-Los eventos de inicio rápido en directo requieren [preparar la red de su organización para Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
+## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Paso 1: configurar la red para eventos en directo en Teams
+Los eventos en directo generados en Teams requieren que [Prepare la red de su organización para Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
 
 ## <a name="step-2-get-and-assign-licenses"></a>Paso 2: obtener licencias y asignarlas
 Asegúrese de que tiene las asignaciones de licencia correctas para [quién puede crear y programar eventos en vivo](plan-for-teams-live-events.md#who-can-create-and-schedule-live-events) y [quién puede ver los eventos en directo](plan-for-teams-live-events.md#who-can-watch-live-events).
@@ -58,10 +58,10 @@ Las directivas de eventos en directo se usan para controlar qué usuarios de su 
 |---------|---------|
 |**Nombre.**     |Este es el nombre de la Directiva que aparece en la página de directivas de eventos en directo. No puede tener más de 64 caracteres ni caracteres especiales.          |
 |**Descripción**    |Use esta para agregar una descripción detallada a la Directiva.         |
-|**Permitir la programación**     |Activar esta opción permite a los usuarios de la organización crear y programar eventos en vivo en Teams. Es importante saber que si desea que los usuarios programen eventos en directo del codificador externo, debe realizar algunos pasos adicionales. Para obtener más información, vea [permitir a los usuarios programar eventos externos de codificador](#enable-users-to-schedule-external-encoder-events).     |
-|**Permitir la transcripción para los asistentes** (próximamente) |Esta configuración solo se puede aplicar a los eventos de inicio rápido. Activar esta habilitación permite a los asistentes de eventos en directo ver los subtítulos y la traducción en tiempo real durante el evento.         |
+|**Permitir la programación**     |Activar esta opción permite a los usuarios de la organización crear y programar eventos en vivo en Teams. Es importante saber que si desea que los usuarios programen un evento en directo producido con una aplicación o dispositivo externo, hay pasos adicionales que debe realizar. Para obtener más información, vea [permitir a los usuarios programar eventos generados con una aplicación o un dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
+|**Permitir la transcripción para los asistentes** (próximamente) |Esta configuración solo se puede aplicar a eventos generados en Teams. Activar esta habilitación permite a los asistentes de eventos en directo ver los subtítulos y la traducción en tiempo real durante el evento.         |
 |**Quién puede unirse a eventos en directo programados**    |Elija una de las opciones siguientes.<br><br>**Todos los usuarios** Los usuarios pueden crear eventos en vivo que todos, incluidas las personas de fuera de su organización, pueden asistir. Esta configuración habilita el tipo de permiso **público** en Teams cuando un usuario programa un evento en vivo.<br> **Todas las personas de la organización** Los usuarios pueden crear eventos en vivo que solo pueden asistir las personas de su organización. Los usuarios no pueden crear eventos en vivo atendidos por usuarios anónimos. Esta configuración habilita el tipo de permiso de **toda la organización** en Teams cuando un usuario programa un evento en vivo.<br> **Usuarios o grupos específicos** Los usuarios pueden crear eventos en vivo que solo pueden asistir a usuarios o grupos específicos de su organización. Los usuarios no pueden crear eventos en vivo atendidos por todos los usuarios de su organización o por usuarios anónimos. Esta opción habilita el tipo de permiso **personas y grupos** en Teams cuando un usuario programa un evento en vivo.       |
-|**Configuración de grabación**  <br>     | Esta configuración solo se puede aplicar a los eventos de inicio rápido. Elija una de las opciones siguientes. <br><br> **Grabar siempre** Los eventos en directo creados por los usuarios siempre se graban. Después de que el evento haya finalizado, los miembros del equipo del evento pueden descargar la grabación y los asistentes pueden ver el evento. <br> No **grabar nunca** Los eventos en directo creados por los usuarios nunca se graban. <br>**Organizador puede grabar o no** Los usuarios pueden decidir si deseas grabar el evento en vivo. Si se graba, después de que el evento haya finalizado, los miembros del equipo del evento pueden descargar la grabación y los asistentes pueden ver el evento.      
+|**Configuración de grabación**  <br>     | Esta configuración solo se puede aplicar a eventos generados en Teams. Elija una de las opciones siguientes. <br><br> **Grabar siempre** Los eventos en directo creados por los usuarios siempre se graban. Después de que el evento haya finalizado, los miembros del equipo del evento pueden descargar la grabación y los asistentes pueden ver el evento. <br> No **grabar nunca** Los eventos en directo creados por los usuarios nunca se graban. <br>**Organizador puede grabar o no** Los usuarios pueden decidir si deseas grabar el evento en vivo. Si se graba, después de que el evento haya finalizado, los miembros del equipo del evento pueden descargar la grabación y los asistentes pueden ver el evento.      
 
 También puede hacerlo con Windows PowerShell. Para obtener más información, vea [usar PowerShell para configurar directivas de eventos en vivo en Teams](set-teams-live-events-policies-using-powershell.md). 
 
@@ -86,30 +86,30 @@ También puede asignar una directiva de eventos en vivo a uno o más usuarios de
 5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
  
 
-### <a name="enable-users-to-schedule-external-encoder-events"></a>Permitir a los usuarios programar eventos externos de codificador
+### <a name="enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device"></a>Permitir a los usuarios programar eventos generados con una aplicación o un dispositivo externo
 
-Para que los usuarios puedan programar eventos externos, también debe hacer lo siguiente:
+Para que los usuarios puedan programar eventos producidos con una aplicación o dispositivo externo, también debe hacer lo siguiente:
 
-1. Habilite Microsoft Stream para los usuarios de su organización. Microsoft Stream está disponible como parte de suscripciones de Office 365 válidas o como un servicio independiente. Microsoft Stream no se incluye en los planes de Business Essentials o Business Premium. Para obtener más información, vea [información general sobre las licencias de secuencias](https://docs.microsoft.com/stream/license-overview) .
+1. Habilite Microsoft Stream para los usuarios de su organización. Stream está disponible como parte de suscripciones de Office 365 válidas o como un servicio independiente. La secuencia no se incluye en los planes de Business Essentials o Business Premium. Para obtener más información, vea [información general sobre las licencias de secuencias](https://docs.microsoft.com/stream/license-overview) .
 
-      Obtenga más información sobre cómo puede [asignar licencias a usuarios en Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que los usuarios puedan tener acceso a Microsoft Stream. Asegúrese de que Microsoft Stream no esté bloqueado para los usuarios según se define en [este artículo](https://docs.microsoft.com/stream/disable-user-organization).
+      Obtenga más información sobre cómo puede [asignar licencias a usuarios en Office 365](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) para que los usuarios puedan obtener acceso a la secuencia. Asegúrese de que la secuencia no está bloqueada para los usuarios, tal y como se define en [este artículo](https://docs.microsoft.com/stream/disable-user-organization).
 
-2. Asegúrese de que los usuarios tienen permiso de creación de eventos en directo en Microsoft Stream. De forma predeterminada, los administradores pueden crear eventos en directo del codificador externo. El administrador de Microsoft Stream puede [Habilitar usuarios adicionales para la creación de eventos en directo](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) en Stream.  
+2. Asegúrese de que los usuarios tienen permisos de creación de eventos en directo en Stream. De forma predeterminada, los administradores pueden crear eventos con una aplicación o un dispositivo externo. El administrador de la transmisión puede [Habilitar usuarios adicionales para la creación de eventos en directo](https://docs.microsoft.com/stream/live-event-administration#enabling-and-restricting-users-to-creating) en Stream.  
 
-3. Asegúrese de que los organizadores de eventos en vivo hayan respondido a la Directiva de la empresa establecida por el administrador de la transmisión. Si un administrador de Microsoft Stream ha [configurado una directiva de directrices de empresa](https://docs.microsoft.com/stream/company-policy-and-consent) y requiere que los empleados acepten esta Directiva antes de guardar el contenido, los usuarios deben hacerlo antes de crear un evento en directo (con la producción del codificador externo) en Teams. Antes de implementar la característica eventos en directo en la organización, asegúrese de que los usuarios que vayan a crear estos eventos en directo han remitido a la Directiva. 
+3. Asegúrese de que los organizadores de eventos en vivo hayan respondido a la Directiva de la empresa establecida por el administrador de la transmisión. Si un administrador de la secuencia ha [configurado una política de directrices](https://docs.microsoft.com/stream/company-policy-and-consent) de la empresa y requiere que los empleados acepten esta Directiva antes de guardar el contenido, los usuarios deben hacerlo antes de crear un evento en vivo (con una aplicación o dispositivo externo) en Teams. Antes de implementar la característica eventos en directo en la organización, asegúrese de que los usuarios que vayan a crear estos eventos en directo han remitido a la Directiva. 
 
 ## <a name="step-4-set-up-a-video-distribution-solution-for-live-events-in-teams"></a>Paso 4: configurar una solución de distribución de vídeo para eventos en directo en Teams
 La reproducción de vídeos de eventos en vivo usa la transmisión por secuencias de bits adaptativa (ABR), pero es una secuencia de unidifusión, lo que significa que cada visor está recibiendo su propia secuencia de vídeo de Internet. En el caso de eventos en directo o vídeos enviados a grandes partes de su organización, puede haber una cantidad considerable de ancho de banda de Internet consumido por los visores. Para las organizaciones que desean reducir este tráfico de Internet para eventos en directo, las soluciones de eventos en vivo se integran con los socios de entrega de vídeo de Microsoft que ofrecen redes definidas por software (SDNs) o redes de entrega de contenido empresarial (eCDNs). Estas plataformas SDN/eCDN permiten a las organizaciones optimizar el ancho de banda de la red sin sacrificar las experiencias de visualización del usuario final. Nuestros socios pueden ayudar a habilitar una distribución de video más eficaz y escalable en toda la red de la empresa.
 
 **Comprar y configurar su solución fuera de Teams** Obtén ayuda de expertos con el escalado de la distribución de video aprovechando los socios de entrega de video de confianza de Microsoft. Antes de poder habilitar un proveedor de entrega de video para usarlo con equipos, debe comprar y configurar la solución SDN/eCDN fuera y separada de Teams.
 
-Las siguientes soluciones de SDN/eCDN están preintegradas y se pueden configurar para usarlas con Microsoft Stream.
+Las siguientes soluciones de SDN/eCDN están preintegradas y se pueden configurar para usarlas con secuencias.
 
 - La **transmisión por subárbol** ofrece una solución simple y eficaz para la distribución de video empresarial en vivo y a petición. Hive es una solución basada en software que no requiere hardware adicional ni ancho de banda y proporciona una manera segura de habilitar a miles de visores de vídeo simultáneos sin afectar a la red. Para los clientes que desean comprender el impacto que tiene el vídeo en su red antes de comprar una solución SDN/eCDN, la transmisión por secuencias de Hive también proporciona una solución de análisis basada en explorador para clientes de Microsoft. [Más información](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
 - **Kollective** es una plataforma de distribución de emparejamiento inteligente, basada en la nube, que aprovecha la infraestructura de red existente para ofrecer contenido, en muchos formatos (video de transmisión en vivo, video a petición, actualizaciones de software, revisiones de seguridad, etc.) más rápido, más confiable y con menos ancho de banda. Nuestra plataforma segura es de confianza para las instituciones financieras más grandes del mundo, sin necesidad de hardware, configuración y mantenimiento adicionales. [Más información](http://www.kollective.com).
  
-- La **rampa OmniCache** ofrece una distribución de red de próxima generación y garantiza la entrega transparente de contenido de video en redes WAN internacionales, ayudando a los productores de eventos a optimizar el ancho de banda de la red y las difusiones de eventos en vivo exitosas y a petición transmiti. La compatibilidad con la rampa OmniCache para eventos de inicio rápido está disponible próximamente.  [Más información](http://www.ramp.com). 
+- La **rampa OmniCache** ofrece una distribución de red de próxima generación y garantiza la entrega transparente de contenido de video en redes WAN internacionales, ayudando a los productores de eventos a optimizar el ancho de banda de la red y las difusiones de eventos en vivo exitosas y a petición transmiti. La compatibilidad con la rampa OmniCache para eventos en directo producidos en Teams estará disponible próximamente. [Más información](http://www.ramp.com). 
  
 > [!NOTE] 
 > La solución SDN o eCDN elegida está sujeta a las **condiciones de servicio y la política de privacidad del proveedor de terceros**seleccionado, que controlará el uso que usted hará de la solución del proveedor. El uso de la solución del proveedor no estará sujeto a los términos de licencias por volumen de Microsoft ni a las condiciones de los servicios en línea. Si no acepta las **condiciones del proveedor de terceros**, no habilite la solución en Teams. 

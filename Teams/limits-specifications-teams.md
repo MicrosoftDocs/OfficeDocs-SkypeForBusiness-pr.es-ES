@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30e3a9de6a832753b8480733528a0db44f4f143b
-ms.sourcegitcommit: 5895afd0d5752a6ea1ace68d613f86c68eae8bdb
+ms.openlocfilehash: 40c334a1a0159614b77de11f8eb3e5a0e3dcc1b5
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857409"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35012930"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -49,6 +49,16 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Característica     | Límite máximo |
 |------------|---------------|
 |Número de personas en una reunión  | 250    |
+
+## <a name="teams-live-events"></a>Eventos de Teams Live
+
+|Característica     | Límite máximo |
+|------------|---------------|
+|Tamaño de la audiencia | 10.000 asistentes |
+|Duración del evento | 4 horas |
+|Eventos en directo simultáneos en un inquilino de Office 365 | 4,5 |
+
+Para obtener más información sobre eventos en directo y una comparación de los eventos de Teams Live para la difusión de reunión de Skype, vaya a [eventos de Teams Live y difusión de reunión de Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
 ## <a name="storage"></a>Almacenamiento
 

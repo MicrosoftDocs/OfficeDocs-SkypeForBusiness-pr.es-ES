@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo administrar la configuración de l
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 277f5b326a2c8c4427ae4cea740630d4d1e6f0c7
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 83d7e43e75b71eefdb4a95f26c14c27956e763f9
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548648"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013040"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 Para obtener más información, consulte [set-CsTeamsMeetingBroadcastConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps).
 
 > [!NOTE]
-> Si planea crear eventos en directo que usen codificadores externos, también tendrá que [configurar el proveedor de eCDN con Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
+> Si planea crear eventos en directo con una aplicación o dispositivo externo, también tendrá que [configurar el proveedor de eCDN con Microsoft Stream](https://docs.microsoft.com/stream/network-caching). 
 
 ### <a name="related-topics"></a>Temas relacionados
 - [¿Qué son los eventos en directo en Teams?](what-are-teams-live-events.md)

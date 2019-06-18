@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que hay que tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0093bafdf59c1d18c578f8e8edfaed3ab4c26381
-ms.sourcegitcommit: 8305fd00f6f9e302653fb383e4ac8d38490644c1
+ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
+ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34428756"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "35013032"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -29,16 +29,17 @@ Cuando planea eventos en vivo de Teams para mantener reuniones grandes de su org
 Los siguientes requisitos previos son necesarios para que el usuario programe un evento de Teams Live.
 
 Estas son las licencias que deben asignarse:  
-- Una licencia de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 a3 o a5. 
-- Una licencia de Microsoft Teams y Microsoft Stream.
+- Una licencia de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 a3 o A5
+- Una licencia de Microsoft Teams
+- Licencia de Microsoft Stream
 
 > [!IMPORTANT]
 > El usuario que crea y programa un evento en vivo debe tener un buzón de correo de Exchange Online.
 
-Es importante saber que se necesita una licencia de Office 365 para participar en un evento en vivo como usuario autenticado, pero esto depende del método de producción utilizado:
+Es importante saber que se necesita una licencia de Office 365 para participar en un evento en vivo como usuario autenticado, pero este requisito depende del método de producción usado:
 
-- **Para la producción de inicio rápido**  El usuario debe tener asignada una licencia de Microsoft Teams.
-- **Para la producción de codificador externo** El usuario debe tener asignada una licencia de Microsoft Stream.
+- **Para eventos producidos en Teams**  El usuario debe tener asignada una licencia de Teams.
+- **Para los eventos generados con una aplicación o dispositivo externo** El usuario debe tener asignada una licencia de transmisión por secuencias.
 
 Para obtener más información sobre las licencias, vea [licencias complementarias de Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
@@ -47,14 +48,14 @@ El usuario debe tener:
 - El uso compartido de vídeos está habilitado en las reuniones de Teams (*el TeamsMeetingPolicy-AllowIPVideo Parameter = true*).
 - Pantalla compartida habilitada en reuniones de Teams (*el TeamsMeetingPolicy-ScreenSharingMode Parameter = EntireScreen*).
 - Programación de eventos en directo en Teams habilitado (*el TeamsMeetingBroadcastPolicy-AllowBroadcastScheduling Parameter = true*).
-- Permisos para crear eventos en directo de Microsoft Stream (para la producción de codificador externo).
+- Permisos para crear eventos en directo en la secuencia (para producción de dispositivos o aplicaciones externas).
 
 > [!IMPORTANT]
 > Los invitados de Office 365, los federados y los usuarios anónimos no pueden ser invitados como productores o moderadores en eventos de Teams Live. Los usuarios federados y invitados de Office 365 solo pueden ver los eventos en directo de forma anónima. 
  
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver eventos en directo?
 
-|**Visibilidad de los asistentes**       |**Inicio rápido**  |**Codificador externo**  |
+|**Visibilidad de los asistentes**       |**Producción de equipos**  |**Producción de dispositivos o aplicaciones externas**  |
 |------------------------------|-----------------|----------------------|
 |Público (usuarios anónimos)      |  Sí            |  No                  |
 |Usuarios invitados                   |  No<sup>1</sup> |  No                  |
@@ -68,7 +69,7 @@ El usuario debe tener:
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos de Teams Live y difusión de reunión de Skype
 En la siguiente tabla se resaltan las funciones principales y las características que se ofrecen en eventos en directo y cómo se diferencian de la difusión de reunión de Skype. 
 
-|**Capacidades**   |**Difusión de reunión de Skype** |**Eventos producidos en Microsoft Teams** |**Eventos producidos en una aplicación o dispositivo externo** |
+|**Capacidades**   |**Difusión de reunión de Skype** |**Eventos producidos en Teams** |**Eventos producidos en una aplicación o dispositivo externo** |
 |---------|---------|---------|---------|
 |Tamaño máximo de audiencia |10.000 asistentes |10.000 asistentes * |10.000 asistentes * |
 |Duración máxima del evento en directo |4 horas |4 horas |4 horas |
@@ -87,7 +88,7 @@ En la siguiente tabla se resaltan las funciones principales y las característic
 |Presentar una pantalla |X |&#x2714; (Teams) |N/D |
 |Presentar un PowerPoint (uso compartido de PPT) |&#x2714; |X (mitigado a través de pantalla compartida) |N/D |
 |Grabación de reuniones basada en la nube |&#x2714; |&#x2714; |&#x2714; |
-|Publicar automáticamente la grabación en Microsoft Stream |X |X |&#x2714; |
+|Publicar automáticamente la grabación en la transmisión por secuencias |X |X |&#x2714; |
 |Traducción y subtítulos en tiempo real |&#x2714; |&#x2714; (próximamente) |X |
 |Subtítulos en grabaciones de eventos en directo |&#x2714; |&#x2714; (próximamente) |&#x2714; |
 |Los controles de asistentes DVR (pausar, rebobinar) |&#x2714; |&#x2714; |&#x2714; |
@@ -111,7 +112,7 @@ Puede usar eventos de Teams Live en varias regiones de todo el mundo. La siguien
 - Ir a Canadá local
 
 **Exclusiones y consideraciones**
-- **Ir a locales:** Actualmente no se admiten las variables locales de Reino Unido, India, Australia, Japón y otras personas de Microsoft Teams go.
+- **Ir a locales:** En la actualidad, no se admiten los Estados Unidos de Reino Unido, India, Australia, Japón y otros equipos.
 - **China:** Los miembros del equipo del evento y los asistentes no podrán usar los eventos en directo de Teams porque no se puede obtener acceso a la CDN de Azure en China. Una solución es usar una conexión VPN corporativa, que obtiene el cliente conectado a CDN a través de la red corporativa del cliente.
 
 ## <a name="next-steps"></a>Pasos siguientes
