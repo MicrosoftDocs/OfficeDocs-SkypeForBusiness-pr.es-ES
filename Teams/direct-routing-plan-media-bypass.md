@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: c9a4a1c035afda7941f82018cc074293f338832d
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493919"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062358"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -47,7 +47,7 @@ Pero supongamos que un usuario está en el mismo edificio o en la misma red que 
 
 ![Muestra el flujo de señales y medios con omisión de medios](media/direct-routing-media-bypass-2.png)
 
-La omisión de multimedia aprovecha los protocolos denominados establecimiento de conectividad interactiva (ICE) en el cliente de Teams y la luz de hielo en la SBC. Estos protocolos permiten el enrutamiento directo para usar la ruta de medios más directa para una calidad óptima. ICE y ICE Lite son estándares de WebRTC. Para obtener información detallada sobre estos protocolos, consulte RFC 5245.
+La omisión de multimedia aprovecha los protocolos denominados establecimiento de conectividad interactiva (ICE) en el cliente de Teams y ICE Lite en la SBC. Estos protocolos permiten el enrutamiento directo para usar la ruta de medios más directa para una calidad óptima. ICE y ICE Lite son estándares de WebRTC. Para obtener información detallada sobre estos protocolos, consulte RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Planificación de flujo de llamadas y firewall

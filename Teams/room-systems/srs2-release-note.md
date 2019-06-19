@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: 8461c3c7f1a3b132e3cabad81eeb211c28e8ef3e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39101550be48703c3feaa367e3740f9f3c7dba9f
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288463"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062414"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -54,14 +54,14 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
 
-### <a name="40850-0482018"></a>4.0.85.0 (04/8/2018)
+### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
 Introdujo en esta actualización:
 
 - Corrige un problema con la característica "enviar comentarios" 
 - Optimizaciones para la preparación de la próxima actualización del dispositivo MTR a Windows 10, versión 1809
 
-### <a name="40780-03142018"></a>4.0.78.0 (03/14/2018)
+### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
 Introdujo en esta actualización:
 

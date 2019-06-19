@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: 5392359307d97e010f86d3bb71f2f7c3f3d1ffb6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290472"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062398"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -80,7 +80,7 @@ Cuando una llamada llega a la interfaz de enrutamiento directo de Office 365, la
 
 En el diagrama siguiente se resumen los requisitos para el dominio, los subdominios y el encabezado de contacto básicos.
 
-![Requisitos para basar el dominio, los subdominios y el encabezado del contacto](media/direct-routing-1-sbc-requirements.png)
+![Diagrama que muestra los requisitos para los dominios y el encabezado del contacto](media/direct-routing-1-sbc-requirements.png)
 
 La SBC necesita un certificado para autenticar las conexiones. Para el escenario de hospedaje de SBC, el proveedor debe solicitar un certificado con San * \*. base_domain (por ejemplo \*, customers.adatum.BIZ)*. Este certificado se puede usar para autenticar conexiones a varios inquilinos servidos desde un único SBC.
 
@@ -114,17 +114,17 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 1.  En el centro de administración de Microsoft 365, vaya a**dominios** > de **configuración** > **Agregar dominio**.
 2.  En el cuadro **Escriba un dominio** , escriba el FQDN del dominio base. En el ejemplo siguiente, el dominio base es *customers.adatum.BIZ*.
 
-    ![Agregar un dominio base](media/direct-routing-2-sbc-add-domain.png)
+    ! [Captura de pantalla que muestra la página Agregar un dominio]] (media/Direct-Routing-2-SBC-Add-domain. png)
 
 3. Haga clic en **Siguiente**.
 4. En el ejemplo, el inquilino ya tiene adatum.biz como un nombre de dominio verificado. El asistente no pedirá una verificación adicional porque customers.adatum.biz es un subdominio para el nombre que ya está registrado. Sin embargo, si agrega un FQDN que no se ha verificado antes, tendrá que pasar por el proceso de verificación. El proceso de verificación se [describe a continuación](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Confirmación de un nombre de dominio verificado](media/direct-routing-3-sbc-verify-domain.png)
+    ![Captura de pantalla que muestra la confirmación de un nombre de dominio verificado](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  Haga clic en **siguiente**y, en la página **Actualizar configuración DNS** , seleccione **agregaré los registros DNS** y haga clic en **siguiente**.
 6.  En la página siguiente, borre todos los valores (a menos que desee usar el nombre de dominio para Exchange, SharePoint o Teams/Skype empresarial), haga clic en **siguiente**y, a continuación, haga clic en **Finalizar**. Asegúrese de que el nuevo dominio se encuentra en el estado de instalación completada.
 
-    ![Dominios que muestran el estado de configuración completado](media/direct-routing-14-sbc-setup-complete.png)
+    ![Captura de pantalla que muestra los dominios con el estado de configuración completado](media/direct-routing-14-sbc-setup-complete.png)
 
 ### <a name="activate-the-domain-name"></a>Activar el nombre de dominio
 
@@ -134,7 +134,7 @@ Después de haber registrado un nombre de dominio, debe activarlo agregando al m
 
 Por ejemplo: test@customers.adatum.biz
 
-![Página de activación del dominio base](media/direct-routing-4-sbc-domain-activation.png)
+![Captura de pantalla de la página de activación del dominio básico](media/direct-routing-4-sbc-domain-activation.png)
 
 ## <a name="register-a-subdomain-name-in-a-customer-tenant"></a>Registrar un nombre de subdominio en un espacio empresarial de cliente
 
@@ -154,39 +154,39 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 1. En el centro de administración de Microsoft 365, vaya a**dominios** > de **configuración** > **Agregar dominio**.
 2. En el cuadro **Escriba un dominio** , escriba el FQDN del subdominio para este inquilino. En el ejemplo siguiente, el subdominio es sbc1.customers.adatum.biz.
 
-    ![Agregar un subdominio de cliente](media/direct-routing-5-sbc-add-customer-domain.png)
+    ![Captura de pantalla de la página Agregar un dominio](media/direct-routing-5-sbc-add-customer-domain.png)
 
 3. Haga clic en **Siguiente**.
 4. El FQDN nunca se ha registrado en el inquilino. En el siguiente paso, tendrá que comprobar el dominio. **En su lugar, seleccione Agregar un registro TXT**. 
 
-    ![Opciones de la página comprobar dominio](media/direct-routing-6-sbc-verify-customer-domain.png)
+    ![Captura de pantalla de la página comprobar dominio](media/direct-routing-6-sbc-verify-customer-domain.png)
 
 5. Haga clic en **siguiente**y anote el valor txt generado para comprobar el nombre de dominio.
 
-    ![Registros de texto en la página comprobar dominio](media/direct-routing-7-sbc-verify-domain-txt.png)
+    ![Captura de pantalla de registros de texto en la página comprobar dominio](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Cree el registro TXT con el valor del paso anterior en el proveedor de hospedaje DNS del operador.
 
-    ![Creación del registro TXT en el proveedor de hospedaje DNS del operador](media/direct-routing-8-sbc-txt-record.png)
+    ![Captura de pantalla que muestra la creación del registro TXT](media/direct-routing-8-sbc-txt-record.png)
 
     Para obtener más información, consulte [crear registros DNS en cualquier proveedor de hospedaje DNS para Office 365](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
 7. Vuelva al centro de administración de Microsoft 365 del cliente y haga clic en **comprobar**. 
 8. En la página siguiente, seleccione **voy a agregar los registros DNS** y haga clic en **siguiente**.
 
-    ![Opciones de la página Actualizar configuración DNS](media/direct-routing-9-sbc-update-dns.png)
+    ![Captura de pantalla de las opciones de la página actualizar la configuración DNS](media/direct-routing-9-sbc-update-dns.png)
 
 9. En la página **elegir los servicios en línea** , desactive todas las opciones y haga clic en **siguiente**.
 
-    ![La página elegir los servicios en línea](media/direct-routing-10-sbc-choose-services.png)
+    ![Captura de pantalla de la página elegir los servicios en línea](media/direct-routing-10-sbc-choose-services.png)
 
 10. Haga clic en **Finalizar** en la página **actualizar la configuración DNS** .
 
-    ![Página Actualizar configuración DNS](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![Captura de pantalla de la página actualizar la configuración DNS](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. Asegúrese de que el estado es de **configuración completada**. 
     
-    ![Página que muestra el estado de configuración completado](media/direct-routing-12-sbc-setup-complete.png)
+    ![Captura de pantalla de la página que muestra el estado de configuración completado](media/direct-routing-12-sbc-setup-complete.png)
 
 ### <a name="activate-the-subdomain-name"></a>Activar el nombre del subdominio
 
@@ -196,33 +196,39 @@ Después de registrar un nombre de dominio, debe activarlo agregando al menos un
 
 Por ejemplo: test@sbc1.customers.adatum.biz
 
-![Activación de la página subdominio](media/direct-routing-13-sbc-activate-subdomain.png)
+![Captura de pantalla de la activación de la página subdominio](media/direct-routing-13-sbc-activate-subdomain.png)
 
 ### <a name="create-a-trunk-and-provision-users"></a>Crear un tronco y los usuarios de provisioning
 
-> [!NOTE]
-> En función de los comentarios que recibimos en el programa de adopción técnica, Microsoft podría cambiar el proceso de creación de troncos en los inquilinos de clientes para simplificar el proceso. Vea las actualizaciones de documentación en esta página y siga los blogs de la comunidad técnica de Microsoft para obtener más información. 
+Con la versión inicial del enrutamiento directo, Microsoft necesitaba un tronco que se agregara a cada inquilino servido (inquilino del cliente) con New-CSOnlinePSTNGateway.
 
-Cree un tronco en el dominio del cliente con el comando New-CSonlinePSTNGateway. El FQDN del tronco **debe** coincidir con el subdominio creado para el cliente.
+Sin embargo, esto no ha sido óptimo por dos razones:
+ 
+• **Administración de overhead**. Al descargar o agotar un SBC, por ejemplo, cambian algunos parámetros, como habilitar o deshabilitar la omisión de medios. Cambiar el puerto requiere cambiar parámetros en varios inquilinos (ejecutando Set-CSonlinePSTNGateway), pero en realidad es el mismo SBC. • **Procesamiento de overhead**. Recopilar y supervisar los datos de estado de troncal: las opciones de SIP recopiladas de varios troncos lógicos, que son en realidad, el mismo SBC y el mismo tronco físico, ralentiza el procesamiento de los datos de enrutamiento.
+ 
 
-Por ejemplo:
+Basándose en estos comentarios, Microsoft trae una nueva lógica para aprovisionar los troncos de los inquilinos de cliente.
 
-```
-New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
-```
+Se introdujeron dos nuevas entidades: • un tronco de portador registrado en el inquilino del operador con el comando New-CSOnlinePSTNGateway, por ejemplo New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
+• Un tronco derivado, que no requiere registro. Simplemente es un nombre de host deseado añadido desde el tronco del portador. Deriva todos sus parámetros de configuración del tronco del transportista. El tronco derivado no necesita crearse en PowerShell y la asociación con el tronco del portador se basa en el nombre de FQDN (vea los detalles a continuación).
 
-Al crear el tronco, es posible que reciba el siguiente mensaje de error:
+Lógica de aprovisionamiento y ejemplo.
 
-```
-Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
-```
+• Los carriers solo necesitan configurar y administrar un único tronco (troncal de portador en el dominio de la portadora) con el comando set-CSOnlinePSTNGateway. En el ejemplo anterior, es adatum.biz; • En el inquilino del cliente, el operador solo necesita agregar el FQDN del tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar New-CSOnlinePSTNGateway para un tronco.
+• El tronco derivado, como sugiere el nombre, hereda o deriva todos los parámetros de configuración del tronco del portador. Ejemplos: • Customers.adatum.biz: el tronco del portador que debe crearse en el inquilino del transportista.
+• Sbc1.customers.adatum.biz: el tronco derivado de un inquilino de cliente que no tiene que crearse en PowerShell.  Simplemente puede Agregar el nombre del tronco derivado en el inquilino del cliente en la Directiva de enrutamiento de voz en línea sin crearlo.
 
-Deje que se replique un tiempo para el registro de dominios y la activación e inténtelo de nuevo.
+• Los cambios realizados en un tronco de portador (en el inquilino de transportista) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco del portador, y este cambio se aplicará a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración, ya que no es necesario ir a cada inquilino y cambiar el parámetro en cada tronco.
+• Las opciones se envían solo al proveedor de "FQDN" del portador. El estado de mantenimiento del tronco del portador se aplica a todos los troncos derivados y se usa para las decisiones de enrutamiento. Más información sobre [las opciones de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+• El portador puede agotar el tronco del portador, y también se purgarán todos los troncos derivados. 
+ 
 
-Aprovisione los números de teléfono a los usuarios y configure el enrutamiento de voz.
+Migración del modelo anterior al tronco del portador
+ 
+Para la migración de la implementación actual del modelo hospedado por el portador al nuevo modelo, los operadores deberán volver a configurar los troncos para inquilinos de cliente. Quite los troncos de los inquilinos del cliente mediante Remove-CSOnluinePSTNGateway (dejando el tronco en el inquilino del transportista).
 
-Para obtener más información sobre el nuevo-CSOnlinePSTNGateway, los usuarios de aprovisionamiento y la configuración del enrutamiento de voz, consulte [configurar el enrutamiento directo](direct-routing-configure.md).
-
+Recomendamos encarecidamente migrar a la nueva solución tan pronto como sea posible, ya que mejoraremos la supervisión y el aprovisionamiento usando el modelo de tronco derivado y el portador.
+ 
 
 Consulte las instrucciones de [proveedor de SBC](#deploy-and-configure-the-sbc) para configurar el envío del nombre de dominio completo de los subdominios en el encabezado de contacto.
 

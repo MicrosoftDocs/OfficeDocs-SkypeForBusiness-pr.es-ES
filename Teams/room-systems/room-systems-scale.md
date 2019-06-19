@@ -13,12 +13,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: Lea este tema para obtener información sobre la implementación de salas de Microsoft Teams en implementaciones de gran escala.
-ms.openlocfilehash: 34bd984d16da4eeb1934c7fda7bbadb0837240be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9a5bfd888d3d70703245841a8744449854c6ffb8
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305446"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062374"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implementar salas de Microsoft Teams con System Center Configuration Manager
 
@@ -129,6 +129,9 @@ Para obtener más información, consulte [Manage boot images with System Center 
 > Puede crear un medio USB de arranque para iniciar implementaciones basadas en secuencias de tareas de Configuration Manager para entornos que no tienen compatibilidad con PXE. El medio de arranque contiene solo la imagen de arranque, los comandos de preinicio opcionales y los archivos necesarios, y los binarios de Configuration Manager para admitir el inicio en Windows PE y la conexión con Configuration Manager durante el resto del proceso de implementación. Para obtener más información, consulte [Cómo crear medios de arranque](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media#BKMK_CreateBootableMedia).
 
 ## <a name="create-configuration-manager-packages"></a>Crear paquetes de Configuration Manager
+
+> [!IMPORTANT]
+> La versión del sistema operativo necesaria para cada versión del instalador de SRS cambia con cada versión de MSI. Para determinar la mejor versión del sistema operativo para un MSI determinado, ejecute la secuencia de comandos de configuración de consola una vez. Para obtener más información, consulte [implementar salas de Microsoft Teams mediante System Center Configuration Manager](room-systems-scale.md).
 
 Configuration Manager requiere varios paquetes para implementar y configurar las unidades de salas de Microsoft Teams.
 

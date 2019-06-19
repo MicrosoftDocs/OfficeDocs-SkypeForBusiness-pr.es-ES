@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lea este tema para obtener información sobre cómo configurar cuentas para salas de Microsoft Teams en Exchange y Skype empresarial.
-ms.openlocfilehash: 2c826be24ab9051c3dd206e2f4bbc7bdc832e250
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0fe9413c8da7c50479ddceaa524813d4ab68d8c6
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305404"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062326"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar cuentas para salas de Microsoft Teams
  
@@ -52,7 +52,7 @@ Cada cuenta de dispositivo es única para un único dispositivo de salas de Micr
 - La infraestructura debe estar configurada para permitir que las salas de Microsoft Teams validen la cuenta del dispositivo y puedan comunicarse con los servicios de Microsoft apropiados.
     
 > [!IMPORTANT]
-> Es recomendable crear la cuenta mucho antes de instalar el hardware. Idealmente, la preparación de la cuenta debe comenzar de dos a tres semanas antes de la instalación. En entornos híbridos, la cuenta usada para salas de Microsoft Teams debe tener la sincronización de contraseña habilitada en AAD Sync porque la autenticación de salas de Microsoft Teams requiere autenticación de 0ffice 365.
+> Es recomendable crear la cuenta mucho antes de instalar el hardware. Idealmente, la preparación de la cuenta debe comenzar de dos a tres semanas antes de la instalación. En entornos híbridos, la cuenta usada para salas de Microsoft Teams debe tener la sincronización de contraseña habilitada en AAD Sync porque la autenticación de salas de Microsoft Teams requiere la autenticación de Office 365.
   
 Puede pensar en una cuenta de dispositivo como la cuenta de recursos que las personas reconocen como una cuenta de sala de conferencias o de un espacio de reunión. Cuando desee programar una reunión en esa sala de conferencias, invitará a la cuenta a esa reunión. Para usar las salas de Microsoft Teams de manera más eficaz, haga lo mismo con la cuenta del dispositivo asignada a cada una de ellas.
   

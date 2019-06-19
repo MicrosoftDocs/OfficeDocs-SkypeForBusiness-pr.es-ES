@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración de las reuniones de teams que los usuarios programan en su organización.
-ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 10edd2b0b1b665a126fa7528f4b1e24bf88f4fe5
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433154"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062390"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -49,8 +49,10 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Sugerencias para crear un logotipo para invitaciones a reuniones  
 
 1. Crear una imagen que no supere los 188 píxeles de ancho por 30 píxeles de alto (es bastante pequeño).
-2. Guarde la imagen en formato JPG.
+2. Guarde la imagen en formato JPG o PNG.
 3. Almacene la imagen en una ubicación central a la que tengan acceso todos los miembros de su organización, como un recurso compartido de red.
+
+    Ahora puede agregarlo a las invitaciones a reuniones. Consulte los pasos siguientes.
 
 ### <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones a reuniones
 

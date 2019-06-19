@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: En este artículo se describe cómo supervisar y solucionar problemas de la configuración de enrutamiento directo.
-ms.openlocfilehash: eeae12aafba87d9af210138f546ed82b12acbbd7
-ms.sourcegitcommit: 1a768e470a9509139eeb24034def12630acb7914
+ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
+ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34915159"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35062382"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 
@@ -66,6 +66,8 @@ Si el SBC de nuestro ejemplo envió opciones en cualquier período comprendido e
 La degradación significa que la SBC no se intentará en primer lugar. Por ejemplo, tenemos sbc1.contoso.com y sbc2.contoso.com con la misma prioridad.  
 
 Si sbc1.contoso.com no envía las opciones de SIP a un intervalo regular según se describe anteriormente, se degradará. A continuación, sbc2.contoso.com intenta la llamada. Si sbc2. contoso. con no puede entregar la llamada, se intentará de nuevo el sbc1.contoso.com (degradado) antes de que se genere un error. 
+
+Si dos (o más) SBCs en una ruta contratada en buen estado y es igual, se aplicará el orden de distrubute de Fisher a yates en las llamadas entre los SBCs.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Supervisar los registros del panel de análisis de calidad de llamadas y de SBC 
  
