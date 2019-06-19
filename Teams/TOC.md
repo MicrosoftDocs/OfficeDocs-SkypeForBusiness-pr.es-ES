@@ -90,8 +90,7 @@
 ## [Planear la implementación](deploy-meetings-microsoft-teams-landing-page.md)
 ## [Tutorial: Reuniones en Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Administrar directivas de reunión](meeting-policies-in-teams.md)
-## [Administrar la configuración de reuniones](meeting-settings-in-teams.md)
-## [Personalizar invitaciones a reuniones](customize-meeting-invitations.md)
+## [Administrar la configuración de reuniones](meeting-settings-in-teams.md
 ## [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que los usuarios registren su nombre cuando se unan a una reunión](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Activar o desactivar los anuncios de entrada y salida para las reuniones](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
