@@ -639,10 +639,11 @@
 ### [Mover los equipos de Microsoft StaffHub a Turnos en Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Administrar la aplicación Turnos para su organización en Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
-## [Teams para sanidad](expand-teams-across-your-org/teams-for-healthcare-landing-page.md)
+## Teams para sanidad
 ### [Introducción a Teams para organizaciones sanitarias](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Introducción a la mensajería segura para las organizaciones sanitarias](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [Establecer un delegado en un mensaje de estado](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Integración de registros sanitarios electrónicos en Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [Especificación de la interfaz DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [Especificación de la interfaz STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
