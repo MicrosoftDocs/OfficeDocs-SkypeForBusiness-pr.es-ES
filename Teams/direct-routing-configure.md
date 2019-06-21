@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 1c93d8b028da3fb1aaf68241a974170d0045b950
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667501"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35116020"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -114,6 +114,7 @@ En la tabla siguiente se enumeran los parámetros adicionales que se pueden usar
 |No|ForwardPAI|Indica si el encabezado P-Asserted-Identity (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. Si Habilitaste, también se enviará el encabezado privacidad: ID. El valor predeterminado es **false** ($false).|False|True<br/>False|Boolean|
 |No|SendSIPOptions |Define si un SBC o no enviará las opciones de SIP. Si se deshabilita, la SBC se excluirá del sistema de supervisión y alertas. Le recomendamos encarecidamente que habilite las opciones de SIP. El valor predeterminado es **true**. |True|True<br/>False|Boolean|
 |No|MaxConcurrentSessions |Utilizado por el sistema de alertas. Cuando se establece un valor, el sistema de alertas generará una alerta para el administrador de inquilinos cuando el número de sesión simultánea sea 90% o superior a este valor. Si el parámetro no se establece, no se generan alertas. Sin embargo, el sistema de supervisión informará de la cantidad de sesiones simultáneas cada 24 horas. |Valor|Valor<br/>de 1 a 100.000 ||
+|No|MediaRelayRoutingLocationOverride |Permite seleccionar la ruta de acceso para los medios de forma manual. El enrutamiento directo asigna un centro de recursos para la ruta de medios según la IP pública de SBC. Siempre seleccionamos el centro de recursos de SBC más cercano. Sin embargo, en algunos casos, una IP pública de, por ejemplo, un rango de Estados Unidos se puede asignar a un SBC ubicado en Europa. En este caso, usaremos una ruta de medios no óptima. Este parámetro permite establecer manualmente la región preferida para el tráfico de medios. Solo se recomienda establecer este parámetro si los registros de la llamada indican claramente que la asignación automática del centro de recursos para la ruta multimedia no asigna el más cercano al centro de recursos de SBC. |Ninguna|Códigos de países en formato ISO||
 |No|Habilitado|Permite habilitar esta SBC para llamadas salientes. Puede usarse para quitar temporalmente el SBC, mientras se actualiza o durante el mantenimiento. |False|True<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>Comprobar el emparejamiento de SBC 

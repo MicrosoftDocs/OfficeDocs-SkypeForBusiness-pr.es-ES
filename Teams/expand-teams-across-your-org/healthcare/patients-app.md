@@ -13,16 +13,16 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: anach
 description: Integración de la EHR de la aplicación pacientes de Microsoft Teams
-ms.openlocfilehash: d2177e4201a1c7d7087a4c04ffffbbf52dd7366c
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b76dd4d721d934b4597c5faf1a8f2fc739d5281d
+ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548313"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35115996"
 ---
 # <a name="integrating-electronic-healthcare-records-into-microsoft-teams"></a>Integración de registros sanitarios electrónicos en Microsoft Teams
 
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 Para participar en la versión preliminar privada, consulte [inscribirse en la versión preliminar privada](#enroll-in-the-private-preview).
 
@@ -71,7 +71,16 @@ La autenticación de servicio a servicio debe realizarse a través del flujo de 
 4. El punto final de metadatos que hospeda la instrucción de conformidad debe ser no autenticado, debe ser accesible sin un token de autenticación.
 5. El servicio asociado proporciona el punto final del token de la aplicación de pacientes para solicitar un token de acceso con un flujo de credenciales de cliente. La dirección URL del token como por servidor de autorización debe formar parte de la instrucción de conformidad (Capability) FHIR capturada de los metadatos en el servidor de FHIR como en este ejemplo:
 
-![Captura de pantalla de la dirección URL de token en un ejemplo de código](../../media/Patient-app-5.png)
+* * *
+    {"resourceType": "CapabilityStatement",.
+        .
+        .
+        "Rest": [{"MODE": "Server", "Security": {"Extension": [{"extensión": [{"URL": "token", "valueUri": "https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/token"}, {"URL": "Authorize", "valueUri"https://login.contoso.com/145f4184-1b0b-41c7-ba24-b3c1291bfda1/oauth2/authorize: ""} "," URL ":"http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"}]," servicio ": [{" Coding ": [{" System ":"http://hl7.org/fhir/ValueSet/restful-security-service"," Code ":" OAuth " } ] } ] }, .
+                .
+                .
+            } ] }
+
+* * *
 
 Una solicitud para un token de acceso consta de los siguientes parámetros:
 
@@ -153,6 +162,6 @@ Una vez que haya creado el servidor de FHIR de código fuente abierto, es realme
 
     ![Captura de pantalla de la configuración del servidor de aplicaciones de pacientes](../../media/patients-server.png)
 
-5. Empiece a usar la aplicación para buscar pacientes desde el servidor FHIR/EHR y agréguelos a una lista y envíenos [comentarios](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) si algo no funciona. Además, para establecer una versión completamente autenticada de la aplicación de pacientes, > FHIR flujo de servidor, participe en el diálogo sin conexión con Microsoft Teams para la ingeniería de productos de la salud, a través de la solicitud de correo electrónico mencionada anteriormente para clarificar los requisitos y le pondremos Ayude a habilitar esta opción en función de los requisitos de autenticación descritos anteriormente en el documento de interfaz FHIR.  
+5. Empiece a usar la aplicación para buscar pacientes desde el servidor FHIR/EHR y agréguelos a una lista y envíenos [comentarios](mailto:Teamsforhealthcare@service.microsoft.com?subject=Microsoft%20Teams%20Patients%20App%20feedback) si algo no funciona. Además, para establecer una versión completamente autenticada de la aplicación de pacientes, > flujo de servidor de FHIR, participe en el diálogo sin conexión con Microsoft Teams para la ingeniería de productos de la salud, a través de la solicitud de correo electrónico mencionada anteriormente para clarificar los requisitos y le pondremos Ayude a habilitar esta opción en función de los requisitos de autenticación descritos anteriormente en el documento de interfaz FHIR.  
 
 
