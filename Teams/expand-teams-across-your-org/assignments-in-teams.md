@@ -15,16 +15,14 @@ description: Aprenda a administrar tareas en el centro de administración de Mic
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22c53433548715fdc2a84a0f45ce0c3fc02d7b98
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591723"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131523"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
-
-[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Las asignaciones son tareas o unidades de trabajo asignadas a un estudiante o miembro del equipo en una clase como parte de su estudio. Puede crear tareas dentro de la clase Teams.
 
@@ -36,6 +34,8 @@ Con la configuración de administrador del centro de administración de Microsof
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>Resumen de correo electrónico de tutor semanal
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
+
 Los mensajes de correo electrónico de tutor son mensajes semanales enviados a padres o tutores. Los mensajes de correo electrónico contendrán información sobre tareas de la semana anterior y de la semana que viene, y se enviarán durante el fin de semana. Los administradores deben actualizar los mensajes de correo electrónico con la característica School Data Sync.
 
 Esta opción está desactivada de forma predeterminada.
@@ -48,10 +48,11 @@ Este es un producto o servicio de terceros sujeto a sus propios términos y pol�
 
 Esta opción está desactivada de forma predeterminada.
 
-[Más información sobre MakeCode](https://www.microsoft.com/${locale}/makecode)
+[Más información sobre MakeCode](https://www.microsoft.com/makecode)
 
 <a name="#turnitin"> </a>
 ### <a name="turnitin"></a>Turnitin
+[!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
 Turnitin es un servicio de detección de plagiarism. Este es un producto o servicio de terceros sujeto a sus propios términos y política de privacidad. Usted es responsable de su uso de productos y servicios de terceros.
 

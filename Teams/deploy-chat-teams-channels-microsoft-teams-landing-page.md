@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a86aa13c826b9b741aed936e134c6df90c8ed66
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: d28eaee5b413444c9123f2334f38d599b6f753a5
+ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667493"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35133910"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
@@ -77,7 +77,7 @@ El acceso externo (anteriormente conocido como federación) permite que los usua
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
-|<ul><li>¿Voy a activar el acceso externo para mi organización?</li><li>Si lo habilito, ¿voy a limitar los dominios con los que mi organización puede comunicarse?</li></ul> |<br>Para habilitar el acceso externo, consulte [Permitir que los usuarios de Teams chateen y se comuniquen con usuarios de otra organización de Teams](let-your-teams-users-communicate-with-other-people.md).|
+|<ul><li>¿Voy a activar el acceso externo para mi organización?</li><li>Si lo habilito, ¿voy a limitar los dominios con los que mi organización puede comunicarse?</li></ul> |<br>Para habilitar el acceso externo, consulte [Permitir que los usuarios de Teams chateen y se comuniquen con usuarios de otra organización de Teams](manage-external-access.md#let-your-teams-users-chat-and-communicate-with-users-in-another-organization).|
 |||
 
 ### <a name="guest-access"></a>Acceso de invitado

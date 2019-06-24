@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Más información sobre cómo configurar teléfonos de área común para salas, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: ea29fac8792c8c52112c34126f463cc3bde9873c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298761"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131515"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
 > [!NOTE]
@@ -55,6 +55,26 @@ Lo primero que debe hacer es comprar una licencia de teléfono de área común (
 
 Para obtener más información sobre las licencias, vea [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
+La licencia de telefonía por área común admite: 
+
+
+|   |  Teléfono de área común  |
+|---------|---------|
+|Skype Empresarial |   &#x2714; |
+|Microsoft Teams |   &#x2714; |
+|Sistemas telefónicos |    &#x2714; |
+|Audioconferencia |       &#x2718; &Sup1;  |
+|Microsoft Intune |        &#x2718; &sup2; |
+|Disponibilidad en todo el mundo |    &#x2714; |
+|Disponibilidad del canal |    EA, EAS, CSP, GCC, EES, Web Direct  |
+|      |         |
+
+&Sup1; Los teléfonos de área común pueden unirse a conferencias de audio a través del número de acceso telefónico proporcionado por el organizador de la reunión
+
+&sup2; No disponible en nubes soberanos  
+
+
+
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Paso 2: crear una nueva cuenta de usuario para el teléfono y asignar las licencias
 
 1. En el centro de administración de Microsoft 365, **** > vaya a usuarios**activos** > ,**Agregar un usuario**.
@@ -77,7 +97,7 @@ Para obtener más información, vea [Agregar un usuario](https://docs.microsoft.
 
 Use el centro de administración de Skype empresarial para asignar un número al usuario.
 
-1. En el centro de administración de Microsoft 365, seleccione **centros** > de administración de**Teams & de Skype** > **Legacy**.
+1. En el centro de administración de Microsoft 365, seleccione **centros** > de administración**equipos &** > **portal heredado**de Skype.
 
 2. En el centro de administración de Skype empresarial, seleccione**números de teléfono**de **voz** > .
 

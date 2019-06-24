@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumen: Prepare los servidores de Skype empresarial Server 2019 y la infraestructura de dominio con este tema. El hardware, el sistema operativo, las bases de datos, el software, todos los requisitos y las recomendaciones del sistema, junto con el DNS de certificados, el uso compartido de archivos y la información de Active Directory, están aquí para ayudar a garantizar una instalación y una implementación correctas de su granja de servidores.'
-ms.openlocfilehash: 94b95f97021a4633a6dbcbf300426731cefc85fe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c68d9f916d7c18c34d941ed880b81698793b4fe
+ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283923"
+ms.lasthandoff: 06/22/2019
+ms.locfileid: "35134286"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos del sistema para Skype empresarial Server 2019
  
@@ -194,8 +194,8 @@ Skype empresarial Server 2019 Enterprise Edition necesitará SQL Server completo
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2016 (edición de 64 bits) y debe ejecutar las actualizaciones más recientes.  <br/> |
-Microsoft SQL Server 2017 (edición de 64 bits) y debe ejecutar las actualizaciones más recientes.|
+|Microsoft SQL Server 2019 (edición de 64 bits) y debe ejecutar las actualizaciones más recientes.  <br/> |Microsoft SQL Server 2017 (edición de 64 bits) y debe ejecutar las actualizaciones más recientes.  <br/> |
+Microsoft SQL Server 2016 (edición de 64 bits) y debe ejecutar las actualizaciones más recientes.|
  |
 
 Si no ve la edición de SQL Server que quiere usar en la lista, no puede usarla.
@@ -213,13 +213,15 @@ Puede usar lo siguiente para el clúster de conmutación por error:
   
 Dos nodos:
   
-- Microsoft SQL Server 2016 Standard (edición de 64 bits) y le recomendamos que ejecute el Service Pack más reciente.
+- Microsoft SQL Server 2019 Standard (edición de 64 bits) y le recomendamos que ejecute el Service Pack más reciente.
 - Microsoft SQL Server 2017 Standard (edición de 64 bits) y le recomendamos que ejecute el Service Pack más reciente.
+- Microsoft SQL Server 2016 Standard (edición de 64 bits) y le recomendamos que ejecute el Service Pack más reciente.
 
 Dieciséis nodos:
   
-- Microsoft SQL Server 2016 Enterprise (64-bit Edition) y le recomendamos que ejecute el Service Pack más reciente.
+- Microsoft SQL Server 2019 Enterprise (64-bit Edition) y le recomendamos que ejecute el Service Pack más reciente.
 - Microsoft SQL Server 2017 Enterprise (64-bit Edition) y le recomendamos que ejecute el Service Pack más reciente.
+- Microsoft SQL Server 2016 Enterprise (64-bit Edition) y le recomendamos que ejecute el Service Pack más reciente.
 
 SQL Always on es compatible y puede obtener más información sobre él en la [alta disponibilidad del servidor back-end en Skype empresarial server 2019](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
   

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76efaefecf17b37b7c0a802f738cde493fa2c194
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35115957"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131435"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -30,7 +30,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|    
 |:-----|:-----|:-----|:-----|
-|Departamento de cuentas de recursos mal configuradas  <br/> |Las cuentas de recursos asociadas con una cola de llamada u operador automático creadas antes de enero de 2019 puede que no tengan el parámetro del departamento configurado correctamente, lo que podría provocar una asignación errónea de números de teléfono. Se está realizando una corrección para resolver este problema. <br/> |Para mitigar este problema, puede ejecutar el siguiente Cmdlet para configurar el parámetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> : Department "Microsoft Communication Application Instance" <br/> |8/5/19 <br/> |
+|Departamento de cuentas de recursos mal configuradas  <br/> |Las cuentas de recursos asociadas con una cola de llamada u operador automático creadas antes de enero de 2019 puede que no tengan el parámetro del departamento configurado correctamente, lo que podría provocar una asignación errónea de números de teléfono. Se está realizando una corrección para resolver este problema. <br/><br/> Las cuentas de recursos configuradas mediante el uso de New-CsHybridApplicationEndpoint con Skype Empresarial Server no tendrán el parámetro Department configurado correctamente, lo que provocará errores en la creación de cuentas de recursos en Skype Empresarial en línea. En este caso, debe configurar el nombre del departamento en Active Directory antes de la sincronización en línea.|Para mitigar este problema, puede ejecutar el siguiente Cmdlet para configurar el parámetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> : Department "Microsoft Communication Application Instance" <br/> |8/5/19 <br/> |
 
 
 
@@ -272,7 +272,11 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |:-----|:-----|:-----|:-----|
 |Error de descarga de archivos <br/> |Intentar descargar un archivo cuando la ruta del archivo contiene un apóstrofo desencadenará un error "El archivo no se ha descargado" al usar al cliente de escritorio de Microsoft Teams. <br/> |Descargue el archivo desde el cliente web o en SharePoint Online <br/> |10/5/2019  <br/> |
 
-## <a name="teams"></a>Microsoft Teams
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|No se puede cargar o descargar el archivo de OneNote <br/> |Si intenta cargar o descargar un archivo o bloc de notas de OneNote con Microsoft Teams, se producirá un error. <br/> |Descargar o cargar el archivo directamente en SharePoint Online <br/> |7/5/2019  <br/> |
+
+## <a name="teams"></a>Teams
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|

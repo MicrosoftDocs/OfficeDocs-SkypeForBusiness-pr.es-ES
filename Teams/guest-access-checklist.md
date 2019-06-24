@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 833d79d16365a1b90e8cd35e88e43468f0e25fa8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4ad6c0abba3b0ea85bdac7e2875369c4cd1d5150
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280928"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131420"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitados de Teams
 ==========================================
@@ -49,7 +49,7 @@ Para obtener más información, consulte [cuál es la experiencia de invitado](g
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Si los invitados experimentan errores de licencia
 
-El acceso de invitados en Microsoft Teams usa Azure Active Directory Business to Business (B2B) y su modelo de licencias. Si ve errores de licencias, asegúrese de leer las instrucciones de licencias B2B para conocer los requisitos de licencia de la organización para que los usuarios puedan invitar a invitados a su organización.
+El acceso de invitados en Microsoft Teams usa Azure Active Directory Business to Business (B2B) y su modelo de licencias. Si ve errores de licencias, asegúrese de leer las instrucciones de licencias [B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) para conocer los requisitos de licencia de la organización para que los usuarios puedan invitar a invitados a su organización.
 
 Recuerde lo siguiente:
 
@@ -78,7 +78,7 @@ Para obtener más información, consulte [Autorizar el acceso de invitado en Mic
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Paso 2: configurar grupos de Office 365
 
-1. En el centro de administración de Microsoft 365, vaya a **configuración** > **servicios & complementos** > de**Office 365 grupos**.
+1. En el centro de administración de Microsoft 365, vaya a **configuración** > **servicios & complementos** > **Office 365 grupos**.
 2. Asegúrese de **permitir que los miembros del grupo ajenos a la organización tengan el contenido del grupo** **activado**. Si esta opción está desactivada, los invitados no podrán acceder a ningún contenido de grupo.
 3. Asegúrese de **permitir que los propietarios del grupo agreguen personas fuera de la organización a groups** se establece en **activado**. Si esta opción está desactivada, los propietarios del equipo no podrán agregar invitados nuevos. Como mínimo, esta configuración debe estar activada para que sea compatible con el acceso de invitados.
 

@@ -13,18 +13,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Un usuario puede establecer explícitamente otro usuario como delegado en su mensaje de estado.
-ms.openlocfilehash: be7092d2a68010d00a2d214f12bfe9011d44bbc5
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: 451577ce033f9a67bbc13ebbe2361083ab035e48
+ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35119487"
+ms.lasthandoff: 06/21/2019
+ms.locfileid: "35131507"
 ---
-# <a name="set-a-delegate-in-a-status-message"></a>Establecer un delegado en un mensaje de estado
+# <a name="message-delegation"></a>Delegación de mensajes
 
-Un usuario ya puede definir de forma explícita su estado como ausente o no molestar, y proporcionar texto personalizado. La característica de delegación les permite @username mencionar a otro usuario en un mensaje de estado de texto y sugerir que, aunque no estén disponibles, los usuarios que deseen comunicarse con ellos se pongan en contacto con el @username Usuario mencionado. Alguien que intente ponerse en contacto con ellos puede mantener el mouse sobre el delegado nominado y enviarle un mensaje fácilmente.  La persona a la que se le ha asignado como delegado recibe la notificación de que se ha designado como delegado.
+Un usuario ya puede definir de forma explícita su estado como ausente o no molestar, y proporcionar texto personalizado. La característica de delegación de mensajes funciona de la siguiente manera:
 
-Este es un proceso iniciado por el usuario en el cliente, y no es necesario que intervenga el administrador.
+1. Un usuario @username mencione a otro usuario en un mensaje de estado de texto, lo que sugiere que no se les puede comunicar con ellos en su lugar, póngase en contacto con el @username Usuario mencionado.
+2. La persona a la que se le ha asignado como delegado recibe la notificación de que se ha designado como delegado.
+3. Alguien que está intentando ponerse en contacto con el primer usuario puede desplazar el puntero sobre el delegado nominado y enviarle fácilmente un mensaje al delegado.  
+
+Este es un proceso iniciado por el usuario en el cliente, y no es necesario que intervenga el administrador para habilitar la característica. 
 
 ## <a name="delegation-use-scenario-in-healthcare"></a>Escenario de uso de delegación en el cuidado de la salud
 
@@ -34,7 +38,7 @@ Este es un proceso iniciado por el usuario en el cliente, y no es necesario que 
 
 ## <a name="impact-of-co-existence-modes-on-user-status-in-the-teams-client"></a>Impacto de los modos de coexistencia en el estado del usuario en el cliente de Teams
 
-Los administradores deben ser conscientes de que las menciones de las notas de estado y la delegación dependerán en parte del modo de coexistencia del usuario. Esta matriz muestra las posibilidades:
+Los administradores deben tener en cuenta que los comportamientos de notas de estado y de la delegación dependen en parte del modo de coexistencia del usuario. Esta matriz muestra las posibilidades:
 
 |Modo de coexistencia | Comportamiento esperado|
 |---|---|
@@ -49,15 +53,11 @@ Un usuario solo puede establecer una nota en Teams si su modo es TeamsOnly o isl
   
 No hay ninguna indicación visual de que una nota se haya establecido desde Skype empresarial.
 
-Skype empresarial no impone un límite de caracteres en las notas de estado. Microsoft Teams solo mostrará los primeros 280 caracteres de una nota establecida desde Skype empresarial. Una elipse (...) al final indica truncar.
+Skype empresarial no impone un límite de caracteres en las notas de estado. Microsoft Teams solo mostrará los primeros 280 caracteres de una nota establecida desde Skype empresarial. Una elipse (...) al final de una nota indica que se ha truncado.
   
 Skype empresarial no admite tiempos de caducidad para las notas.
 
 La migración de notas de Skype empresarial a teams no es compatible cuando un usuario se actualiza al modo TeamsOnly.
-
-## <a name="configure-allowing-clients-to-use-delegates"></a>Configurar la posibilidad de que los clientes usen delegados
-
-Esta característica no requiere configuración en el centro de administración de Microsoft Teams ni mediante PowerShell. En los espacios empresariales que lo admiten, está disponible de forma predeterminada en el cliente de Teams.
 
 ## <a name="related-topics"></a>Temas relacionados
 
