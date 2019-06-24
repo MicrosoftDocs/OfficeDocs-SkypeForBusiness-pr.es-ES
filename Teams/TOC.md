@@ -27,7 +27,6 @@
 ## [Administrar directivas de mensajería](messaging-policies-in-teams.md)
 ## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
-## [Comunicarse con usuarios de Teams de otras organizaciones](let-your-teams-users-communicate-with-other-people.md)
 ## [Archivar o eliminar un equipo](archive-or-delete-a-team.md)
 
 
@@ -69,8 +68,8 @@
 ### [Asignar miembros y propietarios de equipo en Teams](assign-roles-permissions.md)
 ### [Editar la configuración de usuario de Teams de forma masiva](edit-user-settings-in-bulk.md)
 ### [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)
-### [Configurar la aplicación Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
-### [Comunicarse con usuarios de Teams de otras organizaciones](let-your-teams-users-communicate-with-other-people.md)
+### [Configurar la aplicación de Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
+### [Administrar el acceso externo](manage-external-access.md)
 ### [Usar la traducción de mensajes en línea](inline-message-translation-teams.md)
 ### [Usar la búsqueda de directorios enfocada de Microsoft Teams](teams-scoped-directory-search.md)
 
@@ -643,7 +642,7 @@
 ### [Introducción a Teams para organizaciones sanitarias](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Introducción a la mensajería segura para las organizaciones sanitarias](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
-### [Establecer un delegado en un mensaje de estado](expand-teams-across-your-org/healthcare/hc-delegates.md)
+### [Delegación de mensajes](expand-teams-across-your-org/healthcare/hc-delegates.md)
 ### [Integración de registros sanitarios electrónicos en Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 #### [Especificación de la interfaz DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 #### [Especificación de la interfaz STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
