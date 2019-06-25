@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 1ff605901a1de253f6dbcfc8a245b2f97abf535b
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548887"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198280"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
@@ -47,16 +47,13 @@ En la mayoría de los casos, la red que conecta su empresa con la nube será una
 
 ## <a name="verify-your-network-is-ready"></a>Comprobar que su red está lista
 
-Si está pensando en una implementación de QoS, ya debe haber determinado cuáles son los requisitos de ancho de banda y otros [requisitos de red](prepare-network.md). Los cálculos de ancho de banda para Microsoft Teams son complejos y para ayudarlo, se ha creado una calculadora. Para obtener acceso a la calculadora, vaya a planificador de [red](https://aka.ms/bwcalc/) en mi Asesor.
+Si está pensando en una implementación de QoS, ya debe haber determinado cuáles son los requisitos de ancho de banda y otros [requisitos de red](prepare-network.md). 
   
   La gestión del tráfico en toda la red afectará enormemente la calidad de los medios. La falta de ancho de banda conlleva la degradación del rendimiento y una mala experiencia del usuario. A medida que aumentan la adopción y el uso de equipos, use los informes, [análisis de llamadas y panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md) para identificar los problemas y, después, realice ajustes con QoS y adiciones selectivas de ancho de banda.
 
 ### <a name="vpn-considerations"></a>Consideraciones sobre VPN
 
 QoS solo funciona como se espera cuando se implementa en todos los vínculos entre las personas que llaman. Si usa QoS en una red interna y un usuario inicia sesión desde una ubicación remota, solo puede priorizar en su red administrada interna. Aunque las ubicaciones remotas pueden recibir una conexión administrada al implementar una red privada virtual (VPN), una VPN agrega de forma inherente sobrecarga de paquetes y crea retrasos en el tráfico en tiempo real. Le recomendamos que evite ejecutar tráfico de comunicaciones en tiempo real a través de una VPN.
-
-> [!NOTE]
-> Los usuarios remotos conectados por VPN deben implementar túneles divididos para maximizar la calidad de la experiencia del usuario. El [túnel de implementación de documentos-guía-túnel dividido de VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9 ) está disponible en mi Asesor y tiene más información.
 
 En una organización internacional con vínculos administrados que abarcan continentes, recomendamos encarecidamente QoS porque el ancho de banda de esos vínculos está limitado en comparación con la LAN.
 

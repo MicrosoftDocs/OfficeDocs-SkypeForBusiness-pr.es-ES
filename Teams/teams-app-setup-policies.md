@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las directivas de configuración de aplicaciones en Microsoft Teams y cómo usarlas para anclar aplicaciones para personalizar equipos para los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: e7d508ef87825d93c2df2a7899f413ec9710f44b
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 21e56f9b2910180295e996f12c899e153551a8a3
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681978"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198631"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -44,6 +44,8 @@ Las directivas de configuración de aplicaciones se administran en el centro de 
 Puede editar la configuración de la directiva global para incluir las aplicaciones que desee. Si desea personalizar Teams para diferentes grupos de usuarios de su organización, cree y asigne una o más directivas personalizadas. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario.
 
 ![Captura de pantalla que muestra la página de directivas de configuración de la aplicación](media/app-setup-policies.png)
+
+[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
 
 > [!NOTE]
 > Si tiene equipos para el ámbito educativo, es importante que sepa que la aplicación asignaciones está anclada de forma predeterminada en la directiva global aunque, en este momento, no la verá en la directiva global. Será la cuarta aplicación de la lista de aplicaciones ancladas en los clientes de Teams.

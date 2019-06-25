@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: fd3a60c3fef7ea9a20084e950c8425416ac4cc80
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548115"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198344"
 ---
 # <a name="plan-my-service-management"></a>Planificar la administración de mis servicios
 
@@ -72,25 +72,23 @@ En la Guía de operaciones se incluye una lista de las tareas comunes asignadas 
 |Operaciones de Exchange|Administrar el entorno de Exchange|Por añadir|Por añadir|
 |Operaciones de telefonía|Administrar los SBC y los números de teléfono|Por añadir|Por añadir|
 
-Para que la asignación de roles operativos se pueda llevar a cabo de una forma más detallada, incluidas las tareas asociadas a cada rol operativo, el [libro de trabajo para la asignación de roles operativos](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_4_0_16) puede ser muy útil para capturar los detalles que determinarán con claridad cuáles son los roles y las responsabilidades que respaldarán las cargas de trabajo de voz en la nube.
-
 <!--ENDOFSECTION-->
 
 ## <a name="the-quality-champion-role"></a>Rol de experto de calidad
 
 Un grupo o una persona tiene que ser responsable de la calidad en todas las organizaciones.
-Es, sin duda, el rol más importante en la administración de servicios. El experto en calidad es un rol de cliente que se asigna a una persona o un grupo que cuida al detalle la experiencia de sus usuarios, y requiere las habilidades adecuadas para identificar tendencias del entorno y el respaldo necesario para poder trabajar con otros equipos y dirigir las correcciones que corresponda.
-El mejor candidato para ser experto en calidad es normalmente el propietario del servicio al cliente quien, según sea el tamaño y la complejidad de la organización, puede ser cualquier persona o grupo al que le apasione la experiencia de usuario.
+Es, sin duda, el rol más importante en la administración de servicios. El experto en calidad es un rol de cliente que se asigna a una persona o grupo que se está apasionando de la experiencia de los usuarios. y requiere las habilidades adecuadas para identificar tendencias del entorno y el respaldo necesario para poder trabajar con otros equipos y dirigir las correcciones que corresponda.
+El mejor candidato para el experto de calidad es por lo general el propietario del servicio al cliente, que, según el tamaño y la complejidad de la organización, puede ser cualquier persona o grupo que sea apasionado de la experiencia del usuario.
 
-El experto en calidad hace uso de las herramientas existentes y los procesos documentados, como el Panel de calidad de llamadas y la Guía de revisión de la experiencia de calidad, para supervisar la experiencia de usuario, identificar las tendencias de calidad y dirigir las correcciones cuando sea necesario. El experto en calidad trabaja con los equipos correspondientes e impulsa acciones correctivas, informa al comité directivo sobre el progreso y abre incidencias.
+El defensor de calidad aprovecha las herramientas existentes y los procesos documentados, como el panel de calidad de llamadas (CQD) y la guía de revisión de la experiencia de calidad, para supervisar la experiencia del usuario, identificar tendencias de calidad y controlar la corrección cuando sea necesario. El experto en calidad colabora con los equipos respectivos para impulsar acciones de corrección, informar a un Comité Directivo sobre sus problemas de progreso y de apertura.
 
-Las tareas y las actividades que se asocian al rol también se explican en la Guía de operaciones. Este rol se debe asignar al principio de la fase de enfoque. Un paso clave a la hora de poner en funcionamiento el rol de experto en calidad es adquirir el conocimiento que se necesita del rol y garantizar que se cumplen los requisitos previos necesarios para desarrollar las tareas. Una tarea fundamental de este rol es revisar con regularidad la experiencia de calidad.
+Las tareas y actividades asociadas con el rol se documentan en la guía de operaciones. Este rol se debe asignar al principio de la fase de enfoque. Un paso clave a la hora de poner en funcionamiento el rol de experto en calidad es adquirir el conocimiento que se necesita del rol y garantizar que se cumplen los requisitos previos necesarios para desarrollar las tareas. Una tarea fundamental de este rol es revisar con regularidad la experiencia de calidad.
 
 <!--ENDOFSECTION-->
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>Introducción a la Guía de revisión de la experiencia de calidad
 
-La Guía de revisión de la experiencia de calidad incluye un conjunto de actividades que se utilizan para evaluar y ofrecer acciones correctivas en áreas clave que influyen en gran medida en mejorar la experiencia de usuario, como se muestra en la figura siguiente.
+La guía de revisión de la experiencia de calidad tiene un conjunto de actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto para mejorar la experiencia del usuario, como se muestra en la siguiente ilustración.
 
 ![Ilustración de las áreas clave que se deben examinar durante la revisión de la experiencia] (media/plan-my-service-management-image2.png "Las áreas clave que se deben examinar durante una revisión de la experiencia de calidad: el audio, la fiabilidad y los resultados de la encuesta.")
 
@@ -110,13 +108,13 @@ Al evaluar y corregir de forma continua las áreas que se describen en este docu
 
 Las instrucciones que se ofrecen en la Guía de revisión de la experiencia de calidad se centran principalmente en el uso del Panel de calidad de llamadas (CQD) en línea como la herramienta principal para informar e investigar cada área que se describe, haciendo un especial hincapié en el audio para maximizar la adopción y el impacto. Las optimizaciones que se realicen en la red para mejorar la experiencia de audio se traducirán directamente en mejoras de las de vídeo y escritorio compartido.
 
-Se recomienda que designe al experto en calidad lo antes posible y, una vez lo haya hecho, esta persona deberá comenzar a familiarizarse con el contenido de la [Guía de revisión de la experiencia de calidad](https://aka.ms/qerguide).
+Le recomendamos encarecidamente que se haya nominado el preexperto de calidad. Después de ser nombrados, deben empezar a familiarizarse con el contenido de la [Guía de revisión](https://aka.ms/qerguide)de la experiencia de calidad.
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida qué persona de su organización debe responder ante las operaciones de voz en la nube.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Descargue la guía completa para planificar la administración de servicios.</li><li>Descargue la Guía de revisión de la experiencia de calidad.</li><li>Revise toda la Guía de operaciones.</li><li>Ofrezca todas las guías a todos los miembros del equipo de operaciones para que las revisen y se familiaricen con los requisitos de cada operación.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida quién es responsable de las operaciones de voz en la nube de su organización.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Descargue la guía de planificación de administración de servicios completa.</li><li>Descarga la guía de revisión de la experiencia de calidad.</li><li>Revise completa la guía de operaciones.</li><li>Proporcione todas las guías para que todos los miembros del equipo de operaciones lo revisen y estén familiarizados con los requisitos de las operaciones.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

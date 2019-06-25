@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumen: Obtenga información sobre los requisitos ambientales para el servidor perimetral en Skype empresarial Server.'
-ms.openlocfilehash: a154882e6fe78faee3b020830de4049827babf89
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277177"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35203959"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos ambientales para servidores perimetrales en Skype empresarial Server
  
@@ -81,11 +81,11 @@ Para que le sea más fácil elegir una, la siguiente tabla le ofrece un resumen 
 |:-----|:-----|:-----|:-----|:-----|
 |Servidor perimetral consolidado simple con direcciones IP privadas y NAT  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |
 |Servidor perimetral consolidado simple con direcciones IP públicas  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |No  <br/> |
-|Servidor perimetral consolidado ampliado con direcciones IP privadas y NAT (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Yes&sup1;  <br/> |
-|Servidor perimetral consolidado ampliado con direcciones IP públicas (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Yes&sup1;  <br/> |
+|Servidor perimetral consolidado ampliado con direcciones IP privadas y NAT (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí&Sup1;  <br/> |
+|Servidor perimetral consolidado ampliado con direcciones IP públicas (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí&Sup1;  <br/> |
 |Servidor perimetral consolidado ampliado con equilibradores de carga de hardware  <br/> |Sí  <br/> |No (un registro A DNS por VIP)  <br/> |Sí  <br/> |Sí  <br/> |
    
-&sup1; La conmutación por error de usuario de mensajería unificada de Exchange (UM) con el equilibrio de carga de DNS requiere Exchange 2013 o posterior.
+&Sup1; La conmutación por error de usuario de mensajería unificada de Exchange (UM) con el equilibrio de carga de DNS requiere Exchange 2013 o posterior.
   
 ### <a name="ip-address-requirements"></a>Requisitos de direcciones IP
 
@@ -143,7 +143,7 @@ Cuando se trata de la implementación del servidor perimetral de Skype empresari
 
 Estos serán los registros DNS que necesitará para un servidor perimetral único que use IPS público o IP privado con NAT. Dado que estos son datos de ejemplo, le daremos IP de muestra para que pueda resolver sus propias entradas de forma más fácil:
   
-- Adaptador de red interna: 172.25.33.10 (no hay ninguna puerta de enlace predeterminada asignada)
+- Adaptador de red interna: 172.25.33.10 (no hay puertas de enlace predeterminadas asignadas)
     
     > [!NOTE]
     > Asegúrese de que haya una ruta desde la red que contenga la interfaz interna perimetral a cualquier red que contenga servidores que ejecuten Skype empresarial Server o clientes de Lync Server 2013 (por ejemplo, de 172.25.33.0 a 192.168.10.0). 

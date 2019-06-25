@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330b62bc98d4a45d8d6902707dd2ebb9fd031913
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548281"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198424"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 
@@ -118,7 +118,7 @@ Si no cumple estos criterios, es el momento de considerar pausar el proyecto par
 |  |  |  |
 |---------|---------|---------|
 |![Un icono que representa un punto de decisión](media/Prepare_your_organizations_network_for_Microsoft_Teams_image3.png)    |Punto de decisión         |¿Ha evaluado sus capacidades de red para admitir medios en tiempo real?<br></br>Si su red no se ha evaluado correctamente o sabe que no es compatible con los medios en tiempo real, deshabilitará las funciones de vídeo y pantalla compartida para reducir el impacto de la red y las experiencias de equipos deficientes.         |
-|![Un icono que representa los pasos siguientes](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Siguientes pasos         |Calidad de red desconocida: siga las instrucciones de evaluación de la [disponibilidad de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness) para determinar si su red está lista para los medios en tiempo real.<br></br>Calidad de red deficiente: realice los pasos de corrección de red para proporcionar un entorno adecuado para los medios en tiempo real de alta calidad.<br></br>Red satisfactoria: Asegúrese de que todas las direcciones IP y los puertos son accesibles correctamente.           |
+|![Un icono que representa los pasos siguientes](media/Prepare_your_organizations_network_for_Microsoft_Teams_image4.png)     |Siguientes pasos         |Calidad de red desconocida: realice una evaluación de la disponibilidad de red para determinar si su red está lista para los medios en tiempo real.<br></br>Calidad de red deficiente: realice los pasos de corrección de red para proporcionar un entorno adecuado para los medios en tiempo real de alta calidad.<br></br>Red satisfactoria: Asegúrese de que todas las direcciones IP y los puertos son accesibles correctamente.           |
 
 ## <a name="related-topics"></a>Temas relacionados
 

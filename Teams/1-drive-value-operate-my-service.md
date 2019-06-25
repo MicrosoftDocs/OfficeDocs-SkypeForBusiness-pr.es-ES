@@ -3,7 +3,7 @@ title: Guía de operaciones para Microsoft Teams
 author: rmw2890
 ms.author: Rowille
 manager: serdars
-ms.date: 04/12/2018
+ms.date: 06/11/2019
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
@@ -15,12 +15,12 @@ description: Tareas y actividades necesarias para la administración de servicio
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1aa8c35b43941839e7a82390bca16c16c72801
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 5bd43155e7a1a4eadc1a372ef3706912ff72cd50
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548250"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198400"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -355,14 +355,12 @@ Para garantizar el estado de la red, es necesario realizar una serie de activida
 | Proporcionar datos de compilación                                          | Proporcione información actualizada sobre la subred al experto en calidad (o a las partes interesadas relevantes) para asegurarse de que las [definiciones del edificio del CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) se mantienen actualizadas. | Según sea necesario              |               |
 | Implementar el cambio                                               | Implemente cambios en la red para admitir los requisitos técnicos y empresariales de cambiar de equipo. Los elementos de la red pueden incluir:<ul><li>Firewalls</li><li>VPN</li><li>Redes cableadas y Wi-Fi</li><li>Conectividad a Internet y ExpressRoute</li><li>DNS</li></ul>     | Según sea necesario              |               |
 | Supervisión e informes de red                               | Supervise la red de principio a fin para la disponibilidad, la utilización y las tendencias de capacidad con las herramientas de administración de redes de terceros existentes y las capacidades de creación de informes disponibles en los proveedores de red. Use datos de tendencia para planear la capacidad de la red.                                                                                                            | Diariamente, semanalmente, mensualmente |               |
-| Planificación de la capacidad                                              | Colabore con los propietarios del servicio de Teams para comprender los cambios de requisitos técnicos y de negocio que podrían conducir cambios de capacidad adicionales. Aproveche los resultados del organizador de la [red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) para asegurarse de que haya suficiente ancho de banda disponible para Microsoft Teams.                               | Según sea necesario              |               |
+| Planificación de la capacidad                                              | Colabore con los propietarios del servicio de Teams para comprender los cambios de requisitos técnicos y de negocio que podrían conducir cambios de capacidad adicionales.                                | Según sea necesario              |               |
 | Solución de problemas y corrección de redes                        | Ayudar a los equipos de asistencia al usuario, a los propietarios de servicios y a los participantes clave para solucionar y corregir problemas relacionados con la conectividad, la confiabilidad o la calidad de Teams. Los elementos de la red pueden incluir:<ul><li>Firewalls</li><li>VPN</li><li>Redes cableadas y Wi-Fi</li><li>Conectividad a Internet y ExpressRoute</li><li>DNS</li></ul>    | Según sea necesario              |               |
 | Pruebas de recuperación ante desastres y alta disponibilidad                | Realice pruebas normales de alta disponibilidad y de recuperación ante desastres en la infraestructura de red para asegurarse de que cumple con los objetivos de nivel de servicio (SLOs) establecidos o los contratos de nivel de servicio (SLA) del servicio de Teams.                                                                                                                                                  | Cada mes                |               |
 
 
 ### <a name="references"></a>Referencias 
-
-[Planificador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Direcciones URL e intervalos de direcciones IP de Office 365](https://aka.ms/o365ips)
 
@@ -395,8 +393,6 @@ Le recomendamos encarecidamente que se nominar a la calidad del experto en el pr
 
 
 ### <a name="references"></a>Referencias 
-
-[Información sobre el Panel de calidad de llamadas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Cargar información de datos de inquilino](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information)
 

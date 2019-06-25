@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca5d06bc4f7947a55c1867c9fab68810713059e
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 4193c6de078b196c2d34ffe098f542918d0059ad
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494613"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198488"
 ---
 ![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
@@ -138,15 +138,12 @@ Use la tabla siguiente para capturar los detalles de red de su organización y c
 > | Cómo (o cómo) los usuarios en el ámbito de la migración <br>¿tiene acceso a teams cuando están en la oficina? <br/>Seleccione todos los que correspondan. | <input type="checkbox">Conexión NAT enrutada <br/> <input type="checkbox">Servidor proxy <br/> <input type="checkbox">Wi-Fi pública <br/> <input type="checkbox">Wi-Fi administrada (no pública) <br/> <input type="checkbox">ExpressRoute (emparejamiento de Microsoft) ||
 > | Si el acceso a Office 365 se realiza a través de un servidor proxy, está <br>¿alguna manera de eludir el proxy? | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No | |
 > | ¿ExpressRoute se está usando? | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No <br/> <input type="checkbox">No, pero se está planificando | |
-> | ¿Ha realizado una evaluación de la disponibilidad de red? <br/>Para obtener más información, consulte evaluación de la [disponibilidad de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness). | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No | |
+> | ¿Ha realizado una evaluación de la disponibilidad de red? | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No | |
 > | ¿Los usuarios deben usar una VPN al conectarse a <br>¿los recursos corporativos de forma remota? | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No | |
 > | Si se usa una red privada virtual, se puede excluir el tráfico de los equipos de <br>¿VPN para obtener acceso directo a servicios de Office 365? | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No | |
 > | ¿Su red admite QoS? | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No | |
 > | Puede priorizar el tráfico de audio y vídeo de los equipos <br>para impulsar una experiencia de alta calidad? | <input type="checkbox">Afirmativa <br/> <input type="checkbox">No | |
 > | ¿Todas las ubicaciones de una región tienen salida a través de Internet? <br>¿o se está centralizando la salida de Internet para toda la región? | <input type="checkbox">Acceso regional a Internet <br/> <input type="checkbox">Acceso centralizado a Internet | |
-
-> [!TIP]
-> Para calcular la cantidad de ancho de banda y otros requisitos de red para su implementación de voz en la nube, en función de los detalles de su organización y el uso estimado, visite [Network Planner](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) in mi [asesor](https://myadvisor.fasttrack.microsoft.com/).
 
 ## <a name="endpoints"></a>Puntos de conexión
 

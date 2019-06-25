@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 389b04a00ff0941edaf0f5f2d18d7685ce37b601
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b3bc311fc2099f6162115d1c341d088a49c94da0
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548672"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198528"
 ---
 ![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
@@ -131,7 +131,7 @@ Las tareas y las actividades que se asocian al rol también se explican en la Gu
 
 La Guía de revisión de la experiencia de calidad incluye un conjunto de actividades que se utilizan para evaluar y ofrecer acciones correctivas en áreas clave que influyen en gran medida en mejorar la experiencia de usuario, como se muestra en la figura siguiente.
 
-![Diagrama ilustrativo de las áreas clave examinadas durante la revisión] de la experiencia (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Un diagrama que muestra las áreas clave que se examinan durante una revisión de la experiencia de calidad.")
+![Diagrama ilustrativo de las áreas examinadas durante la revisión] de la experiencia (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Un diagrama que muestra las áreas clave que se examinan durante una revisión de la experiencia de calidad.")
 
 Al evaluar y corregir de forma continua las áreas que se describen en este documento, se reducen los posibles efectos negativos que puedan afectar a la experiencia de usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 
@@ -188,8 +188,6 @@ Para mediar el uso actual, hay que supervisar la red y, una vez obtenida la medi
 
 > [!NOTE]
 > Cuando se supervisa el uso de la red, es importante evitar usar valores medios de todo el día. Estos promedios pueden distorsionar los resultados al incluir horas no centrales del día y asimismo pueden ocultar períodos de pico y enmascarar un problema.
-
-El [planificador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) le ayuda a determinar y organizar los requisitos de red para poder implementarla en tan solo unos pocos pasos. Con la herramienta, podrá recopilar los detalles de red de su organización y el uso de la voz en la nube, que luego usará para realizar un cálculo aproximado de los requisitos de red que se necesitarán para implementar la voz en la nube, administrar y exportar estos detalles para notificarlos en informes, y para ver las áreas que precisan de una mayor investigación y otros pasos a continuación.
 
 #### <a name="quality-of-service-qos"></a>Calidad de servicio (QoS)
 
@@ -268,7 +266,7 @@ Como parte de las actividades de preparación de la red se incluye una evaluaci�
 
 La evaluación de red se debe realizar tanto en las redes de cable como en las redes Wi-Fi de todos los edificios que se estén habilitando para las funciones de voz en la nube de Teams.
 
-La evaluación de red se puede llevar a cabo mediante un socio de Microsoft, herramientas de terceros o la [herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885). También ofrecemos más información sobre cómo ejecutar la evaluación con la herramienta de evaluación de redes de Microsoft, como parte de nuestra guía de preparación [aquí](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11).
+La evaluación de red se puede llevar a cabo mediante un socio de Microsoft, herramientas de terceros o la [herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885).
 
 ## <a name="plan-for-endpoint-quality"></a>Plan para la calidad de los puntos de conexión
 
@@ -329,8 +327,6 @@ Una vez que se seleccionen los dispositivos, se deben incluir en el plan de prue
 
 En este momento, recomendamos usar dispositivos de audio que se hayan certificado mediante el programa de certificación de Skype Empresarial. Para encontrar dispositivos certificados con este programa, consulte el catálogo de soluciones de [dispositivos USB certificados para Skype Empresarial](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs).
 
-Para obtener más detalles, consulte el [taller de preparación para cliente y dispositivos](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13)
-
 ## <a name="client-updates"></a>Actualizaciones del cliente
 
 Una de las principales ventajas de Microsoft Teams es que el cliente se actualiza automáticamente. Los clientes de PC y Mac se actualizan mediante un proceso en segundo plano que comprueba si hay nuevas compilaciones y descarga el cliente nuevo cuando la aplicación está inactiva. El tamaño de descarga del cliente es de 100 MB aproximadamente.
@@ -344,20 +340,19 @@ En esta tabla se incluye un resumen de las actividades de planificación con ví
 | Área | Detalles | Referencias |
 |---|---|---|
 | Plan para la administración de servicios | Realizar un ejercicio de asignación de roles operativos <br/> Validación de equipos designados <br/> Preparación de roles | [Guía de operaciones](1-drive-value-operate-my-service.md) |
-| | Nombrar expertos en calidad <br/> Preparación de expertos en calidad| [Información sobre el Panel de calidad de llamadas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos) <br/> [Guía de revisión de la experiencia de calidad](https://aka.ms/qerguide) |
+| | Nombrar expertos en calidad <br/> Preparación de expertos en calidad| <br/> [Guía de revisión de la experiencia de calidad](https://aka.ms/qerguide) |
 | | Instalar las plantillas de revisión de la experiencia de calidad <br/> Cargar un archivo de compilación | [Plantillas QERLite](https://aka.ms/qertemplates) <br/> [Cargar información de compilación](turning-on-and-using-call-quality-dashboard.md)|
-| Plan para la calidad de las redes | Ejecutar el planificador de red | [Planificador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) |
+| Plan para la calidad de las redes | Realizar la planificación de red |  |
 | | Implementar QoS | [Calidad de servicio (QoS) en Microsoft Teams](qos-in-teams.md) |
 | | Omitir servidores proxy | [Instrucciones del proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
-| | Implementar VPN de túnel dividido | [Guía de túnel dividido de VPN](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_9) |
+| | Implementar VPN de túnel dividido |  |
 | | Optimizar redes Wi-Fi para medios en tiempo real | Consultar proveedores de terceros |
 | | Implementar salida local de Internet | [Salida local de Internet](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
 | | Implementar conectividad de red <br/> Comprobar la conectividad de red | [URL de Office 365 y direcciones IP](https://aka.ms/o365ips) |
-| | | [Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) |
-| | Realizar evaluación de red | [Evaluación de preparación de la red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_3_0_2,4_3_0_3,4_3_0_5,4_3_0_6,4_3_0_7,4_3_0_8,4_3_0_10,4_3_0_11) |
+| | Realizar evaluación de red |[Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885)  |
 | Plan para la calidad de los puntos de conexión | Actualizar firewalls de puntos de conexión | [URL de Office 365 y direcciones IP](https://aka.ms/o365ips) |
 | | Validar requisitos de software | [Obtener clientes para Microsoft Teams](get-clients.md) |
 | | Implementar recomendaciones Wi-Fi de puntos de conexión | Consultar proveedores de terceros |
-| | Realizar la asignación de personas a dispositivos <br/> Aprovisionar dispositivos y hacer un piloto | [Taller de preparación para cliente y dispositivos](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=4_1_0_13) <br/> [Catálogo de dispositivos](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
+| | Realizar la asignación de personas a dispositivos <br/> Aprovisionar dispositivos y hacer un piloto |<br/> [Catálogo de dispositivos](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) |
 
 Una vez que haya terminado de planificar, continúe con el siguiente paso: [preparar el entorno para Teams](https://aka.ms/SkypeToTeams-TechnicalReadiness).

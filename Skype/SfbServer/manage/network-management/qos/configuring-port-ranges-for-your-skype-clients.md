@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este artículo se describe cómo configurar intervalos de puertos para sus clientes y configurar directivas de calidad de servicio en Skype empresarial Server para clientes que se ejecutan en Windows 10.
-ms.openlocfilehash: 2eaf7eb6b10f2aba2665704f973a4dfcddbd4885
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
+ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279427"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35204017"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configuración de intervalos de puertos y una directiva de calidad de servicio para sus clientes en Skype empresarial Server
 
@@ -187,7 +187,7 @@ Para crear una directiva de audio de calidad de servicio para equipos con Window
 
 6.  En el cuadro de diálogo **QoS basado en directivas** , en la página de apertura, escriba un nombre para la nueva Directiva en el cuadro **nombre** . Seleccione **especificar valor de DSCP** y establezca el valor en **46**. Deje la **tasa de límite saliente** desactivada y, a continuación, haga clic en **siguiente**.
 
-7.  En la página siguiente, asegúrese de que **todas las aplicaciones** está seleccionada y, a continuación, haga clic en **siguiente**. Esta configuración instruye a la red para que busque todos los paquetes con un marcado de DSCP de 46, no solo los paquetes creados por una aplicación específica.
+7.  En la página siguiente, seleccione **solo las aplicaciones con este nombre de archivo ejecutable**, escriba **Lync. exe** como nombre y, a continuación, haga clic en **siguiente**. Esta configuración indica a la Directiva que solo asigne prioridad al tráfico coincidente del cliente de Skype empresarial.
 
 8.  En la tercera página, asegúrese de que **todas las direcciones IP de origen** y **cualquier dirección IP de destino** estén seleccionadas y, a continuación, haga clic en **siguiente**. Estas dos opciones de configuración garantizan que los paquetes se administrarán independientemente del equipo (dirección IP) que hayan enviado esos paquetes y qué equipo (dirección IP) recibirá esos paquetes.
 

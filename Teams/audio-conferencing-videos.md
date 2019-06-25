@@ -16,19 +16,17 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6706fc789ed4a5e8a33e88059319d298791f84dd
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 435c35ce982ce18b93091f1832645c2c626228b4
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400689"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198408"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>Vídeos: Audioconferencia en Microsoft Teams
 =============================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-No se pierda [Vídeos: Audioconferencia en Microsoft Teams](audio-conferencing.md).
 
 > [!NOTE]
 > Audioconferencia se conocía anteriormente como Conferencia RTC.

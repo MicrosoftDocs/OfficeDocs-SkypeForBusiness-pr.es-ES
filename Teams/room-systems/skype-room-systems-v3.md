@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Información general de administración para salas de Microsoft Teams.
-ms.openlocfilehash: fd16015331273fbd5f524f571c07a1c055a0d04a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 01b2550c1a0ad691acf48c58f6c13a37f2b4b7e6
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288574"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198639"
 ---
 # <a name="management-overview"></a>Introducción a la administración 
 
@@ -62,7 +62,7 @@ Con esta guía, puede crear un panel fácil de usar para identificar cualquier p
 
 Le recomendamos que implemente procedimientos continuos de supervisión de la calidad operativa y la confiabilidad como parte de su implementación para controlar las tendencias de la calidad y la confiabilidad de las llamadas y las reuniones, identificar las áreas de preocupación y trabajar en la resolución. 
 
-Al cargar la información de su edificio en el CQD, puede investigar tendencias de la calidad de las llamadas y de la fiabilidad en un nivel por construcción, lo que facilita la comparación de los edificios y concentra su atención en problemas específicos. Para obtener más información, descargue el [monitor-CQD para la guía de entrega y operaciones de Skype empresarial online](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=6_2_0_15). 
+Al cargar la información de su edificio en el CQD, puede investigar tendencias de la calidad de las llamadas y de la fiabilidad en un nivel por construcción, lo que facilita la comparación de los edificios y concentra su atención en problemas específicos.
 
 Le recomendamos que revise y siga la [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide) para identificar tendencias de calidad y confiabilidad, y crear un plan de acción para resolverlos. 
 

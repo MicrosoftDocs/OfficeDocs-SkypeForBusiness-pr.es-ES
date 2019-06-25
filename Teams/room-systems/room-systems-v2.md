@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre la implementación de salas de Microsoft Teams.
-ms.openlocfilehash: c60d9a1ff3c00c62a14573b8b7e1d26b92e865d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4af4412d65fa74532b04ad5abb63326ee4c7c58b
+ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305396"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "35198480"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -44,21 +44,12 @@ Puede obtener más información sobre estas dependencias en los vínculos de la 
 -   [Certificados](srs-v2-prep.md#certificates)
 -   [Proxy](srs-v2-prep.md#proxy)
 
-**Sugerencia** : Si tiene previsto usar servidores proxy para proporcionar acceso a Microsoft Teams o a Skype empresarial online, primero [revise este artículo](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Tenga en cuenta que cuando se trata de tráfico de Skype empresarial por servidores proxy, se recomienda omitir los servidores proxy por completo. El tráfico de Skype empresarial ya está cifrado, por lo que los servidores proxy no lo hacen más seguro. Como parte de su implementación más amplia, le recomendamos que siga las instrucciones de [evaluar mi entorno](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) para planear el ancho de banda y evaluar la idoneidad de su red para el tráfico en tiempo real. Para todos los planes de ancho de banda, use el planificador de [redes](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)de (Se recomienda crear un rol Microsoft Teams Rooms para que refleje el uso de salas de Microsoft Teams previsto [video, pantalla compartida, audio] y asignar varios usuarios que coincidan con el número de unidades de salas de Microsoft teams que se van a implementar en cada sitio). 
+**Sugerencia** : Si tiene previsto usar servidores proxy para proporcionar acceso a Microsoft Teams o a Skype empresarial online, primero [revise este artículo](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Tenga en cuenta que cuando se trata de tráfico de Skype empresarial por servidores proxy, se recomienda omitir los servidores proxy por completo. El tráfico de Skype empresarial ya está cifrado, por lo que los servidores proxy no lo hacen más seguro. Como parte de su implementación más amplia, le recomendamos que siga las instrucciones de [evaluar mi entorno](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) para planear el ancho de banda y evaluar la idoneidad de su red para el tráfico en tiempo real.
 
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que sus sitios cumplen los requisitos clave para salas de Microsoft Teams.</li><li>Confirme que ha proporcionado suficiente ancho de banda para cada sitio.</li></ul>| 
 | ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar la implementación y la configuración del dispositivo.</li></ul>| 
-
-**Sugerencia de Pro** Desde una perspectiva de planeación sitio a sitio, es posible que le resulten útiles los siguientes activos. Cubren más que solo salas de Microsoft Teams y se puede usar en una implantación completa de Skype empresarial online:
-
--   [Guía de entrega de migración/distribución de sitios](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
-
--   [Implementación de sitios y planeamiento de la migración: Guía](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
-
-    > [!NOTE]
-    > En la guía, complete las tareas de la sección "4,3-> Conference Rooms" en la hoja de "4 puntos de conexión" para cada sitio en el que vaya a implementar los dispositivos de salas de Microsoft Teams. Esto le permitirá usar el script de aprovisionamiento de cuentas masivas más adelante en el proceso. 
 
 ## <a name="service-readiness"></a>Preparación del servicio
 
@@ -129,9 +120,6 @@ Cada dispositivo de salas de Microsoft Teams necesita una cuenta de recursos exc
 
 **Sugerencia Pro** : haga que los nombres para mostrar de estas cuentas sean descriptivos y sean fáciles de comprender. Estos son los nombres que los usuarios verán al buscar y agregar sistemas de salas de Microsoft Teams a reuniones. Algunas organizaciones usan el*nombre del salón*de *sitio*-de la Convención (*capacidad máxima*de la sala)-RS, por lo que, por ejemplo Curie, un salón de conferencia de 12 personas en Londres, puede tener el nombre para mostrar Lon-Curie (12)-RS. 
 
-Si su organización tiene muchas salas de conferencias que requieren varias cuentas aprovisionadas, es posible que desee usar [las cuentas de sistemas de salas de Skype para configurar las secuencias de comandos de aprovisionamiento](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) para realizar un aprovisionamiento masivo de varias cuentas de servicio de manera automatizada.
-
-
 |    |     |
 |-----------|------------|
 | ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la Convención de nomenclatura para sus cuentas de salas de Microsoft Teams.</li><li>Decida si va a crear cuentas individuales o usar scripts de aprovisionamiento masivo.</li></ul>| 
@@ -200,9 +188,7 @@ Después de implementar el sistema de salas de Microsoft Teams, debe probarlo. C
 
 Le recomendamos que, como parte de los equipos generales o de la implementación de Skype empresarial, configure los archivos de compilación para el panel de calidad de llamadas (CQD), tendencias de calidad del monitor y participe en el proceso de revisión de la calidad de la experiencia. Para obtener más información, consulta la [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide). 
 
-**Sugerencia Pro** la [matriz de pruebas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) disponible en el [Asistente](https://myadvisor.fasttrack.microsoft.com/) contiene una ficha con varias pruebas de salas de Microsoft teams que debe revisar como parte de las pruebas. 
-
-### <a name="asset-management"></a>Administración de activos 
+### <a name="asset-management"></a>Administración de activos
 
 Como parte de la implementación, deseará actualizar el registro de activos con el nombre del salón, el nombre del dispositivo de las salas de Microsoft Teams, la cuenta de recursos de salas de Microsoft Teams en la que ha iniciado sesión y los dispositivos periféricos asignados (y los puertos USB que usan). 
 
