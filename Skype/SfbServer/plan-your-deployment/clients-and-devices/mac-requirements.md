@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lea este tema para obtener información sobre los requisitos de hardware, software y infraestructura para ejecutar Skype empresarial en un equipo Mac.
-ms.openlocfilehash: 690e2a568c71d4af98b7d2bf9b9cc2e9919d99e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: aca2329fa3e7d42dfd1aaf47e4c069773c7206f0
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277338"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221719"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Requisitos del cliente de Skype empresarial en Mac
  

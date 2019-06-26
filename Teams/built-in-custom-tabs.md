@@ -3,7 +3,7 @@ title: Usar fichas integradas y personalizadas en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 11/13/2018
+ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 461e61033cc0d201d0477bec2ff9ec66df0541d1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 4786d6464eb1264da442aba056f2e93508a3bea4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432923"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221854"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
 
-Las pestañas permiten a los miembros del equipo acceder a servicios en un lienzo dedicado dentro de un canal o en un chat. Esto permite al equipo trabajar directamente con herramientas y datos y mantener conversaciones sobre ellos en el contexto del canal o del chat. 
+Las pestañas permiten a los miembros del equipo acceder a servicios y contenido en un espacio dedicado dentro de un canal o en un chat. Esto permite al equipo trabajar directamente con herramientas y datos, y mantener conversaciones acerca de las herramientas y los datos, todo dentro del contexto del canal o el chat.
 
 Los propietarios y los miembros del equipo pueden agregar pestañas adicionales a cada canal para integrar mejor sus servicios en la nube. Se pueden agregar pestañas para ayudar a los usuarios a obtener acceso y administrar fácilmente los datos que necesitan o con los que interactúan. Puede ser un informe de Power BI, un panel o incluso un canal de vídeo de [Microsoft Stream](https://go.microsoft.com/fwlink/?linkid=855785) en el que se publiquen vídeos de aprendizaje.
 
@@ -32,16 +32,16 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
 ## <a name="work-with-tabs"></a>Trabajar con pestañas
 
-- Con cada canal nuevo, se aprovisionan dos pestañas de forma predeterminada: conversaciones y archivos. 
+- Con cada canal nuevo, se aprovisionan dos pestañas de forma predeterminada: conversaciones y archivos.
 
     ![Captura de pantalla de la sección Conversación del equipo de marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
-- Con cada chat privado, se aprovisionan cuatro pestañas de forma predeterminada, conversaciones, archivos, organización y actividad.
+- Con cada chat privado, se aprovisionan cuatro pestañas de forma predeterminada: conversaciones, archivos, organización y actividad.
 
     ![Captura de pantalla de las pestañas de una conversación.](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
 - Los propietarios y los miembros del equipo pueden agregar más pestañas a un canal o un chat haciendo clic en **Agregar una** ![captura de pantalla de pestaña del botón Agregar una pestaña, que muestra un signo +.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) en la parte superior del canal o del chat.
 
-- Los archivos Excel, PowerPoint, Word y PDF deben cargarse en la pestaña **archivos** antes de que se puedan convertir en pestañas. Como alternativa, cualquier archivo cargado existente puede convertirse en una ficha con un solo clic, como se muestra a continuación.
+- Los archivos Excel, PowerPoint, Word y PDF deben cargarse en la pestaña **archivos** antes de que se puedan convertir en pestañas. Cualquier archivo cargado existente puede convertirse en una ficha con un solo clic, como se muestra a continuación.
 
     ![Captura de pantalla de la ficha Archivos con un archivo de PowerPoint seleccionado.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
@@ -55,7 +55,7 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
 Además de las pestañas integradas, puede diseñar y desarrollar sus propias pestañas para integrarlas a teams o compartirlo con el resto de la comunidad. [Para controlar el acceso a la pestaña personalizada](https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/design#streamline-access) , configure los grupos de Office 365 que corresponda.
 
-Microsoft Developer Network proporciona [instrucciones detalladas](https://go.microsoft.com/fwlink/?linkid=855786) para diseñar y crear sus propias pestañas y pestañas de [ejemplo](https://go.microsoft.com/fwlink/?linkid=855787) desarrolladas por Microsoft que puede descargar.
+Microsoft Developer Network proporciona las [fichas de ejemplo](https://go.microsoft.com/fwlink/?linkid=855787) desarrolladas por Microsoft que puede descargar e [instrucciones detalladas](https://go.microsoft.com/fwlink/?linkid=855786) para diseñar y crear sus propias pestañas.
 
 ![Captura de pantalla de una ficha personalizada de ejemplo en Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

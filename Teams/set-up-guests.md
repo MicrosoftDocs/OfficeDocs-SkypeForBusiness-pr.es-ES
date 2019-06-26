@@ -17,17 +17,17 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20aed363bcdd7777639adf04687f5d62a3757a97
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 240e93d5f6329090940e6bf49cb2d6a4ee46ce2f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894363"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221454"
 ---
-<a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
-======================================
+<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
+===================================================
 
-Como administrador de Office 365, debe habilitar la característica de invitado antes de que usted o los usuarios de su organización (específicamente, los propietarios de los equipos) puedan agregar a invitados. 
+Como administrador de Office 365, debe habilitar la característica de invitado antes de que usted o los usuarios de su organización (específicamente, los propietarios de los equipos) puedan agregar a invitados.
 
 La configuración de invitado se establece en Azure Active Directory. Los cambios tardan de 2 a 24 en ser efectivos en toda la organización de Office 365. Si un usuario ve el mensaje "Póngase en contacto con su administrador" cuando intenta agregar un invitado a su equipo, es muy probable que la característica de invitado no esté habilitada o que la configuración no haya entrado aún en vigor.
 
@@ -64,8 +64,8 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
     - **Clasificación de contenido Giphy**: seleccione una clasificación de la lista desplegable:
        - **Permitir todo el contenido**: los invitados podrán insertar todos los Giphy en chats, independientemente de la clasificación de contenido.
        - **Moderado**: los invitados pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma moderada.
-       - **Estricto**: los invitados pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma estricta.
-    - **Usar memes en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen memes en conversaciones.
+       - **Estricto** : los invitados podrán insertar imágenes giphy en los chats, pero no podrán insertar contenido para adultos.
+    - **Usar memes en las conversaciones** : activa esta **** opción para permitir que los invitados usen memes en las conversaciones.
     - **Usar adhesivos en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen adhesivos en conversaciones. 
 
 

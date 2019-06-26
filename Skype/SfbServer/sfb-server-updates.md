@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones de Skype Empresarial Server 2015 y Lync 2013 desde un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y después descárguelas.
-ms.openlocfilehash: 80ba0d772b95083b901b359c2f12793c5a6e3244
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 26c203cc403e8b515597276570f1207cf2e39f35
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681821"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221861"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
@@ -119,9 +119,9 @@ Nombre de paquete/vínculo|Fecha de lanzamiento|
 |[Herramientas del kit de recursos de Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36821) |Enero de 2014 |
 |[Herramienta de esfuerzo y de rendimiento de Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36819) |Marzo de 2013 |
 |[Visor de archivado de pizarra de Lync Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=36822) |Febrero de 2013 |
-|[Complemento de Lync VDI 2013 (32 bits) ](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |Octubre de 2012 |
-|[Complemento de Lync VDI 2013 (32 bits) ](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |Octubre de 2012 |
-|[Nuevo Office Visio Stencil ](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |Julio de 2016 |
+|[Complemento de VDI para Lync 2013 (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) |Octubre de 2012 |
+|[Complemento de VDI para Lync 2013 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35454) |Octubre de 2012 |
+|[Nueva galería de símbolos de Office Visio](https://www.microsoft.com/en-us/download/details.aspx?id=35772) |Julio de 2016 |
 
 ### <a name="lync-2013-downloadable-documentation"></a>Documentación descargable de Lync 2013
 
@@ -180,25 +180,25 @@ Nombre de paquete/vínculo|Fecha de lanzamiento|
 |Nombre de paquete/vínculo|Fecha de lanzamiento|
 |:--- |:--- |
 |[IM an Expert de Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=01fd2b2b-d780-4d6f-8e1e-54b2ad718f2b&displaylang=en)|Marzo de 2012 |
-|[Analizador de procedimientos recomendados de Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|Febrero de 2011 |
-|[Calculadora de capacidad de Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|Febrero de 2012 |
+|[Analizador de procedimientos recomendados de Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=030548DF-0DC7-4F86-B8A9-2F5EC8DE8BA5)|Febrero de 2011 |
+|[Calculadora de capacidad 2010 de Lync Server](https://www.microsoft.com/downloads/details.aspx?FamilyID=6E8342A7-3238-4F37-9F95-7B056525DC1A)|Febrero de 2012 |
 |[Herramienta de planeación de Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=19711)|Febrero de 2011 |
 |[Herramientas del kit de recursos de Lync Server 2010](https://www.microsoft.com/downloads/details.aspx?FamilyID=80CC5CE7-970D-4FD2-8731-D5D7D0829266)|Mayo de 2012 |
-|[Herramienta de esfuerzo y de rendimiento de Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|Marzo de 2011 |
-|[Visio Stencil de Lync Server 2010 ](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Febrero de 2011 |
-|[Programador web de Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|Abril de 2011 |
+|[Herramienta Lync Server 2010 de estrés y rendimiento](https://www.microsoft.com/downloads/details.aspx?FamilyID=94B5F191-6D80-4DEC-94C2-FCA57995F8B7)|Marzo de 2011 |
+|[Galería de símbolos 2010 de Visio en Lync Server](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|Febrero de 2011 |
+|[Programador web de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=b7d8f948-fa64-4c51-8b54-2223954d1fa4)|Abril de 2011 |
 
 ### <a name="lync-2010-downloadable-documentation"></a>Documentación descargable de Lync 2010
 
 Nombre de paquete/vínculo|Fecha de lanzamiento|
 |:--- |:--- |
-|[Archivo de ayuda de documentación de Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Marzo de 2012 |
-|[Página principal de Lync Server 2010 ](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|Octubre de 2012 |
-|[Documentación de IM an Expert de Microsoft Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|Marzo de 2012 |
-|[Lync 2010 Release Notes](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3).aspx)|Enero de 2011 |
-|[Notas de la versión de Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Enero de 2011 |
-|[Archivo Léame de la herramienta de planeación de Lync Server 2010 ](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|Enero de 2011 |
-|[Diagrama de la arquitectura de referencia del servidor perimetral de Lync Server 2010 ](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|Marzo de 2011 |
+|[Archivo de ayuda de documentación de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|Marzo de 2012 |
+|[Página principal de Lync Server 2010](https://technet.microsoft.com/library/gg398616(v=ocs.14).aspx)|Octubre de 2012 |
+|[Enviar un experto a la documentación de Microsoft Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=8E4546AA-9B24-435D-9043-A2181B4E6D06&displaylang=en)|Marzo de 2012 |
+|[Lync 2010 (notas de versión](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=d76f8027-d97f-4336-adbc-7979c2b069b3)). aspx)|Enero de 2011 |
+|[Notas de la versión de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=782975c4-8610-46b6-9fc4-d1d30de7c76d)|Enero de 2011 |
+|[Archivo Léame de la herramienta de planeación de Lync Server 2010](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=c8ba3275-270f-4c0b-90bb-edc1d1216c2d)|Enero de 2011 |
+|[Diagramas de arquitectura de referencia del servidor perimetral 2010 de Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=13791)|Marzo de 2011 |
 
 ### <a name="resource-kit-technical-reference"></a>Kit de recursos (referencia técnica)
 
@@ -209,7 +209,7 @@ Visite el sitio de descarga del [Kit de recursos de Microsoft Lync Server 2010](
 Nombre de paquete/vínculo|Fecha de lanzamiento|
 |:--- |:--- |
 |[Chat grupal de Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=12480) |Noviembre de 2010 |
-|[Herramienta de administración del chat grupal de Lync Server 2010](https://www.microsoft.com/download/en/details.aspx?id=3610) |Noviembre de 2010 |
+|[Herramienta de administración de chat de grupo 2010 de Lync Server](https://www.microsoft.com/download/en/details.aspx?id=3610) |Noviembre de 2010 |
 |[Chat grupal de Lync 2010](https://www.microsoft.com/download/en/details.aspx?id=2651) |Noviembre de 2010 |
 
 ### <a name="trial-software"></a>Software de prueba

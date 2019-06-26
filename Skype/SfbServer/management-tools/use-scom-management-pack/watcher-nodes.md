@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumen: Instale y configure nodos de monitor para transacciones sintéticas de Skype empresarial Server.'
-ms.openlocfilehash: 11d99ac51ab3b6c3d2cffbe2061a2e0527bfc633
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277625"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221521"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar y configurar nodos de monitor
  
@@ -27,7 +27,7 @@ Los nodos de monitor son equipos que ejecutan periódicamente transacciones sint
   
 - **Valor predeterminado** Transacciones sintéticas que un nodo de observador ejecuta de forma predeterminada. Al crear un nuevo nodo de monitor, puede especificar qué transacciones sintéticas se ejecutarán. (Este es el propósito del parámetro tests usado por el cmdlet New-CsWatcherNodeConfiguration). Si no usa el parámetro tests cuando se crea el nodo de monitor, se ejecutarán automáticamente todas las transacciones sintéticas predeterminadas y no se ejecutará ninguna de las transacciones sintéticas no predeterminadas. Esto significa que, por ejemplo, el nodo de supervisor se configurará para ejecutar la prueba de prueba de CsAddressBookService, pero no se configurará para ejecutar la prueba de CsExumConnectivity de prueba.
     
-- **No predeterminado** Prueba que los nodos de los monitores no se ejecutan de forma predeterminada. Para obtener información detallada, vea la descripción del tipo predeterminado. Sin embargo, el nodo de monitor puede estar habilitado para ejecutar cualquiera de las transacciones sintéticas no predeterminadas. Esto se puede hacer cuando se crea el nodo de monitor (mediante el cmdlet New-CsWatcherNodeConfiguration) o en cualquier momento después de crear dicho nodo. Tenga en cuenta que muchas de las transacciones sintéticas que no son predeterminadas requieren pasos de configuración adicionales. Para obtener más información sobre estos pasos, consulte las instrucciones de configuración especiales para Las transacciones sintéticas. Para obtener más información sobre estos pasos, consulte [instrucciones especiales de configuración para transacciones sintéticas ](test-users-and-settings.md#special_synthetictrans).
+- **No predeterminado** Prueba que los nodos de los monitores no se ejecutan de forma predeterminada. Para obtener información detallada, vea la descripción del tipo predeterminado. Sin embargo, el nodo de monitor puede estar habilitado para ejecutar cualquiera de las transacciones sintéticas no predeterminadas. Esto se puede hacer cuando se crea el nodo de monitor (mediante el cmdlet New-CsWatcherNodeConfiguration) o en cualquier momento después de crear dicho nodo. Tenga en cuenta que muchas de las transacciones sintéticas que no son predeterminadas requieren pasos de configuración adicionales. Para obtener más información sobre estos pasos, consulte [Special Setup Instructions for Synthetic Transactions](test-users-and-settings.md#special_synthetictrans).
     
 - **Ampliado** Un tipo especial de transacción sintética no predeterminada. A diferencia de otras transacciones sintéticas, las pruebas extendidas se pueden ejecutar varias veces durante cada pasada. Esto es útil para comprobar el comportamiento, como varias rutas de voz de red telefónica conmutada (RTC) para un grupo. Puede configurarlo simplemente agregando varias instancias de una prueba extendida a un nodo de monitor.
     

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ff605901a1de253f6dbcfc8a245b2f97abf535b
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198280"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222041"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
@@ -180,9 +180,9 @@ Monitor de red es una herramienta que puede [Descargar de Microsoft](https://www
 
 3. Detener la captura.
 
-4. En el campo **filtro de visualización** , use la dirección IP de origen del equipo que realizó la llamada y perfeccione el filtro definiendo el valor de DSCP 46 (hex 0xb8) como criterio de búsqueda, como se muestra en el siguiente ejemplo:
+4. En el campo **filtro de visualización** , use la dirección IP de origen del equipo que realizó la llamada y perfeccione el filtro definiendo el valor de DSCP 46 (hex 0x2E) como criterio de búsqueda, como se muestra en el siguiente ejemplo:
 
-    Source == "192.168.137.201" AND IPv4.DifferentiatedServicesField == 0xb8
+    Source = = "192.168.137.201" e IPv4. DifferentiatedServicesField = = 0x2E
 
     ![Filtros de captura de pantalla en el cuadro de diálogo Mostrar filtro.] (media/Qos-in-Teams-Image4.png "Cuadro de diálogo filtro de visualización en monitor de red, que muestra los filtros que se van a aplicar.")
 

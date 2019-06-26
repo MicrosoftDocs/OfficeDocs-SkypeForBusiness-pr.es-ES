@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 11902a5d6ef768afa6d7bb1bba2f33b64757fef1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748446"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222096"
 ---
 # <a name="user-presence-in-teams"></a>Presencia de usuario en Teams
 
-La presencia es parte del perfil de un usuario en Microsoft Teams (y en todo el Office 365), e indica la disponibilidad y el estado actuales del usuario a otros usuarios de la organización. De forma predeterminada, cualquier persona de la organización que use Teams puede ver casi el tiempo casi real, tanto si otros usuarios están disponibles en línea como si no.
+La presencia es parte del perfil de un usuario en Microsoft Teams (y en todo el Office 365), e indica la disponibilidad y el estado actuales del usuario a otros usuarios de la organización. De forma predeterminada, cualquier persona de la organización que use Teams puede ver, casi en tiempo real, si otros usuarios están disponibles en línea.
 
 ## <a name="presence-states-in-teams"></a>Estados de presencia en Teams
 
@@ -56,10 +56,11 @@ Hay un tiempo de espera de 15 minutos de inactividad, después del cual el estad
 
 Los usuarios pueden especificar quién puede interrumpir (póngase en contacto con ellos invalidando la configuración de no molestar). Esta configuración está disponible en la aplicación.
 
-## <a name="teams-is-not-skype-for-business"></a>Teams no es Skype empresarial
+## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Configuración de administración de equipos comparada con Skype empresarial
 
-La siguiente configuración de administrador en Skype empresarial es diferente en Teams:
-- El uso compartido de presencia siempre está habilitado en Teams para los usuarios de la organización. La configuración de privacidad (decidir quién puede ver la presencia) no está disponible en Teams.
+La siguiente configuración de administración de Skype empresarial es diferente en Teams:
+
+- En Teams, el uso compartido de presencia siempre está habilitado para los usuarios de la organización. La configuración de privacidad (decidir quién puede ver la presencia) no está disponible en Teams.
 - El uso compartido de presencia con todos los usuarios (incluidos los servicios federados) siempre está habilitado para los usuarios en Teams. Su lista de contactos (si tenía una en Skype empresarial) está visible en **conversación > contactos** o en **llamadas > contactos**.
 - Las características de cliente no molestar y de avance siempre están habilitadas para los usuarios de Teams.
 - La integración de calendario (incluye fuera de oficina y otra información de calendario) siempre está habilitada para los usuarios de Teams si están integrados con Outlook.
@@ -67,7 +68,6 @@ La siguiente configuración de administrador en Skype empresarial es diferente e
 
 > [!NOTE]
 > La capacidad de un administrador de equipos para personalizar esta configuración no es compatible actualmente.
-
 
 ## <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 

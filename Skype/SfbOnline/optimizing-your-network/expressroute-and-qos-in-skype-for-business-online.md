@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: 36af4a817a106758fbe95fb91e03661b9e200b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e42cf42caafbb5ecd43b3660608a23d20cf8814e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299187"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221251"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute y QoS en Skype Empresarial Online
 
@@ -377,7 +377,7 @@ Es importante señalar que hay un error de coincidencia en la codificación de p
 
 El método alternativo para implementar QoS en una configuración de ExpressRoute es usar la lista de control de acceso (ACL) de red. Con este método, en lugar de que los extremos inserten las marcas DSCP apropiadas en el encabezado de cada paquete, el marcado lo puede realizar un enrutador de canal de subida, según el puerto UDP de origen. Es necesario configurar todos los conmutadores y enrutadores para que sean compatibles con QoS, para garantizar que se mantenga la configuración de DSCP. Lo que es más importante, el enrutador conectado a la red del proveedor de servicios tiene que mantener el DSCP en el encabezado de cada paquete, ya que el parámetro de DSCP es básicamente la instrucción para indicar al proveedor de servicios de red cómo tiene que tratar el paquete.
   
-Los intervalos de puertos recomendados para cada aplicación de Skype Empresarial se indican en la sección 2.6.1.1 de la guía [Planificación, supervisión y solución de problemas de red con Skype Empresarial Server](https://go.microsoft.com/fwlink/?LinkId=690286). Es importante coordinar esto con el enfoque general de la organización en relación con QoS, y se recomienda que esté informado de diferentes directivas de QoS y de posibles errores de coincidencia de marcado de paquetes.
+Los intervalos de puertos recomendados para cada aplicación de Skype empresarial se enumeran en la sección 2.6.1.1 de la guía de [planificación, supervisión y solución de problemas de red con Lync Server](https://go.microsoft.com/fwlink/?LinkId=690286) . Es importante coordinar esto con el enfoque general de la organización en relación con QoS, y se recomienda que esté informado de diferentes directivas de QoS y de posibles errores de coincidencia de marcado de paquetes.
   
 Aunque la principal razón por la que se usa QoS y los servicios de red MPLS es garantizar una experiencia del usuario adecuada para voz y vídeo en tiempo real, estas mismas capacidades también se pueden aplicar en las aplicaciones de datos. En lugar de considerar todas las aplicaciones por igual, las redes MPLS pueden permitir a las organizaciones otorgar prioridad a algunas aplicaciones de datos frente a otras. Con MPLS, se puede asignar prioridad a las aplicaciones en tiempo real, como transacciones con tarjeta de crédito o la pantalla compartida, frente a tráfico que no dependa tanto del tiempo, como el correo electrónico.
   

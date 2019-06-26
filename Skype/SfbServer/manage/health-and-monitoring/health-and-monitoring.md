@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Resumen: Obtenga información sobre la supervisión y las tareas de configuración de estado en Skype empresarial Server.'
-ms.openlocfilehash: 7328168a1a653586253766fb3fdae3156c9ea6b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b3595fcc42a2c2d94803fe1a9862bc726fe9d3ee
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305755"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221940"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Administrar el estado y la supervisión en Skype empresarial Server
 

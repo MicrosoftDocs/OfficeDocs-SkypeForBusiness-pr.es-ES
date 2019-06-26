@@ -14,25 +14,25 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: beb93d1bd369d98743ad54b9f5753278dea36ed8
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: 8f48309b5816c61668d240087c1f2815fc94ebe4
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748438"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221439"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Información general sobre la pertenencia dinámica para los equipos
 
-Microsoft Teams admite equipos asociados con grupos de Office 365 que usan pertenencia dinámica. La pertenencia dinámica permite a la pertenencia de un equipo definirse por una o más reglas que comprueban determinados atributos de usuario en Azure Active Directory (AAD). Los usuarios se agregan o quitan automáticamente a los equipos correctos a medida que los atributos de usuario cambian o se unen y abandonan el inquilino.
+Microsoft Teams es compatible con los equipos asociados con los grupos de Office 365 mediante la *pertenencia dinámica*. La pertenencia dinámica permite a la pertenencia de un equipo definirse por una o más reglas que comprueban determinados atributos de usuario en Azure Active Directory (Azure AD). Los usuarios se agregan o quitan automáticamente a los equipos correctos a medida que los atributos de usuario cambian o se unen y abandonan el inquilino.
 
 Con la pertenencia dinámica puede configurar Teams para determinados cohorts de usuarios de su organización. Entre los posibles escenarios se incluyen:
 - Un hospital puede crear equipos distintos para enfermeras, doctores y cirujanos para difundir las comunicaciones. Esto es especialmente importante si el hospital depende de empleados temporales.
 - Una universidad puede crear un equipo para todos los profesores dentro de una universidad determinada, entre ellos un profesorado de Adjunct que cambia con frecuencia.
 - Una línea aérea desea crear un equipo para cada vuelo (como un martes por la tarde sin detenerse en Chicago) y se les asigna o elimina un equipo de vuelo que cambia con frecuencia según sea necesario.
 
-Con esta característica, los miembros de un equipo dado se actualizan automáticamente según un conjunto específico de criterios, en lugar de administrar la pertenencia de forma manual. Para ello, es necesario que [un administrador](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) de inquilinos pueda asignar licencias de Azure ad Premium P1 y la pertenencia al equipo a las propiedades de AAD de un usuario, siempre que tenga un inquilino y una cuenta de administrador. 
+Con esta característica, los miembros de un equipo dado se actualizan automáticamente según un conjunto específico de criterios, en lugar de administrar la pertenencia de forma manual. Para ello, es necesario que [un administrador](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) de inquilinos pueda asignar licencias de Azure ad Premium P1 y la pertenencia al equipo a las propiedades de Azure ad de cualquier usuario siempre que tenga un inquilino y una cuenta de administrador.
 
-Microsoft Teams puede tardar desde unos minutos hasta 2 horas en reflejar los cambios dinámicos de pertenencia, una vez que se aplican al grupo de Office 365 de un equipo. 
+Microsoft Teams puede tardar desde unos minutos hasta 2 horas en reflejar los cambios dinámicos de pertenencia, una vez que se aplican al grupo de Office 365 de un equipo.
 
 > [!NOTE]
 > - Las reglas pueden definir quién es un miembro del equipo, pero no quién es el propietario de un equipo.

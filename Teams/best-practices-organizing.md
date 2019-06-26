@@ -4,7 +4,7 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/25/2017
+ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 description: Conozca las prácticas recomendadas para organizar equipos en Microsoft Teams de acuerdo con las necesidades de su organización.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a2a442eafc30eb8c83bf4731f5b48c6e59993b6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 281c7a1e28783f8b2a63e886064a8dc1c607513e
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194776"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221138"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================
@@ -28,34 +28,35 @@ ms.locfileid: "32194776"
 > [!TIP]
 > ¿Tiene un procedimiento recomendado o algún consejo acerca del uso de Microsoft Teams? Compártalo con nosotros a través de la sección **Comentarios** al final de este artículo.
 
-Los equipos son una colección de las personas que reúna alrededor de un objetivo común. Este "profesional" de personas puede estar dentro o en toda la organización.  ¿Qué los reúne es el resultado se que guían al hacia. Los miembros de este equipo pueden tener diferentes velocidades de trabajo o un comportamiento diferente en la creación de activos para otros miembros del equipo.  En nuestra experiencia a menudo colaboran rápidamente con otros préstamos a nuestro término, "escritura de alta velocidad".  
+Los equipos son colecciones de personas que reúnen un objetivo común. Este grupo de personas puede estar dentro de un departamento o de toda la organización. Lo que los reúne es el resultado de la conducción. Los miembros de un equipo pueden trabajar a un ritmo diferente o crear activos de forma diferente, pero en nuestra experiencia suelen colaborar rápidamente entre sí, un proceso que llamamos "alta velocidad de trabajo en equipo".  
 
-Antes de crear un equipo en nuestro producto, es aconsejable pensar en el objetivo, proyecto o elementos de trabajo y las personas de la organización que pueden ayudar a entregan en colaboración. Una vez creado, añada estas personas o grupos a un equipo para comenzar la colaboración. Es recomendable configurar varios propietarios para cada equipo (consulte [Administración de equipos](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499)).
+Antes de crear un equipo en nuestro producto, se recomienda pensar en el objetivo, el proyecto o los elementos de trabajo y los usuarios de la organización, que pueden ayudarle a entregarlo de manera colaborativa. Una vez que los haya identificado, agregue estas personas o grupos a un equipo para empezar a colaborar. Puesto que la pertenencia puede cambiar a lo largo del tiempo, es una buena idea designar varios propietarios para cada equipo. Para obtener más información, consulte [Administración de equipos](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
-Eche un vistazo a este vídeo corto para ver algunos ejemplos de cómo estructurar los equipos de propósito único o entre organizaciones:
+Eche un vistazo a este vídeo breve para ver algunos ejemplos de cómo estructurar equipos entre organizaciones o de propósito único:
 
 > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
 
-Puede comenzar con un pequeño número de miembros del equipo para recopilar ideas a medida que se avanza, y después agregar personas o grupos nuevos según avanza el trabajo. Una de las grandes características de Microsoft Teams es que cuando se agregan nuevas personas o grupos, pueden ponerse al día rápidamente con lo que ya se ha hablado, ya que las conversaciones y los archivos están disponibles para los usuarios cuando se unen. Intente evitar crear equipos diferentes que tengan el mismo conjunto de miembros, ya que es posible que este enfoque no proporcione el contexto deseado para lograr el objetivo o completar el proyecto. Outlook es una herramienta ideal para compartir estos tipos de comunicaciones en todos los grupos.
+## <a name="build-your-team-gradually"></a>Crear un equipo gradualmente
 
-Una vez que haya creado el equipo, es recomendable comenzar a pensar en las distintas áreas de conversación necesarias para avanzar hacia el objetivo y crear canales iniciales para que la gente sepa dónde pueden contribuir y encontrar conversaciones existentes. De a los canales nombres descriptivos para que sea más fácil comprender cuál es el objetivo de la conversación en el canal. Puede agregar nuevas fichas a los canales para agregar herramientas, como OneNote o PowerBI, o vínculos a páginas web y a otro contenido para que sea más fácil encontrar el contenido y compartir las ideas.
+Puede empezar con un pequeño número de miembros del equipo para recopilar ideas a medida que avanza y, a continuación, agregar personas o grupos nuevos a medida que avanza. Lo mejor de Microsoft Teams es que cuando se agregan nuevos grupos o personas, pueden ponerse al día rápidamente sobre lo que ya ha hablado, ya que las conversaciones y los archivos están disponibles para los usuarios, independientemente de Cuándo se unan. Intente evitar la creación de equipos diferentes que tengan el mismo conjunto de miembros, ya que este enfoque podría no proporcionar el enfoque deseado para proporcionar el proyecto o objetivo. Outlook es una herramienta estupenda para compartir esos tipos de comunicaciones de todo el grupo.
 
-Obtener más información sobre cómo [funcionan en los equipos](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) con estas sugerencias rápidas para los usuarios finales. 
+## <a name="create-channels-to-focus-discussions"></a>Crear canales para enfocar discusiones
 
-<a name="channel-best-practices"></a>Procedimientos recomendados de canal
-----------------------
+Una vez que haya creado su equipo, es una buena idea empezar a pensar en las diferentes áreas de conversaciones que desea tener para dirigirse al objetivo y crear canales iniciales, de modo que los usuarios sepan dónde colaborar y para encontrar las conversaciones existentes. Sea descriptivo al asignar nombres a los canales para facilitar la comprensión del contenido de la conversación en el canal. Puede agregar nuevas pestañas a los canales para agregar herramientas como OneNote, PowerBI o vínculos a páginas web y otro contenido para que las personas encuentren contenido y compartan sus pensamientos fácilmente.
 
-Nuestras prácticas recomendadas consiste en crear los equipos con un conjunto de miembros y más canales mayor.  Para mantener una experiencia de usuario de alta calidad es útil minimizar el número de equipos que requieren la participación de una persona.  Canales dentro de un equipo deben considerarse como temas o secuencias de trabajo que ayuda al equipo de organizar su trabajo para ofrecer en sus objetivos de combinación.  No hay ningún número específico de canales que se debe crear.  Cada equipo debe diseñar canales en función de su trabajo, las prioridades y estilo.  Las organizaciones más grandes es posible que desee crear equipos como "plantillas" para estandarizar la información que se capturan sobre tipos específicos de trabajo.  Esto es útil para la administración de los clientes estratégicos, administración de aulas, escenarios de atención médica, administración de notificación, administración de incidentes y otros escenarios adecuados a un sector específico.   
+Obtenga más información sobre cómo [trabajar en Teams](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams) con estos consejos rápidos para los usuarios finales. 
 
-Se crea el **canal General** para usted al crear el equipo de forma predeterminada. Hay muchos fines útiles a este canal:
+La guía de procedimientos recomendados es crear equipos con un conjunto más amplio de miembros y más canales. Para mantener una experiencia de usuario de alta calidad, es útil reducir el número de equipos que requieren la participación de una persona. Los canales de un equipo deben considerarse como temas o secuencias de trabajo para ayudar al equipo a organizar su trabajo para cumplir sus objetivos de Unión. No hay un número específico de canales que deben crearse. Cada equipo debe diseñar canales en función de su trabajo, sus prioridades y su estilo. Es posible que las organizaciones más grandes deseen crear equipos como "plantillas" para estandarizar la información que capturan sobre determinados tipos de trabajo. Esto es útil para la administración estratégica de clientes, la administración de aulas, los escenarios de atención médica, la administración de reclamaciones, la administración de incidentes y otros escenarios apropiados para un sector específico.
 
--  Use esta opción para compartir una visión general de lo que el equipo desea lograr como una carta de proyecto o quién es quién en el equipo 
--  Use este canal para nueva incorporación de miembros de equipo y otra información de alto nivel que podría resultar útil para un nuevo miembro del equipo. 
--  Usar para anuncios o configurar el conector de noticias de SharePoint para publicar los informes de estado moderno a este canal.  
--  Para los equipos nuevos o único propósito, puede ser el único canal al principio al decidir cómo los equipos pueden admitir mejor los objetivos.
+## <a name="use-the-general-channel"></a>Usar el canal general
 
-Actualmente, no puede quitar o no favorito el canal General. Al asignar nombres a los canales, recuerde que los canales se ordenarán por orden alfabético después del canal General. En los equipos con muchos canales usar la característica de "Favorito un canal" para controlar los canales que verá automáticamente al desplazarse al equipo. 
+De forma predeterminada, el **canal general** se crea cuando crea el equipo. Hay muchos propósitos útiles para este canal:
 
-Obtener más información sobre cómo [funcionan en los canales](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) con estas sugerencias rápidas para los usuarios finales. 
+- Utilícelo para compartir una descripción general de lo que el equipo quiere lograr, como una carta de proyecto o quién está en el equipo.
+- Utilícelo para la incorporación de nuevos miembros del equipo y otra información de alto nivel que un nuevo miembro del equipo pueda encontrar útil.
+- Úsela para los anuncios o configure el conector de noticias de SharePoint para publicar los informes de estado modernos en este canal.  
+- En el caso de los equipos nuevos o de un único propósito, es posible que sea el único canal desde el principio a medida que decida la forma en que Teams puede admitir mejor sus objetivos.
 
+Por el momento, no puede quitar ni quitar el favorito del canal general. Cuando asigne nombres a los canales, recuerde que los canales se ordenarán alfabéticamente después del canal general. En Teams con muchos canales, use la característica "un canal de favoritos" para controlar los canales que verá automáticamente cuando navegue al equipo. 
 
+Obtenga más información sobre cómo [trabajar en canales](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) con estas sugerencias rápidas para usuarios finales.

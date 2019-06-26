@@ -4,46 +4,44 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
-ms.date: 09/21/2018
+ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Los administradores pueden utilizar el centro de administración de Microsoft Teams para configurar la aplicación de las reuniones de Skype para trabajar con los equipos
+description: Los administradores pueden usar el centro de administración de Microsoft Teams para configurar la aplicación reuniones de Skype para que funcione con Teams
 MS.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8071b248219d2e69465ef19e8dc966e87de58754
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f8d79a7afa03d071984aac2bdca874ecde7703c8
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198358"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221694"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación Reuniones de Skype para trabajar con Teams
 ===================================================
 
-Después de que un usuario se actualiza a Microsoft Teams, los administradores pueden utilizar el centro de administración de Microsoft Teams para especificar la aplicación preferida que los usuarios utilizarán para unirse a Skype para reuniones de negocios.
+Después de que un usuario se actualiza a Microsoft Teams, los administradores pueden usar el centro de administración de Microsoft Teams para especificar la aplicación preferida que los usuarios usarán para unirse a reuniones de Skype empresarial.
 
-Para especificar el Skype para reuniones de aplicación como la aplicación preferida:
+Para especificar la aplicación de Skype para reuniones como la aplicación preferida:
 
 1. Inicie sesión en el centro de administración de Microsoft Teams.
-2. En el panel izquierdo, en **configuración de toda la organización**, seleccione **actualización los equipos**.
-3. En los equipos de la página, en **las preferencias de aplicación**de actualización, seleccione la **Aplicación de las reuniones de Skype** desde la lista desplegable **aplicación preferido para los usuarios participar en Skype para reuniones de negocios** .
+2. En el panel izquierdo, en **configuración de toda la organización**, seleccione **actualización**de Teams.
+3. En la página actualización de equipos, en **preferencias de aplicaciones**, seleccione **aplicación reuniones de Skype** en la **aplicación preferida para los usuarios para unirse a** la lista desplegable de reuniones de Skype empresarial.
 
-![Elija aplicación preferido para los usuarios participar en Skype para reuniones de negocios](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![Elige la aplicación preferida para que los usuarios se unan a reuniones de Skype empresarial](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
 
-Los usuarios que utilizan la aplicación de las reuniones de Skype con los equipos están sujetos a las siguientes limitaciones:
+Los usuarios que usan la aplicación reuniones de Skype con Teams están sujetos a las siguientes limitaciones:
 
-- Los usuarios no tienen ninguna opción para cambiar el dispositivo de vídeo.
-- Después de que un usuario se actualiza a los equipos, si el usuario está en una reunión mediante la aplicación de las reuniones de Skype y, a continuación, recibe una llamada en los equipos, la reunión en aplicación de las reuniones de Skype no se pondrá en espera. En su lugar, el usuario está conectado a ambas llamadas.
+- Los usuarios no tienen la opción de cambiar su dispositivo de video.
+- Después de que un usuario se actualiza a Teams, si el usuario está en una reunión con la aplicación reuniones de Skype y recibe una llamada en Teams, la reunión en la aplicación reuniones de Skype no se pone en espera. En su lugar, el usuario está conectado a ambas llamadas.
 
-## <a name="see-also"></a>Vea también
+## <a name="more-information"></a>Más información
 
-Para obtener más información acerca de la aplicación de las reuniones de Skype, vea:
-
-- [¿Qué es la aplicación de las reuniones de Skype (Skype para la aplicación empresarial de Web)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
+- [¿Qué es la aplicación reuniones de Skype (aplicación Web de Skype empresarial)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
 - [Skype Meetings App minimum network requirements](https://technet.microsoft.com/library/mt845808.aspx) (Requisitos de red mínimos de la aplicación Reuniones de Skype)

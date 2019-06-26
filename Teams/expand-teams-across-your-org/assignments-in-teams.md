@@ -15,12 +15,12 @@ description: Aprenda a administrar tareas en el centro de administración de Mic
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8317a038f110a096d2185e7c5ba668a55a6913a4
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: 1c29f703994794d75047a260fe5d62deddb2d937
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131523"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221260"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -66,7 +66,7 @@ Para habilitar correctamente Turnitin para su organización, necesitará ya una 
 Estas son algunas instrucciones para ayudarle a obtener esta información.
 
 La TurnitinApiUrl es la dirección de host de su consola de administración.
-Ejemplo. https:[]()//Your-tenant-Name.Turnitin.com
+Ejemplo. `https://your-tenant-name.turnitin.com`
 
 La consola de administración es donde puede crear una integración y una clave de API asociada con la integración.
 

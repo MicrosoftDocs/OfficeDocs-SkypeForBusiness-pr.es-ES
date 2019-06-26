@@ -14,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Crear o modificar regiones de red, sitios de red y asociar subredes de red en Skype empresarial Server. Todo lo que se usa para las características avanzadas de voz de telefonía: omisión de contenido multimedia, control de admisión de la llamada y enrutamiento basado en la ubicación.'
-ms.openlocfilehash: c4fdf8649c866aa63134f7d4fa28e70e68809f9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3ce0f4dcf011f57e25c4741c34135bc4ba62085a
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291203"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221486"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implementar regiones, sitios y subredes de red en Skype empresarial
 
 Crear o modificar regiones de red, sitios de red y asociar subredes de red en Skype empresarial Server. Todo lo que se usa para las características avanzadas de voz de telefonía: omisión de contenido multimedia, control de admisión de la llamada y enrutamiento basado en la ubicación.
 
-Las características avanzadas de Telefonía IP empresarial son [call admission control](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), [media bypass](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [ location-based routing](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md) y [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Para todas estas características, es necesario crear regiones de red, sitios de red y subredes. Por ejemplo, todas estas características requieren que cada una de las subredes de la topología estén asociadas a un sitio de red específico, y cada uno de los sitios de red debe estar asociado a una región de red. Para obtener más información acerca de estos términos, consulte [Network settings for the advanced Enterprise Voice features in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
+Las características avanzadas de telefonía empresarial son el [control de admisión de llamadas](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md), la omisión de [medios](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md), [el enrutamiento basado en la ubicación](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)y [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md). Para todas estas características, es necesario crear regiones de red, sitios de red y subredes. Por ejemplo, todas estas características requieren que cada una de las subredes de la topología estén asociadas a un sitio de red específico, y cada uno de los sitios de red debe estar asociado a una región de red. Para obtener más información sobre estas condiciones, consulte [configuración de red para las características de telefonía avanzada empresarial en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md).
 
 El control de admisión de llamadas y E9-1-1 tienen requisitos de configuración adicionales para los sitios de red:
 

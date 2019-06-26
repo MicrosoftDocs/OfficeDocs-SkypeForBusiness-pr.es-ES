@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Obtenga más información sobre la administración de grupos de servidores front-end en Skype empresarial Server, como la administración de grupos, pérdida de quórum y pasos especiales para grupos de servidores con tan solo dos servidores front-end.
-ms.openlocfilehash: debc0700a142789f542e4b4357da4427ce74c050
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297473"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221726"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidad y administración del grupo de servidores front-end
  
@@ -70,7 +70,7 @@ Para que un grupo de servidores front-end funcione, no puede estar en pérdida d
 |8-9  <br/> |4 cualesquiera de los primeros 7 servidores  <br/> |
 |10-12  <br/> |5 cualesquiera de los primeros 9 servidores  <br/> |
    
-En la tabla anterior, los "primeros servidores" son los servidores que se pusieron en primer lugar, cronológicamente, cuando el grupo se inició por primera vez. Para determinar estos servidores, puede usar el `Get-CsComputer` cmdlet con la ` -PoolFqdn` opción. Este cmdlet le mostrará los servidores en el orden en el que aparecen en la topología; los que se encuentran en la parte superior de la lista son los primeros servidores.
+En la tabla anterior, los "primeros servidores" son los servidores que se pusieron en primer lugar, cronológicamente, cuando el grupo se inició por primera vez. Para determinar estos servidores, puede usar el `Get-CsComputer` cmdlet con la `-PoolFqdn` opción. Este cmdlet le mostrará los servidores en el orden en el que aparecen en la topología; los que se encuentran en la parte superior de la lista son los primeros servidores.
   
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Pasos adicionales para comprobar si los grupos de servidores son funcionales
 

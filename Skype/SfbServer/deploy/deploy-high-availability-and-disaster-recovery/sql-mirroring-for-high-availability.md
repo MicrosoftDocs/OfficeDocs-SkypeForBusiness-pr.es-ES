@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar como mínimo SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información, consulte paquete de actualización acumulativa 9 para SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 5ca6f214aed476b2f84a433a87c3fa444025dc68
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49ccc2057641b23dffa309726bc5cdf0d74f6b08
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298542"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222119"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implementar el reflejo SQL para servidor back-end alta disponibilidad en Skype empresarial Server 2015
 
 
-Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar como mínimo SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información, consulte [paquete de actualización acumulativa 9 para SQL Server 2008 Service Pack 1 ](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
+Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar como mínimo SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información, consulte [paquete de actualización acumulativa 9 para SQL Server 2008 Service Pack 1](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=2083921).
 
 En general, la configuración de creación de reflejo de SQL entre los dos servidores back-end con un testigo requiere lo siguiente:
 
@@ -50,7 +50,7 @@ Con el reflejo de SQL, puede configurar la topología de creación de reflejos a
 > Usar el generador de topología o cmdlets para configurar y quitar la creación de reflejos de SQL solo se admite cuando los servidores principal, reflejado y testigo (si lo desea) pertenecen al mismo dominio. Si desea configurar la creación del reflejo de SQL entre servidores de dominios diferentes, consulte la documentación de SQL Server.
 
 > [!IMPORTANT]
-> Siempre que haga algún cambio en las conexiones entre reflejos de la base de datos back-end, deberá reiniciar todos los servidores front-end del grupo de servidores.  > para un cambio en la creación de reflejos (por ejemplo, para cambiar la ubicación de un reflejo), debe usar el generador de topologías para realizar estos tres pasos:
+> Siempre que haga algún cambio en las conexiones entre reflejos de la base de datos back-end, deberá reiniciar todos los servidores front-end del grupo de servidores.  > de un cambio en la creación de reflejos (como cambiar la ubicación de un reflejo), debe usar el generador de topología para realizar estos tres pasos:
 
 1. Quite reflejos del servidor reflejado antiguo.
 
@@ -59,7 +59,7 @@ Con el reflejo de SQL, puede configurar la topología de creación de reflejos a
 3. Publique la topología.
 
 > [!NOTE]
-> Hay que crear un recurso compartido de archivos en el que puedan escribirse los archivos reflejados, y el servicio en el que se ejecutan SQL Server y SQL Agent necesita acceso de lectura y escritura. Si el servicio de SQL Server se ejecuta en el contexto de servicio de red, puede \<agregar\>\\el\>dominio <SQLSERVERNAME $ de los servidores SQL principal y reflejado a los permisos de recursos compartidos. El $ es importante para identificar si se trata de una cuenta de equipo.
+> Hay que crear un recurso compartido de archivos en el que puedan escribirse los archivos reflejados, y el servicio en el que se ejecutan SQL Server y SQL Agent necesita acceso de lectura y escritura. Si el servicio de SQL Server se ejecuta en el contexto de servicio de red, puede \<agregar\> \\ el<\>de dominio SQLSERVERNAME $ de los servidores SQL principal y de espejo a los permisos de uso compartido. El $ es importante para identificar si se trata de una cuenta de equipo.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Para configurar el reflejo de SQL durante la creación de un grupo en el generador de topologías
 

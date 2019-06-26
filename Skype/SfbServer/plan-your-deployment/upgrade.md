@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Resumen: Obtenga información sobre lo que debe tener en cuenta al planear una actualización a Skype empresarial Server 2015. Descargue una prueba gratuita de Skype empresarial Server 2015 en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 931ac609dec370d03fe50034300346b7e41c5f56
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f7473bac98ede76763a3f5bda8aee3484c3c03f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296787"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222134"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planear la actualización a Skype Empresarial Server 2015
  
@@ -68,7 +68,7 @@ Cree un plan que incluya lo siguiente:
 1. Comprensión de su topología actual.
     
     > [!NOTE]
-    > Asegúrese de desinstalar la herramienta de administración de LRS para Lync Server 2013 antes de ejecutar la actualización local. La herramienta de administración LRS para Lync Server 2013 no puede coexistir con Skype empresarial Server 2015. Después de ejecutar la actualización local Instale la nueva herramienta de administración de LRS, consulte [portal web administrativo del sistema de Microsoft Lync Room para Skype empresarial Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807)
+    > Asegúrese de desinstalar la herramienta de administración de LRS para Lync Server 2013 antes de ejecutar la actualización local. La herramienta de administración LRS para Lync Server 2013 no puede coexistir con Skype empresarial Server 2015. Después de ejecutar la actualización en contexto, instale la nueva herramienta de administración de LRS. Para obtener más información, consulte [portal web administrativo del sistema de Microsoft Lync Room para Skype empresarial Server 2015](https://go.microsoft.com/fwlink/?LinkID=544807) .
   
 2. El grupo primario para la actualización.
     
@@ -148,7 +148,7 @@ Este método consiste en mover a los usuarios a otro grupo antes de comenzar la 
    - Para los servidores de los demás grupos, use Start-CSWindowsService.
     
 > [!NOTE]
->  Si no quiere actualizar las bases de datos existentes de archivado y supervisión, elimine esta dependencia antes de actualizar la topología. Si quiere crear nuevas bases de datos de archivado y supervisión, durante la actualización puede crear un nuevo almacén SQL y asociarlo al grupo. Puede encontrar los pasos que se describen en este artículo en el tema[actualización a Skype empresarial Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > actualización local no es compatible con la alta disponibilidad ni la recuperación ante desastres de Skype empresarial Server. Para evitar interrumpir los servicios de los usuarios, use el [método para mover usuarios (sin tiempo de inactividad del usuario)](upgrade.md#bkmk_MoveUsersMethod) para actualizar. > durante el proceso de actualización: XDS-Replica se coloca en la carpeta compartida local de la unidad de disco con más espacio disponible. Si el disco se desconecta posteriormente, pueden producirse problemas (por ejemplo, servicios que no se inicien).
+>  Si no quiere actualizar las bases de datos existentes de archivado y supervisión, elimine esta dependencia antes de actualizar la topología. Si quiere crear nuevas bases de datos de archivado y supervisión, durante la actualización puede crear un nuevo almacén SQL y asociarlo al grupo. Puede encontrar los pasos que se describen en este artículo en el tema[actualización a Skype empresarial Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > actualización local no es compatible con la alta disponibilidad ni la recuperación ante desastres de Skype empresarial Server. Para evitar interrumpir los servicios de los usuarios, use el [método para mover usuarios (sin tiempo de inactividad del usuario)](upgrade.md#bkmk_MoveUsersMethod) para actualizar. > durante el proceso de actualización: XDS-Replica se coloca en la carpeta compartida local de la unidad de disco con más espacio libre. Si el disco se desconecta posteriormente, pueden producirse problemas (por ejemplo, servicios que no se inicien).
   
 ### <a name="upgrade-order"></a>Orden de actualización
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 870e939602f5d954bfce64bc1f10d08838fc7c15
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: d36116cad009e7207ff4bbfc5d5617e0a3eff434
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667412"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221069"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -130,7 +130,7 @@ Si desea conocer más detalles sobre el inicio de la residencia de datos en Indi
 
 Para obtener más información sobre la residencia de datos de Canadá para Teams, consulte la publicación de blog de Varun Sagar, [Microsoft Teams lanza la residencia de datos de Canadá, Australia y Japón próximamente](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Canada-Data-Residency-Australia-and/ba-p/227178). 
 
-Para obtener más información sobre el lanzamiento de la residencia de datos de Australia y Japón para Teams, consulte la publicación de blog de Varun Sagar, [Microsoft Teams lanza la residencia de datos de Australia y Japón ](https://go.microsoft.com/fwlink/?linkid=867773). 
+Para obtener más información sobre el lanzamiento de la residencia de datos de Australia y Japón para Teams, consulte la publicación de blog de Varun Sagar, [Microsoft Teams lanza la residencia de datos de Australia y Japón](https://go.microsoft.com/fwlink/?linkid=867773). 
 
 Para obtener más información sobre el lanzamiento de la residencia de datos de Francia para Teams, consulte la publicación de blog de Varun Sagar, [Microsoft Teams lanza la residencia de datos de Francia](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-France-Data-Residency/ba-p/364466).
 

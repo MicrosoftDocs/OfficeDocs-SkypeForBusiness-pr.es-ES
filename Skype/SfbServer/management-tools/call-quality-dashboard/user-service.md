@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Resumen: Obtenga información sobre el servicio de usuario, que forma parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 3ef76d26faa27034d3f092608b52676332b254a1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6e0a6a58be98469458a8c8e7063402ff6477c35f
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274523"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221313"
 ---
 # <a name="user-service-for-cqd"></a>Servicio de usuario para el CQD
  
@@ -39,7 +39,7 @@ La API de repositorio incluye URI de API de REST que espera un valor entero para
   
 Además, la API de repositorio aceptará dos identificadores de usuario especiales en {userId} en los URI.
   
--  *default* : representa el usuario que está interactuando actualmente con la API. Esto permite que las aplicaciones tengan acceso al contenido del usuario actual sin mantener el seguimiento del valor real del identificador de usuario. Ejemplo: ` https://<portal>/QoERepositoryService/repository/user/default`.
+-  *default* : representa el usuario que está interactuando actualmente con la API. Esto permite que las aplicaciones tengan acceso al contenido del usuario actual sin mantener el seguimiento del valor real del identificador de usuario. Ejemplo: `https://<portal>/QoERepositoryService/repository/user/default`.
     
 -  *sistema* : representa al usuario del sistema. Esto permite que las aplicaciones tengan acceso al contenido del usuario del sistema sin conocer el valor real del identificador de usuario. Ejemplo: `https://<portal>/QoERepositoryService/repository/user/system`.
     
