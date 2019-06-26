@@ -19,14 +19,14 @@
 # Chat, equipos, canales y aplicaciones
 ## [Planear la implementación](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 ## [Información general de los equipos y canales](teams-channels-overview.md)
-## [Asignar miembros y propietarios de equipo en Microsoft Teams](assign-roles-permissions.md)
+## [Asignar miembros y propietarios de equipo en Teams](assign-roles-permissions.md)
+## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
 ## [Procedimientos recomendados para organizar los equipos en Teams](best-practices-organizing.md)
 ## [Crear un equipo que abarque toda la organización en Teams](create-an-org-wide-team.md)
 ## [Administrar la detección de equipos privados en Teams](manage-discovery-of-private-teams.md)
 ## [Compartir archivos en Teams](sharing-files-in-teams.md)
 ## [Administrar directivas de mensajería](messaging-policies-in-teams.md)
-## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
-## [Presence](presence-admins.md)
+## [La presencia del usuario en Teams](presence-admins.md)
 ## [Archivar o eliminar un equipo](archive-or-delete-a-team.md)
 
 
@@ -39,17 +39,17 @@
 ### [Agregar bots para chats personales, chats grupales y canales en Teams](add-bots.md)
 ### [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
 ### [Usar conectores de Office 365 y personalizados](Office-365-custom-connectors.md)
-### [Publicar aplicaciones en el catálogo de aplicaciones de inquilinos de Teams](tenant-apps-catalog-teams.md)
+### [Publicar aplicaciones en el catálogo de aplicaciones de espacios empresariales de Teams](tenant-apps-catalog-teams.md)
 ### [Certificación de aplicación](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configurar la aplicación Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
 ## Acceso de invitado
-### [Información general](guest-access.md)
+### [Sobre el acceso de invitado](guest-access.md)
 ### [Cómo se une un invitado a un equipo](guest-joins.md)
 ### [Cómo es la experiencia de invitado](guest-experience.md)
 ### [Autorizar el acceso de invitado en Teams](teams-dependencies.md)
-### [Activar o desactivar el acceso de invitado a Microsoft Teams](set-up-guests.md)
+### [Activar o desactivar el acceso de invitado en Teams](set-up-guests.md)
 ### [Administrar el acceso de invitado a Teams](manage-guests.md)
 ### [Agregar un invitado a un equipo](add-guests.md)
 ### [Ver los usuarios invitados de un equipo](view-guests.md)
