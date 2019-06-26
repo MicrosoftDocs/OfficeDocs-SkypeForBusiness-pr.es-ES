@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 458e6fc5fc788facb6ee900b9dd40be58428e08b
-ms.sourcegitcommit: 1786d4beccc8749e20709d2360d90e2bf7634925
+ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "35116028"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221539"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -44,13 +44,13 @@ Las aplicaciones son pestañas, bots, conectores o cualquier combinación de est
 
 #### <a name="default-apps"></a>Aplicaciones predeterminadas
 
-Estas aplicaciones (como Planner, Elogio y El Tiempo) las ofrece Teams. Si desea activar una aplicación, seleccione la casilla de verificación que corresponde a esa aplicación. Para desactivarla, anule la selección de dicha casilla. 
+Las aplicaciones predeterminadas (como Planner, Elogio y El Tiempo) las ofrece Teams. Si desea activar una aplicación, seleccione la casilla de verificación que corresponde a esa aplicación. Para desactivarla, anule la selección de dicha casilla.
 
 ![Captura de pantalla de la sección Aplicaciones predeterminadas.](media/teams-manage-features-in-office365-image1.png "Captura de pantalla de la sección Aplicaciones predeterminadas")
 
 #### <a name="external-apps"></a>Aplicaciones externas
 
-Estas aplicaciones las proporcionan terceros. Es posible configurar las siguientes opciones relacionadas con las aplicaciones externas.
+Las aplicaciones externas las proporcionan terceros. Es posible configurar las siguientes opciones relacionadas con las aplicaciones externas.
 
 ![Captura de pantalla de la sección Aplicaciones externas.](media/teams-manage-features-in-office365-image2.png "Captura de pantalla de la sección Aplicaciones externas, donde se muestran las opciones que se pueden activar o desactivar")
 
@@ -65,7 +65,7 @@ Puede controlar la configuración de usuario en toda la organización en el Cent
 
 ### <a name="external-access"></a>Acceso externo
 
-**Acceso externo** permite que los usuarios de Teams y Skype Empresarial se comuniquen con usuarios de fuera de la organización. Para configurar el acceso externo, vaya a [Permitir que los usuarios de Teams chateen y se comuniquen con usuarios de otra organización de Teams](let-your-teams-users-communicate-with-other-people.md).
+**Acceso externo** permite que los usuarios de Teams y Skype Empresarial se comuniquen con usuarios de fuera de su organización o dominio. Para configurar el acceso externo, vaya a [Permitir que los usuarios de Teams chateen y se comuniquen con usuarios de otra organización de Teams](let-your-teams-users-communicate-with-other-people.md).
 
 Para agregar o bloquear un dominio:
 

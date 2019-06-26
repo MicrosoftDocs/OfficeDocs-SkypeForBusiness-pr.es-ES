@@ -3,7 +3,7 @@ title: Problemas conocidos de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 5/10/2019
+ms.date: 6/25/2019
 ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0944d9419f0a3b174ef2c9a8bfd3b3dd50ac9a5e
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131435"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35222080"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -215,6 +215,10 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Diferencias de diseño del cliente móvil de Microsoft Teams  <br/> |Los equipos se muestran en una lista ordenada alfabéticamente y los canales no se pueden contraer en el cliente móvil.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/>|
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Problemas que pueden surgir al usar iOS 13 beta  <br/> |1. Las notificaciones de Teams no se activan.  Esto incluye chats, menciones y llamadas.  2. La vista previa del archivo no funciona con la compilación beta.  <br/> |No hay ninguna solución en este momento.  Estamos trabajando con desarrolladores de Apple para encontrar correcciones para estos problemas.  <br/> | 25/06/2019  <br/>|
 
 
 ## <a name="people"></a>Personas

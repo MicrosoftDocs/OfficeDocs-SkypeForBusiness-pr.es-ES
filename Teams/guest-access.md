@@ -16,17 +16,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e9bf9993311ae723557b8d6f8c5ab777ebccd7c
-ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
+ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
+ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34748391"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "35221671"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================
-
-## <a name="guest-access-overview"></a>Introducción al acceso de invitados
 
 El acceso de invitados es una de las características más solicitadas por los clientes. Esto es lo que puede hacer para seguir nuestro progreso en el acceso de invitados y compartir con nosotros sus opiniones:
 
@@ -34,6 +32,8 @@ El acceso de invitados es una de las características más solicitadas por los c
 - Obtenga más información sobre las próximas características nuevas o actualizadas en el [mapa de ruta de Microsoft Teams](https://aka.ms/teamsroadmap).
 - Háganos llegar sus ideas sobre cualquier aspecto en [Teams UserVoice](https://aka.ms/TeamsUserVoice).
 - Comparta su experiencia en la sección Comentarios que encontrará más abajo.
+
+## <a name="guest-access-overview"></a>Introducción al acceso de invitados
 
 El acceso de invitados permite que los equipos de su organización puedan colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales en uno o más espacios empresariales. Todo contacto que tenga una cuenta de correo electrónico empresarial o de consumidor (como Outlook o Gmail) puede participar como invitado en Teams con acceso total a los chats, las reuniones y los archivos del equipo.
 
@@ -59,7 +59,7 @@ Teams se basa en Grupos de Office 365 y proporciona a los grupos de Office 365 u
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Más información
-    
+
 [Contactar con soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)  
 
   [Acceso de invitado en Grupos de Office 365](https://support.office.com/es-ES/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6?ui=en-US&rs=en-US&ad=US#bkmk_usepowershell&PickTab=FAQ) 
