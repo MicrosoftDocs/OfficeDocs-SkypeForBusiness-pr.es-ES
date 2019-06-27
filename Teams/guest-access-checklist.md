@@ -15,17 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ec3fb391feefae9daa5ffaa8c7b5955b6552f93
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 51926629328d2c17a5b11c9b90b5083f5b9a5578
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221663"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253698"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitados de Teams
 ==========================================
 
 Use esta lista de comprobación para habilitar y configurar la característica de acceso de invitado en Microsoft Teams de acuerdo con las preferencias de su organización.
+
+> [!NOTE] 
+> Para las restricciones de colaboración [, vea Habilitar la colaboración externa B2B y administrar quién puede invitar a invitados](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
 
 ## <a name="understand-the-limitations-for-guests"></a>Comprender las limitaciones de los invitados
 
@@ -46,6 +49,9 @@ Para obtener más información, consulte [cuál es la experiencia de invitado](g
 ### <a name="guest-access-vs-external-access-federation"></a>Diferencias entre el acceso de invitados y el acceso externo (federación)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+
+> [!NOTE] 
+> Actualmente, Microsoft Teams no es compatible con el rol invitado. Como mínimo, el botón de alternancia "los miembros pueden invitar" debe establecerse en "sí" para que el acceso de invitados funcione en Microsoft Teams. Si establece "los miembros pueden invitar" a "no" y, después, habilita el acceso de invitado en Office 365 grupos y Microsoft Teams, los administradores pueden controlar invitaciones de invitados a su directorio. Una vez que los invitados estén en el directorio, los miembros que no sean administradores podrán agregarlos a teams que sean propietarios del equipo.
 
 ## <a name="if-your-guests-are-seeing-license-errors"></a>Si los invitados experimentan errores de licencia
 

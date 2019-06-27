@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Aprenda a habilitar o deshabilitar la posibilidad de que los autores de llamada anónimos puedan unirse a una reunión desde el Centro de administración de Teams. '
-ms.openlocfilehash: 246eda17bd9e373a0dcecb4a75aa4f51efc8ae22
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 522970533565673b3fc68bcd5138006a6f6cf9d0
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344189"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253829"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Iniciar una audioconferencia por teléfono sin PIN en Microsoft Teams
 
@@ -60,13 +60,13 @@ Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.co
 
 - Si desea restablecer el PIN, consulte [Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin-in-teams.md).
     
-- Si se ha habilitado el acceso anónimo o la posibilidad de iniciar una reunión sin PIN:
+- Si el acceso anónimo, o si no necesita un PIN para iniciar una reunión, está deshabilitado:
     
   - Si la reunión no ha empezado (no hay nadie todavía en la reunión): se le preguntará al autor de la llamada si es el organizador. Si indica que lo es, se le solicitará el PIN. La reunión se iniciará cuando lo especifique y el usuario se unirá a ella.
     
   - Si la reunión ha empezado (ya hay personas en la reunión): no se le preguntará al autor de la llamada si es el organizador y en ningún momento se le solicitará el PIN. La reunión ya ha empezado y el autor de la llamada se unirá a ella.
     
-- Si se ha deshabilitado el acceso anónimo o no se solicita el PIN para iniciar una reunión:
+- Si el acceso anónimo, o si no necesita un PIN para iniciar una reunión, está habilitado:
     
   - Si la reunión no ha empezado (no hay nadie todavía en la reunión): no se le preguntará al autor de la llamada si es el organizador y en ningún momento se le solicitará el PIN. Como la configuración del organizador estará desactivada, la reunión se iniciará y los autores de llamada anónimos se unirán a ella.
     

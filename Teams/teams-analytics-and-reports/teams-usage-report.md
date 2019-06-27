@@ -3,7 +3,7 @@ title: Informe de uso de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/24/2019
+ms.date: 06/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Aprenda a usar el informe de uso de Teams en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de Teams en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7fd54932badf4496eebd92399caeff98f70ecd97
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 185e86ec85b386a06e6acec59f3737dd2ffbb697
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548720"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253821"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams
 
@@ -31,7 +31,7 @@ El informe de uso de Teams en el centro de administración de Microsoft Teams pr
 
 ## <a name="view-the-report"></a>Ver el informe
 
-1. Vaya al centro de administración de Microsoft Teams, en el panel de navegación izquierdo, haga clic en **Análisis e informes** y, en **Informe**, seleccione **Uso de Teams**. 
+1.In el centro de administración de Microsoft Teams, en la barra de navegación izquierda, haga clic en **análisis & informes**y, a continuación, en **Informe**, seleccione **uso de equipos**.
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
@@ -43,7 +43,7 @@ El informe de uso de Teams en el centro de administración de Microsoft Teams pr
 |**1**   |El informe de actividad de uso de Teams se puede visualizar para ver las tendencias de los últimos 7 o 28 días. |
 |**2**   |Cada informe tiene la fecha del momento en que se generó. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |
 |**3**   |<ul><li>En el gráfico, el eje X es el intervalo de fechas seleccionado para el informe específico.</li> <li> El eje Y es el número de elementos activos o actividad.</li> </ul>Mueva el puntero sobre el punto que representa un elemento o actividad en una fecha determinada para ver el número de instancias de ese elemento o actividad en esa fecha.|
-|**4**   |Puede filtrar lo que aparece en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, haga clic en **total de usuarios activos**, **Teams & canales usuarios activos**, **canales activos**o **mensajes** para ver solo la información relacionada con cada uno de ellos. Al cambiar esta selección no se cambia la información de la tabla. |
+|**4**   |Puede filtrar lo que aparece en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, haga clic en **total de usuarios activos**, **equipos & canales usuarios activos**, **canales activos**o **mensajes** para ver solo la información relacionada con cada uno de ellos. Al cambiar esta selección no se cambia la información de la tabla. |
 |**5**   |La tabla le proporciona un desglose del uso por equipo. <ul><li>**Nombre del equipo** es el nombre para mostrar del equipo. Puede hacer clic en el nombre del equipo para ir a la página de configuración del equipo en el centro de administración de Microsoft Teams. </li> <li>**Privacidad** hace referencia a si es un equipo privado o público.</li> <li>**Usuarios activos** es el número de usuarios activos en el equipo en el período de tiempo especificado.</li><li>**Invitados** es el número de invitados en el equipo en el período de tiempo especificado.</li> </li> </ul>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
 |**6**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.|
 |**7**   |Puede exportar el informe a un archivo CSV para analizarlos sin conexión. Haga clic en **exportar a Excel**y, a continuación, en la pestaña **descargas** , haga clic en **Descargar** para descargar el informe cuando esté listo.<br>![Captura de pantalla de la pestaña descargas que muestra los informes exportados para descargar](../media/teams-reports-export-to-csv.png)|

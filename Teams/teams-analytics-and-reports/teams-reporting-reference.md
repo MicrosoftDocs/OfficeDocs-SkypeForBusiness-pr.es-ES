@@ -3,7 +3,7 @@ title: Análisis e informes de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -14,38 +14,38 @@ f1keywords: ms.teamsadmincenter.analyticsandreports.overview
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Obtenga información acerca de los informes de los equipos que están disponibles en el centro de administración de Microsoft Teams.
+description: Obtenga más información sobre los informes de teams que están disponibles en el centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
+ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225019"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "35253797"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
-Un nuevo análisis y creación de informes de experiencia para Microsoft Teams está disponible en el centro de administración de Microsoft Teams. Puede ejecutar diferentes informes para obtener entendimiento cómo usa los equipos de los usuarios de su organización. Por ejemplo, puede ver cuántos usuarios comunican a través de canal y mensajes de chat y los tipos de dispositivos que usan para conectarse a los equipos. Su organización puede usar la información de los informes para comprender los patrones de uso mejor, ayudan a tomar decisiones empresariales y a informar a los esfuerzos de aprendizaje y la comunicación.
+En el centro de administración de Microsoft Teams está disponible una nueva experiencia de análisis y creación de informes para Microsoft Teams. Puede ejecutar diferentes informes para obtener información sobre cómo los usuarios de su organización usan Teams. Por ejemplo, puede ver cuántos usuarios se comunican a través de los mensajes de canal y chat, así como los tipos de dispositivos que usan para conectarse a teams. Su organización puede usar la información de los informes para comprender mejor los patrones de uso, ayudar a tomar decisiones empresariales e informar de los esfuerzos de aprendizaje y comunicación.
 
-## <a name="how-to-access-the-reports"></a>Cómo obtener acceso a los informes
+## <a name="how-to-access-the-reports"></a>Cómo acceder a los informes
 
-Para obtener acceso a los informes, debe ser un administrador global en Office 365, Administrador de servicios de los equipos o Skype para Admin de negocio.  Vaya al centro de administración de Microsoft Teams, en el panel de navegación izquierdo, seleccione **informes de análisis &** y, a continuación, en la sección de **informe**, elija el informe que desea ejecutar.
+Para acceder a los informes, debe ser un administrador global en Office 365, administrador de servicios de equipo o administrador de Skype empresarial.  Vaya al centro de administración de Microsoft Teams, en el navegación de la izquierda, seleccione **análisis & informes**y, a continuación, en **Informe**, elija el informe que desea ejecutar.
 
 > [!NOTE]
-> Los informes en el centro de administración de Microsoft Teams son independientes de los informes de actividad para los equipos que forman parte de los informes de Office 365 en el centro de administración de Office 365. Para obtener más información acerca de los informes de actividad en el centro de administración de Office 365, vea [uso de informes de actividad para los equipos de Microsoft](../teams-activity-reports.md)
+> Los informes del centro de administración de Microsoft Teams son independientes de los informes de actividades de los equipos que forman parte de los informes de Office 365 en el centro de administración de Microsoft 365. Para obtener más información sobre los informes de actividades en el centro de administración de Microsoft 365, consulte [informes de actividades de Teams en el centro de administración de microsoft 365](../teams-activity-reports.md)
 
-## <a name="teams-reporting-reference"></a>Equipos de referencia de informes
+## <a name="teams-reporting-reference"></a>Referencia de informes de equipos
 
-Aquí es una lista de los informes de los equipos disponibles en el centro de administración de Microsoft Teams e información general de la información que está disponible en cada informe.
+Esta es una lista de los informes de equipos disponibles en el centro de administración de Microsoft Teams y una descripción general de la información que está disponible en cada informe.
 
-Constantemente estamos mejorando la experiencia de reporting y agregar características y funciones de los equipos. Con el tiempo, se podrá crear funciones adicionales en los informes y adición de nuevos informes en el centro de administración de Microsoft Teams.
+Mejoramos continuamente la experiencia de creación de informes de Teams y agregamos características y funcionalidades. A lo largo del tiempo, crearemos capacidades adicionales en los informes y agregaremos nuevos informes en el centro de administración de Microsoft Teams.
 
 |Informe  |¿Qué se mide? |
 |---------|---------|
-|[Informes de uso de Teams](teams-usage-report.md)  |  Usuarios activos<br/>Usuarios activos en los equipos y canales<br/>Canales de activos<br/>Mensajes<br/>Configuración de privacidad de los equipos<br/>Invitados en un equipo   |
-|[Informe de actividad de usuario de Teams](user-activity-report.md)  |  un usuario ha participado en las llamadas 1:1<br/>Mensajes de un usuario registrado en una charla de equipo<br/>Los mensajes de un usuario registrado en un chat privado<br/>Última fecha de actividad de un usuario     |
-|[Informe de uso de dispositivos de Teams](device-usage-report.md)   |  Usuarios de Windows<br/>Usuarios de Mac<br/>usuarios de iOS<br/>Usuarios de teléfonos Android     |
+|[Informes de uso de Teams](teams-usage-report.md)  |  Usuarios activos<br/>Usuarios activos de equipos y canales<br/>Canales activos<br/>Mensajes<br/>Configuración de privacidad de Teams<br/>Invitados de un equipo   |
+|[Informe de actividad de usuario de Teams](user-activity-report.md)  |  1:1 llama a un usuario en el que participó<br/>Mensajes que un usuario ha publicado en un chat de equipo<br/>Mensajes que un usuario ha publicado en un chat privado<br/>Fecha de la última actividad de un usuario     |
+|[Informe de uso de dispositivos de Teams](device-usage-report.md)   |  Usuarios de Windows<br/>Usuarios de Mac<br/>usuarios de iOS<br/>Usuarios de teléfono Android     |
 
 > [!NOTE]
-> Los informes de los equipos muestran datos de usuarios activos y equipos de activos. Por ejemplo, si un usuario de la organización no está activo en los equipos durante el intervalo de fechas especificado para un informe, los datos para que el usuario no está incluidos en dicho informe.
+> Los informes de equipos muestran los datos de los usuarios activos y de los equipos activos. Por ejemplo, si un usuario de la organización no está activo en Teams durante el intervalo de fechas especificado para un informe, los datos de ese usuario no se incluyen en el informe.
