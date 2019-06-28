@@ -3,7 +3,6 @@ title: Administrar la detección de equipos privados en Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/20/2019
 ms.reviewer: shpoddar
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,16 +16,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo controlar si los usuarios de Microsoft Teams pueden descubrir los equipos privados mediante sugerencias de la galería de equipos y resultados de la búsqueda.
-ms.openlocfilehash: c938830f4f59345863d3f84570b387f07f4b08fc
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 099daaed42e108e63a5f8334bd2ed89744479dbd
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221235"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347879"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Administrar la detección de equipos privados en Microsoft Teams
 
-> [!INCLUDE [preview feature](includes/preview-feature.md)] 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Los administradores y los propietarios del equipo pueden controlar si los usuarios de Microsoft Teams pueden descubrir equipos privados de su organización. Cuando se detecta un equipo privado, se muestra en los resultados de la búsqueda y se incluye en las sugerencias de la galería de equipo junto con los equipos públicos de Teams. Esto facilita que los usuarios busquen y encuentren a los equipos privados a los que desean unirse. Los usuarios pueden solicitar unirse a un equipo privado y un propietario del equipo puede aprobar o denegar la solicitud.
 
@@ -64,7 +63,7 @@ En Teams, vaya al equipo privado, haga clic en **más opciones** > **administrar
 
 ![Captura de pantalla de la configuración de detección para equipos privados existentes](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell-coming-soon"></a>Usar PowerShell (próximamente)
+### <a name="using-powershell"></a>Usar PowerShell
 
 Use el cmdlet **[set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** para desactivar o activar la configuración de detección de un equipo privado existente. Este es un ejemplo de cómo hacer que un equipo sea reconocible:
 ```
@@ -80,7 +79,7 @@ Establezca el parámetro **AllowPrivateTeamDiscovery** en **true** para permitir
 
 De forma predeterminada, **AllowPrivateTeamDiscovery** se establece en **true** para todos los usuarios de una organización.
 
-En este ejemplo, creamos una directiva denominada VendorPolicy que impide que los usuarios descubran equipos privados que se hacen detectables y, a continuación, asignamos la Directiva a un usuario denominado vendoruser1. 
+En este ejemplo, creamos una directiva denominada VendorPolicy que impide que los usuarios descubran equipos privados que se hacen detectables y, a continuación, asignamos la Directiva a un usuario denominado vendoruser1.
 ```
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy

@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Aprenda qué tipos de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Office 365 y cómo elegir uno para su organización.  '
-ms.openlocfilehash: 0439b1f18569ffb04fed7a0f2d00100fcbc7778e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d6656eb317f0a90a11376e4d69935fe2a7e75384
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288169"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347998"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -38,15 +38,15 @@ Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md
 
 ## <a name="tenant-dial-plan-scope"></a>Alcance de un plan de marcado inquilino
 
-El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los ámbitos son diferentes a los de una implementación local de Skype empresarial Server. Los clientes obtienen el plan de marcado adecuado a través de la configuración de abastecimiento provista automáticamente cuando los usuarios se registran en Skype Empresarial Online. Como administrador, usted puede gestionar y asignar niveles de alcance del plan de marcado con PowerShell remoto.
+El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los ámbitos son diferentes a los de una implementación local de Skype empresarial Server. Los clientes obtienen el plan de marcado adecuado mediante la configuración de aprovisionamiento que se proporciona automáticamente cuando los usuarios inician sesión en Teams o Skype empresarial online. Como administrador, usted puede gestionar y asignar niveles de alcance del plan de marcado con PowerShell remoto.
 
-En Skype empresarial online, hay dos tipos de planes de marcado: ámbito de servicio y espacio empresarial (que es para su organización) en el ámbito. Se define un plan de marcado de ámbito de servicio para cada país o región donde esté disponible el sistema telefónico de Office 365. A cada usuario se le asigna automáticamente el plan de marcado por país del servicio que coincide con la ubicación de uso de Office 365 asignada al usuario. No puede cambiar el plan de marcado por país del servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado país del servicio. A medida que se aprovisionan clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado por país del servicio y el plan de marcado de inquilino con ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
+En Teams y Skype empresarial online, hay dos tipos de planes de marcado: ámbito de servicio y espacio empresarial (que es para su organización) en el ámbito. Se define un plan de marcado de ámbito de servicio para cada país o región donde esté disponible el sistema telefónico de Office 365. A cada usuario se le asigna automáticamente el plan de marcado por país del servicio que coincide con la ubicación de uso de Office 365 asignada al usuario. No puede cambiar el plan de marcado por país del servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado país del servicio. A medida que se aprovisionan clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado por país del servicio y el plan de marcado de inquilino con ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
 
 Los planes de marcado de inquilino se pueden dividir en dos alcances: el alcance de inquilino o el alcance de usuario. Si un inquilino define y asigna un plan de marcado de alcance de usuario, ese usuario recibirá un plan de marcado efectivo del plan de marcado del país de servicio del usuario y el plan de marcado del usuario asignado. Si un inquilino define un plan de marcado de alcance de inquilino pero no asigna un plan de marcado de alcance de usuario, ese usuario recibirá un plan de marcado efectivo del plan de marcado del país de servicio del usuario y el plan de marcado de inquilino.
 
-El siguiente es el modelo de herencia de los planes de marcado en Skype Empresarial Online.
+A continuación se encuentra el modelo de herencia de los planes de marcado en Teams y Skype empresarial online.
 
-![How dial plans are inherited in Skype for Business Online.](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
+![Cómo se heredan los planes de marcado en Teams y Skype empresarial online](media/b2744f33-ebbd-4c23-bfba-1747312ab178.png)
 
 Los siguientes son los posibles planes de marcado efectivos:
 
@@ -85,9 +85,6 @@ Para los planes de marcado de usuario, debe especificar un nombre descriptivo qu
 Le recomendamos que escriba el nombre común y reconocible de la ubicación geográfica o el grupo de usuarios a los que se aplica el plan de marcado correspondiente.
 
 ### <a name="external-access-prefix"></a>Prefijo de acceso externo
-
-> [!CAUTION]
-> El prefijo de acceso externo aún no es compatible. 
 
 Puede especificar un prefijo de acceso externo de hasta 4 caracteres (#, * y 0-9) si los usuarios deben marcar un dígito adicional o más (por ejemplo, 9) para obtener una línea externa.
 
@@ -158,4 +155,4 @@ La siguiente tabla muestra reglas de normalización de muestra que se escriben c
 [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

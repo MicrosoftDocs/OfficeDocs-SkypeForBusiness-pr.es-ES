@@ -7,106 +7,79 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: aa2ec464-3481-4bbb-8c14-e13e18093df5
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Obtenga información sobre cómo obtener nuevos números para equipos o Skype empresarial, trasladar o transferir números existentes y cómo mostrar los cambios a sus usuarios. '
-ms.openlocfilehash: bb71585464eb86b30024cef0a3f55fb14f648a75
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: 'Obtenga información sobre cómo obtener nuevos números para los equipos, trasladarlos o transferirlos, y cómo mostrar los cambios a los usuarios. '
+ms.openlocfilehash: 59c5fc176f29a7fd12628d1778af6112afee0c84
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494653"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347927"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
 [] Para poder configurar los usuarios de su organización para que puedan recibir y realizar llamadas telefónicas, debe usar el Centro de administración de Skype Empresarial para obtener los números de teléfono.
   
-Hay tres maneras de obtener nuevos números de usuario:
+Hay tres formas de obtener números de usuarios:
 
-- **Use el centro de administración de Skype empresarial.** Para algunos países o regiones, puede obtener números para sus usuarios con el centro de administración de Skype empresarial, vea "obtener números de teléfono nuevos para sus usuarios" a continuación.
+- **Use el centro de administración de Microsoft Teams.** En el caso de algunos países o regiones, puede obtener números para los usuarios mediante el centro de administración de Microsoft Teams. Consulte [obtener nuevos números de teléfono para los usuarios](#get-new-phone-numbers-for-your-users).
     
-- **Port your existing numbers.** You can port or transfer existing numbers from your current service provider or phone carrier to Office 365. See [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) or [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information to help you do this.  
+- **Portar los números existentes.** Puede trasladar o transferir números existentes de su proveedor de servicios u operador telefónico actual. Consulte [Transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) o [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información que le ayude a hacer esto.  
   
-- **Use a request form for new numbers.** Sometimes (depending on your country/region) you won't be able to get your new phone numbers using the Skype for Business admin center, or you will need specific phone numbers or area codes. If so, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](/microsoftteams/manage-phone-numbers-for-your-organization) for more information.
-    
-Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar dichos números. Puede buscar por **País o región**, **Estado** y **Ciudad** y, a continuación, escribir la cantidad de números de teléfono que necesitará para los usuarios.
+- **Usar un formulario de solicitud para los nuevos números.** A veces, en función de su país o región, no podrá obtener números de teléfono nuevos a través del centro de administración de Microsoft Teams, o bien necesitará números de teléfono o códigos de área específicos. Si es así, tendrás que descargar un formulario y enviarlo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
-> Si necesita ayuda para configurar los números de teléfono para su organización, puede [ponerse en contacto con el servicio de asistencia al cliente](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+> Si necesita ayuda para configurar números de teléfono para su organización, puede [ponerse en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Get new phone numbers for your users
 
-![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
-  
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
     
-2. Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.
-    
-3. En el navegación de la izquierda, vaya a**números de teléfono**de **voz** > , haga clic en **Agregar nuevo número** ![el botón](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)agregar, que es un icono más y, a continuación, haga clic en **nuevos números de usuario**.
-    
-    > [!IMPORTANT]
-    > Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Skype empresarial, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .
-    
-4. En la página **Agregar nuevos números de usuario**, use los menús desplegables para elegir lo siguiente:
-    
-   - **País o región**
-    
-   - **Estado o región**
-    
-   - **Ciudad**
-    
-5. En **Cantidad**, introduzca el número de números de teléfono que quiere para su organización y haga clic en **Agregar** para crear una reserva. Tiene 10 minutos para seleccionar sus números de teléfono y, si tarda más de estos 10 minutos, estos números de teléfono se devolverán al grupo de números de teléfono.
-    
-    > [!NOTE]
-    > Puede ver la cantidad de números de teléfono, que se basa en el número de licencias, en una lista junto a **Total de números de usuario que puede adquirir**. Para obtener más información, consulte [¿Cuántos números de teléfono puede obtener?](/microsoftteams/how-many-phone-numbers-can-you-get)
-  
-6. Puede hacer clic en **Mostrar números** para ver la lista completa de números de teléfono. Esto resulta útil si no desea seleccionar un número de teléfono concreto de la lista.
-    
-7. Seleccione los números de teléfono que desee y haga clic en **Adquirir números**.
+1. En el navegación izquierdo, vaya a **** > **números de teléfono**de voz y, a continuación, haga clic en **obtener números nuevos**.
+2. Escriba un nombre para el pedido y, si lo desea, agregue una descripción.
+3. En la página ubicación y cantidad, haga lo siguiente:
+    1. En **país o región**, seleccione un país o una región.
+    1. En **tipo de número**, seleccione el tipo de número que desee.
+    1. En **Ubicación**, seleccione una ubicación. Si necesita crear una nueva ubicación, haga clic en **Agregar una ubicación**.
+    1. En **código de área**, seleccione un código de área. 
+    2. En **cantidad**, introduzca la cantidad de números que desea para su organización y, a continuación, haga clic en **siguiente** para seleccionar los números.
+4. Seleccione los números que desee. Tienes 10 minutos para seleccionar tus números de teléfono y realizar tu pedido. Si tardas más de 10 minutos, los números de teléfono se devolverán al conjunto de números.
+5. Cuando esté listo para realizar su pedido, haga clic en **realizar pedido**.
     
     > [!IMPORTANT]
-    > The number of phone numbers for users (subscribers) is equal to the total number of **Domestic Calling Plan** and/or **Domestic and International Calling Plan** licenses you have assigned multiplied by 1.1, plus 10 additional phone numbers. For example, if you have 50 users in total with a Domestic Calling Plan and/or Domestic and International Calling Plan, you can acquire **65** phone numbers **(50 x 1.1 + 10)**. For details, see [How many phone numbers can you get?](/microsoftteams/how-many-phone-numbers-can-you-get). If you need to get more telephone numbers than this, please contact [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). 
+    > La cantidad de números de teléfono de los usuarios (suscriptores) es igual al número total de licencias de planes **nacionales de llamadas** y/o **nacionales e internacionales** que ha asignado multiplicado por 1,1, además de 10 números de teléfono adicionales. Por ejemplo, si tiene 50 usuarios en total con un plan de llamadas nacionales o un plan de llamadas nacionales e internacionales, puede adquirir **65** números de teléfono **(50 x 1,1 + 10)**. Para obtener más información, consulte ¿cuántos [números de teléfono puede obtener?](/microsoftteams/how-many-phone-numbers-can-you-get) Si necesita obtener más números de teléfono, [póngase en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
   
    **Port or transfer phone numbers from your service provider or phone carrier**
   
-- If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) to transfer your phone numbers over to Skype for Business Online.
+- Si necesita 999 o menos números de teléfono para los usuarios, puede usar el portal heredado en el centro de administración de Microsoft Teams. Siga los pasos que [se indican en transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) para transferir los números de teléfono a teams.
     
 - Si tiene más de 999 números de teléfono de los que necesita realizar la portabilidad, consulte [Enviar manualmente una solicitud de servicio personalizado](/skypeforbusiness/manually-submit-a-custom-service-request) para enviar una solicitud de portabilidad del servicio o solicitar que todos esos números de teléfono se transfieran a Office 365.
     
 ## <a name="show-phone-numbers-for-your-organization"></a>Mostrar los números de teléfono para su organización
 
-![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams** 
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
-    
-2. Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.
-    
-3. En el panel de navegación izquierdo, vaya a **Voz** > **Números de teléfono**. Los números de teléfono que haya elegido para su organización se mostrarán en **Número**.
-    
-    > [!NOTE]
-    > Puede ver números de teléfono específicos y el tipo de números en las columnas **Asignados** y **Tipo de número**.
+En el navegación de la izquierda, vaya a**números de teléfono** de **voz** > para ver los números de la organización, incluida la ubicación, el tipo de número y la información de estado.
   
 ## <a name="what-else-do-you-need-to-know-about-users-phone-numbers"></a>¿Qué más necesita saber sobre los números de teléfono del usuario?
-
-- Para adquirir números de teléfono, debe usar la página Números nuevos para ver, buscar y reservar dichos números. Puede buscar por País o región, Estado o región y Ciudad y, a continuación, escribir la cantidad de números de teléfono que necesitará para los usuarios.****
     
-- Después de obtener los números de teléfono, deberá asignar uno a cada usuario. Consulte [Asignar un número de teléfono en Skype Empresarial](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
+- Después de obtener los números de teléfono, tendrá que asignar un número a cada uno de los usuarios. Consulte [Asignar un número de teléfono en Skype Empresarial](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- Puede usar la página **Números de teléfono** para ver la lista de números de teléfono disponibles en la columna **Número**, para consultar si el número de teléfono está asignado o no, en la columna **Asignado**, así como la ubicación para el número de teléfono en la columna **Ubicación**.
+- Puede usar la página **números de teléfono** en el centro de administración del equipo de Microsoft para ver la lista de números de teléfono disponibles en la columna **número de teléfono** , ver si el número de teléfono se ha asignado en la columna **Estado** y la ubicación de la número de teléfono en la columna **Ubicación** . 
 
 > [!NOTE]
-> Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+> Si necesita obtener más números de teléfono, [póngase en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
     
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -118,7 +91,4 @@ Debe usar la página **Números nuevos** para ver, buscar, adquirir y reservar d
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
- 
+[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

@@ -7,132 +7,81 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo de sus equipos o de usuarios de Skype empresarial para que las empresas y los clientes puedan llamar.
-ms.openlocfilehash: ea2135a095a60d6da37ce4db0fb443f2e9a74154
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para los usuarios de su equipo, de modo que los usuarios de fuera de la empresa y los clientes puedan llamar.
+ms.openlocfilehash: 4536beb4e5dc11e579f2a6ef016e0c3f94e426a6
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493901"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347950"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un teléfono móvil de un usuario
 
-Al configurar planes de llamadas en Office 365, se asignan números de teléfono a los usuarios. 
+Al configurar planes de llamadas, se asignan números de teléfono a los usuarios. En Microsoft Teams, el número de teléfono que asigne se muestra cuando un usuario hace clic en **llamadas**.
 
-En el cliente de Microsoft Teams, se mostrará el número de teléfono que se asigna al hacer clic en **Llamadas**.
+![Número de teléfono del usuario que se muestra en Teams.](media/teams-phone-number.png)
 
-![Número de teléfono del usuario que se muestra en Microsoft Teams.](media/teams-phone-number.png)
-
-En el cliente de Skype empresarial, el número de teléfono que asigne se mostrará en el cuadro **teléfono del trabajo** y un usuario no podrá cambiarlo.
+Cuando configura usuarios para que puedan realizar y recibir llamadas telefónicas, primero debe usar el centro de administración de Microsoft Teams y asignar un número de teléfono. Si es necesario, puede cambiar o quitar el número de teléfono.
   
-![Work Phone Number is Greyed Out.](media/5212fa64-b55c-4398-9709-a334f3ffa749.png)
-  
-> [!IMPORTANT]
-> Si un usuario desea [cambiar su número de teléfono para Skype empresarial](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) y el número de teléfono de la aplicación de Skype empresarial no se puede cambiar o está atenuado, significa que un administrador lo ha establecido y que no puede cambiarlo.
-  
-
-
-Al configurar usuarios para que puedan realizar y recibir llamadas telefónicas, primero debe usar el centro de administración de Skype empresarial y asignar un número de teléfono, pero puede cambiar o quitar el número de teléfono si lo necesita.
-  
-Para obtener información sobre cómo obtener planes de llamada en Office 365 y su coste, vea [Licencias complementarias de Skype for Business y Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Para obtener información sobre cómo obtener planes de llamadas en Teams y cuánto cuestan, vea [licencias complementarias](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)de Teams.
   
 > [!NOTE]
-> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
+> Una de las formas de ver si un usuario tiene una licencia asignada es ir al centro de administración de Microsoft Teams > **usuarios**. Si se asigna una licencia, se indicará en la página.  También puede usar el centro de administración de Office 365.
   
- ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
+## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
  
-![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
- 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
     
-2. Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.
-    
-3. En el navegación de la izquierda **** > , haga clic en**usuarios de voz**.
-   > [!NOTE]
-   > Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Skype empresarial, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .
- 
-   
-    
-4. En la página **Usuarios de voz**, busque y seleccione el usuario o los usuarios a los que desea asignar un número de teléfono.
-    
-5. En el panel Acción, haga clic en **Asignar número**.
-    
-6. En la página **asignar número** , en la lista **Seleccione el número que desea asignar** , seleccione el número de teléfono para el usuario.
-    
-    > [!TIP]
-    > Si no ve ningún número de teléfono en la lista, primero debe [obtener números de teléfono para los usuarios](/microsoftteams/getting-phone-numbers-for-your-users) . O bien, si usa el **Centro de administración de Skype for Business** > **Voz** > página de**Números de teléfono**, haga clic en **Agregar**y, a continuación, haga clic en **Nuevo número de usuario**. 
-  
-7. Para asignar o cambiar la dirección de emergencia asociada, en **Seleccionar ubicación de emergencia validada**, seleccione la ubicación de la lista o, si tiene muchas ubicaciones definidas, escriba el nombre de la ciudad en el cuadro de búsqueda y haga clic en **Buscar**.
-    
-8. Después de asignar el número de teléfono y la ubicación de emergencia, haga clic en **Guardar**.
-    
+1. En el navegación izquierdo, haga clic en**números de teléfono**de **voz** > .
+2. En la página **números de teléfono** , seleccione un número sin asignar en la lista y, a continuación, haga clic en **Editar**.  
+3. En el panel de **edición** , en **asignado a**, busque el usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **asignar**.
+4. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia**, busque y seleccione la ubicación.
+6. Haga clic en **Guardar **.
     > [!NOTE]
-    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
+    > Debido a la latencia entre Office 365 y Teams, los usuarios pueden tardar hasta 24 horas en habilitarse. Si, después de 24 horas, si el número de teléfono no se ha asignado correctamente, [póngase en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md). Estamos aquí para ayudarle.
   
-
-
- ## <a name="change-a-phone-number-for-a-user"></a>Cambiar el número de teléfono de un usuario
+## <a name="change-a-phone-number-for-a-user"></a>Cambiar el número de teléfono de un usuario
  
-![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
- 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
     
-2. Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.
-    
-3. En el navegación de la izquierda **** > , haga clic en**usuarios de voz**.
-    
-4. En la página **Usuarios de voz**, busque y seleccione el usuario o los usuarios cuyos números de teléfono desea cambiar.
-    
-5. En el panel de acciones, en **número asignado**, haga clic en **cambiar**. 
-    
-6. En la página **Asignar número**, haga clic en **Cambiar número**.
-    
-7. En la página **Asignar número**, en **Seleccione el número que desea asignar**, use la lista para seleccionar el nuevo número de teléfono. 
-    
-8. Para cambiar la dirección de emergencia asociada, haga clic en **Cambiar ubicación**y, a continuación, en **cambiar dirección de emergencia a**, seleccione la ubicación de la lista o bien, si tiene muchas ubicaciones definidas, escriba el nombre de la ciudad en el cuadro de búsqueda y haga clic en **Buscar**.
-    
+1. En el navegación de la izquierda, haga clic en **usuarios**, busque y haga doble clic en el usuario que desee, haga clic en **cuenta**y, a continuación, en **información general**, anote el número de teléfono asignado al usuario.
+2. En el navegación izquierdo, haga clic en**números de teléfono**de **voz** > .
+3. En la página **números de teléfono** , seleccione el número que identificó en el paso 1 y, a continuación, haga clic en **Editar**.  
+4. En el panel de **edición** , en **asignado a**, haga clic en la **X** para quitar el usuario.
+5. Haga clic en **Guardar **.
+6. En la página **números de teléfono** , seleccione un número sin asignar en la lista y, a continuación, haga clic en **Editar**.  
+7. En el panel de **edición** , en **asignado a**, busque el usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **asignar**.
+8. Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia**, busque y seleccione la ubicación.
 9. Haga clic en **Guardar **.
-    
 
-
- ## <a name="remove-a-phone-number-from-a-user"></a>Quitar un número de teléfono de un usuario
+## <a name="remove-a-phone-number-from-a-user"></a>Quitar un número de teléfono de un usuario
  
-![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
- 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
-    
-2. Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.
-    
-3. En el navegación de la izquierda **** > , haga clic en**usuarios de voz**.
-    
-4. En la página **Usuarios de voz**, busque y seleccione el usuario o los usuarios cuyos números de teléfono desea quitar.
-    
-5. En el panel de acciones, en **número asignado**, haga clic en **quitar**. 
-    
-6. En la página **¿Quiere quitar el número asignado seleccionado?**, haga clic en **Sí**.
-    
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
+1. En el navegación de la izquierda, haga clic en **usuarios**, busque y haga doble clic en el usuario que desee, haga clic en **cuenta**y, a continuación, en **información general**, anote el número de teléfono asignado al usuario.
+2. En el navegación izquierdo, haga clic en**números de teléfono**de **voz** > .
+3. En la página **números de teléfono** , seleccione el número que identificó en el paso 2 y, a continuación, haga clic en **Editar**.  
+4. En el panel de **edición** , en **asignado a**, haga clic en la **X** para quitar el usuario.
+5. Haga clic en **Guardar **.
+    
 ## <a name="related-topics"></a>Temas relacionados
+
 [¿Qué es la validación de direcciones?](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
 [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
-  
- 
+[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

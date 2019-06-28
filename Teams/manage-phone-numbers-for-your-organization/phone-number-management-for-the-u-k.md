@@ -20,23 +20,23 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Reino Unido para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 547489c5371639b4195861b1f62edc218efea722
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en el Reino Unido (RU) para Microsoft Teams.
+ms.openlocfilehash: 900ebd3e7579e01a40e4c7f0ef273c81d5abbd33
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274019"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347911"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Administración de números de teléfono para Reino Unido
 
-Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Reino Unido para Skype Empresarial Online y Microsoft Teams. 
+Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en el Reino Unido para Microsoft Teams. 
   
 Para obtener más información, consulte [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization.md).
   
 |**¿Qué acción desea realizar?**|**Descargue los formularios correctos**|
 |:-----|:-----|
-|Obtener nuevos números de teléfono de usuario o de servicio que no se muestran en el centro de administración de Skype empresarial.   <br/> |Descargue este formulario.  [Nueva solicitud de número de teléfono del Reino Unido (v. 4.0) (en-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-u.k.-(v.4.0)-(en-us).pdf?raw=true) </br>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
+|Obtener nuevos números de teléfono de usuario o de servicio que no se muestran en el centro de administración de Microsoft Teams.   <br/> |Descargue este formulario.  [Nueva solicitud de número de teléfono del Reino Unido (v. 4.0) (en-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-u.k.-(v.4.0)-(en-us).pdf?raw=true) </br>Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
 |Obtener números de teléfono transferidos a nosotros.  <br/> |Descargue uno de estos formularios: <br/> [Carta de autorización (LOA) para Reino Unido (números geográficos) (v.2.0)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(geographic-numbers)-(v.2.0)-(en-us).pdf?raw=true) <br/> [Carta de autorización (LOA) para Reino Unido (números no geográficos) (v.2.1)(en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-the-u.k.-(non-geographic-numbers)-(v.2.1)-(en-us).pdf?raw=true) <br/> <br/> Rellénelo y [envíenoslo](mailto:ptneu@microsoft.com).  <br/> |
 |Publicar o anular la publicación de números de teléfono en el directorio telefónico nacional.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de teléfono que quiere publicar o quitar de esta guía. <br/> |
 |Cambiar el número de un usuario a un número de servicio.  <br/> |[Envíenos](mailto:ptneu@microsoft.com) la lista de números de usuario que quiere convertir en números de servicio. <br/> |
@@ -49,7 +49,7 @@ Para obtener más información, consulte [Administrar los números de teléfono 
 
 [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)
   
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
  
 
   
