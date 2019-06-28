@@ -7,132 +7,81 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 91089761-cb87-4119-885b-3713840dd9f7
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
+- Teams_ITAdmin_Help
 - Strat_SB_PSTN
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo de sus equipos o de usuarios de Skype empresarial para que las empresas y los clientes puedan llamar.
-ms.openlocfilehash: ea2135a095a60d6da37ce4db0fb443f2e9a74154
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo para los usuarios de su equipo, de modo que los usuarios de fuera de la empresa y los clientes puedan llamar.
+ms.openlocfilehash: 4536beb4e5dc11e579f2a6ef016e0c3f94e426a6
+ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493901"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35347950"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a><span data-ttu-id="ca35e-103">Asignar, cambiar o quitar un teléfono móvil de un usuario</span><span class="sxs-lookup"><span data-stu-id="ca35e-103">Assign, change, or remove a phone number for a user</span></span>
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a><span data-ttu-id="2ced2-103">Asignar, cambiar o quitar un teléfono móvil de un usuario</span><span class="sxs-lookup"><span data-stu-id="2ced2-103">Assign, change, or remove a phone number for a user</span></span>
 
-<span data-ttu-id="ca35e-104">Al configurar planes de llamadas en Office 365, se asignan números de teléfono a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="ca35e-104">When you set up Calling Plans in Office 365, you assign phone numbers to your users.</span></span> 
+<span data-ttu-id="2ced2-104">Al configurar planes de llamadas, se asignan números de teléfono a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="2ced2-104">When you set up Calling Plans, you assign phone numbers to your users.</span></span> <span data-ttu-id="2ced2-105">En Microsoft Teams, el número de teléfono que asigne se muestra cuando un usuario hace clic en **llamadas**.</span><span class="sxs-lookup"><span data-stu-id="2ced2-105">In Microsoft Teams, the phone number you assign is listed when a user clicks **Calls**.</span></span>
 
-<span data-ttu-id="ca35e-105">En el cliente de Microsoft Teams, se mostrará el número de teléfono que se asigna al hacer clic en **Llamadas**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-105">In the Microsoft Teams client, the phone number you assign will be listed when they click **Calls**.</span></span>
+![Número de teléfono del usuario que se muestra en Teams.](media/teams-phone-number.png)
 
-![Número de teléfono del usuario que se muestra en Microsoft Teams.](media/teams-phone-number.png)
-
-<span data-ttu-id="ca35e-107">En el cliente de Skype empresarial, el número de teléfono que asigne se mostrará en el cuadro **teléfono del trabajo** y un usuario no podrá cambiarlo.</span><span class="sxs-lookup"><span data-stu-id="ca35e-107">In the Skype for Business client, the phone number you assign will be listed in the **Work Phone** box and can't be changed by a user.</span></span>
+<span data-ttu-id="2ced2-107">Cuando configura usuarios para que puedan realizar y recibir llamadas telefónicas, primero debe usar el centro de administración de Microsoft Teams y asignar un número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="2ced2-107">When you're setting up users so they can make and receive phone calls, you must first use the Microsoft Teams admin center and assign a phone number.</span></span> <span data-ttu-id="2ced2-108">Si es necesario, puede cambiar o quitar el número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="2ced2-108">You can change or remove the phone number if you need to.</span></span>
   
-![Work Phone Number is Greyed Out.](media/5212fa64-b55c-4398-9709-a334f3ffa749.png)
-  
-> [!IMPORTANT]
-> <span data-ttu-id="ca35e-109">Si un usuario desea [cambiar su número de teléfono para Skype empresarial](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) y el número de teléfono de la aplicación de Skype empresarial no se puede cambiar o está atenuado, significa que un administrador lo ha establecido y que no puede cambiarlo.</span><span class="sxs-lookup"><span data-stu-id="ca35e-109">If a user wants to [change his or her phone number for Skype for Business](https://support.office.com/article/20e03cc1-c023-4e5d-bafd-064ddb59ed5e) and the phone number in the Skype for Business app can't be changed or is grayed out, that means an admin has set it for them and it can't be changed by them.</span></span>
-  
-
-
-<span data-ttu-id="ca35e-110">Al configurar usuarios para que puedan realizar y recibir llamadas telefónicas, primero debe usar el centro de administración de Skype empresarial y asignar un número de teléfono, pero puede cambiar o quitar el número de teléfono si lo necesita.</span><span class="sxs-lookup"><span data-stu-id="ca35e-110">When you are setting up users so they can make and receive phone calls, you must first use the Skype for Business admin center and assign a phone number, but you can change or remove the phone number if you need to.</span></span>
-  
-<span data-ttu-id="ca35e-111">Para obtener información sobre cómo obtener planes de llamada en Office 365 y su coste, vea [Licencias complementarias de Skype for Business y Microsoft Teams](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span><span class="sxs-lookup"><span data-stu-id="ca35e-111">To learn how to get Calling Plans in Office 365 and how much they cost, see [Skype for Business and Microsoft Teams add-on licensing](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).</span></span>
+<span data-ttu-id="2ced2-109">Para obtener información sobre cómo obtener planes de llamadas en Teams y cuánto cuestan, vea [licencias complementarias](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)de Teams.</span><span class="sxs-lookup"><span data-stu-id="2ced2-109">To learn how to get Calling Plans in Teams and how much they cost, see [Teams add-on licensing](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="ca35e-p101">One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center.</span><span class="sxs-lookup"><span data-stu-id="ca35e-p101">One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center.</span></span> 
+> <span data-ttu-id="2ced2-110">Una de las formas de ver si un usuario tiene una licencia asignada es ir al centro de administración de Microsoft Teams > **usuarios**.</span><span class="sxs-lookup"><span data-stu-id="2ced2-110">One way to see whether a user has a license assigned is by going to the Microsoft Teams admin center > **Users**.</span></span> <span data-ttu-id="2ced2-111">Si se asigna una licencia, se indicará en la página.</span><span class="sxs-lookup"><span data-stu-id="2ced2-111">If a license is assigned, it will be indicated on the page.</span></span>  <span data-ttu-id="2ced2-112">También puede usar el centro de administración de Office 365.</span><span class="sxs-lookup"><span data-stu-id="2ced2-112">You can also use the Office 365 admin center.</span></span>
   
- ## <a name="assign-a-phone-number-to-a-user"></a><span data-ttu-id="ca35e-115">Asignar un número de teléfono a un usuario</span><span class="sxs-lookup"><span data-stu-id="ca35e-115">Assign a phone number to a user</span></span>
+## <a name="assign-a-phone-number-to-a-user"></a><span data-ttu-id="2ced2-113">Asignar un número de teléfono a un usuario</span><span class="sxs-lookup"><span data-stu-id="2ced2-113">Assign a phone number to a user</span></span>
  
-<span data-ttu-id="ca35e-116">![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**</span><span class="sxs-lookup"><span data-stu-id="ca35e-116">![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
- 
-1. <span data-ttu-id="ca35e-117">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="ca35e-117">Sign in to Office 365 with your work or school account.</span></span>
+<span data-ttu-id="2ced2-114">![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**</span><span class="sxs-lookup"><span data-stu-id="2ced2-114">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
     
-2. <span data-ttu-id="ca35e-118">Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-118">Go to **Microsoft Teams admin center** > **Legacy portal**.</span></span>
-    
-3. <span data-ttu-id="ca35e-119">En el navegación de la izquierda \*\*\*\* > , haga clic en**usuarios de voz**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-119">In the left navigation, click **Voice** > **Voice users**.</span></span>
-   > [!NOTE]
-   > <span data-ttu-id="ca35e-120">Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Skype empresarial, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .</span><span class="sxs-lookup"><span data-stu-id="ca35e-120">For you to see the **Voice** option in the left navigation in the Skype for Business admin center, you must first buy at least one **Enterprise E5 license**, one **Phone System** add-on license, or one **Audio Conferencing** add-on license.</span></span>
- 
-   
-    
-4. <span data-ttu-id="ca35e-121">En la página **Usuarios de voz**, busque y seleccione el usuario o los usuarios a los que desea asignar un número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="ca35e-121">On the **Voice users** page, locate and select the user or users that you want to assign a phone number to.</span></span>
-    
-5. <span data-ttu-id="ca35e-122">En el panel Acción, haga clic en **Asignar número**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-122">In the Action pane, click **Assign number**.</span></span>
-    
-6. <span data-ttu-id="ca35e-123">En la página **asignar número** , en la lista **Seleccione el número que desea asignar** , seleccione el número de teléfono para el usuario.</span><span class="sxs-lookup"><span data-stu-id="ca35e-123">On the **Assign number** page in the **Select number to assign** list, select the phone number for the user.</span></span>
-    
-    > [!TIP]
-    > <span data-ttu-id="ca35e-124">Si no ve ningún número de teléfono en la lista, primero debe [obtener números de teléfono para los usuarios](/microsoftteams/getting-phone-numbers-for-your-users) .</span><span class="sxs-lookup"><span data-stu-id="ca35e-124">If you don't see any phone numbers listed, you need to [get phone numbers for your users](/microsoftteams/getting-phone-numbers-for-your-users) first.</span></span> <span data-ttu-id="ca35e-125">O bien, si usa el **Centro de administración de Skype for Business** > **Voz** > página de**Números de teléfono**, haga clic en **Agregar**y, a continuación, haga clic en **Nuevo número de usuario**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-125">Or, if you use the **Skype for Business admin center** > **Voice** > **Phone numbers** page, click **Add**, and then click **New user numbers**.</span></span> 
-  
-7. <span data-ttu-id="ca35e-126">Para asignar o cambiar la dirección de emergencia asociada, en **Seleccionar ubicación de emergencia validada**, seleccione la ubicación de la lista o, si tiene muchas ubicaciones definidas, escriba el nombre de la ciudad en el cuadro de búsqueda y haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-126">To assign or change the associated emergency address, under **Select validated emergency location**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.</span></span>
-    
-8. <span data-ttu-id="ca35e-127">Después de asignar el número de teléfono y la ubicación de emergencia, haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-127">After you pick the phone number and emergency location, click **Save**.</span></span>
-    
+1. <span data-ttu-id="2ced2-115">En el navegación izquierdo, haga clic en**números de teléfono**de **voz** > .</span><span class="sxs-lookup"><span data-stu-id="2ced2-115">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
+2. <span data-ttu-id="2ced2-116">En la página **números de teléfono** , seleccione un número sin asignar en la lista y, a continuación, haga clic en **Editar**.</span><span class="sxs-lookup"><span data-stu-id="2ced2-116">On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.</span></span>  
+3. <span data-ttu-id="2ced2-117">En el panel de **edición** , en **asignado a**, busque el usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **asignar**.</span><span class="sxs-lookup"><span data-stu-id="2ced2-117">In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.</span></span>
+4. <span data-ttu-id="2ced2-118">Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia**, busque y seleccione la ubicación.</span><span class="sxs-lookup"><span data-stu-id="2ced2-118">To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.</span></span>
+6. <span data-ttu-id="2ced2-119">Haga clic en \*\*Guardar \*\*.</span><span class="sxs-lookup"><span data-stu-id="2ced2-119">Click **Save**.</span></span>
     > [!NOTE]
-    > <span data-ttu-id="ca35e-p103">Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help!</span><span class="sxs-lookup"><span data-stu-id="ca35e-p103">Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help!</span></span> 
+    > <span data-ttu-id="2ced2-120">Debido a la latencia entre Office 365 y Teams, los usuarios pueden tardar hasta 24 horas en habilitarse.</span><span class="sxs-lookup"><span data-stu-id="2ced2-120">Because of the latency between Office 365 and Teams, it can possibly take up to 24 hours for users to be enabled.</span></span> <span data-ttu-id="2ced2-121">Si, después de 24 horas, si el número de teléfono no se ha asignado correctamente, [póngase en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).</span><span class="sxs-lookup"><span data-stu-id="2ced2-121">If after 24 hours, if the phone number isn't assigned correctly, [contact the PSTN service desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).</span></span> <span data-ttu-id="2ced2-122">Estamos aquí para ayudarle.</span><span class="sxs-lookup"><span data-stu-id="2ced2-122">We're here to help!</span></span>
   
-
-
- ## <a name="change-a-phone-number-for-a-user"></a><span data-ttu-id="ca35e-131">Cambiar el número de teléfono de un usuario</span><span class="sxs-lookup"><span data-stu-id="ca35e-131">Change a phone number for a user</span></span>
+## <a name="change-a-phone-number-for-a-user"></a><span data-ttu-id="2ced2-123">Cambiar el número de teléfono de un usuario</span><span class="sxs-lookup"><span data-stu-id="2ced2-123">Change a phone number for a user</span></span>
  
-<span data-ttu-id="ca35e-132">![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**</span><span class="sxs-lookup"><span data-stu-id="ca35e-132">![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="2ced2-124">![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**</span><span class="sxs-lookup"><span data-stu-id="2ced2-124">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
+    
+1. <span data-ttu-id="2ced2-125">En el navegación de la izquierda, haga clic en **usuarios**, busque y haga doble clic en el usuario que desee, haga clic en **cuenta**y, a continuación, en **información general**, anote el número de teléfono asignado al usuario.</span><span class="sxs-lookup"><span data-stu-id="2ced2-125">In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.</span></span>
+2. <span data-ttu-id="2ced2-126">En el navegación izquierdo, haga clic en**números de teléfono**de **voz** > .</span><span class="sxs-lookup"><span data-stu-id="2ced2-126">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
+3. <span data-ttu-id="2ced2-127">En la página **números de teléfono** , seleccione el número que identificó en el paso 1 y, a continuación, haga clic en **Editar**.</span><span class="sxs-lookup"><span data-stu-id="2ced2-127">On the **Phone numbers** page, select the number that you identified in step 1, and then click **Edit**.</span></span>  
+4. <span data-ttu-id="2ced2-128">En el panel de **edición** , en **asignado a**, haga clic en la **X** para quitar el usuario.</span><span class="sxs-lookup"><span data-stu-id="2ced2-128">In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.</span></span>
+5. <span data-ttu-id="2ced2-129">Haga clic en \*\*Guardar \*\*.</span><span class="sxs-lookup"><span data-stu-id="2ced2-129">Click **Save**.</span></span>
+6. <span data-ttu-id="2ced2-130">En la página **números de teléfono** , seleccione un número sin asignar en la lista y, a continuación, haga clic en **Editar**.</span><span class="sxs-lookup"><span data-stu-id="2ced2-130">On the **Phone numbers** page, select an unassigned number in the list, and then click **Edit**.</span></span>  
+7. <span data-ttu-id="2ced2-131">En el panel de **edición** , en **asignado a**, busque el usuario por nombre para mostrar o nombre de usuario y, a continuación, haga clic en **asignar**.</span><span class="sxs-lookup"><span data-stu-id="2ced2-131">In the **Edit** pane, under **Assigned to**, search for the user by display name or user name, and then click **Assign**.</span></span>
+8. <span data-ttu-id="2ced2-132">Para asignar o cambiar la ubicación de emergencia asociada, en **Ubicación de emergencia**, busque y seleccione la ubicación.</span><span class="sxs-lookup"><span data-stu-id="2ced2-132">To assign or change the associated emergency location, under **Emergency location**, search for and then select the location.</span></span>
+9. <span data-ttu-id="2ced2-133">Haga clic en \*\*Guardar \*\*.</span><span class="sxs-lookup"><span data-stu-id="2ced2-133">Click **Save**.</span></span>
+
+## <a name="remove-a-phone-number-from-a-user"></a><span data-ttu-id="2ced2-134">Quitar un número de teléfono de un usuario</span><span class="sxs-lookup"><span data-stu-id="2ced2-134">Remove a phone number from a user</span></span>
  
-1. <span data-ttu-id="ca35e-133">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="ca35e-133">Sign in to Office 365 with your work or school account.</span></span>
-    
-2. <span data-ttu-id="ca35e-134">Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-134">Go to **Microsoft Teams admin center** > **Legacy portal**.</span></span>
-    
-3. <span data-ttu-id="ca35e-135">En el navegación de la izquierda \*\*\*\* > , haga clic en**usuarios de voz**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-135">In the left navigation, click **Voice** > **Voice users**.</span></span>
-    
-4. <span data-ttu-id="ca35e-136">En la página **Usuarios de voz**, busque y seleccione el usuario o los usuarios cuyos números de teléfono desea cambiar.</span><span class="sxs-lookup"><span data-stu-id="ca35e-136">On the **Voice users** page, locate and select the user or users that you want to change a phone number for.</span></span>
-    
-5. <span data-ttu-id="ca35e-137">En el panel de acciones, en **número asignado**, haga clic en **cambiar**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-137">In the Action pane, under **Assigned number**, click **Change**.</span></span> 
-    
-6. <span data-ttu-id="ca35e-138">En la página **Asignar número**, haga clic en **Cambiar número**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-138">On the **Assign number** page, click **Change number**.</span></span>
-    
-7. <span data-ttu-id="ca35e-139">En la página **Asignar número**, en **Seleccione el número que desea asignar**, use la lista para seleccionar el nuevo número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="ca35e-139">On the **Assign number** page, under **Select number to assign**, use the list to select the new phone number.</span></span> 
-    
-8. <span data-ttu-id="ca35e-140">Para cambiar la dirección de emergencia asociada, haga clic en **Cambiar ubicación**y, a continuación, en **cambiar dirección de emergencia a**, seleccione la ubicación de la lista o bien, si tiene muchas ubicaciones definidas, escriba el nombre de la ciudad en el cuadro de búsqueda y haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-140">To change the associated emergency address, click **Change location**, and then under **Change emergency address to**, either select the location from the list or, if you have many locations defined, enter the name of the city in the search box and click **Search**.</span></span>
-    
-9. <span data-ttu-id="ca35e-141">Haga clic en \*\*Guardar \*\*.</span><span class="sxs-lookup"><span data-stu-id="ca35e-141">Click **Save**.</span></span>
-    
+<span data-ttu-id="2ced2-135">![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**</span><span class="sxs-lookup"><span data-stu-id="2ced2-135">![An icon showing the Microsoft Teams logo](media/teams-logo-30x30.png) **Using the Microsoft Teams admin center**</span></span>
 
-
- ## <a name="remove-a-phone-number-from-a-user"></a><span data-ttu-id="ca35e-142">Quitar un número de teléfono de un usuario</span><span class="sxs-lookup"><span data-stu-id="ca35e-142">Remove a phone number from a user</span></span>
- 
-<span data-ttu-id="ca35e-143">![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**</span><span class="sxs-lookup"><span data-stu-id="ca35e-143">![An icon showing the Skype for Business logo](media/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
- 
-1. <span data-ttu-id="ca35e-144">Inicie sesión en Office 365 con su cuenta profesional o educativa.</span><span class="sxs-lookup"><span data-stu-id="ca35e-144">Sign in to Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="2ced2-136">En el navegación de la izquierda, haga clic en **usuarios**, busque y haga doble clic en el usuario que desee, haga clic en **cuenta**y, a continuación, en **información general**, anote el número de teléfono asignado al usuario.</span><span class="sxs-lookup"><span data-stu-id="2ced2-136">In the left navigation, click **Users**, locate and double-click the user you want, click **Account**, and then under **General information**, make a note of the phone number that's assigned to the user.</span></span>
+2. <span data-ttu-id="2ced2-137">En el navegación izquierdo, haga clic en**números de teléfono**de **voz** > .</span><span class="sxs-lookup"><span data-stu-id="2ced2-137">In the left navigation, click **Voice** > **Phone numbers**.</span></span>
+3. <span data-ttu-id="2ced2-138">En la página **números de teléfono** , seleccione el número que identificó en el paso 2 y, a continuación, haga clic en **Editar**.</span><span class="sxs-lookup"><span data-stu-id="2ced2-138">On the **Phone numbers** page, select the number that you identified in step 2, and then click **Edit**.</span></span>  
+4. <span data-ttu-id="2ced2-139">En el panel de **edición** , en **asignado a**, haga clic en la **X** para quitar el usuario.</span><span class="sxs-lookup"><span data-stu-id="2ced2-139">In the **Edit** pane, under **Assigned to**, click the **X** to remove the user.</span></span>
+5. <span data-ttu-id="2ced2-140">Haga clic en \*\*Guardar \*\*.</span><span class="sxs-lookup"><span data-stu-id="2ced2-140">Click **Save**.</span></span>
     
-2. <span data-ttu-id="ca35e-145">Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-145">Go to **Microsoft Teams admin center** > **Legacy portal**.</span></span>
-    
-3. <span data-ttu-id="ca35e-146">En el navegación de la izquierda \*\*\*\* > , haga clic en**usuarios de voz**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-146">In the left navigation, click **Voice** > **Voice users**.</span></span>
-    
-4. <span data-ttu-id="ca35e-147">En la página **Usuarios de voz**, busque y seleccione el usuario o los usuarios cuyos números de teléfono desea quitar.</span><span class="sxs-lookup"><span data-stu-id="ca35e-147">On the **Voice users** page, locate and select the user or users that you want to remove the phone number for.</span></span>
-    
-5. <span data-ttu-id="ca35e-148">En el panel de acciones, en **número asignado**, haga clic en **quitar**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-148">In the Action pane, under **Assigned number**, click **Remove**.</span></span> 
-    
-6. <span data-ttu-id="ca35e-149">En la página **¿Quiere quitar el número asignado seleccionado?**, haga clic en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="ca35e-149">On the **Remove selected assigned number?** page, click **Yes**.</span></span>
-    
+## <a name="related-topics"></a><span data-ttu-id="2ced2-141">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="2ced2-141">Related topics</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="ca35e-150">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="ca35e-150">Related topics</span></span>
-[<span data-ttu-id="ca35e-151">¿Qué es la validación de direcciones?</span><span class="sxs-lookup"><span data-stu-id="ca35e-151">What is address validation?</span></span>](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
+[<span data-ttu-id="2ced2-142">¿Qué es la validación de direcciones?</span><span class="sxs-lookup"><span data-stu-id="2ced2-142">What is address validation?</span></span>](/skypeforbusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
-[<span data-ttu-id="ca35e-152">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="ca35e-152">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="2ced2-143">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="2ced2-143">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="ca35e-153">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="ca35e-153">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="2ced2-144">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="2ced2-144">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="ca35e-154">[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="ca35e-154">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
-
-  
- 
+<span data-ttu-id="2ced2-145">[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="2ced2-145">[Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
