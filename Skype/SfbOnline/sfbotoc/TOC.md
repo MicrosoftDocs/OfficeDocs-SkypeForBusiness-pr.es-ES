@@ -306,7 +306,7 @@
 
 ## Normativa y regulaciones
 ### [Declaración de accesibilidad de conformidad para Skype Empresarial Online en Francia](../legal-and-regulatory/accessibility-declaration-of-conformance-in-france.md)
-### [Soluciones de accesibilidad para Skype Empresarial Online en Francia](../legal-and-regulatory/accessibility-solutions-in-france.md)
+### [Soluciones de accesibilidad para Skype Empresarial Online en Francia](/microsoftteams/accessibility-solutions-in-france?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Retransmisión IP en Canadá: registrarse](../legal-and-regulatory/ip-relay-canada-email-signup.md)
 ### [Retransmisión IP en Canadá: guía del usuario](../legal-and-regulatory/ip-relay-canada-user-guide.md)
 ### [Período gratuito de aceptación de llamadas](/microsoftteams/complimentary-dial-out-period?toc=/skypeforbusiness/sfbotoc/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)

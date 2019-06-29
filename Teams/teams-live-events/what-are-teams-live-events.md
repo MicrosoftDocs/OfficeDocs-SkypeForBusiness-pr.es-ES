@@ -14,12 +14,12 @@ description: Obtenga información sobre cómo los eventos en vivo permiten a los
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4110e9dbfdff6548c0cae1406f1139835d00ec40
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013016"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394542"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -75,6 +75,9 @@ El objetivo de eCDN es tomar el contenido de video de Internet y distribuir el c
 La experiencia de los asistentes es el aspecto más importante de los eventos en directo y es fundamental que los asistentes puedan participar en el evento en vivo sin tener ningún problema. La experiencia de asistente usa el reproductor multimedia de Azure (para eventos generados en Teams) y el reproductor de transmisión por secuencias (para eventos producidos en una aplicación o dispositivo externo) y funciona a través de escritorio, explorador y móvil (iOS, Android). Office 365 ofrece Yammer y Teams como dos concentradores de colaboración y la experiencia de los asistentes en vivo se integra en estas herramientas de colaboración. 
 
 ![Captura de pantalla que muestra la experiencia de asistente de eventos en directo] (../media/teams-live-events-attendee.png "Captura de pantalla que muestra la experiencia de asistente de eventos en directo")
+
+### <a name="live-event-usage-report"></a>Informe de uso de eventos en directo 
+Los administradores de inquilinos pueden ver análisis de uso de tiempo real de eventos en directo en el centro de administración de Microsoft Teams.  El informe de uso de eventos en directo muestra la información general de actividad de los eventos en directo que se mantienen en la organización.  Los administradores pueden ver la información de uso de eventos, como el estado de los eventos, la hora de inicio, las vistas y el tipo de producción.  
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vaya a [planificar eventos en vivo de Teams](plan-for-teams-live-events.md).

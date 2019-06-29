@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Aprenda a configurar y probar operadores automáticos en la nube para una administración eficaz de las llamadas de su organización.
-ms.openlocfilehash: 892285e2e720e300d9b935f017dedca96e45b411
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
+ms.openlocfilehash: c590aad9bd3d81ef5d3ed6843c795e33156aa238
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432899"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394616"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -37,22 +37,20 @@ Si desea obtener más información sobre los operadores automáticos, vea [¿Qu�
 > [!NOTE]
 > Este artículo se aplica a Microsoft Teams y a Skype empresarial online.
 
-
-
 ## <a name="step-1---get-started"></a>Paso 1: introducción
 
 - Es necesario un operador automático para tener una cuenta de recursos asociada. Para obtener más información sobre las cuentas de recursos, consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) .
 - Si planea asignar un número de enrutamiento directo, debe adquirir y asignar las siguientes licencias a sus cuentas \(de recursos Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico.\)
-- Si está asignando un número de servicio de Microsoft, debe adquirir y asignar las siguientes licencias a su cuenta \(de recursos Office 365 Enterprise E1, E3 o E5, con el complemento del sistema telefónico y un plan\)de llamadas.
+- Si va a asignar un número de servicio de Microsoft, tendrá que adquirir y asignar las siguientes licencias a su cuenta \(de recursos Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico.\)
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft está trabajando en un modelo de licencias sin costo para aplicaciones como los operadores automáticos de la nube y las colas de llamadas, por ahora necesita usar el modelo de licencias de usuario.
 
 > [!CAUTION]
 > Para obtener y usar los números de teléfono gratuitos, necesita configurar créditos de comunicaciones. Para ello, consulte [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md) y [Configurar créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).
 
 > [!TIP]
-> Para redirigir las llamadas a un operador o una opción de menú que sea un usuario en línea con una licencia de **sistema telefónico** , tendrá que habilitarlos para telefonía IP empresarial o asignar planes de llamadas en Office 365. Consulte [asignar licencias de Skype empresarial](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) o [asignar licencias de Microsoft Teams](assign-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> Para redirigir las llamadas a un operador o una opción de menú que sea un usuario en línea con una licencia de **sistema telefónico** , tendrá que habilitarlos para telefonía IP empresarial. Consulte [asignar licencias de Skype empresarial](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) o [asignar licencias de Microsoft Teams](assign-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Paso 2: crear un operador automático nuevo
 
@@ -211,7 +209,7 @@ Para configurar las opciones de menú, después de seleccionar las teclas de mar
   - **Persona de la empresa** con una licencia de **sistema de teléfono** que está habilitada para Enterprise Voice o asignada a un plan de llamadas en Office 365. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione **una persona de su empresa** y configure esta persona para que sus llamadas se desvíen directamente al buzón de voz.
 
     > [!Note]
-    > La **persona de la empresa** puede ser un usuario en línea o un usuario hospedado localmente mediante Skype for Business Server 2015 o Lync Server 2013. 
+    > La **persona de la empresa** puede ser un usuario en línea o un usuario hospedado localmente mediante Skype for Business Server 2015 o Lync Server 2013.
     - Otro **operador automático**
 
        Puede usar un operador automático existente para crear un segundo nivel de opciones de menú que contengan un submenú. Estos se denominan a operadores automáticos anidados. Para enviar la llamada a un operador automático anidado, seleccione **persona en la empresa** y asigne una cuenta de recurso, ya sea una cuenta que ya tenga un operador automático asociado o que vaya a asociar a un operador automático una vez que haya terminado de crear este operador automático.
@@ -226,7 +224,6 @@ Para configurar las opciones de menú, después de seleccionar las teclas de mar
 ![Icono del número 5, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout5.png)
 
 **Marcado por nombre** Si elige esta opción, los usuarios que llamen para buscar personas de su organización podrán usar la búsqueda en el directorio. Puede seleccionar qué personas se mostrarán como disponibles o no disponibles para el marcado por nombre mediante la configuración de esas opciones en la página **Ámbito de marcado**. Cualquier usuario en línea con una licencia de **sistema telefónico** o cualquier usuario hospedado localmente utilizando Skype for Business Server 2015 o Lync Server 2013, puede encontrarse con el marcado por nombre.
-
 
 * * *
 
@@ -278,7 +275,7 @@ Los nombres de días festivos pueden constar de hasta 64 caracteres y deben ser 
   - Una **persona de la empresa** con una licencia de **sistema de teléfono** que está habilitada para Enterprise Voice o asignada a planes de llamadas en Office 365. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione **una persona de su empresa**y configure esta persona para que sus llamadas se desvíen directamente al buzón de voz.
 
     > [!Note]
-    > La **persona de la empresa** puede ser un usuario en línea o un usuario hospedado localmente mediante Skype for Business Server 2015 o Lync Server 2013. 
+    > La **persona de la empresa** puede ser un usuario en línea o un usuario hospedado localmente mediante Skype for Business Server 2015 o Lync Server 2013.
 
   - Una **cola de llamadas** para transferir la llamada a una cola de llamadas existente que haya configurado.
   - Otro **operador automático**, para crear un segundo nivel de opciones de menú que contengan un submenú. Estos se denominan a operadores automáticos anidados.
@@ -321,31 +318,27 @@ Si desea realizar cambios en un operador automático, seleccione el operador aut
 
 También puede hacer una llamada de prueba a su operador automático con el botón **probar** del panel de acciones.
 
-## <a name="want-to-know-more"></a>¿Desea obtener más información?
+## <a name="auto-attendant-cmdlets"></a>Cmdlets para operadores automáticos
 
-También puede usar Windows PowerShell para crear y configurar operadores automáticos.
-
-### <a name="auto-attendant-cmdlets"></a>Cmdlets para operadores automáticos
-
-Estos son los cmdlets que necesita para administrar un operador automático.
+También puede usar Windows PowerShell para crear y configurar operadores automáticos. Estos son los cmdlets que necesita para administrar un operador automático:
 
 - [Nuevo: CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
-- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
-- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps) 
-- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
-- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
-- [Nuevo: CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
-- [Nuevo: CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [Nuevo: CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
-- [Exportar-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
-- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
-- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
-- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps)
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps)
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps)
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps)
+- [Nuevo: CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps)
+- [Nuevo: CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps)
+- [Nuevo: CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps)
+- [Exportar-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps)
+- [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps)
+- [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps)
+- [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps)
 - [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
 - [Nuevo: CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
 - [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
-- [Importar-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
-- [Nuevo: CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Importar-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps)
+- [Nuevo: CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>Más información sobre Windows PowerShell
 

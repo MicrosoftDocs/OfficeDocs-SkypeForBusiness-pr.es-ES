@@ -6,8 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
-ms.service:
-- msteams
+ms.service: msteams
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: c9a4a1c035afda7941f82018cc074293f338832d
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: e309b0a21374cb0ea7e02bec82404474947215aa
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062358"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394582"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 

@@ -6,8 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
-ms.service:
-- msteams
+ms.service: msteams
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para aprender a configurar la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: a9769e921ff493e67614cf903ca9206f6f50bac8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab7fbb7549793f7c557d11629f9aab4ef922e516
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290456"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394574"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurar el desvío de medios con enrutamiento directo
 
@@ -30,7 +29,7 @@ Para activar la omisión de elementos multimedia, se deben cumplir las condicion
 
 1.  Asegúrese de que el proveedor del controlador de borde (SBC) de la sesión que elija admita la omisión de medios y proporciona instrucciones sobre cómo configurar el omisión en la SBC. Consulte la página de certificación para obtener información sobre SBCs, que admiten la omisión de elementos multimedia y para obtener instrucciones.
 
-2.  Para activar la omisión de elementos multimedia en el tronco, use el siguiente comando: **set-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
+2.  Para activar la omisión de elementos multimedia en el tronco, use el siguiente comando: **set-CSOnlinePSTNGateway-Identity <> sbc_FQDN-MediaBypass $true**.
 
 3.  Asegúrese de que los puertos necesarios estén abiertos. 
 

@@ -20,24 +20,24 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube para que le proporcione un saludo organizacional, música en espera y redirija las llamadas a agentes de llamadas en listas de distribución y grupos de seguridad. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 3c98f7c9b8bb96b4c3792e4ec5abe92628d8e914
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams.
+ms.openlocfilehash: b512d674a705c332213456ea639a015e15b51c2d
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34549014"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394600"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
-Las colas de llamadas en nube incluyen saludos que se usan cuando un usuario llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de buscar el siguiente agente de llamada disponible para controlar la llamada mientras las personas que llaman son escuchando música en espera. Puede crear una o varias colas de llamadas para su organización.
+Las colas de llamadas en la nube son un servicio que juega un saludo a las llamadas de los clientes antes de colocarlas en una cola mientras se realiza la búsqueda en un conjunto predefinido de agentes para responder a estas llamadas. Puede crear una o varias colas de llamadas para su organización.
   
 Las colas de llamadas en nube pueden proporcionar:
   
-- Un mensaje de saludo empresarial.
+- Un mensaje de bienvenida.
 - Música que se reproduce mientras los usuarios se mantienen a la espera.
 - Redireccionamiento de llamadas a agentes de llamadas en listas de distribución habilitadas para correo electrónico y grupos de seguridad.
-- Configuración del tamaño máximo, el tiempo de espera y las opciones de administración de llamadas de la cola de llamadas.
+- Configuración diferentes parámetros, como el tamaño máximo de la cola, el tiempo de espera y las opciones de administración de llamadas.
 
 Cuando alguien llama a un número de teléfono asociado a una cola de llamadas a través de una [cuenta de recursos](manage-resource-accounts.md), escuchará primero un saludo (si se ha configurado alguno) y, a continuación, se colocará en la cola y esperará al siguiente agente de llamada disponible. La persona que llama escuchará música mientras se encuentre en espera y las llamadas se ofrecerán a los agentes de llamadas en orden FIFO ( *en el primero en salir* ).
   
@@ -48,7 +48,7 @@ Todas las llamadas en espera en la cola se distribuirán con uno de los siguient
 - Con la operación por turnos, el enrutamiento de las llamadas entrantes está equilibrado, por lo que cada agente de llamadas recibirá el mismo número de llamadas de la cola.
 
     > [!NOTE]
-    > No se llamará a los agentes de llamadas que están **Sin conexión**, han establecido su presencia en **No molestar** o han decidido quedar fuera de la cola de llamadas.
+    > Los agentes de llamadas **** que estén desconectados, que hayan establecido su presencia en **no molestar,** o que hayan decidido no recibir llamadas.
   
 - Solo se enviará a los agentes de llamadas una notificación de llamada entrante cada vez (la de la llamada que se encuentra en primer lugar de la cola).
 - Después de que un agente de llamadas acepte la llamada, la siguiente llamada entrante de la cola se enviará a los demás agentes de llamadas.
@@ -61,14 +61,15 @@ Todas las llamadas en espera en la cola se distribuirán con uno de los siguient
 Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas:
   
 - Se necesita una cola de llamadas para tener una cuenta de recursos asociada. Para obtener más información sobre las cuentas de recursos, consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) .
-- Si planea asignar un número de enrutamiento directo, debe adquirir y asignar las siguientes licencias a sus cuentas \(de recursos Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico.\)
-- Si está asignando un número de servicio de Microsoft, debe adquirir y asignar las siguientes licencias a su cuenta \(de recursos Office 365 Enterprise E1, E3 o E5, con el complemento del sistema telefónico y un plan\)de llamadas.
-- Solo necesita conceder licencia a las cuentas de recursos con un número de teléfono asignado. En una cola de llamadas o un operador automático anidado, no es necesario que tenga licencia para el resto de los operadores automáticos o las colas de llamadas si no tienen números de teléfono asociados a ellos. 
+- Si tiene previsto asignar un número de teléfono a la cola de llamadas, tendrá que adquirir y asignar una de las siguientes licencias a sus cuentas de recursos:
+    - Office 365 Enterprise E1 o E3 con sistema telefónico agregado
+    - Office 365 Enterprise E5 que incluye el sistema telefónico
+- Solo necesita conceder licencia a las cuentas de recursos con un número de teléfono asignado. En una cola de llamadas anidadas, no es necesario que se haga una licencia para el resto de las colas de llamadas si no tienen números de teléfono asociados a ellas.
 
-> [!NOTE] 
-> Los números del servicio de enrutamiento directo del operador automático y las colas de llamadas solo se admiten para los usuarios y agentes de Microsoft Teams.
+> [!NOTE]
+> Los números del servicio de enrutamiento directo para colas de llamadas solo se admiten para usuarios y agentes de Microsoft Teams.
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft está trabajando en un modelo de licencias sin costo para aplicaciones como los operadores automáticos de la nube y las colas de llamadas, por ahora necesita usar el modelo de licencias de usuario.
 
 > [!NOTE]
@@ -107,7 +108,7 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
 
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Paso 2: obtener o transferir números de servicio de pago o gratuitos
 
-Antes de crear o configurar una cola, tendrá que obtener sus números de servicio de pago o gratuitos, o transferir unos existentes. Una vez que obtenga los números de teléfono de pago o gratuitos, aparecerán en los**** > **números de teléfono**del **Centro** > de administración de Microsoft Teams, y el **tipo de número** que aparece en la lista aparecerá como **servicio-** gratuito. Para obtener tus números de servicio, consulta [obtener números de teléfono de servicio](getting-service-phone-numbers.md) o, si deseas transferir un número de servicio existente, consulta [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md).
+Antes de crear o configurar una cola, tendrá que obtener sus números de servicio de pago o gratuitos, o transferir unos existentes. Una vez que obtenga los números de teléfono de pago o gratuitos, aparecerán en el **Centro** > de administración de Microsoft Teams**números de teléfono**de**voz** > del**portal** > heredados, y el **tipo de número** de la lista será aparece como **servicio-** gratuito. Para obtener tus números de servicio, consulta [obtener números de teléfono de servicio](getting-service-phone-numbers.md) o, si deseas transferir un número de servicio existente, consulta [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. En su lugar, vaya a [administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para ver cómo hacerlo desde fuera de los Estados Unidos.
@@ -171,16 +172,20 @@ Puede cargar un archivo de audio (en formato. wav,. mp3 o. WMA).
 
 ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
-Puede seleccionar hasta 200 agentes de llamadas pertenecientes a grupos o listas de distribución de correo especificados. Los agentes de llamadas deben ser:
+Puede seleccionar hasta 200 agentes de llamadas que pertenecen a cualquiera de las siguientes listas o grupos de correo:
 
-- Un usuario en línea con una licencia de **Sistema telefónico** y habilitado para Enterprise Voice o con un Plan de llamada.
+- Grupo de Office 365
+- Grupo de seguridad
+- Lista de distribución
+
+Los agentes de llamadas **** seleccionados deben ser usuarios conectados con una licencia de **sistema telefónico** y una licencia de Enterprise Voice habilitada **o** tener un plan de llamadas.
 
   > [!NOTE]
-  > Para redirigir las llamadas a las personas de su organización que están conectadas, deben tener una licencia de **sistema telefónico** y estar habilitadas para la telefonía IP empresarial o tener un plan de llamadas. Consulte [asignar licencias de Skype empresarial](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) o [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
+  > Esto también se aplica si desea redirigir las llamadas a las personas de su organización que están conectadas. Estas personas deben tener una licencia de **sistema telefónico** y la telefonía IP empresarial habilitada **o** tener un plan de llamadas. Para obtener más información, vea [asignar licencias de Skype empresarial](https://docs.microsoft.com/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses), [asignar licencias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)o [el plan de llamadas es adecuado para usted](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) .
 
- Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+ Para habilitar un agente para telefonía IP empresarial, puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-- Usuarios en línea con una licencia de **Sistema telefónico** y un Plan de llamadas que se agregan a un grupo de Office 365, una lista de distribución habilitada para correo o un grupo de seguridad. Puede demorar hasta 3 horas en agregar un nuevo agente para una lista de distribución o un grupo de seguridad para empezar a recibir llamadas de una cola de llamadas. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Office 365 que se acaban de crear están disponibles casi de forma inmediata.
+- Usuarios en línea con una licencia de **sistema telefónico** o un plan de llamadas que se agregan a un grupo de Office 365. una lista de distribución habilitada para correo electrónico. o un grupo de seguridad. Puede demorar hasta tres horas en un agente recién agregado de una lista de distribución o un grupo de seguridad para empezar a recibir llamadas de una cola de llamadas. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Office 365 que se acaban de crear están disponibles casi de forma inmediata.
 
 - Si los agentes usan la aplicación Microsoft Teams para recibir llamadas en la cola de llamadas, deben estar en modo TeamsOnly.
 
@@ -271,7 +276,7 @@ El valor de tiempo de espera se puede establecer en segundos, en intervalos de 1
 
   - **Aplicación de voz** Seleccione el nombre de una cola de llamadas o del operador automático que ya se ha creado.
 
-## <a name="changing-a-users-caller-id-for-outbound-calls"></a>Cambiar la identificación de llamadas de un usuario para las llamadas salientes 
+## <a name="changing-a-users-caller-id-for-outbound-calls"></a>Cambiar la identificación de llamadas de un usuario para las llamadas salientes
 
 Puede proteger la identidad de un usuario si cambia la identificación de llamadas para las llamadas salientes a una cola de llamadas, a un operador automático o a cualquier número de servicio mediante la creación de una directiva con el cmdlet **New-CsCallingLineIdentity** .
 
@@ -288,14 +293,10 @@ Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@conto
 ```
 
 Puede obtener más información sobre cómo realizar cambios en la configuración de identificación de llamadas de su organización en el artículo [cómo se puede usar la identificación de llamadas en su organización](/microsoftteams/how-can-caller-id-be-used-in-your-organization).
-  
-## <a name="want-to-know-more"></a>¿Desea obtener más información?
 
-También puede usar Windows PowerShell para crear y configurar colas de llamadas.
-  
-### <a name="call-queue-cmdlets"></a>Cmdlets de colas de llamadas
+## <a name="call-queue-cmdlets"></a>Cmdlets de colas de llamadas
 
-Estos son los cmdlets que necesita para administrar una cola de llamadas.
+También puede usar Windows PowerShell para crear y configurar colas de llamadas. Estos son los cmdlets que necesita para administrar una cola de llamadas.
   
 - [Nuevo: CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 

@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Aprenda Cuáles son los operadores automáticos de la nube y cómo usarlos.
-ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 3802cab121d7f88a48f657aaa9653e7144e77abe
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330359"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394550"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos en la nube?
 
@@ -55,8 +55,9 @@ Un operador automático de la nube tiene las siguientes características:
 Para comenzar a utilizar operadores automáticos, es importante recordar que:
 
 - Es necesario un operador automático para tener una cuenta de recursos asociada. Para obtener más información sobre las cuentas de recursos, consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) .
-- Si planea asignar un número de enrutamiento directo, debe adquirir y asignar las siguientes licencias a sus cuentas \(de recursos Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico.\)
-- Si está asignando un número de servicio de Microsoft, debe adquirir y asignar las siguientes licencias a su cuenta \(de recursos Office 365 Enterprise E1, E3 o E5, con el complemento del sistema telefónico y un plan\)de llamadas.
+- Si tiene previsto asignar un número de teléfono a su operador automático, debe adquirir y asignar una de las siguientes licencias a sus cuentas de recursos: 
+    - Office 365 Enterprise E1 o E3 con sistema telefónico agregado
+    - Office 365 Enterprise E5 que incluye el sistema telefónico
 - Solo necesita conceder licencia a las cuentas de recursos con un número de teléfono asignado. En una cola de llamadas o un operador automático anidado, no es necesario que tenga licencia para el resto de los operadores automáticos o las colas de llamadas si no tienen números de teléfono asociados a ellos. 
 
 > [!NOTE]
@@ -211,11 +212,10 @@ Cada operador automático tiene opciones de control de llamadas que pueden estab
 - También puede:
   - Redirigir la llamada a un usuario de Microsoft teams que tenga una licencia de **sistema telefónico** habilitada para voz empresarial o que tenga asignados planes de llamada. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione una **persona de su empresa** y establezca que las llamadas de esta persona se desvíen de manera automática directamente al correo de voz.
 
-  
   - Redirigir la llamada a una cola de llamadas. Para más información sobre las colas de llamadas, consulte [crear una cola de llamadas en la nube](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Redirigir la llamada a otro operador automático que haya configurado.
-- Crear opciones de menú y reproducir un mensaje con instrucciones para el autor de la llamada. Por ejemplo: "Pulse 1 para Ventas, pulse 2 para Servicios. Para hablar con el operador, pulse 0 en cualquier momento".
+  - Crear opciones de menú y reproducir un mensaje con instrucciones para el autor de la llamada. Por ejemplo: "Pulse 1 para Ventas, pulse 2 para Servicios. Para hablar con el operador, pulse 0 en cualquier momento".
 
 ### <a name="menu-options"></a>Opciones de menú
 
@@ -234,9 +234,9 @@ Para configurar un operador automático y las opciones de menú, vaya a [configu
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Asignar números de teléfono para un operador automático
 
-Puede asignar un número de servicio de plan de llamadas de Microsoft o un número híbrido de enrutamiento directo a su operador automático. Consulte [planificar el enrutamiento directo](direct-routing-plan.md) para obtener más información.
+Puede asignar un número de servicio de Microsoft, un número de enrutamiento directo o un número híbrido a su operador automático. Consulte [planificar el enrutamiento directo](direct-routing-plan.md) para obtener más información.
 
-Para asignar un número de servicio, tendrá que obtener o transferir sus números de teléfono de pago o gratuitos existentes. Una vez que recibas los números de teléfono de pago o gratuitos, aparecerán en la <!-- validate nav path --> **** > **** > Los**números de teléfono**de telefonía del centro de administración de Skype empresarial y el tipo de **número** que aparece en la lista aparecerán como **servicio-** gratuito. Para obtener sus números de servicio, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers) , o bien, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md).
+Para asignar un número de servicio, necesitará obtener o migrar los números de teléfono de pago o gratuitos existentes. Una vez que recibas los números de teléfono de pago o gratuitos, aparecerán en la <!-- validate nav path --> **** > **** > Los**números de teléfono**de telefonía del centro de administración de Skype empresarial y el tipo de **número** que aparece en la lista aparecerán como **servicio-** gratuito. Para obtener sus números de servicio, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers) , o bien, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. Para ver cómo hacerlo, vaya a [administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .

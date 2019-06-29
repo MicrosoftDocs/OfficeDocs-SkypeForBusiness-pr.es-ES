@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: En este artículo se describe la lista de teléfonos que están certificados para Microsoft Teams y las características compatibles con los teléfonos certificados para Microsoft Teams.
-ms.openlocfilehash: 13c607ed11eef95223e1b40ebf2f306accf4e1d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2f8f0fc8d813ea697afe9f96ffef8043662d4692
+ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304445"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "35394566"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 
@@ -29,7 +29,7 @@ Microsoft Teams es compatible con una cartera de teléfonos de escritorio para u
 
 ## <a name="teams-certified-ip-phones"></a>Teléfonos IP certificados por Teams
 
-Para ofrecer una experiencia de alta calidad y confiable de Microsoft Teams en teléfonos, estamos asociados y trabajando activamente con Yealink, Crestron, Polycom y AudioCodes con el fin de desarrollar y certificar una amplia cartera de teléfonos de escritorio y dispositivos de audio de sala de conferencias. Consulta los [teléfonos IP certificados actualmente](/SkypeForBusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json#currently-certified-ip-phones) para los dispositivos compatibles actuales.
+Para ofrecer una experiencia de alta calidad y confiable de Microsoft Teams en teléfonos, estamos asociados y trabajando activamente con Yealink, Crestron, Polycom y AudioCodes con el fin de desarrollar y certificar una amplia cartera de teléfonos de escritorio y dispositivos de audio de sala de conferencias. Consulta los [teléfonos IP certificados actualmente](teams-ip-phones.md#currently-certified-ip-phones) para los dispositivos compatibles actuales.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Conjunto de características de Microsoft Teams PHONES
 
@@ -68,27 +68,27 @@ Cuando un usuario hace clic en el botón de inicio de sesión de Teams, el inici
 
 **Inicio de sesión de usuario con credenciales**
 
-![Iniciar sesión con credenciales](media/sign-in-with-credentials.png)
+![Captura de pantalla de inicio de sesión con credenciales](media/sign-in-with-credentials.png)
 
 **Inicio de sesión de usuario a través de PC/smartphone**
 
-![Iniciar sesión con otro dispositivo](media/sign-in-with-device.jpg)
+![Captura de pantalla de inicio de sesión con otro dispositivo](media/sign-in-with-device.jpg)
 
 ## <a name="personalshared-mode"></a>Modo personal/compartido
 
 Después de iniciar sesión correctamente, el usuario puede elegir si el dispositivo se usará para uso personal o en una sala de conferencias compartida.
 
-![La opción de cuenta personal o compartida](media/personal-vs-shared-mode.jpg)
+![Captura de pantalla de la opción de cuenta personal o compartida](media/personal-vs-shared-mode.jpg)
 
 La experiencia telefónica de su equipo está optimizada en función de la selección del usuario.
 
 **Modo personal**
 
-![Cuenta en modo personal](media/personal-mode.png)
+![Captura de pantalla de una cuenta en modo personal](media/personal-mode.png)
 
 **Modo compartido**
 
-![Cuenta en modo compartido](media/shared-mode.png)
+![Captura de pantalla de una cuenta en modo compartido](media/shared-mode.png)
 
 ## <a name="calling-experience"></a>Experiencia de llamada
 
@@ -96,11 +96,11 @@ El usuario de Microsoft Teams puede levantar el teléfono o pulsar el botón del
 
 **Teclado de marcado en pantalla**
 
-![El teclado de marcado en pantalla](media/on-screen-dial-pad.png)
+![Captura de pantalla del teclado de marcado en pantalla](media/on-screen-dial-pad.png)
 
 **Pantalla de llamada**
 
-![La pantalla de llamada](media/calling-screen.png)
+![Captura de pantalla de la pantalla de llamada](media/calling-screen.png)
 
 ## <a name="meeting-experience"></a>Experiencia de reunión
 
@@ -108,24 +108,24 @@ El usuario de Microsoft Teams puede ir a la ficha reuniones para ver las reunion
 
 **Vista Calendario**
 
-![Reuniones en la vista Calendario](media/calendar-view.png)
+![Captura de pantalla de las reuniones en la vista Calendario](media/calendar-view.png)
 
 **Vista de combinación de reuniones**
 
-![Reunión en la vista de combinación](media/meeting-join-view.png)
+![Captura de pantalla de una reunión en la vista de combinación](media/meeting-join-view.png)
 
 
 ## <a name="voicemail"></a>Correo de voz
 
 El usuario de Microsoft Teams puede acceder a su buzón de voz cuando navegue a la ficha **buzón de voz** .
 
-![La ficha buzón de voz](media/voicemail-tab.png)
+![Captura de pantalla de la pestaña buzón de voz](media/voicemail-tab.png)
 
 ## <a name="user-sign-out"></a>Cierre de sesión de usuario
 
 El usuario de Teams Phone puede elegir cerrar la sesión seleccionando la opción **Cerrar sesión** en el menú de la parte superior izquierda.
 
-![Cerrar sesión de Teams](media/teams-sign-out.png)
+![Captura de pantalla de la sesión fuera de Teams](media/teams-sign-out.png)
 
 ## <a name="finding-the-firmware-version-on-a-mobile-device"></a>Buscar la versión de firmware en un dispositivo móvil
 
@@ -133,11 +133,11 @@ Para revisar la versión mínima del firmware, en la página de inicio de sesió
 
 **Página de inicio de sesión de Teams**
 
-![La página de inicio de sesión de Teams](media/teams-sign-in-page.jpg)
+![Captura de pantalla de la página de inicio de sesión de Teams](media/teams-sign-in-page.jpg)
 
 **Página de configuración**
 
-![La página de configuración de Teams](media/teams-settings-page.jpg)
+![Captura de pantalla de la página de configuración de Teams](media/teams-settings-page.jpg)
 
 ## <a name="required-licenses"></a>Licencias necesarias
 
@@ -149,4 +149,4 @@ Para obtener más información sobre la obtención de equipos, consulte [¿Cómo
 
 [Marketplace de equipos](http://office.com/teamsdevices)
 
-[Teléfonos IP certificados para Microsoft Teams](/skypeforbusiness/certification/teams-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Teléfonos IP certificados para Microsoft Teams](teams-ip-phones.md)
