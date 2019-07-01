@@ -740,6 +740,7 @@
 ### [Teléfonos para Teams](phones-for-teams.md)
 ### [Dispositivos de audio y vídeo USB](/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Soluciones y dispositivos de salas de reuniones](/skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Teléfonos IP certificados para Microsoft Teams](teams-ip-phones.md)
 ### [Teléfonos para Skype Empresarial Online](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ## Seguridad y cumplimiento
@@ -758,7 +759,7 @@
 #### [Problemas conocidos de las directivas de retención](retention-policies-known-issues.md)
 ### [Ubicación de los datos en Teams](location-of-data-in-teams.md)
 ### [Declaración de accesibilidad de cumplimiento para Microsoft Teams en Francia](accessibility-declaration-of-conformance-in-france-for-teams.md)
-### [Soluciones de accesibilidad para Skype Empresarial Online y Microsoft Teams](/SkypeForBusiness/legal-and-regulatory/accessibility-solutions-in-france?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Soluciones de accesibilidad para Skype Empresarial Online y Microsoft Teams](accessibility-solutions-in-france.md)
 ###  [Planes de llamadas en Office 365: código de práctica en el Reino Unido](code-of-practice-for-the-united-kingdom-u-k.md)
 ###  [Planes de llamadas en Office 365: control de las quejas por el código para el Reino Unido](complaint-handling-code-for-the-united-kingdom-u-k.md)
 ### [Prácticas de recopilación de datos](data-collection-practices.md)
