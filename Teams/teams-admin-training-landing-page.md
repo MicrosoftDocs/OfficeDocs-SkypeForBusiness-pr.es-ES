@@ -1,7 +1,7 @@
 ---
 title: Formación de administradores para Microsoft Teams
 ms.reviewer: ''
-description: Obtener la formación que necesita para administrar Microsoft Teams en la organización
+description: Obtenga el aprendizaje que necesita para administrar Microsoft Teams en su organización
 author: lanachin
 manager: serdars
 ms.date: 01/22/2018
@@ -15,16 +15,16 @@ ms.collection:
 - Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: v-lanac
-ms.openlocfilehash: 5100186b7ca73ea9ef18c7aed75f6291efbb1505
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 40c17d17408f0359ba54204d363234d0b5d91e49
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896245"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417841"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
-Obtenga información sobre cómo administrar los equipos de la organización.
+Obtenga información sobre cómo administrar equipos de su organización.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -38,7 +38,7 @@ Obtenga información sobre cómo administrar los equipos de la organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NEW: Impartidos por instructor para los equipos</h3>
+                        <h3>NUEVO: curso presencial para equipos</h3>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ Obtenga información sobre cómo administrar los equipos de la organización.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -134,7 +134,7 @@ Obtenga información sobre cómo administrar los equipos de la organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Artículos</h3>
+                        <h3>Manufactura</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">Configuración del sistema telefónico en su organización</a></p>
                         <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">Integración de terceros con Audioconferencia</a></p>

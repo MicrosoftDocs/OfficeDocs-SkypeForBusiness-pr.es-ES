@@ -7,12 +7,12 @@ ms.author: kenwith
 manager: serdars
 author: kenwith
 description: Skype for Business
-ms.openlocfilehash: 140d0f361883ca40f4b394eedd03b3ef23fa4b19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7dd3fe2fe61bc8dadb793a6fa3d9c226a85ce5f7
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33905698"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418380"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -119,7 +119,7 @@ ms.locfileid: "33905698"
                                 </a>
                             </li>
                             <li>
-                                <a href="/MicrosoftTeams/journey-skypeforbusiness-teams">
+                                <a href="/MicrosoftTeams/upgrade-start-here">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">
