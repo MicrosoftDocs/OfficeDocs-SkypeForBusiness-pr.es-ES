@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumen: Lea este tema para obtener información sobre cómo planear el archivado en Skype empresarial Server.'
-ms.openlocfilehash: 4bbe6b5bd8eb9e5e56bfdea6f8a4187a6d14b231
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9d24457d8345aa6b496489b68347a98c069abc69
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277604"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417877"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planear el archivado en Skype empresarial Server
  
@@ -69,7 +69,7 @@ Para implementar el archivado, debe decidir cómo cumplir los requisitos de su o
     Skype empresarial Server tampoco archiva conversaciones de chat persistentes. Para archivar conversaciones de chat persistentes, debe habilitar y configurar el servicio de cumplimiento, que es un componente que se puede implementar con el servidor de chat persistente. Para obtener más información, vea [planear el servidor de chat persistente en Skype empresarial server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
     > [!NOTE] 
-    > Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
+    > Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
     
 - **Cuánto tiempo es preciso conservar los materiales archivados**. La base de datos de archivado no está pensada para la retención a largo plazo, y Skype empresarial Server no proporciona una solución de detección electrónica (búsqueda) para los datos archivados, por lo que es necesario mover los datos a otro almacenamiento. Skype empresarial Server proporciona una herramienta de exportación de sesión que puede usar para exportar datos archivados y que crea transcripciones que permiten búsquedas de los datos archivados. 
     

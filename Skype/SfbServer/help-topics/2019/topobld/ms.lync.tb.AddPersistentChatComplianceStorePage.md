@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: Configure los almacenes de cumplimiento de SQL Server que proporcionarán bases de datos para el servidor de chat persistente o la característica de cumplimiento del servidor de chat persistente.
-ms.openlocfilehash: 43e56ff887f57ba812aa518f818ad7cfa4226107
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 01c0480809c506a760a160750e0338dc5410c40e
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290540"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418395"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Agregar almacén SQL Server de cumplimiento del chat persistente
 
 > [!NOTE] 
-> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [actualización de Skype empresarial a Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams). Si necesita usar una conversación persistente, su elección es migrar los usuarios que necesitan esta funcionalidad a teams o seguir usando Skype empresarial Server 2015.
+> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [actualización de Skype empresarial a Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here). Si necesita usar una conversación persistente, su elección es migrar los usuarios que necesitan esta funcionalidad a teams o seguir usando Skype empresarial Server 2015.

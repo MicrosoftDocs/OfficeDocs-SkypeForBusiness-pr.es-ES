@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Resumen: Aprenda a configurar opciones del servidor de chat persistentes a nivel global, de sitio o de grupo en Skype empresarial Server 2015.'
-ms.openlocfilehash: 6305ba9a961248b24fe1a2fc28d5944efb6adeac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3140689190900bee1633210a455c7af475bb8fa0
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273871"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418134"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configurar las opciones del servidor de chat persistentes en Skype Empresarial Server 2015
  
@@ -33,7 +33,7 @@ Puede especificar varias opciones para el servidor de chat persistente, que se p
 - Dirección URL de administración de salas. La dirección URL utilizada por la administración personalizada de un salón de chat. La configuración permite el uso de una solución de administración de salones personalizada. 
    
 > [!NOTE] 
-> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015.
+> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015.
  
 ## <a name="configure-persistent-chat-server-global-options"></a>Configurar las opciones globales del servidor de chat persistente
 

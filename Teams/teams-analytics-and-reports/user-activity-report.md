@@ -15,12 +15,12 @@ MS.collection:
 description: Obtenga información sobre cómo usar el informe actividad de usuarios de Teams en el centro de administración de Microsoft Teams para ver cómo los usuarios de su organización usan Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00e54fe7f5d0f03058ac0814db38408226294783
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: b1d152657dc658e6b10da5da3147dd4a695383b7
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253813"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420047"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 
@@ -43,11 +43,9 @@ El informe actividad de usuarios de Teams le proporciona información sobre los 
 |**2**   |Cada informe tiene la fecha del momento en que se generó. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |
 |**3**   |<ul><li>El eje X de los gráficos es el intervalo de fechas seleccionado para el informe específico. </li><li>El eje Y es el número de usuarios que participan en la actividad.</li></ul>Mantenga el mouse sobre el punto que representa una actividad en una fecha determinada para ver el número de instancias de esa actividad en esa fecha determinada. |
 |**4**   |Puede filtrar lo que aparece en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, haz clic en **llamadas de 1:1**, **mensajes de canal**o **mensajes** instantáneos para ver solo la información relacionada con cada uno de ellos. Cambiar la selección no cambia la información de la tabla. |
-|**5**   |La tabla ofrece un desglose del uso por parte del usuario.   <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams.</li><li>**llamadas de 1:1** es el número de llamadas de 1:1 en las que el usuario ha participado durante el período de tiempo especificado.</li><li>**Mensajes de canal** es el número de mensajes únicos que el usuario ha publicado en un chat de equipo durante el período de tiempo especificado.</li> <li>**Mensajes de chat** es el número de mensajes únicos que el usuario ha publicado en una conversación privada durante el período de tiempo especificado.</li>  <li>**Última actividad** es la última fecha (UTC) en la que el usuario participó en una actividad de Teams.</li> </ul>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.
+|**5**   |La tabla ofrece un desglose del uso por parte del usuario.   <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams.</li><li>**llamadas de 1:1** es el número de llamadas de 1:1 en las que el usuario ha participado durante el período de tiempo especificado.</li><li>**Mensajes de canal** es el número de mensajes únicos que el usuario ha publicado en un chat de equipo durante el período de tiempo especificado.</li> <li>**Mensajes de chat** es el número de mensajes únicos que el usuario ha publicado en una conversación privada durante el período de tiempo especificado.</li>  <li>**Última actividad** es la última fecha (UTC) en la que el usuario participó en una actividad de Teams.</li> </ul>Tenga en cuenta que si ya no existe una cuenta de usuario en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.
 |**6**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla. |
 |**7**   |Puede exportar el informe a un archivo CSV para analizarlos sin conexión. Haga clic en **exportar a Excel**y, a continuación, en la pestaña **descargas** , haga clic en **Descargar** para descargar el informe cuando esté listo.<br>![Captura de pantalla de la pestaña descargas que muestra los informes exportados para descargar](../media/teams-reports-export-to-csv.png) <br>Al ver el informe en Excel, también verá una columna **ID** , que representa el identificador del equipo. Un identificador de equipo suele ser una cadena alfanumérica. Si la columna **ID** muestra el nombre **\n**, significa que un usuario ha solicitado que se elimine su información. ||
 
 ## <a name="related-topics"></a>Temas relacionados
 - [Análisis e informes de Teams](teams-reporting-reference.md)
-- [Informes de uso de Teams](teams-usage-report.md)
-- [Informe de uso de dispositivos de Teams](device-usage-report.md)

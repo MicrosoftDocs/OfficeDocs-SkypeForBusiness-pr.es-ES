@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: estas características se han eliminado de Skype empresarial Server 2019.'
-ms.openlocfilehash: a342f98d1a3191064d1678190a0d4b743b40a37f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9fd6ddc28a3b75b8d4c411aa7909516d4b5c0ab8
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278115"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418364"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Qué es en desuso de Skype empresarial Server 2019
 
@@ -35,7 +35,7 @@ Skype empresarial Server 2015 y sus antecesores le permiten configurar un proxy 
 
 El servidor de chat persistente es un rol opcional que permite que varios usuarios de su organización participen en las conversaciones del salón de chat que se mantienen a lo largo del tiempo. El chat persistente no se puede implementar con Skype empresarial Server 2019. Este rol de servidor se ha quitado de Topology Builder, así como del código. 
 
-La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams).
+La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>Reflejo de SQL para Skype empresarial Server
 

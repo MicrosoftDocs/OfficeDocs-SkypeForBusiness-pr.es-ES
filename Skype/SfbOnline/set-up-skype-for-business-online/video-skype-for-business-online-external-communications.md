@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
-ms.openlocfilehash: b6e555724c4be2f61f1ee7099901e29508900c22
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b3f6af94e68042af220079dad23cdefad8209f02
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284891"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418081"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Vídeo: Comunicaciones externas de Skype Empresarial Online
 
@@ -31,7 +31,7 @@ Configurar las comunicaciones externas de Skype Empresarial Online para que sus 
 
  **Público:** Administradores de Office 365
 
-****
+***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
 
 ***

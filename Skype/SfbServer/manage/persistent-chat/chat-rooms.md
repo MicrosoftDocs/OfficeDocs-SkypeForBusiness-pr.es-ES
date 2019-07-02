@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Resumen: Aprenda a administrar salones de chat del servidor de chat persistente en Skype empresarial Server 2015.'
-ms.openlocfilehash: 91e8a2888a7c83e30f80160d8c2c1fbc2af542fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5b7345626a42073bf7ebd0cb5f9900c6e15f0e2b
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279350"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417949"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar salones de chat en el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -25,7 +25,7 @@ ms.locfileid: "34279350"
 Con el uso correcto de las categorías, es mucho más fácil crear y administrar los salones de chat. Una categoría define quién puede crear o unirse A los salones de chat. Antes de intentar administrar los salones de chat, asegúrese de leer las [categorías de chat persistentes, los salones de chat y los roles de usuario en Skype empresarial server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) y [administrar las categorías en el servidor de chat persistente en skype empresarial Server 2015](categories.md).
   
 > [!NOTE]
-> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
+> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
 
 Puede configurar y administrar salones de chat con la interfaz de línea de comandos de Windows PowerShell o con el cliente de Skype empresarial si es miembro del salón de chat. En este tema se describe cómo administrar los salones de chat con la interfaz de línea de comandos de Windows PowerShell. Si desea administrar salones de chat con el cliente de Skype empresarial, consulte la ayuda del cliente. 
   

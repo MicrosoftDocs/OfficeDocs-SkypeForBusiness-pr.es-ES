@@ -15,12 +15,12 @@ ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
-ms.openlocfilehash: 4ae0fdda230e02e0aa7c6c95dc91036e927a4b07
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d2d2d647d200d6b043dbf131102fba402af6bf1f
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238113"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418342"
 ---
 # <a name="skype-for-business-online-admin"></a>Administración de Skype for Business Online
 
@@ -100,7 +100,7 @@ Aprenda a administrar Skype for Business Online para su organización.
         </a>
     </li>
     <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams">
+        <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">

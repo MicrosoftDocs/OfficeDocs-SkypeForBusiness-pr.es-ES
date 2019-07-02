@@ -13,12 +13,12 @@ ms.reviewer: islubin
 description: Aprenda a usar los distintos roles administrativos para administrar equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3daac0708a4e841b3619ba5104cb0ef85daf29
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 6a4753fd90a687a176bb9145d4c216adc0453bce
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221220"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35417985"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Usar los roles de administrador de Microsoft Teams para administrar equipos
 
@@ -27,6 +27,8 @@ Con Azure Active Directory (Azure AD) puede designar administradores que necesit
 ## <a name="teams-roles-and-capabilities"></a>Funciones y capacidades de Teams
 
 Hay cuatro roles de administrador disponibles: el administrador de servicios de Teams, el administrador de comunicaciones de equipos, el especialista de soporte técnico de comunicaciones y el ingeniero de soporte de comunicaciones de Teams. Revise la tabla siguiente para comprender qué puede hacer cada rol y qué herramientas puede usar el administrador en el centro de administración de Microsoft Teams y PowerShell.
+
+
 
 <!-- add Global admin role? -->
 
@@ -53,7 +55,9 @@ Puede asignar usuarios a estos roles en Azure AD. Para obtener información sobr
 
 ## <a name="cmdlets-available-for-each-role"></a>Cmdlets disponibles para cada rol
 
-La mayoría de las herramientas de PowerShell para estas funciones de administrador en vivo en el módulo de PowerShell de Skype empresarial y es importante tener en cuenta que algunos de los cmdlets de estos roles de administrador tienen acceso para controlar la configuración compartida que también se usa para Skype empresarial online. Para ver la lista completa de cmdlets disponibles actualmente para un rol determinado en el módulo de PowerShell de Skype empresarial, siga estos pasos:
+La mayoría de las herramientas de PowerShell para estas funciones de administrador en vivo en el módulo de PowerShell de Skype empresarial y es importante tener en cuenta que algunos de los cmdlets de estos roles de administrador tienen acceso para controlar la configuración compartida que también se usa para Skype empresarial online. El rol de administrador de Skype empresarial también tiene acceso a todos los cmdlets en el módulo de PowerShell de Skype empresarial.
+
+Para ver la lista completa de cmdlets disponibles actualmente para un rol determinado en el módulo de PowerShell de Skype empresarial, siga estos pasos:
 
 1. Asigne ese rol a un usuario (y asegúrese de que el usuario no tiene ningún otro rol).
 2. Conéctese al módulo de PowerShell de Skype empresarial:<br>

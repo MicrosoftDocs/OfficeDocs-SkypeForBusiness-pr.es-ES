@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumen: Obtenga información sobre los requisitos ambientales para el servidor perimetral en Skype empresarial Server.'
-ms.openlocfilehash: c6127f862bcc21d113404eb7bf1868757a83cf32
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
+ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35203959"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35414992"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos ambientales para servidores perimetrales en Skype empresarial Server
  
@@ -285,7 +285,7 @@ Hablaremos de las necesidades de los certificados internos y externos por separa
   
 ### <a name="external-certificates"></a>Certificados externos
 
-Como mínimo, el certificado asignado a las interfaces del servidor perimetral externo debe proporcionarlo una entidad emisora de certificados (CA) pública. No se puede recomendar una entidad emisora de certificados específica, pero tenemos una lista de los [socios de certificados de comunicaciones unificadas](https://support.microsoft.com/en-us/kb/929395) que puede consultar para ver si su CA preferida aparece en la lista.
+Como mínimo, el certificado asignado a las interfaces del servidor perimetral externo debe proporcionarlo una entidad emisora de certificados (CA) pública. No se puede recomendar una entidad emisora de certificados específica, pero tenemos una lista de los [socios de certificados de comunicaciones unificadas](/SkypeForBusiness/certification/services-ssl) que puede consultar para ver si su CA preferida aparece en la lista.
   
 ¿Cuándo tendrá que enviar una solicitud a una entidad de certificación para este certificado público y cómo lo tiene que hacer? Hay un par de formas de llevar esto a cabo:
   

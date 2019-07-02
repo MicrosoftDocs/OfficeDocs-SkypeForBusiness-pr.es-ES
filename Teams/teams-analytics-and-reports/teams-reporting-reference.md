@@ -3,7 +3,6 @@ title: Análisis e informes de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/25/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +16,12 @@ MS.collection:
 description: Obtenga más información sobre los informes de teams que están disponibles en el centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15c8580fb7a0f588f9a5605c348acff0458c6a77
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: fadd608c20f2992b4b6bcd42d4979c009b4bbf7f
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253797"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420039"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -46,6 +45,7 @@ Mejoramos continuamente la experiencia de creación de informes de Teams y agreg
 |[Informes de uso de Teams](teams-usage-report.md)  |  Usuarios activos<br/>Usuarios activos de equipos y canales<br/>Canales activos<br/>Mensajes<br/>Configuración de privacidad de Teams<br/>Invitados de un equipo   |
 |[Informe de actividad de usuario de Teams](user-activity-report.md)  |  1:1 llama a un usuario en el que participó<br/>Mensajes que un usuario ha publicado en un chat de equipo<br/>Mensajes que un usuario ha publicado en un chat privado<br/>Fecha de la última actividad de un usuario     |
 |[Informe de uso de dispositivos de Teams](device-usage-report.md)   |  Usuarios de Windows<br/>Usuarios de Mac<br/>usuarios de iOS<br/>Usuarios de teléfono Android     |
+|[Informe de uso de eventos de Teams Live](teams-live-event-usage-report.md)   |  Vistas totales<br>Hora de inicio<br>Estado del evento<br>Organizador<br>Moderador<br>Elaborado<br>Configuración de grabación<br>Tipo de producción    |
 
 > [!NOTE]
 > Los informes de equipos muestran los datos de los usuarios activos y de los equipos activos. Por ejemplo, si un usuario de la organización no está activo en Teams durante el intervalo de fechas especificado para un informe, los datos de ese usuario no se incluyen en el informe.

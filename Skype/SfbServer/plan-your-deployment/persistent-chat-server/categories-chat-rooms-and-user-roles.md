@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumen: Lea este tema para obtener información sobre las categorías, los salones de chat y los roles de usuario y administrador para el servidor de chat persistente en Skype empresarial Server 2015.'
-ms.openlocfilehash: 2499cabbf4d7563228108ff5037a49be2976c018
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
+ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297116"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35418472"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorías de chat persistente, salones de chat y roles de usuario en Skype Empresarial Server 2015
  
@@ -31,7 +31,7 @@ Puede controlar el acceso a los salones de chat creando categorías de salones d
 - Roles de administrador
 
 > [!NOTE] 
-> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
+> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Categorías para organizar salones de chat
 
@@ -40,7 +40,7 @@ Las categorías le permiten organizar los salones de chat y controlar los usuari
 El principio básico del concepto de miembros permitidos/denegados son las zonas de protección. Por ejemplo, en las instituciones financieras y bancarias, es muy común disponer de límites de protección que impidan a los comerciantes y analistas compartir comunicaciones al implementar directivas y convenciones. Para abordar este requisito, el administrador puede crear categorías de manera que una categoría admita la creación y el uso de salones por parte de los comerciantes, mientras que la otra admita la creación y el uso de salones por parte de los analistas. No se pueden agregar usuarios como miembros del salón si la categoría principal lo prohíbe.
   
 > [!IMPORTANT]
-> Los miembros permitidos y rechazados de una categoría no son iguales a los de un rol de **miembro** , que se aplica a un salón de chat persistente. las búsquedas de > muestran todos los salones de chat abiertos y cerrados en los que el usuario realiza la búsqueda en la lista de miembros permitidos y denegados. Los salones secretos no se muestran a menos que el usuario que efectúa la búsqueda sea miembro del salón secreto. De este modo, el usuario solo puede buscar salones de los que sea miembro o aquellos a los que pueda solicitar ser miembro. 
+> Los miembros permitidos y rechazados de una categoría no son iguales a los de un rol de **miembro** , que se aplica a un salón de chat persistente. las búsquedas de > muestran todos los salones de chat abiertos y cerrados en los que el usuario está en la lista de miembros permitidos y denegados. Los salones secretos no se muestran a menos que el usuario que efectúa la búsqueda sea miembro del salón secreto. De este modo, el usuario solo puede buscar salones de los que sea miembro o aquellos a los que pueda solicitar ser miembro. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Salones de chat y roles de usuario
 

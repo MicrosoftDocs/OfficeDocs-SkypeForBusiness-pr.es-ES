@@ -14,12 +14,12 @@ description: Obtenga información sobre cómo los eventos en vivo permiten a los
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54d29f243eddbeacc1bc9bc9f846ceda6cd1e12b
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
+ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394542"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35420055"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -77,7 +77,7 @@ La experiencia de los asistentes es el aspecto más importante de los eventos en
 ![Captura de pantalla que muestra la experiencia de asistente de eventos en directo] (../media/teams-live-events-attendee.png "Captura de pantalla que muestra la experiencia de asistente de eventos en directo")
 
 ### <a name="live-event-usage-report"></a>Informe de uso de eventos en directo 
-Los administradores de inquilinos pueden ver análisis de uso de tiempo real de eventos en directo en el centro de administración de Microsoft Teams.  El informe de uso de eventos en directo muestra la información general de actividad de los eventos en directo que se mantienen en la organización.  Los administradores pueden ver la información de uso de eventos, como el estado de los eventos, la hora de inicio, las vistas y el tipo de producción.  
+Los administradores de inquilinos pueden ver análisis de uso de tiempo real de eventos en directo en el centro de administración de Microsoft Teams.  El [Informe de uso de eventos en directo](../teams-analytics-and-reports/teams-live-event-usage-report.md) muestra la información general de actividad de los eventos en directo que se mantienen en la organización.  Los administradores pueden ver la información de uso de eventos, como el estado de los eventos, la hora de inicio, las vistas y el tipo de producción.  
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vaya a [planificar eventos en vivo de Teams](plan-for-teams-live-events.md).
