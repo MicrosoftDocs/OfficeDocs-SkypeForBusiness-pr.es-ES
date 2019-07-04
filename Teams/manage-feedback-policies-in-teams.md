@@ -1,0 +1,87 @@
+---
+title: Administrar directivas de comentarios en Microsoft Teams
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.reviewer: msedliak
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
+appliesto:
+- Microsoft Teams
+localization_priority: Normal
+search.appverid: MET150
+description: Aprenda a usar las directivas de comentarios para controlar si los usuarios de equipos de su organización pueden enviar comentarios sobre los equipos a Microsoft.
+ms.openlocfilehash: 3c9d05a3003906377447ee119b8cfc9bd137db81
+ms.sourcegitcommit: f26bb86d38c3b45a82e6d77c5aa521360a81ee9b
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35540956"
+---
+# <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+Los usuarios pueden enviar comentarios y sugerencias sobre equipos a Microsoft para **ayudarle** > a**proporcionar comentarios** en los clientes de Teams. Mejoramos continuamente la experiencia de los equipos y usamos estos comentarios para mejorar los equipos.
+
+![Captura de pantalla de la opción ofrecer comentarios en Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+
+Los datos enviados a través de enviar **comentarios** se consideran "datos de soporte técnico" en el acuerdo de Office 365, incluida información que de otro modo se consideraría "datos de los clientes" o "datos personales".
+
+## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Establecer si los usuarios pueden enviar comentarios sobre equipos a Microsoft
+
+Como administrador, puede controlar si los usuarios de su organización pueden enviar comentarios sobre los equipos a Microsoft. De forma predeterminada, a todos los usuarios de la organización se les asigna automáticamente la directiva global (opción predeterminada para toda la organización) y la característica está habilitada en la Directiva. La excepción es equipos para el ámbito educativo, donde la característica está habilitada para los profesores y deshabilitada para los alumnos.
+
+Puede editar la directiva global o crear y asignar una directiva personalizada. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario. Después de modificar la directiva global o asignar una directiva, los cambios pueden tardar hasta 24 horas en surtir efecto.
+
+Supongamos, por ejemplo, que desea permitir que todos los usuarios de su organización envíen comentarios, excepto para nuevos empleados en curso. En este escenario, puede crear una directiva personalizada para desactivar la característica y asignarla a nuevos empleados. El resto de los usuarios de su organización obtienen la directiva global con la característica activada.  
+
+Use el cmdlet **New-CsTeamsFeedbackPolicy** para crear una directiva personalizada y el cmdlet **Grant-CsTeamsFeedbackPolicy** para asignarla a uno o más usuarios o grupos de usuarios, como un grupo de seguridad o un grupo de distribución. 
+
+Establezca el parámetro **userInitiatedMode** en **habilitado** para permitir que los usuarios a los que se les asigne la Directiva puedan enviar comentarios. Establecer el parámetro en **** deshabilitado desactiva la característica y los usuarios a los que se les asigna la Directiva no tienen la opción de enviar comentarios.
+
+## <a name="create-a-custom-feedback-policy"></a>Crear una directiva personalizada de comentarios
+
+En este ejemplo, creamos una política de comentarios denominada nueva Directiva de comentarios para empleados y desactivamos la posibilidad de enviar comentarios.
+
+```
+New-CsTeamsFeedbackPolicy -identity "New Hire Feedback Policy" -userInitiatedMode disabled
+```
+
+## <a name="assign-a-custom-feedback-policy"></a>Asignar una directiva personalizada de comentarios
+
+### <a name="assign-a-custom-feedback-policy-to-a-user"></a>Asignar una directiva personalizada de comentarios a un usuario
+
+En este ejemplo, asignamos una directiva personalizada denominada nueva Directiva de comentarios para el contrato a un usuario denominado usuario1.
+
+```
+Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Feedback Policy"
+```
+### <a name="assign-a-custom-feedback-policy-to-users-in-a-group"></a>Asignar una directiva de comentarios personalizada a los usuarios de un grupo
+
+Es posible que desee asignar una directiva personalizada de comentarios a varios usuarios que ya haya identificado. Por ejemplo, es posible que desee asignar una directiva a todos los usuarios de un grupo de seguridad.
+
+En este ejemplo, asignamos una directiva personalizada de comentarios denominada nueva política de comentarios de la contratación a todos los usuarios del grupo contoso New contratados.  
+
+Obtén la GroupObjectId del grupo en particular.
+```
+$group = Get-AzureADGroup -SearchString "Contoso New Hires"
+```
+Obtener los miembros del grupo especificado.
+```
+$members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
+```
+Asignar todos los usuarios del grupo a una política de comentarios determinada. En este ejemplo, se trata de una nueva política de comentarios de los empleados.
+```
+$members | ForEach-Object { Grant-CsTeamsFeedbackPolicy -PolicyName "New Hire Feedback Policy" -Identity $_.EmailAddress}
+``` 
+Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
+
+## <a name="related-topics"></a>Temas relacionados
+
+- [Descripción de PowerShell para Teams](teams-powershell-overview.md)

@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e35c3d62ee43e3b3123993e29c17a8ec1e8f94f7
-ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
+ms.openlocfilehash: 711018e754f64960fc7b120baad13966ebf1a1ac
+ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34694732"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "35535895"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
 =================================
@@ -70,11 +70,11 @@ Este es el proceso para implementar la aplicación de escritorio de Teams. Para 
 
 2. Ejecute el siguiente comando para instalar el MSI en la máquina virtual de VDI (o actualizarlo).
 
-        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
     Instala Teams en archivos de programa. En este momento, la configuración de la imagen de oro está completa.
 
-    La siguiente sesión de inicio de sesión interactivo inicia Teams y solicita las credenciales. Tenga en cuenta que no es posible deshabilitar el inicio automático de equipos al instalar Teams en VDI con la propiedad ALLUSERS.
+    La siguiente sesión de inicio de sesión interactivo inicia Teams y solicita las credenciales. Tenga en cuenta que no es posible deshabilitar el inicio automático de equipos al instalar Teams en VDI mediante la propiedad ALLUSER.
 
 3. Ejecute el siguiente comando para desinstalar el MSI de la máquina virtual de VDI (o prepararse para actualizarlo).
 
