@@ -15,22 +15,18 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b917183eeaaa4aed0a0f39474b3da42feab06f6b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5933489b2b356ad8f44163c4f1d3d6ab4fa0b5dd
+ms.sourcegitcommit: d955406a55cdc4c7abb193f1af90ebd4913c47bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222080"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "35541067"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
 En este artículo se indican los problemas conocidos de Microsoft Teams por área de características.
 
 ## <a name="administration"></a>Administración
-
-|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|    
-|:-----|:-----|:-----|:-----|
-|Departamento de cuentas de recursos mal configuradas  <br/> |Las cuentas de recursos asociadas con una cola de llamada u operador automático creadas antes de enero de 2019 puede que no tengan el parámetro del departamento configurado correctamente, lo que podría provocar una asignación errónea de números de teléfono. Se está realizando una corrección para resolver este problema. <br/><br/> Las cuentas de recursos configuradas mediante el uso de New-CsHybridApplicationEndpoint con Skype Empresarial Server no tendrán el parámetro Department configurado correctamente, lo que provocará errores en la creación de cuentas de recursos en Skype Empresarial en línea. En este caso, debe configurar el nombre del departamento en Active Directory antes de la sincronización en línea.|Para mitigar este problema, puede ejecutar el siguiente Cmdlet para configurar el parámetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> : Department "Microsoft Communication Application Instance" <br/> |8/5/19 <br/> |
 
 
 
@@ -226,6 +222,35 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Fotos de perfiles de usuario  <br/> | Actualmente, Teams no tiene un mecanismo para impedir que los usuarios cambien la foto. El equipo de BTS se ha reunido con el equipo de desarrollo que ha registrado el siguiente tema para su consideración: Característica 108874: Directiva de TI para deshabilitar la carga de fotos de perfil   <br/> | Si tiene clientes que desean tener la posibilidad de impedir la carga de fotos de perfilen Teams, avíseles que pueden agregar su voto y su caso de negocio en los comentarios: https://microsoftteams.uservoice.com/forums/555103-public/suggestions/18600505-disable-user-ability-to-change-profile-photos <br/> |01/03/2017 <br/> |
+
+
+
+## <a name="phone-system"></a>Sistema telefónico
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Departamento de cuentas de recursos mal configuradas  <br/> |Las cuentas de recursos asociadas con una cola de llamada u operador automático creadas antes de enero de 2019 puede que no tengan el parámetro del departamento configurado correctamente, lo que podría provocar una asignación errónea de números de teléfono. Se está realizando una corrección para resolver este problema. <br/><br/> Las cuentas de recursos configuradas mediante el uso de New-CsHybridApplicationEndpoint con Skype Empresarial Server no tendrán el parámetro Department configurado correctamente, lo que provocará errores en la creación de cuentas de recursos en Skype Empresarial en línea. En este caso, debe configurar el nombre del departamento en Active Directory antes de la sincronización en línea.|Para mitigar este problema, puede ejecutar el siguiente Cmdlet para configurar el parámetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> : Department "Microsoft Communication Application Instance" <br/> |8/5/19 <br/> |
+
+
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Retraso de sincronización de cuentas de recursos|No se puede asignar un número de teléfono a la cuenta del recurso o se recibe el error "la siguiente instancia de la aplicación no está presente en BVD".|Espere 24 horas para sincronizar. Si ya ha transcurrido 24 horas, quite la asignación de números de teléfono, elimine la cuenta de recurso y cree una nueva con un nombre diferente.|18/05/2019|
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|No se puede asignar un número de servicio de teléfono desde el centro de administración de equipos|Cuando intenta asignar un número de servicio de telefonía en el centro de administración de equipos, recibe el error "necesita una licencia de sistema telefónico".|Use los cmdlets de PowerShell para asignar un número de servicio de pago en su lugar.|18/05/2019|
+
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Cuenta de recurso dañada|La cuenta de recursos no funciona|Quitar o reemplazar la licencia de la cuenta de un recurso, o crear una nueva cuenta de recursos con el mismo URI del SIP que la eliminada anteriormente, producirá una cuenta de recursos dañada.|18/05/2019|
+
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Número de teléfono bloqueado|Número de teléfono bloqueado: al eliminar la cuenta del recurso antes de quitar el número de teléfono, se bloquea el número de teléfono.|Póngase en contacto con el soporte técnico de Microsoft para liberar el número de teléfono.|18/05/2019|
+
 
 ## <a name="provisioning"></a>Aprovisionamiento
 

@@ -67,7 +67,8 @@
 ### [Administrar la versión gratuita de Microsoft Teams](manage-freemium.md)
 ### [Asignar miembros y propietarios de equipo en Teams](assign-roles-permissions.md)
 ### [Editar la configuración de usuario de Teams de forma masiva](edit-user-settings-in-bulk.md)
-### [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)
+### [Administrar directivas de configuración de aplicación en equipos](teams-app-setup-policies.md)
+### [Administrar políticas de feedback para equipos](manage-feedback-policies-in-teams.md)
 ### [Configurar la aplicación de Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Administrar el acceso externo](manage-external-access.md)
 ### [Usar la traducción de mensajes en línea](inline-message-translation-teams.md)
@@ -717,6 +718,7 @@
 ## Prepararse para implementar Teams
 ### [Comprobar la preparación del entorno para Teams](environment-readiness.md).
 ### [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
+### [Usar Planeamiento de red para equipos](network-planner.md)
 ### [Servidores proxy para Skype Empresarial Online o Teams](proxy-servers-for-skype-for-business-online.md)
 ### [Especificaciones y límites de Teams](limits-specifications-teams.md)
 ### [Planificar Grupos de Office 365 al crear equipos en Teams](plan-office-365-groups.md)
