@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c33f1cc4b508149ae42b79e956e1f08d44579bc
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: 11378d35e042a69c2eff8f171cdc266108505774
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34422006"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588122"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 
@@ -52,6 +52,9 @@ Aunque miles de clientes se han actualizado correctamente a Microsoft Teams, hay
  - El inquilino de Skype empresarial se hospeda en Corea del Sur **y** la organización requiere que los datos de Teams se almacenen en Corea del sur. Actualmente, las organizaciones con datos de Skype empresarial almacenados en Corea del sur que actualicen a teams tendrán sus datos de equipo almacenados en la región de Asia Datacenter, no en la región del centro de datos de Corea del sur.
 
 **Consideraciones específicas del usuario**: algunos escenarios de usuario siguen evolucionando, y los administradores pueden decidir aplazar temporalmente la actualización de determinados usuarios al actualizar otros usuarios de la organización. Estamos trabajando para afrontar estos escenarios; Consulte el sitio de la [Guía básica de Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para obtener anuncios.
+
+> [!NOTE]
+> Antes de pasar al modo solo para equipos, necesita reemplazar o actualizar los dispositivos que no son compatibles con Teams. 
 
 | Escenario | Notas |
 |----------|-------|

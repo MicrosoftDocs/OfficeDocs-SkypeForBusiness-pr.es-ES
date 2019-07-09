@@ -1,9 +1,9 @@
 ---
-title: Barreras de información en la versión preliminar de Microsoft Teams
+title: Barreras de la información en Microsoft Teams
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
-ms.date: 07/01/2019
+ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,16 +12,14 @@ ms.reviewer: vikramju
 description: Obtenga más información sobre las barreras de información y cómo afectan a teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a9c896e7131dfcd1a510a39712759fd8143fe3f
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5a739130c399012e49522dcf3f88473fb6f85e5c
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418291"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588130"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Barreras de información en la versión preliminar de Microsoft Teams
-
-> [!INCLUDE [Preview feature](includes/preview-feature.md)]
+# <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
 Las barreras de información son directivas que un administrador puede configurar para evitar que los usuarios o grupos se comuniquen entre sí. Esto es útil si, por ejemplo, un departamento está manejando información que no debe compartir con otros departamentos o que un grupo necesita impedir, o aislar, comunicarse con cualquier persona fuera de ese grupo.
 
@@ -47,14 +45,14 @@ El servicio de evaluación de directivas de Information barrera determina si una
 
 ## <a name="managing-information-barrier-policies"></a>Administración de directivas de la barrera de información
 
-Las directivas de la barrera de información se administran con cmdlets de PowerShell del centro de cumplimiento de & de seguridad (SCC). Para obtener más información sobre el uso de estos cmdlets, consulte [definir directivas de obstáculos para la información (vista previa)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
+Las directivas de barrera de información se administran en el centro de cumplimiento de & de seguridad de Office 365 (SCC) con los cmdlets de PowerShell. Para obtener más información, consulte [definir directivas para las barreras de la información](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 > [!IMPORTANT]
-> Antes de configurar o definir directivas, **debe habilitar la búsqueda de directorio en Microsoft Teams**. Espere al menos 24 horas después de habilitar la búsqueda de directorio en el ámbito antes de configurar o definir directivas para barreras de información.
+> Antes de configurar o definir directivas, **debe habilitar la búsqueda de directorio en Microsoft Teams**. Espere al menos 24 horas después de habilitar la búsqueda de directorio en el ámbito antes de configurar o definir directivas para barreras de información. [Más información sobre los requisitos previos para las barreras de la información](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies#prerequisites).
 
 ## <a name="information-barriers-administrator-role"></a>Función de administrador de barreras de información
 
-El rol de administrador de barreras de información (IB Compliance Management) es el responsable de administrar las políticas de la barrera de información. Para obtener más información sobre este rol, consulte [permisos en el centro de cumplimiento de la & de seguridad de Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
+El rol de administración de cumplimiento de IB es el responsable de administrar las políticas de la barrera de información. Para obtener más información sobre este rol, consulte [permisos en el centro de cumplimiento de la & de seguridad de Office 365](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center).
 
 ## <a name="when-are-information-barrier-policies-checked"></a>¿Cuándo se verifican las directivas de barrera de información?
 
@@ -68,7 +66,7 @@ Las directivas de barrera de información se comprueban cuando se producen los s
 
 ## <a name="what-happens-to-existing-chat-threads-when-a-policy-is-changed"></a>¿Qué pasa con los subprocesos de chat existentes cuando se cambia una directiva?
 
-Cuando el administrador de la Directiva de la barrera de información realiza cambios en una directiva o se produce un cambio de directiva en vigor debido a un cambio en el perfil de un usuario (por ejemplo, un cambio en el trabajo o un motivo similar), el servicio de evaluación de la Directiva de la barrera de información busca automáticamente los miembros para asegurarse de que los miembros del equipo no infrinjan las directivas.
+Cuando el administrador de la Directiva de la barrera de información realiza cambios en una directiva o se activa un cambio de directiva debido a un cambio en el perfil de un usuario (por ejemplo, un cambio en el trabajo o un motivo similar), el servicio de evaluación de la Directiva de información de la barrera automáticamente busca los miembros para asegurarse de que los miembros del equipo no infrinjan las directivas.
 
 Si hay una conversación u otra comunicación entre usuarios, se establece una nueva Directiva o se modifica una directiva existente, el servicio evalúa las comunicaciones existentes para asegurarse de que se permitan las comunicaciones. 
 
@@ -102,7 +100,7 @@ Próximamente: los usuarios experimentarán lo siguiente si una directiva de bar
 
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 
-Por el momento, las características de barrera de información están en versión preliminar pública. Cuando estas características estén generalmente disponibles, se incluirán en las suscripciones, como por ejemplo:
+Las barreras de información se están publicando y se incluyen en las suscripciones, como por ejemplo:
 
 - Microsoft 365 E5
 - Office 365 E5
@@ -113,6 +111,8 @@ Para obtener más información, incluidos planes y precios, consulte [soluciones
 
 ## <a name="more-information"></a>Más información
 
-- Para obtener más información sobre las barreras de información, consulte [barreras de información (vista previa)](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
+- Para obtener más información sobre las barreras de la información, consulte barreras de la [información](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
 
-- Para configurar las directivas de la barrera de información, consulte [definir directivas de obstáculos para la información (vista previa)](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- Para configurar las políticas de la barrera de información, consulte [definir políticas para las barreras de información](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+
+- Para editar o quitar directivas de la barrera de la información, consulte [Editar o quitar directivas](https://docs.microsoft.com/office365/securitycompliance/information-barriers-edit-segments-policies.md) de la barrera de información

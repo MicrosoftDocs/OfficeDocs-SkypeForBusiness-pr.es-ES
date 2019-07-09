@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 51926629328d2c17a5b11c9b90b5083f5b9a5578
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: 3498c3eaf81b2b8be7513ec083957f89d3f7fd00
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253698"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588082"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitados de Teams
 ==========================================
@@ -66,21 +66,25 @@ Recuerde lo siguiente:
 
 ## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Paso 1: configurar las opciones de Azure AD Business-to-Business
 
-1. Inicie sesión en https://portal.azure.com.
-2. Haga clic en **Azure Active Directory** en el panel de la izquierda.
-3. En **administrar**, haga clic en **configuración de usuario**.
-4. En **usuarios externos**, haga clic en **administrar la configuración de colaboración externa**.
-5. En la página **configuración de colaboración externa** , asegúrese de que **los miembros pueden invitar** estén establecidos en **sí**.
+1. Inicie sesión en el [portal de Azure](https://portal.azure.com) como administrador de inquilinos.
+2. Seleccione**configuración de usuario**de**usuarios** > de **Azure Active Directory** > .
+3. En **usuarios externos**, seleccione **administrar la configuración de colaboración externa**.
+   > [!NOTE]
+   > La **configuración de colaboración externa** también está disponible en la página relaciones de la **organización** . En Azure Active Directory, en **administrar**, vaya a**configuración**de **relaciones** > organizativas.
+4. En la página **configuración de colaboración externa** , elija las directivas que quiera habilitar.
 
-      ![Captura de pantalla que muestra un ejemplo de alternancia de configuración de AAD. ](media/guest-access-checklist-AADSettings1.png)
+   ![Configuración de colaboración externa](media/control-who-to-invite.png)
 
-    Para admitir invitados, **los miembros pueden invitar** a que se establezcan en **sí**.
-
-    > [!NOTE] 
-    > Si establece que **los miembros puedan invitar** a **no** y, a continuación, habilitar el acceso de invitado en Office 365 grupos y Microsoft Teams, los administradores pueden controlar invitaciones invitadas a su directorio. Una vez que los invitados estén en el directorio, los miembros que no sean administradores podrán agregarlos a teams que sean propietarios del equipo.
-
-Para obtener más información, consulte [Autorizar el acceso de invitado en Microsoft Teams](Teams-dependencies.md).
-
+  - **Los permisos de los usuarios invitados son limitados**: esta Directiva determina los permisos para los invitados de su directorio. Seleccione **sí** para bloquear a los invitados de determinadas tareas de directorio, como la enumeración de usuarios, grupos u otros recursos de directorio. Seleccione **no** para proporcionar a los invitados el mismo acceso a los datos de directorio que los usuarios habituales de su directorio.
+   - **Los administradores y usuarios del rol invitado invitar pueden invitar**: para permitir que los administradores y los usuarios del rol "invitado invitar" puedan invitar a invitados, establezca esta directiva en **sí**.
+   - **Los miembros pueden invitar**: para que los miembros que no sean administradores de su directorio puedan invitar a invitados, establezca esta directiva en **sí**.
+   
+       > [!NOTE]
+       > Si establece que **los miembros puedan invitar** a **no** y, a continuación, habilitar el acceso de invitado en Office 365 grupos y Microsoft Teams, los administradores pueden controlar invitaciones invitadas a su directorio. Una vez que los invitados estén en el directorio, los miembros que no sean administradores podrán agregarlos a teams que sean propietarios del equipo. Para obtener más información, consulte [Autorizar el acceso de invitado en Microsoft Teams](Teams-dependencies.md).
+   
+   - Los **invitados pueden invitar**: para permitir que los invitados inviten a otros invitados, establezca esta directiva en **sí**.
+   - **Habilitar el código de acceso de un solo uso de correo electrónico para invitados (vista previa)**: para obtener más información sobre la característica de código de acceso de un solo uso, consulte [autenticación de código de acceso de un solo uso de correo electrónico (vista previa)](one-time-passcode.md)
+   - **Restricciones de colaboración**: para obtener más información sobre cómo permitir o bloquear invitaciones a dominios específicos, consulte [permitir o bloquear invitaciones a usuarios B2B de organizaciones específicas](allow-deny-list.md).
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Paso 2: configurar grupos de Office 365
 

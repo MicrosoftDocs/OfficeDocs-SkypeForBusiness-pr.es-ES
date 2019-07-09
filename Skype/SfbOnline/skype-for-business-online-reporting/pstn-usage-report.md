@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de conferencias de audio, incluido el costo de la llamada, para que pueda comprender su uso y los detalles de facturación para determinar el uso dentro de su organización.
-ms.openlocfilehash: dafe072cb327cde15cf4a02ca9e1c71a30f4431b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 3d5ea4552cec8e9f10ad0108dad4c00875918c0e
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493991"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35587920"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -76,7 +76,7 @@ Este es el aspecto del informe.
      **Aplicaciones de comunicaciones unificadas (UCAP)** 
      *    **ucap_in** (una llamada RTC entrante a la aplicación de comunicaciones unificadas, como el operador automático o la cola de llamadas) 
      *    **ucap_out** (una llamada RTC saliente de la aplicación de comunicaciones unificadas, como el operador automático o la cola de llamadas)
-     *    **Nota:** Las llamadas que se transfirieron a un usuario desde la aplicación de comunicaciones unificadas, como un operador automático o una cola de llamadas, no aparecerán en el informe de uso de RTC, ya que las llamadas de audio de par a par (P2P). Puede acceder a las llamadas P2P en el centro de administración de Skype empresarial en "herramientas > Skype para análisis de llamadas empresariales" y buscar por nombre de usuario o dirección SIP correlacionando la llamada por fecha y hora, o bien, de origen. 
+     *    **Nota:** Las llamadas que se transfirieron a un usuario desde la aplicación de comunicaciones unificadas, como un operador automático o una cola de llamadas, no aparecerán en el informe de uso de RTC, ya que las llamadas de audio de par a par (P2P). Puede acceder a las llamadas de P2P en el centro de administración de Skype empresarial en "herramientas > de análisis de llamadas de Skype empresarial" y buscar por nombre de usuario o dirección SIP correlacionando la llamada por fecha y hora, o de CLID (ID. de línea de llamada). 
 *     
      **Nacional/internacional** indica si la llamada que se colocó se consideró nacional (dentro de un país o región) o internacional (fuera de un país o región) en función de la ubicación del usuario. 
 *    **Destino marcado** es el nombre del destino del país o la región que se marca como Francia, Alemania o Estados Unidos (EE. UU.). 
@@ -104,7 +104,7 @@ Este es el aspecto del informe.
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
  ***
-![Número 3](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo de Excel delimitado por TABULAciones; para ello, haga clic o toque en el botón **exportar a Excel** . <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. 
+![Número 3](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo de Excel delimitado por TABULAciones; para ello, haga clic o toque en el botón **exportar a Excel** . Puede exportar datos hasta un año a partir de la fecha actual.<br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. 
     > [!Note] 
     > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
 

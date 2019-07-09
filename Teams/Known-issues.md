@@ -15,19 +15,18 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5933489b2b356ad8f44163c4f1d3d6ab4fa0b5dd
-ms.sourcegitcommit: d955406a55cdc4c7abb193f1af90ebd4913c47bc
+ms.openlocfilehash: 843a8f5f2ea960f711d1b4160186957b1c4b306e
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "35541067"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588090"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
 En este artículo se indican los problemas conocidos de Microsoft Teams por área de características.
 
 ## <a name="administration"></a>Administración
-
 
 
 

@@ -6,8 +6,8 @@ manager: serdars
 ms.date: 04/10/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
-description: Obtenga información sobre cómo ejecutar Microsoft Teams en un entorno virtualizado de Desktop Infrastructure (VDI).
+ms.reviewer: rafarhi
+description: Aprenda a ejecutar Microsoft Teams en un entorno de infraestructura de escritorio virtual (VDI).
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,49 +15,49 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1e88a5fb4e8522a94389e3bad24ddc3da8283a53
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223427"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588146"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
-En este artículo se describen los requisitos y limitaciones para el uso de Microsoft Teams en un entorno virtualizado.
+En este artículo se describen los requisitos y las limitaciones para usar Microsoft Teams en un entorno virtualizado.
 
 ## <a name="what-is-vdi"></a>¿Qué es VDI?
 
-Infraestructura de escritorio virtual (VDI) es la tecnología de virtualización que hospeda un sistema operativo de escritorio y las aplicaciones en un servidor centralizado en un centro de datos. Esto permite una experiencia de escritorio totalmente personalizada a los usuarios con un origen centralizado totalmente compatibles con y protegido. 
+La infraestructura de escritorio virtual (VDI) es una tecnología de virtualización que hospeda un sistema operativo de escritorio y aplicaciones en un servidor centralizado en un centro de datos. Esto permite una experiencia de escritorio totalmente personalizada para los usuarios con un origen centralizado totalmente seguro y compatible. 
  
-Actualmente, los equipos en un entorno virtualizado está disponible con soporte para la funcionalidad de colaboración y chat con un equipo virtualizado persistente dedicado (VM). Para garantizar una experiencia de usuario óptima, siga las instrucciones de este artículo. 
+Actualmente, Teams en un entorno virtualizado está disponible con soporte técnico para la funcionalidad de colaboración y chats con una máquina virtualizada dedicada (VM). Para garantizar una experiencia de usuario óptima, siga las instrucciones de este artículo. 
 
-## <a name="teams-requirements"></a>Requisitos de los equipos
+## <a name="teams-requirements"></a>Requisitos de Teams
 
-### <a name="set-policies-to-turn-off-calling-and-meeting-functionality-in-teams"></a>Establecer directivas para desactivar la opción de llamada y funcionalidad en los equipos de la reunión
+### <a name="set-policies-to-turn-off-calling-and-meeting-functionality-in-teams"></a>Establecer directivas para desactivar las funciones de llamada y de reunión en Teams
 
-Los equipos de llamada y la experiencia de la reunión no está optimizado para un entorno VDI (próximamente). Se recomienda que establecer directivas de nivel de usuario para desactivar la opción de llamada y funcionalidad en los equipos de la reunión.
+La experiencia de llamadas y reuniones de equipos no está optimizada para un entorno de VDI (próximamente). Le recomendamos que establezca directivas de nivel de usuario para desactivar las funciones de llamada y de reunión de Teams.
 
-Aún puede elegir ejecutar los equipos totalmente en VDI con la aplicación de escritorio de los equipos o la aplicación web. Sin embargo, le recomendamos que configure las directivas para evitar poner en peligro la experiencia del usuario.  
+Aún puede elegir ejecutar Teams por completo en VDI con la aplicación de escritorio de Teams o la aplicación Web. Sin embargo, le recomendamos que establezca las directivas para evitar poner en peligro la experiencia del usuario.  
 
-Puede tardar cierto tiempo (unas cuantas horas) propagar los cambios de directiva. Si no ve inmediatamente los cambios para una cuenta determinada, inténtelo de nuevo en unas cuantas horas.
+Los cambios de Directiva pueden tardar un poco (algunas horas) en propagarse. Si no ve los cambios de una cuenta determinada inmediatamente, inténtelo de nuevo en unas pocas horas.
 
 > [!NOTE]
-> Al llamar a los equipos y las reuniones están optimizadas para su uso en entornos de escritorio virtuales, puede revertir estas directivas y permitir a los usuarios utilizar los equipos como de costumbre. 
+> Cuando las llamadas y las reuniones de Teams están optimizadas para su uso en entornos de escritorio virtuales, puede revertir estas directivas y permitir que los usuarios usen Teams como lo harían normalmente. 
 
-#### <a name="calling"></a>Llamar a
+#### <a name="calling"></a>Llamadas
 
-Use los cmdlets **CSTeamsCallingPolicy** para controlar si los usuarios pueden usar al llamar a y las opciones de llamada en privado y grupo de chat. Aquí es la lista de configuración de directiva y valores recomendados.
+Use los cmdlets de **CSTeamsCallingPolicy** para controlar si los usuarios pueden usar las opciones de llamadas y llamadas en los chats privados y grupales. A continuación se muestra la lista de opciones de directiva y los valores recomendados.
 
 |Nombre de la directiva  |Descripción |Valor recomendado  |
 |---------|---------|---------|
-|AllowCalling    |Interoperabilidad de controles al llamar a funciones. Activar Esto permite Skype para los usuarios de negocios que las llamadas proporcionó con los usuarios de los equipos y viceversa.         |Se establece en False para evitar que las llamadas de Skype para los usuarios de negocio en los equipos de destino.          |
-|AllowPrivateCalling     | Controla si la aplicación de llamada está disponible en la barra de la aplicación en el lado izquierdo del cliente para los equipos y si los usuarios ven llamadas y las opciones de llamadas de chat privado de vídeo         |Se establece en False para quitar la aplicación de llamada de la barra de la aplicación en el lado izquierdo de los equipos y para quitar las opciones de llamada de llamadas y vídeo de chat privado.          |
+|AllowCalling    |Controla las capacidades de llamadas de interoperabilidad. Activar este servicio permite que los usuarios de Skype empresarial tengan llamadas individuales con usuarios de Teams y viceversa.         |Se establece en false para evitar que las llamadas de los usuarios de Skype empresarial se desembarquen en Teams.          |
+|AllowPrivateCalling     | Controla si la aplicación de llamada está disponible en la barra de la aplicación en el lado izquierdo del cliente de equipos y si los usuarios ven las opciones de llamadas y videollamadas en una conversación privada         |Se establece en false para quitar la aplicación que llama de la barra de aplicaciones situada en el lado izquierdo de Teams y quitar las opciones de llamadas y videollamadas en la conversación privada.          |
 
-#### <a name="create-and-assign-a-calling-policy"></a>Crear y asignar una directiva de llamada
+#### <a name="create-and-assign-a-calling-policy"></a>Crear y asignar una directiva de llamadas
 
-1. Iniciar una sesión de Windows PowerShell como administrador.
-2. Conectar con el conector de Skype en línea.
+1. Inicie una sesión de Windows PowerShell como administrador.
+2. Conéctate al conector de Skype online.
 
         # Set Office 365 User Name and Password
         $username = “admin email address”
@@ -72,7 +72,7 @@ Use los cmdlets **CSTeamsCallingPolicy** para controlar si los usuarios pueden u
 
        Get-CsTeamsCallingPolicy
  
-4. Busque la opción de directiva integrada donde se deshabilitan todas las directivas de llamada. El siguiente aspecto.
+4. Busque la opción de directiva integrada donde todas las directivas de llamadas están deshabilitadas. Tiene el siguiente aspecto.
    
         Identity                        : Tag:DisallowCalling
         AllowCalling                    : False
@@ -85,38 +85,38 @@ Use los cmdlets **CSTeamsCallingPolicy** para controlar si los usuarios pueden u
         AllowCallForwardingToPhone      : False
         PreventTollBypass               : False
 
-5. Aplicar la opción de directiva integrada DisallowCalling a todos los usuarios que van a usar los equipos en un entorno virtualizado.
+5. Aplique la opción de directiva integrada DisallowCalling a todos los usuarios que vayan a usar Teams en un entorno virtualizado.
 
         Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
 
-Para obtener más información acerca de los equipos al llamar a las directivas, vea [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+Para obtener más información sobre las directivas de llamadas de Teams, consulte [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
 
 #### <a name="meetings"></a>Reuniones
 
-Use los cmdlets **CsTeamsMeetingPolicy** para controlar el tipo de las reuniones que los usuarios pueden crear, las características que puede tener acceso a mientras está en una reunión y las características de reunión que están disponibles para los usuarios anónimos y externos. Aquí es la lista de configuración de directiva y valores recomendados.
+Use los cmdlets de **CsTeamsMeetingPolicy** para controlar el tipo de reuniones que los usuarios pueden crear, las características a las que pueden acceder durante una reunión y las características de la reunión que están disponibles para los usuarios anónimos y anónimos. A continuación se muestra la lista de opciones de directiva y los valores recomendados.
 
-|Nombre de la directiva |Descripción|Valor recomendado                   |
+|Nombre de la Directiva |Descripción|Valor recomendado                   |
 |-------------------|-----------------|-----------------------|
-|AllowPrivateMeetingScheduling  | Determina si se permite a un usuario para programar las conferencias privadas.| Se establece en False para prohibir al usuario la posibilidad de programar reuniones privadas.  |
-|AllowChannelMeetingScheduling  | Determina si se permite a un usuario para programar reuniones de canal. | Se establece en False para prohibir al usuario la posibilidad de programar reuniones de canal.                       |
-|AllowMeetNow |Determina si se permite a un usuario para crear o iniciar reuniones ad hoc.              |  Establézcalo en False para prohibir al usuario la posibilidad de iniciar reuniones ad hoc.                     |
-|ScreenSharingMode | Determina el modo en que un usuario se permite compartir su pantalla en las llamadas o reuniones. | Establecido en deshabilitado para prohibir el usuario de uso compartido de sus pantallas                          |
-|AllowIPVideo |Determina si el vídeo está habilitado en las reuniones o las llamadas de un usuario.                  |    Se establece en False para prohibir al usuario de uso compartido de su vídeo                                         |
-| AllowAnonymousUsersToDialOut | Determina si los usuarios anónimos pueden marcar un número RTC. | Se establece en False para prohibir a los usuarios anónimos llamadas de salida                                  |
-| AllowAnonymousUsersToStartMeeting | Determina si los usuarios anónimos pueden iniciar una reunión.     |  Se establece en False para prohibir a los usuarios iniciar una reunión                                            |
-| AllowOutlookAddIn |Determina si un usuario puede programar reuniones en los equipos en el cliente de escritorio de Outlook.| Se establece en False para prohibir a un usuario de programación de reuniones de los equipos en el cliente de escritorio de Outlook|
-| AllowParticipantGiveRequestControl|Determina si los participantes pueden solicitar o ceder el control de uso compartido de la pantalla.| Se establece en False para prohibir al usuario proporcionar y solicitar el control en una reunión    |
-| AllowExternalParticipantGiveRequestControl | Determina si los participantes externos pueden solicitar o ceder el control de uso compartido de la pantalla.| Establece en False para prohibir a un usuario externo que proporciona, solicitar el control en una reunión|
-|AllowPowerPointSharing|Determina si se permite el uso compartido de PowerPoint en las reuniones de un usuario. |Se establece en False para prohibir a un usuario de uso compartido de archivos de PowerPoint en una reunión  |
-|AllowWhiteboard | Determina si se permite la Pizarra en las reuniones de un usuario. |   Se establece en False para prohibir la Pizarra en una reunión |
-| AllowTranscription |Determina si se permiten los títulos en tiempo real o posteriores a la reunión y transcripciones en las reuniones de un usuario.|    Se establece en False para prohibir la transcripción y títulos en una reunión  |  
-| AllowSharedNotes | Determina si los usuarios pueden tomar notas compartidas. | Se establece en False para prohibir a los usuarios tomar notas compartidas |
-|MediaBitRateKB |Determina la velocidad de bits de medios de audio/vídeo/aplicación de uso compartido de las transmisiones de reuniones  | Valor sugerido es 5000 (5 MB). Se puede cambiar en función de las necesidades de su organización.| 
+|AllowPrivateMeetingScheduling  | Determina si un usuario puede programar reuniones privadas.| Se establece en false para impedir que el usuario pueda programar reuniones privadas.  |
+|AllowChannelMeetingScheduling  | Determina si un usuario puede programar reuniones de canal. | Se establece en false para impedir que el usuario pueda programar reuniones de canal.                       |
+|AllowMeetNow |Determina si un usuario puede crear o iniciar reuniones ad-hoc.              |  Establezca este valor en false para impedir que el usuario pueda iniciar reuniones ad-hoc.                     |
+|ScreenSharingMode | Determina el modo en el que un usuario puede compartir su pantalla en llamadas o reuniones. | Establecer en deshabilitado para impedir que el usuario comparta su pantalla                          |
+|AllowIPVideo |Determina si el vídeo está habilitado en las reuniones o las llamadas de un usuario.                  |    Se establece en false para impedir que el usuario comparta el vídeo.                                         |
+| AllowAnonymousUsersToDialOut | Determina si los usuarios anónimos pueden llamar a un número de RTC. | Se establece en false para impedir que los usuarios anónimos llamen                                  |
+| AllowAnonymousUsersToStartMeeting | Determina si los usuarios anónimos pueden iniciar una reunión.     |  Se establece en false para impedir que los usuarios inicien una reunión                                            |
+| AllowOutlookAddIn |Determina si un usuario puede programar reuniones de Teams en el cliente de escritorio de Outlook.| Se establece en false para impedir que un usuario programe reuniones de Teams en el cliente de escritorio de Outlook.|
+| AllowParticipantGiveRequestControl|Determina si los participantes pueden solicitar o ceder el control de la pantalla compartida.| Se establece en false para impedir que el usuario asigne y solicite el control en una reunión.    |
+| AllowExternalParticipantGiveRequestControl | Determina si los participantes externos pueden solicitar o ceder el control de la pantalla compartida.| Se establece en false para impedir que un usuario externo otorgue un control a una reunión|
+|AllowPowerPointSharing|Determina si se permite el uso compartido de PowerPoint en las reuniones de un usuario. |Se establece en false para impedir que un usuario comparta archivos de PowerPoint en una reunión  |
+|AllowWhiteboard | Determina si se permite la pizarra en las reuniones de un usuario. |   Establecer en falso para prohibir la pizarra en una reunión |
+| AllowTranscription |Determina si se permiten las transcripciones y los títulos de tiempo real o posterior a la reunión en las reuniones de un usuario.|    Se establece en false para prohibir transcripción y leyendas en una reunión  |  
+| AllowSharedNotes | Determina si los usuarios pueden tomar notas compartidas. | Se establece en false para impedir que los usuarios tomen notas compartidas |
+|MediaBitRateKB |Determina la tasa de bits multimedia para transllamadas de uso compartido de audio, vídeo y aplicaciones en reuniones.  | El valor sugerido es 5000 (5 MB). Puede cambiarla en función de las necesidades de su organización.| 
 
 #### <a name="create-and-assign-a-meeting-policy"></a>Crear y asignar una directiva de reunión
 
-1. Iniciar una sesión de Windows PowerShell como administrador.
-2. Conectar con el conector de Skype en línea.
+1. Inicie una sesión de Windows PowerShell como administrador.
+2. Conéctate al conector de Skype online.
 
         # Set Office 365 User Name and Password
         $username = “admin email address”
@@ -131,7 +131,7 @@ Use los cmdlets **CsTeamsMeetingPolicy** para controlar el tipo de las reuniones
 
        Get-CsTeamsMeetingPolicy
  
-4. Busque la opción de directiva integrada donde se deshabilitan todas las directivas de reunión. El siguiente aspecto.
+4. Busque la opción de directiva integrada en la que se deshabilitaron todas las directivas de reunión. Tiene el siguiente aspecto.
    
         Identity                                    : Tag:AllOff
         Description                                 :
@@ -153,73 +153,73 @@ Use los cmdlets **CsTeamsMeetingPolicy** para controlar el tipo de las reuniones
         MediaBitRateKb                              : False
         ScreenSharingMode                           : False
 
-5. Aplicar la opción de directiva integrada AllOff a todos los usuarios que van a usar los equipos en un entorno virtualizado. 
+5. Aplique la opción de directiva integrada AllOff a todos los usuarios que vayan a usar Teams en un entorno virtualizado. 
 
         Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
 
- Para obtener más información acerca de las directivas de reunión de los equipos, vea [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+ Para obtener más información sobre las directivas de reunión de Teams, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
-### <a name="virtualization-provider-requirements"></a>Requisitos de virtualización de proveedor
+### <a name="virtualization-provider-requirements"></a>Requisitos del proveedor de virtualización
 
-La aplicación de los equipos ha sido validada en proveedores de soluciones de virtualización a la izquierda. Con varios proveedores de mercado, consulte a su proveedor de soluciones de virtualización para asegurarse de que se cumplen los requisitos mínimos.
+La aplicación de Teams se ha validado en los principales proveedores de soluciones de virtualización. Con varios proveedores de mercado, consulte a su proveedor de soluciones de virtualización para asegurarse de que se cumplan los requisitos mínimos.
 
-### <a name="virtual-machine-requirements"></a>Requisitos de máquina virtual
+### <a name="virtual-machine-requirements"></a>Requisitos de la máquina virtual
 
-Con las diversas cargas de trabajo y las necesidades del usuario en un entorno virtualizado, el siguiente es el mínimo recomendado de configuración de máquina virtual.
+Con las diversas cargas de trabajo y necesidades de los usuarios en un entorno virtualizado, la configuración de VM mínima recomendada es la siguiente.
 
-|Parámetro  |Medida  |
+|Parámetro  |Cód  |
 |---------|---------|
 |vCPU    |  2 núcleos       |
-|MEMORIA RAM     |  4 GB      |
+|MEMORIAS     |  4 GB      |
 |Almacenamiento     | 8 GB       |
 
-### <a name="virtual-machine-operating-system-requirements"></a>Requisitos de sistema operativo de la máquina virtual
+### <a name="virtual-machine-operating-system-requirements"></a>Requisitos del sistema operativo de la máquina virtual
 
-Los sistemas operativos admitidos para la máquina virtual son:
+Los sistemas operativos compatibles con la VM son:
 
-- 10 y versiones posteriores de Windows
+- Windows 10 y versiones posteriores
 - Windows Server 2012 R2 y versiones posteriores
 
-## <a name="install-teams-on-vdi"></a>Instalar los equipos de la VDI
+## <a name="install-teams-on-vdi"></a>Instalar Teams en VDI
 
-Este es el proceso y las herramientas necesarias para implementar la aplicación de escritorio de los equipos. 
+Este es el proceso y las herramientas para implementar la aplicación de escritorio de Teams. 
 
-1. Descargar el paquete de MSI de los equipos mediante uno de los siguientes vínculos según el entorno. Se recomienda la versión de 64 bits para una VM de VDI con un sistema operativo de 64 bits.
+1. Descargue el paquete de MSI de Teams con uno de los siguientes vínculos en función del entorno. Recomendamos la versión de 64 bits para una VM VDI con un sistema operativo de 64 bits.
 
     - [versión de 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
     - [versión de 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-2. Ejecute el siguiente comando para instalar el archivo MSI en la VM VDI (o completar su actualización).
+2. Ejecute el siguiente comando para instalar el MSI en la máquina virtual de VDI (o actualizarlo).
 
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
 
-    Este archivo instala los equipos a los archivos de programa. En este momento, la configuración de imagen oro está completa.
+    Instala Teams en archivos de programa. En este momento, la configuración de la imagen de oro está completa.
  
-    La sesión de inicio de sesión interactivo siguiente inicia los equipos y solicita credenciales. Tenga en cuenta que no es posible deshabilitar el inicio automático de los equipos al instalar los equipos de la VDI mediante la propiedad correspondiente a. 
+    La siguiente sesión de inicio de sesión interactivo inicia Teams y solicita las credenciales. Tenga en cuenta que no es posible deshabilitar el inicio automático de equipos al instalar Teams en VDI mediante la propiedad ALLUSER. 
 
-3. Ejecute el siguiente comando para desinstalar el archivo MSI de la VM VDI (o preparar para su actualización).
+3. Ejecute el siguiente comando para desinstalar el MSI de la máquina virtual de VDI (o prepararse para actualizarlo).
 
         msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
 
-    Esto desinstala los equipos de los archivos de programa.
+    Esto desinstalará Teams de archivos de programa.
 
-## <a name="known-issues-and-limitations"></a>Limitaciones y problemas conocidos
+## <a name="known-issues-and-limitations"></a>Problemas conocidos y limitaciones
 
-Los siguientes son problemas conocidas y limitaciones para los equipos de la VDI.
+A continuación se indican los problemas conocidos y las limitaciones de Teams en VDI.
 
-- **Implementaciones de tipo de host de sesión de compartidos**: implementaciones de tipo de host de sesión de compartidos (por ejemplo, que no son persistentes VM configuración compartida) no están en el ámbito.
+- **Implementaciones de tipo de host de sesión compartida**: implementaciones de tipo de host de sesión compartida (por ejemplo, configuración de VM no persistente compartida) no están en el ámbito.
 - **Llamadas y reuniones**:
 
-    - Llamada y escenarios de la reunión no están optimizados para VDI. Estos escenarios realizará mal. Se recomienda usar las directivas de nivel de usuario, tal como se describe en la sección [establecer directivas para desactivar la opción de llamada y funcionalidad en los equipos de la reunión](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) .  
-    - Aplicar las directivas que se describen en este artículo afecta a la capacidad de usar la funcionalidad de llamada y convocatorias de reunión que según otras directivas, puede afectar a otros usuarios de la organización. Si los usuarios de la organización utilizan a los clientes que no sean de VDI, puede elegir no aplicar las directivas.  
+    - Los escenarios de llamadas y reuniones no están optimizados para VDI. Estos escenarios no se realizarán correctamente. Le recomendamos que use directivas de nivel de usuario tal y como se describe en la sección [establecer directivas para desactivar la función de llamadas y reuniones de Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) .  
+    - La aplicación de las directivas descritas en este artículo afecta a la posibilidad de usar la funcionalidad de llamadas y reuniones, que depende de otras directivas, puede afectar a otros usuarios de su organización. Si los usuarios de su organización usan clientes que no son VDI, puede optar por no aplicar las directivas.  
 
-- **Unirse a las llamadas y las reuniones creadas por otros usuarios**: aunque las directivas de restringen a los usuarios de la creación de las reuniones, todavía pueden unirse a reuniones si otro usuario marca a ellos desde la reunión. En estas reuniones, la capacidad del usuario para compartir vídeo, usar la Pizarra y otras características dependen de si deshabilita las características mediante TeamsMeetingPolicy.  
-- **Contenido en caché**: si es el entorno virtual en los equipos que se ejecuten no es persistente (y se limpian de datos al final de cada sesión de usuario), los usuarios pueden observar la degradación del rendimiento debido a la actualización de contenido, independientemente de si el usuario tiene acceso a la misma contenido en una sesión anterior.
-- **Actualizaciones de cliente**: no se actualizan automáticamente los equipos de la VDI similar al modo en que los clientes de equipos que no sean de VDI.  Se debe actualizar la imagen de la máquina virtual mediante la instalación de un nuevo MSI tal como se describe en la sección [Instalación de los equipos de la VDI](#install-teams-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
-- **Experiencia del usuario**: los equipos de la experiencia del usuario en un entorno VDI puede ser distinta de un entorno que no sean VDI. Las diferencias se pueden debido a la configuración de directiva o cuentan con soporte en el entorno.
+- **Unirse a llamadas y reuniones creadas por otros usuarios**: aunque las directivas restringen la creación de reuniones, aún pueden unirse a ellas si otro usuario llama a ellas desde la reunión. En estas reuniones, la capacidad del usuario de compartir vídeo, usar la pizarra y otras características depende de si ha deshabilitado esas características con TeamsMeetingPolicy.  
+- **Contenido almacenado en caché**: Si el entorno virtual en el que se ejecutan los equipos no es persistente (y los datos se limpian al final de cada sesión de usuario), es posible que los usuarios noten una degradación en el rendimiento debido a la actualización del contenido, independientemente de si el usuario tuvo acceso al mismo contenido de una sesión anterior.
+- **Actualizaciones de cliente**: Teams en VDI no se actualiza automáticamente de la misma manera que los clientes de equipos ajenos a VDI.  Tiene que actualizar la imagen de VM instalando un nuevo MSI, como se describe en la sección [instalar Teams en VDI](#install-teams-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
+- **Experiencia de usuario**: la experiencia de usuario de los equipos en un entorno de VDI puede diferir de un entorno que no sea de VDI. Las diferencias pueden deberse a la configuración de directivas o a la compatibilidad de características en el entorno.
 
-Para los equipos de los problemas conocidos que no están relacionados con VDI, consulte [problemas para los equipos de Microsoft conocidos](Known-issues.md).
+Para los problemas conocidos de teams que no se relacionan con VDI, consulte [problemas conocidos de Microsoft Teams](Known-issues.md).
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Instalar Teams Microsoft con MSI](msi-deployment.md)
+- [Instalar Microsoft Teams mediante MSI](msi-deployment.md)

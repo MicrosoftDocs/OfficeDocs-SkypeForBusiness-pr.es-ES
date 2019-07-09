@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: cf7455a42d19d82ff4d82c4434b8e97962433131
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 67e1f87e279e84fa89b9368b89699724cc73c7b2
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298215"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588194"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar Audioconferencia en Office 365 para Microsoft Teams
 
@@ -77,7 +77,7 @@ Si es cliente de Volumen y licencias, puede obtener licencias de audioconferenci
 
 Si asigna una licencia de **audioconferencia** a las personas de su organización que no tienen Skype empresarial integrado con un proveedor de servicios de audioconferencia de terceros, todos se configuran y están listos para usar. (No tiene que configurar su proveedor de audioconferencias).
 
-Si tiene usuarios habilitados con un proveedor de servicios de audioconferencia de terceros, debe cambiar el proveedor de esos usuarios a Microsoft. Para cambiar el proveedor de un usuario, vea [asignar Microsoft como el proveedor](/Skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)de servicios de audioconferencia.
+Si tiene usuarios habilitados con un proveedor de servicios de audioconferencia de terceros, debe cambiar el proveedor de esos usuarios a Microsoft. Para cambiar el proveedor de un usuario, vea [asignar Microsoft como el proveedor](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)de servicios de audioconferencia.
 
 ## <a name="step-3-other-admin-tasks"></a>Paso 3: Otras tareas de administrador
 

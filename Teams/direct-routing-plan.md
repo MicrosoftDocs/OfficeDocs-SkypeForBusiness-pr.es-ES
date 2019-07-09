@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: 31f7723a98a1a94089dec74cda776ea30e09c014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290389"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588202"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -29,7 +29,7 @@ ms.locfileid: "34290389"
 
 El enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.  Con esta capacidad, por ejemplo, puede configurar la conectividad RTC local con el cliente de Microsoft Teams, como se muestra en el siguiente diagrama: 
 
-![Muestra la configuración de conectividad RTC local con el cliente de Microsoft Teams](media/PlanDirectRouting1-PSTNwithTeams.png)
+![Diagrama que muestra la configuración de conectividad RTC local] (media/PlanDirectRouting1-PSTNwithTeams.png "Configuración de conectividad RTC local con el cliente de Microsoft Teams")
 
   > [!NOTE]
   > Skype empresarial online también le permite emparejar un SBC proporcionado por el cliente, pero esto requiere una implementación local de Skype empresarial Server o una edición especial de Skype empresarial, denominada Cloud Connector, entre el SBC y la nube de Microsoft. Este escenario se conoce como voz híbrida. Por el contrario, el enrutamiento directo permite una conexión directa entre el SBC compatible y la nube de Microsoft. 
@@ -89,10 +89,14 @@ Los usuarios de enrutamiento directo deben tener las siguientes licencias asigna
 - Microsoft Teams 
 - Conferencias de audio de Microsoft 
 
-La licencia de audioconferencias es necesaria para agregar participantes externos a las reuniones programadas, ya sea mediante la llamada a la persona o proporcionando el número de acceso telefónico local. 
- 
-  > [!NOTE]
-  > La licencia E5 incluye sistema telefónico y conferencias de audio.   
+> [!NOTE]
+> Cuando está escalando desde una llamada de 1:1, se necesita la licencia de audioconferencias
+
+> [!IMPORTANT]
+>  En el caso de que desee agregar participantes externos a las reuniones programadas, ya sea mediante la marcación de ellos o proporcionando el número de acceso telefónico local, se *necesita*la licencia de audioconferencia.
+
+> [!NOTE]
+> La licencia E5 incluye sistema telefónico y conferencias de audio.   
 
 Además, debe asegurarse de lo siguiente:
  

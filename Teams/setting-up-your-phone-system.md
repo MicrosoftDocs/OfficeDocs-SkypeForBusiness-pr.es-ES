@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: 3b81ad07d73b87a6635a15bc924ecd70758e12fb
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 304bdc58f8f2e077aa58dc4ded46f55387392374
+ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548951"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35588178"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar el Sistema telefónico en su organización
 
@@ -224,9 +224,9 @@ Para crear una nueva cola de llamadas, en el **centro de administración de Skyp
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-Para crear un nuevo operador automático, en el centro de administración de Skype empresarial, haga clic en**operadores automáticos**de **enrutamiento** > de llamadas, haga clic en **Agregar nuevo**y, a continuación, siga las instrucciones para cada página del **paso 2** de [configurar un operador automático de la nube ](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+Para crear un nuevo operador automático, en el centro de administración de Skype empresarial, haga clic en**operadores automáticos**de **enrutamiento** > de llamadas, haga clic en **Agregar nuevo**y, a continuación, siga las instrucciones para cada página del **paso 2** de [configurar un operador automático de la nube ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
 
-**Para obtener más información sobre los operadores automáticos de la nube, vea [configurar un operador automático de la nube](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).**
+**Para obtener más información sobre los operadores automáticos de la nube, vea [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).**
 
 ## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>Paso 9: asignar los números de teléfono de servicio (audioconferencia, colas de llamadas, operadores automáticos)
 
@@ -236,7 +236,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - En el caso de los operadores automáticos, puede asignar un número dedicado a un operador automático yendo a la administración del **centro de administración de Microsoft 365 centro** > de**Administración** > de**llamadas** > **de Skype empresarial** > :**operadores automáticos **y haz clic en el operador automático. En la página **General**, el número de servicio que ya tenga aparecerá en la lista desplegable **Número de teléfono**. Para obtener más información, consulte [configurar un operador automático de la nube](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
 
-- Para las colas de llamadas, puede asignar un número dedicado a una cola de llamadas desde el centro**** > **** de administración del **Centro** > de administración de Microsoft 365**centros** > **de administración de llamadas de Skype para empresas** > y haga clic en en la cola de llamadas. En la página **General**, el número de servicio que ya tenga aparecerá en la lista desplegable **Número de teléfono**. Para obtener más información, consulte [crear una cola de llamadas en la nube](/SkypeForBusiness/create-a-phone-system-call-queue).
+- Para las colas de llamadas, puede asignar un número dedicado a una cola de llamadas desde el centro**** > **** de administración del **Centro** > de administración de Microsoft 365**centros** > **de administración de llamadas de Skype para empresas** > y haga clic en en la cola de llamadas. En la página **General**, el número de servicio que ya tenga aparecerá en la lista desplegable **Número de teléfono**. Para obtener más información, consulte [crear una cola de llamadas en la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
 
 **Para ver información detallada sobre cómo obtener nuevos números de servicio y hacer la portabilidad de otros ya existentes, consulte [Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers).**
 
