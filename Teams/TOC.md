@@ -739,7 +739,7 @@
 ### [Direcciones URL e intervalos de direcciones IP de Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams para la infraestructura de escritorio virtualizada (VDI)](teams-for-vdi.md)
 ### [Implementar Microsoft Teams para Surface Hub](teams-surface-hub.md)
-### [Proceso de actualización del cliente de Teams](teams-client-update.md)
+### [Actualizaciones del cliente de Teams](teams-client-update.md)
 
 ## Licencias
 ### [Gestionar acceso de los usuarios a Microsoft Teams](user-access.md)
