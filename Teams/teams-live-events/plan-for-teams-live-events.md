@@ -1,8 +1,9 @@
 ---
 title: Plan para eventos en directo en Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -14,16 +15,16 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que hay que tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14827e6ded282c113e56dd3fa567b4c7835bbf23
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 7f5d3b21b1a41779a094ba7b782b309365bc9503
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013032"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602258"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
-Cuando planea eventos en vivo de Teams para mantener reuniones grandes de su organización, hay varios factores que debe tener en cuenta antes de empezar a configurarlo. 
+Al planear los eventos en vivo de Teams para mantener reuniones grandes de su organización, hay varios factores que debe tener en cuenta antes de empezar a configurarlo. 
 
 ## <a name="who-can-create-and-schedule-live-events"></a>¿Quién puede crear y programar eventos en vivo? 
 Los siguientes requisitos previos son necesarios para que el usuario programe un evento de Teams Live.
@@ -51,7 +52,7 @@ El usuario debe tener:
 - Permisos para crear eventos en directo en la secuencia (para producción de dispositivos o aplicaciones externas).
 
 > [!IMPORTANT]
-> Los invitados de Office 365, los federados y los usuarios anónimos no pueden ser invitados como productores o moderadores en eventos de Teams Live. Los usuarios federados y invitados de Office 365 solo pueden ver los eventos en directo de forma anónima. 
+> Los invitados de Office 365, los federados y los usuarios anónimos no pueden ser invitados como productores o moderadores en eventos de Teams Live. Los invitados y usuarios federados de Office 365 solo pueden ver los eventos en directo de forma anónima. 
  
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver eventos en directo?
 
@@ -59,11 +60,12 @@ El usuario debe tener:
 |------------------------------|-----------------|----------------------|
 |Público (usuarios anónimos)      |  Sí            |  No                  |
 |Usuarios invitados                   |  No<sup>1</sup> |  No                  |
-|Todas las personas de la empresa federada |  No<sup>1</sup> |  No                  |
+|Todas las personas de la empresa federada |  No<sup>2</sup> |  No                  |
 |Todas las personas de la empresa           |  Sí             |  Sí                 |
 |Grupos o personas específicos      |  Sí             |  Sí                 |
 
-<sup>1</sup> solo puede ver eventos en vivo como usuarios anónimos.
+<sup>1</sup> puede ver los eventos en vivo si el evento en directo se configura con la opción **de toda la organización** .<br>
+<sup>2</sup> solo puede ver eventos en vivo como usuarios anónimos.
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos de Teams Live y difusión de reunión de Skype
@@ -89,8 +91,8 @@ En la siguiente tabla se resaltan las funciones principales y las característic
 |Presentar un PowerPoint (uso compartido de PPT) |&#x2714; |X (mitigado a través de pantalla compartida) |N/D |
 |Grabación de reuniones basada en la nube |&#x2714; |&#x2714; |&#x2714; |
 |Publicar automáticamente la grabación en la transmisión por secuencias |X |X |&#x2714; |
-|Traducción y subtítulos en tiempo real |&#x2714; |&#x2714; (próximamente) |X |
-|Subtítulos en grabaciones de eventos en directo |&#x2714; |&#x2714; (próximamente) |&#x2714; |
+|Subtítulos y subtítulos en vivo |&#x2714; |&#x2714; |X |
+|Subtítulos en grabaciones de eventos en directo |&#x2714; |&#x2714; |&#x2714; |
 |Los controles de asistentes DVR (pausar, rebobinar) |&#x2714; |&#x2714; |&#x2714; |
 |Soporte técnico eCDN |&#x2714; (Hive, Kollective, rampa) |&#x2714; (Hive, Kollective, rampa) |&#x2714; (Hive, Kollective, rampa) |
 |Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |X |
@@ -112,7 +114,7 @@ Puede usar eventos de Teams Live en varias regiones de todo el mundo. La siguien
 - Ir a Canadá local
 
 **Exclusiones y consideraciones**
-- **Ir a locales:** En la actualidad, no se admiten los Estados Unidos de Reino Unido, India, Australia, Japón y otros equipos.
+- **Ir a locales:** Actualmente no se admiten las variables locales de Reino Unido, India, Australia, Japón y otros equipos.
 - **China:** Los miembros del equipo del evento y los asistentes no podrán usar los eventos en directo de Teams porque no se puede obtener acceso a la CDN de Azure en China. Una solución es usar una conexión VPN corporativa, que obtiene el cliente conectado a CDN a través de la red corporativa del cliente.
 
 ## <a name="next-steps"></a>Pasos siguientes

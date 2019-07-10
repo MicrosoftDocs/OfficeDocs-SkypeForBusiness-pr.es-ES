@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo se actualiza el cliente de escritorio de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436a2a3175cd057082c0e658ea5ab6d3db0364cc
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: ba5280e03e316dfcde3bda9b62520fa513f3157a
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588186"
+ms.locfileid: "35602274"
 ---
 # <a name="teams-update-process"></a>Proceso de actualización de Teams
 
@@ -31,7 +31,9 @@ El cliente de escritorio se actualiza automáticamente. Teams busca actualizacio
 
 Los usuarios también pueden descargar actualizaciones manualmente haciendo clic en **Buscar actualizaciones** en el menú desplegable **perfil** en la parte superior derecha de la aplicación. Si hay una actualización disponible, se descargará y se instalará en modo silencioso cuando el equipo esté inactivo.
 
-Los usuarios deben iniciar sesión para que se descarguen las actualizaciones. A partir del 9 de julio de 2019, las actualizaciones de los clientes de Teams usan mucho menos ancho de banda de red durante la actualización. Esta opción está activada de forma predeterminada y no requiere ninguna acción de administradores o usuarios.
+Los usuarios deben iniciar sesión para que se descarguen las actualizaciones. 
+
+A partir del 9 de julio de 2019, las actualizaciones de los clientes de Teams usan mucho menos ancho de banda de red durante la actualización. Esta opción está activada de forma predeterminada y no requiere ninguna acción de administradores o usuarios.
 
 
 ## <a name="what-about-updates-to-office-365-proplus"></a>¿Qué hay de las actualizaciones de Office 365 ProPlus?

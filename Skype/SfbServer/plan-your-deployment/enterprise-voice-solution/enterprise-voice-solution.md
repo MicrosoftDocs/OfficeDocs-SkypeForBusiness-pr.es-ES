@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumen: Obtenga información sobre las opciones para planear una solución de voz y comunicaciones unificada en Skype empresarial Server.'
-ms.openlocfilehash: 7d9df9b8b5997a08a04ddcc802914b0dc01a23c0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
+ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276876"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35602172"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planear la solución de voz empresarial en Skype empresarial Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "34276876"
   
 Skype empresarial Server ofrece dos opciones de telefonía a empresas locales: voz y llamadas empresariales, para que usted integre el sistema telefónico de su organización con su implementación de Skype empresarial Server, lo que permite una auténtica comunicación unificada. Luci. Ambas opciones permiten a los usuarios usar su cliente de Skype empresarial para iniciar llamadas de voz con otros usuarios, tanto dentro como fuera de su organización.
   
-También puede aprovechar los servicios de PBX en la nube de Microsoft, incluidos los servicios PBX y las llamadas RTC, mediante la conexión de su infraestructura de telefonía local con los servicios proporcionados por Skype empresarial online. Para obtener más información, vea [planear el sistema telefónico en la solución de Office 365 (PBX en la nube)](../../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md).
+También puede aprovechar los servicios de PBX en la nube de Microsoft, incluidos los servicios PBX y las llamadas RTC, mediante la conexión de su infraestructura de telefonía local con los servicios proporcionados por Skype empresarial online. Para obtener más información, consulte [voz de nube en Microsoft Teams](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page).
   
 También puedes usar la telefonía IP empresarial y la llamada a través del trabajo en conjunto.
   
