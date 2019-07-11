@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05c870dd953a0be959c59996820b3f11bf721521
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 5bedaee766005787bb7b532f4f5561faf91dd35d
+ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591658"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "35614208"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -63,6 +63,9 @@ Microsoft Teams funciona con varios servicios de Office 365 para ofrecer a los u
 
 - Para permitir que Microsoft Teams funcione con Exchange local, debe configurar el nuevo protocolo de autenticación de OAuth de Exchange como se describe en [configurar la autenticación de OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
+> [!NOTE]
+>Para la integración de Exchange local y de Teams, es necesario asignar la licencia necesaria para el usuario sincronizado de AAD.
+
 ## <a name="additional-considerations"></a>Consideraciones adicionales
 
 A continuación se muestran algunas cosas que debe tener en cuenta al implementar Microsoft Teams en su organización.
@@ -73,7 +76,7 @@ A continuación se muestran algunas cosas que debe tener en cuenta al implementa
 
 - Si su organización tiene requisitos de cumplimiento para garantizar que todas las discusiones de reuniones se descubran, debe deshabilitar las reuniones privadas si el organizador tiene un buzón local de Exchange.
 
-- En una implementación híbrida de Exchange, el contenido de los mensajes instantáneos se pueden buscar independientemente de si los participantes del chat tienen un buzón basado en la nube o un buzón local. Para obtener más información, lea [búsqueda de buzones de correo basados en la nube para usuarios locales en Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información sobre la búsqueda de contenido en Teams, lea [búsqueda de contenido en el centro de cumplimiento de la & de seguridad de Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+- En una implementación híbrida de Exchange, el contenido de los mensajes instantáneos se pueden buscar independientemente de si los participantes del chat tienen un buzón basado en la nube o un buzón local. Para obtener más información, lea [búsqueda de buzones de correo basados en la nube para usuarios locales en Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información sobre la búsqueda de contenido en Teams, lea [búsqueda de contenido en el centro de cumplimiento de & de seguridad de Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 
 > [!TIP]
 > Para obtener más información sobre cómo usar Azure AD Connect para sincronizar con Azure Active Directory, consulte [integrar las identidades locales con Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
