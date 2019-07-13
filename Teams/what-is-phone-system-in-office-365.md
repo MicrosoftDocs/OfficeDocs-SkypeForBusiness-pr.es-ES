@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Más información sobre el sistema telefónico que puede hacer por usted. '
-ms.openlocfilehash: 60978b76eb6bf986c5db0b1a8ee04de1c5516c73
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548959"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643142"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 
@@ -41,9 +41,9 @@ Para habilitar las llamadas a teléfonos fijos y móviles, el sistema telefónic
   
 - Al comprar un plan de llamadas (nacional o nacional) para Office 365. Ver el [sistema telefónico y los planes de llamadas](calling-plan-landing-page.md)
     
-- Mediante la conectividad RTC local, en la que el software local se conecta con su infraestructura de telefonía existente. Consulte [planificación del sistema telefónico](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
-![Diagrama que describe las ofertas de PBX en la nube](media/29fd12ab-e86f-422d-b4d6-0b75824211bc.png).
+- Mediante la conectividad RTC local, en la que el software local se conecta con su infraestructura de telefonía existente. Vea [soluciones de telefonía de Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
+
 
 ## <a name="more-about-calling-plans"></a>Más información sobre los planes de llamadas
 

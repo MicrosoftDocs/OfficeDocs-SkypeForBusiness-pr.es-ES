@@ -11,15 +11,15 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumen: Aprenda a conectar Skype empresarial Server con el consumidor de Skype. También se conoce como conectividad de Skype.'
-ms.openlocfilehash: 1f03b873299828dedf6c0ffca113d60d277bf65c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eae06688e06f143011d4bd6559d6bcbb7b9b61aa
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302834"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643181"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar conectividad de Skype en Skype empresarial Server
- 
+
 **Resumen:** Aprenda a conectar Skype empresarial Server con el consumidor de Skype. También se conoce como conectividad de Skype.
   
 Este artículo es una guía para la implementación de la Conectividad de Skype.
@@ -96,49 +96,48 @@ Skype empresarial Server usa la arquitectura de acceso a la Federación para adm
 > [!NOTE]
 > Si Skype Empresarial Server ya se encuentra configurado con Windows Messenger por medio de Public Instant Messaging Connectivity (PIC), su implementación ya se encuentra configurada para la Conectividad de Skype. Posiblemente, el único cambio que desee realizar será cambiar el nombre de la entrada PIC de Messenger existente a Skype.  
   
-### <a name="accessing-the-skype-for-business-server-public-im-connectivity-provisioning-site-from-skype-for-business-server"></a>Acceso al sitio de aprovisionamiento de la conectividad de mensajería instantánea pública de Skype empresarial Server desde Skype empresarial Server
+### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>El sitio de aprovisionamiento de la conectividad de mensajería instantánea pública de Skype empresarial Server ya no está disponible
 
-Este proceso de aprovisionamiento puede tardar hasta treinta días en completarse, aunque posiblemente demore solo unos días según la cantidad de solicitudes. Recomendamos que inicie este proceso antes de continuar con el resto de los pasos que aparecen en este documento. Una vez terminado el proceso de aprovisionamiento de Skype para su cuenta, esta se activará y los usuarios válidos se habilitarán para la conectividad de mensajería instantánea pública.  
+El sitio que anteriormente se usaba para aprovisionar manualmente la Federación entre las implementaciones locales de Skype para empresas y Skype ya no es necesario y se cerrará el 8/15/2019. La Federación con Skype ahora usa el descubrimiento de socios federados, que es el mismo mecanismo necesario para la Federación con Skype empresarial online.
+
+La comunicación entre cualquier implementación local de Skype empresarial y los usuarios de Skype a través de la infraestructura pública de mensajería instantánea existente requiere ahora que la configuración del servidor perimetral local sea compatible con Skype empresarial online.
+
+> [!NOTE]
+> La mayoría de los clientes no necesita ninguna acción, incluidas todas las implementaciones que se federan con Skype empresarial online.
   
-Para aprovisionar la Conectividad de Skype, necesita la siguiente información:
-  
-- Número del contrato de Microsoft
-    
-- Nombre de dominio completo (FQDN) del servicio perimetral de acceso
-    
-- Dominio(s) del Protocolo de inicio de sesión (SIP)
-    
-- Todos los FQDN del servicio perimetral de acceso adicionales
-    
-- Información de contacto
-    
-Para iniciar el proceso de aprovisionamiento para la Conectividad de Skype:
-  
-1. Inicie sesión en el sitio Web https://pic.lync.com, usando su Microsoft Windows Live ID.
-    
-2. Seleccione el tipo de contrato de licencia de Microsoft.
-    
-3. Active la casilla para confirmar que ha leído y acepta los derechos de uso del producto de Skype Empresarial Server.
-    
-4. En la página Iniciar una solicitud de aprovisionamiento, haga clic en el vínculo correspondiente para iniciar una solicitud de aprovisionamiento:
-    
-5. En la página Especificar la información de aprovisionamiento, escriba el FQDN del servicio perimetral de acceso. Por ejemplo, sip.contoso.com.
-    
-    > [!IMPORTANT]
-    > A partir del 1 de julio de 2017 Microsoft solicitará adicionalmente a los clientes que tengan el registro SRV de DNS de federación implementado para que la conectividad de mensajería instantánea pública siga funcionando.  
-  
-6. Escriba uno o varios nombres de dominio SIP y, luego, haga clic en Agregar.
-    
-    > [!NOTE]
-    > Se necesita por lo menos un servidor perimetral de acceso para completar el proceso de aprovisionamiento. Mientras un FQDN del servidor perimetral de acceso puede admitir varios dominios SIP, un único dominio SIP no se puede representar por más de un FQDN del servidor perimetral de acceso. El dominio SIP y el servidor perimetral de acceso necesitan estar activos, funcionar y ser accesibles en la red.              
-  
-7. En la lista de Proveedores de servicios públicos de MI, seleccione Skype y haga clic en Siguiente para agregar la información de contacto y enviar la solicitud de aprovisionamiento.
-    
-Una vez enviada la solicitud de aprovisionamiento, pueden pasar hasta 30 días hasta que se active la cuenta y se habilite a los usuarios para la Conectividad de Skype, aunque puede demorar solo unos días según la cola.
-  
+Es necesario que las implementaciones locales publiquen un registro SRV de DNS de Federación para cada dominio que hospedan. La guía está disponible en el [planeamiento de DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Cada dominio debe resolverse mediante una consulta SRV de DNS a un FQDN de servidor perimetral que satisfaga una coincidencia de sufijo de nivel superior del dominio. Por ejemplo, considere el dominio "contoso.com":
+
+|**FQDN válidos**|**Comentario**|
+|:-----|:-----|
+|sip.contoso.com   ||
+|sipfed.contoso.com   |En cada caso, el FQDN exacto debe estar presente en el SN o en la SAN del certificado externo instalado en el servidor perimetral.   |
+|access.contoso.com   ||
+|**FQDN no válidos**|**Motivo**|
+|sip.contoso-edge.com   |No es una coincidencia de sufijo.  |
+|sip.it.contoso.com   |No coincide un sufijo de nivel superior.   |
+
+Puede encontrar más información sobre los certificados externos en el [planeamiento de certificados](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#certificate-planning).
+
+#### <a name="faqs"></a>Preguntas frecuentes
+
+**¿Por qué se cierra el sitio web de aprovisionamiento?**
+El mecanismo de aprovisionamiento de la mensajería instantánea pública (PIC) que se implementó en 2006 ya no se puede usar y se cerrará en 8/15/2019. En su lugar, la Federación de la mensajería instantánea pública asumirá el mismo modelo de Federación que usa Skype empresarial online, conocido como "descubrimiento del asociado", mediante el cual una implementación local puede ser detectada públicamente por su Federación de registros SRV de DNS.
+
+**¿Este cambio significa que la Federación pública de mensajería instantánea está en desuso?**
+No. La Federación de mensajería instantánea pública seguirá siendo admitida durante muchos años, probablemente hasta que el producto local de Skype empresarial llegue al final de la vida.
+
+**Nuestra empresa tiene una relación híbrida (espacio de direcciones compartidas) con Skype empresarial online, ¿estamos afectados?**
+No, puesto que ya está en la Federación con Skype empresarial online, este cambio no le afectará.
+ 
+**¿Este cambio significa que nuestra empresa tiene que habilitar la Federación con Skype empresarial online?**
+No. Si la configuración del proxy del servidor perimetral no permite la Federación con el proveedor de hospedaje de Skype empresarial online (sipfed.online.lync.com), este cambio no afectará. Sin embargo, los mismos requisitos de DNS y certificados que se aplican a la Federación con Skype empresarial online también se aplican a la Federación con usuarios de Skype.
+ 
+**Nuestra empresa es grande y no puede cambiar su configuración de la periferia debido a motivos normativos, de cumplimiento y etc... ¿Qué podemos hacer?**
+Cualquier organización local que no pueda cambiar la configuración del servidor perimetral según lo especificado debe ponerse en contacto con el servicio de asistencia al producto lo antes posible.
+
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>Habilitar la federación y la conectividad de mensajería instantánea pública (PIC)
 
-Una vez que haya enviado la solicitud de aprovisionamiento, puede concentrarse en las tareas administrativas y del entorno de Skype Empresarial Server necesarias para configurar la Conectividad de Skype. En esta sección, se asume que el administrador ya ha implementado Skype Empresarial Server y configurado el acceso externo, conocido también como servidores perimetrales.  
+Ahora céntrese en el entorno de Skype empresarial Server y en las tareas administrativas necesarias para configurar la conectividad de Skype. En esta sección, se asume que el administrador ya ha implementado Skype Empresarial Server y configurado el acceso externo, conocido también como servidores perimetrales. 
   
 La habilitación de la federación y la PIC consta de tres pasos principales, que son:
   
@@ -153,7 +152,7 @@ La habilitación de la federación y la PIC consta de tres pasos principales, qu
 La federación es necesaria para permitir que los usuarios de Skype se comuniquen con los usuarios de Skype Empresarial de la organización. Es preciso configurar Public Instant Messaging Connectivity (PIC), que es un tipo de federación, para que los usuarios de Skype Empresarial se puedan comunicar con los usuarios de Skype. La federación y la PIC se configuran por medio del Panel de control de Skype Empresarial Server.
   
 > [!NOTE]
-> La federación de PIC ya no es compatible con Live Communication Server 2005 SP1 ni con Office Communications Server 2007. Las plataformas compatibles con la Federación de PIC incluyen Skype empresarial Server, Lync Server 2013, Lync Server 2010 y Office Communications Server 2007 R2. 
+> La Federación de PIC ya no es compatible con las versiones de producto anteriores a Lync Server 2010 (Live Communication Server, Office Communications Server). Las plataformas compatibles con la Federación de PIC incluyen Skype empresarial Server, Lync Server 2013 y Lync Server 2010. 
   
 La federación es necesaria para permitir que los usuarios de Skype se comuniquen con los usuarios de Skype Empresarial de la organización. Es preciso configurar Public Instant Messaging Connectivity (PIC), que es un tipo de federación, para que los usuarios de Skype Empresarial Server se puedan comunicar con los usuarios de Skype. La federación y la PIC se configuran por medio del diálogo Configuración perimetral del Panel de control de Skype Empresarial Server, como se muestra en la figura.
   

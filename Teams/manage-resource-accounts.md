@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Más información sobre la administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: 4dcb9327efba7be70628ad71a90734940fc3317e
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 947f01f6a305c723558273feb5da477078c4fd71
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394503"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643174"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -38,13 +38,17 @@ En Microsoft Teams o Skype empresarial online, cada cola de llamadas o operador 
 
 Si el servicio del sistema telefónico necesita un número de servicio, las diversas dependencias se pueden cumplir en la siguiente secuencia:
 
-1. Obtener un número de servicio
-2. Comprar una licencia de sistema telefónico (Office 365 Enterprise E1 o E3 con el sistema telefónico agregado u Office 365 Enterprise E5 que incluye el sistema telefónico)
-3. Crear la cuenta de recursos. Para tener una cuenta de recursos asociada, es necesario un operador automático o una cola de llamadas.
-4. Asigne la licencia de sistema telefónico a la cuenta de recursos.
-5. Asigne un número de teléfono a la cuenta de recursos.
-6. Crear un servicio de sistema de teléfono (una cola de llamadas o un operador automático)
-7. Asociar la cuenta de recursos con un servicio: (New-CsApplicationInstanceAssociation)
+1. Obtener un número de servicio.
+2. Crear la cuenta de recursos. Para tener una cuenta de recursos asociada, es necesario un operador automático o una cola de llamadas.
+3. Obtener un sistema telefónico o una licencia de usuario virtual para el sistema telefónico.
+4. Compra un plan de llamadas nacionales o internacionales.
+5. Asigne la licencia de usuario virtual del sistema telefónico o del sistema telefónico a la cuenta de recursos.
+6. Asigne una licencia de plan de llamadas a la cuenta de recursos.
+7. Asigne una licencia de crédito de comunicaciones a la cuenta de recursos.
+8. Configurar créditos de comunicación y configurar la recarga automática para su organización.
+9. Asigne un número de teléfono de servicio a la cuenta de recursos a la que acaba de asignar licencias.
+10. Crear un servicio de sistema de teléfono (una cola de llamadas o un operador automático).
+11. Vincular la cuenta de recursos con un servicio.
 
 Si el operador automático o la cola de llamadas están anidados bajo un operador automático de nivel superior, la cuenta de recursos asociada solo necesita un número de teléfono si desea tener varios puntos de entrada en la estructura de las colas de llamadas y los operadores automáticos.
 
@@ -64,18 +68,20 @@ Para crear una cuenta de recursos que use un número de teléfono, es necesario 
 
    Antes de asignar un número de teléfono a una cuenta de recursos, tendrá que obtener o migrar los números de teléfono de pago o gratuitos existentes. Una vez que obtenga los números de teléfono de pago o gratuitos, aparecerán en los**** > **números de teléfono**del **Centro** > de administración de Microsoft Teams, y el **tipo de número** que aparece en la lista aparecerá como **servicio-** gratuito. Para obtener tus números de servicio, consulta [obtener números de teléfono de servicio](getting-service-phone-numbers.md) o, si deseas transferir un número de servicio existente, consulta [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md).
 
-2. Compre una licencia de sistema telefónico. Verá  
-   - [Office 365 Enterprise E1 y E3](teams-add-on-licensing/office-365-enterprise-e1-e3.md)
-   - [Office 365 Enterprise E5](teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing.md)
-   - [Software Office 365 Enterprise E5 para empresas](https://products.office.com/business/office-365-enterprise-e5-business-software)
+   Si va a asignar un número de teléfono a una cuenta de recursos, ahora puede usar la licencia de usuario virtual del sistema telefónico de sistema de costos. Esto proporciona capacidades de sistema telefónico a números de teléfono en el nivel de la organización y le permite crear funciones de cola de llamadas y de operador automático.
 
-3. Crear una cuenta de recursos nueva. Consulte [crear una cuenta de recursos en el centro de administración de Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) o [crear una cuenta de recursos en PowerShell](#create-a-resource-account-in-powershell)
-4. Asigne la licencia de sistema telefónico a la cuenta de recursos. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md) y [asignar licencias a un usuario](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
-5. Asignar el número de servicio a la cuenta de recursos. Consulte [asignar/desasignar números de teléfono y servicios](#assignunassign-phone-numbers-and-services).
-6. Configure una de las opciones siguientes:
+2. Crear una cuenta de recursos nueva. Consulte [crear una cuenta de recursos en el centro de administración de Microsoft Teams](#create-a-resource-account-in-microsoft-teams-admin-center) o [crear una cuenta de recursos en PowerShell](#create-a-resource-account-in-powershell)
+3. Obtener un sistema telefónico o una licencia de usuario virtual para el sistema telefónico. Desde el centro de administración de Microsoft 365, vaya a suscripciones de complementos de**compras** > **** de **facturación** > y desplácese hasta el final: verá la licencia "phone system-virtual User". Seleccione **comprar ahora**.
+4. Compra un [plan de llamadas](calling-plans-for-office-365.md)nacionales o internacionales.
+5. Asigne la licencia de sistema telefónico a la cuenta de recursos. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md) y [asignar licencias a un usuario](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#assign-licenses-to-one-user).
+6. Asigne una licencia de plan de llamadas a la cuenta de recursos. Para obtener más información, consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md) .
+7. Asignar el número de servicio a la cuenta de recursos. Consulte [asignar/desasignar números de teléfono y servicios](#assignunassign-phone-numbers-and-services).
+8. Configurar créditos de comunicación y configurar la recarga automática para su organización. [Asigne una licencia de crédito de comunicaciones](set-up-communications-credits-for-your-organization.md#step-3-assign-a-communications-credits-license-to-users) a la cuenta de recursos.
+9. [Asigne un número de teléfono de servicio](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge) a la cuenta de recursos a la que acaba de asignar licencias. 
+10. Configure una de las opciones siguientes:
    - [Operador automático de la nube](create-a-phone-system-auto-attendant.md)
    - [Cola de llamadas en la nube](create-a-phone-system-call-queue.md)
-7. Asignar la cuenta de recursos al servicio. Consulte [asignar/desasignar números de teléfono y servicios](#assignunassign-phone-numbers-and-services)
+11. Vincule la cuenta de recursos al operador automático o a la cola de llamadas. Consulte [asignar/desasignar números de teléfono y servicios](#assignunassign-phone-numbers-and-services)
 
 ### <a name="create-a-resource-account-without-a-phone-number"></a>Crear una cuenta de recursos sin un número de teléfono
 
@@ -89,7 +95,7 @@ Para crear una cuenta de recursos que no necesite un número de teléfono, es ne
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Crear una cuenta de recursos en el centro de administración de Microsoft Teams
 
-Una vez que haya comprado una licencia de sistema telefónico y un plan de llamadas, usando el centro de administración de Microsoft Teams, vaya a**cuentas de recursos** **de configuración** > de toda la organización.
+Una vez que haya comprado una licencia de sistema telefónico, usando el centro de administración de Microsoft Teams, vaya a**cuentas de recursos** **de configuración** > de toda la organización.
 
 ![Captura de pantalla de la página cuentas de recursos](media/r-a-master.png)
 

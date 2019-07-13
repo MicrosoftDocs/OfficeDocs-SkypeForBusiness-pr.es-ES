@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: 39101550be48703c3feaa367e3740f9f3c7dba9f
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: f6fc9bb36a4b34d9e900666bf14df0c4d0893c46
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062414"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643134"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -27,6 +27,7 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 | Prensa | Publicado en <br>Microsoft Store | 
 | ---     | ---  |
+| 4.0.105.0 | 07/10/2019   |
 | 4.0.85.0 | 04/08/2019   |
 | 4.0.78.0 | 03/14/2019   |
 | 4.0.76.0 | 03/04/2019   |
@@ -53,6 +54,20 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 | RTM (1.0.8) | 12/7/2016  | 
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
+
+Introdujo en esta actualización:
+- Marca de la aplicación de la tienda de sistemas de Skype Room en "Microsoft Teams Room"
+- Interfaz de usuario de la consola de Microsoft Teams Room en Microsoft Teams
+- Solo se muestra la actualización de tema para mantener la imagen de fondo personalizada en el frente de la sala al hacer color neutro del fondo de la consola para garantizar que los controles de la interfaz de usuario cumplan los requisitos de accesibilidad
+- Barra universal para los controles de llamada en reunión para las llamadas y reuniones de Teams para ofrecer una experiencia coherente con Microsoft Teams para equipos de PC/web/móviles<sup>1</sup>
+- Calificación de la calidad de las llamadas después de las llamadas de Teams/reuniones<sup>1</sup>
+- Recibir o representar a Microsoft Whitebord en Microsoft Teams sala de reuniones frontal de la sala que se muestra cuando se comparte desde equipos de equipos de PC o web/móvil<sup>1</sup>  <sup>2</sup>
+- Se ha quitado la compatibilidad con la actualización a Windows 10 versión 1809 debido a problemas de compatibilidad con el cliente de Microsoft Teams Room. La compatibilidad con Windows 10 versión 19H1 se agregará en versiones futuras
+
+<sup>1</sup> lanzamiento de servicio de Microsoft Teams con las videollamadas de Teams. Es posible que esta característica esté disponible antes o después de la actualización de cliente de 4.0.105.0
+
+<sup>2</sup> requiere que los administradores de ti activen la Web de whiteboard de Microsoft. Además, si tiene un toque frontal de visualización de la sala, debe calibrar varias pantallas táctiles usando la configuración de Windows con inicio de sesión de administrador de dispositivos para empezar a usar whiteboard de Microsoft para collboration de la pantalla después de haber compartido en la reunión de Teams
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 

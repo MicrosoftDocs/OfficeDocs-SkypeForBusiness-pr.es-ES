@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: 304bdc58f8f2e077aa58dc4ded46f55387392374
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: b39307bd9f9ab2eb6802de46ffee97d180d4ff67
+ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588178"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35643166"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar el Sistema telefónico en su organización
 
@@ -224,7 +224,8 @@ Para crear una nueva cola de llamadas, en el **centro de administración de Skyp
 
 Auto attendants let people that call in to your organization and navigate a menu system to get them to the right department, call queue, person, or the operator. You can create an auto attendant for your organization by using the Skype for Business admin center.
 
-Para crear un nuevo operador automático, en el centro de administración de Skype empresarial, haga clic en**operadores automáticos**de **enrutamiento** > de llamadas, haga clic en **Agregar nuevo**y, a continuación, siga las instrucciones para cada página del **paso 2** de [configurar un operador automático de la nube ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+Para crear un nuevo operador automático, en el centro de administración de Skype empresarial, haga clic en**operadores automáticos**de **enrutamiento** > de llamadas, haga clic en **Agregar nuevo**y, a continuación, siga las instrucciones para cada página del **paso 2** de [crear un operador automático de la nube. ](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant#step-2---create-a-new-auto-attendant).
+
 
 **Para obtener más información sobre los operadores automáticos de la nube, vea [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).**
 

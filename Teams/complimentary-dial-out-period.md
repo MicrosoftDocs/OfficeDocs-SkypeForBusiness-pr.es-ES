@@ -21,13 +21,13 @@ localization_priority: None
 f1keywords: None
 ms.custom:
 - Legal
-description: Los clientes pueden usar el Plan de llamadas de Office 365 y el servicio de Audioconferencia de Office 365 según lo permitido en el contrato de licencia de volumen del Cliente y en los Términos de Uso de Servicios RTC de Skype Empresarial Online.
-ms.openlocfilehash: be3a32f50399fb32268aa30c3f0c48b8b4b4c462
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Los clientes pueden usar el plan de llamadas de Office 365 y las conferencias de audio de Office 365 según permitan los términos y el contrato de licencias por volumen del cliente de Skype empresarial online y Microsoft Teams.
+ms.openlocfilehash: 4dc642ce59343b9d8699f31951c3cbe02b72ba08
+ms.sourcegitcommit: e65411a739c539d5232ebc89af3630d07d518b89
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283373"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "35638592"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -41,26 +41,29 @@ A partir del 1 de diciembre de 2019, la capacidad de acceso telefónico compleme
 
 ### <a name="complimentary-dial-out-period-details"></a>Detalles del período de llamadas de cortesía
 
-Para los clientes que adoptan nuestro servicio de conferencia de audio de Office 365, Microsoft ofrece un mayor beneficio adicional relacionado con la marcación de reuniones organizadas por usuarios a los que se les ha asignado una licencia de suscripción de conferencia de audio de Office 365 a partir de noviembre 2019. Durante este período de cortesía, Microsoft permite a los organizadores de reuniones o a los asistentes autorizados definirse en la configuración de la Directiva de reunión para realizar llamadas de acceso telefónico desde la reunión a números de teléfono no Premium en los países de la 44 "zona A" que figuran a continuación. Este beneficio es aplicable a las licencias de suscripción mensuales de audioconferencias y no se extiende a las licencias de audioconferencia por minuto.
+Para los clientes que adoptan nuestro servicio de conferencia de audio de Office 365, Microsoft ofrece un mayor beneficio adicional relacionado con la marcación de reuniones organizadas por usuarios a los que se les ha asignado una licencia de suscripción de conferencia de audio de Office 365 a partir de noviembre 2019. Durante este período de cortesía, Microsoft permite a los organizadores de reuniones o a los asistentes autorizados definirse en la configuración de la Directiva de reunión para realizar llamadas de acceso telefónico desde la reunión a números de teléfono no Premium en los países y regiones de 44 "zona A" que figuran a continuación. Este beneficio es aplicable a las licencias de suscripción mensuales de audioconferencias y no se extiende a las licencias de audioconferencia por minuto.
 
 Además, hay un límite de límite de 900 minutos durante el período de llamadas de cortesía como el siguiente:
 
-Usuarios con una ubicación de uso de licencias (esta es la ubicación de país de usuario definida en el área de licencias del portal de administración de Office 365) en cualquier país, puede llamar desde una conferencia a cualquiera de los países de la zona A de 44. Cada usuario recibe 900 minutos por usuario por mes en cualquiera de los países de la zona a que se agrupan en el nivel de espacio empresarial. Por ejemplo, un cliente ha comprado 115 licencias de suscripción de audioconferencias y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en India, todos con licencias de suscripción de audioconferencia asignadas a sus usuarios. Nota: el tamaño del grupo se basa en las licencias asignadas y no en las licencias compradas.
+Usuarios con una ubicación de uso de licencias (esta es la ubicación de país del usuario definida en el área de licencias del portal de administración de Office 365) en cualquier país, puede llamar desde una conferencia a cualquiera de los países y regiones de la zona A de 44. Cada usuario recibe 900 minutos por usuario por mes en cualquiera de los países y regiones de la zona que se agrupan en el nivel de inquilino. Por ejemplo, un cliente ha comprado 115 licencias de suscripción de audioconferencias y tiene 10 usuarios en Estados Unidos, 100 usuarios en el Reino Unido y 5 usuarios en India, todos con licencias de suscripción de audioconferencia asignadas a sus usuarios.
+
+> [!NOTE]
+> El tamaño del grupo se basa en las licencias asignadas y no en las licencias compradas.
  
-- Todos los usuarios de 115 comparten un grupo de (115 usuarios X 900 min) = 103.500 conferencias de acceso telefónico saliente por mes del calendario, que se puede usar para realizar llamadas salientes a cualquiera de los países de la zona A.
+- Todos los usuarios de 115 comparten un grupo de (115 usuarios X 900 min) = 103.500 conferencias de acceso telefónico saliente por mes del calendario, que se puede usar para realizar llamadas salientes a cualquiera de los países y regiones de la zona A.
 - Todas las llamadas que superen los 103.500 minutos por mes del calendario se cobran por minuto usando créditos de comunicaciones a las tarifas publicadas para ese destino. (Nota: el inquilino debe configurar créditos de comunicaciones y asignar la licencia de créditos para comunicaciones al organizador de la reunión).
 - Todas las llamadas salientes a destinos que no se encuentren en la lista de países de la zona A se facturan por minuto usando créditos de comunicaciones de nuestras tarifas publicadas para ese destino (proporcionado el inquilino ha configurado créditos en las comunicaciones y se les ha asignado la licencia de créditos de comunicaciones del Organizador de la reunión).
 
 > [!NOTE]
-> En el centro de administración de Skype empresarial, puede supervisar el uso del grupo de minutos de llamadas salientes. En el centro de administración de Skype de Microsoft Teams &, vaya a**** > **grupos**de **portales** > de RTC. Este grupo de minutos complementarios se etiquetará en el informe como "llamadas salientes a los países de la zona a".
+> En el centro de administración de Skype empresarial, puede supervisar el uso del grupo de minutos de llamadas salientes. En el centro de administración de Microsoft Teams & Skype **** > , vaya a**informes** > de portales heredados con**grupos de minutos RTC**. Este grupo de minutos complementarios se etiquetará en el informe como "llamadas salientes a zona a países y regiones".
 
 Las notificaciones por correo electrónico se enviarán a todos los administradores de inquilinos de un cliente dado cuando la utilización del grupo de minutos de llamadas salientes del inquilino haya alcanzado el 80% y el 100%.
 
-Para las llamadas de aceptación de llamada que se facturan por minuto (llamadas que superan el grupo de minutos de llamadas de inquilino o a destinos que no se encuentran en la lista de países de la zona), las llamadas y sus tarifas asociadas se basan principalmente en el destino de la llamada y no en el país de la Organizador o el participante que inicia la llamada de acceso telefónico. Por ejemplo, una llamada a un número de teléfono en Francia se facturará con la misma tasa si la ha iniciado un participante de la reunión en Estados Unidos o una en Francia.
+Para las llamadas de aceptación de llamada que se facturan por minuto (llamadas que superan el grupo de minutos de llamadas de inquilino o a destinos que no se encuentran en la lista de países y regiones de la zona), las llamadas y sus tarifas asociadas se basan principalmente en el destino de la llamada y no en el país. o de la región del organizador o del participante que inicia la llamada de acceso telefónico. Por ejemplo, una llamada a un número de teléfono en Francia se facturará con la misma tasa si la ha iniciado un participante de la reunión en Estados Unidos o una en Francia.
 
 Para obtener más información sobre créditos de comunicación, consulte [créditos de comunicaciones](what-are-communications-credits.md).
 
-**Países de la zona A**
+**Países y regiones de la zona A**
 
 |    |
 |-----|
