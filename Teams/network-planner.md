@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaf2c2c7242c594d67af131d3a15224ddf16419c
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: c05aa9cba7305b755d4e9290467c92cf71244095
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35214826"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701570"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Usar el planificador de red para Microsoft Teams
 
@@ -36,6 +36,8 @@ Planificador de redes le permite:
     > Las personas recomendadas se desarrollaron en función de los datos de los escenarios de mejor uso de Teams y los patrones de uso típicos. Sin embargo, puede crear hasta tres roles personalizados además de los tres roles recomendados.
 
 - Generar informes y calcular los requisitos de ancho de banda para el uso de equipos.
+
+Para usar el planificador de redes, debe ser administrador global, administrador de servicios de equipo o administrador de comunicaciones de Teams.
 
 ## <a name="create-a-custom-persona"></a>Crear un rol personalizado
 
@@ -95,3 +97,7 @@ Después de agregar todos los sitios, puede crear un informe de la siguiente man
     - Una vista adicional mostrará las necesidades generales de ancho de banda con recomendaciones.
 
 4. Haga clic en **Guardar **. El informe estará disponible en la lista de informes para verlo más tarde.
+
+## <a name="example-scenario"></a>Escenario de ejemplo
+
+Para obtener un ejemplo de cómo usar el planificador de redes para configurar un plan de red y generar un informe siguiendo estos pasos, descargue el [paquete de PowerPoint "procedimientos de Network Planner"](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (solo en inglés).

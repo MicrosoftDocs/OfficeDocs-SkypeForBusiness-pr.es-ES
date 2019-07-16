@@ -19,12 +19,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Descargue, instale y use Windows PowerShell 5,1 para crear una sesión remota de PowerShell que se conecte a Skype empresarial online.
-ms.openlocfilehash: 42c466d476b95228674b8a58cdeafca785496f4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
+ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285118"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35701561"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Descargar e instalar Windows PowerShell 5,1
 
@@ -71,7 +71,7 @@ Set-ExecutionPolicy RemoteSigned -Force
    
  
 > [!NOTE]
-> Al ejecutar el comando anterior, es posible que reciba el siguiente mensaje de error: > *Set-ExecutionPolicy: obtener acceso al registro\\key'HKEY_LOCAL_MACHINE\\software\\Microsoft\\PowerShell\\1 ShellIds\\Micrsoft. PowerShell ' se* ha denegado. Este mensaje de error suele ocurrir si no ejecuta PowerShell con credenciales de administrador. Cierre la sesión de PowerShell y comience una nueva sesión como administrador.
+> Al ejecutar el comando anterior, es posible que reciba el siguiente mensaje de error: *>\\Set-ExecutionPolicy: acceso al software\\key'HKEY_LOCAL_MACHINE del registro\\de\\Microsoft\\PowerShell 1 ShellIds\\Micrsoft. PowerShell ' se* ha denegado. Este mensaje de error suele ocurrir si no ejecuta PowerShell con credenciales de administrador. Cierre la sesión de PowerShell y comience una nueva sesión como administrador.
  
 Para comprobar que la Directiva de ejecución se ha configurado correctamente, escriba lo siguiente en el símbolo del sistema de PowerShell y, a continuación, presione ENTRAR:
   
@@ -93,7 +93,7 @@ Antes de instalar Windows Management Framework 5,1:
 
 Si no está seguro de qué versión de Windows está ejecutando o si no está seguro de si ha instalado el Service Pack 1 de Windows 7, haga clic en **Inicio**, haga clic con el botón secundario en **equipo**y, a continuación, haga clic en **propiedades**. Esta información se notificará en el cuadro de diálogo sistema.
   
-Para instalar Windows Management Framework 5,1, complete el procedimiento de [instalación y configuración de WMF 5,1](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure)
+Para instalar Windows Management Framework 5,1, complete el procedimiento de [instalación y configuración de WMF 5,1](https://docs.microsoft.com/powershell/wmf/setup/install-configure).
   
 Después de reiniciar el equipo, compruebe que Windows PowerShell puede iniciarse y que la aplicación se puede ejecutar con credenciales administrativas. Para ello, haga lo siguiente:
   
