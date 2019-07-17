@@ -1,7 +1,7 @@
 ---
 title: ¿Qué son los eventos en directo de Microsoft Teams?
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ description: Obtenga información sobre cómo los eventos en vivo permiten a los
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2466ba45ecf043b7ce416ce7f94c2d47c201b262
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 8bbcb38e95a2ed44d022a4412e035238fea6282c
+ms.sourcegitcommit: 8052c2a6a29d65dcb8a6fa8baacb5568d798b0fa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420055"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35756925"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -29,9 +29,9 @@ Con los eventos de Teams Live, los usuarios de su organización pueden difundir 
 
 Los eventos en directo de Microsoft 365 proporcionan streaming de video en vivo a un nuevo nivel, lo que fomenta la conexión durante todo el ciclo de vida del compromiso con los asistentes antes, durante y después de eventos en vivo. Puede crear un evento en vivo dondequiera que esté el público, el equipo o la comunidad, usando Microsoft Stream, Teams o Yammer.  
 
-Teams ofrece colaboración, llamadas, reuniones y eventos en vivo basados en chat, de modo que pueda ampliar la audiencia de sus reuniones. Teams Live Events es una extensión de las reuniones de Teams, que permite a los usuarios difundir contenido de vídeo y de reunión a una gran audiencia en línea. Estas son las destinadas a las comunicaciones de uno a varios en las que el anfitrión del evento está haciendo que las interacciones y la participación de los participantes se vean principalmente con el contenido compartido por el anfitrión. Los asistentes pueden ver el evento en vivo o grabado en Yammer, Teams o Stream, y pueden interactuar con los moderadores mediante la & una conversación de preguntas o respuestas moderados A de Yammer. 
+Teams ofrece colaboración, llamadas, reuniones y eventos en vivo basados en chat, de modo que pueda ampliar la audiencia de sus reuniones. Teams Live Events es una extensión de las reuniones de Teams, que permite a los usuarios difundir contenido de vídeo y de reunión a una gran audiencia en línea. Estas son las destinadas a las comunicaciones de uno a varios en las que el anfitrión del evento está haciendo que las interacciones y la participación de los participantes se vean principalmente con el contenido compartido por el anfitrión. Los asistentes pueden ver el evento en vivo o grabado en Yammer, Teams o Stream, y pueden interactuar con los moderadores mediante la & una conversación de preguntas o respuestas moderados A de Yammer.
 
-Los eventos de Teams Live se consideran la siguiente versión de difusión de reunión de Skype y, finalmente, sustituirán las capacidades proporcionadas en difusión de reunión de Skype. En este momento, Microsoft seguirá admitiendo difusión de reunión de Skype para los usuarios que usen Skype empresarial en sus organizaciones, sin interrupciones en el servicio de eventos nuevos o futuros. Sin embargo, le recomendamos que pruebe los eventos de Teams Live para aprovechar todas las características nuevas e interesantes, como la pantalla compartida y la compatibilidad con codificadores de software y hardware externos. 
+Los eventos de Teams Live se consideran la siguiente versión de difusión de reunión de Skype y, finalmente, sustituirán las capacidades proporcionadas en difusión de reunión de Skype. En este momento, Microsoft seguirá admitiendo difusión de reunión de Skype para los usuarios que usen Skype empresarial en sus organizaciones, sin interrupciones en el servicio de eventos nuevos o futuros. Sin embargo, le recomendamos que pruebe los eventos de Teams Live para aprovechar todas las características nuevas e interesantes, como la pantalla compartida y la compatibilidad con codificadores de software y hardware externos.
 
 Por tanto, vamos a empezar. En primer lugar, eche un vistazo al siguiente diagrama en el que se muestran los componentes de alto nivel relacionados con los eventos en directo de Microsoft 365 y cómo se conectan. 
 
@@ -42,6 +42,9 @@ Los eventos en directo de Teams permiten a varias funciones (organizador, produc
 
 ## <a name="key-components"></a>Componentes clave
 Puede ver en la imagen de arriba que hay cuatro componentes clave que se usan con eventos en directo de Teams.
+
+> [!NOTE]
+> Para obtener información general sobre cómo configurar los eventos en directo y la experiencia de los asistentes, consulte estos [vídeos](https://support.office.com/en-us/article/video-plan-and-schedule-a-live-event-f92363a0-6d98-46d2-bdd9-f2248075e502)breves.
 
 ### <a name="scheduling"></a>Programación
 Teams permite a los organizadores crear un evento con los permisos de asistente apropiados, designar miembros del equipo del evento, seleccionar un método de producción e invitar a los asistentes. Si el evento en directo se creó desde un grupo de Yammer, los asistentes del evento en directo podrán usar la conversación de Yammer para interactuar con las personas en el evento. 
