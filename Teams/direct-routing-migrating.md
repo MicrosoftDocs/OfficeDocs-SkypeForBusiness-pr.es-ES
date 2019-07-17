@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Obtenga más información sobre lo que se necesita para migrar a enrutamiento directo desde una perspectiva de configuración de Skype empresarial online y Teams.
-ms.openlocfilehash: c9c8cafdf6e49dc127dee4cb76a92dae13b5c0b9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49980a0364e729fc41e6fe716de336a8a28f85bb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290426"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35759011"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar a enrutamiento directo
 
@@ -72,7 +72,7 @@ Para obtener más información sobre cómo migrar desde planes de llamadas, cons
 - [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
-Se recomienda quitar la información del plan de licencias de previouslycconfigured de la siguiente manera:
+Se recomienda quitar la información del plan de licencias previamente configurado de la siguiente manera:
  
 ```
 $companyname = “contoso” 

@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Proceso para comprobar la coexistencia de un grupo piloto con grupo heredado.
-ms.openlocfilehash: dd2edd2e6ecef26b22ba9bf5c093c631866110ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b41a1f24786fdf807f9c9c1d5854e397654fdadb
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280656"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758907"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
 
@@ -65,7 +65,7 @@ Ahora, esta topología incluye roles de servidor heredados de Skype empresarial 
 ## <a name="dont-attempt-to-open-the-topology-in-the-legacy-topology-builder"></a>No intente abrir la topología en el generador de topología heredado
 <a name="sectionSection2"> </a>
 
-Si intenta abrir la topología con el generador de topología heredado, encontrará el error siguiente. La topología solo se puede ver con el generador de topología de Skype empresarial Server 2019. El generador de topología de Skype empresarial Server 2019 debe usarse para crear grupos de servidores para Skype empresarial Server 2019 y la instalación heredada.
+La topología solo se puede ver con el generador de topología de Skype empresarial Server 2019. El generador de topología de Skype empresarial Server 2019 debe usarse para crear grupos de servidores para Skype empresarial Server 2019 y la instalación heredada.
 
   
 

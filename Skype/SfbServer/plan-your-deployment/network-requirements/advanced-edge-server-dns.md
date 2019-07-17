@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumen: Revise los escenarios de las opciones de implementación de Skype empresarial Server. Si desea un único servidor o prefiere un grupo de servidores con DNS o HLB, este tema debería ser de ayuda.'
-ms.openlocfilehash: 6ef0fc7a19703d6eba0ec3bfa66c0b37fcece53f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297074"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758945"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planificación de DNS de Advanced Edge Server para Skype empresarial Server
  
@@ -112,7 +112,7 @@ Aquí se enumeran los registros DNS para las zonas interna y externa, pero puede
     
 - Todas las interfaces de borde interno de Skype empresarial Server en la red perimetral usan esta zona DNS interna para resolver las consultas a contoso.com.
     
-- Todos los servidores con Skype empresarial y los clientes que ejecutan Skype empresarial Server en la red corporativa, apuntan a servidores DNS internos para resolver las consultas a contoso.com o usan el archivo host en cada servidor perimetral y la lista a y AAAA (si usa IPv6) registros para el servidor del próximo salto (específicamente para el director o el grupo de directores VIP, la VIP de la agrupación de front-end o el servidor Standard Edition).
+- Todos los servidores que ejecutan Skype empresarial Server y los clientes que ejecutan Skype empresarial Server en la red corporativa, señale a servidores DNS internos para resolver las consultas a contoso.com o que usen el archivo host en cada servidor perimetral y la lista a y AAAA (si está usando IPv6) registros para el servidor del próximo salto (específicamente para el director o el grupo de directores VIP, la VIP de la agrupación de front-end o el servidor Standard Edition).
     
 ### <a name="external-dns"></a>DNS externo
 

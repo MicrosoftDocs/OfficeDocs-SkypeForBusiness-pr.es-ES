@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumen: Prepare los servidores de Skype empresarial Server 2015 con este tema. Hardware, sistema operativo, bases de datos, software, todos los requisitos y recomendaciones del sistema están aquí para ayudar a garantizar una instalación y una implementación correctas de su granja de servidores.'
-ms.openlocfilehash: 74b1a26f38a0055c8222b980754106011a86ce34
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
+ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134264"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35758952"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -75,7 +75,7 @@ Una vez que haya instalado el hardware, tendrá que instalar sistemas operativos
 Si no está en esta lista, no funcionará correctamente; no lo pruebe para obtener nuevas instalaciones de Skype empresarial Server 2015.
   
 > [!NOTE]
-> Es posible que haya observado que Windows Server 2008 R2 no está en esta lista. Esto se debe a que recomendamos Windows Server 2012 R2 para que todos los servidores nuevos se usen para SFB. Solo debe usar Windows Server 2008 R2 cuando tiene servidores existentes con Lync Server 2013 ya instalado y está intentando realizar una actualización local de los mismos y le interesa. Windows Server 2008 R2 llegó al final del ciclo de vida de soporte técnico básico en 1/13/2015. 
+> Es posible que haya observado que Windows Server 2008 R2 no está en esta lista. Esto se debe a que recomendamos Windows Server 2012 R2 para que todos los servidores nuevos se usen para SFB. Solo debe usar Windows Server 2008 R2 cuando tiene servidores existentes con Lync Server 2013 ya instalado y está intentando realizar una actualización local de los mismos y le interesa. Windows Server 2008 R2 llegó al final del ciclo de vida de soporte técnico básico en 1/13/2015 y llegará al final de su ciclo de vida de soporte técnico en 1/14/2020.
   
 Además del último service pack, asegúrese de que las siguientes actualizaciones están instaladas donde corresponda:
   
