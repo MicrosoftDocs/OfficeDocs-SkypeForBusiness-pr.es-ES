@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e182732647b79f5a3a2ae48940ce3423b157c61f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e0c17089416315500baba4b42950008ab54946e
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218041"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768143"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 
@@ -96,8 +96,17 @@ Puede usar los informes de actividad para ver cómo los usuarios de su organizac
 | <br>¿Quién necesita ver los informes de actividad? ¿Tienen los permisos adecuados para poder verlos? |<ul><li>Si no quiere asignar un rol de administrador a un usuario, puede [asignar el rol de Lector de informes](teams-activity-reports.md#reports-reader-role).</li><li>Vea [Roles y permisos](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) y [Ver y asignar roles](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) para obtener información sobre cómo asignar roles de administrador en Azure Active Directory.</li></ul> |
 |||
 
+### <a name="app-templates"></a>Plantillas de aplicaciones
 
-## <a name="next-steps"></a>Pasos siguientes
+Las plantillas de aplicaciones son aplicaciones listas para producción en Microsoft Teams que están controladas por la comunidad, son de código abierto y están disponibles en GitHub. Cada una contiene instrucciones detalladas sobre cómo implementar e instalar la aplicación para su organización, lo que proporciona una aplicación lista para usar que puede instalar y empezar a usar inmediatamente. El código fuente completo también está disponible, para que pueda explorarlo en detalle, o bien puede bifurcar el código y modificarlo para satisfacer sus necesidades específicas.
+
+| Pregúntese lo siguiente: | Acción |
+|--------------|--------|
+| ¿Quiero instalar alguna plantilla de aplicación de Teams, como IceBreaker? |Para obtener más información, vea [Plantillas de aplicación para Teams](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).|
+|||
+
+
+## <a name="next-steps"></a>Siguientes pasos
 - [Impulsar la adopción](adopt-microsoft-teams-landing-page.md) de aplicaciones destacadas, como Planner.
 - [Implementar reuniones y conferencias](deploy-meetings-microsoft-teams-landing-page.md)
 - [Implementar voz en la nube](cloud-voice-landing-page.md)
