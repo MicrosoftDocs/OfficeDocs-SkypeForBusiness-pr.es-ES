@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e88a5fb4e8522a94389e3bad24ddc3da8283a53
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 132bd532ae8f7da98edb38a81363b4d5b6501532
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588146"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768151"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -215,7 +215,7 @@ A continuación se indican los problemas conocidos y las limitaciones de Teams e
 
 - **Unirse a llamadas y reuniones creadas por otros usuarios**: aunque las directivas restringen la creación de reuniones, aún pueden unirse a ellas si otro usuario llama a ellas desde la reunión. En estas reuniones, la capacidad del usuario de compartir vídeo, usar la pizarra y otras características depende de si ha deshabilitado esas características con TeamsMeetingPolicy.  
 - **Contenido almacenado en caché**: Si el entorno virtual en el que se ejecutan los equipos no es persistente (y los datos se limpian al final de cada sesión de usuario), es posible que los usuarios noten una degradación en el rendimiento debido a la actualización del contenido, independientemente de si el usuario tuvo acceso al mismo contenido de una sesión anterior.
-- **Actualizaciones de cliente**: Teams en VDI no se actualiza automáticamente de la misma manera que los clientes de equipos ajenos a VDI.  Tiene que actualizar la imagen de VM instalando un nuevo MSI, como se describe en la sección [instalar Teams en VDI](#install-teams-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
+- **Actualizaciones de cliente**: Teams en VDI no se actualiza automáticamente con la instalación de MSI por máquina. Tiene que actualizar la imagen de VM instalando un nuevo MSI, como se describe en la sección [instalar Teams en VDI](#install-teams-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
 - **Experiencia de usuario**: la experiencia de usuario de los equipos en un entorno de VDI puede diferir de un entorno que no sea de VDI. Las diferencias pueden deberse a la configuración de directivas o a la compatibilidad de características en el entorno.
 
 Para los problemas conocidos de teams que no se relacionan con VDI, consulte [problemas conocidos de Microsoft Teams](Known-issues.md).

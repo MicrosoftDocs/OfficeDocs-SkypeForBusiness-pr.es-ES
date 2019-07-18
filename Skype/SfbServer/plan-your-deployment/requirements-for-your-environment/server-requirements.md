@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Resumen: Prepare los servidores de Skype empresarial Server 2015 con este tema. Hardware, sistema operativo, bases de datos, software, todos los requisitos y recomendaciones del sistema están aquí para ayudar a garantizar una instalación y una implementación correctas de su granja de servidores.'
-ms.openlocfilehash: 368c719ac4e61b62ab4c52c50433bf6cc996c886
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: 34e00f3b53dbec6699b7cc5980f7c608cf5e883b
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758952"
+ms.locfileid: "35768050"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Server requirements for Skype for Business Server 2015
  
@@ -88,6 +88,7 @@ Además del último service pack, asegúrese de que las siguientes actualizacion
 ## <a name="back-end-databases-that-will-work-with-skype-for-business-server-2015"></a>Bases de datos back-end que funcionarán con Skype Empresarial Server 2015
 <a name="DBs"> </a>
 
+
 Al instalar Skype empresarial Server 2015 Standard Edition, también se instala automáticamente SQL Server 2014 Express (64-bit Edition).
   
 Skype empresarial Server 2015 Enterprise Edition es un poco más complicado, pero la lista admitida se encuentra a continuación (todo es 64-bit Edition, observará que no use las ediciones de 32 bits):
@@ -99,8 +100,9 @@ Skype empresarial Server 2015 Enterprise Edition es un poco más complicado, per
    
 Si no ve la edición de SQL Server que quiere usar en la lista, no puede usarla.
   
-> [!NOTE]
-> También tendrá que instalar SQL Server Reporting Services para el rol de servidor de supervisión.
+- También tendrá que instalar SQL Server Reporting Services para el rol de servidor de supervisión.
+- Para un Back-End SQL bien conectado, la conexión al front-end de Skype empresarial debe ser local y no a través de un vínculo de baja velocidad. 
+- No se admite el uso compartido de SQL back end entre dos o más grupos.
 
 ### <a name="microsoft-exchange-storage"></a>Almacenamiento de Microsoft Exchange
 Meeting content files, such as PowerPoint presentations, are archived as attachments. Si desea almacenar datos de archivo de Skype empresarial con datos de cumplimiento de Exchange, debe usar Exchange para la implementación de Exchange y asegurarse de que el tamaño máximo de almacenamiento admita el almacenamiento de los archivos de contenido de la reunión. Debe implementar Exchange antes de implementar y habilitar el archivado mediante la opción de integración de Microsoft Exchange. 

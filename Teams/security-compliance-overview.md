@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 245178cf8119c97d67125d7523704a6e01aab357
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: 7582a7890b13c2879a672f87c90e9e646557dbc0
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758915"
+ms.locfileid: "35768043"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -29,7 +29,7 @@ Microsoft Teams está incorporado en la nube empresarial a gran escala de Office
 
 Teams es compatible con el nivel D. Esto incluye los siguientes estándares: ISO 27001, ISO 27018, SSAE16 SOC 1 y SOC 2, HIPAA y las cláusulas de modelo de la UE (EUMC). En Microsoft Compliance Framework, Microsoft clasifica las aplicaciones y servicios de Office 365 en cuatro categorías. Cada categoría está definida por compromisos de cumplimiento específicos que deben cumplirse para que un servicio de Office 365, o un servicio de Microsoft relacionado, se muestre en esa categoría.
 
-Los servicios en las categorías de cumplimiento C y D que tienen compromisos de cumplimiento están habilitados de manera predeterminada. Los servicios en las categorías A y B incluyen controles para activar o desactivar estos servicios para una organización entera. Los detalles se pueden encontrar en el [Marco de cumplimiento normativo de estándares y regulaciones del sector](https://go.microsoft.com/fwlink/?linkid=855777 invalid link redirecting to non existing page.). Teams también cumple con los requisitos de Cloud Security Alliance.
+Los servicios en las categorías de cumplimiento C y D que tienen compromisos de cumplimiento están habilitados de manera predeterminada. Los servicios en las categorías A y B incluyen controles para activar o desactivar estos servicios para una organización entera. Los detalles se pueden encontrar en el [Marco de cumplimiento normativo de estándares y regulaciones del sector](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf). Teams también cumple con los requisitos de Cloud Security Alliance.
 
 Teams también aplica la autenticación en dos fases de todo el equipo y de toda la organización, el inicio de sesión único a través de Active Directory y el cifrado de datos en tránsito y en reposo. Los archivos se almacenan en SharePoint y están respaldados por el cifrado de SharePoint. Las notas se almacenan en OneNote y están respaldadas por el cifrado de OneNote. Los datos de OneNote se almacenan en el sitio de SharePoint de grupo. La ficha wiki también se puede usar para tomar notas y su contenido también se almacena en el sitio de SharePoint de grupo.
 

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: 06a5764cc0dd022f1a3077e9b00580a3dc95bfe9
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588202"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768167"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -89,14 +89,15 @@ Los usuarios de enrutamiento directo deben tener las siguientes licencias asigna
 - Microsoft Teams 
 - Conferencias de audio de Microsoft 
 
-> [!NOTE]
-> Cuando está escalando desde una llamada de 1:1, se necesita la licencia de audioconferencias
 
 > [!IMPORTANT]
 >  En el caso de que desee agregar participantes externos a las reuniones programadas, ya sea mediante la marcación de ellos o proporcionando el número de acceso telefónico local, se *necesita*la licencia de audioconferencia.
 
 > [!NOTE]
-> La licencia E5 incluye sistema telefónico y conferencias de audio.   
+> La licencia de conferencia de audio es *necesaria* para:
+> - Escalar desde la llamada de 1:1 a una llamada grupal.
+> - Agregue participantes externos a las reuniones programadas, mediante marcado o proporcionando el número de acceso telefónico local. 
+
 
 Además, debe asegurarse de lo siguiente:
  

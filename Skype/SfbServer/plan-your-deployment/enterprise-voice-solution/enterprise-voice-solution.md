@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Resumen: Obtenga información sobre las opciones para planear una solución de voz y comunicaciones unificada en Skype empresarial Server.'
-ms.openlocfilehash: 896bdcaabce3a22a9cda20a3eee108c3bb85e4f9
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: ec2e4710f238529b448a0388a3347e40611ee7d4
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35602172"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768035"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planear la solución de voz empresarial en Skype empresarial Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "35602172"
   
 Skype empresarial Server ofrece dos opciones de telefonía a empresas locales: voz y llamadas empresariales, para que usted integre el sistema telefónico de su organización con su implementación de Skype empresarial Server, lo que permite una auténtica comunicación unificada. Luci. Ambas opciones permiten a los usuarios usar su cliente de Skype empresarial para iniciar llamadas de voz con otros usuarios, tanto dentro como fuera de su organización.
   
-También puede aprovechar los servicios de PBX en la nube de Microsoft, incluidos los servicios PBX y las llamadas RTC, mediante la conexión de su infraestructura de telefonía local con los servicios proporcionados por Skype empresarial online. Para obtener más información, consulte [voz de nube en Microsoft Teams](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page).
+También puede aprovechar los servicios de PBX en la nube de Microsoft, incluidos los servicios PBX y las llamadas RTC, mediante la conexión de su infraestructura de telefonía local con los servicios proporcionados por Skype empresarial online. Para obtener más información, vea [soluciones de telefonía de Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
   
 También puedes usar la telefonía IP empresarial y la llamada a través del trabajo en conjunto.
   

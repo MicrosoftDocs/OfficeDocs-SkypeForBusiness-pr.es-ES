@@ -14,12 +14,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: e309b0a21374cb0ea7e02bec82404474947215aa
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: af15adde3638adae72c85c5ca8b1301a18b4388e
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394582"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768175"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -234,7 +234,7 @@ Para realizar la transición, debe abrir los puertos 3478 y 3479. Cuando Microso
 
 ### <a name="requirements-for-using-media-processors"></a>Requisitos para usar procesadores multimedia
 
-Los procesadores de medios siempre están en la ruta multimedia de las aplicaciones de voz. Los requisitos son los mismos que para la configuración sin omisión.
+Los procesadores de medios siempre están en la ruta multimedia de las aplicaciones de voz y para la cleints web (para exampe, Teams cleint en Edge o Google Chrome). Los requisitos son los mismos que para la configuración sin omisión.
 
 
 El intervalo IP para el tráfico de medios es 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
@@ -282,9 +282,9 @@ Para obtener más información sobre cómo configurar dos troncos en el mismo SB
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>Extremos de cliente compatibles con la omisión de medios
 
-Los puntos de conexión de todos los equipos admiten la omisión de elementos multimedia, excepto los clientes Web de Teams hasta que se produzca un aviso más. 
+La omisión de elementos multimedia es compatible con todos los puntos de conexión de Teams.
 
-Si los usuarios prefieren Teams Web App en Microsoft Edge, Google Chrome o Mozilla Firefox, la omisión de medios para dichos usuarios debe estar desactivada. En el futuro, se introducirá una llamada con tronco de omisión de medios.   
+Nota para webcleints (Teams Web App en Microsoft Edge, Google Chrome o Mozilla Firefox) hemos resaltado la llamada a sin omisión, incluso si se inició como una llamada de omisión. Esto sucede automáticamente y no requiere ninguna acción en el administrador. 
  
 ## <a name="see-also"></a>Vea también
 

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: En este artículo se describe cómo supervisar y solucionar problemas de la configuración de enrutamiento directo.
-ms.openlocfilehash: c1cb84cd8ee764c58441ad9d5d33f18b77336a40
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: d20a409c7a5e902149ff20e72dde90850f0f5d12
+ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062382"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "35768159"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 
@@ -48,20 +48,17 @@ En el siguiente diagrama se muestra un ejemplo de la configuración:
 
 Cuando un usuario hace una llamada a Number + 1 425 \<, los siete dígitos>, el enrutamiento directo evalúa la ruta. Hay dos SBCs en la ruta: sbc1.contoso.com y sbc2.contoso.com. Tanto SBCs tienen la misma prioridad en la ruta. Antes de elegir un SBC, el mecanismo de enrutamiento evalúa el estado de SBCs según el momento en que la SBC envió las opciones de SIP la última vez. 
 
-Un SBC se considera saludable si las estadísticas en el momento de enviar la llamada muestran que SBC envía opciones de forma regular.  
+Un SBC se considera saludable si las estadísticas en el momento de enviar la llamada muestran que el SBC envía opciones cada minuto.  
 
-El enrutamiento directo calcula intervalos regulares al tomar dos veces el promedio cuando el SBC envía opciones antes de hacer la llamada y agregar cinco minutos. 
+Cuando se realiza una llamada, se aplica la siguiente lógica:
 
-Por ejemplo, supongamos lo siguiente: 
-
-- Una SBC está configurada para enviar opciones cada minuto. 
 - La SBC fue emparejada a 11,00 A.M.  
 - El SBC envía las opciones en 11,01 A.M., 11,02 A.M., etc.  
 - En 11,15, un usuario realiza una llamada y el mecanismo de enrutamiento selecciona esta SBC. 
 
-Se aplica la siguiente lógica: dos veces el intervalo medio cuando el SBC envía opciones (un minuto más un minuto = dos minutos) más cinco minutos = siete minutos. Este es el valor del intervalo normal para la SBC.
- 
-Si el SBC de nuestro ejemplo envió opciones en cualquier período comprendido entre 11,08 AM y 11,15 AM (el momento en que se realizó la llamada), se considerará saludable. De lo contrario, se degradará la SBC de la ruta. 
+El enrutamiento directo tiene las opciones de intervalo normal tres veces (el intervalo normal es de un minuto). Si las opciones se enviaron durante los tres últimos minutos, la SBC se considerará saludable.
+
+Si la SBC del ejemplo envió opciones en cualquier período comprendido entre 11,12 AM y 11,15 AM (el momento en que se realizó la llamada), se considerará saludable. De lo contrario, se degradará la SBC de la ruta. 
 
 La degradación significa que la SBC no se intentará en primer lugar. Por ejemplo, tenemos sbc1.contoso.com y sbc2.contoso.com con la misma prioridad.  
 
