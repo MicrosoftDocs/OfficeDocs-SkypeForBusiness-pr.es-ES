@@ -10,12 +10,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a140ed48ac662daea14d602f0830b2fbc4bf1c05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e2b1e11b4c9d68dbc5e177d684cd3053a83df8ea
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849845"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,9 +49,9 @@ Los cmdlets de informes disponibles para los administradores son:
 
   - Get-CsP2PSessionReport, que proporciona información sobre el número y el tipo de sesiones de punto a punto en las que participaron los usuarios.
 
-La mayoría de los administradores usarán los informes disponibles en el centro de administración de Office 365: no solo se generan automáticamente esos informes, sino que también proporcionan una representación gráfica de los datos que a menudo es más fácil de interpretar que los valores de número sin formato devueltos por el cmdlets de informes. Sin embargo, los administradores familiarizados con Windows PowerShell pueden usar los cmdlets de informes para devolver datos que no se encuentran disponibles en los informes de Lync Online. Por ejemplo, los cmdlets de informes devuelven información sobre la duración de la sesión (la cantidad de tiempo, en minutos, que dura cada sesión). Las duraciones de las sesiones individuales no están disponibles con los informes de Lync Online. Del mismo modo, en la vista diaria los informes de Lync Online solo muestran información para los 14 días anteriores. Si desea revisar los totales diarios de un día diferente (por ejemplo, una fecha de hace cuatro meses) puede hacerlo usando los cmdlets de informes.
+La mayoría de los administradores usarán los informes disponibles en el centro de administración de Microsoft 365: no solo se generan automáticamente esos informes, sino que también proporcionan una representación gráfica de los datos que a menudo es más fácil de interpretar que los valores de número sin formato devueltos por el cmdlets de informes. Sin embargo, los administradores familiarizados con Windows PowerShell pueden usar los cmdlets de informes para devolver datos que no se encuentran disponibles en los informes de Lync Online. Por ejemplo, los cmdlets de informes devuelven información sobre la duración de la sesión (la cantidad de tiempo, en minutos, que dura cada sesión). Las duraciones de las sesiones individuales no están disponibles con los informes de Lync Online. Del mismo modo, en la vista diaria los informes de Lync Online solo muestran información para los 14 días anteriores. Si desea revisar los totales diarios de un día diferente (por ejemplo, una fecha de hace cuatro meses) puede hacerlo usando los cmdlets de informes.
 
-Los administradores también pueden estar interesados en el artículo [usar Excel para recuperar datos de informes de office 365](http://msdn.microsoft.com/en-us/library/dn781442.aspx), donde se explica cómo usar la característica de consulta de datos de oData en Microsoft Excel para crear un informe personalizado de Office 365. Los informes personalizados le ofrecen la posibilidad de dictar qué datos (y la cantidad de datos) se devuelven desde el servicio de informes de Office 365. Los informes personalizados también le permiten especificar cómo se deben ordenar y agrupar los datos, así como proporcionar acceso a la información que no se muestra en el centro de administración de Office 365.
+Los administradores también pueden estar interesados en el artículo [usar Excel para recuperar datos de informes de office 365](http://msdn.microsoft.com/en-us/library/dn781442.aspx), donde se explica cómo usar la característica de consulta de datos de oData en Microsoft Excel para crear un informe personalizado de Office 365. Los informes personalizados le ofrecen la posibilidad de dictar qué datos (y la cantidad de datos) se devuelven desde el servicio de informes de Office 365. Los informes personalizados también le permiten especificar cómo se deben ordenar y agrupar los datos, así como proporcionar acceso a la información que no se muestra en el centro de administración.
 
 Los administradores con un fondo de desarrollo pueden usar el servicio Web REST para obtener información que no se muestra en el centro de administración de Skype empresarial online. El servicio REST es similar al servicio SOAP, ya que cada tecnología proporciona una manera de transferir datos XML entre un cliente y un servidor. Sin embargo, el servicio REST tiene al menos dos ventajas en comparación con el servicio SOAP. En el caso de uno, REST realiza transferencias de datos XML con un formato estandarizado conocido como formato de sindicación ATOM. Por el contrario, SOAP usa un formato no estándar al transferir datos. Además, REST puede transferir datos a través de redes que bloqueen verbos HTTP distintos de GET y POST.
 
