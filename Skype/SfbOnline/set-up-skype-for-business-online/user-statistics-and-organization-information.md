@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Vea qué estadísticas tienen disponibles los usuarios de Skype Empresarial, como el número de usuarios habilitados, los usuarios habilitados con conferencia o los usuarios que están habilitados para Office 365.
-ms.openlocfilehash: 9aaef735dff56de1a5e55e109255e76b4437e91c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d15ba89dda3a5a87162855d5746aed93b21598d0
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284901"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792119"
 ---
 # <a name="user-statistics-and-organization-information"></a>Estadísticas del usuario e información de la organización
 
@@ -61,7 +61,7 @@ El panel de Skype Empresarial le ofrece información rápida sobre la configurac
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)
 
-[Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

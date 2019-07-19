@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Aprenda a planificar e implementar Skype empresarial en organizaciones pequeñas, medianas y grandes y a poner a disposición de los usuarios. '
-ms.openlocfilehash: b6895a45f59de2c73e445c7c26345f3b3d191a5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dedf142e316f502185bc2de0d0e37fee0513d2c3
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285288"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792187"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implementar el cliente de Skype empresarial en Office 365
 
@@ -44,21 +44,21 @@ Antes de implementar Skype empresarial para los usuarios, asegúrese de que ha r
 
 Como [Administrador](https://support.office.com/en-us/article/eac4d046-1afd-4f1a-85fc-8219c79e1504?ui=en-US&rs=en-US&ad=US) , puede elegir si desea que la aplicación de Skype empresarial esté disponible para los usuarios.
   
-- **Para controlar si todos los usuarios de su empresa obtienen el software**: inicie sesión en el centro de administración de Office 365, vaya a **instalar mi software**y, a continuación, seleccione el software que quiere que estén disponibles para los usuarios.
+- **Para controlar si todos los usuarios de su empresa obtienen el software**: inicie sesión en el centro de administración de Microsoft 365, vaya a **instalar mi software**y, a continuación, seleccione el software que quiere que estén disponibles para los usuarios.
     
     ![Elija el software que desea que esté disponible para los usuarios de su empresa.](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- **Para controlar si determinadas personas de su empresa obtienen el software**: inicie sesión en el centro de administración de Office 365, **** > vaya a usuarios**activos**, seleccione la persona a la que desea conceder acceso al software y, a continuación, haga clic en **Editar** . junto a **licencias de producto** y activar o desactivar la licencia.
+- **Para controlar si determinadas personas de su empresa obtienen el software**: inicie sesión en el centro de administración de Microsoft 365, **** > vaya a usuarios**activos**, seleccione la persona a la que desea conceder acceso al software y, a continuación, haga clic en **Editar. **junto a **licencias de producto** y activar o desactivar la licencia.
     
     ![Elija el software al que desea que el usuario tenga acceso.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Si necesita ver qué planes están asignados a las personas de su organización, inicie sesión en el nuevo centro de administración de Office **** > 365 > usuarios**activos**. Seleccione a la persona de la lista y, a continuación, busque en **licencias de producto**. Si está usando el clásico centro de administración de Office 365, mire en **licencia asignada**. 
+> Si necesita ver qué planes están asignados a las personas de su organización, inicie sesión en el centro de administración de Microsoft **** > 365 > usuarios**activos**. Seleccione a la persona de la lista y, a continuación, busque en **licencias de producto**. Si está usando el centro de administración clásico, mire en **licencia asignada**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Implementación manual de Skype empresarial para los usuarios
 <a name="bkmk_manual_1"> </a>
 
-Si desea que los usuarios instalen la aplicación de Skype empresarial desde una ubicación de la red en lugar de desde Internet, puede descargar los archivos de instalación. Para ello, vaya a la sección **implementar manualmente el software de usuario** del centro de administración de Office 365. Después, puede seleccionar **instalar** y guardar el archivo Setup. exe en una ubicación de red.
+Si desea que los usuarios instalen la aplicación de Skype empresarial desde una ubicación de la red en lugar de desde Internet, puede descargar los archivos de instalación. Para hacerlo, vaya a la sección **implementar manualmente el software de usuario** en el centro de administración de Microsoft 365. Después, puede seleccionar **instalar** y guardar el archivo Setup. exe en una ubicación de red.
   
 Otra opción es descargar la aplicación básica de Skype empresarial para los usuarios. Puede descargar [Microsoft Skype empresarial Basic (32 o 64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=49440).
   
@@ -75,11 +75,11 @@ En muchas empresas o organizaciones grandes, los usuarios no pueden instalar sof
   
 Con Office 365, tiene varias opciones para implementar la aplicación de Skype empresarial si desea controlar desde dónde se instala. Algunas de estas opciones son las siguientes:
   
-- Descargue la aplicación de Skype empresarial en su red local desde el centro de administración de Office 365, como se describe en [implementar de forma manual Skype empresarial para los usuarios](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1).
+- Descargue la aplicación de Skype empresarial en su red local desde el centro de administración de Microsoft 365, como se describe en [implementar de forma manual Skype empresarial para los usuarios](deploy-the-skype-for-business-client-in-office-365.md#bkmk_manual_1).
     
 - Use la **[herramienta de implementación de Office](https://go.microsoft.com/fwlink/p/?LinkID=626065)** para descargar Office 365 ProPlus o la aplicación de Skype empresarial a su red local. A continuación, use la herramienta de implementación de Office para implementar la aplicación en los usuarios. La herramienta de implementación de Office le ofrece la posibilidad de controlar determinados aspectos de la implementación, como los idiomas y la versión (32 bits o 64 bits).
     
-- Use los procesos y las herramientas de implementación de software existentes, como System Center Configuration Manager, para implementar Office 365 ProPlus o la aplicación de Skype empresarial a sus usuarios. Puede usar las herramientas y los procesos existentes con la [herramienta de implementación de Office](https://go.microsoft.com/fwlink/p/?LinkID=626065) o con el software que haya descargado desde el centro de administración de Office 365.
+- Use los procesos y las herramientas de implementación de software existentes, como System Center Configuration Manager, para implementar Office 365 ProPlus o la aplicación de Skype empresarial a sus usuarios. Puede usar las herramientas y los procesos existentes con la [herramienta de implementación de Office](https://go.microsoft.com/fwlink/p/?LinkID=626065) o con el software que haya descargado desde el centro de administración de Microsoft 365.
     
 ### <a name="more-info-on-using-the-office-deployment-tool"></a>Más información sobre el uso de la herramienta de implementación de Office
 
@@ -103,7 +103,7 @@ Para obtener más información sobre el uso de la herramienta de implementación
     
 ### <a name="more-info-on-using-system-center-configuration-manager"></a>Más información sobre el uso de System Center Configuration Manager
 
-Puede usar los procesos y las herramientas de implementación de software existentes, como System Center Configuration Manager, para implementar la aplicación de Skype empresarial. Puede usar estas herramientas y procesos con el software que descargue desde el centro de administración de Office 365 o con la herramienta de implementación de Office.
+Puede usar los procesos y las herramientas de implementación de software existentes, como System Center Configuration Manager, para implementar la aplicación de Skype empresarial. Puede usar estas herramientas y procesos con el software que descargue desde el centro de administración de Microsoft 365 o con la herramienta de implementación de Office.
   
 Para obtener más información sobre cómo usar Configuration Manager para implementar software, vea los artículos siguientes:
   

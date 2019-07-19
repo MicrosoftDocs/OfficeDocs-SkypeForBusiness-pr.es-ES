@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envíe un correo electrónico a los usuarios con la información de las conferencias de audio en Skype empresarial online.
-ms.openlocfilehash: 14c8bc3eb246cf4ab6ffa0d823ec53fbdc78d189
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf1555f572c4c8f4e6c11e87315f2fdfcac22cd8
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302101"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792272"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Enviar un correo electrónico a un usuario con su información de audioconferencia en Skype empresarial online
 
@@ -56,7 +56,7 @@ Este es un ejemplo del correo electrónico que se envía:
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro** > de administración de Office 365**Skype empresarial**y, en la barra de navegación izquierda, haga clic en **audioconferencia**.
+2. Vaya al centro de administración > **Skype empresarial**y, a continuación, en la barra de navegación izquierda, haga clic en **audioconferencia**.
     
 3. Haga clic en **usuarios**y, a continuación, seleccione el usuario.
     
@@ -110,9 +110,9 @@ Este es un ejemplo del correo electrónico que se envía:
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell cuenta con muchas ventajas en velocidad, simplicidad y productividad en comparación con solo usar el centro de administración de Office 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     
-  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
     [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

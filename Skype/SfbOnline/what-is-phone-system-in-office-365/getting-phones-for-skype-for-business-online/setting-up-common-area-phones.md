@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar los valores de los teléfonos comunes de área.
-ms.openlocfilehash: b7717fd9bfb641c94261d288b5b546cace50a61f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 9f84b8ebbdd9bfab6b146d3f748715a5e0602047
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493861"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792459"
 ---
 # <a name="set-up-common-area-phones"></a>Configurar teléfonos de área común
 A common area phone (CAP) is typically placed in an area like a lobby or another area that is available to a lot of people. For example, a reception area phone, door phone or meeting room phone, CAPs are set up as devices rather than users and automatically sign into a network. In the steps below, we’ll help you set up an account for Phone System with Calling Plans so you can deploy these types of phones for your organization.
@@ -49,7 +49,7 @@ Lo primero que debe hacer es confirmar que tiene lo siguiente:
 Tendrá que seguir estos pasos:
 
 ### <a name="step-1---buy-the-licenses"></a>Paso 1: comprar las licencias
-1. En el centro de administración de Office 365, entre en **Facturación** > **Servicios de compra**, y agregue **Otros planes**.
+1. En el centro de administración, vaya a**servicios de compra**de **facturación** > y agregue **otros planes**.
 
     ![CAP-license.png](../../images/cap-license.png)
 2. Haga clic en **Teléfono de área común** > **Comprar ahora** > y en la página de **Pago** haga clic en **Compra ahora**.
@@ -61,7 +61,7 @@ Tendrá que seguir estos pasos:
 Para obtener más información sobre las licencias, vea [licencias complementarias de Skype empresarial y Microsoft Teams](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Paso 2: crear una nueva cuenta de usuario para el teléfono y asignar las licencias
-1. En el centro de administración de Office 365, entre en **Usuarios** > **Usuarios activos** > **Agregar un usuario**.
+1. En el centro de administración, vaya **** > a usuarios**activos usuarios** > ,**Agregar un usuario**.
 2. Indique un **Nombre de usuario** del estilo de "Principal" para el primer nombre y "Recepción" para el segundo nombre.
 3. Indique un **Nombre para mostrar** si no se autogenera uno del estilo de "Recepción principal".
 4. Indique un **Nombre de usuario** del estilo de "RecepciónPrincipal" o "VestíbuloPrincipal".
@@ -83,7 +83,7 @@ Para más detalles, consulte [Agregar un usuario](https://support.office.com/art
 
 ![Un icono que muestra el logotipo](../../images/sfb-logo-30x30.png) de Skype empresarial asignar un número de teléfono al usuario con el centro de **Administración de Skype empresarial**
 
-1. En el centro de administración de Office 365, > **admin Centers** > **Skype empresarial**.
+1. En el centro de administración > **centros** > de administración**de Skype empresarial**.
 2. En el **centro de administración de Skype for Business** >  **Voz** > **Números de teléfono**.
 3. Seleccione un número de la lista de números de teléfono y haga clic en **Asignar**.
 4. En la página **Asignar**, en el cuadro **Usuario de voz** indique el nombre del usuario que se utiliza para el teléfono y luego seleccione el usuario en el desplegable **Seleccionar un usuario de voz**.

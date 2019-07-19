@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea los pasos que hay que seguir en Microsoft Teams para asignar una licencia de conferencia de acceso telefónico local y un Id. de conferencia a un usuario y muchas otras opciones de la conferencia de acceso telefónico local. '
-ms.openlocfilehash: b8a93b9f6ad47b4b1f4203e4611331bfe3c13b59
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d5b3b616d8e3a42f5084d8de424c3fd557271b1d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343917"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793199"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para su organización en Microsoft Teams
 
@@ -54,7 +54,7 @@ Puede que le resulte más sencillo ver todas las opciones de audioconferencias p
 4. En la página **Asignar licencia**, active **Conferencias RTC de Skype Empresarial** y haga clic en **Guardar**. Para obtener más información sobre las licencias, vea [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 > [!NOTE]
-> Después de asignar la licencia, puede que Microsoft no aparezca en el menú desplegable como un proveedor de servicios de conferencia de acceso telefónico local. Si esto ocurre, cierre la sesión del centro de administración de Office 365 o presione CTRL + F5 para actualizar la ventana del explorador. 
+> Después de asignar la licencia, puede que Microsoft no aparezca en el menú desplegable como un proveedor de servicios de conferencia de acceso telefónico local. Si esto sucede, cierre sesión en el centro de administración o presione CTRL + F5 para actualizar la ventana del explorador. 
   
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Habilitar o deshabilitar los correos electrónicos que se envían a usuarios de audioconferencias
 

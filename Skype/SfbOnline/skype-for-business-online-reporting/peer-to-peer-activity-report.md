@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 318473355d11017135c53319808a7423767cfe85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286156"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792654"
 ---
 # <a name="peer-to-peer-activity-report"></a>Informe de actividad punto a punto
 
@@ -37,11 +37,11 @@ Consulte la [información general](https://support.office.com/article/0d6dfb17-8
 Este informe, junto con los otros informes de Skype empresarial, le ofrece detalles sobre la actividad en toda su organización. Estos detalles son muy útiles para investigar, planificar y tomar otras decisiones empresariales para su organización. 
   
 > [!NOTE]
-> Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
+> Puede ver todos los informes de Skype empresarial cuando inicia sesión como administrador en el centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-peer-to-peer-activity-report"></a>Cómo acceder al informe de actividad punto a punto de Skype Empresarial
 
-1. Vaya al **Centro** > de administración de Office 365**informes** > de**uso**.
+1. Vaya al centro de administración > **** > **uso**de informes.
     
 2. En la página **uso** , haga clic en **actividad punto a punto de Skype empresarial** en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype** empresarial y, a continuación, haga clic en **actividad punto a punto de Skype empresarial** en la lista de **actividades de Skype empresarial** .
     
@@ -93,7 +93,7 @@ En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este in
 *    **Minutos de audio** muestra el número total de minutos de audio que se han usado en la organización. 
 *    **Minutos de audio** muestra el número total de minutos de audio que se han usado en la organización. 
 
-Si las directivas de la organización le impiden ver los informes en los que la información del usuario es identificable, puede cambiar la configuración de privacidad de todos estos informes. Consulte la sección **¿Cómo oculto los detalles de nivel de usuario?** en los [informes de actividades del centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+Si las directivas de la organización le impiden ver los informes en los que la información del usuario es identificable, puede cambiar la configuración de privacidad de todos estos informes. Consulte la sección **¿Cómo oculto los detalles de nivel de usuario?** de los [informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
 ![Número 9](../images/sfbcallout9.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o pulsando o tocando en **Exportar**.           <br/> ![Botón de exportación de informes de Skype empresarial.](../images/de7e2ab7-d70c-422f-a0ec-178b10f7dd51.png)<br/>De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.
 ***
@@ -118,7 +118,7 @@ Si las directivas de la organización le impiden ver los informes en los que la 
 - [Informe de detalles de sesión de Skype empresarial](session-details-report.md) Puede ver los detalles de las experiencias de llamadas de los usuarios individuales.
     
 ## <a name="related-topics"></a>Temas relacionados
-[Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

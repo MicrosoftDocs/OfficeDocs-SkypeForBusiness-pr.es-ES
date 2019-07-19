@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Obtenga información sobre cómo activar o desactivar las notificaciones de teléfono móvil para que los usuarios puedan recibir alertas sobre mensajes instantáneos, correo de voz y mensajes instantáneos perdidos.
-ms.openlocfilehash: 0864fbac9aa4d576cc5c69a405077739a818209c
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 6bd762c12a9945c6eaf7c103f3e19502e58840b3
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494057"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792129"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activar o desactivar las notificaciones del teléfono móvil
 
@@ -39,7 +39,7 @@ En los teléfonos Android y Windows Phone, las notificaciones de Skype Empresari
 
 1. Inicie sesión en Office 365.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Vaya al centro de administración > **Skype empresarial**.
     
 3. Vaya a **Organización** > **General**. 
     

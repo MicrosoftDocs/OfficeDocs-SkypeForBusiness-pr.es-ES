@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Este informe, junto con otros informes de Skype empresarial, ofrece detalles sobre la actividad, incluido el uso de RTC en toda la organización. '
-ms.openlocfilehash: 77ce7a5ff05c4302be875a16519c2dc1a3a994de
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 95269dc08806ab09a44f47153748d45a63fedbc2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494009"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793018"
 ---
 # <a name="users-blocked-report"></a>Informe de usuarios bloqueados
 
@@ -32,13 +32,13 @@ En el nuevo panel de **informes** de Skype empresarial, se muestra la informaci�
  Consulte la [información general](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) de los informes para ver más informes que están disponibles.
   
 > [!NOTE]
-> Puede ver todos los informes de Skype empresarial cuando inicia sesión como administrador en el centro de administración de Office 365. 
+> Puede ver todos los informes de Skype empresarial cuando inicia sesión como administrador en el centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>Cómo acceder al informe de usuarios bloqueados de Skype empresarial
 
 ![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
-- Vaya al centro de administración de **Office 365** > centro de administración centro de**Administración** > **de Skype empresarial** > **informes** > de**usuarios bloqueados**.
+- Vaya al centro de administración > **centros** > de administración que el > **centro de administración de Skype empresarial****notifica** > **a los usuarios bloqueados**.
     
 ## <a name="interpret-the-skype-for-business-users-blocked-report"></a>Interpretar el informe de usuarios bloqueados de Skype empresarial
 
@@ -85,7 +85,7 @@ De esta forma se exportan los datos de todos los usuarios, a los que puede aplic
 - [Informe de detalles de sesión de Skype empresarial](session-details-report.md) Puede ver los detalles de las experiencias de llamadas de los usuarios individuales.
    
 ## <a name="related-topics"></a>Temas relacionados
-[Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

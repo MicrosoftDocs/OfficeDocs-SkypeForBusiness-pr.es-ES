@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'El servicio de conferencias es una parte importante de Skype Empresarial Online: mediante las conferencias, los grupos de usuarios pueden reunirse en línea para ver diapositivas y vídeo, compartir aplicaciones, cederse archivos, y colaborar y comunicarse de otros modos.'
-ms.openlocfilehash: 27cad757e81d40bba734f31ca1f0c88a46a374ff
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d20b1a39f83a875d255a812fd86160445691ae2f
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221173"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792479"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Establecer directivas de conferencia en su organización
 
@@ -136,7 +136,7 @@ Si ya ha creado una directiva, puede usar el cmdlet [set-CsConferencingPolicy](h
     
   - [Seis motivos por los que es posible que desee usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

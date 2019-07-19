@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: a9f09212e4f883b0fd97f9d1cc596c3f63c13055
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 61e57b39954df8931b9612e853fccf1e74e9623f
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221030"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792988"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Activar o desactivar la precarga de contenido con Outlook en las reuniones
 
@@ -95,7 +95,7 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [Seis motivos por los que es posible que desee usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

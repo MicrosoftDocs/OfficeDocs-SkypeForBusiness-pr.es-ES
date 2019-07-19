@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: 41fe8775ae98828a5c242c21a910906f8f4699eb
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 64ab051449357476d5e6421723d393622899263a
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221382"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793133"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -159,7 +159,7 @@ Grant-CsCallingLineIdentity -Identity "amos.marble@contoso.com" -PolicyName $nul
     
   - [Seis motivos por los que es posible que desee usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Learn about these advantages in the following topics:
     
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

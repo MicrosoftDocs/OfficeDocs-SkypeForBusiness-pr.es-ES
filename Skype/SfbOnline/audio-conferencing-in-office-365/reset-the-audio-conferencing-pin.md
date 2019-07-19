@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Descubra lo que debe saber sobre los pin y cómo restablecerlos en Skype empresarial online. '
-ms.openlocfilehash: 11fafd6d79236fdddf3f73f384e9c339a5a775fc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299090"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792282"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Restablecer el PIN de audioconferencia en Skype empresarial online
 
@@ -40,7 +40,7 @@ Las reuniones se pueden iniciar cuando un usuario autenticado se une con la apli
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro** > de administración de Office 365**Skype empresarial**y, en la barra de navegación izquierda, haga clic en **audioconferencia**.
+2. Vaya al centro de administración > **Skype empresarial**y, a continuación, en la barra de navegación izquierda, haga clic en **audioconferencia**.
     
 3. Haga clic en **usuarios**y seleccione el usuario para el que desea restablecer el PIN.
     
@@ -91,9 +91,9 @@ Un usuario puede restablecer un PIN con la opción **restablecer PIN** de la pá
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes:
     
-  - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
     [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

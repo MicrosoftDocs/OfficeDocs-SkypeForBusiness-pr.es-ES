@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo asignar un identificador de conferencia a un usuario en Skype empresarial online y cuáles deben ser los parámetros de IDs de conferencia. '
-ms.openlocfilehash: 884934360c8d3a627e68486189acc398c22b68f2
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 65a27315898ec0673d68842e7d5249cbad2d7298
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "35002840"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793008"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Ver y restablecer un Id. de conferencia asignado a un usuario en Skype for Business Online
 
@@ -51,7 +51,7 @@ Puede ver el Id. de conferencia y enviárselo a los usuarios.
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Vaya al centro de administración > **Skype empresarial**.
 
 3. En el **centro de administración de Skype for Business**> **Audioconferencias** > **Usuarios**, seleccione el usuario que necesita el Id. de conferencia.
 
@@ -79,7 +79,7 @@ Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, este lo
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Vaya al centro de administración > **Skype empresarial**.
 
 3. En el **Centro**> de administración de Skype empresarial,**los usuarios**de la**Conferencia** > de audio, en el panel de acciones, en **ID de conferencia**, haga clic en **restablecer**.
 
@@ -113,7 +113,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Learn about these advantages in the following topics:
 
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

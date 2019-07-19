@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Obtenga información sobre cómo habilitar o deshabilitar a los usuarios para que puedan grabar sus nombres cuando se unan a una reunión en Skype empresarial online.
-ms.openlocfilehash: 7209d95db6ada7b4569ee4c6dc1aded8b2e6b877
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 19fad95c0775663db799a59da159ed145aedda6b
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221530"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792302"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Permitir que los usuarios graben su nombre al unirse a una reunión en Skype empresarial online
 
@@ -61,7 +61,7 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell cuenta con muchas ventajas en velocidad, simplicidad y productividad en comparación con solo usar el centro de administración de Office 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Learn about these advantages in the following topics: 
     
   - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

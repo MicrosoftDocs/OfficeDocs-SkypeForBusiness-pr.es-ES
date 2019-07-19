@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: abaa8887dbf206e24d232f8614c585329e7a44f6
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 85e8378c41f3d2398982bacee3c568291903ccce
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221022"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792998"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activar o desactivar los mensajes sin conexión para administradores
 
@@ -106,7 +106,7 @@ Para habilitar o deshabilitar los mensajes sin conexión, envíe mensajes sin co
 
   - [Seis motivos por los que es posible que desee usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype empresarial online le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de conferencia o del cliente, donde puede tener varias combinaciones, hay tres directivas de acceso externo predefinidas que pueden cubrir la mayoría de los escenarios.
-ms.openlocfilehash: ebe23e3cded24078f1d6baedba3a800aa24a5fbd
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 7f3edac77af8d9948ef7118c0f94b1ec9c3ae6c1
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221423"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792489"
 ---
 # <a name="create-custom-external-access-policies"></a>Crear directivas personalizadas de acceso externo
 
@@ -102,7 +102,7 @@ Para ello, ejecute:
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

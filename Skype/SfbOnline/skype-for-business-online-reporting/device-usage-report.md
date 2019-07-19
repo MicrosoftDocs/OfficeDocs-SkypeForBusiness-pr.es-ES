@@ -18,13 +18,13 @@ f1keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
-description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de uso de dispositivos de Skype empresarial para ver los dispositivos, incluidos los sistemas operativos basados en Windows y los dispositivos móviles, que tienen la aplicación de Skype empresarial instalada y la usan para la mensajería instantánea y las reuniones. Consulte los informes de actividades en el centro de administración de Office 365 para obtener más información.
-ms.openlocfilehash: aa96fc36e2efd5574bc363b8a199007a60060338
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de uso de dispositivos de Skype empresarial para ver los dispositivos, incluidos los sistemas operativos basados en Windows y los dispositivos móviles, que tienen la aplicación de Skype empresarial instalada y la usan para la mensajería instantánea y las reuniones. Consulte los informes de actividades en el centro de administración para obtener más información.
+ms.openlocfilehash: e5fade6e28c935a8ff454afc47d77cc691372d83
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280777"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793124"
 ---
 # <a name="device-usage-report"></a>Informe del uso de los dispositivos
 
@@ -35,11 +35,11 @@ Consulte la [información general](https://support.office.com/article/0d6dfb17-8
 Este informe, junto con los otros informes de Skype empresarial, proporcionan detalles sobre los tipos de clientes y dispositivos que se usan en toda la organización. Estos detalles son muy útiles para investigar, planificar y tomar otras decisiones empresariales para su organización.
   
 > [!NOTE]
-> Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
+> Puede ver todos los informes de Skype empresarial cuando inicia sesión como administrador en el centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-device-usage-report"></a>Cómo acceder al informe de uso de dispositivos de Skype empresarial
 
-1. Vaya al **Centro** > de administración de Office 365**informes** > de**uso**.
+1. Vaya al centro de administración > **** > **uso**de informes.
     
 2. En la página **uso** , haga clic en **uso de dispositivo de Skype empresarial** en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype empresarial** y, a continuación, haga clic en **uso de dispositivo de Skype empresarial** en la lista de **actividades de Skype** empresarial.
     
@@ -84,7 +84,7 @@ En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este in
 *    **iPhone** se selecciona si el usuario tiene la aplicación cliente de Skype empresarial instalada en un iPhone y lo está usando. 
 *    **iPad** se selecciona si el usuario tiene la aplicación cliente de Skype empresarial instalada en un iPad y la está usando. 
 
-Si las directivas de la organización le impiden ver los informes en los que la información del usuario es identificable, puede cambiar la configuración de privacidad de todos estos informes. Consulte la sección **¿Cómo oculto los detalles de nivel de usuario?** en los [informes de actividades del centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
+Si las directivas de la organización le impiden ver los informes en los que la información del usuario es identificable, puede cambiar la configuración de privacidad de todos estos informes. Consulte la sección **¿Cómo oculto los detalles de nivel de usuario?** de los [informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263). 
 ***
 ![Número 8](../images/sfbcallout8.png)<br/>Haga clic o pulse en el icono **columnas** de cualquiera de las columnas para agregar o quitar columnas del informe.           <br/> ![Skype for Business Online Reporting Manage Button.](../images/4c8f5387-cebb-4d6c-b7d3-05c954a2c234.png)
 ***
@@ -109,7 +109,7 @@ Si las directivas de la organización le impiden ver los informes en los que la 
 - [Informe de detalles de sesión de Skype empresarial](session-details-report.md) Puede ver los detalles de las experiencias de llamadas de los usuarios individuales.
     
 ## <a name="related-topics"></a>Temas relacionados
-[Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

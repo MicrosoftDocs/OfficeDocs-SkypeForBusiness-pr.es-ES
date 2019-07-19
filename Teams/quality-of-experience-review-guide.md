@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b29506a30f20056b422b7780896d5661326986e0
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 1f2b61361a362837314a3cd60bd87da21752df94
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198663"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793277"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
@@ -74,7 +74,7 @@ Antes de usar esta guía, asegúrese de tener asignados los [roles](https://docs
 
 Como alternativa, puede asignar el siguiente rol a una cuenta de usuario de Office 365 para permitir el acceso únicamente a las características de creación de informes.
 
--   **Lector de informes:** Permite ver todos los [informes de actividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) en el centro de administración de Office 365, los informes del [paquete de contenido de adopción de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)y los informes de CQD.
+-   **Lector de informes:** Permite ver todos los [informes de actividades](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) en el centro de administración, los informes del [paquete de contenido de adopción de Microsoft 365](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)y los informes de CQD.
 
 ## <a name="what-is-quality"></a>¿Qué es la calidad?
 

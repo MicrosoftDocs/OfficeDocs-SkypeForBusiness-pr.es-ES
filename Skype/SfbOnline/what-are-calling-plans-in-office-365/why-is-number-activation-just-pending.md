@@ -21,19 +21,19 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
-ms.openlocfilehash: ebdb7417ffeb7f06bee84fe95c6e7725eed20d19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e849960fb09ecfe5739d05c9e0a3ba1040352a09
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290569"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793415"
 ---
 # <a name="why-is-number-activation-just-pending"></a>¿Por qué la activación del número está pendiente?
 
 La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Si, por algún motivo, un número de teléfono no está activado y aparece como **pendiente** debido a la validación de la dirección, tendrá que crear y enviar una solicitud de servicio. La forma que elija para hacerlo depende del tamaño de su organización.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizaciones de 150 o menos, siga estos pasos.
-1. En el **Centro de administración de Office 365**, elija **¿Necesita ayuda**?
+1. En el centro de administración, elija ¿ **necesita ayuda**?
 2. En el panel **¿Necesita ayuda?**, díganos con qué asunto necesita ayuda y seleccione **Obtener ayuda**.
 3. Si los resultados de la sección **View solutions** (Ver soluciones) no son de ayuda, elija una de las siguientes opciones:
     - **Let us call you (Recommended)** (Permítanos llamarle [recomendado]): confirme su número de contacto y pulse **Llamarme**. El tiempo de espera previsible para la devolución de llamada se indica en el panel **¿Necesita ayuda?**.
@@ -43,7 +43,7 @@ La validación de direcciones es una parte muy importante de la configuración d
 
 1. Inicie sesión como administrador en Office 365 con su cuenta profesional o educativa.
     
-2. En el Centro de administración de Office 365, en el panel de navegación izquierdo, haga clic en **Soporte** > **New service request** (Nueva solicitud de servicio).
+2. En el centro de administración, en el navegación de la izquierda, haga clic en **admitir** > **nueva solicitud de servicio**.
     
 3. En **Service requests** (Solicitudes de servicio), haga clic en **Agregar**.
     
@@ -93,7 +93,7 @@ La validación de direcciones es una parte muy importante de la configuración d
 8. Revise la información y, a continuación, haga clic en **Submit request** (Enviar solicitud).
     
 > [!TIP]
-> El número de referencia se mostrará en la página **Service requests** (Solicitudes de servicio) del Centro de administración de Office 365.
+> El número de referencia se mostrará en la página **solicitudes de servicio** del centro de administración de Microsoft 365.
 
 
 > [!NOTE]

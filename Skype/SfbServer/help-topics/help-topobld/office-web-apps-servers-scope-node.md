@@ -12,17 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Para abrir el asistente de Office Online, haga clic con el botón secundario en Servidores de Office Web Apps y seleccione Nuevo servidor de Office Web Apps.
-ms.openlocfilehash: 1c6d93873094c7eec725d4093134541fa4d17f28
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: Haga clic con el botón secundario en servidores de Office Web Apps y seleccione nuevo servidor de Office Web Apps para abrir el asistente.
+ms.openlocfilehash: ebaa4405d0b6f7f29447c43cbd5bcd8f36d21e8d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289990"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792662"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nodo de ámbito de los servidores de Office Web Apps
 
-Para abrir el asistente de Office Online, haga clic con el botón secundario en **Servidores de Office Web Apps** y seleccione **Nuevo servidor de Office Web Apps**.
+Haga clic con el botón secundario en **servidores de Office Web Apps** y seleccione **nuevo servidor de Office Web Apps** para abrir el asistente.
 
 ![Nodo de ámbito de los servidores de Office Web Apps](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 

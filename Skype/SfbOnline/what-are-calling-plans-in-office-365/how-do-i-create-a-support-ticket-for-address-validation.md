@@ -20,12 +20,12 @@ f1keywords: ms.lync.lac.CivicAddressValidationOpenSupportTicket
 ms.custom:
 - Calling Plans
 description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
-ms.openlocfilehash: fd3544c287dca28c1ab0408ee58209d8f9e8a7b6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4cd11e97978ea0439fd918f4e6c2e854a822e908
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305427"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793338"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>¿Cómo creo un vale de soporte para la validación de direcciones?
 
@@ -36,7 +36,7 @@ La validación de direcciones es una parte muy importante de la configuración d
 
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizaciones de 150 o menos, siga estos pasos.
-1. En el **Centro de administración de Office 365**, elija **¿Necesita ayuda**?
+1. En el centro de administración, elija ¿ **necesita ayuda**?
 2. En el panel **¿Necesita ayuda?**, díganos con qué asunto necesita ayuda y seleccione **Obtener ayuda**.
 3. Si los resultados de la sección **View solutions** (Ver soluciones) no son de ayuda, elija una de las siguientes opciones:
     - **Let us call you (Recommended)** (Permítanos llamarle [recomendado]): confirme su número de contacto y pulse **Llamarme**. El tiempo de espera previsible para la devolución de llamada se indica en el panel **¿Necesita ayuda?**.
@@ -46,7 +46,7 @@ La validación de direcciones es una parte muy importante de la configuración d
 
 1. Inicie sesión como administrador en Office 365 con su cuenta profesional o educativa.
     
-2. En el Centro de administración de Office 365, en el panel de navegación izquierdo, haga clic en **Soporte** > **New service request** (Nueva solicitud de servicio).
+2. En el centro de administración, en el navegación de la izquierda, haga clic en **admitir** > **nueva solicitud de servicio**.
     
 3. En **Service requests** (Solicitudes de servicio), haga clic en **Agregar**.
     
@@ -96,7 +96,7 @@ La validación de direcciones es una parte muy importante de la configuración d
 8. Revise la información y, a continuación, haga clic en **Submit request** (Enviar solicitud).
     
 > [!TIP]
-> El número de referencia se mostrará en la página **Service requests** (Solicitudes de servicio) del Centro de administración de Office 365.
+> El número de referencia se mostrará en la página **solicitudes de servicio** del centro de administración de Microsoft 365.
   
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](/microsoftteams/transferring-phone-numbers-common-questions)

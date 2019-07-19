@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Puede configurar la forma en que los usuarios se conectan a Skype empresarial online con la aplicación de Skype empresarial en dispositivos móviles, como una característica que permite a los usuarios realizar y recibir llamadas telefónicas en su teléfono móvil usando su número de teléfono del trabajo en lugar de su teléfono móvil nu mber. Las directivas de movilidad también se pueden usar para requerir conexiones WiFi para hacer o recibir llamadas.
-ms.openlocfilehash: 5acf0f7f331e7836e5bab785f9726cfd921b619d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 1e5cb04bbd63c91d1302ace41b1c9bdbaa492574
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221147"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792469"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Establecer directivas móviles en su organización
 
@@ -130,7 +130,7 @@ Si ya ha creado una directiva, puede usar el cmdlet [set-CsMobilityPolicy](https
     
   - [Seis motivos por los que es posible que desee usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

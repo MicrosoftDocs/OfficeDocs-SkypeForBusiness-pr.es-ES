@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
-ms.openlocfilehash: 62b64fd971d776b265d7b78789e8ac7684cc5e26
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302091"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793066"
 ---
 # <a name="session-details-report"></a>Informe de detalles de la sesión
 
@@ -34,11 +34,11 @@ Consulte la [información general](https://support.office.com/article/0d6dfb17-8
 Este informe, junto con los otros informes de Skype empresarial, ofrecen detalles sobre la actividad, incluidos los detalles de la sesión en toda la organización. Estos detalles son muy útiles para investigar, planear y tomar otras decisiones empresariales para su organización y para configurar [créditos de comunicaciones](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
-> Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
+> Puede ver todos los informes de Skype empresarial cuando inicia sesión como administrador en el centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Cómo acceder al informe detalles de sesión de Skype empresarial
 
-1. Ir a los > **informes** del **centro de administración de Office 365**
+1. Ir al centro de administración > **informes**
     
 2. Seleccione **informes** en el menú de la izquierda y, a continuación, haga clic en **uso**.
     
@@ -118,7 +118,7 @@ Para cada sesión, hay una subtabla con diferentes datos disponibles según el e
 - [Informe de grupos de minutos RTC de Skype empresarial](pstn-minute-pools-report.md) puede ver el número de minutos consumidos durante el mes en curso en la organización.
     
 ## <a name="related-topics"></a>Temas relacionados
-[Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
  

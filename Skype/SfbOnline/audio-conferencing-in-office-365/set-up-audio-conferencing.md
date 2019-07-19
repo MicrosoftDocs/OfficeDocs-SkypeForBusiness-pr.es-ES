@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas en conferencia. '
-ms.openlocfilehash: 9406c0ba680dd7eb6be52e2055041677913c3315
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494200"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792177"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar audioconferencias para Skype empresarial
 
@@ -94,7 +94,7 @@ A continuación, deseas [configurar los idiomas del operador automático para la
 
 ![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**:
 
-1. Vaya al centro > de administración de **Office 365**administración de los**centros** > de administración de**Teams** > **Legacy**.
+1. Vaya al centro de administración > **centros** > de administración de**Teams** > **portales heredados**.
 2.  > Seleccione ******Microsoft Bridge**. 
 3. Seleccione el número de teléfono del puente de conferencia, seleccione **establecer idiomas**y, a continuación, elija el idioma predeterminado.
 

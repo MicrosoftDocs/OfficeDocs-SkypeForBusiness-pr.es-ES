@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe de grupos de minutos RTC de Skype empresarial para ver el número de minutos consumidos durante el mes actual de su organización.
-ms.openlocfilehash: bfbc21453732d338c4d0cf6355903df344c826f4
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 8d7441f74600557ac93051daf206af3f1f1842f9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494019"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793094"
 ---
 # <a name="pstn-minute-pools-report"></a>Informe de grupos de minutos de RTC
 
@@ -37,13 +37,13 @@ Consulte la [información general](https://support.office.com/article/0d6dfb17-8
 Este informe, junto con los otros informes de Skype empresarial, le ofrece detalles sobre la actividad en toda su organización. Estos detalles son muy útiles para investigar, planear y tomar otras decisiones empresariales para su organización y para configurar créditos de [comunicaciones](/microsoftteams/what-are-communications-credits) .
   
 > [!NOTE]
-> Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
+> Puede ver todos los informes de Skype empresarial cuando inicia sesión como administrador en el centro de administración de Microsoft 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Cómo acceder al informe de grupos de minutos RTC de Skype empresarial
 
 ![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
-- Vaya al centro de administración de **Office 365**centro de > **Administración** > **de administración de Skype empresarial** > **informes** > de**grupos de minutos RTC**.
+- Vaya al centro de administración > **centros** > de administración > **** > **centro de administración de Skype empresarial informa de****grupos de minutos RTC**.
     
 > [!NOTE]
 > Según la suscripción de Office 365 que tenga, es posible que no vea todos los detalles que se muestran aquí. 
@@ -62,7 +62,7 @@ Este es el aspecto del informe.
 ![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de los grupos de minutos por licencia (capacidad) y ubicación de uso. 
 *    **Capacidad** es el plan de servicio/licencia usado para la llamada. Los planes de servicio/licencia que puede ver en este informe son:
      * Plan de llamadas MCOPSTN1-nacionales (3000-minutos planes de Europa de Estados Unidos/1.200 minutos
-     * Plan de llamadas internacionales de MCOPSTN2-& a partir del cual usted verá un grupo nacional (3000-minute Estados Unidos/Canadá/PR, 1200-minute países de Europa) y un pool Internacional (600-minutos). Se alcanza el límite de minutos cada vez que se alcanza el límite nacional o internacional en el mes del calendario. 
+     * MCOPSTN2-nacional & plan de llamadas internacionales desde el cual usted verá un grupo nacional (3000-minute Estados Unidos/Canadá/PR, 1200-minute países de Europa) y un grupo internacional (600-minutos). Se alcanza el límite de minutos cada vez que se alcanza el límite nacional o internacional en el mes del calendario. 
      * Plan de llamadas MCOPSTN5-nacionales (plan de llamadas de 120 minutos)
      * Plan de llamadas MCOPSTN6-nacionales (plan de llamadas de 240 minutos)
      * MCOMEETADD: audioconferencia
@@ -93,7 +93,7 @@ Este es el aspecto del informe.
 - [Informe de detalles de sesión de Skype empresarial](session-details-report.md) Puede ver los detalles de las experiencias de llamadas de los usuarios individuales.
     
 ## <a name="related-topics"></a>Temas relacionados
-[Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividades en el centro de administración](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 
   
    

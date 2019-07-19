@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Personalice las invitaciones a reuniones de Skype con logotipos gráficos, URL de ayuda y oficio y texto de pie de página. '
-ms.openlocfilehash: 6d16bf7f7d41f2706ccefd217b2d810c37a9d0f3
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: e43db5deeabcfa2db3e64423357d60b2723d606f
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494123"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792835"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar invitaciones a reuniones
 
@@ -49,7 +49,7 @@ Como administrador, puede asegurarse de que todas las invitaciones a reuniones d
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. En el centro de administración de Office 365, seleccione **centros** > de administración**Skype**empresarial.
+2. Desde el centro de administración, elija **centros** > de administración**Skype**empresarial.
     
 3. En el centro de administración de Skype empresarial, elija **reuniones en línea**. 
     

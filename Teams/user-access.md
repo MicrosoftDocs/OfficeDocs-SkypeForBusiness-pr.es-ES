@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0858373bebabdb9df6c8a00463ac5a3db1834843
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493758"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792138"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Administrar el acceso de los usuarios a Microsoft Teams
 =====================================
@@ -41,7 +41,7 @@ Las licencias de nivel de usuario de Teams se administran directamente a través
 
 Cuando una SKU de licencia como E3 o E5 se asigna a un usuario, automáticamente se asigna una licencia de Microsoft Teams y el usuario queda habilitado para Microsoft Teams. Los administradores pueden tener un control granular de todos los servicios y las licencias de Office 365, y la licencia de Microsoft Teams para un usuario específico o un grupo de usuarios puede habilitarse o deshabilitarse.
 
-![Captura de pantalla de la sección Licencias de productos en el Centro de administración de Office 365.](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
+![Captura de pantalla de la sección licencias de producto en el centro de administración.](media/Manage_user_access_to_Microsoft_Teams_image2.png) 
 
 Las licencias de usuario de Teams se pueden deshabilitar en cualquier momento. Una vez que la licencia se deshabilita, se evitará el acceso de los usuarios a Microsoft Teams y el usuario ya no podrá ver Teams en el iniciador de aplicaciones y la página de inicio de Office 365.
 

@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga más información acerca de las licencias de complemento, qué características obtendrá con cada licencia, cómo comprarlas para su producto y cómo usar su operador existente con ellas. Puede obtener información sobre precios y detalles del plan para Office 365, créditos de comunicación y planes de llamadas.
-ms.openlocfilehash: 19dc2b9714d3a2c5881b68d880891c8155b32fc1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21a8b26180e4279fa6e735eb362e5703ace209a2
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298582"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793075"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licencias complementarias de Microsoft Teams
 
@@ -74,7 +74,7 @@ Las opciones de licencias de complemento disponibles dependen de su plan 365 de 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Cómo ver los precios y comprar licencias de complementos
 <a name="bkmk_how"> </a>
 
- **Después de comprar un plan de Office 365, se pueden ver los precios y comprar complementos a través del Centro de administración de Office 365**.
+ **Después de comprar un plan de Office 365, verá precios y compre complementos en el centro de administración**.
 
 Según los complementos que quiera, recomendamos [comparar si le resulta más rentable](https://go.microsoft.com/fwlink/?linkid=844053) cambiar a un plan que ya incluya estas prestaciones.
 

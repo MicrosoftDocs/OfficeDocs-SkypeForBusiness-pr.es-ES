@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de qué información se envía automáticamente a los usuarios por correo electrónico cuando cambia la configuración de la Conferencia de acceso telefónico local en Skype empresarial online. '
-ms.openlocfilehash: acdc16a1af2666dcb84599fae31a910be83ac08f
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 4f1916778985012754cc436f37e76f0097dd49e9
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494290"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792439"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Correos electrónicos enviados a los usuarios cuando cambia la configuración en Skype empresarial online
 
@@ -152,9 +152,9 @@ You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.micros
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell cuenta con muchas ventajas en velocidad, simplicidad y productividad en comparación con solo usar el centro de administración de Office 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes: 
     
-  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

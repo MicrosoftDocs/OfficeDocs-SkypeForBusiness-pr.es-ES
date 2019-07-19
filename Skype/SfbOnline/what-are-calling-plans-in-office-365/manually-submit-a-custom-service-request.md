@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 84160b877ffa8420ea41e804d02ad5828e55ad8a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 498f69070e7dfed8d367effd83715fa3ee8001cd
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293787"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793358"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Enviar manualmente una solicitud de servicio personalizado
 
@@ -38,7 +38,7 @@ En algunos países o regiones, también tendrá que enviar manualmente una solic
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>Si necesita crear y enviar una solicitud de servicio, siga estos pasos:
 
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizaciones de 150 o menos, siga estos pasos.
-1. En el **Centro de administración de Office 365**, elija **¿Necesita ayuda**?
+1. En el centro de administración, elija ¿ **necesita ayuda**?
 2. En el panel **¿Necesita ayuda?**, díganos con qué asunto necesita ayuda y seleccione **Obtener ayuda**.
 3. Si los resultados de la sección **View solutions** (Ver soluciones) no son de ayuda, elija una de las siguientes opciones:
     - **Let us call you (Recommended)** (Permítanos llamarle [recomendado]): confirme su número de contacto y pulse **Llamarme**. El tiempo de espera previsible para la devolución de llamada se indica en el panel **¿Necesita ayuda?**.
@@ -48,7 +48,7 @@ En algunos países o regiones, también tendrá que enviar manualmente una solic
 
 1. Inicie sesión como administrador en Office 365 con su cuenta profesional o educativa.
     
-2. En el Centro de administración de Office 365, en el panel de navegación izquierdo, haga clic en **Soporte** > **New service request** (Nueva solicitud de servicio).
+2. En el centro de administración, en el navegación de la izquierda, haga clic en **admitir** > **nueva solicitud de servicio**.
     
 3. En **Service requests** (Solicitudes de servicio), haga clic en **Agregar**.
     
@@ -98,7 +98,7 @@ En algunos países o regiones, también tendrá que enviar manualmente una solic
 8. Revise la información y, a continuación, haga clic en **Submit request** (Enviar solicitud).
     
 > [!TIP]
-> El número de referencia se mostrará en la página **Service requests** (Solicitudes de servicio) del Centro de administración de Office 365.
+> El número de referencia se mostrará en la página **solicitudes de servicio** del centro de administración de Microsoft 365.
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>¿Qué más tiene que saber sobre la portabilidad de números?
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la integración entre Office Web Apps Server y Skype empresarial Server para habilitar las presentaciones de PowerPoint para conferencias web.'
-ms.openlocfilehash: e657820a7a44197a344f23a67fdcd42ce0e593a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7be69b24b2ae64763b1f9b0d324b812b60f69434
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289114"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793292"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Configurar la integración con Office Web Apps Server en Skype empresarial Server
  
@@ -50,7 +50,7 @@ Realice lo siguiente para agregar Office Web Apps Server a su topología:
     
    - Si Office Web Apps Server está implementado fuera del firewall interno, seleccione la opción **Office Web Apps Server se implementa en una red externa (esto es, perimetral/Internet)**.
     
-7. Haga clic en **Aceptar** en el cuadro de diálogo **Definir nuevo servidor de Office Web Apps** y, después, haga clic en **Aceptar** en el cuadro de diálogo **Editar propiedades**. La dirección URL de detección de Office Online aparecerá como una de las asociaciones del grupo de servidores.
+7. Haga clic en **Aceptar** en el cuadro de diálogo **Definir nuevo servidor de Office Web Apps** y, después, haga clic en **Aceptar** en el cuadro de diálogo **Editar propiedades**. La dirección URL de detección aparecerá en la lista como una de las asociaciones de la agrupación.
     
 Este proceso deberá repetirse con cada grupo de servidores que tenga que asociarse a Office Web Apps Server.
   

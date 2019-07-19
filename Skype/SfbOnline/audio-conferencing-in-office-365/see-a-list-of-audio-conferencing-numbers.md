@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo buscar sus números de conferencias de acceso telefónico local desde Skype empresarial online. '
-ms.openlocfilehash: 220d266796dc52832e3f10fe45ca6e9f2e999e14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c183fa177f886717a52d4020bffbf06881527f35
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299053"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792449"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver una lista de números de Audioconferencia de Skype for Business Online
 
@@ -53,7 +53,7 @@ Puede ver [configurar los números de teléfono incluidos en los invitados](set-
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Vaya al centro de administración > **Skype empresarial**.
     
 3. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda **** > , vaya a**Microsoft Bridge**y, a continuación, haga lo siguiente:
     
@@ -75,9 +75,9 @@ Puede ver [configurar los números de teléfono incluidos en los invitados](set-
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell cuenta con muchas ventajas en velocidad, simplicidad y productividad en comparación con solo usar el centro de administración de Office 365, como cuando realiza cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, por ejemplo, cuando está realizando cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los temas siguientes:
     
-  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [Una introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     

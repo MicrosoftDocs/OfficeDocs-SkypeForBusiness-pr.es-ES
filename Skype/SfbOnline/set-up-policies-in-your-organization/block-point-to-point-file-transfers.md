@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: En Skype empresarial online, tiene la capacidad de controlar las transferencias de archivos punto a punto (P2P) como parte de la configuración de directivas de conferencia existentes. Sin embargo, esto permite o bloquea las transferencias de archivos para los usuarios, ya sea que transfieran archivos a un usuario que está dentro de la misma organización o a un usuario federado de otra organización. Siguiendo los pasos que se indican a continuación, puede bloquear las transferencias de archivos P2P con organizaciones o socios federados.
-ms.openlocfilehash: 248b541a4d57c3b51a48694d3194432cc207db06
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 8e9f2bba654f2e44e4e7360f46730a6e1d2d9426
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221193"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35792518"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquear las transferencias de archivos punto a punto
 
@@ -112,7 +112,7 @@ Puede aplicar esta función a un usuario creando una nueva Directiva y concedien
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

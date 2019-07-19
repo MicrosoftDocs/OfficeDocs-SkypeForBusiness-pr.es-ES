@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: "Learn about add-on licenses, what features you'll get with it, how to buy them for your product, and how to use your existing carrier with them. You can get information on pricing and plan details for Office 365, Communication Credits, and Calling plans. "
-ms.openlocfilehash: fb57fbd44021c28350723c180e16637f41a5cf66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 748a08d088e3637566b6c6c1636bbf7a513f1f4d
+ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273676"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35793228"
 ---
 # <a name="skype-for-business-add-on-licensing"></a>Licencias complementarias de Skype Empresarial
 
@@ -81,7 +81,7 @@ Para obtener una lista detallada de las características y comparaciones de cada
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Cómo ver los precios y comprar licencias de complementos
 <a name="bkmk_how"> </a>
 
- **Después de comprar un plan de Office 365, se pueden ver los precios y comprar complementos a través del Centro de administración de Office 365**.
+ **Después de comprar un plan de Office 365, verá precios y compre complementos en el centro de administración de Microsoft 365**.
 
 Según los complementos que quiera, recomendamos [comparar si le resulta más rentable](https://go.microsoft.com/fwlink/?linkid=844053) cambiar a un plan que ya incluya estas prestaciones.
 
