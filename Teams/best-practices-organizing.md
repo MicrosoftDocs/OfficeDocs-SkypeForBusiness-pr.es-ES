@@ -4,7 +4,6 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
 description: Conozca las prácticas recomendadas para organizar equipos en Microsoft Teams de acuerdo con las necesidades de su organización.
@@ -15,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 281c7a1e28783f8b2a63e886064a8dc1c607513e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 8b8c368878d8decf056d463d74c159a00206eda8
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221138"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804702"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================
@@ -30,7 +29,7 @@ ms.locfileid: "35221138"
 
 Los equipos son colecciones de personas que reúnen un objetivo común. Este grupo de personas puede estar dentro de un departamento o de toda la organización. Lo que los reúne es el resultado de la conducción. Los miembros de un equipo pueden trabajar a un ritmo diferente o crear activos de forma diferente, pero en nuestra experiencia suelen colaborar rápidamente entre sí, un proceso que llamamos "alta velocidad de trabajo en equipo".  
 
-Antes de crear un equipo en nuestro producto, se recomienda pensar en el objetivo, el proyecto o los elementos de trabajo y los usuarios de la organización, que pueden ayudarle a entregarlo de manera colaborativa. Una vez que los haya identificado, agregue estas personas o grupos a un equipo para empezar a colaborar. Puesto que la pertenencia puede cambiar a lo largo del tiempo, es una buena idea designar varios propietarios para cada equipo. Para obtener más información, consulte [Administración de equipos](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
+Antes de crear un equipo en un producto, se recomienda pensar en el objetivo, el proyecto o los elementos de trabajo y los usuarios de la organización, que pueden ayudarle a entregarlo de manera colaborativa. Una vez que los haya identificado, agregue estas personas o grupos a un equipo para empezar a colaborar. Puesto que la pertenencia puede cambiar a lo largo del tiempo, es una buena idea designar varios propietarios para cada equipo. Para obtener más información, consulte [Administración de equipos](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Eche un vistazo a este vídeo breve para ver algunos ejemplos de cómo estructurar equipos entre organizaciones o de propósito único:
 
@@ -38,7 +37,7 @@ Eche un vistazo a este vídeo breve para ver algunos ejemplos de cómo estructur
 
 ## <a name="build-your-team-gradually"></a>Crear un equipo gradualmente
 
-Puede empezar con un pequeño número de miembros del equipo para recopilar ideas a medida que avanza y, a continuación, agregar personas o grupos nuevos a medida que avanza. Lo mejor de Microsoft Teams es que cuando se agregan nuevos grupos o personas, pueden ponerse al día rápidamente sobre lo que ya ha hablado, ya que las conversaciones y los archivos están disponibles para los usuarios, independientemente de Cuándo se unan. Intente evitar la creación de equipos diferentes que tengan el mismo conjunto de miembros, ya que este enfoque podría no proporcionar el enfoque deseado para proporcionar el proyecto o objetivo. Outlook es una herramienta estupenda para compartir esos tipos de comunicaciones de todo el grupo.
+Puede comenzar con un pequeño número de miembros del equipo para recopilar ideas a medida que se avanza, y después agregar personas o grupos nuevos según avanza el trabajo. Una de las grandes características de Microsoft Teams es que cuando se agregan nuevas personas o grupos, pueden ponerse al día rápidamente con lo que ya se ha hablado, ya que las conversaciones y los archivos están disponibles para los usuarios cuando se unen. Intente evitar crear equipos diferentes que tengan el mismo conjunto de miembros, ya que es posible que este enfoque no proporcione el contexto deseado para lograr el objetivo o completar el proyecto. Outlook es una herramienta ideal para compartir estos tipos de comunicaciones en todos los grupos.
 
 ## <a name="create-channels-to-focus-discussions"></a>Crear canales para enfocar discusiones
 
@@ -52,6 +51,8 @@ La guía de procedimientos recomendados es crear equipos con un conjunto más am
 
 De forma predeterminada, el **canal general** se crea cuando crea el equipo. Hay muchos propósitos útiles para este canal:
 
+Obtenga más información sobre cómo [trabajar en canales](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) con estas sugerencias rápidas para usuarios finales.
+
 - Utilícelo para compartir una descripción general de lo que el equipo quiere lograr, como una carta de proyecto o quién está en el equipo.
 - Utilícelo para la incorporación de nuevos miembros del equipo y otra información de alto nivel que un nuevo miembro del equipo pueda encontrar útil.
 - Úsela para los anuncios o configure el conector de noticias de SharePoint para publicar los informes de estado modernos en este canal.  
@@ -59,4 +60,6 @@ De forma predeterminada, el **canal general** se crea cuando crea el equipo. Hay
 
 Por el momento, no puede quitar ni quitar el favorito del canal general. Cuando asigne nombres a los canales, recuerde que los canales se ordenarán alfabéticamente después del canal general. En Teams con muchos canales, use la característica "un canal de favoritos" para controlar los canales que verá automáticamente cuando navegue al equipo. 
 
-Obtenga más información sobre cómo [trabajar en canales](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels) con estas sugerencias rápidas para usuarios finales.
+## <a name="consider-setting-up-moderation-in-your-channels"></a>Considere la posibilidad de configurar la moderación en los canales
+
+Los propietarios de equipo pueden activar la moderación de un canal para controlar quién puede iniciar publicaciones nuevas y responder a las entradas de ese canal. Al configurar la moderación, puede elegir uno o varios miembros del equipo para que sean moderadores. (Los propietarios de equipo son moderadores de forma predeterminada). Para obtener más información, vea [configuración y administración de la moderación de canales en Microsoft Teams](manage-channel-moderation-in-teams.md).
