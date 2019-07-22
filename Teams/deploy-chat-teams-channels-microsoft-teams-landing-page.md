@@ -4,30 +4,29 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Guía paso a paso para implementar equipos, canales, chat y aplicaciones de Microsoft Teams
+description: Guía paso a paso para desplegar equipos, canales, chat y aplicaciones de Microsoft Teams
 localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d28eaee5b413444c9123f2334f38d599b6f753a5
-ms.sourcegitcommit: 2af4c9e3a8374d9a6995e36604d8b0b8eff23b34
+ms.openlocfilehash: 9ad965c4979345b41f257507cb172b4e564f28cf
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35133910"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804804"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 
 Teams proporciona una experiencia de colaboración excelente para su organización y la configuración predeterminada parece funcionar para la mayoría de organizaciones. Este artículo le ayudará a decidir si cambiar alguna opción de la configuración predeterminada, en función del perfil y los requisitos empresariales de su organización, después, le guiará con cada cambio. Hemos dividido las opciones en dos grupos, comenzando por el conjunto principal de [cambios que es más probable que realice](#core-deployment-decisions). El segundo grupo incluye las [opciones adicionales](#additional-deployment-decisions) que puede que quiera configurar, según las necesidades de su organización.
 
 > [!TIP]
-> Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que impulsa la adopción de Teams.
+> Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en despliegue inicial de Teams. Añada otras [aplicaciones, bots y conectores](deploy-apps-microsoft-teams-landing-page.md) a medida que maneja la adopción de Teams.
 
 ## <a name="chat-deployment-prerequisites"></a>Requisitos previos a la implementación del chat
 
@@ -42,16 +41,16 @@ Antes de implementar Teams en toda la organización, dedique un tiempo para conf
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
-|¿Está preparada mi organización para implementar Teams?|Para responder a esta pregunta, consulte: <ul><li> [Comprobación de la preparación del entorno para Teams](environment-readiness.md)</li><li>[Preparar la red de la organización para Microsoft Teams](prepare-network.md)</li><li>[Direcciones URL e intervalos de direcciones IP de Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planificar grupos de Office 365 al crear equipos en Microsoft Teams](plan-office-365-groups.md)|
+|¿Está preparada mi organización para implementar Teams?|Para responder a esta pregunta, consulte: <ul><li> [Comprobación de la preparación del entorno para Teams](environment-readiness.md)</li><li>[Preparar la red de la organización para Microsoft Teams](prepare-network.md)</li><li>[Direcciones URL e intervalos de direcciones IP de Office 365](office-365-urls-ip-address-ranges.md)</li><li>[Planificar grupos de Office 365 al crear equipos en Microsoft Teams](plan-office-365-groups.md)</li></ul>|
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
 
-Estas son las opciones de chat, equipos y canales que la mayoría de organizaciones decide cambiar (si la configuración predeterminada no sirve).
+Estas son las opciones de chat, equipos y canales que la mayoría de organizaciones quieren cambiar (si la configuración predeterminada no les funciona).
 
 ### <a name="teams-administrators"></a>Administradores de Teams
 
-Teams ofrece un conjunto de roles de administrador personalizados que pueden usarse para administrar Teams en su organización. Los roles proporcionan distintas funciones a los administradores. 
+Teams ofrece un conjunto de roles de administrador personalizados que pueden usarse para administrar Teams en su organización. Los roles proporcionan distintas funciones a los administradores.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
@@ -60,13 +59,23 @@ Teams ofrece un conjunto de roles de administrador personalizados que pueden usa
 |¿A quién se asignará el rol de Especialista de soporte en comunicaciones de Teams?||
 |||
 
+### <a name="teams-owners-and-members"></a>Miembros y propietarios de equipos
+
+Además de los roles de administrador, Teams le permite asignar a los propietarios roles de usuarios y miembros, y ofrecerles de forma selectiva las capacidades del moderador (si se ha configurado la moderación) para controlar quién puede realizar determinadas acciones dentro de un canal. La moderación le permite controlar quién puede iniciar nuevas publicaciones en un canal, agregar y quitar miembros del equipo como moderadores y controlar si los miembros del equipo pueden responder a los mensajes de canal existentes.
+
+|Pregúntese lo siguiente:|Acción |
+|------------|-------|
+|¿Quién debe asignarse a cada rol? | Para comparar las características de cada rol, consulte [asignar propietarios del equipo, moderadores y miembros del equipo en Microsoft Teams.](assign-roles-permissions.md)
+|¿Cómo asigno un rol de usuario? | Para asignar o cambiar un rol, consulte [Asignar un rol de usuario](assign-roles-permissions.md#assign-a-user-role).
+|¿Necesito controlar quién puede publicar y responder en un canal? | Para configurar la moderación [, consulte Configurar y administrar la moderación de canales en Microsoft Teams](manage-channel-moderation-in-teams.md).
+
 ### <a name="messaging-policies"></a>Directivas de mensajería
 
 Las directivas de mensajería controlan qué características de mensajería están disponibles para los usuarios en canales y chats de Teams. Por ejemplo, quién puede editar y eliminar los mensajes enviados, quién puede usar el chat, quién puede usar memes en conversaciones y mucho más. De forma predeterminada, se asigna la directiva de mensajería global a los usuarios y todas las características están **Activadas**. Puede usar la directiva global predeterminada o bien crear una nueva o más directivas de mensajería personalizadas para los miembros de su organización. 
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
-|¿Voy a personalizar la directiva de mensajería global?|Para obtener información sobre cómo usar el centro de administración de Microsoft Teams para cambiar la directiva global de mensajería o agregar una nueva directiva, vea [¿Cuáles son las directivas de mensajería de Teams?](messaging-policies-in-teams.md).|
+|¿Voy a personalizar la directiva de mensajería global?|Para obtener información sobre cómo usar el centro de administración de Microsoft Teams para cambiar la directiva global de mensajería o agregar una nueva directiva, vea [Administrar directivas de mensajería de Teams](messaging-policies-in-teams.md).|
 |¿Necesito varias directivas de mensajería?|Para crear y asignar una directiva de mensajería en PowerShell, consulte [Ejemplo de script de PowerShell: Crear un equipo y asignar una directiva de mensajería](scripts/powershell-script-teams-messaging-policy-edu.md).|
 |¿Cómo determino qué directiva de mensajería obtiene cada grupo de usuarios?|Para obtener información sobre los cmdlets CsTeamsMessagingPolicy, consulte [Set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps).|
 ||| 

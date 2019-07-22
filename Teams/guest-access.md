@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3f6e2c0b68f55521ad485fae86ae4c2b45bb11b
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 4af2c6870cb636703ae35a9d3c7c5c19bd2f3105
+ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221671"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "35804687"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================
@@ -37,7 +37,7 @@ El acceso de invitados es una de las características más solicitadas por los c
 
 El acceso de invitados permite que los equipos de su organización puedan colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales en uno o más espacios empresariales. Todo contacto que tenga una cuenta de correo electrónico empresarial o de consumidor (como Outlook o Gmail) puede participar como invitado en Teams con acceso total a los chats, las reuniones y los archivos del equipo.
 
-El acceso de invitado se incluye con todas las suscripciones de Office 365 Empresa Premium, Office 365 Enterprise y Office 365 Educación, sin necesidad de licencias adicionales. Puede tener un máximo de 5 invitados por licencia de usuario en su espacio empresarial. Para obtener más información sobre las licencias, consulte [Guía de concesión de licencias de colaboración B2B de Azure Active Directory](https://docs.microsoft.com/es-ES/azure/active-directory/b2b/licensing-guidance). 
+El acceso de invitados está incluido en numerosas suscripciones de Office 365 sin necesidad de licencias adicionales. Para obtener más información sobre las licencias, consulte [Guía de concesión de licencias de colaboración B2B de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 El acceso de invitado es una configuración a nivel de espacio empresarial de Microsoft Teams y se encuentra desactivada de forma predeterminada. El acceso de invitado está sujeto a los límites de servicio de Azure AD y de Office 365.
 
