@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a3331537bf2966bbff70922611346cdc3603ae3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
+ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222041"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "35818179"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
@@ -37,7 +37,7 @@ Sin alguna forma de QoS, es posible que vea los siguientes problemas de calidad 
 
 La manera menos compleja de solucionar estos problemas es aumentar el tamaño de las conexiones de datos, tanto internamente como fuera de Internet. Como esto suele ser prohibitiva, QoS proporciona una forma más eficaz de administrar los recursos que tiene en lugar de agregar nuevos recursos. Para solucionar problemas de calidad completa, debería usar QoS en la implementación y, a continuación, agregar conectividad solo cuando sea absolutamente necesario.
 
-Para que QoS sea efectivo, tendrá que aplicar la configuración coherente de QoS de principio a fin en su organización (esto incluye a todos los equipos de usuario, conmutadores de red y routers a Internet), porque cualquier parte de la ruta de acceso que no admita las prioridades de QoS puede degradar el calidad de las llamadas, video y pantalla compartida.
+Para que QoS sea efectivo, tendrá una configuración coherente de QoS que se aplicará de principio a fin en la organización, porque cualquier parte de la ruta que no admita las prioridades de QoS puede degradar la calidad de las llamadas, los vídeos y los recursos compartidos de pantalla. Esto incluye aplicar la configuración a todos los equipos o equipos de los usuarios, conmutadores de red, routers a Internet y el servicio en línea de Teams.
 
 _Ilustración 1. La relación entre las redes de una organización y los servicios de Office 365_
 
