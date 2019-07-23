@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumen: Elija su topología para Skype empresarial Server. Obtenga más información sobre Server collocation para Skype empresarial Server.'
-ms.openlocfilehash: 064dc9d4f7f5d2a5ac722b3cfae928501b217822
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 00154c754292fd960942f0f0da7f95bb6b5b1c19
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418014"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820995"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos sobre la topología de Skype empresarial Server
 
@@ -238,8 +238,8 @@ Este es el área con diferencias reales entre las implementaciones del servidor 
 
 Puesto que SQL Server Express se encuentra en el servidor Standard Edition y no se puede mover, esto es bastante sencillo. Además, si implementas un servidor de chat persistente en un servidor Standard Edition, también puedes Collocate el chat persistente y la base de datos de cumplimiento de chat persistente en el servidor Standard Edition, pero no es necesario.
 
-    > [!NOTE]
-    > Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019. The same functionality is available in Teams. For more information, see [Getting started with your Microsoft Teams upgrade](/microsoftteams/upgrade-start-here). If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams, or to continue using Skype for Business Server 2015.
+> [!NOTE]
+> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015.
 
 Estas no se pueden incluir en el servidor Standard Edition, pero pueden ir en un único servidor de base de datos propio:
 
@@ -289,7 +289,7 @@ El recurso compartido de archivos puede estar en un servidor separado o puede co
 - Base de datos de cumplimiento de chat persistente
 
 > [!CAUTION]
-> Tenga en cuenta que, si bien puede colocar el recurso compartido de archivos en estos servidores, es fundamental que tenga en cuenta que no lo recomendamos. Si ha colocado el recurso compartido de archivos con cualquier otro rol de servidor, asegúrese de que está supervisando el espacio en disco y los problemas de rendimiento de forma periódica.
+> Tenga en cuenta que, si bien puede colocar el recurso compartido de archivos en estos servidores, es fundamental que tenga en cuenta que no lo recomendamos. Si collocating el uso compartido de archivos con cualquier otro rol de servidor, asegúrese de que está supervisando los problemas de espacio en disco y rendimiento de forma periódica.
 
 ### <a name="keep-in-mind"></a>Recordatorio
 

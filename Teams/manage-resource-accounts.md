@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Más información sobre la administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: ddea11e7aa3bc9287313b02db27d095c49528718
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: 1dd3fd8c7a9300b9c887cbc0c3cd3611b378d0c9
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818219"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821065"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -213,16 +213,16 @@ Para las implementaciones híbridas con Skype empresarial Server:
 
    [Planear los operadores automáticos en la nube](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
-   [Planear las colas de llamadas en la nube](/SkypeforBusiness/hybrid/plan-call-queue.md)
+   [Planear las colas de llamadas en la nube](/SkypeforBusiness/hybrid/plan-call-queue)
    
-   [Configurar cuentas de recursos locales](/SkypeForBusiness/hybrid/configure-onprem-ra.md)
+   [Configurar cuentas de recursos locales](/SkypeForBusiness/hybrid/configure-onprem-ra)
 
 
 Para las implementaciones de Teams o Skype empresarial online:
 
    [¿Qué son los operadores automáticos en la nube?](what-are-phone-system-auto-attendants.md)
 
-   [Configurar un operador automático en la nube](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+   [Configurar un operador automático en la nube](/microsoftteams/create-a-phone-system-auto-attendant)
 
    [Ejemplo de pequeña empresa: configurar un operador automático](/microsoftteams/tutorial-org-aa)
 

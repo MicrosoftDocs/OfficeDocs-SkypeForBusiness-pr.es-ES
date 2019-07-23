@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1b85e9b8a2d3592c94a9275a8d6b7873b7551c3
-ms.sourcegitcommit: 6d30a0b0eb51a20aef93833bb7c0e466f015b3c6
+ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "35818179"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35820988"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
@@ -43,7 +43,7 @@ _Ilustración 1. La relación entre las redes de una organización y los servici
 
 ![Ilustración de la relación entre redes y servicios] (media/Qos-in-Teams-Image1.png "Relación entre las redes de una organización y los servicios de Office 365: red local y dispositivos Conéctese a una red de interconexión que, a su vez, se conecta con los servicios de conferencia de nube y voz de nube de Office 365.")
 
-En la mayoría de los casos, la red que conecta su empresa con la nube será una red no administrada, en la que no podrá establecer opciones de QoS de manera fiable. Una opción disponible para tratar QoS de extremo a extremo es [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), pero le recomendamos que implemente QoS en su red local. Esto incrementará la calidad de las cargas de trabajo de comunicación en tiempo real en toda la implementación y aliviará chokepoints.
+En la mayoría de los casos, la red que conecta su empresa con la nube será una red no administrada, en la que no podrá establecer opciones de QoS de manera fiable. Una opción disponible para tratar QoS de extremo a extremo es [Azure ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/), pero recomendamos implementar QoS en su red local para el tráfico entrante y el saliente. Esto incrementará la calidad de las cargas de trabajo de comunicación en tiempo real en toda la implementación y aliviará chokepoints.
 
 ## <a name="verify-your-network-is-ready"></a>Comprobar que su red está lista
 

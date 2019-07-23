@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: 25cd466a221169c8e14569d121c5770364846f44
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
+ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062398"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35821073"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -114,7 +114,7 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 1.  En el centro de administración de Microsoft 365, vaya a**dominios** > de **configuración** > **Agregar dominio**.
 2.  En el cuadro **Escriba un dominio** , escriba el FQDN del dominio base. En el ejemplo siguiente, el dominio base es *customers.adatum.BIZ*.
 
-    ! [Captura de pantalla que muestra la página Agregar un dominio]] (media/Direct-Routing-2-SBC-Add-domain. png)
+    ![Captura de pantalla que muestra la página Agregar un dominio](media/direct-routing-2-sbc-add-domain.png)
 
 3. Haga clic en **Siguiente**.
 4. En el ejemplo, el inquilino ya tiene adatum.biz como un nombre de dominio verificado. El asistente no pedirá una verificación adicional porque customers.adatum.biz es un subdominio para el nombre que ya está registrado. Sin embargo, si agrega un FQDN que no se ha verificado antes, tendrá que pasar por el proceso de verificación. El proceso de verificación se [describe a continuación](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
