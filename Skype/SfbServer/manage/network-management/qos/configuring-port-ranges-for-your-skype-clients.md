@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este artículo se describe cómo configurar intervalos de puertos para sus clientes y configurar directivas de calidad de servicio en Skype empresarial Server para clientes que se ejecutan en Windows 10.
-ms.openlocfilehash: ce1690c295f1f5ed991780919370e5dbf5b5d6b1
-ms.sourcegitcommit: f7ec026accb0bb91ce62a9d5f24ac4b70a514c4e
+ms.openlocfilehash: 4d7999634864e222dd627ea3b46a3a3da5c67fe5
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35204017"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841472"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configuración de intervalos de puertos y una directiva de calidad de servicio para sus clientes en Skype empresarial Server
 
@@ -221,7 +221,7 @@ Para una directiva de transferencia de archivos:
 
 Las nuevas directivas que ha creado no tendrán efecto hasta que se actualice la Directiva de grupo en los equipos cliente. Aunque la directiva de grupo se actualiza periódicamente por sí misma, se puede forzar una actualización inmediata si se ejecuta el siguiente comando en cada equipo en el que se tenga que actualizar la directiva de grupo:
 
-    Gpudate.exe /force
+    Gpupdate.exe /force
 
 Este comando se puede ejecutar desde cualquier ventana de comandos que se ejecute con las credenciales del administrador. Para abrir una ventana de comandos con las credenciales del administrador, haga clic en **Inicio**, haga clic con el botón derecho en **Símbolo del sistema** y, a continuación, haga clic en **Ejecutar como administrador**.
 

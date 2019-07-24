@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3498c3eaf81b2b8be7513ec083957f89d3f7fd00
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 3142a30a5131ed18a76a130c420b3af214c5190b
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588082"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841379"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitados de Teams
 ==========================================
@@ -59,7 +59,6 @@ El acceso de invitados en Microsoft Teams usa Azure Active Directory (Azure AD) 
 
 Recuerde lo siguiente:
 
-- Para cada licencia de Azure AD de pagos que asigne a un usuario, los usuarios pueden invitar a un máximo de cinco usuarios invitados según el límite del usuario externo.
 - Los invitados son usuarios externos a su organización. Los empleados, los contratistas en el sitio, los agentes en el sitio, etc. no se pueden agregar como invitados. Lo mismo se aplica a tus afiliados.
 - Las licencias de invitados se cuentan en relación con la organización que invita. Considere esto cuando calcule el número de licencias que necesita.
 - Las licencias se cuentan en relación con su organización si los invitados invitados provienen de otro inquilino de Office 365 o si usan sus direcciones de correo electrónico personales.

@@ -9,7 +9,7 @@ ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.reviewer: karvell
+ms.reviewer: vinbel
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.externalaccess.overview
@@ -17,12 +17,12 @@ description: Su administrador de ti puede configurar el acceso externo para otro
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 706e4641824808cfea493f87a4d0c4b859a43369
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: dc8d737ada80e6cd7e62e795e820e47246c29715
+ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643158"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35841465"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 ======================================================
