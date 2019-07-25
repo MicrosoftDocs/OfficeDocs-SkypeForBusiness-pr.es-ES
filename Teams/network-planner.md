@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c05aa9cba7305b755d4e9290467c92cf71244095
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
+ms.openlocfilehash: 4ea6a4a5989df0a780f75220ec314439f7dafcbe
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35701570"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861883"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Usar el planificador de red para Microsoft Teams
 
-Bienvenido al organizador de la red. En pocos pasos, el planificador de redes puede ayudarle a determinar y organizar los requisitos de red para conectar los usuarios de Microsoft Teams en toda la organización. Cuando proporciona los detalles de red y el uso de Teams, Network Planner calcula los requisitos de red para implementar equipos y voz en la nube en las ubicaciones físicas de la organización.
+Planificador de redes es una herramienta nueva que está disponible en el centro de administración de Teams. Puede encontrarla en**** configuración > para **toda la organización**. En pocos pasos, el planificador de redes puede ayudarle a determinar y organizar los requisitos de red para conectar los usuarios de Microsoft Teams en toda la organización. Cuando proporciona los detalles de red y el uso de Teams, Network Planner calcula los requisitos de red para implementar equipos y voz en la nube en las ubicaciones físicas de la organización.
 
 ![Captura de pantalla de Network Planner](media/network-planner.png)
 

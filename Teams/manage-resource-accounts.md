@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Más información sobre la administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: 684e315c1db35b6a1e92854e248508e5d9d371b5
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: f1028e35bff7a2801a82e50e032c1b181200e00e
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841480"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861898"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -39,15 +39,17 @@ En Microsoft Teams o Skype empresarial online, cada cola de llamadas de sistema 
 
 ## <a name="overview"></a>Información general
 
-Suponiendo que su organización ya esté usando al menos una licencia de sistema telefónica, para asignar un número de teléfono a un servicio de sistema telefónico, tendrá que tratar las distintas dependencias de la siguiente secuencia:
+Suponiendo que su organización ya usa al menos una licencia de sistema telefónica, para asignar una cola de llamadas de sistema o un número de teléfono automático de teléfono, tendrá que tratar las distintas dependencias de la siguiente secuencia:
 
 1. Obtener un número de servicio.
 2. Obtener una licencia de usuario para el sistema telefónico gratis o de [usuario virtual](teams-add-on-licensing/virtual-user.md) para usar con la cuenta de recursos.
 3. Crear la cuenta de recursos. Para tener una cuenta de recursos asociada, es necesario un operador automático o una cola de llamadas.
 4. Asigne el sistema telefónico o un sistema telefónico (licencia de usuario virtual) a la cuenta de recursos.
-5. Asigne un número de teléfono de servicio a la cuenta de recursos a la que acaba de asignar licencias.
-6. Crear un servicio de sistema de teléfono (una cola de llamadas o un operador automático).
-7. Vincular la cuenta de recursos con un servicio.
+5. Asigne un número de teléfono de servicio a la cuenta de recursos a la que acaba de asignar licencias. 
+6. Crear una cola de llamadas de sistema telefónicas o un operador automático
+7. Vincular la cuenta de recursos con una cola de llamadas o un operador automático.
+
+
 
 Si el operador automático o la cola de llamadas están anidados bajo un operador automático de nivel superior, la cuenta de recursos asociada solo necesita un número de teléfono si desea tener varios puntos de entrada en la estructura de las colas de llamadas y los operadores automáticos.
 
@@ -56,11 +58,11 @@ Para redirigir las llamadas a las personas de su organización que estén conect
 > [!WARNING]
 > Para evitar problemas con la cuenta de recursos, siga estos pasos en este orden.
 
-Si el servicio del sistema telefónico que está creando va a estar anidado y no necesitará un número de teléfono, el proceso es el siguiente:
+Si la cola de llamadas del sistema telefónicas o el operador automático que está creando va a estar anidado y no necesitará un número de teléfono, el proceso es el siguiente:
 
 1. Crear la cuenta de recursos  
-2. Crear un servicio de sistema de teléfono
-3. Asociar la cuenta de recursos con un servicio de sistema de teléfono
+2. Crear una cola de llamadas de sistema telefónicas o un operador automático
+3. Asociar la cuenta de recursos a una cola de llamadas de sistema telefónico o un operador automático
 
 ### <a name="create-a-resource-account-with-a-phone-number"></a>Crear una cuenta de recursos con un número de teléfono
 
@@ -91,7 +93,7 @@ Un operador automático o una cola de llamadas anidados requerirán una cuenta d
 2. Configure una de las opciones siguientes:
    - [Operador automático de la nube](create-a-phone-system-auto-attendant.md)
    - [Cola de llamadas en la nube](create-a-phone-system-call-queue.md)
-3. Asignar la cuenta de recursos al servicio. Consulte [asignar/desasignar números de teléfono y servicios](#assignunassign-phone-numbers-and-services)
+3. Asignar la cuenta de recursos a la cola de llamadas o al operador automático. Consulte [asignar/desasignar números de teléfono y servicios](#assignunassign-phone-numbers-and-services)
 
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Crear una cuenta de recursos en el centro de administración de Microsoft Teams
@@ -120,7 +122,7 @@ A continuación, aplique una licencia a la cuenta de recursos en el centro de ad
 Para asignar un enrutamiento directo o un número híbrido a una cuenta de recursos, tendrá que usar PowerShell, consulte la sección siguiente.
 
 > [!IMPORTANT]
-> Si su cuenta de recursos no tiene una licencia de usuario virtual o de teléfono, una comprobación interna producirá un error cuando intente asignar el número de teléfono a la cuenta de recursos. No podrá asignar el número ni asociar la cuenta de recursos con un servicio.
+> Si su cuenta de recursos no tiene una licencia válida, una comprobación interna provocará un error al intentar asignar el número de teléfono a la cuenta de recursos. No podrás asignar el número ni asociar la cuenta de recursos con una cola de llamadas o un operador automático.
 
 ![Captura de pantalla de las opciones de asignar/quitar asignación](media/r-a-assign.png)
 

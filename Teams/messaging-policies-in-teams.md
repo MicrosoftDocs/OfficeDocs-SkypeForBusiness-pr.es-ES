@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 6bd340d6fe212af43828c19ccfd974fb159261e5
-ms.sourcegitcommit: 7d85a6784a21aec20dcaddd8940ffe95d532c2f4
+ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
+ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35134318"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "35861867"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -72,9 +72,9 @@ Use la siguiente configuración para cambiar la Directiva de mensajería global 
 - **Los propietarios pueden eliminar los mensajes enviados**  Use esta configuración para permitir a los propietarios eliminar los mensajes que los usuarios han enviado en el chat.
 - **Los usuarios pueden eliminar mensajes enviados** Use esta configuración para permitir a los usuarios eliminar los mensajes que enviaron en la conversación.
 - **Los usuarios pueden editar mensajes enviados** Use esta configuración para permitir a los usuarios editar los mensajes que enviaron en la conversación.
-- Confirmaciones de **lectura** Use esta opción para especificar si las confirmaciones de lectura están controladas por el usuario, en para todos o desactivadas para todo el mundo. La configuración predeterminada es controlada por el usuario. 
-    - **Controlado** por el usuario Esto significa que los usuarios pueden decidir si desean activar o desactivar las confirmaciones de lectura. La configuración predeterminada dentro de la aplicación está activada. Los usuarios pueden desactivarlo.
-    - **Activado para todos** Esto significa que todos los miembros del inquilino tendrán la característica activada, sin opción para desactivarla. 
+- Confirmaciones de **lectura** Las confirmaciones de lectura permiten notificar al remitente de un mensaje de chat cuando el destinatario ha leído su mensaje en 1:1 y los chats grupales son de 20 personas o menos. Las confirmaciones de lectura de mensajes no eliminan con certeza si se leyó un mensaje y mejoran la comunicación entre equipos.  
+    - **Controlado** por el usuario Esto significa que los usuarios pueden decidir si desean activar o desactivar las confirmaciones de lectura. La configuración predeterminada dentro de la aplicación está activada. Los usuarios pueden desactivarlo. 
+    - **Activado para todos** Esto significa que todos los miembros del inquilino tendrán la característica activada, sin opción para desactivarla. Tenga en cuenta que al usar la configuración **activado para todos** , la única forma de establecer confirmaciones para todo el inquilino es que solo tenga una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para tener todas las directivas de mensajería en el inquilino usa la misma configuración para los recibos. La característica confirmaciones de lectura es más eficaz cuando la característica está habilitada para **todos los usuarios**.
     - **Deshabilitado para todos** Esto significa que la característica está deshabilitada y que nadie en el inquilino tiene confirmaciones de lectura, ni puede activarlas. 
 <a name="bkchat"> </a>
 
