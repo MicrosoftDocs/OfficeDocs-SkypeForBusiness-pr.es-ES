@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
-ms.openlocfilehash: 06e6a5c7c601ae4aa4c0411844aaa368aeacea74
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 7e78c2f33a52d5848b8b996c65fefbeabdab4c3e
+ms.sourcegitcommit: dcc5c09e6b891fe44c9d2cf384fe7ef678e7768c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614255"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "35911963"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
@@ -64,15 +64,14 @@ Las salas de Microsoft Teams pueden escalar a diferentes tamaños de sala a trav
 
 |Consola|Processor|MEMORIAS|Disco|
 |:-----|:-----|:-----|:-----|
-|[Crestron Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Núcleo de i7|GB |GB|
-|[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/All-In-One-Meeting-Solutions/Crestron-Mercury-Accessories/CCS-UC-1-T)|Núcleo de i7|GB |GB |
+|[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Núcleo de i7|GB |GB |
 [Crestron Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Núcleo de i7|GB |GB|
+|[Crestron Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Núcleo de i7|GB|GB|
 |[HP Elite Slice para salas de reuniones G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Núcleo de i5  |GB  |GB  | 
 |[HP Elite Slice G2 audio preparado con salas de Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Núcleo de i5 |GB |GB | 
 |[Concentrador ThinkSmart de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Núcleo de i5  |GB  |GB  |  
-|[Toque + NUC de Logitech](https://www.logitech.com/en-us/product/tap?crid=1691)|Núcleo de i5|GB |GB |
+|[Toque Logitech](https://www.logitech.com/en-us/product/microsoft-rooms)|Núcleo de i5|GB |GB |
 |[Yealink MVC800](https://www.yealink.com/products_125.html)|Núcleo de i5|GB|GB|
-|[Controlador táctil Logitech TAP para salas de reuniones de vídeo](https://www.logitech.com/en-us/product/tap) |Núcleo de i5  |GB  |GB  |  
 |[Yealink MVC500](https://www.yealink.com/products_126.html)|Núcleo de i5|GB |GB |
 |||||
 
@@ -97,6 +96,7 @@ Las salas de Microsoft Teams pueden escalar a diferentes tamaños de sala a trav
 |[Polycom trío 8500/8800](https://www.polycom.com/voice-conferencing-solutions/conference-phones/trio.html) <br/> |5.7.2.3205|
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
+|[Sennheiser SP30](https://en-us.sennheiser.com/sp-30) <br/> |2.1.52 <br/>|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710) <br/> |1.8.0  <br/> |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
