@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: c759e80796397b9b1d7606277c8f834c83d7e8e7
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821073"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925484"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -58,6 +58,7 @@ Para conocer los pasos detallados sobre cómo implementar y configurar SBCs para
 
 - **AudioCodes:** [Notas de configuración de enrutamiento directo](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuración del escenario de hospedaje de SBC, descrito en "conexión de SBC AudioCodes a Microsoft Teams Direct Routing modelo Hosting Model." 
 - **Comunicaciones de la cinta de opciones:**  Consulte la guía de [configuración básica de Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) en la cinta de opciones de SBC de comunicaciones para obtener información sobre cómo configurar la serie de núcleos de la cinta SBCS y a esta página [mejor práctica de la cinta: configuración de operadores para Microsoft Teams enrutamiento directo de SBC Borde](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
+- **Te-Systems (anynode):**  Regístrese en la página de la [comunidad de los sistemas](https://community.te-systems.de/) para obtener documentación y ejemplos sobre cómo configurar SBC de anynode para varios inquilinos.
 
 > [!NOTE]
 > Preste atención a cómo configurar el encabezado "contacto". El encabezado de contacto se usa para buscar el inquilino del cliente en el mensaje entrante. 
