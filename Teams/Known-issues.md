@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 843a8f5f2ea960f711d1b4160186957b1c4b306e
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: 77e9d460867df89ea367d9ceae9c2bd64c168f78
+ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588090"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "35925337"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -250,6 +250,10 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |:-----|:-----|:-----|:-----|
 |Número de teléfono bloqueado|Número de teléfono bloqueado: al eliminar la cuenta del recurso antes de quitar el número de teléfono, se bloquea el número de teléfono.|Póngase en contacto con el soporte técnico de Microsoft para liberar el número de teléfono.|18/05/2019|
 
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|No se pueden configurar las llamadas sin responder para que lleguen al correo de voz en la aplicación de escritorio|Cuando un usuario se encuentra en modo de solo Teams, su buzón de Exchange se encuentra en una ubicación local y, si accede a **Configuración** > **Llamadas** en la aplicación de escritorio de Teams, no puede seleccionar la opción para reenviar las llamadas al correo de voz (llamadas sin responder o todas las llamadas). Si alguna de las opciones ya está configurada, al abrir la pestaña Llamadas en Configuración, se deshabilitará el reenvío al correo de voz.|Configure el reenvío al correo de voz con la aplicación móvil de Teams.|27/5/2019|
+
 
 ## <a name="provisioning"></a>Aprovisionamiento
 
@@ -345,3 +349,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |No se pueden mover, eliminar o cambiar el nombre de archivos después de la edición  <br/> |No se puede mover, eliminar o cambiar el nombre de un archivo inmediatamente después de editarlo en Teams. <br/> |Esto es un problema conocido actualmente y la solución es esperar algún tiempo antes de realizar los cambios administrativos.  <br/> |12/03/19  <br/> |
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Problema de interoperabilidad entre Symantec DLP y Teams <br/> |Los agentes de Endpoint de Symantec DLP pueden interferir con el proceso de Teams, lo que puede provocar un error en el inicio o cierre.  <br/> |Excluya (añada a la lista blanca) Teams.exe de los agentes de Endpoint de Symantec DLP tal y como se describe en este <a href="https://support.symantec.com/us/en/article.TECH220322.html">artículo de soporte técnico de Symantec</a>. <br/> |15/07/19  <br/> |
