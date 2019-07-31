@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 362e973bee33b8e556a84c0f03fd54d649d9ab14
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.openlocfilehash: d662dfd98aa4706d32a7e9ba3bec06d5e32ae975
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "35535879"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934402"
 ---
 ![Actualizar diagrama de viaje, enfatizar implementación e implementación] (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
 
@@ -35,12 +35,18 @@ Este artículo forma parte de la fase de implementación e implementación de su
 
 # <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir el viaje de actualización de Skype empresarial a teams
 
-De esta manera, Microsoft Teams reemplazará a Skype empresarial online, por lo que deberá planear Teams ahora para que esté listo.
-
 Como cliente existente de Skype empresarial, la transición completa a teams puede llevar algún tiempo. Sin embargo, puede empezar a obtener el valor de Teams hoy, lo que permite a los usuarios usar Teams junto con Skype empresarial. Dado que hay alguna funcionalidad superpuesta entre las dos aplicaciones, le recomendamos que revise los modos disponibles de coexistencia y actualización para determinar qué ruta de acceso es adecuada para su organización. Por ejemplo, puede optar por habilitar todas las cargas de trabajo en ambas soluciones sin interoperabilidad. O bien, puede decidir administrar la experiencia del usuario, ya sea mediante la presentación gradual de las capacidades de Teams o la segmentación de grupos de usuarios para capacidades de selección, hasta que su organización esté lista para actualizar a todos los equipos. Use el resultado de su prueba piloto para evaluar el camino adecuado para la actualización de su organización.
 
 > [!IMPORTANT]
-> En este artículo se describen los distintos modos que le permiten administrar las modalidades de Skype empresarial y de los equipos disponibles para los usuarios. Al igual que con cualquier implementación, le recomendamos encarecidamente que [planee su plan previsto](pilot-essentials.md) con un grupo de usuarios seleccionado antes de actualizar su organización a teams. Recuerde que la presentación de nuevas tecnologías puede ser perjudicial para los usuarios. Tomarse el tiempo para evaluar la preparación de los usuarios e implementar un plan de comunicación y formación antes de implementar cualquiera de los modos descritos en el presente documento.
+> Skype empresarial online se retirará el 31 de julio de 2021, después del cual ya no será accesible ni compatible. Para maximizar los beneficios y asegurarse de que su organización tenga el tiempo adecuado para implementar su actualización, le recomendamos que comience su viaje a Microsoft Teams hoy.
+
+En este artículo se describen los distintos modos que le permiten administrar las modalidades de Skype empresarial y de los equipos disponibles para los usuarios. Al igual que con cualquier implementación, le recomendamos encarecidamente que [planee su plan previsto](pilot-essentials.md) con un grupo de usuarios seleccionado antes de actualizar su organización a teams. Recuerde que la presentación de nuevas tecnologías puede ser perjudicial para los usuarios. Tomarse el tiempo para evaluar la preparación de los usuarios e implementar un plan de comunicación y formación antes de implementar cualquiera de los modos descritos en el presente documento.
+
+> [!TIP]
+> Únase a los talleres interactivos y en vivo en los que compartimos orientación, procedimientos recomendados y recursos diseñados para la planificación e implementación de la actualización de lanzamiento.
+>
+>Únase primero a la [planificación de tu actualización](https://aka.ms/SkypeToTeamsPlanning) para comenzar.
+
 
 ## <a name="upgrade-journey-building-blocks"></a>Actualizar los bloques de creación del viaje
 
@@ -63,6 +69,9 @@ En la siguiente tabla se comparan los modos de coexistencia y actualización.
 |Skype empresarial con colaboración y reuniones de Teams |Implementación de Skype empresarial con un uso significativo de telefonía y llamadas empresariales que aún no cumplen los equipos<br><br>Necesidad o compromiso de Skype empresarial a largo plazo<br><br>Podría estar usando un servicio de reuniones de terceros|Comenzar la adopción de Teams rápidamente, que va más allá de la colaboración de grupos<br><br>Mejorar la experiencia de las reuniones de los usuarios<br><br>Se recomienda usar para organizaciones locales que deseen aprovechar las reuniones de Teams antes de prepararse para la actualización completa (generalmente debido a la versión local de Enterprise Voice). |No hay funcionalidades superpuestas<br><br>Reuniones superiores en Teams. Guía básica de características, experiencia de usuario y plataforma cruzada, calidad y fiabilidad<br><br>Experiencias "mejores" entre Skype empresarial y Teams<br><br>Usuarios de interoperabilidad solo en Teams.|La mensajería instantánea y el chat residirán en Skype empresarial (vinculado a las llamadas).|
 |Solo equipos |Teams solo es el destino final para todos los usuarios.<br><br>Algunos usuarios necesitan permanecer en Skype empresarial<br><br>Está actualizando sus usuarios de Skype empresarial online a teams a la vez que mantiene usuarios locales de Skype empresarial en Skype empresarial Server<br><br>Es posible que ya haya implementado usuarios en modo islas y esté listo para retirar Skype empresarial para grupos de usuarios |Reducir los costos variables en Skype empresarial (operaciones de servidor locales, contrato de outsourcing, etc.)<br><br>Vaya a la experiencia de Teams completa lo antes posible, al menos para algunos usuarios|Limita la confusión de usuarios al proporcionar a un solo cliente el trabajo con la interoperabilidad con usuarios de Skype empresarial solamente, Skype empresarial con la colaboración entre equipos, Skype empresarial con colaboración y reuniones de Teams|La interoperabilidad solo admite conversaciones y llamadas básicas entre Skype empresarial y Teams, y escenarios de escalado para el uso compartido de escritorio y llamadas y videollamadas de varios participantes|
 |Solo para Skype empresarial |Algunos usuarios necesitan permanecer en Skype empresarial<br><br>|Limita la confusión del usuario proporcionando solo un cliente para trabajar con<br><br>El usuario puede seguir participando en las reuniones de Team a las que se les invita|Seguir cumpliendo con los requisitos empresariales que actualmente solo Skype empresarial puede cumplir<br><br>Interoperabilidad con usuarios solo en Teams|La interoperabilidad solo admite conversaciones y llamadas básicas entre Skype empresarial y Teams, y escenarios de escalado para el uso compartido de escritorio y llamadas y videollamadas de varios participantes|
+
+> [!TIP]
+> Para ayudar a identificar el modo de actualización recomendado en función de las capacidades que desea habilitar en Teams mientras Skype empresarial aún está en uso, aproveche el [Asistente de actualización de Skype to Teams](https://aka.ms/SkypeToTeamsWizard).
 
 ## <a name="upgrade-journeys"></a>Actualizar viajes
 

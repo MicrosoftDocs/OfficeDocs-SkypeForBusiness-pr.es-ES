@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 118bae776f4bb3709d62dea1f384ccaa0707397b
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 731a6b30fe2476d180198e88f83e80f24c8e8227
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34493982"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934521"
 ---
 ![Actualizar diagrama de viaje, enfatizar implementación e implementación] (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
 
@@ -40,7 +40,7 @@ Este artículo forma parte de la fase de implementación e implementación de su
 Siga las instrucciones de este artículo si ha implementado Skype empresarial o Microsoft Lync local y su organización desea actualizarse a teams de forma selectiva, mediante el uso de varios modos de coexistencia. El primer paso es configurar la conectividad híbrida con el inquilino de Office 365 y, a continuación, trasladar a los usuarios a Skype empresarial online y asignarles el modo de coexistencia y actualización apropiado. 
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> Skype empresarial online se retirará el 31 de julio de 2021, después del cual ya no será accesible ni compatible. Para maximizar los beneficios y asegurarse de que su organización tenga el tiempo adecuado para implementar su actualización, le recomendamos que comience su viaje a Microsoft Teams hoy. Recuerde que una actualización correcta alinea la disposición de los usuarios y técnicos, así que asegúrese de aprovechar las instrucciones de este documento a medida que navega por Microsoft Teams.
 
 ## <a name="step-1-deploy-hybrid-connectivity"></a>Paso 1: implementar conectividad híbrida 
 

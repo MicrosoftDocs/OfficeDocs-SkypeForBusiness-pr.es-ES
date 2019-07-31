@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b1cfb8302476983eeb5be180307bc143eb281dc
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 9994bb8efa862cc66cb1e081d0ca8136b4fb1871
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548512"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934505"
 ---
 ![Actualizar diagrama de viaje, enfatizar implementación e implementación] (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
 
@@ -39,11 +39,11 @@ Este artículo forma parte de la fase de implementación e implementación de su
 Siga las instrucciones de este artículo si ha implementado totalmente Skype empresarial online y desea actualizar los usuarios de Skype empresarial a teams. Puede actualizar los usuarios de forma selectiva o todos en función del recorrido de actualización que su organización haya elegido, asignando el modo de coexistencia y actualización adecuado a los usuarios.
 
 > [!IMPORTANT]
-> [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
+> Skype empresarial online se retirará el 31 de julio de 2021, después del cual ya no será accesible ni compatible. Para maximizar los beneficios y asegurarse de que su organización tenga el tiempo adecuado para implementar su actualización, le recomendamos que comience su viaje a Microsoft Teams hoy. Recuerde que una actualización correcta alinea la disposición de los usuarios y técnicos, así que asegúrese de aprovechar las instrucciones de este documento a medida que navega por Microsoft Teams.
 
 ## <a name="assign-the-coexistence-and-upgrade-mode"></a>Asignar el modo de coexistencia y actualización
 
-Puede actualizar los usuarios al modo de TeamsOnly asignando la instancia de UpgradeToTeams de TeamsUpgradePolicy, que se puede realizar mediante el centro de administración de Microsoft Teams o una sesión de Windows PowerShell remota de Skype empresarial. Puede hacer esto para cada usuario o a escala de inquilino si quiere ugprade todo el inquilino en un solo paso de tiempo. 
+Puede actualizar los usuarios al modo de TeamsOnly asignando la instancia de UpgradeToTeams de TeamsUpgradePolicy, que se puede realizar mediante el centro de administración de Microsoft Teams o una sesión de Windows PowerShell remota de Skype empresarial. Puede hacer esto para cada usuario o a escala de inquilino si quiere actualizar todo el inquilino en un solo paso de tiempo. 
 
 Para obtener más información, vea [configurar la coexistencia y la configuración de actualización](https://aka.ms/SkypeToTeams-SetCoexistence) y [TeamsUpgradePolicy: administración de la migración y](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)la coexistencia.
 
@@ -69,7 +69,7 @@ Siga estos pasos si desea actualizar gradualmente los usuarios a TeamsOnly.
 
 A menudo, las organizaciones pueden optar por actualizar sus organizaciones con las ondas de éxito de los usuarios.  Es posible que desee identificar estos usuarios en primer lugar para que pueda buscarlos fácilmente en el centro de administración de Microsoft Teams. Como alternativa, es posible que desee usar PowerShell para hacerlo de manera más eficaz. Una vez que haya identificado el conjunto de usuarios para una onda de actualización determinada, continúe con los pasos restantes.
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>Paso 2: establecer una notificación para los usuarios de la ola de ugprade actual (opcional)
+### <a name="step-2-set-notification-for-the-users-in-the-current-upgrade-wave-optional"></a>Paso 2: establecer una notificación para los usuarios de la onda de actualización actual (opcional)
 
 Si usa el centro de administración de Microsoft Teams, puede configurar TeamsUpgradePolicy para un máximo de 20 usuarios a la vez:
 1. En el centro de administración de Microsoft Teams, seleccione **usuarios**, busque y seleccione la casilla múltiple para un máximo de 20 usuarios que deberían actualizarse. 

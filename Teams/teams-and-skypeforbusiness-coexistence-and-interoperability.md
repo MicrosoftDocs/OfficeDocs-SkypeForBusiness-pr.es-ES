@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc51fb840cd22e291fd54c0fad2621a9b64496d3
-ms.sourcegitcommit: f735495849f02e0ea23c7d6f250e9c0656daeea1
+ms.openlocfilehash: e29e6f62167527dced8121abdd213b891de2349b
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "34933852"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934633"
 ---
 ![Actualizar el diagrama de viaje, enfatizando la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Etapas del viaje de actualización, con énfasis en la fase de definición del proyecto")
 
@@ -31,10 +31,14 @@ Este artículo forma parte de la fase de definición de proyecto de su viaje de 
 
 # <a name="understand-microsoft-teams-and-skype-for-business-coexistence-and-interoperability"></a>Comprender Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial
 
-Si su organización usa Skype empresarial hoy y usted desea comenzar a usar Teams con Skype empresarial, o desea comenzar la actualización a Teams, es importante que comprenda cómo coexisten las dos aplicaciones, Cuándo y cómo interoperan, y cómo administre la migración de los usuarios hasta su actualización eventual desde Skype empresarial a teams.
+Si su organización usa Skype empresarial hoy y está empezando a usar Teams con Skype empresarial — o está comenzando a actualizar a Teams, es importante que comprenda cómo coexisten las dos aplicaciones, Cuándo y cómo interoperan, y cómo administrar migración de los usuarios a la actualización eventual desde Skype empresarial a teams.
 
 > [!Tip]
-> Vea la siguiente sesión para obtener información sobre la coexistencia [y](https://aka.ms/teams-upgrade-coexistence-interop) la interoperabilidad
+> Mire la siguiente sesión para obtener información sobre la coexistencia [y](https://aka.ms/teams-upgrade-coexistence-interop)la interoperabilidad.
+>
+> Además, puede participar en talleres interactivos y en vivo en los que compartiremos orientación, procedimientos recomendados y recursos diseñados para la planificación e implementación de la actualización de lanzamiento.
+>
+> Únase primero a la [planificación de tu actualización](https://aka.ms/SkypeToTeamsPlanning) para comenzar.
 
 ## <a name="coexistence-of-teams-and-skype-for-business"></a>Coexistencia de Teams y Skype empresarial
 
@@ -81,12 +85,15 @@ Use este modo para presentar equipos en su entorno mientras continúa aprovechan
 
 Use este modo de coexistencia para acelerar la disponibilidad de las capacidades de reunión de los equipos de su organización, además de sus capacidades de colaboración, lo que permite a los usuarios aprovechar la experiencia de reuniones de equipos superiores: excelente calidad, capacidades innovadoras, como transcripción y traducción o desenfoque de fondo, y experiencia de usuario superior en todas las plataformas, incluidos los exploradores y los dispositivos móviles.
 
-Junto con el uso de Teams para las conversaciones basadas en equipos y canales en este modo, los usuarios usarán Teams para programar y dirigir sus reuniones. La conversación privada y las llamadas permanecen en Skype empresarial. Los equipos y Skype empresarial se benefician de una variedad de capacidades de "mejor conjunto", como la reconciliación de presencia, la retención o dessuspensión automática y la compatibilidad con dispositivos HID en ambas aplicaciones. 
+Junto con el uso de Teams para las conversaciones basadas en equipos y canales en este modo, los usuarios usarán Teams para programar y dirigir sus reuniones. Las llamadas y chats privados permanecen en Skype empresarial. Los equipos y Skype empresarial se benefician de una variedad de capacidades de "mejor conjunto", como la reconciliación de presencia, la retención o dessuspensión automática y la compatibilidad con dispositivos HID en ambas aplicaciones. 
 
 Este modo de coexistencia es especialmente útil para los usuarios de las implementaciones locales de Skype empresarial con telefonía IP empresarial, que probablemente tardarán un tiempo en actualizarse a teams y desean beneficiarse de las reuniones superiores de los equipos tan pronto como sea posible.
 
 > [!Note]
 > Cuando se implementan en modos de coexistencia específicos, los equipos [](#interoperability-of-teams-and-skype-for-business)y Skype empresarial pueden interoperar, lo que permite a los usuarios conversar con ellos y llamarse a ellos y garantizar que las comunicaciones permanezcan fluidas en toda la organización durante el viaje de actualización a teams. Los modos de coexistencia rigen la interoperabilidad. El modo de coexistencia del receptor determina si estará disponible la interoperabilidad. Por ejemplo, si el receptor está en un modo en el que la conversación solo está disponible en un cliente (por ejemplo, Teams), la interoperabilidad de chat estará disponible generalmente en caso de que el iniciador use el otro cliente (en este caso, Skype empresarial) para iniciar la conversación. Por otro lado, si el receptor está en un modo en el que la conversación está disponible en ambos clientes (modo Islas), la interoperabilidad no estará disponible para el chat. El destinatario recibirá el mensaje en el mismo cliente en el que el iniciador inició la conversación. Por lo tanto, la comunicación adecuada en el modo islas requiere la saturación de la adopción de equipos; es decir, todos los usuarios que usan y supervisan activamente a ambos clientes.
+
+> [!TIP]
+> Para ayudar a identificar el modo de actualización recomendado en función de las capacidades que desea habilitar en Teams mientras Skype empresarial aún está en uso, aproveche el [Asistente de actualización de Skype to Teams](https://aka.ms/SkypeToTeamsWizard).
 
 Para obtener más información sobre los modos de coexistencia, los requisitos previos y la administración, consulte [Guía de migración e interoperabilidad para las organizaciones que usan Teams junto con Skype empresarial](https://aka.ms/SkypeToTeams-Interop) y [establecer la coexistencia y la actualización de la configuración](https://aka.ms/SkypeToTeams-SetCoexistence).
 

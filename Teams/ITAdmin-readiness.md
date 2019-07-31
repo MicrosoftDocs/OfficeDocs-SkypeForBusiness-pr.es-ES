@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67da3bc45f87cabcb173d5ea58f3c1183e20ab30
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 5e03889c4bdc4ae7c1b34538cba28cc73da9b8a9
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804764"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934489"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -108,7 +108,6 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 <h2>Tutoriales</h2>
 
-- [Tutorial: Cambiar de Skype Empresarial a Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Tutorial: Reuniones en Teams](tutorial-meetings-in-teams.yml)
 - [Tutorial: Audioconferencia en Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Descripción de las llamadas en Teams](tutorial-calling-in-teams.yml)
@@ -117,4 +116,3 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 - [Habilitar el trabajo en equipo con Microsoft Teams](https://aka.ms/edx-cld267x-about)
 - [Especialista de adopción de servicio de Microsoft](https://aka.ms/AdoptionCert)
-- [Equipos en 30 formación interactiva](https://docs.microsoft.com/MicrosoftTeams/teams-in-30-interactive-training)

@@ -3,7 +3,6 @@ title: Acerca del marco de actualización
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 12/18/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
@@ -16,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e9f72e9381d15778b46ef18e49d27bbda4cacd1
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b3049933069b6f7aaa2fcc52f77c6f85f485f34e
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432979"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934569"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
@@ -125,5 +124,4 @@ Para ayudar a demostrar cómo puede desdoblar su viaje de actualización, hemos 
 > Nuestro contenido de upgrade está evolucionado continuamente. Asegúrese de consultar las instrucciones más recientes y lea el [blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)de Teams. 
 
 > [!Important]
-> Si es administrador de su inquilino de Office 365, puede empezar a ver las opciones de actualización en el cmdlet de PowerShell o en el centro de administración de Microsoft Teams. Disponer de la opción para actualizar no significa necesariamente que su organización esté lista para hacerlo. Para mejorar la experiencia del usuario, confirme que Teams cumple con los requisitos de colaboración y comunicación, compruebe que su red está preparada para admitir equipos e implemente el plan de preparación de los usuarios antes de actualizar los usuarios a teams.
- 
+> Skype empresarial online se retirará el 31 de julio de 2021, después del cual ya no será accesible ni compatible. Para maximizar los beneficios y asegurarse de que su organización tenga el tiempo adecuado para implementar su actualización, le recomendamos que comience su viaje a Microsoft Teams hoy. Recuerde que una actualización correcta alinea la disposición de los usuarios y técnicos, así que asegúrese de aprovechar las instrucciones de este documento a medida que navega por Microsoft Teams.

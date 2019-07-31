@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eaba703faecb0d77db4cf6b858e10af5ba9231e2
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 28a64be495417c07bf98cb5f42ae9068d98031a3
+ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432939"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35934577"
 ---
 ![Diagrama de viaje de actualización, resaltado de la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Etapas del viaje de actualización, con énfasis en la fase de definición del proyecto")
 
@@ -81,7 +81,7 @@ En la tabla siguiente se muestran ejemplos de OKRs y KSIs para las fases inicial
 
 | Manera | Resultado de la clave | Tareas pendientes |
 |---|---|---|
-| Equipos piloto junto a Skype empresarial, en [modo de solo colaboración](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY18Q2:500-usuario piloto realizado y completado | <ul><li>Identificar usuarios piloto</li><li>Crear un plan de pruebas piloto</li><li>Habilitar a los usuarios piloto en Teams</li><li>Implementar la prueba piloto</li><li>Ejecutar una encuesta de comentarios de la prueba piloto</li><li>Medir el éxito de la prueba piloto</li></ul> |
+| Equipos piloto junto a Skype empresarial, en [modo de solo colaboración](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) | FY19Q2:500-usuario piloto realizado y completado | <ul><li>Identificar usuarios piloto</li><li>Crear un plan de pruebas piloto</li><li>Habilitar a los usuarios piloto en Teams</li><li>Implementar la prueba piloto</li><li>Ejecutar una encuesta de comentarios de la prueba piloto</li><li>Medir el éxito de la prueba piloto</li></ul> |
 | Ejecutar correctamente el modo de solo colaboración para todos los usuarios de la organización junto con Skype empresarial | <ul><li>60% de los usuarios de Skype para empresas usan Teams dentro de los 30 días posteriores al lanzamiento</li><li>La satisfacción del usuario con Teams es &#8805;80%</li></ul> | <ul><li>Diseñar y ejecutar un plan más amplio de comunicaciones y formación</li><li>Habilitar todos los usuarios para Teams en modo de solo colaboración</li><li>Realizar un seguimiento mensual</li><li>Recopilar comentarios del usuario</li><li>Supervisar la calidad o el estado de la red</li><li>Mitigar según sea necesario</li></ul> |
 
 | Tipo | Indicador clave de éxito | Cómo se miden | Criterios de éxito | Medidos |
@@ -119,3 +119,5 @@ Mientras define el alcance de la actualización, asegúrese de establecer una es
 Como punto de referencia, se proporciona una escala de tiempo de ejemplo para las fases anteriores a la actualización, actualización y posterior a la actualización del [viaje de actualización Pro](https://aka.ms/UpgradePro), que le recomendamos que ajuste según sea necesario para alinearse con las necesidades específicas de su organización.
 
 Después de completar las actividades descritas anteriormente, debe disponer de una base sólida para el proyecto. Continúa con tus actividades [técnicas](https://aka.ms/SkypeToTeams-TechnicalReadiness) de planificación y preparación de la [organización](https://aka.ms/SkypeToTeams-UserReadiness) .
+
+Recuerde: Skype empresarial online se retirará el 31 de julio de 2021. Después de ese tiempo, el servicio de Skype empresarial online ya no será accesible ni compatible. Para maximizar los beneficios y asegurarse de que su organización tenga el tiempo adecuado para completar la actualización, le recomendamos que comience su viaje a Microsoft Teams hoy.
