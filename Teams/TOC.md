@@ -76,7 +76,7 @@
 ### [Usar la traducción de mensajes en línea](inline-message-translation-teams.md)
 ### [Usar la búsqueda de directorios enfocada de Microsoft Teams](teams-scoped-directory-search.md)
 
-### Análisis e informes de equipos en el Centro de administración de Microsoft Teams
+### Análisis e informes en el centro de administración de equipos 
 #### [Información general](teams-analytics-and-reports/teams-reporting-reference.md)
 #### [Informes de uso de Teams](teams-analytics-and-reports/teams-usage-report.md)
 #### [Informe de actividad de usuario de Teams](teams-analytics-and-reports/user-activity-report.md) 
@@ -626,7 +626,6 @@
 ### [Supervisar la calidad](upgrade-monitor-quality.md)
 ### [Mejorar los servicios](upgrade-enhance-my-service.md)
 
-## [Tutorial: Cambiar de Skype Empresarial a Teams](Tutorial-Journey-SkypeforBusiness-to-Teams.yml)
 ## [Preguntas frecuentes](FAQ-journey.md)
 ## Información adicional
 ### [Migración e interoperabilidad con Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md)
