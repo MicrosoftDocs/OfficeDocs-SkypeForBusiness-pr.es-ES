@@ -3,7 +3,6 @@ title: Administrar directivas de configuración de aplicación en Microsoft Team
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 06/21/2019
 ms.reviewer: lajin
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,13 +17,13 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre las directivas de configuración de aplicaciones en Microsoft Teams y cómo usarlas para anclar aplicaciones para personalizar equipos para los usuarios de su organización.
 f1keywords:
-- ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 7200dc64e620aebfb92da712d132c265b0f67b9e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+- ms.teamsadmincenter.appsetuppolicies.overview
+ms.openlocfilehash: 492083de2414d93d5fe6d051374f3525311f8740
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221809"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171084"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -45,8 +44,6 @@ Puede editar la configuración de la directiva global para incluir las aplicacio
 
 ![Captura de pantalla que muestra la página de directivas de configuración de la aplicación](media/app-setup-policies.png)
 
-[!INCLUDE [external-apps-m365-admin-center](includes/external-apps-m365-admin-center.md)]
-
 > [!NOTE]
 > Si tiene equipos para el ámbito educativo, es importante que sepa que la aplicación asignaciones está anclada de forma predeterminada en la directiva global aunque, en este momento, no la verá en la directiva global. Será la cuarta aplicación de la lista de aplicaciones ancladas en los clientes de Teams.
 
@@ -55,9 +52,9 @@ Puede editar la configuración de la directiva global para incluir las aplicacio
 Puede usar el centro de administración de Microsoft Teams para crear una directiva personalizada.
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de configuración**de las **aplicaciones** > de Teams.
-2. Seleccione **nueva Directiva**.
-3. Escriba un nombre descriptivo para la Directiva y, a continuación, haga clic en **agregar aplicaciones**.
-4. Active o desactive la **opción permitir la carga de aplicaciones personalizadas**, en función de si desea permitir que los usuarios carguen aplicaciones personalizadas en Teams.
+2. Haga clic en **Agregar**.
+3. Escriba un nombre y una descripción para la Directiva y, a continuación, haga clic en **agregar aplicaciones**.
+4. Active o desactive la **opción permitir la carga de aplicaciones personalizadas**, en función de si desea permitir que los usuarios carguen aplicaciones personalizadas en Teams. No podrá cambiar esta configuración si desea que las **aplicaciones personalizadas o de terceros** estén desactivadas en la [configuración](teams-app-permission-policies.md#manage-org-wide-app-settings) de la aplicación de toda la organización en directivas de permisos de la aplicación.
 5. En el panel **agregar aplicaciones ancladas** , busque las aplicaciones que desea agregar y, a continuación, haga clic en **Agregar**. También puede filtrar aplicaciones por directiva de permisos de aplicación. Cuando haya elegido la lista de aplicaciones, haga clic en **Agregar**.
 
      ![Captura de pantalla que muestra el panel agregar aplicaciones ancladas](media/app-setup-policies-add-apps.png)
@@ -71,7 +68,7 @@ Puede usar el centro de administración de Microsoft Teams para crear una direct
 Puede usar el centro de administración de Microsoft Teams para editar una directiva, incluyendo la directiva global (opción predeterminada de toda la organización) y las directivas personalizadas que cree.
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de configuración**de las **aplicaciones** > de Teams.
-2. Seleccione la Directiva que desea editar. 
+2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
 3. Desde aquí, realice los cambios que desee. Puede Agregar, quitar y cambiar el orden de las aplicaciones.
 4. Haga clic en **Guardar **.
 
@@ -79,20 +76,17 @@ Puede usar el centro de administración de Microsoft Teams para editar una direc
 
 Puede usar el centro de administración de Microsoft Teams para asignar una directiva personalizada a usuarios individuales o el módulo de PowerShell de Skype empresarial para asignar una directiva personalizada a grupos de usuarios, como un grupo de seguridad o un grupo de distribución.
 
-> [!IMPORTANT]
-> Le recomendamos usar PowerShell solo para asignar directivas a los usuarios. Use el centro de administración de Microsoft Teams para crear, editar y administrar directivas.
-
-### <a name="assign-a-custom-app-setup-policy-to-individual-users"></a>Asignar una directiva de configuración de aplicación personalizada a usuarios individuales
+### <a name="assign-a-custom-app-setup-policy-to-users"></a>Asignar una directiva de configuración de aplicación personalizada a los usuarios
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
-2. Junto a **directivas asignadas**, elija **Editar**.
-3. En **Directiva de configuración de aplicaciones**de Teams, seleccione la Directiva de configuración de aplicaciones que desea asignar y, a continuación, elija **Guardar**.
+2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**.
+3. En **Directiva de configuración**de la aplicación, seleccione la Directiva de configuración de la aplicación que desea asignar y, a continuación, haga clic en **aplicar**.
 
-    ![Captura de pantalla que muestra el panel editar directivas de usuario](media/app-setup-policies-assign-policy.png)
+Para asignar una directiva a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
 
-También puede asignar una directiva de configuración de aplicaciones a uno o varios usuarios de la siguiente manera:
+También puede hacer lo siguiente:
 
-1. Vaya al **Centro** > de administración de Microsoft Teams**directivas de configuración de las****aplicaciones** > Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de configuración**de las **aplicaciones** > de Teams.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
 3. Seleccione **administrar usuarios**.
 4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.

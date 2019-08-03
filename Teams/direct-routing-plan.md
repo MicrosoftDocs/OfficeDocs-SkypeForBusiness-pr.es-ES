@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: e90d8fc91e98063e7d63d8c87d3c4f515e6546c6
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
+ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768167"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "36166285"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -234,8 +234,8 @@ El intervalo de puertos de los procesadores multimedia se muestra en la tabla si
 Se aplica a los casos de omisión de medios y de no omisión
 
 La interfaz de enrutamiento directo en el segmento entre el controlador de borde de la sesión y el procesador de multimedia en la nube (sin omisión de medios) o entre el cliente de Teams y el SBC (si la omisión de medios habilitados) puede usar los códecs siguientes:
-- Omisión de contenido no multimedia (SBC a procesador de medios de nube): seda, G. 711, G. 722, G, 729
-- Omisión de medios (cliente de SBC a teams): seda, G. 711, G. 722, G, 729, OPUS
+- Omisión de contenido no multimedia (SBC a procesador de medios de nube): seda, G. 711, G. 722, G. 729
+- Omisión de medios (cliente de SBC a teams): seda, G. 711, G. 722, G. 729, OPUS
 
 Puede forzar el uso del códec específico en el controlador de borde de la sesión excluyendo los códecs no deseados de la oferta.
 

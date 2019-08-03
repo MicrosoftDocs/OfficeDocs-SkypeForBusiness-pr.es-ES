@@ -3,11 +3,10 @@ title: Configurar la administración para aplicaciones en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag, lajin
+ms.reviewer: ritikag, rarang
 description: Obtenga más información sobre las directivas y la configuración que puede usar para administrar aplicaciones de su organización en Microsoft Teams.
 localization_priority: Normal
 ms.custom:
@@ -18,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d66d410677b4cdf31d21777bfc8963f5c25168ad
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 141cff84c6c5304b40366cb89335d95d9c95daf6
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681845"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171424"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
@@ -32,9 +31,21 @@ ms.locfileid: "34681845"
 
 Las aplicaciones proporcionan herramientas para su organización para obtener más provecho de Teams. Estas aplicaciones combinan la funcionalidad de las pestañas, las extensiones de mensajería, los conectores y los bots proporcionados por Microsoft, creados por un tercero o por los programadores de su organización.
 
-En las **aplicaciones** de Teams del centro de administración de Microsoft Teams, puede establecer directivas para administrar las aplicaciones de su organización. Por ejemplo, puede configurar directivas para personalizar equipos al anclar las aplicaciones más importantes para los usuarios.
+En las **aplicaciones** de Teams del centro de administración de Microsoft Teams, puede establecer directivas para administrar las aplicaciones de su organización. Por ejemplo, puede configurar directivas para controlar qué aplicaciones están disponibles para los usuarios de Teams y puede personalizar Teams al anclar las aplicaciones más importantes para los usuarios.
 
-Mejoramos continuamente la experiencia de la aplicación en Teams y agregamos características y funcionalidades. A lo largo del tiempo, crearemos otras funcionalidades de administración de aplicaciones, así que vuelva a consultar la información más actualizada sobre las directivas de la aplicación.
+Mejoramos continuamente la experiencia de la aplicación en Teams y agregamos características y funcionalidades. A lo largo del tiempo, crearemos otras funciones de administración de aplicaciones, así que vuelve a consultar la información más actualizada sobre las directivas de la aplicación.
+
+## <a name="app-permission-policies"></a>Directivas de permisos de aplicaciones
+
+Con las directivas de permisos de aplicaciones, puede bloquear o permitir aplicaciones, ya sean de toda la organización o de usuarios específicos.  Cuando bloquea una aplicación, todas las interacciones con esa aplicación se deshabilitan y la aplicación no aparece en Teams para los usuarios.
+
+Por ejemplo, puede usar las directivas de permisos de aplicaciones para:
+
+- Deshabilite una aplicación que plantee un riesgo de permiso o pérdida de datos para su organización.
+- Implemente gradualmente nuevas aplicaciones integradas o personalizadas de terceros para usuarios específicos.
+- Simplifique la experiencia del usuario, especialmente cuando empiece a implementar equipos en toda la organización.
+
+Para obtener más información, vaya a [Administrar directivas de permisos de aplicaciones en Teams](teams-app-permission-policies.md).
 
 ## <a name="app-setup-policies"></a>Directivas de configuración de la aplicación
 
@@ -45,3 +56,11 @@ Estos son algunos ejemplos de cómo puede usar las directivas de configuración 
 - Anclar selectivamente las características principales de Teams, como chat, equipos y llamadas. Esto puede ayudar a garantizar que los usuarios participen en actividades específicas dentro de Teams.
 
 Para obtener más información, consulte [Administrar directivas de configuración de aplicaciones en Teams](teams-app-setup-policies.md).
+
+## <a name="custom-app-policies-and-settings"></a>Configuración y directivas de la aplicación personalizadas
+
+>[!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
+
+Teams permite a los desarrolladores de su organización crear, probar e implementar aplicaciones personalizadas para otros usuarios. Las aplicaciones personalizadas se pueden agregar a teams cargando un paquete de la aplicación en un archivo. zip directamente en un equipo o en el contexto personal. Puede usar las directivas de configuración de la aplicación para controlar quién puede cargar aplicaciones personalizadas en la organización. También puede establecer la configuración de toda la organización para controlar si los usuarios pueden interactuar con aplicaciones personalizadas específicas.
+
+Para obtener más información, vaya a [administrar la configuración y las directivas de la aplicación personalizada en Teams](teams-custom-app-policies-and-settings.md).
