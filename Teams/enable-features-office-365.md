@@ -3,7 +3,6 @@ title: Administrar la configuración de Microsoft Teams para su organización
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
@@ -17,50 +16,23 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4ec207061e53024b45b4e5a8e2ec9dfc20b13f1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: cd6a2193023b728710df8ad09c10fa0bd7280c94
+ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221539"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "36171652"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
-Todas las configuraciones de Teams se migrarán pronto al nuevo Centro de administración de Microsoft Teams. La única característica de Teams que se administra en el Centro de administración de Microsoft 365 es Aplicaciones. 
+## <a name="teams-apps-settings-in-the-microsoft-teams-admin-center"></a>Configuración de las aplicaciones de Teams en el centro de administración de Microsoft Teams.
 
-A menos que se indique lo contrario, el valor predeterminado para una opción es **Activado**.
+Puede administrar las aplicaciones de su organización en **Aplicaciones de Teams** en el centro de administración de Microsoft Teams. Por ejemplo, puede establecer las directivas para controlar qué aplicaciones están disponibles para toda la organización o para usuarios específicos de Teams, y puede personalizar Teams al anclar las aplicaciones que son más importantes para sus usuarios.
 
-## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>Configuración de todo el espacio empresarial en el Centro de administración de Microsoft 365
-
-Puede activar o desactivar aplicaciones para Teams en **Configuración de todos los inquilinos** en el Centro de administración de Microsoft 365. 
-
-Para editar **Configuración de todos los inquilinos** para Teams, vaya al Centro de administración de Microsoft 365 y seleccione **Configuración** > **Servicios y complementos** > **Microsoft Teams**. Si ha iniciado sesión como administrador de Office 365, puede acceder con este vínculo: 
-
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns  
-
-### <a name="apps"></a>Aplicaciones
-
-Las aplicaciones son pestañas, bots, conectores o cualquier combinación de estos tres, proporcionada por Teams (aplicaciones de primeros, también conocidas como aplicaciones predeterminadas) o por un tercero (también conocidas como aplicaciones externas). En **Aplicaciones**, puede habilitar y deshabilitar aplicaciones predeterminadas y configurar opciones para controlar aplicaciones externas. Para obtener información sobre la implementación de aplicaciones, bots, conectores y pestañas en Teams, lea [Aplicaciones, bots y conectores](https://docs.microsoft.com/microsoftteams/deploy-apps-microsoft-teams-landing-page).
-
-#### <a name="default-apps"></a>Aplicaciones predeterminadas
-
-Las aplicaciones predeterminadas (como Planner, Elogio y El Tiempo) las ofrece Teams. Si desea activar una aplicación, seleccione la casilla de verificación que corresponde a esa aplicación. Para desactivarla, anule la selección de dicha casilla.
-
-![Captura de pantalla de la sección Aplicaciones predeterminadas.](media/teams-manage-features-in-office365-image1.png "Captura de pantalla de la sección Aplicaciones predeterminadas")
-
-#### <a name="external-apps"></a>Aplicaciones externas
-
-Las aplicaciones externas las proporcionan terceros. Es posible configurar las siguientes opciones relacionadas con las aplicaciones externas.
-
-![Captura de pantalla de la sección Aplicaciones externas.](media/teams-manage-features-in-office365-image2.png "Captura de pantalla de la sección Aplicaciones externas, donde se muestran las opciones que se pueden activar o desactivar")
-
-- **Permitir aplicaciones externas en Microsoft Teams:** si esta opción se activa, los usuarios podrán agregar aplicaciones externas que estén disponibles para la organización. 
-
-- **Permitir instalación de prueba de aplicaciones externas**: si quiere activar algunas aplicaciones externas y desactivar otras, desactive esta opción y, a continuación, en la lista de aplicaciones externas, desactive aquellas a las que no desea que accedan los usuarios. Cuando esta opción esté activada, los miembros y los propietarios de los equipos que tengan autorización para ello podrán transferir localmente aplicaciones a Teams. 
-
-- **Habilitar nuevas aplicaciones externas de manera predeterminada**: si esta opción se activa, los usuarios podrán activar nuevas aplicaciones en cuanto estas se agreguen al catálogo de aplicaciones de Teams. Desactive esta opción si quiere controlar las aplicaciones nuevas. Si la desactiva, deberá recordar revisar periódicamente las nuevas aplicaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
+Para obtener más información, consulte [Configurar la administración de aplicaciones en Teams](admin-settings.md).  
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Configuración de Teams de toda la organización en el centro de administración de Microsoft Teams.
+
 Puede controlar la configuración de usuario en toda la organización en el Centro de administración de Microsoft Teams. Para editar la configuración de toda la organización, vaya al Centro de administración de Microsoft Teams y, después, seleccione **Configuración de toda la organización**. Puede configurar las opciones siguientes.
 
 ### <a name="external-access"></a>Acceso externo
