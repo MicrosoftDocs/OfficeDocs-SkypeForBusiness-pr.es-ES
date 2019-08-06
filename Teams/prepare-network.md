@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d203aefa4ba6991fbe6cf6a2ac463f4649f2aaa9
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 041c391f202ac42b782ffc200db9ad495961fa52
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198424"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206960"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 
@@ -58,10 +58,7 @@ La conexión del sitio de su empresa con el perímetro de la red de Microsoft in
 
 Los objetivos de rendimiento de red suponen un ancho de banda adecuado o un [plan QoS](QoS-in-Teams.md). En otras palabras, los requisitos se aplican directamente al tráfico de medios en tiempo real de Teams cuando la conexión de red está por debajo de una carga máxima.
 
-Para probar los dos segmentos de red, puede usar la [herramienta de evaluación de red](https://go.microsoft.com/fwlink/?linkid=855799). Esta herramienta se puede implementar tanto en el PC cliente directamente como en un equipo PC conectado al perímetro de la red del cliente. La herramienta incluye documentación limitada, pero una documentación más profunda sobre el uso de la herramienta puede encontrarse aquí: evaluación de la preparación para la [red](https://go.microsoft.com/fwlink/?linkid=855800). Al ejecutar esta evaluación de la disponibilidad de la red, puede validar la preparación de su red para ejecutar aplicaciones de medios en tiempo real, como Microsoft Teams.
-
-> [!NOTE]
-> Esta es la misma evaluación de disponibilidad de red que se recomienda ejecutar para los clientes que desean implementar Skype empresarial correctamente.
+Para obtener más ayuda con la preparación de la red para Teams, consulte [Network Planner](https://docs.microsoft.com/microsoftteams/network-planner).
 
 
 ## <a name="bandwidth-requirements"></a>Requisitos de ancho de banda

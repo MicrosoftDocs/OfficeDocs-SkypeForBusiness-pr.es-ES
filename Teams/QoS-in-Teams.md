@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc2344494ed853a992f205b6bdcfd4d702136f99
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: 0f6a48f11dafaff0bc0435e4a01561824c212936
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35820988"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36206968"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
@@ -101,7 +101,7 @@ El valor DSCP indica a la red configurada de forma correspondiente la prioridad 
 
 El tamaño relativo de los intervalos de puertos para las distintas cargas de trabajo de streaming en tiempo real establece la proporción del ancho de banda total disponible dedicado a esa carga de trabajo. Para volver a la analogía de los mensajes anteriores: una carta con un sello de "correo aéreo" puede tomarse dentro de una hora en el aeropuerto más cercano, mientras que un paquete pequeño marcado como "correo masivo" puede esperar un día antes de viajar por tierra en una serie de camiones.
 
-En la tabla siguiente se muestran las marcas de DSCP necesarias para los equipos con ExpressRoute y los puertos asociados para las colas de carga de trabajo. Estos intervalos pueden servir como un buen punto de partida para los clientes que no están seguros de qué usar en sus propios entornos. Para obtener más información, lea [Requisitos de QoS ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
+En la tabla siguiente se muestran las marcas de DSCP necesarias y los intervalos de puertos de medios correspondientes sugeridos que usan tanto Teams como ExpressRoute. Estos intervalos pueden servir como un buen punto de partida para los clientes que no están seguros de qué usar en sus propios entornos. Para obtener más información, lea [Requisitos de QoS ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-qos).
 
 _Intervalos de puerto iniciales recomendados_
 

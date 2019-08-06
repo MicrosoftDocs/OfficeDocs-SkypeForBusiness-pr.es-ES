@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de un operador automático de la nube con Skype empresarial Server 2019
-ms.openlocfilehash: 1a5f1aad4cd983f1f3839f47c54404d168ecf7f0
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "36160795"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207040"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planeación de operadores automáticos en la nube
 
@@ -56,14 +56,14 @@ Además de los requisitos anteriores, deben configurarse los siguientes requisit
    Para obtener más información, consulte [planear la conectividad híbrida entre Skype empresarial Server y office 365](plan-hybrid-connectivity.md) y [configurar la conectividad híbrida entre Skype empresarial server y Office 365](configure-hybrid-connectivity.md).
 
 - Si está asignando un número de teléfono al operador automático, necesitará una licencia de [Office 365 Enterprise E5](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing) .
-- Cree una [cuenta de recursos](/MicrosoftTeams/manage-resource-accounts.md) local para cada operador automático y asigne números de teléfono y licencias. 
+- Cree una [cuenta de recurso](/MicrosoftTeams/manage-resource-accounts.md) en línea o una [cuenta de recursos](configure-onprem-ra.md)local para cada operador automático y asigne números de teléfono y licencias. 
 
 ## <a name="migration-and-interoperability"></a>Migración e interoperabilidad
 
 Si tiene previsto implementar Skype empresarial Server 2019 o Exchange Server 2019, debe planear la migración detenidamente para garantizar la compatibilidad continua con los operadores automáticos. Tenga en cuenta lo siguiente:
 
 - Exchange Server 2019 ya no proporciona funcionalidad de mensajería unificada de Exchange
-- Mensajería unificada de Exchange en línea está en modo de retiro
+- La mensajería unificada de Exchange está en modo de retiro
 - Skype empresarial Server 2019 ya no se integra con la mensajería unificada de Exchange Online
 
 Los operadores automáticos de la nube se pueden configurar con Skype empresarial Server 2019, 2015 y 2013.
@@ -91,7 +91,7 @@ Vea [mover un operador automático de mensajería unificada de Exchange o una co
 
 ## <a name="additional-planning-resources"></a>Recursos de planeación adicionales
 
-En el tutorial titulado [Small Business example-set up an operador automático](/microsoftteams/tutorial-org-aa) se recorre el proceso de recopilar información sobre las necesidades de los usuarios, planear una estructura de operadores y usuarios automáticos (y posiblemente colas de llamadas), escribir los mensajes del menú y implementar el plan en el centro de administración en línea. Revise el tutorial y use los ejercicios que hay para crear el plan.
+En el tutorial titulado [Small Business example-set up an operador automático](/microsoftteams/tutorial-org-aa) se recorre el proceso de recopilar información sobre las necesidades de los usuarios, planear una estructura de operadores y usuarios automáticos (y posiblemente colas de llamadas), escribir los mensajes del menú y implementación del plan en el centro de administración de Teams. Revise el tutorial y use los ejercicios que hay para crear el plan.
 
 Cuando tenga una estructura sólida que satisfaga sus necesidades y un script que guíe a los clientes con eficacia, continúe con la [configuración de las cuentas de recursos](configure-onprem-ra.md).
 

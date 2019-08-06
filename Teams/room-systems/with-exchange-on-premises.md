@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams en un entorno híbrido con Exchange local.
-ms.openlocfilehash: 7e855ece643d3412047b4d01a9250b17f699ac98
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a16b56c6886215f46ca40a7898353af010c840b3
+ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288486"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "36207148"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Salas de Microsoft Teams con Exchange local
 
@@ -141,7 +141,13 @@ Skype empresarial online PowerShell se usa para administrar servicios tanto para
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Para habilitar la cuenta de salas de Microsoft Teams, ejecute este comando:
+2. Obtener la dirección SIP de la cuenta:
+
+  ``` Powershell
+   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+   ```
+
+3. Para habilitar la cuenta de salas de Microsoft Teams, ejecute este comando:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress
