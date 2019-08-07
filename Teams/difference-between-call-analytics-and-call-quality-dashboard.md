@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Más información sobre el análisis de llamadas y el panel de calidad de llamadas y cuándo usarlos para supervisar y solucionar problemas con la calidad de la llamada.
-ms.openlocfilehash: bf16cd9a2cb23ebf22e08680132b5c5d7e5a94a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 535d3bf6ce2abf69143fb270e01bf4f0c2e230dc
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281881"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433602"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamadas y Panel de calidad de llamadas
 
@@ -42,11 +42,11 @@ El análisis de llamadas muestra información detallada sobre los dispositivos, 
 
 Para ver esta información de un usuario en el centro de administración de Microsoft Teams, haga clic en la pestaña **historial de llamadas** de ese usuario en la página de detalles del usuario, en la que se muestran todas las llamadas y reuniones en las que el usuario ha participado durante los últimos 30 días.
 
-![Datos de usuario de análisis de llamadas.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![Captura de pantalla de todos los datos de usuario de análisis.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 Para obtener información adicional sobre una sesión determinada, como estadísticas detalladas de medios y de redes, haga clic en una sesión para ver los detalles.
 
-![Datos de sesión de usuario de análisis de llamadas.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![Captura de pantalla de datos de sesión de usuario de análisis de llamadas.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 Si desea que los usuarios que no sean administradores, como los agentes del Departamento de soporte técnico de un proveedor externo, puedan usar el análisis de llamadas, puede asignar permisos para que puedan usar el análisis de llamadas, pero no tengan acceso al resto del centro de administración de Microsoft Teams: 
   
@@ -70,11 +70,11 @@ Mientras que el análisis de llamadas está diseñado para ayudar a los administ
   
 Es posible que la mala calidad de las llamadas del usuario se deba a un problema de red que también afecta a muchos otros usuarios. La experiencia de llamada individual no es visible en el CQD, pero se captura la calidad general de las llamadas realizadas con Microsoft Teams o Skype empresarial. Con el CQD, los patrones generales pueden ser aparentes, lo que permite que los ingenieros de red realicen evaluaciones con conocimiento de la calidad de las llamadas. El CQD proporciona informes de métricas de calidad de llamadas que le dan información sobre la calidad general de las llamadas, las secuencias de clientes de servidor, las secuencias de clientes cliente y los [SLA](https://go.microsoft.com/fwlink/p/?linkid=846252)de calidad de voz.
   
-![Captura de pantalla del panel de calidad de llamadas. Las pestañas que se muestran son la calidad general de las llamadas, los clientes de servidor, los clientes de cliente y los SLA de calidad de voz.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
+![Captura de pantalla del panel de calidad de llamadas.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
 Con la ayuda de la ubicación del CQD: informes mejorados, la calidad de las llamadas y la confiabilidad agregadas dentro del edificio del usuario se pueden evaluar para determinar si el problema se aísla para un solo usuario o afecta a un segmento más grande de usuarios.
 
-![Captura de pantalla de la ubicación del panel de calidad de llamadas: informes mejorados. Las pestañas que se muestran son información general, edificios, edificios, redes WiFi y teléfonos móviles (LTE). Se está aplicando un filtro para ver las transmisiones en un edificio específico.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
+![Captura de pantalla de la ubicación del panel de calidad de llamadas: informes mejorados.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > Para habilitar las vistas de compilación o específicas del extremo en el CQD, un administrador debe [cargar la información de compilación o de extremo](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) en la página de carga de datos del inquilino de CQD. 

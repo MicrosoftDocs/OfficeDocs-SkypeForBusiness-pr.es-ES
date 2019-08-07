@@ -21,10 +21,10 @@ ms.custom:
 - LIL_Placement
 description: 'Obtenga información sobre características y licencias adicionales, y cómo comprar planes de Office 365 Enterprise, E1, E3 y E4. '
 ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35792886"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 y E4

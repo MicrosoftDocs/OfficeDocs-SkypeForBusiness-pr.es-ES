@@ -17,15 +17,15 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34494501"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 
-Si es una pequeña empresa o si quiere implementar Teams a partir de una conversación, Teams & canales y reuniones, use nuestra [Guía de introducción](get-started-with-teams-quick-start.md)a las directrices, que está diseñada para que pueda empezar a trabajar rápidamente. Si es una organización grande con una configuración híbrida o local de Skype empresarial, o si desea implementar características de voz (como planes de llamadas de Office 365 o un sistema telefónico), puede comenzar con nuestra guía de introducción, pero necesitará el adicional instrucciones a continuación, en **orientación sobre adopción más profunda**.
+Si es una pequeña empresa o si desea implementar Teams a partir de una conversación, Teams & canales y reuniones, use nuestra [Guía de introducción](get-started-with-teams-quick-start.md)a las directrices, que está diseñada para que pueda empezar a trabajar rápidamente. Si es una organización grande con una configuración híbrida o local de Skype empresarial, o si desea implementar características de voz (como planes de llamadas de Office 365 o un sistema telefónico), puede comenzar con nuestra guía de introducción, pero necesitará el adicional instrucciones a continuación, en **orientación sobre adopción más profunda**.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -112,7 +112,7 @@ Si es una pequeña empresa o si quiere implementar Teams a partir de una convers
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Certificación de formación de &</h3>
+                        <h3>Certificación de & de aprendizaje</h3>
                     </div>
                 </div>
             </div>

@@ -19,10 +19,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 397155766bc966c9591f863a3f97fca59dcb1128
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35934553"
 ---
 <a name="about-upgrade-basic"></a>

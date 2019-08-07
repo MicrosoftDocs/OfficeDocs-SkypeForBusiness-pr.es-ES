@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c5534edd8257652a50351ea6d7e6e14d449104a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: aaed448429bfa5715250eb7cf28488771c1c785c
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344628"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34433482"
 ---
-![Etapas del viaje de actualización, con énfasis en la recopilación del grupo de participantes del proyecto] (media/upgrade-banner-stakeholders.png "Etapas del viaje de actualización, con énfasis en la recopilación del grupo de participantes del proyecto")
+![Ilustración que muestra el estado de la parte interesada del viaje de actualización] (media/upgrade-banner-stakeholders.png "Etapas del viaje de actualización, con énfasis en la recopilación del grupo de participantes del proyecto")
 
 Este artículo forma parte de la fase de participantes del proyecto de su viaje de actualización, la primera y más importante actividad que completa para el éxito del proyecto.
 

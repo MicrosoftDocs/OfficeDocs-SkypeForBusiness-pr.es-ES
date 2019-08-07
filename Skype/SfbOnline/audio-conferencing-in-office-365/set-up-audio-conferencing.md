@@ -23,10 +23,10 @@ ms.custom:
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas en conferencia. '
 ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35792177"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar audioconferencias para Skype empresarial

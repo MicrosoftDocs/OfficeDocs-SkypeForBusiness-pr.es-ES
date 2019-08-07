@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d210c5c2e3e2d9b3b3757c2945c504296f00788
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: ed1a78bc7ddd13a3fceb76d89b26e3e2282a7a8e
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/06/2019
-ms.locfileid: "36206952"
+ms.locfileid: "36212616"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
@@ -86,11 +86,11 @@ Los registros de medios contienen datos de diagnóstico sobre el uso compartido 
 
 |Cliente |Ubicación |
 |---------|---------|
-|Windows     |%appdata%\Microsoft\Teams\media-stack\*. blog         |
-|            |%appdata%\Microsoft\Teams\skylib\*. blog
-|            |%appdata%\Microsoft\Teams\media-stack\*. ETL         |
-|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-stack\*.blog         |
-|            |~/Library/Application Support/Microsoft/Teams/\*skylib. blog         |
+|Windows     |%appdata%\Microsoft\Teams\media-stack\\*. blog         |
+|            |%appdata%\Microsoft\Teams\skylib\\*. blog
+|            |%appdata%\Microsoft\Teams\media-stack\\*. ETL         |
+|Mac OSX     |~/Library/Application Support/Microsoft/Teams/media-Stack/*. blog         |
+|            |~/Library/Application Support/Microsoft/Teams/skylib/*. blog         |
 
 
 

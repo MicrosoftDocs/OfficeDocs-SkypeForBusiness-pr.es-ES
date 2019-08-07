@@ -1,7 +1,7 @@
 ---
-title: Novedades de Skype para profesionales en línea.
+title: Novedades de Skype empresarial online.
 ms.reviewer: ''
-description: Agregue una descripción breve
+description: Agregar una descripción breve
 services: skype-for-business-online-admin
 author: samanro
 manager: cartayl
@@ -15,15 +15,15 @@ ms.topic: landing-page
 ms.date: 12/13/2017
 ms.author: samanro
 ms.openlocfilehash: c06dcc373b2029bac39af25a72429877c4bbd833
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "33911350"
 ---
-# <a name="whats-new-in-skype-for-business-online"></a>Novedades de Skype para profesionales en línea
+# <a name="whats-new-in-skype-for-business-online"></a>Novedades de Skype empresarial online
 
-Averigüe cuáles son las novedades en Skype para profesionales en línea.
+Descubra las novedades de Skype empresarial online.
 
 <ul class="panelContent cardsF">
     <li>
@@ -36,7 +36,7 @@ Averigüe cuáles son las novedades en Skype para profesionales en línea.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Artículos</h3>
+                        <h3>Manufactura</h3>
                         <p><a href=" ">Nombre del vínculo</a></p>
                     </div>
                 </div>

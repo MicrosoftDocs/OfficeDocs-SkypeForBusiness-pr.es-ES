@@ -15,10 +15,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5bedaee766005787bb7b532f4f5561faf91dd35d
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35614208"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams

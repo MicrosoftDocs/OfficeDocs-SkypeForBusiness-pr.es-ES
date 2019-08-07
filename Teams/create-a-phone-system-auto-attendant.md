@@ -3,7 +3,7 @@ title: Configurar un operador automático en la nube
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.reviewer: makolomi
+ms.reviewer: waseemh
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 480929abef1bd6a388afdb995b7f727d5421bc7c
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 939d1ac17007e3d823b0588f9949330e24555449
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614271"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35807539"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -39,12 +39,7 @@ Si desea obtener más información sobre los operadores automáticos, vea [¿Qu�
 
 ## <a name="step-1---get-started"></a>Paso 1: introducción
 
-- Es necesario un operador automático para tener una cuenta de recursos asociada. Para obtener más información sobre las cuentas de recursos, consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) .
-- Si planea asignar un número de enrutamiento directo, debe adquirir y asignar las siguientes licencias a sus cuentas \(de recursos Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico.\)
-- Si va a asignar un número de servicio de Microsoft, tendrá que adquirir y asignar las siguientes licencias a su cuenta \(de recursos Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico.\)
-
-> [!CAUTION]
-> Para obtener y usar los números de teléfono gratuitos, necesita configurar créditos de comunicaciones. Para ello, consulte [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md) y [Configurar créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).
+- Es necesario un operador automático para tener una cuenta de recursos asociada. Consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) para obtener información sobre las cuentas de recursos y todas las licencias necesarias.
 
 > [!TIP]
 > Para redirigir las llamadas a un operador o una opción de menú que sea un usuario en línea con una licencia de **sistema telefónico** , tendrá que habilitarlos para telefonía IP empresarial. Consulte [asignar licencias de Skype empresarial](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) o [asignar licencias de Microsoft Teams](assign-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
@@ -206,7 +201,7 @@ Para configurar las opciones de menú, después de seleccionar las teclas de mar
   - **Persona de la empresa** con una licencia de **sistema de teléfono** que está habilitada para Enterprise Voice o asignada a un plan de llamadas en Office 365. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione **una persona de su empresa** y configure esta persona para que sus llamadas se desvíen directamente al buzón de voz.
 
     > [!Note]
-    > La **persona de la empresa** puede ser un usuario en línea o un usuario hospedado localmente mediante Skype for Business Server 2015 o Lync Server 2013.
+    > **La persona de su empresa** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server o Lync Server 2013.
     - Otro **operador automático**
 
        Puede usar un operador automático existente para crear un segundo nivel de opciones de menú que contengan un submenú. Estos se denominan a operadores automáticos anidados. Para enviar la llamada a un operador automático anidado, seleccione **persona en la empresa** y asigne una cuenta de recurso, ya sea una cuenta que ya tenga un operador automático asociado o que vaya a asociar a un operador automático una vez que haya terminado de crear este operador automático.
@@ -214,13 +209,13 @@ Para configurar las opciones de menú, después de seleccionar las teclas de mar
         > [!Note]
         > El **Horario comercial** de operadores automáticos anidados (o de segundo nivel) también se utilizará, lo que incluye las llamadas enviadas desde otros operadores automáticos que se hayan configurado.
 
-<!--    - **call queue** Using a call queue option allows the call to be transferred to an existing call queue that you have set up. -->
+     - **cola de llamadas** Usar una opción de cola de llamadas permite transferir la llamada a una cola de llamadas existente que haya configurado. 
 
 * * *
 
 ![Icono del número 5, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout5.png)
 
-**Marcado por nombre** Si elige esta opción, los usuarios que llamen para buscar personas de su organización podrán usar la búsqueda en el directorio. Puede seleccionar qué personas se mostrarán como disponibles o no disponibles para el marcado por nombre mediante la configuración de esas opciones en la página **Ámbito de marcado**. Cualquier usuario en línea con una licencia de **sistema telefónico** o cualquier usuario hospedado localmente utilizando Skype for Business Server 2015 o Lync Server 2013, puede encontrarse con el marcado por nombre.
+**Marcado por nombre** Si elige esta opción, los usuarios que llamen para buscar personas de su organización podrán usar la búsqueda en el directorio. Puede seleccionar qué personas se mostrarán como disponibles o no disponibles para el marcado por nombre mediante la configuración de esas opciones en la página **Ámbito de marcado**. Cualquier usuario en línea con una licencia de **sistema telefónico** o cualquier usuario local que use Skype empresarial Server o Lync Server 2013 puede encontrarse con el marcado por nombre.
 
 * * *
 
@@ -290,7 +285,7 @@ En esta página, puede configurar los usuarios de su organización que aparecer�
 
 ![Icono del número 1, que hace referencia a una llamada en la](media/sfbcallout1.png) captura de pantalla anterior con la opción **incluir** , tiene dos opciones:
 
-- **Total de usuarios en línea**: esta opción le permite incluir a todas las personas de su organización en la búsqueda en directorios. Se enumerarán todos los usuarios en línea con una licencia de **sistema telefónico**, así como los usuarios hospedados localmente utilizando Skype for Business Server 2015 o Lync Server 2013 que tengan planes de llamada en Office 365.
+- **Total de usuarios en línea**: esta opción le permite incluir a todas las personas de su organización en la búsqueda en directorios. Se mostrarán todos los usuarios conectados que tengan una licencia de **sistema telefónico** , así como los usuarios locales que utilicen Skype empresarial Server o Lync Server 2013 que tengan planes de llamadas en Office 365.
 - **Grupo de usuarios personalizado** Si usa esta opción, puede buscar un grupo de Office 365, una lista de distribución o un grupo de seguridad que se haya creado en su organización y las personas que se han agregado a este grupo de Office 365, una lista de distribución o un grupo de seguridad que sean **usuarios conectados con un Licencia de sistema telefónico** o se ha hospedado de forma local con Skype empresarial server 2015 o Lync Server 2013. Puede agregar varios grupos de Office 365, listas de distribución y grupos de seguridad.
 
 * * *

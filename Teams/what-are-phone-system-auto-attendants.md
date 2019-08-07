@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Aprenda Cuáles son los operadores automáticos de la nube y cómo usarlos.
-ms.openlocfilehash: 3802cab121d7f88a48f657aaa9653e7144e77abe
-ms.sourcegitcommit: 016beacc8b64eaeeaefb641360dd9bb8d2191c4a
+ms.openlocfilehash: b3541ad88f29727d07043cba46503d040e6434c0
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35394550"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "35536008"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos en la nube?
 
@@ -55,17 +55,11 @@ Un operador automático de la nube tiene las siguientes características:
 Para comenzar a utilizar operadores automáticos, es importante recordar que:
 
 - Es necesario un operador automático para tener una cuenta de recursos asociada. Para obtener más información sobre las cuentas de recursos, consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) .
-- Si tiene previsto asignar un número de teléfono a su operador automático, debe adquirir y asignar una de las siguientes licencias a sus cuentas de recursos: 
-    - Office 365 Enterprise E1 o E3 con sistema telefónico agregado
-    - Office 365 Enterprise E5 que incluye el sistema telefónico
-- Solo necesita conceder licencia a las cuentas de recursos con un número de teléfono asignado. En una cola de llamadas o un operador automático anidado, no es necesario que tenga licencia para el resto de los operadores automáticos o las colas de llamadas si no tienen números de teléfono asociados a ellos. 
+- Si va a asignar un número de teléfono a una cuenta de recursos, ahora puede usar la licencia de usuario virtual del sistema telefónico de sistema de costos. Esto proporciona capacidades de sistema telefónico a números de teléfono en el nivel de la organización y le permite crear funciones de cola de llamadas y de operador automático.
 
 > [!NOTE]
 > Los números del servicio de enrutamiento directo del operador automático y las colas de llamadas solo se admiten para los usuarios y agentes de Microsoft Teams.
-
-> [!NOTE]
-> Microsoft está trabajando en un modelo de licencias sin costo para aplicaciones como los operadores automáticos de la nube y las colas de llamadas, por ahora necesita usar el modelo de licencias de usuario.
-    
+  
    > [!TIP]
    > Para redirigir llamadas a un operador o una opción de menú que sea un usuario en línea con una licencia de **sistema telefónico** , tendrá que habilitarlos para telefonía IP empresarial o asignarles planes de llamada. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   

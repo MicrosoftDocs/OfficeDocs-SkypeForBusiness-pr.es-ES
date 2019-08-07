@@ -18,10 +18,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 31cfe0d42c7ce3382d8c7903bb7789cde19d35db
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "34433043"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Comenzar el inicio rápido para Microsoft Teams

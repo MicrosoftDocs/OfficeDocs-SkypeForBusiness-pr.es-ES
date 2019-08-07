@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Argentina.
-ms.openlocfilehash: 652fd1b734765243ac606507a08c23ce4e900294
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0084e540de60bae8a14372254f19a1347c15f3ac
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283349"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34332262"
 ---
 # <a name="availability-in-argentina"></a>Disponibilidad en Argentina
 
@@ -43,7 +43,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li>Buenos Aires</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li>Buenos Aires</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicación <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -71,7 +71,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
- Si desea obtener números de teléfono gratuitos y de pago para las conferencias de audio, los operadores automáticos y las colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Si desea obtener números de teléfono gratuitos y de pago para las conferencias de audio, los operadores automáticos y las colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
@@ -83,7 +83,7 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

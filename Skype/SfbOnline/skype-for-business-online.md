@@ -16,10 +16,10 @@ ms.topic: landing-page
 ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
 ms.openlocfilehash: d2d2d647d200d6b043dbf131102fba402af6bf1f
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35418342"
 ---
 # <a name="skype-for-business-online-admin"></a>Administración de Skype for Business Online

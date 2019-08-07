@@ -3,7 +3,7 @@ title: Usar el Asistente para pruebas de red
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/23/2019
+ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -17,12 +17,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 195a5661f955714b4813dc510f34f3673ccd2702
-ms.sourcegitcommit: 462bc5b0676fe373c169e4b432ef1f89ac0a3cb3
+ms.openlocfilehash: 1016229a36afa3adb5fd11a13aaaf1be8d58810e
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34418243"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "34428764"
 ---
 <a name="use-the-network-testing-companion"></a>Usar el Asistente para pruebas de red
 =================================
@@ -38,4 +38,4 @@ Puede usar esta herramienta en la fase de planeamiento de una implementación de
 
 Descargue el complemento de prueba de redes de la [Galería de PowerShell](https://www.powershellgallery.com/packages/NetworkTestingCompanion/1.5.4).
 
-Descargue la guía de [instalación, la guía para usuarios y](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip)la guía de resultados.
+Descargue la guía de [instalación, la guía para usuarios y](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-testing-companion.zip?raw=true)la guía de resultados.

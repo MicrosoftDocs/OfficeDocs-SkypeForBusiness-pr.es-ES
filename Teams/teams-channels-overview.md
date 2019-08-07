@@ -18,10 +18,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 04a7366c9b4f09fa9c06b7d7f4cd40a24892f840
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2019
+ms.lasthandoff: 08/06/2019
 ms.locfileid: "35804679"
 ---
 > [!NOTE]
