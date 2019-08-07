@@ -1,2 +1,0 @@
-> [!NOTE]
-> Esta página describe versiones preliminares de software que puede cambiar considerablemente antes de que se libere. Las capturas de pantalla son marcadores de posición y pueden tener un aspecto diferentes de lo que se ve. 
