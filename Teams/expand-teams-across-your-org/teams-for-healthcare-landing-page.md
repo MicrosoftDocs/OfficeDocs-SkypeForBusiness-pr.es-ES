@@ -6,18 +6,19 @@ ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
 manager: serdars
+audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fec61542c51870ce1482f964845e13d12a3a987d
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 38652aca1bf7a479821286597d5475be18e9ee7f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548258"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235321"
 ---
 # <a name="teams-for-healthcare"></a>Teams para sanidad
 
