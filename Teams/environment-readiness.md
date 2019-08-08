@@ -6,30 +6,31 @@ manager: serdars
 ms.date: 5/11/2018
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: dansteve
 description: Sepa lo que debe buscar cuando compruebe si el entorno está preparado para Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1794b87beb1c6b1f1e499c214cde8d3e0b9b0a34
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c0609efd8ac0286857b44996939378e57ce2702f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235408"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234924"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Comprobación de la preparación del entorno para Microsoft Teams
 ===========================================
 
 La transición a la nube será diferente para cada organización y su estado actual podría influir en el futuro funcionamiento de Teams.
 
-Se recomienda encarecidamente [implementar la sincronización de datos de School](https://docs.microsoft.com/schooldatasync/) instituciones educativas antes de implementar Microsoft Teams. Sincronización de datos de escuela utiliza datos de lista de participantes de su escuela SIS para crear automáticamente las clases y los grupos para Microsoft Teams y otras aplicaciones.
+Se recomienda a las instituciones educativas que [implementen School Data Sync](https://docs.microsoft.com/schooldatasync/) antes de implementar Microsoft Teams. School Data Sync usa los datos de la lista de SIS de su escuela para crear automáticamente clases y grupos para Microsoft Teams y otras aplicaciones.
 
-Para obtener la mejor experiencia en los equipos, su organización debe haber implementado Exchange Online y SharePoint Online. También debe asegurarse de que está listo para los equipos de su entorno actual.  Hacer referencia a estos vínculos para obtener ayuda:
+Para obtener la mejor experiencia en Teams, su organización debe haber implementado Exchange Online y SharePoint Online. También debe asegurarse de que su entorno actual está listo para los equipos.  Consulte estos vínculos para obtener ayuda:
 
 -   Si su organización no ha implementado ninguna carga de trabajo de Office 365, vea [Introducción a Office 365 para empresas](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029).
 
@@ -41,6 +42,6 @@ Para obtener la mejor experiencia en los equipos, su organización debe haber im
 
 -   Si su organización no tiene SharePoint Online, vea [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](SharePoint-OneDrive-interact.md).
 
-- Si la organización es una institución de enseñanza y usar un sistema de información de estudiantes (SIS), que [implementar la sincronización de datos de escuela](https://docs.microsoft.com/schooldatasync/) antes de implementar Microsoft Teams.
+- Si su organización es un centro educativo y usa un sistema de información de estudiantes (SIS), [implemente School Data Sync](https://docs.microsoft.com/schooldatasync/) antes de implementar Microsoft Teams.
 
-- Si su organización tiene un Skype local existente para la implementación de Business Server (o Lync Server), debe configurar Azure Connect de AD para sincronizar el directorio local con Office 365.  Para obtener más información, vea [Configurar Azure AD conectar para equipos y Skype para la empresa](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).
+- Si su organización tiene una implementación local de Skype empresarial Server (o Lync Server) existente, debe configurar Azure AD Connect para sincronizar el directorio local con Office 365.  Para obtener más información, vea [configurar Azure ad Connect para Teams y Skype empresarial](https://docs.microsoft.com/en-us/skypeforbusiness/hybrid/configure-azure-ad-connect).

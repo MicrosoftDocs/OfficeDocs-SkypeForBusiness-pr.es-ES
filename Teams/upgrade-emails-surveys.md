@@ -1,34 +1,35 @@
 ---
-title: Los correos electrónicos de transición de los equipos de Microsoft y encuestas | Actualización básica
+title: Correos electrónicos y encuestas de transición de Microsoft Teams | Actualización básica
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Ver los correos electrónicos y encuestas a usar en conjunciton con el plan de acción de diez paso acelerado de actualización de Skype para la empresa a los equipos
+audience: admin
+description: Ejemplos de correo electrónico y encuestas para usar en conjunciton con el plan de acción acelerado de diez pasos para actualizar de Skype empresarial a teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d34162e2b7f363abd9ecf635cff993cdbd843da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920369"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236392"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Muestra mensajes de correo electrónico y encuestas para las comunicaciones de actualización básica
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Correo electrónico y encuestas de ejemplo para actualizar comunicaciones básicas
 
-## <a name="sample-emails"></a>Ver los correos electrónicos
+## <a name="sample-emails"></a>Correos electrónicos de ejemplo
 
 <a name="step-1-email"></a>
 
-### <a name="stakeholder-email-for-step-1"></a>Correo electrónico de los participantes, para el paso 1
+### <a name="stakeholder-email-for-step-1"></a>Correo electrónico de parte interesada, para el paso 1
 
 Línea de asunto:
 
@@ -36,7 +37,7 @@ Línea de asunto:
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Cuerpo del correo electrónico:
+Cuerpo del mensaje de correo electrónico:
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -46,11 +47,11 @@ Microsoft has indicated that Teams now has key capabilities that meet our commun
 Microsoft has provided an upgrade checklist outlining the essential tasks we should take to facilitate this transition. If you’re listed on the To line, you’re a key stakeholder in executing a successful transition to Teams and I may be reaching out for assistance. In the interim, let me know if you have any questions.
 ````
 
-[Devuelva al paso 1](upgrade-basic.md#step-1)
+[Volver al paso 1](upgrade-basic.md#step-1)
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>Notificar a correo electrónico de los usuarios, en el paso 4
+### <a name="notify-users-email-for-step-4"></a>Enviar un mensaje de correo electrónico a los usuarios para el paso 4
 
 Línea de asunto:
 
@@ -58,7 +59,7 @@ Línea de asunto:
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-Cuerpo del correo electrónico:
+Cuerpo del mensaje de correo electrónico:
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -75,19 +76,19 @@ CALL TO ACTION: Get started with Teams today
 If you have questions or need help, please reach out to <<insert company support information>>.
 ````
 
-[Devuelva al paso 4](upgrade-basic.md#step-4)
+[Volver al paso 4](upgrade-basic.md#step-4)
 
 <a name="step-6-email"></a>
 
-### <a name="remind-users-email-for-step-6"></a>Recordar a correo electrónico de los usuarios, para el paso 6
+### <a name="remind-users-email-for-step-6"></a>Recordar a los usuarios el correo electrónico, por el paso 6
 
-Línea de asunto: RECORDATORIO: prepararse para la actualización a los equipos
+Línea de asunto: Aviso: Prepárese para la actualización a teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-Cuerpo del correo electrónico:
+Cuerpo del mensaje de correo electrónico:
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -106,11 +107,11 @@ Tip: If you need assistance with scheduling meetings, T-Bot can help! In the Tea
 Should you have questions about this upgrade, contact <<insert alias or contact info>>.
 ````
 
-[Devuelva al paso 6](upgrade-basic.md#step-6)
+[Volver al paso 6](upgrade-basic.md#step-6)
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Correo electrónico de bienvenida a los usuarios desde el patrocinador ejecutivo, para el paso 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>Bienvenido a usuarios de correo electrónico del Patrocinador Ejecutivo, por el paso 7
 
 Línea de asunto:
 
@@ -118,7 +119,7 @@ Línea de asunto:
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-Cuerpo del correo electrónico:
+Cuerpo del mensaje de correo electrónico:
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -141,11 +142,11 @@ Regards,
 <<insert executive sponsor name>>
 ````
 
-[Devuelva al paso 7](upgrade-basic.md#step-7)
+[Volver al paso 7](upgrade-basic.md#step-7)
 
 <a name="step-9-email"></a>
 
-### <a name="check-in-email-for-step-9"></a>Protección de correo electrónico, para el paso 9
+### <a name="check-in-email-for-step-9"></a>Proteger el correo electrónico para el paso 9
 
 Línea de asunto:
 
@@ -153,7 +154,7 @@ Línea de asunto:
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-Cuerpo del correo electrónico:
+Cuerpo del mensaje de correo electrónico:
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -163,11 +164,11 @@ Share your feedback (see sample below) and transition experience with us. Your i
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[Devuelva al paso 9](upgrade-basic.md#step-9)
+[Volver al paso 9](upgrade-basic.md#step-9)
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Correo electrónico para pedir a los usuarios para conceder a los equipos y los canales de un bloque try, para el paso 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>Correo electrónico para pedir a los usuarios que prueben Teams y canales en el paso 10
 
 Línea de asunto:
 
@@ -175,7 +176,7 @@ Línea de asunto:
 CALL TO ACTION: Give teams and channels a try
 ```
 
-Cuerpo del correo electrónico:
+Cuerpo del mensaje de correo electrónico:
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -190,7 +191,7 @@ Tip: The best use of the Teams workspace comes when the right people join the ri
 Should you have questions, contact <<insert alias or contact info>>.
 ````
 
-[Devuelva al paso 10](upgrade-basic.md#step-10)
+[Volver al paso 10](upgrade-basic.md#step-10)
 
 <!--ENDOFSECTION-->
 
@@ -198,34 +199,34 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Encuestas de ejemplo
 
-Indicar el grado se encuentra al realizar las siguientes actividades en los equipos y si hay una o más actividades que le gustaría usar para obtener más información acerca de.
+Indique su experiencia en las actividades siguientes de Teams y, si hay una o más actividades de las que desea obtener más información.
 
-| &nbsp; | Mucha experiencia | Algo de experiencia | No especializados en todos los | Para obtener más información | N/D | ¿No está seguro o no familiar | | | | |
+| &nbsp; | Muy cualificado | Algo cualificado | No está capacitado en absoluto | Desea obtener más información | N/D | No está seguro o no está familiarizado | | | | |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Equipos de uso de mensajería instantánea o charlar con otras personas | | | | | | | | | | |
-| Equipos de uso para las reuniones en línea | | | | | | | | | | |
-| Equipos de uso para la colaboración (equipos y canales) | | | | | | | | | | |
-| Use los equipos en mi dispositivo móvil | | | | | | | | | | |
+| Usar Teams para mensajería instantánea/conversar con otras personas | | | | | | | | | | |
+| Usar Teams para reuniones en línea | | | | | | | | | | |
+| Usar Teams para la colaboración (equipos y canales) | | | | | | | | | | |
+| Usar Teams en mi dispositivo móvil | | | | | | | | | | |
 
-| **¿Qué ocurre, en caso de haber algo, se le impide usar Microsoft Teams?** | **Seleccione todos los que se aplican** |
+| **¿Qué sucede, si algo, que le impide usar Microsoft Teams?** | **Seleccionar todo lo que se aplica** |
 |---|---|
-| Nunca he oído sobre él | & #9744; |
-| No tengo instalado en mi equipo | & #9744; |
-| No sé cómo puede beneficiarme a mí o a las personas que trabajo con | & #9744; |
-| No he tenido tiempo para evaluar para mis necesidades | & #9744; |
-| Ya uso otras aplicaciones que mis necesidades de comunicación y colaboración | & #9744; |
-| ¿Necesito formación antes de usarlo | & #9744; |
-| He intentó usarlo, pero tenía problemas técnicos o una mala experiencia | & #9744; |
-| Nuestro servicio de asistencia técnica no se ha podido ayudarme con mis preguntas | & #9744; |
-| Nothing, actualmente puedo usarlo | & #9744; |
-| Otros (especifique) | & #9744; |
+| Nunca lo he oído | &#9744; |
+| No tengo instalado en mi equipo | &#9744; |
+| No entiendo cómo me beneficiaría o las personas con las que trabajo | &#9744; |
+| No he tenido tiempo para evaluarlo según mis necesidades | &#9744; |
+| Ya uso otras aplicaciones que se ajustan a mis necesidades de comunicación y colaboración | &#9744; |
+| Necesito formación antes de usarla | &#9744; |
+| Intenté usarlo, pero tenía problemas técnicos o una mala experiencia | &#9744; |
+| Nuestro servicio de asistencia al cliente no me pudo ayudar con mis preguntas | &#9744; |
+| Nada, lo uso actualmente | &#9744; |
+| Otra (especifica) | &#9744; |
 
-**¿Con qué probabilidad va a recomendar Teams Microsoft a un compañero o amigo? (0 = no es probable en absoluto... 10 = extremadamente probable)**
+**¿Qué probabilidades hay de que recomiende Microsoft Teams a un amigo o colega? (0 = no es probable... 10 = extremadamente probable)**
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+| ,0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 4,8 | 99,999 | base10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 
-[Devuelva al paso 9](upgrade-basic.md#step-9)
+[Volver al paso 9](upgrade-basic.md#step-9)
 
 <!--ENDOFSECTION-->

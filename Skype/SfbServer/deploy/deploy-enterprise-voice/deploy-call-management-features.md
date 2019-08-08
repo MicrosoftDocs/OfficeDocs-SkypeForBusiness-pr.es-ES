@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: Implementación de las características de administración de llamadas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 834a9ecaf39222b81f617f6a917225a17448e5e0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e21ac43e036f9aa12de00faf9d94db6fdffe9132
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291287"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245423"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>Implementar características de administración de llamadas en Skype empresarial
  

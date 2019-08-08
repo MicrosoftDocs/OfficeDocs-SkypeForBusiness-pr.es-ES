@@ -20,16 +20,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Más información sobre el sistema telefónico que puede hacer por usted. '
-ms.openlocfilehash: 14ac7202232fc69636d4019e701cd562302026dd
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: e0b6032d523517f11e02538603d8b4dfcc8ea3a4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643142"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237294"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
-
-## <a name="phone-system-in-office-365-and-skype-for-business-server"></a>Sistema telefónico en Office 365 y Skype empresarial Server
 
 El **sistema telefónico** es la tecnología de Microsoft para habilitar el control de llamadas y las funciones de PBX en la nube de Office 365 con Skype empresarial online y Microsoft Teams. El sistema telefónico le permite reemplazar el sistema PBX existente por un conjunto de características proporcionadas de Office 365 y estrechamente integradas en la experiencia de nube de su organización. Para obtener más información sobre las características, consulte [estas son las características que obtiene con el sistema telefónico en Office 365](here-s-what-you-get-with-phone-system.md).
   

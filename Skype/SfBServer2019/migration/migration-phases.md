@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En Skype empresarial Server 2019, define sitios en su red que contienen componentes de Skype empresarial Server 2019. Un sitio es un conjunto de equipos que están conectados correctamente mediante una red de alta velocidad y baja latencia, como una única red de área local (LAN) o dos redes conectadas por una red de fibra óptica de alta velocidad.
-ms.openlocfilehash: 8f50f25536e330a03440702614f81c09ce74518a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ad93a512a1aab596e08744f76d74e2e41a9faa5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298165"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237789"
 ---
 # <a name="migration-phases"></a>Fases de la migración
 

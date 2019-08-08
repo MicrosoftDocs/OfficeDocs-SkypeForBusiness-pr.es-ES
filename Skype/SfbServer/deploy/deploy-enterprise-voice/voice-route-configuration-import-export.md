@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 'Resumen: Aprenda a exportar o importar un archivo de configuración de enrutamiento de voz en Skype empresarial Server mediante el panel de control de Skype empresarial Server.'
-ms.openlocfilehash: 14637694e5604419fcd344b43af98263588f117a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec5a3d0c7f14d85a7b64eaad1edc73ebe4e24cd2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300883"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239918"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportar o importar un archivo de configuración de la ruta de voz en Skype empresarial
  

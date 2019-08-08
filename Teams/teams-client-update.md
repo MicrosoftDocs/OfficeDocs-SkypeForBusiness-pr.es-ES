@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 05/13/2019
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: annaray
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo se actualiza el cliente de escritorio de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba5280e03e316dfcde3bda9b62520fa513f3157a
-ms.sourcegitcommit: 5faa89ea686448d5b339178f1330edc63e21a52f
+ms.openlocfilehash: e0fe542c6df89946ad73f14cf9104f973e292aa3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35602274"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243847"
 ---
 # <a name="teams-update-process"></a>Proceso de actualización de Teams
 

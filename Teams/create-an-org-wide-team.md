@@ -5,21 +5,22 @@ ms.author: v-lanac
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Aprenda a crear y administrar un equipo de toda la organización en Teams.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c9c0986053fbfa5df2369205f75718abf5f114a
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: 881996d5f8acbc7458a775e02adfad9b38a231a9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804876"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241240"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo que abarque toda la organización en Microsoft Teams
 
@@ -69,7 +70,7 @@ Considere la posibilidad de configurar la moderación de canales y proporcionar 
 
 Aunque los miembros no pueden abandonar un equipo de organización en toda la organización, como propietario de un equipo, puede administrar la lista de equipos eliminando las cuentas que no pertenecen. Asegúrese de usar Teams para quitar usuarios del equipo de su organización. Si usa otra forma de quitar un usuario, como el centro de administración de Microsoft 365 o un grupo en Outlook, el usuario podría volver a agregarse al equipo de toda la organización.
 
-## <a name="faq"></a>Preguntas frecuentes
+## <a name="faq"></a>Preguntas más frecuentes
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>¿Hay alguna forma de crear un equipo para toda la organización que no sea usar el cliente de Teams?
 

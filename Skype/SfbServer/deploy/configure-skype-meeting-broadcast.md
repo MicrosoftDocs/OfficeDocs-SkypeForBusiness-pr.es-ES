@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Resumen: Obtenga información sobre los pasos que debe realizar para configurar la difusión de reunión de Skype para su implementación híbrida local de Skype empresarial Server.'
-ms.openlocfilehash: b744ae55fe9c866b2f65c816e471ed077312df13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd87c64dd1e54c8092186a3e233557ebd11eec77
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291668"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234444"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  

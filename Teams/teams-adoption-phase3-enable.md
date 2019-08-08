@@ -12,17 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo permitir la habilitación a escala amplia de Teams para su organización.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9556338bba030ccefcd61f3bbdd9e3a4c56af2
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0c97572004184eac1d480aec8df2b227654c9dad
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494094"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237843"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Fase 3 de la adopción de Microsoft Teams: Escala
 
@@ -35,6 +35,6 @@ En esta fase, usará los aprendizajes, el talento de su proyecto y las relacione
 5. Diseñar e iniciar un programa de aprendizaje.
 6. Comprender las herramientas de informes.
 7. Prepararse para una participación continua en el negocio.
-8. Prepararse para las revisiones del estado del servicio en curso & adopción.
+8. Prepararse para el estado de servicio continuo & revisiones de adopción.
 
 ![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [definir resultados y éxito](teams-adoption-define-outcomes.md)

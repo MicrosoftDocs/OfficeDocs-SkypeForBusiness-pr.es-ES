@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 'Resumen: Configure los dispositivos de VTC para que funcionen con Skype empresarial Server.'
-ms.openlocfilehash: 460ac0a301ee9c9b2cb5bb1b4ca4c1aaf6ee4825
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c5310479aea38f5623f8ac2e10ef64978aa4aee
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302799"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235676"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurar un VTC para la interoperabilidad con Skype empresarial Server
  

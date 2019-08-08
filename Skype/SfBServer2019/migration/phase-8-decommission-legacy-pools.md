@@ -5,17 +5,17 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
 description: En el siguiente tema se proporcionan instrucciones para actualizar entradas DNS, mover el servidor de administración de contenido, retirar grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son obligatorios. Lea la documentación y determine qué procedimiento de retiro se debe usar.
-ms.openlocfilehash: 4110e45b2790204e96205dd9552e14fa9c359446
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5edad470bcd7bcf0340a311a890f73ef01645138
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273878"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236999"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Retirar los grupos de servidores heredados
 

@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Al crear un grupo de servidores de Skype empresarial 2019, usará el almacén de administración central asociado a la instalación heredada. Al iniciar el generador de topología en el primer uso y en sesiones de edición posteriores, se le pedirá la ubicación en la que desea que el generador de topología cargue el documento de configuración actual. Puesto que ya tiene una topología definida y ha establecido el almacén de administración central, debe elegir descargar una topología de una implementación existente. El generador de topología leerá la base de datos y recuperará la definición actual.
-ms.openlocfilehash: 67317f9acf477d6b6decd42433844ef088d27021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33dc190bae5bd5d983d13932b4a9933fe5f74976
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280860"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238125"
 ---
 # <a name="download-topology-from-existing-deployment"></a>Descargar una topología desde una implementación existente
 

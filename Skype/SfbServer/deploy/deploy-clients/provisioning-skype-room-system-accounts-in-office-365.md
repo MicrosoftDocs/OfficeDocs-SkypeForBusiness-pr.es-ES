@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lea este tema para obtener información acerca del aprovisionamiento de cuentas de Sistema de salas de Skype en Office 365.
-ms.openlocfilehash: 87643d04879888d59739c997e37108c6c7403101
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5df77e9a9e5e3ca67eb831596c12516457a15c45
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301543"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235070"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Aprovisionamiento de cuentas del Sistema de salas de Skype en Office 365
  

@@ -6,20 +6,21 @@ manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Configurar una directiva de reunión para permitir que los usuarios compartan sus escritorios en chats o reuniones de Teams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bf213b919ee0bea344807f932e16240587b2b84
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: f36804fc4d7c28f08ca383ddb09f22ee52f804e7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433242"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236938"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar Compartir escritorio en Microsoft Teams
 ============================================

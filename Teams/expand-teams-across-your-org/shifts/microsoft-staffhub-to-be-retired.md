@@ -4,20 +4,21 @@ author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
+audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 description: ''
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d832081bcd610e5d367c5d3d62ffdfe13650e238
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: 63e54de51233997eab2ba17ab4f284afd03a21c0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062430"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232193"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Se retirará Microsoft StaffHub
 

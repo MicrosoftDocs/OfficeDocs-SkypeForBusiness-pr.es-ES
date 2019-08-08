@@ -5,6 +5,7 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -13,12 +14,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 6eab81e69f279b521285aca7cb9c56d1e6810e8c
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: a6797bab8fe7d218f6bbc35267bfa4a9f04334a8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402214"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236231"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 

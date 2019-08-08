@@ -7,20 +7,21 @@ manager: serdars
 ms.date: 04/19/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar la configuración de usuario de Microsoft Teams en masa en el centro de administración de Microsoft Teams.
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.edit
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a80b39513fe86e0c49cd88988cb3f245129b2d0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 9585266ff2af124a1b9985c4cf18d842bc45af5c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221359"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236786"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Editar la configuración de usuario de Microsoft Teams en masa
 

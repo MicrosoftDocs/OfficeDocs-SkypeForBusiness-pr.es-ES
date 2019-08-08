@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 description: Use esta lista de comprobación para ayudarle a configurar el acceso de invitado en Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 09a6ec1f60ca4bfc39dbeb5ba1829330c3413560
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 8418c9386c635d1fc1662ee6df80dfae21908bd0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925361"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244119"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitados de Teams
 ==========================================
@@ -81,7 +82,7 @@ Recuerde lo siguiente:
    
    - Los **invitados pueden invitar**: para permitir que los invitados inviten a otros invitados, establezca esta directiva en **sí**.
    - **Habilitar el código de acceso de un solo uso de correo electrónico para invitados (vista previa)**: para obtener más información sobre la característica de código de acceso de un solo uso, consulte [autenticación de código de acceso de un solo uso de correo electrónico (vista previa)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)
-   - **Restricciones de colaboración**: para obtener más información sobre cómo permitir o bloquear invitaciones a dominios específicos, consulte [permitir o bloquear invitaciones a usuarios B2B de organizaciones específicas](allow-deny-list.md).
+   - **Restricciones de colaboración**: para obtener más información sobre cómo permitir o bloquear invitaciones a dominios específicos, consulte [permitir o bloquear invitaciones a usuarios B2B de organizaciones específicas](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
 
 ## <a name="-step-2-configure-office-365-groups"></a>□ Paso 2: configurar grupos de Office 365
 

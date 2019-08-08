@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: Habilitar omisión de elementos multimedia para omitir siempre el servidor de mediación en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 0e45f8ede38411974f9433c17ccd0a0946b427ff
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dfffda1130fc1fb119e6cbf5d9b12af766b9c038
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275881"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233840"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurar la omisión de elementos multimedia en Skype empresarial Server para omitir siempre el servidor de mediación
  

@@ -3,6 +3,7 @@ title: Documentar su plan de éxito de Microsoft Teams
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/13/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Elija un modelo de implementación, desarrolle una matriz de consulta responsable, consultada, informada (RACI), cree planes de control y ejecución.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e30450aaf09e6f2a0d1dbee828a1936fce1eea78
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 5f324c703c71adbcabedc71d9a5fdb6a4ce63ca0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344620"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245163"
 ---
 # <a name="document-my-success-plan"></a>Documentar el plan de éxito
 

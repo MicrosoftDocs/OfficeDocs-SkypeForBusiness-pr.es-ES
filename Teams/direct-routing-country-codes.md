@@ -6,21 +6,19 @@ manager: serdars
 audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: reference
-ms.service:
-- msteams
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este artículo para ubicar los códigos de países de la ruta de medios para el enrutamiento directo.
-ms.openlocfilehash: 8ab2a6b9dbcbb676362c9fc7e39637aff0724a53
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5956f538df5aefc356e960f8eb2817602ef99884
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420406"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237462"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Códigos de países de ruta de medios de enrutamiento directo
 

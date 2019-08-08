@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 'Resumen: Aprenda a implementar un servidor perimetral o un grupo perimetral en su entorno de Skype empresarial Server.'
-ms.openlocfilehash: bcb6f7fdd7b322411e793fe3466418db1dd00894
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39f308c13c3164c2fa46363723d5f3b1256595fb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306954"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233900"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>Implementar el servidor perimetral en Skype empresarial Server
  

@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo cargar en un sitio.
@@ -18,12 +18,12 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e7e9211b207c008de22fe86ae0c7bb6c9f9ac51
-ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
+ms.openlocfilehash: 7976983d88508f2d2c5ecb0c868ddcb9e641735b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34667485"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245347"
 ---
 <a name="adding-and-updating-locations-data"></a>Agregar y actualizar datos de ubicaciones
 ============================

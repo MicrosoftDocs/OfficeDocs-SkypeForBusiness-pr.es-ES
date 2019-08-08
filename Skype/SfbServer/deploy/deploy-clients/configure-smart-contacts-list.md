@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 'Resumen: Obtenga información sobre cómo activar la característica lista de contactos inteligente en el cliente de Skype empresarial.'
-ms.openlocfilehash: 0deb90293ddf4f1a6627eb4bff86d7d8eb0ae5c9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 17981e13c239241f050704b7c98593f95a29ab27
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286386"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234240"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Configurar la lista Smart Contacts en clientes de Skype empresarial
 

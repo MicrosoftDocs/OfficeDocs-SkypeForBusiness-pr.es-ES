@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 07/12/2019
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: vinbel
@@ -17,12 +18,12 @@ description: Su administrador de ti puede configurar el acceso externo para otro
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 406805760829c2246f47fe9641606eea5b0eadc2
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: 71aad6a5b19c1d641347b9e0f119acf2f72d5ce9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861875"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242134"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 ======================================================

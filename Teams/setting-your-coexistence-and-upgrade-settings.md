@@ -5,7 +5,8 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: bjwhalen
@@ -15,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52b398a9e70d650ad2afd70c60250076f1ab9fc2
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 581aab3067dcc2e8dbdc579236f340259b5c6e74
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344197"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243189"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configurar su coexistencia y la configuración de actualización
 

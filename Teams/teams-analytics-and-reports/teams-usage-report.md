@@ -10,18 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Aprenda a usar el informe de uso de Teams en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de Teams en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c7f5804bf4e251bffa4f391664da803f689ee56
-ms.sourcegitcommit: 5791b98589e64df2e2bcd96f05fd2f869a65861f
+ms.openlocfilehash: 8a5fdee65771f2ac23e2cea78e54752786357405
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35420023"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234775"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams
 

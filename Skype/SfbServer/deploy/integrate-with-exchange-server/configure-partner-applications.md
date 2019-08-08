@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Resumen: configurar la autenticación de servidor a servidor para Exchange Server 2016 o Exchange Server 2013 y Skype empresarial Server.'
-ms.openlocfilehash: 4c7c8a0efb2432403422e33140c1a2fdf3551dd1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a1958db05ea1e4fae37737512368d509b3c62cf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306737"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245514"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Configurar aplicaciones de socio en Skype empresarial Server y Exchange Server
  

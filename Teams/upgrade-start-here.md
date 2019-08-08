@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Obtenga más información sobre la actualización de Skype empresarial a Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22d56297c472736df70ac7b794de0ad8b2090b58
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 102572c8ef25ff93ca66a92c94e4ff244918ad31
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35934601"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236053"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introducción a su actualización de Microsoft Teams
 

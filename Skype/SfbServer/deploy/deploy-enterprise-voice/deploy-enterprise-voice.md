@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Resumen: Aprenda a implementar la telefonía IP empresarial para Skype empresarial Server en un sitio central.'
-ms.openlocfilehash: c5995570d8d3cf775b2837bb6ddfc170860d57dc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3e85ac96415788e8e15ba1ed11786864b6fc3124
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291245"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245430"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implementar la telefonía IP empresarial en Skype empresarial Server
 

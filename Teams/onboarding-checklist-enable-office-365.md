@@ -7,20 +7,21 @@ ms.date: 08/21/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Siga las actividades y las tareas pendientes principales de esta lista de comprobación cuando configure Office 365 para Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f60fa24df90b23583f4ee682c6a9a1ce818794a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53d20128607a44a0c8a6a9ef520c2a3808e0d495
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898814"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238399"
 ---
 # <a name="enable-office-365"></a>Habilitar Office 365
  

@@ -10,19 +10,19 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Completar la lista de comprobación para empezar a su adopción Microsoft Teams.
+description: Complete la lista de comprobación para comenzar la adopción de Microsoft Teams.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222973b0377e8a8568a5a170aca0a11e23ea2fd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9050959ba070bfae99ee077dedfd1b503bea1c2c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930383"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237821"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Lista de comprobación para el inicio rápido de la adopción de Microsoft Teams
 
@@ -30,36 +30,36 @@ ms.locfileid: "33930383"
 
 ## <a name="get-started-driving-adoption-of-microsoft-teams"></a>Comenzar a impulsar la adopción de Microsoft Teams
 
-- [Requisitos previos de adopción](teams-adoption-get-started.md)
+- [Requisitos previos para la adopción](teams-adoption-get-started.md)
 
 ## <a name="phase-1---start"></a>Fase 1: Inicio
 
 - [Entender los equipos y canales](teams-adoption-understand-teams-and-channels.md)
 - [Crear los primeros equipos](teams-adoption-your-first-teams.md)
-- [¿Está preparado para los equipos?](teams-adoption-assess-readiness.md)
-- [Reunirse con las partes interesadas](teams-adoption-assess-readiness.md#assess-your-stakeholders)
-- [Identificar los primeros usuarios](teams-adoption-assess-readiness.md#identify-early-adopters)
+- [¿Está listo para los equipos?](teams-adoption-assess-readiness.md)
+- [Reunirse con los participantes](teams-adoption-assess-readiness.md#assess-your-stakeholders)
+- [Identificar a los primeros.](teams-adoption-assess-readiness.md#identify-early-adopters)
 
 ## <a name="phase-2---experiment"></a>Fase 2: Experimentar
 
 - [Crear el programa de expertos](teams-adoption-create-champions-program.md)
 - [Completar el inicio rápido de gobierno](teams-adoption-governance-quick-start.md)
 - [Definir los escenarios de uso](teams-adoption-define-usage-scenarios.md)
-- [Partes interesadas de negocio de entrevista](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
-- [Asignar y establecer prioridades de escenarios empresariales](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
+- [Entrevistar a las partes interesadas](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [Asignar y priorizar escenarios empresariales](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
 - [Incorporar usuarios pioneros y recopilar comentarios](teams-adoption-onboard-early-adopters.md)
 - [Soporte técnico integrado](teams-adoption-onboard-support.md)
 
 ## <a name="phase-3---scale"></a>Fase 3: Escala
 
-- [Definir los resultados y las medidas de éxito](teams-adoption-define-outcomes.md)
-- [Seleccione una estrategia de habilitación de servicio](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
-- [Contratar a las partes interesadas](teams-adoption-define-outcomes.md#engage-stakeholders)
-- [Expanda su equipo de implementación](teams-adoption-define-outcomes.md#expand-your-implementation-team)
-- [Expanda las directivas de administración de información y gobierno](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
+- [Definir medidas de resultados y de éxito](teams-adoption-define-outcomes.md)
+- [Seleccionar una estrategia de habilitación de servicio](teams-adoption-define-outcomes.md#select-a-service-enablement-strategy)
+- [Atraer participantes](teams-adoption-define-outcomes.md#engage-stakeholders)
+- [Expandir el equipo de implementación](teams-adoption-define-outcomes.md#expand-your-implementation-team)
+- [Expandir las directivas de administración de información y gobernanza](teams-adoption-define-outcomes.md#expand-your-governance-and-information-management-policies)
 - [Optimizar los comentarios e informes](teams-adoption-optimize-feedback-and-reporting.md)
 - [Darlo a conocer e implementar formación](teams-adoption-drive-awareness.md)
-- [Programar revisiones de servicio](teams-adoption-schedule-service-health-reviews.md)
+- [Programar las revisiones del servicio](teams-adoption-schedule-service-health-reviews.md)
 
 
 

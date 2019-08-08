@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lolaj
@@ -17,12 +18,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 1016229a36afa3adb5fd11a13aaaf1be8d58810e
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: e2fcdb6da76de62e7fca87d822c0c9ecacc68377
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34428764"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236637"
 ---
 <a name="use-the-network-testing-companion"></a>Usar el Asistente para pruebas de red
 =================================

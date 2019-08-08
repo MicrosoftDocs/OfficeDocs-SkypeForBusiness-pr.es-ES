@@ -7,24 +7,25 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: troubleshooting
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: Aprenda a resolver problemas de conectividad con el cliente de Microsoft Teams, ocasionadas principalmente por el firewall o la conexión del proxy.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d208671415e44ca5ec83313d0d8af666534f2b20
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 79718ebc58205cd63ab291f0985e4dd7e452be3e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194681"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236554"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividad con el cliente de Microsoft Teams
 ==============================================================
 
-Mayoría de los problemas detectada con el cliente de Microsoft Teams puede deberse a la conectividad de servidor de seguridad o proxy. Comprobar que las direcciones URL necesarias, direcciones IP y puertos están abiertos en el servidor de seguridad o proxy va a minimizar la solución de problemas innecesarios. Para obtener información específica sobre IP necesarios para Microsoft Teams y direcciones URL, vea [direcciones URL de Office 365 y la dirección IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) artículo de soporte técnico. Los siguientes escenarios requieren específico las direcciones URL y puertos estén abiertos en el firewall.
+Es posible que la mayoría de los problemas detectados con el cliente de Microsoft Teams vuelvan a la conectividad de proxy o firewall. Comprobando que las direcciones URL, direcciones IP y puertos necesarios se abren en el firewall o proxy minimizará la solución de problemas. Para obtener información específica sobre las direcciones URL e IPs necesarias para Microsoft Teams, consulte el artículo [Office 365 URLs e](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) información sobre la compatibilidad con direcciones IP. Los siguientes escenarios requieren que se abran direcciones URL y puertos específicos en el firewall.
 
 -   Autenticación
 

@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: En este tema se describen los procedimientos de implementación para usar Skype empresarial mientras se conecta a un escritorio virtual remoto.
-ms.openlocfilehash: a3955ac3634dbf52b47b70482772e7302876bf1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8892bf8b8772bdb301f914bca134d61e67ea934b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288757"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234408"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Implementar el complemento VDI para Lync con Skype empresarial Server
  

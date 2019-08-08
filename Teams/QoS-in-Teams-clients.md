@@ -7,63 +7,64 @@ ms.date: 2/17/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
-description: Implementar la calidad de servicio (QoS) para los clientes de Microsoft Teams.
+audience: admin
+description: Implemente la calidad de servicio (QoS) para los clientes de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 101deb10cf3d86dbc97116cad269556683d03be4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194704"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36246201"
 ---
 # <a name="set-qos-on-windows-clients"></a>Configurar QoS en clientes de Windows
 
-Puede usar QoS basada en Directiva dentro de la directiva de grupo para establecer el intervalo de puertos de origen para el valor de DSCP predefinido en el cliente de los equipos. Los intervalos de puertos especificados en la tabla siguiente son un punto de partida para crear una directiva para cada carga de trabajo.
+Puede usar QoS basada en directivas en la Directiva de grupo para establecer el intervalo de puertos de origen para el valor predefinido de DSCP en el cliente de Teams. Los intervalos de puertos especificados en la tabla siguiente son un punto de partida para crear una directiva para cada carga de trabajo.
 
-_Se recomienda intervalos de puertos inicial_
+_Intervalos de puerto iniciales recomendados_
 
-Tipo de tráfico de medios| Intervalo de puertos de origen de cliente |Protocolo|Valor de DSCP|Clase de DSCP|
+Tipo de tráfico multimedia| Intervalo de puertos de origen del cliente |Protocolo|Valor de DSCP|Clase de DSCP|
 |:--- |:--- |:--- |:--- |:--- |
-|Audio| 50.000 – 50,019|TCP/UDP|46|Desvío rápido (EF)|
-|Vídeo| 50,020 – 50,039|TCP/UDP|34|Desvío garantizado (AF41)|
-|Uso compartido de aplicaciones o pantalla| 50,040 – 50,059|TCP/UDP|18|Reenvío (AF21) asegurado|
+|Audio| 50000 – 50019|TCP/UDP|46|Desvío rápido (EF)|
+|Vídeo| 50,020–50,039|TCP/UDP|34|Desvío garantizado (AF41)|
+|Aplicación/pantalla compartida| 50,040–50,059|TCP/UDP|18|Reenvío asegurado (AF21)|
 | | | | |
 
-Siempre que sea posible, configure las opciones de QoS basada en Directiva dentro de un objeto de directiva de grupo. Los siguientes pasos son muy similares a la [configuración de intervalos de puertos y una directiva de calidad de servicio para los clientes en Skype para Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tiene algunos detalles adicionales que no sea necesarios.
+Siempre que sea posible, establezca la configuración de QoS basada en directivas dentro de un objeto de directiva de grupo. Los pasos siguientes son muy similares a la [configuración de intervalos de puertos y una directiva de calidad de servicio para los clientes de Skype empresarial Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tiene algunos detalles adicionales que pueden no ser necesarios.
 
-Para crear una directiva de audio de QoS para equipos de 10 Windows unido a un dominio, primero inicie sesión en un equipo en el que se ha instalado Administración de directivas de grupo. Abra Administración de directivas de grupo (haga clic en Inicio, elija Herramientas administrativas y, a continuación, haga clic en administración de directivas de grupo) y, a continuación, complete los siguientes pasos:
+Para crear una directiva de audio de QoS para equipos con Windows 10 Unidos a un dominio, primero debe iniciar sesión en un equipo en el que se haya instalado administración de directivas de grupo. Abra administración de directivas de grupo (haga clic en Inicio, seleccione Herramientas administrativas y, a continuación, haga clic en administración de directivas de grupo) y siga los pasos siguientes:
 
-1. En administración de directivas de grupo, busque el contenedor donde se debe crear la nueva directiva. Por ejemplo, si todos los equipos cliente se encuentran en una unidad organizativa denominada **clientes**, se debe crear la nueva directiva en la unidad organizativa de cliente.
+1. En administración de directivas de grupo, busque el contenedor en el que se debe crear la nueva Directiva. Por ejemplo, si todos los equipos cliente se encuentran en una unidad organizativa denominada **clientes**, la nueva Directiva debe crearse en la uo cliente.
 
-2. Haga clic en el contenedor adecuado y, a continuación, haga clic en **crear un GPO en este dominio y vincularlo aquí**.
+2. Haga clic con el botón secundario en el contenedor correspondiente y, después, haga clic en **crear un GPO en este dominio y vincúlelo aquí**.
 
-3. En el cuadro de diálogo **Nuevo GPO** , escriba un nombre para el nuevo objeto de directiva de grupo en el cuadro **nombre** y, a continuación, haga clic en **Aceptar**.
+3. En el cuadro de diálogo **nuevo GPO** , escriba un nombre para el nuevo objeto de directiva de grupo en el cuadro **nombre** y, a continuación, haga clic en **Aceptar**.
 
-4. Haga clic en la directiva recién creada y, a continuación, haga clic en **Editar**.
+4. Haga clic con el botón secundario en la Directiva recién creada y luego haga clic en **Editar**.
 
-5. En el Editor de administración de directiva de grupo, expanda **Configuración del equipo**, expanda **Configuración de Windows**, haga clic en **QoS basada en directiva**y, a continuación, haga clic en **Crear nueva directiva**.
+5. En el editor de administración de directivas de grupo, expanda **configuración del equipo**, expanda **configuración de Windows**, haga clic con el botón secundario en **QoS basada en directivas**y, a continuación, haga clic en **crear nueva Directiva**.
 
-6. En el cuadro de diálogo de **QoS basada en directiva** , en la página de apertura, escriba un nombre para la nueva directiva en el cuadro **nombre** . Seleccione **Especificar el valor de DSCP** y establezca el valor **46**. Deje **Especificar velocidad de aceleración saliente** no está seleccionada y, a continuación, haga clic en **siguiente**.
+6. En el cuadro de diálogo **QoS basado en directivas** , en la página de apertura, escriba un nombre para la nueva Directiva en el cuadro **nombre** . Seleccione **especificar valor de DSCP** y establezca el valor en **46**. Deje la **tasa de límite saliente** desactivada y, a continuación, haga clic en **siguiente**.
 
-7. En la página siguiente, seleccione **sólo las aplicaciones con este nombre del archivo ejecutable** y escriba el nombre **Teams.exe**y, a continuación, haga clic en **siguiente**. Esta opción indica a la directiva de solo dar prioridad al tráfico coincidente desde el cliente de los equipos.
+7. En la página siguiente, seleccione **solo las aplicaciones con este nombre de archivo ejecutable** y, **** a continuación, haga clic en **siguiente**. Esta configuración indica a la Directiva que solo asigne prioridad al tráfico coincidente del cliente de equipos.
 
-8. En la tercera página, asegúrese de que **cualquier dirección IP de origen** y **cualquier dirección IP de destino** están seleccionados y, a continuación, haga clic en **siguiente**. Estos dos valores Asegúrese de que se administrarán los paquetes independientemente de qué equipo (dirección IP) envía los paquetes y qué equipo (dirección IP) recibirán los paquetes.
+8. En la tercera página, asegúrese de que **todas las direcciones IP de origen** y **cualquier dirección IP de destino** estén seleccionadas y, a continuación, haga clic en **siguiente**. Estas dos opciones de configuración garantizan que los paquetes se administrarán independientemente del equipo (dirección IP) que hayan enviado los paquetes y del equipo (dirección IP) que recibirá los paquetes.
 
-9. En la cuarta página, seleccione **TCP y UDP** en la lista desplegable **Seleccione el protocolo que se aplica esta directiva de QoS** . TCP (Protocolo de Control de transmisión) y UDP (Protocolo de datagramas de usuario) son los dos protocolos de red usados con más frecuencia.
+9. En la cuarta página, seleccione **TCP y UDP** en la lista desplegable **Seleccione el protocolo al que se aplica esta directiva de QoS** . TCP (Protocolo de control de transmisión) y UDP (Protocolo de datagrama de usuario) son los dos protocolos de red más usados.
 
-10. Bajo el encabezado, **Especifique el número de puerto de origen**, seleccione **desde este intervalo o el puerto de origen**. En el cuadro de texto que lo acompaña, escriba el intervalo de puertos reservado para las transmisiones de audioconferencias. Por ejemplo, si ha reservado puertos 50000 a través de puertos 50019 para el tráfico de audio, escriba el intervalo de puertos con este formato: **50000:50019**. Haga clic en **Finalizar**.
+10. En el encabezado, **especifique el número de puerto de origen**, seleccione **de este rango o puerto de origen**. En el cuadro de texto que acompaña, escriba el intervalo de puertos reservado para las transtransmisións de audio. Por ejemplo, si ha reservado los puertos 50000 a través de los puertos 50019 para el tráfico de audio, escriba el intervalo de puertos con este formato: **50000:50019**. Haga clic en **Finalizar**.
 
-11. Repita los pasos del 5 al 10 para crear directivas para vídeo y uso compartido de aplicaciones y escritorio, sustituyendo los valores apropiados en los pasos 6 y 10.
+11. Repita los pasos 5-10 para crear directivas de vídeo y de uso compartido de aplicaciones y escritorio, sustituyendo los valores correspondientes en los pasos 6 y 10.
 
-Las nuevas directivas que se ha creado no surtirán efecto hasta que se ha actualizado la directiva de grupo en los equipos cliente. Aunque la directiva de grupo se actualiza periódicamente en su propio, puede forzar una actualización inmediata, siga estos pasos:
+Las nuevas directivas que haya creado no surtirán efecto hasta que se actualice la Directiva de grupo en los equipos cliente. Aunque la Directiva de grupo se actualiza periódicamente por su cuenta, puede forzar una actualización inmediata siguiendo estos pasos:
 
-1. En cada equipo para el que desea actualizar la directiva de grupo, abra una consola de comandos. Asegúrese de que la consola de comandos está establecida en Ejecutar como administrador.
+1. En cada equipo para el que desee actualizar la Directiva de grupo, abra una consola de comandos. Asegúrese de que la consola de comandos está configurada para ejecutarse como administrador.
 
 2. En el símbolo del sistema, escriba
 
@@ -71,11 +72,11 @@ Las nuevas directivas que se ha creado no surtirán efecto hasta que se ha actua
     gpupdate.exe /force
    ```
 
-## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Compruebe los marcados de DSCP en el objeto de directiva de grupo
+## <a name="verify-dscp-markings-in-the-group-policy-object"></a>Comprobar las marcas de DSCP en el objeto de directiva de grupo
 
-Para comprobar que se han establecido los valores desde el objeto de directiva de grupo, realice los pasos siguientes.
+Para comprobar que se han establecido los valores del objeto de directiva de grupo, siga estos pasos.
 
-1. Abra una consola de comandos. Asegúrese de que la consola de comandos está establecida en Ejecutar como administrador.
+1. Abra una consola de comandos. Asegúrese de que la consola de comandos está configurada para ejecutarse como administrador.
 
 2. En el símbolo del sistema, escriba:
 
@@ -83,21 +84,21 @@ Para comprobar que se han establecido los valores desde el objeto de directiva d
    gpresult /R > gp.txt
    ```
 
-   Esto generará un informe y enviarlo a un archivo de texto denominado gp.txt. Como alternativa, puede escribir el comando siguiente para generar los mismos datos en un informe HTML más legible llamado gp.html:
+   Esto generará un informe y lo enviará a un archivo de texto denominado GP. txt. Como alternativa, puede escribir el siguiente comando para generar los mismos datos en un informe HTML más legible denominado GP. html:
 
    ``` powershell
    gpresult /H >gp.html
    ```
 
-   ![Captura de pantalla de la ventana de la consola que se ejecuta el comando gpresult.] (media/Qos-in-Teams-Image3.png "Captura de pantalla de la ventana de la consola que se ejecuta el comando gpresult.")
+   ![Captura de pantalla de la ventana de la consola que ejecuta el comando Gpresult.] (media/Qos-in-Teams-Image3.png "Captura de pantalla de la ventana de la consola que ejecuta el comando Gpresult.")
 
-3. En el archivo generado, busque el encabezado **Aplica objetos de directiva de grupo** y compruebe que los nombres de los objetos de directiva de grupo que creó anteriormente están en la lista de directivas aplicadas.
+3. En el archivo generado, busque el encabezado **Applied Group Policy Objects** y compruebe que los nombres de los objetos de directiva de grupo creados anteriormente se encuentran en la lista de directivas aplicadas.
 
-4. Abra el Editor del registro y vaya a:
+4. Abra el editor del registro y vaya a:
 
    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\QoS\
 
-   Compruebe los valores de las entradas del registro que aparecen en la tabla 4.
+   Compruebe los valores de las entradas del registro que se muestran en la tabla 4.
 
    _Tabla 4. Valores de las entradas del registro de Windows para QoS_
 
@@ -110,8 +111,8 @@ Para comprobar que se han establecido los valores desde el objeto de directiva d
    |       Puerto local       | REG_SZ | 50000-50019 |
    |        Protocolo        | REG_SZ |     \*      |
    |       IP remota        | REG_SZ |     \*      |
-   |    Prefijo de dirección IP remota    | REG_SZ |     \*      |
+   |    Prefijo IP remoto    | REG_SZ |     \*      |
    |      Puerto remoto       | REG_SZ |     \*      |
    |     Velocidad de limitación      | REG_SZ |     -1      |
 
-5. Compruebe que es correcto para el cliente que está utilizando el valor de la entrada de nombre de la aplicación y compruebe que el valor de DSCP y el puerto Local entradas reflejan la configuración en el objeto de directiva de grupo.
+5. Compruebe que el valor de la entrada del nombre de la aplicación es correcto para el cliente que está usando y compruebe que tanto el valor de DSCP como las entradas del puerto local reflejan la configuración del objeto de directiva de grupo.

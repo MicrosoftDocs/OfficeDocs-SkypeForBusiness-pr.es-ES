@@ -7,27 +7,28 @@ manager: serdars
 ms.date: 09/25/2017
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 description: Conozca las prácticas recomendadas de los métodos de comentarios en Microsoft Teams para garantizar la mejor experiencia posible con el equipo.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e29c76018f024559d90ff4d07b7dd102a0747b11
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c29a896c520aa6475e0739bc0555090958f35b92
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194768"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236965"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 ===========================================================
 
 La adopción de una nueva experiencia de colaboración consiste en cambiar el comportamiento de los usuarios. Los cambios de los humanos requieren formación, motivación y ejemplos positivos. Es fundamental que la gente se sienta escuchada durante la transición. Si ya ha establecido métodos de comentarios adecuados en su organización, puede ampliarlos para que incluyan la implementación de sus equipos. Si no lo ha hecho antes, puede seguir uno de estos enfoques:
 
--   Creación de un equipo público dentro de Microsoft Teams que cualquier usuario puede unirse a para proporcionar información sobre su experiencia (que se teniendo en cuenta que los grupos públicos está limitado a 5000 usuarios).
+-   Crear un equipo público en Microsoft Teams con el que cualquier usuario pueda unirse para proporcionar comentarios sobre su experiencia (teniendo en cuenta que los grupos públicos están limitados a usuarios de 5000).
 
 -   El uso de Yammer para proporcionar una comunidad abierta para las prácticas recomendadas y la compatibilidad de la experiencia.
 

@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Resumen: Obtenga información sobre cómo actualizar Lync Server 2013 a Skype empresarial Server 2015. Descargue una prueba gratuita de Skype empresarial Server 2015 en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: f68e944b75af9f921dacd182bab023177a3ab2b1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275517"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237451"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -72,7 +72,7 @@ La actualización de Lync Server 2013 a Skype empresarial Server 2015 implica la
 Antes de iniciar el proceso de actualización, todos los servicios deben estar ejecutándose para los grupos que tiene previsto actualizar. El objetivo es que los cambios en la topología se repliquen en las bases de datos locales de los servidores del grupo.
   
 > [!IMPORTANT]
->  Guarde una copia del archivo con la topología antes de actualizar. Después de la actualización, no podrá degradar la topología. > si sus servicios están en los mismos servidores que sus bases de datos, como el servicio de chat persistente está en el mismo servidor que la base de datos de chat persistente, omita este paso y vaya al paso 4. Después de detener los servicios, ejecute la instalación de la actualización local en cada uno de los servidores para actualizar las bases de datos locales.
+>  Guarde una copia del archivo con la topología antes de actualizar. Después de la actualización, no podrá degradar la topología. > si los servicios están en los mismos servidores que las bases de datos, como el servicio de chat persistente está en el mismo servidor que la base de datos de chat persistente, omita este paso y vaya al paso 4. Después de detener los servicios, ejecute la instalación de la actualización local en cada uno de los servidores para actualizar las bases de datos locales.
   
 > [!NOTE]
 > Si la topología tiene una base de datos back-end que se refleja, verá tanto la base de datos principal como la reflejada al **publicar la topología** con el Generador de topologías. Asegúrese de que todas las bases de datos se estén ejecutando en la principal y seleccione solo la principal, no el reflejo, cuando publique la topología, de lo contrario verá una advertencia después de publicarla.
@@ -180,7 +180,7 @@ Le recomendamos que use Disable-CsComputer, ya que es posible que tenga que rein
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Paso 5: Actualizar grupos front-end y servidores de grupos que no son front-end
 
 > [!NOTE]
->  Antes de la actualización, instale todos los requisitos previos necesarios para Skype empresarial Server 2015, que incluyen: > de al menos 32 GB de espacio libre antes de intentar una actualización. Además, asegúrese de que la unidad es una unidad local fija, no está conectada por USB o FireWire, está formateada con el sistema de archivos NTFS, no está comprimida y no contiene un archivo de paginación. > PowerShell versión 6.2.9200.0 o posterior. > la última versión de Lync Server 2013 Actualización acumulativa instalada. > SQL Server 2012 SP1 instalado. > de los siguientes KB instalados (se instalan automáticamente si usan Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)_GT_ windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Antes de la actualización, instale todos los requisitos previos necesarios para Skype empresarial Server 2015, que incluyen: > al menos 32 GB de espacio libre antes de intentar una actualización. Además, asegúrese de que la unidad es una unidad local fija, no está conectada por USB o FireWire, está formateada con el sistema de archivos NTFS, no está comprimida y no contiene un archivo de paginación. > PowerShell versión 6.2.9200.0 o posterior. > el último Lync Server 2013 Actualización acumulativa instalada. > SQL Server 2012 SP1 instalado. > se instalan los siguientes KB (se instalan automáticamente si usas Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
   
 Use la actualización local en cada servidor para actualizar el grupo de servidores front-end, el grupo perimetral, el servidor de mediación y el grupo de chats persistentes.
   

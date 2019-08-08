@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el cliente de Skype Empresarial en Mac, y cómo se editan desde fuera de la aplicación.
-ms.openlocfilehash: fa9b809c742a87a7f522ed211406e2b97cbcfe6d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282520"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234193"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar la experiencia del cliente de Mac en Skype Empresarial
  

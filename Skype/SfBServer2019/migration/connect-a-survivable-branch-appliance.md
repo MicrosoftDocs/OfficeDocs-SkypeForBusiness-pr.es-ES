@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Cada dispositivo de sucursal con supervivencia (SBA) está asociado con un grupo de servidores front-end que sirve como registrador de copias de seguridad de la SBA. Cuando el grupo de servidores front-end se migra a Skype empresarial Server 2019, SBA debe estar desvinculado del grupo front-end mientras se actualiza el grupo, una vez que el grupo se ha migrado a Skype empresarial Server 2019, la SBA se puede volver a asociar con la actualización frontal E Grupo ND. Esto implica eliminar la SBA de la topología heredada en el generador de topología y, a continuación, agregar el SBA a la topología de Skype empresarial Server 2019. Los usuarios alojados en el SBA heredado deben moverse primero a otro grupo de servidores front end antes de quitar SBA de la topología. Una vez agregada SBA a la topología de Skype empresarial Server 2019, esos usuarios podrán volver a la SBA. Estos pasos se resumen a continuación:'
-ms.openlocfilehash: 7cb933018d24dafb978464338f01f97b25e15539
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5545a2de4eddd65790f425ab888b8fd07faf970
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275548"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239287"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar una aplicación de sucursal con funciones de supervivencia
 

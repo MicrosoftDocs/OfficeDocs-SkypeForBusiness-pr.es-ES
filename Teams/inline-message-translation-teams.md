@@ -7,7 +7,7 @@ ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: salilda
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dfd0582837b2e9c9859b44292255e5e42a2f35a4
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 8b6da80dda90c57a55a75c885b42bc08a824b613
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222072"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245354"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Activar la traducción de mensajes en línea en Microsoft Teams 
 =================================================

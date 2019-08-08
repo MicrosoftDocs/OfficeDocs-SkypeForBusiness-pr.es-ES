@@ -5,105 +5,106 @@ ms.author: lolaj
 manager: serdars
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
-description: En este artículo se explica cómo puede planear y configurar interoperabilidad de vídeo en la nube para los usuarios de la organización.
+description: En este artículo se explica cómo se puede planear y configurar la interoperabilidad de vídeo en la nube para los usuarios de su organización.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b171b3fb5e73561ea5aea54e6e4f25bfabe6b0dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e91b0e25a7844634577083b26d74a48c788bc45b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198867"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237057"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar la interoperabilidad de vídeos en la nube para Microsoft Teams
 
-Cuando haya [elegido en sus socios de interoperabilidad de vídeo en la nube](cloud-video-interop.md), debe planear la implementación, configurar get con detalles de aprovisionamiento y clave de inquilino de socio y consentimiento a la aplicación de interoperabilidad de vídeo en su organización. En el siguiente diagrama describe el proceso. 
+Una vez que haya [elegido en su socio de interoperabilidad de video en la nube](cloud-video-interop.md), tendrá que planear su implementación, configurar los detalles de aprovisionamiento y la clave de inquilino del Partner, y el consentimiento de la aplicación de interoperabilidad de vídeo de su organización. En el siguiente diagrama se describe el proceso. 
 
-![Implementación de CVI en la organización](media/deploying-cvi.png)
+![Implementar CVI en su organización](media/deploying-cvi.png)
 
 ## <a name="plan"></a>Plan
 
-Vea [Interoperabilidad de vídeo en la nube para los equipos de Microsoft](cloud-video-interop.md) para obtener información acerca de cómo identificar un socio o socios para usar en su organización. 
+Consulte [interoperabilidad de vídeo en la nube para Microsoft Teams](cloud-video-interop.md) para obtener información sobre cómo identificar un partner o socios para usar en su organización. 
 
-Para planear la habilitación todo el usuario en función o simultánea/sitio: 
+Para planificar la habilitación de los sitios de forma simultánea o concurrente: 
 
-- Elegir un modelo de implementación hospedada por el modelo o para su uso
+- Elegir un modelo de implementación o un modelo hospedado para su uso
 - Seleccione el plan de licencia ideal para su organización. 
-- Planeación de capacidad de las máquinas virtuales es que va a hospedar la infraestructura de vídeo.
+- Planee la capacidad de las VMs para hospedar su infraestructura de video.
 
 ## <a name="configure"></a>Configuración 
 
 Para configurar la interoperabilidad de vídeo en la nube, siga estos pasos. 
 
-1. Para obtener información de configuración de los socios y socios que tiene elegido (clave de inquilino, AppID...). Puede usar a uno o más asociados de interoperabilidad vídeo en su organización 
+1. Obtener información de configuración de los socios o socios que ha elegido (clave de inquilino, appIds...). Puede usar uno o varios socios de interoperabilidad de vídeo de su organización 
 
-2. Asegúrese de que su red está configurada correctamente. Configure el firewall de vídeo basada en estándares para recorrido por la red perimetral admitir. Por ejemplo: 
-    - Cisco VCS-e                  
-    - Polycom RPAD
+2. Asegúrese de que la red está configurada correctamente. Configure su firewall de vídeo basado en estándares para que sea compatible con la red perimetral. Por ejemplo: 
+    - VCS-e de Cisco                  
+    - RPAD Polycom
 
-3. Configurar salones integrados con exchange y OTD. En la mayoría de los casos, retransmisión adicional tendría que configurarse y configurado en el entorno.
+3. Configurar salas integradas con Exchange y OTD. En la mayoría de los casos, será necesario configurar y configurar la retransmisión adicional en su entorno.
 
 
-## <a name="provision"></a>Provisión
+## <a name="provision"></a>Aprovisionar
  
-La clave de inquilino será la llamada de salida para el servicio de socio. En el ejemplo siguiente, 813878896@t.plcm.vc es la clave de inquilino. 
+La clave de inquilino se enviará a través del servicio asociado. En el ejemplo siguiente, 813878896@t.plcm.vc es la clave de inquilino. 
 
 ![Ejemplo de clave de inquilino](media/tenant-key-example.png) 
 
-Debe ejecutar los siguientes cmdlets para aprovisionar la clave de inquilino y también permiten seleccionar usuarios o toda la organización crear reuniones con coordenadas de interoperabilidad de vídeo.
+Tendrá que ejecutar los siguientes cmdlets para aprovisionar la clave de inquilino y también habilitar a usuarios seleccionados o a toda la organización para crear reuniones con coordenadas de interoperabilidad de vídeo.
 
  
-- ** [Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft proporciona directivas construidas previamente para cada uno de nuestros socios compatibles que le permiten designar que socios a usar para la interoperabilidad de vídeo en la nube.
+- ** [Get-CsTeamsVideoInteropServicepolicy](https://docs.microsoft.com/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft proporciona directivas preconstruidas para cada uno de nuestros socios compatibles, que le permiten designar qué asociados usar para la interoperabilidad de vídeo en la nube.
 
-    Este cmdlet permite identificar las directivas construidas previa a la que pueden usar en su organización. Puede asignar esta directiva a uno o varios de los usuarios aprovecha el cmdlet Grant-CsTeamsVideoInteropServicePolicy.
+    Este cmdlet le permite identificar las directivas preconstruidas que puede usar en su organización. Puede asignar esta directiva a uno o más de los usuarios que aprovechan el cmdlet Grant-CsTeamsVideoInteropServicePolicy.
  
-- ** [Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** El cmdlet Grant-CsTeamsVideoInteropServicePolicy permite asignar una directiva previamente construida para su uso en la organización o asignar la directiva a usuarios específicos.
+- ** [Grant-CsTeamsVideoInteropServicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** El cmdlet Grant-CsTeamsVideoInteropServicePolicy le permite asignar una directiva preconstruida para su uso en su organización o asignar la Directiva a usuarios específicos.
  
-- ** [Nuevo CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** Use el nuevo-CsVideoInteropServiceProvider para especificar la información acerca de un socio CVI compatible la organización le gustaría usar.
+- ** [New-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/new-csvideointeropserviceprovider):** Use el nuevo-CsVideoInteropServiceProvider para especificar información sobre un socio de CVI admitido que su organización desea usar.
  
-- ** [Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Utilice el Set-CsVideoInteropServiceProvider para actualizar la información sobre un socio CVI compatible que usa la organización.
+- ** [Set-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/set-csvideointeropserviceprovider):** Use set-CsVideoInteropServiceProvider para actualizar la información sobre un socio de CVI compatible que usa su organización.
  
 - ** [Get-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/get-csvideointeropserviceprovider):** Obtener todos los proveedores que se han configurado para su uso dentro de la organización.
  
-- ** [Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** Use Remove-CsVideoInteropServiceProvider para quitar toda la información de proveedor de un proveedor que ya no se usa la organización.  
+- ** [Remove-CsVideoInteropServiceProvider](https://docs.microsoft.com/powershell/module/skype/remove-csvideointeropserviceprovider):** Use Remove-CsVideoInteropServiceProvider para quitar toda la información de proveedores de un proveedor que ya no use su organización.  
  
-## <a name="consent"></a>Consentimiento
+## <a name="consent"></a>Concede
 
-Debe proporcionar el consentimiento de permiso para los dispositivos de videoconferencias (VTCs) para participar en las reuniones de las organizaciones a través del servicio de socio. También se proporcionará este vínculo de consentimiento por su socio.  
+Necesitará proporcionar autorización de permiso para que los dispositivos de teleconferencia de vídeo (VTCs) se unan a las reuniones de su organización a través del servicio de asociación. El socio también proporcionará este vínculo de consentimiento.  
  
-Una vez completados estos pasos, los usuarios que están habilitados de forma individual mediante el cmdlet Grant por encima o todos los usuarios de la organización si está habilitado el inquilino, tendrán coordenadas VTC en todas las reuniones de los equipos programan. Cualquier VTC puede unirse a estas reuniones a través de esas coordenadas.
+Una vez completados estos pasos, los usuarios que se habilitan individualmente mediante el cmdlet Grant anterior o todos los usuarios de la organización si el inquilino está habilitado, tendrán coordenadas de VTC en todas las reuniones de teams que programen. Cualquier VTC puede unirse a estas reuniones a través de esas coordinadas.
 
 
-|Nombre|Breve descripción de permisos de aplicación| Descripción|
+|Nombre|Descripción breve de permisos de la aplicación| Descripción|
 |--|--|---|
-|Calls.JoinGroupCall.All|Unirse a reuniones y llamadas de grupo como una aplicación (vista previa)|Permite que la aplicación para unirse a llamadas de grupo y las reuniones programadas en la organización, sin que el usuario ha iniciado sesión.  La aplicación se van a unir con los privilegios de un usuario de Active directory a las reuniones en su inquilino.|
-|Calls.JoinGroupCallasGuest.All|Unirse a reuniones y llamadas de grupo como un usuario invitado (vista previa)|Permite que la aplicación de forma anónima unirse a llamadas de grupo y las reuniones programadas en la organización, sin que el usuario ha iniciado sesión.  La aplicación se unirá como invitado a las reuniones en su inquilino.|
-|Calls.AccessMedia.All|Secuencias de medios de acceso en una llamada como una aplicación (vista previa)|Permite que la aplicación obtener acceso directo a secuencias de medios en una llamada, sin que el usuario ha iniciado sesión.|
-|OnlineMeetings.Read.All|Detalles de la reunión en línea de lectura (vista previa)|Permite que la aplicación leer los detalles de la reunión en línea en la organización, sin que el usuario ha iniciado sesión.|
+|Calls. JoinGroupCall. All|Unirse a reuniones grupales y reuniones como una aplicación (vista previa)|Permite a la aplicación unirse a llamadas grupales y a las reuniones programadas de su organización, sin necesidad de que un usuario haya iniciado sesión.  La aplicación se unirá con los privilegios de un usuario del directorio a las reuniones de su inquilino.|
+|Calls. JoinGroupCallasGuest. All|Unirse a reuniones de grupo y reuniones como un usuario invitado (vista previa)|Permite a la aplicación unirse anónimamente a llamadas grupales y a reuniones programadas de su organización, sin necesidad de que un usuario haya iniciado sesión.  La aplicación se unirá como invitado a las reuniones de su inquilino.|
+|Calls. AccessMedia. All|Acceder a las transmisiones multimedia en una llamada como una aplicación (vista previa)|Permite que la aplicación obtenga acceso directo a las transmisiones multimedia en una llamada, sin necesidad de que un usuario haya iniciado sesión.|
+|OnlineMeetings. Read. All|Leer detalles de la reunión en línea (vista previa)|Permite que la aplicación Lea los detalles de la reunión en línea en su organización, sin necesidad de que un usuario haya iniciado sesión.|
 
-## <a name="schedule"></a>Programación
+## <a name="schedule"></a>Programa
 
-A continuación, programar reuniones de los equipos con las coordenadas de interoperabilidad de vídeo. El usuario habilitado puede programar reuniones de los equipos a través de:
-- [Equipos de la reunión complemento para Outlook](teams-add-in-for-outlook.md)
-- Cliente de los equipos móvil y de escritorio
+A continuación, programe Teams reunión con coordenadas de interoperabilidad de vídeo. El usuario habilitado puede programar reuniones de Teams a través de:
+- [Complemento de reunión de Teams para Outlook](teams-add-in-for-outlook.md)
+- Equipo cliente de escritorio y móvil
 
 
 ## <a name="join"></a>Join
 
-Puede unirse a reuniones de los equipos con los dispositivos VTC de las siguientes maneras:
+Puede unirse a las reuniones de Teams con sus dispositivos de VTC de las siguientes maneras:
  
 - IVR (respuesta interactiva de voz)
-    - Puede marcar a IVR del socio con la tenantkey@domain. 
-    - Una vez que se encuentra en el socio IVR, se le pedirá que lo especifique el conferenceId VTC, que, a continuación, se conectará a la reunión de los equipos.
+    - Puede llamar al IVR del socio mediante el dominio tenantkey @. 
+    - Una vez que se encuentre en el IVR de socio, se le pedirá que introduzca el VTC conferenceId, que le conectará a la reunión de Teams.
 - Marcado directo
-    - Puede marcar directamente a la reunión de los equipos sin necesidad de interacción con IVR del socio mediante la característica de marcado directo con la cadena completa de tenantkey. VTC ConferenceId@domain.
-- Marcado con un solo toque
-    - Si tiene un salón de equipos integrado, puede usar las capacidades de acceso telefónico con un solo toque ofrecidas por su socio (sin necesidad de escribir cualquier cadena de marcado).
+    - Puede llamar directamente a la reunión de Teams sin interactuar con el IVR del socio mediante la característica de marcado directo con la cadena completa de tenantkey. VTC ConferenceId @ dominio.
+- Marcación sencilla
+    - Si tiene una sala de equipos integrada, puede usar las funciones de marcado con un solo toque que le ofrece su partner (sin necesidad de escribir ninguna cadena de marcado).
 
-Por último, integrarse con los usuarios de los equipos en las reuniones de uso compartido de audio, vídeo y contenido. 
+Por último, comuníquese con los usuarios de Teams en sus reuniones con audio, vídeo y uso compartido de contenido. 

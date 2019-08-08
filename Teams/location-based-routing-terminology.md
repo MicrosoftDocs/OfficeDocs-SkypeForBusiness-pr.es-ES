@@ -7,8 +7,9 @@ ms.date: 2/1/2019
 ms.topic: conceptual
 ms.reviewer: roykuntz
 ms.service: msteams
+audience: admin
 search.appverid: MET150
-description: Obtenga información sobre la terminología y los conceptos asociados con el enrutamiento basado en la ubicación para el enrutamiento directo.
+description: Aprenda terminología y conceptos relacionados con el enrutamiento basado en la ubicación para el enrutamiento directo.
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -16,25 +17,25 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a8e02f8c9c9371771f41b1fc724bcc2f40ebd69b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9d35b42453ac0eb9d9ae4a3f4c71f4452943a3b0
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245183"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245100"
 ---
 # <a name="location-based-routing-terminology"></a>Terminología de enrutamiento basado en la ubicación
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-A continuación presentamos algunos términos y conceptos que se usan en toda la documentación de enrutamiento basado en la ubicación. Es una buena idea estar familiarizado con estos términos y conceptos antes de obtener más profunda en la documentación.
+Estos son algunos términos y conceptos que se usan en toda la documentación de enrutamiento basado en la ubicación. Es buena idea estar familiarizado con estas condiciones y conceptos antes de que la documentación se vea más detallada.
 
 |Término  |Descripción  |
 |---------|---------|
-|Regiones de red     | Una región de red incluye una colección de sitios de red. Por ejemplo, si su organización tiene muchos sitios que se encuentra en la India, puede designar "India" como una región de red.        |
-|Sitios de red    | Un sitio de red representa una ubicación donde la organización tiene una ubicación física, como una oficina, un conjunto de edificios o un campus. Sitios de red se definen como una colección de subredes IP. Es una práctica recomendada para el enrutamiento basado en la ubicación crear un sitio independiente para cada ubicación que tiene conectividad con RTC única.  Cada sitio de red debe asociarse con una región de red. Puede crear un sitio que está habilitado para enrutamiento basado en la ubicación o un sitio que no está habilitado para enrutamiento basado en la ubicación. Por ejemplo, es posible que desee crear un sitio que no está habilitado para que enrutamiento basados en ubicación permitir a los usuarios que están habilitados para que enrutamiento basados en ubicación realizar llamadas de RTC cuando desplazan a ese sitio. Tenga en cuenta que también se pueden usar los sitios de red para habilitar y configurar llamadas de emergencia.        |
-|Subredes de red     |Subredes IP en la ubicación donde los extremos de los equipos pueden conectarse a la red deben ser definidas y asociadas a una red definida para aplicar el desvío de pago. Varias subredes pueden estar asociadas con el mismo sitio de red, pero no se pueden asociados con una misma subred varios sitios. Esta asociación de subredes permite enrutamiento basados en ubicación buscar los extremos geográficamente para determinar si se debe permitir una determinada llamada de RTC. Se admiten las subredes tanto IPv4 como IPv6. Al determinar si un extremo de los equipos está ubicado en un sitio, el enrutamiento basado en la ubicación comprueba primero para una dirección IPv6 coincidente. Si una dirección IPv6 no está presente, enrutamiento basados en ubicación comprueba una dirección IPv4. <br><br>Compatibilidad con IPv6 está en curso y estará disponible por disponibilidad General (GA) de enrutamiento basado en la ubicación.          |
-|Direcciones IP externas de confianza    |Confianza direcciones IP externas son las direcciones IP externas de Internet de la red de la empresa. Determinan si el extremo del usuario está dentro de la red corporativa antes de comprobar una coincidencia de sitio específico. Si la dirección IP externa del usuario coincide con una dirección IP que se define en la lista de confianza, enrutamiento basados en ubicación comprueba para determinar la subred interna donde se encuentra extremo del usuario. Si la dirección IP externa del usuario no coincide con cualquier dirección IP que se define en la lista de confianza, el extremo se clasifica como está en una ubicación desconocida y se bloquean las llamadas RTC a o desde un usuario habilitado para enrutamiento basado en la ubicación.          |
+|Regiones de red     | Una región de red incluye una colección de sitios de red. Por ejemplo, si tu organización tiene muchos sitios ubicados en India, puedes elegir designar "India" como región de red.        |
+|Sitios de red    | Un sitio de red representa una ubicación en la que su organización tiene un lugar físico, como una oficina, un conjunto de edificios o un campus. Los sitios de red se definen como una colección de subredes IP. Un procedimiento recomendado para el enrutamiento basado en la ubicación es crear un sitio independiente para cada ubicación que tenga conectividad RTC exclusiva.  Cada sitio de red debe estar asociado a una región de red. Puede crear un sitio habilitado para el enrutamiento basado en la ubicación o un sitio que no esté habilitado para el enrutamiento basado en la ubicación. Por ejemplo, es posible que desee crear un sitio que no esté habilitado para el enrutamiento basado en la ubicación para permitir que los usuarios que tengan habilitado el enrutamiento basado en la ubicación realicen llamadas RTC cuando se muevan a ese sitio. Tenga en cuenta que los sitios de red también pueden usarse para habilitar y configurar llamadas de emergencia.        |
+|Subredes de red     |Las subredes IP en la ubicación en la que se pueden conectar los puntos de conexión de Teams a la red deben definirse y asociarse a una red definida para exigir omisión de pago. Varias subredes pueden estar asociadas al mismo sitio de red, pero es posible que varios sitios no estén asociados a una misma subred. Esta asociación de subredes permite que el enrutamiento basado en la ubicación Ubique los puntos de conexión geográficamente para determinar si se debe permitir una llamada RTC determinada. Se admiten subredes IPv6 e IPv4. Al determinar si un punto de conexión de Teams se encuentra en un sitio, el enrutamiento basado en la ubicación comprueba primero si existe una dirección IPv6. Si no hay ninguna dirección IPv6, el enrutamiento basado en la ubicación comprueba la existencia de una dirección IPv4. <br><br>
+|Direcciones IP externas de confianza    |Las direcciones IP externas de confianza son las direcciones IP externas de Internet de la red empresarial. Determinan si el extremo del usuario está dentro de la red corporativa antes de comprobar si hay una coincidencia con un sitio específico. Si la IP externa del usuario coincide con una dirección IP definida en la lista de confianza, las comprobaciones de enrutamiento basadas en la ubicación determinarán la subred interna en la que se encuentra el extremo del usuario. Si la dirección IP externa del usuario no coincide con ninguna dirección IP definida en la lista de confianza, el extremo se clasifica como si fuera de una ubicación desconocida y cualquier llamada RTC a o de un usuario que tenga habilitado el enrutamiento basado en la ubicación está bloqueada.          |
 
 ### <a name="related-topics"></a>Temas relacionados
 - [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)

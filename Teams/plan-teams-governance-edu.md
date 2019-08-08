@@ -6,20 +6,21 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Respuestas a las preguntas más frecuentes de los administradores de Microsoft Education Groups que usan Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0faa5f24ea64ae0fcfc967281126a4852dd139cf
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: b1bfa8f141f7aa8ce8dd258610ff8b510ff66aac
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35804836"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237656"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Preguntas frecuentes de la administración de Microsoft Education para administradores
 

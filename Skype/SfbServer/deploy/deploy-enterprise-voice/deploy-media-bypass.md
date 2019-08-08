@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Implementación de omisión de contenido multimedia en Skype empresarial Server Enterprise Voice. Incluye los requisitos previos y una lista de comprobación del proceso de implementación.
-ms.openlocfilehash: 37812ab6784167fd59f578e5f12560fbd7e9a08a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2cbb57499a4cdb38a83424b3c86445817b18b4c5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291231"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233270"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Implementación de omisión de contenido multimedia en Skype empresarial Server
  

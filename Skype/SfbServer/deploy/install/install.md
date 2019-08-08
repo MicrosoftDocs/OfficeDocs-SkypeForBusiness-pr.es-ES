@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 'Resumen: Aprenda a preparar el entorno para una instalación de Skype empresarial Server. Descargue una prueba gratuita de Skype empresarial Server en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: b9a89e73f47922493a6d7add320c21b9b9900103
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f15a305a660586e017984a171db217636e2e09ff
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306779"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244341"
 ---
 # <a name="install-skype-for-business-server"></a>Instalar Skype Empresarial Server
  

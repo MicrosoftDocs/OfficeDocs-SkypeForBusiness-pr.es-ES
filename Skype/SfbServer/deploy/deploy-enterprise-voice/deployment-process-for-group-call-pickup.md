@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: Proceso de implementación y pasos para la recogida de llamadas grupales en la telefonía IP empresarial de Skype empresarial.
-ms.openlocfilehash: f493c3c83f3fa703dd5f62989f4f2e444e83ed5d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 870692b1395d96c75d6d96a5914004a8a95f088a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289927"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245321"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Proceso de implementación para la recogida de llamadas grupales en Skype empresarial
  

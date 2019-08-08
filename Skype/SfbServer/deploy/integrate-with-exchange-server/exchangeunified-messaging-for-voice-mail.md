@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumen: configurar la mensajería unificada de Exchange Server para el correo de voz de Skype empresarial Server.'
-ms.openlocfilehash: a1c83b4ec92e6e3b3d678d2d7e0a65f58fc9d6ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278188"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238011"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar la mensajería unificada de Exchange Server para el correo de voz de Skype Empresarial Server
  
@@ -153,7 +153,7 @@ Si está integrando Microsoft Skype empresarial Server con mensajería unificada
 - Crea un grupo de captura de UM para cada puerta de enlace IP de MU. El identificador piloto de cada grupo de captura especifica el plan de marcado URI del SIP de MU usado por el grupo de servidores front-end de Skype empresarial Server o el servidor Standard Edition que está asociado a la puerta de enlace IP de MU.
 - Concede permiso de servidor de Skype empresarial para leer objetos contenedores de mensajería unificada de Active Directory, como planes de marcado de MU, operadores automáticos, puertas de enlace IP de MU y grupos de captura de MU.
   > [!IMPORTANT]
-  > Cada bosque de MU debe estar configurado para confiar en el bosque en el que se implementa Skype empresarial Server y el bosque en el que se implementa Skype empresarial Server 2013 debe estar configurado para confiar en cada bosque de MU. Si la mensajería unificada de Exchange se instala en varios bosques, los pasos de integración de Exchange Server deben realizarse para cada bosque de MU o tendrá que especificar el dominio de Skype empresarial Server. Por ejemplo, ExchUcUtil. PS1: Forest: <lync-Domain-Controller-fqdn>. 
+  > Cada bosque de MU debe estar configurado para confiar en el bosque en el que se implementa Skype empresarial Server y el bosque en el que se implementa Skype empresarial Server 2013 debe estar configurado para confiar en cada bosque de MU. Si la mensajería unificada de Exchange se instala en varios bosques, los pasos de integración de Exchange Server deben realizarse para cada bosque de MU o tendrá que especificar el dominio de Skype empresarial Server. Por ejemplo, ExchUcUtil. PS1: bosque: <Lync-Domain-Controller-FQDN>. 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Usar el shell para ejecutar el script ExchUcUtil. ps1
 
@@ -164,7 +164,7 @@ Ejecute el script ExchUcUtil. PS1 en cualquier servidor de Exchange de su organi
 > Debe tener los permisos de la función de administración de la organización de Exchange o ser miembro del grupo de seguridad administradores de la organización de Exchange para poder ejecutar el script. 
 
 1. Abra el shell de administración de Exchange.
-2. En el símbolo del sistema C:\Windows\System32, escriba **CD \<unidad letter>: \Archivos de Files\Microsoft\Exchange Server\V15\Scripts>. ExchUcUtil. PS1**y, a continuación, presione Entrar.
+2. En el símbolo del sistema C:\Windows\System32, escriba la letra de la **unidad de cd \<>: \Archivos de Files\Microsoft\Exchange Server\V15\Scripts>. ExchUcUtil. PS1**y, a continuación, presione Entrar.
 
 #### <a name="how-do-you-know-this-worked"></a>¿Cómo se sabe que ha funcionado?
 
@@ -189,7 +189,7 @@ El servidor de Exchange debe estar configurado con un certificado de servidor pa
 
 **Para descargar el certificado de la entidad emisora:**
 
-1. En el servidor que ejecuta la mensajería unificada de Exchange, haga clic en **Inicio**, haga clic en **ejecutar**, escriba **http://\<nombre de la entidad emisora de certificados Server>/certsrv**y, a continuación, haga clic en **Aceptar**.
+1. En el servidor que ejecuta la mensajería unificada de Exchange, haga clic en **Inicio**, haga clic en **ejecutar**, escriba **\<http://nombre del servidor de la CA emisora>/certsrv**y, a continuación, haga clic en **Aceptar**.
 2. En seleccionar una tarea, haga clic en **descargar un certificado de CA, una cadena de certificados o una CRL**.
 3. En **descargar un certificado de CA, una cadena de certificados o una CRL**, seleccione el **método de codificación para base 64**y, después, haga clic en**Descargar certificado de CA**.
    > [!NOTE]

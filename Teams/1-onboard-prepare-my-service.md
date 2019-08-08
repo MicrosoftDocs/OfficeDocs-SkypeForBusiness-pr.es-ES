@@ -3,6 +3,7 @@ title: Preparar la implementación de servicios de voz de nube de Microsoft Team
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: ITPro
 ms.date: 03/18/2019
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Use listas de comprobación de incorporación para preparar Office 365 para equipos y configurar las capacidades básicas de Teams, las redes y las cargas de trabajo de voz de nube.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2316376bd2dfddce99e63fe4ab66c5e33eb813e
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344832"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236201"
 ---
 # <a name="prepare-my-service"></a>Preparar mis servicios
 
@@ -112,7 +113,7 @@ Ahora que ha definido el método de prueba, el siguiente paso es configurar su e
 
 Para obtener más información, consulte:
 
-- [Planificación técnica de Audioconferencia](audio-conferencing.md#technical-planning-for-audio-conferencing)
+- [Planificación técnica de Audioconferencia](cloud-voice-deployment.md)
 
 - [Configurar audioconferencias en Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 

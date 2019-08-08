@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Resumen: Aprenda a instalar y probar Skype empresarial en Windows Phone.'
-ms.openlocfilehash: 2796f1664ec20142bd8f9399830836c8c284ac67
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 80b7f208153474380e5fae1b1c8a95b3fdb06e39
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278287"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234864"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Install and test Skype for Business for Windows Phone
  

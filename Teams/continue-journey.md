@@ -5,22 +5,23 @@ ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 search.appverid: MET150
 description: Instrucciones para continuar con el viaje de Skype empresarial a Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a9bc092f458533c95e2431ac8f23ba98abd8bd7
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 74471d45e99742774133477f6b978939864aab2e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548091"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236370"
 ---
 ![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 

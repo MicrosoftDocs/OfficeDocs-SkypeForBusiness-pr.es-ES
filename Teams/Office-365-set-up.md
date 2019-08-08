@@ -7,24 +7,25 @@ ms.date: 08/7/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
-description: Obtenga información sobre cómo activar Microsoft Teams para la organización de Office 365.
+audience: admin
+description: Obtenga información sobre cómo activar Microsoft Teams para su organización de Office 365.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3689d76df2a3f867f3d90149572c185574af46e8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180132"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245836"
 ---
-# <a name="enable-teams-in-your-organization"></a>Permiten a los equipos de la organización
+# <a name="enable-teams-in-your-organization"></a>Habilitar Teams en su organización
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
@@ -32,7 +33,7 @@ ms.locfileid: "32180132"
 De forma predeterminada, Teams está activado para todas las organizaciones. Si ha usado Teams durante la fase preliminar, la configuración es la misma que se usó durante la versión preliminar de Teams. 
 
 
-Como administrador de la organización, puede asignar licencias de usuario para controlar el acceso individual a los equipos, y puede permitir o bloquear qué orígenes de contenido se pueden usar en los equipos. Para obtener más información, vea [configuración de administración de equipos de Microsoft para su organización](enable-features-office-365.md) o [administración de configuración para las aplicaciones en los equipos de Microsoft](admin-settings.md) . 
+Como administrador de su organización, puede asignar licencias de usuario para controlar el acceso individual a teams y puede permitir o bloquear el uso de orígenes de contenido en Teams. Para obtener más información, vea [administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md) o [configuración de administración de aplicaciones en Microsoft Teams](admin-settings.md) . 
 
 
  

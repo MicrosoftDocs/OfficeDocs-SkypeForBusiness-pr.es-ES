@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 'Resumen: Aprenda a configurar CDR y QoE en Skype empresarial Server.'
-ms.openlocfilehash: 8a83e5920de60d664e76590d2b5b2a9f36b589ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d2f86654e852a2126fc611e820f95b8ebad5259a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306643"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239966"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Configurar la grabación de detalles de llamadas y la configuración de la calidad de la experiencia en Skype empresarial Server
  

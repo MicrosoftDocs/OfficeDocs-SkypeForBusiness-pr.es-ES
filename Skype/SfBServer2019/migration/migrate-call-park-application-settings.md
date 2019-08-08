@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'La migración de la aplicación de estacionamiento de llamadas incluye el aprovisionamiento del grupo de servidores de Skype empresarial 2019 con cualquier música personalizada en los archivos que se hayan cargado en la instalación heredada, la restauración de la configuración del nivel de servicio y la redestinación de todas las opciones de estacionamiento de la Grupo de servidores de Skype empresarial 2019. Si se han configurado archivos de música en espera personalizados en el grupo, estos archivos deben copiarse en el nuevo grupo de servidores de Skype empresarial 2019. Además, se recomienda que haga una copia de seguridad de todos los archivos de música en espera personalizados de la llamada en espera para mantener una copia de seguridad separada de los archivos de música personalizada que se hayan cargado en el parque de llamadas. Los archivos de música personalizada habilitada para la aplicación de estacionamiento de llamadas se almacenan en el almacén de archivos del grupo. Para copiar los archivos de audio de un grupo de almacenamiento de archivos en un almacén de archivos de Skype empresarial Server 2019, use el comando xcopy con los siguientes parámetros:'
-ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: efb2bfbf8ac62ad05e2ee560c2aca4fb7b496006
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280835"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36238035"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migrar la configuración de la aplicación de estacionamiento de llamadas
 

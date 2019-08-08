@@ -6,9 +6,10 @@ manager: serdars
 ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
+audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo crear y configurar regiones de red, sitios y subredes para enrutamiento basado en la ubicación para el enrutamiento directo.
+description: Aprenda a crear y configurar regiones, sitios y subredes de red para el enrutamiento basado en la ubicación para el enrutamiento directo.
 localization_priority: Normal
 ms.collection:
 - Teams_ITAdmin_Help
@@ -16,29 +17,29 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7f6f6f1e74cc50b37ade03e97106d2befe36a6dd
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222366"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245111"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configuración de red de enrutamiento basado en la ubicación
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-Si ya lo ha hecho, lea [Plan Location-Based enrutamiento para el enrutamiento directo](location-based-routing-plan.md) para revisar otros pasos debe tomar antes de configurar la configuración de red para el enrutamiento basado en la ubicación.
+Si aún no lo ha hecho, lea [planificar el enrutamiento basado en la ubicación para que el enrutamiento directo](location-based-routing-plan.md) Revise otros pasos que debe realizar antes de configurar la configuración de red para el enrutamiento basado en la ubicación.
 
-Este artículo describe cómo configurar las opciones de red para el enrutamiento basado en la ubicación. Después de implementar el enrutamiento directo teléfono del sistema en la organización, son los siguientes pasos crear y configurar regiones de red, sitios de red y subredes de la red. Para completar los pasos descritos en este artículo, necesitará un poco familiarizado con los cmdlets de PowerShell. Para obtener más información, vea [Introducción a los equipos de PowerShell](teams-powershell-overview.md).
+En este artículo se describe cómo configurar las opciones de red para el enrutamiento basado en la ubicación. Después de implementar el enrutamiento directo de un sistema telefónico en su organización, los pasos siguientes son crear y configurar regiones de red, sitios de red y subredes de red. Para completar los pasos de este artículo, necesitará cierta familiaridad con los cmdlets de PowerShell. Para obtener más información, consulte [información general de Teams PowerShell](teams-powershell-overview.md).
 
 ## <a name="define-network-regions"></a>Definir regiones de red
- Una región de red interconexiones distintas partes de una red a través de varias áreas geográficas. Use el cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) para definir regiones de red. Tenga en cuenta que el parámetro RegionID es un nombre lógico que representa la región geográfica de la región y no tiene ninguna dependencia o restricciones y el CentralSite &lt;identificador de sitio&gt; parámetro es opcional. 
+ Una región de red interconecta varias partes de una red en varias áreas geográficas. Use el cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) para definir regiones de red. Tenga en cuenta que el parámetro RegionID es un nombre lógico que representa la geografía de la región y no tiene dependencias ni restricciones, &lt;y el&gt; parámetro de identificador de sitio CentralSite es opcional. 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
 ```
 
-En este ejemplo, se crea una región de red denominada India. 
+En este ejemplo, creamos una región de red denominada India. 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID "India"  
 ```
@@ -55,37 +56,37 @@ En este ejemplo, creamos dos nuevos sitios de red, Delhi y Hyderabad, en la regi
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
 ```
-En la siguiente tabla muestra los sitios de red definidos en este ejemplo. 
+En la tabla siguiente se muestran los sitios de red definidos en este ejemplo. 
 
 ||Sitio 1 |Sitio 2 |
 |---------|---------|---------|
-|Identificador de sitio    |    Sitio 1 (Delhi)     |  Sitio 2 (Hyderabad)       |
-|Identificador de región  |     Región 1 (India)    |   Región 1 (India)      |
+|IDENTIFICADOR de sitio    |    Sitio 1 (Delhi)     |  Sitio 2 (Hyderabad)       |
+|IDENTIFICADOR de región  |     Región 1 (India)    |   Región 1 (India)      |
 
 ## <a name="define-network-subnets"></a>Definir subredes de red
 
-Use el cmdlet [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) para definir subredes de red y asociarlos a sitios de red. Sólo se puede asociar con un sitio cada subred interna. 
+Use el cmdlet [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) para definir subredes de red y asociarlas a sitios de red. Cada subred interna solo se puede asociar con un sitio. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
-En este ejemplo, se crea una asociación entre la subred 192.168.0.0 y el sitio de red de Delhi y entre la subred 192.168.1.0 y el sitio de red de Hyderabad.
+En este ejemplo, creamos una asociación entre la subred 192.168.0.0 y el sitio de red de Delhi y entre la subred 2001:4898: E8:25:844e: 926f: 85ad: dd8e y el sitio de red de Hyderabad.
 ```
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "192.168.1.0" -MaskBits "24" -NetworkSiteID "Hyderabad" 
+New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
 ```
-En la siguiente tabla muestra las subredes definidas en este ejemplo. 
+En la tabla siguiente se muestran las subredes definidas en este ejemplo. 
 
 ||Sitio 1 |Sitio 2 |
 |---------|---------|---------|
-|Identificador de subred   |    192.168.0.0     |  192.168.1.0     |
-|Máscara  |     24    |   24      |
-|Identificador de sitio  | Sitio (Delhi) | Sitio 2 (Hyderabad) |
+|IDENTIFICADOR de subred   |    192.168.0.0     |  2001:4898: E8:25:844e: 926f: 85ad: dd8e     |
+|Sin  |     veinticuatro    |   120      |
+|IDENTIFICADOR de sitio  | Sitio (Delhi) | Sitio 2 (Hyderabad) |
 
-Para varias subredes, puede importar un archivo CSV mediante el uso de una secuencia de comandos como la siguiente.
+En el caso de varias subredes, puede importar un archivo CSV con una secuencia de comandos como la siguiente.
 ```
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
-En este ejemplo, el archivo CSV tiene el aspecto similar al siguiente:
+En este ejemplo, el archivo CSV tiene un aspecto similar a este:
 ```
 Identity, Mask, SiteID 
 172.11.12.0, 24, Redmond 
@@ -94,17 +95,17 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>Definir subredes externas
-Use el cmdlet [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) para definir subredes externas y asignarlas a los inquilinos. Puede definir un número ilimitado de subredes de un inquilino. 
+Use el cmdlet [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) para definir subredes externas y asignarlas al inquilino. Puede definir un número ilimitado de subredes para un inquilino. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 Por ejemplo:
 ```
-New-CsTenantTrustedIPAddress -IPAddress 167.220.2.206 -MaskBits 30 -Description "Contoso address"  
+New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```
 
 ## <a name="next-steps"></a>Pasos siguientes
-Vaya a [Habilitar el enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-enable.md).
+Vaya a [Habilitar el enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md).
 
 ### <a name="related-topics"></a>Temas relacionados
 - [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)

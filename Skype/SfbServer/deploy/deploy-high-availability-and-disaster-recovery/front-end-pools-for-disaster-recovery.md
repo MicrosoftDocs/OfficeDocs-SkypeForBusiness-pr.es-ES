@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Puede decidir usar grupos de servidores front-end para proporcionar protección de recuperación ante desastres emparejados, pero hacerlo no es un requisito.
-ms.openlocfilehash: 49af49a4a8ff3dd0f543de6f1b13bfbe5b571788
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4aa24c3a5150efbea87cd3837aca9216f047b11e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298511"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240040"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Implementar grupos front-end emparejados para recuperación ante desastres en Skype empresarial Server
  

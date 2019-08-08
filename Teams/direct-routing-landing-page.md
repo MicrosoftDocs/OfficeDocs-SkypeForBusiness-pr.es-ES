@@ -6,89 +6,90 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
-description: Página de destino de enrutamiento directo
+description: Página de aterrizaje para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59f7cf4f1249956f3c763d12fcd96bf5c10a9fac
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 1dca9fda99973931cff70301da089f6d0c3f4a9c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401838"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236592"
 ---
 # <a name="phone-system-direct-routing"></a>Enrutamiento directo del Sistema telefónico
 
-Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [conferencia & de las reuniones](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar las cargas de trabajo de voz de la nube y ha decidido utilizar su propio operador de telefonía para la conectividad pública red de telefónica conmutada (RTC) mediante el uso de enrutamiento directo de teléfono del sistema. Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
+Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [reuniones & conferencias](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar cargas de trabajo de voz de nube y ha decidido usar su propio operador de telefonía para conectividad de red telefónica conmutada (RTC) con enrutamiento directo de sistema telefónico. Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
 
-En este artículo se describe la implementación las decisiones principales para el enrutamiento directo, así como consideraciones adicionales es posible que desee pensar, según las necesidades de su organización. También debe leer [En la nube de voz en los equipos de Microsoft](cloud-voice-landing-page.md) para obtener más información acerca de las ofertas de voz de la nube de Microsoft.
+En este artículo se describen las decisiones básicas de implementación para el enrutamiento directo, así como otras consideraciones adicionales, según las necesidades de la organización. También debe leer [la voz de nube en Microsoft Teams](cloud-voice-landing-page.md) para obtener más información sobre las ofertas de voz de nube de Microsoft.
 
-## <a name="learn-more-about-direct-routing"></a>Encontrará más información acerca del enrutamiento directo
+## <a name="learn-more-about-direct-routing"></a>Más información sobre el enrutamiento directo
 
-Los artículos siguientes proporcionan más información sobre cómo configurar y usar enrutamiento directo de teléfono del sistema. Configurar el enrutamiento directo requiere conocimientos de diseño de enrutamiento de RTC. Debe leer todos estos artículos para aprender a planear y configurar el enrutamiento directo:
+Los artículos siguientes proporcionan más información sobre cómo configurar y usar el enrutamiento directo del sistema telefónico. La configuración del enrutamiento directo requiere comprender el diseño de enrutamiento de RTC. Debe leer todos estos artículos para comprender cómo planificar y configurar el enrutamiento directo:
 
 - [Planear el enrutamiento directo](direct-routing-plan.md) 
 - [Configurar el enrutamiento directo](direct-routing-configure.md)
 - [Lista de controladores de borde de sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md)
 - [Supervisar y solucionar problemas de enrutamiento directo](direct-routing-monitor-and-troubleshoot.md)
 
-Además, es posible que desee leer los artículos según los requisitos siguientes:
+Además, es posible que desee leer los artículos siguientes según sus necesidades:
 
 -  [Configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md)
 -  [Migrar a enrutamiento directo](direct-routing-migrating.md)
 -  [Cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- Vea la sesión siguiente para obtener más información acerca del enrutamiento directo: [El enrutamiento directo en los equipos de Microsoft](https://aka.ms/teams-direct-routing)
+- Vea la siguiente sesión para obtener más información sobre el enrutamiento directo: [enrutamiento directo en Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
 
-Estos son las decisiones principales a tener en cuenta para el enrutamiento directo. 
+Estas son las decisiones básicas para considerar el enrutamiento directo. 
 
 |Pregúntese lo siguiente:|Acción |
 | :------------|:-------|
-|¿Para los usuarios que habilitará el enrutamiento directo? | Para obtener más información, vea [Habilitar usuarios para el servicio de enrutamiento directo](direct-routing-configure.md#enable-users-for-direct-routing-service). |
-¿Tienen las licencias necesarias para el enrutamiento directo? | Para obtener más información, vea [Licensing y otros requisitos](direct-routing-plan.md#licensing-and-other-requirements).
+|¿Para qué usuarios habilitaría el enrutamiento directo? | Para obtener más información, vea [Habilitar usuarios para el servicio de enrutamiento directo](direct-routing-configure.md#enable-users-for-direct-routing-service). |
+¿Tengo las licencias necesarias para el enrutamiento directo? | Para obtener más información, consulte [licencias y otros requisitos](direct-routing-plan.md#licensing-and-other-requirements).
 |||
 
-### <a name="session-border-controller-sbc-considerations"></a>Consideraciones de controlador de borde (SBC) de sesión
+### <a name="session-border-controller-sbc-considerations"></a>Consideraciones del controlador de borde de sesión (SBC)
 
-Con el enrutamiento directo, se conecta su propio controlador de borde de sesión (SBC) directamente al sistema telefónico.  Para obtener una lista de SBCs certificadas, vea [Admite controladores de borde de sesión](direct-routing-border-controllers.md).
+Con el enrutamiento directo, conecta su propio controlador de borde de sesión (SBC) directamente al sistema telefónico.  Para obtener una lista de SBCs certificado, consulte [controladores de borde de sesión admitidos](direct-routing-border-controllers.md).
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-| ¿Dónde y cómo va a implementar SBCs? | Para obtener más información, vea [Configurar el enrutamiento directo](direct-routing-configure.md) | 
-¿Hay varios inquilinos? | Para obtener más información, vea [configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md).|
+| ¿Dónde y cómo implementar SBCs? | Para obtener más información, consulte [configurar el enrutamiento directo](direct-routing-configure.md) | 
+¿Tengo varios inquilinos? | Para obtener más información, vea [configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md).|
 |||
 
-### <a name="voice-routing-considerations"></a>Consideraciones del enrutamiento de voz
+### <a name="voice-routing-considerations"></a>Consideraciones de enrutamiento de voz
 
-Debe configurar el sistema telefónico para enrutar las llamadas a la SBCs específicos.
+Tendrá que configurar el sistema telefónico para enrutar las llamadas al SBCs específico.
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-| ¿Qué directivas de enrutamiento de voz, el uso de RTC y rutas de voz necesito para crear? | Para obtener información de enrutamiento de voz, vea [Configurar el enrutamiento de voz](direct-routing-configure.md#configure-voice-routing).
-| ¿Los usuarios que se asignará a la directiva de enrutamiento de voz que define? | Vea los ejemplos de [Configuración de enrutamiento de voz](direct-routing-configure.md#configure-voice-routing). |
+| ¿Qué directivas de enrutamiento de voz, uso de RTC y rutas de voz necesito crear? | Para obtener información sobre el enrutamiento de voz, vea [configurar el enrutamiento de voz](direct-routing-configure.md#configure-voice-routing).
+| ¿Qué usuarios se asignarán a la Directiva de enrutamiento de voz que definio? | Consulte los ejemplos de [configurar el enrutamiento de voz](direct-routing-configure.md#configure-voice-routing). |
 |||
 
-### <a name="calling-and-interop-policies"></a>Directivas de llamada y de interoperabilidad
+### <a name="calling-and-interop-policies"></a>Directivas de llamadas y interoperabilidad
 
-Enrutamiento directo sólo es compatible con Microsoft Teams. Para realizar o recibir llamadas de RTC a través de enrutamiento directa, debe configurar las directivas necesarias para asegurarse de que las llamadas entrantes se reciben en los equipos. Puede configurar usuarios para establecer los equipos como su cliente preferido para las llamadas, puede configurar el usuario para el modo de sólo los equipos o configurar los equipos como cliente preferido llamado mediante la asignación de la TeamsCallingPolicy y la TeamsInteropPolicy.
+El enrutamiento directo solo es compatible con Microsoft Teams. Para realizar o recibir llamadas RTC mediante enrutamiento directo, debe configurar las directivas necesarias para asegurarse de que las llamadas entrantes se reciban en Teams. Puede configurar los usuarios para que establezcan equipos como su cliente preferido para las llamadas, ya sea configurando el usuario para el modo solo de Teams o configurando Teams como el cliente de llamadas preferido asignando el TeamsCallingPolicy y TeamsInteropPolicy.
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-|¿Cómo va a establecer los equipos como cliente preferido para las llamadas? | Para obtener más información, vea [establecer los equipos de Microsoft como el preferido llamar al cliente para los usuarios](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
+|¿Cómo establezco Teams como el cliente preferido para las llamadas? | Para obtener más información, vea [establecer Microsoft Teams como el cliente de llamadas preferido para los usuarios](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
 |||
 
 ## <a name="additional-deployment-considerations"></a>Consideraciones de implementación adicionales
 
-Es posible que desee tener en cuenta los siguientes valores, en función de las necesidades de su organización y la configuración:
+Es posible que desee tener en cuenta lo siguiente, en función de las necesidades y la configuración de su organización:
 
 | Pregúntese lo siguiente:| Acción |
 | :------------|:-------|
-| ¿Tiene un Skype existente para la implementación de servidor empresarial con conectividad híbrida configurada? |  Para comprender cómo se aprovisionan cuentas de usuario en un entorno híbrido y administrados, vea [cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md).| 
-| ¿Está migrando a enrutamiento directo de planeación de una llamada a o desde un Skype para entorno local de negocio? | Para saber más acerca de la migración para el enrutamiento directo desde un entorno existente, consulte [migración a enrutamiento directo](direct-routing-migrating.md). |
+| ¿Tiene una implementación existente de Skype empresarial Server con una conectividad híbrida configurada? |  Para comprender cómo se suministran y administran las cuentas de usuario en un entorno híbrido, consulte [cuentas de usuario en un entorno híbrido con conectividad RTC](direct-routing-user-accounts-in-a-hybrid-environment.md).| 
+| ¿Va a migrar el enrutamiento directo desde el plan de llamadas o desde un entorno local de Skype empresarial? | Para obtener más información sobre cómo migrar para dirigir el enrutamiento desde un entorno existente, consulte [migrar a enrutamiento directo](direct-routing-migrating.md). |
 |||

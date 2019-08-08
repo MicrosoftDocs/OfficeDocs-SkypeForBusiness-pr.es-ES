@@ -7,20 +7,21 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 description: Una descripción general de las características de seguridad y cumplimiento de Microsoft Teams, entre las que se incluyen auditoría e informes, búsqueda de contenido de cumplimiento, exhibición de eDiscovery y más.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7582a7890b13c2879a672f87c90e9e646557dbc0
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: d9e9b07ed1ca995d673ef6ea79652cb880c4dff6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768043"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242786"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -121,10 +122,14 @@ La búsqueda de contenido y la exhibición de eDiscovery no requieren la habilit
 <a name="location-of-data-in-teams"></a>Ubicación de los datos en Teams
 -------------------------
 
-Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. En la actualidad, Teams es compatible con las regiones Australia, Canadá, Francia, India, Japón, el Reino Unido, América, Asia y EMEA. 
+Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. En la actualidad, Teams es compatible con las regiones Australia, Canadá, Francia, India, Japón, Reino Unido, Corea del sur, Sudáfrica, Sudamérica y Asia. 
 
 > [!IMPORTANT]
-> Actualmente, Teams ofrece residencia de datos en Australia, Canadá, Francia, India, Japón y el Reino Unido solo para nuevos inquilinos. Un inquilino nuevo se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Teams. Los inquilinos existentes de Australia, India y Japón seguirán teniendo los datos de sus equipos almacenados en la región de APAC. Los inquilinos existentes de Canadá seguirán teniendo sus datos almacenados en América. Los inquilinos existentes en Francia y el Reino Unido seguirán teniendo sus datos almacenados en la región de EMEA.
+> En la actualidad, Teams ofrece residencia de datos en Australia, Canadá, Francia, India, Japón, el Reino Unido, Corea del sur y Sudáfrica solo para inquilinos nuevos. Un inquilino nuevo se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Teams. Los inquilinos existentes de Australia, India, Japón y Corea del sur seguirán teniendo los datos de sus equipos almacenados en la región de APAC. Los inquilinos existentes de Canadá seguirán teniendo sus datos almacenados en América. Los inquilinos existentes en Francia, Reino Unido y Sudáfrica seguirán teniendo sus datos almacenados en la región de EMEA.
+
+Puede encontrar más información sobre la residencia de datos de Sudáfrica para Teams en la publicación de blog de Varun Sagar, [Microsoft Teams lanza la residencia de datos de Sudáfrica](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Africa-Data-Residency/ba-p/776611).
+
+Más información sobre la residencia de datos de Corea del sur para equipos viene cortesía de la entrada de blog de Varun Sagar, [Microsoft Teams lanza la residencia de datos de Corea del sur](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-launches-South-Korea-Data-Residency/ba-p/789171).
 
 Si desea conocer más detalles sobre el inicio de la residencia de datos en India y Reino Unido, lea la publicación [Microsoft Teams launches India Data Residency, other geos coming soon](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827) (Microsoft Teams iniciará la residencia de datos de India y otras zonas geográficas muy pronto) en el blog de Ansuman Acharya. 
 

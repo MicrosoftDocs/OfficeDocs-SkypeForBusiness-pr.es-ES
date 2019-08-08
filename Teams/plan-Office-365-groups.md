@@ -7,20 +7,21 @@ manager: serdars
 ms.date: 08/29/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Obtenga información sobre las decisiones que debe tomar al planear para Office 365 grupos como seleccionar grupos de público y privado, mediante el cliente de los equipos o la consola web de administración de Office 365 y cómo informar a sus equipos sobre el uso de las conversaciones.
+audience: admin
+description: Obtenga información sobre las decisiones que debe tomar al planear grupos de Office 365, como la elección de grupos públicos y privados, mediante el cliente de Teams o la consola Web de administración de Office 365, y cómo educar a sus equipos sobre el uso de conversaciones.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aca7dcf2607fd90bfea15ef324034be96770a822
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: b23525181de02cfe8498aa68db5c6c34e9feaded
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835018"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237436"
 ---
 <a name="plan-for-office-365-groups-when-creating-teams-in-microsoft-teams"></a>Planificar grupos de Office 365 al crear equipos en Microsoft Teams
 ==========================================================
@@ -29,9 +30,9 @@ Al considerar el uso de grupos de Office 365 o al crear equipos, piense para qu�
 
 Existen dos situaciones que podrían suscitar algunas discusiones a la hora de planificar grupos de Office 365 y su impacto en Microsoft Teams.
 
--   En primer lugar, ya que los clientes podrían tener las inversiones existentes en grupos, actualmente se admiten grupos públicos y privados de menos de 5000 miembros. Como se mencionó anteriormente, en el que desea administrar la pertenencia de personas a un equipo utilizando el cliente de los equipos en lugar de la consola web de administración de Office 365. Dada esta situación, si las personas se usan para conversaciones en Office 365 grupos encadenadas, es la pena resaltar que básicamente es una conversación de grupos de correo electrónico y no es el mismo que un mensaje de chat en un canal de los equipos. Formar a su personal acerca de esta diferencia y sugerir que adopten el formato de mensaje de chat más flexible en los equipos frente a enviar por correo electrónico del grupo mediante Outlook u OWA.
+-   En primer lugar, dado que los clientes podrían tener inversiones en grupos, actualmente admitimos grupos públicos y privados de menos de 5000 miembros. Como se mencionó anteriormente, desea administrar la pertenencia de personas a un equipo mediante el cliente de Teams en lugar de la consola Web de administración de Office 365. Dado este escenario, si se usan personas para conversaciones encadenadas en grupos de Office 365, merece la pena tener en cuentan que una conversación de grupos es esencialmente correo electrónico y no es lo mismo que un mensaje de chat en un canal de Teams. Educar a las personas sobre esta diferencia y sugerirles que adopten el formato de mensajes de chat más flexible en Teams frente al correo electrónico del grupo con Outlook u OWA.
 
--   En segundo lugar, para los clientes que no tienen grupos existentes definidos en Office 365, puede crear mediante el portal de administración de Office 365, la web de los equipos o los clientes de escritorio. Como se mencionó anteriormente, administrar todos los pertenencia futura al grupo Office 365 mediante el cliente de los equipos. Dado que la pertenencia a un equipo también está definiendo la pertenencia a grupos de Office 365, debe preparar personas para que este cambio.
+-   En segundo lugar, para los clientes que no tienen grupos existentes definidos en Office 365, puede crearlos usando el portal de administración de Office 365, la Web de Teams o los clientes de escritorio. Como se mencionó anteriormente, administre todas las pertenencias futuras al grupo de Office 365 con el cliente de Teams. Puesto que la pertenencia a un equipo también está definiendo la pertenencia a grupos de Office 365, debe preparar a los usuarios para este cambio.
  
 
 
@@ -44,10 +45,10 @@ La directiva de nomenclatura de los grupos de Office 365 que haya establecido su
 
 Para obtener más información, lea [Directiva de nomenclatura de grupos de Office 365 en Microsoft Teams](https://support.office.com/article/Office-365-Groups-Naming-Policy-6ceca4d3-cad1-4532-9f0f-d469dfbbb552).
 
-Los artículos siguientes son un buen lugar para buscar contenido de preparación y adopción de los grupos de Office 365:
+Los artículos siguientes son un buen lugar para buscar el contenido de la preparación y la adopción de los grupos de Office 365:
 
 -   [Obtener más con grupos en Outlook](https://support.office.com/article/Get-more-with-Office-365-Groups-in-Outlook-93132800-5b11-49de-8cc2-605b6075b2b9)
 
--   [Agregar o quitar a miembros de grupos de Office 365 mediante el centro de administración de Microsoft 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
+-   [Agregar o quitar miembros de grupos de Office 365 mediante el centro de administración de Microsoft 365](https://support.office.com/article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)
 
--   [Restauración de un grupo de 365 eliminado de Office](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)
+-   [Restaurar un grupo de 365 de Office eliminado](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54)

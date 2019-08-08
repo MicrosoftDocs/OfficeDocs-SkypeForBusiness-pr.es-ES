@@ -6,21 +6,22 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
+audience: admin
 description: Planear la comunicación con los usuarios, el aprendizaje y el soporte técnico durante la fase piloto, la incorporación y la actualización a teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7fa3e93abe4f7788ba491a76def3c067e2c0af1
-ms.sourcegitcommit: 195a4e1bbab46034408a22d636874c10f797945a
+ms.openlocfilehash: 71ee20ae80fa9fc7f8916efbc5a4736f50bd56f8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35934497"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235924"
 ---
 ![Fases del viaje de actualización, resaltando la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación del usuario")
 

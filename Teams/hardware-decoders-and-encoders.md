@@ -8,7 +8,7 @@ ms.date: 06/06/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Normal
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - MicrOperating systemoft Teams
-ms.openlocfilehash: bce205e9a468bcd7e9313b9b0dd9f706d5ec8754
-ms.sourcegitcommit: 04c819504e23f9e3a618b57d54411ffb83888fb9
+ms.openlocfilehash: 282dce404d96a678fdd6532d62bcb185073aecc1
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "34741304"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242199"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recomendaciones para el controlador de hardware y el controlador del descodificador
 

@@ -7,19 +7,20 @@ manager: serdars
 ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 description: Los administradores pueden usar el centro de administración de Microsoft Teams para configurar la aplicación reuniones de Skype para que funcione con Teams
-MS.collection:
+ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8d79a7afa03d071984aac2bdca874ecde7703c8
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221694"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236867"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación Reuniones de Skype para trabajar con Teams
 ===================================================

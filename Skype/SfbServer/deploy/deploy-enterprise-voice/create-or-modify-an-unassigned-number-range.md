@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Crear, modificar o eliminar rangos numéricos no asignados para la aplicación de anuncios en Skype empresarial Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: 5b9afa463d6eaff2f6ba3ed283d11556bd95bc03
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f3d646e2d838312ee90453c66d1e7bf239cf1537
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286186"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233228"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin asignar en Skype empresarial Server
  
@@ -62,7 +62,7 @@ Use uno de los procedimientos siguientes para configurar intervalos numéricos n
     
    - Si el número inicial o final del intervalo incluye un número de extensión, ambos números del intervalo deben incluir la extensión y el número de extensión debe ser igual al número inicial y final del intervalo.
     
-   - El número debe coincidir con la expresión regular (Tel:)\+? () ? [1-9{0,17}] \d (; ext = [1-9{0,9}] \d) ?. Esto significa que el número puede comenzar con la cadena Tel: (si no especifica esa cadena, se agregará automáticamente), un signo más (+) y un dígito de 1 a 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ext= y el número de extensión.
+   - El número debe coincidir con la expresión regular (Tel:)? ( \+)? [1-9] \d{0,17}(; ext = [1-9] \d{0,9})?. Esto significa que el número puede comenzar con la cadena Tel: (si no especifica esa cadena, se agregará automáticamente), un signo más (+) y un dígito de 1 a 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ext= y el número de extensión.
     
 6. En **Servicio de anuncio**, lleve a cabo uno de los siguientes procedimientos: 
     

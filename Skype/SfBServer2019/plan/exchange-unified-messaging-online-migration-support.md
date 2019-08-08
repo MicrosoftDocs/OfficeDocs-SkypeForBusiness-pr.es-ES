@@ -10,21 +10,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 3beaceb8da8169a6d2bb702841e5f040d2e22a66
-ms.sourcegitcommit: ba5ee891e5b16c8bece475133a0b6cd1d1f9c145
+ms.openlocfilehash: b9353546012a0cf16f154d330f27f36fd360b5ee
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34813085"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243899"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
 En referencia al [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) el 8 de febrero de 2019, Microsoft retira el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo ofrece un resumen de lo que los clientes afectados deberían saber y hacer para planificar su continuidad empresarial. 
  
-ExchUMO es implementado por los clientes para el buzón de voz, el operador automático y/o los servicios de integración de fax. Microsoft planea ayudar a estos clientes a migrar a sus servicios basados en la nube que admiten miles de clientes que ya tienen Skype empresarial online y Microsoft Teams. 
+ExchUMO es implementado por los clientes para el buzón de voz, el operador automático, la cola de llamadas y los servicios de integración de fax. Microsoft planea ayudar a los clientes a migrar a servicios de sistema telefónico que ya admiten miles de clientes en Skype empresarial online y Microsoft Teams. 
 
-El buzón de voz es principalmente una migración dirigida por Microsoft; es posible que se requiera la implicación e inversión del administrador para un subconjunto de clientes. El operador automático es una migración guiada por el administrador; tendrá que volver a crear los árboles de operadores automáticos de ExchUMO existentes en el servicio de nube de operador automático de la nube. Los clientes que consumen cualquiera de las características de ExchUMO con un PBX de terceros no se migrarán a los servicios en la nube de Skype porque no admiten sistemas PBX de terceros. El año pasado se presentó un plan de jubilación de la asistencia de terceros en [este blog](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
-)y los clientes de este modelo de implementación pueden migrar sus usuarios a uno de los servicios/plataformas de comunicaciones unificadas de Microsoft o adquirir un mensaje de voz de terceros o solución de operador automático para estos usuarios. La integración de faxes no es compatible con los servicios basados en la nube; los clientes deberán migrar a una solución de terceros. 
+El buzón de voz es principalmente una migración dirigida por Microsoft; se requerirá la implicación e inversión del administrador para un subconjunto de clientes. Los operadores automáticos y las colas de llamadas tienen una migración guiada por el administrador; los administradores deben volver a crear los árboles de operadores automáticos de ExchUMO existentes en el servicio de operador automático del sistema telefónico. Los clientes que usen cualquiera de las características de ExchUMO con un PBX de terceros no migrarán a los servicios de nube del sistema telefónico porque estos servicios no admiten sistemas PBX de terceros. El año pasado se presentó un plan de jubilación de la asistencia de terceros en [este blog](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
+)y los clientes de este modelo de implementación pueden migrar sus usuarios a uno de los servicios/plataformas de comunicaciones unificadas de Microsoft, o bien adquirir un buzón de voz o un mensaje de correo automático de terceros. solución de operador para estos usuarios. La integración de fax no es compatible con el sistema telefónico; los clientes deberán migrar a una solución de terceros. 
 
 ### <a name="who-is-affected"></a>¿A quién afecta?
 
@@ -32,6 +32,7 @@ Los clientes que consumen cualquiera de las siguientes características del serv
 
 - Servicio de buzón de voz
 - Servicio de operador automático
+- Servicio de cola de llamadas
 - Integración de fax
 
 > [!Note]
@@ -43,40 +44,39 @@ Obtenga más información sobre la experiencia de usuario y administrador impact
 
 Microsoft identificó diversas implementaciones de clientes que consumen características de ExchUMO y estarán ayudando a los clientes a migrar basándose en el siguiente plan. 
 
-
 |Grupo de clientes |Escala  |Detalles  |
 |---------|---------|---------|
 |Clientes que están listos para migrar<br><br>Características que se van a migrar:<br><ul><li>Correo de voz</ul>   |   Marzo: 2019 de mayo  |Acerca<ul><li>    Clientes con una sencilla implementación y uso del buzón de voz<li>Clientes que tienen todos los requisitos establecidos para que Microsoft ejecute la migración<ul>|
-|Clientes con requisitos previos<br><br>Características que se van a migrar:<br><ul><li>Correo de voz<li>Operador automático</ul> |  Mayo: 2019 de diciembre |Acerca <br><ul><li>La configuración híbrida no se ha establecido o completado<li>Los números de RTC híbridos no están configurados</ul>|
-|Clientes que requieren la implicación del administrador & inversión en el cliente<br><br>Características que se van a migrar:<ul><li>Telefónica<li>Operador automático<li>Integración de fax</ul>| Por 2020 de febrero  | Acerca <br><ul><li>El servicio ExchUMO está consumido por PBX de terceros<li>Clientes con requisitos de acceso de suscriptor de RTC<li>Clientes de SFB 2010 (no admitido)<li>Integración de fax</ul> |
+|Clientes con requisitos previos<br><br>Características que se van a migrar:<br><ul><li>Correo de voz<li>Operador automático<li>Cola de llamadas</ul> |  Mayo, 2019 de diciembre |Acerca <br><ul><li>La configuración híbrida no está completa<li>Los números de RTC híbridos no están configurados</ul>|
+|Clientes que requieren la implicación del administrador & inversión en el cliente<br><br>Características que se van a migrar:<ul><li>Telefónica<li>Operador automático<li>Colas de llamadas<li>Integración de fax</ul>| Por 2020 de febrero  | Acerca <br><ul><li>El servicio ExchUMO está consumido por PBX de terceros<li>Clientes con requisitos de acceso de suscriptor de RTC<li>Clientes de SFB 2010 (no admitido)<li>Integración de fax</ul> |
 
 ## <a name="migration-steps"></a>Pasos de la migración
 
 1.  **Obtener información**
  
-    Familiarícese con el [anuncio del blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) y este artículo para planear una migración sin problemas para los usuarios. Consulte [comprobar el buzón de voz y las opciones de Skype empresarial](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obtener más información sobre las funciones de buzón de voz en la nube.  
+    Familiarícese con el [anuncio del blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) y este artículo para planear una migración sin problemas para los usuarios. Consulte [comprobar el buzón de voz y las opciones de Skype empresarial](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obtener más información sobre las características del buzón de voz del sistema.  
  
 2.  **Establecer una topología híbrida de Skype empresarial**
 
     Si no tiene establecida una topología híbrida de Skype empresarial, debe hacerlo para permitir una migración fluida de los usuarios del buzón de voz. Consulte [configurar la implementación híbrida de Skype empresarial](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) para obtener más información. 
 
     > [!Note]
-    > No es necesario migrar los usuarios a conectados para la migración del servicio de correo de voz. Sin embargo, para que los usuarios locales aprovechen el servicio de buzón de voz basado en la nube, debe establecerse una topología híbrida.
+    > No es necesario migrar los usuarios a conectados para la migración del servicio de correo de voz. Sin embargo, para que los usuarios locales aprovechen el servicio de buzón de voz del sistema telefónico, debe establecerse una topología híbrida.
 
 3. **Planear la migración de los operadores automáticos**
     
-    Los administradores pueden empezar a migrar sus operadores automáticos de ExchUMO al operador automático de la nube en cualquier momento. Consulte [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) para obtener más información. Microsoft planea ofrecer funciones de operador automático adicionales que los clientes consideren esenciales para su migración a partir del 2019 de marzo. Los administradores deben evaluar el conjunto de características y migrar sus instancias de operador automático según corresponda. Para comparar la lista de características, consulte la matriz de características de los [servicios basados en la nube de ExchUMO y Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Los administradores pueden empezar a migrar sus operadores automáticos de ExchUMO al operador automático de la nube en cualquier momento. Consulte [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) para obtener más información. Microsoft continúa proporcionando capacidades de operador automático adicionales que los clientes pueden considerar necesarios para su migración, los administradores deben evaluar el conjunto de características y migrar sus instancias de operador automático según corresponda. Para comparar la lista de características, consulte la matriz de características de los [servicios basados en la nube de ExchUMO y Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Planear las pruebas y la validación posterior a la migración del buzón de voz**
 
-    La migración del buzón de voz está controlada por Microsoft; No es necesario que los administradores hagan nada, dado que se establece la topología híbrida de requisitos previos. Microsoft realizará la validación y las pruebas necesarias para asegurarse de que la migración del buzón de voz de los usuarios no se interrumpa. sin embargo, se recomienda a los administradores realizar pruebas y validaciones a su lado.  Consulte [plan de pruebas sugerido y validación posterior a la migración para los administradores](#suggested-test-plan-and-post-migration-validation-for-admins) de un plan de pruebas recomendado. 
+    La migración del buzón de voz está controlada por Microsoft. No es necesario que los administradores hagan nada, dado que se establece la topología híbrida de requisitos previos. Microsoft realiza la validación y las pruebas necesarias para asegurarse de que la migración del buzón de voz de los usuarios no se interrumpa. Se recomienda a los administradores realizar pruebas y validaciones en su lado. Consulte [plan de pruebas sugerido y validación posterior a la migración para los administradores](#suggested-test-plan-and-post-migration-validation-for-admins) de un plan de pruebas recomendado. 
 
     > [!Note]
     > Lync Server 2010 no se admite. Si está en una implementación de servidor de 2010, debe planear una actualización de servidor o considere la posibilidad de migrar los usuarios a Microsoft Teams o Skype empresarial online.  
 
 5. **Supervisar el centro de notificaciones de administrador**
 
-    Busque una notificación en el centro de notificaciones de administración con más detalles y escala de tiempo en relación con la migración del buzón de voz de los usuarios. Las notificaciones se enviarán al menos 30 días antes del período de migración. 
+    Busque un aviso en el centro de notificaciones del administrador con más detalles y escala de tiempo en relación con la migración de los usuarios. Las notificaciones se envían al menos 30 días antes del período de migración. 
 
     > [!Note]
     > Si recibió una notificación con la escala de tiempo de la migración de los usuarios y desea posponer la migración por un motivo importante para la empresa, puede hacerlo poniéndose en contacto con el soporte técnico de Microsoft. Tenga en cuenta que no puede posponer la migración más allá de la fecha de retiro, 2020 de febrero. Para los clientes que pueden tener más preguntas, comuníquese con su equipo de cuenta o con el soporte técnico de Microsoft. Los clientes que ya usan Office 365 pueden enviar un caso de soporte técnico a través del portal de administración de Office 365. 
@@ -89,15 +89,15 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
     - Matriz de características de los servicios basados en la nube de ExchUMO y Azure
     - Impacto de la experiencia del usuario
 
-    Tenga en cuenta que, al optar por una migración administrada, no recibirá una notificación de 30 días antes de la migración en el centro de mensajes del portal de administración de Microsoft 365.
+    Al elegir una migración administrada, no recibirá una notificación de 30 días antes de la migración en el centro de mensajes del portal de administración de Microsoft 365.
  
-    Para participar en una migración planeada, envíe una solicitud de correo electrónico a [CVM@microsoft.com](mailto:cvm@microsoft.com)con la dirección de correo electrónico del administrador, con la siguiente información:
+    Para participar en una migración planeada, envíe una solicitud de correo electrónico desde la dirección de correo electrónico del administrador a [CVM@microsoft.com](mailto:cvm@microsoft.com) con la siguiente información:
 
     - Fecha preferida (martes): las ondas de migración se ejecutan todos los martes. Selecciona una fecha del martes que no esté más allá del 12/3/2019.
  
-    - IDENTIFICADOR de inquilino: 32 caracteres del número en este formato 0046728c-688a-4472-a38f-098fec60ac6x. Puede encontrar su identificador de inquilino en el portal de administración de Microsoft 365 en Azure Active Directory o ejecutando el siguiente cmdlet de PowerShell:`Get-CsTenant | Select ObjectId`
+    - IDENTIFICADOR de inquilino: 32 caracteres del número en este formato 0046728c-688a-4472-a38f-098fec60ac6x. Puede encontrar su identificador de inquilino en el portal de administración de Microsoft 365 en Azure AD o mediante el siguiente cmdlet de PowerShell:`Get-CsTenant | Select ObjectId`
  
-    Recibirá una confirmación por correo electrónico una vez que el inquilino se haya migrado correctamente. 
+    Una vez que se haya migrado correctamente el inquilino, recibirá una confirmación por correo electrónico. 
 
 ## <a name="appendix"></a>Apéndice
 
@@ -119,7 +119,7 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | MEDIO | Características de usuario | Configuración de usuario para cambiar el idioma predeterminado  |  | S | S    |
 | MEDIO | Características de usuario | Configuración de usuario para sobrescribir el saludo predeterminado con TTS  |  | Y | N    |
 | MEDIO | Características de usuario | Grabar saludos personales (dispositivo autenticado) |  | S | S    |
-| MEDIO | Características de usuario | Grabar saludos personales (PSTN)-reproducir en el teléfono |  | N | Y    |
+| MEDIO | Características de usuario | Grabar saludos personales (RTC): reproducir en el teléfono |  | N | Y    |
 | MEDIO | Características de usuario | Configuración de usuario para deshabilitar la transcripción |  | N | Y    |
 | MEDIO | Características de usuario | Cripciones  |  | S | S    |
 | MEDIO | Características de usuario | Buzón de voz visual en todos los puntos de conexión   | Con control de usuario para reproducir, eliminar, indicador de espera de mensaje y alternancia de estado, en todos los puntos de conexión compatibles  | S | S    |
@@ -133,7 +133,7 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | MEDIO | Características de usuario | Reproducir en el teléfono (RTC): para reproducir el mensaje | Llamarme en mi celda para escuchar el mensaje de voz  | N | Y    |
 | MEDIO | Características de usuario | Reproducir en el teléfono (autenticación): mensaje para reproducir | Llamarme en mi dispositivo autenticado  | Y | S    |
 | MEDIO | Características de usuario | Buzón compartido entre varios usuarios |  | Y | S    |
-| MEDIO | Características de los autores de llamadas  | Experiencia del autor de la llamada: buzón de voz protegido | La persona que llama puede elegir una opción para marcar un mensaje grabado como protegido| N | Y    |
+| MEDIO | Características de los autores de llamadas  | Experiencia de la persona que llama: buzón de voz protegido | La persona que llama puede elegir una opción para marcar un mensaje grabado como protegido| N | Y    |
 | MEDIO | Características de los autores de llamadas  | Experiencia de la persona que llama: buzón de voz privado | La persona que llama puede elegir una opción para marcar un mensaje grabado como privado  | N | Y    |
 | MEDIO | Características de los autores de llamadas  | Detección de silencio   |  | N | Y    |
 | MEDIO | Espacio empresarial-características de administración | Buzón de voz protegido en el nivel de servidor    | Tenant-admin puede configurar una regla de nivel de servicio para marcar el buzón de voz como protegido. | Y | S    |
@@ -157,7 +157,7 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | AA | Características del servicio | Compatibilidad con varios idiomas | Detalles del idioma aquí:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
 | AA | Características del servicio | Transferir al operador, CQ o un usuario |  | S | S    |
 | AA | Características del servicio | Transferir al número RTC internamente (RNL)  |  | S | S    |
-| AA | Características del servicio | Transferir a un número RTC externamente  |  | Q2CY19 | Y    |
+| AA | Características del servicio | Transferir a un número RTC externamente  |  | Q3CY19 | Y    |
 | AA | Características del servicio | Horario comercial |  | S | S    |
 | AA | Características del servicio | Opciones de menú | Opciones del menú de IVR  | S | S    |
 | AA | Características del servicio | Asignación de un número de RTC en la nube a AA |  | Y | N    |
@@ -167,14 +167,14 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | AA | Características del servicio | Saludo personalizado con texto a voz  |  | S | S    |
 | AA | Características del servicio | Marcado de extensión   | Contactar con un usuario marcando su extensión  | CY19   | Y    |
 | AA | Características del servicio | Buzón para que las personas que llaman a un AA dejen un mensaje    |  | CY19   | Y    |
-| AA | Características del servicio | Asignación de varios números de RTC a un AA|  | S | S    |
+| AA | Características del servicio | Varias asignaciones de números RTC a un AA|  | S | S    |
 | AA | Espacio empresarial-características de administración | Administración de portal web   |  | Y | N    |
 | AA | Espacio empresarial-características de administración | Cmdlets de PowerShell  |  | S | S    |
 | Fax| Características del servicio | Integración de fax|  | N | Y    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plan de prueba sugerido y validación posterior a la migración para administradores
 
-Para comprobar que los usuarios se han migrado al buzón de voz en la nube, simplemente deje un mensaje de voz a un usuario y compruebe el cuerpo del mensaje en Outlook, los mensajes de voz de la nube tienen un pie de página adicional que indica:
+Para comprobar que los usuarios se han migrado al buzón de voz de la nube, deje un mensaje de voz a un usuario y compruebe el cuerpo del mensaje en Outlook.  Los mensajes de voz en la nube tienen un pie de página que dice:
 
 **Gracias por usar transcripción. Si no ve una transcripción anteriormente, se debe a que la calidad del audio no es lo suficientemente clara para transcribir.**
 
@@ -194,18 +194,18 @@ A continuación se resumen la experiencia de migración del buzón de voz de usu
 |Ejecución  |Cambio en la experiencia del usuario|
 |---------|---------|
 |Notificación de correo electrónico | Sin cambios<br>No se envía correo electrónico a los usuarios para notificarles la activación o la migración de la cuenta de correo de voz. |
-|Acceso a mensajes anteriores | Sin cambios<br>Los usuarios tendrán acceso a sus mensajes de voz anteriores en todos los puntos de conexión admitidos. |
-|Recibir una VM en Outlook, aplicaciones de SFB| Sin cambios<br>Los usuarios continuarán recibiendo sus mensajes de voz en todos los puntos de conexión admitidos. |
+|Acceso a mensajes anteriores | Sin cambios<br>Los usuarios tienen acceso a sus mensajes de voz anteriores en todos los puntos de conexión admitidos. |
+|Recibir una VM en Outlook, aplicaciones de SFB| Sin cambios<br>Los usuarios continúan recibiendo sus mensajes de voz en todos los puntos de conexión admitidos. |
 |Cripciones | Avanzado<br>La transcripción de CVM tiene una tasa de precisión muy superior e idiomas admitidos que ExchUMO. |
-|Configuración de usuario | Nueva experiencia<br>Los usuarios podrán cambiar sus preferencias desde un portal de configuración de usuario (USP). Los usuarios pueden acceder a su USP desde un hipervínculo en el correo electrónico del buzón de voz, o el botón Configuración del usuario en su cliente de SFB. https://aka.ms/vmsettings.   
+|Configuración de usuario | Nueva experiencia<br>Los usuarios pueden cambiar sus preferencias desde un portal de configuración de usuario (USP). Los usuarios pueden acceder a su USP desde un hipervínculo en el correo electrónico del buzón de voz, o el botón Configuración del usuario en su cliente de SFB. https://aka.ms/vmsettings.   
  |Características| Para obtener más información, consulta la comparación de conjuntos de características. |
 |Reglas de Outlook para mensajes de VM | Sin cambios<br>Las reglas creadas previamente se aplicarán a los mensajes de CVM después de la migración.
  |
 
 #### <a name="user-management-and-provisioning-in-cvm"></a>Administración y aprovisionamiento de usuarios en CVM 
 
-Los nuevos usuarios de Skype empresarial se aprovisionarán automáticamente para el buzón de voz en el servicio CVM cuando se creen. No se necesita ninguna licencia o trabajo de administración adicional para aprovisionar a nuevos usuarios en el buzón de voz. Consulte [configurar el buzón de voz en la nube](/microsoftteams/set-up-phone-system-voicemail) para obtener información sobre cómo administrar las directivas para usuarios existentes y nuevos.
+Los nuevos usuarios de Skype empresarial se aprovisionarán automáticamente para el buzón de voz de nube cuando se creen. No se necesita ninguna licencia o trabajo de administración adicional para aprovisionar nuevos usuarios del buzón de voz. Consulte [configurar el buzón de voz en la nube](/microsoftteams/set-up-phone-system-voicemail) para obtener información sobre la administración de directivas para usuarios existentes y nuevos.
 
 #### <a name="admin-auto-attendant-management-experience"></a>Experiencia de administración de operadores automáticos de administrador 
 
-Consulte [configurar un operador automático de la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) para obtener más información sobre la configuración y la administración de operadores automáticos. 
+Para obtener más información sobre los operadores automáticos, vea [configurar un operador automático de la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 

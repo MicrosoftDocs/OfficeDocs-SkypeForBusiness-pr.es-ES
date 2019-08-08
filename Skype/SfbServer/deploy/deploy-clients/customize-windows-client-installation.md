@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 'Resumen: información general sobre métodos de instalación y herramientas para Skype empresarial.'
-ms.openlocfilehash: 40e5b9145f06038e76aee0b77b287e6dce9a8b3b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16c460d8fbbafd98a980c69bc0cd7638108ea164
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288581"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234186"
 ---
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personalizar la instalación del cliente de Windows en Skype empresarial Server
  

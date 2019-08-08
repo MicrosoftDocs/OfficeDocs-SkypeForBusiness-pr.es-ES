@@ -7,20 +7,21 @@ ms.date: 08/10/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
+audience: admin
 description: Obtenga más información sobre cómo planear la implementación de capacidades de gobierno en Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7022c700d2b7448625bb9ab627d1b77d780b50e
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: eca84b8b8a8a80772b89800ad105ed1b2394224e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804868"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237700"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 

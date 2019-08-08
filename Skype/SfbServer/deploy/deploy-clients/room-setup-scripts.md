@@ -5,17 +5,17 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: Lea este tema para encontrar scripts de ejemplo para el aprovisionamiento de las cuentas de Sistema de salas de Skype.
-ms.openlocfilehash: e4b146346d7afe69746cf7046c0ee156ee9ff0da
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7c462dea9f1a885fbf8a4fb4f6aeee4ca4f8c3d3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291704"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235029"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Scripts de configuración de salas del Sistema de salas de Skype
  

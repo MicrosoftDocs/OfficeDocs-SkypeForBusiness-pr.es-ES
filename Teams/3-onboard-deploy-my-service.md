@@ -3,6 +3,7 @@ title: Implementación de servicios de voz de nube de Microsoft Teams
 author: rmw2890
 ms.author: Rowille
 manager: serdars
+audience: admin
 ms.date: 05/16/2018
 ms.topic: conceptual
 ms.service: msteams
@@ -10,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Descargue la guía de habilitación de sitios para planificar los lanzamientos de equipos y acelerar y optimizar la adopción de los usuarios, la percepción de su calidad y la satisfacción.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65878cc54973b67a604b08d3579553bca6ca8e4a
-ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
+ms.openlocfilehash: 17b73629aa874232a449605b45f97ea10e445204
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34652741"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232289"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 

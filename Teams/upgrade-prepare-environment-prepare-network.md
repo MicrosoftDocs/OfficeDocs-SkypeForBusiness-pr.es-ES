@@ -4,23 +4,24 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use esta guía para preparar la red para la implementación y el lanzamiento de Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d18d7641c56ae2c8f84777e408133fef1cb35610
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 0ede6e6ce211393211e7c1d31365c2f22c26751a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198647"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236141"
 ---
 ![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 

@@ -5,6 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/08/2019
 ms.topic: article
+audience: admin
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
@@ -13,18 +14,18 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.manageteamsnewadmincenter
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 85893be13d07de4a3ae0111a3cdd9c6524ec3b4c
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 5369206deda7a9d4c9e17a87406f208383927f05
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221956"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232958"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================

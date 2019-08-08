@@ -5,22 +5,23 @@ ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Ofrezca y mantenga una implementación de gran calidad con la planificación de roles operativos y la asignación de expertos en calidad.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd3a60c3fef7ea9a20084e950c8425416ac4cc80
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: 44f68e258535959c164ae838c2c146a4a4b207d9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198344"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232297"
 ---
 # <a name="plan-my-service-management"></a>Planificar la administración de mis servicios
 

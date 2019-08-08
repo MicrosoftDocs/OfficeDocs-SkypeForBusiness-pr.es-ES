@@ -5,6 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Prepararse para la actualización al modo solo de Microsoft Teams
@@ -12,17 +13,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 f1keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11378d35e042a69c2eff8f171cdc266108505774
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: f1a6d27dc2e01d433f36196394f7d3b98871c597
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588122"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244782"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 
