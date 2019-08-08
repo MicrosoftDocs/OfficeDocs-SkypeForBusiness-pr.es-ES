@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: hub-page
 ms.service: msteams
 localization_priority: Priority
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
@@ -15,12 +15,12 @@ appliesto:
 search.appverid:
 - MET150
 description: 'Resumen: Obtenga información sobre la arquitectura lógica de los servicios de productividad en Microsoft 365, una de las más destacadas gracias a Microsoft Teams. Además, obtenga información sobre las soluciones de telefonía de Teams. '
-ms.openlocfilehash: 33cfe4f3c3e652170a777ea174b4cd03f4f8730a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 83ec3b36e3eaa0cdf83b4c5cb69791307febf7bc
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293998"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243921"
 ---
 # <a name="microsoft-teams-it-architecture-and-telephony-solutions-posters"></a>Carteles de soluciones de telefonía y arquitectura de TI de Microsoft Teams
 

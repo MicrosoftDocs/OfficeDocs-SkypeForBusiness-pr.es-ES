@@ -4,6 +4,7 @@ hide_bc: true
 title: Documentación técnica de Microsoft Teams
 ms.reviewer: ''
 ms.author: kenwith
+audience: admin
 manager: serdars
 author: kenwith
 description: Documentación técnica de Microsoft Teams
@@ -14,12 +15,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: a9adeadfd2b99d4ac4ce4e62f4ef26f018e4d3b1
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: 3a25c91429a8141e533bcc8081454eed77f95ca6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34421943"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235163"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -188,13 +189,13 @@ ms.locfileid: "34421943"
                                         </a>
                                     </li>
                         <li>
-                            <a href="https://docs.microsoft.com/microsoftteams/platform/overview">        
-                            <div class="cardSize">
+  
+                            <a href="https://docs.microsoft.com/microsoftteams/platform/overview"> <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
+                                                <img src="https://docs.microsoft.com/es-ES/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
                                             </div>
                                         </div>
                                         <div class="cardText">

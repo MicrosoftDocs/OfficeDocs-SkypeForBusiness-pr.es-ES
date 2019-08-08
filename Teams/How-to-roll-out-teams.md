@@ -7,20 +7,21 @@ ms.topic: article
 ms.service: msteams
 ms.date: 1/28/2019
 ms.reviewer: LolaJ
+audience: admin
 description: Busque el camino correcto para implementar Microsoft Teams en su organización.
 localization_priority: Priority
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9408ad5108de64806e95a6b63c480d082002a843
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: d6199b893f506e87fa232815bec08fc61a3311da
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418623"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240762"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Cómo implementar Microsoft Teams
 

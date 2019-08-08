@@ -6,22 +6,23 @@ layout: HubPage
 ms.topic: hub-page
 author: LolaJacobsen
 ms.author: lolaj
+audience: admin
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
 localization_priority: Priority
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - Teams_ITAdmin_JourneyFromSfB
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26a3e5f1d0ae7bcbba25570629cf3324a773f25f
-ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
+ms.openlocfilehash: 8c7b40002101765c38bff412bef79d171951430a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35851606"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235855"
 ---
 <div id="main" class="v2">
     <div class="container">

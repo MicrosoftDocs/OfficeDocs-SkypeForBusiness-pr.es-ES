@@ -6,22 +6,23 @@ layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
 ms.author: lolaj
+audience: admin
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
 localization_priority: Priority
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 088b684608d4b53cc90373bb018055da24cb2b3c
-ms.sourcegitcommit: 2e47053604211e4387d76ffa9ec61db4c08650fb
+ms.openlocfilehash: c96bac2296b07de7eae637ef428c412865fa07f5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "36045325"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241588"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 
