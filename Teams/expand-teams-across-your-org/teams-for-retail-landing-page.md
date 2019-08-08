@@ -5,6 +5,7 @@ layout: LandingPage
 ms.topic: landing-page
 author: lanachin
 ms.author: v-lanac
+audience: admin
 manager: serdars
 ms.date: 03/01/2019
 ms.service: msteams
@@ -12,12 +13,12 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82d51d5f96163d98f327e1597a1a76e4a11ef9b0
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 0405d48bacf6626b1976afffeb64fc10fe66a36f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494533"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235342"
 ---
 # <a name="teams-for-retail"></a>Teams para el comercio
 

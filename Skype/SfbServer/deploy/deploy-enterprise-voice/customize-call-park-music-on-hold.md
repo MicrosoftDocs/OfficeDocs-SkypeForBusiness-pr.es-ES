@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,46 +14,46 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Personalizar la música de estacionamiento de llamadas en espera en la voz empresarial de Skype empresarial Server.
-ms.openlocfilehash: 4111bcc42a3820e3957f526e360264aa7d098d05
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 834e6e811637c120e675a674f51ac0edeaf90542
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286179"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245630"
 ---
-# <a name="customize-call-park-music-on-hold-inskype-for-business"></a><span data-ttu-id="02bcb-103">Personalizar la música de estacionamiento de llamadas en espera de Skype empresarial</span><span class="sxs-lookup"><span data-stu-id="02bcb-103">Customize Call Park music on hold inSkype for Business</span></span>
+# <a name="customize-call-park-music-on-hold-inskype-for-business"></a><span data-ttu-id="07272-103">Personalizar la música de estacionamiento de llamadas en espera de Skype empresarial</span><span class="sxs-lookup"><span data-stu-id="07272-103">Customize Call Park music on hold inSkype for Business</span></span>
  
-<span data-ttu-id="02bcb-104">Personalizar la música de estacionamiento de llamadas en espera en la voz empresarial de Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="02bcb-104">Customize the Call Park music on hold in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="07272-104">Personalizar la música de estacionamiento de llamadas en espera en la voz empresarial de Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="07272-104">Customize the Call Park music on hold in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="02bcb-105">Puede especificar su propio archivo de música para usar en la música en espera, en lugar del archivo de música predeterminado que se incluye con Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="02bcb-105">You can specify your own music file to use for music on hold, instead of the default music file that ships with Skype for Business Server.</span></span> <span data-ttu-id="02bcb-106">Para personalizar la música en espera, utilice el cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.</span><span class="sxs-lookup"><span data-stu-id="02bcb-106">To customize music on hold, use the **Set-CsCallParkServiceMusicOnHoldFile** cmdlet.</span></span>
+<span data-ttu-id="07272-105">Puede especificar su propio archivo de música para usar en la música en espera, en lugar del archivo de música predeterminado que se incluye con Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="07272-105">You can specify your own music file to use for music on hold, instead of the default music file that ships with Skype for Business Server.</span></span> <span data-ttu-id="07272-106">Para personalizar la música en espera, utilice el cmdlet **Set-CsCallParkServiceMusicOnHoldFile**.</span><span class="sxs-lookup"><span data-stu-id="07272-106">To customize music on hold, use the **Set-CsCallParkServiceMusicOnHoldFile** cmdlet.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="02bcb-107">Si personaliza la música en espera y quiere la misma música para varios sitios, debe configurar el archivo de música para cada sitio que ejecute la aplicación estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="02bcb-107">If you customize music on hold and want the same music for multiple sites, you must configure the music file for each site that runs the Call Park application.</span></span> 
+> <span data-ttu-id="07272-107">Si personaliza la música en espera y quiere la misma música para varios sitios, debe configurar el archivo de música para cada sitio que ejecute la aplicación estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="07272-107">If you customize music on hold and want the same music for multiple sites, you must configure the music file for each site that runs the Call Park application.</span></span> 
   
-### <a name="to-customize-the-music-file"></a><span data-ttu-id="02bcb-108">Para personalizar el archivo de música</span><span class="sxs-lookup"><span data-stu-id="02bcb-108">To customize the music file</span></span>
+### <a name="to-customize-the-music-file"></a><span data-ttu-id="07272-108">Para personalizar el archivo de música</span><span class="sxs-lookup"><span data-stu-id="07272-108">To customize the music file</span></span>
 
-1. <span data-ttu-id="02bcb-109">Inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, como se describe en **permisos de configuración de delegado**.</span><span class="sxs-lookup"><span data-stu-id="02bcb-109">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
+1. <span data-ttu-id="07272-109">Inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, como se describe en **permisos de configuración de delegado**.</span><span class="sxs-lookup"><span data-stu-id="07272-109">Log on to the computer where Skype for Business Server Management Shell is installed as a member of the RTCUniversalServerAdmins group or with the necessary user rights as described in **Delegate Setup Permissions**.</span></span>
     
-2. <span data-ttu-id="02bcb-110">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="02bcb-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="07272-110">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="07272-110">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="02bcb-111">Ejecute:</span><span class="sxs-lookup"><span data-stu-id="02bcb-111">Run:</span></span>
+3. <span data-ttu-id="07272-111">Ejecute:</span><span class="sxs-lookup"><span data-stu-id="07272-111">Run:</span></span>
     
    ```
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >
    ```
 
     > [!TIP]
-    > <span data-ttu-id="02bcb-112">Use el cmdlet **Get-CsService** para identificar el servicio.</span><span class="sxs-lookup"><span data-stu-id="02bcb-112">Use the **Get-CsService** cmdlet to identify the service.</span></span> <span data-ttu-id="02bcb-113">Para obtener más información, vea [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="02bcb-113">For details, see [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps).</span></span> 
+    > <span data-ttu-id="07272-112">Use el cmdlet **Get-CsService** para identificar el servicio.</span><span class="sxs-lookup"><span data-stu-id="07272-112">Use the **Get-CsService** cmdlet to identify the service.</span></span> <span data-ttu-id="07272-113">Para obtener más información, vea [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="07272-113">For details, see [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps).</span></span> 
   
-    <span data-ttu-id="02bcb-114">En el ejemplo siguiente se muestra cómo obtener el contenido de un archivo, soothingmusic.wma, como matriz de bytes y asignarlo a una variable.</span><span class="sxs-lookup"><span data-stu-id="02bcb-114">The following example shows how to obtain the contents of a file, soothingmusic.wma, as a byte array and assign it to a variable.</span></span> <span data-ttu-id="02bcb-115">A continuación, el archivo de audio se asigna como el archivo de música en espera en Estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="02bcb-115">Then the audio file is assigned as the music-on-hold file for Call Park.</span></span> <span data-ttu-id="02bcb-116">Para obtener más información, consulte [set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="02bcb-116">For details, see [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).</span></span>
+    <span data-ttu-id="07272-114">En el ejemplo siguiente se muestra cómo obtener el contenido de un archivo, soothingmusic.wma, como matriz de bytes y asignarlo a una variable.</span><span class="sxs-lookup"><span data-stu-id="07272-114">The following example shows how to obtain the contents of a file, soothingmusic.wma, as a byte array and assign it to a variable.</span></span> <span data-ttu-id="07272-115">A continuación, el archivo de audio se asigna como el archivo de música en espera en Estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="07272-115">Then the audio file is assigned as the music-on-hold file for Call Park.</span></span> <span data-ttu-id="07272-116">Para obtener más información, consulte [set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="07272-116">For details, see [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps).</span></span>
     
    ```
    $a = Get-Content -ReadCount 0 -Encoding byte "C:\MoHFiles\soothingmusic.wma"
    Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
    ```
 
-## <a name="see-also"></a><span data-ttu-id="02bcb-117">Vea también</span><span class="sxs-lookup"><span data-stu-id="02bcb-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="07272-117">Vea también</span><span class="sxs-lookup"><span data-stu-id="07272-117">See also</span></span>
 
-[<span data-ttu-id="02bcb-118">Set-CsCallParkServiceMusicOnHoldFile</span><span class="sxs-lookup"><span data-stu-id="02bcb-118">Set-CsCallParkServiceMusicOnHoldFile</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
+[<span data-ttu-id="07272-118">Set-CsCallParkServiceMusicOnHoldFile</span><span class="sxs-lookup"><span data-stu-id="07272-118">Set-CsCallParkServiceMusicOnHoldFile</span></span>](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   
-[<span data-ttu-id="02bcb-119">Get-CsService</span><span class="sxs-lookup"><span data-stu-id="02bcb-119">Get-CsService</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
+[<span data-ttu-id="07272-119">Get-CsService</span><span class="sxs-lookup"><span data-stu-id="07272-119">Get-CsService</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
