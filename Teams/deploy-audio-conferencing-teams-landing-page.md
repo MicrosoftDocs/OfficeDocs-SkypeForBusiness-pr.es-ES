@@ -6,6 +6,7 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
+audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection:
@@ -16,12 +17,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15f9ceb50a7a135ee1a7243eba1acb38fdca1e54
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: f3ed86a8989cc1664d2ff73111b85d2fe30dcad3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34768864"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240934"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferencia en Microsoft Teams
 
