@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,28 +14,28 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Crear o modificar rutas interregional de red que usan el control de admisión de llamadas de telefonía de empresa en Skype empresarial Server.
-ms.openlocfilehash: aec289143e2b6dd54e2b52cfc231239fe5d73b7a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6bf455236dc825023cc3c8ce94ee329a464fdde4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286372"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233492"
 ---
-# <a name="create-network-interregional-routes-in-skype-for-business-server"></a><span data-ttu-id="b03d5-103">Crear rutas interregional de red en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="b03d5-103">Create network interregional routes in Skype for Business Server</span></span>
+# <a name="create-network-interregional-routes-in-skype-for-business-server"></a><span data-ttu-id="d4125-103">Crear rutas interregional de red en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d4125-103">Create network interregional routes in Skype for Business Server</span></span>
  
-<span data-ttu-id="b03d5-104">Crear o modificar rutas interregional de red que usan el control de admisión de llamadas de telefonía de empresa en Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="b03d5-104">Create or modify network interregional routes, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
+<span data-ttu-id="d4125-104">Crear o modificar rutas interregional de red que usan el control de admisión de llamadas de telefonía de empresa en Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="d4125-104">Create or modify network interregional routes, which are used by Enterprise Voice call admission control in Skype for Business Server.</span></span> 
   
-<span data-ttu-id="b03d5-105">Una ruta entre regiones de red define la ruta entre un par de regiones de red.</span><span class="sxs-lookup"><span data-stu-id="b03d5-105">A network interregional route defines the route between a pair of network regions.</span></span> <span data-ttu-id="b03d5-106">Cada par de regiones de red de la implementación del servicio de control de admisión de llamadas precisa una ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="b03d5-106">Each pair of network regions in your call admission control deployment requires a network interregional route.</span></span> <span data-ttu-id="b03d5-107">Esto permite que todas las regiones de red de la implementación obtengan acceso a cualquier otra región.</span><span class="sxs-lookup"><span data-stu-id="b03d5-107">This enables every network region within the deployment to access every other region.</span></span>
+<span data-ttu-id="d4125-105">Una ruta entre regiones de red define la ruta entre un par de regiones de red.</span><span class="sxs-lookup"><span data-stu-id="d4125-105">A network interregional route defines the route between a pair of network regions.</span></span> <span data-ttu-id="d4125-106">Cada par de regiones de red de la implementación del servicio de control de admisión de llamadas precisa una ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="d4125-106">Each pair of network regions in your call admission control deployment requires a network interregional route.</span></span> <span data-ttu-id="d4125-107">Esto permite que todas las regiones de red de la implementación obtengan acceso a cualquier otra región.</span><span class="sxs-lookup"><span data-stu-id="d4125-107">This enables every network region within the deployment to access every other region.</span></span>
   
-<span data-ttu-id="b03d5-108">Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones, una ruta entre regiones determina la ruta de acceso vinculada que atravesará la conexión de una región a otra.</span><span class="sxs-lookup"><span data-stu-id="b03d5-108">While region links set bandwidth limitations on the connections between regions, an interregional route determines which linked path the connection will traverse from one region to another.</span></span>
+<span data-ttu-id="d4125-108">Mientras que los vínculos regionales establecen las limitaciones de ancho de banda de las conexiones entre regiones, una ruta entre regiones determina la ruta de acceso vinculada que atravesará la conexión de una región a otra.</span><span class="sxs-lookup"><span data-stu-id="d4125-108">While region links set bandwidth limitations on the connections between regions, an interregional route determines which linked path the connection will traverse from one region to another.</span></span>
   
-<span data-ttu-id="b03d5-109">En el ejemplo de topología, hay que definir rutas entre regiones de red para cada uno de los tres pares de regiones: Norteamérica/EMEA, EMEA/APAC y Norteamérica/APAC.</span><span class="sxs-lookup"><span data-stu-id="b03d5-109">In the example topology, network interregional routes must be defined for each of the three region pairs: North America/EMEA, EMEA/APAC, and North America/APAC.</span></span> 
+<span data-ttu-id="d4125-109">En el ejemplo de topología, hay que definir rutas entre regiones de red para cada uno de los tres pares de regiones: Norteamérica/EMEA, EMEA/APAC y Norteamérica/APAC.</span><span class="sxs-lookup"><span data-stu-id="d4125-109">In the example topology, network interregional routes must be defined for each of the three region pairs: North America/EMEA, EMEA/APAC, and North America/APAC.</span></span> 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="b03d5-110">Para crear rutas interregional de red con el shell de administración de Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="b03d5-110">To create network interregional routes by using Skype for Business Server Management Shell</span></span>
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a><span data-ttu-id="d4125-110">Para crear rutas interregional de red con el shell de administración de Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d4125-110">To create network interregional routes by using Skype for Business Server Management Shell</span></span>
 
-1. <span data-ttu-id="b03d5-111">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="b03d5-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="d4125-111">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="d4125-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="b03d5-112">Ejecute el cmdlet **New-CsNetworkInterRegionRoute** para definir las rutas necesarias.</span><span class="sxs-lookup"><span data-stu-id="b03d5-112">Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes.</span></span> <span data-ttu-id="b03d5-113">Por ejemplo, ejecute:</span><span class="sxs-lookup"><span data-stu-id="b03d5-113">For example, run:</span></span>
+2. <span data-ttu-id="d4125-112">Ejecute el cmdlet **New-CsNetworkInterRegionRoute** para definir las rutas necesarias.</span><span class="sxs-lookup"><span data-stu-id="d4125-112">Run the **New-CsNetworkInterRegionRoute** cmdlet to define the required routes.</span></span> <span data-ttu-id="d4125-113">Por ejemplo, ejecute:</span><span class="sxs-lookup"><span data-stu-id="d4125-113">For example, run:</span></span>
     
    ```
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -50,39 +50,39 @@ ms.locfileid: "34286372"
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="b03d5-114">La ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red debido a que no hay un vínculo de región de red directo entre ellas.</span><span class="sxs-lookup"><span data-stu-id="b03d5-114">The North America/APAC network interregional route requires two network region links because there is no direct network region link between them.</span></span> 
+    > <span data-ttu-id="d4125-114">La ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red debido a que no hay un vínculo de región de red directo entre ellas.</span><span class="sxs-lookup"><span data-stu-id="d4125-114">The North America/APAC network interregional route requires two network region links because there is no direct network region link between them.</span></span> 
   
-### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="b03d5-115">Para crear rutas interregional de red con el panel de control de Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="b03d5-115">To create network interregional routes by using Skype for Business Server Control Panel</span></span>
+### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a><span data-ttu-id="d4125-115">Para crear rutas interregional de red con el panel de control de Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="d4125-115">To create network interregional routes by using Skype for Business Server Control Panel</span></span>
 
-1. <span data-ttu-id="b03d5-116">Abra el panel de control de Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="b03d5-116">Open Skype for Business Server Control Panel.</span></span>
+1. <span data-ttu-id="d4125-116">Abra el panel de control de Skype empresarial Server.</span><span class="sxs-lookup"><span data-stu-id="d4125-116">Open Skype for Business Server Control Panel.</span></span>
     
-2. <span data-ttu-id="b03d5-117">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="b03d5-117">In the left navigation bar, click **Network Configuration**.</span></span>
+2. <span data-ttu-id="d4125-117">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="d4125-117">In the left navigation bar, click **Network Configuration**.</span></span>
     
-3. <span data-ttu-id="b03d5-118">Haga clic en el botón de navegación **Ruta regional**.</span><span class="sxs-lookup"><span data-stu-id="b03d5-118">Click the **Region Route** navigation button.</span></span>
+3. <span data-ttu-id="d4125-118">Haga clic en el botón de navegación **Ruta regional**.</span><span class="sxs-lookup"><span data-stu-id="d4125-118">Click the **Region Route** navigation button.</span></span>
     
-4. <span data-ttu-id="b03d5-119">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="b03d5-119">Click **New**.</span></span>
+4. <span data-ttu-id="d4125-119">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="d4125-119">Click **New**.</span></span>
     
-5. <span data-ttu-id="b03d5-120">En la página **Nueva ruta regional**, haga clic en **Nombre** y escriba un nombre para la ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="b03d5-120">On the **New Region Route** page, click **Name** and then type a name for the network interregional route.</span></span>
+5. <span data-ttu-id="d4125-120">En la página **Nueva ruta regional**, haga clic en **Nombre** y escriba un nombre para la ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="d4125-120">On the **New Region Route** page, click **Name** and then type a name for the network interregional route.</span></span>
     
-6. <span data-ttu-id="b03d5-121">Haga clic en **Región de red #1** y, a continuación, haga clic en una región de red de la lista que desee enrutar a la Región de red #2.</span><span class="sxs-lookup"><span data-stu-id="b03d5-121">Click **Network Region #1**, and then click a network region in the list that you want to route to Network Region #2.</span></span>
+6. <span data-ttu-id="d4125-121">Haga clic en **Región de red #1** y, a continuación, haga clic en una región de red de la lista que desee enrutar a la Región de red #2.</span><span class="sxs-lookup"><span data-stu-id="d4125-121">Click **Network Region #1**, and then click a network region in the list that you want to route to Network Region #2.</span></span>
     
-7. <span data-ttu-id="b03d5-122">Haga clic en **Región de red #2** y, en la lista, seleccione la región de red que desea enrutar a la Región de red #1.</span><span class="sxs-lookup"><span data-stu-id="b03d5-122">Click **Network Region #2**, and then click a network region in the list that you want to route to Network Region #1.</span></span>
+7. <span data-ttu-id="d4125-122">Haga clic en **Región de red #2** y, en la lista, seleccione la región de red que desea enrutar a la Región de red #1.</span><span class="sxs-lookup"><span data-stu-id="d4125-122">Click **Network Region #2**, and then click a network region in the list that you want to route to Network Region #1.</span></span>
     
-8. <span data-ttu-id="b03d5-123">Haga clic en **Agregar** junto al campo **Vínculos de región de red** y luego agregue un vínculo de región de red que se usará en la ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="b03d5-123">Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregional route.</span></span>
+8. <span data-ttu-id="d4125-123">Haga clic en **Agregar** junto al campo **Vínculos de región de red** y luego agregue un vínculo de región de red que se usará en la ruta entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="d4125-123">Click **Add** beside the **Network Region Links** field, and then add a network region link that will be used in the network interregional route.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="b03d5-p103">Si está creando una ruta para dos regiones de red que no tengan ningún vínculo de región de red directo entre ellas, tendrá que agregar todos los vínculos necesarios para completar la ruta. Por ejemplo, la ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red, debido a que no hay un vínculo de región de red directo entre ellas.</span><span class="sxs-lookup"><span data-stu-id="b03d5-p103">If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregional route requires two network region links because there is no direct network region link between them.</span></span> 
+    > <span data-ttu-id="d4125-p103">Si está creando una ruta para dos regiones de red que no tengan ningún vínculo de región de red directo entre ellas, tendrá que agregar todos los vínculos necesarios para completar la ruta. Por ejemplo, la ruta entre regiones de red Norteamérica/APAC requiere dos vínculos de región de red, debido a que no hay un vínculo de región de red directo entre ellas.</span><span class="sxs-lookup"><span data-stu-id="d4125-p103">If you are creating a route for two network regions that do not have a direct network region link between them, you must add all the necessary links to complete the route. For example, the North America/APAC network interregional route requires two network region links because there is no direct network region link between them.</span></span> 
   
-9. <span data-ttu-id="b03d5-126">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="b03d5-126">Click **Commit**.</span></span>
+9. <span data-ttu-id="d4125-126">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="d4125-126">Click **Commit**.</span></span>
     
-10. <span data-ttu-id="b03d5-127">Para finalizar la creación de rutas entre regiones de red de la topología, repita los pasos del 4 al 9 con la configuración para otras rutas entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="b03d5-127">To finish creating network interregional routes for your topology, repeat steps 4 through 9 with settings for other network interregional routes.</span></span>
+10. <span data-ttu-id="d4125-127">Para finalizar la creación de rutas entre regiones de red de la topología, repita los pasos del 4 al 9 con la configuración para otras rutas entre regiones de red.</span><span class="sxs-lookup"><span data-stu-id="d4125-127">To finish creating network interregional routes for your topology, repeat steps 4 through 9 with settings for other network interregional routes.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b03d5-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="b03d5-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d4125-128">Vea también</span><span class="sxs-lookup"><span data-stu-id="d4125-128">See also</span></span>
 
-[<span data-ttu-id="b03d5-129">New-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="b03d5-129">New-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
+[<span data-ttu-id="d4125-129">New-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="d4125-129">New-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
-[<span data-ttu-id="b03d5-130">Get-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="b03d5-130">Get-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
+[<span data-ttu-id="d4125-130">Get-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="d4125-130">Get-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   
-[<span data-ttu-id="b03d5-131">Set-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="b03d5-131">Set-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
+[<span data-ttu-id="d4125-131">Set-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="d4125-131">Set-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csnetworkinterregionroute?view=skype-ps)
   
-[<span data-ttu-id="b03d5-132">Remove-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="b03d5-132">Remove-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
+[<span data-ttu-id="d4125-132">Remove-CsNetworkInterRegionRoute</span><span class="sxs-lookup"><span data-stu-id="d4125-132">Remove-CsNetworkInterRegionRoute</span></span>](https://docs.microsoft.com/powershell/module/skype/remove-csnetworkinterregionroute?view=skype-ps)
