@@ -4,6 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang
@@ -12,17 +13,17 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.apppolicies.adminsettings
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 141cff84c6c5304b40366cb89335d95d9c95daf6
-ms.sourcegitcommit: c6ecea3205d509609a655db2348c04f655319df8
+ms.openlocfilehash: c6bbce8ae007b5b35f33e99bfbc7866d625256af
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36171424"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236305"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================

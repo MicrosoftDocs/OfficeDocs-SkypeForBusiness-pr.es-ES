@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Crear o modificar rutas interregional de red que usan el control de admisión de llamadas de telefonía de empresa en Skype empresarial Server.
-ms.openlocfilehash: aec289143e2b6dd54e2b52cfc231239fe5d73b7a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6bf455236dc825023cc3c8ce94ee329a464fdde4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286372"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233492"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Crear rutas interregional de red en Skype empresarial Server
  

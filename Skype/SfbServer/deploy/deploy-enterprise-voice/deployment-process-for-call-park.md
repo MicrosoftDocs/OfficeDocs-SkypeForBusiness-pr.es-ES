@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: Proceso de implementación y pasos de la llamada en el parque de Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 972a8cec2794afeebc0f5ab65d89291e78b7211e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 55fc887d77d3b68088bb396763a244ef81ce3a6b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289016"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233020"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>Proceso de implementación para el parque de llamadas en Skype empresarial
  

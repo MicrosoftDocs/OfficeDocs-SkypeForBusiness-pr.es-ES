@@ -6,6 +6,7 @@ manager: serdars
 ms.date: 03/12/2018
 ms.topic: reference
 ms.service: msteams
+audience: admin
 ms.reviewer: Rowille
 description: Vídeos que presentan la Audioconferencia en Microsoft Teams al administrador de TI.
 localization_priority: Normal
@@ -16,12 +17,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 435c35ce982ce18b93091f1832645c2c626228b4
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: c9cce3bd2b75c175698518f42cffad3028416127
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198408"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235517"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>Vídeos: Audioconferencia en Microsoft Teams
 =============================================

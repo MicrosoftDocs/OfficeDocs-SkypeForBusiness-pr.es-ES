@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: dearbeen
 description: Tareas y actividades necesarias para la administración de servicios de Teams, como la supervisión del estado del servicio, la evaluación y la seguridad de la calidad y el uso de la red
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d5f6614c076b212935908d8bb77973df5c3b867
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: b7be47504bab7c12803dee3728fcc872ce3a73ca
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548536"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236499"
 ---
 ![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
@@ -357,13 +358,11 @@ Para garantizar el estado de la red, es necesario realizar una serie de activida
 | Proporcionar datos de compilación | Proporcione información actualizada sobre la subred al experto en calidad (o a las partes interesadas relevantes) para asegurarse de que las [definiciones del edificio del CQD](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information) se mantienen actualizadas. | Según sea necesario | |
 | Implementar el cambio | Implemente cambios en la red para admitir los requisitos técnicos y empresariales de cambiar de equipo. Los elementos de la red pueden incluir:<ul><li>Firewalls</li><li>VPN</li><li>Redes cableadas y Wi-Fi</li><li>Conectividad a Internet y ExpressRoute</li><li>DNS</li></ul> | Según sea necesario | |
 | Supervisión e informes de red | Supervise la red de principio a fin para la disponibilidad, la utilización y las tendencias de capacidad con las herramientas de administración de redes de terceros existentes y las capacidades de creación de informes disponibles en los proveedores de red. Use datos de tendencia para planear la capacidad de la red. | Diariamente, semanalmente, mensualmente | |
-| Planificación de la capacidad | Colabore con los propietarios del servicio de Teams para comprender los cambios de requisitos técnicos y de negocio que podrían conducir cambios de capacidad adicionales. Aproveche los resultados del organizador de la [red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner) para asegurarse de que haya suficiente ancho de banda disponible para Microsoft Teams. | Según sea necesario | |
+| Planificación de la capacidad | Colabore con los propietarios del servicio de Teams para comprender los cambios de requisitos técnicos y de negocio que podrían conducir cambios de capacidad adicionales.  | Según sea necesario | |
 | Solución de problemas y corrección de redes | Ayudar a los equipos de asistencia al usuario, a los propietarios de servicios y a los participantes clave para solucionar y corregir problemas relacionados con la conectividad, la confiabilidad o la calidad de Teams. Los elementos de la red pueden incluir:<ul><li>Firewalls</li><li>VPN</li><li>Redes cableadas y Wi-Fi</li><li>Conectividad a Internet y ExpressRoute</li><li>DNS</li></ul> | Según sea necesario | |
 | Pruebas de recuperación ante desastres y alta disponibilidad | Realice pruebas normales de alta disponibilidad y de recuperación ante desastres en la infraestructura de red para asegurarse de que cumple con los objetivos de nivel de servicio (SLOs) establecidos o los contratos de nivel de servicio (SLA) del servicio de Teams. | Cada mes | |
 
 ### <a name="references"></a>Referencias
-
-[Planificador de red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)
 
 [Direcciones URL e intervalos de direcciones IP de Office 365](https://aka.ms/o365ips)
 
@@ -394,8 +393,6 @@ Le recomendamos encarecidamente que se nominar a la calidad del experto en el pr
 | Rellenar el rol de calidad de experto | Responsabilidad end-to-end de la calidad de la organización. Esto incluye:<ul><li>Asegúrate de que el QER se lleve a cabo de forma periódica.</li><li>Denunciar a participantes clave en el estado de la calidad.</li><li>Asegúrese de que las definiciones de datos de compilación estén actualizadas.</li><li>Coordine los esfuerzos de corrección en toda la organización para asegurarse de que los usuarios tengan una experiencia de alta calidad con Teams.</li></ul> | Cada día | |
 
 ### <a name="references"></a>Referencias
-
-[Información sobre el Panel de calidad de llamadas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Academy?SOFTrainings=Leverage%20the%20Investigate%20Media%20Quality%20using%20CQD%20Videos)
 
 [Cargar información de compilación](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 

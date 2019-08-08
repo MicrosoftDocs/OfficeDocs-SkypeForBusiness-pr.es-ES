@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 'Crear o modificar regiones de red, sitios de red y asociar subredes de red en Skype empresarial Server. Todo lo que se usa para las características avanzadas de voz de telefonía: omisión de contenido multimedia, control de admisión de la llamada y enrutamiento basado en la ubicación.'
-ms.openlocfilehash: 3ce0f4dcf011f57e25c4741c34135bc4ba62085a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 237720373c78bcb4a3cb3ad0aed376f2dc136a71
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221486"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36245413"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>Implementar regiones, sitios y subredes de red en Skype empresarial
 

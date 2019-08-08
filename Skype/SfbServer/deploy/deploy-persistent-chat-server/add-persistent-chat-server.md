@@ -6,17 +6,17 @@ author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Resumen: Lea este tema para obtener información sobre cómo agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server.'
-ms.openlocfilehash: 7ce1db891fce953cbf0195870661c174703113d2
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 7d5a61dd001c759eab4b168cb3543032de7b4fc4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418205"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36239871"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server
  

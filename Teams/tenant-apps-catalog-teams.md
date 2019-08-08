@@ -7,21 +7,22 @@ ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: prem
+audience: admin
 description: Guía para la publicación de aplicaciones en el catálogo de aplicaciones de inquilino de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.apppolicies.publishtenantapps
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d016fd1c341774115b9b68edafcc47a63e42b0d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: b8f239a136ae3a2242dba45da5a68e22b8fb29c4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221328"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235103"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones de inquilino de Microsoft Teams
 =======================================================
@@ -30,20 +31,20 @@ Puede usar el catálogo de aplicaciones de inquilino de Microsoft Teams para pro
 
 El catálogo de aplicaciones de inquilino de Teams le permite distribuir aplicaciones de línea de negocio que se han creado específicamente para su organización y en las que confía para completar las funciones críticas de la empresa.
 
-Para publicar aplicaciones para su organización, inicie sesión en el cliente de Teams con sus credenciales de administrador global y, a continuación, siga las instrucciones a continuación.
+Para publicar aplicaciones para su organización, inicie sesión en el cliente de Teams mediante una cuenta con los roles de administrador global o de servicio de Teams y, a continuación, siga las instrucciones a continuación.
 
 ## <a name="publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client"></a>Publicar una aplicación en el catálogo de aplicaciones de inquilino del cliente de Teams
 
 > [!NOTE]
-> Debe iniciar sesión en el cliente de Microsoft Teams con sus credenciales de administrador global para publicar aplicaciones para su organización.
+> Debe haber iniciado sesión en el cliente de Microsoft Teams con una cuenta que tenga habilitada la función de administrador global o de administrador de servicios de equipo para publicar aplicaciones para su organización. Obtenga más información sobre el [uso de roles de administrador para administrar equipos](https://docs.microsoft.com/MicrosoftTeams/using-admin-roles).
 
 ### <a name="get-a-teams-app-package"></a>Obtener un paquete de la aplicación Teams
 
-Un paquete de la aplicación de Teams se crea con [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Una vez que tenga el paquete de la aplicación, puede agregarlo al catálogo de aplicaciones empresarial. Mientras que todos los usuarios del inquilino pueden ver el catálogo de aplicaciones, actualmente solo los administradores globales tienen la capacidad de publicarlo y administrarlo. (Al final, los administradores de equipos también podrán hacerlo).
+Un paquete de la aplicación de Teams se crea con [Teams App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio). Una vez que tenga el paquete de la aplicación, puede agregarlo al catálogo de aplicaciones empresarial. Mientras todos los usuarios del inquilino pueden ver el catálogo de aplicaciones, solo los administradores globales y los administradores de servicios de equipos tienen la capacidad de publicarlos y administrarlos.
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Ir al catálogo de aplicaciones de inquilino
 
-Inicie el cliente de Microsoft Teams e inicie sesión con sus credenciales de administrador global. En la tienda Microsoft Teams, seleccione la nueva sección nombrada para su organización específica (en este ejemplo, contoso). Los usuarios de su organización pueden ver las aplicaciones en el catálogo e instalarlas para los equipos de los que son miembros.
+Inicie el cliente de Microsoft Teams e inicie sesión con las credenciales de administrador del servicio global o de Teams. En la tienda Microsoft Teams, seleccione la nueva sección nombrada para su organización específica (en este ejemplo, contoso). Los usuarios de su organización pueden ver las aplicaciones en el catálogo e instalarlas para los equipos de los que son miembros.
 
 ![Captura de pantalla de la tienda de aplicaciones de teams que muestra el catálogo de aplicaciones.](media/private-app-store-teams-image01.png)
 

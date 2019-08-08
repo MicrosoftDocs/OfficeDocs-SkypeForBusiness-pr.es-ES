@@ -1,31 +1,32 @@
 ---
 title: Definir eventos en directo en Microsoft Teams
-author: tonysmith
-ms.author: tonysmit
+author: chuckedmonson
+ms.author: chucked
 manager: serdars
-ms.date: 03/06/2019
+ms.date: 07/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
+audience: admin
 search.appverid: MET150
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre los pasos necesarios para configurar los eventos en Teams, incluida la preparación de la red, la asignación de licencias, el uso de directivas para habilitar las características de eventos en vivo y la programación de usuarios, y la configuración de un proveedor de distribución de terceros.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f69f036e01c86dd02eabf7f229a80f0c51c520
-ms.sourcegitcommit: 9d9376c6e5e6d79e33ba54fb8ce87509a2f57754
+ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "35013000"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237373"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 
-Cuando está configurando para eventos en vivo, debe realizar varios pasos:
+Cuando está configurando para eventos en vivo, debe realizar varios pasos.
 
 ## <a name="step-1-set-up-your-network-for-live-events-in-teams"></a>Paso 1: configurar la red para eventos en directo en Teams
 Los eventos en directo generados en Teams requieren que [Prepare la red de su organización para Teams](https://docs.microsoft.com/microsoftteams/prepare-network).  
@@ -37,7 +38,7 @@ Asegúrese de que tiene las asignaciones de licencia correctas para [quién pued
 Las directivas de eventos en directo se usan para controlar qué usuarios de su organización pueden mantener eventos en vivo y las características que están disponibles en los eventos que crean. Puede usar la directiva predeterminada o crear una o más directivas de eventos en directo personalizados. Después de crear una directiva personalizada, asígnela a un usuario o a un grupo de usuarios de la organización.
 
 > [!NOTE]
-> Los usuarios de la organización obtendrán la directiva global a menos que cree y asigne una directiva personalizada. De forma predeterminada, en la directiva global, la programación de eventos en directo está habilitada para los usuarios de Teams, la transcripción está desactivada, todas las personas de la organización pueden unirse a eventos en vivo y la configuración de la grabación está establecida en grabar siempre. 
+> Los usuarios de la organización obtendrán la directiva global a menos que cree y asigne una directiva personalizada. De forma predeterminada, en la directiva global, la programación de eventos en directo está habilitada para los usuarios de Teams, los subtítulos y los subtítulos (transcripción) están desactivados, todas las personas de la organización pueden unirse a eventos en vivo y la configuración de grabación está establecida en grabar siempre. 
 
 ### <a name="create-or-edit-a-live-events-policy"></a>Crear o editar una directiva de eventos en directo
 <a name="bkcreatepolicy"> </a>
@@ -59,8 +60,8 @@ Las directivas de eventos en directo se usan para controlar qué usuarios de su 
 |**Nombre.**     |Este es el nombre de la Directiva que aparece en la página de directivas de eventos en directo. No puede tener más de 64 caracteres ni caracteres especiales.          |
 |**Descripción**    |Use esta para agregar una descripción detallada a la Directiva.         |
 |**Permitir la programación**     |Activar esta opción permite a los usuarios de la organización crear y programar eventos en vivo en Teams. Es importante saber que si desea que los usuarios programen un evento en directo producido con una aplicación o dispositivo externo, hay pasos adicionales que debe realizar. Para obtener más información, vea [permitir a los usuarios programar eventos generados con una aplicación o un dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
-|**Permitir la transcripción para los asistentes** (próximamente) |Esta configuración solo se puede aplicar a eventos generados en Teams. Activar esta habilitación permite a los asistentes de eventos en directo ver los subtítulos y la traducción en tiempo real durante el evento.         |
-|**Quién puede unirse a eventos en directo programados**    |Elija una de las opciones siguientes.<br><br>**Todos los usuarios** Los usuarios pueden crear eventos en vivo que todos, incluidas las personas de fuera de su organización, pueden asistir. Esta configuración habilita el tipo de permiso **público** en Teams cuando un usuario programa un evento en vivo.<br> **Todas las personas de la organización** Los usuarios pueden crear eventos en vivo que solo pueden asistir las personas de su organización. Los usuarios no pueden crear eventos en vivo atendidos por usuarios anónimos. Esta configuración habilita el tipo de permiso de **toda la organización** en Teams cuando un usuario programa un evento en vivo.<br> **Usuarios o grupos específicos** Los usuarios pueden crear eventos en vivo que solo pueden asistir a usuarios o grupos específicos de su organización. Los usuarios no pueden crear eventos en vivo atendidos por todos los usuarios de su organización o por usuarios anónimos. Esta opción habilita el tipo de permiso **personas y grupos** en Teams cuando un usuario programa un evento en vivo.       |
+|**Permitir la transcripción para los asistentes** |Esta configuración solo se puede aplicar a eventos generados en Teams. Activar esta habilitación permite a los asistentes de eventos en directo ver subtítulos y subtítulos en vivo durante el evento.         |
+|**Quién puede unirse a eventos en directo programados**    |Elija una de las opciones siguientes.<br><br>**Todos los usuarios** Los usuarios pueden crear eventos en vivo que todos, incluidas las personas de fuera de su organización, pueden asistir. Esta configuración habilita el tipo de permiso **público** en Teams cuando un usuario programa un evento en vivo.<br> **Todas las personas de la organización** Los usuarios pueden crear eventos en vivo que las personas de la organización, incluidos [los usuarios invitados](../add-guests.md) agregados a su organización, pueden asistir. Los usuarios no pueden crear eventos en vivo atendidos por usuarios anónimos. Esta configuración habilita el tipo de permiso de **toda la organización** en Teams cuando un usuario programa un evento en vivo.<br> **Usuarios o grupos específicos** Los usuarios pueden crear eventos en vivo que solo pueden asistir a usuarios o grupos específicos de su organización. Los usuarios no pueden crear eventos en vivo atendidos por todos los usuarios de su organización o por usuarios anónimos. Esta opción habilita el tipo de permiso **personas y grupos** en Teams cuando un usuario programa un evento en vivo.       |
 |**Configuración de grabación**  <br>     | Esta configuración solo se puede aplicar a eventos generados en Teams. Elija una de las opciones siguientes. <br><br> **Grabar siempre** Los eventos en directo creados por los usuarios siempre se graban. Después de que el evento haya finalizado, los miembros del equipo del evento pueden descargar la grabación y los asistentes pueden ver el evento. <br> No **grabar nunca** Los eventos en directo creados por los usuarios nunca se graban. <br>**Organizador puede grabar o no** Los usuarios pueden decidir si deseas grabar el evento en vivo. Si se graba, después de que el evento haya finalizado, los miembros del equipo del evento pueden descargar la grabación y los asistentes pueden ver el evento.      
 
 También puede hacerlo con Windows PowerShell. Para obtener más información, vea [usar PowerShell para configurar directivas de eventos en vivo en Teams](set-teams-live-events-policies-using-powershell.md). 

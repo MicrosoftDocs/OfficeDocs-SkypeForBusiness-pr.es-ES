@@ -6,21 +6,22 @@ manager: serdars
 ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: Rowille
 description: Guía práctica para implementar características de voz en la nube en Microsoft Teams.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7cce1d8c6abfe3c71e9ac923899b9b8f18626cbf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 476d65ee927fedf285cf66377c58c9f09698b046
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925429"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36236769"
 ---
 # <a name="cloud-voice-deployment"></a>Implementar voz en la nube
 
@@ -28,9 +29,9 @@ Microsoft Teams, el centro de trabajo en equipo y comunicaciones de Office 365, 
 
 
 > [!Tip] 
-> Vea la sesión siguiente para obtener una introducción a los sistemas de telefonía: [Introducción al sistema de teléfono en los equipos de Microsoft](https://aka.ms/teams-phone-system)
+> Vea la siguiente sesión para obtener una introducción a los sistemas telefónicos: [Introducción al sistema telefónico en Microsoft Teams](https://aka.ms/teams-phone-system)
  
-Actualizaremos esta página se lanzan las características de voz adicionales en la nube para los equipos a través del tiempo.
+Actualizaremos esta página a lo largo del tiempo con características adicionales de voz en la nube para equipos.
 
 
 
@@ -39,35 +40,35 @@ Actualizaremos esta página se lanzan las características de voz adicionales en
 
 Audioconferencia en Office 365 permite a los participantes unirse a las reuniones desde cualquier teléfono.
 
-Aquí es lo que se obtiene con las [Conferencias de Audio](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365) en Office 365.
+Esto es lo que obtiene con la [Conferencia de audio](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/audio-conferencing-in-office-365) en Office 365.
 
 
-## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Sistema telefónico al llamar a planes ("planes de llamada") en los equipos de Microsoft
+## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Sistema telefónico con planes de llamadas ("planes de llamadas") en Microsoft Teams
 
-Sistema telefónico es una característica de Office 365 que proporciona la capacidad para administrar el enrutamiento de llamadas, directivas y aprovisionamiento de los usuarios. Esto incluye el sistema de administración, el enrutamiento de llamadas y el control de llamadas de llamada telefónica.
+El sistema telefónico es una característica de Office 365 que ofrece la capacidad de administrar el enrutamiento de llamadas, las directivas y el aprovisionamiento de usuarios. Esto incluye el sistema de administración de llamadas telefónicas, el enrutamiento de llamadas y el control de llamadas.
 
-Planes de llamada es un servicio de complemento para la característica de sistema telefónico entregada a través de los equipos y Skype para profesionales en línea. Planes de llamada requiere que el usuario en cuestión se hospedados en Skype para empresarial en línea para que funcionen en Microsoft Teams. Planes de llamada proporcionan las personas de su empresa con un número de teléfono principal y les permite realizar y recibir llamadas de teléfono externos a su organización a través de la RTC.
+Planes de llamadas es un servicio complementario para la característica de sistema telefónico, que se ofrece a través de Teams y Skype empresarial online. Los planes de llamadas requieren que el usuario en cuestión esté alojado en Skype empresarial online para trabajar en Microsoft Teams. Los planes de llamadas proporcionan a las personas de su empresa un número de teléfono principal y les permiten hacer y recibir llamadas telefónicas fuera de su organización a través de la RTC.
 
-Para obtener más información, lea [aquí es lo que obtiene con el sistema telefónico en Office 365](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) y el [sistema telefónico y planes de llamada](calling-plan-landing-page.md)
+Para obtener más información, lea [esto es lo que obtiene con el sistema telefónico en Office 365, el](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/here-s-what-you-get-with-phone-system) [sistema telefónico y los planes de llamadas](calling-plan-landing-page.md)
 
 
-## <a name="phone-system-direct-routing-direct-routing"></a>Sistema de teléfono directo enrutamiento ("enrutamiento directo")
+## <a name="phone-system-direct-routing-direct-routing"></a>Enrutamiento directo de sistema telefónico ("enrutamiento directo")
 
-Works de enrutamiento directas con la característica de sistema telefónico para dar a las personas de su organización la capacidad de realizar y recibir llamadas de teléfono fuera de la organización a través de la RTC, donde se proporciona conectividad RTC a través de los proveedores de servicios de terceros.
+El enrutamiento directo funciona con la característica de sistema telefónico para ofrecer a las personas de su organización la capacidad de hacer y recibir llamadas telefónicas fuera de la organización a través de la RTC, donde la conectividad RTC se proporciona a través de proveedores de servicios de terceros.
 
-Para obtener más información, lea la [Planeación de enrutamiento directo](direct-routing-plan.md) y [Configurar el enrutamiento directo](direct-routing-configure.md).
+Para obtener más información, lea [planear el enrutamiento directo](direct-routing-plan.md) y [configurar el enrutamiento directo](direct-routing-configure.md).
 
-## <a name="practical-guidance-for-audio-conferencing-calling-plans-and-direct-routing-in-microsoft-teams"></a>Guía práctica para conferencias de Audio, planes de llamada y el enrutamiento directo en Microsoft Teams
+## <a name="practical-guidance-for-audio-conferencing-calling-plans-and-direct-routing-in-microsoft-teams"></a>Guía práctica para conferencias de audio, planes de llamadas y enrutamiento directo en Microsoft Teams
 
-Esta orientación práctica se organiza mediante el marco de viaje de atención al cliente de Office 365 FastTrack y sus tres fases&mdash;previsión, incorporación y el valor de unidad. Que está diseñada para ayudarle a planear, entregar y trabajar con una implementación correcta de conferencias de Audio, planes de llamada o enrutamiento directo.
+Estas instrucciones prácticas se organizan mediante el marco de viaje para clientes de Office 365 FastTrack y&mdash;sus tres fases: enVision, en placa y valor de unidad. Está pensado para ayudarle a planificar, ofrecer y trabajar con una conferencia de audio, un plan de llamadas o una implementación de enrutamiento directos satisfactorios.
 
 > [!div class="mx-tableFixed"]
 > |Enfoque  |Incorporación  |Nuevos valores  |
 > |---------|---------|---------|
-> |[Definir mi éxito](1-envision-define-my-success-cloud-voice.md) <br> Mi las decisiones de servicio <br>&nbsp;&nbsp;[Conferencias de audio](2-envision-make-my-service-decisions-audio-conferencing.md),<br>&nbsp;&nbsp;[Planes de llamada](2-envision-make-my-service-decisions-phone-system.md)o [directa de enrutamiento](2-envision-make-my-service-decisions-direct-routing.md) <br> [Evaluar mi entorno](3-envision-evaluate-my-environment.md) <br> [Planificar la administración de mis servicios](4-envision-plan-my-service-management.md) <br> [Planeación de la experiencia de mi los usuarios](5-envision-plan-my-users-experience.md) <br> [Documentar el plan de éxito](6-envision-document-my-success-plan.md)    | [Preparar mis servicios](1-onboard-prepare-my-service.md) <br> [Preparar a mis usuarios](2-onboard-prepare-my-users.md) <br> [Implementar mis servicios](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Ejecutar mis servicios](1-drive-value-operate-my-service.md) <br> [Mejorar mis servicios](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
+> |[Definir mi éxito](1-envision-define-my-success-cloud-voice.md) <br> Tomar mi decisión de servicio para <br>&nbsp;&nbsp;[Audioconferencia](2-envision-make-my-service-decisions-audio-conferencing.md),<br>&nbsp;&nbsp;[Planes de llamadas](2-envision-make-my-service-decisions-phone-system.md)o [enrutamiento directo](2-envision-make-my-service-decisions-direct-routing.md) <br> [Evaluar mi entorno](3-envision-evaluate-my-environment.md) <br> [Planificar la administración de mis servicios](4-envision-plan-my-service-management.md) <br> [Planear la experiencia de mis usuarios](5-envision-plan-my-users-experience.md) <br> [Documentar el plan de éxito](6-envision-document-my-success-plan.md)    | [Preparar mis servicios](1-onboard-prepare-my-service.md) <br> [Preparar a mis usuarios](2-onboard-prepare-my-users.md) <br> [Implementar mis servicios](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Ejecutar mis servicios](1-drive-value-operate-my-service.md) <br> [Mejorar mis servicios](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
-El contenido se presenta en forma ordenada y está diseñado para guiarle a través de un viaje de implementación de extremo a extremo de principio a fin. Si va a implementar ya activamente, aún le animamos a hacer referencia a las áreas de contenido aplicables.
+El contenido se presenta de forma ordenada y está diseñado para guiarlo a través de una implementación completa de principio a fin. Si ya está implementando activamente, le recomendamos que haga referencia a las áreas de contenido aplicables.
 
 
 > [!TIP]
-> En esta guía práctica, proporcionamos da como resultado de ejemplo para cada actividad y la clave de la conversación. Los ejemplos a lo largo de este documento se incluyen dentro de las llamadas de sugerencia, y sirven como una plantilla que se puede volver a utilizar. Verá "TBA" (que se va a agregar) para obtener información que necesita para llevar a cabo como parte de su proceso de planeación.
+> En esta guía práctica, proporcionamos resultados de ejemplo para cada actividad y discusión clave. Los ejemplos de este documento se incluyen en las llamadas de sugerencias y sirven como una plantilla que puede volver a usar. Verá "TBA" (que se agregará) para obtener información que necesita completar como parte de su proceso de planeación.

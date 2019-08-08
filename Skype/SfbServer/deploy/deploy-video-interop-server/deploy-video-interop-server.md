@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
 description: 'Resumen: implementar el rol de servidor VIS en Skype empresarial Server.'
-ms.openlocfilehash: c6ee0e52a4ac84622fee9ba281a64d1094c38c4c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 790030e3ef0b88473f6fc1750c054db5cdd74b4a
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302738"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235591"
 ---
 # <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Implementar el servidor de interoperabilidad de vídeo en Skype empresarial Server
  

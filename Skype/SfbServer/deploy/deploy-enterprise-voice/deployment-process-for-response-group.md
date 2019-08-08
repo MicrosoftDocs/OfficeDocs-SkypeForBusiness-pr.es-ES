@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Proceso de implementación y pasos para el grupo respuesta de Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 62c6471018c3c1c6d1943d252975d2e671ef8cf4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 12497d143f9ff5c7630f81db8f416e2f7c74d574
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275618"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233302"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Proceso de implementación para un grupo de respuesta en Skype empresarial
 

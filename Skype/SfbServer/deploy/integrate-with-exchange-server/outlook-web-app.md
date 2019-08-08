@@ -6,18 +6,18 @@ author: lanachin
 manager: serdars
 ms.date: 3/7/2016
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumen: Integre Skype empresarial Server y Outlook Web App.'
-ms.openlocfilehash: d207e366638b8b6fe163d68b527c9b6d33d7a418
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7c279dc41515d9613d8c000ab9e81164a1ccaa6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278122"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244214"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar la integración entre Skype empresarial Server local y Outlook Web App
 

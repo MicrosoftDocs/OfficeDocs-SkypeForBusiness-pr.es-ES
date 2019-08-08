@@ -5,21 +5,22 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
 description: La interoperabilidad de vídeo en nube permite que los dispositivos de la sala de reuniones de terceros participen en reuniones de Microsoft Teams.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eed6c2d1e876e9c04e32c82c8119d7dbd4483692
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4d37acef498abfd0ed3e9125529abef38f737406
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34549022"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36237076"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeos en la nube para Microsoft Teams
 
@@ -47,9 +48,9 @@ Los siguientes Partners tienen soluciones de interoperabilidad de video para Mic
 
 |Servidor|Solución de socio|
 |----|---|
-|![El logotipo de Polycom RealConnect](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Servicio RealConnect de Polycom</a> |
-|![El logotipo de Pexip Infinity](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity para Microsoft Teams</a> | 
-|![El logotipo de la puerta de enlace de BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Puerta de enlace de BlueJeans para Microsoft Teams</a> |
+|![El logotipo representa la RealConnect de Polycom](media/polycom.png) | <a href="https://aka.ms/PolycomRealConnect" target="_blank">Servicio RealConnect de Polycom</a> |
+|![El logotipo representa infinito de Pexip](media/pexip.png)| <a href="https://aka.ms/PexipInfinity" target="_blank">Pexip Infinity para Microsoft Teams</a> | 
+|![El logotipo representa la puerta de enlace de BlueJeans](media/bluejeans.png)| <a href="https://aka.ms/BluejeansGateway" target="_blank">Puerta de enlace de BlueJeans para Microsoft Teams</a> |
 
 ### <a name="cloud-video-interop-overview"></a>Introducción a la interoperabilidad de vídeo en nube
 

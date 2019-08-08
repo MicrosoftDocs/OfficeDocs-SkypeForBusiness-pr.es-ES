@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En los temas de esta sección se describen las tareas que tendrá que realizar después de completar la migración a Skype empresarial Server 2019.
-ms.openlocfilehash: 34977674966ab7c52e14a3036edc71e1e2f44469
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9ac11178132ef08157e08bec63cd20127e9582b1
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34273864"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244392"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: Finalización de las tareas posteriores a la migración
 

@@ -5,7 +5,8 @@ ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
@@ -15,12 +16,12 @@ description: Aprenda a administrar tareas en el centro de administración de Mic
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c29f703994794d75047a260fe5d62deddb2d937
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 71417ccfc3387f030433a6b923e7fd21f32cd854
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221260"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232330"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 

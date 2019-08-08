@@ -1,46 +1,47 @@
 ---
-title: Actualización a los equipos de Microsoft | Skype para guía básica de los equipos de negocio
+title: Actualizar a Microsoft Teams | Guía básica de equipos de Skype para empresas
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Elija su ruta de actualización a Teams Microsoft según su Skype actual para la implementación empresarial
+audience: admin
+description: Elegir la ruta de actualización a Microsoft Teams en función de la implementación actual de Skype empresarial
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d78df5b35ae0e63544f68fd8fe335cf98eb41033
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31f0e387be6b8dbb4d543b872330377e8fb695d9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911414"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36235891"
 ---
-![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
+![Etapas del viaje de actualización, con énfasis en la fase de implementación e] implementación (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
 
-En este artículo forma parte de la fase de implementación y la implementación de su viaje por la actualización. Antes de continuar, confirme que ha realizado las siguientes actividades:
+Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 
-- [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
-- [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
-- [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Preparar el entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Preparar la organización](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Realiza una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
+- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
+- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Ha realizado una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="perform-your-upgrade-to-teams"></a>Realizar la actualización a los equipos
+# <a name="perform-your-upgrade-to-teams"></a>Realizar la actualización a teams
 
-Elija su viaje por la actualización en función de la implementación actual de Skype para la empresa:
+Elija su viaje de actualización en función de su implementación actual de Skype empresarial:
 
 - [Actualización de Skype Empresarial Online a Microsoft Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
-- [Actualización de Skype para entornos híbridos de negocio a los equipos](https://aka.ms/SkypeToTeams-UpgradeHybrid)
-- [Actualización de Skype para empresarial local a los equipos](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
+- [Actualizar de Skype empresarial híbrido a teams](https://aka.ms/SkypeToTeams-UpgradeHybrid)
+- [Actualizar de Skype empresarial local a teams](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
