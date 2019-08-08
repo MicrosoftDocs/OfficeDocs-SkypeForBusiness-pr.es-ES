@@ -3,6 +3,7 @@ title: Autorizar la conexión a Office Communications Server 2007 R2 servidor pe
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Authorize connection to Office Communications Server 2007 R2 Edge Server
 ms:assetid: 14f6798a-28d6-4b3d-8734-942192e1bbf5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204702(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 48183493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f81d8aaf9a01fc73516778487f8cc9a2d28a04ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04bc5d92b45f65c864da046951ce7ebd42155ed2
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842106"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232929"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

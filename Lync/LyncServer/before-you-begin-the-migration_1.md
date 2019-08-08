@@ -3,6 +3,7 @@ title: Antes de comenzar la migración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Before you begin the migration
 ms:assetid: 5938f360-017d-4658-8f99-e605b4129b18
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204909(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 48184202
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf3f53d654dbc3b0b8c0de8a4c527601d44f767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 57169c1f6e5079ef40803d8424753402cc888afe
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842100"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232908"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

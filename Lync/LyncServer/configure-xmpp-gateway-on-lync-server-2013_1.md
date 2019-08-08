@@ -3,6 +3,7 @@ title: Configurar la puerta de enlace XMPP en Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+audience: Admin
 TOCTitle: Configure XMPP gateway on Lync Server 2013
 ms:assetid: 00777a34-cc36-4992-9459-08c14543ef6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687953(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 49733538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5874495bb7a398ab8b5b5cde6376faaa6c193a85
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e972b8729126615a375f4d82f4c378a71642a4fb
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842842"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233252"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

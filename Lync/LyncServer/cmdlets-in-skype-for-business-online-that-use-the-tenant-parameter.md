@@ -3,6 +3,7 @@ title: Cmdlets de Skype empresarial online que usan el parámetro tenant
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Cmdlets that use the Tenant parameter
 ms:assetid: e7fe7c12-fbe0-49c1-9e8c-eef6958f27d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362850(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa3b09e6f419c7425332427ccf4a4ff664b9e395
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd58e375bcacfcb18cbc21e6ac352b8d98b56661
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842089"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233095"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets de Skype empresarial online que usan el parámetro tenant
 

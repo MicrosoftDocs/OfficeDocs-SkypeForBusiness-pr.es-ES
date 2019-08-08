@@ -3,6 +3,7 @@ title: Configurar servidores de aplicaciones de confianza
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure trusted application servers
 ms:assetid: 20c3815f-3048-4940-8c0f-cdfcd0801d5d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204735(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 48183592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a27dbab3e954c96a07739f8a214ae7d1ec87ace
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cab126429fc5ec77a2308fdc1e1f8965fdfccb5b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842849"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233186"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

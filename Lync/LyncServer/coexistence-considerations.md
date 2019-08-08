@@ -3,6 +3,7 @@ title: Consideraciones sobre la coexistencia
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Coexistence considerations
 ms:assetid: 9d1a3c0f-492a-4e37-bc2f-63509e328785
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205131(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 48184990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0e06e5620b3b9ce81826bf623a42ec8d89c5d3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bc2889a11f6cc0afaecd7adf35bc16075011fef9
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842085"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233088"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

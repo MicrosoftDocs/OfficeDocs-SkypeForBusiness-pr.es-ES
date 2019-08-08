@@ -3,6 +3,7 @@ title: Configurar la supervisión SCOM
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure SCOM monitoring
 ms:assetid: 4003d225-2a33-448c-abd9-571750661140
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688033(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b73bbf1ae1a487f8e6dcf8560e37cf5c7a73ba04
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d48e08854b3c7aa66ca0f40224131b2785533e5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842087"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

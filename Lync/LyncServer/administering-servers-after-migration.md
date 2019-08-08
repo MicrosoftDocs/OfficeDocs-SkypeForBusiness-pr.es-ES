@@ -3,6 +3,7 @@ title: Administrar los servidores tras la migración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Administering servers after migration
 ms:assetid: 7b08f048-c951-4050-b77c-0fff351620e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205023(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 48184582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f784bbc0525fecc2f2462dab5094a5d6263ca71
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cc74d02f0d99319d2014262ff9a607d723aaa274
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842103"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233005"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

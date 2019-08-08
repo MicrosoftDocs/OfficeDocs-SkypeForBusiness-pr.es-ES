@@ -3,6 +3,7 @@ title: Configurar la página para unirse a la reunión
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure the meeting join page
 ms:assetid: a87319b7-3124-4262-8f9d-18138870ee2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205145(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 48185030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 07c3797f62fb1d6b7df0274d26fb1ddde706a66a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4de88d5c277cb1cef2decb8c51c1c87471dae77
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842086"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

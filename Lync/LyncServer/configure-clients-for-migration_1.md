@@ -3,6 +3,7 @@ title: Configuración de los clientes para la migración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure clients for migration
 ms:assetid: 8f17862b-d9d1-47f6-b248-51f4710f5030
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688130(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 49733729
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 399320fd840391b8d0483b3dc45b62c83311d91f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 710a5cf6cb23b91431b340c44ebe6ff2738b0822
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842082"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233071"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

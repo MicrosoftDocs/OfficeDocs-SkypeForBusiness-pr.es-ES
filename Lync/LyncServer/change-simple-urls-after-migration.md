@@ -3,6 +3,7 @@ title: Cambiar las direcciones URL simples tras la migración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Change simple URLs after migration
 ms:assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721844(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0203b33d787310544f4f376872ecf9c99fc7254d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 811296efc12badd61d148b7dbd60a3489e74a747
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842098"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232873"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

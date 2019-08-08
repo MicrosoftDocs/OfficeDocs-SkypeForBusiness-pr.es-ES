@@ -3,6 +3,7 @@ title: Copia de seguridad de los datos y sistemas
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Back up systems and data
 ms:assetid: d61fddc1-98d4-4577-a371-33f9e221288c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205303(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 48185550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 85a1b871ca2f10a8cb213f2293dae4ef624242b9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f67f47670ad39ebd44360f488432e7a383b63fea
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842104"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36232887"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

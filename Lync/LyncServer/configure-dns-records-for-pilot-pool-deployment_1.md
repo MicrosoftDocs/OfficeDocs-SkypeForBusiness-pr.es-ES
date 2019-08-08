@@ -3,6 +3,7 @@ title: Configurar registros DNS para una implementación de grupo de servidores 
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure DNS records for pilot pool deployment
 ms:assetid: 5c7a6e10-e1e9-4479-9bf9-d4a3e2e09ff0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688072(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 49733666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0425d8adf0e09f3a0d081b1708d7e67e3f53a24
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 18c9bc007eda604ce4894497db4a6ef334315d28
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842083"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

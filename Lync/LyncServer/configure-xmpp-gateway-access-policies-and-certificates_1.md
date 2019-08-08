@@ -3,6 +3,7 @@ title: Configurar certificados y directivas de acceso por puerta de enlace XMPP
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+audience: Admin
 TOCTitle: Configure XMPP gateway access policies and certificates
 ms:assetid: cd91433e-6dfb-4553-8316-c1086b394221
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721885(v=OCS.15)
@@ -10,12 +11,12 @@ ms:contentKeyID: 49733819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f93134da1f61f4036a468a6aeeffb3867c2cce89
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e2ae31161241b05a626dbbb49193b9cd2e8e117
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842846"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
