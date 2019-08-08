@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 'Resumen: Obtenga información sobre cómo probar la configuración de los troncales SIP con el shell de administración de Skype empresarial Server.'
-ms.openlocfilehash: aec88300341f42d5f228c3c13f1a0925b71ce855
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1ef034f0b1de187e472fc3049573e9453e5a9505
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300963"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240111"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Probar la configuración del tronco del SIP en Skype empresarial Server
  

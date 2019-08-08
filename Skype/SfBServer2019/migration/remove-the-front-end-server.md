@@ -5,16 +5,16 @@ ms.author: kenwith
 author: kenwith
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Los procedimientos descritos en este tema están diseñados para guiarlo a través del proceso de eliminación de un grupo de servidores front-end Enterprise Edition o un servidor de aplicaciones para el usuario Standard Edition. Después de migrar a Skype empresarial Server 2019, este es uno de los primeros pasos para dar de baja su entorno heredado.
-ms.openlocfilehash: 62e9552f8781d753e5e03e8aa4f23ad67d40dbce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 611f9c3129b46026c55c2184ea8416bbe8a1f26c
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301107"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244180"
 ---
 # <a name="remove-the-front-end-server"></a>Eliminar el servidores front-end
 

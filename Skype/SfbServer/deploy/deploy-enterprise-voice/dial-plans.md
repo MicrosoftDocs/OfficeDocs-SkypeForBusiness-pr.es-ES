@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 'Resumen: Aprenda a crear o modificar un plan de marcado con el panel de control de Skype empresarial Server.'
-ms.openlocfilehash: b2556a6b5a86b895f18db0daf981fd04ea49cda1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 456bd4c46b371da260340fab4e2b7152d14f7924
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291654"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240508"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>Crear o modificar un plan de marcado en Skype empresarial Server
 
@@ -50,7 +50,7 @@ ms.locfileid: "34291654"
 5. El campo **Nombre simple** se cumplimenta previamente con el mismo nombre que aparece en el campo **Nombre**. Sil o desea, puede editar este campo para especificar un nombre más descriptivo que defina el sitio, servicio o usuario al que se aplica el plan de marcado.
 
    > [!IMPORTANT]
-   > El  **Nombre simple** debe ser único entre todos los planes de marcado de la implementación. No puede tener más de 256 caracteres Unicode, cada uno de los cuales puede ser un carácter alfabético o numérico, un guión (-), un punto (.) o un carácter de subrayado (_). los caracteres > **no admitidos** incluyen espacios y caracteres<http://www.ietf.org/rfc/rfc3966.txt>reservados según se define en RFC 3966 (). Entre los caracteres reservados que **no son compatibles** con el **nombre simple** se incluyen los siguientes: > ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
+   > El  **Nombre simple** debe ser único entre todos los planes de marcado de la implementación. No puede tener más de 256 caracteres Unicode, cada uno de los cuales puede ser un carácter alfabético o numérico, un guión (-), un punto (.) o un carácter de subrayado (_). > caracteres **no admitidos** incluyen espacios y caracteres reservados<http://www.ietf.org/rfc/rfc3966.txt>, tal y como se define en RFC 3966 (). Entre los caracteres reservados que **no son compatibles** con el **nombre simple** se incluyen los siguientes: > ";" "/" "?" ":" "@" "&amp;" "=" "+" "$" ","
 
 6. (Opcional) En el campo **Descripción**, puede escribir información descriptiva adicional sobre el plan de marcado.
 
@@ -82,7 +82,7 @@ ms.locfileid: "34291654"
 10. Compruebe que las reglas de normalización del plan de marcado están organizadas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
 
     > [!IMPORTANT]
-    > Skype empresarial Server recorre la lista de reglas de normalización de la parte superior hacia abajo y usa la primera regla que coincida con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. > la regla **** de normalización predeterminada, ^ ({11}\d) $ coincide con cualquier número de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que **mantener todo** se ordene debajo de la regla ^ (1425 \{7}d) $ más restrictiva.
+    > Skype empresarial Server recorre la lista de reglas de normalización de la parte superior hacia abajo y usa la primera regla que coincida con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. > la regla predeterminada **guardar todas las** normalizaciones ^{11}(\d) $ coincide con cualquier número de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que **mantener todo** se ordene debajo de la regla ^ (1425 \{7}d) $ más restrictiva.
 
 11. (Opcional) Especifique un número para probar el plan de marcado y, a continuación, haga clic en **Ir**. Los resultados de la prueba se muestran en **Introducir un número para probarlo**.
 
@@ -141,7 +141,7 @@ ms.locfileid: "34291654"
 10. Compruebe que las reglas de normalización del plan de marcado están organizadas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
 
     > [!IMPORTANT]
-    > Skype empresarial Server recorre la lista de reglas de normalización de la parte superior hacia abajo y usa la primera regla que coincida con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. > la regla **** de normalización predeterminada, ^ ({11}\d) $ coincide con cualquier número de 11 dígitos. Si, por ejemplo, agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que **mantener todo** está ordenado por debajo de la regla ^ (1425 \{7}d) $ más restrictiva.
+    > Skype empresarial Server recorre la lista de reglas de normalización de la parte superior hacia abajo y usa la primera regla que coincida con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. > la regla predeterminada **guardar todas las** normalizaciones ^{11}(\d) $ coincide con cualquier número de 11 dígitos. Si, por ejemplo, agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que **mantener todo** está ordenado por debajo de la regla ^ (1425 \{7}d) $ más restrictiva.
 
 11. (Opcional) Especifique un número para probar el plan de marcado y, a continuación, haga clic en **Ir**. Los resultados de la prueba se muestran en **Introducir un número para probarlo**.
 

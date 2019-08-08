@@ -6,7 +6,8 @@ manager: serdars
 ms.date: 06/20/2019
 ms.topic: conceptual
 ms.service: msteams
-MS.collection:
+audience: admin
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sbhatta
@@ -14,12 +15,12 @@ search.appverid: MET150
 description: Vea un breve resumen sobre cómo se invita a un invitado a que se una a un equipo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 438dc1e095d4ea4d3b14354ab5cae445eaf0df90
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: ff9565cab22dd34251624a39755d322470d2eb04
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35221894"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241956"
 ---
 <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
 ========================

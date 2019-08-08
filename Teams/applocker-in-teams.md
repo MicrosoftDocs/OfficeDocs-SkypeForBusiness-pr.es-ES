@@ -1,44 +1,45 @@
 ---
-title: Directivas de control de aplicación de AppLocker en Microsoft Teams
+title: Directivas de control de aplicaciones de AppLocker en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.topic: article
+audience: admin
 ms.service: msteams
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
-description: Obtenga información sobre cómo habilitar la aplicación de cliente de escritorio de los equipos con directivas de control de aplicación de AppLocker.
+description: Aprenda a habilitar la aplicación cliente de escritorio de Teams con directivas de control de aplicaciones de AppLocker.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04379cad0ab224915a02475b010f908d486284cc
-ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
+ms.openlocfilehash: 8d87eb5328f5200479f719dc22d9244c46af8944
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34063216"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244947"
 ---
-# <a name="applocker-application-control-policies-in-microsoft-teams"></a>Directivas de control de aplicación de AppLocker en Microsoft Teams
+# <a name="applocker-application-control-policies-in-microsoft-teams"></a>Directivas de control de aplicaciones de AppLocker en Microsoft Teams
 
-En este artículo se explica cómo habilitar la aplicación de cliente de escritorio de los equipos con directivas de control de aplicación de AppLocker. Uso de AppLocker está diseñada para restringir la ejecución de programa y secuencias de comandos por los usuarios que no sean administrativos. Para obtener más información y orientación sobre AppLocker, consulte [¿Qué es AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker).
+En este artículo se explica cómo habilitar la aplicación cliente de escritorio de Teams con directivas de control de aplicaciones de AppLocker. El uso de AppLocker está diseñado para restringir la ejecución de programas y scripts por parte de usuarios no administrativos. Para obtener más información y orientación en AppLocker, consulte [¿Qué es AppLocker?](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/what-is-applocker).
 
-El proceso para permitir a los equipos con AppLocker requiere la creación de las directivas de AppLocker-based lista blanca. Las directivas se crean con software de administración de directiva de grupo o el uso de cmdlets de Windows PowerShell para AppLocker (vea la [referencia técnica de AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) para obtener más información). La directiva de AppLocker se guarda en formato XML y se puede editar con cualquier editor de XML o de texto.
+El proceso de habilitar equipos con AppLocker requiere la creación de políticas de listas blancas basadas en AppLocker. Las directivas se crean con el software de administración de directivas de grupo y/o el uso de cmdlets de Windows PowerShell para AppLocker (consulte la [referencia técnica de AppLocker](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-technical-reference) para obtener más información). La Directiva de AppLocker se guarda en formato XML y puede editarse con cualquier editor de texto o XML.
 
-## <a name="teams-whitelisting-with-applocker"></a>Lista blanca de los equipos con AppLocker
+## <a name="teams-whitelisting-with-applocker"></a>Listas blancas de equipos con AppLocker
 
-Las reglas de AppLocker se organizan en colecciones de reglas. Las reglas de AppLocker se aplican a la aplicación de destino y que son los componentes que componen la directiva de AppLocker.  
+Las reglas de AppLocker se organizan en colecciones de reglas. Las reglas de AppLocker se aplican a la aplicación de destino y son los componentes que conforman la Directiva de AppLocker.  
 
-Para los equipos de la lista blanca, se recomienda usar las [reglas de condición de publisher](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) ya que todos los archivos de aplicación de los equipos están firmados digitalmente.
+Para los equipos de la lista blanca, le recomendamos que use las [reglas de condición](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) de Publisher, ya que todos los archivos de la aplicación Teams están firmados digitalmente.
   
-No se recomienda el uso de las reglas de ruta de acceso porque el directorio de instalación de los equipos se puede escribir el usuario. También se no recomienda el uso de reglas de hash porque las reglas tendría que se actualizan cada vez que se actualiza la aplicación de los equipos cliente.
+No recomendamos el uso de reglas de ruta de acceso porque el directorio de instalación de Teams es grabable para el usuario. Tampoco recomendamos el uso de Reglas Hash porque las reglas deberían actualizarse cada vez que se actualice la aplicación cliente de Teams.
 
-Dado que los archivos ejecutables de escritorio de los equipos están firmados digitalmente, la condición de publisher identifica un archivo de aplicación basado en los atributos de versión incrustado y su firma digital. La firma digital contiene información acerca de la compañía que creó el archivo de aplicación (el publicador). La información de versión, se obtiene desde el recurso binario, incluye el nombre del producto que el archivo forma parte de y el número de versión de archivo de la aplicación.
+Como los archivos ejecutables de escritorio de Teams están firmados digitalmente, la condición Publisher identifica un archivo de aplicación en función de sus atributos de firma digital y versión insertada. La firma digital contiene información sobre la empresa que creó el archivo de la aplicación (el publicador). La información de versión, que se obtiene del recurso binario, incluye el nombre del producto del que forma parte el archivo y el número de versión del archivo de la aplicación.
 
-### <a name="example-of-publisher-condition-rules"></a>Ejemplo de las reglas de condición de publisher
+### <a name="example-of-publisher-condition-rules"></a>Ejemplo de reglas de condición de editor
 
-Para la aplicación de cliente de los equipos (todos los archivos, todas las versiones):
+Para la aplicación cliente de Teams (todos los archivos, todas las versiones):
 
 ```
 Publisher: O=MICROSOFT CORPORATION, L=REDMOND, S=WASHINGTON, C=US

@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: Comprobar la implementación de el parque de llamadas en la telefonía IP empresarial de Skype empresarial.
-ms.openlocfilehash: 94d230491c0207c05016545de3c45cf0582ca496
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d698bf46f0a36a86729856c388fde09514288253
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292846"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240441"
 ---
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>Faculta Comprobar la implementación del parque de llamadas en Skype empresarial
  

@@ -6,23 +6,24 @@ manager: serdars
 ms.date: 05/24/2019
 ms.topic: article
 ms.service: msteams
+audience: admin
 ms.reviewer: esmather
 search.appverid: MET150
 description: Obtener información sobre el uso de la pizarra Web App (versión preliminar) en Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98dad25767c5269b55a186d6d3c460c6fbd27fc6
-ms.sourcegitcommit: e1532a45df1a43d5af7b5370e3444c3971adb450
+ms.openlocfilehash: 40c372c56cc58ad1f1682c48bf70bef60801fce3
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433740"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233263"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Administrar la pizarra en Microsoft Teams
 ==========================================
@@ -42,7 +43,7 @@ Para activar o desactivar la pizarra Web App (versión preliminar), haga lo sigu
 
 2. Vaya a **Configuración** > **Servicios y complementos**.
 
-3. En la página complementos del **servicio &** , desplácese hacia abajo y, a continuación, elija **pizarra**.
+3. En la página **servicio &** complementos, desplácese hacia abajo y, a continuación, elija **pizarra**.
 
 4. Para activar la aplicación pizarra, en el panel **pizarra** , cambie **activar o desactivar la vista previa de la pizarra para toda la organización** como **activada**.
 

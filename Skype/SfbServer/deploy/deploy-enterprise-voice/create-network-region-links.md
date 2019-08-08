@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Crear o modificar vínculos de región de red, que usan los controles de admisión de llamadas de telefonía de empresa en Skype empresarial Server.
-ms.openlocfilehash: 60d4d6f1279e7f6ad3946a6b25fb32ecd589ab07
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2b2eb99fa59125c93d97b902b6fbaad122ffdcdf
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286273"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233478"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Crear vínculos de región de red en Skype empresarial Server
  

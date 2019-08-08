@@ -7,6 +7,7 @@ layout: HubPage
 ms.topic: hub-page
 ms.date: 7/1/19
 ms.service: msteams
+audience: admin
 ms.collection:
 - Teams_ITAdmin_Training
 - Teams_ITAdmin_JourneyFromSfB
@@ -16,12 +17,12 @@ description: Talleres interactivos en vivo diseñados para ayudarle a empezar a 
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 304fa0b8e63973e1bf516d235da4bad9f5732419
-ms.sourcegitcommit: 8ec1aa8f953206a08a488efdb59691824e26056a
+ms.openlocfilehash: e4be855754f6a162016f23feadc0de34849ac2bd
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "35804922"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243764"
 ---
 <div id="main" class="v2">
     <div class="container">

@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 'Resumen: Cómo administrar directivas de grupo.'
-ms.openlocfilehash: 29e60ea772348ed5f483669cc1d17f8c13e96a02
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5d099a57db720a87e67ee00aa87a8613ac6552b7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286540"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36234500"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>Configurar las directivas de arranque de cliente
  

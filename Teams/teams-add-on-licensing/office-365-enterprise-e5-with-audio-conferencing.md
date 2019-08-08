@@ -7,7 +7,7 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga más información sobre las licencias de complementos, las características y cómo comprar para los planes de Office 365 Enterprise E5. '
-ms.openlocfilehash: 35052942774645ff5795ab688876cfbd30c80259
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f092faaafd15f77c448ba66237c7ab0653aae2d6
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298497"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242597"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

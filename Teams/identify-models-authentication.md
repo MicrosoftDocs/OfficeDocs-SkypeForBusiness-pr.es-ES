@@ -7,20 +7,21 @@ ms.date: 09/25/2017
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
+audience: admin
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Conozca los diferentes modelos de identidad de Microsoft Teams, como Nube, Sincronizada y Federada. Aprenda también sobre la autenticación multifactor.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34e70313d83bfa7873e990a2d77bc165dfd8dfbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fabd8a853202f49fb66c9b796a84beff554afdb5
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234941"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241907"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modelos de identidad y autenticación en Microsoft Teams
 ==========================================
@@ -53,7 +54,7 @@ Consulte [Elegir un modelo de inicio de sesión para Office 365](https://go.micr
 
 Los planes de Office 365 admiten la autenticación multifactor (MFA) que aumenta la seguridad de los inicios de sesión de usuario en los servicios de Office 365. Con MFA para Office 365, los usuarios deben responder a una llamada de teléfono, un mensaje de texto o una notificación de aplicación en sus smartphones después de introducir correctamente la contraseña. Solo podrán iniciar sesión una vez que se haya cumplido este segundo factor de autenticación.
 
-Autenticación de múltiples factores es compatible con cualquier plan de Office 365 que incluye Microsoft Teams. Los planes de suscripción de Office 365 que incluyen Microsoft Teams se describen más adelante en la sección de licencia más adelante.
+La autenticación multifactor es compatible con cualquier plan 365 de Office que incluya Microsoft Teams. Los planes de suscripción de Office 365 que incluyen Microsoft Teams se describen más adelante en la sección licencias que se muestra a continuación.
 
 Una vez que los usuarios se inscriban para MFA, la próxima vez que inicien sesión, verán un mensaje que les pide que configuren el segundo factor de autenticación. Los métodos de autenticación admitidos son:
 

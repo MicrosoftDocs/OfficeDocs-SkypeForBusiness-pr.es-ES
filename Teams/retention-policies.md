@@ -6,54 +6,55 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
+audience: admin
 ms.reviewer: anach
-description: Obtenga información sobre cómo las directivas de retención y cómo se administran en los equipos.
+description: Obtenga información sobre cómo usar las directivas de retención y cómo administrarlas en Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3c253569f642a8833d9bfad6677fe1a17624447
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dc547f30a7ff24b62e93501eba9a46a2e6e3da74
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205130"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243602"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
-Las conversaciones de los equipos son persistentes y retenidas para siempre de forma predeterminada. Con la introducción de las directivas de retención, los administradores pueden configurar las directivas de retención (conservación y eliminación) en el centro de cumplimiento de & de seguridad para los mensajes de chat y canal de los equipos. Esto ayuda a las organizaciones retener datos para el cumplimiento (es decir, la directiva de conservación) durante un período específico o deshacerse de datos (es decir, la directiva de eliminación) si se considera una responsabilidad después de un período específico. Las directivas de retención de los equipos Asegúrese de que al eliminar datos, se elimina de todas las ubicaciones de almacenamiento de datos permanente en el servicio de los equipos. 
+Las conversaciones de Teams son persistentes y se conservan para siempre de forma predeterminada. Con la introducción de las directivas de retención, los administradores pueden configurar directivas de retención (tanto de conservación como de eliminación) en el centro de cumplimiento de seguridad & para los mensajes de chat y de canal de Teams. Esto ayuda a las organizaciones a retener datos de cumplimiento (concretamente, a la Directiva de conservación) durante un período específico o a deshacerse de los datos (es decir, la política de eliminación) si se considera un pasivo después de un período específico. Las directivas de retención de Teams garantizan que cuando se eliminan datos, se quitan de todas las ubicaciones de almacenamiento de datos permanentes en el servicio de Teams. 
 
-Para administrar las directivas de retención de los equipos, use los cmdlets y la configuración en el centro de cumplimiento en **Datos de gobierno**de seguridad de Office 365 & > **retención**.
+Para administrar las directivas de retención de Teams, use la configuración y cmdlets del centro de cumplimiento de Office 365 Security & en**retención**de **gobierno** > de datos.
 
-Son compatibles con las directivas de retención de los equipos: 
+Las directivas de retención de Teams sí son compatibles: 
     
-- Conservación: Conservar los datos de los equipos por una duración especificada y, a continuación, no haga nada
-- Conservación y, a continuación, eliminar: conservar los datos de los equipos por una duración especificada y, a continuación, eliminar
-- Eliminación: Eliminar datos de los equipos tras una duración especificada
+- Preservación: mantener los datos de Teams por una duración determinada y no hacer nada
+- Preservación y, a continuación, eliminar: mantener los datos de Teams durante un período específico y, a continuación, eliminar
+- Eliminación: eliminar datos de Teams después de un período de tiempo especificado
 
-Aún no admiten las directivas de retención de los equipos:
+Las directivas de retención de Teams aún no son compatibles:
 
-- Las directivas de retención avanzadas no se aplican a conversaciones en los equipos y ubicaciones de mensajes de canal de los equipos
+- Las directivas de retención avanzadas no se aplican a los equipos chat y Teams canales de mensajes
 - Duración de menos de 30 días
 
-Los administradores pueden configurar las directivas de retención independiente para chats privadas de los equipos (1:1 o 1: muchas chats) y los mensajes del canal de los equipos. En muchos casos, las organizaciones, tenga en cuenta los datos de chat privado como más de un pasivo que no son mensajes de canal, que suelen ser más conversaciones relacionados con el proyecto. Configurar estas directivas en el centro de cumplimiento, de & seguridad **Gobierno datos** > **retención**. Activar **los mensajes del canal de los equipos** y **los equipos de chat** y, a continuación, defina las directivas de retención para estas ubicaciones (también se muestra en el diagrama siguiente). 
+Los administradores pueden configurar directivas de retención diferentes para los chats privados de los equipos (1:1 o 1: muchos chats) y los mensajes de canal de Teams. En muchos casos, las organizaciones consideran que los datos de los chats privados son más responsabilidad de los mensajes de canal, que suelen ser más conversaciones relacionadas con el proyecto. Configure estas directivas en el centro de cumplimiento de & de seguridad,**retención**de **gobierno** > de datos. Active **los mensajes de canal** de Teams y los chats de **equipos** y, a continuación, defina las directivas de retención para estas ubicaciones (también se muestra en el diagrama siguiente). 
 
-Cuando se activa en **los equipos de los mensajes del canal**, puede especificar los equipos a los que se aplicará esta directiva. Por ejemplo, para equipos de X, Y y Z, el administrador puede establecer las directivas de eliminación para 1 año (seleccionando esos equipos de forma individual) y aplicar una directiva de eliminación de 3 años para el resto de los equipos. 
+Al activar **los mensajes de canal**de Teams, puede especificar los equipos a los que se aplicará esta Directiva. Por ejemplo, para Teams X, y y Z, el administrador puede establecer las directivas de eliminación para un año (seleccionando esos equipos individualmente) y aplicar una directiva de eliminación de 3 años al resto de los equipos. 
 
-Puede hacer lo mismo para **los equipos de chat** mediante la selección de usuarios específicos y aplicar las directivas de retención único. 
+Puede hacer lo mismo para los chats de **Teams** seleccionando usuarios específicos y aplicando directivas de retención únicas. 
 
 ![Diagrama del flujo de trabajo de los datos de Teams en Exchange y SharePoint.](media/Retention-Policies.png)
 
 
 > [!IMPORTANT]
-> Las ubicaciones de mensaje de canal de los equipos y ubicaciones de los equipos chats dirección sólo las conversaciones de los equipos almacenadas en los buzones de Exchange Online (buzones de usuario y de grupo). Los mensajes se eliminan de todas las ubicaciones de almacenamiento de información relevante, es decir, los buzones de correo, sustrato y servicio de chat. 
+> Las ubicaciones de los mensajes de canal y equipos de chat de equipos solo se redireccionan a las conversaciones de Teams almacenadas en buzones de Exchange Online (buzones de usuario y de grupo). Los mensajes se eliminan de todas las ubicaciones de almacenamiento relevantes, es decir, los buzones, el sustrato y el servicio de chat. 
 > 
-> Para administrar las directivas de retención para los archivos de los equipos, que se almacenan en OneDrive para profesionales y SharePoint, use sus directivas de retención.
+> Para administrar las directivas de retención de los archivos de Teams, que se almacenan en OneDrive para la empresa y SharePoint, use sus directivas de retención.
 
-Por diseño, se configuran las directivas de eliminación para los archivos de los equipos a través de SharePoint Online y OneDrive para las ubicaciones de negocio. Como resultado, es posible que una directiva pudo eliminar un archivo al que hace referencia en un mensaje de chat o canal de los equipos antes de que se eliminan los mensajes. En este caso, el archivo aún se mostrará en el mensaje de los equipos, pero si hace clic en el archivo, obtendrá un error de "Archivo no encontrado" (también puede suceder en ausencia de una directiva, si alguien elimina manualmente un archivo de SharePoint Online o OneDrive para la empresa).
+Por diseño, las directivas de eliminación de los archivos de Teams se configuran a través de SharePoint Online y OneDrive para la empresa. Como resultado, es posible que una directiva pueda eliminar un archivo al que se hace referencia en una conversación de equipos o un mensaje de canal antes de que esos mensajes se eliminen. En este caso, el archivo seguirá apareciendo en el mensaje de Teams, pero si hace clic en el archivo, aparecerá el error "no se encuentra el archivo" (esto también podría ocurrir si alguien elimina manualmente un archivo de SharePoint Online o OneDrive para la empresa).
 
-Para obtener información detallada acerca de cómo configurar las directivas de retención para Office 365, lea [información general de las directivas de retención](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
+Para obtener información detallada sobre cómo configurar directivas de retención para Office 365, consulte [información general sobre las directivas de retención](https://support.office.com/article/overview-of-retention-policies-5e377752-700d-4870-9b6d-12bfc12d2423).
  

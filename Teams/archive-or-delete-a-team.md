@@ -1,10 +1,11 @@
 ---
-title: Archivar o eliminar un equipo en Microsoft Teams
+title: Archivar o borrar un equipo en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/18/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: islubin
 search.appverid: MET150
@@ -12,55 +13,55 @@ description: Obtenga información sobre cómo archivar o eliminar permanentement
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eaa26a3092c0612b006c28bb7ab543313a55dfe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 125c7954eabcbf5f454d1e9bc96b1c33377ed23f
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211074"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241967"
 ---
-<a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivar o eliminar un equipo en Microsoft Teams
+<a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivar o borrar un equipo en Microsoft Teams
 ===========================================
 
-Con el tiempo, es posible que se dividen un equipo creado en Microsoft Teams fuera de uso o es posible que desee archivar o eliminar un equipo al final de un proyecto. Si es un administrador de Microsoft Teams, siga los pasos descritos en este artículo para archivar o eliminar un equipo que ya no sea necesaria. Cuando se archiva un equipo, deja de toda la actividad de ese equipo, pero aún puede agregar o quitar a miembros y actualizar las funciones y aún puede ver toda la actividad del equipo en charlas, archivos y canales. Cuando se elimina un equipo, también se eliminará la actividad de equipo en los canales asociados, archivos y chats. 
+Con el tiempo, es posible que un equipo creado en Microsoft Teams se quede fuera de uso o que desee archivar o eliminar un equipo al final de un proyecto. Si es un administrador de Microsoft Teams, siga los pasos que se indican en este artículo para archivar o eliminar un equipo que ya no es necesario. Al archivar un equipo, se detiene toda la actividad de ese equipo, pero puede seguir agregando o quitando miembros y actualizando los roles y podrá seguir viendo toda la actividad del equipo en canales, archivos y chats. Al eliminar un equipo, también se elimina la actividad de equipo en los canales, los archivos y los chats relacionados. 
 
 > [!IMPORTANT]
-> Se pueden reactivar equipos archivados, pero no se puede recuperar un equipo que se ha eliminado. Considere la posibilidad de archivado en primer lugar el equipo y posponer la eliminación hasta que esté seguro de que ya no necesita el equipo.
+> Los equipos archivados se pueden reactivar, pero no puede recuperar un equipo que se haya eliminado. Considere la posibilidad de archivar primero el equipo y posponer la eliminación hasta que esté seguro de que ya no lo necesita.
 
 ## <a name="archive-a-team"></a>Archivar un equipo
 
 Siga estos pasos para archivar un equipo.
 
-1. En el centro de administración de Microsoft Teams, seleccione **los equipos**.
-2. Seleccione un equipo, haga clic en el nombre de equipo.
-3. Seleccione el **archivo**. Aparecerá el siguiente mensaje de error.
+1. En el centro de administración de Microsoft Teams, seleccione **Teams**.
+2. Seleccione un equipo haciendo clic en el nombre del equipo.
+3. Seleccione **archivo**. Aparecerá el siguiente mensaje.
 
-    ![Mensaje de archivo de captura de pantalla de los equipos](media/teams-archive-message.png)
+    ![Captura de pantalla del mensaje de archivo de Teams](media/teams-archive-message.png)
 
-4. Si desea que el sitio de SharePoint para el equipo de sólo lectura, active la casilla de verificación.
-5. Seleccione **archivo** para archivar el equipo. Estado del grupo cambiará a **archivados**.
+4. Si desea que el sitio de SharePoint para el equipo sea de solo lectura, active la casilla.
+5. Seleccione **archivar** para archivar el equipo. El estado del equipo cambiará a **archivado**.
 
 ## <a name="make-an-archived-team-active"></a>Activar un equipo archivado
 
-Siga estos pasos para activar un equipo archivado nuevo.
+Siga estos pasos para volver a activar un equipo archivado.
 
-1. En el centro de administración de Microsoft Teams, seleccione **los equipos**.
-2. Seleccione un equipo, haga clic en el nombre de equipo.
-3. Seleccione **Unarchive**. Estado del grupo cambiará a **activo**.
+1. En el centro de administración de Microsoft Teams, seleccione **Teams**.
+2. Seleccione un equipo haciendo clic en el nombre del equipo.
+3. Seleccione **** desarchivar. El estado del equipo cambiará a **activo**.
 
 ## <a name="delete-a-team"></a>Eliminar un equipo
 
-Si el equipo no será necesario en el futuro, puede eliminar, en lugar de archivarlos. Siga estos pasos para eliminar un equipo.
+Si el equipo no se va a necesitar en el futuro, puede eliminarlo en lugar de archivarlo. Siga estos pasos para eliminar un equipo.
 
-1.  En el centro de administración de Microsoft Teams, seleccione **los equipos**.
-2.  Seleccione un equipo, haga clic en el nombre de equipo.
-3.  Seleccione **Eliminar**. Aparecerá un mensaje de confirmación.
-4.  Seleccione **Eliminar** para eliminar permanentemente el equipo.
+1.  En el centro de administración de Microsoft Teams, seleccione **Teams**.
+2.  Seleccione un equipo haciendo clic en el nombre del equipo.
+3.  Seleccione **eliminar**. Aparecerá un mensaje de confirmación.
+4.  Seleccione **eliminar** para eliminar de forma permanente el equipo.
 
 
 

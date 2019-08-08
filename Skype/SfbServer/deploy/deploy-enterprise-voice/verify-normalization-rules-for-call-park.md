@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: Obtenga más información sobre las reglas de normalización de llamadas en la telefonía IP empresarial de Skype empresarial.
-ms.openlocfilehash: 36e9a91ff1269caffb8eab5be9a2c681d3244b31
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 38de300970341d563f2a532847a39c2fe98e15e7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34300940"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240020"
 ---
 # <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>Comprobar reglas de normalización para el parque de llamadas en Skype empresarial
  

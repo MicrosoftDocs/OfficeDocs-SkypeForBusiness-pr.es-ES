@@ -7,7 +7,7 @@ ms.reviewer: mikedav
 ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga más información sobre las licencias de complementos, las características y cómo comprar para Office 365 ProPlus.
-ms.openlocfilehash: 35a1ab4f466c194c3afa64d7e3cf789049cf3b30
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e26b871bbebdb3c5a5ed22c8e3fee9e4c08ef409
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298519"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242564"
 ---
 # <a name="office-365-proplus"></a>Office 365 ProPlus
 

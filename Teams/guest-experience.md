@@ -5,22 +5,23 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 06/20/2019
 ms.topic: conceptual
+audience: admin
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Obtenga más información sobre la funcionalidad de Microsoft Teams que está disponible para los usuarios invitados.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52ad89d253c58d8c840698c32f697d91d7d69695
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 4dddd12a291ece817669114e0b836e6df56d2610
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221902"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36242000"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================

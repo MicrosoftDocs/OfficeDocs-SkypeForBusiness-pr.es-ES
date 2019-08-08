@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: La apariencia de la línea compartida permite que el usuario elija un delegado para responder o controlar las llamadas en su nombre.
-ms.openlocfilehash: 619e011e1af5a765bc86ca6bd68134dc5ab1e9fa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e2e99d214ef493933ed44d28c4a9cbdaeaab1077
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298658"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243117"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Apariencia de línea compartida en Microsoft Teams
 
@@ -43,7 +43,12 @@ Tanto los administradores como los delegados deben tener habilitada la telefoní
 
 La delegación y la apariencia de la línea compartida son características dirigidas por el usuario: no hay ninguna configuración de administrador para configurar. Para obtener más información sobre cómo usar la característica, consulte [compartir una línea telefónica con un delegado](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-El administrador de inquilinos debe habilitar la delegación a través de la configuración de **TeamsCallingPolicy AllowDelegation** para que esta característica funcione.
+El administrador de inquilinos puede habilitar la delegación a través de la opción de **TeamsCallingPolicy AllowDelegation** o a través del portal de administración de Teams para que esta característica funcione. 
+
+El administrador de inquilinos también puede configurar las relaciones de delegación para un usuario en el centro de administración de Teams. Además, el usuario final también puede configurar sus relaciones de delegación directamente en Teams. El administrador de inquilinos o el usuario no pueden bloquear la configuración entre sí, pero el centro de administración de equipos y el cliente de equipos deberían mostrar esta relación con precisión en ambos lugares. 
+
+> [!IMPORTANT]
+> Cuando el administrador del inquilino desactiva la delegación para un usuario (después de que se ha activado), también necesita limpiar las relaciones de delegación de ese usuario en el centro de administración de equipos para evitar el enrutamiento incorrecto de las llamadas.
 
 ## <a name="shared-line-appearance-feature-availability"></a>Características de apariencia de línea compartida
 

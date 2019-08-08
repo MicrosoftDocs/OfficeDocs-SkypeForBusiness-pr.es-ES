@@ -8,20 +8,21 @@ ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 10/31/2018
+audience: admin
 ms.service: msteams
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 641c0702605c0d5e6eca72ce5e2917b10b5ecf5d
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: ee1743acf3fe8ac96fe90efa1856ffd573bc180d
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34494501"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241339"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 

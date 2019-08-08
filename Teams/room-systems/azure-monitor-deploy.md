@@ -5,7 +5,7 @@ author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de los dispositivos de salas de Microsoft Teams de forma integrada, de extremo a extremo, con Azure monitor.
-ms.openlocfilehash: fd1f1b32bd999c18144831e2458b426bf55ca1a9
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 1f9a6e6ba4da22d8b14f4b1d545c0a6cfb16e14b
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433378"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243624"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implementar la administración de salas de Microsoft Teams con Azure monitor
 
@@ -195,7 +195,7 @@ También puede crear su propio panel y agregar solo los mosaicos que desea super
 ### <a name="create-a-tile-that-displays-active-devices"></a>Crear un mosaico que muestre los dispositivos activos
 
 1.  Seleccione **Ver panel** para empezar a agregar los mosaicos.
-2.  Seleccionar **número & lista** de la galería
+2.  Seleccionar el **número & lista** de la galería
 3.  Defina las propiedades **generales** :<br>
     **Título del Grupo:** Estado de latido<br>
     **Grupo nuevo:** Determinado
@@ -249,7 +249,7 @@ También puede crear su propio panel y agregar solo los mosaicos que desea super
 
 ### <a name="create-a-tile-that-displays-microsoft-teams-rooms-operating-system-versions"></a>Crear un mosaico que muestre las salas de Microsoft Teams versiones del sistema operativo
 
-1.  Seleccione la lista de &s de **Donut** de la galería y, a continuación, agregue un nuevo mosaico.
+1.  Seleccione **Donut & lista** en la galería y, a continuación, agregue un nuevo mosaico.
 2.  Defina las propiedades **generales** :<br>
     **Título del Grupo:** Detalles del sistema operativo<br>
     **Grupo nuevo:** Determinado
@@ -273,7 +273,7 @@ También puede crear su propio panel y agregar solo los mosaicos que desea super
 
 ### <a name="create-a-tile-that-displays-microsoft-teams-rooms-application-versions"></a>Crear un mosaico que muestre las versiones de la aplicación salas de Microsoft Teams
 
-1.  Seleccione la lista de &s de **Donut** de la galería y, a continuación, agregue un nuevo mosaico.
+1.  Seleccione **Donut & lista** en la galería y, a continuación, agregue un nuevo mosaico.
 2.  Defina las propiedades **generales** :<br>
     **Título del Grupo:** Detalles de la aplicación salas de Microsoft Teams<br>
     **Grupo nuevo:** Determinado

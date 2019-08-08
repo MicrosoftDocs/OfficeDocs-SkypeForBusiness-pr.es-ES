@@ -10,51 +10,51 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga más información sobre la estructura de los equipos y canales en Microsoft Teams.
+description: Obtenga más información sobre cómo estructurar equipos y canales en Microsoft Teams.
 ms.custom: Adopt
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f85c85c0753bb578f2e6b697194f1b7616ebdf1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930329"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36240776"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 
-Los conceptos de los equipos y canales son fundamentales para una implementación correcta, productivos de Microsoft Teams. 
+Los conceptos de los equipos y los canales son fundamentales para una implementación saludable y sana de Microsoft Teams. 
 
-- Un equipo es una colección de personas, contenido y herramientas que funcionan conjuntamente para producir un resultado de negocios de la compañía. Los equipos se construyen sobre grupos de Office 365 y los cambios que se realicen en la pertenencia a los grupos de Office 365 se sincronizarán con el equipo. 
+- Un equipo es una colección de personas, contenido y herramientas que trabajan en conjunto para generar un resultado empresarial para la empresa. Los equipos se construyen sobre grupos de Office 365 y los cambios que se realicen en la pertenencia a los grupos de Office 365 se sincronizarán con el equipo. 
 
 - Los canales son los espacios de colaboración dentro de un equipo en el que se realiza el trabajo real. 
 
-Para obtener más información acerca de los equipos y canales, consulte la [información general de los equipos y los canales en los equipos de Microsoft](teams-channels-overview.md). Para obtener instrucciones exhaustiva sobre la adopción de los equipos, obtenga la [Guía de adopción de los equipos](https:aka.ms/teamstoolkit). Para obtener más información acerca de los equipos y grupos de Office 365, vea [Office 365 grupos y equipos de Microsoft](office-365-groups.md) y [Obtenga más información acerca de los grupos de Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Para obtener más información sobre los equipos y los canales, consulte la [información general de equipos y canales en Microsoft Teams](teams-channels-overview.md). Para obtener orientación completa sobre la adopción de equipos, vea la [Guía de adopción de equipos](https:aka.ms/teamstoolkit). Para obtener más información sobre los equipos y grupos de Office 365, consulte [grupos de office 365 y Microsoft Teams](office-365-groups.md) , y [Obtenga más información sobre los grupos de Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
 |---------|---------|
-| Vea este vídeo corto   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
+| Ver este vídeo breve   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 
 
 
-Tipos de acceso de equipo determinan que puede unir a un equipo:
+Los tipos de acceso de equipo determinan quién puede unirse a un equipo:
 
 - Los equipos *privados* están restringidos a los miembros del equipo que han aprobado los propietarios del equipo. Es la configuración típica en equipos de proyecto y equipos virtuales de una organización de gran tamaño.
 
-- Los equipos *públicos* están abiertos para cualquier persona de la organización y pueden unirse a los usuarios directamente. Los equipos públicos son útiles para la colaboración en los temas de interés general a las personas de diferentes departamentos o a las personas que trabajan en proyectos diferentes. Suele ser una configuración predeterminada para organizaciones más pequeñas.
+- Los equipos *públicos* están abiertos a cualquier persona de la organización y los usuarios pueden unirse directamente. Los equipos públicos son útiles para colaborar en temas de interés general para personas de diferentes departamentos o para personas que trabajan en diferentes proyectos. Suele ser una configuración predeterminada para organizaciones más pequeñas.
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Use los equipos para la colaboración entre la organización de unidad
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Usar Teams para impulsar la colaboración entre organizaciones
 
-Es una práctica recomendada para usar los equipos para mejorar la colaboración en toda la organización y muchos proyectos se prestan a este modelo. Además, coordinadores o divisiones dentro de una organización es posible que desee un equipo dedicado para sus propios personas. Considere la posibilidad de la organización y modelos que se muestra en la ilustración siguiente del proyecto.
+Es recomendable usar Teams para mejorar la colaboración entre organizaciones y muchos proyectos se prestarán a este modelo. Además, los líderes o las divisiones dentro de una organización pueden querer un equipo dedicado para sus propias personas. Considere los modelos organizativos y de proyecto que se muestran en la siguiente ilustración.
 
-![Modelos de organización y del proyecto](media/teams-adoption-organization-project.png)
+![Modelos de organización y proyecto](media/teams-adoption-organization-project.png)
 
-En un equipo organizativo (que se muestra en la parte izquierda), información clave sobre la forma en que la organización se ejecuta su negocio, eventos del equipo, las estrategias de núcleo y otra información operativa, como revisiones de negocios, es posible que se comparten. Para el equipo que se muestra en la parte derecha, información del distrito se divide en canales que representan las categorías de trabajo que se está llevando a cabo por ese equipo. Los miembros de este equipo pueden o no pueden presentarse a la misma persona, pero están ocupados en que dirigen los resultados para el distrito.
+En un equipo de la organización (que aparece a la izquierda), se puede compartir información clave sobre el modo en que la organización ejecuta su negocio, eventos de equipo, estrategias principales y otra información operativa, como las revisiones empresariales. Para el equipo que se muestra a la derecha, la información del distrito se desglosa en canales que representan las categorías de trabajo que se están llevando a cabo en ese equipo. Los miembros de este equipo pueden denunciar o no a la misma persona, pero todos están dedicados a conducir los resultados del distrito.
   
-Va a trabajar más en la estructura de los equipos en la [fase 2](teams-adoption-phase2-experiment.md) de la implementación.
+Trabajará más en la estructura de los equipos de la [fase 2](teams-adoption-phase2-experiment.md) de la implementación.
 
-![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [crear sus primer equipos](teams-adoption-your-first-teams.md)
+![Un icono que representa el siguiente paso](media/teams-adoption-next-icon.png) : [crear los primeros equipos](teams-adoption-your-first-teams.md)

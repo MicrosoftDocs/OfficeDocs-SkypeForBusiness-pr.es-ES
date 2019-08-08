@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.topic: get-started-article
+ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Resumen: Aprenda a crear o modificar una ruta de voz en Skype empresarial Server mediante el panel de control de Skype empresarial Server.'
-ms.openlocfilehash: f79e672b45f68e09391489da55023dceb3b0dd93
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e5b8fcb5617d1f5abcbbda0826c3366ab4f73cd8
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286214"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36233346"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Crear o modificar una ruta de voz en Skype empresarial
  
@@ -58,7 +58,7 @@ ms.locfileid: "34286214"
 11. Para asociar uno o más registros de uso de la red de telefonía conmutada (RTC) con la ruta de voz, haga clic en **Seleccionar** y elija un registro en la lista de registros de uso de RTC que se hayan definido para la implementación de Telefonía IP empresarial.
     
     > [!NOTE]
-    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, consulte [ver los registros de uso de RTC en Skype empresarial](view-pstn-usage-records.md). > crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype empresarial](voice-policy-and-pstn-usage-records.md)
+    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, consulte [ver los registros de uso de RTC en Skype empresarial](view-pstn-usage-records.md). > para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype empresarial](voice-policy-and-pstn-usage-records.md)
   
 12. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre del registro y haga clic en la flecha arriba o abajo.
     
@@ -105,7 +105,7 @@ ms.locfileid: "34286214"
 9. Para asociar uno o más usos de RTC con la ruta de voz, haga clic en **seleccionar** y elija un registro de la lista de registros de uso de RTC que se han definido para la implementación de telefonía IP empresarial.
     
     > [!NOTE]
-    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, consulte [ver los registros de uso de RTC en Skype empresarial](view-pstn-usage-records.md). > crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial](voice-policy-and-pstn-usage-records.md). 
+    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, consulte [ver los registros de uso de RTC en Skype empresarial](view-pstn-usage-records.md). > para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial](voice-policy-and-pstn-usage-records.md). 
   
 10. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre del registro y haga clic en la flecha arriba o abajo.
     

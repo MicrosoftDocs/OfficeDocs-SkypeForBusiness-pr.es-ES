@@ -8,19 +8,20 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
+audience: admin
 description: Evalúe con regularidad las oportunidades para mejorar el servicio de Teams, supervise la guía básica de Teams para las mejoras de las características interesantes.
 localization_priority: Normal
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5a912556d5a88583d0ee7e2a4331be5f259a517
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: a3561584038dc7b235ce897e3873f483b32e499e
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344840"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243796"
 ---
 # <a name="enhance-my-service"></a>Mejorar mis servicios
 

@@ -11,76 +11,76 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: f6fc9bb36a4b34d9e900666bf14df0c4d0893c46
-ms.sourcegitcommit: baa425d7a07429e6fe84b4f27c76243cf755c1a6
+ms.openlocfilehash: 5b8cd9c8fb4f84d250b40d99a60a9192ece11c52
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "35643134"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243294"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
 En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
 
 
-##  <a name="version-history"></a>Historial de versiones
+## <a name="version-history"></a>Historial de versiones
 
-| Prensa | Publicado en <br>Microsoft Store | 
-| ---     | ---  |
-| 4.0.105.0 | 07/10/2019   |
-| 4.0.85.0 | 04/08/2019   |
-| 4.0.78.0 | 03/14/2019   |
-| 4.0.76.0 | 03/04/2019   |
-| 4.0.64.0 | 12/14/2018   |
-| 4.0.51.0 | 11/17/2018   | 
-| 4.0.31.0 | 10/16/2018   | 
-| 4.0.27.0 |  10/1/2018    | 
-| 4.0.19.0 |  08/31/2018    |   
-| 4.0.18.0 |  08/27/2018    |   
-| 4.0.8.0 |  07/06/2018    |   
-| 3.1.115.0|  06/18/2018    |
-| 3.1.113.0|  06/13/2018    |   
-| 3.1.112.0|  06/05/2018    |   
-| 3.1.104.0|  04/16/2018    |            
-| 3.1.100.0|  03/16/2018    |            
-| 3.1.99.0 | 3/14/2018      |  
-| 3.1.98.0    | 3/8/2018    |   
-|  3.0.16.0    |  11/27/2017   |
-| 3.0.15.0 | 10/3/2017  |            
-| 3.0.12.0 |  9/1/2017  |            
-| 3.0.8.0 | 11/16/2017 | 
-| 3.0.6.0 | 11/16/2017 | 
-| 2.0.2.0  | 03/15/2017 | 
-| RTM (1.0.8) | 12/7/2016  | 
+|Prensa |Publicado en <br> Microsoft Store |
+|--- |--- |
+|4.0.105.0 |07/10/2019 |
+|4.0.85.0 |04/08/2019 |
+|4.0.78.0 |03/14/2019 |
+|4.0.76.0 |03/04/2019 |
+|4.0.64.0 |12/14/2018 |
+|4.0.51.0 |11/17/2018 |
+|4.0.31.0 |10/16/2018 |
+|4.0.27.0 |10/1/2018 |
+|4.0.19.0 |08/31/2018 |
+|4.0.18.0 |08/27/2018 |
+|4.0.8.0 |07/06/2018 |
+|3.1.115.0|06/18/2018 |
+|3.1.113.0|06/13/2018 |
+|3.1.112.0|06/05/2018 |
+|3.1.104.0|04/16/2018 |
+|3.1.100.0|03/16/2018 |
+|3.1.99.0 |3/14/2018 |
+|3.1.98.0 |3/8/2018 |
+|3.0.16.0 |11/27/2017 |
+|3.0.15.0 |10/3/2017 |
+|3.0.12.0 |9/1/2017 |
+|3.0.8.0 |11/16/2017 |
+|3.0.6.0 |11/16/2017 |
+|2.0.2.0 |03/15/2017 |
+|RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 Introdujo en esta actualización:
-- Marca de la aplicación de la tienda de sistemas de Skype Room en "Microsoft Teams Room"
-- Interfaz de usuario de la consola de Microsoft Teams Room en Microsoft Teams
-- Solo se muestra la actualización de tema para mantener la imagen de fondo personalizada en el frente de la sala al hacer color neutro del fondo de la consola para garantizar que los controles de la interfaz de usuario cumplan los requisitos de accesibilidad
+- Aplicación de la tienda de sistemas de Skype Room a "salas de Microsoft Teams"
+- Interfaz de usuario de la consola de salas de Microsoft Teams realineada a Microsoft Teams
+- Actualización de tema: solo se muestra mantener la imagen de fondo personalizada en el anverso de la sala, mientras que el fondo de la consola tiene un color neutro para garantizar que los controles de la IU cumplan el contraste de color: requisitos de accesibilidad
 - Barra universal para los controles de llamada en reunión para las llamadas y reuniones de Teams para ofrecer una experiencia coherente con Microsoft Teams para equipos de PC/web/móviles<sup>1</sup>
 - Calificación de la calidad de las llamadas después de las llamadas de Teams/reuniones<sup>1</sup>
-- Recibir o representar a Microsoft Whitebord en Microsoft Teams sala de reuniones frontal de la sala que se muestra cuando se comparte desde equipos de equipos de PC o web/móvil<sup>1</sup>  <sup>2</sup>
-- Se ha quitado la compatibilidad con la actualización a Windows 10 versión 1809 debido a problemas de compatibilidad con el cliente de Microsoft Teams Room. La compatibilidad con Windows 10 versión 19H1 se agregará en versiones futuras
+- Recibir o procesar pizarras de Microsoft en Microsoft Teams cámaras frontal de la sala de presentación cuando se comparte desde un equipo PC o web/móvil equipos cliente<sup>1</sup> <sup>2</sup>
+- Se ha eliminado la compatibilidad con las actualizaciones de Windows 10 versión 1809 debido a problemas de compatibilidad con el cliente de salas de Microsoft Teams. La compatibilidad con Windows 10 versión 19H1 se agregará en versiones futuras
 
 <sup>1</sup> lanzamiento de servicio de Microsoft Teams con las videollamadas de Teams. Es posible que esta característica esté disponible antes o después de la actualización de cliente de 4.0.105.0
 
-<sup>2</sup> requiere que los administradores de ti activen la Web de whiteboard de Microsoft. Además, si tiene un toque frontal de visualización de la sala, debe calibrar varias pantallas táctiles usando la configuración de Windows con inicio de sesión de administrador de dispositivos para empezar a usar whiteboard de Microsoft para collboration de la pantalla después de haber compartido en la reunión de Teams
+<sup>2</sup> requiere que los administradores de ti activen la pizarra de Microsoft. Además, si tiene una pantalla frontal con pantalla táctil, debe calibrar varias pantallas táctiles usando la configuración de Windows con inicio de sesión de administrador del dispositivo para empezar a usar whiteboard de Microsoft para la colaboración desde una sala de presentación compartida a una reunión de Teams
 
 ### <a name="40850-0482019"></a>4.0.85.0 (04/8/2019)
 
 Introdujo en esta actualización:
 
 - Corrige un problema con la característica "enviar comentarios" 
-- Optimizaciones para la preparación de la próxima actualización del dispositivo MTR a Windows 10, versión 1809
+- Optimizaciones en la preparación del próximo dispositivo salas de Microsoft Teams, actualización a Windows 10, versión 1809
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
 Introdujo en esta actualización:
 
-- Corrección del error "bloqueo en la aplicación" que afectó a los dispositivos de compilación heredada de Windows 10 RS2.  
+- Corrección para el error "bloqueo en el inicio de la aplicación" que afecta a los dispositivos de compilación heredada de Windows 10 RS2. 
 
 
 ### <a name="40760-03042019"></a>4.0.76.0 (03/04/2019)
@@ -90,7 +90,7 @@ Introdujo en esta actualización:
 - Teclado DTMF para reuniones P2P de Microsoft Teams y llamadas RTC. Para convertir Microsoft Teams en el cliente de llamadas predeterminado, los administradores deben establecer IsTeamsDefaultClient en true
 - Anclar el video entrante de un participante remoto a pantalla completa en la parte delantera de la pantalla. Usar el comando "PIN" de la lista de participantes en la consola
 - Mejoras en las notificaciones de sala de reuniones con la adición del anverso de la notificación del salón
-- La parte frontal de la pantalla de la sala elimina el icono de conversión cuando la señal Bluetooth no está habilitada en el dispositivo del sistema Room
+- Icono de conversión de pantalla frontal del salón eliminado cuando la señalización Bluetooth no está habilitada en el dispositivo de salas de Microsoft Teams
 - Solución de problemas de control de volumen en reuniones de Teams
 
 
@@ -100,7 +100,7 @@ Introdujo en esta actualización:
 
 - Mostrar contenido en la parte frontal de las pantallas del salón (para) en los sistemas de la sala de pantalla dual
 - Temas y portada de la interfaz de usuario del salón
-- Compatibilidad con el cliente de TLS 1,2. En el caso de los clientes locales, la habilitación de communciation a través de TLS 1,2 para salas de Microsoft Teams requiere Skype empresarial Server 2015 cummulative Update 9 (CU9) o Skype para Buisness Server 2019 cummulative Update 1 (CU1).
+- Compatibilidad con el cliente de TLS 1,2. En el caso de los clientes locales, la habilitación de la comunicación a través de TLS 1,2 para salas de Microsoft Teams requiere la actualización acumulativa 9 (CU9) de Skype empresarial 2015 o la actualización acumulativa 1 de Skype empresarial 2019 (CU1).
 
 ### <a name="40510-11172018"></a>4.0.51.0 (11/17/2018)
 
@@ -119,19 +119,19 @@ Introdujo en esta actualización:
 Introdujo en esta actualización:
  
 - Cambios de código necesarios para preparar la aplicación salas de Microsoft Teams para versiones posteriores de la actualización 1803 de Windows 10
-- Solucionar el problema de formato con los CLUF localizados, específicamente noruego, que evitan el avance más allá de la ventana de configuración de la versión OOBE de CLUF
+- Corregir el problema de formato con los CLUF localizados (específicamente, noruego) que evitan el avance más allá de la ventana de configuración de la versión OOBE de CLUF
 - Cambios de código necesarios para hacer que la aplicación salas de Microsoft Teams se ejecute en sistemas de salas de Lync heredados. Consulta más información [aquí](https://aka.ms/lrsupgrade).
- 
+
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 Introdujo en esta actualización:
 
-- El Hotfix para Crestron aplicación que no se inicia, que normalmente sería accesible al pulsar el botón de la aplicación en los dispositivos Crestron SR. Microsoft Team Rooms reinicio de la aplicación necesario después de la instalación de 4.0.19.0. 
+- Revisión de la aplicación Crestron que no se inicia, que normalmente sería accesible cuando se presiona el botón de la aplicación en un dispositivo Crestron SR. Microsoft Team Rooms reinicio de la aplicación necesario después de la instalación de 4.0.19.0.
 
 ### <a name="40180-08272018"></a>4.0.18.0 (08/27/2018)
 Introdujo en esta actualización:
 
 - Mejoras de las características "informar de un problema" en el modo de equipos (equivalente a "enviar comentarios" en el modo de Skype empresarial)
-- Habilitar la capacidad de hacer una reserva de los equipos al modo de Skype empresarial para las llamadas SIP
+- Habilitar la posibilidad de revertirse de Teams a modo de Skype empresarial para las llamadas SIP
 - Mejoras de accesibilidad (narrador, ampliador)
 - Reiniciar automáticamente la aplicación cuando sea necesario después de aplicar los cambios de aprovisionamiento XML
 - Varias correcciones
@@ -139,7 +139,7 @@ Introdujo en esta actualización:
 ### <a name="4080-07062018"></a>4.0.8.0 (07/06/2018)
 
 Introdujo en esta actualización:
-- Esta actualización permite que las reuniones de Skype empresarial *y* de equipos sean compatibles con los dispositivos de los sistemas de la sala.  Teams está desactivado de forma predeterminada una vez que se aplica la actualización.  Los administradores pueden habilitar equipos de forma local en la configuración del dispositivo o a través de una inserción remota de XML.
+- Esta actualización permite que las reuniones de Skype empresarial *y* de equipos sean compatibles con los dispositivos de los sistemas de la sala. Teams está desactivado de forma predeterminada una vez que se aplica la actualización. Los administradores pueden habilitar equipos de forma local en la configuración del dispositivo o a través de una inserción remota de XML.
 
 ### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018)
 
@@ -158,7 +158,7 @@ Introdujo en esta actualización:
 Introdujo en esta actualización:
 
 - Solución para solucionar problemas de respuesta de la consola en los dispositivos basados en Surface Pro 2017 conectados a dos pantallas de la parte frontal de la sala y a la ingesta de video
-- Comprobación automática para asegurarse de que el sistema esté ejecutando el script de aprovisionamiento más reciente.
+- Comprobación automática para asegurarse de que el sistema esté ejecutando el script de aprovisionamiento más reciente
 
 ### <a name="311040-04162018"></a>3.1.104.0 (04/16/2018)
 
@@ -171,27 +171,27 @@ Introdujo en esta actualización:
 
 Introdujo en esta actualización: 
 
-- Aplicación actualizada para mejorar la telemetría.
+- Aplicación actualizada para mejorar el telemetría
 
 ### <a name="31990-03142018"></a>3.1.99.0 (03/14/2018)
 
 Introdujo en esta actualización:
 
-- Corrige un problema que puede producir problemas con la combinación de reuniones.
-- Arregla un problema que se sabe que provoca la experiencia "bloqueo" del dispositivo.
+- Corrige un problema que puede producir problemas con la combinación de reuniones intermitentes
+- Soluciona un problema que se sabe que provoca la experiencia "bloqueo" del dispositivo
 
-### <a name="31980--382018"></a>3.1.98.0 (3/8/2018)
+### <a name="31980-382018"></a>3.1.98.0 (3/8/2018)
 
 Introdujo en esta actualización:
 
 - Correcciones de errores o bloqueos para mejorar la estabilidad
 - Compatibilidad con la consola de tamaño variable
 - Descarga de procesamiento de audio de periféricos (lista blanca de medios adicionales)
-- Optimizaciones que permitirán a los profesionales de ti crear imágenes de do-it usted mismo con Windows 10 versión 1709, actualización de enero y versiones posteriores.  
+- Optimizaciones que permiten a los profesionales de ti crear imágenes de do-it usted mismo con Windows 10 versión 1709, actualización de enero y versiones posteriores. 
 
 <!--### 3.1.97.0 (00/00/0000)
-Introduced in this update:  
-- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500)  hardware only.  -->
+Introduced in this update: 
+- Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
 
 
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
@@ -206,14 +206,14 @@ Introdujo en esta actualización:
 
 - Compatibilidad con el hardware Dock [serie MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Compatibilidad con [Logitech Brio](https://www.logitech.com/en-us/product/brio)
-- Resuelve un problema por el que muestra (consola y delante del salón) no puede entrar en el modo de suspensión cuando no hay actividad en el salón.
+- Resuelve un problema por el que muestra (consola y delante del salón) no puede entrar en el modo de suspensión cuando no hay actividad en el salón
 
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
 
 Introdujo en esta actualización:
 
-- Se ejecuta en una tableta Surface Pro (2017)  
+- Se ejecuta en una tableta Surface Pro (2017) 
 - Es compatible con la actualización de Windows 10 Enterprise Creator (idioma inglés, compilación 1703)
 - Compatibilidad con hardware de acoplamiento de [Crestron Sr](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - Compatibilidad con OEM para controles de entorno (Crestron)
@@ -231,11 +231,12 @@ Introdujo en esta actualización:
 Introdujo en esta actualización:
 
 - Compatibilidad con dos pantallas (para la paridad del sistema heredado)
-- Capacidad de la TI (temas integrados y la capacidad de establecer un tema personalizado)
+- Temas (temas integrados y la posibilidad de establecer un tema personalizado)
 - Capacidad de proporcionar comentarios para las compilaciones públicas
 - Telemetría mejorada sobre la confiabilidad de la combinación de reuniones
-- Informes adicionales de OMS
-- Capacidad para que el administrador de ti configure dispositivos de forma remota  <!--  - Front-of-Room UX shows room details pre-meeting U2  -->
+- Informes de OMS mejorados
+- Capacidad para que el administrador de ti configure dispositivos de forma remota
+ <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
@@ -243,31 +244,31 @@ Introdujo en esta actualización:
 Introdujo en esta actualización:
 
 - Selección de usuario desde la aplicación de la sala de reuniones: dispositivos USB de audio y vídeo
-- Informes de estado de la consola de salón integrados para los clientes que usan Microsoft Operations Management Suite, ahora Azure monitor  
+- Informes de estado de la consola de salón integrados para los clientes que usan Microsoft Operations Management Suite, ahora Azure monitor
 
-### <a name="release-to-market--1272016"></a>Lanzamiento al mercado (12/7/2016)
+### <a name="release-to-market-1272016"></a>Lanzamiento al mercado (12/7/2016)
 
 **Características:**
 
  **Creado para Skype Empresarial**
-  
+ 
 - Un solo toque para unirse a reuniones de Skype.
-- La experiencia de las reuniones de Skype optimizada para salas con prestaciones de audio HD de banda ancha y vídeo HD en toda la pantalla.
+- Experiencia de reunión de Skype optimizada para salas con video de alta definición con relleno de pantalla y audio de banda ancha de alta definición
 - Todos los participantes se pueden conectar a la reunión de Skype mediante el dispositivo que elijan desde el lugar en el que se encuentren.
 - Invite a las personas desde su directorio, donde podrá consultar su disponibilidad en ese mismo momento o a través de una llamada de teléfono.
 - Es compatible con los servicios de conferencias RTC y llamadas RTC de Skype Empresarial como sustitución del teléfono de conferencias independiente de su sala.
 
-  **Transforme cualquier sala de reuniones**
-  
+ **Transforme cualquier sala de reuniones**
+ 
 - Una aplicación de reuniones de Skype dedicada y optimizada para el controlador táctil situado en el centro de la mesa y las pantallas frontales de gran tamaño.
-- Permite aprovechar las inversiones que ya ha realizado en pantallas frontales o proyectores.
+- Reutilizar las inversiones existentes en la parte delantera de la pantalla o proyectores
 - Funciona en todo tipo de áreas de reuniones, desde los espacios más apiñados a las salas de conferencias más amplias.
 - Los dispositivos de audio y vídeo certificados de Skype Empresarial están disponibles para diversos tamaños de salas.
 - Transmisión por cable integrada para compartir el escritorio del proyecto con la sala y con la reunión de Skype.
 
-  **Fácil de implementar, sencillo de administrar.**
-  
-- Un dispositivo que está encendido en todo momento y que activará automáticamente las pantallas cuando detecte que hay alguna persona en la sala.
+ **Fácil de implementar, sencillo de administrar.**
+ 
+- El dispositivo siempre que se activa automáticamente cuando detecta gente en el salón.
 - Sencilla implementación y actualización de la aplicación de reuniones de Skype para UWP (Plataforma universal de Windows).
 - Windows AppLocker bloquea el dispositivo con la aplicación de reuniones de Skype.
 - Se supervisa y se administra como un dispositivo con Windows 10 Enterprise mediante Intune y SCCM (MDM).
@@ -275,7 +276,7 @@ Introdujo en esta actualización:
 - La formación que requieren los usuarios es muy poca puesto que ya conocen la interfaz de usuario de Skype.
 - Se ejecuta en la tableta Surface Pro 4
 
-<a name="See"> </a>  
+<a name="See"> </a> 
 ## <a name="see-also"></a>Vea también
 
 [Ayuda de Salas de Microsoft Teams](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)

@@ -6,32 +6,33 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: snigdhav
-description: Obtenga información acerca del uso de los equipos en un arrendamiento de Multi-ubican-enabled OneDrive de Office 365 y SharePoint Online.
+audience: admin
+description: Obtenga más información sobre el uso de Teams en un espacio empresarial de Office 365 OneDrive y SharePoint Online con varias geografía habilitadas.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection:
+ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e90e4a3c1ae2886a01802a805da3464cea3d8b50
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d81554517a42fd05b8f81097dc01f8dc72977c72
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204502"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243836"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Experiencia de Teams en un espacio empresarial de OneDrive y SharePoint Online Multi-Geo en Office 365
 ===========================================
 
-Microsoft Teams es el software de chat de grupo, el concentrador de trabajo en equipo en Office 365. Funciona con el servicio de Office 365 grupos junto con SharePoint Online y OneDrive para la empresa para su experiencia de archivos. En un OneDrive for Business/SharePoint Online Multi-ubican arrendamiento, en el que se extiende el inquilino a muchas ubicaciones geográficas como North America, Europe y Australia, la experiencia de archivos subyacente es Multi-ubican tener en cuenta, por lo que los equipos de la experimentan con archivo la colaboración también es Multi-ubican tener en cuenta. Se trata de una capacidad clave de punta para los equipos para exponer archivos hospeda a lo largo de varias zonas en su experiencia de archivos nativos.
+Microsoft Teams es un software de chats grupales, el hub para el trabajo en equipo de Office 365. Está alimentado por el servicio de grupos de Office 365, junto con SharePoint Online y OneDrive para la empresa para la experiencia de los archivos. En un inquilino multifunción de OneDrive para la empresa o SharePoint Online, en el que el inquilino se extiende a muchas ubicaciones geográficas, como Norteamérica, Europa y Australia, la experiencia de archivos subyacentes es de uso múltiple, por lo que la experiencia de los equipos con el archivo la colaboración también es compatible con varios. Esta es una función líder de vanguardia para que los equipos se encaran de archivos alojados en varios GEOS en la experiencia de los archivos nativos.
 
-Por ejemplo, en un arrendamiento de Contoso con Europa como un satélite Geo y North America como el ubican central, un usuario de satélite Europeo verán su archivos de OneDrive en la ficha archivos en el panel izquierdo, aunque los archivos se hospedan en la ubicación de datos de Europa y el Stat United es es la ubicación central del inquilino. Además, el usuario puede tener acceso a los archivos utilizados más recientemente en el servidor blade de vista recientes. Archivos recientes pueden incluir los archivos que se comparten con el usuario de los usuarios en otras zonas y es posible que se han usado en otras ubicaciones ubican que se ha ampliado el inquilino a. 
+Por ejemplo, en una empresa de Contoso con Europa como una geo de satélite y América del norte como la geo central, un usuario de satélite europeo verá sus archivos de OneDrive en la pestaña archivos en el panel izquierdo, aunque los archivos se hospeden en la ubicación de datos de Europa y en el STAT estadounidense es la ubicación central del inquilino. Además, el usuario puede acceder a los archivos usados recientemente en el blade de la vista recientes. Los archivos recientes pueden incluir archivos compartidos con el usuario de los usuarios en otros GEOS y podrían ser maestros en otras ubicaciones geográficas a las que se extiende el inquilino. 
 
-Sitio de grupo de un equipo determinado también es Multi-ubican tener en cuenta. Es decir, si un usuario de satélite europeo es crear un equipo, se creará el sitio de grupos correspondiente en la ubicación de Europa y los archivos asociados con la que el grupo del equipo se mantendrá en reposo en dicha ubicación. Cualquier experiencias posteriores, como cargar un archivo nuevo o editar el archivo, se destinarán a esa ubicación Europea, mantener la promesa de residencia datos para esos archivos. Esto se todos hace posible subyacente Foundation Office 365 grupos convertirse en Multi-ubican tener en cuenta.
+Un sitio de grupo de un equipo determinado también es compatible con multigeografía. Es decir, si un usuario satélite europeo está creando un equipo, el sitio de grupos correspondiente se creará en la ubicación de Europa y los archivos asociados a ese grupo de equipo se mantendrán en la ubicación. Cualquier experiencia posterior, como cargar un archivo nuevo o editar el archivo, se dirigirá a esa ubicación Europea, manteniendo la promesa de residencia de datos para esos archivos. Esto es posible gracias a la base subyacente de los grupos de Office 365 que se conviertan en multiestado.
 
-Dado que un arrendamiento Multi-ubican es un único inquilino global, durante @ menciones satélite los usuarios podrán ver sus compañeros desde en todo el mundo, independientemente del lugar donde residen. 
+Debido a que un inquilino multilingüe es un único inquilino global, durante las @ menciones, los usuarios satélite podrán ver a sus colegas de todo el mundo, sin importar dónde residan. 
 
-Observe que no están Multi-ubican tener en cuenta las conversaciones en chats y notas de mensajería instantánea dentro de la experiencia de los equipos de la reunión y que todos estén mantiene sólo dentro de la ubicación central del inquilino. Normalmente, las conversaciones de chat no se aplican a las necesidades de residencia de datos.
+Tenga en cuenta que las conversaciones en conversaciones y notas de mensajería instantánea de reuniones dentro de la experiencia de Teams no son muy importantes y se guardan solo dentro de la ubicación central del inquilino. Por lo general, las conversaciones de chat no se aplican a las necesidades de residencia de datos.
 
-Para obtener más información acerca de Office 365 Multi-ubican, consulte la [página de las capacidades de Microsoft Multi-ubican](https://aka.ms/multi-geo).
+Para obtener más información sobre Office 365 multi-Geo, consulte la [Página de funciones multigeo de Microsoft](https://aka.ms/multi-geo).
