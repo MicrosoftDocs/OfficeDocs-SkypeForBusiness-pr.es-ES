@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: d462875103de900823b6754a9694cdada3a7a3e1
-ms.sourcegitcommit: 7ae59d1091ea086b7253c1d8ce85c28fabc5537a
+ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "36166285"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271429"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -55,9 +55,10 @@ Planear la implementación de enrutamiento directo es clave para una implementac
 - [Licencias y otros requisitos](#licensing-and-other-requirements)
 - [Nombres de dominio de SBC](#sbc-domain-names)
 - [Certificado de confianza pública para SBC](#public-trusted-certificate-for-the-sbc)
-- [Señalización SIP: FQDN y puertos de Firewall](#sip-signaling-fqdns-and-firewall-ports)
+- [Señalización SIP: FQDN](#sip-signaling-fqdns)
+- [Señalización SIP: puertos](#sip-signaling-ports)
 - [Tráfico de medios: intervalos de puertos](#media-traffic-port-ranges)
-- [SBCs admitido](#supported-session-border-controllers-sbcs)
+- [Controladores de borde de sesión compatibles (SBCs)](#supported-session-border-controllers-sbcs)
 
 Para obtener información detallada sobre cómo configurar el enrutamiento directo, consulte [configurar el enrutamiento directo](direct-routing-configure.md).
 
@@ -75,7 +76,7 @@ En la tabla siguiente se enumeran los requisitos de infraestructura para los SBC
 |Nombre de dominio completo (FQDN) para el SBC|Un FQDN para el SBC, donde la parte de dominio del FQDN es uno de los dominios registrados de su inquilino de Office 365. Para obtener más información, consulte [nombres de dominio de SBC](#sbc-domain-names).|
 |Entrada DNS pública para SBC |Una entrada DNS pública que asigna el FQDN de SBC a la dirección IP pública. |
 |Certificado de confianza pública para SBC |Un certificado para que la SBC se use para todas las comunicaciones con enrutamiento directo. Para obtener más información, consulte [certificado público de confianza para SBC](#public-trusted-certificate-for-the-sbc).|
-|Puntos de conexión para enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:<br/><br/>`sip.pstnhub.microsoft.com`(FQDN global) debe probarse en primer lugar.<br/>`sip2.pstnhub.microsoft.com`-FQDN secundario, se asigna geográficamente a la segunda región prioritaria.<br/>`sip3.pstnhub.microsoft.com`– El FQDN terciario se asigna geográficamente a la tercera región de prioridad.<br/><br/>Para obtener información sobre los requisitos de configuración, consulte [señalización SIP: FQDN y puertos del firewall](#sip-signaling-fqdns-and-firewall-ports).|
+|Puntos de conexión para enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:<br/><br/>`sip.pstnhub.microsoft.com`(FQDN global) debe probarse en primer lugar.<br/>`sip2.pstnhub.microsoft.com`-FQDN secundario, se asigna geográficamente a la segunda región prioritaria.<br/>`sip3.pstnhub.microsoft.com`– El FQDN terciario se asigna geográficamente a la tercera región de prioridad.<br/><br/>Para obtener información sobre los requisitos de configuración, consulte [señalización SIP: FQDN](#sip-signaling-fqdns).|
 |Direcciones IP y puertos de Firewall para medios de enrutamiento directos |El SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy SIP, que controla la señalización<br/>Procesador de medios, que controla los medios, excepto cuando la omisión de medios está activada<br/><br/>Estos dos servicios tienen direcciones IP independientes en la nube de Microsoft, que se describen más adelante en este documento.<br/><br/>Para obtener más información, consulte la [sección Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) en [Office 365 direcciones URL e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Perfil de transporte de medios|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 Direcciones IP y puertos de Firewall para los medios de Microsoft Teams |Para obtener más información, consulte [direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
@@ -169,7 +170,17 @@ El certificado debe ser generado por una de las siguientes entidades emisoras de
 
 Microsoft está trabajando en la adición de entidades de certificación adicionales basadas en solicitudes de los clientes. 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Señalización SIP: FQDN y puertos de Firewall 
+## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN 
+
+El enrutamiento directo se ofrece en los siguientes entornos de Office 365:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+Obtenga más información sobre [Office 365 y entornos gubernamentales de Estados Unidos](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) , como GCC, GCC High y DoD.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Entornos de Office 365 y Office 365 GCC
 
 El punto de conexión para el enrutamiento directo son los tres FQDN siguientes:
 
@@ -191,7 +202,44 @@ Los FQDN (sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com y sip3.pstnhub.m
 - 52.114.7.24 
 - 52.114.14.70
 
-Necesitará abrir puertos para todas estas direcciones IP en su firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si el Firewall admite nombres DNS, el FQDN sip-all.pstnhub.microsoft.com se resuelve en todas las direcciones IP anteriores.  Debe usar los siguientes puertos:
+Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN sip-all.pstnhub.microsoft.com se resuelve en todas estas direcciones IP. 
+
+
+### <a name="office-365-gcc-dod-environment"></a>Entorno DoD de Office 365 GCC
+
+El punto de conexión para enrutamiento directo es el siguiente FQDN:
+
+**SIP.pstnhub.DoD.Teams.Microsoft.US** : FQDN global. Puesto que el entorno de Office 365 DoD solo existe en los centros de datos de los Estados Unidos, no hay FQDN secundarios ni terciarios.
+
+Los FQDN-sip.pstnhub.dod.teams.microsoft.us se resolverán en una de las siguientes direcciones IP:
+
+- 52.127.64.33
+- 52.127.68.34
+
+Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN sip.pstnhub.dod.teams.microsoft.us se resuelve en todas estas direcciones IP. 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC de gran entorno
+
+El punto de conexión para enrutamiento directo es el siguiente FQDN:
+
+**SIP.pstnhub.gov.Teams.Microsoft.US** : FQDN global. Puesto que el entorno alto de GCC solo existe en los centros de datos de los Estados Unidos, no hay FQDN secundarios ni terciarios.
+
+Los FQDN-sip.pstnhub.gov.teams.microsoft.us se resolverán en una de las siguientes direcciones IP:
+
+- 52.127.88.59
+- 52.127.92.64
+
+Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN sip.pstnhub.gov.teams.microsoft.us se resuelve en todas estas direcciones IP. 
+
+## <a name="sip-signaling-ports"></a>Señalización SIP: puertos
+
+Los requisitos de puerto son los mismos para todos los entornos de Office 365 donde se ofrece enrutamiento directo:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+Debe usar los siguientes puertos:
 
 |**Transmisión**|**De**|**Hasta**|**Puerto de origen**|**Puerto de destino**|
 |:--- |:--- |:--- |:--- |:--- |
@@ -212,11 +260,25 @@ En la tabla siguiente se resumen las relaciones entre centros de recursos primar
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfico de medios: intervalos de puertos
-Nota los requisitos siguientes se aplican si desea implementar el enrutamiento directo sin omisión de medios. Para los requisitos de Firewall para omisión de medios, consulta [planear la omisión de medios con enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
+Tenga en cuenta que los requisitos siguientes se aplican si desea implementar el enrutamiento directo sin omisión de medios. Para conocer los requisitos de Firewall para omisión de medios, consulte [planear la omisión de medios con enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+
+
 
 El tráfico multimedia fluye hacia y desde un servicio independiente en la nube de Microsoft. El intervalo IP para el tráfico de medios:
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Entornos de Office 365 y Office 365 GCC
+
 - 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
 
+### <a name="office-365-gcc-dod-environment"></a>Entorno DoD de Office 365 GCC
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC de gran entorno
+
+- 52.127.88.0/21
+
+### <a name="port-range-applicable-to-all-environments"></a>Intervalo de puertos (válido para todos los entornos)
 El intervalo de puertos de los procesadores multimedia se muestra en la tabla siguiente: 
 
 |**Transmisión**|**De**|**Hasta**|**Puerto de origen**|**Puerto de destino**|

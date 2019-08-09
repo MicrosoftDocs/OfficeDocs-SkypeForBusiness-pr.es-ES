@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: Configure los requisitos que no son de servidor para Skype empresarial Server 2015. Hay una variedad de cosas que desea configurar antes de realizar la implementación, como Active Directory, DNS, Certs y Fileshares.'
-ms.openlocfilehash: 68ccac9b4335de6b4f3bea0fba179e7d8e498224
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 3e0c53d73da71e4ada89c95a6438b62dd2507872
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414985"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253928"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
@@ -54,6 +54,8 @@ Mientras que un gran número de datos de configuración para servidores y servic
 ### <a name="os-for-domain-controllers"></a>SO para controladores de dominio
 
 ¿Qué SO de controladores de dominio se pueden usar? Tenemos la siguiente lista:
+
+- Windows Server 2019
   
 - Windows Server 2016
     
@@ -66,6 +68,8 @@ Mientras que un gran número de datos de configuración para servidores y servic
 - Windows Server 2008
     
 Ahora, el nivel funcional de dominio de cualquier dominio en el que se implemente Skype empresarial Server 2015 y el nivel funcional de bosque de cualquier bosque en el que se implemente Skype empresarial Server 2015 debe ser uno de los siguientes:
+
+- Windows Server 2019
   
 - Windows Server 2016
     

@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: f12e4ac747607a8527021f50794b6fc742ed0b19
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33f9c00734ed9e5724c18eb57ceb361bd28df695
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925484"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36254025"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -205,7 +205,7 @@ Con la versión inicial del enrutamiento directo, Microsoft necesitaba un tronco
 
 Sin embargo, esto no ha sido óptimo por dos razones:
  
-• **Administración de overhead**. Al descargar o agotar un SBC, por ejemplo, cambian algunos parámetros, como habilitar o deshabilitar la omisión de medios. Cambiar el puerto requiere cambiar parámetros en varios inquilinos (ejecutando Set-CSonlinePSTNGateway), pero en realidad es el mismo SBC. • **Procesamiento de overhead**. Recopilar y supervisar los datos de estado de troncal: las opciones de SIP recopiladas de varios troncos lógicos, que son en realidad, el mismo SBC y el mismo tronco físico, ralentiza el procesamiento de los datos de enrutamiento.
+• **Administración de overhead**. Al descargar o agotar un SBC, por ejemplo, cambian algunos parámetros, como habilitar o deshabilitar la omisión de medios. Cambiar el puerto requiere cambiar parámetros en varios inquilinos (ejecutando Set-CSOnlinePSTNGateway), pero en realidad es el mismo SBC. • **Procesamiento de overhead**. Recopilar y supervisar los datos de estado de troncal: las opciones de SIP recopiladas de varios troncos lógicos, que son en realidad, el mismo SBC y el mismo tronco físico, ralentiza el procesamiento de los datos de enrutamiento.
  
 
 Basándose en estos comentarios, Microsoft trae una nueva lógica para aprovisionar los troncos de los inquilinos de cliente.
@@ -226,7 +226,7 @@ Lógica de aprovisionamiento y ejemplo.
 
 Migración del modelo anterior al tronco del portador
  
-Para la migración de la implementación actual del modelo hospedado por el portador al nuevo modelo, los operadores deberán volver a configurar los troncos para inquilinos de cliente. Quite los troncos de los inquilinos del cliente mediante Remove-CSOnluinePSTNGateway (dejando el tronco en el inquilino del transportista).
+Para la migración de la implementación actual del modelo hospedado por el portador al nuevo modelo, los operadores deberán volver a configurar los troncos para inquilinos de cliente. Quite los troncos de los inquilinos del cliente mediante Remove-CSOnlinePSTNGateway (dejando el tronco en el inquilino del transportista).
 
 Recomendamos encarecidamente migrar a la nueva solución tan pronto como sea posible, ya que mejoraremos la supervisión y el aprovisionamiento usando el modelo de tronco derivado y el portador.
  

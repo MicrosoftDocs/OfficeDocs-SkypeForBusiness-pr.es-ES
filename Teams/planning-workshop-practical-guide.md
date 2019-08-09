@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa67b6f788edfabb361b7390ce460f4af812d305
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6d6286ef37d90177ac719015ebfb76c67418c121
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237362"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253913"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams
 
@@ -50,5 +50,11 @@ Descargue estas herramientas que le ayudarán en la planificación, la entrega y
 [Preparación de administradores de TI para Microsoft Teams](ITAdmin-readiness.md)
 
 [Herramientas para la adopción](adopt-tools-and-downloads.md)
+
+[Taller de planeación de actualizaciones de Skype empresarial a teams](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
+
+[Mover usuarios de local a teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+
+[Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md)
 
 

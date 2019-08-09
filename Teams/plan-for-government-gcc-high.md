@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a6478938f26fb911cd3dc8f6ca8a7972cc906dd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237678"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271386"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan para implementaciones altas de Microsoft 365 administración pública-GCC
 
@@ -78,14 +78,14 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube,
 |-----------------------------|-----------------------------|----------------|
 | Básica | Inicio de sesión | Disponible |
 | | Presencia | Disponible |
-| | Presencia unificada (Skype empresarial y equipos unificados) | En el trabajo pendiente del gobierno |
+| | Presencia unificada (Skype empresarial y equipos unificados) | Disponible |
 | Actividades | Suministros | Disponible |
 |  | Mi actividad | Disponible |
 | Chat | Llamada | Disponible |
 | | Archivos | Disponible |
 | | Organigrama | Disponible |
 | | Actividades | Disponible |
-| | Interoperabilidad (1:1 equipos-conversación de Skype empresarial) | En el trabajo pendiente del gobierno |
+| | Interoperabilidad (1:1 equipos-conversación de Skype empresarial) | Disponible |
 | Microsoft Teams | Mensaje de canal | Disponible |
 | | Archivos de canal | Disponible |
 | | Pestaña OneNote | En el trabajo pendiente del gobierno |

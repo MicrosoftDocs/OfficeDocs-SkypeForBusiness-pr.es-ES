@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: 09663b1c539b561a0dc591590c53d22cdb530fee
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207161"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253959"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
@@ -31,7 +31,7 @@ Si tiene un operador automático de mensajería unificada de Exchange y un siste
 Si el operador automático del sistema telefónico o la cola de llamadas van a necesitar un número de servicio, se pueden cumplir las distintas dependencias en la secuencia siguiente:
 
 1. Obtener un número de servicio
-2. Obtenga una licencia de sistema telefónico gratuita para el [usuario](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md) o una licencia de sistema telefónico de pago para usarla con la cuenta de recursos.
+2. Obtenga una licencia de sistema telefónico gratuita para el [usuario](/MicrosoftTeams/teams-add-on-licensing/virtual-user) o una licencia de sistema telefónico de pago para usarla con la cuenta de recursos.
 3. Cree la cuenta de recurso. Un operador automático o cola de llamadas debe tener una cuenta de recurso asociada.
 4. Espere a que Active Directory se sincronice entre Internet y local.
 5. Asigne la licencia de sistema telefónico a la cuenta de recurso.

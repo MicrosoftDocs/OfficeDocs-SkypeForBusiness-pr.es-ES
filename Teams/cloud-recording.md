@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Guía práctica para implementar características de voz en la nube en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bd749e00966c21677019d5d68d12e88287e96b45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 88f043bec273cb19745e9800fc9cdb85f64c8e7a
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237035"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271407"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
@@ -32,7 +32,7 @@ Relacionado: [documentación de usuario final del registro de reuniones](https:/
 Para que se graben las reuniones de los usuarios de un equipo, Microsoft Stream debe estar habilitado para el inquilino. Además, los siguientes requisitos previos son necesarios tanto para el organizador de la reunión como para la persona que inicia la grabación:
 
 - El usuario tiene un Office 365 E1, E3, E5, a1, a3, A5, M365 Business, Business Premium o Business Essentials
-- El usuario debe tener una licencia para Microsoft Stream
+- El usuario debe tener una licencia para Microsoft Stream<sup>1</sup> 
 - El usuario tiene permisos de vídeo de carga de Microsoft Stream
 - El usuario ha reenviado a las pautas de la empresa, si el administrador la configuró
 - El usuario tiene suficiente espacio de almacenamiento en Microsoft Stream para que se guarden las grabaciones
@@ -41,6 +41,8 @@ Para que se graben las reuniones de los usuarios de un equipo, Microsoft Stream 
 
 > [!NOTE]
 > Además, para permitir que la persona que inicia la grabación elija si desea transcribir automáticamente la grabación, la configuración de TeamsMeetingPolicy-AllowTranscription del usuario debe establecerse en true
+
+<sup>1</sup> El usuario debe tener licencia para cargar o descargar reuniones a o desde Microsoft Stream; sin embargo, no necesitan la licencia para grabar una reunión. Si desea bloquear a un usuario para que no grabe una reunión de Microsoft Teams, debe conceder un TeamsMeetingPolicy que tenga AllowCloudRecording establecido en $False.
 
 ## <a name="set-up-teams-cloud-meeting-recording-for-users-in-your-organization"></a>Configurar la grabación de reuniones en la nube de Teams para los usuarios de su organización
 

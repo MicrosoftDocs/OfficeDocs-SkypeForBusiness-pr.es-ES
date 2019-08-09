@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: En este artículo se describen las preferencias de cliente y los valores predeterminados disponibles para el cliente de Skype Empresarial en Mac, y cómo se editan desde fuera de la aplicación.
-ms.openlocfilehash: 6b343c076d0fd1736cc6974a5c33103f0b6dfcda
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fe8e6280fc939283bccb02641672a4fec6d5481c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234193"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271281"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Personalizar la experiencia del cliente de Mac en Skype Empresarial
  
@@ -34,7 +34,7 @@ Para establecer estas preferencias, vaya a un aviso de terminal en el equipo Mac
 
 | Clave | Tipo | Valor | Descripción |
 |:-----|:-----|:-----|:-----|
-|AutoDetectAutoDiscoveryURLs    |Booleano    |0 = configuración manual del servidor  <br/> 1 = detección automática de servidores (predeterminado)    |Especifique cómo debe identificar Skype empresarial el transporte y el servidor que se van a usar durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**.   |
+|autoDetectAutoDicoveryURLs    |Booleano    |0 = configuración manual del servidor  <br/> 1 = detección automática de servidores (predeterminado)    |Especifique cómo debe identificar Skype empresarial el transporte y el servidor que se van a usar durante el inicio de sesión. Si habilita esta configuración de directiva, debe especificar **internalAutoDiscoveryURL** y **externalAutoDiscoveryURL**.   |
 |internalAutoDiscoveryURL    |String    |URL de detección automática completa    |URL de detección automática interna    |
 |externalAutoDiscoveryURL    |String    |URL de detección automática completa    |URL de detección automática externa    |
 |httpProxyDomain    |String    ||Dominio de proxy HTTP    |

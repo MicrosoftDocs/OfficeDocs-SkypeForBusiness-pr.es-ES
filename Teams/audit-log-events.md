@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Aprenda a recuperar datos de Microsoft Teams del registro de auditoría de Office 365.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31db1ad74c0819e5dc9bcdb4f7e8e9fd6ae2291d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3d6b0ddd0dc5064d484c8420b42daee1b4e16d0e
+ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236973"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "36253905"
 ---
 <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Buscar eventos en el registro de auditoría en Microsoft Teams
 ==================================================
@@ -51,7 +51,7 @@ Para poder consultar los datos de auditoría, primero debe activar la auditoría
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Recuperar datos de Microsoft Teams del registro de auditoría
 
-1.  Para recuperar los registros de auditoría, vaya al [Centro de seguridad y cumplimiento](https://go.microsoft.com/fwlink/?linkid=855775). En **buscar & investigación**, seleccione **búsqueda de registros de auditoría**. ![Captura de pantalla de la página de búsqueda de registros de auditoría](media/Search_the_audit_log_for_events_in_Microsoft_Teams_image3.png)
+1.  Para recuperar los registros de auditoría, vaya al [Centro de seguridad y cumplimiento](https://go.microsoft.com/fwlink/?linkid=855775). En **buscar & investigación**, seleccione **búsqueda de registros de auditoría**.
 
 2.  Use **Buscar** para filtrar por las actividades, las fechas y los usuarios que desee auditar.
 

@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: db236b1fadb4dcb13d5405402f469afee9eb2dac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236604"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271451"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -155,9 +155,17 @@ Los transmisores de transporte de los equipos siempre están en la ruta multimed
 Asegúrese de que su SBC tenga acceso a los relés de transporte como se describe a continuación.    
 
 
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Señalización SIP: FQDN y puertos de Firewall
+## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN
 
 Para las señales SIP, los requisitos de FQDN y firewall son los mismos que para los casos no omitidos. 
+
+El enrutamiento directo se ofrece en los siguientes entornos de Office 365:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD más información sobre los [entornos gubernamentales de office 365 y de EE. UU.](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) , como GCC, GCC High y DoD.
+
+### <a name="office-365-and-office-365-gcc-environments"></a>Entornos de Office 365 y Office 365 GCC
 
 Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:
 
@@ -182,7 +190,43 @@ Los FQDN **SIP.pstnhub.Microsoft.com**, **SIP2.pstnhub.Microsoft.com**y **sip3.p
 - 52.114.7.24
 - 52.114.14.70
 
-Necesitará abrir puertos para todas estas direcciones IP en su firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización. Si el Firewall admite nombres DNS, el FQDN **SIP-ALL.pstnhub.Microsoft.com** se resuelve en todas las direcciones IP anteriores. Debe usar los siguientes puertos:
+Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización. Si su Firewall admite nombres DNS, el FQDN **SIP-ALL.pstnhub.Microsoft.com** se resuelve en todas estas direcciones IP. 
+
+### <a name="office-365-gcc-dod-environment"></a>Entorno DoD de Office 365 GCC
+
+El punto de conexión para enrutamiento directo es el siguiente FQDN:
+
+**SIP.pstnhub.DoD.Teams.Microsoft.US** : FQDN global. Puesto que el entorno de Office 365 DoD solo existe en los centros de datos de los Estados Unidos, no hay FQDN secundarios ni terciarios.
+
+Los FQDN-sip.pstnhub.dod.teams.microsoft.us se resolverán en una de las siguientes direcciones IP:
+
+- 52.127.64.33
+- 52.127.68.34
+
+Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN sip.pstnhub.dod.teams.microsoft.us se resuelve en todas estas direcciones IP. 
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC de gran entorno
+
+El punto de conexión para enrutamiento directo es el siguiente FQDN:
+
+**SIP.pstnhub.gov.Teams.Microsoft.US** : FQDN global. Puesto que el entorno alto de GCC solo existe en los centros de datos de los Estados Unidos, no hay FQDN secundarios ni terciarios.
+
+Los FQDN-sip.pstnhub.gov.teams.microsoft.us se resolverán en una de las siguientes direcciones IP:
+
+- 52.127.88.59
+- 52.127.92.64
+
+Necesitas abrir puertos para todas estas direcciones IP en tu firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización.  Si su Firewall admite nombres DNS, el FQDN sip.pstnhub.gov.teams.microsoft.us se resuelve en todas estas direcciones IP. 
+
+## <a name="sip-signaling-ports"></a>Señalización SIP: puertos
+
+Los requisitos de puerto son los mismos para todos los entornos de Office 365 donde se ofrece enrutamiento directo:
+- Office 365
+- Office 365 GCC
+- Office 365 GCC High
+- Office 365 DoD
+
+Debe usar los siguientes puertos:
 
 | Transmisión | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
@@ -210,9 +254,22 @@ Nota: Si tiene un dispositivo de red que traduce los puertos de origen del clien
 
 ### <a name="requirements-for-using-transport-relays"></a>Requisitos para usar transmisiones de transporte
 
-Los relés de transporte están en el mismo intervalo que los procesadores de medios (para casos sin omisión): 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
+Los relés de transporte están en el mismo intervalo que los procesadores de medios (para casos de no omisión): 
 
-El intervalo de puertos de los transmisores de transporte de Teams se muestra en la tabla siguiente:
+### <a name="office-365-and-office-365-gcc-environments"></a>Entornos de Office 365 y Office 365 GCC
+
+-52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
+
+## <a name="office-365-gcc-dod-environment"></a>Entorno DoD de Office 365 GCC
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC de gran entorno
+
+- 52.127.88.0/21
+
+
+En la siguiente tabla se muestra el intervalo de puertos de los transmisores de transporte de los equipos (aplicables a todos los entornos):
 
 
 | Transmisión | De | Hasta | Puerto de origen | Puerto de destino|
@@ -236,9 +293,21 @@ Para realizar la transición, debe abrir los puertos 3478 y 3479. Cuando Microso
 Los procesadores de medios siempre están en la ruta multimedia de las aplicaciones de voz y para la cleints web (para exampe, Teams cleint en Edge o Google Chrome). Los requisitos son los mismos que para la configuración sin omisión.
 
 
-El intervalo IP para el tráfico de medios es 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
+El intervalo IP para el tráfico de medios es 
 
-El intervalo de puertos de los procesadores multimedia se muestra en la tabla siguiente:
+### <a name="office-365-and-office-365-gcc-environments"></a>Entornos de Office 365 y Office 365 GCC
+
+-52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
+
+## <a name="office-365-gcc-dod-environment"></a>Entorno DoD de Office 365 GCC
+
+- 52.127.64.0/21
+
+### <a name="office-365-gcc-high-environment"></a>Office 365 GCC de gran entorno
+
+- 52.127.88.0/21
+
+El intervalo de puertos de los procesadores de medios (aplicables a todos los entornos) se muestra en la tabla siguiente:
 
 | Transmisión | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|

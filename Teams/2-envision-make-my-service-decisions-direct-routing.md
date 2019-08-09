@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa92fcf7c30ecd8dfcecb84c3463f70ba13ee7ef
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4d3410616cf3e841ab6689ffd0fea772975b484c
+ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240812"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36271440"
 ---
 # <a name="make-my-service-decisions"></a>Tomar mi decisión de servicio
 
@@ -191,7 +191,7 @@ SBCs requiere conectividad bidireccional para comunicarse con los servicios en l
 
 Debe definir números de Puerto específicos en cada SBC para las señales y los medios SIP, y configurar los firewalls para permitir el tráfico bidireccional a estos puertos y sus direcciones IP asociadas.
 
-Para obtener más información, consulte [señalización SIP: FQDN y puertos de Firewall](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) y tráfico de [medios: intervalos de puertos](direct-routing-plan.md#media-traffic-port-ranges).
+Para obtener más información, consulte [señalización SIP: FQDN](direct-routing-plan.md#sip-signaling-fqdns) y [tráfico multimedia: intervalos de puertos](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]
