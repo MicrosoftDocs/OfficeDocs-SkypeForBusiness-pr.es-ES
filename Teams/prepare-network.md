@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31c06403dc3dec9322e984e012fe597254db8f33
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 39d9a7a0e2fa144354857e750365d50182974976
+ms.sourcegitcommit: 88c4682deec2ec533cc7542cf3a1363a41c4726f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235182"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "36279170"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 
@@ -36,22 +36,20 @@ Teams combina tres formas de tráfico:
 
 Esto afecta la red de dos maneras: el tráfico fluirá entre los clientes de Microsoft Teams directamente para las comunicaciones de par a par, y entre el entorno de Office 365 y los clientes de Microsoft Teams en los escenarios de reuniones. Para asegurar un flujo de tráfico óptimo, se debe permitir que el tráfico fluya entre los segmentos de red internos (por ejemplo, entre sitios a través de WAN), así como entre los sitios de red y Office 365. Si no se abren los puertos correctos o se bloquean activamente determinados puertos, se obtendrá una experiencia deficiente.
 
-> [!NOTE]
-> Las reuniones son compatibles con dispositivos móviles iOS y Android. 
 
-Para obtener una experiencia óptima con medios en tiempo real en Microsoft Teams, su red debe cumplir con los requisitos de red de Office 365. Para obtener más información, consulte [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Para obtener una experiencia óptima con medios en tiempo real en Microsoft Teams, su red debe cumplir con los requisitos de red de Office 365. Para obtener más información, consulte calidad de los [medios y rendimiento de conectividad de red para Skype empresarial online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Para los dos segmentos de red definitivos (cliente a Microsoft Edge y perímetro de cliente a Microsoft Edge), tenga en cuenta las siguientes recomendaciones.
+Para los dos segmentos de red que se definen (del cliente al Microsoft Edge y del extremo del cliente a Microsoft Edge), tenga en cuenta las siguientes recomendaciones:
 
 
-|Valor  |Cliente a Microsoft Edge  |Perímetro de cliente a Microsoft Edge  |
+|Valor  |Cliente a Microsoft Edge  |Borde del cliente a Microsoft Edge  |
 |:--- |:--- |:--- |
-|**Latencia (unidireccional)**\*  |< 50 ms          |< 30 ms         |
-|**Latencia (RTT o tiempo de ida y vuelta)**\* |< 100 ms   |< 60 ms |
-|**Pérdida de paquetes de ráfaga**    |< 10% durante un intervalo de 200 ms         |< 1% durante un intervalo de 200 ms         |
-|**Pérdida de paquetes**     |< 1% durante un intervalo de 15 s          |< 0,1% durante un intervalo de 15 s         |
-|**Vibración entre llegadas de paquetes**    |< 30 ms durante un intervalo de 15 s         |< 15 ms durante un intervalo de 15 s         |
-|**Reordenamiento de paquetes**    |< 0,05% paquetes sin ordenar         |< 0,01% paquetes sin ordenar         |
+|**Latencia (unidireccional)**\*  |< 50ms          |< 30ms         |
+|**Latencia (RTT o tiempo de ida y vuelta)**\* |< 100 ms   |< 60ms |
+|**Pérdida de paquetes en ráfagas**    |<el 10% durante cualquier intervalo de 200ms         |<1% durante cualquier intervalo de 200ms         |
+|**Pérdida de paquetes**     |<1% durante cualquier intervalo de 15S          |<0,1% durante cualquier intervalo de 15S         |
+|**Vibración de llegada entre paquetes**    |<30ms durante cualquier intervalo de 15S         |<15ms durante cualquier intervalo de 15S         |
+|**Reordenación de paquetes**    |<% 0,05% de paquetes fuera de servicio         |<% 0,01% de paquetes fuera de servicio         |
 
 \*El objetivo de la métrica de latencia supone que el sitio o los sitios de la empresa y los bordes de Microsoft están en el mismo continente.
 
@@ -86,7 +84,7 @@ The content you will find below can be used as supplemental background informati
 |**5 participant+ meeting**     |6 Mb         |1.5 Mb         |Client <> Office 365           |
 -->
 
-<a name="additional-network-considerations"></a>Consideraciones de red adicionales
+<a name="additional-network-considerations"></a>Otras consideraciones sobre la red
 ---------------
 
 #### <a name="external-name-resolution"></a>Resolución de nombres externos
