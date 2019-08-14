@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulte Cómo activar y usar el panel de calidad de llamadas de Skype empresarial online y obtener informes de Resumen de la calidad de las llamadas. '
-ms.openlocfilehash: 258390562206f55918a2b1440ed30ca16f7e7a93
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: eaadd80030b04d5fb10fd8f29d656fe07e24a1db
+ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344888"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "36393498"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -55,6 +55,7 @@ Consulte este artículo para obtener una lista de [las dimensiones y medidas dis
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activar los informes de resumen del panel de calidad de llamadas de Microsoft (CQD)
 
 Antes de empezar a usar el CQD, tendrá que activarlo para su organización de Office 365.
+
 ![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
  
 1. Inicie sesión en su organización de Office 365 con la cuenta de administrador del servicio Microsoft Teams y, a continuación, seleccione el icono **Administrador** para abrir el centro de administración.
@@ -66,13 +67,13 @@ Antes de empezar a usar el CQD, tendrá que activarlo para su organización de O
   
 4. En la página que se abre, inicie sesión con su cuenta de administrador global o la cuenta de administrador del servicio Microsoft Teams y, a continuación, proporcione las credenciales de la cuenta cuando se le soliciten.
     
-     ![Inicio de sesión de CQD](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![Captura de pantalla que muestra la solicitud de credenciales](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 Después de iniciar sesión, una vez que se haya activado, el CQD comenzará la recopilación y el procesamiento de datos.  
 > [!NOTE]
 > Puede demorar un par de horas en procesar los datos suficientes para mostrar resultados significativos en los informes. 
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
  
 1. Inicie sesión en su organización de Office 365 con una cuenta de administrador y, a continuación, seleccione el icono **Administrador** para abrir el centro de administración.
     
@@ -80,11 +81,11 @@ Después de iniciar sesión, una vez que se haya activado, el CQD comenzará la 
     
 3. En el centro de administración de Skype empresarial, seleccione **herramientas** en el panel izquierdo y, a continuación, seleccione **Panel de calidad de llamadas de Skype empresarial online**.
     
-     ![Herramientas de Skype empresarial](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+     ![Captura de pantalla que muestra la selección del panel de calidad de llamadas](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
   
 4. En la página que se abre, inicie sesión con su cuenta de administrador global y, a continuación, proporcione las credenciales de la cuenta cuando se le solicite.
     
-     ![Inicio de sesión de CQD](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+     ![Captura de pantalla que muestra la solicitud de credenciales](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
   
 Después de iniciar sesión, una vez que se haya activado, el CQD comenzará la recopilación y el procesamiento de datos.
 
@@ -135,30 +136,30 @@ Las cuatro pestañas incluyen:
 
 Use los datos de esta pestaña para evaluar el estado y las tendencias de la calidad de las llamadas consultando los recuentos de las transmisiones y los porcentajes deficientes. La leyenda de la esquina superior derecha muestra el color y los elementos visuales que representan estas métricas.
   
-![Clave de datos del CQD](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
+![Captura de pantalla que muestra la pestaña calidad de la llamada](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
 Las transmisiones se clasifican en tres grupos: buenos, deficientes y no clasificados. También se calculan valores deficientes de *%* que le dan la proporción de las transmisiones clasificadas como *malas* para el número total de streams clasificados. Debido a que las secuencias deficientes son de *% = deficientes/(secuencias deficientes, secuencias muy buenas) * 100* , esto hace que el *% deficiente* no se vea afectado por la presencia con varias secuencias sin *clasificar* . Para obtener información sobre lo que se usa para clasificar una secuencia como mala o buena, consulte [clasificación de secuencias en el panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md).
   
 Use la escala de la izquierda para medir los valores de recuento de transmisiones.
   
-![Recuento de datos del CQD](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
+![Captura de pantalla que muestra los valores de recuento de Stream](media/850bd25d-d9b2-4df4-8ca6-526a528897c2.png)
   
 Use la escala de la derecha para medir los valores de% deficiente.
   
-![Datos del CQD por ciento](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
+![Captura de pantalla que muestra valores de% deficientes](media/29795f71-ca96-4763-a76c-b4bb7c0e5828.png)
   
 También puede obtener los valores numéricos reales colocando el cursor sobre una barra.
   
 > [!NOTE]
 > El ejemplo siguiente es de un conjunto de datos de ejemplo muy pequeño, y los valores no son realistas para una implementación real. 
   
-![Datos numéricos del CQD](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
+![Captura de pantalla que muestra usar el mouse para acceder a datos](media/8724b016-1a50-4d19-b48a-3b1aae4eb895.png)
   
 El volumen general de la transmisión es un factor importante para determinar la importancia de los porcentajes deficientes calculados. Cuanto menor sea el volumen de las transmisiones generales, menos confiable serán los valores de porcentajes deficientes.
   
 ### <a name="server-client-tab-and-client-client-tabs"></a>Pestaña servidor-cliente y cliente-cliente
 
-Estas dos pestañas proporcionan detalles adicionales para las transmisiones que se llevaron a cabo en sus escenarios de extremo a punto de conexión. Ambas pestañas tienen cuatro secciones contraíbles, que representan cuatro escenarios en los que fluyen las transmisiones multimedia.
+Estas dos pestañas proporcionan detalles adicionales para las transmisiones que se llevaron a cabo en sus escenarios de extremo a punto de conexión. La pestaña servidor-cliente tiene cuatro secciones contraíbles, que representan cuatro escenarios en los que fluyen las transmisiones multimedia.
   
 - Cableado interno
     
@@ -167,6 +168,19 @@ Estas dos pestañas proporcionan detalles adicionales para las transmisiones que
 - WiFi Inside
     
 - WiFi fuera
+
+De forma similar, la ficha cliente-cliente tiene cinco secciones contraíbles:
+
+- Cableado interno de cable interno
+
+- Cable interno de cable externo
+
+- Cable fuera de cable externo
+
+- Redes inalámbricas integradas en WiFi
+
+- Redes inalámbricas cableadas internas externas
+    
     
 #### <a name="inside-test"></a>Prueba interna
 
@@ -184,7 +198,7 @@ Como indican los nombres, se trata de un criterio de clasificación basado en el
 
 En los informes de Resumen y ubicación mejorados, puede usar el menú desplegable **filtro de producto** para mostrar todos los datos de productos, solo los datos de Microsoft Teams o solo los datos de Skype empresarial online.
   
-![Captura de pantalla que muestra el control de filtro de producto con opciones para todos, Microsoft Teams y Skype empresarial.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
+![Captura de pantalla que muestra las opciones de control de filtro de producto](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
 En los informes detallados, puede usar la dimensión **es equipos** para filtrar los datos a Microsoft Teams o Skype empresarial online como parte de la definición del informe.
   
@@ -193,9 +207,9 @@ En los informes detallados, puede usar la dimensión **es equipos** para filtrar
 
 El panel informes de resumen del CQD incluye una página de **carga de datos de inquilino** , a la que se accede seleccionando carga de datos de **inquilino** en el menú configuración en la esquina superior derecha. Esta página se usa para que los administradores carguen su propia información, como la asignación de la dirección IP y la información geográfica, la asignación de cada punto de conexión inalámbrico y su dirección MAC, la asignación de un extremo a la marca/modelo/tipo de extremo, etc.
   
-![Panel de CQD](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
+![Captura de pantalla que muestra el panel de calidad de llamadas](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
-1. En la página **carga de datos de inquilino** , use el menú desplegable para elegir un tipo de archivo de datos para cargarlo. El tipo de datos archivo indica el contenido del archivo (por ejemplo, "edificio" se refiere a la asignación de dirección IP y construcción, así como otra información geográfica, "punto final" hace referencia a la asignación del nombre del extremo a la marca, modelo o tipo de punto de conexión... información). Por el momento, admitimos tipos de datos de carga "construcción" y "extremo" para el CQD. Teams. Microsoft. com (en la fase de versión preliminar y no disponible oficialmente), cqd.lync.com solo admite el tipo de datos "edificio" de carga. Se agregarán unos cuantos más tipos de datos a las versiones posteriores.
+1. En la página **carga de datos de inquilino** , use el menú desplegable para elegir un tipo de archivo de datos para cargarlo. El tipo de datos archivo indica el contenido del archivo (por ejemplo, "edificio" se refiere a la asignación de dirección IP y construcción, así como otra información geográfica, "punto final" hace referencia a la asignación del nombre del extremo a la marca, modelo o tipo de punto de conexión... información). Por el momento, admitimos la carga de tipos de datos "edificio" y "extremo" para cqd.teams.microsoft.com (en la etapa de versión preliminar y no disponible oficialmente), cqd.lync.com solo admite el tipo de datos "edificio" de carga. Se agregarán unos cuantos más tipos de datos a las versiones posteriores.
     
 2. Después de seleccionar el tipo de datos de archivo, haga clic en **examinar** para elegir un archivo de datos.
     
@@ -203,7 +217,7 @@ El panel informes de resumen del CQD incluye una página de **carga de datos de 
     
    - El archivo de datos no debe tener un tamaño superior a 50 MB.
 
-   - El archivo cargado en cqd.teams.microsoft.com tiene un límite de filas ampliado de 1 millón para acelerar el rendimiento de las consultas. Podemos imponer ese límite también en cqd.lync.com.
+   - Los archivos cargados en cqd.teams.microsoft.com tienen un límite de fila expandido de 1 millón para mantener el rendimiento de las consultas rápidamente. Podemos imponer ese límite también en cqd.lync.com.
     
    - Para cada archivo de datos, cada columna del archivo debe coincidir con un tipo de datos predefinido, que se trata más adelante en este tema.
     
@@ -213,19 +227,21 @@ El panel informes de resumen del CQD incluye una página de **carga de datos de 
     
     Antes de que se cargue el archivo, primero se valida. Una vez que se haya validado, se almacena en un BLOB de Azure. Si se produce un error de validación o el archivo no se almacena en un BLOB de Azure, se muestra un mensaje de error que solicita una corrección para el archivo. La imagen siguiente muestra un error que se produce cuando el número de columnas del archivo de datos es incorrecto.
     
-     ![Ejemplo de CQD error de validación](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
+     ![Captura de pantalla que muestra un error de validación de carga](media/22716a32-3d3d-4870-983c-46089e8b212a.png)
   
 5. Si no se producen errores durante la validación, la carga del archivo se realizará correctamente. Puede ver el archivo de datos cargado en la tabla **mis cargas** , que muestra la lista completa de todos los archivos cargados para el inquilino actual en la parte inferior de la página.
     
     Cada registro muestra un archivo de datos de inquilino cargado, con tipo de archivo, hora de última actualización, período de tiempo, descripción, un icono de quitar y un icono de descarga. Para quitar un archivo, seleccione el icono de papelera de la tabla. Para descargar un archivo, seleccione el icono de descarga en la columna **Descargar** de la tabla.
     
-     ![Tabla mis cargas del CQD](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
-  
+     ![Captura de pantalla que muestra la tabla mis cargas](media/4168a883-bbea-461a-80b1-42eedf2e7732.png)
+
+6. Tenga en cuenta que si elige usar varios archivos de datos de compilación o varios archivos de datos de extremo, la velocidad de operación de algunos informes será más lenta.
+
 ### <a name="tenant-data-file-format-and-structure"></a>Formato y estructura del archivo de datos de inquilinos
 <a name="BKMKTenantDataFile"> </a>
 
 ### <a name="building-data-file"></a>Generando archivo de datos
-El CQD usa crear archivo de datos por primera derivar columna de subred de la columna expandir red + rango, después de unir la columna subred, a la primera subred de la llamada/segunda subred para mostrar edificio/ciudad/país o región... informaciones. El formato del archivo de datos que cargue debe cumplir los siguientes requisitos para pasar la comprobación de validación antes de cargarlo.
+El CQD usa la creación de un archivo de datos al derivar la columna subred de expandir la columna Network + rango y, después, se une la columna subnet a la primera subred de la llamada en la columna subred para mostrar edificio/ciudad/país o región... informaciones. El formato del archivo de datos que cargue debe cumplir los siguientes requisitos para pasar la comprobación de validación antes de cargarlo.
   
 - El archivo debe ser un archivo. TSV, lo que significa que, en cada fila, las columnas están separadas por una TABULAción o un archivo. csv con cada columna separada por una coma.
     
@@ -290,11 +306,11 @@ El CQD usa el archivo de datos de extremo al unir su columna EndpointName a la p
 
 Los informes detallados son compatibles con la calidad y la fiabilidad de los medios para audio, vídeo, uso compartido de aplicaciones y tipos de medios de uso compartido de pantalla basado en vídeo. Las dimensiones, las medidas y los filtros que son específicos de un único tipo de medio tienen "audio", "vídeo", "uso compartido" o "VBSS" como prefijo.
   
-![Dimensiones del panel de calidad de llamadas.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
+![Captura de pantalla que muestra las dimensiones del panel de calidad de llamadas.](media/ae132202-d6dc-43bd-b8b3-ea9c24c519e8.png)
   
 Si desea ver las dimensiones y medidas de un solo tipo de medio, es posible que se necesite la nueva dimensión y el filtro. Por ejemplo, para tener un informe que muestre el número total de sesiones en diferentes tipos de medios, incluya la dimensión MediaType.
   
-![Recuento total de la secuencia del panel de calidad de llamadas.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
+![Captura de pantalla que muestra el recuento total de streaming del panel de calidad de llamadas.](media/21d5d0dc-2321-415e-8ef2-cea06165601c.png)
 
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar el análisis de llamadas de Skype Empresarial](set-up-call-analytics.md)
