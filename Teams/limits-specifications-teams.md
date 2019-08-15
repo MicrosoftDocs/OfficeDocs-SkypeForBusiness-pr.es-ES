@@ -3,7 +3,6 @@ title: Límites y especificaciones para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 06/10/2019
 ms.topic: reference
 ms.service: msteams
 audience: admin
@@ -16,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fba07eb5ba7e0d26b34657826419172b82a7248
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ecd31a243da999704b7d466b3dc93dd66fb7ac25
+ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244840"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36407884"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -45,7 +44,19 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 
 &sup3; los canales eliminados se pueden restaurar en un plazo de 30 días. Durante estos 30 días, un canal eliminado continúa contando con el canal de 200 por límite de equipo. Después de los 30 días, un canal eliminado y su contenido se eliminan permanentemente y el canal ya no se cuenta en los canales 200 por límite de equipo.
 
-## <a name="meetings-and-calls"></a>Reuniones y llamadas 
+## <a name="channel-names"></a>Nombres de canales
+
+Los nombres de canal no pueden contener los siguientes caracteres o palabras.
+
+|||
+|---------|---------|
+|Personajes     | ~ #% & * {} +/\:  < > ? &#124; ' "..        |
+|Caracteres en estos intervalos    | 0 a 1F<br>80 a 9F        |
+|Varias     | Forms, con, CONIN $, CONOUT $, PRN, AUX, NUL, COM1 a COM9, LPT1 a LPT9, Desktop. ini, &#95;VTI&#95;|
+
+Los nombres de canales tampoco pueden empezar con un carácter de subrayado (_) o punto (.) ni finalizar con un punto (.).
+
+## <a name="meetings-and-calls"></a>Reuniones y llamadas
 
 |Característica     | Límite máximo |
 |------------|---------------|
@@ -57,7 +68,12 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |------------|---------------|
 |Tamaño de la audiencia | 10.000 asistentes |
 |Duración del evento | 4 horas |
-|Eventos en directo simultáneos en un inquilino de Office 365 | 4,5 |
+|Columna1  |Columna2  |
+|---------|---------|
+|Row1     |         |
+|Row2     |         |
+
+| Eventos en directo simultáneos en un inquilino de Office 365 | 15 |
 
 Para obtener más información sobre eventos en directo y una comparación de los eventos de Teams Live para la difusión de reunión de Skype, vaya a [eventos de Teams Live y difusión de reunión de Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
 
