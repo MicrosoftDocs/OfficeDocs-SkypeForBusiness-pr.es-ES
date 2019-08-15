@@ -18,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración de las reuniones de teams que los usuarios programan en su organización.
-ms.openlocfilehash: c26165abdc753fbe37d3465738200c43b42d087d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1513e80028137c909f5fc0f854666b1770299c8
+ms.sourcegitcommit: c169b091a630ff78c233a2a2824da122184635d0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236565"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "36404608"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -38,7 +38,7 @@ Con la combinación anónima, cualquier persona puede unirse a la reunión como 
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **participantes**, Active **usuarios anónimos pueden unirse a una reunión**.
 
-    ![Captura de pantalla de la configuración de los participantes para las reuniones en el centro de administración] (media/meeting-settings-participants.png "Captura de pantalla de la configuración de participantes de las reuniones de Teams en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de participantes para reuniones en el centro de administración] (media/meeting-settings-participants.png "Captura de pantalla de la configuración de participantes de las reuniones de Teams en el centro de administración de Microsoft Teams")
 
 Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta configuración.
 
@@ -73,14 +73,17 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 
 <a name="bknetwork"> </a>
 
-Si está usando la calidad de servicio [(QoS)](qos-in-teams.md) para priorizar el tráfico de red, puede habilitar marcadores de QoS y establecer intervalos de puertos para cada tipo de tráfico de medios.
+Si está usando la calidad de servicio [(QoS)](qos-in-teams.md) para priorizar el tráfico de red, puede habilitar marcadores de QoS y establecer intervalos de puertos para cada tipo de tráfico de medios. La configuración de intervalos de puertos para diferentes tipos de tráfico es un único paso para controlar los medios en tiempo real; para obtener más información [, consulta calidad de servicio (QoS) en Teams](qos-in-teams.md) .
+
+> [!IMPORTANT]
+> Si habilita QoS o cambia la configuración en el centro de administración de Microsoft Teams para el servicio Microsoft Teams, también tendrá que [aplicar la configuración correspondiente a todos los dispositivos de usuario](QoS-in-Teams-clients.md) y todos los dispositivos de red internos para implementar por completo los cambios en QoS en Teams.
 
  ![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **red**, haga lo siguiente:
 
-    ![Captura de pantalla de la configuración de red de las reuniones en el centro de administración] (media/meeting-settings-network.png "Captura de pantalla de la configuración de red de las reuniones de Teams en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de red para las reuniones en el centro de administración] (media/meeting-settings-network.png "Captura de pantalla de la configuración de red de las reuniones de Teams en el centro de administración de Microsoft Teams")
 
     - Para permitir que los marcadores de DSCP se usen para QoS, Active **insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Solo tiene la opción de usar marcadores o no. no puede establecer marcadores personalizados para cada tipo de tráfico. Para obtener más información sobre los marcadores de DSCP, vea [seleccionar un método de implementación de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
     - Para especificar intervalos de puertos, junto a **seleccionar un intervalo de puertos para cada tipo de tráfico de medios en tiempo real**, seleccione **especificar intervalos de puertos**y, a continuación, escriba los puertos de inicio y de finalización para el audio, el vídeo y la pantalla compartida. Es necesario seleccionar esta opción para implementar QoS.
@@ -89,7 +92,7 @@ Si está usando la calidad de servicio [(QoS)](qos-in-teams.md) para priorizar e
     >
     > Si seleccionas un intervalo de puertos demasiado estrecho, dará lugar a llamadas perdidas y a una mala calidad de las llamadas. Las siguientes recomendaciones deben ser un mínimo.
 
- Si no está seguro de qué intervalos de puertos usar en su entorno, la configuración siguiente es un buen punto de partida. Para obtener más información, lea [implementar calidad de servicio (QoS) en Microsoft Teams](QoS-in-Teams.md). Estas son las marcas de DSCP necesarias y los intervalos de puertos de medios correspondientes sugeridos que usan tanto Teams como ExpressRoute.
+Si no está seguro de qué intervalos de puertos usar en su entorno, la configuración siguiente es un buen punto de partida. Para obtener más información, lea [implementar calidad de servicio (QoS) en Microsoft Teams](QoS-in-Teams.md). Estas son las marcas de DSCP necesarias y los intervalos de puertos de medios correspondientes sugeridos que usan tanto Teams como ExpressRoute.
 
 _Intervalos de puertos y marcas de DSCP_
 
@@ -100,8 +103,6 @@ Tipo de tráfico multimedia| Intervalo de puertos de origen del cliente\* |Proto
 |Aplicación/pantalla compartida| 50,040–50,059      |TCP/UDP |18        |Reenvío asegurado (AF21)|
 | | | | |
 
-\*Los intervalos de puertos que asigne no se pueden superponer y deben ser adyacentes entre sí.
-
-La configuración de intervalos de puertos para diferentes tipos de tráfico es un solo paso para controlar los medios en tiempo real; para obtener más información [, consulta calidad de servicio (QoS) en Teams](qos-in-teams.md) . Si habilita o cambia la configuración en el centro de administración de Microsoft Teams, tendrá que [aplicar la configuración correspondiente a todos los](QoS-in-Teams-clients.md) dispositivos de usuario y los dispositivos de red internos para implementar por completo los cambios en QoS en Teams.
+\*Los intervalos de puertos que asigne no se pueden superponer y deben estar unos al lado de otros.
 
 Después de que se haya utilizado QoS durante un tiempo, tendrá información de uso sobre la demanda para cada una de estas tres cargas de trabajo y podrá elegir qué cambios se deben realizar en función de las necesidades específicas. El [Panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md) te ayudará a hacerlo.
