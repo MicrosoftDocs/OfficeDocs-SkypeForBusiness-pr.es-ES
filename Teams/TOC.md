@@ -590,23 +590,20 @@
 #       
 #        
 
-
-<!-- ============================================================ -->
 # Actualizar a Teams
+
 ## [Introducción](upgrade-start-here.md)
 ## [Acerca del marco de actualización](upgrade-framework.md)
 
-## Planificar su recorrido de actualización
+## Planear el recorrido de actualización
+
 ### [Información general de la planificación de la actualización](upgrade-plan-journey.md)
 ### [Incorporar a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
 ### [Definir el ámbito del proyecto](upgrade-define-project-scope.md)
+### [Entender la coexistencia e interoperabilidad](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+### [Elegir su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-### Entender la coexistencia e interoperabilidad
-#### [Información general sobre la coexistencia e interoperabilidad](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-#### [Elegir su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-### [Planificar la calidad](upgrade-plan-for-quality.md)
-
-## Preparación del entorno para Teams
+## Preparar el entorno para Teams
 ### [Información general sobre la preparación técnica](upgrade-prepare-environment.md)
 ### [Preparar al personal de TI para Teams](upgrade-prepare-IT-pros.md)
 ### [Requisitos previos](upgrade-plan-journey-prerequisites.md)
@@ -618,9 +615,15 @@
 ### [Información general sobre la preparación de su organización](upgrade-prepare-organization.md)
 ### [Evaluar si la organización está preparada para el cambio](upgrade-org-change-readiness.md)
 ### [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)
-## [Llevar a cabo un piloto del usuario](pilot-essentials.md)
-## [Actualización de Skype Empresarial Online a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
-## [Actualizar desde Skype Empresarial híbrido o local a Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
+
+## Implementar la actualización
+### [Información general](upgrade-to-Teams.md)
+### [Llevar a cabo un piloto del usuario](pilot-essentials.md)
+### [Actualizar Skype Empresarial Online a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md)
+
+### [Actualizar Skype Empresarial local a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnPrem.md)
+
 
 ## Ejecutar, adoptar y optimizar
 ### [Información general del plan operativo](continue-journey.md)
@@ -628,15 +631,69 @@
 ### [Supervisar la calidad](upgrade-monitor-quality.md)
 ### [Mejorar los servicios](upgrade-enhance-my-service.md)
 
+
 ## [Preguntas frecuentes](FAQ-journey.md)
-## Información adicional
+
+## Más información sobre la coexistencia
 ### [Migración e interoperabilidad con Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md)
 ### [Coexistencia con Skype Empresarial](coexistence-chat-calls-presence.md)
 ### [Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia](teams-client-experience-and-conformance-to-coexistence-modes.md)
+#       
+#        
 
 <!-- ============================================================ -->
-# 
-# 
+
+# Conectividad híbrida 
+
+## 
+  [Planear conectividad híbrida](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)
+
+## Configurar conectividad híbrida
+### 
+  [Información general](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
+### 
+  [Configurar Azure AD Connect para entornos híbridos](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+### 
+  [Configurar Skype Empresarial híbrido](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/configure-federation-with-skype-for-business-online)
+
+## Mover usuarios entre la implementación local y la nube
+### 
+  [Información general](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)
+### 
+  [Mover usuarios locales a Microsoft Teams](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)
+### 
+  [Mover usuarios locales a Skype para empresas Online](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online)
+### 
+  [Mover usuarios de la nube a local](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/move-users-from-the-cloud-to-on-premises)
+
+### 
+  [Administrar directivas de migración](https://docs.microsoft.com/es-ES/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/toc.json&bc=/SkypeForBusiness/hybrid/hybrid/move-users-from-on-premises-to-skype-for-business-online/breadcrumb/toc.json) 
+
+## 
+  [Deshabilitar híbridos para completar la migración a la nube](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid)
+
+## 
+  [Implementación del recurso de topología entre bosques](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/configure-a-multi-forest-environment-for-hybrid)
+
+## Consolidación de la nube para Teams y Skype Empresarial
+### 
+  [Información general](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/cloud-consolidation)
+### 
+  [Actualizar el certificado de límite](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/cloud-consolidation-edge-certificates)
+### 
+  [Actualización de AAD Connect para incluir más de un bosque](https://docs.microsoft.com/es-ES/SkypeForBusiness/hybrid/cloud-consolidation-aad-connect)
+
+## 
+  [Integración con Exchange y SharePoint](https://docs.microsoft.com/es-ES/SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint)
+
+
+#       
+#        
+
+<!-- ============================================================ -->
+
+
+
 
 # Instrucciones para sectores y gobiernos
 ## [Información general](expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md) 
