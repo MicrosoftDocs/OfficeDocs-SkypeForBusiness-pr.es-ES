@@ -16,19 +16,19 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a0f712b2eb753f3444b43a714d5f77fbd8b3f1a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
+ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240844"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36436359"
 ---
-# <a name="meetings--conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
+# <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
-Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Ahora está listo para agregar la carga de trabajo de reuniones, incluyendo [audioconferencias](deploy-audio-conferencing-teams-landing-page.md), vídeo y uso compartido. Le mostramos cómo. 
+Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Ahora está listo para agregar la carga de trabajo de reuniones, incluyendo [audioconferencias](deploy-audio-conferencing-teams-landing-page.md), vídeo y uso compartido. A continuación, le mostramos cómo. 
 
 
-## <a name="meetings--conferencing-deployment-decisions"></a>Decisiones sobre la implementación de reuniones y conferencias
+## <a name="meetings-and-conferencing-deployment-decisions"></a>Decisiones sobre la implementación de reuniones y conferencias
 
 Teams proporciona una experiencia excelente para su organización y la configuración predeterminada parece funcionar para la mayoría de organizaciones. Este artículo le ayudará a decidir si cambiar alguna opción de la configuración predeterminada, en función del perfil y los requisitos empresariales de su organización, después, le guiará con cada cambio. Hemos dividido las opciones en dos grupos, comenzando por el conjunto principal de [cambios que es más probable que realice](#core-deployment-decisions). El segundo grupo incluye las [opciones adicionales](#additional-deployment-decisions) que puede que quiera configurar, según las necesidades de su organización.
 
@@ -36,7 +36,7 @@ Teams proporciona una experiencia excelente para su organización y la configura
 > Vea la sesión siguiente para obtener más información acerca de las reuniones: [Introducción a las reuniones en Microsoft Teams para profesionales de TI](https://aka.ms/teams-meetings-intro)
 
 
-## <a name="meetings--conferencing-prerequisites"></a>Requisitos previos para las reuniones y conferencias 
+## <a name="meetings-and-conferencing-prerequisites"></a>Requisitos previos de reuniones y conferencias 
 
 Antes de continuar con la implementación de reuniones en toda la organización, tómese un tiempo para revisar y confirmar que el entorno está listo para proporcionar la mejor experiencia posible a los usuarios. Revise la información siguiente y realice los cambios necesarios en su entorno.
 
