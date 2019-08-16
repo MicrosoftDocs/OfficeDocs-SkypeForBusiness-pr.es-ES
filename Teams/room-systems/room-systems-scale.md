@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: Lea este tema para obtener información sobre la implementación de salas de Microsoft Teams en implementaciones de gran escala.
-ms.openlocfilehash: 48a2ddbed8ca5909ca527f7db872c6fa74737610
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 26bb864f1b3eea49eaf99b598af9b5794df824be
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243426"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428014"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implementar salas de Microsoft Teams con System Center Configuration Manager
 

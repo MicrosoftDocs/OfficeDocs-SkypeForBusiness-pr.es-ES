@@ -7,17 +7,17 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: conceptual
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: En este artículo se explican las consideraciones de planeación pertinentes para implementar salas de Microsoft Teams, la nueva generación de sistemas de salas de Skype.
-ms.openlocfilehash: e5c902b5e4e015bfcc9be3b2d3927365483f3396
-ms.sourcegitcommit: a84b8de70149d9688bde64809912dc470377807e
+ms.openlocfilehash: 270155dcc4aaca10540689db053846fdc9dbfe8e
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35851549"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428025"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planear salas de Microsoft Teams
 

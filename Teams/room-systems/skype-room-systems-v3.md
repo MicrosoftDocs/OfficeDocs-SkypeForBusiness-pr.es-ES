@@ -7,17 +7,17 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Información general de administración para salas de Microsoft Teams.
-ms.openlocfilehash: 01b2550c1a0ad691acf48c58f6c13a37f2b4b7e6
-ms.sourcegitcommit: a388aec386b1a72b44c24d5f189a8c1cd401f706
+ms.openlocfilehash: db1569f86ba0066691b6797517351087307cf38a
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "35198639"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427879"
 ---
 # <a name="management-overview"></a>Introducción a la administración 
 

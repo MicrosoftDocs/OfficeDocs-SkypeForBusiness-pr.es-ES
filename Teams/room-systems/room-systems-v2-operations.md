@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: Lea este tema para obtener información sobre la administración de salas de Microsoft Teams, la nueva generación de sistemas de salas de Skype.
-ms.openlocfilehash: b32ac786c7c039bd1eaab060e12b7141a8d8cf72
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 601e9e31f6a874d84dae6f4a3b44c26324a7b6f3
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288566"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427948"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Mantenimiento y operaciones de salas de Microsoft Teams 
  
@@ -80,7 +80,10 @@ En esta sección se describe la configuración del sistema de donde depende Micr
 |net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
    
 La transferencia de archivos mediante directivas de grupo se trata en [configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
-  
+
+> [!NOTE]
+> Si el dispositivo de salas de Microsoft Teams es compatible con la siguiente versión del sistema operativo Windows 10, el dispositivo se actualizará automáticamente a la siguiente versión a través de Windows Update. Las salas de Microsoft Teams no se deben actualizar de forma manual a la siguiente versión de Windows 10 o mediante la habilitación de directivas de grupo de Windows Update para empresas (WUFB) "Seleccione el nivel de disponibilidad de Windows para las actualizaciones que desea recibir" y "seleccione Cuándo se preparan las compilaciones y Se reciben actualizaciones de características "a través de GPO. Se sabe que un dispositivo con estas directivas de grupo se encuentra con problemas con la aplicación de Microsoft Team Rooms con la actualización del sistema operativo Windows 10.
+
 ## <a name="remote-management-using-powershell"></a>Administración remota con PowerShell
 <a name="RemotePS"> </a>
 

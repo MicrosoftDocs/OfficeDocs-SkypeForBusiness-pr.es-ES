@@ -7,16 +7,16 @@ ms.reviewer: davgroom
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: En este artículo se describe cómo usar la herramienta de recuperación para salas de Microsoft Teams, que se usaría para poner un sistema obsoleto en un estado compatible.
-ms.openlocfilehash: cbfb3ef1ec033389894b3b7479e454160dc77b1b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90e6db7739a4a95e3f1fbde62f5b8dd8bde9e237
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305487"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427992"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Usar la herramienta de recuperación de Sala de Microsoft Teams
  
@@ -33,7 +33,7 @@ Es posible que también tenga que instalar [KB4089848](http://download.windowsup
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Comprobar la versión de Windows 
 
-1. Inicie sesión en una cuenta de administrador yendo a **Settings> Windows Setting> iniciar sesión** en el dispositivo de salas de Microsoft Teams. Esta opción te lleva a la pantalla de inicio de sesión.
+1. Inicie sesión en una cuenta de administrador yendo a **configuración> configuración de Windows> iniciar sesión en** el dispositivo de salas de Microsoft Teams. Esta opción te lleva a la pantalla de inicio de sesión.
 2. Inicie sesión en una cuenta de administrador, la cuenta de `admin` administrador predeterminada con `sfb`la contraseña.
 3. Haga clic en el menú Inicio y `winver.exe` escriba en el cuadro de búsqueda y haga clic en el*comando * ejecutar* en el resultado.
 4. Anote el número que hay después de ' versión ' en la segunda línea del panel de información.

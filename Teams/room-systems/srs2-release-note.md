@@ -7,16 +7,16 @@ manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: 5b8cd9c8fb4f84d250b40d99a60a9192ece11c52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243294"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427659"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -27,6 +27,7 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 |Prensa |Publicado en <br> Microsoft Store |
 |--- |--- |
+|4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
 |4.0.85.0 |04/08/2019 |
 |4.0.78.0 |03/14/2019 |
@@ -54,6 +55,15 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
+
+Introdujo en esta actualización:
+- Una nueva característica de cámara de contenido que permite a los usuarios incluir de forma inteligente una pizarra tradicional en la reunión de sus equipos
+- Mejoras adicionales en la interfaz de usuario de la consola para reducir el desorden y mover la configuración a una nueva barra lateral a la que se accede mediante más en la consola
+- Botón compartir bandeja deshabilitado si el cable de contenido local no está conectado o si una cámara de contenido no está conectada
+- Se ha corregido un problema con el teclado táctil en el que apareció el error solo después de un reinicio del sistema MTR
+- Correcciones de calidad y confiabilidad.
+
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 Introdujo en esta actualización:

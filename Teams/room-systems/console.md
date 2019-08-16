@@ -6,7 +6,7 @@ ms.reviewer: Travis-Snoozy
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: 1bb1e45eca95628222b799d94c953bb49da1ea17
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bb21bf6386164f65411a62870e86e1b1883560e1
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243481"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36428061"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar una consola de salas de Microsoft Teams
 

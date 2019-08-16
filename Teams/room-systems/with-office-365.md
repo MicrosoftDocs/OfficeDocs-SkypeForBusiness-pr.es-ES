@@ -6,7 +6,7 @@ manager: serdars
 audience: ITPro
 ms.reviewer: davgroom
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Office 365.
-ms.openlocfilehash: 9c1e14e9e5e7b32aa6ba4a1b08a2ae6ee8453d93
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1d0bd8270671ba1a666d07fd2e7826704c309f01
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243239"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427743"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Implementar Salas de Microsoft Teams con Office 365
 

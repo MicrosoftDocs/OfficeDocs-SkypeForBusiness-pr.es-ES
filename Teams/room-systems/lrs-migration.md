@@ -6,17 +6,17 @@ ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: Lea este tema para obtener información sobre cómo migrar dispositivos de sistema de salas de Lync para usar el software de salas de Microsoft Teams.
-ms.openlocfilehash: d07f214707253dc91495da1d219ed84dab2eec5d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c98d2081c29967c033d705082b4ebbffbd42b3ea
+ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243371"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "36427964"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrar dispositivos de Lync Room System (LRS) a salas de Microsoft Teams
 
