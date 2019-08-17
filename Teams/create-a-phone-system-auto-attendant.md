@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 939d1ac17007e3d823b0588f9949330e24555449
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: bd23262a3b8cd3c50cffbb4be6aa70317d209613
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35807539"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447946"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -37,14 +37,14 @@ Si desea obtener más información sobre los operadores automáticos, vea [¿Qu�
 > [!NOTE]
 > Este artículo se aplica a Microsoft Teams y a Skype empresarial online.
 
-## <a name="step-1---get-started"></a>Paso 1: introducción
+## <a name="step-1--get-started"></a>Paso 1: introducción
 
 - Es necesario un operador automático para tener una cuenta de recursos asociada. Consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) para obtener información sobre las cuentas de recursos y todas las licencias necesarias.
 
 > [!TIP]
 > Para redirigir las llamadas a un operador o una opción de menú que sea un usuario en línea con una licencia de **sistema telefónico** , tendrá que habilitarlos para telefonía IP empresarial. Consulte [asignar licencias de Skype empresarial](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) o [asignar licencias de Microsoft Teams](assign-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
-## <a name="step-2---create-a-new-auto-attendant"></a>Paso 2: crear un operador automático nuevo
+## <a name="step-2--create-a-new-auto-attendant"></a>Paso 2: crear un nuevo operador automático
 
 > [!IMPORTANT]
 > Cada operador automático debe tener una [cuenta de recursos](manage-resource-accounts.md)asociada. Debe crear primero la cuenta de recursos y, a continuación, asociarla al operador automático.
@@ -61,51 +61,51 @@ En el **centro de administración de Microsoft Teams**, haga clic en**operadores
 
 ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
-**Nombre** Escriba un nombre descriptivo para mostrar para el operador automático. El nombre es obligatorio, y puede contener hasta 64 caracteres, espacios incluidos. Se enumerará en la columna **Nombre** en la ficha **Operadores automáticos**.
+**Nombre** Escriba un nombre descriptivo para mostrar para el operador automático. El nombre es obligatorio, y puede contener hasta 64 caracteres, espacios incluidos. Aparece en la columna **nombre** de la ficha **operadores automáticos** .
 
 * * *
 
 ![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
-**Cuenta de recursos** Haga clic en este botón para seleccionar una o más cuentas de recursos para conectarse al nuevo operador automático. Es necesario que todos los operadores automáticos tengan una cuenta de recursos asociada. Una cuenta de recursos puede tener un número de teléfono asociado a la cuenta, pero es posible que no lo tenga. Un operador automático de nivel superior normalmente tiene una cuenta de recursos con un número de teléfono asignado, pero el operador automático anidado (usado como un menú de nivel 2 en el que se conecta el primer operador automático de nivel) podría no tener un número de teléfono asignado a su cuenta de recursos.
+**Cuenta de recursos** Haga clic en este botón para seleccionar una o más cuentas de recursos para conectarse al nuevo operador automático. Es necesario que todos los operadores automáticos tengan una cuenta de recursos asociada. Una cuenta de recursos puede tener un número de teléfono asociado a la cuenta, pero un número de teléfono no es obligatorio. Un operador automático de nivel superior suele tener una cuenta de recursos con un número de teléfono asignado, pero el operador automático anidado (usado como un menú de nivel 2 al que se conecta el operador automático de primer nivel) podría no tener asignado un número de teléfono a su cuenta de recursos.
 
 * * *
 
 ![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout3.png)
 
-**Zona horaria**: debe establecer la zona horaria para el operador automático, pero no es necesario que se corresponda con la zona horaria de la dirección principal que se muestra para su organización. Cada operador automático puede tener una zona horaria diferente, y el horario laboral establecido para el operador automático se ajustará en función de la zona horaria seleccionada.
+**Zona horaria**: debe establecer la zona horaria para el operador automático, pero no es necesario que se corresponda con la zona horaria de la dirección principal que se muestra para su organización. Cada operador automático puede tener una zona horaria diferente y el horario de oficina establecido para el operador automático se establece en función de la zona horaria que seleccione aquí.
 
 * * *
 
 ![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout4.png)
 
-**Idioma** Seleccione el idioma que desea usar para su operador automático en cualquiera de los idiomas disponibles en la lista. El idioma que estableces aquí es el idioma que el operador automático usará para interactuar con las personas que llaman a este operador automático y todas las solicitudes del sistema se reproducirán en este idioma.
+**Idioma** Seleccione el idioma que desea usar para su operador automático en cualquiera de los idiomas disponibles en la lista. El idioma que establezca aquí es el idioma que usa el operador automático para interactuar con personas que llaman a este operador automático y todas las solicitudes del sistema se reproducen en este idioma.
 
 * * *
 
 ![Icono del número 5, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout5.png)
 
-**Operador**: este ajuste es opcional y no es necesario activarlo para el operador automático. Sin embargo, puede establecer la opción de **operador** para las personas que llaman para poder salir de los menús para hablar con una persona para ayudarle.
+**Operador** Esto es opcional, pero puede configurar la opción de **operador** para permitir que los autores de llamadas interrumpan los menús y hablen con una persona.
 
-Automáticamente se asigna la tecla 0 a Operador.
+La tecla 0 está asignada al operador de forma predeterminada.
 
-Si establece esta opción, también tendrá que indicar a las personas que llaman que esta es una opción disponible en las opciones del **menú Editar** en la página **Administración de llamadas de horario laboral** . Si estableces un operador en tu operador automático, tendrás que escribir el texto del mensaje correspondiente en el cuadro de la **persona que llamas oirá** o cambiará el archivo de audio para incluir esta opción. Por ejemplo, "Para hablar con el operador, pulse cero."
+Si establece un operador, también tendrá que indicar a los usuarios que llamen sobre la opción en las **Opciones del menú Editar** en la página **Administración de llamadas de horario laboral** . Si estableces un operador en tu operador automático, deberás escribir el texto del mensaje correspondiente en el cuadro de la **persona** que llamarás o cambiaremos el archivo de audio para incluir esta opción. Por ejemplo, "Para hablar con el operador, pulse cero."
 
-Puede elegir entre las siguientes opciones para designar un operador:
+Tiene varias formas de configurar el operador:
 
 - **Persona de la empresa** con una licencia de **sistema de teléfono** que está habilitada para Enterprise Voice o asignada a planes de llamadas en Office 365.
 
      > [!Note]
      > La **persona de la empresa** puede ser un usuario en línea o un usuario hospedado localmente mediante Skype for Business Server 2015 o Lync Server 2013.
 
-- Una **cola de llamadas** que haya configurado.
-- Puede establecer que el autor de la llamada se derive a un correo de voz. Para ello, seleccione **una persona de su empresa** y configure las llamadas de esta persona para que se desvíen directamente al buzón de voz.
+- **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada a una cola de llamadas o a un operador automático que ya se ha creado.
+- Puedes configurarlo para que la persona que llama se envíe al buzón de voz. Para ello, seleccione **una persona de su empresa** y configure las llamadas de esta persona para que se desvíen directamente al buzón de voz.
 
 * * *
 
 ![Icono del número 6, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout6.png)
 
-**Habilitar las entradas de voz** El reconocimiento de voz está disponible si esta opción está seleccionada. Las personas que llaman pueden usar la entrada de voz en el [idioma que haya establecido](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Puede deshabilitar el reconocimiento de voz si solo quiere permitir que los usuarios usen el teclado del teléfono.
+**Habilitar las entradas de voz** El reconocimiento de voz está disponible si esta opción está seleccionada. Las personas que llaman pueden usar la entrada de voz en el [idioma que haya establecido](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Si solo quiere permitir que los usuarios usen el teclado del teléfono, puede deshabilitar el reconocimiento de voz si lo establece en desactivado.
 
 * * *
 
@@ -113,7 +113,7 @@ Cuando haya terminado con las selecciones, haga clic en **siguiente**.
 
 #### <a name="business-hours-page"></a>Página de horario comercial
 
-De forma predeterminada, el horario laboral se establece en 9:00 a 17:00, de lunes a viernes.  Todas las horas que no se incluyan en el horario laboral se consideran no laborales. Puede hacer clic en **seleccionar 24/7** para hacer todas las horas de trabajo. A menos que seleccione la opción **seleccionar 24/7** , se usará la página de **configuración de llamadas** de poshorario para configurar el control de llamadas para el operador automático después del horario laboral.
+De forma predeterminada, el horario laboral se establece en 9:00 am a 5:00 PM, de lunes a viernes. Todas las horas que no se incluyen en el horario comercial se consideran horas de oficina. Puede hacer clic en **seleccionar 24/7** para hacer todas las horas de trabajo. A menos que seleccione la opción **seleccionar 24/7** , se usará la página de **configuración de llamada** de poshorario para configurar las reglas de administración de llamadas para el operador automático después del horario laboral.
 
 ![Captura de pantalla de la página de horario comercial](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
@@ -121,13 +121,13 @@ De forma predeterminada, el horario laboral se establece en 9:00 a 17:00, de lun
 
 ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
-De forma predeterminada, el horario laboral se establece de lunes a viernes, 9:00 a.m.-5:00 p.m. Seleccione **borrar todas las** horas para anular la selección de todas las horas de horas en la programación. Si selecciona **Restablecer valores**predeterminados, el horario laboral se restablecerá a lunes a viernes, 9:00 a.m.-5:00 p.m.
+De forma predeterminada, el horario laboral se establece de lunes a viernes, 9:00 a.m.-5:00 p.m. Seleccione **borrar todas las horas** para anular la selección de todas las horas de la programación. Cuando selecciona **Restablecer valores**predeterminados, el horario laboral se restablece a lunes a viernes, 9:00 a.m.-5:00 p.m.
 
 * * *
 
 ![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
-Para cambiar el horario comercial, resalte el horario comercial que desea establecer con el calendario. El calendario le permite seleccionar el horario comercial en intervalos de 30 minutos, y el horario que seleccione aquí se basará en la zona horaria que haya configurado en la página **Información general**. Para configurar un descanso (almuerzo, por ejemplo), anule la selección o arrastre para anular la selección de la hora en el calendario. Puede establecer varios descansos dentro del horario comercial.
+Para cambiar el horario de oficina, resalte las horas laborales que desea establecer en el calendario. El calendario le permite seleccionar el horario laboral en intervalos de 30 minutos y las horas laborales que seleccione aquí se basan en la zona horaria que estableció en la página de **información general** . Para configurar un descanso (almuerzo, por ejemplo), anule la selección o arrastre para anular la selección de la hora en el calendario. Puede establecer varios descansos dentro del horario comercial.
 
 * * *
 
@@ -138,7 +138,7 @@ Cuando haya terminado con las selecciones, haga clic en **siguiente**.
 > [!TIP]
 > Si usa una programación de horario laboral personalizada, también tendrá que configurar la mano de la llamada para después del horario comercial mediante la página de **Administración de llamadas** de poshorario, que le dará las mismas opciones que la **configuración de llamadas a horario laboral**.
 
-Puede configurar los saludos, los avisos y los menús que escucharán las personas que llaman al operador automático de su organización durante el horario laboral.
+Puede configurar los saludos, los avisos y los menús que los usuarios escuchan al llamar al número de teléfono vinculado al operador automático de su organización durante el horario laboral.
 
 ![Captura de pantalla de la página](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
 ![de tratamiento de llamadas de horario comercial captura de pantalla de la sección acciones de la página de administración de llamadas en horario comercial](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
@@ -147,9 +147,7 @@ Puede configurar los saludos, los avisos y los menús que escucharán las person
 
 ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
-**Saludo** Un saludo de horario laboral es opcional y puede configurarse como **sin saludo**. En este caso, la persona que llama no escuchará mensaje o saludo antes de que una de las acciones que seleccione represente la llamada. También puede cargar un archivo de audio (en formatos .wav, .mp3 o .wma), o crear un saludo personalizado usando texto a voz.
-
-- **Sin saludo** No se reproducirá ningún saludo cuando las personas llamen al número de teléfono del operador automático.
+**Saludo** Un saludo de horario laboral es opcional y puede configurarse como **sin saludo**. En este caso, el autor de la llamada no escuchará un mensaje o saludo antes de que una de las acciones que seleccione haya controlado la llamada. También puede cargar un archivo de audio (en formatos .wav, .mp3 o .wma), o crear un saludo personalizado usando texto a voz.
 - **Cargar un archivo de audio** Si elige esta opción, grabe el saludo y, a continuación, cargue el archivo de audio (en formato. wav,. mp3 o. WMA).
 - **Escribir un mensaje de bienvenida** Si elige esta opción, escriba el texto que quiere que lea el sistema (hasta 1000 caracteres). Por ejemplo, puede escribir "Bienvenidos a Contoso. Su llamada es muy importante para nosotros." en el cuadro **Los autores de llamadas escucharán**.
 
@@ -209,7 +207,7 @@ Para configurar las opciones de menú, después de seleccionar las teclas de mar
         > [!Note]
         > El **Horario comercial** de operadores automáticos anidados (o de segundo nivel) también se utilizará, lo que incluye las llamadas enviadas desde otros operadores automáticos que se hayan configurado.
 
-     - **cola de llamadas** Usar una opción de cola de llamadas permite transferir la llamada a una cola de llamadas existente que haya configurado. 
+       - **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada a una cola de llamadas o a un operador automático que ya se ha creado.
 
 * * *
 
@@ -269,8 +267,7 @@ Los nombres de días festivos pueden constar de hasta 64 caracteres y deben ser 
     > [!Note]
     > La **persona de la empresa** puede ser un usuario en línea o un usuario hospedado localmente mediante Skype for Business Server 2015 o Lync Server 2013.
 
-  - Una **cola de llamadas** para transferir la llamada a una cola de llamadas existente que haya configurado.
-  - Otro **operador automático**, para crear un segundo nivel de opciones de menú que contengan un submenú. Estos se denominan a operadores automáticos anidados.
+   - **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada a una cola de llamadas o a un operador automático que ya se ha creado.
 
     > [!Note]
     > De forma predeterminada, todas las llamadas que llegan durante un período de días festivos se establecen en desconectar después de saludo (si hay alguno), por lo que debe especificar un redireccionamiento si se desea obtener un comportamiento diferente.

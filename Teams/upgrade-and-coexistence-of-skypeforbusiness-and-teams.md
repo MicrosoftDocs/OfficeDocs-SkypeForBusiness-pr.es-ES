@@ -19,16 +19,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7509d0f3d6e3e557f6b7ccd388f7b9b340705bba
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d3c2b53767cb9bbaff3cbe4f2aeacea36fcc01d2
+ms.sourcegitcommit: f053b3a51a89751453101978e265efefcb30849c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236171"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36437492"
 ---
-![Actualizar diagrama de viaje, enfatizar implementación e implementación] (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
+![Actualizar el diagrama de viaje, enfatizando la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Etapas del viaje de actualización, con énfasis en la fase de definición del proyecto")
 
-Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
+Este artículo forma parte de la fase de definición de proyecto del viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 
 - [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
 - [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)

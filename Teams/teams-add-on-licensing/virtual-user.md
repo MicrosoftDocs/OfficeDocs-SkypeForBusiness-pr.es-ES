@@ -18,16 +18,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga más información sobre las licencias de usuario virtual gratuitas.
-ms.openlocfilehash: 73edbae2fce7cdb2ed1fd5c499d58153d91e7086
-ms.sourcegitcommit: 5f3c8ea2b3d68704885d212c8f2787c6bc7d1cf7
+ms.openlocfilehash: c8d196d876ed8df32f28aabf96a5817be0195145
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35907676"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447916"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Sistema telefónico: licencia de usuario virtual 
 
-A partir del 2 de julio de 2019, una organización con licencia de sistema telefónico ya puede obtener y asignar un sistema telefónico gratis, una licencia de usuario virtual o una licencia de usuario de sistema telefónico de pagos a cuentas de recursos. Ya no se necesita un plan de llamadas. Todos los operadores automáticos o las colas de llamadas requieren una cuenta de recursos asociada. Las cuentas de recursos que necesitan un número de teléfono necesitan un sistema telefónico gratuito (licencia de usuario virtual o licencia de usuario de sistema telefónico de pagos) antes de que se pueda aplicar un número de teléfono a la cuenta de recursos.
+A partir del 2 de julio de 2019, una organización con licencia de sistema telefónico ya puede obtener y asignar un sistema telefónico gratis, una licencia de usuario virtual o una licencia de usuario de sistema telefónico de pagos a cuentas de recursos. Ya no se necesita un plan de llamadas. Todos los operadores automáticos o las colas de llamadas requieren una cuenta de recursos asociada. Las cuentas de recursos que requieren un número de teléfono necesitan un sistema telefónico gratis, una licencia de usuario virtual o una licencia de usuario de sistema telefónico de pagos antes de que se pueda aplicar un número de teléfono a la cuenta de recursos.
 
 > [!TIP]
 > No se necesita ninguna licencia para cuentas de recursos que se usarán con operadores automáticos anidados o colas de llamadas que no tengan un número de teléfono asignado. Vea el siguiente diagrama de referencia: 
@@ -36,18 +36,18 @@ A partir del 2 de julio de 2019, una organización con licencia de sistema telef
 
 ## <a name="virtual-user-license-allocation"></a>Asignación de licencia de usuario virtual
 
-Su organización está asignada a un sistema telefónico: licencias de usuario virtual según su tamaño global. Hay 25 licencias de usuario virtual disponibles para cualquier organización que tenga al menos una licencia que incluya el sistema telefónico o que tenga un sistema telefónico agregado. Al agregar las licencias de usuario de un sistema de 10 teléfonos a su organización, hay disponible una licencia de usuario virtual para el sistema telefónico más.
+Su organización está asignada a un sistema telefónico: licencias de usuario virtual según su tamaño global. Cualquier organización que tenga al menos una licencia que incluya el sistema telefónico o tenga un sistema telefónico agregado tiene 25 licencias de usuario virtual disponibles sin costo alguno. Al agregar las licencias de usuario de un sistema de 10 teléfonos a su organización, hay disponible una licencia de usuario virtual para el sistema telefónico más.
 
 > [!NOTE]
-> Sistema telefónico es una licencia de complemento disponible con Office 365 F1, E1, E3 y licencias de Office Premium. El sistema telefónico también se incluye como parte de las licencias de Office 365 E5.
+> Sistema telefónico es una licencia de complemento disponible con Office 365 E1 y E3. El sistema telefónico también se incluye como parte de las licencias de Office 365 E5.
 
 Si su organización usa las licencias de usuario virtual gratuitas del sistema telefónico disponibles, en la creación de nodos de cola de llamadas o de operadores automáticos, aún puede usar las licencias de sistema telefónico de pagos con una cuenta de recursos. La mayoría de las organizaciones tendrá suficientes licencias de usuario virtual basadas en el plan de escala. 
 
 ### <a name="license-allocation-example"></a>Ejemplo de asignación de licencias
 
-Contoso, Inc. compró licencias 600 que incluían un sistema telefónico (una para cada empleado), por lo que se les asigna un 25 inicial y un sistema telefónico adicional de 60: licencias de usuario virtual. Contoso tiene un total de 85 de sistema telefónico: licencias de usuario virtual. Su organización tiene 90 colas de llamadas y operadores automáticos que tienen números de teléfono. Necesitan asignar todas las licencias de usuario virtual al sistema telefónico y obtener cinco licencias de sistema telefónicos a precios regulares. 
+Contoso, Inc. compró licencias 600 que incluían el sistema telefónico (una por empleado). Contoso tiene asignado un sistema de teléfono inicial de 25 más 60: licencias de usuario virtual, 85 en total. Su organización tiene 90 colas de llamadas y operadores automáticos que tienen números de teléfono. Necesitan asignar todas las licencias de usuario virtual al sistema telefónico y obtener cinco licencias de sistema telefónicos a precios regulares. 
 
-Contoso debe considerar rediseñar el operador automático y el sistema de la cola de llamadas para usar menos números de teléfono y otros nodos anidados que no necesiten un número de teléfono ni ninguna licencia. Quitar números de teléfono innecesarios simplifica la implementación y reduce los gastos. 
+Contoso debe considerar rediseñar el operador automático y el sistema de la cola de llamadas. Si usan menos números de teléfono y más nodos anidados que no necesitan un número de teléfono, simplifican la implementación y reducen los costos. 
 
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>Cómo adquirir el sistema telefónico: licencias de usuario virtual 
 
@@ -56,11 +56,11 @@ Contoso debe considerar rediseñar el operador automático y el sistema de la co
 3. Desplácese hasta el final para encontrar la licencia **"sistema telefónico-usuario virtual"** . Seleccione **comprar ahora**.
 
 > [!WARNING]
-> Tenga en cuenta que aún necesita **comprar** la licencia aunque tenga un costo de cero. 
+> Tenga en cuenta que aún debe **comprar** la licencia aunque tenga un costo de cero. 
 
 ## <a name="change-an-existing-resource-account-to-use-a-phone-systemvirtual-user-license"></a>Cambiar una cuenta de recursos existente para usar un sistema telefónico: licencia de usuario virtual
 
-Si decide cambiar las licencias de su cuenta de recursos de una licencia de sistema telefónico a un sistema telefónico: licencia de usuario virtual: 
+Si decide cambiar la licencia de su cuenta de recursos de una licencia de sistema telefónico a un sistema telefónico: licencia de usuario virtual: 
 
 1. Obtener la nueva licencia de usuario virtual del sistema telefónico. 
 2. Siga los pasos vinculados en el centro de administración de Microsoft 365 para [mover usuarios a un plan diferente](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
