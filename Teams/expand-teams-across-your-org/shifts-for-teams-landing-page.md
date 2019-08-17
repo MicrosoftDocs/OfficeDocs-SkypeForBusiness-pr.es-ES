@@ -13,12 +13,12 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52716a2bb2ac60181775eecd985337f696c989cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: aef6380f7f9408692a687ceb60564a11b8867511
+ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232222"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "36447897"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
@@ -39,6 +39,23 @@ Teams proporciona a los trabajadores de los Firstline de su organización las he
                     </div>
                     <div class="cardText">
                         <h3>Obtener información sobre la jubilación de StaffHub y la transición a los cambios en Teams</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+<a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/tasks-teams.svg" alt="Tasks clipboard symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Planear la transición de los equipos de StaffHub a los cambios en Teams</h3>
                     </div>
                 </div>
             </div>
