@@ -11,16 +11,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Aprenda a usar PowerShell para obtener la funcionalidad de SEFAUtil en Skype empresarial Server 2019 después de instalar la actualización acumulativa 1.'
-ms.openlocfilehash: 1c5d8d32c1b7b1b988b0ab39c79e4a7f40752875
-ms.sourcegitcommit: 14700a4faab81a294ac794f25b26619a5ed242a5
+ms.openlocfilehash: 6e0f7fc8e4bbb25564faa8107dec81ae3887b360
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35821339"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464559"
 ---
 # <a name="using-sefautil-functionality-via-powershell-in-skype-for-business-server-2019"></a>Usar la funcionalidad de SEFAUtil a través de PowerShell en Skype empresarial Server 2019
 
-SEFAUtil (la activación de características de extensión secundaria) permite a los administradores de Skype para empresas y a los agentes del Departamento de soporte técnico configurar llamadas delegadas, el desvío de llamadas y la recopilación de llamadas grupales en nombre de un usuario de Skype empresarial Server. Esta herramienta también permite a los administradores consultar la configuración de enrutamiento de llamadas que se haya publicado para un usuario concreto. Después de instalar esta actualización, la siguiente funcionalidad que actualmente se puede administrar a través de SEFAUtil también se podrá administrar a través de PowerShell:
+SEFAUtil (la activación de características de extensión secundaria) permite a los administradores de Skype para empresas y a los agentes del Departamento de soporte técnico configurar llamadas delegadas, el desvío de llamadas y la recopilación de llamadas grupales en nombre de un usuario de Skype empresarial Server. Esta herramienta también permite a los administradores consultar la configuración de enrutamiento de llamadas que se haya publicado para un usuario concreto. Después de instalar la actualización acumulativa de Skype empresarial Server 2019 de julio, la siguiente funcionalidad que actualmente se puede administrar a través de SEFAUtil también se podrá administrar a través de PowerShell:
 
 - [Configuración de desvío de llamadas](#call-forwarding-settings)
 - [Configuración de delegación](#delegation-settings)

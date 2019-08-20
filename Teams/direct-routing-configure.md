@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 37fe6fa9355a0892720fa32d2bab30474ddaf12a
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 4013e0fd914630f154f407ad9c70e2c6915723f5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35925500"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464616"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -328,8 +328,6 @@ NumberPattern       : ^\+1(425|206) (\d{7})$
 OnlinePstnUsages    : {US and Canada}
 OnlinePstnGatewayList   : {sbc1.contoso.biz, sbc2.contoso.biz}
 Name            : Redmond 1
-SuppressCallerId    :
-AlternateCallerId   :
 </pre>
 Para crear la ruta de Redmond 2, escriba:
 
@@ -485,8 +483,6 @@ A continuación, se indican los pasos para crear el uso de RTC "internacional", 
    OnlinePstnUsages          : {International} 
    OnlinePstnGatewayList           : {sbc2.contoso.biz, sbc5.contoso.biz}
    Name                            : International
-   SuppressCallerId          :
-   AlternateCallerId         :
    </pre>
 3. A continuación, cree una directiva de enrutamiento de voz "sin restricciones". El uso de RTC "Redmond 1" y "Redmond" se reutiliza en esta directiva de enrutamiento de voz para mantener un control especial de las llamadas al número "+ 1 425 XXX XX XX" y "+ 1 206 XXX XX XX" como llamadas locales o locales.
 

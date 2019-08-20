@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumen: Aprenda a conectar Skype empresarial Server con el consumidor de Skype. También se conoce como conectividad de Skype.'
-ms.openlocfilehash: b41e974b2162826f375f2cce2b2eabbae320871b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235709"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464605"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar conectividad de Skype en Skype empresarial Server
 
@@ -98,14 +98,14 @@ Skype empresarial Server usa la arquitectura de acceso a la Federación para adm
   
 ### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>El sitio de aprovisionamiento de la conectividad de mensajería instantánea pública de Skype empresarial Server ya no está disponible
 
-El sitio que anteriormente se usaba para aprovisionar manualmente la Federación entre las implementaciones locales de Skype para empresas y Skype ya no es necesario y se cerrará el 8/15/2019. La Federación con Skype ahora usa el descubrimiento de socios federados, que es el mismo mecanismo necesario para la Federación con Skype empresarial online.
+El sitio que anteriormente se usaba para aprovisionar manualmente la Federación entre las implementaciones locales de Skype empresarial y Skype ya no es necesario y se cerrará el 8/15/2019. La Federación con Skype ahora usa el descubrimiento de socios federados, que es el mismo mecanismo necesario para la Federación con Skype empresarial online.
 
-La comunicación entre cualquier implementación local de Skype empresarial y los usuarios de Skype a través de la infraestructura pública de mensajería instantánea existente requiere ahora que la configuración del servidor perimetral local sea compatible con Skype empresarial online.
+La comunicación entre cualquier implementación local de Skype empresarial y los usuarios de Skype a través de la infraestructura pública de mensajería instantánea existente ahora requiere que la configuración del servidor perimetral local sea compatible con Skype empresarial online.
 
 > [!NOTE]
 > La mayoría de los clientes no necesita ninguna acción, incluidas todas las implementaciones que se federan con Skype empresarial online.
   
-Es necesario que las implementaciones locales publiquen un registro SRV de DNS de Federación para cada dominio que hospedan. La guía está disponible en el [planeamiento de DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Cada dominio debe resolverse mediante una consulta SRV de DNS a un FQDN de servidor perimetral que satisfaga una coincidencia de sufijo de nivel superior del dominio. Por ejemplo, considere el dominio "contoso.com":
+Las implementaciones locales son necesarias para publicar un registro SRV de DNS de Federación para cada dominio que hospedan. La guía está disponible en el [planeamiento de DNS](../plan-your-deployment/edge-server-deployments/edge-environmental-requirements.md#dns-planning). Cada dominio debe resolverse mediante una consulta SRV de DNS a un FQDN de servidor perimetral que satisfaga una coincidencia de sufijo de nivel superior del dominio. Por ejemplo, considere el dominio "contoso.com":
 
 |**FQDN válidos**|**Comentario**|
 |:-----|:-----|
@@ -121,7 +121,7 @@ Puede encontrar más información sobre los certificados externos en el [planeam
 #### <a name="faqs"></a>Preguntas frecuentes
 
 **¿Por qué se cierra el sitio web de aprovisionamiento?**
-El mecanismo de aprovisionamiento de la mensajería instantánea pública (PIC) que se implementó en 2006 ya no se puede usar y se cerrará en 8/15/2019. En su lugar, la Federación de la mensajería instantánea pública asumirá el mismo modelo de Federación que usa Skype empresarial online, conocido como "descubrimiento del asociado", mediante el cual una implementación local puede ser detectada públicamente por su Federación de registros SRV de DNS.
+El mecanismo de aprovisionamiento de la mensajería instantánea pública (PIC) que se implementó en 2006 ya no se puede usar y se cerrará en 8/15/2019. En su lugar, la Federación de la mensajería instantánea pública asumirá el mismo modelo de Federación que usa Skype empresarial online, conocido como "descubrimiento de asociado", mediante el cual una implementación local puede ser detectada públicamente por sus registros SRV de DNS de Federación.
 
 **¿Este cambio significa que la Federación pública de mensajería instantánea está en desuso?**
 No. La Federación de mensajería instantánea pública seguirá siendo admitida durante muchos años, probablemente hasta que el producto local de Skype empresarial llegue al final de la vida.

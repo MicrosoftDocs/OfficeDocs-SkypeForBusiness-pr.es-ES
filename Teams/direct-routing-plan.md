@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: b675fae995d228d440c5173ec444dce16745717f
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271429"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464584"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -87,8 +87,11 @@ Direcciones IP y puertos de Firewall para los medios de Microsoft Teams |Para ob
 Los usuarios de enrutamiento directo deben tener las siguientes licencias asignadas en Office 365: 
 
 - Microsoft Phone System 
-- Microsoft Teams 
+- Microsoft Teams + Skype para empresas plan 2 si se incluye en la SKU de licencias
 - Conferencias de audio de Microsoft 
+
+> [!NOTE]
+> El plan de Skype empresarial no se debe quitar de ninguna SKU de licencia donde esté incluido. 
 
 
 > [!IMPORTANT]

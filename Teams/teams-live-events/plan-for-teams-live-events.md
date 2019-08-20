@@ -3,7 +3,7 @@ title: Plan para eventos en directo en Microsoft Teams
 author: chuckedmonson
 ms.author: chucked
 manager: serdars
-ms.date: 08/15/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que hay que tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0afac3e6099f866e5b2cb75395fa1d2bc568d663
-ms.sourcegitcommit: 62f507154e502bb43c608b6f15f72ff7679e93c5
+ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36429997"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464562"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -73,11 +73,12 @@ El usuario debe tener:
 
  
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Eventos de Teams Live y difusión de reunión de Skype
+
 En la siguiente tabla se resaltan las funciones principales y las características que se ofrecen en eventos en directo y cómo se diferencian de la difusión de reunión de Skype. 
 
 |**Capacidades**   |**Difusión de reunión de Skype** |**Eventos producidos en Teams** |**Eventos producidos en una aplicación o dispositivo externo** |
 |---------|---------|---------|---------|
-|Tamaño máximo de audiencia |10.000 asistentes |10.000 asistentes * |10.000 asistentes * |
+|Tamaño máximo de audiencia |10.000 asistentes |10.000 asistentes<sup>1</sup> |10.000 asistentes<sup>1</sup> |
 |Duración máxima del evento en directo |4 horas |4 horas |4 horas |
 |Número máximo de eventos dinámicos simultáneos por inquilino de Office 365 |4,5  | 4,5  | 4,5  |
 |Creación de eventos en directo |   Portal de difusión de reunión de Skype |Teams, Yammer a través de Teams | Teams, Yammer a través de Teams, streaming |
@@ -102,8 +103,7 @@ En la siguiente tabla se resaltan las funciones principales y las característic
 |Informe de asistencia posterior a la difusión para los productores |&#x2714; |&#x2714; |X |
 |Análisis de la opinión de la audiencia: votación en vivo & sondeos |&#x2714; (Microsoft Pulse) |X |X |
 
-> [!IMPORTANT]
-> Los límites establecidos pueden cambiarse.
+<sup>1</sup> los límites establecidos pueden cambiarse.
 
 ## <a name="regional-availability"></a>Disponibilidad regional
 Puede usar eventos de Teams Live en varias regiones de todo el mundo. La siguiente información muestra la disponibilidad para miembros del equipo del evento y los asistentes. 
@@ -118,7 +118,7 @@ Puede usar eventos de Teams Live en varias regiones de todo el mundo. La siguien
 - Ir a Canadá local
 
 **Exclusiones y consideraciones**
-- **Ir a locales:** Actualmente no se admiten las variables locales de Reino Unido, India, Australia, Japón y otros equipos.
+- **Ir a locales:** Actualmente no se admiten las variables locales del Reino Unido y otros equipos.
 - **China:** Los miembros del equipo del evento y los asistentes no podrán usar los eventos en directo de Teams porque no se puede obtener acceso a la CDN de Azure en China. Una solución es usar una conexión VPN corporativa, que obtiene el cliente conectado a CDN a través de la red corporativa del cliente.
 
 ## <a name="next-steps"></a>Pasos siguientes

@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: Obtenga información sobre cómo migrar la configuración de usuario y mover usuarios a Microsoft Teams.'
-ms.openlocfilehash: 1a0b126537c02376eaf28f40e843295aa5582dd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160766"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464683"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios de local a teams
 
@@ -38,6 +38,11 @@ Cuando un usuario se mueve de local a Microsoft Teams, la Página principal de S
     ![Mensaje que redirige a un usuario a Microsoft Teams](../media/go-to-teams-page.png)
 
 Antes de mover los usuarios, asegúrese de revisar los [requisitos previos](move-users-between-on-premises-and-cloud.md#prerequisites) para mover usuarios a la nube. Además, asegúrese de revisar [las instrucciones de migración e interoperabilidad para las organizaciones que usan Teams junto con Skype empresarial](/microsoftteams/migration-interop-guidance-for-teams-with-skype).
+
+
+> [!NOTE]
+> El almacén de contactos unificado debe estar deshabilitado en la cuenta de SfB local para que el contacto se mueva a Microsoft Teams.
+
 
 Hay dos métodos para mover un usuario de local a teams:
 
@@ -86,6 +91,9 @@ La siguiente secuencia de cmdlet se puede usar para mover un usuario a TeamsOnly
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Notificar a los usuarios locales de Skype empresarial del próximo paso a Microsoft Teams
 
 Las herramientas de administración locales de Skype empresarial Server 2015 con CU8, así como de Skype empresarial Server 2019, le permiten notificar a los usuarios locales de Skype empresarial de su próximo paso a Microsoft Teams. Cuando habilite estas notificaciones, los usuarios verán una notificación en su cliente de Skype empresarial (Win32, Mac, Web y móvil), tal como se muestra a continuación. Si los usuarios hacen clic en el botón **probar** , el cliente de Microsoft Teams se iniciará si está instalado; de lo contrario, los usuarios se desplazarán a la versión Web de Teams en su explorador. De forma predeterminada, cuando se habilitan las notificaciones, los clientes de Skype empresarial de Win32 descargan silenciosamente el cliente de Microsoft Teams para que el cliente enriquecido esté disponible antes de mover al usuario al modo de solo Teams; sin embargo, también puede deshabilitar este comportamiento.  Las notificaciones se configuran con la versión local `TeamsUpgradePolicy`de, y la descarga silenciosa para los clientes Win32 se controla a `TeamsUpgradeConfiguration` través del cmdlet local.
+
+> [!TIP]
+> Es posible que algunos servidores deban reiniciarse para que funcione en Skype empresarial 2015 con CU8.
 
 ![Notificación del próximo traslado a Microsoft Teams](../media/teams-upgrade-notification.png)
 

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 179276a049a30f1d049521cc3b4db326b988667c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9ce0d1acec923d09591e8f81b3f500ee9a910f5c
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246184"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464670"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Instalar el módulo de PowerShell de Microsoft StaffHub
 
@@ -31,40 +31,29 @@ Siga los pasos que se indican en este artículo para instalar y conectar con el 
 
 ## <a name="install-the-microsoft-staffhub-powershell-module"></a>Instalar el módulo de PowerShell de Microsoft StaffHub
 
-1. Descargue el [módulo de PowerShell de StaffHub](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
-2. Abra Windows PowerShell 3,0 o una versión posterior como administrador. Para ello, haga clic en **Inicio**, escriba **Windows PowerShell**, haga clic con el botón derecho en **Windows PowerShell**y, a continuación, seleccione **Ejecutar como administrador**.
+1. Abra Windows PowerShell 3,0 o una versión posterior como administrador. Para ello, haga clic en **Inicio**, escriba **Windows PowerShell**, haga clic con el botón derecho en **Windows PowerShell**y, a continuación, seleccione **Ejecutar como administrador**.
     > [!NOTE]
     > Para obtener la versión más reciente de Windows PowerShell, consulte [instalar Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell). 
-3. Ejecute lo siguiente:
+2. Ejecute lo siguiente para instalar la versión estable actual del módulo de PowerShell de StaffHub:
 
     ```
-    $ENV:PSModulePath
+    Install-Module -Name MicrosoftStaffHub
     ```
     
+    Puede ejecutar este comando solo si necesita instalar la última versión, que puede tener más inestabilidades que la versión estable actual:`Install-Module -Name MicrosoftStaffHub -AllowPrerelease`
 
-4. Compruebe la ruta de la carpeta en la salida y asegúrese de que todas las carpetas de la ruta de acceso existen en el equipo antes de continuar con el siguiente paso. Si faltan las carpetas, créelos.
-5. Ejecute lo siguiente para permitir la instalación del módulo de PowerShell de StaffHub:
+     > [!NOTE]
+     > Si recibe un error durante la instalación de la última versión con más inestabilidades, puede ejecutar:`Install-Module PowershellGet -Force`
 
-    ```
-    Set-ExecutionPolicy RemoteSigned
-    ```
-
-6. Ejecute lo siguiente, donde &lt;rutaDeAcceso&gt; es la ruta de acceso del paso 2. Por ejemplo, la ruta de acceso podría ser similar a C:\Users\User1\Documents\WindowsPowerShell\Modules.
-
-    Asegúrese de ejecutar cada comando por separado.
+3. Es posible que vea el mensaje de ADVERTENCIA:
 
     ```
-    Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
-    Install-Module -Name PackageManagement -Force  -AllowClobber
-    Install-Module -Name PowerShellGet -Force  -AllowClobber
-    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    Untrusted repository - You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from 'PSGallery'?
     ```
-7. Salga de Windows PowerShell.
-8. Abra Windows PowerShell 3,0 o una versión posterior como administrador global y, a continuación, ejecute lo siguiente:
 
-    ```
-    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
-    ```
+Escriba `Y` y haga `Enter`clic.
+ 
+4. Salga de Windows PowerShell.
 
 ## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Conectarse al módulo de PowerShell de Microsoft StaffHub
 

@@ -13,12 +13,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: 70d0b5ea61d0d7a8001bb1dbfabda2c45274e521
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a6f13b8f7db767d8a6a16f8f4493f15aeed9af38
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271451"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464595"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -290,7 +290,7 @@ Para realizar la transición, debe abrir los puertos 3478 y 3479. Cuando Microso
 
 ### <a name="requirements-for-using-media-processors"></a>Requisitos para usar procesadores multimedia
 
-Los procesadores de medios siempre están en la ruta multimedia de las aplicaciones de voz y para la cleints web (para exampe, Teams cleint en Edge o Google Chrome). Los requisitos son los mismos que para la configuración sin omisión.
+Los procesadores de medios siempre están en la ruta multimedia de las aplicaciones de voz y de los clientes Web (por ejemplo, los clientes de Teams en Edge o Google Chrome). Los requisitos son los mismos que para la configuración sin omisión.
 
 
 El intervalo IP para el tráfico de medios es 
@@ -353,7 +353,7 @@ Para obtener más información sobre cómo configurar dos troncos en el mismo SB
 
 La omisión de elementos multimedia es compatible con todos los puntos de conexión de Teams.
 
-Nota para webcleints (Teams Web App en Microsoft Edge, Google Chrome o Mozilla Firefox) hemos resaltado la llamada a sin omisión, incluso si se inició como una llamada de omisión. Esto sucede automáticamente y no requiere ninguna acción en el administrador. 
+Nota para los clientes Web (Teams Web App en Microsoft Edge, Google Chrome o Mozilla Firefox) se hará la llamada a no omitir aunque se haya iniciado como una llamada de omisión. Esto sucede automáticamente y no requiere ninguna acción del administrador. 
  
 ## <a name="see-also"></a>Vea también
 
