@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f848647119fa0efa87f3928430ffbd9f0e0af6e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c24899cb15cfec26cd1ee0d3304abbea93239e4
+ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235198"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "36464489"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -82,10 +82,6 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Cuando intenta unirse a Teams desde Internet Explorer o Edge, el programa lo intenta constantemente o se bloquea y no consigue iniciar sesión.   <br/> | Su organización utiliza los sitios de confianza de Internet Explorer y la aplicación basada en web de Teams no logra iniciar sesión correctamente porque los sitios de confianza de Teams no están permitidos. <br/>|Haga los siguientes cambios en la configuración de IE o desde el Panel de control, ya sea con derechos de administrador o con un objeto de directiva de grupo:<br/><ol><li>En **Opciones de Internet** &gt; **Privacidad** &gt; **Avanzada**, acepte las cookies de origen y de terceros, y active la casilla **Aceptar siempre las cookies de sesión**.</li><li>Haga clic en **Opciones de Internet** &gt; **Seguridad** &gt; **Sitios de confianza** &gt; **Sitios** y agregue lo siguiente:<ul><li>https://login.microsoftonline.com</li><li>https://\*.teams.microsoft.com</li></ul></li></ol><br/><b>NOTA</b>: Valide y permita siempre todas las direcciones URL de confianza de Teams y los requisitos del siguiente documento: [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges).   <br/> |01/11/2017  <br/> |
-
-|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
-|:-----|:-----|:-----|:-----|
-|Limitaciones de complementos de Outlook  <br/> |Para usar el complemento de Outlook, debe iniciar sesión en Microsoft Teams con la autenticación multifactor. Si se produce un error en la autenticación multifactor durante el proceso de inicio de sesión, podrá iniciar sesión en Microsoft Teams, pero recibirá un mensaje de error cuando intente usar el complemento.  <br/> Por el momento, el complemento solo está disponible para los usuarios de Windows.  <br/> El complemento no funcionará si usa un proxy de autenticación.  <br/> | No hay ninguna solución. <br/> |02/08/2017  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
