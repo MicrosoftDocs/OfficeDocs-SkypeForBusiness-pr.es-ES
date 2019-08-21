@@ -14,15 +14,17 @@ ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.adoption
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee1743acf3fe8ac96fe90efa1856ffd573bc180d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241339"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483416"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 

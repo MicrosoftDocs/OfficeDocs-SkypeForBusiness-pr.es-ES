@@ -11,17 +11,21 @@ ms.collection:
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: jastark
-f1keywords: ms.teamsadmincenter.assignments.overview
+f1keywords:
+- ms.teamsadmincenter.assignments.overview
+- ms.teamsadmincenter.assignments.tooltip.emaildigest
+- ms.teamsadmincenter.assignments.tooltip.makecode
+- ms.teamsadmincenter.assignments.tooltip.turnitin
 description: Aprenda a administrar tareas en el centro de administración de Microsoft Teams en Teams para el ámbito educativo.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71417ccfc3387f030433a6b923e7fd21f32cd854
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232330"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483984"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 

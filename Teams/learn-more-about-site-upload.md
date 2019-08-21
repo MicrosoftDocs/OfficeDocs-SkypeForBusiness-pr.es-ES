@@ -15,15 +15,18 @@ ms.collection:
 description: Obtenga información sobre cómo cargar en un sitio.
 ms.custom:
 - NewAdminCenter_Update
-f1keywords: ms.teamsadmincenter.locations.overview
+f1keywords:
+- ms.teamsadmincenter.locations.reportinglabels.overview
+- ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
+- ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7976983d88508f2d2c5ecb0c868ddcb9e641735b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bed4487a944bafb8092f63fb4582b165375a1e83
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245347"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36484031"
 ---
 <a name="adding-and-updating-locations-data"></a>Agregar y actualizar datos de ubicaciones
 ============================

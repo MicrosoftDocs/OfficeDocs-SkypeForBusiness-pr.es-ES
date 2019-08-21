@@ -10,18 +10,20 @@ ms.reviewer: bjwhalen
 description: Instrucciones para administrar la transición a teams desde Skype empresarial
 localization_priority: Normal
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.teamsupgrade.overview
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.coexistence
+- ms.teamsadmincenter.teamsupgrade.overview
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f8cfe994510c8364b4421f45b48bedfb9f2888f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ac2b42094484ce711760a793053bf619aab66884
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239312"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36484009"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial
 

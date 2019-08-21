@@ -12,15 +12,17 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: Obtenga información sobre cómo los eventos en vivo permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Teams, Yammer y Stream.
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.liveevents
+- ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afb477c4abe6ef2de5971c9c8278b1e4b4fd622c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 355f24a6156e42d8984e360cb6ab06c483b56413
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234169"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483237"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 

@@ -12,16 +12,18 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
+f1keywords:
+- ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: Página de aterrizaje para implementar la voz en la nube en Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7a17e207911ad4865cef5b82f7fe7f5f143a172
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 92e32950526f12c5da1856ce390ee3e532892681
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236984"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483874"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 

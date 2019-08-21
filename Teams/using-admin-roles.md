@@ -10,16 +10,21 @@ audience: admin
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
+f1keywords:
+- ms.teamsadmincenter.errorpage.needadminpermsforadmincenter.assignadminrolesarticle
+- ms.teamsadmincenter.errorpage.needadminperms.assignadminrolesarticle
+- ms.teamsadmincenter.signin.error.nopermissions
+- ms.teamsadmincenter.directrouting.cqd
 ms.reviewer: islubin
 description: Aprenda a usar los distintos roles administrativos para administrar equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13f18f4f314fedcbbb7a7e6d0e8f2eadacdeb6b3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b0bc064e6f01b215f4af53a3e7cb51f2b529cd4a
+ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236615"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "36483885"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>Usar los roles de administrador de Microsoft Teams para administrar equipos
 
