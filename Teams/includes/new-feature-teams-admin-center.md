@@ -1,0 +1,1 @@
+¿Aún no ve esta característica en el centro de administración de Microsoft Teams? Se está implantando en este momento y podría no estar disponible todavía en su organización. Para mantenerse al día de las nuevas características que habrá en Teams, consulte la [Hoja de ruta de Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
