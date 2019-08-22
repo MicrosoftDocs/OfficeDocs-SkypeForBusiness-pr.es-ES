@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: 3aad7aa5b958e9e4129bbf7e3553137768d1f4c1
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271462"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493131"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -206,28 +206,34 @@ Con la versión inicial del enrutamiento directo, Microsoft necesitaba un tronco
 
 Sin embargo, esto no ha sido óptimo por dos razones:
  
-• **Administración de overhead**. Al descargar o agotar un SBC, por ejemplo, cambian algunos parámetros, como habilitar o deshabilitar la omisión de medios. Cambiar el puerto requiere cambiar parámetros en varios inquilinos (ejecutando Set-CSOnlinePSTNGateway), pero en realidad es el mismo SBC. • **Procesamiento de overhead**. Recopilar y supervisar los datos de estado de troncal: las opciones de SIP recopiladas de varios troncos lógicos, que son en realidad, el mismo SBC y el mismo tronco físico, ralentiza el procesamiento de los datos de enrutamiento.
+- **Gestión de gastos generales**. Al descargar o agotar un SBC, por ejemplo, cambian algunos parámetros, como habilitar o deshabilitar la omisión de medios. Cambiar el puerto requiere cambiar parámetros en varios inquilinos (ejecutando Set-CSOnlinePSTNGateway), pero en realidad es el mismo SBC. 
+
+-  **Procesamiento de gastos generales**. Recopilar y supervisar los datos de estado de troncal: las opciones de SIP recopiladas de varios troncos lógicos, que son en realidad, el mismo SBC y el mismo tronco físico, ralentiza el procesamiento de los datos de enrutamiento.
  
 
 Basándose en estos comentarios, Microsoft trae una nueva lógica para aprovisionar los troncos de los inquilinos de cliente.
 
-Se introdujeron dos nuevas entidades: • un tronco de portador registrado en el inquilino del operador con el comando New-CSOnlinePSTNGateway, por ejemplo New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
-• Un tronco derivado, que no requiere registro. Simplemente es un nombre de host deseado añadido desde el tronco del portador. Deriva todos sus parámetros de configuración del tronco del transportista. El tronco derivado no necesita crearse en PowerShell y la asociación con el tronco del portador se basa en el nombre de FQDN (vea los detalles a continuación).
+Se introdujeron dos nuevas entidades:
+-   Un tronco de portador registrado en el inquilino del operador usando el comando New-CSOnlinePSTNGateway, por ejemplo, New-CSOnlinePSTNGateway-FQDN customers.adatum.biz-SIPSignallingport 5068-ForwardPAI $true.
 
-Lógica de aprovisionamiento y ejemplo.
+-   Un tronco derivado, que no requiere registro. Simplemente es un nombre de host deseado añadido desde el tronco del portador. Deriva todos sus parámetros de configuración del tronco del transportista. El tronco derivado no necesita crearse en PowerShell y la asociación con el tronco del portador se basa en el nombre de FQDN (vea los detalles a continuación).
 
-• Los carriers solo necesitan configurar y administrar un único tronco (troncal de portador en el dominio de la portadora) con el comando set-CSOnlinePSTNGateway. En el ejemplo anterior, es adatum.biz; • En el inquilino del cliente, el operador solo necesita agregar el FQDN del tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar New-CSOnlinePSTNGateway para un tronco.
-• El tronco derivado, como sugiere el nombre, hereda o deriva todos los parámetros de configuración del tronco del portador. Ejemplos: • Customers.adatum.biz: el tronco del portador que debe crearse en el inquilino del transportista.
-• Sbc1.customers.adatum.biz: el tronco derivado de un inquilino de cliente que no tiene que crearse en PowerShell.  Simplemente puede Agregar el nombre del tronco derivado en el inquilino del cliente en la Directiva de enrutamiento de voz en línea sin crearlo.
+**Lógica de aprovisionamiento y ejemplo**
 
-• Los cambios realizados en un tronco de portador (en el inquilino de transportista) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco del portador, y este cambio se aplicará a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración, ya que no es necesario ir a cada inquilino y cambiar el parámetro en cada tronco.
-• Las opciones se envían solo al proveedor de "FQDN" del portador. El estado de mantenimiento del tronco del portador se aplica a todos los troncos derivados y se usa para las decisiones de enrutamiento. Más información sobre [las opciones de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
-• El portador puede agotar el tronco del portador, y también se purgarán todos los troncos derivados. 
+-   Los operadores solo necesitan configurar y administrar un único tronco (tronco de portador en el dominio de la portadora) con el comando set-CSOnlinePSTNGateway. En el ejemplo anterior, es adatum.biz;
+-   En el inquilino del cliente, el operador solo tiene que agregar el FQDN del tronco derivado a las directivas de enrutamiento de voz de los usuarios. No es necesario ejecutar New-CSOnlinePSTNGateway para un tronco.
+-    El tronco derivado, como sugiere el nombre, hereda o deriva todos los parámetros de configuración del tronco del portador. Acerca
+-   Customers.adatum.biz: el tronco del portador que debe crearse en el inquilino del transportista.
+-   Sbc1.customers.adatum.biz: el tronco derivado de un inquilino de cliente que no tiene que crearse en PowerShell.  Simplemente puede Agregar el nombre del tronco derivado en el inquilino del cliente en la Directiva de enrutamiento de voz en línea sin crearlo.
+
+-   Los cambios realizados en un tronco de portador (en el inquilino de transportista) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco del portador, y este cambio se aplicará a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración, ya que no es necesario ir a cada inquilino y cambiar el parámetro en cada tronco.
+-   Las opciones solo se envían al FQDN del tronco del transportista. El estado de mantenimiento del tronco del portador se aplica a todos los troncos derivados y se usa para las decisiones de enrutamiento. Más información sobre [las opciones de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).
+-   El portador puede agotar el tronco del portador y todos los troncos derivados también se purgarán. 
  
 
-Migración del modelo anterior al tronco del portador
+**Migración del modelo anterior al tronco del portador**
  
-Para la migración de la implementación actual del modelo hospedado por el portador al nuevo modelo, los operadores deberán volver a configurar los troncos para inquilinos de cliente. Quite los troncos de los inquilinos del cliente mediante Remove-CSOnlinePSTNGateway (dejando el tronco en el inquilino del transportista).
+Para la migración de la implementación actual del modelo hospedado por el portador al nuevo modelo, los operadores deberán volver a configurar los troncos para inquilinos de cliente. Elimine los troncos de los inquilinos del cliente mediante Remove-CSOnlinePSTNGateway (dejando el tronco en el inquilino del transportista):
 
 Recomendamos encarecidamente migrar a la nueva solución tan pronto como sea posible, ya que mejoraremos la supervisión y el aprovisionamiento usando el modelo de tronco derivado y el portador.
  

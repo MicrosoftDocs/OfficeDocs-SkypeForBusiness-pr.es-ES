@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de salas de Microsoft Teams y sus periféricos.
-ms.openlocfilehash: bb21bf6386164f65411a62870e86e1b1883560e1
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 820921cdcf35f4c4072dae3b2029527b98454dc5
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428061"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493059"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar una consola de salas de Microsoft Teams
 
@@ -91,7 +91,10 @@ Ahora debe aplicar los medios de configuración que ha creado. El dispositivo de
 8. El sistema se cerrará cuando se complete la instalación.
     
 Una vez que el sistema se ha cerrado, es seguro quitar el disco de instalación de USB. En este punto, puede colocar el dispositivo de destino en su muelle (si usa un producto basado en el muelle), adjuntar los periféricos necesarios para la sala de reuniones y conectarse a la red. Consulte las instrucciones del fabricante.
-  
+
+> [!NOTE]
+> Las actualizaciones de software para Microsoft Team Rooms se descargan automáticamente de Microsoft Store para empresas. Consulte los [requisitos previos de Microsoft Store para empresas y educación](https://docs.microsoft.com/microsoft-store/prerequisites-microsoft-store-for-business) para comprobar que la consola de la sala podrá acceder a la tienda y a la actualización automática.  
+
 ### <a name="selecting-a-language"></a>Selección de un idioma 
 
 En la actualización del creador, tendrá que usar el script ApplyCurrentRegionAndLanguage. PS1 en escenarios en los que la selección de lenguaje implícito no proporciona al usuario el lenguaje de aplicaciones que quieren (por ejemplo, desea que la aplicación de consola aparezca en francés, pero está llegando en inglés).

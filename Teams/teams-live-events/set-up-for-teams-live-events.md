@@ -17,12 +17,12 @@ description: Obtenga información sobre los pasos necesarios para configurar los
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3848dde21ae45c0354049a69c939ba4bd978bea4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
+ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237373"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "36493103"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 
@@ -57,7 +57,7 @@ Las directivas de eventos en directo se usan para controlar qué usuarios de su 
 
 |Configuración  |Descripción  |
 |---------|---------|
-|**Nombre.**     |Este es el nombre de la Directiva que aparece en la página de directivas de eventos en directo. No puede tener más de 64 caracteres ni caracteres especiales.          |
+|**Título**     |Este es el título de la Directiva que aparece en la página de directivas de eventos en directo. No puede tener más de 64 caracteres ni caracteres especiales.          |
 |**Descripción**    |Use esta para agregar una descripción detallada a la Directiva.         |
 |**Permitir la programación**     |Activar esta opción permite a los usuarios de la organización crear y programar eventos en vivo en Teams. Es importante saber que si desea que los usuarios programen un evento en directo producido con una aplicación o dispositivo externo, hay pasos adicionales que debe realizar. Para obtener más información, vea [permitir a los usuarios programar eventos generados con una aplicación o un dispositivo externo](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).     |
 |**Permitir la transcripción para los asistentes** |Esta configuración solo se puede aplicar a eventos generados en Teams. Activar esta habilitación permite a los asistentes de eventos en directo ver subtítulos y subtítulos en vivo durante el evento.         |
