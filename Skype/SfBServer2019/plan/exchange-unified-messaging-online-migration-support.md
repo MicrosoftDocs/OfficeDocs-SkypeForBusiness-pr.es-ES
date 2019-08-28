@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: b9353546012a0cf16f154d330f27f36fd360b5ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243899"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645253"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -23,8 +23,7 @@ En referencia al [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/
  
 ExchUMO es implementado por los clientes para el buzón de voz, el operador automático, la cola de llamadas y los servicios de integración de fax. Microsoft planea ayudar a los clientes a migrar a servicios de sistema telefónico que ya admiten miles de clientes en Skype empresarial online y Microsoft Teams. 
 
-El buzón de voz es principalmente una migración dirigida por Microsoft; se requerirá la implicación e inversión del administrador para un subconjunto de clientes. Los operadores automáticos y las colas de llamadas tienen una migración guiada por el administrador; los administradores deben volver a crear los árboles de operadores automáticos de ExchUMO existentes en el servicio de operador automático del sistema telefónico. Los clientes que usen cualquiera de las características de ExchUMO con un PBX de terceros no migrarán a los servicios de nube del sistema telefónico porque estos servicios no admiten sistemas PBX de terceros. El año pasado se presentó un plan de jubilación de la asistencia de terceros en [este blog](https://blogs.technet.microsoft.com/exchange/2017/07/18/discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging
-)y los clientes de este modelo de implementación pueden migrar sus usuarios a uno de los servicios/plataformas de comunicaciones unificadas de Microsoft, o bien adquirir un buzón de voz o un mensaje de correo automático de terceros. solución de operador para estos usuarios. La integración de fax no es compatible con el sistema telefónico; los clientes deberán migrar a una solución de terceros. 
+El buzón de voz es principalmente una migración dirigida por Microsoft; es posible que se requiera la implicación e inversión del administrador para un subconjunto de clientes. El operador automático es una migración guiada por el administrador; tendrá que volver a crear los árboles de operadores automáticos de ExchUMO existentes en el servicio de nube de operador automático de la nube. Los clientes que consumen cualquiera de las características de ExchUMO con un PBX de terceros no se migrarán a los servicios en la nube de Skype porque no admiten sistemas PBX de terceros. Se ha anunciado un plan de jubilación para la compatibilidad de terceros en [este blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)y los clientes de este modelo de implementación pueden migrar a sus usuarios a uno de los servicios/plataformas de comunicaciones unificadas de Microsoft, o adquirir un buzón de voz de terceros y/o automático solución de operador para estos usuarios. La integración de faxes no es compatible con los servicios basados en la nube; los clientes deberán migrar a una solución de terceros.
 
 ### <a name="who-is-affected"></a>¿A quién afecta?
 

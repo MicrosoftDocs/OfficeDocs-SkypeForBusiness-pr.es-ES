@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 956834a7dbfee58601cb62848a12fad6a05abdd7
-ms.sourcegitcommit: 9053c0d5ddb6be3ce3da85dffcde3f45dbc0ab7c
+ms.openlocfilehash: 0046a008579c6c741d99825e6b79387a73eec55b
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36407992"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645264"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -51,7 +51,7 @@ Con el sistema telefónico, los usuarios de Skype empresarial obtendrán las sig
 |[Buscar una conversación anterior de Skype Empresarial](https://support.office.com/article/d1d54123-0301-482e-b047-c82e9e2724a3) <br/> |Realice un seguimiento de todas las conversaciones en un solo lugar, ya sea que aquellas conversaciones provengan de MI, llamadas telefónicas o reuniones planificadas o no. Las conversaciones se registran en el historial de llamadas.  <br/> |
 |Llamada en espera/recuperar llamada  <br/> | Use esta característica cuando se produzcan varias llamadas al mismo tiempo. Al contestar la siguiente llamada entrante o realizar una llamada saliente, la llamada actual entra en espera automáticamente. <br/> |
 |[Transferir una llamada de Skype Empresarial](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfiere llamadas a otra persona. O bien, si necesita salir de su oficina pero desea continuar su conversación, puede transferir las llamadas desde su equipo o teléfono IP a su teléfono móvil o tableta.  <br/> |
-|Identificador de llamada  <br/> |Las llamadas desde dentro de la empresa muestran un identificador de llamada detallado que toma información del directorio de su empresa, y le muestra una imagen y el puesto en lugar de tan solo un número de teléfono.  <br/> |
+|Identificador de llamada  <br/> |Las llamadas desde dentro de la empresa muestran un identificador de llamada detallado que toma información del directorio de su empresa, y le muestra una imagen y el puesto en lugar de tan solo un número de teléfono. Para las llamadas de números de teléfono externos, se muestra la identificación de llamadas proporcionada por el proveedor de servicios telefónicos.   <br/> |
 |[Crear una cola de llamadas en la nube](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Las colas de llamadas en nube incluyen saludos que se usan cuando un usuario llama a un número de teléfono de su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de buscar el siguiente agente de llamada disponible para controlar la llamada mientras las personas que llaman son escuchando música en espera.  <br/> |
 |[Informar cuando cambie el estado de un usuario](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Esta característica le permite etiquetar personas que no están disponibles actualmente y recibir una notificación cuando su presencia cambie y estén listas para tomar llamadas telefónicas. <br/> |
 |Clientes para PC, Mac y teléfonos móviles  <br/> | Esto te permite llamar a características en dispositivos, desde tabletas y teléfonos móviles a PC y teléfonos IP de escritorio. <br/> |

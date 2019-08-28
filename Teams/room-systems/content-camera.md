@@ -10,18 +10,20 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se describe la administración remota de la configuración predeterminada usada por un dispositivo de salas de Microsoft Teams, incluida la aplicación de un tema personalizado.
-ms.openlocfilehash: e5342ee92825eabc98037d5cf2ef1dfeab2a8031
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 4161474f02959b091db6584f1aeed72646028e6d
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447935"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645294"
 ---
 # <a name="content-cameras"></a>Cámaras de contenido
 
 Ahora puede usar una cámara de contenido con un sistema de salas de Microsoft Teams. Una cámara de contenido interactúa con un software de procesamiento de imágenes especial y una pizarra para permitir que un moderador dibuje en una pizarra analógica y comparta el contenido con los participantes remotos.
 
-Vea el vídeo [: como se encuentra en un solo lugar, con salas de Microsoft Teams, donde](https://www.youtube.com/watch?v=1XvgH2rNpmk) encontrará ejemplos de funcionalidad de cámara de contenido.
+Vea el siguiente vídeo para obtener ejemplos de funcionalidad de cámara de contenido.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3E7fy]
 
 ## <a name="set-up-a-content-camera"></a>Configurar una cámara de contenido
 

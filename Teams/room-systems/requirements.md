@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
-ms.openlocfilehash: f8c29d023e78758b3e6933a958d6efe1cf30f0b5
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: ee2f60fbf638613eb296bc24b1bebd1dfc66553a
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427981"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645275"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
@@ -48,7 +48,7 @@ Las salas de Microsoft Teams se adaptan a diferentes tamaños de sala por medio 
 
 |Lápiz|Processor|MEMORIAS|Disco|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 6| |Núcleo de i5||16 GB u 8 GB |128 GB o más |
+|Surface Pro 6| Núcleo de i5 |16 GB u 8 GB |128 GB o más |
 |Surface Pro (quinta gen. gen) |Núcleo de i5 |8 GB o 4 GB |128 GB o más |
 |Surface Pro 4 |Núcleo de i5 |8 GB o 4 GB |128 GB o más |
 

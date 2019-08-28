@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: 73cae7507a7c9d4dc86ea24de51790d13a32cf27
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e7d833e6170a442f9e97ff867e979bfd52700969
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793171"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645305"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar el Sistema telefónico en su organización
 
@@ -235,8 +235,7 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - En el caso de las conferencias de audio, puede asignar un número dedicado a un puente de conferencia yendo a **Microsoft 365 admin Center** > **admin** > Centers**Skype for Business** > **audio audioconferencia** y haga clic en el Puente de conferencia o vea [cambiar los números de pago o gratuitos en el puente de audioconferencia](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- En el caso de los operadores automáticos, puede asignar un número dedicado a un operador automático yendo a la administración del **centro de administración de Microsoft 365 centro** > de**Administración** > de**llamadas** > **de Skype empresarial** > :**operadores automáticos **y haz clic en el operador automático. En la página **General**, el número de servicio que ya tenga aparecerá en la lista desplegable **Número de teléfono**. Para obtener más información, consulte [configurar un operador automático de la nube](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant).
-
+- En el caso de los operadores automáticos, puede asignar un número dedicado a un operador automático yendo a la administración del **centro de administración de Microsoft 365 centro** > de**Administración** > de**llamadas** > **de Skype empresarial** > :**operadores automáticos **y al hacer clic en el operador automático. En la página **General** , el número de servicio que ya tienes aparecerá en la lista desplegable **número de teléfono** . Para obtener más información, consulte [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 - Para las colas de llamadas, puede asignar un número dedicado a una cola de llamadas desde el centro**** > **** de administración del **Centro** > de administración de Microsoft 365**centros** > **de administración de llamadas de Skype para empresas** > y haga clic en en la cola de llamadas. En la página **General**, el número de servicio que ya tenga aparecerá en la lista desplegable **Número de teléfono**. Para obtener más información, consulte [crear una cola de llamadas en la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
 
 **Para ver información detallada sobre cómo obtener nuevos números de servicio y hacer la portabilidad de otros ya existentes, consulte [Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers).**

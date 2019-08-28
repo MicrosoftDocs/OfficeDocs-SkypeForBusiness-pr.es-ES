@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: a8ee395a0b588af976151923992efbb32971b43c
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
+ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493131"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36645316"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -84,7 +84,8 @@ En el diagrama siguiente se resumen los requisitos para el dominio, los subdomin
 
 ![Diagrama que muestra los requisitos para los dominios y el encabezado del contacto](media/direct-routing-1-sbc-requirements.png)
 
-La SBC necesita un certificado para autenticar las conexiones. Para el escenario de hospedaje de SBC, el proveedor debe solicitar un certificado con San * \*. base_domain (por ejemplo \*, customers.adatum.BIZ)*. Este certificado se puede usar para autenticar conexiones a varios inquilinos servidos desde un único SBC.
+La SBC necesita un certificado para autenticar las conexiones. Para el escenario de hospedaje de SBC, el proveedor debe solicitar un certificado con San * \*. base_domain (por ejemplo \*,. customers.adatum.BIZ)*. Este certificado se puede usar para autenticar conexiones a varios inquilinos servidos desde un único SBC.
+
 
 La siguiente tabla es un ejemplo de una configuración.
 
@@ -98,6 +99,9 @@ La siguiente tabla es un ejemplo de una configuración.
 ||         |         |         |         |         |
 
 Para configurar la base y los subdominios, siga los pasos que se describen a continuación. En el ejemplo, configuraremos un nombre de dominio base (customers.adatum.biz) y un subdominio para un cliente (sbc1.customers.adatum.biz en inquilino de Woodgrove Bank).
+
+> [!NOTE]
+> Usa sbcX.customers.adatum.biz para habilitar la voz en el inquilino de la portadora.
 
 ## <a name="register-a-base-domain-name-in-the-carrier-tenant"></a>Registrar un nombre de dominio base en el inquilino de la portadora
 
