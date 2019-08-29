@@ -15,18 +15,16 @@ ms.collection:
 description: Aprenda a usar el informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de los eventos en vivo de Teams en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4eacd7df49de824ac6c0a98b7b923331fdee61f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
+ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239811"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36667071"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Informe de uso de eventos de Microsoft Teams Live
 
 El informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams le muestra la información general de actividades de eventos en vivo de su organización. Puede ver la información de uso, como el estado del evento, la hora de inicio, las vistas y el tipo de producción para cada evento. Puede obtener información sobre las tendencias de uso y saber quién en la organización programa, presenta y genera eventos en vivo. 
-
-![Captura de pantalla del informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams] (../media/teams-live-event-usage-report.png "Captura de pantalla del informe de uso de equipos en el centro de administración")
 
 ## <a name="view-the-report"></a>Ver el informe
 
@@ -35,9 +33,9 @@ El informe de uso de eventos de Teams Live en el centro de administración de Mi
 3. Faculta En **Organizer**, puede elegir mostrar solo eventos en directo organizados por un usuario específico.
 4. Haga clic en **Ejecutar Informe**.  
 
-## <a name="interpret-the-report"></a>Interpretar el informe
+    ![Captura de pantalla del informe de uso de eventos de Teams Live en el centro de administración de Teams con llamadas] (../media/teams-live-event-usage-report-with-callouts.png "Captura de pantalla del informe de uso de eventos de Teams Live en el centro de administración de Teams con llamadas")
 
-![Captura de pantalla del informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams] (../media/teams-live-event-usage-report-with-callouts.png "Captura de pantalla del informe de uso de eventos de Teams Live en el centro de administración con llamadas numeradas")
+## <a name="interpret-the-report"></a>Interpretar el informe
 
 |Globo |Descripción  |
 |--------|-------------|
@@ -56,5 +54,6 @@ La página Detalles del evento en directo le ofrece un resumen de los detalles d
 Si su organización está habilitada para [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) ECDN o [Kollective](https://kollective.com) eCDN, puede obtener análisis de asistente adicionales haciendo clic en el vínculo informe del socio.
 
 ## <a name="related-topics"></a>Temas relacionados
+
 - [Análisis e informes de Teams](teams-reporting-reference.md)
 - [¿Qué son los eventos en directo en Teams?](../teams-live-events/what-are-teams-live-events.md)
