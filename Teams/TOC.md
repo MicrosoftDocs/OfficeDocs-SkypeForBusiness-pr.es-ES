@@ -603,6 +603,7 @@
 ### [Definir el ámbito del proyecto](upgrade-define-project-scope.md)
 ### [Entender la coexistencia e interoperabilidad](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 ### [Elegir su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+### [Reuniones primero](meetings-first.md)
 
 ## Preparar el entorno para Teams
 ### [Información general sobre la preparación técnica](upgrade-prepare-environment.md)
