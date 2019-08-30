@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga una lista de los problemas conocidos al usar Microsoft como su proveedor de conferencias de acceso telefónico local, su estado y algunas soluciones alternativas. '
-ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfb76c23d3b1235bf67435e0af09ddef2a8852f3
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289587"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675241"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solución de problemas y problemas conocidos de Audioconferencia
 
@@ -43,6 +43,7 @@ Por ahora, use esto como una referencia al solucionar posibles problemas con la 
 |Si se aprovisiona un usuario la primera vez mediante la asignación de una licencia de E5, es posible que el correo electrónico de bienvenida a la audioconferencia no se entregue al usuario si el buzón no está habilitado.  <br/> |Si esto sucede, siempre puede volver a enviar la información de las conferencias de audio del usuario mediante **audioconferencia** en el centro de administración de Skype empresarial o mediante PowerShell. Consulte [habilitar o deshabilitar el envío de correos electrónicos cuando cambia la configuración de las conferencias de audio](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Nota:** Para volver a enviar el PIN de audioconferencia al usuario, debe restablecer el PIN. Esto también se puede realizar mediante **audioconferencia** en el centro de administración de Skype empresarial o mediante PowerShell.          |No hay ninguna solución.  <br/> |8/30/2017  <br/> |
 |Las llamadas de audioconferencia pueden demorar hasta 24 horas en mostrar los informes de uso.  <br/> |Esperamos realizar mejoras en esta área en actualizaciones futuras del servicio.  <br/> |No hay ninguna solución.  <br/> |8/30/2017  <br/> |
 |Cuando una persona llama a un puente de conferencia después de que un usuario de Skype empresarial haya bloqueado la reunión, no se produce una notificación en la aplicación de Skype empresarial que indica que el usuario está en la sala de espera.  <br/> |Esto se ha hecho deliberadamente, pero hemos recibido los comentarios para agregar esta función en actualizaciones futuras del servicio.  <br/> |No hay ninguna solución.  <br/> |8/30/2017  <br/> |
+|Es posible que un usuario de Skype empresarial Server (local) que tenga asignada la licencia de conferencia de audio antes del 1 de marzo de 2019 no vea las coordenadas de acceso telefónico en las invitaciones a reuniones.  <br/> |No se admite el aprovisionamiento de usuarios de Skype empresarial Server para las conferencias de audio de Teams hasta esa fecha. Ahora es compatible y es un componente de las [reuniones en primer lugar](https://docs.microsoft.com/microsoftteams/meetings-first). El usuario debe tener una licencia de Teams.  <br/> |Es necesario reactivar la canalización de aprovisionamiento. Quite la licencia de conferencia de audio del usuario, espere un par de horas y reasigne la licencia.  <br/> |1/3/2019  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

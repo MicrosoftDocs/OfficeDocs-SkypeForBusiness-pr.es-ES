@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams.
-ms.openlocfilehash: 8ae41603e3899c379fa09b2b08dd5e111b8405da
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 9ce7028c5ff56e24cda84536126cba271ee3e2b1
+ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483320"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "36675411"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -173,7 +173,11 @@ Puede seleccionar hasta 200 agentes de llamadas que pertenecen a cualquiera de l
 - Grupo de seguridad
 - Lista de distribución
 
-Los agentes de llamadas **** seleccionados deben ser usuarios conectados con una licencia de **sistema telefónico** y una licencia de Enterprise Voice habilitada **o** tener un plan de llamadas.
+Los agentes de llamadas seleccionados deben ser uno de los siguientes: 
+
+- Usuarios en línea con una licencia de sistema telefónico y la telefonía IP empresarial habilitada 
+- Usuarios en línea con un plan de llamadas
+- Usuarios locales de Skype empresarial Server
 
   > [!NOTE]
   > Esto también se aplica si desea redirigir las llamadas a las personas de su organización que están conectadas. Estas personas deben tener una licencia de **sistema telefónico** y la telefonía IP empresarial habilitada **o** tener un plan de llamadas. Para obtener más información, vea [asignar licencias de Skype empresarial](/Skype/SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md), [asignar licencias de Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-teams-licenses)o [el plan de llamadas es adecuado para usted](https://docs.microsoft.com/microsoftteams/calling-plan-landing-page) .
