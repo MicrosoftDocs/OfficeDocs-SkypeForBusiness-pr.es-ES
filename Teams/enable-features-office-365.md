@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9256c73e28a35a3dfba411bdd255e5e527ab8a9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 26affd1d16470b8f821b9f93376b04612fe03c82
+ms.sourcegitcommit: 7d4a2fdda6d4d6230c170a4b49758a8a8c8fcafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483295"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "36699377"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -56,15 +56,19 @@ Para agregar o bloquear un dominio:
 
 ### <a name="teams-settings"></a>Configuración de Microsoft Teams
 
-En **Configuración de Microsoft Teams** puede configurar la integración del correo electrónico, las opciones de almacenamiento en nube, la interoperabilidad de Skype Empresarial y los dispositivos.
+En **ajustes de Teams**, puede ajustar características para Teams incluyendo notificaciones y fuentes, integración de email, opciones de almacenamiento en la nube, y dispositivos.
+
+#### <a name="notifications-and-feeds"></a>Notificaciones y fuentes
+
+Aquí, puede controlar si las fuentes sugeridas aparecen en la fuente de actividad de los usuarios en Teams. Para obtener más información sobre la fuente de actividades, consulte [Explore la fuente de actividades en Teams](https://support.office.com/article/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56).
 
 #### <a name="email-integration"></a>Integración de correo electrónico
 
-Active esta característica para que los usuarios puedan enviar un correo electrónico a un canal en Microsoft Teams mediante la dirección de correo electrónico del canal. Los usuarios pueden hacer esto para cualquier canal que pertenezca a un equipo que sea de su posesión. Los usuarios también pueden enviar correos electrónicos a cualquier canal de un equipo que tenga conectores activados para los miembros del equipo. Para activar la integración del correo electrónico, asegúrese de que **Permitir que los usuarios puedan enviar correos electrónicos a la dirección de correo electrónico de un canal** esté **Activado**. 
+Active esta característica para que los usuarios puedan enviar un correo electrónico a un canal en Microsoft Teams mediante la dirección de correo electrónico del canal. Los usuarios pueden hacer esto para cualquier canal que pertenezca a un equipo que sea de su posesión. Los usuarios también pueden enviar correos electrónicos a cualquier canal de un equipo que tenga conectores activados para los miembros del equipo. Para activar la integración del correo electrónico, asegúrese de que **Permitir que los usuarios puedan enviar correos electrónicos a la dirección de correo electrónico de un canal** esté **Activado**.
 
 #### <a name="files"></a>Archivos
 
-Aquí puede activar o desactivar las opciones de uso compartido de archivos y de almacenamiento de archivos en la nube. 
+Aquí puede activar o desactivar las opciones de uso compartido de archivos y de almacenamiento de archivos en la nube.
 
 Los usuarios pueden cargar y compartir archivos de los servicios de almacenamiento en nube en los canales y chats de Teams. Las opciones de almacenamiento en nube en Microsoft Teams actualmente incluyen ShareFile, Dropbox, Box y Google Drive. Active el conmutador de los proveedores de almacenamiento en nube que quiera usar su organización.
 
