@@ -51,9 +51,7 @@ Puede usar el [Complemento de pruebas de red](https://www.powershellgallery.com/
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>
-  [Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/es-ES/MicrosoftTeams/prepare-network)</li><li>
-  [Direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/es-ES/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/es-ES/MicrosoftTeams/prepare-network)</li><li>[Direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/es-ES/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
