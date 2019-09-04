@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Más información sobre la administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: 0a53b68af411ad7085ef3abf6e978565f9ea18f0
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 95390586ce016972fc7d27eeeac0bfa48e106570
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483566"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715844"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -145,7 +145,7 @@ Los IDENTIFICADOres de la aplicación que necesita usar al crear las instancias 
 - **Cola de llamadas:** 11cd3e2e-FCCB-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> Si quiere que los usuarios locales puedan buscar en la cola de llamadas o en el operador automático, debe crear sus cuentas de recursos locales, ya que las cuentas de recursos en línea no se sincronizan con Active Directory.
+> Si desea que los usuarios locales puedan buscar en la cola de llamadas o en el operador automático, debe crear sus cuentas de recursos locales, ya que las cuentas de recursos en línea no se sincronizan con Active Directory.
 
 1. Para crear una cuenta de recursos en línea para usarla con un operador automático, use el siguiente comando.
 

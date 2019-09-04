@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar las directivas de comentarios para controlar si los usuarios de equipos de su organización pueden enviar comentarios sobre los equipos a Microsoft.
-ms.openlocfilehash: 148ba1dc19eecba4e447dd7049ae580c920a7bdf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
+ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242175"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "36715823"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
 
@@ -49,7 +49,7 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
 
 Supongamos, por ejemplo, que desea permitir que todos los usuarios de su organización envíen comentarios y reciban encuestas, excepto para los nuevos empleados en curso. **** En este escenario, puede crear una directiva personalizada para desactivar ambas características y asignarla a nuevos empleados. El resto de los usuarios de su organización obtienen la directiva global con las características activadas.  
 
-Use el cmdlet **New-CsTeamsFeedbackPolicy** para crear una directiva personalizada y el cmdlet **Grant-CsTeamsFeedbackPolicy** para asignarla a uno o más usuarios o grupos de usuarios, como un grupo de seguridad o un grupo de distribución.
+Use el cmdlet **New-CsTeamsFeedbackPolicy** , *que se puede [encontrar aquí](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, para crear una directiva personalizada y el cmdlet **Grant-CsTeamsFeedbackPolicy** para asignarla a uno o más usuarios o grupos de usuarios, como un grupo de seguridad o Grupo de distribución.
 
 Para desactivar y activar las características, establezca los siguientes parámetros:
 
