@@ -691,7 +691,8 @@
 ### [Ejecutar un informe para mostrar el uso de StaffHub activo](expand-teams-across-your-org/shifts/run-report-to-show-staffhub-usage.md)
 ### [Planificar el traslado de los equipos de StaffHub a Turnos en Microsoft Teams](expand-teams-across-your-org/shifts/plan-to-move-staffhub-teams-to-shifts-in-teams.md)
 ### [Mover los equipos de Microsoft StaffHub a Turnos en Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
-### [Administrar la aplicación Turnos para su organización en Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+### [Ejemplo de comunicación de correo electrónico a los usuarios](expand-teams-across-your-org/shifts/staffhub-to-teams-email-template.md)
+### [Administrar la aplicación Turnos para su organización en Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
 ## Teams para sanidad
 ### [Introducción a Teams para organizaciones sanitarias](expand-teams-across-your-org/healthcare/teams-in-hc.md)
