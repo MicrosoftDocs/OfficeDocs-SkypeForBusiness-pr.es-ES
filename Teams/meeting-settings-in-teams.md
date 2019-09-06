@@ -20,12 +20,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración de las reuniones de teams que los usuarios programan en su organización.
-ms.openlocfilehash: 5f45e8498a63397154b98d0dd2ac1469080fe5f6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483306"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767199"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -88,6 +88,8 @@ Si está usando la calidad de servicio [(QoS)](qos-in-teams.md) para priorizar e
     ![Captura de pantalla de la configuración de red para las reuniones en el centro de administración] (media/meeting-settings-network.png "Captura de pantalla de la configuración de red de las reuniones de Teams en el centro de administración de Microsoft Teams")
 
     - Para permitir que los marcadores de DSCP se usen para QoS, Active **insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Solo tiene la opción de usar marcadores o no. no puede establecer marcadores personalizados para cada tipo de tráfico. Para obtener más información sobre los marcadores de DSCP, vea [seleccionar un método de implementación de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
+    > [!NOTE] 
+    > Al activar los **marcadores de inserción de calidad de servicio (QoS) para el tráfico de medios en tiempo real** , también se habilitará la comunicación con el transmisor de transporte con puertos UDP 3479 (audio), 3480 (vídeo) y 3481 (uso compartido).
     - Para especificar intervalos de puertos, junto a **seleccionar un intervalo de puertos para cada tipo de tráfico de medios en tiempo real**, seleccione **especificar intervalos de puertos**y, a continuación, escriba los puertos de inicio y de finalización para el audio, el vídeo y la pantalla compartida. Es necesario seleccionar esta opción para implementar QoS.
     > [!IMPORTANT]
     > Si selecciona **usar automáticamente cualquiera de los puertos disponibles**, se usan los puertos disponibles entre 1024 y 65535. Use esta opción solo si no implementa QoS.

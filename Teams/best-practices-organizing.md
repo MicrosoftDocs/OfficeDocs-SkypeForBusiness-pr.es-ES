@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b079ebc84dfef1714243f79daed970fb148b7c5a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 32bd7664e8aa8fa8a818b3223e64b09f7982d12f
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236957"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36766937"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================
@@ -30,7 +30,7 @@ ms.locfileid: "36236957"
 
 Los equipos son colecciones de personas que reúnen un objetivo común. Este grupo de personas puede estar dentro de un departamento o de toda la organización. Lo que los reúne es el resultado de la conducción. Los miembros de un equipo pueden trabajar a un ritmo diferente o crear activos de forma diferente, pero en nuestra experiencia suelen colaborar rápidamente entre sí, un proceso que llamamos "alta velocidad de trabajo en equipo".  
 
-Antes de crear un equipo en un producto, se recomienda pensar en el objetivo, el proyecto o los elementos de trabajo y los usuarios de la organización, que pueden ayudarle a entregarlo de manera colaborativa. Una vez que los haya identificado, agregue estas personas o grupos a un equipo para empezar a colaborar. Puesto que la pertenencia puede cambiar a lo largo del tiempo, es una buena idea designar varios propietarios para cada equipo. Para obtener más información, consulte [Administración de equipos](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
+Antes de crear un equipo, piense en el objetivo, el proyecto o los elementos de trabajo y quién de su organización puede ayudarlo a entregar de manera colaborativa. Una vez que los haya identificado, agregue estas personas o grupos a un equipo para empezar a colaborar. Puesto que la pertenencia puede cambiar a lo largo del tiempo, es una buena idea designar varios propietarios para cada equipo. Para obtener más información, consulte [Administración de equipos](https://support.office.com/article/Teams-and-Channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Eche un vistazo a este vídeo breve para ver algunos ejemplos de cómo estructurar equipos entre organizaciones o de propósito único:
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Resumen: Aprenda a habilitar registros de grabación de detalles de llamadas (CDR) en Skype empresarial Server.'
-ms.openlocfilehash: 64a6e7d8d0e633fb3ef4e440932226f1f6f9c11a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 015ac3b57420401894e82c267e9737990ca7affb
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305706"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767062"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar la grabación de detalles de llamadas en Skype empresarial Server
 
@@ -66,7 +66,7 @@ Puede habilitar CDR mediante Windows PowerShell y el cmdlet **set-CsCdrConfigura
  Este comando habilita CDR para todos los parámetros de CDR que se encuentran actualmente en uso en su organización.
 
   ```
-  Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
+  Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
 Para obtener más información, consulte el tema de ayuda para el cmdlet [set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .

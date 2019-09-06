@@ -3,7 +3,6 @@ title: Plan para Microsoft 365 Administración Pública - Implementaciones de al
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6aacceaee811a80a9451f26cc1e8cba6ed56a49
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: d9e346e4e9d94c30454ad42ef5a3c44e12f2cde0
+ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36271386"
+ms.lasthandoff: 09/05/2019
+ms.locfileid: "36767117"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan para implementaciones altas de Microsoft 365 administración pública-GCC
 
@@ -154,6 +153,7 @@ Determina los requisitos de gobierno y cómo puedes reunirse. Para obtener más 
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementar Teams para la colaboración
 
-Después de que se haya incorporado a Microsoft 365 administración pública – GCC High, puede seguir el método de implementación estándar de [FastTrack](https://www.microsoft.com/fasttrack) y el socio elegido para incorporar el servicio.
+Después de que se haya incorporado a Microsoft 365 administración pública – GCC High, siga la ruta de implementación recomendada que se describe en [cómo implementar Microsoft Teams](How-to-roll-out-teams.md). Asegúrese de participar en el equipo de administración de cambios y la adopción y en los expertos de Teams.
 
-Cuando esté listo, implemente Teams para [Habilitar la colaboración dentro de su organización a través de equipos y canales](teams-overview.md). Asegúrese de participar en el equipo de administración de cambios y de adopción o en los campeones de Teams.
+También puede trabajar con [FastTrack](https://www.microsoft.com/fasttrack) o con su socio elegido para incorporar el servicio.
+
