@@ -2,7 +2,7 @@
 title: Plan para salas de Microsoft Teams
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: En este artículo se explican las consideraciones de planeación pertinentes para implementar salas de Microsoft Teams, la nueva generación de sistemas de salas de Skype.
-ms.openlocfilehash: 270155dcc4aaca10540689db053846fdc9dbfe8e
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428025"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775111"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planear salas de Microsoft Teams
 
@@ -51,7 +51,7 @@ Además de la combinación Surface Pro/Dock, también puede comprar salas de Mic
 
 Por lo general, los paquetes y las unidades integradas incluyen software preinstalado, mientras que si usted compra componentes admitidos por separado para los sistemas Surface Pro, tendrá que instalar el software. Para obtener instrucciones, consulte [este artículo sobre la instalación de software en dispositivos](room-systems-scale.md). 
 
-Puede implementar salas de Microsoft Teams con Microsoft Teams, Skype empresarial online o implementaciones híbridas o locales de Skype empresarial.  Consulte la [actualización de licencias de sala de reuniones](skype-room-systems-v2.md) de Teams para obtener información sobre las licencias necesarias.
+Puede implementar salas de Microsoft Teams con Microsoft Teams, Skype empresarial online o implementaciones híbridas o locales de Skype empresarial.  Consulte la [actualización de licencias de sala de reuniones de Teams](skype-room-systems-v2.md) para obtener información sobre las licencias necesarias.
 
 |    |     |
 |-----------|------------|
@@ -131,7 +131,7 @@ _Plantilla de implementación de salas de Microsoft Teams para su organización_
 
 ## <a name="procurement"></a>Obtención 
 
-Puedes adquirir tu sistema elegido como un paquete o una solución integrada a través de los socios de dispositivos. También puede adquirir un dispositivo asociado acoplar y preparar su propia solución de salas de Microsoft Teams con un dispositivo Surface Pro y __ dispositivos periféricos AV existentes admitidos. 
+Puedes adquirir tu sistema elegido como un paquete o una solución integrada a través de los socios de dispositivos. También puede adquirir un dispositivo asociado acoplar y preparar su propia solución de salas de Microsoft Teams con un dispositivo Surface Pro y dispositivos periféricos AV existentes _admitidos_ . 
 
 Puede adquirir salas de Microsoft Teams a partir de varios socios que aparecen en el [artículo requisitos](requirements.md). Visite los sitios web de los socios para obtener más información sobre estas soluciones y opciones de compras. 
 

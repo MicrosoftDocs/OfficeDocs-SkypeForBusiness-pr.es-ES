@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de los dispositivos de salas de Microsoft Teams de forma integrada, de extremo a extremo, con Azure monitor.
-ms.openlocfilehash: e52692b1a2ca8830b93a32546724b282b888c03a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428105"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774689"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implementar la administración de salas de Microsoft Teams con Azure monitor
 
@@ -34,13 +34,13 @@ Siguiendo esta guía, puede usar un panel como el siguiente ejemplo para obtener
 A un mayor nivel, debe realizar las siguientes tareas:
 
 
-1.  [Validar la configuración de análisis de registros](azure-monitor-deploy.md#validate_LogAnalytics)
-2.  [Configurar dispositivos de prueba para la configuración de administración del análisis de registros](azure-monitor-deploy.md#configure_test_devices)
-3.  [Asignar campos personalizados](azure-monitor-deploy.md#Custom_fields)
-4.  [Definir las vistas de salas de Microsoft Teams en análisis de registros](azure-monitor-deploy.md#Define_Views)
-5.  [Definir alertas](azure-monitor-deploy.md#Alerts)
-6.  [Configurar todos los dispositivos para la supervisión](azure-monitor-deploy.md#configure_all_devices)
-7.  [Configurar otras soluciones de Azure monitor](azure-monitor-deploy.md#Solutions)
+1. [Validar la configuración de análisis de registros](azure-monitor-deploy.md#validate_LogAnalytics)
+2. [Configurar dispositivos de prueba para la configuración de administración del análisis de registros](azure-monitor-deploy.md#configure_test_devices)
+3. [Asignar campos personalizados](azure-monitor-deploy.md#Custom_fields)
+4. [Definir las vistas de salas de Microsoft Teams en análisis de registros](azure-monitor-deploy.md#Define_Views)
+5. [Definir alertas](azure-monitor-deploy.md#Alerts)
+6. [Configurar todos los dispositivos para la supervisión](azure-monitor-deploy.md#configure_all_devices)
+7. [Configurar otras soluciones de Azure monitor](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
 > Aunque con la configuración mínima, el análisis de registros de Azure monitor puede supervisar un equipo con un sistema operativo Windows, pero sigue habiendo algunos pasos específicos de las salas de Microsoft teams que debe llevar a cabo antes de empezar a implementar agentes en todos los equipos de Microsoft. Dispositivos de salas.
@@ -443,7 +443,7 @@ Si ya ha implementado los dispositivos de salas de Microsoft Teams antes de impl
     1.  Copie el script siguiente y guárdelo como Install-MMAgent. ps1.
     2.  Modifique los parámetros WorkspaceId, WorkspaceKey y SetupPath para que coincidan con la configuración.
     3.  Modificar el mismo objeto de directiva de grupo y navegar a \\ directivas \\ de configuración \\ del equipo secuencias de comandos de configuración de Windows (inicio/apagado)
-    4.  Haga doble clic para seleccionar **Startup (Inicio**) y, a continuación, seleccione scripts de **PowerShell**.
+    4.  Haga doble clic para seleccionar **Startup (Inicio**) y, a continuación, seleccione **scripts de PowerShell**.
     5.  Seleccione **Mostrar archivos**y, a continuación, copie el archivo **install-MMAgent. PS1** a esa carpeta.
     6.  Seleccione **Agregar**y, a continuación, **examinar**.
     7.  Seleccione el script PS1 que acaba de copiar.

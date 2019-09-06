@@ -2,7 +2,7 @@
 title: Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML
 ms.author: jambirk
 author: jambirk
-ms.reviewer: gregbari
+ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se describe la administración remota de la configuración predeterminada usada por un dispositivo de salas de Microsoft Teams, incluida la aplicación de un tema personalizado.
-ms.openlocfilehash: 4161474f02959b091db6584f1aeed72646028e6d
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: f72eb6248fa2e35bdfb6cfe1de19eb34094b2acc
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645294"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774570"
 ---
 # <a name="content-cameras"></a>Cámaras de contenido
 
@@ -83,8 +83,8 @@ O bien, consulte los kits de cámaras de contenido admitidos en Microsoft Teams 
 
 Una vez instalada la cámara en la sala, configúrelo en la consola de salas de Microsoft Teams de la sala:
 
-1. Seleccione configuración de configuración](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png), inicie sesión como administrador y seleccione **configuración del dispositivo**. **** ![
-2. En la sección valores predeterminados de **cámara** , seleccione la cámara de contenido y asegúrese de que esté seleccionada la opción **mejoras de contenido** .
+1. ![](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png)Seleccione **configuración de configuración,** inicie sesión como administrador y seleccione **configuración del dispositivo**.
+2. En la sección **valores predeterminados de cámara** , seleccione la cámara de contenido y asegúrese de que esté seleccionada la opción **mejoras de contenido** .
 3. Faculta Si la cámara se instaló al revés porque la cámara se montó desde el techo, active la opción **rotar la cámara de contenido 180 °** .
 4. Seleccione **Guardar y salir**.
 

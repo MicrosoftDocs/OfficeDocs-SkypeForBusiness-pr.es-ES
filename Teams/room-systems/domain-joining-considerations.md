@@ -10,12 +10,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lea este tema para obtener información sobre cómo unirse a un equipo PC de la aplicación de Sistema de salas de Skype para su dominio.
-ms.openlocfilehash: 3c9471fe07cdacd4bb9dbb26a4b4591ed9945d9f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: be8fd60b67efb356e09678eef21fbfab425ce304
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428072"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774647"
 ---
 <!-- This asset missed in the rebrand, and honestly not sure if it's worth keeping.   -->
 
@@ -28,27 +28,17 @@ Lea este tema para obtener información sobre cómo unirse a un equipo PC de la 
 Puedes unirte al equipo de Skype Room System Appliance al dominio de Active Directory o dejarlo en un grupo de trabajo. Considere los siguientes puntos antes de realizar esta decisión:
   
 - Unirse al dominio con el equipo de Skype Room System Appliance le ayuda a importar la cadena de certificados raíz privada de su organización automáticamente.
-    
 - Unirse al dominio: el equipo del sistema de Skype Room le permite conceder derechos administrativos a usuarios y grupos del dominio. Al hacer esto, no tendrá que acordarse de la contraseña de la cuenta de administrador de nivel de máquina local.
-    
 - Cuando se une a un equipo de un sistema de salas de Skype en el dominio, es necesario que cree una unidad organizativa (Uo) independiente, de modo que pueda proporcionar exclusiones de objeto de directiva de grupo (GPO) a la uo donde se encuentran todos los objetos de la máquina del sistema de salas de Skype. Cuando lo haga, cree objetos de equipo en la OU antes de unirse al dominio del equipo del sistema de salas de Skype.
-    
-- Muchas organizaciones tienen los siguientes GPO, que afectan a las funciones de equipo de Skype Room System Appliance. Asegúrate de invalidar o bloquear la herencia de estos GPO en la unidad organizativa del sistema de salas de Skype: 
-    
+- Muchas organizaciones tienen los siguientes GPO, que afectan a las funciones de equipo de Skype Room System Appliance. Asegúrate de invalidar o bloquear la herencia de estos GPO en la unidad organizativa del sistema de salas de Skype:
+
   - Tiempo de espera de sesiones de inicio de sesión (bloqueo automático)
-    
   - Directivas relacionadas de administración de energía
-    
   - Requerir pasos de autenticación adicionales
-    
   - Negar el acceso a las unidades locales
-    
   - Avisar a los usuarios de conexiones de red lentas
-    
   - Iniciar un programa determinado en el inicio de sesión
-    
   - Crear otra cuenta de usuario de dominio en todas las máquinas con unión a dominio.
-    
   - Insertar Windows Update en el sistema de salas de Skype
     
 - De forma alternativa, puede decidir dejar el equipo PC de aplicación en el grupo de trabajo. Al igual que con el cliente de Microsoft Teams o Skype empresarial, necesita importar manualmente la cadena de certificados raíz en el equipo del sistema de salas de Skype. No es necesario importar la cadena de certificados raíz si su implementación usa un certificado público (por ejemplo, Entrust, VeriSign, etc.). 

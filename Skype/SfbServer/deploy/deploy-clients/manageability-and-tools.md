@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lea este tema para obtener información acerca de las herramientas de administración para el sistema de salas de Skype.
-ms.openlocfilehash: ce33307babac88f6a0e3145988d0ea8519f86110
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 51cb9ed85558a97b4afbeed8e4addd2ade6debec
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234223"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775331"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Administración y herramientas del Sistema de salas de Skype
  

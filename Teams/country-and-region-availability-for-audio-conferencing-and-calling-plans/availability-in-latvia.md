@@ -3,7 +3,7 @@ title: Disponibilidad en Letonia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 01085d53-64d7-40ea-ade2-c73a48766746
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Letonia.
-ms.openlocfilehash: 27eafcd181aebc1b767c90f94eda0e39ccf8cc13
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 3c3b933e7dcbbf8ceee8a3863cb9303720468ec0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331655"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775405"
 ---
 # <a name="availability-in-latvia"></a>Disponibilidad en Letonia
 
@@ -67,9 +67,9 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Alūksne  <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Riiga ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
-|¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |Sí ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

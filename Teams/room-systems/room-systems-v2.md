@@ -4,7 +4,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 audience: ITPro
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre la implementación de salas de Microsoft Teams.
-ms.openlocfilehash: 229e81aceb5e63152a35bbe00148015e124cf96f
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 132c40c674824bb763ea2087318423ca3677f506
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428003"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775133"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -27,7 +27,7 @@ La implementación de salas de Microsoft Teams se divide esencialmente en fases:
 
 - Confirmar que las ubicaciones de implementación (salas) cumplen las dependencias de implementación
 - Crear cuentas de Microsoft Teams o Skype empresarial y de Exchange y asignarlos a los dispositivos de consola (consulte [configurar cuentas para salas de Microsoft Teams](room-systems-v2-configure-accounts.md))
-- Volver a Imaging Microsoft Surface tablets para trabajar como consolas de salas de Microsoft Teams (consulte [configurar una consola de salas de Microsoft Teams](console.md) o implementar la [Guía de implementación masiva de salones de Microsoft](room-systems-scale.md)Teams)
+- Volver a Imaging Microsoft Surface tablets para trabajar como consolas de salas de Microsoft Teams (consulte [configurar una consola de salas de Microsoft Teams](console.md) o [implementar la guía de implementación masiva de salones de Microsoft](room-systems-scale.md)Teams)
 - Faculta Configuración de Microsoft Operations Management Suite para sus sistemas (consulte implementación de la [Administración de salas de Microsoft Teams con Azure monitor](azure-monitor-deploy.md)
 - Configurar consolas en salas de reuniones y conectar los dispositivos periféricos que necesita (consulte la documentación de OEM de su conjunto de dispositivos)
 

@@ -1,11 +1,10 @@
 ---
-title: Disponibilidad en Bosnia y Herzegovina
-author: CarolynRowe
-ms.author: crowe
+title: Disponibilidad en Camboya
+author: LanaChin
+ms.author: v-lanac
 manager: serdars
-ms.reviewer: serdars
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
-ms.assetid: 14066a15-acca-4d39-b862-d163ab824196
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -24,34 +23,34 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Bosnia y Herzegovina.
-ms.openlocfilehash: 1d382c02249f39a42f7f61a70c7687367e0cbad4
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
+ms.openlocfilehash: 0e3a6c74e50f7ff94857a529802e717fd0dcd72d
 ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774485"
+ms.locfileid: "36775619"
 ---
-# <a name="availability-in-bosnia-amp-herzegovina"></a>Disponibilidad en Bosnia y Herzegovina
+# <a name="availability-in-cambodia"></a>Disponibilidad en Camboya
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Bosnia y Herzegovina.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicación <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿El sistema telefónico está disponible para la compra?  <br/> |Sí  <br/> |
-| Operadores automáticos <br/> |Disponible  <br/> |
+|Operadores automáticos <br/> |Disponible  <br/> |
 |Colas de llamadas  <br/> |Disponible  <br/> |
 |Correo de voz  <br/> |Disponible  <br/> |
    
@@ -63,21 +62,21 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de pago y gratuitos para servicios
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |No aplicable  <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
-|¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Phnom Penh ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) |
+|¿Hay números de pago disponibles?  <br/> |Sí ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |Sí ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
    
- Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Si desea obtener números de teléfono gratuitos y de pago para las conferencias de audio, los operadores automáticos y las colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los créditos de comunicaciones están disponibles?  <br/> |Sí  <br/> |
+|¿Los créditos de comunicaciones están disponibles?  <br/> |No  <br/> |
    
 Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../set-up-communications-credits-for-your-organization.md).
   

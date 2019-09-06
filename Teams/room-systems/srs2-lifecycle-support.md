@@ -2,7 +2,7 @@
 title: Compatibilidad con versiones
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad del ciclo de vida de las salas de Microsoft Teams.
-ms.openlocfilehash: dc4f8c0997ee64f4011aed6056be506738012639
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: dbe90d4014439af3f0dc3eeb54d62c5ee5e64c98
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427692"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775078"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Compatibilidad de versiones de la aplicación salas de Microsoft Teams
  
@@ -34,6 +34,7 @@ Toda la asistencia finaliza después del ciclo de vida de doce (12) meses para u
 Todas las versiones se enumeran en las notas de la [versión de Microsoft Teams Rooms](srs2-release-note.md).
 
 # <a name="os-version-support"></a>Compatibilidad con la versión del sistema operativo
+
 Las actualizaciones de características de Windows 10 para dispositivos que ejecutan salas de Microsoft Teams no se ofrecen por seis meses desde el momento en que Windows realiza una actualización de versión. Esto se logra colocando un bloque especial para los dispositivos de salas de Microsoft Teams en el canal de Windows Update para empresas (es decir, canal semianual) y a través de la configuración de la aplicación. Durante este período bloqueado, Microsoft realiza diversas pruebas de forma interna y a través de nuestros socios OEM de dispositivos para asegurarse de que la nueva versión de Windows 10 funcione en consonancia con la aplicación de salas de Microsoft Teams y los periféricos conectados a ella. Esto es importante para garantizar la seguridad del dispositivo, la experiencia coherente del usuario y garantizar la calidad de las experiencias que se ofrecen a través de la aplicación salones de Microsoft Teams. 
 
 Desde que se eleva el bloque Time (es decir, se ofrece la actualización de características de Window 10 en estos dispositivos), Microsoft Teams Rooms es compatible con la versión específica de características de Windows 10 por período de 12 meses en línea con la Directiva de soporte técnico de aplicaciones. Debido a que las actualizaciones de características de Windows 10 se ofrecen aproximadamente cada seis meses, esto también significa que Microsoft Teams tiene dos versiones más para comprobar por el momento de finalizar la compatibilidad con la versión actual. Esto también significa que una versión de Windows 10 se desbloquea cada seis meses para todos los clientes de las salas de Microsoft Teams. La aplicación está cambiando y evolucionado continuamente con la última versión de Windows desbloqueada. Para asegurarse de que obtiene la corrección de la aplicación para un problema que se produce en el dispositivo de salas de Microsoft Teams, recomendamos a todos los clientes que actualicen estos dispositivos a la actualización de características de Windows 10 más reciente ofrecida para mantenerse dentro de la guía de la versión de Windows.
@@ -41,7 +42,7 @@ Desde que se eleva el bloque Time (es decir, se ofrece la actualización de cara
 Como tal, los dispositivos de salas de Microsoft Teams requieren Windows 10 versión 1709 como la versión mínima admitida a partir del 2019 de mayo. No se ofrecen nuevas versiones de la aplicación a los sistemas de las versiones 1703 o anteriores de Windows 10.
 
 > [!NOTE]
-> Cuando un dispositivo de salas de Microsoft Teams es compatible con la siguiente versión del sistema operativo Windows 10, el dispositivo se actualiza automáticamente a la siguiente versión a través de Windows Update. Los dispositivos de las salas de Microsoft Teams no se deben actualizar manualmente a la siguiente versión de Windows 10 o mediante la habilitación de directivas de grupo de Windows Update para empresas mediante "Seleccione el nivel de preparación de Windows para las actualizaciones que desea recibir" y "seleccione Cuándo Se reciben las opciones vista previa y actualizaciones de características a través de un GPO. La habilitación de estas directivas de grupo puede provocar problemas entre la actualización del sistema operativo Windows 10 y la aplicación salas de Microsoft Teams. 
+> Cuando un dispositivo de salas de Microsoft Teams es compatible con la siguiente versión del sistema operativo Windows 10, el dispositivo se actualiza automáticamente a la siguiente versión a través de Windows Update. Los dispositivos de las salas de Microsoft Teams no se deben actualizar manualmente a la siguiente versión de Windows 10 o mediante la habilitación de directivas de grupo de Windows Update para empresas mediante "Seleccione el nivel de preparación de Windows para las actualizaciones que desea recibir" y "seleccione Cuándo Se reciben las opciones vista previa y actualizaciones de características a través de un GPO. La habilitación de estas directivas de grupo puede provocar problemas entre la actualización del sistema operativo Windows 10 y la aplicación salas de Microsoft Teams.
  
 <a name="See"> </a> 
 ## <a name="see-also"></a>Vea también

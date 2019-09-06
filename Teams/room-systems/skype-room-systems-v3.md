@@ -2,7 +2,7 @@
 title: Información general de administración para salas de Microsoft Teams
 ms.author: jambirk
 author: jambirk
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 5/10/2018
 audience: ITPro
@@ -12,14 +12,14 @@ localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection: M365-voice
 description: Información general de administración para salas de Microsoft Teams.
-ms.openlocfilehash: db1569f86ba0066691b6797517351087307cf38a
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 28a48bb4aba417fba076e8c31492e8191e7164c9
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427879"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775100"
 ---
-# <a name="management-overview"></a>Introducción a la administración 
+# <a name="management-overview"></a>Introducción a la administración
 
 Es esencial que desarrolle y ejecute el mantenimiento y las operaciones constantes para asegurarse de que los sistemas de salas de Microsoft Teams estén disponibles para sus usuarios y ofrezcan una excelente experiencia de usuario. 
 
@@ -27,14 +27,12 @@ Es esencial que desarrolle y ejecute el mantenimiento y las operaciones constant
 
 La supervisión de los sistemas de salas de Microsoft Teams consta de dos actividades clave:
 
--  Supervisión de dispositivos, aplicaciones y dispositivos periféricos
-
--  Supervisión de la calidad y la confiabilidad (CQD)
+- Supervisión de dispositivos, aplicaciones y dispositivos periféricos
+- Supervisión de la calidad y la confiabilidad (CQD)
 
 ### <a name="microsoft-teams-rooms-device-application-and-peripheral-device-monitoring"></a>Salas de supervisión de dispositivos, aplicaciones y dispositivos periféricos de Microsoft Teams
 
 Para asegurarse de que los usuarios pueden usar las unidades de salas de Microsoft Teams, las unidades deben estar conectadas a la red con la aplicación salas de Microsoft Teams configurada correctamente y estar conectadas a dispositivos periféricos en funcionamiento. 
-
 
 La información sobre el estado de la aplicación salas de Microsoft Teams y los dispositivos periféricos conectados está escrita por la aplicación salas de Microsoft Teams en el registro de eventos de Windows y documentada en [comprender las entradas del registro](azure-monitor-manage.md#understand-the-log-entries). 
 
@@ -43,7 +41,7 @@ La información sobre el estado de la aplicación salas de Microsoft Teams y los
 |HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = (DWORD) 1  <br/> |Permite arrancar las salas de Microsoft Teams  <br/> |
 |Administración de energía\> : on AC, apagar la pantalla después de 10 minutos  <br/> Administración de energía\> : on AC, no poner el sistema en suspensión  <br/> |Permite que las salas de Microsoft Teams desactiven las pantallas adjuntas y se reactiven automáticamente.  <br/> |
 |net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
-   
+
 La transferencia de archivos mediante directivas de grupo se trata en [configurar un elemento de archivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Administración remota con PowerShell

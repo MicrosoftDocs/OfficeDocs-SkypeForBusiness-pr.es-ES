@@ -2,7 +2,7 @@
 title: Preparar el entorno
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: En este artículo se explican los preparativos de infraestructura para implementar salas de Microsoft Teams.
-ms.openlocfilehash: 5789f8138bf5ab9e12c77a8b2963ff32e7f33586
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 4f5242d2647810616f0ffaabc1cda938e24147da
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493092"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775065"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
@@ -28,22 +28,17 @@ Esta sección contiene una descripción general de los pasos necesarios para pre
 2. Asegúrese de que las conexiones de red y de Internet funcionen correctamente en el dispositivo que se va a utilizar.  
     
    - Debe poder recibir una dirección IP usando DHCP. (Las salas de Microsoft Teams no se pueden configurar con una dirección IP estática en el primer inicio de la unidad, pero después se puede configurar la IP estática en el dispositivo o en el conmutador o enrutador de nivel superior).
-    
    - Debe tener estos puertos abiertos (además de abrir los puertos normales de medios):
-    
    - HTTPS: 443
-    
    - HTTP: 80
-    
    - Si su red se ejecuta mediante un proxy, necesitará también la dirección del proxy o la información de script.
     
      > [!NOTE]
-     > Sala de Microsoft Teams no admite la incorporación de HDCP, ya que se ha visto que provoca problemas con la funcionalidad de transmisión por HDMI (vídeo, audio). Asegúrese de que los conmutadores conectados a Sala de Microsoft Teams tienen desactivadas las opciones de HDCP. 
+     > Sala de Microsoft Teams no admite la incorporación de HDCP, ya que se ha visto que provoca problemas con la funcionalidad de transmisión por HDMI (vídeo, audio). Asegúrese de que los conmutadores conectados a Sala de Microsoft Teams tienen desactivadas las opciones de HDCP.
   
-3. Para poder mejorar su experiencia, Microsoft recopila información. Para recopilar información, necesitamos que estos sitios figuren en la lista de permitidos:
-    
+3. Para poder mejorar su experiencia, Microsoft recopila información. Para permitir que Microsoft recopile datos, lista blanca estos sitios:
+
    - Extremo del cliente de telemetría:https://vortex.data.microsoft.com/
-    
    - Punto de conexión de configuración de telemetría:https://settings.data.microsoft.com/
     
 ### <a name="create-and-test-a-device-account"></a>Crear y probar una cuenta de dispositivo
@@ -90,17 +85,17 @@ Salas de Microsoft Teams se ha diseñado para heredar la configuración de proxy
  
 8. Abra la clave de Skype y vaya a configuración de HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet, a continuación, asegúrese de que se especifica esta configuración: 
     
-    [HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
+    `[HKEY_USERS\Skype\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]`
     
-    "MigrateProxy"=dword:00000001
+    `"MigrateProxy"=dword:00000001`
     
-    "ProxyEnable"=dword:00000001
+    `"ProxyEnable"=dword:00000001`
     
-    "ProxyServer"="xx.xx.xx.xx:8080"
+    `"ProxyServer"="xx.xx.xx.xx:8080"`
     
     Si ProxyServer no existe, es posible que deba agregar esta clave como una cadena, cambie xx.xx.xx.xx:8080 a la dirección IP/host y al puerto de su servidor Proxy.
     
-9. Una vez que haya terminado de realizar los cambios, resalte la clave de usuario de Skype (carpeta raíz de Skype) y elija descargar sección en el menú Archivo del registro (se le **** solicitará confirmación).
+9. Una vez que haya terminado de realizar los cambios, resalte la clave de usuario de Skype (carpeta raíz de Skype) y elija descargar sección en el menú Archivo del registro (se le solicitará **confirmación).**
     
 10. Ahora puede cerrar el editor del registro y escribir cerrar la sesión en el cuadro de búsqueda de Windows.
     
@@ -123,7 +118,7 @@ Para usar esta aplicación, debe poder conectarse a los puntos de conexión que 
 |Notificaciones de inserción de Lync Mobile para Lync Mobile 2010 en dispositivos iOS. No es necesario para dispositivos móviles Android, Nokia Symbian o Windows Phone.  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |\*. contoso.com  <br/> |No  <br/> |Sí  <br/> |[Intervalos IP de Skype empresarial](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#BKMK_SfB_IP) <br/> |TCP 5223  <br/> |
 |Telemetría de Skype  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |skypemaprdsitus.trafficmanager.net  <br/> pipe.skype.com  <br/> |No  <br/> |No  <br/> |N/D  <br/> |TCP 443  <br/> |
 |Sugerencias rápidas del cliente de Skype  <br/> |Equipo cliente o usuario conectado  <br/> |Puertos efímeros  <br/> |quicktips.skypeforbusiness.com  <br/> |No  <br/> |No  <br/> |N/D  <br/> |TCP 443  <br/> |
-   
+
 > [!NOTE]
 > El carácter comodín de contoso.com y broadcast.skype.com representa una larga lista de nodos que se utilizan en exclusividad para Office 365. 
   

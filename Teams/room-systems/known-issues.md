@@ -2,7 +2,7 @@
 title: Problemas conocidos
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se comentan los problemas conocidos de Sala de Microsoft Teams por área de características.
-ms.openlocfilehash: 6d924559f19aadec0d6d5634a000d7d10e1c2f58
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 3e3da371a294582fc6a56db7e59615fdbe97c48b
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428039"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775199"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  

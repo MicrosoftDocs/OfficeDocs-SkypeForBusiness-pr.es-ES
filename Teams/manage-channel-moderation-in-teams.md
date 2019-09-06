@@ -16,16 +16,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a configurar canales para moderación en Microsoft Teams, lo que incluye cómo agregar miembros del equipo como moderadores de canales.
-ms.openlocfilehash: 93fb0a6d8a88979d14031792ccf96a8861629b1d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d176c1d0076ea444fb46b69011bad94c0c2b3eb4
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244980"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775384"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Configurar y administrar la moderación de canales en Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 En Microsoft Teams, los propietarios del equipo pueden activar la moderación de un canal para controlar quién puede iniciar publicaciones nuevas y responder a las entradas de ese canal.
 
@@ -59,13 +57,15 @@ En este escenario, el profesor permite a los asistentes de la enseñanza moderar
 
 En Teams, vaya al canal, haga clic en **más opciones...**  >  **Administrar canal**. Desde aquí puede activar y desactivar la moderación, agregar miembros del equipo como moderadores y establecer preferencias.
 
+La moderación de canales es una configuración por canal. No hay ninguna configuración de nivel de inquilino para la moderación de canales. Si deseamos que nos agreguemos una configuración de moderación de canales a nivel de inquilino, solicite a la [UserVoice de Teams](https://microsoftteams.uservoice.com/).
+
 ![Manage-Channel-Moderation-in-Teams-Preferences. png](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>Activar o desactivar la moderación de un canal
 
-De forma predeterminada, la moderación está desactivada y puede restringir las publicaciones nuevas solo a los miembros del equipo o permitir que todos los usuarios, incluidos los invitados, inicien publicaciones nuevas.
+De forma predeterminada, la moderación está desactivada, lo que significa que la configuración de canal habitual se aplica a los propietarios del equipo y a los miembros del equipo. Por ejemplo, puede restringir las publicaciones nuevas solo a los miembros del equipo o permitir que todos los usuarios, incluidos los invitados, puedan iniciar publicaciones nuevas.
 
-Para activar la moderación para un canal, en moderación de **canales**, haga clic **en activar**. Cuando la moderación de canales está activada, solo los moderadores pueden iniciar publicaciones nuevas. 
+Para activar la moderación para un canal, en **moderación de canales**, haga clic **en activar**. Cuando la moderación de canales está activada, solo los moderadores pueden iniciar publicaciones nuevas. 
 
 ### <a name="add-or-remove-channel-moderators"></a>Agregar o quitar moderadores de canal
 

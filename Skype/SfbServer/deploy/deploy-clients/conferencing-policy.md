@@ -3,19 +3,19 @@ title: Directiva de conferencias para las cuentas del Sistema de salas de Skype
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lea este tema para obtener información acerca de cómo asignar directivas de conferencias para cuentas del Sistema de salas de Skype.
-ms.openlocfilehash: 5c34ad8a397cc18fe6d9b67be421bfd6ce1d4435
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 20115ee2ab361a0bc15bf2053feb3f70bbe6f7ef
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234489"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775373"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Directiva de conferencias para las cuentas del Sistema de salas de Skype
  

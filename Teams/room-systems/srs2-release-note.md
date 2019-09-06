@@ -2,7 +2,7 @@
 title: Notas de la versión
 ms.author: v-lanac
 author: lanachin
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 manager: serdars
 ms.date: 4/17/2018
 audience: ITPro
@@ -11,21 +11,20 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: e14785d7ad36485bc083e040470b00dd3286b377
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 985a261cab4ce9d7cf4bb6949183142a84f76dd0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427659"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775221"
 ---
-# <a name="release-notes"></a>Notas de la versión 
+# <a name="release-notes"></a>Notas de la versión
 
 En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
 
-
 ## <a name="version-history"></a>Historial de versiones
 
-|Prensa |Publicado en <br> Microsoft Store |
+|Prensa |Publicado en <br/> Microsoft Store |
 |--- |--- |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -55,18 +54,21 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
 
 Introdujo en esta actualización:
+
 - Una nueva característica de cámara de contenido que permite a los usuarios incluir de forma inteligente una pizarra tradicional en la reunión de sus equipos
 - Mejoras adicionales en la interfaz de usuario de la consola para reducir el desorden y mover la configuración a una nueva barra lateral a la que se accede mediante más en la consola
 - Botón compartir bandeja deshabilitado si el cable de contenido local no está conectado o si una cámara de contenido no está conectada
 - Se ha corregido un problema con el teclado táctil en el que apareció el error solo después de un reinicio del sistema MTR
-- Correcciones de calidad y confiabilidad.
+- Correcciones de calidad y confiabilidad
 
 ### <a name="401050-07102019"></a>4.0.105.0 (07/10/2019)
 
 Introdujo en esta actualización:
+
 - Aplicación de la tienda de sistemas de Skype Room a "salas de Microsoft Teams"
 - Interfaz de usuario de la consola de salas de Microsoft Teams realineada a Microsoft Teams
 - Actualización de tema: solo se muestra mantener la imagen de fondo personalizada en el anverso de la sala, mientras que el fondo de la consola tiene un color neutro para garantizar que los controles de la IU cumplan el contraste de color: requisitos de accesibilidad
@@ -127,7 +129,7 @@ Introdujo en esta actualización:
 ### <a name="40270-1012018"></a>4.0.27.0 (10/1/2018)
 
 Introdujo en esta actualización:
- 
+
 - Cambios de código necesarios para preparar la aplicación salas de Microsoft Teams para versiones posteriores de la actualización 1803 de Windows 10
 - Corregir el problema de formato con los CLUF localizados (específicamente, noruego) que evitan el avance más allá de la ventana de configuración de la versión OOBE de CLUF
 - Cambios de código necesarios para hacer que la aplicación salas de Microsoft Teams se ejecute en sistemas de salas de Lync heredados. Consulta más información [aquí](https://aka.ms/lrsupgrade).
@@ -203,11 +205,10 @@ Introdujo en esta actualización:
 Introduced in this update: 
 - Support for [Lenovo Hub 500](https://www3.lenovo.com/us/en/hub500) hardware only. -->
 
-
 ### <a name="30160-11272017"></a>3.0.16.0 (11/27/2017)
 
 Introdujo en esta actualización:
- 
+
 - Corrige un problema con la característica "enviar comentarios".
 
 ### <a name="30150-1032017"></a>3.0.15.0 (10/3/2017)
@@ -217,7 +218,6 @@ Introdujo en esta actualización:
 - Compatibilidad con el hardware Dock [serie MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Compatibilidad con [Logitech Brio](https://www.logitech.com/en-us/product/brio)
 - Resuelve un problema por el que muestra (consola y delante del salón) no puede entrar en el modo de suspensión cuando no hay actividad en el salón
-
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
 
@@ -248,7 +248,6 @@ Introdujo en esta actualización:
 - Capacidad para que el administrador de ti configure dispositivos de forma remota
  <!-- - Front-of-Room UX shows room details pre-meeting U2 -->
 
-
 ### <a name="2020-03152017"></a>2.0.2.0 (03/15/2017)
 
 Introdujo en esta actualización:
@@ -261,7 +260,7 @@ Introdujo en esta actualización:
 **Características:**
 
  **Creado para Skype Empresarial**
- 
+
 - Un solo toque para unirse a reuniones de Skype.
 - Experiencia de reunión de Skype optimizada para salas con video de alta definición con relleno de pantalla y audio de banda ancha de alta definición
 - Todos los participantes se pueden conectar a la reunión de Skype mediante el dispositivo que elijan desde el lugar en el que se encuentren.

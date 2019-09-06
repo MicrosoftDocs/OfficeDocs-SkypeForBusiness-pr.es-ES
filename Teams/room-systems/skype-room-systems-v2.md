@@ -3,7 +3,7 @@ title: Licencias de Salas de Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.reviewer: davgroom
+ms.reviewer: sohailta
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
@@ -22,14 +22,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga más información sobre las características disponibles en las salas de Microsoft Teams. '
-ms.openlocfilehash: 8112cdd11f5f5ca192da0780a6a316056e85063b
-ms.sourcegitcommit: c13bd343c3f3d14c7b8ff710ac5a4fec17ab88b7
+ms.openlocfilehash: d9908ce78b52e2f1f67040ac51f8ae035d79826c
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34859731"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775067"
 ---
-# <a name="teams-meeting-room-licensing-update"></a>Actualización de licencias de sala de reuniones de equipos 
+# <a name="teams-meeting-room-licensing-update"></a>Actualización de licencias de sala de reuniones de equipos
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>Soluciones de licencias para dispositivos de comunicación compartida
 
@@ -43,7 +43,7 @@ Microsoft tiene un SKU dedicado para las reuniones de licencias y las llamadas e
 |Audioconferencia|&#x2714; &Sup1;|
 |Microsoft Intune|&#x2714;|  
 |Disponibilidad en todo el mundo | &#x2714; &sup2;|
-|Disponibilidad del canal | EA, EAS, CSP, <br>Web Direct |
+|Disponibilidad del canal | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
 &Sup1; La disponibilidad y los minutos incluidos pueden variar según la región. Para comprobar la disponibilidad de los servicios, consulte [disponibilidad de países y regiones para las videoconferencias y los planes de llamadas](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Es posible que se apliquen cargos por consumo para servicios adicionales, como números gratuitos, minutos internacionales para planes nacionales, etc. Los clientes pueden deshabilitar estas características para evitar la facturación adicional.  

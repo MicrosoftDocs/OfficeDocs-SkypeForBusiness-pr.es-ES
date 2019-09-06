@@ -11,260 +11,250 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: Obtenga información sobre cómo usar el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: b89f766cfcbfbc9fe2c700162f3c0b4e69a7e6bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 09eb8bdae508ff9a5fe39fec67b0f440859efad0
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274558"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774710"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar el panel de calidad de llamadas para Skype empresarial Server
- 
+
 **Resumen:** Más información sobre cómo usar el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
-  
-El panel de calidad de llamadas permite a los profesionales de TI usar datos de agregados para identificar áreas en su entorno que estén experimentando problemas en la calidad de los medios. También les permite comparar estadísticas de diferentes grupos de usuarios, e identificar tendencias y patrones. No se centra en la solución de problemas con llamadas individuales, sino en la identificación de problemas y soluciones aplicables a muchos usuarios dentro de un entorno.
-  
+
+El panel de calidad de llamadas (CQD) permite a los profesionales de TI usar datos de agregado para identificar problemas al crear problemas de calidad de medios comparando las estadísticas de los grupos de usuarios para identificar tendencias y patrones. El CQD no se concentra en resolver problemas de llamadas individuales, sino en identificar problemas y soluciones que se aplican a muchos usuarios.
+
 ## <a name="call-quality-dashboard-user-guide"></a>Manual de usuario del panel de calidad de llamadas
 
-El panel de calidad de llamadas (CQD) es un portal web para crear y organizar rápidamente informes en función de los datos de la calidad de la experiencia (QoE). El CQD implementa un cubo SSAS para agregar los datos a la base de datos de métricas de la QoE, de manera que los usuarios puedan crear y modificar los informes, y llevar a cabo investigaciones en tiempo real. Además de poder usar Excel para conectarse directamente con el cubo, el portal está optimizado para varios flujos de trabajo relacionados con los datos de la QoE. Dichos datos incluyen el almacenamiento en caché de datos de informes para conseguir un acceso rápido, vínculos profundos a páginas de informes para compartir y publicar información, edición y creación mejoradas de informes, y metadatos editables para descripciones de informes. Además, el CQD expone API web que ofrecen a los usuarios un acceso por medio de la programación a los datos del cubo para usarlos en paneles personalizados.  
-  
+El CQD es un portal web para crear y organizar rápidamente informes basados en los datos de la calidad de la experiencia (QoE). El CQD implementa un cubo SSAS para agregar los datos de la base de datos QoE Metrics, y permite a los administradores crear y modificar informes o realizar investigaciones en tiempo real. Aunque es posible usar Excel para conectarse directamente al cubo, el portal está optimizado para varios flujos de trabajo que incluyen datos de calidad. Los datos incluyen:
+
+- Datos del informe almacenados en caché para agilizar el acceso
+- Vínculos profundos a páginas de informes para la publicación y el uso compartido de información
+- Edición y creación de informes simplificada, y metadatos editables para descripciones de informes.
+
+Además, el CQD expone las API Web que proporcionan a los usuarios acceso mediante programación a los datos del cubo para usarlos en paneles personalizados.
+
 ### <a name="feature-overview"></a>Información general sobre las características
 
-Cuando un usuario visita el panel de calidad de llamadas verá lo siguiente:
-  
+Cuando visite el panel de calidad de llamadas, verá la siguiente pantalla:
+
 ![Usar el CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
-  
-1. El "panel Resumen" es donde puede encontrarse el contexto para el "conjunto de informes" (a la derecha). 
-    
-2. Las propiedades del nivel de conjunto de informes (incluido el alto del eje Y) se pueden configurar haciendo clic en "Editar" en el panel de resumen.
-    
-3. La barra de ruta de navegación ayuda a los usuarios a identificar su ubicación actual dentro de la jerarquía del conjunto de informes.  
-    
-4. Los informes que contienen subinformes se muestran con un vínculo azul. Al hacer clic en él se verán los detalles de los informes secundarios.  
-    
-Al pasar el mouse sobre los gráficos de barras y las líneas de tendencia se mostrarán los valores detallados. El informe que tiene el foco mostrará el menú de acciones: "Editar", "clonar", "eliminar" y "Descargar". 
-  
+
+1. El "panel Resumen" es donde puede encontrarse el contexto para el "conjunto de informes" (a la derecha).
+2. Haga clic en "Editar" en el PaneReport de resumen para establecer las propiedades del nivel (incluyendo el alto del eje Y).
+3. La ruta de navegación le ayuda a identificar su ubicación actual dentro de la jerarquía del conjunto de informes.
+4. Los informes con subinformes se muestran con un vínculo azul. Haga clic en el vínculo para explorar en profundidad los informes secundarios.
+
+Mueva el mouse por los gráficos de barras y las líneas de tendencia para mostrar valores detallados. El informe que tiene el foco muestra el menú de acciones: "Editar", "clonar", "eliminar" y "Descargar".
+
 ### <a name="default-reports"></a>Informes predeterminados
 
-La primera vez que un usuario obtiene acceso al portal del panel de calidad de llamadas, se crea de forma automática un conjunto predeterminado de informes (que a veces reciben la denominación de "informes del sistema"). Los usuarios pueden modificar o eliminar libremente estos informes y normalmente los amplían creando nuevos informes del mismo nivel o informes secundarios.  
-  
-En el nivel superior, el informe "la tendencia mensual de las secuencias de audio" muestra la tendencia mensual para todas las transmisiones de audio. Si mueve el mouse sobre las barras de un gráfico de barras, se mostrará una vista más detallada de los datos representados por el gráfico de barras. Al hacer clic en el título del informe de tendencia mensual de secuencias de audio, se desplazará al informe "administrado vs unmanageed audio streams", donde los informes se dividen entre llamadas administradas y no administradas. Las llamadas administradas son llamadas realizadas desde dentro del Firewall corporativo a través de conexiones cableadas. Las llamadas no administradas incluyen llamadas realizadas desde fuera del Firewall corporativo, así como todas las llamadas realizadas a través de Wi-Fi.
-  
-El otro informe de nivel superior se denomina "histograma de la calidad de las llamadas notificadas por el usuario". Las valoraciones de la calidad de las llamadas son los números que proporcionan los usuarios de Skype Empresarial al final de una llamada para indicar su calidad. Los números van del 1 al 5, siendo 1 la peor valoración y 5 la mejor. El histograma muestra la cantidad de llamadas de audio que tuvieron la valoración indicada en el plazo de un mes. 
-  
-Por lo general, al hacer clic en el título de cualquiera de los informes se le redirigirá a los informes con filtros adicionales en los datos. En los informes del sistema, cada informe secundario muestra un subconjunto de los datos disponibles en su informe primario. De esta forma se proporciona un modelo conceptualmente sencillo para solucionar problemas, pues puede acotar el ámbito del problema investigando a qué subinforme están limitados los datos o la tendencia problemáticos. La capacidad de crear subinformes nuevos permite que los usuarios puedan investigar sus propias hipótesis sobre el origen de tendencias de datos específicas.
-  
-### <a name="creating-and-editing-reports"></a>Crear y editar informes
+La primera vez que acceda al portal del panel de calidad de llamadas, se creará automáticamente un conjunto de informes predeterminado. Estos informes a veces se conocen como informes del sistema. Puede modificar o eliminar estos informes de forma gratuita o extenderlos creando nuevos informes relacionados y secundarios.
 
-Al hacer clic en "Editar" en el menú de acciones de un informe, los usuarios verán el editor de informes. Cada informe está respaldado por una consulta dentro del cubo. Un informe es una visualización de los datos devueltos por su consulta. El editor de informes es una interfaz de usuario para editar dichas consultas, así como las opciones de visualización del informe. Cuando un usuario abre el editor de consultas ve lo siguiente:
-  
+En el nivel superior, el informe "la tendencia mensual de las secuencias de audio" muestra la tendencia mensual para todas las transmisiones de audio. Mueva el mouse sobre las barras de un gráfico de barras para mostrar una vista más detallada de los datos representados por el gráfico de barras. Haga clic en el título del informe de tendencia mensual de secuencias de audio para navegar al informe "administrado vs, secuencias de audio no administrados", donde los informes se dividen entre llamadas administradas y no administradas. Las llamadas administradas son llamadas realizadas desde dentro del Firewall corporativo a través de conexiones cableadas. Las llamadas no administradas incluyen llamadas realizadas desde fuera del Firewall corporativo y todas las llamadas hechas a través de Wi-Fi.
+
+El otro informe de nivel superior se denomina "histograma de la calidad de las llamadas notificadas por el usuario". Las clasificaciones de calidad de las llamadas son los números proporcionados por los usuarios de Skype empresarial al final de una llamada para indicar la calidad de la llamada. Los números de clasificación van de 1 a 5, 1 es el peor y el 5 es el mejor. El histograma muestra la cantidad de llamadas de audio que tuvieron la valoración indicada en el plazo de un mes.
+
+Haga clic en el título de cualquiera de los informes para navegar por los informes con más filtros en los datos. En los informes del sistema, cada informe secundario muestra un subconjunto de los datos disponibles en su informe primario. El modelo de solución de problemas es simple: investigue qué subinforme los datos o la tendencia que sugiere un problema se limitan a y reducen gradualmente el espacio de problemas. La capacidad de crear subinformes permite investigar sus propias averiguaciones sobre la causa de las tendencias de datos específicas.
+
+### <a name="create-and-edit-reports"></a>Crear y editar informes
+
+Haga clic en "Editar" en el menú de acciones de un informe para ver el editor de informes. Cada informe está respaldado por una consulta dentro del cubo. Un informe es una visualización de los datos devueltos por su consulta. El editor de informes le ayuda a editar estas consultas y las opciones de presentación del informe. Al abrir el editor de informes, verá:
+
 ![Usar el CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
-  
-1. Las dimensiones, las medidas y los filtros se eligen en el panel de la izquierda. Al mantener el puntero sobre uno de los valores existentes, se mostrará un botón "x" que permite quitar el valor. Al hacer clic en el botón "suma" junto a un título, se abrirá el cuadro de diálogo para agregar una nueva dimensión, medida o filtro. 
-    
+
+1. Las dimensiones, las medidas y los filtros se eligen en el panel de la izquierda. Pase el puntero sobre uno de los valores existentes para mostrar un botón "x" que permite quitar el valor. Haga clic en el botón "más" situado junto a un título para abrir el cuadro de diálogo en el que puede Agregar una nueva dimensión, medida o filtro.
 2. Las opciones para personalizar los gráficos se visualizan en la parte superior.
-    
-3. En el editor de informes hay una vista previa del informe.  
-    
-4. Se puede utilizar el cuadro de edición de la parte inferior para crear una descripción detallada de un informe.  
-    
+3. En el editor de informes hay una vista previa del informe. 
+4. Se puede crear una descripción de informe detallada con el cuadro de edición de la parte inferior.
+
 ### <a name="sparklines-in-tables"></a>Minigráficos en las tablas
 
-Si se agrega el mes de inicio como dimensión y los datos se representan como tendencia en formato de tabla, se pueden mostrar los gráficos de barras y los minigráficos dentro de las celdas de la tabla. Al pasar el puntero del mouse por encima del gráfico de barras y los minigráficos, se mostrarán los valores de los diferentes meses.  
-  
+Si se agrega el mes de inicio como dimensión y los datos se representan como tendencia en formato de tabla, se pueden mostrar los gráficos de barras y los minigráficos dentro de las celdas de la tabla. Mueva el puntero del mouse sobre el gráfico de barras y los minigráficos para mostrar los valores de cada mes.
+
 ![Usar el CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
-  
-Para que aparezcan los gráficos de barras y los minigráficos, se debe activar la casilla "Mostrar minigráficos" en la parte superior del editor de informes. De esta forma, se selecciona la opción tendencia y se mueve el mes hacia abajo para que sea la última dimensión, que también se puede realizar haciendo clic en el mes y usando las flechas arriba y abajo para desplazar StartDate. mes hacia arriba o hacia abajo. 
-  
+
+Para que aparezcan los gráficos de barras y los minigráficos, se debe activar la casilla "Mostrar minigráficos" en la parte superior del editor de informes. De esta forma, se selecciona la opción tendencia y se mueve el mes hacia abajo para que sea la última dimensión, que también se puede lograr haciendo clic en el mes y usando las flechas arriba y abajo para desplazar la tecla de función.
+
 ### <a name="settings"></a>Configuración
 
-En la esquina superior derecha del panel se encuentra el menú de configuración, que contiene vínculos a páginas útiles como Mantenimiento del sistema y las páginas Acerca de.
-  
+El menú configuración contiene vínculos a páginas útiles, como el estado del sistema y las páginas, y se encuentra en la esquina superior derecha del panel.
+
 ![Usar el CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
-  
-Si desea o no mostrar descripciones y marcas de tiempo a usuarios individuales, esta configuración solo afecta a la versión del panel de la persona, no modifica el conjunto de informes ni lo que ven otros usuarios. Borrar la caché hace que todas las consultas vuelvan a cargar sus datos desde el cubo, mientras que al restaurar valores predeterminados, se eliminan todos los informes creados o modificados por el usuario y se vuelve a crear el conjunto de informes del sistema: lo que vería un usuario al iniciar sesión por primera vez.
-  
-El Vínculo del panel de usuarios muestra una página en la que los usuarios pueden ver otros usuarios del CQD y examinar sus informes. Si desea compartir un conjunto de informes, copie el vínculo en la barra de direcciones URL y compártalo con otro usuario del CQD. Este vínculo será el mismo que el que otros usuarios verían en la página de vínculo del panel de usuarios debajo del nombre de usuario.
-  
+
+Si desea mostrar descripciones y marcas de tiempo para los usuarios individuales, esta configuración solo afecta a la versión del panel de la persona y no modifica el conjunto de informes ni lo que ven otros usuarios. Borrar la caché hace que todas las consultas vuelvan a cargar los datos del cubo, mientras que al restaurar valores predeterminados, se eliminan todos los informes creados o modificados por el usuario y se vuelve a crear el conjunto de informes del sistema: lo que vería un usuario al iniciar sesión por primera vez.
+
+El Vínculo del panel de usuarios muestra una página en la que los usuarios pueden ver otros usuarios del CQD y examinar sus informes. Para compartir un conjunto de informes, copie el vínculo en la barra de direcciones URL y compártalo con otro usuario de CQD. Este vínculo es el mismo vínculo que otros usuarios verían en la página del vínculo del panel de usuarios debajo del nombre de usuario.
+
 ### <a name="supplying-subnet-information"></a>Suministrar información de subred
 
-Se pueden mostrar más detalles si se indica información específica del sitio en la base de datos de archivo para proporcionar información sobre la asignación de subredes y edificios (por ejemplo, calidad de las llamadas por cable/inalámbricas por edificio).  
-  
-Se deben rellenar al menos las siguientes tablas para crear estos informes:
-  
+Se puede revelar información adicional si se introduce información específica del sitio en la base de datos de archivado para proporcionar información de asignación de subred a la creación (por ejemplo, calidad de llamadas inalámbricas/cableadas por construcción).
+
+Para crear estos informes, completa como mínimo las siguientes tablas:
+
 - CqdBuilding
-    
 - CqdNetwork
-    
-En las tablas CqdBuildingType y CqdBuildingOwnershipType se puede proporcionar información adicional para permitir más opciones de filtro y exploración.  
-  
-El esquema para dichas tablas se define del siguiente modo:
-  
+
+En las tablas CqdBuildingType y CqdBuildingOwnershipType se puede proporcionar información adicional para permitir más opciones de filtro y exploración. 
+
+Los datos que se usan para estas tablas se definen de la siguiente manera:
+
 **CqdBuilding**
 
-|**Columna**|**Tipo de datos**|**¿Permite valores nulos?**|**Detalles**|
+|Columna|Tipo de datos|¿Permite valores nulos?|Detalles|
 |:-----|:-----|:-----|:-----|
-|BuildingKey  <br/> |int  <br/> |No  <br/> |Clave principal para la tabla CqdBuilding.  <br/> |
-|BuildingName  <br/> |varchar(80)  <br/> |No  <br/> |Nombre del edificio.  <br/> |
-|BuildingShortName  <br/> |varchar(10)  <br/> |No  <br/> |Versión abreviada del nombre del edificio.  <br/> |
-|OwnershipTypeId  <br/> |int  <br/> |No  <br/> |Clave externa; necesita coincidir con una de las entradas de la tabla CqdBuildingOwners.  <br/> |
-|BuildingTypeId  <br/> |int  <br/> |No  <br/> |Clave externa; necesita coincidir con una de las entradas de la tabla CqdBuildingType.  <br/> |
-|Latitutde  <br/> |float  <br/> |Sí  <br/> |Latitud del edificio.  <br/> |
-|Longitude  <br/> |float  <br/> |Sí  <br/> |Longitud del edificio.  <br/> |
-|CityName  <br/> |varchar(30)  <br/> |Sí  <br/> |Nombre de la ciudad en la que se encuentra el edificio.  <br/> |
-|ZipCode  <br/> |varchar(25)  <br/> |Sí  <br/> |Código postal en el que se encuentra el edificio.  <br/> |
-|CountryShortCode  <br/> |varchar(2)  <br/> |Sí  <br/> |Códigos ISO 3166-1 alfa-2 para el país en el que se encuentra el edificio.  <br/> |
-|StateProvinceCode  <br/> |varchar(3)  <br/> |Sí  <br/> |Abreviación de 3 letras del estado o provincia del edificio.  <br/> |
-|InsideCorp  <br/> |bit  <br/> |Sí  <br/> |Bit que indica si el edificio forma parte de la red corporativa.  <br/> |
-|BuildingOfficeType  <br/> |nvarchar(150)  <br/> |Sí  <br/> |Descripción del tipo de oficina del edificio.  <br/> |
-|Region  <br/> |varchar(25)  <br/> |Sí  <br/> |Región en la que se encuentra el edificio.  <br/> |
-   
+|BuildingKey |int |No |Clave principal para la tabla CqdBuilding. |
+|BuildingName |varchar(80) |No |Nombre del edificio. |
+|BuildingShortName |varchar(10) |No |Versión abreviada del nombre del edificio. |
+|OwnershipTypeId |int |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingOwners. |
+|BuildingTypeId |int |No |Clave externa, coincide con una de las entradas de la tabla CqdBuildingType. |
+|Latitud |float |Sí |Latitud del edificio. |
+|Longitude |float |Sí |Longitud del edificio. |
+|CityName |varchar(30) |Sí |Nombre de la ciudad en la que se encuentra el edificio. |
+|ZipCode |varchar(25) |Sí |Código postal en el que se encuentra el edificio. |
+|CountryShortCode |varchar(2) |Sí |Códigos ISO 3166-1 alfa-2 para el país en el que se encuentra el edificio. |
+|StateProvinceCode |varchar(3) |Sí |Abreviatura de tres letras del estado o provincia donde se encuentra el edificio. |
+|InsideCorp |bit |Sí |Bit indica si la compilación forma parte de la red corporativa. |
+|BuildingOfficeType |nvarchar(150) |Sí |Descripción del tipo de oficina del edificio. |
+|Region |varchar(25) |Sí |Región en la que se encuentra el edificio. |
+|||||
+
 **CqdNetwork**
 
-|**Columna**|**Tipo de datos**|**¿Permite valores nulos?**|**Detalles**|
+|Columna|Tipo de datos|¿Permite valores nulos?|Detalles|
 |:-----|:-----|:-----|:-----|
-|Network  <br/> |varchar(25)  <br/> |No  <br/> |Dirección de subred.  <br/> |
-|NetworkRange  <br/> |tinyint  <br/> |Sí  <br/> |Máscara de la subred.  <br/> |
-|NetworkNameID  <br/> |int  <br/> |Sí  <br/> |Se asigna de forma opcional a una fila de la tabla CqdNetworkName.  <br/> |
-|BuildingKey  <br/> |int  <br/> |Sí  <br/> |Clave externa; necesita coincidir con una de las entradas de la tabla CqdBuilding.  <br/> |
-|UpdatedDate  <br/> |datetime  <br/> |No  <br/> |Fecha y hora de la última actualización de la entrada.  <br/> |
-   
+|Network |varchar(25) |No |Dirección de subred. |
+|NetworkRange |tinyint |Sí |Máscara de la subred. |
+|NetworkNameID |int |Sí |Se asigna de forma opcional a una fila de la tabla CqdNetworkName. |
+|BuildingKey |int |Sí |Clave externa, coincide con una de las entradas de la tabla CqdBuilding. |
+|UpdatedDate |datetime |No |Fecha y hora de la última actualización de la entrada. |
+||||||
+
 De forma predeterminada, la siguiente tabla tiene una entrada (0, ' unknown ').
-  
+
 **CqdBuildingType**
 
-|**Columna**|**Tipo de datos**|**¿Permite valores nulos?**|**Detalles**|
+|Columna|Tipo de datos|¿Permite valores nulos?|Detalles|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId  <br/> |int  <br/> |No  <br/> |Clave principal para la tabla CqdBuildingType.  <br/> |
-|BuildingTypeDesc  <br/> |char(18)  <br/> |No  <br/> |Descripción del tipo de edificio.  <br/> |
-   
+|BuildingTypeId |int |No |Clave principal para la tabla CqdBuildingType. |
+|BuildingTypeDesc |char(18) |No |Descripción del tipo de edificio. |
+|||||
+
 De forma predeterminada, la siguiente tabla tiene una entrada (0, ' unknown ', 0, null).
-  
+
 **CqdBuildingOwnershipType**
 
-|**Columna**|**Tipo de datos**|**¿Permite valores nulos?**|**Detalles**|
+|Columna|Tipo de datos|¿Permite valores nulos?|Detalles|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId  <br/> |int  <br/> |No  <br/> |Clave principal para la tabla CqdBuildingOwnershipType.  <br/> |
-|OwnershipTypeDesc  <br/> |varchar(25)  <br/> |No  <br/> |Descripción del tipo de propiedad.  <br/> |
-|LeaseInd  <br/> |tinyint  <br/> |Sí  <br/> |Índice que hace referencia a otra fila de la tabla CqdBuildingOwnershipType, que se usa para identificar edificios alquilados.  <br/> |
-|Owner  <br/> |varchar(50)  <br/> |Sí  <br/> |Propietario del edificio.  <br/> |
-   
+|OwnershipTypeId |int |No |Clave principal para la tabla CqdBuildingOwnershipType. |
+|OwnershipTypeDesc |varchar(25) |No |Descripción del tipo de propiedad. |
+|LeaseInd |tinyint |Sí |Índice que hace referencia a otra fila de la tabla CqdBuildingOwnershipType, que se usa para identificar edificios alquilados. |
+|Owner |varchar(50) |Sí |Propietario del edificio. |
+|||||
+
 De forma predeterminada, la siguiente tabla tiene una entrada (0, ' unknown ', 0, null).
-  
+
 **CqdBssid**
 
-|**Columna**|**Tipo de datos**|**¿Permite valores nulos?**|**Detalles**|
+|Columna|Tipo de datos|¿Permite valores nulos?|Detalles|
 |:-----|:-----|:-----|:-----|
-|bss  <br/> |nvarchar(50)  <br/> |No  <br/> |Clave principal para la tabla CqdBssid. Es el BSSID del punto de acceso Wi-Fi.  <br/> |
-|ess  <br/> |nvarchar(50)  <br/> |Sí  <br/> |Información del controlador del punto de acceso Wi-Fi.  <br/> |
-|phy  <br/> |nvarchar(50)  <br/> |Sí  <br/> |Información de phy.  <br/> |
-|ap  <br/> |nvarchar(50)  <br/> |Sí  <br/> |Nombre del punto de acceso Wi-Fi.  <br/> |
-|Building  <br/> |nvarchar(500)  <br/> |Sí  <br/> |El nombre del edificio en el que se encuentra el punto de acceso Wi-Fi.  <br/> |
-   
+|bss |nvarchar(50) |No |Clave principal para la tabla CqdBssid. Es el BSSID del punto de acceso WiFi. |
+|ess |nvarchar(50) |Sí |Información del controlador del punto de acceso Wi-Fi. |
+|phy |nvarchar(50) |Sí |Información de phy. |
+|ap |nvarchar(50) |Sí |Nombre del punto de acceso Wi-Fi. |
+|Building |nvarchar(500) |Sí |El nombre del edificio en el que se encuentra el punto de acceso WiFi. |
+||||
+
 ## <a name="cqd-streams"></a>Secuencias del CQD
 
-Las secuencias del CQD se identifican como buenas, deficientes o sin clasificar. CQM 1.5 ahora usa la siguiente definición de CQD:  
-  
-- Una secuencia de deficiente es cualquier combinación de métricas de llamada deficientes que superan el umbral.
-    
+Una secuencia de CQD se considera buena, mala o no clasificada. CQM 1.5 ahora usa la siguiente definición de CQD:
+
+- Un flujo deficiente es cualquier combinación de las métricas de llamadas deficientes más allá del umbral.
 - Cuando una secuencia de una llamada es mala, ambas secuencias de la llamada se marcan como deficientes. En las conferencias, cada participante se cuenta como una llamada única y se registra de forma independiente de todos los demás.
-    
-- Las secuencias sin clasificar son aquellas que no tienen métricas de calidad (como las transacciones sintéticas o las llamadas de corta duración).
-    
+- Las transmisiones sin clasificar son secuencias sin métricas de calidad (es decir, transacciones sintéticas o llamadas cortas).
 - Secuencias válidas = clientes no móviles
-    
 - No se puede modificar el clasificador
-    
+
 **Definición de llamada deficiente/clasificador**
 
-|**Métrica**|**Umbral**|
+|Métrica|Umbral|
 |:-----|:-----|
-|DDegradationAvg  <br/> |Mayor que 1,0 (-1 red MOS)  <br/> |
-|RoundTrip  <br/> |Mayor que 500   <br/> |
-|PacketLossRate  <br/> |Mayor que 0,1 (10%)   <br/> |
-|JitterInterArrival  <br/> |Mayor que 30   <br/> |
-|RRatioConcealedSamplesAvg  <br/> |Mayor que 0,07   <br/> |
-   
-Definición de JPDR = definición de llamada deficiente menos RatioConcealedSamplesAvg  
-  
+|DegradationAvg |Mayor que 1,0 (-1 red MOS) |
+|RoundTrip |Mayor que 500  |
+|PacketLossRate |Mayor que 0,1 (10%) |
+|JitterInterArrival |Mayor que 30  |
+|RatioConcealedSamplesAvg |Mayor que 0,07 |
+|||
+
+Definición de JPDR = definición de llamada deficiente menos RatioConcealedSamplesAvg 
+
 ## <a name="where-is-callercallee"></a>¿Dónde está el autor/destinatario de la llamada?
 
-El CQD no usa los campos llamador y destinatario. Se les ha cambiado el nombre a "First" y "Second" porque hay pasos que intervienen entre quien llama y quien llama.
-  
- **Primero**: siempre será el extremo del servidor (p. ej., AV MCU; servidor de mediación) si hay un servidor implicado en la secuencia.
-  
+El CQD no usa los campos llamador y destinatario, en su lugar, usa "primero" y "segundo" porque hay pasos que intervienen entre quien llama y quien llama.
+
+ **Primer** Siempre será el extremo del servidor (por ejemplo, el MCU AV o el servidor de mediación) si un servidor está involucrado en la transmisión.
+
  **Segundo**: siempre será el extremo del cliente, a no ser que se trate de una secuencia servidor-servidor. 
-  
+
 **Ejemplo de clasificación de Primero y Segundo**
 
-|**Extremo 1 UAType **|**Extremo 2 UUAType **|**Primero**: siempre será el extremo del servidor (p.|**Segundo**|
+|Extremo 1 UAType |Extremo 2 UUAType |Primero|Segundo|
 |:-----|:-----|:-----|:-----|
-|2 (AVMCU)   <br/> |4 (Skype Empresarial)   <br/> |Extremo 1  <br/> |Extremo 2  <br/> |
-|2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Extremo 2  <br/> |Extremo 1  <br/> |
-|4 (Skype Empresarial)  <br/> |4 (Skype Empresarial)   <br/> |El autor de la llamada en MediaLine   <br/> |El destinatario de la llamada en MMediaLine  <br/> |
-   
-Si los dos extremos son del mismo tipo, el CQD registrará la entrada del autor de la llamada como Primero y el destinatario como Segundo. Para obtener más información, consulta [este blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) .
-  
+|2 (AVMCU)  |4 (Skype Empresarial)  |Extremo 1 |Extremo 2 |
+|2 (AVMCU)  |1 (mMediationServer)  |Extremo 2 |Extremo 1 |
+|4 (Skype Empresarial) |4 (Skype Empresarial)  |El autor de la llamada en MediaLine  |El destinatario de la llamada en MMediaLine  |
+|||||
+
+Si ambos puntos de conexión son del mismo tipo, el CQD realiza la entrada de la llamada en primer lugar y el destinatario de la llamada en segundo lugar. Para obtener más información sobre los nombres de extremos, consulte [este blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx).
+
 ## <a name="accounting-for-vpn"></a>Preparación para VPN
 
-Si se sabe que la solución VPN está configurada correctamente, está todo listo. De lo contrario, utilice uno de los métodos siguientes:
-  
+Si se sabe que la solución VPN está configurada correctamente, está todo listo. En caso contrario, use uno de los métodos siguientes:
+
 - Cree un tipo de red llamado VPN (recomendado) y asocie las subredes VPN con el nuevo tipo de red "VPN".
-    
-- Cree un edificio llamado VPN y asocie las subredes VPN con este edificio.  
-    
+- Cree un edificio llamado VPN y asocie las subredes VPN con este edificio. 
+
 ## <a name="query-fundamentals"></a>Aspectos básicos de las consultas
 
-Una consulta con el formato correcto contiene estos tres parámetros:  
-  
+Una consulta con el formato correcto contiene estos tres parámetros: 
+
 - Medida
-    
 - Dimensión
-    
 - Filtro
-    
+
 Un ejemplo de una consulta con el formato correcto sería "Mostrarme secuencias deficientes [Medida] por subred [dimensión] para el edificio 6 [filtro]."
-  
+
 ## <a name="what-does-union-do"></a>¿Qué hace UNION?
 
-Union le permite filtrar condiciones usando el operador AND. Hay situaciones en las que necesita combinar varias condiciones de filtro para lograr un resultado similar a OR.
-  
-Ejemplo: si necesita obtener todas las secuencias de un edificio, UNION le proporciona una vista específica del conjunto de datos combinado. Para usar UNION, inserte texto común en el campo UNION en las dos condiciones de filtro que quiera unir.  
-  
+Union le permite filtrar condiciones con el operador AND. Hay escenarios en los que puede combinar varias condiciones de filtro para lograr un resultado similar a una operación OR.
+
+Ejemplo: para obtener todas las transmisiones de un edificio, UNION proporciona una vista distintiva del conjunto de los datasets combinados. Para usar UNION, inserte texto común en el campo UNION en las dos condiciones de filtro que quiera unir.
+
 ## <a name="default-report-breakdown"></a>Desglose de informe predeterminado
 
-Si la red inalámbrica se administra internamente, puede volver a crear los informes de red inalámbrica en el cubo Administradas.  
-  
+Si la red inalámbrica se administra internamente, puede volver a crear los informes de red inalámbrica en el cubo Administradas. 
+
 ![Desglose del informe de CQD](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
-  
+
 ## <a name="operational-processes"></a>Procesos operativos
 
-Para comenzar, revise y solucione las secuencias administradas. La calidad en esta sección debe estar totalmente bajo su control, por lo que es más sencillo solucionar problemas en este punto.  
-  
+Revise y solucione las secuencias administradas en primer lugar. La calidad en esta sección debe estar totalmente bajo su control, por lo que es más sencillo solucionar problemas en este punto.
+
 ### <a name="managed-streams"></a>Secuencias administradas 
 
-Revise y solucione las secuencias administradas en el siguiente orden:  
-  
-1. Servidor-servidor  
-    
-2.   Servidor-cable-interior
-    
-3. Cable-cable-interior  
-    
+Revise y solucione las secuencias administradas en el siguiente orden: 
+
+1. Servidor-servidor 
+2.  Servidor-cable-interior
+3. Cable-cable-interior 
+
 ### <a name="unmanaged-streams"></a>Secuencias no administradas
 
-Revise y solucione las secuencias no administradas en el siguiente orden:  
-  
-1. Servidor-Wi-Fi-interior
-    
-2. Servidor-cable-exterior
-    
-3. Servidor-Wi-Fi-exterior
-    
-4. Cable-externa-directa
-    
-5. Cable-externa-relé
-    
-6. Otras no gestionadas
-    
+Revise y solucione las secuencias no administradas en el siguiente orden: 
 
+1. Servidor-Wi-Fi-interior
+2. Servidor-cable-exterior
+3. Servidor-Wi-Fi-exterior
+4. Cable-externa-directa
+5. Cable-externa-relé
+6. Otras no gestionadas

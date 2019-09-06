@@ -3,7 +3,7 @@ title: Disponibilidad en Brasil
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: 7cd45341-1289-4592-a511-f07556ff9139
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Brasil.
-ms.openlocfilehash: 7d9f4509cb81df78ef780fffdb3145e7ec825f3a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 670b81d973fc47831574a90ec0ab05855cc2685f
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34332159"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36774603"
 ---
 # <a name="availability-in-brazil"></a>Disponibilidad en Brasil
 
@@ -67,7 +67,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | <ul><li>Río de Janeiro <li>  São Paulo </ul> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | <ul><li>Río de Janeiro <li>  São Paulo <li>Otras ciudades [por solicitud](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    

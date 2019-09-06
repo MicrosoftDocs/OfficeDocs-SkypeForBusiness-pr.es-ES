@@ -3,7 +3,7 @@ title: Disponibilidad en Rusia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
 ms.assetid: a1534ecf-fae6-4472-9f3f-c205f547af17
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Rusia.
-ms.openlocfilehash: bdf48a912b1afc2a4c273dfb35334fff10d5f564
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 0e283296f2675dc50230a156f92e123a0975c4d5
+ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331335"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "36775482"
 ---
 # <a name="availability-in-russia"></a>Disponibilidad en Rusia
 
@@ -67,7 +67,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |Moscú  <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |<ul><li>Moscú <li>San Petersburgo ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))</ul>|
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
