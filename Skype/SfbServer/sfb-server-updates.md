@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones para Skype empresarial Server 2015/2019 y Lync 2013 en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y después descárguelas.
-ms.openlocfilehash: 860b71070fea50072ebd8db2f1eded204396261d
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 25869f25f02c51d952d7eba1c162852d3868d71d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36766965"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790817"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
@@ -30,6 +30,16 @@ Para obtener las actualizaciones más recientes de Skype empresarial online y Of
 |:--- |:--- |:--- |
 |Actualización acumulativa 1 de Skype empresarial Server 2019|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 de julio |
 | | | |
+
+### <a name="skype-for-business-server-2019-tools"></a>Herramientas de Skype empresarial Server 2019
+
+|Nombre de paquete/vínculo|Fecha de lanzamiento|
+|:--- |:--- |
+|[SDK DE UCMA 6,0](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019 de junio       |
+|[API administrada de comunicaciones unificadas de 5,0 en tiempo de ejecución](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | Junio de 2018        |
+|[Skype empresarial Server 2019, módulo de administración](https://www.microsoft.com/en-in/download/details.aspx?id=57511)    | Junio de 2018        |
+|||
+
 
 ## <a name="skype-for-business-server-2015-update-history"></a>Historial de actualizaciones de Skype Empresarial Server 2015
 
@@ -54,7 +64,14 @@ Para obtener las actualizaciones más recientes de Skype empresarial online y Of
 |Actualización acumulativa de Skype Empresarial Server 2015, Servidor front-end y servidor perimetral|[KB 3061059](https://support.microsoft.com/kb/3061059) |Junio de 2015 |
 ||||
 
-* * *
+### <a name="skype-for-business-server-2015-tools"></a>Herramientas de Skype empresarial Server 2015
+
+|Nombre de paquete/vínculo|Fecha de lanzamiento|
+|:--- |:--- |
+|[SDK DE UCMA 5,0](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  Mayo de 2015       |
+|[API administrada de comunicaciones unificadas de 5,0 en tiempo de ejecución](https://www.microsoft.com/en-us/download/details.aspx?id=47344)     |   Mayo de 2015      |
+|[Skype empresarial Server 2015, módulo de administración](https://www.microsoft.com/en-in/download/details.aspx?id=47364)     |  2019 de junio       |
+|||
 
 ## <a name="lync-server-2013-update-history"></a>Historial de actualizaciones de Lync Server 2013
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: a307a5ed40c52579020f4cd0eef6646afdb15649
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253959"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790866"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
@@ -56,12 +56,12 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
 1. Puerto u obtenga un número de servicio de pago o gratuito. El número no se puede asignar a otros servicios de voz o cuentas de recursos.
 
-   Antes de asignar un número de teléfono a una cuenta de recursos, tendrá que obtener o migrar los números de servicio de pago o gratuitos existentes. Una vez que obtenga los números de teléfono de servicio de pago o gratuitos, se mostrarán en**** > **los números de teléfono**de telefonía del **Centro** > de administración de Microsoft Teams, y el **tipo de número** que aparezca en la lista aparecerá como **servicio-** gratuito. Para obtener los números de servicio, consulte [obtener números de teléfono de servicio](/MicrosoftTeams/getting-service-phone-numbers) o, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
+   Antes de asignar un número de teléfono a una cuenta de recursos, tendrá que obtener o migrar los números de servicio de pago o gratuitos existentes. Una vez que obtenga los números de teléfono de servicio de pago o gratuitos, se mostrarán en**los números de teléfono****de telefonía del** > centro > de **Administración de Microsoft Teams**, y el **tipo de número** que aparezca en la lista aparecerá como **servicio-** gratuito. Para obtener los números de servicio, consulte [obtener números de teléfono de servicio](/MicrosoftTeams/getting-service-phone-numbers) o, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
 
    Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. Vaya a [administrar los números de teléfono de su organización](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) en lugar de ver cómo hacerlo desde fuera de los Estados Unidos.
 
 2. Compre una licencia de sistema telefónico. Vea:  
-   - [Sistema telefónico: licencia de usuario virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user.md)
+   - [Sistema telefónico: licencia de usuario virtual](/MicrosoftTeams/teams-add-on-licensing/virtual-user)
    - [Office 365 Enterprise E1 y E3](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e1-e3)
    - [Office 365 Enterprise E5](/MicrosoftTeams/teams-add-on-licensing/office-365-enterprise-e5-with-audio-conferencing)
    - [Software de empresa Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software)
@@ -103,7 +103,7 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
 La cuenta de recurso necesitará un número de teléfono asignado si se va a asignar a un operador automático de nivel superior o a una cola de llamadas. Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos; solo se pueden usar números de teléfono de servicio de pago o gratuitos.
 
-  Puede asignar un número híbrido de enrutamiento directo a su cuenta de recursos.  Consulte [plan Direct Routing](/MicrosoftTeams/direct-routing-plan.md) para obtener más información.
+  Puede asignar un número híbrido de enrutamiento directo a su cuenta de recursos.  Consulte [plan Direct Routing](/MicrosoftTeams/direct-routing-plan) para obtener más información.
 
   > [!NOTE]
   > Los números del servicio de enrutamiento directo asignados a las cuentas de recursos para el operador automático y las colas de llamadas solo se admiten para los usuarios y agentes de Microsoft Teams.
@@ -115,7 +115,7 @@ La cuenta de recurso necesitará un número de teléfono asignado si se va a asi
 
 8. Asocie la cuenta de recurso con el operador automático de sistema telefónico o la cola de llamadas que eligió anteriormente.
 
-Un ejemplo de implementación de una pequeña empresa está disponible en [Small Business ejemplo: configurar un operador automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+Un ejemplo de implementación de una pequeña empresa está disponible en [Small Business ejemplo: configurar un operador automático](/microsoftteams/tutorial-org-aa) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Crear una cuenta de recurso sin un número de teléfono
 
@@ -146,11 +146,14 @@ Inicie sesión en el servidor front-end de Skype empresarial y ejecute los sigui
    - [Crear una cola de llamadas en la nube](/MicrosoftTeams/create-a-phone-system-call-queue)  
 4. Asocie la cuenta de recurso y el operador automático o la cola de llamadas del sistema telefónico que eligió anteriormente.
 
-Un ejemplo de implementación de una pequeña empresa está disponible en [Small Business ejemplo: configurar un operador automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq.yml).
+Un ejemplo de implementación de una pequeña empresa está disponible en [Small Business ejemplo: configurar un operador automático](/microsoftteams/tutorial-org-aa) y una [pequeña empresa-configurar una cola de llamadas](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq).
 
 ## <a name="test-the-implementation"></a>Probar la implementación
 
-La mejor manera de probar la implementación es llamar al número configurado para un operador automático de sistema telefónico o una cola de llamadas y conectarse a uno de los agentes o menús. También puede realizar rápidamente una llamada de prueba mediante el **botón probar** del panel de acciones del centro de administración. Si desea realizar cambios en un operador automático de sistema telefónico o cola de llamadas, selecciónelo y, a continuación, en el panel de acciones, haga clic en **Editar**.
+La mejor manera de probar la implementación es llamar al número configurado para un operador automático de sistema telefónico o una cola de llamadas y conectarse a uno de los agentes o menús. También puede realizar rápidamente una llamada de prueba mediante el **botón probar** del panel de acciones del centro de administración. Si desea realizar cambios en un operador automático de sistema telefónico o cola de llamadas, selecciónelo y, a continuación, en el panel de acciones, haga clic en **Editar**. 
+
+> [!TIP]
+> Si su cuenta de recurso tiene dificultades para asignarse a una cola de llamadas o a un operador automático, consulte [problemas conocidos de Microsoft Teams](/MicrosoftTeams/Known-issues#phone-system) y la sección [cómo solucionar mis instancias de aplicaciones híbridas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521) en el blog de Microsoft Teams.
 
 ## <a name="moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system"></a>Mover una cola de llamadas o un operador automático de mensajería unificada de Exchange al sistema telefónico
 
@@ -180,7 +183,7 @@ La migración de la mensajería unificada de Exchange al sistema telefónico nec
 
 4. Configure un operador automático o cola de llamadas del sistema telefónico que use los puntos de conexión como se ha descrito anteriormente.
 
-   Es posible que le resulte útil usar los ejercicios del tutorial titulado [Small Business example-configure a un operador automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml) para crear un mapa lógico de las jerarquías en su antiguo sistema de mensajería unificada de Exchange.
+   Es posible que le resulte útil usar los ejercicios del tutorial titulado [Small Business example-configure a un operador automático](/microsoftteams/tutorial-org-aa) para crear un mapa lógico de las jerarquías en su antiguo sistema de mensajería unificada de Exchange.
 5. Pruebe el operador automático del sistema telefónico o la cola de llamadas.
 6. Reasigne el número de teléfono vinculado a la cola de llamadas de mensajería unificada de Exchange o al operador automático al operador automático o la cola de llamadas del sistema telefónico correspondiente.  
 
