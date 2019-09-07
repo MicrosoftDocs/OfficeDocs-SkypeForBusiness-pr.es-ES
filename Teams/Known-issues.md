@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c24899cb15cfec26cd1ee0d3304abbea93239e4
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 6d4eac2b4b6791040ba8f4d2ea980f69c1451140
+ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464489"
+ms.lasthandoff: 09/07/2019
+ms.locfileid: "36790835"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -225,8 +225,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Departamento de cuentas de recursos mal configuradas  <br/> |Las cuentas de recursos asociadas con una cola de llamada u operador automático creadas antes de enero de 2019 puede que no tengan el parámetro del departamento configurado correctamente, lo que podría provocar una asignación errónea de números de teléfono. Se está realizando una corrección para resolver este problema. <br/><br/> Las cuentas de recursos configuradas mediante el uso de New-CsHybridApplicationEndpoint con Skype Empresarial Server no tendrán el parámetro Department configurado correctamente, lo que provocará errores en la creación de cuentas de recursos en Skype Empresarial en línea. En este caso, debe configurar el nombre del departamento en Active Directory antes de la sincronización en línea.|Para mitigar este problema, puede ejecutar el siguiente Cmdlet para configurar el parámetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> : Department "Microsoft Communication Application Instance" <br/> |8/5/19 <br/> |
-
+|Departamento de cuentas de recursos mal configuradas  <br/> | Las cuentas de recursos locales asociadas con un operador automático o una cola de llamada creados antes de enero de 2019 puede que no tengan el parámetro Department configurado correctamente, lo que podría provocar una asignación errónea de números de teléfono. Se está realizando una corrección para resolver este problema. <br/><br/> Las cuentas de recursos configuradas mediante el uso de New-CsHybridApplicationEndpoint con Skype Empresarial Server no tendrán el parámetro Department configurado correctamente, lo que provocará errores en la creación de cuentas de recursos en el centro de administración de Teams. En este caso, debe configurar el nombre del departamento en Active Directory local antes de la sincronización en línea.|Para mitigar este problema, puede ejecutar el siguiente Cmdlet para configurar el parámetro de departamento. Set-MsolUser -ObjectId <Resource Account Object ID> : Department "Microsoft Communication Application Instance" <br/> Vea también el [operador automático y la actualización del servicio de colas de llamadas](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521). |8/5/19 <br/> |
 
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
