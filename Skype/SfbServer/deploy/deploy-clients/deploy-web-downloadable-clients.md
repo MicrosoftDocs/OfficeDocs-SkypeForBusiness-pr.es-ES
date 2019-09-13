@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumen: implemente la aplicación Web de Skype empresarial y la aplicación reuniones de Skype que se usan con Skype empresarial.'
-ms.openlocfilehash: 8f2449fde2f270834bda50602fe163829f3b725f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
+ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234398"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "36972881"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar clientes descargables en Internet en Skype empresarial Server
 
@@ -26,7 +26,7 @@ La aplicación Web de Skype empresarial es un cliente web de Internet Informatio
 Las características de voz, vídeo y uso compartido de la aplicación Web de Skype empresarial requieren un control ActiveX de Microsoft que el explorador del usuario Use como complemento. Puede instalar el control ActiveX por adelantado o permitir que los usuarios lo instalen cuando se le pida, que es la primera vez que usan la aplicación Web de Skype empresarial o la primera vez que tienen acceso a una característica que requiere el control ActiveX.
 
 > [!NOTE]
-> En las implementaciones de servidor perimetral de Skype empresarial Server, se necesita un proxy inverso HTTPS en la red perimetral para el acceso de cliente de la aplicación Web de Skype empresarial. También debe publicar direcciones URL sencillas. Para obtener más información, consulte [configuración de servidores proxy](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) inversos y [requisitos de DNS para direcciones URL simples en Skype empresarial Server](../../plan-your-deployment/network-requirements/simple-urls.md).
+> En las implementaciones de servidor perimetral de Skype empresarial Server, se necesita un proxy inverso HTTPS en la red perimetral para el acceso de cliente de la aplicación Web de Skype empresarial. También debe publicar direcciones URL sencillas. Para obtener más información, consulte [configuración de servidores proxy inversos](https://technet.microsoft.com/library/00bc138a-243f-4389-bfa5-9c62fcc95132.aspx) y [requisitos de DNS para direcciones URL simples en Skype empresarial Server](../../plan-your-deployment/network-requirements/simple-urls.md).
 
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar la autenticación multifactor para la aplicación Web de Skype empresarial
 <a name="MFA"> </a>
@@ -140,6 +140,10 @@ Este procedimiento es opcional y se aplica a Skype empresarial Server 2015 CU5 y
    ```
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
+
+> [!NOTE]
+> Con MeetingUxUseCdn en Skype empresarial Server 2015, actualización acumulativa 5, el valor predeterminado se establece en false. Esto causa un problema en el que el cliente de Skype empresarial para Mac no puede unir reuniones de socios no federados como invitado, incluso si el administrador de Skype empresarial ha establecido MeetingUxUseCdn en true. Para ello, Skype empresarial Server 2015 debe tener la actualización acumulativa 7, 6.0.9319.534 o posterior. Consulte [Habilitar la aplicación reuniones de Skype para reemplazar la aplicación Web de Skype empresarial en Skype empresarial Server 2015](https://support.microsoft.com/kb/4132312).
+
 
 ## <a name="see-also"></a>Vea también
 <a name="SMA_Enable"> </a>
