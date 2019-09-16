@@ -1,5 +1,5 @@
 ---
-title: Activar o desactivar el acceso de invitado a Microsoft Teams
+title: Active o desactive el acceso de invitado a Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -20,12 +20,12 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f00b585b1473a366769650c2a59f6dee2a9d3bea
 ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/07/2019
 ms.locfileid: "36242623"
 ---
-<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
+<a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 ===================================================
 
 Como administrador de Office 365, debe habilitar la característica de invitado antes de que usted o los usuarios de su organización (específicamente, los propietarios de los equipos) puedan agregar a invitados.
@@ -65,8 +65,8 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
     - **Clasificación de contenido Giphy**: seleccione una clasificación de la lista desplegable:
        - **Permitir todo el contenido**: los invitados podrán insertar todos los Giphy en chats, independientemente de la clasificación de contenido.
        - **Moderado**: los invitados pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma moderada.
-       - **Estricto** : los invitados podrán insertar imágenes giphy en los chats, pero no podrán insertar contenido para adultos.
-    - **Usar memes en las conversaciones** : activa esta **** opción para permitir que los invitados usen memes en las conversaciones.
+       - **Estricto**: los invitados pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma estricta.
+    - **Use memes en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen Memes en conversaciones.
     - **Usar adhesivos en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen adhesivos en conversaciones. 
 
 
