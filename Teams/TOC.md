@@ -27,6 +27,7 @@
 ## [Compartir archivos en Teams](sharing-files-in-teams.md)
 ## [Administrar directivas de mensajería](messaging-policies-in-teams.md)
 ## [La presencia del usuario en Teams](presence-admins.md)
+## [Ver análisis entre equipos y por equipo en Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Archivar o eliminar un equipo](archive-or-delete-a-team.md)
 
 
@@ -291,6 +292,7 @@
 #### [Idiomas para saludos del buzón de voz y mensajes](languages-for-voicemail-greetings-and-messages.md)
 ### Identificador de llamada
 #### [Cómo se puede usar el identificador de llamada en su organización](how-can-caller-id-be-used-in-your-organization.md)
+#### [Administrar directivas del identificador de llamada](caller-id-policies.md)
 #### [Establecer el identificador de llamada de un usuario](set-the-caller-id-for-a-user.md)
 #### [Más información sobre Identificadores de línea de la llamada entrante y nombres para mostrar a la persona que llama](more-about-calling-line-id-and-calling-party-name.md)
 ### Operadores automáticos y las colas de llamadas 
@@ -304,7 +306,6 @@
 ### [Estacionar llamadas y recuperar](call-park-and-retrieve.md)
 ### [Compartir llamadas y atender llamadas grupales](call-sharing-and-group-call-pickup.md)
 ### [Directiva de llamadas](teams-calling-policy.md)
-### [Directiva del ID. de llamada](caller-id-policies.md)
 ### [Apariencia de línea compartida](shared-line-appearance.md)
 ### [Descripción de cómo los usuarios pueden bloquear llamadas RTC en clientes de Teams](block-pstn-calls-on-Teams-clients.md)
 
