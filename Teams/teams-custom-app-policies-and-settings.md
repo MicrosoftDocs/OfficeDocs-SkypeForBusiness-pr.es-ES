@@ -21,16 +21,14 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: cd2f28df6b5b831d260f3d0070250249dfc90f6e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 90733b43ddb1d94d8c0f763ac048384816681f46
+ms.sourcegitcommit: 472825b0f4db1542a5b855d637aa90b4bcd797bc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483588"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "36993982"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams
-
->[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 > [!NOTE]
 > Para usar App Studio [, consulte Introducción a la plataforma de Microsoft Teams con C#/.net y app Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-dotnet-app-studio) el último paso no funciona aún, por lo que tendrá que descargar el código postal de la forma más antigua de [cargar un paquete de la aplicación a Microsoft Teams](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload).
@@ -72,7 +70,7 @@ Puede editar la configuración de la Directiva configuración global de la aplic
 
 #### <a name="set-a-user-custom-app-policy"></a>Establecer una directiva de aplicación personalizada de usuario
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de configuración**de las **aplicaciones** > de Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de configuración**de las **aplicaciones de Teams**.
 2. Haga clic en **Agregar**.
 3. Activar o desactivar permitir la **carga de aplicaciones personalizadas**.
 4. Elija cualquier otra configuración que desee para la Directiva.
@@ -106,7 +104,7 @@ La configuración de la aplicación personalizada para toda la organización, **
 
 #### <a name="configure-the-org-wide-custom-app-setting"></a>Configurar la aplicación personalizada de toda la organización
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de permisos**de las **aplicaciones** > de Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos**de las **aplicaciones de Teams**.
 2. Haga clic en **configuración de la aplicación en toda la organización**.
 3. En **aplicaciones personalizadas**, Active o desactive la **opción permitir la interacción con aplicaciones personalizadas**.
 
