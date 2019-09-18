@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: En este artículo se describe cómo supervisar y solucionar problemas de la configuración de enrutamiento directo.
-ms.openlocfilehash: d20a409c7a5e902149ff20e72dde90850f0f5d12
-ms.sourcegitcommit: 9751f34318119991b1bd32b384b8e1479c83cb0e
+ms.openlocfilehash: e236a5cecb190d10082e06de24655bd722a410e5
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35768159"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018828"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 
@@ -32,7 +32,7 @@ La capacidad de realizar y recibir llamadas mediante enrutamiento directo incluy
 - Componentes de enrutamiento directo en la nube de Microsoft 
 - Troncos de telecomunicación 
 
-Si tiene dificultades para solucionar problemas, abra un caso de soporte técnico con su proveedor de SBC o Microsoft. 
+Si tiene dificultades para solucionar problemas, puede abrir un caso de soporte técnico con su proveedor de SBC o Microsoft. 
 
 Microsoft está trabajando en proporcionar más herramientas para la solución de problemas y la supervisión. Consulta la documentación periódicamente para obtener las actualizaciones. 
 
@@ -52,19 +52,19 @@ Un SBC se considera saludable si las estadísticas en el momento de enviar la ll
 
 Cuando se realiza una llamada, se aplica la siguiente lógica:
 
-- La SBC fue emparejada a 11,00 A.M.  
-- El SBC envía las opciones en 11,01 A.M., 11,02 A.M., etc.  
-- En 11,15, un usuario realiza una llamada y el mecanismo de enrutamiento selecciona esta SBC. 
+- La SBC fue emparejada a 11:00 A.M.  
+- El SBC envía las opciones en 11:01 A.M., 11:02 A.M., etc.  
+- En 11:15, un usuario realiza una llamada y el mecanismo de enrutamiento selecciona esta SBC. 
 
 El enrutamiento directo tiene las opciones de intervalo normal tres veces (el intervalo normal es de un minuto). Si las opciones se enviaron durante los tres últimos minutos, la SBC se considerará saludable.
 
-Si la SBC del ejemplo envió opciones en cualquier período comprendido entre 11,12 AM y 11,15 AM (el momento en que se realizó la llamada), se considerará saludable. De lo contrario, se degradará la SBC de la ruta. 
+Si la SBC del ejemplo envió opciones en cualquier período comprendido entre 11:12 AM y 11:15 AM (el momento en que se realizó la llamada), se considerará saludable. De lo contrario, se degradará la SBC de la ruta. 
 
 La degradación significa que la SBC no se intentará en primer lugar. Por ejemplo, tenemos sbc1.contoso.com y sbc2.contoso.com con la misma prioridad.  
 
-Si sbc1.contoso.com no envía las opciones de SIP a un intervalo regular según se describe anteriormente, se degradará. A continuación, sbc2.contoso.com intenta la llamada. Si sbc2. contoso. con no puede entregar la llamada, se intentará de nuevo el sbc1.contoso.com (degradado) antes de que se genere un error. 
+Si sbc1.contoso.com no envía las opciones de SIP a intervalos regulares como se ha descrito anteriormente, se degradan. A continuación, sbc2.contoso.com intenta la llamada. Si sbc2. contoso. con no puede entregar la llamada, se intentará de nuevo el sbc1.contoso.com (degradado) antes de que se genere un error. 
 
-Si dos (o más) SBCs en una ruta contratada en buen estado y es igual, se aplicará el orden de distrubute de Fisher a yates en las llamadas entre los SBCs.
+Si dos (o más) SBCs en una ruta se consideran en buen estado y son iguales, se aplica el orden de reproducción de Fisher-yates para distribuir las llamadas entre el SBCs.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Supervisar los registros del panel de análisis de calidad de llamadas y de SBC 
  
@@ -83,4 +83,4 @@ En caso de que se produzcan errores en las llamadas, el análisis de llamadas pr
 
 ![Código SIP de ejemplo para error de llamada](media/failed-response-code.png)
 
-Sin embargo, el análisis de llamadas solo puede ayudar cuando las llamadas llegan a los componentes internos del enrutamiento directo y producen errores. En caso de problemas con el emparejamiento de SBC o problemas en los que se rechazó el "invitar" SIP (por ejemplo, el nombre del FQDN de tronco está configurado incorrectamente), el análisis de llamadas no le servirá. En este caso, consulta los registros de SBC. El enrutamiento directo envía una descripción detallada de los problemas al SBCs; estos problemas se pueden leer desde los registros de SBC. 
+Sin embargo, el análisis de llamadas solo puede ayudar cuando las llamadas llegan a los componentes internos del enrutamiento directo y producen errores. En caso de problemas con el emparejamiento de SBC o problemas en los que se rechazó el "invitar" SIP (por ejemplo, el nombre del FQDN de tronco está configurado incorrectamente), el análisis de llamadas no le servirá. En este caso, consulte los registros de SBC. El enrutamiento directo envía una descripción detallada de los problemas al SBCs; estos problemas se pueden leer desde los registros de SBC. 

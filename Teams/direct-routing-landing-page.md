@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.directrouting.overview
 description: Página de aterrizaje para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 965fb26aee3d83550740e2ae7f855559fd9cdb79
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7ded644f552c233b712f43de212f2269ee6e70b2
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484064"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018806"
 ---
 # <a name="phone-system-direct-routing"></a>Enrutamiento directo del Sistema telefónico
 
@@ -75,13 +75,13 @@ Tendrá que configurar el sistema telefónico para enrutar las llamadas al SBCs 
 | ¿Qué usuarios se asignarán a la Directiva de enrutamiento de voz que definio? | Consulte los ejemplos de [configurar el enrutamiento de voz](direct-routing-configure.md#configure-voice-routing). |
 |||
 
-### <a name="calling-and-interop-policies"></a>Directivas de llamadas y interoperabilidad
+### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>Asegurarse de que las llamadas entrantes estén en el cliente de Teams mediante TeamsUpgradePolicy
 
-El enrutamiento directo solo es compatible con Microsoft Teams. Para realizar o recibir llamadas RTC mediante enrutamiento directo, debe configurar las directivas necesarias para asegurarse de que las llamadas entrantes se reciban en Teams. Puede configurar los usuarios para que establezcan equipos como su cliente preferido para las llamadas, ya sea configurando el usuario para el modo solo de Teams o configurando Teams como el cliente de llamadas preferido asignando el TeamsCallingPolicy y TeamsInteropPolicy.
+El enrutamiento directo solo es compatible con Microsoft Teams. Para recibir llamadas RTC mediante enrutamiento directo, debe configurar TeamsUpgradePolicy para asegurarse de que las llamadas entrantes se reciban en Teams. Los usuarios deben estar en el modo solo de equipos, que puede hacer asignando la instancia "UpgradeToTeams" de TeamsUpgradePolicy. 
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-|¿Cómo establezco Teams como el cliente preferido para las llamadas? | Para obtener más información, vea [establecer Microsoft Teams como el cliente de llamadas preferido para los usuarios](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).|
+|¿Qué significa el modo solo de Teams? | Para obtener más información, consulte [Guía de migración e interoperabilidad para las organizaciones que usan Teams conjuntamente con Skype empresarial](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype).|
 |||
 
 ## <a name="additional-deployment-considerations"></a>Consideraciones de implementación adicionales

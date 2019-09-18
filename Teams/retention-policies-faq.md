@@ -6,7 +6,7 @@ manager: serdars
 ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: anach
+ms.reviewer: prvijay
 audience: admin
 description: Preguntas más frecuentes sobre las directivas de retención en Microsoft Teams.
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 955006d952454e31698156fa89e2a2047cff823b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a0eb556f53c617636f9169dbf0358455860c46b6
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243558"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018795"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Preguntas más frecuentes sobre las directivas de retención de Microsoft Teams
 
@@ -59,7 +59,7 @@ Sí, los chats interoperativos de Skype empresarial online y Teams funcionan de 
 
 ### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>¿Puedo hacerlo a través de los cmdlets del centro de cumplimiento & seguridad? ¿Qué debo usar? 
 
-Realmente. Puede crear directivas de retención de Teams mediante los cmdlets de [PowerShell del centro de cumplimiento de seguridad &]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Recuerde que no son cmdlets de Exchange Online. Estos son los cmdlets que hemos creado para Teams. Siguen la nomenclatura y el estilo existentes desde los cmdlets de retención disponibles hoy día en el centro de cumplimiento de seguridad &.
+Realmente. Puede crear directivas de retención de Teams mediante los [cmdlets de PowerShell del centro de cumplimiento de seguridad &]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Recuerde que no son cmdlets de Exchange Online. Estos son los cmdlets que hemos creado para Teams. Siguen la nomenclatura y el estilo existentes desde los cmdlets de retención disponibles hoy día en el centro de cumplimiento de seguridad &.
 
 |Políticas|Filete|
 |---|---|

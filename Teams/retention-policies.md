@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-ms.reviewer: anach
+ms.reviewer: prvijay
 description: Obtenga información sobre cómo usar las directivas de retención y cómo administrarlas en Teams.
 localization_priority: Normal
 search.appverid: MET150
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc547f30a7ff24b62e93501eba9a46a2e6e3da74
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f2f3cc0c74b85d0b243dd8fefcd6bce1f2451fae
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243602"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018817"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
@@ -40,11 +40,11 @@ Las directivas de retención de Teams aún no son compatibles:
 - Las directivas de retención avanzadas no se aplican a los equipos chat y Teams canales de mensajes
 - Duración de menos de 30 días
 
-Los administradores pueden configurar directivas de retención diferentes para los chats privados de los equipos (1:1 o 1: muchos chats) y los mensajes de canal de Teams. En muchos casos, las organizaciones consideran que los datos de los chats privados son más responsabilidad de los mensajes de canal, que suelen ser más conversaciones relacionadas con el proyecto. Configure estas directivas en el centro de cumplimiento de & de seguridad,**retención**de **gobierno** > de datos. Active **los mensajes de canal** de Teams y los chats de **equipos** y, a continuación, defina las directivas de retención para estas ubicaciones (también se muestra en el diagrama siguiente). 
+Los administradores pueden configurar directivas de retención diferentes para los chats privados de los equipos (1:1 o 1: muchos chats) y los mensajes de canal de Teams. En muchos casos, las organizaciones consideran que los datos de los chats privados son más responsabilidad de los mensajes de canal, que suelen ser más conversaciones relacionadas con el proyecto. Configure estas directivas en el centro de cumplimiento de & de seguridad,**retención**de **gobierno** > de datos. Active **los mensajes de canal de Teams y los** **chats de equipos** y, a continuación, defina las directivas de retención para estas ubicaciones (también se muestra en el diagrama siguiente). 
 
-Al activar **los mensajes de canal**de Teams, puede especificar los equipos a los que se aplicará esta Directiva. Por ejemplo, para Teams X, y y Z, el administrador puede establecer las directivas de eliminación para un año (seleccionando esos equipos individualmente) y aplicar una directiva de eliminación de 3 años al resto de los equipos. 
+Al activar **los mensajes de canal de Teams**, puede especificar los equipos a los que se aplicará esta Directiva. Por ejemplo, para Teams X, y y Z, el administrador puede establecer las directivas de eliminación para un año (seleccionando esos equipos individualmente) y aplicar una directiva de eliminación de 3 años al resto de los equipos. 
 
-Puede hacer lo mismo para los chats de **Teams** seleccionando usuarios específicos y aplicando directivas de retención únicas. 
+Puede hacer lo mismo para los **chats de Teams** seleccionando usuarios específicos y aplicando directivas de retención únicas. 
 
 ![Diagrama del flujo de trabajo de los datos de Teams en Exchange y SharePoint.](media/Retention-Policies.png)
 

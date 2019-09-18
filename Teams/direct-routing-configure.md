@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 4013e0fd914630f154f407ad9c70e2c6915723f5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464616"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018773"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -42,7 +42,7 @@ Puede configurar el sistema de Microsoft Phone y permitir que los usuarios usen 
 
 - [Emparejar el SBC con un sistema telefónico de Microsoft y validar el emparejamiento](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [Habilitar a los usuarios para el servicio de enrutamiento directo](#enable-users-for-direct-routing-service)
-- [Asegúrese de que Microsoft Teams es el cliente de llamadas preferido para los usuarios](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
+- Asegúrese de que Microsoft Teams es el cliente de llamadas preferido para los usuarios
 
 ## <a name="pair-the-sbc-to-the-direct-routing-service-of-phone-system"></a>Emparejar la SBC al servicio de enrutamiento directo del sistema telefónico 
 
@@ -528,9 +528,9 @@ New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canad
 
 El resultado es que la política de voz aplicada a las llamadas de John Woods no tiene restricciones, y seguirá la lógica de enrutamiento de llamadas disponible para las llamadas de Estados Unidos, Canadá e internacionales.
 
-## <a name="set-microsoft-teams-as-the-preferred-calling-client-for-users"></a>Establecer Microsoft Teams como el cliente de llamadas preferido para los usuarios
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Asignar el modo solo de Teams a los usuarios para garantizar la superficie de llamadas en Microsoft Teams
 
-El enrutamiento directo solo enruta las llamadas a y desde los usuarios si usan el cliente de Teams. Si su organización solo usa Teams, se recomienda establecer el modo "solo equipos" en la Directiva de actualización. Si su organización usa Skype empresarial Server o Skype empresarial online, consulte el artículo siguiente para obtener más información y seleccione la opción adecuada: comprender el viaje de coexistencia [y actualización de Skype empresarial y Teams](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
+El enrutamiento directo requiere que los usuarios estén en el modo solo de equipos para garantizar las llamadas entrantes en el cliente de Teams. Para poner los usuarios en modo de solo equipos, asígnelos a la instancia "UpgradeToTeams" de TeamsUpgradePolicy. Si su organización usa Skype empresarial Server o Skype empresarial online, consulte el siguiente artículo para obtener interoperabilidad de información entre Skype y Teams: [Guía de migración e interoperabilidad para organizaciones que usan Teams junto con Skype para empresas](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="see-also"></a>Vea también

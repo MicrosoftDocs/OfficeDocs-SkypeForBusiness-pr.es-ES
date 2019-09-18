@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: En este artículo se describe cómo lograr esa consolidación para las organizaciones con implementaciones locales de Skype empresarial (o Lync) que buscan migrar para transferir su carga de trabajo de comunicaciones unificadas a Microsoft Teams o Skype empresarial online.
-ms.openlocfilehash: 46e84f9a65ec7626c5285196af83d63baa46c15e
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 33cbc823fd7aeece1591810d63d2ebf4a348237a
+ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36160802"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37018849"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Consolidación en la nube para Teams y Skype empresarial
 
@@ -95,7 +95,7 @@ Los diagramas siguientes muestran la configuración en varios puntos clave duran
 
 ##### <a name="figure-b"></a>Figura B:
 
-- AcquiredCompany. <span>com es un [](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) dominio SIP en línea deshabilitado. Todos los usuarios son locales. Si utilizan Teams, no tienen Federación ni interoperabilidad. En esta fase, Microsoft recomienda usar Teams solo para los canales.
+- AcquiredCompany. <span>com es un dominio SIP en línea [deshabilitado](https://docs.microsoft.com/en-us/powershell/module/skype/disable-csonlinesipdomain) . Todos los usuarios son locales. Si utilizan Teams, no tienen Federación ni interoperabilidad. En esta fase, Microsoft recomienda usar Teams solo para los canales.
 - Skype empresarial híbrido se ha habilitado para una de las organizaciones locales.
 - Algunos usuarios de la organización híbrida se han movido a la nube (el usuario A tal como lo indica el sombreado púrpura). Estos usuarios pueden ser usuarios de Skype empresarial online o solo usuarios de Microsoft Teams con una interoperabilidad completa y compatibilidad con la Federación.<br><br>
     ![Diagrama de la figura B](../media/cloudconsolidationfigb.png)
@@ -168,16 +168,16 @@ Los pasos del ejemplo canónico anterior suponen que la organización comienza c
 Al mover usuarios de local a la nube en un entorno híbrido, puede moverlos a Skype empresarial solo o al modo TeamsOnly. *Si tiene previsto mover usuarios al modo TeamsOnly, asegúrese de leer esta sección primero.*
 
 - Cuando asigna el modo TeamsOnly a un usuario, todos los chats y las llamadas de cualquier otro usuario estarán en el cliente de Microsoft Teams del usuario. 
-- Para garantizar el enrutamiento correcto de los chats y las llamadas entre usuarios que son TeamsOnly y usuarios que todavía usan Skype empresarial local, debe asegurarse de que los usuarios locales tienen TeamsUpgradePolicy con uno de los modos de SfB, en lugar de islas (que es el valor predeterminado). ). 
+- Si los usuarios de Skype empresarial local usan principalmente el cliente de Skype empresarial y no los equipos, considere la posibilidad de establecer TeamsUpgradePolicy de modo que el enrutamiento a esos usuarios locales siempre aterriza en Skype empresarial en lugar de en Microsoft Teams. Para garantizar el enrutamiento correcto de los chats y las llamadas entre usuarios que son TeamsOnly y usuarios que todavía usan Skype empresarial local, los usuarios locales deben tener un valor efectivo de TeamsUpgradePolicy con uno de los modos de SfB, en lugar de islas (que es el valor predeterminado). 
     - Para ello, *primero debe configurar la instancia global del inquilino de TeamsUpgradePolicy en uno de estos valores*:
         - SfBWithTeamsCollab (recomendado)
         - SfBWithTeamsCollabAndMeetings
         - SfBOnly
     - Puede conceder directivas de todo el inquilino con este comando:<br>`Grant-CsTeamsUpgradePolicy -PolicyName SfBWithTeamsCollab -Global`
-    - Nota: Actualmente, debe hacerlo en un nivel de inquilino, ya que la Directiva no se puede asignar a usuarios individuales que no tengan una dirección SIP en el directorio en línea. Mientras haya deshabilitado los dominios SIP en línea para las implementaciones locales puras, los usuarios de esos dominios no tendrán direcciones SIP en el directorio en línea por diseño. Por lo tanto, la única forma de aplicar la Directiva a los usuarios locales es asignar en el nivel de espacio empresarial. Por el contrario, en los usuarios de la implementación híbrida tendrán una dirección SIP en el directorio en línea, por lo que se les puede asignar de forma explícita una Directiva si desea que tengan un valor distinto al de la directiva global de inquilino.
+    - Nota: debe hacerlo en un nivel de inquilino, ya que la Directiva no se puede asignar a usuarios individuales que no tengan una dirección SIP en el directorio en línea. Mientras haya deshabilitado los dominios SIP en línea para las implementaciones locales puras, los usuarios de esos dominios no tendrán direcciones SIP en el directorio en línea por diseño. Por lo tanto, la única forma de aplicar la Directiva a los usuarios locales es asignar en el nivel de espacio empresarial. Por el contrario, en los usuarios de la implementación híbrida tendrán una dirección SIP en el directorio en línea, por lo que se les puede asignar de forma explícita una Directiva si desea que tengan un valor distinto al de la directiva global de inquilino.
 - La experiencia de usuario del cliente de Microsoft Teams todavía no respeta los modos de SfB de TeamsUpgradePolicy. Por ejemplo, en estos modos, el inicio de llamadas y chats en Microsoft Teams es posible en la actualidad, aunque en el futuro no será el caso. Esto puede causar confusión entre los usuarios porque las respuestas a veces pueden estar en Microsoft Teams y, a continuación, en Skype empresarial, en función de las circunstancias. Se recomienda deshabilitar por separado las llamadas y el chat a través de TeamsMessagingPolicy y TeamsCallingPolicy para los usuarios que todavía están en local.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Ver también
 
 [Actualizar el certificado perimetral](cloud-consolidation-edge-certificates.md)
 
