@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Topologías de referencia para Skype empresarial Server, incluidos diagramas y decisiones para organizaciones grandes, medianas y pequeñas.
-ms.openlocfilehash: 9ec00fb6aa8d318a1eddec4b16c902e5f0fca5dd
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 7f284b141da25175e3a41545349a0e61f6036019
+ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418036"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37028284"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Topologías de referencia para Skype empresarial Server
 
@@ -79,7 +79,7 @@ La topología de referencia con alta disponibilidad y un único centro de datos 
 
 - **Opciones de implementación de sitios de sucursal.** La organización de esta topología tiene la característica telefonía IP implementada como solución de voz. El sitio de la sucursal 1 no tiene un vínculo de red de área extensa (WAN) resistente al sitio central, por lo que tiene un dispositivo de sucursal que se ha implementado y que mantiene muchas características de Skype empresarial Server en caso de que se produzca un vínculo WAN al sitio central. Pero, el sitio de sucursal 2 tiene un vínculo WAN resistente, por lo que solo se necesita una puerta de enlace de la red telefónica conmutada (RTC). La puerta de enlace RTC implementada allí permite la omisión de medios, por lo que no se necesita ningún servidor de mediación en el sitio de sucursal 2. Para más información, consulte [Plan for Enterprise Voice resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
 
-- **Equilibrio de carga de DNS.** El grupo de servidores front-end y el grupo de servidores perimetrales tienen implementado el equilibrio de carga de DNS para el tráfico SIP. Este equilibrio elimina la necesidad de equilibradores de carga de hardware para los servidores perimetrales y reduce notablemente la instalación y el mantenimiento de los equilibradores de carga de hardware de otros grupos de servidores, ya que estos equilibradores solo se necesitan para tráfico HTTP. Para obtener más información, consulte (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
+- **Equilibrio de carga de DNS.** El grupo de servidores front-end y el grupo de servidores perimetrales tienen implementado el equilibrio de carga de DNS para el tráfico SIP. Este equilibrio elimina la necesidad de equilibradores de carga de hardware para los servidores perimetrales y reduce notablemente la instalación y el mantenimiento de los equilibradores de carga de hardware de otros grupos de servidores, ya que estos equilibradores solo se necesitan para tráfico HTTP. Para obtener más información, consulte [equilibrio de carga de DNS](../../plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
 
 - **Implementación de mensajería unificada de Exchange.** Esta topología de referencia incluye un servidor de mensajería unificada (UM) de Exchange, que ejecuta Microsoft Exchange Server, no Skype empresarial Server.
 
@@ -127,7 +127,7 @@ Esta topología se muestra en varios diagramas con información general seguida 
 
 - **Opciones de implementación en sitios de sucursal.** Esta organización tiene en realidad más de 50 sitios de sucursal y, en los diagramas detallados, solo se muestran dos de ellos. El sitio de la sucursal 1 no tiene un vínculo WAN resistente al sitio central, por lo que se han implementado dispositivos de sucursal que se han implementado para proporcionar servicio telefónico en caso de que se produzca un vínculo WAN al sitio central. Pero, el sitio de sucursal 2 sí tiene un vínculo WAN resistente, de modo que solo necesita una puerta de enlace de la red telefónica conmutada (RTC). La puerta de enlace RTC implementada en este caso admite la omisión de medios, por lo que en el sitio de sucursal 2 no es necesario ningún servidor de mediación. Para más detalles sobre cómo decidir qué instalar en un sitio de sucursal, consulte [Plan for Enterprise Voice resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
 
-- **Servidor de mediación y Troncalización SIP.** Observe que en el sitio central B, el servidor de mediación no se colocará con los servidores front-end. Esto se debe a que se recomienda un servidor de mediación independiente para los sitios que usan Troncalización SIP. En la mayoría de las demás instancias, le recomendamos que Collocate servidor de mediación con el servidor front-end. Para obtener más información sobre las topologías de servidores de mediación, vea [componentes y topologías de servidor](https://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx) de mediación en la documentación de planeación.
+- **Servidor de mediación y Troncalización SIP.** Observe que en el sitio central B, el servidor de mediación no se colocará con los servidores front-end. Esto se debe a que se recomienda un servidor de mediación independiente para los sitios que usan Troncalización SIP. En la mayoría de las demás instancias, le recomendamos que Collocate servidor de mediación con el servidor front-end. Para obtener más información sobre las topologías de servidores de mediación, vea [componentes y topologías de servidor de mediación](https://technet.microsoft.com/library/71397168-36c3-4d21-b8ef-db6a751634ee.aspx) en la documentación de planeación.
 
 - **Chat persistente implementado.** Esta organización ha implementado los servidores necesarios para habilitar el chat persistente. Ha implementado varios servidores front-end de chat persistente para, por un lado, procesar la carga de la cantidad de usuarios del grupo de servidores y, por otro, ofrecer alta disponibilidad. También ha implementado el cumplimiento para el chat persistente y ha ubicado el almacén de chat persistente y el almacén de cumplimiento de chat persistente en servidores independientes. Estos almacenes pueden combinarse entre sí e incluso con el servidor back-end, pero esta organización ha optado por separarlos para ofrecer un mejor rendimiento.
 

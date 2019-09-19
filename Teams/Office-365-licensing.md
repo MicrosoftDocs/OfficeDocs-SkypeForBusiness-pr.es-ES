@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40d8ae4f56fcbfe7d9e82855f7c3f7eaa406effa
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: b9ed190a2d32a2e607fd747a70ed6db9f7daaa3d
+ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483180"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "37028255"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licencias de Office 365 para Microsoft Teams
 ========================================
@@ -49,6 +49,9 @@ Para obtener más información sobre la obtención de equipos, consulte [¿Cómo
 
 > [!NOTE]
 > A partir del 1 de octubre de 2018, los nuevos clientes de Office 365 con 500 puestos o menos se incorporarán a teams y no tendrán acceso a Skype empresarial online. Los inquilinos que ya usan Skype empresarial online podrán continuar haciendo esto (incluido el aprovisionamiento de nuevos usuarios) hasta que completen la transición a teams. Para obtener más información, consulte [Microsoft Teams ahora es el cliente principal para las reuniones y las llamadas en Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+
+> [!NOTE]
+> Si Skype empresarial online aparece en las aplicaciones para la licencia seleccionada, no la quite. Si está en la lista y se ha eliminado, la configuración de usuarios de Teams no se completará correctamente. 
         
 En términos de funciones básicas de Teams, no hay diferencias entre las suscripciones de Office 365. La disponibilidad de las capacidades de cumplimiento no depende del nivel de suscripción adecuado. Para aprender más cosas a este respecto, lea [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md). Para obtener una lista detallada de las características disponibles en cada plan, consulte la [Descripción del servicio de plataforma de Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 

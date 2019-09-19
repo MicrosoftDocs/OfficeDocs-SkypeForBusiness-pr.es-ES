@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga más información sobre las licencias de complementos, las características y cómo comprar planes de Office 365 Business Premium. '
-ms.openlocfilehash: 48cfc0803f062f4ded43821b7db8604a49022fda
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 08d9ce55088c83126a6a8d303b4a02d6aa385584
+ms.sourcegitcommit: c6a79bebbbd7c1a1f801f465092a64fb40720296
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715912"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37040741"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Empresa Premium
 
@@ -39,7 +39,7 @@ Si tiene [Office 365 Business Premium](https://products.office.com/en/business/o
 
     1. [Cambiar a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Se recomienda evaluar un plan Enterprise E5 para ver si es más rentable.
 
-    2. Si decide comprar una licencia de Enterprise E5, incluye una licencia de sistema telefónico. Si usa una licencia Enterprise E1 o E3 o un Office 365 empresa Essentials u Office 365 empresa Premium licsense necesitará comprar el complemento del sistema telefónico.
+    2. Si decide comprar una licencia de Enterprise E5, incluye una licencia de sistema telefónico. Si usa una licencia Enterprise E1 o E3, tendrá que comprar el complemento del sistema telefónico.
     
     3. Comprar un [plan de llamadas para Office 365](../calling-plans-for-office-365.md): solo puede comprarlo después de comprar el complemento de sistema telefónico.
 
@@ -50,7 +50,7 @@ Si tiene [Office 365 Business Premium](https://products.office.com/en/business/o
 
 1. Inicie sesión en el centro de administración de Microsoft 365.
 
-2. Vaya a suscripciones**del complemento****servicios** > de compra de **facturación** > .
+2. Vaya a**suscripciones del complemento****servicios** > de compra de **facturación** > .
 
    Verá los precios y la opción de comprar audioconferencia.
 
@@ -58,11 +58,11 @@ Si tiene [Office 365 Business Premium](https://products.office.com/en/business/o
 
 1. Inicie sesión en el centro de administración de Microsoft 365.
 
-2. Vaya a suscripciones**del complemento****servicios** > de compra de **facturación** > .
+2. Vaya a**suscripciones del complemento****servicios** > de compra de **facturación** > .
 
    Verá la opción de comprar créditos de comunicaciones.
 
-3. Para agregar fondos a los créditos de comunicaciones, vaya a suscripciones**** > de **facturación** > de**créditos de comunicaciones**.
+3. Para agregar fondos a los créditos de comunicaciones, vaya a**suscripciones** > de **facturación** > de**créditos de comunicaciones**.
 
     Podrás añadir fondos y activar y desactivar la recarga automática. Para obtener más información [, consulte Agregar fondos y administrar créditos de comunicaciones](../add-funds-and-manage-communications-credits.md) . 
 
@@ -73,7 +73,7 @@ Si tiene [Office 365 Business Premium](https://products.office.com/en/business/o
 
 2. Vaya al centro de administración de Microsoft 365.
 
-3. Vaya a suscripciones**del complemento****servicios** > de compra de **facturación** > .
+3. Vaya a**suscripciones del complemento****servicios** > de compra de **facturación** > .
 
     Verá los precios del sistema telefónico y la opción de comprarlo.
 
