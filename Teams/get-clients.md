@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 646305383c8f38671c07f598bc9ff1671890d22f
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1d656e78ca839255f45e9335ca881c564e07c4cc
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715802"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047003"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
@@ -63,7 +63,7 @@ El cliente de Windows se implementará en la carpeta AppData ubicada en el perfi
 
 - %LocalAppData%\\Microsoft\\Teams
 
-- %LocalAppData%\\Microsoft\\TeamsMeetingsAddin
+- % LocalAppData%\\Microsoft\\TeamsMeetingAddin
 
 - %AppData%\\Microsoft\\Teams
 

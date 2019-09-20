@@ -18,17 +18,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b6da80dda90c57a55a75c885b42bc08a824b613
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2eb68a06a24436b6c12e4ee5b59a24a0da92ca7e
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245354"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047087"
 ---
 <a name="turn-on-inline-message-translation-in-microsoft-teams"></a>Activar la traducción de mensajes en línea en Microsoft Teams 
 =================================================
 
-La traducción de mensajes en línea es una característica nueva de Microsoft Teams con la que los usuarios pueden traducir automáticamente los mensajes de Teams en el [idioma](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) que se especifique en su configuración de idioma personal de Office 365.
+La traducción de mensajes en línea es una nueva característica de Microsoft teams que permite a los usuarios traducir los mensajes de los equipos en el [idioma](https://support.office.com/article/translate-a-message-in-teams-d8926ce9-d6a6-47df-a416-f1adb62d3194) especificado por la configuración de Idioma personal de Office 365.
 
 La traducción de mensajes en línea se está implantando de forma predeterminada en su organización. Si desea permitir que los usuarios usen esta característica en el cliente de Teams, debe activar esta configuración.
 

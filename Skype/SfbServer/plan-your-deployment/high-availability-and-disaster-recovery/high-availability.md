@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Obtenga más información sobre la administración de grupos de servidores front-end en Skype empresarial Server, como la administración de grupos, pérdida de quórum y pasos especiales para grupos de servidores con tan solo dos servidores front-end.
-ms.openlocfilehash: 719a6099ac4bd54d82a833548b2438d0e9d8cc2d
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221726"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047097"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidad y administración del grupo de servidores front-end
  
@@ -52,7 +52,7 @@ La primera vez que inicia un nuevo grupo de servidores front-end, es fundamental
 |once  <br/> |99,999  <br/> |
 |2007  <br/> |base10  <br/> |
    
-Cada vez subsiguiente que se inicie el grupo, es preciso iniciar el 85 % de los servidores (tal como se muestra en la tabla anterior). Si no se puede iniciar este número de servidores (pero se pueden iniciar suficientes servidores para que no se encuentre en pérdida de quórum en el nivel de grupo), `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` puede usar el cmdlet para permitir que el grupo se recupere de esta pérdida de quórum en el nivel de grupo de enrutamiento y realice el progreso. Para obtener más información sobre cómo usar este cmdlet, consulte <link Reset-CsPoolRegistrarState>.
+Cada vez subsiguiente que se inicie el grupo, es preciso iniciar el 85 % de los servidores (tal como se muestra en la tabla anterior). Si no se puede iniciar este número de servidores (pero se pueden iniciar suficientes servidores para que no se encuentre en pérdida de quórum en el nivel de grupo), `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` puede usar el cmdlet para permitir que el grupo se recupere de esta pérdida de quórum en el nivel de grupo de enrutamiento y realice el progreso. Para obtener más información sobre cómo usar este cmdlet, consulte [RESET-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
 > En los grupos de servidores con una cantidad par de servidores, Skype Empresarial Server usa la base de datos SQL principal como testigo. En un grupo como este, si apaga la base de datos principal, cambia a la copia reflejada y apaga una cantidad suficiente de servidores front-end para que no haya los suficientes en ejecución de acuerdo con la tabla anterior, todo el grupo de servidores quedará inactivo. Para obtener más información, consulte [testigo de creación de reflejo de base de datos](https://go.microsoft.com/fwlink/?LinkId=393672). 

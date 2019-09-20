@@ -17,12 +17,12 @@ description: Obtenga información sobre los pasos necesarios para configurar los
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882a6c708a7aae67a8aafae880d8f0244f5fa8b1
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
+ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493103"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047076"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 
@@ -53,7 +53,7 @@ Las directivas de eventos en directo se usan para controlar qué usuarios de su 
 
     A continuación se muestran las opciones de configuración que puede cambiar para adaptarse a las necesidades de su organización.
 
-    ![Captura de pantalla de la configuración de directiva de eventos en directo] (../media/teams-live-events-policies.png "Captura de pantalla de la configuración de directiva de eventos en directo en el centro de administración de Microsoft Teams") 
+    ![Captura de pantalla de la pantalla de configuración de directiva de eventos en directo]de(../media/teams-live-events-policies.png "configuración de directiva de eventos en directo en el centro de administración de Microsoft Teams") 
 
 |Configuración  |Descripción  |
 |---------|---------|
@@ -108,7 +108,7 @@ Las siguientes soluciones de SDN/eCDN están preintegradas y se pueden configura
 
 - La **transmisión por subárbol** ofrece una solución simple y eficaz para la distribución de video empresarial en vivo y a petición. Hive es una solución basada en software que no requiere hardware adicional ni ancho de banda y proporciona una manera segura de habilitar a miles de visores de vídeo simultáneos sin afectar a la red. Para los clientes que desean comprender el impacto que tiene el vídeo en su red antes de comprar una solución SDN/eCDN, la transmisión por secuencias de Hive también proporciona una solución de análisis basada en explorador para clientes de Microsoft. [Más información](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
-- **Kollective** es una plataforma de distribución de emparejamiento inteligente, basada en la nube, que aprovecha la infraestructura de red existente para ofrecer contenido, en muchos formatos (video de transmisión en vivo, video a petición, actualizaciones de software, revisiones de seguridad, etc.) más rápido, más confiable y con menos ancho de banda. Nuestra plataforma segura es de confianza para las instituciones financieras más grandes del mundo, sin necesidad de hardware, configuración y mantenimiento adicionales. [Más información](http://www.kollective.com).
+- **Kollective** es una plataforma de distribución de emparejamiento inteligente, basada en la nube, que aprovecha la infraestructura de red existente para ofrecer contenido, en muchos formatos (video de transmisión en vivo, video a petición, actualizaciones de software, revisiones de seguridad, etc.) más rápido, más confiable y con menos ancho de banda. Nuestra plataforma segura es de confianza para las instituciones financieras más grandes del mundo, sin necesidad de hardware, configuración y mantenimiento adicionales. [Más información](https://kollective.com/microsoft-pilot/).
  
 - La **rampa OmniCache** ofrece una distribución de red de próxima generación y garantiza la entrega transparente de contenido de video en redes WAN internacionales, ayudando a los productores de eventos a optimizar el ancho de banda de la red y las difusiones de eventos en vivo exitosas y a petición transmiti. La compatibilidad con la rampa OmniCache para eventos en directo producidos en Teams estará disponible próximamente. [Más información](http://www.ramp.com). 
  
