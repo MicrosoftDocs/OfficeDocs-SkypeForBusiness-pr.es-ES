@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9da7e2757902de025cb748bd2bb03a456a6b11
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
+ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047043"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37062894"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -149,15 +149,11 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|El vínculo simbólico o la asignación de una unidad a C:\users hace que la aplicación se inicie en una pantalla blanca  <br/> | Cuando Microsoft Teams se instala en Archivos de programa mediante scripts de instalación en vez de la ubicación predeterminada, el cliente no actualiza automáticamente cuando aparecen nuevas versiones.   <br/> | Deliberado. Asegúrese de instalar la aplicación en la ubicación predeterminada: `user\Appdata`. Si la asignación es necesaria, deberá usar la versión web de Microsoft Teams.  <br/> | 07/09/2017  <br/> |
+|El vínculo simbólico o la asignación de una unidad a C:\Usuarios hace que la aplicación se inicie en una pantalla blanca  <br/> | Cuando Microsoft Teams se instala en Archivos de programa mediante scripts de instalación en vez de la ubicación predeterminada, el cliente no actualiza automáticamente cuando aparecen nuevas versiones.   <br/> | Deliberado. Asegúrese de instalar la aplicación en la ubicación predeterminada: `user\Appdata`. Si la asignación es necesaria, deberá usar la versión web de Microsoft Teams.  <br/> | 07/09/2017  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |El vínculo simbólico o la asignación de una unidad a C:\users hace que la aplicación se inicie en una pantalla blanca  <br/> |Cuando la ubicación predeterminada de `C:\users\<user>\appData` cambia al mover la carpeta `C:\users` o al usar el vínculo simbólico, la aplicación se iniciará en una pantalla blanca.   <br/> |No hay ninguna solución alternativa conocida. Si la asignación es necesaria, deberá usar la versión web de Microsoft Teams.   <br/> |13/03/2017  <br/> |
-
-|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
-|:-----|:-----|:-----|:-----|
-|La presencia en la aplicación de Office no se muestra después de que un usuario se mueve a la experiencia TeamsOnly. <br/> |Cuando un usuario se mueve a la experiencia de TeamsOnly y el cliente de Skype Empresarial está desinstalado, la presencia deja de funcionar.  <br/> |Para que la presencia funcione en Outlook, Skype Empresarial debe estar incluido en la implementación de Office, incluso si solo piensa usar Microsoft Teams.  Se está planificando trabajar en el futuro con el fin de quitar la dependencia de Skype Empresarial, pero no está programada actualmente.     <br/> |9/2019  <br/> |
 
 ## <a name="environment"></a>Entorno
 
@@ -253,6 +249,12 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |No se pueden configurar las llamadas sin responder para que lleguen al correo de voz en la aplicación de escritorio|Cuando un usuario se encuentra en modo de solo Teams, su buzón de Exchange se encuentra en una ubicación local y, si accede a **Configuración** > **Llamadas** en la aplicación de escritorio de Teams, no puede seleccionar la opción para reenviar las llamadas al correo de voz (llamadas sin responder o todas las llamadas). Si alguna de las opciones ya está configurada, al abrir la pestaña Llamadas en Configuración, se deshabilitará el reenvío al correo de voz.|Configure el reenvío al correo de voz con la aplicación móvil de Teams.|27/5/2019|
+
+## <a name="presence"></a>Presence
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|La presencia en la aplicación de Outlook, o en otras aplicaciones de Office, no se muestra después de que un usuario se mueva al modo **Teams solo**. <br/> |Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams.  <br/> |Para ver la presencia en Outlook (y en otras aplicaciones de Office), debe tener instalado Skype Empresarial, incluso si está ejecutando Teams en modo **Teams solo**. Microsoft es consciente de este problema y está buscando una solución.   <br/> |9/2019  <br/> |
+
 
 
 ## <a name="provisioning"></a>Aprovisionamiento
