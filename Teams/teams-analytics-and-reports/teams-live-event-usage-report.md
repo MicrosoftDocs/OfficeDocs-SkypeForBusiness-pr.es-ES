@@ -15,20 +15,20 @@ ms.collection:
 description: Aprenda a usar el informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de los eventos en vivo de Teams en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 416c8ee1a5dd2ef2294fc125926e1a83822170b2
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: ad0ecd27df1f7bccd9a451f2581d55e5c335b1e0
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667071"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131619"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Informe de uso de eventos de Microsoft Teams Live
 
-El informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams le muestra la información general de actividades de eventos en vivo de su organización. Puede ver la información de uso, como el estado del evento, la hora de inicio, las vistas y el tipo de producción para cada evento. Puede obtener información sobre las tendencias de uso y saber quién en la organización programa, presenta y genera eventos en vivo. 
+El informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams le muestra la información general de actividades de eventos en vivo de su organización. Puede ver la información de uso, como el estado del evento, la hora de inicio, las vistas y el tipo de producción para cada evento. Puede obtener información sobre las tendencias de uso y saber quién en la organización programa, presenta y genera eventos en vivo.
 
 ## <a name="view-the-report"></a>Ver el informe
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **análisis & informes**y, a continuación, en **Informe**, seleccione **uso de eventos de Teams Live**.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **uso de eventos de Teams Live**.
 2. En **intervalo de fechas**, seleccione un rango predefinido o establezca un rango personalizado. Puede establecer un intervalo para mostrar los datos hasta un año, seis meses antes y después de la fecha actual.
 3. Faculta En **Organizer**, puede elegir mostrar solo eventos en directo organizados por un usuario específico.
 4. Haga clic en **Ejecutar Informe**.  
@@ -42,7 +42,7 @@ El informe de uso de eventos de Teams Live en el centro de administración de Mi
 |**1**   |El informe de eventos de Teams Live se puede visualizar para las tendencias de los últimos 7 días, 28 días o un intervalo de fechas personalizado que haya establecido. |
 |**2**   |Cada informe tiene una fecha en la que se generó. El informe refleja casi la actividad en tiempo real cuando se actualiza la página. |
 |**3**   |<ul><li>En el gráfico, el eje X es el intervalo de fechas seleccionado para el informe específico.</li> <li> El eje Y es el recuento total de la vista.</li> </ul>Desplace el puntero sobre el punto en una fecha determinada para ver el número de vistas en todos los eventos en directo de esa fecha.|
-|**4**   |La tabla ofrece un desglose de cada evento en directo. <ul><li>**Evento** es el nombre para mostrar del evento en directo. Para [obtener más información](#view-event-details) sobre el evento, haga clic en el nombre del evento. </li> <li>**Hora de inicio** hace referencia a la fecha y la hora de inicio del evento.</li> <li>El **Estado del evento** indica si el evento se ha realizado.  </li><li>**Organizador** es el nombre del organizador de eventos.</li> <li>**** Los moderadores son los nombres de los moderadores de eventos.</li><li>Los **productores** son los nombres de los productores de eventos.</li><li>**Vistas** es el número de vistas únicas.</li><li>**Grabación** : muestra si la configuración de grabación está activada o desactivada.</li><li>**Tipo de producción** : muestra si el evento se produce en Teams o mediante una aplicación o dispositivo externo.</li></li> </ul>Tenga en cuenta que si ya no existe una cuenta de usuario en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
+|**4**   |La tabla ofrece un desglose de cada evento en directo. <ul><li>**Evento** es el nombre para mostrar del evento en directo. Para [obtener más información](#view-event-details) sobre el evento, haga clic en el nombre del evento. </li> <li>**Hora de inicio** hace referencia a la fecha y la hora de inicio del evento.</li> <li>El **Estado del evento** indica si el evento se ha realizado.  </li><li>**Organizador** es el nombre del organizador de eventos.</li> <li>Los **moderadores** son los nombres de los moderadores de eventos.</li><li>Los **productores** son los nombres de los productores de eventos.</li><li>**Vistas** es el número de vistas únicas.</li><li>**Grabación** : muestra si la configuración de grabación está activada o desactivada.</li><li>**Tipo de producción** : muestra si el evento se produce en Teams o mediante una aplicación o dispositivo externo.</li></li> </ul>Tenga en cuenta que si ya no existe una cuenta de usuario en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla.|
 
 ## <a name="view-event-details"></a>Ver detalles del evento

@@ -16,12 +16,12 @@ ms.collection:
 description: Obtenga más información sobre los informes de teams que están disponibles en el centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29675485d9a23b184641e8fa855fe2d87b4b80ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: de405a89b74a5e772e0f3d58027592d2e6ae4289
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234759"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131581"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -36,7 +36,7 @@ Para acceder a los informes, debe ser un administrador global en Office 365, adm
 
 ## <a name="teams-reporting-reference"></a>Referencia de informes de equipos
 
-Esta es una lista de los informes de equipos disponibles en el centro de administración de Microsoft Teams y una descripción general de la información que está disponible en cada informe.
+Esta es una lista de los informes de equipos disponibles en el centro de administración de Microsoft Teams y una descripción general de parte de la información disponible en cada informe.
 
 Mejoramos continuamente la experiencia de creación de informes de Teams y agregamos características y funcionalidades. A lo largo del tiempo, crearemos capacidades adicionales en los informes y agregaremos nuevos informes en el centro de administración de Microsoft Teams.
 
@@ -46,6 +46,9 @@ Mejoramos continuamente la experiencia de creación de informes de Teams y agreg
 |[Informe de actividad de usuario de Teams](user-activity-report.md)  |  1:1 llama a un usuario en el que participó<br/>Mensajes que un usuario ha publicado en un chat de equipo<br/>Mensajes que un usuario ha publicado en un chat privado<br/>Fecha de la última actividad de un usuario     |
 |[Informe de uso de dispositivos de Teams](device-usage-report.md)   |  Usuarios de Windows<br/>Usuarios de Mac<br/>usuarios de iOS<br/>Usuarios de teléfono Android     |
 |[Informe de uso de eventos de Teams Live](teams-live-event-usage-report.md)   |  Vistas totales<br>Hora de inicio<br>Estado del evento<br>Organizador<br>Moderador<br>Elaborado<br>Configuración de grabación<br>Tipo de producción    |
+|[Informe de usuarios bloqueados de RTC de Teams](pstn-blocked-users-report.md)   |  Nombre para mostrar<br>Número de teléfono<br>Motivo<br>Tipo de acción<br>Fecha y hora de la acción   |
+|[Informe de uso de RTC de Teams: planes de llamadas](pstn-usage-report.md#calling-plans)|  Marca de tiempo<br>Nombre de usuario<br>Número de teléfono<br>Tipo de llamada <br>Llama para<br>A un país o a una región <br>Llamado desde <br>Desde país o región<br>Cargas<br>Moneda<br>Duración<br>Nacional o internacional<br>Id. de llamada<br>Tipo de número<br>País o región<br>Id. de conferencia<br>Capacidad (licencia)|
+|[Informe de uso de RTC de Teams: enrutamiento directo](pstn-usage-report.md#direct-routing)  |  Marca de tiempo<br>Nombre para mostrar<br>Dirección SIP<br>Número de teléfono <br>Tipo de llamada<br>Llama para<br>Hora de inicio<br>Hora de invitación<br>Hora de error<br>Hora de finalización<br>Duración<br>Tipo de número<br>Omisión de medios<br>FQDN DE SBC<br>Región de Azure<br>Tipo de evento<br>Código del SIP final<br>Subcódigo final de Microsoft<br>Frase final del SIP<br>IDENTIFICADOR de coorelse  |
 
 > [!NOTE]
 > Los informes de equipos muestran los datos de los usuarios activos y de los equipos activos. Por ejemplo, si un usuario de la organización no está activo en Teams durante el intervalo de fechas especificado para un informe, los datos de ese usuario no se incluyen en el informe.

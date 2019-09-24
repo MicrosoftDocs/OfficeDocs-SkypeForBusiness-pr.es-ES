@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: d331fa51b8065ba7d1d39c7583beebbc093ddcce
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645316"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131652"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -111,7 +111,7 @@ Para configurar la base y los subdominios, siga los pasos que se describen a con
 
 Solo puede agregar dominios nuevos si inició sesión en el centro de administración de Microsoft 365 como administrador global. 
 
-Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365https://portal.office.com)(, vaya **** > a usuarios**activos**y, a continuación, compruebe que tiene un rol de administrador global. 
+Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365https://portal.office.com)(, vaya **a** > usuarios**activos**y, a continuación, compruebe que tiene un rol de administrador global. 
 
 Para obtener más información acerca de los roles de administrador y cómo asignar un rol en Office 365, consulte [acerca de los roles de administrador de office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -152,7 +152,7 @@ Tendrá que crear un nombre de subdominio único para cada cliente. En este ejem
 
 Solo puede agregar dominios nuevos si inició sesión en el centro de administración de Microsoft 365 como administrador global. 
 
-Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365https://portal.office.com)(, vaya **** > a usuarios**activos**y, a continuación, compruebe que tiene un rol de administrador global. 
+Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365https://portal.office.com)(, vaya **a** > usuarios**activos**y, a continuación, compruebe que tiene un rol de administrador global. 
 
 Para obtener más información acerca de los roles de administrador y cómo asignar un rol en Office 365, consulte [acerca de los roles de administrador de office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -188,7 +188,7 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 
 10. Haga clic en **Finalizar** en la página **actualizar la configuración DNS** .
 
-    ![Captura de pantalla de la página actualizar la configuración DNS](media/direct-routing-11-sbc-update-dns-finish.png)
+    ![Captura de pantalla de la página Actualizar configuración DNS](media/direct-routing-11-sbc-update-dns-finish.png)
 
 11. Asegúrese de que el estado es de **configuración completada**. 
     
@@ -229,6 +229,7 @@ Se introdujeron dos nuevas entidades:
 -    El tronco derivado, como sugiere el nombre, hereda o deriva todos los parámetros de configuración del tronco del portador. Acerca
 -   Customers.adatum.biz: el tronco del portador que debe crearse en el inquilino del transportista.
 -   Sbc1.customers.adatum.biz: el tronco derivado de un inquilino de cliente que no tiene que crearse en PowerShell.  Simplemente puede Agregar el nombre del tronco derivado en el inquilino del cliente en la Directiva de enrutamiento de voz en línea sin crearlo.
+-   El operador necesitará configurar un registro DNS para resolver el FQDN de troncal derivado para la dirección IP del SBC de la portadora.
 
 -   Los cambios realizados en un tronco de portador (en el inquilino de transportista) se aplican automáticamente a los troncos derivados. Por ejemplo, los operadores pueden cambiar un puerto SIP en el tronco del portador, y este cambio se aplicará a todos los troncos derivados. La nueva lógica para configurar los troncos simplifica la administración, ya que no es necesario ir a cada inquilino y cambiar el parámetro en cada tronco.
 -   Las opciones solo se envían al FQDN del tronco del transportista. El estado de mantenimiento del tronco del portador se aplica a todos los troncos derivados y se usa para las decisiones de enrutamiento. Más información sobre [las opciones de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-monitor-and-troubleshoot).

@@ -15,12 +15,12 @@ ms.collection:
 description: Obtenga información sobre cómo usar el informe actividad de usuarios de Teams en el centro de administración de Microsoft Teams para ver cómo los usuarios de su organización usan Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d64937d76ad2b634509972f203992b50eb64ccff
-ms.sourcegitcommit: a5cde2df1aceed9d919ef53281dd0d75f1f5e183
+ms.openlocfilehash: dd8c33bfa1ebfbeb4ba4c79827c13e4c33f9a340
+ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36667123"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37131607"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 
@@ -28,10 +28,10 @@ El informe actividad de usuarios de Teams le proporciona información sobre los 
 
 ## <a name="view-the-report"></a>Ver el informe
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en **análisis & informes**y, a continuación, en **Informe**, seleccione **actividad de usuario**de Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **actividad de usuario de Teams**.
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.
 
-    ![Captura de pantalla del informe de actividad de usuarios de Teams en el centro de administración de equipos con llamadas] (../media/teams-reports-user-activity-with-callouts.png "Captura de pantalla del informe de actividad de usuarios de Teams en el centro de administración de equipos con llamadas")
+    ![Captura de pantalla del informe actividad de usuarios de Teams en el centro de administración de Teams con llamadas] (../media/teams-reports-user-activity-with-callouts.png "Captura de pantalla del informe actividad de usuarios de Teams en el centro de administración de Teams con llamadas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
