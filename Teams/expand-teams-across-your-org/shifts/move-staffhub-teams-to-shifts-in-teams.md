@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cef8c6fbfd5ed0b19d6762b7508b311413d11066
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5bf9776dbf5a5992354f542436b4904d53d58508
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233288"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142050"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
 > [!IMPORTANT]
-> A partir del 1 de octubre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 1 de octubre de 2019. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se](microsoft-staffhub-to-be-retired.md)retirará.
+> A partir del 1 de octubre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 1 de octubre de 2019. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md).
 
 La aplicación de turnos de Teams ofrece un enfoque simple para administrar las programaciones y el flujo constante de swaps y cancelaciones de turnos que se producen diariamente. Los miembros del equipo pueden acceder a su programación y desplazar la información directamente en la aplicación y en todos sus dispositivos para establecer sus preferencias, administrar sus programaciones y solicitar tiempo.
 
@@ -88,9 +88,11 @@ Administra las licencias de Teams en el centro de administración de Microsoft 3
 > [!NOTE]
 > Si su organización usa Skype empresarial y no está listo para mover a todos los usuarios a Teams, puede habilitar a Teams para sus trabajadores de los Firstline, que luego pueden ejecutar equipos junto con Skype empresarial. En este modo de coexistencia, llamadas *islas*, cada aplicación cliente funciona como una solución independiente. Para obtener más información, consulte [comprender Teams y la interoperabilidad y coexistencia de Skype empresarial](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-### <a name="install-the-staffhub-powershell-module"></a>Instalar el módulo de PowerShell de StaffHub
+### <a name="install-the-prerelease-version-of-the-staffhub-powershell-module"></a>Instalar la versión preliminar del módulo de PowerShell de StaffHub
 
-Si todavía no lo ha hecho, [Instale el módulo de PowerShell de StaffHub](install-the-staffhub-powershell-module.md). 
+Si todavía no lo ha hecho, [Instale la versión preliminar del módulo de PowerShell de StaffHub](install-the-staffhub-powershell-module.md). 
+
+Debe tener instalada la versión preliminar del módulo para mover los equipos de StaffHub a teams.
 
 ### <a name="link-an-azure-ad-account-for-staffhub-team-members-who-dont-have-one"></a>Vincular una cuenta de Azure AD a los miembros del equipo de StaffHub que no tengan una
 
@@ -143,7 +145,7 @@ Como parte de la estrategia de incorporación, proporcione formación e instrucc
 - [Vídeos de aprendizaje de Teams](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Documentación de Ayuda de Teams](https://support.office.com/teams)
 
-Para obtener instrucciones sobre la implementación de equipos y sobre la adopción de equipos, consulte [Cómo](../../How-to-roll-out-teams.md) implementar Teams y [adoptar equipos](../../adopt-microsoft-teams-landing-page.md).
+Para obtener instrucciones sobre la implementación de equipos y sobre la adopción de equipos, consulte [cómo implementar Teams](../../How-to-roll-out-teams.md) y [adoptar equipos](../../adopt-microsoft-teams-landing-page.md).
 
 ## <a name="conduct-a-pilot"></a>Realizar una prueba piloto
 
@@ -157,7 +159,7 @@ Póngase en contacto con usted para identificar dos o tres equipos piloto. Todos
 
 Identifique a los campeones a través de equipos piloto y inscribalos para ayudar a repartir turnos. Los campeones del equipo son apasionados de lo que hacen, compartiendo su propio aprendizaje para ofrecer asistencia y orientación a los miembros del equipo. Los expertos del equipo pueden ser administradores o propietarios del equipo.
 
-Los expertos en equipo deben asegurarse de que los miembros del equipo se configuren dedicando tiempo para que todos puedan [obtener clientes](../../get-clients.md)de equipo, iniciar sesión en Teams y consultar sus programaciones en turnos y empezar a conversar entre sí. Los usuarios que ya estén familiarizados con StaffHub se activarán y se ejecutarán rápidamente en turnos. También puede hacer que desplace la [ayuda](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) para obtener ayuda adicional.
+Los expertos en equipo deben asegurarse de que los miembros del equipo se configuren dedicando tiempo para que todos puedan [obtener clientes](../../get-clients.md)de equipo, iniciar sesión en Teams y consultar sus programaciones en turnos y empezar a conversar entre sí. Los usuarios que ya estén familiarizados con StaffHub se activarán y se ejecutarán rápidamente en turnos. También puede hacer que [desplace la ayuda](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) para obtener ayuda adicional.
 
 ### <a name="move-a-staffhub-team"></a>Mover un equipo de StaffHub
 

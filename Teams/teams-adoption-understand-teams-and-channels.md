@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d4ed6cb14322569e851236eba86bc3b4470f8c7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c077d49a09210862936d94d46708db95efe4585b
+ms.sourcegitcommit: 6ba9eeb81b7d55ffc319d6d6658d0ecac83c2159
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240776"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "37142061"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 
@@ -32,7 +32,7 @@ Los conceptos de los equipos y los canales son fundamentales para una implementa
 
 - Los canales son los espacios de colaboración dentro de un equipo en el que se realiza el trabajo real. 
 
-Para obtener más información sobre los equipos y los canales, consulte la [información general de equipos y canales en Microsoft Teams](teams-channels-overview.md). Para obtener orientación completa sobre la adopción de equipos, vea la [Guía de adopción de equipos](https:aka.ms/teamstoolkit). Para obtener más información sobre los equipos y grupos de Office 365, consulte [grupos de office 365 y Microsoft Teams](office-365-groups.md) , y [Obtenga más información sobre los grupos de Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+Para obtener más información sobre los equipos y los canales, consulte la [información general de equipos y canales en Microsoft Teams](teams-channels-overview.md). Para obtener orientación completa sobre la adopción de equipos, vea la [Guía de adopción de equipos](https://aka.ms/teamstoolkit). Para obtener más información sobre los equipos y grupos de Office 365, consulte [grupos de office 365 y Microsoft Teams](office-365-groups.md) , y [Obtenga más información sobre los grupos de Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 |  |  |
