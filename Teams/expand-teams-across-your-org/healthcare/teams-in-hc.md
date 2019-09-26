@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a Teams para organizaciones sanitarias
-ms.openlocfilehash: 380d9c75bc2f7eeb66bc6d0d0f5598d2a243a9da
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 5fe896db8acf690fbb71b1b6ecf0fcd571d903c5
+ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767160"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37159735"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -30,7 +30,7 @@ Microsoft Teams ofrece una serie de características útiles para hospitales y o
 - Integración de registro de asistencia electrónica (EHR) 
 - Integración del sistema de los Firstline Worker 
 
-El contenido de esta sección se basa en las funciones fundamentales de los equipos, como las reuniones, las llamadas y la mensajería, y supone que ya ha implementado los equipos implementados en su organización. Si aún no ha implementado Teams, empiece por leer [cómo implementar Microsoft Teams](../../How-to-roll-out-teams.md).
+El contenido de esta sección se basa en las funciones fundamentales de los equipos, como las reuniones, las llamadas y la mensajería, y supone que ya ha implementado los equipos de su organización. Si aún no ha implementado Teams, empiece por leer [cómo implementar Microsoft Teams](../../How-to-roll-out-teams.md).
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Coordinación de cuidados-aplicación de pacientes de Microsoft Teams
 

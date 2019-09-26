@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
-ms.openlocfilehash: 4a92ba051564800dace5eafec8e573d807c11d04
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b05cb7638314ce583ce97d98e3bb5d56e264ca62
+ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775177"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37159746"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
@@ -38,54 +38,51 @@ Además, consulte:
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
-Las salas de Microsoft Teams se adaptan a diferentes tamaños de sala por medio de accesorios, en función de los periféricos de audio y vídeo. El hardware que se muestra en este artículo admite los modos de reunión de Skype y de equipos. Los periféricos de audio y vídeo se conectan a las salas de Microsoft Teams a través de una conexión USB o HDMI en el dispositivo de acoplamiento. También necesitará:
+Las salas de Microsoft Teams se adaptan a diferentes tamaños de sala con diferentes periféricos de audio y vídeo, en función del tamaño de la sala. El hardware que se muestra en este artículo admite los modos de reunión de Skype y de equipos. Los periféricos de audio y vídeo se conectan a las salas de Microsoft Teams a través de una conexión USB o HDMI en el dispositivo de acoplamiento. También necesita:
 
 - Un disco USB de 32 GB o superior que configure como medio de instalación de Windows de arranque para Windows 10 Enterprise.
-
 - Una de las siguientes tabletas o consolas:
 
-**Tabletas compatibles**
+  **Tabletas compatibles**
 
-|Lápiz|Processor|MEMORIAS|Disco|
-|:-----|:-----|:-----|:-----|
-|Surface Pro 6| Núcleo de i5 |16 GB u 8 GB |128 GB o más |
-|Surface Pro (quinta gen. gen) |Núcleo de i5 |8 GB o 4 GB |128 GB o más |
-|Surface Pro 4 |Núcleo de i5 |8 GB o 4 GB |128 GB o más |
+  |Lápiz|Processor|MEMORIAS|Disco|
+  |:-----|:-----|:-----|:-----|
+  |Surface Pro 6| Núcleo de i5 |16 GB u 8 GB |128 GB o más |
+  |Surface Pro </br>(quinta generación) |Núcleo de i5 |8 GB o 4 GB |128 GB o más |
+  |Surface Pro 4 |Núcleo de i5 |8 GB o 4 GB |128 GB o más |
 
 - Una de las siguientes opciones de estación de acoplamiento para proteger una tableta de la tabla sala de reuniones.
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
-
   - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
-
   - [Serie MSR MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
-**Otras consolas de salones de Microsoft Teams compatibles**
+- **Otras consolas de salones de Microsoft Teams compatibles**
 
-|Consola|Processor|MEMORIAS|Disco|
-|:-----|:-----|:-----|:-----|
-|[Crestron Flex UC-M130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Núcleo de i5|8 GB |128 GB |
-|[Crestron Flex UC-B130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Núcleo de i5|8 GB |128 GB |
-|[Crestron Flex UC-B140-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Núcleo de i5|8 GB |128 GB |
-|[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Núcleo de i7|8 GB |128 GB |
-[Crestron Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Núcleo de i7|8 GB |128 GB|
-|[Crestron Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Núcleo de i7|8 GB|128 GB|
-|[HP Elite Slice para salas de reuniones G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Núcleo de i5 |8 GB |128 GB |
-|[HP Elite Slice G2 audio preparado con salas de Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Núcleo de i5 |8 GB |128 GB |
-|[Concentrador ThinkSmart de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Núcleo de i5 |8 GB |128 GB |
-|[Toque Logitech](https://www.logitech.com/en-us/product/microsoft-rooms)|Núcleo de i5|8 GB |128 GB |
-|[Yealink MVC800](https://www.yealink.com/products_125.html)|Núcleo de i5|8 GB|128 GB|
-|[Yealink MVC500](https://www.yealink.com/products_126.html)|Núcleo de i5|8 GB |128 GB |
-|||||
+  |Consola|Processor|MEMORIAS|Disco|
+  |:-----|:-----|:-----|:-----|
+  |[Crestron Flex UC-M130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Núcleo de i5|8 GB |128 GB |
+  |[Crestron Flex UC-B130-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Núcleo de i5|8 GB |128 GB |
+  |[Crestron Flex UC-B140-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Núcleo de i5|8 GB |128 GB |
+  |[Crestron Flex UC-M150-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Núcleo de i7|8 GB |128 GB |
+  [Crestron Flex UC-B160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Núcleo de i7|8 GB |128 GB|
+  |[Crestron Flex UC-C160-T](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Núcleo de i7|8 GB|128 GB|
+  |[HP Elite Slice para salas de reuniones G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Núcleo de i5 |8 GB |128 GB |
+  |[HP Elite Slice G2 audio preparado con salas de Microsoft Teams](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Núcleo de i5 |8 GB |128 GB |
+  |[Concentrador ThinkSmart de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Núcleo de i5 |8 GB |128 GB |
+  |[Toque Logitech](https://www.logitech.com/en-us/product/microsoft-rooms)|Núcleo de i5|8 GB |128 GB |
+  |[Yealink MVC800](https://www.yealink.com/products_125.html)|Núcleo de i5|8 GB|128 GB|
+  |[Yealink MVC500](https://www.yealink.com/products_126.html)|Núcleo de i5|8 GB |128 GB |
+  |||||
 
-> [!NOTE]
-> No se admiten los procesadores m3 principales.
+  > [!NOTE]
+  > No se admiten los procesadores m3 principales.
 
-### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>**Versiones de firmware certificadas para periféricos de audio y vídeo USB**
+### <a name="certified-firmware-versions-for-usb-audio-and-video-peripherals"></a>Versiones de firmware certificadas para periféricos de audio y vídeo USB
 
 Estos dispositivos están disponibles en [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
 
-|Periféricos de Microsoft Teams Rooms|Versión de firmware certificada para salas de Microsoft Teams| La cámara admite el uso de cámaras de contenido|
+|Periféricos de Microsoft Teams Rooms|Versión de firmware certificada | La cámara admite el uso de cámaras de contenido|
 |:--- |:--- | :--- |
 |[Crestron Huddly IQ](https://www.crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | &#x2714; |
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio)   |v240| &#x2714; |
@@ -107,24 +104,22 @@ Estos dispositivos están disponibles en [aka.ms/teamsdevices](https://aka.ms/te
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
-| |  | |
+|[Biamp Tesira de AVB VT4 de audio fijo DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Micrófono SENNHEISER TeamConnect techo 2](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [TESIRA ex-UBT](https://www.biamp.com/products/tesira/tesira-expanders)&Dagger; |  DSP Biamp: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |  |
+||||
 
-- **Extensores de USB**:
+&Dagger;Los clientes pueden elegir la interfaz de Dante o el conmutador de red recomendado por Biamp/Sennheiser para este paquete.
 
-  - Los puertos USB de los acoplamientos de Tablet PC son compatibles con USB 3,0. Puede usar un extensor USB 2. x, pero esto le limita a las velocidades de USB 2. x en el extremo del lejano y hacerlo no es recomendable para los periféricos USB 3,0.
+#### <a name="usb-extenders"></a>Extensores de USB
 
-  - Un extensor debe cumplir con las especificaciones de USB 2,0 o posterior.
-
-  - Los acoplamientos de Tablet PC admiten al menos dos fases de extensión de concentrador USB externo. Si necesita conectar más de dos concentradores USB en serie, consulte al fabricante del Dock para confirmar si es compatible.
-
-- Conexión GbE por cable en el salón. Cable Ethernet de una longitud adecuada.
-
-- Se muestran hasta 2 1080-p con conexiones HDMI. Cables HDMI de longitud adecuada.
+- Los puertos USB de los acoplamientos de Tablet PC son compatibles con USB 3,0. Puede usar un extensor USB 2. x. Esto le limitará a las velocidades de USB 2. x en el extremo del lejano, lo cual no es recomendable para periféricos USB 3,0.
+- Un extensor debe cumplir con las especificaciones de USB 2,0 o posterior.
+  - Los acoplamientos de Tablet PC admiten al menos dos fases de extensión de concentrador USB externo. Si conecta más de dos concentradores USB en serie, consulte con el fabricante del Dock para confirmar si admiten la conexión de serie.
+  - Conexión GbE por cable en el salón. Cable Ethernet de una longitud adecuada.
+  - Se muestran hasta 2 1080-p con conexiones HDMI. Cables HDMI de longitud adecuada.
 
 > [!NOTE]
 > Si se usa un televisor como pantalla, debe ser compatible con la característica Control de electrónica de consumidor (CEC) de HDMI o habilitarla para que puede cambiar automáticamente a un origen de vídeo activo desde el modo de espera. Esta característica no es compatible con todos los televisores.
-
-> [!NOTE]
+>
 > Las salas de Microsoft Teams no usan un teclado. En caso de necesitarlo, el administrador debe usar el teclado en pantalla. Al crear imágenes del dispositivo de salas de Microsoft Teams, se necesitará un teclado o un mouse USB.
 
 En las siguientes tablas se proporcionan recomendaciones para los periféricos basados en el tamaño de la sala:
@@ -133,10 +128,10 @@ En las siguientes tablas se proporcionan recomendaciones para los periféricos b
 
 |Tipo de sala|Cantidad de personas|Distancia máxima recomendada desde el micrófono al altavoz|Dispositivo por tamaño máximo de la sala|Comentarios|
 |:-----|:-----|:-----|:-----|:-----|
-|**Foco** <br/> 10 ' x 9 '   |2 a 4  |1,5 m  |Logitech Connect  |Los dispositivos Logitech Connect incluyen una cámara, por lo que debe situarse en la parte delantera de la sala (no en el centro de la tabla) para capturar a los asistentes de la reunión.  |
-|**Pequeña** <br/> 16 x 16  |4 a 6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |El volumen de reproducción puede estar limitado para salas más grandes.  |
+|**Foco** <br/> 10 ' x 9 '   |2 a 4  |1,5 m  |Logitech Connect  |Los dispositivos Logitech Connect incluyen una cámara que debe estar situada en la parte delantera de la sala (no en el centro de la tabla) para capturar a los asistentes a una reunión local. |
+|**Pequeña** <br/> 16 x 16  |4 a 6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |El volumen de reproducción se puede limitar para salas más grandes.  |
 |**Media** <br/> 18 ' x 20 '  |6 – 12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> Logitech MeetUp <br/> Logitech Group <br/> Polycom Trio <br/> Polycom CX5100  <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000Md  |Logitech MeetUp incluye una cámara para que se coloque en la parte delantera del salón (no en el centro de la tabla para capturar asistentes de reunión locales). <br/> En general, los salones con tablas largas rectangulares o con forma de u pueden beneficiarse de micrófonos satélite. <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  |
-|**Grande** <br/> 15 ' x 32 '  |de 12 a 16  |3 m <br/> Esta distancia también se aplica al área cubierta por cada micrófono por satélite conectado al dispositivo de audio.  |Grupo Logitech + satélite micrófonos <br/> Micrófonos de Polycom trío + satélite <br/> Micrófonos de Polycom CX5100 + satélite <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-y micrófonos satélite  |Todos los dispositivos de audio que se enumeran en esta fila admiten opciones de micrófono satelital. <br/> CX5100 incluye una cámara integrada de 360 grados para que el dispositivo pueda colocarse en el centro de la tabla. <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  |
+|**Grande** <br/> 15 ' x 32 '  |de 12 a 16  |3 m <br/> Esta distancia también se aplica al área cubierta por cada micrófono satélite conectado.  |Grupo Logitech + satélite micrófonos <br/> Micrófonos de Polycom trío + satélite <br/> Micrófonos de Polycom CX5100 + satélite <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-y micrófonos satélite  |Todos los dispositivos de audio que se enumeran en esta fila admiten opciones de micrófono satelital. <br/> CX5100 incluye una cámara integrada de 360 grados para que el dispositivo pueda colocarse en el centro de la tabla. <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  |
 
 **Microsoft Teams salones de video certificados**
 
@@ -152,7 +147,7 @@ En las siguientes tablas se proporcionan recomendaciones para los periféricos b
 
 ## <a name="required-software-downloads"></a>Descargas de software necesarias
 
-Para crear su propia imagen de salones de Microsoft Teams, siga las instrucciones de [configurar una consola de salas de Microsoft Teams](console.md). Estas instrucciones le guiarán a través de la descarga de todo el software necesario para el proceso de instalación.
+Para crear su propia imagen de salones de Microsoft Teams, siga las instrucciones de [configurar una consola de salas de Microsoft Teams](console.md). Estas instrucciones le guiarán a través de la descarga de todo el software necesario para la instalación.
 
 > [!NOTE]
 > Los profesionales de ti necesitarán acceder a los archivos de ISO de Windows 10 Enterprise a través de su contrato de licencias por volumen.
