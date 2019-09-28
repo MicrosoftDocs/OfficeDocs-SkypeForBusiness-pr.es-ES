@@ -18,12 +18,12 @@ description: Su administrador de ti puede configurar el acceso externo para otro
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dedda63d5ec97d914ba6bd1a70b7e5b3f1d9d7ee
-ms.sourcegitcommit: dc151bf4454ddec20db5cd133a42a67599c08d64
+ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36838117"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305766"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 ======================================================
@@ -70,7 +70,7 @@ Consulte la tabla siguiente para obtener una comparación de las característica
 | El usuario se identifica como una fiesta externa | Sí | Sí |
 | Se muestra la presencia | Sí | Sí |
 | Se muestra un mensaje de fuera de la oficina | No | Sí |
-| Usuario individual puede bloquearse | No | Sí |
+| Usuario individual puede bloquearse | No | No |
 | @mentions son compatibles | No | Sí |
 | Hacer llamadas privadas | Sí | Sí |
 | Permitir video IP | Sí | Sí |

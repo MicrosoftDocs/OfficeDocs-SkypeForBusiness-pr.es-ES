@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 0046a008579c6c741d99825e6b79387a73eec55b
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: c8725523fbef65b5687e68a860d2f2f3137e649d
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645264"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305790"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -66,6 +66,8 @@ Con el sistema telefónico, los usuarios de Skype empresarial obtendrán las sig
 |[Realizar y recibir una videollamada con Skype Empresarial](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Puede ver el nombre de quien habla y la secuencia de vídeo en una pequeña ventana flotante para poder estar siempre listo para responder a cualquier pregunta. <br/> |
 |[Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Este es el funcionamiento del buzón de voz de nube: cuando un usuario recibe un mensaje de voz, se envía a su buzón como un correo electrónico con el mensaje de voz como datos adjuntos. También podrán escuchar sus mensajes mediante un teléfono de escritorio certificado para Skype, todas las aplicaciones de Skype Empresarial o Lync para Mac 2011.  <br/> El buzón de voz de nube incluye un saludo personalizado, un indicador de mensaje en espera y responder con una llamada. Puede hacer que todo el correo de voz se deposite en buzones y se ponga a disposición a través de Skype Empresarial en su PC, dispositivo móvil y teléfono IP.  <br/> |
 |Música en espera | Disponible en septiembre de 2019, el sistema telefónico reproducirá la música predeterminada definida por el servicio cuando se ponga en espera una llamada externa de la red de telefonía pública conmutada (RTC).  Esta característica funciona para las llamadas entre usuarios de RTC y entre equipos, además de las llamadas hechas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. (Todas las demás plataformas proporcionan una indicación visual cuando un usuario se pone en espera, pero la persona que llama RTC no tiene ninguna manera de saberlo).  En la primera versión, el administrador no puede configurar esta característica.| 
+|Revertir búsqueda de números | Disponible en septiembre de 2019, el sistema telefónico mostrará el identificador denominado para un número de teléfono externo si el número está asociado con un usuario en AAD. Si el número de teléfono no está en AAD, se mostrará el nombre para mostrar proporcionado por Telco, si está disponible.  |
+
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planear y configurar el sistema telefónico en Office 365
 <a name="bkmk_setup"> </a>

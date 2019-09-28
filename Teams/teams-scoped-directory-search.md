@@ -18,18 +18,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 068a37af62ea31c53caed8c9dc22feec6fd60ec6
-ms.sourcegitcommit: bd9b29cdaa183b1f5cc2d643a5a2d231a56a2c3f
+ms.openlocfilehash: 4e3b95e9d8de04abc6299a52a27cf07d95365a4f
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "35614264"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305804"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar la búsqueda de directorios enfocada de Microsoft Teams
 
 El ámbito de la búsqueda de directorios de Microsoft Teams permite a las organizaciones crear límites virtuales que controlan cómo los usuarios pueden buscar y comunicarse con otros usuarios de su organización. 
 
 Microsoft Teams permite a las organizaciones proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams usa [directivas de libreta de direcciones de Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) para admitir estas vistas personalizadas. Una vez que se habilitan las directivas, los resultados devueltos por las búsquedas de otros usuarios (por ejemplo, para iniciar una conversación o agregar miembros a un equipo) se regirán según las directivas configuradas. Los usuarios no podrán buscar ni descubrir equipos cuando la búsqueda de ámbito está activa. 
+
+> [!NOTE]
+> En entornos híbridos de Exchange, esta característica solo funciona con los buzones de Exchange Online y no con los buzones locales.
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>¿Cuándo debería usar búsquedas de directorio de ámbito?
 
@@ -47,7 +50,7 @@ Para obtener información sobre cómo usar las directivas de la libreta de direc
 
 1. Use directivas de libreta de direcciones para configurar su organización en subgrupos virtuales. Para obtener más información, consulte [procedimientos para directivas de libreta de direcciones](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
 
-2. En el centro de administración de Microsoft Teams, seleccione Configuración de Teams de la **organización** > ****.
+2. En el centro de administración de Microsoft Teams, seleccione Configuración de**Teams**de la **organización** > .
 
 3. En **Buscar**, junto a la **búsqueda en el directorio de ámbito en Teams mediante una directiva de la libreta de direcciones de Exchange (APB)**, active la opción **de**alternancia.
 

@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.voice.resourceaccounts.tooltip.phonenumber
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9ed190a2d32a2e607fd747a70ed6db9f7daaa3d
-ms.sourcegitcommit: 5d29e8eb7a0c13edde8015da1e63b01b7081b4b5
+ms.openlocfilehash: a4bfa488500d6bd0fcea3c64e0d463003756d89c
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37028255"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305641"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licencias de Office 365 para Microsoft Teams
 ========================================
@@ -48,7 +48,7 @@ Para obtener más información sobre la obtención de equipos, consulte [¿Cómo
 > Teams también está disponible para organizaciones sin ánimo de lucro. Los equipos comenzarán a implementarse para la comunidad de la nube de Estados Unidos (GCC) el 17 de julio y estarán disponibles para todos los clientes que cumplan los requisitos antes de que finalice el 2018 de agosto. Estamos trabajando para poner Microsoft Teams en las nubes de otros Estados Unidos (GCC High y DoD) próximamente. Obtenga más información en el blog de Microsoft Teams [aquí](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
 
 > [!NOTE]
-> A partir del 1 de octubre de 2018, los nuevos clientes de Office 365 con 500 puestos o menos se incorporarán a teams y no tendrán acceso a Skype empresarial online. Los inquilinos que ya usan Skype empresarial online podrán continuar haciendo esto (incluido el aprovisionamiento de nuevos usuarios) hasta que completen la transición a teams. Para obtener más información, consulte [Microsoft Teams ahora es el cliente principal para las reuniones y las llamadas en Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+> A partir del 2019 de agosto, todos los clientes nuevos de Office 365 se incorporarán a teams y no tendrán acceso a Skype empresarial online. Los inquilinos que ya usan Skype empresarial online podrán continuar haciendo esto (incluido el aprovisionamiento de nuevos usuarios) hasta que completen la transición a teams. Para obtener más información, consulte [Microsoft Teams ahora es el cliente principal para las reuniones y las llamadas en Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
 
 > [!NOTE]
 > Si Skype empresarial online aparece en las aplicaciones para la licencia seleccionada, no la quite. Si está en la lista y se ha eliminado, la configuración de usuarios de Teams no se completará correctamente. 

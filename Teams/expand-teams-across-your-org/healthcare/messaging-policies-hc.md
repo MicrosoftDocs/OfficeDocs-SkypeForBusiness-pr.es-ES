@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a la mensajería segura para las organizaciones sanitarias
-ms.openlocfilehash: 154588eb1008bd1cd2749642fb2b9c994d9fb647
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6fa8ceef15b0f88a4624ebaaeaa177c4f0d1e1e3
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232341"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306687"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 
@@ -26,7 +26,7 @@ Las directivas de mensajería se usan para controlar qué características de me
 
 Puede usar la directiva predeterminada o bien crear una o más directivas de mensajería personalizadas para los miembros de su organización. Después de crear una directiva, tendrá que asignarla a un usuario o grupos de usuarios de la organización. Por ejemplo, puede optar por permitir que determinados roles de trabajo utilicen estas características (tal vez solo para médicos y enfermeras) y otros trabajadores (como el personal de la cocina o el JANITORIAL) para obtener un conjunto más limitado de características. Decidir usted mismo qué necesidades tiene su organización, esta guía es como más una sugerencia.
 
-Las directivas se pueden administrar fácilmente en el [centro de administración de Microsoft Teams](http://admin.teams.microsoft.com) iniciando sesión con credenciales de administrador y eligiendo directivas de **Mensajería** en el panel de navegación izquierdo.
+Las directivas se pueden administrar fácilmente en el [centro de administración de Microsoft Teams](http://admin.teams.microsoft.com) iniciando sesión con credenciales de administrador y eligiendo **directivas de mensajería** en el panel de navegación izquierdo.
 
  ![Captura de pantalla de la página de directivas de mensajería](../../media/messaging-policies-image1.png)
 
@@ -47,8 +47,6 @@ La siguiente configuración es de especial interés para las aplicaciones de cui
     *Ejemplo de uso con confirmaciones de lectura:* Jakob Roth, un paciente de alto riesgo, es admitido en el hospital.Sofía Krause es una enfermera que funciona como parte del equipo inter-disciplinar (IDT) de los trabajadores de medicina, incluidos los distintos especialistas, se asigna como Coordinador de atención primaria encargado de este paciente.  Sofía inicia un chat grupal con un conjunto de médicos y otros enfermeras que trabajarán con el paciente para coordinar el cuidado y comenzar una evaluación de emergencia.Los enfermeras y los médicos se comunican y colaboran en el plan de cuidados del paciente a lo largo del proceso de coordinación de cuidados.  Los mensajes importantes y urgentes se envían a través de 1:1 y conversaciones grupales. Sofía usa la función de confirmaciones de lectura para determinar si los mensajes enviados que solicitan asistencia son entregados y leídos por los médicos o enfermeras de destino. Los resultados del paciente de Jakob son casi óptimos y va a casa antes de que su equipo de atención se comunique sin problemas.
 
 ## <a name="priority-notifications"></a>Notificaciones prioritarias
-
-[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 [!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
