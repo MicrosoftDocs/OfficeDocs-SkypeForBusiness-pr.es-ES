@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04f8f5c79bc347f0393cd6180c7dcbfffca8da09
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
+ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062894"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37305689"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -63,7 +63,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|No se pueden eliminar los conectores como propietario de un equipo  <br/> |Al intentar eliminar un conector como propietario, (que sí puede agregar un conector), mientras está deshabilitada la opción "Permitir a los miembros crear, actualizar y quitar conectores", aparece un error que indica que el usuario no tiene permiso para hacerlo. <br/> |Si se habilita temporalmente "Permitir a los miembros crear, actualizar y quitar conectores", el propietario podrá eliminar el conector.  <br/> |27/07/2018  <br/> |
+|No se pueden eliminar los conectores como propietario de un equipo  <br/> |Si se intenta eliminar un conector como propietario, que de otro modo puede añadir un conector, mientras que la opción "Permitir a los miembros crear, actualizar y eliminar conectores" está desactivada, se produce un error que indica que el usuario no tiene permiso para hacerlo. <br/> |Si se habilita temporalmente "Permitir a los miembros crear, actualizar y quitar conectores", el propietario podrá eliminar el conector.  <br/> |27/07/2018  <br/> |
 
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -76,6 +76,8 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |El control de llamadas externas no aparece intermitentemente.  <br/> |Es posible que el control de llamadas externas no esté visible desde el panel de información de la reunión.  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
 |No se admite el id. de conferencia estático para las reuniones de Microsoft Teams.  <br/> |Si el administrador reemplaza la configuración predeterminada de id. de conferencia dinámico a id. de conferencia estático, este ajuste no tendrá vigor en las reuniones de Microsoft Teams. Vea [Uso de identificadores dinámicos de Audioconferencia en su organización](/skypeforbusiness/audio-conferencing-in-office-365/using-audio-conferencing-dynamic-ids-in-your-organization.md).  <br/> |No hay ninguna solución.  <br/> |25/9/2017  <br/> |
 |Las coordenadas de RTC no están disponibles para los usuarios locales de Skype Empresarial  <br/> |Si el usuario es un usuario local de Skype Empresarial que tiene asignadas licencias de Skype Empresarial Online, Audioconferencia y Microsoft Teams, las reuniones programadas con Teams no incluirán coordenadas de reuniones de RTC. <br/> |No hay ninguna solución.  <br/> |01/02/2018  <br/> |
+
+|Información de interoperabilidad de vídeo en la nube en Reunirse ahora  <br/> |Si crea una instancia Reunirse ahora de una reunión en Microsoft Teams con una licencia CVI existente, la información de CVI no se completará. <br/> |La recomendación es programar la reunión para completar esta información.  <br/> |6/11/2019  <br/> |
 
 ## <a name="authentication"></a>Autenticación
 
@@ -192,7 +194,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|No hay audio mientras se comparte contenido durante una reunión de difusión  <br/> |Al compartir el contenido durante una reunión de difusión, los participantes no pueden oír el audio del contenido compartido (vínculo de youtube o archivo de vídeo guardado).  <br/> |Ninguna, ya que se ha diseñado así.  Teams actualmente no admite audio del contenido compartido  <br/> |09/10/2018  <br/> |
+|No hay audio mientras se comparte contenido durante una reunión de difusión  <br/> |Al compartir el contenido durante una difusión de reunión, los participantes no pueden oír el audio del contenido compartido (vínculo de youtube o archivo de vídeo guardado).  <br/> |Ninguna, ya que se ha diseñado así.  Teams actualmente no admite audio del contenido compartido  <br/> |09/10/2018  <br/> |
 
 ## <a name="mobile"></a>Móvil
 
@@ -318,6 +320,10 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
+|Los correos de voz de Teams llegarán con un mensaje de error spf si es una llamada sip, si es una llamada pstn a un usuario llegarán con el atributo from sin el valor correcto, si el cliente tiene una regla donde analiza los correos de voz spf tendrá la acción donde el etr decide. <br/> | <br/> | El 29/08/2019 se añadirá una excepción en el etr si el mensaje es un mensaje de voz.
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
 |La carga de fotos en Teams no está bloqueada en OWA/Outlook como requiere la directiva   <br/> | Teams permite a los usuarios cargar fotos directamente en Office 365, a pesar de la configuración de la directiva que hay en vigor para evitar que se carguen fotos en OWA.   <br/> |<br/>  |16/10/2017  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
@@ -326,7 +332,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Los nombres de equipo que contienen caracteres especiales pueden crear errores en la creación de reuniones  <br/> |El usuario recibirá el mensaje **se ha producido un error** de color rojo cuando intente crear una reunión de un equipo que tenga caracteres especiales en el nombre.   <br/> |Cambie el nombre o vuelva a crear el equipo con un nombre que no contenga "/".  <br/> |13/07/2017  <br/> |
+|Los nombres de equipo que contienen caracteres especiales pueden crear errores en la creación de reuniones  <br/> |El usuario recibirá el mensaje **se ha producido un error** en color rojo cuando intente crear una reunión para un equipo que tenga caracteres especiales en el nombre.   <br/> |Cambie el nombre o vuelva a crear el equipo con un nombre que no contenga "/".  <br/> |13/07/2017  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
