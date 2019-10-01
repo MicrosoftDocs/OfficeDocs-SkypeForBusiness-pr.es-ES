@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: 72c56d8534eeacf9b3430e4439c2f40ab1f51f6d
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790866"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328304"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
 Las implementaciones híbridas de Skype empresarial Server 2019 solo usan los servicios en la nube proporcionados por el sistema telefónico para la mensajería unificada y no se integran con Exchange Online. En Skype empresarial Server 2019, ahora puede usar las colas de llamadas en la nube y los operadores automáticos que se describen en [esto es lo que obtiene con el sistema telefónico en Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system).
 
-Para usar un operador automático de sistema telefónico o una cola de llamadas con Skype empresarial Server 2019, tendrá que crear cuentas de recursos que actúen como extremos de aplicación y a los que se les puedan asignar números de teléfono y, a continuación, usar el centro de administración de Teams online para configurar la cola de llamadas o operador automático. Esta cuenta de recursos se puede hospedar en línea (consulte [administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para crear cuentas de recursos hospedadas en línea) o local, tal como se describe en este artículo. Normalmente, tendrá varios operadores automáticos de sistema telefónico o de cola de llamadas, cada uno de los cuales se asigna a una cuenta de recursos, que se puede hospedar en línea o en Skype empresarial Server 2019.
+Para usar un operador automático de sistema telefónico o una cola de llamadas con Skype empresarial Server 2019, tendrá que crear cuentas de recursos que actúen como extremos de aplicación y a los que se les puedan asignar números de teléfono y, a continuación, usar el centro de administración de Teams online para configurar la cola de llamadas o operador automático. Esta cuenta de recursos se puede hospedar en línea (consulte [administrar cuentas de recursos en Microsoft Teams](/MicrosoftTeams/manage-resource-accounts) para crear cuentas de recursos hospedadas en línea) o en locales, tal como se describe en este artículo. Normalmente, tendrá varios operadores automáticos de sistema telefónico o de cola de llamadas, cada uno de los cuales se asigna a una cuenta de recursos, que se puede hospedar en línea o en Skype empresarial Server 2019.
 
 Si tiene un operador automático de mensajería unificada de Exchange y un sistema de cola de llamadas, antes de cambiar a Exchange Server 2019 o Exchange Online tendrá que registrar manualmente los detalles como se describe a continuación y, a continuación, implementar un sistema completamente nuevo con el centro de administración de Teams. .
 
@@ -33,7 +33,7 @@ Si el operador automático del sistema telefónico o la cola de llamadas van a n
 1. Obtener un número de servicio
 2. Obtenga una licencia de sistema telefónico gratuita para el [usuario](/MicrosoftTeams/teams-add-on-licensing/virtual-user) o una licencia de sistema telefónico de pago para usarla con la cuenta de recursos.
 3. Cree la cuenta de recurso. Un operador automático o cola de llamadas debe tener una cuenta de recurso asociada.
-4. Espere a que Active Directory se sincronice entre Internet y local.
+4. Espere a que se sincronice Active Directory entre las instalaciones en línea y locales.
 5. Asigne la licencia de sistema telefónico a la cuenta de recurso.
 6. Asigne un número de servicio a la cuenta de recurso.
 7. Cree una cola de llamadas del sistema telefónico o un operador automático.
@@ -46,7 +46,7 @@ Para redirigir las llamadas a los usuarios de su organización que estén hosped
 Si el operador automático del sistema telefónico o la cola de llamadas que está creando estarán anidados y no necesitará un número de teléfono, el proceso es:
 
 1. Crear la cuenta de recursos  
-2. Esperar una sincronización de Active Directory entre online y local
+2. Esperar una sincronización de Active Directory entre la ubicación en línea y local
 3. Crear un operador automático o cola de llamadas del sistema telefónico
 4. Asociar la cuenta de recurso a un operador automático o cola de llamadas del sistema telefónico
 
@@ -74,7 +74,7 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
     Vea [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obtener más información sobre este comando.
 
-4. Opcional Una vez creadas las cuentas de recursos, puede esperar a que AD se sincronice entre Internet y local, o forzar una sincronización y continuar con la configuración en línea del operador automático del sistema telefónico o las colas de llamadas. Para forzar una sincronización, ejecute el siguiente comando en el equipo que ejecuta AAD Connect (si no lo ha hecho ya, necesita cargar `import-module adsync` para ejecutar el comando):
+4. Opcional Una vez que se hayan creado las cuentas de recursos, puede esperar a que AD se sincronice entre los locales y en línea, o forzar una sincronización y continuar con la configuración en línea del operador automático del sistema telefónico o las colas de llamadas. Para forzar una sincronización, ejecute el siguiente comando en el equipo que ejecuta AAD Connect (si no lo ha hecho ya, necesita cargar `import-module adsync` para ejecutar el comando):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta
@@ -119,7 +119,7 @@ Un ejemplo de implementación de una pequeña empresa está disponible en [Small
 
 ## <a name="create-a-resource-account-without-a-phone-number"></a>Crear una cuenta de recurso sin un número de teléfono
 
-En esta sección se explica cómo crear una cuenta de recursos que esté hospedada en local. La creación de una cuenta de recursos que se hospeda en línea se explica en [Manage Resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts).
+En esta sección se describe cómo crear una cuenta de recursos que esté hospedada en local. La creación de una cuenta de recursos que se hospeda en línea se explica en [Manage Resource accounts in Microsoft Teams](/MicrosoftTeams/manage-resource-accounts).
 
 Estos pasos son necesarios para crear un operador automático de sistema telefónico de marca o una estructura de cola de llamadas, o bien para reconstruir la estructura creada originalmente en la mensajería unificada de Exchange.
 
@@ -133,7 +133,7 @@ Inicie sesión en el servidor front-end de Skype empresarial y ejecute los sigui
 
     Vea [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para obtener más información sobre este comando.
 
-2. Opcional Una vez creadas las cuentas de recursos, puede esperar a que AD se sincronice entre Internet y local, o forzar una sincronización y continuar con la configuración en línea del operador automático del sistema telefónico o las colas de llamadas. Para forzar una sincronización, ejecute el siguiente comando en el equipo que ejecuta AAD Connect (si no lo ha hecho ya, necesita cargar `import-module adsync` para ejecutar el comando):
+2. Opcional Una vez que se hayan creado las cuentas de recursos, puede esperar a que AD se sincronice entre los locales y en línea, o forzar una sincronización y continuar con la configuración en línea del operador automático del sistema telefónico o las colas de llamadas. Para forzar una sincronización, ejecute el siguiente comando en el equipo que ejecuta AAD Connect (si no lo ha hecho ya, necesita cargar `import-module adsync` para ejecutar el comando):
 
     ``` Powershell
     Start-ADSyncSyncCycle -PolicyType Delta

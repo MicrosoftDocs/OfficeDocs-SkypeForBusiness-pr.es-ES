@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 'Resumen: Obtenga información sobre el panel de calidad de llamadas, que es una herramienta de creación de informes para Skype empresarial Server.'
-ms.openlocfilehash: 62fa3fc477e5cafc837d8a500b900ed65c178bf2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 86c8ef07a583526e3b5a40d69a795bbab8ec7879
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274852"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328389"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Panel de calidad de llamadas para Skype Empresarial Server
  
@@ -27,11 +27,6 @@ El panel de calidad de llamadas de Skype empresarial Server (CQD) es un nivel de
 Los siguientes temas se incluyen en esta sección y deben revisarse antes de implementar el panel de calidad de llamadas.
   
 - [Plan de panel de calidad de llamadas para Skype empresarial Server](plan.md)
-    
 - [Implementar el panel de calidad de llamadas para Skype empresarial Server](deploy-0.md)
-    
 - [Usar el panel de calidad de llamadas para Skype empresarial Server](use.md)
-    
 - [Desarrollar el panel de calidad de llamadas para Skype empresarial Server](develop.md)
-    
-

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: ad18b15019ed82d629a4c32c27544d052cd2bc92
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ed59111eea2c14da321cf1467b021980a223ec0
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298635"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328336"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
 
@@ -33,77 +33,80 @@ The Call Quality Dashboard (CQD) for Microsoft Teams and Skype for Business Onli
 
 ## <a name="classifier-definitions"></a>Definiciones del clasificador
 
-Streams in CQD are classified as good, poor, or unclassified based on the values of the available key quality metrics. The metrics and conditions used to classify stream are shown in the tables below. CQD's "Poor Due To" dimensions can be used to understand which metric is responsible for a poor classification. See [Dimensions and measures available in Call Quality Dashboard](dimensions-and-measures-available-in-call-quality-dashboard.md) for more information on these dimensions.
+Las transmisiones en el CQD se clasifican como _buenas_, _malas_o no _clasificadas_ en función de los valores de las métricas de calidad de clave disponibles. Las métricas y condiciones que se usan para clasificar la secuencia se muestran en las tablas siguientes. Las dimensiones de "mala calidad de los CQDs" pueden usarse para comprender qué métrica es responsable de una clasificación _deficiente_ . Para obtener más información sobre estas dimensiones, consulte [dimensiones y medidas disponibles en el panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="audio-classifier"></a>Clasificador de audio
 
-Una transmisión de audio se marca como mala si se cumplen una o más de las condiciones siguientes:
+Si se cumplen una o varias de las siguientes condiciones, una secuencia de audio se marca como _mala_:
 
-|**Métrica**|**Condición**|**Explicación**|
+|Métrica|Condición|Explicación|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|>1,0|Average Network Mean Opinion Score degradation for stream. Represents how much the network loss and jitter has impacted the quality of received audio.|
-|Round Trip|>500|Tiempo medio de ida y vuelta en la propagación de red que se calcula como se especifica en RFC3550 en milisegundos.|
+|Audio Degradation Avg|>1,0|Media de degradación de la puntuación de opinión media de la red en la transmisión. La cantidad de pérdida de la red y de vibración han influyedo en la calidad del audio recibido.|
+|Round Trip|>500|Promedio de tiempo de propagación de red de ida y vuelta, que se calcula en milisegundos. Detalles disponibles en [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|>0,1|Porcentaje medio de pérdida de paquetes en la transmisión.|
 |Vibración|>30|Vibración media producida en la transmisión en milisegundos.|
 |Ratio Concealed Samples Avg|> 0,07|Relación media entre el número de marcos de audio con muestras ocultas generada por la recuperación de pérdida de paquetes para el número total de marcos de audio.|
+||||
 
 ### <a name="video-classifier"></a>Clasificador de vídeo
 
-Una transmisión de vídeo se marca como buena o mala según el valor de la primera métrica disponible, en el orden siguiente:
+Una secuencia de vídeo se marca como _buena_ o _mala_ según el valor de la primera métrica disponible en el siguiente orden:
 
-|**Paso n. º**|**Métrica**|**Condición**|**Clasificación si la condición es verdadera**|**Clasificación si la condición es falsa**|**Clasificación si la métrica no está disponible**|**Explicación**|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Continúe con el paso 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|< 7|Poor|Good|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|La tasa de pérdida de paquetes después de que se haya aplicado FEC en todas las transmisiones y códecs de vídeo.|
+|Paso N. º|Métrica|Condición |Clasificación si la condición es verdadera |Clasificación si la condición es falsa |Clasificación si la métrica no está disponible |Explicación |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+|1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. El promedio incluye las imágenes recuperadas de pérdidas de red.|
+|1|Video Frame Rate Avg|< 7|_Poor_|_Good_|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
+|3|Video Post FECPLR|>  0.15|_Poor_|_Good_|_Unclassified_|La tasa de pérdida de paquetes después de que se haya aplicado FEC en todas las transmisiones y códecs de vídeo.|
+|  |  |  |  |  |  |  |
 
 ### <a name="vbss-classifier"></a>Clasificador de VBSS
 
-Una transmisión de VBSS se marca como buena o mala según el valor de la primera métrica disponible, en el orden siguiente:
+Una secuencia VBSS se marca como _buena_ o _mala_ según el valor de la primera métrica disponible en el siguiente orden:
 
-|**Paso N. º**|**Métrica**|**Condición**|**Clasificación si la condición es verdadera**|**Clasificación si la condición es falsa**|**Clasificación si la métrica no está disponible**|**Explicación**|
+|Paso N. º |Métrica |Condición |Clasificación si la condición es verdadera |Clasificación si la condición es falsa |Clasificación si la métrica no está disponible |Explicación |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Continúe con el paso 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
-|2|Video Frame Rate Avg|<2|Poor|Good|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
-|3|Video Post FECPLR|>  0.15|Poor|Good|Unclassified|La tasa de pérdida de paquetes después de que se haya aplicado FEC en todas las transmisiones y códecs de vídeo.|
+|1|Video Local Frame Loss Percentage Avg|> 50% |_Poor_|_Good_|Continúe con el paso 2|Porcentaje medio de fotogramas de vídeo perdidos cuando se muestran al usuario. El promedio incluye las imágenes recuperadas de pérdidas de red.|
+|1|Video Frame Rate Avg|<2|_Poor_|_Good_|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
+|3|Video Post FECPLR|>  0.15|_Poor_|_Good_|_Unclassified_|La tasa de pérdida de paquetes después de que se haya aplicado FEC en todas las transmisiones y códecs de vídeo.|
+| |  | | | |  ||
 
 ### <a name="application-sharing-classifier"></a>Clasificador de uso compartido de aplicaciones
 
-Una transmisión de uso compartido de aplicaciones se marca como mala si se cumplen una o más de las condiciones siguientes:
+Una secuencia de uso compartido de aplicaciones se marca como _mala_ si se cumplen una o varias de las siguientes condiciones:
 
-
-| **Métrica**                                     | **Condición** | **Explicación**                                                                                                                                                                                                        |
-|:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | > 400         | Latencia media en milisegundos en el procesamiento de ventanas en la pila de RDP del servidor de conferencias.                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1,75        | Promedio de retraso relativo promedio entre los puntos de conexión en segundos para las transmisiones de uso compartido de aplicaciones.                                                                                                                       |
+| Métrica     | Condición | Explicación |
+|:---        |:---       | :--- |
+| Spoiled Tile Percent Total | > 36 | Porcentaje de mosaicos que se descartan en lugar de enviarse a un interlocutor remoto (por ejemplo, de la MCU a un visor). Los mosaicos descartados pueden estar causados por restricciones de ancho de banda entre el cliente y el servidor. |
+| AppSharing RDP Tile Processing Latency Average | > 400 | Latencia media en milisegundos en el procesamiento de ventanas en la pila de RDP del servidor de conferencias. |
+| AppSharing Relative OneWay Average | > 1,75 | Promedio de retraso relativo promedio entre los puntos de conexión en segundos para las transmisiones de uso compartido de aplicaciones. |
+| | | |
 
 ## <a name="unclassified-streams"></a>Transmisiones sin clasificar
 
-En el panel de calidad de llamadas, una transmisión se marca como sin clasificar cuando falla la conectividad de ICE o cuando no se notifican todas las métricas necesarias para calcular la clasificación de la transmisión.
+En el CQD, una secuencia se marca como no _clasificada_ cuando se produce un error en la conectividad de establecimiento interactivo de conectividad (ICE) o cuando no se notifican todas las métricas necesarias para calcular la clasificación de transmisión por secuencias.
 
-To check for ICE connectivity failures, examine the dimensions "First Connectivity Ice" and "Second Connectivity Ice" for a "FAILED" value. If either value indicates a failure, the stream will be marked as unclassified.
+Para verificar los errores de conectividad de ICE, examine las dimensiones "ICE de primera conectividad" e "ICE de segunda conectividad" para obtener un valor "FALLO". Si alguno de los valores indica un error, la secuencia se marca como no _clasificada_.
 
-If ICE connectivity succeeded for an unclassified stream, the stream is likely considered unclassified because key stream metrics were not reported. There are a few reasons these metrics may not be reported:
+Si la conectividad de ICE se realizó correctamente para una transmisión sin _clasificar_ , es probable que la secuencia se considere no _clasificada_ porque no se informaron las métricas de secuencia de claves. Hay algunas razones por las que puede que no se notifiquen estas métricas:
 
-- **QoE reports were not received** - The metrics used for classification are reported in a QoE report sent at the end of a call. If this report is not produced (e.g., because some third-party endpoints may not send QoE) or was not able to be sent (e.g., because of a network outage), CQD is unable to classify the stream.
-
-> [!TIP]
-> The "QoE Record Available" dimension can be used to determine whether a QoE report was received for a stream. Note that this dimension will have a value of "True" if a QoE report was received from either endpoint. A QoE report from both endpoints is required for the most accurate reporting of metrics.
-
-- **Short calls** - Short calls may not have enough media activity to compute key stream metrics. Without these metrics, CQD is unable to classify the stream.
+- **No se recibieron informes de QoE** : las métricas usadas para la clasificación se notifican en un informe de QoE enviado al final de una llamada. Si este informe no se genera (por ejemplo, porque algunos puntos de conexión de terceros pueden no enviar el QoE) o no se pudo enviar (por ejemplo, a causa de un corte en la red), el CQD no puede clasificar la transmisión.
 
 > [!TIP]
-> The dimensions "Duration (Seconds)", "Duration (Minutes)", "Duration 5 seconds or less", and "Duration 60 seconds or more" can be used to determine the duration of a stream. The measurement "Avg Call Duration" can also be used to compute the average duration for a set of streams.
+> La dimensión "Registro QoE disponible" se puede usar para determinar si se ha recibido un informe QoE para una transmisión. Tenga en cuenta que esta dimensión tendrá un valor de "True" si se ha recibido un informe QoE desde cualquier punto de conexión. Se requiere un informe QoE de ambos puntos de conexión para obtener el informe más preciso de las métricas.
 
-- **Low packet utilization** - Like the "short call" scenario, sufficient packet utilization is required for computation of key stream metrics. Without these metrics, CQD is unable to classify the stream.
-    - A common low packet utilization scenario occurs when a user joins a meeting to listen to the presenter but never speaks (likely muting the microphone for most of the call). In such a scenario, one audio stream will have high packet utilization (inbound to the client) while the other will have little to no packet utilization (outbound from the client). In this scenario, the duration of the stream may be an hour or longer but the packet utilization on the stream from the client to the server will be extremely low due to the microphone being muted, resulting in an unclassified stream.
+- **Llamadas cortas** : es posible que las llamadas cortas no tengan suficiente actividad multimedia para calcular las métricas de las secuencias de teclas. Sin estas métricas, el panel de calidad de llamadas no puede clasificar la transmisión.
+
+> [!TIP]
+> Se pueden usar las dimensiones "Duración (segundos)", "Duración (minutos)", "Duración de 5 segundos o menos" y "Duración de 60 segundos o más" para determinar la duración de una transmisión. También se puede usar la medición "Duración media de la llamada" para calcular la duración media de un conjunto de transmisiones.
+
+- **Baja utilización de paquetes** : al igual que el escenario de "llamada breve", se requiere una utilización suficiente de los paquetes para calcular las métricas de las secuencias de teclas. Sin estas métricas, el panel de calidad de llamadas no puede clasificar la transmisión.
+  - Un escenario muy bajo de uso de paquetes se produce cuando un asistente se une a una reunión para escuchar al moderador, pero nunca habla (el micrófono está silenciado para la mayor parte de la llamada). Aquí, la transmisión de audio entrante al cliente tiene un uso elevado de paquetes, mientras que la transmisión de audio saliente del cliente tiene poco o ningún paquete de uso. La duración de la transmisión puede ser de una hora o más larga, pero el uso de paquetes en la transmisión desde el cliente al servidor es bajo, ya que el micrófono se ha silenciado y se ha producido un flujo sin _clasificar_ .
 
 > [!TIP]
 > Se pueden usar la dimensión "Utilización de paquetes" y la medición "Uso medio de paquetes" para determinar la actividad de paquetes de una transmisión.
 
-
 ## <a name="related-topics"></a>Temas relacionados
+
 [Activar y usar el panel de calidad de llamadas (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
 [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)

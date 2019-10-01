@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Aprenda a configurar Skype Empresarial para usar otro idioma para el saludo del correo de voz predeterminado de su organización. '
-ms.openlocfilehash: 5502bea261e3313bed2dae854ca23d6a27f4f8b8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+description: 'Obtenga información sobre cómo configurar Skype para empresas para usar otro idioma para el saludo del buzón de voz predeterminado de su organización. '
+ms.openlocfilehash: 085262a4ae4362aa40d20d3da657db6bcac694a3
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494573"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328347"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 
@@ -41,9 +41,9 @@ Si es [administrador global de Office 365](https://support.office.com/article/da
     > [!NOTE]
     > Los usuarios pueden cambiar el idioma del saludo mediante su configuración después de iniciar sesión. 
   
-- **¿Desea grabar el mensaje del correo de voz saliente?** Consulte [Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8).
+- **¿Desea grabar el mensaje del correo de voz saliente?** Consulte [Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8). Para Microsoft Teams: los usuarios pueden cambiar la configuración del buzón de voz desde la [configuración del cliente de escritorio de Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **¿Desea cambiar el idioma del mensaje del buzón de voz?** Vaya a [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) y elija un nuevo idioma en el **idioma del mensaje**.
+- **¿Desea cambiar el idioma del mensaje del buzón de voz?** Para Skype empresarial: [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) y elige un nuevo idioma en el **idioma del mensaje**. Para Microsoft Teams: los usuarios pueden cambiar la configuración del buzón de voz desde la [configuración del cliente de escritorio de Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
     
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>Cambiar el idioma del sistema para todos los usuarios de la organización
 
@@ -51,7 +51,7 @@ Si es [administrador global de Office 365](https://support.office.com/article/da
     
 2. En el centro de administración de Microsoft 365, seleccione **configuración** > del perfil de la**organización**. 
     
-     ![Captura de pantalla que muestra elegir configuración y luego Perfil de la organización.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+     ![Captura de pantalla que muestra la configuración de elección y el perfil de la organización.](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
 3. Elija **Edit**.
     

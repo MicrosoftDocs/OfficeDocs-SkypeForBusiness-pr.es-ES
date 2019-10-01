@@ -10,19 +10,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para configurar el conector de datos de llamada, que permite ver la telemetría de Skype empresarial local con el uso de herramientas de Skype empresarial online.
-ms.openlocfilehash: 1851e1e0c430107a27d706f7bc16ad974c5abaed
-ms.sourcegitcommit: a78fee3cad5b58bf41dd014a79f4316cf310c8d1
+ms.openlocfilehash: 48af644523e9872107c814aa330d2af2d9a4272f
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "36160801"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328380"
 ---
 # <a name="configure-call-data-connector"></a>Configurar el conector de datos de llamada
 
-En este artículo se describe cómo configurar el conector de datos de llamada, un conjunto de herramientas único que permite ver datos de calidad de llamadas de Skype empresarial Server mediante las herramientas del panel de calidad de llamadas de Skype empresarial online (CQD) y el análisis de llamadas (CA). 
-
-> [!NOTE]
-> En la versión preliminar pública, solo está disponible el panel de análisis de llamadas.
+En este artículo se describe cómo configurar el conector de datos de llamada, un conjunto de herramientas único que permite ver datos de calidad de llamadas de Skype empresarial Server mediante las herramientas del panel de calidad de llamadas de Skype empresarial online (CQD) y el análisis de llamadas (CA).
 
 Para obtener más información acerca de las ventajas y los requisitos previos de los conectores de datos de llamada, como los requisitos de roles y la configuración de la conectividad híbrida, vea [plan Call Data Connector](plan-call-data-connector.md).
 
@@ -139,8 +136,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "global" -EnableCallDataConn
 
 ## <a name="view-on-premises-data-through-the-online-dashboard"></a>Ver datos locales a través del panel en línea
 
- Una vez habilitado el conector de datos de llamadas, puede ver los datos de las llamadas locales en el panel de análisis de llamadas, tal como se describe en [use análisis de llamadas para solucionar problemas de mala calidad](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality).
-
+ Una vez habilitado el conector de datos de llamadas, puede ver los datos de las llamadas locales en el panel del análisis de llamadas o en el panel de calidad de llamadas, como se describe en [usar el análisis de llamadas para solucionar problemas de mala calidad](https://docs.microsoft.com/skypeforbusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) y [activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard).
 
 ## <a name="for-more-information"></a>Más información
 

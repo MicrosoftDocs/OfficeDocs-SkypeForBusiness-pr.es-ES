@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de las herramientas de telemetría de Skype empresarial online para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: dc129ed99e1ed69e3faf5d2a7b6923f818c482eb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
+ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160787"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37328432"
 ---
 # <a name="plan-call-data-connector"></a>Conector de datos de llamada del plan
 
@@ -23,8 +23,6 @@ ms.locfileid: "36160787"
 
 En este tema se describen las ventajas, las consideraciones de planeación y los requisitos para implementar el conector de datos de llamada de Skype empresarial Server. Para obtener más información acerca de la configuración del conector de llamadas de datos, vea [Configure Call Data Connector](configure-call-data-connector.md).
 
-> [!NOTE]
-> En la versión preliminar pública, solo está disponible el panel de análisis de llamadas.
 
 Call Data Connector simplifica enormemente la supervisión de llamadas en un entorno híbrido porque ya no es necesario usar distintos conjuntos de herramientas locales y en línea para supervisar a todos los usuarios la calidad de las llamadas. Independientemente de si los usuarios están hospedados en local o en línea, puede elegir ver la calidad de las llamadas de toda la organización en línea.
 
@@ -73,6 +71,8 @@ En los siguientes requisitos se da por supuesto que ya ha implementado Skype emp
 
 > [!IMPORTANT]
 > Call Data Connector no funcionará si la supervisión no está habilitada en el grupo de servidores front-end.
+
+- [La autenticación de servidor a servidor se](https://docs.microsoft.com/skypeforbusiness/manage/authentication/server-to-server-and-partner-applications)ha configurado correctamente. 
 
 ## <a name="comparison-of-on-premises-and-online-call-quality-dashboard-cqd-reports"></a>Comparación de informes de panel de calidad de llamadas locales y en línea (CQD)
 
