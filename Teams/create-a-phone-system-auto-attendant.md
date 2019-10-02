@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: bd23262a3b8cd3c50cffbb4be6aa70317d209613
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
+ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447946"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37349254"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
-Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para obtener acceso al Departamento adecuado, a la cola de llamadas, a la persona o al operador. Puede crear un operador automático para su organización mediante el centro de administración de Microsoft Teams. Para crear un nuevo operador automático, vaya a **voz** en el navegación izquierdo y, después, seleccione **operadores** > automáticos,**Agregar nuevo**.
+Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para obtener acceso al Departamento adecuado, a la cola de llamadas, a la persona o al operador. Puede crear un operador automático para su organización mediante el centro de administración de Microsoft Teams. Para crear un nuevo operador automático, vaya a **voz** en el navegación izquierdo y, después, seleccione >  **operadores automáticos**,**Agregar nuevo**.
 
 Si desea obtener más información sobre los operadores automáticos, vea [¿Qué son los operadores automáticos de la nube?](/microsoftteams/what-are-phone-system-auto-attendants)
 
@@ -67,11 +67,14 @@ En el **centro de administración de Microsoft Teams**, haga clic en**operadores
 
 ![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
+<a name="phonenumber"> </a>
+
 **Cuenta de recursos** Haga clic en este botón para seleccionar una o más cuentas de recursos para conectarse al nuevo operador automático. Es necesario que todos los operadores automáticos tengan una cuenta de recursos asociada. Una cuenta de recursos puede tener un número de teléfono asociado a la cuenta, pero un número de teléfono no es obligatorio. Un operador automático de nivel superior suele tener una cuenta de recursos con un número de teléfono asignado, pero el operador automático anidado (usado como un menú de nivel 2 al que se conecta el operador automático de primer nivel) podría no tener asignado un número de teléfono a su cuenta de recursos.
 
 * * *
 
-![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout3.png)
+![Icono del número 3, que hace referencia a una llamada en la](media/sfbcallout3.png)
+ <a name="timezone"> </a> captura de pantalla anterior
 
 **Zona horaria**: debe establecer la zona horaria para el operador automático, pero no es necesario que se corresponda con la zona horaria de la dirección principal que se muestra para su organización. Cada operador automático puede tener una zona horaria diferente y el horario de oficina establecido para el operador automático se establece en función de la zona horaria que seleccione aquí.
 
@@ -79,17 +82,21 @@ En el **centro de administración de Microsoft Teams**, haga clic en**operadores
 
 ![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout4.png)
 
+<a name="language"> </a>
+
 **Idioma** Seleccione el idioma que desea usar para su operador automático en cualquiera de los idiomas disponibles en la lista. El idioma que establezca aquí es el idioma que usa el operador automático para interactuar con personas que llaman a este operador automático y todas las solicitudes del sistema se reproducen en este idioma.
 
 * * *
 
 ![Icono del número 5, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout5.png)
 
+<a name="operator"> </a>
+
 **Operador** Esto es opcional, pero puede configurar la opción de **operador** para permitir que los autores de llamadas interrumpan los menús y hablen con una persona.
 
 La tecla 0 está asignada al operador de forma predeterminada.
 
-Si establece un operador, también tendrá que indicar a los usuarios que llamen sobre la opción en las **Opciones del menú Editar** en la página **Administración de llamadas de horario laboral** . Si estableces un operador en tu operador automático, deberás escribir el texto del mensaje correspondiente en el cuadro de la **persona** que llamarás o cambiaremos el archivo de audio para incluir esta opción. Por ejemplo, "Para hablar con el operador, pulse cero."
+Si establece un operador, también tendrá que indicar a los usuarios que llamen sobre la opción en las **Opciones del menú Editar** en la página **Administración de llamadas de horario laboral** . Si estableces un operador en tu operador automático, deberás escribir el texto del mensaje correspondiente en el cuadro de la **persona que llamarás** o cambiaremos el archivo de audio para incluir esta opción. Por ejemplo, "Para hablar con el operador, pulse cero."
 
 Tiene varias formas de configurar el operador:
 
@@ -113,7 +120,7 @@ Cuando haya terminado con las selecciones, haga clic en **siguiente**.
 
 #### <a name="business-hours-page"></a>Página de horario comercial
 
-De forma predeterminada, el horario laboral se establece en 9:00 am a 5:00 PM, de lunes a viernes. Todas las horas que no se incluyen en el horario comercial se consideran horas de oficina. Puede hacer clic en **seleccionar 24/7** para hacer todas las horas de trabajo. A menos que seleccione la opción **seleccionar 24/7** , se usará la página de **configuración de llamada** de poshorario para configurar las reglas de administración de llamadas para el operador automático después del horario laboral.
+De forma predeterminada, el horario laboral se establece en 9:00 am a 5:00 PM, de lunes a viernes. Todas las horas que no se incluyen en el horario comercial se consideran horas de oficina. Puede hacer clic en **seleccionar 24/7** para hacer todas las horas de trabajo. A menos que seleccione la opción **seleccionar 24/7** , se usará la página de **configuración de llamada de poshorario** para configurar las reglas de administración de llamadas para el operador automático después del horario laboral.
 
 ![Captura de pantalla de la página de horario comercial](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
@@ -121,7 +128,7 @@ De forma predeterminada, el horario laboral se establece en 9:00 am a 5:00 PM, d
 
 ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
-De forma predeterminada, el horario laboral se establece de lunes a viernes, 9:00 a.m.-5:00 p.m. Seleccione **borrar todas las horas** para anular la selección de todas las horas de la programación. Cuando selecciona **Restablecer valores**predeterminados, el horario laboral se restablece a lunes a viernes, 9:00 a.m.-5:00 p.m.
+De forma predeterminada, el horario laboral se establece de lunes a viernes, 9:00 a.m.-5:00 p.m. Seleccione **borrar todas las horas** para anular la selección de todas las horas de la programación. Cuando selecciona **Restablecer valores predeterminados**, el horario laboral se restablece a lunes a viernes, 9:00 a.m.-5:00 p.m.
 
 * * *
 
@@ -136,7 +143,7 @@ Cuando haya terminado con las selecciones, haga clic en **siguiente**.
 #### <a name="business-hours-call-settings"></a>Configuración de llamadas a horario laboral
 
 > [!TIP]
-> Si usa una programación de horario laboral personalizada, también tendrá que configurar la mano de la llamada para después del horario comercial mediante la página de **Administración de llamadas** de poshorario, que le dará las mismas opciones que la **configuración de llamadas a horario laboral**.
+> Si usa una programación de horario laboral personalizada, también tendrá que configurar la mano de la llamada para después del horario comercial mediante la página de **Administración de llamadas de poshorario** , que le dará las mismas opciones que la **configuración de llamadas a horario laboral**.
 
 Puede configurar los saludos, los avisos y los menús que los usuarios escuchan al llamar al número de teléfono vinculado al operador automático de su organización durante el horario laboral.
 
@@ -147,6 +154,8 @@ Puede configurar los saludos, los avisos y los menús que los usuarios escuchan 
 
 ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
+<a name="greetingsandrouting"> </a>
+
 **Saludo** Un saludo de horario laboral es opcional y puede configurarse como **sin saludo**. En este caso, el autor de la llamada no escuchará un mensaje o saludo antes de que una de las acciones que seleccione haya controlado la llamada. También puede cargar un archivo de audio (en formatos .wav, .mp3 o .wma), o crear un saludo personalizado usando texto a voz.
 - **Cargar un archivo de audio** Si elige esta opción, grabe el saludo y, a continuación, cargue el archivo de audio (en formato. wav,. mp3 o. WMA).
 - **Escribir un mensaje de bienvenida** Si elige esta opción, escriba el texto que quiere que lea el sistema (hasta 1000 caracteres). Por ejemplo, puede escribir "Bienvenidos a Contoso. Su llamada es muy importante para nosotros." en el cuadro **Los autores de llamadas escucharán**.
@@ -156,6 +165,8 @@ Puede configurar los saludos, los avisos y los menús que los usuarios escuchan 
 ![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 Puede seleccionar lo que ocurre con las llamadas que se reciben durante el horario comercial. Puede elegir entre las siguientes acciones:
+
+<a name="redirectcalls"> </a>
 
 - **Desconectar** Si se selecciona, la persona que llama sera desconectada tras escuchar un saludo de horario comercial.
 - **Redirigir llamada** Esto puede usarse para enviar automáticamente la llamada a:
@@ -289,7 +300,7 @@ En esta página, puede configurar los usuarios de su organización que aparecer�
 
 ![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
-Con la **** opción excluir tiene dos opciones:
+Con la opción **excluir** tiene dos opciones:
 
 - **Ninguno**: esta opción indica que no se debe excluir a ningún usuario de la búsqueda en directorios.
 - **Grupo de usuarios personalizado** Si usa esta opción, puede buscar un grupo de Office 365, una lista de distribución o un grupo de seguridad que se haya creado en su organización, y todas las personas agregadas a este grupo de Office 365, lista de distribución o grupos de seguridad se excluirán de la búsqueda en directorio. Puede agregar varios grupos de Office 365, listas de distribución y grupos de seguridad.
