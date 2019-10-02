@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6db5146248157893a26f62fb6e01fb020a67f70
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 74eb3ab344dae0bd60e9b5c82199ef3dd51975c5
+ms.sourcegitcommit: 6cee93b799f60f19513c29e8c16fa67c4de028fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018839"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37341873"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 =======================================================
@@ -71,9 +71,9 @@ Todas las versiones de prueba de su organización comparten las mismas fechas de
 
 ## <a name="manage-the-trial"></a>Administrar la versión de prueba
 
-Las licencias de prueba se asignan del mismo modo que se asigna cualquier otra suscripción adquirida por el administrador. Para más información, vea [Assign licenses to users in Office 365 for business](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) (Asignación de licencias a usuarios en Office 365 para empresas). 
+La prueba de Teams está pensada para ser iniciada por usuarios finales individuales y usted no puede iniciar la oferta de prueba de Teams en nombre de empleados que sean usuarios finales.
 
-Además, los administradores pueden desactivar la capacidad de los usuarios finales para reclamar servicios y aplicaciones de prueba en su organización. Actualmente, la versión de prueba descrita en este artículo es la única prueba en esta categoría, pero puede aplicarse a otros programas similares en el futuro. 
+Los administradores pueden desactivar la capacidad de los usuarios finales de solicitar servicios y aplicaciones de prueba en su organización. Actualmente, la versión de prueba descrita en este artículo es la única prueba en esta categoría, pero puede aplicarse a otros programas similares en el futuro. 
 
 ### <a name="prevent-users-from-installing-trial-apps-and-services"></a>Impedir que los usuarios instalen servicios y aplicaciones de prueba
 
