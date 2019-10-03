@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 6ac4ccea48e70a8bba5e11511379fef5c5a2a861
-ms.sourcegitcommit: e89c2234fc5aa8f7eeef66ba1ae093a0f7beda85
+ms.openlocfilehash: 0cac6b1bb7d19e91e4042bcb0673f6c677e77d2e
+ms.sourcegitcommit: 2d31209aae9e0171693389db97b0b5c974864673
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37349254"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37375714"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -211,14 +211,15 @@ Para configurar las opciones de menú, después de seleccionar las teclas de mar
 
     > [!Note]
     > **La persona de su empresa** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server o Lync Server 2013.
-    - Otro **operador automático**
+
+  - Otro **operador automático**
 
        Puede usar un operador automático existente para crear un segundo nivel de opciones de menú que contengan un submenú. Estos se denominan a operadores automáticos anidados. Para enviar la llamada a un operador automático anidado, seleccione **persona en la empresa** y asigne una cuenta de recurso, ya sea una cuenta que ya tenga un operador automático asociado o que vaya a asociar a un operador automático una vez que haya terminado de crear este operador automático.
 
         > [!Note]
-        > El **Horario comercial** de operadores automáticos anidados (o de segundo nivel) también se utilizará, lo que incluye las llamadas enviadas desde otros operadores automáticos que se hayan configurado.
+        > The **Business Hours** of nested (or second-level) auto attendants will also be used, including for the calls sent from other auto attendants that have been set up.
 
-       - **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada a una cola de llamadas o a un operador automático que ya se ha creado.
+    - **Aplicación de voz** Seleccione el nombre de una cuenta de recursos asociada a una cola de llamadas o a un operador automático que ya se ha creado.
 
 * * *
 
@@ -231,6 +232,8 @@ Para configurar las opciones de menú, después de seleccionar las teclas de mar
 Cuando haya terminado con las selecciones, haga clic en **siguiente**.
 
 #### <a name="holiday-call-settings"></a>Configuración de llamadas navideñas
+
+<a name="holidaygreetings"> </a>
 
 Puede agregar un máximo de 20 días festivos programados a cada operador automático.
 
@@ -283,6 +286,7 @@ Los nombres de días festivos pueden constar de hasta 64 caracteres y deben ser 
     > [!Note]
     > De forma predeterminada, todas las llamadas que llegan durante un período de días festivos se establecen en desconectar después de saludo (si hay alguno), por lo que debe especificar un redireccionamiento si se desea obtener un comportamiento diferente.
 
+<a name="dialscope"></a>
 #### <a name="select-dial-scope-page"></a>Página Seleccionar ámbito de marcado
 
 En esta página, puede configurar los usuarios de su organización que aparecerán en el directorio y que estarán disponibles para marcar por su nombre cuando sea una persona que llame a su organización.
