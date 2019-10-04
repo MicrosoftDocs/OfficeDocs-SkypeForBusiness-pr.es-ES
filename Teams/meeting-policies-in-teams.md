@@ -3,10 +3,9 @@ title: Administrar directivas de reunión
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: sonua
+ms.reviewer: sonua, shalenc
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
@@ -22,19 +21,19 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams.
-ms.openlocfilehash: eff7eb41b5dccba299f8650c5771b33df04e719b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f926704a256bbea551d4aaa32bd98ba87322930c
+ms.sourcegitcommit: 58be786003d5ff703adfcd636585fb1852aba486
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236626"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37391452"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
 ::: zone target="docs"
 Las directivas de reunión se usan para controlar las características que están disponibles para los participantes de la reunión para las reuniones programadas por los usuarios de su organización. Después de crear una directiva y realizar los cambios, puede asignar usuarios a la Directiva. Las directivas de reunión se administran en el centro de administración de Microsoft Teams o [mediante PowerShell](teams-powershell-overview.md).
 
-Puede implementar directivas de las siguientes maneras, que afectan a la experiencia de la reunión para los usuarios antes de que se inicie una reunión, durante una reunión o después de una reunión. 
+Puede implementar directivas de las siguientes maneras, que afectan a la experiencia de la reunión para los usuarios antes de que se inicie una reunión, durante una reunión o después de una reunión.
 
 |Tipo de implementación  |Descripción  |
 |---------|---------|
@@ -72,7 +71,7 @@ Si está aplicando una directiva a más de un usuario, seleccione **usuarios** e
  
 También puede asignar una directiva de reunión a uno o más usuarios de la siguiente manera:
 
-1. Vaya**** al **Centro** > de administración de Microsoft Teams**reuniones de reuniones** > .
+1. Vaya > al **centro de administración de Microsoft Teams****reuniones de reuniones** > **.**
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
 3. Seleccione **administrar usuarios**.
 4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
@@ -104,7 +103,7 @@ Al seleccionar una directiva existente en la página **directivas** de la reuni�
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir reunirse ahora en los canales
 
-Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión ad-hoc en un canal de Teams. Si activa esta opción, cuando un usuario publique un mensaje en un canal de Teams, el usuario podrá hacer clic en **reunirse ahora** debajo del cuadro de redacción para iniciar una reunión ad-hoc en el canal.
+Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal de Teams. Si activa esta opción, cuando un usuario publique un mensaje en un canal de Teams, el usuario podrá hacer clic en **reunirse ahora** debajo del cuadro de redacción para iniciar una reunión ad hoc en el canal.
 
 ![Captura de pantalla que muestra el icono reunirse ahora debajo de un mensaje](media/meeting-policies-meet-now.png)
 
@@ -142,7 +141,7 @@ Tenga en cuenta que si desactiva permitir la programación de **reuniones privad
 - [Permitir la grabación en la nube](#allow-cloud-recording)
 - [Permitir video IP](#allow-ip-video)
 - [Velocidad de bits multimedia (KB)](#media-bit-rate-kbs)
-- [Habilitar los subtítulos en vivo (próximamente)](#enable-live-captions-coming-soon)
+- [Habilitar los títulos en vivo (vista previa)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>Permitir la transcripción
 
@@ -150,7 +149,7 @@ Esta es una combinación de una directiva por organizador y por usuario. Esta co
 
 Tenga en cuenta que la transcripción para las reuniones grabadas solo se admite en este momento para los usuarios que tienen el idioma de Teams establecido en inglés y cuando se habla de inglés en la reunión.
 
-![Captura de pantalla que muestra las opciones de transcripción de una reunión](media/meeting-policies-transcription.png)
+![Captura de pantalla que muestra las opciones de transcripción en una reunión](media/meeting-policies-transcription.png)
 
 ### <a name="allow-cloud-recording"></a>Permitir la grabación en la nube
 
@@ -170,7 +169,7 @@ Echemos un vistazo al ejemplo siguiente.
 
 Las reuniones organizadas por Daniela no se pueden grabar y Amanda, que tiene la configuración de directiva habilitada, no puede grabar reuniones organizadas por Daniela. Las reuniones organizadas por Amanda se pueden grabar, pero Daniela, que tiene la configuración de directiva deshabilitada y Juan es un usuario externo, no puede grabar reuniones organizadas por Amanda.
 
-Para obtener más información sobre la grabación de reuniones en la nube, vea [grabación de reuniones en la nube](cloud-recording.md)de Teams.
+Para obtener más información sobre la grabación de reuniones en la nube, vea [grabación de reuniones en la nube de Teams](cloud-recording.md).
 
 ### <a name="allow-ip-video"></a>Permitir video IP
 
@@ -199,9 +198,17 @@ Si no hay suficiente ancho de banda para una reunión, los participantes verán 
 
 Para las reuniones que necesitan una experiencia de video de la más alta calidad, como las reuniones de los paneles CEO y los equipos en vivo, le recomendamos que configure el ancho de banda en 10 Mbps. Incluso cuando se establece la experiencia máxima, la pila de medios de Teams se adapta a condiciones de ancho de banda bajo cuando se detectan ciertas condiciones de red, según el escenario. 
 
-### <a name="enable-live-captions-coming-soon"></a>Habilitar los subtítulos en vivo (próximamente)
+### <a name="enable-live-captions-preview"></a>Habilitar los títulos en vivo (vista previa)
 
-Esta es una directiva por usuario y se aplica durante una reunión. Si esta configuración está activada, el usuario verá una opción para mostrar los títulos durante una reunión.
+Esta es una directiva por usuario y se aplica durante una reunión. Esta configuración controla si la opción **Activar títulos en vivo** está disponible para que el usuario Active y desactive los subtítulos en vivo en las reuniones que asiste el usuario.  
+
+![Captura de pantalla que muestra la opción Activar subtítulos en vivo](media/meeting-policies-live-captions.png)
+
+|Valor de configuración |Comportamiento  |
+|---------|---------|
+|**Deshabilitado y el usuario puede invalidar**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta es la configuración que se aplica normalmente. |
+|**Deshabilitado**     | Los subtítulos en vivo se deshabilitan para el usuario durante la reunión. El usuario no tiene la opción de activarlos.          |
+
 
 <a name="bkcontentsharing"> </a>
 
@@ -320,7 +327,6 @@ Esta configuración controla los participantes de la reunión en la sala de espe
 - [Admitir automáticamente personas](#automatically-admit-people)
 - [Permitir que usuarios anónimos inicien una reunión](#allow-anonymous-people-to-start-a-meeting)
 - [Permitir que los usuarios de acceso telefónico omitan la sala de recepción](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
-- [Permitir que los organizadores invaliden la configuración de la sala](#allow-organizers-to-override-lobby-settings-coming-soon)
 
 > [!NOTE]
 >Las opciones para unirse a una reunión variarán en función de la configuración de cada grupo de equipos y del método de conexión. Si su grupo tiene audioconferencias y lo usa para conectarse, consulte [audioconferencias en Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si su grupo de equipos no tiene audioconferencia, consulte unirse a [una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -382,31 +388,6 @@ Este es el comportamiento de la Unión de las personas que llaman por teléfono.
 |   | Todas las personas de su organización     |Esperar en la sala de espera         |
 |   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
 
-### <a name="allow-organizers-to-override-lobby-settings-coming-soon"></a>Permitir que los organizadores invaliden la configuración del vestíbulo (próximamente)
-
-Esta es una directiva por organizador. Esta opción controla si el organizador de la reunión puede invalidar la configuración del vestíbulo que un administrador ha establecido en **admitir automáticamente** a los **usuarios y permitir que los usuarios de acceso telefónico omitan la sala de recepción** cuando programen una nueva reunión. 
-
-Los organizadores de reuniones pueden hacer clic en **Opciones de reunión** en la invitación a la reunión para cambiar la configuración de la sala de reuniones para cada reunión que programe. 
-
-A continuación se explica cómo esta configuración determina si el organizador de la reunión puede cambiar la configuración de **admisión automática de personas** para cada reunión de la programación del organizador.
-
-|Permitir que los organizadores invaliden la configuración de la sala  |Admitir automáticamente personas  |Comportamiento |
-|---------|---------|---------|
-|True    | Todos      | Organizer puede cambiar la configuración a cualquier otro valor. |
-|   | Todas las personas de su organización       | Organizer puede cambiar la configuración a cualquier otro valor.|
-|   | Todas las personas de la organización y las organizaciones federadas       | Organizer puede cambiar este valor a cualquier otro valor.         |
-|False    | Todos        | Organizer puede cambiar la configuración a cualquier otro valor.|
-|   | Todas las personas de su organización     |Organizer puede cambiar la configuración a **todos los usuarios de su organización**. |
-|   | Todas las personas de la organización y las organizaciones federadas      | Organizer no puede anular la configuración de la sala de recepción. |
-
-A continuación se explica cómo esta configuración afecta si el organizador de la reunión puede cambiar el modo en **que los usuarios de acceso telefónico omiten la** configuración de la sala de reuniones para cada reunión de la programación del organizador.
-    
-|Permitir que los organizadores invaliden la configuración de la sala  |Permitir que los usuarios de acceso telefónico omitan la sala de recepción  |Comportamiento |
-|---------|---------|---------|
-|True    |  True        | Organizer puede cambiar la configuración a false.       |
-|True      | False         | Organizer puede cambiar la configuración a true.        |
-|False     | True        |Organizer puede cambiar la configuración a false.         |
-|False      |False          |Organizer no puede anular la configuración de la sala de recepción y no permite que los usuarios de acceso telefónico omitan la sala de recepción en la reunión.        |
 
 [Artículo completo](meeting-policies-in-teams.md)
 
