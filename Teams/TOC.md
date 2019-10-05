@@ -361,13 +361,19 @@
 ## Enrutamiento de llamada
 ### [¿Qué son los planes de marcado?](what-are-dial-plans.md)
 ### [Crear y administrar planes de marcado](create-and-manage-dial-plans.md)
+### [Agregar y actualizar etiquetas de informes](learn-more-about-site-upload.md)
 ## Llamadas de emergencia
-### [¿Qué son las direcciones, las ubicaciones de emergencia y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
-### [Agregar, cambiar o quitar una dirección de emergencia para su organización](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Agregar, cambiar o quitar una ubicación de emergencia para su organización](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Asignar o cambiar la dirección de emergencia de un usuario](/SkypeForBusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Asignar o cambiar la ubicación de emergencia de un usuario](/SkypeForBusiness/what-are-calling-plans-in-office-365/change-the-emergency-location-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-### [Etiquetas de llamadas de emergencia](emergency-calling-labels.md)
+### [Planear y configurar las llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md)
+### Administrar direcciones de emergencia
+#### [¿Qué son las ubicaciones de emergencia y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
+#### [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md)
+#### [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-place-organization.md)
+#### [Asignar o cambiar la ubicación de emergencia de un usuario](assign-change-emergency-location-user.md)
+#### [Asignar o cambiar la ubicación de emergencia de un usuario](assign-change-emergency-place-user.md)
+#### [Etiquetas de llamadas de emergencia](emergency-calling-labels.md)
+### [Administrar directivas de llamadas de emergencia](manage-emergency-calling-policies.md)
+### [Administrar directivas de enrutamiento de llamadas de emergencia](manage-emergency-call-routing-policies.md)
+
 
 
 ## Referencia
