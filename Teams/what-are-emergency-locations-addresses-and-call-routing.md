@@ -1,5 +1,5 @@
 ---
-title: ¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?
+title: ¿Qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,7 +14,6 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords:
@@ -22,59 +21,55 @@ f1keywords:
 - ms.lync.lac.AddressAndLocation
 ms.custom:
 - Calling Plans
-description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: 979fab1cd099d568278efd61d06a3f8a75b04541
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+description: 'Descubra qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas de emergencia, y cómo planear y asignarlos a los usuarios. '
+ms.openlocfilehash: 7ab3c17e6d74d8e53358f91b3f99759cf4b22203
+ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483873"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37396407"
 ---
-# <a name="what-are-emergency-locations-addresses-and-call-routing"></a>¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?
+# <a name="what-are-emergency-locations-places-and-call-routing"></a>¿Qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas?
 
-Al configurar planes de llamadas en Office 365, tiene que asignar una dirección de emergencia a cada número de teléfono al obtener el número de teléfono o asignarlo a un usuario para que admita las llamadas de emergencia. Y antes de poder asignar una dirección de emergencia a un número de teléfono, debe crear y validar la dirección de emergencia. La validación asegura que la dirección de emergencia se reconoce y que está en un formato adecuado que pueden usar los servicios de respuesta de emergencia. De manera opcional, puede Agregar una ubicación dentro de la dirección de emergencia para proporcionar una ubicación más específica para el usuario. Por ejemplo, la ubicación de emergencia podría ser un piso, un ala u oficina que está vinculado a una dirección de emergencia específica. Aunque la dirección de emergencia se valida, las ubicaciones no lo son.
-  
-## <a name="what-are-emergency-addresses"></a>¿Qué son las direcciones de emergencia?
-
-Para los números de teléfono activos se necesita una dirección de emergencia, pero cuando es necesario depende del país o de la región. En los Estados Unidos, se requiere una dirección de emergencia cuando se asigna un número a un usuario. Para otros países, como en Europa, Oriente Medio y África (EMEA), se necesita una dirección de emergencia cuando obtiene el número de teléfono de Office 365 o cuando se transfiere desde otro proveedor u operador de servicios.
-  
-Una dirección de emergencia puede denominarse dirección de ciudad, dirección postal o dirección física. Es la dirección postal o civil del domicilio social de su organización. Por ejemplo, la dirección *12345 North Main Street, Redmond, WA 98052* se usa para enrutar llamadas de emergencia a las autoridades de distribución correspondientes y para ayudar a localizar a la persona que llama de emergencia. Es probable que necesites más de una dirección de emergencia si tu empresa tiene más de una ubicación de empresa física.
-  
-Validar una dirección de emergencia implica asegurarse de que es legítima y tiene el formato adecuado para los servicios de respuesta de emergencia. Es posible crear y guardar una dirección de emergencia que no está validada, pero solo se pueden asociar direcciones validadas con un usuario. Después de validar y guardar una dirección de emergencia, se puede asignar a un usuario. Si necesita cambiar una dirección de emergencia validada y guardada, tendrá que crear una.
+Cuando configure planes de llamadas, tendrá que asignar una ubicación de emergencia a cada número de teléfono al obtener el número de teléfono o asignarlo a un usuario para que admita las llamadas de emergencia. Antes de poder asignar una ubicación de emergencia a un número de teléfono, debe agregar y validar una ubicación de emergencia. La validación asegura que la ubicación de emergencia se reconoce y que está en un formato adecuado que pueden usar los servicios de respuesta de emergencia. De manera opcional, puedes agregar un lugar dentro de la ubicación de emergencia para proporcionar una ubicación más específica para el usuario. Por ejemplo, el lugar podría ser un piso, una alas o una oficina que esté vinculada a una ubicación de emergencia específica. A pesar de que las ubicaciones de emergencia se validan, los lugares no.
   
 ## <a name="what-are-emergency-locations"></a>¿Qué son las ubicaciones de emergencia?
 
-Una ubicación de emergencia está asociada a una dirección de emergencia para proporcionar una ubicación más exacta dentro de un edificio. Una ubicación de emergencia es normalmente un piso, el pabellón de un edificio o un número de oficina donde se encuentra el usuario. Puede tener un número ilimitado de ubicaciones asociadas con una dirección de emergencia. 
+Se necesita una ubicación de emergencia para los números de teléfono activos y, cuando sea necesario, dependerá del país o la región. En los Estados Unidos, se requiere una ubicación de emergencia cuando se asigna un número a un usuario. Para otros países, como en Europa, Oriente Medio y África (EMEA), se necesita una ubicación de emergencia cuando obtiene el número de teléfono de Office 365 o cuando se transfiere desde otro proveedor u operador de servicios.
   
-Al asignar una dirección de emergencia a un usuario, en realidad es un identificador de ubicación al que se hace referencia al asignar la dirección. El identificador de ubicación incluye la dirección de emergencia a la que se hace referencia (la calle o la dirección cívica). Se incluye una ubicación de emergencia predeterminada con una dirección de emergencia para aquellos casos en los que no se necesitan instalaciones de creación. 
+Una ubicación de emergencia puede denominarse dirección de ciudad, dirección postal o dirección física. Es la calle o la dirección cívica de un lugar de trabajo para su organización. Por ejemplo, la dirección *12345 North Main Street, Redmond, WA 98052* se usa para enrutar llamadas de emergencia a las autoridades de distribución correspondientes y para ayudar a localizar a la persona que llama de emergencia. Es probable que necesites más de una ubicación de emergencia si tu empresa tiene más de una ubicación de empresa física.
+  
+Validar una ubicación de emergencia implica asegurarse de que es legítima y tiene el formato correcto para los servicios de respuesta de emergencia. Es posible agregar y guardar una ubicación de emergencia no validada, pero solo se pueden asociar ubicaciones validadas con un usuario. Una vez validada y guardada una ubicación de emergencia, puede asignarla a un usuario. Para cambiar una ubicación de emergencia guardada y validada, tendrá que crear una nueva.
+  
+## <a name="what-are-places"></a>¿Qué son los lugares?
+
+Un lugar está asociado a una ubicación de emergencia para dar una ubicación más exacta dentro de un edificio. Un lugar suele ser un piso, un ala de construcción o un número de oficina donde se encuentra el usuario. Puede tener un número ilimitado de lugares asociados a una ubicación de emergencia. 
+  
+Cuando se asigna una ubicación de emergencia a un usuario, en realidad es un identificador de ubicación al que se hace referencia al asignar la ubicación. El identificador de ubicación incluye la ubicación de emergencia a la que se hace referencia (la calle o la dirección cívica). Se incluye un lugar predeterminado con una ubicación de emergencia para casos en los que no son necesarios los lugares en los edificios.
   
 ## <a name="what-is-emergency-call-routing"></a>¿Qué es un enrutamiento de llamadas SOS?
 
-Las direcciones y ubicaciones de emergencia se usan durante el proceso de enrutamiento de llamadas de emergencia al centro de distribución correspondiente cuando se distribuyen los primeros respondedores de emergencia. Cuando un usuario de un equipo o de Skype empresarial marca un número de emergencia, el modo en que se dirige la llamada al punto de respuesta de seguridad pública (PSAP) variará según el país o la región. En algunos países, como los Estados Unidos y el Reino Unido, las llamadas se filtrarán primero para determinar la ubicación actual del usuario antes de conectar la llamada al centro de distribución correspondiente. En otros países o regiones, las llamadas se dirigirán directamente al centro de distribución que atiende el número de teléfono asociado a la persona que llama.
+Las ubicaciones y lugares de emergencia se usan durante el proceso de enrutamiento de llamadas de emergencia al centro de distribución correspondiente cuando se distribuyen los primeros respondedores de emergencia. Cuando un usuario de un equipo marca un número de emergencia, el modo en que se dirige la llamada al punto de respuesta de seguridad pública (PSAP) varía según el país y la región. En algunos países, como los Estados Unidos y el Reino Unido, las llamadas se muestran en primer lugar para determinar la ubicación actual del usuario antes de conectar la llamada al centro de distribución correspondiente. En otros países y regiones, las llamadas se dirigen directamente al centro de distribución que atiende el número de teléfono asociado a la persona que llama.
   
-## <a name="create-add-and-assign-emergency-locations-and-addresses-to-your-users"></a>Crear, agregar y asignar ubicaciones y direcciones de emergencia a los usuarios
+## <a name="create-add-and-assign-emergency-locations-and-places-to-your-users"></a>Crear, agregar y asignar ubicaciones y lugares de emergencia a los usuarios
 
-1. **Planear las ubicaciones de emergencia**. El primer paso es planear las ubicaciones de emergencia. Necesitas enumerar todas tus direcciones físicas. A continuación, en función de eso, determine si es necesario tener ubicaciones para las direcciones de emergencia y, si es así, qué son. Por ejemplo, si una empresa tiene 3 edificios de oficina cada uno con 4 pisos, es posible que tenga que haber 3 direcciones de emergencia, con el suelo 1-4 en la lista para cada una de ellas.
+1. **Planear las ubicaciones de emergencia**. El primer paso es planear las ubicaciones de emergencia. Enumera todas tus direcciones físicas. A continuación, en función de eso, determine si se necesitan lugares para las ubicaciones de emergencia y, si es así, qué son. Por ejemplo, si una empresa tiene tres edificios de oficina con cuatro pisos, es probable que tenga que haber tres ubicaciones de emergencia con plantas de una a cuatro como un lugar para cada una de ellas.
     
-2. **Cree y valide sus ubicaciones de emergencia**. El siguiente paso es crear y validar las direcciones de emergencia. Al crear una dirección de emergencia, puede validarla. Para crear una dirección de emergencia, consulte [Agregar o quitar una dirección de emergencia para su organización](/SkypeForBusiness/what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization).
+2. **Agregue sus ubicaciones de emergencia**. El siguiente paso es agregar sus ubicaciones de emergencia. Para obtener más información, vea [Agregar, cambiar o quitar una ubicación de emergencia de su organización](add-change-remove-emergency-location-organization.md).
     
     > [!IMPORTANT]
-    > Para validar una dirección postal o civil es necesario comprobar que sea legítima y que tenga el formato correcto. Es posible que una dirección de emergencia parcialmente correcta, como un nombre escrito de la ciudad, pueda seguir pasando la validación. El proceso de validación usa todas las partes de una dirección específica para determinar si contiene suficiente información para redirigir la llamada al centro de emergencias apropiado. Si es así, se devolverá como validada y, a continuación, se le puede asignar a un número de teléfono. 
+    > Validar una calle o una dirección cívica implica asegurarse de que el formato es legítimo y correcto. Es posible que una dirección de emergencia parcialmente correcta, como un nombre escrito de la ciudad, pueda seguir pasando la validación. El proceso de validación usa todas las partes de una dirección determinada para determinar si contiene suficiente información para enrutar la llamada al centro de distribución de emergencia adecuado. Si es así, se devolverá como validada y, a continuación, se le puede asignar a un número de teléfono.
   
 3. **Obtener números de teléfono**. El siguiente paso es obtener números de teléfono para los usuarios. Para ello, obtenga los nuevos números de teléfono de Office 365 o inicie una portabilidad o transfiera sus números de teléfono existentes a Office 365. Para ver los pasos completos, consulte [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md).
     
 4. **Asignar números de teléfono**. El último paso es permitir que los usuarios realicen y reciban llamadas telefónicas. Para ello, es necesario asignar un número de teléfono a cada usuario. Consulte [asignar, cambiar o quitar un número de teléfono para que un usuario](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user) asigne un número de teléfono.
 
 > [!NOTE]
-> Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+> Si necesita obtener más números de teléfono, [póngase en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
     
 ## <a name="related-topics"></a>Temas relacionados
-[¿Qué es la validación de direcciones?](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-is-address-validation)
 
-[Diferentes tipos de números de teléfono que se usan para planes de llamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
-
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
-
+[Términos y condiciones de llamadas de emergencia](emergency-calling-terms-and-conditions.md)
