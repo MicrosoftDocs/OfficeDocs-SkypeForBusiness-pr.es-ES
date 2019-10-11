@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga más información sobre las licencias de usuario virtual gratuitas.
-ms.openlocfilehash: c8d196d876ed8df32f28aabf96a5817be0195145
-ms.sourcegitcommit: a0df7479662b3bea488c19722ad588981f58a5e4
+ms.openlocfilehash: 96ea4ed71eac8c6b67e4fd4c7964591dcef1f635
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36447916"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435130"
 ---
 # <a name="phone-systemvirtual-user-license"></a>Sistema telefónico: licencia de usuario virtual 
 
@@ -51,8 +51,11 @@ Contoso debe considerar rediseñar el operador automático y el sistema de la co
 
 ## <a name="how-to-acquire-phone-systemvirtual-user-licenses"></a>Cómo adquirir el sistema telefónico: licencias de usuario virtual 
 
+> [!NOTE] 
+> Cuando siga estas instrucciones, desactive el modo de vista previa para comprar un sistema telefónico: licencia de usuario virtual.
+
 1. Inicie sesión en el centro de administración de Microsoft 365.
-2. Ir a suscripciones**del complemento de** **servicios** > de compra de **facturación** > 
+2. Ir a**suscripciones del complemento de** **servicios** > de compra de **facturación** > 
 3. Desplácese hasta el final para encontrar la licencia **"sistema telefónico-usuario virtual"** . Seleccione **comprar ahora**.
 
 > [!WARNING]

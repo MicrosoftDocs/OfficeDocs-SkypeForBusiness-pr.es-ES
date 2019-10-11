@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de migrar a Skype empresarial Server 2019, tendrá que mover el servidor de administración central al servidor o grupo de servidores front-end de Skype empresarial 2019 antes de poder quitar el servidor heredado.
-ms.openlocfilehash: 7ba82a3748a98e2f1bc25cd7c48eceabdf76ac19
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244508"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434944"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Mover el servidor de administración central heredado a Skype empresarial Server 2019
 
@@ -67,7 +67,7 @@ Use los procedimientos de esta sección para preparar los servidores front-end d
 
 1. En el servidor de Skype empresarial Server 2019 que será el servidor de administración central, inicie sesión en el equipo donde el shell de administración de Skype empresarial Server está instalado como miembro del grupo **RTCUniversalServerAdmins** . También debe tener los derechos de usuario y permisos de administrador de bases de datos de SQL Server. 
     
-2. Abra el shell de administración de Skype empresarial Server.
+2. Abra el shell de administración de Skype empresarial Server (ejecutar como administrador).
     
 3. En el shell de administración de Skype empresarial Server, escriba: 
     

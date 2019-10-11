@@ -11,19 +11,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
-description: 'Resumen: configure el uso de fotos de alta resolución en Exchange Server 2016 o Exchange Server 2013 y Skype empresarial Server.'
-ms.openlocfilehash: 1ca9c0077969cab22b8ebfa073d3d0585108503b
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+description: 'Resumen: configure el uso de fotos de alta resolución en Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 o Exchange Online y Skype empresarial Server.'
+ms.openlocfilehash: 08db547dc9ead9d79a50cd17b4496826aa735369
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464659"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434915"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurar el uso de fotos de alta resolución en Skype empresarial Server
  
-**Resumen:** Configure el uso de fotos de alta resolución en Exchange Server 2016 o Exchange Server 2013 y Skype empresarial Server.
+**Resumen:** Configure el uso de fotos de alta resolución en Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 o Exchange Online y Skype empresarial Server.
   
-En Skype empresarial Server, las fotos se pueden almacenar en un buzón de correo de usuario de Exchange Server 2016 o de Exchange Server 2013, lo que permite un tamaño de foto de hasta 648 píxeles por 648 píxeles. Además, Exchange Server puede cambiar automáticamente el tamaño de estas fotos para usarlas en diferentes productos según sea necesario. Normalmente, esto significa tres tamaños y resoluciones de foto diferentes:
+En Skype empresarial Server, las fotos se pueden almacenar en el Exchange Server 2019 de un usuario, Exchange Server 2016, Exchange Server 2013 o el buzón de Exchange Online, que permite un tamaño de foto de hasta 648 píxeles por 648 píxeles. Además, Exchange Server puede cambiar automáticamente el tamaño de estas fotos para usarlas en diferentes productos según sea necesario. Normalmente, esto significa tres tamaños y resoluciones de foto diferentes:
   
 - 64 píxeles por 64 píxeles, que es el tamaño usado por el atributo thumbnailPhoto de Active Directory. Si carga una foto a Exchange Server, Exchange creará automáticamente un píxel de 64 por 64 píxel de la foto y actualizará el atributo thumbnailPhoto del usuario. Sin embargo, ten en cuenta que el valor inverso no es verdadero: si actualizas manualmente el atributo thumbnailPhoto en Active Directory, no se actualizará automáticamente la foto en el buzón de Exchange del usuario.
     

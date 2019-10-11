@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulta cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas. '
-ms.openlocfilehash: 25f141f30691700414c3a24e705c7d8b490fd265
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328358"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435105"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -40,7 +40,7 @@ Actualmente, la versión 3 del CQD y la versión 2 del CQD están disponibles pa
 
 ## <a name="latest-changes-and-updates"></a>Últimos cambios y actualizaciones
 
-La versión 3 del CQD ofrece un panel de CQD en tiempo real (latencia cercana a 30 minutos) y usa la información de identificación del usuario final (EUII), lo que permite a los administradores acercarse al nivel de usuario. También hay un informe de interactividad para admitir nuevos escenarios como:
+La versión 3 del CQD ofrece un panel de CQD en tiempo real (latencia cercana a 30 minutos) y usa la información de identificación del usuario final (EUII), lo que permite a los administradores acercarse al nivel de usuario. También hay interactividad para admitir escenarios nuevos como:
 
 - Calidad de la llamada por región:
   - fecha y por región
@@ -129,11 +129,11 @@ Cuando se selecciona un campo de obtención de detalles, el panel se desplaza au
 
 Por ejemplo, en un informe detallado de la calidad de las llamadas, un usuario puede hacer clic en la fecha en la que deseaba ' profundizar ', lo que conduce a la pestaña de ubicación.
 
-    ![Screenshot: shows the drill thru report](media/CQD-drill-thru-report.png)
+![Captura de pantalla: muestra el informe de obtención de detalles](media/CQD-drill-thru-report.png)
 
 Puede agregar varias fechas desde la pestaña ubicación, como agregar 2019-09-22 a la fecha: 2019-09-24: 
 
-    ![Screenshot: add a date to the drill thru report](media/CQD-add-date.png)
+![Captura de pantalla: agregar una fecha al informe de obtención de detalles](media/CQD-add-date.png)
 
 > [!NOTE]
 > No ir directamente a la última pestaña. Sin filtros seleccionados de una obtención de detalles anterior, los resultados serían demasiado grandes para mostrarlos en una tabla.
@@ -339,6 +339,8 @@ El panel informes de resumen del CQD incluye una página de **carga de datos de 
 ### <a name="building-data-file"></a>Generando archivo de datos
 
 El CQD usa un archivo de datos de construcción, lo que ayuda a proporcionar detalles útiles de la llamada. La columna subred se deriva expandiendo la columna red + rango, luego se une la columna subred a la primera subred de la llamada o la segunda subred para mostrar la información de la región o el edificio, la ciudad, el país o la región. El formato del archivo de datos que cargue debe cumplir los siguientes criterios para pasar la comprobación de validación antes de la carga:
+
+Puede descargar una plantilla de ejemplo [aquí](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)
   
 - El archivo debe ser un archivo. TSV (las columnas están separadas por una TABULAción) o un archivo. csv (las columnas se separan con una coma).
 - El archivo de datos no incluye una fila de encabezado de tabla. Se espera que la primera línea del archivo de datos sea datos reales, no etiquetas de encabezado como "Network".
@@ -359,9 +361,7 @@ El CQD usa un archivo de datos de construcción, lo que ayuda a proporcionar det
 
 **Fila de ejemplo:**
 
-```
-192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0
-```
+`192.168.1.0,USA/Seattle/SEATTLE-SEA-1,26,SEATTLE-SEA-1,Contoso,IT Termination,Engineering,Seattle,98001,US,WA,MSUS,1,0,0`
 
 > [!IMPORTANT]
 > El intervalo de red se puede usar para representar una superred (combinación de varias subredes con un único prefijo de enrutamiento). Todas las nuevas cargas de creación se marcarán para todos los intervalos superpuestos. Si ha cargado previamente un archivo de compilación, debe descargar el archivo actual y volver a cargarlo para identificar cualquier solapamiento y corregir el problema antes de volver a cargar. Cualquier solapamiento de los archivos cargados previamente puede dar lugar a asignaciones erróneas de subredes a edificios de los informes. Ciertas implementaciones de VPN no informan con precisión de la información de subred. Se recomienda que al agregar una subred VPN al archivo de creación, en lugar de una entrada para la subred, se agreguen entradas independientes para cada dirección de la subred VPN como una red de 32 bits independiente. Cada fila puede tener los mismos metadatos de compilación. Por ejemplo, en lugar de una fila para 172.16.18.0/24, debe tener 256 filas, con una fila por cada dirección entre 172.16.18.0/32 y 172.16.18.255/32, ambos incluidos.
@@ -382,11 +382,11 @@ El CQD usa un archivo de datos de extremo. Los valores de columna se usan en el 
 
   **Orden de los campos:**
 
-  EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Fila de ejemplo:**
 
-  `1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
 
 ## <a name="create-custom-detailed-reports"></a>Crear informes detallados personalizados
 

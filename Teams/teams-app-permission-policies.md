@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 02f626db773adc2d64547397c793d214187758de
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: b6b655fd60687cb24ed6c2c8721bd889ea97548b
+ms.sourcegitcommit: cf97815f18b08fd67479844170540edc7b467099
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483739"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37449729"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
@@ -47,15 +47,15 @@ Supongamos, por ejemplo, que desea bloquear todas las aplicaciones de terceros y
 
 Use la configuración de la aplicación en toda la organización para controlar qué aplicaciones están disponibles en toda la organización. La configuración de la aplicación en toda la organización rige el comportamiento de todos los usuarios y anula cualquier otra directiva de permisos de aplicación asignada a los usuarios. Puede usarlos para controlar aplicaciones malintencionadas o problemáticas.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de permisos**de las **aplicaciones** > de Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos**de las **aplicaciones de Teams**.
 2. Seleccione **configuración de toda la organización**. Puede establecer la configuración que desee en el panel. 
-![Captura de pantalla de la configuración de la aplicación de toda la organización](media/app-permission-policies-org-wide-settings.png)
+    ![Captura de pantalla de nueva Directiva de permisos de aplicaciones](media/app-permission-policies-org-wide-settings.png)
 3. En **aplicaciones de terceros**, desactive o Active esta configuración para controlar el acceso a las aplicaciones de terceros:
 
     - **Permitir aplicaciones personalizadas o de terceros en Teams**: controla si los usuarios pueden usar aplicaciones personalizadas o de terceros.
     - **Permitir que todas las aplicaciones de terceros se publiquen en la tienda de forma predeterminada**: controla si las nuevas aplicaciones de terceros publicadas en la tienda de aplicaciones de Teams se encuentran disponibles automáticamente en Teams. Solo puede establecer esta opción si permite aplicaciones de terceros.
 
-4. En **aplicaciones personalizadas**, desactive o desactive la **opción permitir la interacción con aplicaciones personalizadas**. Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas (transferidas). Tenga en cuenta que esto es diferente de permitir que los ** usuarios carguen aplicaciones personalizadas.
+4. En **aplicaciones personalizadas**, desactive o desactive la **opción permitir la interacción con aplicaciones personalizadas**. Esta configuración controla si los usuarios pueden interactuar con aplicaciones personalizadas (transferidas). Tenga en cuenta que esto es diferente de permitir que los usuarios *carguen* aplicaciones personalizadas.
 5. En **aplicaciones bloqueadas**, busque y agregue las aplicaciones que desea bloquear en toda la organización. Puede elegir aplicaciones del catálogo de aplicaciones de inquilino o de la tienda de aplicaciones de Teams.
 6. Haga clic en **Guardar** para que la configuración de la aplicación de toda la organización surta efecto.
 
@@ -63,9 +63,9 @@ Use la configuración de la aplicación en toda la organización para controlar 
 
 Si desea controlar las aplicaciones que están disponibles para los distintos grupos de usuarios de su organización, cree y asigne una o varias directivas de permisos de aplicaciones personalizadas. Puede crear y asignar directivas personalizadas distintas basándose en si las aplicaciones son publicadas por Microsoft, por terceros o por su organización. Es importante saber que después de crear una directiva personalizada, no puede cambiarla si las aplicaciones de terceros se deshabilitan en la configuración de toda la organización. 
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de permisos**de las **aplicaciones** > de Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos**de las **aplicaciones de Teams**.
 2. Haga clic en **Agregar**.
-    ![Captura de pantalla de nueva Directiva de permisos de aplicación](media/app-permission-policies-new-policy.png)
+    ![Captura de pantalla de nueva Directiva de permisos de aplicaciones](media/app-permission-policies-new-policy.png)
 3. Escriba un nombre y una descripción para la Directiva.
 4. En aplicaciones de **Microsoft**, **aplicaciones**de terceros y **aplicaciones de inquilino**, seleccione una de las siguientes opciones:
 
@@ -87,7 +87,7 @@ Si desea controlar las aplicaciones que están disponibles para los distintos gr
 
 Puede usar el centro de administración de Microsoft Teams para editar una directiva, incluida la directiva global y las directivas personalizadas que cree.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de permisos**de las **aplicaciones** > de Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos**de las **aplicaciones de Teams**.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva y, a continuación, haga clic en **Editar**.
 3. Desde aquí, realice los cambios que desee. Puede administrar la configuración basándose en el editor de la aplicación y agregar y quitar aplicaciones en función de la configuración permitir o bloquear.
 4. Haga clic en **Guardar **.
@@ -106,7 +106,7 @@ Para asignar una directiva a varios usuarios a la vez, vea [editar la configurac
 
 También puede hacer lo siguiente:
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de permisos**de las **aplicaciones** > de Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos**de las **aplicaciones de Teams**.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
 3. Seleccione **administrar usuarios**.
 4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, a continuación, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
@@ -135,7 +135,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
 
-## <a name="faq"></a>Preguntas más frecuentes
+## <a name="faq"></a>Preguntas frecuentes
 
 ### <a name="working-with-app-permission-policies"></a>Trabajar con directivas de permisos de aplicaciones
 

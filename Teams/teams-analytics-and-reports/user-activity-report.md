@@ -15,12 +15,12 @@ ms.collection:
 description: Obtenga información sobre cómo usar el informe actividad de usuarios de Teams en el centro de administración de Microsoft Teams para ver cómo los usuarios de su organización usan Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd8c33bfa1ebfbeb4ba4c79827c13e4c33f9a340
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: a478e99037194381421f76ce4856f219ef9dd0db
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131607"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439566"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 
@@ -31,7 +31,7 @@ El informe actividad de usuarios de Teams le proporciona información sobre los 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **actividad de usuario de Teams**.
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.
 
-    ![Captura de pantalla del informe actividad de usuarios de Teams en el centro de administración de Teams con llamadas] (../media/teams-reports-user-activity-with-callouts.png "Captura de pantalla del informe actividad de usuarios de Teams en el centro de administración de Teams con llamadas")
+    ![Captura de pantalla del informe actividad de usuarios de Teams en el centro de administración de equipos con]llamadas(../media/teams-reports-user-activity-with-callouts.png "captura de pantalla del informe actividad de usuarios de Teams en el centro de administración de equipos con llamadas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
@@ -44,6 +44,8 @@ El informe actividad de usuarios de Teams le proporciona información sobre los 
 |**5**   |La tabla ofrece un desglose del uso por parte del usuario.   <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams.</li><li>**llamadas de 1:1** es el número de llamadas de 1:1 en las que el usuario ha participado durante el período de tiempo especificado.</li><li>**Mensajes de canal** es el número de mensajes únicos que el usuario ha publicado en un chat de equipo durante el período de tiempo especificado.</li> <li>**Mensajes de chat** es el número de mensajes únicos que el usuario ha publicado en una conversación privada durante el período de tiempo especificado.</li>  <li>**Última actividad** es la última fecha (UTC) en la que el usuario participó en una actividad de Teams.</li> </ul>Tenga en cuenta que si ya no existe una cuenta de usuario en Azure AD, el nombre de usuario se muestra como "--" en la tabla. <br><br>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.
 |**6**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla. |
 |**7**   |Puede exportar el informe a un archivo CSV para analizarlos sin conexión. Haga clic en **exportar a Excel**y, a continuación, en la pestaña **descargas** , haga clic en **Descargar** para descargar el informe cuando esté listo.<br><br>![Captura de pantalla de la pestaña descargas que muestra los informes exportados para descargar](../media/teams-reports-export-to-csv.png) <br>Al ver el informe en Excel, también verá una columna **ID** , que representa el identificador del equipo. Un identificador de equipo suele ser una cadena alfanumérica. Si la columna **ID** muestra el nombre **\n**, significa que un usuario ha solicitado que se elimine su información. ||
+
+[!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="related-topics"></a>Temas relacionados
 

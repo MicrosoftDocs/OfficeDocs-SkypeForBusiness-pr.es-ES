@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Obtenga más información sobre la administración de grupos de servidores front-end en Skype empresarial Server, como la administración de grupos, pérdida de quórum y pasos especiales para grupos de servidores con tan solo dos servidores front-end.
-ms.openlocfilehash: e42e192d224d509356203c059751624fc706707b
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: d54474b6e3013b2d092f55b80000f5578e266f81
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047097"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435183"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidad y administración del grupo de servidores front-end
  
@@ -40,7 +40,7 @@ La primera vez que inicia un nuevo grupo de servidores front-end, es fundamental
   
 |Cantidad total de servidores en el grupo  <br/> |Cantidad de servidores que necesitan estar en ejecución para que el grupo se inicie por primera vez  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|1  <br/> |1  <br/> |
 |3  <br/> |3  <br/> |
 |4  <br/> |3  <br/> |
 |5  <br/> |4  <br/> |
@@ -51,6 +51,9 @@ La primera vez que inicia un nuevo grupo de servidores front-end, es fundamental
 |base10  <br/> |4,8  <br/> |
 |once  <br/> |99,999  <br/> |
 |2007  <br/> |base10  <br/> |
+|16 **para Skype empresarial Server 2019** <br/> |2007  <br/> |
+
+
    
 Cada vez subsiguiente que se inicie el grupo, es preciso iniciar el 85 % de los servidores (tal como se muestra en la tabla anterior). Si no se puede iniciar este número de servidores (pero se pueden iniciar suficientes servidores para que no se encuentre en pérdida de quórum en el nivel de grupo), `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` puede usar el cmdlet para permitir que el grupo se recupere de esta pérdida de quórum en el nivel de grupo de enrutamiento y realice el progreso. Para obtener más información sobre cómo usar este cmdlet, consulte [RESET-CsPoolRegistrarState](https://docs.microsoft.com/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
@@ -63,15 +66,19 @@ Para que un grupo de servidores front-end funcione, no puede estar en pérdida d
   
 |Número total de servidores front-end en el grupo  <br/> |Cantidad de servidores que es preciso que estén en ejecución para que el grupo funcione  <br/> |
 |:-----|:-----|
-|2  <br/> |1  <br/> |
+|1  <br/> |1  <br/> |
 |3-4  <br/> |2 cualesquiera  <br/> |
 |5-6  <br/> |3 cualesquiera  <br/> |
 |7  <br/> |4 cualesquiera  <br/> |
 |8-9  <br/> |4 cualesquiera de los primeros 7 servidores  <br/> |
 |10-12  <br/> |5 cualesquiera de los primeros 9 servidores  <br/> |
+|12-16 **para Skype empresarial Server 2019**  <br/> |Los 7 de los primeros 12 servidores  <br/> |
    
 En la tabla anterior, los "primeros servidores" son los servidores que se pusieron en primer lugar, cronológicamente, cuando el grupo se inició por primera vez. Para determinar estos servidores, puede usar el `Get-CsComputer` cmdlet con la `-PoolFqdn` opción. Este cmdlet le mostrará los servidores en el orden en el que aparecen en la topología; los que se encuentran en la parte superior de la lista son los primeros servidores.
   
+> [!IMPORTANT]
+> La cantidad máxima de servidores de aplicaciones para el usuario se ha incrementado a 16 en [Skype empresarial Server 2019](https://docs.microsoft.com/skypeforbusiness/plan/user-model-2019)
+> 
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Pasos adicionales para comprobar si los grupos de servidores son funcionales
 
 Es necesario tener en cuenta algunos otros factores a fin de asegurarse de que los grupos de servidores front-end sigan siendo funcionales.

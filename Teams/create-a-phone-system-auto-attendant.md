@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 424b6cea41132bd03b9eecfbd2d387697332505f
-ms.sourcegitcommit: d349922409f49b52048597a56b81501163749a69
+ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37402073"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434969"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -44,7 +44,7 @@ Las implementaciones de operadores automáticos suelen implicar varios operadore
 ## <a name="step-1--get-started"></a>Paso 1: introducción
 
 - Es necesario un operador automático para tener una cuenta de recursos asociada. Consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) para obtener información sobre las cuentas de recursos y todas las licencias necesarias. 
-- 
+ 
 <!-- When you create a new auto attendant in Teams after October 10th, 2019, the required auto attendant is automatically created and linked with the new auto attendant. -->
  
 > [!TIP]
@@ -88,7 +88,7 @@ Tiene varias formas de configurar el operador:
      > [!Note]
      > **La persona de su organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server.
 
-- **Característica de voz**  Seleccione el nombre de la cuenta de recursos vinculada a un operador automático o a una cola de llamadas que ya se ha creado. Las personas que llaman que solicitan un operador se redirigen allí.  
+- **Aplicación de voz**  Seleccione el nombre de la cuenta de recursos vinculada a un operador automático o a una cola de llamadas que ya se ha creado. Las personas que llaman que solicitan un operador se redirigen allí.  
 <!--   
 
 - **Auto attendant** Select the name of the resource account linked to an auto attendant that has already been created. Callers that request an operator are redirected there.
@@ -100,10 +100,11 @@ Tiene varias formas de configurar el operador:
 > Auto attendants created after October 10th, 2019 also create a new [resource account](manage-resource-accounts.md) that is associated with the auto attendant. If a phone number is applied to the auto attendant's resource account,  a Phone System - Virtual user license is applied to the resource account if one is available.
 -->
 
-* * * 
+* * *
 
-![Icono del número 3, una llamada en la](media/teamscallout3.png)<a name="timezone"> </a>  
- **zona horaria** de captura de pantalla anterior, se requiere establecer la zona horaria para el operador automático. La configuración puede ser la misma que la zona horaria de la dirección principal que se muestra para su organización, u otra zona horaria. Cada operador automático puede tener una zona horaria diferente. El horario comercial establecido para el operador automático también usa esta zona horaria.
+<a name="timezone"> </a>
+
+![Icono del número 3, una llamada en la](media/teamscallout3.png) **zona horaria** de captura de pantalla anterior, se requiere establecer la zona horaria para el operador automático. La configuración puede ser la misma que la zona horaria de la dirección principal que se muestra para su organización, u otra zona horaria. Cada operador automático puede tener una zona horaria diferente. El horario comercial establecido para el operador automático también usa esta zona horaria.
 
 * * *
 
@@ -147,7 +148,6 @@ Puede configurar saludos, avisos y menús personalizados que los usuarios escuch
 ![Icono del número 3, una llamada en la captura de pantalla](media/teamscallout3.png) anterior **escribir un mensaje de saludo** si elige esta opción, escriba el texto que quiere que lea el sistema (hasta 1000 caracteres) en el campo proporcionado. Por ejemplo, escriba "Bienvenido a contoso. Su llamada es muy importante para nosotros." El resultado se crea mediante el software de texto a voz.
 
 * * *
-
 
 Puede seleccionar lo que sucede junto a llamadas de las siguientes acciones en el **después, enrutar la** sección de llamada. La configuración es **desconectar**, **redirigir llamada**o **reproducir opciones de menú**.
 
@@ -197,13 +197,9 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 > [!NOTE]
 > Las teclas \* (repetir) y \# (atrás) están reservadas por el sistema y no se pueden reasignar. Si el reconocimiento de voz está habilitado, presionar * se corresponde con "repetir" y # se corresponde con los comandos de voz "atrás".
 
-![Icono del número 3, una llamada en la captura de pantalla anterior](media/teamscallout3.png)
+![Icono del número 3, una llamada en la captura de pantalla](media/teamscallout3.png) anterior para configurar una opción de menú, haga clic en la **tecla + asignar una tecla de marcado** e introduzca la información de las siguientes opciones:
 
-Para configurar una opción de menú, haga clic en la **tecla + asignar una tecla de marcado** e introduzca la información de las siguientes opciones:
-
-![Icono del número 4, una llamada en la captura de pantalla anterior](media/teamscallout4.png) 
-
-La columna **comando de voz** de una opción puede tener hasta 64 caracteres y puede contener varias palabras como "servicio al cliente" o "operaciones y motivos". Si el reconocimiento de voz está habilitado, el nombre se reconoce automáticamente y la persona que llama puede presionar 3, decir "tres" o decir "servicio al cliente" para seleccionar la opción asignada a la tecla 3.
+![Icono del número 4, una llamada en la captura de pantalla](media/teamscallout4.png)anterior la columna**comando de voz** de una opción puede tener un máximo de 64 caracteres y puede contener varias palabras, como "servicio al cliente" o "operaciones y motivos".   Si el reconocimiento de voz está habilitado, el nombre se reconoce automáticamente y la persona que llama puede presionar 3, decir "tres" o decir "servicio al cliente" para seleccionar la opción asignada a la tecla 3. Este texto se representa también por texto a voz para la solicitud de confirmación del servicio, que puede ser algo como "transferencia de la llamada al operador".
 
 ![Icono del número 5, llamada en la captura de pantalla](media/teamscallout5.png) anterior el **redireccionamiento a** conjuntos de opciones donde la llamada se muestra si se presiona la tecla correspondiente, o se selecciona la opción con reconocimiento de voz. La llamada se puede enviar al:
 
@@ -219,13 +215,14 @@ La columna **comando de voz** de una opción puede tener hasta 64 caracteres y p
 - **External phone number** routes the caller to a designated phone number outside your local system.<!-- does this have prerequisites like direct routing?
 - **Group Voicemail** routes the call to a voicemail box that you select.  -->
 
-![Icono del número 6, una llamada en la captura de pantalla anterior](media/teamscallout6.png) 
-
-**Búsqueda** en el directorio En esta sección, puede habilitar el **marcado por nombre** y la **extensión de marcado por extensión** para el operador automático. Puede establecer quién está y no incluido en estos servicios en la página de ámbito de marcado opcional. La búsqueda en el directorio se establece en **ninguno** de forma predeterminada.
+![Icono del número 6, una llamada en la captura de pantalla](media/teamscallout6.png)anterior buscar en el**directorio** de esta sección, puede habilitar el **marcado por nombre** y la **extensión de marcado por extensión** para el operador automático.   Puede establecer quién está y no incluido en estos servicios en la página de ámbito de marcado opcional. La búsqueda en el directorio se establece en **ninguno** de forma predeterminada.
 
 **Marcado por nombre** Si habilita esta opción, las personas que llaman pueden buscar personas de su organización mediante el **marcado por nombre**. Dicen que el nombre del usuario y el reconocimiento de voz coinciden con el usuario. Puede establecer quién está y no incluido en estos servicios en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con el marcado por nombre.
 
 **Marcado por extensión** Si habilita esta opción, las personas que llamen pueden conectarse con los usuarios de su organización escribiendo su extensión de teléfono, **siempre que haya configurado un plan de marcado que use las extensiones**. Puede seleccionar qué usuarios aparecen como disponibles o no disponibles para **marcar por extensión** en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la función de marcado por extensión.
+
+> [!NOTE]
+> Si desea usar tanto el **marcado por el nombre** como las características de **marcado por extensión** , puede crear un operador automático principal (habilitado para **marcado por nombre**) que pide a las personas que llamen para elegir una opción de menú 3 si conocen la extensión del usuario y establecer la opción 3 en Tran sfer la llamada a un operador automático habilitado para marcado por extensión. 
 
 * * *
 
@@ -328,7 +325,9 @@ Si selecciona **todos los usuarios en línea**, todos los usuarios elegibles se 
 
 **Grupos de usuarios personalizados** Esta opción le permite buscar y seleccionar un grupo de Office 365, una lista de distribución o un grupo de seguridad ya creado en su organización. Los usuarios se agregan al directorio si se encuentran en el grupo de Office 365, una lista de distribución o un grupo de seguridad elegido y son **usuarios en línea con una licencia de sistema de teléfono** o se hospedan de forma local con Skype empresarial Server. Puede agregar varios grupos de Office 365, listas de distribución y grupos de seguridad al directorio.
 
+<a name="dialscope"> </a>
 
+En esta página, puede configurar los usuarios de su organización que aparecerán en el directorio y que estarán disponibles para marcar por su nombre cuando sea una persona que llame a su organización.
 
 ![Icono del número 2, una llamada en la captura de pantalla](media/teamscallout2.png) anterior **excepto** las opciones de esta sección le permiten excluir a determinados usuarios o grupos de usuarios del directorio de la organización.
 

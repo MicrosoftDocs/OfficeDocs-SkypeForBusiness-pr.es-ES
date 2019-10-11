@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 210712e29fb64f587f2d1f2c9281e6383da11da1
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: d0071afd7198c56dcfb52d3a62cb4829e0c4d020
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767188"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435222"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública
 
@@ -76,7 +76,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube,
 |                             | Característica                     | Requisito       |
 |-----------------------------|-----------------------------|----------------|
 | Básica | Inicio de sesión | Disponible |
-| | Presencia | Disponible |
+| | Presence | Disponible |
 | | Presencia unificada (Skype empresarial y equipos unificados) | En el trabajo pendiente del gobierno |
 | Actividades | Suministros | Disponible |
 |  | Mi actividad | Disponible |
@@ -85,7 +85,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube,
 | | Organigrama | Disponible |
 | | Actividades | Disponible |
 | | Interoperabilidad (1:1 equipos-conversación de Skype empresarial) | En el trabajo pendiente del gobierno |
-| Microsoft Teams | Mensaje de canal | Disponible |
+| Teams | Mensaje de canal | Disponible |
 | | Archivos de canal | Disponible |
 | | Pestaña OneNote | En el trabajo pendiente del gobierno |
 | | Enviar por correo electrónico un canal | No disponible |
@@ -108,7 +108,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube,
 | | Llamada de VoIP | Disponible |
 | | Skype empresarial: llamadas de equipo | Disponible |
 | | Planes de llamadas | No disponible |
-| | Audioconferencias (al permitir que los participantes de la reunión se unan a través de RTC) | En el trabajo pendiente del gobierno |
+| | Audioconferencias (al permitir que los participantes de la reunión se unan a través de RTC) | Disponible |
 | | Enrutamiento directo de Microsoft Phone System | En el trabajo pendiente del gobierno |
 | | Sala de llamadas RTC | En el trabajo pendiente del gobierno |
 | | Cola de llamadas | En el trabajo pendiente del gobierno |

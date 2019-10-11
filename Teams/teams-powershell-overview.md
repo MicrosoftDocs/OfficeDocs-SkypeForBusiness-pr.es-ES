@@ -14,12 +14,12 @@ ms.collection:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20e85b2f45977a0a78d0d358c2e8aaa01b9257e4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 75bb6a982db4ab3986a423cf958ad8e81105380c
+ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235136"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37439588"
 ---
 # <a name="teams-powershell-overview"></a>Descripción de PowerShell para Teams
 
@@ -79,6 +79,9 @@ Cuando publicamos nuestra versión general disponible de nuestro módulo de Powe
 ## <a name="managing-policies-via-powershell"></a>Administración de directivas a través de PowerShell
 
 Los cmdlets para administrar directivas se encuentran en el [módulo de cmdlet de Skype empresarial](https://www.microsoft.com/en-us/download/details.aspx?id=39366).
+
+> [!NOTE]
+> Los cmdlets estarán disponibles en la sesión de PowerShell una vez que se conecte a Skype empresarial online. Para obtener más información, vea [administrar Skype empresarial online con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell). 
 
 Una directiva es un grupo de opciones que se pueden aplicar de forma granular a usuarios individuales. Cada tipo de directiva tiene su propio conjunto de cmdlets para crear, ver, eliminar y actualizar las directivas en sí y, a continuación, asignar esas directivas a los usuarios. La estructura general es la siguiente:
 

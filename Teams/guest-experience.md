@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dddd12a291ece817669114e0b836e6df56d2610
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d89150f3e4947ee43b013132ea73ae9d38ff14ea
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242000"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434662"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -32,7 +32,7 @@ Cuando a un invitado se le ofrece unirse a un equipo, recibe un mensaje de corre
     
 Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se anuncia que el propietario del equipo ha agregado a un invitado y da el nombre del invitado. Todos los miembros del equipo pueden identificar con facilidad quién es un invitado. Como se muestra en la siguiente captura de pantalla de un equipo de muestra, una pancarta indica "este equipo tiene invitados" y aparece una etiqueta "(invitado)" junto al nombre de cada invitado.
     
-![Captura de pantalla que muestra los usuarios invitados] de notificaciones (media/guest-experience-image2.png "Captura de pantalla que muestra una parte del canal de marketing de Northwind Traders, con la notificación en el banner superior en el que se indica que el equipo tiene invitados y los usuarios que son invitados se identifican con la palabra \"invitado\" junto a su nombre.")
+![Captura de pantalla que muestra la notificación de banner usuarios invitados]la captura de pantalla(media/guest-experience-image2.png "muestra una parte del canal de marketing de Northwind Traders, con la notificación en el banner superior que indica que el equipo tiene invitados y los usuarios que son invitados se identifican con el INVITADO de Word junto a su nombre.")
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Comparación de las capacidades de miembro de equipo y de invitado
 
@@ -54,6 +54,7 @@ En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está d
 |Crear un equipo  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Descubrir un equipo público y unirse a él  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
 |Ver el organigrama  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Usar traducción en línea  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 En la tabla siguiente se muestran las características de llamadas y reuniones disponibles para los invitados.
 

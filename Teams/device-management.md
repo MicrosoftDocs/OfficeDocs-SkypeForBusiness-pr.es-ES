@@ -18,17 +18,17 @@ description: Obtenga información sobre cómo administrar dispositivos usados co
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 871a066644aaca3b899d1c7f8b3c3c55f6a516a5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 38d716396a61f259a3a1ac90f45b0b5b4b110e33
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483830"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434905"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Administrar sus dispositivos en Microsoft Teams
 
 ::: zone target="docs"
-Como administrador, usted administra todos los dispositivos que se usan con los equipos de su organización desde Microsoft Teams & el centro de administración de Skype empresarial. Puede ver y administrar el inventario de dispositivos de su organización y realizar tareas como actualizar, reiniciar y supervisar los diagnósticos de los dispositivos. También puede crear y asignar perfiles de configuración a un dispositivo o a grupos de dispositivos. 
+Como administrador, usted administra todos los dispositivos que se usan con los equipos de su organización desde el centro de administración de Microsoft Teams. Puede ver y administrar el inventario de dispositivos de su organización y realizar tareas como actualizar, reiniciar y supervisar los diagnósticos de los dispositivos. También puede crear y asignar perfiles de configuración a un dispositivo o a grupos de dispositivos. 
 
 ## <a name="what-devices-can-you-manage"></a>¿Qué dispositivos puede administrar?
 Los dispositivos deben estar certificados para equipos e inscritos en Teams. Un dispositivo se inscribe automáticamente la primera vez que un usuario inicia sesión en Teams en el dispositivo. Para obtener una lista de los dispositivos certificados que se pueden administrar, consulte [teléfonos de conferencia](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) y teléfonos de [escritorio](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).

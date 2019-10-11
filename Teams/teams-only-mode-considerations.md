@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f1a6d27dc2e01d433f36196394f7d3b98871c597
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 81609298a580594e8c54d185d7dea3be86824139
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244782"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435116"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 
@@ -36,7 +36,7 @@ Aunque miles de clientes se han actualizado correctamente a Microsoft Teams, hay
 > [!IMPORTANT]
 > Si solo está empezando el plan de actualización, asegúrese de revisar la guía de actualización completa y los recursos de planeación. [Comienza aquí](upgrade-start-here.md). 
 
-**Consideraciones**de coexistencia: las organizaciones que ya usan Skype empresarial online o Skype empresarial Server pueden introducir equipos en su entorno a un ritmo que satisfaga sus necesidades. Las organizaciones pueden implementar de manera incremental Teams para un conjunto de usuarios deseado según sea necesario, y los usuarios que usen Teams podrán comunicarse con los usuarios que usen Skype empresarial y viceversa. Para administrar esta experiencia, los administradores usan modos de coexistencia, que definen la experiencia del cliente del usuario final, el comportamiento de enrutamiento de las conversaciones entrantes y las llamadas, así como si se programan nuevas reuniones en Teams o Skype empresarial. Los usuarios pueden federarse a usuarios de otras organizaciones si el usuario solo se actualiza a **Teams**; sin embargo, la mejor experiencia se proporciona cuando ambos usuarios usan Teams. Los usuarios que se actualizan a teams solo pueden unirse a reuniones de Skype empresarial. 
+**Consideraciones de coexistencia**: las organizaciones que ya usan Skype empresarial online o Skype empresarial Server pueden introducir equipos en su entorno a un ritmo que satisfaga sus necesidades. Las organizaciones pueden implementar de manera incremental Teams para un conjunto de usuarios deseado según sea necesario, y los usuarios que usen Teams podrán comunicarse con los usuarios que usen Skype empresarial y viceversa. Para administrar esta experiencia, los administradores usan modos de coexistencia, que definen la experiencia del cliente del usuario final, el comportamiento de enrutamiento de las conversaciones entrantes y las llamadas, así como si se programan nuevas reuniones en Teams o Skype empresarial. Los usuarios pueden federarse a usuarios de otras organizaciones si el usuario solo se actualiza a **Teams**; sin embargo, la mejor experiencia se proporciona cuando ambos usuarios usan Teams. Los usuarios que se actualizan a teams solo pueden unirse a reuniones de Skype empresarial. 
 
 > [!NOTE]
 > Los usuarios que se actualizan a teams solo no pueden comunicarse con los usuarios que usan Skype para el consumidor.
@@ -52,18 +52,10 @@ Aunque miles de clientes se han actualizado correctamente a Microsoft Teams, hay
  - Office 365 Germany
  - El inquilino de Skype empresarial se hospeda en Corea del Sur **y** la organización requiere que los datos de Teams se almacenen en Corea del sur. Actualmente, las organizaciones con datos de Skype empresarial almacenados en Corea del sur que actualicen a teams tendrán sus datos de equipo almacenados en la región de Asia Datacenter, no en la región del centro de datos de Corea del sur.
 
-**Consideraciones específicas del usuario**: algunos escenarios de usuario siguen evolucionando, y los administradores pueden decidir aplazar temporalmente la actualización de determinados usuarios al actualizar otros usuarios de la organización. Estamos trabajando para afrontar estos escenarios; Consulte el sitio de la [Guía básica de Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para obtener anuncios.
+**Consideraciones específicas del usuario**: algunos escenarios de usuario siguen evolucionando, y los administradores pueden decidir aplazar temporalmente la actualización de determinados usuarios al actualizar otros usuarios de la organización. En particular, seguimos trabajando en situaciones de direccionamiento para usuarios cuyo dispositivo principal está basado en VDI. Consulte el sitio de la [Guía básica de Office 365](https://www.microsoft.com/en-us/microsoft-365/roadmap) para obtener anuncios.
 
 > [!NOTE]
 > Antes de pasar al modo solo para equipos, necesita reemplazar o actualizar los dispositivos que no son compatibles con Teams. 
-
-| Escenario | Notas |
-|----------|-------|
-|El dispositivo de trabajo principal del usuario es un Mac y el usuario debe ver la disponibilidad de los compañeros en Outlook. | La presencia de Outlook en Teams aún no es totalmente compatible con los dispositivos Mac. |
-| El usuario suele realizar reuniones con clientes o socios externos en diferentes regiones internacionales. | Los asistentes externos cuyo espacio empresarial reside en una ubicación geográfica diferente no ven la conversación de mensajes instantáneos durante una reunión **federada** . Los participantes pueden unirse a la reunión como usuarios anónimos. |
-| El usuario está llevando a cabo reuniones de difusión de Skype empresarial. |  Mientras que los eventos en vivo de Teams (que reemplazan la difusión de Skype) ya se encuentra en la versión preliminar pública, es posible que este usuario tenga que mantener Skype empresarial hasta que se encuentre con la disponibilidad general de los eventos de Teams
-| El dispositivo principal del usuario es basado en VDI. | |
-|||
 
 > [!IMPORTANT]
 > **Recuerde**: el cambio a teams es algo más que una migración técnica. Una actualización correcta evalúa tanto la preparación técnica como la preparación para el usuario final. Consulte la [Guía de actualización](upgrade-framework.md) de Skype empresarial para equipos para obtener más información sobre cómo planear una implementación de la actualización a teams.  

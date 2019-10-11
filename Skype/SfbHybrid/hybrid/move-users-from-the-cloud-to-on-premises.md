@@ -16,16 +16,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Obtenga información sobre cómo mover usuarios de Skype empresarial online a local.
-ms.openlocfilehash: 16e4419bfd8ea073c04d0b3c4a402455097e4ad5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec3aa727753ed9ac6564712d591ab6d2beac4ebf
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160765"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434733"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>Mover usuarios de la nube a local 
 
-Si es necesario, puede mover a un usuario que se migró previamente de local a la nube (ya sea solo usar Skype empresarial online o Teams) de nuevo a las instalaciones locales. Para mover usuarios de Skype empresarial online o de modo de TeamsOnly a una implementación local de Skype empresarial Server, use el cmdlet Move-CsUser o el panel de control de Skype empresarial Server, ambos son herramientas locales de. Cuando se mueve a un usuario de nuevo a una implementación local, se debe decidir a qué grupo de servidores se va a mover el usuario.
+Si es necesario, puede mover a un usuario que se migró previamente desde una ubicación local a la nube (ya sea para usar Skype empresarial online o Teams) de nuevo en local. Para mover usuarios de Skype empresarial online o de modo de TeamsOnly a una implementación local de Skype empresarial Server, use el cmdlet Move-CsUser o el panel de control de Skype empresarial Server, ambos son herramientas locales de. Cuando se mueve a un usuario de nuevo a una implementación local, se debe decidir a qué grupo de servidores se va a mover el usuario.
 
 > [!Important]
 > Si el usuario estaba anteriormente en modo TeamsOnly y está usando una versión anterior a la versión de Skype empresarial Server 2015 con CU8, también debe quitar la asignación del modo TeamsOnly de TeamsUpgradePolicy para ese usuario. Los usuarios locales no deben tener Mode = TeamsOnly.  Las versiones posteriores de Skype empresarial Server quitan automáticamente esta asignación. Para obtener más información, consulte [Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy).
@@ -33,7 +33,7 @@ Si es necesario, puede mover a un usuario que se migró previamente de local a l
 ## <a name="prerequisites"></a>Requisitos previos
 
 - La organización debe tener Azure AD Connect correctamente configurado y sincronizar todos los atributos relevantes para el usuario, como se describe en [Configure Azure ad Connect](configure-azure-ad-connect.md).
-- El usuario que se va a mover de nuevo a local debe existir ya en Active Directory local.
+- El usuario que se va a mover de nuevo a local ya debe existir en Active Directory local.
 - Es necesario configurar Skype empresarial híbrido, tal y como se describe en [configurar Skype empresarial híbrido](configure-federation-with-skype-for-business-online.md).
 
 ## <a name="moving-users-back-to-on-premises"></a>Mover usuarios de nuevo a local
@@ -43,7 +43,7 @@ Una vez que se mueve a un usuario de la nube de nuevo a local:
 - El usuario interactúa con la implementación de Skype empresarial Server para obtener su funcionalidad. 
 - Los contactos que existían en Skype empresarial online o en Microsoft Teams, se migran a Skype empresarial Server. Los dos conjuntos de contactos se combinan y, a continuación, se migran de nuevo a local.  Además, los contactos que ya están preexistentes en Microsoft Teams permanecen en Microsoft Teams.
 - Si el usuario también usa Teams, no podrá interoperar con los usuarios de Skype empresarial, ni podrá comunicarse con los usuarios de organizaciones federadas.
-- Las reuniones en Skype empresarial online *no* se migran automáticamente de nuevo a la ubicación local. Los usuarios deben reprogramar sus reuniones o, si lo desea, usar la [herramienta de migración de reuniones](https://support.office.com/en-us/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
+- Las reuniones en Skype empresarial online *no* se migran automáticamente de nuevo a local. Los usuarios deben reprogramar sus reuniones o, si lo desea, usar la [herramienta de migración de reuniones](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4).
 
 ### <a name="move-users-with-move-csuser"></a>Mover usuarios con Move-CsUser
 
@@ -53,7 +53,7 @@ Para mover un usuario a local mediante Move-CsUser:
 
 - Especifique el usuario que se va a mover mediante el parámetro Identity.
 - Especifique el parámetro-Target con el nombre de dominio completo del grupo de servidores local deseado en el que se va a hospedar al usuario.
-- Si no tiene una cuenta con permisos suficientes en local y Office 365, use el parámetro-credential para proporcionar una cuenta con permisos suficientes en Office 365.
+- Si no tiene una cuenta con permisos suficientes tanto en local como en Office 365, use el parámetro-credential para proporcionar una cuenta con permisos suficientes en Office 365.
 - Si la cuenta con permisos en Office 365 no termina en "on.microsoft.com", debe especificar el parámetro-HostedMigrationOverrideUrl, con el valor correcto tal como se describe en [required Administrative Credentials](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
 La siguiente secuencia de cmdlet puede usarse para mover un usuario a Skype empresarial Server y se supone que la credencial Office 365 es una cuenta independiente y se proporciona como entrada para el mensaje Get-Credential.
@@ -68,16 +68,16 @@ Move-CsUser -Identity username@contoso.com -Target pool.corp.contoso.com -Creden
 
 1. Abra la aplicación del panel de control de Skype empresarial Server.
 2. En el panel de navegación izquierdo, elija **usuarios**.
-3. Use **Buscar** para localizar al usuario o usuarios a los que desea retroceder a la ubicación local.
+3. Use **Buscar** para localizar al usuario o usuarios a los que desea retroceder en el entorno local.
 4. Seleccione los usuarios y, a continuación, en la lista desplegable **acción** situada encima de la lista, elija **mover usuarios seleccionados a local**.
 5. En el asistente, seleccione el grupo de usuarios que va a hospedar al usuario y haga clic en **siguiente**.
 6. Si se le solicita, inicie sesión en Office 365, con una cuenta que acabe en. onmicrosoft.com y que tenga permisos suficientes.
-7. Haga clic en **siguiente**y **** , a continuación, otra vez más para mover al usuario.
+7. Haga clic en **siguiente**y, **a continuación, otra vez** más para mover al usuario.
 8. Tenga en cuenta que los mensajes de estado sobre aciertos o errores se proporcionan en la parte superior de la aplicación del panel de control principal, no en el asistente.
 
 ### <a name="removing-teamsonly-mode"></a>Eliminación del modo TeamsOnly
 
-Si usa una versión anterior a Skype empresarial 2015 con CU8 y el usuario se va a mover de nuevo a local en modo de TeamsOnly, debe quitar la instancia de UpgradeToTeams de antes `TeamsUpgradePolicy` de mover al usuario local. Puede conceder explícitamente una directiva con un modo diferente o simplemente quitar la asignación de directiva existente para que el usuario Use la directiva global (siempre que la directiva global de su inquilino no sea UpgradeToTeams).
+Si usa una versión anterior a Skype empresarial 2015 con CU8 y el usuario se va a mover de nuevo a local en el modo TeamsOnly, debe quitar la instancia de UpgradeToTeams de antes de `TeamsUpgradePolicy` mover el usuario local. Puede conceder explícitamente una directiva con un modo diferente o simplemente quitar la asignación de directiva existente para que el usuario Use la directiva global (siempre que la directiva global de su inquilino no sea UpgradeToTeams).
 
 Para quitar la asignación del usuario de TeamsUpgradePolicy, ejecute el siguiente cmdlet desde una ventana de PowerShell de Skype empresarial online:
 

@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: dd1a9d68646481f9508657db2634b7d3c325396d
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 398dcd2347f51cf4f50ee6fd7d6bfc6e95fe20d6
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328369"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434869"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -35,7 +35,7 @@ Un sistema PBX es un sistema telefónico dentro de una empresa. El sistema telef
   
 Con el complemento de sistema telefónico, puede usar Skype empresarial para realizar tareas básicas como realizar y recibir llamadas, transferir llamadas, silenciar llamadas o reactivarlas desde prácticamente cualquier lugar con acceso a Internet. Y está disponible en todo el mundo. 
   
-Para obtener más información, consulte [precios para el sistema telefónico](https://products.office.com/skype-for-business/cloud-pbx#requirements).
+Para obtener más información, consulte [precios para el sistema telefónico](https://products.office.com/microsoft-teams/voice-calling#requirements).
   
 ## <a name="phone-system-in-office-365-features"></a>Sistema telefónico en las características de Office 365
 
@@ -80,7 +80,7 @@ Configure el sistema telefónico de la manera que mejor se adapte a su empresa:
     
 Consulte estos artículos para planear y configurar el sistema telefónico en su empresa:
 
-- [Sistema telefónico con planes de llamadas](calling-plan-landing-page.md)
+- [Sistema telefónico con Planes de llamada](calling-plan-landing-page.md)
 
 - [Configurar planes de llamadas](set-up-calling-plans.md): este artículo contiene instrucciones paso a paso para configurar los números de teléfono o para transferir los números de teléfono existentes a Skype empresarial.
     

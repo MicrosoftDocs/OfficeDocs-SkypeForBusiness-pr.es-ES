@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: d1a763f150004b5c558dd311dd54ed6975dcb0c1
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 38938846c594cbb325193e42111ba8dff528f17f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018773"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37434937"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -111,7 +111,7 @@ En la tabla siguiente se enumeran los parámetros adicionales que se pueden usar
 |¿Obligatorio?|Nombre|Descripción|Valor predeterminado|Valores posibles|Tipo y restricciones|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Sí|FQDN|El nombre FQDN de SBC |Ninguna|NoneFQDN nombre, limitar 63 caracteres|Cadena, lista de caracteres permitidos y no permitidos en las [convenciones de nomenclatura de Active Directory para equipos, dominios, sitios y unidades organizativas](https://support.microsoft.com/help/909264)|
-|No|MediaBypass |El parámetro reservado para uso futuro. El parámetro indicado para SBC admite la omisión de medios y el administrador quiere usarlo.|Ninguna|True<br/>False|Boolean|
+|No|MediaBypass |El parámetro indicado para SBC admite la omisión de medios y el administrador quiere usarlo.|Ninguna|True<br/>False|Boolean|
 |Sí|SipSignallingPort |Puerto de escucha usado para comunicarse con los servicios de enrutamiento directo mediante el protocolo seguridad de la capa de transporte (TLS).|Ninguna|Cualquier puerto|0 a 65535 |
 |No|FailoverTimeSeconds |Cuando se establece en 10 (valor predeterminado), las llamadas salientes que no responden a la puerta de enlace en 10 segundos se enrutan al siguiente tronco disponible; Si no hay más troncos, la llamada se elimina automáticamente. En una organización con redes y respuestas de puerta de enlace lentas, esto puede tener como resultado que las llamadas se pierdan innecesariamente. El valor predeterminado es 10.|base10|Número|ENT|
 |No|ForwardCallHistory |Indica si la información del historial de llamadas se reenviará a través del tronco. Si está habilitado, el proxy RTC de Office 365 envía dos encabezados: historial-información y referencia. El valor predeterminado es **false** ($false). |False|True<br/>False|Boolean|
@@ -270,7 +270,7 @@ En la tabla siguiente se resume la configuración mediante tres rutas de voz. En
 |**Uso de RTC**|**Ruta de voz**|**Patrón de números**|**Prioridad**|**SBC**|**Descripción**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Solo para Estados Unidos|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Ruta activa para números llamados + 1 425 XXX XX XX o + 1 206 XXX XX XX|
-|Solo para Estados Unidos|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Ruta de copia de seguridad para los números + 1 425 XXX XX XX ó + 1 206 XXX XX XX|
+|Solo para Estados Unidos|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc3.contoso.biz<br/>sbc4.contoso.biz|Ruta de copia de seguridad para los números + 1 425 XXX XX XX ó + 1 206 XXX XX XX|
 |Solo para Estados Unidos|"Otros + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6.contoso.biz|Ruta de números llamados + 1 XXX XXX XX XX (excepto + 1 425 XXX XX XX o + 1 206 XXX XX XX)|
 |||||||
 
@@ -448,7 +448,7 @@ En la siguiente tabla se resumen las denominaciones de uso y las rutas de voz de
 |**Uso de RTC**|**Ruta de voz**|**Patrón de números**|**Prioridad**|**SBC**|**Descripción**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Solo para Estados Unidos|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Ruta activa para números de destinatarios + 1 425 XXX XX XX o + 1 206 XXX XX XX|
-|Solo para Estados Unidos|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Ruta de reserva para números de destinatarios + 1 425 XXX XX XX o + 1 206 XXX XX XX|
+|Solo para Estados Unidos|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc3.contoso.biz<br/>sbc4.contoso.biz|Ruta de reserva para números de destinatarios + 1 425 XXX XX XX o + 1 206 XXX XX XX|
 |Solo para Estados Unidos|"Otros + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|Ruta para números de la llamada + 1 XXX XXX XX XX (excepto + 1 425 XXX XX XX o + 1 206 XXX XX XX)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Ruta para cualquier patrón de números |
 
@@ -532,6 +532,11 @@ El resultado es que la política de voz aplicada a las llamadas de John Woods no
 
 El enrutamiento directo requiere que los usuarios estén en el modo solo de equipos para garantizar las llamadas entrantes en el cliente de Teams. Para poner los usuarios en modo de solo equipos, asígnelos a la instancia "UpgradeToTeams" de TeamsUpgradePolicy. Si su organización usa Skype empresarial Server o Skype empresarial online, consulte el siguiente artículo para obtener interoperabilidad de información entre Skype y Teams: [Guía de migración e interoperabilidad para organizaciones que usan Teams junto con Skype para empresas](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
+
+## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configurar el envío de llamadas directamente al buzón de voz
+
+El enrutamiento directo le permite finalizar la llamada a un usuario y enviarlo directamente al buzón de voz de los usuarios. Si deseas enviar la llamada directamente al buzón de voz, adjunta Opaque = App: el buzón de voz al encabezado URI de la solicitud. Por ejemplo, "SIP: user@yourdomain.com; Opaque = App: buzón de voz".
+En este caso, el usuario de Teams no recibirá la notificación de llamada, la llamada se conectará al buzón de voz del usuario directamente.
 
 ## <a name="see-also"></a>Vea también
 
