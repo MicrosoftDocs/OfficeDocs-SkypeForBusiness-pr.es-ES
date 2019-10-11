@@ -85,6 +85,7 @@
 #### [Informe de actividad de usuario de Teams](teams-analytics-and-reports/user-activity-report.md)
 #### [Informe de uso de dispositivos de Teams](teams-analytics-and-reports/device-usage-report.md)
 #### [Informe de usuarios bloqueados por RTC](teams-analytics-and-reports/pstn-blocked-users-report.md)
+#### [Informe de grupos de minutos de RTC](teams-analytics-and-reports/pstn-minute-pools-report.md)
 #### [Informe de uso de RTC](teams-analytics-and-reports/pstn-usage-report.md)
 #### [Informe de uso de eventos en directo de Teams](teams-analytics-and-reports/teams-live-event-usage-report.md)
 ### [Informes de actividades de Teams en el Centro de administración de Microsoft 365](teams-activity-reports.md)
