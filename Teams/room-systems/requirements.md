@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
-ms.openlocfilehash: f5e78b9731a84841291a93aaeb9e0a25a084c87b
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 98f7b4871133840bc531f563652b335bf706e37f
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439533"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468481"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
@@ -111,7 +111,7 @@ Estos dispositivos están disponibles en [aka.ms/teamsdevices](https://aka.ms/te
 
 #### <a name="usb-extenders"></a>Extensores de USB
 
-- Los puertos USB de los acoplamientos de Tablet PC son compatibles con USB 3,0. Puede usar un extensor USB 2. x. Esto le limitará a las velocidades de USB 2. x en el extremo del lejano, lo cual no es recomendable para periféricos USB 3,0.
+- Los puertos USB de los acoplamientos de Tablet PC son compatibles con USB 3,0. Puede usar un extensor USB 2, pero si lo hace, se le limitará a las velocidades de USB 2. x en el extremo de la parte. Los extensores no se recomiendan para periféricos USB 3,0.
 - Un extensor debe cumplir con las especificaciones de USB 2,0 o posterior.
   - Los acoplamientos de Tablet PC admiten al menos dos fases de extensión de concentrador USB externo. Si conecta más de dos concentradores USB en serie, consulte con el fabricante del Dock para confirmar si admiten la conexión de serie.
   - Conexión GbE por cable en el salón. Cable Ethernet de una longitud adecuada.

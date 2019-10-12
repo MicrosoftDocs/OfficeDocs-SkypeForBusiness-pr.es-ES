@@ -11,12 +11,12 @@ ms.service: msteams
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se comentan los problemas conocidos de Sala de Microsoft Teams por área de características.
-ms.openlocfilehash: 3e3da371a294582fc6a56db7e59615fdbe97c48b
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: eaf95f8afd470376ee4f14549b50df8b38d93d34
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775199"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468492"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -54,7 +54,7 @@ Sala de Microsoft Teams no admite la incorporación de HDCP, ya que se ha visto 
 
 ***
 
-Un televisor de consumo que se usa como parte delantera de la sala de presentación debe admitir la característica control de electrónica de consumo (CEC) de HDMI para cambiar automáticamente a una fuente de video activa del modo de espera. Esta característica no es compatible con todos los televisores.
+Si desea que la pantalla frontal de la sala de espera cambie automáticamente a una fuente de video activa (como una consola de MTR) cuando el origen se reactiva al modo de espera, deben cumplirse ciertas condiciones. Esta característica es opcional pero es compatible con el software de las salas de Microsoft Teams, siempre que el hardware subyacente admita esta característica. Un televisor de consumo que se usa como parte frontal de la presentación de la sala debe admitir la característica control de electrónica de consumo (CEC) de HDMI.  Según el Dock o la consola seleccionados (que podrían no admitir CEC, consulte la documentación de soporte del fabricante), es posible que se necesite un controlador de área de trabajo como [Extron HD CTL 100](https://www.extron.com/article/hdctl100ad) para habilitar el comportamiento deseado. 
 
 ***
 
@@ -67,6 +67,9 @@ Si el dispositivo de las salas de Microsoft Teams pierde la confianza con el dom
 La versión de 64 bits de la edición de Windows 10 Enterprise Anniversary (en inglés, versión 1607) ya no se admite desde la versión 3.0.12.0 de Salas de Microsoft Teams. 
 ***
 Salas de Microsoft Teams es una aplicación de varias ventanas y requiere que se conecte al puerto HDMI del dispositivo una parte delantera de la sala para que la aplicación funcione correctamente. Asegúrese de que tiene una pantalla HDMI conectada o use una conexión de HDMI ficticia si está probando y no ha comprado aún una pantalla.
+***
+Windows 10 1903 aún no se ofrece en dispositivos de salas de Microsoft Teams desde Crestron debido a problemas con un controlador de gráficos.
+
 ***
 <a name="See"> </a>  
 ## <a name="see-also"></a>Vea también

@@ -18,19 +18,19 @@ description: Su administrador de ti puede configurar el acceso externo para otro
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: f39760eb971a333373191b444abbb72395f13737
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: f2252b14343aa68e4a1dd97bc918b5c9cc30d727
+ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305766"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37468503"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 ======================================================
 
 Con el acceso externo de Microsoft Teams, los usuarios de Teams de otros dominios pueden participar en tus chats y llamadas. También puede permitir a otros usuarios externos que siguen usando Skype empresarial online, Skype empresarial local o incluso Skype a participar.
 
-Siga los pasos de este artículo cuando:
+Use acceso externo cuando:
   
 - Tiene usuarios en diferentes dominios de su empresa: por ejemplo, Rob@contoso.com y Ann@northwindtraders.com.
 
