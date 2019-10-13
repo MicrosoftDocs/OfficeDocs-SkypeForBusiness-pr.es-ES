@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6540daab8e42fd5f1d64d94e8112dc919ba21600
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: d3e5c5377543e780c8dd68e27451ee1ac526787f
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305689"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435007"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -195,6 +195,10 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |No hay audio mientras se comparte contenido durante una reunión de difusión  <br/> |Al compartir el contenido durante una difusión de reunión, los participantes no pueden oír el audio del contenido compartido (vínculo de youtube o archivo de vídeo guardado).  <br/> |Ninguna, ya que se ha diseñado así.  Teams actualmente no admite audio del contenido compartido  <br/> |09/10/2018  <br/> |
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|No puede iniciar la reunión como organizador de Outlook, ya que es posible que quede atascada en la sala de espera virtual  <br/> |Es posible que tenga este problema por que el cliente de Outlook y el de equipos iniciaron sesión en cuentas diferentes. <br/> |Cuando se una a la reunión, asegúrese de que el cliente de Outlook y de equipos estén conectados a la misma cuenta en la que se programó la reunión.  <br/> |5/11/18  <br/> |
 
 ## <a name="mobile"></a>Móvil
 

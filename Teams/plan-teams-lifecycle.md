@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 22e59a33fc6b58f2b2ae41c666506ebb5eddb90e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 92fe612a805f350cfa8ff1f0bfb7556fe895180d
+ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237689"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435200"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -195,7 +195,7 @@ Si un equipo empieza a estancarse, considere las siguientes opciones:
 
 Cuando el trabajo de un equipo llega a su fin, es importante reconocer formalmente que ha terminado. De este modo, el equipo se queda con una sensación de cierre y se evita que alguien más acceda a información obsoleta. Podrá usar el equipo para llevar a cabo los rituales de cierre, como análisis finales y resúmenes ejecutivos.
 
-Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). De hecho, los equipos se eliminan con una “eliminación temporal” que el departamento de TI puede revertir hasta en un máximo de 21 días (30 días para los grupos de Office 365). El hecho de eliminar los equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento normativo.
+Puede borrar los equipos que sabe que no necesita (por ejemplo, un equipo creado estrictamente para realizar pruebas o un equipo que contiene datos confidenciales). De hecho, los equipos se eliminan con una “eliminación temporal” que el departamento de TI puede revertir hasta en un máximo de 21 días (30 días para los grupos de Office 365). El hecho de eliminar los equipos no afecta a los chats ni al contenido que se haya conservado según las directivas de cumplimiento normativo. Los canales también tienen una "eliminación temporal" y se pueden invertir hasta veintiún días después de la eliminación.
 
 También se pueden usar las directivas de expiración y retención, además de las funcionalidades de archivado, para reducir la exposición de los equipos que ya no están activos o cuyos miembros han dejado la organización.
 
