@@ -346,6 +346,7 @@
 ### Referencia técnica para enrutamiento directo
 #### [Conmutación por error de tronco en llamadas salientes](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Códigos de país de la ruta multimedia](direct-routing-country-codes.md)
+#### [Script de PowerShell para probar conexiones de controlador de borde de sesión](sip-tester-powershell-script.md)
 
 ## Números de teléfono
 ### [Administrar los números de teléfono de la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
