@@ -3,7 +3,6 @@ title: Actualizaciones de Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/13/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo se actualiza el cliente de escritorio de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0fe542c6df89946ad73f14cf9104f973e292aa3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ba6201d0f1b52b7ebfd869ad699c2eb06eb664d8
+ms.sourcegitcommit: 0d7f3c7a84584ec25a23190187215109c8756189
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243847"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37508805"
 ---
 # <a name="teams-update-process"></a>Proceso de actualización de Teams
 
@@ -34,8 +33,7 @@ Los usuarios también pueden descargar actualizaciones manualmente haciendo clic
 
 Los usuarios deben iniciar sesión para que se descarguen las actualizaciones. 
 
-A partir del 9 de julio de 2019, las actualizaciones de los clientes de Teams usan mucho menos ancho de banda de red durante la actualización. Esta opción está activada de forma predeterminada y no requiere ninguna acción de administradores o usuarios.
-
+A partir del 31 de julio de 2019, las actualizaciones de los clientes de Teams usan mucho menos ancho de banda de red durante la actualización. Esta opción está activada de forma predeterminada y no requiere ninguna acción de administradores o usuarios.
 
 ## <a name="what-about-updates-to-office-365-proplus"></a>¿Qué hay de las actualizaciones de Office 365 ProPlus?
 
@@ -50,3 +48,15 @@ Los clientes de Teams en la infraestructura de escritorio virtual (VDI) no se ac
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>¿Los administradores pueden implementar actualizaciones en lugar de la actualización automática de Teams?
 
 Teams no proporciona a los administradores la capacidad de implementar actualizaciones a través de cualquier mecanismo de envío.
+
+## <a name="servicing-agreement"></a>Contrato de mantenimiento
+
+Como servicio en línea moderno, el cliente de Teams se actualiza automáticamente cada dos semanas. Debido a que Teams está regido por la Directiva moderna del ciclo de vida, se espera que los usuarios permanezcan en la versión más actualizada del cliente de escritorio. Esto garantiza que los usuarios tengan las últimas funciones, mejoras de rendimiento, seguridad y confiabilidad de los servicios.
+
+Para empezar a identificar cuándo los clientes de escritorio no están actualizados, se mostrará una alerta en la aplicación si la versión actual del usuario se encuentra entre uno y tres meses de antigüedad y si hay una nueva versión disponible. Esta mensajería desde la aplicación anima a los usuarios a actualizar a la última versión de Teams o, si es necesario, a comunicarse con su administrador de TI para hacerlo. Los usuarios de equipos con clientes de escritorio de más de tres meses de edad verán una página de bloqueo que ofrece las opciones para actualizar ahora, comunicarse con su administrador de ti o continuar con Teams en la Web.
+
+Las versiones de clientes de escritorio con más de tres meses de antigüedad en la primera instalación o primera ejecución de Teams tienen un período de gracia de 28 días antes de que se produzca la información de servicio mencionada anteriormente. Durante este período, el proceso de actualización automática actualizará el cliente de Teams. Si no se actualiza, los usuarios verán una alerta desde la aplicación que les anima a actualizar de forma manual a la última versión de Teams o, si es necesario, a su administrador de TI para hacerlo. Esto incluye a los usuarios que usan el cliente de escritorio de Teams como parte del paquete de Office 365 ProPlus.
+
+Los clientes de escritorio de Teams de las nubes gubernamentales actualmente tienen una excepción a este contrato de mantenimiento hasta un aviso más importante.
+
+Para obtener información sobre las nuevas versiones, [consulte Centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) o ir para **obtener** > información sobre**las novedades del** cliente.

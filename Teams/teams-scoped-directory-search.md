@@ -18,18 +18,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e3b95e9d8de04abc6299a52a27cf07d95365a4f
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: e4966c2ac6071f0796efeb59248ed3eeacae69a7
+ms.sourcegitcommit: e5a9f276ace283b415f0abd4da6d27433a3d7d3b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305804"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37495288"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar la búsqueda de directorios enfocada de Microsoft Teams
 
 El ámbito de la búsqueda de directorios de Microsoft Teams permite a las organizaciones crear límites virtuales que controlan cómo los usuarios pueden buscar y comunicarse con otros usuarios de su organización. 
 
-Microsoft Teams permite a las organizaciones proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams usa [directivas de libreta de direcciones de Exchange](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) para admitir estas vistas personalizadas. Una vez que se habilitan las directivas, los resultados devueltos por las búsquedas de otros usuarios (por ejemplo, para iniciar una conversación o agregar miembros a un equipo) se regirán según las directivas configuradas. Los usuarios no podrán buscar ni descubrir equipos cuando la búsqueda de ámbito está activa. 
+Microsoft Teams permite a las organizaciones proporcionar vistas personalizadas del directorio a sus usuarios. Microsoft Teams usa [directivas de barrera de información](https://docs.microsoft.com/microsoft-365/compliance/information-barriers) para admitir estas vistas personalizadas. Una vez que se habilitan las directivas, los resultados devueltos por las búsquedas de otros usuarios (por ejemplo, para iniciar una conversación o agregar miembros a un equipo) se regirán según las directivas configuradas. Los usuarios no podrán buscar ni descubrir equipos cuando la búsqueda de ámbito está activa. 
 
 > [!NOTE]
 > En entornos híbridos de Exchange, esta característica solo funciona con los buzones de Exchange Online y no con los buzones locales.
@@ -41,14 +41,14 @@ Los escenarios que se benefician de las búsquedas de directorio de ámbito son 
 - La organización tiene varias compañías en su inquilino, pero prefiere mantenerlas por separado. 
 - Su centro educativo quiere limitar los chats entre el personal académico y los estudiantes. 
  
-Para obtener información sobre cómo usar las directivas de la libreta de direcciones, lea [directivas de libreta de direcciones en Exchange Online](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+Para obtener información sobre cómo usar las directivas de la libreta de direcciones, lea [directivas de la barrera de información en Exchange Online](https://docs.microsoft.com/microsoft-365/compliance/information-barriers).
 
 > [!IMPORTANT]
 > Las directivas de la libreta de direcciones proporcionan solo una separación virtual de los usuarios de la perspectiva del directorio. Los usuarios pueden seguir iniciando comunicaciones con otras personas proporcionando direcciones de correo electrónico completas. También es importante tener en cuenta que todos los datos de usuario que ya se habían almacenado en la memoria caché antes de la aplicación de directivas de libreta de direcciones nuevas o actualizadas seguirán estando disponibles para los usuarios durante un máximo de 30 días.
 
 ## <a name="turn-on-scoped-directory-search"></a>Activar la búsqueda de directorio en el ámbito
 
-1. Use directivas de libreta de direcciones para configurar su organización en subgrupos virtuales. Para obtener más información, consulte [procedimientos para directivas de libreta de direcciones](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies).
+1. Use directivas de barrera de información para configurar su organización en subgrupos virtuales. Para obtener más información, consulte [definir directivas de barrera](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-policies)de la información.
 
 2. En el centro de administración de Microsoft Teams, seleccione Configuración de**Teams**de la **organización** > .
 
