@@ -8,7 +8,6 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
@@ -18,12 +17,12 @@ search.appverid: MET150
 description: Página de aterrizaje para implementar la voz en la nube en Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92e32950526f12c5da1856ce390ee3e532892681
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483874"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515837"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
@@ -42,7 +41,7 @@ Recomendamos que todas las organizaciones prosigan las decisiones básicas y, a 
 Los artículos siguientes proporcionan más información sobre cómo implementar y usar las características de voz en la nube en Teams:
 
 - [Sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
-- [Sistema telefónico con planes de llamadas](calling-plan-landing-page.md)
+- [Sistema telefónico con Planes de llamada](calling-plan-landing-page.md)
 - [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
 - [Implementación de voz en la nube](cloud-voice-deployment.md)
 - [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
@@ -107,7 +106,7 @@ De forma predeterminada, todas las llamadas salientes usan el número de teléfo
 
 ### <a name="phone-numbers-from-microsoft"></a>Números de teléfono de Microsoft
 
-Microsoft tiene dos tipos de números telefónicos disponibles ** : números de suscriptor (usuario), que se pueden asignar a los usuarios de su organización, y números de *servicio* , disponibles como números de servicio de pago y gratuitos, que tienen llamadas simultáneas más altas capacidad que los números de suscriptores y se pueden asignar a servicios como audioconferencias, operadores automáticos o colas de llamadas.
+Microsoft tiene dos tipos de números telefónicos disponibles: números de *suscriptor* (usuario), que se pueden asignar a los usuarios de su organización, y números de *servicio* , disponibles como números de servicio de pago y gratuitos, que tienen llamadas simultáneas más altas capacidad que los números de suscriptores y se pueden asignar a servicios como audioconferencias, operadores automáticos o colas de llamadas.
 
 |Pregúntese lo siguiente:|Acción |
 | :------------|:-------|

@@ -9,7 +9,6 @@ ms.assetid: 6f51ee4a-d939-4ba3-8659-ccf012d069f8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -22,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn how to make a complaint for Skype for business calling services (PSTN Calling in the United Kingdom), what the timelines are for replies, and how to resolve disputes for unresolved complaints. '
-ms.openlocfilehash: 42572abda5c99ff8e21623b88b4f66bc6cfdedd3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c521c7bd19ffcdfe870ac3835e3ad1c75c9ff1be
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283381"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516913"
 ---
 # <a name="calling-plans-in-office-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Planes de llamada en Office 365: código de administración de quejas para Reino Unido (UK)
 

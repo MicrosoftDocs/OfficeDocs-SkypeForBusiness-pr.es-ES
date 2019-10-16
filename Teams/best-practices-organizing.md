@@ -11,16 +11,15 @@ description: Conozca las prácticas recomendadas para organizar equipos en Micro
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 32bd7664e8aa8fa8a818b3223e64b09f7982d12f
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: ec5b841cdb184eb6bbad85ee5456ec8f4470983b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36766937"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515744"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams
 ======================================================

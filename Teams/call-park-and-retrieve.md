@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Use estacionamiento y recuperar para poner una llamada en espera en el servicio de Teams en la nube.
-ms.openlocfilehash: 01d46aff527a0e846b6bb552f5b3241deb3d9c14
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483427"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517034"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -39,7 +38,7 @@ Algunos de los escenarios comunes para usar el parque de llamadas son:
 - Un representante de soporte técnico se apoya una llamada de cliente y envía un anuncio en un canal de Teams para que un experto pueda recuperar la llamada y ayudar al cliente. Un experto escribe el código de los clientes de Teams para recuperar la llamada
 
 > [!IMPORTANT]
-> Esta característica solo está disponible en el modo de implementación solo para equipos. Para obtener más información sobre los modos de implementación de Teams, consulte comprender la coexistencia y la interoperabilidad [de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Esta característica solo está disponible en el modo de implementación solo para equipos. Para obtener más información sobre los modos de implementación de Teams, consulte [comprender la coexistencia y la interoperabilidad de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Licencia requerida
 
@@ -65,7 +64,7 @@ Para obtener más información sobre cómo usar la característica Parque de lla
 
 Siga estos pasos para habilitar una directiva de estacionamiento de llamadas:
 
-1. Vaya al **Centro** > de administración de Microsoft Teams**directivas de estacionamiento de llamadas**de**voz** > .
+1.  > Vaya al **centro de administración de Microsoft Teams****directivas de estacionamiento de llamadas**de**voz** > .
 2. Seleccione **nueva Directiva**.
 3. Asigne un nombre a la Directiva y, a continuación, cambie **permitir el aparcamiento de llamadas** a **activado**.
 4. Seleccione **Guardar**.
@@ -74,7 +73,7 @@ Siga estos pasos para habilitar una directiva de estacionamiento de llamadas:
 
 Siga estos pasos para asignar una directiva de estacionamiento de llamadas a uno o más usuarios:
 
-1. Vaya al **Centro** > de administración de Microsoft Teams**directivas de estacionamiento de llamadas**de**voz** > .
+1.  > Vaya al **centro de administración de Microsoft Teams****directivas de estacionamiento de llamadas**de**voz** > .
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
 3. Seleccione **administrar usuarios**.
 4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.

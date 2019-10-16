@@ -12,17 +12,16 @@ description: Vídeos que presentan la Audioconferencia en Microsoft Teams al adm
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9cce3bd2b75c175698518f42cffad3028416127
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2ab70883c3ac98b6a67fe7f1685d161ffc7d5960
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235517"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515968"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>Vídeos: Audioconferencia en Microsoft Teams
 =============================================

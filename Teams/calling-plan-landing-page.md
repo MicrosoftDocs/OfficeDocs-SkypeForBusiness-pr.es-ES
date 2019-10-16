@@ -8,22 +8,20 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: Página de aterrizaje de la planificación de llamadas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83e2516ac9fd142c6cb965539ff22c4900811888
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 998c0964239e430451a157bb6d8d0034fc7d19a7
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237178"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517004"
 ---
-# <a name="which-calling-plan-is-right-for-you"></a>¿Cuál es el plan de llamadas adecuado para ti? 
+# <a name="which-calling-plan-is-right-for-you"></a>¿Qué plan de llamada es adecuado para usted? 
 
 Has completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [reuniones & conferencias](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar cargas de trabajo de voz de nube y ha decidido usar el sistema de teléfono de Microsoft con el plan de llamadas para conectarse a la red de telefonía pública conmutada (RTC). 
 

@@ -7,19 +7,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: anach
 search.appverid: MET150
 description: Obtenga más información sobre la búsqueda de contenido en Microsoft Teams y sobre cómo buscar con las conversaciones de canal de Exchange, las cargas de archivos y las modificaciones de SharePoint y los cambios de OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7fe2528ab4f508af7840d820b54919d5b3a5faee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 66621d7c5a2c7110045b1a378a0dcc1df4ccc510
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236422"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516456"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar la búsqueda de contenido en Microsoft Teams
 =====================================

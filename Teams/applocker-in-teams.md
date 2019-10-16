@@ -7,19 +7,18 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
 description: Aprenda a habilitar la aplicación cliente de escritorio de Teams con directivas de control de aplicaciones de AppLocker.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d87eb5328f5200479f719dc22d9244c46af8944
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eb12012c0775d98c7d1b08b61c6c0deba83a4d5f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244947"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516778"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Directivas de control de aplicaciones de AppLocker en Microsoft Teams
 
@@ -31,7 +30,7 @@ El proceso de habilitar equipos con AppLocker requiere la creación de política
 
 Las reglas de AppLocker se organizan en colecciones de reglas. Las reglas de AppLocker se aplican a la aplicación de destino y son los componentes que conforman la Directiva de AppLocker.  
 
-Para los equipos de la lista blanca, le recomendamos que use las [reglas de condición](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) de Publisher, ya que todos los archivos de la aplicación Teams están firmados digitalmente.
+Para los equipos de la lista blanca, le recomendamos que use las [reglas de condición de Publisher](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker) , ya que todos los archivos de la aplicación Teams están firmados digitalmente.
   
 No recomendamos el uso de reglas de ruta de acceso porque el directorio de instalación de Teams es grabable para el usuario. Tampoco recomendamos el uso de Reglas Hash porque las reglas deberían actualizarse cada vez que se actualice la aplicación cliente de Teams.
 

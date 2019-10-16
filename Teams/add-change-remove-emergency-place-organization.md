@@ -1,5 +1,5 @@
 ---
-title: Agregar, cambiar o quitar un lugar para una ubicación de emergencia de su organización
+title: Agregar, cambiar o quitar una ubicación de emergencia para su organización
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -9,22 +9,21 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 description: 'Obtenga información sobre cómo agregar, cambiar o quitar un lugar para una ubicación de emergencia para su organización en el centro de administración de Microsoft Teams. '
-ms.openlocfilehash: c4b1cc7d3b133032bee471826f8606b600c0ce62
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: 5b297d2c9253919c0ffa780bb8f035c273852036
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396558"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516825"
 ---
-# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Agregar, cambiar o quitar un lugar para una ubicación de emergencia de su organización
+# <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
 Según el número de ubicaciones físicas de su organización, puede agregar lugares para edificios, plantas y oficinas para crear una ubicación de emergencia más específica. Vea [¿Qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) para obtener más información.
   
@@ -52,6 +51,6 @@ Para obtener información sobre cómo obtener un plan de llamadas y cuánto cues
     
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Agregar, cambiar o quitar un lugar para una ubicación de emergencia de su organización](add-change-remove-emergency-place-organization.md)
+- [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-place-organization.md)
 - [Administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)

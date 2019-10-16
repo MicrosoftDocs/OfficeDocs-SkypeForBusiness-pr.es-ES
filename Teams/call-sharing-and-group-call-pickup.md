@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: El uso compartido de llamadas y la recogida de llamadas de Grupo permiten a los usuarios compartir llamadas entrantes con colegas para que las llamadas se puedan capturar cuando el usuario no está disponible.
-ms.openlocfilehash: 23850f71986530a504cd6005142e3f5e89c3a54e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 0f61039fc2027da83472f042c723a43d249da080
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483281"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517023"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartir llamadas y atender llamadas grupales en Microsoft Teams
 
@@ -38,7 +37,7 @@ La recogida de llamadas grupales es menos disruptiva para los destinatarios que 
 Para compartir llamadas con otras personas, un usuario crea un grupo de llamadas y agrega los usuarios con los que desean compartir sus llamadas. Luego, eligen una configuración de llamada simultánea o de reenvío. Para obtener más información [, consulta desvío de llamadas y llamadas simultáneas en Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
 
 > [!IMPORTANT]
-> Los usuarios, el propietario del grupo de llamadas y los miembros del grupo de llamadas deben estar en el modo de implementación solo de Teams. Para obtener más información sobre los modos de implementación de Teams, consulte comprender la coexistencia y la interoperabilidad [de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Los usuarios, el propietario del grupo de llamadas y los miembros del grupo de llamadas deben estar en el modo de implementación solo de Teams. Para obtener más información sobre los modos de implementación de Teams, consulte [comprender la coexistencia y la interoperabilidad de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Licencia requerida
 

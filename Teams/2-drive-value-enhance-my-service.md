@@ -12,16 +12,16 @@ audience: admin
 description: Evalúe con regularidad las oportunidades para mejorar el servicio de Teams, supervise la guía básica de Teams para las mejoras de las características interesantes.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3561584038dc7b235ce897e3873f483b32e499e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f5face19093459f1a4fbc4aeb978476f9a045231
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243796"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516491"
 ---
 # <a name="enhance-my-service"></a>Mejorar mis servicios
 

@@ -7,26 +7,25 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: lucarras, jakon
 description: Obtenga información sobre cómo agregar bots en Microsoft Teams para chats personales, chats grupales y canales, y cargue sus propios bots para chats personales, chats grupales y canales.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f5f031b01837980897f2c1f8ad5d306e056257b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7837fd3a832a1764cfde3968b73337069762dab3
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239060"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516164"
 ---
 <a name="add-bots-for-personal-chats-group-chats-and-channels-in-microsoft-teams"></a>Agregar bots para chats personales, chats grupales y canales en Microsoft Teams
 ==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Los bots son programas automatizados que responden a las consultas o dan actualizaciones y notificaciones sobre detalles que puedan resultar interesantes para los usuarios o sobre los que quieran mantenerse informados. Los bots permiten a los usuarios interactuar con servicios en la nube, como la administración de tareas, la programación y el sondeo, a través de conversaciones de chat en Microsoft Teams. Los bots para Teams se han creado en [Microsoft bot Framework](https://go.microsoft.com/fwlink/?linkid=854370). Los bots desarrollados con este marco se pueden habilitar fácilmente para Teams. Para obtener más información, vea [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md).
+Los bots son programas automatizados que responden a consultas o proporcionan actualizaciones y notificaciones sobre los detalles sobre los que los usuarios encuentran interés o desean mantenerse informados. Los bots permiten a los usuarios interactuar con servicios en la nube, como la administración de tareas, la programación y el sondeo, a través de conversaciones de chat en Microsoft Teams. Los bots para Teams se han creado en [Microsoft bot Framework](https://go.microsoft.com/fwlink/?linkid=854370). Los bots desarrollados con este marco se pueden habilitar fácilmente para Teams. Para obtener más información, vea [administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md).
 
 En la actualidad, Teams admite bots en chats personales, chats grupales y canales dentro de un equipo. Los administradores pueden controlar si se permite o prohíbe el uso de bots en el inquilino de Office 365.<span id="_T-Bot" class="anchor"></span>
 
@@ -62,7 +61,7 @@ Si desea compartir su bot con sus colegas, aquí le mostramos cómo agregarlo a 
 
 1. Después [de crear un paquete de la aplicación para su bot](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload), abra Teams y busque el equipo en el que va a cargar el bot.
 2. Agregue **[App Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)**, aplicación a teams.
-3. En App Studio, seleccione la pestaña **Editor** de manifiestos. ![captura de pantalla de la pestaña del editor de manifiestos.](media/Adding_Bot_To_Teams.png)
+3. En App Studio, seleccione la pestaña **Editor de manifiestos** . ![captura de pantalla de la pestaña del editor de manifiestos.](media/Adding_Bot_To_Teams.png)
 4. Para agregar un bot, en capacidades, seleccione el bot y elija Agregar un bot existente. Después, elija un bot existente o escriba el identificador de un bot existente.
 ![Muestra cómo seleccionar el bot que ya ha creado.](media/Select_Existing_Bot.png)
 5. Vaya a la ubicación del paquete de la aplicación, selecciónelo y, a continuación, haga clic en **abrir**.

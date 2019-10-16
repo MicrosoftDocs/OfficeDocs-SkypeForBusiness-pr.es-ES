@@ -8,8 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
+- M365-voice
 - M365-collaboration
-- Teams_ITAdmin_Help
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -17,14 +17,14 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Aprenda a usar las conferencias de audio con el enrutamiento directo en entornos GCCH y DoD.
-ms.openlocfilehash: 54458087b508c607b797cf7e7e877a8a793d8ed8
-ms.sourcegitcommit: 6cbdcb8606044ad7ab49a4e3c828c2dc3d50fcc4
+ms.openlocfilehash: 67c8a8b3ec16f36a93eb4561473facacdbd85464
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "36272247"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516738"
 ---
-# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconferencias con enrutamiento directo para GCC High y DoD
+# <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>Audioconferencia con enrutamiento directo para GCC High y DoD
 
 Las conferencias de audio con enrutamiento directo para GCC High y DoD permiten a los participantes unirse a reuniones de Teams en su organización GCC High o DoD con un dispositivo telefónico. Es posible que los participantes de la reunión prefieran usar un dispositivo telefónico para unirse a reuniones de Teams en escenarios, como cuando la conexión a Internet es limitada o cuando los usuarios viajan y no tienen acceso a los equipos. Los participantes pueden elegir unirse a un número de teléfono de acceso telefónico local para su organización o hacer que la reunión llame a su dispositivo telefónico.
 

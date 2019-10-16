@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +24,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: c3cafee8dcce326dd20661f919dc57b0e1f1fe26
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548991"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516752"
 ---
 # <a name="calling-plans-for-office-365"></a>Planes de llamadas para Office 365
 
@@ -59,7 +58,7 @@ Para obtener información detallada sobre los límites de uso y las condiciones 
     > [!NOTE]
     > En función de su plan, es posible que tenga que comprar más complementos para poder comprar licencias de sistema telefónico. Para obtener más información, consulte "opciones de licencia basadas en su plan" en [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. Después de comprar las licencias del sistema telefónico, puede comprar el plan de llamadas iniciando sesión en el **centro de administración de Microsoft 365**, seleccionando suscripciones del**complemento****servicios** > de compra de **facturación** > y, a continuación, haciendo clic en **comprar ahora **. Verá los planes de llamadas allí.
+2. Después de comprar las licencias del sistema telefónico, puede comprar el plan de llamadas iniciando sesión en el **centro de administración de Microsoft 365**, seleccionando**suscripciones del complemento**servicios > de**compra**de **facturación** > y, a continuación, haciendo clic en **comprar ahora **. Verá los planes de llamadas allí.
     
     ![Captura de pantalla que muestra las opciones del plan de llamadas de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   

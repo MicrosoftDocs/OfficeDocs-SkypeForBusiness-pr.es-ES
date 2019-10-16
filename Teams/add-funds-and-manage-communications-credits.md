@@ -11,8 +11,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -29,12 +28,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo pagar crédito de comunicación (consumo RTC) para servicios de Skype empresarial y consulte planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
-ms.openlocfilehash: b6fde8cf36d31caca0c53d977b8844c263a53ff9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 30f3d164fd28cfc9bbec034c404d9fe71a58568b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239340"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516817"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
@@ -57,7 +56,7 @@ Como administrador, puedes agregar fondos manualmente o puedes configurar la rec
   
 Esta opción recarga automáticamente su saldo cuando se encuentra por debajo del umbral mínimo que establezca. Se recomienda usar la opción de recarga automática para que no tenga que acordarse de agregar fondos de forma manual. Los fondos se agregarán automáticamente cuando el saldo alcance el límite. Si no elige la recarga automática, corre el riesgo de que el saldo sea inferior a cero. En ese momento, ni su usuario ni el resto podrán realizar llamadas gratuitas ni llamadas internacionales.
   
-Puede actualizar las opciones de pago en cualquier momento. En la **** página suscripciones, seleccione **créditos de comunicaciones**y realice las actualizaciones.
+Puede actualizar las opciones de pago en cualquier momento. En la página **suscripciones** , seleccione **créditos de comunicaciones**y realice las actualizaciones.
   
 Los fondos se aplicarán únicamente a los créditos de comunicación de las tarifas publicadas de Microsoft cuando se usen los servicios. Los fondos no utilizados dentro de los doce (12) meses de la fecha de compra vencerán y se perderán.
   
@@ -76,7 +75,7 @@ Para ver los planes y los precios, visite uno de los siguientes vínculos:
     
 - [Planes de sistemas telefónicos](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-También puede ver información iniciando [sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación** > **** > para**Agregar**suscripciones.
+También puede ver información [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a**suscripciones** > de **facturación** > para**Agregar suscripciones**.
   
 Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

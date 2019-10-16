@@ -1,5 +1,5 @@
 ---
-title: Prestación del plan de audioconferencia “Llamada de salida”/“Llamarme al”
+title: Prestación del plan de audioconferencia «Llamada de salida»/«Llamarme al»
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,9 +9,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,20 +20,20 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'A los clientes se les ha proporcionado una capacidad de llamada gratuita que finalizará el 30 de noviembre de 2019.  A partir del 1 de diciembre de 2019, cada suscripción de audioconferencia proporciona 60 minutos por usuario a cualquiera de los países de la zona A, tal y como se describe en este documento. '
-ms.openlocfilehash: 8c60a469684705b2a227711c5bfb22cd6baa9111
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8da1082d0bf7e9a50248e29877309053f706e741
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283527"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515886"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Beneficios de la suscripción de audioconferencias de "acceso telefónico local"/"llamarme al"
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Microsoft Teams y conferencias de audio RTC de Skype empresarial
 
-A los clientes se les ha proporcionado una [capacidad de llamada gratuita](complimentary-dial-out-period.md) que finalizará el 30 de noviembre de 2019. A partir del 1 de diciembre de 2019, cada suscripción de audioconferencia proporciona 60 minutos por usuario y se puede usar para llamar a números no Premium en cualquiera de los países de la zona, tal y como se describe en este documento. El tamaño del grupo de minutos de acceso telefónico de inquilino ** se basa en las licencias asignadas y no en las licencias compradas. Este beneficio es aplicable a las licencias de *suscripción mensuales* de audioconferencias y no se extiende a las licencias de audioconferencia por minuto. 
+A los clientes se les ha proporcionado una [capacidad de llamada gratuita](complimentary-dial-out-period.md) que finalizará el 30 de noviembre de 2019. A partir del 1 de diciembre de 2019, cada suscripción de audioconferencia proporciona 60 minutos por usuario y se puede usar para llamar a números no Premium en cualquiera de los países de la zona, tal y como se describe en este documento. El tamaño del grupo de minutos de acceso telefónico de inquilino se basa en las licencias *asignadas* y no en las licencias compradas. Este beneficio es aplicable a las licencias de *suscripción mensuales* de audioconferencias y no se extiende a las licencias de audioconferencia por minuto. 
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Conferencias de audio "llamar desde una reunión" & "llamarme al" más información
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Conferencias de audio "llamar desde una reunión" & "llamarme al"
 
 Para los clientes que adoptan nuestro servicio de audioconferencia, Microsoft ofrece la posibilidad de marcar desde las reuniones organizadas por los usuarios a los que se les ha asignado una licencia de suscripción de audioconferencia. Las llamadas de llamada a países que no están incluidos en la lista de países de la "zona A" se cobran por minuto con créditos de comunicaciones. Para las llamadas de aceptación de llamada que se facturan por minuto (llamadas que superen el grupo de minutos de llamadas de inquilino o a destinos que no se encuentran en la lista de países de la zona), las llamadas y las tarifas correspondientes se basan en el destino de la llamada y no en el país del organizador de la residencia o el participante de la reunión que inicia la llamada de aceptación de llamada. Por ejemplo, una llamada de llamada de conferencia de audio a un número de teléfono en Francia, que es un país de zona, se facturará a la misma tarifa por minuto si fue iniciada por un participante de la reunión en Estados Unidos, Francia o Zimbabue. 
 
@@ -64,7 +63,7 @@ Considere el ejemplo siguiente. Un cliente ha comprado 115 licencias de suscripc
 
 ## <a name="how-can-i-monitor-minute-pool-usage"></a>¿Cómo puedo supervisar el uso del grupo de minutos?
 
-- Puede supervisar el uso de su grupo de minutos de aceptación de llamada en el centro de administración de Skype empresarial "heredado". En el centro de administración de Microsoft Teams **** > , vaya a**informes** > de portales heredados de**minutos RTC**. La zona a la que se asignará un grupo de minutos de salida de llamada en el informe como "llamadas salientes a un país de la zona a".
+- Puede supervisar el uso de su grupo de minutos de aceptación de llamada en el centro de administración de Skype empresarial "heredado". En el centro de administración de Microsoft Teams, vaya a > **informes** > de **portales heredados**de**minutos RTC**. La zona a la que se asignará un grupo de minutos de salida de llamada en el informe como "llamadas salientes a un país de la zona a".
 - Las notificaciones por correo electrónico se enviarán a todos los administradores de inquilinos de un cliente dado cuando la utilización del grupo de minutos de llamadas salientes del inquilino haya alcanzado el 80% y el 100%.
 
 Para obtener más información sobre créditos de comunicación, consulte [créditos de comunicaciones](what-are-communications-credits.md).

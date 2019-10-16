@@ -12,16 +12,15 @@ description: Conozca las prácticas recomendadas de los métodos de comentarios 
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c29a896c520aa6475e0739bc0555090958f35b92
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 553d7e0ced2ac6f031018e6ccb640fcf27deade0
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236965"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515752"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 ===========================================================

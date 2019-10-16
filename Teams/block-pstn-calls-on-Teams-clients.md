@@ -10,15 +10,16 @@ audience: admin
 search.appverid: MET150
 description: Obtenga información sobre cómo los usuarios pueden bloquear llamadas RTC en Microsoft Teams.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e367a69b9ce75b2d7aa4dcfaf55491cef10cfe1f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1c76c8e91c06de0af5a14182f9f7afbde2f7a66e
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237189"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516721"
 ---
 # <a name="understand-how-users-can-block-pstn-calls-on-microsoft-teams-desktop-and-mobile-clients"></a>Comprender cómo los usuarios pueden bloquear llamadas RTC en clientes móviles y de escritorio de Microsoft Teams
 

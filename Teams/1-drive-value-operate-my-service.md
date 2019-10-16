@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Tareas y actividades necesarias para la administración de servicios de Teams, incluidos el seguimiento del estado del servicio, la evaluación y la seguridad de la calidad y el uso de la red.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d319c27e7e541cb970fe53a974012f5bb4ad29c3
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36427615"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516622"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -39,7 +39,7 @@ La administración de servicios engloba todas las actividades y los procesos imp
 
 Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como se muestra en el siguiente diagrama. Cada una de estas categorías se expandirá en las secciones siguientes.
 
-![Un diagrama que muestra una lista de categorías de tareas y actividades] (media/operate-my-service-image1.png "Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
+![Un diagrama que muestra una lista de categorías de tareas y actividades](media/operate-my-service-image1.png "un diagrama que muestra una lista de categorías de tareas y actividades que incluye la administración de servicios para Teams. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
 
 
 <table>
@@ -171,7 +171,7 @@ El primer paso de la administración de cambios es la supervisión de los cambio
 En el [blog de Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog), puede obtener información sobre las prácticas recomendadas, las tendencias y las novedades de las actualizaciones de productos de Teams. Es posible que se anuncien actualizaciones de características principales a teams aquí. También puede suscribirse al blog a través de una fuente RSS. Después, puede agregar [la fuente RSS](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) directamente a un canal de Teams, de modo que todas las noticias importantes se entreguen directamente dentro de Teams.
 
 Todas las características que se publican se documentan en las [notas de la versión de Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de).
-Aquí encontrarás una lista de características que se lanzaron para dispositivos de escritorio, Web y móviles. El mismo conjunto de notas de la versión también está disponible **** en la pestaña novedades de la [ayuda](get-help-in-microsoft-teams.md).
+Aquí encontrarás una lista de características que se lanzaron para dispositivos de escritorio, Web y móviles. El mismo conjunto de notas de la versión también está disponible en **la pestaña novedades de la** [ayuda](get-help-in-microsoft-teams.md).
 
 Familiarícese con los recursos disponibles y asegúrese de que asigna los propietarios correspondientes para que supervisen el cambio.
 
@@ -316,7 +316,7 @@ NPS es un índice, comprendido entre-100 y 100, que mide la disposición de un c
 
 -   De 1 a 6 son elementos interactivos: clientes insatisfechos que pueden dañar tu servicio e impedir el crecimiento.
 
-![Un diagrama que muestra la escala de NPS] (media/operate-my-service-image2.png "Este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
+![Un diagrama que muestra la escala de NPS](media/operate-my-service-image2.png "este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
 
 Aunque la cantidad básica de NPS es útil, obtendrá el máximo valor de analizar los comentarios de usuario. Le ayudarán a comprender por qué el usuario recomendaría (o no) equipos a otras personas. Estos comentarios pueden proporcionar valiosos comentarios para ayudar al equipo de administración de servicios o proyectos a comprender los ajustes necesarios para proporcionar un servicio de calidad.
 
@@ -548,7 +548,7 @@ De forma predeterminada, todos los usuarios con un buzón en Exchange Online tie
 
 La [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide) incluye un conjunto de actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario, como se muestra a continuación.
 
-![Diagrama de las áreas que se deben examinar durante una revisión de la calidad de la experiencia] (media/plan-my-service-management-image2.png "Las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la fiabilidad y los resultados de la encuesta de usuarios.")
+![Diagrama de las áreas que debe examinar durante una calidad de experiencia Revise](media/plan-my-service-management-image2.png "las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la confiabilidad y los resultados de la encuesta de usuarios.")
 
 Al evaluar y corregir continuamente las áreas descritas en la guía, puede reducir su potencial de afectar negativamente a la experiencia del usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 

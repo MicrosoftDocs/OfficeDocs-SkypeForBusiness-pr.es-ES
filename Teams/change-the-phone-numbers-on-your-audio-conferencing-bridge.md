@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: 60095ff820c6aeb13745f5195a6274fa90f5eec0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 9c4d16f3f68e190549b1e8a1d7b6f3f03e8a44c6
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221686"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516968"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -35,7 +35,7 @@ Cuando compra licencias de **audioconferencia** , Microsoft hospeda su puente de
 Además de los números de teléfono asignados a su puente de conferencia, puede [obtener números de servicio adicionales](/microsoftteams/getting-service-phone-numbers) (números de pago y gratuitos usados para las conferencias de audio) desde otras ubicaciones y, a continuación, asignarlos al puente de conferencia para que pueda Expanda la cobertura de los usuarios.
   
 > [!NOTE]
-> Para poder asignar o cancelar la asignación de un número de teléfono para un puente de conferencia, el número de teléfono debe ser un número de "*servicio*". Puede ver el tipo de número al que navega por los números de **** > **teléfono** de voz en el portal heredado y buscando en la columna **tipo de número** . Los Créditos de comunicaciones de Office 365 deben configurarse primero para que los usuarios puedan marcar en el puente un número gratuito.
+> Para poder asignar o cancelar la asignación de un número de teléfono para un puente de conferencia, el número de teléfono debe ser un número de "*servicio*". Puede ver el tipo de número al que navega por los números de **** > **teléfono** de voz en el portal heredado y buscando en la columna **tipo de número** . Los créditos de comunicaciones de Office 365 deben configurarse en primer lugar para que los usuarios puedan llamar al puente en un número gratuito.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Pasos para asignar un número de teléfono de servicio nuevo a su puente de conferencia
 
@@ -43,7 +43,7 @@ Además de los números de teléfono asignados a su puente de conferencia, puede
 
 1. Inicie sesión en Office 365 con su cuenta profesional.
 
-2. Vaya a **Microsoft 365 administración del centro** > **** > de administración de los**equipos &** > **los números de teléfono**de**voz** > del**portal** > heredado de Skype.
+2. Vaya a **Microsoft 365 administración del centro** > **** > de administración de los**equipos &** > **los números de teléfono**de**voz** > del > **portal heredado**de Skype.
 
 3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **asignar**.
 
@@ -69,7 +69,7 @@ Los números de teléfono predeterminados de un usuario son los que se incluyen 
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya a los **** > **centros** > de administración de centro de administración de 365 de Microsoft**Teams &** > **usuarios**de la**Conferencia** > de audio del**portal** > heredado de Skype y seleccione los usuarios de la lista.
+2. Vaya a los **** > **centros** > de administración de centro de administración de 365 de Microsoft**Teams &** > **usuarios**de la**Conferencia** > de audio del > **portal heredado**de Skype y seleccione los usuarios de la lista.
 
 3. Haga clic en **Editar** en el panel de acciones.
 
@@ -133,7 +133,7 @@ Para obtener más información sobre el servicio de migración de reuniones, con
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya a los **** > **centros** > de administración de centro de administración de 365 de Microsoft**Teams &** > **números de teléfono**de**voz** > del**portal** > heredado de Skype.
+2. Vaya a los **** > **centros** > de administración de centro de administración de 365 de Microsoft**Teams &** > **números de teléfono**de**voz** > del > **portal heredado**de Skype.
 
 3. Si el número de teléfono es un número gratuito, seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **Cancelar asignación**. Si el número de teléfono es un número de teléfono, comunícate con el [soporte técnico de Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) para que no se haya asignado el número de teléfono.
 

@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulta cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas. '
-ms.openlocfilehash: e4125b8a8c4cdb4fddf98b52381e2959ed557a84
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: de5547f8a8cc4ee7284d544b0ef2a980b4d50b0c
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435105"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522764"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -310,9 +310,15 @@ El panel informes de resumen del CQD incluye una página de **carga de datos de 
 - Un mapa de cada punto de conexión inalámbrico y su dirección MAC
 - Un mapa de punto final para la marca, modelo o tipo de extremo, etc.
   
+> [!NOTE]
+> Las etiquetas de informes que se cargan en el CQD se tratarán como *datos de soporte técnico* de acuerdo con el contrato de Office 365, incluida cualquier información que de otro modo se considere datos de los *clientes* o *datos personales*. No incluya datos que no desee proporcionar a Microsoft como *datos de soporte técnico*; esta información será visible para los ingenieros de Microsoft a efectos de soporte técnico.
+
 ![Captura de pantalla: muestra los datos del inquilino del panel de calidad de llamadas](media/839c9ab4-0246-46c9-8402-aafd83a0bc63.png)
   
 1. En la página **carga de datos de inquilino** , use el menú desplegable para elegir un tipo de archivo de datos para cargar. El tipo de datos archivo denota el contenido del archivo (por ejemplo, "edificio" se refiere a la asignación de la dirección IP y de otra información geográfica, "extremo" hace referencia a la asignación del nombre del extremo a la información de marca/modelo/tipo de EndPoint). Actualmente el CQD admite los tipos de datos "edificio" y "extremo" para cqd.teams.microsoft.com (en la fase de versión preliminar y no disponible oficialmente), cqd.lync.com solo admite el tipo de datos "edificio".
+
+
+
 2. Después de seleccionar el tipo de datos de archivo, haga clic en **examinar** para elegir un archivo de datos.
 
    - Un archivo de datos debe ser un archivo. TSV (valores separados por tabulaciones) o un archivo. csv (valores separados por comas). Con un archivo. csv, cualquier campo que contenga una coma debe estar rodeado de comillas o tener la coma eliminada. Por ejemplo, si el nombre del edificio es NY, NY, escriba "NY, NY" en el archivo. csv.

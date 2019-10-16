@@ -8,19 +8,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8fb0fcd1fab0fc51319b72d5557caac836bcb51
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9a9a78f2b611bd586b0e465f8e5045484417d07f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236905"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516440"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
@@ -48,7 +47,7 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
 - Para agregar un sitio web, la dirección URL debe comenzar con un prefijo **https** , de modo que la información que se intercambien siga siendo segura.
 
-- Se proporcionan instrucciones detalladas cuando un miembro del equipo intenta agregar una pestaña personalizada a su canal o chat. Cuando se agrega una pestaña personalizada a un canal, se crea una **conversación** de pestañas que permite a los miembros del equipo tener discusiones específicas sobre el contenido.
+- Se proporcionan instrucciones detalladas cuando un miembro del equipo intenta agregar una pestaña personalizada a su canal o chat. Cuando se agrega una pestaña personalizada a un canal, se crea una **conversación de pestañas** que permite a los miembros del equipo tener discusiones específicas sobre el contenido.
 
     ![Captura de pantalla de una pestaña personalizada con una pestaña de conversación a la derecha](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 

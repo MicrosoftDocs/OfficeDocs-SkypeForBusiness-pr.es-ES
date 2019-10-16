@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Use los roles y el análisis de red para evaluar la disponibilidad de su organización, abrir los puertos TCP y UDP correctos, realizar cualquier corrección de la red.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1500c9e10d3e8d951c465ce278595c5b17f7cc7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 53424be46dbc857f2a361ec1c3278e2d56fe16d7
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232319"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516019"
 ---
 # <a name="evaluate-my-environment"></a>Evaluar mi entorno
 
@@ -74,7 +74,7 @@ Use las siguientes consideraciones para evaluar la preparación de la organizaci
 
 Teams usa tecnología de audio y vídeo (códecs) que puede adaptarse y, por lo tanto, funcionar mejor en la mayoría de las condiciones de la red. Para garantizar un rendimiento óptimo y coherente, debe preparar su red para los equipos.
 
-![Diagrama que describe los tres componentes de la calidad] (media/evaluate-my-environment-image1.png "Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes. Con un foco en la red.")
+![Diagrama que describe los tres componentes de un diagrama de calidad](media/evaluate-my-environment-image1.png "que describe los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes. Con un foco en la red.")
 
 ## <a name="key-takeaways"></a>Impresiones clave
 

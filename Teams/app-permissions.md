@@ -8,7 +8,7 @@ ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: rowille
@@ -16,12 +16,12 @@ description: Vea qué datos y permisos están solicitando las aplicaciones de su
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e841943a4a6bf5f6fcc242d83f4a02d4ca1aa06
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241978"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516789"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -40,7 +40,7 @@ Los permisos que se indican a continuación en mayúscula (por ejemplo, RECEIVE_
 |    |     |
 |-----------|------------|
 | ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Use las tablas siguientes como guía para comprender qué permisos solicitan las aplicaciones que está investigando.</li></ul> |
-| ![Un icono que muestra el siguiente paso](media/audio_conferencing_image9.png)<br/>Siguiente paso|<ul><li>Investigue la aplicación o el servicio para decidir si desea permitir el acceso a él dentro de su organización. Por ejemplo, los bots envían y reciben mensajes de los usuarios y, excepto los bots de línea de negocios empresariales, se encuentran fuera del límite de cumplimiento. Por lo tanto, cualquier aplicación que incluya un bot necesitará esos permisos y tendrá ese perfil de riesgo, como mínimo. </li></ul>|
+| ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Investigue la aplicación o el servicio para decidir si desea permitir el acceso a él dentro de su organización. Por ejemplo, los bots envían y reciben mensajes de los usuarios y, excepto los bots de línea de negocios empresariales, se encuentran fuera del límite de cumplimiento. Por lo tanto, cualquier aplicación que incluya un bot necesitará esos permisos y tendrá ese perfil de riesgo, como mínimo. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>Permisos de aplicación global y consideraciones
 
@@ -62,7 +62,7 @@ Una aplicación debe revelar los datos que utiliza y los datos que se usan en la
 
 - RECEIVE_MESSAGE, REPLYTO_MESSAGE. El bot puede recibir mensajes de los usuarios y responder a ellos.<sup>1</sup>
 
-- POST_MESSAGE_USER. Después de que un usuario ha enviado un mensaje a un bot, el bot puede enviarle mensajes directos (también denominados *mensajes* proactivos en cualquier momento).
+- POST_MESSAGE_USER. Después de que un usuario ha enviado un mensaje a un bot, el bot puede enviarle mensajes directos (también denominados *mensajes proactivos* en cualquier momento).
 
 - GET_CHANNEL_LIST. Los bots que se agregan a los equipos pueden obtener una lista de nombres e identificadores de los canales de un equipo.
 

@@ -10,8 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar Skype para empresas para usar otro idioma para el saludo del buzón de voz predeterminado de su organización. '
-ms.openlocfilehash: 085262a4ae4362aa40d20d3da657db6bcac694a3
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 85631b9f8b1ecbc070bb2c5cc986978236828a52
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328347"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516979"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 

@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Siga los pasos que necesita para cambiar la configuración de un puente de conferencia que se usa para avisar a las personas que llaman y recopilar nombres y PIN de los organizadores de reuniones cuando no usan las aplicaciones de Skype empresarial o Microsoft Teams. '
-ms.openlocfilehash: 97c1439325e5a9a00cacfa26e97078d2c2a91014
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: b7ac85729bafe9d27f9e33cfa22597811b8d3d0b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494565"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516957"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.
 
@@ -50,7 +49,7 @@ El puente de conferencia responde a una llamada y le pide a la persona que llama
 3. En el panel **configuración de puente** , seleccione: 
    - **Notificaciones de entrada y salida de reunión** Si desactiva esta opción, los usuarios que ya se hayan unido a la reunión no recibirán ninguna notificación cuando alguien entre o salga de la reunión.
     
-     Al activar las notificaciones de **entrada y salida**de la reunión, puede seleccionar estas opciones:
+     Al activar las **notificaciones de entrada y salida**de la reunión, puede seleccionar estas opciones:
     
    - **Nombres o números de teléfono** Cuando los usuarios llaman a una reunión, su número de teléfono se reproducirá cuando se una a una.
     
@@ -70,7 +69,7 @@ El puente de conferencia responde a una llamada y le pide a la persona que llama
 
  **Configurar la experiencia de reunión cuando las personas que llaman se unen a una reunión**
     
-1. En el **centro de administración de Skype empresarial**, en el navegación de la **** > izquierda, vaya a**configuración de puente de Microsoft**.
+1. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, **vaya a** > **configuración de puente de Microsoft**.
     
 2. En la página **configuración del puente de Microsoft** , en experiencia de unirse a la **reunión**, seleccione:
     

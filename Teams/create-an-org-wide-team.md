@@ -11,16 +11,15 @@ search.appverid: MET150
 description: Aprenda a crear y administrar un equipo de toda la organización en Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 901f0dd116bf152433d226e0c131f795675784cc
-ms.sourcegitcommit: f2cdb2c1abc2c347d4dbdca659e026a08e60ac11
+ms.openlocfilehash: db7caa3879e016b6e8453ad151785578d2391dd1
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "36493117"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516655"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo que abarque toda la organización en Microsoft Teams
 
@@ -28,7 +27,7 @@ Los equipos de toda la organización ofrecen una manera automática de que todos
 
 Con los equipos de toda la organización, los administradores globales pueden crear fácilmente un equipo público que extrae a todos los usuarios de la organización y mantener la pertenencia actualizada con Active Directory a la vez que los usuarios se unen y salen de la organización. Solo los administradores globales pueden crear equipos de toda la organización y actualmente el equipo de toda la organización está limitado a organizaciones con un máximo de 5.000 usuarios. También hay un límite de cinco equipos de toda la organización por cada inquilino. Si se cumplen estos requisitos, los administradores globales verán **toda la organización** como una opción cuando seleccionen **crear un equipo desde cero** al crear un equipo. 
 
-![Captura de pantalla de la opción de toda la organización para crear un equipo para toda la organización] (media/create-org-wide-team.png "Captura de pantalla de la opción de toda la organización para crear un equipo para toda la organización")
+![Captura de pantalla de la opción en toda la organización para crear una](media/create-org-wide-team.png "captura de pantalla de un equipo de toda la organización de la opción de toda la organización para crear un equipo para toda la organización")
 
 Cuando se crea un equipo de toda la organización, todos los administradores globales se agregan como propietarios del equipo y todos los usuarios activos se agregan como miembros del equipo. Los usuarios sin licencia también se agregan al equipo. La primera vez que un usuario sin licencia inicia sesión en Teams, se asigna al usuario una licencia de prueba de la nube comercial de Microsoft Teams. Para obtener más información sobre la licencia de prueba, consulte [administrar la oferta de evaluación de la nube comercial](iw-trial-teams.md). 
 
@@ -71,7 +70,7 @@ Considere la posibilidad de configurar la moderación de canales y proporcionar 
 
 Aunque los miembros no pueden abandonar un equipo de organización en toda la organización, como propietario de un equipo, puede administrar la lista de equipos eliminando las cuentas que no pertenecen. Asegúrese **de usar Teams para quitar usuarios del equipo de su organización**. Si usa otra forma de quitar un usuario, como el centro de administración de Microsoft 365 o un grupo en Outlook, el usuario podría volver a agregarse al equipo de toda la organización.
 
-## <a name="faq"></a>Preguntas más frecuentes
+## <a name="faq"></a>Preguntas frecuentes
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>¿Hay alguna forma de crear un equipo para toda la organización que no sea usar el cliente de Teams?
 

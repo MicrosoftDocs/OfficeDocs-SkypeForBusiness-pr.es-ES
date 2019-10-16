@@ -1,5 +1,5 @@
 ---
-title: Configurar la aplicación Reuniones de Skype para trabajar con Teams
+title: Configurar la aplicación de Reuniones de Skype para trabajar con Teams
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: Lolaj
@@ -12,17 +12,16 @@ search.appverid: MET150
 description: Los administradores pueden usar el centro de administración de Microsoft Teams para configurar la aplicación reuniones de Skype para que funcione con Teams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 227ac287958634ee699a29990149a494a00b2078
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236867"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516927"
 ---
-<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación Reuniones de Skype para trabajar con Teams
+<a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación de Reuniones de Skype para trabajar con Teams
 ===================================================
 
 Después de que un usuario se actualiza a Microsoft Teams, los administradores pueden usar el centro de administración de Microsoft Teams para especificar la aplicación preferida que los usuarios usarán para unirse a reuniones de Skype empresarial.
@@ -30,7 +29,7 @@ Después de que un usuario se actualiza a Microsoft Teams, los administradores p
 Para especificar la aplicación de Skype para reuniones como la aplicación preferida:
 
 1. Inicie sesión en el centro de administración de Microsoft Teams.
-2. En el panel izquierdo, en **configuración de toda la organización**, seleccione **actualización**de Teams.
+2. En el panel izquierdo, en **configuración de toda la organización**, seleccione **actualización de Teams**.
 3. En la página actualización de equipos, en **preferencias de aplicaciones**, seleccione **aplicación reuniones de Skype** en la **aplicación preferida para los usuarios para unirse a** la lista desplegable de reuniones de Skype empresarial.
 
     ![Elige la aplicación preferida para que los usuarios se unan a reuniones de Skype empresarial](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)

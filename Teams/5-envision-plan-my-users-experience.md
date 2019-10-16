@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Elija aplicaciones cliente de Teams, planear la calidad del extremo, obtener recomendaciones para implementar puntos de conexión Wi-Fi y elegir dispositivos de audio.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 688b1d05acb882b08128fa144f28bd8e682d57fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235190"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515976"
 ---
 # <a name="plan-my-users-experience"></a>Planear la experiencia de mis usuarios
 
@@ -41,7 +41,7 @@ Uno de los beneficios clave de Teams es que el cliente se mantiene actualizado a
 
 Como puede ver en el siguiente diagrama, los puntos de conexión son un importante bloque de creación para proporcionar una experiencia de calidad a los usuarios.
 
-![Diagrama que describe los tres componentes de la calidad] (media/plan-my-users-experience-image1.png "Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes. Centrado en los puntos de conexión.")
+![Diagrama que describe los tres componentes de un diagrama de calidad](media/plan-my-users-experience-image1.png "que describe los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes. Centrado en los puntos de conexión.")
 
 Los puntos de conexión de equipos se pueden ejecutar en muchos dispositivos, como equipos PC, Mac, tabletas y dispositivos móviles. Parte de la experiencia no abarca solo el dispositivo, sino que se conecta al dispositivo, por ejemplo, usando el micrófono/altavoz incorporado del dispositivo, Earbuds o un auricular con micrófono optimizado. El uso de un auricular con micrófono optimizado, se puede enriquecer la experiencia general del usuario.
 

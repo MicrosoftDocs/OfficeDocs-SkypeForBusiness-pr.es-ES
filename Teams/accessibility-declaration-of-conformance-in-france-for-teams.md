@@ -9,7 +9,6 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
@@ -19,12 +18,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre promociona a personnes, contenus et Outils no votre Équipe a besoin verter être más impliquée et efficace. "
-ms.openlocfilehash: c79fbe75b34de917feb969313af4d0e7d68785c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e137e6cd292ff288a9806d0bc952b0cc00f85d42
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239455"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516858"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de Conformité en matière d'accessibilité
 

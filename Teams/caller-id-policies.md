@@ -9,20 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+- M365-voice
 f1keywords: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar directivas de identificación de llamadas en Microsoft Teams para cambiar o bloquear la identificación de llamadas de los usuarios de su organización.
-ms.openlocfilehash: 95771336e71e56752483519cd089b1c755ec11d3
-ms.sourcegitcommit: 25c30baec1c969eef95b725251a3f4ad3706a19d
+ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2019
-ms.locfileid: "36622103"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517012"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Administrar directivas de identificación de llamadas en Microsoft Teams
 
@@ -40,7 +39,7 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de identificación de llamadas**de **voz** > .
 2. Haga clic en **Agregar**.
-![Captura de pantalla de la página de la nueva Directiva de identificación de llamadas en el centro de administración](media/caller-id-policies-add-policy.png)
+![Captura de pantalla de la nueva página de la Directiva de identificación de llamadas en el centro de administración](media/caller-id-policies-add-policy.png)
 3. Escriba un nombre y una descripción para la Directiva.
 4. Desde aquí, elija la configuración que desee:
 
@@ -80,7 +79,7 @@ Para asignar una directiva de identificador de línea de llamada personalizado a
 
 También puede hacer lo siguiente:
 
-1. Vaya a**directivas de identificación de llamadas**de**voz** > del **Centro** > de administración de Microsoft Teams.
+1. Vaya a**directivas de identificación de llamadas**de**voz** > del centro > de **Administración de Microsoft Teams**.
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
 3. Seleccione **administrar usuarios**.
 4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.

@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Elija un modelo de implementación, desarrolle una matriz de consulta responsable, consultada, informada (RACI), cree planes de control y ejecución.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f324c703c71adbcabedc71d9a5fdb6a4ce63ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1ef741290a4d669084ad55335d0a08ec1c9ffd5c
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245163"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515995"
 ---
 # <a name="document-my-success-plan"></a>Documentar el plan de éxito
 
@@ -88,8 +88,8 @@ El siguiente es un ejemplo de un plan de ejecución trimestral para la fase de p
 
 | Sitio/división                            | Cantidad de empleados | Audioconferencia | Sistema telefónico                    | Trimestre para ejecutar |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| NUESTRA: Nueva York                             | 2000                | Sí                | Sistema telefónico con planes de llamadas | T1 CY2018          |
-| Irlanda: Dublín                          | 300                 | Sí                | Sistema telefónico con planes de llamadas | T1 CY2018          |
+| NUESTRA: Nueva York                             | 2000                | Sí                | Sistema telefónico con Planes de llamada | T1 CY2018          |
+| Irlanda: Dublín                          | 300                 | Sí                | Sistema telefónico con Planes de llamada | T1 CY2018          |
 | Austria: Viena                          | 500                 | Sí                | Enrutamiento directo del Sistema telefónico     | T2 CY2018          |
 | Italia: Milán                             | 200                 | Sí                | N/D                             | T2 CY2018          |
 | América del sur: Brasil                    | 1500                | Sí                | Enrutamiento directo del Sistema telefónico     | T2 CY2018          |

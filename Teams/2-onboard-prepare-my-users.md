@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Cree un plan para impulsar la adopción por parte de los usuarios definiendo los objetivos, comprender el aspecto de la aceptación y proporcionar aprendizaje y soporte técnico.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 162bb3f2e0b17475618afbb796e9ae8778bdab4a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245848"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516276"
 ---
 # <a name="prepare-my-users"></a>Preparar a mis usuarios
 
@@ -46,7 +46,7 @@ Configurar su visión del proyecto permite a las partes interesadas clave ver la
 
 La imagen siguiente es un ejemplo de una declaración a valor para un cliente que se actualiza de Skype empresarial a teams.
 
-![Tabla de dos columnas que muestra la visión y el valor] (media/prepare-my-users-new-image1.png "Tabla de dos columnas con visión: ¿por qué estamos haciendo esto? (nivel de organización) a la izquierda y valor: ¿Qué es lo que me está buscando? (nivel de usuario) a la derecha")
+![Tabla de dos columnas que muestra]una tabla con dos columnas de visión y de valor(media/prepare-my-users-new-image1.png "con visión: ¿por qué estamos haciendo esto? (nivel de organización) a la izquierda y valor: ¿Qué es lo que me está buscando? (nivel de usuario) a la derecha")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Ha articulado la ventaja y el valor para sus usuarios de una forma que gana su compra para esta nueva solución?</li></ul></td></tr>
@@ -84,7 +84,7 @@ La preparación de la organización ayuda a determinar la forma en la que los us
 
 | **Tipo de aprendizaje**                                                        | **%** |
 |----------------------------------------------------------------------------|-------|
-| ** Los aprendizajes AUTOMOTIVOS buscan recursos, aprender a hacerlo.                         |       |
+| Los aprendizajes *AUTOMOTIVOS* buscan recursos, aprender a hacerlo.                         |       |
 | Los *jugadores del equipo* disfrutan de formación grupal y interactiva. irán acompañadas de compañeros de trabajo. |       |
 | Los buscadores de *asidero* esperan "guante blanca" o ayuda única.                   |       |
 
@@ -126,7 +126,7 @@ Para cada grupo de roles, explique lo siguiente con su equipo de proyecto:
 
 La imagen siguiente es un ejemplo de una tabla de roles.
 
-![Tabla de valores que enumera los detalles de los roles] (media/prepare-my-users-image2.png "Tabla en la que se enumeran los roles y las dependencias de la solución de comunicación y colaboración. El rol Ejecutivo está resaltado con detalles sobre el perfil (día en la vida) y las características, dispositivos y formación que necesita un ejecutivo.")
+![Tabla de valores]que contiene la tabla de detalles de los(media/prepare-my-users-image2.png "roles, así como las dependencias de las soluciones de comunicación y colaboración. El rol Ejecutivo está resaltado con detalles sobre el perfil (día en la vida) y las características, dispositivos y formación que necesita un ejecutivo.")
 
 Para cada caso de uso, comente lo siguiente con su equipo de proyecto:
 

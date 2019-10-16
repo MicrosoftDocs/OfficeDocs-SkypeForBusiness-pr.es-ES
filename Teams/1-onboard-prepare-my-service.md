@@ -12,16 +12,16 @@ ms.reviewer: rowille
 description: Use listas de comprobación de incorporación para preparar Office 365 para equipos y configurar las capacidades básicas de Teams, las redes y las cargas de trabajo de voz de nube.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 63b507237cbc9a1d32dc891b99eaf6425528b559
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 653b5cf46e0b079af47c282b4110b181e76be915
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236201"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516499"
 ---
 # <a name="prepare-my-service"></a>Preparar mis servicios
 
@@ -103,7 +103,7 @@ En su forma más simple, el método de pruebas se basa en la revisión de las ca
 
 
 >[!TIP]
->Para obtener ayuda con la creación de casos de prueba como punto de partida, consulte la lista de instrucciones para el usuario disponible en las [reuniones y las llamadas](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings)de Teams.
+>Para obtener ayuda con la creación de casos de prueba como punto de partida, consulte la lista de instrucciones para el usuario disponible en las [reuniones y las llamadas de Teams](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8#bkmk_havingmeetings).
 
 <!--ENDOFSECTION-->
 
@@ -140,7 +140,7 @@ Después de configurar el entorno de usuario y el servicio, el último paso de l
 
 -   Se ha identificado y configurado la lista de números de marcado de audioconferencias dedicados y compartidos con preferencias de idioma.
 
--   [Créditos de comunicaciones](what-are-communications-credits.md) (si es necesario) se ha configurado para su organización.
+-   Se han configurado [créditos de comunicaciones](what-are-communications-credits.md) (si es necesario) para su organización.
 
 -   La configuración del puente de conferencia de conferencia de audio ha sido identificada y configurada (longitud del PIN, notificaciones de entrada/salida, preferencia de notificación de habilitación).
 
@@ -158,7 +158,7 @@ Después de configurar el entorno de usuario y el servicio, el último paso de l
 
 -   Los números de teléfono que se asignarán a los usuarios se han adquirido o trasladado a Microsoft y están disponibles en el portal del inquilino.
 
--   [Créditos de comunicaciones](what-are-communications-credits.md) (si es necesario) se ha configurado para su organización.
+-   Se han configurado [créditos de comunicaciones](what-are-communications-credits.md) (si es necesario) para su organización.
 
 -   Las directivas de usuario de inquilino y la configuración del plan de marcado que admiten escenarios de llamadas se han identificado, configurado y aplicado.
 

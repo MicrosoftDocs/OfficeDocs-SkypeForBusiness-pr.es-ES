@@ -11,16 +11,15 @@ ms.service: msteams
 search.appverid: MET150
 description: Configurar una directiva de reunión para permitir que los usuarios compartan sus escritorios en chats o reuniones de Teams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f36804fc4d7c28f08ca383ddb09f22ee52f804e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236938"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516891"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar Compartir escritorio en Microsoft Teams
 ============================================
@@ -45,7 +44,7 @@ Para configurar la pantalla compartida, debe crear una nueva Directiva de reunio
 
    - **Pantalla completa** : permite que los usuarios compartan todo su escritorio.
    - Una **sola aplicación** : permite que los usuarios limiten la pantalla compartida a una sola aplicación activa.
-   - **** Deshabilitado: desactiva la pantalla compartida.
+   - **Deshabilitado** : desactiva la pantalla compartida.
 
     ![Captura de pantalla que muestra las opciones del modo de uso compartido](media/configure-desktop-sharing-image3.png)
 
@@ -55,7 +54,7 @@ Para configurar la pantalla compartida, debe crear una nueva Directiva de reunio
     - **Permitir que un participante externo pueda ceder o solicitar el control** : permite a los invitados y a los usuarios externos (federados) ceder o solicitar el control del escritorio o de la aplicación del moderador.
     - **Permitir el uso compartido de PowerPoint** : permite a los usuarios crear reuniones que permiten que las presentaciones de PowerPoint se carguen y compartan.
     - **Permitir pizarra** : permite a los usuarios compartir una pizarra.
-    - **Permitir notas** compartidas: permite a los usuarios tomar notas compartidas.
+    - **Permitir notas compartidas** : permite a los usuarios tomar notas compartidas.
 
 6. Haga clic en **Guardar **.
 

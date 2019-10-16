@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 60fce49f2c03ef674e0b1e09f5d0193bcdab7ca0
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
+ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434969"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37522775"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -219,10 +218,20 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 **Marcado por nombre** Si habilita esta opción, las personas que llaman pueden buscar personas de su organización mediante el **marcado por nombre**. Dicen que el nombre del usuario y el reconocimiento de voz coinciden con el usuario. Puede establecer quién está y no incluido en estos servicios en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con el marcado por nombre.
 
-**Marcado por extensión** Si habilita esta opción, las personas que llamen pueden conectarse con los usuarios de su organización escribiendo su extensión de teléfono, **siempre que haya configurado un plan de marcado que use las extensiones**. Puede seleccionar qué usuarios aparecen como disponibles o no disponibles para **marcar por extensión** en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la función de marcado por extensión.
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+**Marcado por extensión** Si habilita esta opción (actualmente solo está disponible en algunos espacios empresariales), las personas que llamen podrán conectarse con los usuarios de su organización escribiendo su extensión de teléfono. Puede seleccionar qué usuarios aparecen como disponibles o no disponibles para **marcar por extensión** en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la función de marcado por extensión.
+
+> [!IMPORTANT]
+> Siga estos pasos:
+>- Los usuarios que desea que estén disponibles para marcar por extensión necesitan tener una extensión especificada como parte de su número de teléfono o número de teléfono móvil asignado en el [centro de administración de Microsoft 365](https://docs.microsoft.com/office365/admin/add-users/add-users?view=o365-worldwide#use-the-new-admin-center-to-add-users).  El formato requerido para introducir la extensión en el campo número de teléfono del usuario es `+<phonenumber>;ext=<extension>` o `x<extension>`.
+>- La asignación de una extensión en el centro de administración de Teams no es compatible actualmente. Debe usar el comando [set-MsolUser](https://docs.microsoft.com/powershell/module/msonline/set-msoluser?view=azureadps-1.0) de PowerShell o el centro de administración de Microsoft 365.
+>- Pueden pasar hasta 12 horas antes de que los cambios de los atributos PhoneNumber y PhoneNumber de AAD estén disponibles.
+>- NO defina una extensión para el LineUri de un usuario. Esto no es compatible actualmente.
+>- Se puede configurar un operador automático para marcado por nombre o por extensión de marcado, pero no para ambos.
 
 > [!NOTE]
-> Si desea usar tanto el **marcado por el nombre** como las características de **marcado por extensión** , puede crear un operador automático principal (habilitado para **marcado por nombre**) que pide a las personas que llamen para elegir una opción de menú 3 si conocen la extensión del usuario y establecer la opción 3 en Tran sfer la llamada a un operador automático habilitado para marcado por extensión. 
+> Si desea usar el **marcado por nombre** y las características de **marcado por extensión** , puede crear un operador automático principal (habilitado para **marcado por nombre**) que pide a las personas que llamen a las personas que eligen una opción de menú si conocen la extensión del usuario y establecen esa opción en transferir la llamada a un operador automático habilitado para marcado por extensión. 
 
 * * *
 

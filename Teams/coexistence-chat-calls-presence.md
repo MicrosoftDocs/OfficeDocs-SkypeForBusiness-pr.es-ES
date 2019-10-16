@@ -10,17 +10,17 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-description: Este documento describe el comportamiento de la conversación, el enrutamiento de llamadas y la presencia entre los usuarios de Teams y Skype empresarial, tanto en el inquilino como en el federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio de modo de TeamsUpgrade predeterminado ** de heredado a *islas* y la jubilación inminente de la *herencia*.
-ms.openlocfilehash: 22e931d50c3008a77df6ad6568bd50acbe891c8b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+description: Este documento describe el comportamiento de la conversación, el enrutamiento de llamadas y la presencia entre los usuarios de Teams y Skype empresarial, tanto en el inquilino como en el federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio de modo de TeamsUpgrade predeterminado de *heredado* a *islas* y la jubilación inminente de la *herencia*.
+ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236916"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515867"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -38,7 +38,7 @@ Si el remitente usa Teams, la decisión de enrutamiento se realiza al crear una 
  Los métodos de enrutamiento de subprocesos son:  
 
 - *nativo* para un equipo para una conversación de equipos en el inquilino
-- ** interoperabilidad de equipos para conversaciones de Skype empresarial en el inquilino
+- *interoperabilidad* de equipos para conversaciones de Skype empresarial en el inquilino
 - *federado* para una conversación federada entre espacios empresariales
 
 Los parámetros que determinan el método de enrutamiento de subprocesos son:
@@ -79,7 +79,7 @@ En las siguientes tablas:
 |--- |--- |--- |--- |--- |
 | Logra | Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial| En línea<br/> En línea<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial|
 |SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv;|Skype Empresarial<br/>Skype Empresarial<br/>|
-|TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/>|Microsoft Teams|
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
 **Tabla 1B: nueva conversación en el inquilino o enrutamiento de llamadas a un destinatario en modo\* SfB**
@@ -88,16 +88,16 @@ En las siguientes tablas:
 |--- |--- |--- |---   |--- |
 | Logra |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial<br/> **No es posible** <br/>Skype Empresarial<br/> |
 |SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv; |  Skype Empresarial<br/>Skype Empresarial<br/> |
-|TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/> |  *Skype Empresarial* <br/>| 
+|TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype Empresarial* <br/>| 
 | | | | | |
 
 **Tabla 1C: nueva conversación en el inquilino o enrutamiento de llamadas a destinatarios en modo TeamsOnly**
 
 | <br/><br/> Multimodo   | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | |   Remite <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Logra   |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial<br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Microsoft Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| Logra   |Teams<br/>Skype Empresarial<br/>Teams <br/>Skype Empresarial<br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
-|TeamsOnly  | Microsoft Teams | Online |  &boxv; |Microsoft Teams   |
+|TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
 
 ## <a name="federated-routing-for-new-chats-or-calls"></a>Enrutamiento federado para nuevos chats o llamadas
@@ -117,27 +117,27 @@ Las tablas siguientes describen qué cliente recibirá una llamada de su origina
 
 | <br/><br/>Multimodo   | Autor<br/><br/> Cliente| <br/><br/>SfB| | Remite<br/><br/> Logra |
 |--- |--- |--- |--- |--- |
-| Logra |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible**   <br/> Skype Empresarial |
+| Logra |Teams<br/>Skype Empresarial <br/>Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible**   <br/> Skype Empresarial |
 | SfB\* |Skype Empresarial <br/>Skype Empresarial |Online<br/> Local<br/> | &boxv;<br/>&boxv;|Skype Empresarial <br/>Skype Empresarial |
-| TeamsOnly |Microsoft Teams |Online| &boxv;|*Skype Empresarial* |
+| TeamsOnly |Teams |Online| &boxv;|*Skype Empresarial* |
 |  | | | | 
 
 **Tabla 2B: nueva conversación o enrutamiento de llamadas a un destinatario en modo SfB\***
 
 | <br/><br/>Multimodo   | Autor<br/><br/> Cliente| <br/><br/>SfB| |  Remite<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Logra |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible** <br/>Skype Empresarial <br/> |  
+| Logra |Teams<br/>Skype Empresarial <br/>Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible** <br/>Skype Empresarial <br/> |  
 | SfB\* |Skype Empresarial <br/>Skype Empresarial  |Online<br/> Local<br/>  |&boxv;<br/>&boxv; | Skype Empresarial <br/>Skype Empresarial  |
-| TeamsOnly | Microsoft Teams|Online |&boxv; |*Skype Empresarial*  |
+| TeamsOnly | Teams|Online |&boxv; |*Skype Empresarial*  |
 |  | | | | |
 
 **Tabla 2C: nueva conversación federada o enrutamiento de llamadas a destinatarios en modo TeamsOnly**
 
 | <br/><br/>Multimodo | Autor<br/><br/> Cliente| <br/><br/>SfB| |  Remite<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Logra  |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Microsoft Teams <br/>*Teams* <br/>**No es posible** <br/>*Teams* |
+| Logra  |Teams<br/>Skype Empresarial <br/>Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**No es posible** <br/>*Teams* |
 | SfB\* |Skype Empresarial <br/>Skype Empresarial  | Online<br/> Local| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
-| TeamsOnly |Microsoft Teams |Online |&boxv; |Microsoft Teams |
+| TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
 
 ## <a name="chats-and-calls-from-pre-existing-threads"></a>Chats y llamadas de conversaciones preexistentes
@@ -162,7 +162,7 @@ Los comportamientos en el inquilino y en el inquilino descritos anteriormente es
 - Los asistentes externos cuyos inquilinos residen en una implementación o geografía diferente de GoLocal no verán la conversación de mensajes instantáneos en una reunión "federada".
 - No se admite la Federación y la interoperabilidad entre O365 y nubes soberanos multiinquilino.
 
-# <a name="presence"></a>Presencia
+# <a name="presence"></a>Presence
 
 Cuando tiene una situación en la que algunos de los usuarios usan el cliente de Teams y otros siguen usando el cliente de Skype empresarial, es posible que tenga un número de usuarios que están usando ambos clientes. Aún quiere que los Estados de presencia se compartan con todos los usuarios sin tener en cuenta qué cliente tiene un usuario individual. Cuando se comparte en toda la organización, los usuarios pueden determinar mejor si es adecuado iniciar una conversación o hacer una llamada.
 
@@ -188,8 +188,8 @@ En la tabla se describe la presencia del editor que verá un monitor, según el 
 
 |Monitor <br/><br/>Cliente| |<br/><br/>Logra |Publisher <br/><br/>SfB\* |<br/>Solo equipos|
 |--- |--- |--- |--- |---|
-|Skype Empresarial |&boxv;|Skype Empresarial | Skype Empresarial | Microsoft Teams|
-|Microsoft Teams |&boxv; |Microsoft Teams |Skype Empresarial |Microsoft Teams |
+|Skype Empresarial |&boxv;|Skype Empresarial | Skype Empresarial | Teams|
+|Microsoft Teams |&boxv; |Microsoft Teams |Skype Empresarial |Teams |
 | | | | |
 
 ## <a name="federated-presence"></a>Presencia federada
@@ -202,8 +202,8 @@ En la tabla siguiente se describe la presencia del editor que verá un monitor, 
 
 |Monitor <br/><br/> Cliente | |<br/><br/> Logra  |Publisher <br/><br/> SfB\* |<br/><br/> Solo equipos |
 |--- |--- |--- |--- |---|
-|Skype Empresarial |&boxv; |Skype Empresarial  | Skype Empresarial  | Microsoft Teams  |
-|Microsoft Teams | &boxv;|Skype Empresarial |Skype Empresarial |Microsoft Teams|
+|Skype Empresarial |&boxv; |Skype Empresarial  | Skype Empresarial  | Teams  |
+|Microsoft Teams | &boxv;|Skype Empresarial |Skype Empresarial |Teams|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Presencia en subprocesos preexistentes

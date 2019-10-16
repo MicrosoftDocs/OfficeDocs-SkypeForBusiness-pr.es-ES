@@ -11,17 +11,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Mida los resultados de su Conferencia de audio, sistema telefónico con planes de llamadas o implementación de enrutamiento directo del sistema telefónico y compruebe que ha alcanzado los resultados que desea.
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 - M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a84f0d38afbac74b296ccdfed626d6f8830d46a9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244173"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517080"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 

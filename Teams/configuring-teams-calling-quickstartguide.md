@@ -12,17 +12,16 @@ search.appverid: MET150
 description: Guía de inicio rápido para configurar Planes de llamada en Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- Teams_ITAdmin_Training
+- M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e043633749e0ef2dba41b5b3b18776cfbe1c497
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236576"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516483"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -77,7 +76,7 @@ Para asegurarse de que los usuarios reciban todas las llamadas de VOIP y RTC ent
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Sistema telefónico con planes de llamadas](calling-plan-landing-page.md)
+[Sistema telefónico con Planes de llamada](calling-plan-landing-page.md)
 
 [Referencia del cmdlet de PowerShell de Skype empresarial](https://docs.microsoft.com/powershell/module/skype)
 

@@ -10,7 +10,8 @@ ms.tgt.pltfrm: cloud
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-collaboration
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +21,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Fournir des expériences accessible à tous est Au cœur de la misión de Microsoft, qui consta de à permettre à chaque personne et à chaque organización de la Planète d'accomplir davantage. Microsoft offre un determinado nombre de Fonctionnalités d'accessibilité verter Skype Entreprise et Microsoft Teams qui s'inscrivent dans hijo Engagement Fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: b03ae1bdf2d5d00f946854794ab23344b96e14cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c68afb52c2e3abfde9a5e6e06cc79aa87b918dc2
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239476"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516847"
 ---
 # <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>Soluciones de accesibilidad para Skype empresarial online y Microsoft Teams en Francia
 

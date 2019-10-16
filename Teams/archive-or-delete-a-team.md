@@ -13,16 +13,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdbc5a03698fc5aa8cd7d686ad0c3038132236f1
-ms.sourcegitcommit: 21ef0846c8d9bc986550d34614bae1cb9eb2ded8
+ms.openlocfilehash: 82ba160c1b2a36d67d67b69a0d7eb71bdde4c35f
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36980580"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37515919"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivar o borrar un equipo en Microsoft Teams
 ===========================================
