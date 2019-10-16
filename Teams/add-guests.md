@@ -8,7 +8,7 @@ ms.date: 06/21/2019
 ms.topic: article
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 search.appverid: MET150
 ms.reviewer: sbhatta
@@ -16,12 +16,12 @@ localization_priority: Priority
 description: Conozca las herramientas que un administrador tiene a su disposición para agregar usuarios invitados nuevos a una organización, incluidos los clientes web y de escritorio de Microsoft Teams y el portal de colaboración B2B de Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: acf62fe23a5b22f2cbe07e94e073037e1f95b041
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1b23ee82e90dea1bc302f14f305274d3ba64d471
+ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236324"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37516123"
 ---
 <a name="add-a-guest-to-a-team"></a>Agregar un invitado a un equipo
 =====================
