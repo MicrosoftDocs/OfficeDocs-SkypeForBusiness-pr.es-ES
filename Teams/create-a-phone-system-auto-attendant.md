@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: eeeafb99a7cf1344d973b5963eab5b0c4ee8eaea
-ms.sourcegitcommit: 9145ce09efe490d4d79b2a52ecc318f54d2feb2c
+ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37522775"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553787"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -220,7 +220,7 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Marcado por extensión** Si habilita esta opción (actualmente solo está disponible en algunos espacios empresariales), las personas que llamen podrán conectarse con los usuarios de su organización escribiendo su extensión de teléfono. Puede seleccionar qué usuarios aparecen como disponibles o no disponibles para **marcar por extensión** en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la función de marcado por extensión.
+**Marcado por extensión** (esta característica de vista previa aún no está disponible para el público en general) Si habilita esta opción, las personas que llaman pueden conectarse con los usuarios de su organización escribiendo su extensión de teléfono. Puede seleccionar qué usuarios aparecen como disponibles o no disponibles para **marcar por extensión** en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la función de marcado por extensión.
 
 > [!IMPORTANT]
 > Siga estos pasos:
@@ -231,7 +231,7 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 >- Se puede configurar un operador automático para marcado por nombre o por extensión de marcado, pero no para ambos.
 
 > [!NOTE]
-> Si desea usar el **marcado por nombre** y las características de **marcado por extensión** , puede crear un operador automático principal (habilitado para **marcado por nombre**) que pide a las personas que llamen a las personas que eligen una opción de menú si conocen la extensión del usuario y establecen esa opción en transferir la llamada a un operador automático habilitado para marcado por extensión. 
+> Si desea usar el **marcado por nombre** y las características de **marcado por extensión** , puede crear un operador automático principal (habilitado para **marcado por nombre**) que pide a las personas que llamen a las personas que eligen una opción de menú si conocen la extensión del usuario y establecen esa opción en transferir la llamada a un operador automático habilitado para marcado por extensión.
 
 * * *
 
@@ -326,7 +326,7 @@ Haga clic en **siguiente** para establecer el ámbito de marcado, **atrás** par
 
 ![Captura de pantalla que muestra la página ámbito de marcado](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
-En esta página, puede establecer quién aparece en el directorio y disponible para marcar por su nombre cuando una persona llama a su organización. El marcado por nombre está **desactivado** de forma predeterminada en una pantalla anterior. Si ha creado planes de marcado, todos los usuarios con una extensión estarán disponibles si seleccionó **marcar por extensión** antes.
+En esta página, puede establecer quién aparece en el directorio y disponible para marcar por su nombre cuando una persona llama a su organización. El marcado por nombre está **desactivado** de forma predeterminada en una pantalla anterior. Todos los usuarios con una extensión estarán disponibles si seleccionó **marcar por extensión** anteriormente.
 
 ![Icono del número 1, una llamada en la captura de pantalla](media/teamscallout1.png) anterior **incluye** las opciones de esta sección son **todos los usuarios en línea** o **grupos de usuarios personalizados** .
 

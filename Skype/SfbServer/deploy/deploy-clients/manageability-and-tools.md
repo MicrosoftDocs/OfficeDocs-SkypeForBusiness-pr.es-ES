@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lea este tema para obtener información acerca de las herramientas de administración para el sistema de salas de Skype.
-ms.openlocfilehash: 51cb9ed85558a97b4afbeed8e4addd2ade6debec
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: c9289d3fffa78dd7ffd94fa17784c1b06c2278b1
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775331"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547263"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Administración y herramientas del Sistema de salas de Skype
  
@@ -29,9 +29,6 @@ Para obtener más información, consulte el artículo siguiente:
   
 - [Implementar el portal web administrativo SRS V1 en Skype empresarial Server](../deploy-conferencing/room-system-v1-administrative-web-portal.md)
     
-## <a name="system-center-operations-manager"></a>System Center Operations Manager
-
-El sistema de salas de Skype se puede supervisar a través de System Center Operations Manager (SCOM) descargando el [módulo de administración de sistema de Skype Room](https://www.microsoft.com/download/details.aspx?id=42320) e instálelo en el servidor de SCOM. Puede usar SCOM para establecer alertas, supervisar el estado del sistema de salas de Skype, generar informes de tiempo de actividad y mucho más. El sistema de salas de Skype viene con un agente de supervisión preinstalado que se puede configurar para que apunte al servidor de SCOM. Consulte la guía de instalación proporcionada por el fabricante de su sistema de salas de Skype para saber cómo configurar el agente de supervisión en el sistema de salas de Skype.
   
 ## <a name="exchange-checklist"></a>Lista de comprobación de Exchange
 

@@ -20,12 +20,12 @@ description: Aprenda a administrar tareas en el centro de administración de Mic
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eaaa4782ac1c0f5fa8d1618f89c05d3ffd58e57
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 91d74a96cedcd0cdbdfd6b7fcc5ac1b8e261027e
+ms.sourcegitcommit: fa55f9e3690fcca36b530bd13a9eeaa44120b87c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483984"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37547284"
 ---
 # <a name="assignments-in-teams-for-education"></a>Tareas en Teams para educación
 
@@ -83,6 +83,4 @@ Después de seguir las indicaciones, se le dará la TurnitinApiKey. Copie la cla
 
 Después de hacer clic en el botón **Guardar** en el centro de administración de esta configuración, espere hasta 24 horas para que esta configuración surta efecto.
 
-[Más información sobre la integración entre Turnitin y Microsoft Teams](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration)
-
-[Más información sobre Turnitin](https://www.turnitin.com/)
+¿Está listo para empezar a usar la integración de Turnitin en Teams? Suscribirse al [programa de acceso anticipado](https://www.turnitin.com/products/feedback-studio/microsoft-teams-integration).

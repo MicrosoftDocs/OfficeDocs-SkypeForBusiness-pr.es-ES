@@ -11,12 +11,12 @@ ms.service: msteams
 ms.collection: M365-voice
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad del ciclo de vida de las salas de Microsoft Teams.
-ms.openlocfilehash: 89706c2459c8f27c71017cc4f2b19395afaf5ead
-ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
+ms.openlocfilehash: ddbca7ce03fb361d591f72571804f547d7062612
+ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37468470"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "37553765"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Compatibilidad de versiones de la aplicación salas de Microsoft Teams
  
@@ -43,22 +43,25 @@ Las salas de Microsoft Teams requieren las SKU de Windows 10 IoT Enterprise o Wi
 
 Una actualización de características de Windows 10 no se ofrece ni actualiza inmediatamente en los dispositivos de las salas de Microsoft Teams. Un retraso intencionado de hasta seis meses después de la fecha de disponibilidad general Publicada en la página de información de la [versión de Windows 10](https://docs.microsoft.com/windows/release-information/) . El tiempo de retraso se usa para validar la compatibilidad de la versión de Windows 10 para la aplicación salas de Microsoft Teams, hardware de dispositivo y periféricos de video de audio certificados. La validación comienza y continúa durante el desarrollo activo de cada versión principal de Windows 10. Se necesita más tiempo para validar que todos los fabricantes de dispositivos han creado imágenes actualizadas para sus dispositivos y Microsoft Teams para certificar y probar dichas imágenes. Durante el período de validación, la aplicación de Microsoft Team Room usa [las directivas de grupo de Windows Update para empresas](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) para retrasar las actualizaciones de características de Windows 10. Después de encontrar y resolver cualquier problema de compatibilidad, el bloque se eleva mediante la actualización de directivas de grupo a través de una nueva versión de la aplicación en la tienda Windows. Los dispositivos que ejecutan la aplicación salas de Microsoft Teams se actualizan automáticamente a una versión de Windows 10 adecuada durante el reinicio de mantenimiento nocturno. Una versión de MSI está disponible para los clientes que desean administrar las actualizaciones de forma manual.  
 
-Durante el período de validación, los dispositivos de salas de Microsoft Teams Rooms **no** se actualizarán de ninguna manera a la siguiente versión de Windows 10. Esto incluye la invalidación de las directivas de grupo vigentes o el uso de System Center u otros servicios de administración de dispositivos de terceros. Cualquiera de estas causas puede causar problemas en la aplicación de Microsoft Teams Room o puede dejar los dispositivos inutilizables.  
+> [!IMPORTANT]
+> Durante el período de validación, los dispositivos de salas de Microsoft Teams Rooms **no** se actualizarán de ninguna manera a la siguiente versión de Windows 10. Esto incluye la invalidación de las directivas de grupo vigentes o el uso de System Center u otros servicios de administración de dispositivos de terceros. Cualquiera de estas causas puede causar problemas en la aplicación de Microsoft Teams Room o puede dejar los dispositivos inutilizables.  
 
 En la tabla siguiente se muestran las versiones recomendadas y compatibles de Windows 10 que se han verificado para que sean compatibles con salas de Microsoft Teams. Todas las fechas aparecen en formato ISO 8601: AAAA-MM-DD.
 
 |Versión  |Fecha de disponibilidad   |Estado de soporte técnico de salas de Microsoft Teams   |Versión mínima de la aplicación salas de Microsoft Teams | Compilación recomendada de sistema operativo  |
-|:---  |:---       |:---                |:---    |:--- |
-| 1903 |2019-05-21 |Posible <br/>Recomendado |4.2.4.0 |18362,356 |
-| 1809 |2019-03-28 |Omitidos <br/>No se recomienda &#x2780; |&#x2014; |&#x2014; |
-| 1803 |2018-07-10 |Compatible           |4.1.22.0 |17134,191 |
-| 1709 |2018-01-18 |No compatible       |&#x2014; |&#x2014;|
-| 1703 |2017-07-11 |No compatible       |&#x2014; |&#x2014;|
-||||| |
+|:---  |:---       |:---                                  |:---     |:---     |
+| 1903 |2019-05-21 |&#x2780; compatibles, <br/>Recomendado  |4.2.4.0 |18362,356 |
+| 1809 |2019-03-28 |Omitidos <br/>No se recomienda &#x2781;|&#x2014; |&#x2014; |
+| 1803 |2018-07-10 |Compatible                             |4.1.22.0 |17134,191|
+| 1709 |2018-01-18 |No compatible                         |&#x2014; |&#x2014; |
+| 1703 |2017-07-11 |No compatible                         |&#x2014; |&#x2014; |
+||||||
+
+&#x2780; Windows 10 1903 no está disponible para dispositivos Crestron Flex debido a un problema con un controlador de dispositivo de gráficos Intel. Windows 10 1903 no se ofrecerá a estos dispositivos. Los usuarios no deben actualizar estos dispositivos a 1903 y mantenerlos en Windows 10 1803 hasta que Crestron esté disponible una actualización de controlador gráfico. 
+
+&#x2781; la versión de Windows 10 1809 no se recomienda debido a problemas de compatibilidad con la aplicación salas de Microsoft Teams. Este problema específico hace que la aplicación salas de Microsoft Teams no se inicie tras el reinicio nocturno. Este problema se ha solucionado en la versión de Windows 10 1903.  
 
 Si usa una versión compatible de Windows 10, siempre obtendrá las actualizaciones de aplicaciones más recientes para la aplicación salas de Microsoft Teams.  
-
-&#x2780; la versión de Windows 10 1809 no se recomienda debido a problemas de compatibilidad con la aplicación salas de Microsoft Teams. Este problema específico hace que la aplicación salas de Microsoft Teams no se inicie tras el reinicio nocturno. Este problema se ha solucionado en la versión de Windows 10 1903.  
 
 ## <a name="see-also"></a>Vea también
 
