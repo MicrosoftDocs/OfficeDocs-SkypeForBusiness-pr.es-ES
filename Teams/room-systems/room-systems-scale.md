@@ -11,14 +11,15 @@ ms.service: msteams
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Lea este tema para obtener información sobre la implementación de salas de Microsoft Teams en implementaciones de gran escala.
-ms.openlocfilehash: 26bb864f1b3eea49eaf99b598af9b5794df824be
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.openlocfilehash: 2bd78bd737622515ff0722aa3635cf1ebcc83a29
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "36428014"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573632"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implementar salas de Microsoft Teams con System Center Configuration Manager
 
@@ -88,7 +89,7 @@ Use las siguientes instrucciones para comprobar que las características de la i
     -   Permitir que este punto de distribución responda a solicitudes PXE entrantes
     -   Habilitar compatibilidad con equipos desconocidos
 
-4.  *Opcional:* Para habilitar la compatibilidad con multidifusión **** , seleccione la pestaña multidifusión y asegúrese de que estén habilitadas las siguientes opciones:
+4.  *Opcional:* Para habilitar la compatibilidad con multidifusión, seleccione la pestaña **multidifusión** y asegúrese de que estén habilitadas las siguientes opciones:
     -   Habilitar la multidifusión para enviar datos simultáneamente a varios clientes
     -   Configurar el intervalo de puertos UDP según la recomendación del equipo de red
 
@@ -117,7 +118,7 @@ Use las siguientes instrucciones para comprobar que las características de la i
 
     2.  Seleccione **Aceptar** para agregar compatibilidad de aplicaciones HTML en la imagen de inicio.
 
-5.  *Opcional:* Para personalizar la experiencia de implementación, seleccione **** la pestaña personalización.
+5.  *Opcional:* Para personalizar la experiencia de implementación, seleccione la pestaña **Personalización** .
     -   Habilite la **compatibilidad con comandos (solo pruebas)** si desea tener acceso a un símbolo del sistema durante la implementación. Cuando esta opción está habilitada, puede iniciar un símbolo del sistema seleccionando **F8** en cualquier momento de la implementación.
     -   También puede especificar una imagen de fondo personalizada para que se muestre durante la implementación. Para establecer una imagen, habilite **especificar el archivo de imagen de fondo personalizado (ruta de acceso UNC** y seleccione el fondo.
 
@@ -388,9 +389,9 @@ Cree este paquete para distribuir el certificado raíz de los dispositivos que n
 
 ### <a name="create-the-sysprep-package"></a>Crear el paquete de Sysprep
 
-1. En la carpeta del **paquete SRS V2-Sysprep** , cree un nuevo archivo XML denominado Unattend **. XML** .
+1. En la carpeta del **paquete SRS V2-Sysprep** , cree un nuevo archivo XML denominado **Unattend. XML** .
 
-2. Copie el texto siguiente en el archivo Unattend **. XML** . También puede descargar el archivo Unattend. XML desde [aquí](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
+2. Copie el texto siguiente en el archivo **Unattend. XML** . También puede descargar el archivo Unattend. XML desde [aquí](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true).
    ```
    <?xml version="1.0" encoding="utf-8"?>
    <unattend xmlns="urn:schemas-microsoft-com:unattend">
@@ -609,7 +610,7 @@ Puede descargar y importar fácilmente una secuencia de tareas de muestra y pers
 
    4. **Aplicar sistema operativo**: este paso especifica la imagen del sistema operativo que se va a implementar y el archivo de respuesta de Sysprep desatendida que se va a usar.
       -  Compruebe que esté seleccionada la imagen correcta del sistema operativo Windows 10 Enterprise.
-      -  Compruebe que está habilitado el **uso de un archivo de respuesta Sysprep o desatendida para una instalación personalizada** y que el **paquete SRS V2-Sysprep** está seleccionado. Asegúrese también de que **nombre de archivo** está establecido en Unattend **. XML**.
+      -  Compruebe que está habilitado el **uso de un archivo de respuesta Sysprep o desatendida para una instalación personalizada** y que el **paquete SRS V2-Sysprep** está seleccionado. Asegúrese también de que **nombre de archivo** está establecido en **Unattend. XML**.
 
    5. **Aplicar configuración de Windows**: este paso recopila información sobre la instalación de Windows.
       -  Proporcione la información de licencias y registro, incluida la clave de producto, la contraseña de la cuenta de administrador local y la zona horaria (según sus necesidades).
@@ -625,23 +626,23 @@ Puede descargar y importar fácilmente una secuencia de tareas de muestra y pers
 
    9. **Instalar certificado raíz**: este paso distribuye el certificado raíz para los dispositivos que no están Unidos a un dominio y, por lo tanto, es opcional y está deshabilitado de forma predeterminada.
       -   Habilite este paso si necesita implementar un certificado raíz en las unidades de salas de Microsoft Teams.
-      -   Si necesita realizar este paso, compruebe que esté seleccionada la redirección del sistema de archivos del servicio **raíz SRS V2** y deshabilite el redireccionamiento **del sistema de archivos de 64 bits** .
+      -   Si necesita realizar este paso, compruebe que esté seleccionada la redirección del sistema de archivos del servicio **raíz SRS V2** y **deshabilite el redireccionamiento del sistema de archivos de 64 bits** .
 
    10. **Instalar y configurar el agente de supervisión**: este paso instala la versión de 64 bits del agente de Microsoft Azure monitor y configura el agente para que se conecte al área de trabajo del análisis de registros.
        -   Este paso está deshabilitado de forma predeterminada. Habilite este paso solo si va a usar el agente de supervisión para supervisar el estado de las unidades de salas de Microsoft Teams.
        -   Edite este paso y actualice los parámetros de la línea de comandos para especificar el **identificador del área de trabajo** y la **clave del área de trabajo**.
        -   Vea [configurar dispositivos de prueba para la supervisión de Azure](azure-monitor-deploy.md#configure-test-devices-for-azure-monitoring) para obtener más información sobre cómo obtener el identificador del área de trabajo de Operations Management Suite y la clave principal.
-       -   Compruebe que esté seleccionada la redirección del sistema de archivos de **SRS V2-Microsoft Monitoring Agent** y deshabilitar el redireccionamiento **del sistema de archivos de 64** bits.
+       -   Compruebe que esté seleccionada la redirección del sistema de archivos de **SRS V2-Microsoft Monitoring Agent** y **deshabilitar el redireccionamiento del sistema de archivos de 64** bits.
        -   Para obtener más información sobre cómo supervisar el estado de la implementación de salas de Microsoft Teams, vea [planear la administración de salas de Microsoft Teams con Azure monitor](azure-monitor-plan.md), [implementar la administración de salas de Microsoft Teams con Azure monitor](azure-monitor-deploy.md) y [administrar Microsoft Los dispositivos de salas de equipos con el monitor de Azure](azure-monitor-manage.md).
 
    11. **Copie los archivos de configuración de SRS V2**: en este paso, se copian los archivos de configuración y configuración necesarios del kit de implementación de Microsoft Teams Rooms en la unidad de disco duro local. No se necesita ninguna personalización para este paso.
-       -   Compruebe que se seleccione el **paquete de aplicación SRS V2-SRS** y deshabilitar el redireccionamiento **del sistema de archivos de 64 bits** .
+       -   Compruebe que se seleccione el **paquete de aplicación SRS V2-SRS** y **deshabilitar el redireccionamiento del sistema de archivos de 64 bits** .
 
    12. **Install-SRSv2-os-updates**: este paso implementa todas las actualizaciones de sistema operativo obligatorias necesarias para la implementación de salas de Microsoft Teams. Siga este procedimiento:
        -   Marque [configurar una consola de salones de Microsoft Teams](console.md) para ver qué actualizaciones son necesarias.
        -   Compruebe que el **paquete de actualizaciones para el sistema operativo SRS V2** incluye todas las actualizaciones necesarias.
        -   Compruebe que esté seleccionado el **paquete SRS V2 – os updates** .
-       -   Compruebe que la Directiva de ejecución de PowerShell esté **** configurada para omitir.
+       -   Compruebe que la Directiva de ejecución de PowerShell esté configurada para **omitir**.
 
    13. **Reiniciar equipo**: este paso reinicia el equipo después de instalar las actualizaciones obligatorias del sistema operativo. No se necesita ninguna personalización para este paso.
 
@@ -652,7 +653,7 @@ Puede descargar y importar fácilmente una secuencia de tareas de muestra y pers
    16. **Agregar usuario local de Skype**: este paso crea la cuenta de Skype local que se usa para iniciar sesión automáticamente en Windows e iniciar la aplicación salas de Microsoft Teams. Este paso no tiene ningún paquete de software asociado, y no se necesita ninguna personalización para él.
 
    17. **Instalar y configurar la aplicación SRS**: este paso configura la instalación de la aplicación salas de Microsoft Teams para el siguiente arranque del sistema operativo.
-       -   Compruebe que esté seleccionada la **configuración de SRS V2-configure SRS Setup Package** and disable **64-bit File System** .
+       -   Compruebe que esté seleccionada la **configuración de SRS V2-configure SRS Setup Package** and **Disable 64-bit File System** .
 
 > [!IMPORTANT]
 > Es muy importante que los pasos de la secuencia de tareas estén en el orden indicado. Modificar el orden de los pasos o configurar pasos adicionales puede estropear la implementación.
@@ -665,7 +666,7 @@ Puede descargar y importar fácilmente una secuencia de tareas de muestra y pers
 
 2. Seleccione **examinar** para seleccionar recopilación de destino para la implementación.
 
-3. Seleccione **todos los equipos** desconocidos y, después, haga clic en **Aceptar**.
+3. Seleccione **todos los equipos desconocidos** y, después, haga clic en **Aceptar**.
 
 4. Seleccione **siguiente**.
 

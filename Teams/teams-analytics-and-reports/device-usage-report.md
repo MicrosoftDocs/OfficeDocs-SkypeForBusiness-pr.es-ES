@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo usar el informe de uso de dispositivos de Teams en el centro de administración de Microsoft Teams para ver cómo los usuarios de su organización se conectan a teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1da28ccda6394a2e88685132150516cfed2c7fc
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: c961b6c5897d0c494d0461a3533cae63fa613d41
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131630"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568402"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 
@@ -31,7 +30,7 @@ El informe de uso de dispositivos de Teams en el centro de administración de Mi
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **uso de dispositivos de Teams**.
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.
 
-    ![Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración de Teams con llamadas] (../media/teams-reports-device-usage-with-callouts.png "Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración de Teams con llamadas")
+    ![Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración de Teams con llamadas](../media/teams-reports-device-usage-with-callouts.png "Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración de Teams con llamadas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 

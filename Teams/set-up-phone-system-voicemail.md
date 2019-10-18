@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
-ms.openlocfilehash: 8417d8338f8ba25b9f3c92d9fc4547ed861f8b8e
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: f53ae3ac948c7b50fa2e68a3fc10cf619299fd16
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253805"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571562"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 

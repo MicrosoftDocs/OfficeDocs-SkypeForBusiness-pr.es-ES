@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: A continuación se muestran algunas de las preguntas más frecuentes sobre la transferencia de números de teléfono a teams. Después de revisar las respuestas, debe estar listo para crear una solicitud de portabilidad y transferir los números de teléfono. Para obtener instrucciones, consulte transferir números de teléfono a Office 365.
-ms.openlocfilehash: 4e4a908594f9efdd80094af58dfdde6bc1e58e90
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: a75112170454def65ebcfe333d5e05e2b0dbfa46
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347773"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571507"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Preguntas comunes sobre la transferencia de números de teléfono
 

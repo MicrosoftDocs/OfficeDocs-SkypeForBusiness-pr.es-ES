@@ -8,15 +8,16 @@ ms.date: 4/17/2018
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad del ciclo de vida de las salas de Microsoft Teams.
-ms.openlocfilehash: ddbca7ce03fb361d591f72571804f547d7062612
-ms.sourcegitcommit: 61deca3fd35142d210ab8307c21a576b3301ec84
+ms.openlocfilehash: 736933c2c47d42073d2f8b90bce6af6755c89338
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "37553765"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573544"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Compatibilidad de versiones de la aplicación salas de Microsoft Teams
  

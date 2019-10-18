@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 8cba8dc9fffbe843f715445649a78d8a02fba4db
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: d9cf7bf601237552b397413c65875707157a73c9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330519"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571656"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Restricciones y limitaciones de marcado de número gratuito
 
@@ -61,7 +60,7 @@ Si está listo, seleccione un país o una región:
 > - [Francia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-france.md)
 > - [Alemania](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-germany.md)
 > - [Honduras](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-honduras.md)
-> - [Hong Kong](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
+> - [RAE de Hong Kong](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hong-kong.md)
 > - [Hungría](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-hungary.md)
 > - [India](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-india.md)
 > - [Indonesia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-indonesia.md)
@@ -114,7 +113,7 @@ Si está listo, seleccione un país o una región:
   
 - **Inalámbrico, el acceso a la red móvil y de línea fija a números gratuitos puede estar total o parcialmente restringido.** El formato de marcado describe los códigos de acceso requeridos en cada país o región para realizar llamadas con el número gratuito.
     
-- Número gratuito del plan de numeración de **América del norte:** Tarifas por minuto para el plan de numeración de Norteamérica los números de teléfono gratuitos se determinan por el país de origen. La tarifa de pago gratuita por minuto para las llamadas que se originan desde los Estados Unidos se asignan a la tarifa definida como "Norteamérica". Sin embargo, las llamadas provenientes de otros países de Norteamérica, como Canadá, Puerto Rico, etc., tienen tarifas específicas gratuitas.
+- **Número gratuito del plan de numeración de América del norte:** Tarifas por minuto para el plan de numeración de Norteamérica los números de teléfono gratuitos se determinan por el país de origen. La tarifa de pago gratuita por minuto para las llamadas que se originan desde los Estados Unidos se asignan a la tarifa definida como "Norteamérica". Sin embargo, las llamadas provenientes de otros países de Norteamérica, como Canadá, Puerto Rico, etc., tienen tarifas específicas gratuitas.
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

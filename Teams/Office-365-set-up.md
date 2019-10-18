@@ -14,16 +14,15 @@ ms.custom:
 - NewAdminCenter_Update
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3689d76df2a3f867f3d90149572c185574af46e8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 734a7ef020c36a38b43aad3d996b2eb6648a5442
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245836"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563831"
 ---
 # <a name="enable-teams-in-your-organization"></a>Habilitar Teams en su organización
 

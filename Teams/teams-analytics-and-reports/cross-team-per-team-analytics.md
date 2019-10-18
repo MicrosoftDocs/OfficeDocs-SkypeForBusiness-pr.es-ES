@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga más información sobre los análisis de varios equipos y los análisis por equipo, lo que permite a los usuarios ver los datos de uso de los equipos de los que son miembros.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc8796b3ddc0d34e11e89a57535d2ff7b7459366
-ms.sourcegitcommit: 8a74ea2e16bf263e37a2064e276a58b00911c17c
+ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36978774"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569706"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Ver análisis entre equipos y por equipo en Teams
 

@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Aprenda a usar el informe de uso de eventos de Teams Live en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de los eventos en vivo de Teams en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0ecd27df1f7bccd9a451f2581d55e5c335b1e0
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 3c391370e757aedcf9ede889fc46f165cfc636f4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131619"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571152"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Informe de uso de eventos de Microsoft Teams Live
 
@@ -33,7 +32,7 @@ El informe de uso de eventos de Teams Live en el centro de administración de Mi
 3. Faculta En **Organizer**, puede elegir mostrar solo eventos en directo organizados por un usuario específico.
 4. Haga clic en **Ejecutar Informe**.  
 
-    ![Captura de pantalla del informe de uso de eventos de Teams Live en el centro de administración de Teams con llamadas] (../media/teams-live-event-usage-report-with-callouts.png "Captura de pantalla del informe de uso de eventos de Teams Live en el centro de administración de Teams con llamadas")
+    ![Captura de pantalla del informe de uso de eventos de Teams Live en el centro de administración de Teams con llamadas](../media/teams-live-event-usage-report-with-callouts.png "Captura de pantalla del informe de uso de eventos de Teams Live en el centro de administración de Teams con llamadas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Kenia.
-ms.openlocfilehash: 2c59aeac4f48c9b36a0bf07ae3c4eb5a829814db
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 8403402522c28895cd8cf1cf07c28e54ca808396
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775416"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571667"
 ---
 # <a name="availability-in-kenya"></a>Disponibilidad en Kenia
 

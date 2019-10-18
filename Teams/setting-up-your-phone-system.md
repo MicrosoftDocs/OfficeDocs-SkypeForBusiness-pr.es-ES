@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: e7d833e6170a442f9e97ff867e979bfd52700969
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 429cedb3d8bad25982e4eacdaa82f82cacfc75ae
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645305"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571540"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar el Sistema telefónico en su organización
 
@@ -41,7 +40,7 @@ The following is a step-by-step guide for setting up Phone System in Office 365.
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Paso 2: comprar y asignar licencias del sistema telefónico y del plan de llamadas
 
-Para asignar una licencia del sistema telefónico y del plan de llamadas a un solo usuario los pasos son los mismos que para asignar una licencia de Office 365. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md). Si desea asignar varios usuarios de forma masiva, consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
+Para asignar un sistema telefónico y una licencia de plan de llamadas a un solo usuario, los pasos son los mismos que asignar una licencia de Office 365. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md). Si desea asignar varios usuarios de forma masiva, consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
 
 ## <a name="step-3-get-phone-numbers-for-your-users"></a>Paso 3: obtener números de teléfono para los usuarios
 
@@ -179,7 +178,7 @@ You only need to set up Audio Conferencing for people who plan to schedule or le
   
 Para ver las preguntas más frecuentes acerca de las audioconferencias, consulte [Preguntas frecuentes sobre audioconferencias](audio-conferencing-common-questions.md).
     
-1. Si ha comprado licencias del complemento de **audioconferencia** y licencias de créditos de comunicaciones, asígnelas también. Para obtener instrucciones, consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
+1. Si compró licencias de complemento de **audioconferencia** y licencias de crédito de comunicaciones, asígnelos también. Para obtener instrucciones, consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
 
     Decide on your audio conferencing provider. An audio conferencing provider supplies an audio conferencing bridge. The conferencing bridge sets your dial-in phone numbers, PINs, and conference IDs for meetings. Decide whether to use Microsoft or a third-party audio conferencing provider:
 
@@ -194,11 +193,11 @@ Para ver las preguntas más frecuentes acerca de las audioconferencias, consulte
 
 3. Set up meeting invitations. The following steps are optional, but a lot of admins like to do them: 
   
-   1. [Personalice las invitaciones a reuniones en Skype empresarial](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Los números de acceso telefónico que se establecen para el usuario se agregan automáticamente a las invitaciones de las reuniones que se envían a los asistentes. Sin embargo, puede agregar sus propios vínculos de ayuda y de avisos legales, un mensaje de texto y un pequeño distintivo gráfico de la empresa.
+   1. [Personalice las invitaciones a reuniones en Skype empresarial](/skypeforbusiness/set-up-skype-for-business-online/customize-meeting-invitations). Los números de acceso telefónico local establecidos para el usuario se agregarán automáticamente a las invitaciones a reuniones que se envíen a los asistentes. Sin embargo, puede agregar su propia ayuda y vínculos legales, un mensaje de texto y un gráfico de pequeña empresa.
     
    2. Establezca los números de teléfono de conferencias de audio para los organizadores de reuniones que se incluyen en los invitados [de Skype empresarial](/skypeforbusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites) o [Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md). Este es el número de teléfono que aparecerá en la reunión programada por el usuario.
     
-   3. Configure los idiomas del operador automático para las conferencias [de audio en Skype empresarial](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) o [en Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que el operador automático de audioconferencias usa para saludar a una persona que llama al llamar a un número de teléfono de audioconferencia. Este paso solo se aplica si está utilizando Microsoft como su proveedor de audioconferencias.
+   3. Configure los idiomas del operador automático para las conferencias [de audio en Skype empresarial](/skypeforbusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing) o [en Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) que el operador automático de audioconferencias usa para saludar a una persona que llama al llamar a un número de teléfono de audioconferencia. Este paso solo se aplica si está usando Microsoft como su proveedor de audio.
     
    4. Establezca la longitud del PIN para las reuniones de audioconferencia [en Microsoft Teams](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md).
     
@@ -235,8 +234,8 @@ Once you have your service numbers from **Step 4 above**, you need to assign the
 
 - En el caso de las conferencias de audio, puede asignar un número dedicado a un puente de conferencia yendo a **Microsoft 365 admin Center** > **admin** > Centers**Skype for Business** > **audio audioconferencia** y haga clic en el Puente de conferencia o vea [cambiar los números de pago o gratuitos en el puente de audioconferencia](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
 
-- En el caso de los operadores automáticos, puede asignar un número dedicado a un operador automático yendo a la administración del **centro de administración de Microsoft 365 centro** > de**Administración** > de**llamadas** > **de Skype empresarial** > :**operadores automáticos **y al hacer clic en el operador automático. En la página **General** , el número de servicio que ya tienes aparecerá en la lista desplegable **número de teléfono** . Para obtener más información, consulte [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
-- Para las colas de llamadas, puede asignar un número dedicado a una cola de llamadas desde el centro**** > **** de administración del **Centro** > de administración de Microsoft 365**centros** > **de administración de llamadas de Skype para empresas** > y haga clic en en la cola de llamadas. En la página **General**, el número de servicio que ya tenga aparecerá en la lista desplegable **Número de teléfono**. Para obtener más información, consulte [crear una cola de llamadas en la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
+- En el caso de los operadores automáticos, puede asignar un número dedicado a un operador automático yendo a la administración del **centro de administración de Microsoft 365 centro** > **de administración** > de**llamadas** > **de Skype empresarial** > :**operadores automáticos **y al hacer clic en el operador automático. En la página **General** , el número de servicio que ya tienes aparecerá en la lista desplegable **número de teléfono** . Para obtener más información, consulte [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
+- Para las colas de llamadas, puede asignar un número dedicado a una cola de llamadas desde el centro de administración del centro > de administración de **Microsoft 365****centros** > **de administración de llamadas de Skype para empresas** > **** > **y haga** clic en en la cola de llamadas. En la página **General** , el número de servicio que ya tienes aparecerá en la lista desplegable **número de teléfono** . Para obtener más información, consulte [crear una cola de llamadas en la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-call-queue).
 
 **Para ver información detallada sobre cómo obtener nuevos números de servicio y hacer la portabilidad de otros ya existentes, consulte [Obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers).**
 
@@ -251,7 +250,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Inicie sesión en Microsoft 365 con su cuenta profesional o educativa.
 
-2. En el centro de navegación izquierdo del centro de administración, vaya a > **Complementos** > de suscripciones de **facturación** > ****,**compre complementos**y, a continuación, seleccione **créditos** > de comunicaciones**comprar ahora**.
+2. En el centro de navegación izquierdo del centro de administración, vaya a**Complementos** > de**suscripciones** > de **facturación** > ,**compre complementos**y, a continuación, seleccione **créditos** > de comunicaciones**comprar ahora**.
 
 3. En la página de suscripción de los **Créditos de comunicaciones**, rellene la información y después haga clic en **Siguiente**.
 
@@ -265,7 +264,7 @@ You will need to set up Communications Credits if you would like to use toll-fre
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. En el centro de navegación izquierdo del centro de administración de Microsoft 365 **** > , vaya a usuarios**activos**y, a continuación, seleccione un usuario o usuarios de la lista.
+2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, **vaya a** > usuarios**activos**y, a continuación, seleccione un usuario o usuarios de la lista.
 
 3. En el panel de acciones, en **Licencias de productos**, haga clic en **Editar**.
 

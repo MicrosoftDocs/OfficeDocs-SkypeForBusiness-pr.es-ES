@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Argentina.
-ms.openlocfilehash: 0084e540de60bae8a14372254f19a1347c15f3ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 2a804d565ecf1fa41bdb4bc7bb5df5056fee2b4e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "34332262"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570925"
 ---
 # <a name="availability-in-argentina"></a>Disponibilidad en Argentina
 

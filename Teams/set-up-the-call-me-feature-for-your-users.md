@@ -1,5 +1,5 @@
 ---
-title: Configurar la característica llamarme para los usuarios
+title: Configure la característica llamarme para sus usuarios
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: macai, phedry
@@ -10,19 +10,20 @@ audience: admin
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar la característica llamarme en Teams para que los usuarios puedan unirse a la parte de audio por teléfono en escenarios en los que es posible que no se pueda usar el equipo para el audio.
 localization_priority: Normal
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54e9d90a3380358abd0c1e984b90834455eb44e2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8bd9ca9b73d3d2e60b707d0f40ebb1797d4e1a00
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243178"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571551"
 ---
-# <a name="set-up-the-call-me-feature-for-your-users"></a>Configurar la característica llamarme para los usuarios
+# <a name="set-up-the-call-me-feature-for-your-users"></a>Configure la característica llamarme para sus usuarios
 
-En Microsoft Teams, **** la característica llamarme proporciona a los usuarios una manera de unirse a la parte de audio de una reunión por teléfono. Esto es útil en escenarios en los que es posible que no sea posible usar un equipo para el audio. Los usuarios obtienen la parte de audio de la reunión a través del teléfono móvil o la línea terrestre y la parte&mdash;de contenido de la reunión, cuando otro participante de la reunión&mdash;comparte su pantalla o reproduce un vídeo a través de su equipo.
+En Microsoft Teams, la característica **llamarme** proporciona a los usuarios una manera de unirse a la parte de audio de una reunión por teléfono. Esto es útil en escenarios en los que es posible que no sea posible usar un equipo para el audio. Los usuarios obtienen la parte de audio de la reunión a través del teléfono móvil o la línea terrestre y la parte&mdash;de contenido de la reunión, cuando otro participante de la reunión&mdash;comparte su pantalla o reproduce un vídeo a través de su equipo.
 
 ## <a name="the-user-experience"></a>La experiencia del usuario
 
@@ -52,7 +53,7 @@ Este es un ejemplo del mensaje y la opción **llamarme atrás** que se muestra c
 
 ![Captura de pantalla de la opción llamarme atrás](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-El usuario hace clic en llamarme de **nuevo**, que muestra la pantalla **usar teléfono para audio** . Desde aquí puede escribir su número de teléfono y hacer que los equipos de la reunión se llamen y se unan a la reunión o marquen de forma manual en la reunión.
+El usuario hace clic en **llamarme de nuevo**, que muestra la pantalla **usar teléfono para audio** . Desde aquí puede escribir su número de teléfono y hacer que los equipos de la reunión se llamen y se unan a la reunión o marquen de forma manual en la reunión.
 
 ## <a name="set-up-the-call-me-feature"></a>Configurar la característica llamarme
 

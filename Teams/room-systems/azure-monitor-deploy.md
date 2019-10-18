@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de los dispositivos de salas de Microsoft Teams de forma integrada, de extremo a extremo, con Azure monitor.
-ms.openlocfilehash: 4be57f97ef3b0813afef2aefd70c551ee50422ee
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 12936113a951f90bb1a3bed72f71d09f1f72ccd9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774689"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569945"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implementar la administración de salas de Microsoft Teams con Azure monitor
 
@@ -29,7 +28,7 @@ Puede configurar el análisis de registros en Azure monitor para proporcionar al
 
 Siguiendo esta guía, puede usar un panel como el siguiente ejemplo para obtener informes detallados sobre el estado de la disponibilidad de dispositivos, el estado de las aplicaciones y el hardware, y la distribución de versiones del sistema operativo y las salas de Microsoft Teams.
 
-![Captura de pantalla de la vista análisis de registros de ejemplo para salas de Microsoft Teams] (../media/Deploy-Azure-Monitor-1.png "Vista de análisis de registros de ejemplo para salas de Microsoft Teams")
+![Captura de pantalla de la vista análisis de registros de ejemplo para salas de Microsoft Teams](../media/Deploy-Azure-Monitor-1.png "Vista de análisis de registros de ejemplo para salas de Microsoft Teams")
 
 A un mayor nivel, debe realizar las siguientes tareas:
 
@@ -64,7 +63,7 @@ Debe configurar el análisis de registros para recopilar los registros necesario
 
 Para configurar el análisis de registros para recopilar eventos de Microsoft Teams Rooms, consulte [orígenes de datos del registro de eventos de Windows en Azure monitor](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
-![Captura de pantalla de configuración de registro de eventos] (../media/Deploy-Azure-Monitor-2.png "Configuración del registro de eventos")
+![Captura de pantalla de configuración de registro de eventos](../media/Deploy-Azure-Monitor-2.png "Configuración del registro de eventos")
 
 > [!IMPORTANT]
 > Configure el registro de eventos de Windows y especifique **sistema de salas de Skype** como nombre de registro de eventos y, a continuación, seleccione las casillas **error**, **ADVERTENCIA**e **información** .
@@ -122,7 +121,7 @@ Para extraer los campos personalizados fuera de los registros de eventos captura
 3. Seleccione uno de los registros, seleccione el botón de la izquierda e inicie el Asistente para extracción de campos.
 4. Resalte los datos que desea extraer de la RenderedDescription y proporcione un título para el campo. Los nombres de campo que debe usar se proporcionan en la tabla 1.
 
-   ![Definición de campo personalizado] (../media/Deploy-Azure-Monitor-4.png "Definición de campo personalizado")
+   ![Definición de campo personalizado](../media/Deploy-Azure-Monitor-4.png "Definición de campo personalizado")
 
 5. Use las asignaciones que se muestran en la *tabla 1*. El análisis de registros anexará automáticamente la cadena de ** \_CF** al definir el nuevo campo.
 
@@ -131,7 +130,7 @@ Para extraer los campos personalizados fuera de los registros de eventos captura
 > 
 > Preste atención a las consultas necesarias para cada campo personalizado de la tabla siguiente. Debe usar las consultas correctas para el análisis de registros para extraer correctamente los valores de campo personalizados.
 > 
- ![Definición de campo personalizado] (../media/Deploy-Azure-Monitor-5.png "Definición de campo personalizado")
+ ![Definición de campo personalizado](../media/Deploy-Azure-Monitor-5.png "Definición de campo personalizado")
 
 **Tabla 1**
 
@@ -412,7 +411,7 @@ Ahora has terminado de definir las alertas. Puede definir alertas adicionales co
 
 Cuando se genera una alerta, recibirá un mensaje de correo electrónico con una lista de los dispositivos que tuvieron un problema dentro de la última hora.
 
-![Ejemplo de correo electrónico de alerta de Azure monitor] (../media/Deploy-Azure-Monitor-6.png "Ejemplo de correo electrónico de alerta de Azure monitor")
+![Ejemplo de correo electrónico de alerta de Azure monitor](../media/Deploy-Azure-Monitor-6.png "Ejemplo de correo electrónico de alerta de Azure monitor")
 
 ## <a name="configure-all-devices-for-azure-monitoring"></a>Configurar todos los dispositivos para la supervisión de Azure
 <a name="configure_all_devices"></a> Una vez configurados los paneles y las alertas, puede configurar Microsoft Monitoring Agent en todos los dispositivos de salas de Microsoft Teams para completar la implementación de la supervisión.

@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Argelia.
-ms.openlocfilehash: 052275e94c5e4eb1e9bf789758aa52c39b34f65f
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 0164fae84025f3bdb9949b0da0d7be6db03bdd81
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775571"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570933"
 ---
 # <a name="availability-in-algeria"></a>Disponibilidad en Argelia
 

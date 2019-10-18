@@ -14,16 +14,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881437654744ef1d314f239ee98b7119e774cd00
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fd0de5ba0901b77ef42e40ca0b18228d5d78e6fb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236403"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568492"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Actualizar Microsoft Teams gratuito a la versión de suscripción de Office 365
 ======================================================

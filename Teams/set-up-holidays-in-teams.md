@@ -9,21 +9,19 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
-- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: Aprenda a configurar las festividades en Microsoft Teams y a conectarlas a su operador automático.
-ms.openlocfilehash: ae960cddb2c5e8d590e5eb73d9f0763dacd582b6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ee07b33325ee436f6f0397a30034f40db819be09
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483259"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571573"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar vacaciones en Microsoft Teams
 
@@ -49,7 +47,7 @@ Para obtener más información sobre los operadores automáticos, vea [¿Qué so
 
 6. Use la lista desplegable para seleccionar una hora de inicio para las vacaciones.
 
-7. En **hora**de finalización, seleccione el icono del calendario y elija la fecha en la que desea que finalicen los días festivos. Si los días no laborables son de un día, debe ser la misma fecha que la que elegiste en **hora de inicio**.
+7. En **hora de finalización**, seleccione el icono del calendario y elija la fecha en la que desea que finalicen los días festivos. Si los días no laborables son de un día, debe ser la misma fecha que la que elegiste en **hora de inicio**.
 
 8. Use la lista desplegable para seleccionar una hora de finalización para los días no laborables.
 
@@ -65,7 +63,7 @@ Para obtener más información sobre los operadores automáticos, vea [¿Qué so
 
 4. Use la lista desplegable para seleccionar una hora de inicio para las vacaciones.
 
-5. En **hora**de finalización, seleccione el icono del calendario y elija la fecha en la que desea que finalicen los días festivos. 
+5. En **hora de finalización**, seleccione el icono del calendario y elija la fecha en la que desea que finalicen los días festivos. 
 
 6. Use la lista desplegable para seleccionar una hora de finalización para los días no laborables.
 

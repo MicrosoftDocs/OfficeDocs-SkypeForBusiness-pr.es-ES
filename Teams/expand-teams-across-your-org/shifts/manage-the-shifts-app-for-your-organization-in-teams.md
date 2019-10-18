@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Obtenga información sobre cómo configurar y administrar la aplicación de turnos en Teams para trabajadores de los Firstline de su organización.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dbe54c0f7239653b8f36179e57ab83510e0a5a1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232273"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568724"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
 > [!IMPORTANT]
-> A partir del 1 de octubre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 1 de octubre de 2019. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se](microsoft-staffhub-to-be-retired.md)retirará.  
+> A partir del 31 de diciembre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 31 de diciembre de 2019. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Descripción general de los turnos
 La aplicación turnos en Microsoft Teams mantiene a los trabajadores de los Firstline conectados y sincronizados. En primer lugar, se ha creado un teléfono móvil para una administración y comunicación rápidas y eficaces de los equipos. Turnos permite que los trabajadores de los Firstline y sus gerentes usen sus dispositivos móviles para administrar las programaciones y mantenerse en contacto. 
@@ -51,7 +51,7 @@ Mayús los datos están almacenados actualmente en Azure en centros de datos en 
 
 Turnos está habilitado de forma predeterminada para todos los usuarios de los equipos de su organización. Puede desactivar o activar la organización de toda la organización mediante la configuración de toda la organización en directivas de permisos de aplicaciones en el centro de administración de Microsoft Teams.
 
-1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de permisos** de las **aplicaciones** > de Teams.
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos** de las **aplicaciones de Teams**.
 2. Haga clic en **configuración de toda la organización**.
 3. En el panel **configuración de toda la organización** , en **aplicaciones bloqueadas**, siga uno de estos procedimientos:
 
@@ -71,13 +71,13 @@ Teams incluye una directiva de configuración de aplicaciones de FirstlineWorker
 
 Para ver la Directiva de FirstlineWorker, en el navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de configuración**de la aplicación de **aplicación** > de Teams.
 
-![Captura de pantalla de la Directiva de configuración de la aplicación FirstlineWorker] (../../media/firstline-worker-app-setup-policy.png "Captura de pantalla de la Directiva de configuración de la aplicación FirstlineWorker en el centro de administración de Microsoft Teams")
+![Captura de pantalla de la Directiva de configuración de la aplicación de FirstlineWorker](../../media/firstline-worker-app-setup-policy.png "Captura de pantalla de la Directiva de configuración de la aplicación de FirstlineWorker en el centro de administración de Microsoft Teams")
 
 #### <a name="assign-the-firstlineworker-policy-to-individual-users"></a>Asignar la Directiva FirstlineWorker a usuarios individuales
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
 2. Junto a **directivas asignadas**, elija **Editar**.
-3. En **Directiva de configuración**de la aplicación de Teams, seleccione **FirstlineWorker**y, después, haga clic en **Guardar**.
+3. En **Directiva de configuración de la aplicación de Teams**, seleccione **FirstlineWorker**y, después, haga clic en **Guardar**.
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users-in-a-group"></a>Asignar la Directiva de configuración de la aplicación de FirstlineWorker a los usuarios de un grupo
 

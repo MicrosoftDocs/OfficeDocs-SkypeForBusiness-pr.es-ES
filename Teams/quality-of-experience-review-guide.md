@@ -12,16 +12,15 @@ description: Guía para analizar el rendimiento de los medios en tiempo real par
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba3ff4eca48ea8f64f6d50d647c05af4f2c76c1e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243736"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568383"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
@@ -33,7 +32,7 @@ Esta guía trata sobre la fase de valor de unidad para Microsoft Teams y Skype e
 Para tener el mayor impacto en la mejora de la experiencia del usuario, las organizaciones necesitan el funcionamiento de las áreas clave que se muestran en la siguiente ilustración. Entre las áreas adicionales se incluyen la identificación de tareas operativas, el establecimiento de objetivos de métrica de calidad, la determinación de las métricas que se usarán para medir el éxito organizacional y la reducción de las áreas de investigación según sea necesario.
 
 
-![Áreas clave para la calidad de la experiencia de usuario] (media/qerguide-image-keyareas.png "Las áreas clave para la calidad de la experiencia de usuario incluyen el audio, la confiabilidad, las encuestas de usuarios, los dispositivos y los clientes.")
+![Áreas clave para la calidad de la experiencia de usuario](media/qerguide-image-keyareas.png "Las áreas clave para la calidad de la experiencia de usuario incluyen el audio, la confiabilidad, las encuestas de usuarios, los dispositivos y los clientes.")
 
 _Figura 1: áreas de funcionamiento clave cubiertas en esta guía_
 
@@ -82,7 +81,7 @@ Como alternativa, puede asignar el siguiente rol a una cuenta de usuario de Offi
 Al discutir la calidad en Teams y Skype empresarial, es importante definir el término para lograr una comprensión común. La calidad, tal como se define aquí, es una combinación de las métricas de servicio y la experiencia del usuario.
 
 <!-- Note: need to update graphic-->
-![Ilustración de las métricas de servicio y la experiencia de usuario] (media/qerguide-image-whatisquality.png "Las métricas de servicio se componen de mala velocidad de transmisión, fiabilidad, puntos de conexión, dispositivos y versiones de cliente. La experiencia de usuario consta de la percepción del usuario de la calidad del servicio.")
+![Ilustración de las métricas de servicio y la experiencia de usuario](media/qerguide-image-whatisquality.png "Slas métricas de ervice se componen de mala velocidad de transmisión, fiabilidad, puntos de conexión, dispositivos y versiones de cliente. La experiencia de usuario consta de la percepción del usuario de la calidad del servicio.)
 
 _Ilustración 2: ¿Qué es la calidad?_
 
@@ -215,7 +214,7 @@ El éxito de la operación de implementar una implementación de alta calidad y 
 
     -   El segundo son las tareas que su organización debe administrar para garantizar un acceso confiable al servicio, como la actualización de la información de generación y el mantenimiento de los firewalls para las nuevas direcciones IP de Office 365, a medida que se agrega una infraestructura al servicio.
 
-![Gráfico de las categorías de calidad en una organización] (media/qerguide-image-categories.png "Las categorías de calidad de una organización: administración de servicios, puntos de conexión y la red.")
+![Gráfico de las categorías de calidad en una organización](media/qerguide-image-categories.png "Las categorías de calidad de una organización: administración de servicios, puntos de conexión y la red.")
 
 _Figura 3: categorías críticas para la implementación de Teams y Skype empresarial online_
 
@@ -224,7 +223,7 @@ En el siguiente gráfico se describen las tareas que debe ejecutar para cada cat
 La primera vez que realice estas tareas, tendrá más esfuerzo que las iteraciones posteriores, porque muchas de estas categorías requieren que valide las configuraciones de implementación. Una vez que haya conseguido el estado que desea al cumplir los objetivos que ha definido, estas tareas le ayudarán a mantener ese estado.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![Lista de tareas semanales por categoría de calidad] (media/qerguide-image-tasks.png "Lista de tareas semanales por categoría de calidad")
+![Lista de tareas semanales por categoría de calidad](media/qerguide-image-tasks.png "LIST de tareas semanales por categoría de calidad ")
 
 #### <a name="service-management-tasks"></a>Tareas de administración de servicios
 
@@ -475,20 +474,20 @@ Puede obtener acceso al CQD de tres maneras:
 
 -   Vaya al **centro de administración de Microsoft Teams** y seleccione el vínculo al CQD, como se muestra en la siguiente ilustración.
 
-![Captura de pantalla del panel de calidad de llamadas seleccionado.] (media/qerguide-image-mopo.png "En el panel de navegación izquierdo, está seleccionado el vínculo a panel de calidad de llamadas.")
+![Captura de pantalla del panel de calidad de llamadas seleccionado.](media/qerguide-image-mopo.png "En el panel de navegación izquierdo, está seleccionado el vínculo a panel de calidad de llamadas.")
 
 _Figura 7: acceso al CQD a través del centro de administración de Microsoft Teams_
 
 -   Vaya a las > **herramientas**del **centro de administración de Skype empresarial**heredado y seleccione el vínculo al CQD, como se muestra en la siguiente ilustración.
 
-![Captura de pantalla del CQD seleccionado en el panel principal.] (media/qerguide-image-legacyui.png "Herramientas está seleccionada en el panel de navegación izquierdo y el vínculo a CQD está seleccionado en el panel principal.")
+![Captura de pantalla del CQD seleccionado en el panel principal.](media/qerguide-image-legacyui.png "Herramientas está seleccionada en el panel de navegación izquierdo y el vínculo a CQD está seleccionado en el panel principal.")
 
 _Figura 8: acceso al CQD a través del centro de administración de Skype empresarial_
 
 
 ### <a name="getting-started"></a>Introducción
 
-La primera vez que vaya al CQD, verá la página informes de resumen. La mayoría de los informes descritos en esta guía son informes detallados personalizados. Para empezar a usar los informes detallados, seleccione **informes de Resumen** en la parte superior de la página y, a continuación, elija **informes**detallados.
+La primera vez que vaya al CQD, verá la página informes de resumen. La mayoría de los informes descritos en esta guía son informes detallados personalizados. Para empezar a usar los informes detallados, seleccione **informes de Resumen** en la parte superior de la página y, a continuación, elija **informes detallados**.
 
 ![Captura de pantalla que muestra los tipos de informes disponibles en el CQD](media/qerguide-image-choosereports.png)
 
@@ -500,10 +499,10 @@ La página informes detallados del CQD es similar a la siguiente ilustración.
 
 |             |           |
 | ------------|-----------|
-| ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior] (media/qerguide-image-callout1.png "uno") | El panel Resumen muestra el contexto del conjunto de informes que aparece a la derecha. |
-| ![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior] (media/qerguide-image-callout2.png "dos") | Puede seleccionar **Editar** en el panel Resumen para establecer las propiedades de nivel de informe (incluyendo el alto eje y) y para importar nuevas plantillas. |
-| ![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior] (media/qerguide-image-callout3.png "tres") | La ruta de navegación ayuda a los usuarios a identificar su ubicación actual en la jerarquía del conjunto de informes. |
-| ![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior] (media/qerguide-image-callout4.png "cuatro") | Los informes que contienen informes secundarios se muestran con un vínculo azul. Al seleccionar el vínculo, puede desglosar los informes secundarios. |
+| ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/qerguide-image-callout1.png "una") | El panel Resumen muestra el contexto del conjunto de informes que aparece a la derecha. |
+| ![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/qerguide-image-callout2.png "segunda") | Puede seleccionar **Editar** en el panel Resumen para establecer las propiedades de nivel de informe (incluyendo el alto eje y) y para importar nuevas plantillas. |
+| ![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior](media/qerguide-image-callout3.png "tres") | La ruta de navegación ayuda a los usuarios a identificar su ubicación actual en la jerarquía del conjunto de informes. |
+| ![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior](media/qerguide-image-callout4.png "cinco") | Los informes que contienen informes secundarios se muestran con un vínculo azul. Al seleccionar el vínculo, puede desglosar los informes secundarios. |
 
 _Figura 10: Página informes detallados_
 
@@ -517,10 +516,10 @@ Al seleccionar **Editar** en el menú de acciones de un informe, abrirá el edit
 
 |             |           |
 | ------------|-----------|
-| ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior] (media/qerguide-image-callout1.png "uno") | Puede elegir dimensiones, medidas y filtros en el panel izquierdo. Si se apunta a un valor existente, se muestra un botón de cierre (**X**) que puede seleccionar para quitar el valor.<ul><li>Al seleccionar la dimensión o la medida, puede cambiar el título modificando el campo **título** . También puede cambiar el orden seleccionando las flechas hacia arriba o hacia abajo de color azul en el panel superior.</li><li>Si selecciona**+**() junto a un encabezado, se abre el cuadro de diálogo para agregar una nueva dimensión, medida o filtro.</li><li>Escriba las primeras letras de la dimensión, medida o filtro en el campo **Buscar un** campo para filtrar la lista para facilitar la búsqueda.</li></ul> |
-| ![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior] (media/qerguide-image-callout2.png "dos") | En el panel superior se muestran las opciones de personalización de gráficos. |
-| ![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior] (media/qerguide-image-callout3.png "tres") | El editor de consultas muestra una vista previa del informe. |
-| ![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior] (media/qerguide-image-callout4.png "cuatro") | Use el cuadro de **edición** de la parte inferior de la pantalla para crear o editar una descripción detallada del informe. |
+| ![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/qerguide-image-callout1.png "una") | Puede elegir dimensiones, medidas y filtros en el panel izquierdo. Si se apunta a un valor existente, se muestra un botón de cierre (**X**) que puede seleccionar para quitar el valor.<ul><li>Al seleccionar la dimensión o la medida, puede cambiar el título modificando el campo **título** . También puede cambiar el orden seleccionando las flechas hacia arriba o hacia abajo de color azul en el panel superior.</li><li>Si selecciona**+**() junto a un encabezado, se abre el cuadro de diálogo para agregar una nueva dimensión, medida o filtro.</li><li>Escriba las primeras letras de la dimensión, medida o filtro en el campo **Buscar un** campo para filtrar la lista para facilitar la búsqueda.</li></ul> |
+| ![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/qerguide-image-callout2.png "segunda") | En el panel superior se muestran las opciones de personalización de gráficos. |
+| ![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior](media/qerguide-image-callout3.png "tres") | El editor de consultas muestra una vista previa del informe. |
+| ![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior](media/qerguide-image-callout4.png "cinco") | Use el cuadro de **edición** de la parte inferior de la pantalla para crear o editar una descripción detallada del informe. |
 
 _Figura 11: editor de consultas_
 
@@ -597,13 +596,13 @@ Esta guía incluye [dos plantillas de CQD de protegida](https://aka.ms/qertempla
    > [!NOTE]
    > Para obtener acceso al CQD, debe tener el rol de administrador global de Office 365, administrador de Skype empresarial o lector de informes. 
 
-3. Seleccione el menú **informes de Resumen** en la parte superior de la página y, a continuación, elija informes detallados. ****
+3. Seleccione el menú **informes de Resumen** en la parte superior de la página y, a continuación, elija **informes detallados**.
 
 4. En el panel Resumen, seleccione **importar**. Vaya a la ubicación guardada CQDX, seleccione la plantilla CQDX y, a continuación, seleccione **abrir**.
 
 5. Una vez que se cargue la plantilla, aparecerá una ventana emergente en la que se muestra el mensaje "la importación del informe se realizó correctamente". Seleccione **Aceptar.**
 
-   ![Captura de pantalla de notificación de importación correcta] (media/qerguide-image-importmessage.png "Notificación de que la plantilla se ha importado correctamente")
+   ![Captura de pantalla de notificación de importación correcta](media/qerguide-image-importmessage.png "Notificación de que la plantilla se ha importado correctamente")
 
 6. Repita los pasos 4 y 5 para la segunda plantilla de CQD.
 
@@ -769,7 +768,7 @@ Si ya se ha cargado un archivo de compilación pero necesita agregar subredes qu
 
 Después de cargar la información de creación para redes administradas, cada red administrada debe tener una asociación de compilación. Sin embargo, esto no siempre será así; Normalmente, se pierden algunas subredes. En esta sección se explica cómo validar las redes que faltan.
 
-Vaya a la página **informes** detallados del CQD en línea y navegue hasta el **Informe de subred perdida** incluido en las plantillas del CQD. Esto presenta todas las subredes con 10 o más flujos de audio que no se definen en el archivo de datos de compilación y se marcan como externos. Asegúrese de que no hay redes administradas en esta lista. Si faltan subredes, actualice el archivo de datos de creación original y vuelva a cargarlo en el CQD.
+Vaya a la página **informes detallados** del CQD en línea y navegue hasta el **Informe de subred perdida** incluido en las plantillas del CQD. Esto presenta todas las subredes con 10 o más flujos de audio que no se definen en el archivo de datos de compilación y se marcan como externos. Asegúrese de que no hay redes administradas en esta lista. Si faltan subredes, actualice el archivo de datos de creación original y vuelva a cargarlo en el CQD.
 
 > [!IMPORTANT]
 > Tendrá que agregar su identificador de inquilino como filtro de consulta para el **segundo identificador de inquilino** a este informe para filtrar el informe para ver solo los datos de inquilinos de su organización. En caso contrario, el informe mostrará subredes federadas.
@@ -908,7 +907,7 @@ _Tabla 8: pasos siguientes para la corrección de errores de configuración de l
 
 |      Corrección      |                                                                                                                                                                                                                                                                                                                                                                   Instrucciones                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Configurar firewalls | Trabaje con su equipo de red y Compruebe la configuración del firewall en [la lista de direcciones IP de Office 365](https://aka.ms/o365ips).<br><br>Compruebe que las subredes y los puertos de [medios](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) estén incluidos en las reglas de Firewall. <br><br>Verifique que los puertos necesarios (enumerados a continuación) se abran en el firewall. Se debe dar prioridad a UDP porque TCP se considera un protocolo de conmutación por recuperación para el audio, el vídeo y la pantalla compartida basada en vídeo, y su uso afectará a la calidad de la llamada. RDP heredado el uso compartido de aplicaciones usa solo TCP.<br><ul><li>Puerto **TCP:** 443</li><li>**UDP:** puertos 3478:3481</li><ul> |
+| Configurar firewalls | Trabaje con su equipo de red y Compruebe la configuración del firewall en [la lista de direcciones IP de Office 365](https://aka.ms/o365ips).<br><br>Compruebe que las [subredes](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams) y los puertos de medios estén incluidos en las reglas de Firewall. <br><br>Verifique que los puertos necesarios (enumerados a continuación) se abran en el firewall. Se debe dar prioridad a UDP porque TCP se considera un protocolo de conmutación por recuperación para el audio, el vídeo y la pantalla compartida basada en vídeo, y su uso afectará a la calidad de la llamada. RDP heredado el uso compartido de aplicaciones usa solo TCP.<br><ul><li>Puerto **TCP:** 443</li><li>**UDP:** puertos 3478:3481</li><ul> |
 |        Verificar         |                                                                                                                                                                                                                                                                 Use la [herramienta de evaluación de redes de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885) para comprobar la conectividad de la creación o subred afectada mediante la función de comprobación de conectividad.                                                                                                                                                                                                                                                                  |
 
 ### <a name="drop-failures"></a>Errores de colocación
