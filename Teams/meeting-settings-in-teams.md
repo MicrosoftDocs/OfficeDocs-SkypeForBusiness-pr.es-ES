@@ -17,15 +17,14 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.network.ports
 - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración de las reuniones de teams que los usuarios programan en su organización.
-ms.openlocfilehash: 1e5b3fd1c76f4ff925b23b838e2719ec93077f14
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767199"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564938"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -40,7 +39,7 @@ Con la combinación anónima, cualquier persona puede unirse a la reunión como 
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **participantes**, Active **usuarios anónimos pueden unirse a una reunión**.
 
-    ![Captura de pantalla de la configuración de participantes para reuniones en el centro de administración] (media/meeting-settings-participants.png "Captura de pantalla de la configuración de participantes de las reuniones de Teams en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de participantes para reuniones en el centro de administración](media/meeting-settings-participants.png "Captura de pantalla de la configuración de participantes de las reuniones de Teams en el centro de administración de Microsoft Teams")
 
 Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta configuración.
 
@@ -63,7 +62,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **invitación por correo electrónico**, haga lo siguiente:
 
-    ![Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar] (media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
+    ![Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar](media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
 
     - **Dirección URL del logotipo** Escriba la dirección URL donde se encuentra almacenado el logotipo.
     - **Dirección URL legal** Si su organización tiene un sitio web legal al que desea que se vean los problemas legales, escriba la dirección URL aquí.
@@ -85,7 +84,7 @@ Si está usando la calidad de servicio [(QoS)](qos-in-teams.md) para priorizar e
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **red**, haga lo siguiente:
 
-    ![Captura de pantalla de la configuración de red para las reuniones en el centro de administración] (media/meeting-settings-network.png "Captura de pantalla de la configuración de red de las reuniones de Teams en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de red para las reuniones en el centro de administración](media/meeting-settings-network.png "Captura de pantalla de la configuración de red de las reuniones de Teams en el centro de administración de Microsoft Teams")
 
     - Para permitir que los marcadores de DSCP se usen para QoS, Active **insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Solo tiene la opción de usar marcadores o no. no puede establecer marcadores personalizados para cada tipo de tráfico. Para obtener más información sobre los marcadores de DSCP, vea [seleccionar un método de implementación de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
     > [!NOTE] 

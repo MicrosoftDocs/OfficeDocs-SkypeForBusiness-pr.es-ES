@@ -11,17 +11,14 @@ ms.reviewer: lolaj, rowille
 description: Herramientas de planificación, talleres y kits de introducción para ayudar a las organizaciones en sus primeros pasos con Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d6286ef37d90177ac719015ebfb76c67418c121
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: 71e864364c089b149f0351570fd673a0bf24068e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253913"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567728"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams
 
@@ -53,7 +50,7 @@ Descargue estas herramientas que le ayudarán en la planificación, la entrega y
 
 [Taller de planeación de actualizaciones de Skype empresarial a teams](https://www.microsoft.com/microsoft-365/partners/intelligentcommunications/skype-for-business-teams)
 
-[Mover usuarios de local a teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
+[Mover usuarios locales a Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/hybrid/move-users-from-on-premises-to-teams)
 
 [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md)
 

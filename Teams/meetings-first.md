@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 68ae38caa6671b3b5b46d8f295947bdbd9527379
-ms.sourcegitcommit: bb8577aca8c7e0673b37634a24bf793c86c0537b
+ms.openlocfilehash: 3207a7e7f460cb2941dd4c46df2a215df7997ed4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "36675547"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564908"
 ---
 # <a name="meetings-first"></a>Reuniones primero
 
@@ -31,7 +30,7 @@ ms.locfileid: "36675547"
 
 Las reuniones primero se basan en el modo de coexistencia de **SfBWithTeamsCollabAndMeetings** . En primer lugar, reuniones no es un producto ni una característica: es una configuración que aprovecha las capacidades y características de Teams y de Skype empresarial para proporcionar una experiencia de coexistencia adaptada exclusiva.
 
-En las reuniones en primer lugar, los usuarios crean su reunión en Teams, mientras continúan usando Skype empresarial para conversaciones, llamadas y presencia. No hay ninguna superposición de modalidades entre Teams y Skype empresarial. La conversación, las llamadas y la presencia están activadas en Skype empresarial y desactivadas en Teams. Esto permite escenarios únicos "juntos" entre Skype empresarial y los equipos que mejoran la experiencia del usuario durante la coexistencia, así como escenarios de interoperabilidad con usuarios **solo** de Teams.
+En las reuniones en primer lugar, los usuarios crean su reunión en Teams, mientras continúan usando Skype empresarial para conversaciones, llamadas y presencia. No hay ninguna superposición de modalidades entre Teams y Skype empresarial. La conversación, las llamadas y la presencia están activadas en Skype empresarial y desactivadas en Teams. Esto permite escenarios únicos "juntos" entre Skype empresarial y los equipos que mejoran la experiencia del usuario durante la coexistencia, así como escenarios de interoperabilidad con usuarios **solo de Teams** .
 
 ![Captura de pantalla del mejor escenario con Teams y Skype empresarial](media/meetings-first-meeting-in-meeting.png)
 
@@ -52,7 +51,7 @@ Además, las reuniones son útiles para las organizaciones cuyo ámbito es una s
 
 Reunión, en primer lugar, reúne las siguientes funciones:
 
-- [Aprovisionar un usuario de Skype empresarial Server (local)](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) con la [Conferencia de audio](tutorial-audio-conferencing.yml)de Teams.
+- [Aprovisionar un usuario de Skype empresarial Server (local)](https://docs.microsoft.com/microsoftteams/tutorial-audio-conferencing?tutorial-step=3) con la [Conferencia de audio de Teams](tutorial-audio-conferencing.yml).
 - [Servicio de migración de reuniones](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms): las reuniones organizadas por el usuario se migrarán a la nube y se convertirán en reuniones de Teams, ya que el usuario se promueve a reuniones en primer lugar (requiere Exchange Online).
 - Experiencia de usuario optimizada en Teams, centrada en las reuniones de Teams y los equipos y canales (que, opcionalmente, se pueden ocultar con la [Directiva de permisos de aplicaciones](teams-app-permission-policies.md)); Los [equipos de chat privado, las llamadas y la presencia propia](teams-client-experience-and-conformance-to-coexistence-modes.md) no se exponen en las reuniones en primer lugar, lo que permite el esfuerzo de implementación y adopción para centrarse plenamente en las reuniones.
 - [Experiencia de reunión de equipos](tutorial-meetings-in-teams.yml)superiores.
@@ -104,7 +103,7 @@ Es posible que considere la posibilidad de ejecutar un plan piloto preparado par
 
 Una vez que haya otorgado la licencia a los usuarios y haya preparado la organización para las reuniones de Teams, es el momento de habilitar a los usuarios para que las vean en primer lugar. Lo hemos simplificado: una sola configuración lo hará todo.
 
-Todas las características y las experiencias de usuario de las reuniones en primer lugar, incluida la configuración del cliente de Teams y el [cumplimiento automático](teams-client-experience-and-conformance-to-coexistence-modes.md) de la experiencia del usuario, el servicio de migración de reuniones y las capacidades más juntas, se configuran al conceder al usuario (o Grupo de usuarios o valor predeterminado de inquilino) el modo de coexistencia de [SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) en el centro de [Administración de Microsoft Teams](manage-teams-in-modern-portal.md) o mediante [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
+Todas las características y las experiencias de usuario de las reuniones en primer lugar, incluida la configuración del cliente de Teams y el [cumplimiento automático](teams-client-experience-and-conformance-to-coexistence-modes.md) de la experiencia del usuario, el servicio de migración de reuniones y las capacidades más juntas, se configuran al conceder al usuario (o Grupo de usuarios o valor predeterminado de inquilino) el [modo de coexistencia de SfBWithTeamsCollabAndMeetings](setting-your-coexistence-and-upgrade-settings.md) en el centro de administración de [Microsoft Teams](manage-teams-in-modern-portal.md) o mediante [PowerShell](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps).
 
 ![Captura de pantalla de la configuración de administración para habilitar las reuniones en primer lugar](media/teams-meeting-admin-settings.png)
 
@@ -116,6 +115,6 @@ Los análisis de llamadas y reporting de las reuniones de Teams en las reuniones
 
 ## <a name="related-links"></a>Vínculos relacionados
 
-Después de revisar este artículo, es posible que desee consultar [elegir las instrucciones para la actualización, la](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) [migración y](migration-interop-guidance-for-teams-with-skype.md)la interoperabilidad, y la coexistencia [con Skype empresarial](coexistence-chat-calls-presence.md) para obtener más información.
+Después de revisar este artículo, es posible que desee consultar [elegir las instrucciones para la actualización, la](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) [migración y la interoperabilidad](migration-interop-guidance-for-teams-with-skype.md), y la [coexistencia con Skype empresarial](coexistence-chat-calls-presence.md) para obtener más información.
 
 

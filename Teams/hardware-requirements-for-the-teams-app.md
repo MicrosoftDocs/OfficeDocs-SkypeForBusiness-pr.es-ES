@@ -9,7 +9,6 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
@@ -18,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446ff5c3dc5d7e6a33f5d6b3a44a07a8f6514f02
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 7ec568123f92c188d8642f6e5c8907485dc6de05
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434723"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565072"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware de la aplicación de Microsoft Teams
 
@@ -41,7 +40,7 @@ ms.locfileid: "37434723"
 |Vídeo    |  Cámara USB 2,0       |
 |Dispositivos    |   Cámara para equipos portátiles, micrófono y altavoces estándar    | 
 |Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de **difuminar mi** vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2). Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos. |
-|Eventos de Teams Live | Si está generando un evento de Teams Live, le recomendamos que use un equipo con un procesador Core i5 Kaby Lake, 4,0 GB de RAM (o superior) y codificador de hardware. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos. |
+|Eventos en directo en Teams | Si está generando un evento de Teams Live, le recomendamos que use un equipo con un procesador Core i5 Kaby Lake, 4,0 GB de RAM (o superior) y codificador de hardware. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos. |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para la aplicación de escritorio de Teams en un equipo Mac
 

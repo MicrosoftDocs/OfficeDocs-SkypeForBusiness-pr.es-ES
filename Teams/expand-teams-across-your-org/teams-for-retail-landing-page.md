@@ -9,16 +9,17 @@ audience: admin
 manager: serdars
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0405d48bacf6626b1976afffeb64fc10fe66a36f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 21f0238225736a731844b9f0bd1f6f7c29ea4459
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235342"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569627"
 ---
 # <a name="teams-for-retail"></a>Teams para el comercio
 

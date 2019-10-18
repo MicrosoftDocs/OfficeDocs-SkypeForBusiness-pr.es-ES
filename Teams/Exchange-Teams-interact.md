@@ -11,16 +11,15 @@ description: Conozca la funcionalidad que hay entre Microsoft Teams y las distin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42d15f32cbdf7326ea8daf85860bd451d93ed3f3
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 0eb64afd9e226b3e59e3444b0ed15d2463902c5e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434654"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564005"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 

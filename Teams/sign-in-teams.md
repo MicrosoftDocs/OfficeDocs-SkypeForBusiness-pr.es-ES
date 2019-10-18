@@ -12,21 +12,20 @@ ms.reviewer: ''
 description: Cómo iniciar sesión en Microsoft Teams mediante la autenticación moderna.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af7ecffc6dbed108fdc3ec68802aac39aa4f54c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242514"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563125"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Iniciar sesión en Microsoft Teams con la autenticación moderna
 ==========================
 
-Microsoft Teams usa la autenticación moderna para que la experiencia de inicio de sesión sea sencilla y segura. Para ver cómo los usuarios inician sesión en Teams, lea [iniciar sesión](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)en Teams.
+Microsoft Teams usa la autenticación moderna para que la experiencia de inicio de sesión sea sencilla y segura. Para ver cómo los usuarios inician sesión en Teams, lea [iniciar sesión en Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055).
 
 ## <a name="how-modern-authentication-works"></a>Cómo funciona la autenticación moderna
 
