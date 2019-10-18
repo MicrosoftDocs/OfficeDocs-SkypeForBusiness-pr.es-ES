@@ -1,5 +1,5 @@
 ---
-title: Presencia de usuario en Teams
+title: La presencia del usuario en Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,23 +12,22 @@ description: Información para administradores sobre la presencia en Teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bd57165cbb88df135827ae72fa3952dd8ddd452
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062966"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573222"
 ---
-# <a name="user-presence-in-teams"></a>Presencia de usuario en Teams
+# <a name="user-presence-in-teams"></a>La presencia del usuario en Teams
 
 La presencia es parte de un perfil de usuario de Microsoft Teams (y de toda la 365 de Office) que indica la disponibilidad y el estado actuales del usuario a otros usuarios. De forma predeterminada, cualquier persona de la organización que use Teams puede ver (en casi tiempo real) si hay otros usuarios disponibles en línea.
 
 > [!IMPORTANT]
-> Si desinstala el cliente de Skype empresarial después de mover un usuario al modo **solo de Teams** , la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Solución: para ver la presencia en Outlook (y en otras aplicaciones de Office), debe estar instalado Skype empresarial, incluso si está ejecutando Teams en modo de **solo Teams** . Microsoft es consciente de este problema y está trabajando en una corrección.
+> Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Solución: para ver la presencia en Outlook (y en otras aplicaciones de Office), debe estar instalado Skype empresarial, incluso si está ejecutando Teams en modo de **solo Teams** . Microsoft es consciente de este problema y está buscando una solución. 
 
 ## <a name="presence-states-in-teams"></a>Estados de presencia en Teams
 

@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Suiza.
-ms.openlocfilehash: 1164231a50d1e1f89a2e2decf841e47066ce2d99
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 607ef6b9182e4123ae8a8a8f35ac88be6aa7c580
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331151"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572327"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilidad en Suiza
 

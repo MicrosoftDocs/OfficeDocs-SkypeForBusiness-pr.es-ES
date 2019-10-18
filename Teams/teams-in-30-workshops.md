@@ -9,7 +9,7 @@ ms.date: 7/1/19
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Training
+- M365-collaboration
 - Teams_ITAdmin_JourneyFromSfB
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
@@ -18,12 +18,12 @@ f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3036f50be02a5fdb0691a2895005fc373c4ac540
-ms.sourcegitcommit: 299f854bbb73887ba315b09b9adf9ea9ff91e8ec
+ms.openlocfilehash: 92b57b34eea5459e3d800df49876b133510dbde4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37062949"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570217"
 ---
 <div id="main" class="v2">
     <div class="container">

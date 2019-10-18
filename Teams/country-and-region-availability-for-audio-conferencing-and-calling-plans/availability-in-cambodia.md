@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
-ms.openlocfilehash: 0e3a6c74e50f7ff94857a529802e717fd0dcd72d
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 6d758a5171ecd8af006a6c8afd466b2a0aab5f2d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775619"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570550"
 ---
 # <a name="availability-in-cambodia"></a>Disponibilidad en Camboya
 

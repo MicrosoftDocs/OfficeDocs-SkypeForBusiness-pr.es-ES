@@ -11,21 +11,21 @@ search.appverid: MET150
 description: Obtenga información sobre cómo planear la transición de los equipos de StaffHub a turnos en Microsoft Teams.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac278593215fc982d7246059503d8c65990c9b87
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 78b31bb0c17db9ef379b54c02433569ba4d46aff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715920"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569676"
 ---
 # <a name="plan-to-move-your-staffhub-teams-to-shifts-in-microsoft-teams"></a>Planear la transición de los equipos de StaffHub a turnos en Microsoft Teams
 
 > [!IMPORTANT]
-> A partir del 1 de octubre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 1 de octubre de 2019. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se](microsoft-staffhub-to-be-retired.md)retirará. 
+> A partir del 31 de diciembre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 31 de diciembre de 2019. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md). 
 
 La transición de StaffHub a teams comienza al empezar a planificar el cambio. Para ayudar a garantizar que el cambio a teams se realice correctamente, hemos creado una escala de tiempo de ejemplo que muestra un plan de transición típico. La escala de tiempo de ejemplo describe las actividades de planeación para prepararse para el traslado y le permite mover los equipos de StaffHub de su organización a teams.
 
@@ -36,7 +36,7 @@ Use la escala de tiempo como guía para planear el desplazamiento de StaffHub a 
 |Paso |Instrucciones  |Recursos |
 |---------|---------|---------|
 |1    |Preparar e identificar las partes interesadas         |         |
-|2     |Revise la documentación de la transición de StaffHub a la incorporación de equipos y equipos         |[StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md)<br><br>[Mover los equipos de StaffHub a los cambios en Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Introducción a teams](../../get-started-with-teams-quick-start.md)         |
+|1     |Revise la documentación de la transición de StaffHub a la incorporación de equipos y equipos         |[StaffHub para que se retirará](microsoft-staffhub-to-be-retired.md)<br><br>[Mover los equipos de StaffHub a los cambios en Teams](move-staffhub-teams-to-shifts-in-teams.md)<br><br>[Introducción a teams](../../get-started-with-teams-quick-start.md)         |
 |3    |Habilitar grupos de Office 365 para su organización        |[Grupos y equipos de Office 365](../../Office-365-groups.md)      |
 |4    |Asegurarse de que se cumplan los requisitos previos         |[Comprobar que se cumplen los requisitos previos](move-staffhub-teams-to-shifts-in-teams.md#check-that-prerequisites-are-met)       |
 |5   |Asignar licencias de Teams a los usuarios de StaffHub en su organización|[Asignar licencias de Teams](move-staffhub-teams-to-shifts-in-teams.md#assign-teams-licenses)<br><br>[Gestionar acceso de los usuarios a Microsoft Teams](../../user-access.md)      |
@@ -55,7 +55,7 @@ Use la escala de tiempo como guía para planear el desplazamiento de StaffHub a 
 |Paso |Instrucciones |Recursos  |
 |---------|---------|---------|
 |1  |Identificar un equipo piloto y mover un equipo          |[Mover un equipo de StaffHub](move-staffhub-teams-to-shifts-in-teams.md#move-a-staffhub-team)          |
-|2    |Valide el equipo piloto e identifique los problemas de movimiento. Actualice la documentación de aprendizaje según sea necesario.         |         |
+|1    |Valide el equipo piloto e identifique los problemas de movimiento. Actualice la documentación de aprendizaje según sea necesario.         |         |
 |3     |Identificar equipos piloto adicionales y pasar de cinco a diez equipos         |[Mover los equipos de StaffHub](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |4     |Identificar equipos de StaffHub restantes y moverlos en un enfoque por fases         |[Mover los equipos de StaffHub](move-staffhub-teams-to-shifts-in-teams.md#go-beyond-your-pilot-and-move-all-staffhub-teams)         |
 |5     |Seguir proporcionando soporte técnico para turnos y equipos         |         |

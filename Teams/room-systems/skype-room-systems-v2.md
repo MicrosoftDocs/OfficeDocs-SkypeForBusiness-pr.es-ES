@@ -9,9 +9,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
-- M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga más información sobre las características disponibles en las salas de Microsoft Teams. '
-ms.openlocfilehash: d9908ce78b52e2f1f67040ac51f8ae035d79826c
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775067"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573577"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Actualización de licencias de sala de reuniones de equipos
 

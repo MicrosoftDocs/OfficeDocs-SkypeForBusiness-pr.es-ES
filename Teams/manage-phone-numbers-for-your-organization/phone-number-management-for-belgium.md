@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Bélgica para Microsoft Teams.
-ms.openlocfilehash: 6427501ae3e93767d3740f2fc731fd701bd1e224
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: cd8db5b009464c60997f8dff81644dfe69d81609
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347781"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570605"
 ---
 # <a name="phone-number-management-for-belgium"></a>Administración de números de teléfono para Bélgica
 

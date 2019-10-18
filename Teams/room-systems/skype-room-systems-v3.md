@@ -10,14 +10,15 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: Información general de administración para salas de Microsoft Teams.
-ms.openlocfilehash: 28a48bb4aba417fba076e8c31492e8191e7164c9
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: a55741fced90a62316ab8d046a91ee0364b314fd
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775100"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573566"
 ---
 # <a name="management-overview"></a>Introducción a la administración
 

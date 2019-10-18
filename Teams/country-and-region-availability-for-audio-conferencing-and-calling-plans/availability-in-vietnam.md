@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Vietnam.
-ms.openlocfilehash: f65b8685b10d7c21a996aa1c75d95e558f8a3562
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 26b94155b86c79c37556ddedb3138cfcf9dc9d2b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774551"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569433"
 ---
 # <a name="availability-in-vietnam"></a>Disponibilidad en Vietnam
 

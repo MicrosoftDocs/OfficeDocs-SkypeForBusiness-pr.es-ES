@@ -11,23 +11,21 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Describe cómo usa Teams los flujos de 365 de Office en diversas topologías.
-ms.openlocfilehash: d98f789017c0f5388a0adebd382d947e716d7fc9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 91be46f556419dfd1ba8c52a99b8f06a19c63542
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239358"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573417"
 ---
 # <a name="microsoft-teams-call-flows"></a>Flujos de llamadas de Microsoft Teams
 
 > [!Tip]
-> Vea la siguiente sesión para obtener información sobre cómo Teams aprovecha su red y cómo planear la conectividad de red óptima: planificación de la [red](https://aka.ms/teams-networking) de Teams
+> Vea la siguiente sesión para obtener información sobre cómo Teams aprovecha su red y cómo planear la conectividad de red óptima: planificación de la [red de Teams](https://aka.ms/teams-networking)
 
 ## <a name="overview"></a>Información general
 En este artículo se describe cómo usa Teams los flujos de llamadas de Office 365 en diversas topologías. Además, describe los flujos de equipos únicos que se usan para la comunicación multimedia punto a punto. El documento describe estos flujos, su propósito, así como su origen y terminación en la red. Para los fines de este artículo, supongamos lo siguiente:
@@ -115,11 +113,11 @@ Tenga en cuenta lo siguiente:
 
 Puede encontrar más información sobre las siguientes topologías opcionales más adelante en este artículo:
 
-- La implementación local de Skype empresarial se describe en la **topología híbrida**de Teams.
+- La implementación local de Skype empresarial se describe en la **topología híbrida de Teams**.
 - El enrutamiento directo de sistema telefónico (para conectividad RTC) se describe en **Teams con topología de enrutamiento directo**.
 - Expressroute se describe en **Teams with Express Route Optimization**.
 
-Descripciones de **flujos**:
+**Descripciones de flujos**:
 - **Flow 2** : representa un flujo Iniciado por un usuario en la red del cliente a través de Internet como parte de la experiencia de los equipos de los usuarios. Algunos ejemplos de estos flujos son medios DNS y de par a par.
 - **Flow 2 '** : representa un flujo Iniciado por un usuario remoto de equipos móviles, con VPN a la red del cliente. 
 - **Flujo 3** : representa un flujo Iniciado por un usuario de equipos remotos de equipos móviles a puntos de conexión de Office 365 y equipos. 

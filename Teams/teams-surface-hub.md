@@ -14,16 +14,15 @@ search.appverid: MET150
 ms.custom:
 - Devices
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 70398d6718268742205181db3fd21bfc01886c0e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 37c38577fe3bda9ed2a1c2e224390e89f44de96b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235050"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570107"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implementar Microsoft Teams para Surface Hub
 ======================================
@@ -63,7 +62,7 @@ Los paquetes se pueden encontrar en esta [Página de descarga](https://1drv.ms/f
 |---------|---------|
 |,0     | Aplicación de Skype preferida en la pantalla Inicio, reuniones de Teams disponibles        |
 |1     | Aplicación de Teams preferida en la pantalla Inicio, reuniones de Skype disponibles        |
-|2     | Aplicación equipos exclusivos en la pantalla Inicio (aplicación de Skype no disponible)        |
+|1     | Aplicación equipos exclusivos en la pantalla Inicio (aplicación de Skype no disponible)        |
  
 1. Adjunte la llave USB al dispositivo Surface Hub. 
 2. Abra la aplicación **configuración** en un dispositivo Surface Hub. 

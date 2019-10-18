@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f19f51662a2a954b268a6c36f6c9dc0b4b90fdd8
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861847"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571587"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -58,9 +57,9 @@ Para obtener más información, consulte [licencias complementarias de Microsoft
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, vaya a suscripciones de**** >  **facturación** > **Agregar**suscripciones.
+2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, vaya a**** > **suscripciones**de **facturación** > agregar suscripciones.
 
-3. Expanda suscripciones de complementos y, a continuación, seleccione **créditos** > de comunicaciones**comprar ahora**. ****
+3. Expanda **suscripciones de complementos**y, a continuación, seleccione **créditos** > de comunicaciones**comprar ahora**.
     
 4. En la página de suscripción de **crédito de comunicaciones** , rellene la información y, a continuación, haga clic en **siguiente**:
     
@@ -72,7 +71,7 @@ Para obtener más información, consulte [licencias complementarias de Microsoft
     
    - **Cantidad de recarga** Escribe la cantidad en el cuadro de **recarga con** que deseas añadir a tu cuenta una vez que llegue a la cantidad de activación a continuación.
     
-   - **Desencadenar monto** Escribe la cantidad en **cuando el saldo es inferior** a la casilla que se usará ** para ' desencadenar ' la recarga automática. Una vez que tu saldo sea inferior a esta cantidad, el monto de recarga se añadirá automáticamente a tu cuenta.
+   - **Desencadenar monto** Escribe la cantidad en **cuando el saldo es inferior** a la casilla que se usará para ' *desencadenar* ' la recarga automática. Una vez que tu saldo sea inferior a esta cantidad, el monto de recarga se añadirá automáticamente a tu cuenta.
 
       > [!NOTE]
      > Los fondos se aplicarán únicamente a los créditos de comunicaciones de las tarifas publicadas de Microsoft cuando se usen los servicios. Los fondos que no se usen en 12 meses desde la fecha de compra se perderán. 
@@ -91,7 +90,7 @@ Al configurar créditos de comunicaciones, tendrá que investigar el uso de las 
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. En el centro de navegación izquierdo del centro de administración de Microsoft 365 **** > , vaya a usuarios**activos**y, a continuación, seleccione un usuario o usuarios de la lista.
+2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, **vaya a** > usuarios**activos**y, a continuación, seleccione un usuario o usuarios de la lista.
     
 3. En el panel de acciones, en **Licencias de productos**, haga clic en **Editar**.
     
@@ -110,7 +109,7 @@ Para ver los planes y los precios, visite uno de los siguientes vínculos:
     
 - [Planes de sistemas telefónicos](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-También puede ver información iniciando [sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a suscripciones de **facturación** > **** > para**Agregar**suscripciones.
+También puede ver información [iniciando sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y yendo a**suscripciones** > de **facturación** > para**Agregar suscripciones**.
   
 Para ver una tabla con las licencias que necesitará para cada característica, consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

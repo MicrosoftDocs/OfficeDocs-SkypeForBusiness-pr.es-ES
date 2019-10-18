@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,19 +20,19 @@ f1keywords:
 ms.custom:
 - Phone System
 description: La apariencia de la línea compartida permite que el usuario elija un delegado para responder o controlar las llamadas en su nombre.
-ms.openlocfilehash: 67708c05105b83cca80702292a1766a2224681bc
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483706"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571763"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Apariencia de línea compartida en Microsoft Teams
 
 La apariencia de la línea compartida forma parte de la característica de delegación que permite a un usuario elegir un delegado para responder o controlar las llamadas en su nombre. Esta característica es útil si un usuario tiene un asistente administrativo que controla regularmente las llamadas del usuario. En el contexto de la apariencia de línea compartida, un administrador es alguien que autoriza a un delegado a realizar o recibir llamadas en su nombre, y un delegado puede realizar y recibir llamadas en nombre de otra persona.
 
 > [!IMPORTANT]
-> Esta característica solo está disponible en el modo de implementación solo para equipos. Para obtener más información sobre los modos de implementación de Teams, consulte comprender la coexistencia y la interoperabilidad [de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Esta característica solo está disponible en el modo de implementación solo para equipos. Para obtener más información sobre los modos de implementación de Teams, consulte [comprender la coexistencia y la interoperabilidad de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Licencia requerida
 

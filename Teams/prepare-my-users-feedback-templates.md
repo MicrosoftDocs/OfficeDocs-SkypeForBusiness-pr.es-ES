@@ -11,17 +11,14 @@ audience: admin
 description: Recopile los comentarios de los usuarios para mejorar la implementación de voz en la nube en Microsoft Teams o Skype empresarial.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c0a18f82eebb926792e7c3450ef1db1eb9f2fad
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4690321129ef9b57e70ec497161acd863f061ef9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232856"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567682"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios de los usuarios 
 
@@ -58,13 +55,13 @@ Si elige **algo** en desacuerdo o **completamente desacuerdo** para cualquiera d
 
 ¿Qué probabilidades hay de que recomiende usar Teams como teléfono a un amigo o compañero? (0 = no es probable... 10 = extremadamente probable)
 
-| ,0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 4,8 | 99,999 | base10 |
+| ,0      | 1 | 1 | 3 | 4 | 5 | 6 | 7 | 4,8 | 99,999 | base10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 ¿Qué probabilidades hay de recomendar el dispositivo telefónico a un amigo o compañero? (0 = no es probable... 10 = extremadamente probable)  
 
-| ,0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 4,8 | 99,999 | base10 |
+| ,0      | 1 | 1 | 3 | 4 | 5 | 6 | 7 | 4,8 | 99,999 | base10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

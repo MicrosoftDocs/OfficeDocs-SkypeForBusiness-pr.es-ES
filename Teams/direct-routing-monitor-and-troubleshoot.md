@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: En este artículo se describe cómo supervisar y solucionar problemas de la configuración de enrutamiento directo.
-ms.openlocfilehash: e236a5cecb190d10082e06de24655bd722a410e5
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: b2afef2a8f02f6823be10d127c8efc7b4cd5d72d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018828"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572173"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 

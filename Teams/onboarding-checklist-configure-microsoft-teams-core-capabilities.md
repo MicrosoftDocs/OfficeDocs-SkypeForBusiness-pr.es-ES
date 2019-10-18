@@ -11,24 +11,21 @@ audience: admin
 description: Siga las tareas y tareas básicas y pendientes de esta lista de comprobación al configurar Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1ee5e3ab901cb5bc0fb35aee9dbc03e9b636621
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e6f0f3482258af46b049f22af73e0efe4bc463a6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238605"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567925"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurar las capacidades principales de Microsoft Teams
 
 | No | Actividad o tarea | Descripción | ¿Completado? | Información adicional |
 |----|-----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | Validar que su entorno incluye todos los requisitos previos de Teams | Teams depende de otras plataformas para construir una solución de colaboración de extremo a extremo. Trabaje con sus equipos de TI para asegurarse de que ha implementado y configurado correctamente Exchange, SharePoint Online y OneDrive para la empresa. | | [Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams](sharepoint-onedrive-interact.md) <br/><br/>[Interacción entre Exchange y Microsoft Teams](exchange-teams-interact.md) |
-| 2  | Validar que Teams está habilitado para el inquilino | Teams está activado de forma predeterminada para todas las organizaciones. Compruebe la página **servicios & complementos** en el centro de administración de Microsoft 365 para comprobar que Teams está habilitado para su inquilino y habilítelo si es necesario. | | [Configurar Microsoft Teams en su organización de Office 365](office-365-set-up.md) |
+| 1  | Validar que Teams está habilitado para el inquilino | Teams está activado de forma predeterminada para todas las organizaciones. Compruebe la página **servicios & complementos** en el centro de administración de Microsoft 365 para comprobar que Teams está habilitado para su inquilino y habilítelo si es necesario. | | [Configurar Microsoft Teams en su organización de Office 365](office-365-set-up.md) |
 | 3  | Configurar roles y permisos | Teams admite dos tipos de roles: miembro y propietario. <br/><br/>Después de agregar un miembro a un equipo, un propietario también puede promocionar un miembro al rol de propietario. Como práctica recomendada, le recomendamos que tenga al menos dos propietarios asignados a cada equipo. <br/><br/>De forma predeterminada, todos los usuarios de la organización que tienen un buzón de correo hospedado en Exchange online pueden crear un equipo. A un usuario que crea un equipo nuevo se le concede automáticamente el rol de propietario de ese equipo. <br/><br/>Si es necesario, puede configurar las opciones de grupo de Office 365 para permitir que usuarios específicos creen nuevos equipos. | | [Asignar roles y permisos en Microsoft Teams](assign-roles-permissions.md) <br/><br/>[Grupos de Office 365 y Microsoft Teams](office-365-groups.md) <br/><br/>[Administrar quién puede crear grupos de Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618) |
 | 4  | Configurar las opciones de Teams para todo el inquilino | Puede configurar algunas opciones de Teams en el nivel de inquilino. Los usuarios que están habilitados para los equipos heredan esta configuración de la configuración de inquilinos:<ul><li>General</li><li>Integración de correo electrónico</li><li>Aplicaciones</li><li>Almacenamiento en nube personalizado</li><li>Llamadas y reuniones</li><li>Mensajería </li></ul>| | [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md) |
 | 5  | OPCIONAL: configurar el acceso de invitado | Use el acceso de invitado en Teams para colaborar con personas de fuera de su organización al otorgarles acceso a los equipos y canales. El acceso de invitados es una configuración de nivel de inquilino de Teams. Está desactivado de forma predeterminada. <br/>Habilite el acceso de invitado y configure la configuración de invitado en el inquilino, si su organización tiene previsto usar esa característica. | | [Acceso de invitado en Microsoft Teams](guest-access.md) |
