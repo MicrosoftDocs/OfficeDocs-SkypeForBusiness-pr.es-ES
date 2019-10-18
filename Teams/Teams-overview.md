@@ -5,41 +5,36 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 06/18/2019
 audience: admin
 ms.reviewer: LolaJ
 description: Busque el camino correcto para implementar Microsoft Teams en su organización. Obtenga información sobre la infraestructura de Teams y cómo usar Teams con Office 365.
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb2f18cfb420c8bfa973f205541ec69e04a644c6
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: ef565e9113f30e3c3d42e5482b2a52425eacbb2e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483161"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567000"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenido a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para comenzar a usar Teams, empiece por [Cómo implementar Teams](How-to-roll-out-teams.md).
 
 Si está buscando ayuda para el usuario final en Teams, haga clic en **Ayuda** en la parte izquierda de la aplicación o vaya al [Centro de ayuda de Microsoft Teams](https://support.office.com/teams). Para ver los cursos de aprendizaje, vaya a [Aprendizaje de Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
-
-
 Si es la primera vez que usa Teams y desea informarse sobre el programa, vea nuestro breve vídeo de bienvenida (55 segundos).
 
 > [!VIDEO https://www.youtube.com/embed/s3aQV3T0D6c]
 
-
 ## <a name="teams-architecture"></a>Arquitectura de Teams 
 
-Teams está diseñado a partir de los grupos de Office 365, Microsoft Graph y el mismo nivel empresarial de seguridad, cumplimiento y manejabilidad que el resto de Office 365. Teams aprovecha las identidades almacenadas en Azure Active Directory (Azure AD). 
+Teams está diseñado a partir de los grupos de Office 365, Microsoft Graph y el mismo nivel empresarial de seguridad, cumplimiento y manejabilidad que el resto de Office 365. Teams aprovecha las identidades almacenadas en Azure Active Directory (Azure AD). Teams funciona incluso si no estás conectado y cuando tu red tiene interrupciones de servicio.
 
 Para ver dónde encaja Teams en el contexto de Microsoft 365, consulte este póster de arquitectura: [Teams como parte de Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
 
@@ -74,13 +69,13 @@ Teams es el cliente principal para las comunicaciones inteligentes en Office 365
 Si utiliza Skype Empresarial y ya está listo para actualizar a Teams, o si utiliza Skype Empresarial y Teams en paralelo y ya está listo para realizar el paso completo a Teams, tenemos herramientas, consejos y guías que le ayudarán a lograr una transición perfecta. Para obtener más información, consulte [Actualizar a Teams](upgrade-start-here.md).
 
 ## <a name="teamwork-and-office-365"></a>Trabajo en equipo con Office 365
-Cada equipo es diferente; no existe un enfoque de talla universal para la colaboración. Office 365 está diseñado para cumplir las demandas exclusivas de cada equipo y facilita que los usuarios puedan comunicarse, colaborar y lograr más objetivos con sus aplicaciones integradas y diseñadas específicamente. 
+Cada equipo es diferente; no existe un enfoque de talla universal para la colaboración. Office 365 está diseñado para cumplir las demandas exclusivas de cada equipo y facilita que los usuarios puedan comunicarse, colaborar y lograr más objetivos con sus aplicaciones integradas y diseñadas específicamente.
 
 Cuando decida qué aplicaciones y servicios de Office 365 va a usar, piense en el trabajo que realiza su organización y los tipos de conversaciones que deben tener los equipos. 
 
 - **Teams**, en cuanto al hub de trabajo en equipo, es donde los usuarios, incluidas las personas fuera de su organización, pueden conectarse y colaborar activamente en tiempo real para ser más productivos. Tenga una conversación directamente en el lugar donde se realiza el trabajo, ya sea colaborando en la creación de un documento, con una reunión o trabajando juntos en otras aplicaciones y servicios. Teams es el lugar en el que se pueden tener chats informales, realizar iteraciones rápidas en un proyecto, trabajar con los archivos del equipo y colaborar en entregas compartidas. 
 
-- **Outlook** sirve para colaborar en el entorno familiar del correo electrónico y de un modo más formal y estructurado, o cuando se requieren comunicaciones directas y con un destino claro. 
+- **Outlook** sirve para colaborar en el entorno familiar del correo electrónico y de un modo más formal y estructurado, o cuando se requieren comunicaciones directas y con un destino claro.
 
 - **SharePoint** se utiliza para sitios, portales, servicios de contenido inteligente, automatización de procesos de negocio y Enterprise Search. SharePoint mantiene el contenido en el centro del trabajo en equipo y hace que todos los tipos de contenido se puedan compartir fácilmente entre los equipos. Su fuerte integración con Outlook, Yammer y Teams permite una perfecta colaboración de contenido entre todas las experiencias de las conversaciones.
 
