@@ -12,19 +12,18 @@ ms.author: lolaj
 ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 27ef173f20f7d2dae66d66bec8b41b5d5c6d48df
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36484021"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570729"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Formación dirigida por un instructor para Microsoft Teams</h1>
-En Microsoft estamos encantados de ofrecer una serie de clases en línea y en directo totalmente gratuitas diseñadas para empezar a trabajar con Teams.Si es un encargado, administrador, profesional de TI o usuario final, encontrará la clase perfecta. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo. Para ver más oportunidades de aprendizaje, incluidas las versiones a la carta de aprendizaje en directo, consulte nuestra <a href="https://docs.microsoft.com/microsoftteams/enduser-training">formación a la carta para el usuario final</a>.<br><br>Haga clic en una de las siguientes sesiones para registrarse.
+En Microsoft estamos encantados de ofrecer una serie de clases en línea y en directo totalmente gratuitas diseñadas para empezar a trabajar con Teams.Si es un encargado, administrador, profesional de TI o usuario final, encontrará la clase perfecta. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo. Para ver nuestras clases de formación cuando lo desee, visite nuestra <a href="https://aka.ms/TeamsOnDemand">formación a petición para usuarios finales</a>.<br><br>Haga clic en una de las siguientes sesiones para registrarse.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
@@ -145,7 +144,7 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
                     <div class="cardText">
                         <h3>Teams para la administración pública de Estados Unidos (GCC)</h3>
                         <p>Únase a nosotros para obtener una visión general interactiva de Teams en Office 365 GCC que muestra los procedimientos recomendados para colaborar. </p>
-                    <p><i>Público: profesionales de TI y usuarios finales</i></p>
+                    <p><i>Para todos los públicos</i></p>
                     </div>
                 </div>
             </div>
@@ -173,18 +172,18 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
         </a>
     </li>
     <li>
-        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <a href="https://aka.ms/LearnTeamsApps"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Teams para los trabajadores de primera línea</h3>
-                        <p>Aprenda sobre las capacidades de trabajadores de primera línea en Teams.</p>
+                        <h3>Más información sobre cómo usar aplicaciones en Teams</h3>
+                        <p>Aprenda a utilizar aplicaciones para mejorar el trabajo en equipo.</p>
                         <p><i>Público: usuarios finales</i></p>
                     </div>
                 </div>
@@ -212,7 +211,26 @@ En Microsoft estamos encantados de ofrecer una serie de clases en línea y en di
         </div>
         </a>
     </li>
-        </ul>
+    <li>
+        <a href="https://microsoftteams.eventbuilder.com/FLW3"target="_blank">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/clock-teams.svg" alt="Clock symbol" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Teams para los trabajadores de primera línea</h3>
+                        <p>Aprenda sobre las capacidades de trabajadores de primera línea en Teams.</p>
+                        <p><i>Público: usuarios finales</i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>        </ul>
         </li>
     </ul>
     </div>
