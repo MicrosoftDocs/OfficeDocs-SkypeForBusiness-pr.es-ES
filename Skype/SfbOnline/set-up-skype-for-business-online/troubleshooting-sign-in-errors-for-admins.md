@@ -194,7 +194,7 @@ Para solucionar este problema, siga estos pasos:
 
 1. Establezca el atributo **msRTCSIP-UserEnabled** en todos los usuarios afectados como **TRUE**. 
 
-2. Vuelva a ejecutar la Herramienta de sincronización de directorios (DirSync) de Microsoft Online Services. Para más información, vea [Integración de los directorios locales con Azure Active Directory](https://technet.microsoft.com/es-ES/library/hh967642.aspx) 
+2. Vuelva a ejecutar la Herramienta de sincronización de directorios (DirSync) de Microsoft Online Services. Para más información, vea [Integración de los directorios locales con Azure Active Directory](https://technet.microsoft.com/en-us/library/hh967642.aspx) 
 
 Para solucionar errores durante el inicio de sesión en Skype Empresarial Online, empiece por eliminar las causas más frecuentes de dificultades durante el inicio de sesión. Si es necesario, puede seguir pasos específicos de solución, según el tipo de error. Si, aún así, el usuario no puede iniciar sesión, recopile más información y busque más ayuda.
 ## <a name="use-the-microsoft-support-troubleshooting-guide"></a>Usar la guía de solución de problemas del Soporte técnico de Microsoft
