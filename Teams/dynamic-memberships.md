@@ -11,16 +11,15 @@ search.appverid: MET150
 description: Obtenga más información sobre la pertenencia a equipos dinámicos basadas en AAD.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4a0a7d9487b7697bad5ac565b98e605c4cc81dc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3d22c7f068617cd4c5c73c850a37eaa89a0c8efa
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237810"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569901"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>Información general sobre la pertenencia dinámica para los equipos
 
@@ -31,7 +30,7 @@ Con la pertenencia dinámica puede configurar Teams para determinados cohorts de
 - Una universidad puede crear un equipo para todos los profesores dentro de una universidad determinada, entre ellos un profesorado de Adjunct que cambia con frecuencia.
 - Una línea aérea desea crear un equipo para cada vuelo (como un martes por la tarde sin detenerse en Chicago) y se les asigna o elimina un equipo de vuelo que cambia con frecuencia según sea necesario.
 
-Con esta característica, los miembros de un equipo dado se actualizan automáticamente según un conjunto específico de criterios, en lugar de administrar la pertenencia de forma manual. Para ello, es necesario que [un administrador](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) de inquilinos pueda asignar licencias de Azure ad Premium P1 y la pertenencia al equipo a las propiedades de Azure ad de cualquier usuario siempre que tenga un inquilino y una cuenta de administrador.
+Con esta característica, los miembros de un equipo dado se actualizan automáticamente según un conjunto específico de criterios, en lugar de administrar la pertenencia de forma manual. Para ello, es necesario que [un administrador de inquilinos pueda asignar](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) licencias de Azure ad Premium P1 y la pertenencia al equipo a las propiedades de Azure ad de cualquier usuario siempre que tenga un inquilino y una cuenta de administrador.
 
 Microsoft Teams puede tardar desde unos minutos hasta 2 horas en reflejar los cambios dinámicos de pertenencia, una vez que se aplican al grupo de Office 365 de un equipo.
 

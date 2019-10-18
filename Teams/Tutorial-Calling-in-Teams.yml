@@ -13,17 +13,15 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
-  - Teams_ITAdmin_PracticalGuidance
-  - Teams_ITAdmin_Training
-  - M365-collaboration
+  - M365-voice
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: e94334eb0cfab8b4e9bf9c42035d33d3584aef5f
-  ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+  ms.openlocfilehash: a2e373c46ee3c07f3842f4c9632d42c84ceef496
+  ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 05/22/2019
-  ms.locfileid: "34381780"
+  ms.lasthandoff: 10/17/2019
+  ms.locfileid: "37566992"
 items:
 - durationInMinutes: 1
   content: >
@@ -248,4 +246,4 @@ items:
   content: "\nAhora que ha planificado e implementado correctamente Sistema telefónico en su entorno, debe asegurarse de que se utiliza y proporciona una experiencia de usuario de calidad. Aunque los detalles completos exceden el alcance de este recurso de formación, queremos destacar las áreas más importantes del proceso de implementación:\n\n-   Los usuarios de la adopción y la administración de cambios pueden simplemente comenzar a usar el servicio al ofrecerlo. que no lo hagan. Por lo tanto, es importante ejecutar una buena administración de la adopción y el cambio.\n\n-   Supervisar y conducir el uso le recomendamos que uno de sus KSIs sea el número de usuarios activos, para ayudarle a medir cómo se aceptan los equipos como clientes telefónicos.\n\n-   Supervisar y mejorar la calidad\n\nLa satisfacción de sus usuarios está directamente relacionada con la calidad de sus llamadas, por lo que es importante que supervise la calidad de las llamadas y la mejore, si es necesario. Para comprender cómo generar informes sobre la calidad de las llamadas, consulte el recurso de formación Panel de calidad de llamadas. Aunque estos vídeos se han creado para Skype empresarial, también se aplican a los equipos: <https://aka.ms/sof-cqd>.\n"
 - title: Pasos siguientes
   durationInMinutes: 1
-  content: "\nEn este curso de formación, hemos explicado los siguientes puntos clave:\n-   ¿Que son las llamadas en Microsoft Teams?\n\n-   Cómo planificar las llamadas en Microsoft Teams\n\n-   Cómo configurar las llamadas en Microsoft Teams\n\nPara obtener más información, consulte:\n\n-   [Sistema telefónico con planes de llamadas](calling-plan-landing-page.md)\n\n-   [Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nPasos siguientes\n\n1.  Regístrese en [MyAdvisor](https://aka.ms/myadvisor) para obtener ayuda personalizada acerca de la implementación del servicio.\n2.  Comience su implementación de Sistema telefónico para Microsoft Teams\n3.  Envíenos su opinión:\n    - Haga una publicación en la sección de comentarios de la parte inferior de esta página.\n    - Para enviarnos comentarios sobre Microsoft Teams o compartir con nosotros sus ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n4.  Mantente al día:\n    - Siga el [blog](https://aka.ms/teamsblog)de Teams.\n    - Lea la [Guía básica](https://aka.ms/O365Roadmap)de Teams.\n    - Obtenga más información sobre las características publicadas más recientes en las notas de la [versión](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n5.  Descubra [más módulos de formación y tutoriales](https://aka.ms/Teamsacademy)."
+  content: "\nEn este curso de formación, hemos explicado los siguientes puntos clave:\n-   ¿Que son las llamadas en Microsoft Teams?\n\n-   Cómo planificar las llamadas en Microsoft Teams\n\n-   Cómo configurar las llamadas en Microsoft Teams\n\nPara obtener más información, consulte:\n\n-   [Sistema telefónico con Planes de llamada](calling-plan-landing-page.md)\n\n-   [Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/configuring-teams-calling-quickstartguide)\n\nPasos siguientes\n\n1.  Comience su implementación de Sistema telefónico para Microsoft Teams\n2.  Envíenos su opinión:\n    - Haga una publicación en la sección de comentarios de la parte inferior de esta página.\n    - Para enviarnos comentarios sobre Microsoft Teams o compartir con nosotros sus ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).\n3.  Mantente al día:\n    - Siga el [blog de Teams](https://aka.ms/teamsblog).\n    - Lea la [Guía básica de Teams](https://aka.ms/O365Roadmap).\n    - Obtenga más información sobre las características publicadas más recientes en las notas de la [versión](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de).\n4.  Descubra [más módulos de formación y tutoriales](https://aka.ms/Teamsacademy)."

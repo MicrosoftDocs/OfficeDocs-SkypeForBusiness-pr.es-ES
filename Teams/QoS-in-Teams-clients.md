@@ -12,16 +12,15 @@ description: Implemente la calidad de servicio (QoS) para los clientes de Micros
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-voice
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91b761cafa15172ae3fb0126f5059408e1a5f7ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 28e6664fa43819493e5b9e02d182bcec44f00905
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36246201"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572568"
 ---
 # <a name="set-qos-on-windows-clients"></a>Configurar QoS en clientes de Windows
 
@@ -52,7 +51,7 @@ Para crear una directiva de audio de QoS para equipos con Windows 10 Unidos a un
 
 6. En el cuadro de diálogo **QoS basado en directivas** , en la página de apertura, escriba un nombre para la nueva Directiva en el cuadro **nombre** . Seleccione **especificar valor de DSCP** y establezca el valor en **46**. Deje la **tasa de límite saliente** desactivada y, a continuación, haga clic en **siguiente**.
 
-7. En la página siguiente, seleccione **solo las aplicaciones con este nombre de archivo ejecutable** y, **** a continuación, haga clic en **siguiente**. Esta configuración indica a la Directiva que solo asigne prioridad al tráfico coincidente del cliente de equipos.
+7. En la página siguiente, seleccione **solo las aplicaciones con este nombre de archivo ejecutable** **y, a**continuación, haga clic en **siguiente**. Esta configuración indica a la Directiva que solo asigne prioridad al tráfico coincidente del cliente de equipos.
 
 8. En la tercera página, asegúrese de que **todas las direcciones IP de origen** y **cualquier dirección IP de destino** estén seleccionadas y, a continuación, haga clic en **siguiente**. Estas dos opciones de configuración garantizan que los paquetes se administrarán independientemente del equipo (dirección IP) que hayan enviado los paquetes y del equipo (dirección IP) que recibirá los paquetes.
 
@@ -90,7 +89,7 @@ Para comprobar que se han establecido los valores del objeto de directiva de gru
    gpresult /H >gp.html
    ```
 
-   ![Captura de pantalla de la ventana de la consola que ejecuta el comando Gpresult.] (media/Qos-in-Teams-Image3.png "Captura de pantalla de la ventana de la consola que ejecuta el comando Gpresult.")
+   ![Captura de pantalla de la ventana de la consola que ejecuta el comando Gpresult.](media/Qos-in-Teams-Image3.png "Captura de pantalla de la ventana de la consola que ejecuta el comando Gpresult.")
 
 3. En el archivo generado, busque el encabezado **Applied Group Policy Objects** y compruebe que los nombres de los objetos de directiva de grupo creados anteriormente se encuentran en la lista de directivas aplicadas.
 

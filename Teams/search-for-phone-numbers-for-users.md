@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Consulte Cómo buscar números de teléfono que puede asignar a sus usuarios, por país o región y ciudad, y especifique la cantidad de números que necesita.
-ms.openlocfilehash: 59f97e3e2aa7a1c68d4727a06ac0e4f897f9e6b3
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: b3e7c93fd2759beed7588bda49d0326f018a4ab8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348852"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573442"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 

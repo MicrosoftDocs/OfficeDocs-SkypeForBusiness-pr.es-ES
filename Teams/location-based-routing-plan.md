@@ -12,17 +12,15 @@ search.appverid: MET150
 description: Aprenda a planificar el enrutamiento basado en la ubicación para el enrutamiento directo.
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38097d06cff62481d48c794b83a01a2fa1155b52
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245122"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570693"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -89,7 +87,7 @@ En esta sección se describen diferentes escenarios para restringir el omisión 
 
 En el diagrama siguiente se muestran las restricciones habilitadas por el enrutamiento basado en la ubicación en cada escenario. Los usuarios, los sitios de red y las puertas de enlace habilitadas para el enrutamiento basado en la ubicación tienen un borde a su lado. Use el diagrama como guía para comprender cómo funciona el enrutamiento basado en la ubicación en cada escenario.  
 
-![Diagrama que muestra escenarios de enrutamiento basado en la ubicación] (media/lbr-direct-routing.png "Diagrama que muestra escenarios de enrutamiento basado en la ubicación")
+![Diagrama que muestra escenarios de enrutamiento basado en la ubicación](media/lbr-direct-routing.png "Diagrama que muestra escenarios de enrutamiento basado en la ubicación")
 
 ### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>El usuario de Teams realiza una llamada saliente a la RTC
 
@@ -219,7 +217,7 @@ También se permite el reenvío al buzón de voz.
 
 Un usuario de Teams puede elegir delegados que pueden hacer y recibir llamadas en su nombre. La capacidad de delegación de Teams se ve afectada por el enrutamiento basado en la ubicación de la siguiente manera: 
 - Para las llamadas salientes desde un delegado habilitado para enrutamiento basado en la ubicación en nombre de un delegador, se aplican las mismas reglas. El enrutamiento de llamadas se basa en la Directiva de autorización de llamadas del delegado, la Directiva de enrutamiento de voz y la ubicación. Para obtener más información, vea [el usuario de Teams coloca una llamada saliente a la RTC](#teams-user-places-an-outbound-call-to-the-pstn). 
-- Para las llamadas RTC entrantes a un delegador, las mismas reglas de enrutamiento basadas en la ubicación que se aplican al desvío de llamadas o a llamadas simultáneas a otros usuarios también se aplican a delegados. Para obtener más información, vea las transferencias de usuarios de Teams o reenvían una [llamada a otro usuario](#teams-user-transfers-or-forwards-call-to-another-teams-user)de Teams; [](#simultaneous-ringing) [](#teams-user-transfers-or-forwards-call-to-pstn-endpoint) Cuando un delegado establece un punto final de la RTC como un destino de llamada simultánea, se usa la Directiva de enrutamiento de voz del delegado para enrutar la llamada a la RTC. 
+- Para las llamadas RTC entrantes a un delegador, las mismas reglas de enrutamiento basadas en la ubicación que se aplican al desvío de llamadas o a llamadas simultáneas a otros usuarios también se aplican a delegados. Para obtener más información, vea las [transferencias de usuarios de Teams o reenvían una llamada a otro usuario](#teams-user-transfers-or-forwards-call-to-another-teams-user) [de Teams](#teams-user-transfers-or-forwards-call-to-pstn-endpoint); [](#simultaneous-ringing) Cuando un delegado establece un punto final de la RTC como un destino de llamada simultánea, se usa la Directiva de enrutamiento de voz del delegado para enrutar la llamada a la RTC. 
 - Para la delegación, se recomienda que el delegador y los delegados asociados se encuentren en el mismo sitio de red. 
 
 ## <a name="other-planning-considerations"></a>Otras consideraciones de planificación

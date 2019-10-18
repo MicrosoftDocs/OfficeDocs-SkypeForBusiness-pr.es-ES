@@ -6,7 +6,6 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 ms.reviewer: sonua
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 355f24a6156e42d8984e360cb6ab06c483b56413
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 43a5914c0ad9690859264e5c64e0652a5095decb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483237"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570151"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -38,7 +37,7 @@ Los eventos de Teams Live se consideran la siguiente versión de difusión de re
 
 Por tanto, vamos a empezar. En primer lugar, eche un vistazo al siguiente diagrama en el que se muestran los componentes de alto nivel relacionados con los eventos en directo de Microsoft 365 y cómo se conectan. 
 
-![Diagrama que muestra componentes clave de eventos en directo] (../media/teams-live-events.png  "Diagrama en el que se muestran componentes clave de eventos en directo, programación, producción, plataforma de secuencias, proveedores certificados de eCDN de terceros")
+![Diagrama que muestra componentes clave de eventos en directo](../media/teams-live-events.png  "Diagrama en el que se muestran componentes clave de eventos en directo, programación, producción, plataforma de secuencias, proveedores certificados de eCDN de terceros")
 
 ### <a name="event-group-roles"></a>Roles de grupos de eventos
 Los eventos en directo de Teams permiten a varias funciones (organizador, productor, moderador y asistente) difundir y participar correctamente en un evento. Para obtener más información, consulte [roles de grupos de eventos](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
@@ -52,18 +51,18 @@ Puede ver en la imagen de arriba que hay cuatro componentes clave que se usan co
 ### <a name="scheduling"></a>Programación
 Teams permite a los organizadores crear un evento con los permisos de asistente apropiados, designar miembros del equipo del evento, seleccionar un método de producción e invitar a los asistentes. Si el evento en directo se creó desde un grupo de Yammer, los asistentes del evento en directo podrán usar la conversación de Yammer para interactuar con las personas en el evento. 
 
-![Captura de pantalla que muestra la pantalla de eventos nuevos en directo] (../media/teams-live-events-schedule.png "Captura de pantalla que muestra la nueva pantalla de eventos en directo para crear y programar un evento en directo")
+![Captura de pantalla que muestra la pantalla de eventos nuevos en directo](../media/teams-live-events-schedule.png "Captura de pantalla que muestra la nueva pantalla de eventos en directo para crear y programar un evento en directo")
 
 ### <a name="production"></a>Elaboración
 La entrada de video es el fundamento del evento en vivo y puede variar desde una sola cámara web a una producción de video profesional con varias cámaras. Los eventos en directo de Microsoft 365 admiten un espectro de escenarios de producción, incluido un evento producido en Teams con una cámara web o un evento generado en una aplicación o dispositivo externo. Puede elegir estas opciones en función de los requisitos del proyecto y el presupuesto. Existen dos formas de generar eventos:
 
 - **Equipos**: este método de producción permite a los usuarios producir sus eventos en vivo en Teams usando su cámara web o usar la entrada a/V de los equipos de la sala de equipos. Esta es la opción más rápida y rápida si desea usar los dispositivos de audio y vídeo conectados al equipo o invitar a los moderadores remotos a participar en el evento. Esta opción permite a los usuarios utilizar fácilmente sus cámaras Web y compartir su pantalla como entrada en el evento. 
 
-    ![Captura de pantalla que muestra un evento en directo producido con el método de inicio rápido] (../media/teams-live-events-quick-start.png "Captura de pantalla que muestra un evento en directo que se produce con el método de inicio rápido de producción")
+    ![Captura de pantalla que muestra un evento en directo producido con el método de inicio rápido](../media/teams-live-events-quick-start.png "Captura de pantalla que muestra un evento en directo que se produce con el método de inicio rápido de producción")
 
 - **Dispositivo o aplicación externa**: los codificadores externos permiten a los usuarios producir sus eventos en directo directamente desde un hardware externo o codificador basado en software con [Stream](https://stream.microsoft.com). Esta opción es la mejor si ya tiene equipos de calidad de estudio (por ejemplo, las mezclas multimedia) que admiten transmisiones a un servicio RTMP (Protocolo de mensajería en tiempo real). Este tipo de producción suele usarse en eventos de gran escala, como salas de la ciudad Ejecutiva, donde una sola transmisión de un mezclador de medios se difunde al público. 
 
-    ![Captura de pantalla que muestra un evento en directo producido mediante una aplicación o un dispositivo externo] (../media/teams-live-events-external-encoder.png "Captura de pantalla que muestra un evento en directo que se produce con el método de producción de dispositivo o aplicación externa")
+    ![Captura de pantalla que muestra un evento en directo producido mediante una aplicación o un dispositivo externo](../media/teams-live-events-external-encoder.png "Captura de pantalla que muestra un evento en directo que se produce con el método de producción de dispositivo o aplicación externa")
 
 ### <a name="streaming-platform"></a>Plataforma de streaming
 La plataforma de transmisión por secuencias de eventos en directo consta de las siguientes partes:
@@ -80,7 +79,7 @@ El objetivo de eCDN es tomar el contenido de video de Internet y distribuir el c
 ### <a name="attendee-experience"></a>Experiencia de asistente 
 La experiencia de los asistentes es el aspecto más importante de los eventos en directo y es fundamental que los asistentes puedan participar en el evento en vivo sin tener ningún problema. La experiencia de asistente usa el reproductor multimedia de Azure (para eventos generados en Teams) y el reproductor de transmisión por secuencias (para eventos producidos en una aplicación o dispositivo externo) y funciona a través de escritorio, explorador y móvil (iOS, Android). Office 365 ofrece Yammer y Teams como dos concentradores de colaboración y la experiencia de los asistentes en vivo se integra en estas herramientas de colaboración. 
 
-![Captura de pantalla que muestra la experiencia de asistente de eventos en directo] (../media/teams-live-events-attendee.png "Captura de pantalla que muestra la experiencia de asistente de eventos en directo")
+![Captura de pantalla que muestra la experiencia de asistente de eventos en directo](../media/teams-live-events-attendee.png "Captura de pantalla que muestra la experiencia de asistente de eventos en directo")
 
 ### <a name="live-event-usage-report"></a>Informe de uso de eventos en directo 
 Los administradores de inquilinos pueden ver análisis de uso de tiempo real de eventos en directo en el centro de administración de Microsoft Teams.  El [Informe de uso de eventos en directo](../teams-analytics-and-reports/teams-live-event-usage-report.md) muestra la información general de actividad de los eventos en directo que se mantienen en la organización.  Los administradores pueden ver la información de uso de eventos, como el estado de los eventos, la hora de inicio, las vistas y el tipo de producción.  

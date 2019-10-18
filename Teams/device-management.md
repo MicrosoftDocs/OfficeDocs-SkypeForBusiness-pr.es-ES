@@ -10,7 +10,6 @@ audience: admin
 ms.reviewer: kelsawi
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 f1keywords:
 - ms.teamsadmincenter.managedevices.overview
 - ms.teamsadmincenter.devicemanagement.overview
@@ -18,12 +17,12 @@ description: Obtenga información sobre cómo administrar dispositivos usados co
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38d716396a61f259a3a1ac90f45b0b5b4b110e33
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: d1473acc92113cc8788ae5cc27eecc11ad909124
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434905"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571796"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Administrar sus dispositivos en Microsoft Teams
 

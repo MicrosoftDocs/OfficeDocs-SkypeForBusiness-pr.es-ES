@@ -12,16 +12,15 @@ localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a167c8a6df85b5d3d861f42ce40f67e845709a77
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: b99941cfcd1622a20304ec9fd8d52143c9690ab9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767128"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573278"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública-GCC
 
@@ -50,7 +49,7 @@ La [Descripción del servicio del gobierno de Office 365 Estados](https://techne
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Microsoft 365 Government-GCC es adecuado para su organización.</li><li>Confirme que su organización cumple con los requisitos de elegibilidad.</li></ul> |
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Microsoft 365 Government-GCC es adecuado para su organización.</li><li>Confirme que su organización cumple con los requisitos de elegibilidad.</li></ul> |
 
 > [!Note]
 > Microsoft 365 Government-GCC solo está disponible en los Estados Unidos. Los clientes que no sean Estados Unidos pueden elegir entre varios [planes de Office 365 administración pública](https://products.office.com/en/government/compare-office-365-government-plans).
@@ -75,7 +74,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales en la nube,
 |                             | Característica                     | GCC            |
 |-----------------------------|-----------------------------|----------------|
 | Básica | Inicio de sesión | Disponible |
-| | Presencia | Disponible |
+| | Presence | Disponible |
 | | Presencia unificada (Skype empresarial y equipos unificados) | Disponible |
 | Actividades | Suministros | Disponible |
 |  | Mi actividad | Disponible |
@@ -84,7 +83,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales en la nube,
 | | Organigrama | Disponible |
 | | Actividades | Disponible |
 | | Interoperabilidad (1:1 equipos-conversación de Skype empresarial) | Disponible |
-| Microsoft Teams | Mensaje de canal | Disponible |
+| Teams | Mensaje de canal | Disponible |
 | | Archivos de canal | Disponible |
 | | Pestaña OneNote | En el trabajo pendiente del gobierno |
 | | Enviar por correo electrónico un canal | No disponible |

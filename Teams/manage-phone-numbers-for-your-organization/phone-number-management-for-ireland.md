@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Irlanda para Microsoft Teams.
-ms.openlocfilehash: f38e79b28f32c02157c5b0ce4c4820289343122f
-ms.sourcegitcommit: 3abc3dcaa79ebd8e4326fa282874500c4425e64f
+ms.openlocfilehash: 57cb80ccba7ab099bc51aa89e69d6857c6699dc3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35347966"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570594"
 ---
 # <a name="phone-number-management-for-ireland"></a>Administración de números de teléfono para Irlanda
 

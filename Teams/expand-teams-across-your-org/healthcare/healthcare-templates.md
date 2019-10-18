@@ -9,18 +9,18 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a las plantillas para las organizaciones sanitarias de Teams
-ms.openlocfilehash: 9a00d0d707867d009a9bc724d88fd4f9d8e6997f
-ms.sourcegitcommit: 113c00a26c5a6ad22ef24b1bdcd830e7c2cd14ff
+ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36852844"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570352"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas para las organizaciones sanitarias de Teams
 

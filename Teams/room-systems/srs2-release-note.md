@@ -9,14 +9,15 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: 9bf1cfa76b9049f426dd2b54e77e9461127df092
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: d432d12b8f17f12e49ea0622ce3ec97cefb2e36a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435141"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573533"
 ---
 # <a name="release-notes"></a>Notas de la versión
 

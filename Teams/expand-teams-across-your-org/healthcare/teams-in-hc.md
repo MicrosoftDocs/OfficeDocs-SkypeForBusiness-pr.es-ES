@@ -8,17 +8,19 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a Teams para organizaciones sanitarias
-ms.openlocfilehash: 5fe896db8acf690fbb71b1b6ecf0fcd571d903c5
-ms.sourcegitcommit: c22e55cda855ec61e5b6cb3455d6b87467c24e21
+ms.openlocfilehash: e8c41249da52ce9a5e19471954de6d71db3df1b3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37159735"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569237"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 

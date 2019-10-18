@@ -14,16 +14,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: acc5b6dc41fefc0a04d8efcf2951eeff18f904a8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e2a1d22b5e19a89b873e8961676274f655f35738
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242098"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570627"
 ---
 <a name="manage-the-free-version-of-microsoft-teams"></a>Administrar la versión gratuita de Microsoft Teams
 ==========================================

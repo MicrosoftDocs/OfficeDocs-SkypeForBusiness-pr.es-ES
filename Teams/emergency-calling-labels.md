@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Puede descargar estas etiquetas para las llamadas de emergencia cuando esté usando planes de llamadas en Office 365.
-ms.openlocfilehash: 0a8476fbe671b55136db371b5a83f778c3ba22c0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 408ee0224618be1f5701f0bd16b94d643849d2f9
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298886"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571873"
 ---
 # <a name="emergency-calling-labels"></a>Etiquetas de llamadas de emergencia
 

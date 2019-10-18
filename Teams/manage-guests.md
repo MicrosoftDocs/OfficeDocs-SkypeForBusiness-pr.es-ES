@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Los administradores de TI pueden agregar invitados en el nivel de inquilino, configurar y administrar permisos y directivas de usuarios invitados, determinar qué usuarios pueden invitar y extraer informes sobre la actividad de los usuarios invitados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3ede35352436074cbf7c94fc9df78100a73a017
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7db3d42a8d4ae44364ee56f6c7f31ce501a34137
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241813"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567622"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado en Microsoft Teams
 ======================================
@@ -31,14 +31,14 @@ Después de activar el tipo de licencia o usuario **invitado** , puede configura
     
 Los administradores de TI pueden agregar invitados en el nivel de espacio empresarial, establecer y administrar las directivas y permisos de los usuarios invitados, y extraer informes sobre la actividad de los usuarios invitados. Estos controles están disponibles a través del centro de administración de Microsoft Teams. Las actividades y el contenido de los usuarios invitados están protegidos con el mismo cumplimiento de normativas y auditorías que el resto de Office 365.
 
-Los propietarios de equipo pueden invitar a nuevos invitados y agregar usuarios de invitados a sus equipos. Los propietarios de equipo pueden identificar a los usuarios invitados a través de **Teams** > **Manage Teams**y establecer capacidades relacionadas con los canales para los invitados a través de la configuración > de invitado de **la organización****acceso de invitado**, que incluye permitir a los invitados crear, actualizar y Elimine los canales, como se muestra en la siguiente ilustración.
+Los propietarios de equipo pueden invitar a nuevos invitados y agregar usuarios de invitados a sus equipos. Los propietarios de equipo pueden identificar a los usuarios invitados a través de **Teams** > **Manage Teams**y establecer capacidades relacionadas con los canales para los invitados a través de **la configuración** > de invitado de la organización**acceso de invitado**, que incluye permitir a los invitados crear, actualizar y Elimine los canales, como se muestra en la siguiente ilustración.
 
 ![Configuración de los permisos de invitado en Teams](media/manage-guest-access-image1.png)
   
 Puede usar el portal de Azure Active Directory (Azure AD) para administrar los invitados y su acceso a los recursos de Office 365 y Teams. El acceso de invitado de Teams usa las capacidades de colaboración de Azure AD negocio a negocio (B2B) como la infraestructura subyacente para almacenar información sobre los principios de seguridad, como las propiedades de identidad, las pertenencias y la configuración de la autenticación multifactor. Para obtener más información sobre B2B de Azure AD, vea [¿Qué es la colaboración B2B de Azure ad?](https://go.microsoft.com/fwlink/p/?linkid=853011) y [preguntas frecuentes sobre la colaboración B2B de Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853020).
 
 > [!NOTE]
-> Microsoft Teams siempre respeta la configuración externa de Azure AD para permitir o evitar adiciones de usuarios invitados al inquilino. Para obtener más información, consulte autorizar el [acceso de invitados en Microsoft Teams](Teams-dependencies.md).
+> Microsoft Teams siempre respeta la configuración externa de Azure AD para permitir o evitar adiciones de usuarios invitados al inquilino. Para obtener más información, consulte [autorizar el acceso de invitados en Microsoft Teams](Teams-dependencies.md).
   
 ## <a name="guest-access-vs-external-access-federation"></a>Diferencias entre el acceso de invitados y el acceso externo (federación)
 

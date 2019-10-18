@@ -7,18 +7,19 @@ ms.date: 07/08/2019
 ms.topic: article
 ms.service: msteams
 audience: admin
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 ms.reviewer: vikramju
 description: Obtenga más información sobre las barreras de información y cómo afectan a teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1238e0e4d015a9216523c96e981e3f37ad54c131
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bd9ac22a45d0e76e8f2d31c3d11be726148b3863
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245368"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572074"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -81,7 +82,7 @@ En la actualidad, los usuarios experimentan lo siguiente si una directiva de bar
 
 - **Pestaña personas** : un usuario puede ver algunos usuarios bloqueados en la pestaña **contactos** . El usuario puede seleccionar a los usuarios bloqueados.
 - **Ficha actividad** : Si un usuario visita la pestaña **actividad** de un usuario bloqueado, no aparecerá ninguna publicación. (La ficha **actividad** muestra solo las publicaciones de canal y no habría canales comunes entre los dos usuarios).
-- **** Organigramas: Si un usuario obtiene acceso a un organigrama en el que aparece un usuario bloqueado, el usuario verá el usuario bloqueado en el gráfico y podrá hacer clic en acciones en el gráfico, pero las acciones (como la llamada) no se realizarán.
+- **Organigramas: si** un usuario obtiene acceso a un organigrama en el que aparece un usuario bloqueado, el usuario verá el usuario bloqueado en el gráfico y podrá hacer clic en acciones en el gráfico, pero las acciones (como la llamada) no se realizarán.
 - **Tarjeta de contactos** : Si un usuario participa en una conversación y posteriormente se bloquea, otros usuarios pueden seguir viendo la tarjeta contactos para el usuario bloqueado. Todas las acciones que aparecen en la tarjeta (como llamadas y chats) estarán disponibles, pero no se realizarán las acciones.
 - **Contactos sugeridos** : en la lista de contactos sugeridos (la lista de contactos inicial que aparece para los nuevos usuarios), los usuarios pueden ver todos los contactos sugeridos (incluidos los usuarios bloqueados). Sin embargo, si un usuario hace clic en el nombre de un usuario bloqueado para abrir el panel de chats, el mensaje se bloqueará.
 - **Contactos de chat** : un usuario puede ver usuarios bloqueados en la lista de contactos de chat.
@@ -92,7 +93,7 @@ Próximamente: los usuarios experimentarán lo siguiente si una directiva de bar
 
 - **Pestaña personas** : un usuario no puede ver usuarios bloqueados en la pestaña **contactos** .
 - **Ficha actividad** : Si un usuario visita la pestaña **actividad** de un usuario bloqueado, no aparecerá ninguna publicación. (La ficha **actividad** muestra solo las publicaciones de canal y no habría canales comunes entre los dos usuarios).
-- **** Organigramas: Si un usuario accede a un organigrama en el que aparece un usuario bloqueado, dicho usuario no aparecerá en el organigrama y aparecerá un mensaje de error.
+- **Organigramas: si** un usuario accede a un organigrama en el que aparece un usuario bloqueado, dicho usuario no aparecerá en el organigrama y aparecerá un mensaje de error.
 - **Tarjeta de contactos** : Si un usuario participa en una conversación y el usuario se bloquea posteriormente, otros usuarios verán un mensaje de error en lugar de la tarjeta de contactos cuando pasen el mouse sobre el nombre del usuario bloqueado. Las acciones que aparecen en la tarjeta (como llamadas y conversaciones) no estarán disponibles.
 - **Contactos sugeridos** : los usuarios bloqueados no aparecen en la lista de contactos sugeridos (la lista de contactos inicial que aparece para los nuevos usuarios).
 - **Contactos de chat** : un usuario no puede ver usuarios bloqueados en la lista de contactos de chat.

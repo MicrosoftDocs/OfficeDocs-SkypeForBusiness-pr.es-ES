@@ -9,19 +9,18 @@ ms.service: msteams
 audience: admin
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
 description: Descubra todas las formas de obtener ayuda en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6089523326d3e445aa189a570938e1604a4bda0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b1e552ad73bbea9ce35a27fb1c797b03580311d6
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245908"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565294"
 ---
 <a name="get-help-in-microsoft-teams"></a>Obtener ayuda en Microsoft Teams
 ============================================
@@ -36,8 +35,8 @@ Teams proporciona compatibilidad localizada con el idioma del contenido de la ay
 
  - **Vídeos** : nuestro contenido de vídeo a petición permite a los usuarios aprender tareas específicas rápidamente. Estamos continuamente generando nuevos videos, así que vuelve a consultar con frecuencia. Por supuesto, se necesita acceso a Internet. 
 
- - **** Novedades - 
-   Notas de versión periódicas para usuarios y propietarios de equipo acerca de las características de Teams nuevas o actualizadas.
+ - Novedades de **la** - 
+   versión periódica de las notas de la versión para usuarios y propietarios de equipos acerca de las características de Teams nuevas o actualizadas.
 
  - **Compartir una idea** : siempre queremos saber cómo mejorar Teams. Esta opción te lleva a nuestro foro de comentarios sobre productos, donde puedes enviar solicitudes de características nuevas o votar en las existentes. Revisamos constantemente esta información a medida que planeamos nuevas características. 
 

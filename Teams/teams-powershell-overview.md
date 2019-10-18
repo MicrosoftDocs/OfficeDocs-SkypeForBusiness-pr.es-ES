@@ -10,16 +10,15 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75bb6a982db4ab3986a423cf958ad8e81105380c
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: a83e8114020ef400ba983f483727436bbd383736
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439588"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570129"
 ---
 # <a name="teams-powershell-overview"></a>Descripción de PowerShell para Teams
 

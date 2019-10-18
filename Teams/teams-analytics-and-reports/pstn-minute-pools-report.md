@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Aprenda a usar el informe de grupos de minutos RTC de Teams en el centro de administración de Microsoft Teams para ver el número de minutos consumidos durante el mes actual de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 900d847b5b0978ca2bfdccd4788a828a32f2ee3b
-ms.sourcegitcommit: 3ce40094a58509b69376b941b151c9d1c8538654
+ms.openlocfilehash: f67bc5e20d9e1f23e63b0b4c78b3e198d4b30a40
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37428350"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568391"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Informe de grupos de minutos RTC de Microsoft Teams
 
@@ -30,7 +29,7 @@ El informe grupos de grupos de minutos RTC en el centro de administración de Mi
 
 En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **grupos de minutos RTC**y, a continuación, haga clic en **Ejecutar Informe**.
 
-![Captura de pantalla del informe de grupos de minutos RTC de Teams en el centro de administración](../media/teams-reports-pstn-minute-pools-with-callouts.png "captura de la informe de grupos de minutos RTC de Teams en el centro de administración de Microsoft Teams con llamadas numeradas")
+![Captura de pantalla del informe de grupos de minutos RTC de Teams en el centro de administración](../media/teams-reports-pstn-minute-pools-with-callouts.png "Captura de pantalla del informe de grupos de minutos RTC de Teams en el centro de administración de Microsoft Teams con llamadas numeradas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 

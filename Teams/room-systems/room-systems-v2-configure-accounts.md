@@ -10,17 +10,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: ''
 description: Lea este tema para obtener información sobre cómo configurar cuentas para salas de Microsoft Teams en Exchange y Skype empresarial.
-ms.openlocfilehash: 0ba44079e52a644e1d53ae937582a8d209f921da
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 287ebcd421a41f088774920a2ec655ac7c562038
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775144"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573621"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar cuentas para salas de Microsoft Teams
  

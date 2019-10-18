@@ -8,7 +8,6 @@ ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -18,16 +17,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga más información sobre las licencias de complementos, las características y cómo comprar para los planes de Office 365 Enterprise E5. '
-ms.openlocfilehash: f092faaafd15f77c448ba66237c7ab0653aae2d6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 14aa5e8a4c368b5e759a9248d625e4d1a32ba82d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242597"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572481"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 
-El plan [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) incluye la mayoría de las características de Microsoft Teams. Solo hay unas pocas opciones adicionales.
+El plan [Office 365 Enterprise E5](https://products.office.com/business/office-365-enterprise-e5-business-software) incluye la mayoría de las características de Microsoft Teams. Hay algunas opciones adicionales.
   
 |Para agregar esta característica|Esto es lo que debe hacer |
 |:------------------|:--------------------------|

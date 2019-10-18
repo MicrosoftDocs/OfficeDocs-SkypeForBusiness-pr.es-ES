@@ -12,16 +12,16 @@ description: Use esta lista de comprobación para ayudarle a configurar el acces
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83cd25ed9f675f04f090255cbc387275c0dee90d
-ms.sourcegitcommit: 5ec5df597614d402917e0585575dd69acda22172
+ms.openlocfilehash: e7f019f2260b1e86b422f8b4238439fbd2f1607a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "36253921"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563494"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitados de Teams
 ==========================================
@@ -70,7 +70,7 @@ Recuerde lo siguiente:
 2. Seleccione**configuración de usuario**de**usuarios** > de **Azure Active Directory** > .
 3. En **usuarios externos**, seleccione **administrar la configuración de colaboración externa**.
    > [!NOTE]
-   > La **configuración de colaboración externa** también está disponible en la página relaciones de la **organización** . En Azure Active Directory, en **administrar**, vaya a**configuración**de **relaciones** > organizativas.
+   > La **configuración de colaboración externa** también está disponible en la página relaciones de la **organización** . En Azure Active Directory, en **administrar**, vaya a > **configuración**de **relaciones organizativas**.
 4. En la página **configuración de colaboración externa** , elija las directivas que quiera habilitar.
 
   - **Los permisos de los usuarios invitados son limitados**: esta Directiva determina los permisos para los invitados de su directorio. Seleccione **sí** para bloquear a los invitados de determinadas tareas de directorio, como la enumeración de usuarios, grupos u otros recursos de directorio. Seleccione **no** para proporcionar a los invitados el mismo acceso a los datos de directorio que los usuarios habituales de su directorio.
@@ -101,7 +101,7 @@ Para obtener instrucciones detalladas sobre cómo configurar estas opciones, con
 Como mínimo, debe activar el acceso de invitado para Microsoft Teams en el **centro de administración de Microsoft Teams**. 
 
 1. En el centro de administración de Teams, seleccione**acceso de invitado a** **toda** > la organización.
-2. Establezca la opción **permitir acceso de invitado en Microsoft Teams** . ****
+2. Establezca la opción **permitir acceso de invitado en Microsoft Teams** **.**
 
     ![Captura de pantalla que muestra un ejemplo de alternancia de configuración de Teams](media/guest-access-checklist-set-up-guests-image1.png)
 

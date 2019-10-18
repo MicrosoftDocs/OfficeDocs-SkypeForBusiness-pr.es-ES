@@ -9,14 +9,15 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: En este artículo se comentan los problemas conocidos de Sala de Microsoft Teams por área de características.
-ms.openlocfilehash: eaf95f8afd470376ee4f14549b50df8b38d93d34
-ms.sourcegitcommit: e84becc101232b8017aab519378480c5dbebbb48
+ms.openlocfilehash: 79bebf69c0d4fc8dabff3e294166e7ab08b79166
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37468492"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571394"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  

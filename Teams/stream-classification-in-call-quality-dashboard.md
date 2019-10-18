@@ -8,8 +8,7 @@ ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: 6ed59111eea2c14da321cf1467b021980a223ec0
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: a64a3169087c6a485cd129e2e2214e773ef0c33c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328336"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570000"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
 
@@ -41,7 +40,7 @@ Si se cumplen una o varias de las siguientes condiciones, una secuencia de audio
 
 |Métrica|Condición|Explicación|
 |:-----|:-----|:-----|
-|Audio Degradation Avg|>1,0|Media de degradación de la puntuación de opinión media de la red en la transmisión. La cantidad de pérdida de la red y de vibración han influyedo en la calidad del audio recibido.|
+|Audio Degradation Avg|>1,0|Promedio de media de puntuación de la red: degradación de la transmisión. La cantidad de pérdida de la red y de vibración han influyedo en la calidad del audio recibido.|
 |Round Trip|>500|Promedio de tiempo de propagación de red de ida y vuelta, que se calcula en milisegundos. Detalles disponibles en [RFC3550](https://tools.ietf.org/html/rfc3550).|
 |Packet Loss Rate|>0,1|Porcentaje medio de pérdida de paquetes en la transmisión.|
 |Vibración|>30|Vibración media producida en la transmisión en milisegundos.|

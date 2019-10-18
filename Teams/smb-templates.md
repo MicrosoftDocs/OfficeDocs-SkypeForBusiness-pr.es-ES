@@ -9,18 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
 description: Introducción a las plantillas de Teams para pequeñas y medianas empresas
-ms.openlocfilehash: d9e626dad9bbdde655448d0a2052c394fff2ffb7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: acde79c2f7ce13088de1f80f968551ead2768fbf
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242969"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568672"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Introducción a las plantillas de Teams para pequeñas y medianas empresas
 
@@ -79,7 +78,7 @@ Content-Type: application/json
 
 ## <a name="departmental-team-template"></a>Plantilla de equipo departamental
 
-La plantilla de equipo departamental se puede usar para crear un equipo para departamentos individuales o para proyectos. La plantilla del equipo de finanzas es ideal para todas las publicaciones, anuncios y colaboración y comunicación diaria dentro de los miembros del equipo de Finanzas (y miembros del equipo ejecutivo según corresponda). La plantilla viene con un canal *privado* para invitar a determinados usuarios a determinados temas. También proporcionamos la siguiente secuencia de comandos para el equipo de finanzas, que se puede usar para ampliar la plantilla a otros departamentos o proyectos específicos agregando, eliminando o editando a su gusto. Por ejemplo, si tiene un departamento de *marketing* , el script puede adaptarse cambiando el nombre del equipo de Finance ** a *marketing* para crear un nuevo equipo de marketing
+La plantilla de equipo departamental se puede usar para crear un equipo para departamentos individuales o para proyectos. La plantilla del equipo de finanzas es ideal para todas las publicaciones, anuncios y colaboración y comunicación diaria dentro de los miembros del equipo de Finanzas (y miembros del equipo ejecutivo según corresponda). La plantilla viene con un canal *privado* para invitar a determinados usuarios a determinados temas. También proporcionamos la siguiente secuencia de comandos para el equipo de finanzas, que se puede usar para ampliar la plantilla a otros departamentos o proyectos específicos agregando, eliminando o editando a su gusto. Por ejemplo, si tiene un departamento de *marketing* , el script puede adaptarse cambiando el nombre del equipo de *Finance* a *marketing* para crear un nuevo equipo de marketing
 
 | Tipo de plantilla base | baseTemplateId | Propiedades que vienen con esta plantilla base |
 |:------------------ | :-------------- | :----------------------------------------------------- | 

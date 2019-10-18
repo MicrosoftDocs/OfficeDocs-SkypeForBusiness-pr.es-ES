@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para los Emiratos Árabes Unidos.
-ms.openlocfilehash: 8f3c0172a238b59e8c55096f98a1304de7851231
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 0dbc64e623bde870b4a694012b76202ec7de1225
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331031"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572537"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Disponibilidad en Emiratos Árabes Unidos
 

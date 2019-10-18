@@ -10,17 +10,16 @@ ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Aprenda a usar el informe de uso de Teams en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de Teams en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a31d3a6bf374e512dde0549dbbd59ed90904cd0
-ms.sourcegitcommit: a71ad6762e18267faaaac09533bac80a181102af
+ms.openlocfilehash: 7aba4d3e185052d7c4f5399dd9370a05a4a7dc0a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37439577"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570977"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams
 
@@ -31,7 +30,7 @@ El informe de uso de Teams en el centro de administración de Microsoft Teams pr
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **uso de equipos**.
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.
 
-    ![Captura de pantalla del informe de uso de equipos en el centro de administración de Teams con llamadas](../media/teams-reports-teams-usage-with-callouts.png "captura de pantalla del informe de uso de equipos en el centro de administración de Teams con llamadas")
+    ![Captura de pantalla del informe de uso de equipos en el centro de administración de Teams con llamadas](../media/teams-reports-teams-usage-with-callouts.png "Captura de pantalla del informe de uso de equipos en el centro de administración de Teams con llamadas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 

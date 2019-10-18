@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: 'Obtenga información sobre cómo agregar, cambiar o quitar una ubicación de emergencia para su organización en el centro de administración de Microsoft Teams. '
-ms.openlocfilehash: 0e0f334365f38b52c2f90b33d7c6550aa3095dc3
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ddef21811f4317f1ac10d5eb7d94bd67f1faaaad
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516833"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568702"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Agregar, cambiar o quitar una ubicación de emergencia para su organización
 
@@ -39,7 +39,7 @@ Para obtener información sobre cómo obtener un plan de llamadas y cuánto cues
 4. Seleccione el país o la región y, a continuación, escriba la dirección.
 
    > [!NOTE]
-   > En Bélgica, Francia, Francia, Irlanda, Países Bajos y España, es importante comprender que para activar correctamente un número de teléfono en Office 365, la configuración de la dirección en la ubicación de emergencia, el sistema operativo utilizado para adquirir el número, debe coincidir con el área del número de teléfono. codifica.
+   > En Bélgica, Francia, Alemania, Irlanda, Países Bajos y España, es importante comprender que para activar correctamente un número de teléfono en Office 365, la dirección configurada en la ubicación de emergencia, que se usa para adquirir el número, debe coincidir con la del número de teléfono. código de área.
 5. Si no se encuentra la dirección y desea modificar la dirección manualmente, Active **permitir que edite el formulario de la dirección manualmente si no se puede encontrar la dirección seleccionada**.
 6. Haga clic en **Guardar **.
     

@@ -10,9 +10,8 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Como administrador de Office 365, puede editar la configuración de Audioconferencia de Microsoft Teams (como el proveedor, el número gratuito o de pago predeterminado, el Id. de conferencia o el PIN) para una persona de su organización. '
-ms.openlocfilehash: 808b1c9034cd6e246ccd4110d588b208004b97cc
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 673441acebf9b31893925539471040bffa621f38
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343981"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571928"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para un usuario en Microsoft Teams
 
@@ -46,7 +45,7 @@ Como un administrador de Office 365, puede editar la configuración de Audioconf
 |**Enviar información de conferencia por correo electrónico**  |Haga clic en este vínculo solo si desea enviar inmediatamente un correo electrónico al usuario con su número de teléfono e Id. de conferencia. (Este correo electrónico no incluye el PIN). Vea [Enviar un correo electrónico a un usuario con su información de Audioconferencia](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).  |
 |**Id. de conferencia**  |Haga clic en **restablecer ID de conferencia** si necesita restablecer el identificador de conferencia para el usuario. Para obtener más información, consulte [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user-in-teams.md).  |
 |**PULSO** |Haga clic en **restablecer PIN** si necesita restablecer el PIN para el usuario. Para obtener más información, vea [Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin-in-teams.md). |
-|**Número de teléfono de llamada de conferencia predeterminado** necesario |Estos serán números que se configuran en el puente de audioconferencia. Aplique formato a los números tal y como desee que aparezcan en las convocatorias de reunión de Skype empresarial y Microsoft Teams. Para cambiar el número de pago predeterminado, haga clic en **Editar** junto a **audioconferencia** y en el panel **audioconferencia** , seleccione un número en **número de pago**. |
+|**Número de teléfono de conferencia predeterminado** (obligatorio) |Estos serán números que se configuran en el puente de audioconferencia. Aplique formato a los números tal y como desee que aparezcan en las convocatorias de reunión de Skype empresarial y Microsoft Teams. Para cambiar el número de pago predeterminado, haga clic en **Editar** junto a **audioconferencia** y en el panel **audioconferencia** , seleccione un número en **número de pago**. |
 |**Los invitados de este usuario pueden incluir números gratuitos**|Para cambiar esta configuración, haga clic en **Editar** junto a **audioconferencia** y en el panel **audioconferencia** , Active o desactive **incluir números gratuitos en las convocatorias de reunión de este usuario** activado o desactivado. |
 |**Los usuarios no autenticados pueden ser la primera persona de la reunión**|Para cambiar esta configuración, Active o desactive **los usuarios no autenticados puede ser la primera persona de la reunión** activada o desactivada.
 |**Permisos de acceso telefónico**|Para cambiar esta configuración, haga clic en **Editar** junto a **audioconferencia** y, en el panel **audioconferencia** , elija una opción **de llamada saliente de reuniones**.|

@@ -7,7 +7,8 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-collaboration
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 0707214a2bff442102dd1481af1f031c1a59703d
-ms.sourcegitcommit: 384e123f3b5cf1600ebd5ddd69bd022f9b8ba0f8
+ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "35861867"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569281"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -72,7 +73,7 @@ Use la siguiente configuración para cambiar la Directiva de mensajería global 
 - **Los propietarios pueden eliminar los mensajes enviados**  Use esta configuración para permitir a los propietarios eliminar los mensajes que los usuarios han enviado en el chat.
 - **Los usuarios pueden eliminar mensajes enviados** Use esta configuración para permitir a los usuarios eliminar los mensajes que enviaron en la conversación.
 - **Los usuarios pueden editar mensajes enviados** Use esta configuración para permitir a los usuarios editar los mensajes que enviaron en la conversación.
-- Confirmaciones de **lectura** Las confirmaciones de lectura permiten notificar al remitente de un mensaje de chat cuando el destinatario ha leído su mensaje en 1:1 y los chats grupales son de 20 personas o menos. Las confirmaciones de lectura de mensajes no eliminan con certeza si se leyó un mensaje y mejoran la comunicación entre equipos.  
+- **Confirmaciones de lectura** Las confirmaciones de lectura permiten notificar al remitente de un mensaje de chat cuando el destinatario ha leído su mensaje en 1:1 y los chats grupales son de 20 personas o menos. Las confirmaciones de lectura de mensajes no eliminan con certeza si se leyó un mensaje y mejoran la comunicación entre equipos.  
     - **Controlado** por el usuario Esto significa que los usuarios pueden decidir si desean activar o desactivar las confirmaciones de lectura. La configuración predeterminada dentro de la aplicación está activada. Los usuarios pueden desactivarlo. 
     - **Activado para todos** Esto significa que todos los miembros del inquilino tendrán la característica activada, sin opción para desactivarla. Tenga en cuenta que al usar la configuración **activado para todos** , la única forma de establecer confirmaciones para todo el inquilino es que solo tenga una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para tener todas las directivas de mensajería en el inquilino usa la misma configuración para los recibos. La característica confirmaciones de lectura es más eficaz cuando la característica está habilitada para **todos los usuarios**.
     - **Deshabilitado para todos** Esto significa que la característica está deshabilitada y que nadie en el inquilino tiene confirmaciones de lectura, ni puede activarlas. 
@@ -89,11 +90,11 @@ Use la siguiente configuración para cambiar la Directiva de mensajería global 
 - **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
 - **Permitir a los usuarios traducir mensajes** Active esta opción para que los usuarios pueden traducir automáticamente los mensajes de Teams en el idioma que se especifique en su configuración de idioma personal de Office 365.
 - **Permitir el lector inmersivo para ver mensajes** Active esta opción para permitir a los usuarios ver los mensajes en Microsoft inmersivo Reader. El lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura de pantalla completa para aumentar la legibilidad del texto.
-- **Los usuarios pueden <a name="urgent-message"></a> enviar notificaciones prioritarias** Si activa esta opción, los usuarios pueden enviar un mensaje que usa notificaciones de prioridad. Las notificaciones prioritarias notifican a los usuarios cada 2 minutos por un período de 20 minutos o hasta que el destinatario retoma y Lee los mensajes, lo que maximiza la probabilidad de que el mensaje se recoja y esté accionado de manera oportuna.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Los usuarios pueden enviar notificaciones <a name="urgent-message">prioritarias</a> ** Si activa esta opción, los usuarios pueden enviar un mensaje que usa notificaciones de prioridad. Las notificaciones prioritarias notifican a los usuarios cada 2 minutos por un período de 20 minutos o hasta que el destinatario retoma y Lee los mensajes, lo que maximiza la probabilidad de que el mensaje se recoja y esté accionado de manera oportuna.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **Creación de mensajes de voz** 
     - **Permitido en chats y canales** Esto significa que los usuarios pueden dejar mensajes de voz en los chats y en los canales.
     - **Permitido solo en chats** Esto significa que los usuarios pueden dejar mensajes de voz en los chats, pero no en los canales.
-    - **** Desactivado Esto significa que los usuarios no pueden crear mensajes de voz en los chats ni en los canales.  
+    - **Desactivado** Esto significa que los usuarios no pueden crear mensajes de voz en los chats ni en los canales.  
 - **En dispositivos móviles, Mostrar canales favoritos por encima de los chats recientes** Habilite esta opción para mover los canales favoritos a la parte superior de la pantalla del dispositivo móvil para que el usuario no tenga que desplazarse para encontrarlos. 
 - **Permitir a un usuario quitar usuarios de un chat grupal** Activa esta opción para permitir a un usuario quitar a otros usuarios de un chat grupal. Esta característica te permite continuar con un chat con un grupo más pequeño de personas sin perder el historial de conversaciones.
 

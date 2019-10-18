@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Obtenga información sobre cómo usar el informe de usuarios bloqueados de RTC en el centro de administración de Microsoft Teams para obtener información general de los usuarios de su organización que no pueden realizar llamadas RTC.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d7bfff166eec388247b65760c3338cb892984f3
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 293d99507ae5b6b273ffb59c6d1544b4785a6c0c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131680"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37564900"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Informe de usuarios bloqueados de RTC de Microsoft Teams
 
@@ -30,7 +29,7 @@ El informe de usuarios bloqueados de RTC en el centro de administración de Micr
 
 En el centro de navegación izquierdo del centro de administración de Microsoft Teams, haga clic en > **informes de uso**de **informes &**. En la pestaña **ver informes** , en **Informe**, seleccione **usuarios bloqueados con RTC**y, a continuación, haga clic en **Ejecutar Informe**.
 
-![Captura de pantalla del informe de informe usuarios bloqueados de RTC en el centro de administración] (../media/teams-reports-pstn-blocked-users-with-callouts.png "Captura de pantalla del informe de usuarios bloqueados de RTC en el centro de administración de Microsoft Teams con llamadas numeradas")
+![Captura de pantalla del informe de informe usuarios bloqueados de RTC en el centro de administración](../media/teams-reports-pstn-blocked-users-with-callouts.png "Captura de pantalla del informe de usuarios bloqueados de RTC en el centro de administración de Microsoft Teams con llamadas numeradas")
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 

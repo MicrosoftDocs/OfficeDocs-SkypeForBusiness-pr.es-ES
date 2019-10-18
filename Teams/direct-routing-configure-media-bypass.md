@@ -9,16 +9,17 @@ ms.topic: article
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 appliesto:
 - Microsoft Teams
 description: Lea este tema para aprender a configurar la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: d3991973932ec3ced2ef1a365a7060e2d9449f40
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2931194783e2055c468ec2d7ad1286b9fe1940ae
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237486"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572239"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurar el desvío de medios con enrutamiento directo
 

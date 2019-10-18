@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo administrar la conmutación por error del tronco en llamadas salientes de Teams al controlador de borde de sesión (SBC).
-ms.openlocfilehash: e9efcfba696886c0fc4885778b79832956ccb893
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a5462de971fed32a0618800b257b9c6e37b462af
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290366"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572129"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Conmutación por error de tronco en llamadas salientes
 
@@ -33,7 +32,7 @@ Por ejemplo, una conexión podría fallar si un administrador limita el acceso a
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>Conmutación por error de códigos SIP específicos recibidos del controlador de borde de sesión (SBC)
 
-Si el enrutamiento directo recibe códigos de error de SIP o 6xx, como respuesta a una invitación saliente, la llamada se considera completada de forma predeterminada. Saliente significa una llamada de un cliente de equipo a la red de telefonía pública conmutada (RTC) con el siguiente flujo de tráfico: Teams Client-> Direct Routing-> SBC-> Network-telefonía.
+Si el enrutamiento directo recibe códigos de error de SIP o 6xx, como respuesta a una invitación saliente, la llamada se considera completada de forma predeterminada. Saliente significa una llamada de un cliente de equipo a la red de telefonía pública conmutada (RTC) con el siguiente flujo de tráfico: Teams Client: > enrutamiento directo: > red de telefonía > de SBC-.
 
 La lista de códigos de SIP puede encontrarse en [RFC de protocolo de inicio de sesión (SIP)](https://tools.ietf.org/html/rfc3261).
 
@@ -44,12 +43,12 @@ Este SBC en particular podría estar teniendo dificultades para conectar con el 
 En el siguiente diagrama, cuando un usuario hace una llamada a un número de teléfono, hay dos SBCs en la ruta que puede entregar esta llamada. Inicialmente, SBC1.contoso.com está seleccionado para la llamada, pero SBC1.contoso.com no puede comunicarse con una red RTC debido a un problema de red.
 De forma predeterminada, la llamada se completará en este momento. 
  
-![Muestra el SBC no puede comunicarse con la RTC debido a un problema de red](media/direct-routing-failover-response-codes1.png)
+![Diagrama que muestra SBC no se puede comunicar con la RTC debido a un problema de red](media/direct-routing-failover-response-codes1.png)
 
 Pero hay otra SBC en la ruta que puede entregar la llamada.
 Si configura el parámetro `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"`, el segundo SBC se intentará--SBC2.contoso.com en el siguiente diagrama:
 
-![Muestra el enrutamiento al segundo SBC](media/direct-routing-failover-response-codes2.png)
+![Diagrama que muestra el enrutamiento al segundo SBC](media/direct-routing-failover-response-codes2.png)
 
 El establecimiento del parámetro-FailoverResponseCodes y la especificación de códigos le ayuda a ajustar el enrutamiento y evitar posibles problemas cuando una SBC no puede realizar una llamada debido a problemas de red o de otro tipos.
 

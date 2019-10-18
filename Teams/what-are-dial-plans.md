@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Aprenda qué tipos de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Office 365 y cómo elegir uno para su organización.  '
-ms.openlocfilehash: 71fe659b2dac511b8895689018989e0f9178d1f9
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 7a7f736ab701f2e87e29ee2a33b4cfbebccd7c21
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483973"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568569"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -38,9 +37,9 @@ Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md
 
 ## <a name="tenant-dial-plan-scope"></a>Alcance de un plan de marcado inquilino
 
-El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los ámbitos son diferentes a los de una implementación local de Skype empresarial Server. Los clientes obtienen el plan de marcado adecuado mediante la configuración de aprovisionamiento que se proporciona automáticamente cuando los usuarios inician sesión en Teams o Skype empresarial online. Como administrador, usted puede gestionar y asignar niveles de alcance del plan de marcado con PowerShell remoto.
+El ámbito de un plan de marcado determina el nivel jerárquico en el que se puede aplicar el plan de marcado. Los ámbitos son diferentes a los de una implementación local de Skype empresarial Server. Los clientes obtienen el plan de marcado adecuado mediante la configuración de aprovisionamiento que se proporciona automáticamente cuando los usuarios inician sesión en Teams o Skype empresarial online. Como administrador, puede administrar y asignar niveles de ámbito de plan de marcado mediante PowerShell remoto.
 
-En Teams y Skype empresarial online, hay dos tipos de planes de marcado: ámbito de servicio y espacio empresarial (que es para su organización) en el ámbito. Se define un plan de marcado de ámbito de servicio para cada país o región donde esté disponible el sistema telefónico de Office 365. A cada usuario se le asigna automáticamente el plan de marcado por país del servicio que coincide con la ubicación de uso de Office 365 asignada al usuario. No puede cambiar el plan de marcado por país del servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado país del servicio. A medida que se aprovisionan clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado por país del servicio y el plan de marcado de inquilino con ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
+En Teams y Skype empresarial online, hay dos tipos de planes de marcado: ámbito de servicio y espacio empresarial (que es para su organización) en el ámbito. Se define un plan de marcado de ámbito de servicio para cada país o región donde esté disponible el sistema telefónico de Office 365. A cada usuario se le asigna automáticamente el plan de marcado por país del servicio que coincide con la ubicación de uso de Office 365 asignada al usuario. No puede cambiar el plan de marcado por país del servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado país del servicio. A medida que se aprovisionan clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado por país del servicio y el plan de marcado de inquilino con ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización en los planes de marcado de inquilino, ya que es posible que ya existan en el plan de marcado de país del servicio.
 
 Los planes de marcado de inquilino se pueden dividir en dos alcances: el alcance de inquilino o el alcance de usuario. Si un inquilino define y asigna un plan de marcado de alcance de usuario, ese usuario recibirá un plan de marcado efectivo del plan de marcado del país de servicio del usuario y el plan de marcado del usuario asignado. Si un inquilino define un plan de marcado de alcance de inquilino pero no asigna un plan de marcado de alcance de usuario, ese usuario recibirá un plan de marcado efectivo del plan de marcado del país de servicio del usuario y el plan de marcado de inquilino.
 

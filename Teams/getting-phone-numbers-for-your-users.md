@@ -10,8 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener nuevos números para los equipos, trasladarlos o transferirlos, y cómo mostrar los cambios a los usuarios. '
-ms.openlocfilehash: c9cf47abe056e98fdc1ee92d520ba52675216430
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: c605933f91d047d44f191e9d1604e8c8630565fb
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35588218"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572096"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 

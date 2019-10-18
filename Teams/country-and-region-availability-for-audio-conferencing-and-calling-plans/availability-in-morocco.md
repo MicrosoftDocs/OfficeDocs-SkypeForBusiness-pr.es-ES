@@ -9,7 +9,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -24,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Marruecos.
-ms.openlocfilehash: 10c18ee0c160e1b7fde492b0a365bb05c74e3067
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 0287bf37364e82227ed9fe7b459d889d1f1ae456
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775579"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571045"
 ---
 # <a name="availability-in-morocco"></a>Disponibilidad en Marruecos
 

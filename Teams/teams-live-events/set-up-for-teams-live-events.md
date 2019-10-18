@@ -11,18 +11,17 @@ audience: admin
 search.appverid: MET150
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre los pasos necesarios para configurar los eventos en Teams, incluida la preparación de la red, la asignación de licencias, el uso de directivas para habilitar las características de eventos en vivo y la programación de usuarios, y la configuración de un proveedor de distribución de terceros.
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973e079cda665005dac55e466d444b09ecddb7da
-ms.sourcegitcommit: a6e44256c024fc3953cfd6a511ee024c4c7b8408
+ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047076"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570162"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 
@@ -53,7 +52,7 @@ Las directivas de eventos en directo se usan para controlar qué usuarios de su 
 
     A continuación se muestran las opciones de configuración que puede cambiar para adaptarse a las necesidades de su organización.
 
-    ![Captura de pantalla de la pantalla de configuración de directiva de eventos en directo]de(../media/teams-live-events-policies.png "configuración de directiva de eventos en directo en el centro de administración de Microsoft Teams") 
+    ![Captura de pantalla de la configuración de directiva de eventos en directo](../media/teams-live-events-policies.png "Captura de pantalla de la configuración de directiva de eventos en directo en el centro de administración de Microsoft Teams") 
 
 |Configuración  |Descripción  |
 |---------|---------|

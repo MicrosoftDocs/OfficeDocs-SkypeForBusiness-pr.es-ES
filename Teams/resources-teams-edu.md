@@ -12,16 +12,15 @@ description: Lista de recursos de Teams útiles para administradores de TI en el
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9ec791d3e5d712f1e9a35b23e5e89112aeca8a12
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6eb86cd3679b6cd90b646add994760c4d41aa46d
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243696"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569989"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para administradores de educación
 ==============================================

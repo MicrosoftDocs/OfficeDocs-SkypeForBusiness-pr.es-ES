@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: 8dc06650a50af5b66931f196c0a1c3d7c5090bc5
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464584"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572151"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -29,7 +28,7 @@ ms.locfileid: "36464584"
 
 El enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.  Con esta capacidad, por ejemplo, puede configurar la conectividad RTC local con el cliente de Microsoft Teams, como se muestra en el siguiente diagrama: 
 
-![Diagrama que muestra la configuración de conectividad RTC local] (media/PlanDirectRouting1-PSTNwithTeams.png "Configuración de conectividad RTC local con el cliente de Microsoft Teams")
+![Diagrama que muestra la configuración de conectividad RTC local](media/PlanDirectRouting1-PSTNwithTeams.png "Configuración de conectividad RTC local con el cliente de Microsoft Teams")
 
   > [!NOTE]
   > Skype empresarial online también le permite emparejar un SBC proporcionado por el cliente, pero esto requiere una implementación local de Skype empresarial Server o una edición especial de Skype empresarial, denominada Cloud Connector, entre el SBC y la nube de Microsoft. Este escenario se conoce como voz híbrida. Por el contrario, el enrutamiento directo permite una conexión directa entre el SBC compatible y la nube de Microsoft. 
@@ -88,7 +87,7 @@ Los usuarios de enrutamiento directo deben tener las siguientes licencias asigna
 
 - Microsoft Phone System 
 - Microsoft Teams + Skype para empresas plan 2 si se incluye en la SKU de licencias
-- Conferencias de audio de Microsoft 
+- Conferencias de audio de Microsoft (Lea las notas y el párrafo siguiente para ver ejemplos específicos sobre cuándo se necesita la licencia)
 
 > [!NOTE]
 > El plan de Skype empresarial no se debe quitar de ninguna SKU de licencia donde esté incluido. 
@@ -97,10 +96,12 @@ Los usuarios de enrutamiento directo deben tener las siguientes licencias asigna
 > [!IMPORTANT]
 >  En el caso de que desee agregar participantes externos a las reuniones programadas, ya sea mediante la marcación de ellos o proporcionando el número de acceso telefónico local, se *necesita*la licencia de audioconferencia.
 
-> [!NOTE]
-> La licencia de conferencia de audio es *necesaria* para:
-> - Escalar desde la llamada de 1:1 a una llamada grupal.
-> - Agregue participantes externos a las reuniones programadas, mediante marcado o proporcionando el número de acceso telefónico local. 
+
+Licencia de conferencia de audio y escalado de llamadas ad hoc
+
+Un usuario de Teams puede iniciar uno en uno de los equipos a la RTC o a los equipos a la RTC, y agregarle un participante de la RTC. Este escenario se denomina conferencia ad hoc. La ruta que toma la llamada depende de si el usuario que escala la llamada tiene una licencia de conferencia de audio de Microsoft asignada o no.
+1. Si el usuario de teams que escala la llamada tiene asignada una licencia de conferencia de audio de Microsoft, la escala se produce a través del servicio de audioconferencia de Microsoft. El participante remoto de la RTC que ha sido invitado a la llamada existente recibe una notificación sobre la llamada entrante y ve el número del puente de Microsoft asignado al usuario de teams que inició la elevación.
+2. Si el usuario de teams que escala la llamada no tiene asignada la licencia de conferencia de audio de Microsoft, la elevación se realiza a través de un controlador de borde de sesión conectado a la interfaz de enrutamiento directo. El participante remoto de la RTC que ha sido invitado a la llamada recibe una notificación sobre la llamada entrante y ve el número del usuario de teams que inició la escala. El SBC específico, que se usa para la escala, se define mediante la Directiva de enrutamiento del usuario. 
 
 
 Además, debe asegurarse de lo siguiente:

@@ -1,5 +1,5 @@
 ---
-title: Interfaz de STU3 de integración de aplicación de los pacientes y EHR
+title: Interfaz de STU3 y integración de EHR de la aplicación para pacientes
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -8,254 +8,256 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
-ms.collection: Teams_ITAdmin_PracticalGuidance
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Integración de EHR de aplicación de los pacientes de los equipos de Microsoft
-ms.openlocfilehash: 34fd6bb1ecaf788a55aca877c671c9a51cb07944
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+description: Integración de la EHR de la aplicación pacientes de Microsoft Teams
+ms.openlocfilehash: 836c28f339a3936f03315b005c0eedfc49e0f2ba
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33643139"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569248"
 ---
 # <a name="stu3-interface-specification"></a>Especificación de la interfaz STU3
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Configurar o volver a configurar un servidor FHIR para trabajar con la aplicación de los pacientes de los equipos de Microsoft requiere la descripción de los datos que la aplicación necesita obtener acceso a. El servidor FHIR debe admitir solicitudes POST con paquetes para los siguientes recursos:
+Para configurar o volver a configurar un servidor de FHIR para que funcione con la aplicación para pacientes de Microsoft Teams, es necesario comprender a qué datos necesita acceder la aplicación. El servidor de FHIR debe admitir solicitudes POST con paquetes para los siguientes recursos:
 
-- [Paciente](#patient)
+- [Propio](#patient)
 - [Observación](#observation)
 - [Condición](#condition)
-- [Encontrar](#encounter)
-- [Alergia intolerancia](#allergyintolerance)
-- [Cobertura](#coverage)
-- [Instrucción de medicación](#medication-request) (sustituye a la MedicationOrder en la versión DSTU2 de la PatientsApp)
-- Ubicación (la información necesaria desde este recurso puede estar incluida en encontró)
+- [Detect](#encounter)
+- [Intolerancia de alergia](#allergyintolerance)
+- [Beneficios](#coverage)
+- [Declaración de medicación](#medication-request) (reemplaza MedicationOrder en la versión DSTU2 de la PatientsApp)
+- Ubicación (la información necesaria de este recurso puede estar incluida en encontrarse)
 
 > [!NOTE]
-> El paciente recurso es el recurso sólo es obligatorio (sin que la aplicación no se cargará en absoluto); Sin embargo, se recomienda que el socio implementar la compatibilidad de todos los recursos mencionados anteriormente por especificaciones proporcionados por debajo de la mejor experiencia del usuario final con la aplicación de los pacientes de los equipos de Microsoft.
+> El recurso paciente es el único recurso obligatorio (sin que la aplicación se cargue); Sin embargo, se recomienda que el socio implemente la compatibilidad de todos los recursos mencionados anteriormente según las especificaciones proporcionadas a continuación para obtener la mejor experiencia para el usuario final con la aplicación de pacientes de Microsoft Teams.
 
-Las consultas de la aplicación de los pacientes de los equipos de Microsoft para más de un recurso deberán registrar una agrupación (lote) de solicitudes a la dirección URL del servidor FHIR. El servidor debe procesar cada solicitud y devolver una agrupación de los recursos que coinciden con cada solicitud. Para obtener más información y ejemplos, consulte [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction).
+Las consultas de la aplicación de pacientes de Microsoft Teams para más de un recurso deben publicar un paquete (lote) de solicitudes a la dirección URL del servidor de FHIR. El servidor debe procesar cada solicitud y devolver un paquete de los recursos coincidentes con cada solicitud. Para obtener más información y ejemplos, [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction)consulte.
 
-## <a name="capability-statement"></a>Instrucción de capacidad
+## <a name="capability-statement"></a>Declaración de capacidad
 
-Estos son los campos obligatorios mínimos:
+Estos son los campos mínimos obligatorios:
 
-1. reposo
-   1. Modo
-   2. Interacción
+1. DESCANSO
+   1. Multimodo
+   2. MOV
    3. Recurso: tipo
-   4. Seguridad: [extensión para los identificadores URI de OAuth](http://hl7.org/fhir/extension-oauth-uris.html)
-2. FhirVersion (nuestro código requiere esto para comprender qué versión se deberíamos dinámicas a).
+   4. Seguridad: [extensión para URI de OAuth](http://hl7.org/fhir/extension-oauth-uris.html)
+2. FhirVersion (nuestro código requiere esto para comprender a qué versión debemos dinamizar).
 
-Vea [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) establecer otros detalles en este campo.
+Consulte [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) para obtener más información sobre este conjunto de campos.
 
-## <a name="patient"></a>Paciente
+## <a name="patient"></a>Propio
 
-Estos son los mínimos campos obligatorios, que son un subconjunto de los campos de perfil de pacientes Argonaut:
+Estos son los campos mínimos obligatorios, que son un subconjunto de los campos de perfil del paciente de Argonaut:
 
-1. Name.Given
-2. Name.Family
-3. Género
-4. Fecha de nacimiento
-5. NRM (identificador)
+1. Nombre. dado
+2. Nombre. familia
+3. Hombres
+4. FechaNacimiento
+5. MRN (identificador)
 
-Además de los [campos de Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html), para una experiencia de usuario excelente la aplicación de los pacientes también puede leer los siguientes campos:
+Además de los [campos Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html), para una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
 
-1. Name.Use
-2. Name.Prefix
-3. [GeneralPractitioner] - GeneralPractitioner la referencia debe incluirse en el recurso de pacientes (sólo en el campo para mostrar)
+1. Nombre. Use
+2. Nombre. Prefix
+3. [GeneralPractitioner]-la referencia de GeneralPractitioner debe incluirse en el recurso patient (solo campo de mostrar)
 
-Una búsqueda de recursos, utiliza el método POST en /Patient/_search y los parámetros siguientes:
+Una búsqueda de recursos usa el método POST en/patient/_search y los siguientes parámetros:
 
-1. Id.
-2. familia de = (busca todos los pacientes cuyo nombre familia contiene el valor)
-3. determinado =\<substring>
-4. fecha de nacimiento =(exact match)
-5. género = (valores que se va a uno del género-administrativas)
-6. \_Count (número máximo de resultados que se deben devolver) <br> La respuesta debe contener el número total de registros devueltos como resultado de la búsqueda y \_count usará el PatientsApp para limitar el número de registros devueltos.
-7. identificador =\<mrn>
+1. identificar
+2. Family = (busca todos los pacientes cuyo nombre contenga el valor)
+3. proporcionado =\<substring>
+4. FechaNacimiento = (coincidencia exacta)
+5. Gender = (los valores son uno de los sexos administrativos)
+6. \_contar (número máximo de resultados que se deben devolver) <br> La respuesta debe contener el recuento total de registros devueltos como resultado de la \_búsqueda y el recuento que usará el PatientsApp para limitar el número de registros devueltos.
+7. Identifier =\<MRN>
 
-El objetivo es que puedan buscar y filtrar un paciente por lo siguiente:
+El objetivo es poder buscar y filtrar a un paciente por lo siguiente:
 
-- ID: Este es el identificador de recursos que tiene todos los recursos en FHIR.
-- NRM: Éste es el identificador real para el paciente que sabe ensayos personal. Somos conscientes de que este NRM se basa en el tipo de identificador dentro de los recursos de identificador en FHIR.
+- ID: es el identificador de recurso que tiene cada recurso en FHIR.
+- MRN: este es el identificador real del paciente que sabría el personal clínico. Entendemos que este MRN se basa en el tipo de identificador dentro del recurso Identifier en FHIR.
 - Nombre
-- Fecha de nacimiento
+- FechaNacimiento
 
 Vea el ejemplo siguiente de la llamada:
 
 * * *
 
-    Solicitud: Cuerpo de la solicitud POST <fhir-server>/paciente/_search: determinado = ruth&family = negro
+    Solicitud: publique <fhir-Server> cuerpo de solicitud/patient/_search: dado = Ruth familia&= Black
     
-    Respuesta: {"resourceType": "Agrupar", "id": "<bundle id>", "meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "tipo": "searchset", "total": 1, "vínculo": [{"relation": "self", "url": <fhir-server>/paciente/_search "}],"entry": [{ "fullUrl": <fhir-server>/paciente/<patient-id> ","recursos": {"resourceType":"Paciente","id":"<patient id>","meta": {"versionId":"1","lastUpdated":" 2017-10-18T18:32:37.000 + 00:00 "},"texto": {"estado":"generado por","div ": "<div>\n        <p>Ruth negro</p>\n      </div>"},"identificador": [{"usar":"normal","tipo": {"codificación": [{"sistema":"http://hl7.org/fhir/v2/0203","código":"MR","Mostrar":"número de registro médico","userSelected": false}],"texto":"número de registro médico"},"sistema":"http://hospital.smarthealthit.org","valor":"1234567"}],"activa": true," nombre": [{"usar":"oficial","familia":"Negro","asignado": ["Ruth","c ".
-    []}] "telecomunicaciones": [{"sistema": "phone", "valor": "uso de"800-599-2739",": "principal"}, {"sistema": "phone", "valor": "uso de"800-808-7785",": "móvil"}, {"sistema": "correo electrónico", "valor": "ruth.black@example.com"}], "género": "femenino", "fecha de nacimiento": "1951-08-23", " dirección": [{"usar":"principal","línea": ["26 sur RdApt 22"],"city":"Sapulpa","estado":"OK","CódigoPostal":"74066","country":"USA"}]},"búsqueda": {"modo de":"coincide con"}}]}
+    Respuesta: {"resourceType": "bundle", "ID": "<paquete-ID>", "meta": {"lastUpdated": "2019-01-14T23:44:45.052 + 00:00"}, "tipo": "searchset", "total": 1, "link": [{"Relation": "self", "ID. de servidor>/patient/_search"}], "entrada": [{"<fullUrl ": <fhir-Server>/patient/<patient-ID>", "recurso": {"resourceType": "patient", "ID": "<patient-ID>", "meta": {"versionId": "1", "lastUpdated": "18T18-10-: 32:37.000 + 00:00"}, "texto": {"status": "generated", "div": "<div>\n        <p>Ruth negro</p>\n      </div>"}," identificador ": [{" use ":" normalmente "," tipo ": {" codificación ": [{" sistema ":"http://hl7.org/fhir/v2/0203"," código ":" Mr "," display ":" número de registro médico "," userSelected ": falso}]," texto ":" número de registro médico "}," sistema "http://hospital.smarthealthit.org:" bajo "," valor ":" 1234567 "}]," activo ": verdadero," nombre ": [{" use ":" oficial "," familia ":" negro "," dado ": [" Ruth "," C "," C ".
+    ]}], "Telecom": [{"System": "Phone", "Value": "800-599-2739", "use": "Inicio"}, {"sistema": "teléfono", "valor": ",", ",", ",", ":" teléfono móvil "=", "800-808-7785", "", ",", ",", ",". 1951-08-23 " Dirección ": [{" use ":" casa "," línea ": [" 26 South RdApt 22 "]," ciudad ":" Sapulpa "," State ":" "74066:" busca ":" = ".". ".". "...}-{". "}
 
 * * *
 
-    Solicitud: Obtener <fhir-server>/paciente/<patient-id>
+    Solicitud: Obtén <fhir-Server>/patient/<ID de paciente>
     
-    Respuesta: {"resourceType": "Paciente", "id": "<patient id>", "identificador": [{"usar": "normal", "tipo": {"codificación": [{"sistema": "http://hl7.org/fhir/v2/0203", "código": "MR,"}], "texto": "número de registro médico"}, "valor": "1234567"}], "nombre": [{"usar": "oficial", " familia de":"Adams","asignado": ["Daniel","X". {}]], "género": "hombre", "fecha de nacimiento": "1925-12-23"}
+    Respuesta: {"resourceType": "patient", "ID": "<patient-ID>", "identificador": [{"use": "normal", "tipo": {"código": [{"System"http://hl7.org/fhir/v2/0203: "", "" "," "," ",". ",", ",", ",", ",", "...", "..." 1234567 familia ":" Adams "," dado ": [" Daniel "," X ". ]}], "sexo": "hombre", "FechaNacimiento": "1925-12-23",}
 
 * * *
 
-Vea [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html) establecer otros detalles en este campo.
+Consulte [http://hl7.org/fhir/stu3/patient.html](http://hl7.org/fhir/stu3/patient.html) para obtener más información sobre este conjunto de campos.
 
 ## <a name="observation"></a>Observación
 
-Estos son los mínimos campos obligatorios, que son un subconjunto de los [perfiles de Argonaut vitales](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html).
+Estos son los campos mínimos obligatorios, que son un subconjunto del [Perfil de signos vitales Argonaut](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html).
 
-1. Eficaces (fecha, hora o período)
-2. Code.Coding.Code
-3. ValueQuantity.Value
+1. Vigencia (fecha o hora)
+2. Code. Coding. Code
+3. ValueQuantity. Value
 
-Además de los campos Argonaut, para una experiencia de usuario excelente la aplicación de los pacientes también puede leer los siguientes campos:
+Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
 
-1. Code.Coding.Display
-2. ValueQuantity.Unit
+1. Code. Coding. display
+2. Unidad ValueQuantity.
 
-Una búsqueda de recursos utiliza el método GET y los parámetros siguientes:
+Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. paciente =\<id> paciente
-2. _sort =-fecha
-3. categoría (se van a consultar "categoría = vital signos") para recuperar la lista de constantes vitales.
+1. paciente =\<ID de paciente>
+2. _sort =-Date
+3. Categoría (consultaremos "las señales de categoría = vitales") para recuperar la lista de constantes vitales.
 
-Hacer referencia a este ejemplo de la llamada:
+Consulte este ejemplo de la llamada:
 
 * * *
 
-    Solicitud: Obtener <fhir-server> de observación? paciente = <patient id>&category = vital signos
+    Solicitud: obtener <fhir-Server>/Observation? patient =<patient-ID>&Category = Vital-Signs
     
-    Respuesta: {"resourceType": "Agrupar", "id": "<bundle id>", "tipo": "searchset", "total": 20, "entry": [{"recursos": {"resourceType": "Observación", "id": "<resource id>", "categoría": [{"codificación": [{"sistema": "http://hl7.org/fhir/observation-category", "código": " vital-signos"}],}],"código": {"codificación": [{"sistema":"http://loinc.org","código":"8867-4","presentación":"heart_rate"}]},"effectiveDateTime":" 2009-04-08T00:00:00-06:00 ","valueQuantity": {"valor": 72,0,"unidad":" {pulsaciones} / min ","sistema":"http://unitsofmeasure.org",}}},.
+    Respuesta: {"resourceType": "bundle", "ID": "<paquete de identificación>", "type": "searchset", "total": 20, "Entry": [{"Resource": {"resourceType": "observación", "ID": "<Resource-ID>", "Category": [{"" ".": [{"Systemhttp://hl7.org/fhir/observation-category": "", "Code": " signos esenciales "}],}]," código ": {" codificación ": [{" System ":"http://loinc.org"," código ":" 8867-4 "," display ":" heart_rate "}]}," effectiveDateTime ":" 2009-04-08T00:00:00-06:00 "," valueQuantity ": {" Value ": 72,0," Unit ":" {laters}/min. "," System ":"http://unitsofmeasure.org",}}},.
         .
         .
       ] }
 
 * * *
 
-Vea [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) establecer otros detalles en este campo.
+Consulte [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) para obtener más información sobre este conjunto de campos.
 
 ## <a name="condition"></a>Condición
 
-Aquí tiene los campos obligatorios mínimos, que son un subconjunto del [perfil de condición de Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html).
+Estos son los campos mínimos obligatorios, que son un subconjunto del [Perfil de condición Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html).
 
-1. Code.Coding[0]. Monitor
+1. Code. Coding [0]. Aparecen
 
-Además de los campos Argonaut, para una experiencia de usuario excelente la aplicación de los pacientes también puede leer los siguientes campos:
+Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
 
 1. AssertedDate
 2. Gravedad
 
-Una búsqueda de recursos utiliza el método GET y los parámetros siguientes:
+Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. paciente =\<id> paciente
-2. _Count =\<results> máx.
+1. paciente =\<ID de paciente>
+2. _count =\<> de resultados máximos
 
-Vea el siguiente ejemplo de esta llamada:
+Consulte el siguiente ejemplo de esta llamada:
 
 * * *
 
-    Solicitud: Obtener <fhir-server>/condición? paciente = <patient id>&_count = 10
+    Solicitud: obtener <fhir-Server>/Condition? patient =<ID de paciente>&_count = 10
     
-    Respuesta: {"resourceType": "Agrupar", "id": "<bundle id>", "tipo": "searchset", "total": 2, "entry": [{"recursos": {"resourceType": "Condición", "id": "<resource id>", "código": {"codificación": [{"sistema": "http://snomed.info/sct", "código": "185903001", " Mostrar":"Las necesidades de inmunización de influenza,"}]},"severity": {"codificación": [{"sistema":"http://snomed.info/sct","código":"24484000","Mostrar":"Grave"}]},"assertedDate":"2018-04-04"}},.
+    Respuesta: {"resourceType": "bundle", "ID": "<paquete-ID>", "escribe": "searchset", "total": 2, "entrada": [{"recurso": {"nombre del recurso": "código dehttp://snomed.info/sct", ",": "", "", "", <"código": "", ">."... ". 185903001 Display ":" necesita la vacuna de la influenza ",}]}," gravedad ": {" codificación ": [{" sistemahttp://snomed.info/sct":" "," código ":" 24484000 "," display ":" grave "}]}," assertedDate ":" 2018-04-04 "}},.
         .
         .
       ] }
 
 * * *
-Vea [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html) establecer otros detalles en este campo.
+Consulte [http://hl7.org/fhir/stu3/condition.html](http://hl7.org/fhir/stu3/condition.html) para obtener más información sobre este conjunto de campos.
 
-## <a name="encounter"></a>Encontrar
+## <a name="encounter"></a>Detect
 
-Estos son los mínimos campos obligatorios, que son un subconjunto de los campos de "debe tener" [perfil surgir de núcleo de Estados Unidos](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) ).
+Estos son los campos mínimos obligatorios, que son un subconjunto del [núcleo de Estados Unidos](http://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) y el perfil "debe tener campos".
 
-1. Estado
-2. Tipo [0]. Codificación [0]. Monitor
+1. Statu
+2. Escriba [0]. Codificación [0]. Aparecen
 
-Además, los siguientes campos de perfil nos surgir Core "deben admitir" de campos:
+Además, los siguientes campos de la parte central de EE. UU. se encuentran en los campos "debe ser compatible" del perfil:
 
-1. Period.Start
-2. Ubicación [0]. Location.Display
+1. Start period
+2. Ubicación [0]. Location. display
 
-Una búsqueda de recursos utiliza el método GET y los parámetros siguientes:
+Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. paciente =\<id> paciente
-2. _sort:desc =\<campo ex. date>
-3. _Count =\<results> máx.
+1. paciente =\<ID de paciente>
+2. _sort: DESC =\<campo ex. > de fecha
+3. _count =\<> de resultados máximos
 
-El objetivo es poder recuperar la última ubicación conocida del paciente. Cada hace referencia a un recurso de ubicación. La referencia también incluirá el campo de visualización de la ubicación.
+El objetivo es poder recuperar el último lugar conocido del paciente. Cada uno de ellos hace referencia a un recurso de ubicación. La referencia también incluirá el campo de visualización de la ubicación.
 
-Vea [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html) establecer otros detalles en este campo.
+Consulte [http://hl7.org/fhir/stu3/encounter.html](http://hl7.org/fhir/stu3/encounter.html) para obtener más información sobre este conjunto de campos.
 
 ## <a name="allergyintolerance"></a>AllergyIntolerance
 
-Estos son los mínimos campos obligatorios, que son un subconjunto de los perfiles de [Argonaut AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) :
+Estos son los campos mínimos obligatorios, que son un subconjunto del perfil de [AllergyIntolerance de Argonaut](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) :
 
-1. Code.Text
-2. Code.Coding[0]. Monitor
-3. ClinicalStatus/VerificationStatus (se lea ambos)
+1. Code. Text
+2. Code. Coding [0]. Aparecen
+3. ClinicalStatus/VerificationStatus (hemos leído ambas)
 
-Además de los campos Argonaut, para una experiencia de usuario excelente la aplicación de los pacientes también puede leer el siguiente campo:
+Además de los campos Argonaut, para una experiencia de usuario excelente, la aplicación de pacientes también puede leer el siguiente campo:
 
 1. AssertedDate
-2. Note.Text
-3. Reacción
-    1. Sustancia (elemento de codificación uno)
-    2. Manifestación (elemento de codificación uno)
+2. Nota. Text
+3. Ataque
+    1. Sustancia (un elemento de codificación)
+    2. Manifiesto (un elemento de codificación)
 
-Una búsqueda de recursos utiliza el método GET y los parámetros siguientes:
+Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. Paciente = \<id> paciente
+1. Paciente = \<ID de paciente>
 
 Vea el ejemplo siguiente de la llamada: 
 
 * * *
 
-    Solicitud: Obtener <fhir-server>/AllergyIntolerance? paciente = <patient-id>
+    Solicitud: obtener <fhir-Server>/AllergyIntolerance? patient =<ID de paciente>
     
-    Respuesta: {"resourceType": "Agrupar", "id": "<bundle id>", "tipo": "searchset", "total": 1, "entry": [{"recursos": {"resourceType": "AllergyIntolerance", "id": "<resource id>", "clinicalStatus": "activo", "ve rificationStatus":"confirmado","código": {"codificación": [{"sistema":"http://rxnav.nlm.nih.gov/REST/Ndfrt","código":"N0000175503","Mostrar":"sulfonamide antibacterianas"}],"texto":"ant sulfonamide ibacterial"},"assertedDate":" 2018-01-01T00:00:00-07:00 ","reacción": [{"manifestación": [{"codificación": [{"sistema":"http://snomed.info/sct","código":  "271807003", "Mostrar": "sarpullido de máscara,"}], "texto": "sarpullido máscara"}],}]}}]}
+    Respuesta: {"resourceType": "bundle", "ID": "<paquete-ID>", "type": "searchset", "total": 1, "Entry": [{"recurso": {"resourceType": "AllergyIntolerance", "ID": "<Resource-ID>", "clinicalStatus": "Active", "Ve rificationStatus ":" confirmado "," código ": {" codificación ": [{" System "http://rxnav.nlm.nih.gov/REST/Ndfrt:" "," "N0000175503", "display": "sulfonamide antibacteriasus",}], "Text": "sulfonamide ANT ibacterial "}," assertedDate ":" 2018-01-01T00:00:00-07:00 "," reacción ": [{" manifestity ": [{" Coding ": [{" System ":"http://snomed.info/sct"," Code ":  "271807003", "display": "Skin rash",}], "texto": "Skin rash"}],}]}}]}
 
 * * *
 
-Vea [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html) establecer otros detalles en este campo.
+Consulte [http://hl7.org/fhir/stu3/allergyintolerance.html](http://hl7.org/fhir/stu3/allergyintolerance.html) para obtener más información sobre este conjunto de campos.
 
 ## <a name="medication-request"></a>Solicitud de medicación
 
-Estos son los mínimos campos obligatorios, que son un subconjunto de los [Estados Unidos principales medicación solicitar perfil](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html):
+Estos son los campos mínimos obligatorios, que son un subconjunto del [Perfil de solicitud de medicación del núcleo de Estados Unidos](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html):
 
-1. Medication.Display (si referencia)
-2. Medication.Text (si CodableConcept)
+1. Medicación. display (si Ref)
+2. Medicación. Text (si CodableConcept)
 3. AuthoredOn
-4. Requester.Agent.Display
+4. Solicitante. Agent. display
 
-Además de los campos nos principal, para una experiencia de usuario excelente la aplicación de los pacientes también puede leer los siguientes campos:
+Además de los campos básicos de Estados Unidos, para disfrutar de una experiencia de usuario excelente, la aplicación de pacientes también puede leer los siguientes campos:
 
-1. DosageInstruction [.]. Texto
-2. Texto
+1. DosageInstruction[..]. Facturas
+2. Facturas
 
-Una búsqueda de recursos utiliza el método GET y los parámetros siguientes:
+Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. paciente =\<id> paciente
-2. _Count =\<results> máx.
+1. paciente =\<ID de paciente>
+2. _count =\<> de resultados máximos
 
-Vea [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) establecer otros detalles en este campo.
+Consulte [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) para obtener más información sobre este conjunto de campos.
 
-## <a name="coverage"></a>Cobertura
+## <a name="coverage"></a>Beneficios
 
-Estos son los campos obligatorios mínimos, no están cubiertos por nosotros principales o Argonaut perfiles:
+Estos son los campos mínimos obligatorios, no incluidos en los perfiles de los Estados Unidos Core o Argonaut:
 
-1. Agrupación, al menos un elemento con
-    1. Grupo IPMPVisualice
+1. Agrupar, al menos un elemento con
+    1. GroupDisplay
     2. PlanDisplay
 2. Período
 3. SubscriberId
 
-Una búsqueda de recursos utiliza el método GET y los parámetros siguientes:
+Una búsqueda de recursos usa el método GET y los siguientes parámetros:
 
-1. Paciente = \<id> paciente
+1. Paciente = \<ID de paciente>
 
-Vea [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) establecer otros detalles en este campo.
+Consulte [http://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) para obtener más información sobre este conjunto de campos.

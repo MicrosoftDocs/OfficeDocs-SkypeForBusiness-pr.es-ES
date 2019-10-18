@@ -1,5 +1,5 @@
 ---
-title: Configurar audioconferencias en Microsoft Teams
+title: Configurar audioconferencias para Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-voice
 - M365-collaboration
 audience: Admin
 appliesto:
@@ -21,14 +21,14 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas en conferencia. '
-ms.openlocfilehash: 5bf9a4ba1928bd8532a0f97fcb899745ffb65d13
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: 3b9b0b3f7a684c8db5b7b3d8a326750ed12f2bff
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062422"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571265"
 ---
-# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferencias en Microsoft Teams
+# <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferencias para Microsoft Teams
 
 En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. Microsoft Teams incluye la característica de audioconferencia solo para esta situación. Los usuarios pueden llamar a las reuniones de Teams mediante un teléfono, en lugar de usar la aplicación de Teams en un dispositivo móvil o PC. 
   

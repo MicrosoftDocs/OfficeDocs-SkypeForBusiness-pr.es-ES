@@ -10,8 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -21,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Más información sobre cómo configurar teléfonos de área común para salas, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: a62399c1c7b7b27e35fdea1fc52b9531a1fa25cc
-ms.sourcegitcommit: 66213b972920b4e09faf7d7e732c4bfe7b322ac4
+ms.openlocfilehash: fa25de7484d8ac70e924e750c4e7633bfc160c04
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35131515"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571598"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
 > [!NOTE]
@@ -46,9 +44,9 @@ Lo primero que debe hacer es comprar una licencia de teléfono de área común (
 
 2. Seleccione el **teléfono** > de área común**comprar ahora**.
 
-3. En la **** página Desproteger, haga clic en **comprar ahora**.
+3. En la página **Desproteger** , haga clic en **comprar ahora**.
 
-4. Expanda suscripciones **de complementos** y, a continuación, haga clic para comprar un plan de llamadas. Elige el **plan de llamadas nacionales** o el **plan de llamadas nacionales e internacionales**.
+4. Expanda **suscripciones de complementos** y, a continuación, haga clic para comprar un plan de llamadas. Elige el **plan de llamadas nacionales** o el **plan de llamadas nacionales e internacionales**.
 
 > [!NOTE]
 > No necesita una licencia de sistema telefónico. Está incluida en la licencia del teléfono de área común.
@@ -77,7 +75,7 @@ La licencia de telefonía por área común admite:
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Paso 2: crear una nueva cuenta de usuario para el teléfono y asignar las licencias
 
-1. En el centro de administración de Microsoft 365, **** > vaya a usuarios**activos** > ,**Agregar un usuario**.
+1. En el centro de administración de Microsoft 365, **vaya a** > usuarios**activos** > ,**Agregar un usuario**.
 
 2. Escriba un nombre de usuario como "Main" para el nombre y "recepción" para el segundo nombre.
 

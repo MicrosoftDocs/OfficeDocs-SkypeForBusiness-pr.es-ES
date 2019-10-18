@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-ms.collection: M365-voice
+ms.collection:
+- M365-collaboration
 description: En este artículo se explican las consideraciones de planeación pertinentes para implementar salas de Microsoft Teams, la nueva generación de sistemas de salas de Skype.
-ms.openlocfilehash: 2c47e95eccc8dcb362a10bd1a6980c2b12384711
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 7225635e1069b880dd78d4d32060f1beb6e7b389
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775111"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573588"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planear salas de Microsoft Teams
 
@@ -29,7 +30,7 @@ Encontrará información de planeación a continuación sobre el método recomen
 
 Salas de Microsoft Teams proporciona una experiencia de reunión completa que aporta video, audio y uso compartido de contenido de alta definición a reuniones de todos los tamaños, desde pequeñas áreas de Huddle hasta grandes salas de conferencias.
 
-![Una consola, un micrófono y una pantalla grande montada en una pared de sala de conferencias ilustrar los elementos de un ejemplo de configuración de salas de Microsoft Teams.] (../media/room-systems-image1.png "Una consola, un micrófono y una pantalla grande montada en una pared de sala de conferencias ilustrar los elementos de un ejemplo de configuración de salas de Microsoft Teams.")
+![Una consola, un micrófono y una pantalla grande montada en una pared de sala de conferencias ilustrar los elementos de un ejemplo de configuración de salas de Microsoft Teams.](../media/room-systems-image1.png "Una consola, un micrófono y una pantalla grande montada en una pared de sala de conferencias ilustrar los elementos de un ejemplo de configuración de salas de Microsoft Teams.")
 
 La [ayuda de Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) es un excelente recurso para obtener más información sobre las salas de Microsoft Teams y cómo puede agregar valor como parte de la implementación. Además, te recomendamos ver este [vídeo de información general](https://youtu.be/tNey5KZVCl0). 
 
@@ -65,7 +66,7 @@ Use el método que se muestra a continuación para guiarse a través de la imple
 
 Comience por comprender qué salas de conferencias tiene y cómo le resultará más conveniente para usted en el futuro, y luego desplácese por la selección y la obtención del equipo que necesita, preparar sus sitios, configurar e implementar su servicio, administrar el cambio y adopción de usuarios y desarrollo de operaciones y procedimientos de mantenimiento.
 
-![Comience por comprender lo que tiene y en previsión, lo que le resultará más adecuado para usted, a continuación, desplácese seleccionando y deteniendo el equipo que necesita, preparando sus sitios, configurando e implementando su servicio, administrando el cambio y la adopción por el usuario, y desarrollar procedimientos operativos y de mantenimiento.] (../media/room-systems-image2.png "Comience por comprender lo que tiene y en previsión, lo que le resultará más adecuado para usted, a continuación, desplácese seleccionando y deteniendo el equipo que necesita, preparando sus sitios, configurando e implementando su servicio, administrando el cambio y la adopción por el usuario, y desarrollar procedimientos operativos y de mantenimiento.")
+![Comience con la comprensión de lo que tiene y la idea de lo que funciona mejor para usted, a continuación, desplácese seleccionando y deteniendo el equipo que necesita, preparando sus sitios, configurando e implementando su servicio, administrando el cambio y la adopción de usuarios y desarrollando procedimientos de operaciones y mantenimiento.](../media/room-systems-image2.png "Comience con la comprensión de lo que tiene y la idea de lo que funciona mejor para usted, a continuación, desplácese seleccionando y deteniendo el equipo que necesita, preparando sus sitios, configurando e implementando su servicio, administrando el cambio y la adopción de usuarios y desarrollando procedimientos de operaciones y mantenimiento.")
 
 Es posible que tenga que coordinar estas actividades en varios equipos. Proporcionamos una vista de alto nivel de las principales actividades que debe cubrir, así como sugerencias para los equipos que normalmente participan en la implementación y administración de sistemas de salas de conferencias, para ayudarle a decidir con quién necesita trabajar.
 

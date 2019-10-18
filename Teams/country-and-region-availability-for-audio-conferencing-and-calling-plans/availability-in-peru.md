@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft teams que están disponibles para Perú.
-ms.openlocfilehash: e7b19dddcb2bc53eebc02c632b9c36211f1bc215
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 03e78ec88b8a89b264ab4420d016b0d6559d8888
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331407"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37562807"
 ---
 # <a name="availability-in-peru"></a>Disponibilidad en Perú
 

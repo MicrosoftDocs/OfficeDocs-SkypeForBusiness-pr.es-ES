@@ -12,76 +12,75 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
-description: Obtenga información sobre cómo usar las plantillas de equipos para crear un equipo con los canales de predefinidos.
+description: Aprenda a usar las plantillas de Teams para crear un equipo con canales predefinidos.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d5832ccce69c9863e364f94c6e850f8d938ac162
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245596"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569569"
 ---
 # <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams 
 
-Las plantillas de equipos son predefinidas definiciones de estructura de un equipo diseñado alrededor de un proyecto o necesidad empresarial. Puede usar las plantillas de equipos para crear rápidamente los espacios de colaboración con los canales para diferentes temas y preinstalación de aplicaciones que se van a extraer en servicios y contenido de misión crítica. Las plantillas de equipos proporcionan una estructura de equipo predefinidos que puede ayudarle a crear fácilmente los equipos coherentes en toda la organización. 
+Las plantillas de Teams son definiciones preconstruidas de una estructura de equipo diseñada según una necesidad o un proyecto empresarial. Puede usar las plantillas de Teams para crear rápidamente espacios de colaboración enriquecidos con canales para diferentes temas y para preinstalar aplicaciones para extraer contenido y servicios de misión crítica. Las plantillas de Teams proporcionan una estructura de equipo predefinida que le puede ayudar a crear fácilmente equipos coherentes en toda la organización. 
 
-En este artículo, se explican las propiedades que pueden definirse en plantillas, qué plantilla base son tipos, y cómo puede usar algunas solicitudes para crear un equipo a partir de una plantilla de ejemplo.
+En este artículo, explicaremos las propiedades que se pueden definir en plantillas, qué son los tipos de plantilla base y cómo puede usar algunas solicitudes de ejemplo para crear un equipo a partir de una plantilla.
  
-En este artículo es para usted si es:
+Este artículo le interesa si:
 
-- Responsable de la planeación, implementación y administración de varios equipos en toda la organización<br>
-- Un programador que deseen crear mediante programación un equipo con aplicaciones y canales predefinidos 
+- Responsable de planear, implementar y administrar varios equipos en la organización<br>
+- Un desarrollador que desea crear mediante programación un equipo con canales y aplicaciones predefinidos 
 
-## <a name="teams-template-capabilities"></a>Capacidades de la plantilla de los equipos
+## <a name="teams-template-capabilities"></a>Capacidades de las plantillas de Teams
 
-Mayoría de las propiedades en un equipo se incluyen y compatible con las plantillas. Sin embargo, hay algunas propiedades y características que no son compatibles actualmente. En la siguiente tabla proporciona un resumen rápido de lo que se incluye y qué no se incluye en las plantillas de equipos.
+La mayoría de las propiedades de un equipo están incluidas y son compatibles con las plantillas. Sin embargo, hay algunas propiedades y características que actualmente no se admiten. En la tabla siguiente se proporciona un resumen rápido de lo que se incluye y lo que no se incluye en las plantillas de Teams.
 
-| **Propiedades de equipo compatibles con las plantillas de equipos** | **Propiedades de equipo aún no admitidas por las plantillas de equipos** |
+| **Propiedades del equipo admitidas por las plantillas de Teams** | **Las propiedades del equipo aún no son compatibles con las plantillas de Teams** |
 | ------------------------------------------------ | -------------------------------------------------------- |
-| Tipo de plantilla de base | Miembros del equipo |
-| Nombre de equipo | Imagen del equipo |
-| Descripción de equipo | Opciones de canal |
-| Visibilidad de equipo (pública o privada) | Conectores |
-| Configuración del equipo (por ejemplo, miembro, invitado, @ menciones) | Los archivos y contenido |
-| Canal de favorito de automático | |
+| Tipo de plantilla base | Pertenencia al equipo |
+| Nombre del equipo | Imagen de equipo |
+| Descripción del equipo | Configuración del canal |
+| Visibilidad del equipo (pública o privada) | Los |
+| Configuración del equipo (por ejemplo, miembro, invitado, @ menciones) | Archivos y contenido |
+| Canal de favoritos automático | |
 | Aplicación instalada | |
-| Fichas ancladas | | 
+| Pestañas ancladas | | 
 
 > [!NOTE]
-> Se podrá ser agregar más capacidades de plantilla en futuras versiones de Microsoft Teams, por lo que vuelva a consultar para la información más actualizada sobre propiedades compatibles con.
+> Agregaremos más capacidades de plantilla en versiones futuras de Microsoft Teams, así que vuelva a consultar la información más actualizada sobre las propiedades admitidas.
 
-## <a name="what-are-base-template-types"></a>¿Qué son los tipos de plantilla base?
+## <a name="what-are-base-template-types"></a>¿Qué son los tipos de plantilla básicos?
 
-Tipos de plantilla de base son plantillas especiales que Microsoft ha creado para sectores específicos. Estas plantillas bases a menudo contienen propietarias aplicaciones que no están disponibles en las propiedades de almacenamiento y del equipo que no son compatibles todavía individualmente en las plantillas de equipos.
+Los tipos de plantillas base son plantillas especiales que Microsoft creó para sectores específicos. Estas plantillas básicas a menudo contienen aplicaciones propias que no están disponibles en las propiedades del equipo y del almacén que aún no se admiten individualmente en las plantillas de Teams.
 
-Una vez que se define un tipo de plantilla base, puede ampliar o reemplazar estas plantillas especiales con propiedades adicionales que le gustaría usar para especificar. Pero algunos tipos de plantilla base contienen las propiedades que no se puede reemplazar. 
+Una vez que se define un tipo de plantilla base, puede extender o invalidar estas plantillas especiales con propiedades adicionales que le gustaría especificar. Pero algunos tipos de plantillas base contienen propiedades que no se pueden reemplazar. 
 
-De forma predeterminada, la plantilla base se establece en **estándar** que no contiene propiedades especiales ni aplicaciones adicionales de su propiedad. A continuación está disponible la lista actual de tipos de plantilla de base.
+De forma predeterminada, la plantilla base se establece en **estándar** , que no contiene ninguna aplicación de propiedad adicional ni propiedades especiales. A continuación se muestra la lista actual de tipos de plantillas base disponibles.
 
-| Tipo de plantilla de base | baseTemplateId | Propiedades que se incluyen con esta plantilla de base |
+| Tipo de plantilla base | baseTemplateId | Propiedades que vienen con esta plantilla base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | No hay aplicaciones adicionales y propiedades |
-| Educación-<br>Equipo de clase | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Aplicaciones:<ul><li>Bloc de notas de OneNote clase (anclado a la ficha **General** ) </li><li>Aplicación de las asignaciones (anclado a la ficha **General** )</li></ul> Propiedades de equipo:<ul><li>Visibilidad de equipo se establece en **HiddenMembership** (no se puede reemplazar)</li></ul> |
-| Educación-<br>Equipo de personal | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Aplicaciones:<ul><li>Bloc de notas de OneNote personal (anclado a la ficha **General** )</li></ul> |
-|Educación-<br>Equipo PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Aplicaciones:<ul><li>Bloc de notas de OneNote PLC (anclado a la ficha **General** )</ul></li>|
-| Venta por menor-<br>Almacén | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo<ul><li>Visibilidad de equipo establecida en público</li></ul>Permisos de miembro<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul> |
-| Venta por menor-<br>Colaboración de administrador | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo:<ul><li>Visibilidad de equipo establecida en privado</li></ul>Permisos de los miembros:<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul>|
-| Healthcare-<br>Distrito |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales de entrada: <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Redondea hacia arriba</li><li>Personal\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos |
-|Healthcare-<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canales de entrada:<ul><li>Anuncios\*</li><li>Cumplimiento de normas\*</li><li>Custodia</li><li>Recursos humanos</li></li><li>Farmacia</li></ul>\*Canal automático favoritos|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | No hay más aplicaciones ni propiedades |
+| Educativo<br>Equipo de clase | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Phone<ul><li>Bloc de notas de clase de OneNote (anclado a la pestaña **General** ) </li><li>Aplicación tareas (anclada a la pestaña **General** )</li></ul> Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en **HiddenMembership** (no se puede reemplazar)</li></ul> |
+| Educativo<br>Equipo del personal | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Phone<ul><li>Bloc de notas para docentes de OneNote (anclado a la pestaña **General** )</li></ul> |
+|Educativo<br>Equipo de PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Phone<ul><li>Bloc de notas PLC de OneNote (anclado a la pestaña **General** )</ul></li>|
+| Anuales<br>Guarde | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canales<ul><li>Transición de turno</li><li>Aprendiendo</li></ul>Propiedades del equipo<ul><li>Visibilidad de equipo establecida como pública</li></ul>Permisos de miembro<ul><li>Evitar que los miembros creen, actualicen o quiten canales</li><li>Evitar que los miembros agreguen o quiten aplicaciones</li><li>Evitar que los miembros creen, actualicen o quiten conectores</li></ul> |
+| Anuales<br>Colaboración de administrador | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales<ul><li>Transición de turno</li><li>Aprendiendo</li></ul>Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en privado</li></ul>Permisos de miembro:<ul><li>Evitar que los miembros creen, actualicen o quiten canales</li><li>Evitar que los miembros agreguen o quiten aplicaciones</li><li>Evitar que los miembros creen, actualicen o quiten conectores</li></ul>|
+| Healthcare<br>Hacia |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Hacia</li><li>Personal\*</li><li>Instrui\*</li></ul>\*Canales favoritos automáticos |
+|Healthcare<br>Hospitales | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canales<ul><li>Anuncios\*</li><li>Respeto\*</li><li>Private</li><li>Recursos humanos</li></li><li>Pertenecie</li></ul>\*Canal de favoritos automáticos|
 |||
 
 > [!NOTE]
-> Agregaremos más plantilla base de tipos de en futuras versiones de Microsoft Teams, por lo que verificación atrás para la información más actualizada sobre admite propiedades.
+> Agregaremos más tipos de plantillas base en las futuras versiones de Microsoft Teams, así que vuelva a consultar la información más actualizada sobre las propiedades admitidas.
 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Crear equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en la vista previa)
-- [Nuevo equipo](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
+- [Crear equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta) (en versión preliminar)
+- [Nuevo: equipo](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Formación de administradores para Microsoft Teams](itadmin-readiness.md)
 - [Introducción a las plantillas comerciales de Teams](get-started-with-retail-teams-templates.md)
 - [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)

@@ -8,7 +8,8 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Adm_Skype4B_Online
+ms.collection:
+- M365-voice
 audience: Admin
 appliesto:
 - Microsoft Teams
@@ -19,16 +20,16 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener el estado de los pedidos de los puertos y obtenga información sobre las diferentes acciones que puede llevar a cabo. '
-ms.openlocfilehash: 8725f87fc1bb2afb6e035fca7e9dd3c34d2c8a60
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 34abd630740d654e640818270047d850f34efa2a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298979"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568525"
 ---
 # <a name="whats-the-status-of-my-port-orders-in-teams"></a>¿Cuál es el estado de mis solicitudes de portabilidad en Teams?
 
-Para ver el estado de la solicitud de portabilidad, vaya al **Centro** > de administración de Microsoft Teams:**portal** > heredado**pedidos de Puerto**de**voz** > . Cada estado de pedido de puerto aparecerá en la columna **Estado** . Si necesita ayuda, [póngase en contacto con el soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+Para ver el estado de la solicitud de portabilidad, vaya > al **centro de administración de Microsoft Teams**:**portal** > heredado**pedidos de Puerto**de**voz** > . Cada estado de pedido de puerto aparecerá en la columna **Estado** . Si necesita ayuda, [póngase en contacto con el soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
 
 En la tabla siguiente se enumeran los Estados de los pedidos de los puertos, así como las acciones que puede llevar a cabo si es necesario.
 

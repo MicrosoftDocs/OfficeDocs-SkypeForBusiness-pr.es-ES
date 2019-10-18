@@ -11,7 +11,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
+- M365-collaboration
 - M365-voice
 audience: Admin
 appliesto:
@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no.
-ms.openlocfilehash: 05e34a663e2c6e5ff4c2c0359bd0183d03caeb16
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774658"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573090"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -74,7 +74,7 @@ Puede seleccionar un país o una región para ver qué características de voz d
 > - [Ghana](availability-in-ghana.md)
 > - [Grecia](availability-in-greece.md)
 > - [Honduras](availability-in-honduras.md)
-> - [Hong Kong](availability-in-hong-kong.md)
+> - [RAE de Hong Kong](availability-in-hong-kong.md)
 > - [Hungría](availability-in-hungary.md)
 > - [India](availability-in-india.md)
 > - [Indonesia](availability-in-indonesia.md)
@@ -83,13 +83,13 @@ Puede seleccionar un país o una región para ver qué características de voz d
 > - [Italia](availability-in-italy.md)
 > - [Japón](availability-in-japan.md)
 > - [Jordania](availability-in-jordan.md)
-> - [Kazajstán](availability-in-kazakhstan.md)
+> - [Kazajistán](availability-in-kazakhstan.md)
 > - [Kenia](availability-in-kenya.md)
 > - [Kuwait](availability-in-kuwait.md)
 > - [Letonia](availability-in-latvia.md)
 > - [Lituania](availability-in-lithuania.md)
 > - [Luxemburgo](availability-in-luxembourg.md)
-> - [Macedonia, ERY](availability-in-macedonia.md)
+> - [Macedonia del Norte](availability-in-macedonia.md)
 > - [Malasia](availability-in-malaysia.md)
 > - [Malta](availability-in-malta.md)
 > - [México](availability-in-mexico.md)

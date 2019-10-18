@@ -10,17 +10,16 @@ ms.reviewer: v-rifer
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 description: Obtenga información sobre cómo usar el informe de uso de RTC de Teams en el centro de administración de Microsoft Teams para obtener información general sobre el uso de las llamadas y las conferencias de audio de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3674759844cc268fc503f4f617e0d18d16914593
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 89d33f15401d25767c905f16e38d93744d7929c3
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131688"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570569"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Informe de uso de RTC de Microsoft Teams
 
@@ -37,7 +36,7 @@ La pestaña **planes de llamada** muestra la información que incluye el número
 
 ### <a name="calling-plans"></a>Planes de llamadas
 
-![Captura de pantalla del informe de informe de uso de RTC de planes de llamada en el centro de administración] (../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Captura de pantalla del informe de uso de RTC en el centro de administración de Microsoft Teams con llamadas numeradas")
+![Captura de pantalla del informe de informe de uso de RTC de planes de llamada en el centro de administración](../media/teams-reports-pstn-usage-calling-plans-with-callouts.png "Captura de pantalla del informe de uso de RTC en el centro de administración de Microsoft Teams con llamadas numeradas")
 
 |Globo |Descripción  |
 |--------|-------------|
@@ -52,7 +51,7 @@ La pestaña **planes de llamada** muestra la información que incluye el número
 
 ### <a name="direct-routing"></a>Enrutamiento directo
 
-![Captura de pantalla del informe de uso del informe de uso de RTC de enrutamiento directo en el centro de administración] (../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Captura de pantalla del informe de uso de RTC de enrutamiento directo en el centro de administración de Microsoft Teams con llamadas numeradas")
+![Captura de pantalla del informe de uso del informe de uso de RTC de enrutamiento directo en el centro de administración](../media/teams-reports-pstn-usage-direct-routing-with-callouts.png "Captura de pantalla del informe de uso de RTC de enrutamiento directo en el centro de administración de Microsoft Teams con llamadas numeradas")
 
 |Globo |Descripción  |
 |--------|-------------|

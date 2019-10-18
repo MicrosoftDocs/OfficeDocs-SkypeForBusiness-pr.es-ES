@@ -11,17 +11,16 @@ ms.reviewer: chenle
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 description: Aprenda a usar informes de actividades para ver cómo los usuarios de su organización usan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d7346ef19f70366ec32ad6d7a6bcf24fc98e6e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6f568dfdf51cb34da340e8192336f4c0c8cca19a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242387"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565639"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Use los informes de actividades de Microsoft Teams 
 ========================================

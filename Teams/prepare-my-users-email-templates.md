@@ -11,17 +11,14 @@ audience: admin
 description: Use plantillas para enviar correos electrónicos a los usuarios a medida que implementa funcionalidades de voz en la nube en Teams o Skype empresarial.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a1885b04766ed5c6da271becc2beb58a7d45ca0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f5793678df25f353b2400719fa8d64c3a0acd78
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237203"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567709"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción por el usuario del nuevo sistema telefónico en línea
 

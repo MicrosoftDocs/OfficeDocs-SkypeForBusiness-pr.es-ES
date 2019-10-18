@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,12 +21,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: 'Learn how in Office 365 Calling Plan (PSTN Calling plan) to buy and set up licenses, get phone numbers, add and assign emergency locations and phone numbers to users, and tell your users about their new phone numbers. '
-ms.openlocfilehash: 9f01c73c8374a367beb03db0a14df5dada0c562d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 964748a9af9d7a31d7dd4cc4648353b6724fc54e
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494709"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571243"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 
@@ -76,7 +75,7 @@ En el centro de administración de Skype empresarial, vaya a**ubicaciones** > de
 
 ![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
-En el centro de administración de Skype empresarial, vaya **** > a**usuarios** > de voz de voz de la**Ubicación** > de emergencia**asignar número** > **Cambiar ubicación**. Para obtener más información, consulte [asignar o cambiar una dirección de emergencia para un usuario](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
+En el centro de administración de Skype empresarial, vaya **a** > **usuarios** > de voz de voz de la**Ubicación** > de emergencia**asignar número** > **Cambiar ubicación**. Para obtener más información, consulte [asignar o cambiar una dirección de emergencia para un usuario](/skypeforbusiness/what-are-calling-plans-in-office-365/assign-or-change-an-emergency-address-for-a-user) .
 
    > [!NOTE]
    > También puede asignar una dirección de emergencia cuando asigne un número de teléfono.

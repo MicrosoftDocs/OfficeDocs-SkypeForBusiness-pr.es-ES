@@ -1,5 +1,5 @@
 ---
-title: ¿Qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas?
+title: ¿Qué son las ubicaciones de emergencia y el enrutamiento de llamadas?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 audience: Admin
 appliesto:
@@ -22,14 +21,14 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Descubra qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas de emergencia, y cómo planear y asignarlos a los usuarios. '
-ms.openlocfilehash: 7ab3c17e6d74d8e53358f91b3f99759cf4b22203
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37396407"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568558"
 ---
-# <a name="what-are-emergency-locations-places-and-call-routing"></a>¿Qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas?
+# <a name="what-are-emergency-locations-places-and-call-routing"></a>¿Qué son las ubicaciones de emergencia y el enrutamiento de llamadas?
 
 Cuando configure planes de llamadas, tendrá que asignar una ubicación de emergencia a cada número de teléfono al obtener el número de teléfono o asignarlo a un usuario para que admita las llamadas de emergencia. Antes de poder asignar una ubicación de emergencia a un número de teléfono, debe agregar y validar una ubicación de emergencia. La validación asegura que la ubicación de emergencia se reconoce y que está en un formato adecuado que pueden usar los servicios de respuesta de emergencia. De manera opcional, puedes agregar un lugar dentro de la ubicación de emergencia para proporcionar una ubicación más específica para el usuario. Por ejemplo, el lugar podría ser un piso, una alas o una oficina que esté vinculada a una ubicación de emergencia específica. A pesar de que las ubicaciones de emergencia se validan, los lugares no.
   

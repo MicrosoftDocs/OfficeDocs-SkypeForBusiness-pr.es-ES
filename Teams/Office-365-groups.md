@@ -12,16 +12,15 @@ description: Aprenda cómo funcionan los grupos y las pertenencias a grupos de O
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9734404e767e9769a44a09fa7afe22bf251e4ba7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fff9b4165770afa61c6f89fb83088a37b221f677
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245171"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37563866"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 grupos y Microsoft Teams
 =====================================

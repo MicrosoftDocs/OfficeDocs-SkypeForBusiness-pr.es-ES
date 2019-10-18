@@ -12,16 +12,15 @@ description: Obtenga más información sobre cómo planear la implementación de
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eca84b8b8a8a80772b89800ad105ed1b2394224e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2400ef05c65bf69adb820d62e98c93c060641350
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237700"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573256"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -76,8 +75,8 @@ Es posible que su organización tenga requisitos adicionales para establecer dir
 
 |           |            |
 |-----------|------------|
-| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Necesita su organización especificar una fecha de expiración para Teams?</li><li>¿Su organización requiere directivas específicas de retención de datos que se aplicarán a teams?</li><li>¿Se espera que su organización necesite la capacidad de archivar equipos inactivos para conservar el contenido en un estado de solo lectura?</li></ul>|
-| ![Un icono que muestra los pasos siguientes](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de la organización para la caducidad del equipo, la retención de datos y el archivado.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Necesita su organización especificar una fecha de expiración para Teams?</li><li>¿Su organización requiere directivas específicas de retención de datos que se aplicarán a teams?</li><li>¿Se espera que su organización necesite la capacidad de archivar equipos inactivos para conservar el contenido en un estado de solo lectura?</li></ul>|
+| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de la organización para la caducidad del equipo, la retención de datos y el archivado.</li><li>Planee la implementación de estos requisitos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
 
 > [!TIP]
 > Use la tabla siguiente para capturar los requisitos de la organización.
@@ -109,8 +108,8 @@ Otro aspecto importante de la administración del ciclo de vida y del gobierno d
 
 |         |         |
 |---------|---------|
-| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Su organización requiere la limitación de las características de Teams para todo el inquilino?</li><li>¿Su organización requiere la limitación de las características de Teams para usuarios específicos?</li></ul>|
-| ![Un icono que muestra los pasos siguientes](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de la organización para limitar las características de Teams en el nivel de inquilino y de usuario.</li><li>Planee la implementación de sus requisitos específicos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Su organización requiere la limitación de las características de Teams para todo el inquilino?</li><li>¿Su organización requiere la limitación de las características de Teams para usuarios específicos?</li></ul>|
+| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Documente los requisitos de la organización para limitar las características de Teams en el nivel de inquilino y de usuario.</li><li>Planee la implementación de sus requisitos específicos como parte de la implementación de Teams.</li><li>Comunique y publique sus directivas para informar a los usuarios del comportamiento que pueden esperar.</li></ul>|
 
 ### <a name="teams-feature-management-focus-areas"></a>Áreas de administración de características de Teams
 

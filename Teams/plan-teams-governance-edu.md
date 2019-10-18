@@ -11,16 +11,15 @@ description: Respuestas a las preguntas más frecuentes de los administradores d
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1bfa8f141f7aa8ce8dd258610ff8b510ff66aac
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4faddea2a6d0366a45fab3667b781d9d1fe81f0b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237656"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573267"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Preguntas frecuentes de la administración de Microsoft Education para administradores
 
@@ -31,7 +30,7 @@ ms.locfileid: "36237656"
 
 Para evitar nombres inapropiados o engañosos, o simplemente para proporcionar más estructura para el nombre de Teams, puede usar la política de nomenclatura de grupos de Office 365 (actualmente en versión preliminar):
 
--   **Directiva de nomenclatura de** prefijos Puede usar prefijos o sufijos para definir la Convención de nomenclatura de Teams (grupos), por ejemplo, **GRP_US_My Group_Engineering**. Los prefijos y los sufijos pueden ser cadenas fijas o atributos de usuario (como **[Departamento]**) que se agregan al nombre basándose en el usuario que está creando el equipo.
+-   **Directiva de nomenclatura de prefijos** Puede usar prefijos o sufijos para definir la Convención de nomenclatura de Teams (grupos), por ejemplo, **GRP_US_My Group_Engineering**. Los prefijos y los sufijos pueden ser cadenas fijas o atributos de usuario (como **[Departamento]**) que se agregan al nombre basándose en el usuario que está creando el equipo.
 -   **Palabras bloqueadas personalizadas** Puede cargar un conjunto de palabras que los usuarios de una organización específica tienen bloqueados para usar en los nombres de los equipos que creen. Por ejemplo, puede bloquear los términos **CEO**, **nómina**y **HR** para que no se usen en los nombres de equipo de los grupos a los que no se aplican.
 -   **Clasificación** Puede crear clasificaciones que los usuarios de su organización puedan establecer al crear un grupo de Office 365. 
 
@@ -71,7 +70,7 @@ Al comienzo de cada semestre o trimestre, necesitará un número de nuevos equip
 Le recomendamos que piense primero cómo desea controlar los datos de los equipos cuando el semestre de la escuela o el trimestre está por encima: Si desea eliminarlos o mantenerlos disponibles para los alumnos incluso después de haber completado el curso. Querrá tener en cuenta el calendario de la escuela para que las directivas que establezca no entren en conflicto con los días no laborables. Puede usar las siguientes herramientas para implementar su estrategia:
 
 -   **Directiva de retención:** Use esta para eliminar todos los datos anteriores a una antigüedad que especifique para asegurarse de que los datos antiguos se quitan de los chats (para todos o algunos usuarios) y canales. También puede configurar Teams para que retenga el contenido, de modo que no se pueda eliminar. Para obtener más información, consulte [directivas de retención para Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Retention-policies-for-Microsoft-Teams/ba-p/178011).
--   **Directiva de expiración:** Configurar Teams para que venza después de un número determinado de días. Treinta días antes de la expiración, se notifica a todos los propietarios de un equipo que es necesario renovar el equipo; de lo contrario, se eliminará (aunque un administrador puede recuperar los equipos eliminados durante 30 días adicionales). Esta configuración es muy útil para asegurarse de que los equipos que no se usan estén sunsetted. Para obtener más información, vea la Directiva de expiración del [grupo de Office 365](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
+-   **Directiva de expiración:** Configurar Teams para que venza después de un número determinado de días. Treinta días antes de la expiración, se notifica a todos los propietarios de un equipo que es necesario renovar el equipo; de lo contrario, se eliminará (aunque un administrador puede recuperar los equipos eliminados durante 30 días adicionales). Esta configuración es muy útil para asegurarse de que los equipos que no se usan estén sunsetted. Para obtener más información, vea la [Directiva de expiración del grupo de Office 365](https://support.office.com/article/office-365-group-expiration-policy-8d253fe5-0e09-4b3c-8b5e-f48def064733).
 
 -   **Equipo de archivo:** Esta opción pone equipos en el modo de solo lectura. Aún puede examinarlos y buscarlos, pero nadie puede agregar mensajes nuevos. [Archivar o restaurar un equipo](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) describe cómo los propietarios del equipo pueden archivar un equipo; Los propietarios del equipo también pueden usar la [API de Graph (beta)](https://developer.microsoft.com/graph/docs/api-reference/beta/resources/teams_api_overview) para archivar o restaurar un equipo.
  

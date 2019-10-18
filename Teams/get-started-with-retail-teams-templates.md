@@ -9,7 +9,6 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar las plantillas de Teams para crear estructuras de equipo diseñadas para las necesidades de los distribuidores.
@@ -17,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ef5647ba20b3fd9d3d4378182ea2e8b39b1487b
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 2688425d28d1118cc6fa3338e0724dfa92c3c88c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767106"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569613"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Introducción a las plantillas comerciales de Teams 
 

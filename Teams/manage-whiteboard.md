@@ -14,16 +14,15 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ef6e203f615f9ea4ed1b67fc9d5995713916367
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 80a57388e48e73d62b863d886c5510c002509e47
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328400"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571917"
 ---
 <a name="manage-the-whiteboard-in-microsoft-teams"></a>Administrar la pizarra en Microsoft Teams
 ==========================================

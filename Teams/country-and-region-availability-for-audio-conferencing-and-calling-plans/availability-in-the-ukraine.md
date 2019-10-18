@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Ucrania.
-ms.openlocfilehash: 1a97f94ffe5c7ef08b948d99f1df72b0b829b993
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 28b16f46c420d8bc2e0bc221d3a76ff8d34424e4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34331055"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572548"
 ---
 # <a name="availability-in-the-ukraine"></a>Disponibilidad en Ucrania
 
@@ -77,7 +76,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los créditos de comunicaciones están disponibles?  <br/> |Sí  <br/> |
+|¿Los créditos de comunicaciones están disponibles?  <br/> |No  <br/> |
    
 Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../set-up-communications-credits-for-your-organization.md).
   

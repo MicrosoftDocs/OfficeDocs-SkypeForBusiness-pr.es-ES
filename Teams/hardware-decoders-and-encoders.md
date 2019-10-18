@@ -1,5 +1,5 @@
 ---
-title: Recomendaciones para el controlador de hardware y el controlador del descodificador
+title: Recomendaciones para el controlador del codificador y descodificador de hardware
 ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
@@ -9,8 +9,7 @@ audience: Admin
 ms.topic: reference
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 localization_priority: Normal
 search.appverid: MET150
 description: Enumera las combinaciones de sistema operativo, modelo y drivers que no están habilitados para la aceleración de hardware debido a problemas de controladores.
@@ -18,14 +17,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - MicrOperating systemoft Teams
-ms.openlocfilehash: 282dce404d96a678fdd6532d62bcb185073aecc1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242199"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570768"
 ---
-# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recomendaciones para el controlador de hardware y el controlador del descodificador
+# <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recomendaciones para el controlador del codificador y descodificador de hardware
 
 Microsoft admite todos los descodificadores y codificadores excepto los enumerados en este artículo.
 

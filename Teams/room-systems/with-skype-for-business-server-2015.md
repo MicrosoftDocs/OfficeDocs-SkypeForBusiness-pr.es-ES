@@ -9,17 +9,16 @@ ms.topic: quickstart
 ms.service: msteams
 localization_priority: Normal
 ms.collection:
-- Strat_SB_Admin
-- M365-voice
+- M365-collaboration
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Skype empresarial Server.
-ms.openlocfilehash: 0661a19b3569cbfde5edfb5ceb631fab7282d302
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 25a9759d4f61082f30a54b130d52d8fef0f9d299
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774951"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573478"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Implementar salas de Microsoft Teams con Skype empresarial Server
   

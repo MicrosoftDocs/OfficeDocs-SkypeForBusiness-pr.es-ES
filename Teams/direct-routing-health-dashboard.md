@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Aprenda a usar el panel de estado para supervisar la conexión entre el controlador de borde de sesión y el enrutamiento directo.
-ms.openlocfilehash: b6ec0c04200fac018b721bfe6c94f8d9bd969a2f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0424f24e323928f487e8b43ce72e51602f9eab52
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237497"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572206"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Panel de estado para enrutamiento directo
 
@@ -52,7 +51,7 @@ El panel de estado proporciona la siguiente información relacionada con el esta
   
    Debido a que la acción que realices puede depender del número de llamadas afectadas, el panel de estado muestra cuántas llamadas se han analizado para calcular un parámetro. Si el número de llamadas es menor que 100, el NER podría ser muy bajo, pero sigue siendo normal. 
 
-   La fórmula que se usa para calcuate NER es:
+   La fórmula que se usa para calcular NER es la siguiente:
 
    NER = llamadas respondidas + usuario ocupado + timbre no responde + ataques de rechazo de terminal x 100
 
@@ -107,7 +106,7 @@ La vista detallada muestra los siguientes parámetros adicionales:
 
    - Pérdida de paquetes: es una medida de paquete que no pudo llegar. se calcula entre dos puntos finales.
 
-   - Latancy: (también conocido como tiempo de ida y vuelta) es la cantidad de tiempo que se tarda en enviar una señal más el tiempo que tarda la recepción de la señal. Este tiempo de retardo consiste en los tiempos de propagación entre los dos puntos de una señal.
+   - Latencia: (también conocido como tiempo de ida y vuelta) es la cantidad de tiempo que se tarda en enviar una señal más el tiempo que tarda en recibirse el reconocimiento de esa señal. Este tiempo de retardo consiste en los tiempos de propagación entre los dos puntos de una señal.
 
    Puede deslizar los datos por número de días y dirección de llamada (entrante o saliente/todas las transmisiones).
 

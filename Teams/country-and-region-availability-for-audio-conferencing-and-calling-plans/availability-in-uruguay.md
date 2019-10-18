@@ -10,7 +10,6 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
 audience: Admin
@@ -25,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Uruguay.
-ms.openlocfilehash: 6e552f46b1cbf6ce8dce55c9da903b0a741eae08
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 2a401e3c89c291611c88a8bbb796a82f7159a864
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775363"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569516"
 ---
 # <a name="availability-in-uruguay"></a>Disponibilidad en Uruguay
 

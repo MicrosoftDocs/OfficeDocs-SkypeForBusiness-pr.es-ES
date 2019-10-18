@@ -1,5 +1,5 @@
 ---
-title: Servidores proxy para equipos o Skype empresarial online
+title: Servidores proxy para Skype Empresarial Online o Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -9,7 +9,8 @@ ms.assetid: 7acaf2c2-35fa-490f-84cd-822e446e0fc7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: M365-collaboration
+ms.collection:
+- M365-collaboration
 audience: Admin
 appliesto:
 - Skype for Business
@@ -19,14 +20,14 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Este artículo proporciona información sobre el uso de un servidor proxy con Teams o Skype empresarial.
-ms.openlocfilehash: e0733393a40c2d2c2fd62d986a4b4d66d0c2c35f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b06e7aa43dcbcf5aeab9011af72d94460f69cc63
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304373"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37573211"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores proxy para equipos o Skype empresarial online
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores proxy para Skype Empresarial Online o Teams
 
 Este artículo proporciona instrucciones sobre cómo usar un servidor proxy con Teams o Skype empresarial.
   
@@ -38,7 +39,7 @@ Y tener un proxy puede causar problemas. Los problemas relacionados con el rendi
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>Si necesita usar un servidor proxy
 
-Algunas organizaciones no tienen la opción de omitir un proxy para el tráfico de equipos o de Skype empresarial. Si ese es su caso, hay que tener en cuenta los problemas mencionados anteriormente.
+Algunas organizaciones no tienen la opción de omitir un proxy para el tráfico de equipos o de Skype empresarial. Si ese es el caso, deberás tener en mente los problemas mencionados anteriormente.
   
 Microsoft también recomienda:
   

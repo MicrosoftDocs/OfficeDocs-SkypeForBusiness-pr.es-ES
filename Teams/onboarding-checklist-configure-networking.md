@@ -11,24 +11,21 @@ audience: admin
 description: Siga las actividades básicas y tareas pendientes de esta lista de comprobación cuando configure su red para Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.collection:
-- Teams_ITAdmin_PracticalGuidance
-- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a9a8c6eb4c015a1fc86f35fac72117766cab326
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cf45acd7053864dbb92e58444cdcc4b162cec9b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238510"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567906"
 ---
 # <a name="configure-networking"></a>Configurar redes
 
 | No | Actividad o tarea | Descripción | ¿Completado? | Información adicional |
 |----|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1  | Revisar los requisitos de red de Teams | Tenga una visión general de los requisitos de su red antes de pasar a los detalles de la red. | | [Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/microsoftteams/prepare-network)                                                               |
-| 2  | Ofrecer el taller de preparación de redes | Realizar una evaluación de la disponibilidad de red. | |  |
+| 1  | Ofrecer el taller de preparación de redes | Realizar una evaluación de la disponibilidad de red. | |  |
 | 3  | Usar el planificador de redes | Planear el ancho de banda de red. | | |
 | 4  | Validar el tamaño del grupo NAT necesario para conectividad de usuario | Asegúrese de que las direcciones IP públicas adecuadas se asignen a los grupos NAT para evitar el agotamiento del puerto. El agotamiento del puerto contribuirá a que los usuarios internos y los dispositivos no puedan conectarse al servicio de Office 365. <br/><br/>Los problemas de conectividad son una causa principal de los problemas de percepción de los usuarios en los servicios en la nube. | | [Compatibilidad de NAT con Office 365](https://support.office.com/article/NAT-support-with-Office-365-170e96ea-d65d-4e51-acac-1de56abe39b9) |
 | 5  | Implementar el enrutamiento más eficaz a los centros de recursos de Microsoft | Identifique las ubicaciones que pueden usar puntos de salida locales o regionales para conectarse a la red de Microsoft de la manera más eficaz posible. <br/><br/>En el artículo de la columna **información adicional** se describe cómo los clientes pueden aprovechar las características de la resolución de nombres de Office 365 y el enrutamiento IP para conectarse de forma eficaz al centro de datos regional más cercano. | | [Conectividad de cliente de Office 365](https://support.office.com/article/Client-connectivity-4232abcf-4ae5-43aa-bfa1-9a078a99c78b) |

@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar un controlador de borde de sesión (SBC) para que sirva a varios inquilinos.
-ms.openlocfilehash: d3defa7be5fc7e2f8c9d96017706329184c4ad59
-ms.sourcegitcommit: f1c4255b52576c602d528c580941404eb547bc78
+ms.openlocfilehash: 5009f600af0d9632ed94b544e75f791d9ecead85
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "37131652"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572140"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -56,8 +55,8 @@ Estos son los pasos técnicos de implementación para configurar el escenario.
 
 Para conocer los pasos detallados sobre cómo implementar y configurar SBCs para un escenario de hospedaje de SBC, consulte la documentación del proveedor de SBC.
 
-- **AudioCodes:** [Notas de configuración de enrutamiento directo](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuración del escenario de hospedaje de SBC, descrito en "conexión de SBC AudioCodes a Microsoft Teams Direct Routing modelo Hosting Model." 
-- **Oracle:** Las [notas de configuración de enrutamiento directo](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuración del escenario de hospedaje de SBC se describe en la sección "Microsoft". 
+- **AudioCodes:** [notas de configuración de enrutamiento directo](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), la configuración del escenario de hospedaje de SBC, que se describe en "conectar SBC de AudioCodes a Microsoft Teams: modelo de hospedaje de enrutamiento directo." 
+- **Oracle:** las [notas de configuración de enrutamiento directo](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html), la configuración del escenario de hospedaje de SBC se describe en la sección "Microsoft". 
 - **Comunicaciones de la cinta de opciones:**  Consulte la guía de [configuración básica de Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) en la cinta de opciones de SBC de comunicaciones para obtener información sobre cómo configurar la serie de núcleos de la cinta SBCS y a esta página [mejor práctica de la cinta: configuración de operadores para Microsoft Teams enrutamiento directo de SBC Borde](https://support.sonus.net/display/UXDOC70/Best+Practice+-+Configuring+Carriers+for+Microsoft+Teams+Direct+Routing)
 - **Te-Systems (anynode):**  Regístrese en la página de la [comunidad de los sistemas](https://community.te-systems.de/) para obtener documentación y ejemplos sobre cómo configurar SBC de anynode para varios inquilinos.
 

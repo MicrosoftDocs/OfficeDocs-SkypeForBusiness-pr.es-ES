@@ -10,18 +10,17 @@ audience: admin
 ms.reviewer: sonua
 localization_priority: Normal
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 description: Obtenga más información sobre los factores que hay que tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a38fad067f71fff0221a5af2f842ed1e2574d54
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464562"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570184"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -78,7 +77,7 @@ En la siguiente tabla se resaltan las funciones principales y las característic
 
 |**Capacidades**   |**Difusión de reunión de Skype** |**Eventos producidos en Teams** |**Eventos producidos en una aplicación o dispositivo externo** |
 |---------|---------|---------|---------|
-|Tamaño máximo de audiencia |10.000 asistentes |10.000 asistentes<sup>1</sup> |10.000 asistentes<sup>1</sup> |
+|Tamaño máximo de audiencia |10 000 asistentes |10.000 asistentes<sup>1</sup> |10.000 asistentes<sup>1</sup> |
 |Duración máxima del evento en directo |4 horas |4 horas |4 horas |
 |Número máximo de eventos dinámicos simultáneos por inquilino de Office 365 |4,5  | 4,5  | 4,5  |
 |Creación de eventos en directo |   Portal de difusión de reunión de Skype |Teams, Yammer a través de Teams | Teams, Yammer a través de Teams, streaming |
@@ -115,10 +114,10 @@ Puede usar eventos de Teams Live en varias regiones de todo el mundo. La siguien
 - Americano
 - Europa/África
 - Asia Pacífico
-- Ir a Canadá local
+- Ir a la versión local de Canadá, India, Australia, Japón, Reino Unido
 
 **Exclusiones y consideraciones**
-- **Ir a locales:** Actualmente no se admiten las variables locales del Reino Unido y otros equipos.
+- **Ir a locales:** Los equipos pueden dirigirse a locales, fuera de los mencionados anteriormente, no son compatibles actualmente.
 - **China:** Los miembros del equipo del evento y los asistentes no podrán usar los eventos en directo de Teams porque no se puede obtener acceso a la CDN de Azure en China. Una solución es usar una conexión VPN corporativa, que obtiene el cliente conectado a CDN a través de la red corporativa del cliente.
 
 ## <a name="next-steps"></a>Pasos siguientes

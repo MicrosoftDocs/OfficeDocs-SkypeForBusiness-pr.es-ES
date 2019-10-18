@@ -1,5 +1,5 @@
 ---
-title: Administrar equipos en el Centro de administración de Microsoft Teams
+title: Administrar equipos en el centro de administración de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -13,18 +13,17 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b8937827cb5e3fa80e9ebae93d9958be2cf0f38
-ms.sourcegitcommit: 8a8c71aea5bd2420b110619607ef0715136578ab
+ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2019
-ms.locfileid: "36286248"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571939"
 ---
-<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el Centro de administración de Microsoft Teams
+<a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el centro de administración de Microsoft Teams
 ==========================================
 
 ## <a name="overview"></a>Información general
@@ -40,7 +39,7 @@ Este artículo proporciona una descripción general de las herramientas de admin
 
 ## <a name="teams-overview-grid"></a>Cuadrícula de información general de Teams
 
-Las herramientas de administración para Teams **** se encuentran en el nodo Teams del centro de administración de Microsoft Teams. (En el centro de administración, seleccione **Teams** > **Manage Teams**). Cada equipo está respaldado por un grupo de Office 365, y este nodo proporciona una vista de los grupos que se han habilitado en Microsoft Teams.
+Las herramientas de administración para Teams se encuentran en el nodo **Teams** del centro de administración de Microsoft Teams. (En el centro de administración, seleccione **Teams** > **Manage Teams**). Cada equipo está respaldado por un grupo de Office 365, y este nodo proporciona una vista de los grupos que se han habilitado en Microsoft Teams.
 
 ![Captura de pantalla de la cuadrícula de información general de Teams](media/manage-teams-in-modern-portal-grid.png)  
 

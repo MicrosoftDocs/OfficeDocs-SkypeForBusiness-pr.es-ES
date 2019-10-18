@@ -14,18 +14,17 @@ localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 f1keywords:
 - ms.teamsadmincenter.callingpolicies.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e97f16097a30172a2ea56eb7fc9808042055f0e
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483693"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570275"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Directivas de llamadas en Microsoft Teams
 ===================================
@@ -38,8 +37,8 @@ Siga estos pasos para crear una directiva de llamadas personalizada.
 
 1. En el centro de administración de Microsoft Teams, seleccione**Directiva de llamadas**de **voz** > .
 2. Seleccione **nueva Directiva**.
-3. Activa las características que deseas usar en tu Directiva de llamadas. Todas las selecciones **** están desactivadas de forma predeterminada.
-4. Para controlar si los usuarios pueden enrutar llamadas entrantes al buzón de voz, seleccione **habilitadas siempre** o controladas por el **usuario**. Para evitar el enrutamiento al buzón de voz, seleccione **siempre**deshabilitado.
+3. Activa las características que deseas usar en tu Directiva de llamadas. Todas las selecciones están **desactivadas** de forma predeterminada.
+4. Para controlar si los usuarios pueden enrutar llamadas entrantes al buzón de voz, seleccione **habilitadas siempre** o **controladas**por el usuario. Para evitar el enrutamiento al buzón de voz, seleccione **siempre deshabilitado**.
 5. Seleccione **Guardar**.
 
 ## <a name="modify-an-existing-calling-policy"></a>Modificar una directiva de llamadas existente
@@ -48,8 +47,8 @@ Siga estos pasos para modificar una directiva de llamadas existente.
 
 1. En el centro de administración de Microsoft Teams, seleccione**Directiva de llamadas**de **voz** > .
 2. Haga clic en junto a la Directiva que desea modificar y, a continuación, seleccione **Editar**.
-3. Activa las características que deseas usar en tu Directiva de llamadas. Todas las selecciones **** están desactivadas de forma predeterminada.
-4. Para controlar si los usuarios pueden enrutar llamadas entrantes al buzón de voz, seleccione **habilitadas siempre** o controladas por el **usuario**. Para evitar el enrutamiento al buzón de voz, seleccione **siempre**deshabilitado.
+3. Activa las características que deseas usar en tu Directiva de llamadas. Todas las selecciones están **desactivadas** de forma predeterminada.
+4. Para controlar si los usuarios pueden enrutar llamadas entrantes al buzón de voz, seleccione **habilitadas siempre** o **controladas**por el usuario. Para evitar el enrutamiento al buzón de voz, seleccione **siempre deshabilitado**.
 5. Seleccione **Guardar**.
 
 ## <a name="assign-a-calling-policy-to-a-user"></a>Asignar una directiva de llamadas a un usuario
@@ -83,7 +82,7 @@ Esta configuración controla si las llamadas entrantes pueden desviarse a un nú
 Esta configuración permite que las llamadas entrantes se envíen al buzón de voz. Las opciones válidas son:
 
    - **Siempre habilitado** El buzón de voz siempre está disponible para las llamadas entrantes. 
-   - **Siempre** deshabilitado  El buzón de voz no está disponible para llamadas entrantes. 
+   - **Siempre deshabilitado**  El buzón de voz no está disponible para llamadas entrantes. 
    - **Controlado**por el usuario. Los usuarios pueden determinar si desean que el buzón de voz esté disponible.
 
 ### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Las llamadas entrantes se pueden enrutar a grupos de llamadas 

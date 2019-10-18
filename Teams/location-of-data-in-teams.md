@@ -12,16 +12,15 @@ description: Obtenga información sobre dónde se almacenan los datos en Microso
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 832fa044379698eae3531c8b340dbd36f922198c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 559d711fa157397752c4bc3aa5b9f0d4a41a31f4
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242109"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570682"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Ubicación de los datos en Microsoft Teams
 

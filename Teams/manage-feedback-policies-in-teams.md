@@ -10,18 +10,17 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-collaboration
-- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar las directivas de comentarios para controlar si los usuarios de equipos de su organización pueden enviar comentarios sobre los equipos a Microsoft.
-ms.openlocfilehash: a181b0af6527e154997ef611be19b08ea026ffa4
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: e43cc46e16a17ad4f059398e99736d14fdee62ee
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715823"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570638"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Administrar directivas de comentarios en Microsoft Teams
 
@@ -47,14 +46,14 @@ Como administrador, puede controlar si los usuarios de su organización pueden e
 
 Puede editar la directiva global o crear y asignar una directiva personalizada. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario. Después de modificar la directiva global o asignar una directiva, los cambios pueden tardar hasta 24 horas en surtir efecto.
 
-Supongamos, por ejemplo, que desea permitir que todos los usuarios de su organización envíen comentarios y reciban encuestas, excepto para los nuevos empleados en curso. **** En este escenario, puede crear una directiva personalizada para desactivar ambas características y asignarla a nuevos empleados. El resto de los usuarios de su organización obtienen la directiva global con las características activadas.  
+Supongamos, por ejemplo, que desea permitir que todos los usuarios de su organización envíen **comentarios y** reciban encuestas, excepto para los nuevos empleados en curso. En este escenario, puede crear una directiva personalizada para desactivar ambas características y asignarla a nuevos empleados. El resto de los usuarios de su organización obtienen la directiva global con las características activadas.  
 
 Use el cmdlet **New-CsTeamsFeedbackPolicy** , *que se puede [encontrar aquí](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*, para crear una directiva personalizada y el cmdlet **Grant-CsTeamsFeedbackPolicy** para asignarla a uno o más usuarios o grupos de usuarios, como un grupo de seguridad o Grupo de distribución.
 
 Para desactivar y activar las características, establezca los siguientes parámetros:
 
- - **Enviar comentarios**: establezca el parámetro **userInitiatedMode** en **habilitado** para permitir a los usuarios a quienes les asignan Comentarios. Establecer el parámetro en **** deshabilitado desactiva la característica y los usuarios a los que se les asigna la Directiva no tienen la opción de enviar comentarios.
- - **Encuestas**: establezca el parámetro **receiveSurveysMode** en **habilitado** para permitir que los usuarios a los que se les asigne la Directiva reciban la encuesta. Para que los usuarios reciban la encuesta y les permita su cancelación, establezca el parámetro en **enabledUserOverride**. En Teams, los usuarios pueden ir a la **configuración** > **privacidad** y elegir si desean participar en encuestas. Establecer el parámetro en **** deshabilitado desactiva la característica y los usuarios que tienen asignada la Directiva no recibirán la encuesta.
+ - **Enviar comentarios**: establezca el parámetro **userInitiatedMode** en **habilitado** para permitir a los usuarios a quienes les asignan Comentarios. Establecer el parámetro en **deshabilitado** desactiva la característica y los usuarios a los que se les asigna la Directiva no tienen la opción de enviar comentarios.
+ - **Encuestas**: establezca el parámetro **receiveSurveysMode** en **habilitado** para permitir que los usuarios a los que se les asigne la Directiva reciban la encuesta. Para que los usuarios reciban la encuesta y les permita su cancelación, establezca el parámetro en **enabledUserOverride**. En Teams, los usuarios pueden ir a la **configuración** > **privacidad** y elegir si desean participar en encuestas. Establecer el parámetro en **deshabilitado** desactiva la característica y los usuarios que tienen asignada la Directiva no recibirán la encuesta.
 
 ## <a name="create-a-custom-feedback-policy"></a>Crear una directiva personalizada de comentarios
 

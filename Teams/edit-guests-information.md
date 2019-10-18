@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
+- Teams_ITAdmin_GuestAccess
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Descubra cómo un administrador puede editar información sobre los usuarios invitados en el portal de Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cddb34306e87c461aa9dca19e09347e18cb0ca13
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: bd3f2a1fc4e4888731061db6aa251ad88a871496
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234962"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37565864"
 ---
 <a name="edit-guest-user-information"></a>Editar información del usuario invitado
 ===========================

@@ -10,8 +10,7 @@ ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -24,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Use los detalles de análisis de llamadas sobre dispositivos, redes y conectividad para solucionar problemas de los usuarios con Microsoft Teams y las llamadas y reuniones de Skype empresarial.
-ms.openlocfilehash: 952cd0f34221f0a7e1203f8ff78edf2abdadb9b1
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 4b2d6a5a18bf0a13f3fd32aecb8ad98192f3851a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548983"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568639"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas
 
@@ -45,9 +44,9 @@ El nivel de permisos que se le asigna determina el tipo de información a la que
   
 - **Administrador de servicios de Teams o administrador de comunicaciones**de Teams: tiene acceso a toda la información de análisis de llamadas y del centro de administración de Microsoft Teams.
     
-- **Especialista de soporte técnico de comunicaciones**de Teams: en el análisis de llamadas verá un conjunto limitado de datos. Puede solucionar problemas de llamadas, pero podrá entregar problemas con las reuniones a un ingeniero de soporte técnico de comunicaciones de Teams. No tiene acceso al resto del centro de administración de Microsoft Teams.
+- **Especialista de soporte técnico de comunicaciones de Teams**: en el análisis de llamadas verá un conjunto limitado de datos. Puede solucionar problemas de llamadas, pero podrá entregar problemas con las reuniones a un ingeniero de soporte técnico de comunicaciones de Teams. No tiene acceso al resto del centro de administración de Microsoft Teams.
     
-- **Ingeniero de soporte técnico de comunicaciones**de Teams: puede ver todos los datos disponibles en el análisis de llamadas y puede ayudarle a solucionar problemas con las llamadas y las reuniones. No tiene acceso al resto del centro de administración de Microsoft Teams.
+- **Ingeniero de soporte técnico de comunicaciones de Teams**: puede ver todos los datos disponibles en el análisis de llamadas y puede ayudarle a solucionar problemas con las llamadas y las reuniones. No tiene acceso al resto del centro de administración de Microsoft Teams.
     
 > [!NOTE]
 > El rol de especialista en soporte técnico de comunicaciones es equivalente al soporte de nivel 1 y el rol de Ingeniero de soporte técnico de comunicaciones es equivalente al soporte técnico de nivel 2.
@@ -86,7 +85,7 @@ En el caso de las sesiones de audio que tienen los datos de calidad de la experi
 |:-----|:-----|:-----|
 |Configuración de llamadas  <br/> |Sesión  <br/> |El código de error MS-Diag 20-29 indica que se produjo un error en la configuración de la llamada. El usuario no pudo unirse a la llamada o reunión.  <br/> |
 |Red de audio clasificada llamada deficiente  <br/> |Sesión  <br/> |Se encontraron problemas de calidad de red (como pérdida de paquetes, vibración, degradación NMOS, RTT o relación de ocultación). Para obtener más información sobre las condiciones que se usan para clasificar las llamadas incorrectas, vea esta [entrada de blog de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
-|El dispositivo no funciona  <br/> |Dispositivo  <br/> | Un dispositivo no funciona correctamente. Las relaciones de dispositivo no funcionan: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
+|El dispositivo no funciona  <br/> |Dispositivo  <br/> | Un dispositivo no funciona correctamente. Las relaciones de dispositivo no funcionan: <br/>  DeviceRenderNotFunctioningEventRatio >= 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio >= 0,005 <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar el Análisis de llamadas](set-up-call-analytics.md)

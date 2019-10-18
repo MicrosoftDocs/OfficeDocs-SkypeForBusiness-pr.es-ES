@@ -8,7 +8,8 @@ ms.topic: conceptual
 ms.assetid: e97aeeee-9e43-416f-b433-9cdd63d8874b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -18,12 +19,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom: Reporting
 description: Obtenga información detallada sobre las dimensiones y medidas usadas por el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online.
-ms.openlocfilehash: 7683ebdf4743db1ad8798817c24fe926bd959815
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 6dcbf7b415e2c337968e5c2c3af09efcb02be0a5
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328411"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572261"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el panel de calidad de llamadas
 
@@ -392,8 +393,7 @@ La información de dimensiones se basa en parte en los datos que se cargan en el
 | Nombre del producto del primer punto de conexión|String|El nombre de producto del primer punto de conexión (Skype empresarial o Microsoft Teams).|
 | Nombre del producto del segundo punto de conexión|String|El nombre de producto del segundo punto de conexión (Skype empresarial o Microsoft Teams).|
 | Primer UserType|Cadena de enumeración|El tipo de usuario en el primer punto de conexión. <br/> **Valores posibles:** Usuario, servidor, anónimo, aplicación, RTC, buzón de voz, desconocido <br/> <br/>**Unknown** : el valor predeterminado si UserType no se puede determinar en función de la información recibida. <br/>**RTC** : un usuario de RTC. <br/>**Anónimo** : un usuario de Teams o un visitante de Skype empresarial. <br/>**Aplicación** : un bot. <br/>**Usuario** : un usuario de AAD, puede ser usuario de Skype empresarial o usuario de Teams. <br/>**Servidor** : para conferencias, al menos un lado es un servidor. <br/>**Buzón de voz** : el servicio de buzón de voz respondió al punto de conexión.||
-| Segundo UserType|Cadena de enumeración|El tipo de usuario del segundo punto de conexión. <br/> **Valores posibles:** Usuario, servidor, anónimo, aplicación, RTC, buzón de voz, desconocido <br/> <br/>**Unknown** : el valor predeterminado si UserType no se puede determinar en función de la información recibida. <br/>**RTC** : un usuario de RTC. <br/>**Anónimo** : un usuario de Teams o un visitante de Skype empresarial. <br/>**Aplicación** : un bot. <br/>**Usuario** : un usuario de AAD, puede ser usuario de Skype empresarial o usuario de Teams. <br/>**Servidor** : para conferencias, al menos un lado es el servidor.
-<br/>**Buzón de voz** : el servicio de correo de voz respondió.||
+| Segundo UserType|Cadena de enumeración|El tipo de usuario del segundo punto de conexión. <br/> **Valores posibles:** Usuario, servidor, anónimo, aplicación, RTC, buzón de voz, desconocido <br/> <br/>**Unknown** : el valor predeterminado si UserType no se puede determinar en función de la información recibida. <br/>**RTC** : un usuario de RTC. <br/>**Anónimo** : un usuario de Teams o un visitante de Skype empresarial. <br/>**Aplicación** : un bot. <br/>**Usuario** : un usuario de AAD, puede ser usuario de Skype empresarial o usuario de Teams. <br/>**Servidor** : para conferencias, al menos un lado es el servidor. <br/>**Buzón de voz** : el servicio de correo de voz respondió.||
 |**Par de personas**|||
 | Pareja de detalles de conexión de red  | Pareja enumerada <br/>**Valores posibles:** <br/> WiFi: WiFi <br/> WiFi: cableada <br/> Con cable: WiFi <br/> Cableada: cableada <br/> MobileBB: MobileBB <br/> MobileBB: otros <br/> MobileBB: túnel <br/> MobileBB: WiFi <br/> MobileBB: cableada <br/> Otros: otros <br/> Otros: WiFi <br/> Otros: cableado <br/> Túnel: túnel <br/> Túnel: WiFi <br/> Túnel: cableado <br/> : MobileBB <br/> : Otros <br/> : Túnel <br/> : WiFi <br/> : Cableada <br/> :  | Par de detalles de conexión de red para el primer y el segundo punto de conexión.  | &bull;No se conoce el tipo de conectividad de red del extremo. Esto puede ocurrir si no se pudo establecer la llamada.   |
 | Pareja de categoría de agente de usuario  | Pareja enumerada  | Pareja de categoría de agente de usuario para el primer y el segundo punto de conexión. <br/> **Valor de ejemplo:** MCU AV: OC  | &bull;El agente de usuario de extremo no era un tipo conocido  |

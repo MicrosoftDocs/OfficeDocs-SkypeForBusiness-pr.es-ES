@@ -9,8 +9,7 @@ ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+- M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
@@ -21,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configure y use el análisis de llamadas para identificar y solucionar problemas de calidad de llamadas de Skype empresarial y Microsoft Teams.
-ms.openlocfilehash: 51f28b402fea69f0e5033954018a5f67bf6c90d6
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432780"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37571254"
 ---
 # <a name="set-up-call-analytics"></a>Configurar el Análisis de llamadas
 
@@ -65,7 +64,7 @@ Los especialistas de soporte técnico de comunicaciones tratan problemas básico
 ||Número de teléfono de la persona que llama  <br/> |Los números de teléfono completos, excepto los últimos tres dígitos, se ofuscan con símbolos de asterisco. Por ejemplo, 15552823 * * *.  <br/> |Los números de teléfono completos, excepto los últimos tres dígitos, se ofuscan con símbolos de asterisco. Por ejemplo, 15552823 * * *.  <br/> |
 ||Número de teléfono del destinatario  <br/> |Los números de teléfono completos, excepto los últimos tres dígitos, se ofuscan con símbolos de asterisco. Por ejemplo, 15552823 * * *.  <br/> |Los números de teléfono completos, excepto los últimos tres dígitos, se ofuscan con símbolos de asterisco. Por ejemplo, 15552823 * * *.  <br/> |
 ||**Pestaña detalles** > de la llamada**avanzada** <br/> |La información no se muestra.  <br/> |Se muestran todos los detalles, como los nombres de los dispositivos, la dirección IP, la asignación de subred, etc.  <br/> |
-||**** > Pestaña de depuración**avanzada** > **** detalles de llamadas <br/> |La información no se muestra.  <br/> |Se muestran todos los detalles, como el sufijo DNS y SSID.  <br/> |
+||**** > Pestaña de**depuración** **avanzada** > detalles de llamadas <br/> |La información no se muestra.  <br/> |Se muestran todos los detalles, como el sufijo DNS y SSID.  <br/> |
 |**Reuniones** <br/> |Nombres de los participantes  <br/> |Solo el nombre del usuario para el que buscó el agente. Otros participantes identificados como usuario interno o usuario externo.  <br/> |Se muestran todos los nombres.  <br/> |
 ||Recuento de participantes  <br/> |Número de participantes.  <br/> |Número de participantes.  <br/> |
 ||Detalles de la sesión  <br/> |Detalles de la sesión que se muestran con excepciones. Solo se muestra el nombre del usuario para el que se ha buscado el agente. Otros participantes identificados como usuario interno o usuario externo. Los últimos tres dígitos de número de teléfono que se han ofuscado con símbolos de asterisco.  <br/> |Detalles de la sesión mostrados. Nombres de usuario y detalles de la sesión mostrados. Los últimos tres dígitos de número de teléfono que se han ofuscado con símbolos de asterisco.  <br/> |
@@ -81,11 +80,11 @@ Para obtener información sobre cómo asignar roles administrativos en Azure Act
 
 Puede agregar información de edificio, de sitio y de inquilino a análisis de llamadas al cargar un archivo. csv o. TSV. Con toda esta información, el análisis de llamadas puede asignar direcciones IP a ubicaciones físicas. Usted o los agentes del Departamento de soporte técnico pueden encontrar útil esta información para ayudar a detectar tendencias en los problemas de llamadas. Por ejemplo, ¿por qué muchos usuarios del mismo edificio tienen problemas similares con la calidad de las llamadas? 
 
-Si es un equipo de administración y un administrador de Skype empresarial, puede usar un archivo de datos existente del panel de calidad de llamadas de Skype & Skype empresarial. En primer lugar, descargue el archivo desde el panel de calidad de llamadas y, a continuación, cárguelo en análisis de llamadas. 
+Si es un equipo de administración y un administrador de Skype empresarial, puede usar un archivo de datos existente de Teams & el panel de calidad de llamadas de Skype empresarial. En primer lugar, descargue el archivo desde el panel de calidad de llamadas y, a continuación, cárguelo en análisis de llamadas. 
 
 - Para descargar un archivo de datos existente, vaya a la**carga**del**Panel** > de administración > de llamadas de **Microsoft Teams**. En la lista **mis cargas** , haga clic en **Descargar** junto al archivo que desee.
 
-- Para cargar el nuevo archivo, vaya a**ubicaciones**del **Centro** > de administración de Microsoft Teams y, a continuación, seleccione **cargar datos de ubicación** o **reemplazar datos de ubicación**.
+- Para cargar el nuevo archivo, vaya a > **ubicaciones**del **centro de administración de Microsoft Teams**y, a continuación, seleccione **cargar datos de ubicación** o **reemplazar datos de ubicación**.
   
 Si va a crear el archivo. TSV o. csv desde el principio, vea [formato del archivo de datos de inquilinos y creación de una estructura de archivo de datos](turning-on-and-using-call-quality-dashboard.md#BKMKTenantDataFile).
   

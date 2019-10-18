@@ -10,17 +10,16 @@ ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Obtenga más información sobre las diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no.
-ms.openlocfilehash: c8473fcaf6fb8b5b24f68d934cd3451ebeb8e038
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bf2fee0646e5230964673af4dbfa4fed22086cdc
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290344"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37572118"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 
