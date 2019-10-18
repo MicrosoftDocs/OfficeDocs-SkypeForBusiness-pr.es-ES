@@ -8,16 +8,17 @@ ms.author: v-lanac
 manager: serdars
 audience: admin
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baa5e58ab8614db2d5e5c80a01dc594c31308c31
-ms.sourcegitcommit: 332817f49ec1e6767334fdd4c2ec3f791020a26c
+ms.openlocfilehash: 0efee84379feef72831e2a443a75d6df0f5dc87b
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "36767171"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570385"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>Expandir Microsoft Teams en toda la organización
 

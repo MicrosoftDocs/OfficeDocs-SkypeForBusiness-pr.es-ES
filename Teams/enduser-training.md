@@ -9,7 +9,6 @@ ms.topic: landing-page
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Training
 - M365-collaboration
 ms.reviewer: lolaj
 search.appverid: MET150
@@ -19,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.trainingvideos.enduser
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba589ea0e83f506c3367df96fb130a8d6d7dea57
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
-ms.translationtype: HT
+ms.openlocfilehash: 8379e81038882a4aab99ef943c10952b47f62e12
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483027"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37567471"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 
@@ -104,7 +103,7 @@ Vea este breve vídeo de presentación de Teams</h3>
         </a>
     </li>
  <li>
-        <a href="https://www.youtube.com/channel/UC0--6byMAe9otLougDShhUw">
+        <a href="https://aka.ms/TeamsOnDemand">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -114,7 +113,7 @@ Vea este breve vídeo de presentación de Teams</h3>
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Consulte el canal de Teams en YouTube</h3>
+                        <h3>Consultar el canal de aprendizaje de Teams en YouTube</h3>
                     </div>
                 </div>
             </div>
@@ -205,7 +204,8 @@ Vea este breve vídeo de presentación de Teams</h3>
                     <div class="cardText">
                         <h3>Publicaciones y mensajes</h3>
                          <p><a href="https://support.office.com/article/create-and-format-a-post-e66777da-636b-49eb-9408-b0d88b212885">Vídeo: Crear una publicación y darle formato</a></p>
-                         <p><a href="https://support.office.com/es-ES/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Vídeo: Llamar la atención con las @menciones</a></p>
+                         <p>
+  <a href="https://support.office.com/en-us/article/get-attention-with-mentions-b2ffb135-7069-4880-84ee-5b27f402418b">Vídeo: Llamar la atención con las @menciones</a></p>
                          <p><a href="https://support.office.com/article/save-a-post-or-a-message-3f63e7d0-0011-47fa-99c0-98af60a71357)">Vídeo: Guardar una publicación o un mensaje</a></p>
                     </div>
                 </div>

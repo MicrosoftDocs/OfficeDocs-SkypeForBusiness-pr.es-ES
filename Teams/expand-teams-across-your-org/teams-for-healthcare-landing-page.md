@@ -9,16 +9,18 @@ manager: serdars
 audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38652aca1bf7a479821286597d5475be18e9ee7f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4cc058a0d23008ebb827f3a661baed3611207f24
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235321"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37570330"
 ---
 # <a name="teams-for-healthcare"></a>Teams para sanidad
 

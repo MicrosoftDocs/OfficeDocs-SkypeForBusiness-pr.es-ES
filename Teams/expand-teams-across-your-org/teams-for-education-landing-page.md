@@ -9,17 +9,18 @@ manager: serdars
 audience: admin
 ms.date: 03/01/2019
 ms.service: msteams
-ms.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- M365-collaboration
 search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7acbc4df32c7e51fc2bae175410dd68cf7641506
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b4ee71b414f40895d34172ce214b6ab7f555830a
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235364"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37569649"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams para el ámbito educativo
 
