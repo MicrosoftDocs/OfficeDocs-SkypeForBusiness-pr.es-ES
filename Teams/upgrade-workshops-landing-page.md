@@ -12,17 +12,17 @@ ms.date: 03/19/2019
 ms.service: msteams
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c7b40002101765c38bff412bef79d171951430a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6852f5c1720c91255f530ef326a57b08a7fcfd3c
+ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235855"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37568650"
 ---
 <div id="main" class="v2">
     <div class="container">
