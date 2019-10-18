@@ -13,16 +13,16 @@ description: Con el acceso de invitado en Microsoft Teams, los equipos de su org
 localization_priority: Priority
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
-- Teams_ITAdmin_GuestAccess
+- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b1787d2f310ebf7ed0afafa41e8b730346a54ec
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: adf4f9068cffa2fa3af5026f1003075e57d98bfc
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565110"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36244085"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================

@@ -12,15 +12,16 @@ description: Incorporar usuarios pioneros al primer conjunto de equipos y canale
 localization_priority: Priority
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1f92914a3f02fe85c478d5b6974a28ce9cc3a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5fe0e1ea19a2aa9e6bd3c9dea49a26dafa4647dd
+ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570319"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36241633"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Incorporar usuarios pioneros en Microsoft Teams
 
