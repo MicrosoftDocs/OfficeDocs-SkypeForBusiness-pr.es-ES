@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Busque y administre actualizaciones de Skype empresarial Server o Lync 2013. Use los vínculos para obtener más información y, a continuación, descargar las actualizaciones.
-ms.openlocfilehash: 8e0e7c2e42c6b778c219cb31dc3460ea8e220bb8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 121c91b4882eb7509dfd19ca2c6261720a4e7fc3
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286799"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "35746452"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Descargas y actualizaciones de Skype Empresarial
 
@@ -36,6 +36,7 @@ Se ha retirado la Página Web de _descargas y actualizaciones de Skype empresari
         - [Actualizaciones de Lync 2010 Attendee](sfb-client-updates.md#lync-2010-attendee-updates)
 
 - [Actualizaciones de Skype empresarial Server](sfb-server-updates.md) que contiene las secciones:
+    - [Historial de actualizaciones de Skype empresarial 2019](sfb-server-updates.md#skype-for-business-server-2019-update-history)
     - [Historial de actualizaciones de Skype Empresarial Server 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Historial de actualizaciones de Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
         - [Herramientas de desarrollo de Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)
