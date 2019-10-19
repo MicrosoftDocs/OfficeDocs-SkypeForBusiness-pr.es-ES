@@ -18,10 +18,10 @@ description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recurs
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37563882"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams

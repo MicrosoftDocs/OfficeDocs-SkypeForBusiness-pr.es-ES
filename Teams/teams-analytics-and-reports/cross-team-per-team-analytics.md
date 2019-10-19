@@ -15,10 +15,10 @@ description: Obtenga más información sobre los análisis de varios equipos y l
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37569706"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Ver análisis entre equipos y por equipo en Teams

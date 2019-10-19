@@ -15,10 +15,10 @@ ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumen: Obtenga información sobre los requisitos del sistema para el servidor perimetral en Skype empresarial Server.'
 ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "34277149"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos del sistema del servidor perimetral en Skype empresarial Server
@@ -41,7 +41,7 @@ Teniendo eso en cuenta, estos son los componentes que tiene que tener en cuenta 
     
 - [Directors](system-requirements.md#Directors) (estos son opcionales y, si se incluyen, estarán en la red interna)
     
-- [Equilibradores de carga](system-requirements.md#LoadBalancers) (puede tener el equilibrio de carga de DNS o un equilibrador de carga de hardware (HLB), pero para un único servidor perimetral, esto no es necesario).
+- [Equilibradores de carga](system-requirements.md#LoadBalancers) (puede tener el equilibrio de carga de DNS o un equilibrador de carga de hardware (HLB), pero para un solo servidor perimetral, esto no es necesario).
     
 Hay más información sobre cada uno de ellos a continuación:
   
@@ -64,7 +64,7 @@ Los usuarios externos autorizados pueden usar sus servidores perimetrales para c
 > Los servidores perimetrales se implementan para proporcionar conexiones para clientes de Skype empresarial habilitados y otros servidores perimetrales (en escenarios de Federación). No puede conectarse desde otros tipos de clientes o servidores de punto final. El servidor de puerta de enlace XMPP puede permitir conexiones con socios XMPP configurados. Pero, de nuevo, son los únicos tipos de Federación y de clientes que funcionarán. 
 
 > [!NOTE]
-> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte [migrar la Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
   
 ### <a name="reverse-proxies"></a>Proxies inversos
 <a name="ReverseProxies"> </a>
@@ -169,11 +169,11 @@ Skype empresarial Server no tiene muchos requisitos de afinidad basados en cooki
   
 Si su entorno **no** necesita la afinidad basada en cookies:
   
-- En la regla de publicación de proxy invertida para el puerto 443, establezca el **encabezado de host** de reenvío en **true**. Esto garantizará que se transfiera la URL original.
+- En la regla de publicación de proxy invertida para el puerto 443, establezca el **encabezado de host de reenvío** en **true**. Esto garantizará que se transfiera la URL original.
     
 Para las implementaciones que **sí** necesitan la afinidad basada en cookies:
   
-- En la regla de publicación de proxy invertida para el puerto 443, establezca el **encabezado de host** de reenvío en **true**. Esto garantizará que se transfiera la URL original.
+- En la regla de publicación de proxy invertida para el puerto 443, establezca el **encabezado de host de reenvío** en **true**. Esto garantizará que se transfiera la URL original.
     
 - La cookie del equilibrador de carga del hardware **no se debe** marcar como httpOnly.
     

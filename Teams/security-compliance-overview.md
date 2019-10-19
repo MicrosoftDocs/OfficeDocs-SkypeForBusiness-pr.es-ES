@@ -18,10 +18,10 @@ f1keywords:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37568059"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
@@ -114,7 +114,7 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 | |  |  |
 |---------|---------|---------|
 |![Un icono que representa un punto de decisión](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![Un icono que representa los pasos siguientes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Pasos siguientes         |Revise las licencias actuales de su organización y confirme que cumple con todos los requisitos empresariales de cumplimiento y seguridad.         |
+|![Un icono que representa los pasos siguientes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Siguientes pasos         |Revise las licencias actuales de su organización y confirme que cumple con todos los requisitos empresariales de cumplimiento y seguridad.         |
 
 Antes de habilitar cualquiera de estas características, asegúrese de que tiene acceso al centro de cumplimiento de & de seguridad en el centro de administración de Microsoft 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
 

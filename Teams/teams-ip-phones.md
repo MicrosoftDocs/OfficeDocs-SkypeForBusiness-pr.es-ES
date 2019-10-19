@@ -19,10 +19,10 @@ ms.custom:
 - dn947482
 description: Escritorio IP y teléfonos de conferencia certificados para Microsoft Teams
 ms.openlocfilehash: 6025b8c3d3db84e085489f52407e4fc63f39b2eb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37570206"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Teléfonos IP certificados para Microsoft Teams

@@ -19,10 +19,10 @@ f1keywords:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8379e81038882a4aab99ef943c10952b47f62e12
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37567471"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams

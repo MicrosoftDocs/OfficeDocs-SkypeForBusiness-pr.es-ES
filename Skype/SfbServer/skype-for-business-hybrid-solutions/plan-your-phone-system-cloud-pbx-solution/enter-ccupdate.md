@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: 'El cmdlet Enter-CcUpdate prepara el servidor host de la edición Cloud Connector de Skype empresarial para el proceso de actualización al ponerlo en el modo de mantenimiento. El dispositivo isdrained: es decir, todas las llamadas existentes se completarán, pero se rechazarán nuevas llamadas.'
-ms.openlocfilehash: be57261b35cf5b5e6e8118c2a751eee1c8b5f2a7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+description: El cmdlet Enter-CcUpdate prepara el servidor host de la edición Cloud Connector de Skype empresarial para el proceso de actualización al ponerlo en el modo de mantenimiento. El dispositivo detiene inmediatamente todos los servicios, finaliza cualquier llamada en curso y rechaza cualquier otra llamada.
+ms.openlocfilehash: 3ff4c1543e3e882a7ccbaf0b9a216ce902a77c5f
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287443"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "34740061"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
- 
-El cmdlet Enter-CcUpdate prepara el servidor host de la edición Cloud Connector de Skype empresarial para el proceso de actualización al ponerlo en el modo de mantenimiento. El dispositivo está "drenado", es decir, se completan todas las llamadas existentes, pero se rechazan nuevas llamadas. 
+
+El cmdlet Enter-CcUpdate prepara el servidor host de la edición Cloud Connector de Skype empresarial para el proceso de actualización al ponerlo en el modo de mantenimiento. El dispositivo detiene inmediatamente todos los servicios, finaliza cualquier llamada en curso y rechaza cualquier otra llamada.
   
 ```
 Enter-CcUpdate

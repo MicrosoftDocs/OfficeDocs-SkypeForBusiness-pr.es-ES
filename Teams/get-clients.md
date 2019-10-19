@@ -18,10 +18,10 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1e8a77a6d03735769e61f679126b3a5aac7f70e3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37563612"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 

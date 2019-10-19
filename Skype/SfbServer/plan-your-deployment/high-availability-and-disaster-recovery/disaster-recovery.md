@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Para la recuperación ante desastres, Skype empresarial Server ofrece el emparejamiento de grupo con failover en caso de que se produzca un regrupo.
-ms.openlocfilehash: 15df85790cd7959b88126c5e6bb0e7fd99b836e1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3999b7b8c2dd9b5eea942779f09924c6b5a79210
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297508"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37341936"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperación ante desastres del grupo de servidores front-end en Skype empresarial Server
  
@@ -56,7 +56,7 @@ Para la conmutación por error y por recuperación del grupo de servidores, el o
   
 Para la conmutación por error de grupo y la conmutación por recuperación de grupos, el objetivo de ingeniería para objetivo de punto de recuperación (RPO) es de 5 minutos. Esto representa la medida de tiempo de los datos que se podrían perder debido al desastre, debido a la latencia de replicación del servicio de copia de seguridad. Por ejemplo, si un grupo se baja a las 10:00 A.M. y el RPO es de 5 minutos, los datos se escriben en el grupo entre 9:55 A.M. y 10:00 a. M es posible que no se haya replicado en el grupo de copia de seguridad y se perdería.
   
-Para todas las cantidades de RTO y RPO de este documento se asume que los dos centros de datos se encuentran en la misma región del mundo con un transporte de alta velocidad y baja latencia entre los dos sitios. Estas cantidades se miden para un grupo de 40 000 usuarios activos simultáneamente y 200 000 usuarios habilitados para Lync con respecto a un modelo de usuario predefinido en el que no hay trabajo pendiente en la replicación de datos. Están sujetas a cambios a partir de las pruebas de rendimiento y validación.
+Para todas las cantidades de RTO y RPO de este documento se asume que los dos centros de datos se encuentran en la misma región del mundo con un transporte de alta velocidad y baja latencia entre los dos sitios. Estos números se miden en un grupo con 40.000 usuarios activos de forma simultánea y 200.000 usuarios habilitados para Skype empresarial con respecto a un modelo de usuario predefinido en el que no hay ningún trabajo pendiente en la replicación de datos. Están sujetas a cambios a partir de las pruebas de rendimiento y validación.
   
 ## <a name="central-management-store-failover"></a>Conmutación por error del almacén de administración central
 

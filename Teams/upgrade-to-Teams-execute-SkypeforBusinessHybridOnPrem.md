@@ -18,13 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
-ms.sourcegitcommit: 8fb89d6226b02ba8b1f8396eb4d1a37da4608b7c
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37396426"
 ---
-![Diagrama de viaje de actualización, enfatizar]las fases de implementación e implementación(media/upgrade-banner-deployment.png "del viaje de actualización, con énfasis en la fase de implementación e") implementación
+![Actualizar diagrama de viaje, enfatizar implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
 
 Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 

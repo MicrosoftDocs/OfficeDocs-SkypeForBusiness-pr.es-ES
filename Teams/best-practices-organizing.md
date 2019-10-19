@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: ec5b841cdb184eb6bbad85ee5456ec8f4470983b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37515744"
 ---
 <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>Prácticas recomendadas para organizar equipos en Microsoft Teams

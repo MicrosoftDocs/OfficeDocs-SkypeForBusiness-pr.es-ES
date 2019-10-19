@@ -20,10 +20,10 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36483416"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
@@ -157,7 +157,7 @@ Los planes de adopción pueden ser simples de complejos, en función de su entor
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Iniciar</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase1">Start</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-get-started">Introducción</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-understand-teams-and-channels">Entender los equipos y canales</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-your-first-teams">Crear los primeros equipos</a></p>
@@ -177,7 +177,7 @@ Los planes de adopción pueden ser simples de complejos, en función de su entor
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Experimentado</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase2-experiment">Experimentar</a></h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-create-champions-program">Crear el programa de expertos</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-governance-quick-start">Inicio rápido de gobierno</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-usage-scenarios">Definir escenarios de uso</a></p>
@@ -198,7 +198,7 @@ Los planes de adopción pueden ser simples de complejos, en función de su entor
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Cambia</a></h3>
+                        <h3><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-phase3-enable">Scale</a> </h3>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-define-outcomes">Definir el resultado y el éxito</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-optimize-feedback-and-reporting">Optimizar los comentarios e informes</a></p>
                         <p><a href="https://docs.microsoft.com/MicrosoftTeams/teams-adoption-drive-awareness">Darlo a conocer e implementar formación</a></p>

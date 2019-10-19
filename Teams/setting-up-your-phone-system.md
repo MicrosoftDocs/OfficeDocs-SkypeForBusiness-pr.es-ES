@@ -20,10 +20,10 @@ ms.custom:
 - Phone System
 description: 'Aprenda a configurar el sistema telefónico (PBX en la nube) para su organización. '
 ms.openlocfilehash: 429cedb3d8bad25982e4eacdaa82f82cacfc75ae
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37571540"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar el Sistema telefónico en su organización

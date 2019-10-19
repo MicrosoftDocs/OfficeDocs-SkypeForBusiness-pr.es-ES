@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Aprenda a configurar la infraestructura de Skype empresarial Server 2019 para que funcione con System Center Operations Manager.'
-ms.openlocfilehash: 5a0415c0447127b0da2b7670e857dbf1a6185794
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: e08debc645665d8be69ce062930d64421b093433
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221886"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37318962"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>Administrar Skype empresarial Server 2019 con el módulo de administración de SCOM
  
@@ -83,12 +83,14 @@ El paquete de supervisión para Skype empresarial Server 2019 incluye los siguie
 ## <a name="whats-new"></a>Novedades
 
 Las siguientes características son nuevas en los paquetes de administración de Skype empresarial Server 2019.
-  
+
+- **Cambios en la [actualización de septiembre de 2019](https://www.microsoft.com/download/details.aspx?id=57511) ** Algunas alertas han eliminado caracteres especiales. En algunos casos, los caracteres especiales interfieren con la característica de notificación de canal de SCOM.
+
 - **Detección automática para el inicio de sesión en el cliente** Las aplicaciones cliente que inician sesión en Skype empresarial Server 2019 a menudo detectan automáticamente el servidor para iniciar sesión en. Las transacciones sintéticas ahora son compatibles con la función para comprobar si la detección automática se ha configurado correctamente.
     
 - **Intervalos de ejecución de la transacción sintética personalizada** Para simplificar el proceso de configuración de los nodos de monitor, las transacciones sintéticas pueden compartir cuentas de usuario. Esto reduce la frecuencia con la que se ejecutan las pruebas en serie para evitar conflictos. De forma predeterminada, las transacciones sintéticas se ejecutan cada 15 minutos para garantizar que todas las pruebas dispongan de tiempo para ejecutarse. Los administradores que elijan usar más usuarios o menos pruebas también pueden reducir el intervalo de ejecución.
     
-- **Transacción sintética de servicios** de interoperabilidad de vídeo Los clientes que migren a Skype empresarial Server 2019 de otras soluciones de proveedores, a menudo desean continuar usando los dispositivos de teleconferencia de vídeo (VTCs) de estos otros proveedores. El servidor de interoperabilidad de vídeo es un nuevo rol de servidor de Skype empresarial Server 2019 que permite a los clientes seguir usando Cisco VTCs en sus salas de conferencia conectándose a Cisco CUCM a través de un tronco de video SIP. Esta característica también agrega una transacción sintética para ayudar a comprobar que el Servidor de interoperabilidad de vídeo está activo y puede administrar las conexiones entrantes a través de un tronco SIP de vídeo.
+- **Transacción sintética de servicios de interoperabilidad de vídeo** Los clientes que migren a Skype empresarial Server 2019 de otras soluciones de proveedores, a menudo desean continuar usando los dispositivos de teleconferencia de vídeo (VTCs) de estos otros proveedores. El servidor de interoperabilidad de vídeo es un nuevo rol de servidor de Skype empresarial Server 2019 que permite a los clientes seguir usando Cisco VTCs en sus salas de conferencia conectándose a Cisco CUCM a través de un tronco de video SIP. Esta característica también agrega una transacción sintética para ayudar a comprobar que el Servidor de interoperabilidad de vídeo está activo y puede administrar las conexiones entrantes a través de un tronco SIP de vídeo.
     
 - **Transacción sintética de conferencia de uso compartido de aplicaciones** Ya se admite validación de un escenario de un extremo a otro para las conferencias de uso compartido de aplicaciones.
     
@@ -123,7 +125,7 @@ Los paquetes de administración de Skype empresarial Server 2019 proporcionan un
 ||||
 |:-----|:-----|:-----|
 |1  <br/> |Registro (inicio de sesión del usuario)  <br/> |Lync Server 2010 y posterior disponible  <br/> |
-|2  <br/> |Servicio de libreta de direcciones (descarga de archivos)  <br/> |Lync Server 2010 y posterior disponible  <br/> |
+|1  <br/> |Servicio de libreta de direcciones (descarga de archivos)  <br/> |Lync Server 2010 y posterior disponible  <br/> |
 |3  <br/> |Consulta web de la libreta de direcciones  <br/> |Lync Server 2010 y posterior disponible  <br/> |
 |4  <br/> |Presence  <br/> |Lync Server 2010 y posterior disponible  <br/> |
 |5  <br/> |Almacenamiento de contactos unificado  <br/> |Lync Server 2013 y posterior disponible  <br/> |

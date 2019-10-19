@@ -13,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Obtenga información sobre cómo habilitar QoS para los dispositivos usados en su organización que usan un sistema operativo que no sea Windows.
-ms.openlocfilehash: adb879d2319c5eeeb84578907ce57a3a408d9a13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 956fff0e7fc69b1950e35261c02f9f44977510ce
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279413"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37341946"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Habilitar QoS en Skype empresarial Server para dispositivos que no se basan en Windows
 
@@ -65,5 +65,9 @@ Puede deshabilitar QoS para dispositivos que usan un sistema operativo distinto 
 Esto le ofrece la posibilidad de implementar QoS en algunas partes de su red (por ejemplo, en el sitio de Redmond) mientras deja la calidad de servicio deshabilitada en otras partes de la red.
 
 QoS solo se puede habilitar y deshabilitar mediante Windows PowerShell. Estas opciones no están disponibles en el panel de control de Skype empresarial Server.
+
+> [!NOTE]
+> Los clientes de Skype empresarial para iOS versión 6,17 y posteriores ahora son compatibles con QoS.  Esta capacidad de QoS solo se aplica a los clientes de Skype empresarial y a los dispositivos de telefonía IP que están registrados directamente en un servidor interno de Skype empresarial o de grupos de Lync en redes administradas. QoS no es aplicable para tráfico enrutado a través de Internet.
+
 
 

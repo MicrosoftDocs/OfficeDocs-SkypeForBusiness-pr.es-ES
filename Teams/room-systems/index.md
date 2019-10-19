@@ -12,10 +12,10 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Las consideraciones de planeación pertinentes para implementar salas de Microsoft Teams y cómo implementar y administrar el sistema.
 ms.openlocfilehash: fb628ba4011a7f738d7082ae8281aa990a82b66b
-ms.sourcegitcommit: 1401ee484a2bc8e72d96649b0571bb59198f9dab
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "36428050"
 ---
 <h2>Salas de Microsoft Teams</h2>
@@ -111,4 +111,4 @@ ms.locfileid: "36428050"
 Estos artículos están pensados para las personas encargadas de planificar, implementar y administrar estos dispositivos, y no los usuarios del sistema. Los usuarios estarán más interesados en la [ayuda en línea](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)de Microsoft Teams Rooms.
 
 > [!NOTE]
-> [Sistema de salas de Skype](../room-systems/lrs-migration.md) (anteriormente, Lync Room System) y salas de Microsoft Teams son diferentes productos con diferentes dependencias y procedimientos de implementación.
+> El [sistema de salas de Skype](../room-systems/lrs-migration.md) (anteriormente Lync Room System) y las salas de Microsoft Teams son diferentes productos con diferentes dependencias y procedimientos de implementación.

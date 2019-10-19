@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Resumen: Aprenda a configurar la infraestructura de Skype empresarial Server 2015 para que funcione con System Center Operations Manager.'
-ms.openlocfilehash: a5f676180508898b433953c37656063bd34bd323
-ms.sourcegitcommit: ee6fca44a611acaa8234563c546a3f841bba6e1a
+ms.openlocfilehash: 5622b09b3d55b4d0d3a3fe026f66b28e3c4be75e
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790897"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "36824553"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Administrar Skype Empresarial Server 2015 con el módulo de administración SCOM
  
@@ -85,7 +85,7 @@ El paquete de supervisión para Skype empresarial Server 2015 incluye los siguie
 
 Las siguientes características son nuevas en los paquetes de administración de Skype empresarial Server 2015.
 
-- **Cambios en la [actualización de 2019 de junio](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Algunas alertas han eliminado caracteres especiales. En algunos casos, los caracteres especiales interfieren con la característica de notificación de canal de SCOM.
+- **Cambios en la [actualización de septiembre de 2019](https://www.microsoft.com/en-in/download/details.aspx?id=47364) ** Algunas alertas han eliminado caracteres especiales. En algunos casos, los caracteres especiales interfieren con la característica de notificación de canal de SCOM.
 
 - **Detección automática para el inicio de sesión en el cliente** Las aplicaciones cliente que inician sesión en Skype empresarial Server 2015 a menudo detectan automáticamente el servidor para iniciar sesión en. Las transacciones sintéticas ahora son compatibles con la función para comprobar si la detección automática se ha configurado correctamente.
     
@@ -127,7 +127,7 @@ Los paquetes de administración de Skype empresarial Server 2015 proporcionan un
 |Transacciones sintéticas compatibles para registro, presencia y contactos|||
 |:-----|:-----|:-----|
 |1  <br/> |Registro (inicio de sesión del usuario)  <br/> |Lync Server 2010 y posterior disponible  <br/> |
-|2  <br/> |Servicio de libreta de direcciones (descarga de archivos)  <br/> |Lync Server 2010 y posterior disponible  <br/> |
+|1  <br/> |Servicio de libreta de direcciones (descarga de archivos)  <br/> |Lync Server 2010 y posterior disponible  <br/> |
 |3  <br/> |Consulta web de la libreta de direcciones  <br/> |Lync Server 2010 y posterior disponible  <br/> |
 |4  <br/> |Presence  <br/> |Lync Server 2010 y posterior disponible  <br/> |
 |5  <br/> |Almacenamiento de contactos unificado  <br/> |Lync Server 2013 y posterior disponible  <br/> |

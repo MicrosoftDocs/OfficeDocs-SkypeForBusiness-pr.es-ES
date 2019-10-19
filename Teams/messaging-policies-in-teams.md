@@ -18,10 +18,10 @@ f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
 ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "37569281"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
