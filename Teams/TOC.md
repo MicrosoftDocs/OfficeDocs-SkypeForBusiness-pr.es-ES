@@ -347,6 +347,7 @@
 #### [Conmutación por error de tronco en llamadas salientes](direct-routing-trunk-failover-on-outbound-call.md)
 #### [Códigos de país de la ruta multimedia](direct-routing-country-codes.md)
 #### [Script de PowerShell para probar conexiones de controlador de borde de sesión](sip-tester-powershell-script.md)
+#### [Administrar notificaciones perdidas](direct-routing-call-notifications.md)
 
 ## Números de teléfono
 ### [Administrar los números de teléfono de la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
@@ -809,6 +810,7 @@
 ### [Recomendaciones para el controlador del codificador y descodificador de hardware](hardware-decoders-and-encoders.md)
 ### [Instalar Teams con MSI](msi-deployment.md)
 ### [Activar Teams en su organización](Office-365-set-up.md)
+### [Archivos y carpetas de Teams que se excluyen de la detección de virus](teams-files-folders-antivirus-perf.md)
 ### [Direcciones URL e intervalos de direcciones IP de Office 365](office-365-urls-ip-address-ranges.md)
 ### [Teams para la infraestructura de escritorio virtualizada (VDI)](teams-for-vdi.md)
 ### [Implementar Microsoft Teams para Surface Hub](teams-surface-hub.md)
