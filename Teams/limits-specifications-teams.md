@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5dc1dcdb679ff9629d5b2da495865b724e1401d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8cd9cdcd7abe3e86e540548bb735b89fa2c16bfe
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37566523"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37615985"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -98,6 +98,7 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |Característica     | Límite máximo |
 |------------|---------------|
 |Número de personas en una reunión  | 250    |
+|Tamaño máximo de archivo de PowerPoint | 2 GB|
 
 ## <a name="teams-live-events"></a>Eventos en directo en Teams
 
