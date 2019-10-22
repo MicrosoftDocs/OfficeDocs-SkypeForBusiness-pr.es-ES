@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 0472d142cc9d6b535b950e86e41753c82992bee5
-ms.sourcegitcommit: 26b3d786da07fde20878b0f4a1656070fe01d918
+ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36645253"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616093"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -208,3 +208,14 @@ Los nuevos usuarios de Skype empresarial se aprovisionarán automáticamente par
 #### <a name="admin-auto-attendant-management-experience"></a>Experiencia de administración de operadores automáticos de administrador 
 
 Para obtener más información sobre los operadores automáticos, vea [configurar un operador automático de la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
+
+#### <a name="known-issues"></a>Problemas conocidos
+
+**Buzón compartido:** Un buzón de correo compartido que se configura con Exchange UM online seguirá recibiendo mensajes después de migrarlos a CVM y seguirán siendo accesibles para los usuarios a través de Outlook. Sin embargo, el acceso para cambiar los mensajes de saludo de estos buzones no estará disponible una vez que se haya migrado a CVM. Los clientes con buzones compartidos que se usan para capturar las personas que llaman al operador automático deben aprovechar los operadores automáticos y las colas de llamadas capacidades de buzón de correo compartido una vez publicadas (ETA octubre de 2019).
+  
+**Actualizar a la pancarta de Teams en el cliente de SFB:** El servicio de CVM se basa en la infraestructura de Microsoft Teams; las llamadas a él desde un cliente de Skype empresarial pueden hacer que se muestre en el cliente un banner de información que diga: "el nombre de usuario no está usando Skype empresarial. Para obtener una experiencia más rica, cambie a teams o inicie una reunión de Skype.
+Asegúrese de actualizar el cliente de Skype empresarial de los usuarios a la actualización de cliente de C2R más reciente para evitar que aparezca esta pancarta. 
+  
+**Configure el buzón de voz para que le lleve a OWA:** Al hacer clic en "configurar el correo de voz", el cliente seguirá teniendo clientes de Skype empresarial Server 2015/2013 en la página del portal de Office Web Access (OWA) después de la migración a CVM. Se ha quitado toda la configuración de la ficha buzón de voz en OWA y se mostrará un mensaje de bienvenida con un vínculo de redireccionamiento para llevar a los usuarios al portal de configuración de usuario de CVM. 
+ 
+**Cambiar saludo de acceso móvil:** El acceso de suscriptor de RTC no se admite en CVM. Para los usuarios que tienen que cambiar su saludo de forma remota, se agrega una opción de menú "cambiar el saludo" al servicio de correo de voz para clientes móviles. Los usuarios pueden llamar a este servicio pulsando y manteniendo presionada la tecla "1" en el teclado de marcado de cliente móvil. 

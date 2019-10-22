@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión de PowerShell remota para conectarse a Skype empresarial online, incluidos los errores de módulo de importación, de Shell simultáneo, de Live ID y de permisos.
-ms.openlocfilehash: 44214b93e4a1c555165e8bb2e699b7ff8c4e4599
-ms.sourcegitcommit: 3197f3ffca2b2315be9fd0c702ccc8c87383c893
+ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35062212"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37615976"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
@@ -49,6 +49,13 @@ Este tema proporciona información que le ayudará a diagnosticar y resolver pro
 
 - [Se ha superado el número máximo de shells simultáneos para este inquilino en Skype empresarial online](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
     
+
+> [!IMPORTANT]
+> De forma predeterminada, el tiempo de espera de las sesiones de PowerShell es de 60 minutos. Para volver a conectarse, debe cerrar la sesión e iniciar una nueva sesión de PowerShell. Se ha iniciado una nueva versión de [Skype empresarial online, módulo Windows PowerShell (2046,123-publicado en 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), que incluye un cmdlet nuevo denominado **enable-CsOnlineSessionForReconnection** que mitiga los 60 minutos problema de tiempo de espera.
+> La sesión de PowerShell se vuelve a conectar y se autentica, lo que permite reutilizarla sin tener que iniciar una nueva instancia para volver a conectarse.
+
+
+
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Importación-error de módulo causado por la Directiva de ejecución de Windows PowerShell
 <a name="BKMKPowerShellExecutionPolicy"> </a>
 
