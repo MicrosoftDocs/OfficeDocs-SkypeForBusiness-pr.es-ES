@@ -13,19 +13,18 @@ localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.teamssettings.targetingintro
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbb05df61a9baec544ad2ff1441a0faf329949e1
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715931"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37616082"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -98,11 +97,22 @@ La búsqueda de directorios enfocada de Microsoft Teams usa la directiva de libr
 Puede usar esta opción para configurar la forma en que los usuarios actualizan de Skype Empresarial a Microsoft Teams. 
 
 #### <a name="coexistence-mode"></a>Modo de coexistencia
-Puede especificar un modo de coexistencia: **Microsoft Teams solo**, **Aplicaciones aisladas** (coexistencia de Teams y Skype Empresarial) o **Skype Empresarial solo**. El modo de coexistencia que elija determina el enrutamiento de las llamadas entrantes y de los chats, así como la aplicación que utiliza el usuario para iniciar los chats y las llamadas, o para programar reuniones. Para obtener más información sobre los modos de coexistencia, vaya a [Descripción de la coexistencia y la interoperabilidad de Skype Empresarial y Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
+Puede especificar un modo de coexistencia: 
+
+- **Solo Teams**
+- **Aplicaciones aisladas** (Teams y Skype empresarial en coexistencia)
+- **Solo Skype Empresarial**
+- **Skype Empresarial con la colaboración de Teams** (los usuarios reciben chats y llamadas, y conciertan reuniones en Skype empresarial, pero usan Teams para colaborar en grupo).
+- **Skype Empresarial con la colaboración de Teams y reuniones** (los usuarios reciben chats y llamadas en Skype Empresarial, pero usan Teams para colaborar en grupo).
+
+El modo de coexistencia que elija determina el enrutamiento de las llamadas entrantes y de los chats, así como la aplicación que utiliza el usuario para iniciar los chats y las llamadas, o para programar reuniones. Para obtener más información sobre los modos de coexistencia, vaya a [Descripción de la coexistencia y la interoperabilidad de Skype Empresarial y Microsoft Teams](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 #### <a name="app-preferences"></a>Preferencias de la aplicación
 
 Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las reuniones de Skype Empresarial (Skype Empresarial o la [Aplicación Reuniones de Skype](https://support.office.com/es-ES/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Esta opción no depende de la configuración del modo de coexistencia.
+
+También puede seleccionar la opción «Descargar la aplicación Teams en segundo plano para usuarios de Skype empresarial».  Esta configuración está seleccionada de forma predeterminada. Con esta configuración habilitada, se descargará la aplicación de Teams en segundo plano para los usuarios que ejecuten la aplicación de Skype empresarial en Windows. Esto sucede si el modo de Coexistencia del usuario es Solo Teams, o si se habilita la notificación de actualización pendiente en la aplicación de Skype Empresarial.
+
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>¿Cómo puedo saber qué características están disponibles?
 
