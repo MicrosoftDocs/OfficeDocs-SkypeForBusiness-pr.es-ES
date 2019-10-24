@@ -21,10 +21,10 @@ ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "37564436"
 ---
 > [!NOTE]
