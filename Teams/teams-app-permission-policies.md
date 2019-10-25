@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 78271e193cb3e74cf2d9c363517546f61b5587ea
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ef70fba7c26315e1c66928722c373b383071771b
+ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570308"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37664983"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
@@ -48,7 +48,7 @@ Use la configuración de la aplicación en toda la organización para controlar 
 
 1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a > **directivas de permisos**de las **aplicaciones de Teams**.
 2. Seleccione **configuración de toda la organización**. Puede establecer la configuración que desee en el panel. 
-    ![Captura de pantalla de nueva Directiva de permisos de aplicaciones](media/app-permission-policies-org-wide-settings.png)
+    ![Captura de pantalla de la configuración de aplicación de toda la organización](media/app-permission-policies-org-wide-settings.png)
 3. En **aplicaciones de terceros**, desactive o Active esta configuración para controlar el acceso a las aplicaciones de terceros:
 
     - **Permitir aplicaciones personalizadas o de terceros en Teams**: controla si los usuarios pueden usar aplicaciones personalizadas o de terceros.

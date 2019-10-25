@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 31aa30401f345d58c4c30cffbc89c618ea94b0cb
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: 03f83053e46350cc7a73f92451797553a9c978ad
+ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483962"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37664957"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -41,7 +41,7 @@ Estos diez pasos sencillos proporcionan todo lo que necesitas para una actualiza
 ¿Qué pasa con Skype empresarial después de la actualización? Después de que los usuarios se actualicen a Teams (modo de**solo Teams** ):
 
 - El cliente de Skype empresarial está deshabilitado y todos los chats y las llamadas se dirigen a teams. Tenga en cuenta que esto no desinstalará el cliente en sus escritorios.
-- Cualquier reunión de Skype empresarial programada antes de la actualización funciona según lo previsto, pero todas las reuniones nuevas se programan en Teams.
+- Cualquier reunión de Skype empresarial programada antes de la actualización funciona según lo previsto, pero todas las reuniones nuevas se programan en Teams. El complemento de Skype para empresas ya no estará disponible en Outlook. 
 - Si los usuarios intentan iniciar sesión en Skype empresarial, reciben una notificación de su cliente que han sido actualizadas a teams.
 - Los usuarios necesitan desinstalar manualmente el cliente de Skype empresarial en sus dispositivos móviles.
 
@@ -69,11 +69,11 @@ Los jefes superiores son responsables de éxito de la empresa; Asegúrate de man
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>Paso 2. Preparar su organización para Teams
+## <a name="step-2-prepare-your-organization-for-teams"></a>Paso 2. Prepare a su organización para Teams
 
 *(Entre cuatro y seis semanas antes de la actualización)*
 
-Teams ofrece características compatibles con Skype empresarial, como la mensajería instantánea y las reuniones, pero también puede hacer mucho más. Como un concentrador real para el trabajo en equipo, Teams permite a los grupos de trabajo administrar proyectos, archivos, conversaciones y aplicaciones en una sola ubicación. Decida cómo usará Teams su organización y configure el entorno para el éxito.
+Teams ofrece características compatibles con Skype empresarial, como la mensajería instantánea y las reuniones, pero también puede hacer mucho más. Como un concentrador real para el trabajo en equipo, Teams permite a los grupos de trabajo administrar proyectos, archivos, conversaciones y aplicaciones en una sola ubicación. De forma predeterminada, Teams está activado para todas las organizaciones. Decida cómo usará Teams su organización y configure el entorno para el éxito. 
 
 > [!Note]
 > Como cliente existente de Skype empresarial, es probable que su infraestructura de red actual ya esté configurada para Teams. Para confirmarlo, puede seguir la guía de "planificación técnica completa", vinculada a continuación (opcional).
@@ -81,9 +81,7 @@ Teams ofrece características compatibles con Skype empresarial, como la mensaje
 **Recursos**
 
 - [Información general sobre Microsoft Teams](Teams-overview.md)
-- [Más información sobre equipos y canales](teams-channels-overview.md)
-- [Planificación técnica completa](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Administrar Salas de Microsoft Teams](https://aka.ms/MTRDocs)
+- Introducción a Microsoft Teams (get-started-with-teams-quick-start.md)
 
 [Volver al principio](#about-upgrade-basic)
 
@@ -163,7 +161,7 @@ Los usuarios están ocupados con sus responsabilidades diarias. Recordarles la a
 
 *(Actualizar día)*
 
-Hoy es el día en que la organización actualiza oficialmente a teams como solución de comunicación y colaboración. En el centro de administración de Microsoft Teams, active el modificador de actualización mediante la **** configuración del modo de coexistencia en Teams. (En el centro de administración, vaya a la actualización de la **configuración** > de todos los**equipos**de la organización). Los usuarios recibirán una notificación en el cliente de Skype empresarial que han sido actualizadas a teams.
+Hoy es el día en que la organización actualiza oficialmente a teams como solución de comunicación y colaboración. En el centro de administración de Microsoft Teams, active el modificador de actualización mediante la configuración del modo de coexistencia en **Teams**. (En el centro de administración, vaya a la actualización de la **configuración** > de todos los**equipos**de la organización). Los usuarios recibirán una notificación en el cliente de Skype empresarial que han sido actualizadas a teams.
 
 Le recomendamos que, una vez que se haya actualizado a todos los usuarios, envíe un mensaje de bienvenida a teams.
 
