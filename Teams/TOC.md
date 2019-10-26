@@ -41,6 +41,7 @@
 ### [Agregar bots para chats personales, chats grupales y canales en Teams](add-bots.md)
 ### [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
 ### [Usar conectores de Office 365 y personalizados](Office-365-custom-connectors.md)
+### [Gestione sus aplicaciones de línea de negocio](manage-your-lob-apps.md)
 ### [Publicar aplicaciones en el catálogo de aplicaciones de espacios empresariales de Teams](tenant-apps-catalog-teams.md)
 ### [Certificación de aplicación](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
