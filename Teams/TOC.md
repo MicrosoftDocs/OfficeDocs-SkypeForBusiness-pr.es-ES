@@ -47,21 +47,30 @@
 ### [Plantillas de aplicación para equipos](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configurar la aplicación de Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
+## Comunicación con usuarios externos
+### [Comunicación con usuarios de otras organizaciones](communicate-with-users-from-other-organizations.md)
 
-## Acceso de invitado
-### [Sobre el acceso de invitado](guest-access.md)
-### [Cómo se une un invitado a un equipo](guest-joins.md)
-### [Cómo es la experiencia de invitado](guest-experience.md)
-### [Autorizar el acceso de invitado en Teams](teams-dependencies.md)
-### [Activar o desactivar el acceso de invitado en Teams](set-up-guests.md)
-### [Administrar el acceso de invitado a Teams](manage-guests.md)
-### [Agregar un invitado a un equipo](add-guests.md)
-### [Ver los usuarios invitados de un equipo](view-guests.md)
-### [Editar información del usuario invitado](edit-guests-information.md)
-### [Usar PowerShell para controlar el acceso de invitados a un equipo](guest-access-PowerShell.md)
-### [Lista de comprobación de acceso de invitado](guest-access-checklist.md)
+### Acceso externo (federación)
+#### [Administrar el acceso externo](manage-external-access.md)
+#### [Chat nativo de Teams para usuarios externos](native-chat-for-external-users.md)
 
-## [Acceso externo (federación)](manage-external-access.md)
+
+### Acceso de invitado
+#### [Sobre el acceso de invitado](guest-access.md)
+#### [Lista de comprobación de acceso de invitado](guest-access-checklist.md)
+#### [Cómo se une un invitado a un equipo](guest-joins.md)
+#### [Cómo es la experiencia de invitado](guest-experience.md)
+#### [Autorizar el acceso de invitado en Teams](teams-dependencies.md)
+#### [Activar o desactivar el acceso de invitado en Teams](set-up-guests.md)
+#### [Administrar el acceso de invitado a Teams](manage-guests.md)
+#### [Agregar un invitado a un equipo](add-guests.md)
+#### [Ver los usuarios invitados de un equipo](view-guests.md)
+#### [Editar información del usuario invitado](edit-guests-information.md)
+#### [Controle el acceso de invitados a PowerShell](guest-access-PowerShell.md)
+#### [Solucionar problemas de acceso de invitado](troubleshoot-guest-access.md)
+
+
+
 
 ## Administrar Teams
 ### [Roles de administrador](using-admin-roles.md)
@@ -719,9 +728,11 @@
 ### [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Introducción a la mensajería segura para las organizaciones sanitarias](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
 ### [Delegación de mensajes](expand-teams-across-your-org/healthcare/hc-delegates.md)
-### [Integración de registros sanitarios electrónicos en Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
-#### [Especificación de la interfaz DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
-#### [Especificación de la interfaz STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
+### [Información general de la aplicación Pacientes](expand-teams-across-your-org/healthcare/patients-app-overview.md)
+#### [Integración de registros sanitarios electrónicos en Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
+##### [Especificación de la interfaz DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+##### [Especificación de la interfaz STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
+#### [Registro de auditoría de la aplicación Pacientes](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams para el ámbito educativo](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Inicio rápido: Administradores de Teams para el ámbito educativo](teams-quick-start-edu.yml)
