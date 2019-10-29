@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03f83053e46350cc7a73f92451797553a9c978ad
-ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37664957"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749288"
 ---
-<a name="about-upgrade-basic"></a>
-
 # <a name="upgrade-basic"></a>Actualizar básico
+
+<a name="about-upgrade-basic"></a>
 
 Diseñada para organizaciones pequeñas o para las que usan Skype empresarial online para mensajería instantánea (chat) y reuniones, la lista de comprobación básica de actualizaciones es un plan de acción acelerado que incluye actividades básicas, recomendadas y recursos asociados para implementar un Pase correctamente de Skype empresarial a teams.
 
@@ -81,7 +81,7 @@ Teams ofrece características compatibles con Skype empresarial, como la mensaje
 **Recursos**
 
 - [Información general sobre Microsoft Teams](Teams-overview.md)
-- Introducción a Microsoft Teams (get-started-with-teams-quick-start.md)
+- [Introducción a Microsoft Teams](get-started-with-teams-quick-start.md)
 
 [Volver al principio](#about-upgrade-basic)
 

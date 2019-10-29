@@ -16,55 +16,40 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e7f019f2260b1e86b422f8b4238439fbd2f1607a
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 04594f578d2375f69c38243251ee64506880d00e
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37563494"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753325"
 ---
-<a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitados de Teams
+<a name="microsoft-teams-guest-access-checklist"></a>Lista de comprobación para el acceso de invitado de Microsoft Teams
 ==========================================
 
-Use esta lista de comprobación para habilitar y configurar la característica de acceso de invitado en Microsoft Teams de acuerdo con las preferencias de su organización.
+Use esta lista de comprobación para que le resulte más fácil activar y configurar el acceso de invitado en Microsoft Teams.
 
-> [!NOTE] 
-> Para las restricciones de colaboración [, vea Habilitar la colaboración externa B2B y administrar quién puede invitar a invitados](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
+> [!IMPORTANT]
+> Es posible que tenga que esperar hasta 24 horas para que los cambios surtan efecto. 
 
-## <a name="understand-the-limitations-for-guests"></a>Comprender las limitaciones de los invitados
 
-La experiencia de invitado tiene limitaciones por diseño. Asegúrese de comprender la experiencia de invitado para no intentar corregir algo que no es un problema. Por ejemplo, aquí tiene una lista de algunas de las funciones que no están disponibles para un invitado en Microsoft Teams:
 
-- OneDrive para la empresa
-- Búsqueda de personas fuera de Teams
-- Calendario, reuniones programadas o detalles de la reunión
-- RTC
-- Organigrama
-- Crear o revisar un equipo
-- Buscar un equipo
-- Cargar archivos a una conversación entre usuarios
-- Los invitados pueden buscar y buscar usuarios (fuera de su equipo) si saben que el identificador de correo electrónico del usuario es completo. Para evitar esto, los administradores de TI pueden usar patrones como la [búsqueda de directorios de ámbito](https://docs.microsoft.com/en-us/MicrosoftTeams/teams-scoped-directory-search) , que tienen la capacidad de restringir los invitados a su propia gal virtual.
+## <a name="step-1-turn-on-guest-access-at-the-teams-org-wide-level"></a>Paso 1: activar el acceso de invitados en el nivel de toda la organización de los equipos
 
-Para obtener más información, consulte [cuál es la experiencia de invitado](guest-experience.md) y [acceso de invitados en los grupos de Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
+Para activar el acceso de invitados, vaya al **centro de administración de Microsoft Teams**. 
 
-### <a name="guest-access-vs-external-access-federation"></a>Diferencias entre el acceso de invitados y el acceso externo (federación)
+1. En el centro de administración de Teams, seleccione**acceso de invitado a** **toda** > la organización.
+2. Establezca la opción **permitir acceso de invitado en Microsoft Teams** **.**
 
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
+    ![Captura de pantalla que muestra un ejemplo de alternancia de configuración de Teams](media/guest-access-checklist-set-up-guests-image1.png)
 
-> [!NOTE] 
-> Actualmente, Microsoft Teams no es compatible con el rol invitado. Como mínimo, el botón de alternancia "los miembros pueden invitar" debe establecerse en "sí" para que el acceso de invitados funcione en Microsoft Teams. Si establece "los miembros pueden invitar" a "no" y, después, habilita el acceso de invitado en Office 365 grupos y Microsoft Teams, los administradores pueden controlar invitaciones de invitados a su directorio. Una vez que los invitados estén en el directorio, los miembros que no sean administradores podrán agregarlos a teams que sean propietarios del equipo.
+3. En esta misma página, Active o desactive las opciones de **llamada**, **reunión**y **Mensajería** de los invitados.
+4. Haga clic en **Guardar **.
 
-## <a name="if-your-guests-are-seeing-license-errors"></a>Si los invitados experimentan errores de licencia
+> [!TIP]
+> Si está usando la configuración predeterminada en Azure Active Directory, SharePoint Online y grupos de Office 365, es posible que haya terminado de configurar el acceso de invitado. En este caso, puede omitir el resto de los pasos. Si no está seguro, o si está usando una configuración personalizada para los grupos de AAD, SharePoint Online u Office 365, continúe con el resto de los pasos de esta lista de comprobación.
 
-El acceso de invitados en Microsoft Teams usa Azure Active Directory (Azure AD) empresarial para empresas (B2B) y su modelo de licencias. Si ve errores de licencias, asegúrese de leer las instrucciones de licencias [B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance) para conocer los requisitos de licencia de la organización para que los usuarios puedan invitar a invitados a su organización.
 
-Recuerde lo siguiente:
-
-- Los invitados son usuarios externos a su organización. Los empleados, los contratistas en el sitio, los agentes en el sitio, etc. no se pueden agregar como invitados. Lo mismo se aplica a tus afiliados.
-- Las licencias de invitados se cuentan en relación con la organización que invita. Considere esto cuando calcule el número de licencias que necesita.
-- Las licencias se cuentan en relación con su organización si los invitados invitados provienen de otro inquilino de Office 365 o si usan sus direcciones de correo electrónico personales.
-
-## <a name="--step-1-configure-settings-in-azure-ad-business-to-business"></a>□ Paso 1: configurar las opciones de Azure AD Business-to-Business
+## <a name="step-2-configure-azure-ad-business-to-business-settings"></a>Paso 2: configurar las opciones de empresa a empresa de Azure AD
 
 1. Inicie sesión en el [portal de Azure](https://portal.azure.com) como administrador de inquilinos.
 2. Seleccione**configuración de usuario**de**usuarios** > de **Azure Active Directory** > .
@@ -79,13 +64,21 @@ Recuerde lo siguiente:
    
        > [!NOTE]
        > Si establece que **los miembros puedan invitar** a **no** y, a continuación, habilitar el acceso de invitado en Office 365 grupos y Microsoft Teams, los administradores pueden controlar invitaciones invitadas a su directorio. Una vez que los invitados estén en el directorio, los miembros que no sean administradores podrán agregarlos a teams que sean propietarios del equipo. Para obtener más información, consulte [Autorizar el acceso de invitado en Microsoft Teams](Teams-dependencies.md).
-   
+       > [!IMPORTANT]
+       > Para que el acceso de invitados funcione en todos los equipos, debe establecer que **los miembros puedan invitar** a **sí**.   
    - Los **invitados pueden invitar**: para permitir que los invitados inviten a otros invitados, establezca esta directiva en **sí**.
+       > [!IMPORTANT]
+       > Actualmente, Teams no es compatible con el rol invitado, por lo tanto, aunque establezca que los **invitados puedan invitar** a **sí**, los invitados no pueden invitar a otros invitados en Teams.
    - **Habilitar el código de acceso de un solo uso de correo electrónico para invitados (vista previa)**: para obtener más información sobre la característica de código de acceso de un solo uso, consulte [autenticación de código de acceso de un solo uso de correo electrónico (vista previa)](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)
-
    - **Restricciones de colaboración**: para obtener más información sobre cómo permitir o bloquear invitaciones a dominios específicos, consulte [permitir o bloquear invitaciones a usuarios B2B de organizaciones específicas](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list).
-    
-## <a name="-step-2-configure-office-365-groups"></a>□ Paso 2: configurar grupos de Office 365
+      > [!NOTE]
+      > Para obtener las restricciones de colaboración, consulte [Habilitar la colaboración externa B2B y administrar quién puede invitar a invitados](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
+      
+ 
+Para obtener más información acerca de cómo controlar quién puede invitar a invitados, consulte [Delegar invitaciones para la colaboración de Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations).
+
+
+## <a name="step-3-configure-office-365-groups"></a>Paso 3: configurar grupos de Office 365
 
 1. En el centro de administración de Microsoft 365, vaya a **configuración** > **servicios & complementos** > **Office 365 grupos**.
 2. Asegúrese de **permitir que los miembros del grupo ajenos a la organización tengan el contenido del grupo** **activado**. Si esta opción está desactivada, los invitados no podrán acceder a ningún contenido de grupo.
@@ -93,25 +86,10 @@ Recuerde lo siguiente:
 
      ![Captura de pantalla que muestra los alternancias de grupos de Office 365](media/guest-access-checklist-office365.png)
 
-Para obtener instrucciones detalladas sobre cómo configurar estas opciones, consulte [administrar el acceso de invitados en office 365 grupos](https://support.office.com/en-us/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) y [controlar el acceso de invitados en los grupos de Office 365](Teams-dependencies.md#control-guest-access-in-office-365-groups).
+Para obtener instrucciones detalladas sobre cómo configurar estas opciones, consulte [administrar el acceso de invitados en office 365 grupos](https://support.office.com/article/manage-guest-access-in-office-365-groups-9de497a9-2f5c-43d6-ae18-767f2e6fe6e0?appver=MOE150) y [controlar el acceso de invitados en los grupos de Office 365](Teams-dependencies.md#control-guest-access-in-office-365-groups).
  
 
-## <a name="-step-3-enable-guest-access-at-the-tenant-level"></a>□ Paso 3: habilitar el acceso de invitado en el nivel de inquilino
-
-Como mínimo, debe activar el acceso de invitado para Microsoft Teams en el **centro de administración de Microsoft Teams**. 
-
-1. En el centro de administración de Teams, seleccione**acceso de invitado a** **toda** > la organización.
-2. Establezca la opción **permitir acceso de invitado en Microsoft Teams** **.**
-
-    ![Captura de pantalla que muestra un ejemplo de alternancia de configuración de Teams](media/guest-access-checklist-set-up-guests-image1.png)
-
-3. En esta misma página, configure cualquier otra configuración de invitados que necesite.
-4. Haga clic en **Guardar **.
-
-Para obtener instrucciones detalladas, consulte [activar o desactivar el acceso de invitados a Microsoft Teams](set-up-guests.md).
-
-
-## <a name="--step-4-configure-sharing-in-office-365"></a>□ Paso 4: configurar el uso compartido en Office 365 
+## <a name="step-4-configure-sharing-in-office-365"></a>Paso 4: configurar el uso compartido en Office 365 
 
 Asegúrese de que los usuarios pueden agregar invitados. Aquí le mostramos cómo hacerlo:
 
@@ -131,7 +109,9 @@ Asegúrese de que los usuarios pueden agregar invitados. Aquí le mostramos cóm
 > Esta opción es equivalente a la opción los **miembros pueden invitar** en **configuración** > de usuario**usuarios externos** en Azure ad.  
 
 
-## <a name="-step-5-verify-sharing-setting-in-sharepoint"></a>□ Paso 5: comprobar la configuración de uso compartido en SharePoint
+## <a name="step-5-verify-sharing-setting-in-sharepoint"></a>Paso 5: comprobar la configuración de uso compartido en SharePoint
+
+Este es un poco de un rompecabezas. El acceso de invitados en Teams no funciona si la opción **no permitir el uso compartido fuera de la organización** está seleccionada en el centro de administración de SharePoint.
 
 1. Inicie sesión en el centro de administración de Microsoft 365.
 2. Haga clic en **centro de administración**y, después, seleccione **SharePoint**.
@@ -141,17 +121,22 @@ Asegúrese de que los usuarios pueden agregar invitados. Aquí le mostramos cóm
      ![Captura de pantalla que muestra un ejemplo de un botón de alternancia de configuración de SparePoint online.](media/guest-access-checklist-SPOSettings1.png)
 
 
-## <a name="-step-6-enable-specific-settings-for-channels"></a>□ Paso 6: habilitar la configuración específica de los canales 
+## <a name="step-6-set-up-guest-user-permissions"></a>Paso 6: configurar permisos de usuario invitados
 
-En la aplicación de Teams, en el nivel de equipo individual, configure los permisos de invitado para que los invitados puedan crear, actualizar y eliminar canales. Además de los administradores, los propietarios del equipo pueden configurar esta opción.
+En la aplicación de Teams, en el nivel de equipo individual, configure los permisos de invitado que controlan si los invitados pueden crear, actualizar o eliminar canales. Los administradores de equipos y los propietarios de equipo pueden configurar esta configuración.
 
 ![Captura de pantalla que muestra un ejemplo de alternancia de configuración de un equipo o un canal](media/guest-access-checklist-TeamsSettings2.png)
 
-Para obtener más información, incluyendo vídeos de procedimientos, consulte [acceso de invitado en Microsoft Teams](guest-access.md).
+Para obtener más información sobre el acceso de invitados, consulte [acceso de invitados en Teams](guest-access.md) y [activar o desactivar el acceso de invitados a Microsoft Teams](set-up-guests.md).
 
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
-Si tiene problemas al agregar invitados en Microsoft Teams, consulte la [Guía de solución de problemas de acceso de invitados](https://techcommunity.microsoft.com/t5/Microsoft-Teams/Guest-Access-Troubleshooting-Guide/td-p/119797).
+Si tiene problemas para configurar el acceso de invitados o agregar invitados en Teams, use estos recursos para ayudarle:
+
+[Solución de problemas con el acceso de invitado en Microsoft Teams](troubleshoot-guest-access.md)
+
+[Solución de problemas de equipos](https://docs.microsoft.com/MicrosoftTeams/troubleshoot/)
+
 
 

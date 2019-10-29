@@ -4,7 +4,6 @@ ms.reviewer: ''
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/26/2018
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: Descubra cómo un administrador puede ver la información sobre usuarios invitados en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d586ca6f05fc52812506a020ff707fd1fc45eb46
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 16c2c65bc63e41e712be740c68edcc57916d347b
+ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562999"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37753235"
 ---
 <a name="view-guest-users-in-a-team"></a>Ver los usuarios invitados en un equipo
 ==========================
@@ -36,6 +35,3 @@ Para identificar usuarios invitados:
   
 También puede identificar usuarios invitados de su propio equipo.  
 
-## <a name="guest-access-vs-external-access-federation"></a>Diferencias entre el acceso de invitados y el acceso externo (federación)
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

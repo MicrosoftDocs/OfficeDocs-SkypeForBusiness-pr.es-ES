@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo medir los resultados y el éxito de su habilitación a escala general de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bb0d3e756f746a625e3831c38c6dd41d4c29d6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
+ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242409"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749278"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 
@@ -75,7 +75,7 @@ Teams es una tecnología de transformación, de modo que, según el tamaño de l
 | Teams First | Teams Core | Los equipos son importantes | Skype en paralelo | Migración |
 |------------ | ---------- | ------------ | ------------------ | --------- |
 | Implementación de nube de clientes potenciales con Teams | Habilitación del escenario de colaboración de clientes potenciales con Teams | Todos los empleados de Teams y de equipos de toda la organización | Habilitar Teams y Skype empresarial | Migrar usuarios de Skype empresarial a teams |
-| -Se aplica a los clientes de Office 365 de uso nuevo o de uso reducido <br/>-Liderar con Teams en un escenario específico del cliente <br/>-Resalte la experiencia de usuario integrada y el tiempo acelerado para el valor de Office 365 <br/>-Lleve a cabo la habilitación de la carga de trabajo de planificación para evitar la implementación en serie | -Habilitar Teams junto con OneDrive y SharePoint Online <br/>-Crear una intranet de empresa para compartir recursos de noticias y vídeo con Microsoft Stream<br/>**Mejor juntos**: <br/>Microsoft Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes con menos de 1000 asientos (limitación actual)<br/>-Habilitar la colaboración entre organizaciones con un equipo para todos los<br/>-Automatizar tareas comunes (solicitudes de vacaciones, encuestas de empleados, participación ejecutiva) |-Usar las tácticas básicas de Teams para acelerar la colaboración<br/>-Resaltar la orientación del escenario de reunión según el tamaño y el conjunto de características requerido</br>-Usar Skype empresarial para las llamadas empresariales, la interoperabilidad y los escenarios híbridos<br/>-Usar el plan público para planear la capacidad. |-Planear el cambio a los equipos desde Skype empresarial creando un plan de estrategia de servicio para el cliente<br/>-Adjuntar a programación de versión de características<br/>-Recomendar la transición de lado a lado y de Teams para facilitar la transición
+| -Se aplica a los clientes de Office 365 de uso nuevo o de uso reducido <br/>-Liderar con Teams en un escenario específico del cliente <br/>-Resalte la experiencia de usuario integrada y el tiempo acelerado para el valor de Office 365 <br/>-Lleve a cabo la habilitación de la carga de trabajo de planificación para evitar la implementación en serie | -Habilitar Teams junto con OneDrive y SharePoint Online <br/>-Crear una intranet de empresa para compartir recursos de noticias y vídeo con Microsoft Stream<br/>**Mejor juntos**: <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes con menos de 5000 asientos (limitación actual)<br/>-Habilitar la colaboración entre organizaciones con un equipo para todos los<br/>-Automatizar tareas comunes (solicitudes de vacaciones, encuestas de empleados, participación ejecutiva) |-Usar las tácticas básicas de Teams para acelerar la colaboración<br/>-Resaltar la orientación del escenario de reunión según el tamaño y el conjunto de características requerido</br>-Usar Skype empresarial para las llamadas empresariales, la interoperabilidad y los escenarios híbridos<br/>-Usar el plan público para planear la capacidad. |-Planear el cambio a los equipos desde Skype empresarial creando un plan de estrategia de servicio para el cliente<br/>-Adjuntar a programación de versión de características<br/>-Recomendar la transición de lado a lado y de Teams para facilitar la transición
 
 Estas son nuestras recomendaciones para la mayoría de las organizaciones de clientes. Sin embargo, hay excepciones. Para obtener más información sobre cualquier escenario no cubierto aquí, realice sus preguntas en nuestra comunidad de adopción de la adopción o póngase en contacto con el equipo de FastTrack o la red de Partners de Microsoft.
 
