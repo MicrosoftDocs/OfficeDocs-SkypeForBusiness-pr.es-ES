@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumen: Revise este tema mientras planea la integración de Skype empresarial Server con Exchange 2013 o 2016.'
-ms.openlocfilehash: 3b71dd740440aeab37919bb94ef98eaeb83d4d87
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297347"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772623"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planear la integración de la mensajería unificada de Exchange en Skype Empresarial
 
@@ -36,7 +36,6 @@ Para que estas características se admitan en una implementación de mensajería
 - Microsoft Exchange Server 2010 o Service Pack más reciente (solo para servidores de Skype empresarial 2015)
 - Microsoft Exchange Server 2013
 - Microsoft Exchange Server 2016
-- Microsoft Exchange Server 2019 (solo Skype empresarial Server 2019)
 
 > [!NOTE]
 > La mensajería unificada de Exchange, tal como se conocía anteriormente, ya no está disponible en Skype empresarial Server 2019, que usa el sistema telefónico para grabar mensajes de voz y, a continuación, dejar la grabación en el buzón de Exchange de un usuario. Consulte [planear el servicio de buzón de voz en la nube](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) para obtener más información.
@@ -94,7 +93,7 @@ Los siguientes procedimientos recomendados e instrucciones debe tenerse en cuent
 
 - Colabore con los administradores de Exchange para confirmar las tareas que realizará cada uno y así garantizar una integración correcta y homogénea.
 
-- Implemente los roles de servidor de buzón de Exchange en cada bosque de mensajería unificada (UM) de Exchange donde desee habilitar usuarios para la mensajería unificada de Exchange. Para obtener más información sobre la instalación de los roles de servidor de Exchange, consulte la documentación de Microsoft Exchange Server 2013.
+- Implemente los roles de servidor de buzón de Exchange en cada bosque de mensajería unificada (UM) de Exchange donde desee habilitar usuarios para la mensajería unificada de Exchange. Para obtener más información sobre la instalación de los roles de servidor de Exchange, consulte la documentación de Microsoft Exchange Server.
 
     > [!IMPORTANT]
     > Cuando se instala mensajería unificada de Exchange (UM), se configura para usar un certificado autofirmado. El certificado autofirmado no permite que Skype empresarial Server y la mensajería unificada de Exchange confíen entre sí, razón por la cual es necesario solicitar un certificado independiente de una entidad emisora de certificados en la que confíen ambos servidores.

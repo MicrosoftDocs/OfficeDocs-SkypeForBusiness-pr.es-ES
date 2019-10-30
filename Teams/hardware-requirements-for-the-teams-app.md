@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f41c30c00c871ba4a0a96717fabba422cf85dd
-ms.sourcegitcommit: 14d342644d94f75396cf38bfe787cab408e1fb77
+ms.openlocfilehash: 4616b3d78ae8d5e349b4cf29ca9112df77d7a295
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37590141"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772354"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware de la aplicación de Microsoft Teams
 
@@ -54,6 +54,21 @@ ms.locfileid: "37590141"
 |Vídeo  |    Cámara web compatible     |
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
 |Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de difuminar mi vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.|
+
+## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Requisitos de hardware para la aplicación de escritorio de Teams en un Linux
+
+|**Componente**|**Requisito**  |
+|---------|---------|
+|Equipo informático y procesador    | Mínimo 1,6 GHz (o superior) (32 bits o 64 bits).        |
+|Memoria     |    2,0 GB DE RAM     |
+|Disco duro    | 3,0 GB de espacio en disco disponible        |
+|Pantalla    |   resolución de pantalla de 1024 x 768 |
+|Hardware de gráficos |  Mínimo de 128 MB de memoria de gráficos
+|Sistema operativo  | Distribución de Linux capaz de instalar DEB, Snap o RPM. |
+|Vídeo    |  Cámara USB 2,0       |
+|Dispositivos    |   Cámara para equipos portátiles, micrófono y altavoces estándar    | 
+|Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
+|Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de difuminar mi vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para la aplicación de Teams en dispositivos móviles
 

@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97b4ec0c46131c1bfae5ca078e59a366a1b64b51
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236108"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772324"
 ---
-![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
+![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
 Este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
 
@@ -152,7 +152,7 @@ Use la siguiente tabla para capturar los detalles de los clientes y puntos de co
 
 > | Pregunta | Respuesta | Comentarios |
 > |---|---|---|
-> | ¿Qué sistema operativo de escritorio usan los usuarios? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (especifique la versión en la columna comentarios). <br/> <input type="checkbox">Otros (tenga en cuenta los detalles en la columna comentarios). | |
+> | ¿Qué sistema operativo de escritorio usan los usuarios? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox">Mac (especifique la versión en la columna comentarios). <br/> <input type="checkbox">Linux (especifique la distribución en la columna comentarios). <br/> <input type="checkbox">Otros (tenga en cuenta los detalles en la columna comentarios). | |
 > | Qué versión de Microsoft Office está implementada <br>a estos dispositivos? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office para Mac 2011 <br/> <input type="checkbox">Office para Mac 2016 <br/> <input type="checkbox">Otros (tenga en cuenta los detalles en la columna comentarios). | |
 > | Qué tecnología de implementación de Office está en uso <br>en su organización? | <input type="checkbox">MS <br/> <input type="checkbox">Hacer clic y ejecutar | |
 > | ¿Qué son los móviles permitidos y admitidos? <br>¿se están usando las plataformas? <br/>Seleccione todos los que correspondan. | <input type="checkbox">Ventana <br/> <input type="checkbox">Vil <br/> <input type="checkbox">i <br/> <input type="checkbox">Android <br/> <input type="checkbox">Otros (tenga en cuenta los detalles en la columna comentarios). | |
@@ -191,7 +191,7 @@ Use la siguiente tabla para capturar el estado actual de adopción y preparació
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será el responsable de completar una evaluación del entorno?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Siguiente paso</td><td><ul><li>Documente los resultados de la evaluación del entorno.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Paso siguiente</td><td><ul><li>Documente los resultados de la evaluación del entorno.</li></ul></td></tr>
 </table>
 
 Después de evaluar su entorno, continúe con el siguiente paso: [preparar la red](upgrade-prepare-environment-prepare-network.md).

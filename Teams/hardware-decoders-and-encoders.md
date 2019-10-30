@@ -16,13 +16,13 @@ description: Enumera las combinaciones de sistema operativo, modelo y drivers qu
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
-- MicrOperating systemoft Teams
-ms.openlocfilehash: 5210f092993a2ecd52efc56f6953bfab6c2b0d19
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+- Microsoft Teams
+ms.openlocfilehash: b526af86ccf76c5d96694fef655f1e56c33d4d78
+ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570768"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772603"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recomendaciones para el controlador del codificador y descodificador de hardware
 

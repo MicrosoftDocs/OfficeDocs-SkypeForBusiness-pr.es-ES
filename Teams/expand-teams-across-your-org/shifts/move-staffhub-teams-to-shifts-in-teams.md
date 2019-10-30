@@ -2,7 +2,7 @@
 title: Mover los equipos de StaffHub a Turnos en Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
-ms.reviewer: lisawu
+ms.reviewer: lisawu, gumariam
 manager: serdars
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03131bd9a89ae5f54fc8318b004385de3e32e26e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9468dea64c464b3bfc2f0cec7c53f46e2f388c1f
+ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569687"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37775089"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
@@ -105,21 +105,33 @@ Cada miembro del equipo de StaffHub debe estar vinculado a una cuenta de Azure A
 - Un propietario de equipo agregó a un usuario que no tiene una cuenta de Azure AD.
 - Un propietario del equipo ha invitado a un usuario a un equipo de StaffHub y ese usuario no aceptó la invitación.
 
-Estos usuarios tienen cuentas inactivas y muestran un estado de usuario desconocido, invitado o InviteRejected. Puedes vincular una cuenta de Azure AD para estos usuarios.  Le mostramos cómo.
+Estos usuarios tienen cuentas inactivas y muestran un estado de usuario desconocido, invitado o InviteRejected. Puedes vincular una cuenta de Azure AD para estos usuarios.  A continuación, le mostramos cómo.
 
 #### <a name="get-a-list-of-all-inactive-accounts-on-staffhub-teams"></a>Obtener una lista de todas las cuentas inactivas de los equipos de StaffHub
 
-Ejecute lo siguiente para obtener una lista de todas las cuentas inactivas de los equipos de StaffHub y exporte la lista a un archivo CSV.
+Ejecute la siguiente serie de comandos para obtener una lista de todas las cuentas inactivas de los equipos de StaffHub y exporte la lista a un archivo CSV. Cada comando debe ejecutarse por separado.
 
 ```
 $InvitedUsersObject = @()
-$StaffHubTeams = Get-StaffHubTeamsForTenant $StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
-foreach($team in $StaffHubTeams[0]) { write-host $team.name $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
-foreach($StaffHubUser in $StaffHubUsers) {
-        $InvitedUsersObject  += New-Object PsObject -Property @{         "TeamID"="$($team.Id)"         "TeamName"="$($team.name)"         "MemberID"="$($StaffHubUser.Id)" }
+
+$StaffHubTeams = Get-StaffHubTeamsForTenant
+
+$StaffHubTeams[0] = $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq 'StaffHub' }
+
+foreach($team in $StaffHubTeams[0])
+{ 
+    Write-host $team.name
+    $StaffHubUsers = Get-StaffHubMember -TeamId $team.Id | where {$_.State -eq "Invited"}
+    foreach($StaffHubUser in $StaffHubUsers) {
+        $InvitedUsersObject  += New-Object PsObject -Property @{
+          "TeamID"="$($team.Id)"
+          "TeamName"="$($team.name)"
+          "MemberID"="$($StaffHubUser.Id)"
+            }
+    }
 }
-}
-$InvitedUsersObject | SELECT * $InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
+
+$InvitedUsersObject | SELECT * | export-csv InvitedUsers.csv -NoTypeInformation  
 ```
 
 #### <a name="link-the-account"></a>Vincular la cuenta
@@ -255,6 +267,7 @@ Ejecute lo siguiente para obtener una lista de todos los equipos de StaffHub de 
 
 ```
 $StaffHubTeams = Get-StaffHubTeamsForTenant
+
 $StaffHubTeams[0] | Where-Object { $_.ManagedBy -eq ‘StaffHub’ }
 ```
 
@@ -295,6 +308,7 @@ Después de crear el archivo CSV, ejecute lo siguiente para mover los equipos es
 
 ```
 $StaffHubTeams = Import-Csv .\teams.csv
+
 foreach ($team in $StaffHubTeams[0]) {Move-StaffHubTeam -TeamId $team.Id}
 ```
 
@@ -322,7 +336,9 @@ Ejecute lo siguiente para obtener más información sobre los errores de "error"
 
 ```
 Move-StaffHubTeam -TeamId <TeamId>
+
 $res = Get-TeamMigrationJobStatus -JobId <JobId>
+
 $res.Status
 ```
 
