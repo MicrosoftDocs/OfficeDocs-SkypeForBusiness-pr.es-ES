@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 517083fb4767b54cb79f618875be7572a19faee1
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 397c8b4b42151a726dec25885ed8924cddb9f181
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565228"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885524"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -64,7 +64,7 @@ Con el sistema telefónico, los usuarios de Skype empresarial obtendrán las sig
 |[Configurar las opciones de desvío de llamadas en Skype Empresarial](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envía sus llamadas al equipo ya sea de manera inmediata como después de establecer un período de tiempo.  <br/> |
 |[Realizar y recibir una videollamada con Skype Empresarial](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Puede ver el nombre de quien habla y la secuencia de vídeo en una pequeña ventana flotante para poder estar siempre listo para responder a cualquier pregunta. <br/> |
 |[Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Este es el funcionamiento del buzón de voz de nube: cuando un usuario recibe un mensaje de voz, se envía a su buzón como un correo electrónico con el mensaje de voz como datos adjuntos. También podrán escuchar sus mensajes mediante un teléfono de escritorio certificado para Skype, todas las aplicaciones de Skype Empresarial o Lync para Mac 2011.  <br/> El buzón de voz de nube incluye un saludo personalizado, un indicador de mensaje en espera y responder con una llamada. Puede hacer que todo el correo de voz se deposite en buzones y se ponga a disposición a través de Skype Empresarial en su PC, dispositivo móvil y teléfono IP.  <br/> |
-|Música en espera | Disponible en septiembre de 2019, el sistema telefónico reproducirá la música predeterminada definida por el servicio cuando se ponga en espera una llamada externa de la red de telefonía pública conmutada (RTC).  Esta característica funciona para las llamadas entre usuarios de RTC y entre equipos, además de las llamadas hechas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. (Todas las demás plataformas proporcionan una indicación visual cuando un usuario se pone en espera, pero la persona que llama RTC no tiene ninguna manera de saberlo).  En la primera versión, el administrador no puede configurar esta característica.| 
+|Música en espera | Disponible en septiembre de 2019, el sistema telefónico reproducirá la música predeterminada definida por el servicio cuando se ponga en espera una llamada externa de la red de telefonía pública conmutada (RTC).  Esta característica funciona para las llamadas entre usuarios de RTC y entre equipos, además de las llamadas hechas a una cola de llamadas. Esta característica proporciona paridad de notificaciones en espera con otras plataformas. (Todas las demás plataformas proporcionan una indicación visual cuando un usuario se pone en espera, pero la persona que llama RTC no tiene ninguna manera de saberlo).  En la primera versión, el administrador no puede configurar esta característica. La retención de música tampoco se admite en la transferencia Consultiva de una llamada RTC.| 
 |Revertir búsqueda de números | Disponible en septiembre de 2019, el sistema telefónico mostrará el identificador denominado para un número de teléfono externo si el número está asociado con un usuario en AAD. Si el número de teléfono no está en AAD, se mostrará el nombre para mostrar proporcionado por Telco, si está disponible.  |
 
    

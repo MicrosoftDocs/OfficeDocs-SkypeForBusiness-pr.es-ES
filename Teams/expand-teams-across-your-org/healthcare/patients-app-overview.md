@@ -14,14 +14,14 @@ MS.collection:
 appliesto: Microsoft Teams
 ms.reviewer: anach
 description: Aplicación de pacientes para administradores de equipos
-ms.openlocfilehash: 1ed3efc1aa5a6d3eb4554fca6ee3bd7cfe57f4c0
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 85f0d382de11b9259c6839aa8d0e556ad2512f5a
+ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749562"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885504"
 ---
-# <a name="patients-app-overview"></a>Información general de la aplicación de pacientes
+# <a name="patients-app-overview"></a>Información general de la aplicación Pacientes
 
 La aplicación patients es una aplicación de la tienda Microsoft teams que está disponible para todos los usuarios de Teams. La aplicación permite que los equipos de cuidados de pacientes compuestos por trabajadores clínicos (por ejemplo, enfermeras, médicos, trabajadores sociales) puedan ajustar y revisar las listas de pacientes para escenarios que abarcan desde rondas y reuniones de equipos interdisciplinarios hasta monitoreo general de pacientes.   
 
@@ -43,6 +43,30 @@ Para obtener información sobre cómo preparar su entorno para usar la aplicaci�
 <!-- For information on how your end users can access and install the Patients App to a team that they own or manage, you will need to see [End user documentation for the Patients App]() -->
 
 <!-- add link out to client doc, doesn't seem to be available yet, Grant is finalizing -->
+
+## <a name="frequently-asked-questions-faq"></a>Preguntas más frecuentes (p + f)
+
+**¿Dónde se almacenan los datos de la aplicación patients?**
+
+Todos los datos introducidos por los usuarios finales en la aplicación pacientes, incluido el esquema de columna o campo, los datos reales introducidos en la lista y los elementos de la lista (es decir, los pacientes) se almacenan en la infraestructura de Exchange Online segura y compatible. Todos los datos se almacenan en el buzón de correo del grupo que está asociado con el equipo. Esta arquitectura permite que la aplicación de pacientes pueda llevar a cabo con facilidad la residencia de datos, compatibilidad con la nube de administración pública (próximamente) y otras características de protección/cumplimiento de la información, como la compatibilidad con eDiscovery. La aplicación de pacientes funciona en un ámbito de equipo. Tendrá que instalar una instancia de la aplicación por equipo.
+
+<!-- add link to eDiscovery article for the Patients app, Mark Johnson will finalize soon -->
+
+**¿Desde dónde puedo comprar la aplicación para pacientes?**
+
+Si la aplicación de pacientes está habilitada para su organización por su administrador, cualquier usuario final puede ir a la tienda de aplicaciones de Teams y agregar la aplicación patients a un equipo del que sean miembros. Para obtener más información, vea [Administrar directivas de configuración de aplicaciones en Microsoft Teams](../../teams-app-setup-policies.md).
+
+**¿Puedo tener varias instancias de la aplicación de pacientes en un equipo porque así funciona mi unidad o mi "?**
+
+Actualmente, solo puede instalar una instancia de la aplicación de pacientes para un equipo dado y solo en el canal general. Sin embargo, dentro de la aplicación, se pueden crear varias listas para abordar escenarios de canal múltiple o de aislamiento o separación. De forma predeterminada, todos los miembros del equipo tendrán acceso a la pestaña pacientes en el canal general. 
+
+**¿Puedo exportar todos los datos de la aplicación patients?**
+Ahora mismo, esta característica estará disponible próximamente. 
+
+**Debido a que esta aplicación se adapta a la PHI, ¿se está auditando para evitar el acceso no autorizado o el cumplimiento de reglamentaciones?**
+
+Sí, hay. Todas las acciones de la interfaz de usuario que realiza un usuario de Microsoft Teams en la aplicación de pacientes se auditan y están disponibles en el centro de seguridad y cumplimiento. Los detalles se explican en el artículo [aquí](patients-audit.md)
+
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a las plantillas para las organizaciones sanitarias de Teams
-ms.openlocfilehash: df917c3a6f1cbf20c9226dd58e4706c4c0e3bc2c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
+ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570352"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37886443"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas para las organizaciones sanitarias de Teams
 
@@ -48,6 +48,17 @@ La plantilla del hospital está pensada para la comunicación y la colaboración
 |Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
 |:--- |:---|:---|
 |Asistencia sanitaria-Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Anuncios\* <br> Respeto\* <br> Private <br> Recursos humanos <br> Pertenecie |
+| | |  |
+
+\*Con favoritos automáticos 
+
+## <a name="care-coordination-template"></a>Plantilla de coordinación de cuidados
+
+La plantilla de coordinación de cuidados está pensada para facilitar la comunicación dentro de un equipo de atención al paciente, con algunos ejemplos como interdisciplinarios y equipos multidisciplinarios. Nuestra aplicación de pacientes de propiedad está precargada en esta plantilla y se coloca en el canal general. Con la aplicación de pacientes, puede ajustar listas de pacientes y sus valores asociados y vitales, lo que hace que sea útil para el redondeo y los escenarios de administración de pacientes. 
+
+|Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
+|:--- |:---|:---|
+|Asistencia sanitaria: coordinación de cuidados | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Revisión posterior al tratamiento\* <br> Programación\* <br> Instrui\* |
 | | |  |
 
 \*Con favoritos automáticos 
