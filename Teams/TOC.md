@@ -732,7 +732,7 @@
 #### [Integración de registros sanitarios electrónicos en Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
 ##### [Especificación de la interfaz DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
 ##### [Especificación de la interfaz STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
-#### [Registro de auditoría de la aplicación Pacientes](expand-teams-across-your-org/healthcare/patients-audit.md)
+#### [Registros de auditoría de la aplicación Pacientes](expand-teams-across-your-org/healthcare/patients-audit.md)
 
 ## [Teams para el ámbito educativo](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Inicio rápido: Administradores de Teams para el ámbito educativo](teams-quick-start-edu.yml)
