@@ -21,30 +21,30 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Descubra qué son las ubicaciones de emergencia, los lugares y el enrutamiento de llamadas de emergencia, y cómo planear y asignarlos a los usuarios. '
-ms.openlocfilehash: a6f3051c4902d9fda2f20ca17e4aa501a8922264
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ff29f807f0766889db8e6be4305e994bdc9637fe
+ms.sourcegitcommit: d0f03b8abccdacb675f1063a7532397fd0e91a58
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568558"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37901909"
 ---
 # <a name="what-are-emergency-locations-places-and-call-routing"></a>¿Qué son las ubicaciones de emergencia y el enrutamiento de llamadas?
 
-Cuando configure planes de llamadas, tendrá que asignar una ubicación de emergencia a cada número de teléfono al obtener el número de teléfono o asignarlo a un usuario para que admita las llamadas de emergencia. Antes de poder asignar una ubicación de emergencia a un número de teléfono, debe agregar y validar una ubicación de emergencia. La validación asegura que la ubicación de emergencia se reconoce y que está en un formato adecuado que pueden usar los servicios de respuesta de emergencia. De manera opcional, puedes agregar un lugar dentro de la ubicación de emergencia para proporcionar una ubicación más específica para el usuario. Por ejemplo, el lugar podría ser un piso, una alas o una oficina que esté vinculada a una ubicación de emergencia específica. A pesar de que las ubicaciones de emergencia se validan, los lugares no.
+Al configurar los planes de llamadas, tiene que asignar una ubicación de emergencia a cada número de teléfono al comprar el número de teléfono o al asignarlo a un usuario para que sea compatible con las llamadas de emergencia. Antes de poder asignar una ubicación de emergencia a un número de teléfono, debe agregar y validar una ubicación de emergencia. La validación asegura que la ubicación de emergencia se reconoce y que está en un formato adecuado que pueden usar los servicios de respuesta de emergencia. Si lo desea, puede Agregar un lugar dentro de la ubicación de emergencia para proporcionar una ubicación más específica para el usuario. Por ejemplo, el lugar podría ser un piso, una alas o una oficina que esté vinculada a una ubicación de emergencia específica. A pesar de que las ubicaciones de emergencia se validan, los lugares no.
   
 ## <a name="what-are-emergency-locations"></a>¿Qué son las ubicaciones de emergencia?
 
-Se necesita una ubicación de emergencia para los números de teléfono activos y, cuando sea necesario, dependerá del país o la región. En los Estados Unidos, se requiere una ubicación de emergencia cuando se asigna un número a un usuario. Para otros países, como en Europa, Oriente Medio y África (EMEA), se necesita una ubicación de emergencia cuando obtiene el número de teléfono de Office 365 o cuando se transfiere desde otro proveedor u operador de servicios.
+Se necesita una ubicación de emergencia para los números de teléfono activos y, cuando sea necesario, dependerá del país o la región. En los Estados Unidos, se requiere una ubicación de emergencia cuando se asigna un número a un usuario. Para otros países, como Europa, Oriente Medio y África (EMEA), se necesita una ubicación de emergencia cuando recibe el número de teléfono de Teams o cuando se transfiere desde otro proveedor de servicios u operador a teams.
   
-Una ubicación de emergencia puede denominarse dirección de ciudad, dirección postal o dirección física. Es la calle o la dirección cívica de un lugar de trabajo para su organización. Por ejemplo, la dirección *12345 North Main Street, Redmond, WA 98052* se usa para enrutar llamadas de emergencia a las autoridades de distribución correspondientes y para ayudar a localizar a la persona que llama de emergencia. Es probable que necesites más de una ubicación de emergencia si tu empresa tiene más de una ubicación de empresa física.
+Una ubicación de emergencia puede denominarse dirección de ciudad, dirección postal o dirección física con el lugar opcional. Es la calle o la dirección cívica de un lugar de trabajo para su organización. Por ejemplo, la dirección *12345 North Main Street, Redmond, WA 98052* se usa para enrutar llamadas de emergencia a las autoridades de distribución correspondientes y para ayudar a localizar a la persona que llama de emergencia. Es probable que necesites más de una ubicación de emergencia si tu empresa tiene más de una ubicación de empresa física.
   
-Validar una ubicación de emergencia implica asegurarse de que es legítima y tiene el formato correcto para los servicios de respuesta de emergencia. Es posible agregar y guardar una ubicación de emergencia no validada, pero solo se pueden asociar ubicaciones validadas con un usuario. Una vez validada y guardada una ubicación de emergencia, puede asignarla a un usuario. Para cambiar una ubicación de emergencia guardada y validada, tendrá que crear una nueva.
+Validar una dirección de emergencia implica asegurarse de que está correctamente formateada para los servicios de respuesta de emergencia. Es posible agregar y guardar una ubicación de emergencia no validada, pero solo se pueden asociar ubicaciones validadas con un usuario. Una vez validada y guardada una ubicación de emergencia, puede asignarla a un usuario. Para cambiar una ubicación de emergencia guardada y validada, tendrá que crear una nueva.
   
 ## <a name="what-are-places"></a>¿Qué son los lugares?
 
-Un lugar está asociado a una ubicación de emergencia para dar una ubicación más exacta dentro de un edificio. Un lugar suele ser un piso, un ala de construcción o un número de oficina donde se encuentra el usuario. Puede tener un número ilimitado de lugares asociados a una ubicación de emergencia. 
+Un lugar está asociado a una ubicación de emergencia para dar una ubicación más exacta dentro de un edificio. Un lugar suele ser un piso, un ala de construcción o un número de oficina donde se encuentra el usuario. Puedes tener un número ilimitado de lugares asociados con una dirección de emergencia.
   
-Cuando se asigna una ubicación de emergencia a un usuario, en realidad es un identificador de ubicación al que se hace referencia al asignar la ubicación. El identificador de ubicación incluye la ubicación de emergencia a la que se hace referencia (la calle o la dirección cívica). Se incluye un lugar predeterminado con una ubicación de emergencia para casos en los que no son necesarios los lugares en los edificios.
+Cuando se asigna una ubicación de emergencia a un usuario, en realidad es un identificador de ubicación al que se hace referencia al asignar la ubicación. El identificador de ubicación incluye la dirección de emergencia a la que se hace referencia (la calle o la dirección cívica). Se incluye un lugar predeterminado con una ubicación de emergencia para casos en los que no son necesarios los lugares en los edificios.
   
 ## <a name="what-is-emergency-call-routing"></a>¿Qué es un enrutamiento de llamadas SOS?
 

@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a196fd3de81cf5e68a5fdaf389b3acad9465ef7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ae71be1cfed86597f70b6ed7bfec08b42a2ce256
+ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242321"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37913033"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Comenzar el inicio rápido para Microsoft Teams
 
@@ -31,6 +31,8 @@ Las siguientes actividades se realizarán al mismo tiempo y pueden involucrar a 
 - ¿Qué participante de tu evaluación anterior es un buen candidato para participar en esta incorporación de negocios limitada?
 - ¿Tiene esta persona (o un grupo de personas) casos de uso sugeridos que serían buenos candidatos para esta fase?  
 - ¿Tienen el interés suficiente de los empleados de su organización para ser pioneros de los usuarios y le dan un comentario significativo y regular? 
+
+Para obtener más información, lea [planear la gobernanza de Teams](plan-teams-governance.md) y [planear la administración del ciclo de vida en Teams](plan-teams-lifecycle.md).
 
 ## <a name="an-icon-representing-a-decision-pointmediateams-adoption-decision-iconpngdecisions"></a>![Un icono que representa un punto de decisión](media/teams-adoption-decision-icon.png)Adopt
 
