@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Página de aterrizaje para implementar la voz en la nube en Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f60159d2d9d65afd3837a0b48b82ac7e13b8e0df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37515837"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925581"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
@@ -44,7 +44,7 @@ Los artículos siguientes proporcionan más información sobre cómo implementar
 - [Sistema telefónico con Planes de llamada](calling-plan-landing-page.md)
 - [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
 - [Implementación de voz en la nube](cloud-voice-deployment.md)
-- [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Vea la siguiente sesión para obtener más información sobre el sistema telefónico: [Introducción al sistema telefónico en Microsoft Teams](https://aka.ms/teams-phone-system)
 
 
@@ -112,7 +112,7 @@ Microsoft tiene dos tipos de números telefónicos disponibles: números de *sus
 | :------------|:-------|
 | ¿Qué ubicaciones de usuario necesitan números de teléfono nuevos de Microsoft? | Para obtener información sobre cómo obtener números de teléfono, vea [administrar números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) y [obtener números de teléfono para los usuarios](getting-phone-numbers-for-your-users.md). 
 | ¿Qué tipo de número de teléfono (suscriptor o servicio) necesito? | Para elegir el tipo de número de teléfono que necesita, vea [diferentes tipos de números de teléfono para los planes de llamadas](different-kinds-of-phone-numbers-used-for-calling-plans.md).
-¿Cómo Porto números de teléfono existentes a Office 365?|Para obtener más información, consulte [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md).
+¿Cómo Porto números de teléfono existentes a teams?|Para obtener más información, consulte [transferir números de teléfono a Microsoft Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 |||
 
 ### <a name="dial-plans"></a>Planes de marcado
@@ -134,7 +134,7 @@ Las colas de llamadas en nube incluyen saludos que se usan cuando un usuario lla
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-| ¿Mi organización necesita colas de llamadas? | Para obtener más información, consulte [crear una cola de llamadas en la nube](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) y [configurar el sistema telefónico](setting-up-your-phone-system.md). |
+| ¿Mi organización necesita colas de llamadas? | Para obtener más información, consulte [crear una cola de llamadas en la nube](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) y [configurar el sistema telefónico](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Operadores automáticos
 
@@ -149,8 +149,8 @@ Los operadores automáticos de la nube se pueden usar para crear un sistema de m
 Para obtener más información sobre los dispositivos compatibles, vea lo siguiente:
 
 - [Administrar sus dispositivos en Microsoft Teams](device-management.md)
-- [Teléfonos IP](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Dispositivos de audio y vídeo USB](https://docs.microsoft.com/en-us/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
-- [Comunicaciones inteligentes para dispositivos](https://products.office.com/en-gb/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
+- [Teléfonos IP](https://docs.microsoft.com/skypeforbusiness/certification/devices-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Dispositivos de audio y vídeo USB](https://docs.microsoft.com/skypeforbusiness/certification/devices-usb-devices?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Comunicaciones inteligentes para dispositivos](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
 
 

@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener nuevos números para los equipos, trasladarlos o transferirlos, y cómo mostrar los cambios a los usuarios. '
-ms.openlocfilehash: c605933f91d047d44f191e9d1604e8c8630565fb
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572096"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925291"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
@@ -34,9 +34,9 @@ Hay tres formas de obtener números de usuarios:
 
 - **Use el centro de administración de Microsoft Teams.** En el caso de algunos países o regiones, puede obtener números para los usuarios mediante el centro de administración de Microsoft Teams. Consulte [obtener nuevos números de teléfono para los usuarios](#get-new-phone-numbers-for-your-users).
     
-- **Portar los números existentes.** Puede trasladar o transferir números existentes de su proveedor de servicios u operador telefónico actual. Consulte [Transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) o [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información que le ayude a hacer esto.  
+- **Portar los números existentes.** Puede trasladar o transferir números existentes de su proveedor de servicios u operador telefónico actual. Consulte [transferir números de teléfono a teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) o [administrar números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información para ayudarle a hacerlo.  
   
-- **Usar un formulario de solicitud para los nuevos números.** A veces, en función de su país o región, no podrá obtener números de teléfono nuevos a través del centro de administración de Microsoft Teams, o bien necesitará números de teléfono o códigos de área específicos. Si es así, tendrás que descargar un formulario y enviarlo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
+- **Usar un formulario de solicitud para números nuevos.** A veces, en función de su país o región, no podrá obtener números de teléfono nuevos a través del centro de administración de Microsoft Teams, o bien necesitará números de teléfono o códigos de área específicos. Si es así, tendrás que descargar un formulario y enviarlo de nuevo a nosotros. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
 > Si necesita ayuda para configurar números de teléfono para su organización, puede [ponerse en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
@@ -61,7 +61,7 @@ Hay tres formas de obtener números de usuarios:
   
    **Port or transfer phone numbers from your service provider or phone carrier**
   
-- Si necesita 999 o menos números de teléfono para los usuarios, puede usar el portal heredado en el centro de administración de Microsoft Teams. Siga los pasos que [se indican en transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) para transferir los números de teléfono a teams.
+- Si necesita 999 o menos números de teléfono para los usuarios, puede usar el portal heredado en el centro de administración de Microsoft Teams. Siga los pasos que se indican en [transferir números de teléfono a teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) para transferir los números de teléfono a teams.
     
 - Si necesita migrar más de 999 números de teléfono, consulte [administrar solicitudes de servicio en Service Manager](https://docs.microsoft.com/system-center/scsm/service-requests) para enviar una solicitud de servicio de solicitud de portabilidad o un pedido para que todos estos números de teléfono se transfieren a Office 365.
     
@@ -75,7 +75,7 @@ En el navegación de la izquierda, vaya a**números de teléfono** de **voz** > 
     
 - Después de obtener los números de teléfono, tendrá que asignar un número a cada uno de los usuarios. Consulte [Asignar un número de teléfono en Skype Empresarial](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- Puede usar la página **números de teléfono** en el centro de administración del equipo de Microsoft para ver la lista de números de teléfono disponibles en la columna **número de teléfono** , ver si el número de teléfono se ha asignado en la columna **Estado** y la ubicación de la número de teléfono en la columna **Ubicación** . 
+- Puede usar la página **números de teléfono** en el centro de administración de Microsoft Teams para ver la lista de números de teléfono disponibles en la columna **número de teléfono** , ver si el número de teléfono se ha asignado en la columna **Estado** y la ubicación de la número de teléfono en la columna **Ubicación** . 
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).

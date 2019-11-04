@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: Obtenga más información sobre las barreras de información y cómo afectan a teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9a8f67e03ca005ef99a4a2fbfd3c3e05373c53ad
-ms.sourcegitcommit: 2064c94eae82a5453674d38f0b28dcd6dc5c370e
+ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
+ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885534"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931808"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -27,7 +27,7 @@ Las barreras de información son directivas que un administrador puede configura
 > [!NOTE]
 > - Los grupos de barrera de información no se pueden crear en todos los inquilinos.
 > - En la versión 1, no se admite el uso de bots para agregar usuarios.
-> - Barreras de información la versión 1 no incluye compatibilidad con SharePoint y OneDrive para la empresa. Estamos trabajando para habilitar la característica en SharePoint y se comunicará una vez que esté disponible.
+> - Nuevo: la compatibilidad con la barrera de información para el sitio de SharePoint conectado a teams ahora está en vista previa privada. Haz clic [aquí](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) para participar en la vista previa privada. .
 
 Las directivas de barrera de información también evitan búsquedas y descubrimiento. Esto significa que si intentas comunicarte con alguien con quien no deberías comunicarte, no encontrarás ese usuario en el selector de personas.
 
@@ -76,45 +76,37 @@ Si hay una conversación u otra comunicación entre usuarios, se establece una n
 - **Conversación grupal** : Si ya no se permite la comunicación de un usuario al grupo (por ejemplo, si un usuario cambia de trabajo), el usuario, junto con el resto de los usuarios que infrinjan la Directiva, se puede quitar de la conversación grupal y la comunicación posterior con el grupo no se tienen. El usuario puede seguir viendo conversaciones antiguas (que serán de solo lectura), pero no podrá ver ni participar en ninguna conversación nueva con el grupo. Si la directiva nueva o modificada que evita la comunicación se aplica a más de un usuario, los usuarios afectados por la Directiva se pueden quitar de la conversación grupal. Aún puede ver conversaciones antiguas. 
 - **Equipo** : todos los usuarios que se han quitado del grupo se quitan del equipo y no podrán ver ni participar en conversaciones nuevas o existentes.
 
+
 ## <a name="what-will-users-experience-if-another-user-is-blocked"></a>¿Qué experimentarán los usuarios si otro usuario está bloqueado?
 
 En la actualidad, los usuarios experimentan lo siguiente si una directiva de barrera de información bloquea a otro usuario:
 
-- **Pestaña personas** : un usuario puede ver algunos usuarios bloqueados en la pestaña **contactos** . El usuario puede seleccionar a los usuarios bloqueados.
-- **Ficha actividad** : Si un usuario visita la pestaña **actividad** de un usuario bloqueado, no aparecerá ninguna publicación. (La ficha **actividad** muestra solo las publicaciones de canal y no habría canales comunes entre los dos usuarios).
-- **Organigramas: si** un usuario obtiene acceso a un organigrama en el que aparece un usuario bloqueado, el usuario verá el usuario bloqueado en el gráfico y podrá hacer clic en acciones en el gráfico, pero las acciones (como la llamada) no se realizarán.
-- **Tarjeta de contactos** : Si un usuario participa en una conversación y posteriormente se bloquea, otros usuarios pueden seguir viendo la tarjeta contactos para el usuario bloqueado. Todas las acciones que aparecen en la tarjeta (como llamadas y chats) estarán disponibles, pero no se realizarán las acciones.
-- **Contactos sugeridos** : en la lista de contactos sugeridos (la lista de contactos inicial que aparece para los nuevos usuarios), los usuarios pueden ver todos los contactos sugeridos (incluidos los usuarios bloqueados). Sin embargo, si un usuario hace clic en el nombre de un usuario bloqueado para abrir el panel de chats, el mensaje se bloqueará.
-- **Contactos de chat** : un usuario puede ver usuarios bloqueados en la lista de contactos de chat.
-- **Llamadas contactos** : un usuario puede ver los usuarios bloqueados en la lista de contactos y se mostrarán acciones como llamadas y mensajes, pero cuando el usuario intente llamar o enviar un mensaje al usuario bloqueado, la llamada o el mensaje no se enviará.
-- **Migración de Skype a teams** : durante una migración de Skype empresarial a Teams, todos los usuarios, incluso los que están bloqueados por las directivas de la barrera de información, se migrarán a teams y se administrarán según se describe anteriormente.
-
-Próximamente: los usuarios experimentarán lo siguiente si una directiva de barrera de información bloquea a otro usuario:
-
 - **Pestaña personas** : un usuario no puede ver usuarios bloqueados en la pestaña **contactos** .
+- **Selector de personas** : los usuarios bloqueados no se verán en el selector de personas.
 - **Ficha actividad** : Si un usuario visita la pestaña **actividad** de un usuario bloqueado, no aparecerá ninguna publicación. (La ficha **actividad** muestra solo las publicaciones de canal y no habría canales comunes entre los dos usuarios).
 - **Organigramas: si** un usuario accede a un organigrama en el que aparece un usuario bloqueado, dicho usuario no aparecerá en el organigrama y aparecerá un mensaje de error.
 - **Tarjeta de contactos** : Si un usuario participa en una conversación y el usuario se bloquea posteriormente, otros usuarios verán un mensaje de error en lugar de la tarjeta de contactos cuando pasen el mouse sobre el nombre del usuario bloqueado. Las acciones que aparecen en la tarjeta (como llamadas y conversaciones) no estarán disponibles.
 - **Contactos sugeridos** : los usuarios bloqueados no aparecen en la lista de contactos sugeridos (la lista de contactos inicial que aparece para los nuevos usuarios).
-- **Contactos de chat** : un usuario no puede ver usuarios bloqueados en la lista de contactos de chat.
+- **Contactos de chat** : un usuario puede ver los usuarios bloqueados en la lista de contactos de chats, pero los usuarios bloqueados se identificarán y la única acción que el usuario puede realizar es eliminarlos. El usuario también puede hacer clic en ellos para ver sus conversaciones pasadas.
 - **Llama a contactos** : un usuario puede ver usuarios bloqueados en la lista de contactos de llamadas, pero los usuarios bloqueados se identificarán y la única acción que el usuario puede realizar es eliminarlos.
 - **Migración de Skype a teams** : durante una migración de Skype empresarial a Teams, todos los usuarios, incluso los que están bloqueados por las directivas de la barrera de información, se migrarán a teams y se administrarán según se describe anteriormente.
 
+
+
 ## <a name="required-licenses-and-permissions"></a>Licencias y permisos necesarios
 
-Las barreras de información se están publicando y se incluyen en las suscripciones, como por ejemplo:
+Cuando se crea un equipo, se aprovisiona un sitio de SharePoint y se asocia al equipo para la experiencia de los archivos. El acceso a este sitio de SharePoint y los archivos respeta la Directiva IB de la organización, es decir, solo se permite el acceso a los usuarios cuya coincidencia con las coincidencias del segmento IB. Incluso en el momento del uso compartido de archivos, se respeta la política IB.
 
-- Microsoft 365 E5
-- Office 365 E5
-- Cumplimiento avanzado de Office 365
-- Cumplimiento de Microsoft 365 E5
+Por ejemplo: en Contoso Bank Corporation, el usuario ' Sesha@contosobank.onmicrosoft.com ' pertenece a un segmento de banca de inversiones y el usuario ' Nikita@contosobank.onmicrosoft.com ' pertenece a un asesoramiento de segmentos. La Directiva IB de la organización bloquea la comunicación y la colaboración entre estos dos segmentos. Cuando la Sesha de usuario crea un equipo para el segmento de banca de inversiones, el equipo y el sitio de SharePoint que los respalda solo serán accesibles para los usuarios del segmento de banca de inversión. Los usuarios no pueden acceder a ese sitio, incluso si tiene el vínculo a Nikita.
 
-Para obtener más información, incluidos planes y precios, consulte [soluciones de cumplimiento](https://products.office.com/business/security-and-compliance/compliance-solutions?rtc=1).
+Para obtener más información, incluidos planes y precios, consulte [Guía de licencias](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-tenantlevel-services-licensing-guidance).
+
 
 ## <a name="more-information"></a>Más información
 
 - Para obtener más información sobre las barreras de la información, consulte barreras de la [información](https://docs.microsoft.com/office365/securitycompliance/information-barriers).
 
-- Para configurar las políticas de la barrera de información, consulte [definir políticas para las barreras de información](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies)
+- Para configurar las políticas de la barrera de información, consulte [definir políticas para las barreras de la información](https://docs.microsoft.com/office365/securitycompliance/information-barriers-policies).
 
 - Para editar o quitar directivas de la barrera de la información, consulte [Editar o quitar directivas](https://docs.microsoft.com/microsoft-365/compliance/information-barriers-edit-segments-policies.md) de la barrera de información
+

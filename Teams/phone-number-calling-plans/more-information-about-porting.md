@@ -17,18 +17,18 @@ search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1keyword: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: Obtenga la guía que necesita para trasladar sus números de teléfono a Microsoft Teams.
-ms.openlocfilehash: 53a2c640a708e5da0ed4c0d30bb678fc3cd2cbe3
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fe77c4efb8728a10e433866ddf10309f51934a3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886972"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37925201"
 ---
 # <a name="more-information-about-porting"></a>Más información sobre el traslado
 
 Aquí encontrará más información sobre cómo trasladar números de teléfono a Microsoft Teams.
 
-Para obtener instrucciones detalladas, consulte transferir números de teléfono a teams.
+Para obtener instrucciones detalladas, consulte [transferir números de teléfono a teams](transfer-phone-numbers-to-teams.md).
 
 Si necesita ayuda o si necesita obtener más números de teléfono, póngase en contacto con la [ayuda del servicio de asistencia al cliente RTC](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
 
@@ -106,11 +106,11 @@ Al enviar una solicitud de portabilidad, debe usar un archivo CSV con formato ad
 
 ## <a name="how-do-i-see-the-status-of-my-port-order"></a>¿Cómo puedo ver el estado de mi solicitud de portabilidad?
 
-Consulte ¿Cuál es el estado de sus solicitudes de portabilidad?
+Consulte [¿cuál es el estado de sus solicitudes de portabilidad?](port-order-status.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- ¿Qué es un pedido de portabilidad?
+- [¿Qué es un pedido de portabilidad?](port-order-overview.md)
 - [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Administrar los números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)

@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: Este apéndice incluye pasos detallados para deshabilitar la implementación híbrida como parte de la consolidación en la nube para Teams y Skype empresarial.
-ms.openlocfilehash: 805010aa16ca8159b5e274847ca7ca2b296f214d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f78c5a5cb792ecdb39125292c531097219dc58e3
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160784"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924971"
 ---
 # <a name="disable-hybrid-to-complete-migration-to-the-cloud"></a>Deshabilitar la migración híbrida para completar la nube
 
@@ -35,7 +35,7 @@ Una vez que haya movido a todos los usuarios de la nube local a la nube, puede r
 3. Deshabilite la capacidad local para comunicarse con Office 365.
 
 
-Estos pasos deben realizarse juntos como una unidad. A continuación se proporcionan detalles.
+Estos pasos deben realizarse juntos como una unidad. A continuación se proporcionan detalles. Además, las directrices para administrar los números de teléfono de los usuarios migrados, una vez que se desconecta la implementación local.
 
 > [!Note] 
 > En raras ocasiones, al cambiar el DNS de los locales a Office 365 para su organización, la Federación con otras organizaciones puede dejar de funcionar hasta que la otra organización actualice la configuración de la Federación:<ul><li>
@@ -62,6 +62,13 @@ El siguiente comando debe realizarse desde una ventana de PowerShell de Skype em
 El siguiente comando debe realizarse desde una ventana de PowerShell local.  Si ya ha importado una sesión de Skype empresarial online, inicie una nueva sesión de PowerShell de Skype empresarial.
 
     `Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false`
+
+### <a name="managing-phone-numbers-for-users-who-were-migrated-from-on-premises"></a>Administrar los números de teléfono para los usuarios que se migraron de forma local
+
+Los administradores pueden administrar los usuarios que se movieron anteriormente desde Skype empresarial Server local a la nube, incluso después de que se haya retirado la implementación local. Hay dos posibilidades diferentes:
+1.  Si el usuario tiene un lineURI local antes del movimiento (presumiblemente porque el usuario estaba habilitado para Enterprise Voice), si quiere cambiar el lineURI, debe hacerlo en AD local y dejar que el valor fluya hasta AAD. Esto no requiere Skype empresarial Server local. En su lugar, este atributo, msRTCSIP-line se puede editar directamente en Active Directory local, mediante el complemento de MMC usuarios y equipos de Active Directory o a través de PowerShell. Si usa el complemento MMC, abra a la página de propiedades del usuario y haga clic en la pestaña Editor de atributos y busque msRTCSIP-line.
+
+2.  Si el usuario no tenía un valor de lineURI local antes del traslado, puede modificar el LineURI mediante los parámetros-onpremLineUri en el cmdlet Set-csuser en el módulo de PowerShell de Skype empresarial online.
 
 ## <a name="see-also"></a>Vea también
 

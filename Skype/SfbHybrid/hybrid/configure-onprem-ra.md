@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Configure una cuenta de recursos para Skype empresarial Server 2019.
-ms.openlocfilehash: 0439532eba2639dc836f62fff94531d4930f03e0
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 9b21f77c4b4558e6f08163173f587ef4956ed8d0
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328304"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924961"
 ---
 # <a name="configure-resource-accounts"></a>Configurar cuentas de recursos
 
@@ -56,7 +56,7 @@ La creación de una cuenta de recursos que use un número de teléfono requerir�
 
 1. Puerto u obtenga un número de servicio de pago o gratuito. El número no se puede asignar a otros servicios de voz o cuentas de recursos.
 
-   Antes de asignar un número de teléfono a una cuenta de recursos, tendrá que obtener o migrar los números de servicio de pago o gratuitos existentes. Una vez que obtenga los números de teléfono de servicio de pago o gratuitos, se mostrarán en**los números de teléfono****de telefonía del** > centro > de **Administración de Microsoft Teams**, y el **tipo de número** que aparezca en la lista aparecerá como **servicio-** gratuito. Para obtener los números de servicio, consulte [obtener números de teléfono de servicio](/MicrosoftTeams/getting-service-phone-numbers) o, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Office 365](/MicrosoftTeams/transfer-phone-numbers-to-office-365).
+   Antes de asignar un número de teléfono a una cuenta de recursos, tendrá que obtener o migrar los números de servicio de pago o gratuitos existentes. Una vez que obtenga los números de teléfono de servicio de pago o gratuitos, se mostrarán en**los números de teléfono****de telefonía del** > centro > de **Administración de Microsoft Teams**, y el **tipo de número** que aparezca en la lista aparecerá como **servicio-** gratuito. Para obtener los números de servicio, consulte [obtener números de teléfono de servicio](/MicrosoftTeams/getting-service-phone-numbers) o, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
    Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. Vaya a [administrar los números de teléfono de su organización](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) en lugar de ver cómo hacerlo desde fuera de los Estados Unidos.
 

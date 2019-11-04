@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas en conferencia. '
-ms.openlocfilehash: a36482dc6c58275491c65ac518e98cdc0ac0b787
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: 499a8a8ef05d23c74b030536d33b7a02cd6d9a1a
+ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792177"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "37924981"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar audioconferencias para Skype empresarial
 
-En algunas ocasiones, en su organización se necesitará un teléfono para llamar a una reunión. Skype empresarial incluye la característica de audioconferencia solo en esta situación. Las personas pueden llamar a reuniones de Skype empresarial con un teléfono, en lugar de usar la aplicación de Skype empresarial en un dispositivo móvil o PC. 
+A veces, las personas de su organización deberán usar un teléfono para llamar a una reunión. Skype empresarial incluye la característica de audioconferencia solo en esta situación. Las personas pueden llamar a reuniones de Skype empresarial con un teléfono, en lugar de usar la aplicación de Skype empresarial en un dispositivo móvil o PC. 
   
 You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
@@ -44,7 +44,7 @@ Vaya a la [Disponibilidad de país y región para Audioconferencia y Planes de l
  
 ## <a name="step-2-get-and-assign-licenses"></a>Paso 2: obtener licencias y asignarlas
  
-1. Para Audioconferencia, necesita una licencia para cada usuario que vaya a configurar reuniones de acceso telefónico. Para conocer las licencias que necesita comprar para las conferencias de audio y cuánto cuestan, vea [licencias complementarias de Skype empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+1. Para las conferencias de audio, necesita una licencia para cada usuario que vaya a configurar las reuniones de acceso telefónico. Para conocer las licencias que necesita comprar para las conferencias de audio y cuánto cuestan, vea [licencias complementarias de Skype empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
     >[!NOTE] 
     > Las conferencias de audio se incluyen en las licencias de Office 365 Enterprise E5 y como complemento.
@@ -63,7 +63,7 @@ En Audioconferencia, no puede usar números de teléfono para los usuarios; debe
   
 - **Use el centro de administración de Skype empresarial**. Para algunos países o regiones, puede obtener números de servicio para sus puentes de conferencia con el centro de administración de Skype empresarial. Consulta [obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers).
     
-- **Porte los números de servicio existentes**. Para migrar o transferir números existentes de su proveedor de servicios actual u operador telefónico a Office 365. Consulte [Transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365) o [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información que le ayude a hacer esto.  
+- **Porte los números de servicio existentes**. Para migrar o transferir números existentes de su proveedor de servicios actual u operador telefónico a Office 365. Puede ver [transferir números de teléfono a teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams) o [administrar números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization) para obtener más información que le ayude a hacerlo.  
   
 - **Usar un formulario de solicitud para números nuevos**. A veces, en función de su país o región, no podrá obtener los nuevos números de servicio con el centro de administración de Skype empresarial o necesitará números de teléfono o códigos de área específicos. En ese caso, tendrá que descargar un formulario y enviárnoslo. Para obtener más información, vea [Administrar los números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization). 
     
