@@ -15,14 +15,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbeab6df377dd898b9c0d424288300ad7f01fbfc
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569978"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968311"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Preguntas más frecuentes sobre las directivas de retención de Microsoft Teams
+
+> [!NOTE]
+> Aún no se admite la configuración de retención de mensajes de canal privado. La retención de archivos compartidos en canales privados es compatible.
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>¿Qué tipos de directivas puedo configurar en las directivas de retención y cómo funcionan?
 
@@ -40,7 +43,7 @@ Sí, están. Si crea una directiva de retención para eliminar los datos anterio
 
 ### <a name="what-is-the-default-retention-policy"></a>¿Qué es la Directiva de retención predeterminada? 
 
-De forma predeterminada, los datos de chat, canal y archivos de Teams se conservan para siempre. Un usuario puede eliminar algo pero, en ausencia de directivas de retención, los datos de Teams siempre se archivan en buzones de Exchange Online (usuario y grupo) y permanecen allí para eDiscovery. 
+De forma predeterminada, los datos de chat, canal y archivos de Teams se conservan para siempre.
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>¿Puedo apuntar a conjuntos de usuarios o equipos en una directiva? 
 

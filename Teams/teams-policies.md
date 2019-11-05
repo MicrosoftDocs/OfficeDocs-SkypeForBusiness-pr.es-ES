@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 5edaa21f3d9a2438532f8cc7f45f182c105b2f1e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 5bcc084c96ededbf4337057834763e9d53ac4348
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37570140"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968281"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Administrar directivas de Teams en Microsoft Teams
 
@@ -46,8 +46,8 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
     ![Captura de pantalla de la configuración de directiva de Teams](media/teams-policies.png)
 4. Elija la configuración que desee:
 
-- [**Descubrir equipos privados**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#discoverteams): Active esta opción para permitir que los usuarios detecten equipos privados en los resultados de búsqueda y en la galería de equipos.
-- [**Crear canales privados**](https://docs.microsoft.com/MicrosoftTeams/teams-policies#createchannels): Active esta opción para permitir a los usuarios crear canales privados.
+- **Descubrir equipos privados**:<a name="discoverteams"> </a> Active esta opción para permitir que los usuarios detecten equipos privados en los resultados de búsqueda y en la galería de equipos.
+- **Crear canales privados**: <a name="createchannels"> </a>Active esta opción para permitir a los usuarios crear canales privados.
 
 5. Haga clic en **Guardar **.
 
@@ -105,3 +105,4 @@ Según el número de miembros del grupo, este comando puede demorar varios minut
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Administrar la detección de equipos privados en Teams](manage-discovery-of-private-teams.md)
+- [Canales privados en Teams](private-channels.md)

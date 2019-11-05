@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: bc69b44b47cf068bdea17ed661a873b90af44de5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37569281"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968241"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -34,7 +34,7 @@ De forma predeterminada, se crea una directiva denominada global (opción predet
 
 ## <a name="change-or-create-a-messaging-policy"></a>Cambiar o crear una directiva de mensajería
 
-Puede administrar fácilmente directivas de mensajería en el centro de administración de Microsofthttp://admin.teams.microsoft.com) Teams (iniciando sesión con credenciales de administrador y seleccionando **directivas de mensajería** en el panel de navegación izquierdo). Para editar la Directiva de mensajería predeterminada existente para su organización, seleccione la fila **global (predeterminada para toda** la organización) y, a continuación, realice los cambios. Para crear una nueva Directiva de mensajería personalizada, seleccione **nueva Directiva**, asigne un nombre a la nueva Directiva y, a continuación, seleccione la configuración. Elija **Guardar** cuando haya terminado.
+Puede administrar fácilmente directivas de mensajería en el centro de administración de Microsofthttps://admin.teams.microsoft.com) Teams (iniciando sesión con credenciales de administrador y seleccionando **directivas de mensajería** en el panel de navegación izquierdo). Para editar la Directiva de mensajería predeterminada existente para su organización, seleccione la fila **global (predeterminada para toda** la organización) y, a continuación, realice los cambios. Para crear una nueva Directiva de mensajería personalizada, seleccione **nueva Directiva**, asigne un nombre a la nueva Directiva y, a continuación, seleccione la configuración. Elija **Guardar** cuando haya terminado.
 
 Por ejemplo, supongamos que desea asegurarse de que los mensajes enviados no se eliminen ni modifiquen. Debería crear una nueva directiva personalizada denominada "retener mensajes enviados" y desactivar la configuración siguiente:
 
@@ -97,6 +97,9 @@ Use la siguiente configuración para cambiar la Directiva de mensajería global 
     - **Desactivado** Esto significa que los usuarios no pueden crear mensajes de voz en los chats ni en los canales.  
 - **En dispositivos móviles, Mostrar canales favoritos por encima de los chats recientes** Habilite esta opción para mover los canales favoritos a la parte superior de la pantalla del dispositivo móvil para que el usuario no tenga que desplazarse para encontrarlos. 
 - **Permitir a un usuario quitar usuarios de un chat grupal** Activa esta opción para permitir a un usuario quitar a otros usuarios de un chat grupal. Esta característica te permite continuar con un chat con un grupo más pequeño de personas sin perder el historial de conversaciones.
+
+> [!NOTE]
+> Algunas de estas opciones de configuración, como imágenes giphy, también se pueden configurar en el nivel de equipo por parte de los propietarios del equipo y en el nivel del canal privado por los propietarios del canal privado.
 
 ### <a name="related-topics"></a>Temas relacionados
 [Directivas de reuniones en Microsoft Teams](meeting-policies-in-teams.md)

@@ -3,7 +3,6 @@ title: Directivas de retención en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,16 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e78e5837aa0e42f268b50bff47dab6aae71d5d2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 81c42bbe4f6bfc9186365d43906fc9b7f31bf8d2
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569956"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968331"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
-Las conversaciones de Teams son persistentes y se conservan para siempre de forma predeterminada. Con la introducción de las directivas de retención, los administradores pueden configurar directivas de retención (tanto de conservación como de eliminación) en el centro de cumplimiento de seguridad & para los mensajes de chat y de canal de Teams. Esto ayuda a las organizaciones a retener datos de cumplimiento (concretamente, a la Directiva de conservación) durante un período específico o a deshacerse de los datos (es decir, la política de eliminación) si se considera un pasivo después de un período específico. Las directivas de retención de Teams garantizan que cuando se eliminan datos, se quitan de todas las ubicaciones de almacenamiento de datos permanentes en el servicio de Teams. 
+Las conversaciones de Teams son persistentes y se conservan para siempre de forma predeterminada. Con la introducción de las directivas de retención, los administradores pueden configurar directivas de retención (tanto de conservación como de eliminación) en el centro de cumplimiento de seguridad & para los mensajes de chat y de canal de Teams. Esto ayuda a las organizaciones a retener datos de cumplimiento (concretamente, a la Directiva de conservación) durante un período específico o a deshacerse de los datos (es decir, la política de eliminación) si se considera un pasivo después de un período específico. Las directivas de retención de Teams garantizan que cuando se eliminan datos, se quitan de todas las ubicaciones de almacenamiento de datos permanentes en el servicio de Teams.
+
+> [!NOTE]
+> Aún no se admite la configuración de retención de mensajes de canal privado. La retención de archivos compartidos en canales privados es compatible.
 
 Para administrar las directivas de retención de Teams, use la configuración y cmdlets del centro de cumplimiento de Office 365 Security & en**retención**de **gobierno** > de datos.
 

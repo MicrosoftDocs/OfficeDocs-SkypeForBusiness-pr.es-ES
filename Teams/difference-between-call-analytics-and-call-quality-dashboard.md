@@ -21,11 +21,11 @@ ms.custom:
 - Reporting
 description: Más información sobre el análisis de llamadas y el panel de calidad de llamadas y cuándo usarlos para supervisar y solucionar problemas con la calidad de la llamada.
 ms.openlocfilehash: 70efd7f17189d9aac2236383a07cfc5fc0a37096
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571774"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972471"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamadas y Panel de calidad de llamadas
 

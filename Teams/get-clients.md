@@ -17,15 +17,15 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfc56f9f7b02acda61b0342f28b14da5379bea31
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 2fcc0ef8a4fd8dab857fcf4c75af61c2c258b364
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886433"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37971666"
 ---
-<a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
-===========================
+# <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
+
 
 Microsoft Teams tiene clientes disponibles para equipos de escritorio (Windows, Mac y Linux), Web y móviles (Android e iOS). Estos clientes requieren una conexión a Internet activa y no admiten un modo sin conexión.
 
@@ -34,8 +34,7 @@ Microsoft Teams tiene clientes disponibles para equipos de escritorio (Windows, 
 >
 > Para obtener más información sobre el modo de Windows 10 S, consulte [Introducción a Windows 10 en modo S](https://www.microsoft.com/windows/s-mode). 
 
-<a name="desktop-client"></a>Cliente de escritorio
---------------
+## <a name="desktop-client"></a>Cliente de escritorio
 
 > [!Tip]
 > Vea la sesión siguiente para conocer las ventajas del cliente de escritorio de Windows, y cómo planearlo e implementarlo: [Cliente de escritorio de Teams para Windows](https://aka.ms/teams-clients)
@@ -125,8 +124,7 @@ Puede iniciar Teams mediante actividades o a través de terminal `Teams`escribie
 
 Puede iniciar Teams mediante actividades o a través de terminal `Teams`escribiendo.
 
-<a name="web-client"></a>Cliente web 
-----------
+## <a name="web-client"></a>Cliente web 
 
 El cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) es un cliente completo y funcional que puede utilizarse desde una variedad de exploradores. El cliente web es compatible con Llamadas y Reuniones mediante webRTC, por lo que no se requiere ningún complemento o descarga para ejecutar Teams en un explorador web. El explorador debe configurarse para permitir cookies de terceros. 
 
@@ -134,8 +132,7 @@ El cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?l
 
 El cliente web detecta la versión del explorador al conectarse con [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753). Si se detecta una versión no admitida, se bloquea el acceso a la interfaz web y se recomienda al usuario que descargue el cliente de escritorio o la aplicación móvil.
 
-<a name="mobile-clients"></a>Clientes móviles
---------------
+## <a name="mobile-clients"></a>Clientes móviles
 
 Las aplicaciones móviles de Microsoft Teams están disponibles para iOS y Android, y están pensadas para que los usuarios que no están en un lugar fijo participen en conversaciones basadas en chat y para permitir las llamadas de audio de par a par. Para las aplicaciones móviles, vaya a la tienda móvil correspondiente: Google Play y App Store de Apple. La aplicación de Windows Phone se retiró el 20 de julio de 2018 y podría dejar de funcionar. 
 
@@ -156,25 +153,21 @@ Las aplicaciones móviles se distribuyen y actualizan solo en la tienda de aplic
 |![Un icono que muestra un punto de decisión](media/Get_clients_for_Microsoft_Teams_image4.png)      |Punto de decisión         |¿Hay alguna restricción que evite que los usuarios instalen el cliente de Microsoft Teams adecuado en sus dispositivos?         |
 |![Un icono que representa los siguientes pasos](media/Get_clients_for_Microsoft_Teams_image5.png)     |Siguientes pasos         |Si su organización restringe la instalación de software, asegúrese de que el proceso sea compatible con Microsoft Teams. Nota: No se requieren derechos de administrador para instalar el cliente en PC, pero sí son necesarios para Mac.         |
 
-<a name="client-update-management"></a>Administración de actualizaciones del cliente
-------------------------
+## <a name="client-update-management"></a>Administración de actualizaciones del cliente
 
 En la actualidad, los clientes se actualizan automáticamente con el servicio de Microsoft Teams sin necesidad de intervención del administrador de ti. Si hay una actualización disponible, el cliente descargará la actualización automáticamente y cuando la aplicación haya inactivado durante un período de tiempo, se iniciará el proceso de actualización.
 
-<a name="client-side-configurations"></a>Configuración del lado del cliente
----------------------------
+## <a name="client-side-configurations"></a>Configuración del lado del cliente
 
 Actualmente, no hay opciones disponibles para configurar el cliente a través del administrador de inquilinos, PowerShell, Group Policy Objects ni el registro.
 
-<a name="notification-settings"></a>Configuración de notificaciones
-----------------------------
+## <a name="notification-settings"></a>Configuración de notificaciones
 
 En este momento, no hay opciones disponibles para que los administradores de TI puedan configurar las notificaciones para los clientes. Todas las opciones de notificaciones las establece el usuario. En la siguiente figura se detalla la configuración predeterminada del cliente.
 
 ![Captura de pantalla de la configuración de Notificaciones.](media/Get_clients_for_Microsoft_Teams_image6.png)
 
-<a name="sample-powershell-script"></a>Ejemplo de Script de PowerShell
-----------------------------
+## <a name="sample-powershell-script"></a>Ejemplo de Script de PowerShell
 
 Este script de ejemplo, que tiene que ejecutarse en los equipos de cliente en el contexto de una cuenta de administrador con privilegios elevados, creará una nueva regla de firewall de entrada para cada carpeta de usuario que se encuentra en c:\users. Cuando Teams encuentra esta regla, impedirá que la aplicación de Teams solicite a los usuarios crear reglas de firewall cuando los usuarios realicen su primera llamada de Teams. 
 

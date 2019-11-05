@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82ba160c1b2a36d67d67b69a0d7eb71bdde4c35f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: ceb699ff4c8d7ba2cf10e1b8e94ca33f60eb9b8d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515919"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968271"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivar o borrar un equipo en Microsoft Teams
 ===========================================
 
-Con el tiempo, es posible que un equipo creado en Microsoft Teams se quede fuera de uso o que desee archivar o eliminar un equipo al final de un proyecto. Si es un administrador de Microsoft Teams, siga los pasos que se indican en este artículo para archivar o eliminar un equipo que ya no es necesario. Al archivar un equipo, se detiene toda la actividad de ese equipo, pero puede seguir agregando o quitando miembros y actualizando los roles y podrá seguir viendo toda la actividad del equipo en canales, archivos y chats. Al eliminar un equipo, también se elimina la actividad de equipo en los canales, los archivos y los chats relacionados.
+Con el tiempo, es posible que un equipo creado en Microsoft Teams se quede fuera de uso o que desee archivar o eliminar un equipo al final de un proyecto. Si es un administrador de Microsoft Teams, siga los pasos que se indican en este artículo para archivar o eliminar un equipo que ya no es necesario.
+
+Cuando archiva un equipo, se detiene toda la actividad de ese equipo. El archivado de un equipo también archiva los canales privados del equipo y sus colecciones de sitios asociadas.  Sin embargo, aún puede Agregar o quitar miembros y actualizar roles, y aún puede ver toda la actividad del equipo en los canales, los archivos y los chats estándar y privados.
+
+Al eliminar un equipo, también se elimina la actividad de equipo en los canales estándar y privados (y las colecciones de sitios asociados), los archivos y los chats.
 
 > [!IMPORTANT]
 > Los equipos archivados se pueden reactivar, pero no puede eliminar directamente un equipo que haya sido eliminado. Considere la posibilidad de archivar primero el equipo y posponer la eliminación hasta que esté seguro de que ya no lo necesita.
@@ -63,7 +67,9 @@ Si el equipo no se va a necesitar en el futuro, puede eliminarlo en lugar de arc
 
 ## <a name="restore-a-deleted-team"></a>Restaurar un equipo eliminado
 
-Siga estos pasos para restaurar un equipo eliminado restaurando el grupo de Office 365 que está asociado con el equipo. De forma predeterminada, un grupo de Office 365 eliminado se conserva durante 30 días. Este período de 30 días se llama "eliminación de software" porque puede restaurar el grupo. Para obtener más información, consulte [restaurar un grupo eliminado de Office 365](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
+Siga estos pasos para restaurar un equipo eliminado restaurando el grupo de Office 365 que está asociado con el equipo. Al restaurar el grupo de Office 365 para un equipo, se restaura el contenido del equipo, incluidas las pestañas, los canales estándar, los canales privados y sus colecciones de sitios asociadas.
+
+De forma predeterminada, un grupo de Office 365 eliminado se conserva durante 30 días. Este período de 30 días se llama "eliminación de software" porque puede restaurar el grupo. Para obtener más información, consulte [restaurar un grupo eliminado de Office 365](https://docs.microsoft.com/office365/admin/create-groups/restore-deleted-group).
 
 ### <a name="install-the-azureadpreview-module"></a>Instalar el módulo AzureADPreview
 

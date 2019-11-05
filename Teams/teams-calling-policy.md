@@ -20,11 +20,11 @@ f1keywords:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 788cc0e93b16585f1d3424d3bfa0a62693528740
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570275"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37972451"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Directivas de llamadas en Microsoft Teams
 ===================================

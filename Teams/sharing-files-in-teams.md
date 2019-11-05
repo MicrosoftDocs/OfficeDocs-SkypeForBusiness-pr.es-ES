@@ -14,14 +14,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae468fdb38c047ae257efeda2465949b1babcb01
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: 4114444da68e7a18fe66f7d32e3f64ab98a0b00b
+ms.sourcegitcommit: 7920c47eb73e665dad4bf7214b28541d357bce25
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931798"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37962084"
 ---
 # <a name="sharing-files-in-microsoft-teams"></a>Compartir archivos en Microsoft Teams
+
+>[!INCLUDE [new-feature-coming-soon-article](includes/new-feature-coming-soon-article.md)]
 
 Las características de uso compartido de archivos de Teams permiten a los usuarios compartir contenido con otros usuarios de su organización. El uso compartido en Teams se basa en la configuración establecida en SharePoint y OneDrive, por lo que todo lo que configure para SharePoint y OneDrive controlará también el uso compartido en Teams.
 

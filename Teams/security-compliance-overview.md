@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5780720cfcd5adcf079c0f3d31423949cecea23
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37568059"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968181"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -37,7 +37,10 @@ Teams también aplica la autenticación en dos fases de todo el equipo y de toda
 
 También hemos agregado compatibilidad con la búsqueda en el registro de auditoría, eDiscovery y la suspensión legal para los canales, los chats y los archivos, así como la administración de aplicaciones móviles con Microsoft Intune. Vaya al centro de cumplimiento de & de seguridad de Office 365 para administrar esta configuración. 
 
-Para obtener más información sobre el cumplimiento de & de seguridad de Office 365, lea [configurar el inquilino de office 365 para mayor seguridad](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security) .
+Para obtener más información sobre la seguridad y el cumplimiento de Office 365, lea [configurar el inquilino de office 365 para mayor seguridad](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security).
+
+> [!NOTE]
+> En la actualidad, los [canales privados](private-channels.md) admiten características de seguridad y cumplimiento limitadas. La compatibilidad con el conjunto completo de características de seguridad y cumplimiento de los canales privados estará disponible próximamente.
 
 ## <a name="auditing-and-reporting"></a>Auditoría y generación de informes
 
@@ -47,7 +50,7 @@ Los complementos de búsqueda de registros de auditoría, directamente en el cen
 
 La búsqueda de contenido se puede usar para buscar todos los datos de Teams mediante capacidades de filtrado avanzadas y exportarlos a un contenedor específico para ofrecer compatibilidad con litigios y cumplimiento. Esto puede hacerse con o sin un caso de exhibición de eDiscovery. Esto permite a los administradores de cumplimiento recopilar datos de Teams en todos los usuarios, revisarlos y exportarlos para su procesamiento posterior. Consulte este [vínculo](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4) para obtener más información sobre cómo realizar una búsqueda de contenido de cumplimiento de contenido de Microsoft Teams en el centro de cumplimiento de & de seguridad de Office 365. 
 
-Sugerencia: el tipo Microsoft Teams se puede usar para filtrar a solo contenido de Microsoft Teams es decir, mensajes instantáneos y de canal, reuniones y llamadas. 
+Sugerencia: el tipo Microsoft Teams se puede usar para filtrar a solo contenido de Microsoft Teams es decir, mensajes instantáneos y de canal, reuniones y llamadas.
 
 ## <a name="ediscovery"></a>eDiscovery
 
@@ -114,7 +117,7 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 | |  |  |
 |---------|---------|---------|
 |![Un icono que representa un punto de decisión](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![Un icono que representa los pasos siguientes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Siguientes pasos         |Revise las licencias actuales de su organización y confirme que cumple con todos los requisitos empresariales de cumplimiento y seguridad.         |
+|![Un icono que representa los pasos siguientes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Pasos siguientes         |Revise las licencias actuales de su organización y confirme que cumple con todos los requisitos empresariales de cumplimiento y seguridad.         |
 
 Antes de habilitar cualquiera de estas características, asegúrese de que tiene acceso al centro de cumplimiento de & de seguridad en el centro de administración de Microsoft 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
 

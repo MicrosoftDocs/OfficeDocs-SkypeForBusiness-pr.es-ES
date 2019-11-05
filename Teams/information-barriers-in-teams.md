@@ -13,12 +13,12 @@ ms.reviewer: vikramju
 description: Obtenga más información sobre las barreras de información y cómo afectan a teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3d6d8d603d9ff6ccf20a355e374b58fdf46ffa1
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: dfc56ab28be03e0301228eb9220437c2e1ef2673
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931808"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968261"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Barreras de la información en Microsoft Teams
 
@@ -27,7 +27,8 @@ Las barreras de información son directivas que un administrador puede configura
 > [!NOTE]
 > - Los grupos de barrera de información no se pueden crear en todos los inquilinos.
 > - En la versión 1, no se admite el uso de bots para agregar usuarios.
-> - Nuevo: la compatibilidad con la barrera de información para el sitio de SharePoint conectado a teams ahora está en vista previa privada. Haz clic [aquí](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) para participar en la vista previa privada. .
+> - Los canales privados son compatibles con las directivas de la barrera de información que se configuran.
+> - Nuevo: la compatibilidad con la barrera de información para el sitio de SharePoint conectado a teams ahora está en vista previa privada. Haz clic [aquí](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3-O9WDTKhhDtgWfphwS9YhUM0hJNklNRkZKMlhLNDRZNzlEQlVDSjdZVi4u) para participar en la versión preliminar privada.
 
 Las directivas de barrera de información también evitan búsquedas y descubrimiento. Esto significa que si intentas comunicarte con alguien con quien no deberías comunicarte, no encontrarás ese usuario en el selector de personas.
 

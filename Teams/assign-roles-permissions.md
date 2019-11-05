@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6757f7200535dc8fb687915ec033712b2654723b
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 56aa75a85544373047b9ef8a888478103cdf1fd1
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37516448"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968071"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 =================================================
@@ -38,9 +38,12 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 |          **Abandonar equipo**           |    Sí     |     Sí     |
 |  **Editar nombre o descripción del equipo**   |    No     |     No      |
 |          **Eliminar equipo**          |    No     |     No      |
-|          **Agregar canal**          |    Sí     |    Sí<sup>2</sup>|
-| **Editar nombre o descripción del canal** |    Sí     |    Sí<sup>2</sup>|
-|        **Eliminar canal**         |    Sí     |    Sí<sup>2</sup>|
+|          **Agregar canal estándar**          |    Sí     |    Sí<sup>2</sup>|
+| **Editar Nombre/Descripción del canal estándar** |    Sí     |    Sí<sup>2</sup>|
+|        **Eliminar canal estándar**         |    Sí     |    Sí<sup>2</sup>|
+|          ***Agregar canal privado**          |    Sí     |    Sí<sup>2</sup>|
+| ***Editar Nombre/Descripción del canal privado** |    No     |    N/D|
+|        ***Eliminar canal privado**         |    No     |    No|
 |          **Agregar miembros**          |  Sí<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Solicitud para agregar miembros**          |  N/D   |     Sí<sup>5</sup>     |
 |           **Agregar fichas**            |    Sí     |    Sí<sup>2</sup>|
@@ -48,10 +51,12 @@ En la tabla siguiente se muestra la diferencia entre un propietario y un miembro
 |           **Agregar bots**            |    Sí     |    Sí<sup>2</sup>|
 
 <sup>1</sup> Los propietarios del equipo pueden crear equipos a no ser que se les haya quitado el permiso para hacerlo. [Permisos para crear equipos](#permissions-to-create-teams) a continuación.<br>
-><sup>2</sup> un propietario puede desactivar estos elementos en el nivel del equipo, en cuyo caso los miembros no tendrían acceso a ellos.<br>
+<sup>2</sup> un propietario puede desactivar estos elementos en el nivel del equipo, en cuyo caso los miembros no tendrían acceso a ellos.<br>
 <sup>3</sup> Tras agregar un miembro a un equipo, un propietario también puede promover un miembro al estado de propietario. El propietario también puede degradar su propio estado a miembro.<br>
 <sup>4</sup> Los miembros del equipo pueden agregar otros miembros a un equipo público.<br>
 <sup>5</sup> Aunque un miembro del equipo no puede agregar directamente miembros a un equipo privado, puede solicitar que se añada a una persona a un equipo del que ya es miembro. Cuando un miembro solicita que se añada a una persona a un equipo, los propietarios del equipo reciben una alerta de que tienen una solicitud pendiente que pueden aceptar o denegar.
+
+* Para obtener más información sobre los permisos para canales privados, vea [canales privados en Teams](private-channels.md).
 
 > [!NOTE]
 > Los propietarios pueden hacer propietarios de otros miembros en la opción **ver equipos** . Un equipo puede tener hasta 100 propietarios. Le recomendamos que tenga al menos algunos propietarios para ayudar a administrar el equipo; Esto también evitará que los grupos sean huérfanos si un propietario único abandona su organización. Si desea más información sobre los grupos huérfanos, consulte [Asignar un nuevo propietario a un grupo huérfano](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732).

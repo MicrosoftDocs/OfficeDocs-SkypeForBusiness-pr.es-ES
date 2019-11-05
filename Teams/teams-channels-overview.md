@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 604ea944d54e71e72d49505f111606beae5343ea
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37564436"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968061"
 ---
 > [!NOTE]
 > Revise la información siguiente para familiarizarse con los chats, equipos, canales y aplicaciones en Teams. Después, vaya a [chat, equipos, canales & aplicaciones de Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para recorrer una lista de decisiones importantes para la implementación de su equipo.
@@ -38,15 +38,13 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 - Los **equipos** son recopilaciones de personas, contenido y herramientas alrededor de varios proyectos y tareas dentro de una organización.
 
     - Los equipos pueden crearse para ser privados, solo para los usuarios invitados.
-
     - Los equipos también se pueden crear como públicos y abiertos, de modo que todos los integrantes de la organización se pueden unir (hasta 5 000 miembros).
     
     Un equipo está diseñado para reunir un grupo de personas que trabajan juntos para intentar lograr sus objetivos. Los equipos pueden ser dinámicos para el trabajo basado en proyectos (por ejemplo, iniciar un producto o crear un centro de operaciones digital) o continuos para reflejar la estructura interna de su organización (por ejemplo, departamentos y ubicaciones de oficinas). Los miembros del equipo serán los únicos que podrán ver las conversaciones, los archivos y las notas de los canales del equipo.
 
 - Los **canales** son secciones dedicadas dentro de un equipo para mantener las conversaciones organizadas por temas, disciplinas o proyectos específicos, es decir, lo que le sea más conveniente al equipo. Los archivos que se comparten en un canal (en la pestaña archivos) se almacenan en SharePoint. Para obtener más información, lea [Cómo SharePoint Online y OneDrive para la empresa interactúan con Teams](SharePoint-OneDrive-interact.md).
 
-    - Los canales de equipo son lugares en los que todos los miembros del equipo pueden tener conversaciones abierta. Las conversaciones privadas solo son visibles para las personas que se encuentran en el chat (y los archivos que se comparten en un chat se almacenan en OneDrive para la empresa). 
-
+    - Los canales son lugares donde se producen las conversaciones y donde el trabajo se realiza realmente. Los canales pueden estar abiertos a todos los miembros del equipo o, si necesita más personas, pueden ser privadas. Los canales estándar son para las conversaciones en las que todos los miembros de un equipo pueden participar y los [canales privados](private-channels.md) limitan la comunicación a un subconjunto de personas de un equipo.
     - Los canales son mucho más útiles cuando se amplían con aplicaciones que incluyen fichas, conectores y bots que aumentan su valor para los miembros del equipo. Para obtener más información, consulte [aplicaciones, bots, conectores de & en Teams](deploy-apps-microsoft-teams-landing-page.md).
 
 Vea este vídeo breve para obtener más información sobre los procedimientos recomendados para crear equipos y canales.
@@ -73,9 +71,9 @@ Además, si la moderación está configurada, los propietarios y miembros del eq
 
 **Configuración de equipo** 
 
-Los propietarios de equipo pueden administrar la configuración de todo el equipo directamente en Microsoft Teams. En la configuración se incluye la capacidad de agregar una imagen del equipo, establecer permisos en todos los miembros del equipo para crear canales, agregar fichas y conectores, @mencionar a todo el equipo o el canal, y usar archivos GIF, adhesivos y memes. 
+Los propietarios de equipo pueden administrar la configuración de todo el equipo directamente en Microsoft Teams. La configuración incluye la posibilidad de agregar una imagen de equipo, establecer permisos entre los miembros del equipo para crear canales estándar y [privados](private-channels.md), agregar fichas y conectores @mentioning todo el equipo o canal, y el uso de GIF, adhesivos y memes.
 
-Tómese 3 minutos para ver esta guía en vídeo para propietarios de equipos: 
+Tómese 3 minutos para ver esta guía en vídeo para propietarios de equipos:
 
    > [!VIDEO https://www.youtube.com/embed/7XcDSuw6NR4]
 

@@ -17,14 +17,17 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5832ccce69c9863e364f94c6e850f8d938ac162
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
+ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569569"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37968321"
 ---
-# <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams 
+# <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams
+
+> [!NOTE]
+> Las plantillas de Teams actualmente no admiten la creación de canales privados. La creación de canales privados no se incluye en las definiciones de plantilla. 
 
 Las plantillas de Teams son definiciones preconstruidas de una estructura de equipo diseñada según una necesidad o un proyecto empresarial. Puede usar las plantillas de Teams para crear rápidamente espacios de colaboración enriquecidos con canales para diferentes temas y para preinstalar aplicaciones para extraer contenido y servicios de misión crítica. Las plantillas de Teams proporcionan una estructura de equipo predefinida que le puede ayudar a crear fácilmente equipos coherentes en toda la organización. 
 
@@ -33,7 +36,7 @@ En este artículo, explicaremos las propiedades que se pueden definir en plantil
 Este artículo le interesa si:
 
 - Responsable de planear, implementar y administrar varios equipos en la organización<br>
-- Un desarrollador que desea crear mediante programación un equipo con canales y aplicaciones predefinidos 
+- Un desarrollador que desea crear mediante programación un equipo con canales y aplicaciones predefinidos
 
 ## <a name="teams-template-capabilities"></a>Capacidades de las plantillas de Teams
 
@@ -48,7 +51,7 @@ La mayoría de las propiedades de un equipo están incluidas y son compatibles c
 | Configuración del equipo (por ejemplo, miembro, invitado, @ menciones) | Archivos y contenido |
 | Canal de favoritos automático | |
 | Aplicación instalada | |
-| Pestañas ancladas | | 
+| Pestañas ancladas | |
 
 > [!NOTE]
 > Agregaremos más capacidades de plantilla en versiones futuras de Microsoft Teams, así que vuelva a consultar la información más actualizada sobre las propiedades admitidas.
@@ -57,7 +60,7 @@ La mayoría de las propiedades de un equipo están incluidas y son compatibles c
 
 Los tipos de plantillas base son plantillas especiales que Microsoft creó para sectores específicos. Estas plantillas básicas a menudo contienen aplicaciones propias que no están disponibles en las propiedades del equipo y del almacén que aún no se admiten individualmente en las plantillas de Teams.
 
-Una vez que se define un tipo de plantilla base, puede extender o invalidar estas plantillas especiales con propiedades adicionales que le gustaría especificar. Pero algunos tipos de plantillas base contienen propiedades que no se pueden reemplazar. 
+Una vez que se define un tipo de plantilla base, puede extender o invalidar estas plantillas especiales con propiedades adicionales que le gustaría especificar. Pero algunos tipos de plantillas base contienen propiedades que no se pueden reemplazar.
 
 De forma predeterminada, la plantilla base se establece en **estándar** , que no contiene ninguna aplicación de propiedad adicional ni propiedades especiales. A continuación se muestra la lista actual de tipos de plantillas base disponibles.
 
@@ -75,7 +78,6 @@ De forma predeterminada, la plantilla base se establece en **estándar** , que n
 
 > [!NOTE]
 > Agregaremos más tipos de plantillas base en las futuras versiones de Microsoft Teams, así que vuelva a consultar la información más actualizada sobre las propiedades admitidas.
-
 
 ## <a name="related-topics"></a>Temas relacionados
 
