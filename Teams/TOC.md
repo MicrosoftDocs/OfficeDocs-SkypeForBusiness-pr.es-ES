@@ -16,6 +16,7 @@
 
 # Chat, equipos, canales y aplicaciones
 ## [Planear la implementación](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+## [Usar el Asesor de Teams para implementar Teams](use-advisor-teams-roll-out.md)
 ## [Información general de los equipos y canales](teams-channels-overview.md)
 ## [Asignar miembros y propietarios de equipo en Teams](assign-roles-permissions.md)
 ## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
@@ -363,8 +364,11 @@
 ### [Consultar una lista de números de teléfono de su organización](see-a-list-of-phone-numbers-in-your-organization.md)
 ### [Asignar, cambiar o quitar un teléfono móvil de un usuario](assign-change-or-remove-a-phone-number-for-a-user.md)
 ### [Obtener números de teléfono de servicio](getting-service-phone-numbers.md)
-### [Transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md)
-### [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
+### Transferir números de teléfono
+#### [¿Qué es un pedido de portabilidad?](phone-number-calling-plans/port-order-overview.md)
+#### [Transferir números de teléfono a Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+#### [Enviar una solicitud de portabilidad manualmente](phone-number-calling-plans/manually-submit-port-order.md)
+#### [¿Cuál es el estado de mis solicitudes de portabilidad?](phone-number-calling-plans/port-order-status.md)
 
 ## Enrutamiento de llamada
 ### [¿Qué son los planes de marcado?](what-are-dial-plans.md)
