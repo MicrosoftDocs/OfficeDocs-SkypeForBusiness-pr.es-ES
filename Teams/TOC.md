@@ -27,7 +27,6 @@
 ## [Administrar las directivas de los equipos y los canales](teams-policies.md)
 ## [Administrar la detección de equipos privados en Teams](manage-discovery-of-private-teams.md)
 ## [Configurar la moderación de canales en Teams](manage-channel-moderation-in-teams.md)
-## [Compartir archivos en Teams](sharing-files-in-teams.md)
 ## [Administrar directivas de mensajería](messaging-policies-in-teams.md)
 ## [La presencia del usuario en Teams](presence-admins.md)
 ## [Ver análisis entre equipos y por equipo en Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
