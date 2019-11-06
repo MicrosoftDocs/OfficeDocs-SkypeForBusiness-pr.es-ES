@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: La configuración de la autenticación de OAuth entre Exchange local y Skype empresarial online habilita las características de integración de Skype empresarial e Exchange descritas en compatibilidad de características.
-ms.openlocfilehash: fe6d7bbe1be9418b7e960de02e91cecf1c808d2b
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 1d64f8fe7b2d6dcf276ae34e74c84faf5c93f65a
+ms.sourcegitcommit: 2b4fcf2561134b9f1b9a1b49401d97da1286e89d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715812"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "37979783"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Configurar la integración y OAuth entre Skype empresarial online y Exchange Server 
 
@@ -29,7 +29,7 @@ Este tema se aplica a la integración con Exchange Server 2013 a 2019.
 
 - Tiempo estimado para finalizar esta tarea: 15 minutos
 
--  Necesita tener permisos asignados antes de poder realizar los siguientes procedimientos. Para ver qué permisos necesita, consulte el tema [Exchange and Shell Infrastructure](https://go.microsoft.com/fwlink/p/?LinkId=746511) Permissions.
+-  Necesita tener permisos asignados antes de poder realizar los siguientes procedimientos. Para ver qué permisos necesita, consulte el tema [Exchange and Shell Infrastructure Permissions](https://go.microsoft.com/fwlink/p/?LinkId=746511) .
 
 - Para obtener información sobre los métodos abreviados de teclado que pueden aplicarse a los procedimientos de este tema, consulte [métodos abreviados de teclado en el centro de administración de Exchange]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
@@ -41,7 +41,7 @@ Este tema se aplica a la integración con Exchange Server 2013 a 2019.
 
 Siga los pasos que se indican en el artículo siguiente:
 
-[Configurar la autenticación de OAuth entre organizaciones de Exchange y Exchange Online](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Configurar la autenticación de OAuth entre organizaciones de Exchange y Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
 
 ### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Paso 2: crear una nueva cuenta de usuario de correo para la aplicación de socio de Skype empresarial online
 
@@ -99,7 +99,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 En Exchange PowerShell, en su organización de Exchange local, ejecute el script de PowerShell que acaba de crear. Por ejemplo: .\ExportAuthCert.ps1
 
-### <a name="step-6-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Paso 6: Cargar el certificado de autorización local a Azure Active Directory ACS
+### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>Paso 5: cargar el certificado de autorización local en ACS de Azure Active Directory
 
 A continuación, use Windows PowerShell para cargar el certificado de autorización local que exportó en el paso anterior a Azure Active Directory Access Control Services (ACS). Para ello, debe tener instalado el módulo de Azure Active Directory para cmdlets de Windows PowerShell. Si no está instalado, vaya a [https://aka.ms/aadposh](https://aka.ms/aadposh) para instalar el módulo Azure Active Directory para Windows PowerShell. Complete los siguientes pasos después de instalar el módulo de Azure Active Directory para Windows PowerShell.
 
@@ -126,7 +126,7 @@ A continuación, use Windows PowerShell para cargar el certificado de autorizaci
 
 4. Después de iniciar el script, se mostrará un cuadro de diálogo de credenciales. Escriba las credenciales para la cuenta de administrador del inquilino de su organización de Microsoft Online Azure AD. Después de ejecutar el script, deje la sesión de Windows PowerShell para Azure AD abierta. La usará para ejecutar un script de PowerShell en el siguiente paso.
 
-### <a name="step-7-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Paso 7: comprobar que el certificado se ha cargado en la entidad de servicio de Skype empresarial
+### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Paso 6: comprobar que el certificado se ha cargado en la entidad de servicio de Skype empresarial
 1. En PowerShell abierto y autenticado en Azure Active Directory, ejecute el siguiente
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -152,4 +152,4 @@ Este es un [ejemplo de configuración de una](https://blogs.msdn.microsoft.com/k
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Configurar la autenticación de OAuth entre organizaciones de Exchange y Exchange Online](https://docs.microsoft.com/en-us/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)
+[Configurar la autenticación de OAuth entre organizaciones de Exchange y Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)

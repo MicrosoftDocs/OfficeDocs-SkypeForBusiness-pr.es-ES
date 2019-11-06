@@ -17,13 +17,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 7729cd65ff5d58d348229c4ec5ec6182f06aa5de
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "36235913"
 ---
-![Etapas del viaje de actualización, con énfasis en la fase de implementación e] implementación (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
+![Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
 
 Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 
@@ -48,7 +48,7 @@ Este paso se aplica a los usuarios que actualmente están alojados en local. Par
 
 ## <a name="step-2-assign-a-coexistence-and-upgrade-mode"></a>Paso 2: asignar un modo de coexistencia y actualización
 
-Después de mover los usuarios a Skype empresarial online, puede asignarles el modo de coexistencia adecuado en función del recorrido de actualización que haya elegido su organización. Para obtener más información, vea [configurar la coexistencia y la configuración de actualización](https://aka.ms/SkypeToTeams-SetCoexistence) y [TeamsUpgradePolicy: administración de la migración y](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)la coexistencia.
+Después de mover los usuarios a Skype empresarial online, puede asignarles el modo de coexistencia adecuado en función del recorrido de actualización que haya elegido su organización. Para obtener más información, vea [configurar la coexistencia y la configuración de actualización](https://aka.ms/SkypeToTeams-SetCoexistence) y [TeamsUpgradePolicy: administración de la migración y la coexistencia](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
 
 > [!NOTE]
 > Con Skype empresarial Server 2019 y una actualización acumulativa futura de Skype empresarial Server 2015, podrá realizar el paso 1 (mover usuarios a Skype empresarial online) y el paso 2 (actualizar usuarios a teams) en un solo paso. Se proporcionará más información después de que se publique el servidor 2019 de Skype empresarial.

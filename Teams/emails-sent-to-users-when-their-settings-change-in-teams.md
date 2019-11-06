@@ -20,10 +20,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Vea qué información se envía por correo electrónico automáticamente a los usuarios cuando cambia su configuración de las conferencias de acceso telefónico local en Microsoft Teams. '
 ms.openlocfilehash: 47cd5812ab1abda51deca8b50d13765badc982e1
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571884"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Correos electrónicos que se envían a los usuarios cuando cambia la configuración en Microsoft Teams

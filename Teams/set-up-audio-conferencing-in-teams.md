@@ -22,10 +22,10 @@ ms.custom:
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas en conferencia. '
 ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37925371"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferencias para Microsoft Teams

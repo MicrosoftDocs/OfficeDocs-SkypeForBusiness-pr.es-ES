@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Como administrador de Office 365, puede editar la configuración de Audioconferencia de Microsoft Teams (como el proveedor, el número gratuito o de pago predeterminado, el Id. de conferencia o el PIN) para una persona de su organización. '
 ms.openlocfilehash: 673441acebf9b31893925539471040bffa621f38
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571928"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para un usuario en Microsoft Teams

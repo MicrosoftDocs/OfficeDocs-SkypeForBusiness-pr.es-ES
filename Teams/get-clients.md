@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fcc0ef8a4fd8dab857fcf4c75af61c2c258b364
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 6f7a1cd3002135e2327ca4953ddfbb5b0393242d
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37971666"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "37979703"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 
@@ -39,7 +39,7 @@ Microsoft Teams tiene clientes disponibles para equipos de escritorio (Windows, 
 > [!Tip]
 > Vea la sesión siguiente para conocer las ventajas del cliente de escritorio de Windows, y cómo planearlo e implementarlo: [Cliente de escritorio de Teams para Windows](https://aka.ms/teams-clients)
 
-El cliente de escritorio de Microsoft Teams es una aplicación independiente y también está [disponible en Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams está disponible para Windows (7 +), versiones de 32 bits y 64 bits, macOS (10.10 +) y Linux (paquete `.deb`Debian, administrador `.rpm`de paquetes de Red Hat). En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes, como apt y yum, intentarán instalar cualquier requerimiento para ti. Sin embargo, si no es así, tendrá que instalar cualquier requisito que haya informado antes de instalar Teams en Linux.
+El cliente de escritorio de Microsoft Teams es una aplicación independiente y también está [disponible en Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams está disponible para Windows (7 +), tanto para las versiones de 32 bits como de 64 bits, macOS (10.10 +) y Linux `.deb` ( `.rpm` y los formatos.). En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes, como apt y yum, intentarán instalar cualquier requerimiento para ti. Sin embargo, si no es así, tendrá que instalar cualquier requisito que haya informado antes de instalar Teams en Linux.
 
 Los clientes de escritorio brindan asistencia en tiempo real para las comunicaciones (audio, vídeo y contenido compartido) para las reuniones de equipo, las llamadas grupales y las llamadas de uno a uno.
 
@@ -101,7 +101,7 @@ Los administradores de TI pueden usar la implementación administrada de Teams p
 
 ### <a name="linux"></a>Linux
 
-Los usuarios de Linux pueden instalar Teams `.deb` mediante un paquete de Debian o como `.rpm`un paquete de Red Hat. 
+Los usuarios podrán instalar paquetes y `.deb` `.rpm` formatos nativos de Linux.
 
 > [!NOTE] 
 > Los equipos cliente de Linux están disponibles en la versión preliminar limitada. Enviar errores con `Report a Problem` desde el cliente. Para problemas conocidos, consulte [problemas conocidos](Known-issues.md).
@@ -110,7 +110,7 @@ Los usuarios de Linux pueden instalar Teams `.deb` mediante un paquete de Debian
 
 1. Descargar el paquete desde https://aka.ms/getteams. (El cliente Linux está en vista previa limitada y se iniciará pronto. Si no ves el cliente Linux en la página de descargas, aún no se ha iniciado.)
 2. Instálelo con uno de los siguientes:  
-    - Abre el paquete con la herramienta de software Ubuntu y pasa por el proceso de instalación de aplicaciones de Linux autoguiado.
+    - Abre la herramienta de administración de paquetes correspondiente y pasa por el proceso de instalación de aplicaciones de Linux autoguiado.
     - O si te encanta terminal, escribe:`sudo apt install **teams download file**`
 
 Puede iniciar Teams mediante actividades o a través de terminal `Teams`escribiendo. 
@@ -119,7 +119,7 @@ Puede iniciar Teams mediante actividades o a través de terminal `Teams`escribie
 
 1. Descargar el paquete desde https://aka.ms/getteams. (El cliente Linux está en vista previa limitada y se iniciará pronto. Si no ves el cliente Linux en la página de descargas, aún no se ha iniciado.)
 2. Instálelo con uno de los siguientes:
-    - Abre el paquete con la herramienta de administración de paquetes de Red Hat y pasa por el proceso de instalación de aplicaciones de Linux autoguiado.
+    - Abre la herramienta de administración de paquetes correspondiente y pasa por el proceso de instalación de aplicaciones de Linux autoguiado.
     - O si te encanta terminal, escribe:`sudo yum install **teams download file**`
 
 Puede iniciar Teams mediante actividades o a través de terminal `Teams`escribiendo.

@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Siga los pasos para crear un número de teléfono predeterminado para que las personas que llaman participen en una reunión de Microsoft Teams. '
 ms.openlocfilehash: edaed53ddd25dee875753b76bb612888ebb45cef
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571287"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams

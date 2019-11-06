@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 971accd5211c0d8f861ff03db115933f3c75b570
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37925401"
 ---
 ![Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")

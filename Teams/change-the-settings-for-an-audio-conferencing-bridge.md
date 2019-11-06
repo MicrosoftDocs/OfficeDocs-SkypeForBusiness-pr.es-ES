@@ -22,10 +22,10 @@ ms.custom:
 - Audio Conferencing
 description: 'Siga los pasos que necesita para cambiar la configuración de un puente de conferencia que se usa para avisar a las personas que llaman y recopilar nombres y PIN de los organizadores de reuniones cuando no usan las aplicaciones de Skype empresarial o Microsoft Teams. '
 ms.openlocfilehash: b7ac85729bafe9d27f9e33cfa22597811b8d3d0b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37516957"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.

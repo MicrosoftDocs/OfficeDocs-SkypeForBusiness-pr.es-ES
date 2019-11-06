@@ -21,10 +21,10 @@ ms.custom:
 - Audio Conferencing
 description: Aprenda todo lo que necesita y cómo los organizadores de reuniones pueden llamar a otras personas con Teams.
 ms.openlocfilehash: aab3db4057d82237b1e5bf7de8e0157b5833951a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
+ms.lasthandoff: 11/06/2019
 ms.locfileid: "37571785"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
