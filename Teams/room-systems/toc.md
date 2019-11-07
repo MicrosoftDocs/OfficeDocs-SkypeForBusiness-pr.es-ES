@@ -21,7 +21,7 @@
 ### [Migrar SRS v1 o LRS](lrs-migration.md)
 ### [Cámaras de contenido](content-camera.md)
 
-## Administrar
+## Manage
 ### [Introducción a la administración](skype-room-systems-v2.md)
 ### [Mantenimiento y funcionamiento](room-systems-v2-operations.md)
 ### [Problemas conocidos](known-issues.md)
