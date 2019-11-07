@@ -16,12 +16,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: Obtenga información sobre cómo migrar la configuración de usuario y mover usuarios a Microsoft Teams.'
-ms.openlocfilehash: c655d8ecaa5856a57d7e675676c0ba5e8c2c43d6
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 0d37fc1a875763552b2b0cebbd29a0f9c7a62e8d
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464683"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010623"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios de local a teams
 
@@ -67,7 +67,7 @@ Para mover un usuario al modo de solo Teams mediante Move-CsUser:
 - Especifique el parámetro-Target con el valor "sipfed. online. Lync. <span>com ".
 - Especifique el `MoveToTeams` modificador.
 - Si no tiene una cuenta con permisos suficientes en local y Office 365, use el `-credential` parámetro para proporcionar una cuenta con permisos suficientes en Office 365.
-- Si la cuenta con permisos en Office 365 no termina en "activado. Microsoft. <span>com ", debe especificar el `-HostedMigrationOverrideUrl` parámetro con el valor correcto tal y como se describe en [las credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
+- Si la cuenta con permisos en Office 365 no termina en "en Microsoft. <span>com ", debe especificar el `-HostedMigrationOverrideUrl` parámetro con el valor correcto tal y como se describe en [las credenciales administrativas necesarias](move-users-between-on-premises-and-cloud.md#required-administrative-credentials).
 
 La siguiente secuencia de cmdlet se puede usar para mover un usuario a TeamsOnly y asume que la credencial Office 365 es una cuenta independiente que se proporciona como entrada para el mensaje Get-Credential.
 
@@ -82,10 +82,10 @@ La siguiente secuencia de cmdlet se puede usar para mover un usuario a TeamsOnly
 1. Abra la aplicación del panel de control de Skype empresarial Server.
 2. En el panel de navegación izquierdo, elija **usuarios**.
 3. Use **Buscar** para localizar al usuario o usuarios que desea mover a Microsoft Teams.
-4. Seleccione los usuarios y, a continuación, en la lista desplegable **acción** situada encima de la lista, elija **mover usuarios seleccionados a**Microsoft Teams.
+4. Seleccione los usuarios y, a continuación, en la lista desplegable **acción** situada encima de la lista, elija **mover usuarios seleccionados a Microsoft Teams**.
 5. En el asistente, haga clic en **Siguiente**.
 6. Si se le solicita, inicie sesión en Office 365, con una cuenta que acabe en. onmicrosoft.com y que tenga permisos suficientes.
-7. Haga clic en **siguiente**y **** , a continuación, otra vez más para mover al usuario.
+7. Haga clic en **siguiente**y, **a continuación, otra vez** más para mover al usuario.
 8. Tenga en cuenta que los mensajes de estado sobre aciertos o errores se proporcionan en la parte superior de la aplicación del panel de control principal, no en el asistente.
 
 ## <a name="notify-your-skype-for-business-on-premises-users-of-the-upcoming-move-to-teams"></a>Notificar a los usuarios locales de Skype empresarial del próximo paso a Microsoft Teams
@@ -112,9 +112,9 @@ De forma predeterminada, el valor de DownloadTeams es true; sin embargo, *solo* 
 
 ## <a name="see-also"></a>Vea también
 
-[Move-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/move-csuser)
+[Move-CsUser](https://docs.microsoft.com/powershell/module/skype/move-csuser)
 
-[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/grant-csteamsupgradepolicy
+[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy
 )
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams junto con Skype empresarial](/microsoftteams/migration-interop-guidance-for-teams-with-skype)

@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 054c3a639cc5857fb25a7e211a272868477dcb61
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573222"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010603"
 ---
 # <a name="user-presence-in-teams"></a>La presencia del usuario en Teams
 
@@ -28,6 +28,8 @@ La presencia es parte de un perfil de usuario de Microsoft Teams (y de toda la 3
 
 > [!IMPORTANT]
 > Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Solución: para ver la presencia en Outlook (y en otras aplicaciones de Office), debe estar instalado Skype empresarial, incluso si está ejecutando Teams en modo de **solo Teams** . Microsoft es consciente de este problema y está buscando una solución. 
+
+La presencia de Teams en Outlook es compatible con la aplicación de escritorio de Outlook 2013 y versiones posteriores.
 
 ## <a name="presence-states-in-teams"></a>Estados de presencia en Teams
 
@@ -54,7 +56,7 @@ Los Estados de presencia de usuario disponibles en Teams son:
 || ![Círculo púrpura con flecha, indica fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina|
 |||
  
-Los usuarios pueden establecer manualmente el estado de presencia actual en algunas opciones, y su estado se reflejará a todos los demás usuarios. También se actualizan automáticamente más detalles de presencia de usuario. Los cambios se basan en la actividad del usuario (disponible, ausente), Estados del calendario de Outlook (en una reunión) o Estados de la aplicación de Teams (en una llamada, presentando), para Estados que tienen sangría en la lista.
+Los usuarios pueden establecer manualmente el estado de presencia actual en algunas opciones, y su estado se reflejará a todos los demás usuarios. También se actualizan automáticamente más detalles de presencia de usuario. Los cambios se basan en la actividad del usuario (disponible, ausente), Estados del calendario de Outlook (en una reunión) o Estados de la aplicación de Teams (en una llamada, presentando), para Estados que tienen sangría en la lista. 
 
 Hay un tiempo de espera de 15 minutos de inactividad, después de que el estado de presencia actual se restablezca a ausente.
 
