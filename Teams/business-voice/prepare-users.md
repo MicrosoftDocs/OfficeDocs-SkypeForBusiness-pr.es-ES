@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1fa78681bbad0fb5b4c46a2ac424f3be01e9a857
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
+ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972291"
+ms.locfileid: "37973219"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>¿Cómo preparo a mis usuarios para Business Voice?
 
@@ -32,7 +32,7 @@ Si aún no lo ha hecho, debe instalar Teams en cualquier equipo y teléfono que 
 
 Para equipos PC y Mac, puede descargar Teams en https://teams.microsoft.com/downloads. Si un usuario está ejecutando el modo Windows 10, puede instalar equipos desde la tienda Windows.
 Para teléfonos Android y iPhone, puede instalar la aplicación buscando Microsoft Teams en Google Play y en la App Store de Apple. Tenga en cuenta que los teléfonos necesitan ejecutar Android 4,4 o posterior, o bien iOS 10,0 o posterior.
-Para usar Teams en la Web, debe usar un explorador compatible. Para obtener una lista de los exploradores admitidos, consulte en la sección de cliente Web en [Obtener clientes de Microsoft Teams](../get-clients#web-client).
+Para usar Teams en la Web, debe usar un explorador compatible. Para obtener una lista de los exploradores admitidos, consulte en la sección de cliente Web en [Obtener clientes de Microsoft Teams](../get-clients.md#web-client).
 
 ## <a name="devices-for-microsoft-teams"></a>Dispositivos de Microsoft Teams
 
