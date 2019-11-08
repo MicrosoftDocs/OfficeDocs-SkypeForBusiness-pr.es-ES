@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurar, rellenar y publicar la base de datos de ubicaciones E9-1-1 en Skype empresarial Enterprise Voice.
-ms.openlocfilehash: 36ddd57e39b51171581c0c6316f165f44879e3f9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233690"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038709"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar la base de datos de ubicación en Skype empresarial Server
  
@@ -49,7 +49,7 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 |:-----|:-----|
 |**Punto de acceso inalámbrico** <br/> |\<BSSID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predireccional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<posdireccional\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
 |**Subred** <br/> |\<Subred\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predireccional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<posdireccional\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
-|**Puerto** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...  <br/> ... \<Predireccionales\>,\<StreetName\>,\<StreetSuffix\>,\<posdireccionales\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\< Tercer\>  <br/> |
+|**Puerto** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,...  <br/> ... \<Predireccionales\>,\<StreetName\>,\<StreetSuffix\>,\<posdireccionales\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
 |**Conmutador** <br/> |\<ChassisID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predireccional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<posdireccional\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Para agregar elementos de red a la base de datos de ubicaciones
@@ -89,7 +89,7 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 3. Ejecute el cmdlet siguiente para agregar ubicaciones de conmutador a la base de datos de ubicaciones.
     
    ```
-   Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
+   Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de conmutadores mediante un archivo denominado "switches.csv".

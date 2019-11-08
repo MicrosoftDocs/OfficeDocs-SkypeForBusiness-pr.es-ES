@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga más información sobre las características disponibles en las salas de Microsoft Teams. '
-ms.openlocfilehash: 392f2c44e739eb0f9c2bcb80827d52491a0c5a9d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
+ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573577"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038739"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Actualización de licencias de sala de reuniones de equipos
 
@@ -60,8 +60,8 @@ En la siguiente tabla se enumeran las características que están disponibles en
 |  | Tiene Microsoft Teams o Skype empresarial online <br/> Esto es lo que debe comprar:   |Tiene Skype empresarial Server 2015/2019 (local o híbrido). <br/> Esto es lo que debe comprar:|
 |:-----|:-----|:-----|
 |Unirse a una reunión programada  | SKU de sala de reuniones  |Skype Empresarial Servidor Standard CAL  |
-|Iniciar reunión ad-hoc | SKU de sala de reuniones  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
-|Iniciar reunión ad-hoc y realizar llamadas de salida de una reunión a números de teléfono |  SKU de sala de reuniones |Skype Empresarial Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
+|Iniciar una reunión ad hoc | SKU de sala de reuniones  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
+|Iniciar una reunión ad hoc y llamar desde una reunión a números de teléfono |  SKU de sala de reuniones |Skype Empresarial Standard CAL  <br/> Skype Empresarial Servidor Enterprise CAL|
 |Dar un número de teléfono a la sala y realizar o recibir llamadas de la sala o unirse a una conferencia de audio con un número de teléfono  | SKU de sala de reuniones  |Skype Empresarial Servidor Standard CAL  <br/> Skype Empresarial Servidor Plus CAL  |
 |Administrar el dispositivo de la sala con Microsoft Intune |SKU de sala de reuniones  |Suscripción a Microsoft Intune con [MDM local](https://docs.microsoft.com/sccm/mdm/plan-design/plan-on-premises-mdm) |
 | |||
