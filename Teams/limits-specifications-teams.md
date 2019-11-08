@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8cd9cdcd7abe3e86e540548bb735b89fa2c16bfe
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 8de3a1b61d706ba2f85e83ec6290378d47cb20fe
+ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615985"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38010523"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -109,6 +109,10 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |Eventos en directo simultáneos en un espacio empresarial de Office 365 | 15 |
 
 Para obtener más información sobre los eventos en directo y una comparación de los eventos en directo de Teams y la Difusión de reunión de Skype, vaya a [Eventos en directo de Teams y Difusión de reunión de Skype](teams-live-events/plan-for-teams-live-events.md#teams-live-events-and-skype-meeting-broadcast).
+
+## <a name="presence-in-outlook"></a>Presencia en Outlook
+
+La presencia de Teams en Outlook es compatible con la aplicación de escritorio Outlook 2013 y posteriores. Para obtener más información acerca de la presencia en equipos, consulte [Presencia de usuarios en Teams](presence-admins.md).
 
 ## <a name="storage"></a>Almacenamiento
 
