@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga más información sobre las características disponibles en las salas de Microsoft Teams. '
-ms.openlocfilehash: d6f08cb45905951eda72845ca8bfb21d77c82e4e
-ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
+ms.openlocfilehash: c822e034512a0e4f7cf24402fb12571d7f48f91d
+ms.sourcegitcommit: f3b698379eb663202ce127eeaf6c07328c166556
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038739"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38077423"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Actualización de licencias de sala de reuniones de equipos
 
@@ -44,13 +44,16 @@ Microsoft tiene un SKU dedicado para las reuniones de licencias y las llamadas e
 |Disponibilidad del canal | EA, EAS, CSP, <br/>Web Direct |
 | | | |
 
-&Sup1; La disponibilidad y los minutos incluidos pueden variar según la región. Para comprobar la disponibilidad de los servicios, consulte [disponibilidad de países y regiones para las videoconferencias y los planes de llamadas](http://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Es posible que se apliquen cargos por consumo para servicios adicionales, como números gratuitos, minutos internacionales para planes nacionales, etc. Los clientes pueden deshabilitar estas características para evitar la facturación adicional.  
+&Sup1; La disponibilidad y los minutos incluidos pueden variar según la región. Para comprobar la disponibilidad de los servicios, consulte [disponibilidad de países y regiones para las videoconferencias y los planes de llamadas](https://docs.microsoft.com/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans). Es posible que se apliquen cargos por consumo para servicios adicionales, como números gratuitos, minutos internacionales para planes nacionales, etc. Los clientes pueden deshabilitar estas características para evitar la facturación adicional.  
 
 &sup2; No disponible en nubes soberanos  
 
 
 > [!NOTE]
-> Si actualmente usa las SKU de E1, E3, E4 y E5 con el plan 1 independiente de Skype empresarial o el plan 2 de Skype para empresas o el plan 2 de Skype para empresas con audioconferencia o con el sistema telefónico Office365 y un plan de llamadas, estos seguirán funcionando. Sin embargo, debe considerar la posibilidad de cambiar a un modelo de licencias más sencillo en la tabla anterior después de que venzan las licencias actuales.  
+> Si actualmente usa las SKU de E1, E3, E4 y E5 con el plan 1 independiente de Skype empresarial o el plan 2 de Skype para empresas o el plan 2 de Skype para empresas con audioconferencia o con el sistema telefónico Office365 y un plan de llamadas, estos seguirán funcionando. Sin embargo, debe considerar la posibilidad de cambiar a un modelo de licencias más sencillo en la tabla anterior después de que venzan las licencias actuales. 
+
+> [!IMPORTANT]
+> Si está usando Skype empresarial plan 2, solo puede usar las salas de Microsoft Teams en modo de solo Skype empresarial, lo que significa que todas sus reuniones serán reuniones de Skype empresarial. Para habilitar las reuniones de Microsoft Teams en su sala de reuniones, le recomendamos que compre la licencia de Microsoft Room. 
 
 En la siguiente tabla se enumeran las características que están disponibles en las salas de Microsoft Teams y qué licencias necesita comprar para obtenerlas.
   

@@ -16,14 +16,14 @@ description: Notificación de llamada de enrutamiento directo
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 07efe11d304107a5a8606a07f5d1c2a7a130bc0b
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: a031af6a7bdfedfebd6d666b717d03259d92f56c
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37595357"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074612"
 ---
-# <a name="manage-call-notifications"></a>Administrar notificaciones de llamadas
+# <a name="manage-call-notifications"></a>Administrar notificaciones perdidas
 
 En este artículo se describe cómo administrar las notificaciones de llamadas para los usuarios. Puede configurar puntos de conexión de llamadas tanto a los dos equipos como a un controlador de borde de sesión (PBX) de terceros o a un controlador de borde de sesión (SBC).  Esto es útil, por ejemplo, si deseas enviar una llamada a los teléfonos móviles y de escritorio de un usuario al mismo tiempo.   
 

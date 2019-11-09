@@ -13,12 +13,12 @@ ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
 ms.collection:
 - M365-collaboration
 description: En este artículo se describe la administración remota de la configuración predeterminada usada por un dispositivo de salas de Microsoft Teams, incluida la aplicación de un tema personalizado.
-ms.openlocfilehash: 928f2ee5bc734aa128faf8af9e47387159666000
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f00edb0d3d391daaf3cfa7a6f83e5c2951638236
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573467"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074622"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML
 
@@ -60,7 +60,7 @@ Cualquier editor de texto se puede usar para crear un archivo de configuración.
     </Devices>
     <Theming>
         <ThemeName>Custom</ThemeName>
-        <CustomThemeImageUrl>folder path</CustomThemeImageUrl>
+        <CustomThemeImageUrl>file name</CustomThemeImageUrl>
         <CustomThemeColor>
             <RedComponent>100</RedComponent>
             <GreenComponent>100</GreenComponent>
@@ -102,7 +102,7 @@ Si un valor de variable es de un tipo incorrecto, los elementos están fuera de 
 |\<ContentCameraEnhancement>  | &#x2777; Boolean | |Cuando se establece en true (el valor predeterminado), la imagen de la cámara de contenido se ha mejorado digitalmente: se detecta la arista de la pizarra y se selecciona el zoom adecuado, se mejoran las líneas de tinta y la persona que escribe en la pizarra se hace transparente.  <br><br> Se establece en false si se desea enviar una fuente de video sin formato a los participantes de la reunión para los espacios donde no se ha dibujado una pizarra con un lápiz y en su lugar se usa la cámara para mostrar notas rápidas, pósteres u otros elementos multimedia.  |
 | \<Temas\>  |Contenedor |Primer &#x2776;  |Una de las características que se pueden aplicar con un archivo XML es un tema personalizado para su organización. Puede especificar un nombre de tema, una imagen de fondo y un color. |
 |\<ThemeName\> |Cadena &#x2778;  || Se usa para identificar el tema en el cliente. Las opciones de nombre de tema son la opción predeterminada, uno de los temas prestablecidos que se proporcionan o la opción personalizada. <br/>  Los nombres de temas personalizados siempre usan el nombre *personalizado*. La interfaz de usuario de cliente se puede establecer en la consola en el valor predeterminado o uno de los valores preestablecidos, pero un administrador debe configurar el uso de un tema personalizado de forma remota. <br/>  Los temas prestablecidos incluyen:  <br/>  Predeterminado <br/>  Ondas azules (Blue Wave) <br/>  Bosque digital (Digital Forest) <br/>  Atrapasueños (Dreamcatcher) <br/>  Limanada (Limeade) <br/>  Píxel perfecto (Pixel Perfect) <br/>  Mapa de ruta (Roadmap) <br/>  Atardecer (Sunset) <br/>  Para deshabilitar el tema actual, use "sin tema" para el ThemeName.  |
-|\<CustomThemeImageUrl\> |Cadena &#x2778;  ||Necesario para un tema personalizado; en caso contrario, opcional.   |Para obtener más información sobre la imagen del tema personalizado, vea la sección [imágenes de temas personalizados](xml-config-file.md#Themes) .
+|\<CustomThemeImageUrl\> |Cadena &#x2778;  ||Necesario para un tema personalizado; en caso contrario, opcional. Escribe solo el nombre de archivo.   |Para obtener más información sobre la imagen del tema personalizado, vea la sección [imágenes de temas personalizados](xml-config-file.md#Themes) .
 |\<CustomThemeColor\> |Contenedor ||Contenedor de los \<valores\>RedComponent \<,\>GreenComponent y \<BlueComponent\> . Estos valores son obligatorios para un tema personalizado. |
 |\<RedComponent\> |Byte (0-255) ||Representa el componente de color rojo. |
 |\<GreenComponent\> |Byte (0-255) ||Representa el componente de color verde. |

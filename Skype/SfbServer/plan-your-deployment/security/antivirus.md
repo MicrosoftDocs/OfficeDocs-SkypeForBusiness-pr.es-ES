@@ -11,22 +11,16 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Información general sobre la interacción del escáner antivirus con Skype empresarial Server.
-ms.openlocfilehash: 9ec13b31328744bb154c9eb5e09dff7665c4b540
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 69fb02d04f27b7444a3b8cadaacafc05654a1c9f
+ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296976"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074632"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusiones de detección antivirus para Skype empresarial Server
 
 Información general sobre la interacción del escáner antivirus con Skype empresarial Server.
-
-Este artículo contiene recomendaciones que pueden ayudar a un administrador a determinar la causa de la posible inestabilidad en un equipo que ejecute una versión compatible de Microsoft Windows cuando se use con software antivirus en un dominio de Active Directory entorno o en un entorno empresarial administrado.
-
-Le recomendamos que aplique temporalmente estos procedimientos para evaluar un sistema. Si se han mejorado el rendimiento o la estabilidad del sistema siguiendo las recomendaciones que se hacen en este artículo, póngase en contacto con el proveedor del software antivirus para obtener instrucciones o para obtener una versión actualizada del software antivirus.
-
-Este artículo contiene información que muestra cómo ayudar a reducir la configuración de seguridad o desactivar temporalmente las características de seguridad en un equipo. Puede realizar estos cambios para comprender la naturaleza de un problema específico. Antes de realizar estos cambios, le recomendamos que evalúe los riesgos asociados a la implementación de esta solución en su entorno particular. Si implementas esta solución alternativa, toma las medidas adicionales oportunas para ayudar a proteger el equipo para los archivos que ya no han analizado el software antivirus.
 
 Para asegurarse de que el detector antivirus no interfiera con el funcionamiento de Skype empresarial Server, debe excluir los procesos y directorios específicos de cada rol de servidor o servidor de Skype empresarial Server en el que ejecute un detector de virus. Es necesario excluir los siguientes procesos y directorios:
 
