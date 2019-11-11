@@ -24,7 +24,10 @@
           "**/*.gif",
           "**/*.svg",
           "**/*.pdf",
-          "**/*.vsdx"
+          "**/*.vsdx",
+          "**/*.zip",
+          "**/*.pptx",
+          "**/*.psd"
         ],
         "exclude": [
           "**/obj/**",
@@ -41,6 +44,7 @@
       "breadcrumb_path": "/microsoftteams/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
       "ms.suite": "office",
+      "titleSuffix": "Microsoft Teams",
       "bilingual_type": "hover over",
       "contributors_to_exclude": [
         "dstrome",
