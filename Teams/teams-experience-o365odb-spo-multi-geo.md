@@ -12,19 +12,20 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf2fac5249f2267c7813c1ba12aade279da094f3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fe181e7ef55b386d4a6eb40bb7e383ca89a956d9
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570239"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231251"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Experiencia de Teams en un espacio empresarial de OneDrive y SharePoint Online Multi-Geo en Office 365
 ===========================================
 
-Microsoft Teams es un software de chats grupales, el hub para el trabajo en equipo de Office 365. Está alimentado por el servicio de grupos de Office 365, junto con SharePoint Online y OneDrive para la empresa para la experiencia de los archivos. En un inquilino multifunción de OneDrive para la empresa o SharePoint Online, en el que el inquilino se extiende a muchas ubicaciones geográficas, como Norteamérica, Europa y Australia, la experiencia de archivos subyacentes es de uso múltiple, por lo que la experiencia de los equipos con el archivo la colaboración también es compatible con varios. Esta es una función líder de vanguardia para que los equipos se encaran de archivos alojados en varios GEOS en la experiencia de los archivos nativos.
+Microsoft Teams es un software de chats grupales, el hub para el trabajo en equipo de Office 365. Está alimentado por el servicio de grupos de Office 365, junto con SharePoint Online y OneDrive para la empresa para la experiencia de los archivos. En un inquilino multifunción de OneDrive para la empresa o SharePoint Online, en el que el inquilino se extiende a muchas ubicaciones geográficas, como Norteamérica, Europa y Australia, la experiencia de archivos subyacentes es la de multigeo, por lo que la experiencia de los equipos con la colaboración de archivos también está preparada para varios países. Esta es una función líder de vanguardia para que los equipos se encaran de archivos alojados en varios GEOS en la experiencia de los archivos nativos.
 
 Por ejemplo, en una empresa de Contoso con Europa como una geo de satélite y América del norte como la geo central, un usuario de satélite europeo verá sus archivos de OneDrive en la pestaña archivos en el panel izquierdo, aunque los archivos se hospeden en la ubicación de datos de Europa y en el STAT estadounidense es la ubicación central del inquilino. Además, el usuario puede acceder a los archivos usados recientemente en el blade de la vista recientes. Los archivos recientes pueden incluir archivos compartidos con el usuario de los usuarios en otros GEOS y podrían ser maestros en otras ubicaciones geográficas a las que se extiende el inquilino. 
 

@@ -8,17 +8,18 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+- SPO_Content
 ms.reviewer: anach
 search.appverid: MET150
 description: Obtenga más información sobre la búsqueda de contenido en Microsoft Teams y sobre cómo buscar con las conversaciones de canal de Exchange, las cargas de archivos y las modificaciones de SharePoint y los cambios de OneNote.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: faed09a5fafaec559bc4277b75a60d8cc594fa85
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 3042a39d30ca14ff4eda9be6a1042bfca3484bd2
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968291"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231161"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar la búsqueda de contenido en Microsoft Teams
 =====================================
@@ -30,7 +31,7 @@ Búsqueda de contenido proporciona una manera de consultar información de Micro
 
 Para obtener más información, lea [búsqueda de contenido en Office 365](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a).
 
-Por ejemplo, mediante la **búsqueda de contenido** en el sitio de SharePoint de especificaciones de fabricación para el buzón y las especificaciones de fabricación, puede buscar entre las conversaciones de canal estándar de Teams de Exchange, las cargas de archivos y las modificaciones de SharePoint Online, y OneNote cambia.
+Por ejemplo, mediante la **búsqueda de contenido** en el sitio de SharePoint especificaciones de fabricación, buzón y especificaciones de fabricación, puede buscar entre las conversaciones de canal estándar de Teams de Exchange, las cargas de archivos y las modificaciones de SharePoint Online y los cambios de OneNote.
 
 También puede Agregar criterios de consulta a la **búsqueda de contenido** para restringir los resultados devueltos. En el ejemplo anterior, puede buscar contenido en el que se hayan usado las palabras clave "**nuevas especificaciones de fábrica"** .
 

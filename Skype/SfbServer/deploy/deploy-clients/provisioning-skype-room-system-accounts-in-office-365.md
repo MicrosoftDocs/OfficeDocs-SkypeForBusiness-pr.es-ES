@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lea este tema para obtener información acerca del aprovisionamiento de cuentas de Sistema de salas de Skype en Office 365.
-ms.openlocfilehash: d247983647641c91376c99bed3a13606027a7e11
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 830c0e33a15639f3c78197d084748bb3b2cde600
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775394"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231271"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Aprovisionamiento de cuentas del Sistema de salas de Skype en Office 365
  
@@ -91,7 +91,7 @@ Después de crear el buzón de correo, puede usar el cmdlet Set-CalendarProcessi
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Asignar una licencia de Skype Empresarial Online
 
-Ahora puede asignar una licencia de Skype empresarial online (plan 2) o Skype empresarial online (Plan 3) mediante el portal administrativo de Office 365 según se describe en [asignar o quitar licencias de office 365 para empresas](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) o en el [complemento de Skype empresarial licencias](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+Ahora puede asignar una licencia de Skype empresarial online (plan 2) o de Skype empresarial online (Plan 3) mediante el portal administrativo de Office 365 según se describe en [asignar o quitar licencias de office 365 para empresas](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) o en [licencias complementarias de Skype empresarial](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
 Después de asignar una licencia para Skype empresarial online, podrá iniciar sesión y validar que la cuenta esté activa con cualquier cliente de Skype empresarial.
   
@@ -119,7 +119,9 @@ Una vez que se ha creado y habilitado una cuenta de buzón de sala de recursos c
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
-  
+>[!NOTE] 
+>La autenticación multifactor (MFA) no es compatible con las cuentas del sistema de salas de Skype. 
+
 ## <a name="password-expiration"></a>Caducidad de la contraseña
 
 En Office 365, la directiva de caducidad de la contraseña predeterminada de todas las cuentas de usuario es de 90 días a no ser que configure una directiva de caducidad de la contraseña diferente. Para las cuentas del sistema de salas de Skype, puede seleccionar la opción la contraseña nunca vence con los pasos siguientes.

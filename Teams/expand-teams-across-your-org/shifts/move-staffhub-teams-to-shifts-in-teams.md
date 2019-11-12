@@ -13,14 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
+- SPO_Content
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9468dea64c464b3bfc2f0cec7c53f46e2f388c1f
-ms.sourcegitcommit: 7d5dd650480ca2e55c24ce30408a5058067f6932
+ms.openlocfilehash: e7b534950c92cd4f9c7b21ff6a572fb0ba9a5261
+ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37775089"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231261"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
@@ -302,7 +303,7 @@ Este es un ejemplo de cómo se debe dar formato al archivo CSV.
 
 |Identificar  |
 |---------|
-|TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000|
+|TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-AB32-3ef51f100000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2-0fc9-408b-85ff-c14a26700000|
 
 Después de crear el archivo CSV, ejecute lo siguiente para mover los equipos especificados en el archivo CSV.
 
