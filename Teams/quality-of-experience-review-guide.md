@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 141527e7decdfec2b1070cfdd41897f38a63a458
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568383"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290980"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
@@ -62,15 +62,17 @@ Esta guía también está pensada para ser usada por el preparador de calidad de
 
 Antes de usar esta guía, asegúrese de tener asignados los [roles](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) de inquilino adecuados para poder obtener acceso al CQD.
 
--   **Rol de administrador global de Office 365** 
+-   **Administrador global de Office 365** 
 
--   **Rol de administrador de Skype empresarial** 
+-   **Administrador de Skype empresarial** 
 
--   **Rol de administrador de servicio de Teams** 
+-   **Administrador de servicios de Teams** 
 
--   **Rol de Ingeniero de soporte de comunicaciones de Teams** 
+-   **Administrador de comunicaciones de Teams** 
 
--   **Rol de especialista de soporte técnico de comunicaciones de Teams** 
+-   **Ingeniero de soporte en comunicaciones de Teams** 
+
+-   **Especialista de soporte técnico de comunicaciones de Teams** 
 
 Como alternativa, puede asignar el siguiente rol a una cuenta de usuario de Office 365 para permitir el acceso únicamente a las características de creación de informes.
 
@@ -227,7 +229,7 @@ La primera vez que realice estas tareas, tendrá más esfuerzo que las iteracion
 
 #### <a name="service-management-tasks"></a>Tareas de administración de servicios
 
-En una nube-primer mundo, debe realizar ciertas tareas de administración de servicios para mantener experiencias de usuario de alta calidad. Estas tareas van desde asegurar que hay suficiente ancho de banda para alcanzar el servicio sin saturar los vínculos de Internet, validar que la calidad de servicio (QoS) esté en su lugar en todas las áreas de red administradas y, por último, estar en la parte superior de [Office 365 intervalos de IP en servidores de seguridad](https://aka.ms/o365ips).
+En una nube-primer mundo, debe realizar ciertas tareas de administración de servicios para mantener experiencias de usuario de alta calidad. Estas tareas van desde asegurar que hay suficiente ancho de banda para alcanzar el servicio sin saturar los vínculos de Internet, validar que la calidad de servicio (QoS) esté en su lugar en todas las áreas de red administradas y, por último, mantenerse en la parte superior de los [intervalos de IP de Office 365 en los firewalls](https://aka.ms/o365ips).
 
 #### <a name="network-tasks"></a>Tareas de red
 
@@ -265,9 +267,6 @@ Para obtener recursos y aprendizajes más detallados, consulte el [Apéndice](#o
 
 El panel de calidad de llamadas (CQD) se usa para obtener información sobre la calidad de las llamadas realizadas mediante el uso de Teams y los servicios de Skype empresarial. El CQD está diseñado para ayudar a los administradores y ingenieros de redes de Skype empresarial y a optimizar la red y mantener un vistazo a la calidad, la confiabilidad y la experiencia del usuario. El CQD examina el encargado de la telemetría de una organización en la que se pueden aparentar patrones generales, lo que permite que el personal realice evaluaciones con conocimiento y planifique actividades de corrección para maximizar el impacto. El CQD proporciona informes de métricas que proporcionan una perspectiva de la calidad general, la confiabilidad y la experiencia del usuario.
 
-> [!Note]
-> El CQD no contiene información de identificación personal (PII). PII es información que puede usarse por su cuenta o con otra información para identificar, comunicarse o localizar a una sola persona, o para identificar una persona en contexto.
-
 Esta guía le ayudará a comprender los conceptos básicos del CQD para ayudar a maximizar el impacto que puede tomar para mejorar la experiencia de los usuarios con Teams o Skype empresarial online. Encontrará más recursos del CQD en el [Apéndice](#other-resources).
 
 ### <a name="expectations-using-cqd"></a>Expectativas con el CQD
@@ -277,18 +276,15 @@ El CQD, aunque es útil para analizar tendencias y subredes, no siempre proporci
 -   El CQD no proporcionará la causa de origen para todos los escenarios.
 -   El CQD no contendrá secuencias de audio o de sistema telefónico.
 -   El CQD llamará a las áreas para una mayor investigación según las tendencias.
--   El CQD no contiene ninguna PII.
 
 ### <a name="report-editions"></a>Ediciones de informes
 
-Hay dos ediciones de informes en el CQD online: Resumen y detalles. Use el menú desplegable que se encuentra en la barra azul de la parte superior de la pantalla para abrir una edición de informe. El nombre de la edición de informes seleccionada se muestra en la parte superior de la pantalla.
+Hay dos ediciones de informes en el CQD online: Resumen y detalles. Use el menú desplegable que se encuentra en la barra de la parte superior de la pantalla para abrir una edición de informe. El nombre de la edición de informes seleccionada se muestra en la parte superior de la pantalla.
 
 -   Los informes de resumen son estáticos y no se pueden editar, descargar o exportar. 
 -   Los informes detallados son totalmente personalizables y se pueden descargar en un archivo CSV, exportar o duplicar.
 
 Para obtener una descripción completa de la diferencia entre las dos ediciones, consulte [este artículo](turning-on-and-using-call-quality-dashboard.md).
-
-![Captura de pantalla del menú desplegable con los informes de Resumen seleccionados](media/qerguide-image-reportcategories.png)
 
 _Figura 4: categorías de informes de CQD_
 
@@ -801,36 +797,6 @@ El planificador de redes determina y organiza los requisitos de red para su impl
 
 Aunque el planificador de redes no automatiza el proceso de asignación de la creación por completo, una vez que la información de la red se introduce en el planificador de la red, se puede exportar a un archivo de compilación listo para cargarlo.
 
-## <a name="diagnostic-alerts"></a>Alertas de diagnóstico
-
-Microsoft supervisa de manera preventiva la telemetría del CQD para crear alertas de diagnóstico para problemas conocidos que afectan negativamente a la experiencia del usuario. Estas alertas se envían automáticamente al administrador de servicios a través del centro de mensajes. En la tabla siguiente se describen las alertas de diagnóstico que se muestran en el centro de mensajes, junto con vínculos a más información.
-
-_Tabla 6: alertas de diagnóstico_
-
-| Alerta                                                                | Más información             |
-|----------------------------------------------------------------------|------------------------------|
-| Se sabe que las versiones de cliente no funcionan correctamente                   | [Versiones de cliente](#client-versions)              |
-| Los drivers de audio están causando caídas de llamadas                                 | [Dispositivos](#devices)                      |
-| Las restricciones en el Firewall causan errores de configuración de llamadas         | [Investigaciones de errores de configuración](#setup-failure-investigations) |
-| La inspección profunda de paquetes provoca errores de configuración de llamadas                | [Investigaciones de errores de configuración](#setup-failure-investigations) |
-| Los dispositivos de la sala de reuniones de redes Wi-Fi causan una mala calidad de llamada | [Investigaciones de calidad](#quality-investigations)       |
-| El tráfico UDP es limitado, lo que provoca una mala calidad en las llamadas         | [TCP](#tcp)                          |
-| El uso de VPN está afectando a la calidad de las llamadas                                  | [Investigaciones de calidad](#quality-investigations)       |
-
-
-### <a name="message-center"></a>Centro de mensajes
-
-El centro de mensajes le avisa acerca de nuevas actualizaciones, características o problemas. El centro de mensajes está disponible en el centro de administración de Microsoft 365 para atender a los administradores. Cada publicación proporciona una descripción general de cómo afecta la actualización, la característica o el problema a los usuarios, y proporciona vínculos a información más detallada.
-
-Para abrir el centro de mensajes, en el centro de administración de Microsoft 365, vaya al**centro de mensajes**de **salud** > o seleccione la tarjeta del centro de mensajes en el panel de **Inicio** . El panel muestra los tres últimos mensajes que se enviaron y vínculos a la página del centro de mensajes completo.
- 
-
-![Captura de pantalla del centro de mensajes que muestra los tres últimos mensajes publicados](media/qerguide-image-messagecentercard.png)
-
-_Figura 18: tarjeta del centro de mensajes_
-
-También puede usar la [aplicación de administrador de Office 365](https://go.microsoft.com/fwlink/p/?linkid=627216) en su dispositivo móvil para ver el centro de mensajes, que es una excelente manera de estar al día de las notificaciones Push. Para obtener más información, consulte [este artículo](https://support.office.com/article/Message-center-in-Office-365-38FB3333-BFCC-4340-A37B-DEDA509C2093).
-
 ## <a name="reliability-investigations"></a>Investigaciones de confiabilidad
 
 El primer paso para mejorar la calidad es evaluar el estado de confiabilidad en toda la organización. Puesto que la confiabilidad es vital para una experiencia de usuario positiva, comenzamos con los dos componentes que miden la confiabilidad:
@@ -884,10 +850,6 @@ Este informe de resumen se usa para descubrir y aislar cualquier edificio o red 
 ![Captura de pantalla que muestra errores de configuración](media/qerguide-image-setupfailuresbysubnet.png)
 
 _Figura 20: errores de configuración de audio por subred_
-
-##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Si recibe una alerta de diagnóstico "las restricciones en el Firewall causan errores de configuración de llamadas" o "la inspección profunda de paquetes provoca errores en la configuración de las llamadas", primero Centre sus esfuerzos de corrección en esas subredes identificadas. La alerta ha identificado subredes que afectan negativamente a la confiabilidad de las llamadas. Puede usar los informes de errores de configuración que se encuentran en la sección confiabilidad para ayudarle con la corrección.
 
 ##### <a name="remediation"></a>Corrección 
 
@@ -956,7 +918,7 @@ Causas comunes de caídas de llamadas:
 -   Versiones de cliente anteriores
 -   Comportamiento del usuario
 
-Una vez que haya descubierto las áreas problemáticas, puede usar el [análisis de llamadas](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) para revisar aún más los usuarios de esa creación para problemas específicos. El análisis de llamadas contiene datos PII y puede ser útil para aislar aún más causas potenciales de los errores de colocación.
+Una vez que haya descubierto las áreas problemáticas, puede usar el [análisis de llamadas](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Introducing-Call-Analytics/ba-p/57309) para revisar aún más los usuarios de esa creación para problemas específicos. Los análisis de llamadas contienen datos PII adicionales y pueden ser útiles para aislar aún más los posibles motivos de los errores de colocación.
 
 Independientemente del próximo paso, es recomendable notificar al Departamento de soporte técnico que se ha detectado un problema con edificios o subredes específicas. De esta manera, pueden responder rápidamente a las llamadas entrantes y evaluar los usuarios de forma más eficaz. Los usuarios marcados pueden ser devueltos al equipo de ingeniería para obtener más investigación.
 
@@ -1025,12 +987,6 @@ A pesar de que las dimensiones utilizadas pueden variar ligeramente entre inform
 ![Captura de pantalla que muestra el Resumen de flujo de audio deficiente](media/qerguide-image-poorqualitysummary.png)
 
 _Ilustración 24: Resumen de las secuencias de audio de mala calidad mediante la creación de conferencias de subred_
-
-##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Si recibe una alerta de diagnóstico, los dispositivos de la sala de reuniones de las redes Wi-Fi están causando una mala calidad de las llamadas, "incluye y prioriza esos dispositivos en sus esfuerzos de corrección. La alerta ha identificado salas de reuniones en Wi-Fi que están contribuyendo activamente a una mala calidad de las llamadas.
-
-Si recibe una alerta de diagnóstico, el uso de VPN está afectando a la calidad de las llamadas, "investigue una solución de tunelización dividida para eludir el dispositivo VPN y permitir que los medios se conecten directamente con el servicio. La alerta ha identificado que VPN está afectando negativamente a la calidad de las llamadas.
 
 ##### <a name="remediation"></a>Corrección
 
@@ -1112,13 +1068,9 @@ En las plantillas de CQD proporcionadas, navegue hasta las transmisiones por sec
 > [!NOTE]
 > Asegúrese de ajustar el filtro de año mensual al mes en curso. Seleccione **Editar**y ajustar **mes del año** para guardar el nuevo mes predeterminado.                                  |
 
-![Captura de pantalla del uso de TCP por construcción y subred](media/qerguide-image-tcpstreams.png)
+![Captura de pantalla del uso de TCP mediante la construcción y la subred](media/qerguide-image-tcpstreams.png)
 
 _Figura 27: secuencias de TCP por construcción y Conferencia de subred_
-
-##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Si recibe una alerta de diagnóstico "el tráfico UDP es limitado, lo que causa una mala calidad de las llamadas", primero Centre sus esfuerzos en esas subredes. La alerta ha identificado subredes en las que el uso de TCP está afectando negativamente a la calidad de las llamadas.
 
 ##### <a name="remediation"></a>Corrección
 
@@ -1149,7 +1101,7 @@ Siempre recomendamos que configure el cliente para que se conecte directamente a
 
 El informe de la secuencia de proxy HTTP de esta sección de la plantilla es muy similar a los informes TCP. Sin embargo, no se muestra si las llamadas son deficientes o buenas, pero si la llamada está conectada a través de HTTP.
 
-![Captura de pantalla del informe de las transmisiones de audio que usan HTTP](media/qerguide-image-audiostreamswithhttp.png)
+![Captura de pantalla del informe de transmisiones de audio que usan HTTP](media/qerguide-image-audiostreamswithhttp.png)
 
 _Ilustración 28: transmisiones de audio con uso de proxy HTTP_
 
@@ -1159,7 +1111,7 @@ Desea ver las pequeñas secuencias de medios HTTP como sea posible. Si tiene sec
 
 Si solo tiene un proxy de Internet en su organización, compruebe las [direcciones URL y las exclusiones de intervalos de direcciones IP de Office 365](https://aka.ms/o365ips). Si hay más de un proxy de Internet configurado en su organización, use el subinforme HTTP para aislar qué compilación o subred se verá afectada.
 
-Para las organizaciones que no pueden eludir el proxy, asegúrese de que el cliente de Skype empresarial está configurado para iniciar sesión correctamente cuando se encuentra detrás de un proxy, como se indica en el artículo, [Skype empresarial debe usar Proxy Server para iniciar sesión en lugar de intentar directamente conexión](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
+Para las organizaciones que no pueden eludir el proxy, asegúrese de que el cliente de Skype empresarial está configurado para iniciar sesión correctamente cuando se encuentra detrás de un proxy, como se describe en el artículo, [Skype empresarial debe usar Proxy Server para iniciar sesión en lugar de probar la conexión directa](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin). 
 
 
 #### <a name="http-proxy-investigations"></a>Investigaciones de proxy HTTP
@@ -1209,10 +1161,6 @@ Los informes de este espacio se centran en identificar las versiones de cliente 
 ![Captura de pantalla del informe de cliente y dispositivos](media/qerguide-image-clientversionreport.png)
 
 _Figura 30-informe de versión del cliente_
-
-#### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Si recibió una alerta de diagnóstico, "las versiones de cliente conocidas que están en uso" se centran en actualizar esos clientes en primer lugar. La alerta ha identificado que estos clientes están afectando negativamente a la calidad de la llamada. Puede usar el informe de dispositivos de & de cliente (que se muestra más arriba) para asegurarse de que los clientes que tienen problemas conocidos ya no se actualizan.
 
 #### <a name="remediation"></a>Corrección
 
@@ -1265,10 +1213,6 @@ Los informes de dispositivos se usan para evaluar el uso del dispositivo por vol
 ![Captura de pantalla del informe dispositivos (micrófono)](media/qerguide-image-devicesmicrophone.png)
 
 _Figura 31-informe de dispositivos (micrófono)_
-
-##### <a name="diagnostic-alert"></a>Alerta de diagnóstico
-
-Si recibe una alerta de diagnóstico "los controladores de audio están causando caídas de llamadas", céntrese primero en corregir esos controladores. La alerta ha identificado que los controladores incorrectos conocidos están causando el descenso de las llamadas y están afectando negativamente a la confiabilidad de las llamadas. Puede usar el informe micrófono-drivers (que se muestra arriba), que se encuentra en la sección de dispositivos & cliente, para ayudarle con el proceso.
 
 ##### <a name="remediation"></a>Corrección
 

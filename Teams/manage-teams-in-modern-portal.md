@@ -16,17 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fea7081ee66cbd7b103f4292f577aaf5d841e11
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 0c7adfc2762d632f600f2982445f381139263894
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37571939"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290940"
 ---
 <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Administrar equipos en el centro de administración de Microsoft Teams
 ==========================================
 
 ## <a name="overview"></a>Información general
+
+Este artículo proporciona una descripción general de las herramientas de administración de Teams en el centro de administración de Microsoft Teams. Empiece por ver este vídeo breve (3 minutos):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yi]
 
 Como administrador, es posible que tenga que ver o actualizar los equipos en los que la organización configuró la colaboración, o es posible que tenga que realizar acciones de corrección, como asignar propietarios a equipos sin propietario. Puede administrar los equipos que se usan en la organización a través del módulo Microsoft Teams PowerShell y el centro de administración de Microsoft Teams. Para obtener capacidades de administración completas con estos dos conjuntos de herramientas, debe asegurarse de que tiene asignada una de las siguientes funciones:
 
@@ -35,7 +39,7 @@ Como administrador, es posible que tenga que ver o actualizar los equipos en los
 
 Puede obtener más información sobre los roles de administrador en Teams en [usar los roles de administrador de Microsoft Teams para administrar equipos](using-admin-roles.md)y puede obtener más información sobre cómo usar los cmdlets de PowerShell para administrar equipos en la [Referencia del cmdlet de Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps).
 
-Este artículo proporciona una descripción general de las herramientas de administración de Teams en el centro de administración de Microsoft Teams.
+
 
 ## <a name="teams-overview-grid"></a>Cuadrícula de información general de Teams
 
@@ -69,7 +73,7 @@ Para editar la configuración específica del grupo y del equipo, seleccione el 
 
 ### <a name="archive"></a>Archivo
 
-Puede archivar un equipo. El archivado de un equipo pone al equipo en modo de solo lectura dentro de Teams. Como administrador, puede archivar y desarchivar Teams en nombre de su organización en el centro de administración. 
+Puede archivar un equipo. El archivado de un equipo pone al equipo en modo de solo lectura dentro de Teams. Como administrador, puede archivar y archivar los equipos en nombre de su organización en el centro de administración. 
 
 ### <a name="delete"></a>Eliminar
 
@@ -116,7 +120,7 @@ Algunos de sus equipos no están en la lista de equipos de la cuadrícula de inf
 
 Reemplace **{GROUPID}** en la consulta del GROUPID real en cuestión, que puede obtener a través de Exchange Online PowerShell, con el cmdlet **"[Get-unifiedgrouphttps](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** , como el atributo "**ExternalDirectoryObjectId**".
 
-1. [Explorador de gráficos](https://developer.microsoft.com/en-us/graph/graph-explorer)de Access.
+1. [Explorador de gráficos](https://developer.microsoft.com/graph/graph-explorer)de Access.
 
 2. Inicie sesión en el explorador de gráficos en el menú de la izquierda.
 
