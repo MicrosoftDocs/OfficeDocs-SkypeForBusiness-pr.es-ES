@@ -6,26 +6,28 @@ ms.topic: article
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 585e857ff6edf89880ed29d9a434747a0af3d127
-ms.sourcegitcommit: 2453f87088fc2f8034726c14699aacb65d859b1b
+ms.openlocfilehash: 4b0375a2710337e3c95755bdd2676bf730e26bad
+ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "36436359"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38290970"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
-Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Ahora está listo para agregar la carga de trabajo de reuniones, incluyendo [audioconferencias](deploy-audio-conferencing-teams-landing-page.md), vídeo y uso compartido. A continuación, le mostramos cómo. 
+Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Ahora está listo para agregar la carga de trabajo de reuniones, incluyendo [audioconferencias](deploy-audio-conferencing-teams-landing-page.md), vídeo y uso compartido. Este artículo le informará detenidamente de la implementación de las reuniones y las conferencias de audio. Para empezar, vea el vídeo sobre reuniones, conferencias y dispositivos en Teams (3:28 minutos):
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
+
+*Nuevo en noviembre de 2019*: ahora puede [usar el Asesor de Teams (versión preliminar) para que le ayude a implementar Microsoft Teams](use-advisor-teams-roll-out.md). El Asesor de Teams (vista previa) le guiará en la implementación de Teams, incluidas las reuniones y las conferencias. Evalúa el entorno de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente las reuniones y conferencias en Teams.
 
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>Decisiones sobre la implementación de reuniones y conferencias
@@ -51,7 +53,7 @@ Puede usar el [Complemento de pruebas de red](https://www.powershellgallery.com/
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/es-ES/MicrosoftTeams/prepare-network)</li><li>[Direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/es-ES/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/prepare-network)</li><li>[Direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
