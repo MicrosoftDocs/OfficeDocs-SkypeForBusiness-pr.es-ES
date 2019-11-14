@@ -15,12 +15,12 @@ description: Obtenga ayuda y solucione problemas con el acceso de invitado en Mi
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: eefaece55876bc66905716526884fd21303c630e
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 2931a3f5440492aa1ab99a53cd196ab2973eb122
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754366"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311265"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solución de problemas con el acceso de invitado en Microsoft Teams
 ======================================================
@@ -45,8 +45,11 @@ Si ve errores de licencias, asegúrese de leer las instrucciones de licencias [B
 - Las licencias de invitados se cuentan en relación con la organización que invita. Considere esto cuando calcule el número de licencias que necesita.
 - Las licencias se cuentan en relación con su organización si los invitados invitados provienen de otro inquilino de Office 365 o si usan sus direcciones de correo electrónico personales.
 
+## <a name="support-for-b2b-user-types"></a>Compatibilidad con tipos de usuario B2B
+Actualmente, los equipos solo tienen compatibilidad con los tipos de estado 1 y estado 2 de los usuarios invitados [definidos por Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties).
+
 ## <a name="related-topics"></a>Temas relacionados
 
-[Acceso de invitado en Teams](guest-access.md)
+[Acceso de invitado a Teams](guest-access.md)
 
 

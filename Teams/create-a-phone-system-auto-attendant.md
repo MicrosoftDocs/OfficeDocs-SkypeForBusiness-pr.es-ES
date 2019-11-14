@@ -1,7 +1,7 @@
 ---
 title: Configurar un operador automático en la nube
-ms.author: jambirk
-author: jambirk
+ms.author: kenwith
+author: kenwith
 manager: serdars
 ms.reviewer: waseemh
 ms.topic: article
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: b1756cc58e485971157c0429e8180a5f5e507ec8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972481"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38318115"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -103,7 +103,7 @@ Tiene varias formas de configurar el operador:
 
 <a name="timezone"> </a>
 
-![Icono del número 3, una llamada en la](media/teamscallout3.png) **zona horaria** de captura de pantalla anterior, se requiere establecer la zona horaria para el operador automático. La configuración puede ser la misma que la zona horaria de la dirección principal que se muestra para su organización, u otra zona horaria. Cada operador automático puede tener una zona horaria diferente. El horario comercial establecido para el operador automático también usa esta zona horaria.
+![Icono del número 3, una llamada en la](media/teamscallout3.png) **zona horaria** de captura de pantalla anterior, se requiere establecer la zona horaria para el operador automático. La configuración puede ser la misma que la zona horaria de la dirección principal que se muestra para su organización, u otra zona horaria. Cada operador automático puede tener una zona horaria diferente. El horario comercial establecido para el operador automático también usa esta zona horaria. Asegúrese de establecer la zona horaria correcta para evitar discrepancias en horario laboral, ya que no todas las regiones tienen el horario de verano. 
 
 * * *
 
@@ -231,7 +231,7 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 >- Se puede configurar un operador automático para marcado por nombre o por extensión de marcado, pero no para ambos.
 
 > [!NOTE]
-> Si desea usar el **marcado por nombre** y las características de **marcado por extensión** , puede crear un operador automático principal (habilitado para **marcado por nombre**) que pide a las personas que llamen a las personas que eligen una opción de menú si conocen la extensión del usuario y establecen esa opción en transferir la llamada a un operador automático habilitado para marcado por extensión.
+> Si desea usar el **marcado por nombre** y las características de **marcado por extensión** , puede crear un operador automático principal (habilitado para **marcado por nombre**) que pide a las personas que llamen para elegir una opción de menú si conocen la extensión del usuario y establecer esa opción para transferir la llamada a un operador automático habilitado para marcado por extensión.
 
 * * *
 
@@ -249,7 +249,7 @@ Cuando haya terminado con las selecciones, puede hacer clic en **siguiente** si 
 - Ámbito de marcado
 - Cuentas de recursos
 
-Puesto que el operador automático debe tener una cuenta de recursos, tiene la opción de continuar con la página de la **cuenta de recursos** y asociar una cuenta de recursos que ya haya configurado, o crear una cuenta de recursos y asociarla con el operador como se describe en [administrar cuentas de recursos en Microsoft Teams](manage-resource-accounts.md). No podrá usar este operador automático hasta que se haya asociado a una cuenta de recursos. para ello, haga clic en el botón **siguiente** de la parte inferior de la pantalla y, a continuación, haga clic en **cuentas de recursos** en el navegación izquierdo para ir directamente a la página cuentas de recursos y asociar el operador automático a una cuenta de recursos.
+Como el operador automático debe tener una cuenta de recursos, tiene la opción de continuar con la página de la **cuenta de recursos** y asociar una cuenta de recursos que ya haya configurado, o crear una cuenta de recursos y asociarla al operador automático como se describe en [administrar cuentas de recursos en Microsoft Teams](manage-resource-accounts.md). No podrá usar este operador automático hasta que se haya asociado a una cuenta de recursos. para ello, haga clic en el botón **siguiente** de la parte inferior de la pantalla y, a continuación, haga clic en **cuentas de recursos** en el navegación izquierdo para ir directamente a la página cuentas de recursos y asociar el operador automático a una cuenta de recursos.
 
 #### <a name="advanced-settings-optional"></a>Configuración avanzada (opcional)
 
@@ -273,7 +273,7 @@ Inicialmente, el horario laboral se define para que comience en 12:00 AM y termi
 
 ![Icono del número 3, una llamada en la captura de pantalla](media/teamscallout3.png) anterior, seleccione **borrar todas las horas** para borrar la programación por completo. No se recomienda seleccionar esta opción y dejar las horas establecidas, así que use esta opción solo si desea rehacer por completo el horario laboral.
 
-![Icono del número 4, una llamada en el anterior icono de](media/teamscallout4.png)![captura de pantalla del número 5, una llamada en la captura](media/teamscallout5.png) de pantalla anterior para personalizar la hora de inicio o finalización de un día de la semana, haga clic en **iniciar** o **Finalizar en** el momento que desee restablecer y Seleccione la nueva hora en la lista que aparece.   La lista le permite seleccionar el horario laboral en intervalos de 15 minutos y las horas laborales que seleccione aquí se basan en la zona horaria que estableció en la página de **información general** .
+![Icono del número 4, una llamada en el anterior icono de](media/teamscallout4.png)![captura de pantalla del número 5, una llamada en la captura](media/teamscallout5.png) de pantalla anterior para personalizar la hora de inicio o finalización de un día de la semana, haga clic en **iniciar** o **Finalizar en** el momento que desee restablecer y seleccione la nueva hora de la lista que aparece.   La lista le permite seleccionar el horario laboral en intervalos de 15 minutos y las horas laborales que seleccione aquí se basan en la zona horaria que estableció en la página de **información general** .
 
  <!-- The **Apply to all days** option can be used to reset all days of the week to match the settings for that day. This makes setting weekdays and weekends to different hours easier.-->
 
@@ -309,7 +309,7 @@ Puede agregar un máximo de 20 días festivos programados a cada operador autom�
 
 Un nombre de flujo de llamadas de días festivos puede tener un máximo de 64 caracteres y debe ser único para la organización. Por ejemplo, no puede tener dos flujos de llamadas de festividades denominado "Navidad" en la misma organización. El operador automático puede tener un flujo de llamadas por cada festividad que haya configurado, pero es posible que desee tener un conjunto común de comportamientos planificados que no sean un saludo personalizado.
 
-![Icono del número 3, una llamada en la captura de pantalla](media/teamscallout3.png) anterior las opciones de [Greetings](#call-flow) disponibles para un flujo de llamadas de días festivos son las mismas opciones disponibles en el horario laboral. Las **acciones** que se realizan después de la reproducción del saludo también son similares, excepto en que las únicas acciones disponibles son **desconectar** o **redirigir a**y, cuando se elige la opción **redirigir a** , el operador no es una de las opciones disponibles . No se puede configurar un menú específico para un flujo de días no laborables.
+![Icono del número 3, una llamada en la captura de pantalla](media/teamscallout3.png) anterior las opciones de [Greetings](#call-flow) disponibles para un flujo de llamadas de días festivos son las mismas opciones disponibles en el horario laboral. Las **acciones** que se realizan después de la reproducción del saludo también son similares, excepto en que las únicas acciones disponibles son **desconectar** o **redirigir a**y, cuando se elige la opción **redirigir a** , el operador no es una de las opciones disponibles. No se puede configurar un menú específico para un flujo de días no laborables.
 
 > [!NOTE]
 > De forma predeterminada, todas las llamadas recibidas durante un período de vacaciones se **desconectan** después del saludo (si procede), por lo que debes especificar un redireccionamiento si deseas un comportamiento personalizado.
@@ -414,11 +414,11 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 
   - [Una introducción a Windows PowerShell y Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://docs.microsoft.com/en-us/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
+  - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://docs.microsoft.com/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell)
 
 - Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como la realización de cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
-  - [Administrar Office 365 con Office 365 PowerShell](https://docs.microsoft.com/en-us/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
+  - [Administrar Office 365 con Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
 
   - [Usar Windows PowerShell para administrar Skype Empresarial Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -430,7 +430,7 @@ También puede usar PowerShell para crear y configurar operadores automáticos. 
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
+[New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
 [¿Qué son los operadores automáticos en la nube?](what-are-phone-system-auto-attendants.md)
 

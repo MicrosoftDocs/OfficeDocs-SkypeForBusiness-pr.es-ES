@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Los clientes pueden usar el plan de llamadas de Office 365 y las conferencias de audio de Office 365 según permitan los términos y el contrato de licencias por volumen del cliente de Skype empresarial online y Microsoft Teams.
-ms.openlocfilehash: e5f0d49cfd43b04f5c361564adcc05805d04b594
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
+ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516902"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38311235"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -37,6 +37,8 @@ Customers may use Office 365 Calling Plan and Office 365 Audio Conferencing as p
 ### <a name="end-of-complimentary-dial-out-period"></a>Fin de período de llamada de cortesía
 
 A partir del 1 de diciembre de 2019, la capacidad de acceso telefónico complementaria finalizará. Para obtener más información, consulta la [suscripción de videoconferencias de marcación telefónica y llamarme en beneficio](audio-conferencing-subscription-dial-out.md) . 
+
+Este cambio no se aplicará a los países en los que la suscripción a la Conferencia de audio está disponible, pero actualmente no ofrecemos la capacidad de configurar créditos de comunicaciones. Estos países específicos son Rusia, Corea del sur y Taiwán.
 
 ### <a name="complimentary-dial-out-period-details"></a>Detalles del período de llamadas de cortesía
 
