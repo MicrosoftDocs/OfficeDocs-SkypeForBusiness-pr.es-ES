@@ -4,7 +4,6 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 06/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -17,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a8a440859d5bb33dfa5f57fd952f642b0e88dc7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
+ms.sourcegitcommit: 4060f20e8e3ce5a0464c12cfebdf8fe3473733fe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37563325"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38626986"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -36,9 +35,11 @@ El complemento de reunión de Teams se instala automáticamente para los usuario
 ![Captura de pantalla del complemento de reunión de Teams en la cinta de Outlook](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+> - Los permisos de usuario para ejecutar el archivo regsvr32. exe son un requisito mínimo para el complemento de reuniones de teams que se instalará en el equipo.
 > - Si los usuarios no pueden ver el complemento de Microsoft Teams, pídales que cierren Outlook y Microsoft Teams, y que luego reinicien en primer lugar el cliente de Microsoft Teams y luego el de Outlook, específicamente en ese orden.
 > - Los usuarios de Windows 7 deben instalar la [actualización de tiempo de ejecución de C universal en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que funcione el complemento de reunión de equipos.
-> - Si está usando una instalación de Office Outlook desde Microsoft Store, no se admite el complemento de reuniones de Teams. Se recomienda a los usuarios que necesiten este complemento instalar la versión de hacer clic y ejecutar de Office, tal como se indica en el artículo [modo de Office en Windows 10 en modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) . 
+> - Si está usando una instalación de Office Outlook desde Microsoft Store, no se admite el complemento de reunión de Teams. Se recomienda a los usuarios que necesiten este complemento instalar la versión de hacer clic y ejecutar de Office, tal como se indica en el artículo [modo de Office en Windows 10 en modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) .
+
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Complemento de reunión de Teams en Outlook para Mac
 
@@ -99,10 +100,10 @@ Cuando los usuarios que están en modo de isla programan una reunión en Outlook
 | Modo de coexistencia en el centro de administración de Teams | Proveedor de reuniones predeterminado en Outlook Mobile |
 | --------------------------------------|---------------------------------------------|
 | Logra | Skype Empresarial |
-| Solo para Skype empresarial | Skype Empresarial |
+| Solo Skype Empresarial | Skype Empresarial |
 | Skype empresarial con colaboración de Teams | Skype Empresarial |
 | Skype empresarial con colaboración y reuniones de Teams | Teams |
-| Solo equipos | Teams |
+| Solo Teams | Teams |
 
 ## <a name="other-considerations"></a>Otras consideraciones
 
@@ -123,7 +124,7 @@ Si no consigue instalar el complemento Reunión de Teams para Outlook, pruebe es
 - Asegúrese de que el nombre de la cuenta de usuario activa no contiene espacios. (Este es un problema conocido y se corregirá en una actualización futura).
 - Asegúrese de que el inicio de sesión único (SSO) está habilitado.
 
-Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](https://docs.microsoft.com/en-us/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), un delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. 
+Si el administrador ha configurado Microsoft Exchange para [controlar el acceso al servidor Web de Exchange (EWS)](https://docs.microsoft.com/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange), un delegado no podrá programar una reunión de Teams en nombre del jefe. La solución para esta configuración está en desarrollo y se publicará en el futuro. 
 
 Para obtener instrucciones generales sobre cómo desactivar complementos, consulte [Ver, administrar e instalar los complementos de los programas de Office](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D).
 

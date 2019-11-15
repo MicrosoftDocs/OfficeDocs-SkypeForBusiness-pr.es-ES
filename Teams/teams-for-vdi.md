@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fa560347d7263dafafc4f98e031b3b267f8fb12
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 450fd98d65d092f3cbc684e4efd90691b5e389a1
+ms.sourcegitcommit: 69217fb6d6b71081386364db58083eb5d1932c07
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570228"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38638810"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -164,6 +164,9 @@ Use los cmdlets de **CsTeamsMeetingPolicy** para controlar el tipo de reuniones 
 La aplicación de Teams se ha validado en los principales proveedores de soluciones de virtualización. Con varios proveedores de mercado, consulte a su proveedor de soluciones de virtualización para asegurarse de que se cumplan los requisitos mínimos.
 
 ### <a name="virtual-machine-requirements"></a>Requisitos de la máquina virtual
+
+> [!NOTE]
+> Los siguientes requisitos se aplican a la aplicación de escritorio de Teams y a teams Web App.
 
 Con las diversas cargas de trabajo y necesidades de los usuarios en un entorno virtualizado, la configuración de VM mínima recomendada es la siguiente.
 
