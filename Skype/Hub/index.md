@@ -6,12 +6,12 @@ ms.reviewer: ''
 ms.author: kenwith
 manager: serdars
 author: kenwith
-description: Skype for Business
+description: Skype Empresarial
 ms.openlocfilehash: 7dd3fe2fe61bc8dadb793a6fa3d9c226a85ce5f7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "35418380"
 ---
 <div id="main" class="v2">
