@@ -25,10 +25,10 @@ ms.custom:
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
 ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37516752"
 ---
 # <a name="calling-plans-for-office-365"></a>Planes de llamadas para Office 365
@@ -39,12 +39,12 @@ Estas son las opciones de planes de llamada:
   
 - **Plan de llamadas nacionales**: los usuarios con licencia pueden llamar a números que se encuentren en el país o la región donde están asignados en Office 365.
     
-- **Plan de llamadas nacionales e internacionales**: los usuarios con licencia pueden llamar a números que se encuentran en el país o la región donde se asigna la licencia de Office 365 en función de la ubicación del usuario y de números internacionales en [196 países o regiones ](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Plan de llamadas nacionales e internacionales**: los usuarios con licencia pueden llamar a números que se encuentran en el país o la región donde se asigna la licencia de Office 365 en función de la ubicación del usuario y de números internacionales en [196 países o regiones](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
 Los minutos mensuales disponibles para cada organización y cada país o región se encuentran [aquí](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 > [!IMPORTANT]
-> El país o la región se basa en la ubicación de la licencia del usuario en **el centro** > de administración de Microsoft 365**usuarios activos** y **no** en la dirección de facturación que aparece en el perfil de la **organización** en el **Administrador de Microsoft 365 Centro**.   
+> El país o la región se basa en la ubicación de la licencia del usuario en el **Centro** > de administración de Microsoft 365**usuarios activos** y **no** en la dirección de facturación que aparece en el perfil de la **organización** en el centro de **Administración de Microsoft 365**.   
 ![Captura de pantalla de la ubicación de la licencia del usuario](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Para obtener información detallada sobre los límites de uso y las condiciones de uso, consulte [período de llamada complementario de conferencias de audio](complimentary-dial-out-period.md).
@@ -58,7 +58,7 @@ Para obtener información detallada sobre los límites de uso y las condiciones 
     > [!NOTE]
     > En función de su plan, es posible que tenga que comprar más complementos para poder comprar licencias de sistema telefónico. Para obtener más información, consulte "opciones de licencia basadas en su plan" en [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. Después de comprar las licencias del sistema telefónico, puede comprar el plan de llamadas iniciando sesión en el **centro de administración de Microsoft 365**, seleccionando**suscripciones del complemento**servicios > de**compra**de **facturación** > y, a continuación, haciendo clic en **comprar ahora **. Verá los planes de llamadas allí.
+2. Después de comprar las licencias del sistema telefónico, puede comprar el plan de llamadas iniciando sesión en el **centro de administración de Microsoft 365**, seleccionando**suscripciones del complemento**servicios > de**compra**de **facturación** > y, a continuación, haciendo clic en **comprar ahora**. Verá los planes de llamadas allí.
     
     ![Captura de pantalla que muestra las opciones del plan de llamadas de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   

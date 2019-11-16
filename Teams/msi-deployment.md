@@ -15,10 +15,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0b80b82a89fc162e33263c784480f619dcd5cf32
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37567963"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
@@ -27,7 +27,7 @@ ms.locfileid: "37567963"
 > [!Tip]
 > Vea la siguiente sesión para obtener información sobre las ventajas del cliente de escritorio de Windows, cómo se planea y cómo se implementa: [Teams cliente de escritorio de Windows](https://aka.ms/teams-clients)
 
-Para usar System Center Configuration Manager, una directiva de grupo o cualquier mecanismo de distribución de terceros para una implementación ampliada, Microsoft ha proporcionado archivos MSI (tanto [de 32](https://aka.ms/teams32bitmsi) bits como de [64](https://aka.ms/teams64bitmsi)bits) que los administradores pueden usar para la implementación masiva de equipos para seleccionar usuarios o equipos. Los administradores pueden usar estos archivos para implementar equipos de forma remota, de modo que los usuarios no tengan que descargar manualmente la aplicación de Teams. Cuando se implementa, Teams se iniciará automáticamente para todos los usuarios que inicien sesión en ese equipo. (Puede deshabilitar el inicio automático después de instalar la aplicación. [Consulte a continuación](#disable-auto-launch-for-the-msi-installer)). Le recomendamos que implemente el paquete en el equipo, de modo que todos los nuevos usuarios del equipo también se beneficien de esta implementación. 
+Para usar System Center Configuration Manager, una directiva de grupo o cualquier mecanismo de distribución de terceros para una implementación ampliada, Microsoft ha proporcionado archivos MSI ( [32 de bits](https://aka.ms/teams32bitmsi) y [64](https://aka.ms/teams64bitmsi)bits) que los administradores pueden usar para la implementación masiva de equipos para seleccionar usuarios o equipos. Los administradores pueden usar estos archivos para implementar equipos de forma remota, de modo que los usuarios no tengan que descargar manualmente la aplicación de Teams. Cuando se implementa, Teams se iniciará automáticamente para todos los usuarios que inicien sesión en ese equipo. (Puede deshabilitar el inicio automático después de instalar la aplicación. [Consulte a continuación](#disable-auto-launch-for-the-msi-installer)). Le recomendamos que implemente el paquete en el equipo, de modo que todos los nuevos usuarios del equipo también se beneficien de esta implementación. 
 
 Los equipos también pueden incluirse con una implementación de Office 365 ProPlus. Para obtener más información, consulte [implementar Microsoft Teams con Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
  
