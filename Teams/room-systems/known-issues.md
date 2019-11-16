@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: En este artículo se comentan los problemas conocidos de Sala de Microsoft Teams por área de características.
-ms.openlocfilehash: 79bebf69c0d4fc8dabff3e294166e7ab08b79166
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 56d740cce8960e16e04fffc55bf96b46e3128a0c
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571394"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675434"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  
@@ -37,14 +37,14 @@ En este artículo se indican los problemas conocidos de Sala de Microsoft Teams 
 
 | Título del problema |  Comportamiento \/ síntoma | Solución conocida | Artículo de KB |
 |  ---        |      ---             |   ---            | --- |
-|Falta el teclado virtual   | El teclado virtual no aparece cuando necesita especificar información en Salas de Microsoft Teams. Este problema se produce después de instalar Windows 10 Creators Update (versión 1703) en un Surface Pro 4 en el que se ejecuta Sala de Microsoft Teams. | Para solucionar este problema, abra manualmente el teclado virtual. Para ello, siga estos pasos:<br><br> **1.** Mantenga presionada la barra de tareas y, después, pulse el botón **Mostrar teclado táctil**. Se mostrará un icono de teclado en el lado derecho de la barra de tareas. <br><br> **2.** Pulse el icono de teclado para abrir el teclado virtual. | [KB4037694](https://support.microsoft.com/en-us/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
+|Falta el teclado virtual   | El teclado virtual no aparece cuando necesita especificar información en Salas de Microsoft Teams. Este problema se produce después de instalar Windows 10 Creators Update (versión 1703) en un Surface Pro 4 en el que se ejecuta Sala de Microsoft Teams. | Para solucionar este problema, abra manualmente el teclado virtual. Para ello, siga estos pasos:<br><br> **1.** Mantenga presionada la barra de tareas y, después, pulse el botón **Mostrar teclado táctil**. Se mostrará un icono de teclado en el lado derecho de la barra de tareas. <br><br> **2.** Pulse el icono de teclado para abrir el teclado virtual. | [KB4037694](https://support.microsoft.com/help/4037694/virtual-keyboard-missing-in-skype-room-systems-v2) | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>Hardware
 
 | Título del problema |  Comportamiento \/ síntoma | Solución conocida | Artículo de KB |
 |  ---        |      ---             |   ---            |   --- |
-| No se detectan los monitores | Cuando ejecuta Sala de Microsoft Teams en un dispositivo Surface Pro (modelo 2017), no se detectan los monitores. |  Mantenga presionado el botón de encendido del Surface Pro durante 20 segundos o más. Al hacer esto, el dispositivo se reinicia y borra la caché de gráficos. |[KB4055681](https://support.microsoft.com/en-us/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
+| No se detectan los monitores | Cuando ejecuta Sala de Microsoft Teams en un dispositivo Surface Pro (modelo 2017), no se detectan los monitores. |  Mantenga presionado el botón de encendido del Surface Pro durante 20 segundos o más. Al hacer esto, el dispositivo se reinicia y borra la caché de gráficos. |[KB4055681](https://support.microsoft.com/help/4055681/monitors-are-not-detected-when-you-run-skype-room-systems-on-a-surface)       | 
 
 <a name="Limits"> </a>
 ## <a name="limitations-and-expected-behaviors"></a>Limitaciones y comportamiento esperado
@@ -75,6 +75,6 @@ Windows 10 1903 aún no se ofrece en dispositivos de salas de Microsoft Teams de
 <a name="See"> </a>  
 ## <a name="see-also"></a>Vea también
 
-[Ayuda de Salas de Microsoft Teams](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Ayuda de Salas de Microsoft Teams](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Administrar Salas de Microsoft Teams](skype-room-systems-v2.md)

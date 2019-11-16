@@ -1,0 +1,89 @@
+---
+title: Etiquetas de confidencialidad para Microsoft Teams
+author: lanachin
+ms.author: v-lanac
+manager: serdars
+ms.reviewer: abgupta
+ms.topic: article
+ms.tgt.pltfrm: cloud
+ms.service: msteams
+audience: Admin
+ms.collection:
+- M365-collaboration
+appliesto:
+- Microsoft Teams
+localization_priority: Normal
+search.appverid: MET150
+description: Obtenga información sobre cómo definir y usar etiquetas de confidencialidad en Microsoft Teams.
+ms.openlocfilehash: 3a0c40a51653a525587a0662949a3fdd4e63faf4
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653611"
+---
+# <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
+
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
+
+Las [etiquetas de confidencialidad](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels) permiten a los administradores de equipos regular el acceso a contenido de organización confidencial creado durante la colaboración dentro de Teams. Puede definir las etiquetas de confidencialidad y las directivas asociadas en el [centro de cumplimiento de & de seguridad](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center). Estas etiquetas y directivas se aplican automáticamente a los equipos de su organización.  
+
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>¿Cuál es la diferencia entre las etiquetas de confidencialidad y las etiquetas de clasificación de equipos?
+
+Las etiquetas de confidencialidad son diferentes de las etiquetas de clasificación que requieren su creación con PowerShell. Las etiquetas de clasificación son cadenas de texto que se pueden asociar a un grupo pero que no tienen ninguna directiva real asociada. Use las etiquetas de clasificación como metadatos para aplicar manualmente las directivas a través de las herramientas y scripts internos.
+
+Por otro lado, las etiquetas de confidencialidad y sus directivas se aplican de forma automática de principio a fin a través de una combinación de la plataforma de grupos, el centro de cumplimiento de & de seguridad y los servicios de Teams. Las etiquetas de confidencialidad proporcionan una eficaz compatibilidad de infraestructura para proteger los datos confidenciales de su organización.  
+
+## <a name="create-and-publish-sensitivity-labels-for-teams"></a>Crear y publicar etiquetas de confidencialidad para equipos
+
+Para obtener información sobre cómo habilitar, crear y publicar etiquetas de confidencialidad para equipos, consulte [usar etiquetas de confidencialidad con Microsoft Teams, grupos de Office 365 y sitios de SharePoint](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites).
+
+## <a name="using-sensitivity-labels-with-teams"></a>Usar etiquetas de confidencialidad con equipos
+
+A continuación se muestran algunos escenarios de ejemplo de cómo puede usar las etiquetas de confidencialidad con equipos de su organización.
+
+### <a name="privacy-setting-of-teams"></a>Configuración de privacidad de Teams
+
+Puede crear una etiqueta de confidencialidad que, cuando se aplique durante la creación del equipo, permita a los usuarios crear equipos con una configuración de privacidad (pública o privada) específica.
+
+Por ejemplo, puede crear una etiqueta denominada "confidencial" en el centro de cumplimiento de & de seguridad y configurar Teams de modo que cualquier equipo que se cree con esta etiqueta debe ser un equipo privado. Cuando un usuario crea un nuevo equipo y selecciona la etiqueta **confidencial** , la única opción de privacidad que está disponible para el usuario es **privada**. Otras opciones de privacidad, como público y toda la organización, están deshabilitadas para el usuario.
+
+![Captura de pantalla de etiqueta confidencial confidencial](media/sensitivity-labels-confidential-example.png)
+
+De forma similar, si el usuario selecciona **General** al crear un equipo nuevo, solo podrá crear equipos públicos o de toda la organización.
+
+![Captura de pantalla de etiqueta de confidencialidad general](media/sensitivity-labels-general-example.png)
+
+Cuando se crea el equipo, la etiqueta de confidencialidad está visible en la esquina superior derecha de los canales del equipo.
+
+![Captura de pantalla de la etiqueta de confidencialidad en el canal de equipo](media/sensitivity-labels-channel.png)
+
+El propietario de un equipo puede cambiar la etiqueta de confidencialidad y la configuración de privacidad del equipo en cualquier momento al ir al equipo y, a continuación, hacer clic en **Editar equipo**.
+
+![Captura de pantalla de la etiqueta de confidencialidad en el canal de equipo](media/sensitivity-labels-edit-team.png)
+
+### <a name="guest-access-to-teams"></a>Acceso de invitado a equipos
+
+Puede especificar si un equipo creado con una etiqueta específica le permite el acceso de invitado. Los equipos creados con una etiqueta que no permite el acceso de invitados solo están disponibles para los usuarios de su organización. Las personas de fuera de su organización no se pueden agregar al equipo.
+
+## <a name="known-issues"></a>Problemas conocidos
+
+**Compatibilidad con etiquetas de confidencialidad en el centro de administración de Microsoft Teams**
+
+Actualmente, las etiquetas de confidencialidad no se admiten en el centro de administración de Microsoft Teams. Si utiliza etiquetas de confidencialidad, no podrá establecer etiquetas de confidencialidad al crear o editar un equipo. Las etiquetas de confidencialidad tampoco están visibles en las propiedades del equipo y no se podrán ver en la columna **clasificación** del centro de administración de Microsoft Teams.
+
+**Compatibilidad con etiquetas de confidencialidad en las API de Team Graph, plantillas y cmdlets de PowerShell**
+
+En la actualidad, los usuarios no podrán aplicar etiquetas de confidencialidad a los equipos que se crean directamente a través de las API de Graph, los cmdlets de PowerShell y las plantillas.
+
+**Editar las etiquetas de confidencialidad directamente en una colección de sitios de SharePoint para canales privados**
+
+Los canales privados que se crean en un equipo heredan la etiqueta de confidencialidad que se aplicó a un equipo. Además, la misma etiqueta se aplica automáticamente en la colección de sitios de SharePoint para el canal privado.
+
+Si un usuario actualiza directamente la etiqueta de confidencialidad en una colección de sitios de SharePoint para un canal privado, esa etiqueta no se actualiza en el cliente de Teams. En este caso, los usuarios seguirán viendo la etiqueta de confidencialidad aplicada a un equipo en el encabezado de canal privado.
+
+**Horas de propagación para los cambios aplicados a las etiquetas de confidencialidad fuera de la aplicación de Teams**
+
+Los cambios realizados en las etiquetas de confidencialidad fuera de la aplicación Teams pueden demorar hasta 24 horas en reflejarse en la aplicación de Teams. Esto se aplica a los cambios realizados para habilitar o deshabilitar las etiquetas de un espacio empresarial, los cambios en los nombres de etiqueta, la configuración y las directivas.
+
+Además, cualquier cambio en una etiqueta realizada directamente a un grupo o una colección de sitios de SharePoint que respalda al equipo puede demorar hasta 24 horas en propagarse a la aplicación de Teams.

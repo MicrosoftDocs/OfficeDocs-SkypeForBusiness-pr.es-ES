@@ -1,7 +1,7 @@
 ---
 title: Administrar actualizaciones de Windows para salas de Microsoft Teams
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
@@ -13,12 +13,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Administrar actualizaciones de Windows para salas de Microsoft Teams
-ms.openlocfilehash: d1de433ae68630073ac5310bb55f0ada34b366d3
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5f0942efc1b503589412a1de6852d83e42a3b03e
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573522"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675424"
 ---
 # <a name="manage-windows-updates"></a>Administrar actualizaciones de Windows
 
