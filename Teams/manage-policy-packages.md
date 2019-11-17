@@ -3,7 +3,7 @@ title: Administrar paquetes de directivas en Microsoft Teams
 author: lanachin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: sekrantz
+ms.reviewer: sekrantz, aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -16,12 +16,12 @@ f1keywords: ms.teamsadmincenter.policypackages.overview
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar paquetes de directivas en Microsoft Teams.
-ms.openlocfilehash: fb01a7e15d43c18e115ecfbd0edb73b4808c2a59
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: ecfc6ae6fb1bb4d9632b8cd04b35dcee6d63359d
+ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972441"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38679835"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Administrar paquetes de directivas en Microsoft Teams
 
@@ -37,18 +37,19 @@ Actualmente, Teams incluye los siguientes paquetes de directivas.
 
 |**Nombre del paquete**  |**Descripción** |
 |---------|---------|
-|Paquete Education_Teacher     |Crea un conjunto de directivas y configuraciones de directivas que se aplican a los profesores.      |
-|Paquete Education_PrimaryStudent    |Crea un conjunto de directivas y opciones de directiva que se aplican a los alumnos principales.|
-|Paquete Education_SecondaryStudent    |Crea un conjunto de directivas y opciones de directiva que se aplican a los alumnos secundarios.         |
-|Paquete Education_HigherEducationStudent    |Crea un conjunto de directivas y opciones de directiva que se aplican a estudiantes de educación superior.|
+|Paquete de Education_Teacher     |Crea un conjunto de directivas y configuraciones de directivas que se aplican a los profesores.      |
+|Paquete de Education_PrimaryStudent    |Crea un conjunto de directivas y opciones de directiva que se aplican a los alumnos principales.|
+|Paquete de Education_SecondaryStudent    |Crea un conjunto de directivas y opciones de directiva que se aplican a los alumnos secundarios.         |
+|Paquete de Education_HigherEducationStudent    |Crea un conjunto de directivas y opciones de directiva que se aplican a estudiantes de educación superior.|
+|Paquete de SmallMediumBusiness_BusinessVoice    |Crea una directiva de configuración de aplicaciones que incluye las aplicaciones para una experiencia de voz de empresa.|
 
 > [!NOTE]
 > Agregaremos más paquetes de directivas en versiones futuras de Teams, así que vuelve a consultar la información más actualizada.  
 
 A cada directiva individual se le da el nombre del paquete de directivas para que pueda identificar fácilmente las directivas vinculadas a un paquete de directivas.
-Por ejemplo, al asignar el paquete de directivas Education_Teacher a los profesores de su escuela, se crea una directiva denominada Education_Teacher para cada Directiva del paquete.
+Por ejemplo, al asignar el paquete de directivas Education_Teacher a los profesores de su escuela, se crea una directiva llamada Education_Teacher para cada Directiva del paquete.
 
-![Captura de pantalla del paquete de directivas Education_Teacher](media/policy-packages-education_teacher.png)
+![Captura de pantalla del paquete de directivas de Education_Teacher](media/policy-packages-education_teacher.png)
 
 ## <a name="how-to-use-policy-packages"></a>Cómo usar paquetes de directivas
 
@@ -101,3 +102,7 @@ Puede editar la configuración de una directiva a través de la página **paquet
 **Recibe un error cuando asigna un paquete de directivas**
 
 Esto puede ocurrir si una o más directivas del paquete no se han creado o aplicado correctamente. Reasigne el paquete de directivas a los usuarios. El reintento de la operación normalmente soluciona este problema.
+
+## <a name="related-topics"></a>Temas relacionados
+
+[Paquetes de directivas de Microsoft Teams para administradores de EDU](policy-packages-edu.md)
