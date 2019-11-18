@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 571490c07e453c4a33144c01063159cf6ab9d257
-ms.sourcegitcommit: 082f451dd800b92d0b52e37402ecf621a738b4e5
+ms.openlocfilehash: 554ea9b5855a4b177c9f22dd985fc14c4b0e3877
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37973219"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653546"
 ---
 # <a name="how-do-i-get-my-users-ready-for-business-voice"></a>¿Cómo preparo a mis usuarios para Business Voice?
 
@@ -51,7 +51,7 @@ Para ver todos los dispositivos que son compatibles con Teams, visite la [Tienda
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>Configurar saludos de correo de voz y otras características de Business Voice
 
-Al igual que con los teléfonos habituales, puede configurar los saludos de correo de voz, desviar llamadas, elegir tonos y mucho más. Todo lo que los usuarios pueden configurar puede encontrarse en la aplicación Teams, en **Configuración**. Para obtener ayuda con la configuración de estas características, consulte [Administrar la configuración de llamadas en Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Al igual que con los teléfonos habituales, puede configurar los saludos de correo de voz, desviar llamadas, elegir tonos y mucho más. Todo lo que puede ser configurado por los usuarios se puede encontrar en la aplicación de Teams haciendo clic en la imagen de su perfil en la esquina superior derecha de Teams y luego seleccionando **Configurar**  > **Llamadas**. Para obtener ayuda con la configuración de estas características, consulte [Administrar la configuración de llamadas en Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>Más información acerca de lo que Microsoft Teams y Business Voice pueden hacer
 
