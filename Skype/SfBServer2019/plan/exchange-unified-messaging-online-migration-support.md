@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 57a9e6fa688fc17aedde3dbcf5e6b689263c5b4e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37616093"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702311"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -23,7 +23,7 @@ En referencia al [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/
  
 ExchUMO es implementado por los clientes para el buzón de voz, el operador automático, la cola de llamadas y los servicios de integración de fax. Microsoft planea ayudar a los clientes a migrar a servicios de sistema telefónico que ya admiten miles de clientes en Skype empresarial online y Microsoft Teams. 
 
-El buzón de voz es principalmente una migración dirigida por Microsoft; es posible que se requiera la implicación e inversión del administrador para un subconjunto de clientes. El operador automático es una migración guiada por el administrador; tendrá que volver a crear los árboles de operadores automáticos de ExchUMO existentes en el servicio de nube de operador automático de la nube. Los clientes que consumen cualquiera de las características de ExchUMO con un PBX de terceros no se migrarán a los servicios en la nube de Skype porque no admiten sistemas PBX de terceros. Se ha anunciado un plan de jubilación para la compatibilidad de terceros en [este blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)y los clientes de este modelo de implementación pueden migrar a sus usuarios a uno de los servicios/plataformas de comunicaciones unificadas de Microsoft, o adquirir un buzón de voz de terceros y/o automático solución de operador para estos usuarios. La integración de faxes no es compatible con los servicios basados en la nube; los clientes deberán migrar a una solución de terceros.
+El buzón de voz es principalmente una migración dirigida por Microsoft; es posible que se requiera la implicación e inversión del administrador para un subconjunto de clientes. El operador automático es una migración guiada por el administrador; tendrá que volver a crear los árboles de operadores automáticos de ExchUMO existentes en el servicio de nube de operador automático de la nube. Los clientes que consumen cualquiera de las características de ExchUMO con un PBX de terceros no se migrarán a los servicios en la nube de Skype porque no admiten sistemas PBX de terceros. En [este blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)se anunció un plan de jubilación para la compatibilidad de terceros, y los clientes de este modelo de implementación pueden migrar a sus usuarios a uno de los servicios/plataformas de comunicaciones unificadas de Microsoft o adquirir un buzón de voz de terceros o una solución de operador automático para estos usuarios. La integración de faxes no es compatible con los servicios basados en la nube; los clientes deberán migrar a una solución de terceros.
 
 ### <a name="who-is-affected"></a>¿A quién afecta?
 
@@ -156,7 +156,7 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | AA | Características del servicio | Compatibilidad con varios idiomas | Detalles del idioma aquí:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
 | AA | Características del servicio | Transferir al operador, CQ o un usuario |  | S | S    |
 | AA | Características del servicio | Transferir al número RTC internamente (RNL)  |  | S | S    |
-| AA | Características del servicio | Transferir a un número RTC externamente  |  | Q3CY19 | Y    |
+| AA | Características del servicio | Transferir a un número RTC externamente  |  | Consultar la sección problemas conocidos a continuación | Y    |
 | AA | Características del servicio | Horario comercial |  | S | S    |
 | AA | Características del servicio | Opciones de menú | Opciones del menú de IVR  | S | S    |
 | AA | Características del servicio | Asignación de un número de RTC en la nube a AA |  | Y | N    |
@@ -210,6 +210,15 @@ Los nuevos usuarios de Skype empresarial se aprovisionarán automáticamente par
 Para obtener más información sobre los operadores automáticos, vea [configurar un operador automático de la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
 
 #### <a name="known-issues"></a>Problemas conocidos
+
+**Transferencia automática del operador a RTC** Se recomienda a los clientes configurar una solución alternativa temporal para cumplir con los requisitos de transferencia de una llamada de operador automático a un número RTC externo o a una instancia de RGS. 
+ 
+Se identificó un problema durante el control de calidad con la característica transferir a número RTC, que no se fijará en el tiempo para los clientes para empezar a migrar desde el servicio de Exchange UMO antes de la fecha de jubilación programada del 1 de febrero de 2020. Como solución alternativa, los administradores pueden transferir las personas que llaman al operador automático a un usuario virtual local con una configuración de desvío de llamada activa para el número de teléfono de RTC deseado o el número de teléfono RGS. 
+ 
+Experiencia prevista
+- Los administradores no necesitan conceder licencia al usuario virtual, ya que es una solución alternativa. 
+- Los administradores pueden manipular la identificación de llamadas que el receptor de RTC verá asignando el número deseado al usuario virtual o usando las funciones de manipulación de dígitos de SBC 
+- Las personas que llaman a la RTC no experimentarán ningún retraso durante la transferencia de llamadas y seguirán viendo la identificación de llamadas del operador automático después de que la transferencia se realice correctamente.  
 
 **Buzón compartido:** Un buzón de correo compartido que se configura con Exchange UM online seguirá recibiendo mensajes después de migrarlos a CVM y seguirán siendo accesibles para los usuarios a través de Outlook. Sin embargo, el acceso para cambiar los mensajes de saludo de estos buzones no estará disponible una vez que se haya migrado a CVM. Los clientes con buzones compartidos que se usan para capturar las personas que llaman al operador automático deben aprovechar los operadores automáticos y las colas de llamadas capacidades de buzón de correo compartido una vez publicadas (ETA octubre de 2019).
   

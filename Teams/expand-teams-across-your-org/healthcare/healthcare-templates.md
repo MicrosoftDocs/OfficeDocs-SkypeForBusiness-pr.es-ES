@@ -1,7 +1,7 @@
 ---
 title: Introducción a las plantillas para las organizaciones sanitarias de Teams
-author: jambirk
-ms.author: jambirk
+author: kenwith
+ms.author: kenwith
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a las plantillas para las organizaciones sanitarias de Teams
-ms.openlocfilehash: e19c0403f259f400e784faf928738d36df66d618
-ms.sourcegitcommit: ced9b584eeceff7ca0109cba5823c7c3ddbd092e
+ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
+ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886443"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38702321"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas para las organizaciones sanitarias de Teams
 
@@ -43,7 +43,7 @@ La plantilla en adelante está pensada para la comunicación y la colaboración 
 
 ## <a name="hospital-template"></a>Plantilla de hospital
 
-La plantilla del hospital está pensada para la comunicación y la colaboración entre varios departamentos, pods y otros departamentos dentro de un hospital. En esta plantilla se incluyen varios canales operativos, entre los que se incluyen *anuncios*, personalización de la *asistencia*y *farmacia*, pero también ofrecemos una secuencia de comandos a continuación que extiende la plantilla con una variedad de departamentos adicionales o canales de especialización especializada que puede Agregar, eliminar o editar a su gusto. Por ejemplo, si tiene un departamento de *Endocrinology* , pero no necesita un canal para *Ophthalmology*, la secuencia de comandos puede adaptarse para incluir un canal de *Endocrinology* y quitar el canal *Ophthalmology* . Le recomendamos que estos canales de especialidad o modelos en el exterior no se hayan preferido de forma automática para evitar la saturación de las notificaciones. Por lo general, los usuarios tienen los canales que encuentran relevantes.
+La plantilla del hospital está pensada para la comunicación y la colaboración entre varios departamentos, pods y otros departamentos dentro de un hospital. En esta plantilla se incluyen varios canales operativos, entre los que se incluyen *anuncios*, personalización de la *asistencia*y *farmacia*, pero también ofrecemos una secuencia de comandos a continuación que extiende la plantilla con una variedad de canales adicionales centrados en el servicio o que puede Agregar, eliminar o editar a su gusto. Por ejemplo, si tiene un departamento de *Endocrinology* , pero no necesita un canal para *Ophthalmology*, la secuencia de comandos puede adaptarse para incluir un canal de *Endocrinology* y quitar el canal *Ophthalmology* . Le recomendamos que estos canales de especialidad o modelos en el exterior no se hayan preferido de forma automática para evitar la saturación de las notificaciones. Por lo general, los usuarios tienen los canales que encuentran relevantes.
 
 |Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
 |:--- |:---|:---|
@@ -52,20 +52,9 @@ La plantilla del hospital está pensada para la comunicación y la colaboración
 
 \*Con favoritos automáticos 
 
-## <a name="care-coordination-template"></a>Plantilla de coordinación de cuidados
-
-La plantilla de coordinación de cuidados está pensada para facilitar la comunicación dentro de un equipo de atención al paciente, con algunos ejemplos como interdisciplinarios y equipos multidisciplinarios. Nuestra aplicación de pacientes de propiedad está precargada en esta plantilla y se coloca en el canal general. Con la aplicación de pacientes, puede ajustar listas de pacientes y sus valores asociados y vitales, lo que hace que sea útil para el redondeo y los escenarios de administración de pacientes. 
-
-|Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
-|:--- |:---|:---|
-|Asistencia sanitaria: coordinación de cuidados | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareCareCoordination')`   | Revisión posterior al tratamiento\* <br> Programación\* <br> Instrui\* |
-| | |  |
-
-\*Con favoritos automáticos 
-
 ## <a name="how-to-use-first-party-templates"></a>Cómo usar las plantillas de primera fiesta
 
-Para usar estas plantillas, simplemente cambie la propiedad ' template@odata.bind ' en el cuerpo de la solicitud de ' Standard ' a la TemplateIDs anterior.  Para obtener más información sobre cómo implementar las plantillas de Teams, vea el artículo de Microsoft Graph sobre cómo [crear un equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
+Para usar estas plantillas, simplemente cambie la propiedad ' template@odata. bind ' en el cuerpo de la solicitud de ' Standard ' a la TemplateIDs anterior.  Para obtener más información sobre cómo implementar las plantillas de Teams, vea el artículo de Microsoft Graph sobre cómo [crear un equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta).
 
 > [!NOTE]
 > Los canales de la plantilla se crearán automáticamente en la ficha General.
