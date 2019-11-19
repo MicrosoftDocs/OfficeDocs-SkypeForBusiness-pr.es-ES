@@ -15,12 +15,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dbfd1bdaec48ebe8c6adbed86da431a6f4ecbfc
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 19f26c0bd7ab4fe89770909d81d60abc97aaa8b0
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972281"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653556"
 ---
 # <a name="check-your-internet-connection"></a>Comprobar la conexión a Internet
 
@@ -57,17 +57,17 @@ Antes de empezar, debe averiguar la siguiente información:
 Esto es lo que tiene que hacer:
 
 1. Abra un explorador, vaya a https://admin.teams.microsoft.com e inicie sesión con una cuenta que tenga permisos de administrador global. La cuenta que usó para registrarse en Office 365 tiene estos permisos.
-1. Abra **configuración para toda la organización** y, después, seleccione **Planeamiento de red**.
+1. Abra **Planificación** y, a continuación, seleccione **Planeamiento de red**.
 1. En **Planes de red**, seleccione **Agregar**. Asigne un nombre a su plan y, después, seleccione **Aplicar**. El plan de red debe tener el siguiente aspecto:
 
     ![Pantalla principal de Planeamiento de red](../media/network-planner-main.png)
 1. Haga clic en el nombre del plan de red (**Oficina principal** en la imagen anterior).
 1. En la página siguiente, seleccione **Agregar un sitio de red** en la pestaña **Sitios de red**.
-1. Rellene la información siguiente y, a continuación, seleccione **Guardar**.
+1. Rellene solo los campos que se muestran en la siguiente captura de pantalla y, a continuación, seleccione **Guardar**. Deje en blanco los otros campos de esta pantalla y no active las opciones **ExpressRoute** o **Conectado a WAN**.
 
     ![Información del sitio de Planeamiento de red](../media/network-planner-site-info.png)
 1. En la pestaña **Informe**, seleccione **Iniciar un informe**.
-1. Rellene la información siguiente y, a continuación, seleccione **Guardar informe**
+1. Rellene la información siguiente y, a continuación, seleccione **Generar informe** para crear un informe que muestre los requisitos de ancho de banda para los Teams. En la siguiente sección se mostrará cómo leer el informe.
 
     ![Información del informe de Planeamiento de red](../media/network-planner-report-info.png)
 

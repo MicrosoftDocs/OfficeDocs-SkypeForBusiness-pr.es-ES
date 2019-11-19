@@ -15,18 +15,18 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46f6f75ce0ac14193a4f7a8cfccadf8312f92a98
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 8e6ed778af0136516286798b0a7b04602f571de2
+ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972201"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38653536"
 ---
 # <a name="use-the-getting-started-wizard-to-set-up-business-voice"></a>Usar el Asistente para introducción para configurar Business Voice
 
 El Asistente para introducción de Microsoft 365 Business Voice le ofrece una forma sencilla y rápida de empezar a recibir y realizar llamadas telefónicas en Microsoft Teams. Si usted es una pequeña empresa que acaba de empezar, el asistente permite ponerse en marcha en unos minutos con números de teléfono, menús de llamadas, saludos y mucho más. Si es un empresa grande con una solución de telefonía establecida, el asistente puede ayudarle a configurar una prueba piloto de Business Voice para que pueda probarlo con pocos usuarios antes de configurarlo para todos. En cualquier caso, puede empezar a usar Business Voice tan pronto como finalice el asistente.
 
-Es una buena idea leer este artículo antes de iniciar el asistente. Cuando esté listo, puede abrir el asistente desde el [Centro de administración de Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage). Asegúrese de iniciar sesión con la cuenta que usó para crear la suscripción o con otra cuenta que sea un administrador global.
+Es una buena idea leer este artículo antes de iniciar el asistente. Cuando este listo, puede abrir el asistente seleccionando**Comenzar** en la página[Comenzar con Microsoft 365 Business Voice](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/featureexplorer/apps/SmbVoice). Asegúrese de iniciar sesión con la cuenta que usó para crear la suscripción o con otra cuenta que sea un administrador global.
 
 > [!IMPORTANT]
 > Business Voice está disponible actualmente en Canadá y el Reino Unido. Más países y regiones estarán disponibles en 2020.
@@ -64,7 +64,7 @@ Si quiere más información sobre las direcciones de emergencia, vea [¿Qué son
 </table>
 
 > [!IMPORTANT]
-> Si elige trasladar un número de teléfono existente a Microsoft 365, aún verá un número de teléfono temporal en el asistente. Es correcto. Cuando finalice el asistente y el proceso de traslado, el número de teléfono temporal se reemplazará por su número de teléfono.
+> Si elige trasladar uno o varios números de teléfono existentes a Microsoft 365, aún verá un número de teléfono temporal en el asistente. Es correcto. Cuando finalice el asistente y el proceso de traslado, el número de teléfono temporal se reemplazará por su número de teléfono.
 
 ## <a name="assigning-licenses-to-users"></a>Asignar licencias a los usuarios
 
@@ -96,12 +96,15 @@ Si quiere más información sobre las direcciones de emergencia, vea [¿Qué son
 <table>
     <tr>
         <td>Se pueden reenviar todas las llamadas a un usuario específico o se puede configurar un menú de llamadas en el que pueden elegir opciones. Si crea un menú de llamadas, puede especificar las opciones que puede seleccionar el autor de la llamada, eligiendo un número en el teclado numérico del teléfono o seleccionando la opción mediante el comando voz. Todas las opciones de menú se pueden reenviar a un usuario. <br>
-Puede elegir si quiere cargar un archivo de sonido (MP3 o WAV) de hasta 5 MB que proporcione instrucciones al autor de la llamada o escribir las instrucciones. Microsoft 365 usará el texto a voz para leer las instrucciones al autor de la llamada. Es posible que sea necesario deletrear las palabras para que las pronunciaciones sean correctas.
+        Puede elegir si quiere cargar un archivo de sonido (MP3 o WAV) de hasta 5 MB que proporcione instrucciones al autor de la llamada o escribir las instrucciones. Microsoft 365 usará el texto a voz para leer las instrucciones al autor de la llamada. Es posible que sea necesario deletrear las palabras para que las pronunciaciones sean correctas.
         </td>
         <td><img src="https://docs.microsoft.com/MicrosoftTeams/media/voice-wizard-call-forwarding-rules.png" width="400">
         </td>
     </tr>
 </table>
+
+> [!IMPORTANT]
+> El Asistente de introducción le ayuda a configurar un menú de llamadas simple para que pueda empezar a trabajar rápidamente. Si tiene varios números de teléfono en los que quiere configurar menús de llamadas, o si quiere configurar más menús de llamadas (también llamados operadores automáticos), siga los pasos descritos en [Configurar un operador automático de la nube](set-up-auto-attendants.md)después de que finalice el asistente.
 
 <table>
     <tr>
