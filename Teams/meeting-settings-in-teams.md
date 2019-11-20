@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración de las reuniones de teams que los usuarios programan en su organización.
-ms.openlocfilehash: 36325fe82c8864850da8e92de385752422e02f72
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564938"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746453"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -32,7 +32,8 @@ Como administrador, debe usar la configuración de reuniones de Teams para contr
 
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Permitir que usuarios anónimos se unan a reuniones
 
-Con la combinación anónima, cualquier persona puede unirse a la reunión como un usuario anónimo haciendo clic en el vínculo de la invitación a la reunión.
+Con la combinación anónima, cualquier persona puede unirse a la reunión como un usuario anónimo haciendo clic en el vínculo de la invitación a la reunión. Para obtener más información, vea [unirse a una reunión sin una cuenta de Teams](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
+
 
 ![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
@@ -62,7 +63,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **invitación por correo electrónico**, haga lo siguiente:
 
-    ![Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar](media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
+    ![Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar](media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para reuniones de Teams")
 
     - **Dirección URL del logotipo** Escriba la dirección URL donde se encuentra almacenado el logotipo.
     - **Dirección URL legal** Si su organización tiene un sitio web legal al que desea que se vean los problemas legales, escriba la dirección URL aquí.

@@ -19,16 +19,16 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 05e3c61a144fb962cfb6c7aca83f2996db17370a
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bedff059e1295714220ff70a7c97439f4b6aeef8
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793248"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746313"
 ---
 # <a name="activity-report"></a>Informe de actividad
 
-[] El nuevo panel **Informes** de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite profundizar en informes individuales de nivel de producto para proporcionarle información más detallada sobre las actividades de cada producto. Por ejemplo, puede usar el informe de **actividad de Skype empresarial** para ver cuánto están usando las sesiones de conferencia de punto a punto o organizada o cuánto están participando en sesiones de conferencia. 
+El panel de **informes** de Office 365 le muestra la información general de actividades en los productos de Office 365 de su organización. Le permite profundizar en informes individuales de nivel de producto para proporcionarle información más detallada sobre las actividades de cada producto. Por ejemplo, puede usar el informe de **actividad de Skype empresarial** para ver cuánto están usando las sesiones de conferencia de punto a punto o organizada o cuánto están participando en sesiones de conferencia. 
 
 Consulte la [información general](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) de los informes para obtener más información.
   
@@ -41,12 +41,8 @@ Este informe, junto con los otros informes de Skype empresarial, le ofrece detal
 
 1. Vaya al centro de administración > **** > **uso**de informes.
     
-2. En la página **uso** , haga clic en **actividad de Skype empresarial** en la **lista seleccionar un informe** de la izquierda o haga clic en el widget de **actividad de Skype empresarial** .
-    
-     ![Skype for Business DashBoard Widget.](../images/3925bc24-18fd-471e-8e93-edf5ccd3cdb7.png)
-  
-    > [!IMPORTANT]
-    > Según la suscripción de Office 365 que tenga, es posible que no vea todos los productos y los informes que se muestran aquí. 
+2. En la **Página uso** , elija**actividad** de **Skype empresarial** > en la **lista seleccionar un informe** de la izquierda o haga clic en el widget de **actividad de Skype empresarial** .
+
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Interpretar el informe de actividad de Skype Empresarial
 
@@ -68,7 +64,7 @@ Cada informe tiene la fecha del momento en que se generó. Por lo general, los i
 ![Número 3](../images/sfbcallout3.png)<br/>Utilice los datos del gráfico interactivo **Actividad** para comprender las tendencias de uso y ver el número de actividades de conferencia que se están llevando a cabo en su organización. Le mostrará el número total y los tipos de sesiones **Punto a punto**, **Organizadas** y **Participadas** en las sesiones de conferencia de toda su organización.  
 ***
 ![Número 4](../images/sfbcallout4.png)<br/>
-Utilice los datos del gráfico interactivo **Usuarios** para comprender las tendencias de uso y ver el número de usuarios únicos que participan en las actividades de conferencia realizadas en su organización. Le mostrará el número total de usuarios, junto con los tipos de **sesiones punto a punto**, organizadas y **** en las que **participó** en sesiones de conferencia.
+Utilice los datos del gráfico interactivo **Usuarios** para comprender las tendencias de uso y ver el número de usuarios únicos que participan en las actividades de conferencia realizadas en su organización. Le mostrará el número total de usuarios, junto con los tipos de **sesiones punto a punto**, **organizadas**y en las que **participó** en sesiones de conferencia.
 ***
 ![Número 5](../images/sfbcallout5.png)<br/>
 Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el gráfico **actividad** , haga clic o pulse en **sesiones de punto a punto**, **organizadas**o **participadas** para ver solo la información relacionada con cada una de ellas. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 

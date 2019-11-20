@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: f1eb46647facce3a849a249cac1b26b2bb9632c8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 202a8555b43902e553b8eadfaaa30b5577a8e4fa
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571587"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714246"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
-Debe configurar créditos de comunicaciones si pretende usar números gratuitos con Skype for Business y Microsoft Teams. Además, le recomendamos que configure créditos de comunicaciones para los planes de llamadas (nacionales o internacionales) y los usuarios de las conferencias de audio que necesiten poder marcar a **cualquier destino**. Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en su plan de llamadas o suscripciones de audioconferencia. Si no configura la facturación de créditos de comunicaciones y asigna una licencia de **créditos de comunicaciones** a los usuarios y los minutos se agotan para su organización (según el plan de llamadas o el plan de audioconferencia de su país o región), esos usuarios no podrás hacer llamadas ni llamar desde reuniones de audioconferencia. Puede obtener más información, entre las que se incluyen los importes de financiamiento recomendados, leyendo [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md)
+Debe configurar créditos de comunicaciones si pretende usar números gratuitos con Skype for Business y Microsoft Teams. Además, le recomendamos que configure créditos de comunicaciones para los planes de llamadas (nacionales o internacionales) y los usuarios de las conferencias de audio que necesiten poder marcar a **cualquier destino**. Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en su plan de llamadas o suscripciones de audioconferencia. Si no configura la facturación de créditos de comunicaciones y asigna una licencia de **créditos de comunicaciones** a los usuarios y los minutos se agotan para su organización (según el plan de llamadas o el plan de audioconferencia de su país o región), esos usuarios no podrán hacer llamadas ni llamar desde reuniones de audioconferencia. Puede obtener más información, entre las que se incluyen los importes de financiamiento recomendados, leyendo [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md)
   
 > [!NOTE]
 > Para saber cuánto cuesta, [consulte aquí las tarifas](https://go.microsoft.com/fwlink/p/?LinkId=799523 ). 
@@ -44,7 +44,7 @@ Para ello, debe **asignar una licencia de audioconferencia o de sistema telefón
     
     Después de asignar esta licencia, tendrá que configurar audioconferencia. Para obtener instrucciones paso a paso, consulte [probar o comprar audioconferencia en Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md).
     
-- Asigne un **sistema telefónico** y una licencia de plan de llamadas nacionales o nacionales e internacionales a los usuarios. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
+- Asigne un **sistema telefónico** y una licencia de plan de llamadas **nacionales o nacionales e internacionales** a los usuarios. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
     
     > [!NOTE]
     > Aunque no es necesario para el crédito de las comunicaciones, aún tiene que asignar un **plan de llamadas nacionales** o una licencia de **plan de llamadas nacionales e internacionales** .
@@ -55,7 +55,7 @@ Para obtener más información, consulte [licencias complementarias de Microsoft
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>Paso 2: configurar créditos de comunicaciones para su organización
 
-1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
+1. Inicie sesión en el nuevo portal de Office 365 con su cuenta profesional o educativa.
     
 2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, vaya a**** > **suscripciones**de **facturación** > agregar suscripciones.
 

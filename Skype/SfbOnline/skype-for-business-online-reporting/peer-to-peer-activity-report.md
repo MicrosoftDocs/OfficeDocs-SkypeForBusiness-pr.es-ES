@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Get a Skype for Business Peer-to-peer activity report, and learn how to interpret and customize it for your needs. '
-ms.openlocfilehash: 6564c57cee0821aa0e9204692f160b154ee5513b
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 1c25fc6d331e538aacbebd350180ec0a65821ef5
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792654"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746343"
 ---
 # <a name="peer-to-peer-activity-report"></a>Informe de actividad punto a punto
 
@@ -43,13 +43,8 @@ Este informe, junto con los otros informes de Skype empresarial, le ofrece detal
 
 1. Vaya al centro de administración > **** > **uso**de informes.
     
-2. En la página **uso** , haga clic en **actividad punto a punto de Skype empresarial** en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype** empresarial y, a continuación, haga clic en **actividad punto a punto de Skype empresarial** en la lista de **actividades de Skype empresarial** .
-    
-     ![Seleccionado el menú de punto a punto de Skype](../images/603ec74a-7f39-4e12-8f10-00979f7ee977.PNG)
-  
-    > [!IMPORTANT]
-    > Según la suscripción de Office 365 que tenga, puede que no vea todos los productos ni los informes de actividad que se muestran en aquí. 
-  
+2. En la página **uso** , seleccione**actividad punto a punto** de **Skype empresarial** > en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype** empresarial y, a continuación, haga clic en **actividad punto a punto de Skype empresarial** en la lista de **actividades de Skype empresarial** .
+
 ## <a name="interpret-the-skype-for-business-peer-to-peer-activity-report"></a>Interpretar el informe de actividad punto a punto de Skype Empresarial
 
 Puede obtener una vista de su actividad punto a punto de Skype Empresarial en los gráficos **Actividad**, **Usuarios** y **Minutos**.
@@ -67,7 +62,7 @@ Puede obtener una vista de su actividad punto a punto de Skype Empresarial en lo
 ***
 ![Número 3](../images/sfbcallout3.png)<br/>Utilice los datos del gráfico interactivo **Actividad** para comprender las tendencias de uso y ver el número total de sesiones por tipo de sesión que se realizan en su organización. Le mostrará el número total y los tipos de sesiones de **mensajería instantánea**, **audio**, **vídeo**, **uso compartido de aplicaciones**y **transferencia de archivos** en toda la organización. 
 ***
-![Número 4](../images/sfbcallout4.png)<br/>Utilice los datos del gráfico interactivo **Usuarios** para comprender las tendencias de uso y ver el número de usuarios únicos que participan en las actividades punto a punto realizadas en su organización. Le mostrará el número total de usuarios junto con los tipos de **mensajes instantáneos**, **audio**, **vídeo**, **uso compartido de aplicaciones**y transferencias de **archivos** en sesiones de punto a punto.
+![Número 4](../images/sfbcallout4.png)<br/>Utilice los datos del gráfico interactivo **Usuarios** para comprender las tendencias de uso y ver el número de usuarios únicos que participan en las actividades punto a punto realizadas en su organización. Le mostrará el número total de usuarios junto con los tipos de **mensajes instantáneos**, **audio**, **vídeo**, **uso compartido de aplicaciones**y **transferencias de archivos** en sesiones de punto a punto.
 ***
 ![Número 5](../images/sfbcallout5.png)<br/>Utilice los datos del gráfico interactivo **Minutos** para comprender las tendencias de uso y ver el número de minutos utilizados por los usuarios al realizar actividades de punto a punto con audio y vídeo. Muestra el número total de minutos de **Audio** y **Vídeo** que se utilizan en las sesiones de punto a punto. 
 ***
@@ -78,7 +73,7 @@ Puede obtener una vista de su actividad punto a punto de Skype Empresarial en lo
 
 En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este informe específico.
 ***
-![Número 7](../images/sfbcallout7.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el gráfico **actividad** , haga clic o pulse en **mensajería instantánea**, **audio**, **vídeo**, **uso compartido de aplicaciones**y transferencias de **archivos** para ver solo la información relacionada con cada uno de ellos. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
+![Número 7](../images/sfbcallout7.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el gráfico **actividad** , haga clic o pulse en **mensajería instantánea**, **audio**, **vídeo**, **uso compartido de aplicaciones**y **transferencias de archivos** para ver solo la información relacionada con cada uno de ellos. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
 ***
 ![Número 8](../images/sfbcallout8.png)<br/>La tabla muestra un desglose de todas las actividades de punto a punto por usuario. Se muestran todos los usuarios que tienen Skype Empresarial asignado y sus actividades de punto a punto. Puede agregar columnas a la tabla.
 *    **Nombre de usuario** es el nombre del usuario.

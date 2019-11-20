@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 143af6902c30c007d338b102534af2076a86cdcb
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: b79e90a1dc53ab95af314c99d0ffd1c33f2e1181
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793162"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746303"
 ---
 # <a name="conference-participant-activity-report"></a>Informe de actividad de los participantes de la conferencia
 
@@ -41,12 +41,8 @@ Este informe, junto con los otros informes de Skype empresarial, ofrece detalles
 
 1. Vaya al centro de administración > **** > **uso**de informes.
     
-2. En la página **uso** , haga clic en **actividad de participantes de conferencias de Skype empresarial** en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget de **actividad de Skype empresarial** y, a continuación, haga clic en **actividad de participante de conferencia** de Skype empresarial en la lista de actividades de **Skype empresarial** .
+2. En la página **uso** , seleccione**actividad de participantes de conferencias** de **Skype empresarial** > en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget de **actividad de Skype empresarial** y, a continuación, haga clic en **actividad de participante de conferencia** de Skype empresarial en la lista de actividades de **Skype empresarial** .
     
-     ![Elemento del menú actividad de participantes de conferencia de Skype seleccionado](../images/4033059e-dd2d-447d-8ee8-7515a5c26672.PNG)
-  
-    > [!IMPORTANT]
-    > Según la suscripción de Office 365 que tenga, puede que no vea todos los productos ni los informes de actividad que se muestran en aquí. 
   
 ## <a name="interpret-the-skype-for-business-conference-participant-activity-report"></a>Interpretar el informe de actividad de participantes de conferencias de Skype Empresarial
 
@@ -64,7 +60,7 @@ Este informe, junto con los otros informes de Skype empresarial, ofrece detalles
 ***
 ![Número 4](../images/sfbcallout4.png)<br/>Utilice los datos del gráfico interactivo **Usuarios** para comprender las tendencias de uso y ver el número de usuarios únicos que han participado en las conferencias realizadas celebradas en su organización. Se muestra el número total de usuarios y los tipos de conferencias de **MI**, **Audio/vídeo**, **Uso compartido de aplicaciones**, **web** y **entrantes y salientes (terceros)** que se han organizado. 
 ***
-![Número 5](../images/sfbcallout5.png)<br/>Use los datos del gráfico interactivo en el gráfico de **minutos** para comprender las tendencias de uso y para ver el número de minutos que usan los usuarios cuando organizan una conferencia con audio o vídeo, y acceso telefónico y saliente, Microsoft como Conferencia de audio proveedor. Muestra el número total de minutos de **Audio/vídeo** que se utilizan durante conferencias en las que se ha participado.
+![Número 5](../images/sfbcallout5.png)<br/>Use los datos de los gráficos interactivos en el gráfico de **minutos** para comprender las tendencias de uso y ver el número de minutos que los usuarios usan cuando organizan una conferencia con audio y vídeo, y acceso telefónico y saliente, Microsoft como su proveedor de servicios de audioconferencia. Muestra el número total de minutos de **Audio/vídeo** que se utilizan durante conferencias en las que se ha participado.
 ***
 ![Número 6](../images/sfbcallout6.png)<br/>Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el gráfico **Actividad**, haga clic o pulse o toqueen **MI**, **Audio/vídeo**, **Uso compartido de aplicaciones**, **wWeb**, y **conferencias eEntrantes y salientes (terceros)** para ver solo la información relacionada entrecon cada uno de los elementos. Cambiar esta selección no cambia la información en la tabla de cuadrícula.  
 ***

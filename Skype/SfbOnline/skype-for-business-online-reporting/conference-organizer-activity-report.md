@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Organized Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 77450c0ffd490e295f09951a1c9db9d04db61673
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: e93b77859c601131efae69b6ef30199accf031e7
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793190"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746333"
 ---
 # <a name="conference-organizer-activity-report"></a>Informe de actividad del organizador de la conferencia
 
@@ -41,12 +41,7 @@ Este informe, junto con los otros informes de Skype empresarial, le ofrece detal
 
 1. Vaya al centro de administración > **** > **uso**de informes.
     
-2. En la página **uso** , haga clic en la **actividad de organizador de conferencias de Skype empresarial** en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype empresarial** y, a continuación, haga clic en **actividad de organizador de conferencias de Skype empresarial** en la lista de **actividades de Skype empresarial** .
-    
-     ![Menú para informes de Skype con la actividad de organizador de conferencias de negocios resaltada](../images/3fee95f4-efa1-48f2-89af-a705f8f8b732.PNG)
-  
-    > [!IMPORTANT]
-    > Según la suscripción de Office 365 que tenga, puede que no vea todos los productos ni los informes de actividad que se muestran en aquí. 
+2. En la página **uso** , seleccione**actividad de organizador de conferencias** de **Skype empresarial** >en la **lista seleccionar un informe** de la izquierda. O bien, haga clic en el widget **actividad de Skype empresarial** y, a continuación, haga clic en **actividad de organizador de conferencias de Skype empresarial** en la lista de **actividades de Skype empresarial** .
   
 ## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpretar el informe de organizador de conferencias de Skype Empresarial
 

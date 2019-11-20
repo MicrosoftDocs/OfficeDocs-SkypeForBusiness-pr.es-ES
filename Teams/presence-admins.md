@@ -3,7 +3,6 @@ title: La presencia del usuario en Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
-ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b829fbffa728d3449ba19466d0a2cb85f266c9c2
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: be40c98a66e5f3023ce375d0a00515832280c7c0
+ms.sourcegitcommit: d2bee305a3588f8487bba3396b1825be7a52f6d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010603"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38714496"
 ---
 # <a name="user-presence-in-teams"></a>La presencia del usuario en Teams
 
@@ -29,7 +28,7 @@ La presencia es parte de un perfil de usuario de Microsoft Teams (y de toda la 3
 > [!IMPORTANT]
 > Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Solución: para ver la presencia en Outlook (y en otras aplicaciones de Office), debe estar instalado Skype empresarial, incluso si está ejecutando Teams en modo de **solo Teams** . Microsoft es consciente de este problema y está buscando una solución. 
 
-La presencia de Teams en Outlook es compatible con la aplicación de escritorio de Outlook 2013 y versiones posteriores.
+La presencia de Teams en Outlook es compatible con la aplicación de escritorio Outlook 2013 y posteriores.
 
 ## <a name="presence-states-in-teams"></a>Estados de presencia en Teams
 
@@ -56,11 +55,13 @@ Los Estados de presencia de usuario disponibles en Teams son:
 || ![Círculo púrpura con flecha, indica fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina|
 |||
  
-Los usuarios pueden establecer manualmente el estado de presencia actual en algunas opciones, y su estado se reflejará a todos los demás usuarios. También se actualizan automáticamente más detalles de presencia de usuario. Los cambios se basan en la actividad del usuario (disponible, ausente), Estados del calendario de Outlook (en una reunión) o Estados de la aplicación de Teams (en una llamada, presentando), para Estados que tienen sangría en la lista. 
+Los usuarios pueden establecer manualmente el estado de presencia actual en algunas opciones, y su estado se reflejará a todos los demás usuarios. También se actualizan automáticamente más detalles de presencia de usuario. Los cambios se basan en la actividad del usuario (disponible, ausente), Estados del calendario de Outlook (en una reunión) o Estados de la aplicación de Teams (en una llamada, presentando), para Estados que tienen sangría en la lista. Hay un tiempo de espera de 15 minutos de inactividad, después de que el estado de presencia actual se restablezca a ausente.
 
-Hay un tiempo de espera de 15 minutos de inactividad, después de que el estado de presencia actual se restablezca a ausente.
+Los usuarios reciben todos los mensajes de chat que se les envían en Teams, independientemente de su estado de presencia. Si un usuario está desconectado cuando alguien le envía un mensaje, el mensaje de la conversación aparecerá en teams la próxima vez que el usuario esté conectado. Si un usuario se encuentra en un estado de no molestar, el usuario recibirá mensajes instantáneos pero no se mostrará una notificación emergente.
 
-Los usuarios pueden especificar quién puede romperse (es decir, póngase en contacto con él a pesar de un estado no molestar). Esta configuración está disponible en el cliente de Teams.
+Los usuarios reciben llamadas en todos los Estados de presencia, excepto los Estados no molestar, en los que las llamadas entrantes se envían a su buzón de voz. Si el destinatario bloqueó al autor de la llamada, la llamada no se entregará y el autor de la llamada verá la presencia del destinatario como desconectado.
+
+Los usuarios pueden agregar personas a su lista de acceso prioritario yendo a **configuración** > **privacidad** en Teams. Las personas con acceso prioritario pueden ponerse en contacto con el usuario incluso cuando el usuario se encuentra en un estado de no molestar.
 
 ## <a name="admin-settings-in-teams-compared-to-skype-for-business"></a>Configuración de administración de equipos comparada con Skype empresarial
 
