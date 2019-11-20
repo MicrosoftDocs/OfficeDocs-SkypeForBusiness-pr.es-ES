@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad8b75e244efa0d28709d6c5ff225f1e6676200a
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
+ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290860"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38746293"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================
@@ -79,9 +79,6 @@ La experiencia de invitado tiene limitaciones deliberadamente establecidas. Aseg
 
 Para obtener una lista completa de qué puede y no puede hacer un invitado en Teams, vea la tabla de [comparación entre las funciones de los miembros del equipo y los invitados](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Para más información sobre el acceso de invitado a nivel de Office 365, lea [Agregar invitados a los grupos de Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
-## <a name="how-does-external-access-federation-compare-to-guest-access"></a>¿En qué se diferencia el acceso externo (federación) del acceso de invitado?
-
-[!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
 ## <a name="more-information"></a>Más información
 
