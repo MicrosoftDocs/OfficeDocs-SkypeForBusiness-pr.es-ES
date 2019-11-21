@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: La apariencia de la línea compartida permite que el usuario elija un delegado para responder o controlar las llamadas en su nombre.
-ms.openlocfilehash: aed55d29f2b9fc45c66040390d4d698acaf25258
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e668a4d98077eb8d1c2ac3b349e9ba16cb6abcba
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571763"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753427"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Apariencia de línea compartida en Microsoft Teams
 
@@ -36,9 +36,9 @@ La apariencia de la línea compartida forma parte de la característica de deleg
 
 ## <a name="license-required"></a>Licencia requerida
 
-Un usuario debe ser un usuario de Enterprise Voice para ser delegado o configurar la delegación y permitir que otros usuarios realicen o reciban llamadas en su nombre.
+Un usuario debe tener un sistema telefónico con conectividad RTC (una licencia de plan de llamadas o un OnlineVoiceRoutingPolicy de enrutamiento directo) para ser delegado o configurar la delegación y permitir que otros usuarios realicen o reciban llamadas en su nombre.
 
-Tanto los administradores como los delegados deben tener habilitada la telefonía IP empresarial. La experiencia de línea compartida es parte de la delegación y no requiere ninguna licencia adicional. Para obtener más información sobre el modelo de licencias, consulte [licencias de Office 365 para Microsoft Teams](office-365-licensing.md).
+Tanto los administradores como los delegados necesitan tener un sistema telefónico con conectividad RTC (ya sea una licencia de plan de llamadas o un enrutamiento de enrutamiento OnlineVoiceRoutingPolicy). La experiencia de línea compartida es parte de la delegación y se incluye con el sistema telefónico. Para obtener más información sobre el modelo de licencias, consulte [licencias de Office 365 para Microsoft Teams](office-365-licensing.md).
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configurar la delegación y la apariencia de las líneas compartidas
 

@@ -15,12 +15,12 @@ ms.collection:
 description: Conozca los diferentes modelos de identidad de Microsoft Teams, como Nube, Sincronizada y Federada. Aprenda también sobre la autenticación multifactor.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e485cc04be2e7bb5220a539d94cdce8e91cb0ec
-ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
+ms.openlocfilehash: c1aba56bccd78a0492e801299f47199b44c296f2
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931628"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753357"
 ---
 <a name="identity-models-and-authentication-in-microsoft-teams"></a>Modelos de identidad y autenticación en Microsoft Teams
 ==========================================
@@ -55,7 +55,7 @@ Los planes de Office 365 admiten la autenticación multifactor (MFA) que aumenta
 
 La autenticación multifactor es compatible con cualquier plan 365 de Office que incluya Microsoft Teams. Los planes de suscripción de Office 365 que incluyen Microsoft Teams se describen más adelante en la sección licencias que se muestra a continuación.
 
-Una vez que los usuarios se inscriban para MFA, la próxima vez que inicien sesión, verán un mensaje que les pide que configuren el segundo factor de autenticación. Los métodos de autenticación admitidos son:
+Una vez que los usuarios se hayan inscrito para MFA, la próxima vez que un usuario inicie sesión, verán un mensaje en el que se les pedirá que configuren el segundo factor de autenticación. Los métodos de autenticación compatibles son:
 
 
 |Tipo de inquilino  |Opciones disponibles de segundo factor de MFA  |Notas  |
