@@ -33,6 +33,7 @@
 ## [Ver análisis entre equipos y por equipo en Teams](teams-analytics-and-reports/cross-team-per-team-analytics.md)
 ## [Renovación y expiración del equipo](team-expiration-renewal.md)
 ## [Archivar o eliminar un equipo](archive-or-delete-a-team.md)
+## [Migrar de Slack a Teams](migrate-slack-to-teams.md)
 
 
 
