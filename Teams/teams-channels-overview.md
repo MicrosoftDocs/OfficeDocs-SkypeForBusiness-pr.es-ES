@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5051028b93b5170e7accde90412dcac6ceca04d
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37968061"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793396"
 ---
 > [!NOTE]
 > Revise la información siguiente para familiarizarse con los chats, equipos, canales y aplicaciones en Teams. Después, vaya a [chat, equipos, canales & aplicaciones de Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para recorrer una lista de decisiones importantes para la implementación de su equipo.
@@ -46,6 +46,8 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 
     - Los canales son lugares donde se producen las conversaciones y donde el trabajo se realiza realmente. Los canales pueden estar abiertos a todos los miembros del equipo o, si necesita más personas, pueden ser privadas. Los canales estándar son para las conversaciones en las que todos los miembros de un equipo pueden participar y los [canales privados](private-channels.md) limitan la comunicación a un subconjunto de personas de un equipo.
     - Los canales son mucho más útiles cuando se amplían con aplicaciones que incluyen fichas, conectores y bots que aumentan su valor para los miembros del equipo. Para obtener más información, consulte [aplicaciones, bots, conectores de & en Teams](deploy-apps-microsoft-teams-landing-page.md).
+    
+Para obtener ayuda con el uso de equipos y canales, consulte [equipos y canales](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499).
 
 Vea este vídeo breve para obtener más información sobre los procedimientos recomendados para crear equipos y canales.
 

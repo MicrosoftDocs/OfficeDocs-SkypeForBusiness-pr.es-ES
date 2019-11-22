@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5affe464ac300d0084916ad8ec0044ca74f8fa6b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 42fd9820f6f8ce11b245412a5ae99ed7b43dbc1e
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570085"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793536"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones de inquilino de Microsoft Teams
 =======================================================
@@ -45,13 +45,13 @@ Un paquete de la aplicación de Teams se crea con [Teams App Studio](https://doc
 
 ### <a name="go-to-the-tenant-apps-catalog"></a>Ir al catálogo de aplicaciones de inquilino
 
-Inicie el cliente de Microsoft Teams e inicie sesión con las credenciales de administrador del servicio global o de Teams. En la tienda Microsoft Teams, seleccione la nueva sección nombrada para su organización específica (en este ejemplo, contoso). Los usuarios de su organización pueden ver las aplicaciones en el catálogo e instalarlas para los equipos de los que son miembros.
+Inicie el cliente de Microsoft Teams e inicie sesión con las credenciales de administrador del servicio global o de Teams. Seleccione **aplicaciones** en la parte izquierda de la aplicación y, a continuación, seleccione la nueva sección nombrada para su organización específica (en este ejemplo, contoso). Los usuarios de su organización pueden ver las aplicaciones en el catálogo e instalarlas para los equipos de los que son miembros.
 
 ![Captura de pantalla de la tienda de aplicaciones de teams que muestra el catálogo de aplicaciones.](media/private-app-store-teams-image01.png)
 
 ### <a name="add-an-app-to-the-tenant-apps-catalog"></a>Agregar una aplicación al catálogo de aplicaciones de inquilino
 
-1. En la tienda, seleccione **cargar una** > **carga de aplicaciones personalizada para contoso**.
+1. En la página **aplicaciones** , seleccione **cargar una aplicación** > **de carga personalizada para contoso**.
 
     ![Captura de pantalla de la tienda de aplicaciones de teams que muestra el catálogo de aplicaciones.](media/private-app-store-teams-image02.png)
 
@@ -75,7 +75,7 @@ La aplicación se revisará como versión 2,0. También puede eliminar la aplica
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Usar el portal de administración de Office 365 para administrar el catálogo de aplicaciones de inquilino
 
-Si tiene aplicaciones que necesitan correcciones de errores, puede deshabilitar temporalmente las aplicaciones a través del portal de administración de Office 365. Seleccione **Settings** > **Services & complementos** > **Microsoft Teams**. Además de la configuración anterior, ahora hay una sección dedicada a las aplicaciones de su empresa. Puede elegir qué aplicaciones quiere habilitar o deshabilitar.
+Si tiene aplicaciones que necesitan correcciones de errores, puede deshabilitar temporalmente las aplicaciones a través del centro de administración de Microsoft 365 > **Teams centro** > **** > de administración de Teams**directivas de permisos** > <nombre de la Directiva, por ejemplo, "global (valor predeterminado de toda la organización)" > **aplicaciones de inquilino** > bloquear aplicaciones específicas y permitir a todos los demás y agregar la aplicación a la lista.
 
 ![Captura de pantalla de la tienda de aplicaciones de teams que muestra el catálogo de aplicaciones.](media/private-app-store-teams-image05.png)
 

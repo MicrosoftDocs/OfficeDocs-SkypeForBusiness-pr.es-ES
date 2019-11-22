@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b3d2ed05459c6866c73b0f49b128eea3980605f
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fa8e71d167bbb5f5381c66a1a8545a6f94f74e62
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968311"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793506"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Preguntas más frecuentes sobre las directivas de retención de Microsoft Teams
 
@@ -44,6 +44,10 @@ Sí, están. Si crea una directiva de retención para eliminar los datos anterio
 ### <a name="what-is-the-default-retention-policy"></a>¿Qué es la Directiva de retención predeterminada? 
 
 De forma predeterminada, los datos de chat, canal y archivos de Teams se conservan para siempre.
+
+### <a name="what-licensing-is-required-for-retention-policies"></a>¿Qué licencias son necesarias para las directivas de retención?
+
+El requisito mínimo de licencias para las directivas de retención es Office 365 E3. Para obtener más información sobre las licencias, lea [licencias de Office 365 para Teams](office-365-licensing.md).
 
 ### <a name="can-i-target-sets-of-users-or-teams-in-a-policy"></a>¿Puedo apuntar a conjuntos de usuarios o equipos en una directiva? 
 

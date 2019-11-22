@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad del ciclo de vida de las salas de Microsoft Teams.
-ms.openlocfilehash: 55fde6317fe53102b97f752667d540e33a7b8c8c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: a76fc10b2348b1ecd89a8beabc30c104e32ec13c
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675798"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793516"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Compatibilidad de versiones de la aplicación salas de Microsoft Teams
  
@@ -51,6 +51,7 @@ En la tabla siguiente se muestran las versiones recomendadas y compatibles de Wi
 
 |Versión  |Fecha de disponibilidad   |Estado de soporte técnico de salas de Microsoft Teams   |Versión mínima de la aplicación salas de Microsoft Teams | Compilación recomendada de sistema operativo  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 1909 |2019-11-12 |Actualmente validando, <br/>No recomendado|&#x2014; |&#x2014; |
 | 1903 |2019-05-21 |&#x2780; compatibles, <br/>Recomendado  |4.2.4.0 |18362,356 |
 | 1809 |2019-03-28 |Omitidos <br/>No se recomienda &#x2781;|&#x2014; |&#x2014; |
 | 1803 |2018-07-10 |Compatible                             |4.1.22.0 |17134,191|
