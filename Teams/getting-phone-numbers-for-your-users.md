@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener nuevos números para los equipos, trasladarlos o transferirlos, y cómo mostrar los cambios a los usuarios. '
-ms.openlocfilehash: 2b8dcb2f10f4c5e4452a24fbc9fc4230cffbe874
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 51f436a3b2d462e9984fb9fc09620e7c1a77307d
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925291"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209206"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Obtener números de teléfono de Skype Empresarial para los usuarios
 
@@ -45,7 +45,7 @@ Hay tres formas de obtener números de usuarios:
 
 ![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
     
-1. En el navegación izquierdo, vaya a **** > **números de teléfono**de voz y, a continuación, haga clic en **obtener números nuevos**.
+1. En el navegación de la izquierda, vaya a**números de teléfono**de **voz** > y, después, haga clic en **Agregar**.
 2. Escriba un nombre para el pedido y, si lo desea, agregue una descripción.
 3. En la página ubicación y cantidad, haga lo siguiente:
     1. En **país o región**, seleccione un país o una región.
@@ -75,7 +75,7 @@ En el navegación de la izquierda, vaya a**números de teléfono** de **voz** > 
     
 - Después de obtener los números de teléfono, tendrá que asignar un número a cada uno de los usuarios. Consulte [Asignar un número de teléfono en Skype Empresarial](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
     
-- Puede usar la página **números de teléfono** en el centro de administración de Microsoft Teams para ver la lista de números de teléfono disponibles en la columna **número de teléfono** , ver si el número de teléfono se ha asignado en la columna **Estado** y la ubicación de la número de teléfono en la columna **Ubicación** . 
+- Puede usar la página **números de teléfono** en el centro de administración de Microsoft Teams para ver la lista de números de teléfono disponibles en la columna **número de teléfono** , ver si el número de teléfono se ha asignado en la columna **Estado** y la ubicación del número de teléfono en la columna **Ubicación** . 
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el servicio de asistencia al cliente de RTC](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).

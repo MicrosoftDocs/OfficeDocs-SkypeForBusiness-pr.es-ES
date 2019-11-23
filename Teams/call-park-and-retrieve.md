@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Use estacionamiento y recuperar para poner una llamada en espera en el servicio de Teams en la nube.
-ms.openlocfilehash: ab70832cde09cf5328e6fa0743c00614c839fc8d
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 9a6f5b6a51a0193625ecd2dab294c2cf454cb21f
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517034"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209186"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -99,7 +99,7 @@ Si los usuarios no pueden ver el botón detener o recuperar:
 Si un usuario intenta recuperar una llamada y no se ha realizado correctamente, compruebe lo siguiente:
 
 - Comprobar que el usuario está usando el cliente de Teams o un dispositivo/teléfono habilitado para Teams
-- Agrupación: ¿es el usuario miembro del grupo de estacionamiento de llamadas?
+- Agrupación: el usuario es miembro del grupo de estacionamiento de llamada, que se basa en que los mismos equipos tienen asignada la política de estacionamiento. 
 - Modo isla: la llamada de estacionamiento y recuperar no está disponible en el modo isla de Teams.
 - Ya se ha recuperado o finalizado la llamada.
 
