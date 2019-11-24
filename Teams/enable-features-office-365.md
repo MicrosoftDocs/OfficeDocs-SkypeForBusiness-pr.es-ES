@@ -19,12 +19,12 @@ f1keywords:
 - ms.teamsadmincenter.teamssettings.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cb645143cfb5066226bb32b590c17b0f42c9764
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 024ee4b0a75f2563eb281518ac098d12aaea3337
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37616082"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753367"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -110,6 +110,11 @@ El modo de coexistencia que elija determina el enrutamiento de las llamadas entr
 #### <a name="app-preferences"></a>Preferencias de la aplicación
 
 Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las reuniones de Skype Empresarial (Skype Empresarial o la [Aplicación Reuniones de Skype](https://support.office.com/es-ES/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5)). Esta opción no depende de la configuración del modo de coexistencia.
+
+
+#### <a name="network-planner"></a>Planificador de red
+
+El planificador de red le ayuda a determinar y organizar los requisitos de la red para conectar a los usuarios de Teams dentro de la organización.  Obtenga información acerca de cómo [Usar el Planificador de red para Microsoft Teams](https://docs.microsoft.com/microsoftteams/network-planner).
 
 También puede seleccionar la opción «Descargar la aplicación Teams en segundo plano para usuarios de Skype empresarial».  Esta configuración está seleccionada de forma predeterminada. Con esta configuración habilitada, se descargará la aplicación de Teams en segundo plano para los usuarios que ejecuten la aplicación de Skype empresarial en Windows. Esto sucede si el modo de Coexistencia del usuario es Solo Teams, o si se habilita la notificación de actualización pendiente en la aplicación de Skype Empresarial.
 

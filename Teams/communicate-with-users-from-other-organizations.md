@@ -15,17 +15,19 @@ description: Infórmese sobre cómo comunicarse con usuarios de otras organizaci
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: a777baed1d5cc35788b2c4f63741317e34eb7905
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 8132fa07445beb9e9d26195a4269d025169ec94f
+ms.sourcegitcommit: d46e739785595727e2b3e1e5f96f5bff65e78540
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37754376"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753387"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunicación con usuarios de otras organizaciones en Microsoft Teams
 ======================================================
 
 Microsoft Teams le ofrece dos formas diferentes para comunicarse y colaborar con personas de fuera de su organización. La primera es el **acceso externo** (federación) que le permite buscar, llamar y conversar con usuarios de otros dominios (como contoso.com). La segunda es el **acceso de invitado** que le permite agregar personas a sus equipos como invitados, mediante su dirección de correo. Puede colaborar con los invitados igual que lo haría con cualquier otro usuario de su organización.
+
+Puede usar tanto el acceso externo como el acceso de invitado si lo desea; uno no excluye al otro.
 
 A continuación, le mostramos a grandes rasgos cómo elegir entre ambas (para obtener una comparación detallada, consulte abajo [Comparar el acceso externo y el de invitado](#compare-external-and-guest-access)):
 
