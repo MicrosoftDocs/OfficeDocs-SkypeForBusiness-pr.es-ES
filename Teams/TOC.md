@@ -821,7 +821,7 @@
 
 <!-- ============================================================ -->
 #       
-#        
+#          
 # [Aprendizaje](training-microsoft-teams-landing-page.md)
 ## [Cursos de entrenamiento dirigidos por un instructor para Teams](instructor-led-training-teams-landing-page.md)
 ## [Formación de administradores para Teams](itadmin-readiness.md)
@@ -836,6 +836,7 @@
 ## Prepararse para implementar Teams
 ### [Comprobar la preparación del entorno para Teams](environment-readiness.md).
 ### [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
+### [Usar el Asesor de Teams para implementar Teams](use-advisor-teams-roll-out.md)
 ### [ Usar Network Planner para Teams ](network-planner.md)
 ### [Tutorial de Network Planner](tutorial-network-planner-example.yml)
 ### [Servidores proxy para Skype Empresarial Online o Teams](proxy-servers-for-skype-for-business-online.md)
