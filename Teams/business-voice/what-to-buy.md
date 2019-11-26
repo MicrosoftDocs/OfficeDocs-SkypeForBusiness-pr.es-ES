@@ -15,12 +15,19 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fffda2964e503f300b5c19f4cc6c4a98e5668a5
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+no-loc:
+- Microsoft 365
+- Microsoft 365 Business Voice
+- Business Voice
+- Teams
+- Microsoft Teams
+- Office 365
+ms.openlocfilehash: 332a042c127ccab1204f1af97a899f5a9b3dc4f7
+ms.sourcegitcommit: 000957709b841ce55a6813ccc2fbe745b1a9295b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972031"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39218017"
 ---
 # <a name="what-do-i-need-to-purchase-to-use-microsoft-365-business-voice"></a>¿Qué debo comprar para usar Microsoft 365 Business Voice?
 
@@ -87,5 +94,5 @@ Para ver los precios de llamadas internacionales y teléfonos gratuitos, desplá
 
 ## <a name="maximum-number-of-supported-users"></a>Cantidad máxima de usuarios admitidos
 
-El complemento de Business Voice disponible con las suscripciones a Microsoft 365 para pymes admite hasta un máximo de 300 usuarios con licencia. Si desea conceder una licencia de Business Voice a más de 300 usuarios, debe comprar una suscripción a Office 365 E3 o E5.
+El complemento de Business Voice disponible con las suscripciones a Microsoft 365 para pymes admite hasta un máximo de 300 usuarios con licencia. Si quiere conceder una licencia de Business Voice a más de 300 usuarios, debe comprar una suscripción a Office 365 E3 o E5.
 
