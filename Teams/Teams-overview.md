@@ -16,12 +16,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 101849cdae4e60b927a99c808ad3e37682f19b03
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
+ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290850"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39209066"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenido a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para comenzar a usar Teams, empiece por [Cómo implementar Teams](How-to-roll-out-teams.md).
@@ -83,7 +83,7 @@ Cuando decida qué aplicaciones y servicios de Office 365 va a usar, piense en e
 
 - **OneDrive para la Empresa** sirve para almacenar archivos y compartirlos con las personas a las que invite el usuario. El contenido que guarde un usuario en OneDrive para la Empresa es privado hasta que lo comparta con otras personas. Por lo tanto, es la mejor opción para almacenar documentos personales y borradores que no tenga previsto compartir o que aún no estén listos para compartirlos.
 
-- **Yammer** conecta a las personas de la organización. Fomente las iniciativas de toda la compañía, comparta las prácticas recomendadas y cree comunidades alrededor de temas de interés, áreas o procedimientos comunes Colabore con ideas para fomentar debates abiertos con la gente de toda la compañía.
+- **Yammer** conecta a las personas de la organización. Impulse iniciativas para toda la empresa, comparta procedimientos recomendados y cree comunidades en torno a temas comunes de interés o áreas de práctica. Colabore con ideas para fomentar debates abiertos con la gente de toda la compañía.
 
 - **Las aplicaciones de Office** son todas las herramientas familiares que la gente conoce y usa con regularidad, como Word, Excel, PowerPoint y OneNote. 
 

@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: ab76d3ee8a08b6bf109e1cb235b4f0f3a4fbdcc8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9fcd8ec8dab78b03b408813d32292879cbec2
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572151"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257479"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -264,7 +264,7 @@ En la tabla siguiente se resumen las relaciones entre centros de recursos primar
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>Tráfico de medios: intervalos de puertos
-Tenga en cuenta que los requisitos siguientes se aplican si desea implementar el enrutamiento directo sin omisión de medios. Para conocer los requisitos de Firewall para omisión de medios, consulte [planear la omisión de medios con enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass).
+Tenga en cuenta que los requisitos siguientes se aplican si desea implementar el enrutamiento directo sin omisión de medios. Para conocer los requisitos de Firewall para omisión de medios, consulte [planear la omisión de medios con enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-plan-media-bypass).
 
 
 
@@ -287,9 +287,8 @@ El intervalo de puertos de los procesadores multimedia se muestra en la tabla si
 
 |**Transmisión**|**De**|**Hasta**|**Puerto de origen**|**Puerto de destino**|
 |:--- |:--- |:--- |:--- |:--- |
-|UDP/SRTP|Procesador de medios|SBC|49 152 – 53 247|Definido en la SBC|
-|UDP/SRTP|SBC|Procesador de medios|Definido en la SBC|49 152 – 53 247|
-|
+|UDP/SRTP|Procesador de medios|SBC|49152 – 53247|Definido en la SBC|
+|UDP/SRTP|SBC|Procesador de medios|Definido en la SBC|49152 – 53247|
 
   > [!NOTE]
   > Microsoft recomienda al menos dos puertos por llamada simultánea en la SBC.

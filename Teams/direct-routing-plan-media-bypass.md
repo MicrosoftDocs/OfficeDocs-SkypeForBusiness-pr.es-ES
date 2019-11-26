@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: cdfeb5313416730c703a1d0f10e2c7ccdddee1cc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
+ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572162"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257489"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -145,15 +145,15 @@ El intervalo IP es 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254)
 
 - Los relés de transporte no son B2BUA, lo que significa que el códec nunca cambia entre el cliente y SBC, aunque el tráfico fluya por medio de retransmisiones.
 
-### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>Uso de los equipos de transporte de equipos en escenarios de escalado si el tronco está configurado para la omisión de medios
+### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>Uso de los procesadores de equipos multimedia si el tronco está configurado para la omisión de medios
 
-Los transmisores de transporte de los equipos siempre están en la ruta multimedia en los siguientes escenarios:
+Los procesadores multimedia de Teams siempre se insertan en la ruta multimedia en los siguientes escenarios:
 
 - La llamada se transfiere de 1:1 a una llamada grupal
 - La llamada va a un usuario de equipos federados
 - La llamada se desvía o se transfiere a un usuario de Skype empresarial
 
-Asegúrese de que su SBC tenga acceso a los relés de transporte como se describe a continuación.    
+Asegúrese de que su SBC tenga acceso a los intervalos de los procesadores de medios y transmisiones de transporte como se describe a continuación.    
 
 
 ## <a name="sip-signaling-fqdns"></a>Señalización SIP: FQDN
@@ -243,7 +243,7 @@ El tráfico multimedia fluye entre el cliente de SBC y Teams si está disponible
 
 El cliente debe tener acceso a los puertos especificados (vea la tabla) en la dirección IP pública de SBC. 
 
-Nota: Si el cliente se encuentra en una red interna, los medios fluyen a la dirección IP pública de la SBC. Puede configurar hairpinning en su dispositivo NAT para que el tráfico nunca salga del equipo de red empresarial.
+Nota: Si el cliente se encuentra en una red interna, los medios fluyen a la dirección IP pública de la SBC. Puede configurar el anclaje del cabello en su dispositivo NAT para que el tráfico nunca salga del equipo de red empresarial.
 
 | Transmisión | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
