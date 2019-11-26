@@ -16,18 +16,18 @@ appliesto:
 localization_priority: Priority
 ms.custom: ''
 description: Instrucciones detalladas para migrar de Slack a Microsoft Teams.
-ms.openlocfilehash: c723df62c3b8811b8d520c66d81e59aa5f96c3bb
-ms.sourcegitcommit: 1d230336c0ab48a2914906dc8f4b6b3d996f46fb
+ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
+ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/21/2019
-ms.locfileid: "38756816"
+ms.locfileid: "38793476"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migración de Slack a Microsoft Teams
 
 Este artículo le guiará en el proceso para migrar a Microsoft Teams desde Slack.
 
-Al planear la migración de su organización a Teams desde Slack, es importante decidir qué necesita conservar (si es que hay algo). Empezaremos por describir qué tipos de datos se pueden migrar y, después, explicaremos cómo evaluar sus necesidades, planear la migración y completar la misma.
+Al planear la migración de los equipos de la organización a un equipo, es importante que decida qué debe mantenerse (si es que es necesario). Empezaremos por describir qué tipos de datos se pueden migrar y, después, explicaremos cómo evaluar sus necesidades, planear la migración y completar la misma.
 
 El diagrama siguiente muestra la arquitectura de Slack a nivel general.
 
