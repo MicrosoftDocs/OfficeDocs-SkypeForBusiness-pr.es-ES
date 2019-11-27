@@ -3,7 +3,6 @@ title: Configuración de red de enrutamiento basado en la ubicación
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: article
 ms.reviewer: roykuntz
 audience: admin
@@ -15,96 +14,47 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240bbce48452edf505a61830891d0fcd6a6d199d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 18df741dad691ba24d6950f132086b1f49b40684
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570704"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615850"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configuración de red de enrutamiento basado en la ubicación
 
-> [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
+> [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
 Si aún no lo ha hecho, lea [planificar el enrutamiento basado en la ubicación para que el enrutamiento directo](location-based-routing-plan.md) Revise otros pasos que debe realizar antes de configurar la configuración de red para el enrutamiento basado en la ubicación.
 
-En este artículo se describe cómo configurar las opciones de red para el enrutamiento basado en la ubicación. Después de implementar el enrutamiento directo de un sistema telefónico en su organización, los pasos siguientes son crear y configurar regiones de red, sitios de red y subredes de red. Para completar los pasos de este artículo, necesitará cierta familiaridad con los cmdlets de PowerShell. Para obtener más información, consulte [información general de Teams PowerShell](teams-powershell-overview.md).
+En este artículo se describe cómo configurar las opciones de red para el enrutamiento basado en la ubicación. Después de implementar el enrutamiento directo de un sistema telefónico en su organización, los pasos siguientes son crear y configurar regiones de red, sitios de red y subredes de red.
 
 ## <a name="define-network-regions"></a>Definir regiones de red
- Una región de red interconecta varias partes de una red en varias áreas geográficas. Use el cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) para definir regiones de red. Tenga en cuenta que el parámetro RegionID es un nombre lógico que representa la geografía de la región y no tiene dependencias ni restricciones, &lt;y el&gt; parámetro de identificador de sitio CentralSite es opcional. 
 
-```
-New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
-```
-
-En este ejemplo, creamos una región de red denominada India. 
-```
-New-CsTenantNetworkRegion -NetworkRegionID "India"  
-```
+Una región de red contiene una colección de sitios de red y se conecta a varias partes de una red en varias áreas geográficas. Para conocer los pasos sobre cómo configurar regiones de red, vaya a [administrar la topología de red para las características en la nube de Teams](manage-your-network-topology.md).
 
 ## <a name="define-network-sites"></a>Definir sitios de red
 
-Use el cmdlet [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) para definir sitios de red. 
+Un sitio de red representa una ubicación en la que su organización tiene un lugar físico, como una oficina, un conjunto de edificios o un campus. Debe asociar cada sitio de red de su topología a una región de red. Para conocer los pasos sobre cómo configurar sitios de red, vea [administrar la topología de red para las características en la nube de Teams](manage-your-network-topology.md).
 
-```
-New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
-```
-En este ejemplo, creamos dos nuevos sitios de red, Delhi y Hyderabad, en la región de India. 
-```
-New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India" 
-New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India" 
-```
-En la tabla siguiente se muestran los sitios de red definidos en este ejemplo. 
-
-||Sitio 1 |Sitio 2 |
-|---------|---------|---------|
-|IDENTIFICADOR de sitio    |    Sitio 1 (Delhi)     |  Sitio 2 (Hyderabad)       |
-|IDENTIFICADOR de región  |     Región 1 (India)    |   Región 1 (India)      |
+Un procedimiento recomendado para el enrutamiento basado en la ubicación es crear un sitio independiente para cada ubicación que tenga conectividad RTC exclusiva. Puede crear un sitio habilitado para el enrutamiento basado en la ubicación o un sitio que no esté habilitado para el enrutamiento basado en la ubicación. Por ejemplo, es posible que desee crear un sitio que no esté habilitado para el enrutamiento basado en la ubicación para permitir que los usuarios que tengan habilitado el enrutamiento basado en la ubicación realicen llamadas RTC cuando se muevan a ese sitio.
 
 ## <a name="define-network-subnets"></a>Definir subredes de red
 
-Use el cmdlet [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) para definir subredes de red y asociarlas a sitios de red. Cada subred interna solo se puede asociar con un sitio. 
-```
-New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
-```
-En este ejemplo, creamos una asociación entre la subred 192.168.0.0 y el sitio de red de Delhi y entre la subred 2001:4898: E8:25:844e: 926f: 85ad: dd8e y el sitio de red de Hyderabad.
-```
-New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi" 
-New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad" 
-```
-En la tabla siguiente se muestran las subredes definidas en este ejemplo. 
+Cada subred debe estar asociada a un sitio de red específico. Puede asociar varias subredes con el mismo sitio de red, pero no puede asociar varios sitios con la misma subred. Para conocer los pasos sobre cómo configurar subredes de red, vaya a [administrar la topología de red para las características en la nube de Teams](manage-your-network-topology.md).
 
-||Sitio 1 |Sitio 2 |
-|---------|---------|---------|
-|IDENTIFICADOR de subred   |    192.168.0.0     |  2001:4898: E8:25:844e: 926f: 85ad: dd8e     |
-|Sin  |     veinticuatro    |   120      |
-|IDENTIFICADOR de sitio  | Sitio (Delhi) | Sitio 2 (Hyderabad) |
+Para el enrutamiento basado en la ubicación, las subredes IP en la ubicación en la que los puntos de conexión de los equipos se pueden conectar a la red deben definirse y asociarse a una red definida para exigir omisión de pago. Esta asociación de subredes permite que el enrutamiento basado en la ubicación Ubique los puntos de conexión geográficamente para determinar si se debe permitir una llamada RTC determinada. Se admiten subredes IPv6 e IPv4. Al determinar si un punto de conexión de Teams se encuentra en un sitio, el enrutamiento basado en la ubicación comprueba primero si existe una dirección IPv6. Si no hay ninguna dirección IPv6, el enrutamiento basado en la ubicación comprueba la existencia de una dirección IPv4.
 
-En el caso de varias subredes, puede importar un archivo CSV con una secuencia de comandos como la siguiente.
-```
-Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
-```
-En este ejemplo, el archivo CSV tiene un aspecto similar a este:
-```
-Identity, Mask, SiteID 
-172.11.12.0, 24, Redmond 
-172.11.13.0, 24, Chicago 
-172.11.14.0, 25, Vancouver 
-172.11.15.0, 28, Paris
-```
-## <a name="define-external-subnets"></a>Definir subredes externas
-Use el cmdlet [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) para definir subredes externas y asignarlas al inquilino. Puede definir un número ilimitado de subredes para un inquilino. 
-```
-New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
-```
-Por ejemplo:
-```
-New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
-```
+## <a name="define-trusted-ip-addresses-external-subnets"></a>Definir direcciones IP fiables (subredes externas)
+
+Las direcciones IP de confianza son las direcciones IP externas de Internet de la red empresarial y se usan para determinar si el extremo del usuario está dentro de la red corporativa. Para conocer los pasos sobre cómo configurar las direcciones IP de confianza, vaya a [administrar la topología de red para las características en la nube de Teams](manage-your-network-topology.md).
+
+Si la dirección IP externa del usuario coincide con una dirección IP de la lista de direcciones IP fiables, las comprobaciones de enrutamiento basadas en la ubicación determinan la subred interna en la que se encuentra el punto final del usuario. Si la dirección IP externa del usuario no coincide con ninguna dirección IP definida en la lista de direcciones IP fiables, el extremo se clasifica como si fuera de una ubicación desconocida y cualquier llamada RTC a o de un usuario que tenga habilitado el enrutamiento basado en la ubicación está bloqueada.
 
 ## <a name="next-steps"></a>Pasos siguientes
+
 Vaya a [Habilitar el enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md).
 
-### <a name="related-topics"></a>Temas relacionados
-- [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
-- [Terminología de enrutamiento basado en la ubicación](location-based-routing-terminology.md)
+## <a name="related-topics"></a>Temas relacionados
+
+- [Configuración de red de las características de voz en la nube en Teams](cloud-voice-network-settings.md)

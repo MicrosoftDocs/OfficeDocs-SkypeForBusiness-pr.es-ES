@@ -3,7 +3,6 @@ title: Planear enrutamiento basado en la ubicación para el enrutamiento directo
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 2/1/2019
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -15,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c11d43f8fcf5418d27ca26e648291969779a8bf
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570693"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615820"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -49,7 +48,7 @@ Cuando un usuario de Teams está habilitado para el enrutamiento basado en la ub
 
 El enrutamiento basado en la ubicación usa la misma definición de región de red, sitio y subred que usa Skype empresarial Server. Cuando se restringe la omisión de peaje en una ubicación, un administrador asocia cada subred IP y cada puerta de enlace RTC de esa ubicación a un sitio de red. La ubicación de un usuario está determinada por la subred IP a la que están conectados los puntos de conexión de los equipos del usuario en el momento de una llamada RTC. Un usuario puede tener varios clientes de Teams ubicados en diferentes sitios, en cuyo caso el enrutamiento basado en la ubicación aplica el enrutamiento de cada cliente por separado, en función de la ubicación de su punto de conexión. 
 
-Para familiarizarse con algunos de los términos de la red que se usan en este artículo, consulte [terminología de enrutamiento basada](location-based-routing-terminology.md)en la ubicación.
+Para familiarizarse con algunos de los términos de la red que se usan en este artículo, consulte [configuración de red para características de voz en la nube en Teams](cloud-voice-network-settings.md).
 
 ## <a name="apply-location-based-routing"></a>Aplicar enrutamiento basado en la ubicación
 
@@ -72,7 +71,7 @@ Los sitios de red deben estar habilitados para el enrutamiento basado en la ubic
 
 ### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>Aplicar enrutamiento basado en la ubicación en la puerta de enlace RTC 
 
-Las puertas de enlace se asocian a sitios para determinar dónde se puede ubicar un usuario que está habilitado para el enrutamiento basado en la ubicación cuando realiza o recibe una llamada RTC. Las puertas de enlace deben estar habilitadas para el enrutamiento basado en la ubicación para garantizar que está bajo restricciones de omisión de pago y que los usuarios que no están habilitados para el enrutamiento basado en la ubicación no pueden usarlas. La misma puerta de enlace puede estar asociada a varios sitios y se puede configurar para que se habilite para el enrutamiento basado en la ubicación o no se habilite para el enrutamiento basado en la ubicación, en función del sitio. 
+Las puertas de enlace se asocian a sitios para determinar dónde se puede ubicar un usuario que está habilitado para el enrutamiento basado en la ubicación cuando realiza o recibe una llamada RTC. Las puertas de enlace deben estar habilitadas para el enrutamiento basado en la ubicación para garantizar que está bajo restricciones de omisión de pago y que los usuarios que no están habilitados para el enrutamiento basado en la ubicación no pueden usarlas. La misma puerta de enlace puede estar asociada a varios sitios y se puede configurar para que se habilite para el enrutamiento basado en la ubicación o no se habilite para el enrutamiento basado en la ubicación, en función del sitio.
 
 ## <a name="scenarios-for-location-based-routing"></a>Escenarios para el enrutamiento basado en ubicación
 
@@ -250,8 +249,10 @@ El enrutamiento basado en la ubicación no se aplica a los siguientes tipos de i
 Un usuario con capacidad de enrutamiento basado en la ubicación en una llamada RTC no puede iniciar una conferencia con otro usuario o número RTC. Se permite la conexión a los operadores automáticos o a las colas de llamadas. Si el usuario tiene una licencia de conferencia, el usuario debe iniciar una conferencia con los usuarios correspondientes y llamar a la RTC a través del puente de conferencia para iniciar una llamada de conferencia.  
 
 ## <a name="next-steps"></a>Pasos siguientes
+
 Vaya a [configurar la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md).
 
-### <a name="related-topics"></a>Temas relacionados
+## <a name="related-topics"></a>Temas relacionados
+
 - [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
-- [Terminología de enrutamiento basado en la ubicación](location-based-routing-terminology.md)
+- [Configuración de red de las características de voz en la nube en Teams](cloud-voice-network-settings.md)

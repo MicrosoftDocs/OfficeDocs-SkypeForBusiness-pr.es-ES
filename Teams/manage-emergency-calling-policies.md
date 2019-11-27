@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar las directivas de llamada de emergencia para la característica de E911 dinámica en Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 4a1846217734142388fdf3466f68ccadea49c829
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1cd358453aa349fde51e4d66de412e8f9e2b72d5
+ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573178"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615750"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Administrar las directivas de llamadas de emergencia en Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "37573178"
 
 Si su organización usa planes de llamadas o el enrutamiento directo de sistemas telefónicos implementados, puede usar directivas de llamadas de emergencia en Microsoft Teams para definir lo que sucede cuando un usuario de un equipo de su organización hace una llamada de emergencia. Puedes establecer a quién deseas notificar y cómo se les notifica cuando un usuario que tiene asignada la Directiva llama a servicios de emergencia. Por ejemplo, puede configurar opciones de directiva para notificar automáticamente al escritorio de seguridad de su organización y hacer que escuchen llamadas de emergencia.  
 
-Para administrar las directivas de llamadas de emergencia, vaya a**directivas de emergencia** de **voz** > en el centro de administración de Microsoft Teams o mediante Windows PowerShell. Las directivas se pueden asignar a los usuarios y a los [sitios de red](location-based-routing-terminology.md).
+Para administrar las directivas de llamadas de emergencia, vaya a**directivas de emergencia** de **voz** > en el centro de administración de Microsoft Teams o mediante Windows PowerShell. Las directivas se pueden asignar a los usuarios y a los [sitios de red](cloud-voice-network-settings.md).
 
 Para los usuarios, puede usar la directiva global (opción predeterminada para toda la organización) o crear y asignar directivas personalizadas. Los usuarios obtendrán automáticamente la directiva global a menos que cree y asigne una directiva personalizada. Tenga en cuenta que puede modificar la configuración de la directiva global, pero no puede cambiarle el nombre o eliminarla. Para los sitios de red, cree y asigne directivas personalizadas.
 
