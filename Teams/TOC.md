@@ -115,6 +115,7 @@
 ## [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que los usuarios registren su nombre cuando se unan a una reunión](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Activar o desactivar los anuncios de entrada y salida para las reuniones](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
+## [Reuniones de equipo en exploradores no compatibles](unsupported-browsers.md)
 ## [Configurar Compartir escritorio en Microsoft Teams](configure-desktop-sharing.md)
 ## [Grabación de reuniones en la nube de Teams](cloud-recording.md)
 ## [Usar el complemento para reunión de Microsoft Teams en Outlook](teams-add-in-for-outlook.md)
@@ -339,7 +340,6 @@
 ### [Configurar un controlador de borde de sesión para varios inquilinos](direct-routing-sbc-multiple-tenants.md)
 ### [Lista de controladores de borde de sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md)
 ### Enrutamiento basado en ubicación
-#### [Terminología de enrutamiento basado en la ubicación](location-based-routing-terminology.md)
 #### [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
 #### [Configuración de red de enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
 #### [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
@@ -374,10 +374,15 @@
 ### [¿Qué son los planes de marcado?](what-are-dial-plans.md)
 ### [Crear y administrar planes de marcado](create-and-manage-dial-plans.md)
 ### [Agregar y actualizar etiquetas de informes](learn-more-about-site-upload.md)
+
+## Configuración de red y topología
+### [Configuración de red para características de voz en la nube](cloud-voice-network-settings.md)
+### [Administrar la topología de red para las características de voz en la nube](manage-your-network-topology.md)
+
 ## Llamadas de emergencia
-### [Planear y configurar las llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md)
+### [Información general](what-are-emergency-locations-addresses-and-call-routing.md)
+### [Configurar las llamadas de emergencia dinámicas](configure-dynamic-emergency-calling.md)
 ### Administrar direcciones de emergencia
-#### [¿Qué son las ubicaciones de emergencia y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
 #### [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md)
 #### [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-place-organization.md)
 #### [Asignar o cambiar la ubicación de emergencia de un usuario](assign-change-emergency-location-user.md)

@@ -13,17 +13,17 @@ ms.service: msteams
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: d6ddba5756f812667fd5fac2ccf980efec9267e4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9983b61f28e4bfb37b0f6673503e3a982e40da5a
+ms.sourcegitcommit: 2557331f72bd0d8637c9f1b2a9606ca48a1c9954
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570729"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39621278"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Formación dirigida por un instructor para Microsoft Teams</h1>
-En Microsoft estamos encantados de ofrecer una serie de clases en línea y en directo totalmente gratuitas diseñadas para empezar a trabajar con Teams.Si es un encargado, administrador, profesional de TI o usuario final, encontrará la clase perfecta. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo. Para ver nuestras clases de formación cuando lo desee, visite nuestra <a href="https://aka.ms/TeamsOnDemand">formación a petición para usuarios finales</a>.<br><br>Haga clic en una de las siguientes sesiones para registrarse.
+En Microsoft estamos encantados de ofrecer una serie de clases en línea y en directo totalmente gratuitas diseñadas para empezar a trabajar con Teams.Si es un encargado, administrador, profesional de TI o usuario final, encontrará la clase perfecta. ¿No sabe por dónde empezar? Realice la <a href="https://aka.ms/TeamsKnowledgeCheck">comprobación de conocimientos de Teams</a>. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo. Para ver nuestras clases de formación cuando lo desee, visite nuestra <a href="https://aka.ms/TeamsOnDemand">formación a petición para usuarios finales</a>.<br><br>Haga clic en una de las siguientes sesiones para registrarse.
         <ul class="pivots">
             <li>
                 <a href="#home" data-linktype="self-bookmark"></a>
