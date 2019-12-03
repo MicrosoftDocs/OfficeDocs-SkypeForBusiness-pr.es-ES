@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Lea este tema para obtener información sobre cómo migrar dispositivos de sistema de salas de Lync para usar el software de salas de Microsoft Teams.
-ms.openlocfilehash: 377e901446d69e0956ff981b1b45686c949cf61c
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 2a324e426368722cf261554b09298f098644d5ba
+ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675364"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39669278"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrar dispositivos de Lync Room System (LRS) a salas de Microsoft Teams
 
@@ -25,7 +25,7 @@ Los dispositivos de Lync Room System (LRS) con el software de sistema de salas d
 
 El software Microsoft Teams Rooms funciona con Microsoft Teams además de Skype empresarial Server y los servicios en línea para reuniones y llamadas en todos los dispositivos compatibles con Microsoft Teams.
 
-Los dispositivos existentes **pueden** continuar funcionando después de que finalice el soporte técnico del software de Skype Room System V1. Sin embargo, si este software llega a un error de software que necesita que Microsoft publique una corrección, no será compatible. SRS v1 usa TLS 1.0/1,1, que Microsoft detendrá en el futuro. Puede obtener más información sobre cómo [prepararse para el desuso de TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). Salas de Microsoft Teams agrega soporte técnico para TLS 1,2 y seguirá funcionando después del 31 de octubre de 2018. Los clientes locales de Skype empresarial no deben deshabilitar TLS 1.0/1.1 hasta que las salas de Microsoft Teams anuncien el soporte para TLS 1,2, independientemente de las pautas generales de la degradación de TLS 1.0/1.1.
+Los dispositivos existentes **pueden** continuar funcionando después de que finalice el soporte técnico del software de Skype Room System V1. Sin embargo, si este software llega a un error de software que necesita que Microsoft publique una corrección, no será compatible. SRS v1 usa TLS 1.0/1,1, que Microsoft detendrá en el futuro. Puede obtener más información sobre cómo [prepararse para el desuso de TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). 
 
 ## <a name="which-devices-are-affected"></a>¿Qué dispositivos se ven afectados?
 
@@ -57,8 +57,6 @@ Para los clientes de LRS inteligente, además de un programa de permuta de hardw
 
 Le recomendamos que planee la actualización de los dispositivos de sistema de la sala de Lync a salas de Microsoft Teams antes de la degradación de TLS 1.0/1.1 mediante las opciones de actualización mencionadas anteriormente. Además, también puede considerar la posibilidad de reemplazar los dispositivos existentes con nuevos dispositivos certificados para salas de Microsoft Teams. Para obtener más información, consulte dispositivos de la [sala](https://aka.ms/roomdevices) y eche un vistazo a [los requisitos de las salas de Microsoft Teams](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
 
-> [!NOTE]
-> Las salas de la pizarra y la función táctil aún no son compatibles con las salas de Microsoft Teams. La asistencia táctil y de pizarra está actualmente planificada para salas de Microsoft Teams y se agregará en 2019.
 
 > [!NOTE]
 > El software salas de Microsoft Teams es compatible con el protocolo TLS 1,2 a partir del 14 de diciembre de 2018 con la versión de la aplicación 4.0.64.0. En el caso de los clientes locales, la habilitación de la comunicación a través de TLS 1,2 para salas de Microsoft Teams requiere la actualización acumulativa 9 (CU9) de Skype empresarial 2015 o la actualización acumulativa 1 de Skype empresarial 2019 (CU1). El cambio no debe afectar a los clientes de Skype empresarial online debido a que los cambios de cliente son reenviados y compatibles con versiones anteriores.
