@@ -5,7 +5,7 @@ ms.author: chucked
 manager: serdars
 ms.topic: reference
 audience: Admin
-ms.reviewer: annikaelias
+ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e09b94f51c9d36f32eb83eb97d7cd15545d2ed4b
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 21d0ff8f9cd256010bc4767cf2f6f415b1c808c7
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572052"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679310"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 =======================================================
 
-Microsoft Teams es una excelente herramienta de colaboración para su organización. Permite a los usuarios y equipos debatir, innovar y compartir ideas mediante las características de Office 365. La prueba comercial en la nube de Microsoft Teams permite a los usuarios existentes de Office 365 de su organización que no tienen una licencia de Microsoft Teams iniciar una prueba de 1 año del producto. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización. 
+La prueba comercial en la nube de Microsoft Teams permite a los usuarios existentes de Office 365 de su organización que no tienen una licencia de Microsoft Teams iniciar una prueba de 1 año del producto. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización. 
 
 > [!IMPORTANT]
 > La prueba comercial en la nube de Microsoft Teams se ha actualizado para incluir los planes de servicio adicionales para una mayor funcionalidad de Teams y ahora su propietario y controlador es el Administrador de facturación de su organización. Esto facilita administrar la versión de prueba y es coherente con las demás ofertas de Microsoft 365. 

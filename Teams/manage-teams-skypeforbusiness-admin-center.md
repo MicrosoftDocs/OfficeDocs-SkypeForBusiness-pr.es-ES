@@ -3,7 +3,6 @@ title: Administrar Teams durante la transición al nuevo Centro de administraci�
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/08/2019
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -19,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 0d473ffa67b21c4ec3a160a8687a1688ea1d1cf5
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 3d856e0cb9792e4e83dad9daa3e0716ffd3981c8
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37564788"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679250"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================
@@ -57,7 +56,7 @@ La siguiente tabla identifica las secciones de la experiencia de teams que se ha
 |Equipos y canales     |         |Redirige a la administración de grupos de AAD (igual que la experiencia actual).             |Usuario          |
 |Aplicaciones|Habilitar nuevas aplicaciones externas de manera predeterminada|Configuración de la aplicación en toda la organización|Espacios|
 |Aplicaciones|Permitir aplicaciones externas|Configuración de la aplicación en toda la organización|Espacios|
-|Aplicaciones|Permitir la transferencia local de aplicaciones externas<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Usuario|
+|Aplicaciones|Permitir la transferencia local de aplicaciones externas<sup>2</sup>|[TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps)|Usuario|
 |Aplicaciones|Aplicaciones predeterminadas<sup>3</sup>|TeamsAppPermissionPolicy|Usuario|
 |Aplicaciones|Aplicaciones externas<sup>3</sup>|TeamsAppPermissionPolicy|Usuario|
 |Llamadas y reuniones     |Permitir la programación de reuniones privadas         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
@@ -79,7 +78,7 @@ La siguiente tabla identifica las secciones de la experiencia de teams que se ha
 <br><br>
 <sup>2</sup> la transferencia local se divide de la siguiente manera:
 
-- Permitir a un usuario transferir aplicaciones que se pueden administrar a nivel de usuario en [TeamsAppSetupPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
+- Permitir a un usuario transferir aplicaciones que se pueden administrar a nivel de usuario en [TeamsAppSetupPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsappsetuppolicy?view=skype-ps).
 - Permita que los usuarios de un inquilino interactúen con aplicaciones personalizadas que se pueden administrar en el nivel de inquilino en la configuración de la aplicación de toda la organización.
  
 <sup>3</sup> las aplicaciones predeterminadas y las aplicaciones externas se pueden habilitar y deshabilitar en el nivel de usuario en TeamsAppPermissionPolicy. Además, las aplicaciones se pueden bloquear en el nivel de espacio empresarial en la configuración de la aplicación de toda la organización, que reemplaza cualquier configuración de usuario y de nivel de inquilino. 
@@ -113,32 +112,3 @@ En la tabla siguiente se muestra dónde puede administrar características duran
 ## <a name="manage-settings-after-the-migration"></a>Administrar la configuración después de la migración
 
 Cuando haya finalizado la migración de esta configuración, la deshabilitaremos en el centro de administración de Office 365 y en el centro de administración de Skype empresarial, y se podrán administrar en el nuevo centro de administración de Microsoft Teams.
-
-
-## <a name="edu-migration-june-july-2019"></a>Migración de EDU de junio a 2019 de julio
-
-Durante el 2019 de junio y julio, los inquilinos restantes de EDU se migrarán de la antigua experiencia de administrador (en el centro de administración de Microsoft 365) al centro de administración de Teams. Consulte el centro de mensajes (en el centro de administración de Microsoft 365) para saber cuándo se migrará. Esto es lo que verá después de migrar:
-
-|Sección de Teams en el centro de administración de Microsoft 365  |Nombre de configuración (nivel de inquilino)  |Directiva del centro de administración de Microsoft Teams   |Nivel: inquilino o usuario   |
-|---------|---------|---------|---------|  
-| Mensajería   |Los propietarios pueden eliminar los mensajes enviados |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-| Mensajería  | Los usuarios pueden eliminar mensajes enviados |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-| Mensajería   | Los usuarios pueden editar mensajes enviados |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)  |Usuario|
-| Mensajería  | Permitir que los usuarios puedan chatear |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-| Mensajería  | Usar imágenes giphy en conversaciones | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-| Mensajería  | Clasificación de contenido de Giphy | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-| Mensajería  | Usar memes en las conversaciones  |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-| Mensajería  | Usar adhesivos en las conversaciones |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-
-Además, estas son las opciones de configuración que solo están disponibles en el centro de administración de Microsoft Teams:
-
-|Nombre de configuración | Directiva del centro de administración de Microsoft Teams | Nivel: inquilino o usuario
-|-------------|-------------------------------------|---------|
-|Permitir vistas previas de direcciones URL | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-|Permitir a un usuario quitar usuarios de un chat grupal |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-|Permitir el lector inmersivo para ver mensajes |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Usuario |
-|Permitir que los usuarios traduzcan mensajes |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)| Usuario |
-|Confirmaciones de lectura | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-|Los usuarios pueden enviar notificaciones prioritarias | [TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) | Usuario |
-|Creación de mensajes de voz |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Usuario |
-|En dispositivos móviles, Mostrar canales favoritos por encima de los chats recientes |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)| Usuario |
