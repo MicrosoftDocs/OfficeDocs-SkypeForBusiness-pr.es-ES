@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b11f326f35d7c30ffba29e4247db75800eeb3790
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
+ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231101"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39679240"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -38,12 +38,13 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de equipos que un administrador global puede crear        |  500 000   |
 |Número de equipos que puede tener un espacio empresarial de Office 365    | 500 000&sup2;     |
 |Número de canales por equipo    | 200 (incluye canales eliminados)&sup3;         |
+|Número de cadenas privadas por equipo    |30|
 
-&sup1;Cualquier objeto de directorio en Azure Active Directory cuenta para este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llaman a Microsoft Graph mediante [permisos de aplicación](https://docs.microsoft.com/graph/permissions-reference).
+&sup1; Cualquier objeto de directorio en Azure Active Directory cuenta para este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llaman a Microsoft Graph usando[permisos de aplicación](https://docs.microsoft.com/graph/permissions-reference).
 
-&sup2;Este límite incluye equipos archivados.
+&sup2; Este límite incluye los equipos archivados.
 
-&sup3;Los canales eliminados se pueden restaurar en un plazo de 30 días. Durante estos 30 días, se sigue contando el canal eliminado en el límite de 200 canales por equipo. Después de 30 días, un canal eliminado y su contenido se eliminan de forma permanente y se deja de contar el canal en el límite de 200 canales por equipo.
+&sup3; Los canales borrados pueden ser restaurados en un plazo de 30 días. Durante estos 30 días, se sigue contando el canal eliminado en el límite de 200 canales por equipo. Después de 30 días, un canal eliminado y su contenido se eliminan de forma permanente y se deja de contar el canal en el límite de 200 canales por equipo.
 
 ## <a name="messaging"></a>Mensajería 
 
@@ -58,9 +59,9 @@ El chat de Teams funciona en un servidor backend de Microsoft Exchange, por lo q
 |Número de usuarios en un chat privado<sup>1</sup>  | 100    |
 |Número de datos adjuntos de archivo<sup>2</sup>  |10     |
 
-<sup>1</sup>Si tiene más de 20 contactos en un chat, se desactivan las siguientes características de chat: mensajes de estado de Teams y respuestas automáticas de Outlook, indicador de escritura, llamadas de audio y vídeo, uso compartido y confirmaciones de lectura.
+<sup>1</sup> Si tienes más de 20 personas en un chat, las siguientes funciones de chat están desactivadas: Respuestas automáticas de Outlook y mensajes de estado de los equipos; indicador de escritura; llamadas de vídeo y audio; compartir; leer recibos.
 
-<sup>2</sup>Si el número de datos adjuntos supera este límite, verá un mensaje de error.
+<sup>2</sup> Si el número de archivos adjuntos supera este límite, aparecerá un mensaje de error.
 
 ### <a name="emailing-a-channel"></a>Enviar un correo electrónico a un canal
 
@@ -73,9 +74,9 @@ El chat de Teams funciona en un servidor backend de Microsoft Exchange, por lo q
 |Tamaño de los datos adjuntos del archivo | Menos de 10 MB |
 |Número de imágenes insertadas<sup>2</sup> |50   |
 
-<sup>1</sup>Si el mensaje supera este límite, se genera un mensaje de vista previa y se pide al usuario ver o descargar el mensaje original desde el vínculo proporcionado.
+<sup>1</sup> Si el mensaje excede este límite, se genera un mensaje de vista previa y se le pide al usuario que descargue y vea el correo electrónico original desde el enlace proporcionado.
 
-<sup>2</sup>Si el número de datos adjuntos o imágenes supera este límite, verá un mensaje de error.
+<sup>2</sup> Si el número de archivos adjuntos o imágenes supera este límite, aparecerá un mensaje de error.
 
 Para más información, vea [Límites de Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits).
 
