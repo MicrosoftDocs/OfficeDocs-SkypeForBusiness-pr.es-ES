@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Lea este tema para obtener información sobre la administración de salas de Microsoft Teams, la nueva generación de sistemas de salas de Skype.
-ms.openlocfilehash: 003ede11615e42ec120d618f0a732df58d10f452
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: aeab9235b54138d649cee2f5e67a76a109c36c6a
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675344"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842482"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Mantenimiento y operaciones de salas de Microsoft Teams 
  
@@ -49,10 +49,10 @@ Configure la pantalla frontal de la sala en modo Extendido. De esta manera, se a
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Restablecimiento de las salas de Microsoft Teams (restauración de fábrica)
 <a name="Reset"> </a>
 
-Si las salas de Microsoft Teams no se ejecutan correctamente, la realización de un restablecimiento de fábrica puede ayudar. Esto se puede hacer en la aplicación configuración de la pestaña **recuperación** . en **restablecer este equipo** **, seleccione introducción**y, a continuación, **quitar todo**. Siga las indicaciones restantes para restablecer el dispositivo.
-  
+Si las salas de Microsoft Teams no se ejecutan correctamente, la realización de un restablecimiento de fábrica puede ayudar. Para ello, use la [herramienta de recuperación de salones de Microsoft Teams](recovery-tool.md) y siga las instrucciones de restauración de fábrica.
+
 > [!NOTE]
-> Existe un problema conocido por el que las salas de Microsoft Teams pueden quedar inutilizables si la opción **mantener mis archivos: quita las aplicaciones y la configuración, pero mantiene su opción de archivos personales** está seleccionada durante el proceso de restablecimiento de Windows. _No_ use esta opción.
+> Existe un problema conocido por el que las salas de Microsoft Teams pueden quedar inutilizables si la opción **mantener mis archivos: quita las aplicaciones y la configuración, pero mantiene su opción de archivos personales** está seleccionada durante el proceso de restablecimiento de Windows. *No* use esta opción.
   
 ## <a name="supported-remote-options"></a>Opciones remotas admitidas
 <a name="RemoteOptions"> </a>

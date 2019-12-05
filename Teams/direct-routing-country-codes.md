@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lea este artículo para ubicar los códigos de países de la ruta de medios para el enrutamiento directo.
-ms.openlocfilehash: 8607b6720104e743243851ad7edac20811ecd29f
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 277544a5b169c2e2e17cea530239e992321d3d46
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572217"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837572"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>Códigos de países de ruta de medios de enrutamiento directo
 
@@ -46,7 +46,7 @@ En la tabla siguiente se muestran los valores del código de país para el pará
 | Samoa Americana  | CUYA |
 | Andorra         | AD |
 | Angola          | ACTIVACIÓN |
-| Anguila        | AL |
+| Anguila        | EMPLEADOS |
 | Antártida      | AQ | 
 | Antigua y Barbuda | AG |
 | Argentina       | AR |

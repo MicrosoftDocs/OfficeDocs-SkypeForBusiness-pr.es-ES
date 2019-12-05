@@ -8,20 +8,19 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: ''
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: abaf16996a6d634bac77118e35b30228c2a43e07
-ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
+ms.openlocfilehash: 6fe0436d0ae4df2b4eb56a3c84319770b45f3139
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38702311"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842472"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
-En referencia al [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) el 8 de febrero de 2019, Microsoft retira el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo ofrece un resumen de lo que los clientes afectados deberían saber y hacer para planificar su continuidad empresarial. 
+En referencia al [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) el 8 de febrero de 2019, Microsoft retira el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo ofrece un resumen de lo que los clientes afectados deberían saber y hacer para planificar su continuidad empresarial.
  
-ExchUMO es implementado por los clientes para el buzón de voz, el operador automático, la cola de llamadas y los servicios de integración de fax. Microsoft planea ayudar a los clientes a migrar a servicios de sistema telefónico que ya admiten miles de clientes en Skype empresarial online y Microsoft Teams. 
+ExchUMO es implementado por los clientes para el buzón de voz, el operador automático, la cola de llamadas y los servicios de integración de fax. Microsoft planea ayudar a los clientes a migrar a servicios de sistema telefónico que ya admiten miles de clientes en Skype empresarial online y Microsoft Teams.
 
 El buzón de voz es principalmente una migración dirigida por Microsoft; es posible que se requiera la implicación e inversión del administrador para un subconjunto de clientes. El operador automático es una migración guiada por el administrador; tendrá que volver a crear los árboles de operadores automáticos de ExchUMO existentes en el servicio de nube de operador automático de la nube. Los clientes que consumen cualquiera de las características de ExchUMO con un PBX de terceros no se migrarán a los servicios en la nube de Skype porque no admiten sistemas PBX de terceros. En [este blog](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)se anunció un plan de jubilación para la compatibilidad de terceros, y los clientes de este modelo de implementación pueden migrar a sus usuarios a uno de los servicios/plataformas de comunicaciones unificadas de Microsoft o adquirir un buzón de voz de terceros o una solución de operador automático para estos usuarios. La integración de faxes no es compatible con los servicios basados en la nube; los clientes deberán migrar a una solución de terceros.
 
@@ -49,11 +48,11 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 |Clientes con requisitos previos<br><br>Características que se van a migrar:<br><ul><li>Correo de voz<li>Operador automático<li>Cola de llamadas</ul> |  Mayo, 2019 de diciembre |Acerca <br><ul><li>La configuración híbrida no está completa<li>Los números de RTC híbridos no están configurados</ul>|
 |Clientes que requieren la implicación del administrador & inversión en el cliente<br><br>Características que se van a migrar:<ul><li>Telefónica<li>Operador automático<li>Colas de llamadas<li>Integración de fax</ul>| Por 2020 de febrero  | Acerca <br><ul><li>El servicio ExchUMO está consumido por PBX de terceros<li>Clientes con requisitos de acceso de suscriptor de RTC<li>Clientes de SFB 2010 (no admitido)<li>Integración de fax</ul> |
 
-## <a name="migration-steps"></a>Pasos de la migración
+## <a name="voicemail-migration-steps"></a>Pasos de migración del buzón de voz
 
 1.  **Obtener información**
  
-    Familiarícese con el [anuncio del blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) y este artículo para planear una migración sin problemas para los usuarios. Consulte [comprobar el buzón de voz y las opciones de Skype empresarial](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obtener más información sobre las características del buzón de voz del sistema.  
+    Familiarícese con el [anuncio del blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) y este artículo para planear una migración sin problemas para los usuarios. Consulte [comprobar el buzón de voz y las opciones de Skype empresarial](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obtener más información sobre las características del buzón de voz del sistema.  
  
 2.  **Establecer una topología híbrida de Skype empresarial**
 
@@ -96,7 +95,28 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
  
     - IDENTIFICADOR de inquilino: 32 caracteres del número en este formato 0046728c-688a-4472-a38f-098fec60ac6x. Puede encontrar su identificador de inquilino en el portal de administración de Microsoft 365 en Azure AD o mediante el siguiente cmdlet de PowerShell:`Get-CsTenant | Select ObjectId`
  
-    Una vez que se haya migrado correctamente el inquilino, recibirá una confirmación por correo electrónico. 
+    Una vez que se haya migrado correctamente el inquilino, recibirá una confirmación por correo electrónico.
+
+## <a name="auto-attendant-migration-guidelines"></a>Instrucciones de migración del operador automático
+
+Los administradores de inquilinos de Office 365 deben volver a crear sus operadores automáticos de mensajería unificada de Exchange en el servicio de operador automático de la nube de Microsoft y cambiar sus números de teléfono locales antes del 1 de febrero de 2020, que es cuando se iniciará el servicio Exchange UMO retirado. Esta es la pauta recomendada para migrar y probar correctamente nuevos operadores automáticos en la nube. Si tiene un gran número de operadores automáticos, puede usar el [operador automático de MU de Exchange para los scripts de migración del operador](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) automático de la nube para simplificar la migración masiva de los operadores automáticos.
+
+### <a name="setup"></a>Configuración
+
+Le recomendamos encarecidamente que inicie el programa de instalación de los nuevos operadores automáticos pronto para evitar los problemas de los últimos minutos y para familiarizarse con la funcionalidad y la experiencia del servicio de operador automático de la nube. En el caso de los operadores automáticos que requieren una o más características de separación, puede crear y probar los operadores automáticos cuando las características de brecha estén disponibles para prepararse para la implementación. Para obtener más información sobre las características de brechas, consulte el [Apéndice](#appendix).
+
+1. Use los cmdlets de Exchange UMO para exportar la configuración de los operadores automáticos existentes con [Get-UMAutoAttendant](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/get-umautoattendant).  
+2. Use el cmdlet [Export-UMprompt](https://docs.microsoft.com/powershell/module/exchange/unified-messaging/export-umprompt) en Exchange Online PowerShell para exportar los archivos multimedia de saludo (si se usan) y convertirlos al formato. mp3.
+3. Siga las instrucciones de [planificar los operadores automáticos](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) en la nube y [Configure un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) para crear operadores automáticos con el centro de administración de Microsoft Teams o PowerShell.
+4. Revise sus saludos si las opciones de menú han cambiado.
+5. Configure las transferencias a los grupos de respuesta mediante la solución "transferencia automática de llamadas a RTC" en la sección [problemas conocidos](#known-issues) de este artículo.  
+6. Pruebe los nuevos operadores automáticos. Para probarlos, llámelos internamente o asigne un número de teléfono de prueba.  
+
+### <a name="cutover"></a>Total
+
+1. Cambie los números de teléfono de los operadores automáticos de Exchange UMO a los nuevos operadores automáticos.
+2. Mueva el URI SIP del objeto de contacto a la cuenta de recursos.
+3. Pruebe y valide los operadores automáticos con los números de teléfono asignados recientemente. 
 
 ## <a name="appendix"></a>Apéndice
 
@@ -120,14 +140,14 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | MEDIO | Características de usuario | Grabar saludos personales (dispositivo autenticado) |  | S | S    |
 | MEDIO | Características de usuario | Grabar saludos personales (RTC): reproducir en el teléfono |  | N | Y    |
 | MEDIO | Características de usuario | Configuración de usuario para deshabilitar la transcripción |  | N | Y    |
-| MEDIO | Características de usuario | Cripciones  |  | S | S    |
-| MEDIO | Características de usuario | Buzón de voz visual en todos los puntos de conexión   | Con control de usuario para reproducir, eliminar, indicador de espera de mensaje y alternancia de estado, en todos los puntos de conexión compatibles  | S | S    |
+| MEDIO | Características de usuario | Cripciones  |  | Y | S    |
+| MEDIO | Características de usuario | Buzón de voz visual en todos los puntos de conexión   | Con control de usuario para reproducir, eliminar, indicador de espera de mensaje y alternancia de estado, en todos los puntos de conexión compatibles  | Y | S    |
 | MEDIO | Características de usuario | Formato de archivo de audio MP3 en Outlook    |  | Y | S    |
 | MEDIO | Características de usuario | Control de reproducción de velocidad variable |  | Y | S    |
 | MEDIO | Características de usuario | Reenviar un mensaje de voz  | Reenviar un mensaje de voz recibido a otros usuarios | Y | S    |
 | MEDIO | Características de usuario | Enviar un mensaje de voz a un grupo de usuarios  |Difusión del buzón de voz   | N | Y   |
 | MEDIO | Características de usuario | Notificación del buzón de voz con SMS    | Los usuarios pueden recibir un SMS cuando tienen un mensaje de voz nuevo    | N | Y    |
-| MEDIO | Características de usuario | Idiomas de saludo compatibles | Detalles aquí:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | S    |
+| MEDIO | Características de usuario | Idiomas de saludo compatibles | Detalles aquí:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | S    |
 | MEDIO | Características de usuario | Reglas de contestador automático |  | Y | S    |
 | MEDIO | Características de usuario | Reproducir en el teléfono (RTC): para reproducir el mensaje | Llamarme en mi celda para escuchar el mensaje de voz  | N | Y    |
 | MEDIO | Características de usuario | Reproducir en el teléfono (autenticación): mensaje para reproducir | Llamarme en mi dispositivo autenticado  | Y | S    |
@@ -136,10 +156,10 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | MEDIO | Características de los autores de llamadas  | Experiencia de la persona que llama: buzón de voz privado | La persona que llama puede elegir una opción para marcar un mensaje grabado como privado  | N | Y    |
 | MEDIO | Características de los autores de llamadas  | Detección de silencio   |  | N | Y    |
 | MEDIO | Espacio empresarial-características de administración | Buzón de voz protegido en el nivel de servidor    | Tenant-admin puede configurar una regla de nivel de servicio para marcar el buzón de voz como protegido. | Y | S    |
-| MEDIO | Espacio empresarial-características de administración | Límite de tiempo de duración de grabación  |     | Y | S    |
+| MEDIO | Espacio empresarial-características de administración | Límite de tiempo de duración de grabación  |     | S | S    |
 | MEDIO | Espacio empresarial-características de administración | Cambiar el tiempo de espera de detección de silencio    |  | N/D    | Y    |
 | MEDIO | Espacio empresarial-características de administración | Cambiar número de error de entrada | CVM: codificado en 3 | N | Y    |
-| MEDIO | Espacio empresarial-características de administración | Cambiar el idioma predeterminado |  | Y | S    |
+| MEDIO | Espacio empresarial-características de administración | Cambiar el idioma predeterminado |  | S | S    |
 | MEDIO | Espacio empresarial-características de administración | Deshabilitar/habilitar transcripción |  | S | S    |
 | MEDIO | Espacio empresarial-características de administración | Deshabilitar o habilitar la notificación de llamada perdida |  | N | Y    |
 | MEDIO | Espacio empresarial-características de administración | Ayudar a Microsoft a mejorar la vista previa del correo de voz    |  | S | S    |
@@ -153,7 +173,7 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | AA | Características del servicio | Soporte técnico de Microsoft Teams|  | Y | N    |
 | AA | Características del servicio | Marcado por nombre, entrada DTMF    |  | S | S    |
 | AA | Características del servicio | Marcado por nombre, entrada de voz  |  | S | S    |
-| AA | Características del servicio | Compatibilidad con varios idiomas | Detalles del idioma aquí:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
+| AA | Características del servicio | Compatibilidad con varios idiomas | Detalles del idioma aquí:https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | S | S    |
 | AA | Características del servicio | Transferir al operador, CQ o un usuario |  | S | S    |
 | AA | Características del servicio | Transferir al número RTC internamente (RNL)  |  | S | S    |
 | AA | Características del servicio | Transferir a un número RTC externamente  |  | Consultar la sección problemas conocidos a continuación | Y    |
@@ -164,7 +184,7 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | AA | Características del servicio | Selección personalizada de usuarios  | Permitir que los autores de llamadas adquieran una lista personalizada de usuarios de la organización| S | S    |
 | AA | Características del servicio | Tratamiento fuera de horario laboral y festivo  |  | S | S    |
 | AA | Características del servicio | Saludo personalizado con texto a voz  |  | S | S    |
-| AA | Características del servicio | Marcado de extensión   | Contactar con un usuario marcando su extensión  | CY19   | Y    |
+| AA | Características del servicio | Marcado de extensión   | Contactar con un usuario marcando su extensión  | S   | S    |
 | AA | Características del servicio | Buzón para que las personas que llaman a un AA dejen un mensaje    |  | CY19   | Y    |
 | AA | Características del servicio | Varias asignaciones de números RTC a un AA|  | S | S    |
 | AA | Espacio empresarial-características de administración | Administración de portal web   |  | Y | N    |
@@ -201,13 +221,13 @@ A continuación se resumen la experiencia de migración del buzón de voz de usu
 |Reglas de Outlook para mensajes de VM | Sin cambios<br>Las reglas creadas previamente se aplicarán a los mensajes de CVM después de la migración.
  |
 
-#### <a name="user-management-and-provisioning-in-cvm"></a>Administración y aprovisionamiento de usuarios en CVM 
+#### <a name="user-management-and-provisioning-in-cvm"></a>Administración y aprovisionamiento de usuarios en CVM
 
 Los nuevos usuarios de Skype empresarial se aprovisionarán automáticamente para el buzón de voz de nube cuando se creen. No se necesita ninguna licencia o trabajo de administración adicional para aprovisionar nuevos usuarios del buzón de voz. Consulte [configurar el buzón de voz en la nube](/microsoftteams/set-up-phone-system-voicemail) para obtener información sobre la administración de directivas para usuarios existentes y nuevos.
 
-#### <a name="admin-auto-attendant-management-experience"></a>Experiencia de administración de operadores automáticos de administrador 
+#### <a name="admin-auto-attendant-management-experience"></a>Experiencia de administración de operadores automáticos de administrador
 
-Para obtener más información sobre los operadores automáticos, vea [configurar un operador automático de la nube](/MicrosoftTeams/create-a-phone-system-auto-attendant.md). 
+Para obtener más información sobre los operadores automáticos, vea [configurar un operador automático de la nube](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant).
 
 #### <a name="known-issues"></a>Problemas conocidos
 
@@ -217,14 +237,14 @@ Se identificó un problema durante el control de calidad con la característica 
  
 Experiencia prevista
 - Los administradores no necesitan conceder licencia al usuario virtual, ya que es una solución alternativa. 
-- Los administradores pueden manipular la identificación de llamadas que el receptor de RTC verá asignando el número deseado al usuario virtual o usando las funciones de manipulación de dígitos de SBC 
+- Los administradores pueden manipular la identificación de llamadas que el receptor de RTC verá asignando el número deseado al usuario virtual o usando las funciones de manipulación de dígitos de SBC
 - Las personas que llaman a la RTC no experimentarán ningún retraso durante la transferencia de llamadas y seguirán viendo la identificación de llamadas del operador automático después de que la transferencia se realice correctamente.  
 
 **Buzón compartido:** Un buzón de correo compartido que se configura con Exchange UM online seguirá recibiendo mensajes después de migrarlos a CVM y seguirán siendo accesibles para los usuarios a través de Outlook. Sin embargo, el acceso para cambiar los mensajes de saludo de estos buzones no estará disponible una vez que se haya migrado a CVM. Los clientes con buzones compartidos que se usan para capturar las personas que llaman al operador automático deben aprovechar los operadores automáticos y las colas de llamadas capacidades de buzón de correo compartido una vez publicadas (ETA octubre de 2019).
   
 **Actualizar a la pancarta de Teams en el cliente de SFB:** El servicio de CVM se basa en la infraestructura de Microsoft Teams; las llamadas a él desde un cliente de Skype empresarial pueden hacer que se muestre en el cliente un banner de información que diga: "el nombre de usuario no está usando Skype empresarial. Para obtener una experiencia más rica, cambie a teams o inicie una reunión de Skype.
-Asegúrese de actualizar el cliente de Skype empresarial de los usuarios a la actualización de cliente de C2R más reciente para evitar que aparezca esta pancarta. 
+Asegúrese de actualizar el cliente de Skype empresarial de los usuarios a la actualización de cliente de C2R más reciente para evitar que aparezca esta pancarta.
   
-**Configure el buzón de voz para que le lleve a OWA:** Al hacer clic en "configurar el correo de voz", el cliente seguirá teniendo clientes de Skype empresarial Server 2015/2013 en la página del portal de Office Web Access (OWA) después de la migración a CVM. Se ha quitado toda la configuración de la ficha buzón de voz en OWA y se mostrará un mensaje de bienvenida con un vínculo de redireccionamiento para llevar a los usuarios al portal de configuración de usuario de CVM. 
+**Configure el buzón de voz para que le lleve a OWA:** Al hacer clic en "configurar el correo de voz", el cliente seguirá teniendo clientes de Skype empresarial Server 2015/2013 en la página del portal de Office Web Access (OWA) después de la migración a CVM. Se ha quitado toda la configuración de la ficha buzón de voz en OWA y se mostrará un mensaje de bienvenida con un vínculo de redireccionamiento para llevar a los usuarios al portal de configuración de usuario de CVM.
  
-**Cambiar saludo de acceso móvil:** El acceso de suscriptor de RTC no se admite en CVM. Para los usuarios que tienen que cambiar su saludo de forma remota, se agrega una opción de menú "cambiar el saludo" al servicio de correo de voz para clientes móviles. Los usuarios pueden llamar a este servicio pulsando y manteniendo presionada la tecla "1" en el teclado de marcado de cliente móvil. 
+**Cambiar saludo de acceso móvil:** El acceso de suscriptor de RTC no se admite en CVM. Para los usuarios que tienen que cambiar su saludo de forma remota, se agrega una opción de menú "cambiar el saludo" al servicio de correo de voz para clientes móviles. Los usuarios pueden llamar a este servicio pulsando y manteniendo presionada la tecla "1" en el teclado de marcado de cliente móvil.

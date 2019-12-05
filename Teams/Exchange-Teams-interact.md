@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0eb64afd9e226b3e59e3444b0ed15d2463902c5e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 622a173985d68260b210d844052d3b08dc5b5b88
+ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564005"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39842432"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -43,10 +43,10 @@ La siguiente tabla proporciona una referencia rápida y útil sobre la disponibi
 
 | El buzón del usuario se hospeda en: | eDiscovery| Retención&nbsp;legal | Policy| Administración de equipos y canales |Crear y ver reuniones| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí|
+|**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |
 |**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí|
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>, 2, 3</sup>|Sí <sup>4|Sí|No|No|Sí|Sí|No|Sí <sup>5|Sí <sup>6|Sí |Sí|
-|**Exchange local** (es necesario sincronizar con Azure ad)|Sí <sup>2</sup>| Sí <sup>, 2, 3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí|No|Sí <sup>5|Sí <sup>6|Sí |Sí|
+|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>, 2, 3</sup>|Sí <sup>4|Sí|No|No|Sí|Sí|No|Sí <sup>5|Sí <sup>6|Sí |Sí |
+|**Exchange local** (es necesario sincronizar con Azure ad)|Sí <sup>2</sup>| Sí <sup>, 2, 3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí|No|Sí <sup>5|Sí <sup>6|Sí |Sí |
 
 <sup>1</sup> se admite la versión Exchange 2016 CU3 y versiones posteriores.  
 
@@ -79,7 +79,7 @@ Microsoft Teams funciona con varios servicios de Office 365 para ofrecer a los u
 >Para la integración de Exchange local y de Teams, es necesario asignar la licencia necesaria para el usuario sincronizado de AAD.
 
 > [!IMPORTANT]
-> Si desinstala el cliente de Skype Empresarial después de mover un usuario al modo **Teams solo**, la presencia dejará de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Solución: para ver la presencia en Outlook (y en otras aplicaciones de Office), debe estar instalado Skype empresarial, incluso si está ejecutando Teams en modo de **solo Teams** . Microsoft es consciente de este problema y está buscando una solución. 
+> Si desinstala el cliente de Skype empresarial después de mover un usuario al modo **solo para equipos** , es posible que el estado de presencia deje de funcionar en Outlook y en otras aplicaciones de Office. La presencia funciona bien en Teams. Para resolver este problema, seleccione su imagen de perfil en la esquina superior derecha de Microsoft Teams y, a continuación, seleccione **configuración**. En la pestaña **General** , en **aplicación**, seleccione **registrar equipos como la aplicación de chat de Office (se debe reiniciar las aplicaciones de Office)**. Después de seleccionar esta opción, cierre y vuelva a abrir todas las aplicaciones de Office, incluido Outlook. Después de abrir Outlook, la información de presencia estará disponible.
 
 ## <a name="additional-considerations"></a>Consideraciones adicionales
 

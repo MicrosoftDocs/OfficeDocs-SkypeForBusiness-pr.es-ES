@@ -3,10 +3,9 @@ title: Teams para la infraestructura de escritorio virtualizada
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 04/10/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi
+ms.reviewer: rafarhi, jmorrow
 audience: admin
 description: Aprenda a ejecutar Microsoft Teams en un entorno de infraestructura de escritorio virtual (VDI).
 localization_priority: Normal
@@ -15,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdac909139a225d622098df5d7df44516edac7bd
-ms.sourcegitcommit: 74c06b00ff78dc816a59e6c59e9be87181fc0f3e
+ms.openlocfilehash: 4f7c0e0ab004c2146b8b93eb984b19d031cd2bb3
+ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39669248"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837592"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -29,219 +28,329 @@ En este artículo se describen los requisitos y las limitaciones para usar Micro
 ## <a name="what-is-vdi"></a>¿Qué es VDI?
 
 La infraestructura de escritorio virtual (VDI) es una tecnología de virtualización que hospeda un sistema operativo de escritorio y aplicaciones en un servidor centralizado en un centro de datos. Esto permite una experiencia de escritorio totalmente personalizada para los usuarios con un origen centralizado totalmente seguro y compatible.
+ 
+Microsoft Teams en un entorno virtualizado admite chat y colaboración, y con la plataforma Citrix, también se admiten las funciones de llamada y reunión.
 
-Actualmente, Teams en un entorno virtualizado está disponible con soporte técnico para la funcionalidad de colaboración y chats con una máquina virtualizada dedicada (VM). Para garantizar una experiencia de usuario óptima, siga las instrucciones de este artículo.
+Los equipos de un entorno virtualizado admiten varias configuraciones. Esto incluye VDI, modos dedicados, compartidos, persistentes y no persistentes. Las características están en desarrollo continuo y se agregan con regularidad, y la funcionalidad se expandirá en los próximos meses y años.
+ 
+El uso de Teams en un entorno virtualizado puede variar ligeramente de la utilización de Teams en un entorno no virtualizado. Por ejemplo, es posible que algunas características avanzadas no estén disponibles en un entorno virtualizado y que la resolución de video sea distinta. Para garantizar una experiencia de usuario óptima, siga las instrucciones de este artículo.
 
-## <a name="teams-requirements"></a>Requisitos de Teams
+## <a name="teams-on-vdi-components"></a>Teams en componentes de VDI
 
-### <a name="set-policies-to-turn-off-calling-and-meeting-functionality-in-teams"></a>Establecer directivas para desactivar las funciones de llamada y de reunión en Teams
+El uso de Teams en un entorno virtualizado requiere los siguientes componentes.
 
-La experiencia de llamadas y reuniones de equipos no está optimizada para un entorno de VDI (próximamente). Le recomendamos que establezca directivas de nivel de usuario para desactivar las funciones de llamada y de reunión de Teams.
+- **Agente de virtualización**: el recurso y el administrador de conexiones en el proveedor de virtualización, como Azure
+- **Escritorio virtual**: pila de máquina virtual (VM) que ejecuta Microsoft Teams
+- **Cliente ligero**: el extremo con el que el usuario interactúa físicamente
+- **Aplicación de escritorio de Teams**: esta es la aplicación cliente de escritorio de Teams
 
-Aún puede elegir ejecutar Teams por completo en VDI con la aplicación de escritorio de Teams o la aplicación Web. Sin embargo, le recomendamos que establezca las directivas para evitar poner en peligro la experiencia del usuario.
-
-Los cambios de Directiva pueden tardar un poco (algunas horas) en propagarse. Si no ve los cambios de una cuenta determinada inmediatamente, inténtelo de nuevo en unas pocas horas.
-
-> [!NOTE]
-> Cuando las llamadas y las reuniones de Teams están optimizadas para su uso en entornos de escritorio virtuales, puede revertir estas directivas y permitir que los usuarios usen Teams como lo harían normalmente.
-
-#### <a name="calling"></a>Llamadas
-
-Use los cmdlets de **CSTeamsCallingPolicy** para controlar si los usuarios pueden usar las opciones de llamadas y llamadas en los chats privados y grupales. A continuación se muestra la lista de opciones de directiva y los valores recomendados.
-
-|Nombre de la directiva  |Descripción |Valor recomendado  |
-|---------|---------|---------|
-|AllowCalling|Controla las capacidades de llamadas de interoperabilidad. Activar este servicio permite que los usuarios de Skype empresarial tengan llamadas individuales con usuarios de Teams y viceversa.|Se establece en false para evitar que las llamadas de los usuarios de Skype empresarial se desembarquen en Teams.|
-|AllowPrivateCalling| Controla si la aplicación que llama está disponible en la barra de la aplicación en el lado izquierdo del cliente de equipos y si los usuarios ven las opciones de llamadas y videollamadas en una conversación privada. |Se establece en false para quitar la aplicación que llama de la barra de aplicaciones situada en el lado izquierdo de Teams y quitar las opciones de llamadas y videollamadas en la conversación privada.|
-
-#### <a name="create-and-assign-a-calling-policy"></a>Crear y asignar una directiva de llamadas
-
-1. Inicie una sesión de Windows PowerShell como administrador.
-2. Conéctate al conector de Skype online.
-
-      ```powershell
-      # Set Office 365 User Name and Password
-      $username = "admin email address"
-      password = ConvertTo-SecureString "password" -AsPlainText -Force
-      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-      # Connect to Skype Online
-      Import-Module SkypeOnlineConnector
-      $sfboSession = New-CsOnlineSession -Credential $LiveCred
-      Import-PSSession $sfboSession
-      ```
-
-3. Ver una lista de las opciones de directiva de llamada.
-
-      ```powershell
-      Get-CsTeamsCallingPolicy
-      ```
-
-4. Busque la opción de directiva integrada donde todas las directivas de llamadas están deshabilitadas. Tiene el siguiente aspecto.
-
-        Identity                        : Tag:DisallowCalling
-        AllowCalling                    : False
-        AllowPrivateCalling             : False
-        AllowVoicemail                  : False
-        AllowCallGroups                 : False
-        AllowDelegation                 : False
-        AllowUserControl                : False
-        AllowCallForwardingToUser       : False
-        AllowCallForwardingToPhone      : False
-        PreventTollBypass               : False
-
-5. Aplique la opción de directiva integrada DisallowCalling a todos los usuarios que vayan a usar Teams en un entorno virtualizado.
-
-      ```powershell
-      Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity "user email id"
-      ```
-
-Para obtener más información sobre las directivas de llamadas de Teams, consulte [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
-
-#### <a name="meetings"></a>Reuniones
-
-Use los cmdlets de **CsTeamsMeetingPolicy** para controlar el tipo de reuniones que los usuarios pueden crear, las características a las que pueden acceder durante una reunión y las características de la reunión que están disponibles para los usuarios anónimos y anónimos. A continuación se muestra la lista de opciones de directiva y los valores recomendados.
-
-|Nombre de la Directiva |Descripción|Valor recomendado                   |
-|-------------------|-----------------|-----------------------|
-|AllowPrivateMeetingScheduling  | Determina si un usuario puede programar reuniones privadas.| Se establece en false para impedir que el usuario pueda programar reuniones privadas. |
-|AllowChannelMeetingScheduling  | Determina si un usuario puede programar reuniones de canal. | Se establece en false para impedir que el usuario pueda programar reuniones de canal.|
-|AllowMeetNow |Determina si un usuario puede crear o iniciar reuniones ad-hoc. | Establezca este valor en false para impedir que el usuario pueda iniciar reuniones ad-hoc. |
-|ScreenSharingMode | Determina el modo en el que un usuario puede compartir su pantalla en llamadas o reuniones. | Se establece en deshabilitado para impedir que el usuario comparta sus pantallas. |
-|AllowIPVideo |Determina si el vídeo está habilitado en las reuniones o las llamadas de un usuario. | Se establece en false para impedir que el usuario comparta su video. |
-| AllowAnonymousUsersToDialOut | Determina si los usuarios anónimos pueden llamar a un número de RTC. | Se establece en false para impedir que los usuarios anónimos llamen. |
-| AllowAnonymousUsersToStartMeeting | Determina si los usuarios anónimos pueden iniciar una reunión. | Se establece en false para impedir que los usuarios inicien una reunión. |
-| AllowOutlookAddIn |Determina si un usuario puede programar reuniones de Teams en el cliente de escritorio de Outlook. | Se establece en false para impedir que un usuario programe reuniones de Teams en el cliente de escritorio de Outlook. |
-| AllowParticipantGiveRequestControl|Determina si los participantes pueden solicitar o ceder el control de la pantalla compartida.| Se establece en false para impedir que el usuario asigne y solicite el control en una reunión. |
-| AllowExternalParticipantGiveRequestControl | Determina si los participantes externos pueden solicitar o ceder el control de la pantalla compartida. | Se establece en false para impedir que un usuario externo otorgue un control a una reunión. |
-| AllowPowerPointSharing |Determina si se permite el uso compartido de PowerPoint en las reuniones de un usuario. |Se establece en false para impedir que un usuario comparta archivos de PowerPoint en una reunión. |
-| AllowWhiteboard | Determina si se permite la pizarra en las reuniones de un usuario. | Se establece en false para prohibir la pizarra en una reunión. |
-| AllowTranscription |Determina si se permiten las transcripciones y los títulos de tiempo real o posterior a la reunión en las reuniones de un usuario. | Se establece en false para prohibir transcripción y leyendas en una reunión. |
-| AllowSharedNotes | Determina si los usuarios pueden tomar notas compartidas. | Se establece en false para impedir que los usuarios tomen notas compartidas. |
-| MediaBitRateKB |Determina la velocidad de bits multimedia de las transmisións de uso compartido de audio, vídeo y aplicaciones de las reuniones. | El valor sugerido es 5000 (5 MB). Puede cambiarla en función de las necesidades de su organización. |
-
-#### <a name="create-and-assign-a-meeting-policy"></a>Crear y asignar una directiva de reunión
-
-1. Inicie una sesión de Windows PowerShell como administrador.
-1. Conéctate al conector de Skype online.
-
-      ```powershell
-      # Set Office 365 User Name and Password
-      $username = "admin email address"
-      password = ConvertTo-SecureString "password" -AsPlainText -Force
-      $LiveCred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
-      # Connect to Skype Online
-      Import-Module SkypeOnlineConnector
-      $sfboSession = New-CsOnlineSession -Credential $LiveCred
-      Import-PSSession $sfboSession
-      ```
-
-1. Ver una lista de opciones de directiva de reunión.
-
-      ```powershell
-      Get-CsTeamsMeetingPolicy
-      ```
-
-1. Busque la opción de directiva integrada en la que se deshabilitaron todas las directivas de reunión. Tiene el siguiente aspecto.
-
-        Identity                                    : Tag:AllOff
-        Description                                 :
-        AllowChannelMeetingScheduling               : False
-        AllowMeetNow                                : False
-        AllowIPVideo                                : False
-        AllowAnonymousUsersToDialOut                : False
-        AllowAnonymousUsersToStartMeeting           : False
-        AllowPrivateMeetingScheduling               : False
-        AutoAdmittedUsers                           : False
-        AllowCloudRecording                         : False
-        AllowOutlookAddIn                           : False
-        AllowPowerPointSharing                      : False
-        AllowParticipantGiveRequestControl          : False
-        AllowExternalParticipantGiveRequestControl  : False
-        AllowSharedNotes                            : False
-        AllowWhiteboard                             : False
-        AllowTranscription                          : False
-        MediaBitRateKb                              : False
-        ScreenSharingMode                           : False
-
-1. Aplique la opción de directiva integrada AllOff a todos los usuarios que vayan a usar Teams en un entorno virtualizado.
-
-      ```powershell
-      Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity "user email id"
-      ```
-
- Para obtener más información sobre las directivas de reunión de Teams, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+## <a name="teams-on-vdi-requirements"></a>Teams acerca de los requisitos de VDI
 
 ### <a name="virtualization-provider-requirements"></a>Requisitos del proveedor de virtualización
 
-La aplicación de Teams se ha validado en los principales proveedores de soluciones de virtualización. Con varios proveedores de mercado, consulte a su proveedor de soluciones de virtualización para asegurarse de que se cumplan los requisitos mínimos.
+La aplicación de escritorio de Teams se validó con los principales proveedores de soluciones de virtualización. Con los proveedores de varios mercados, le recomendamos que consulte a su proveedor de soluciones de virtualización para asegurarse de que se cumplan los requisitos mínimos.
+  
+Actualmente, los equipos de VDI con la optimización de audio y vídeo (AV) están certificados con Citrix. Revise la información de esta sección para asegurarse de que se cumplan los requisitos de Citrix y de Teams para que funcionen correctamente.
 
-### <a name="virtual-machine-requirements"></a>Requisitos de la máquina virtual
+### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Requisitos de aplicaciones virtuales y de escritorio de Citrix
 
-> [!NOTE]
-> Los siguientes requisitos se aplican a la aplicación de escritorio de Teams y a teams Web App.
+Las aplicaciones virtuales y los escritorios de Citrix (anteriormente conocidos como XenApp y XenDesktop) proporcionan optimización de AV para Teams en VDI. Con las aplicaciones virtuales y los equipos de escritorio de Citrix, los equipos de VDI son compatibles con las llamadas y la funcionalidad de reuniones, además de los chats y la colaboración.
 
-Con las diversas cargas de trabajo y necesidades de los usuarios en un entorno virtualizado, la configuración de VM mínima recomendada es la siguiente.
+[Aquí](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)puede descargar la última versión de las aplicaciones virtuales y equipos de escritorio de Citrix. (Primero deberás iniciar sesión). Los componentes necesarios se agrupan en la [aplicación Citrix Workspace (CWA)](https://www.citrix.com/downloads/workspace-app/) y virtual Delivery Agent (VDA) de forma predeterminada. No es necesario instalar ningún componente o complemento adicional en CWA o en VDA.
 
-|Parámetro |Cód |
-|---------|---------|
-|vCPU | 2 núcleos |
-|MEMORIAS | 4 GB |
-|Almacenamiento | 8 GB |
+Para obtener los últimos requisitos de servidor y cliente, consulte [este sitio web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-### <a name="virtual-machine-operating-system-requirements"></a>Requisitos del sistema operativo de la máquina virtual
+## <a name="install-the-teams-desktop-app-on-vdi"></a>Instalar la aplicación de escritorio de Teams en VDI
 
-Los sistemas operativos compatibles con la VM son:
+Puede implementar la aplicación de escritorio de Teams para VDI con una instalación por equipo o una instalación por usuario con el paquete MSI. Decidir qué método usar depende de si usa una configuración persistente o no persistente y las necesidades de funcionalidad asociada de su organización.
+En el caso de una configuración persistente, cualquiera de estos métodos funcionará.  Sin embargo, para una instalación no persistente, es necesaria una instalación por equipo para que los equipos funcionen de forma eficaz. Consulte la sección [configuración no persistente](#non-persistent-setup) .
 
-- Windows 10 y versiones posteriores
-- Windows Server 2012 R2 y versiones posteriores
+Con la instalación por equipo, actualizaciones automáticas está deshabilitado. Esto significa que para actualizar la aplicación de Teams, debe desinstalar la versión actual para actualizar a una versión más reciente. Con la instalación por usuario, la característica actualizaciones automáticas está habilitada. Para la mayoría de las implementaciones de VDI, se recomienda implementar Teams con la instalación por equipo.
 
-## <a name="install-teams-on-vdi"></a>Instalar Teams en VDI
+Para que la optimización de AV de Teams en entornos de VDI funcione correctamente, el punto de conexión de cliente ligero debe tener acceso a Internet. Si el acceso a Internet no está disponible en el extremo del cliente ligero, el inicio de la optimización no se realizará correctamente. Esto significa que el usuario se encuentra en un estado de medio no optimizado.
 
-Este es el proceso y las herramientas para implementar la aplicación de escritorio de Teams.
+#### <a name="dedicated-persistent-setup"></a>Configuración permanente dedicada
 
-1. Descargue el paquete de MSI de Teams con uno de los siguientes vínculos en función del entorno. Recomendamos la versión de 64 bits para una VM VDI con un sistema operativo de 64 bits.
+En una configuración persistente, los cambios del sistema operativo local de los usuarios se conservan después de que los usuarios cierren sesión.  Para la configuración persistente, los equipos son compatibles con la instalación por usuario y por equipo.
+
+A continuación se recomienda la configuración de VM mínima.
+
+|Parámetro  |Sistema operativo de estación de trabajo  |Sistema operativo del servidor  |
+|---------|---------|---------|
+|vCPU   |    2 núcleos     |  4, 6 u 8<br>Es importante comprender la configuración de acceso a memoria no uniforme (NUMA) subyacente y configurar las máquinas virtuales según corresponda.     |
+|MEMORIAS     |   4 GB      | 512 a 1024 MB por usuario        |
+|Almacenamiento    | 8 GB        | 40 a 60 GB        |
+
+#### <a name="non-persistent-setup"></a>Configuración no persistente
+
+En una configuración no persistente, los cambios del sistema operativo local de los usuarios no se conservan después de que los usuarios cierren sesión. Dichas configuraciones suelen ser sesiones multiusuario compartidas. La configuración de la VM varía según el número de usuarios y los recursos del cuadro físico disponibles.
+
+Para una instalación no persistente, la aplicación de escritorio de Teams debe instalarse por equipo para la imagen de oro. (Para obtener más información, consulte la sección [instalar la aplicación de escritorio de Teams en VDI](#install-the-teams-desktop-app-on-vdi) ). Esto asegura un lanzamiento eficaz de la aplicación de Teams durante una sesión de usuario. El uso de equipos con una configuración no persistente también requiere un administrador de almacenamiento en caché para los equipos eficientes de sincronización de datos en tiempo de ejecución. Esto garantiza que la información específica del usuario adecuada (por ejemplo, datos de usuario, perfil y configuración) se almacene en la memoria caché durante la sesión de usuario.  Hay varias soluciones de administrador de almacenamiento en caché disponibles. Por ejemplo, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consulte a su proveedor de almacenamiento en caché para obtener instrucciones de configuración específicas.
+
+##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Lista de exclusión de contenido almacenado en caché de Teams para configuración no persistente
+
+Excluya lo siguiente de la carpeta Team Caching,% AppData%/Microsoft/Teams.  Excluyendo estos ayuda a reducir el tamaño del almacenamiento en caché de usuario para optimizar aún más la configuración no persistente.
+
+- archivos. txt
+- Carpeta de la pila de medios
+
+### <a name="office-365-proplus-considerations"></a>Consideraciones sobre Office 365 ProPlus
+
+Tenga en cuenta lo siguiente al implementar Teams con Office 365 ProPlus en VDI.
+
+#### <a name="new-deployments-of-teams-through-office-365-proplus"></a>Nuevas implementaciones de Teams a través de Office 365 ProPlus
+
+Antes de implementar Teams a través de Office 365 ProPlus, primero debe desinstalar cualquier aplicación existente de Teams si se ha implementado con la instalación por equipo.
+
+Los equipos a través de Office 365 ProPlus se instalan por usuario. Para obtener más información, vea la sección [instalar la aplicación de escritorio de Teams en VDI](#install-the-teams-desktop-app-on-vdi) .
+
+#### <a name="teams-deployments-through-office-365-proplus-updates"></a>Implementaciones de Teams mediante las actualizaciones de Office 365 ProPlus
+
+Teams también se agrega a las instalaciones existentes de Office 365 ProPlus. Ya que Office 365 ProPlus instala solo equipos por usuario, consulte la sección [instalar la aplicación de escritorio de Teams en VDI](#install-the-teams-desktop-app-on-vdi) .
+
+#### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>Usar Teams con la instalación por equipo y Office 365 ProPlus
+
+Office 365 ProPlus no es compatible con las instalaciones por máquina de Teams. Para usar la instalación por equipo, debe excluir equipos de Office 365 ProPlus. Vea la [aplicación de escritorio de implementación de Teams en la VM](#deploy-the-teams-desktop-app-to-the-vm) y [Cómo excluir la implementación de Teams a través de las secciones de Office 365 ProPlus](#how-to-exclude-teams-deployment-through-office-365-proplus) .
+
+#### <a name="how-to-exclude-teams-deployment-through-office-365-proplus"></a>Cómo excluir la implementación de equipos a través de Office 365 ProPlus
+
+Para obtener más información sobre los equipos y Office 365 ProPlus, consulte [Cómo excluir equipos de las nuevas instalaciones de Office 365 ProPlus](https://docs.microsoft.com/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) y [use la Directiva de grupo para controlar la instalación de Teams](https://docs.microsoft.com/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+
+### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Implementar la aplicación de escritorio de Teams en la VM
+
+1. Descargue el paquete MSI de teams que coincida con el sistema operativo de la VM de VDI mediante uno de los siguientes vínculos.
 
     - [versión de 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
     - [versión de 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
 
-1. Ejecute el siguiente comando para instalar el MSI en la máquina virtual de VDI (o actualizarlo).
+    La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.2.00.31357.
 
-      ```
-      msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
-      ```
+2. Instale el MSI en la VM de VDI ejecutando uno de los siguientes comandos:
 
-    Instala Teams en archivos de programa. En este momento, la configuración de la imagen de oro está completa.
+    - Instalación por usuario (predeterminado)
+  
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name>
+        ```
+    
+        Esta es la instalación predeterminada, que instala Teams en la carpeta de usuario% AppData%. En este momento, la configuración de la imagen de oro está completa. Teams no funciona correctamente con la instalación por usuario en una configuración no persistente.
+    
+    - Instalación por equipo
 
-    La siguiente sesión de inicio de sesión interactivo inicia Teams y solicita las credenciales. Tenga en cuenta que no es posible deshabilitar el inicio automático de equipos al instalar Teams en VDI mediante la propiedad ALLUSER.
+        ```
+        msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
+        ```
 
-1. Ejecute el siguiente comando para desinstalar el MSI de la máquina virtual de VDI (o prepararse para actualizarlo).
+        Esto instalará Teams en la carpeta archivos de programa (x86) en un sistema operativo de 64 bits y en la carpeta archivos de programa de un sistema operativo de 32 bits. En este momento, la configuración de la imagen de oro está completa. La instalación de equipos por máquina es necesaria para las configuraciones no persistentes.
+ 
+        La siguiente sesión de inicio de sesión interactivo inicia Teams y solicita las credenciales.
 
+3. Desinstalar el MSI de la VM de VDI 
+
+    Hay dos maneras de desinstalar Teams.  
+  
+    - Script de PowerShell (recomendado): puede usar este [script de PowerShell](scripts/powershell-script-teams-deployment-clean-up.md) para limpiar los equipos de los equipos de destino o de los usuarios. Debe ejecutarse para todos los usuarios de un equipo de destino. 
+    
+    - Línea de comandos: este enfoque quita Teams, pero impide la reinstalación de Teams.  
+    Ejecute el siguiente comando:
+  
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
+      Esto desinstala equipos de la carpeta archivos de programa (x86) o de la carpeta archivos de programa, según el entorno del sistema operativo.
 
-    Esto desinstalará Teams de archivos de programa.
+## <a name="teams-on-vdi-performance-considerations"></a>Consideraciones de rendimiento de Teams en VDI
+
+Hay varias configuraciones de instalación virtualizadas, cada una con un enfoque diferente para la optimización. Por ejemplo, densidad de usuario. Al planear, tenga en cuenta lo siguiente para ayudarle a optimizar la configuración en función de las necesidades de carga de trabajo de su organización:
+
+- Requisito mínimo: algunas cargas de trabajo pueden requerir una configuración que use recursos que estén por encima de los requisitos mínimos. Por ejemplo, cargas de trabajo para los programadores que usan aplicaciones que exigen más recursos informáticos.
+- Dependencias: Estas incluyen dependencias de la infraestructura, la carga de trabajo y otras consideraciones ambientales fuera de la aplicación de escritorio de Teams.
+- Características deshabilitadas en VDI: Teams deshabilita características de GPU intensiva para VDI, lo que puede ayudar a mejorar el uso de la CPU transitoria. Las siguientes características están deshabilitadas:
+    - Animación CSS de Teams
+    - Inicio automático de Giphy
+
+## <a name="teams-on-vdi-with-calling-and-meetings"></a>Teams en VDI con llamadas y reuniones
+
+Además de los chats y la colaboración, los equipos de VDI con soporte de llamadas y reuniones están disponibles con plataformas basadas en Citrix. Las características compatibles se basan en la pila de medios de WebRTC y en la implementación específica de Citrix. El siguiente diagrama ofrece una descripción general de la arquitectura.
+
+![Diagrama que muestra equipos en arquitectura de VDI](media/teams-on-vdi-architecture.png)
+
+No se admiten estas características de llamadas y reuniones:
+
+- Servicios de emergencia mejorados
+- Botones HID y controles LED entre la aplicación de Teams y los dispositivos
+- Efectos y desenfoque de fondo
+- Eventos de difusión/Live
+- Enrutamiento basado en la ubicación (LBR)
+- Estacionar llamada
+- Cola de llamadas
+
+> [!IMPORTANT]
+> Si actualmente ejecuta equipos sin optimización de AV en VDI y usa características que aún no se admiten para la optimización (como conceder y tomar el control al compartir aplicaciones), debe configurar directivas de Citrix para desactivar el redireccionamiento de equipos. Esto significa que las sesiones de Team media no se optimizarán. Para conocer los pasos sobre cómo configurar directivas para desactivar el redireccionamiento de equipos, consulte este [sitio web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/policies/reference/ica-policy-settings/multimedia-policy-settings.html).
+
+Estamos trabajando para agregar características de llamadas y reuniones que actualmente solo están disponibles en entornos ajenos a VDI. Esto puede incluir más control de administración de la calidad, escenarios de pantalla compartida adicionales y características avanzadas que se han agregado recientemente a teams. Póngase en contacto con el representante de su equipo para obtener más información sobre las próximas características.
+
+### <a name="network-requirements"></a>Requisitos de red
+
+Le recomendamos que evalúe su entorno para identificar los riesgos y los requisitos que pueden influir en la implementación general de voz y video de la nube. Use la [herramienta Evaluación de redes de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=53885) para comprobar si su red está lista para los equipos.
+
+Para obtener más información sobre cómo preparar su red para equipos, consulte [preparar la red de su organización para Teams](prepare-network.md).
+
+### <a name="migrate-from-skype-for-business-on-vdi-to-teams-on-vdi"></a>Migrar desde Skype empresarial en VDI a teams en VDI
+
+Si va a migrar desde Skype empresarial en VDI a teams en VDI, además de las diferencias entre las dos aplicaciones, hay algunas diferencias cuando se implementa VDI. Algunas de las funciones que actualmente no se admiten en la VDI de Skype para empresas son las siguientes:
+
+- Control de las experiencias de las llamadas de VDI con directivas para limitar la velocidad de bits de medios
+- Directiva por plataforma para deshabilitar algunas características de AV en VDI
+- Ceder y tomar el control del uso compartido de aplicaciones
+- Compartir pantalla desde una conversación sin audio
+- Envío y recepción simultáneos de video y pantalla compartida
+
+### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Equipos en el explorador Chrome frente a la aplicación de escritorio de Teams para VDI
+
+El explorador de Teams en Chrome no proporciona un reemplazo para la aplicación de escritorio de Teams para VDI con optimización de AV. La experiencia de chat y colaboración funciona de la forma esperada. Cuando se necesita multimedia, hay algunas experiencias que pueden no cumplir con las expectativas del usuario en el explorador Chrome.
+
+- Es posible que la experiencia de transmisión de audio y vídeo no sea óptima. Los usuarios pueden experimentar retrasos o reducir la calidad.
+- La configuración del dispositivo no está disponible en la configuración del explorador.
+- La administración de dispositivos se controla a través del explorador y requiere varias opciones de configuración en la configuración del sitio del explorador.
+- Es posible que la configuración del dispositivo también deba establecerse en Windows Device Management.
+
+## <a name="teams-on-vdi-with-chat-and-collaboration"></a>Equipos en VDI con chat y colaboración
+
+Si su organización desea usar únicamente las características de colaboración y chat en Teams, puede establecer directivas de nivel de usuario para desactivar las funciones de llamada y de reunión de Teams. Este nivel de características no requiere aplicaciones virtuales de Citrix y equipos de escritorio.
+
+### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>Establecer directivas para desactivar la funcionalidad de llamadas y reuniones
+
+Puede establecer directivas con el centro de administración de Microsoft Teams o PowerShell. Los cambios de Directiva pueden tardar un poco (algunas horas) en propagarse. Si no ve los cambios de una cuenta determinada inmediatamente, inténtelo de nuevo en unas pocas horas.
+
+[**Llamadas a directivas**](teams-calling-policy.md): Teams incluye la Directiva de llamadas DisallowCalling integrada, en la que se desactivan todas las características de las llamadas. Asigne la Directiva DisallowCalling a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
+
+[**Directivas de reuniones**](meeting-policies-in-teams.md): Teams incluye la Directiva de reunión AllOff integrada, en la que se desactivan todas las características de la reunión. Asigne la Directiva AllOff a todos los usuarios de su organización que usen Teams en un entorno virtualizado.
+
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Asignar directivas mediante el centro de administración de Microsoft Teams
+
+Para asignar la Directiva de llamada de DisallowCalling y la Directiva de reunión de AllOff a los usuarios, siga estos pasos:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
+2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**.
+3. Siga este procedimiento:
+    1.  En **Directiva de llamada**, haga clic en **DisallowCalling**.
+    2.  En **Directiva de reunión**, haga clic en **AllOff**.
+4. Haga clic en **Aplicar**.
+
+Para asignar una directiva a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+
+También puede hacer lo siguiente:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
+    - Vaya a **** > **directivas de llamadas**de voz y, a continuación, haga clic en **DisallowCalling**.
+    - Vaya a **reuniones** > **Meeting Policies**y, a continuación, haga clic en **AllOff**.
+3. Seleccione **administrar usuarios**.
+4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, a continuación, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
+
+#### <a name="assign-policies-using-powershell"></a>Asignar directivas con PowerShell
+
+En el ejemplo siguiente se muestra cómo usar [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) para asignar la Directiva de llamadas de DisallowCalling a un usuario.
+
+```
+Grant-CsTeamsCallingPolicy -PolicyName DisallowCalling -Identity “user email id”
+```
+
+Para obtener más información sobre cómo usar PowerShell para administrar directivas de llamadas, consulte [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+
+En el ejemplo siguiente se muestra cómo usar la [concesión-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) para asignar la Directiva de reunión de AllOff a un usuario.
+
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOff -Identity “user email id”
+```
+
+Para obtener más información sobre cómo usar PowerShell para administrar directivas de reuniones, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
+
+## <a name="migrate-teams-on-vdi-with-chat-and-collaboration-to-citrix-with-calling-and-meetings"></a>Migrar equipos de VDI con chat y colaboración a Citrix con llamadas y reuniones
+
+Si tiene una implementación existente de Teams en VDI con conversaciones y colaboración en las que ha establecido directivas de nivel de usuario para desactivar la funcionalidad de llamadas y reuniones, y migra a Citrix con optimización de AV, debe configurar las directivas para activar las llamadas y cumplimiento de la funcionalidad de los equipos de los usuarios de VDI.
+
+### <a name="set-policies-to-turn-on-calling-and-meeting-functionality"></a>Establecer directivas para activar la funcionalidad de llamadas y reuniones
+
+Puede usar el centro de administración de Microsoft Teams o PowerShell para establecer y asignar directivas de llamada y reunión a los usuarios. Los cambios de Directiva pueden tardar un poco (algunas horas) en propagarse. Si no ve los cambios de una cuenta determinada inmediatamente, inténtelo de nuevo después de algunas horas.
+
+[**Directivas de llamadas: directivas**](teams-calling-policy.md)de llamada en Teams controle qué características de llamadas están disponibles para los usuarios. Teams incluye la Directiva de llamadas AllowCalling integrada, en la que se activan todas las características de las llamadas. Para activar todas las características de llamadas, asigna la Directiva AllowCalling. También puedes crear una directiva de llamadas personalizada para activar las características de llamadas que quieras y asignarla a los usuarios. 
+
+[**Directivas de reuniones**](meeting-policies-in-teams.md): directivas de reuniones en Teams controle los tipos de reuniones que los usuarios pueden crear y las características que están disponibles para los participantes de la reunión programados por los usuarios de su organización. Teams incluye la Directiva de AllOn de reunión integrada, en la que se activan todas las características de la reunión. Para activar todas las características de la reunión, asigne la Directiva AllOn. O bien, cree una directiva de reunión personalizada para activar las características de la reunión que desee y asignarles usuarios.
+
+#### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Asignar directivas mediante el centro de administración de Microsoft Teams
+
+Para asignar la Directiva de llamada de AllowCalling y la Directiva de reunión de AllOn a los usuarios, siga estos pasos:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**.
+2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**.
+3. Siga este procedimiento:
+    1.  En **Directiva de llamada**, haga clic en **AllowCalling**.
+    2.  En **Directiva de reunión**, haga clic en **AllOn**.
+4. Haga clic en **Aplicar**.
+
+Para asignar una directiva a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+
+También puede hacer lo siguiente:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a la Directiva que desea asignar. Por ejemplo:
+    - Vaya a **** > **directivas de llamadas**de voz y, a continuación, haga clic en **AllowCalling**.
+    - Vaya a **reuniones** > **Meeting Policies**y, a continuación, haga clic en **AllOn**.
+3. Seleccione **administrar usuarios**.
+4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, a continuación, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
+5. Cuando haya terminado de agregar usuarios, haga clic en **Guardar**.
+
+#### <a name="assign-policies-using-powershell"></a>Asignar directivas con PowerShell
+
+En el ejemplo siguiente se muestra cómo usar [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy) para asignar la Directiva de llamadas de AllowCalling a un usuario.
+
+```
+Grant-CsTeamsCallingPolicy -PolicyName AllowCalling -Identity “user email id”
+```
+
+Para obtener más información sobre cómo usar PowerShell para administrar directivas de llamadas, consulte [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy).
+
+En el ejemplo siguiente se muestra cómo usar la [concesión-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmeetingpolicy) para asignar la Directiva de reunión de AllOn a un usuario.
+
+```
+Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity “user email id”
+```
+
+Para obtener más información sobre cómo usar PowerShell para administrar directivas de reuniones, consulte [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy).
 
 ## <a name="known-issues-and-limitations"></a>Problemas conocidos y limitaciones
 
-A continuación se indican los problemas conocidos y las limitaciones de Teams en VDI.
+### <a name="client-deployment-installation-and-setup"></a>Implementación de clientes, instalación y configuración
 
-- **Implementaciones de tipo de host de sesión compartida**: implementaciones de tipo de host de sesión compartida (por ejemplo, configuración de VM no persistente compartida) no están en el ámbito.
-- **Llamadas y reuniones**:
+- Con la instalación por equipo, Teams en VDI no se actualiza automáticamente de la manera en que se encuentran los clientes de equipos ajenos a VDI. Tiene que actualizar la imagen de VM instalando un nuevo MSI, tal y como se describe en la sección [instalar la aplicación de escritorio de Teams en VDI](#install-the-teams-desktop-app-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
+- En este momento, Citrix no admite los clientes de MacOs y Linux.
+- Citrix no admite el uso de proxy HTTP explícitos definidos en un extremo. 
 
-  - Los escenarios de llamadas y reuniones no están optimizados para VDI. Estos escenarios no se realizarán correctamente. Le recomendamos que use directivas de nivel de usuario tal y como se describe en la sección [establecer directivas para desactivar la función de llamadas y reuniones de Teams](#set-policies-to-turn-off-calling-and-meeting-functionality-in-teams) .  
-  - La aplicación de las directivas descritas en este artículo afecta a la posibilidad de usar la funcionalidad de llamadas y reuniones, que depende de otras directivas, puede afectar a otros usuarios de su organización. Si los usuarios de su organización usan clientes que no son VDI, puede optar por no aplicar las directivas.  
+### <a name="calling-and-meetings"></a>Llamadas y reuniones
 
-- **Unirse a llamadas y reuniones creadas por otros usuarios**: aunque las directivas restringen la creación de reuniones, aún pueden unirse a ellas si otro usuario llama a ellas desde la reunión. En estas reuniones, la capacidad del usuario de compartir vídeo, usar la pizarra y otras características depende de si ha deshabilitado esas características con TeamsMeetingPolicy.
+- La interoperabilidad con Skype empresarial está limitada a las llamadas de audio, sin modalidad de video.
+- Actualmente no se admite la interacción de multifrecuencia de tono dual (DTMF) con sistemas de telefonía.
+- Unirse a reuniones de Teams como usuario anónimo no está optimizado para AV. El usuario puede unirse a la reunión y tener una experiencia no optimizada.
+- En las reuniones o en las llamadas grupales solo se admite una única secuencia de vídeo entrante. Cuando varias personas envían video, solo se muestra el vídeo del altavoz dominante en un momento dado.  
+- La resolución de flujo de vídeo entrante y saliente está limitada a la resolución de 720p. Esta es una limitación de WebRTC.
+- Solo se admite una secuencia de vídeo de una cámara entrante o una secuencia compartida de pantalla. Cuando hay un uso compartido de pantalla entrante, ese recurso compartido de pantalla lo muestra en lugar del vídeo del altavoz dominante.
+- Pantalla compartida saliente:
+    - El uso compartido de aplicaciones no es compatible.
+- Ceder el control y tomar el control:  
+    - No se admite durante una sesión compartida de pantalla o de uso compartido de aplicaciones.
+    - Compatible durante una sesión de uso compartido de PowerPoint.  
+- No se admite el escalado de PPP alto en CWA.
 
-- **Contenido almacenado en caché**: Si el entorno virtual en el que se ejecutan los equipos no es persistente (y los datos se limpian al final de cada sesión de usuario), es posible que los usuarios noten una degradación en el rendimiento debido a la actualización del contenido, independientemente de si el usuario tuvo acceso al mismo contenido de una sesión anterior.
+Para los problemas conocidos de teams que no se relacionan con VDI, consulte [problemas conocidos para Teams](Known-issues.md).
 
-- **Actualizaciones de cliente**: Teams en VDI no se actualiza automáticamente con la instalación de MSI por máquina. Tiene que actualizar la imagen de VM instalando un nuevo MSI, como se describe en la sección [instalar Teams en VDI](#install-teams-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
+## <a name="troubleshooting"></a>Solución de problemas
 
-- **Experiencia de usuario**: la experiencia de usuario de los equipos en un entorno de VDI puede diferir de un entorno que no sea de VDI. Las diferencias pueden deberse a la configuración de directivas o a la compatibilidad de características en el entorno.
+#### <a name="troubleshoot-citrix-components"></a>Solución de problemas de componentes de Citrix
 
-Para los problemas conocidos de teams que no se relacionan con VDI, consulte [problemas conocidos de Microsoft Teams](Known-issues.md).
+Para obtener información sobre cómo solucionar problemas de VDA y CWA, consulte [este sitio web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Instalar Microsoft Teams mediante MSI](msi-deployment.md)
+- [Descripción de PowerShell para Teams](teams-powershell-overview.md)
