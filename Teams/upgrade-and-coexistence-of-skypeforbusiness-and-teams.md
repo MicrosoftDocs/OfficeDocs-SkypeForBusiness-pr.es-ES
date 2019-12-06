@@ -1,5 +1,5 @@
 ---
-title: Actualización de Microsoft Teams desde Skype empresarial | Modos, coexistencia
+title: Actualización de Microsoft Teams desde Skype Empresarial | Modos, coexistencia
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: dearbeen, bjwhalen
-description: Detalles de Skype empresarial y Microsoft Teams opciones y modos de coexistencia, y actualización de los viajes a los equipos de Skype empresarial con escenarios de ejemplo.
+description: Detalles de Skype Empresarial y Microsoft Teams opciones y modos de coexistencia, y vías de actualización para Teams desde Skype Empresarial con escenarios de ejemplo.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -21,168 +21,168 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 5de243402cd5694b2e4a498f7ff7650cd8f49f4a
 ms.sourcegitcommit: 2e005b335b1566c99b93fc311498702838466324
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/02/2019
 ms.locfileid: "37931648"
 ---
-![Actualizar el diagrama de viaje, enfatizando la fase de definición del proyecto](media/upgrade-banner-project-definition.png "Etapas del viaje de actualización, con énfasis en la fase de definición del proyecto")
+![Diagrama de itinerario de actualización, énfasis en la fase de definición del proyecto](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
 
-Este artículo forma parte de la fase de definición de proyecto del viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
+Este artículo forma parte de la fase de definición de proyecto de su vía de actualización. Antes de continuar, confirme que ha completado las actividades siguientes:
 
-- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
-- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 
-# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir el viaje de actualización de Skype empresarial a teams
+# <a name="choose-your-upgrade-journey-from-skype-for-business-to-teams"></a>Elegir la vía de actualización de Skype Empresarial a Teams
 
-Como cliente existente de Skype empresarial, la transición completa a teams puede llevar algún tiempo. Sin embargo, puede empezar a obtener el valor de Teams hoy, lo que permite a los usuarios usar Teams junto con Skype empresarial. Dado que hay alguna funcionalidad superpuesta entre las dos aplicaciones, le recomendamos que revise los modos disponibles de coexistencia y actualización para determinar qué ruta de acceso es adecuada para su organización. Por ejemplo, puede optar por habilitar todas las cargas de trabajo en ambas soluciones sin interoperabilidad. O bien, puede decidir administrar la experiencia del usuario, ya sea mediante la presentación gradual de las capacidades de Teams o la segmentación de grupos de usuarios para capacidades de selección, hasta que su organización esté lista para actualizar a todos los equipos. Use el resultado de su prueba piloto para evaluar el camino adecuado para la actualización de su organización.
+Como cliente existente de Skype Empresarial, la transición completa a Teams puede llevar cierto tiempo. Sin embargo, puede empezar hoy mismo a comprender el valor de Teams habilitando a sus usuarios para utilizar Teams junto con Skype Empresarial. Dado que hay algunas funciones que se superponen en las dos aplicaciones, le recomendamos que revise los modos disponibles de coexistencia y actualización para determinar cuál es la ruta adecuada para su organización. Por ejemplo, es posible que decida permitir todas las cargas de trabajo en ambas soluciones sin interoperabilidad. O bien, puede decidir administrar la experiencia de usuario, ya sea mediante la introducción gradual de las funciones de Teams o seleccionando grupos de usuarios para ciertas funciones, hasta que la organización esté preparada para actualizar a todos sus miembros a Teams. Use el resultado de la prueba piloto para evaluar la vía adecuada para la actualización de su organización.
 
 > [!IMPORTANT]
-> Skype empresarial online se retirará el 31 de julio de 2021, después del cual ya no será accesible ni compatible. Para maximizar los beneficios y asegurarse de que su organización tenga el tiempo adecuado para implementar su actualización, le recomendamos que comience su viaje a Microsoft Teams hoy.
+> Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams.
 
-En este artículo se describen los distintos modos que le permiten administrar las modalidades de Skype empresarial y de los equipos disponibles para los usuarios. Al igual que con cualquier implementación, le recomendamos encarecidamente que [planee su plan previsto](pilot-essentials.md) con un grupo de usuarios seleccionado antes de actualizar su organización a teams. Recuerde que la presentación de nuevas tecnologías puede ser perjudicial para los usuarios. Tomarse el tiempo para evaluar la preparación de los usuarios e implementar un plan de comunicación y formación antes de implementar cualquiera de los modos descritos en el presente documento.
+Este artículo describe los distintos modos que le permiten administrar las modalidades de Skype Empresarial y de Teams que estarán disponibles para los usuarios. Al igual que con cualquier implementación, le recomendamos encarecidamente que [pilote el plan previsto](pilot-essentials.md) con un grupo seleccionado de usuarios antes de actualizar toda la organización a Teams. Recuerde que la introducción de nuevas tecnologías puede suponer molestias para los usuarios. Tómese el tiempo para evaluar el nivel de preparación de los usuarios e implementar un plan de comunicación y capacitación antes de implementar cualquiera de los modos descritos en este documento.
 
 > [!TIP]
-> Únase a los talleres interactivos y en vivo en los que compartimos orientación, procedimientos recomendados y recursos diseñados para la planificación e implementación de la actualización de lanzamiento.
+> Únase a los talleres interactivos en vivo en los que le ofrecemos la orientación, prácticas recomendadas y recursos que necesita para comenzar a planificar la actualización y la implementación.
 >
->Únase primero a la [planificación de tu actualización](https://aka.ms/SkypeToTeamsPlanning) para comenzar.
+>Para empezar, únase en primer lugar a la sesión [Planificar la actualización](https://aka.ms/SkypeToTeamsPlanning).
 
 
-## <a name="upgrade-journey-building-blocks"></a>Actualizar los bloques de creación del viaje
+## <a name="upgrade-journey-building-blocks"></a>Bloques de construcción de la vía de actualización
 
-Para preparar formalmente su organización para su viaje a Teams, debe comenzar a planear los escenarios de actualización que le permitirán a su organización adoptar completamente equipos como una única solución de comunicaciones y colaboración.
+A fin de preparar formalmente la organización para que pase a Teams, debe empezar a planificar los escenarios de actualización que finalmente permitirán a la organización adoptar plenamente Teams como única solución de colaboración y comunicación.
 
-Para ayudarle en el proceso de toma de decisiones, familiarícese con los distintos modos, conceptos y terminología relacionados con la actualización de Skype empresarial a teams. Para obtener más información, consulte [Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial](https://aka.ms/SkypeToTeams-Coexist)
+Para recibir orientación sobre el proceso de toma de decisiones, familiarícese con los distintos modos, conceptos y terminología relevantes para actualizar de Skype Empresarial a Teams. Para obtener más información, consulte [Coexistencia e interoperabilidad de Skype Empresarial y Microsoft Teams](https://aka.ms/SkypeToTeams-Coexist).
 
-Un usuario que se ha migrado a teams ya no usa un cliente de Skype empresarial, excepto para unirse a una reunión hospedada en Skype empresarial. Todas las conversaciones entrantes y llama en tierra en el cliente de equipos del usuario, independientemente de si el remitente usa Teams o Skype empresarial. Todas las reuniones nuevas organizadas por el usuario actualizado se programarán como reuniones de Teams. Si el usuario intenta usar el cliente de Skype empresarial, el inicio de los chats y las llamadas se bloquea<sup>1</sup>. Sin embargo, el usuario puede (y debe) seguir usando el cliente de Skype empresarial para unirse a las reuniones a las que está invitado.
+Un usuario que ha migrado a Teams ya no usa un cliente de Skype Empresarial, salvo para incorporarse a una reunión mantenida en Skype Empresarial. Todos los chats y llamadas pasan al cliente de Teams del usuario, independientemente de si el remitente utiliza Teams o Skype Empresarial. Todas las reuniones nuevas organizadas por el usuario actualizado se programarán como reuniones de Teams. Si el usuario intenta usar el cliente de Skype Empresarial, se bloqueará el inicio de chats y llamadas<sup>1</sup>. Sin embargo, el usuario puede (y debe) seguir usando el cliente de Skype Empresarial para incorporarse a las reuniones a las que sea invitado.
 
-Los administradores administran su transición a teams mediante el concepto de [modo](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes), que es una propiedad de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Un usuario que se ha migrado a Teams, como se describe anteriormente, está en modo "TeamsOnly". En el caso de una organización que está migrando a Teams, el último objetivo es mover todos los usuarios al modo TeamsOnly.
+Los administradores gestionan la transición a Teams aplicando el concepto de [modo](migration-interop-guidance-for-teams-with-skype.md#coexistence-modes), que es una propiedad de [TeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps). Un usuario que ha migrado a Teams según se ha descrito arriba se encuentra en modo "TeamsOnly". En el caso de una organización que va a migrar a Teams, el objetivo final es pasar a todos los usuarios al modo TeamsOnly.
 
-Existen dos métodos para migrar una organización existente con Skype empresarial (ya sea en línea o local) a teams:
+Hay dos métodos para migrar una organización existente con Skype Empresarial (tanto en línea como local) a Teams:
 
-- **Método de funciones superpuestas** (con el modo Islas): los usuarios de una organización existente de Skype empresarial se introducen en Teams para que puedan usar ambos clientes en paralelo durante una fase de transición. Durante este período, la mayoría de las funciones de Teams, pero no todas, están disponibles. El modo de esta configuración se denomina islas, y este es el modo predeterminado para cualquier organización existente con Skype empresarial. Una vez que la organización está lista, el administrador pasa a los usuarios al modo TeamsOnly.
-- **Seleccione el método de capacidades** (con uno o varios de los modos de Skype empresarial): el administrador administra la transición (de Skype empresarial a teams) de las funciones de chat, llamadas y programación de reuniones para los usuarios de su organización. Cada una de estas funciones está disponible en Skype empresarial o en Teams, pero no en ambas. Los administradores usan TeamsUpgradePolicy para controlar cuándo se desplazan esta funcionalidad a los equipos de los usuarios. Los usuarios que aún no están en el modo de TeamsOnly siguen usando Skype empresarial para conversaciones y llamadas, y los dos conjuntos de usuarios pueden comunicarse a través de la funcionalidad de interoperabilidad. Los administradores administran la transición mediante la migración progresiva de más usuarios al modo TeamsOnly.
+- El **método de funciones superpuestas** (con el modo Islas): se presenta Teams a los usuarios de una organización existente con Skype Empresarial para que puedan usar ambos clientes en paralelo durante una fase transitoria. Durante este período, la mayoría de las funciones de Teams (pero no todas) están disponibles para ellos. El modo de esta configuración se conoce como Islas y este es el modo predeterminado para cualquier organización existente con Skype Empresarial. Una vez que la organización está preparada, el administrador pasa a los usuarios al modo TeamsOnly.
+- Método de **funciones seleccionadas** (con uno o varios modos de Skype Empresarial): el administrador gestiona la transición (de Skype Empresarial a Teams) para las funcionalidades de chat, llamadas y programación de reuniones para los usuarios de su organización. Cada una de estas funciones está disponible en Skype Empresarial o en Teams, pero no en ambas aplicaciones. Los administradores usan TeamsUpgradePolicy para controlar cuándo una funcionalidad pasa a Teams para los usuarios. Los usuarios que todavía no están en el modo TeamsOnly continúan usando Skype Empresarial para chat y llamadas, y los dos conjuntos de usuarios pueden comunicar entre sí mediante la funcionalidad de interoperabilidad. Los administradores gestionan la transición mediante la migración progresiva de más usuarios al modo TeamsOnly.
 
-<sup>1</sup> Los antiguos clientes de Skype empresarial que se entregaron antes 2017 no son compatibles con TeamsUpgradePolicy. Asegúrese de que está usando el último cliente de Skype empresarial disponible en su canal de Office.
+<sup>1</sup>Los clientes antiguos de Skype Empresarial entregados antes de 2017 no son compatibles con TeamsUpgradePolicy. Asegúrese de que utiliza el cliente más reciente de Skype Empresarial disponible en su canal de Office.
 
 A continuación se muestran los factores clave para ayudarle a decidir cuál es la ruta de acceso adecuada para su organización. 
 
 ## <a name="overlapping-capabilities-method-using-islands-mode"></a>Método de funciones superpuestas (con el modo Islas)
 
-Con el método de funciones superpuestas, los usuarios pueden usar tanto equipos como clientes de Skype empresarial para conversaciones de chat, llamadas de VoIP y reuniones. En este método, las llamadas de chat y VOIP en Teams son específicas de la organización, mientras que Skype empresarial habilita las llamadas de chat y de VOIP/RTC con organizaciones externas (si se han configurado). Las reuniones se pueden programar y tener una asistencia en ambos productos.
+Con el método de funciones superpuestas, los usuarios pueden usar tanto equipos como clientes de Skype Empresarial para chat, llamadas VoIP y reuniones. En este método, el chat y las llamadas de VoIP en Teams son prioritarios dentro de la organización, mientras que Skype Empresarial permite chat y llamadas VOIP/RTC con organizaciones externas (si se ha configurado). Es posible programar y asistir a reuniones en ambos productos.
 
-Al usar el método de funciones superpuestas, el tráfico de comunicación de Skype empresarial y Teams sigue siendo independiente (incluso para el mismo usuario) y los dos clientes diferentes nunca se comunican entre sí (para los usuarios de la misma organización). Las experiencias de usuario se basan en la configuración del destinatario. Por ejemplo, supongamos que el usuario A está usando este método de actualización:
+Al usar el método de funciones superpuestas, el tráfico de comunicación para Skype Empresarial y Teams permanece separado (incluso para el mismo usuario) y los dos diferentes clientes nunca se comunican entre sí (para los usuarios de la misma organización). Las experiencias del usuario se basan en la configuración del destinatario. Por ejemplo, supongamos que el destinatario Usuario A utiliza este método de actualización:
 
-- La comunicación iniciada desde el cliente de Skype empresarial de otro usuario siempre se ubicará en el cliente de Skype empresarial del usuario A.
-- La comunicación iniciada desde el cliente de Teams desde un *usuario de la misma organización* siempre estará en el cliente de equipos del usuario a.
-- La comunicación iniciada desde un cliente de equipos desde un *usuario de una organización externa* siempre estará en el cliente de Skype empresarial del usuario a.
+- La comunicación iniciada desde el cliente de Skype Empresarial de otro usuario siempre llegará al cliente de Skype Empresarial del Usuario A.
+- La comunicación iniciada desde el cliente de Teams de un *usuario de la misma organización* siempre llegará al cliente de Teams del Usuario A.
+- La comunicación iniciada desde el cliente de Teams de un *usuario de una organización externa* siempre llegará al cliente de Skype Empresarial del Usuario A.
 
-Si ha asignado una licencia de Office 365 a los usuarios, esta será la experiencia de actualización predeterminada para su organización. Cuando asigna una licencia de Office 365, se asignan licencias de equipo y de Skype empresarial online de forma predeterminada. <sup>2</sup>
+Si ha asignado una licencia de Office 365 a los usuarios, esta será la experiencia de actualización predeterminada para su organización. Cuando se asigna una licencia de Office 365, se asignan de forma predeterminada tanto licencias de Teams como de Skype Empresarial.<sup>2</sup>
 
-Para que este método funcione de forma eficaz, todos los usuarios deben ejecutar ambos clientes al mismo tiempo. Las conversaciones entrantes y las llamadas desde dentro de la organización a un usuario en modo islas pueden encontrarse en el cliente de Skype para empresas o Teams, y esto no está bajo el control del destinatario. Depende del cliente que use el remitente para iniciar la comunicación. Si el remitente y el destinatario están en distintas organizaciones, las llamadas entrantes y los chats a un usuario en el modo islas siempre estarán en el cliente de Skype empresarial.
+Para que este método funcione de forma eficaz, todos los usuarios deben ejecutar simultáneamente ambos clientes. Los chats y llamadas entrantes desde la organización a un usuario en el modo Islas pueden llegar al cliente de Skype Empresarial o al de Teams, circunstancia esta que no está bajo el control del destinatario. Depende del cliente que el remitente use para iniciar la comunicación. Si el remitente y el destinatario están en distintas organizaciones, las llamadas entrantes y chats a un usuario en modo Islas siempre se encuentran en el cliente de Skype Empresarial.
 
-Por ejemplo, si un destinatario de modo islas ha iniciado sesión en Skype empresarial pero no Teams, y alguien los envía a un equipo, el destinatario del modo islas no verá el mensaje (pero finalmente recibirá un mensaje de correo electrónico que indica que ha perdido un mensaje en Teams). Del mismo modo, si un usuario ejecuta Teams pero no Skype empresarial y alguien le envía un mensaje de usuario de Skype empresarial, el usuario no verá ese chat. El comportamiento en cada uno de estos casos es similar al de las llamadas. Si los usuarios no ejecutan ambos clientes, puede dar lugar a frustraciones fácilmente.
+Por ejemplo, si el destinatario en modo Islas inicia sesión en Skype Empresarial, pero no en Teams y alguien le envía un mensaje desde Teams, el destinatario en modo Islas no verá el mensaje (en lugar de ello recibirá un correo electrónico en el que se le indicará que se ha recibido un mensaje en Teams). De manera similar, si un usuario está ejecutando Teams pero no es Skype Empresarial y alguien le envía un mensaje desde Skype Empresarial, el usuario no verá este chat. El comportamiento en cada uno de estos casos es similar para las llamadas. Si los usuarios no ejecutan ambos clientes, se pueden producir situaciones frustrantes.
 
-La presencia también funciona de forma independiente entre equipos y Skype empresarial usando este método de actualización. Esto significa que otros usuarios pueden ver diferentes Estados de presencia para el usuario A, dependiendo del cliente que usen. Para obtener más información, consulte [presencia](upgrade-to-Teams-on-prem-overview.md#presence).
+La presencia también funciona de forma independiente entre Teams y Skype Empresarial con este método de actualización. Esto significa que los otros usuarios pueden ver diferentes estados de presencia para el Usuario A en función del cliente que utilicen. Para obtener más información, consulte [Presencia](upgrade-to-Teams-on-prem-overview.md#presence).
 
-- Otros usuarios, cuando usen Teams, verán la presencia en función de la actividad del usuario A en Teams.
-- Otros usuarios, al usar Skype empresarial, verán la presencia basada en la actividad del usuario A en Skype empresarial.
+- Los otros usuarios que utilicen Teams verán la presencia en función de la actividad del Usuario A en Teams.
+- Los otros usuarios que utilicen Skype Empresarial verán la presencia en función de la actividad del Usuario A en Skype Empresarial.
 
-Una vez que esté listo para actualizar a los usuarios al modo TeamsOnly, puede actualizar los usuarios de forma individual o puede actualizar todo el inquilino a la vez con la Directiva de ámbito empresarial<sup>3</sup>. Una vez que un usuario se actualiza al modo TeamsOnly, recibe todas las conversaciones y llamadas entrantes en Teams.
+Una vez que esté listo para actualizar usuarios al modo TeamsOnly, puede actualizar los usuarios de forma individual o bien puede actualizar toda la organización a la vez mediante el uso de la directiva de ámbito empresarial<sup>3</sup>. Una vez que un usuario se actualiza al modo TeamsOnly, este recibe todas las conversaciones y llamadas entrantes en Teams.
 
-Sin embargo, es posible que los destinatarios no actualizados en modo islas sigan recibiendo chats y llamadas de un usuario TeamsOnly en sus clientes de Skype empresarial o de Teams. Para las conversaciones existentes, el usuario de TeamsOnly responderá al cliente en el que el remitente inició la conversación o la llamada. 
+Sin embargo, los destinatarios no actualizados en modo Islas pueden seguir recibiendo chats y llamadas de un usuario TeamsOnly en los clientes de Skype Empresarial o de Teams. Para las conversaciones existentes, el usuario en TeamsOnly responderá al cliente desde el cual el remitente haya iniciado el chat o la llamada. 
 
-Para las conversaciones nuevas desde el punto de vista del usuario de TeamsOnly, la conversación o la llamada siempre irá al modo islas islas usuarios de Teams. Esto se debe a que el cliente de Teams mantiene subprocesos de conversación por separado para la comunicación entre equipos y entre equipos y entre usuarios de Skype para empresas, incluso para el mismo usuario. Para obtener más información, vea [conversaciones de Teams: interoperabilidad frente a subprocesos nativos](upgrade-to-Teams-on-prem-overview.md#teams-conversations---interop-versus-native-threads).
+Para las nuevas conversaciones desde el punto de vista del usuario de TeamsOnly, el chat o la llamada siempre se dirigirán al cliente de Teams de los usuarios en el modo Islas. Esto se debe a que el cliente de Teams mantiene hilos de conversación independientes para las comunicaciones Teams-Teams y Teams-Skype Empresarial, incluso para el mismo usuario. Para obtener más información, consulte [Conversaciones de Teams: interoperabilidad frente a hilos nativos](upgrade-to-Teams-on-prem-overview.md#teams-conversations---interop-versus-native-threads).
 
-En la tabla siguiente se resume la experiencia de los equipos para el modo islas y TeamsOnly:
+En la tabla siguiente se resume la experiencia de Teams para los modos Islas y TeamsOnly:
 
-| Experiencia de Teams | En modo islas | En el modo TeamsOnly |
+| Experiencia de Teams | En modo Islas | En modo TeamsOnly |
 |:------------------ | :------------------- | :------------------ |
-| Conversaciones y llamadas entrantes recibidas en:|  Teams o Skype empresarial | Teams |
-| Llamadas RTC recibidas en: | Skype Empresarial <br>(El uso de la funcionalidad RTC en Teams no es compatible con el modo Islas).    | Teams |   
- |Presence  | La presencia en Skype empresarial y Teams es independiente. Los usuarios pueden ver diferentes Estados para el mismo usuario de islas, en función del cliente que usen. | La presencia se basa únicamente en la actividad del usuario en Teams. Todos los demás usuarios, independientemente del cliente que usen, verán esa presencia. | 
- | Programación de reuniones   | Los usuarios pueden programar reuniones en Teams o Skype empresarial. Verán ambos complementos en Outlook. |   Los usuarios solo programan reuniones en Teams. En Outlook solo está disponible el complemento de Teams. | 
+| Chats y llamadas entrantes recibidos en:|  Teams o Skype Empresarial | Teams |
+| Llamadas RTC recibidas en: | Skype Empresarial <br>(El uso de la función RTC en equipos no es compatible con el modo Islas).    | Teams |   
+ |Presencia  | La presencia en Skype Empresarial y en Teams es independiente. Los usuarios pueden ver diferentes estados para el mismo usuario en modo Islas en función del cliente que utilicen. | La presencia está basada únicamente en la actividad del usuario en Teams. El resto de usuarios, independientemente del cliente que usen, verán esta presencia. | 
+ | Programación de reuniones   | Los usuarios pueden programar reuniones en Teams o en Skype Empresarial. Se mostrarán ambos complementos en Outlook. |   Los usuarios solo pueden programar reuniones en Teams. En Outlook, solo está disponible el complemento Teams. | 
 
-En la siguiente tabla se resumen los pros y los inconvenientes de usar el método de funciones superpuestas para migrar su organización a teams.
+En la tabla siguiente se resumen las ventajas e inconvenientes de usar el método de funciones superpuestas para migrar su organización a Teams.
 
-| Profesionales ti     |       Conveniente |
+| Ventajas     |       Inconvenientes |
 | :------------------ | :---------------- |
-| Permite una rápida adopción dentro de una organización.| Posibilidad de confusión entre usuarios finales, ya que existen dos clientes con una funcionalidad similar, pero distintas interfaces de usuario. Además, no tienen control sobre qué clientes entran y las llamadas entrantes. |
-| Permite a los usuarios aprender y familiarizarse con Teams sin dejar de tener acceso completo a Skype empresarial. | Potencial de insatisfacción del usuario final debido a mensajes perdidos si el usuario no está ejecutando ambos clientes.|
-| Esfuerzo mínimo de administración para empezar a trabajar en Teams. | Puede ser desafiante "salir del modo de islas" y pasar al modo TeamsOnly si los usuarios y aquellos con los que normalmente se comunican no usan activamente Teams.|
-|Permite a los usuarios aprovechar las funciones para mejorar el trabajo en equipo que no está disponible en Skype empresarial.| Un usuario que está usando Skype empresarial en local y Teams no podrá comunicarse con otros usuarios que usen Skype empresarial local, pero que no tengan equipos de equipos.  |
+| Permite una rápida adopción en la organización.| Existe un potencial de confusión para el usuario final debido a que existen dos clientes con funcionalidades similares pero interfaces de usuario diferentes. Además, no tienen control sobre el cliente al que llegan los mensajes de chat o llamadas entrantes. |
+| Permite a los usuarios aprender y familiarizarse con Teams y seguir teniendo acceso completo a Skype Empresarial. | Existe un potencial de insatisfacción para el usuario final debido a la pérdida de mensajes si el usuario no ejecuta los dos clientes.|
+| Mínimo esfuerzo de administración para empezar a trabajar en Teams. | Puede ser un reto «salir del modo Islas» y pasar al modo TeamsOnly si los usuarios y las personas con las que se comunican habitualmente no utilizan Teams de manera activa.|
+|Permite a los usuarios aprovechar funciones para mejorar el trabajo en equipo que no están disponibles en Skype Empresarial.| Un usuario que utiliza Skype Empresarial en local y Teams no podrá comunicarse desde Teams con otros usuarios que usen Skype Empresarial en local pero no dispongan de Teams.  |
 
-<sup>2</sup> Esto es cierto incluso si el usuario está alojado en local en Skype empresarial Server. Independientemente de si el usuario se ha alojado en local o en línea, deje habilitada la licencia de Skype empresarial online, porque actualmente es necesaria para la funcionalidad de equipos completos.
+<sup>2</sup>Esto sucede aunque el usuario se conecte localmente a Skype Empresarial Server. Tanto si el usuario está en local como si está en línea, deje la licencia de Skype Empresarial Online habilitada, dado que actualmente es necesaria para la plena funcionalidad de Teams.
 
-<sup>3</sup> Tenga en cuenta que la migración de reuniones de Skype empresarial a reuniones de Teams solo se desencadena cuando se aplica TeamsUpgradePolicy a usuarios individuales, no por espacio empresarial. Consulte [migración de reuniones](upgrade-to-Teams-on-prem-overview.md#meeting-migration) para obtener más información.
+<sup>3</sup>Tenga en cuenta que la migración de reuniones desde Skype Empresarial a reuniones de Teams solo se activa al aplicar TeamsUpgradePolicy a usuarios individuales, no a nivel empresarial. Para obtener más información, consulte [Migración de reuniones](upgrade-to-Teams-on-prem-overview.md#meeting-migration).
 
-## <a name="select-capabilities-method-using-skype-for-business-modes"></a>Método de selección de funciones (con los modos de Skype empresarial)
+## <a name="select-capabilities-method-using-skype-for-business-modes"></a>Seleccionar el método de funcionalidades (con modos de Skype Empresarial)
 
-Es posible que algunas organizaciones prefieran proporcionar a los usuarios finales una experiencia más predecible a medida que su organización pase de Skype empresarial a equipos. En este modelo, los administradores de ti usan uno de los modos de Skype empresarial en TeamsUpgradePolicy para designar de forma explícita Qué funcionalidades permanecen en Skype empresarial antes de migrar al modo TeamsOnly. Puesto que están listos para desplazar las funcionalidades seleccionadas al modo TeamsOnly, el administrador actualiza el modo de que esos usuarios TeamsOnly. Durante esta transición:
+Es posible que algunas organizaciones prefieran ofrecer a los usuarios finales una experiencia más predecible a medida que su organización pasa de Skype Empresarial a Teams. En este modelo, los administradores de TI usan uno de los modos de Skype Empresarial en TeamsUpgradePolicy para designar explícitamente las funciones que permanecen en Skype Empresarial antes de migrar al modo TeamsOnly. Una vez que los usuarios están listos para cambiar las funcionalidades seleccionadas al modo TeamsOnly, el administrador actualiza el modo para estos usuarios a TeamsOnly. Durante esta transición:
 
-- Los administradores tienen opciones para habilitar determinadas capacidades de Teams para los usuarios a la vez que mantienen las capacidades de chat y de llamadas en Skype empresarial antes de que los usuarios pasen a TeamsOnly. La administración puede habilitar las capacidades de colaboración de Teams o las reuniones y las características de colaboración.
-- Los usuarios que todavía tienen Skype empresarial reciben todas las conversaciones y llamadas entrantes en el cliente de Skype empresarial, independientemente de si la comunicación proviene de los equipos de los demás usuarios o del cliente de Skype empresarial. Además, para estos usuarios de Skype empresarial, la funcionalidad de llamadas y chats en el cliente de equipos están deshabilitadas para ayudar a evitar la confusión del usuario final y garantizar el enrutamiento y la presencia adecuados.
-- Los usuarios en modo TeamsOnly reciben todas las conversaciones y las llamadas entrantes en el cliente de su equipo y la presencia viene proporcionada por los equipos, independientemente de dónde se originó la comunicación: Teams, Skype empresarial o cualquier tipo de usuario federado.
+- Los administradores tienen opciones para habilitar algunas de las funcionalidades de Teams para los usuarios a la vez que mantienen las funcionalidades de chat y llamadas en Skype Empresarial antes de que los usuarios pasen a la experiencia TeamsOnly. La administración puede habilitar funcionalidades de colaboración de Teams o reuniones de Teams + funcionalidades de colaboración.
+- Los usuarios que siguen en Skype Empresarial reciben todas las conversaciones y llamadas entrantes en el cliente de Skype Empresarial, independientemente de si la comunicación proviene del cliente de Teams o de Skype Empresarial del otro usuario. Además, para estos usuarios de Skype Empresarial, las funciones de llamadas y chat en el cliente de Teams están deshabilitadas para evitar confusiones de los usuarios finales y asegurar un enrutamiento y una presencia adecuados.
+- Los usuarios en el modo TeamsOnly reciben todos los chats y llamadas entrantes en su cliente de Teams, y Teams indica la presencia, independientemente de dónde se originó la comunicación: Teams, Skype empresarial o cualquier tipo de usuario federado.
 
-A diferencia del método de capacidades superpuestas, en el método de seleccionar capacidades, los usuarios que usan Skype empresarial pueden comunicarse con los usuarios que están en TeamsOnly. La comunicación entre un usuario de Skype empresarial y un usuario de equipo se conoce como [interoperabilidad](upgrade-to-Teams-on-prem-overview.md#interoperability) o "interoperabilidad". La comunicación interoperativa es posible en una base de uno a uno para conversaciones y llamadas entre usuarios de Skype empresarial y otros usuarios de Teams. Además, los usuarios invitados siempre pueden unirse a una reunión de Skype empresarial o de Teams, pero deben usar un cliente que se corresponda con el tipo de reunión. Para obtener más información, vea [reuniones](upgrade-to-Teams-on-prem-overview.md#meetings).
+A diferencia del método de funcionalidades superpuestas, en el método de seleccionar funcionalidades los usuarios que usan Skype Empresarial pueden comunicarse con los usuarios que se encuentran en TeamsOnly. La comunicación entre un usuario de Skype Empresarial y un usuario de Teams se conoce como [interoperabilidad](upgrade-to-Teams-on-prem-overview.md#interoperability) (o «interop»). La comunicación de interoperabilidad es posible a un nivel uno a uno para chats y llamadas entre usuarios en Skype Empresarial y otros usuarios en Teams. Además, los usuarios invitados siempre pueden unirse a una reunión de Skype Empresarial o de Teams, pero deben usar un cliente que se corresponda con el tipo de reunión. Para obtener más información, consulte [Reuniones](upgrade-to-Teams-on-prem-overview.md#meetings).
 
-Para los usuarios con un método de selección de funciones, la presencia de un usuario es coherente, independientemente del cliente que use el otro usuario. Si el usuario se encuentra en uno de los modos de Skype empresarial, todos los demás usuarios verán presencia basada en la actividad de ese usuario en Skype empresarial. De forma similar, si un usuario está en modo TeamsOnly, todos los demás usuarios verán la presencia basándose en la actividad de ese usuario en Teams. Para obtener más información, consulte [presencia](upgrade-to-Teams-on-prem-overview.md#presence).
+Para los usuarios del método de selección de funcionalidades, la presencia de un usuario es coherente, independientemente del cliente que use el otro usuario. Si el usuario está en uno de los modos de Skype Empresarial, el resto de usuarios verán la presencia en función de la actividad de este usuario en Skype Empresarial. De forma similar, si un usuario está en modo TeamsOnly, el resto de usuarios verán la presencia en función de la actividad de este usuario en Teams. Para obtener más información, consulte [Presencia](upgrade-to-Teams-on-prem-overview.md#presence).
 
-Para una organización que ha elegido seguir el método de funciones SELECT, el administrador debe cambiar el modo de inquilino para todo el inquilino de islas al modo de coexistencia de Skype empresarial correspondiente (SfbWithTeamsCollab o SfBWithTeamsCollabAndMeetings).  
+En el caso de una organización que haya elegido seguir el método de seleccionar funcionalidades, el administrador debe cambiar el modo de todo el espacio empresarial desde Islas al modo adecuado de coexistencia de Skype Empresarial (SfbWithTeamsCollab o SfBWithTeamsCollabAndMeetings).  
 
-Las experiencias de los usuarios invitados se ajustarán al modo de coexistencia asignado al inquilino. Si estableces un modo de Skype empresarial en el nivel de espacio empresarial, los invitados no pueden conversar, llamar o mostrar su presencia. Para obtener más información, lea [acceso de invitado en Teams](guest-access.md).
+La experiencia de los usuarios invitados se ajustará al modo de coexistencia asignado en el ámbito empresarial. Si establece un modo de Skype Empresarial a nivel empresarial, los invitados no podrán chatear, llamar o mostrar su presencia. Para obtener más información, consulte [Acceso de invitado a Teams](guest-access.md).
 
-Cuando el modo cambia de islas a SfbWithTeamsCollab, los usuarios que nunca hayan usado Teams no verán ninguna diferencia en el modo en que usan Skype empresarial. Sin embargo, si el usuario comienza a usar Teams, solo se verá expuesto a una funcionalidad como la de Teams & canal y archivos. La programación, las llamadas y las reuniones no estarán disponibles en Teams, ya que el administrador ha designado (por ahora) Skype empresarial como el cliente deseado para esas funciones.
+Cuando el modo cambia de Islas a SfbWithTeamsCollab, un usuario que nunca haya usado Teams no verá ninguna diferencia en cómo usar Skype Empresarial. Sin embargo, si el usuario empieza a usar Teams, solo estará expuesto a funcionalidades como Teams, canales y archivos. El chat, las llamadas y la programación de reuniones no estarán disponibles en Teams, puesto que el administrador ha designado (por ahora) Skype Empresarial como el cliente deseado para estas funciones.
 
 > [!NOTE]
-> Cuando el usuario A cambia de islas a uno de los modos de Skype empresarial, el cliente de Teams de cualquier otro usuario que se comunique con el usuario A debe saber que el modo del usuario a ha cambiado para que pueda enrutar la comunicación al cliente a correspondiente para el usuario A. Para todos los usuarios que ya hayan establecido chats nativos entre equipos con el usuario A, puede demorar el cambio de modo de los demás usuarios de los equipos de los usuarios de islas a cualquier modo de Skype empresarial. Cuando los administradores están listos, pueden desplazarse por las conversaciones de chat, llamadas y reuniones para un usuario determinado a teams todos a la vez actualizando el modo del usuario a TeamsOnly.
+> Cuando el Usuario A cambia desde Islas a uno de los modos de Skype Empresarial, el cliente de Teams de cualquier otro usuario que se comunique con el Usuario A debe saber que el modo del Usuario A ha cambiado a fin de dirigir la comunicación al cliente adecuado para el Usuario A. En el caso de los usuarios que ya hayan establecido chats nativos de Teams a Teams con el Usuario A, puede que los clientes de los equipos de estos otros usuarios necesiten algún tiempo para tener conocimiento del cambio de modo desde Islas a cualquier modo de Skype Empresarial. Cuando los administradores estén listos, podrán pasar de una vez el chat, las llamadas y la programación de reuniones de un usuario determinado a Teams actualizando el modo del usuario a TeamsOnly.
 
-Como alternativa, el administrador puede desplazar solo la programación de reuniones a Teams, dejando las funciones de chat y de llamadas en Skype empresarial con el modo SfBWithTeamsCollabAndMeetings. Este modo permite que las organizaciones pasen a los equipos de las reuniones, si aún no están listos para pasar al modo TeamsOnly (por ejemplo, aún no está listo para migrar la funcionalidad RTC existente). Este escenario transitorio se conoce como [reuniones en primer lugar](meetings-first.md).
+Como alternativa, el administrador de puede mover primero la programación de reuniones a Teams, dejando que el chat y las llamadas funcionen en Skype Empresarial mediante el modo SfBWithTeamsCollabAndMeetings. Este modo permite a las organizaciones pasar a Teams para reuniones si los usuarios aún no están listos para migrar al modo TeamsOnly (por ejemplo, aún no se ha terminado la migración de la funcionalidad RTC existente). Este escenario transitorio se denomina [Reuniones primero](meetings-first.md).
 
 
-|Experiencia de Teams  |En el modo SfBWithTeamsCollab |En el modo SfBWithTeamsCollabAndMeetings |En el modo TeamsOnly  |
+|Experiencia de Teams  |En el modo SfBWithTeamsCollab |En el modo SfBWithTeamsCollabAndMeetings |En modo TeamsOnly  |
 |---------|---------|---------|---------|
-|Las conversaciones entrantes y las llamadas de VOIP de los usuarios de su organización se han recibido en:     | Skype Empresarial        | Skype Empresarial       | Teams        |
+|Chats y llamadas VoIP entrantes procedentes de los usuarios de su organización recibidos en:     | Skype Empresarial        | Skype Empresarial       | Teams        |
 |Llamadas RTC recibidas en:     | Skype Empresarial        |Skype Empresarial         | Teams        |
-|Presence     | Skype Empresarial        |Skype Empresarial         | Teams        |
-|Programación de reuniones     | Skype Empresarial         | Teams        | Microsoft Teams        |
+|Presencia     | Skype Empresarial        |Skype Empresarial         | Teams        |
+|Programación de reuniones     | Skype Empresarial         | Teams        | Teams        |
 
 
-La siguiente tabla resume los pros y los inconvenientes de usar los modos de Skype empresarial como paso de transición hacia el modo TeamsOnly.
+En la tabla siguiente se resumen las ventajas e inconvenientes de usar los modos de Skype Empresarial como paso transitorio hacia el modo TeamsOnly.
 
-| Profesionales ti     |       Conveniente |
+| Ventajas     |       Inconvenientes |
 | :------------------ | :---------------- |
-| Enrutamiento predecible para el usuario final. Todas las llamadas y chats se encuentran en Skype para empresas o en Teams (pero no en ambas), en función de la selección del administrador.|Las conversaciones de interoperabilidad carecen de compatibilidad con texto enriquecido, uso compartido de archivos y pantalla compartida. Esto se puede resolver aprovechando la funcionalidad reunirse ahora para iniciar una reunión. |
-|Puede reducir la confusión del usuario final porque una determinada función solo está disponible en un cliente. | Los usuarios no tienen acceso a los equipos para actividades comunes realizadas en Skype empresarial, como chats y llamadas antes de la actualización a TeamsOnly.|
-|El administrador ha aumentado el control sobre el conjunto de capacidades disponibles para los usuarios mientras se realiza la transición de Skype empresarial a teams. | |
-| Permite a una organización usar Teams para reuniones, incluso si aún no está listo para moverse completamente al modo TeamsOnly.||
-|La presencia de un usuario determinado según lo ven otras personas es la misma, independientemente del cliente que usen.||
+| Direccionamiento predecible para el usuario final. Todas las llamadas y chats llegan a Skype Empresarial o a Teams (pero no a ambos), en función de la selección del administrador.|Las conversaciones de interoperabilidad no son compatibles con el texto enriquecido, el uso compartido de archivos y el uso compartido de pantalla. Esto puede solucionarse aprovechando la funcionalidad Reunirse ahora para iniciar una reunión. |
+|Puede reducir la confusión de usuarios finales, ya que una función determinada solo está disponible en un único cliente. | Los usuarios no tienen acceso a Teams para las actividades comunes que se llevan a cabo en Skype Empresarial, como el chat y las llamadas antes de la actualización a TeamsOnly.|
+|El administrador tiene mayor control sobre el conjunto de funcionalidades disponibles para los usuarios mientras se realiza la transición desde Skype Empresarial a Teams. | |
+| Permite a una organización usar Teams para reuniones, incluso si todavía no está lista para cambiar plenamente al modo TeamsOnly.||
+|La presencia de un usuario determinado es la que ven el resto de usuarios, independientemente del cliente que utilicen.||
 
 ## <a name="summary-of-upgrade-methods"></a>Resumen de los métodos de actualización
-En la siguiente tabla se resumen los métodos de actualización:
+En la tabla siguiente se resumen los métodos de actualización:
 
 
-|Funciones superpuestas (con el modo Islas)  |Capacidades seleccionadas (con los modos de Skype empresarial)  |
+|Funciones superpuestas (con el modo Islas)  |Funcionalidades seleccionadas (con modos de Skype Empresarial)  |
 |---------|---------|
-|Antes de actualizar a TeamsOnly, los usuarios deben ejecutar ambos clientes a la vez, ya que las conversaciones entrantes y las llamadas pueden situarse en cualquier cliente.     | Chatea y llama solamente a tierras de un cliente, en función del modo del destinatario. Los usuarios no actualizados pueden ejecutar ambos clientes, pero no hay ninguna superposición funcional (las llamadas y la conversación no están disponibles en Teams).         |
-|Permite a los administradores introducir funcionalidades superpuestas (chat, reuniones, llamadas VOIP) tanto en Skype empresarial como en Teams para usuarios finales, así como nuevas capacidades (equipos y canales) en Teams.     | Permite a los administradores presentar la funcionalidad de selección de Teams a los usuarios finales (equipos y canales), sin proporcionar la misma funcionalidad que también existe en Skype empresarial.        |
-|La interoperabilidad entre Skype empresarial y Teams no existe mientras ambos usuarios están en el modo islas.      |La interoperabilidad es necesaria para la comunicación entre los usuarios de Skype empresarial y de Teams.         |
+|Antes de actualizar a TeamsOnly, los usuarios deben ejecutar ambos clientes de forma simultánea, ya que los chats y llamadas entrantes pueden dirigirse a cualquiera de los dos clientes.     | El chat y las llamadas llegan a un solo cliente, en función del modo del destinatario. Los usuarios no actualizados pueden ejecutar ambos clientes, pero no hay ningún solapamiento funcional (las llamadas y el chat no están disponibles en Teams).         |
+|Permite a los administradores incluir una función superpuesta (chat, reuniones, llamadas de VoIP) para los usuarios finales, tanto en Skype Empresarial como en Teams, así como para nuevas funcionalidades (equipos y canales) en Teams.     | Permite a los administradores presentar funcionalidades seleccionadas de Teams a los usuarios finales (equipos y canales), sin ofrecer la misma funcionalidad que también existe en Skype Empresarial.        |
+|La interoperabilidad entre Skype Empresarial y Teams no existe mientras ambos usuarios se encuentren en modo Islas.      |La interoperabilidad es necesaria para la comunicación entre los usuarios de Skype Empresarial y Teams.         |
 
 > [!NOTE]
-> Si no puede seguir los métodos admitidos para migrar los usuarios de Skype empresarial Server a Teams, sería posible realizar la transición de los usuarios a teams quitando Skype empresarial Server y todos los atributos de usuario relacionados en Active Directory. Una vez que los usuarios de los atributos de Azure Active Directory se hayan eliminado de los atributos de servidor de Skype empresarial y los registros de DNS hayan sido redirigidos a Office 365, entonces sería posible conceder licencias a los usuarios en Office 365 y actualizarlos a teams. 
+> Si no puede seguir los métodos admitidos para migrar sus usuarios desde Skype Empresarial Server a Teams, es posible realizar la transición de los usuarios a Teams quitando Skype Empresarial Server y todos los atributos de usuario relacionados en Active Directory. Una vez que se han quitado los atributos de Azure Active Directory de los atributos de Skype Empresarial Server y los registros de DNS se han reorientado hacia Office 365, es posible conceder licencias a los usuarios en Office 365 y actualizarlos a Teams. 
 
 > [!IMPORTANT]
 > Con la migración total, los datos de contactos y reuniones no se migrarán del entorno local a Microsoft Teams.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Puntos de decisión</td><td><ul> ¿Qué viaje de actualización es adecuado para los requisitos empresariales de su organización?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Paso siguiente</td><td><ul> Identificar el modelo de implementación actual, los escenarios de casos de uso y las consideraciones clave para su organización informarán al viaje a los equipos que mejor se adapten a su organización.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Punto de decisión</td><td><ul> ¿Qué itinerario de actualización es el adecuado para los requisitos empresariales de su organización?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Paso siguiente</td><td><ul> Identificar el modelo de implementación actual, los escenarios de uso y las consideraciones clave de su organización proporciona información para que el recorrido hacia Teams sea el más adecuado para su organización.<br><br></ul></td></tr>
 </table>
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Puntos de decisión</td><td><ul> ¿Qué escenario de actualización es aplicable a su organización?<br><br></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul> Decidir la escala de tiempo del viaje de actualización de su organización en función de la mensajería, las reuniones y los requisitos empresariales de llamadas.<br><br> Decida el trabajo adicional necesario para completar el viaje de actualización.<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Punto de decisión</td><td><ul> ¿Qué escenario de actualización es aplicable a su organización?<br><br></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul> Decida la escala de tiempo del itinerario de actualización de su organización en función de la mensajería, las reuniones y los requisitos empresariales de llamadas.<br><br> Decida el trabajo adicional que necesita para completar el itinerario de la actualización.<br><br></ul></td></tr>
 </table>
 
-Una vez que haya elegido el mejor viaje de actualización para su organización, [realice la actualización a teams](https://aka.ms/SkypeToTeams-Upgrade).
+Una vez elegido el mejor itinerario de actualización para su organización, [realice la actualización a Teams](https://aka.ms/SkypeToTeams-Upgrade).
