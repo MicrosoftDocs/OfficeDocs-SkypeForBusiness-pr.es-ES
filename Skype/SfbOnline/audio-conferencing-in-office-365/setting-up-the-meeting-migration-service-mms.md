@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: El servicio de migración de reuniones (MMS) es un servicio que se ejecuta en segundo plano y actualiza automáticamente las reuniones de Skype empresarial y Microsoft Teams para los usuarios. MMS está diseñado para eliminar la necesidad de que los usuarios ejecuten la herramienta de migración de reuniones para actualizar sus reuniones de Skype empresarial y Microsoft Teams.
-ms.openlocfilehash: 3f643f20937fd13b0d9576640487da30f17dd7bf
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 91fcc1b95e107f36a55516e7f459eb8fae581bbe
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772284"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890534"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Usar el servicio de migración de reuniones (MMS)
 
@@ -128,7 +128,7 @@ Además de las migraciones de reuniones automáticas, los administradores pueden
 **SourceMeetingType:**
 - `SourceMeetingType SfB` Indica que solo se deben actualizar las reuniones de Skype empresarial (estén locales o en línea).
 - `SourceMeetingType Teams` Indica que solo se deben actualizar las reuniones de Teams.
-- Usar `SourceMeetingType All` indica que se deben actualizar tanto las reuniones de Skype como las reuniones de la empresa. Este es el valor predeterminado para SourceMeetingType.
+- Usar `SourceMeetingType All` indica que las reuniones de Skype empresarial y las reuniones de Teams deben actualizarse. Este es el valor predeterminado para SourceMeetingType.
     
 
 En el siguiente ejemplo se muestra cómo iniciar la migración de reuniones para los usuarios ashaw@contoso.com para que todas las reuniones se migren a teams:

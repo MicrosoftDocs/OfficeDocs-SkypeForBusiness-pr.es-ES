@@ -5,7 +5,6 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 audience: admin
@@ -17,12 +16,12 @@ f1keywords:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55ac7c4adf51e920aba2a8eed0f0d6c5aa83ca36
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563882"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886187"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -91,6 +90,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 | Módulo | Vídeo | Presentación de PowerPoint  |
 | ------------ | -------------------- | -------------------- |
+| [Aspectos prácticos de Microsoft-Teams Essentials para el canal de YouTube de ti](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: aspectos básicos de Teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: implementar & configurar Teams: Introducción](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 mín)  ||
 | Fundamentos: los componentes principales | [Vídeo](https://aka.ms/teams-foundations) | [Presentación de diapositivas](https://aka.ms/teams-foundations-deck) |
 | Cliente del escritorio de Windows | [Vídeo](https://aka.ms/teams-clients) | [Presentación de diapositivas](https://aka.ms/teams-clients-deck) |
 | Gobierno, administración y ciclo de vida | [Vídeo](https://aka.ms/teams-governance) | [Presentación de diapositivas](https://aka.ms/teams-governance-deck) |

@@ -16,23 +16,23 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 787849735883b25d8cb002c06f3e455438193769
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: ef56b6e62b39d0ef0d9464c9d24b9b34d17e87cc
+ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209066"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39886197"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenido a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para comenzar a usar Teams, empiece por [Cómo implementar Teams](How-to-roll-out-teams.md).
-
-Si está buscando ayuda para el usuario final en Teams, haga clic en **Ayuda** en la parte izquierda de la aplicación o vaya al [Centro de ayuda de Microsoft Teams](https://support.office.com/teams). Para ver los cursos de aprendizaje, vaya a [Aprendizaje de Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
 Si es la primera vez que usa Teams y desea informarse sobre el programa, vea nuestro breve vídeo de [Bienvenida a Teams](https://www.youtube.com/embed/s3aQV3T0D6c) (55 segundos).
 
 No se pierda nuestro vídeo de bienvenida a Teams para administradores (solo son 3 minutos):
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+
+Si está buscando ayuda para el usuario final en Teams, haga clic en **Ayuda** en la parte izquierda de la aplicación o vaya al [Centro de ayuda de Microsoft Teams](https://support.office.com/teams). Para obtener formación, vaya a [Aprendizaje de Microsoft Teams](training-microsoft-teams-landing-page.md). 
 
 ## <a name="teams-architecture"></a>Arquitectura de Teams 
 

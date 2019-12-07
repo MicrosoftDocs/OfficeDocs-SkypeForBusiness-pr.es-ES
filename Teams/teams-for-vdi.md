@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f7c0e0ab004c2146b8b93eb984b19d031cd2bb3
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
+ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837592"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "39890613"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -51,6 +51,14 @@ El uso de Teams en un entorno virtualizado requiere los siguientes componentes.
 La aplicación de escritorio de Teams se validó con los principales proveedores de soluciones de virtualización. Con los proveedores de varios mercados, le recomendamos que consulte a su proveedor de soluciones de virtualización para asegurarse de que se cumplan los requisitos mínimos.
   
 Actualmente, los equipos de VDI con la optimización de audio y vídeo (AV) están certificados con Citrix. Revise la información de esta sección para asegurarse de que se cumplan los requisitos de Citrix y de Teams para que funcionen correctamente.
+
+### <a name="partners-certified-for-teams"></a>Socios certificados para equipos
+
+Los siguientes socios tienen soluciones de infraestructura de escritorio virtual para Teams.
+
+|Servidor|Solución de socio|
+|----|---|
+|![El logotipo representa Citrix](media/citrix.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Aplicaciones virtuales y equipos de escritorio Citrix</a> |
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Requisitos de aplicaciones virtuales y de escritorio de Citrix
 
@@ -120,8 +128,8 @@ Para obtener más información sobre los equipos y Office 365 ProPlus, consulte 
 
 1. Descargue el paquete MSI de teams que coincida con el sistema operativo de la VM de VDI mediante uno de los siguientes vínculos.
 
-    - [versión de 32 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true)
-    - [versión de 64 bits](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&download=true&managedInstaller=true&arch=x64)
+    - [versión de 32 bits](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [versión de 64 bits](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
     La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.2.00.31357.
 
