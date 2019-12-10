@@ -42,7 +42,6 @@
 ### [Información general](deploy-apps-microsoft-teams-landing-page.md)
 ### [Consideraciones y permisos de las aplicaciones](app-permissions.md)
 ### [Configurar la administración para aplicaciones en Teams](admin-settings.md)
-### [Agregar bots para chats personales, chats grupales y canales en Teams](add-bots.md)
 ### [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
 ### [Usar conectores de Office 365 y personalizados](Office-365-custom-connectors.md)
 ### [Gestione sus aplicaciones de línea de negocio](manage-your-lob-apps.md)
@@ -866,6 +865,7 @@
 ### [Teams para la infraestructura de escritorio virtualizada (VDI)](teams-for-vdi.md)
 ### [Implementar Microsoft Teams para Surface Hub](teams-surface-hub.md)
 ### [Actualizaciones del cliente de Teams](teams-client-update.md)
+### [Solución de problemas de instalación y actualización](troubleshoot-installation.md)
 
 ## Licencias
 ### [Gestionar acceso de los usuarios a Microsoft Teams](user-access.md)
