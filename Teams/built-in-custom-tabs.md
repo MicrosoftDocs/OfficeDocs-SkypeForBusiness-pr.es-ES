@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cec2b6bef02eaa334bcd50d225edd1f579df038
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: a4a07a8e6469de812dfc440119e5f53bcf393c03
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209116"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909366"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
@@ -53,9 +53,7 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
 ## <a name="develop-custom-tabs"></a>Desarrollar fichas personalizadas
 
-Además de las pestañas integradas, puede diseñar y desarrollar sus propias pestañas para integrarlas a teams o compartirlo con el resto de la comunidad. [Para controlar el acceso a la pestaña personalizada](https://docs.microsoft.com/microsoftteams/platform/get-started/design#streamline-access) , configure los grupos de Office 365 que corresponda.
-
-Microsoft Developer Network proporciona las [fichas de ejemplo](https://docs.microsoft.com/MicrosoftTeams/platform/samples/code-samples) desarrolladas por Microsoft que puede descargar e [instrucciones detalladas](https://docs.microsoft.com/MicrosoftTeams/platform/tabs/design/tabs) para diseñar y crear sus propias pestañas.
+Además de las pestañas integradas, puede diseñar y desarrollar sus propias pestañas para integrarlas a teams o compartirlo con el resto de la comunidad. Para obtener más información, consulta nuestra [documentación para desarrolladores](/microsoftteams/platform/tabs/what-are-tabs) .
 
 ![Captura de pantalla de una ficha personalizada de ejemplo en Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

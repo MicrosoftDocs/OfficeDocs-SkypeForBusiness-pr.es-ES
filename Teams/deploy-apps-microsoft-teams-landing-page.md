@@ -10,24 +10,25 @@ audience: admin
 ms.date: 01/28/2019
 ms.service: msteams
 ms.collection:
-- Teams_ITAdmin_Help
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 73f51d443444c439d2d2e453805542282d8f55b7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c808c8a44a649a37f6d13d31538dd08797d56b24
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240952"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909456"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 
 Las aplicaciones le permiten buscar contenido de sus servicios favoritos y compartirlo directamente en Teams. Le ayudan a hacer cosas como anclar servicios al principio de un canal, chatear con bots o compartir y asignar tareas. Para aprender más cosas a este respecto, lea [Información general de aplicaciones en Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras aplicaciones, bots y conectores a medida que impulsa la adopción de Teams.
+
+También tienes la opción de crear tus propias aplicaciones personalizadas. Consulte nuestra[ documentación para desarrolladores ](/microsoftteams/platform/overview)para obtener más información.
 
 ## <a name="apps-deployment-decisions"></a>Decisiones de implementación de aplicaciones
 

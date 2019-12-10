@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a usar y administrar directivas de identificación de llamadas en Microsoft Teams para cambiar o bloquear la identificación de llamadas de los usuarios de su organización.
-ms.openlocfilehash: 95d1a2e836e79158ffc6e9f48d46decca31e01ca
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: b30f2f8650d1d875c56254d99efddb2f5fdbb5d0
+ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517012"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39919374"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Administrar directivas de identificación de llamadas en Microsoft Teams
 
@@ -44,7 +44,7 @@ Puede editar la directiva global o crear y asignar una directiva personalizada. 
 4. Desde aquí, elija la configuración que desee:
 
     - **Bloquear la identificación de llamadas entrantes**: activa esta configuración para bloquear la identificación de llamadas entrantes de llamadas entrantes.
-    - **Los usuarios pueden invalidar la Directiva de identificación de llamadas**: Active esta configuración para permitir que los usuarios invaliden la configuración de la Directiva. Esto significa que los usuarios pueden elegir si deben mostrar la identificación de llamadas o bloquear la identificación de llamadas de una llamada entrante.
+    - **Los usuarios pueden invalidar la Directiva de identificación de llamadas**: Active esta configuración para permitir a los usuarios invalidar la configuración de la Directiva sobre cómo mostrar su número a destinatarios o no. Esto significa que los usuarios pueden elegir si deseas Mostrar la identificación de llamadas.
     - **Reemplazar la identificación de llamadas**: establezca la identificación de llamadas que se va a mostrar para los usuarios seleccionando una de las siguientes opciones:
 
         - **Número de usuario**: muestra el número de usuario. 

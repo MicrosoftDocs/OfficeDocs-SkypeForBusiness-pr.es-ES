@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: f7de348c6f8ca60cc1d062fce79725b4b18d0350
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
+ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39209196"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909476"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -35,6 +35,8 @@ El Asesor de Teams forma parte del [centro de administración de Teams](https://
 
 > [!IMPORTANT]
 > El Asesor de Teams no está disponible para las implementaciones de Microsoft 365 Administración Pública - GCC High o DoD.
+
+Echa un vistazo al Asesor de equipos en este vídeo de introducción de [Despliegue y configuración de equipos](https://youtu.be/o2mlsUubIO4?t=44) (El Asesor de equipos está entre 0:50 y 3:15 minutos).
 
 ## <a name="using-advisor-for-teams-preview"></a>Usando el Asesor de Teams (versión preliminar)
 
