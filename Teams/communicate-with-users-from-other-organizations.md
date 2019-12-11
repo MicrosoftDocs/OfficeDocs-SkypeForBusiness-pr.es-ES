@@ -15,12 +15,12 @@ description: Infórmese sobre cómo comunicarse con usuarios de otras organizaci
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 39fa50868b60ce78da360d97a2fad5dff9fee09b
-ms.sourcegitcommit: 486eaa85042670edec2231efaf7dae8fa329e852
+ms.openlocfilehash: 4d5ed9c5a5a671b3461761ea206edd109df73f22
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39665453"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966773"
 ---
 <a name="communicate-with-users-from-other-organizations-in-microsoft-teams"></a>Comunicación con usuarios de otras organizaciones en Microsoft Teams
 ======================================================
@@ -84,7 +84,7 @@ Si está listo para activar el acceso de invitado en su organización, comience 
 <sup>1</sup> Si el usuario se ha agregado como invitado y ha iniciado sesión como invitado en el espacio empresarial del invitado.<br>
 <sup>2</sup> Solo mediante la dirección de correo o el Protocolo de inicio de sesión (SIP)<br>
 <sup>3</sup> El chat externo (federado) solo es 1:1.<br>
-<sup>4</sup> Compatible con chat 1:1 entre dos usuarios de Teams solo de dos organizaciones diferentes. *Esta es una característica en versión preliminar o anticipada.*
+<sup>4</sup> Compatible con chat 1:1 entre dos usuarios de Teams solo de dos organizaciones diferentes. 
 
 ## <a name="related-topics"></a>Temas relacionados
 
