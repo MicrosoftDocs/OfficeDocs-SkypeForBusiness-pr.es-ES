@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eeab39a68827925fa9805380763f2375910ee793
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c4a0abc9dae0d3c5b7f78106136ceaece3472367
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568713"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961605"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Se retirará Microsoft StaffHub
 
@@ -64,14 +64,7 @@ La aplicación de turnos de Teams es una herramienta de administración de progr
 
 #### <a name="which-plans-is-shifts-available-in"></a>¿En qué planes está disponible el turno?
 
-Turnos está disponible como parte de Teams en los siguientes planes sin ningún costo adicional:
-
-- Office 365 Empresa Premium 
-- Office 365 Enterprise F1, E1, E3, E5
-- Office 365 para el ámbito educativo
-- Microsoft 365 F1, E1, E3, E5
-
-Para obtener más información, vea [disponibilidad de turnos](manage-the-shifts-app-for-your-organization-in-teams.md#availability-of-shifts).
+Turnos está disponible en todas las SKU de Enterprise donde está disponible Teams.
 
 #### <a name="how-do-i-get-shifts"></a>¿Cómo obtengo turnos? 
 

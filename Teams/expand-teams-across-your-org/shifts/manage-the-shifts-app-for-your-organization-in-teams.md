@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52d4410393398e28c1f7ade4af70901703a09418
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 6bd65376be278a3d07e5a7a8c4ba69ccd5408090
+ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568724"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39961615"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -37,9 +37,7 @@ Es importante saber que los turnos actualmente no admiten usuarios invitados. Es
 
 ## <a name="availability-of-shifts"></a>Disponibilidad de los turnos
 
-Turnos está disponible en todas las suscripciones de Office 365 que incluyen equipos, con un par de excepciones. Las excepciones son la comunidad de la nube de Estados Unidos (GCC) y Teams gratis. Los turnos no están disponibles en las ofertas gratuitas de Office 365 Estados Unidos o los equipos.
-
-Para obtener más información sobre las licencias de Teams, incluida una lista de suscripciones de Office 365 que incluye equipos, consulte [Office 365 Licensing for Teams](../../Office-365-licensing.md).
+Turnos está disponible en todas las SKU de Enterprise donde está disponible Teams.
 
 ## <a name="location-of-shifts-data"></a>Ubicación de los datos de turnos
 

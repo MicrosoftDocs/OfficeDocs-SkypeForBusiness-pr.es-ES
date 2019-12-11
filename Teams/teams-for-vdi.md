@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75d51a6c20593c725863632350d90e2e58626e4d
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
+ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890613"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39966783"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -131,7 +131,7 @@ Para obtener más información sobre los equipos y Office 365 ProPlus, consulte 
     - [versión de 32 bits](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
     - [versión de 64 bits](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.2.00.31357.
+    La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.2.00.31357. (La retención de RTC no es compatible con versiones anteriores)
 
 2. Instale el MSI en la VM de VDI ejecutando uno de los siguientes comandos:
 
