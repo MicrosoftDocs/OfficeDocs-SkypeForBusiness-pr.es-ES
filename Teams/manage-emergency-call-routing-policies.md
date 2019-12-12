@@ -14,18 +14,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo usar y administrar las directivas de enrutamiento de llamadas de emergencia para la característica de E911 dinámica de Microsoft Teams.
+description: Obtenga información sobre cómo usar y administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: aed3b3d3cbd1023a3370c3c271e07a61179447da
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 704becbffc0168c10ab9f357a6f6ffe8431790d2
+ms.sourcegitcommit: 5243494676ffa039fc0a32e6279e5a9a05675eec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615810"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39986961"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Si ha implementado el enrutamiento directo de sistema telefónico en su organización, puede usar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams para configurar los números de emergencia y especificar cómo se enrutan las llamadas de emergencia. Una política de enrutamiento de llamadas determina si se habilitan los servicios de emergencia mejorados para los usuarios que tienen asignada la Directiva, los números que se usan para llamar a servicios de emergencia (por ejemplo, 911 en Estados Unidos) y cómo se enrutan las llamadas a servicios de emergencia.
 
@@ -45,6 +43,8 @@ Si asignó una directiva de enrutamiento de llamadas de emergencia a un sitio de
 4. Para habilitar los servicios de emergencia mejorados, Active **servicios de emergencia mejorados**. Cuando se habilitan los servicios de emergencia mejorados, Teams recupera la información de directivas y ubicaciones del servicio e incluye esa información como parte de la llamada de emergencia.
 5. Defina uno o más números de emergencia. Para hacerlo, en **números de emergencia**, haga lo siguiente:
     1. **Cadena de marcado de emergencia**: escriba la cadena de marcado de emergencia. Esta cadena de marcado indica que una llamada es una llamada de emergencia.
+        > [!NOTE]
+        > Para el enrutamiento directo, estamos pasando de los clientes de Teams a través de una llamada de emergencia con un "+" delante de la cadena de marcado de emergencia. Hasta que se complete la transición, el patrón de enrutamiento de voz que se corresponda con una cadena de marcado de emergencia debe garantizar que se realice una coincidencia con las cadenas que tengan y no tengan una "+" anterior, como 911 y + 911. Por ejemplo, ^\+? 911 o. *.
     2. **Máscara de marcado de emergencia**: para cada número de emergencia, puede especificar cero o más máscaras de marcado de emergencia. Una máscara de marcado es el número que desea traducir en el valor de la cadena de marcado de emergencia. Esto permite que se marquen números de emergencia alternativos y que la llamada tenga acceso a los servicios de emergencia. <br>Por ejemplo, agrega 112 como máscara de marcado de emergencia, que es el número de servicio de emergencia para la mayoría de Europa y 911 como la cadena de marcado de emergencia. Un usuario de equipos de Europa que visita puede no saber que 911 es el número de emergencia en los Estados Unidos y cuando marca 112, la llamada se realiza a 911. Para definir varias máscaras de marcado, separe cada valor por punto y coma. Por ejemplo, 112; 212.
     3. **Uso de RTC**: seleccione el uso de la red de telefonía pública conmutada (RTC). El uso de RTC se usa para determinar qué ruta se usa para enrutar las llamadas de emergencia de los usuarios autorizados a usarlas. La ruta asociada con este uso debe apuntar a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que dirige las llamadas de emergencia al punto de respuesta de seguridad pública más cercano (PSAP).
 

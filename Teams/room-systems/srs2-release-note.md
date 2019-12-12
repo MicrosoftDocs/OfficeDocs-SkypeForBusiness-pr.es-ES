@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: e82bd160cf09781605cadaf03245b1cdf31b6908
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: 721acfeb04512a75da225a4c638f15e13b4d5d65
+ms.sourcegitcommit: 4093a3e0d4c72777057d78ab06dc7d49d826c5de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676118"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39987863"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -27,6 +27,7 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 
 |Prensa |Publicado en <br/> Microsoft Store |
 |--- |--- |
+|4.3.21.0 |12/09/2019 |
 |4.2.4.0 |10/07/2019 |
 |4.1.22.0 |08/15/2019 |
 |4.0.105.0 |07/10/2019 |
@@ -56,6 +57,16 @@ En este artículo se describen las mejoras acumulativas de las salas de Microsof
 |RTM (1.0.8) |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Introducción a la característica salas de Microsoft Teams y problemas
+
+### <a name="43210-12092019"></a>4.3.21.0 (12/09/2019)
+
+Introdujo en esta actualización:
+
+- Contestar automáticamente las llamadas basadas en proximidad y la configuración de administrador para controlar este
+- Configuración del administrador del dispositivo actualización de la interfaz de usuario con la configuración del dispositivo en la pestaña acerca de
+- Control de la habitación volver a la pantalla principal
+- SKU de la sala de reuniones disponible en GCC
+- Soporte de cámara de contenido para sistema basado en Surface Pro 
 
 ### <a name="4240-10072019"></a>4.2.4.0 (10/07/2019)
 
