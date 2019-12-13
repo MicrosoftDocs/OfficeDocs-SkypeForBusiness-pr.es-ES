@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams.
 f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 704becbffc0168c10ab9f357a6f6ffe8431790d2
-ms.sourcegitcommit: 5243494676ffa039fc0a32e6279e5a9a05675eec
+ms.openlocfilehash: 4520bc1d9cc6a4e84a3702e32db859b784ae02bc
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/12/2019
-ms.locfileid: "39986961"
+ms.locfileid: "39998808"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams
 
@@ -44,7 +44,7 @@ Si asignó una directiva de enrutamiento de llamadas de emergencia a un sitio de
 5. Defina uno o más números de emergencia. Para hacerlo, en **números de emergencia**, haga lo siguiente:
     1. **Cadena de marcado de emergencia**: escriba la cadena de marcado de emergencia. Esta cadena de marcado indica que una llamada es una llamada de emergencia.
         > [!NOTE]
-        > Para el enrutamiento directo, estamos pasando de los clientes de Teams a través de una llamada de emergencia con un "+" delante de la cadena de marcado de emergencia. Hasta que se complete la transición, el patrón de enrutamiento de voz que se corresponda con una cadena de marcado de emergencia debe garantizar que se realice una coincidencia con las cadenas que tengan y no tengan una "+" anterior, como 911 y + 911. Por ejemplo, ^\+? 911 o. *.
+        > Para el enrutamiento directo, estamos pasando de los clientes de Teams a través de una llamada de emergencia con un "+" delante de la cadena de marcado de emergencia. Hasta que se complete la transición, el patrón de enrutamiento de voz que se corresponda con una cadena de marcado de emergencia debe garantizar que se realice una coincidencia con las cadenas que tengan y no tengan una "+" anterior, como 911 y + 911. Por ejemplo, ^\\+? 911 o. *.
     2. **Máscara de marcado de emergencia**: para cada número de emergencia, puede especificar cero o más máscaras de marcado de emergencia. Una máscara de marcado es el número que desea traducir en el valor de la cadena de marcado de emergencia. Esto permite que se marquen números de emergencia alternativos y que la llamada tenga acceso a los servicios de emergencia. <br>Por ejemplo, agrega 112 como máscara de marcado de emergencia, que es el número de servicio de emergencia para la mayoría de Europa y 911 como la cadena de marcado de emergencia. Un usuario de equipos de Europa que visita puede no saber que 911 es el número de emergencia en los Estados Unidos y cuando marca 112, la llamada se realiza a 911. Para definir varias máscaras de marcado, separe cada valor por punto y coma. Por ejemplo, 112; 212.
     3. **Uso de RTC**: seleccione el uso de la red de telefonía pública conmutada (RTC). El uso de RTC se usa para determinar qué ruta se usa para enrutar las llamadas de emergencia de los usuarios autorizados a usarlas. La ruta asociada con este uso debe apuntar a un tronco SIP dedicado a llamadas de emergencia o a una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) que dirige las llamadas de emergencia al punto de respuesta de seguridad pública más cercano (PSAP).
 
@@ -114,7 +114,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Asignar todos los usuarios del grupo a una directiva de equipos en particular. En este ejemplo, es la Directiva de enrutamiento de llamadas de emergencia de RRHH.
 ```
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
 

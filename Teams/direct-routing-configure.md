@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: a15b679dfa5ac74c6c78242ac40b00e2f24f75a4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 55f4fbb0f4faa70f73c742e8e849bc258dbfd481
+ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572228"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40002304"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -110,15 +110,15 @@ En la tabla siguiente se enumeran los parámetros adicionales que se pueden usar
 |¿Obligatorio?|Nombre|Descripción|Valor predeterminado|Valores posibles|Tipo y restricciones|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Sí|FQDN|El nombre FQDN de SBC |Ninguna|NoneFQDN nombre, limitar 63 caracteres|Cadena, lista de caracteres permitidos y no permitidos en las [convenciones de nomenclatura de Active Directory para equipos, dominios, sitios y unidades organizativas](https://support.microsoft.com/help/909264)|
-|No|MediaBypass |El parámetro indicado para SBC admite la omisión de medios y el administrador quiere usarlo.|Ninguna|True<br/>False|Boolean|
+|No|MediaBypass |El parámetro indicado para SBC admite la omisión de medios y el administrador quiere usarlo.|Ninguna|Verdadero<br/>Falso|Boolean|
 |Sí|SipSignallingPort |Puerto de escucha usado para comunicarse con los servicios de enrutamiento directo mediante el protocolo seguridad de la capa de transporte (TLS).|Ninguna|Cualquier puerto|0 a 65535 |
 |No|FailoverTimeSeconds |Cuando se establece en 10 (valor predeterminado), las llamadas salientes que no responden a la puerta de enlace en 10 segundos se enrutan al siguiente tronco disponible; Si no hay más troncos, la llamada se elimina automáticamente. En una organización con redes y respuestas de puerta de enlace lentas, esto puede tener como resultado que las llamadas se pierdan innecesariamente. El valor predeterminado es 10.|base10|Número|ENT|
-|No|ForwardCallHistory |Indica si la información del historial de llamadas se reenviará a través del tronco. Si está habilitado, el proxy RTC de Office 365 envía dos encabezados: historial-información y referencia. El valor predeterminado es **false** ($false). |False|True<br/>False|Boolean|
-|No|ForwardPAI|Indica si el encabezado P-Asserted-Identity (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. Si Habilitaste, también se enviará el encabezado privacidad: ID. El valor predeterminado es **false** ($false).|False|True<br/>False|Boolean|
-|No|SendSIPOptions |Define si un SBC o no enviará las opciones de SIP. Si se deshabilita, la SBC se excluirá del sistema de supervisión y alertas. Le recomendamos encarecidamente que habilite las opciones de SIP. El valor predeterminado es **true**. |True|True<br/>False|Boolean|
+|No|ForwardCallHistory |Indica si la información del historial de llamadas se reenviará a través del tronco. Si está habilitado, el proxy RTC de Office 365 envía dos encabezados: historial-información y referencia. El valor predeterminado es **false** ($false). |Falso|Verdadero<br/>Falso|Boolean|
+|No|ForwardPAI|Indica si el encabezado P-Asserted-Identity (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. Si Habilitaste, también se enviará el encabezado privacidad: ID. El valor predeterminado es **false** ($false).|Falso|Verdadero<br/>Falso|Boolean|
+|No|SendSIPOptions |Define si un SBC o no enviará las opciones de SIP. Si se deshabilita, la SBC se excluirá del sistema de supervisión y alertas. Le recomendamos encarecidamente que habilite las opciones de SIP. El valor predeterminado es **true**. |True|True<br/>Falso|Boolean|
 |No|MaxConcurrentSessions |Utilizado por el sistema de alertas. Cuando se establece un valor, el sistema de alertas generará una alerta para el administrador de inquilinos cuando el número de sesión simultánea sea 90% o superior a este valor. Si el parámetro no se establece, no se generan alertas. Sin embargo, el sistema de supervisión informará de la cantidad de sesiones simultáneas cada 24 horas. |Valor|Valor<br/>de 1 a 100.000 ||
 |No|MediaRelayRoutingLocationOverride |Permite seleccionar la ruta de acceso para los medios de forma manual. El enrutamiento directo asigna un centro de recursos para la ruta de medios según la IP pública de SBC. Siempre seleccionamos el centro de recursos de SBC más cercano. Sin embargo, en algunos casos, una IP pública de, por ejemplo, un rango de Estados Unidos se puede asignar a un SBC ubicado en Europa. En este caso, usaremos una ruta de medios no óptima. Este parámetro permite establecer manualmente la región preferida para el tráfico de medios. Solo se recomienda establecer este parámetro si los registros de la llamada indican claramente que la asignación automática del centro de recursos para la ruta multimedia no asigna el más cercano al centro de recursos de SBC. |Ninguna|Códigos de países en formato ISO||
-|No|Habilitado|Permite habilitar esta SBC para llamadas salientes. Puede usarse para quitar temporalmente el SBC, mientras se actualiza o durante el mantenimiento. |False|True<br/>False|Boolean|
+|No|Habilitado|Permite habilitar esta SBC para llamadas salientes. Puede usarse para quitar temporalmente el SBC, mientras se actualiza o durante el mantenimiento. |Falso|Verdadero<br/>Falso|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>Comprobar el emparejamiento de SBC 
 
@@ -485,15 +485,15 @@ A continuación, se indican los pasos para crear el uso de RTC "internacional", 
    </pre>
 3. A continuación, cree una directiva de enrutamiento de voz "sin restricciones". El uso de RTC "Redmond 1" y "Redmond" se reutiliza en esta directiva de enrutamiento de voz para mantener un control especial de las llamadas al número "+ 1 425 XXX XX XX" y "+ 1 206 XXX XX XX" como llamadas locales o locales.
 
-```
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+   ```
+   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+   ```
 
-    Take note of the order of PSTN Usages:
+    Tome nota del orden de uso de RTC:
 
-    a. If a call made to number "+1 425 XXX XX XX" with the usages configured as in the following example, the call follows the route set in "US and Canada" usage and the special routing logic is applied. That is, the call is routed using sbc1.contoso.biz and sbc2.contoso.biz first, and then sbc3.contoso.biz and sbc4.contoso.biz as the backup routes. 
+    a. Si una llamada se realiza en el número "+ 1 425 XXX XX XX" con los usos configurados como en el ejemplo siguiente, la llamada sigue el conjunto de rutas en "Estados Unidos y Canadá" y se aplica la lógica de enrutamiento especial. Es decir, la llamada se enruta usando sbc1.contoso.biz y sbc2.contoso.biz en primer lugar y, a continuación, sbc3.contoso.biz y sbc4.contoso.biz como rutas de copia de seguridad. 
 
-    b.  If "International" PSTN usage is before "US and Canada," calls to +1 425 XXX XX XX are routed to sbc2.contoso.biz and sbc5.contoso.biz as part of the routing logic. Enter the command:
+    b.  Si el uso de RTC "internacional" es anterior a "Estados Unidos y Canadá", las llamadas a + 1 425 XXX XX XX se enrutan a sbc2.contoso.biz y sbc5.contoso.biz como parte de la lógica de enrutamiento. Escribe el comando:
 
     ```New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"```
 
@@ -529,12 +529,12 @@ El resultado es que la política de voz aplicada a las llamadas de John Woods no
 
 ## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Asignar el modo solo de Teams a los usuarios para garantizar la superficie de llamadas en Microsoft Teams
 
-El enrutamiento directo requiere que los usuarios estén en el modo solo de equipos para garantizar las llamadas entrantes en el cliente de Teams. Para poner los usuarios en modo de solo equipos, asígnelos a la instancia "UpgradeToTeams" de TeamsUpgradePolicy. Si su organización usa Skype empresarial Server o Skype empresarial online, consulte el siguiente artículo para obtener interoperabilidad de información entre Skype y Teams: [Guía de migración e interoperabilidad para organizaciones que usan Teams junto con Skype para empresas](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
+El enrutamiento directo requiere que los usuarios estén en el modo solo de equipos para garantizar las llamadas entrantes en el cliente de Teams. Para poner los usuarios en modo de solo equipos, asígnelos a la instancia "UpgradeToTeams" de TeamsUpgradePolicy. Si su organización usa Skype empresarial Server o Skype empresarial online, consulte el artículo siguiente para la interoperabilidad de información entre Skype y Teams: [Guía de migración e interoperabilidad para las organizaciones que usan Teams conjuntamente con Skype empresarial](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
 ## <a name="configuring-sending-calls-directly-to-voicemail"></a>Configurar el envío de llamadas directamente al buzón de voz
 
-El enrutamiento directo le permite finalizar la llamada a un usuario y enviarlo directamente al buzón de voz de los usuarios. Si deseas enviar la llamada directamente al buzón de voz, adjunta Opaque = App: el buzón de voz al encabezado URI de la solicitud. Por ejemplo, "SIP: user@yourdomain.com; Opaque = App: buzón de voz".
+El enrutamiento directo le permite finalizar la llamada a un usuario y enviarlo directamente al buzón de voz de los usuarios. Si deseas enviar la llamada directamente al buzón de voz, adjunta Opaque = App: el buzón de voz al encabezado URI de la solicitud. Por ejemplo, "SIP: user@yourdomain. com; Opaque = App: buzón de voz".
 En este caso, el usuario de Teams no recibirá la notificación de llamada, la llamada se conectará al buzón de voz del usuario directamente.
 
 ## <a name="see-also"></a>Vea también

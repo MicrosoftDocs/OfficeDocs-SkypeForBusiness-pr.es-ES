@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las directivas de configuración de aplicaciones en Microsoft Teams y cómo usarlas para anclar aplicaciones para personalizar equipos para los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: aaee74017fc6a380c77526b28c19411e413f37d0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: b7f0585c62d7d22e1fc5a7e55c90e59f8cda554d
+ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570297"
+ms.lasthandoff: 12/12/2019
+ms.locfileid: "39998858"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -89,7 +89,7 @@ También puede hacer lo siguiente:
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
 3. Seleccione **administrar usuarios**.
 4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
-5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
+5. Cuando termine de agregar usuarios, seleccione **Guardar**.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>Asignar una directiva de configuración de aplicación personalizada a los usuarios de un grupo
 
@@ -110,7 +110,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Asignar todos los usuarios del grupo a una directiva de configuración de aplicación determinada. En este ejemplo, es la Directiva de configuración de la aplicación de RRHH.
 ```
-$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.EmailAddress}
+$members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
 
@@ -121,7 +121,7 @@ Según el número de miembros del grupo, este comando puede demorar varios minut
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>¿Qué directivas de configuración de aplicaciones integradas se incluyen en el centro de administración de Microsoft Teams?
 
 - **Global (valor predeterminado para toda**la organización): esta directiva predeterminada se aplica a todos los usuarios de su organización a menos que asigne otra directiva. Edite la directiva global para anclar aplicaciones que sean más importantes para los usuarios.
-- **FirstLineWorker**: esta directiva es para los trabajadores de los Firstline. Puede asignarla a los trabajadores de los Firstline de su organización. Es importante saber que, al igual que las directivas personalizadas que cree, tendrá que asignar la Directiva a los usuarios para que la configuración esté activa. Para obtener más información, vaya a la sección [asignar una directiva de configuración de aplicación personalizada a los usuarios](#assign-a-custom-app-setup-policy-to-users) de este artículo.
+- **FirstLineWorker**: esta directiva es para los trabajadores de primera línea. Puede asignarla a los trabajadores de primera línea de su organización. Es importante saber que, al igual que las directivas personalizadas que cree, tendrá que asignar la Directiva a los usuarios para que la configuración esté activa. Para obtener más información, vaya a la sección [asignar una directiva de configuración de aplicación personalizada a los usuarios](#assign-a-custom-app-setup-policy-to-users) de este artículo.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>¿Por qué no encuentro una aplicación en el panel agregar aplicaciones ancladas?
 
