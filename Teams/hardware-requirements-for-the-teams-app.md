@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81fc050df43e6f0c6d179601b1a9186974222276
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: 1c33a0ed8bf88469e6e9ab41a049a1d566cc686b
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966713"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019964"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware de la aplicación de Microsoft Teams
 
@@ -41,7 +41,7 @@ Todos los requisitos de las secciones siguientes se aplican a la aplicación de 
 |Versión de .NET    |  Requiere .NET 4,5 CLR o posterior       |
 |Vídeo    |  Cámara USB 2,0       |
 |Dispositivos    |   Cámara para equipos portátiles, micrófono y altavoces estándar    | 
-|Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de **difuminar mi** vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2). Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos. |
+|Videollamadas y reuniones | <ul><li>Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). </li><li>El efecto de **difuminar mi** vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2). Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.</li><li>Unirse a una reunión mediante la detección de proximidad en una sala de Microsoft Teams requiere Bluetooth LE, que requiere que el Bluetooth esté habilitado en el dispositivo cliente, y para los clientes de Windows se requiere el cliente de equipo de 64 bits. No está disponible en los clientes de equipos de 32 de bits.</li></ul> |
 |Eventos en directo en Teams | Si está generando un evento de Teams Live, le recomendamos que use un equipo con un procesador Core i5 Kaby Lake, 4,0 GB de RAM (o superior) y codificador de hardware. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos. |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para la aplicación de escritorio de Teams en un equipo Mac
@@ -55,7 +55,7 @@ Todos los requisitos de las secciones siguientes se aplican a la aplicación de 
 |Sistema operativo  |    Mac OS X 10,11 el Capitan o posterior     |
 |Vídeo  |    Cámara web compatible     |
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
-|Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de difuminar mi vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.|
+|Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior).  <ul><li>El efecto de **difuminar mi** vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.</li><li>Unirse a una reunión mediante la detección de proximidad en una sala de Microsoft Teams no está disponible en Mac OS.</li></ul> |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-linux"></a>Requisitos de hardware para la aplicación de escritorio de Teams en un Linux
 
@@ -70,7 +70,7 @@ Todos los requisitos de las secciones siguientes se aplican a la aplicación de 
 |Vídeo    |  Cámara USB 2,0       |
 |Dispositivos    |   Cámara para equipos portátiles, micrófono y altavoces estándar    | 
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
-|Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de difuminar mi vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.
+|Videollamadas y reuniones | <ul><li>Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). </li><li>El efecto de difuminar mi vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.</li><li>Unirse a una reunión mediante la detección de proximidad en un salón de Microsoft Teams no está disponible en Linux.</li></ul>
 |Distribuciones de Linux compatibles | Ubuntu 16,04 LTS, 18,04 LTS, Fedora 30 Workstation, RHEL 8 Workstation, 8
 
 

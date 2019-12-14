@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: 1731f210382403320c8faffa57c04bd3486ab172
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37969388"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020054"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -53,7 +53,7 @@ Para determinar si un canal privado es adecuado, tenga en cuenta las siguientes 
 
 |¿Ya hay un equipo que tiene a estas personas como miembros del equipo?  |¿Este trabajo debe mantenerse en privado de los demás?  |¿Hay varios temas distintos que se deben discutir?  |Recomendación  |
 |---------|---------|---------|---------|
-|Sí       |Sí          |Sí         |Crear un canal privado en el equipo existente o considerar la creación de canales privados específicos para cada tema.         |
+|Sí       |Sí          |Sí          |Crear un canal privado en el equipo existente o considerar la creación de canales privados específicos para cada tema.         |
 |Sí      |Sí         |No         |Crear un canal privado en el equipo existente.         |
 |Sí     |No         |No         |Crear un canal en el equipo existente.         |
 |No     |No         |No         |Considere la posibilidad de crear un equipo nuevo.         |
@@ -105,18 +105,18 @@ En la tabla siguiente se describen las acciones que pueden realizar los propieta
 |---------|---------|---------|---------|---------|---------|---------|
 |Crear un canal privado|Sí<sup>1</sup>|Sí<sup>, 1, 2</sup>|No|N/D|N/D|N/D|
 |Eliminar canal privado|Sí|No|No|Sí|No|No|
-|Abandonar canal privado|N/D|N/D|N/D|Sí<sup>3</sup>|Sí |Sí|
+|Abandonar canal privado|N/D|N/D|N/D|Sí<sup>3</sup>|Sí |Sí |
 |Editar canal privado|No|N/D|N/D|Sí|No|No|
 |Restaurar el canal privado eliminado|Sí|No|No|Sí|No|No|
 |Agregar miembros|No|N/D|N/D|Sí|No|No|
 |Editar configuración|No|N/D|N/D|Sí|No|No|
 |Administrar pestañas y aplicaciones|No|N/D|N/D|Yes<sup>4</sup>|Sí<sup>5</sup>|No|
 
-<sup>1</sup> Si damos por sentado que la Directiva, el administrador, configuró permite al usuario crear canales privados.<br>
-<sup>2</sup> Cada equipo tiene una configuración que los propietarios del equipo pueden activar o desactivar para permitir que los miembros del equipo creen canales privados. Los propietarios del equipo siempre pueden crear canales privados.<br>
-<sup>3</sup> Suponiendo que el propietario del canal privado no es el último propietario del canal. <br>
-<sup>4</sup> El equipo debe tener una aplicación instalada para que un canal privado la use.<br>
-<sup>5</sup> Los propietarios de canales privados pueden configurar este.
+<sup>1</sup> suponiendo que la Directiva que usted, el administrador, configure permita al usuario crear canales privados.<br>
+<sup>2</sup> cada equipo tiene una configuración que los propietarios del equipo pueden activar o desactivar para permitir que los miembros del equipo creen canales privados. Los propietarios del equipo siempre pueden crear canales privados.<br>
+<sup>3</sup> suponiendo que el propietario del canal privado no es el último propietario del canal. <br>
+<sup>4</sup> requiere que el equipo tenga instalada una aplicación para que un canal privado la use.<br>
+<sup>5</sup> los propietarios de canales privados pueden configurarlo.
 
 ### <a name="manage-private-channel-membership-and-settings"></a>Administrar la pertenencia y la configuración de canales privados
 
@@ -126,7 +126,7 @@ El propietario del canal privado puede hacer clic en **administrar canal**y, a c
 
 ![Captura de pantalla de configuración de canal privado](media/private-channels-in-teams-channel-settings.png)
 
-## <a name="manage-the-life-cycle-of-private-channels"></a>Administrar el ciclo de vida de canales privados
+## <a name="manage-the-life-cycle-of-private-channels"></a>Administrar el ciclo de vida de los canales privados
 
 Consulte [administrar el ciclo de vida de canales privados en Teams](private-channels-life-cycle-management.md) para obtener información sobre cómo administrar el ciclo de vida de los canales privados de su organización. Esto incluye cómo controlar si los usuarios de su organización pueden crear canales privados, cómo crear un canal privado en nombre de un propietario del equipo, cómo obtener una lista de todos los mensajes de canal privado para archivar y auditar, y otras tareas de administración.  
 
@@ -139,6 +139,12 @@ Para dar cabida a un número mayor de colecciones de sitios por inquilino, el l�
 Teams administra el ciclo de vida de la colección de sitios de SharePoint del canal privado. Si la colección de sitios se elimina fuera de Teams, un trabajo en segundo plano restaura el sitio dentro de un plazo de cuatro horas, siempre que el canal privado aún esté activo. Si el sitio se elimina y se elimina de forma rígida, se aprovisionará una nueva colección de sitios para el canal privado.
 
 Si se restaura un canal privado o un equipo que contiene un canal privado, se restauran las colecciones de sitios con él. Si se restaura una colección de sitios de canal privado y esta fuera de la ventana de eliminación de software de 30 días para el canal privado, la colección de sitios funciona como una colección de sitios independiente.
+
+## <a name="private-channel-message-compliance-records"></a>Registros de cumplimiento de mensajes de canal privado
+
+Los registros de los mensajes enviados en un canal privado se entregan en el buzón de todos los miembros del canal privado, en lugar de hacerlo en un buzón de grupo. El formato de los títulos de los registros indica el canal privado desde el que se enviaron.
+
+Para obtener más información sobre cómo realizar una búsqueda de exhibición de mensajes en el canal privado, consulte [eDiscovery of Private Channels](ediscovery-investigation.md#ediscovery-of-private-channels).
 
 ## <a name="considerations-around-access-in-private-channels"></a>Consideraciones sobre el acceso en canales privados
 

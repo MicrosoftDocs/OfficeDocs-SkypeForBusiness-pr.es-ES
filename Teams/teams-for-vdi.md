@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ac9b520334b29df8f2fc05808b32f2e73db8557
-ms.sourcegitcommit: 1448bb2e66074322b8f4bf234fce36ea9c8f9913
+ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39966783"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40020064"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -68,12 +68,14 @@ Las aplicaciones virtuales y los escritorios de Citrix (anteriormente conocidos 
 
 Para obtener los últimos requisitos de servidor y cliente, consulte [este sitio web de Citrix](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html).
 
-## <a name="install-the-teams-desktop-app-on-vdi"></a>Instalar la aplicación de escritorio de Teams en VDI
+## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>Instalar o actualizar la aplicación de escritorio de Teams en VDI
 
 Puede implementar la aplicación de escritorio de Teams para VDI con una instalación por equipo o una instalación por usuario con el paquete MSI. Decidir qué método usar depende de si usa una configuración persistente o no persistente y las necesidades de funcionalidad asociada de su organización.
 En el caso de una configuración persistente, cualquiera de estos métodos funcionará.  Sin embargo, para una instalación no persistente, es necesaria una instalación por equipo para que los equipos funcionen de forma eficaz. Consulte la sección [configuración no persistente](#non-persistent-setup) .
 
 Con la instalación por equipo, actualizaciones automáticas está deshabilitado. Esto significa que para actualizar la aplicación de Teams, debe desinstalar la versión actual para actualizar a una versión más reciente. Con la instalación por usuario, la característica actualizaciones automáticas está habilitada. Para la mayoría de las implementaciones de VDI, se recomienda implementar Teams con la instalación por equipo.
+
+Para actualizar a la versión más reciente de Teams, comience con el procedimiento de desinstalación seguido de la última implementación de la versión de Teams.
 
 Para que la optimización de AV de Teams en entornos de VDI funcione correctamente, el punto de conexión de cliente ligero debe tener acceso a Internet. Si el acceso a Internet no está disponible en el extremo del cliente ligero, el inicio de la optimización no se realizará correctamente. Esto significa que el usuario se encuentra en un estado de medio no optimizado.
 
@@ -93,7 +95,7 @@ A continuación se recomienda la configuración de VM mínima.
 
 En una configuración no persistente, los cambios del sistema operativo local de los usuarios no se conservan después de que los usuarios cierren sesión. Dichas configuraciones suelen ser sesiones multiusuario compartidas. La configuración de la VM varía según el número de usuarios y los recursos del cuadro físico disponibles.
 
-Para una instalación no persistente, la aplicación de escritorio de Teams debe instalarse por equipo para la imagen de oro. (Para obtener más información, consulte la sección [instalar la aplicación de escritorio de Teams en VDI](#install-the-teams-desktop-app-on-vdi) ). Esto asegura un lanzamiento eficaz de la aplicación de Teams durante una sesión de usuario. El uso de equipos con una configuración no persistente también requiere un administrador de almacenamiento en caché para los equipos eficientes de sincronización de datos en tiempo de ejecución. Esto garantiza que la información específica del usuario adecuada (por ejemplo, datos de usuario, perfil y configuración) se almacene en la memoria caché durante la sesión de usuario.  Hay varias soluciones de administrador de almacenamiento en caché disponibles. Por ejemplo, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consulte a su proveedor de almacenamiento en caché para obtener instrucciones de configuración específicas.
+Para una instalación no persistente, la aplicación de escritorio de Teams debe instalarse por equipo para la imagen de oro. (Para obtener más información, consulte la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) ). Esto asegura un lanzamiento eficaz de la aplicación de Teams durante una sesión de usuario. El uso de equipos con una configuración no persistente también requiere un administrador de almacenamiento en caché para los equipos eficientes de sincronización de datos en tiempo de ejecución. Esto garantiza que la información específica del usuario adecuada (por ejemplo, datos de usuario, perfil y configuración) se almacene en la memoria caché durante la sesión de usuario.  Hay varias soluciones de administrador de almacenamiento en caché disponibles. Por ejemplo, [FSLogix](https://docs.microsoft.com/fslogix/overview). Consulte a su proveedor de almacenamiento en caché para obtener instrucciones de configuración específicas.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Lista de exclusión de contenido almacenado en caché de Teams para configuración no persistente
 
@@ -110,11 +112,11 @@ Tenga en cuenta lo siguiente al implementar Teams con Office 365 ProPlus en VDI.
 
 Antes de implementar Teams a través de Office 365 ProPlus, primero debe desinstalar cualquier aplicación existente de Teams si se ha implementado con la instalación por equipo.
 
-Los equipos a través de Office 365 ProPlus se instalan por usuario. Para obtener más información, vea la sección [instalar la aplicación de escritorio de Teams en VDI](#install-the-teams-desktop-app-on-vdi) .
+Los equipos a través de Office 365 ProPlus se instalan por usuario. Para obtener más información, consulte la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
 #### <a name="teams-deployments-through-office-365-proplus-updates"></a>Implementaciones de Teams mediante las actualizaciones de Office 365 ProPlus
 
-Teams también se agrega a las instalaciones existentes de Office 365 ProPlus. Ya que Office 365 ProPlus instala solo equipos por usuario, consulte la sección [instalar la aplicación de escritorio de Teams en VDI](#install-the-teams-desktop-app-on-vdi) .
+Teams también se agrega a las instalaciones existentes de Office 365 ProPlus. Dado que Office 365 ProPlus instala solo equipos por usuario, consulte la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) .
 
 #### <a name="using-teams-with-per-machine-installation-and-office-365-proplus"></a>Usar Teams con la instalación por equipo y Office 365 ProPlus
 
@@ -331,7 +333,8 @@ Para obtener más información sobre cómo usar PowerShell para administrar dire
 
 ### <a name="client-deployment-installation-and-setup"></a>Implementación de clientes, instalación y configuración
 
-- Con la instalación por equipo, Teams en VDI no se actualiza automáticamente de la manera en que se encuentran los clientes de equipos ajenos a VDI. Tiene que actualizar la imagen de VM instalando un nuevo MSI, tal y como se describe en la sección [instalar la aplicación de escritorio de Teams en VDI](#install-the-teams-desktop-app-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
+- Con la instalación por equipo, Teams en VDI no se actualiza automáticamente de la manera en que se encuentran los clientes de equipos ajenos a VDI. Tiene que actualizar la imagen de VM instalando un nuevo MSI, tal y como se describe en la sección [instalar o actualizar la aplicación de escritorio de Teams en VDI](#install-or-update-the-teams-desktop-app-on-vdi) . Debe desinstalar la versión actual para actualizar a una versión más reciente.
+- Los equipos se deben implementar tanto por usuario como por equipo. No se admite la implementación de equipos para usuarios simultáneos y por equipo.  Para migrar de cualquiera por equipo o por usuario a uno de estos modos, siga el procedimiento de desinstalación y vuelva a implementarlo en cualquiera de los dos.
 - En este momento, Citrix no admite los clientes de MacOs y Linux.
 - Citrix no admite el uso de proxy HTTP explícitos definidos en un extremo. 
 

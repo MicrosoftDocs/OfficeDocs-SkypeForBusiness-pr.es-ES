@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 622a173985d68260b210d844052d3b08dc5b5b88
-ms.sourcegitcommit: b8e16703e4611ca2bde55896ec158b33be4f9ba0
+ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39842432"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019974"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -41,7 +41,7 @@ La siguiente tabla proporciona una referencia rápida y útil sobre la disponibi
 
 **Acciones compatibles:**
 
-| El buzón del usuario se hospeda en: | eDiscovery| Retención&nbsp;legal | Policy| Administración de equipos y canales |Crear y ver reuniones| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
+| El buzón del usuario se hospeda en: | eDiscovery| Retención&nbsp;legal | Policy| Administración de equipos y canales |Crear y ver reuniones en Teams| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |
 |**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí|
