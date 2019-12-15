@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 63a3ae01dbe47323fd9227e65fa8c38a2d725ddf
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: 22b38da39ff0649077a8f4b388e4ffb39272824c
+ms.sourcegitcommit: da1327ce289afee32585dc2c7e7ac81823379975
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909476"
+ms.lasthandoff: 12/14/2019
+ms.locfileid: "40032833"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -31,72 +31,86 @@ ms.locfileid: "39909476"
 
 El Asesor de Teams (versión preliminar) le guiará a través de la implementación de Microsoft Teams. Evalúa el entorno del inquilino de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams. Después, el Asesor de Teams crea un Equipo de implementación (en Teams), con canales para cada una de las cargas de trabajo que desea implementar. Cada carga de trabajo en el Equipo de implementación viene con un plan de Planner completo que incluye todas las tareas de implementación para cada carga de trabajo.  Con este plan de Planner, podrá asignar las tareas a las personas responsables de cada fase del lanzamiento, (incluyendo el jefe de proyecto, administradores de Teams y Office 365, personal de soporte técnico, y su equipo de adopción y preparación del usuario). Cada tarea de implementación contiene todos los recursos e instrucciones que necesita para completar la tarea con éxito.
 
-El Asesor de Teams forma parte del [centro de administración de Teams](https://admin.teams.microsoft.com). Para usar el Asesor de Teams la primera vez, haga clic en el botón **Iniciar** en el widget **Implementando la carga de trabajo de Teams** en el Panel. O vaya a **Planificación** > **Asesor**.
+El Asesor de Teams forma parte del [centro de administración de Teams](https://admin.teams.microsoft.com). Como mínimo, necesitarás una licencia de Office 365 Empresa Essentials para poder aprovechar la integración del asesor de Teams con formularios y planificador. Para empezar a utilizar el asesor para Teams, haga clic en el botón **Inicio** en el widget **implementar Teams de carga** de trabajo en el panel. O vaya a **Planificación** > **Asesor**.
 
 > [!IMPORTANT]
 > El Asesor de Teams no está disponible para las implementaciones de Microsoft 365 Administración Pública - GCC High o DoD.
 
-Echa un vistazo al Asesor de equipos en este vídeo de introducción de [Despliegue y configuración de equipos](https://youtu.be/o2mlsUubIO4?t=44) (El Asesor de equipos está entre 0:50 y 3:15 minutos).
+Para obtener una visión general guiada de la experiencia del asesor de Teams, consulte el vídeo [Implementar y configurar Microsoft Teams](https://youtu.be/o2mlsUubIO4?t=50)de Microsoft Mechanics.
 
 ## <a name="using-advisor-for-teams-preview"></a>Usando el Asesor de Teams (versión preliminar)
 
-No es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquiera de los usuarios de su organización puede usarlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Debe ser un administrador de Teams, un administrador de servicios de Teams o un Administrador Global para abrir las evaluaciones de preparación de inquilinos.
+No es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquiera de los usuarios de su organización puede usarlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Usted tiene que ser un administrador de Teams, un administrador de servicio de Teams o un administrador global para abrir las evaluaciones de preparación del inquilino (esto se debe a que los roles especiales no administrativos no tienen acceso a las APIs de Microsoft Graph subyacentes a las evaluaciones).
 
-La primera vez que use el Asesor de Teams, se creará un Equipo de implementación para usted en Teams. Se agregan canales para cada carga de trabajo que desea implementar. 
+La primera vez que utilice el asesor para Teams, creará un equipo de implementación para usted en Teams. Se agrega un canal para cada carga de trabajo que seleccione.
 
+> [!IMPORTANT]
+> Si ya se ha creado un equipo de implementación y otro usuario intenta crearlo, obtendrá un error que le indicará que se ponga en contacto con el equipo de soporte. Esto evita que Teams revele involuntariamente información sobre el equipo existente y sus miembros. Pídale al propietario del equipo de implementación que lo añada o póngase en contacto con su persona de soporte para obtener ayuda.
 
-## <a name="available-advisor-for-teams-plans"></a>Planes disponibles para el Asesor de Teams
+## <a name="available-advisor-for-teams-plans"></a>Asesor disponible para los planes de Teams
 
-Aunque el Asesor de Teams se encuentra en versión preliminar, estamos proporcionando estos dos planes:
+Mientras que un asesor de Teams está en la vista previa, ofrecemos los dos planes siguientes:
 
 1. Chat, equipos, canales y aplicaciones
     - Evaluación de los inquilinos
     - Plan de Planner, incluidas las tareas de adopción
     - Encuesta de usuario de Forms
+    - Asesor de los Teams bot
 1. Reuniones y conferencias
     - Evaluación de los inquilinos
     - Plan de Planner, incluidas las tareas de adopción
     - Encuesta de usuario de Forms
+    - Asesor de los Teams bot
 
-Le recomendamos que empiece con el chat, equipos, canales y plan de aplicaciones. Cuando haya terminado la implementación de la carga de trabajo, vuelva al Asesor y haga clic en **Agregar canal** para iniciar la siguiente carga de trabajo. 
+Te recomendamos que empieces con el plan de chat, equipos, canales y aplicaciones. Cuando haya terminado de implementar esa carga de trabajo, vuelva a asesor para Teams y haga clic en **Agregar canal** para iniciar la siguiente carga de trabajo.
 
-## <a name="tenant-assessment"></a>Evaluación de los inquilinos
-Cada plan incluye una evaluación de preparación para inquilinos que puede usar para identificar y solucionar cualquier deficiencia en su entorno antes de implementar Teams. Esto es lo que cada evaluación comprueba:
+## <a name="tenant-assessment"></a>Evaluación del inquilino
+Cada plan incluye una evaluación de la preparación de los inquilinos que usted puede utilizar para identificar rápidamente los aspectos de su entorno que pueden necesitar corrección antes de desplegar los equipos. Las evaluaciones incluyen requisitos previos y mejores prácticas. Cada prueba de evaluación tendrá una marca de verificación verde o un triángulo de advertencia naranja. 
 
-### <a name="chat-teams-channels-and-apps"></a>Chat, equipos, canales y aplicaciones
+- <sub><img src="media/use-advisor-teams-roll-out-image2.png" alt="Green check mark"/></img></sub>Una marca de verificación verde significa que su inquilino pasó la prueba específica. 
+- <sub><img src="media/use-advisor-teams-roll-out-image1.png" alt="Yellow alert mark"/></img></sub>Un triángulo de advertencia naranja significa que te sugerimos que hagas un seguimiento para determinar si es necesario realizar alguna acción (por ejemplo, se recomienda, pero no es necesario, una política de caducidad del Grupo Office 365).
 
+> [!IMPORTANT]
+> Una vez que un usuario con un rol administrativo inicia el asesor para Teams, todas las evaluaciones se ejecutan en segundo plano. Si actualiza o repara algo, es posible que no se refleje en sus evaluaciones durante un máximo de 24 horas. Esto es temporal: tan pronto como asesor para Teams salga de la vista previa y esté disponible en general, las evaluaciones se actualizarán casi en tiempo real.
 
-|Evaluación  |Qué le indica  |
+Las siguientes secciones describen cada evaluación, incluyendo si algo es un requisito previo o mejores prácticas, qué es lo que cada evaluación está haciendo y por qué, y orientación para remediarlo según sea necesario.
+
+### <a name="assessment-tests-for-all-workloads"></a>Pruebas de evaluación para todas las cargas de trabajo
+
+|Prueba de evaluación  |Qué le indica  |
 |---------|---------|
-|Licencias de Teams     |Si tiene una suscripción activa con licencias de Teams disponibles |
-|Licencias de Exchange     |Si tiene una suscripción activa con licencias de Exchange Online disponibles. Aunque Exchange no es necesario para las funciones básicas de Teams, la integración con Exchange ofrece una experiencia de Teams óptima.         |
-|Licencias de SharePoint Online     | Si tiene una suscripción activa con licencias de SharePoint Online disponibles. Necesita una licencia de SharePoint Online por usuario para almacenar archivos, colaborar en canales y chatear. 
-|Acceso de invitado habilitado     |Si el acceso de invitado está activado en Teams. La configuración de Azure Active Directory para el acceso de invitados no se revisa.   |
-|Dominio personalizado configurado     |Si hay un dominio que no sea @onmicrosoft.com configurado para su inquilino  |
-|Grupo estándar de nomenclatura configurado en Office 365     | Si se han configurado estándares de nomenclatura para los Grupos de Office 365        |
-|Expiración de Grupo de Office 365 configurada     |  Si se ha definido una directiva de expiración de Grupo para los Grupos de Office 365. Si no es así, el valor se establece en nunca.        |
-|Acceso externo configurado     |Si está activado el acceso externo, de modo que pueda comunicarse con organizaciones externas en Teams.          |
+|Dominio de vanidad configurado     |Si existe un dominio non-@onmicrosoft.com configurado para el inquilino (por ejemplo, @contoso.onmicrosoft.com). Puede utilizar el dominio @onmicrosoft.com, por supuesto, o puede configurar un dominio de vanidad: su elección. Para más información, lea [Agregar un dominio a Office 365](https://docs.microsoft.com/office365/admin/setup/add-domain). |
+|Licencias de Teams     |Este es un requisito previo: usted**debe tener **licencias de Teams para poder desplegar Teams. Consulta Microsoft Graph para ver si tiene licencias de Equipos (con al menos una licencia disponible para asignar). Para más información, lea [las licencias de Office 365 para equipos](https://docs.microsoft.com/microsoftteams/office-365-licensing).    |
+|Licencias en línea de Exchange     |Si tiene una suscripción activa con licencias de Exchange Online disponibles. Aunque Exchange no es necesario para las funciones básicas de Teams, la integración con Exchange ofrece una experiencia de Teams óptima. Consulta Microsoft Graph para analizar las suscripciones asociadas con su arrendatario y validar si tiene suscripciones con una licencia de Exchange Online elegible (con al menos una licencia disponible para asignar). Para más información, lea [Cómo interactúan Teams y Exchange](exchange-teams-interact.md).    |
+|Licencias de SharePoint Online     |Si tiene una suscripción activa con licencias de SharePoint Online disponibles. Recomendamos una licencia de SharePoint Online por usuario para proporcionar OneDrive para la Empresa para el almacenamiento de archivos en chats Consulta Microsoft Graph para ver si tiene licencias de SharePoint Online (con al menos una licencia disponible para asignar). Para obtener más información, lea [Cómo SharePoint Online y OneDrive para la Empresa interactúan con Teams](https://docs.microsoft.com/microsoftteams/sharepoint-onedrive-interact).    |
+|Acceso de invitado habilitado     |Si el [acceso de invitados](guest-access.md) está activado. El acceso de invitados le permite invitar a usuarios externos a unirse a sus equipos. Utilice la [lista de control de acceso de invitados de Teams](guest-access-checklist.md) para ver cómo activar el acceso de invitados en Teams; la lista de control incluye las configuraciones necesarias de Azure AD. |
+|Acceso externo configurado     |Ya sea[ acceso externo](manage-external-access.md) está activado. Por defecto, está activado, con federación abierta. |
 
-### <a name="meetings-and-conferencing"></a>Reuniones y conferencias
+### <a name="assessments-for-chat-teams-channels-and-apps"></a>Evaluaciones para chat, equipos, canales y aplicaciones
 
+Además de las [pruebas de evaluación para todas las cargas de trabajo](#assessment-tests-for-all-workloads), se realizan las siguientes evaluaciones adicionales para la carga de trabajo de chat, equipos, canales y aplicaciones:
 
-|Evaluación  |Qué le indica  |
+|Prueba de evaluación  |Qué le indica  |
 |---------|---------|
-|Licencias de Teams     |Si tiene una suscripción activa con licencias de Teams disponibles |
-|Licencias de Exchange     |Si tiene una suscripción activa con licencias de Exchange Online disponibles. Aunque Exchange no es necesario para las funciones básicas de Teams, la integración con Exchange ofrece una experiencia de Teams óptima. |
-|Licencias de audioconferencia    |Si tiene una suscripción activa con licencias de audioconferencia |
-|Licencias de transmisión     |Si tiene una suscripción activa con licencias de transmisión, que puede usarse si se desea la Grabación de Reuniones. |
-|Acceso de invitado     |Si el acceso de invitado está activado en Teams. La configuración de Azure Active Directory para el acceso de invitados no se revisa.|
-|Dominio personalizado     |Si hay un dominio que no sea @onmicrosoft.com configurado para su inquilino.  |
-|Acceso externo     |Si está activado el acceso externo, de modo que pueda comunicarse con organizaciones externas en Teams. |
+|Configuración de la política de nombres de grupo de Office 365     |Si se han configurado estándares de nomenclatura para Grupos de Office 365. La política de asignación de nombres de Grupos de Office 365 permite a su organización aplicar una estrategia de asignación de nombres coherente a los equipos creados por los usuarios y también se aplica a otras cargas de trabajo de grupos (incluidos Outlook, SharePoint, Planner y Yammer). Esta prueba consulta Azure AD a través del Microsoft Graph para comprobar la existencia de políticas de nombres que se aplican a los Grupos de Office 365. Para obtener más información, lea [la política de nombres de grupo de Office 365](https://docs.microsoft.com/office365/admin/create-groups/groups-naming-policy).    |
+|Configuración de la política de caducidad de Grupos de Office 365     |Si se ha definido una política de caducidad de grupo para los Grupos de Office 365. Esto permite a su organización eliminar automáticamente los equipos inactivos. Está desactivado por defecto. Esta prueba consulta Azure AD a través de Microsoft Graph e informa si el valor ha sido modificado desde el valor predeterminado. Para más información, lea la [Política de Expiración de Grupo de Office 365](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups-expiration-policy).    |
 
+### <a name="assessments-for-meetings-and-conferencing"></a>Evaluaciones para reuniones y conferencias
 
-### <a name="advisor-bot"></a>Bot del Asesor
-Una vez que el Asesor cree el Equipo de implementación, el bot del Asesor entregará el siguiente mensaje.
+Además de las [pruebas de evaluación para todas las cargas de trabajo](#assessment-tests-for-all-workloads), se realizan las siguientes evaluaciones adicionales para la carga de trabajo de reuniones y conferencias:
+
+|Prueba de evaluación  |Qué le indica  |
+|---------|---------|
+|Licencias de audio conferencia    |Si tiene una suscripción activa con licencias de audio conferencia. Este es un requisito previo si está implementando puentes de audio conferencia. Consulta el Microsoft Graph para ver si tiene licencias de audio conferencia (con al menos una licencia disponible para asignar). Para obtener más información, lea[Licencias adicionales para Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).    |
+|Licencias de transmisión     |Si tiene una suscripción activa con licencias de Microsoft Stream. Este es un requisito previo si desea activar la grabación de reuniones. Consulta el Microsoft Graph para ver si tiene licencias de Microsoft Stream (con al menos una licencia disponible para asignar). Para obtener más información sobre Stream y cómo activarlo, lea [Grabación de reuniones en la nube de Teams](cloud-recording.md).
+
+### <a name="advisor-for-teams-bot"></a>Asesor de los Teams bot
+
+Una vez que asesor para Teams crea su equipo de implementación, el bot asesor entrega el siguiente mensaje en el canal general:
 
 >**¡Le damos la bienvenida al Equipo de implementación de Microsoft Teams!**
 >  
->El propósito de este equipo es guiarlo a través de la implementación de Teams en su organización, proporcionándole todos los recursos necesarios y brindando un espacio de colaboración para el equipo del proyecto. Cada canal creado con el Asesor de Teams incluye un plan de Planner paso a paso y otros recursos, como una encuesta de usuarios de Forms que puede usarse durante toda la implementación. En cualquier momento, puede volver atrás y revisar la evaluación de preparación de inquilino o agregar otros planes de carga de trabajo con el centro de administración de Teams. 
+>El propósito de este equipo es guiarlo a través de la implementación de Teams en su organización, proporcionándole todos los recursos necesarios y brindando un espacio de colaboración para el equipo del proyecto. Cada canal creado con el Asesor de Teams incluye un plan de Planner paso a paso y otros recursos, como una encuesta de usuarios de Forms que puede usarse durante toda la implementación. En cualquier momento, puede volver atrás y revisar la evaluación de preparación de inquilino o agregar otros planes de carga de trabajo con el centro de administración de Teams.
 > 
 >**Llamada a la acción** 
 >- Si no está familiarizado con Teams o Planner, consulte nuestra [Guía sobre Teams](https://teamsdemo.office.com/) y vea los [Vídeos de inicio rápido de Planner](https://support.office.com/article/microsoft-planner-video-training-4d71390f-08d8-4db0-84ea-92fb078687c7). 
@@ -104,19 +118,19 @@ Una vez que el Asesor cree el Equipo de implementación, el bot del Asesor entre
 > 
 >Para más información sobre el Asesor de Teams, lea [Use el Asesor de Teams para implementar Microsoft Teams](use-advisor-teams-roll-out.md).
 >
+
 > [!IMPORTANT]
 > El bot del Asesor de Teams solo se usa para enviar un mensaje de bienvenida al equipo de implementación. No se recopilan datos adicionales.
 
 > [!IMPORTANT]
-> De forma predeterminada, el bot del Asesor de Teams está habilitado. No lo deshabilite si usa o planea usar el Asesor de Teams.
-
+> El bot asesor de Teams está activado de forma predeterminada. No lo apague si utiliza o planea utilizar el servicio de asesor para Teams.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 ### <a name="what-are-the-licensing-requirements-for-advisor-for-teams"></a>¿Cuáles son los requisitos de licencia para el Asesor de Teams?
-No hay otros requisitos de licencia adicionales más allá de tener licencia para Teams.
+Como mínimo, necesitará Office 365 Business Essentials para poder aprovechar la integración del asesor de Teams con los formularios y el planificador.
 
 ### <a name="can-i-delete-the-deployment-team"></a>¿Puedo eliminar el equipo de implementación?
-Cuando el Asesor de Teams haya creado el Equipo de implementación, administrará el equipo como cualquier otro, con la posibilidad de eliminarlo. Tenga en cuenta que, si no elimina el equipo con el centro de administración de Teams, se le indicará que el equipo existe.
+Cuando el Asesor de Teams haya creado el Equipo de implementación, administrará el equipo como cualquier otro, con la posibilidad de eliminarlo. Tenga en cuenta que, si no elimina el equipo utilizando el centro de administración de equipos, el centro de administración de equipos mostrará que el equipo sigue existiendo. Esto es temporal: se arreglará cuando el asesor de Teams abandone el período de previsualización y esté disponible de forma general.
 
 ### <a name="can-i-add-or-remove-channels-in-the-deployment-team"></a>¿Puedo agregar o quitar canales en el Equipo de implementación?
 Sí, una vez que se haya creado el Equipo de implementación, podrá administrar los canales de la misma forma que lo haría con cualquier otro equipo.
@@ -126,7 +140,6 @@ Sí, una vez que se haya creado el Equipo de implementación, podrá administrar
 
 ### <a name="can-i-modify-the-planner-plans"></a>¿Puedo modificar los planes de Planner?
 Sí, cuando el Asesor de Teams haya creado el Equipo de implementación, debe actualizar el plan de Planner para mejorar la compatibilidad con la implementación de Teams. Puede modificar cualquier cosa (los depósitos, las tareas, los detalles de las tareas), al igual que cualquier otro plan de Planner.
-
 
 ### <a name="can-i-modify-the-forms-survey"></a>¿Puedo modificar la encuesta de Forms?
 Sí, una vez que el Asesor de Teams haya creado el Equipo de implementación, puede modificar la encuesta de Forms según sea necesario.
@@ -149,3 +162,6 @@ Vaya al [Centro de ayuda de Forms](https://support.office.com/forms).
 ## <a name="related-topics"></a>Temas relacionados
 
 [Cómo implementar Teams](How-to-roll-out-teams.md)
+
+[Nombres de productos e identificadores de planes de servicio para licencias](https://docs.microsoft.com/azure/active-directory/users-groups-roles/licensing-service-plan-reference
+) 
