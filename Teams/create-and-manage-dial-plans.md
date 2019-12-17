@@ -13,126 +13,158 @@ ms.collection:
 - M365-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Obtenga información sobre cómo crear planes de marcado de llamada (planes de marcado de llamada RTC) en Office 365 y cómo administrarlos. '
-ms.openlocfilehash: 3b96c2f504096b3f77c7080feda1dac982f46e9c
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+description: Aprenda a crear y administrar planes de marcado de llamada (planes de marcado de llamadas RTC) y a administrarlos.
+ms.openlocfilehash: 7280614d2eab12dff30d17ad71a3ac213e94dcd4
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516677"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069441"
 ---
-# <a name="create-and-manage-dial-plans"></a><span data-ttu-id="2e5a9-103">Crear y administrar planes de marcado</span><span class="sxs-lookup"><span data-stu-id="2e5a9-103">Create and manage dial plans</span></span>
+# <a name="create-and-manage-dial-plans"></a><span data-ttu-id="072bd-103">Crear y administrar planes de marcado</span><span class="sxs-lookup"><span data-stu-id="072bd-103">Create and manage dial plans</span></span>
 
-<span data-ttu-id="2e5a9-104">Una vez que haya planeado los planes de marcado de su organización y haya averiguado todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, tendrá que usar Windows PowerShell para crear los planes de marcado y realizar todos los cambios de configuración.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-104">After you have planned the dial plans for your organization and figured out all of the normalization rules that need to be created for call routing, you will need to use Windows PowerShell to create the dial plans and make any setting changes.</span></span>
-  
-> [!NOTE]
-> <span data-ttu-id="2e5a9-105">Los planes de marcado no se pueden crear y administrar en el centro de administración de Skype Empresarial.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-105">The Skype for Business admin center can't be used for creating and managing dial plans.</span></span> 
-  
-## <a name="verifying-and-starting-remote-powershell"></a><span data-ttu-id="2e5a9-106">Verificar e iniciar PowerShell remoto</span><span class="sxs-lookup"><span data-stu-id="2e5a9-106">Verifying and starting Remote PowerShell</span></span>
+<span data-ttu-id="072bd-104">Después de planear los planes de marcado de su organización y de haber averiguado todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, ya está listo para crear los planes de marcado.</span><span class="sxs-lookup"><span data-stu-id="072bd-104">After you plan the dial plans for your organization and figured out all the normalization rules that need to be created for call routing, you're ready to create the dial plans.</span></span> <span data-ttu-id="072bd-105">Puede usar el centro de administración de Microsoft Teams o Windows PowerShell para crear y administrar planes de marcado.</span><span class="sxs-lookup"><span data-stu-id="072bd-105">You can use the Microsoft Teams admin center or Windows PowerShell to create and manage dial plans.</span></span>  
 
- <span data-ttu-id="2e5a9-107">**Comprobar que está ejecutando Windows PowerShell versión 3.0 o superior**</span><span class="sxs-lookup"><span data-stu-id="2e5a9-107">**Check that you are running Windows PowerShell version 3.0 or higher**</span></span>
+## <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="072bd-106">Usar el centro de administración de Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="072bd-106">Using the Microsoft Teams admin center</span></span>
+
+### <a name="create-a-dial-plan"></a><span data-ttu-id="072bd-107">Crear un plan de marcado</span><span class="sxs-lookup"><span data-stu-id="072bd-107">Create a dial plan</span></span>
+
+1. <span data-ttu-id="072bd-108">En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**plan de marcado**de **voz** > .</span><span class="sxs-lookup"><span data-stu-id="072bd-108">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.</span></span>
+2. <span data-ttu-id="072bd-109">Haga clic en **Agregar**y, a continuación, escriba un nombre y una descripción para el plan de marcado.</span><span class="sxs-lookup"><span data-stu-id="072bd-109">Click **Add**, and then enter a name and description for the dial plan.</span></span>
+    <span data-ttu-id="072bd-110">![Captura de pantalla que muestra la página Agregar para crear un plan de marcado](media/create-dial-plan.png)</span><span class="sxs-lookup"><span data-stu-id="072bd-110">![Screenshot showing the Add page for creating a dial plan](media/create-dial-plan.png)</span></span>
+3. <span data-ttu-id="072bd-111">En **detalles del plan de marcado**, especifique un prefijo de marcado externo si los usuarios necesitan marcar uno o varios dígitos iniciales adicionales (por ejemplo, 9) para obtener una línea externa.</span><span class="sxs-lookup"><span data-stu-id="072bd-111">Under **Dial plan details**, specify an external dialing prefix if users need to dial one or more additional leading digits (for example, 9) to get an external line.</span></span> <span data-ttu-id="072bd-112">Para ello, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="072bd-112">To do this:</span></span>
+    1. <span data-ttu-id="072bd-113">En el cuadro **Prefijo de marcado externo** , escriba un prefijo de marcado externo.</span><span class="sxs-lookup"><span data-stu-id="072bd-113">In the **External dialing prefix** box, enter an external dialing prefix.</span></span> <span data-ttu-id="072bd-114">El prefijo puede tener un máximo de cuatro caracteres (#, \* y 0-9).</span><span class="sxs-lookup"><span data-stu-id="072bd-114">The prefix can be up to four characters (#,\*, and 0-9).</span></span>
+    2. <span data-ttu-id="072bd-115">Activar el **marcado de dispositivo optimizado**.</span><span class="sxs-lookup"><span data-stu-id="072bd-115">Turn on **Optimized device dialing**.</span></span> <span data-ttu-id="072bd-116">Si especifica un prefijo de marcado externo, también debe activar esta opción para aplicar el prefijo, de modo que las llamadas se hagan fuera de su organización.</span><span class="sxs-lookup"><span data-stu-id="072bd-116">If you specify an external dialing prefix, you must also turn on this setting to apply the prefix so calls can be made outside your organization.</span></span>
+4. <span data-ttu-id="072bd-117">En **reglas de normalización**, configure y asocie una o más [reglas de normalización](what-are-dial-plans.md#normalization-rules) para el plan de marcado.</span><span class="sxs-lookup"><span data-stu-id="072bd-117">Under **Normalization rules**, configure and associate one or more [normalization rules](what-are-dial-plans.md#normalization-rules) for the dial plan.</span></span> <span data-ttu-id="072bd-118">Cada plan de marcado debe tener al menos una regla de normalización asociada.</span><span class="sxs-lookup"><span data-stu-id="072bd-118">Each dial plan must have at least one normalization rule associated with it.</span></span>  <span data-ttu-id="072bd-119">Para ello, siga uno o varios de estos procedimientos:</span><span class="sxs-lookup"><span data-stu-id="072bd-119">To do this, do one or more of the following:</span></span>
+    - <span data-ttu-id="072bd-120">Para crear una nueva regla de normalización y asociarla con el plan de marcado, haga clic en **Agregar**y, a continuación, defina la regla.</span><span class="sxs-lookup"><span data-stu-id="072bd-120">To create a new normalization rule and associate it with the dial plan, click **Add**, and then define the rule.</span></span>
+    - <span data-ttu-id="072bd-121">Para editar una regla de normalización que ya está asociada con el plan de marcado, seleccione la regla haciendo clic a la izquierda del nombre de la regla y, a continuación, haga clic en **Editar**.</span><span class="sxs-lookup"><span data-stu-id="072bd-121">To edit a normalization rule that's already associated with the dial plan, select the rule by clicking to the left of the rule name, and then click **Edit**.</span></span> <span data-ttu-id="072bd-122">Realice los cambios que desee y, a continuación, haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="072bd-122">Make the changes you want, and then click **Save**.</span></span>
+    - <span data-ttu-id="072bd-123">Para quitar una regla de normalización del plan de marcado, seleccione la regla haciendo clic a la izquierda del nombre de la regla y, a continuación, haga clic en **quitar**.</span><span class="sxs-lookup"><span data-stu-id="072bd-123">To remove a normalization rule from the dial plan, select the rule by clicking to the left of the rule name, and then click **Remove**.</span></span>
+5. <span data-ttu-id="072bd-124">Organice las reglas de normalización en el orden que desee.</span><span class="sxs-lookup"><span data-stu-id="072bd-124">Arrange the normalization rules in the order that you want.</span></span> <span data-ttu-id="072bd-125">Haga clic en **subir** o **bajar** para cambiar la posición de las reglas de la lista.</span><span class="sxs-lookup"><span data-stu-id="072bd-125">Click **Move up** or **Move down** to change the position of rules in the list.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="072bd-126">Teams recorre la lista de reglas de normalización de la parte superior hacia abajo y usa la primera regla que coincida con el número marcado.</span><span class="sxs-lookup"><span data-stu-id="072bd-126">Teams traverses the list of normalization rules from the top down and uses the first rule that matches the dialed number.</span></span> <span data-ttu-id="072bd-127">Si configura un plan de marcado para que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas se ordenan por encima de las menos restrictivas.</span><span class="sxs-lookup"><span data-stu-id="072bd-127">If you set up a dial plan so that a dialed number can match more than one normalization rule, make sure the more restrictive rules are sorted above the less restrictive ones.</span></span>
+
+6. <span data-ttu-id="072bd-128">Haga clic en \*\*Guardar \*\*.</span><span class="sxs-lookup"><span data-stu-id="072bd-128">Click **Save**.</span></span>
+7. <span data-ttu-id="072bd-129">Si desea probar el plan de marcado, en **plan de marcado de prueba**, escriba un número de teléfono y, a continuación, haga clic en **prueba**.</span><span class="sxs-lookup"><span data-stu-id="072bd-129">If you want to test the dial plan, under **Test dial plan**, enter a phone number, and then click **Test**.</span></span>
+
+### <a name="edit-a-dial-plan"></a><span data-ttu-id="072bd-130">Editar un plan de marcado</span><span class="sxs-lookup"><span data-stu-id="072bd-130">Edit a dial plan</span></span>
+
+1. <span data-ttu-id="072bd-131">En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**plan de marcado**de **voz** > .</span><span class="sxs-lookup"><span data-stu-id="072bd-131">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.</span></span>
+2. <span data-ttu-id="072bd-132">Seleccione el plan de marcado haciendo clic a la izquierda del nombre del plan de marcado y, a continuación, haga clic en **Editar**.</span><span class="sxs-lookup"><span data-stu-id="072bd-132">Select the dial plan by clicking to the left of the dial plan name, and then click **Edit**.</span></span>
+3. <span data-ttu-id="072bd-133">Realice los cambios que desee y, a continuación, haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="072bd-133">Make the changes that you want, and then click **Save**.</span></span>
+
+### <a name="add-users-to-a-dial-plan"></a><span data-ttu-id="072bd-134">Agregar usuarios a un plan de marcado</span><span class="sxs-lookup"><span data-stu-id="072bd-134">Add users to a dial plan</span></span>
+
+1. <span data-ttu-id="072bd-135">En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**plan de marcado**de **voz** > .</span><span class="sxs-lookup"><span data-stu-id="072bd-135">In the left navigation of the Microsoft Teams admin center, go to **Voice** > **Dial plan**.</span></span>
+2. <span data-ttu-id="072bd-136">Seleccione el plan de marcado haciendo clic a la izquierda del nombre del plan de marcado.</span><span class="sxs-lookup"><span data-stu-id="072bd-136">Select the dial plan by clicking to the left of the dial plan name.</span></span>
+3. <span data-ttu-id="072bd-137">Seleccione **administrar usuarios**.</span><span class="sxs-lookup"><span data-stu-id="072bd-137">Select **Manage users**.</span></span>
+4. <span data-ttu-id="072bd-138">En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="072bd-138">In the **Manage users** pane, search for the user by display name or by user name, select the name, and then select **Add**.</span></span> <span data-ttu-id="072bd-139">Repita este paso para cada usuario que desee agregar.</span><span class="sxs-lookup"><span data-stu-id="072bd-139">Repeat this step for each user that you want to add.</span></span>
+5. <span data-ttu-id="072bd-140">Cuando haya terminado de agregar usuarios, seleccione **aplicar**.</span><span class="sxs-lookup"><span data-stu-id="072bd-140">When you're finished adding users, select **Apply**.</span></span>
+
+## <a name="using-powershell"></a><span data-ttu-id="072bd-141">Usar PowerShell</span><span class="sxs-lookup"><span data-stu-id="072bd-141">Using PowerShell</span></span>
   
-1. <span data-ttu-id="2e5a9-108">Para comprobar que se está ejecutando la versión 3.0 o superior: **Menú Inicio** > **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-108">To verify that you are running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span></span>
-    
-2. <span data-ttu-id="2e5a9-109">Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-109">Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.</span></span>
-    
-3. <span data-ttu-id="2e5a9-p101">Si no tiene la versión 3,0 o superior, debe descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le pida.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-p101">If you don't have version 3.0 or higher, you need to download and install updates to Windows PowerShell. See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0. Restart your computer when you are prompted.</span></span>
-    
-4. <span data-ttu-id="2e5a9-p102">También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-p102">You will also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online. This module, which is supported only on 64-bit computers, can be downloaded from the Microsoft Download Center at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688). Restart your computer if you are prompted.</span></span>
-    
-<span data-ttu-id="2e5a9-116">Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).</span><span class="sxs-lookup"><span data-stu-id="2e5a9-116">If you need to know more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx).</span></span>
+### <a name="verify-and-start-remote-powershell"></a><span data-ttu-id="072bd-142">Comprobar e iniciar PowerShell remoto</span><span class="sxs-lookup"><span data-stu-id="072bd-142">Verify and start Remote PowerShell</span></span>
+
+ <span data-ttu-id="072bd-143">**Comprobar que está ejecutando Windows PowerShell versión 3,0 o posterior**</span><span class="sxs-lookup"><span data-stu-id="072bd-143">**Check that you are running Windows PowerShell version 3.0 or later**</span></span>
   
- <span data-ttu-id="2e5a9-117">**Iniciar una sesión de Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="2e5a9-117">**Start a Windows PowerShell session**</span></span>
-  
-1. <span data-ttu-id="2e5a9-118">En el **menú Inicio** > **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-118">From the **Start Menu** > **Windows PowerShell**.</span></span>
+1. <span data-ttu-id="072bd-144">Para comprobar que está ejecutando la versión 3,0 o superior: **menú** > inicio de**Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="072bd-144">To verify that you're running version 3.0 or higher: **Start Menu** > **Windows PowerShell**.</span></span>
     
-2. <span data-ttu-id="2e5a9-119">En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-119">In the **Windows PowerShell** window, connect to your Office 365 organization by running:</span></span>
+2. <span data-ttu-id="072bd-145">Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="072bd-145">Check the version by typing  _Get-Host_ in the **Windows PowerShell** window.</span></span>
+    
+3. <span data-ttu-id="072bd-146">Si no tiene la versión 3,0 o posterior, descargue e instale las actualizaciones de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="072bd-146">If you don't have version 3.0 or later, download and install updates to Windows PowerShell.</span></span> <span data-ttu-id="072bd-147">Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0.</span><span class="sxs-lookup"><span data-stu-id="072bd-147">See [Windows Management Framework 4.0](https://go.microsoft.com/fwlink/?LinkId=716845) to download and update Windows PowerShell to version 4.0.</span></span> <span data-ttu-id="072bd-148">Reinicie el equipo cuando se le pida.</span><span class="sxs-lookup"><span data-stu-id="072bd-148">Restart your computer when you're prompted.</span></span>
+    
+4. <span data-ttu-id="072bd-149">También tendrá que instalar el módulo Windows PowerShell para Skype empresarial online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype empresarial online.</span><span class="sxs-lookup"><span data-stu-id="072bd-149">You'll also need to install the Windows PowerShell module for Skype for Business Online that enables you to create a remote Windows PowerShell session that connects to Skype for Business Online.</span></span> <span data-ttu-id="072bd-150">Puede descargar este módulo, que solo se admite en equipos de 64 de bits, en el [módulo de Windows PowerShell para Skype empresarial online](https://go.microsoft.com/fwlink/?LinkId=294688).</span><span class="sxs-lookup"><span data-stu-id="072bd-150">You can download this module, which is supported only on 64-bit computers, at [Windows PowerShell Module for Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688).</span></span> <span data-ttu-id="072bd-151">Reinicie el equipo si se le pide.</span><span class="sxs-lookup"><span data-stu-id="072bd-151">Restart your computer if you're prompted.</span></span>
+    
+<span data-ttu-id="072bd-152">Para obtener más información, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).</span><span class="sxs-lookup"><span data-stu-id="072bd-152">To learn more, see [Connect to all Office 365 services in a single Windows PowerShell window](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).</span></span>
+  
+ <span data-ttu-id="072bd-153">**Iniciar una sesión de Windows PowerShell**</span><span class="sxs-lookup"><span data-stu-id="072bd-153">**Start a Windows PowerShell session**</span></span>
+  
+1. <span data-ttu-id="072bd-154">Haga clic en **iniciar** > **Windows PowerShell**.</span><span class="sxs-lookup"><span data-stu-id="072bd-154">Click **Start** > **Windows PowerShell**.</span></span>
+    
+2. <span data-ttu-id="072bd-155">En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:</span><span class="sxs-lookup"><span data-stu-id="072bd-155">In the **Windows PowerShell** window, connect to your Office 365 organization by running:</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="2e5a9-120">Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-120">You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.</span></span>
+    > <span data-ttu-id="072bd-156">Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.</span><span class="sxs-lookup"><span data-stu-id="072bd-156">You only have to run the **Import-Module** command the first time you use the Skype for Business Online Windows PowerShell module.</span></span>
   
-> 
->   ```
->     Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
->     $credential = Get-Credential
->     $session = New-CsOnlineSession -Credential $credential
->     Import-PSSession $session
->   ```
 
-<span data-ttu-id="2e5a9-121">Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype empresarial online mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="2e5a9-121">If you want more information about starting Windows PowerShell, see [Connect to all Office 365 services in a single Windows PowerShell window](https://technet.microsoft.com/EN-US/library/dn568015.aspx) or [Connecting to Skype for Business Online by using Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).</span></span>
+    ```
+    Import-Module "C:\\Program Files\\Common Files\\Skype for Business Online\\Modules\\SkypeOnlineConnector\\SkypeOnlineConnector.psd1"
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
+    ```
   
-## <a name="creating-and-managing-your-dial-plans"></a><span data-ttu-id="2e5a9-122">Crear y administrar sus planes de marcado</span><span class="sxs-lookup"><span data-stu-id="2e5a9-122">Creating and managing your dial plans</span></span>
+### <a name="create-and-manage-your-dial-plans"></a><span data-ttu-id="072bd-157">Crear y administrar los planes de marcado</span><span class="sxs-lookup"><span data-stu-id="072bd-157">Create and manage your dial plans</span></span>
 
-<span data-ttu-id="2e5a9-123">Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet sencillo o un script de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-123">You can either use a single cmdlet or a PowerShell script to create and manage tenant dial plans.</span></span>
+<span data-ttu-id="072bd-158">Para crear y administrar planes de marcado de inquilino puede utilizar un cmdlet sencillo o un script de PowerShell.</span><span class="sxs-lookup"><span data-stu-id="072bd-158">You can either use a single cmdlet or a PowerShell script to create and manage tenant dial plans.</span></span>
   
-### <a name="using-single-cmdlets"></a><span data-ttu-id="2e5a9-124">Uso de cmdlets sencillos</span><span class="sxs-lookup"><span data-stu-id="2e5a9-124">Using single cmdlets</span></span>
+#### <a name="using-single-cmdlets"></a><span data-ttu-id="072bd-159">Uso de cmdlets sencillos</span><span class="sxs-lookup"><span data-stu-id="072bd-159">Using single cmdlets</span></span>
 
-- <span data-ttu-id="2e5a9-125">Para crear un nuevo plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-125">To create a new dial plan, run:</span></span>
+- <span data-ttu-id="072bd-160">Para crear un nuevo plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="072bd-160">To create a new dial plan, run:</span></span>
     
   ```
   New-CsTenantDialPlan -Identity RedmondDialPlan -Description "Dial Plan for Redmond" -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9 -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    <span data-ttu-id="2e5a9-126">Para ver otros ejemplos y parámetros, consulte [Nuevo-CsPlanMarcadoInquilinio](https://technet.microsoft.com/library/mt775026.aspx).</span><span class="sxs-lookup"><span data-stu-id="2e5a9-126">For other examples and parameters, see [New-CsTenantDialPlan](https://technet.microsoft.com/library/mt775026.aspx).</span></span>
+    <span data-ttu-id="072bd-161">Para ver otros ejemplos y parámetros, consulte [Nuevo-CsPlanMarcadoInquilinio](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="072bd-161">For other examples and parameters, see [New-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/new-cstenantdialplan).</span></span>
     
-- <span data-ttu-id="2e5a9-127">Para cambiar la configuración en un plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-127">To make setting changes to an existing dial plan, run:</span></span>
+- <span data-ttu-id="072bd-162">Para editar la configuración de un plan de marcado existente, ejecute:</span><span class="sxs-lookup"><span data-stu-id="072bd-162">To edit the settings of an existing dial plan, run:</span></span>
     
   ```
   Set-CsTenantDialPlan -Identity RedmondDialPlan  -NormalizationRules <pslistmodifier> -ExternalAccessPrefix 9
     -SimpleName "Dial-Plan-for-Redmond"
   ```
 
-    <span data-ttu-id="2e5a9-128">Para ver otros ejemplos y parámetros, consulte[Configurar-CsPlanMarcadoInquilino](https://technet.microsoft.com/library/mt775023.aspx).</span><span class="sxs-lookup"><span data-stu-id="2e5a9-128">For other examples and parameters, see [Set-CsTenantDialPlan](https://technet.microsoft.com/library/mt775023.aspx).</span></span>
+    <span data-ttu-id="072bd-163">Para ver otros ejemplos y parámetros, consulte[Configurar-CsPlanMarcadoInquilino](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="072bd-163">For other examples and parameters, see [Set-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/set-cstenantdialplan).</span></span>
     
-- <span data-ttu-id="2e5a9-129">Para agregar usuarios a un plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-129">To add users to a dial plan, run:</span></span>
+- <span data-ttu-id="072bd-164">Para agregar usuarios a un plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="072bd-164">To add users to a dial plan, run:</span></span>
     
   ```
   Grant-CsTenantDialPlan -Identity amos.marble@contoso.com -PolicyName RedmondDialPlan
   ```
 
-    <span data-ttu-id="2e5a9-130">Para ver otros ejemplos y parámetros, consulte [Garantizar-CsPlanMarcadoInquilino](https://technet.microsoft.com/library/mt775021.aspx).</span><span class="sxs-lookup"><span data-stu-id="2e5a9-130">For other examples and parameters, see [Grant-CsTenantDialPlan](https://technet.microsoft.com/library/mt775021.aspx).</span></span>
+    <span data-ttu-id="072bd-165">Para ver otros ejemplos y parámetros, consulte [Garantizar-CsPlanMarcadoInquilino](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="072bd-165">For other examples and parameters, see [Grant-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-cstenantdialplan).</span></span>
     
-- <span data-ttu-id="2e5a9-131">Para ver la configuración de un plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-131">To view the settings on a dial plan, run:</span></span>
+- <span data-ttu-id="072bd-166">Para ver la configuración de un plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="072bd-166">To view the settings on a dial plan, run:</span></span>
     
   ```
   Get-CsTenantDialPlan -Identity RedmondDialPlan
   ```
 
-    <span data-ttu-id="2e5a9-132">Para ver otros ejemplos y parámetros, consulte[Obtener-CsPlanMarcadoInquilino](https://technet.microsoft.com/library/mt775024.aspx).</span><span class="sxs-lookup"><span data-stu-id="2e5a9-132">For other examples and parameters, see [Get-CsTenantDialPlan](https://technet.microsoft.com/library/mt775024.aspx).</span></span>
+    <span data-ttu-id="072bd-167">Para ver otros ejemplos y parámetros, consulte[Obtener-CsPlanMarcadoInquilino](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="072bd-167">For other examples and parameters, see [Get-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cstenantdialplan?view=skype-ps).</span></span>
     
-- <span data-ttu-id="2e5a9-133">Para eliminar un plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-133">To delete a dial plan, run:</span></span>
+- <span data-ttu-id="072bd-168">Para eliminar un plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="072bd-168">To delete a dial plan, run:</span></span>
     
   ```
   Remove-CsTenantDialPlan -Identity RedmondDialPlan -force
   ```
 
-    <span data-ttu-id="2e5a9-134">Para ver otros ejemplos y parámetros, consulte [Eliminar-CsPlanMarcadoInquilino](https://technet.microsoft.com/library/mt775020.aspx).</span><span class="sxs-lookup"><span data-stu-id="2e5a9-134">For other examples and parameters, see [Remove-CsTenantDialPlan](https://technet.microsoft.com/library/mt775020.aspx).</span></span>
+    <span data-ttu-id="072bd-169">Para ver otros ejemplos y parámetros, consulte [Eliminar-CsPlanMarcadoInquilino](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="072bd-169">For other examples and parameters, see [Remove-CsTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/remove-cstenantdialplan?view=skype-ps).</span></span>
     
-- <span data-ttu-id="2e5a9-135">Para ver la configuración del plan de marcado efectivo, ejecute:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-135">To see the settings of the effective dial plan, run:</span></span>
+- <span data-ttu-id="072bd-170">Para ver la configuración del plan de marcado efectivo, ejecute:</span><span class="sxs-lookup"><span data-stu-id="072bd-170">To see the settings of the effective dial plan, run:</span></span>
     
   ```
   Get-CsEffectiveTenantDialPlan -Identity amos.marble@contoso.com
   ```
 
-    <span data-ttu-id="2e5a9-136">Para ver otros ejemplos y parámetros, consulte [Obtener-CsPlanMarcadoEfectivoInquilino](https://technet.microsoft.com/library/mt775022.aspx).</span><span class="sxs-lookup"><span data-stu-id="2e5a9-136">For other examples and parameters, see [Get-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775022.aspx).</span></span>
+    <span data-ttu-id="072bd-171">Para ver otros ejemplos y parámetros, consulte [Obtener-CsPlanMarcadoEfectivoInquilino](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).</span><span class="sxs-lookup"><span data-stu-id="072bd-171">For other examples and parameters, see [Get-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/get-cseffectivetenantdialplan).</span></span>
     
-- <span data-ttu-id="2e5a9-137">Para evaluar la configuración efectiva de un plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-137">To test the effective settings of a dial plan, run:</span></span>
+- <span data-ttu-id="072bd-172">Para evaluar la configuración efectiva de un plan de marcado, ejecute:</span><span class="sxs-lookup"><span data-stu-id="072bd-172">To test the effective settings of a dial plan, run:</span></span>
     
   ```
   Test-CsEffectiveTenantDialPlan -DialedNumber 14255550199 -Identity amos.marble@contoso.com
   ```
 
-    <span data-ttu-id="2e5a9-138">Para ver otros ejemplos y parámetros, consulte [Probar-CsPlanMarcadoEfectivoInquilino](https://technet.microsoft.com/library/mt775025.aspx).</span><span class="sxs-lookup"><span data-stu-id="2e5a9-138">For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](https://technet.microsoft.com/library/mt775025.aspx).</span></span>
+    <span data-ttu-id="072bd-173">Para ver otros ejemplos y parámetros, consulte [Probar-CsPlanMarcadoEfectivoInquilino](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="072bd-173">For other examples and parameters, see [Test-CsEffectiveTenantDialPlan](https://docs.microsoft.com/powershell/module/skype/test-cseffectivetenantdialplan?view=skype-ps).</span></span>
     
-### <a name="using-a-powershell-script"></a><span data-ttu-id="2e5a9-139">Uso de un script de PowerShell</span><span class="sxs-lookup"><span data-stu-id="2e5a9-139">Using a PowerShell script</span></span>
+#### <a name="using-a-powershell-script"></a><span data-ttu-id="072bd-174">Uso de un script de PowerShell</span><span class="sxs-lookup"><span data-stu-id="072bd-174">Using a PowerShell script</span></span>
 
-<span data-ttu-id="2e5a9-140">Ejecute esto para eliminar una regla de normalización que esté asociada con un plan de marcado inquilino sin que tenga que eliminar en primer lugar el plan de marcado inquilino:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-140">Run this to delete a normalization rule that is associated with a tenant dial plan without needing to deleting the tenant dial plan first:</span></span>
+<span data-ttu-id="072bd-175">Ejecute esto para eliminar una regla de normalización asociada a un plan de marcado de inquilino sin necesidad de eliminar primero el plan de marcado de inquilino:</span><span class="sxs-lookup"><span data-stu-id="072bd-175">Run this to delete a normalization rule that is associated with a tenant dial plan without needing to delete the tenant dial plan first:</span></span>
 ```
 $b1=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
@@ -140,18 +172,18 @@ Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$b1}
 $b2=New-CsVoiceNormalizationRule -Identity Global/NR4 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$b2}
 ```
-<span data-ttu-id="2e5a9-141">Ejecute esto para agregar la siguiente regla de normalización al plan de marcado inquilino existente denominado RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-141">Run this to add the following normalization rule to the existing tenant dial plan named RedmondDialPlan.</span></span>
+<span data-ttu-id="072bd-176">Ejecute esto para agregar la siguiente regla de normalización al plan de marcado inquilino existente denominado RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="072bd-176">Run this to add the following normalization rule to the existing tenant dial plan named RedmondDialPlan.</span></span>
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global -Description 'Organization extension dialing' -Pattern '^(\\d{3})$' -Translation '+14255551$1' -Name NR1 -IsInternalExtension $false -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{add=$nr1}
 ```
-<span data-ttu-id="2e5a9-142">Ejecute esto para eliminar la siguiente regla de normalización del plan de marcado inquilino existente denominado RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-142">Run this to remove the following normalization rule from the existing tenant dial plan named RedmondDialPlan.</span></span>
+<span data-ttu-id="072bd-177">Ejecute esto para eliminar la siguiente regla de normalización del plan de marcado inquilino existente denominado RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="072bd-177">Run this to remove the following normalization rule from the existing tenant dial plan named RedmondDialPlan.</span></span>
 ```
 $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
-Set-CsTenantDialPlan -Identity DP1 -NormalizationRules @{remove=$nr1}
+Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-<span data-ttu-id="2e5a9-143">Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-143">Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it.</span></span> <span data-ttu-id="2e5a9-144">The array of normalization rules starts with index 0.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-144">The array of normalization rules starts with index 0.</span></span> <span data-ttu-id="2e5a9-145">We would like to remove the 3-digit normalization rule, so that is index 1.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-145">We would like to remove the 3-digit normalization rule, so that is index 1.</span></span>
+<span data-ttu-id="072bd-178">Ejecute lo siguiente cuando desee examinar también las reglas de normalización existentes, determinar la que desea eliminar y, a continuación, usar su índice para quitarla.</span><span class="sxs-lookup"><span data-stu-id="072bd-178">Run the following when you want to also examine the existing normalization rules, determine which one you want to delete, and then use its index to remove it.</span></span> <span data-ttu-id="072bd-179">La matriz de reglas de normalización comienza con el índice 0.</span><span class="sxs-lookup"><span data-stu-id="072bd-179">The array of normalization rules starts with index 0.</span></span> <span data-ttu-id="072bd-180">Nos gustaría eliminar la regla de normalización de tres dígitos, por lo que se trata del índice 1.</span><span class="sxs-lookup"><span data-stu-id="072bd-180">We would like to remove the 3-digit normalization rule, so that is index 1.</span></span>
   
 ```
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -167,24 +199,24 @@ Translation         : +14255551$1
 Name                : NR12
 IsInternalExtension : False
 
-$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[Number 1]
+$nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-<span data-ttu-id="2e5a9-146">Ejecute esto para buscar todos los usuarios a los que se les ha garantizado el plan de marcado inquilino RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-146">Run this to find all users who have been granted the RedmondDialPlan tenant dial plan.</span></span>
+<span data-ttu-id="072bd-181">Ejecute esto para buscar todos los usuarios a los que se les ha garantizado el plan de marcado inquilino RedmondDialPlan.</span><span class="sxs-lookup"><span data-stu-id="072bd-181">Run this to find all users who have been granted the RedmondDialPlan tenant dial plan.</span></span>
   
 ```
-Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
+Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-<span data-ttu-id="2e5a9-147">Ejecútelo para eliminar el PolicyName de todos los usuarios que tengan Hostingprovider manda sipfed.online.lync.com.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-147">Run this to delete policyname for all users who have HostingProvider sipfed.online.lync.com.</span></span>
+<span data-ttu-id="072bd-182">Ejecute esto para quitar todos los TenantDialPlan asignados de todos los usuarios que tienen una Hostingprovider manda de sipfed.online.lync.com.</span><span class="sxs-lookup"><span data-stu-id="072bd-182">Run this to remove any assigned TenantDialPlan from all users who have a HostingProvider of sipfed.online.lync.com.</span></span>
 ```
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-<span data-ttu-id="2e5a9-148">Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-148">Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization.</span></span> <span data-ttu-id="2e5a9-149">Primero debe guardar el plan de marcado local en un archivo. XML y, a continuación, usarlo para crear el nuevo plan de marcado de inquilino.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-149">You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.</span></span>
+<span data-ttu-id="072bd-183">Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización.</span><span class="sxs-lookup"><span data-stu-id="072bd-183">Run these to add the existing on-premises dial plan named OPDP1 as a tenant dial plan for your organization.</span></span> <span data-ttu-id="072bd-184">Primero debe guardar el plan de marcado local en un archivo. XML y, a continuación, usarlo para crear el nuevo plan de marcado de inquilino.</span><span class="sxs-lookup"><span data-stu-id="072bd-184">You need to first save the on-premises dial plan to an .xml file, and then use it to create the new tenant dial plan.</span></span>
   
-<span data-ttu-id="2e5a9-150">Ejecute esto para guardar el plan de marcado local en el archivo. Xml.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-150">Run this to save the on-premises dial plan to the .xml file.</span></span>
+<span data-ttu-id="072bd-185">Ejecute esto para guardar el plan de marcado local en el archivo. Xml.</span><span class="sxs-lookup"><span data-stu-id="072bd-185">Run this to save the on-premises dial plan to the .xml file.</span></span>
   
 ```
 $DPName = "OPDP1"
@@ -192,46 +224,27 @@ $DPFileName = "dialplan.xml"
 Get-CsDialplan $DPName | Export-Clixml $DPFileName
 ```
 
-<span data-ttu-id="2e5a9-151">Ejecute esto para crear el nuevo plan de marcado inquilino.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-151">Run this to create the new tenant dial plan.</span></span>
+<span data-ttu-id="072bd-186">Ejecute esto para crear el nuevo plan de marcado inquilino.</span><span class="sxs-lookup"><span data-stu-id="072bd-186">Run this to create the new tenant dial plan.</span></span>
   
 ```
 $DPFileName = "dialplan.xml"
-$DP = Import-Clixml $DPFileName
+$dp = Import-Clixml $DPFileName
 $NormRules = @()
 ForEach($nr in $dp.NormalizationRules)
 {
- $id1 = "Global/" +$nr.Name
-$nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation  -IsInternalExtension $nr.IsInternalExtension -InMemory
-$NormRules += $nr2
+ $id1 = "Global/" + $nr.Name
+ $nr2 = New-CsVoiceNormalizationRule -Identity $id1 -Description $nr.Description -Pattern $nr.Pattern -Translation $nr.Translation -IsInternalExtension $nr.IsInternalExtension -InMemory
+ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="2e5a9-152">¿Quiere saber más sobre Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="2e5a9-152">Want to know more about Windows Powershell?</span></span>
+    
+## <a name="related-topics"></a><span data-ttu-id="072bd-187">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="072bd-187">Related topics</span></span>
 
-- <span data-ttu-id="2e5a9-153">Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-153">Windows PowerShell is all about managing users and what users are allowed or not allowed to do.</span></span> <span data-ttu-id="2e5a9-154">Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-154">With Windows PowerShell, you can manage Office 365 and Skype for Business Online using a single point of administration that can simplify your daily work, when you have multiple tasks to do.</span></span> <span data-ttu-id="2e5a9-155">Para empezar con Windows PowerShell, vea estos temas:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-155">To get started with Windows PowerShell, see these topics:</span></span>
-    
-  - [<span data-ttu-id="2e5a9-156">Una introducción a Windows PowerShell y Skype Empresarial Online</span><span class="sxs-lookup"><span data-stu-id="2e5a9-156">An introduction to Windows PowerShell and Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525039)
-    
-  - [<span data-ttu-id="2e5a9-157">Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365</span><span class="sxs-lookup"><span data-stu-id="2e5a9-157">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
-    
-- <span data-ttu-id="2e5a9-158">Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez.</span><span class="sxs-lookup"><span data-stu-id="2e5a9-158">Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Microsoft 365 admin center such as when you are making setting changes for many users at one time.</span></span> <span data-ttu-id="2e5a9-159">Más información sobre estas ventajas en los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="2e5a9-159">Learn about these advantages in the following topics:</span></span>
-    
-  - [<span data-ttu-id="2e5a9-160">Mejores formas de administrar Office 365 con Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="2e5a9-160">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
-    
-  - [<span data-ttu-id="2e5a9-161">Usar Windows PowerShell para administrar Skype Empresarial Online</span><span class="sxs-lookup"><span data-stu-id="2e5a9-161">Using Windows PowerShell to manage Skype for Business Online</span></span>](https://go.microsoft.com/fwlink/?LinkId=525453)
-    
-  - [<span data-ttu-id="2e5a9-162">Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online</span><span class="sxs-lookup"><span data-stu-id="2e5a9-162">Using Windows PowerShell to do common Skype for Business Online management tasks</span></span>](https://go.microsoft.com/fwlink/?LinkId=525038)
-    
-## <a name="related-topics"></a><span data-ttu-id="2e5a9-163">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="2e5a9-163">Related topics</span></span>
-[<span data-ttu-id="2e5a9-164">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="2e5a9-164">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
-
-[<span data-ttu-id="2e5a9-165">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="2e5a9-165">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[<span data-ttu-id="2e5a9-166">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="2e5a9-166">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
-
-[<span data-ttu-id="2e5a9-167">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="2e5a9-167">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
-
-<span data-ttu-id="2e5a9-168">[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="2e5a9-168">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
-
-  
- 
+- [<span data-ttu-id="072bd-188">¿Qué son los planes de marcado?</span><span class="sxs-lookup"><span data-stu-id="072bd-188">What are dial plans?</span></span>](what-are-dial-plans.md)
+- [<span data-ttu-id="072bd-189">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="072bd-189">Transferring phone numbers common questions</span></span>](transferring-phone-numbers-common-questions.md)
+- [<span data-ttu-id="072bd-190">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="072bd-190">Different kinds of phone numbers used for Calling Plans</span></span>](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [<span data-ttu-id="072bd-191">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="072bd-191">Manage phone numbers for your organization</span></span>](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- [<span data-ttu-id="072bd-192">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="072bd-192">Emergency calling terms and conditions</span></span>](emergency-calling-terms-and-conditions.md)
+- <span data-ttu-id="072bd-193">[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="072bd-193">[Emergency calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+- [<span data-ttu-id="072bd-194">Descripción de PowerShell para Teams</span><span class="sxs-lookup"><span data-stu-id="072bd-194">Teams PowerShell overview</span></span>](teams-powershell-overview.md)
