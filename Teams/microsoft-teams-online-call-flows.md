@@ -15,19 +15,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Describe cómo usa Teams los flujos de 365 de Office en diversas topologías.
-ms.openlocfilehash: 91be46f556419dfd1ba8c52a99b8f06a19c63542
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: db653ba66061c98bc9352d934106adc7eabba240
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573417"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069341"
 ---
 # <a name="microsoft-teams-call-flows"></a>Flujos de llamadas de Microsoft Teams
 
-> [!Tip]
+> [!TIP]
 > Vea la siguiente sesión para obtener información sobre cómo Teams aprovecha su red y cómo planear la conectividad de red óptima: planificación de la [red de Teams](https://aka.ms/teams-networking)
 
 ## <a name="overview"></a>Información general
+
 En este artículo se describe cómo usa Teams los flujos de llamadas de Office 365 en diversas topologías. Además, describe los flujos de equipos únicos que se usan para la comunicación multimedia punto a punto. El documento describe estos flujos, su propósito, así como su origen y terminación en la red. Para los fines de este artículo, supongamos lo siguiente:
 
 - Flow X lo usa el cliente local de Office 365 para comunicarse con el servicio de Office 365 en la nube. Se origina desde la red del cliente y termina como un extremo en Office 365.
@@ -36,25 +37,28 @@ En este artículo se describe cómo usa Teams los flujos de llamadas de Office 3
 
 El artículo contiene las secciones siguientes:
 
-- **Fondo** : proporciona información básica, como redes que el flujo de Office 365 puede atravesar, tipo de tráfico, guía de conectividad de la red del cliente a los puntos de conexión del servicio Office 365, interoperabilidad con componentes de terceros y principios que usan los equipos para seleccionar los flujos de medios.
+- **Fondo** : proporciona información básica, como redes que el flujo de Office 365 puede atravesar, tipo de tráfico, guía de conectividad de la red del cliente a los puntos de conexión del servicio Office 365, interoperabilidad con componentes de terceros y principios que usa Teams para seleccionar flujos de medios.
 
-- **Flujos de llamadas en varias topologías** : muestra el uso de flujos de llamadas en varias topologías. Para cada topología, en la sección se enumeran todos los flujos compatibles y se muestra cómo se usan estos flujos a través de varios casos de uso. Para cada caso de uso, describe la secuencia y la selección de flujos a través de un diagrama de flujo. 
+- **Flujos de llamadas en varias topologías** : muestra el uso de flujos de llamadas en varias topologías. Para cada topología, en la sección se enumeran todos los flujos compatibles y se muestra cómo se usan estos flujos a través de varios casos de uso. Para cada caso de uso, describe la secuencia y la selección de flujos a través de un diagrama de flujo.
 
 - **Teams con optimización de expressroute** : describe cómo se usan estos flujos cuando se implementa expressroute para la optimización, que se muestra a través de una topología simple.
 
 ## <a name="background"></a>Información general
+
 ### <a name="network-segments"></a>Segmentos de red
-**Red de clientes**: este es el segmento de red que controla y administra. Esto incluye todas las conexiones de los clientes dentro de las oficinas de los clientes, ya sea por cable o inalámbricas, entre edificios de oficinas, en centros de trabajo locales y sus conexiones con proveedores de Internet, Expressroute o cualquier otro emparejamiento privado. 
 
-Por lo general, una red de clientes tiene varios perímetros de red con firewalls o servidores proxy, que aplican las directivas de seguridad de su organización y que solo permiten un determinado tráfico de red que usted ha configurado y configurado. Como usted administra esta red, tiene control directo sobre el rendimiento de la red y se recomienda encarecidamente que complete las evaluaciones de red para validar el rendimiento en los sitios de su red y desde la red a la red de Office 365. 
+**Red de clientes**: este es el segmento de red que controla y administra. Esto incluye todas las conexiones de los clientes dentro de las oficinas de los clientes, ya sea por cable o inalámbricas, entre edificios de oficinas, en centros de trabajo locales y sus conexiones con proveedores de Internet, Expressroute o cualquier otro emparejamiento privado.
 
-**Internet**: este es el segmento de red que forma parte de la red general que usarán los usuarios que se conectan a Office 365 desde fuera de la red del cliente. También lo usa el tráfico de la red del cliente a Office 365. 
+Por lo general, una red de clientes tiene varios perímetros de red con firewalls o servidores proxy, que aplican las directivas de seguridad de su organización y que solo permiten un determinado tráfico de red que usted ha configurado y configurado. Como usted administra esta red, tiene control directo sobre el rendimiento de la red y se recomienda encarecidamente que complete las evaluaciones de red para validar el rendimiento en los sitios de su red y desde la red a la red de Office 365.
+
+**Internet**: este es el segmento de red que forma parte de la red general que usarán los usuarios que se conectan a Office 365 desde fuera de la red del cliente. También lo usa el tráfico de la red del cliente a Office 365.
 
 **Red privada de invitados o visitados**: este es el segmento de red fuera de la red de clientes, pero no en la Internet pública, que los usuarios o sus invitados puedan visitar. Por ejemplo, red privada local o red privada de la empresa, que no implementa equipos, en los que los usuarios o sus clientes que interactúan con los servicios de Teams pueden residir.
 
->**Nota**: la conectividad con Office 365 también es aplicable a estas redes.
+> [!NOTE]
+> La conectividad a Office 365 también es aplicable a estas redes.
 
-**Office 365**: este es el segmento de red compatible con los servicios de Office 365. Se distribuye por todo el mundo con bordes cercanos a la red del cliente en la mayoría de las ubicaciones. Las funciones mencionadas en este documento incluyen retransmisión de transporte, servidor de conferencia y procesador de medios. 
+**Office 365**: este es el segmento de red compatible con los servicios de Office 365. Se distribuye por todo el mundo con bordes cercanos a la red del cliente en la mayoría de las ubicaciones. Las funciones mencionadas en este documento incluyen retransmisión de transporte, servidor de conferencia y procesador de medios.
 
 Expressroute **(opcional)**: este es el segmento de red que forma parte de su red general que le proporcionará una conexión privada y dedicada a la red de Office 365.
 
@@ -62,15 +66,16 @@ Expressroute **(opcional)**: este es el segmento de red que forma parte de su re
 
 **Medios en tiempo real**: datos encapsulados en RTP (Protocolo de transporte en tiempo real) que admiten las cargas de trabajo de audio, vídeo y pantalla compartida. En general, el tráfico de medios es sensible a la latencia, por lo que le gustaría que este tráfico tomara la ruta más directa posible, y usar UDP en comparación con TCP como protocolo de nivel de transporte, que es el mejor transporte para medios en tiempo real interactivos desde una perspectiva de calidad . (Nota: como último recurso, los medios pueden usar TCP/IP y también se pueden canalizar dentro del protocolo HTTP, pero no se recomienda debido a consecuencias de calidad erróneas). El flujo RTP se asegura mediante SRTP, en el que solo se cifra la carga.
 
-**Señalización**: el vínculo de comunicación entre el cliente y el servidor, u otros clientes que se usan para controlar las actividades (por ejemplo, cuando se inicia una llamada) y enviar mensajes instantáneos. La mayoría de las señales de tráfico usan las interfaces de REST basadas en HTTPS, aunque en algunos escenarios (por ejemplo, la conexión entre Office 365 y un controlador de borde de sesión) usa el protocolo SIP. Es importante comprender que este tráfico es mucho menos sensible a la latencia, pero puede provocar interrupciones de servicio o tiempos de espera de llamadas si la latencia entre los puntos de conexión supera varios segundos. 
+**Señalización**: el vínculo de comunicación entre el cliente y el servidor, u otros clientes que se usan para controlar las actividades (por ejemplo, cuando se inicia una llamada) y enviar mensajes instantáneos. La mayoría de las señales de tráfico usan las interfaces de REST basadas en HTTPS, aunque en algunos escenarios (por ejemplo, la conexión entre Office 365 y un controlador de borde de sesión) usa el protocolo SIP. Es importante comprender que este tráfico es mucho menos sensible a la latencia, pero puede provocar interrupciones de servicio o tiempos de espera de llamadas si la latencia entre los puntos de conexión supera varios segundos.
 
 ### <a name="connectivity-to-office-365"></a>Conectividad a Office 365
 
-Teams requiere [conectividad a Internet](https://support.office.com/article/connectivity-to-the-internet-64b420ef-0218-48f6-8a34-74bb27633b10). Las direcciones URL y los intervalos de direcciones IP de los terminales se enumeran en [Office 365 direcciones URL e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). (Nota: se necesita conectividad abierta a los puertos TCP 80 y 443, y a los puertos UDP 3478 a 3481). Además, Teams tiene una dependencia en Skype empresarial online, que también debe estar conectado a Internet.
+Teams requiere [conectividad a Internet](https://docs.microsoft.com/office365/enterprise/assessing-network-connectivity). Las direcciones URL y los intervalos de direcciones IP de los terminales se enumeran en [Office 365 direcciones URL e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). (Nota: se necesita conectividad abierta a los puertos TCP 80 y 443, y a los puertos UDP 3478 a 3481). Además, Teams tiene una dependencia en Skype empresarial online, que también debe estar conectado a Internet.
 
 Teams media fluye la conectividad se implementa mediante procedimientos estándar del IETF ICE (establecimiento interactivo de conectividad).
 
 ### <a name="interoperability-restrictions"></a>Restricciones de interoperabilidad
+
 **Retransmisiones de medios de terceros**: un flujo de medios de Teams (es decir, uno de los puntos de conexión multimedia es Teams) puede atravesar solo los equipos o las retransmisiones multimedia nativas de Skype empresarial. La interoperabilidad con un relé multimedia de terceros no es compatible. (Nota: una SBC de terceros en el límite con RTC debe finalizar la secuencia RTP/RTCP, protegida mediante SRTP y no retransmitirla al siguiente salto).
 
 **Servidores proxy SIP de terceros**: un cuadro de diálogo de la señalización de equipos con una SBC o puerta de enlace de terceros puede atravesar los proxies SIP nativos de Skype empresarial o de Skype. No se admite la interoperabilidad con un proxy SIP de terceros.
@@ -79,28 +84,32 @@ Teams media fluye la conectividad se implementa mediante procedimientos estánda
 
 ### <a name="technologies-that-are-not-recommended-with-microsoft-teams"></a>Tecnologías que no se recomiendan con Microsoft Teams
 
-**Red VPN**: no se recomienda para el tráfico de medios (es decir, el flujo 2). El cliente VPN debe usar la división VPN y el tráfico de los medios de enrutamiento, como cualquier otro usuario externo https://blogs.technet.microsoft.com/nexthop/2011/11/14/enabling-lync-media-to-bypass-a-vpn-tunnel/que no sea de VPN, como se especifica en.
+**Red VPN**: no se recomienda para el tráfico de medios (es decir, el flujo 2). El cliente VPN debe usar la división VPN y el tráfico de medios de enrutamiento, como cualquier otro usuario externo que no sea de VPN, como se especifica en [Habilitar el medio de Lync para eludir un túnel VPN](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Enabling-Lync-Media-to-Bypass-a-VPN-Tunnel/ba-p/620210).
 
->**Nota**: aunque el título es Lync, también se aplica a los equipos.
+> [!NOTE]
+> Aunque el título es Lync, también se aplica a los equipos.
 
-**Forma de paquete**: no se recomienda ningún tipo de snippers de paquetes, la inspección de paquetes o los dispositivos de forma de paquetes. 
+**Forma de paquete**: no se recomienda ningún tipo de snippers de paquetes, la inspección de paquetes o los dispositivos de forma de paquetes.
 
 ### <a name="principles"></a>Principios
+
 Hay cuatro principios generales que le ayudan a comprender los flujos de llamadas para Microsoft Teams:
- 
-1.  Una conferencia de Microsoft Teams está hospedada en Office 365 en la misma región en la que se unió el primer participante. (Nota: si hay excepciones a esta regla en algunas topologías, se describirán en este documento y se muestra un flujo de llamada adecuado).
 
-2.  Un extremo de Team media en Office 365 se usa según las necesidades de procesamiento de multimedia y no según el tipo de llamada. (Por ejemplo, una llamada punto a punto puede usar un extremo de medios en la nube para procesar medios para transcripción o grabación, mientras que una conferencia con dos participantes no puede usar ningún extremo multimedia en la nube). Sin embargo, la mayoría de las conferencias usarán un extremo de medios para la mezcla y enrutamiento, asignados donde se hospeda la Conferencia. El tráfico multimedia enviado desde un cliente al extremo de medios se puede enrutar directamente o usar una retransmisión de transporte en Office 365, si es necesario debido a restricciones de Firewall de red del cliente. 
+1. Una conferencia de Microsoft Teams está hospedada en Office 365 en la misma región en la que se unió el primer participante. (Nota: si hay excepciones a esta regla en algunas topologías, se describirán en este documento y se muestra un flujo de llamada adecuado).
 
-3.  El tráfico de medios para las llamadas de punto a punto toma la ruta más directa disponible, suponiendo que la llamada no impone un extremo de medios en la nube (consulte #2 anterior). La ruta preferida es directa al interlocutor remoto (cliente), pero si esa ruta no está disponible, una o más retransmisiones de transporte retransmitirán el tráfico. Se recomienda que el tráfico multimedia no sea un servidor transversal, como formadores de paquetes, servidores VPN, etc., ya que esto afectará la calidad de los medios.
+1. Un extremo de Team media en Office 365 se usa según las necesidades de procesamiento de multimedia y no según el tipo de llamada. (Por ejemplo, una llamada punto a punto puede usar un extremo de medios en la nube para procesar medios para transcripción o grabación, mientras que una conferencia con dos participantes no puede usar ningún extremo multimedia en la nube). Sin embargo, la mayoría de las conferencias usarán un extremo de medios para la mezcla y enrutamiento, asignados donde se hospeda la Conferencia. El tráfico multimedia enviado desde un cliente al extremo de medios se puede enrutar directamente o usar una retransmisión de transporte en Office 365, si es necesario debido a restricciones de Firewall de red del cliente.
 
-4.  El tráfico de señalización siempre va al servidor más cercano. 
+1. El tráfico de medios para las llamadas de punto a punto toma la ruta más directa disponible, suponiendo que la llamada no impone un extremo de medios en la nube (consulte #2 anterior). La ruta preferida es directa al interlocutor remoto (cliente), pero si esa ruta no está disponible, una o más retransmisiones de transporte retransmitirán el tráfico. Se recomienda que el tráfico multimedia no sea un servidor transversal, como formadores de paquetes, servidores VPN, etc., ya que esto afectará la calidad de los medios.
 
-Para obtener más información sobre los detalles de la ruta de medios seleccionada, consulte https://www.youtube.com/watch?v=1tmHMIlAQdo.
+1. El tráfico de señalización siempre va al servidor más cercano.
+
+Para obtener más información sobre los detalles de la ruta de medios seleccionada, consulte [Descripción de los flujos multimedia en Microsoft Teams-BRK4016](https://www.youtube.com/watch?v=1tmHMIlAQdo).
 
 ## <a name="call-flows-in-various-topologies"></a>Flujos de llamadas en varias topologías
+
 ### <a name="teams-topology"></a>Topología de Teams
-Esta topología la usan los clientes que aprovechan los servicios de Teams de la nube sin ninguna implementación local, como el enrutamiento directo de Skype empresarial Server o el sistema telefónico. Además, la interfaz para Office 365 se realiza a través de Internet sin la ruta de Azure Express. 
+
+Esta topología la usan los clientes que aprovechan los servicios de Teams de la nube sin ninguna implementación local, como el enrutamiento directo de Skype empresarial Server o el sistema telefónico. Además, la interfaz para Office 365 se realiza a través de Internet sin la ruta de Azure Express.
 
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 01](media/microsoft-teams-online-call-flows-figure01.png)](media/microsoft-teams-online-call-flows-figure01.png)
 
@@ -118,38 +127,41 @@ Puede encontrar más información sobre las siguientes topologías opcionales m�
 - Expressroute se describe en **Teams with Express Route Optimization**.
 
 **Descripciones de flujos**:
+
 - **Flow 2** : representa un flujo Iniciado por un usuario en la red del cliente a través de Internet como parte de la experiencia de los equipos de los usuarios. Algunos ejemplos de estos flujos son medios DNS y de par a par.
-- **Flow 2 '** : representa un flujo Iniciado por un usuario remoto de equipos móviles, con VPN a la red del cliente. 
-- **Flujo 3** : representa un flujo Iniciado por un usuario de equipos remotos de equipos móviles a puntos de conexión de Office 365 y equipos. 
+- **Flow 2 '** : representa un flujo Iniciado por un usuario remoto de equipos móviles, con VPN a la red del cliente.
+- **Flujo 3** : representa un flujo Iniciado por un usuario de equipos remotos de equipos móviles a puntos de conexión de Office 365 y equipos.
 - **Flow 4** : representa un flujo Iniciado por un usuario en la red de clientes para los puntos de conexión de Office 365/Teams.
 - **Flujo 5** : representa un flujo de medios de par a par entre un usuario de Teams y otros equipos o usuarios de Skype empresarial dentro de la red de clientes.
 - **Flujo 6** : representa un flujo de medios de punto a punto entre un usuario de equipos móviles remotos y otros equipos móviles remotos o un usuario de Skype empresarial a través de Internet.
 
 #### <a name="use-case-one-to-one"></a>Caso de uso: uno a uno
+
 Las llamadas uno a uno usan un modelo común en el que la persona que llama obtendrá un conjunto de candidatos que consta de direcciones IP y puertos, entre ellos, el servicio local, el transmisor y el devuelto (dirección IP pública del cliente, tal como lo ven los candidatos de retransmisión). La persona que llama envía estos candidatos a la persona a la que se llama; la persona a la que llama también obtiene un conjunto similar de candidatos y los envía a la persona que llama. Los mensajes de comprobación de conectividad de STUN se usan para averiguar qué llamador o qué rutas multimedia funcionan y se selecciona la mejor ruta de trabajo. Los medios (es decir, los paquetes RTP/RTCP protegidos mediante SRTP) se envían a continuación con el par candidato seleccionado. La retransmisión de transporte se implementa como parte de Office 365.
 
 Si la dirección IP local/los candidatos al puerto o los candidatos devueltos tienen conectividad, entonces la ruta directa entre los clientes (o a través de un NAT) se seleccionará para los medios. Si los clientes están en la red del cliente, se debe seleccionar la ruta directa. Esto requiere conectividad UDP directa dentro de la red del cliente. Si los clientes son ambos usuarios de la nube Nomadic, según el NAT o el firewall, es posible que los medios usen conectividad directa.
 
-Si un cliente es interno en la red del cliente y un cliente es externo (por ejemplo, un usuario móvil de la nube), es improbable que la conectividad directa entre los candidatos reforzables o locales funcione. En este caso, una opción es usar uno de los candidatos de retransmisión de transporte de cualquiera de los clientes (por ejemplo, el cliente interno obtuvo un candidato de retransmisión de la retransmisión de transporte en Office 365; el cliente externo debe poder enviar paquetes de STUN/RTP/RTCP a la transmisión de transporte). Otra opción es que el cliente interno envíe al candidato de retransmisión obtenido por el cliente de nube móvil. Tenga en cuenta que, aunque se recomienda encarecidamente la conectividad UDP para medios, TCP es compatible.
+Si un cliente es interno en la red del cliente y un cliente es externo (por ejemplo, un usuario móvil de la nube), es improbable que la conectividad directa entre los candidatos reforzables o locales funcione. En este caso, una opción es usar uno de los candidatos de retransmisión de transporte de cualquiera de los clientes (por ejemplo, el cliente interno ha obtenido un candidato de retransmisión desde la retransmisión de transporte en Office 365; el cliente externo debe poder enviar paquetes STUN/RTP/RTCP a la retransmisión de transporte). Otra opción es que el cliente interno envíe al candidato de retransmisión obtenido por el cliente de nube móvil. Tenga en cuenta que, aunque se recomienda encarecidamente la conectividad UDP para medios, TCP es compatible.
 
 **Pasos de alto nivel**:
+
 1. Teams el usuario A resuelve el nombre de dominio (DNS) de la dirección URL a través de Flow2
-2. El usuario de Teams A asigna un puerto de retransmisión de multimedia en Teams retransmisión de transporte a través de Flow 4
-3. El usuario A de Teams a envía "invite" con candidatos de hielo a través del flujo 4 a Office 365
-4. Office 365 envía una notificación al usuario de Teams B a través de Flow 4
-5. Teams el usuario B asigna un puerto de retransmisión de multimedia en Teams retransmisión de transporte a través de Flow 4
-6. El usuario de Teams B envía "respuesta" con los candidatos de hielo a través del flujo 4, que se reenvía al usuario de Teams a través del flujo 4
-7. Teams el usuario A y los equipos del usuario B invocan pruebas de conectividad de ICE y se selecciona la mejor ruta de medios disponible (vea los diagramas siguientes para los distintos casos de uso)
-8. Los usuarios de Teams envían telemetría a Office 365 a través de Flow 4
+1. El usuario de Teams A asigna un puerto de retransmisión de multimedia en Teams retransmisión de transporte a través de Flow 4
+1. El usuario A de Teams a envía "invite" con candidatos de hielo a través del flujo 4 a Office 365
+1. Office 365 envía una notificación al usuario de Teams B a través de Flow 4
+1. Teams el usuario B asigna un puerto de retransmisión de multimedia en Teams retransmisión de transporte a través de Flow 4
+1. El usuario de Teams B envía "respuesta" con los candidatos de hielo a través del flujo 4, que se reenvía al usuario de Teams a través del flujo 4
+1. Teams el usuario A y los equipos del usuario B invocan pruebas de conectividad de ICE y se selecciona la mejor ruta de medios disponible (vea los diagramas siguientes para los distintos casos de uso)
+1. Los usuarios de Teams envían telemetría a Office 365 a través de Flow 4
 
 **Dentro de la red del cliente:**
 
 [![Flujos de llamadas en línea de Microsoft Teams, figura 02](media/microsoft-teams-online-call-flows-figure02-thumbnail.png)](media/microsoft-teams-online-call-flows-figure02.png)
 
 *Ilustración 2: dentro de la red del cliente*
- 
+
 En el paso 7, se selecciona flujo de medios de punto a punto 5.
- 
+
 Los medios son bidireccionales. La dirección del flujo 5 indica que un lado inicia la comunicación desde un punto de vista de la conectividad, coherente con todos los flujos de este documento. En este caso, no importa qué dirección se use porque ambos puntos de conexión se encuentran dentro de la red del cliente.
 
 **Red de clientes para usuarios externos (medios retransmitidos por la retransmisión de transporte de Teams):**
@@ -157,7 +169,7 @@ Los medios son bidireccionales. La dirección del flujo 5 indica que un lado ini
 [![Flujos de llamada de Microsoft Teams online, Ilustración 03](media/microsoft-teams-online-call-flows-figure03-thumbnail.png)](media/microsoft-teams-online-call-flows-figure03.png)
 
 *Figura 3: red de clientes para usuarios externos (medios retransmitidos por la retransmisión de transporte de Teams)*
- 
+
 En el paso 7, flujo 4, de la red del cliente a Office 365, y el flujo 3, del usuario de equipos móviles remotos a Office 365, está seleccionado. Estos flujos se retransmiten a través de Teams transporte de retransmisión dentro de Office 365.
 
 Los medios son bidireccionales, donde dirección indica qué lado inicia la comunicación desde una perspectiva de conectividad. En este caso, estos flujos se usan para señales y medios, a través de diferentes protocolos y direcciones de transporte.
@@ -167,18 +179,19 @@ Los medios son bidireccionales, donde dirección indica qué lado inicia la comu
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 04](media/microsoft-teams-online-call-flows-figure04-thumbnail.png)](media/microsoft-teams-online-call-flows-figure04.png)
 
 *Figura 4: red de clientes para usuarios externos (medios directos)*
- 
+
 En el paso 7, se selecciona flujo 2 de la red del cliente a Internet (del mismo nivel del cliente).
+
 - Los medios directos con usuarios móviles remotos (es decir, que no se retransmitieron a través de Office 365) son opcionales. En otras palabras, el cliente puede bloquear esta ruta de acceso para exigir una ruta de medios a través de la retransmisión de transporte en Office 365.
 
-- Los medios son bidireccionales. La dirección del flujo 2 a un usuario móvil remoto indica que un lado inicia la comunicación desde un punto de vista de la conectividad. 
+- Los medios son bidireccionales. La dirección del flujo 2 a un usuario móvil remoto indica que un lado inicia la comunicación desde un punto de vista de la conectividad.
 
 **Usuario de VPN para usuarios internos (medios retransmitidos por la retransmisión de transporte de Teams)**
 
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
 
 *Ilustración 5: usuario de VPN para usuarios internos (medios retransmitidos por la retransmisión de transporte de Teams)*
- 
+
 La señalización entre la red privada virtual a la red del cliente se realiza a través del flujo 2 '. La señalización entre la red del cliente y la oficina 365 se transmite por el flujo 4. Sin embargo, los elementos multimedia omiten la VPN y se enrutan a través de los flujos 3 y 4 a teams media Relay en Office 365.
 
 **Usuario de VPN para usuarios internos (medios directos)**
@@ -202,6 +215,7 @@ La señalización entre el usuario de VPN a la red del cliente se realiza a trav
 Los medios son bidireccionales. La dirección del flujo 6 al usuario móvil remoto indica que un lado inicia la comunicación desde un punto de vista de la conectividad.
 
 #### <a name="use-case-teams-to-pstn-through-office-365-trunk"></a>Caso de uso: equipos a RTC mediante Office 365 trunk
+
 Office 365 tiene un sistema telefónico que permite realizar y recibir llamadas de la red de telefonía pública conmutada (RTC). Si el tronco de RTC se conecta a través del plan de llamadas de sistema telefónico, no hay ningún requisito especial de conectividad para este caso de uso. (Si desea conectar su propio tronco local de RTC a Office 365, puede usar el enrutamiento directo de sistema telefónico).
 
 [![Flujos de llamada de Microsoft Teams online, figura 08](media/microsoft-teams-online-call-flows-figure08-thumbnail.png)](media/microsoft-teams-online-call-flows-figure08.png)
@@ -212,13 +226,13 @@ Office 365 tiene un sistema telefónico que permite realizar y recibir llamadas 
 
 El servidor de conferencia audio/vídeo/pantalla compartida (VBSS) es parte de Office 365. Tiene una dirección IP pública que debe ser accesible desde la red del cliente y debe ser alcanzable desde un cliente de Nomadic Cloud. Cada cliente/extremo debe poder conectarse al servidor de conferencia.
 
-Los clientes internos obtendrán candidatos locales, reflexivos y de retransmisión, de la misma manera que lo describen las llamadas de uno a uno. Los clientes enviarán estos candidatos al servidor de conferencia en una invitación. El servidor de conferencia no usa una retransmisión porque tiene una dirección IP accesible públicamente, por lo que responde con su candidato de dirección IP local. El cliente y el servidor de conferencia verificarán la conectividad de la misma forma que se describe para las llamadas de uno a uno. 
+Los clientes internos obtendrán candidatos locales, reflexivos y de retransmisión, de la misma manera que lo describen las llamadas de uno a uno. Los clientes enviarán estos candidatos al servidor de conferencia en una invitación. El servidor de conferencia no usa una retransmisión porque tiene una dirección IP accesible públicamente, por lo que responde con su candidato de dirección IP local. El cliente y el servidor de conferencia verificarán la conectividad de la misma forma que se describe para las llamadas de uno a uno.
 
 Tenga en cuenta lo siguiente:
 
 - Los clientes de Teams no pueden unirse a reuniones de Skype empresarial y los clientes de Skype empresarial no pueden unirse a reuniones de Teams.
 
-- Un usuario de RTC, opcionalmente, "marca" o "está marcado", según las llamadas RTC de la reunión o el aprovisionamiento de conferencias. 
+- Un usuario de RTC, opcionalmente, "marca" o "está marcado", según las llamadas RTC de la reunión o el aprovisionamiento de conferencias.
 
 - Un usuario invitado o un usuario del cliente se pueden unir desde una red privada de invitado, que está protegida a través de FW/NAT con reglas estrictas.
 
@@ -265,26 +279,29 @@ Tenga en cuenta lo siguiente:
 *Ilustración 12: directo (de punto a punto)*
 
 ### <a name="teams-hybrid-topology"></a>Topología híbrida de Teams
+
 Esta topología incluye equipos con una implementación local de Skype empresarial.
 
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 13](media/microsoft-teams-online-call-flows-figure13-thumbnail.png)](media/microsoft-teams-online-call-flows-figure13.png)
 
 *Figura 13: topología híbrida de Teams*
- 
+
 - La dirección de las flechas en el diagrama anterior reflejan la dirección de inicio de la comunicación que afecta a la conectividad en los perímetros de la empresa. En el caso de UDP para medios, los primeros paquetes pueden fluir en dirección contraria, pero estos paquetes se pueden bloquear hasta que se transmitan paquetes de la otra dirección.
 
 - Teams se implementa en paralelo con Skype empresarial online, por lo que los clientes se muestran como "Teams/SFB user".
 
 Flujos adicionales (en la parte superior de la topología de Teams):
+
 - **Flow 5A** : representa un flujo de medios de par a par entre un usuario de Teams dentro de la red del cliente y una retransmisión multimedia local de Skype empresarial en el perímetro de la red del cliente.
 
 #### <a name="use-case-teams-to-skype-for-business-one-to-one"></a>Caso de uso: equipos para Skype empresarial uno a uno
+
 **Híbrido dentro de la red del cliente**
 
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 14](media/microsoft-teams-online-call-flows-figure14-thumbnail.png)](media/microsoft-teams-online-call-flows-figure14.png)
 
 *Ilustración 14: híbrida dentro de la red de clientes*
- 
+
 La señalización entre equipos y Skype empresarial está unida por una puerta de enlace en Office 365. Sin embargo, los medios se enrutan directamente de punto a punto dentro de la red del cliente a través del flujo 5.
 
 **Red de clientes híbridos con usuario externo de Skype empresarial: retransmitida por Office 365**
@@ -306,7 +323,7 @@ Tenga en cuenta lo siguiente:
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
 
 *Figura 16: red de clientes híbridas con usuario externo de Skype para empresas retransmitida por un borde local*
- 
+
 Tenga en cuenta lo siguiente:
 
 - La señalización y los medios del cliente de Skype empresarial para un servidor local de Skype empresarial está fuera del ámbito de este documento. Sin embargo, se muestra aquí para mayor claridad.
@@ -316,11 +333,12 @@ Tenga en cuenta lo siguiente:
 - Los medios son retransmitidos por el servicio de transmisión de multimedia de Skype empresarial dentro de la periferia local de Skype empresarial a los usuarios de la red del cliente a través del flujo de medios 5A.
 
 ### <a name="teams-with-phone-system-direct-routing-topology"></a>Equipos con topología de enrutamiento directo de sistema telefónico
-Esta topología incluye equipos con enrutamiento directo de sistema telefónico. 
 
-El enrutamiento directo le permite usar un proveedor de servicios de red telefónica conmutada (RTC) de terceros al emparejar un dispositivo de hardware de controlador de borde de sesión (SBC) local compatible con el cliente (SBC) a Office 365 y, a continuación, conectar el tronco de telefonía a ese dispositivo. 
+Esta topología incluye equipos con enrutamiento directo de sistema telefónico.
 
-Para admitir este escenario, el cliente debe implementar un SBC certificado para el enrutamiento directo desde uno de los socios certificados de Microsoft. La SBC debe estar configurada como recomendada por el proveedor y ser enrutable desde Office 365 para el tráfico UDP directo. Los medios pueden transmitirse directamente desde Teams o el cliente de Skype empresarial a SBC (eludiendo la puerta de enlace de Teams) o atravesar la puerta de enlace de Teams. La conectividad con SBC, cuando el tronco está configurado para evitar la puerta de enlace de Teams, se basa en ICE, donde SBC admite ICE-Lite, mientras que el extremo de los equipos/Skype para empresas admite el hielo lleno. 
+El enrutamiento directo le permite usar un proveedor de servicios de red telefónica conmutada (RTC) de terceros al emparejar un dispositivo de hardware de controlador de borde de sesión (SBC) local compatible con el cliente (SBC) a Office 365 y, a continuación, conectar el tronco de telefonía a ese dispositivo.
+
+Para admitir este escenario, el cliente debe implementar un SBC certificado para el enrutamiento directo desde uno de los socios certificados de Microsoft. La SBC debe estar configurada como recomendada por el proveedor y ser enrutable desde Office 365 para el tráfico UDP directo. Los medios pueden transmitirse directamente desde Teams o el cliente de Skype empresarial a SBC (eludiendo la puerta de enlace de Teams) o atravesar la puerta de enlace de Teams. La conectividad con SBC, cuando el tronco está configurado para evitar la puerta de enlace de Teams, se basa en ICE, donde SBC admite ICE-Lite, mientras que el extremo de los equipos/Skype para empresas admite la forma completa de ICE.
 
 [![Flujos de llamada de Microsoft Teams online, Ilustración 17](media/microsoft-teams-online-call-flows-figure17-thumbnail.png)](media/microsoft-teams-online-call-flows-figure17.png)
 
@@ -333,6 +351,7 @@ Tenga en cuenta lo siguiente:
 - Teams se implementa en paralelo con Skype empresarial online, por lo que los clientes se muestran como "Teams/SFB user".
 
 Flujos adicionales (en la parte superior de la topología de Teams online):
+
 - **Flow 4 '** : representa un flujo de la oficina 365 a la red del cliente, que se usa para establecer una conexión entre el servidor de equipos multimedia en la nube con la SBC en local.
 - **Flujo 5B** : representa un flujo de medios entre el usuario de Teams dentro de la red del cliente con el SBC de enrutamiento directo en el modo de omisión.
 - **Flujo 5C** : representa un flujo de medios entre el SBC de enrutamiento directo a otro SBC de enrutamiento directo en un modo de omisión de llamada de Hairpin RTC.
@@ -344,20 +363,19 @@ Flujos adicionales (en la parte superior de la topología de Teams online):
 *Ilustración 18: usuario interno con enrutamiento directo (multimedia retransmitida por Teams retransmisión en Office 365)*
 
 Tenga en cuenta lo siguiente:
- 
+
 - La SBC debe tener una dirección IP pública que se pueda enrutar desde Office 365.
 
 - La señalización y los medios de SBC a Office 365 y viceversa usan el flujo 4 o el flujo 4.
 
 - Las señales y los medios del cliente dentro de la red del cliente a Office 365 usan Flow 4.
 
-
 **Usuario remoto con enrutamiento directo (los medios se enrutan a través de un servidor multimedia (MP) en Office 365)**
 
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 19](media/microsoft-teams-online-call-flows-figure19-thumbnail.png)](media/microsoft-teams-online-call-flows-figure19.png)
 
 *Ilustración 19: usuario remoto con enrutamiento directo (los medios se dirige a través de un servidor multimedia (MP) en Office 365)*
- 
+
 Tenga en cuenta lo siguiente:
 
 - La SBC debe tener una dirección IP pública que se pueda enrutar desde Office 365.
@@ -371,7 +389,7 @@ Tenga en cuenta lo siguiente:
 [![Flujos de llamadas en línea de Microsoft Teams, figura 20](media/microsoft-teams-online-call-flows-figure20-thumbnail.png)](media/microsoft-teams-online-call-flows-figure20.png)
 
 *Figura 20: enrutamiento directo de usuario interno (omisión de medios)*
- 
+
 Tenga en cuenta lo siguiente:
 
 - La SBC debe tener una dirección IP pública que se pueda enrutar desde Office 365.
@@ -396,14 +414,14 @@ Tenga en cuenta lo siguiente:
 
 - La señalización del cliente en Internet a Office 365 usa el flujo 3.
 
-- Los medios del cliente en Internet a la SBC dentro de la red del cliente usan los flujos 3 y 4, retransmitidos por Teams transmisiones de transporte en Office 365. 
+- Los medios del cliente en Internet a la SBC dentro de la red del cliente usan los flujos 3 y 4, retransmitidos por Teams transmisiones de transporte en Office 365.
 
 **Enrutamiento directo de usuario remoto (dirección por omisión de medios)**
 
 [![Flujos de llamada de Microsoft Teams online, figura 22](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
 
 *Figura 22: enrutamiento directo de usuario remoto (medios bypass directos)*
- 
+
 Tenga en cuenta lo siguiente:
 
 - La SBC debe tener una dirección IP pública que se pueda enrutar desde Office 365 e Internet.
@@ -419,7 +437,7 @@ Tenga en cuenta lo siguiente:
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
 
 *Figura 23: enrutamiento directo (omisión de medios)-llamada RTC Hairpin (debido a la transferencia de llamadas/transferencias)*
- 
+
 Tenga en cuenta lo siguiente:
 
 - La SBC debe tener una dirección IP pública que se pueda enrutar desde Office 365.
@@ -435,7 +453,7 @@ Tenga en cuenta lo siguiente:
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
 
 *Ilustración 24: enrutamiento directo (multimedia a través de Office 365): llamada RTC Hairpin en dos espacios empresariales*
- 
+
 Tenga en cuenta lo siguiente:
 
 - La SBC debe tener una dirección IP pública que se pueda enrutar desde Office 365.
@@ -451,10 +469,10 @@ Tenga en cuenta lo siguiente:
 [![Flujos de llamadas en línea de Microsoft Teams, Ilustración 25](media/microsoft-teams-online-call-flows-figure25-thumbnail.png)](media/microsoft-teams-online-call-flows-figure25.png)
 
 *Figura 25-equipos con optimización de Expressroute*
- 
-En el caso de que expressroute esté justificado e implementado, los flujos de equipos podrían ser redirigidos desde el flujo 4 al flujo 1 y desde el flujo 4 hasta el flujo 1. Sin embargo, la aplicación de Teams tiene una dependencia fuerte en otros flujos de trabajo de Office 365 a través de Internet a través de los flujos 4 y 4. por lo tanto, estos flujos no se deben bloquear. 
 
-Tenga en cuenta que el tráfico perimetral de Skype empresarial híbrido se enruta a Internet y no se expresa para comunicarse con usuarios externos y federar a otros inquilinos. 
+En el caso de que expressroute esté justificado e implementado, los flujos de equipos podrían ser redirigidos desde el flujo 4 al flujo 1 y desde el flujo 4 hasta el flujo 1. Sin embargo, la aplicación de Teams tiene una dependencia fuerte en otros flujos de trabajo de Office 365 a través de Internet a través de los flujos 4 y 4. por lo tanto, estos flujos no se deben bloquear.
+
+Tenga en cuenta que el tráfico perimetral de Skype empresarial híbrido se enruta a Internet y no se expresa para comunicarse con usuarios externos y federar a otros inquilinos.
 
 Para evitar flujos asimétricos, el redireccionamiento debe estar en ambas direcciones. En otras palabras, una dirección dentro de la red del cliente se puede enrutar a través de Internet o expressroute, en función de la optimización, pero no de ambos.
 
@@ -465,15 +483,17 @@ Por ejemplo:
 [![Flujos de llamadas en línea de Microsoft Teams, ilustración 26](media/microsoft-teams-online-call-flows-figure26-thumbnail.png)](media/microsoft-teams-online-call-flows-figure26.png)
 
 *Figura 26: red de clientes para usuarios externos (medios retransmitidos por la retransmisión de transporte de Teams)*
- 
-**Pasos de alto nivel:**
-1. Los usuarios de Teams de la red de clientes resuelven el nombre de dominio (DNS) mediante Flow2
-2. Los usuarios de Teams de la red del cliente asignan un puerto de retransmisión de medios en Teams retransmisión por transporte a través del flujo 1
-3. El usuario de Teams de la red del cliente envía "invitar" con candidatos de hielo a través del flujo 1 a Office 365
-4. OFFICE 365 envía una notificación a un usuario de equipos externos a través del flujo 3
-5. Teams externo el usuario asigna un puerto de retransmisión de multimedia en Teams retransmisión de transporte a través de Flow 3
-6. El usuario externo de Teams envía "respuesta" con los candidatos de hielo a través del flujo 3, que se reenvía al usuario de Teams a a través del flujo 1
-7. Los usuarios de Teams A y teams que invocan las pruebas de conectividad de ICE seleccionan los flujos 1 y 3, que son retransmitidos por la retransmisión de transporte de Teams en Office 365
-8. Los usuarios de Teams envían telemetría a Office 365 a través de los flujos 1 y 3
 
->**Nota**: el flujo 4 debe estar habilitado para admitir las dependencias de la aplicación de Teams en otros microservicios que contengan flujo 4.
+**Pasos de alto nivel:**
+
+1. Los usuarios de Teams de la red de clientes resuelven el nombre de dominio (DNS) mediante Flow2
+1. Los usuarios de Teams de la red del cliente asignan un puerto de retransmisión de medios en Teams retransmisión por transporte a través del flujo 1
+1. El usuario de Teams de la red del cliente envía "invitar" con candidatos de hielo a través del flujo 1 a Office 365
+1. Office 365 envía una notificación a un usuario de equipos externos a través del flujo 3
+1. Teams externo el usuario asigna un puerto de retransmisión de multimedia en Teams retransmisión de transporte a través de Flow 3
+1. El usuario externo de Teams envía "respuesta" con los candidatos de hielo a través del flujo 3, que se reenvía al usuario de Teams a a través del flujo 1
+1. Los usuarios de Teams A y teams que invocan las pruebas de conectividad de ICE seleccionan los flujos 1 y 3, que son retransmitidos por la retransmisión de transporte de Teams en Office 365
+1. Los usuarios de Teams envían telemetría a Office 365 a través de los flujos 1 y 3
+
+> [!NOTE]
+> El flujo 4 debe estar habilitado para admitir dependencias de aplicaciones de Teams en otros microservicios que contengan el flujo 4.

@@ -19,16 +19,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Más información sobre el sistema telefónico que puede hacer por usted. '
-ms.openlocfilehash: d6bc3d8265059520e3f8448f800de91331e26e01
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bd17ff93c2327b63920dc4a180277dfce885de0c
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37568536"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069401"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 
-El **sistema telefónico** es la tecnología de Microsoft para habilitar el control de llamadas y las funciones de PBX en la nube de Office 365 con Skype empresarial online y Microsoft Teams. El sistema telefónico le permite reemplazar el sistema PBX existente por un conjunto de características de Office 365 que está estrechamente integrada en su experiencia en la nube. Para obtener más información sobre las características, consulte [estas son las características que obtiene con el sistema telefónico en Office 365](here-s-what-you-get-with-phone-system.md).
+El **sistema telefónico** es la tecnología de Microsoft para habilitar el control de llamadas y las funciones de PBX en la nube de Office 365 con Skype empresarial online y Microsoft Teams. El sistema telefónico le permite reemplazar el sistema PBX existente por un conjunto de características de Office 365 que está estrechamente integrada en su experiencia en la nube. Para obtener más información sobre las características, consulte [este artículo es lo que obtiene con el sistema telefónico en Office 365](here-s-what-you-get-with-phone-system.md).
   
 Con el sistema telefónico, los usuarios pueden usar Skype empresarial online y Microsoft Teams para realizar y recibir llamadas, transferir llamadas y silenciar llamadas o reactivarlas. Los usuarios del sistema telefónico pueden hacer clic en un nombre de su libreta de direcciones, así como en las llamadas de Skype empresarial o de Microsoft Teams a esa persona. Para realizar y recibir llamadas, los usuarios del sistema telefónico pueden usar sus dispositivos móviles, auriculares con micrófono con un equipo portátil o PC, o bien uno de los muchos teléfonos IP que funcionan con Skype empresarial y Microsoft Teams. Los administradores del sistema telefónico pueden administrar las opciones de llamada y la configuración de la misma consola que se usa para mensajería, colaboración, etc.
   

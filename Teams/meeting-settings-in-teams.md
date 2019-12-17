@@ -19,12 +19,12 @@ f1keywords:
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración de las reuniones de teams que los usuarios programan en su organización.
-ms.openlocfilehash: cba1a51130a9999ca62c70700a387c88ea1ff58e
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: adb1beaa7aff84d2ef51820332bc7f823b124a22
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746453"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069461"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -52,7 +52,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 
 1. Crear una imagen que no supere los 188 píxeles de ancho por 30 píxeles de alto (es bastante pequeño).
 2. Guarde la imagen en formato JPG o PNG.
-3. Almacene la imagen en una ubicación central a la que tengan acceso todos los miembros de su organización, como un recurso compartido de red.
+3. Almacene la imagen en una ubicación a la que puedan tener acceso todos los destinatarios de la invitación, como un sitio web público.
 
     Ahora puede agregarlo a las invitaciones a reuniones. Consulte los pasos siguientes.
 

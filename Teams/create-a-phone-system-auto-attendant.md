@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 36725b9c322c5d084fdfc344132f36b9265ce9dd
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
+ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38318115"
+ms.lasthandoff: 12/16/2019
+ms.locfileid: "40070241"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -218,9 +218,8 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 **Marcado por nombre** Si habilita esta opción, las personas que llaman pueden buscar personas de su organización mediante el **marcado por nombre**. Dicen que el nombre del usuario y el reconocimiento de voz coinciden con el usuario. Puede establecer quién está y no incluido en estos servicios en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con el marcado por nombre.
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-**Marcado por extensión** (esta característica de vista previa aún no está disponible para el público en general) Si habilita esta opción, las personas que llaman pueden conectarse con los usuarios de su organización escribiendo su extensión de teléfono. Puede seleccionar qué usuarios aparecen como disponibles o no disponibles para **marcar por extensión** en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la función de marcado por extensión.
+**Marcado por extensión** Si habilita esta opción, las personas que llamen pueden conectarse con los usuarios de su organización escribiendo su extensión de teléfono. Puede seleccionar qué usuarios aparecen como disponibles o no disponibles para **marcar por extensión** en la página de ámbito de marcado opcional. Cualquier usuario en línea con una licencia de sistema telefónico o cualquier usuario local que use Skype empresarial Server es un usuario elegible y puede encontrarse con la función de marcado por extensión.
 
 > [!IMPORTANT]
 > Siga estos pasos:

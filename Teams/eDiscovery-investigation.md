@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Conozca los pasos que debe seguir cuando necesite realizar una investigación de eDiscovery, como por ejemplo, cuando debe entregar toda la información almacenada electrónicamente para procedimientos legales.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e645085130b65283a1841661c4e2885e5ea9cba4
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 205b10c9fc1576b260e72c145239d56b1c71b643
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231121"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069191"
 ---
 <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Realizar una investigación de eDiscovery en Microsoft Teams
 ============================
@@ -42,6 +42,8 @@ Todos los equipos 1:1 o chats grupales se registran en el diario de los buzones 
 3.  Para ver las conversaciones privadas en el buzón de un usuario, también se encuentran dentro de la carpeta chat de equipo en historial de conversaciones.
 
 ## <a name="ediscovery-of-guest-to-guest-chats"></a>eDiscovery de conversaciones de invitado a invitado
+
+Por el momento, en el caso de que solo los invitados participen en una conversación de 1:1 o de 1: N, no admitimos eDiscovery de esos mensajes. 
 
 Sin un buzón de correo, los chats entre invitados (1xN chats en los que no hay usuarios de inquilinos domésticos) no se indizarán y, como resultado, no se incluirían en eDiscovery. Para facilitar la exhibición de mensajes instantáneos a los chats entre invitados, se crea un buzón de correo basado en la nube (o un buzón de correo fantasma) para almacenar los datos de 1xN. Una vez que los datos de la conversación de equipos se almacenan en el buzón basado en la nube, están indizados para eDiscovery y la búsqueda de contenido de cumplimiento.
 

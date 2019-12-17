@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2340d684aecbe427ef5e7426dff4f1daefb92d71
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 200e0d94948d735786fd1775fc803c6017bd3100
+ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231131"
+ms.lasthandoff: 12/13/2019
+ms.locfileid: "40019984"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
 ===========================================
@@ -76,7 +76,7 @@ Para obtener más información acerca de cómo controlar quién puede invitar a 
 No es necesario agregar la cuenta de usuario invitado manualmente en Azure AD B2B, ya que la cuenta se agregará al directorio automáticamente al agregar al invitado a Teams.
 
 ### <a name="licensing-for-guest-access"></a>Licencias para acceso de invitado
-Las licencias de acceso de invitado forman parte de la licencia de Azure AD. El acceso de invitado está incluido con todas las suscripciones de Office 365 Empresa Premium y Office 365 Enterprise. Para obtener más información sobre las licencias, consulte [Guía de concesión de licencias de colaboración B2B de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+Las licencias de acceso de invitado forman parte de la licencia de Azure AD. El acceso de invitados está incluido en todas las suscripciones a Office 365 Empresa Premium y Office 365 Enterprise. Para obtener más información sobre las licencias, consulte [Guía de concesión de licencias de colaboración B2B de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 
 > [!NOTE]

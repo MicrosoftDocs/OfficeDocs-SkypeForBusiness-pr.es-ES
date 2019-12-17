@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b99941cfcd1622a20304ec9fd8d52143c9690ab9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e4228210fa7b6d9518fa060b2bdd555f434ed6f2
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573278"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069311"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública-GCC
 
@@ -65,7 +65,7 @@ Le recomendamos que tome el tiempo de revisar detenidamente la [configuración d
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si modificará cualquiera de los valores de seguridad predeterminados de Microsoft 365 administración pública-GCC y se resolverá para comprender primero el impacto de los cambios que puede realizar.</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si modificará cualquiera de los valores de seguridad predeterminados de Microsoft 365 administración pública-GCC y se resolverá para comprender primero el impacto de los cambios que puede realizar.</li></ul> |
 
 ## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Paso 4. Comprender qué características no están disponibles o deshabilitadas de forma predeterminada. 
 
@@ -100,7 +100,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales en la nube,
 | | Notas de la reunión | Disponible |
 | | Eventos en directo | Disponible |
 | | Reuniones federadas | Disponible |
-| | Compatibilidad con Surface Hub | No disponible |
+| | Compatibilidad con Surface Hub | Disponible |
 | Llamadas | Contactos | Disponible |
 | | Suprimi | Disponible |
 | | Correo de voz | Disponible |
@@ -144,7 +144,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales en la nube,
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Paso 5. Planear la gobernanza
 
@@ -152,7 +152,7 @@ Determina los requisitos de gobierno y cómo puedes reunirse. Para obtener más 
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md).</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md).</li></ul> |
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementar Teams para la colaboración
 

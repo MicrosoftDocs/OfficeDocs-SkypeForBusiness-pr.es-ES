@@ -14,12 +14,12 @@ MS.collection:
 description: Obtenga más información sobre los análisis de varios equipos y los análisis por equipo, lo que permite a los usuarios ver los datos de uso de los equipos de los que son miembros.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 265099706e5c6fd502cabf688d539678d8669717
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 6914d391d8dfdd1e5a5b5e0e7f826bef78e67678
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37569706"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069451"
 ---
 # <a name="view-cross-team-and-per-team-analytics-in-teams"></a>Ver análisis entre equipos y por equipo en Teams
 
@@ -39,7 +39,7 @@ Análisis por equipo proporciona a los usuarios una vista más granular de los d
     |Elemento |Descripción  |
     |--------|-------------|
     |**Nombre.**   |Nombre del equipo. |
-    |**Usuarios activos**   |Número de usuarios activos en el equipo y línea de tendencia de actividad de equipo durante el período de tiempo especificado.
+    |**Usuarios activos**   |Número de usuarios activos en el equipo y línea de tendencia de actividad de equipo durante el período de tiempo especificado. Definimos 
     |**Personas**   |Número total de personas en el equipo en el período de tiempo especificado. Esto incluye a los propietarios del equipo, los miembros del equipo y los invitados.|
     |**Guest**   |Número de invitados en el equipo durante el período de tiempo especificado. |
     |**Mensajes**   |Número de mensajes únicos publicados en el chat del equipo durante el período de tiempo especificado. |
@@ -59,6 +59,9 @@ Análisis por equipo proporciona a los usuarios una vista más granular de los d
     |**Rol**   |Número de usuarios del equipo por función, incluidos los propietarios del equipo, los miembros del equipo y los invitados.|
     |Gráfico **usuarios activos**  |Número de usuarios activos en el equipo por fecha. Desplace el puntero sobre el punto en una fecha determinada para ver el número de usuarios activos en esa fecha.|
     |Gráfico de **mensajes**  |Número de mensajes únicos publicados en el chat del equipo por fecha. Desplace el puntero sobre el punto en una fecha determinada para ver el número de mensajes únicos publicados en esa fecha.|
+    
+> [!NOTE]
+> Definimos usuarios activos a medida que los usuarios realizan una acción intencional en el cliente de escritorio, el cliente móvil y el cliente web. Ejemplos de una acción intencionada es iniciar un chat, realizar una llamada, compartir un archivo, editar un documento de Teams, participar en una reunión, etc. Eliminamos las acciones pasivas, como el inicio automático, la minimización de una pantalla o la finalización de la aplicación. También desduplicamos todas las acciones en un único ID de usuario.
 
 ## <a name="related-topics"></a>Temas relacionados
 

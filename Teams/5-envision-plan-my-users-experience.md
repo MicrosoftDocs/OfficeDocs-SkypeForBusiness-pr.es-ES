@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37b74c631bc8194037b332e821b29fa61cb6530b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515976"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069201"
 ---
 # <a name="plan-my-users-experience"></a>Planear la experiencia de mis usuarios
 
@@ -41,7 +41,7 @@ Uno de los beneficios clave de Teams es que el cliente se mantiene actualizado a
 
 Como puede ver en el siguiente diagrama, los puntos de conexión son un importante bloque de creación para proporcionar una experiencia de calidad a los usuarios.
 
-![Diagrama que describe los tres componentes de un diagrama de calidad](media/plan-my-users-experience-image1.png "que describe los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes. Centrado en los puntos de conexión.")
+![Diagrama que describe los tres componentes de la calidad](media/plan-my-users-experience-image1.png "Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes. Centrado en los puntos de conexión.")
 
 Los puntos de conexión de equipos se pueden ejecutar en muchos dispositivos, como equipos PC, Mac, tabletas y dispositivos móviles. Parte de la experiencia no abarca solo el dispositivo, sino que se conecta al dispositivo, por ejemplo, usando el micrófono/altavoz incorporado del dispositivo, Earbuds o un auricular con micrófono optimizado. El uso de un auricular con micrófono optimizado, se puede enriquecer la experiencia general del usuario.
 
@@ -89,7 +89,7 @@ Si su organización usa puntos de acceso o routers inalámbricos que no admiten 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Qué clientes de equipos se implementarán en la organización?</li><li>¿Cómo se implementarán inicialmente los clientes de Teams para los usuarios?</li><li>¿Quién es el responsable de evaluar los extremos y dispositivos para validar que cumplen con los requisitos de Teams para obtener una experiencia de calidad?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Documente el proceso que se va a seguir para implementar los clientes de Teams.</li><li>Evaluar los extremos y dispositivos, y realizar y corregir el requisito.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Documente el proceso que se va a seguir para implementar los clientes de Teams.</li><li>Evaluar los extremos y dispositivos, y realizar y corregir el requisito.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -106,11 +106,13 @@ Habría que completar un ejercicio de asignación de persona a dispositivo como 
 Una vez que se seleccionen los dispositivos, se deben incluir en el plan de prueba piloto para su validación final. Utilice encuestas durante el piloto para recopilar comentarios con los que se pueda garantizar que su estrategia de dispositivo sea la adecuada.
 
 > [!NOTE]
-> En este momento, recomendamos usar dispositivos de audio que se hayan certificado mediante el programa de certificación de Skype Empresarial. Para buscar dispositivos certificados en este programa, consulte los [dispositivos USB certificados para el catálogo de soluciones de Skype empresarial](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
+> En este momento, recomendamos usar dispositivos de audio que se hayan certificado mediante el programa de certificación de Skype Empresarial. Para buscar dispositivos certificados en este programa, consulte los dispositivos de [Microsoft Teams](https://products.office.com/en-us/microsoft-teams/across-devices/devices) y los [dispositivos de audio y vídeo USB](https://docs.microsoft.com/SkypeForBusiness/certification/devices-usb-devices).
+
+
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir la estrategia general de dispositivos de su organización para experiencias de usuarios y salas de reuniones.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Complete un ejercicio de asignación entre dispositivos para su organización.</li><li>Documente el proceso de obtención de dispositivos para usuarios y salas de reuniones.</li><li>Documente el proceso de implementación y configuración de dispositivos para usuarios y salas de reuniones.</li><li>Adquirir dispositivos iniciales para comenzar la implementación.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Complete un ejercicio de asignación entre dispositivos para su organización.</li><li>Documente el proceso de obtención de dispositivos para usuarios y salas de reuniones.</li><li>Documente el proceso de implementación y configuración de dispositivos para usuarios y salas de reuniones.</li><li>Adquirir dispositivos iniciales para comenzar la implementación.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd9440ce7c4d35af28e577c9d9e01845f298ef01
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 4c63195f4732931083a12a455b79d77d9c1e6b01
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020064"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069351"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -128,12 +128,12 @@ Para obtener más información sobre los equipos y Office 365 ProPlus, consulte 
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Implementar la aplicación de escritorio de Teams en la VM
 
-1. Descargue el paquete MSI de teams que coincida con el sistema operativo de la VM de VDI mediante uno de los siguientes vínculos.
+1. Descargue el paquete MSI de teams que coincida con el sistema operativo de la VM de VDI mediante uno de los siguientes vínculos:
 
-    - [versión de 32 bits](https://statics.teams.microsoft.com/production-windows/1.2.00.32462/Teams_windows.msi)
-    - [versión de 64 bits](https://statics.teams.microsoft.com/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
+    - [versión de 32 bits](https://statics.teams.cdn.office.net/production-windows/1.2.00.32462/Teams_windows.msi)
+    - [versión de 64 bits](https://statics.teams.cdn.office.net/production-windows-x64/1.2.00.32462/Teams_windows_x64.msi)
 
-    La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.2.00.31357. (La retención de RTC no es compatible con versiones anteriores)
+    La versión mínima de la aplicación de escritorio de Teams requerida es la versión 1.2.00.31357. (La retención de RTC no es compatible con versiones anteriores).
 
 2. Instale el MSI en la VM de VDI ejecutando uno de los siguientes comandos:
 
@@ -155,14 +155,13 @@ Para obtener más información sobre los equipos y Office 365 ProPlus, consulte 
  
         La siguiente sesión de inicio de sesión interactivo inicia Teams y solicita las credenciales.
 
-3. Desinstalar el MSI de la VM de VDI 
+3. Desinstale el MSI de la máquina virtual de VDI. 
 
-    Hay dos maneras de desinstalar Teams.  
+    Existen dos formas de desinstalar Teams:  
   
     - Script de PowerShell (recomendado): puede usar este [script de PowerShell](scripts/powershell-script-teams-deployment-clean-up.md) para limpiar los equipos de los equipos de destino o de los usuarios. Debe ejecutarse para todos los usuarios de un equipo de destino. 
     
-    - Línea de comandos: este enfoque quita Teams, pero impide la reinstalación de Teams.  
-    Ejecute el siguiente comando:
+    - Línea de comandos: este enfoque quita Teams, pero impide la reinstalación de Teams. Ejecute el siguiente comando:
   
       ```
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
@@ -218,7 +217,7 @@ Si va a migrar desde Skype empresarial en VDI a teams en VDI, además de las dif
 
 ### <a name="teams-on-chrome-browser-versus-teams-desktop-app-for-vdi"></a>Equipos en el explorador Chrome frente a la aplicación de escritorio de Teams para VDI
 
-El explorador de Teams en Chrome no proporciona un reemplazo para la aplicación de escritorio de Teams para VDI con optimización de AV. La experiencia de chat y colaboración funciona de la forma esperada. Cuando se necesita multimedia, hay algunas experiencias que pueden no cumplir con las expectativas del usuario en el explorador Chrome.
+El explorador de Teams en Chrome no proporciona un reemplazo para la aplicación de escritorio de Teams para VDI con optimización de AV. La experiencia de chat y colaboración funciona de la forma esperada. Cuando se necesita multimedia, hay algunas experiencias que pueden no cumplir con las expectativas del usuario en el explorador Chrome:
 
 - Es posible que la experiencia de transmisión de audio y vídeo no sea óptima. Los usuarios pueden experimentar retrasos o reducir la calidad.
 - La configuración del dispositivo no está disponible en la configuración del explorador.

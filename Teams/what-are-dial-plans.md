@@ -19,12 +19,12 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Descubra qué tipos de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Teams y cómo elegir uno para su organización.  '
-ms.openlocfilehash: f23dd2797f70b41a4bed8fd3ddc4bf467dd459db
-ms.sourcegitcommit: 0dba0ad1f8f00415c6437cadabed0548ce3281b1
+ms.openlocfilehash: 0dadb0335f622bb297d4299aafc50a40dafcc583
+ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39919293"
+ms.lasthandoff: 12/17/2019
+ms.locfileid: "40069331"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
@@ -38,7 +38,7 @@ Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md
 
 El ámbito de un plan de marcado determina el nivel jerárquico en el que se puede aplicar el plan de marcado. Los clientes obtienen el plan de marcado adecuado mediante la configuración de aprovisionamiento que se proporciona automáticamente cuando los usuarios inician sesión en Teams. Como administrador, puede administrar y asignar niveles de ámbito de plan de marcado mediante el centro de administración de Microsoft Teams o PowerShell remoto.
 
-En Teams, hay dos tipos de planes de marcado: ámbito de servicio y ámbito de inquilino (que es para su organización. Se define un plan de marcado de ámbito de servicio para todos los países o regiones donde está disponible el sistema telefónico. A cada usuario se le asigna automáticamente el plan de marcado por país del servicio que coincide con la ubicación de uso asignada al usuario. No puede cambiar el plan de marcado por país del servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado país del servicio. A medida que se aprovisionan clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado por país del servicio y el plan de marcado de inquilino con ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
+En Teams, hay dos tipos de planes de marcado: ámbito de servicio y ámbito de inquilino (que es para su organización). Se define un plan de marcado de ámbito de servicio para todos los países o regiones donde está disponible el sistema telefónico. A cada usuario se le asigna automáticamente el plan de marcado por país del servicio que coincide con la ubicación de uso asignada al usuario. No puede cambiar el plan de marcado por país del servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado país del servicio. A medida que se aprovisionan clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado por país del servicio y el plan de marcado de inquilino con ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
 
 Los planes de marcado de inquilinos se pueden dividir aún más en dos ámbitos: ámbito de inquilino o ámbito. Si un inquilino define y asigna un plan de marcado de ámbito de usuario, ese usuario se aprovisionará con un plan de marcado eficaz del plan de marcado de país del servicio del usuario y del plan de marcado de usuario asignado. Si un inquilino define un plan de marcado de ámbito de inquilino pero no asigna un plan de marcado de ámbito de usuario, se aprovisionará a ese usuario con un plan de marcado eficaz del plan de marcado de país del servicio del usuario y del plan de marcado de inquilino.
 
@@ -68,7 +68,6 @@ Para planificar los planes de marcado de inquilino siga estos pasos:
 
 - **Paso 4** Desarrollar un esquema a nivel de la organización para nombrar los planes de marcado. Al adoptar un esquema de denominación estándar se asegura la coherencia en una organización y se facilita el mantenimiento y las actualizaciones.
 
-[FastTrack](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) tiene recursos y socios adicionales que pueden ayudarle a implementar planes de marcado de inquilino.
 
 ## <a name="creating-your-new-tenant-dial-plan"></a>Crear su nuevo plan de marcado de inquilino
 
@@ -76,7 +75,7 @@ Al crear un nuevo plan de marcado, debe ingresar la información que se solicita
 
 ### <a name="name-and-simple-name"></a>Nombre y nombre simple
 
-Para los planes de marcado de usuario, debe especificar un nombre descriptivo que identifique a los usuarios a los que se asignará el plan de marcado. El nombre simple del plan de marcado se ha rellenado previamente con una cadena que se deriva del nombre del plan de marcado. El campo Nombre simple se puede editar, y esto le permite crear una convención de denominación más descriptiva para sus planes de marcado. El valor Nombre simple no puede estar en blanco y debe ser único. Es una buena práctica desarrollar una convención de denominación para toda su organización y usarla de manera coherente en todos los sitios y usuarios.
+Para los planes de marcado de usuario, debe especificar un nombre descriptivo que identifique los usuarios a los que se asignará el plan de marcado. El nombre simple del plan de marcado se ha rellenado previamente con una cadena que se deriva del nombre del plan de marcado. El campo Nombre simple se puede editar, y esto le permite crear una convención de denominación más descriptiva para sus planes de marcado. El valor Nombre simple no puede estar en blanco y debe ser único. Es una buena práctica desarrollar una convención de denominación para toda su organización y usarla de manera coherente en todos los sitios y usuarios.
 
 ### <a name="description"></a>Descripción
 
@@ -97,16 +96,16 @@ Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md
 
 Las reglas de normalización definen cómo se traducen los números expresados en varios formatos. La misma línea de número se puede interpretar y traducir de diferentes maneras, según la ubicación desde la que se marca. Las reglas de normalización pueden ser necesarias y los usuarios deben tener la capacidad de marcar números internos y externos abreviados.
 
-Se debe asignar una regla de normalización o más al plan de marcado. Las reglas de normalización se hacen coincidir de arriba abajo, por lo que el orden en que aparecen en un plan de marcado de inquilino es importante. Por ejemplo, si un plan de marcado inquilino tiene 10 reglas de normalización, se probará la lógica de coincidencia del número marcado a partir de la primera regla de normalización, luego pasará a la segunda, y así sucesivamente. Si se produce una coincidencia, se usará esa regla y no se intentará que coincida con las otras reglas definidas. Un plan de marcado inquilino determinado puede tener un máximo de 25 reglas de normalización.
+Se debe asignar una regla de normalización o más al plan de marcado. Las reglas de normalización se hacen coincidir de arriba abajo, por lo que el orden en que aparecen en un plan de marcado de inquilino es importante. Por ejemplo, si un plan de marcado inquilino tiene 10 reglas de normalización, se probará la lógica de coincidencia del número marcado a partir de la primera regla de normalización, luego pasará a la segunda, y así sucesivamente. Si se produce una coincidencia, se usará esa regla y no se intentará que coincida con las otras reglas definidas. Puede haber un máximo de 50 reglas de normalización en un plan de marcado de inquilino determinado.
 
 ### <a name="determining-the-required-normalization-rules"></a>Determinar las reglas de normalización necesarias
 
-Como todo plan de marcado inquilino se combina efectivamente con un plan de marcado del país de servicio de un usuario dado, es probable que las reglas de normalización del plan de marcado del país de servicio deban ser evaluadas para determinar cuáles de ellas son necesarias por parte del plan de marcado inquilino. Se puede utilizar efectivamente el cmdlet de **Get-CsEffectiveTenantDialPlan** para este propósito. El cmdlet toma la identidad del usuario como parámetro de entrada y devolverá todas las reglas de normalización aplicables al usuario.
+Dado que todos los planes de marcado de inquilinos se combinan eficazmente con el plan de marcado de país de servicio de un usuario dado, es posible que sea necesario evaluar las reglas de normalización del plan de marcado de país del servicio para determinar qué reglas de normalización de plan de marcado de inquilino se necesitan. Se puede utilizar efectivamente el cmdlet de **Get-CsEffectiveTenantDialPlan** para este propósito. El cmdlet toma la identidad del usuario como parámetro de entrada y devolverá todas las reglas de normalización aplicables al usuario.
 
 ### <a name="creating-normalization-rules"></a>Crear reglas de normalización
 <a name="createrule"> </a> <a name="regularexpression"> </a>
 
-Las reglas de normalización utilizan expresiones regulares de .NET Framework para especificar los patrones de coincidencia numérica que utiliza el servidor para traducir líneas de marcado a formato E.164 para realizar la búsqueda inversa de número. Las reglas de normalización se pueden crear al especificar la expresión habitual para la coincidencia y la traducción que se debe realizar al encontrarla. Al terminar puede ingresar un número de prueba para verificar que la regla de normalización funcione según lo esperado.
+Las reglas de normalización utilizan expresiones regulares de .NET Framework para especificar patrones de coincidencia numérica que el servidor usa para traducir las cadenas de marcado al formato E. 164. Las reglas de normalización se pueden crear al especificar la expresión habitual para la coincidencia y la traducción que se debe realizar al encontrarla. Al terminar puede ingresar un número de prueba para verificar que la regla de normalización funcione según lo esperado.
 
 Para obtener información detallada sobre el uso de expresiones regulares de .NET Framework, vea [expresiones regulares de .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
