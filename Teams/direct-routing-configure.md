@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 3524d3d41db02dbc123700ae259386bb97257bbd
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: beeecb1ece84980337c7fe385c6a0e1190bc5e3c
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020074"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741384"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -556,7 +556,7 @@ En ocasiones, es posible que los administradores de inquilinos deseen cambiar el
 
 La Directiva se aplica en el nivel de SBC. Puede asignar varias reglas de traducción a un SBC, que se aplican en el orden en que aparecen cuando las lista en PowerShell. También puede cambiar el orden de las reglas en la Directiva.
 
-Para crear, modificar, ver y eliminar reglas de manipulación de números, use los cmdlets New-TeamsTranslationRule, Set-TeamsTranslationRule, Get-TeamsTranslationRule y Remove-TeamsTranslationRule.
+Para crear, modificar, ver y eliminar reglas de manipulación de números, use los cmdlets New-CsTeamsTranslationRule, Set-CsTeamsTranslationRule, Get-CsTeamsTranslationRule y Remove-CsTeamsTranslationRule.
 
 Para asignar, configurar y enumerar reglas de manipulación de números en SBCS, use los cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) y [set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) junto ```InboundTeamsNumberTranslationRules```con ```InboundPSTNNumberTranslationRules```los ```OutboundTeamsNumberTranslationRules```parámetros ```OutboundPSTNNumberTranslationRules```, ```InboundTeamsNumberTranslationRulesList```, ```InboundPSTNNumberTranslationRulesList```, ```OutboundTeamsNumberTranslationRulesList```,, ```OutboundPSTNNumberTranslationRulesList``` , y.
 

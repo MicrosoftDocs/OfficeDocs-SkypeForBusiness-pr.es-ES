@@ -25,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no.
-ms.openlocfilehash: b4ff3d9a760587788a93c459c7888b1972579f89
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d98e085667c97dbf4b4afc6dfc67fe1eb847d731
+ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573090"
+ms.lasthandoff: 12/18/2019
+ms.locfileid: "40741394"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -39,21 +39,26 @@ Puede seleccionar un país o una región para ver qué características de voz d
 ## <a name="select-your-country-or-region-to-see-whats-available-for-your-organization"></a>Seleccione su país o región para ver lo que está disponible para su organización
 
 > [!div class="op_single_selector"]
-> - [Argelia](availability-in-algeria.md)    
+> - [Argelia](availability-in-algeria.md)
+> - [Antigua y Barbuda](availability-in-antigua-and-barbuda.md)
 > - [Argentina](availability-in-argentina.md)
 > - [Australia](availability-in-australia.md)
 > - [Austria](availability-in-austria.md)
+> - [Bahamas](availability-in-the-bahamas.md)
 > - [Baréin](availability-in-bahrain.md)
+> - [Barbados](availability-in-barbados.md)
 > - [Belarús](availability-in-belarus.md)
 > - [Bélgica](availability-in-belgium.md)
 > - [Belice](availability-in-belize.md)
 > - [Benín](availability-in-benin.md)
+> - [Bermudas](availability-in-bermuda.md)
 > - [Bosnia y Herzegovina](availability-in-bosniaherzegovina.md)
 > - [Brasil](availability-in-brazil.md)
 > - [Brunéi](availability-in-brunei.md)
 > - [Bulgaria](availability-in-bulgaria.md)
 > - [Camboya](availability-in-cambodia.md)
 > - [Canadá](availability-in-canada.md)
+> - [Islas Caimán](availability-in-the-cayman-islands.md)
 > - [Chile](availability-in-chile.md)
 > - [China](availability-in-china.md)
 > - [Colombia](availability-in-colombia.md)
@@ -62,6 +67,7 @@ Puede seleccionar un país o una región para ver qué características de voz d
 > - [Chipre](availability-in-cyprus.md)
 > - [República Checa](availability-in-the-czech-republic.md)
 > - [Dinamarca](availability-in-denmark.md)
+> - [Dominica](availability-in-dominica.md)
 > - [República Dominicana](availability-in-the-dominican-republic.md)
 > - [Ecuador](availability-in-ecuador.md)
 > - [Egipto](availability-in-egypt.md)
@@ -73,6 +79,8 @@ Puede seleccionar un país o una región para ver qué características de voz d
 > - [Alemania](availability-in-germany.md)
 > - [Ghana](availability-in-ghana.md)
 > - [Grecia](availability-in-greece.md)
+> - [Granada](availability-in-grenada.md)
+> - [Guam](availability-in-guam.md)
 > - [Honduras](availability-in-honduras.md)
 > - [RAE de Hong Kong](availability-in-hong-kong.md)
 > - [Hungría](availability-in-hungary.md)
@@ -81,6 +89,7 @@ Puede seleccionar un país o una región para ver qué características de voz d
 > - [Irlanda](availability-in-ireland.md)
 > - [Israel](availability-in-israel.md)
 > - [Italia](availability-in-italy.md)
+> - [Jamaica](availability-in-jamaica.md)
 > - [Japón](availability-in-japan.md)
 > - [Jordania](availability-in-jordan.md)
 > - [Kazajistán](availability-in-kazakhstan.md)
@@ -112,6 +121,8 @@ Puede seleccionar un país o una región para ver qué características de voz d
 > - [Catar](availability-in-qatar.md)
 > - [Rumania](availability-in-romania.md)
 > - [Rusia](availability-in-russia.md)
+> - [San Cristóbal y Nieves](availability-in-saint-kitts-and-nevis.md)
+> - [Santa Lucía](availability-in-saint-lucia.md)
 > - [Arabia Saudí](availability-in-saudi-arabia.md)
 > - [Serbia](availability-in-serbia.md)
 > - [Singapur](availability-in-singapore.md)
@@ -136,7 +147,7 @@ Puede seleccionar un país o una región para ver qué características de voz d
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Si está buscando una hoja de cálculo con todos los países y regiones, descargue y guarde la [hoja de cálculo disponibilidad de región o país de la característica voz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-09052019)-(en-us).xlsx?raw=true)en la nube**.
+**Si está buscando una hoja de cálculo con todos los países y regiones, descargue y guarde la [hoja de cálculo disponibilidad de región o país de la característica voz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-12182019)-(en-us).xlsx?raw=true)en la nube**.
 
 ***
 
@@ -188,7 +199,7 @@ Al igual que sucede con Sistema telefónico, con Planes de llamada los usuarios 
 También puede ver [Licencias de Sistema telefónico y Planes de llamada](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md) para obtener información sobre las licencias.
 
 > [!NOTE]
-> El país o la región se basa en la ubicación de la licencia del usuario en **el centro** > de administración de Microsoft 365**usuarios activos** y **no** en la dirección de facturación que aparece en el perfil de la **organización** en el **Administrador de Microsoft 365 Centro**. 
+> El país o la región se basa en la ubicación de la licencia del usuario en el **Centro** > de administración de Microsoft 365**usuarios activos** y **no** en la dirección de facturación que aparece en el perfil de la **organización** en el centro de **Administración de Microsoft 365**. 
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>Números de teléfono gratuitos y de pago para servicios
 

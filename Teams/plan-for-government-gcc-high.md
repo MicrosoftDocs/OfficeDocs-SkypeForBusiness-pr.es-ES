@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71060818ceb826249cb726264c9533172edd1c39
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 12ef34ed9a4602f747b706c08586ecfe5854dcf4
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573289"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744864"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-high-deployments"></a>Plan para implementaciones altas de Microsoft 365 administración pública-GCC
 
@@ -40,7 +40,7 @@ El entorno alto de Microsoft 365 Government-GCC proporciona el cumplimiento de l
 
 Puede encontrar más información sobre la administración pública 365 de GCC para clientes del gobierno de los Estados Unidos en [Office 365 planes gubernamentales](https://products.office.com/government/compare-office-365-government-plans), incluidos [los requisitos de elegibilidad](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-La [Descripción del servicio del gobierno de Office 365 Estados](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) Unidos describe los beneficios de la plataforma, que están centrados en cumplir los requisitos de cumplimiento de las normas de los Estados Unidos.
+La [Descripción del servicio del gobierno de Office 365 Estados](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) Unidos describe los beneficios de la plataforma, que están centrados en cumplir los requisitos de cumplimiento de las normas de los Estados Unidos.
 
 
 > [!Tip]
@@ -65,7 +65,7 @@ Le recomendamos que tome el tiempo de revisar detenidamente la [configuración d
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si necesita modificar cualquiera de las opciones predeterminadas de alta seguridad de Microsoft 365 gubernamentales-GCC, resolviendo para comprender primero el impacto de los cambios que puede realizar.</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si necesita modificar cualquiera de las opciones predeterminadas de alta seguridad de Microsoft 365 gubernamentales-GCC, resolviendo para comprender primero el impacto de los cambios que puede realizar.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---gcc-high"></a>Paso 4. Comprender qué capacidades de Teams están disponibles actualmente en Microsoft 365 pública-GCC High
@@ -109,7 +109,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube,
 | | Skype empresarial: llamadas de equipo | Disponible |
 | | Planes de llamadas | No disponible |
 | | Audioconferencias (al permitir que los participantes de la reunión se unan a través de RTC) | Disponible |
-| | Enrutamiento directo de Microsoft Phone System | En el trabajo pendiente del gobierno |
+| | Enrutamiento directo de Microsoft Phone System | Disponible |
 | | Sala de llamadas RTC | En el trabajo pendiente del gobierno |
 | | Cola de llamadas | En el trabajo pendiente del gobierno |
 | | Soporte de los jefes y los delegados | En el trabajo pendiente del gobierno |
@@ -140,7 +140,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube,
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Paso 5. Planear la gobernanza
 
@@ -148,7 +148,7 @@ Determina los requisitos de gobierno y cómo puedes reunirse. Para obtener más 
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|Puntos de decisión |<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md). </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|Punto de decisión |<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md). </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementar Teams para la colaboración
 

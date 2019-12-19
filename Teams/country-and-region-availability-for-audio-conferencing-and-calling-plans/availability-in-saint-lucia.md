@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad en Camboya
+title: Disponibilidad en Santa Lucía
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -22,26 +22,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
-ms.openlocfilehash: 438ac6dc00ea92c46143df287a4615879300a540
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Santa Lucía.
+ms.openlocfilehash: b7d95c443178593c0400c92a1d2d9df86046e6ed
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741374"
+ms.locfileid: "40741694"
 ---
-# <a name="availability-in-cambodia"></a>Disponibilidad en Camboya
+# <a name="availability-in-saint-lucia"></a>Disponibilidad en Santa Lucía
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Santa Lucía.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí, solo [paga por minuto](../audio-conferencing-pay-per-minute.md)  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> | No |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicación <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -65,9 +65,9 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Phnom Penh |
-|¿Hay números de pago disponibles?  <br/> |Sí <br/> |
-|¿Hay números gratuitos disponibles?  <br/> |No <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | No aplicable<br/> |
+|¿Hay números de pago disponibles?  <br/> |No <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
  Si desea obtener números de teléfono gratuitos y de pago para las conferencias de audio, los operadores automáticos y las colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   

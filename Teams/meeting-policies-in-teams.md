@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams.
-ms.openlocfilehash: 1407e18387aac5ae9ad5bdaa894d738f48fb3b42
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ba44188d978c9109d1ba3d038c5b1f48d0670746
+ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564971"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40744874"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -95,7 +95,7 @@ Al seleccionar una directiva existente en la página **directivas** de la reuni�
 ## <a name="meeting-policy-settings---general"></a>Configuración de la Directiva de reunión: General
 
 - [Permitir reunirse ahora en los canales](#allow-meet-now-in-channels)
-- [Permitir reunirse ahora (próximamente)](#allow-private-meet-now-coming-soon)
+- [Permitir reunirse ahora](#allow-private-meet-now)
 - [Permitir el complemento de Outlook](#allow-the-outlook-add-in)
 - [Permitir programación de reuniones de canal](#allow-channel-meeting-scheduling)
 - [Permitir la programación de reuniones privadas](#allow-scheduling-private-meetings)
@@ -106,7 +106,7 @@ Esta es una directiva por usuario y se aplica antes de que se inicie una reunió
 
 ![Captura de pantalla que muestra el icono reunirse ahora debajo de un mensaje](media/meeting-policies-meet-now.png)
 
-### <a name="allow-private-meet-now-coming-soon"></a>Permitir reunirse ahora (próximamente)
+### <a name="allow-private-meet-now"></a>Permitir reunirse ahora
 
 Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión privada ad hoc.  
 
@@ -138,7 +138,7 @@ Tenga en cuenta que si desactiva permitir la programación de **reuniones privad
 
 - [Permitir la transcripción](#allow-transcription)
 - [Permitir la grabación en la nube](#allow-cloud-recording)
-- [Permitir video IP](#allow-ip-video)
+- [Permitir vídeo IP](#allow-ip-video)
 - [Velocidad de bits multimedia (KB)](#media-bit-rate-kbs)
 - [Habilitar los títulos en vivo (vista previa)](#enable-live-captions-preview)
 
@@ -162,15 +162,15 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Política de reuniones  |Permitir la grabación en la nube |
 |---------|---------|---------|
-|Daniela | Global   | False |
-|Amanda | Location1MeetingPolicy | True|
+|Daniela | Global   | Falso |
+|Amanda | Location1MeetingPolicy | Verdadero|
 |Juan (usuario externo) | No aplicable | No aplicable|
 
 Las reuniones organizadas por Daniela no se pueden grabar y Amanda, que tiene la configuración de directiva habilitada, no puede grabar reuniones organizadas por Daniela. Las reuniones organizadas por Amanda se pueden grabar, pero Daniela, que tiene la configuración de directiva deshabilitada y Juan es un usuario externo, no puede grabar reuniones organizadas por Amanda.
 
 Para obtener más información sobre la grabación de reuniones en la nube, vea [grabación de reuniones en la nube de Teams](cloud-recording.md).
 
-### <a name="allow-ip-video"></a>Permitir video IP
+### <a name="allow-ip-video"></a>Permitir vídeo IP
 
 Esta es una combinación de una directiva por organizador y por usuario. El vídeo es un componente clave de las reuniones. En algunas organizaciones, los administradores pueden desear más control sobre las reuniones de los usuarios que tienen vídeo. Esta opción controla si se puede activar el vídeo en reuniones hospedadas por un usuario y en llamadas de 1:1 y llamadas grupales iniciadas por un usuario. Reuniones organizadas por un usuario que tiene habilitada esta Directiva, permitir el uso compartido de vídeos en la reunión por parte de los participantes de la reunión, si los participantes de la reunión también tienen la Directiva habilitada. Los participantes de la reunión que no tienen ninguna directiva asignada (por ejemplo, participantes anónimos y federados) heredan la Directiva del organizador de la reunión.
 
@@ -180,8 +180,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Política de reuniones  |Permitir video IP |
 |---------|---------|---------|
-|Daniela   | Global   | True        |
-|Amanda    | Location1MeetingPolicy        | False      |
+|Daniela   | Global   | Verdadero        |
+|Amanda    | Location1MeetingPolicy        | Falso      |
 
 Las reuniones hospedadas por Daniela permiten que el vídeo esté activado. Daniela puede unirse a la reunión y encender el video. Amanda no puede activar el video en la reunión de Daniela porque la Directiva de Amanda está configurada para no permitir el vídeo. Amanda puede ver vídeos compartidos por otros participantes de la reunión.
 
@@ -258,8 +258,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Política de reuniones  |Permitir al participante ceder o solicitar el control |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
-|Babek    | Location1MeetingPolicy        | False   |
+|Daniela   | Global   | Verdadero       |
+|Babek    | Location1MeetingPolicy        | Falso   |
 
 Daniela puede ceder el control del escritorio o de la ventana compartidos a otros participantes de una reunión organizada por Babek mientras que Babek no puede ceder el control a otros participantes.
 
@@ -282,8 +282,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Política de reuniones  |Permitir el uso compartido de PowerPoint |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
-|Amanda   | Location1MeetingPolicy        | False   |
+|Daniela   | Global   | Verdadero       |
+|Amanda   | Location1MeetingPolicy        | Falso   |
 
 Amanda puede compartir diapositivas de PowerPoint en reuniones incluso si es el organizador de la reunión. Daniela puede compartir las diapositivas de PowerPoint incluso si la reunión está organizada por Amanda. Amanda puede ver los decks de diapositivas de PowerPoint compartidos por otros usuarios de la reunión, aunque no pueda compartir diapositivas de PowerPoint.
 
@@ -295,8 +295,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Política de reuniones  |Permitir pizarra|
 |---------|---------|---------|
-|Daniela   | Global   | True       |
-|Amanda   | Location1MeetingPolicy        | False   |
+|Daniela   | Global   | Verdadero       |
+|Amanda   | Location1MeetingPolicy        | Falso   |
 
 Amanda puede compartir la pizarra en una reunión incluso si es el organizador de la reunión. Daniela puede compartir la pizarra incluso si una reunión está organizada por Amanda.  
 
@@ -308,8 +308,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 |Usuario |Política de reuniones  |Permitir notas compartidas |
 |---------|---------|---------|
-|Daniela   | Global   | True       |
-|Amanda   | Location1MeetingPolicy | False |
+|Daniela   | Global   | Verdadero       |
+|Amanda   | Location1MeetingPolicy | Falso |
 
 Daniela puede tomar notas en las reuniones de Amanda y Amanda no puede tomar notas en ninguna reunión.
 
@@ -354,10 +354,10 @@ Este es el comportamiento de combinación de personas anónimas cuando hay usuar
 
 |Permitir que usuarios anónimos inicien una reunión  |Admitir automáticamente personas |Unirse al comportamiento de personas anónimas |
 |---------|---------|---------|
-|True    | Todos      | Unirse directamente         |
+|Verdadero    | Todos      | Unirse directamente         |
 |   | Todas las personas de su organización       | Esperar en la sala de espera        |
 |   | Todas las personas de la organización y las organizaciones federadas       | Esperar en la sala de espera         |
-|False    | Todos        | Unirse directamente        |
+|Falso    | Todos        | Unirse directamente        |
 |   | Todas las personas de su organización     | Esperar en la sala de espera        |
 |   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
 
@@ -365,10 +365,10 @@ Este es el comportamiento de unirse a personas anónimas cuando no hay usuarios 
 
 |Permitir que usuarios anónimos inicien una reunión |Admitir automáticamente personas  |Unirse al comportamiento de personas anónimas |
 |---------|---------|---------|
-|True    | Todos      | Unirse directamente         |
+|Verdadero    | Todos      | Unirse directamente         |
 |   | Todas las personas de su organización       | Esperar en la sala de espera        |
 |   | Todas las personas de la organización y las organizaciones federadas       | Esperar en la sala de espera         |
-|False    | Todos        | Espere en la sala. Los usuarios se admiten automáticamente cuando el primer usuario autenticado se une a la reunión.        |
+|Falso    | Todos        | Espere en la sala. Los usuarios se admiten automáticamente cuando el primer usuario autenticado se une a la reunión.        |
 |   | Todas las personas de su organización     |Esperar en la sala de espera         |
 |   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
 
@@ -380,15 +380,13 @@ Este es el comportamiento de la Unión de las personas que llaman por teléfono.
 
 |Permitir que los usuarios de acceso telefónico omitan la sala de recepción  |Admitir automáticamente usuarios  |Unirse al comportamiento de las personas que llaman |
 |---------|---------|---------|
-|True    | Todos      | Unirse directamente         |
+|Verdadero    | Todos      | Unirse directamente         |
 |   | Todas las personas de su organización       | Unirse directamente        |
 |   | Todas las personas de la organización y las organizaciones federadas       | Unirse directamente         |
-|False    | Todos        | Unirse directamente        |
+|Falso    | Todos        | Unirse directamente        |
 |   | Todas las personas de su organización     |Esperar en la sala de espera         |
 |   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
 
-
-[Artículo completo](meeting-policies-in-teams.md)
 
 ## <a name="related-topics"></a>Temas relacionados
 [Directivas de mensajería en Teams](messaging-policies-in-teams.md)

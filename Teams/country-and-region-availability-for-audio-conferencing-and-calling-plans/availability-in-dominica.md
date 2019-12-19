@@ -1,10 +1,11 @@
 ---
-title: Disponibilidad en Camboya
-author: LanaChin
+title: Disponibilidad de la Dominica
 ms.author: v-lanac
+author: LanaChin
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
+ms.assetid: 1eb066bc-394a-434e-87a2-61d257a7e77d
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -22,54 +23,55 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
-ms.openlocfilehash: 438ac6dc00ea92c46143df287a4615879300a540
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para la Dominica.
+ms.openlocfilehash: e6d9cc4ef19e152944c5d1f82adaa81e16c26bb5
 ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741374"
+ms.locfileid: "40741677"
 ---
-# <a name="availability-in-cambodia"></a>Disponibilidad en Camboya
+# <a name="availability-in-dominica"></a>Disponibilidad de Dominica
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para la Dominica.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí, solo [paga por minuto](../audio-conferencing-pay-per-minute.md)  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicación <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No <br> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
+   
    
 ## <a name="phone-system"></a>Sistema telefónico
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿El sistema telefónico está disponible para la compra?  <br/> |Sí  <br/> |
-|Operadores automáticos <br/> |Disponible  <br/> |
-|Colas de llamadas  <br/> |Disponible  <br/> |
-|Correo de voz  <br/> |Disponible  <br/> |
+|¿El sistema telefónico está disponible para la compra?  <br/> | Sí <br/> |
+|Operadores automáticos <br/> | Disponible  <br/> |
+|Colas de llamadas  <br/> | Disponible <br/> |
+|Correo de voz  <br/> | Disponible <br/> |
    
 ## <a name="calling-plans"></a>Planes de llamadas
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |No  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
+|¿Los planes de llamada están disponibles para la compra?  <br/> | No <br/> |
+|Minutos disponibles para Planes de llamada  <br/> | No aplicable<br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Números de pago y gratuitos para servicios
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Phnom Penh |
-|¿Hay números de pago disponibles?  <br/> |Sí <br/> |
-|¿Hay números gratuitos disponibles?  <br/> |No <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> |No aplicable  <br/> |
+|¿Hay números de pago disponibles?  <br/> |No  <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
- Si desea obtener números de teléfono gratuitos y de pago para las conferencias de audio, los operadores automáticos y las colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
+ Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
@@ -84,4 +86,7 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+
+  
+ 
 
