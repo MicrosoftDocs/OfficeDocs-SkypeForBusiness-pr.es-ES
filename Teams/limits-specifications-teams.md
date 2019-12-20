@@ -15,12 +15,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 098477cc36237736009e1ec2010fea625d08937c
-ms.sourcegitcommit: 57304ac641931eed87e649555fd5eb5e58732dc5
+ms.openlocfilehash: aa6fad448f0251a44d31c5277b43390daeb3441c
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39679240"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823915"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -101,6 +101,18 @@ Los nombres de canal tampoco pueden empezar con un carácter de subrayado (_) o 
 |------------|---------------|
 |Número de personas en una reunión  | 250    |
 |Tamaño máximo de archivo de PowerPoint | 2 GB|
+
+### <a name="meeting-expiration"></a>Expiración de la reunión
+
+|Tipo de reunión  |La reunión expira después de esta cantidad de tiempo  |Cada vez que se inicia o actualiza una reunión, la expiración se extiende por este tiempo  |
+|---------|---------|---------|
+|Reunirse ahora     |Hora de inicio + 8 horas         |N/D         |
+|Regular sin hora de finalización     |Hora de inicio + 60 días         | 60 días        |
+|Regular con hora de finalización     |Hora de finalización + 60 días         |60 días         |
+|Periódica sin hora de finalización     |Hora de inicio + 60 días         |60 días         |
+|Periódica con hora de finalización     |Hora de finalización de la última repetición + 60 días         |60 días         |
+
+
 
 ## <a name="teams-live-events"></a>Eventos en directo en Teams
 
