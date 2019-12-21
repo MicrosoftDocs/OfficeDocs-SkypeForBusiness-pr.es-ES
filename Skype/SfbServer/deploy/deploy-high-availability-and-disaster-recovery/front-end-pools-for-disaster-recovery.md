@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Puede decidir usar grupos de servidores front-end para proporcionar protección de recuperación ante desastres emparejados, pero hacerlo no es un requisito.
-ms.openlocfilehash: 4aa24c3a5150efbea87cd3837aca9216f047b11e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 550c336569b604ae20199b419dc104af0609c775
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240040"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "39254399"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Implementar grupos front-end emparejados para recuperación ante desastres en Skype empresarial Server
  
@@ -39,25 +39,27 @@ Puede implementar fácilmente la topología de recuperación ante desastres de l
     
 6. Use el generador de topología para publicar la topología.
     
-7. Si los dos grupos aún no se han implementado, impleméntelos ahora y se completará la configuración. Puede omitir los dos últimos pasos de este procedimiento.
+7. Si los dos grupos aún no se han implementado, impleméntelos ahora y se completará la configuración. Puede omitir los pasos finales de este procedimiento.
     
-    Sin embargo, si ya se implementaron los grupos antes de definir la relación emparejada, debe completar los dos pasos finales siguientes.
+    Sin embargo, si los grupos ya estaban implementados antes de definir la relación emparejada, debe completar los siguientes pasos finales.
     
 8. En cada servidor front-end de ambos grupos, ejecute lo siguiente:
     
    ```
-   <system drive>\Program Files\Skype for Business Server 2015\Deployment\Bootstrapper.exe 
+   <system drive>\Program Files\Skype for Business Server 2019\Deployment\Bootstrapper.exe 
    ```
 
     Esto configura otros servicios necesarios para que el emparejamiento de copia de seguridad funcione correctamente.
     
-9. Desde un símbolo del sistema del shell de administración de Skype empresarial Server, ejecute lo siguiente: 
+9. Una vez que el programa previo haya instalado los componentes necesarios para el emparejamiento de copia de seguridad en todos los servidores front-end de ambos grupos, asegúrese de volver a aplicar cualquier actualización acumulativa existente que se haya aplicado previamente en estos servidores front-end en ambos grupos y, a continuación, continúe con el siguiente paso.
+
+10. Desde un símbolo del sistema del shell de administración de Skype empresarial Server, ejecute lo siguiente: 
     
    ```
    Start-CsWindowsService -Name LYNCBACKUP
    ```
 
-10. Haga que los datos de conferencia y usuarios de ambos grupos de servidores se sincronicen entre sí, con los siguientes cmdlets:
+11. Fuerce la sincronización entre los datos de usuario y Conferencia de ambos grupos con los siguientes cmdlets:
     
     ```
     Invoke-CsBackupServiceSync -PoolFqdn <Pool1 FQDN>

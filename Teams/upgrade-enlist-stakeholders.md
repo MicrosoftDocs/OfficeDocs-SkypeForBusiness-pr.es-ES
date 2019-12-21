@@ -16,20 +16,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e248d0cc92cea65fe8eb3b4a2c05f70b4c11c124
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3e097a49e1ffa2c2a1cad86d8fa020fc24c59d4
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236464"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "36437632"
 ---
-![Ilustración que muestra el estado de la parte interesada del viaje de actualización] (media/upgrade-banner-stakeholders.png "Etapas del viaje de actualización, con énfasis en la recopilación del grupo de participantes del proyecto")
+![Ilustración que muestra el estado de la parte interesada del viaje de actualización](media/upgrade-banner-stakeholders.png "Etapas del viaje de actualización, con énfasis en la recopilación del grupo de participantes del proyecto")
 
 Este artículo forma parte de la fase de participantes del proyecto de su viaje de actualización, la primera y más importante actividad que completa para el éxito del proyecto.
 
+
 # <a name="enlist-your-project-stakeholders"></a>Incorporar a las partes interesadas del proyecto
 
-Desde la implementación de las entregas del proyecto hasta el impulso de la responsabilidad, las partes interesadas mantienen la clave para el éxito de su proyecto. Existen dos grupos de partes interesadas que le interesa asignar: (1) un _Coalition de patrocinio_ que incluye patrocinadores ejecutivos y de proyecto que tienen un interés irrevocable e influirán en el éxito del proyecto, y (2) el _equipo del proyecto_, que consta de los personas responsables de garantizar la disponibilidad técnica y del usuario, que rellenará las diversas tareas del plan de proyecto. El subproceso común entre estos dos grupos es el _jefe de proyecto_, que funciona para garantizar que las tareas de Project se completan según lo programado y notifica el estado del proyecto a la Coalition.
+Desde la implementación de las entregas del proyecto hasta el impulso de la responsabilidad, las partes interesadas mantienen la clave para el éxito de su proyecto. Existen dos grupos de participantes que desea asignar: (1) una Junta de _patrocinio_ que incluye patrocinadores ejecutivos y de proyecto que tienen un interés irrevocable e influirán en el éxito del proyecto, y (2) el _equipo del proyecto_, que consta de las personas responsables de garantizar la disponibilidad técnica y del usuario, que completarán las distintas tareas en el plan del proyecto. El subproceso común entre estos dos grupos es el _jefe de proyecto_, que funciona para garantizar que las tareas de Project se completan según lo programado y notifica el estado del proyecto a la Coalition.
 
 > [!Tip]
 > Tomarse el tiempo para identificar al patrocinador ejecutivo ideal, alguien que pueda ayudarle a establecer el tono de su proyecto, a los clientes potenciales, por ejemplo, y a otras personas. Debe ser un director o ejecutivo que tenga autoridad sobre el alcance y la visión del proyecto. También deben ser responsables de la toma de decisiones finales al eliminar bloqueos y resolver conflictos para ayudar a mantener el proyecto a tiempo y dentro del presupuesto.
@@ -38,8 +39,8 @@ De manera opcional, puede crear un Comité de dirección. En ocasiones, los proy
 
 | | |
 |---|---|
-| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión | <ul><li>¿Quiénes son las personas adecuadas para que actúen como su equipo de participantes para este proyecto?</li></ul> |
-| ![Un icono que muestra los pasos siguientes](media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Considere el ámbito del proyecto y asigne las partes interesadas relevantes.</li><li>Use la tabla siguiente como directriz, pero tenga en cuenta que esta lista no es exhaustiva.<br><strong>Sobre</strong><br>Crear una matriz de consulta de responsable-consultada [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para diferenciar aún más aquellos que serán responsables de los usuarios que simplemente deben mantenerse informados en un área determinada del proyecto.</li> |
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión | <ul><li>¿Quiénes son las personas adecuadas para que actúen como su equipo de participantes para este proyecto?</li></ul> |
+| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Considere el ámbito del proyecto y asigne las partes interesadas relevantes.</li><li>Use la tabla siguiente como directriz, pero tenga en cuenta que esta lista no es exhaustiva.<br><strong>Sobre</strong><br>Crear una matriz de consulta de responsable-consultada [(RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para diferenciar aún más aquellos que serán responsables de los usuarios que simplemente deben mantenerse informados en un área determinada del proyecto.</li> |
 | <li>Decida si desea crear un Comité de dirección y asignar los roles según corresponda.</li></ul> | |
 
 | Roles | Propia |

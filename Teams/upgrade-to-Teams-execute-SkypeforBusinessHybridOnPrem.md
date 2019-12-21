@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
+ms.lasthandoff: 12/20/2019
 ms.locfileid: "37396426"
 ---
 ![Actualizar diagrama de viaje, enfatizar implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
 
-Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
+Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las actividades siguientes:
 
--   [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
--   [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
--   [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+-   [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+-   [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+-   [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 -   [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 -   [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 -   [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
@@ -41,7 +41,7 @@ Este artículo forma parte de la fase de implementación e implementación de su
 Si ha implementado Skype empresarial Server o Microsoft Lync local y su organización quiere actualizar a Teams, siga las instrucciones de este artículo. Debe configurar la conectividad híbrida con el inquilino de Office 365 y determinar los requisitos de coexistencia si va a mover a los usuarios a Teams por fases. 
 
 > [!IMPORTANT]
-> Skype empresarial online se retirará el 31 de julio de 2021, después del cual ya no será accesible ni compatible. Para maximizar los beneficios y asegurarse de que su organización tenga el tiempo adecuado para implementar su actualización, le recomendamos que comience su viaje a Microsoft Teams hoy. Recuerde que una actualización correcta alinea la disposición de los usuarios y técnicos, así que asegúrese de aprovechar las instrucciones de este documento a medida que navega por Microsoft Teams.
+> Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams. Recuerde que una actualización correcta alinea la disposición de los usuarios y técnicos, así que asegúrese de aprovechar las instrucciones de este documento a medida que navega por Microsoft Teams.
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>Paso 1: configurar la conectividad híbrida 
 
