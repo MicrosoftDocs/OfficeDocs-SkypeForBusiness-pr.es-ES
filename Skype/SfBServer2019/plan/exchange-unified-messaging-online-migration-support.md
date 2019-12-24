@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: 8b8a0590dd53301a93fb9a6b2ed50e0d5dc830ed
-ms.sourcegitcommit: 0f2024740e03af303efc62e7f54aa918a61ca51b
+ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
+ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39890584"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854095"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -185,7 +185,7 @@ Le recomendamos encarecidamente que inicie el programa de instalación de los nu
 | AA | Características del servicio | Tratamiento fuera de horario laboral y festivo  |  | S | S    |
 | AA | Características del servicio | Saludo personalizado con texto a voz  |  | S | S    |
 | AA | Características del servicio | Marcado de extensión   | Contactar con un usuario marcando su extensión  | S   | S    |
-| AA | Características del servicio | Buzón para que las personas que llaman a un AA dejen un mensaje    |  | CY19   | Y    |
+| AA | Características del servicio | Buzón para que las personas que llaman a un AA dejen un mensaje    |  | S   | S    |
 | AA | Características del servicio | Varias asignaciones de números RTC a un AA|  | S | S    |
 | AA | Espacio empresarial-características de administración | Administración de portal web   |  | Y | N    |
 | AA | Espacio empresarial-características de administración | Cmdlets de PowerShell  |  | S | S    |
