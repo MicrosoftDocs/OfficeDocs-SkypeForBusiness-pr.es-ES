@@ -19,26 +19,26 @@ f1keywords: ms.teamsadmincenter.voice.dialplans.overview
 ms.custom:
 - Calling Plans
 description: 'Descubra qué tipos de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Teams y cómo elegir uno para su organización.  '
-ms.openlocfilehash: 0dadb0335f622bb297d4299aafc50a40dafcc583
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: bd41b257af80a3a21da1013e604214d1e0303edf
+ms.sourcegitcommit: 472909325a47cf0ad00bed949d02ab5766d35832
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069331"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "40891219"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
 [] Un plan de marcado es un conjunto determinado de reglas de normalización que traducen los números de teléfono marcados por un usuario individual a un formato alternativo (generalmente E.164) para fines de autorización y enrutamiento de llamada.
 
-Un plan de marcado consta de una o más reglas de normalización que definen cómo los números de teléfono expresados en varios formatos se traducen a un formato alternativo. La misma cadena de marcado puede interpretarse y traducirse de forma diferente en distintos planes de marcado, de modo que según el plan de marcado que se asigne a un usuario determinado, el mismo número marcado se puede traducir y enrutar de manera diferente.
+Un plan de marcado consta de una o más reglas de normalización que definen cómo los números de teléfono expresados en varios formatos se traducen a un formato alternativo. La misma cadena de marcado puede interpretarse y traducirse de forma diferente en distintos planes de marcado, de modo que según el plan de marcado que se asigne a un usuario determinado, el mismo número marcado se puede traducir y enrutar de manera diferente. Puede haber un máximo de 1.000 planes de marcado de inquilino.
 
 Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar planes de marcado de inquilino.
 
 ## <a name="tenant-dial-plan-scope"></a>Alcance de un plan de marcado inquilino
 
-El ámbito de un plan de marcado determina el nivel jerárquico en el que se puede aplicar el plan de marcado. Los clientes obtienen el plan de marcado adecuado mediante la configuración de aprovisionamiento que se proporciona automáticamente cuando los usuarios inician sesión en Teams. Como administrador, puede administrar y asignar niveles de ámbito de plan de marcado mediante el centro de administración de Microsoft Teams o PowerShell remoto.
+El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los clientes obtienen el plan de marcado adecuado mediante la configuración de aprovisionamiento que se proporciona automáticamente cuando los usuarios inician sesión en Teams. Como administrador, puede administrar y asignar niveles de ámbito de plan de marcado mediante el centro de administración de Microsoft Teams o PowerShell remoto.
 
-En Teams, hay dos tipos de planes de marcado: ámbito de servicio y ámbito de inquilino (que es para su organización). Se define un plan de marcado de ámbito de servicio para todos los países o regiones donde está disponible el sistema telefónico. A cada usuario se le asigna automáticamente el plan de marcado por país del servicio que coincide con la ubicación de uso asignada al usuario. No puede cambiar el plan de marcado por país del servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado país del servicio. A medida que se aprovisionan clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado por país del servicio y el plan de marcado de inquilino con ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
+En Teams, hay dos tipos de planes de marcado: ámbito de servicio y ámbito de inquilino (que es para su organización). Se define un plan de marcado de ámbito de servicio para todos los países o regiones donde está disponible el sistema telefónico. A cada usuario se le asigna automáticamente el plan de marcado por país del servicio que coincide con la ubicación de uso asignada al usuario. No puede cambiar el plan de marcado por país del servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado país del servicio. A medida que se aprovisionan clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado por país del servicio y el plan de marcado de inquilino con ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización en los planes de marcado de inquilino, ya que es posible que ya existan en el plan de marcado de país del servicio.
 
 Los planes de marcado de inquilinos se pueden dividir aún más en dos ámbitos: ámbito de inquilino o ámbito. Si un inquilino define y asigna un plan de marcado de ámbito de usuario, ese usuario se aprovisionará con un plan de marcado eficaz del plan de marcado de país del servicio del usuario y del plan de marcado de usuario asignado. Si un inquilino define un plan de marcado de ámbito de inquilino pero no asigna un plan de marcado de ámbito de usuario, se aprovisionará a ese usuario con un plan de marcado eficaz del plan de marcado de país del servicio del usuario y del plan de marcado de inquilino.
 
