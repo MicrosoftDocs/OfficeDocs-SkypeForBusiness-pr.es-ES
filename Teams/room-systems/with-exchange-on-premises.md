@@ -13,12 +13,12 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams en un entorno híbrido con Exchange local.
-ms.openlocfilehash: 783e5af7f0325ecd78e613b445544c5231db46ab
-ms.sourcegitcommit: 70bf1669442bbb50cb293c86d6a0c80fb3b2b55a
+ms.openlocfilehash: cc9b46554bcbef227bc6f721a7af93331d9552ca
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38675414"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910058"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Salas de Microsoft Teams con Exchange local
 
@@ -44,11 +44,11 @@ Si implementa salas de Microsoft Teams con Exchange local, usará las herramient
 
   - Necesitará tener Skype empresarial online (plan 2) o una versión posterior en el plan 365 de Office. El plan debe admitir la funcionalidad de conferencias.
   
-  - - Si necesita Enterprise Voice (telefonía RTC) con proveedores de servicios de telefonía para salas de Microsoft Teams, necesita Skype empresarial online (Plan 3).
+  - Si necesita Enterprise Voice (telefonía RTC) con proveedores de servicios de telefonía para salas de Microsoft Teams, necesita Skype empresarial online (Plan 3).
   
-  - - Los usuarios de inquilinos deben tener buzones de Exchange.
+  - Los usuarios de inquilinos deben tener buzones de Exchange.
   
-  - - Su cuenta de salas de Microsoft Teams necesita una licencia de Skype empresarial online (plan 2) o de Skype empresarial online (Plan 3), pero no requiere una licencia de Exchange Online.
+  - Su cuenta de salas de Microsoft Teams necesita una licencia de Skype empresarial online (plan 2) o de Skype empresarial online (Plan 3), pero no requiere una licencia de Exchange Online.
 
 - Asigne una licencia de Skype empresarial Server a su cuenta de salas de Microsoft Teams.
 
@@ -144,9 +144,9 @@ Skype empresarial online PowerShell se usa para administrar servicios tanto para
 
 2. Obtener la dirección SIP de la cuenta:
 
-  ``` Powershell
-   $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
-   ```
+   ``` Powershell
+    $rm = Get-Csonlineuser -identity <insert SIP address> | select -expandproperty sipaddress
+    ```
 
 3. Para habilitar la cuenta de salas de Microsoft Teams, ejecute este comando:
 

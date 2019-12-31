@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87670ea398150e4895f2d87ccc48f60aba2d1377
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: d0bebe58780456435388f9f5c2b5ef75478dda12
+ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516483"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910008"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -44,12 +44,12 @@ Para habilitar la pestaña **llamadas** en Teams, los usuarios deben tener habil
 
 ## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Requisitos previos para habilitar el **teclado de marcado** en Teams
 Para habilitar la pestaña **teclado de marcado** en Teams y permitir que los usuarios realicen y reciban llamadas RTC, necesitará aprovisionar usuarios para los planes de llamadas y del sistema telefónico. Para obtener información sobre cómo configurar planes de llamadas, consulte [configurar planes de llamadas](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
-
+Además, para los usuarios de Teams solamente, debe asegurarse de que la opción "permitir llamadas privadas" esté habilitada en la Directiva de llamadas de equipo. Para obtener más información, vea [administrar equipos durante la transición al nuevo centro de administración de Microsoft Teams](https://docs.microsoft.com/microsoftteams/manage-teams-skypeforbusiness-admin-center) .
 > [!NOTE]
 > También puede usar el enrutamiento directo para permitir que los usuarios realicen y reciban llamadas RTC. Para obtener información sobre cómo configurar el enrutamiento directo, lea [configurar el enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
 ## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Uso de TeamsUpgradePolicy para controlar dónde se encuentran las llamadas
-Para controlar si las llamadas (y chats) entrantes en Teams o Skype empresarial, los administradores usan TeamsUpgradePolicy, ya sea con el [centro de administración de Microsoft Teams](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con [Skype empresarial](https://docs.microsoft.com/powershell/module/skype) . cmdlets.
+Para controlar si las llamadas entrantes (y chats) se encuentran en Teams o Skype empresarial, los administradores usan TeamsUpgradePolicy con el [centro de administración de Microsoft Teams](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con los cmdlets [de Skype empresarial](https://docs.microsoft.com/powershell/module/skype) .
 
 
 La configuración predeterminada de TeamsUpgradePolicy es el modo islas, que está diseñado para garantizar que los flujos de trabajo empresariales existentes no se interrumpan durante una implementación de Teams. De forma predeterminada, las llamadas VoIP, RTC y federadas a los usuarios se seguirán redirigiendo a Skype empresarial hasta que actualice la Directiva para habilitar las llamadas entrantes a teams.  Cuando los destinatarios se encuentran en el modo islas:
