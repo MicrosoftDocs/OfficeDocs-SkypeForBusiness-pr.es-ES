@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar canales privados en Microsoft Teams.
-ms.openlocfilehash: d7a491a64e32edef61b067c864c21f41e19f267d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 942070f9c77fb16895dd15e1920198f3604150f9
+ms.sourcegitcommit: 9c743b267b46a475a7da51c0899467960421ad8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40020054"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "40929566"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Canales privados en Microsoft Teams
 
@@ -132,7 +132,7 @@ Consulte [administrar el ciclo de vida de canales privados en Teams](private-cha
 
 ## <a name="private-channel-sharepoint-sites"></a>Sitios de SharePoint de canal privado
 
-Cada canal privado tiene su propia colección de sitios de SharePoint optimizada para el uso compartido de archivos y el aprovisionamiento rápido. La colección de sitios independiente es asegurarse de que el acceso a los archivos de canal privado está restringido solo a miembros del canal privado en comparación con el sitio de grupo en el que los propietarios del equipo tienen acceso a todos los activos de la colección de sitios. Estas colecciones de sitios se crean con una biblioteca de documentos de forma predeterminada y se pueden mejorar fácilmente en una colección de sitios completa a través de la [interfaz de administración de sitios](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada colección de sitios se crea en la misma región geográfica que la colección de sitios del equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración a través de la API de PowerShell y Graph.
+Cada canal privado tiene su propia colección de sitios de SharePoint optimizada para el uso compartido de archivos y el aprovisionamiento rápido. La colección de sitios independiente es asegurarse de que el acceso a los archivos de canal privado está restringido solo a miembros del canal privado en comparación con el sitio de grupo en el que los propietarios del equipo tienen acceso a todos los activos de la colección de sitios. Estas colecciones de sitios se crean con una biblioteca de documentos de forma predeterminada y se pueden mejorar fácilmente en una colección de sitios completa a través de la [interfaz de administración de sitios](https://support.office.com/article/Enable-or-disable-site-collection-features-A2F2A5C2-093D-4897-8B7F-37F86D83DF04). Cada colección de sitios se crea en la misma región geográfica que la colección de sitios del equipo principal. Estos sitios livianos tienen un identificador de plantilla personalizado, "TEAMCHANNEL # 0", para facilitar la administración a través de la API de PowerShell y Graph.  Por diseño, no están visibles en el centro de administración de SharePoint.
 
 Para dar cabida a un número mayor de colecciones de sitios por inquilino, el límite ha aumentado de 500.000 a 2 millones. Una colección de sitios de canal privado sincroniza la clasificación de los datos y hereda los permisos de acceso de invitado de la colección de sitios del equipo principal.  La pertenencia a los grupos de miembros y el propietario de la colección de sitios se mantiene sincronizada con la pertenencia del canal privado dentro de Teams. Cualquier cambio en la pertenencia al propietario o los grupos de miembros de SharePoint Online se revertirá a la pertenencia a un canal privado dentro de cuatro horas automáticamente. En escenarios en los que determinados usuarios necesitan obtener acceso a documentos sin necesidad de tener acceso a los mensajes de canal privado, agréguelos al grupo visitantes del sitio o a un grupo nuevo que sea independiente de propietarios y miembros.
 
