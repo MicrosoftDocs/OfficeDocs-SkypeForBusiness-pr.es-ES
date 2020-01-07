@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Arabia Saudí.
-ms.openlocfilehash: cd8cd966fddd69f0c1908cbcccecc00272df3ca7
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ef03d1d0d356c6432b2107dcd668e4b53e1b72cb
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569535"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952413"
 ---
 # <a name="availability-in-saudi-arabia"></a>Disponibilidad en Arabia Saudí
 
@@ -41,7 +41,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí, solo [paga por minuto](../audio-conferencing-pay-per-minute.md)  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
@@ -66,9 +66,9 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Riad ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
-|¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?  <br/> | Riad0  <br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
   
@@ -76,7 +76,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los créditos de comunicaciones están disponibles?  <br/> |No  <br/> |
+|¿Los créditos de comunicaciones están disponibles?  <br/> |Sí  <br/> |
    
 Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../set-up-communications-credits-for-your-organization.md).
   
@@ -85,6 +85,3 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-  
- 

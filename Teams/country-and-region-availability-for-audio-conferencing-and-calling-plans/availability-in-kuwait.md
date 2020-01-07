@@ -3,7 +3,7 @@ title: Disponibilidad en Kuwait
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Kuwait.
-ms.openlocfilehash: 88f8365d9f6b57ee3c15a096e8075d299444d3b4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 84baa73a7111aee2783dced09d5d2113deffb412
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570030"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952453"
 ---
 # <a name="availability-in-kuwait"></a>Disponibilidad en Kuwait
 
@@ -40,7 +40,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí, solo [paga por minuto](../audio-conferencing-pay-per-minute.md) <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicación <br/> |
    
@@ -65,8 +65,8 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Ciudad de Kuwait ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md))  <br/> |
+|¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | Ciudad de Kuwait <br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
  Si desea obtener números de teléfono gratuitos y de pago para las conferencias de audio, los operadores automáticos y las colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
@@ -75,7 +75,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los créditos de comunicaciones están disponibles?  <br/> |No  <br/> |
+|¿Los créditos de comunicaciones están disponibles?  <br/> |Sí  <br/> |
    
 Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../set-up-communications-credits-for-your-organization.md).
   

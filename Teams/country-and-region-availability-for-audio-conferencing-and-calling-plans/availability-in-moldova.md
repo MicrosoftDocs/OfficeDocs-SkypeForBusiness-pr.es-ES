@@ -3,7 +3,7 @@ title: Disponibilidad en Moldova
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
 ms.assetid: f16965c2-645b-4cdf-8cf0-bf685917e425
 ms.tgt.pltfrm: cloud
@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 9143517690dc1c06ff4d2fd16d36ca57ce245e11
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f59b511498f43e459f9d5d9b920b852f8af4d5e9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571067"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952433"
 ---
 # <a name="availability-in-moldova"></a>Disponibilidad en Moldova
 
@@ -40,7 +40,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí, solo [paga por minuto](../audio-conferencing-pay-per-minute.md)  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
@@ -75,7 +75,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los créditos de comunicaciones están disponibles?  <br/> |No  <br/> |
+|¿Los créditos de comunicaciones están disponibles?  <br/> |Sí  <br/> |
    
 Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../set-up-communications-credits-for-your-organization.md).
   

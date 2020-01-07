@@ -3,7 +3,7 @@ title: Disponibilidad en Túnez
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
+ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Túnez.
-ms.openlocfilehash: a106889ba37d07c323918a34acdb24566d9659f0
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2a5f9085dee44b263c7222cfdab6bfb56f8f2ef9
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569524"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952873"
 ---
 # <a name="availability-in-tunisia"></a>Disponibilidad en Túnez
 
@@ -40,7 +40,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
+|¿La audioconferencia está disponible para la compra?  <br/> |Sí, solo [paga por minuto](../audio-conferencing-pay-per-minute.md) <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicación <br/> |
    
@@ -66,7 +66,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | No geográficos. Los números de teléfono no están vinculados a una ciudad o ubicación específica. <br/> |
-|¿Hay números de pago disponibles?  <br/> |Sí ([a petición](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)) <br/> |
+|¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |No  <br/> |
    
  Si desea obtener números de teléfono gratuitos y de pago para las conferencias de audio, los operadores automáticos y las colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
@@ -75,7 +75,7 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los créditos de comunicaciones están disponibles?  <br/> |No  <br/> |
+|¿Los créditos de comunicaciones están disponibles?  <br/> |Sí <br/> |
    
 Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para su organización](../set-up-communications-credits-for-your-organization.md).
   

@@ -15,12 +15,12 @@ ms.collection:
 description: Ejemplos de uso de PowerShell para establecer directivas en Teams para controlar quién puede contener eventos en directo en la organización y características que están disponibles en los eventos que crean
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9f96adcf4aa40b93b89b99013b9bc5ca466c25b
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 0d734cd4a92f3ebd32e2d0e6a24292ae50b456e7
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37570173"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952883"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams
 
@@ -40,11 +40,11 @@ A continuación se muestran algunos ejemplos.
 **Permitir que un usuario programe eventos en vivo**
 
 Si se asigna al usuario la directiva global, ejecute y compruebe que el parámetro *AllowBroadcastScheduling* se establece en *true*:
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
 A continuación, asigne el usuario a la directiva global, ejecute:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
@@ -52,73 +52,73 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 **Desea que todos los usuarios de su organización puedan programar eventos en vivo**
 
 Si los usuarios tienen asignada la directiva global, ejecute y compruebe que *AllowBroadcastScheduling* * se establece en *verdadero*:
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
 Si a los usuarios se les asigna una directiva distinta de la directiva global, ejecute y compruebe que *-AllowBroadcastScheduling* esté establecido en *true*:
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
 **Desea que la programación de eventos en directo se deshabilite en toda la organización**
 
 Deshabilitar la programación de eventos en directo, ejecute:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
 Asignar todos los usuarios de la organización a la directiva global, ejecute:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 **Desea que un gran número de usuarios pueda programar eventos en vivo e impedir que un grupo de usuarios los programe**
 
 Ejecute y compruebe que *AllowBroadcastScheduling* se establece en *true*:
-```
+```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
 A continuación, asigne un usuario o usuarios a la directiva global, ejecute:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 
 Crear una nueva directiva que no permita programar eventos en vivo, ejecute lo siguiente:
-```
+```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy
 ```
 Deshabilitar la programación de eventos en directo, ejecute:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity DisabledBroadcastSchedulingPolicy -AllowBroadcastScheduling $false
 ```
 A continuación, asigne usuarios a esta Directiva, ejecute:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName DisabledBroadcastSchedulingPolicy -Verbose
 ```
 **Desea deshabilitar la programación de eventos en vivo para un gran número de usuarios y permitir que un conjunto de usuarios los programe**
 
 Deshabilitar la programación de eventos en directo, ejecute:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity Global -AllowBroadcastScheduling $false
 ```
 A continuación, asigne esos usuarios a la directiva global, ejecute:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ```
 Crear una directiva para permitir la programación de eventos en directo, ejecute:
-```
+```PowerShell
 New-CSTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy
 ```
 Habilitar la programación de eventos en directo, ejecute:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -identity EnableBroadcastSchedulingpolicy -AllowBroadcastScheduling $true
 ```
 A continuación, asigne usuarios a esta Directiva, ejecute:
-```
+```PowerShell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcastSchedulingpolicy -Verbose
 ```
 ## <a name="set-who-can-join-live-events"></a>Establecer quién puede unirse a eventos en directo
  
 Establezca la directiva global para permitir a los usuarios crear eventos que todos los usuarios, incluidos los anónimos, pueden asistir, ejecutar:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>Establecer la opción de grabación de eventos en directo
@@ -126,7 +126,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 > Esta configuración se aplica solo a los eventos generados en Teams.
 
 Establezca la directiva global para deshabilitar la grabación de eventos en directo:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode AlwaysDisabled 
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>Establecer subtítulos en vivo y subtítulos en eventos en directo
@@ -134,7 +134,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 > Esta configuración se aplica solo a los eventos generados en Teams. 
 
 Establezca la directiva global para activar los subtítulos en vivo y los subtítulos (transcripción) para los asistentes del evento:
-```
+```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription $true 
 ```
 

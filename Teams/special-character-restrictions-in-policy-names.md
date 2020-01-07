@@ -19,12 +19,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Vea qué problemas hay con caracteres especiales en los nombres de las directivas y qué puede hacer para corregirlo.
-ms.openlocfilehash: 169f427cc0efc444adfbc7e0f8056337e615f733
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a3e7bccc78641a07b7e2f2b02e12b6fe501f2405
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568661"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952763"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>¿Cuáles son las restricciones de caracteres especiales en directivas de Teams?
 
@@ -40,7 +40,7 @@ Si tiene una directiva con caracteres especiales, tendrá que editar la Directiv
 
 **Paso 1: establecer una conexión remota con PowerShell.** 
  [Configure su equipo para Windows PowerShell](https://docs.microsoft.com/skypeforbusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) si todavía no lo ha hecho.
-```
+```PowerShell
  Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
  $credential = Get-Credential
  $session = New-CsOnlineSession -Credential $credential
@@ -53,7 +53,7 @@ Si tiene una directiva con caracteres especiales, tendrá que editar la Directiv
 > [!NOTE]
 > Este ejemplo es para una directiva de [Mensajería](https://docs.microsoft.com/powershell/module/skype/get-csteamsmessagingpolicy?view=skype-ps) .  Los pasos serían iguales para otros tipos de directivas, pero debe usar el cmdlet correcto. 
 
-  ```
+  ```PowerShell
   Get-CsTeamsMessagingPolicy -id <old_policy_name>
   ```
 
@@ -64,11 +64,11 @@ Puede crear la nueva directiva con la misma configuración con el centro de admi
 
 Si se ejecuta, se creará una nueva Directiva, pero tendrá que agregar la configuración correcta si ve [set-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) y, a continuación, lo ejecuta:
 
-  ```
+  ```PowerShell
   Set-CsTeamsMessagingPolicy -id <new_policy_name>
  ```
 **Paso 4: asignar la Directiva.**
- ```
+ ```PowerShell
 Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
  ```
 Para obtener más información sobre este cmdlet, consulte [Grant-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsmessagingpolicy?view=skype-ps) .
@@ -76,14 +76,14 @@ Para obtener más información sobre este cmdlet, consulte [Grant-CsTeamsMessagi
 **Paso 5: eliminar la directiva anterior.**
 
 Esto eliminará la directiva anterior con los caracteres especiales.
-  ```
+  ```PowerShell
   Remove-CsTeamsMessagingPolicy -identity <old_policy_name>
   ```
 Para obtener más información sobre este cmdlet, consulte [Remove-CsTeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csteamsmessagingpolicy?view=skype-ps) .
 
 Si este comando se ejecuta correctamente, ya habrá terminado. Si el comando anterior devuelve un error, esto se debe a que la Directiva antigua se asigna a los usuarios, por lo que necesita ejecutar para quitar todos los usuarios asignados de la Directiva:
 
-```
+```PowerShell
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
 ### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?

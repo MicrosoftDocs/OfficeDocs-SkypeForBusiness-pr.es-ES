@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56d622a3a8757ca377c75bea79028dc5587b6bb8
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: fcf18aa2487527c436b104011140524e6ce4ae5d
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290980"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40952813"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
@@ -83,7 +83,7 @@ Como alternativa, puede asignar el siguiente rol a una cuenta de usuario de Offi
 Al discutir la calidad en Teams y Skype empresarial, es importante definir el término para lograr una comprensión común. La calidad, tal como se define aquí, es una combinación de las métricas de servicio y la experiencia del usuario.
 
 <!-- Note: need to update graphic-->
-![Ilustración de las métricas de servicio y la experiencia de usuario](media/qerguide-image-whatisquality.png "Slas métricas de ervice se componen de mala velocidad de transmisión, fiabilidad, puntos de conexión, dispositivos y versiones de cliente. La experiencia de usuario consta de la percepción del usuario de la calidad del servicio.)
+![Ilustración de las métricas de servicio y la experiencia de usuario](media/qerguide-image-whatisquality.png "Las métricas de servicio se componen de mala velocidad de transmisión, fiabilidad, puntos de conexión, dispositivos y versiones de cliente. La experiencia de usuario consta de la percepción del usuario de la calidad del servicio.")
 
 _Ilustración 2: ¿Qué es la calidad?_
 
@@ -225,7 +225,7 @@ En el siguiente gráfico se describen las tareas que debe ejecutar para cada cat
 La primera vez que realice estas tareas, tendrá más esfuerzo que las iteraciones posteriores, porque muchas de estas categorías requieren que valide las configuraciones de implementación. Una vez que haya conseguido el estado que desea al cumplir los objetivos que ha definido, estas tareas le ayudarán a mantener ese estado.
 
 <!--  This is a net new graphic, never was included in the online article. OOPS! -->
-![Lista de tareas semanales por categoría de calidad](media/qerguide-image-tasks.png "LIST de tareas semanales por categoría de calidad ")
+![Lista de tareas semanales por categoría de calidad](media/qerguide-image-tasks.png "Lista de tareas semanales por categoría de calidad")
 
 #### <a name="service-management-tasks"></a>Tareas de administración de servicios
 
@@ -323,7 +323,7 @@ Algunos informes de CQD requieren que incluya un filtro para su identificador de
 
 2. Abra una ventana de comandos de Azure PowerShell y ejecute el siguiente script, especificando sus credenciales de 365 de Office cuando se le solicite: 
 
-   ```
+   ```PowerShell
    Login-AzureRmAccount
    ```
 
@@ -345,7 +345,7 @@ Algunos informes de CQD requieren que incluya un filtro para su identificador de
 
 2. Ejecute el siguiente comando:
 
-   ```
+   ```PowerShell
    (Get-cstenant).tenantid
    ```
 
@@ -367,7 +367,7 @@ _Figura 5: seleccionar un filtro de producto_
 
 Para filtrar todos los informes detallados, en la barra del explorador, agregue lo siguiente al final de la dirección URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[FALSE]
 ```
 
@@ -531,7 +531,7 @@ La exclusión de datos federados de informes de CQD es útil cuando se corrigen 
 
 Para implementar un filtro de URL, en la barra de direcciones del explorador, agregue lo siguiente al final de la dirección URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
 ```
 
@@ -541,7 +541,7 @@ Ejemplo
 
 Para filtrar los informes de Teams o Skype empresarial, agregue lo siguiente al final de la dirección URL:
 
-```
+```PowerShell
 /filter/[AllStreams].[Is Teams]|[TRUE | FALSE]
 ```
 
