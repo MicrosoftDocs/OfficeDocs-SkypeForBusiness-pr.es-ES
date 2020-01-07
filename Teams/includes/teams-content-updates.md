@@ -3,31 +3,10 @@
 
 
 
-## <a name="week-of-november-25-2019"></a>Semana del 25 de noviembre de 2019
-
-
-| Fecha de publicación |Título del tema | Change |
-|------|------------|--------|
-| 11/25/2019 | [Planear desvío de medios con enrutamiento directo](/MicrosoftTeams/direct-routing-plan-media-bypass) | modificado |
-| 11/25/2019 | [Planear el enrutamiento directo](/MicrosoftTeams/direct-routing-plan) | modificado |
-| 11/25/2019 | [Informe de uso de RTC de Microsoft Teams](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | modificado |
-| 11/26/2019 | [Activar Microsoft Teams en su organización de Office 365](/MicrosoftTeams/office-365-set-up) | modificado |
-| 11/26/2019 | [Configurar las llamadas de emergencia dinámicas](/MicrosoftTeams/configure-dynamic-emergency-calling) | modificado |
-| 11/26/2019 | [Configuración de red de enrutamiento basado en la ubicación](/MicrosoftTeams/location-based-routing-configure-network-settings) | modificado |
-| 11/26/2019 | [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](/MicrosoftTeams/location-based-routing-enable) | modificado |
-| 11/26/2019 | [Planear enrutamiento basado en la ubicación para el enrutamiento directo](/MicrosoftTeams/location-based-routing-plan) | modificado |
-| 11/26/2019 | Terminología de enrutamiento basado en la ubicación | eliminado |
-| 11/26/2019 | [Administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams](/MicrosoftTeams/manage-emergency-call-routing-policies) | modificado |
-| 11/26/2019 | [Administrar las directivas de llamadas de emergencia en Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | modificado |
-| 11/26/2019 | [Planificación de llamadas de emergencia, direcciones de emergencia, enrutamiento de llamadas de emergencia, llamadas de emergencia dinámicas](/MicrosoftTeams/what-are-emergency-locations-addresses-and-call-routing) | modificado |
-| 11/26/2019 | [Formación dirigida por un instructor y vídeos para usuarios de Microsoft Teams](/MicrosoftTeams/instructor-led-training-teams-landing-page) | modificado |
-| 11/27/2019 | [Disponibilidad en Japón](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-japan) | modificado |
-
-
 ## <a name="week-of-december-02-2019"></a>Semana del 2 de diciembre de 2019
 
 
-| Fecha de publicación |Título del tema | Cambio |
+| Fecha de publicación |Título del tema | Change |
 |------|------------|--------|
 | 12/2/2019 | [Comunicación con usuarios de otras organizaciones en Microsoft Teams](/MicrosoftTeams/communicate-with-users-from-other-organizations) | modificado |
 | 12/2/2019 | [Configurar una consola de salas de Microsoft Teams](/MicrosoftTeams/room-systems/console) | modificado |
@@ -37,7 +16,7 @@
 | 12/3/2019 | [Lista de comprobación para el acceso de invitado de Microsoft Teams](/MicrosoftTeams/guest-access-checklist) | modificado |
 | 12/3/2019 | [Administrar la oferta de prueba comercial en la nube de Microsoft Teams](/MicrosoftTeams/iw-trial-teams) | modificado |
 | 12/3/2019 | [Límites y especificaciones para Microsoft Teams](/MicrosoftTeams/limits-specifications-teams) | modificado |
-| 12/3/2019 | [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | modificado  |
+| 12/3/2019 | [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | modificado |
 | 12/3/2019 | [Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams](/MicrosoftTeams/teams-custom-app-policies-and-settings) | modificado |
 | 12/4/2019 | [Obtener clientes para Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
 | 12/4/2019 | [Códigos de país de enrutamiento directo](/MicrosoftTeams/direct-routing-country-codes) | modificado |
@@ -96,7 +75,7 @@
 | 12/12/2019 | [Obtener clientes para Microsoft Teams](/MicrosoftTeams/get-clients) | modificado |
 | 12/13/2019 | [Interacción entre Exchange y Microsoft Teams](/MicrosoftTeams/exchange-teams-interact) | modificado |
 | 12/13/2019 | [Autorizar el acceso de invitado en Microsoft Teams](/MicrosoftTeams/teams-dependencies) | modificado |
-| 12/13/2019 | [Configurar el enrutamiento directo](/MicrosoftTeams/direct-routing-configure) | modificado |
+| 12/13/2019 | [Configurar el enrutamiento directo](/MicrosoftTeams/direct-routing-configure) | modificado  |
 | 12/13/2019 | [Requisitos de hardware de la aplicación de Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | modificado |
 | 12/13/2019 | [Canales privados en Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
 | 12/13/2019 | [Teams para la infraestructura de escritorio virtualizada](/MicrosoftTeams/teams-for-vdi) | modificado |
@@ -140,4 +119,12 @@
 
 | Fecha de publicación |Título del tema | Cambio |
 |------|------------|--------|
-| 12/27/2019 | [¿Qué son los planes de marcado?](/MicrosoftTeams/what-are-dial-plans) | modificado |
+| 12/27/2019 | [¿Qué son los planes de marcado?](/MicrosoftTeams/what-are-dial-plans) | modificado  |
+
+
+## <a name="week-of-december-30-2019"></a>Semana del 30 de diciembre de 2019
+
+
+| Fecha de publicación |Título del tema | Cambio |
+|------|------------|--------|
+| 1/2/2020 | [Canales privados en Microsoft Teams](/MicrosoftTeams/private-channels) | modificado |
