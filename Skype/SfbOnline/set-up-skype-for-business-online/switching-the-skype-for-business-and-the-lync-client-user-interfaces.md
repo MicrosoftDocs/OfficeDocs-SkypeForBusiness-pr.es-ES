@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn how to switch between Skype for Business and Lync client user interfaces using PowerShell in Office 365 '
-ms.openlocfilehash: 2788799f5125aab63938241d737eade25f6cd61a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 0f24879c136c98db1a856765cb164d376417ad5a
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221513"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962888"
 ---
 # <a name="switching-between-the-skype-for-business-and-the-lync-client-user-interfaces"></a>Cambiar de la interfaz de usuario del cliente de Lync a la de Skype Empresarial
 
@@ -43,7 +43,7 @@ El módulo Windows PowerShell para Skype Empresarial Online le permite crear una
 > [!IMPORTANT]
 > La configuración de la directiva  _Global_ para cambiar la interfaz de usuario no se aplicará a un usuario que ya tenga aplicada una directiva personalizada. Para poder cambiar la interfaz de usuario, tendrá que ejecutar lo siguiente para cada usuario que tenga aplicada una directiva personalizada:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -52,7 +52,7 @@ Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
   
 Para habilitar que todos los usuarios de su organización utilicen el cliente de Skype Empresarial, abra el PowerShell remoto y escriba lo siguiente:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
@@ -62,7 +62,7 @@ Si configura la directiva de forma correcta, verá:
   
 Para habilitar que todos los usuarios de su organización utilicen el cliente de Skype Empresarial (Lync), abra el PowerShell remoto y escriba lo siguiente: 
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -72,7 +72,7 @@ Si configura la directiva de forma correcta, verá:
   
 Para permitir que solo un usuario de su organización utilice el cliente de Skype Empresarial, abra el PowerShell remoto y escriba lo siguiente:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI -Identity <username>
 ```
 
@@ -82,7 +82,7 @@ Si configura la directiva de forma correcta, verá:
   
 Para permitir que solo un usuario de su organización utilice el cliente de Skype Empresarial (Lync), abra el PowerShell remoto y escriba lo siguiente:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI -Identity <username>
 ```
 
@@ -93,7 +93,7 @@ Si configura la directiva de forma correcta, verá:
 Para permitir que varios usuarios de su organización utilicen el cliente de Skype Empresarial, abra el PowerShell remoto y escriba lo siguiente:
   
 
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com") 
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
@@ -101,7 +101,7 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 
 Para permitir que varios usuarios de su organización utilicen el cliente de Skype Empresarial (Lync), abra el PowerShell remoto y escriba lo siguiente:
   
-```
+```PowerShell
 $users = @("sip:bob@contoso.com","sip:fred@contoso.com")
 
 $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
@@ -109,13 +109,13 @@ $users | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 
 Para permitir que un grupo de usuarios de su organización utilice el cliente de Skype Empresarial, abra el PowerShell remoto y escriba lo siguiente:
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyEnableSkypeUI
 ```
 
 Para permitir que un grupo de usuarios de su organización utilice el cliente de Skype Empresarial (Lync), abra el PowerShell remoto y escriba lo siguiente:
   
-```
+```PowerShell
 Get-CsOnlineUser -Filter {Department -eq "Sales"} | Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
@@ -149,19 +149,19 @@ Esta tabla muestra todas las directivas personalizadas disponibles en línea. Ha
 |**Nombre de la directiva**|**EnableSkypeUI**|
 |:-----|:-----|
 `ClientPolicyDefaultPhoto`||
-`ClientPolicyDefaultPhotoDisableSkypeUI` |False|
+`ClientPolicyDefaultPhotoDisableSkypeUI` |Falso|
 `ClientPolicyNoIMURL`||
-`ClientPolicyNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoIMURLDisableSkypeUI` |Falso|
 `ClientPolicyNoIMURLPhoto`||
-`ClientPolicyNoIMURLPhotoDisableSkypeUI` |False|
+`ClientPolicyNoIMURLPhotoDisableSkypeUI` |Falso|
 `ClientPolicyNoSaveIMNoArchivingI`||
-`ClientPolicyNoSaveIMNoArchivingDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingDisableSkypeUI` |Falso|
 `ClientPolicyNoSaveIMNoArchivingNoIMURL`||
-`ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURLDisableSkypeUI` |Falso|
 `ClientPolicyNoSaveIMNoArchivingNoIMURLPhoto` ||
-`ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI`|False|
+`ClientPolicyNoSaveIMNoArchivingNoIMURLPhotoDisableSkypeUI`|Falso|
 `ClientPolicyNoSaveIMNoArchivingPhoto`||
-`ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |False|
+`ClientPolicyNoSaveIMNoArchivingPhotoDisableSkypeUI` |Falso|
 
    
 To get started with Windows PowerShell, see these topics:
@@ -172,7 +172,7 @@ To get started with Windows PowerShell, see these topics:
     
 ## <a name="first-launch-client-behaviors"></a>Comportamientos del cliente en el primer inicio
 
-De forma predeterminada, cuando los usuarios inician Skype empresarial por primera vez, siempre verán la interfaz de usuario de Skype empresarial, aunque haya seleccionado la experiencia del cliente de Lync al establecer la configuración de cliente de Lync (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) como se describe a continuación eran. Después de varios minutos, se les solicitará a los usuarios que cambien al modo Lync.
+De forma predeterminada, cuando los usuarios inician Skype empresarial por primera vez, siempre verán la interfaz de usuario de Skype empresarial, aunque haya seleccionado la experiencia del cliente de Lync con la configuración de cliente de Lync (`Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI`) tal y como se ha descrito anteriormente. Después de varios minutos, se les solicitará a los usuarios que cambien al modo Lync.
   
 Si desea mostrar la interfaz de usuario de Lync cuando los usuarios inician el cliente Skype Empresarial por primera vez, siga estos pasos antes de que el cliente se inicie por primera vez después de la actualización:
   
@@ -186,7 +186,7 @@ Si desea mostrar la interfaz de usuario de Lync cuando los usuarios inician el c
     
     La clave debería ser similar a esta:
     
-    [HKEY_CURRENT_USER\\software\\Microsoft\\Office\\Lync]
+    [Software\\\\de HKEY_CURRENT_USER\\Microsoft\\Office Lync]
     
     "CanSharePptInCollab" = dword: 00000001
     
@@ -214,7 +214,7 @@ Si no desea que los usuarios puedan tener acceso al tutorial, puede desactivar e
   
 En la clave **[HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\15.0 \\Lync]**, cree un nuevo **valor DWORD (32 bits)**. El **Nombre del valor** debe ser **TutorialFeatureEnabled**y los **Datos del valor** deben configurarse como **0**.
   
-```
+```PowerShell
 "TutorialFeatureEnabled"=dword:00000000
 ```
 

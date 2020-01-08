@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Consulte los pasos de Skype empresarial online para asignar una licencia de conferencia de acceso telefónico local y un identificador de conferencia a un usuario y muchas otras opciones de la Conferencia de acceso telefónico local. '
-ms.openlocfilehash: 65c4eba931116b46099d37671700600d2b670489
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: f5597ae2b857569b7890d81577e4fd4252da5106
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792322"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962708"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Administrar la configuración de Audioconferencia de mi organización en Skype for Business Online
 
@@ -44,7 +44,7 @@ Puede que le resulte más fácil ver toda la configuración de la audioconferenc
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. En el centro de navegación izquierdo del centro de administración, **** > vaya a usuarios**activos**y, a continuación, seleccione el usuario o los usuarios de la lista de usuarios disponibles.
+2. En el centro de navegación izquierdo del centro de administración, **vaya a** > usuarios**activos**y, a continuación, seleccione el usuario o los usuarios de la lista de usuarios disponibles.
 
     > [!NOTE]
     > Si va a asignar licencias a un máximo de 20 usuarios al mismo tiempo, puede usar el menú desplegable **Seleccionar una vista** y, luego, elegir una de las opciones o crear su propia vista. Luego, haga clic en **Editar**, haga clic dos veces en **Siguiente**, seleccione la licencia y haga clic en **Enviar**. También puede asignar licencias a varios usuarios con Windows PowerShell. Para obtener instrucciones y ejemplos de scripts de PowerShell, consulte [asignar licencias de Skype empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
@@ -79,7 +79,7 @@ Vea **Enviar un correo electrónico a un usuario con su información de conferen
 
 - Usar Windows PowerShell
 
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
@@ -97,7 +97,7 @@ Puede realizar cambios en el correo electrónico que se envía automáticamente 
 
 Puede realizar cambios en el correo electrónico enviado a los usuarios, como por ejemplo la dirección de correo electrónico desde la que se envía el correo electrónico o el nombre para mostrar para el correo electrónico haciendo lo siguiente:
 
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmailFromAddress amos.marble@contoso.com -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -118,7 +118,7 @@ Ver [los correos electrónicos que se envían de forma automática a los usuario
 4. En la ventana **¿Restablecer Id. de conferencia?**, haga clic en **Sí**. Se creará automáticamente un Id. de conferencia y se enviará un correo electrónico al usuario con el nuevo Id. de conferencia si está habilitado el envío de correo electrónico a los usuarios. De manera predeterminada está habilitado.
 
     > [!IMPORTANT]
-    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. Para obtener información sobre cómo descargar, instalar y ejecutar la herramienta de actualización de reuniones de Skype empresarial, consulte: [herramienta de actualización de reuniones para Skype empresarial y Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype empresarial online, herramienta de migración de reuniones (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)y [Skype empresarial online, reunión Herramienta de migración (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+    >  After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. Para obtener información sobre cómo descargar, instalar y ejecutar la herramienta de actualización de reuniones de Skype empresarial, consulte la herramienta [de actualización de reuniones para Skype empresarial y Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype empresarial online, herramienta de migración de reuniones (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)y [Skype empresarial online, herramienta de migración de reuniones (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
 
 See [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).
 
@@ -274,42 +274,42 @@ To get more help on each cmdlet, see [Skype for Business Online cmdlets](https:/
 A continuación se muestra la configuración de nivel de organización:
 
 - **Configuración de notificaciones de entrada o salida** El valor predeterminado es _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableEntryExitNotifications $true|$false
   ```
 
 - **Configuración de grabación de nombre** El valor predeterminado es _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -EnableNameRecording $true|false
   ```
 
 - **Establecer la longitud de PIN** El valor predeterminado es 5.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
 - **Establecer sólo marcado en reuniones desde un teléfono** El valor predeterminado es _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
 
 - **Establecer si se enviará un correo electrónico a los usuarios** El valor predeterminado es _$true_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
   ```
 
 - **Establecer si se enviará un correo electrónico desde una cuenta diferente** El valor predeterminado es _$false_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
 - **Establecer la dirección de correo electrónico de remitente que se envía a los usuarios** El valor predeterminado es _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
 
 - **Establecer el nombre para mostrar para el correo electrónico que se envía a los usuarios** El valor predeterminado es _$null_.
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromDisplayName
   ```
 

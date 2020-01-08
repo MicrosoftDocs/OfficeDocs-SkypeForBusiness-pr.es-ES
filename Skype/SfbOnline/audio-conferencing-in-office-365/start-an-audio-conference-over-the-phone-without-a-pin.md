@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable anonymous callers from joining a meeting from the Skype for Business admin center or using a PowerShell script. '
-ms.openlocfilehash: 1cdcbd2f610c3d60ba2fb4e554823d410fd4ae8f
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: cfc15835906fbc400830783777027ed7ca1f4e59
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792644"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962498"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Iniciar una conferencia de audio a través del teléfono sin un PIN en Skype empresarial online
 
@@ -36,7 +36,7 @@ Es posible que sea frustrante para los usuarios que llaman a una reunión en la 
   
 Si un organizador de la reunión llama a la reunión, de forma predeterminada, se necesita un PIN para iniciar una reunión. Puede configurarlo para que cualquier persona pueda llamar a una reunión y no se le pida un PIN para iniciar la reunión. Puede usar el Centro de administración de Skype Empresarial para habilitar o deshabilitar este parámetro para un solo usuario.
   
-Si alguien ha iniciado la reunión desde la aplicación Skype empresarial, no es necesario un PIN para el organizador de la reunión. El PIN solo será necesario si el organizador de la reunión se une a ella desde un teléfono. El PIN para las reuniones se envía al usuario de audio cuando se le asigna **** la licencia de audioconferencias y está habilitado para las conferencias de audio. Consulte [Enviar un correo electrónico a un usuario con la información de la audioconferencia y los](send-an-email-to-a-user-with-their-dial-in-information.md) [correos electrónicos que se envían de forma automática a los usuarios cuando cambia la configuración de audioconferencia](emails-sent-to-users-when-their-settings-change.md).
+Si alguien ha iniciado la reunión desde la aplicación Skype empresarial, no es necesario un PIN para el organizador de la reunión. Un PIN solo es necesario cuando un organizador de la reunión se une a su reunión a través de un teléfono. El PIN para las reuniones se envía al usuario de audio cuando se le asigna la licencia de **audioconferencias** y está habilitado para las conferencias de audio. Consulte [Enviar un correo electrónico a un usuario con la información de la audioconferencia y los](send-an-email-to-a-user-with-their-dial-in-information.md) [correos electrónicos que se envían de forma automática a los usuarios cuando cambia la configuración de audioconferencia](emails-sent-to-users-when-their-settings-change.md).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -57,7 +57,7 @@ Si alguien ha iniciado la reunión desde la aplicación Skype empresarial, no es
   
 - Ejecute lo siguiente: 
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true | $false
   ```
 

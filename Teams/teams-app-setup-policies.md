@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las directivas de configuración de aplicaciones en Microsoft Teams y cómo usarlas para anclar aplicaciones para personalizar equipos para los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 271ffd879ddf55596da0c77765a269570a4878b2
-ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.openlocfilehash: 3cc794829df70fcbadc8a461a6a953d381536365
+ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910048"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40955314"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -101,15 +101,15 @@ En este ejemplo, asignamos una directiva de configuración de aplicación person
 > Asegúrese de conectarse primero al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial siguiendo los pasos de [conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtén la GroupObjectId del grupo en particular.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Pharmaceuticals HR Project"
 ```
 Obtener los miembros del grupo especificado.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Asignar todos los usuarios del grupo a una directiva de configuración de aplicación determinada. En este ejemplo, es la Directiva de configuración de la aplicación de RRHH.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $_.UserPrincipalName}
 ``` 
 Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.

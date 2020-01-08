@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 28da70d829972a7b9d3659290652c2482d409364
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d4947012e98c45e108a2cc8d9f84bb4f16a24d3c
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792332"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962718"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar o deshabilitar el envío de correos electrónicos cuando cambia la configuración de las conferencias de audio en Skype empresarial online
 
@@ -50,7 +50,7 @@ Este es un ejemplo del correo electrónico que se envía a los usuarios cuando e
     
   - Al restablecer de forma manual el id. de conferencia del usuario.
     
-  - Cuando se **** quita la licencia de audioconferencias.
+  - Cuando se quita la licencia de **audioconferencias** .
     
   - Cuando se cambia el proveedor de conferencias de audio de un usuario de Microsoft a otro proveedor o a **ninguno**.
     
@@ -80,7 +80,7 @@ Vea **Enviar un correo electrónico a un usuario con su información de conferen
   
 - Para deshabilitar el envío de correos electrónicos, ejecute lo siguiente: 
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
   ```
 

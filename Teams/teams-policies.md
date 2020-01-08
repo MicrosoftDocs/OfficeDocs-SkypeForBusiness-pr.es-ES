@@ -22,12 +22,12 @@ f1keywords:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-ms.openlocfilehash: 02c7258ebc316d5e08c77698e18935eb51b5b43d
-ms.sourcegitcommit: f2c7626dbef4ed250b9a937a9b56d46fe2e2039e
+ms.openlocfilehash: cd107de8b253ca2c5adfe1b23ed8484f152a5f5e
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2019
-ms.locfileid: "39998818"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962988"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Administrar directivas de Teams en Microsoft Teams
 
@@ -89,15 +89,15 @@ En este ejemplo, asignamos una directiva de Teams denominada Directiva de market
 > Asegúrese de conectarse primero al módulo de Azure Active Directory PowerShell para Graph y al módulo de PowerShell de Skype empresarial siguiendo los pasos de [conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window).
 
 Obtén la GroupObjectId del grupo en particular.
-```
+```PowerShell
 $group = Get-AzureADGroup -SearchString "Contoso Marketing"
 ```
 Obtener los miembros del grupo especificado.
-```
+```PowerShell
 $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-Object {$_.ObjectType -eq "User"}
 ```
 Asignar todos los usuarios del grupo a una directiva de equipos en particular. En este ejemplo, se trata de una política de Teams.
-```
+```PowerShell
 $members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "Marketing Teams Policy" -Identity $_.UserPrincipalName}
 ``` 
 Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.

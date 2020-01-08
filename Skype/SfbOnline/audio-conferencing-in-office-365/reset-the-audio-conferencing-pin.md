@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Descubra lo que debe saber sobre los pin y cómo restablecerlos en Skype empresarial online. '
-ms.openlocfilehash: ca2bbef02b0c6ecdefef700ca316188f5c544070
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: a00c36475059a05bb7cf3a9057920b63a09e9a43
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792282"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962698"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Restablecer el PIN de audioconferencia en Skype empresarial online
 
@@ -81,7 +81,7 @@ Un usuario puede restablecer un PIN con la opción **restablecer PIN** de la pá
     
 - Para establecer el PIN para Guillermo Rodarte, ejecute:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com -ResetLeaderPIN
   ```
 

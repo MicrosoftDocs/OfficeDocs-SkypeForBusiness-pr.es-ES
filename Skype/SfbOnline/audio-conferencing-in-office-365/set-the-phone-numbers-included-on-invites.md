@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: b7f86f114601bf4e1658a65b5a8d6520c2785e1c
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 33c2f69cbd05efedf5af1bb35c7ea5d560930da4
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792157"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962518"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Configurar los números de teléfono incluidos en los invitados en Skype empresarial online
 
@@ -35,7 +35,7 @@ ms.locfileid: "35792157"
 Las conferencias de audio en Office 365 permiten a los usuarios de su organización crear reuniones de Skype empresarial y, a continuación, permitir que los usuarios llamen a esas reuniones con un teléfono. En Office 365, tiene la opción de usar un puente de conferencias de audio de Microsoft o un puente de conferencias de audio de terceros hospedado por un proveedor de servicios de audioconferencia (ACP) aprobado.
   
 > [!NOTE]
-> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si desea ver si hay números de teléfono de acceso telefónico local disponibles en su zona o país o región, use los**** > **números de teléfono**de telefonía del **Centro** > de administración de Skype empresarial, haga clic en **Agregar** y luego en **nuevos números de servicio **. Use las listas de **país o región**, **Estado o región** y **ciudad** para filtrar la búsqueda. > también, si busca números de servicio gratuitos, seleccione gratuito en **** la lista **Estado o región** .
+> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si desea ver si hay números de teléfono de acceso telefónico local disponibles en su zona o país o región, use los > **números de teléfono****de telefonía del** **Centro** > de administración de Skype empresarial, haga clic en **Agregar** y luego en **nuevos números de servicio**. Use las listas de **país o región**, **Estado o región** y **ciudad** para filtrar la búsqueda. > también, si busca **números de servicio gratuitos, seleccione gratuito** en la lista **Estado o región** .
   
 Un puente de conferencia le ofrece un conjunto de números de teléfono de acceso telefónico local para su organización. Todas ellas se pueden usar para unirse a las reuniones que ha creado el organizador de la reunión, pero puede seleccionar cuáles se incluirán en sus invitaciones a reuniones.
   
@@ -71,7 +71,7 @@ Un puente de conferencia le ofrece un conjunto de números de teléfono de acces
     
 7. En la página **propiedades** , en la lista **nombre del proveedor** , elija el proveedor para el usuario. Según el proveedor, complete los siguientes cuadros.
     
-   - **Microsoft es el proveedor**: usa el **número de pago predeterminado** y las listas de números gratuitos predeterminadas para seleccionar los números predeterminados para el usuario. ****
+   - **Microsoft es el proveedor**: usa el **número de pago predeterminado** y las listas de números gratuitos **predeterminadas** para seleccionar los números predeterminados para el usuario.
     
      > [!NOTE]
      > Se debe asignar al menos un número gratuito al puente de conferencia antes de que se pueda establecer como el número de teléfono gratuito predeterminado de un usuario. Para obtener un número gratuito, consulte [obtener números de teléfono de servicio para Skype empresarial](/microsoftteams/getting-service-phone-numbers). 
@@ -100,7 +100,7 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
     
     Para cambiar el número gratuito predeterminado de un usuario, ejecute:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialinConferencingUser -Identity amos.marble@Contoso.com -TollFreeServiceNumber   +180045551234
   ```
 
@@ -109,25 +109,25 @@ De forma predeterminada, al cambiar la configuración de conferencia de un usuar
     > [!NOTE]
     > Para encontrar el BridgeID, use el cmdlet **Get-CsOnlineDialInConferencingBridge** .
   
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
   - Para establecer el número gratuito predeterminado para todos los usuarios que no tengan entre 1 y + 18005551234, ejecute:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
   ```
 
   - Para cambiar el número gratuito predeterminado de todos los usuarios que tienen + 18005551234 como su número gratuito predeterminado a + 18005551239, ejecute:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id>
   ```
 
   - Para establecer el número gratuito predeterminado de todos los usuarios de Estados Unidos a + 18005551234, ejecute:
     
-  ```
+  ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
   ## <a name="want-to-learn-more-about-windows-powershell"></a>¿Quiere obtener más información sobre Windows PowerShell?

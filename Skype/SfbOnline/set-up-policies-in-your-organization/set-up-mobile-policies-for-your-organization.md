@@ -17,17 +17,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Puede configurar la forma en que los usuarios se conectan a Skype empresarial online con la aplicación de Skype empresarial en dispositivos móviles, como una característica que permite a los usuarios realizar y recibir llamadas telefónicas en su teléfono móvil usando su número de teléfono del trabajo en lugar de su teléfono móvil nu mber. Las directivas de movilidad también se pueden usar para requerir conexiones WiFi para hacer o recibir llamadas.
-ms.openlocfilehash: 1e5cb04bbd63c91d1302ace41b1c9bdbaa492574
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+description: Puede configurar la forma en que los usuarios se conectan a Skype empresarial online con la aplicación de Skype empresarial en dispositivos móviles, como una característica que permite a los usuarios realizar y recibir llamadas telefónicas en su teléfono móvil usando su número de teléfono del trabajo en lugar de su teléfono móvil nu mber. Las directivas de movilidad también se pueden usar para requerir conexiones Wi-Fi al realizar o recibir llamadas.
+ms.openlocfilehash: 8ade1f69c7374009ea0f19fb1e777df76b45220c
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792469"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962558"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Establecer directivas móviles en su organización
 
-Puede configurar la forma en que los usuarios se conectan a Skype empresarial online con la aplicación de Skype empresarial en dispositivos móviles, como una característica que permite a los usuarios realizar y recibir llamadas telefónicas en su teléfono móvil usando su número de teléfono del trabajo en lugar de su teléfono móvil nu mber. Las directivas de movilidad también se pueden usar para requerir conexiones WiFi para hacer o recibir llamadas.
+Puede configurar la forma en que los usuarios se conectan a Skype empresarial online con la aplicación de Skype empresarial en dispositivos móviles, como una característica que permite a los usuarios realizar y recibir llamadas telefónicas en su teléfono móvil usando su número de teléfono del trabajo en lugar de su teléfono móvil nu mber. Las directivas de movilidad también se pueden usar para requerir conexiones Wi-Fi al realizar o recibir llamadas.
   
 La configuración de la Directiva móvil se puede configurar en el momento en que se crea una directiva o puede usar el cmdlet **set-CsMobilityPolicy** para modificar la configuración de una directiva existente.
   
@@ -44,11 +44,11 @@ La configuración de la Directiva móvil se puede configurar en el momento en qu
     
 2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
     
-3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le solicite.
+3. Si no tiene la versión 3,0 o superior, debe descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le pida.
     
 4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-    Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Iniciar una sesión de Windows PowerShell**
     
@@ -59,68 +59,68 @@ La configuración de la Directiva móvil se puede configurar en el momento en qu
     > [!NOTE]
     > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ### <a name="require-a-wifi-connection-for-video-for-a-user"></a>Requerir que un usuario disponga de conexión WiFi para usar el vídeo
 
 - Para crear una nueva Directiva para esta configuración, ejecute:
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity MobilityPolicy -RequireWIFIForIPVideo $true
   > ```
-  > Para obtener más información, consulte el cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) .
+  > Para obtener más información, consulte el cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Para conceder la nueva directiva que ha creado a todos los usuarios de su organización, ejecute:
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity"amos.marble@contoso.com" -PolicyName MobilityPolicy
   > ```
-  > Para obtener más información, consulta el cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) .
+  > Para obtener más información, consulta el cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) .
     
-  Si ya ha creado una directiva, puede usar el cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet[Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) para aplicar la configuración a los usuarios.
+  Si ya ha creado una directiva, puede usar el cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="prevent-a-user-from-using-the-skype-for-business-app"></a>Impedir que un usuario use la aplicación Skype Empresarial
 
 - Para crear una nueva Directiva para esta configuración, ejecute:
-  ```
+  ```PowerShell
   New-CsMobilityPolicy -Identity NoAppClientPolicy -EnableMobility $false 
   ```
-  Para obtener más información, consulte el cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) .
+  Para obtener más información, consulte el cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Para conceder a la nueva directiva que ha creado a amos Marble, ejecute:  
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com"-PolicyName NoAppClientPolicy
   > ```
-  > Para obtener más información, consulta el cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) .
+  > Para obtener más información, consulta el cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) .
     
-  Si ya ha creado una directiva, puede usar el cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) para aplicar la configuración a los usuarios.
+  Si ya ha creado una directiva, puede usar el cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="prevent-a-user-from-making-voice-over-ip-calls-using-a-mobile-device"></a>Impedir que un usuario haga llamadas de voz sobre IP con un dispositivo móvil
 
 - Para crear una nueva Directiva para esta configuración, ejecute:
   > 
-  > ```
+  > ```PowerShell
   > New-CsMobilityPolicy -Identity VoIPClientPolicy -EnableIPAudioVideo  $false
   > ```
-  > Para obtener más información, consulte el cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779150.aspx) .
+  > Para obtener más información, consulte el cmdlet [New-CsMobilityPolicy](https://technet.microsoft.com/library/mt779150.aspx) .
     
 - Para conceder la nueva directiva que ha creado a todos los usuarios de su organización, ejecute:
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsMobilityPolicy -Identity "amos.marble@contoso.com" -PolicyName VoIPClientPolicy
   > ```
 
-  Para obtener más información, consulta el cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) .
+  Para obtener más información, consulta el cmdlet [Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) .
     
-Si ya ha creado una directiva, puede usar el cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779147.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet[Grant-CsMobilityPolicy](https://technet.microsoft.com/en-us/library/mt779149.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [set-CsMobilityPolicy](https://technet.microsoft.com/library/mt779147.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet[Grant-CsMobilityPolicy](https://technet.microsoft.com/library/mt779149.aspx) para aplicar la configuración a los usuarios.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 

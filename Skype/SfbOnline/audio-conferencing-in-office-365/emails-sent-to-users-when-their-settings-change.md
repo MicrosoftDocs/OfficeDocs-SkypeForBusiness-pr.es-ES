@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de qué información se envía automáticamente a los usuarios por correo electrónico cuando cambia la configuración de la Conferencia de acceso telefónico local en Skype empresarial online. '
-ms.openlocfilehash: 4f1916778985012754cc436f37e76f0097dd49e9
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8a0ecc27e3184b8258db7e094beb9f3c4b64796d
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792439"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962728"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Correos electrónicos enviados a los usuarios cuando cambia la configuración en Skype empresarial online
 
@@ -96,7 +96,7 @@ Puede realizar cambios en el correo electrónico que se envía automáticamente 
     
 Puede realizar cambios en el correo electrónico que se envía a los usuarios, como la dirección de correo electrónico desde la que se envía el correo electrónico y el nombre para mostrar del correo electrónico, ejecutando:
   
-```
+```PowerShell
 Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailFromAddress amos.marble -SendEmailFromDisplayName "Amos Marble"
 ```
 
@@ -126,7 +126,7 @@ Vea **Enviar un correo electrónico a un usuario con su información de conferen
   
 1. Ejecute las acciones siguientes para deshabilitar el envío de todos los correos electrónicos a sus usuarios:
     
-   ```
+   ```PowerShell
    Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $false
    ```
 

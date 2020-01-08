@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Las directivas de cliente ayudan a determinar las funciones de Skype Empresarial Online que estarán disponibles para los usuarios. Por ejemplo, puede dar a algunos usuarios permiso para transferir archivos, pero no a otros.
-ms.openlocfilehash: c765f26aa1fe6ac1f041773a8aedb0ff48b52db8
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: d43094e8fbdbb25276b617f005cd71ce859d1362
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792499"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962568"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>Establecer directivas de cliente en su organización
 
@@ -44,11 +44,11 @@ La configuración de la Directiva de cliente se puede configurar en el momento e
     
 2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
     
-3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le solicite.
+3. Si no tiene la versión 3,0 o superior, debe descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le pida.
     
 4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-    Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Iniciar una sesión de Windows PowerShell**
     
@@ -59,78 +59,78 @@ La configuración de la Directiva de cliente se puede configurar en el momento e
     > [!NOTE]
     > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>Deshabilitar emoticonos y notificaciones de presencia y evitar el guardado de mensajes instantáneos
 
 - Para crear una nueva Directiva para esta configuración, ejecute:
     
 > 
->   ```
+>   ```PowerShell
 >   New-CsClientPolicy -Identity ClientPolicy -DisableEmoticons $true -DisablePresenceNote -$true -DisableSavingIM $true
 >   ```
 
-  Para obtener más información, consulte el cmdlet [New-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  Para obtener más información, consulte el cmdlet [New-ClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) .
     
 - Para conceder la nueva directiva que ha creado a todos los usuarios de su organización, ejecute:
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ClientPolicy
 >   ```
 
-  Para obtener más información, consulta el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Para obtener más información, consulta el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) .
     
-Si ya ha creado una directiva, puede usar el cmdlet [set-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [set-ClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="enable-urls-or-hyperlinks-to-be-clickable-in-ims"></a>Permitir que se pueda hacer clic en las URL y los hiperenlaces en MI
 
 - Para crear una nueva Directiva para esta configuración, ejecute:
     
 > 
->   ```
+>   ```PowerShell
 >   New-CsClientPolicy -Identity URLClientPolicy -EnableURL $true
 >   ```
 
-  Para obtener más información, consulte el cmdlet [New-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  Para obtener más información, consulte el cmdlet [New-ClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) .
     
 - Para conceder la nueva directiva que ha creado a todos los usuarios de su organización, ejecute:
     
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName URLClientPolicy
 >   ```
 
-  Para obtener más información, consulta el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Para obtener más información, consulta el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) .
     
-Si ya ha creado una directiva, puede usar el cmdlet [set-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
+Si ya ha creado una directiva, puede usar el cmdlet [set-ClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="prevent-showing-recent-contacts"></a>Impedir que se muestren los contactos recientes
 
 - Para crear una nueva Directiva para esta configuración, ejecute:
   > 
-  > ```
+  > ```PowerShell
   > New-CsClientPolicy -Identity ContactsClientPolicy -ShowRecentContacts $false 
   > ```
 
-  Para obtener más información, consulte el cmdlet [New-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779155.aspx) .
+  Para obtener más información, consulte el cmdlet [New-ClientPolicy](https://technet.microsoft.com/library/mt779155.aspx) .
     
 - Para conceder a la nueva directiva que ha creado a amos Marble, ejecute:
   > 
-  > ```
+  > ```PowerShell
   > Grant-CsClientPolicy -identity "amos.marble@contoso.com" -PolicyName ContactsClientPolicy
   > ```
 
-  Para obtener más información, consulta el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) .
+  Para obtener más información, consulta el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) .
     
-  Si ya ha creado una directiva, puede usar el cmdlet [set-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779153.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/en-us/library/mt779152.aspx) para aplicar la configuración a los usuarios.
+  Si ya ha creado una directiva, puede usar el cmdlet [set-ClientPolicy](https://technet.microsoft.com/library/mt779153.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-ClientPolicy](https://technet.microsoft.com/library/mt779152.aspx) para aplicar la configuración a los usuarios.
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Skype empresarial online le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de conferencia o del cliente, donde puede tener varias combinaciones, hay tres directivas de acceso externo predefinidas que pueden cubrir la mayoría de los escenarios.
-ms.openlocfilehash: 7f3edac77af8d9948ef7118c0f94b1ec9c3ae6c1
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 978bad4e87e3e7dbe2a9bac5565aa7a6a45ca2df
+ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792489"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962508"
 ---
 # <a name="create-custom-external-access-policies"></a>Crear directivas personalizadas de acceso externo
 
@@ -35,7 +35,7 @@ Skype empresarial online le permite crear directivas de acceso externo adicional
     
 - Acceso federado y de consumidor (_FederationAndPICDefault_)
     
-Las directivas externas personalizadas le permiten crear directivas adicionales que no están cubiertas por la configuración anterior. Cuando se creó la Directiva, se le pedirá que configure todos los parámetros necesarios y no podrá modificarlos más adelante. La creación de nuevas directivas personalizadas le permite controlar características como el acceso a los consumidores de Skype o una directiva para deshabilitar el audio/vídeo de la nube pública, que es algo que no se ha cubierto con la configuración predefinida. Las directivas de acceso externo personalizadas siguen la misma sintaxis que las directivas de cliente, movilidad y Conferencia. Puede obtener más información sobre esa configuración [aquí](https://technet.microsoft.com/en-us/library/mt228132.aspx).
+Las directivas externas personalizadas le permiten crear directivas adicionales que no están cubiertas por la configuración anterior. Cuando se creó la Directiva, se le pedirá que configure todos los parámetros necesarios y no podrá modificarlos más adelante. La creación de nuevas directivas personalizadas le permite controlar características como el acceso a los consumidores de Skype o una directiva para deshabilitar el audio/vídeo de la nube pública, que es algo que no se ha cubierto con la configuración predefinida. Las directivas de acceso externo personalizadas siguen la misma sintaxis que las directivas de cliente, movilidad y Conferencia. Puede obtener más información sobre esa configuración [aquí](https://technet.microsoft.com/library/mt228132.aspx).
   
 Para que esto funcione, el usuario debe usar una versión compatible de 2016 aplicación de Skype empresarial hacer clic y ejecutar que la admita. Se necesita la siguiente versión mínima de Skype empresarial 2016 cliente de hacer clic y ejecutar:
   
@@ -60,7 +60,7 @@ Para que esto funcione, el usuario debe usar una versión compatible de 2016 apl
     
 4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-    Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx).
+    Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Iniciar una sesión de Windows PowerShell**
     
@@ -71,26 +71,26 @@ Para que esto funcione, el usuario debe usar una versión compatible de 2016 apl
     > [!NOTE]
     > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
 
-   ```      
+   ```PowerShell      
     Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
     $credential = Get-Credential
     $session = New-CsOnlineSession -Credential $credential
     Import-PSSession $session
    ```
 
-   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+   Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Crear una directiva de acceso externo personalizada para un usuario
 
 Para ello, ejecute:
   
 > 
->   ```
+>   ```PowerShell
 >   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
 >   ```
 > 
 > 
->   ```
+>   ```PowerShell
 >   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
 >   ```
 
