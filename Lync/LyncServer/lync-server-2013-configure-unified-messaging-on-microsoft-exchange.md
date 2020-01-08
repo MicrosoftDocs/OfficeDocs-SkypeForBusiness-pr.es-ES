@@ -10,12 +10,12 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fcbdbfbca5f532b1ca192cc0e9d89e93e3c8acb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c4a97a97d96f91b0433c65b7eb3e352dcf47c7d5
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842327"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,15 +57,15 @@ En este tema se describe cómo configurar la mensajería unificada de Exchange e
     
 
     > [!WARNING]  
-    > Si establece el valor de configuración de seguridad en <STRONG>SIP protegido</STRONG> para requerir el cifrado solo para el tráfico SIP, como se recomienda anteriormente, tenga en cuenta que esta configuración de seguridad en un plan de marcado es insuficiente si el grupo de servidores Front-End está configurado para requerir cifrado, lo que significa el grupo requiere cifrado para el tráfico de SIP y de RTP. Cuando el plan de marcado y la configuración de seguridad del grupo no son compatibles, todas las llamadas a la mensajería unificada de Exchange desde el grupo de servidores front-end producirán un error que indica que tiene una "configuración de seguridad incompatible".
+    > Si establece el valor de configuración de seguridad en <STRONG>SIP protegido</STRONG> para requerir el cifrado solo para el tráfico SIP, tal y como se recomienda anteriormente, tenga en cuenta que esta configuración de seguridad en un plan de marcado es insuficiente si el grupo de servidores Front-End está configurado para requerir cifrado, lo que significa que el grupo requiere cifrado para el tráfico SIP y RTP. Cuando el plan de marcado y la configuración de seguridad del grupo no son compatibles, todas las llamadas a la mensajería unificada de Exchange desde el grupo de servidores front-end producirán un error que indica que tiene una "configuración de seguridad incompatible".
 
     
     </div>
     
     Si usa el shell de administración de Exchange, escriba:
-    
-        New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
-    
+    ```powershell
+     New-UMDialPlan -Name <dial plan name> -UriType "SipName" -VoipSecurity <SIPSecured|Unsecured|Secured> -NumberOfDigitsInExtension <number of digits> -AccessTelephoneNumbers <access number in E.164 format>
+    ```
     Para obtener más información, consulte:
     
       - Para Office Communications Server 2007, consulte "cómo crear un plan de marcado URI del SIP de mensajería unificada" en [http://go.microsoft.com/fwlink/p/?LinkId=268632](http://go.microsoft.com/fwlink/p/?linkid=268632) y "New-UMDialplan: Exchange 2007 [http://go.microsoft.com/fwlink/p/?LinkId=268666](http://go.microsoft.com/fwlink/p/?linkid=268666)Help" en.
@@ -85,7 +85,7 @@ En este tema se describe cómo configurar la mensajería unificada de Exchange e
 
 2.  Ejecute el siguiente cmdlet para obtener el nombre de dominio completo (FQDN) de cada plan de marcado de MU:
     
-    ``` 
+    ```powershell
     (Get-UMDialPlan <dialplanname>).PhoneContext  
     ```
     
@@ -119,12 +119,12 @@ En este tema se describe cómo configurar la mensajería unificada de Exchange e
         Para Exchange 2013, consulte "mensajería unificada" [http://go.microsoft.com/fwlink/p/?LinkID=266579](http://go.microsoft.com/fwlink/p/?linkid=266579)en.
     
       - Si usa el shell de administración de Exchange, ejecute lo siguiente para cada uno de los servidores de mensajería unificada de Exchange:
-        
-            $ums=get-umserver; 
-            $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
-            $ums[0].DialPlans +=$dp.Identity; 
-            set-umservice -instance $ums[0]
-    
+        ```powershell
+        $ums=get-umserver; 
+        $dp=get-umdialplan -id <name of dial-plan created in step 1>; 
+        $ums[0].DialPlans +=$dp.Identity; 
+        set-umservice -instance $ums[0]
+        ```
     <div>
     
 
@@ -135,13 +135,13 @@ En este tema se describe cómo configurar la mensajería unificada de Exchange e
     </div>
 
 5.  Vaya a \<las secuencias de\>\\comandos del directorio de instalación de Exchange y, si Exchange se implementa en un único bosque, escriba:
-    
-        exchucutil.ps1
-    
+    ```console
+    exchucutil.ps1
+    ```
     O bien, si Exchange se implementa en varios bosques, escriba:
-    
-        exchucutil.ps1 -Forest:"<forest FQDN>"
-    
+    ```console
+    exchucutil.ps1 -Forest:"<forest FQDN>"
+    ```
     donde FQDN de bosque especifica el bosque en el que se implementa Lync Server.
     
     Si tiene uno o varios planes de marcado de MU asociados con varias puertas de enlace IP, continúe con el paso 6. Si los planes de marcado están asociados a una sola puerta de enlace IP, omita el paso 6.
@@ -176,9 +176,9 @@ En este tema se describe cómo configurar la mensajería unificada de Exchange e
     </div>
     
       - Si usa el shell de administración de Exchange, deshabilite cada puerta de enlace IP ejecutando el siguiente comando:
-        
-            Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
-        
+        ```powershell
+        Set-UMIPGateway <gatewayname> -OutcallsAllowed $false
+        ```
         Para Exchange 2007, consulte "Set-UMIPGateway: Exchange 2007 Help" en [http://go.microsoft.com/fwlink/p/?LinkId=268687](http://go.microsoft.com/fwlink/p/?linkid=268687).
         
         Para Exchange 2010, consulte "Set-UMIPGateway: Exchange 2010 Help" en [http://go.microsoft.com/fwlink/p/?LinkId=268688](http://go.microsoft.com/fwlink/p/?linkid=268688).
@@ -205,8 +205,9 @@ En este tema se describe cómo configurar la mensajería unificada de Exchange e
     
     </div>
     
-        New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
-    
+    ```powershell
+    New-umautoattendant -name <auto attendant name> -umdialplan < name of dial plan created in step 1> -PilotIdentifierList <auto attendant phone number in E.164 format> -SpeechEnabled $true -Status Enabled
+    ```
     Para obtener más información, consulte:
     
       - Para Exchange 2007, consulte "New-UMAutoAttendant: Exchange 2007 Help" en [http://go.microsoft.com/fwlink/p/?LinkId=268689](http://go.microsoft.com/fwlink/p/?linkid=268689).
@@ -226,8 +227,9 @@ En este tema se describe cómo configurar la mensajería unificada de Exchange e
     
     </div>
     
-        enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
-    
+    ```powershell
+    enable-ummailbox -id <user name> -ummailboxpolicy <name of the mailbox policy for the dial plan created in step 1> -Extensions <extension> -SIPResourceIdentifier "<user name>@<full domain name>" -PIN <user pin>
+    ```
     Para obtener más información, consulte:
     
       - Para Exchange 2007, consulte "Enable-UMMailbox: Exchange 2007 Help" [http://go.microsoft.com/fwlink/p/?LinkId=268691](http://go.microsoft.com/fwlink/p/?linkid=268691)en.

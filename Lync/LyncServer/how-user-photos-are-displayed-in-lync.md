@@ -10,12 +10,12 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 941c1ab56feea557dfc792ea0af6415dd2a56851
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ac13f066c24f66640aee1360caf1d341d604474
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842872"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971173"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -91,7 +91,7 @@ Entre las consideraciones para usar imágenes de los servicios de dominio de Act
 
 El usuario no puede cambiar la imagen usada en el perfil de los servicios de dominio de Active Directory directamente a través del cliente de Lync 2010. Puede usar una de las siguientes opciones para hacerlo, si está disponible:
 
-  - ****   Los usuarios de SharePoint Server pueden cargar una foto en ' mi sitio ' en un servidor de SharePoint y, a continuación, [configurar la sincronización de perfiles en SharePoint](http://go.microsoft.com/fwlink/p/?linkid=507466) para sincronizar la foto con el atributo **thumbnailPhoto** en el dominio de Active Directory Servicios.
+  - ****   Los usuarios de SharePoint Server pueden cargar una foto en ' mi sitio ' en un servidor de SharePoint y, a continuación, [configurar la sincronización de perfiles en SharePoint](http://go.microsoft.com/fwlink/p/?linkid=507466) para sincronizar la foto con el atributo **thumbnailPhoto** en servicios de dominio de Active Directory.
 
   - **Foto almacenada en la dirección URL**   de acceso público puede configurar su foto de usuario especificando una dirección URL accesible públicamente para la imagen que desea usar. La imagen debe ser públicamente accesible sin una contraseña. La imagen almacenada en la dirección Web especificada se transfiere a otros usuarios a través de la categoría tarjeta de contacto de la información de presencia. Cuando el cliente de Lync necesita mostrar una foto de usuario, recupera la imagen de la dirección Web especificada.
 
@@ -121,7 +121,7 @@ Entre las consideraciones para usar imágenes de una dirección web se incluyen 
 
 ## <a name="managing-users-photo-with-client-policy-cmdlets"></a>Administrar la foto del usuario con cmdlets de directiva de cliente
 
-En Lync Server 2010, la configuración de la Directiva de cliente está configurada con los cmdlets de ClientPolicy. La configuración de la Directiva configurada se envía a los clientes mediante aprovisionamiento en banda. Los dos parámetros de los cmdlets de ClientPolicy que determinan la experiencia de foto del usuario son **DisplayPhoto** y **MaxPhotoSizeKB**. El parámetro de aprovisionamiento dentro de banda correspondiente para **DisplayPhoto** y **MaxPhotoSizeKB** se denomina " **fotousage**". Los valores para **** el parámetro de fotouso se envían a los clientes a través de la **endpointConfiguration** **provisionGroup**. Para obtener más información [, vea información general sobre la configuración y las directivas de cliente](http://go.microsoft.com/fwlink/?linkid=507470) .
+En Lync Server 2010, la configuración de la Directiva de cliente está configurada con los cmdlets de ClientPolicy. La configuración de la Directiva configurada se envía a los clientes mediante aprovisionamiento en banda. Los dos parámetros de los cmdlets de ClientPolicy que determinan la experiencia de foto del usuario son **DisplayPhoto** y **MaxPhotoSizeKB**. El parámetro de aprovisionamiento dentro de banda correspondiente para **DisplayPhoto** y **MaxPhotoSizeKB** se denomina " **fotousage**". Los valores para el parámetro de **fotouso** se envían a los clientes a través de la **endpointConfiguration** **provisionGroup**. Para obtener más información [, vea información general sobre la configuración y las directivas de cliente](http://go.microsoft.com/fwlink/?linkid=507470) .
 
 El valor del parámetro **DisplayPhoto** determina el origen de la imagen de foto del usuario. En la tabla siguiente se incluyen los valores admitidos.
 
@@ -194,7 +194,7 @@ Después, después de recuperar el archivo de imagen, el cliente de Lync 2010 co
 Además, el cliente comprueba el servidor cada 24 horas desde el momento en que se creó la versión en caché del archivo de imagen para comparar el valor del atributo **fotohash** en el servidor con el valor en el cliente. Si los valores son diferentes, el cliente sabe que el archivo de imagen ha cambiado. Para obtener el archivo de imagen actualizado, el cliente consulta nuevamente el servicio ABWQ para actualizar el archivo de imagen en la memoria caché del cliente con el archivo de imagen en el servidor, que también restablece la **marca de hora** en el archivo en la memoria caché del cliente.
 
 La siguiente es una respuesta de ejemplo a una consulta para el servicio ABWQ:
-
+```xml
     <Attribute>
               <Name>PhotoRelPath</Name>
               <Value>efa6096aed2746cb9ab2037f7dbdde9d.f2eeeb5946db54a7aa607ecd3ae09d
@@ -212,6 +212,7 @@ La siguiente es una respuesta de ejemplo a una consulta para el servicio ABWQ:
          <Valuesxmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays"
     i:nil="true" />
     </Attribute>
+```
 
 </div>
 
@@ -249,19 +250,19 @@ La opción **Mostrar imagen de un sitio web** está disponible en Lync 2013 desp
 
 Puede establecer la Directiva de cliente para habilitar la **visualización de la imagen de una configuración de sitio web** ejecutando la directiva [set-ClientPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsClientPolicy) en el shell de administración de Lync Server. En los siguientes cmdlets de ejemplo se muestra cómo establecer la Directiva globalmente para todos los usuarios de la implementación:
 
-   ```
+   ```powershell
     $pe=New-CsClientPolicyEntry -Name EnablePresencePhotoOptions -Value True
    ```
 
-   ```
+   ```powershell
     $po=Get-CsClientPolicy -Identity Global
    ```
 
-   ```
+   ```powershell
     $po.PolicyEntry.Add($pe)
    ```
 
-   ```
+   ```powershell
     Set-CsClientPolicy -Instance $po
    ```
 

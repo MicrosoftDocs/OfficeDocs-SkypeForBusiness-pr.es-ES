@@ -10,12 +10,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b22880b230acda74c7485010550d5576ea200c61
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eef2e96b1e58bb9a92b2dc9748624d38f605965f
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835551"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971243"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,24 +69,24 @@ Actualizaciones acumulativas para Lync Server 2013: el 2013 de junio agrega comp
 2.  Cree certificados para AD FS. Para obtener más información, consulte la sección "certificados de servidor de Federación" de los temas planear e implementar AD FS para su uso con el inicio [http://go.microsoft.com/fwlink/p/?LinkId=285376](http://go.microsoft.com/fwlink/p/?linkid=285376)de sesión único en.
 
 3.  Desde la interfaz de línea de comandos de Windows PowerShell, ejecute el siguiente comando:
-    
-        add-pssnapin Microsoft.Adfs.powershell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.powershell
+    ```
 4.  Establezca una relación de usuario mediante la ejecución del siguiente comando:
-    
-        Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+    ```
 5.  Defina las siguientes reglas de usuario de confianza:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
        ```
     
-       ```
+       ```powershell
         Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
        ```
 
@@ -101,9 +101,9 @@ Actualizaciones acumulativas para Lync Server 2013: el 2013 de junio agrega comp
 ## <a name="the-time-and-date-are-not-set-accurately-on-the-device-running-lync-windows-store-app"></a>La fecha y la hora no se establecen correctamente en el dispositivo que ejecuta la aplicación de la tienda Windows de Lync
 
 La configuración de hora del dispositivo debe estar sincronizada con la configuración de hora del servidor. Esto es especialmente importante para dispositivos como Microsoft Surface y otros dispositivos que ejecutan Windows RT que no están Unidos a un dominio. Para establecer la hora en estos dispositivos de forma automática desde un servidor de hora, ejecute el siguiente comando desde un símbolo del sistema con privilegios elevados en el dispositivo:
-
-    w32tm /resync
-
+```console
+w32tm /resync
+```
 </div>
 
 <div>
@@ -127,9 +127,9 @@ Si su topología consta de Lync Server 2010 con el servidor perimetral R2 de Off
     1.  Abra el Shell de administración de Lync Server.
     
     2.  Ejecute el siguiente comando:
-        
-            Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
-
+        ```powershell
+        Set-CsAutodiscoverConfiguration -ExternalSipClientAccessFqdn <FQDN of server used for external client access> -ExternalSipClientAccessPort 443
+        ```
 </div>
 
 <div>

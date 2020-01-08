@@ -10,12 +10,12 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0ce65ed39e67068fcd57aba1177ecb72f553ccf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53d5bdfe3b341f534a3e8066fe85be5e93b0a7f7
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835848"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971271"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,11 +63,11 @@ Para obtener detalles sobre la configuración de objetos de contacto, consulte l
 
 2.  Ejecute el cmdlet New-CsExUmContact para crear cualquier objeto de contacto necesario para su implementación. Por ejemplo, ejecute lo siguiente para crear un objeto de contacto de AA y de SA:
     
-       ```
+       ```powershell
         New-CsExUmContact -SipAddress "sip:exumaa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101" -AutoAttendant $True
        ```
     
-       ```
+       ```powershell
         New-CsExUmContact -SipAddress "sip:exumsa1@fabrikam.com" -RegistrarPool "RedmondPool.litwareinc.com" -OU "HostedExUM Integration" -DisplayNumber "+14255550101"
        ```
     

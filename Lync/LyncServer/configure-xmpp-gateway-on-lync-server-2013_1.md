@@ -11,12 +11,12 @@ ms:contentKeyID: 49733538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e972b8729126615a375f4d82f4c378a71642a4fb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 185a52322ad0eea681e9a3318787921d9c49453a
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233252"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971152"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ Al configurar directivas para la compatibilidad de los socios federados protocol
 
 3.  En la página **solicitud de certificado** , haga clic en certificado de **borde externo**.
 
-4.  En la página **solicitud inmediata o** demorada, active la casilla **preparar la solicitud ahora pero enviarla más tarde** .
+4.  En la página **solicitud inmediata o demorada** , active la casilla **preparar la solicitud ahora pero enviarla más tarde** .
 
 5.  En la **Página archivo de solicitud de certificado** , escriba la ruta de acceso completa y el nombre del archivo en el que se va a guardar la solicitud (por\\ejemplo\_,\_c: CERT la Edge. cer).
 
@@ -69,7 +69,7 @@ Al configurar directivas para la compatibilidad de los socios federados protocol
     
     2.  En **longitud bit**, especifique la longitud en bits (normalmente, el valor predeterminado de 2048).
     
-    3.  Compruebe que la casilla **marcar clave privada de certificado como** exportable está activada.
+    3.  Compruebe que la casilla **marcar clave privada de certificado como exportable** está activada.
 
 8.  En la página información de la **organización** , escriba el nombre de la organización y la unidad organizativa (por ejemplo, una división o un departamento).
 
@@ -100,11 +100,11 @@ Al configurar directivas para la compatibilidad de los socios federados protocol
 
 17. Después de recibir, importar y asignar el certificado público, debe detener y reiniciar los servicios del servidor perimetral. Esto se hace escribiendo en la consola de administración de Lync Server:
     
-       ```
+       ```console
         Stop-CsWindowsService
        ```
     
-       ```
+       ```console
         Start-CsWindowsService
        ```
 
@@ -140,7 +140,7 @@ Al configurar directivas para la compatibilidad de los socios federados protocol
     
       - **Pública verificada** un socio **verificado públicamente** es un proveedor de XMPP público en el que se confía para comprobar la identidad de los usuarios.Los contactos XMPP pueden agregar contactos de Lync y ver su estado de presencia y enviarles mensajes instantáneos sin autorización expresa de los usuarios de Lync.Los contactos XMPP de las redes públicas verificadas nunca ven las notas de estado de los usuarios de Lync.No se recomienda esta opción.
     
-      - No se ha comprobado el **público** Un socio **público** no verificado es un proveedor de XMPP público en el que no se confía para comprobar la identidad de los usuarios.Los usuarios XMPP de redes públicas no verificadas no pueden comunicarse con los usuarios de Lync a menos que el usuario de Lync los haya autorizado expresamente agregándolos a la lista de contactos.Los usuarios XMPP de redes públicas sin verificar nunca ven las notas de estado de los usuarios de Lync.Se recomienda esta opción para cualquier federación con proveedores de XMPP público, como Google Talk.
+      - No se ha **comprobado el público** Un socio **público no verificado** es un proveedor de XMPP público en el que no se confía para comprobar la identidad de los usuarios.Los usuarios XMPP de redes públicas no verificadas no pueden comunicarse con los usuarios de Lync a menos que el usuario de Lync los haya autorizado expresamente agregándolos a la lista de contactos.Los usuarios XMPP de redes públicas sin verificar nunca ven las notas de estado de los usuarios de Lync.Se recomienda esta opción para cualquier federación con proveedores de XMPP público, como Google Talk.
 
 9.  **Tipo de conexión:** Define las diversas reglas y la configuración de Dialback.
     

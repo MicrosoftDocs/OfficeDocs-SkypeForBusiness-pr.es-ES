@@ -10,12 +10,12 @@ ms:contentKeyID: 54973682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 924f9c1b6e7fe64186eeee6a34364417d497866b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a88fb9db7109bdd2a2938f8f9624b4fd0f369fd9
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842295"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971215"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,37 +57,37 @@ En la siguiente sección se describe cómo configurar los servicios de federaci�
 2.  Inicie Windows PowerShell.
 
 3.  Desde la línea de comandos de Windows PowerShell, ejecute el siguiente comando:
-    
-        add-pssnapin Microsoft.Adfs.PowerShell
-
+    ```powershell
+    add-pssnapin Microsoft.Adfs.PowerShell
+    ```
 4.  Establezca una asociación con cada servidor de Lync Server 2013 con actualizaciones acumulativas para Lync Server 2013: Director de 2013 julio de 2017, grupo empresarial y servidor Standard Edition que se habilitará para la autenticación pasiva ejecutando el siguiente comando, sustituyendo el nombre del servidor específico de su implementación:
-    
-        Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
-
+    ```powershell
+    Add-ADFSRelyingPartyTrust -Name LyncPool01-PassiveAuth -MetadataURL https://lyncpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
+     ```
 5.  Desde el menú Herramientas administrativas, inicie la consola de administración de AD FS 2.0.
 
-6.  Expanda **relaciones** \> **** de confianza confianzas de usuario de confianza.
+6.  Expanda **relaciones** \> de confianza **confianzas**de usuario de confianza.
 
 7.  Compruebe que se ha creado una nueva confianza para su Lync Server 2013 con las actualizaciones acumulativas para Lync Server 2013: Grupo de servidores Enterprise o servidor Standard Edition de julio de 2013.
 
 8.  Cree y asigne una regla de autorización de emisión para la relación de confianza para usuario autenticado por medio de Windows PowerShell ejecutando los siguientes comandos:
     
-       ```
+       ```powershell
         $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth 
         -IssuanceAuthorizationRules $IssuanceAuthorizationRules
        ```
 
 9.  Cree y asigne una regla de transformación de emisión para la relación de confianza para usuario autenticado por medio de Windows PowerShell ejecutando los siguientes comandos:
     
-       ```
+       ```powershell
         $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
        ```
     
-       ```
+       ```powershell
         Set-ADFSRelyingPartyTrust -TargetName LyncPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
        ```
 

@@ -11,12 +11,12 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d48e08854b3c7aa66ca0f40224131b2785533e5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8e114d3f18e482c11a8e83c9d4308f3c5712932c
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233242"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971159"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,11 +58,11 @@ A continuación se proporcionan instrucciones para llevar a cabo estas tareas.
 
 2.  En la línea de comandos, escriba:
     
-       ```
+       ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
        ```
     
-       ```
+       ```PowerShell
         New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health\CentralDiscoveryCandidate"
        ```
     
@@ -77,7 +77,7 @@ A continuación se proporcionan instrucciones para llevar a cabo estas tareas.
 
 **Configure su servidor de administración principal de System Center Operations Manager para invalidar el nodo de supervisor de detección central candidato.**
 
-1.  En un equipo en el que se haya instalado la consola de System Center Operations Manager, expanda los **objetos del módulo de administración** y seleccione descubrimientos de **objetos**.
+1.  En un equipo en el que se haya instalado la consola de System Center Operations Manager, expanda los **objetos del módulo de administración** y seleccione **descubrimientos de objetos**.
 
 2.  Haga clic en **cambiar ámbito...**
 

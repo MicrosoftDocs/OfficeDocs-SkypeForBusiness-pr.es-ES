@@ -10,12 +10,12 @@ ms:contentKeyID: 48185036
 ms.date: 12/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1496bda01456593066efd212241e3d930f1e2cc6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 270035730b8268c56b1730d8c212e90c8a9f1a30
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842348"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971257"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,11 +45,11 @@ Si está implementando la Federación de audio y vídeo (A/V) con Windows Live M
 
 2.  En el símbolo del sistema, escriba los siguientes comandos:
     
-       ```
+       ```powershell
         Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
        ```
     
-       ```
+       ```powershell
         Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
        ```
     

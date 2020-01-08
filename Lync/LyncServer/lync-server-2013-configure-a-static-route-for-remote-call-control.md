@@ -10,12 +10,12 @@ ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e6a388c602d30e6f60eac0c575d7640f63993f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a11b24fc8d4be54f5645853c050891d3821945e4
+ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842462"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40971222"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,16 +58,17 @@ El control remoto de llamadas requiere que cada grupo de servidores Lync esté c
     
       - Para una conexión de seguridad de nivel de transporte (TLS), escriba lo siguiente en el símbolo del sistema:
         
-            $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
-        
+        ```powershell
+        $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
+        ```
         Por ejemplo:
-        
-            $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
-        
+        ```powershell
+        $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
+        ```
         Si UseDefaultCertificate se establece en false, debe especificar parámetros TLSCertIssuer y TLSCertSerialNumber. Estos parámetros indican el nombre de la entidad de certificación (CA) que emitió el certificado que se usó en la ruta estática y el número de serie de ese certificado TLS, respectivamente. Para obtener más información sobre estos parámetros, consulte la ayuda del shell de administración de Lync Server escribiendo lo siguiente en el símbolo del sistema:
-        
-            Get-Help New-CsStaticRoute -Full
-    
+        ```powershell
+        Get-Help New-CsStaticRoute -Full
+        ```
       - Para una conexión de protocolo de control de transmisión (TCP), escriba lo siguiente en el símbolo del sistema:
         
         <div class="">
@@ -79,12 +80,13 @@ El control remoto de llamadas requiere que cada grupo de servidores Lync esté c
         
         </div>
         
-            $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
-        
+        ```powershell
+        $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
+        ```
         Por ejemplo:
-        
-            $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
-        
+        ```powershell
+        $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
+        ```
         A continuación se muestran los valores predeterminados de parámetros opcionales para rutas estáticas:
         
           - Enabled = true
@@ -94,16 +96,16 @@ El control remoto de llamadas requiere que cada grupo de servidores Lync esté c
           - ReplaceHostInRequestUri = false
         
         Le recomendamos encarecidamente que no cambie estos valores predeterminados. Sin embargo, si tiene que cambiar alguno de estos parámetros, consulte la ayuda del shell de administración de Lync Server escribiendo lo siguiente en el símbolo del sistema:
-        
-            Get-Help New-CsStaticRoute -Full
-
+        ```powershell
+        Get-Help New-CsStaticRoute -Full
+        ```
 4.  Para conservar una ruta estática recién creada en el almacén de administración central, ejecute una de las siguientes opciones, según corresponda:
     
-       ```
+       ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
        ```
     
-       ```
+       ```powershell
         Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
        ```
 
