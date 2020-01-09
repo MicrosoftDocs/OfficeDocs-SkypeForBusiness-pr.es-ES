@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumen: Instale y configure nodos de monitor para transacciones sintéticas de Skype empresarial Server.'
-ms.openlocfilehash: f95803f61d527196c97c7a6a17b8e0bfcfdfbc7a
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221521"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992447"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar y configurar nodos de monitor
  
@@ -110,9 +110,9 @@ Para instalar los archivos básicos de Skype empresarial Server 2015 y la base d
   
 1. En el equipo que actúa como nodo de monitor, haga clic en Inicio, Todos los programas y Accesorios, haga clic con el botón secundario en Símbolo del sistema y, finalmente, haga clic en Ejecutar como administrador.
     
-2. En la ventana de la consola, escriba el comando siguiente y presione ENTRAR. Asegúrese de escribir la ruta de acceso adecuada a los archivos de instalación de Skype empresarial Server: D:\Setup.exe/BootstrapLocalMgmtTo Compruebe que los componentes básicos de Skype empresarial Server se instalan correctamente, haga clic en **Inicio**, haga clic en **todos los programas**, Haga clic en **Skype empresarial server 2015**y, a continuación, haga clic en **consola de administración de Skype empresarial Server**. En el shell de administración de Skype empresarial Server, escriba el siguiente comando de Windows PowerShell y presione ENTRAR:
+2. En la ventana de la consola, escriba el comando siguiente y presione ENTRAR. Asegúrese de escribir la ruta de acceso adecuada a los archivos de instalación de Skype empresarial Server: D:\Setup.exe/BootstrapLocalMgmtTo Compruebe que los componentes básicos de Skype empresarial Server se instalan correctamente, haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Skype empresarial Server 2015**y, a continuación, haga clic en **consola de administración de Skype empresarial Server**. En el shell de administración de Skype empresarial Server, escriba el siguiente comando de Windows PowerShell y presione ENTRAR:
   
-```
+```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
@@ -143,7 +143,7 @@ Si aparece información sobre las directivas de PIN, ello indica que los compone
 
 De forma similar al programa de instalación de Skype empresarial Server por informar de alertas de componentes, un nodo de monitor de Skype empresarial Server 2015 requiere que se instalen los archivos del agente de System Center Operations Manager. Esto permite que se ejecuten las transacciones sintéticas y se notifiquen al servidor de administración de raíz de System Center Operations Manager.
   
-Para instalar los archivos del agente, siga los procedimientos que se indican en [configurar los equipos servidor de Skype empresarial que](configure-computers-to-monitor.md)se supervisarán.
+Para instalar los archivos del agente, siga los procedimientos que se indican en [configurar los equipos servidor de Skype empresarial que se supervisarán](configure-computers-to-monitor.md).
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>Configurar de un nodo de monitor para ejecutar transacciones sintéticas
 <a name="enable_synthetic_trans"> </a>
@@ -169,26 +169,26 @@ Para configurar autenticación de servidor de confianza, primero debe crear un g
   
 Para crear un grupo de aplicaciones de confianza, abra el shell de administración de Skype empresarial Server y ejecute un comando similar a este:
   
-```
+```PowerShell
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
 ```
 
 > [!NOTE]
 > Para más información sobre los parámetros del comando anterior, escriba lo siguiente en el símbolo del sistema de la consola de administración de Skype empresarial Server: 
   
-```
+```PowerShell
 Get-Help New-CsTrustedApplicationPool -Full | more
 ```
 
 Después de crear el grupo de aplicaciones de confianza, configure el equipo de nodo de monitor para que ejecute las transacciones sintéticas como una aplicación de confianza. Esto se realiza con el cmdlet  **New-CsTrustedApplication** y un comando similar a este:
   
-```
+```PowerShell
 New-CsTrustedApplication -ApplicationId STWatcherNode -TrustedApplicationPoolFqdn atl-watcher-001.litwareinc.com -Port 5061
 ```
 
 Cuando este comando finaliza y se crea la aplicación de confianza, se debe ejecutar el cmdlet **Enable-CsTopology** para garantizar que los cambios sean efectivos:
   
-```
+```PowerShell
 Enable-CsTopology
 ```
 
@@ -196,7 +196,7 @@ Después de ejecutar Enable-CsTopology, reinicie el equipo.
   
 Para comprobar que se ha creado la nueva aplicación de confianza, escriba lo siguiente en el símbolo del sistema de la administración de Skype empresarial Server:
   
-```
+```PowerShell
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
 ```
 
@@ -231,7 +231,7 @@ Para instalar y configurar un nodo de monitor:
     
 2. En el shell de administración, escriba el siguiente comando y, a continuación, presione ENTRAR (asegúrese de especificar la ruta de acceso real a su copia de Watchernode.msi):
     
-```
+```PowerShell
 C:\Tools\Watchernode.msi Authentication=TrustedServer
 ```
 
@@ -241,7 +241,7 @@ C:\Tools\Watchernode.msi Authentication=TrustedServer
 > [!IMPORTANT]
 > En el comando anterior, el par nombre-valor Authentication=TrustedServer distingue mayúsculas y minúsculas. Debe escribirse tal como se muestra. Por ejemplo, este comando producirá un error porque no usa las letras mayúsculas y minúsculas correctas: 
   
-```
+```PowerShell
 C:\Tools\Watchernode.msi authentication=trustedserver
 ```
 
@@ -282,7 +282,7 @@ El siguiente consiste en ejecutar el archivo Watchernode.msi:
     
 2. En el Shell de administración de Skype Empresarial Server, escriba el siguiente comando y, a continuación, presione ENTRAR (asegúrese de especificar la ruta de acceso real a la copia del archivo Watchernode.msi):
     
-   ```
+   ```PowerShell
    c:\Tools\Watchernode.msi Authentication=Negotiate
    ```
 

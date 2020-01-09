@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Resumen: Aprenda a configurar proveedores de escenarios para el servicio de registro centralizado en Skype empresarial Server 2015.'
-ms.openlocfilehash: a9987d99b2caf00acc92de92a8d997845ad8f921
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dcfa16ffa00e81153172570e67020cf287350cd9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274453"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991475"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar proveedores para el servicio de registro centralizado en Skype Empresarial Server 2015
  
@@ -27,13 +27,13 @@ Los conceptos y la configuración de proveedores en el servicio de registro cent
   
 Para ejecutar las funciones del servicio de registro centralizado con el shell de administración de Skype empresarial Server, debe ser miembro de los grupos de seguridad de control de acceso basado en roles (RBAC) de CsAdministrator o CsServerAdministrator, o un rol de RBAC personalizado que contiene alguno de estos dos grupos. Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el shell de administración de Skype empresarial Server o Windows PowerShell deba
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
 Por ejemplo:
   
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
@@ -62,7 +62,7 @@ Introducido en el [servicio de registro centralizado en Skype empresarial 2015](
     
   - **Detallado** Recopila todos los mensajes de seguimiento de tipo grave, error, warning y verbose para el proveedor definido.
     
-  - **** Depurar es esencialmente un equivalente de ' All ': recopila rastros de tipo grave, error, warning, info, verbose y Debug para el proveedor definido.
+  - **Depurar** es esencialmente un equivalente de ' All ': recopila rastros de tipo grave, error, warning, info, verbose y Debug para el proveedor definido.
     
 - **Marcas** OCSLogger proporcionó la opción de elegir marcas para cada proveedor que definió el tipo de información que podría recuperar de los archivos de seguimiento. Puede elegir los siguientes marcadores, en función del proveedor:
     
@@ -84,19 +84,19 @@ Introducido en el [servicio de registro centralizado en Skype empresarial 2015](
     
 2. Para revisar la configuración de proveedores existentes, escriba lo siguiente:
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity <scope and scenario name>
    ```
 
     Por ejemplo, para revisar la información sobre el operador de conferencia global, escriba:
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity "global/CAA"
    ```
 
     El comando muestra una lista de proveedores con los indicadores, la configuración y los componentes asociados. Si la información que se muestra no es suficiente o la lista es demasiado larga para el formato de lista predeterminado de Windows PowerShell, puede mostrar información adicional definiendo un método de salida diferente. Para ello, escriba lo siguiente:
     
-   ```
+   ```PowerShell
    Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
    ```
 
@@ -108,19 +108,19 @@ Introducido en el [servicio de registro centralizado en Skype empresarial 2015](
     
 2. Un proveedor de escenarios consta de un componente para el seguimiento, las marcas que se van a usar y un nivel de detalle que se va a recopilar. Para ello, escriba:
     
-   ```
+   ```PowerShell
    $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
    ```
 
     Por ejemplo, una definición de proveedor de seguimiento que define lo que se debe recopilar y el nivel de detalle del proveedor de Lyss es similar a:
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
    ```
 
-El nivel obtiene mensajes de error, advertencia e información. Los indicadores que se usan son todos los definidos para el proveedor Lyss, e incluyen TF_Connection, TF_Diag y TF_Protocol. después de definir la variable $LyssProvider, puede usarla con el cmdlet **New-CsClsScenario** para recopilar seguimientos del proveedor de Lyss. Para completar la creación y asignación del proveedor a un nuevo escenario, escriba:
+El nivel obtiene mensajes de error, advertencia e información. Los indicadores que se usan son todos los definidos para el proveedor de Lyss e incluyen TF_Connection, TF_Diag y TF_Protocol. después de definir la variable $LyssProvider, puede usarla con el cmdlet **New-CsClsScenario** para recopilar seguimientos del proveedor de Lyss. Para completar la creación y asignación del proveedor a un nuevo escenario, escriba:
 
-```
+```PowerShell
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
 ```
 
@@ -131,13 +131,13 @@ Donde $LyssProvider es la variable que contiene el escenario definido creado con
     
 2. Para actualizar o cambiar la configuración de un proveedor existente, escriba:
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
    ```
 
     A continuación, debe actualizar el escenario para asignar el proveedor escribiendo lo siguiente:
     
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
@@ -147,7 +147,7 @@ El resultado final del comando es que el sitio del escenario: Redmond/RedmondLys
   
 Si desea agregar proveedores adicionales a este escenario, escriba lo siguiente:
 
-```
+```PowerShell
 Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSProvider, $CASProvider, S4Provider}
 ```
 
@@ -158,23 +158,23 @@ Donde cada proveedor definido con la Directiva Add ya se ha definido mediante el
     
 2. Los cmdlets proporcionados le permiten actualizar proveedores existentes y crear nuevos proveedores. Para quitar un proveedor, debe usar la Directiva Replace para que el parámetro Provider **establezca-CsClsScenario**. La única forma de quitar un proveedor por completo es reemplazarlo por un proveedor redefinido con el mismo nombre y utilizar la Directiva de actualización. Por ejemplo, nuestro proveedor LyssProvider se define con WPP como el tipo de registro, Level establecido en debug, y los indicadores establecidos son TF_CONNECTION y TF_DIAG. Debe cambiar las marcas a "todo". Para cambiar el proveedor, escriba lo siguiente:
     
-   ```
+   ```PowerShell
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
    ```
 
-   ```
+   ```PowerShell
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
    ```
 
 3. Si desea quitar por completo un escenario y los proveedores asociados a él, escriba lo siguiente:
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity <scope and name of scenario>
    ```
 
     Por ejemplo:
     
-   ```
+   ```PowerShell
    Remove-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo"
    ```
 

@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Los teléfonos de área común son teléfonos IP que suelen residir en un área de trabajo compartida o en un área común, como un vestíbulo, una cocina o una fábrica. No es necesario que los teléfonos de área común estén conectados a un equipo para proporcionar la funcionalidad de comunicaciones unificadas (UC) de Skype empresarial Server. Después de migrar una implementación a Skype empresarial Server 2019, también debe migrar los objetos de contacto asociados con el teléfono de área común heredado. Usar el shell de administración de Skype empresarial Server primero recuperará todos los objetos de contacto asociados a los teléfonos de área común heredados y, a continuación, moverá esos objetos al grupo de servidores de Skype empresarial 2019.
-ms.openlocfilehash: 123f0a73da65e7d661541c6c4bec65481bf12f0c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f268c22f1d1132b3b5b8c1c1676e5b3a0182cf3f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238028"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991155"
 ---
 # <a name="migrate-common-area-phones"></a>Migrar teléfonos de área común
 
@@ -26,13 +26,13 @@ Los teléfonos de área común son teléfonos IP que suelen residir en un área 
     
 2. En la línea de comandos, escriba lo siguiente:
     
-   ```
+   ```PowerShell
    Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool01.contoso.net"} | Move-CsCommonAreaPhone -Target pool02.contoso.net
    ```
 
 3. Para comprobar que todos los objetos de contacto se han movido al grupo de servidores de Skype empresarial 2019, en el shell de administración de Skype empresarial Server, escriba lo siguiente:
     
-   ```
+   ```PowerShell
    Get-CsCommonAreaPhone -Filter {RegistrarPool -eq "pool02.contoso.net"}
    ```
 

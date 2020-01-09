@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6779e9b0fa236b1c239f9e6aa56d97e9437fb422
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 73d8de57b7b47ced8217e0f7aca384f4b55b0468
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793526"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988985"
 ---
 # <a name="retention-policies-in-microsoft-teams"></a>Directivas de retención en Microsoft Teams
 
@@ -39,7 +39,6 @@ Las directivas de retención de Teams sí son compatibles:
 Las directivas de retención de Teams aún no son compatibles:
 
 - Las directivas de retención avanzadas no se aplican a los equipos chat y Teams canales de mensajes
-- Duración de menos de 30 días
 
 Los administradores pueden configurar directivas de retención diferentes para los chats privados de los equipos (1:1 o 1: muchos chats) y los mensajes de canal de Teams. En muchos casos, las organizaciones consideran que los datos de los chats privados son más responsabilidad de los mensajes de canal, que suelen ser más conversaciones relacionadas con el proyecto. Configure estas directivas en el centro de cumplimiento de & de seguridad,**retención**del **gobierno** > de la información. Active **los mensajes de canal de Teams y los** **chats de equipos** y, a continuación, defina las directivas de retención para estas ubicaciones (también se muestra en el diagrama siguiente). 
 

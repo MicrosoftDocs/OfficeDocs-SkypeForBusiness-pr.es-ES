@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Resumen: Aprenda a probar las conferencias de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: cd1192950ff7c8b609655d78bbc57dfdbc4c1710
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a19adba9d36fd7f862b9b40d3c7c239933fa7847
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280365"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992277"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Probar las conferencias de acceso telefónico local en Skype empresarial Server
  
@@ -31,7 +31,7 @@ Como comprobación final de la configuración de las conferencias de acceso tele
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -EmptyRegion
    ```
 
@@ -47,7 +47,7 @@ Para obtener más información, vea [Get-CsDialInConferencingAccessNumber](https
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
-   ```
+   ```PowerShell
    Get-CsDialinConferencingAccessNumber -Region NULL
    ```
 
@@ -71,7 +71,7 @@ Para comprobar que la página web Configuración de la conferencia de acceso tel
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
-   ```
+   ```PowerShell
    $credentials = Get-Credential
    User name:  testuser1@contoso.com
    Password:  ********

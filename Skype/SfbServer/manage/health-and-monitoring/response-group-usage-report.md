@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype empresarial Server.'
-ms.openlocfilehash: 6154a1e2d2407f3e7fe6f8eaf9527567724220fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d178357646fb8f3bfad82ecdedd81ce19a8107a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279847"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991735"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>Informe de uso de grupo de respuesta en Skype empresarial Server
 
@@ -70,7 +70,7 @@ Puede utilizar un enfoque similar para evaluar el número de llamadas atendidas 
 
 Para revisar las estadísticas de uso de un flujo de trabajo determinado, escriba el URI del flujo de trabajo en el cuadro URI de flujo de trabajo. Tal como se ha mencionado, los URI de flujos de trabajo (dirección SIP asociada a un flujo de trabajo) no se muestran en el informe. Esto implica que necesitará buscar otra forma de determinar el URI de un flujo de trabajo. Una forma de hacerlo es usar Windows PowerShell y el shell de administración de Skype empresarial Server. Por ejemplo, este comando devuelve los URI de todos los flujos de trabajo de grupo de respuesta:
 
-```
+```PowerShell
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri
 ```
 
@@ -86,7 +86,7 @@ New Ad Campaign                 sip:newads@litwareinc.com
 
 Este comando devuelve información de un único flujo de trabajo, el flujo de trabajo con el nombre New Ad Campaign:
 
-```
+```PowerShell
 Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
 ```
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'La tabla PurgeSettings contiene información que especifica si (y cuándo) los registros de detalles de llamadas obsoletas se eliminarán automáticamente de la base de datos de CDR. Tenga en cuenta que la información relacionada con la purga también puede obtenerse desde el servidor de Skype para empresas 2015 ejecutando el siguiente comando:'
-ms.openlocfilehash: 6aac92555dda6875f23a177bb09384f453369846
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fbbd7908446fdb042c8fdfa2f0c8bec2d83b24d9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295926"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992920"
 ---
 # <a name="purgesettings-table"></a>Tabla PurgeSettings
  
 La tabla PurgeSettings contiene información que especifica si (y cuándo) los registros de detalles de llamadas obsoletas se eliminarán automáticamente de la base de datos de CDR. Tenga en cuenta que la información relacionada con la purga también puede obtenerse desde el servidor de Skype para empresas 2015 ejecutando el siguiente comando:
   
-```
+```PowerShell
 Get-CsCdrConfiguration
 ```
 

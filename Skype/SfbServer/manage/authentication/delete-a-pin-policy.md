@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: 'Resumen: Elimine el PIN de conferencias de acceso telefónico local de un usuario para Skype empresarial Server.'
-ms.openlocfilehash: 2f42531480ac4099d574a21a96f1954abc70d1d3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cfdb14ad8107c8d3450e6d50245831f723ca1153
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283784"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992327"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Eliminar una directiva de PIN en Skype empresarial Server
  
@@ -49,7 +49,7 @@ Puede eliminar directivas de PIN mediante Windows PowerShell y el cmdlet Remove-
 
 - Este comando quita la Directiva de PIN con la RedmondPinPolicy de identidad:
     
-  ```
+  ```PowerShell
   Remove-CsPinPolicy -Identity "RedmondPinPolicy"
   ```
 
@@ -57,7 +57,7 @@ Puede eliminar directivas de PIN mediante Windows PowerShell y el cmdlet Remove-
 
 - Este comando quita todas las directivas de PIN configuradas en el ámbito del sitio:
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
   ```
 
@@ -65,7 +65,7 @@ Puede eliminar directivas de PIN mediante Windows PowerShell y el cmdlet Remove-
 
 - Y este elimina todas las Directivas de PIN que permiten el uso de patrones comunes:G
     
-  ```
+  ```PowerShell
   et-CsPinPolicy | Where-Object {$_.AllowCommonPatterns -eq $True} | Remove-CsPinPolicy
   ```
 

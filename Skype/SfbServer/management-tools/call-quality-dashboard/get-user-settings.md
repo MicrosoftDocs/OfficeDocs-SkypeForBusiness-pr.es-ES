@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: 'Resumen: Obtenga informaci처n sobre la operaci처n obtener configuraci처n de usuario, que es parte del servicio de configuraci처n de usuario. El servicio de configuraci처n de usuario es parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 8d1bb1da9e9a186cbc10f0c8ba36275348bb7267
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42934496b8b65132a67d4012d81d7b8997859726
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274621"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992637"
 ---
 # <a name="get-user-settings"></a>Obtener configuraci처n de usuario
  
@@ -49,7 +49,7 @@ Obtener configuraci처n de usuario devuelve una lista de opciones de configuraci�
   
   **Cuerpo de respuesta** : a continuaci처n se muestra un ejemplo de carga de respuesta en JSON.
   
-```
+```json
 [{
 "userId": 6,
 "key": "ShowDescriptions",

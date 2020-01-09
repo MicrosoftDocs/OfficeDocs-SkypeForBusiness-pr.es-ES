@@ -6,7 +6,7 @@ manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: abhisgu
+ms.reviewer: abgupta
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -14,12 +14,12 @@ ms.collection:
 description: Obtenga información sobre la expiración y la renovación de equipo y cómo usar la Directiva de expiración de grupo de Office 365 para limpiar automáticamente los equipos que no se usan en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fd7dfdececc9a490ff930bdba9948e9196c74f2
-ms.sourcegitcommit: fc7d5e812873b648b374eef23d02c914a56b51d1
+ms.openlocfilehash: 2baf466b28874794c4e9b7191be155de7187754e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37608733"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992817"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Caducidad y renovación de equipos en Microsoft Teams
 

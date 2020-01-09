@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Resumen: establezca el PIN de conferencias de acceso telefónico local de un usuario para Skype empresarial Server.'
-ms.openlocfilehash: d52c52e65fbfe706f243f420d6397319e4d00a32
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 83d1aae54d6e8be4f31b5bd27b6a568d6d88db1e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297585"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992287"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Configurar el PIN de conferencias de acceso telefónico local de un usuario en Skype empresarial Server
  
@@ -85,7 +85,7 @@ Puede asignar números de PIN con el cmdlet Set-CsClientPin. Puede ejecutar este
 
 El siguiente comando asigna un número PIN al usuario a Ken Myer. Puesto que el parámetro PIN no está incluido, Skype empresarial Server generará y asignará el número PIN automáticamente.
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" 
   ```
 
@@ -93,7 +93,7 @@ El siguiente comando asigna un número PIN al usuario a Ken Myer. Puesto que el 
 
 Este comando usa el parámetro PIN para asignar el número PIN 121989 al usuario Ken Myer.
     
-  ```
+  ```PowerShell
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Resumen: Obtenga información sobre cómo calificar mi característica de llamada en Skype empresarial Server.'
-ms.openlocfilehash: e146bba647c9586d96682bf8056417630676726e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6902bdaa9b5021963d128bf67dab7adc8ab1d982
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279861"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991745"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Calificar mi llamada en Skype empresarial Server
 
@@ -45,13 +45,13 @@ Antes de que los usuarios de su implementación de Skype empresarial Server pued
 
 La opción calificar mi llamada está habilitada de forma predeterminada en la Directiva de cliente con la siguiente configuración:
 
-- Calificar el porcentaje de visualización de llamadas% 10%
+- Calificar el porcentaje de visualización de llamadas %10%
 
 - Calificar mi llamada permitir comentarios personalizados de usuario: deshabilitado
 
 Sin embargo, no es necesario realizar ninguna acción para habilitar la característica básica, pero si desea comentarios personalizados, tendrá que habilitarlo por separado. El siguiente cmdlet de Windows PowerShell es un ejemplo de cómo habilitar comentarios personalizados para el usuario final y cambiar el intervalo de 10% a 80%.
 
-```
+```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 - RateMyCallAllowCustomUserFeedback $true 
 ```
 
@@ -68,7 +68,7 @@ Las definiciones de tokens se codifican del siguiente modo:
 |||
 |:-----|:-----|
 |1  <br/> |DistortedSpeech  <br/> |
-|2  <br/> | ElectronicFeedback <br/> |
+|1  <br/> | ElectronicFeedback <br/> |
 |3  <br/> | BackgroundNoise <br/> |
 |4  <br/> |MuffledSpeech  <br/> |
 |5  <br/> |Eco  <br/> |
@@ -114,7 +114,7 @@ Se pueden utilizar las siguientes consultas SQL:
 
  **Audio**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -151,7 +151,7 @@ SELECT
 
  **Vídeo**
 
-```
+```SQL
 SELECT
         s.ConferenceDateTime
         ,Caller.URI as Caller
@@ -190,7 +190,7 @@ SELECT
 
 Los últimos clientes de Skype empresarial informan de nuevos identificadores de problema (\> 100) que podrían no estar presentes en tu [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef]. Para actualizar la tabla de la base de datos con las definiciones de token más recientes, el comando SQL siguiente se puede ejecutar en la base de datos de supervisión con Microsoft SQL Server Management Studio. Este comando reemplazará todas las entradas de [QoeMetrics]. [dbo]. Tabla [CallQualityFeedbackTokenDef].
 
-```
+```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];
 INSERT INTO [CallQualityFeedbackTokenDef] (TokenId, TokenDescription) VALUES
     (1,   N'DistortedSpeech'),

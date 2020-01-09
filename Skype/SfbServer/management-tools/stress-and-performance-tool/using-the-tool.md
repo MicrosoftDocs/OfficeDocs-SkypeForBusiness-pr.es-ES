@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Para ejecutar la herramienta de estrés y rendimiento de Skype empresarial Server 2015, tendrá que poder administrar los usuarios, los contactos y los perfiles de usuario, configurar la herramienta para ejecutar y, a continuación, revisar los resultados generados por la herramienta.
-ms.openlocfilehash: e0cf241417272cfa16b3e332e7bafe7a112af38b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: af4d0dcb1cc4196f98941799c61dcf29510ba795
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277723"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992487"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Usar la herramienta de estrés y rendimiento de Skype empresarial Server 2015
  
@@ -74,7 +74,7 @@ Si tiene un archivo XML preconfigurado que ya contiene la configuración persona
 
 1. En el campo **FQDN del grupo de servidores front-end** , escriba el nombre de dominio completo (FQDN) del servidor Standard Edition o el grupo de aplicaciones para el usuario en el que desea hospedar los usuarios.
     
-2. En el campo Prefijo de **nombre de usuario** , escriba un prefijo que desee usar para deshacer los nombres de usuario con el fin de realizar pruebas (como "TestUser").
+2. En el campo **Prefijo de nombre de usuario** , escriba un prefijo que desee usar para deshacer los nombres de usuario con el fin de realizar pruebas (como "TestUser").
     
 3. En el campo **contraseña** , escriba una contraseña que se usará en todas las cuentas de usuario de prueba.
     
@@ -135,7 +135,7 @@ Esta pestaña le permite proporcionar los detalles de los contactos de los usuar
     
 4. En el campo **porcentaje de contactos federado/grupo cruzado** , asigne un número entre 0 y 100. Este porcentaje de contactos se creará con los usuarios federados.
     
-5. En el campo Prefijo de **usuario federado/grupo cruzado** , asigne al nombre de usuario los usuarios federados que se agregarán a las listas de contactos de los usuarios locales.
+5. En el campo **Prefijo de usuario federado/grupo cruzado** , asigne al nombre de usuario los usuarios federados que se agregarán a las listas de contactos de los usuarios locales.
     
 6. En el campo **dominio SIP de usuario federado/grupo cruzado** , asigne el nombre de dominio SIP de los usuarios federados.
     
@@ -158,7 +158,7 @@ La pestaña lista de distribución le permite crear listas de distribución que 
 
 1. En el campo **número de listas de distribución** , asigne el número total de listas de distribución que desea crear (esta recomendación es comenzar con un valor que sea el doble que el número de usuarios).
     
-2. En el campo Prefijo de la **lista de distribución** , escriba un prefijo que tendrá todas las listas de distribución que cree, por ejemplo, *testDL* . Eso significa que, en 100 DLs, los nombres de la DL tendrán el siguiente aspecto: testDL0, testDL1, hasta testDL99.
+2. En el campo **prefijo** de la lista de distribución, escriba un prefijo que tendrá todas las listas de distribución que cree, por ejemplo, *testDL* . Eso significa que, en 100 DLs, los nombres de la DL tendrán el siguiente aspecto: testDL0, testDL1, hasta testDL99.
     
 3. En el campo **lista de miembros mínimos de una Dist.** , escriba el número mínimo de usuarios que desea incluir en cada DL.
     
@@ -228,7 +228,7 @@ A continuación se muestra la pestaña **configuración común** de la herramien
     
 8. En el campo **porcentaje MPOP** (múltiplo de punto de presencia múltiple), asigne un valor para el porcentaje de usuarios que han iniciado sesión desde varios equipos o dispositivos, por ejemplo, 10 por ciento.
     
-9. Escriba el número máximo de puntos de conexión simultáneos en el campo **iniciar sesión por segundo (por instancia)** . Este es el número máximo de inicios de sesión para los usuarios y la recomendación es una tasa de menos de/igual a 2 por segundo (< = 2).
+9. Escriba el número máximo de puntos de conexión simultáneos en el campo **iniciar sesión por segundo (por instancia)** . Este es el número máximo de inicios de sesión para los usuarios y la recomendación es una tasa de menos de/igual a 2 por segundo (<= 2).
     
 10. En el campo **proxy de acceso o FQDN del grupo** , escriba el nombre de dominio completo (FQDN) del servidor al que desea que se conecten los clientes. Si los usuarios inician sesión de forma externa, tendrá que escribir el proxy de acceso. Si los usuarios son internos, proporcione el FQDN de su grupo de servidores Enterprise o servidor Standard Edition.
     
@@ -243,7 +243,7 @@ A continuación se muestra la pestaña **configuración común** de la herramien
 Puede configurar los niveles de carga y los parámetros para cada uno de los escenarios generales que se ofrecen determinando lo que desea ejecutar o dejar deshabilitado. Estas son las opciones generales:
   
 > [!NOTE]
-> Los valores de nivel de carga para todos los campos pero **** los servicios de información local están deshabilitados, **baja**, **media**, **alta**o **personalizada**. Si selecciona cualquier configuración pero se deshabilita, se generará una configuración para cada cliente. El resultado alto es la carga máxima admitida en el servidor. medio es 60% de carga elevada; bajo es 30%. 
+> Los valores de nivel de carga para todos los campos pero los servicios de información local están **deshabilitados**, **baja**, **media**, **alta**o **personalizada**. Si selecciona cualquier configuración pero se deshabilita, se generará una configuración para cada cliente. El resultado alto es la carga máxima admitida en el servidor. medio es 60% de carga elevada; bajo es 30%. 
   
 - **Mensajería instantánea:** Esto incluye los pares de par a par y Conferencia; Elija el valor adecuado para el nivel de carga.
     
@@ -317,7 +317,7 @@ Web App admite escenarios de conferencia a través del servidor API Web de comun
 - **Conferencias de voz:** Seleccione un valor para el nivel de carga.
     
 > [!NOTE]
-> Cada uno de los escenarios tiene un botón **avanzadas** ubicado junto a él. Los cuadros de diálogo avanzados contienen valores específicos para cada escenario que cambiarán el comportamiento de la herramienta estrés y rendimiento y permiten la personalización. > para cada uno de los escenarios de la aplicación Web, si el nivel de carga es **personalizado**, entonces el valor especificado en el ** **Se usa el campo ConversationsPerHour en lugar del predeterminado.
+> Cada uno de los escenarios tiene un botón **avanzadas** ubicado junto a él. Los cuadros de diálogo avanzados contienen valores específicos para cada escenario que cambiarán el comportamiento de la herramienta estrés y rendimiento y habilitar la personalización. > para cada uno de los escenarios de la aplicación Web, si el nivel de carga es **personalizado**, se usa el valor especificado en el campo **ConversationsPerHour** en lugar del predeterminado.
   
 #### <a name="mobility-tab"></a>Ficha movilidad
 
@@ -332,7 +332,7 @@ Las opciones son las siguientes:
 - **Presencia y mensajería instantánea de P2P** Seleccione un valor para el nivel de carga para habilitar la simulación de movilidad.
     
 > [!NOTE]
-> Cada uno de los escenarios tiene un botón **avanzadas** ubicado junto a él. Los cuadros de diálogo avanzados contienen valores específicos para cada escenario que cambiarán el comportamiento de la herramienta estrés y rendimiento y permiten la personalización. > para cada uno de los escenarios de movilidad, si el nivel de carga es **personalizado**, entonces el valor especificado en el ** **Se usa el campo ConversationsPerHour en lugar del predeterminado.
+> Cada uno de los escenarios tiene un botón **avanzadas** ubicado junto a él. Los cuadros de diálogo avanzados contienen valores específicos para cada escenario que cambiarán el comportamiento de la herramienta estrés y rendimiento y permiten la personalización. > para cada uno de los escenarios de movilidad, si el nivel de carga es **personalizado**, se usa el valor especificado en el campo **ConversationsPerHour** en lugar del predeterminado.
   
 #### <a name="summary-tab"></a>Pestaña Resumen
 
@@ -344,7 +344,7 @@ La pestaña Resumen indica qué usuarios deben usar para cada uno de los escenar
   
 Es posible configurar manualmente los intervalos de número de usuario seleccionando la casilla de verificación **Habilitar la generación de intervalos de usuario personalizada** y, a continuación, hacer doble clic en el escenario de la tabla que tiene el intervalo de usuario que desea personalizar.
   
-Comprobar **(RunClient. bat) Agregue la demora** de inicio de sesión al iniciarse para incluir demoras en los archivos por lotes generados para que correspondan a la tasa de inicio de sesión. Esto resulta útil para evitar la sobrecarga del servidor al iniciar sesión en un gran número de usuarios.
+Comprobar **(RunClient. bat) Agregue la demora de inicio de sesión al iniciarse** para incluir demoras en los archivos por lotes generados para que correspondan a la tasa de inicio de sesión. Esto resulta útil para evitar la sobrecarga del servidor al iniciar sesión en un gran número de usuarios.
   
 Haga clic en **generar archivos** y seleccione la carpeta en la que desea generar la configuración. Aparecerá un cuadro de diálogo cuando los archivos se hayan creado correctamente.
   
@@ -365,19 +365,19 @@ La herramienta de configuración de carga (UserProfileGenerator. exe) crea un ar
     
 2. Vaya a la carpeta cliente y ejecute el script de proceso por lotes **RunClient** . Puede hacer doble clic en el archivo por lotes en el explorador de Windows y se ejecutarán todos los archivos de configuración de ese cliente. También puede ejecutar el script desde una carpeta de cliente con la siguiente sintaxis:
     
-   ```
+   ```PowerShell
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 
 Para ejecutar la herramienta de estrés y rendimiento directamente, abra un símbolo del sistema y escriba el siguiente comando en la línea de comandos (y, cuando lo haga por primera vez, asegúrese de registrar los contadores de rendimiento `regsvr32 /i /n /s LyncPerfToolPerf.dll`, como se muestra en la nota más adelante en este tema):
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
 Para que la herramienta muestre los valores en el archivo de configuración, incluya `/displayfile` el parámetro en el comando anterior, de modo que tenga el siguiente aspecto:
   
-```
+```console
 LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ```
 

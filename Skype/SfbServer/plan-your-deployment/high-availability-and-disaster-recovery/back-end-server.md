@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Obtenga más información sobre las opciones de alta disponibilidad del servidor de back-end admitidas en Skype empresarial Server, incluidos los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error de AlwaysOn, la creación de reflejo de base de datos y la conmutación por error de SQL
-ms.openlocfilehash: db732d106546e5139725713da28bcb9c8b82bb93
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3a92c7ee8cbada8ce678e53e3aacff0aa562fca5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297487"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991495"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Servidor back-end de alta disponibilidad en Skype empresarial Server
  
@@ -42,6 +42,8 @@ Si usa la alta disponibilidad del servidor back end en un grupo de servidores fr
 
 Skype empresarial Server admite el reflejo con el siguiente software de base de datos:
   
+- SQL Server 2019, Enterprise Edition y Standard Edition
+
 - SQL Server 2017, Enterprise Edition y Standard Edition
 
 - SQL Server 2016, Enterprise Edition y Standard Edition
@@ -108,6 +110,10 @@ Para usar grupos de disponibilidad AlwaysOn o instancias de clúster de conmutac
 
 Skype empresarial Server es compatible con el siguiente software de base de datos:
 
+- SQL Server 2019 Enterprise Edition
+
+- SQL Server 2019 Standard Edition con limitaciones, consulte la nota siguiente
+
 - SQL Server 2017 Enterprise Edition
 
 - SQL Server 2017 Standard Edition con limitaciones, consulte la nota siguiente
@@ -121,10 +127,10 @@ Skype empresarial Server es compatible con el siguiente software de base de dato
 - SQL Server 2012 SP2 y CU2 Enterprise Edition
 
 > [!NOTE]
-> SQL Server 2017 y SQL Server 2016 son las únicas versiones compatibles con Skype empresarial Server 2019.
+> SQL Server 2019, 2017 y 2016 son las únicas versiones compatibles con Skype empresarial Server 2019.
 
 > [!NOTE]
-> Los grupos de disponibilidad AlwaysOn **no** se admiten en las ediciones estándar de SQL 2016 y 2017, pero puede usar siempre en las instancias de clúster de conmutación por error. Para obtener más información [, vea las ediciones y las características compatibles de SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) .
+> Los grupos de disponibilidad AlwaysOn **no** son compatibles con las ediciones de SQL 2016, 2017 y 2019, pero puede usar siempre en las instancias de clúster de conmutación por error. Para obtener más información [, vea las ediciones y las características compatibles de SQL Server 2016](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) .
   
 > [!IMPORTANT]
 > Los nombres de instancia de varias instancias del grupo de disponibilidad AlwaysOn deben ser iguales. 
@@ -135,6 +141,8 @@ Para conocer los pasos para implementar grupos de disponibilidad AlwaysOn, consu
 
 Skype empresarial Server es compatible con el clúster de conmutación por error de SQL Server con el siguiente software de base de datos:
   
+- SQL Server 2019, Enterprise Edition y Standard Edition
+
 - SQL Server 2017, Enterprise Edition y Standard Edition
 
 - SQL Server 2016, Enterprise Edition y Standard Edition
@@ -143,13 +151,12 @@ Skype empresarial Server es compatible con el clúster de conmutación por error
     
 - SQL Server 2012 SP2 y CU2, tanto Enterprise Edition como Standard Edition
 
-Para usar el clúster de conmutación por error de SQL, primero debe configurar y configurar el clúster de SQL Server antes de implementar el grupo de servidores front-end. Para ver los procedimientos recomendados y las instrucciones de configuración para el clúster de conmutación por [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)error en SQL Server 2012, consulte.
+Para usar el clúster de conmutación por error de SQL, primero debe configurar y configurar el clúster de SQL Server antes de implementar el grupo de servidores front-end. Para ver los procedimientos recomendados y las instrucciones de configuración para el clúster de conmutación por [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx)error en SQL Server 2012, consulte.
 
 > [!NOTE]
-> SQL Server 2017 y SQL Server 2016 son las únicas versiones compatibles con Skype empresarial Server 2019.
+> SQL Server 2019, 2017 y SQL Server 2016 son las únicas versiones compatibles con Skype empresarial Server 2019.
     
-Para usar el clúster de conmutación por error de SQL, primero debe configurar y configurar el clúster de SQL Server antes de implementar el grupo de servidores front-end. Para obtener los procedimientos recomendados y las instrucciones de configuración para el clúster de conmutación por error en [https://technet.microsoft.com/en-us/library/hh231721.aspx](https://technet.microsoft.com/en-us/library/hh231721.aspx)SQL Server 2014 y 2016, consulte. Para el clúster de conmutación por error en SQL Server [https://technet.microsoft.com/en-us/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/en-us/library/ms189134%28v=sql.105%29.aspx)2008, consulte.
+Para usar el clúster de conmutación por error de SQL, primero debe configurar y configurar el clúster de SQL Server antes de implementar el grupo de servidores front-end. Para obtener los procedimientos recomendados y las instrucciones de configuración para el clúster de conmutación por error en [https://technet.microsoft.com/library/hh231721.aspx](https://technet.microsoft.com/library/hh231721.aspx)SQL Server 2014 y 2016, consulte. Para el clúster de conmutación por error en SQL Server [https://technet.microsoft.com/library/ms189134(v=sql.105).aspx](https://technet.microsoft.com/library/ms189134%28v=sql.105%29.aspx)2008, consulte.
   
 Al instalar SQL Server, es preciso instalar también SQL Server Management Studio para administrar las ubicaciones de la base de datos y de los archivos de registro. SQL Server Management Studio se instala como un componente opcional al instalar SQL Server.
   
-

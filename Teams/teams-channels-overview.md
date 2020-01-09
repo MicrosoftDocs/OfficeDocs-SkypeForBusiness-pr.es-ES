@@ -20,18 +20,17 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ea246588e6884e7c7dd2755d7d24aa486d193df
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: c125b8d62e78f9fc67689c5cd785f9cd13d8c619
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793396"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991005"
 ---
+# <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
+
 > [!NOTE]
 > Revise la información siguiente para familiarizarse con los chats, equipos, canales y aplicaciones en Teams. Después, vaya a [chat, equipos, canales & aplicaciones de Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para recorrer una lista de decisiones importantes para la implementación de su equipo.
-
-<a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
-=================================================
 
 Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales puedan organizarse a sí mismos y puedan colaborar en distintos escenarios empresariales:
 
@@ -51,7 +50,7 @@ Para obtener ayuda con el uso de equipos y canales, consulte [equipos y canales]
 
 Vea este vídeo breve para obtener más información sobre los procedimientos recomendados para crear equipos y canales.
 
-   > [!VIDEO https://www.youtube.com/embed/hjJWtoaRJeE]
+   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
 <a name="membership-roles-and-settings"></a>Miembros, funciones y configuración
 ------------------------------

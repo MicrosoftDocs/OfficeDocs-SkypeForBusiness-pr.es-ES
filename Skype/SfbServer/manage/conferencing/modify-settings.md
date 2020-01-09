@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Resumen: Aprenda a modificar la configuración de la reunión en Skype empresarial Server.'
-ms.openlocfilehash: 6e2566a5bc48e081c1912753586aef2213e1c727
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2e9d8a737a2bfc48cdcbe39540a22e4c236003b3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280400"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992857"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar la configuración de la reunión en Skype empresarial Server
  
@@ -43,7 +43,7 @@ Para modificar las opciones de configuración de la reunión, use el cmdlet **Se
   
 El comando que se muestra en el siguiente ejemplo modifica las opciones de configuración de reunión asignadas al sitio Redmond (-Identity site:Redmond). En este caso, el valor de la propiedad DesignateAsPresenter es Everyone (todos):
   
-```
+```PowerShell
 Set-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 ```
 

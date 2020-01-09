@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión de PowerShell remota para conectarse a Skype empresarial online, incluidos los errores de módulo de importación, de Shell simultáneo, de Live ID y de permisos.
-ms.openlocfilehash: dac4e2007853b489345f8ea137423cbd71363d56
-ms.sourcegitcommit: 0de27096ea3c9d6f210aeb4aad31c4255c3c0244
+ms.openlocfilehash: 863593c3068136f4b2332a55d8e0c293d2acc1d8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37615976"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991315"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
@@ -51,7 +51,7 @@ Este tema proporciona información que le ayudará a diagnosticar y resolver pro
     
 
 > [!IMPORTANT]
-> De forma predeterminada, el tiempo de espera de las sesiones de PowerShell es de 60 minutos. Para volver a conectarse, debe cerrar la sesión e iniciar una nueva sesión de PowerShell. Se ha iniciado una nueva versión de [Skype empresarial online, módulo Windows PowerShell (2046,123-publicado en 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), que incluye un cmdlet nuevo denominado **enable-CsOnlineSessionForReconnection** que mitiga los 60 minutos problema de tiempo de espera.
+> De forma predeterminada, el tiempo de espera de las sesiones de PowerShell es de 60 minutos. Para volver a conectarse, debe cerrar la sesión e iniciar una nueva sesión de PowerShell. Se ha iniciado una nueva versión de [Skype empresarial online, módulo Windows PowerShell (2046,123-publicado en 10/2/2019)](https://www.microsoft.com/download/details.aspx?id=39366), que incluye un cmdlet nuevo denominado **enable-CsOnlineSessionForReconnection** que mitiga el problema de tiempo de espera de 60 minutos.
 > La sesión de PowerShell se vuelve a conectar y se autentica, lo que permite reutilizarla sin tener que iniciar una nueva instancia para volver a conectarse.
 
 
@@ -61,10 +61,10 @@ Este tema proporciona información que le ayudará a diagnosticar y resolver pro
 
 La Directiva de ejecución de PowerShell ayuda a determinar qué archivos de configuración se pueden cargar en la consola de PowerShell y qué scripts puede ejecutar un usuario desde esa consola. Como mínimo, el módulo conector de Skype empresarial online no se puede importar a menos que la Directiva de ejecución se haya establecido como RemoteSigned. Si no es así, recibirá el siguiente mensaje de error al intentar importar el módulo:
   
-- **Error**: <em>Import-Module: archivo C:\\archivos\\comunes de programa\\archivos comunes los módulos\\\\2013 de\\Microsoft Lync Server LyncOnlineConnector LyncOnlineConnectorStartup. psm1 no se pueden cargar porque se está ejecutando el script está deshabilitado en este sistema. Para obtener más información, consulte about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170en.</em>
+- **Error**: <em>Import-Module: archivo C:\\archivos\\comunes de programa\\archivos comunes los módulos\\\\2013 de\\Microsoft Lync Server LyncOnlineConnector LyncOnlineConnectorStartup. psm1 no se pueden cargar porque la ejecución de scripts está deshabilitada en este sistema. Para obtener más información, consulte about_Execution_Policies https://go.microsoft.com/fwlink/?LinkID=135170en.</em>
 
 - **Resolución** Para resolver este problema, inicie PowerShell como administrador y, a continuación, ejecute el siguiente comando:
-    ```
+    ```PowerShell
     Set-ExecutionPolicy RemoteSigned
     ```
     Para obtener más información sobre la Directiva de ejecución, consulte [acerca de las directivas de ejecución](https://go.microsoft.com/fwlink/?LinkID=135170).
@@ -93,11 +93,11 @@ Normalmente hay tres razones por las que el intento de conexión podría fallar 
   - **Error**: *Get-CsWebTicket: no se pudo conectar servidores de Live ID. Asegúrese de que el proxy está habilitado o que el equipo tiene conexión de red con servidores de Live ID.*
 
 - **Resolución**: a menudo este error significa que el Asistente para el inicio de sesión de Microsoft Online Services no se está ejecutando. Para comprobar el estado de este servicio, ejecute el siguiente comando desde el símbolo del sistema de PowerShell: 
-    ```
+    ```PowerShell
     Get-Service "msoidsvc"
     ```
     Si el servicio no se está ejecutando, inícielo con este comando:
-    ```
+    ```PowerShell
     Start-Service "msoidsvc"
     ```
 

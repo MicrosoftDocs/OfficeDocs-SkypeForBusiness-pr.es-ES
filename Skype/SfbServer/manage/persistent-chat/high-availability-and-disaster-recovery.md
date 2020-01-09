@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Resumen: Obtenga información sobre cómo administrar la alta disponibilidad del servidor de chat persistente y la recuperación ante desastres en Skype empresarial Server 2015.'
-ms.openlocfilehash: ff30bcdd99a4c92bd8fbd8f0a5c4bcedd8aa63b0
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: d46e34485f231d313475b4fdc5948a7262b324ed
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418708"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991985"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
  
 **Resumen:** Obtenga información sobre cómo administrar la alta disponibilidad y la recuperación ante desastres de un servidor de chat persistente en Skype empresarial Server 2015.
   
-En este tema se describe cómo se conmuta por error el servidor de chat persistente y conmuta por error. Antes de leer este tema, asegúrese de leer [plan de alta disponibilidad y recuperación ante desastres para el servidor de chat persistente en Skype empresarial server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) y [configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+En este tema se describe cómo se conmuta por error el servidor de chat persistente y conmuta por error. Antes de leer este tema, asegúrese de leer [plan de alta disponibilidad y recuperación ante desastres para el servidor de chat persistente en Skype empresarial server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) y [configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en skype empresarial Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
 
 > [!NOTE]
 > Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte [Introducción a la actualización de Microsoft Teams](/microsoftteams/upgrade-start-here). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
@@ -55,7 +55,7 @@ Para llevar a cabo la conmutación por error del servidor de chat persistente:
     
    - Utilice el siguiente comando para colocar el trasvase de registros:
     
-   ```
+   ```SQL
    exec sp_delete_log_shipping_secondary_database mgc
    ```
 
@@ -170,7 +170,7 @@ Estos pasos están pensados para recuperar la configuración tal y como estaba a
   
 Para restaurar el grupo a su estado normal, ejecute el siguiente comando de Windows PowerShell:
   
-```
+```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal
 ```
 

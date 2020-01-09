@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Puede mover varios usuarios de su grupo heredado a su grupo piloto de Skype empresarial Server 2019 con el panel de control de Skype empresarial Server 2019 o el shell de administración de Skype empresarial 2019.
-ms.openlocfilehash: 6c6f61287cfc75b7500317d62de4ea846af1abd3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: abaffea04ff190b2ae99639484f63b564fd7784a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244575"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988955"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Mover varios usuarios a la agrupación piloto
 
@@ -55,9 +55,9 @@ Puede mover varios usuarios de su grupo heredado a su grupo piloto de Skype empr
 
 1. Abra el shell de administración de Skype empresarial Server 2019. 
     
-2. En la línea de comandos, escriba lo siguiente y sustituya el **usuario1** y el **usuario2** por los nombres de usuario específicos que desea mover y sustituya **pool_FQDN** por el nombre del grupo de destino. En este ejemplo, moveremos a los usuarios Hao Chen y Katie Katie. 
+2. En la línea de comandos, escriba lo siguiente y reemplace **user1** y **usuario2** por los nombres de usuario específicos que desea mover, y reemplace **pool_FQDN** por el nombre del grupo de destino. En este ejemplo, moveremos a los usuarios Hao Chen y Katie Katie. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -65,11 +65,11 @@ Puede mover varios usuarios de su grupo heredado a su grupo piloto de Skype empr
   
 3. En la línea de comandos, escriba: 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "User1"
    ```
 
-4. La identidad del **Grupo** de registradores debe apuntar ahora al grupo que especificó como **pool_FQDN** en el paso anterior. La presencia de esta identidad confirma que el usuario se movió correctamente. Repita el paso para comprobar que **usuario2** se ha movido. 
+4. La identidad del **grupo de registradores** debe apuntar ahora al grupo que especificó como **pool_FQDN** en el paso anterior. La presencia de esta identidad confirma que el usuario se movió correctamente. Repita el paso para comprobar que **usuario2** se ha movido. 
     
      ![Resultado del cmdlet Get-UsUser-Identity de PowerShell](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
@@ -82,7 +82,7 @@ En este ejemplo, todos los usuarios han sido devueltos al grupo heredado (pool01
     
 2. En la línea de comandos, escriba: 
     
-   ```
+   ```PowerShell
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
@@ -90,11 +90,11 @@ En este ejemplo, todos los usuarios han sido devueltos al grupo heredado (pool01
   
 3. Ejecute **Get-CsUser** para uno de los usuarios de la prueba piloto. 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "Hao Chen"
    ```
 
-4. La identidad del **Grupo** de registradores de cada usuario apunta ahora al grupo que especificó como **pool_FQDN** en el paso anterior. La presencia de esta identidad confirma que el usuario se movió correctamente. 
+4. La identidad del **grupo de registradores** de cada usuario apunta ahora al grupo que especificó como **pool_FQDN** en el paso anterior. La presencia de esta identidad confirma que el usuario se movió correctamente. 
     
 5. Además, podemos ver la lista de usuarios en el panel de control de Skype empresarial Server 2019 y verificar que el valor del grupo de registrador ahora apunta al grupo de Skype empresarial Server 2019.
     

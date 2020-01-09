@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: El shell de administración de Skype empresarial proporciona la interfaz de línea de comandos para la administración y administración del servidor. Se ha creado en Windows PowerShell e incluye un conjunto completo de cmdlets de administración y administración específicos de Skype y los productos heredados de Lync Server.
-ms.openlocfilehash: ce031b15e2146036d77c7336aa9c2b73f000fe4a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4890194824caaea771d31e008d4546d871d0da8a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279595"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991595"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Shell de administración de Skype Empresarial Server
  
@@ -29,7 +29,7 @@ Windows PowerShell le permite administrar aplicaciones de Microsoft desde la lí
   
 Skype empresarial Server incluye más de 700 cmdlets que permiten a los administradores administrar Skype empresarial Server mediante el shell de administración de Skype empresarial Server. Puede obtener ayuda sobre un cmdlet directamente desde la línea de comandos al escribir lo siguiente:
   
-```
+```PowerShell
 Get-Help New-CsVoicePolicy -Full
 ```
 
@@ -37,7 +37,7 @@ El comando anterior recupera toda la ayuda disponible para el cmdlet **New-CsVoi
   
 Para obtener una lista de todos los cmdlets disponibles para administrar Skype Empresarial Server, escriba lo siguiente en el símbolo del sistema del shell: 
   
-```
+```PowerShell
 Get-Command * -Module SkypeforBusiness -CommandType cmdlet
 ```
 
@@ -56,13 +56,13 @@ Cosas que debe saber sobre Windows PowerShell en Skype empresarial Server:
     
     De forma predeterminada, el cmdlet **Update-Help** actualiza todos los módulos instalados en su servidor de Skype empresarial. Si desea actualizar solo determinados módulos, puede usar el parámetro _Module_ a fin de limitar el ámbito del cmdlet. En el siguiente ejemplo se actualiza únicamente el módulo de Skype empresarial.
     
-  ```
+  ```PowerShell
   Update-Help -Module SkypeforBusiness
   ```
 
     Si necesita actualizar la ayuda en servidores que no están conectados a Internet, puede usar el cmdlet [Save-Help](https://technet.microsoft.com/en-us/library/hh849724.aspx) para obtener la última versión de la ayuda y guardarla en la ubicación que especifique. Después, puede usar el cmdlet **Update-Help** con el parámetro _-SourcePath_ en servidores que no están conectados a Internet para obtener la ayuda actualizada desde la ubicación que seleccionó. En el ejemplo siguiente se muestra cómo guardar los archivos de ayuda en un recurso compartido de archivos de red y, a continuación, actualizar la ayuda del módulo Skype empresarial desde el recurso compartido de archivos.
     
-  ```
+  ```PowerShell
   // Save the help files
    Save-Help -DestinationPath \\UpdateShare\HelpDownload
   // Run Update-Help against the local help files

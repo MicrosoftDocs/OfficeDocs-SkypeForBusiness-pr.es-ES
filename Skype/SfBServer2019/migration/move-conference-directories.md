@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Antes de dar de baja un grupo, debe realizar el siguiente procedimiento para cada directorio de conferencia de su grupo heredado.
-ms.openlocfilehash: cc989e752e69db31f338b493c403b8b8d4c252cc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1cd4a3a3359ec1638c3ae93c6ce81d8ba2227b96
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237740"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988945"
 ---
 # <a name="move-conference-directories"></a>Mover directorios de conferencia
 
@@ -26,13 +26,13 @@ Antes de dar de baja un grupo, debe realizar el siguiente procedimiento para cad
     
 2. Para obtener la identidad de los directorios de conferencia de su organización, ejecute el siguiente comando:
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory
    ```
 
     El comando anterior devuelve todos los directorios de conferencia de su organización. Por eso, es posible que desee limitar los resultados al grupo que se va a retirar. Por ejemplo, si va a retirar el grupo con el nombre de dominio completo (FQDN) pool01.contoso.net, use este comando para limitar los datos devueltos a los directorios de conferencia de ese grupo:
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
    ```
 
@@ -40,19 +40,19 @@ Antes de dar de baja un grupo, debe realizar el siguiente procedimiento para cad
     
 3. Para mover los directorios de la Conferencia, ejecute el comando siguiente para cada directorio de conferencia del Grupo:
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
     Por ejemplo, para mover el directorio de conferencia 3, use este comando, especificando un grupo de servidores de Skype empresarial 2019 como TargetPool:
     
-   ```
+   ```PowerShell
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
    ```
 
     Si quiere mover todos los directorios de conferencia de un grupo, use un comando similar al siguiente:
     
-   ```
+   ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 

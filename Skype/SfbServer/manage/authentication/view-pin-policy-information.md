@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Resumen: vea la información de la Directiva de PIN de un usuario para Skype empresarial Server.'
-ms.openlocfilehash: 5f6269b766748d5027c0a8182dd027754cd5cc00
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c61c55f97abc661558089c1d26ee4f5537fcf36b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297592"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991955"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Ver información de directivas de PIN en Skype empresarial Server
  
@@ -44,7 +44,7 @@ También puede ver directivas de PIN con Windows PowerShell y el cmdlet Get-CsPi
 
 Para ver información sobre todas las directivas de PIN, escriba el siguiente comando en el shell de administración de Skype empresarial Server y, a continuación, presione ENTRAR:
     
-  ```
+  ```PowerShell
   Get-CsPinPolicy
   ```
 

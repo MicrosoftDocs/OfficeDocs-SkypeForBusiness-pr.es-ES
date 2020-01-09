@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Resumen: Aprenda a administrar la purga de datos archivados en Skype empresarial Server.'
-ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f168f7fe744ef388de246cbcd2dd9de0fc2ef805
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278394"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991615"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Administrar la purga de datos archivados en Skype empresarial Server
 
@@ -57,13 +57,13 @@ Puede administrar la purga de datos archivados con los siguientes cmdlets de Win
     
 Por ejemplo, el siguiente comando permite la purga de todos los datos archivados. Después de ejecutar este comando, Skype empresarial Server purgará todos los registros de archivado anteriores al valor especificado para el parámetro KeepArchivingDataForDays. 
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
 El siguiente comando limita la purga de los registros archivados que se han exportado a un archivo de datos (con el cmdlet **Export-CSArchivingData**). Es preciso que también establezca el parámetro PurgeExportedArchivesOnly en True ($True).
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
@@ -71,12 +71,12 @@ Después de ejecutar este comando, Skype empresarial Server solo purgará los re
   
 Para deshabilitar la purga automatizada de los registros de archivado, establezca el parámetro EnablePurging en False ($False):
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
 En el ejemplo siguiente se usa el cmdlet **Invoke-CsArchivingDatabasePurge** para purgar todos los registros con más de 24 horas de antigüedad de la base de datos de archivado en ATL-SQL-001.contoso.com. Para asegurarse de que se eliminan todos los registros, incluidos los registros que no se han exportado, el parámetro PurgeExportedArchivesOnly se establece en False ($False).
   
-```
+```PowerShell
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False
 ```

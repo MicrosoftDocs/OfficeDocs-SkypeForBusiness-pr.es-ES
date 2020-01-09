@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Información de planificación y configuración de Skype empresarial Server para la pantalla compartida basada en vídeo (VbSS)
-ms.openlocfilehash: ae2cc683148fdb2a2cb80e3fe3cf25a698a56c00
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 00c699f9a26d82506bd13fefe0e6f3e53f7b86bf
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548998"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992397"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Pantalla compartida basada en vídeo para Skype Empresarial Server 
  
@@ -141,13 +141,13 @@ Lo mejor es que, una vez que haya instalado la actualización acumulativa 3 (CU3
 
 - Puede asignar una directiva de usuario que no permita VbSS a los usuarios que no deberían usar VbSS ejecutando este cmdlet en la consola de administración de Skype empresarial (Reemplace [PolicyName] por la Directiva que está haciendo):
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
   ```
 
 - También puede actualizar la directiva de conferencia global, que afectará a todos los usuarios que no tengan una directiva asignada:
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
@@ -155,7 +155,7 @@ Lo mejor es que, una vez que haya instalado la actualización acumulativa 3 (CU3
     
 - Si necesita desactivar VbSS por completo, puede ejecutar este comando:
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
@@ -168,13 +168,13 @@ Lo mejor es que, una vez que haya instalado la actualización acumulativa 3 (CU3
 
 - Puede asignar una directiva de usuario específica que permita VbSS a todos los usuarios que necesiten usar VbSS ejecutando este cmdlet en la consola de administración de Skype empresarial (Reemplace [PolicyName] por la Directiva que está haciendo):
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
   ```
 
 - También puede actualizar la directiva de conferencia global, que afectará a todos los usuarios que no tengan una directiva asignada:
     
-  ```
+  ```PowerShell
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
@@ -182,7 +182,7 @@ Lo mejor es que, una vez que haya instalado la actualización acumulativa 3 (CU3
     
 - Si necesita volver a activar VbSS después de desactivarla (está activada de manera predeterminada), puede ejecutar este comando:
     
-  ```
+  ```PowerShell
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 

@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: configure el servidor de administración principal, instale System Center Operations Manager e importe los paquetes de administración para Skype empresarial Server 2019.'
-ms.openlocfilehash: 316931aff5379de10b0301cc65e94443ed0f7675
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b5835f0638231cff6176aa7377d6f7c60e81b6f7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284042"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989075"
 ---
 # <a name="configure-the-primary-management-server"></a>Configurar el servidor de administración principal
 
@@ -55,12 +55,12 @@ Tenga en cuenta que solo puede tener un servidor de administración raíz por im
 
 Puede ampliar las capacidades de System Center Operations Manager mediante la instalación de paquetes de administración, es decir, el software que determina qué elementos puede supervisar System Center Operations Manager, cómo se deben supervisar esos elementos y cómo se deberían desencadenar alertas y registrados. Skype empresarial Server 2019 incluye dos módulos de administración de System Center Operations Manager que proporcionan las siguientes características:
 
-- **El paquete de administración de componentes y usuarios** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) realiza un seguimiento de los problemas de Skype empresarial Server registrados en registros de eventos, registrados por contadores de rendimiento o registrados en las bases de datos de registros de detalles de llamadas (CDRs) o de calidad de la experiencia (QoE). En el caso de problemas críticos, System Center Operations Manager se puede configurar para que notifiquen inmediatamente a los administradores por correo electrónico, mensajes instantáneos o mensajes SMS. (SMS o servicio de mensajes cortos es la tecnología que se usa para enviar mensajes de texto desde un dispositivo móvil a otro).
+- **El componente y el paquete de administración de usuario** (Microsoft.LS.2019.Monitoring.ComponentAndUser.MP) realiza un seguimiento de los problemas de Skype empresarial Server registrados en los registros de eventos, registrados por los contadores de rendimiento o registrados en las bases de datos de registros de detalles de llamadas (CDRs) o de calidad de experiencia (QoE). En el caso de problemas críticos, System Center Operations Manager se puede configurar para que notifiquen inmediatamente a los administradores por correo electrónico, mensajes instantáneos o mensajes SMS. (SMS o servicio de mensajes cortos es la tecnología que se usa para enviar mensajes de texto desde un dispositivo móvil a otro).
 
     > [!NOTE]
     >  Para obtener más información sobre cómo configurar las notificaciones de Operations Manager, vea [configurar notificaciones](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **El módulo de administración de supervisión activa** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) prueba de forma proactiva los componentes de Skype empresarial clave, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o hacer llamadas a un teléfono que se encuentra en la red de telefonía pública conmutada (RTC). ). Estas pruebas se realizan mediante los cmdlets de transacciones sintéticas de Skype empresarial Server. Por ejemplo, el cmdlet **Test-CsIM** se usa para simular una conversación de mensajería instantánea entre dos usuarios de prueba. Si esta conversación simulada falla, se genera una alerta.
+- **El módulo de administración de supervisión activa** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.MP) prueba de forma proactiva los componentes clave de Skype empresarial, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o hacer llamadas a un teléfono que se encuentra en la red de telefonía pública conmutada (RTC). Estas pruebas se realizan mediante los cmdlets de transacciones sintéticas de Skype empresarial Server. Por ejemplo, el cmdlet **Test-CsIM** se usa para simular una conversación de mensajería instantánea entre dos usuarios de prueba. Si esta conversación simulada falla, se genera una alerta.
 
 Importar los paquetes de administración es un paso fundamental. Si los módulos de administración no se importan, no podrá usar Operations Manager para supervisar los eventos de Skype Empresarial Server ni para ejecutar transacciones sintéticas de Skype Empresarial Server.
 
@@ -101,12 +101,12 @@ En general, es más fácil importar los módulos de administración con la conso
 
 2. En el shell de Operations Manager, escriba el siguiente comando en el símbolo del sistema, utilizando la ruta de acceso real a la copia del archivo Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp y, a continuación, presione ENTRAR:
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp"
    ```
 
 3. Una vez que haya importado el primer módulo de administración, repita el proceso con la ruta de acceso a la copia del archivo Microsoft.LS.2019.Monitoring.ComponentAndUser.mp:
 
-   ```
+   ```PowerShell
    Import-SCOMManagementPack -FullName "D:\MP\Microsoft.LS.2019.Monitoring.ComponentAndUser.mp"
    ```

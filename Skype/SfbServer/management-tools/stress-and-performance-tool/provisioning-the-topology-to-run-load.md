@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: El cambio o el aprovisionamiento de la topología de Skype empresarial Server 2015 permite a los usuarios ejecutar correctamente la herramienta de estrés y rendimiento.
-ms.openlocfilehash: c7cdc10b3667ac99376904c81309df739e49844a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e58bfce5e618c6e62f272c0acb0b415cbb471d40
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299705"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992497"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Aprovisionamiento de la topología para ejecutar la carga en escenarios de estrés y rendimiento
  
@@ -27,13 +27,13 @@ En función de la configuración y la configuración actuales de su implementaci
   
 1. Establezca la Directiva de ejecución de Windows PowerShell en no restringido. Si no está seguro de lo que está configurado en este momento, puede abrir el shell de administración de Skype empresarial Server y ejecutar este comando:
     
-   ```
+   ```PowerShell
    Get-ExecutionPolicy
    ```
 
    Si no se devuelve el valor Unrestricted, tendrá que ejecutar lo siguiente:
     
-   ```
+   ```PowerShell
    Set-ExecutionPolicy -Unrestricted
    ```
 
@@ -45,7 +45,7 @@ En función de la configuración y la configuración actuales de su implementaci
     
 3. Para ejecutar un script desde la línea de comandos, puede usar:
     
-   ```
+   ```PowerShell
    PowerShell.exe -file <path to the file>
    ```
 

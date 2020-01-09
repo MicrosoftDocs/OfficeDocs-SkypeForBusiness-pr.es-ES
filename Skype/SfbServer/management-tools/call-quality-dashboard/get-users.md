@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 'Resumen: Obtenga información sobre la operación obtener usuarios, que forma parte del servicio de usuario. El servicio de usuario es parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 22223c37dad39f171afc27eb9e0520b8b32335c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6cf2248035c780c2efce6b1f4539a39cd2a5829a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274649"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992617"
 ---
 # <a name="get-users"></a>Obtener usuarios
  
@@ -49,7 +49,7 @@ Obtener usuarios devuelve una lista de usuarios del repositorio.
 > [!NOTE]
 > Se devuelve una matriz de objetos de usuario. Para obtener más información sobre el objeto de usuario, vea obtener usuario. 
   
-```
+```json
 [{
 "userId": 0,
 "loginName": "system",

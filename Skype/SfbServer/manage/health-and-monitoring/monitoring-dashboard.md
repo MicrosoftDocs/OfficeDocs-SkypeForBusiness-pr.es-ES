@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumen: Obtenga información sobre el panel de supervisión de Skype empresarial Server.'
-ms.openlocfilehash: 0ca85bff7cfcad7f3b64a4b0f5b92a22299e5719
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 39f5e9c2b024f73f669098c4da7eaca40ef4ea61
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279931"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992035"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usar el panel de supervisión de Skype empresarial Server
  
@@ -31,7 +31,7 @@ El panel de supervisión proporciona a los administradores una breve descripció
     
 Tenga en cuenta que puede usar el cmdlet [Get-CsReportingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) para devolver la dirección URL que se usa para obtener acceso a los informes de supervisión de Skype empresarial Server:
   
-```
+```PowerShell
 Get-CsReportingConfiguration
 ```
 

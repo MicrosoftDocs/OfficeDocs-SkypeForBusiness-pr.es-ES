@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 'Resumen: Instale los archivos del agente de Operations Manager en el servidor de Skype empresarial Server 2015 que se va a supervisar y configure el equipo para que funcione como un proxy de System Center.'
-ms.openlocfilehash: 15a1be4473295f448b0498072aacdee03af88d06
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5279924c29e8dba11882ca7d172c06894a7808b8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277695"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992477"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configurar los equipos de Skype Empresarial Server equipos que se supervisarán
 
@@ -44,7 +44,7 @@ Si implementa un agente en una de estas ubicaciones, también tendrá que solici
 
 5. En la página Configuración del grupo de administración, seleccione **Especificar información del grupo de administración** y después haga clic en **Siguiente**.
 
-6. En la página Configuración del grupo de administración, escriba el nombre del grupo de administración de Operations Manager en el cuadro **nombre del grupo de administración** y, a continuación, escriba el nombre de host del servidor de Operations Manager (por ejemplo, ATL-SCOM-001) en el servidor de **Administración **Box. Si ha cambiado el número de puerto que Operations Manager usa, escriba el nuevo número en el cuadro **Puerto del servidor de administración**. De lo contrario, deje el puerto en el valor predeterminado 5723 y haga clic en **Siguiente**.
+6. En la página Configuración del grupo de administración, escriba el nombre del grupo de administración de Operations Manager en el cuadro **nombre del grupo de administración** y, a continuación, escriba el nombre de host del servidor de Operations Manager (por ejemplo, ATL-SCOM-001) en el cuadro servidor de **Administración** . Si ha cambiado el número de puerto que Operations Manager usa, escriba el nuevo número en el cuadro **Puerto del servidor de administración**. De lo contrario, deje el puerto en el valor predeterminado 5723 y haga clic en **Siguiente**.
 
 7. En la página Cuenta de acción del agente, seleccione **Sistema local** y haga clic en **Siguiente**.
 
@@ -57,7 +57,7 @@ Si implementa un agente en una de estas ubicaciones, también tendrá que solici
 11. Haga clic en **Salir**.
 
 Para System Center 2012, puede comprobar que el agente se ha creado haciendo clic en **Inicio**, en **todos los programas**, en **System Center Operations Manager 2012**y, a continuación, en **Operations 2012 Manager Shell**. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
-```
+```PowerShell
 Get-SCOMAgent
 ```
 

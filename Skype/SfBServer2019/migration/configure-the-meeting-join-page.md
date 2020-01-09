@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cuando un usuario hace clic en un vínculo de reunión en una convocatoria de reunión, la página de la reunión detecta qué cliente ya está instalado en el equipo del usuario. Si un cliente ya está instalado, ese cliente se abre y se une a la reunión. De forma predeterminada, si un cliente no está instalado, se abre la aplicación Web.
-ms.openlocfilehash: 1bab2dff25db94b36c41e5824401777006760bfc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5c9e6653783d90411e0f701b5d3395c569d8bdff
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239329"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989565"
 ---
 # <a name="configure-the-meeting-join-page"></a>Configurar la página para unirse a la reunión
 
@@ -35,7 +35,7 @@ Puede modificar el comportamiento de la página de la combinación de reuniones 
     
 2. Ejecute el siguiente cmdlet: 
     
-   ```
+   ```PowerShell
    Get-CsWebServiceConfiguration
    ```
 
@@ -43,7 +43,7 @@ Puede modificar el comportamiento de la página de la combinación de reuniones 
     
 3. Ejecute el siguiente comando, con los parámetros establecidos en true o false, en función de su preferencia (para obtener información detallada sobre los parámetros para este cmdlet, consulte la documentación del [Shell de administración de Skype empresarial](../../SfbServer/manage/management-shell.md) ):
     
-   ```
+   ```PowerShell
    Set-CsWebServiceConfiguration -Identity global -ShowJoinUsingLegacyClientLink $True
    ```
 

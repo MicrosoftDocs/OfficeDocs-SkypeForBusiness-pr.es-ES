@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: Obtenga información sobre el proceso de implementación del panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 16877bff7f96bd4d2f6b308b33803c741c2672c2
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: aa7f5d81fd9778e148dcf64f84c757676bd1df2d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221569"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992697"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implementar el panel de calidad de llamadas para Skype empresarial Server
  
@@ -83,7 +83,7 @@ La implementación del panel de calidad de llamadas implica la configuración de
   
    - **Directorio de archivos de partición:** Ruta en la que se deben ubicar las particiones de la base de datos de archivo de calidad. Debe estar en una unidad (HDD3 en la configuración de hardware recomendada) independiente de la unidad del sistema operativo y de los archivos de registro de la base de datos de SQL. Tenga en cuenta que, dado que los nombres de archivo se corrigen en la instalación, para evitar posibles conflictos, se recomienda que se use un directorio en blanco sin archivos.
     
-   - **Trabajo del Agente SQL-contraseña del &amp; nombre de usuario:** Nombre y contraseña de la cuenta de servicio de dominio (enmascarado) que se usarán para ejecutar el paso "información del archivo de calidad del producto de QoE" del trabajo del Agente SQL Server (que ejecutará el procedimiento almacenado para capturar datos de la BD de QoE Metrics a Archive DB, por lo que esta cuenta debe tener acceso de lectura a la BD de la métrica de calidad.  según se indica en la sección cuentas. Esta cuenta también necesita tener un inicio de sesión en la instancia de Archive SQL Server de QoE).
+   - **Trabajo del Agente SQL-contraseña del &amp; nombre de usuario:** Nombre y contraseña de la cuenta de servicio de dominio (enmascarado) que se utilizarán para ejecutar el paso "información del archivo de QoE" del trabajo del Agente SQL Server (que ejecutará el procedimiento almacenado para capturar datos de la base de datos de la serie QoE a la BD de archivo, por lo que esta cuenta debe tener acceso de lectura a la base de datos de la métrica Esta cuenta también necesita tener un inicio de sesión en la instancia de Archive SQL Server de QoE).
     
      > [!NOTE]
      > La cuenta con la que se ejecuta la instancia de SQL Server, como NT SERVICE\MSSQLSERVER, debe tener acceso/permiso a los directorios mencionados anteriormente para que la instalación se realice correctamente. Para obtener más información, vea [configurar permisos del sistema de archivos para el acceso del motor de base de datos](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
@@ -159,7 +159,7 @@ Después, los administradores deben agregar nuevas reglas de autorización y con
   
 Los detalles de configuración se almacenan en la Web. config, que se encuentra en el directorio físico del portal.
   
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -282,7 +282,7 @@ Ejemplos
     
   **Ejemplo de sintaxis SQL**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingType]
 ([BuildingTypeId],
@@ -313,7 +313,7 @@ Ejemplos
     
   **Ejemplo de sintaxis SQL**
   
-```
+```SQL
 INSERT INTO
 [dbo].[CqdBuildingOwnershipType]
 ([OwnershipTypeId],
@@ -343,7 +343,7 @@ Ejemplos
     
   **Ejemplo de sintaxis SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetworkName] 
 ( [NetworkName]
 ,[NetworkType]
@@ -365,7 +365,7 @@ Antes de importar un nuevo edificio, ya tiene un BuildingKey predefinido. Para e
   
  **Ejemplo de sintaxis SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBuilding] 
 ( [BuildingKey]
 ,[BuildingName]
@@ -390,7 +390,7 @@ Importar subredes y asignarlas a los edificios importados en el último paso. Si
   
  **Ejemplo de sintaxis SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdNetwork] 
 ([Network]
 ,[NetworkNameID]
@@ -410,7 +410,7 @@ Rellenar la información de BSSID proporciona una correlación adicional de secu
   
  **Ejemplo de sintaxis SQL**
   
-```
+```SQL
 INSERT INTO [dbo].[CqdBssid]
 ([Ap],
 [Bss],

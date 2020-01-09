@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de mover los usuarios a los grupos de servidores de Skype empresarial 2019, puede migrar los grupos de respuesta. La migración de grupos de respuesta incluye copiar grupos de agentes, colas, flujos de trabajo, archivos de audio y mover los objetos de contacto del grupo de respuesta de la implementación heredada al grupo de servidores de Skype empresarial 2019. Después de migrar los grupos de respuesta heredados, las llamadas a los grupos de respuesta se controlan mediante la aplicación de grupo de respuesta en el grupo de servidores de Skype empresarial 2019. Las llamadas a grupos de respuesta ya no son controladas por el grupo heredado.
-ms.openlocfilehash: b8d49205f4f54ca7c00a9aed0b6ac176c11cd617
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 148fbe2ca547c3bd7e3d240e687b37c94d10270b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237973"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991115"
 ---
 # <a name="migrate-response-groups"></a>Migrar grupos de respuesta
 
@@ -43,7 +43,7 @@ Al migrar grupos de respuesta, los grupos de respuesta heredados no se quitan. A
 > [!IMPORTANT]
 > Le recomendamos que no elimine ningún dato de la implementación anterior hasta que no represente el grupo. Además, le recomendamos encarecidamente que exporte los grupos de respuesta inmediatamente después de la migración. Si un grupo de respuesta heredado debe quitarse, puede restaurar los grupos de respuesta de la copia de seguridad para que los grupos de respuesta de Skype empresarial Server 2019 vuelvan a ejecutarse. 
   
-Skype empresarial Server 2019 presenta una nueva característica de grupo de respuesta llamada **tipo de flujo de trabajo**. El tipo de flujo **** de **trabajo** se puede administrar o **no administrar**. Todos los grupos de respuesta se migran con el **tipo de flujo de trabajo** establecido en **no administrado** y con una lista vacía de administrador. 
+Skype empresarial Server 2019 presenta una nueva característica de grupo de respuesta llamada **tipo de flujo de trabajo**. El **tipo de flujo de trabajo** se puede administrar o **no administrar**. **** Todos los grupos de respuesta se migran con el **tipo de flujo de trabajo** establecido en **no administrado** y con una lista vacía de administrador. 
   
 Al ejecutar el cmdlet **Move-CsRgsConfiguration** , los grupos de agentes, las colas, los flujos de trabajo y los archivos de audio permanecen en el grupo heredado para fines de desinstalación. Sin embargo, si necesita volver al grupo heredado, debe ejecutar el cmdlet **Move-CsApplicationEndpoint** para mover los objetos de contacto de nuevo al grupo heredado. 
   
@@ -57,13 +57,13 @@ El siguiente procedimiento para migrar la configuración de un grupo de respuest
     
 3. Ejecute:
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
    ```
 
     Por ejemplo:
     
-   ```
+   ```PowerShell
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
@@ -91,13 +91,13 @@ El siguiente procedimiento para migrar la configuración de un grupo de respuest
     
     Para obtener más información sobre los siguientes cmdlets, ejecute:
     
-   ```
+   ```PowerShell
    Get-Help <cmdlet name> -Detailed
    ```
 
 3. Ejecute:
     
-   ```
+   ```PowerShell
    Get-CsRgsAgentGroup
    ```
 
@@ -105,7 +105,7 @@ El siguiente procedimiento para migrar la configuración de un grupo de respuest
     
 5. Ejecute:
     
-   ```
+   ```PowerShell
    Get-CsRgsQueue
    ```
 
@@ -113,7 +113,7 @@ El siguiente procedimiento para migrar la configuración de un grupo de respuest
     
 7. Ejecute:
     
-   ```
+   ```PowerShell
    Get-CsRgsWorkflow
    ```
 

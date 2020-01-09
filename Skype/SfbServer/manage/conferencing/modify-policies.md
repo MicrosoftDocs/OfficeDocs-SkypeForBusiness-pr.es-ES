@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: 'Resumen: Aprenda a modificar directivas de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: b2c192948f0119a70f031c1c2bbe5de8e776c2f3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9cfb13436a01439a8d5ea152ca1d8ac543bc0e88
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280414"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991815"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modificar directivas de conferencia en Skype empresarial Server
  
@@ -43,7 +43,7 @@ Para modificar las directivas de conferencia, use el cmdlet **set-CsConferencing
   
 El siguiente ejemplo modifica un valor de propiedad de la directiva de conferencia SalesConferencingPolicy. El comando establece el valor de la propiedad AllowConferenceRecording en False:
   
-```
+```PowerShell
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 

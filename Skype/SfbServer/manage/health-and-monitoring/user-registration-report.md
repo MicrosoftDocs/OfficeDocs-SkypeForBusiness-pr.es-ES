@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Resumen: Obtenga información sobre el informe de registro de usuario en Skype empresarial Server.'
-ms.openlocfilehash: efdb701a61f527e3dd56c1f1e0662f3f1b7f0f8b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 721d0b814a970ccb32df8eb83251099d8cb4801d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279672"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991695"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Informe de registro de usuario en Skype empresarial Server
  
@@ -51,7 +51,7 @@ Tenga en cuenta que existe un total de cinco inicios de sesión. Pero, solo hay 
   
 Además de conocer el número de inicios de sesión únicos, necesita saber el número total de usuarios que se han habilitado para Skype empresarial Server. Ese valor se puede recuperar abriendo el shell de administración de Skype empresarial Server y ejecutando el siguiente comando de Windows PowerShell:
   
-```
+```PowerShell
 (Get-CsUser).Count
 ```
 

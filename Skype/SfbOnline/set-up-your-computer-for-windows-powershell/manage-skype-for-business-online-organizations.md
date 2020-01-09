@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Use Windows PowerShell y los cmdlets Get-CsTenant y Get-CsTenantLicensingConfiguration para obtener información sobre su inquilino de Skype empresarial online.
-ms.openlocfilehash: 768ee4e0724bd04d38e9ce77b94372bdad498ecd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 340ef9de0e793cbbed7d471754ebca715eb7eaf7
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284694"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989235"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Administrar las organizaciones de Skype empresarial online
 
@@ -33,13 +33,13 @@ Puede encontrar información sobre su inquilino de Skype empresarial online con 
 
 Para obtener información sobre el inquilino de Skype empresarial online, llame al cmdlet [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sin ningún parámetro adicional.
   
-```
+```PowerShell
 Get-CsTenant
 ```
 
 Para devolver solo el identificador y el nombre de inquilino, use este comando.
   
-```
+```PowerShell
 Get-CsTenant | Select-Object Name, TenantID
 ```
 

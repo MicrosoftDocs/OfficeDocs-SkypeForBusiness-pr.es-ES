@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Resumen: Revise este tema mientras planea el servicio de supervisión en Skype empresarial Server.'
-ms.openlocfilehash: e03fc9714cbb958a9c34bb14db0129a94e49692b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ebe94d3088e319a0c210c9d169f35f1c783ad5f5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297284"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991785"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planear la supervisión en Skype empresarial Server
 
@@ -80,7 +80,7 @@ Para muchas organizaciones, la capacidad de la base de datos no será el factor 
 
 También debe tener en cuenta que Skype empresarial Server admite el uso de bases de datos reflejadas. La creación de reflejo de la base de datos es una forma de mantener al mismo tiempo dos copias de una base de datos, cada una de ellas en un servidor diferente. Cada vez que se escriben datos en la base de datos principal, esos mismos datos se escriben en la base de datos reflejada. Si la base de datos principal falla o no está disponible, puede realizar la "conmutación por error" a la base de datos reflejada mediante un simple comando de PowerShell de Skype empresarial Server. Por ejemplo:
 
-```
+```PowerShell
 Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Monitoring" -NewPrincipal "Mirror"
 ```
 

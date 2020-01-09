@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Resumen: Obtenga información sobre la grabación de detalles de llamadas (CDR) en Skype empresarial Server.'
-ms.openlocfilehash: c0a54835fe74a32a92996874cb6fd895fd49fafc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 52c5f3de5b3c83fe5701b339ecf45ed7f80a0988
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305838"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992527"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Crear o modificar una colección de opciones de configuración de CDR en Skype empresarial Server
  
@@ -64,7 +64,7 @@ Puede crear la configuración de CDR también puede crearse con Windows PowerShe
 
  Este comando crea una nueva colección de valores de configuración del CDR para el sitio de Redmond:
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond"
   ```
 
@@ -72,7 +72,7 @@ Puede crear la configuración de CDR también puede crearse con Windows PowerShe
 
  Dado que, en el comando anterior, no se especificaron parámetros (además del parámetro de identidad obligatorio), la nueva colección de valores de configuración usará los valores predeterminados para todas sus propiedades. Para crear una configuración que use otros valores de propiedad, basta con incluir el parámetro y el valor correspondiente adecuados. Por ejemplo, para crear una colección de parámetros de configuración de detalle de llamadas que, de forma predeterminada, permita el registro detallado de llamadas, use solo un comando como este:
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
   ```
 
@@ -80,7 +80,7 @@ Puede crear la configuración de CDR también puede crearse con Windows PowerShe
 
  Puede incluir varios parámetros para modificar varios valores de propiedad. Por ejemplo, este comando configura los nuevos valores para conservar los registros detallados de llamadas durante 30 días y los informes de error durante 90 días:
     
-  ```
+  ```PowerShell
   New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
   ```
 

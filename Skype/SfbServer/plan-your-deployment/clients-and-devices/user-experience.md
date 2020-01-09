@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Resumen: Obtenga información sobre el nuevo Skype empresarial y los pasos que puede realizar para preparar su entorno y sus usuarios para la actualización, ya sea que esté usando Skype empresarial online, Skype empresarial Server 2019, Skype empresarial Server 2015, Lync Server 2013 o Lync Server 2010.'
-ms.openlocfilehash: d5224c628624d6d93d8b3a06cd4c59d246523b1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 21a28af999b285910884241e6e7809a88b943a87
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277296"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989855"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planear la experiencia del cliente de Skype empresarial 2015 para los usuarios
  
-**Resumen:** Obtenga más información sobre el nuevo Skype empresarial y los pasos que puede realizar para preparar su entorno y sus usuarios para la actualización, ya sea que esté usando Skype empresarial online, Skype empresarial Server 2019, Skype empresarial Server 2015, Lync Server 2013 o Lync Server. 2010.
+**Resumen:** Obtenga más información sobre el nuevo Skype empresarial y los pasos que puede realizar para preparar su entorno y sus usuarios para la actualización, ya sea que esté usando Skype empresarial online, Skype empresarial Server 2019, Skype empresarial Server 2015, Lync Server 2013 o Lync Server 2010.
   
 El 14 de abril de 2015 Office Update para Lync 2013 incluye la nueva interfaz de usuario de Skype empresarial. Esta actualización permite a los administradores controlar la apariencia del cliente y elegir si desea conservar la experiencia del cliente de Lync 2013 o usar la experiencia mejorada de cliente de Skype empresarial. El cliente de Skype empresarial ha reemplazado de manera efectiva el cliente de Lync 2013 y ha agregado la posibilidad de que los administradores elijan entre la experiencia del cliente de Lync existente y la nueva experiencia de cliente de Skype empresarial. Para obtener más información sobre esta actualización, consulte [actualización del 14 de abril de 2015 para Lync 2013 (Skype empresarial) (KB2889923)](https://support.microsoft.com/en-us/kb/2889923/).
   
@@ -84,25 +84,25 @@ Siga los pasos de esta sección si desea configurar la experiencia de cliente Sk
   
   **Opción 1:** Establecer la experiencia de cliente Skype con una directiva global. Tenga en cuenta que la directiva global se aplica a todos los usuarios de su implementación, pero las directivas de nivel de usuario y de sitio tienen prioridad sobre la directiva global:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $True
 ```
 
  **Opción 2:** Modificar una directiva de cliente existente que está usando en su entorno para incluir la configuración para habilitar la experiencia del cliente de Skype. Esto le permite asignar la experiencia del cliente Skype solo a aquellos usuarios que tienen asignada la directiva existente:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $True
 ```
 
  **Opción 3:** Crear una nueva directiva para asignar a los usuarios que incluye la configuración de la experiencia de cliente Skype. En primer lugar, cree la nueva directiva de cliente y proporcione el nombre de la directiva como valor del parámetro  **Identity**:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseSkypeUI -EnableSkypeUI $True
 ```
 
 A continuación, asigne la directiva a usuarios, usando el nombre de la directiva (el valor que ha usado para el parámetro **Identity**) como valor del parámetro **PolicyName**:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseSkypeUI
 ```
 
@@ -130,25 +130,25 @@ Siga los pasos de esta sección si desea configurar la experiencia de cliente Sk
   
  **Opción 1:** Establecer la experiencia de cliente Lync mediante una directiva global. Tenga en cuenta que la directiva global se aplica a todos los usuarios de la implementación, pero las directivas de nivel usuario y de sitio tienen prioridad sobre la directiva global:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $False
 ```
 
  **Opción 2:** Modificar una directiva de cliente existente que está usando en su entorno para incluir la configuración para habilitar la experiencia de cliente Lync. Esto le permite asignar la experiencia de cliente Lync solo a aquellos usuarios que tienen asignada la directiva existente:
   
-```
+```PowerShell
 Set-CsClientPolicy -Identity ExistingClientPolicyName -EnableSkypeUI $False
 ```
 
  **Opción 3:** Crear una nueva directiva para asignar a los usuarios que incluye la configuración de la experiencia de cliente Lync. En primer lugar, cree la nueva directiva de cliente y proporcione el nombre de la directiva como valor de parámetro **Identity**:
   
-```
+```PowerShell
 New-CsClientPolicy -Identity UseLyncUI -EnableSkypeUI $False
 ```
 
 A continuación, asigne la directiva a usuarios, usando el nombre de la directiva (el valor que ha usado para el parámetro **Identity**) como valor del parámetro **PolicyName**:
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
@@ -165,25 +165,25 @@ Si está usando Skype empresarial online, aún puede usar la experiencia del cli
   
  **Opción 1:** Establezca la experiencia del cliente de Lync mediante una directiva global. Tenga en cuenta que las directivas de sitio y de cliente aplicadas a los usuarios tendrán prioridad sobre una directiva global.
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Opción 2:** Modificar una directiva de cliente existente que está usando en su entorno para incluir la configuración para habilitar la experiencia de cliente Lync. Esto le permite asignar la experiencia de cliente Lync solo a aquellos usuarios que tienen asignada la directiva existente:
   
-```
+```PowerShell
 Grant-CsClientPolicy -PolicyName ClientPolicyDisableSkypeUI
 ```
 
  **Opción 3:** Use una instancia de directiva personalizada que incluya la configuración de la experiencia del cliente de Lync.
   
-```
+```PowerShell
 Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisableSkypeUI
 ```
 
 Una vez que haya configurado las directivas de cliente, implemente el cliente de Skype empresarial, compilación 4711,1002 (abril de 2015) o posterior.
   
-Para obtener información detallada sobre cómo configurar la experiencia de cliente con Skype empresarial online, incluidos los pasos sobre cómo controlar la primera experiencia de ejecución y los scripts de PowerShell que puede usar para configurar su entorno, vea [cambiar entre los Skype empresarial y las interfaces de usuario del cliente de Lync](https://aka.ms/SfBOUI).
+Para obtener información detallada sobre cómo configurar la experiencia de cliente con Skype empresarial online, incluidos los pasos sobre cómo controlar la primera experiencia de ejecución y los scripts de PowerShell que puede usar para configurar su entorno, consulte [cambiar entre las interfaces de usuario de Skype empresarial y del cliente de Lync](https://aka.ms/SfBOUI).
   
 ## <a name="resources-to-help-you-prepare-your-support-teams-and-your-end-users-for-the-update"></a>Recursos que le ayudarán a preparar a su equipos de asistencia y a los usuarios finales para la actualización
 <a name="support"> </a>

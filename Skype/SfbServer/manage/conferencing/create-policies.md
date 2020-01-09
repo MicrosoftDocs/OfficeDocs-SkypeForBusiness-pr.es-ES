@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Resumen: Aprenda a crear directivas de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: 323a50ab779e772ca6149dc4c151f9d42d55df66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 078c80af0304c796bd3935200764a9ce6e13585b
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304015"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991895"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Crear directivas de conferencia en Skype empresarial Server
  
@@ -120,7 +120,7 @@ Para crear directivas de conferencia, use el cmdlet **New-CsConferencingPolicy**
   
 En el ejemplo siguiente se crea una nueva Directiva de conferencia con la identidad SalesConferencingPolicy. Esta directiva usará todos los valores predeterminados de una directiva de conferencia, excepto uno: MaxMeetingSize. En este ejemplo, el tamaño máximo para una reunión se establecerá en 50, en lugar del valor predeterminado 250:
   
-```
+```PowerShell
 New-CsConferencingPolicy -Identity SalesConferencingPolicy -MaxMeetingSize 50
 ```
 

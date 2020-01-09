@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 'Resumen: Aprenda a eliminar directivas de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: 2d02fa580acbc11c1b41643ab25cecba618ed09a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7cf195e53ec159a8999561c0ddb8461ee1bf0ba6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294253"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991875"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Eliminar directivas de conferencia en Skype empresarial Server
  
@@ -39,13 +39,13 @@ Para eliminar las directivas de conferencia, use el cmdlet **Remove-CsConferenci
   
 El comando siguiente quita la directiva de conferencia con el valor de identidad RedmondConferencingPolicy:
   
-```
+```PowerShell
 Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 ```
 
 El comando siguiente quita cualquier directiva de conferencia que permita que usuarios externos graben la conferencia:
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 ```
 

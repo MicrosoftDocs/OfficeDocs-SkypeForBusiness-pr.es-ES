@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Obtenga información sobre cómo ver el estado del servicio, iniciar y detener servicios, y evitar las sesiones de servicios.
-ms.openlocfilehash: c3c0ad3a61543caf7866582413a67968c4c1c2d6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90acd45675277dad0f63db342217cf914c97109a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275153"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991525"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Administrar servicios en Skype empresarial Server
 
@@ -61,7 +61,7 @@ Para ver el estado del servicio en un equipo, escriba un comando similar al sigu
 
 Este comando devolverá información similar a la siguiente:
 
-```
+```console
 RoleName                                  Status
 --------                                  ------
 {W3SVC}                                   Running

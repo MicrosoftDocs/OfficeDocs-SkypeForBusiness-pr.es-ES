@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Resumen: configure la autenticación en dos fases en Skype empresarial Server.'
-ms.openlocfilehash: 91a8929b89a584b116f1c7ec9313daa2fe679fd0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 768ee9c2697523eff6922f20fd610554e32c1f7c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283843"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992337"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configurar la autenticación en dos fases en Skype empresarial Server
 
@@ -78,7 +78,7 @@ Para los equipos que vienen con el chip del Módulo de plataforma segura (TPM) q
 
 5. Abra la consola de administración del Módulo de plataforma segura (TPM) ejecutando el siguiente comando:
 
-  ```
+  ```console
   Tpm.msc
   ```
 
@@ -91,7 +91,7 @@ Para los equipos que vienen con el chip del Módulo de plataforma segura (TPM) q
 
 8. Desde el símbolo del sistema, cree una tarjeta inteligente virtual por medio del siguiente comando:
 
-  ```
+  ```console
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
@@ -100,7 +100,7 @@ Para los equipos que vienen con el chip del Módulo de plataforma segura (TPM) q
 
 9. Desde el símbolo del sistema, abra la consola de administración del equipo ejecutando el siguiente comando:
 
-  ```
+  ```console
   CompMgmt.msc
   ```
 
@@ -122,7 +122,7 @@ Para obtener más información sobre la inscripción en nombre de los usuarios c
 
 2. Inicie Internet Explorer.
 
-3. Vaya a la página de **inscripción Web** de la entidad emisora de certificados (por ejemplo,. https://MyCA.contoso.com/certsrv)
+3. Vaya a la página de **inscripción Web de la entidad emisora de certificados** (por ejemplo, https://MyCA.contoso.com/certsrv).
 
     > [!NOTE]
     > Si usa Internet Explorer 10, puede que tenga que ver este sitio web en modo de compatibilidad.
@@ -190,40 +190,40 @@ En la siguiente sección se describe cómo configurar los servicios de federaci�
 
 3. Desde la línea de comandos de Windows PowerShell, ejecute el siguiente comando:
 
-  ```
+  ```PowerShell
   add-pssnapin Microsoft.Adfs.PowerShell
   ```
 
 4. Establezca una asociación con cada uno de los servidores que estarán habilitados para la autenticación pasiva ejecutando el siguiente comando, sustituyendo el nombre del servidor específico para su implementación:
 
-  ```
+  ```PowerShell
   Add-ADFSRelyingPartyTrust -Name SfBPool01-PassiveAuth -MetadataURL https://SfBpool01.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
   ```
 
 5. Desde el menú Herramientas administrativas, inicie la consola de administración de AD FS 2.0.
 
-6. Expanda **relaciones** > **** de confianza confianzas de usuario de confianza.
+6. Expanda **relaciones** > de confianza**confianzas**de usuario de confianza.
 
 7. Compruebe que se ha creado una nueva confianza para su servidor de Skype empresarial.
 
 8. Cree y asigne una regla de autorización de emisión para la relación de confianza para usuario autenticado por medio de Windows PowerShell ejecutando los siguientes comandos:
 
-  ```
+  ```PowerShell
   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
 9. Cree y asigne una regla de transformación de emisión para la relación de confianza para usuario autenticado por medio de Windows PowerShell ejecutando los siguientes comandos:
 
-  ```
+  ```PowerShell
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
   ```
 
-  ```
+  ```PowerShell
   Set-ADFSRelyingPartyTrust -TargetName SfBPool01-PassiveAuth -IssuanceTransformRules $IssuanceTransformRules
   ```
 
@@ -269,7 +269,7 @@ Al usar la autenticación basada en formularios, puede desarrollar una página w
 
 11. Reinicie IIS ejecutando el siguiente comando:
 
-  ```
+  ```console
   IISReset /Restart /NoForce
   ```
 
@@ -292,7 +292,7 @@ En los siguientes pasos, se describe cómo crear una configuración de servicios
 
 3. Desde la línea de comandos del shell de administración de Skype empresarial Server, cree una nueva configuración de servicio web para cada director, grupo de servidores Enterprise y servidor Standard Edition que se habilitará para la autenticación pasiva ejecutando el siguiente comando:
 
-  ```
+  ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
@@ -301,19 +301,19 @@ En los siguientes pasos, se describe cómo crear una configuración de servicios
 
 4. Para comprobar que los valores de UseWsFedPassiveAuth y WsFedPassiveMetadataUri se configuraron correctamente, ejecute el siguiente comando:
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
 5. En los clientes, la autenticación pasiva es el método de autenticación menos preferido para la autenticación de WebTicket. Para todos los directores, grupos empresariales y servidores Standard Edition que se habilitarán para la autenticación pasiva, todos los demás tipos de autenticación deben estar deshabilitados en los servicios Web de Skype empresarial ejecutando el siguiente cmdlet:
 
-  ```
+  ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
   ```
 
 6. Para comprobar que se han deshabilitado correctamente todos los demás tipos de autenticación, ejecute el siguiente cmdlet:
 
-  ```
+  ```PowerShell
   Get-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseCertificateAuth, UsePinAuth, UseWindowsAuth
   ```
 
@@ -327,17 +327,17 @@ En los siguientes pasos, se describe cómo crear una configuración de proxy per
 
 1. Desde la línea de comandos del shell de administración de Skype empresarial Server, cree una nueva configuración de proxy para cada grupo de servidores perimetrales de Skype para empresas, grupo de servidores Enterprise y servidor Standard Edition que se habilitará para la autenticación pasiva mediante la ejecución de lo siguiente comandos
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
-  ```
+  ```PowerShell
   New-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
   ```
 
 2. Para comprobar que se han deshabilitado correctamente todos los demás tipos de autenticación de proxy, ejecute el siguiente comando:
 
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 

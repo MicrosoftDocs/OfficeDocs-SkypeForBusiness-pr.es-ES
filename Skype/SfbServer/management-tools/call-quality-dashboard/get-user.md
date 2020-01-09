@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: 'Resumen: Obtenga información sobre la operación obtener usuario, que es parte del servicio de usuario. El servicio de usuario es parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 6c38bb2db2bef1a21dfc5c4791de7a163c57ff5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 09dcbbaeaae98ed7b01f3d710cfda23aa5fa986f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274600"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992627"
 ---
 # <a name="get-user"></a>Obtener usuario
  
@@ -46,7 +46,7 @@ Obtener el usuario devuelve un registro de usuario del repositorio.
   
  **Cuerpo de respuesta** : a continuación se muestra un ejemplo de carga de respuesta en JSON.
   
-```
+```json
 {
 "userId": 0,
 "loginName": "system",
@@ -54,7 +54,7 @@ Obtener el usuario devuelve un registro de usuario del repositorio.
 }
 ```
 
- ** ID. de usuario.
+ ID *. de usuario* .
   
  *loginName* : identificación de usuario externo para usuarios comunes. Si se usa la autenticación de Windows para autenticar a los usuarios, esto puede ser un FQDN del usuario.
   

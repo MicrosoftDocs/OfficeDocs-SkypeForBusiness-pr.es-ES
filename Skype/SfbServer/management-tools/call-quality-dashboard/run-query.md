@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Resumen: Obtenga información sobre la operación ejecutar consulta, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 0b4c44c93009e014579a53872de82297c1486573
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8d31ea4c597ea3353fdd5da3e863938aababe819
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274565"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991405"
 ---
 # <a name="run-query"></a>Ejecutar consulta
 
@@ -39,7 +39,7 @@ Ejecutar la operación de consulta proporciona la capacidad de ejecutar una cons
 
  **Solicitar cuerpo** : aquí es una carga de solicitud de ejemplo en JSON. Contiene dimensiones, filtros y medidas necesarias para una consulta.
 
-```
+```json
 {
 "Filters": [{
 "DataModelName": "[StartDate].[Month]",
@@ -88,7 +88,7 @@ Ejecutar la operación de consulta proporciona la capacidad de ejecutar una cons
 
  **Cuerpo de respuesta** : a continuación se muestra un ejemplo de carga de respuesta en JSON. Contiene una tabla de datos que contiene los datos; también contendrá un metadatos, que muestra el tiempo de ejecución de la consulta y si los datos proceden o no de la memoria caché.
 
-```
+```json
 {
 "ExecutionTime": "00:00:00.2102630",
 "DataResult": [["September 2014",

@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de quitar un servidor de archivado, puede quitar las bases de datos de SQL Server que hospedaron los datos del grupo. Use los procedimientos siguientes para quitar las definiciones del generador de topología y, a continuación, quite los archivos de base de datos y de registro del servidor de base de datos.
-ms.openlocfilehash: ab76c8ebc629206827be0a4c0a5477eff54a0923
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 149342f49fded4af294f76028140a9f76f190ed1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241559"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989005"
 ---
 # <a name="remove-the-sql-server-database-for-an-archiving-server"></a>Quitar la base de datos de SQL Server de un servidor de archivado
 
@@ -24,7 +24,7 @@ Después de quitar un servidor de archivado, puede quitar las bases de datos de 
 
 1. En el servidor front-end de Skype empresarial Server 2019, abra Topology Builder.
     
-2. En el generador de topología, vaya a **componentes** compartidos y, a continuación, a **almacenes de SQL Server**, haga clic con el botón secundario en la instancia de SQL Server asociada al servidor de archivado reconfigurado o quitado y, a continuación, haga clic en **eliminar**.
+2. En el generador de topología, vaya a **componentes compartidos** y, a continuación, a **almacenes de SQL Server**, haga clic con el botón secundario en la instancia de SQL Server asociada al servidor de archivado reconfigurado o quitado y, a continuación, haga clic en **eliminar**.
     
 3. Publique la topología y, a continuación, compruebe el estado de replicación. 
     
@@ -36,7 +36,7 @@ Después de quitar un servidor de archivado, puede quitar las bases de datos de 
     
 3. En la línea de comandos, escriba:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Archiving -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 

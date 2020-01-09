@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: 'Resumen: Obtenga información sobre la operación obtener configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 295e12405eb6a7ebbf45b87e3a06f3a745b90bad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 168e61aaebb47cb087e77cbd18e3e6edfd987227
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274656"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992647"
 ---
 # <a name="get-user-setting"></a>Obtener configuración de usuario
  
@@ -47,7 +47,7 @@ Obtener configuración de usuario devuelve la configuración de un solo usuario.
   
  **Cuerpo de respuesta** : a continuación se muestra un ejemplo de carga de respuesta en JSON.
   
-```
+```json
 {
 "userId": 6,
 "key": "ShowDescriptions",
@@ -55,7 +55,7 @@ Obtener configuración de usuario devuelve la configuración de un solo usuario.
 }
 ```
 
- ** ID. de usuario.
+ ID *. de usuario* .
   
  clave *clave* de la configuración.
   

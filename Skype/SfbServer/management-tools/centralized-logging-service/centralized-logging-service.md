@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Resumen: Obtenga información sobre los componentes de servicio y las opciones de configuración para el servicio de registro centralizado en Skype empresarial Server 2015.'
-ms.openlocfilehash: a02d2a283716dd01572e0cbd8cccf075b29fd9b8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dfdc0de999e79182e5beb57c6d51ecc75359672
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274516"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992607"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Servicio de registro centralizado en Skype Empresarial 2015
  
@@ -36,7 +36,7 @@ El servicio de registro centralizado puede:
   - Use un proveedor existente o cree uno. Aprovider define lo que recopila la sesión de registro, el nivel de detalle, los componentes para rastrear y las marcas que se aplican.
     
     > [!TIP]
-    >  Si está familiarizado con OCSLogger, termproviders se refiere a la colección de **componentes** (por ejemplo, S4, SIPStack), un **tipo de registro** (por ejemplo, WPP, EventLog o el archivo de registro de IIS), un nivel de **seguimiento** (por ejemplo, todo, detallado, depurar). y **marcas** (por ejemplo, TF_COMPONENT, TF_DIAG). Estos elementos se definen en el proveedor (una variable de Windows PowerShell) y se pasan al comando del servicio de registro centralizado.
+    >  Si está familiarizado con OCSLogger, termproviders se refiere a la colección de **componentes** (por ejemplo, S4, SIPStack), un **tipo de registro** (por ejemplo, WPP, EventLog o el logfile de IIS), un nivel de **seguimiento** (por ejemplo, All, verbose, Debug) y **Flags** (por ejemplo, TF_COMPONENT, TF_DIAG). Estos elementos se definen en el proveedor (una variable de Windows PowerShell) y se pasan al comando del servicio de registro centralizado.
   
   - Configure los registros para determinados equipos y grupos.
     
@@ -95,7 +95,7 @@ El servicio de registro centralizado está configurado para definir qué debe re
     
 2. Escriba lo siguiente en un símbolo de la línea de comandos:
     
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 

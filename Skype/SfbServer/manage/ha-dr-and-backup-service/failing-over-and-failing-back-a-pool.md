@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: .
-ms.openlocfilehash: 2848261164ac568d3db4dd05160b7e50ec3981d3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2a1970df43aa2fb7becb03319ee6ff5934afe0a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303894"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991805"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Conmutación por error y reversión de un grupo en Skype empresarial Server 
 
@@ -102,8 +102,8 @@ Además, si se produce un error en un grupo de servidores front-end pero el grup
 6.  Instale el almacén central de administración en el servidor back-end\_del grupo de copia de seguridad.
     
       - En primer lugar, ejecute el siguiente comando:
-        
-        ``` 
+        ```PowerShell
+         
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     

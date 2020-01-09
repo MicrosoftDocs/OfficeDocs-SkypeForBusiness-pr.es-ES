@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Puede mover un usuario de su grupo heredado a su grupo piloto de Skype empresarial Server 2019 con el panel de control de Skype empresarial Server 2019 o el shell de administración de Skype empresarial 2019. En el ejemplo siguiente, en la columna registrar grupo, pool01.contoso.net es el grupo heredado y los seis de estos usuarios están conectados a este grupo. Use los procedimientos siguientes para mover un usuario a su grupo de servidores de Skype empresarial 2019 con el panel de control de Skype empresarial Server 2019 y el shell de administración de Skype empresarial Server.
-ms.openlocfilehash: 456035cfd917f620383d4dff70f6366cd73d530e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8964dd3dc868c22cd14389ba70b88d32b6bd145a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237768"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988965"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Mover un solo usuario a la agrupación piloto
 
@@ -44,19 +44,19 @@ Puede mover un usuario de su grupo heredado a su grupo piloto de Skype empresari
     
 2. En la línea de comandos, escriba: 
     
-   ```
+   ```PowerShell
    Move-CsUser -Identity "David Pelton" -Target "pool02.contoso.net"
    ```
 
 3. A continuación, en la línea de comandos, escriba lo siguiente: 
     
-   ```
+   ```PowerShell
    Get-CsUser -Identity "David Pelton"
    ```
 
 4. La identidad de **RegistrarPool** apunta ahora al grupo de servidores de Skype empresarial 2019. La presencia de esta identidad confirma que el usuario se movió correctamente. 
 
     > [!NOTE]
-    > Para obtener detalles sobre el cmdlet **Get-CsUser** , ejecute: **Get-Help Get-CsUser-** Detailed
+    > Para obtener detalles sobre el cmdlet **Get-CsUser** , ejecute: **Get-Help Get-CsUser-Detailed**
   
 

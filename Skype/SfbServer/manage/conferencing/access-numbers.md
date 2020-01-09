@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Resumen: Aprenda a administrar los números de acceso de conferencia de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: e41011c4ba06da7f05d8cb1a52717e707cd2f8bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd2aff1789c040667062d34b8bc037fd0543c029
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289037"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991925"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Administrar los números de acceso a la Conferencia de acceso telefónico local en Skype empresarial Server
  
@@ -47,7 +47,7 @@ Para ver información sobre los números de acceso telefónico local, use el cmd
   
 El siguiente comando devuelve una colección de todos los números de acceso de la Conferencia de acceso telefónico local configurados para su uso en la organización: 
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber
 ```
 
@@ -134,13 +134,13 @@ Para modificar los números de acceso telefónico local, use el cmdlet **Set-CsD
   
 El siguiente comando modifica la propiedad DisplayName para el número de acceso a conferencia de acceso telefónico local con el valor Identity sip:RedmondDialIn@litwareinc.com. En este ejemplo, el nombre para mostrar se establece como "Redmond Dial-In Access Number":
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"
 ```
 
 En el siguiente ejemplo, el número de acceso a conferencia de acceso telefónico local con el valor Identity sip:RedmondDialIn@litwareinc.com se modifica para incluir dos regiones: Redmond y Seattle. Para ello, se llama al parámetro Regions, seguido de las dos regiones (dos valores de cadena separados por comas). Tenga en cuenta que este comando producirá un error a menos que las regiones de Redmond y Seattle ya se hayan definido en planes de marcado.
   
-```
+```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -Regions "Redmond", "Seattle"
 ```
 
@@ -168,19 +168,19 @@ Para eliminar un número de acceso a conferencias de acceso telefónico local, u
   
 El siguiente comando elimina el número de acceso a conferencias de acceso telefónico local con el valor Identity sip:RedmondDialInAccess@litwareinc.com:
   
-```
+```PowerShell
 Remove-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialInAccess@litwareinc.com"
 ```
 
 El siguiente comando elimina todos los números de acceso a conferencias de acceso telefónico local asociados a la región noroeste:
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber -Region "Northwest" | Remove-CsDialInConferencingAccessNumber
 ```
 
 El siguiente comando elimina todos los números de acceso a conferencias de acceso telefónico local en los que el italiano es el idioma principal:
   
-```
+```PowerShell
 Get-CsDialInConferencingAccessNumber | Where-Object {$_.PrimaryLanguage -eq "it-IT"} | Remove-CsDialInConferencingAccessNumber
 ```
 

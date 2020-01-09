@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: En las secciones de este artículo se describe cómo habilitar, deshabilitar temporalmente o quitar usuarios de Active Directory de Skype empresarial Server.
-ms.openlocfilehash: 83ab64415b21d37f12d3768feeb39b11491787af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 45217593dd010c4daf73d6b5edcbf6f5f4e681a5
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275111"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992407"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>Administrar cuentas de usuario de Skype empresarial Server
 
@@ -84,7 +84,7 @@ También puedes usar un cmdlet, específicamente [enable-CsUser](https://docs.mi
 
 5. En el cuadro de diálogo **nuevo usuario de Lync Server** , haga clic en **Agregar**.
 
-6. En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre, nombre para mostrar, nombre, apellido, nombre de cuenta del administrador de cuentas de seguridad (SAM), dirección de correo electrónico, nombre principal de usuario (UPN) o número de teléfono de la cuenta de usuario de Active Directory que desee y, a continuación, haga clic en **Buscar**.
+6. En el cuadro **Buscar usuarios** , escriba toda o la primera parte del nombre, nombre para mostrar, nombre, apellido, nombre de cuenta de administrador de cuentas de seguridad (SAM), dirección de correo electrónico, nombre principal de usuario (UPN) o número de teléfono de la cuenta de usuario de Active Directory que desee y, a continuación, haga clic en **Buscar**.
 
 7. En la tabla, seleccione la cuenta que desea agregar a Skype empresarial Server y, a continuación, haga clic en **Aceptar**.
 
@@ -101,7 +101,7 @@ Puede usar el siguiente procedimiento para deshabilitar una cuenta de usuario ha
 
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
 
-4. En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea deshabilitar o volver a habilitar, a continuación, haga clic en **Buscar**.
+4. En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea deshabilitar o volver a habilitar y, a continuación, haga clic en **Buscar**.
 
 5. En la tabla, haga clic en la cuenta de usuario que desea deshabilitar o volver a habilitar.
 
@@ -119,7 +119,7 @@ Las cuentas de usuario se pueden deshabilitar temporalmente y, después, volverl
 
 - Para deshabilitar temporalmente una cuenta de usuario, establezca el valor de la propiedad Enabled en false ($False). Por ejemplo:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $False
   ```
 
@@ -127,7 +127,7 @@ Las cuentas de usuario se pueden deshabilitar temporalmente y, después, volverl
 
 - Para volver a habilitar una cuenta de usuario deshabilitada, establezca el valor de la propiedad Enabled en true ($True). Por ejemplo:
 
-  ```
+  ```PowerShell
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
@@ -155,7 +155,7 @@ Use el siguiente procedimiento para deshabilitar Enterprise Voice para una cuent
 7. En la página **Editar usuario de Lync Server** , en **telefonía**, haga clic en cualquier opción excepto telefonía **IP empresarial**.
 
     > [!NOTE]
-    > Para impedir que un usuario realice llamadas de audio o vídeo mediante Lync, en **telefonía**, haga clic en **audio/vídeo**deshabilitado.
+    > Para impedir que un usuario realice llamadas de audio o vídeo mediante Lync, en **telefonía**, haga clic en **audio/vídeo deshabilitado**.
 
 8. Haga clic en **Confirmar**.
 
@@ -174,7 +174,7 @@ Puede usar el siguiente procedimiento para quitar una cuenta de usuario agregada
 
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
 
-4. En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea deshabilitar o volver a habilitar, a continuación, haga clic en **Buscar**.
+4. En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea deshabilitar o volver a habilitar y, a continuación, haga clic en **Buscar**.
 
 5. En la tabla, haga clic en la cuenta de usuario que desea quitar.
 
@@ -189,7 +189,7 @@ Puede quitar cuentas de usuario mediante el cmdlet Disable-CsUser. Este cmdlet s
 ### <a name="to-remove-a-user-account"></a>Para quitar una cuenta de usuario
 Para quitar una cuenta de usuario, use el cmdlet Disable-CsUser. Por ejemplo:
 
-  ```
+  ```PowerShell
   Disable-CsUser -Identity "Ken Myer"
   ```
 

@@ -17,12 +17,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da0e576bf299bcd4c5362e7055cd843805b783dc
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 95f8910005121faceb261a399ed64a4f68e5cad4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968181"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40988805"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -31,7 +31,7 @@ Microsoft Teams está incorporado en la nube empresarial a gran escala de Office
 
 Teams es compatible con el nivel D. Esto incluye los siguientes estándares: ISO 27001, ISO 27018, SSAE16 SOC 1 y SOC 2, HIPAA y las cláusulas de modelo de la UE (EUMC). En Microsoft Compliance Framework, Microsoft clasifica las aplicaciones y servicios de Office 365 en cuatro categorías. Cada categoría está definida por compromisos de cumplimiento específicos que deben cumplirse para que un servicio de Office 365, o un servicio de Microsoft relacionado, se muestre en esa categoría.
 
-Los servicios en las categorías de cumplimiento C y D que tienen compromisos de cumplimiento están habilitados de manera predeterminada. Los servicios en las categorías A y B incluyen controles para activar o desactivar estos servicios para una organización entera. Los detalles se pueden encontrar en el [Marco de cumplimiento normativo de estándares y regulaciones del sector](https://download.microsoft.com/download/B/2/7/B27B3EF3-8849-4C18-8BA4-5AD755728620/Compliance%20Framework_customer%20guidance.pdf). Teams también cumple con los requisitos de Cloud Security Alliance.
+Los servicios en las categorías de cumplimiento C y D que tienen compromisos de cumplimiento están habilitados de manera predeterminada. Los servicios en las categorías A y B incluyen controles para activar o desactivar estos servicios para una organización entera. Los detalles se pueden encontrar en el [Marco de cumplimiento normativo de estándares y regulaciones del sector](https://download.microsoft.com/download/1/4/3/1434ABAB-B8E9-412D-8C3A-187B5FCB7A2F/Compliance%20Framework%20document.pdf). Teams también cumple con los requisitos de Cloud Security Alliance.
 
 Teams también aplica la autenticación en dos fases de todo el equipo y de toda la organización, el inicio de sesión único a través de Active Directory y el cifrado de datos en tránsito y en reposo. Los archivos se almacenan en SharePoint y están respaldados por el cifrado de SharePoint. Las notas se almacenan en OneNote y están respaldadas por el cifrado de OneNote. Los datos de OneNote se almacenan en el sitio de SharePoint de grupo. La ficha wiki también se puede usar para tomar notas y su contenido también se almacena en el sitio de SharePoint de grupo.
 
@@ -44,7 +44,7 @@ Para obtener más información sobre la seguridad y el cumplimiento de Office 36
 
 ## <a name="auditing-and-reporting"></a>Auditoría y generación de informes
 
-Los complementos de búsqueda de registros de auditoría, directamente en el centro de cumplimiento de la & de seguridad de Office 365 y exponen las funciones para establecer alertas y/o informar sobre eventos de auditoría haciendo que estén disponibles, exportar los conjuntos de eventos genéricos o específicos de la carga de trabajo para su uso y investigación en un escala de tiempo sin límites de auditoría. Todos los datos del registro de auditoría están disponibles para configurar alertas en el centro de cumplimiento de & de seguridad de Office 365, además de filtrar y exportar para realizar análisis adicionales. Consulte este [vínculo](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para obtener más información sobre cómo realizar una búsqueda de registros de auditoría de eventos de Microsoft Teams en el centro de cumplimiento de & de seguridad de Office 365. 
+Los complementos de búsqueda de registros de auditoría directamente en el centro de cumplimiento de la & de seguridad de Office 365 y exponen las funciones para establecer alertas y/o informar sobre eventos de auditoría haciendo que estén disponibles, exportando los conjuntos de eventos genéricos o específicos de la carga de trabajo para su uso y investigación sin límites Todos los datos del registro de auditoría están disponibles para configurar alertas en el centro de cumplimiento de & de seguridad de Office 365, además de filtrar y exportar para realizar análisis adicionales. Consulte este [vínculo](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) para obtener más información sobre cómo realizar una búsqueda de registros de auditoría de eventos de Microsoft Teams en el centro de cumplimiento de & de seguridad de Office 365. 
 
 ## <a name="compliance-content-search"></a>Búsqueda de contenido de cumplimiento
 
@@ -79,7 +79,7 @@ Los clientes pueden aprovechar eDiscovery local o [Advanced eDiscovery] según s
 
 ## <a name="legal-hold"></a>Suspensión legal
 
-Durante un litigio, a menudo es necesario que todos los datos asociados con un usuario (custodia) o un equipo se conserven inalterable para que pueda usarse como evidencia para el caso. Esto se logra colocando un usuario (buzón de usuario) o un equipo en retención legal. Cuando cualquier equipo de Teams se ponga en conservación local (subconjunto del buzón o la colección de sitios a través de consultas de destino o contenido filtrado) o retención por juicio (toda la colección de sitios o buzones), la retención se colocará en el buzón de grupos. Esto garantiza que incluso si los usuarios finales eliminan o editan los mensajes de canal que se encuentran informados en el buzón de correo del grupo, se mantienen las copias inmutables de ese contenido y están disponibles en la búsqueda de eDiscovery. Las suspensiones legales suelen aplicarse en el contexto de un caso de eDiscovery. Consulte [este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artículo de la ayuda para conocer más acerca de la preservación y la retención en el centro de cumplimiento de & de seguridad de Office 365. 
+Durante un litigio, a menudo es necesario que todos los datos asociados con un usuario (custodia) o un equipo se conserven como inmutables para que se puedan usar como evidencias para el caso. Esto se logra colocando un usuario (buzón de usuario) o un equipo en retención legal. Cuando cualquier equipo de Teams se ponga en conservación local (subconjunto del buzón o la colección de sitios a través de consultas de destino o contenido filtrado) o retención por juicio (toda la colección de sitios o buzones), la retención se colocará en el buzón de grupos. Esto garantiza que incluso si los usuarios finales eliminan o editan los mensajes de canal que se encuentran informados en el buzón de correo del grupo, se mantienen las copias inmutables de ese contenido y están disponibles en la búsqueda de eDiscovery. Las suspensiones legales suelen aplicarse en el contexto de un caso de eDiscovery. Consulte [este](https://support.office.com/article/overview-of-preservation-policies-9c3b1d52-40ce-4ba3-a520-9ae0be15538a) artículo de la ayuda para conocer más acerca de la preservación y la retención en el centro de cumplimiento de & de seguridad de Office 365. 
 
 ## <a name="information-protection-architecture-for-microsoft-teams"></a>Arquitectura de protección de la información para Microsoft Teams. 
 
@@ -117,7 +117,7 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 | |  |  |
 |---------|---------|---------|
 |![Un icono que representa un punto de decisión](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![Un icono que representa los pasos siguientes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Pasos siguientes         |Revise las licencias actuales de su organización y confirme que cumple con todos los requisitos empresariales de cumplimiento y seguridad.         |
+|![Un icono que representa los pasos siguientes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Siguientes pasos         |Revise las licencias actuales de su organización y confirme que cumple con todos los requisitos empresariales de cumplimiento y seguridad.         |
 
 Antes de habilitar cualquiera de estas características, asegúrese de que tiene acceso al centro de cumplimiento de & de seguridad en el centro de administración de Microsoft 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
 

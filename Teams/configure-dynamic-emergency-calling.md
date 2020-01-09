@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Configurar las llamadas de emergencia dinámicas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53af7f64cd7050d3dcd6120f7729cd069a4331d0
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 2d4480e875c37ba2c608c826bb648231c0f6fc23
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615860"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992095"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 
@@ -61,7 +61,7 @@ Para obtener más información acerca de las llamadas de emergencia, incluida in
 
 - [Administrar las llamadas de emergencia](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Administrar la configuración de red para características de voz en la nube](cloud-voice-network-settings.md)
-- [Administrar la topología de red para características de voz en la nube](manage-your-network-topology.md)
+- [Administrar la topología de red para las características de voz en la nube](manage-your-network-topology.md)
 
 
 ## <a name="supported-clients"></a>Clientes compatibles
@@ -164,25 +164,25 @@ La Directiva TeamsEmergencyCallRouting se aplica únicamente al enrutamiento dir
 
 Por ejemplo, para habilitar un usuario específico para notificaciones de seguridad, use el siguiente comando:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
 ```
 
 Para asignar una directiva denominada "Directiva de llamadas de emergencia de Contoso 1" al sitio 1, use el siguiente comando:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallingPolicy "Contoso Emergency Calling Policy 1"
 ```
 
 Para habilitar un usuario de enrutamiento directo específico para llamadas de emergencia, use el siguiente comando:
 
-```
+```PowerShell
 Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 ```
 
 Para asignar una directiva denominada "enrutamiento de llamadas de emergencia de Contoso en la Nueva York" al sitio 1, use el siguiente comando:
 
-```
+```PowerShell
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 
@@ -205,4 +205,4 @@ Algunos proveedores de servicios de enrutamiento de emergencia (ERSPs) de los Es
 - [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-remove-emergency-location-organization.md)
 - [Asignar o cambiar una ubicación de emergencia para el usuario](assign-change-emergency-location-user.md)
 - [Configuración de red para características de voz en la nube](cloud-voice-network-settings.md)
-- [Administrar la topología de red para características de voz en la nube](manage-your-network-topology.md)
+- [Administrar la topología de red para las características de voz en la nube](manage-your-network-topology.md)

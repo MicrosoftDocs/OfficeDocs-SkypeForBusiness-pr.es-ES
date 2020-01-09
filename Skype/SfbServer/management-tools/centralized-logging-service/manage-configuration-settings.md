@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Resumen: Aprenda a recuperar, actualizar y crear parámetros de configuración para el servicio de registro centralizado en Skype empresarial Server 2015.'
-ms.openlocfilehash: e6c1f9c893d0b5e745e558ed37570429689259d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 20f62a5568bef6f11eab35e13fa4e4f7adf8102e
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274432"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991465"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Administrar las opciones de configuración del servicio de registro centralizado en Skype Empresarial Server 2015
 
@@ -38,20 +38,20 @@ El servicio de registro centralizado se puede ejecutar en un ámbito que incluya
 
 Para configurar el ámbito del servicio de registro centralizado mediante el shell de administración de Skype empresarial Server, debe ser miembro de los grupos de seguridad de control de acceso basado en roles (RBAC) de CsAdministrator o CsServerAdministrator, o un rol de RBAC personalizado que contiene alguno de estos dos grupos. Para devolver una lista de todos los roles RBAC a los que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el shell de administración de Skype empresarial Server o el símbolo del sistema de Windows PowerShell:
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
 Por ejemplo:
 
-```
+```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
 > Existen diferencias fundamentales entre los comandos de la línea de comandos que puede ejecutar en Windows PowerShell o CLSController. Windows PowerShell ofrece un método avanzado para configurar y definir escenarios, y para volver a usarlos de forma significativa para los escenarios de solución de problemas. Aunque CLSController ofrece una manera rápida y eficaz de emitir comandos y obtener resultados, el conjunto de comandos de CLSController se limita al número finito de comandos que hay disponibles en la línea de comandos. A diferencia de los cmdlets de Windows PowerShell, CLSController no puede definir nuevos escenarios, administrar el ámbito a nivel global o de sitio, y muchas otras limitaciones de un conjunto de comandos finito que no se pueden configurar dinámicamente. Si bien CLSController ofrece un medio para realizar una ejecución rápida, Windows PowerShell ofrece un medio para ampliar la funcionalidad del servicio de registro centralizado más allá de lo que es posible con CLSController.
 
-Se puede definir un único ámbito de equipo durante la ejecución de una [búsqueda-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps), [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps), [Start-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps), [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps), [Sync-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) y [Update-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) comando con el parámetro-Computers. El parámetro-Computers acepta una lista separada por comas de nombres de dominio completos (FQDN) para el equipo de destino.
+Se puede definir un solo ámbito de equipo durante la ejecución de un comando de [búsqueda-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps), [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps), [Start-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps), [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps), [Sync-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) y [Update-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) mediante el parámetro-Computers. El parámetro-Computers acepta una lista separada por comas de nombres de dominio completos (FQDN) para el equipo de destino.
 
 > [!TIP]
 > También puede definir-pools y una lista separada por comas de las agrupaciones en las que desea ejecutar los comandos de registro.
@@ -67,7 +67,7 @@ Los ámbitos globales y de sitio se definen en los cmdlets del servicio de regis
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration
    ```
 
@@ -81,7 +81,7 @@ Use los cmdlets **New-CsClsConfiguration** y **set-CsClsConfiguration** para cre
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -LocalStore
    ```
 
@@ -92,13 +92,13 @@ Al usar el primer ejemplo, si **Get-CsClsConfiguration** no especifica ningún p
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity <scope and name> | Select-Object -ExpandProperty Scenarios
    ```
 
     Por ejemplo, para recuperar los escenarios definidos en el ámbito global:
 
-   ```
+   ```PowerShell
    Get-CsClsConfiguration -Identity "global" | Select-Object -ExpandProperty Scenarios
    ```
 
@@ -109,13 +109,13 @@ El cmdlet **Get-CsClsConfiguration** siempre muestra los escenarios que forman p
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    Por ejemplo:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "global" -EtlFileRolloverSizeMB 40
    ```
 
@@ -126,13 +126,13 @@ El comando indica a CLSAgent en cada equipo y grupo de la implementación que es
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity <scope/site name> -EtlFileRolloverSizeMB <size for logging file in megabytes>
    ```
 
    Por ejemplo:
 
-   ```
+   ```PowerShell
    Set-CsClsConfiguration -Identity "site/Redmond" -EtlFileRolloverSizeMB 40
    ```
 
@@ -146,7 +146,7 @@ El comando indica a CLSAgent en cada equipo y grupo del sitio Redmond que establ
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-   ```
+   ```PowerShell
    New-CsClsConfiguration -Identity <scope and name> [CsClsConfiguration options for this site]
    ```
 
@@ -155,7 +155,7 @@ El comando indica a CLSAgent en cada equipo y grupo del sitio Redmond que establ
 
 Por ejemplo, para crear una configuración que define una carpeta de red para archivos caché, el período de tiempo de sustitución para los archivos de registro y el tamaño de sustitución para los archivos de registro, escribiría:
 
-  ```
+  ```PowerShell
   New-CsClsConfiguration -Identity "site:Redmond" -CacheFileNetworkFolder "\\fs01.contoso.net\filestore\logfiles" -EtlFileRolloverMinutes 120 -EtlFileRolloverSizeMB 40
   ```
 
@@ -166,13 +166,13 @@ Debe planear cuidadosamente la creación de nuevas configuraciones y cómo defin
 
 2. Escriba lo siguiente en el símbolo de la línea de comandos:
 
-   ```
+   ```PowerShell
    Remove-CsClsConfiguration -Identity <scope and name>
    ```
 
 Por ejemplo, para quitar una configuración centralizada del servicio de registro que ha creado para aumentar el tiempo de sustitución del archivo de registro, aumente el tamaño del archivo de registro de sustitución y establezca la ubicación de la caché del archivo de registro en un recurso compartido de red de la siguiente manera:
 
-  ```
+  ```PowerShell
   Remove-CsClsConfiguration -Identity "site:Redmond"
   ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Resumen: Aprenda a bloquear las sesiones de mensajería instantánea y de conferencia en caso de que se produzca un error de Skype empresarial Server que impida el archivado.'
-ms.openlocfilehash: 38f79277ff12aa8e716b034e8393a4d8b71cdbba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed8a59a8c19ace9a83b699e1b69515f52c3af010
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286242"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992757"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Configurar opciones de archivado para controlar errores en Skype empresarial Server
 
@@ -45,13 +45,13 @@ También puede especificar si se deben permitir las sesiones de comunicación en
   
 Por ejemplo, el siguiente comando deshabilita las comunicaciones en caso de que se produzca un error de archivado:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 ```
 
 El siguiente comando habilita las comunicaciones en caso de un error de archivado:
   
-```
+```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 

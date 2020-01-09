@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Resumen: configure una aplicación de socio local para Skype empresarial Server.'
-ms.openlocfilehash: 9cd6272b164a6c7fa42430905127b38c5acbc7be
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8f735de5c988dfea0da1adacdc4a77200d3a663d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285522"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992347"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar una aplicación de socio local para Skype empresarial Server
  
@@ -24,7 +24,7 @@ ms.locfileid: "34285522"
   
 Después de asignar el certificado OAuthTokenIssuer, debe configurar sus aplicaciones de socio de Skype empresarial Server. (El procedimiento que se va a analizar configura tanto Microsoft Exchange Server 2013 como SharePoint para que actúen como aplicaciones de asociado, que es opcional). Para configurar una aplicación de socio local, debe empezar copiando el siguiente script de Windows PowerShell y pegando el código en el Bloc de notas (o cualquier otro editor de texto):
   
-```
+```PowerShell
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
    {
        Remove-CsPartnerApplication app
@@ -76,19 +76,19 @@ Una vez copiado el código, guarde el script con una extensión de archivo .PS1 
   
 Si observamos la última línea del script, veremos que se usa la siguiente sintaxis para llamar al cmdlet Set-CsOAuthConfiguration:
   
-```
+```PowerShell
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
 Como no se usó el parámetro Realm al llamar a Set-CsOAuthConfiguration, el dominio kerberos se establecerá automáticamente en el nombre de dominio completo (FQDN) de la organización (por ejemplo, litwareinc.com). Si el nombre de dominio kerberos es distinto del nombre de la organización, deberá incluirlo del siguiente modo:
   
-```
+```PowerShell
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
 Después de realizar estos cambios, puede ejecutar el script y configurar Exchange 2013 y SharePoint como aplicaciones asociadas, ejecutando el archivo de scripts desde el shell de administración de Skype empresarial Server. Por ejemplo:
   
-```
+```PowerShell
 C:\Scripts\ServerToServerAuth.ps1
 ```
 
@@ -96,7 +96,7 @@ Tenga en cuenta que puede ejecutar este script incluso si no tiene instalado Exc
   
 Cuando se ejecuta este script, es posible que aparezca un mensaje de error parecido al siguiente:
   
-```
+```PowerShell
 New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Exception setting "MetadataUrl": "The metadata document could not be downloaded from the URL in the MetadataUrl parameter or downloaded data is not a valid metadata document."
 ```
 
@@ -106,7 +106,7 @@ Después de crear la aplicación de socio para Skype empresarial Server, debe co
   
 Para configurar Skype empresarial Server como una aplicación asociada para Exchange, abra el shell de administración de Exchange y ejecute un comando similar a este
   
-```
+```PowerShell
 "c:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1" -AuthMetadataUrl "https://SkypePro.contoso.com/metadata/json/1" -ApplicationType "Lync"
 ```
 

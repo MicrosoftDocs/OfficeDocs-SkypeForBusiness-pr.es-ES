@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Resumen: revise un tutorial y ejemplos de desarrollo del panel de calidad de las llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 4eac679950abdff5041bdfb63b633287d06a11e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e650047fefb865f7fe9af84f93a5f57e7bbf086
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274831"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992867"
 ---
 # <a name="cqd-development-samples"></a>Ejemplos de desarrollo de CQD
 
@@ -64,7 +64,7 @@ Veremos un ejemplo sencillo primero. Si desea mostrar el recuento de secuencias 
 
 Lo que necesitamos es enviar una llamada al servicio de datos con los parámetros adecuados y mostrar los resultados de la consulta en una tabla HTML. A continuación se muestra un ejemplo del código JavaScript:
 
-```        
+```javascript        
 $($.fn.freeFormReport = function (queries, urlApi, presentation) {
             var query = {
                 Dimensions: [{ DataModelName: '[StartDate].[Month]' }],
@@ -132,7 +132,7 @@ Este ejemplo se puede deconstruir en tres pasos:
 
 Enmarcar el código JavaScript en una página HTML y la página mostrará un informe como el que se muestra en la ilustración. El HTML completo es el siguiente:
 
-```
+```javascript
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -203,7 +203,7 @@ Para crear la herramienta del visor de definición de informe, es necesario envi
 
 Un ejemplo rápido es el siguiente, el código contiene un bloque que es un ejemplo sencillo para enviar una consulta al servicio de repositorio para obtener el contenido de un elemento del repositorio basado en su identificador. Y la siguiente parte de código (método processReportSetData) envía las llamadas AJAX para obtener la definición de cada informe dentro de ese conjunto de informes. Debido a que el id. en el portal web CQD es el id. de un conjunto de informes, la llamada AJAX devolverá un elemento del conjunto de informes. Encontrará más información sobre la API del repositorio y, en concreto, de GetItems, en el apartado [obtener elementos](get-items.md). 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -332,7 +332,7 @@ Estos son los pasos detallados para ir a la página del cuadro de mandos en la i
 
 2. Actualice los filtros. Los datos JSON de los filtros del ejemplo 1 tienen un filtro, que se establece en la `[StartDate].[Month]`dimensión. Puesto que los filtros son una matriz JSON, se pueden agregar dimensiones adicionales a la lista de filtros. Por ejemplo, para obtener el cliente del servidor dentro de las llamadas por cable para "currentMonth", deberíamos tener los filtros siguientes:
 
-   ```
+   ```javascript
    Filters: [
      { DataModelName: '[StartDate].[Month]', Value: currentMonth, Operand: 0 },
     {
@@ -347,7 +347,7 @@ Estos son los pasos detallados para ir a la página del cuadro de mandos en la i
    ],
    ```
 
-   Aquí, la `[Scenarios].[ScenarioPair]` dimensión está configurada como igual `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. El `[Scenario.][ScenarioPair]` es una dimensión especial creada para simplificar la creación de informes. Tiene seis valores correspondientes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Por lo tanto, en lugar de usar una combinación de 6 filtros para definir un escenario, solo tiene que usar 1 filtro. En nuestro ejemplo, el valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` se traduce en el escenario en el que: primero es servidor, el segundo no es servidor, el primero está dentro; el segundo está dentro, el primer tipo de conexión está conectado y el segundo tipo de conexión es con cable, que es la definición exacta de " Servidor-cliente-interno con cable ".
+   Aquí, la `[Scenarios].[ScenarioPair]` dimensión está configurada como igual `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. El `[Scenario.][ScenarioPair]` es una dimensión especial creada para simplificar la creación de informes. Tiene seis valores correspondientes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Por lo tanto, en lugar de usar una combinación de 6 filtros para definir un escenario, solo tiene que usar 1 filtro. En nuestro ejemplo, el valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` se traduce en el escenario en el que: primero es servidor, el segundo no es servidor, el primero está dentro; el segundo está dentro, el primer tipo de conexión es el cable y el segundo tipo de conexión es el cable, que es la definición exacta de "servidor-cliente-conectado".
 
 3. Cree un conjunto de filtros para cada escenario. Cada fila en el cuadro de mandos, en la ilustración, representa un escenario diferente, que será un filtro diferente (mientras que las dimensiones y medidas son las mismas). 
 
@@ -360,7 +360,7 @@ Estos son los pasos detallados para ir a la página del cuadro de mandos en la i
 
 Código HTML para el Ejemplo 3 (ejemplo de cuadro de mandos):
 
-```
+```html
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>

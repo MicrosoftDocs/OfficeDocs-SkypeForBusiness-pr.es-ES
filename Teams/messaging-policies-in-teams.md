@@ -1,7 +1,7 @@
 ---
 title: Administrar directivas de mensajería de Teams
-ms.author: tonysmit
-author: tonysmit
+ms.author: lolaj
+author: lolajacobsen
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,12 +17,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 3ac3e25dfc6f8ec65922d0265664649de6e9f55c
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: 590b0de09488a1d4e1cdaba3530a9a34894e45d0
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968241"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991565"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -73,9 +73,9 @@ Use la siguiente configuración para cambiar la Directiva de mensajería global 
 - **Los propietarios pueden eliminar los mensajes enviados**  Use esta configuración para permitir a los propietarios eliminar los mensajes que los usuarios han enviado en el chat.
 - **Los usuarios pueden eliminar mensajes enviados** Use esta configuración para permitir a los usuarios eliminar los mensajes que enviaron en la conversación.
 - **Los usuarios pueden editar mensajes enviados** Use esta configuración para permitir a los usuarios editar los mensajes que enviaron en la conversación.
-- **Confirmaciones de lectura** Las confirmaciones de lectura permiten notificar al remitente de un mensaje de chat cuando el destinatario ha leído su mensaje en 1:1 y los chats grupales son de 20 personas o menos. Las confirmaciones de lectura de mensajes no eliminan con certeza si se leyó un mensaje y mejoran la comunicación entre equipos.  
+- **Confirmaciones de lectura** Las confirmaciones de lectura permiten notificar al remitente de un mensaje de chat cuando el destinatario ha leído su mensaje en 1:1 y los chats grupales son de 20 personas o menos. Las confirmaciones de lectura de mensajes no eliminan con certeza si se leyó un mensaje y mejoran la comunicación entre equipos. Tenga en cuenta que las confirmaciones de lectura no se capturan en informes de eDiscovery.  
     - **Controlado** por el usuario Esto significa que los usuarios pueden decidir si desean activar o desactivar las confirmaciones de lectura. La configuración predeterminada dentro de la aplicación está activada. Los usuarios pueden desactivarlo. 
-    - **Activado para todos** Esto significa que todos los miembros del inquilino tendrán la característica activada, sin opción para desactivarla. Tenga en cuenta que al usar la configuración **activado para todos** , la única forma de establecer confirmaciones para todo el inquilino es que solo tenga una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para tener todas las directivas de mensajería en el inquilino usa la misma configuración para los recibos. La característica confirmaciones de lectura es más eficaz cuando la característica está habilitada para **todos los usuarios**.
+    - **Activado para todos** Esto significa que todos los miembros del inquilino tendrán la característica activada, sin opción para desactivarla. Tenga en cuenta que al usar la configuración **activado para todos** , la única forma de establecer confirmaciones para todo el inquilino es que solo tenga una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para que todas las directivas de mensajería del inquilino usen la misma configuración para las confirmaciones. La característica confirmaciones de lectura es más eficaz cuando la característica está habilitada para **todos los usuarios**.
     - **Deshabilitado para todos** Esto significa que la característica está deshabilitada y que nadie en el inquilino tiene confirmaciones de lectura, ni puede activarlas. 
 <a name="bkchat"> </a>
 
@@ -91,10 +91,10 @@ Use la siguiente configuración para cambiar la Directiva de mensajería global 
 - **Permitir a los usuarios traducir mensajes** Active esta opción para que los usuarios pueden traducir automáticamente los mensajes de Teams en el idioma que se especifique en su configuración de idioma personal de Office 365.
 - **Permitir el lector inmersivo para ver mensajes** Active esta opción para permitir a los usuarios ver los mensajes en Microsoft inmersivo Reader. El lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura de pantalla completa para aumentar la legibilidad del texto.
 - **Los usuarios pueden enviar notificaciones <a name="urgent-message">prioritarias</a> ** Si activa esta opción, los usuarios pueden enviar un mensaje que usa notificaciones de prioridad. Las notificaciones prioritarias notifican a los usuarios cada 2 minutos por un período de 20 minutos o hasta que el destinatario retoma y Lee los mensajes, lo que maximiza la probabilidad de que el mensaje se recoja y esté accionado de manera oportuna.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
-- **Creación de mensajes de voz** 
-    - **Permitido en chats y canales** Esto significa que los usuarios pueden dejar mensajes de voz en los chats y en los canales.
-    - **Permitido solo en chats** Esto significa que los usuarios pueden dejar mensajes de voz en los chats, pero no en los canales.
-    - **Desactivado** Esto significa que los usuarios no pueden crear mensajes de voz en los chats ni en los canales.  
+- **Creación de mensajes de audio** -importante: los mensajes de audio no se capturan en informes de eDiscovery. 
+    - **Permitido en chats y canales** Esto significa que los usuarios pueden dejar mensajes de audio en los chats y en los canales.
+    - **Permitido solo en chats** Esto significa que los usuarios pueden dejar mensajes de audio en los chats, pero no en los canales.
+    - **Desactivado** Esto significa que los usuarios no pueden crear mensajes de audio en los chats o canales.  
 - **En dispositivos móviles, Mostrar canales favoritos por encima de los chats recientes** Habilite esta opción para mover los canales favoritos a la parte superior de la pantalla del dispositivo móvil para que el usuario no tenga que desplazarse para encontrarlos. 
 - **Permitir a un usuario quitar usuarios de un chat grupal** Activa esta opción para permitir a un usuario quitar a otros usuarios de un chat grupal. Esta característica te permite continuar con un chat con un grupo más pequeño de personas sin perder el historial de conversaciones.
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Resumen: Aprenda a administrar directivas de PIN para conferencias de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: a8db6fc0398d2f577afe54ab2289c3122adcb197
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f5ffef4af17a4337fe600b2059aab1ea106235ae
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280358"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992297"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Administrar directivas de PIN para conferencias de acceso telefónico local en Skype empresarial Server
  
@@ -47,7 +47,7 @@ Puede ver información sobre las directivas de PIN con el panel de control de Sk
 
 Para ver información sobre las directivas de PIN, use el cmdlet **Get-CsPinPolicy**. Por ejemplo, el siguiente comando devuelve información sobre una sola directiva de PIN con el valor de Identity site:Redmond:
   
-```
+```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
@@ -92,7 +92,7 @@ Para modificar la directiva de PIN global de conferencias de acceso telefónico 
   
 El siguiente comando cambia el valor de la propiedad MinPasswordLength de todas las directivas de PIN configuradas para su uso en la organización. Para ello, el comando llama primero al cmdlet **Get-CsPinPolicy** sin ningún parámetro, para recuperar una recopilación de todas las directivas de PIN existentes. Después, la recopilación se canaliza al cmdlet **Set-CsPinPolicy**, que modifica el valor de la propiedad MinPasswordLength de todas las directivas de la colección:
   
-```
+```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
@@ -143,7 +143,7 @@ Para crear una directiva de PIN de usuario o sitio, use el cmdlet **New-CsPinPol
   
 El siguiente comando crea una directiva de PIN con el parámetro Identity site:Redmond. Este comando solo incluye un parámetro opcional, MinPasswordLength, que se usa para establecer la propiedad MinPasswordLength en 7. El resto de propiedades de la directiva se configurarán con los valores predeterminados.
   
-```
+```PowerShell
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
@@ -173,7 +173,7 @@ Para modificar la directiva de PIN de conferencias de acceso telefónico local, 
   
 El siguiente comando modifica la directiva de PIN asignada al sitio de Redmond. En este caso, el comando cambia el valor de la propiedad MinPasswordLength a 10; esto significa que los nuevos PIN necesitan contener al menos 10 dígitos:
   
-```
+```PowerShell
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
@@ -199,7 +199,7 @@ Para eliminar una directiva de PIN de usuario o sitio, use el cmdlet **Remove-Cs
   
 El siguiente comando quita todas las directivas de PIN que se han configurado en el ámbito de sitio. Para ello, use el cmdlet **Get-CsPinPolicy** junto con el parámetro Filter, para devolver una colección con todas las directivas cuyo parámetro Identity comienza por los caracteres "site:". Luego, esta colección se canaliza al cmdlet **Remove-CsPinPolicy**, que elimina las distintas directivas de la colección:
   
-```
+```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 

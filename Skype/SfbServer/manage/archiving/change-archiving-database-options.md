@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Resumen: Aprenda a cambiar las opciones de la base de datos de archivado para Skype empresarial Server.'
-ms.openlocfilehash: 56aa29ef185176ce3b080572723c566455731dc4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3e7ae30e012464b6d1f72e323dd60ad397e7430d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299989"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992767"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Cambiar las opciones de la base de datos de archivado en Skype empresarial Server
 
@@ -34,7 +34,7 @@ Para realizar alguno de estos cambios, debe ejecutar el generador de topología,
 1. En un equipo que ejecute Skype empresarial Server o en el que estén instaladas las herramientas administrativas de Skype empresarial Server, inicie sesión con una cuenta que sea miembro del grupo usuarios locales (o una cuenta con derechos de usuario equivalentes).
     
     > [!NOTE]
-    > Puede definir una topología con una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para agregar un componente a la topología, debe usar una cuenta que sea miembro del grupo de **administradores de dominio** y la de **RTCUniversalSer Grupo verAdmins** y que tiene permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que está usando para el almacén de archivos de Skype empresarial Server (es decir, el generador de topología puede configurar el control de acceso discrecional requerido listas (DACL) o una cuenta con derechos equivalentes.
+    > Puede definir una topología con una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para agregar un componente a la topología. debe usar una cuenta que sea miembro del grupo de **administradores del dominio** y el grupo **RTCUniversalServerAdmins** , y que tenga permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que está usando para el almacén de archivos de Skype empresarial Server (es decir, el generador de topología puede configurar el control de acceso discrecional obligatorio listas (DACL) o una cuenta con derechos equivalentes.
   
 2. Iniciar el generador de topología.
     
@@ -66,7 +66,7 @@ Para realizar alguno de estos cambios, debe ejecutar el generador de topología,
     
    - Para agregar un almacén de SQL Server para la creación de reflejos o para cambiar a un almacén de SQL Server existente diferente para la creación de reflejos del almacén de SQL Server, seleccione **Permitir creación de reflejos del almacén de SQL Server** y, luego, haga lo siguiente:
     
-     - Para usar un almacén de SQL Server existente para la creación de reflejo, en el cuadro de lista desplegable archivado reflejado de **SQL Server** , haga clic en el nombre del almacén de SQL Server que desea usar para el reflejo.
+     - Para usar un almacén de SQL Server existente para la creación de reflejo, en el cuadro de lista desplegable **archivado reflejado de SQL Server** , haga clic en el nombre del almacén de SQL Server que desea usar para el reflejo.
     
      - Para especificar un nuevo almacén de SQL Server para la creación de reflejo, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **definir nuevo almacén de SQL Server** , realice una de las siguientes acciones:
     
@@ -76,7 +76,7 @@ Para realizar alguno de estos cambios, debe ejecutar el generador de topología,
     
        c. Si la instancia de SQL Server especificada tiene una relación de creación de reflejos, seleccione la casilla **de verificación esta instancia de SQL está en relación de creación de reflejo** y, a continuación, en número de puerto de **réplica**, especifique el número de puerto.
     
-   - Si habilita el reflejo de SQL Server y quiere agregar o cambiar un testigo de reflejo de SQL Server (una tercera, instancia independiente de SQL Server que puede detectar el estado del servidor SQL Server principal y de las instancias reflejadas), seleccione **usar el testigo de reflejo de SQL Server para habilitar la conmutación por error automática** y, después, realice una de las siguientes acciones:
+   - Si habilita el reflejo de SQL Server y quiere agregar o cambiar un testigo de reflejo de SQL Server (una tercera, instancia independiente de SQL Server que puede detectar el estado del servidor SQL Server principal y las instancias reflejadas), seleccione la casilla de verificación **usar el testigo de reflejo de SQL Server para habilitar la conmutación por error automática** y, a continuación, siga uno de estos procedimientos:
     
       a. En **FQDN de SQL Server**, especifique el nombre completo del servidor en el que desea crear el nuevo testigo de reflejo de SQL Server.
     
@@ -100,7 +100,7 @@ En la mayoría de los casos, no tendrá que cambiar la ubicación de la base de 
   
 En el ejemplo siguiente se cambia la ubicación de la base de datos de archivado del ArchivingServer: ATL-CS-001.contoso.com Server archiving. En este ejemplo, la nueva base de datos se encuentra en ArchivingDatabase: ATL-SQL-001.contoso.com:
   
-```
+```PowerShell
 Set-CsArchivingServer -Identity "ArchivingServer:atl-cs-001.contoso.com" -ArchivingDatabase "ArchivingDatabase:atl-sql-001.contoso.com"
 ```
 

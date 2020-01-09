@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Resumen: Obtenga información sobre el informe de Resumen de la Conferencia RTC en Skype empresarial Server.'
-ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c0ecb9ae2a5630a8d68b9d22892890617127826a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279987"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992165"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Informe Resumen de la Conferencia RTC en Skype empresarial Server
  
@@ -35,7 +35,7 @@ Para determinar el porcentaje de todas las conferencias que incluyen usuarios de
   
 Si no ve la cantidad de conferencias RTC que esperaba ver, tenga en cuenta que la capacidad para organizar una conferencia que admita usuarios de acceso telefónico depende de la directiva de conferencias que se haya asignado a un usuario; si muy pocos usuarios pueden organizar conferencias RTC, obviamente verá pocas conferencias RTC. Puede comprobar rápidamente cuáles de las directivas de conferencia (si hay alguna) permite a los usuarios programar conferencias RTC ejecutando el siguiente comando desde el shell de administración de Skype empresarial Server:
   
-```
+```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
 ```
 

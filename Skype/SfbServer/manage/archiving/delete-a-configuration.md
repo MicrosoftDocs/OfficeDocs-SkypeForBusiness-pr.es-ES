@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Resumen: Aprenda a eliminar una configuración de archivado en Skype empresarial Server.'
-ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 22da9464a4bb6b17c6d4b9aa63ad8990a9152c38
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286200"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992377"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Eliminar una configuración de archivado en Skype empresarial Server
 
@@ -46,25 +46,25 @@ También puede eliminar una configuración de archivado mediante el cmdlet **Rem
   
 Por ejemplo, el siguiente comando quita las opciones de configuración del archivado aplicadas al sitio de Redmond. Cuando se elimina una directiva configurada en el ámbito de sitio, los usuarios a los que anteriormente administraba esta directiva de sitio se regirán de forma automática por la directiva de archivado global:
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity "site:Redmond"
 ```
 
 El siguiente comando quita todas las opciones de configuración de archivado aplicadas al ámbito de servicio:
   
-```
+```PowerShell
 Get-CsArchivingConfiguration -Filter "site:*" | Remove-CsArchivingConfiguration
 ```
 
 El siguiente comando quita todas las opciones de configuración de archivado en las que se deshabilitó el archivado de Exchange:
   
-```
+```PowerShell
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
 También puede usar el cmdlet **Remove-CsArchivingConfiguration** para restablecer la configuración global a los valores predeterminados. Por ejemplo, si ha habilitado el archivado de las sesiones de mensajería instantánea de forma global, el siguiente comando restablecerá el valor al valor Ninguno predeterminado, y así se deshabilitará el archivado de manera global:
   
-```
+```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 

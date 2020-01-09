@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumen: Aprenda a agregar, quitar, aplicar revisiones o actualizar servidores front-end en Skype empresarial Server.'
-ms.openlocfilehash: 13af9198dfb83d14ad1d86885419fc9add29e07d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3689b869ba715f431ebcf0b537b4106a66177c62
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275160"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991535"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Administrar servidores front-end en Skype empresarial Server
  
@@ -37,7 +37,7 @@ Puede usar el siguiente procedimiento al agregar o quitar un servidor front-end.
 
 1. Si va a quitar los servidores front-end, primero detenga las conexiones nuevas a esos servidores. Para ello, puede usar el siguiente cmdlet:
     
-   ```
+   ```PowerShell
    Stop-CsWindowsService -Graceful
    ```
 
@@ -53,7 +53,7 @@ Puede usar el siguiente procedimiento al agregar o quitar un servidor front-end.
   
 4. Si ha cambiado el número de servidores en el grupo de servidores front-end de cualquiera de las siguientes maneras, restablezca el grupo con el siguiente cmdlet: RESET-CsPoolRegistrarState-ResetType FullReset-PoolFqdn 
     
-   ```
+   ```PowerShell
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
    ```
 
@@ -67,7 +67,7 @@ Puede usar el siguiente procedimiento al agregar o quitar un servidor front-end.
     
 5. Reinicie el grupo al escribir el siguiente cmdlet
     
-   ```
+   ```PowerShell
    Start-CsPool
    ```
 
@@ -79,19 +79,19 @@ Cuando se revisan los servidores de un grupo de servidores front-end, lo hace de
 
 1. Escriba el siguiente cmdlet:
     
-   ```
+   ```PowerShell
    Get-CsPoolFabricState -PoolFqdn <PoolFQDN>
    ```
 
      Si este cmdlet muestra alguna réplica que falte, ejecute el siguiente cmdlet para recuperar el grupo antes de aplicar cualquier parche:
     
-   ```
+   ```PowerShell
    Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery
    ```
 
 2. Ejecute el siguiente cmdlet en el primer servidor al que desee aplicar un parche:
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
@@ -101,7 +101,7 @@ Cuando se revisan los servidores de un grupo de servidores front-end, lo hace de
     
 4. En el servidor actualizado, ejecute el cmdlet siguiente:
     
-   ```
+   ```PowerShell
    Invoke-CsComputerFailBack -ComputerName <Front End Server to be patched>
    ```
 

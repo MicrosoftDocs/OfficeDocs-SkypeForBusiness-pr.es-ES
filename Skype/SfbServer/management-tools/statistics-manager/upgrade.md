@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Resumen: Lea este tema para obtener información sobre cómo actualizar statistic Manager para Skype empresarial Server.'
-ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de88257b628256c47b68036852d82fb6715c043f
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299726"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992507"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Actualizar el administrador de estadísticas para Skype Empresarial Server
  
@@ -24,7 +24,7 @@ ms.locfileid: "34299726"
   
 En este tema se describe cómo actualizar una instalación existente de statistic Manager para Skype empresarial Server, una eficaz herramienta que le permite ver los datos de estado y rendimiento de Skype empresarial en tiempo real. Puede sondear los datos de rendimiento en cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio web del administrador de estadísticas. 
   
-Para obtener más información sobre statistic Manager y las nuevas características de la versión 2,0, consulte [Plan for Statistics Manager for Skype for Business Server](plan.md) e implantar [Statistics Manager para Skype empresarial Server](deploy.md).
+Para obtener más información sobre statistic Manager y las nuevas características de la versión 2,0, consulte [Plan for Statistics Manager for Skype for Business Server](plan.md) e [implantar Statistics Manager para Skype empresarial Server](deploy.md).
   
 Existen dos métodos para actualizar:
   
@@ -50,7 +50,7 @@ El script recopilará la información del certificado actual y la contraseña de
     
 2. Abra una ventana administrativa de PowerShell. Actualice el componente de escucha:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Listener
    ```
 
@@ -65,7 +65,7 @@ El script recopilará la información del certificado actual y la contraseña de
     
 4. Abra una ventana administrativa de PowerShell. Actualice el componente del sitio web:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Website
    ```
 
@@ -77,7 +77,7 @@ El script recopilará la información del certificado actual y la contraseña de
     
 8. Abra una ventana administrativa de PowerShell. Actualice el componente de agente:
     
-   ```
+   ```PowerShell
    .\Update-StatsMan.ps1 -Service Agent
    ```
 

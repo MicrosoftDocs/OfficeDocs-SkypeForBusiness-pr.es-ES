@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 'Resumen: Aprenda a ver directivas de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: 1f1545761838cf176abd88fa12abd9ef5a1d8136
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7ea7b5cb9ba54fcf26e5f37b79320466c19d1050
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280323"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992195"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Ver directivas de conferencia en Skype empresarial Server
  
@@ -43,7 +43,7 @@ Puede ver las directivas de conferencia con el panel de control de Skype empresa
 
 Para ver las directivas de conferencia, use el cmdlet **Get-CsConferencingPolicy**:
   
-```
+```PowerShell
 Get-CsConferencingPolicy
 ```
 

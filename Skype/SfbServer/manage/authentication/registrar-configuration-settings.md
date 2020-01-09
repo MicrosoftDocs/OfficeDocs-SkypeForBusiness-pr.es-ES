@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Resumen: administrar la configuración de la configuración de registrar para Skype empresarial Server.'
-ms.openlocfilehash: 4ad7815da0744a78cd72208ef390362bff26c2ce
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8aac78f782b7a9db23d3bb124943c55cdbd8565a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291175"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992307"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Administrar la configuración de la configuración de registrar en Skype empresarial Server
  
@@ -28,7 +28,7 @@ Puede usar el registrador para configurar los métodos de autenticación de serv
     
 - **NTLM** Esta es la autenticación basada en contraseña disponible para los clientes que usan un esquema de hash de desafío/respuesta en la contraseña. Esta es la única forma de autenticación disponible para los clientes sin conexión a un centro de distribución de claves (controlador de dominio de Kerberos), como los usuarios remotos. Si un servidor autentica solo usuarios remotos, debe elegir NTLM.
     
-- **Autenticación de certificados** Este es el método de autenticación nuevo cuando el servidor necesita obtener certificados de clientes de Lync Phone Edition, teléfonos de área común, Skype empresarial y la aplicación de la tienda Windows de Lync. En los clientes de Lync Phone Edition, después de que un usuario inicie sesión y se autentique correctamente proporcionando un número de identificación personal (PIN), Skype empresarial Server le entregará el URI del SIP al teléfono y proporciones un Skype empresarial Server firmado certificado o un certificado de usuario que identifica Joe (por ejemplo: SN=joe@contoso.com) en el teléfono. Este certificado se usa para autenticarse con el Registrador y los Servicios web.
+- **Autenticación de certificados** Este es el método de autenticación nuevo cuando el servidor necesita obtener certificados de clientes de Lync Phone Edition, teléfonos de área común, Skype empresarial y la aplicación de la tienda Windows de Lync. En los clientes de Lync Phone Edition, después de que un usuario inicie sesión y se autentique correctamente proporcionando un número de identificación personal (PIN), Skype empresarial Server le entregará el URI del SIP al teléfono y proporciones un certificado firmado de Skype empresarial Server o un certificado de usuario que identifica Joe (por ejemplo: SN=joe@contoso.com) en el teléfono. Este certificado se usa para autenticarse con el Registrador y los Servicios web.
     
 > [!NOTE]
 > Se recomienda habilitar Kerberos y NTLM cuando un servidor admita la autenticación para los clientes remotos y de empresa. El servidor perimetral y los servidores internos se comunican para garantizar que solamente se ofrezca la autenticación NTLM a clientes remotos. Si solamente se habilita Kerberos en estos servidores, no podrán autenticar usuarios remotos. Si los usuarios de empresa también se autentican frente al servidor, se usa Kerberos. 
@@ -108,7 +108,7 @@ Puede eliminar la configuración del registrador con Windows PowerShell y el cmd
 
 - El siguiente comando quita las opciones de configuración de seguridad del registrador aplicadas al servidor perimetral atl-edge-011.litwareinc.com:
     
-  ```
+  ```PowerShell
   Remove-CsProxyConfiguration -Identity service:EdgeServer:atl-edge-011.litwareinc.com
   ```
 
@@ -116,7 +116,7 @@ Puede eliminar la configuración del registrador con Windows PowerShell y el cmd
 
 - El siguiente comando quita todas las opciones de configuración de seguridad del registrador aplicadas al servicio del registrador:
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration -Filter "service:Registrar:*" | Remove-CsProxyConfiguration
   ```
 
@@ -124,7 +124,7 @@ Puede eliminar la configuración del registrador con Windows PowerShell y el cmd
 
 - El siguiente comando elimina todas las opciones de configuración de seguridad del registrador que permiten el uso de NTLM para la autenticación de cliente:
     
-  ```
+  ```PowerShell
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 

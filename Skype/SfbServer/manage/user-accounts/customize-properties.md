@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Puede usar los procedimientos de esta sección para modificar las propiedades de una cuenta de usuario individual.
-ms.openlocfilehash: fda11a1b52519f3653c841837af20392383cadd1
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: eca88717d0b81ddd7c27fc140df9bdbf7590c5c6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35222064"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991435"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personalizar las propiedades de la cuenta de usuario para Skype empresarial Server
  
@@ -34,7 +34,7 @@ Puede personalizar la configuración de telefonía de un usuario específico (si
   
 Entre las opciones de telefonía de usuario de Skype empresarial Server se incluyen las siguientes:
   
-- **Audio/vídeo** deshabilitado El usuario no puede hacer llamadas con audio y vídeo.
+- **Audio/vídeo deshabilitado** El usuario no puede hacer llamadas con audio y vídeo.
     
 - **Solo de PC a PC** El usuario solo puede hacer videollamadas o videollamadas de PC a PC.
     
@@ -50,7 +50,7 @@ Para obtener detalles sobre la configuración de telefonía para una organizaci�
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
-4. En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar. **.
+4. En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar**.
     
 5. En la tabla, haga clic en la cuenta de usuario que desea modificar.
     
@@ -58,7 +58,7 @@ Para obtener detalles sobre la configuración de telefonía para una organizaci�
     
 7. En **telefonía**, haga lo siguiente:
     
-   - Para deshabilitar las llamadas de audio y vídeo para el usuario, haga clic en **audio/vídeo**deshabilitado.
+   - Para deshabilitar las llamadas de audio y vídeo para el usuario, haga clic en **audio/vídeo deshabilitado**.
     
    - Para habilitar las comunicaciones de audio de PC a PC para el usuario, pero no para el control remoto de llamadas ni para la telefonía IP empresarial, haga clic en **solo de PC a PC**. Especifique un valor para el **URI de línea** del teléfono que usa el usuario para las comunicaciones de audio de PC a PC.
     
@@ -82,15 +82,15 @@ Puede usar el panel de control de Skype empresarial Server para asignar usuarios
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
-4. En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar. **. 
+4. En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar**. 
     
 5. En la tabla, seleccione un usuario o usuarios específicos de la lista. 
     
 6. En el menú **acción** , haga clic en **mover los usuarios seleccionados al grupo**.
     
-7. En **mover usuarios**, seleccione el grupo al que desea mover los usuarios en el grupo de registrador de **destinos**.
+7. En **mover usuarios**, seleccione el grupo al que desea mover los usuarios en el **grupo de registrador de destinos**.
     
-8. Faculta Si el servidor de destino o el grupo de servidores no **** están disponibles, active la casilla forzar.
+8. Faculta Si el servidor de destino o el grupo de servidores no están disponibles, active la casilla **forzar** .
     
     > [!CAUTION]
     > Si selecciona **Force**, se mueve la cuenta de usuario, pero se eliminan los datos de los usuarios asociados (por ejemplo, las conferencias que el usuario ha programado). Si no la selecciona, tanto la cuenta como los datos asociados se mueven. 
@@ -105,11 +105,11 @@ Puede usar el panel de control de Skype empresarial Server para asignar usuarios
     
 4. En el menú **acción** , haga clic en **mover todos los usuarios al grupo**.
     
-5. En **mover usuarios**, seleccione el grupo que contiene las cuentas de usuario que desea mover en el **Grupo**de registrador de origen.
+5. En **mover usuarios**, seleccione el grupo que contiene las cuentas de usuario que desea mover en el **grupo de registrador de origen**.
     
-6. En **Grupo**de registradores de destino, seleccione el grupo al que desea mover a los usuarios.
+6. En **grupo de registradores de destino**, seleccione el grupo al que desea mover a los usuarios.
     
-7. Faculta Si el servidor de destino o el grupo de servidores no **** están disponibles, active la casilla forzar.
+7. Faculta Si el servidor de destino o el grupo de servidores no están disponibles, active la casilla **forzar** .
     
     > [!CAUTION]
     > Si selecciona **Force**, se mueve la cuenta de usuario, pero se eliminan los datos de los usuarios asociados (por ejemplo, las conferencias que el usuario ha programado). Si no la selecciona, tanto la cuenta como los datos asociados se mueven. 
@@ -131,11 +131,11 @@ Puede usar el panel de control de Skype empresarial Server para asignar usuarios
     > [!NOTE]
     > Cuando se aplica un filtro a un conjunto de usuarios existente, la opción **mover todos los usuarios al grupo** se encuentra en el contexto del subconjunto filtrado de usuarios, no de **todos** los usuarios posibles.
   
-7. En **mover usuarios**, seleccione el grupo que contiene las cuentas de usuario que desea mover en el **Grupo**de registrador de origen.
+7. En **mover usuarios**, seleccione el grupo que contiene las cuentas de usuario que desea mover en el **grupo de registrador de origen**.
     
-8. En **Grupo**de registradores de destino, seleccione el grupo al que desea mover los usuarios.
+8. En **grupo de registradores de destino**, seleccione el grupo al que desea mover los usuarios.
     
-9. Faculta Si el servidor de destino o el grupo de servidores no **** están disponibles, active la casilla forzar.
+9. Faculta Si el servidor de destino o el grupo de servidores no están disponibles, active la casilla **forzar** .
     
     > [!CAUTION]
     > Si selecciona **fuerza**, se mueve la cuenta de usuario, pero se eliminan los datos de los usuarios asociados (por ejemplo, las conferencias que el usuario ha programado y a las que los contactos han programado). Si no la selecciona, tanto la cuenta como los datos asociados se mueven. 
@@ -144,7 +144,7 @@ Puede usar el panel de control de Skype empresarial Server para asignar usuarios
 
 1. En función de cómo ejecute los comandos de Windows PowerShell (es decir, de forma local o remota), debe iniciar sesión como miembro de las funciones administrativas del servidor de Skype empresarial correctas de la siguiente manera:
     
-   a. Si está ejecutando los comandos en el equipo local (por ejemplo, inicia sesión directamente en un servidor de solicitudes de cliente): inicie sesión en el equipo en el que está instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario, tal y como se describe en **permisos de configuración**de delegados.
+   a. Si está ejecutando los comandos en el equipo local (por ejemplo, inicia sesión directamente en un servidor de aplicaciones para el usuario): inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en **permisos de configuración de delegado**.
     
    b. Si ejecuta los comandos de forma remota en otro equipo (por ejemplo, inicia sesión en el equipo y ejecuta los comandos de forma remota en un servidor front-end Standard Edition): desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator rol, inicie sesión en cualquier equipo de su implementación interna.
     
@@ -152,7 +152,7 @@ Puede usar el panel de control de Skype empresarial Server para asignar usuarios
     
 3. Para mover usuarios individuales, use el cmdlet Move-CsUser de la siguiente manera:
     
-    ```
+    ```PowerShell
     Move-CsUser -Identity "Pilar Ackerman" -Target "pool01.contoso.net"
     ```
 
@@ -160,13 +160,13 @@ Puede usar el panel de control de Skype empresarial Server para asignar usuarios
     
 4. Para mover un gran número de usuarios, use filtros con el cmdlet **Get-CsUser** y pase el conjunto de usuarios resultante a **Move-CsUser**:
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "CurrentPoolFqdn"} | Move-CsUser -Target "TargetPoolFQDN"
     ```
 
     Los comandos combinados de **Get-CsUser** y **Move-CsUser** pueden dar lugar a esto:
     
-    ```
+    ```PowerShell
     Get-CsUser -Filter {RegistrarPool -eq "pool02.contoso.net"} | Move-CsUser -Target "pool01.contoso.net"
     ```
 

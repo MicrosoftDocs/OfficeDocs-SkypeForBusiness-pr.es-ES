@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Resumen: Aprenda a administrar categorías de servidores de chat persistentes en Skype empresarial Server 2015.'
-ms.openlocfilehash: 8a8e8060db896a272293df3259091d4f7667a7d3
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: f0c85c2246c85c93f96e6c13cef0a5d4360213cb
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35417942"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992005"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar categorías en el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -69,9 +69,9 @@ Puede configurar y administrar categorías por medio del Panel de control o por 
     
 7. En **Editar categoría**, haga lo siguiente:
     
-   - En **pertenencia**, en la sección **miembros permitidos** , agregar o quitar usuarios y otros principios de los servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, etc.) que se pueden agregar como miembros de salones de chat pertenece a la categoría. Las entidades de seguridad permitidas por una categoría pueden buscar los salones de la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón podrán encontrarlo en el directorio).
+   - En **pertenencia**, en la sección **miembros permitidos** , agregue o quite usuarios y otros principios de los servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, etc.) que pueden agregarse como miembros de los salones de chat que pertenecen a la categoría. Las entidades de seguridad permitidas por una categoría pueden buscar los salones de la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón podrán encontrarlo en el directorio).
     
-   - En **pertenencia**, en la sección **miembros** denegados, agregue o quite usuarios y otros principales de Active Directory asociados a miembros que se deniegan del salón.
+   - En **pertenencia**, en la sección **miembros denegados** , agregue o quite usuarios y otros principales de Active Directory asociados a miembros que se deniegan del salón.
     
    - En **pertenencia**, en la sección **creadores** , agregue o quite usuarios y otras entidades de Active Directory asociadas con los creadores de la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de los salones de chat.
     
@@ -109,7 +109,7 @@ Para ver información completa sobre la sintaxis del cmdlet, incluso todos los p
 
 Puede crear una categoría con el cmdlet **New-CsPersistentChatRoom**. Por ejemplo, el siguiente comando crea una categoría denominada HelpDesk en el grupo atl-cs-001.contoso.com. En este ejemplo, la carga de archivos se encuentra habilitada:
   
-```
+```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
 ```
 
@@ -119,7 +119,7 @@ Puede configurar una categoría existente con el cmdlet **Set-CsPersistentCatego
   
 Por ejemplo, el siguiente comando especifica que user1 es un AllowedMember y un creador, mientras que usuario2 tiene denegado el acceso a las salas de la categoría:
   
-```
+```PowerShell
 Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
 Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 ```
@@ -128,7 +128,7 @@ Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contos
 
 Puede obtener información sobre las categorías con el cmdlet **Get-CsPersistentChatCategory**. Por ejemplo, el siguiente comando devuelve información para todas las categorías de chat persistente en la organización:
   
-```
+```PowerShell
 Get-CsPersistentChatCategory
 ```
 
@@ -136,6 +136,6 @@ Get-CsPersistentChatCategory
 
 Puede quitar una categoría con el cmdlet **Remove-CsPersistentChatCategory**. Antes de quitar una categoría, es preciso que primero elimine todos los salones de chat en ella o moverlos a una nueva categoría. Por ejemplo el siguiente comando quita la categoría que tiene el parámetro Identity "atl-cs-001.contoso.com\helpdesk":
   
-```
+```PowerShell
 Remove-CsPersistentChatCategory -Identity "atl-cs-001.contoso.com\helpdesk"
 ```

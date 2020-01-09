@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de migrar a Skype empresarial Server 2019, tendrá que mover el servidor de administración central al servidor o grupo de servidores front-end de Skype empresarial 2019 antes de poder quitar el servidor heredado.
-ms.openlocfilehash: 0e13dab272a60967c0ccc676a47954b75170eeb3
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: b6a2dd08949b5b15370f27e1da936009048982f6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434944"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990935"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Mover el servidor de administración central heredado a Skype empresarial Server 2019
 
@@ -24,19 +24,19 @@ El servidor de administración central es un único sistema de réplica principa
   
 Después de mover correctamente el servidor de administración central, debe quitar las bases de datos del servidor de administración central del servidor front-end original. Para obtener información sobre cómo quitar las bases de datos del servidor de administración central, vea [quitar la base de datos de SQL Server de un grupo de servidores front-end](remove-the-sql-server-database-for-a-front-end-pool.md).
   
-Use el cmdlet **Move-CsManagementServer** de Windows PowerShell en el shell de administración de Skype empresarial Server para mover la base de datos de la instalación heredada de SQL Server a la base de datos de Skype empresarial Server 2019 SQL Server y, después, actualice el SCP para apuntar a la ubicación del servidor de administración central de Skype empresarial Server 2019. 
+Use el cmdlet **Move-CsManagementServer** de Windows PowerShell en el shell de administración de Skype empresarial Server para mover la base de datos de la instalación heredada de SQL Server a la base de datos de Skype empresarial Server 2019 SQL Server y, a continuación, actualice el SCP para que apunte a la ubicación del servidor de administración central de Skype empresarial Server 2019. 
   
 Use los procedimientos de esta sección para preparar los servidores front-end de Skype empresarial Server 2019 antes de mover el servidor de administración central.
   
 ## <a name="to-prepare-an-enterprise-edition-front-end-pool"></a>Preparar un grupo de servidores front-end Enterprise Edition
 
-1. En el grupo de servidores front-end de Skype empresarial Server 2019 Enterprise Edition donde quiere reubicar el servidor de administración central, inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro de la **RTCUniversalServerAdmins **agrupar. También debe tener permisos y derechos de usuario de la base de datos sysadmin de SQL Server en la base de datos donde desee instalar el almacén de administración central. 
+1. En el grupo de servidores front-end de Skype empresarial Server 2019 Enterprise Edition donde quiere reubicar el servidor de administración central, inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo **RTCUniversalServerAdmins** . También debe tener permisos y derechos de usuario de la base de datos sysadmin de SQL Server en la base de datos donde desee instalar el almacén de administración central. 
     
 2. Abra el shell de administración de Skype empresarial Server.
     
 3. Para crear el nuevo almacén central de administración en la base de datos de Skype empresarial Server 2019 de SQL Server, en el shell de administración de Skype empresarial Server, escriba:
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your SQL Server> -SQLInstanceName <name of instance>
    ```
 
@@ -44,7 +44,7 @@ Use los procedimientos de esta sección para preparar los servidores front-end d
     
 ## <a name="to-prepare-a-standard-edition-front-end-server"></a>Para preparar un servidor front-end Standard Edition
 
-1. En el servidor front-end Standard Edition de Skype empresarial Server 2019, donde quiere reubicar el servidor de administración central, inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro de la **RTCUniversalServerAdmins **agrupar. 
+1. En el servidor front-end Standard Edition de Skype empresarial Server 2019, donde quiere reubicar el servidor de administración central, inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo **RTCUniversalServerAdmins** . 
     
 2. Abra el Asistente para la implementación de Skype empresarial Server.
     
@@ -57,7 +57,7 @@ Use los procedimientos de esta sección para preparar los servidores front-end d
   
 5. Para crear el nuevo almacén central de administración en el servidor front-end de Skype empresarial Server 2019 Standard Edition, en el shell de administración de Skype empresarial Server, escriba: 
     
-   ```
+   ```PowerShell
    Install-CsDatabase -CentralManagementDatabase -SQLServerFQDN <FQDN of your Standard Edition Server> -SQLInstanceName <name of instance - RTC by default>
    ```
 
@@ -71,7 +71,7 @@ Use los procedimientos de esta sección para preparar los servidores front-end d
     
 3. En el shell de administración de Skype empresarial Server, escriba: 
     
-   ```
+   ```PowerShell
    Enable-CsTopology
    ```
 
@@ -80,7 +80,7 @@ Use los procedimientos de esta sección para preparar los servidores front-end d
   
 4. En el servidor front-end de Skype empresarial Server 2019 o en el grupo front-end, en el shell de administración de Skype empresarial Server, escriba: 
     
-   ```
+   ```PowerShell
    Move-CsManagementServer
    ```
 
@@ -90,17 +90,17 @@ Use los procedimientos de esta sección para preparar los servidores front-end d
     
 7. En el servidor de Skype empresarial Server 2019, abra el Asistente para la implementación de Skype empresarial Server. 
     
-8. En el Asistente para la implementación de Skype empresarial Server, haga clic en **instalar o actualizar el sistema de Skype empresarial Server**, haga clic en **paso 2: configurar o quitar los componentes de Skype**empresarial Server, haga clic en **siguiente**, revise el Resumen y, a continuación, haga clic en **Finalizar. **. 
+8. En el Asistente para la implementación de Skype empresarial Server, haga clic en **instalar o actualizar el sistema de Skype empresarial Server**, haga clic en **paso 2: configurar o quitar los componentes de Skype**empresarial Server, haga clic en **siguiente**, revise el Resumen y, a continuación, haga clic en **Finalizar**. 
     
 9. En el servidor de instalación heredado, abra el Asistente para la implementación. 
     
-10. En el Asistente para la implementación de Skype empresarial Server, haga clic en **instalar o actualizar el sistema de Skype empresarial Server**, haga clic en **paso 2: configurar o quitar los componentes de Skype**empresarial Server, haga clic en **siguiente**, revise el Resumen y, a continuación, haga clic en **Finalizar. **. 
+10. En el Asistente para la implementación de Skype empresarial Server, haga clic en **instalar o actualizar el sistema de Skype empresarial Server**, haga clic en **paso 2: configurar o quitar los componentes de Skype**empresarial Server, haga clic en **siguiente**, revise el Resumen y, a continuación, haga clic en **Finalizar**. 
     
 11. Reinicie el servidor de Skype empresarial Server 2019. Esto se debe a un cambio de pertenencia a grupos para tener acceso a la base de datos del servidor de administración central.
     
 12. Para confirmar que se está produciendo la replicación con el nuevo almacén de administración central, en el shell de administración de Skype empresarial Server, escriba: 
     
-    ```
+    ```PowerShell
     Get-CsManagementStoreReplicationStatus
     ```
 
@@ -118,13 +118,13 @@ Use los procedimientos de esta sección para preparar los servidores front-end d
   
 3. Para quitar los archivos de base de datos de la tienda de administración central del servidor de administración central de instalación heredada, escriba:
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn <FQDN of SQL Server> -SqlInstanceName <Name of source server>
    ```
 
     Por ejemplo:
     
-   ```
+   ```PowerShell
    Uninstall-CsDatabase -CentralManagementDatabase -SqlServerFqdn sql.contoso.net -SqlInstanceName rtc
    ```
 

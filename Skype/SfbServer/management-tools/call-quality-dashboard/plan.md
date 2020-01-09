@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Resumen: Obtenga información sobre qué hay que tener en cuenta al planear el panel de calidad de llamadas.'
-ms.openlocfilehash: c98828f8fed3567a892e20dcab8040bb731c91f2
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 3a0982f565495740887b6da07dd802de1205dcf8
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328442"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991415"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Plan de panel de calidad de llamadas para Skype empresarial Server 
  
@@ -284,11 +284,11 @@ A continuación se indican los servicios de rol de IIS requeridos (en orden jer�
   
 Para instalar estos requisitos con PowerShell, ejecute lo siguiente:
   
-```
+```PowerShell
 import-module servermanager
 ```
 
-```
+```PowerShell
 add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net, Web-Asp-Net45, Web-Net-Ext, Web-Net-Ext45, Web-ISAPI-Ext, Web-ISAPI-Filter, Web-Http-Logging, Web-Url-Auth, Web-Windows-Auth, Web-Mgmt-Console
 ```
 
@@ -320,7 +320,7 @@ Para obtener más ayuda para instalar y configurar las características de intel
 
 Se recomiendan tres cuentas de servicio de dominio en el principio de privilegios mínimos: 
   
-- Uno que ya tiene tanto un principio de seguridad de inicio de sesión para la base de datos de QoE Metrics (con el privilegio db_datareader) y un principio de seguridad de inicio de sesión en la instancia de archivo de SQL Server de QoE (necesario para crear un objeto de servidor vinculado durante la instalación). Esta cuenta se usará para ejecutar el paso "datos del archivo QoE" del trabajo del Agente SQL Server.
+- Uno que ya tiene tanto un principio de seguridad de inicio de sesión para la base de datos de QoE Metrics (con db_datareader privilegio) y un principio de seguridad de inicio de sesión en la instancia de archivo de SQL Server de QoE (necesario para crear un objeto de servidor vinculado durante la instalación). Esta cuenta se usará para ejecutar el paso "datos del archivo QoE" del trabajo del Agente SQL Server.
     
 - Una que se usará para ejecutar el paso "procesar cubo" del trabajo del Agente SQL Server. El programa de instalación creará una entidad de seguridad de inicio de sesión para la base de datos de archivos de alta definición (con privilegio de lectura y escritura) y también crea un miembro en el rol de QoE (con privilegio de control total) para el cubo.
     

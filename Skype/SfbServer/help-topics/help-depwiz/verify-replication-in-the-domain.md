@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 'Para comprobar la replicación de la preparación del dominio que se realizó en el paso 1: preparar el esquema, es necesario ejecutar un cmdlet desde el shell de administración de Lync Server de Shell de administración de Skype empresarial. Para ejecutar el cmdlet de Windows PowerShell, inicie sesión en un equipo que sea miembro del dominio que ha preparado y como miembro del grupo administradores de dominio. Siga este procedimiento:'
-ms.openlocfilehash: 7d5d9409554654b9c290dfd2df4e20f61c75ae20
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f20806a11850276032bae19b4311734669be5a53
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289501"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989055"
 ---
 # <a name="verify-replication-in-the-domain"></a>Comprobar replicación en el dominio
  
@@ -28,13 +28,13 @@ Para comprobar la replicación de la preparación del dominio que se realizó en
     
 2. En Windows PowerShell, escriba lo siguiente:
     
-   ```
+   ```PowerShell
    Get-CsAdDomain [-Domain <Fqdn>] [-DomainController <Fqdn>] [-GlobalCatalog <Fqdn>] [-GlobalSettingsDomainController <Fqdn>]
    ```
 
     Por ejemplo:
     
-   ```
+   ```PowerShell
    Get-CsAdDomain -Domain domain1.contoso.net -GlobalSettingsDomainController dc01.domain1.contoso.com
    ```
 

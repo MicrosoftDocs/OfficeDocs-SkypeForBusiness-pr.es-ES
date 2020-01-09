@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Descubra qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Teams.
-ms.openlocfilehash: dd0b2cd1ac6014ea0f6c79a46314eb4e3d5e0380
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 4c65a8c5d5a28ab5046c23e2743962fe1114c2a4
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871716"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992587"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar a enrutamiento directo
 
@@ -86,7 +86,7 @@ Para más información sobre cómo migrar desde el Sistema telefónico con una c
 
 Se recomienda quitar la información configurada anteriormente en el enrutamiento de voz de la siguiente manera:
 
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
 > Si se configura un CsVoiceRoutingPolicy global, se recomienda quitar los usos de RTC asociados a esta directiva global. 
@@ -101,7 +101,7 @@ Para más información sobre cómo migrar desde el Sistema telefónico con una c
 
 Se recomienda quitar la información configurada anteriormente en el enrutamiento de voz de la siguiente manera:
  
-```
+```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPSTNSite $null 
 ```

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: 'Resumen: Obtenga información sobre la operación obtener elementos, que es parte del servicio de elementos. El servicio de artículo forma parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: a1e7e8525df77cd5aacafb6d41316a985fbe9694
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: be93e16750c1a977a6bc3cfc9651e78a043ef563
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274705"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992667"
 ---
 # <a name="get-items"></a>Obtener elementos
  
@@ -49,7 +49,7 @@ Obtener elementos devuelve todos los elementos del repositorio.
 > [!NOTE]
 > Se devuelve una matriz de objetos de elemento. Para obtener más información sobre el objeto de elemento, vea obtener elemento. 
   
-```
+```json
 [{
 "itemId": 1652,
 "userId": 0,

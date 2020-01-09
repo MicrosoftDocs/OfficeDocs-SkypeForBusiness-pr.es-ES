@@ -1,5 +1,5 @@
 ---
-title: Descargar e instalar Windows PowerShell 5,1
+title: Descargar e instalar Windows PowerShell 5.1
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,14 +19,14 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Descargue, instale y use Windows PowerShell 5,1 para crear una sesión remota de PowerShell que se conecte a Skype empresarial online.
-ms.openlocfilehash: 5afca0ef1fd5d7437c3974de1424a664c99ab1a1
-ms.sourcegitcommit: 9c54fd0a51ece8624155dc543d5df922834aa51e
+ms.openlocfilehash: 190e1cdcbdd15018e576a4da8a50410cfb062a71
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "35701561"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992960"
 ---
-# <a name="download-and-install-windows-powershell-51"></a>Descargar e instalar Windows PowerShell 5,1
+# <a name="download-and-install-windows-powershell-51"></a>Descargar e instalar Windows PowerShell 5.1
 
 Si está usando la actualización de aniversario de Windows 10 o Windows Server 2016, ya tiene Windows PowerShell 5,1. Esto se debe a que esta aplicación viene preinstalada con esos sistemas operativos.
   
@@ -36,7 +36,7 @@ Para determinar qué versión de Microsoft PowerShell está usando, haga lo sigu
     
 2. En la consola de PowerShell, escriba el siguiente comando y, a continuación, presione ENTRAR:
     
-   ```
+   ```PowerShell
    Get-Host | Select-Object Version
    ```
 
@@ -65,17 +65,17 @@ Si está ejecutando Windows 8, realice este procedimiento:
 3. Si aparece el cuadro de diálogo **control de cuentas de usuario** , haga clic en **sí** para comprobar que desea ejecutar PowerShell con credenciales de administrador.
     
 Una vez que PowerShell se esté ejecutando, debe cambiar la Directiva de ejecución para permitir la ejecución de scripts remotos. En la consola de PowerShell, escriba el siguiente comando y, a continuación, presione ENTRAR:
-```
+```PowerShell
 Set-ExecutionPolicy RemoteSigned -Force
 ```
    
  
 > [!NOTE]
-> Al ejecutar el comando anterior, es posible que reciba el siguiente mensaje de error: *>\\Set-ExecutionPolicy: acceso al software\\key'HKEY_LOCAL_MACHINE del registro\\de\\Microsoft\\PowerShell 1 ShellIds\\Micrsoft. PowerShell ' se* ha denegado. Este mensaje de error suele ocurrir si no ejecuta PowerShell con credenciales de administrador. Cierre la sesión de PowerShell y comience una nueva sesión como administrador.
+> Al ejecutar el comando anterior, es posible que reciba el siguiente mensaje de error: *> Set-ExecutionPolicy: acceso a la clave del registro\\"\\software\\HKEY_LOCAL_MACHINE\\Microsoft\\PowerShell\\1 ShellIds Micrsoft. PowerShell ' está denegado.* Este mensaje de error suele ocurrir si no ejecuta PowerShell con credenciales de administrador. Cierre la sesión de PowerShell y comience una nueva sesión como administrador.
  
 Para comprobar que la Directiva de ejecución se ha configurado correctamente, escriba lo siguiente en el símbolo del sistema de PowerShell y, a continuación, presione ENTRAR:
   
-```
+```PowerShell
 Get-ExecutionPolicy
 ```
 
@@ -103,7 +103,7 @@ Después de reiniciar el equipo, compruebe que Windows PowerShell puede iniciars
     
 Cuando aparezca la consola de PowerShell, debe comprobar que el servicio WinRM se está ejecutando y se ha configurado correctamente. Para comprobar que el servicio se está ejecutando, escriba el siguiente comando en el símbolo del sistema de PowerShell y, a continuación, presione ENTRAR:
   
-```
+```PowerShell
 Get-Service winrm
 ```
 
@@ -117,13 +117,13 @@ Running  winrm              Windows Remote Management (WS-Manag...
 
 Si el estado del servicio no es "en ejecución", inicie el servicio WinRM escribiendo el siguiente comando y, a continuación, presione ENTRAR:
   
-```
+```PowerShell
 Start-Service winrm
 ```
 
 Después de que el servicio se haya iniciado, ejecute el siguiente comando para asegurarse de que WinRM esté usando la autenticación básica:
   
-```
+```PowerShell
 winrm set winrm/config/client/auth '@{Basic="True"}'
 ```
 

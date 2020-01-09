@@ -15,12 +15,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo controlar si los usuarios de Microsoft Teams pueden descubrir los equipos privados mediante sugerencias de la galería de equipos y resultados de la búsqueda.
-ms.openlocfilehash: b60c06299f779ebe798db1ff3df465f1683508ed
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: e2e0ec956b40ff5e84bb29874c0dc567edefd034
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572005"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992015"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Administrar la detección de equipos privados en Microsoft Teams
 
@@ -65,7 +65,7 @@ En Teams, vaya al equipo privado, haga clic en **más opciones** > **administrar
 ### <a name="using-powershell"></a>Usar PowerShell
 
 Use el cmdlet **[set-Team](https://docs.microsoft.com/powershell/module/teams/set-team?view=teams-ps)** para desactivar o activar la configuración de detección de un equipo privado existente. Este es un ejemplo de cómo hacer que un equipo sea reconocible:
-```
+```PowerShell
     Set-Team -GroupId 0abc123d-e4f5-67gh-i890-jk1m2n345o6p -ShowInTeamsSearchAndSuggestions $true
 ```
 Puede usar este cmdlet en un script para establecer la configuración de detección de equipos privados existentes en masa.
@@ -79,7 +79,7 @@ Establezca el parámetro **AllowPrivateTeamDiscovery** en **true** para permitir
 De forma predeterminada, **AllowPrivateTeamDiscovery** se establece en **true** para todos los usuarios de una organización.
 
 En este ejemplo, creamos una directiva denominada VendorPolicy que impide que los usuarios descubran equipos privados que se hacen detectables y, a continuación, asignamos la Directiva a un usuario denominado vendoruser1.
-```
+```PowerShell
      New-CsTeamsChannelsPolicy -Identity VendorPolicy -AllowPrivateTeamDiscovery $false
      Grant-CsTeamsChannelsPolicy -Identity vendoruser1@company.com -PolicyName VendorPolicy
 ```

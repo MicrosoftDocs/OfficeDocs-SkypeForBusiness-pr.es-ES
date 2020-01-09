@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: b16334558fb64223e305effe533addca91683a81
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 57b799079da400389b9e3049406a52bbba4dc1e6
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288764"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40990615"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el administrador de estadísticas para Skype Empresarial Server
  
@@ -98,7 +98,7 @@ Para instalar el servicio de escucha en el equipo host, ejecute StatsManPerfAgen
     
      Puede buscar la huella digital del certificado usando el administrador de certificados o con el siguiente comando de PowerShell:
     
-   ```
+   ```PowerShell
    Get-ChildItem -path cert:\LocalMachine\My
    ```
 
@@ -185,7 +185,7 @@ Para importar la topología de Skype Empresarial Server, siga estos pasos:
     
     a. Ejecute el siguiente comando: 
     
-   ```
+   ```PowerShell
    Get-CsPool | Export-Clixml -Path mypoolinfo.xml
    ```
     b. Copie el archivo "mypoolinfo.xml" en el servidor que ejecuta el servicio de escucha.
@@ -196,25 +196,25 @@ Para importar la topología de Skype Empresarial Server, siga estos pasos:
     
    b. Vaya hasta el directorio en el que está instalado el servicio de escucha. El valor predeterminado es: 
     
-   ```
+   ```PowerShell
    cd C:\Program Files\Skype for Business Server StatsMan Listener
    ```
 
 3. Para confirmar qué servidores se agregan y se actualizan, ejecute el siguiente comando:
     
-   ```
+   ```PowerShell
     .\Update-StatsManServerInfo.ps1 -CsPoolFile  <path to mypoolinfo.xml>
    ```
 
 El comando siguiente le permite ver todas las opciones:
   
-```
+```PowerShell
 Get-Help .\Update-StatsManServerInfo.ps1 -Detailed 
 ```
 
 Para ver la información de servidores que ha importado, ejecute el siguiente script: 
   
-```
+```PowerShell
 .\Get-StatsManServerInfo.ps1
 ```
 
@@ -274,7 +274,7 @@ Microsoft recomienda encarecidamente usar un certificado firmado por una autorid
   
 1. Desde una consola de PowerShell en la que haya iniciado sesión como administrador, escriba lo siguiente:
     
-   ```
+   ```PowerShell
    New-SelfSignedCertificate -DnsName StatsManListener -CertStoreLocation Cert:\LocalMachine\My
    ```
 

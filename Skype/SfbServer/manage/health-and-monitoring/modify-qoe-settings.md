@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Resumen: Aprenda a especificar la retención de los datos de QoE en Skype empresarial Server.'
-ms.openlocfilehash: 89e20b18aa285bd4ee61df12c822e487dd6b37a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c597c0e5e3fbd2a8a92304ffd55d866a15c121a9
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280008"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992045"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Modificar la configuración de la calidad de la experiencia en Skype empresarial Server
 
@@ -52,7 +52,7 @@ Puede crear la configuración de retención de QoE mediante Windows PowerShell y
 
 - Este comando permite habilitar la depuración de datos de la QoE en el sitio de Redmond, así como configurar el sitio de manera que mantenga los datos de la QoE durante 20 días.
 
-  ```
+  ```PowerShell
   Set-CsQoeConfiguration -Identity "site:Redmond" -EnablePurging -KeepQoEDataForDays 20
   ```
 
@@ -60,7 +60,7 @@ Puede crear la configuración de retención de QoE mediante Windows PowerShell y
 
 - Este comando permite configurar la retención de todas las opciones de configuración de QoE que se usan en una organización.
 
-  ```
+  ```PowerShell
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 

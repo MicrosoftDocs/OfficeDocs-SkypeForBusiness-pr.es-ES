@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Los ajustes de configuración del tronco del SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red de telefonía pública conmutada (RTC), una central de conmutación (PBX) IP o un controlador de borde de sesión (SBC) en el proveedor de servicios.
-ms.openlocfilehash: dd8bd94bb8831fc3e406bed46015b2d955a2359c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8fb180994fdcd8409b0776a2fcaee6316110a36d
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274873"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992557"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Ver la información de configuración troncal en Skype empresarial Server
 
@@ -29,7 +29,7 @@ Al instalar Skype empresarial Server, se crea una colección global de parámetr
 **Para ver la información de configuración del tronco de SIP mediante el panel de control de Skype empresarial Server**
 
 1. En el panel de control de Skype empresarial Server, haga clic en **enrutamiento de voz**y, a continuación, en **configuración troncal**.
-2. En la pestaña **configuración de tronco** verá una lista de todas las colecciones de parámetros de configuración de troncal; para cada colección verá los valores de las propiedades de **nombre**, **ámbito**, **Estado**y **omisión de elementos multimedia** , junto con el número de **usos de RTC**, **las reglas de números de llamadas**y **las reglas de números** asociados a las mismas. con la colección. Para ver más detalles sobre una colección de valores de configuración del tronco, haga clic en la colección de interés, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**. Tenga en cuenta que solo puede ver información detallada de una colección de valores de configuración de troncales a la vez.
+2. En la pestaña **configuración de tronco** verá una lista de todas las colecciones de parámetros de configuración de troncal; para cada colección verá valores para las propiedades **nombre**, **ámbito**, **Estado**y omisión de **elementos multimedia** , junto con el número de **usos de RTC**, **las reglas de números de llamadas**y **las reglas numéricas** asociadas a la colección. Para ver más detalles sobre una colección de valores de configuración del tronco, haga clic en la colección de interés, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**. Tenga en cuenta que solo puede ver información detallada de una colección de valores de configuración de troncales a la vez.
 
 ## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Visualización de la información de configuración del tronco de SIP mediante cmdlets de Windows PowerShell
 
@@ -44,7 +44,7 @@ Para ver la información sobre todos los ajustes de configuración del troncal S
 
 Devolverá información similar a la siguiente:
 
-```
+```console
 Identity                                  : Global
 OutboundTranslationRulesList              : {}
 SipResponseCodeTranslationRulesList       : {}

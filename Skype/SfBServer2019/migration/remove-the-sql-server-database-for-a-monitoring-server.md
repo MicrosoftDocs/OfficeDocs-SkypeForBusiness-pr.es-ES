@@ -9,12 +9,12 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de quitar un servidor de supervisión, puede quitar las bases de datos de SQL Server que hospedaron los datos del servidor. Use los procedimientos siguientes para quitar las definiciones del generador de topología y, a continuación, quite los archivos de base de datos y de registro del servidor de base de datos.
-ms.openlocfilehash: 1034abac5b257200504c599fe8655a788d638aa0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 94081aa7ec4b32797dedaaa2a89dc7221b04bd97
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241552"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989015"
 ---
 # <a name="remove-the-sql-server-database-for-a-monitoring-server"></a>Quitar la base de datos de SQL Server de un servidor de supervisión
 
@@ -24,7 +24,7 @@ Después de quitar un servidor de supervisión, puede quitar las bases de datos 
 
 1. En el servidor front-end de Skype empresarial Server 2019, abra Topology Builder.
     
-2. En el generador de topología, vaya a **componentes** compartidos y, a continuación, a **almacenes de SQL Server**, haga clic con el botón secundario en la instancia de SQL Server asociada al servidor de supervisión eliminado o reconfigurado y, a continuación, haga clic en **eliminar**.
+2. En el generador de topología, vaya a **componentes compartidos** y, a continuación, a **almacenes de SQL Server**, haga clic con el botón secundario en la instancia de SQL Server asociada al servidor de supervisión eliminado o reconfigurado y, a continuación, haga clic en **eliminar**.
     
 3. Publique la topología y, a continuación, compruebe el estado de replicación.
     
@@ -36,7 +36,7 @@ Después de quitar un servidor de supervisión, puede quitar las bases de datos 
     
 3. En la línea de comandos, escriba:
     
-   ```
+   ```PowerShell
    Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
    ```
 
