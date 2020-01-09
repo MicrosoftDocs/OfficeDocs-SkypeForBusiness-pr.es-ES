@@ -11,12 +11,12 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0eff2c1dd75258451002a41e0f284c4ad05c9728
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9d234d959f434e9e2b96850add488ecd4eac952c
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235060"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991715"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -60,15 +60,15 @@ En la topología de ejemplo, las rutas interregións de red deben definirse para
 
 2.  Ejecute el cmdlet **New-CsNetworkInterRegionRoute** para definir las rutas necesarias. Por ejemplo, ejecute lo siguiente:
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
        ```
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
        ```
     
-       ```
+       ```PowerShell
         New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
        ```
     

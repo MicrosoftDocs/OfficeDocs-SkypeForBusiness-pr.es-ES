@@ -10,12 +10,12 @@ ms:contentKeyID: 48183428
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22923d0227c75ee6f2055d4a2ac350a6df6b37bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7e10f9d52d9e4090601330cad44d5da03e69540
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850278"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991635"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,11 +53,11 @@ El cmdlet Update-CsAddressBook reemplaza el comando ABserver **. exe – syncNow
 
 Por ejemplo:
 
-   ```
+   ```PowerShell
     Update-CsAddressBook
    ```
 
-   ```
+   ```PowerShell
     Update-CsAddressBook -Fqdn atl-abs-001.contoso.com
    ```
 

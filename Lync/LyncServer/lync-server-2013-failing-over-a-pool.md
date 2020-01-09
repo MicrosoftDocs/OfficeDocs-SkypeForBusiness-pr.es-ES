@@ -10,12 +10,12 @@ ms:contentKeyID: 48183432
 ms.date: 10/10/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 512d7bc09d40d7b99cc66970cdd2a5584030fea9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7c269ed7e870fa7087465b64b9773d8f5d2df9e1
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835183"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989155"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -109,7 +109,7 @@ Además, si se produce un error en un grupo de servidores front-end pero el grup
     
       - En primer lugar, ejecute el siguiente comando:
         
-        ``` 
+        ```PowerShell 
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     

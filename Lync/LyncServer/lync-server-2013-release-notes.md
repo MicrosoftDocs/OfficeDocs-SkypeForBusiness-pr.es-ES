@@ -10,12 +10,12 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a93fabf10355dcc4ba7873921c0aaf35475927c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf5eadb591b7e198ee75ff197b3836673ae0ecc3
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824039"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992387"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +57,7 @@ Este documento contiene las secciones siguientes:
 
   - Telefonía IP empresarial
 
-  - Presencia
+  - Presence
 
   - Aplicación de grupo de respuesta y aplicación de estacionamiento de llamadas
 
@@ -107,7 +107,7 @@ El servicio de almacenamiento de Lync Server usa Windows fabric para la replicac
 
 **Solución alternativa**
 
-Para solucionar este problema, si se generan los eventos\_LYSS\_dB\_Space\_use error (ID = 32058) y\_LYSS\_dB\_Space\_use Critical (ID = 32059) en el registro de eventos, los administradores deben comprobar la contador de rendimiento en el servidor front-end en **LS: LYSS-API de servicio de almacenamiento** con el nombre **LYSS-número actual de elementos de cola obsoletos del servicio de almacenamiento**. Si este contador de rendimiento tiene un valor alto (por ejemplo, mayor que 50000), el administrador debe ejecutar la herramienta CleanuUpStorageServiceData. exe del kit de recursos de Lync Server 2013, que eliminará todos los datos huérfanos del grupo. Para obtener más información sobre la herramienta, consulte la documentación del kit de recursos de Lync Server 2013.
+Para evitar este problema, si se generan los eventos\_LYSS\_dB\_Space\_use error (ID = 32058) y\_LYSS\_dB\_Space\_use Critical (ID = 32059) en el registro de eventos, los administradores deben comprobar el contador de rendimiento en el servidor front-end en **LS: LYSS, API de servicio de almacenamiento** con el nombre **LYSS-número actual de elementos de cola obsoletos del servicio de almacenamiento**. Si este contador de rendimiento tiene un valor alto (por ejemplo, mayor que 50000), el administrador debe ejecutar la herramienta CleanuUpStorageServiceData. exe del kit de recursos de Lync Server 2013, que eliminará todos los datos huérfanos del grupo. Para obtener más información sobre la herramienta, consulte la documentación del kit de recursos de Lync Server 2013.
 
 </div>
 
@@ -123,11 +123,11 @@ Cuando se cambia la configuración de la dirección IP en una implementación de
 
 Para solucionar este problema, reinicie los servicios de Lync Server después de cambiar la configuración de la dirección IP de la implementación. Para ello, ejecute los siguientes cmdlets en el shell de administración de Lync Server:
 
-   ```
+   ```PowerShell
     Stop-CsWindowsService -graceful
    ```
 
-   ```
+   ```PowerShell
     Start-CsWindowsService
    ```
 
@@ -449,11 +449,11 @@ Para solucionar este problema, actualice el registro del sistema antes de instal
 
 1.  Inicie Windows PowerShell y ejecute los siguientes cmdlets:
     
-       ```
+       ```PowerShell
         New-PSDrive -Name HKU -PSProvider Registry -Root HKEY_USERS
        ```
     
-       ```
+       ```PowerShell
         $a="HKU:\.Default\Control Panel\International"
        ```
 
@@ -731,7 +731,7 @@ Para evitar este problema, los usuarios que no tengan habilitada la telefonía I
 
 <div>
 
-## <a name="presence"></a>Presencia
+## <a name="presence"></a>Presence
 
 <div>
 
@@ -949,7 +949,7 @@ No hay ninguna solución para estos problemas. Para obtener más información so
 
 **Vulnerabilidad**
 
-Después de completar el diseño con la herramienta de planeación, si realiza cambios en las opciones de red perimetral, se pueden agregar direcciones IP adicionales al diseño en lugar de actualizar las direcciones IP existentes. Esto puede ocurrir si está viendo los detalles del diagrama de red perimetral, seleccione **haga clic aquí para actualizar las opciones**y, a continuación, en el cuadro de diálogo Opciones de configuración, seleccione red perimetral, seleccione **deseo usar los mismos FQDN y direcciones IP, pero puertos diferentes para los servicios perimetrales en mi servidor perimetral**. Aplicar los cambios puede dar lugar a que se agreguen nuevas direcciones IP y servidores perimetrales al diseño.
+Después de completar el diseño con la herramienta de planeación, si realiza cambios en las opciones de red perimetral, se pueden agregar direcciones IP adicionales al diseño en lugar de actualizar las direcciones IP existentes. Esto puede ocurrir si está viendo los detalles del diagrama de red perimetral, seleccione **haga clic aquí para actualizar las opciones**y, a continuación, en el cuadro de diálogo Opciones de configuración, seleccione red perimetral, seleccione **deseo usar los mismos FQDN y direcciones IP, pero distintos puertos para los servicios perimetrales de mi servidor perimetral**. Aplicar los cambios puede dar lugar a que se agreguen nuevas direcciones IP y servidores perimetrales al diseño.
 
 **Solución alternativa**
 
@@ -963,13 +963,13 @@ En este momento no hay ninguna solución para este problema.
 
 **Vulnerabilidad**
 
-Cuando se usa el panel de control de Lync Server para mover todos los usuarios de un grupo a otro en un entorno complejo de Active Directory, como uno con varios controladores de dominio y dominios primarios y secundarios, se puede devolver un mensaje de error que indica "el usuario especificado es no es un usuario heredado, usa el cmdlet Move-CsUser en su lugar. " Este es el resultado de tiempos de replicación más largos en entornos complejos de Active Directory.
+Cuando se usa el panel de control de Lync Server para mover todos los usuarios de un grupo a otro en un entorno complejo de Active Directory, como uno con varios controladores de dominio y dominios primarios y secundarios, se puede devolver un mensaje de error que indica que "el usuario especificado no es un usuario heredado, use en su lugar el cmdlet Move-CsUser". Este es el resultado de tiempos de replicación más largos en entornos complejos de Active Directory.
 
 **Solución alternativa**
 
 Para solucionar este problema, realice una de las siguientes acciones:
 
-  - Use filtros en el panel de control de Lync Server para buscar usuarios heredados, selecciónelos y, a continuación, use el **comando mover usuarios seleccionados a** la agrupación en lugar de **mover todos los usuarios al grupo**.
+  - Use filtros en el panel de control de Lync Server para buscar usuarios heredados, selecciónelos y, a continuación, use el **comando mover usuarios seleccionados a la agrupación** en lugar de **mover todos los usuarios al grupo**.
 
   - Use el shell de administración de Lync Server para mover usuarios heredados en lotes mediante el uso de cmdlets de Lync Server.
 
@@ -1003,7 +1003,7 @@ Para solucionar este problema, realice una de las siguientes acciones:
 
 **Vulnerabilidad**
 
-Cuando un administrador deshabilita una base de datos de reflejo en el generador de topología y, a continuación, elimina la base de datos de reflejo en el generador de topología, se muestra un mensaje en la lista de tareas pendientes para que el administrador ejecute el cmdlet **Uninstall-csMirrorDatabase** para quitar reflejo de SQL Server. Cuando el administrador intenta ejecutar el cmdlet, se produce un error.
+Cuando un administrador deshabilita una base de datos de reflejo en el generador de topología y, a continuación, elimina la base de datos de reflejo en el generador de topología, se muestra un mensaje en la lista de tareas pendientes para que el administrador ejecute el cmdlet **Uninstall-csMirrorDatabase** para quitar el reflejo de SQL Server. Cuando el administrador intenta ejecutar el cmdlet, se produce un error.
 
 **Solución alternativa**
 
@@ -1041,7 +1041,7 @@ El parámetro *DropExistingDatabasesOnMirror* hace que las bases de datos afecta
 
 **Vulnerabilidad**
 
-Si un administrador intenta usar el comando **quitar implementación** del generador de topología para quitar una implementación que incluye un grupo de servidores front-end con un almacén testigo asociado, se muestra un error de validación en el generador de topologías y la acción no se realizará .
+Si un administrador intenta usar el comando **quitar implementación** del generador de topología para quitar una implementación que incluye un grupo de servidores front-end con un almacén testigo asociado, se muestra un error de validación en el generador de topologías y la acción no continuará.
 
 **Solución alternativa**
 
@@ -1181,7 +1181,7 @@ Los siguientes caracteres y configuraciones regionales no se pueden indizar:
 
 **Vulnerabilidad**
 
-Al seleccionar una configuración regional neutra en un explorador Web (en Internet Explorer, por ejemplo, el nombre del idioma sin especificación adicional, como " \[noruego\], Bokmål") en lugar de una configuración regional que especifique el idioma, la secuencia de comandos y la configuración regional (como "noruego, Bokmål ( Noruega) \[NB no\]") podría provocar un comportamiento de visualización inesperado para algunos idiomas en el programador web de Lync, acceso telefónico, iniciador de unirse, administración de salones de chat persistente y OCTab. Por ejemplo, es posible que los usuarios vean la página en inglés cuando se selecciona uno de los siguientes idiomas:
+Al seleccionar una configuración regional neutra en un explorador Web (en Internet Explorer), por ejemplo, el nombre del idioma sin especificación adicional, como \["\]noruego no") en lugar de una configuración regional que especifique el idioma, la secuencia de comandos y la configuración regional (como " \[noruego, BOKMÅL\](Noruega) NB-no") podría provocar un comportamiento de visualización inesperado para algunos idiomas de Lync web Scheduler, acceso telefónico, iniciador de chat, administración de salones de chat Por ejemplo, es posible que los usuarios vean la página en inglés cuando se selecciona uno de los siguientes idiomas:
 
   - Noruego
 

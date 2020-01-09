@@ -10,12 +10,12 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cda79f7b80d6f1bbdf2163ecf987f4a05949bfc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bad6bf4e2b09296e21aec75e206ba867415754a
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850645"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40992055"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -109,11 +109,11 @@ Para implementar el proxy XMPP en el servidor perimetral, debe configurar el ser
 
 22. Después de recibir, importar y asignar el certificado público, debe detener y reiniciar los servicios del servidor perimetral. Esto se hace escribiendo en la consola de administración de Lync Server:
     
-       ```
+       ```PowerShell
         Stop-CsWindowsService
        ```
     
-       ```
+       ```PowerShell
         Start-CsWindowsService
        ```
 
@@ -130,39 +130,39 @@ Para implementar el proxy XMPP en el servidor perimetral, debe configurar el ser
 
 24. Configure una nueva Directiva de acceso externo para habilitar a todos los usuarios abriendo el shell de administración de Lync Server en el front-end y escribiendo lo siguiente:
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
        ```
     
-       ```
+       ```PowerShell
         Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
        ```
     
     Habilite el acceso XMPP para los usuarios externos escribiendo:
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
        ```
     
-       ```
+       ```PowerShell
         Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
        ```
 
 25. En el servidor perimetral donde se implementa el proxy XMPP, abra un símbolo del sistema o una interfaz de línea de comandos de Windows PowerShell™ y escriba lo siguiente:
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 5269
        ```
     
-       ```
+       ```PowerShell
         Netstat -ano | findstr 23456
        ```
     
-    El comando **netstat – ano** es un comando de estadísticas de red, la solicitud de parámetros **– ano** que muestra que netstat muestra todas las conexiones y los puertos de escucha, la dirección y los puertos se muestran en un formato numérico, y que el identificador de proceso propietario está asociado con cada conexión. El carácter **|** define una canalización para el siguiente comando, **Findstr**o Find String. El número 5269 y 23456 que se pasa a Findstr como parámetro indica a Findstr que busque en la salida de netstat las cadenas 5269 y 23456. Si XMPP está configurado correctamente, el resultado de los comandos debe dar como resultado conexiones y conexiones establecidas, tanto en la interfaz externa (puerto 5269) como en la interfaz interna (puerto 23456) del servidor perimetral.
+    El comando **netstat – ano** es un comando de estadísticas de red, los parámetros **– ano** solicitar que netstat muestre todas las conexiones y los puertos de escucha, la dirección y los puertos se muestran en un formato numérico, y que el identificador del proceso propietario está asociado con cada conexión. El carácter **|** define una canalización para el siguiente comando, **Findstr**o Find String. El número 5269 y 23456 que se pasa a Findstr como parámetro indica a Findstr que busque en la salida de netstat las cadenas 5269 y 23456. Si XMPP está configurado correctamente, el resultado de los comandos debe dar como resultado conexiones y conexiones establecidas, tanto en la interfaz externa (puerto 5269) como en la interfaz interna (puerto 23456) del servidor perimetral.
     
     Si los comandos no devuelven puertos establecidos o que atienden en 5269 y 23456, compruebe lo siguiente:
 

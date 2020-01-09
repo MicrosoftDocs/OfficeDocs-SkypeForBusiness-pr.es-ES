@@ -10,12 +10,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 410fd1fe521bd8d4750b290a54db26adb630a8be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6172c526816a3572d6c364b714d5d4e7e5323cac
+ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826664"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40991375"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,15 +53,15 @@ Antes de empezar a mover usuarios a Lync Online, es posible que desee mover unos
 
 Para mover un usuario local a su inquilino de Lync Online, ejecute los siguientes cmdlets en el shell de administración de Lync Server, con las credenciales de administrador para su inquilino de Microsoft Office 365. Sustituya “username@contoso.com” por la información del usuario que quiera mover.
 
-   ```
+   ```PowerShell
     $creds=Get-Credential
    ```
 
-   ```
+   ```PowerShell
     Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $creds -HostedMigrationOverrideUrl <URL>
    ```
 
-El formato de la dirección URL especificada para el parámetro **HostedMigrationOverrideUrl** debe ser la dirección URL del grupo en el que se está ejecutando el servicio de migración hospedada,\<en el\>siguiente formato: https://Pool FQDN/HostedMigration/ hostedmigrationService. SVC.
+El formato de la dirección URL especificada para el parámetro **HostedMigrationOverrideUrl** debe ser la dirección URL del grupo en el que se está ejecutando el servicio de migración hospedada,\<en el\>siguiente formato: https://Pool FQDN/HostedMigration/hostedmigrationService.SVC.
 
 Para determinar la dirección URL al servicio de migración hospedado, vea la dirección URL del Panel de control de Lync Online para la cuenta del inquilino de Office 365.
 
