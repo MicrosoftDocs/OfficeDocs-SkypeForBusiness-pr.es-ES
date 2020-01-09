@@ -102,7 +102,7 @@
 #### [Compatibilidad con Office](../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
 #### [Resoluciones de vídeo](../plan-your-deployment/clients-and-devices/video-resolutions.md)
 #### [Clientes de reuniones](../plan-your-deployment/clients-and-devices/meetings-clients.md)
-##### [Skype Meetings App minimum network requirements](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md) (Requisitos de red mínimos de la aplicación Reuniones de Skype)
+##### [Requisitos de red mínimos de la aplicación Reuniones de Skype](../plan-your-deployment/clients-and-devices/minimum-network-requirements.md)
 #### [Requisitos para Windows Phone](../plan-your-deployment/clients-and-devices/requirements-for-windows-phone.md)
 #### [Entornos de VDI](../plan-your-deployment/clients-and-devices/vdi-environments.md)
 ### [Alta disponibilidad y recuperación ante desastres](../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
