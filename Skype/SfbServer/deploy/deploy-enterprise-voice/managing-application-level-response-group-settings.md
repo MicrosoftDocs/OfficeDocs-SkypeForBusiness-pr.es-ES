@@ -14,50 +14,50 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Administración de la configuración de grupo de respuesta de nivel de aplicación, como la configuración de música en espera y timbre, en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: d39569c380abcc22993f7d87fc27143f355e7084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c5964d84e5fb84bf1c20c3e43bb0cc4aa25ae17
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240293"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001280"
 ---
-# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a><span data-ttu-id="faecd-103">Administración de la configuración de grupo de respuesta de nivel de aplicación en Skype empresarial</span><span class="sxs-lookup"><span data-stu-id="faecd-103">Managing application-level Response Group settings in Skype for Business</span></span>
+# <a name="managing-application-level-response-group-settings-in-skype-for-business"></a><span data-ttu-id="2f26b-103">Administración de la configuración de grupo de respuesta de nivel de aplicación en Skype empresarial</span><span class="sxs-lookup"><span data-stu-id="2f26b-103">Managing application-level Response Group settings in Skype for Business</span></span>
  
-<span data-ttu-id="faecd-104">Administración de la configuración de grupo de respuesta de nivel de aplicación, como la configuración de música en espera y timbre, en Skype empresarial Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="faecd-104">Managing application-level Response Group settings, such as music-on-hold and ringback settings, in Skype for Business Server Enterprise Voice.</span></span>
+<span data-ttu-id="2f26b-104">Administración de la configuración de grupo de respuesta de nivel de aplicación, como la configuración de música en espera y timbre, en Skype empresarial Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="2f26b-104">Managing application-level Response Group settings, such as music-on-hold and ringback settings, in Skype for Business Server Enterprise Voice.</span></span>
   
-<span data-ttu-id="faecd-105">La configuración de nivel de aplicación para la aplicación de grupo de respuesta incluye la configuración predeterminada de música en espera, el archivo de audio de música activada predeterminada, el período de gracia de timbre de agente y la configuración de contexto de llamada.</span><span class="sxs-lookup"><span data-stu-id="faecd-105">Application-level settings for Response Group application include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span> <span data-ttu-id="faecd-106">Solo puede definir un conjunto de opciones de configuración de la aplicación por grupo.</span><span class="sxs-lookup"><span data-stu-id="faecd-106">You can define only one set of application-level settings per pool.</span></span> <span data-ttu-id="faecd-107">Para ver la configuración de la aplicación, use el cmdlet **Get-CsRgsConfiguration**.</span><span class="sxs-lookup"><span data-stu-id="faecd-107">To view application-level settings, use the **Get-CsRgsConfiguration** cmdlet.</span></span> <span data-ttu-id="faecd-108">Para modificar la configuración de la aplicación, use el cmdlet **Set-CsRgsConfiguration**.</span><span class="sxs-lookup"><span data-stu-id="faecd-108">To modify the application-level settings, use the **Set-CsRgsConfiguration** cmdlet.</span></span>
+<span data-ttu-id="2f26b-105">La configuración de nivel de aplicación para la aplicación de grupo de respuesta incluye la configuración predeterminada de música en espera, el archivo de audio de música activada predeterminada, el período de gracia de timbre de agente y la configuración de contexto de llamada.</span><span class="sxs-lookup"><span data-stu-id="2f26b-105">Application-level settings for Response Group application include the default music-on-hold configuration, the default music-on-hold audio file, the agent ringback grace period, and the call context configuration.</span></span> <span data-ttu-id="2f26b-106">Solo puede definir un conjunto de opciones de configuración de la aplicación por grupo.</span><span class="sxs-lookup"><span data-stu-id="2f26b-106">You can define only one set of application-level settings per pool.</span></span> <span data-ttu-id="2f26b-107">Para ver la configuración de la aplicación, use el cmdlet **Get-CsRgsConfiguration**.</span><span class="sxs-lookup"><span data-stu-id="2f26b-107">To view application-level settings, use the **Get-CsRgsConfiguration** cmdlet.</span></span> <span data-ttu-id="2f26b-108">Para modificar la configuración de la aplicación, use el cmdlet **Set-CsRgsConfiguration**.</span><span class="sxs-lookup"><span data-stu-id="2f26b-108">To modify the application-level settings, use the **Set-CsRgsConfiguration** cmdlet.</span></span>
   
-<span data-ttu-id="faecd-p102">La música en espera predeterminada se reproduce cuando se pone una llamada en espera solo si no se definió ninguna música en espera personalizada. El contexto de llamada está disponible solo para las colas asignadas a flujos de trabajo interactivos. Si se habilitó el contexto de llamada, un agente puede ver información como tiempo de espera del autor de la llamada, o preguntas y respuestas del flujo de trabajo, cuando se recibe la llamada.</span><span class="sxs-lookup"><span data-stu-id="faecd-p102">The default music on hold is played when a call is placed on hold only if no custom music on hold is defined. Call context is available only for queues assigned to interactive workflows. If call context is enabled, an agent can see information such as caller wait time or workflow questions and answers when the call is received.</span></span>
+<span data-ttu-id="2f26b-p102">La música en espera predeterminada se reproduce cuando se pone una llamada en espera solo si no se definió ninguna música en espera personalizada. El contexto de llamada está disponible solo para las colas asignadas a flujos de trabajo interactivos. Si se habilitó el contexto de llamada, un agente puede ver información como tiempo de espera del autor de la llamada, o preguntas y respuestas del flujo de trabajo, cuando se recibe la llamada.</span><span class="sxs-lookup"><span data-stu-id="2f26b-p102">The default music on hold is played when a call is placed on hold only if no custom music on hold is defined. Call context is available only for queues assigned to interactive workflows. If call context is enabled, an agent can see information such as caller wait time or workflow questions and answers when the call is received.</span></span>
   
-### <a name="to-modify-response-group-application-level-settings"></a><span data-ttu-id="faecd-112">Para modificar la configuración del nivel de aplicación de un grupo de respuesta</span><span class="sxs-lookup"><span data-stu-id="faecd-112">To modify Response Group application-level settings</span></span>
+### <a name="to-modify-response-group-application-level-settings"></a><span data-ttu-id="2f26b-112">Para modificar la configuración del nivel de aplicación de un grupo de respuesta</span><span class="sxs-lookup"><span data-stu-id="2f26b-112">To modify Response Group application-level settings</span></span>
 
-1. <span data-ttu-id="faecd-113">Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="faecd-113">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
+1. <span data-ttu-id="2f26b-113">Inicie sesión como miembro del grupo RTCUniversalServerAdmins o como miembro de uno de los roles administrativos predefinidos que admiten el Grupo de respuesta.</span><span class="sxs-lookup"><span data-stu-id="2f26b-113">Log on as a member of the RTCUniversalServerAdmins group, or as a member of one of the predefined administrative roles that support Response Group.</span></span>
     
-2. <span data-ttu-id="faecd-114">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="faecd-114">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="2f26b-114">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="2f26b-114">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="faecd-115">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="faecd-115">At the command line, run:</span></span>
+3. <span data-ttu-id="2f26b-115">En la línea de comandos, ejecute:</span><span class="sxs-lookup"><span data-stu-id="2f26b-115">At the command line, run:</span></span>
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity <name of service hosting Response Group> [-AgentRingbackGracePeriod <# seconds until call returns to agent after declined>] [-DefaultMusicOnHoldFile <audio file>] [-DisableCallContext <$true | $false>]
    ```
 
-    <span data-ttu-id="faecd-116">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="faecd-116">For example:</span></span>
+    <span data-ttu-id="2f26b-116">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="2f26b-116">For example:</span></span>
     
-   ```
+   ```powershell
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -AgentRingbackGracePeriod 30 -DisableCallContext $false
    ```
 
-    <span data-ttu-id="faecd-p103">Para especificar un archivo de audio para usar como música en espera predeterminada, debe importar primero el archivo de audio. Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="faecd-p103">To specify an audio file to use as the default music on hold, you need to import the audio file first. For example:</span></span>
+    <span data-ttu-id="2f26b-p103">Para especificar un archivo de audio para usar como música en espera predeterminada, debe importar primero el archivo de audio. Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="2f26b-p103">To specify an audio file to use as the default music on hold, you need to import the audio file first. For example:</span></span>
     
-   ```
+   ```powershell
    $x = Import-CsRgsAudioFile -Identity "service:ApplicationServer:redmond.contoso.com" -FileName "MusicWhileYouWait.wav" -Content (Get-Content C:\Media\ MusicWhileYouWait.wav -Encoding byte -ReadCount 0)
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```
 
-## <a name="see-also"></a><span data-ttu-id="faecd-119">Vea también</span><span class="sxs-lookup"><span data-stu-id="faecd-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2f26b-119">Vea también</span><span class="sxs-lookup"><span data-stu-id="2f26b-119">See also</span></span>
 
-[<span data-ttu-id="faecd-120">Get-CsRgsConfiguration</span><span class="sxs-lookup"><span data-stu-id="faecd-120">Get-CsRgsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
+[<span data-ttu-id="2f26b-120">Get-CsRgsConfiguration</span><span class="sxs-lookup"><span data-stu-id="2f26b-120">Get-CsRgsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   
-[<span data-ttu-id="faecd-121">Set-CsRgsConfiguration</span><span class="sxs-lookup"><span data-stu-id="faecd-121">Set-CsRgsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
+[<span data-ttu-id="2f26b-121">Set-CsRgsConfiguration</span><span class="sxs-lookup"><span data-stu-id="2f26b-121">Set-CsRgsConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/set-csrgsconfiguration?view=skype-ps)
   
-[<span data-ttu-id="faecd-122">Importar-CsRgsAudioFile</span><span class="sxs-lookup"><span data-stu-id="faecd-122">Import-CsRgsAudioFile</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
+[<span data-ttu-id="2f26b-122">Importar-CsRgsAudioFile</span><span class="sxs-lookup"><span data-stu-id="2f26b-122">Import-CsRgsAudioFile</span></span>](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps)
