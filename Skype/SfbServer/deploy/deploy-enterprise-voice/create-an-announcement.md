@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Cree o elimine anuncios de la aplicación de anuncios en Skype empresarial Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: b9f745a4b3b5a85548cc52cc1e883159a01ec1df
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 50a55908e238dfc1e3ce3d9979d554c7115576a2
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233570"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001200"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Crear o eliminar un anuncio en Skype empresarial Server
 
@@ -56,13 +56,13 @@ Para crear un anuncio, debe seguir estos pasos:
 
 4. Para mensajes de audio, ejecute:
 
-   ```
+   ```powershell
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
 5. Ejecute:
 
-   ```
+   ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
@@ -70,7 +70,7 @@ Para crear un anuncio, debe seguir estos pasos:
 
     Por ejemplo, para especificar un mensaje de audio:
 
-   ```
+   ```powershell
    $a = Get-Content ".\PromptFile.wav" -ReadCount 0 -Encoding Byte
    Import-CsAnnouncementFile -Parent service:ApplicationServer:pool0@contoso.com -FileName "ChangedNumberMessage.wav" -Content $a
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Number Changed Announcement" -AudioFilePrompt "ChangedNumberMessage.wav"
@@ -78,7 +78,7 @@ Para crear un anuncio, debe seguir estos pasos:
 
     Por ejemplo, para especificar un mensaje TTS:
 
-   ```
+   ```powershell
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
@@ -94,19 +94,19 @@ Para crear un anuncio, debe seguir estos pasos:
 
 3. Muestre todos los anuncios de su organización. En la línea de comandos, ejecute:
 
-   ```
+   ```powershell
    Get-CsAnnouncement
    ```
 
 4. En la lista resultante, busque el anuncio que desea eliminar y copie el GUID. A continuación, en la línea de comandos, ejecute:
 
-   ```
+   ```powershell
    Remove-CsAnnouncement -Identity "<Service:service ID/guid>"
    ```
 
     Por ejemplo:
 
-   ```
+   ```powershell
    Remove-CsAnnouncement -Identity "ApplicationServer:Redmond.contoso.com/1951f734-c80f-4fb2-965d-51807c792b90"
    ```
 

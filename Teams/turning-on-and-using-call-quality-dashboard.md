@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulta cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas. '
-ms.openlocfilehash: 8d6e97ea5454b8e933424c2e8db595a5af7ac8c8
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972491"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41005206"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -35,11 +35,13 @@ Aprenda a configurar su organización de Office 365 para usar el panel de calida
   
 El panel de calidad de llamadas (CQD) proporciona una perspectiva de la calidad de las llamadas hechas con Microsoft Teams y los servicios de Skype empresarial online. En este tema se describen los pasos para empezar a recopilar datos que puede usar para solucionar problemas de calidad de la llamada.
 
-Actualmente, la versión 3 del CQD y la versión 2 del CQD están disponibles para su uso. El CQD V3 está disponible <span>https://cqd.teams.microsoft.com</span>en. Inicie sesión con las credenciales de administrador de Microsoft Teams.
+Actualmente, el CQD y el CQD de avanzada están disponibles para su uso. El CQD avanzado está disponible <span>https://cqd.teams.microsoft.com</span>en. Nueva dirección URL, pero el mismo inicio de sesión con las credenciales de administrador.
 
 ## <a name="latest-changes-and-updates"></a>Últimos cambios y actualizaciones
 
-La versión 3 del CQD ofrece un panel de CQD en tiempo real (latencia cercana a 30 minutos) y usa la información de identificación del usuario final (EUII), lo que permite a los administradores acercarse al nivel de usuario. También hay interactividad para admitir escenarios nuevos como:
+
+El CQD actualizado (a principios de noviembre de 2019) ofrece un panel de CQD que casi en tiempo real. Los datos del CQD ahora están disponibles en un promedio de 30 minutos (en comparación con el CQD anterior, que es el promedio de 24 horas).  El CQD actualizado usa información de identificación del usuario final (EUII), lo que permite a los administradores explorar en profundidad y acercar el nivel de usuario. También hay interactividad para admitir escenarios nuevos como:
+
 
 - Calidad de la llamada por región:
   - fecha y por región
@@ -176,18 +178,18 @@ Los informes de resumen del CQD proporcionan un subconjunto de las característi
 |Característica|Informes de Resumen|Informes detallados|
 |:--- |:--- |:--- |
 |Métrica de uso compartido de aplicaciones | No | Sí |
-|Soporte de información de creación de clientes | Sí | Sí |
+|Soporte de información de creación de clientes | Sí | Sí  |
 |Asistencia para la información del extremo del cliente | Solo en <span>CQD.Teams.Microsoft.com<span/> | Solo en <span>CQD.Teams.Microsoft.com<span/> |
 |Compatibilidad con análisis detallado   | No   | Sí   |
 |Métricas de confiabilidad de multimedia   | No   | Sí   |
-|Informes listos para su servicio   | Sí   | Sí   |
-|Informes de información general   | Sí   | Sí   |
+|Informes listos para su servicio   | Sí   | Sí    |
+|Informes de información general   | Sí   | Sí    |
 |Conjunto de informes por usuario   | No   | Sí   |
 |Personalización del conjunto de informes (agregar, eliminar, modificar informes)   | No   | Sí   |
 |Métricas de pantalla compartida basada en vídeo   | No   | Sí   |
 |Métricas de video   | No   | Sí   |
 |Cantidad de datos disponibles   | Últimos 6 meses   | Últimos 6 meses   |
-|Datos de Microsoft Teams   | Sí   | Sí   |
+|Datos de Microsoft Teams   | Sí   | Sí    |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>Informes listos para su servicio
@@ -387,11 +389,11 @@ El CQD usa un archivo de datos de extremo. Los valores de columna se usan en el 
 
   **Orden de los campos:**
 
-EndpointName, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
+EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, EndpointLabel2, EndpointLabel3
 
   **Fila de ejemplo:**
 
-`1409W3534, Fabrikam Model 123, Laptop, IT designated 2018 Laptop, Asset Tag 5678, Purchase 2018,`  
+' 1409W3534, fabricante de 123, Fabrikam modelo 123, portátil, TI designado 2018 portátil, etiqueta de activos 5678, compra 2018
 
 ## <a name="create-custom-detailed-reports"></a>Crear informes detallados personalizados
 

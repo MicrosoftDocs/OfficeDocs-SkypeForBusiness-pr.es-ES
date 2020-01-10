@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Obtenga más información sobre cómo instalar y configurar las opciones de ocupado en Skype empresarial Server.
-ms.openlocfilehash: a0fd235d5db645035ac9a6344c233dfe12a78b7b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 45779af0410dcadd1b5fe8e3988905e88acd9213
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240313"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002520"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar y configurar Opciones de disponibilidad para Skype Empresarial Server
 
@@ -50,7 +50,7 @@ El instalador implementará la última versión de la aplicación Opciones de di
 
 1. Ejecute el cmdlet [set-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/set-csvoicepolicy?view=skype-ps) para habilitar globalmente las opciones de ocupado, como se muestra en el siguiente ejemplo:
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableBusyOptions $true
    ```
 
@@ -58,25 +58,25 @@ El instalador implementará la última versión de la aplicación Opciones de di
 
     En primer lugar, ejecute [Get-CsSite](https://docs.microsoft.com/powershell/module/skype/get-cssite?view=skype-ps) para recuperar el nombre del sitio:
 
-   ```
+   ```powershell
    Get-CsSite
    ```
 
     Use el valor Identity (por ejemplo: site: Redmond1) recuperado de Get-CsSite para recuperar la Directiva de voz del sitio de la siguiente manera:
 
-   ```
+   ```powershell
    Get-CsVoicePolicy -Identity Site:Redmond1
    ```
 
     Si existe una directiva de voz para el sitio, ejecute el siguiente comando:
 
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity Site:Redmond1 -EnableBusyOptions $true
    ```
 
 3. A continuación, ejecute el cmdlet [New-CsServerApplication](https://docs.microsoft.com/powershell/module/skype/new-csserverapplication?view=skype-ps) para agregar opciones de ocupado a la lista de aplicaciones de servidor, como se muestra en el siguiente ejemplo:
 
-   ```
+   ```powershell
    New-CsServerApplication -Identity 'Service:Registrar:%FQDN%/BusyOptions' -Uri http://www.microsoft.com/LCS/BusyOptions -Critical $False -Enabled $True -Priority (Get-CsServerApplication -Identity 'Service:Registrar:%FQDN%/UserServices').Priority
    ```
 
@@ -85,13 +85,13 @@ El instalador implementará la última versión de la aplicación Opciones de di
 
 4. A continuación, ejecute el cmdlet [Update-CsAdminRole](https://docs.microsoft.com/powershell/module/skype/update-csadminrole?view=skype-ps) para actualizar los roles de control de acceso basado en roles (RBAC) para los cmdlets de opciones de ocupado, tal y como se muestra en el siguiente ejemplo:
 
-   ```
+   ```powershell
    Update-CsAdminRole
    ```
 
 5. Por último, inicie los servicios de Windows de Skype empresarial Server en todos los servidores front-end de todos los grupos donde se instalaron y habilitaron las opciones de ocupado ejecutando el comando [Start-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/start-cswindowsservice?view=skype-ps) :
 
-   ```
+   ```powershell
    Start-CsWindowsService
    ```
 
@@ -101,25 +101,25 @@ Para configurar Opciones de disponibilidad, use el cmdlet [Set-CsBusyOptions](ht
 
 Por ejemplo, el siguiente comando configura Opciones de disponibilidad para el usuario "Ken Myer". En esta configuración, cualquier llamada a "Ken Myer" devolverá una señal de línea ocupada cuando ya esté al teléfono:
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Ken Myer"  -ActionType BusyOnBusy
 ```
 
 En el siguiente ejemplo, el comando configura Opciones de disponibilidad para la usuaria "Chrystal Velasquez". En esta configuración, se enviarán al correo de voz las nuevas llamadas entrantes de "Chrystal Velasquez" cuando ya esté al teléfono:
 
-```
+```powershell
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
 Puede recuperar la información de configuración acerca de Opciones de disponibilidad usando el cmdlet [Get-CsBusyOptions](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx). En el ejemplo siguiente se devuelve la configuración de opciones de ocupado de "KenMyer@Contoso.com":
 
-```
+```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
 ```
 
 Puede quitar Opciones de disponibilidad usando el cmdlet [Remove-CsBusyOptions](https://technet.microsoft.com/library/159e5931-10f1-4226-bcc4-38548f88f0d4.aspx). El siguiente comando quita Opciones de disponibilidad para "Ken Myer":
 
-```
+```powershell
 Remove-CsBusyOptions -Identity "Ken Myer"
 ```
 
@@ -129,7 +129,7 @@ Para obtener información detallada sobre los cmdlets que usa para configurar la
 
 Para habilitar el registro de Opciones de disponibilidad mediante el uso del servicio de registro centralizado, especifique lo siguiente:
 
-```
+```powershell
 $p1 = New-CsClsProvider -Name S4 -Type WPP -Level Info -Flags All
 $p2 = New-CsClsProvider -Name Sipstack -Type WPP -Level Info -Flags
  "TF_PROTOCOL,TF_CONNECTION,TF_SECURITY,TF_DIAG,TF_SHOW_CONFERENCE,TF_SHOW_ALLREQUESTS,TF_SHOW_ALLSIPHEADERS" -Role Registrar

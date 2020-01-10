@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Resumen: Aprenda a crear un recurso compartido de archivos de Windows Server como parte de la instalación de Skype empresarial Server. Descargue una prueba gratuita de Skype empresarial Server en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 3f539d980d2978ee3be5e8249f869aa234493f32
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 47713c0283c5908605abec31913e104963aea2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235245"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001020"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Crear un recurso compartido de archivos en Skype empresarial Server
  
@@ -68,6 +68,7 @@ ADVERTENCIA: no se puede acceder a los permisos\\<domain>\<de uso compartido par
 
 >Esto es lo que se espera si no es un administrador en el servidor de archivos o si se trata de un recurso compartido de sistema de archivos distribuido (DFS). Si los permisos de uso compartido ya se han configurado, esta advertencia se puede ignorar. Si se trata de un nuevo recurso compartido, consulte la documentación para obtener más información sobre cómo configurar manualmente los permisos de uso compartido.
 
->Debido a la incapacidad de acceder a los permisos de uso compartido en un recurso compartido DFS, Skype empresarial Server no podrá establecer grupos de forma explícita en el recurso compartido de archivos. Para garantizar que los componentes de Skype empresarial Server puedan acceder al recurso compartido de archivos con los permisos adecuados, asegúrese de que los siguientes grupos de RTC se agregan con permisos de uso compartido de nivel de cambio además de los administradores locales con permisos de uso compartido total.
-
-RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins
+>Debido a la incapacidad de acceder a los permisos de uso compartido en un recurso compartido DFS, Skype empresarial Server no podrá establecer grupos de forma explícita en el recurso compartido de archivos. Para asegurarse de que los componentes de Skype empresarial Server pueden acceder al recurso compartido de archivos con los permisos adecuados, asegúrese de que los siguientes grupos de RTC se agregan con permisos de uso compartido de nivel de lectura y lectura, además de los administradores locales con el uso compartido de control total permisos.
+* RTCHSUniversalServices
+* RTCComponentUniversalServices
+* RTCUniversalServerAdmins

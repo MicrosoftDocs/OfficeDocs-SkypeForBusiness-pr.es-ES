@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Crear o modificar conjuntos de días festivos de grupos de respuesta en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 617966828e39aae1ffbbfe10a7452d9d40117a84
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9dd9467a40f45d7252e92d9628d8678adbce3184
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240418"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003100"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>Faculta Definir conjuntos de días festivos de grupos de respuesta en Skype empresarial
  
@@ -35,19 +35,19 @@ La configuración de festivos define los días que un grupo de respuesta está c
     
 3. Para cada día festivo que quiera definir, ejecute el comando siguiente:
     
-   ```
+   ```powershell
    $x = New-CsRgsHoliday [-Name <holiday name>] -StartDate <starting date of holiday> -EndDate <ending date of holiday>
    ```
 
     Para crear un conjunto de días festivos que contenga los días definidos, ejecute el comando siguiente:
     
-   ```
+   ```powershell
    New-CsRgsHolidaySet -Parent <service where the workflow is hosted> -Name <unique name for holiday set> -HolidayList <one or more holidays to be included in the holiday set>
    ```
 
     El ejemplo siguiente muestra un conjunto de días festivos que incluye dos períodos de vacaciones:
     
-   ```
+   ```powershell
    $a = New-CsRgsHoliday -Name "New Year's Day" -StartDate "1/1/2018 12:00 AM" -EndDate "1/2/2018 12:00 AM" 
    $b = New-CsRgsHoliday -Name "Independence Day" -StartDate "7/4/2018 12:00 AM" -EndDate "7/5/2018 12:00 AM" 
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)

@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumen: Aprenda a conectar Skype empresarial Server con el consumidor de Skype. También se conoce como conectividad de Skype.'
-ms.openlocfilehash: 4a335d2ec8e20310a34ce1bdfc8f39fe9b1117ee
-ms.sourcegitcommit: b914c044c43ff8147f35eea684fec1de01a7bcd2
+ms.openlocfilehash: 41a183912604c5880dfa46529f9034bc0673288d
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "36464605"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003080"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementar conectividad de Skype en Skype empresarial Server
 
@@ -187,14 +187,14 @@ También puede configurar la Conectividad de Skype solo con PowerShell. Para hac
     
 2. Ejecute estos dos comandos:
     
-   ```
+   ```powershell
     Remove-CsPublicProvider -Identity <identity-name>
    ```
 
     > [!NOTE]
     > Si aún no cuenta con ningún proveedor de PIC en el entorno y está creando un proveedor de PIC, no es necesario ejecutar el cmdlet Remove-CsPublicProvider.  
   
-   ```
+   ```powershell
    New-CsPublicProvider -Identity Skype -ProxyFqdn federation.messenger.msn.com -IconUrl https://images.edge.messenger.live.com/Messenger_16x16.png -NameDecorationRoutingDomain msn.com -NameDecorationExcludedDomainList "msn.com,outlook.com,live.com,hotmail.com" -Enabled $true -EnableSkypeIdRouting $true -EnableSkypeDirectorySearch $true
    ```
 
@@ -210,7 +210,7 @@ También puede configurar la Conectividad de Skype solo con PowerShell. Para hac
      > Si se realizan cambios en el proveedor público, es preciso quitarlo y agregarlo de nuevo. No se permiten cambios locales. 
   
      > [!NOTE]
-     > Agregado en el cliente de escritorio &amp; de lync Server 2013 CU5 en el SP1 de Office 2013, la NameDecorationRoutingDomain y NameDecorationExcludedDomainList mejoran la situación en la que los usuarios de Lync que agregan contactos de Skype necesitan "decorar" Dominios que no son de Microsoft para identificar y enrutarlos a Skype (el formato de: usuario (contoso. com) @msn. com). Esta nueva configuración permitirá el formato automático de la dirección de entrada del usuario en el cuadro de diálogo "agregar contacto de Skype" con el NameDecorationRoutingDomain (que debe establecerse en msn.com) si no contiene los dominios de la NameDecorationExcludedDomainList ( Actualmente podemos admitir msn.com, live.com, Hotmail.com, outlook.com). 
+     > Agregado en el cliente de escritorio &amp; de lync Server 2013 CU5 en el SP1 de Office 2013, la NameDecorationRoutingDomain y NameDecorationExcludedDomainList mejoran la situación en la que los usuarios de Lync agregan contactos de Skype necesitan "decorar" Dominios que no son de Microsoft para identificarlos y enrutarlos a Skype (el formato de: usuario (contoso. com) @msn. com). Esta nueva configuración permitirá el formato automático de la dirección de entrada del usuario en el cuadro de diálogo "agregar contacto de Skype" con el NameDecorationRoutingDomain (que debe establecerse en msn.com) si no contiene los dominios de la NameDecorationExcludedDomainList ( Actualmente podemos admitir msn.com, live.com, Hotmail.com, outlook.com). 
   
 3. Desde un cliente de Skype Empresarial, los usuarios ahora pueden buscar y agregar un usuario de Skype.
     
@@ -231,7 +231,7 @@ La tabla siguiente detalla el estado de la interoperabilidad entre la última ve
   
 |**Cliente**|**Agregar contactos y búsqueda en el directorio de Skype**|**Audio o vídeo de Skype, interoperabilidad de mensajería instantánea**|
 |:-----|:-----|:-----|
-|Skype Empresarial  <br/> |Sí  <br/> |Sí  <br/> |
+|Skype Empresarial  <br/> |Sí  <br/> |Sí   <br/> |
 |Skype Empresarial en Mac  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Desktop 2013  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Web App: local y en línea  <br/> |N/D  <br/> |N/D  <br/> |
@@ -239,7 +239,7 @@ La tabla siguiente detalla el estado de la interoperabilidad entre la última ve
 |Lync Mobile: Android  <br/> |Próximamente  <br/> |Sí  <br/> |
 |Lync Mobile: iOS  <br/> |Próximamente  <br/> |Sí  <br/> |
 |Sistema Lync Room  <br/> |Próximamente  <br/> |Sí  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |Sí  <br/> |Sí  <br/> |
+|Lync Modern App (Win 8.1)  <br/> |Sí  <br/> |Sí   <br/> |
 |Lync Mac 2011  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Desktop 2010  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Phone Edition  <br/> |N/D  <br/> |N/D  <br/> |

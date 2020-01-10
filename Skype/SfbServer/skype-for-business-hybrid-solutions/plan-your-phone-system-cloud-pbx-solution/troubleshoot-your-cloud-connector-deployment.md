@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solucionar problemas de la implementación de la edición en la nube.
-ms.openlocfilehash: 1049ec2f8f3b85c71c7b9203916b79764e9be161
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3edc67d5887c21543e4cbb01a6057a0c657e95e3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286726"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002080"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solución de problemas con la implementación de Cloud Connector
  
@@ -76,11 +76,11 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
     **Solución:** Este problema no se puede resolver automáticamente. No se pueden agregar NICs a las VMs mientras se ejecutan. Cierre y quite estas máquinas virtuales en Hyper-v Manager y, a continuación, ejecute los siguientes cmdlets:
     
-  ```
+  ```powershell
   Uninstall-CcAppliance
   ```
 
-  ```
+  ```powershell
   Install-CcAppliance
   ```
 
@@ -111,7 +111,7 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
     Importe en el servidor perimetral el certificado de CA raíz y todos los certificados de CA intermedia de su certificado externo de forma manual y reinicie el servidor. Después de ver que se hayan iniciado los servicios RTCMRAUTH y RTCSRV en el servidor perimetral, vuelva al servidor host, inicie una consola de PowerShell como administrador y ejecute el siguiente cmdlet para cambiar a la nueva implementación:
     
-  ```
+  ```powershell
   Switch-CcVersion
   ```
 
@@ -123,7 +123,7 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
 1. En el servidor host, inicie una consola de PowerShell como administrador y después ejecute lo siguiente:
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -131,7 +131,7 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
 3. En la consola de PowerShell, ejecute el siguiente cmdlet:
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -145,19 +145,19 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
     **Solución:** Inicie una sesión de PowerShell remoto de inquilino con credenciales de administrador de inquilinos de Skype empresarial y, a continuación, ejecute el siguiente cmdlet para comprobar la configuración de _EnableAutoUpdate_ de su sitio:
     
-  ```
+  ```powershell
   Get-CsHybridPSTNSite
   ```
 
     Si _EnableAutoUpdate_ se establece en **true**, puede pasar por alto este mensaje de advertencia sin riesgos porque el servicio CCEManagement se encargará de descargar e instalar las actualizaciones de Windows tanto para las máquinas virtuales como para el servidor host. Si _EnableAutoUpdate_ se establece en **false**, ejecute el cmdlet siguiente para establecerla en **true**.
     
-  ```
+  ```powershell
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
   ```
 
     Puede también comprobar si existen actualizaciones e instalarlas manualmente. Consulte la siguiente sección.
     
-- **Problema: recibe un mensaje de error: no se puede registrar el dispositivo porque el nombre \<\> de\> usuario \<y\> la \<configuración actuales del siteName \<o ApplianceName o de la dirección IP del servidor de mediación \> conflictos con dispositivos existentes. Quitar el dispositivo de conflicto o actualizar la información de entrada/configuración y vuelva a registrarse. ' cuando se ejecute Register-CcAppliance para registrar el equipo actual en Internet.**
+- **Problema: recibe un mensaje de error: no se puede registrar el dispositivo porque el nombre \<\> de\> usuario \<y\> la \<configuración de la dirección \<\> IP del siteName o ApplianceName de Media Server o del servidor de mediación de su configuración entran en conflicto con los dispositivos existentes. Quitar el dispositivo de conflicto o actualizar la información de entrada/configuración y vuelva a registrarse. ' cuando se ejecute Register-CcAppliance para registrar el equipo actual en Internet.**
     
     **Solución:** Los valores para \<la\>dirección \<\> IP del servidor\> de \<mediación de FQDN y mediación de ApplianceName debe ser único y solo se pueden usar para el registro de un dispositivo. De forma predeterminada \<,\> ApplianceName viene del nombre de host. \<FQDN\> del servidor de \<mediación dirección\> IP del servidor de mediación definida en el archivo ini de configuración.
     
@@ -167,13 +167,13 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
     En segundo lugar, inicie PowerShell remoto de inquilino con sus credenciales de administrador de inquilinos de Skype empresarial y, a continuación, ejecute el siguiente cmdlet para comprobar los dispositivos registrados.
     
-  ```
+  ```powershell
   Get-CsHybridPSTNAppliance
   ```
 
     Después de identificar cualquier conflicto, puede actualizar el archivo CloudConnector.ini con información que coincida con el dispositivo registrado o anular el registro del dispositivo existente para resolver los conflictos.
     
-  ```
+  ```powershell
   Unregister-CsHybridPSTNAppliance -Force
   ```
 
@@ -205,7 +205,7 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
 1. Ejecute el cmdlet Enter-CcUpdate para depurar los servicios y poner el dispositivo en modo de mantenimiento.
    
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
    
@@ -213,7 +213,7 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
     Para las versiones de conector de nube antes 2,0:
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Renew-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -221,7 +221,7 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
 
     O para el conector de nube versión 2,0 y posteriores:
     
-    ```
+    ```powershell
     Reset-CcCACertificate 
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
@@ -229,13 +229,13 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
 3. Si se usa TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde el dispositivo y, a continuación, instale el certificado exportado en las puertas de enlace RTC. Es posible que también se le solicite volver a emitir el certificado en la puerta de enlace.
 
-   ```
+   ```powershell
    Export-CcRootCertificate
    ```
 
 4. Ejecute el cmdlet Exit-CcUpdate para iniciar los servicios y salir del modo de mantenimiento.
 
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 
@@ -246,13 +246,13 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
 1. En el primer dispositivo, ejecute el cmdlet Remove-CcCertificationAuthorityFile para limpiar los archivos de copia de seguridad de \<la\> entidad emisora en el directorio SiteRoot.
 
-     ```
+     ```powershell
      Remove-CcCertificationAuthorityFile
      ```
     
 2. Ejecute el cmdlet Enter-CcUpdate para drenar servicios y poner cada dispositivo en modo de mantenimiento.
 
-     ```
+     ```powershell
      Enter-CcUpdate
      ```
     
@@ -260,7 +260,7 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
      Para las versiones de conector de nube antes 2,0:
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Renew-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -268,7 +268,7 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
 
      O para el conector de nube versión 2,0 y posteriores:
     
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -276,13 +276,13 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
 
 4. En el primer dispositivo, ejecute el cmdlet siguiente para realizar la copia de seguridad de los \<archivos\> de CA en la carpeta SiteRoot.
     
-     ```
+     ```powershell
      Backup-CcCertificationAuthority
      ```
    
 5. En todos los demás dispositivos del mismo sitio, ejecute los siguientes comandos para consumir los archivos de copia de seguridad de la entidad emisora, de modo que todos los dispositivos usen el mismo certificado raíz y, a continuación, solicite certificados nuevos. 
    
-     ```
+     ```powershell
      Reset-CcCACertificate
      Update-CcServerCertificate
      Remove-CcLegacyServerCertificate 
@@ -290,22 +290,22 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
      
 6. Si se usa TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde cualquier dispositivo del sitio y, a continuación, instale el certificado exportado en las puertas de enlace RTC. Es posible que también se le solicite volver a emitir el certificado en la puerta de enlace.
   
-     ```
+     ```powershell
      Export-CcRootCertificate
      ```
      
 7. Ejecute el cmdlet Exit-CcUpdate para iniciar los servicios y salir del modo de mantenimiento. 
 
-     ```
+     ```powershell
      Exit-CcUpdate
      ```
     
     
-- **Problema: recibe el siguiente mensaje de error en el registro del servicio de administración del conector de nube, "C:\Archivos de Files\Skype para Business Cloud Connector Edition\ManagementService\CceManagementService.log": error de CceService: excepción inesperada cuando informar del estado a conectado: System. Management. Automation. CmdletInvocationException: error de inicio de \<sesión para el\>administrador de inquilinos global de usuario. Cree un nuevo objeto de credencial, asegurándose de que ha usado el nombre de usuario y la contraseña correctos. ---\>**
+- **Problema: recibe el siguiente mensaje de error en el registro del servicio de administración del conector de nube, "C:\Archivos de Files\Skype para Business Cloud Connector Edition\ManagementService\CceManagementService.log": error de CceService: excepción inesperada al notificar el estado a en línea: System. Management. \<Automation. CmdletInvocationException\>: error de inicio de sesión para el administrador de inquilinos global de usuario. Cree un nuevo objeto de credencial, asegurándose de que ha usado el nombre de usuario y la contraseña correctos. ---\>**
     
     **Solución:** Las credenciales de administrador de inquilinos globales de Office 365 se han cambiado desde que se registró el equipo del conector en la nube. Para actualizar las credenciales almacenadas de forma local en el dispositivo de conector de nube, ejecute lo siguiente de administrador de PowerShell en el dispositivo de hospedaje:
     
-  ```
+  ```powershell
   Set-CcCredential -AccountType TenantAdmin
   ```
 
@@ -379,7 +379,7 @@ A continuación se muestran algunas soluciones a los problemas más frecuentes:
     
   - Para marcar el dispositivo como implementado correctamente, ejecute Set-CsCceApplianceDeploymentStatus de la siguiente manera:
     
-  ```
+  ```powershell
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
   ```
 
@@ -432,7 +432,7 @@ Para comprobar manualmente si existen actualizaciones, conecte cada servidor hos
     
 2. Quite la instancia de HA con el siguiente cmdlet:
     
-   ```
+   ```powershell
    Enter-CcUpdate
    ```
 
@@ -442,7 +442,7 @@ Para comprobar manualmente si existen actualizaciones, conecte cada servidor hos
     
 4. Vuelva a configurar la instancia en HA con el siguiente cmdlet:
     
-   ```
+   ```powershell
    Exit-CcUpdate
    ```
 

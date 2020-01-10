@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
 description: El cmdlet Update-CcServerCertificate renueva los certificados para Skype empresarial Cloud Connector Edition cuando están cerca de la expiración o ya han expirado.
-ms.openlocfilehash: 34da35e607f8941da9c962386509f8a0b87ec122
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 920770b4ce77e893a7195d1326ea13ac73e0cc70
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286883"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003120"
 ---
 # <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
 El cmdlet Update-CcServerCertificate renueva los certificados para Skype empresarial Cloud Connector Edition cuando están cerca de la expiración o ya han expirado. 
   
-```
+```powershell
 Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 ```
 
@@ -33,7 +33,7 @@ Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 En el siguiente ejemplo se renuevan los certificados del almacén de administración central, el servidor de mediación y el servidor perimetral cuando los certificados están a punto de expirar o ya han expirado:
   
-```
+```powershell
 Update-CcServerCertificate
 ```
 
@@ -41,7 +41,7 @@ Update-CcServerCertificate
 
 En el siguiente ejemplo se renuevan los certificados del servidor de mediación y el servidor perimetral cuando están a punto de expirar o ya han expirado:
   
-```
+```powershell
 Update-CcServerCertificate-Roles @("MS", "Edge")
 ```
 

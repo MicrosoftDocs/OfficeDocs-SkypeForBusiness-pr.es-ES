@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Resumen: Aprenda a crear, publicar y exportar la topología del servidor perimetral en Skype empresarial Server.'
-ms.openlocfilehash: b20877f805cb0357f6038a822962ad6eb9cdd5e1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c625656f1686b6e72be2f0223d6560464bb9e7bc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233910"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001480"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Crear la topología perimetral para Skype empresarial Server
  
@@ -61,7 +61,7 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
     
 3. En el árbol de consola, expanda el sitio en el que va a implementar el servidor perimetral.
     
-4. Haga clic con **** el botón secundario en agrupaciones perimetrales y luego haga clic en **nuevo borde**.
+4. Haga clic con el botón secundario en **agrupaciones perimetrales**y luego haga clic en **nuevo borde**.
     
 5. En la pantalla **definir nuevo borde** , haga clic en **siguiente** .
     
@@ -123,7 +123,7 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
     
 3. En el árbol de consola, expanda el sitio en el que va a implementar el servidor perimetral.
     
-4. Haga clic con **** el botón secundario en agrupaciones perimetrales y luego haga clic en **nuevo borde**.
+4. Haga clic con el botón secundario en **agrupaciones perimetrales**y luego haga clic en **nuevo borde**.
     
 5. En la pantalla **definir nuevo borde** , haga clic en **siguiente** .
     
@@ -191,7 +191,7 @@ Si no está seguro de qué necesita, siga estos pasos antes de empezar, es un bu
     
 3. En el árbol de consola, expanda el sitio en el que va a implementar el servidor perimetral.
     
-4. Haga clic con **** el botón secundario en agrupaciones perimetrales y luego haga clic en **nuevo borde**.
+4. Haga clic con el botón secundario en **agrupaciones perimetrales**y luego haga clic en **nuevo borde**.
     
 5. En la pantalla **definir nuevo borde** , haga clic en **siguiente** .
     
@@ -278,7 +278,7 @@ Para que se implemente correctamente, el Asistente para la implementación de Sk
     
 2. En el **Shell de administración de Skype empresarial Server**, ejecute lo siguiente:
     
-   ```
+   ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>
    ```
 

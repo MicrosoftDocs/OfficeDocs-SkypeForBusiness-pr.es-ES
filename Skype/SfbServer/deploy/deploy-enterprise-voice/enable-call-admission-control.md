@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Habilitar el control de admisión de llamadas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: a1a2259c754af0275e473e6c0d175039450cecf7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e88c0e87f9c920420ce2091ac2d75d04db6ca98f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240498"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002570"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>Habilitar el control de admisión de llamadas en Skype empresarial Server
  
@@ -33,13 +33,13 @@ Después de configurar las opciones de red para la implementación del control d
     
 2. Ejecute el cmdlet Set-CsNetworkConfiguration para habilitar el CAC en su red. Por ejemplo, ejecute lo siguiente:
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
    ```
 
     Si desea deshabilitar el CAC en la red, ejecute lo siguiente:
     
-   ```
+   ```powershell
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 

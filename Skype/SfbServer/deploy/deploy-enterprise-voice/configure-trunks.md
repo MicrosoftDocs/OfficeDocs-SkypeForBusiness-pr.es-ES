@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Resumen: Aprenda a configurar un tronco entre un servidor de mediación y los homólogos de telefonía IP empresarial en Skype empresarial Server.'
-ms.openlocfilehash: 714c712816709e8f2211e752f87d20c8d2067c7b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9bd285f1364d54940afd827858248656a6bb9f00
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233660"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001240"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Configurar troncos en Skype empresarial Server
  
@@ -43,7 +43,7 @@ La funcionalidad de Skype empresarial Server admite varias asociaciones entre pu
     
 Cuando se define un tronco, debe estar asociado con una ruta. Para asociar un tronco a una ruta, defina un nombre simple para el tronco en el generador de topología. Este nombre simple se usa como el nombre del tronco en el panel de control de Skype empresarial Server, donde se pueden asociar los troncos con las rutas. El nombre de tronco simple se usa como el nombre de la puerta de enlace desde el shell de administración de Skype empresarial Server. 
   
-```
+```powershell
 New-CsVoiceRoute -Identity <RouteId> -NumberPattern <String> -PstnUsages @{add="<UsageString>"} -PstnGatewayList @{add="<TrunkSimpleName>"}
 ```
 

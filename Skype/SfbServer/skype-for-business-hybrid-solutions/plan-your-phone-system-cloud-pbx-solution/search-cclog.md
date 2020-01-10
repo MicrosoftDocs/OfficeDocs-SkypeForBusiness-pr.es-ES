@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: El cmdlet Search-CcLog busca los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: 7d1591953004ecf0e0d0a3bfdf2e998e06002325
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c248720931ef1c15d633c51bb6daa6c414631a18
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287044"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003240"
 ---
 # <a name="search-cclog"></a>Search-CcLog
  
 El cmdlet Search-CcLog busca los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo de Skype Empresarial Cloud Connector Edition.
   
-```
+```powershell
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
 ```
 
@@ -33,7 +33,7 @@ Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <str
 
 En el siguiente ejemplo se buscan los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo mediante el nombre de archivo predeterminado:
   
-```
+```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 ```
 
@@ -41,7 +41,7 @@ Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 
 En el siguiente ejemplo se buscan los registros de llamadas entrantes y salientes mediante la ruta y el nombre de un archivo determinado:
   
-```
+```powershell
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
 ```
 

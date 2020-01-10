@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Implementar la herramienta SEFAUtil en Skype empresarial Server.
-ms.openlocfilehash: 1721f4d611a08a3054366e36b0ec9a3ebccf6c78
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e36448652f245d1c81a00cc206b6e8047a8f9d28
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245392"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001890"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implementar la herramienta SEFAUtil en Skype empresarial
  
@@ -43,7 +43,7 @@ Puede ejecutar la herramienta SEFAUtil en cualquier grupo de servidores front-en
     
 3. La herramienta SEFAUtil solo se puede ejecutar en un equipo que forme parte de un grupo de aplicaciones de confianza. Si es necesario, defina un grupo de aplicaciones de confianza para el grupo de servidores front-end en el que tiene previsto ejecutar SEFAUtil. En la línea de comandos, ejecute:
     
-   ```
+   ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
@@ -53,7 +53,7 @@ Puede ejecutar la herramienta SEFAUtil en cualquier grupo de servidores front-en
 
 4. Defina la herramienta SEFAUtil como aplicación de confianza. En la línea de comandos, ejecute:
     
-   ```
+   ```powershell
    New-CsTrustedApplication -ApplicationId sefautil -TrustedApplicationPoolFqdn <Pool FQDN>  -Port 7489
    ```
 
@@ -62,7 +62,7 @@ Puede ejecutar la herramienta SEFAUtil en cualquier grupo de servidores front-en
   
 5. Habilite la topología con los cambios. En la línea de comandos, ejecute:
     
-   ```
+   ```powershell
    Enable-CsTopology
    ```
 
@@ -74,7 +74,7 @@ Puede ejecutar la herramienta SEFAUtil en cualquier grupo de servidores front-en
     
     b. Muestre la configuración de reenvío de llamadas de un usuario. En la línea de comandos, ejecute:
     
-   ```
+   ```console
    SEFAUtil.exe <user SIP address> /server:<Lync Server/Pool FQDN>
    ```
 

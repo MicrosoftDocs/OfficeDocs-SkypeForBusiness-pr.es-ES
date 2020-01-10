@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Resumen: Obtenga información sobre cómo asociar grupos de servidores front-end con un almacén de supervisión usado por Skype empresarial Server.'
-ms.openlocfilehash: 66d51e89a41c5e6ce2608b4fe8ecd1c4af336b6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 17f7cbf7d8725fc3d1c23f161060d9bb386cea19
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239996"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001230"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Asociar una tienda de supervisión con un grupo de servidores front-end en Skype empresarial Server 
 **Resumen:** Obtenga información sobre cómo asociar grupos de servidores front-end con una tienda de supervisión usada por Skype empresarial Server.
@@ -54,7 +54,7 @@ Después de asociar el almacén de supervisión al grupo de servidores front-end
     
 Después de publicar la topología, instale la base de datos de supervisión en el equipo que hospedará el almacén de supervisión. La base de datos de supervisión se puede instalar mediante el shell de administración de Skype empresarial Server y Windows PowerShell. Para instalar la base de datos de forma local (es decir, para instalar la base de datos en el mismo equipo en el que se ejecuta el shell de administración de Skype empresarial Server), inicie el shell de administración en el equipo correspondiente, escriba el siguiente comando y presione ENTRAR:
   
-```
+```powershell
 Install-CsDatabase -LocalDatabases
 ```
 
@@ -64,7 +64,7 @@ Para instalar la base de datos en un equipo remoto (es decir, en un equipo que n
   
 Por ejemplo, este comando instala la base de datos de supervisión en el PC atl-sql-001.litwareinc.com:
   
-```
+```powershell
 Install-CsDatabase -ConfiguredDatabases -SqlServerFqdn atl-sql-001.litwareinc.com
 ```
 

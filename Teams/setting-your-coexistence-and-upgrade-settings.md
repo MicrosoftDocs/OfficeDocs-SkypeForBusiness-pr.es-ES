@@ -15,12 +15,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 674c4c43e1fe99639c6e8bfd9665e1bf0755e1ba
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: e5cc89afb43149f68dfc068492e1d0163e4b0721
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069381"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003320"
 ---
 # <a name="setting-your-coexistence-and-upgrade-settings"></a>Configurar su coexistencia y la configuración de actualización
 
@@ -39,7 +39,7 @@ Puede obtener una mejor comprensión de los tipos de modos que tiene a su dispos
 
 ![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
-1. En el navegación de la izquierda, vaya a la actualización de la **configuración** > de**equipos**de la organización. 
+1. En el [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/), en el navegación de la izquierda, vaya a la actualización de la **configuración** > de**equipos**de la organización. 
 
 2. En la parte superior de la página de **actualización de Teams** , realice los cambios siguientes si así lo hacen.
     - Establecer el modo de **coexistencia** .

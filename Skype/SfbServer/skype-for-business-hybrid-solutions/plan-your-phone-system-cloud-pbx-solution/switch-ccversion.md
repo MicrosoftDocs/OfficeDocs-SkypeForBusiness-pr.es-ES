@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: El cmdlet switch-CcVersion desconecta el equipo que se ejecuta y cambia a un dispositivo de copia de seguridad o recién implementado.
-ms.openlocfilehash: e63c5ea6d74e979f7fc9fe5a4c5eae97a0689e1e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 157d1b677cc6c63d7707c9e1633cd8b6e3ad5927
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286932"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003160"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
 El cmdlet switch-CcVersion desconecta el equipo que se ejecuta y cambia a un dispositivo de copia de seguridad o recién implementado. 
   
-```
+```powershell
 Switch-CcVersion [-Force]
 ```
 
@@ -33,7 +33,7 @@ Switch-CcVersion [-Force]
 
 En el ejemplo siguiente se purgan los servicios del dispositivo en ejecución actual y, a continuación, se cambia a un dispositivo recién implementado o de copia de seguridad:
   
-```
+```powershell
 Switch-CcVersion
 ```
 
@@ -41,7 +41,7 @@ Switch-CcVersion
 
 El ejemplo siguiente drena los servicios del dispositivo en ejecución actual y detiene la fuerza de los servicios si se produce un error al agotar los servicios. El comando cambia entonces a un dispositivo de copia de seguridad o recién implementado:
   
-```
+```powershell
 Switch-CcVersion -Force
 ```
 

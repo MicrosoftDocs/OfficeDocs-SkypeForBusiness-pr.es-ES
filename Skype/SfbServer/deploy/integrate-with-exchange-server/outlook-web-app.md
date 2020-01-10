@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumen: Integre Skype empresarial Server y Outlook Web App.'
-ms.openlocfilehash: b7c279dc41515d9613d8c000ab9e81164a1ccaa6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2aedd3b5e2399ae2487c0bb6da3e468d56567897
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244214"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002880"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar la integración entre Skype empresarial Server local y Outlook Web App
 
@@ -37,7 +37,7 @@ Para integrar Skype empresarial Server local con Exchange Online, debe configura
 
 Con el shell de administración de Skype empresarial Server, configure el servidor perimetral para la Federación ejecutando el cmdlet **set-CSAccessEdgeConfiguration** , con los parámetros que se muestran en el siguiente ejemplo:
 
-```
+```powershell
 Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
 ```
 
@@ -49,7 +49,7 @@ Para obtener detalles sobre el uso del shell de administración de Skype empresa
 
 Con el shell de administración de Skype empresarial Server, configure un proveedor de hospedaje en el servidor perimetral ejecutando el cmdlet **New-CsHostingProvider** , con los parámetros del siguiente ejemplo:
 
-```
+```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
@@ -76,14 +76,14 @@ Los cambios que realice con los cmdlets de las secciones anteriores se aplican a
 
 Para comprobar las actualizaciones de replicación, en un servidor interno de la implementación de Skype empresarial Server, ejecute el siguiente cmdlet:
 
-```
+```powershell
 Get-CsManagementStoreReplicationStatus
 ```
 Compruebe si el valor UpToDate se muestra como verdadero para todas las réplicas.
 
 Para confirmar que se aplicaron los cambios, en el servidor perimetral, ejecute el siguiente cmdlet:
 
-```
+```powershell
 Get-CsHostingProvider -LocalStore
 ```
 Compruebe si la información mostrada coincide con los cambios comprometidos en los pasos anteriores.

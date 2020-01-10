@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Resumen: Obtenga información sobre cómo actualizar Lync Server 2013 a Skype empresarial Server 2015. Descargue una prueba gratuita de Skype empresarial Server 2015 en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: c34cbc7ce1d755f093ac14bc85d78106216c450b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d9ce950ead8b8a3a8857c53d421470a0e647ea23
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237451"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001880"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -49,7 +49,7 @@ La actualización de Lync Server 2013 a Skype empresarial Server 2015 implica la
 
 1. Conéctese al equipo de la topología que no tiene instalado Lync OCSCore o cualquier otro componente de Lync instalado.
     
-2. Desde el disco de instalación de Skype empresarial Server 2015, ejecute **setup. exe** desde **OCS_Volume\Setup\AMD64**. 
+2. Desde el disco de instalación de Skype empresarial Server 2015, ejecute **setup. exe** desde **OCS_Volume \setup\amd64**. 
     
 3. Haga clic en **Instalar**. 
     
@@ -171,7 +171,7 @@ Espere un tiempo para que la topología actualizada se publique en todos los ser
 
 En cada servidor que atiende el grupo que va a actualizar, ejecute el siguiente cmdlet en PowerShell:
   
-```
+```powershell
 Disable-CsComputer -Scorch
 ```
 
@@ -180,11 +180,11 @@ Le recomendamos que use Disable-CsComputer, ya que es posible que tenga que rein
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>Paso 5: Actualizar grupos front-end y servidores de grupos que no son front-end
 
 > [!NOTE]
->  Antes de la actualización, instale todos los requisitos previos necesarios para Skype empresarial Server 2015, que incluyen: > al menos 32 GB de espacio libre antes de intentar una actualización. Además, asegúrese de que la unidad es una unidad local fija, no está conectada por USB o FireWire, está formateada con el sistema de archivos NTFS, no está comprimida y no contiene un archivo de paginación. > PowerShell versión 6.2.9200.0 o posterior. > el último Lync Server 2013 Actualización acumulativa instalada. > SQL Server 2012 SP1 instalado. > se instalan los siguientes KB (se instalan automáticamente si usas Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  Antes de la actualización, instale todos los requisitos previos necesarios para Skype empresarial Server 2015, que incluyen: > al menos 32 GB de espacio libre antes de intentar una actualización. Además, asegúrese de que la unidad es una unidad local fija, no está conectada por USB o FireWire. está formateado con el sistema de archivos NTFS, no está comprimido y no contiene un archivo de página. > PowerShell versión 6.2.9200.0 o posterior. > instalada la última actualización acumulativa de Lync Server 2013. > SQL Server 2012 SP1. > de los siguientes KB (se instala automáticamente si usa Microsoft Update): > Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623) de windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2- [KB2982006](https://support.microsoft.com/kb/2982006)
   
 Use la actualización local en cada servidor para actualizar el grupo de servidores front-end, el grupo perimetral, el servidor de mediación y el grupo de chats persistentes.
   
-1. En cada servidor, ejecute **setup. exe** desde **OCS_Volume\Setup\amd64** en los medios de instalación de Skype empresarial Server 2015.
+1. En cada servidor, ejecute **setup. exe** desde **OCS_Volume \setup\amd64** en los medios de instalación de Skype empresarial Server 2015.
     
 2. Acepte el contrato de licencia y siga las indicaciones para la actualización local.
     
@@ -204,7 +204,7 @@ Cuando la actualización local se complete correctamente, verá el siguiente men
   
 - Después de actualizar todos los servidores en el grupo de servidores front-end, reinicie los servicios con el siguiente comando de PowerShell: 
     
-  ```
+  ```powershell
   Start-CsPool
   ```
 
@@ -213,7 +213,7 @@ Cuando la actualización local se complete correctamente, verá el siguiente men
   
 - En los servidores de los demás grupos, reinicie los servicios con el siguiente comando:
     
-  ```
+  ```powershell
   Start-CsWindowsService
   ```
 
@@ -237,7 +237,7 @@ Si se produce un error en la actualización local, es posible que vea un mensaje
   
 Revise el mensaje completo que aparece en la parte inferior de la pantalla para solucionar el problema. Haga clic en **Ver registros** para obtener más información.
   
-Si se produce un error en la actualización local al **comprobar la preparación** de la actualización o la instalación de los **requisitos previos que faltan**, asegúrese de que el servidor tiene todas las actualizaciones más recientes de Windows Server, Lync Server y SQL Server aplicadas y que todo el software y los roles necesarios son instalar. Para obtener una lista de lo que se requiere, consulte [requisitos del servidor para Skype empresarial server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e [Instale los requisitos previos para skype empresarial Server 2015](install/install-prerequisites.md).
+Si se produce un error en la actualización local al **comprobar la preparación** de la actualización o la instalación de los **requisitos previos que faltan**, asegúrese de que el servidor tiene todas las actualizaciones más recientes de Windows Server, Lync Server y SQL Server aplicadas y de que está instalado el software y los roles necesarios. Para obtener una lista de lo que se requiere, consulte [requisitos del servidor para Skype empresarial server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e [Instale los requisitos previos para skype empresarial Server 2015](install/install-prerequisites.md).
   
 ## <a name="see-also"></a>Vea también
 

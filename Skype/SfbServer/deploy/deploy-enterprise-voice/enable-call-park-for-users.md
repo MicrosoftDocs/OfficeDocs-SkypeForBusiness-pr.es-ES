@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Habilitar a los usuarios para el parque de llamadas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 797b17cb3d9482d9059bedcbbc347c3dd592e478
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c3ad2bcf70c7b175ba372ba2834e56209de9f664
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240378"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002560"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar el parque de llamadas para los usuarios de Skype empresarial
  
@@ -53,13 +53,13 @@ Puede habilitar el parque de llamadas en el ámbito global o en el ámbito del s
     
 3. Ejecute:
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true
    ```
 
     Por ejemplo, para habilitar el parque de llamadas para la Directiva de voz global predeterminada:
     
-   ```
+   ```powershell
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 

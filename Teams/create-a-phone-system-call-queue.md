@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams.
-ms.openlocfilehash: e55028bb3e77291e6ed69069b09d812907fc35fb
-ms.sourcegitcommit: 5a7e273a3636322052e4a48a5a75513cbf5abb84
+ms.openlocfilehash: 95cf9701705950d997e1d200fee117b5f8f9738b
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39212014"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005207"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -36,6 +36,7 @@ Las colas de llamadas en nube pueden proporcionar:
 - Música que se reproduce mientras los usuarios se mantienen a la espera.
 - Redireccionamiento de llamadas a agentes de llamadas en listas de distribución habilitadas para correo electrónico y grupos de seguridad.
 - Establecer distintos parámetros, como el tamaño máximo de la cola, el tiempo de espera y las opciones de administración de llamadas.
+- Buzón de voz compartido para que las personas que llaman dejen un mensaje para una organización.
 
 Asociaría un número de teléfono a una cola de llamadas con una [cuenta de recursos](manage-resource-accounts.md). Una cola de llamadas puede marcarse directamente o tener acceso a la misma mediante una selección en un operador automático.
 
@@ -165,9 +166,11 @@ Puede cargar un archivo de audio (en formato. wav,. mp3 o. WMA).
 
 ### <a name="select-the-call-answering-options"></a>Selecciona las opciones de contestador automático
 
-![Captura de pantalla de las opciones de contestador automático con llamadas numeradas](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Captura de pantalla de las opciones de contestador automático](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
+Para agregar agentes individuales directamente, sin agregarlos a un grupo, haga clic en **Agregar usuarios**. Coloca agentes individuales en el orden en que quieras que reciban la llamada. Puedes añadir hasta 20 agentes individuales (para añadir más de 20, ponerlos en un grupo).
+
+Las llamadas se enrutan primero a los agentes individuales y luego a los agentes en grupos. 
 
 Puede seleccionar hasta 200 agentes de llamadas que pertenecen a cualquiera de las siguientes listas o grupos de correo:
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Crear o modificar un grupo de agentes en el grupo respuesta de Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 09a49acfe1fe86ffa3c1bce3d6ed889c8666a7bc
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a919c1a25f3f4aa5a2d8648d782ea329f1e70d60
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233329"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001690"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Crear o modificar un grupo de agentes en Skype empresarial
  
@@ -72,7 +72,7 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
   
 9. En **Método de enrutamiento**, seleccione el método para las llamadas de enrutamiento a los agentes en el grupo tal como se indica a continuación:
     
-   - Para ofrecer una nueva llamada primero al agente que haya estado inactivo el más largo ( **disponible** o inactivo en Skype para **** empresas), haga clic en tiempo de inactividad más **largo**. 
+   - Para ofrecer una nueva llamada primero al agente que haya estado inactivo el más largo ( **disponible** o **inactivo** en Skype para empresas), haga clic en **tiempo de inactividad más largo**. 
     
    - Para ofrecer una nueva llamada a todos los agentes disponibles al mismo tiempo, haga clic en **En paralelo**. La llamada se envía al primer agente que la acepte.
     
@@ -123,13 +123,13 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
     
 3. Use **New-CsRgsAgentGroup** para crear un grupo de agentes nuevo. Use **Set-CsRgsAgentGroup** para modificar un grupo de agentes existente. En la línea de comandos, ejecute:
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "<agent group name>" -Parent $serviceId [-Description "<agent group description>"] -[AgentAlertTime <# seconds until call is routed to next agent>] [-ParticipationPolicy <Formal | Informal>] [-RoutingMethod <method for routing calls>] [-AgentsByUri("<first agent's SIP address>","<second agent's SIP address>")];
    ```
 
     Por ejemplo:
     
-   ```
+   ```powershell
    New-CsRgsAgentGroup -Name "Help Desk" -Parent "service:ApplicationServer:atl-cs-001.contoso.com"  -Description "Contoso Help Desk" -AgentAlertTime 20 -ParticipationPolicy Formal -RoutingMethod RoundRobin -AgentsByUri("sip:mindy@contoso.com","sip:bob@contoso.com")
    ```
 
@@ -138,7 +138,7 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
   
 4. Confirme que el grupo de agentes se ha creado. Ejecute:
     
-   ```
+   ```powershell
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 

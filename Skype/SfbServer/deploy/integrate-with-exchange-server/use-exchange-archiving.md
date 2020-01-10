@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Resumen: Configure las transcripciones de mensajes instantáneos para Exchange Server 2016 o Exchange Server 2013 y Skype empresarial Server.'
-ms.openlocfilehash: 89aaf4d931bb3aa33358e314a4dd714fd58e8e7a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: f3ada031b6dc2175ff3241b809a6288daf043010
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244156"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003570"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurar Skype empresarial Server para usar el archivado de Exchange Server
 
@@ -48,13 +48,13 @@ El archivado en Skype empresarial Server se administra principalmente mediante l
 
 La propiedad EnableExchangeArchiving es un valor booleano: establezca EnableExchangeArchiving en true ($True) para habilitar el archivado de Exchange o establezca EnableExchangeArchiving en false ($False) para deshabilitar el archivado de Exchange. Por ejemplo, este comando permite el archivado de transcripciones de mensajería instantánea y también permite el archivado de Exchange:
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $True
 ```
 
 Para deshabilitar el archivado de Exchange, use un comando similar al siguiente, que permite el archivado de mensajería instantánea pero deshabilita el archivado en Exchange (es decir, las transcripciones se archivarán en Skype empresarial Server):
 
-```
+```powershell
 Set-CsArchivingConfiguration -Identity "global" -EnableArchiving ImOnly -EnableExchangeArchiving $False
 ```
 
@@ -88,19 +88,19 @@ Una vez que haya habilitado el archivado (y el archivado de Exchange), debe modi
 
 Los valores de estas propiedades están establecidos de forma predeterminada en False, lo que implica que no se archivan las sesiones de comunicaciones ni internas ni externas. Para modificar la directiva global, puede usar el shell de administración de Skype empresarial Server y el cmdlet Set-CsArchivingPolicy. El siguiente comando habilita el archivado de las sesiones de comunicaciones internas y externas:
 
-```
+```powershell
 Set-CsArchivingPolicy -Identity "global" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Otra opción consiste en usar el cmdlet New-CsArchivingPolicy para crear una directiva para el sitio o por usuario. Por ejemplo, este comando permite crear una directiva de archivado específica para un usuario con el nombre RedmondArchivingPolicy:
 
-```
+```powershell
 New-CsArchivingPolicy -Identity "RedmondArchivingPolicy" -ArchiveInternal $True -ArchiveExternal $True
 ```
 
 Si crea una directiva específica para un usuario, necesitará asignar dicha directiva a los usuarios correspondientes. Por ejemplo:
 
-```
+```powershell
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolicy"
 ```
 
@@ -120,13 +120,13 @@ Si Skype empresarial Server y Exchange Server se encuentran en diferentes bosque
 
 Por ejemplo, para configurar una cuenta de usuario de modo que la mensajería instantánea y las transcripciones de conferencias web se archiven siempre a Exchange, puede usar un comando similar al siguiente desde el shell de administración de Skype empresarial Server:
 
-```
+```powershell
 Set-CsUser -Identity "Ken Myer" -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
 Si desea establecer la misma directiva de archivado para un grupo de usuarios (por ejemplo, todos los usuarios hospedados en un Grupo de registradores específico), utilice un comando similar al siguiente:
 
-```
+```powershell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Set-CsUser -ExchangeArchivingPolicy ArchivingToExchange
 ```
 
@@ -134,13 +134,13 @@ Tenga en cuenta que debe usar el shell de administración de Skype empresarial S
 
 Si desea ver una lista de los usuarios a los que se ha asignado una directiva de archivado específica, use un comando similar al siguiente, que devuelve el nombre para mostrar de Active Directory de todos los usuarios para los que se ha establecido la propiedad ExchangeArchivingPolicy como Uninitialized:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -eq "Uninitialized"} | Select-Object DisplayName
 ```
 
 Del mismo modo, este comando devuelve el nombre para mostrar de los usuarios que no tienen la propiedad ExchangeArchivingPolicy establecida como UseLyncArchivingPolicy:
 
-```
+```powershell
 Get-CsUser | Where-Object {$_.ExchangeArchivingPolicy -ne "UseLyncArchivingPolicy"} | Select-Object DisplayName
 ```
 

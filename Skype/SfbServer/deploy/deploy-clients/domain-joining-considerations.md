@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lea este tema para obtener información sobre cómo unirse a un equipo PC de la aplicación de Sistema de salas de Skype para su dominio.
-ms.openlocfilehash: 1cf95f416fabcdeabb878b204af25e262427ab07
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: b34161f946b2c79508555145635445214159bd61
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36774668"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003520"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Consideraciones de unión a dominio del Sistema de salas de Skype
  
@@ -53,7 +53,7 @@ Puedes unirte al equipo de Skype Room System Appliance al dominio de Active Dire
     
 Si planeas unir las máquinas del sistema de salas de Skype con el dominio, para evitar que se unan al equipo del sistema de salas de Skype accidentalmente a una OU no deseada, que puede no estar exenta de GPO, asegúrate de unirte a la unidad organizativa correcta. Puede usar el siguiente cmdlet de la máquina del sistema de salas de Skype para unirse a la OU correcta y no recibe GPO que puedan bloquear la funcionalidad de LRS. Póngase en contacto con su administrador de sistema o socio OEM para ejecutar estos cmdlets:
   
-```
+```powershell
 $username = "contso.local\LRS01"
 $password = ConvertTo-SecureString "password123" -AsPlainText -Force
 $myCred = New-Object System.Management.Automation.PSCredential $username, $password

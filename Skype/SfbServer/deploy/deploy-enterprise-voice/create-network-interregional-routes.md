@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Crear o modificar rutas interregional de red que usan el control de admisión de llamadas de telefonía de empresa en Skype empresarial Server.
-ms.openlocfilehash: 6bf455236dc825023cc3c8ce94ee329a464fdde4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6d9517796b2f418c39873850ee596a5effdba4e6
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233492"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001760"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Crear rutas interregional de red en Skype empresarial Server
  
@@ -37,15 +37,15 @@ En el ejemplo de topología, hay que definir rutas entre regiones de red para ca
     
 2. Ejecute el cmdlet **New-CsNetworkInterRegionRoute** para definir las rutas necesarias. Por ejemplo, ejecute:
     
-   ```
+   ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
    ```
 
-   ```
+   ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_APAC_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 APAC -NetworkRegionLinkIDs "NA-EMEA-LINK, EMEA-APAC-LINK"
    ```
 
-   ```
+   ```powershell
    New-CsNetworkInterRegionRoute -Identity EMEA_APAC_Route -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -NetworkRegionLinkIDs "EMEA-APAC-LINK"
    ```
 

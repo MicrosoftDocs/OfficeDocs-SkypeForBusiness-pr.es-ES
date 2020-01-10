@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Lea este tema para obtener información sobre cómo configurar varios números de emergencia en Skype empresarial Server.
-ms.openlocfilehash: 184a0060ed2383a652928356ab2999aa55b3d7bd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a0a16536799024085afcce07d6a2a9a0e4c899e1
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233700"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001320"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurar varios números de emergencia en Skype empresarial
 
@@ -35,31 +35,31 @@ Para configurar varios números de emergencia, use el cmdlet New-CsEmergencyNumb
 
 El siguiente comando crea un nuevo número de emergencia con la cadena de marcado 911 mediante el cmdlet New-CsEmergency:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 ```
 
 El siguiente comando asocia el número con la directiva de ubicación indicada al especificar el parámetro EmergencyNumbers en el cmdlet Set-CsLocationPolicy:
 
-```
+```powershell
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a} 
 ```
 
 En el siguiente ejemplo, el número de emergencia se crea con una sola máscara de marcado, 112:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112 
 ```
 
 El siguiente comando crea un número de emergencia con varias máscaras de marcado:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 ```
 
 El siguiente ejemplo agrega varios números de emergencia con varias máscaras de marcado y, a continuación, asocia los números de emergencia con la directiva de ubicación especificada.
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999 
 > $b = New-CsEmergencyNumber -DialString 500 -DialMask 501;502
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{add=$a,$b} 
@@ -67,7 +67,7 @@ El siguiente ejemplo agrega varios números de emergencia con varias máscaras d
 
 El siguiente ejemplo configura varios números de emergencia de proveedores de servicios sanitarios que utilizan tanto 911 como 450:  
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 
 > $b = New-CsEmergencyNumber -DialString 450
 > Set-CsLocationPolicy -Identity US-Hospital -EmergencyNumbers @{add=$a,$b}
@@ -75,7 +75,7 @@ El siguiente ejemplo configura varios números de emergencia de proveedores de s
 
 El siguiente ejemplo configura varios números de emergencia de proveedores de servicios sanitarios en la ciudad de Londres:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 999 -DialMask 144
 > $b = New-CsEmergencyNumber -DialString 112 -DialMask 911;117;118
 > Set-CsLocationPolicy -Identity London -EmergencyNumbers @{add=$a,$b}
@@ -83,7 +83,7 @@ El siguiente ejemplo configura varios números de emergencia de proveedores de s
 
 El siguiente ejemplo configura varios números de emergencia de proveedores de servicios sanitarios en India:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 100 -DialMask 911
 > $b = New-CsEmergencyNumber -DialString 101 
 > $c = New-CsEmergencyNumber -DialString 102 
@@ -92,7 +92,7 @@ El siguiente ejemplo configura varios números de emergencia de proveedores de s
 
 El siguiente ejemplo quita una entrada existente con la cadena de marcado 911 y las máscaras de marcado 112 y 999:
 
-```
+```powershell
 > $a = New-CsEmergencyNumber -DialString 911 -DialMask 112;999
 > Set-CsLocationPolicy -Identity <id> -EmergencyNumbers @{remove=$a} 
 ```

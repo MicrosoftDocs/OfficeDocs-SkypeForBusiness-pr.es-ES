@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumen: Aprenda a implementar la supervisión en Skype empresarial Server.'
-ms.openlocfilehash: 1eedcaaa30ecf464a5238e274e14de6770858290
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7f3bd96b814b45b625612aae9b56a706dfff470f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239956"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001155"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Implementar la supervisión en Skype empresarial Server
 
@@ -67,7 +67,7 @@ Para obtener instrucciones paso a paso sobre la Asociación de servidores front-
 
 Para comenzar la recopilación de datos, deberá habilitar la supervisión de CDR y/o QoE. (Tenga en cuenta que no tiene que habilitar la supervisión de CDR y QoE; si lo prefiere, puede habilitar un tipo de supervisión y dejar el otro tipo deshabilitado). Para habilitar la supervisión de CDR en el ámbito global, ejecute el siguiente comando desde el shell de administración de Skype empresarial Server:
 
-```
+```powershell
 Set-CsCdrConfiguration -Identity "global" -EnableCDR $True
 ```
 
@@ -81,7 +81,7 @@ También puede habilitar la supervisión de CDR desde el panel de control de Sky
 
 Para habilitar la supervisión de QoE en el ámbito global, ejecute este comando desde el shell de administración de Skype empresarial Server:
 
-```
+```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
 ```
 

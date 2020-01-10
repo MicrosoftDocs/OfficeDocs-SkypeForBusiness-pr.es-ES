@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Resumen: Obtenga información sobre cómo permitir que los usuarios realicen y reciban llamadas mediante la telefonía IP empresarial en Skype empresarial Server.'
-ms.openlocfilehash: cf9aab0f104582c57e745c95ae5cf8f24f07b3a5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 441b7a5705268dedea1feb87e01a48d0ef68b32c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240334"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002530"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Habilitar usuarios para telefonía IP empresarial en Skype empresarial Server
  
@@ -59,7 +59,7 @@ Después de implementar la telefonía IP o las llamadas a través del trabajo, p
 Para finalizar la habilitación de un usuario para telefonía IP empresarial, asegúrese de que el usuario tiene asignada una directiva de voz y un plan de marcado, ya sea global (asignada de forma predeterminada) o específica del usuario. De forma predeterminada, a todos los usuarios se les asigna una directiva de voz global y un plan de marcado. Si ya hubiera una directiva de voz o un plan de marcado a nivel de sitio para el sitio en el que se hospeda la cuenta de usuario, dichas directivas se aplicarán automáticamente al usuario. Para aplicar una directiva de voz o plan de marcado por usuario a un usuario, deberá ejecutar los cmdlets **Grant-CsVoicePolicy** y **Grant-CsDialPlan**. Para obtener más información, consulte los siguientes procedimientos de este tema.
 ## <a name="voice-policy-assignment"></a>Asignación de directivas de voz
 
-Las directivas de voz globales y de nivel de sitio se asignan automáticamente a todas las cuentas de usuario habilitadas para telefonía IP empresarial. También puede crear directivas de voz aplicables a usuarios o grupos específicos. Estas directivas por usuario deben estar explícitamente asignadas a los usuarios o grupos. Si desea usar la Directiva de voz global o de sitio para todos los usuarios habilitados para telefonía IP empresarial, puede omitir esta sección y seguir marcando la sección [asignación de plan](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) en más adelante en este tema.
+Las directivas de voz globales y de nivel de sitio se asignan automáticamente a todas las cuentas de usuario habilitadas para telefonía IP empresarial. También puede crear directivas de voz aplicables a usuarios o grupos específicos. Estas directivas por usuario deben estar explícitamente asignadas a los usuarios o grupos. Si desea usar la Directiva de voz global o de sitio para todos los usuarios habilitados para telefonía IP empresarial, puede omitir esta sección y seguir [marcando](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) la sección asignación de plan en más adelante en este tema.
   
 ### <a name="to-assign-a-user-specific-voice-policy"></a>Para asignar una directiva de voz específica del usuario
 
@@ -69,13 +69,13 @@ Las directivas de voz globales y de nivel de sitio se asignan automáticamente a
     
 3. Para asignar una directiva de voz de usuario existente a un usuario, ejecute lo siguiente en el símbolo del sistema:
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Por ejemplo:
     
-   ```
+   ```powershell
    Grant-CsVoicePolicy -Identity "Bob Kelly" -PolicyName VoicePolicyJapan
    ```
 
@@ -94,13 +94,13 @@ Para completar la configuración de la cuenta de usuario para los usuarios de te
     
 3. Para asignar un plan de marcado específico del usuario, ejecute lo siguiente en el símbolo del sistema:
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Por ejemplo:
     
-   ```
+   ```powershell
    Grant-CsDialPlan -Identity "Bob Kelly" -PolicyName DialPlanJapan
    ```
 

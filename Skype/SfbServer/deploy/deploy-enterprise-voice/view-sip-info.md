@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 'Resumen: Aprenda a ver información sobre los troncos SIP en Skype empresarial Server.'
-ms.openlocfilehash: 3d8ad70428926c26445c6556544a5a363de12f5c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 366e03c1a3ceef345a52bca6e038c9311fcc3003
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239946"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001130"
 ---
 # <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Ver información sobre los troncos SIP individuales en Skype empresarial Server
  
@@ -33,7 +33,7 @@ Sin embargo, en Skype empresarial Server, ahora se pueden asignar varios troncos
 
 - El siguiente comando devuelve información sobre todos los enlaces troncales SIP que se usan en su organización:
     
-  ```
+  ```powershell
   Get-CsTrunk
   ```
 
@@ -41,7 +41,7 @@ Sin embargo, en Skype empresarial Server, ahora se pueden asignar varios troncos
 
 - Este comando devuelve información solamente para el enlace troncal SIP con el valor Identity PstnGateway:192.168.0.240:
     
-  ```
+  ```powershell
   Get-CsTrunk -Identity "PstnGateway:192.168.0.240"
   ```
 
@@ -49,6 +49,6 @@ Sin embargo, en Skype empresarial Server, ahora se pueden asignar varios troncos
 
 - En este ejemplo, se devuelve información para todos los enlaces troncales SIP asignados al grupo atl-cs-001.litwareinc.com:
     
-  ```
+  ```powershell
   Get-CsTrunk -PoolFqdn "atl-cs-001.litwareinc.com"
   ```

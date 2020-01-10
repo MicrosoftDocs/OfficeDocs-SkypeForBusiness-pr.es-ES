@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Diseñar y crear flujos de trabajo de grupos de respuesta, en Skype empresarial Server Enterprise Voice. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
-ms.openlocfilehash: 9e056070bb01b5ee3cc7f32a8f9d07520fcb2030
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5b48816a3eb528a1ff96097c135697d8f9cb22d8
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240528"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002590"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Diseñar y crear flujos de trabajo de grupos de respuesta en Skype empresarial
 
@@ -156,7 +156,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
     - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección de usuario _ \<es\>nombre_@_\<\>_ de usuario nombreDeDominio.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<\>*@*\<domainname\> * (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato * \<del número de teléfono\>es*@*\<domainname\> * (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
 
@@ -183,7 +183,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
     - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección de usuario _ \<es\>nombre_@_\<\>_ de usuario nombreDeDominio.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<\>*@*\<domainname\> * (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato * \<del número de teléfono\>es*@*\<domainname\> * (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 27. En el **Paso 6 Configurar una cola**, en **Seleccione la cola que recibirá las llamadas**, seleccione la cola donde desea que los autores de las llamadas se mantengan en espera hasta que un agente esté disponible.
 
@@ -206,13 +206,13 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 3. Cree el mensaje de bienvenida que se reproducirá y guárdelo en una variable. En la línea de comandos, ejecute:
 
-   ```
+   ```powershell
    $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
     Por ejemplo:
 
-   ```
+   ```powershell
    $promptWM = New-CsRgsPrompt -TextToSpeechPrompt "Welcome to Contoso. Please wait for an available agent."
    ```
 
@@ -221,7 +221,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 4. Obtenga la identidad de la cola o la pregunta a la que se dirigirán las llamadas. En la línea de comandos, ejecute:
 
-   ```
+   ```powershell
    $qid = (Get-CsRgsQueue -Name "Help Desk").Identity
    ```
 
@@ -229,7 +229,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 5. Defina la acción que se ejecutará cuando un flujo de trabajo se abra en horas de trabajo y guárdela en una variable. En la línea de comandos, ejecute:
 
-   ```
+   ```powershell
    $actionWM = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken> -QueueID $qid
    ```
 
@@ -238,7 +238,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
     Por ejemplo:
 
-   ```
+   ```powershell
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
@@ -248,19 +248,19 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 8. Recupere el nombre del servicio del grupo de respuesta de Lync Server y asígnelo a una variable. En la línea de comandos, ejecute:
 
-   ```
+   ```powershell
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 9. Cree o modifique el flujo de trabajo. Para crear un flujo de trabajo, use **New-CsRgsWorkflow**. Para modificar un flujo de trabajo, use **Set-CsRgsWorkflow**. En la línea de comandos, escriba lo siguiente:
 
-   ```
+   ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent <service ID for the Response Group service> -Name "<hunt group name>" [-Description "<hunt group description>"] -PrimaryUri "<SIP address for the workflow>" [-LineUri "<Phone number for the workflow>"] [-DisplayNumber "<Phone number displayed in Lync>"] [-Active <$true | $false>] [-Anonymous <$true | $false>] [-DefaultAction <variable from preceding step>] [-EnabledForFederation <$true | $false>] [-Managed <$true | $false>] [-ManagersByUri <SIP addresses for Response Group Managers who can manage the workflow>]
    ```
 
     Por ejemplo:
 
-   ```
+   ```powershell
    $workflowHG = New-CsRgsWorkflow -Parent $serviceID -Name "Human Resources" -Description "Human Resources workflow" -PrimaryUri "sip:humanresources@contoso.com" -LineUri "TEL:+14255551219" -DisplayNumber "555-1219" -Active $true -Anonymous $true -DefaultAction $actionWM -EnabledForFederation $false -Managed $true -ManagersByUri "sip:bob@contoso.com", "mindy@contoso.com"
    ```
 
@@ -483,7 +483,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
     - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección de usuario _ \<es\>nombre_@_\<\>_ de usuario nombreDeDominio.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<\>*@*\<domainname\> * (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato * \<del número de teléfono\>es*@*\<domainname\> * (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 24. En **Paso 5 Especificar vacaciones**, haga clic en las casillas para uno o más conjuntos de vacaciones que definan los días en los que el grupo de respuesta no esté laboralmente disponible.
 
@@ -510,7 +510,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
     - Para desviar la llamada a otro usuario, haga clic en **Desviar a URI del SIP** y escriba la dirección de usuario. El formato de la dirección de usuario _ \<es\>nombre_@_\<\>_ de usuario nombreDeDominio.
 
-    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato del número de teléfono es * \<\>*@*\<domainname\> * (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
+    - Para desviar la llamada a otro número de teléfono, haga clic en **Desviar a número de teléfono** y escriba el número de teléfono. El formato * \<del número de teléfono\>es*@*\<domainname\> * (por ejemplo, + 14255550121@contoso.com). El nombre de dominio se usa para redirigir al autor de la llamada al destino correcto.
 
 27. En **Paso 6 Configurar música en espera**, elija lo que desea que escuchen los autores de las llamadas mientras esperan a un agente con uno de los procedimientos siguientes:
 
@@ -566,75 +566,75 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 3. Recupere el nombre de servicio del servicio Grupo de respuestas y asígnelo a una variable. En la línea de comandos, ejecute:
 
-   ```
+   ```powershell
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
 4. Un flujo de trabajo interactivo requiere dos o más colas y dos o más grupos de agentes. En primer lugar, cree los grupos de agentes. Ejecute:
 
-   ```
+   ```powershell
    $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
    $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
    ```
 
 5. Cree las colas. Ejecute:
 
-   ```
+   ```powershell
    $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
    $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
    ```
 
 6. Cree el primer aviso del grupo de respuestas. Ejecute:
 
-   ```
+   ```powershell
    $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
    ```
 
 7. A continuación, cree la acción que debe realizarse tras el aviso. Ejecute:
 
-   ```
+   ```powershell
    $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
    ```
 
 8. Cree la primera respuesta del grupo de respuestas. Ejecute:
 
-   ```
+   ```powershell
    $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
    ```
 
 9. Ahora cree el segundo aviso, y la acción de llamada y la respuesta correspondientes. En primer lugar, cree el aviso. Ejecute:
 
-   ```
+   ```powershell
    $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
    ```
 
 10. Cree la segunda acción de llamada. Ejecute:
 
-    ```
+    ```powershell
     $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
     ```
 
 11. Cree la segunda respuesta del grupo de respuestas. Ejecute:
 
-    ```
+    ```powershell
     $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
     ```
 
 12. Cree el aviso de nivel superior. Ejecute:
 
-    ```
+    ```powershell
     $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
     ```
 
 13. Cree la pregunta de nivel superior. Ejecute:
 
-    ```
+    ```powershell
     $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
     ```
 
 14. Ahora cree el flujo de trabajo. Ejecute:
 
-    ```
+    ```powershell
     $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
     $IVRWorkflow = New-CsRgsWorkflow -Parent $ServiceId -Name "Contoso Helpdesk" [-Description "The Contoso Helpdesk line."] -PrimaryUri "sip:helpdesk@contoso.com" [-LineUri tel:+14255554321] [-DisplayNumber "+1 (425) 555-4321"] [-Active $true] [-Anonymous $true] [-DefaultAction $IVRAction] [-Managed $true] [-ManagersByURI ("sip:mindy@contoso.com", "sip:bob@contoso.com")]
     ```

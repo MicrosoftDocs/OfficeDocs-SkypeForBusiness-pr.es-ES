@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Crear o modificar una cola de grupo de respuesta en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: b58ec9065eea1cc2dd8686b07ea798ac71c460fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9027c239c92c7c04b9de8b5579d7ebb73069b1a3
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233457"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001710"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Crear o modificar una cola en Skype empresarial
  
@@ -69,11 +69,11 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
    - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
     
-   - Para desviar la llamada al correo de voz, haga clic en reenviar **al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato SIP: * \<\>nombreusuario*@ *\<nombreDeDominio\> * (por ejemplo, sip:bob@contoso.com).
+   - Para desviar la llamada al correo de voz, haga clic en **reenviar al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato SIP: * \<nombreusuario\>*@ *\<nombreDeDominio\> * (por ejemplo, SIP:Bob@contoso.com).
     
-   - Para desviar la llamada a otro número de teléfono, haga clic en reenviar **a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono con el formato SIP: * \<\>número*@ *\<domainname\>* (por ejemplo, SIP:+14255550121@contoso.com).
+   - Para desviar la llamada a otro número de teléfono, haga clic en **reenviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato SIP: * \<Number\>*@ *\<domainname\> * (por ejemplo, SIP:+14255550121@contoso.com).
     
-   - Para desviar la llamada a otro usuario, haga clic en reenviar **a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el usuario con el formato SIP: _ \<\>nombreusuario_@ _\<\>nombreDeDominio_.
+   - Para desviar la llamada a otro usuario, haga clic en **reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el usuario con el formato SIP: _ \<nombreusuario\>_@ _\<nombreDeDominio\>_.
     
    - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
     
@@ -87,11 +87,11 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
    - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
     
-   - Para desviar la llamada al correo de voz, haga clic en reenviar **al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato SIP: * \<\>nombreusuario*@ *\<nombreDeDominio\> * (por ejemplo, sip:bob@contoso.com).
+   - Para desviar la llamada al correo de voz, haga clic en **reenviar al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una dirección de correo de voz con el formato SIP: * \<nombreusuario\>*@ *\<nombreDeDominio\> * (por ejemplo, SIP:Bob@contoso.com).
     
-   - Para desviar la llamada a otro número de teléfono, haga clic en reenviar **a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono con el formato SIP: * \<\>número*@ *\<domainname\>* (por ejemplo, SIP:+14255550121@contoso.com).
+   - Para desviar la llamada a otro número de teléfono, haga clic en **reenviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba el número de teléfono en el formato SIP: * \<Number\>*@ *\<domainname\> * (por ejemplo, SIP:+14255550121@contoso.com).
     
-   - Para desviar la llamada a otro usuario, haga clic en reenviar **a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el usuario con el formato SIP: _ \<\>nombreusuario_@ _\<\>nombreDeDominio_.
+   - Para desviar la llamada a otro usuario, haga clic en **reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el usuario con el formato SIP: _ \<nombreusuario\>_@ _\<nombreDeDominio\>_.
     
    - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
     
@@ -108,13 +108,13 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
 3. Cree el aviso que debe reproducirse cuando se alcance el umbral de tiempo de espera de la cola y guárdelo en una variable. En la línea de comandos, ejecute:
     
-   ```
+   ```powershell
    $promptTO = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    Por ejemplo:
     
-   ```
+   ```console
    "All agents are currently busy. Please call back later."
    ```
 
@@ -123,7 +123,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
   
 4. Defina la acción que debe realizarse cuando se alcance el umbral de tiempo de espera de la cola y guárdela en una variable. En la línea de comandos ejecute:
     
-   ```
+   ```powershell
    $actionTO = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -132,19 +132,19 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
   
     Por ejemplo:
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptTO -Action Terminate
    ```
 
 5. Cree el aviso que debe reproducirse cuando se alcance el umbral de desbordamiento de la cola y guárdelo en una variable. En la línea de comandos, ejecute:
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "<text for TTS prompt>"
    ```
 
    Por ejemplo:
     
-   ```
+   ```powershell
    $promptOV = New-CsRgsPrompt -TextToSpeechPrompt "Too many calls are waiting. Please call back later."
    ```
 
@@ -153,7 +153,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
   
 6. Defina la acción que debe realizarse cuando se alcance el umbral de desbordamiento de la cola y guárdela en una variable. En la línea de comandos ejecute:
     
-   ```
+   ```powershell
    $actionOV = New-CsRgsCallAction -Prompt <saved prompt from previous step> -Action <action to be taken>
    ```
 
@@ -162,19 +162,19 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
   
     Por ejemplo:
     
-   ```
+   ```powershell
    $action = New-CsRgsCallAction -Prompt $promptOV -Action Terminate
    ```
 
 7. Recupere el nombre de servicio del servicio Grupo de respuestas y asígnelo a una variable. En la línea de comandos, ejecute:
     
-   ```
+   ```powershell
    $serviceId="service:"+(Get-CSService | ?{$_.Applications -Like "*RGS*"}).ServiceId;
    ```
 
 8. Obtenga la identidad del grupo de agentes que debe asignarse a la cola. En la línea de comandos, ejecute:
     
-   ```
+   ```powershell
    $agid = (Get-CsRgsAgentGroup -Name "Help Desk").Identity;
    ```
 
@@ -183,19 +183,19 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
   
 9. Cree la cola. En la línea de comandos, ejecute:
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent <saved service ID from previous step> -Name "<name of queue>" [-Description "<description for queue>"] [-TimeoutThreshold <# seconds before call times out>] [-TimeoutAction <saved timeout action>] [-OverflowThreshold <# calls queue can hold>] [-OverflowCandidate <call to be acted on when overflow threshold met>] [-OverflowAction <saved overflow action>] [-AgentGroupIDList(<agent group identity>)];
    ```
 
    Por ejemplo:
     
-   ```
+   ```powershell
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
 10. Confirme que la cola se ha creado. Ejecute:
     
-    ```
+    ```powershell
     Get-CsRgsQueue -Name "Help Desk"
     ```
 

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Resumen: configurar la autenticación de servidor a servidor para Exchange Server 2016 o Exchange Server 2013 y Skype empresarial Server.'
-ms.openlocfilehash: 5a1958db05ea1e4fae37737512368d509b3c62cf
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 004b9c1926f00cd869658ae0b90679897d20516b
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245514"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001260"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Configurar aplicaciones de socio en Skype empresarial Server y Exchange Server
  
@@ -33,19 +33,19 @@ Para configurar la autenticación de servidor a servidor entre Skype empresarial
 
 La forma más sencilla de configurar Skype empresarial Server para que sea una aplicación de socio con Exchange Server 2016 o Exchange Server 2013 es ejecutar el script Configure-EnterprisePartnerApplication. ps1, un script de Windows PowerShell que se incluye con Exchange Server. Para ejecutar este script, debe proporcionar la dirección URL del documento de metadatos de autenticación de Skype empresarial Server. normalmente será el nombre de dominio completo del grupo de servidores de Skype empresarial, seguido del sufijo/Metadata/JSON/1. Por ejemplo:
   
-```
+```console
 https://atl-cs-001.litwareinc.com/metadata/json/1
 ```
 
 Para configurar Skype empresarial Server como aplicación de socio, abra el shell de administración de Exchange y ejecute un comando similar a este (suponiendo que Exchange se haya instalado en el disco C: y que use la ruta de la carpeta predeterminada):
   
-```
+```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-cs-001.litwareinc.com/metadata/json/1' -ApplicationType Lync"
 ```
 
 Después de configurar la aplicación de socio, se recomienda que detenga y reinicie servicios de Internet Information Server (IIS) en el buzón de Exchange y en los servidores de acceso de cliente. Puede reiniciar IIS mediante un comando similar a este, que reinicia el servicio en el equipo atl-exchange-001:
   
-```
+```powershell
 iisreset atl-exchange-001
 ```
 
@@ -55,23 +55,23 @@ Este comando se puede ejecutar desde el shell de administración de Exchange o d
 
 Una vez que haya configurado Skype empresarial Server para que sea una aplicación de socio para Exchange Server 2016 o Exchange Server 2013, debe configurar Exchange Server para que sea una aplicación de socio de Skype empresarial Server. Esto se puede hacer con el shell de administración de Skype empresarial Server y especificar el documento de metadatos de autenticación para Exchange. normalmente será el URI del servicio Detección automática de Exchange, seguido del sufijo/Metadata/JSON/1. Por ejemplo:
   
-```
+```console
 https://autodiscover.litwareinc.com/autodiscover/metadata/json/1
 ```
 
 En Skype empresarial Server, las aplicaciones de socios se configuran mediante el cmdlet [New-CsPartnerApplication](https://docs.microsoft.com/powershell/module/skype/new-cspartnerapplication?view=skype-ps) . Además de especificar el URI de los metadatos, también debe establecer el nivel de confianza de la aplicación en completo; Esto permitirá a Exchange representar tanto a sí mismo como a cualquier usuario autorizado en el territorio. Por ejemplo:
   
-```
+```powershell
 New-CsPartnerApplication -Identity Exchange -ApplicationTrustLevel Full -MetadataUrl "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
 ```
 
 Como alternativa, puede crear una aplicación de socio copiando y modificando el código de script que se encuentra en la documentación de autenticación de servidor a servidor de Skype empresarial Server. Para obtener más información, consulte [administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones de asociados en el artículo de Skype empresarial Server](../../manage/authentication/server-to-server-and-partner-applications.md) .
   
-Si ha configurado correctamente aplicaciones de socio para Skype empresarial Server y Exchange Server, también ha configurado correctamente la autenticación de servidor a servidor entre los dos productos. Skype empresarial Server incluye un cmdlet de Windows PowerShell, [Test-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) , que le permite comprobar que la autenticación de servidor a servidor se ha configurado correctamente y que el servicio de almacenamiento de Skype empresarial Server puede conectarse al servidor de Exchange. El cmdlet realiza esta acción conectándose al buzón de un usuario de Exchange Server, escribiendo un elemento en la carpeta Historial de conversaciones de ese usuario y, a continuación (opcionalmente), eliminando ese elemento.
+Si ha configurado correctamente aplicaciones de socio para Skype empresarial Server y Exchange Server, también ha configurado correctamente la autenticación de servidor a servidor entre los dos productos. Skype empresarial Server incluye un cmdlet de Windows PowerShell, [Test-CsExStorageConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexstorageconnectivity?view=skype-ps) , que le permite comprobar si la autenticación de servidor a servidor se ha configurado correctamente y si el servicio de almacenamiento de Skype empresarial Server puede conectarse a Exchange Server. El cmdlet realiza esta acción conectándose al buzón de un usuario de Exchange Server, escribiendo un elemento en la carpeta Historial de conversaciones de ese usuario y, a continuación (opcionalmente), eliminando ese elemento.
   
 Para probar la integración de Skype empresarial Server y Exchange Server, ejecute un comando similar al siguiente en el shell de administración de Skype empresarial Server:
   
-```
+```powershell
 Test-CsExStorageConnectivity -SipUri "sip:kenmyer@litwareinc.com"
 ```
 

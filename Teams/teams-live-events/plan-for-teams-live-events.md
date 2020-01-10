@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Obtenga más información sobre los factores que hay que tener en cuenta antes de configurar eventos en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 736d6b8f2000f94806077e8f1739b28be248b136
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 66054194c197d40c10850582e624b543b4561f42
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570184"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001270"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -55,7 +55,7 @@ El usuario debe tener:
 - Permisos para crear eventos en directo en la secuencia (para producción de dispositivos o aplicaciones externas).
 
 > [!IMPORTANT]
-> Los invitados de Office 365, los federados y los usuarios anónimos no pueden ser invitados como productores o moderadores en eventos de Teams Live. Los invitados y usuarios federados de Office 365 solo pueden ver los eventos en directo de forma anónima. 
+> Los usuarios anónimos no autenticados no pueden ser invitados como productores o moderadores en eventos de Teams Live. 
  
 ## <a name="who-can-watch-live-events"></a>¿Quién puede ver eventos en directo?
 
@@ -120,7 +120,7 @@ Puede usar eventos de Teams Live en varias regiones de todo el mundo. La siguien
 - **Ir a locales:** Los equipos pueden dirigirse a locales, fuera de los mencionados anteriormente, no son compatibles actualmente.
 - **China:** Los miembros del equipo del evento y los asistentes no podrán usar los eventos en directo de Teams porque no se puede obtener acceso a la CDN de Azure en China. Una solución es usar una conexión VPN corporativa, que obtiene el cliente conectado a CDN a través de la red corporativa del cliente.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Siguientes pasos
 Vaya a [configuración de eventos de Teams Live](set-up-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Temas relacionados

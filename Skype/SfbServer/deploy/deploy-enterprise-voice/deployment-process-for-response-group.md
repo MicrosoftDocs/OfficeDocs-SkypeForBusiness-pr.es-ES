@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Proceso de implementación y pasos para el grupo respuesta de Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 12497d143f9ff5c7630f81db8f416e2f7c74d574
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e15acb5f4750ce1d82cd5f785a9ea38e73b2af30
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233302"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001190"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Proceso de implementación para un grupo de respuesta en Skype empresarial
 
@@ -85,7 +85,7 @@ Para modificar el archivo Web.config, haga lo siguiente:
 
 3. Agregue la sección `<machineKey>` siguiente a la `<system.web>` sección:
 
-   ```
+   ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
    ```
 
@@ -93,7 +93,7 @@ Para modificar el archivo Web.config, haga lo siguiente:
 
 5. Reinicie el servicio de Internet Information Services (IIS) ejecutando el siguiente comando en un símbolo del sistema:
 
-   ```
+   ```console
    iisreset
    ```
 
@@ -116,7 +116,7 @@ Para admitir caracteres Yi, Meng o Zang, es necesario modificar la intercalació
 
 - dbo.Workflows
 
-Para SQL Server 2008 R2 y SQL Server 2012, use la intercalación Latin_General_100 (Acentos). Si usa esta intercalación, ningún nombre de objeto distingue entre mayúsculas y minúsculas.
+Para SQL Server 2008 R2 y SQL Server 2012, use la intercalación Latin_General_100 (sensible a la tilde). Si usa esta intercalación, ningún nombre de objeto distingue entre mayúsculas y minúsculas.
 
 Puede cambiar la intercalación con Microsoft SQL Server Management Studio. Para obtener más información sobre cómo usar esta herramienta, consulte ["uso de SQL Server Management Studio"](https://go.microsoft.com/fwlink/p/?linkId=196184). Siga estos pasos para cambiar la intercalación:
 

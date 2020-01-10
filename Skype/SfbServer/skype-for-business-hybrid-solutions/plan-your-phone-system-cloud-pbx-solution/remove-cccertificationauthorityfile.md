@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
 description: El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad servicio de entidad de certificación en la carpeta CA del directorio compartido del sitio de la edición Cloud Connector de Skype empresarial.
-ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d7036633eaf092130fc6e4acaebda39d04ff17df
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287093"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003300"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad servicio&lt;de&gt;entidad emisora de certificados "SiteRootDirectory \CA\SfB CCE root. p12" en la carpeta CA en el directorio compartido del sitio para el conector para la nube de Skype empresarial Home. 
+El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad servicio&lt;de&gt;entidad emisora de certificados "SiteRootDirectory \CA\SfB CCE root. p12" en la carpeta CA, en el directorio compartido del sitio de la edición Cloud Connector de Skype empresarial. 
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 
@@ -37,7 +37,7 @@ Ninguno
 
 En el ejemplo siguiente se quita el archivo de copia de&lt;seguridad&gt;servicio de entidad emisora de certificados "SiteRootDirectory \CA\SfB CCE root. p12" en la carpeta CA en el directorio compartido del sitio:
   
-```
+```powershell
 Remove-CcCertificationAuthorityFile
 ```
 

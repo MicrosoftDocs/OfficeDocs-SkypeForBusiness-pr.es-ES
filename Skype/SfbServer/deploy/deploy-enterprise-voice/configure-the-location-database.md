@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurar, rellenar y publicar la base de datos de ubicaciones E9-1-1 en Skype empresarial Enterprise Voice.
-ms.openlocfilehash: 5aad449d8d286fb4bd71373be33baea9cbb2c8f3
-ms.sourcegitcommit: 5e6eb8286bd5eb318a901e42235e91a58946c3a9
+ms.openlocfilehash: 1e972e78af1a83e68c2d28d0f636128b7c339cf2
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038709"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001310"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar la base de datos de ubicación en Skype empresarial Server
  
@@ -56,52 +56,52 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 
 1. Ejecute el cmdlet siguiente para agregar una ubicación de subred a la base de datos de ubicaciones.
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     Para las puertas de enlace ELIN, escriba el ELIN en el campo CompanyName. Puede incluir más de un ELIN. Por ejemplo:
     
-   ```
+   ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
     También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de subred mediante un archivo denominado "subnets.csv".
     
-   ```
+   ```powershell
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
    ```
 
 2. Ejecute el cmdlet siguiente para agregar ubicaciones inalámbricas a la base de datos de ubicaciones.
     
-   ```
+   ```powershell
    Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
    También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones inalámbricas mediante un archivo denominado "waps.csv".
     
-   ```
+   ```powershell
    $g = Import-Csv waps.csv
    $g | Set-CsLisWirelessAccessPoint
    ```
 
 3. Ejecute el cmdlet siguiente para agregar ubicaciones de conmutador a la base de datos de ubicaciones.
     
-   ```
+   ```powershell
    Set-CsLisSwitch -ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
    También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de conmutadores mediante un archivo denominado "switches.csv".
     
-   ```
+   ```powershell
    $g = Import-Csv switches.csv
    $g | Set-CsLisSwitch
    ```
 
 4. Ejecute el cmdlet siguiente para agregar ubicaciones de puertos a la base de datos de ubicaciones.
     
-   ```
+   ```powershell
    Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
@@ -109,7 +109,7 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
     
    También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de puertos mediante un archivo denominado "ports.csv".
     
-   ```
+   ```powershell
    $g = Import-Csv ports.csv
    $g | Set-CsLisPort
    ```
@@ -122,14 +122,14 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
     
 2. Ejecute los cmdlets siguientes para configurar la conexión de proveedor de servicios de emergencia.
     
-   ```
+   ```powershell
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
 3. Ejecute el cmdlet siguiente para validar las direcciones en la base de datos de ubicaciones.
     
-   ```
+   ```powershell
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
@@ -147,7 +147,7 @@ Si usa puertas de enlace de número de identificación de ubicación de emergenc
     
 - Ejecute el cmdlet siguiente para publicar la base de datos de ubicaciones.
     
-  ```
+  ```powershell
   Publish-CsLisConfiguration
   ```
 

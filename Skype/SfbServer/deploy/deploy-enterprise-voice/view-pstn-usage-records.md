@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Resumen: Aprenda a ver los registros de uso de RTC con el panel de control de Skype empresarial Server o el shell de administración de Skype empresarial Server.'
-ms.openlocfilehash: bbc9b7f174ff4b6710009af47dbdcd20e12334d4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 96a96898bf728b4f05ba473bc750635e41be19fa
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240003"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002730"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Ver los registros de uso de RTC en Skype empresarial
 
@@ -42,7 +42,7 @@ Un registro de uso de una red de telefonía conmutada (RTC) especifica la clase 
 
 - Para ver información sobre todos los usos de RTC, escriba el siguiente comando en el shell de administración de Skype empresarial Server y, a continuación, presione ENTRAR:
 
-  ```
+  ```powershell
   Get-CsPstnUsage
   ```
 

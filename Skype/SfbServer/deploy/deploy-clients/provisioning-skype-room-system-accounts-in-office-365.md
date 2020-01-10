@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lea este tema para obtener información acerca del aprovisionamiento de cuentas de Sistema de salas de Skype en Office 365.
-ms.openlocfilehash: 830c0e33a15639f3c78197d084748bb3b2cde600
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 66686af36e3f71f91114d10eb448dd0a77ad1a57
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231271"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003020"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Aprovisionamiento de cuentas del Sistema de salas de Skype en Office 365
  
@@ -71,7 +71,7 @@ En primer lugar, conéctese a Exchange Online PowerShell siguiendo las instrucci
   
 Para configurar una cuenta de buzón de sala de recursos existente para el sistema de salas de Skype, ejecute los siguientes comandos en Exchange Online PowerShell:
   
-```
+```powershell
 $rm="confrm1@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -79,7 +79,7 @@ Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword 
 
 Para crear una cuenta nueva de buzón de recursos de Exchange para el sistema de salas de Skype, ejecute los siguientes comandos en Exchange Online PowerShell:
   
-```
+```powershell
 $rm="confrm2@contoso.onmicrosoft.com"
 $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
@@ -101,7 +101,7 @@ Una vez que se ha creado y habilitado una cuenta de buzón de sala de recursos c
   
 1. Cree una sesión remota de PowerShell. Tenga en cuenta que tendrá que descargar el módulo del conector de Skype empresarial online y el ayudante para el inicio de sesión de Microsoft Online Services y asegurarse de que su equipo está configurado. Para obtener más información, vea [configurar el equipo para Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
-   ```
+   ```powershell
    Import-Module LyncOnlineConnector
    $cssess=New-CsOnlineSession -Credential $cred
    Import-PSSession $cssess -AllowClobber
@@ -109,13 +109,13 @@ Una vez que se ha creado y habilitado una cuenta de buzón de sala de recursos c
 
 2. Para habilitar una cuenta de sistema de Skype Room para Skype empresarial, ejecute el siguiente comando:
     
-   ```
+   ```powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
     Puede obtener la dirección de RegistrarPool en la que los usuarios de Skype empresarial estén alojados desde una de sus cuentas existentes con el siguiente comando para que devuelva esta propiedad:
     
-   ```
+   ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
    ```
 
@@ -128,14 +128,14 @@ En Office 365, la directiva de caducidad de la contraseña predeterminada de tod
   
 1. Cree una sesión en Windows Azure Active Directory mediante el uso de las credenciales de administrador global de inquilinos.
     
-    ```
+    ```powershell
     $cred=Get-Credential admin@$org
     Connect-MsolService -Credential $cred
     ```
 
 2. Establezca la configuración de la contraseña nunca vence para la cuenta de sala del sistema de salas de Skype creada anteriormente con el siguiente comando:
     
-   ```
+   ```powershell
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: El cmdlet Backup-CcCertificationAuthority crea una copia de seguridad del servicio de la entidad de certificación de Skype Empresarial Cloud Connector Edition en un archivo y lo guarda en la carpeta de la entidad de certificación en el directorio de recursos compartidos del sitio.
-ms.openlocfilehash: 463aab2516deec5b47e549aec67bcba6a0a80bc0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f99745e1dd5e28e2d7d8d10d4d152c7ada913fbf
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294421"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003030"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  
 El cmdlet Backup-CcCertificationAuthority crea una copia de seguridad del servicio de la entidad de certificación de Skype Empresarial Cloud Connector Edition en un archivo y lo guarda en la carpeta de la entidad de certificación en el directorio de recursos compartidos del sitio.
   
-```
+```powershell
 Backup-CcCertificationAuthority 
 ```
 
@@ -37,7 +37,7 @@ Ninguno
 
 En el siguiente ejemplo se crea una copia de seguridad del servicio de la entidad de certificación en un archivo y se guarda en la carpeta de la entidad de certificación en el directorio de recursos compartidos del sitio:
   
-```
+```powershell
 Backup-CcCertificationAuthority 
 ```
 

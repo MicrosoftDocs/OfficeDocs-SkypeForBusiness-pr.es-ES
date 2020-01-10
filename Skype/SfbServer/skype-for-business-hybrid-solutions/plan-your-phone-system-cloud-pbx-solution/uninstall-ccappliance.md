@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1b3cdd7-08e9-41a6-843a-3b4baf886cd0
 description: 'El cmdlet Uninstall-CcAppliance desinstala el dispositivo en ejecución de Skype Empresarial Cloud Connector Edition desde el servidor host. '
-ms.openlocfilehash: 337c5c489846facb1da3c177cac7a965d7550ae5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f37c3092103832c9efd3b24d2efbedf00e8f54ac
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286897"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003150"
 ---
 # <a name="uninstall-ccappliance"></a>Uninstall-CcAppliance
  
 El cmdlet Uninstall-CcAppliance desinstala el dispositivo en ejecución de Skype Empresarial Cloud Connector Edition desde el servidor host.  
   
-```
+```powershell
 Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonParameters>]
 ```
 
@@ -33,7 +33,7 @@ Uninstall-CcAppliance [-Version <string>] [-Force] [-Confirm <bool>] [<CommonPar
 
 En el ejemplo siguiente se purgan y desinstalan el dispositivo de conector de nube desde el servidor host:
   
-```
+```powershell
 Uninstall-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Uninstall-CcAppliance
 
 El siguiente ejemplo purga y fuerza la desinstalación del dispositivo conector de nube en ejecución en el servidor host, incluso si se produjo un error en el proceso de drenaje:
   
-```
+```powershell
 Uninstall-CcAppliance -Force
 ```
 
@@ -49,7 +49,7 @@ Uninstall-CcAppliance -Force
 
 En el siguiente ejemplo se desinstala la versión de copia de seguridad de un conector de nube sin la confirmación del usuario:
   
-```
+```powershell
 Uninstall-CcAppliance -Version 1.3.8 -Confirm:$false
 ```
 

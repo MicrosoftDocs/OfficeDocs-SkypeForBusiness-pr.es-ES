@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 2cd468b3a4f151d6ad19d2ad430bb94045fb808f
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40070241"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41005209"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -162,6 +162,11 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
   > Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server.
 
   - **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Buscas el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con el servicio.
+  - **Buzón de voz** Seleccione el grupo de Office 365 que representa los usuarios de su organización que necesitan acceder a este mensaje de voz. Aquí puede activar la transcripción del buzón de voz. Requiere un grupo de Office 365.
+
+  > [!NOTE]
+> No se puede acceder a los mensajes de voz enviados a los usuarios desde esta cuenta de buzón de voz de operador automático en Teams. Aparecerán como un mensaje de correo electrónico.
+
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant.
 - **Call queue** Select the name of an auto attendant that has already been created.
@@ -207,7 +212,9 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 - **Operador** Si un operador ya está configurado, la opción se asigna automáticamente a la clave 0, pero también se puede eliminar o reasignar a una clave diferente. El autor de la llamada que selecciona esta opción se envía al operador designado. Si el operador no se establece en ninguna tecla, el comando de voz "operador" también está deshabilitado. 
 - Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server. El usuario debe tener una licencia de sistema telefónico habilitada para telefonía IP empresarial o planes de llamadas asignados en Office 365. Busque la persona en el campo **Buscar por nombre** .
 
-  - **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Busque el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con la aplicación.
+- **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Busque el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con la aplicación.
+
+- **Buzón de voz** Seleccione el grupo de Office 365 que representa los usuarios de su organización que necesitan acceder a este mensaje de voz. Aquí puede activar la transcripción del buzón de voz. Requiere un grupo de Office 365.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.

@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Aprenda Cuáles son los operadores automáticos de la nube y cómo usarlos.
-ms.openlocfilehash: d326b707ff94d9d30e26f6da31f12588b083872e
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e9d6da8a73333218990611bd287a852683d52f9c
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37924891"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004775"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos de la nube?
 
@@ -45,6 +45,7 @@ Un operador automático de la nube tiene las siguientes características:
 - Admite varios idiomas para avisos, texto a voz y reconocimiento de voz.
 - Es compatible con la especificación de festivos y horario laboral.
 - Admite la transferencia de llamadas a un operador, otros usuarios, colas de llamadas y operadores automáticos.
+- Admite el buzón de voz compartido para que las personas que llamen dejen un mensaje para una organización.
 
 > [!NOTE]
 > Este artículo se aplica a Microsoft Teams y a Skype empresarial online.
@@ -74,9 +75,9 @@ Para comenzar a utilizar operadores automáticos, es importante recordar que:
 
 ### <a name="searching-for-users"></a>Buscar usuarios
 
-El marcado por nombre es una característica de un operador automático que también se conoce como búsqueda de directorio. Permite que las personas que llaman a su operador automático usen la voz (reconocimiento de voz) o las respuestas del teclado (DTMF) para escribir un nombre completo o parcial para buscar en el directorio de la empresa, ubicar a la persona y, a continuación, transferir la llamada. No es necesario que los usuarios que desee que se encuentren y se encuentren con el método de marcado por nombre **tengan un número de teléfono o tengan asignados planes de llamadas, pero deben tener una licencia de sistema telefónico si son usuarios en línea o con Enterprise Voice habilitado para Skype empresarial Server. usuarios**. Es posible que el marcado por nombre pueda buscar y transferir llamadas a los usuarios de Microsoft teams que se hospedan en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita explícitamente el marcado por nombre en un operador automático.
+El marcado por nombre es una característica de un operador automático que también se conoce como búsqueda de directorio. Permite que las personas que llaman a su operador automático usen la voz (reconocimiento de voz) o las respuestas del teclado (DTMF) para escribir un nombre completo o parcial para buscar en el directorio de la empresa, ubicar a la persona y, a continuación, transferir la llamada. No es necesario que los usuarios que desean encontrarse con el método de marcado por nombre **tengan un número de teléfono o tengan asignados planes de llamadas, pero deben tener una licencia de sistema telefónico si se trata de usuarios en línea o habilitar Enterprise Voice para usuarios de Skype empresarial Server**. Es posible que el marcado por nombre pueda buscar y transferir llamadas a los usuarios de Microsoft teams que se hospedan en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita explícitamente el marcado por nombre en un operador automático.
 
-La extensión de marcado es una característica de un operador automático que también forma parte de la búsqueda en directorios. Permite a las personas que llaman a su operador automático usar voz (reconocimiento de voz) o sus respuestas de teclado (DTMF) del teléfono para introducir la extensión de teléfono del usuario al que está intentando acceder y, a continuación, se les transfiere la llamada. Los usuarios que desea que se encuentren y que tengan acceso telefónico por extensión **no necesitan tener un número de teléfono o tener los planes de llamadas asignados, pero deben tener una licencia de sistema telefónico si son usuarios en línea o habilitada la telefonía IP empresarial para Skype empresarial. Usuarios de servidor**. También necesitará tener un plan de marcado adecuado para sus usuarios. La opción de marcado por extensión podrá buscar y transferir llamadas a los usuarios de Microsoft teams que estén hospedados en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita de forma explícita la función de marcado por extensión en un operador automático.
+La extensión de marcado es una característica de un operador automático que también forma parte de la búsqueda en directorios. Permite a las personas que llaman a su operador automático usar voz (reconocimiento de voz) o sus respuestas de teclado (DTMF) del teléfono para introducir la extensión de teléfono del usuario al que está intentando acceder y, a continuación, se les transfiere la llamada. Los usuarios que desee que se encuentren y que tengan acceso telefónico por extensión **no necesitan tener un número de teléfono o tener planes de llamadas asignados, pero deben tener una licencia de sistema telefónico si son usuarios conectados o habilitado para usar Enterprise Voice para usuarios de Skype empresarial Server**. También necesitará tener un plan de marcado adecuado para sus usuarios. La opción de marcado por extensión podrá buscar y transferir llamadas a los usuarios de Microsoft teams que estén hospedados en diferentes países o regiones para organizaciones multinacionales. Dados los requisitos previos implicados, habilita de forma explícita la función de marcado por extensión en un operador automático.
 
 #### <a name="maximum-directory-size"></a>Tamaño máximo de directorio
 

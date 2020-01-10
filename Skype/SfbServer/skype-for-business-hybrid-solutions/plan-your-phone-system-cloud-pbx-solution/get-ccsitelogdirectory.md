@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
 description: 'El cmdlet Get-CcSiteLogDirectory muestra el directorio actual en el que se almacenan los registros a nivel de sitio de Skype Empresarial Cloud Connector Edition. '
-ms.openlocfilehash: bc47c2ea2d81e70538305daa98f97a35cf3d9e0a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a03c4c0cc3e993fb5e1426f3f27f76a68d081c26
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287289"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003360"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
@@ -24,7 +24,7 @@ El cmdlet Get-CcSiteLogDirectory muestra el directorio actual en el que se almac
   
 Este cmdlet se aplica a Skype Empresarial Cloud Connector Edition 1.4.1, 1.4.2.
   
-```
+```powershell
 Get-CcSiteLogDirectory
 ```
 
@@ -39,7 +39,7 @@ Ninguno
 
 En el ejemplo siguiente se muestra la carpeta actual donde se almacenan los archivos de registro del sitio del conector de la nube:
   
-```
+```powershell
 Get-CcSiteLogDirectory
 ```
 

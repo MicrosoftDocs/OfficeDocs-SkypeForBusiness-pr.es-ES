@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: El cmdlet Register-CcAppliance registra la información de los dispositivos en un sitio RTC en una configuración de inquilinos en línea. Los dispositivos deben registrarse antes de que el servicio de administración de Skype Empresarial Cloud Connector Edition pueda implementarlos y administrarlos.
-ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 93f1fe59a199214615c5ecdf8445f6c363ce6bbe
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287128"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003310"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
 El cmdlet Register-CcAppliance registra la información de los dispositivos en un sitio RTC en una configuración de inquilinos en línea. Los dispositivos deben registrarse antes de que el servicio de administración de Skype Empresarial Cloud Connector Edition pueda implementarlos y administrarlos.
   
-```
+```powershell
 Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -33,7 +33,7 @@ Register-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 
 En el siguiente ejemplo se registra la información del dispositivo actual a una configuración de inquilino en línea:
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Register-CcAppliance
 
 En el siguiente ejemplo se comprueba la configuración del registro localmente sin conectar con una configuración de inquilino en línea:
   
-```
+```powershell
 Register-CcAppliance -Local
 ```
 
@@ -49,7 +49,7 @@ Register-CcAppliance -Local
 
 En el siguiente ejemplo se registra el dispositivo actual con el nombre "Appliance1" en el sitio RTC "Site1":
   
-```
+```powershell
 Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 

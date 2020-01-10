@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar como mínimo SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener más información, consulte paquete de actualización acumulativa 9 para SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 61f479adaf5c93833ece65b9781e635d16d696cd
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 19f315d643ea5b9379445bf7571e49e7d658f5ab
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240013"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003590"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implementar el reflejo SQL para servidor back-end alta disponibilidad en Skype empresarial Server 2015
 
@@ -30,7 +30,7 @@ En general, la configuración de creación de reflejo de SQL entre los dos servi
 
 - El servidor principal y el reflejo necesitan tener la misma edición de SQL Server. El testigo puede tener una edición diferente.
 
-Para procedimientos recomendados de SQL en términos de las versiones de SQL admitidas para un rol testigo, consulte testigo de creación de reflejos de [base de datos](https://go.microsoft.com/fwlink/p/?LinkId=247345).
+Para procedimientos recomendados de SQL en términos de las versiones de SQL admitidas para un rol testigo, consulte [testigo de creación de reflejos de base de datos](https://go.microsoft.com/fwlink/p/?LinkId=247345).
 
 El generador de topología se usa para implementar el reflejo de SQL. Seleccione una opción en el generador de topología para reflejar las bases de datos y el generador de topologías configura el reflejo (incluida la configuración de un testigo, si lo desea) al publicar la topología. Observe que debe configurar o quitar el testigo al mismo tiempo que configura o quita el reflejo. No hay un comando independiente para implementar o quitar solo un testigo.
 
@@ -127,13 +127,13 @@ La forma más sencilla de configurar el reflejo es mediante el generador de topo
 
 1. Abra una ventana del shell de administración de Skype empresarial Server 2015 y ejecute el siguiente cmdlet:
 
-   ```
+   ```powershell
    Install-CsMirrorDatabase [-ConfiguredDatabases] [-ForInstance] [-ForDefaultInstance] [-DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance >] -FileShare <fileshare> -SqlServerFqdn <primarySqlserverFqdn> [-SqlInstanceName] [-DatabasePathMap] [-ExcludeDatabaseList] [-DropExistingDatabasesOnMirror] -Verbose
    ```
 
     Por ejemplo:
 
-   ```
+   ```powershell
    Install-CsMirrorDatabase -ConfiguredDatabases -FileShare \\PRIMARYBE\csdatabackup -SqlServerFqdn primaryBE.contoso.com -DropExistingDatabasesOnMirror -Verbose
    ```
 
@@ -249,13 +249,13 @@ La forma más sencilla de configurar el reflejo es mediante el generador de topo
 
 Para quitar un reflejo de SQL de un grupo de servidores en el Generador de topologías, primero se debe quitar el reflejo en SQL Server utilizando un cmdlet. Después, podrá usar el Generador de topologías para quitar el reflejo de la topología. Para quitar el reflejo de SQL Server, use este cmdlet:
 
-```
+```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn <SQLServer FQDN> [-SqlInstanceName <SQLServer instance name>] -DatabaseType <Application | Archiving | CentralMgmt | Monitoring | User | BIStaging | PersistentChat | PersistentChatCompliance> [-DropExistingDatabasesOnMirror] [-Verbose]
 ```
 
 Por ejemplo, para quitar reflejos y anular las bases de datos de las bases de datos del usuario, escriba lo siguiente:
 
-```
+```powershell
 Uninstall-CsMirrorDatabase -SqlServerFqdn primaryBE.contoso.com -SqlInstanceName rtc -Verbose -DatabaseType User -DropExistingDatabasesOnMirror
 ```
 
@@ -281,7 +281,7 @@ Use este procedimiento si necesita quitar el testigo de una configuración de re
 
     Después de publicar la topología, el generador de topología verá un mensaje que incluye lo siguiente:
 
-   ```
+   ```console
    Run the Uninstall-CsMirrorDatabase cmdlet to remove databases that are paired with following primary databases.
    ```
 

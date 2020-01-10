@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Resumen: configure el uso de fotos de alta resolución en Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 o Exchange Online y Skype empresarial Server.'
-ms.openlocfilehash: 08db547dc9ead9d79a50cd17b4496826aa735369
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 598490cfc80b8885a570317a7559bfc4cdd3caf5
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37434915"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001180"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Configurar el uso de fotos de alta resolución en Skype empresarial Server
  
@@ -36,7 +36,7 @@ En Skype empresarial Server, las fotos se pueden almacenar en el Exchange Server
   
 Las fotos de alta resolución, a las que se accede mediante servicios web Exchange, se pueden cargar mediante usuarios que ejecuten Outlook 2013 Web App; los usuarios solo pueden actualizar su propia foto. Los administradores, sin embargo, pueden actualizar la foto de cualquier usuario mediante el shell de administración de Exchange y una serie de comandos de Windows PowerShell similares a los siguientes:
   
-```
+```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))
 Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
@@ -49,13 +49,13 @@ El primer comando del ejemplo anterior usa el `Get-Content` cmdlet para leer el 
   
 Cargar la fotografía no equivale a asignarla a la cuenta de usuario de Ken Myer. Al cargar la fotografía, el resultado es que se muestra una vista previa de dicha fotografía en la página Opciones de Outlook Web App. Para asignar realmente la fotografía a la cuenta de usuario, haga clic en **Guardar** en la página Opciones o el administrador necesita ejecutar el tercer comando del ejemplo. Ese tercer comando usa el parámetro Save para asignar la fotografía a la cuenta de usuario de Ken Myer:
   
-```
+```powershell
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
 Para comprobar que la nueva foto se ha asignado a la cuenta de usuario, Ken Myer puede iniciar sesión en Skype empresarial, seleccionar **Opciones**y, a continuación, seleccionar **mi foto**. La foto recién cargada tiene que mostrarse como la foto personal de Ken. Otra opción para comprobar la foto de cualquier usuario es que los administradores inicien Internet Explorer y naveguen a una dirección URL similar a esta:
   
-```
+```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648
 ```
 

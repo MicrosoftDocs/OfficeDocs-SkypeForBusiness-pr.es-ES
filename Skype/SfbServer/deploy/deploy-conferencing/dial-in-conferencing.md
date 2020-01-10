@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar conferencias de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: 148e9340d705aba87b80d3b4b7f1e0d321cfbe8a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ff04637cf077bae4c1408a48a487582a04123b54
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234147"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002930"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar conferencias de acceso telefónico local en Skype empresarial Server
  
 **Resumen:** Lea este tema para obtener información sobre cómo configurar conferencias de acceso telefónico local en Skype empresarial Server.
   
-Después de crear una topología que incluya la carga de trabajo de la Conferencia y las conferencias de acceso telefónico local seleccionadas, debe seguir pasos adicionales para configurar las conferencias de acceso telefónico local. Antes de leer este tema, asegúrese de que tiene un [plan de lectura para las conferencias de acceso telefónico local en Skype empresarial Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [los requisitos de hardware y software para las conferencias en Skype empresarial Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), así como el [Diagrama de flujo y la lista de comprobación de implementación de conferencias de acceso telefónico local](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
+Después de crear una topología que incluya la carga de trabajo de la Conferencia y las conferencias de acceso telefónico local seleccionadas, debe seguir pasos adicionales para configurar las conferencias de acceso telefónico local. Antes de leer este tema, asegúrese de que tiene un [plan de lectura para las conferencias de acceso telefónico local en Skype empresarial Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md), [los requisitos de hardware y software para las conferencias en Skype empresarial Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md), así como el [Diagrama de flujo y la lista de comprobación para las conferencias de acceso telefónico local](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing). 
   
 Para configurar la conferencia de acceso telefónico local, necesita realizar las siguientes tareas:
   
@@ -83,13 +83,13 @@ Para comprobar si se ha establecido la región en todos los planes de marcado de
     
 3. Ejecute los siguientes comandos en símbolo del sistema:
     
-   ```
+   ```powershell
    Get-CsDialPlan [-Identity <Identifier of the dial plans to be retrieved>]
    ```
 
    Por ejemplo:
     
-   ```
+   ```powershell
    Get-CsDialPlan
    ```
 
@@ -107,13 +107,13 @@ Para obtener más información, vea [Get-CsDialPlan](https://docs.microsoft.com/
     
 3. Para los planes de marcado a los que les falte la región de conferencias de acceso telefónico local, ejecute:
     
-   ```
+   ```powershell
    Set-CsDialPlan [-Identity <Identity of the dial plan to be modified>] -DialinConferencingRegion "<new region>"
    ```
 
    Por ejemplo:
     
-   ```
+   ```powershell
    Set-CsDialPlan -Identity Redmond -DialinConferencingRegion "US West Coast"
    ```
 

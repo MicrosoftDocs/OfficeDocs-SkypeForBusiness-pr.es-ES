@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
 description: El cmdlet Stop-CcLogging detiene la generación del registro de llamadas entrantes y salientes de un dispositivo de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: dcc62e8ec772912a8275f5321a6c91e28dde8c25
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4528f7c1458093874f59f347585a736666a9ea08
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286939"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003170"
 ---
 # <a name="stop-cclogging"></a>Stop-CcLogging
  
 El cmdlet Stop-CcLogging detiene la generación del registro de llamadas entrantes y salientes de un dispositivo de Skype Empresarial Cloud Connector Edition.
   
-```
+```powershell
 Stop-CcLogging [-RemoveCache]
 ```
 
@@ -33,7 +33,7 @@ Stop-CcLogging [-RemoveCache]
 
 En el siguiente ejemplo se detiene la generación del registro de llamadas entrantes y salientes:  
   
-```
+```powershell
 Stop-CcLogging
 ```
 
@@ -41,7 +41,7 @@ Stop-CcLogging
 
 En el siguiente ejemplo se detiene la generación del registro de llamadas entrantes y salientes, y se limpian los archivos caché:
   
-```
+```powershell
 Stop-CcLogging -RemoveCache
 ```
 

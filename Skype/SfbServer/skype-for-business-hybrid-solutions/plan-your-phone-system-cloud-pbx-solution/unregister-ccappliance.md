@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: El cmdlet Unregister-CcAppliance anula el registro del dispositivo actual de Skype Empresarial Cloud Connector Edition de un sitio RTC en la configuración del inquilino en línea.
-ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2bd8f3a3ef4ac2b29ab9e7d766836d7a3555c0f4
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286876"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003140"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
 El cmdlet Unregister-CcAppliance anula el registro del dispositivo actual de Skype Empresarial Cloud Connector Edition de un sitio RTC en la configuración del inquilino en línea.
   
-```
+```powershell
 Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Local]
 ```
 
@@ -33,7 +33,7 @@ Unregister-CcAppliance [[-SiteName] <string>] [[-ApplianceName] <string>] [-Loca
 
 En el siguiente ejemplo se anula el registro de un dispositivo actual de la configuración del inquilino en línea.
   
-```
+```powershell
 Unregister-CcAppliance
 ```
 
@@ -41,7 +41,7 @@ Unregister-CcAppliance
 
 En el siguiente ejemplo se comprueba la configuración para anular el registro localmente sin conectar con la configuración del inquilino en línea:
   
-```
+```powershell
 Unregister-CcAppliance -Local
 ```
 
@@ -49,7 +49,7 @@ Unregister-CcAppliance -Local
 
 En el siguiente ejemplo se anula el registro del dispositivo actual con el nombre "Appliance1" del sitio RTC "Site1":
   
-```
+```powershell
 Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 ```
 

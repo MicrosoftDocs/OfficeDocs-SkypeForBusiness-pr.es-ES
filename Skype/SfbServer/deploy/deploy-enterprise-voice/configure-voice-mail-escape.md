@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Resumen: Aprenda a configurar el escape del correo de voz en Skype empresarial Server mediante el shell de administración de Skype empresarial Server.'
-ms.openlocfilehash: c9a858ead9261944c162cb10fda63840f8de86d3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 27f283f4bfb64aa950bd9e72a9d6fdc17df91ba0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233577"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001220"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar el escape del correo de voz en Skype empresarial
 
@@ -41,7 +41,7 @@ Esta configuración se realiza con el cmdlet del shell de administración de Sky
 
 ## <a name="example"></a>Ejemplo
 
-```
+```powershell
 Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicemailEscapeTimer 2000
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 ```

@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenga información sobre Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementa la conectividad RTC local con el Sistema telefónico de Office 365 (PBX en la nube).
-ms.openlocfilehash: 1ef79cc9d50e21dc8b3376901638cd4f34e03f62
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3b95c1cca24b6faac8a6cf2807b6af324fdc57bd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287016"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002280"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plan para Skype Empresarial Cloud Connector Edition
 
@@ -127,7 +127,7 @@ Los componentes de conector de nube proporcionan la siguiente funcionalidad:
 
   - Servicios de certificados de Active Directory para emitir certificados internos
 
-- **Componente** de mediación: implementa el protocolo de asignación de puertas de enlace de medios y SIP entre Skype empresarial y las puertas de enlace RTC. Incluye una réplica de CMS que sincroniza la configuración de la base de datos global de CMS.
+- **Componente de mediación** : implementa el protocolo de asignación de puertas de enlace de medios y SIP entre Skype empresarial y las puertas de enlace RTC. Incluye una réplica de CMS que sincroniza la configuración de la base de datos global de CMS.
 
 ## <a name="cloud-connector-edition-topologies"></a>Topologías de edición del conector para la nube
 <a name="BKMK_Topologies"> </a>
@@ -244,7 +244,7 @@ Antes de implementar Cloud Connector Edition, asegúrese de tener lo siguiente p
 
   - Especifique la configuración del proxy por máquina en lugar de hacerlo por usuario. De lo contrario, se producirá un error de descarga de conector de nube Puede especificar la configuración del proxy por máquina cambiando el registro o configurando la directiva de grupo como sigue:
 
-  - **Registro:** HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Settings] ProxySettingsPerUser DWORD: 00000000
+  - **Registro:** HKEY_LOCAL_MACHINE configuración de \SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet] ProxySettingsPerUser DWORD: 00000000
 
   - **Directiva de Grupo:** Plantillas\>\>administrativas de equipos de\> Windows Internet Explorer: establecer la configuración de proxy por máquina (en lugar de por usuario)
 
@@ -360,13 +360,13 @@ Por motivos de seguridad, puede limitar el intervalo de puertos para el componen
 
 Por ejemplo, el siguiente comando limita el número de puertos que el componente de mediación usará para el tráfico multimedia a 50 000-51 000 para el audio (entrante y saliente). El componente de mediación podrá administrar 250 llamadas simultáneas con esta configuración. Tenga en cuenta que también puede limitar este intervalo en la puerta de enlace RTC/SBC:
 
-```
+```powershell
 Set-CSMediationServer -Identity MediationServer:mspool.contoso.com -AudioPortStart 50000 - AudioPortCount 1000
 ```
 
 Para recuperar el nombre del componente de mediación y ver los puertos predeterminados, puede usar el cmdlet [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps) de la siguiente manera:
 
-```
+```powershell
 Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 ```
 
@@ -425,7 +425,7 @@ El equipo host debe poder comunicarse con los recursos externos para instalar, a
 
 Si se requieren reglas más restrictivas, consulte las siguientes direcciones URL incluidas en la lista blanca:
 
-- [Direcciones URL](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) de la lista de revocación de certificados en [Office 365 URL e intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Direcciones URL de la lista de revocación de certificados](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) en [Office 365 URL e intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
 - Windows Update: [Cómo configurar un firewall para actualizaciones de software](https://technet.microsoft.com/en-us/library/bb693717.aspx)
 
@@ -516,7 +516,7 @@ Al configurar la información de puerta de enlace, recuerde lo siguiente:
 |Dirección IP de puerta de enlace de voz 1  <br/> |Dirección IP de puerta de enlace de voz.  <br/> ||
 |Dirección IP de puerta de enlace de voz 2 (copiar esta fila si tiene más de 2 puertas de enlace)  <br/> |Dirección IP de puerta de enlace de voz.  <br/> ||
 |Puerta de enlace de voz 1 puerto # (copiar esta fila si tiene más de 2 puertas de enlace)  <br/> |Puerto donde escuchará el tronco SIP de puerta de enlace de voz (por ejemplo, 5060).  <br/> ||
-|Puerta de enlace de voz 2 Puerto #  <br/> |Puerto donde escuchará el tronco SIP de puerta de enlace de voz (por ejemplo, 5060).  <br/> ||
+|Puerto de puerta de enlace de voz 2 #  <br/> |Puerto donde escuchará el tronco SIP de puerta de enlace de voz (por ejemplo, 5060).  <br/> ||
 |Protocolo de puerta de enlace de voz 1 para tráfico SIP  <br/> |TCP o TLS.  <br/> ||
 |Protocolo de puerta de enlace de voz 2 para tráfico SIP (copiar esta fila si tiene más de 2 puertas de enlace)  <br/> |TCP o TLS.  <br/> ||
 |Intervalo de puertos multimedia externos para tráfico desde y hacia el componente perimetral  <br/> |El intervalo de puertos TCP/UDP para el tráfico multimedia desde y hacia la interfaz externa del perímetro. Siempre tiene que empezar con 50000. Para obtener más información, consulte "puertos y protocolos".  <br/> |50000 - 59 999  <br/> |

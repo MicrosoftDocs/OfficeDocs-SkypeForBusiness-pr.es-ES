@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumen: configurar la mensajería unificada de Exchange Server para el correo de voz de Skype empresarial Server.'
-ms.openlocfilehash: 514b2159c3836aee4bd6bcfad2b85311280277c4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 61df3cb7f57a0fd924188f43374f0309d081b660
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238011"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001210"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar la mensajería unificada de Exchange Server para el correo de voz de Skype Empresarial Server
  
@@ -30,7 +30,7 @@ Skype empresarial Server le permite almacenar mensajes de voz en Exchange Server
   
 Si ya ha configurado la autenticación de servidor a servidor entre Skype empresarial Server y Exchange Server 2016 o Exchange Server 2013, estará listo para configurar la mensajería unificada. Para ello, primero debe crear y asignar un nuevo plan de marcado de mensajería unificada en el servidor Exchange. Por ejemplo, estos dos comandos (se ejecutan desde el shell de administración de Exchange) configurar un nuevo plan de marcado de 3 dígitos para Exchange:
   
-```
+```powershell
 New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
 Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,*,*" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
@@ -52,13 +52,13 @@ En el segundo comando, el valor de parámetro transferido al parámetro Configur
   
 Después de crear y configurar el nuevo plan de marcado debe agregar el nuevo plan de marcado a su servidor de mensajería unificada y luego modificar el modo de inicio de ese servidor; en particular, debe establecer el modo de inicio en "Doble". Puede realizar estas dos tareas desde el shell de administración de Exchange:
   
-```
+```powershell
 Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 ```
 
 Una vez configurado el servidor de mensajería unificada, debe ejecutar el cmdlet enable-ExchangeCertificate para asegurarse de que el certificado de Exchange se aplica al servicio de mensajería unificada:
   
-```
+```powershell
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
 ```
 
@@ -66,7 +66,7 @@ Una vez que el certificado se haya asignado correctamente, debe detener y reinic
   
 Tras finalizar de configurar el servidor de mensajería unificada puede configurar el Enrutador de llamadas de mensajería unificada:
   
-```
+```powershell
 Set-UMCallRouterSettings -Server "atl-exchange-001.litwareinc.com" -UMStartupMode "Dual" -DialPlans "RedmondDialPlan" 
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "45BAA32496CC891169B75B9811320F78A1075DDA" -Services "IIS","UMCallRouter"
 ```
@@ -75,13 +75,13 @@ Puesto que el modo de inicio ha cambiado, debe detener y reiniciar el servicio M
   
 Para completar la configuración de mensajería unificada, necesitará crear una directiva de buzón de correo de mensajería unificada y luego utilizar esa directiva para habilitar a los usuarios para la mensajería unificada. Puede crear una directiva de buzón de correo utilizando un comando similar a este:
   
-```
+```powershell
 New-UMMailboxPolicy -Name "RedmondMailboxPolicy" -AllowedInCountryOrRegionGroups "Anywhere"
 ```
 
 Y puede habilitar a un usuario para la mensajería unificada utilizando un comando similar a este:
   
-```
+```powershell
 Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com" -Identity "litwareinc\kenmyer" -UMMailboxPolicy "RedmondMailboxPolicy"
 ```
 
@@ -89,14 +89,14 @@ En el comando anterior, el parámetro Extensions representa el número de extens
   
 Una vez que haya habilitado su buzón de correo, el usuario kenmyer@litwareinc.com deberá poder utilizar la mensajería unificada de Exchange. Puede comprobar que el usuario se puede conectar a la mensajería unificada de Exchange ejecutando el cmdlet [Test-CsExUMConnectivity](https://docs.microsoft.com/powershell/module/skype/test-csexumconnectivity?view=skype-ps) desde el shell de administración de Skype empresarial Server:
   
-```
+```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
 Si tiene un segundo usuario que ha sido habilitado para la mensajería unificada, puede utilizar el cmdlet [Test-CsExUMVoiceMail](https://docs.microsoft.com/powershell/module/skype/test-csexumvoicemail?view=skype-ps) para verificar que este segundo usuario pueda dejar un mensaje de correo de voz para el primer usuario.
   
-```
+```powershell
 $credential = Get-Credential "litwareinc\pilar"
 Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress "sip:kenmyer@litwareinc.com" -SenderSipAddress "sip:pilar@litwareinc.com" -SenderCredential $credential
 ```
@@ -105,7 +105,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Configuración de mensajería unificada en Microsoft Exchange Server 
 > [!IMPORTANT]
-> Si desea usar la mensajería unificada de Exchange (UM) para proporcionar contestador automático, Outlook Voice Access o servicios de operador automático para usuarios de Enterprise Voice, lea [plan para la integración de mensajería unificada de Exchange en Skype empresarial](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)y, a continuación, siga los instrucciones de esta sección. 
+> Si desea usar la mensajería unificada de Exchange (UM) para proporcionar respuesta de llamada, Outlook Voice Access o el operador automático para usuarios de Enterprise Voice, lea [plan para la integración de mensajería unificada de Exchange en Skype empresarial](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)y, a continuación, siga las instrucciones de esta sección. 
 
 Para configurar la mensajería unificada de Exchange para que funcione con la telefonía IP empresarial, tendrá que realizar las siguientes tareas:
 
@@ -189,7 +189,7 @@ El servidor de Exchange debe estar configurado con un certificado de servidor pa
 
 **Para descargar el certificado de la entidad emisora:**
 
-1. En el servidor que ejecuta la mensajería unificada de Exchange, haga clic en **Inicio**, haga clic en **ejecutar**, escriba **\<http://nombre del servidor de la CA emisora>/certsrv**y, a continuación, haga clic en **Aceptar**.
+1. En el servidor que ejecuta la mensajería unificada de Exchange, haga clic en **Inicio**, haga clic en **ejecutar**, escriba **http://\<nombre del servidor de la CA emisora>/certsrv**y, a continuación, haga clic en **Aceptar**.
 2. En seleccionar una tarea, haga clic en **descargar un certificado de CA, una cadena de certificados o una CRL**.
 3. En **descargar un certificado de CA, una cadena de certificados o una CRL**, seleccione el **método de codificación para base 64**y, después, haga clic en**Descargar certificado de CA**.
    > [!NOTE]

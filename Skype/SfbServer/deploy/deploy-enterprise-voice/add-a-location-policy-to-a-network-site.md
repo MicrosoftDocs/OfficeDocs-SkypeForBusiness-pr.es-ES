@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Asignar directivas de ubicación E9-1-1 a los sitios de red en la telefonía IP empresarial de Skype empresarial.
-ms.openlocfilehash: 4a74b1ee44d1e2f34a51d7859235e10649d0e2ee
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 36885fadddddd1fd0bf5ba91a6e0c30e79ef8b90
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233870"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001430"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Agregar una directiva de ubicación a un sitio de red en Skype empresarial Server
  
@@ -45,7 +45,7 @@ Para obtener más información sobre cómo trabajar con sitios de red, consulte 
     
     Asigne la directiva de ubicación con la etiqueta **Redmond** a un sitio de red existente denominado **Redmond**.
     
-   ```
+   ```powershell
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
@@ -57,7 +57,7 @@ Para obtener más información sobre cómo trabajar con sitios de red, consulte 
     
     Cree el sitio de red en la región de red y asígnele la directiva de ubicación con la etiqueta **Redmond**.
     
-   ```
+   ```powershell
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Crear, modificar o eliminar rangos numéricos no asignados para la aplicación de anuncios en Skype empresarial Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: f3d646e2d838312ee90453c66d1e7bf239cf1537
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c52cbf8e281307ad75023f3edc8b4ec1d77f4b42
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233228"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001670"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin asignar en Skype empresarial Server
  
@@ -102,31 +102,31 @@ Use uno de los procedimientos siguientes para configurar intervalos numéricos n
     
    - Si desea crear un intervalo de números para un servicio de anuncio, ejecute:
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
      ```
 
    - O, si desea crear un intervalo de números para el Operador automático de mensajería unificada de Exchange, ejecute:
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
      ```
 
      Por ejemplo:
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100" -AnnouncementName "Welcome Announcement" -AnnouncementService ApplicationServer:Redmond.contoso.com
      ```
 
      O bien
     
-     ```
+     ```powershell
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber "+12065551234" -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551100"
      ```
 
      El siguiente ejemplo muestra cómo modificar los números de un intervalo de números no asignados existente:
     
-     ```
+     ```powershell
      Set-CsUnassignedNumber -Identity "Unassigned range 1" -NumberRangeStart "+14255551000" -NumberRangeEnd "+14255551900"
      ```
 
@@ -154,13 +154,13 @@ Use uno de los procedimientos siguientes para configurar intervalos numéricos n
     
 3. En la línea de comandos, escriba lo siguiente:
     
-   ```
+   ```powershell
    Remove-CsUnassignedNumber -Identity "<name of unassigned number range>" 
    ```
 
     Por ejemplo:
     
-   ```
+   ```powershell
    Remove-CsUnassignedNumber -Identity "Unassigned range 1"
    ```
 

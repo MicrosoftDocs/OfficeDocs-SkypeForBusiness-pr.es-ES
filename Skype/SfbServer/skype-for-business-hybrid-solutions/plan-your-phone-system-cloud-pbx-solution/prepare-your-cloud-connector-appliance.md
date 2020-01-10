@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Obtenga más información sobre cómo preparar el dispositivo de conector de nube para su implementación y uso con el sistema telefónico en Office 365 (PBX en la nube).
-ms.openlocfilehash: f2140eb0be25ba0b6935f389e5ae7b27bfc37359
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 779cb53dd19d627d8864da65e3e41f5d6dabee99
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287002"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001950"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar el dispositivo de Cloud Connector
 
@@ -54,7 +54,7 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
 
 1. Abra una consola de PowerShell como administrador y confirme que los cmdlets de Skype empresarial Cloud Connector Edition están disponibles con el siguiente cmdlet:
 
-   ```
+   ```powershell
    Get-Command *-Cc*
    ```
 
@@ -64,7 +64,7 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
 
     Puede encontrar la ubicación del **Directorio de sitios** con el siguiente cmdlet:
 
-   ```
+   ```powershell
    Get-CcSiteDirectory
    ```
 
@@ -78,7 +78,7 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
 
      Para establecer el **Directorio de sitios** en una ubicación distinta de la predeterminada, ejecute el siguiente cmdlet:
 
-   ```
+   ```powershell
    Set-CcSiteDirectory <UNC File path>
    ```
 
@@ -90,13 +90,13 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
 
     Para encontrar la ubicación del **Directorio de aplicaciones**, ejecute el siguiente cmdlet:
 
-   ```
+   ```powershell
    Get-CcApplianceDirectory
    ```
 
     Para establecer el **Directorio de aplicaciones** en una ubicación distinta de la predeterminada, ejecute el siguiente cmdlet:
 
-   ```
+   ```powershell
    Set-CcApplianceDirectory <File path>
    ```
 
@@ -109,7 +109,7 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
 
 - Ejecute el siguiente cmdlet para establecer la ruta de acceso, incluido el nombre del archivo, al certificado perimetral externo. Por ejemplo: C:\certs\cce\ap.contoso.com.pfx. El certificado no puede contener claves privadas.
 
-  ```
+  ```powershell
   Set-CcExternalCertificateFilePath -Path <Full path to External certificate, including file name> -Target EdgeServer
   ```
 
@@ -125,7 +125,7 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
 
 Si va a utilizar TLS entre el servidor de mediación y la puerta de enlace RTC/SBC, ejecute el siguiente cmdlet para establecer la ruta de acceso, incluido el nombre de archivo, al certificado de la puerta de enlace. Por ejemplo: C:\certs\cce\sbc.contoso.com.cer. El certificado debe contener la CA raíz y la cadena intermedia del certificado asignado a la puerta de enlace:
 
-```
+```powershell
 Set-CcExternalCertificateFilePath -Path <Full path to gateway certificate, including file name> -Target MediationServer 
 ```
 
@@ -154,7 +154,7 @@ Prepare el archivo CloudConnector. ini con la información recopilada en [determ
 
 Para actualizar el archivo, ejecute primero el siguiente cmdlet para obtener la plantilla de muestra (CloudConnector.Sample.ini):
 
-```
+```powershell
 Export-CcConfigurationSampleFile
 ```
 
@@ -227,7 +227,7 @@ Al actualizar el archivo .ini, tenga en cuenta lo siguiente:
 
 Ejecute el siguiente cmdlet para descargar los bits y los archivos de información de la versión en el **Directorio de sitios**:
 
-```
+```powershell
 Start-CcDownload
 ```
 
@@ -255,7 +255,7 @@ Antes de continuar con este paso, asegúrese de que se haya creado el conmutador
 
 Inicie una consola de PowerShell como administrador y ejecute el siguiente cmdlet para convertir la imagen ISO a un disco duro virtual (VHD):
 
-```
+```powershell
 Convert-CcIsoToVhdx -IsoFilePath <Windows ISO File Path, including file name>
 ```
 
@@ -278,13 +278,13 @@ Si va a realizar una implementación de varios sitios, no necesita convertir el 
 
 Los scripts de PowerShell proporcionados requieren que la directiva de ejecución se establezca en RemoteSigned. Para ver la configuración actual, abra una consola de PowerShell como administrador y después ejecute el siguiente cmdlet:
 
-```
+```powershell
 Get-ExecutionPolicy
 ```
 
 Si no se establece como "RemoteSigned", ejecute el siguiente cmdlet para cambiarlo:
 
-```
+```powershell
 Set-ExecutionPolicy RemoteSigned
 ```
 

@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Resumen: Cómo usar la herramienta de personalización de Office con el cliente de Skype empresarial.'
-ms.openlocfilehash: e7eb331c1b63a9e6a94ae3920e65ef57f426fbb0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b5c66fee4f6c879c8ded2897b64e63654dd950be
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234603"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001600"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Usar la herramienta de personalización de Office (OCT) en Skype empresarial Server
  
@@ -25,13 +25,13 @@ La herramienta de personalización de Office (OCT) forma parte del programa de i
   
 La OCT es parte de la configuración y solo se usa para las versiones con licencia por volumen del producto. Para ejecutar la OCT, escriba `setup.exe /admin` en la línea de comandos de la raíz del punto de instalación de red que contiene los archivos de origen de Office. Por ejemplo, use lo siguiente:
   
- ```
+ ```console
 \\server\share\Office15\setup.exe /admin
 ```
   
 Los administradores usan la OCT para crear un archivo. MSP de personalización del programa de instalación y pueden personalizar las siguientes áreas:
   
-- **Configuración** Se usa para especificar la ubicación de instalación predeterminada en el cliente y el nombre de la organización predeterminada, otras fuentes de instalación en red, la clave de producto, el contrato de licencia para el usuario final, el nivel de presentación, las versiones anteriores de Office que se deben quitar y los programas personalizados que se ejecutan durante instalación, configuración de seguridad y propiedades de configuración.
+- **Configuración** Se usa para especificar la ubicación de instalación predeterminada en el cliente y el nombre de la organización predeterminada, otras fuentes de instalación en red, la clave de producto, el contrato de licencia para el usuario final, el nivel de presentación, las versiones anteriores de Office que se van a quitar;
     
 - **Características** Se usa para configurar las opciones de usuario y personalizar la instalación de las características de Office. Los administradores pueden usar la OCT para especificar los valores iniciales predeterminados de la aplicación de Office para los usuarios. Los usuarios pueden modificar la mayoría de las opciones después de la instalación.
     

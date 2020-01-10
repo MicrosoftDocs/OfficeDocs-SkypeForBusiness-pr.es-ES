@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Para que un usuario Use un sistema telefónico en Office 365 (PBX en la nube), primero debe habilitarlo para telefonía IP empresarial y asignarle un número de teléfono. Esto se hace con la implementación local mientras el usuario aún está alojado en la implementación local.
-ms.openlocfilehash: fdd405d84cddcfe805063287b8330ccea43397de
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8bf8720896aa8115cb24d3b632b4ae576f466bcc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287513"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003480"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Habilitar a los usuarios para Enterprise Voice local
  
@@ -52,25 +52,25 @@ Para que un usuario Use un sistema telefónico en Office 365 (PBX en la nube), p
 
 En algunos casos, es posible que necesite modificar la forma en que habilita los usuarios para telefonía IP empresarial, con el fin de asegurarse de que puedan realizar y recibir llamadas correctamente. Si tiene usuarios de su implementación que cumplen las siguientes condiciones, realice los pasos que se incluyen para habilitar al usuario para telefonía IP empresarial.
   
-- Si se crea un usuario en su AD local y luego se sincroniza con Skype empresarial online sin estar habilitado para Skype empresarial o para telefonía IP empresarial y no tiene un conjunto de LineURI, ejecute los siguientes cmdlets para cada usuario afectado, sustituyendo los valores de < C0 > <b1></b1> con valores reales para su entorno:
+- Si se crea un usuario en su ad local y, a continuación, se sincroniza con Skype empresarial online sin estar habilitado para Skype empresarial o para telefonía IP empresarial y no tiene un conjunto de LineURI, ejecute los siguientes cmdlets para cada usuario afectado, sustituyendo los \< \> valores de con los valores reales de su entorno:
     
-  ```
+  ```powershell
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
   ```
 
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
 - Si un usuario ya está habilitado para Skype empresarial local, pero no se ha habilitado para telefonía IP empresarial o ha asignado un LineURI antes de moverlo a Skype empresarial online, ejecute el siguiente cmdlet para cada usuario:
     
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
 - Si un usuario ya está habilitado en Skype empresarial local pero no habilitado para telefonía IP empresarial, incluso si ya tiene asignada una LineURI, ejecute el siguiente cmdlet para cada usuario afectado:
     
-  ```
+  ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true
   ```
 

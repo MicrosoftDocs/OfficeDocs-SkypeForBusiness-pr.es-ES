@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Resumen: habilite el almacén de contactos unificado en Skype empresarial Server.'
-ms.openlocfilehash: 39317316be6c4590e992c61e91549748f3bf6719
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cadba38f40a8ff12501e0fe73f4243dc96a5831
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239322"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003070"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implementar el almacén de contactos unificado en Skype empresarial Server
  
@@ -44,37 +44,37 @@ Al implementar Skype empresarial Server y publicar la topología, el almacén de
     
    - Para habilitar el almacén de contactos Unificado de forma global para todos los usuarios de Skype empresarial Server, en la interfaz de línea de comandos de Windows PowerShell, con el siguiente cmdlet:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Identity global -UcsAllowed $True
    ```
 
    - Para habilitar el almacén de contactos unificado para los usuarios de un sitio específico, en el símbolo del sistema, escriba:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
    Por ejemplo:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
    ```
 
    - Para habilitar el almacén de contactos unificado por inquilino, en el símbolo del sistema, escriba:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
    Por ejemplo:
     
-   ```
+   ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
    ```
 
    - Para habilitar el almacén de contactos unificado para usuarios especificados, en el símbolo del sistema, escriba:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "<policy name>" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "<user display name>" -PolicyName <"policy name">
    ```
@@ -84,7 +84,7 @@ Al implementar Skype empresarial Server y publicar la topología, el almacén de
   
     Por ejemplo:
     
-   ```
+   ```powershell
    New-CsUserServicesPolicy -Identity "UCS Enabled Users" -UcsAllowed $True
    Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "UCS Enabled Users"
    ```
@@ -108,13 +108,13 @@ Puede determinar si se han migrado los contactos de un usuario usando uno de los
   
 - Compruebe la siguiente clave del registro en el equipo cliente:
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<URL\>SIP \UCS
+    HKEY_CURRENT_USER \Software\Microsoft\Office\15.0\Lync\\<SIP URL\>\UCS
     
     Si los contactos del usuario se almacenan en Exchange 2013, esta clave contiene un valor de InUCSMode con un valor de 2165.
     
 - Ejecute el cmdlet **Test-CsUnifiedContactStore**. En la línea de comandos del shell de administración de Skype empresarial Server, escriba:
     
-  ```
+  ```powershell
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
   ```
 
@@ -139,6 +139,6 @@ La importación de datos del almacén de contactos unificado desde una base de d
 > [!IMPORTANT]
 > Antes de mover un buzón de Exchange de Exchange 2013 a Exchange 2010, el administrador de Exchange debe asegurarse de que el administrador de Skype empresarial Server haya revertido primero los contactos de usuario de Skype empresarial Server de Exchange 2013 a Skype para Business Server. Para deshacer los contactos de la tienda de contactos unificada en Skype empresarial Server, consulte el procedimiento "para revertir contactos de almacenamiento de contactos Unificado de Exchange 2013 a Skype empresarial Server", más adelante en esta sección. 
   
- **Cómo revertir contactos de usuario:** Si usa el cmdlet **Move-CsUser** para mover usuarios entre Skype empresarial Server 2015 y Lync Server 2010, puede omitir estos pasos porque el cmdlet **Move-CsUser** revierte automáticamente el almacén de contactos unificado cuando mueve usuarios de Skype para Business Server 2015 a Lync Server 2010. **Move-CsUser** no deshabilita la Directiva del almacén de contactos unificado, por lo que la migración al almacén de contactos unificado se repetirá si el usuario vuelve a usar Skype empresarial Server 2015.
+ **Cómo revertir contactos de usuario:** Si usa el cmdlet **Move-CsUser** para mover usuarios entre Skype empresarial Server 2015 y Lync Server 2010, puede omitir estos pasos porque el cmdlet **Move-CsUser** revierte automáticamente el almacén de contactos unificado cuando mueve usuarios de Skype empresarial Server 2015 a Lync Server 2010. **Move-CsUser** no deshabilita la Directiva del almacén de contactos unificado, por lo que la migración al almacén de contactos unificado se repetirá si el usuario vuelve a usar Skype empresarial Server 2015.
   
 

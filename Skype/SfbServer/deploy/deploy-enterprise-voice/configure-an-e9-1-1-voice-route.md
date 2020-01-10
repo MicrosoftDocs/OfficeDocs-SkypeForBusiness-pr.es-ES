@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: Configure las rutas de voz E9-1-1 en Skype empresarial Enterprise Voice.
-ms.openlocfilehash: a8121cc7a7345150e485dc2e2b81e062672f5703
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c835aa2ab2b20f7877aa6a0deeb70c7459bcd8cc
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233717"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001400"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Configurar una ruta de voz E9-1-1 en Skype empresarial Server
  
@@ -40,7 +40,7 @@ Para implementar E9-1-1, deberá configurar primero una ruta de voz para llamada
     
     Debe ser el mismo nombre que vaya a usar para la configuración de **RTC** en la directiva de ubicación. Aunque la implementación va a tener varios registros de uso telefónico, en el siguiente ejemplo se agrega “Uso para emergencias” a la lista actual de usos de de RTC disponibles. Para obtener más información, vea [configurar directivas de voz, registros de uso de RTC y rutas de voz en Skype empresarial](voice-and-pstn.md).
     
-   ```
+   ```powershell
    Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
    ```
 
@@ -48,7 +48,7 @@ Para implementar E9-1-1, deberá configurar primero una ruta de voz para llamada
     
     El patrón numérico debe coincidir con el patrón numérico que se usa en la configuración de **Cadena de marcado de emergencia** en la directiva de ubicación. Es necesario un signo "+" porque Skype para empresas agrega "+" a las llamadas de emergencia. "Co1-pstngateway-1" es el identificador del servicio de tronco SIP del proveedor de servicios E9-11. En el siguiente ejemplo se usa “EmergencyRoute” como nombre de la ruta de voz.
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
    ```
 
@@ -56,7 +56,7 @@ Para implementar E9-1-1, deberá configurar primero una ruta de voz para llamada
     
     En el siguiente ejemplo se da por hecho que el usuario tiene un uso “Local” en su directiva de voz.
     
-   ```
+   ```powershell
    New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
    ```
 

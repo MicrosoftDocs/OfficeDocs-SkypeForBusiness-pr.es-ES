@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumen: implemente la aplicación Web de Skype empresarial y la aplicación reuniones de Skype que se usan con Skype empresarial.'
-ms.openlocfilehash: 273ffca9ae91973fe9e3953efc914364de382ed4
-ms.sourcegitcommit: 8a20cb7bd1d23e2cf2987f55039748bad60f501b
+ms.openlocfilehash: eb939ddf394ff62b9173939622a8ef3f20faaca9
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "36972881"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003530"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar clientes descargables en Internet en Skype empresarial Server
 
@@ -52,19 +52,19 @@ La aplicación Web de Skype empresarial, la aplicación reuniones de Skype y Sky
 
 3. Desde la interfaz de línea de comandos de Windows PowerShell, ejecute el siguiente comando:
 
-    ```
+    ```powershell
     add-pssnapin Microsoft.Adfs.powershell
     ```
 
 4. Establezca una relación de usuario mediante la ejecución del siguiente comando:
 
-    ```
+    ```powershell
     Add-ADFSRelyingPartyTrust -Name ContosoApp -MetadataURL https://lyncpool.contoso.com/passiveauth/federationmetadata/2007-06/federationmetadata.xml
     ```
 
 5. Defina las siguientes reglas de usuario de confianza:
 
-    ```
+    ```powershell
    $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "http://schemas.contoso.com/authorization/claims/permit", Value = "true");'$IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "http://schemas.contoso.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
    Set-ADFSRelyingPartyTrust -TargetName ContosoApp -IssuanceAuthorizationRules $IssuanceAuthorizationRules -IssuanceTransformRules $IssuanceTransformRules
    Set-CsWebServiceConfiguration -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -123,13 +123,13 @@ Este procedimiento es opcional y se aplica a Skype empresarial Server 2015 CU5 y
 
 1. Al habilitar el acceso a la red de entrega de contenido (CDN), los usuarios podrán conectarse a la red CDN en línea y obtener la aplicación reuniones de Skype (en Windows) y Skype empresarial para Mac (en Mac), y usarán la experiencia de la combinación de reuniones simplificada.
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
    ```
 
 2. Permitir la telemetría de registro del lado cliente de la Página Web de la Unión a reuniones o de la aplicación reuniones de Skype para enviarla a los servidores de Microsoft (el comando tiene el valor predeterminado falso).
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
@@ -137,7 +137,7 @@ Este procedimiento es opcional y se aplica a Skype empresarial Server 2015 CU5 y
 
 3. Establezca el tiempo de espera antes de volver a la experiencia de la aplicación Web de Skype empresarial hospedada localmente si CDN no está disponible. El valor predeterminado es 6 segundos. En caso de que fuese 0, no habría tiempo de espera.
 
-   ```
+   ```powershell
    Set-CsWebServiceConfiguration -JoinLauncherCdnTimeout (New-TimeSpan -Seconds 10)
    ```
 

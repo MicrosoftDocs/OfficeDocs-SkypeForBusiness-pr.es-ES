@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: El portal web administrativo de Skype empresarial Server V1 (SRS v1, anteriormente conocido como Lync Room System) es un portal web que las organizaciones pueden usar para mantener salas de conferencias de sistemas de salas de Skype. Los administradores pueden usar el portal web administrativo SRS V1 para supervisar el estado del dispositivo, por ejemplo, mediante la supervisión de los dispositivos de audio o vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
-ms.openlocfilehash: bf18cefbdaa5beeaef63d16b5447cce2969fc147
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c05b558176b92358206e7cee2355ff82683ed45
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234179"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002890"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implementar el portal web administrativo SRS V1 en Skype empresarial Server
 
@@ -86,7 +86,7 @@ Para instalar el portal web administrativo de SRS v1, use los pasos siguientes.
 
 1. Configure el puerto de la aplicación de confianza ejecutando el siguiente cmdlet en el shell de administración de Skype empresarial Server:
 
-   ```
+   ```powershell
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
@@ -98,19 +98,19 @@ Para instalar el portal web administrativo de SRS v1, use los pasos siguientes.
 
 4. En el archivo Web. config, cambie PortalUserName por el nombre de usuario creado en el paso 2, en la sección "[configurar el entorno del portal web administrativo SRS v1](room-system-v1-administrative-web-portal.md#Config_Env)" (el nombre recomendado en el paso es LRSApp):
 
-    ```
+    ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
 5. Dado que el portal administrativo de SRS v1 es una aplicación de confianza, no es necesario que proporcione la contraseña en la configuración del portal. Si este usuario utiliza un registrador diferente del local, deberá especificar el registrador que utilizará agregando la siguiente línea en el archivo Web.Config: 
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
    ```
 
 6. Si utiliza un puerto diferente de 5061, agregue la siguiente línea en el archivo Web.Config: 
 
-   ```
+   ```xml
    <add key="PortalUserRegistrarPort" value="5061" />
    ```
 
@@ -221,7 +221,7 @@ Al abrir https://localhost/lrs, podrá ver la página de inicio de sesión pero,
 
 - Si ha creado cuentas de SRS y no las ve en el portal web administrativo, recopile los registros de cliente usando Fiddler, copie el registro de la consola de las herramientas de desarrollo del explorador y luego envíe esta información a su contacto de soporte técnico de SRS. También puede modificar el valor del nivel de seguimiento en el archivo Web.Config para obtener un registro más detallado.
 
-  ```
+  ```xml
   <system.diagnostics>
     <switches>
       <!--

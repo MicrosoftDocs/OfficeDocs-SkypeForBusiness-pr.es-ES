@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: El cmdlet Set-CcApplianceDirectory establece el directorio de trabajo del servidor host de Skype Empresarial Cloud Connector Edition. Todos los archivos de implementación se almacenan en este directorio.
-ms.openlocfilehash: 56a13da740b0c23adee7e05ddbcc1bbc82f0f1cc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dfc85a08709fd550b91dbecdb5d4186f265ca67
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287058"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003230"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
 El cmdlet Set-CcApplianceDirectory establece el directorio de trabajo del servidor host de Skype Empresarial Cloud Connector Edition. Todos los archivos de implementación se almacenan en este directorio.
   
-```
+```powershell
 Set-CcApplianceDirectory[[-Path] <string>]
 ```
 
@@ -33,7 +33,7 @@ Set-CcApplianceDirectory[[-Path] <string>]
 
 En el siguiente ejemplo se establece el directorio de trabajo del servidor host en c:\cloudconnector\applianceroot:
   
-```
+```powershell
 Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 ```
 

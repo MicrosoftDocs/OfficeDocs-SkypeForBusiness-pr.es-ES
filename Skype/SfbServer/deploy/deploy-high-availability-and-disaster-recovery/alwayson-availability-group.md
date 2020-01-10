@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implemente (instale) un grupo de disponibilidad AlwaysOn en la implementación de Skype empresarial Server.
-ms.openlocfilehash: 2cfc75aecd53a82e146feefd944134a4695c21fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eadf3c67f5d2618d7070c2a3540c2a9ad08b5942
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240131"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41002920"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implementar un grupo de disponibilidad AlwaysOn en un servidor back-end en Skype empresarial Server
  
@@ -138,7 +138,7 @@ La forma de implementar un AG depende de si lo está implementando en un grupo n
     
    - Abra el shell de administración de Skype empresarial Server y escriba el cmdlet siguiente para crear los inicios de sesión de SQL en esta réplica:
     
-   ```
+   ```powershell
    Install-CsDatabase -Update
    ```
 
@@ -152,13 +152,13 @@ La forma de implementar un AG depende de si lo está implementando en un grupo n
   
 1. Realice la conmutación por error de todos los datos del espejo al nodo principal abriendo el shell de administración de Skype empresarial Server y escribiendo el siguiente cmdlet.
     
-   ```
+   ```powershell
    Invoke-CsDatabaseFailover -PoolFqdn <Pool FQDN> -DatabaseType <DatabaseType> -NewPrincipal "Primary"
    ```
 
     Repita este cmdlet para cada tipo de base de datos en el grupo de servidores. Puede usar el siguiente cmdlet para buscar todos los tipos de base de datos almacenados en este grupo de servidores.
      
-   ```
+   ```powershell
    Get-CsPool -Identity <Pool FQDN>
    ```
 
@@ -296,7 +296,7 @@ La forma de implementar un AG depende de si lo está implementando en un grupo n
     
     - Abra el shell de administración de Skype empresarial Server y escriba el cmdlet siguiente para crear los inicios de sesión de SQL en esta réplica:
     
-    ```
+    ```powershell
     Install-CsDatabase -Update
     ```
 
@@ -428,7 +428,7 @@ La forma de implementar un AG depende de si lo está implementando en un grupo n
     
     - Abra el shell de administración de Skype empresarial Server y escriba el cmdlet siguiente para crear los inicios de sesión de SQL en esta réplica:
     
-      ```
+      ```powershell
       Install-CsDatabase -Update
       ```
 

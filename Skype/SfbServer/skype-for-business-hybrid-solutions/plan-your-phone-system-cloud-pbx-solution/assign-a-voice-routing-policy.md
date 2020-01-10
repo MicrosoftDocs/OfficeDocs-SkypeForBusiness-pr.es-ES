@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Resumen: Lea este tema para obtener informaci√≥n sobre c√≥mo asignar una directiva de voz para los usuarios que usan el sistema telef√≥nico en Office 365 con conectividad RTC local.'
-ms.openlocfilehash: 0d310378b77c09b427836f0d9bceb60a14982071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fc1bf50eabc1b596ba54e3447c0357cfd304ad2c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294435"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003040"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Asignar una directiva de enrutamiento de voz
  
@@ -51,13 +51,13 @@ Antes de usar una directiva de enrutamiento de voz global para su sistema telef√
     
 3. Agregue los registros de uso de RTC a la Directiva:
     
-   ```
+   ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
     Por ejemplo:
     
-   ```
+   ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
    ```
 
@@ -71,13 +71,13 @@ Antes de usar una directiva de enrutamiento de voz global para su sistema telef√
     
 3. Crea una directiva de enrutamiento de voz:
     
-   ```
+   ```powershell
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
     Por ejemplo:
     
-   ```
+   ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
    ```
 
@@ -95,13 +95,13 @@ Siga estos pasos para asignar la directiva a un usuario, independientemente de s
     
 3. Asignar una directiva de voz existente a un usuario:
     
-   ```
+   ```powershell
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
     Por ejemplo:
     
-   ```
+   ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
    ```
 

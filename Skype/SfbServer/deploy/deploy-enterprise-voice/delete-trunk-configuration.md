@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumen: Aprenda a eliminar una colección de parámetros de configuración de troncal con el panel de control de Skype empresarial Server.'
-ms.openlocfilehash: 5823c47234f912293c7af2a15bf1fcb87ff23e15
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 97a0820258a837968b88e6840232829f3ad11d21
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233214"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001000"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Eliminar una colección existente de parámetros de configuración del tronco de SIP en Skype empresarial Server
  
@@ -63,7 +63,7 @@ Puede eliminar los ajustes de configuración del tronco mediante el shell de adm
 
 - El siguiente comando elimina las configuraciones de tronco aplicadas al sitio Redmond:
     
-  ```
+  ```powershell
   Remove-CsTrunkConfiguration -Identity site:Redmond
   ```
 
@@ -71,7 +71,7 @@ Puede eliminar los ajustes de configuración del tronco mediante el shell de adm
 
 - Este comando elimina todas las configuraciones de tronco aplicadas al ámbito del servicio:
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration -Filter "service:*" | Remove-CsTrunkConfiguration
   ```
 
@@ -79,7 +79,7 @@ Puede eliminar los ajustes de configuración del tronco mediante el shell de adm
 
 - El siguiente comando quita las configuraciones de tronco en las que la omisión de medios se ha habilitado:
     
-  ```
+  ```powershell
   Get-CsTrunkConfiguration | Where-Object {$_.EnableBypass -eq $True} | Remove-CsTrunkConfiguration
   ```
 

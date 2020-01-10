@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar una renuncia de archivado para Skype empresarial Server.'
-ms.openlocfilehash: 5901429918d4cf346cbbf9f1fdad6ff4736817ea
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d6c08b6fe2eaa6c74231b96346661488c3f8e2b0
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234361"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001060"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configurar descargos de responsabilidad de archivado para usuarios externos en Skype empresarial Server
  
@@ -45,13 +45,13 @@ Para permitir que los usuarios externos colaboren con los usuarios de su impleme
 
 Para habilitar la declinación de responsabilidades de archivado, establezca el valor de la propiedad **EnableArchivingDisclaimer** en True ($True):
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 ```
 
 Para deshabilitar la declinación de responsabilidades de archivado, establezca el valor de la propiedad **EnableArchivingDisclaimer** en False ($False):
   
-```
+```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
 ```
 

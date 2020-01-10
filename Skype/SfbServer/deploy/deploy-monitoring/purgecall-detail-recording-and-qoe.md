@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Resumen: Aprenda a purgar manualmente registros de las bases de datos de CDR y de QoE que usa Skype empresarial Server.'
-ms.openlocfilehash: ba87e05dd72e5da22cfe4e01cd68be1a9fac6242
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5dbd2120e408dea0c3b34f87c17e4fbb18cc5055
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239881"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001160"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Purgar manualmente las bases de datos de grabación de detalles de llamadas y de calidad de la experiencia en Skype empresarial Server
  
@@ -29,7 +29,7 @@ Los administradores pueden configurar las bases de datos de Registro detallado d
   
 Además de esta purga automática, se han agregado dos cmdlets nuevos &#x2014; Invoke-CsCdrDatabasePurge y Invoke-CsQoEDatbasePurge &#x2014; a Skype empresarial Server. Estos cmdlets permiten a los administradores purgar manualmente registros de las bases de datos de CDR y QoE en cualquier momento. Por ejemplo, para depurar manualmente todos los registros que tengan más de 10 días de antigüedad de la base de datos de CDR puede utilizar un comando similar al siguiente:
   
-```
+```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
@@ -37,7 +37,7 @@ En el comando anterior, los registros de detalles de la llamada y los registros 
   
 Como se ha mostrado anteriormente, al ejecutar el cmdlet Invoke-CsCdrDatabasePurge es preciso incluir tanto el parámetro PurgeCallDetaiDataOlderThanDays como el parámetro PurgeDiagnosticDataOlderThanDays. Pero, no es necesario establecer estos parámetros en el mismo valor. Por ejemplo, es posible depurar registros detallados de llamadas con más de 10 días de antigüedad e incluso, al mismo tiempo, dejar todos los registros de datos de diagnóstico en la base de datos. Para ello, establezca PurgeCallDetailDataOlderThanDays en 10 y PurgeDiagnosticDataOlderThanDays en 0. Por ejemplo:
   
-```
+```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 0
 ```
 
@@ -52,13 +52,13 @@ Performing operation "Stored procedure: RtcCleanupDiag" on Target "Target SQL Se
 
 Es preciso escribir Y (para Sí) o A (para Sí a todo) antes de que se lleve a cabo realmente la depuración de la base de datos. Si deseara eliminar estas solicitudes de confirmación, agregue el siguiente parámetro al final de su llamada para Invoke-CsCdrDatabasePurge:
   
-```
+```powershell
 -Confirm:$False
 ```
 
 Por ejemplo:
   
-```
+```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10 -Confirm:$False
 ```
 
@@ -66,7 +66,7 @@ Si realiza eso, las solicitudes de confirmación no se mostrarán, y la depuraci
   
 Para depurar la base de datos de QoE, utilice el cmdlet Invoke-CsQoEDatabasePurge y especifique la antigüedad (en días) de los registros que se eliminarán:
   
-```
+```powershell
 Invoke-CsQoEDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeQoEDataOlderThanDays 10
 ```
 

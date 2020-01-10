@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: Lea este tema para obtener información acerca de cómo configurar el Sistema de salas de Skype para socios federados de Skype Empresarial.
-ms.openlocfilehash: 7bf67a910b2c0d73cf3e068e9524500804ca87f4
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 8ded7ba9be24cf1ac700be0ead1c7e0c3637becd
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775279"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003000"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Socios federados del Sistema de salas de Skype y de Skype Empresarial
  
@@ -27,7 +27,7 @@ El sistema de salas de Skype depende del vínculo unirse a la reunión de Skype 
   
 El motivo de esta limitación es que Outlook y Microsoft Exchange no usan un método especial para empaquetar información a la hora de enviar mensajes a través de Internet. Este método, que se conoce como Formato de encapsulamiento neutro de transporte (TNEF), está deshabilitado de forma predeterminada para los mensajes enviados externamente desde una organización de Exchange. Para que un vínculo de unirse a una reunión aparezca en un sistema de salas de Skype remoto, la organización remitente debe habilitar la codificación TNEF con el siguiente comando:
   
-```
+```powershell
 New-RemoteDomain -DomainName Contoso.com -Name Contoso
 Set-RemoteDomain -Identity Contoso -TNEFEnabled $true
 ```
