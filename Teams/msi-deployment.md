@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a621c4e1cfcf9e485b68fd96a76d9179cef84a48
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: a1e8e74924bac23e2f8067fa5aa4d83a214b63d7
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952603"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023394"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
 
@@ -81,14 +81,21 @@ Si un usuario desinstala equipos de su perfil de usuario, el instalador MSI real
 > [!TIP]
 > Puede usar nuestro script de limpieza de la [implementación de Microsoft Teams](scripts/Powershell-script-teams-deployment-clean-up.md) para llevar a cabo los pasos 1 y 2 a través de SCCM.
 
-## <a name="disable-auto-launch-for-the-msi-installer"></a>Deshabilitar el inicio automático para el instalador MSI
+## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impedir que los equipos se inicien automáticamente después de la instalación
 
-El comportamiento predeterminado del MSI es instalar el cliente de Teams en cuanto un usuario inicie sesión y, a continuación, inicie automáticamente Teams. Puede modificar este comportamiento con los parámetros siguientes de la siguiente manera:
+El comportamiento predeterminado del MSI es instalar la aplicación de Teams en cuanto un usuario inicia sesión y, a continuación, iniciar automáticamente Teams. Si no quiere que los usuarios se inicien automáticamente para los usuarios después de la instalación, puede usar la Directiva de grupo para establecer una configuración de directiva o deshabilitar el inicio automático para el instalador MSI.
 
-- Cuando un usuario inicia sesión en Windows, Teams se instalará con el MSI
-- Sin embargo, el cliente de Teams no se iniciará hasta que el usuario haya iniciado manualmente Teams
-- Se agregará un acceso directo para iniciar Teams en el escritorio del usuario
-- Una vez que se inicia manualmente, Teams se inicia automáticamente cuando el usuario inicia sesión
+#### <a name="use-group-policy-recommended"></a>Usar la Directiva de grupo (recomendado)
+
+Habilite la opción **impedir que Microsoft Teams se inicie automáticamente después de la instalación** . Puede encontrar esta configuración de directiva en Usuario\directivas\plantillas Administrativas\microsoft Teams. Este es el método recomendado porque puede desactivar o activar la configuración de directiva según las necesidades de su organización.
+
+Al habilitar esta configuración de Directiva antes de instalar Teams, Teams no se inicia automáticamente cuando los usuarios inician sesión en Windows. Después de que un usuario inicia sesión en Teams por primera vez, Teams se inicia automáticamente la próxima vez que el usuario inicia sesión.
+
+Para obtener más información, vea [usar la Directiva de grupo para evitar que los equipos se inicien automáticamente después de la instalación](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
+
+### <a name="disable-auto-launch-for-the-msi-installer"></a>Deshabilitar el inicio automático para el instalador MSI
+
+Puede deshabilitar el inicio automático para el instalador MSI mediante el parámetro **Options = "noautostart = true"** de la siguiente manera.  
 
 Para la versión de 32 bits
 ```PowerShell
@@ -98,6 +105,8 @@ Para la versión de 64 bits
 ```PowerShell
 msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true"
 ```
+
+Cuando un usuario inicia sesión en Windows, Teams se instala con el MSI y se agrega un acceso directo a iniciar Teams en el escritorio del usuario. Los equipos no se iniciarán hasta que el usuario inicie manualmente Teams. Una vez que el usuario inicia manualmente Teams, Teams se inicia automáticamente cada vez que el usuario inicia sesión.
 
 > [!Note]
 > Si ejecuta el MSI manualmente, asegúrese de ejecutarlo con permisos elevados. Incluso si lo ejecuta como administrador, sin ejecutarlo con permisos elevados, el instalador no podrá configurar la opción para deshabilitar el inicio automático.

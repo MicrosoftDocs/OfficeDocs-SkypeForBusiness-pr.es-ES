@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
-ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
+ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
+ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/11/2020
-ms.locfileid: "41022295"
+ms.locfileid: "41023424"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -176,15 +176,7 @@ Hay dos opciones para crear un nuevo usuario en Office 365. Sin embargo, recomen
 
 Si su implementación de Skype empresarial online coexiste con Skype empresarial 2015 o Lync 2010/2013 local, la única opción admitida es crear el usuario en Active Directory local y sincronizar el usuario con la nube (opción 1). 
 
-Licencias requeridas: 
-
-- Office 365 Enterprise E3 (incluidos SfB Plan2, Exchange Plan2 y Teams) + sistema telefónico
-- Office 365 Enterprise E5 (incluidos SfB Plan2, Exchange Plan2, Teams y el sistema telefónico) 
-
-Licencias opcionales: 
-
-- Plan de llamadas 
-- Audioconferencia 
+Para obtener información sobre los requisitos de licencia, consulte [licencias y otros requisitos](direct-routing-plan.md#licensing-and-other-requirements) en [planificar enrutamiento directo](direct-routing-plan.md).
 
 ### <a name="ensure-that-the-user-is-homed-in-skype-for-business-online"></a>Comprobar que el usuario se ha alojado en Skype empresarial online 
 
