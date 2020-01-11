@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 8cdebcf9ae01a362c883ed5e51b0c883c4ea0d44
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c109dd919ad2842f38d135cba848ad2a7b34914d
+ms.sourcegitcommit: fa20ea88e6a1c5d16ec3a364fc9d2b9a942cec9d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992597"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41022295"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -193,9 +193,9 @@ El enrutamiento directo requiere que el usuario se base en Skype empresarial onl
 1. Conéctese a PowerShell remoto.
 2. Emita el comando: 
 
-```PowerShell
-Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
-``` 
+    ```PowerShell
+    Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool
+    ``` 
 
 ### <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail"></a>Configurar el número de teléfono y habilitar la telefonía IP empresarial y el buzón de voz 
 
@@ -206,9 +206,9 @@ Para agregar el número de teléfono y habilitar el buzón de voz:
 1. Conectarse a una sesión de PowerShell remota. 
 2. Escribe el comando: 
  
-```PowerShell
-Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
-```
+    ```PowerShell
+    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
+    ```
 
 Por ejemplo, para añadir un número de teléfono para el usuario "Spencer Low", tendría que escribir lo siguiente: 
 
@@ -556,7 +556,7 @@ En ocasiones, es posible que los administradores de inquilinos deseen cambiar el
 
 La Directiva se aplica en el nivel de SBC. Puede asignar varias reglas de traducción a un SBC, que se aplican en el orden en que aparecen cuando las lista en PowerShell. También puede cambiar el orden de las reglas en la Directiva.
 
-Para crear, modificar, ver y eliminar reglas de manipulación de números, use los cmdlets New-CsTeamsTranslationRule, Set-CsTeamsTranslationRule, Get-CsTeamsTranslationRule y Remove-CsTeamsTranslationRule.
+Para crear, modificar, ver y eliminar reglas de manipulación de números, use los cmdlets [New-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/new-csteamstranslationrule), [set-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/set-csteamstranslationrule), [Get-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/get-csteamstranslationrule)y [Remove-CsTeamsTranslationRule](https://docs.microsoft.com/powershell/module/skype/remove-csteamstranslationrule) .
 
 Para asignar, configurar y enumerar reglas de manipulación de números en SBCS, use los cmdlets [New-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway) y [set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway) junto ```InboundTeamsNumberTranslationRules```con ```InboundPSTNNumberTranslationRules```los ```OutboundTeamsNumberTranslationRules```parámetros ```OutboundPSTNNumberTranslationRules```, ```InboundTeamsNumberTranslationRulesList```, ```InboundPSTNNumberTranslationRulesList```, ```OutboundTeamsNumberTranslationRulesList```,, ```OutboundPSTNNumberTranslationRulesList``` , y.
 

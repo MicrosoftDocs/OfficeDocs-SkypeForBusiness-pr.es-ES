@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modificar la configuración de la llamada en el parque en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: df7334734784a773abd1df66a7544c3141a9aec9
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5ce9d15c4d233e620c5eb12c18688b5df958defb
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233710"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001370"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Configurar la configuración de estacionamiento de llamadas en Skype empresarial
 
@@ -46,7 +46,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
 
 2. Ejecute:
 
-   ```
+   ```powershell
    New-CsCpsConfiguration -Identity site:<sitename to apply settings> [-CallPickupTimeoutThreshold <hh:mm:ss>] -[EnableMusicOnHold <$true | $false>] [-MaxCallPickupAttempts <number of rings>] [-OnTimeoutURI sip:<sip URI for routing unanswered call>]
    ```
 
@@ -55,7 +55,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
 
     Por ejemplo:
 
-   ```
+   ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
    ```
 

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Resumen: Aprenda a implementar servidores perimetrales en su entorno de Skype empresarial Server.'
-ms.openlocfilehash: 70355f6f00e8f38a13d74afd2d13c62a345fa063
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e912e4c0b75781805a0e691bc81794119f62fe9c
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233887"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001450"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implementar servidores perimetrales en Skype empresarial Server
  
@@ -119,13 +119,13 @@ Los requisitos de certificados para el servidor perimetral se pueden encontrar e
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. Abra **Inicio**, **ejecute** (o **Busque** y **ejecute** ) y, a continuación, escriba lo siguiente:
     
-  ```
+  ```console
   https://<NAME OF YOUR ISSUING CA SERVER>/certsrv
   ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por ejemplo:
     
-  ```
+  ```console
   https://ca01/contoso.com/certsrv
   ```
 
@@ -290,7 +290,7 @@ Los requisitos de certificados para el servidor perimetral se pueden encontrar e
     
 &nbsp;&nbsp;&nbsp;f. En la página de finalización del asistente, haga clic en **Finalizar**.
     
-&nbsp;&nbsp;&nbsp;cuentas. Una vez que haya completado este procedimiento, es una buena idea abrir el complemento certificados de MMC en cada servidor perimetral, expandir **certificados (equipo local)**, expandir **personal**, hacer clic en **certificados**y confirmar que el contorno interno el certificado aparece en el panel de detalles.
+&nbsp;&nbsp;&nbsp;cuentas. Una vez que haya completado este procedimiento, es una buena idea abrir el complemento certificados de MMC en cada servidor perimetral, expandir **certificados (equipo local)**, expandir **personal**, hacer clic en **certificados**y confirmar que el certificado de contorno interno se muestra en el panel de detalles.
     
 ### <a name="external-edge-interface-certificates"></a>Certificados de interfaz de servidor perimetral externo
 
@@ -423,7 +423,7 @@ Los requisitos de certificados para el servidor perimetral se pueden encontrar e
     
 &nbsp;&nbsp;&nbsp;f. En la página de finalización del asistente, haga clic en **Finalizar**.
     
-&nbsp;&nbsp;&nbsp;cuentas. Una vez que haya completado este procedimiento, es una buena idea abrir el complemento certificados de MMC en cada servidor, expandir **certificados (equipo local)**, expandir **personal**, hacer clic en **certificados**y confirmar que el contorno interno el certificado aparece en el panel de detalles.
+&nbsp;&nbsp;&nbsp;cuentas. Una vez que haya completado este procedimiento, es una buena idea abrir el complemento certificados de MMC en cada servidor, expandir **certificados (equipo local)**, expandir **personal**, hacer clic en **certificados**y confirmar que el certificado de contorno interno se muestra en el panel de detalles.
     
    > [!NOTE]
    > También tendrá que configurar los certificados para el servidor de proxy inverso. 

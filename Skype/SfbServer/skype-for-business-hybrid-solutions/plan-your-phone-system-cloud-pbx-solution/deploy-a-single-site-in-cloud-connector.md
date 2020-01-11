@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Obtenga información sobre cómo implementar un único sitio de RTC en Cloud Connector Edition.
-ms.openlocfilehash: 10d9e5f286b00af8791097707dc0345e100e55d5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a2cc8933276bc85b19ee79559ca4bcf9e88a079f
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287366"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41001030"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
@@ -31,7 +31,7 @@ Puede implementar Skype empresarial Cloud Connector Edition con compatibilidad o
 
 Para implementar la primera aplicación en un sitio, abra una consola de PowerShell como administrador y ejecute el siguiente cmdlet para registrar la aplicación:
   
-```
+```powershell
 Register-CcAppliance
 ```
 
@@ -44,7 +44,7 @@ En la versión 2,0 y posteriores, también puede seguir las instrucciones para p
   
 Para iniciar la instalación, abra una consola de PowerShell como administrador y ejecute el siguiente cmdlet:
   
-```
+```powershell
 Install-CcAppliance
 ```
 
@@ -56,19 +56,19 @@ Puede extender un sitio de conector de nube existente para que sea compatible co
     
 2. Ejecute el siguiente cmdlet solo en un servidor host recién agregado para actualizar la información de topología en la configuración de inquilino de Office 365. Si desea agregar varios dispositivos al mismo tiempo, ejecute el cmdlet en cada uno de los hosts recién agregados, uno por uno:
     
-   ```
+   ```powershell
    Register-CcAppliance
    ```
 
 3. Actualice la topología en los dispositivos existentes ejecutando el siguiente cmdlet en cada servidor host. Solo ejecute el cmdlet en los dispositivos existentes.
     
-   ```
+   ```powershell
    Publish-CcAppliance
    ```
 
 4. Ejecute el siguiente cmdlet solo en servidores host recién agregados. No ejecute este cmdlet en el dispositivo existente. Si desea agregar varios dispositivos al mismo tiempo, ejecute el cmdlet en cada uno de los hosts recién agregados, uno por uno.
     
-   ```
+   ```powershell
    Install-CcAppliance
    ```
 
@@ -81,13 +81,13 @@ Si desea quitar una aplicación de un sitio existente:
   
 1. Ejecute el siguiente cmdlet solo en los servidores host que desee quitar del sitio para actualizar la información de topología en la configuración de inquilino de Office 365.
     
-   ```
+   ```powershell
    Unregister-CcAppliance
    ```
 
 2. Ejecute el siguiente cmdlet solo en los servidores host de los que desee quitar todas las máquinas virtuales del dispositivo.
     
-   ```
+   ```powershell
    Uninstall-CcAppliance
    ```
 

@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: El cmdlet Reset-CcCACertificate reinstala el servidor de AD del servicio de entidad de certificación para crear un nuevo certificado de CA raíz.
-ms.openlocfilehash: 3cac8629a52d915df55408a44d8d31701106a5bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 50c3b1afc29503b2b292ce578ea01b03aeeba368
+ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287072"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "41003260"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
 El cmdlet Reset-CcCACertificate reinstala el servidor de AD del servicio de entidad de certificación para crear un nuevo certificado de CA raíz.
   
-```
+```powershell
 Reset-CcCACertificate
 ```
 
@@ -37,7 +37,7 @@ Ninguno
 
 En el siguiente ejemplo se reinstala el servidor de AD del servicio de entidad de certificación para crear un nuevo certificado de CA raíz:
   
-```
+```powershell
 Reset-CcCACertificate
 ```
 
