@@ -18,12 +18,12 @@ f1keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 22b38da39ff0649077a8f4b388e4ffb39272824c
-ms.sourcegitcommit: da1327ce289afee32585dc2c7e7ac81823379975
+ms.openlocfilehash: 0c5cd0b2bc01b213a10c7a9be79d9ec7dc307fbe
+ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2019
-ms.locfileid: "40032833"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004785"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "40032833"
 
 El Asesor de Teams (versión preliminar) le guiará a través de la implementación de Microsoft Teams. Evalúa el entorno del inquilino de Office 365 e identifica las configuraciones más comunes que puede necesitar actualizar o modificar antes de poder implementar correctamente Teams. Después, el Asesor de Teams crea un Equipo de implementación (en Teams), con canales para cada una de las cargas de trabajo que desea implementar. Cada carga de trabajo en el Equipo de implementación viene con un plan de Planner completo que incluye todas las tareas de implementación para cada carga de trabajo.  Con este plan de Planner, podrá asignar las tareas a las personas responsables de cada fase del lanzamiento, (incluyendo el jefe de proyecto, administradores de Teams y Office 365, personal de soporte técnico, y su equipo de adopción y preparación del usuario). Cada tarea de implementación contiene todos los recursos e instrucciones que necesita para completar la tarea con éxito.
 
-El Asesor de Teams forma parte del [centro de administración de Teams](https://admin.teams.microsoft.com). Como mínimo, necesitarás una licencia de Office 365 Empresa Essentials para poder aprovechar la integración del asesor de Teams con formularios y planificador. Para empezar a utilizar el asesor para Teams, haga clic en el botón **Inicio** en el widget **implementar Teams de carga** de trabajo en el panel. O vaya a **Planificación** > **Asesor**.
+El Asesor de Teams forma parte del [centro de administración de Teams](https://admin.teams.microsoft.com). Como mínimo, necesitarás una licencia de Office 365 Empresa Essentials para poder aprovechar la integración del asesor de Teams con formularios y planificador. Para empezar a utilizar el asesor para Teams, haga clic en el botón **Inicio** en el widget **implementar Teams de carga** de trabajo en el panel. O vaya a **Planificar** > **Asesor para Teams**.
 
 > [!IMPORTANT]
 > El Asesor de Teams no está disponible para las implementaciones de Microsoft 365 Administración Pública - GCC High o DoD.
@@ -40,7 +40,10 @@ Para obtener una visión general guiada de la experiencia del asesor de Teams, c
 
 ## <a name="using-advisor-for-teams-preview"></a>Usando el Asesor de Teams (versión preliminar)
 
-No es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquiera de los usuarios de su organización puede usarlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Usted tiene que ser un administrador de Teams, un administrador de servicio de Teams o un administrador global para abrir las evaluaciones de preparación del inquilino (esto se debe a que los roles especiales no administrativos no tienen acceso a las APIs de Microsoft Graph subyacentes a las evaluaciones).
+**Se necesitan licencias de Teams, de Forms y de Planner para usar el Asesor para Teams.** Sin embargo, no es necesario ser un administrador de Teams para usar el Asesor de Teams: cualquier usuario de su organización puede hacerlo. Hemos establecido permisos especiales para que los usuarios que no sean administradores puedan ir al Asesor de Teams, aunque esté en el centro de administración de Teams. Usted tiene que ser un administrador de Teams, un administrador de servicio de Teams o un administrador global para abrir las evaluaciones de preparación del inquilino (esto se debe a que los roles especiales no administrativos no tienen acceso a las APIs de Microsoft Graph subyacentes a las evaluaciones).
+
+> [!IMPORTANT]
+> Si no se muestra el **Asesor para Teams** en **Planificar** en el centro de administración de Teams, esto significa que el usuario no tiene licencia para Teams. Este comportamiento cambiará en el futuro.
 
 La primera vez que utilice el asesor para Teams, creará un equipo de implementación para usted en Teams. Se agrega un canal para cada carga de trabajo que seleccione.
 
