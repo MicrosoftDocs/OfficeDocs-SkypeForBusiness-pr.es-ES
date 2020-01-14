@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Los administradores de TI pueden agregar invitados en el nivel de inquilino, configurar y administrar permisos y directivas de usuarios invitados, determinar qué usuarios pueden invitar y extraer informes sobre la actividad de los usuarios invitados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41630c14c7d1aa9233f53df3c83bd36081d18682
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 42910da02c55866e0ce4e04a099b60e55577ab8c
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753295"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111364"
 ---
 <a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado en Microsoft Teams
 ======================================
@@ -27,7 +27,7 @@ ms.locfileid: "37753295"
 > [!IMPORTANT]
 > Es posible que tenga que esperar hasta 24 horas para que los cambios surtan efecto. 
 
-**Invitado** es un tipo de usuario en Microsoft teams que se incluye con todas las suscripciones de Office 365 Business Premium, Office 365 Enterprise y Office 365 Education. No se necesita ninguna otra licencia de Office 365. Más adelante encontrará más información sobre las [licencias de acceso de invitado](#guest-access-licensing-limits) .
+**Guest** es un tipo de usuario en Microsoft teams que se incluye en todos los planes de Office 365 Business Premium, Office 365 Enterprise, Office 365 Business Essentials y Office 365 educación. No se necesita ninguna otra licencia de Office 365. Más adelante encontrará más información sobre las [licencias de acceso de invitado](#guest-access-licensing-limits) .
 
 El acceso de invitado de Teams es una configuración a nivel de inquilino y se encuentra desactivada de forma predeterminada. Para obtener más información sobre cómo activar el acceso de invitados, vea [activar o desactivar el acceso de invitados a los equipos](set-up-guests.md), o use la [lista de comprobación de acceso de invitados](guest-access-checklist.md) para que le guíe por la configuración.
 
@@ -47,7 +47,7 @@ Puede usar el portal de Azure Active Directory (Azure AD) para administrar los i
 
 ## <a name="guest-access-licensing-limits"></a>Límites de licencias de acceso de invitado
 
-Teams no restringe el número de invitados que puede Agregar. Sin embargo, el número total de invitados que se pueden agregar a tu inquilino depende de lo que permitan las licencias de Azure AD, generalmente 5 invitados por usuario con licencia. Para obtener más información, vea [licencias de colaboración B2B de Azure ad](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
+Teams no limita el número de invitados que se pueden agregar. Sin embargo, el número total de invitados que se pueden agregar a su espacio empresarial depende de su licencia de Azure AD. Generalmente, son 5 invitados por usuario con licencia. Para obtener más información, vea [Licencia de colaboración de Azure AD B2B](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance).
 
 Debido a estas limitaciones de licencia (y a mantener su inquilino actualizado), debe revisar el acceso de invitados periódicamente para identificar a los usuarios que tienen acceso que ya no necesitan. Puede usar Azure AD para crear una revisión de Access para miembros del grupo o usuarios asignados a una aplicación. Crear revisiones recurrentes de Access puede ahorrar tiempo. Si necesita revisar de forma rutinaria los usuarios que tienen acceso a una aplicación o son miembros de un grupo, puede definir la frecuencia de dichas revisiones. 
 
@@ -64,7 +64,7 @@ Las revisiones de Access están disponibles con la edición P2 Premium de Azure 
 Para la configuración de acceso de invitado en Azure Active Directory, tarda 2-24 horas para que los cambios surtan efecto en la organización de Office 365. Si un usuario ve el mensaje "Póngase en contacto con el administrador" cuando intenta agregar un invitado a su equipo, es posible que la característica de invitado no se haya activado o que la configuración aún no sea efectiva. Para obtener ayuda con problemas para configurar el acceso de invitados, lea [solucionar problemas de acceso de invitados en Teams](troubleshoot-guest-access.md).
 
   
-## <a name="external-access-federation-vs-guest-access"></a>Acceso externo (Federación) frente a acceso de invitados
+## <a name="external-access-federation-vs-guest-access"></a>Acceso externo (federación) frente a acceso de invitado
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 

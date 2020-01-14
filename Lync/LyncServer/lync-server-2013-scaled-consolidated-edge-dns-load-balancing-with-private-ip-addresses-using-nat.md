@@ -10,18 +10,18 @@ ms:contentKeyID: 48185369
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ccae081e80b61be767dfbdc82664ff90d4dfabd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0650e156dca03ac5024dfe4f3045a0d8f155643
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822268"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat-in-lync-server-2013"></a>Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013
 
@@ -37,7 +37,7 @@ _**Última modificación del tema:** 2012-09-08_
 
 En la topología del grupo de servidores perimetrales, dos o más servidores perimetrales se implementan como un grupo de carga equilibrada en la red perimetral del centro de datos. El equilibrio de carga del sistema de nombres de dominio (DNS) se usa para el tráfico tanto en la interfaz de borde interno como en la externa.
 
-Si su organización requiere soporte técnico para más de 15.000 conexiones de cliente de servicio perimetral de acceso, 1.000 conexiones de cliente de servicios de conferencias web activas de Lync Server, o 500 sesiones de borde A/V o de alta disponibilidad del servidor EDGE es importante , esta topología ofrece las ventajas de la escalabilidad y la compatibilidad con la conmutación por error.
+Si su organización requiere soporte técnico para más de 15.000 conexiones de cliente del servicio perimetral de acceso, 1.000 conexiones de cliente activas de servicios de conferencias web de Lync Server, o 500 de concurrentes las sesiones de los bordes A/V, y/o la alta disponibilidad del servidor perimetral es importante, esta topología ofrece las ventajas de la escalabilidad y la compatibilidad con la conmutación por error.
 
 La figura no muestra los directores, un rol de servidor opcional implementado en la red interna entre los servidores perimetrales y los grupos de servidores front-end o el servidor. Para obtener más información sobre la topología para directores, consulte [componentes necesarios para el director de Lync Server 2013](lync-server-2013-components-required-for-the-director.md). La figura representa un único proxy inverso.
 
@@ -67,7 +67,7 @@ Existen tecnologías de traducción de direcciones de red (NAT) para IPv6 que pe
 
 </div>
 
-![899546d4-2eef-44d2-8317-51c5f699cd2a] (images/Gg398823.899546d4-2eef-44d2-8317-51c5f699cd2a(OCS.15).jpg "899546d4-2eef-44d2-8317-51c5f699cd2a")
+![899546d4-2eef-44d2-8317-51c5f699cd2a](images/Gg398823.899546d4-2eef-44d2-8317-51c5f699cd2a(OCS.15).jpg "899546d4-2eef-44d2-8317-51c5f699cd2a")
 
 <div>
 
@@ -83,7 +83,7 @@ Existen tecnologías de traducción de direcciones de red (NAT) para IPv6 que pe
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Resumen de certificado - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas con NAT en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
+  - [Resumen de certificado - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas con NAT en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-private-ip.md)
 
   - [Resumen de puerto - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-port-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
 

@@ -17,23 +17,22 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga más información sobre las licencias de complementos, las características y cómo comprar planes de Office 365 Business Premium. '
-ms.openlocfilehash: 6026c94a7c96f885fc108ec022ed3cc0cbfc9073
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4e9c71da15938bb35956dbbeb2f35288e900623d
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571331"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111704"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Empresa Premium
 
 Si tiene [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), puede usar Microsoft Teams para hacer llamadas a otras personas de su empresa que estén en su plan. Por ejemplo, si su empresa tiene 10 personas, puede usar Teams para llamar y enviar mensajes instantáneos entre sí.
 
+
 **Para realizar y recibir llamadas de personas externas a su empresa, tiene estas opciones**:
 
-- **Opción 1**. Use la [aplicación de Teams gratis](https://products.office.com/microsoft-teams/free). Si tiene una pequeña empresa (por ejemplo, 1-2 personas), usar la aplicación de Teams es la mejor manera de hacerlo. Es más económica para llamadas nacionales e internacionales. Aún puedes hacer 1:1 y videollamadas y videollamadas grupales y compartir el escritorio de las presentaciones. [Compare las características, las tarifas y las opciones de pago](https://products.office.com/microsoft-teams/free).
+- **Opción 1**. Use la [aplicación de Teams dentro de su plan](https://products.office.com/microsoft-teams/free). Si tiene una pequeña empresa (por ejemplo, 1-2 personas), usar la aplicación de Teams es la mejor manera de hacerlo. Es gratis y puedes comunicarte 1:1 por chat, hacer videollamadas grupales y hacer videollamadas grupales y compartir el escritorio de las presentaciones. [Compare las características, las tarifas y las opciones de pago](https://products.office.com/microsoft-teams/free).
 
-     Le recomendamos que comience con Teams libre para ver si se ajusta a sus necesidades. Sin embargo, si aún no tiene dos opciones.
-    
 - **Opción 2. Actualice su plan y compre un sistema telefónico y un plan de llamadas nacional, o nacional e internacional**.
 
     1. [Cambiar a otro plan de Office 365 para empresas](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a). Se recomienda evaluar un plan Enterprise E5 para ver si es más rentable.
@@ -41,6 +40,12 @@ Si tiene [Office 365 Business Premium](https://products.office.com/en/business/o
     2. Si decide comprar una licencia de Enterprise E5, incluye una licencia de sistema telefónico. Si usa una licencia Enterprise E1 o E3, tendrá que comprar el complemento del sistema telefónico.
     
     3. Comprar un [plan de llamadas para Office 365](../calling-plans-for-office-365.md): solo puede comprarlo después de comprar el complemento de sistema telefónico.
+
+
+ > [!IMPORTANT]
+ > Si ya tiene una licencia de O365 empresa Premium, al descargar O365 desde el portal ya incluye Microsoft Teams, de modo que pueda usar para hablar con colegas y personas externas, de forma similar a la versión anterior de Skype empresarial. Sin embargo, no puede recibir ni realizar llamadas desde teléfonos hasta que reciba al menos dos licencias de complemento:
+ >- **Sistema telefónico**
+ >- **Un plan de llamadas nacionales o un** **plan de llamadas nacionales e internacionales**.
 
 ## <a name="how-to-see-prices-and-buy"></a>Cómo ver precios y comprar
 <a name="bkmk_buypremium"> </a>

@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumen: Instale y configure nodos de monitor para transacciones sintéticas de Skype empresarial Server.'
-ms.openlocfilehash: 7711c7c2009149fc6dd49ed34b4c55312cb7417a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 8c7ea0465d9a53bd8972c823ef7bfc7d7ee9b4bc
+ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992447"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41104489"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar y configurar nodos de monitor
  
@@ -192,7 +192,7 @@ Cuando este comando finaliza y se crea la aplicación de confianza, se debe ejec
 Enable-CsTopology
 ```
 
-Después de ejecutar Enable-CsTopology, reinicie el equipo.
+La cuenta de equipo de nodo de monitor requiere la capacidad de consultar CMS en busca de algunas transacciones sintéticas. Para permitir esta capacidad, agregue la cuenta de equipo del nodo de monitor al grupo de seguridad RTCUniversalReadOnlyAdmins. Una vez que se haya producido la replicación de AD, reinicie el equipo.
   
 Para comprobar que se ha creado la nueva aplicación de confianza, escriba lo siguiente en el símbolo del sistema de la administración de Skype empresarial Server:
   

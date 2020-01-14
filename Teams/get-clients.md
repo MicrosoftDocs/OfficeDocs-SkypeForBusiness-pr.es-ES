@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e47e8e4765bc93c2281efc07766f77f173b0fad
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: f698d46be07c60d2034b2e355ad70b488b2d7646
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990855"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111484"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 
@@ -39,7 +39,7 @@ Microsoft Teams tiene clientes disponibles para equipos de escritorio (Windows, 
 > [!TIP]
 > Vea la sesión siguiente para conocer las ventajas del cliente de escritorio de Windows, y cómo planearlo e implementarlo: [Cliente de escritorio de Teams para Windows](https://aka.ms/teams-clients)
 
-El cliente de escritorio de Microsoft Teams es una aplicación independiente y también está [disponible en Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams está disponible para Windows (7 +), tanto para las versiones de 32 bits como de 64 bits, macOS (10.10 +) y Linux `.deb` ( `.rpm` y los formatos.). En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes, como apt y yum, intentarán instalar cualquier requerimiento para ti. Sin embargo, si no es así, tendrá que instalar cualquier requisito que haya informado antes de instalar Teams en Linux.
+El cliente de escritorio de Microsoft Teams es una aplicación independiente y también está [disponible en Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install). Teams está disponible para Windows (7 +), Windows Server (2012 R2 +), versiones de 32 bits y 64 bits, macOS (10.10 +) y Linux (en `.deb` `.rpm` formato.). En Windows, Teams requiere .NET Framework 4.5 o posterior; el instalador de Teams le ofrecerá instalarlo si no lo tiene. En Linux, los administradores de paquetes, como apt y yum, intentarán instalar cualquier requerimiento para ti. Sin embargo, si no es así, tendrá que instalar cualquier requisito que haya informado antes de instalar Teams en Linux.
 
 Los clientes de escritorio brindan asistencia en tiempo real para las comunicaciones (audio, vídeo y contenido compartido) para las reuniones de equipo, las llamadas grupales y las llamadas de uno a uno.
 
@@ -152,7 +152,7 @@ sudo dnf check-update
 sudo dnf install teams
 ```
 
-Aternatively, para usar yum en lugar de DNF:
+Como alternativa, para usar yum en lugar de DNF:
 ```
 yum check-update
 sudo yum install teams

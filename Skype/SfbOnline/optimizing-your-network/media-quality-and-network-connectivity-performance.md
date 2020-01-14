@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Este tema define el conjunto de requisitos de rendimiento de red para los servicios de Skype empresarial online y cómo puede elegir usar Internet o ExpressRoute para la conectividad entre su red y Skype empresarial online en función de su evaluación de la red. conectarse. Si ha decidido implementar Azure ExpressRoute para conectividad dedicada a Office 365, este documento también proporciona instrucciones sobre cómo planear las conexiones de ExpressRoute en diferentes escenarios de implementación de Skype empresarial online.
-ms.openlocfilehash: 5818c07bcc939d18275409fd34bb627be2f2abd9
-ms.sourcegitcommit: 4fb1c691f0f84d47e215c9c1775da9bdba875f61
+ms.openlocfilehash: de093cee8981a50e376a29eda3a38bae396e5ba3
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "35253723"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111504"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online
 
@@ -47,7 +47,7 @@ Hay muchos factores diferentes que contribuyen a la calidad de los medios en tie
 
 En una sesión de medios en tiempo real, los dispositivos de captura de contenido multimedia que usan todos los participantes, como los auriculares con micrófono y las cámaras Web, tienen un gran impacto en la calidad de audio y video general. Los dispositivos de audio y vídeo de menor calidad o que utilizan controladores incorrectos generan, respectivamente, sonido e imágenes de calidad reducida. Por otra parte, los dispositivos certificados o de buena calidad, contribuyen a la anulación del eco, el filtrado del ruido, la reducción de la latencia y una mejor resolución del vídeo.
   
-Aunque los dispositivos de medios de audio y vídeo certificados no son obligatorios, se recomiendan los dispositivos altamente certificados para Skype empresarial para obtener la mejor experiencia multimedia. Para obtener una lista de todos los dispositivos certificados de Skype para empresas, consulte [teléfonos y dispositivos para Skype empresarial](https://technet.microsoft.com/en-us/office/dn947482). Puede usar el [Panel de calidad de llamadas de Skype empresarial online](/microsoftteams/turning-on-and-using-call-quality-dashboard), que se encuentra en el centro de administración de **Skype empresarial**, para comprobar que los dispositivos en uso funcionan correctamente y supervisar la calidad de los medios de audio y vídeo.
+Aunque los dispositivos de medios de audio y vídeo certificados no son obligatorios, se recomiendan los dispositivos altamente certificados para Skype empresarial para obtener la mejor experiencia multimedia. Para obtener una lista de todos los dispositivos certificados de Skype para empresas, consulte [teléfonos y dispositivos para Skype empresarial](https://technet.microsoft.com/office/dn947482). Puede usar el [Panel de calidad de llamadas de Skype empresarial online](/microsoftteams/turning-on-and-using-call-quality-dashboard), que se encuentra en el centro de administración de **Skype empresarial**, para comprobar que los dispositivos en uso funcionan correctamente y supervisar la calidad de los medios de audio y vídeo.
   
 > [!TIP]
 > **Para obtener la mejor experiencia de calidad de medios de Skype para empresas, se necesita un dispositivo certificado**.
@@ -58,7 +58,7 @@ Es importante recordar que cualquier dispositivo de medios, clientes de Skype em
 
 El entorno y el área que rodea el lugar donde los usuarios se reúnen y utilizan dispositivos de audio y vídeo es otro gran factor a tener en cuenta para la calidad de sonido e imagen. Si los usuarios llaman desde un entorno ruidoso, se generará un audio con ecos, apagado y difuminado. Los usuarios en un entorno oscuro o con poca luz generarán vídeo con poca luminosidad y claridad de imagen. Otra cuestión determinante en la calidad de la imagen y el sonido que recibirán los participantes es la ubicación del micrófono y el dispositivo de vídeo en entornos como salas de conferencias.
   
-Para obtener una imagen más nítida de la experiencia de audio y vídeo de un usuario, use el dispositivo de**** > **audio** o el dispositivo **de vídeo** de las **herramientas** > de aplicaciones de Skype empresarial para realizar cambios en el dispositivo en uso y personalizar su configuración.
+Para obtener una imagen más nítida de la experiencia de audio y vídeo de un usuario, use el dispositivo de**audio** o el dispositivo de **vídeo** **de las** >  **herramientas** > de aplicaciones de Skype empresarial para realizar cambios en el dispositivo en uso y personalizar su configuración.
 
 #### <a name="network"></a>Red
 
@@ -164,12 +164,15 @@ A continuación se muestran los límites de rendimiento de red o los umbrales ne
   
 - El objetivo de rendimiento requiere que la conexión entre cualquiera de los perímetros de la red de tu empresa y el perímetro de la red de Microsoft más cercano se encuentre en el mismo continente.
     
-- El objetivo de rendimiento de red supone un ancho de banda adecuado o una planificación de calidad de servicio. Esto también se aplica al tráfico de medios en tiempo real de Skype empresarial cuando la conexión de red está por debajo de un pico de carga. Para un buen ancho de banda y planificación de QoS, consulte [ExpressRoute y QoS en Skype empresarial online](https://support.office.com/en-us/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d?ui=en-US&amp;rs=en-US&amp;ad=US).
+- El objetivo de rendimiento de red supone un ancho de banda adecuado o una planificación de calidad de servicio. Esto también se aplica al tráfico de medios en tiempo real de Skype empresarial cuando la conexión de red está por debajo de un pico de carga. Para un buen ancho de banda y planificación de QoS, consulte [ExpressRoute y QoS en Skype empresarial online](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d).
     
 ## <a name="measuring-network-performance"></a>Medir el rendimiento de la red
 <a name="bkNetworkPerf"> </a>
 
 Para medir el rendimiento real de la red, especialmente en cuanto a la latencia y la pérdida de paquetes, desde cualquier sitio de red de la empresa a un perímetro de la red, puede usar herramientas como el ping, probar con un conjunto de servicios de retransmisión de multimedia de Skype empresarial que se ejecuten desde Microsoft Edge y datos centrar sitios. 
+
+>[!NOTE]
+> Medir el rendimiento de la red mediante ping (ICMP) no es efectivo. Por ese motivo, la IP que se exponen a continuación detendrá la respuesta a las solicitudes de ICMP a partir de ene, 2020. Para medir eficazmente el rendimiento de la red, Microsoft recomienda la herramienta de evaluación de [redes](https://www.microsoft.com/download/details.aspx?id=53885).
   
 Para probar las conexiones a través de Internet a la red de Microsoft, se recomienda que pruebe los siguientes VIP de las retransmisiones de multimedia de Skype empresarial. La *VIP de difusión por proximidad* se resolverá como una dirección IP de una retransmisión multimedia en un sitio perimetral de red de Microsoft más cercano a la ubicación de las pruebas.
   
@@ -236,7 +239,7 @@ Azure ExpressRoute no es un requisito para obtener la mejor calidad de multimedi
   
 Office 365 es un servicio seguro y de alto rendimiento que usa Internet. Seguimos invirtiendo en nuevas capacidades de seguridad y nodos perimetrales regionales para mejorar continuamente la seguridad y el rendimiento. Azure ExpressRoute no es un requisito para los servicios de Office 365, incluido Skype empresarial online. Azure ExpressRoute es una de las opciones de implementación disponibles que le ayudarán a garantizar que la conectividad a Office 365 cumple los requisitos de rendimiento de la red de Skype empresarial y garantiza la mejor calidad de medios de Skype empresarial online. ejecución.
   
-Para la calidad de los medios de Skype empresarial online, es importante que la conexión entre los sitios de la compañía y los bordes de la red de Microsoft cumpla los objetivos de rendimiento en [los requisitos de rendimiento de red desde un cliente de Skype empresarial a la red de Microsoft Edge](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) y que la conexión entre los bordes de la red y los bordes de la red de Microsoft cumple con los objetivos de rendimiento en [requisitos de rendimiento de red desde el perímetro de la red al perímetro de la](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)Red de Microsoft.  
+Para la calidad de los medios de Skype empresarial online, es importante que la conexión entre los sitios de la compañía y los bordes de la red de Microsoft cumpla los objetivos de rendimiento en [los requisitos de rendimiento de red desde un cliente de Skype empresarial al perímetro](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge) de la red y que la conexión entre los bordes de la red y los bordes de la red de Microsoft cumpla con los requisitos de rendimiento de [la](media-quality-and-network-connectivity-performance.md#bkYourNetworkEdge)red  
   
 También es importante que la conectividad de la red física de su empresa, incluida la red interna y la conectividad en la nube, admita el volumen de tráfico multimedia máximo. Azure ExpressRoute es una de las muchas maneras que pueden ayudar a los clientes a garantizar que la conectividad de la nube de Skype empresarial online cumpla con todos estos requisitos de rendimiento.
   
@@ -255,7 +258,7 @@ No, ExpressRoute no es necesario para el SLA de calidad de voz de Skype empresar
   
 ### <a name="internet-or-azure-expressroute"></a>¿Internet o Azure ExpressRoute?
 
-Antes de tomar una decisión sobre las opciones de conectividad de red para Skype empresarial online, los clientes deben evaluar su red y la conectividad actual a Internet según los requisitos de rendimiento de red que se describen en [requisitos de rendimiento de red para Conéctese a Skype empresarial online](media-quality-and-network-connectivity-performance.md#bkNetworkPerf).
+Antes de tomar una decisión sobre las opciones de conectividad de red para Skype empresarial online, los clientes deben evaluar su red y la conectividad actual a Internet según los requisitos de rendimiento de red que se describen en [requisitos de rendimiento de red para conectarse a Skype empresarial online](media-quality-and-network-connectivity-performance.md#bkNetworkPerf).
   
 Si el rendimiento de la red en la conexión a Internet actual está configurado con una capacidad suficiente durante el tiempo de máxima actividad y cumple los requisitos de rendimiento de red de los sitios y los bordes de red de Microsoft y de los bordes de la red a los bordes de la red de Microsoft, puede Siga usando su conectividad a Internet existente para conectarse a Skype empresarial online.
   
@@ -269,7 +272,7 @@ Azure ExpressRoute ofrece las siguientes ventajas adicionales:
     
 - ExpressRoute está diseñado para conservar las marcas QoS de DSCP entre su red y la red de Microsoft.
     
-Para obtener más información sobre la calidad de servicios de ExpressRoute y la planeación de capacidad, consulte [ExpressRoute y QoS en Skype empresarial online](https://support.office.com/en-us/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d?ui=en-US&amp;rs=en-US&amp;ad=US).
+Para obtener más información sobre la calidad de servicios de ExpressRoute y la planeación de capacidad, consulte [ExpressRoute y QoS en Skype empresarial online](https://support.office.com/article/ExpressRoute-and-QoS-in-Skype-for-Business-Online-20c654da-30ee-4e4f-a764-8b7d8844431d).
   
 ### <a name="can-i-setup-azure-expressroute-for-skype-for-business-online-only"></a>¿Puedo configurar Azure ExpressRoute solo para Skype empresarial online?
 
@@ -286,7 +289,7 @@ Si ha decidido que ExpressRoute basado en las recomendaciones anteriores le corr
   
 ### <a name="online-only-deployment---single-site"></a>Implementación solo en línea: un único sitio
 
-Si todos los usuarios usan el servicio Skype empresarial online y se centran en una única ubicación física y decide implementar Azure ExpressRoute, debe configurar una única conexión de ExpressRoute entre el sitio de la empresa con los más cercanos [Ubicación de emparejamiento de ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/).
+Si todos los usuarios usan el servicio Skype empresarial online y se centran en una única ubicación física y decide implementar Azure ExpressRoute, debe configurar una sola conexión de ExpressRoute entre el sitio de la empresa en la [Ubicación de emparejamiento de expressroute](https://azure.microsoft.com/documentation/articles/expressroute-locations/)más cercana.
   
 En el siguiente gráfico se muestra un ejemplo de este tipo de implementación. Para este ejemplo, contoso es una Universidad que se encuentra en Orlando, Florida. Contoso tiene miembros de profesores de 10.000 y estudiantes. Las pruebas de Internet desde su ubicación a sitios de Microsoft Edge mostraron una pérdida de paquetes superior al 5% durante las horas de máxima clase. Han decidido obtener una conexión dedicada a Office 365 usando ExpressRoute con ancho de banda aprovisionado para que puedan evitar la congestión de la red para Office 365 especialmente para el tráfico en tiempo real de Skype empresarial online. Se conectan a la nube de Microsoft a través de ExpressRoute en el sitio de Atlanta, GA MeetMe.
   
@@ -298,13 +301,13 @@ Si su empresa usa servicios de Skype empresarial online de varias oficinas en la
   
 En el siguiente ejemplo, contoso es una empresa de servicios de viajes de los Estados Unidos que tiene sede en Nueva York, pero tiene otras oficinas en todos los Estados Unidos. Sus oficinas están interconectadas a través de una WAN que usa MPLS para conectarse a Office 365. Inicialmente, configuramos una conexión de ExpressRoute desde su router de Internet en Hoboken, Nueva Jersey al sitio de MeetMe de Nueva York. 
   
-Con esta configuración, el tráfico de red de la mayoría de sus sitios a la red de Microsoft (sitio perimetral de Nueva York) puede cumplir con la conexión del cliente de Skype empresarial objetivos de rendimiento de red descritos en [requisitos de rendimiento de red desde un cliente de Skype empresarial al perímetro de la red de Microsoft](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge). Sin embargo, la latencia entre las oficinas de la costa oeste de Contoso a Nueva York pasa de 50ms unidireccional. Además, Honolulu es la segunda oficina de Contoso más grande, la latencia de Honolulu a Nueva York supera 80ms un método. Para garantizar una buena calidad de soporte a los usuarios de estas oficinas, contoso decidió agregar una conexión West Coast ExpressRoute entre su sitio San José y el sitio de MeetMe de Silicon Valley ExpressRoute.
+Con esta configuración, el tráfico de red de la mayoría de sus sitios a la red de Microsoft (nuevo sitio Edge) puede cumplir los objetivos de rendimiento de red de la conexión de cliente de Skype empresarial descritos en [requisitos de rendimiento de red desde un cliente de Skype empresarial hasta el perímetro de la red de Microsoft](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge). Sin embargo, la latencia entre las oficinas de la costa oeste de Contoso a Nueva York pasa de 50ms unidireccional. Además, Honolulu es la segunda oficina de Contoso más grande, la latencia de Honolulu a Nueva York supera 80ms un método. Para garantizar una buena calidad de soporte a los usuarios de estas oficinas, contoso decidió agregar una conexión West Coast ExpressRoute entre su sitio San José y el sitio de MeetMe de Silicon Valley ExpressRoute.
   
 ![Sitio múltiple de enrutador urgente en el mismo continente.](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
   
 ### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>Implementación solo en línea: varios sitios en diferentes continentes
 
-Si todos los usuarios usan el servicio Skype empresarial online y sus oficinas están en varias ubicaciones físicas en varios continentes, si decide implementar Azure ExpressRoute, debe configurar al menos una conexión de ExpressRoute para cada continente. entre el sitio principal de cada continente y su [Ubicación de emparejamiento de ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/)más cercana. Según el costo de la ventaja, puede elegir implementar conexiones de ExpressRoute adicionales desde sitios en los que no se cumplen los objetivos de rendimiento de red.
+Si todos los usuarios usan el servicio Skype empresarial online y sus oficinas están en varias ubicaciones físicas en varios continentes, si decide implementar Azure ExpressRoute, debe configurar al menos una conexión de ExpressRoute para cada continente entre el sitio principal de cada continente y la [Ubicación de emparejamiento de expressroute](https://azure.microsoft.com/documentation/articles/expressroute-locations/)más cercana. Según el costo de la ventaja, puede elegir implementar conexiones de ExpressRoute adicionales desde sitios en los que no se cumplen los objetivos de rendimiento de red.
   
 En el siguiente ejemplo, contoso es un gran bufete legal corporativo con oficinas en las principales ciudades de Norteamérica y Europa. En función de su conexión a Internet y de su evaluación de rendimiento de red interna, contoso decidió implementar dos conexiones de ExpressRoute en Norteamérica y un único circuito ExpressRoute para todas sus oficinas europeas.
   
@@ -314,7 +317,7 @@ En el siguiente ejemplo, contoso es un gran bufete legal corporativo con oficina
 
 Si tiene una implementación local de Lync o Skype empresarial y elige implementar una integración híbrida de Skype empresarial online, le recomendamos que, si decide implementar Azure ExpressRoute, necesite tener al menos una conexión de ExpressRoute para cada uno sitio perimetral de Lync o Skype empresarial local y al menos una conexión de ExpressRoute para cada continente con oficinas. Según el costo de la prestación, por cada continente puede elegir implementar conexiones de ExpressRoute adicionales de oficinas en las que no se cumplen los objetivos de rendimiento de red.
   
-Si dispone de una implementación local de Skype empresarial, debe seguir la [Guía de planeación e implementación del servidor perimetral](https://technet.microsoft.com/en-us/library/mt346417.aspx). En concreto, los servidores perimetrales deben ser accesibles desde fuera de la red. Esto suele lograrse asignando una dirección IP pública enrutable al servidor perimetral o mediante la traducción de direcciones de red (NAT).
+Si dispone de una implementación local de Skype empresarial, debe seguir la [Guía de planeación e implementación del servidor perimetral](https://technet.microsoft.com/library/mt346417.aspx). En concreto, los servidores perimetrales deben ser accesibles desde fuera de la red. Esto suele lograrse asignando una dirección IP pública enrutable al servidor perimetral o mediante la traducción de direcciones de red (NAT).
   
 En el siguiente ejemplo, Contoso tiene una implementación de Skype empresarial Enterprise Voice existente. Desean migrar usuarios locales a Office 365 Online Services. También decidieron usar una implementación híbrida para que puedan seguir usando su infraestructura RTC existente para todos los usuarios locales y en línea. El centro de datos local de Contoso y los servidores perimetrales de Skype empresarial están en Chicago. Para su implementación, contoso decidió configurar una conexión de ExpressRoute entre su centro de datos de Chicago y Chicago ExpressRoute. También añadieron una conexión West Coast ExpressRoute para brindar un mejor servicio a su oficina de Honolulu.
   
@@ -326,9 +329,9 @@ Skype empresarial online Cloud Connector Edition es una oferta híbrida que cons
   
 Si decide implementar Azure ExpressRoute y Cloud Connector Edition, le recomendamos que configure al menos una conexión Express de expressroute para cada continente entre el sitio principal de cada continente y la [Ubicación de emparejamiento de ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-locations/)más cercana. Según el costo de la prestación, por cada continente puede elegir implementar conexiones de ExpressRoute adicionales desde sitios en los que no se cumplen los objetivos de rendimiento de red.
   
-Si dispone de una implementación local de Skype empresarial, debe seguir la [Guía de planeación de la edición Cloud Connector de Skype empresarial](https://technet.microsoft.com/EN-US/library/mt605227.aspx). En concreto, el límite de acceso y los servicios perimetrales A/V deberían tener asignadas direcciones IP públicas y accesibles desde los centros de datos de Office 365.
+Si dispone de una implementación local de Skype empresarial, debe seguir la [Guía de planeación de la edición Cloud Connector de Skype empresarial](https://technet.microsoft.com/library/mt605227.aspx). En concreto, el límite de acceso y los servicios perimetrales A/V deberían tener asignadas direcciones IP públicas y accesibles desde los centros de datos de Office 365.
   
-En el siguiente ejemplo, contoso es una empresa de contabilidad Europea con presencia en unos cuantos países y ciudades europeos importantes. Cuando se suscriben a Skype empresarial online para todas sus necesidades de colaboración, decidieron colocar un conector en la nube para cada país que tengan una ubicación física para continuar usando su infraestructura de RTC y contratos de operador que ya existan. Según sus pruebas de todos los sitios y el perímetro de la red de Microsoft, determinaron que una única conexión de ExpressRoute en Londres le ayudará a cumplir los objetivos de rendimiento de la red de conexión de cliente de Skype empresarial descritos en [rendimiento de red requisitos de un cliente de Skype empresarial al perímetro de la red de Microsoft](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge).
+En el siguiente ejemplo, contoso es una empresa de contabilidad Europea con presencia en unos cuantos países y ciudades europeos importantes. Cuando se suscriben a Skype empresarial online para todas sus necesidades de colaboración, decidieron colocar un conector en la nube para cada país que tengan una ubicación física para continuar usando su infraestructura de RTC y contratos de operador que ya existan. En función de sus pruebas de todos los sitios y del perímetro de la red de Microsoft, determinó que una única conexión de ExpressRoute en Londres le ayudará a cumplir los objetivos de rendimiento de red de la conexión de cliente de Skype empresarial descritos en [requisitos de rendimiento de red desde un cliente de Skype empresarial hasta el perímetro de la red de Microsoft](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge).
   
 ![El conector de nube de ExpressRoute uno.](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   

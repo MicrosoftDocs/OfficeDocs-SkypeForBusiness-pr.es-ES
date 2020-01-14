@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de conferencias de audio, incluido el costo de la llamada, para que pueda comprender su uso y los detalles de facturación para determinar el uso dentro de su organización.
-ms.openlocfilehash: bb6c2456a103782caea72baef5ac6e8df26a24a2
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 8f1818a3c80f04676c9e39f424737c3f10cd57e7
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793084"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111454"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -64,18 +64,18 @@ Este es el aspecto del informe.
 
      **Tipos de llamadas a planes de llamadas** 
      *    **user_in** (el usuario recibió una llamada RTC entrante) 
-     *    **user_out** (el usuario colocó una llamada RTC saliente) 
-     *    **user_out_conf** (el usuario agregó 2 o más participantes de la RTC a la llamada, como una llamada en Conferencia de 3 vías). 
-     *    **user_out_transfer** (el usuario transfirió la llamada a un número RTC) 
+     *    **user_out** (el usuario hizo una llamada RTC saliente) 
+     *    **user_out_conf** (el usuario agregó 2 o más participantes de la RTC a la llamada, como una llamada en Conferencia de 3 vías) 
+     *    **user_out_transfer** (el usuario transfirió la llamada a un número de RTC) 
      *    **user_out_forwarding** (el usuario ha desviado la llamada a un número RTC)
 
      **Tipos de llamadas de audioconferencia**
      *    **conf_in** (una llamada entrante al puente de audioconferencia) 
-     *    **conf_out** (una llamada saliente del puente de audioconferencia suele agregar un número RTC a la Conferencia)
+     *    **conf_out** (por lo general, una llamada saliente del puente de conferencias de audio agrega un número RTC a la Conferencia)
 
      **Aplicaciones de comunicaciones unificadas (UCAP)** 
      *    **ucap_in** (una llamada RTC entrante a la aplicación de comunicaciones unificadas, como el operador automático o la cola de llamadas) 
-     *    **ucap_out** (una llamada RTC saliente de la aplicación de comunicaciones unificadas, como el operador automático o la cola de llamadas)
+     *    **ucap_out** (una llamada RTC saliente de la aplicación de comunicaciones unificadas, como un operador automático o una cola de llamadas)
      *    **Nota:** Las llamadas que se transfirieron a un usuario desde la aplicación de comunicaciones unificadas, como un operador automático o una cola de llamadas, no aparecerán en el informe de uso de RTC, ya que las llamadas de audio de par a par (P2P). Puede acceder a las llamadas de P2P en el centro de administración de Skype empresarial en "herramientas > de análisis de llamadas de Skype empresarial" y buscar por nombre de usuario o dirección SIP correlacionando la llamada por fecha y hora, o de CLID (ID. de línea de llamada). 
 *     
      **Nacional/internacional** indica si la llamada que se colocó se consideró nacional (dentro de un país o región) o internacional (fuera de un país o región) en función de la ubicación del usuario. 
@@ -104,10 +104,8 @@ Este es el aspecto del informe.
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
  ***
-![Número 3](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo de Excel delimitado por TABULAciones; para ello, haga clic o toque en el botón **exportar a Excel** . Puede exportar datos hasta un año a partir de la fecha actual.<br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. 
-    > [!Note] 
-    > Despite the export file named as .CSV (which implies a comma delimited export), as there may be commas in the data set, the file is actually delimited with **TABS** and not **COMMAS**.
-
+![Número 3](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo de Excel delimitado por coma haciendo clic o pulsando el botón **exportar a Excel** . Puede exportar datos hasta un año a partir de la fecha actual, a menos que la normativa específica del país prohíba la retención de los datos por 12 meses.<br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. 
+    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
 
 - [Informe de actividad de Skype empresarial](activity-report.md) Puede ver cuánto están usando las sesiones de conferencia punto a punto, organizada y de participación.

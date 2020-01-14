@@ -5,17 +5,17 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
 ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842758"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111584"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>Asignar una directiva de archivado por usuario en Lync Server 2013
 
@@ -28,7 +28,7 @@ La implementación de una o más directivas de archivado por usuario es opcional
 
 Después de crear al menos una directiva de archivado por usuario, use los procedimientos de este tema para asignar la Directiva que especifica correctamente si el servidor archivará las comunicaciones internas, las comunicaciones externas o ambas de un usuario en particular.
 
-Para obtener más información sobre la creación de directivas de archivado por usuario, consulte [crear una directiva de archivado en Lync Server 2013 para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para determinados sitios o usuarios](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).
+Para obtener más información sobre la creación de directivas de archivado por usuario, consulte [crear una directiva de archivado en Lync Server 2013 para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para determinados sitios o usuarios](lync-server-2013-create-archiving-policy-sites-users.md).
 
 ## <a name="to-assign-a-per-user-archiving-policy"></a>Para asignar una directiva de archivado por usuario
 
@@ -69,7 +69,7 @@ Para obtener más información sobre la creación de directivas de archivado por
 
 
 
-7.  En **asignar directivas**, en **Directiva**de archivado, siga uno de estos procedimientos:
+7.  En **asignar directivas**, en **Directiva de archivado**, siga uno de estos procedimientos:
     
 
     > [!NOTE]  
@@ -78,7 +78,7 @@ Para obtener más información sobre la creación de directivas de archivado por
     
       - Permita Lync Server 2013 para elegir automáticamente la Directiva de nivel global o, si se ha definido, la Directiva de nivel de sitio.
     
-      - Haga clic en el nombre de una directiva de archivado por usuario que haya definido previamente en la página **Directiva** de archivado.
+      - Haga clic en el nombre de una directiva de archivado por usuario que haya definido previamente en la página **Directiva de archivado** .
         
 
         > [!TIP]  
@@ -90,7 +90,7 @@ Para obtener más información sobre la creación de directivas de archivado por
 
 ## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a>Asignar una directiva de archivado por usuario mediante cmdlets de Windows PowerShell
 
-Puede asignar directivas de archivado por usuario mediante Windows PowerShell y el cmdlet **Grant-CsArchivingPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+Puede asignar directivas de archivado por usuario mediante Windows PowerShell y el cmdlet **Grant-CsArchivingPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [https://go.microsoft.com/fwlink/p/?linkId=255876](https://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a>Para asignar una directiva de archivado por usuario a un solo usuario
 
@@ -100,7 +100,7 @@ Puede asignar directivas de archivado por usuario mediante Windows PowerShell y 
 
 ## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a>Para asignar una directiva de archivado por usuario a varios usuarios
 
-  - Este comando asigna el RedmondArchivingPolicy de directiva de archivado por usuario a todos los usuarios que tienen cuentas alojadas en el registro de la agrupación de atl-cs-001.litwareinc.com. Para obtener más información sobre el parámetro de filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .
+  - Este comando asigna el RedmondArchivingPolicy de directiva de archivado por usuario a todos los usuarios que tienen cuentas alojadas en el registro de la agrupación de atl-cs-001.litwareinc.com. Para obtener más información sobre el parámetro de filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://technet.microsoft.com/library/gg398125\(v=ocs.15\)) .
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
@@ -110,12 +110,12 @@ Puede asignar directivas de archivado por usuario mediante Windows PowerShell y 
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obtener más información, consulte el tema de ayuda para el cmdlet [Grant-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) .
+Para obtener más información, consulte el tema de ayuda para el cmdlet [Grant-CsArchivingPolicy](https://technet.microsoft.com/library/gg398475\(v=ocs.15\)) .
 
 ## <a name="see-also"></a>Vea también
 
 
-[Crear una directiva de archivado en Lync Server 2013 para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para usuarios o sitios específicos](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[Crear una directiva de archivado en Lync Server 2013 para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para usuarios o sitios específicos](lync-server-2013-create-archiving-policy-sites-users.md)  
 
 
 [Asignación de directivas por usuario en Lync Server 2013](lync-server-2013-assigning-per-user-policies.md)

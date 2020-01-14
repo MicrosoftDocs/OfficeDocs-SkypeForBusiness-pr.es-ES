@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd53a3bb39ba48046ce7670c567f630659daee62
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: e2efddf5248c045a7f3f2daf0ef250027cd15127
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970968"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111354"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware de la aplicación de Microsoft Teams
 
@@ -37,7 +37,7 @@ Todos los requisitos de las secciones siguientes se aplican a la aplicación de 
 |Disco duro    | 3,0 GB de espacio en disco disponible        |
 |Pantalla    |   resolución de pantalla de 1024 x 768 |
 |Hardware de gráficos |  Mínimo de 128 MB de memoria de gráficos
-|Sistema operativo  |    Windows 10, Windows 8,1 o Windows 7 Service Pack 1 en 32 bits y 64 bits. Para obtener la mejor experiencia, use la última versión de cualquier sistema operativo.|
+|Sistema operativo  |    Windows Server 2012 R2 +, Windows 10, Windows 8,1 o Windows 7 Service Pack 1 en 32 bits y 64 bits. Para obtener la mejor experiencia, use la última versión de cualquier sistema operativo.|
 |Versión de .NET    |  Requiere .NET 4,5 CLR o posterior       |
 |Vídeo    |  Cámara USB 2,0       |
 |Dispositivos    |   Cámara para equipos portátiles, micrófono y altavoces estándar    | 

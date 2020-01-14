@@ -14,12 +14,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 7a3cd61c3b92482fd402b58734b2af720c21cf3a
-ms.sourcegitcommit: f238d70aa34cded327ed252b0eb2704cc7f8f5c5
+ms.openlocfilehash: 40439fd31db458f8cb306c0e3dbd456aa59a7a21
+ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023424"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111734"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -453,7 +453,7 @@ En la siguiente tabla se resumen las denominaciones de uso y las rutas de voz de
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Ejemplo de directiva de enrutamiento de voz para el usuario John Woods
 
-A continuación, se indican los pasos para crear el uso de RTC "internacional", la ruta de voz "internacional", la Directiva de enrutamiento de voz "sin restricciones" y, a continuación, asignarlo al usuario "John Woods".
+A continuación, se indican los pasos para crear el uso de RTC "internacional", la ruta de voz "internacional", la Directiva de enrutamiento de voz "sin restricciones" y, a continuación, asignarlo al usuario "John Woods".   
 
 
 **Paso 1**: crear el uso de RTC "internacional". 
