@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams.
-ms.openlocfilehash: a3978b3615fabbff000a20d53408d4fbc1d98f12
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
+ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111714"
+ms.locfileid: "41120407"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -120,7 +120,7 @@ Si desactiva esta opción, los usuarios no podrán programar reuniones de Teams 
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir programación de reuniones de canal
 
-Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si los usuarios pueden programar una reunión en un canal de Teams.  Si desactiva esta opción, la opción **programar una reunión** no estará disponible para el usuario cuando inicie una reunión en un canal de Teams y la opción **seleccionar un canal para reunirse** no estará disponible para el usuario cuando programe una reunión de reuniones en Teams.
+Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si los usuarios pueden programar una reunión en un canal de Teams.  Si lo desactiva, la opción **programar una reunión** no estará disponible para el usuario cuando inicie una reunión en un canal de Teams y la opción **Agregar un canal** esté deshabilitada para los usuarios en Teams.
 
 ![Captura de pantalla que muestra la opción programar una reunión en Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -130,7 +130,7 @@ Esta es una directiva por usuario y se aplica antes de que se inicie una reunió
 
 Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta opción controla si los usuarios pueden programar reuniones privadas en Teams. Una reunión es privada cuando no se publica en un canal de un equipo.
 
-Tenga en cuenta que si desactiva permitir la programación de **reuniones privadas** y **permitir la programación de reuniones de canal**, la opción **programar una reunión** no estará disponible y los usuarios no podrán programar reuniones en Teams.
+Tenga en cuenta que si desactiva permitir la programación de **reuniones privadas** y **permitir la programación de reuniones de canal**, los usuarios de Teams deshabilitarán las opciones **agregar asistentes requeridos** y agregar opciones de **canal** .
 
 <a name="bkaudioandvideo"> </a>
 
@@ -263,6 +263,8 @@ Echemos un vistazo al ejemplo siguiente.
 
 Daniela puede ceder el control del escritorio o de la ventana compartidos a otros participantes de una reunión organizada por Babek mientras que Babek no puede ceder el control a otros participantes.
 
+Para usar PowerShell para controlar quién puede ceder el control o aceptar solicitudes de control, use el cmdlet AllowParticipantGiveRequestControl.
+
 > [!NOTE]
 > Para conceder y tomar el control del contenido compartido durante el uso compartido, ambas partes deben usar el cliente de escritorio de Teams. El control no es compatible cuando cualquiera de las partes está ejecutando equipos en un explorador. Esto se debe a una limitación técnica que planeamos corregir. 
 
@@ -276,6 +278,8 @@ Esta es una directiva por usuario. Esta opción controla si los participantes ex
    - Usuario federado  
 
 Si los usuarios federados pueden ceder el control a usuarios externos mientras lo comparten está controlado por la configuración de **permitir que un participante externo le dé o solicite** la configuración de control de su organización.
+
+Para usar PowerShell para controlar si los participantes externos pueden ceder el control o aceptar solicitudes de control, use el cmdlet AllowExternalParticipantGiveRequestControl.
 
 ### <a name="allow-powerpoint-sharing"></a>Permitir el uso compartido de PowerPoint
 
