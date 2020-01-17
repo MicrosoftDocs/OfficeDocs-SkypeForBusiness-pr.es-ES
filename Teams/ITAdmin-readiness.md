@@ -16,12 +16,12 @@ f1keywords:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0fd8f08094549e26612872b73d42b96cbbb0080
-ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
+ms.openlocfilehash: 3216327e5977429ca1d794dc719c89a216fe8fb9
+ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39886187"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41165610"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -90,7 +90,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 | Módulo | Vídeo | Presentación de PowerPoint  |
 | ------------ | -------------------- | -------------------- |
-| [Aspectos prácticos de Microsoft-Teams Essentials para el canal de YouTube de ti](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: aspectos básicos de Teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: implementar & configurar Teams: Introducción](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 mín)  ||
+| [Aspectos prácticos de Microsoft-Teams Essentials para el canal de YouTube de ti](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: aspectos básicos de Teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: implementar & configurar Teams: Introducción](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 mín)  <br>[Vídeo: seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4) (12:42 mín)||
 | Fundamentos: los componentes principales | [Vídeo](https://aka.ms/teams-foundations) | [Presentación de diapositivas](https://aka.ms/teams-foundations-deck) |
 | Cliente del escritorio de Windows | [Vídeo](https://aka.ms/teams-clients) | [Presentación de diapositivas](https://aka.ms/teams-clients-deck) |
 | Gobierno, administración y ciclo de vida | [Vídeo](https://aka.ms/teams-governance) | [Presentación de diapositivas](https://aka.ms/teams-governance-deck) |
