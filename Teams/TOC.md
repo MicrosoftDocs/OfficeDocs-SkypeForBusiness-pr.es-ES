@@ -244,7 +244,6 @@
 ### [Compartir llamadas y atender llamadas grupales](call-sharing-and-group-call-pickup.md)
 ### [Directiva de llamadas](teams-calling-policy.md)
 ### [Apariencia de línea compartida](shared-line-appearance.md)
-### [Descripción de cómo los usuarios pueden bloquear llamadas RTC en clientes de Teams](block-pstn-calls-on-Teams-clients.md)
 
 
 ## Planes de llamadas
