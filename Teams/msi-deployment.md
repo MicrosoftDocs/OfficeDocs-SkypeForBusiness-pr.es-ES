@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4a14876f359b2742a04461671ccaefd523ef3f1
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
+ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111544"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233279"
 ---
 # <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
 
@@ -80,7 +80,7 @@ Si un usuario desinstala equipos de su perfil de usuario, el instalador MSI real
 3. Vuelva a implementar el paquete MSI en ese equipo.
 
 > [!TIP]
-> Puede usar nuestro script de limpieza de la [implementación de Microsoft Teams](scripts/Powershell-script-teams-deployment-clean-up.md) para llevar a cabo los pasos 1 y 2 a través de SCCM.
+> Puede usar nuestro script de limpieza de la [implementación de Microsoft Teams](scripts/powershell-script-teams-deployment-clean-up.md) para llevar a cabo los pasos 1 y 2 a través de SCCM.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impedir que los equipos se inicien automáticamente después de la instalación
 
@@ -93,6 +93,9 @@ Habilite la opción **impedir que Microsoft Teams se inicie automáticamente des
 Al habilitar esta configuración de Directiva antes de instalar Teams, Teams no se inicia automáticamente cuando los usuarios inician sesión en Windows. Después de que un usuario inicia sesión en Teams por primera vez, Teams se inicia automáticamente la próxima vez que el usuario inicia sesión.
 
 Para obtener más información, vea [usar la Directiva de grupo para evitar que los equipos se inicien automáticamente después de la instalación](https://docs.microsoft.com/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation).
+
+> [!CAUTION]
+> Si ya ha implementado Teams y desea configurar esta directiva para deshabilitar la función AutoStart de Teams, primero establezca la configuración de directiva de grupo en el valor que desee y, a continuación, ejecute el [script de restablecimiento de equipos de AutoStart](scripts/powershell-script-teams-reset-autostart.md) para cada usuario.
 
 ### <a name="disable-auto-launch-for-the-msi-installer"></a>Deshabilitar el inicio automático para el instalador MSI
 

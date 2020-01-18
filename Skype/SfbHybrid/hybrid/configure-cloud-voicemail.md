@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para implementar el correo de voz basado en la nube para los usuarios alojados en Skype empresarial Server.
-ms.openlocfilehash: e3b18f8048f8779eac322dece88e5919b2aa7a96
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 754d69a9b76497f8776667b6ac97498a151c7e4e
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963008"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230360"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar el servicio de correo de voz en la nube para los usuarios locales
 
@@ -36,7 +36,7 @@ La configuración del correo de voz de nube implica las siguientes tareas:
 
 2.  Asegúrese de que ha configurado la conectividad híbrida como se describe en [plan Hybrid Connectivity](plan-hybrid-connectivity.md) y [Configure Hybrid Connectivity](configure-hybrid-connectivity.md). 
 
-3.  [Configure el correo de voz en la nube como proveedor de hospedaje en el servidor perimetral](#configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server) como se describe en este artículo.
+3.  [Configure el correo de voz en la nube como proveedor de hospedaje en el servidor perimetral](#configure-cloud-voicemail-as-the-hosting-provider) como se describe en este artículo.
 
 4.  [Configure una directiva de correo de voz hospedado](#configure-a-hosted-voicemail-policy) tal como se describe en este artículo.
 
@@ -45,7 +45,7 @@ La configuración del correo de voz de nube implica las siguientes tareas:
 6.  [Habilite a un usuario para el correo de voz de la nube](#enable-a-user-for-cloud-voicemail) como se describe en este artículo.
 
 
-## <a name="configure-cloud-voicemail-as-the-hosting-provider-on-the-edge-server"></a>Configurar el correo de voz de nube como proveedor de hospedaje en el servidor perimetral 
+## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>Configurar el correo de voz de nube como proveedor de hospedaje 
 
 El correo de voz de nube se configura como el proveedor de hospedaje en un servidor front-end mediante el uso del cmdlet New-CsHostingProvider con los siguientes parámetros:
 

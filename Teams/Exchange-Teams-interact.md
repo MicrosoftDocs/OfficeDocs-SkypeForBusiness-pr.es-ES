@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7ca2b091cfe27c1e81d429ac95f085b52c8465d
-ms.sourcegitcommit: c15ab82834005b9a19247e06488f1f21161fc426
+ms.openlocfilehash: 6c3f0b5c545f1a7e8900c01a79544079ea4fedcc
+ms.sourcegitcommit: bcac0d94f6eb7132fc17b0ace62e7028f77b0ee6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40019974"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230320"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
@@ -43,8 +43,8 @@ La siguiente tabla proporciona una referencia rápida y útil sobre la disponibi
 
 | El buzón del usuario se hospeda en: | eDiscovery| Retención&nbsp;legal | Policy| Administración de equipos y canales |Crear y ver reuniones en Teams| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |
-|**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí |Sí|
+|**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí |Sí |Sí |Sí <sup>7</sup>|Sí |Sí |Sí |Sí |
+|**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí |Sí |Sí |Sí |Sí <sup>7</sup>|Sí |Sí |Sí |Sí|
 |**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>, 2, 3</sup>|Sí <sup>4|Sí|No|No|Sí|Sí|No|Sí <sup>5|Sí <sup>6|Sí |Sí |
 |**Exchange local** (es necesario sincronizar con Azure ad)|Sí <sup>2</sup>| Sí <sup>, 2, 3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí|No|Sí <sup>5|Sí <sup>6|Sí |Sí |
 
@@ -60,8 +60,7 @@ los mensajes de chat privado de <sup>3</sup> equipos aún no son compatibles con
 
 <sup>6</sup> si uno de los propietarios de un equipo puede Agregar conectores, todos los demás miembros de ese equipo podrán hacerlo, incluso si sus buzones están alojados en local.
 
-
-Información adicional:
+<sup>7</sup> solo los contactos de la carpeta contactos predeterminada. No se admite el acceso a otras carpetas o subcarpetas de contactos.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para sacar el máximo provecho de Microsoft Teams
 
