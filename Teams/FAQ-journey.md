@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2aa6a4f4a498f5b694e3ff23d4043374def6fbff
-ms.sourcegitcommit: 70323d648e9ae3b20a710120b9dcdc452afc462b
+ms.openlocfilehash: b6b36f38ce2c72c085a7d52f403eba4bde7e8670
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37698033"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268486"
 ---
 # <a name="faq--upgrading-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: actualizar Skype Empresarial a Microsoft Teams
 
@@ -200,7 +200,7 @@ Además de la posibilidad de que los usuarios puedan identificar las Salas de Mi
 
 ### <a name="will-skype-room-systems-v1-be-updated-to-support-teams-meetings"></a>¿La versión 1 de Sistemas de salas de Skype se actualizará para admitir las reuniones de Teams?
 
-Los dispositivos con el sistema de la Sala de reuniones de Lync (LRS) con el software del sistema de sala de reuniones de Skype versión 1 (SRS v1) llegaron al final de su soporte técnico el 9 de octubre de 2018. Es decir, el software de sistemas de la Sala de reuniones de Skype v1 ya no recibirá más actualizaciones ni correcciones. Se recomienda a los clientes que usan los dispositivos con el sistema de la Sala de reuniones de Lync con el software del sistema de Sala de reuniones de Skype v1 que actualicen sus dispositivos a las Salas de Microsoft Teams. [Obtenga más información](room-systems/lrs-migration.md).
+Los dispositivos con el sistema de la Sala de reuniones de Lync (LRS) con el software del sistema de sala de reuniones de Skype versión 1 (SRS v1) llegaron al final de su soporte técnico el 9 de octubre de 2018. Es decir, el software de sistemas de la Sala de reuniones de Skype v1 ya no recibirá más actualizaciones ni correcciones. Se recomienda a los clientes que usan los dispositivos con el sistema de la Sala de reuniones de Lync con el software del sistema de Sala de reuniones de Skype v1 que actualicen sus dispositivos a las Salas de Microsoft Teams. [Obtenga más información](rooms/lrs-migration.md).
 
 ## <a name="management-capabilities"></a>Capacidades de administración
 
