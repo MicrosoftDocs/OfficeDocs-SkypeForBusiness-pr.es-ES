@@ -18,12 +18,12 @@ ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Escritorio IP y teléfonos de conferencia certificados para Microsoft Teams
-ms.openlocfilehash: bf14bed7846b8c1b3dea1d79f3ecae99706dc034
-ms.sourcegitcommit: 43cab5f0fc8692174db09badf3d448e8ff6a50d6
+ms.openlocfilehash: 8d1cfa4a1cde87791d1770cad05f5b0e644948c3
+ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40744854"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41506852"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Teléfonos IP certificados para Microsoft Teams
 
@@ -48,7 +48,9 @@ Los siguientes teléfonos están certificados para Microsoft Teams:
 |Crestron M100|2.3875.00068|2018 de diciembre|
 |Crestron Flex UC-P100-T & UC-P110-T  | 58.15.91.6 |2019 de enero|
 |Poli trío 8500/8800 (solo en modo compartido)| 5.9.0.10869|2019 de junio|
-|CCX500 de poli | 1.0.0.2535| 2019 de diciembre|
+|CCX400 de poli | 1.0.0.0200 | 2020 de enero|
+|CCX600 de poli | 5.9.12.1111| 2020 de enero|
+|CCX500 de poli | 5.9.12.1111| 2019 de diciembre|
 |Yealink VP59 | 91.15.0.16 |2019 de junio|
 |Yealink T55 | 58.15.0.36 |2019 de mayo|
 |Yealink CP 960 |73.15.0.20|2018 de diciembre|
