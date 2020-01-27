@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Resumen: Aprenda a preparar el dominio de Active Directory para una instalación de Skype empresarial Server. Descargue una prueba gratuita de Skype empresarial Server en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 114b2a91491dd440972f589ff45d86835c676bef
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a7b9a22042cecae76a5a5390b0778119363043b5
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41000890"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554057"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Preparar Active Directory para Skype empresarial Server
  
@@ -35,7 +35,7 @@ Skype empresarial Server funciona estrechamente con Active Directory. Debe prepa
 Skype empresarial Server está estrechamente integrado con los servicios de dominio de Active Directory (AD DS). Para que Skype empresarial Server pueda instalarse por primera vez, Active Directory debe estar preparado. La sección del asistente de implementación titulada **preparar Active** Directory prepara el entorno de Active Directory para su uso con Skype empresarial Server.
   
 > [!NOTE]
-> Skype empresarial Server usa (AD DS) para realizar un seguimiento de los servidores de una topología y comunicarse con ellos. Cada servidor debe estar unido al dominio para que Skype empresarial Server pueda funcionar correctamente. 
+> Skype empresarial Server usa (AD DS) para realizar un seguimiento de los servidores de una topología y comunicarse con ellos. La mayoría de estos servidores se deben unir al dominio para que Skype empresarial Server pueda funcionar correctamente. Tenga en cuenta que los servidores como Edge y proxy inverso no deben unirse a un dominio.
   
 > [!IMPORTANT]
 > Es necesario ejecutar el procedimiento de preparación de Active Directory solo una vez por cada dominio en la implementación. 

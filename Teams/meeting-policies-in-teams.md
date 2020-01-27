@@ -20,12 +20,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams.
-ms.openlocfilehash: 20382a41ac8d0a78d56ebcb51e852f5302ea74a7
-ms.sourcegitcommit: 447c5ffc27c5b0928e033f85914810af56e510ef
+ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120407"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554347"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
@@ -105,10 +105,10 @@ Al seleccionar una directiva existente en la página **directivas** de la reuni�
 Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal de Teams. Si activa esta opción, cuando un usuario publique un mensaje en un canal de Teams, el usuario podrá hacer clic en **reunirse ahora** debajo del cuadro de redacción para iniciar una reunión ad hoc en el canal.
 
 ![Captura de pantalla que muestra el icono reunirse ahora debajo de un mensaje](media/meeting-policies-meet-now.png)
-
 ### <a name="allow-private-meet-now"></a>Permitir reunirse ahora
 
 Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión privada ad hoc.  
+
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir el complemento de Outlook
 
@@ -140,7 +140,6 @@ Tenga en cuenta que si desactiva permitir la programación de **reuniones privad
 - [Permitir la grabación en la nube](#allow-cloud-recording)
 - [Permitir vídeo IP](#allow-ip-video)
 - [Velocidad de bits multimedia (KB)](#media-bit-rate-kbs)
-- [Habilitar los títulos en vivo (vista previa)](#enable-live-captions-preview)
 
 ### <a name="allow-transcription"></a>Permitir la transcripción
 
@@ -197,20 +196,6 @@ Si no hay suficiente ancho de banda para una reunión, los participantes verán 
 
 Para las reuniones que necesitan una experiencia de video de la más alta calidad, como las reuniones de los paneles CEO y los equipos en vivo, le recomendamos que configure el ancho de banda en 10 Mbps. Incluso cuando se establece la experiencia máxima, la pila de medios de Teams se adapta a condiciones de ancho de banda bajo cuando se detectan ciertas condiciones de red, según el escenario. 
 
-### <a name="enable-live-captions-preview"></a>Habilitar los títulos en vivo (vista previa)
-
-Esta es una directiva por usuario y se aplica durante una reunión. Esta configuración controla si la opción **Activar títulos en vivo** está disponible para que el usuario Active y desactive los subtítulos en vivo en las reuniones que asiste el usuario.  
-
-![Captura de pantalla que muestra la opción Activar subtítulos en vivo](media/meeting-policies-live-captions.png)
-
-|Valor de configuración |Comportamiento  |
-|---------|---------|
-|**Deshabilitado y el usuario puede invalidar**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta es la configuración que se aplica normalmente. |
-|**Deshabilitado**     | Los subtítulos en vivo se deshabilitan para el usuario durante la reunión. El usuario no tiene la opción de activarlos.          |
-
-
-<a name="bkcontentsharing"> </a>
-
 ## <a name="meeting-policy-settings---content-sharing"></a>Configuración de la Directiva de reunión: uso compartido de contenido
 
 - [Modo de uso compartido de pantalla](#screen-sharing-mode)
@@ -219,7 +204,6 @@ Esta es una directiva por usuario y se aplica durante una reunión. Esta configu
 - [Permitir el uso compartido de PowerPoint](#allow-powerpoint-sharing)
 - [Permitir pizarra](#allow-whiteboard)
 - [Permitir notas compartidas](#allow-shared-notes)
-- [Permitir la conversación en reuniones (próximamente)](#allow-chat-in-meetings-coming-soon)
 
 ### <a name="screen-sharing-mode"></a>Modo de uso compartido de pantalla
 
@@ -266,7 +250,7 @@ Daniela puede ceder el control del escritorio o de la ventana compartidos a otro
 Para usar PowerShell para controlar quién puede ceder el control o aceptar solicitudes de control, use el cmdlet AllowParticipantGiveRequestControl.
 
 > [!NOTE]
-> Para conceder y tomar el control del contenido compartido durante el uso compartido, ambas partes deben usar el cliente de escritorio de Teams. El control no es compatible cuando cualquiera de las partes está ejecutando equipos en un explorador. Esto se debe a una limitación técnica que planeamos corregir. 
+> Para conceder y tomar el control del contenido compartido durante el uso compartido, ambas partes deben usar el cliente de escritorio de Teams. El control no es compatible cuando cualquiera de las partes ejecuta Teams en un explorador. Esto se debe a una limitación técnica que planeamos solucionar. 
 
 ### <a name="allow-an-external-participant-to-give-or-request-control"></a>Permitir que un participante externo pueda ceder o solicitar el control
 
@@ -320,19 +304,16 @@ Echemos un vistazo al ejemplo siguiente.
 
 Daniela puede tomar notas en las reuniones de Amanda y Amanda no puede tomar notas en ninguna reunión.
 
-### <a name="allow-chat-in-meetings-coming-soon"></a>Permitir la conversación en reuniones (próximamente)
-
-Esta es una directiva por organizador. Esta opción controla si se permite la conversación de la reunión en la reunión del usuario. 
-
-<a name="bkparticipantsandguests"> </a>
-
 ## <a name="meeting-policy-settings---participants--guests"></a>Configuración de la Directiva de reunión: participantes & invitados
 
 Esta configuración controla los participantes de la reunión en la sala de espera antes de que se admitan en la reunión y el nivel de participación permitido en una reunión.
 
 - [Admitir automáticamente personas](#automatically-admit-people)
 - [Permitir que usuarios anónimos inicien una reunión](#allow-anonymous-people-to-start-a-meeting)
-- [Permitir que los usuarios de acceso telefónico omitan la sala de recepción](#allow-dial-in-users-to-bypass-the-lobby-coming-soon)
+- [Permitir que los usuarios de acceso telefónico omitan la sala de recepción](#allow-dial-in-users-to-bypass-the-lobby)
+- [Permitir reunirse ahora](#allow-private-meet-now)
+- [Habilitar títulos en vivo](#enable-live-captions)
+- [Permitir la conversación en reuniones](#allow-chat-in-meetings)
 
 > [!NOTE]
 >Las opciones para unirse a una reunión variarán en función de la configuración de cada grupo de equipos y del método de conexión. Si su grupo tiene audioconferencias y lo usa para conectarse, consulte [audioconferencias en Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si su grupo de equipos no tiene audioconferencia, consulte unirse a [una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -379,7 +360,7 @@ Este es el comportamiento de unirse a personas anónimas cuando no hay usuarios 
 |   | Todas las personas de su organización     |Esperar en la sala de espera         |
 |   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
 
-### <a name="allow-dial-in-users-to-bypass-the-lobby-coming-soon"></a>Permitir que los usuarios de acceso telefónico omitan la sala de recepción (próximamente)
+### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de recepción
 
 Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios.
 
@@ -394,6 +375,29 @@ Este es el comportamiento de la Unión de las personas que llaman por teléfono.
 |   | Todas las personas de su organización     |Esperar en la sala de espera         |
 |   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
 
+### <a name="allow-private-meet-now"></a>Permitir reunirse ahora
+
+Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión privada ad hoc. 
+
+### <a name="enable-live-captions"></a>Habilitar títulos en vivo
+
+Esta es una directiva por usuario y se aplica durante una reunión. Esta configuración controla si la opción **Activar títulos en vivo** está disponible para que el usuario Active y desactive los subtítulos en vivo en las reuniones que asiste el usuario.  
+
+![Captura de pantalla que muestra la opción Activar subtítulos en vivo](media/meeting-policies-live-captions.png)
+
+|Valor de configuración |Comportamiento  |
+|---------|---------|
+|**Deshabilitado y el usuario puede invalidar**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta es la configuración que se aplica normalmente. |
+|**Deshabilitado**     | Los subtítulos en vivo se deshabilitan para el usuario durante la reunión. El usuario no tiene la opción de activarlos.          |
+
+
+<a name="bkcontentsharing"> </a>
+
+### <a name="allow-chat-in-meetings"></a>Permitir la conversación en reuniones
+
+Esta es una directiva por organizador. Esta opción controla si se permite la conversación de la reunión en la reunión del usuario. 
+
+<a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>Temas relacionados
 [Directivas de mensajería en Teams](messaging-policies-in-teams.md)

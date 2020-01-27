@@ -14,17 +14,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7274669e4567be02efbd2fdeb4c6524ce6e55f38
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: aaf2a4aeeb5a3320d30ed261307aa074defecb84
+ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871696"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "41554227"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 =======================================================
 
-La prueba comercial en la nube de Microsoft Teams permite a los usuarios existentes de Office 365 de su organización que no tienen una licencia de Microsoft Teams iniciar una prueba de 1 año del producto. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización. 
+La prueba comercial en la nube de Microsoft Teams permite a los usuarios existentes de Office 365 de su organización que no tienen una licencia de Microsoft Teams iniciar una prueba de 1 año del producto. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización.
 
 > [!IMPORTANT]
 > La prueba en la nube de Microsoft Teams se reemplazará por Microsoft Teams exploratorios a partir del 2020 de enero. Para obtener más información sobre esta nueva oferta, consulte [Administrar Teams](teams-exploratory.md)de licencias exploratorias.
@@ -78,13 +78,13 @@ Los administradores pueden desactivar la capacidad de los usuarios finales de so
 
 Puede desactivar la capacidad de un usuario para instalar servicios y aplicaciones de prueba.
 
-1. Desde el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), vaya a **Configuración** > **Servicios y complementos** > **Aplicaciones y servicios en propiedad del usuario**.
+1. Desde el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), vaya a **Configuración** > **Configuración**, seleccione **Servicios** y **Aplicaciones y servicios en propiedad del usuario**.
 
-    ![Captura de pantalla de la página Servicios y complementos en el Centro de administración.](media/iw-trial-enable-1.png)
+    ![Captura de pantalla de la página Servicios en el centro de administración.](media/iw-trial-services.png)
 
-2. Desactive **Permitir a los usuarios instalar servicios y aplicaciones de prueba**.
+2. Desactive la casilla **Permitir que los usuarios instalen aplicaciones y servicios de prueba**.
 
-    ![Captura de pantalla de la página Aplicaciones y servicios en propiedad del usuario en el Centro de administración.](media/iw-trial-enable-2.png)
+    ![Captura de pantalla de la página Aplicaciones y servicios en propiedad del usuario en el centro de administración.](media/iw-trial-user-owned-apps-services.png)
 
 
 ### <a name="manage-trial-availability-for-a-user-with-a-license-that-includes-teams"></a>Administrar la disponibilidad de la versión de prueba para un usuario con una licencia que incluye Teams
@@ -119,8 +119,8 @@ Para desactivar la licencia de prueba:
 
     ![Captura de pantalla de la configuración de la licencia de prueba de Teams en el panel de licencias](media/iW-trial-enable-4.png)
     
->[!Note]
->El botón de alternancia de la versión de prueba de Microsoft Teams aparecerá después de que el primer usuario de la organización se haya registrado para la versión de prueba.
+    >[!Note]
+    >El botón de alternancia de la versión de prueba de Microsoft Teams aparecerá después de que el primer usuario de la organización se haya registrado para la versión de prueba.
 
 ### <a name="manage-teams-for-users-who-have-the-trial-license"></a>Administrar Teams para los usuarios que tienen la licencia de prueba
 

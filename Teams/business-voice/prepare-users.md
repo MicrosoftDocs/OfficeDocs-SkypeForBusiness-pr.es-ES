@@ -15,43 +15,48 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 554ea9b5855a4b177c9f22dd985fc14c4b0e3877
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 9bc355bce9fbcbc4a83b86f71202b2f6316ecf71
+ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38653546"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41268696"
 ---
-# <a name="how-do-i-get-my-users-ready-for-business-voice"></a>¿Cómo preparo a mis usuarios para Business Voice?
+# <a name="how-do-i-get-my-users-ready-for-microsoft-365-business-voice"></a>¿Cómo preparo a mis usuarios para Microsoft 365 Business Voice?
 
-Es una buena idea preparar a sus usuarios antes de configurar Business Voice. Asegúrese de que tiene instalado Microsoft Teams y Office, configure dispositivos en sus equipos, indíqueles cómo configurar los saludos de correo de voz y otras características de telefonía para empresas, y anímelos a aprender más sobre Teams para sacar el máximo partido.
+Es una buena idea preparar a sus usuarios antes de configurar Business Voice:
+- Asegúrese de que tiene instalados Microsoft Teams y Microsoft Office. 
+- Configure los dispositivos necesarios en sus equipos.
+- Enséñeles a configurar saludos de correo de voz y otras características de Business Voice.
+- Anime a los usuarios a obtener más información acerca de Teams para poder sacar el máximo partido.
 
 ## <a name="install-microsoft-teams-on-computers-and-phones"></a>Instalar Microsoft Teams en equipos y teléfonos
 
-Si aún no lo ha hecho, debe instalar Teams en cualquier equipo y teléfono que los usuarios quieran usar para realizar llamadas a través de la telefonía IP empresarial. Teams está disponible para equipos PC y Mac, y para teléfonos Android y iPhone. Incluso está en la Web en https://teams.microsoft.com. Todas estas opciones son compatibles con Business Voice. Para equipos PC, Mac y la Web, tendrá que agregar auriculares o cualquier otro dispositivo que tenga un micrófono y altavoces. La sección siguiente contiene más información al respecto.
+Si aún no lo ha hecho, instale Teams en los equipos y teléfonos que se usarán para Business Voice. Teams está disponible para equipos PC y Mac, y para teléfonos Android y iPhone. También hay una versión web en https://teams.microsoft.com. Para equipos PC, Mac y la web, necesita unos auriculares o un micrófono y altavoces. La siguiente sección ofrece información más detallada.
 
 Para equipos PC y Mac, puede descargar Teams en https://teams.microsoft.com/downloads. Si un usuario está ejecutando el modo Windows 10, puede instalar equipos desde la tienda Windows.
-Para teléfonos Android y iPhone, puede instalar la aplicación buscando Microsoft Teams en Google Play y en la App Store de Apple. Tenga en cuenta que los teléfonos necesitan ejecutar Android 4,4 o posterior, o bien iOS 10,0 o posterior.
-Para usar Teams en la Web, debe usar un explorador compatible. Para obtener una lista de los exploradores admitidos, consulte en la sección de cliente Web en [Obtener clientes de Microsoft Teams](../get-clients.md#web-client).
 
-## <a name="devices-for-microsoft-teams"></a>Dispositivos de Microsoft Teams
+Para teléfonos Android y iPhone, busque Microsoft Teams en Google Play o en la App Store de Apple. Los teléfonos necesitan ejecutar Android 4.4 o posterior, o bien iOS 10.0 o posterior.
+Para usar Teams en la web, debe usar un [explorador compatible](../get-clients.md#web-client).
 
-Los usuarios a los que se otorga la licencia de telefonía empresarial necesitan un micrófono y altavoces para realizar o recibir llamadas de teléfono. Hay una gran cantidad de opciones en función de las necesidades de cada usuario o entorno. Aquí se muestran algunas ideas para considerar lo que debe hacer:
+## <a name="choose-devices-for-teams-and-business-voice"></a>Elija dispositivos para Teams y Business Voice
 
-* **Usuarios de móviles o los que tienen entornos ruidosos:** auriculares USB e inalámbricos con micrófonos. Junto con Microsoft Teams, un equipo se puede convertir en un teléfono siempre y cuando disponga de conexión a Internet.
-* **Recepcionistas y ejecutivos:** los teléfonos de escritorio completos y multifunción se pueden usar como los teléfonos normales. La marcación automática, las conferencias, el altavoz y la compatibilidad con auriculares, los hacen extremadamente flexibles.
-* **Salas de conferencias:** y los dispositivos de audio le permiten configurar salas de conferencias enteras con capacidades de manos libres que pueden usarse con los puentes de conferencia de Teams para organizar grandes reuniones.
+Los usuarios de Business Voice necesitan un micrófono y altavoces para realizar y recibir llamadas de teléfono. Hay una gran cantidad de opciones en función de las necesidades de cada usuario o entorno. Aquí se muestran algunas ideas que considerar cuando decida qué obtener:
 
-Si está usando un dispositivo USB o inalámbrico, conéctelo a un equipo que ejecute Teams. Es posible que tenga que ir a la configuración del dispositivo en Teams (haga clic en la imagen de perfil en la parte superior de Teams y, a continuación, seleccione **Configuración** > **Dispositivos**) y elija el dispositivo de **Dispositivos de audio**. Para otros dispositivos, siga las instrucciones para configurarlo para que se pueda usar con Teams.
+* **Usuarios y usuarios móviles en entornos ruidosos:** considere la posibilidad de usar auriculares USB o inalámbricos con micrófonos. Junto con Microsoft Teams, cualquier PC se puede convertir en un teléfono siempre y cuando disponga de conexión a Internet.
+* **Recepcionistas y ejecutivos**: se pueden usar teléfonos de escritorio completos y multifunción, como los teléfonos normales. La marcación automática, las conferencias, el altavoz y la compatibilidad con auriculares los hacen extremadamente flexibles.
+* **Salas de conferencias:** Los dispositivos de audio le permiten configurar salas de conferencias con funciones de manos libres que pueden usarse con los puentes de conferencia de Teams para organizar grandes reuniones.
+
+Si está usando un dispositivo USB o inalámbrico, conéctelo a un equipo que ejecute Teams. Es posible que tenga que ir a la configuración del dispositivo en Teams: seleccione su imagen de perfil en la parte superior de Teams y vaya a **Configuración** > **Dispositivos**. Elija el dispositivo en **Dispositivos de audio**. Si no ve el dispositivo en Teams, siga las instrucciones del fabricante para configurarlo en su equipo.
 
 > [!NOTE]
-> Puede probar fácilmente si Teams, sus altavoces y su micrófono funcionan correctamente siguiendo los pasos en [Asegúrese de que los equipos y dispositivos de su red puedan acceder a Microsoft 365](get-ready-internet.md#make-sure-computers-and-devices-on-your-network-can-reach-microsoft-365).
+> Para comprobar que Teams, los altavoces y el micrófono funcionan de forma correcta, siga los pasos descritos en [Asegúrese de que los dispositivos de su red puedan conectarse a Microsoft 365](get-ready-internet.md#make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365).
 
 Para ver todos los dispositivos que son compatibles con Teams, visite la [Tienda de dispositivos de Teams](https://products.office.com/microsoft-teams/across-devices/devices). Para comprar dispositivos, póngase en contacto con el distribuidor local. La mayoría de las tiendas en línea principales también tienen la mayoría de los dispositivos de Teams.
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>Configurar saludos de correo de voz y otras características de Business Voice
 
-Al igual que con los teléfonos habituales, puede configurar los saludos de correo de voz, desviar llamadas, elegir tonos y mucho más. Todo lo que puede ser configurado por los usuarios se puede encontrar en la aplicación de Teams haciendo clic en la imagen de su perfil en la esquina superior derecha de Teams y luego seleccionando **Configurar**  > **Llamadas**. Para obtener ayuda con la configuración de estas características, consulte [Administrar la configuración de llamadas en Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
+Al igual que con los teléfonos habituales, puede configurar los saludos de correo de voz, desviar llamadas, elegir tonos y mucho más. Todo lo que puede ser configurado por los usuarios se puede encontrar en la aplicación de Teams seleccionando la imagen de su perfil en la esquina superior derecha de Teams y luego seleccionando **Configurar**  > **Llamadas**. Para obtener ayuda con la configuración de estas características, consulte [Administrar la configuración de llamadas en Teams](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>Más información acerca de lo que Microsoft Teams y Business Voice pueden hacer
 
