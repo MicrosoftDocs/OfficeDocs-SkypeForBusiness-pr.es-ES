@@ -12,12 +12,12 @@ ms.collection:
 - M365-collaboration
 ms.assetid: ''
 description: Administrar actualizaciones de Windows para salas de Microsoft Teams
-ms.openlocfilehash: 87aab8b4c0d299b682f450d6d53ace33fc7a464b
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: be3555507b0c9a8967b444b96e8c6e4af8f35fbf
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269265"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628566"
 ---
 # <a name="manage-windows-updates"></a>Administrar actualizaciones de Windows
 
@@ -36,13 +36,13 @@ Las actualizaciones de Windows se pueden administrar como se describe en las sig
 
 - Descarga [de actualizaciones de Windows para empresas](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb)
 - Las actualizaciones se descargan desde Windows Update o WSUS, pero con retrasos configurados más allá de la fecha de lanzamiento original.
-- Puede usar varias unidades organizativas o directivas filtradas para crear "anillos" de implementación donde los administradores puedan especificar qué dispositivos instalan primero las actualizaciones de calidad y cuáles se instalarán más adelante. La confiabilidad y el rendimiento se pueden probar en un subconjunto de sistemas antes de implementar las actualizaciones en toda la implementación sin la carga de administrar las actualizaciones de Windows en SCCM.
+- Puede usar varias unidades organizativas o directivas filtradas para crear "anillos" de implementación donde los administradores puedan especificar qué dispositivos instalan primero las actualizaciones de calidad y cuáles se instalarán más adelante. La confiabilidad y el rendimiento se pueden probar en un subconjunto de sistemas antes de implementar las actualizaciones en toda la implementación sin la carga de administrar las actualizaciones de Windows en Configuration Manager.
 - Las actualizaciones de WSUS y Windows para empresas pueden [configurarse al mismo tiempo](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) si quiere tanto la administración de ancho de banda como el control que ofrece Windows Updates para empresas.
 - Actualizaciones de características. Vea las notas siguientes.
 
-## <a name="wsussccm"></a>WSUS/SCCM
+## <a name="wsusconfiguration-manager"></a>WSUS/administrador de configuración
 
-- Descarga de [WSUS o SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+- Descarga de [WSUS o Configuration Manager](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - De manera muy similar a Windows Update para empresas, pero con la opción adicional de segmentar las KB específicas dentro de cada "timbre" o toda la implementación. Cada actualización se puede implementar y probar individualmente en la misma, en lugar de confiar únicamente en un retraso.
 - Actualizaciones de características. Vea las notas siguientes.
 
@@ -52,4 +52,4 @@ A diferencia de las actualizaciones de calidad y no aplazable, las actualizacion
 
 Salas de Microsoft Teams las funciones "preparadas" con un enfoque de manos libres y no instalarán Windows Update ni reiniciarán automáticamente un dispositivo para Windows Update. Los sistemas descargan una actualización y esperan al siguiente reinicio para instalarla. A menos que alguien lo reinicie manualmente, la instalación solo se realizará durante el reinicio automático por la noche. Las actualizaciones de Windows deberían ser transparentes en la sala, y las actualizaciones de Windows nunca deberán interrumpir el funcionamiento normal.
 
-Si elige para unirse a un dominio, use SCCM o WSUS. Preste especial atención a las directivas o acciones que tengan como resultado la actualización de un dispositivo o el reinicio forzado durante el horario comercial. Los sistemas de la implementación no se deben reiniciar durante el uso o la alerta sobre actualizaciones de Windows a través de la interfaz de usuario durante las horas de uso, revise la configuración si ese comportamiento se produce.
+Si elige para unirse a un dominio, use el administrador de configuración de Microsoft Endpoint o WSUS. Preste especial atención a las directivas o acciones que tengan como resultado la actualización de un dispositivo o el reinicio forzado durante el horario comercial. Los sistemas de la implementación no se deben reiniciar durante el uso o la alerta sobre actualizaciones de Windows a través de la interfaz de usuario durante las horas de uso, revise la configuración si ese comportamiento se produce.

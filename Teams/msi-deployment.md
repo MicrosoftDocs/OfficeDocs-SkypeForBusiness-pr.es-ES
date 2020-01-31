@@ -1,5 +1,5 @@
 ---
-title: Instalar Microsoft Teams con MSI (mediante SCCM)
+title: Instalar Microsoft Teams mediante MSI mediante el administrador de configuración de Microsoft Endpoint
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -14,19 +14,19 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd934c601b45258dd7a2e2c15ef49f19ffee9201
-ms.sourcegitcommit: 416a2d404a2ea15b484cd7579035e7f2282ac2cf
+ms.openlocfilehash: 2f6902ae52c04d0087bb6718b119ae66dd920ced
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233279"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628136"
 ---
-# <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
+# <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Instalar Microsoft Teams mediante el administrador de configuración de Microsoft Endpoint
 
 > [!Tip]
 > Vea la siguiente sesión para obtener información sobre las ventajas del cliente de escritorio de Windows, cómo se planea y cómo se implementa: [Teams cliente de escritorio de Windows](https://aka.ms/teams-clients)
 
-Para usar System Center Configuration Manager, una directiva de grupo o cualquier mecanismo de distribución de terceros para una implementación ampliada, Microsoft ha proporcionado archivos MSI (32 de bits y 64 bits) que los administradores pueden usar para la implementación masiva de equipos para seleccionar usuarios o equipos. Los administradores pueden usar estos archivos para implementar equipos de forma remota, de modo que los usuarios no tengan que descargar manualmente la aplicación de Teams. Cuando se implementa, Teams se iniciará automáticamente para todos los usuarios que inicien sesión en ese equipo. (Puede deshabilitar el inicio automático después de instalar la aplicación. [Consulte a continuación](#disable-auto-launch-for-the-msi-installer)). Le recomendamos que implemente el paquete en el equipo, de modo que todos los nuevos usuarios del equipo también se beneficien de esta implementación.
+Para usar Microsoft Endpoint Configuration Manager, una directiva de grupo o cualquier mecanismo de distribución de terceros para una implementación ampliada, Microsoft ha proporcionado archivos MSI (tanto de 32 bits como de 64 bits) que los administradores pueden usar para la implementación masiva de equipos con el fin de seleccionar usuarios o equipo. Los administradores pueden usar estos archivos para implementar equipos de forma remota, de modo que los usuarios no tengan que descargar manualmente la aplicación de Teams. Cuando se implementa, Teams se iniciará automáticamente para todos los usuarios que inicien sesión en ese equipo. (Puede deshabilitar el inicio automático después de instalar la aplicación. [Consulte a continuación](#disable-auto-launch-for-the-msi-installer)). Le recomendamos que implemente el paquete en el equipo, de modo que todos los nuevos usuarios del equipo también se beneficien de esta implementación.
 
 Estos son los vínculos a los archivos MSI:
 
@@ -41,7 +41,7 @@ Estos son los vínculos a los archivos MSI:
 Los equipos también pueden incluirse con una implementación de Office 365 ProPlus. Para obtener más información, consulte [implementar Microsoft Teams con Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
 
 > [!Note]
-> Para obtener más información sobre SCCM, consulte [Introducción a System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).
+> Para obtener más información sobre Microsoft Endpoint Configuration Manager, vea [¿Qué es Configuration Manager?](https://docs.microsoft.com/configmgr/core/understand/introduction).
 
 ## <a name="deployment-procedure-recommended"></a>Procedimiento de implementación (recomendado)
 
@@ -80,7 +80,7 @@ Si un usuario desinstala equipos de su perfil de usuario, el instalador MSI real
 3. Vuelva a implementar el paquete MSI en ese equipo.
 
 > [!TIP]
-> Puede usar nuestro script de limpieza de la [implementación de Microsoft Teams](scripts/powershell-script-teams-deployment-clean-up.md) para llevar a cabo los pasos 1 y 2 a través de SCCM.
+> Puede usar nuestro script de limpieza de la [implementación de Microsoft Teams](scripts/Powershell-script-teams-deployment-clean-up.md) para llevar a cabo los pasos 1 y 2 a través de Configuration Manager.
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>Impedir que los equipos se inicien automáticamente después de la instalación
 

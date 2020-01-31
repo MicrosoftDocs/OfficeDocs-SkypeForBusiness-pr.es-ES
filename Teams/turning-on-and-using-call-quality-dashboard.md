@@ -22,12 +22,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Consulta cómo activar y usar el panel de calidad de llamadas y obtener informes de Resumen de la calidad de las llamadas. '
-ms.openlocfilehash: 429904020a63b93fefd1adee7ee89d02a47f1d61
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4aea268e2c25e655b7f2dee914497ae3154f0008
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41005206"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41620014"
 ---
 # <a name="turn-on-and-use-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online
 
@@ -188,13 +188,15 @@ Los informes de resumen del CQD proporcionan un subconjunto de las característi
 |Personalización del conjunto de informes (agregar, eliminar, modificar informes)   | No   | Sí   |
 |Métricas de pantalla compartida basada en vídeo   | No   | Sí   |
 |Métricas de video   | No   | Sí   |
-|Cantidad de datos disponibles   | Últimos 6 meses   | Últimos 6 meses   |
+|Cantidad de datos disponibles   | Últimos 12 meses   | Últimos 12 meses   |
 |Datos de Microsoft Teams   | Sí   | Sí    |
 | | | |
 
 ### <a name="out-of-the-box-reports"></a>Informes listos para su servicio
 
 Todas las ediciones de CQD proporcionan una experiencia que le ofrece una métrica de calidad de llamadas sin necesidad de crear nuevos informes. Una vez que los datos se hayan procesado en el back-end, verá datos sobre la calidad de las llamadas en los informes.
+
+Novedades de enero de 2020: [Descargue las plantillas de consulta de Power BI para el CQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD Power BI query templates.zip?raw=true). Plantillas de Power BI personalizables que puede usar para analizar y notificar los datos de CQD.
   
 ### <a name="overview-reports"></a>Informes de información general
 
@@ -395,6 +397,17 @@ EndpointName, EndpointMake, EndpointModel, EndpointType, EndpointLabel1, Endpoin
 
 ' 1409W3534, fabricante de 123, Fabrikam modelo 123, portátil, TI designado 2018 portátil, etiqueta de activos 5678, compra 2018
 
+## <a name="migrate-reports-from-previous-version-of-cqd"></a>Migrar informes de una versión anterior del CQD
+
+Si ha creado informes o ha cargado los archivos de datos de inquilino (asignación) en el CQD para Skypehttps://cqd.lync.com) empresarial (y quiere migrarlos al CQD para Teamshttps://cqd.teams.microsoft.com)() de la siguiente manera:
+
+1.  Vaya al [https://cqd.lync.com/cqd/](https://cqd.lync.com/cqd/) conjunto de informes que desee exportar y búsquelo. 
+2.  Mantenga el mouse sobre el informe y, en la "..." menú, elija **exportar árbol de informes**. Guarde el archivo de exportación.
+3.  Vaya a [https://cqd.teams.microsoft.com/cqd/](https://cqd.teams.microsoft.com/cqd/) la ubicación donde desea importar los informes y búsquelo.
+4.  Desde los vínculos de la izquierda, haga clic en **importar** y seleccione el archivo exportado. 
+5.  Después de importar los informes, verá este mensaje: "la importación del informe se realizó correctamente. El nuevo informe se ha agregado al final del conjunto de informes. 
+
+
 ## <a name="create-custom-detailed-reports"></a>Crear informes detallados personalizados
 
 Si encuentra que desea crear un informe específico que se Centre en una dimensión de los datos de un modo que los informes detallados proporcionados no, cree un informe personalizado.
@@ -445,7 +458,17 @@ Al comparar los datos de estos dos servicios:
   - Con cable: WiFi
   - Red corporativa: red doméstica
   
+### <a name="why-cant-i-see-euii-in-cqd"></a>¿Por qué no puedo ver EUII en el CQD?
 
+Estos roles de administrador pueden acceder al CQD, pero no pueden ver la información de identificación de EUII (información identificable por el usuario final):
+- Lector de informes de Office 365
+- Especialista de soporte técnico de comunicaciones de Teams
+
+Para obtener más información sobre los roles que pueden obtener acceso al CQD, incluyendo EUII-Read, [asigne roles para acceder al CQD](quality-of-experience-review-guide.md#assign-roles-for-accessing-cqd).
+
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>¿Por qué veo la información de Skype para empresas en el CQD cuando he filtrado solo para equipos?
+
+Al filtrar por equipos solo en informes de CQD (isTeams = 1), está filtrando todas las llamadas en las que el *primer punto de conexión* sea equipos. Si el *segundo punto de conexión* es Skype empresarial, esa información se mostrará en el informe de CQD.
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -19,22 +19,22 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Más información sobre cómo configurar teléfonos de área común para salas, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: d00d91d4461a8b197f8629d3dfe9cee6653b2473
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 95346976488c9e08286f8158dc280ef447b4fc8f
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925311"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628396"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
 > [!NOTE]
 > Los teléfonos de área común no admiten el buzón de voz.
 
-Normalmente, un teléfono de área común se coloca en un área como una sala de recepción u otra área que está disponible para muchas personas para hacer una llamada; por ejemplo, un área de recepción, una sala de recepción o un teléfono de conferencia. Los teléfonos de área común se configuran como dispositivos en lugar de usuarios y pueden iniciar sesión automáticamente en una red.
+Un teléfono de área común suele colocarse en un área como una sala de recepción u otra área que está disponible para muchas personas para hacer una llamada; por ejemplo, un área de recepción, una sala de recepción o un teléfono de conferencia. Los teléfonos de área común se configuran como dispositivos en lugar de usuarios y pueden iniciar sesión automáticamente en una red.
 
 En los pasos siguientes, le ayudaremos a configurar una cuenta para el sistema telefónico para implementar teléfonos de área común para su organización. Para obtener una experiencia de sala de reuniones más completa, incluidas las conferencias de audio, considere la posibilidad de comprar la licencia de sala de reuniones dedicada con un dispositivo de sala de reuniones. 
 
-Lo primero que debe hacer es comprar una licencia de teléfono de área común (CAP) y asegurarse de que tiene un teléfono certificado. Para buscar y obtener más información sobre teléfonos certificados, vaya a [dispositivos de Microsoft Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
+En primer lugar, debe comprar una licencia de teléfono de área común (CAP) y asegurarse de que tiene un teléfono certificado. Para buscar y obtener más información sobre teléfonos certificados, vaya a [dispositivos de Microsoft Teams](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1). 
 
 ## <a name="step-1---buy-the-licenses"></a>Paso 1: comprar las licencias
 
@@ -44,7 +44,7 @@ Lo primero que debe hacer es comprar una licencia de teléfono de área común (
 
 2. Seleccione el **teléfono** > de área común**comprar ahora**.
 
-3. En la página **Desproteger** , haga clic en **comprar ahora**.
+3. En la página Desproteger, haga clic en **comprar ahora**.
 
 4. Expanda **suscripciones de complementos** y, a continuación, haga clic para comprar un plan de llamadas. Elige el **plan de llamadas nacionales** o el **plan de llamadas nacionales e internacionales**.
 
@@ -93,17 +93,15 @@ Para obtener más información, vea [Agregar un usuario](https://docs.microsoft.
 
 ## <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Paso 3: asignar un número de teléfono a la cuenta de usuario del teléfono de área común
 
-Use el centro de administración de Skype empresarial para asignar un número al usuario.
+Use el centro de administración de Teams para asignar un número al usuario.
 
-1. En el centro de administración de Microsoft 365, seleccione **centros** > de administración**equipos &** > **portal heredado**de Skype.
-
-2. En el centro de administración de Skype empresarial, seleccione**números de teléfono**de **voz** > .
+1. En el centro de administración de Teams, seleccione**números de teléfono**de **voz** > .
 
 3.  Seleccione un número de la lista de números de teléfono y haga clic en **Asignar**.
 
 4. En la página **asignar** , en el cuadro usuario de voz, escriba el nombre del usuario que va a usar el teléfono y, a continuación, seleccione el usuario en la lista desplegable **seleccionar un usuario de voz** .
 
-5. Allí deberá agregar también una dirección de emergencia. Elija **Buscar por ciudad**, **Buscar por Descripción**o **Buscar por ubicación** en la lista desplegable y, a continuación, escriba la ciudad, la descripción o la ubicación en el cuadro de texto. Una vez que haya buscado, mire en **seleccionar dirección de emergencia** para elegir el adecuado para usted.
+5. A continuación, debe agregar una dirección de emergencia. Elija **Buscar por ciudad**, **Buscar por Descripción**o **Buscar por ubicación** en la lista desplegable y, a continuación, escriba la ciudad, la descripción o la ubicación en el cuadro de texto. Una vez que haya buscado, mire en **seleccionar dirección de emergencia** para elegir el adecuado para usted.
 
 6. Haga clic en **Guardar** y el usuario debería tener este aspecto:
 
@@ -112,7 +110,7 @@ Use el centro de administración de Skype empresarial para asignar un número al
 > [!NOTE]
 > Los usuarios solo aparecerán si tienen una licencia de sistema telefónico aplicada. Si acaba de aplicársela, el usuario a veces tarda un poco de tiempo en aparecer en la lista.
 
-Para obtener más información, vea [obtener números de teléfono para los usuarios](/microsoftteams/getting-phone-numbers-for-your-users).
+Para obtener más información, vea [obtener números de teléfono para los usuarios](getting-phone-numbers-for-your-users.md).
 
 También puede tomar su número de teléfono con otro operador y "puerto" o transferirlo a Office 365. Consulte [transferir números de teléfono a teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 

@@ -3,7 +3,6 @@ title: Información general de seguridad y cumplimiento en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 09/11/2018
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
@@ -17,19 +16,21 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56491fdde5dbd47e91f8c6f2386564b9e78160d3
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 8e0f6424770e2a0ccbe7367d2786949ef4ef2f6d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165620"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573646"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
 
 Microsoft Teams está incorporado en la nube empresarial a gran escala de Office 365, proporcionando las funciones avanzadas de seguridad y cumplimiento que esperan nuestros clientes.
 
-Para obtener una breve introducción (12:42 min) para la seguridad y el cumplimiento de Teams, vea este vídeo: [Microsoft Teams Essentials para ti: seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4).
+No pierdas estos videos mecánicos de Microsoft sobre seguridad y cumplimiento:
+- [Microsoft Teams Essentials para ti: seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4) (12:42 mín)
+- [Controles de Microsoft Teams para seguridad y cumplimiento](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 min)
 
 Teams es compatible con el nivel D. Esto incluye los siguientes estándares: ISO 27001, ISO 27018, SSAE16 SOC 1 y SOC 2, HIPAA y las cláusulas de modelo de la UE (EUMC). En Microsoft Compliance Framework, Microsoft clasifica las aplicaciones y servicios de Office 365 en cuatro categorías. Cada categoría está definida por compromisos de cumplimiento específicos que deben cumplirse para que un servicio de Office 365, o un servicio de Microsoft relacionado, se muestre en esa categoría.
 

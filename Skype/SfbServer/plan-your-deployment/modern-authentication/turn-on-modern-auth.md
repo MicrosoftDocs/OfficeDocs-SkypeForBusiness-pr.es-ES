@@ -12,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: En este artículo, se describen los cmdlets que ofrecen a los administradores más control sobre los métodos de autenticación que se usan dentro y fuera de una empresa. Los administradores pueden activar o desactivar internamente los métodos de autenticación, o de forma externa, a su red.
-ms.openlocfilehash: aaee46b04832cc114f895f905c180fe089d7349d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bfbcc8a3b7d6ff6be270853b2da7c9f91df63e2e
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297270"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573736"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planear la desactivación de los métodos de autenticación heredados de forma interna y externa a la red.
 
@@ -56,15 +56,15 @@ Es importante tener en cuenta que estas son las topologías admitidas en este es
 |__Escriba 4__   |  PROMEDIO       | Logros        | BlockWindowsAuthExternallyAndModernAuthInternally    |
 |__Escriba 5__   |  MA + Win       | Logros        | BlockModernAuthInternally         |
 
-__Escriba una descripción:__ Este es el escenario predeterminado cuando el MA está ____ activado para Skype empresarial Server. En otras palabras, este es el *punto de partida* cuando está configurado el mA.
+__Escriba una descripción:__ Este es el escenario predeterminado cuando el MA está __activado para Skype__ empresarial Server. En otras palabras, este es el *punto de partida* cuando está configurado el mA.
 
 __Descripción del tipo 2:__ Esta topología bloquea NTLM *externamente*, pero permite que NTLM o Kerberos (para los clientes que no son compatibles con Adal) funcionen *internamente*. Si sus clientes admiten ADAL, usarán el MA internamente.
 
 __Descripción del tipo 3:__ Esta topología requiere MA para todos los usuarios. Todos los clientes con capacidad para ADAL funcionarán en esta topología y las contraseñas no se aprovecharán si, por ejemplo, desactiva el uso de contraseñas con autenticación basada en certificados.
 
-__Escriba 4 Descripción:__ Esta topología bloquea NTLM *externamente* y Ma internamente. Permite que *todos los clientes* usen internamente métodos ** de autenticación heredados (incluso clientes compatibles con Adal).
+__Escriba 4 Descripción:__ Esta topología bloquea NTLM *externamente* y Ma internamente. Permite que *todos los clientes* usen *internamente* métodos de autenticación heredados (incluso clientes compatibles con Adal).
 
-__Descripción del tipo 5:__ *Externamente*, tus clientes modernos de Adal usarán MA y cualquier cliente que no admita Adal usará métodos de autenticación heredados. Pero, de forma *interna* , *todos los clientes* usarán la autenticación heredada (incluidos todos los clientes compatibles con Adal).
+__Descripción del tipo 5:__ *externamente*, tus clientes modernos de Adal usarán MA y cualquier cliente que no admita Adal usará métodos de autenticación heredados. Pero, de forma *interna* , *todos los clientes* usarán la autenticación heredada (incluidos todos los clientes compatibles con Adal).
 
 Es muy fácil perder el control del objetivo de proteger las contraseñas en las opciones disponibles. Tenga en cuenta que la situación ideal es usar MA externamente (por ejemplo, mediante la configuración de la autenticación basada en certificados) para evitar ataques de DOS. Si lo aprovecha de forma interna para sus clientes modernos, también tendrá que probar más adelante su red con respecto a los ataques DOS de Skype empresarial Server.
 
@@ -91,14 +91,19 @@ Es posible que sea más aconsejable usar estos valores, así como realizar captu
 > [!IMPORTANT]
 > Si está usando Lync Web Access (LWA) y debe usar acceso basado en formularios (FBA) para acceso externo, vuelva a configurar el LWA para que los clientes puedan acceder a él con acceso anónimo para admitir estos escenarios. Del mismo modo, si usa el PIN de acceso telefónico, FBA se bloqueará solo para los usuarios externos. Si necesitan cambiar su PIN, deberán iniciar sesión en su Corporación para hacerlo internamente.
 
+> [!NOTE]
+> 
+> Si usas el parámetro BlockWindowsAuthExternally para bloquear de forma externa NTLM, ten en cuenta que también se bloquea NTLM internamente para el canal SIP. Sin embargo, los clientes de Skype empresarial y de Lync posteriores a 2010 seguirán pudiendo iniciar sesión, ya que usarán NTLM a través de HTTP para iniciar sesión, de forma interna, y, a continuación, recuperarán un certificado para iniciar sesión a través de SIP. Sin embargo, los clientes anteriores a 2010 no podrán iniciar sesión de forma interna en este caso y es posible que quiera actualizar estas aplicaciones para que los usuarios puedan reanudar la funcionalidad de seguridad.
+
+
 ## <a name="links"></a>Vínculos 
 - Para obtener más información sobre PowerShell:
     -  [Get-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/get-csauthconfig?view=skype-ps)
-    -  [Set-CsAuthConfig](https://docs.microsoft.com/en-us/powershell/module/skype/set-csauthconfig?view=skype-ps)
+    -  [Set-CsAuthConfig](https://docs.microsoft.com/powershell/module/skype/set-csauthconfig?view=skype-ps)
 
 - Para obtener más información sobre cómo usar los comandos o sobre el CU necesario para instalarlos, haga lo siguiente:
     - [Informe sobre cmdlets](https://support.microsoft.com/en-us/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - [Actualizaciones para Skype empresarial Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015) General
+    - [Actualizaciones para Skype empresarial Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015) (general)
     - Los [componentes principales de la 2018 de julio de Skype 2015 empresarial:](https://support.microsoft.com/en-us/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server)
 
 

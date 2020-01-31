@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 99c6e2a5adb9d0f9a4b4e3f6f17b7484bda96a74
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: bb3340da960728b1a261efc510573702c5a17076
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516891"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628716"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar Compartir escritorio en Microsoft Teams
 ============================================
@@ -28,7 +28,7 @@ El uso compartido de escritorio permite a los usuarios presentar una pantalla o 
 
 Para configurar la pantalla compartida, debe crear una nueva Directiva de reuniones y, a continuación, asignarla a los usuarios que desee administrar.
 
-**En el centro de administración de Microsoft Teams**
+**En el [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/)**
 
 1. Seleccione **** > **políticas**de reuniones de reuniones.
 
@@ -60,7 +60,7 @@ Para configurar la pantalla compartida, debe crear una nueva Directiva de reunio
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Usar PowerShell para configurar el escritorio compartido
 
-También puede usar el cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar el uso compartido del escritorio. Establezca los siguientes parámetros:
+También puede usar el cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar el uso compartido del escritorio. Establezca los siguientes parámetros:
 
 - Descripción
 - ScreenSharingMode
@@ -70,5 +70,5 @@ También puede usar el cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.
 - AllowWhiteboard
 - AllowSharedNotes
 
-[Más información sobre cómo usar el cmdlet csTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
+[Más información sobre cómo usar el cmdlet csTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps).
 

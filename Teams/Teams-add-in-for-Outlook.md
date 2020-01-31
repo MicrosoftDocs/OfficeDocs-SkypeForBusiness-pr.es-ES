@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89f9ba68dd4fbd1cef271c0dd0a3fb73e10637a7
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38626986"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573626"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -40,10 +40,9 @@ El complemento de reunión de Teams se instala automáticamente para los usuario
 > - Los usuarios de Windows 7 deben instalar la [actualización de tiempo de ejecución de C universal en Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) para que funcione el complemento de reunión de equipos.
 > - Si está usando una instalación de Office Outlook desde Microsoft Store, no se admite el complemento de reunión de Teams. Se recomienda a los usuarios que necesiten este complemento instalar la versión de hacer clic y ejecutar de Office, tal como se indica en el artículo [modo de Office en Windows 10 en modo S](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f) .
 
-
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>Complemento de reunión de Teams en Outlook para Mac
 
-El botón reunión de equipos de Outlook para Mac aparecerá en la cinta de opciones de Outlook para Mac si Outlook está ejecutando la compilación de producción 16.24.414.0 y versiones posteriores.
+El botón reunión de equipos de Outlook para Mac aparecerá en la cinta de opciones de Outlook para Mac si Outlook está ejecutando la compilación de producción 16.24.414.0 y versiones posteriores, y se activa con una suscripción de cliente de Office 365.
 
 Las coordenadas de la reunión (el vínculo de la unión entre equipos y los números de acceso telefónico) se agregarán a la invitación a la reunión después de que el usuario haga clic en **Enviar**.  
 
@@ -99,7 +98,7 @@ Cuando los usuarios que están en modo de isla programan una reunión en Outlook
 
 | Modo de coexistencia en el centro de administración de Teams | Proveedor de reuniones predeterminado en Outlook Mobile |
 | --------------------------------------|---------------------------------------------|
-| Logra | Skype Empresarial |
+| Aplicaciones aisladas | Skype Empresarial |
 | Solo Skype Empresarial | Skype Empresarial |
 | Skype empresarial con colaboración de Teams | Skype Empresarial |
 | Skype empresarial con colaboración y reuniones de Teams | Teams |

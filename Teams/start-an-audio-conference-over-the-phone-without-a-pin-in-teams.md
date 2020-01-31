@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Aprenda a habilitar o deshabilitar la posibilidad de que los autores de llamada anónimos puedan unirse a una reunión desde el Centro de administración de Teams. '
-ms.openlocfilehash: 78b35b65c1bb27d366e8e9fa27c49ef32864081f
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 380272f3f70d68a04a171ea820e391dd2dd5347a
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37570011"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580847"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Iniciar una audioconferencia por teléfono sin PIN en Microsoft Teams
 
@@ -48,11 +48,11 @@ El organizador de la reunión no necesita el PIN si otra persona ha iniciado la 
 
 3. Junto a **Audioconferencia**, haga clic en **Editar**.
 
-4. En el panel **Audioconferencia**, habilite o deshabilite **Los autores de llamada sin autenticar pueden ser los primeros en unirse a una reunión**.
+4. En el panel **audioconferencia** , habilitar o deshabilitar **a los autores de llamadas puede ser la primera persona de una reunión**.
     
-4. Haga clic en **Guardar**. 
+4. Haga clic en **Aplicar**. 
 
-**Uso de Windows PowerShell**
+Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
   
 Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
 

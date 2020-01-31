@@ -20,12 +20,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre características y licencias adicionales, y cómo comprar planes de Office 365 Enterprise, E1, E3 y E4. '
-ms.openlocfilehash: a6cdfdac5aaa56d9e1bc87df8f33b1143517f1ac
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: afc20061171962a8887e37aae0b85783d617cc85
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "35792886"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573636"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 y E4
 
@@ -40,6 +40,8 @@ Si ya ha comprado el plan [Office 365 Enterprise E1](https://products.office.com
 |**Correo de voz en la nube** <br/> |Para los planes E1 y E4, adquiera Exchange Online Plan 2. <br/>Alternativamente, cambie a una suite de Office que incluya Exchange Online Plan 2, como Office 365 E3. |
 |**Planes de llamadas** <br/> |1. Complemento del **sistema telefónico** <br/> 2. [Plan de llamadas](/MicrosoftTeams/calling-plans-for-office-365): solo puede comprar esto tras adquirir el complemento del **sistema telefónico**. <br/> |
    
+ > [!IMPORTANT]
+ > Las licencias de Office 365 E4 se han retirado oficialmente. Para obtener más información, consulte [información importante para los clientes de Office 365 Enterprise E4](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147) .
   
 ## <a name="e1-and-e3-customers-how-to-see-prices-and-buy"></a>Clientes de E1 y E3: cómo ver precios y comprar
 <a name="bkmk_buypremium"> </a>
@@ -55,11 +57,11 @@ Si ya ha comprado el plan [Office 365 Enterprise E1](https://products.office.com
 ### <a name="partners-how-to-see-prices-and-buy"></a>Socios: cómo ver precios y comprar
 <a name="bkmk_partners"> </a>
 
-The E3 plan is part of your Action Pack. To buy the **Phone System** and **Audio Conferencing** add-ons:
+El plan E3 forma parte de su Action Pack. Para comprar los complementos de **sistema telefónico** y **audioconferencia**:
 
-1. Buy one seat of E3 from our [marketing website](https://go.microsoft.com/fwlink/?LinkId=24393). Choose the option to add the seat to your existing tenant.
+1. Compra un puesto de E3 desde nuestro [sitio web de marketing](https://go.microsoft.com/fwlink/?LinkId=24393). Elija la opción que desea agregar al puesto para el inquilino existente.
 
-2. Inicie sesión en el centro de administración y vaya a complementos de suscripciones**** > **de** **facturación** > .
+2. Inicie sesión en el centro de administración y vaya a**Complementos de****suscripciones** > de **facturación** > .
 
     Ahora verá los precios y la opción de comprar los complementos **sistema telefónico** y **audioconferencia** .
 
@@ -70,6 +72,6 @@ En algunas situaciones, no verá la opción de comprar complementos de Skype emp
 
 - **Ha comprado Office 365 Empresa Premium mediante GoDaddy**. En este caso, no podrá comprar complementos de Skype Empresarial. Debe cambiar al plan E3 (que GoDaddy no vende) y, a continuación, puede comprarlo. [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
-- **You have a monthly commitment instead of an annual commitment**. In some cases, customers who have a monthly commitment can't buy the add-ons (this is different from the payment method, which can be monthly). This is a known issue that we are fixing. [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+- **Tiene un compromiso mensual, en lugar de un compromiso anual**. En algunos casos, los clientes que tienen un compromiso mensual no pueden comprar los complementos (esto es diferente de la forma de pago, que puede ser mensual). Este es un problema conocido que estamos arreglando. [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
     ![You may need an annual commitment to buy add-ons.](../../images/164579c2-f4df-4ae0-bd1d-bff12addb500.png)

@@ -11,12 +11,12 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 description: Lea este tema para obtener información sobre la administración de salas de Microsoft Teams, la nueva generación de sistemas de salas de Skype.
-ms.openlocfilehash: 626190406cf90cdbf09f2ab27d2b31f648f073c9
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0eb68e74368a9ae4463ab5f6a9721a844b151152
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269250"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628666"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Mantenimiento y operaciones de salas de Microsoft Teams 
  
@@ -61,9 +61,9 @@ La tabla siguiente resume las operaciones remotas posibles y los métodos que se
 
 |Grupo de trabajo |No unido a dominio|Unido a dominio|
 |:-----|:-----|:-----|
-|Reinicio  <br/> |Escritorio remoto  <br/> Powershell remoto  <br/> |Escritorio remoto (requiere una configuración adicional)  <br/> PowerShell remoto (requiere una configuración adicional)  <br/> SCCM  <br/> |
+|Reinicio  <br/> |Escritorio remoto  <br/> Powershell remoto  <br/> |Escritorio remoto (requiere una configuración adicional)  <br/> PowerShell remoto (requiere una configuración adicional)  <br/> Configuration Manager  <br/> |
 |Actualizar SO  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|Actualización de aplicaciones  <br/> |Tienda Windows  <br/> |Tienda Windows  <br/> SCCM  <br/> |
+|Actualización de aplicaciones  <br/> |Tienda Windows  <br/> |Tienda Windows  <br/> Configuration Manager  <br/> |
 |Configuración de cuenta de Skype  <br/> |No se admite actualmente  <br/> |No se admite actualmente  <br/> |
 |Registros de acceso  <br/> |No se admite actualmente  <br/> |No se admite actualmente  <br/> |
    
@@ -166,7 +166,7 @@ De forma predeterminada, Microsoft Teams Rooms intenta conectarse a la tienda Wi
   
 De forma predeterminada, Microsoft Teams Rooms se conecta a Windows Update para recuperar el sistema operativo y las actualizaciones de firmware de dispositivos periféricos USB y las instala fuera de las horas laborales configuradas. Para configurar horarios comerciales, puede iniciar sesión en la cuenta de administrador y ejecutar la aplicación Configuración.
   
-Si desea administrar las actualizaciones manualmente y no puede seguir el procedimiento normal de [Microsoft Store para empresas](https://businessstore.microsoft.com/store) para [distribuir aplicaciones sin conexión](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), puede adquirir el archivo appx y las dependencias correspondientes del [Kit de implementación](https://go.microsoft.com/fwlink/?linkid=851168) (de las instrucciones para [configurar una consola de Microsoft Team Rooms](console.md)) que se pueden usar con SCCM. La versión del kit de implementación se retrasó tras la publicación de la tienda, por lo que es posible que no coincida siempre con la compilación más reciente disponible.
+Si desea administrar las actualizaciones manualmente y no puede seguir el procedimiento normal de [Microsoft Store para empresas](https://businessstore.microsoft.com/store) para [distribuir aplicaciones sin conexión](https://docs.microsoft.com/microsoft-store/distribute-offline-apps), puede adquirir el archivo appx y las dependencias correspondientes del [Kit de implementación](https://go.microsoft.com/fwlink/?linkid=851168) (de las instrucciones para [configurar una consola de Microsoft Team Rooms](console.md)) que se pueden usar con Configuration Manager. La versión del kit de implementación se retrasó tras la publicación de la tienda, por lo que es posible que no coincida siempre con la compilación más reciente disponible.
   
 ### <a name="to-update-using-powershell"></a>Para actualizar con PowerShell
 

@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams.
-ms.openlocfilehash: be307c79330e324c7a5673cc4e636bf311f96289
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: c33baabdce8366ed9a4027c0b1e030f54eef543b
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41557861"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41620035"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -202,9 +202,9 @@ Los agentes de llamadas seleccionados deben ser:
 **Método de enrutamiento** Puede elegir entre **operador**, **serie**o **Round Robin** como método de distribución. Todas las colas de llamadas nuevas y existentes tienen el enrutamiento de operador seleccionado de forma predeterminada. Cuando se usa el enrutamiento del operador, la primera llamada en la cola llama a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 
 - El **enrutamiento del operador** hace que la primera llamada de la cola suene a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
-- Las llamadas entrantes de **enrutamiento en serie** se refieren una por una, desde el principio de la lista de agentes de llamadas. Los agentes no se pueden pedir dentro de la lista de agentes de llamadas. Si un agente descarta o no atiende una llamada, la llamada sonará al próximo agente y probará con todos los agentes hasta que se seleccione o agote el tiempo de espera.
+- El **enrutamiento serie** llama a todos los agentes de llamadas de uno en uno, desde el principio de la lista de agentes de llamadas. Los agentes no se pueden pedir dentro de la lista de agentes de llamadas. Si un agente descarta o no atiende una llamada, la llamada sonará al próximo agente y probará con todos los agentes hasta que se seleccione o agote el tiempo de espera.
   > [!NOTE]
-  > El enrutamiento en serie omitirá a los agentes que están **Sin conexión**, han establecido su presencia en **No molestar**o han **optado por no participar** en la recepción de llamadas de esta cola.
+  > Con el enrutamiento en serie, en el caso de agentes que estén **desconectados** o que hayan establecido su presencia en **no molestar**, la llamada se redirigirá a esos usuarios y no podrá conectarse al siguiente agente de la lista de agentes. Esto no sucede si el agente ha **optado** por no recibir llamadas de la cola de llamadas. Para reducir el intervalo de tiempo que se puede disminuir la llamada se dirige al siguiente agente de la línea.
 - El enrutamiento **Round Robin** de equilibra las llamadas entrantes para que cada agente de llamadas obtenga el mismo número de llamadas de la cola. Esto puede ser conveniente en un entorno de ventas entrante para asegurar la igualdad de oportunidades entre todos los agentes de llamadas.
 
 ### <a name="select-an-agent-opt-out-option"></a>Seleccionar una opción de cancelación de la suscripción

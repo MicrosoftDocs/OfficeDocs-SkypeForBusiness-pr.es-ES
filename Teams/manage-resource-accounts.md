@@ -1,7 +1,7 @@
 ---
 title: Administrar cuentas de recursos en Teams
-ms.author: jambirk
-author: jambirk
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: jastark, wasseemh
 ms.topic: article
@@ -17,12 +17,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Más información sobre la administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: a89fe9df7cc878369a06b9c959609dd435bcbd8c
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: e7e7e644d64aeb043e6403fd60d22ebcef155ebe
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925471"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628366"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -107,24 +107,34 @@ Una vez que haya comprado una licencia de sistema telefónico, usando el centro 
 
 ![Captura de pantalla de la página cuentas de recursos](media/r-a-master.png)
 
-![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/teamscallout1.png)
 
-Para crear una cuenta de recursos, haga clic en **+ nueva cuenta**. En la ventana emergente, rellene el nombre para mostrar y el nombre de usuario de la cuenta de recursos (el nombre de dominio debe llenarse automáticamente) y luego haga clic en **Guardar**.
+Para crear una cuenta de recurso, haga clic en **+ Agregar**. En la ventana emergente, rellene el **nombre para mostrar**, **username** (el nombre de dominio debe rellenarse automáticamente) y el tipo de **cuenta de recursos** para la cuenta de recursos. El tipo de cuenta de recursos puede ser el **operador automático** o la **cola de llamadas** en función de la aplicación que desee asociar a la cuenta de recursos. Cuando esté listo, haga clic en **Guardar**.
 
 ![Captura de pantalla de las opciones de nueva cuenta de recursos](media/res-acct.png)
 
 A continuación, aplique una licencia a la cuenta de recursos en el centro de administración de O365, como se describe en [asignar licencias a usuarios en Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
-### <a name="edit-resource-account-name"></a>Editar el nombre de la cuenta de recursos
+### <a name="edit-resource-account"></a>Editar cuenta de recursos 
 
-![Icono del número 2, que hace referencia a una llamada en la](media/sfbcallout2.png) captura de pantalla anterior, puede editar el nombre para mostrar la cuenta de recursos mediante la opción **Editar** . Haga clic en **Guardar** cuando haya terminado.
+![Icono del número 2, que hace referencia a una llamada en la](media/teamscallout2.png) captura de pantalla anterior, puede editar el **nombre para mostrar** de la cuenta de recursos y el tipo de **cuenta de recursos** con la opción **Editar** . Haga clic en **Guardar** cuando haya terminado.
+
 ![Captura de pantalla de la opción Editar cuenta de recursos](media/r-a-edit.png)
 
 <a name="phonenumber"> </a>
 
 ### <a name="assignunassign-phone-numbers-and-services"></a>Asignar o cancelar la asignación de números de teléfono y servicios
 
-![Icono del número 3, que hace referencia a una llamada en la](media/sfbcallout3.png) captura de pantalla anterior una vez que ha creado la cuenta de recurso y asignada la licencia, puede hacer clic en **asignar/anular asignación** para asignar un número de servicio a la cuenta de recursos o asignar el recurso. cuenta a un operador automático o a una cola de llamadas que ya exista. La asignación de un número de enrutamiento directo puede realizarse solo con cmdlets. Si la cola de llamadas o el operador automático siguen necesitando crearse, puede vincular la cuenta de recursos mientras la crea. Haga clic en **Guardar** cuando haya terminado.
+![Icono del número 3, que hace referencia a una llamada en la](media/teamscallout3.png) captura de pantalla anterior una vez que ha creado la cuenta de recurso y se le ha asignado la licencia, puede hacer clic en **asignar/desasignar** para asignar un número de servicio a la cuenta de recursos, configurar el tipo de número de teléfono o asignar la cuenta de recursos a un operador automático o cola de llamadas específicos que ya exista La asignación de un número de enrutamiento directo puede realizarse solo con cmdlets. Si aún no ha creado la cola de llamadas o el operador automático que va a asociar a la cuenta de recursos, deje el campo en blanco. Puede vincular la cuenta de recursos mientras la crea. Haga clic en **Guardar** cuando haya terminado.
+
+Las opciones para el **tipo de número de teléfono** son:
+
+- Ninguna
+- Online
+- Gratuitos
+- Local
+
+![Captura de pantalla de las opciones de asignar/quitar asignación](media/r-a-assign.png)
 
 Para asignar un enrutamiento directo o un número híbrido a una cuenta de recursos, tendrá que usar PowerShell, consulte la sección siguiente.
 
@@ -134,11 +144,11 @@ Para asignar un enrutamiento directo o un número híbrido a una cuenta de recur
 > [!IMPORTANT]
 > Un número de teléfono no se asigna directamente al operador automático o a la cola de llamadas, sino a la cuenta de recursos asociada al operador automático o a la cola de llamadas.
 
-![Captura de pantalla de las opciones de asignar/quitar asignación](media/r-a-assign.png)
+
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Cambiar una cuenta de recursos existente para usar una licencia de usuario virtual
 
-Si decide cambiar las licencias de la cuenta de recursos existente de una licencia de sistema telefónico a una licencia de usuario virtual, tendrá que adquirir la licencia de usuario virtual gratuita y, a continuación, seguir los pasos vinculados en el centro de administración de Microsoft 365 para [mover usuarios a un plan diferente](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
+Si decide cambiar las licencias de la cuenta de recursos existente de una licencia de sistema telefónico a una licencia de usuario virtual, tendrá que adquirir la licencia de usuario virtual gratuita y, a continuación, seguir los pasos vinculados en el centro de administración de Microsoft 365 para [mover usuarios a una suscripción diferente](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide#move-users-to-a-different-subscription). 
 
 > [!WARNING]
 > Quitar siempre una licencia de sistema telefónico completo y asignar la licencia de usuario virtual en la misma actividad de licencia. Si quita la licencia anterior, guarda los cambios de la cuenta, agrega la nueva licencia y, a continuación, vuelve a guardar la configuración de la cuenta, es posible que la cuenta de recursos ya no funcione según lo esperado. Si esto sucede, le recomendamos que cree una nueva cuenta de recursos para la licencia de usuario virtual y quite la cuenta de recursos dañados. 
@@ -149,7 +159,7 @@ En función de si la cuenta de recursos se encuentra en línea o en Skype empres
 
 - En los siguientes ejemplos de cmdlets de PowerShell se muestra cómo crear una cuenta de recursos conectada en línea con [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps). 
 
-- Cuentas de recursos alojados en Skype empresarial Server 2019 que se pueden usar con las colas de llamadas en la nube y los operadores automáticos de la nube, vea [configurar colas de llamadas en la](/skypeforbusiness/hybrid/configure-call-queue.md) nube o [configurar operadores automáticos de la nube](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Las implementaciones híbridas (números alojados en enrutamiento directo) usarán [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps).
+- Cuentas de recursos alojados en Skype empresarial Server 2019 que se pueden usar con las colas de llamadas en la nube y los operadores automáticos de la nube, vea [configurar colas de llamadas en la](/skypeforbusiness/hybrid/configure-call-queue.md) nube o [configurar operadores automáticos de la nube](/skypeforbusiness/hybrid/configure-cloud-auto-attendant.md). Las implementaciones híbridas (números alojados en enrutamiento directo) se configuran mediante el cmdlet [New-CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) en un servidor local de Skype empresarial Server 2019.
 
 Los IDENTIFICADOres de la aplicación que necesita usar al crear las instancias de la aplicación son:
 

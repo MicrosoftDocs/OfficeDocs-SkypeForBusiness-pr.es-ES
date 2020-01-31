@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: En este artículo se describen las mejoras acumulativas de las salas de Microsoft Teams.
-ms.openlocfilehash: c3de17e0139d1ae20a2a4667e4c5fbab2d6b6d53
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 9d174ddb8e0d6495f3d493ea6b64819efe648726
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269245"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628656"
 ---
 # <a name="release-notes"></a>Notas de la versión
 
@@ -311,7 +311,7 @@ Introdujo en esta actualización:
 - El dispositivo siempre que se activa automáticamente cuando detecta gente en el salón.
 - Sencilla implementación y actualización de la aplicación de reuniones de Skype para UWP (Plataforma universal de Windows).
 - Windows AppLocker bloquea el dispositivo con la aplicación de reuniones de Skype.
-- Se supervisa y se administra como un dispositivo con Windows 10 Enterprise mediante Intune y SCCM (MDM).
+- Se supervisa y administra como un dispositivo de Windows 10 Enterprise a través de Intune y Configuration Manager (MDM)
 - Fiabilidad de carácter empresarial.
 - La formación que requieren los usuarios es muy poca puesto que ya conocen la interfaz de usuario de Skype.
 - Se ejecuta en la tableta Surface Pro 4

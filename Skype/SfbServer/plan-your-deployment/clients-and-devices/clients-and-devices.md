@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumen: revisión de los clientes y aplicaciones compatibles para Skype Empresarial.'
-ms.openlocfilehash: bda5ca2a9694b87e3bc8a6684770e7efcfc224d4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1ee70e39595d5891736dcd4e4830a9a7ef67213
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277443"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628276"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planificar los clientes y los dispositivos
 
@@ -54,7 +54,7 @@ El cliente [de Skype empresarial para Mac](https://www.microsoft.com/en-us/downl
 
 ### <a name="skype-for-business-for-mobile-devices"></a>Skype empresarial para dispositivos móviles
 
-Hay clientes disponibles para Windows Phone, iPhone/iPad y Android. Los usuarios pueden descargarlos en [todos tus dispositivos](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). La compatibilidad con las características de estos clientes se detalla en la [comparación de características de cliente móvil para Skype empresarial](mobile-feature-comparison.md).
+Hay clientes disponibles para Windows Phone, iPhone/iPad y Android. Los usuarios pueden [descargarlos en todos tus dispositivos](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). La compatibilidad con las características de estos clientes se detalla en la [comparación de características de cliente móvil para Skype empresarial](mobile-feature-comparison.md).
 
 > [!NOTE]
 > La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype empresarial Server 2019. Todos los clientes móviles actuales de Skype empresarial ya usan la API Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea, la presencia y los contactos. Los usuarios con clientes heredados que usen MCX deberán actualizar a un cliente actual.
@@ -91,7 +91,7 @@ Si su organización ha comprado las licencias adecuadas, seleccione el cliente c
 
 Los usuarios pueden instalar el cliente para que no [descarguen Skype empresarial en todos los dispositivos](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3). El cliente también se instalará cuando los usuarios instalen Office 365 en Windows. Si algunos de los usuarios tienen equipos Mac, esos usuarios tendrán un conjunto de características diferente, como se describe en secciones anteriores.
 
-Algunas de las características disponibles en Skype empresarial Server 2015 no están disponibles en Skype empresarial online ni en Skype empresarial Server 2019, consulte [limitaciones de cuentas de usuario híbridas o en línea para 2015](desktop-feature-comparison.md#Online-Hybrid) o [en línea o limitaciones de cuenta de usuario híbrida para 2019 ](desktop-feature-comparison.md#Online-Hybrid)para obtener información específica. Es posible que los administradores de Skype empresarial online deseen consultar la [Descripción del servicio de Skype empresarial online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obtener información sobre los distintos planes disponibles para ellos.
+Algunas de las características disponibles en Skype empresarial Server 2015 no están disponibles en Skype empresarial online ni en Skype empresarial Server 2019, consulte las [limitaciones de la cuenta de usuario híbrida o en línea para 2015](desktop-feature-comparison.md#Online-Hybrid) o [en línea o las limitaciones de cuenta de usuario híbrida para 2019](desktop-feature-comparison.md#Online-Hybrid) para obtener información específica. Es posible que los administradores de Skype empresarial online deseen consultar la [Descripción del servicio de Skype empresarial online](https://technet.microsoft.com/library/skype-for-business-online-service-description.aspx) para obtener información sobre los distintos planes disponibles para ellos.
 
  Antes de implementar o actualizar a Skype empresarial, compruebe qué clientes ya están en uso en su organización. Use la [comparación de características de cliente de escritorio de Skype empresarial](desktop-feature-comparison.md) para comprender el impacto de la compatibilidad de características en esos clientes. Esto puede ayudarle a comunicar los cambios a los usuarios, decidir el ritmo del proceso de lanzamiento y conocer en profundidad las ventajas que tiene actualizar al cliente más reciente.
 
@@ -128,7 +128,7 @@ Tanto la versión básica como la completa de los clientes (con varias versiones
 
 ### <a name="msi"></a>MSI
 
-MSI es un método de instalación más tradicional, que se usa en los clientes de Skype empresarial 2015 y 2016. Le permite instalar manualmente actualizaciones y revisiones, usar licencias por volumen y activación, y se puede personalizar mediante la herramienta de [Personalización de Office](https://www.microsoft.com/en-us/download/details.aspx?id=49030). Puede distribuir clientes mediante el System Center Configuration Manager o una herramienta de terceros.
+MSI es un método de instalación más tradicional, que se usa en los clientes de Skype empresarial 2015 y 2016. Le permite instalar manualmente actualizaciones y revisiones, usar licencias por volumen y activación, y se puede personalizar mediante la herramienta de [Personalización de Office](https://www.microsoft.com/en-us/download/details.aspx?id=49030). Puede distribuir clientes aplicando directivas de grupo, con Microsoft Endpoint Configuration Manager o con una herramienta de terceros.
 
 
 
@@ -137,7 +137,7 @@ MSI es un método de instalación más tradicional, que se usa en los clientes d
 
 Skype empresarial Server 2019 y Skype empresarial online son compatibles con los siguientes clientes lanzados anteriormente: Skype empresarial 2016, Skype empresarial 2015, Lync 2013.
 
-Skype empresarial Server 2015 admite los siguientes clientes lanzados previamente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition y el operador de Lync 2010. Para obtener información sobre estos clientes cuando se usan con otros servidores, vea las [tablas de comparación de clientes para Lync server 2013](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.15%29.aspx) y [las tablas de comparación de clientes para Lync Server 2010](https://technet.microsoft.com/en-us/library/gg425836%28v=ocs.14%29.aspx).
+Skype empresarial Server 2015 admite los siguientes clientes lanzados previamente: Lync 2013, Lync 2010, Lync 2010 Mobile, Lync Phone Edition y el operador de Lync 2010. Para obtener información sobre estos clientes cuando se usan con otros servidores, vea las [tablas de comparación de clientes para Lync server 2013](https://technet.microsoft.com/library/gg425836%28v=ocs.15%29.aspx) y [las tablas de comparación de clientes para Lync Server 2010](https://technet.microsoft.com/library/gg425836%28v=ocs.14%29.aspx).
 
 
 ## <a name="client-system-requirements"></a>Requisitos del sistema para los clientes

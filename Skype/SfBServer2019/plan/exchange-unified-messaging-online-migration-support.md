@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: adef85a59a5d0add990196e5b76587b502f052b5
-ms.sourcegitcommit: 4ccc24dcf61cf9b59224b85757f93f8aceae1771
+ms.openlocfilehash: 55382780fe6ef1c67cbecc1f6c997809f9173b8a
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854095"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628676"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -233,7 +233,7 @@ Para obtener más información sobre los operadores automáticos, vea [configura
 
 **Transferencia automática del operador a RTC** Se recomienda a los clientes configurar una solución alternativa temporal para cumplir con los requisitos de transferencia de una llamada de operador automático a un número RTC externo o a una instancia de RGS. 
  
-Se identificó un problema durante el control de calidad con la característica transferir a número RTC, que no se fijará en el tiempo para los clientes para empezar a migrar desde el servicio de Exchange UMO antes de la fecha de jubilación programada del 1 de febrero de 2020. Como solución alternativa, los administradores pueden transferir las personas que llaman al operador automático a un usuario virtual local con una configuración de desvío de llamada activa para el número de teléfono de RTC deseado o el número de teléfono RGS. 
+Se identificó un problema durante el control de calidad con la característica transferir a número RTC, que no se fijará en el tiempo para los clientes para empezar a migrar desde el servicio de Exchange UMO antes de la fecha de jubilación programada el 28 de febrero de 2020. Como solución alternativa, los administradores pueden transferir las personas que llaman al operador automático a un usuario virtual local con una configuración de desvío de llamada activa para el número de teléfono de RTC deseado o el número de teléfono RGS. 
  
 Experiencia prevista
 - Los administradores no necesitan conceder licencia al usuario virtual, ya que es una solución alternativa. 

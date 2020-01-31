@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: Administrar actualizaciones de Windows para salas de Microsoft Teams
-ms.openlocfilehash: 09be03b0308dfcf00a39421e2e84b75fe94a9fae
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 346747d3d5731f5b4504c45066a39a28f5289e70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775321"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628686"
 ---
 # <a name="manage-windows-updates"></a>Administrar actualizaciones de Windows
 
@@ -31,13 +31,13 @@ Las actualizaciones de Windows se pueden administrar de varias maneras diferente
 - Las actualizaciones y drivers de calidad descargarán e instalarán el día uno automáticamente. 
 - Actualizaciones de características. Consulte las notas adicionales a continuación. 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Actualizaciones de Windows para empresas](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO o Intune)   
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Windows Updates para empresas](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO o Intune)   
 - Las actualizaciones se descargan desde WU o WSUS, pero con retrasos configurados más allá de la fecha de lanzamiento original de KB. 
-- Combinado con varias unidades organizativas o directivas filtradas, permite la creación de "timbres" de implementación, donde los administradores pueden especificar qué dispositivos instalan primero las actualizaciones de calidad y cuáles se instalarán más adelante. Esto permite pruebas de confiabilidad y rendimiento en un subconjunto de sistemas antes de implementar las actualizaciones en toda la implementación sin la sobrecarga de administrar las actualizaciones de Windows en SCCM, por ejemplo.
+- Combinado con varias unidades organizativas o directivas filtradas, permite la creación de "timbres" de implementación, donde los administradores pueden especificar qué dispositivos instalan primero las actualizaciones de calidad y cuáles se instalarán más adelante. Esto permite pruebas de confiabilidad y rendimiento en un subconjunto de sistemas antes de implementar las actualizaciones en toda la implementación sin la carga de administración de actualizaciones de Windows en el administrador de configuración de Microsoft Endpoint, por ejemplo.
 - Las actualizaciones de WSUS y Windows para empresas pueden [configurarse al mismo tiempo](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) si quiere tanto la administración del ancho de banda como el control que ofrece Windows Updates para empresas.
 - Actualizaciones de características. Consulte las notas adicionales a continuación.
 
-## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+## <a name="wsusconfiguration-managerhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/administrador de configuración](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 - De manera muy similar a Windows Update para empresas, pero con la opción adicional de segmentar las KB específicas dentro de cada "timbre" o toda la implementación. Cada actualización se puede implementar y probar individualmente en la misma, en lugar de confiar únicamente en un retraso. 
 - Actualizaciones de características. Consulte las notas adicionales a continuación.
 
@@ -48,4 +48,4 @@ A diferencia de la calidad y las actualizaciones no aplazables, las actualizacio
 
 La sala de Microsoft Teams "de uso no actualizado", con el método de manos libres, no instalará Windows Update ni reiniciará automáticamente un dispositivo debido a una actualización de Windows. Sin embargo, los sistemas pueden descargar una actualización y esperar a que se reinicie la próxima vez. A menos que alguien lo reinicie manualmente, la instalación debe realizarse durante el reinicio automático nocturno. Las actualizaciones de Windows deberían ser transparentes en el salón, mientras que las actualizaciones de Windows nunca las interrumpan.
 
-Si elige unirse a un dominio, use SCCM o WSUS y preste especial atención a las directivas o acciones que pueden provocar que el dispositivo Instale una actualización o que se reinicie durante el horario comercial. Si tiene sistemas en la implementación que se está reiniciando durante el uso o la alerta sobre actualizaciones de Windows a través de la interfaz de usuario, le interesará examinar la configuración.
+Si elige unirse a un dominio, use Microsoft Endpoint Configuration Manager o WSUS, y preste especial atención a las directivas o acciones que pueden provocar que el dispositivo Instale una actualización o fuerce un reinicio durante el horario de oficina. Si tiene sistemas en la implementación que se está reiniciando durante el uso o la alerta sobre actualizaciones de Windows a través de la interfaz de usuario, le interesará examinar la configuración.

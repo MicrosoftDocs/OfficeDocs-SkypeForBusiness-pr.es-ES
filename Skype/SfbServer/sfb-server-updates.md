@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones para Skype empresarial Server 2015/2019 y Lync 2013 en un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y después descárguelas.
-ms.openlocfilehash: 6291ed94e4434bb96a441174cf2b69dae49852b0
-ms.sourcegitcommit: c6d0da888ceb13f38bae139a1ced428e121e60b5
+ms.openlocfilehash: a42d7b1463e3b545688e8ef7bce6fe6b96872050
+ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39837512"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41580787"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 
@@ -169,6 +169,7 @@ Nombre de paquete/vínculo|Fecha de lanzamiento|
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
+|Actualización acumulativa 2010 de Lync Server |[KB 2493736](https://support.microsoft.com/kb/2493736) |2019 de junio|
 |Actualización acumulativa 18 de Lync Server 2010|[KB 2493736](https://support.microsoft.com/kb/2493736) |2019 de enero|
 |Actualización acumulativa 17 de Lync Server 2010|[KB 3148801](https://support.microsoft.com/kb/3148801) |Abril de 2016 |
 |Actualización acumulativa 16 de Lync Server 2010|[KB 3057803](https://support.microsoft.com/kb/3057803) |Mayo de 2015 |

@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre la implementación de salas de Microsoft Teams.
-ms.openlocfilehash: abe9b49febe313bb3b8d503b31562d6ae99128a0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0511455516c1dd5ac011a15344bc8a576006fc70
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269227"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628266"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -133,7 +133,8 @@ Al planear la implementación de salas de Microsoft Teams, dispone de varias opc
 |-------------------------|-----------------------|   
 |Implementar un pequeño número de dispositivos de salas de Microsoft Teams (<10). | Si usa salas de Microsoft Teams basadas en Surface Pro, siga las [instrucciones de instalación para una instalación por dispositivo](console.md). [Este práctico vídeo le guiará a través del proceso.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si usa una solución integrada, implemente con la imagen del proveedor y configure las opciones según sea necesario. |
 | Implementar entre 10 y 50 dispositivos de un solo proveedor.     | Cree una imagen basada en WIM, PAUSE después del [paso 6 de la guía](console.md)y Capture una imagen de distribución para usarla con su tecnología de distribución de clonación.    |
-| Implementar más de 50 dispositivos de salas de Microsoft Teams, implementar dispositivos de más de un proveedor o requerir agentes específicos de la organización como parte de la implementación. | Usar una plataforma de creación y distribución de software basada en secuencia de tareas, como [System Center Configuration Manager](rooms-scale.md).  |
+| Implementar más de 50 dispositivos de salas de Microsoft Teams, implementar dispositivos de más de un proveedor o requerir agentes específicos de la organización como parte de la implementación. | Usar una plataforma de creación y distribución de software basada en secuencia de tareas, como [Microsoft Endpoint Configuration Manager](rooms-scale.md).  |
+
 
 **Sugerencia Pro** : cada sala de Microsoft Teams debe tener un nombre de equipo válido y único en su red. Muchos sistemas de supervisión y alerta muestran el nombre de la máquina como un identificador de clave, por lo que es importante desarrollar una Convención de nomenclatura para las implementaciones de salas de Microsoft teams que permita al personal de soporte localizar fácilmente las salas de Microsoft teams que se han marcado como requerir una acción. Un ejemplo podría estar usando un patrón de MTR-*site*-*Room Name* (MTR-Lon-Curie). 
 

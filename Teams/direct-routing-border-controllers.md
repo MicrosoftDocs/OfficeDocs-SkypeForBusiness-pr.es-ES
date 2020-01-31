@@ -14,34 +14,34 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft se asocia con proveedores SBC seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo.
-ms.openlocfilehash: 32ba55ec9cd7fb95c527d8cab16f18af7ef2fbb5
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: a63a9d11e21d477bbb1e6c9e9872fff526046475
+ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111754"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "41634873"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
 Microsoft se asocia con proveedores de controladores de borde de sesión (SBC) seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo. 
 
-Con cada proveedor, Microsoft: 
+Microsoft trabaja con cada proveedor para: 
 
-- colabora con los proveedores de SBC en los protocolos de interconexión SIP;
-- realiza pruebas muy intensas a través de un laboratorio de terceros, de manera que solo se certifican los dispositivos que pasan estas pruebas; 
-- ejecuta pruebas a diario con todos los dispositivos certificados en entornos de producción y previos a la producción. al validar los dispositivos los entornos previos a la fase de producción, garantiza que las nuevas versiones del código de Enrutamiento directo en la nube funcionará con los SBC certificados; 
-- tiene un proceso de soporte conjunto con los proveedores de SBC.
+- Trabajan conjuntamente en los protocolos de interconexión SIP.
+- Realice pruebas intensivas con un laboratorio de terceros. Solo los dispositivos que pasen las pruebas están certificados. 
+- Ejecutar pruebas diarias con todos los dispositivos certificados en entornos de producción y preproducción. al validar los dispositivos los entornos previos a la fase de producción, garantiza que las nuevas versiones del código de Enrutamiento directo en la nube funcionará con los SBC certificados; 
+- Establezca un proceso de soporte conjunto con los proveedores de SBC.
 
 
   > [!NOTE]
-  > Microsoft solo admite el Sistema telefónico si hay uno o varios dispositivos certificados conectados a través del Enrutamiento directo. Microsoft se reserva el derecho a rechazar casos de soporte técnico en los que haya un dispositivo no certificado conectado al Sistema telefónico a través del Enrutamiento directo. 
+  > Microsoft solo admite el sistema telefónico si un dispositivo o dispositivos certificados están conectados a través de un enrutamiento directo. Microsoft se reserva el derecho de rechazar casos de asistencia en los que un dispositivo no certificado se conecta al sistema telefónico a través del enrutamiento directo. 
 
 En la tabla siguiente se enumeran los dispositivos certificados para el Enrutamiento directo. 
 
-[Obtenga más información sobre el Enrutamiento directo](https://aka.ms/dr). Si tiene alguna pregunta sobre el programa de certificación de SBC para el Enrutamiento directo, escriba un correo electrónico a drsbccertification@microsoft.com
+[Obtenga más información sobre el Enrutamiento directo](https://aka.ms/dr). Si tiene preguntas sobre el programa de certificación de SBC para el enrutamiento directo, póngase en contacto con drsbccertification@microsoft.com.
 
 
-|                                                       Proveedor                                                        |       Producto       | Desvío de lo que no son medios | Desvío de medios | Versión de software | Vaidated con proveedores de E911 | Capacidad de ELIN
+|                                                       Proveedor                                                        |       Producto       | Omisión de elementos no multimedia | Omisión de medios | Versión del software | Validada con proveedores de E911 | Capacidad de ELIN
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   SBC Mediant 500   |     &#10004;     |   &#10004;    |  7.20 a. 250   |
 |                                                                                                                     |   SBC Mediant 800   |     &#10004;     |   &#10004;     |  7.20 a. 250   |    |    |
@@ -55,9 +55,9 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V 7.2       |  Entrada ERS <br>Entrada EGW    |No|    
 |                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V 7.2       |   Entrada ERS <br>Entrada EGW  |  No  |    
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V 7.2       |   Entrada ERS <br>Entrada EGW |   No |    
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |  Entrada ERS <br>Entrada EGW   |  Pending  |    
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |  Entrada ERS <br>Entrada EGW  |  Pending  |    
-|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |  Entrada ERS <br>Entrada EGW   |  Pending  |    
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v 8.0.3 (compilación 537)     |  Entrada ERS <br>Entrada EGW   |  Pending  |    
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v 8.0.3 (compilación 537)     |  Entrada ERS <br>Entrada EGW  |  Pending  |    
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v 8.0.3 (compilación 216)    |  Entrada ERS <br>Entrada EGW   |  Pending  |    
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |   Pending    |       V1.4       |     |    |    
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |    |    |    
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  |    |    |    
@@ -67,4 +67,4 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |    |    |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |     |    |    
 
-Para enviarnos comentarios sobre los equipos, como ideas para nuevas características, visite [uservoice](https://microsoftteams.uservoice.com) , la certificación concedida a una versión principal. Eso significa que se admite el firmware con cualquier número en el firmware de SBC siguiendo la versión principal.
+Para enviarnos comentarios sobre los equipos, como ideas para nuevas características, vea [uservoice](https://microsoftteams.uservoice.com) Anote la certificación concedida a una versión principal. Eso significa que se admite el firmware con cualquier número en el firmware de SBC siguiendo la versión principal.

@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720316(v=OCS.15)
+ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
 ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa4bacdea1090351e9937e039fec184a1f59ab0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb652485b03bcaee5e63bc4fc23d25fd5df958bd
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842473"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628356"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="configuration-management-in-lync-server-2013"></a>Administración de la configuración en Lync Server 2013
 
@@ -41,7 +41,7 @@ La administración de la configuración es el proceso de grabación y seguimient
 
   - **Software**   esta categoría realiza un seguimiento del software instalado en cada equipo, los números de versión y dónde se encuentran las licencias. Esta información ayuda a planificar las actualizaciones, garantizar la licencia del software y detectar la presencia de software no autorizado (y sin licencia).
 
-  - ****   Compilaciones estándar esta categoría realiza un seguimiento de la compilación estándar actual para los equipos y servidores cliente y de si los equipos cliente y los servidores cumplen este estándar. Definir e imponer compilaciones estándar ayuda al personal de soporte técnico porque el personal debe mantener un número limitado de versiones de cada elemento de software.
+  - **Compilaciones estándar esta**   categoría realiza un seguimiento de la compilación estándar actual para los equipos y servidores cliente y de si los equipos cliente y los servidores cumplen este estándar. Definir e imponer compilaciones estándar ayuda al personal de soporte técnico porque el personal debe mantener un número limitado de versiones de cada elemento de software.
 
   - **Actualizaciones y revisiones acumulativas**   esta categoría realiza un seguimiento de los Service Packs probados y aprobados para su uso y de los equipos que están actualizados. Esta información es importante para reducir el riesgo de que los equipos se vean comprometidos y detectar a los usuarios que han instalado actualizaciones no aprobadas.
 
@@ -73,7 +73,7 @@ Existen muchas herramientas para descubrir, auditar y denunciar activos. Algunas
 
   - **Scripts automáticos**   puede escribir secuencias de comandos sencillas para notificar elementos como el sistema operativo, el nivel de Service Pack y si el software existe en un conjunto específico de equipos. Puede escribir estos scripts en los requisitos exactos de una organización. Sin embargo, el número necesario de scripts y su complejidad pueden crear y mantener los scripts de forma costosa.
 
-  - **Herramientas automatizadas**   según el tamaño de su empresa y las necesidades de su organización, es posible que desee considerar el uso de herramientas automatizadas. Herramientas como System Center Configuration Manager incorporan plantillas de informe estándar (como el nivel de Service Pack) y también le permiten crear informes personalizados, por ejemplo, para una aplicación personalizada. System Center Configuration Manager también se puede usar para informar sobre configuraciones de hardware y software.
+  - **Herramientas automatizadas**   según el tamaño de su empresa y las necesidades de su organización, es posible que desee considerar el uso de herramientas automatizadas. Herramientas como Microsoft Endpoint Configuration Manager incorporan plantillas de informe estándar (como el nivel de Service Pack) y también le permiten crear informes personalizados, por ejemplo, para una aplicación personalizada. El administrador de configuración de Microsoft Endpoint también se puede usar para informar sobre configuraciones de hardware y software.
 
 </div>
 
