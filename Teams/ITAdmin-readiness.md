@@ -16,12 +16,12 @@ f1keywords:
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3216327e5977429ca1d794dc719c89a216fe8fb9
-ms.sourcegitcommit: f742ad9ba61d6cc52a9ed6885d1f2893bcfad354
+ms.openlocfilehash: 12aaad9697d07a8c5f0aed970678aba5306504b1
+ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41165610"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41573616"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -90,7 +90,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
 
 | Módulo | Vídeo | Presentación de PowerPoint  |
 | ------------ | -------------------- | -------------------- |
-| [Aspectos prácticos de Microsoft-Teams Essentials para el canal de YouTube de ti](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: aspectos básicos de Teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: implementar & configurar Teams: Introducción](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 mín)  <br>[Vídeo: seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4) (12:42 mín)||
+| [Aspectos prácticos de Microsoft-Teams Essentials para el canal de YouTube de ti](https://aka.ms/MicrosoftTeamsforIT) | [Vídeo: aspectos básicos de Teams](https://www.youtube.com/watch?v=MfDB7VenWuA&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn) (10:13 min)<br>[Vídeo: implementar & configurar Teams: Introducción](https://www.youtube.com/watch?v=o2mlsUubIO4&list=PLXtHYVsvn_b_JeDjgD5XdkyHTDXdYgPGn&index=2) (8:22 mín)  <br>[Vídeo: seguridad y cumplimiento](https://youtu.be/91lHNKVVvQ4) (12:42 mín)<br>[Vídeo: controles de Teams para seguridad y cumplimiento](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 mín)||
 | Fundamentos: los componentes principales | [Vídeo](https://aka.ms/teams-foundations) | [Presentación de diapositivas](https://aka.ms/teams-foundations-deck) |
 | Cliente del escritorio de Windows | [Vídeo](https://aka.ms/teams-clients) | [Presentación de diapositivas](https://aka.ms/teams-clients-deck) |
 | Gobierno, administración y ciclo de vida | [Vídeo](https://aka.ms/teams-governance) | [Presentación de diapositivas](https://aka.ms/teams-governance-deck) |
