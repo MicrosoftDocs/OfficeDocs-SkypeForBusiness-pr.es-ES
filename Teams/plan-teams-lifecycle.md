@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0344d07fe9ea77e0970ca6ea11fdf62886098b
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: 3a0e055305cc994730b22507b5ce0cf1823e43f0
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913052"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628376"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 
@@ -55,7 +55,7 @@ Determinan quién puede unirse al equipo:
 Los tipos de usuario de los equipos determinan la cantidad de control que tiene un miembro del equipo:
 
 -   El _creador del equipo_ tiene permisos para crear un grupo o un equipo en el directorio. El administrador puede limitar este tipo de usuario a un subconjunto de administradores o usuarios. Si desea más información, consulte [Administrar quién puede crear grupos de Office 365](https://support.office.com/article/Manage-who-can-create-Office-365-Groups-4c46c8cb-17d0-44b5-9776-005fced8e618). 
--   El _propietario del equipo_ administra la pertenencia y la configuración del equipo. Puede haber hasta 10 propietarios de equipo en un equipo.
+-   El _propietario del equipo_ administra la pertenencia y la configuración del equipo. Puede haber hasta 100 propietarios de equipo en un equipo.
 -   El _miembro del equipo_ es un miembro de su organización que participa en un equipo.
 -   El _invitado_ es un usuario que no pertenece a la organización. A cualquier persona que tenga una dirección de correo electrónico se le puede invitar como invitado, siempre que la organización tenga habilitado el [acceso de invitado](guest-access.md).
 

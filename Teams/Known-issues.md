@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 50501c3d5e077deacaf183dd36efce72d295f556
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9c613f2116b5ad9f97426f60466d71d4ffaddba1
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40990655"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628536"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -313,6 +313,14 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Integración de Teams Planner con Planner Online <br/> |Los cubos de tareas de Planner no se muestran en la experiencia de Planner Online.  <br/> |No hay ninguna solución. <br/> |28/02/2017  <br/>|
+
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Integración de Teams Planner con Planner Online <br/> |Los propietarios no pueden crear un plan desde un equipo creado a partir de un grupo existente de Office 365.  <br/> |Conceda permisos de miembro para el propietario del grupo. <br/> |14/1/20  <br/>|
+
+
+
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|

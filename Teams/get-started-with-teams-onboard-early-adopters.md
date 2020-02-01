@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80a1f92914a3f02fe85c478d5b6974a28ce9cc3a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c859ea669d8c8dfcc0813059a29e4d95df4fd09b
+ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570319"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628726"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Incorporar usuarios pioneros en Microsoft Teams
 
@@ -54,7 +54,7 @@ Saltar a: [Teams para Windows](#teams-for-windows) | [Teams para Mac](#teams-for
 El cliente de escritorio de Teams ofrece a los usuarios de Windows y Mac la mejor experiencia general. Para obtener más información, consulte [Obtener clientes para Teams (cliente de escritorio)](https://docs.microsoft.com/MicrosoftTeams/get-clients#desktop-client) y [Requisitos de hardware para la aplicación de Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/hardware-requirements-for-the-teams-app).
 
 > [!NOTE]
-> Como administrador, puede elegir el método para distribuir los archivos de instalación en equipos de su organización, como System Center Configuration Manager (Windows) o Jamf Pro (macOS).
+> Como administrador, puede elegir el método para distribuir los archivos de instalación en equipos de su organización, como Microsoft Endpoint Configuration Manager (Windows) o Jamf Pro (macOS).
 
 #### <a name="teams-for-windows"></a>Teams para Windows 
 La manera más sencilla de instalar el cliente de escritorio para Windows es:
