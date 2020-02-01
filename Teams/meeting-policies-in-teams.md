@@ -20,68 +20,70 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Aprenda a administrar la configuración de la Directiva de reunión en Teams.
-ms.openlocfilehash: 41d1bf8c68ef96f3a657113864c21a993dfc3826
-ms.sourcegitcommit: a6e051c5c5c100dbf2ff3ca8fc7babc4415babf3
+ms.openlocfilehash: 9199be5eced7faee3e72f7b94c1f9e3be3c9573c
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2020
-ms.locfileid: "41554347"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41649110"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar directivas de reunión en Teams
 
 ::: zone target="docs"
-Las directivas de reunión se usan para controlar las características que están disponibles para los participantes de la reunión para las reuniones programadas por los usuarios de su organización. Después de crear una directiva y realizar los cambios, puede asignar usuarios a la Directiva. Las directivas de reunión se administran en el centro de administración de Microsoft Teams o [mediante PowerShell](teams-powershell-overview.md).
+Las directivas de reunión se usan para controlar las características que están disponibles para los participantes de la reunión para las reuniones programadas por los usuarios de su organización. Después de crear una directiva y realizar los cambios, puede asignar usuarios a la Directiva. Las directivas de reunión se administran en el centro de administración de Microsoft Teams o mediante [PowerShell](teams-powershell-overview.md).
 
 Puede implementar directivas de las siguientes maneras, que afectan a la experiencia de la reunión para los usuarios antes de que se inicie una reunión, durante una reunión o después de una reunión.
 
 |Tipo de implementación  |Descripción  |
 |---------|---------|
 |Por organizador    |Al implementar una directiva por organizador, todos los participantes de la reunión heredan la Directiva del organizador. Por ejemplo, **admitir automáticamente a personas** es una directiva para el organizador y controla si los usuarios se unen a la reunión directamente o espera en la sala de espera para las reuniones programadas por el usuario al que se le asigna la Directiva.          |
-|Por usuario    |Al implementar una directiva por usuario, solo se aplica la Directiva por usuario para restringir determinadas características para el organizador o los participantes de la reunión. Por ejemplo, **permitir reunirse ahora** es una directiva por usuario.     |
-|Por organizador y por usuario     |Al implementar una combinación de una directiva por organizador y por usuario, ciertas características están restringidas para los participantes de la reunión en función de su Directiva y la Directiva del organizador. Por ejemplo, **permitir la grabación en la nube** es una directiva por organizador y por usuario. Active esta configuración para permitir que el organizador de la reunión y los participantes inicien y detengan una grabación. 
+|Por usuario    |Al implementar una directiva por usuario, solo se aplica la Directiva por usuario para restringir determinadas características para el organizador o los participantes de la reunión. Por ejemplo, **permitir reunirse ahora en canales** es una directiva por usuario.     |
+|Por organizador y por usuario     |Al implementar una combinación de una directiva por organizador y por usuario, ciertas características están restringidas para los participantes de la reunión en función de su Directiva y la Directiva del organizador. Por ejemplo, **permitir la grabación en la nube** es una directiva por organizador y por usuario. Active esta configuración para permitir que el organizador de la reunión y los participantes inicien y detengan una grabación.
 
-De forma predeterminada, se crea una directiva denominada global (opción predeterminada para toda la organización). A todos los usuarios de su organización se les asignará esta directiva de reunión de forma predeterminada. Puede realizar cambios en esta Directiva o crear una o más directivas personalizadas y asignarles usuarios. Al crear una directiva personalizada, puede permitir o impedir que determinadas características estén disponibles para los usuarios y, a continuación, asignarlas a uno o más usuarios a los que se les aplicará la configuración. 
+De forma predeterminada, se crea una directiva denominada global (opción predeterminada para toda la organización). De forma predeterminada, todos los usuarios de su organización tienen asignada la Directiva de reunión global. Puede realizar cambios en ella o crear una o más directivas personalizadas y asignarles usuarios. Los usuarios recibirán la directiva global a menos que cree y asigne una directiva personalizada. Al crear una directiva personalizada, puede permitir o impedir que determinadas características estén disponibles para los usuarios y, a continuación, asignarlas a uno o más usuarios a los que se les aplicará la configuración.
 
 ## <a name="change-or-create-a-meeting-policy"></a>Cambiar o crear una directiva de reunión
 
-Para cambiar o crear una directiva de reunión, vaya al centro de administración de Microsoft Teams >**las directivas de reunión**de **reuniones** > . Seleccione una directiva de la lista o seleccione **nueva Directiva**. Si va a crear una nueva Directiva, agregue un nombre y una descripción. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres. Elija la configuración y, a continuación, seleccione **Guardar**.
+Para cambiar o crear una directiva de reunión, vaya al centro de administración de Microsoft Teams >**las directivas de reunión**de **reuniones** > . Seleccione una directiva de la lista o seleccione **Agregar**. Si va a crear una nueva Directiva, agregue un nombre y una descripción. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres. Elija la configuración y, a continuación, seleccione **Guardar**.
 
 Por ejemplo, supongamos que tiene un conjunto de usuarios y quiere limitar la cantidad de ancho de banda que requeriría la reunión. Debe crear una nueva directiva personalizada denominada "ancho de banda limitado" y deshabilitar las siguientes opciones de configuración:
 
 En **Audio & vídeo**:
-- Desactivar la grabación en la nube
-- Desactivar permitir vídeo IP
+- Desactive permitir la grabación en la nube.
+- Desactive la opción permitir video IP.
 
 En **uso compartido de contenido**:
-- Desactivar el modo de pantalla compartida
-- Desactivar whiteboard
-- Desactivar las notas compartidas
+- Desactiva el modo de pantalla compartida.
+- Desactive permitir pizarra.
+- Desactive la opción permitir notas compartidas.
 
 A continuación, asigne la Directiva a los usuarios.
 
-> [!NOTE] 
-> A un usuario solo se le puede asignar una directiva de reunión a la vez. 
+> [!NOTE]
+> A un usuario solo se le puede asignar una directiva de reunión a la vez.
 
 ## <a name="assign-a-meeting-policy-to-users"></a>Asignar una directiva de reunión a los usuarios
 
-Si está aplicando la Directiva a un usuario, seleccione **usuarios** en el panel de navegación izquierdo y, a continuación, haga clic en el nombre para mostrar del usuario. En la página del usuario, junto a **directivas asignadas**, seleccione **Editar**. Después, en el panel **editar directivas de usuario** , en **Directiva de reunión**, seleccione la Directiva de la reunión en la lista desplegable y, a continuación, seleccione **Guardar**. También puede asignar directivas de la lista de usuarios. Para ello, seleccione el usuario haciendo clic a la izquierda del nombre para mostrar del usuario. Seleccione **Editar configuración**. Después, en el panel **Editar configuración** , en **Directiva de reunión**, seleccione la Directiva de la lista desplegable y, a continuación, seleccione **Guardar**. 
- 
-Si está aplicando una directiva a más de un usuario, seleccione **usuarios** en el panel de navegación izquierdo y, a continuación, seleccione cada usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**. En el panel **Editar configuración** , en **Directiva de reunión**, seleccione la Directiva de la lista desplegable y, a continuación, seleccione **Guardar**.
- 
-También puede asignar una directiva de reunión a uno o más usuarios de la siguiente manera:
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a **usuarios**y, a continuación, haga clic en el usuario.
+2. Seleccione el usuario haciendo clic a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**.
+3. En **Directiva**de la reunión, seleccione la Directiva que desea asignar y, a continuación, haga clic en **aplicar**.
 
-1. Vaya > al **centro de administración de Microsoft Teams****reuniones de reuniones** > **.**
+Para asignar una directiva a varios usuarios a la vez, vea [editar la configuración de usuario de Teams en masa](edit-user-settings-in-bulk.md).
+
+También puede hacer lo siguiente:
+
+1. En el centro de navegación izquierdo del centro de administración de Microsoft Teams, vaya a**directivas de reunión**de **reuniones** > .
 2. Seleccione la Directiva haciendo clic a la izquierda del nombre de la Directiva.
 3. Seleccione **administrar usuarios**.
 4. En el panel **administrar usuarios** , busque el usuario por nombre para mostrar o por nombre de usuario, seleccione el nombre y, después, haga clic en **Agregar**. Repita este paso para cada usuario que desee agregar.
-5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
- 
-> [!NOTE] 
+5. Cuando termine de agregar usuarios, seleccione **Guardar**.
+
+> [!NOTE]
 > No puede eliminar una Directiva si los usuarios están asignados a ella. Primero debe asignar una directiva diferente a todos los usuarios afectados y, después, puede eliminar la directiva original.
- 
+
 ## <a name="meeting-policy-settings"></a>Configuración de la Directiva de reunión
 
-Al seleccionar una directiva existente en la página **directivas** de la reunión o seleccionar **nueva Directiva** para agregar una nueva Directiva, puede establecer la configuración para lo siguiente.
+Cuando selecciona una directiva existente en la página **directivas** de la reunión o selecciona **Agregar** para agregar una nueva Directiva, puede establecer la configuración para lo siguiente.
 
 - [General](#meeting-policy-settings---general)
 - [Audio & vídeo](#meeting-policy-settings---audio--video)
@@ -95,20 +97,15 @@ Al seleccionar una directiva existente en la página **directivas** de la reuni�
 ## <a name="meeting-policy-settings---general"></a>Configuración de la Directiva de reunión: General
 
 - [Permitir reunirse ahora en los canales](#allow-meet-now-in-channels)
-- [Permitir reunirse ahora](#allow-private-meet-now)
 - [Permitir el complemento de Outlook](#allow-the-outlook-add-in)
 - [Permitir programación de reuniones de canal](#allow-channel-meeting-scheduling)
 - [Permitir la programación de reuniones privadas](#allow-scheduling-private-meetings)
 
 ### <a name="allow-meet-now-in-channels"></a>Permitir reunirse ahora en los canales
 
-Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal de Teams. Si activa esta opción, cuando un usuario publique un mensaje en un canal de Teams, el usuario podrá hacer clic en **reunirse ahora** debajo del cuadro de redacción para iniciar una reunión ad hoc en el canal.
+Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión ad hoc en un canal de Teams. Si activa esta opción, cuando un usuario publique un mensaje en un canal de Teams, el usuario podrá hacer clic en **reunirse ahora** en el cuadro de redacción para iniciar una reunión ad hoc en el canal.
 
 ![Captura de pantalla que muestra el icono reunirse ahora debajo de un mensaje](media/meeting-policies-meet-now.png)
-### <a name="allow-private-meet-now"></a>Permitir reunirse ahora
-
-Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión privada ad hoc.  
-
 
 ### <a name="allow-the-outlook-add-in"></a>Permitir el complemento de Outlook
 
@@ -120,7 +117,7 @@ Si desactiva esta opción, los usuarios no podrán programar reuniones de Teams 
 
 ### <a name="allow-channel-meeting-scheduling"></a>Permitir programación de reuniones de canal
 
-Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si los usuarios pueden programar una reunión en un canal de Teams.  Si lo desactiva, la opción **programar una reunión** no estará disponible para el usuario cuando inicie una reunión en un canal de Teams y la opción **Agregar un canal** esté deshabilitada para los usuarios en Teams.
+Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si los usuarios pueden programar una reunión en un canal de Teams.  Si lo desactiva, la opción **programar una reunión** no estará disponible para el usuario cuando inicie una reunión en un canal de Teams y la opción **Agregar canal** esté deshabilitada para los usuarios en Teams.
 
 ![Captura de pantalla que muestra la opción programar una reunión en Teams](media/meeting-policies-schedule-a-meeting.png)
 
@@ -256,10 +253,10 @@ Para usar PowerShell para controlar quién puede ceder el control o aceptar soli
 
 Esta es una directiva por usuario. Esta opción controla si los participantes externos de una reunión pueden ceder el control de su escritorio o ventana compartidos a otros participantes de la reunión. Los participantes externos de las reuniones de Teams se pueden clasificar de la siguiente manera:  
 
-   - Usuario anónimo
-   - Usuarios invitados  
-   - Usuario B2B
-   - Usuario federado  
+- Usuario anónimo
+- Usuarios invitados  
+- Usuario B2B
+- Usuario federado  
 
 Si los usuarios federados pueden ceder el control a usuarios externos mientras lo comparten está controlado por la configuración de **permitir que un participante externo le dé o solicite** la configuración de control de su organización.
 
@@ -293,7 +290,7 @@ Amanda puede compartir la pizarra en una reunión incluso si es el organizador d
 
 ### <a name="allow-shared-notes"></a>Permitir notas compartidas
 
-Esta es una directiva por usuario. Esta configuración controla si un usuario puede crear y compartir notas en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la Directiva del organizador de la reunión. Actualmente, la pestaña notas de la **reunión** solo se admite en reuniones que tengan menos de 20 participantes. 
+Esta es una directiva por usuario. Esta configuración controla si un usuario puede crear y compartir notas en una reunión. Los usuarios externos, incluidos los usuarios anónimos, B2B y federados, heredan la Directiva del organizador de la reunión. Actualmente, la pestaña notas de la **reunión** solo se admite en reuniones que tengan menos de 20 participantes.
 
 Echemos un vistazo al ejemplo siguiente.
 
@@ -308,15 +305,43 @@ Daniela puede tomar notas en las reuniones de Amanda y Amanda no puede tomar not
 
 Esta configuración controla los participantes de la reunión en la sala de espera antes de que se admitan en la reunión y el nivel de participación permitido en una reunión.
 
+- [Permitir a personas anónimas iniciar una reunión](#let-anonymous-people-start-a-meeting)
 - [Admitir automáticamente personas](#automatically-admit-people)
-- [Permitir que usuarios anónimos inicien una reunión](#allow-anonymous-people-to-start-a-meeting)
 - [Permitir que los usuarios de acceso telefónico omitan la sala de recepción](#allow-dial-in-users-to-bypass-the-lobby)
-- [Permitir reunirse ahora](#allow-private-meet-now)
+- [Permitir reunirse ahora en reuniones privadas](#allow-meet-now-in-private-meetings)
 - [Habilitar títulos en vivo](#enable-live-captions)
 - [Permitir la conversación en reuniones](#allow-chat-in-meetings)
 
 > [!NOTE]
 >Las opciones para unirse a una reunión variarán en función de la configuración de cada grupo de equipos y del método de conexión. Si su grupo tiene audioconferencias y lo usa para conectarse, consulte [audioconferencias en Office 365](https://docs.microsoft.com/microsoftteams/audio-conferencing-in-office-365). Si su grupo de equipos no tiene audioconferencia, consulte unirse a [una reunión en Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
+
+### <a name="let-anonymous-people-start-a-meeting"></a>Permitir a personas anónimas iniciar una reunión
+
+Esta es una directiva por organizador. Esta configuración controla si los usuarios anónimos, como B2B, y los usuarios federados, pueden unirse a la reunión del usuario sin un usuario autenticado de la organización en la asistencia. 
+
+![Captura de pantalla que muestra un mensaje a un usuario en espera](media/meeting-policies-anonymous-user-lobby.png)
+
+Este es el comportamiento de combinación de personas anónimas cuando hay usuarios autenticados en la reunión.
+
+|Permitir a personas anónimas iniciar una reunión  |Admitir automáticamente personas |Unirse al comportamiento de personas anónimas |
+|---------|---------|---------|
+|Verdadero    | Todos      | Unirse directamente         |
+|   | Todas las personas de su organización       | Esperar en la sala de espera        |
+|   | Todas las personas de la organización y las organizaciones federadas       | Esperar en la sala de espera         |
+|Falso    | Todos        | Unirse directamente        |
+|   | Todas las personas de su organización     | Esperar en la sala de espera        |
+|   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
+
+Este es el comportamiento de unirse a personas anónimas cuando no hay usuarios autenticados en la reunión.
+
+|Permitir a personas anónimas iniciar una reunión |Admitir automáticamente personas  |Unirse al comportamiento de personas anónimas |
+|---------|---------|---------|
+|Verdadero    | Todos      | Unirse directamente         |
+|   | Todas las personas de su organización       | Esperar en la sala de espera        |
+|   | Todas las personas de la organización y las organizaciones federadas       | Esperar en la sala de espera         |
+|Falso    | Todos        | Espere en la sala. Los usuarios se admiten automáticamente cuando el primer usuario autenticado se une a la reunión.        |
+|   | Todas las personas de su organización     |Esperar en la sala de espera         |
+|   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
 
 ### <a name="automatically-admit-people"></a>Admitir automáticamente personas
 
@@ -332,41 +357,13 @@ Esta es una directiva por organizador. Esta opción controla si los usuarios pue
 |**Todas las personas de la organización y las organizaciones federadas**     |Los usuarios autenticados dentro de la organización, incluidos los usuarios invitados y los usuarios de organizaciones federadas, se unen a la reunión directamente, sin tener que esperar en la sala de espera.  Los usuarios anónimos y los usuarios que han marcado por teléfono esperan en la sala de espera.   |
 |**Todas las personas de su organización**    |Los usuarios autenticados de la organización, incluidos los invitados, se unen a la reunión directamente, sin tener que esperar en la sala de espera.  Los usuarios federados, los usuarios anónimos y los usuarios que marcan por teléfono esperan en la sala de espera.           |
 
-### <a name="allow-anonymous-people-to-start-a-meeting"></a>Permitir que usuarios anónimos inicien una reunión
-
-Esta es una directiva por organizador. Esta configuración controla si los usuarios anónimos, como B2B, y los usuarios federados, pueden unirse a la reunión del usuario sin un usuario autenticado de la organización en la asistencia. 
-
-![Captura de pantalla que muestra un mensaje a un usuario en espera](media/meeting-policies-anonymous-user-lobby.png)
-
-Este es el comportamiento de combinación de personas anónimas cuando hay usuarios autenticados en la reunión.
-
-|Permitir que usuarios anónimos inicien una reunión  |Admitir automáticamente personas |Unirse al comportamiento de personas anónimas |
-|---------|---------|---------|
-|Verdadero    | Todos      | Unirse directamente         |
-|   | Todas las personas de su organización       | Esperar en la sala de espera        |
-|   | Todas las personas de la organización y las organizaciones federadas       | Esperar en la sala de espera         |
-|Falso    | Todos        | Unirse directamente        |
-|   | Todas las personas de su organización     | Esperar en la sala de espera        |
-|   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
-
-Este es el comportamiento de unirse a personas anónimas cuando no hay usuarios autenticados en la reunión.
-
-|Permitir que usuarios anónimos inicien una reunión |Admitir automáticamente personas  |Unirse al comportamiento de personas anónimas |
-|---------|---------|---------|
-|Verdadero    | Todos      | Unirse directamente         |
-|   | Todas las personas de su organización       | Esperar en la sala de espera        |
-|   | Todas las personas de la organización y las organizaciones federadas       | Esperar en la sala de espera         |
-|Falso    | Todos        | Espere en la sala. Los usuarios se admiten automáticamente cuando el primer usuario autenticado se une a la reunión.        |
-|   | Todas las personas de su organización     |Esperar en la sala de espera         |
-|   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
-
 ### <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Permitir que los usuarios de acceso telefónico omitan la sala de recepción
 
 Esta es una directiva por organizador. Esta opción controla si las personas que marcan por teléfono se unen a la reunión directamente o esperan en la sala independientemente de la configuración **admitir automáticamente** a los usuarios.
 
 Este es el comportamiento de la Unión de las personas que llaman por teléfono.
 
-|Permitir que los usuarios de acceso telefónico omitan la sala de recepción  |Admitir automáticamente usuarios  |Unirse al comportamiento de las personas que llaman |
+|Permitir que los usuarios de acceso telefónico omitan la sala de recepción  |Admitir automáticamente personas  |Unirse al comportamiento de las personas que llaman |
 |---------|---------|---------|
 |Verdadero    | Todos      | Unirse directamente         |
 |   | Todas las personas de su organización       | Unirse directamente        |
@@ -375,7 +372,7 @@ Este es el comportamiento de la Unión de las personas que llaman por teléfono.
 |   | Todas las personas de su organización     |Esperar en la sala de espera         |
 |   | Todas las personas de la organización y las organizaciones federadas      | Esperar en la sala de espera         |
 
-### <a name="allow-private-meet-now"></a>Permitir reunirse ahora
+### <a name="allow-meet-now-in-private-meetings"></a>Permitir reunirse ahora en reuniones privadas
 
 Esta es una directiva por usuario y se aplica antes de que se inicie una reunión. Esta configuración controla si un usuario puede iniciar una reunión privada ad hoc. 
 
@@ -387,17 +384,17 @@ Esta es una directiva por usuario y se aplica durante una reunión. Esta configu
 
 |Valor de configuración |Comportamiento  |
 |---------|---------|
-|**Deshabilitado y el usuario puede invalidar**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta es la configuración que se aplica normalmente. |
+|**Desactivado pero el organizador puede invalidarlo**     | Los subtítulos dinámicos no se activan automáticamente para el usuario durante una reunión. El usuario ve la opción **Activar títulos en vivo** en el menú de desbordamiento (**...**) para activarlo. Esta es la configuración que se aplica normalmente. |
 |**Deshabilitado**     | Los subtítulos en vivo se deshabilitan para el usuario durante la reunión. El usuario no tiene la opción de activarlos.          |
-
 
 <a name="bkcontentsharing"> </a>
 
 ### <a name="allow-chat-in-meetings"></a>Permitir la conversación en reuniones
 
-Esta es una directiva por organizador. Esta opción controla si se permite la conversación de la reunión en la reunión del usuario. 
+Esta es una directiva por organizador. Esta opción controla si se permite la conversación de la reunión en la reunión del usuario.
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="related-topics"></a>Temas relacionados
+
 [Directivas de mensajería en Teams](messaging-policies-in-teams.md)
