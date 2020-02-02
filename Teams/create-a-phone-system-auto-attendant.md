@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar los operadores automáticos de la nube para Microsoft Teams.
-ms.openlocfilehash: 5a018b6c3b193d17bfbabdc5178c095a635e65ea
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: be7e62bdad1fb0d9ed2d2d5e610c8eed5c49ae7f
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41005209"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664324"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -162,22 +162,9 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
   > Una **persona en la organización** puede ser un usuario en línea o un usuario local alojado con Skype empresarial Server.
 
   - **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Buscas el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con el servicio.
-  - **Buzón de voz** Seleccione el grupo de Office 365 que representa los usuarios de su organización que necesitan acceder a este mensaje de voz. Aquí puede activar la transcripción del buzón de voz. Requiere un grupo de Office 365.
+  - **Buzón de voz** Seleccione el grupo de Office 365 que contiene los usuarios de su organización que necesitan tener acceso al buzón de voz recibido por este operador automático. Los mensajes de voz se envían al grupo de Office 365 que ha especificado. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
 
-  > [!NOTE]
-> No se puede acceder a los mensajes de voz enviados a los usuarios desde esta cuenta de buzón de voz de operador automático en Teams. Aparecerán como un mensaje de correo electrónico.
-
-
-<!-- - **Auto attendant** Select the name of an existing auto attendant.
-- **Call queue** Select the name of an auto attendant that has already been created.
-- **External phone number** routes the caller to a phone number outside your local system.
-- **Operator** directs the call to a user you designate as an Operator. If you haven't previously set up an operator, an option to create one now shows up. The 0 key is assigned to Operator by default. Options for setting an Operator are:
-
-  - **No operator** disables the "Operator" and "Press 0" options.
-  - **Person in your organization** can be an Online user or a user hosted on-premises using Skype for Business Server. They must have a Phone System license that is enabled for Enterprise Voice or assigned Calling Plans in Office 365. Search for the operator in the **Destination for your operator** field.
-  - **Auto attendant** lets you choose the name of an existing auto attendant.
-  - **Call queue** lets you select an existing call queue.
-  - **Group Voicemail** routes the call to a voicemail box that you select. -->
+      Cambiar **transcripción** a **activado** para permitir la transcripción de voz a texto de los mensajes de voz.
 
  * * *
 
@@ -214,7 +201,9 @@ Si selecciona **desconectar**, la persona que llama se desconecta cuando se repr
 
 - **Aplicación de voz** Seleccione un operador automático o una cola de llamadas que ya se haya configurado. Busque el operador automático o la cola de llamadas por el nombre de la cuenta de recursos asociada con la aplicación.
 
-- **Buzón de voz** Seleccione el grupo de Office 365 que representa los usuarios de su organización que necesitan acceder a este mensaje de voz. Aquí puede activar la transcripción del buzón de voz. Requiere un grupo de Office 365.
+- **Buzón de voz** Seleccione el grupo de Office 365 que contiene los usuarios de su organización que necesitan tener acceso al buzón de voz recibido por este operador automático. Los mensajes de voz se envían al grupo de Office 365 que ha especificado. Para acceder a los mensajes de voz, los miembros del grupo pueden abrirlos desplazándose al grupo en Outlook.
+
+    Cambiar **transcripción** a **activado** para permitir la transcripción de voz a texto de los mensajes de voz.
 
 <!-- - **Auto attendant** Select the name of an existing auto attendant in the **Search by name** field. You will also have to select a resource account associated to the auto attendant. The caller who selects this option is sent to that auto attendant.
 - **Call queue** Select the name of an existing call queue in the **Search by name** field. You will also have to select a resource account associated to the call queue. The caller who selects this option is sent to that call queue, where the call is answered by a call agent.

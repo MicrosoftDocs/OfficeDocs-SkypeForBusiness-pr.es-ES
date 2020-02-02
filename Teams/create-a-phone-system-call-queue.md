@@ -21,12 +21,12 @@ f1keywords:
 ms.custom:
 - Phone System
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube con Microsoft Teams.
-ms.openlocfilehash: c33baabdce8366ed9a4027c0b1e030f54eef543b
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: 2744a989225098b47814c53cb089de7a0ee6cfe4
+ms.sourcegitcommit: a47bd5194672820380d30722b60779ce2d8a8f78
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41620035"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41664327"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -130,16 +130,15 @@ En el **centro de administración de Microsoft Teams**,**colas de llamadas**de *
 
 * * *
 
-![El icono del número 1 hace referencia a una llamada en el](media/sfbcallout1.png)
+![El icono del número 1 hace referencia a una llamada en el](media/teamscallout1.png)
 **nombre** de la captura de pantalla anterior escriba un nombre descriptivo para la cola de llamadas. Este nombre es obligatorio y puede contener hasta 64 caracteres, incluidos los espacios.
 
  Este nombre se muestra en la notificación de la llamada entrante.
 
 * * *
 
-![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
-
-**Agregar cuentas** Seleccione una cuenta de recursos. Todas las colas de llamadas deben tener una cuenta de recursos. No es necesario que las cuentas de recursos tengan un número de teléfono gratuito o gratuito.
+![Icono del número 2, que hace referencia a una llamada en la](media/teamscallout2.png)
+captura de pantalla anterior**Agregar cuentas** Seleccione una cuenta de recursos. Todas las colas de llamadas deben tener una cuenta de recursos. No es necesario que las cuentas de recursos tengan un número de teléfono gratuito o gratuito.
 
 Si no hay ninguna lista, obtenga números de servicio y asígnelos a una cuenta de recursos antes de crear la cola de llamadas, como se describe anteriormente. Para obtener tus números de servicio, consulta [obtener números de teléfono de servicio](getting-service-phone-numbers.md). Consulte [administrar cuentas de recursos en Teams](manage-resource-accounts.md) para obtener información específica sobre cómo asignar un número de teléfono.
 
@@ -152,15 +151,13 @@ Si no hay ninguna lista, obtenga números de servicio y asígnelos a una cuenta 
 
 * * *
 
-![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
-
-**Saludo** el saludo opcional que se reproducirá para las personas que llamen al número de la cola de llamadas.
+![El icono del número 1, hace referencia a una llamada en la](media/teamscallout1.png)
+captura de pantalla anterior,**saludo** el saludo opcional que se reproduce para las personas que llaman al número de la cola de llamadas.
 
 Puede cargar un archivo de audio (en formato. wav,. mp3 o. WMA).
 
-![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
-
-**Música en espera** Puede usar la música predeterminada en espera en la cola de llamadas. También puede cargar un archivo de audio en formato. wav, MP3 o. WMA para usarlo como música personalizada en espera.
+![Icono del número 2, que hace referencia a una llamada en la](media/teamscallout2.png)
+captura de pantalla anterior**música en espera** puede usar la música predeterminada en espera con la cola de llamadas. También puede cargar un archivo de audio en formato. wav, MP3 o. WMA para usarlo como música personalizada en espera.
 
 * * *
 
@@ -168,9 +165,8 @@ Puede cargar un archivo de audio (en formato. wav,. mp3 o. WMA).
 
 ![Captura de pantalla de las opciones de contestador automático](media/5d249515-d532-4af2-90da-011404028b89.png) 
 
-![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
-
-Para agregar agentes individuales directamente, sin agregarlos a un grupo, haga clic en **Agregar usuarios**. Coloca agentes individuales en el orden en que quieras que reciban la llamada. Puedes añadir hasta 20 agentes individuales (para añadir más de 20, ponerlos en un grupo).
+![El icono del número 1, hace referencia a una llamada en la](media/teamscallout1.png)
+captura de pantalla anterior de los**agentes y grupos** para agregar agentes individuales directamente, sin agregarlos a un grupo, haga clic en **Agregar usuarios**. Coloca agentes individuales en el orden en que quieras que reciban la llamada. Puedes añadir hasta 20 agentes individuales (para añadir más de 20, ponerlos en un grupo).
 
 Las llamadas se enrutan primero a los agentes individuales y luego a los agentes en grupos. 
 
@@ -195,11 +191,8 @@ Los agentes de llamadas seleccionados deben ser:
 
 - Si los agentes usan la aplicación Microsoft Teams para las llamadas de la cola de llamadas, deben estar en modo TeamsOnly.
 
-![Captura de pantalla del panel agregar agentes de llamadas](media/skype-for-business-add-agents-to-call-queue.png)
-
-![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
-
-**Método de enrutamiento** Puede elegir entre **operador**, **serie**o **Round Robin** como método de distribución. Todas las colas de llamadas nuevas y existentes tienen el enrutamiento de operador seleccionado de forma predeterminada. Cuando se usa el enrutamiento del operador, la primera llamada en la cola llama a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
+![Icono del número 2, que hace referencia a una llamada en el](media/teamscallout2.png)
+**método de enrutamiento** de captura de pantalla anterior, puede elegir entre **operador**, **serie**o **Round Robin** como método de distribución. Todas las colas de llamadas nuevas y existentes tienen el enrutamiento de operador seleccionado de forma predeterminada. Cuando se usa el enrutamiento del operador, la primera llamada en la cola llama a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 
 - El **enrutamiento del operador** hace que la primera llamada de la cola suene a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 - El **enrutamiento serie** llama a todos los agentes de llamadas de uno en uno, desde el principio de la lista de agentes de llamadas. Los agentes no se pueden pedir dentro de la lista de agentes de llamadas. Si un agente descarta o no atiende una llamada, la llamada sonará al próximo agente y probará con todos los agentes hasta que se seleccione o agote el tiempo de espera.
@@ -213,9 +206,8 @@ Los agentes de llamadas seleccionados deben ser:
 
 * * *
 
-![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
-
-El **agente puede dejar de recibir llamadas** Habilita esta opción para permitir que los agentes de la cola de llamadas no puedan tomar llamadas de una cola en particular.
+![El icono del número 1 hace referencia a una llamada en el agente](media/teamscallout1.png)
+de captura de pantalla anterior que**puede optar por recibir llamadas** puede optar por permitir que los agentes de la cola de llamadas no puedan tomar llamadas de una cola determinada habilitando esta opción.
 
 Al habilitar esta opción, todos los agentes de esta cola iniciarán o dejarán de recibir llamadas de esta cola de llamadas. Puede revocar en cualquier momento el privilegio de no participación de agente desactivando la casilla de verificación, lo que hace que los agentes participen automáticamente de nuevo en esta cola (el valor predeterminado de todos los agentes).
 
@@ -230,9 +222,8 @@ Para acceder a la opción de cancelación de la suscripción, los agentes pueden
     >
     > Si los agentes se encuentran en clientes de escritorio de Microsoft Teams, pueden dejar de participar usando la configuración de la llamada. 
 
-![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
-
-**Configuración de alerta del agente**
+![Icono del número 2, que hace referencia a una llamada en la](media/teamscallout2.png)
+**configuración de alerta del agente** de captura de pantalla anterior
 
 Esto define la duración de un agente de notificación de una llamada antes de que los métodos de enrutamiento de serie o de turnos pasen al siguiente agente.
 
@@ -246,15 +237,13 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
 
 * * *
 
-![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
-
-**Número máximo de llamadas en la cola**: use esta opción para establecer el número máximo de llamadas que pueden esperar en la cola al mismo tiempo. El valor predeterminado es 50, pero puede estar comprendido entre 0 y 200. Cuando se alcanza este límite, la llamada se maneja de la forma que estableces en la configuración **cuando se alcanza el número máximo de llamadas** , a continuación.
+![Icono del número 1, que hace referencia a una llamada en la](media/teamscallout1.png)
+captura de pantalla anterior**llamadas máximas en la cola** use esta configuración para establecer las llamadas máximas que pueden esperar en la cola al mismo tiempo. El valor predeterminado es 50, pero puede estar comprendido entre 0 y 200. Cuando se alcanza este límite, la llamada se maneja de la forma que estableces en la configuración **cuando se alcanza el número máximo de llamadas** , a continuación.
 
 * * *
 
-![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
-
-**Cuando se alcanza el número máximo de llamadas** Cuando la cola de llamadas alcanza su tamaño máximo (establecido mediante las **llamadas máximas en la configuración de la cola** ), puede elegir qué sucede con las llamadas entrantes nuevas.
+![Icono del número 2, que hace referencia a una llamada en la](media/teamscallout2.png)
+captura de pantalla anterior**cuando se alcanza el número máximo de llamadas** cuando la cola de llamadas alcanza su tamaño máximo (establecido mediante las **llamadas máximas en la configuración de la cola** ), puede elegir qué sucede con las llamadas entrantes nuevas.
 
 - **Desconectar** La llamada se desconectará.
 - **Redirigir a** Si elige esta opción, seleccione una de las siguientes opciones:
@@ -267,15 +256,13 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
 
 * * *
 
-![El icono del número 3, hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout3.png)
-
-**Tiempo de espera de llamada: tiempo de espera máximo** También puede decidir cuánto tiempo puede estar en espera una llamada en la cola antes de que se agote el tiempo de espera y deba redirigirse o desconectarse. El lugar donde se redirige se basa en el modo en que se establece la configuración **cuando la llamada supera el tiempo de espera** . Puede establecer un intervalo de entre 0 y 45 minutos.
+![El icono del número 3 hace referencia a una llamada en la captura](media/teamscallout3.png)
+de pantalla anterior**tiempo de espera de llamada: tiempo de espera máximo** también puede decidir cuánto tiempo puede estar en espera una llamada en la cola antes de que se agote el tiempo de espera y que deba redirigirse o desconectarse. El lugar donde se redirige se basa en el modo en que se establece la configuración **cuando la llamada supera el tiempo de espera** . Puede establecer un intervalo de entre 0 y 45 minutos.
 
 El valor de tiempo de espera se puede establecer en segundos, en intervalos de 15 segundos. Esto permite manipular el flujo de llamadas con una granularidad más fina. Por ejemplo, puede especificar que las llamadas no contestadas por un agente en un plazo de 30 segundos vayan a un operador automático de búsqueda de directorios.
 
-![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout4.png)
-
-**Cuando la llamada supera el tiempo de salida** Cuando la llamada alcanza el límite establecido en el valor de **tiempo que puede esperar una llamada en la cola** , puede elegir qué sucede con la llamada:
+![Icono del número 4, que hace referencia a una llamada en la](media/teamscallout4.png)
+captura de pantalla anterior**cuando la llamada supera el tiempo** de espera cuando la llamada alcanza el límite establecido en el valor de **tiempo de espera de una llamada en la cola** , puede elegir qué sucede con la llamada:
 
 - **Desconectar** La llamada se desconectará.
 - **Redirigir esta llamada a** Si elige esta opción, tiene estas opciones:
