@@ -15,17 +15,17 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.UsersCountLimitationWarning
 ms.custom:
 - Setup
 description: 'Aprenda a trabajar con las limitaciones de la visualización de usuarios de Skype empresarial online. '
-ms.openlocfilehash: 17865b9f369b73d4133f95d0d61fe0010052f50a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ffe0a9d5c67028e12889f21744f88a8bfc2424ae
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285228"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706475"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitaciones de la página usuarios del centro de administración de Skype empresarial online
 

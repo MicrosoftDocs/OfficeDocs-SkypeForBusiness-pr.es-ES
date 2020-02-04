@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.HybridSignIntoO365
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -17,12 +17,12 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el Asistente de administración híbrida de Skype empresarial Server como ayuda para configurar un entorno híbrido con Skype empresarial online.
-ms.openlocfilehash: 9f80a42149cd0bf1b30781003584d03accd6fe86
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 34bcf0abd4067d584837f2501c5876b063ef537b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279014"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704835"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Asistente híbrido: Inicio de sesión en Office 365
 

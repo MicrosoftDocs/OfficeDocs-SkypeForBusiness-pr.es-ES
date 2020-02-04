@@ -14,18 +14,18 @@ ms.collection:
 description: Obtenga información sobre cómo cargar un archivo de texto que contiene una lista de ubicaciones físicas y subredes asociadas para usarlas como etiquetas de informes para análisis de llamadas y informes del panel de calidad de llamadas.
 ms.custom:
 - NewAdminCenter_Update
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.reportinglabels.overview
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.location
 - ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0519af0f9c26260f23e2a0dd9b0c60a676aa5766
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 19d3197d91b7139089a940c19ff23c1dcc99a290
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572041"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707866"
 ---
 <a name="add-and-update-reporting-labels"></a>Agregar y actualizar etiquetas de informes
 ============================

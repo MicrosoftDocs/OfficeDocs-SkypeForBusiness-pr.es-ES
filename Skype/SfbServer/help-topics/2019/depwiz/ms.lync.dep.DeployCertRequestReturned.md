@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La página de estado de la solicitud de certificado en línea presenta información importante que resulta de la creación y la emisión satisfactoria de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica de forma única el certificado. De forma predeterminada, la casilla asignar este certificado a los usos de certificados de Skype empresarial Server está seleccionada. Si hace clic en finalizar, el certificado se asignará automáticamente a Skype empresarial Server para los propósitos que definió durante los pasos de creación de la solicitud de certificado. De forma predeterminada, los propósitos en los que se asignará el certificado son los siguientes:'
-ms.openlocfilehash: 02d114ff55360f3e88a866485759510ce5f107c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0afc23baacc3430edaf1868e9fbe22e2e04455d7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278024"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705615"
 ---
 # <a name="certificate-request-returned"></a>Solicitud de certificado (devuelto)
  

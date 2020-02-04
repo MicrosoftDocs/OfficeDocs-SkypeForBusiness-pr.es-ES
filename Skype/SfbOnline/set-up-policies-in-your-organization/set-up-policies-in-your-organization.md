@@ -14,15 +14,16 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
-ms.openlocfilehash: b322fa3e6eb6fbbfd992c763ff9c5de596983cba
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74b5c53e3440afc2dc30632549ea35d31207ba03
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297671"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706535"
 ---
 # <a name="set-up-policies-in-your-organization"></a>Configurar directivas de su organización
 

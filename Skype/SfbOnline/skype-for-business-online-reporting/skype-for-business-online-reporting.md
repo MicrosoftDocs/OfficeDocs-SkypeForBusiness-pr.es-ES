@@ -14,25 +14,26 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
-ms.openlocfilehash: 77a3068ef1bf8038d2d433fce483e53824668684
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 24574fdc572eeca323487b40ff9a1d5874f4f5ea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793046"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705955"
 ---
 # <a name="skype-for-business-online-reporting"></a>Creación de informes en Skype Empresarial Online
 
-Como administrador de su organización, sería útil tener una lista completa de todos los informes diferentes disponibles en Skype empresarial online. Esta lista incluye todos los informes disponibles y la información que recibe con cada uno de ellos.
+Como administrador de su organización, sería útil tener una lista completa de todos los informes diferentes disponibles en Skype empresarial online. Esto incluye todos los informes y la información que puede obtener con cada informe.
   
-Para obtener acceso a los informes de Skype empresarial online, inicie sesión en el centro de administración de Microsoft 365 con su cuenta de usuario y contraseña. Para poder visualizar los informes, la cuenta que use para iniciar sesión tiene que tener asignado el rol Administrador global, o bien tener delegado el rol Administrador de servicios de Skype Empresarial.
+Para obtener acceso a los informes de Skype empresarial online, inicie sesión en el centro de administración de Microsoft 365 con su cuenta de usuario y contraseña. La cuenta que use para iniciar sesión debe estar asignada al rol de administrador global o delegar el rol de administrador de servicios de Skype empresarial para poder ver los informes.
   
 > [!NOTE]
-> Para comprobar los permisos, en el centro de **** > administración > usuarios**activos**. A continuación, haga clic en **Editar** y, en la página de propiedades de la cuenta, haga clic en **Roles**.
+> Para comprobar los permisos, en el centro de **Administración >** > usuarios**activos**. Haga clic en el nombre para mostrar del usuario y, a continuación, haga clic en **Editar** y en la página de propiedades de la cuenta, haga clic en **roles** .
   
 ## <a name="skype-for-business-online-reporting-reference"></a>Referencia de informes en Skype Empresarial Online
 

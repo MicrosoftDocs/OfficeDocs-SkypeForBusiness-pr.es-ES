@@ -14,7 +14,7 @@ ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
 - ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
 - ms.teamsadmincenter.dashboard.widget.upgrade.planning
@@ -26,12 +26,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80f35070b520d53db87b21c9c382a116db83ed4b
-ms.sourcegitcommit: 1721acdd507591d16a4e766b390b997979d985e5
+ms.openlocfilehash: cdaed37210283152d35d2b4d73b9cc03b884ec07
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305755"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707706"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introducción a su actualización de Microsoft Teams
 
@@ -45,7 +45,7 @@ Microsoft Teams amplía las capacidades de Skype empresarial y reúne chats, reu
 
 ## <a name="when-should-my-organization-upgrade-to-teams"></a>¿Cuándo debería mi organización actualizar a teams?
 
-Skype empresarial online se retirará el 31 de julio de 2021, después del cual ya no será accesible ni compatible. Aunque el servicio de Skype empresarial online funcionará completamente el 31 de julio de 2021, Microsoft recomienda a los clientes que comiencen el viaje de actualización hoy, lo que permite completar la actualización antes de la fecha de retiro.  Para obtener más información, consulta nuestro [anuncio de jubilación](https://aka.ms/sfboannounce) .
+Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Aunque el servicio de Skype empresarial online funcionará completamente el 31 de julio de 2021, Microsoft recomienda a los clientes que comiencen el viaje de actualización hoy, lo que permite completar la actualización antes de la fecha de retiro.  Para obtener más información, consulta nuestro [anuncio de jubilación](https://aka.ms/sfboannounce) .
 
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>¿Podemos seguir usando Skype empresarial online a medida que preparamos y ejecutamos nuestra actualización a teams?
 

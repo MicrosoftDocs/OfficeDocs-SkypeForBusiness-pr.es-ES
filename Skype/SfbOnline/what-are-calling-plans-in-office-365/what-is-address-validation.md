@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressValidation
 ms.custom:
 - Calling Plans
 description: 'Descubra qué es la validación de direcciones, por qué es importante y de qué forma está relacionada con los servicios y las direcciones de emergencia. '
-ms.openlocfilehash: 3c6a6aa8b739ce2b23f8637298b108ebb52ed220
-ms.sourcegitcommit: 4bb900228cc55e0cbbce8c5b74b7de8df5a2288f
+ms.openlocfilehash: ad555792bf6951e8de5fb746546aec40e05b0eba
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34408531"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705875"
 ---
 # <a name="what-is-address-validation"></a>¿Qué es la validación de direcciones?
 

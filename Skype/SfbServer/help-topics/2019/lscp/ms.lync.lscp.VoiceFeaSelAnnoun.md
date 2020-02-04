@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceFeaSelAnnoun
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar un servicio de anuncios para seleccionar un servicio de anuncios que controle las llamadas entrantes a un intervalo de números no asignados.
-ms.openlocfilehash: 4e015cf7a4d74bc064fb90347b47ca7728f0a29f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a3ce522fb550b4df19c3c8eec9ed339b78683a9b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290133"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703925"
 ---
 # <a name="select-an-announcement-service"></a>Seleccionar servicio de anuncio
  

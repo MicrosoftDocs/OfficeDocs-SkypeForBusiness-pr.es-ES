@@ -1,5 +1,5 @@
 ---
-title: ¿Cuál es el estado de los pedidos de los puertos?
+title: ¿Cuál es el estado de mis solicitudes de portabilidad?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,18 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ''
+f1.keywords: ''
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 7c7b0c745ac4af01b58771463f348f5ac0f3dac7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3ad816e9dcedc18fe13d45db0bec36285d4f090f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925707"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708636"
 ---
-# <a name="whats-the-status-of-your-port-orders"></a>¿Cuál es el estado de los pedidos de los puertos?
+# <a name="whats-the-status-of-your-port-orders"></a>¿Cuál es el estado de mis solicitudes de portabilidad?
 
 Para ver el estado de la solicitud de portabilidad, en el navegación izquierdo del centro de administración de Microsoft Teams, vaya a >**pedidos**de **voz** > y, a continuación, haga clic en **historial de pedidos**. Cada estado de pedido de puerto se muestra en la columna **Estado** .
 
@@ -35,7 +35,7 @@ En la tabla siguiente se enumeran los Estados de los pedidos de los puertos, as�
 |**Contactando con el operador** <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |No  <br/> |El pedido ha sido recibido y aprobado por Microsoft, y estamos trabajando con el operador que ha perdido para obtenerlo.  <br/> |
 |**Transferencia aprobada** <br/> |Sí  <br/> |Compromiso de pedido firme (FOC)  <br/> |Sí  <br/> |No  <br/> |El pedido ha sido aceptado por el operador perdido y se ha establecido la fecha de FOC.  <br/> |
 |**Transferencia pendiente** <br/> |Sí  <br/> |No  <br/> |No  <br/> |No  <br/> |La transferencia está fuera de las 24 horas, por lo que el pedido ya no se puede editar ni cancelar.  <br/> |
-|**Error** <br/> |No  <br/> |Sí  <br/> |Sí  <br/> |Sí (en este momento, no puede eliminar la solicitud de portabilidad si se produce un error. Es necesario volver a crear la solicitud de portabilidad o debe ponerse en contacto con la [ayuda del servicio de asistencia al cliente PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |El operador perdido rechazó el pedido.  <br/> |
+|**Error** <br/> |No  <br/> |Sí  <br/> |Sí   <br/> |Sí (en este momento, no puede eliminar la solicitud de portabilidad si se produce un error. Es necesario volver a crear la solicitud de portabilidad o debe ponerse en contacto con la [ayuda del servicio de asistencia al cliente PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).  <br/> |El operador perdido rechazó el pedido.  <br/> |
 |**Llena** <br/> |Sí  <br/> |No  <br/> |No  <br/> |No  <br/> |Los números se han transferido correctamente.  <br/> |
 |**Cancelar** <br/> |No  <br/> |Sí  <br/> |No  <br/> |No  <br/> |El administrador ha cancelado el pedido.  <br/> |
 

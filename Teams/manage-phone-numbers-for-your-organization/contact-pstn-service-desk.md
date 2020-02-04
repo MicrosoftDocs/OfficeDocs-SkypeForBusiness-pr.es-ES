@@ -15,19 +15,19 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.voice.pstnservicedesk
 - ms.teamsadmincenter.voice.contactPSTNsupport
 ROBOTS: NOINDEX, NOFOLLOW
 ms.custom:
 - Calling Plans
 description: Cuando reciba números de teléfono o transfiera (transfiriendo) números para su organización, es posible que necesite obtener ayuda y soporte técnico en el servicio de asistencia al cliente de RTC.
-ms.openlocfilehash: 72484e6957a17593c6a286505dfce00e051f0762
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 69e3d8dfc3d4568ca4801105459580b5f108e5a0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570616"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707245"
 ---
 # <a name="pstn-service-desk-help"></a>Ayuda del servicio de asistencia al cliente RTC
 

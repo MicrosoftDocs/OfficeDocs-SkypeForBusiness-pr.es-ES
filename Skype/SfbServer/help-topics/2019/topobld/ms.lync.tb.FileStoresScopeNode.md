@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FileStoresScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Almacenes de archivos contiene los almacenes de archivos de la topología. You can perform the following action:'
-ms.openlocfilehash: 2f23c57885d9c7c1d3b1e3294d440e5aea266dad
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4e556a83227cd881f225d187e4961ea149ddd5f7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292685"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702145"
 ---
 # <a name="file-stores-scope-node"></a>Nodo de ámbito de almacenes de archivos
  

@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: Use Windows PowerShell y los cmdlets Get-CsTenant y Get-CsTenantLicensingConfiguration para obtener información sobre su inquilino de Skype empresarial online.
-ms.openlocfilehash: 340ef9de0e793cbbed7d471754ebca715eb7eaf7
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 3c4a8f72caca634b208de5cf4aa555b88518f4da
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989235"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706255"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>Administrar las organizaciones de Skype empresarial online
 

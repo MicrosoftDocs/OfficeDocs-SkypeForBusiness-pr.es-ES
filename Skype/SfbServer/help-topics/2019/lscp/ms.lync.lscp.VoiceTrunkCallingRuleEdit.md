@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTrunkCallingRuleEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede usar la nueva configuración de troncal: nueva regla de traducción de número de llamada para crear una nueva regla de traducción. Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:'
-ms.openlocfilehash: 87247e641826615f030f1204dac83bb678cd4d9d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 95e96825d4fa81839dac44d0f644ae8694c8d62c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290888"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703835"
 ---
 # <a name="new-calling-number-translation-rule"></a>Nueva regla de traducción de números de llamada
 

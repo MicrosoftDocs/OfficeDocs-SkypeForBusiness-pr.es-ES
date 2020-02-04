@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en el Reino Unido (RU) para Microsoft Teams.
-ms.openlocfilehash: bdad256ee68b1ecd6cf07dc7bf67388a6929dc26
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3fb9da13b10c5e45f910d172a350cd6869dbaaa1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571961"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706945"
 ---
 # <a name="phone-number-management-for-the-uk"></a>Administración de números de teléfono para Reino Unido
 

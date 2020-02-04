@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: En este artículo se explica cómo configurar y solucionar problemas de delegación de Skype empresarial online. Este artículo le ofrece instrucciones para las recomendaciones de configuración, procedimientos recomendados y pasos de solución de problemas.
-ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac2b68deec94825d57fd06b436d00feaa924a5c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285248"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706485"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurar y solucionar problemas relacionados con la delegación de Skype Empresarial Online
 
@@ -86,7 +87,7 @@ Para configurar la delegación de Skype empresarial online, siga estos pasos:
   
 1. Seleccione **herramientas** > **Opciones Opciones** > de**desvío de llamadas**.
     
-2. Seleccione **Editar mis miembros**delegados.
+2. Seleccione **Editar mis miembros delegados**.
     
 3. Seleccione **Agregar**, seleccione el delegado que desea agregar y, a continuación, seleccione **Aceptar**.
     
@@ -106,7 +107,7 @@ Para configurar la delegación de Skype empresarial online, siga estos pasos:
     
 ### <a name="verify-success"></a>Comprobar el éxito
 
-Si la configuración se realiza correctamente, el delegado debería ver lo **que se agregó como delegado de _LT_ Name>** mensaje y también se crean las personas a las que administro las **llamadas para** el grupo. El delegador debe ver que **** se crea el grupo delegados.
+Si la configuración se ha realizado correctamente, el delegado debería ver el **que se agregó como delegado de < nombre>** mensaje y también se crearán las **personas que administro llamadas para** el grupo. El delegador debe ver que se crea el grupo **delegados** .
   
 > [!NOTE]
 > Los permisos de delegación suelen aparecer dentro de los 30 minutos del proceso de configuración. Sin embargo, este proceso puede demorar hasta 24 horas en completarse. 
@@ -117,7 +118,7 @@ Si la configuración se realiza correctamente, el delegado debería ver lo **que
 
 - > **Problema 1** La entrada de delegado continúa apareciendo en las **llamadas de grupo personas que administro** después de que el delegador haya eliminado el delegado del cliente de Outlook.
     
-  - > **Solución 1** En el cliente de Skype empresarial, haga clic con el botón derecho en **** el delegado en el grupo delegados y, a continuación, seleccione **quitar del grupo**.
+  - > **Solución 1** En el cliente de Skype empresarial, haga clic con el botón derecho en el delegado en el grupo **delegados** y, a continuación, seleccione **quitar del grupo**.
     
 - > **Problema 2** Después de conceder acceso delegado a través del cliente de Outlook, no se muestra para el delegado ni el mensaje de confirmación ni las **personas que administro las llamadas para** el grupo.
     

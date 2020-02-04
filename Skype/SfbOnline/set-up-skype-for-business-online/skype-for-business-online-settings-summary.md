@@ -15,28 +15,29 @@ ms.appliesto:
 - Skype for Business
 localization_priority: Normal
 ROBOTS: NOIDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Setup
 description: 'Este Resumen de la configuración de organización y usuarios de Skype empresarial puede ayudarle a obtener más información sobre la conectividad de mensajería instantánea pública, invitaciones a reuniones, grabaciones y reuniones, entre otras.  '
-ms.openlocfilehash: b039a97aea20fb4914deb077bd4aa76dbf13c1b3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fd8db122b1e0ec8ef205c07f68826dea83a833c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285098"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706465"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumen de configuración de Skype Empresarial Online
 
 El **centro de administración de Skype empresarial** incluye la configuración de toda la organización y de los usuarios individuales. 
   
 > [!NOTE]
->  Es posible que, en función de su ubicación, no tenga acceso a todas las características de Skype Empresarial Online. Para obtener más información, consulte [restricciones de licencia para Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  En función de su ubicación, es posible que no tenga acceso a todas las características de Skype empresarial online. Para obtener más información, consulte [restricciones de licencia para Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Configuración de Skype Empresarial Online para una organización:
 <a name="__top"> </a>
 
-|**Al**|**Descripción**|**Valor predeterminado**|**Más información**|
+|**Al**|**Descripción**|**Predeterminado**|**Aprende más**|
 |:-----|:-----|:-----|:-----|
 |Federación de dominios  <br/> |Establecer comunicación con otras organizaciones que usan Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Conectividad de mensajería instantánea pública  <br/> |Establecer comunicación con usuarios de Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -47,7 +48,7 @@ El **centro de administración de Skype empresarial** incluye la configuración 
 ## <a name="skype-for-business-online-user-settings"></a>Configuración de Skype Empresarial Online para un usuario:
 <a name="__toc314837470"> </a>
 
-|**Al**|**Descripción**|**Valor predeterminado**|**Aprende más**|
+|**Al**|**Descripción**|**Predeterminado**|**Aprende más**|
 |:-----|:-----|:-----|:-----|
 |Audio y vídeo  <br/> |Mantener conversaciones de audio y vídeo con Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Grabación  <br/> |Grabar llamadas y reuniones.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Las configuraciones de archivado se usan para controlar las opciones de archivado de la implementación de Skype empresarial Server, incluida la activación y desactivación de las siguientes opciones:'
-ms.openlocfilehash: 8c585d2a5816f2d29b3f468fd48fa82c36254d5f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1222e5e4c848f7ce0f3ca05943aa5b5acf4d365a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291939"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704705"
 ---
 # <a name="archiving-configuration"></a>Configuración de archivado
  
@@ -64,7 +64,7 @@ La página **Configuración de archivado** muestra cada directiva de archivado c
     
   - **Deshabilitar archivado**
     
-- **Actualizar** Puede actualizar la página **configuración** de archivado para comprobar el estado de las opciones de todas las configuraciones de archivado.
+- **Actualizar** Puede actualizar la página **configuración de archivado** para comprobar el estado de las opciones de todas las configuraciones de archivado.
     
-Para más información sobre la característica y capacidades de archivado, como la integración de Exchange, consulte [planear el archivado en Skype empresarial Server](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado para Skype empresarial Server](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype empresarial. Servidor](../../../manage/archiving/archiving.md).
+Para obtener información sobre la característica y capacidades de archivado, incluyendo la integración de Exchange, consulte [planear el archivado en Skype empresarial Server](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado para Skype empresarial Server](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype empresarial Server](../../../manage/archiving/archiving.md).
 

@@ -16,17 +16,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.CivicAddressGBSyntaxError
 ms.custom:
 - Calling Plans
 description: Estas son algunas de las razones por las que es posible que tenga problemas para que su dirección o direcciones se validen correctamente en el Reino Unido (RU).
-ms.openlocfilehash: e710f2ef502bb264677bc89d5cdebb2584d48679
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d854f41c13f2f34a0582b70d85ca841b4ccc53a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290692"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705865"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué tengo problemas para ingresar al Reino Unido? información sobre la dirección?
 
@@ -99,7 +99,7 @@ Si tienes problemas para introducir el código postal, recuerda:
     
 |**Formatea**|**Ejemplo**|
 |:-----|:-----|
-|NÚMERO AA # A_ # AA  <br/> |EC3B 2BD  <br/> |
+|NÚMERO AA A_ # AA  <br/> |EC3B 2BD  <br/> |
 |UN # A_ # AA  <br/> |E1W 1AP  <br/> |
 |UN # _ # AA  <br/> |F1 2AG  <br/> |
 |UN # #_ # AA  <br/> |C44 8HT  <br/> |

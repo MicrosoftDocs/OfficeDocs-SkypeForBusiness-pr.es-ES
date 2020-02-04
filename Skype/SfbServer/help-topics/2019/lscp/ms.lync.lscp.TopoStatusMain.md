@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La página Topología: Estado muestra el estado de los servidores de la topología de Skype Empresarial.'
-ms.openlocfilehash: 428549f736264b3800d08d4d3bbfa5267d556aa4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f7f9f2206aee103ab3fc2c52e8c3c9999e53bd3b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289654"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41704185"
 ---
 # <a name="topology-status"></a>Topología: Estado
 

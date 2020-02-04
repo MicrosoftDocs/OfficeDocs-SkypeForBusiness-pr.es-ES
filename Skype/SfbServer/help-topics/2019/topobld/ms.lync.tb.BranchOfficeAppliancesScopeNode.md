@@ -6,25 +6,25 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo de las sucursales supervivientes enumera los equipos de las sucursales que son supervivientes en este sitio de sucursal. You can perform the following action:'
-ms.openlocfilehash: fab0565e8ed17c236b6578a5efb51a1798ca94c6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 11c3f41d8e24fec0436f071da25b3b9761af5439
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280677"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702365"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nodo de ámbito de aplicaciones de sucursal
  
-El **** nodo de las sucursales supervivientes enumera los equipos de las sucursales que son supervivientes en este sitio de sucursal. You can perform the following action:
+El nodo de las sucursales **supervivientes** enumera los equipos de las sucursales que son supervivientes en este sitio de sucursal. You can perform the following action:
   
-- **Nueva aplicación de sucursal con funciones de supervivencia**. Inicia el asistente **definir nuevos equipos** supervivientes que puede usar para agregar un nuevo equipo de sucursal a este sitio.
+- **Nueva aplicación de sucursal con funciones de supervivencia**. Inicia el asistente **definir nuevos equipos supervivientes** que puede usar para agregar un nuevo equipo de sucursal a este sitio.
     
 Además de la opción de equipo de rama superviviente, puede realizar las siguientes tareas generales:
   

@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre los pasos necesarios para configurar los eventos en Teams, incluida la preparación de la red, la asignación de licencias, el uso de directivas para habilitar las características de eventos en vivo y la programación de usuarios, y la configuración de un proveedor de distribución de terceros.
-f1keywords: ms.teamsadmincenter.liveevents.policies
+f1.keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ce126b6e0e7a1bc9efec28f3b7fec5020c2da1e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570162"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708336"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 
@@ -105,11 +105,11 @@ La reproducción de vídeos de eventos en vivo usa la transmisión por secuencia
 
 Las siguientes soluciones de SDN/eCDN están preintegradas y se pueden configurar para usarlas con secuencias.
 
-- La **transmisión por subárbol** ofrece una solución simple y eficaz para la distribución de video empresarial en vivo y a petición. Hive es una solución basada en software que no requiere hardware adicional ni ancho de banda y proporciona una manera segura de habilitar a miles de visores de vídeo simultáneos sin afectar a la red. Para los clientes que desean comprender el impacto que tiene el vídeo en su red antes de comprar una solución SDN/eCDN, la transmisión por secuencias de Hive también proporciona una solución de análisis basada en explorador para clientes de Microsoft. [Más información](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
+- La **transmisión por subárbol** ofrece una solución simple y eficaz para la distribución de video empresarial en vivo y a petición. Hive es una solución basada en software que no requiere hardware adicional ni ancho de banda y proporciona una manera segura de habilitar a miles de visores de vídeo simultáneos sin afectar a la red. Para los clientes que desean comprender el impacto que tiene el vídeo en su red antes de comprar una solución SDN/eCDN, la transmisión por secuencias de Hive también proporciona una solución de análisis basada en explorador para clientes de Microsoft. [Obtenga más información](https://www.hivestreaming.com/partners/integration-partners/microsoft/).
  
-- **Kollective** es una plataforma de distribución de emparejamiento inteligente, basada en la nube, que aprovecha la infraestructura de red existente para ofrecer contenido, en muchos formatos (video de transmisión en vivo, video a petición, actualizaciones de software, revisiones de seguridad, etc.) más rápido, más confiable y con menos ancho de banda. Nuestra plataforma segura es de confianza para las instituciones financieras más grandes del mundo, sin necesidad de hardware, configuración y mantenimiento adicionales. [Más información](https://kollective.com/microsoft-pilot/).
+- **Kollective** es una plataforma de distribución de emparejamiento inteligente, basada en la nube, que aprovecha la infraestructura de red existente para ofrecer contenido, en muchos formatos (video de transmisión en vivo, video a petición, actualizaciones de software, revisiones de seguridad, etc.) de forma más rápida, confiable y con menos ancho de banda. Nuestra plataforma segura es de confianza para las instituciones financieras más grandes del mundo, sin necesidad de hardware, configuración y mantenimiento adicionales. [Obtenga más información](https://kollective.com/microsoft-pilot/).
  
-- La **rampa OmniCache** ofrece una distribución de red de próxima generación y garantiza la entrega transparente de contenido de video en redes WAN internacionales, ayudando a los productores de eventos a optimizar el ancho de banda de la red y las difusiones de eventos en vivo exitosas y a petición transmiti. La compatibilidad con la rampa OmniCache para eventos en directo producidos en Teams estará disponible próximamente. [Más información](http://www.ramp.com). 
+- La **rampa OmniCache** ofrece una distribución de red de próxima generación y garantiza la entrega sin problemas de contenido de video a través de WANs internacionales, ayudando a los productores de eventos a optimizar el ancho de banda de la red y la compatibilidad con la transmisión de eventos en vivo La compatibilidad con la rampa OmniCache para eventos en directo producidos en Teams estará disponible próximamente. [Obtenga más información](http://www.ramp.com). 
  
 > [!NOTE] 
 > La solución SDN o eCDN elegida está sujeta a las **condiciones de servicio y la política de privacidad del proveedor de terceros**seleccionado, que controlará el uso que usted hará de la solución del proveedor. El uso de la solución del proveedor no estará sujeto a los términos de licencias por volumen de Microsoft ni a las condiciones de los servicios en línea. Si no acepta las **condiciones del proveedor de terceros**, no habilite la solución en Teams. 

@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.EnterpriseVoice
 - ms.lync.plan.EnterpriseVoice
 ms.prod: skype-for-business-itpro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: Con la telefonía IP empresarial, Skype empresarial Server ofrece una oferta independiente de protocolo de voz a través de Internet (VoIP) para mejorar o reemplazar sistemas de central de conmutación (PBX) tradicionales.
-ms.openlocfilehash: 5563a44cb4fd306c440e5cc4777c06974d17307e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: aff5644f3710d5e0053bd81e3bee49ba936d14ff
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288302"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703775"
 ---
 # <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  

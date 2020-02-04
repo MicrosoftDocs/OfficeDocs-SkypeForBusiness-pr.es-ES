@@ -11,25 +11,25 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: vinbel
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.externalaccess.overview
 description: Su equipo o administrador de ti puede configurar el acceso externo para otros dominios (Federación) para permitir que los usuarios de esos dominios participen en Teams.
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: e6eb1cab6503c443d3fb312769f9f1e0255c294a
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: a04a5547e13b8b93864b1b23dc598b08877c745a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925051"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707295"
 ---
 <a name="manage-external-access-in-microsoft-teams"></a>Administrar el acceso externo en Microsoft Teams
 ======================================================
 
 El acceso externo es una forma para que los usuarios externos de equipos externos puedan buscar, llamar, chatear y configurar reuniones con usted en Teams. También puede usar el acceso externo para comunicarse con usuarios externos que siguen usando Skype empresarial (en línea y local) y Skype (próximamente 2020).
 
-Si quiere que los usuarios externos tengan acceso a los equipos y los canales, el acceso de invitados puede ser una mejor manera de hacerlo. Para obtener más información sobre las diferencias entre el acceso externo y el acceso de invitados, consulte [comparar el acceso externo y](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)el de invitado. 
+Si desea que los usuarios externos tengan acceso a los equipos y canales, la opción de acceso de invitado es más aconsejable. Para obtener más información sobre las diferencias entre el acceso externo y el acceso de invitados, consulte [comparar el acceso externo y](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access)el de invitado. 
 
 Use acceso externo cuando:
   

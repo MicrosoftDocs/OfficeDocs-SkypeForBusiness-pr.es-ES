@@ -10,7 +10,7 @@ audience: admin
 search.appverid: MET150
 description: Obtenga información sobre los diferentes equipos, canales y aplicaciones disponibles para una gran variedad de requisitos, como los servicios financieros, la planificación de eventos, las ventas y mucho más.
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.msteamsfiles
 - ms.teamsadmincenter.dashboard.helparticle.teamsandchannels
 - ms.teamsadmincenter.teamschannel.overview
@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: okr_smb
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c125b8d62e78f9fc67689c5cd785f9cd13d8c619
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: b6e241deaf074fb7ccd6db9789539838c1027e40
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991005"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708156"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Información general de los equipos y canales en Microsoft Teams
 

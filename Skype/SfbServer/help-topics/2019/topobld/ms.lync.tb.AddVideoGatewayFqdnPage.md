@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddVideoGatewayFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los pasos necesarios para definir una nueva puerta de enlace de VIS o video en el generador de topología se describen en línea en crear un grupo VIS en Skype empresarial Server.
-ms.openlocfilehash: f69e48bb4c67c22c1e4bcfadcc07e6241db2fe84
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 97cb29268c2a9549477c6985157c986726c5345e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282463"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702615"
 ---
 # <a name="add-video-gateway-fqdn"></a>Agregar FQDN de puerta de enlace de vídeo
  

@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AvMcuGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de un grupo de servidores de conferencia A/V que ya haya definido, puede hacer lo siguiente:'
-ms.openlocfilehash: c16cd1ad5af24842c15844ad8d3f6c2d1274754d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4ad336ca8ddc6e5a2a63a90a9299289bf643aa87
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294376"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41702405"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Expansor de configuración general de MCU AV
  
@@ -33,7 +33,7 @@ Actualice el nombre de dominio completo (FQDN) del grupo de servidores de confer
 Para asociar un grupo de servidores de conferencia a/V, seleccione el grupo de servidores front-end o los grupos de servidores que tiene que asociar al grupo de servidores de conferencia a/V.
   
 > [!NOTE]
-> Si no se muestran grupos de servidores front-end en el panel **seleccionar las agrupaciones front-end para asociar con este grupo de conferencias a/V** , ya ha colocado el servidor de conferencia a/v con el grupo de servidores front-end o no seleccionó agregar conferencias en las **características y sección funcionalidad** de las propiedades del grupo de servidores front-end.
+> Si no se muestran pools front end en el panel **Seleccione las agrupaciones front end para asociar con este grupo de conferencias a/V** , ya ha colocado el servidor de conferencia a/v con el grupo de servidores front-end o no seleccionó agregar conferencias en la sección **características y funcionalidad** de las propiedades de la agrupación frontal.
   
 
 Cuando haya terminado, haga clic en **Aceptar** para completar la edición de la configuración del grupo de servidores de conferencia a/V. Haga clic en **Cancelar** para descartar los cambios.

@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre los pasos para restablecer el identificador de conferencia de un usuario en Skype empresarial online y obtenga vínculos a herramientas de actualización y de migración de reuniones. '
-ms.openlocfilehash: 0e214444b80f6562c733526acbb6f87c66e46922
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: c87db0972fb8144d7a8a807de81905f5be23191c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792109"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707155"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Restablecer un identificador de conferencia para un usuario en Skype empresarial online
 
@@ -57,7 +58,7 @@ En la parte inferior de las invitaciones a reuniones se incluye un identificador
     
 - Una vez que se ha restablecido el nuevo id. de conferencia, podrá verlo en **Id. de conferencia**.
     
-- El identificador de conferencia de un usuario para las conferencias de audio puede verse en la parte inferior del panel **** de acciones, en audioconferencias, cuando selecciona el usuario en la página **usuarios** .
+- El identificador de conferencia de un usuario para las conferencias de audio puede verse en la parte inferior del panel de acciones, en **audioconferencias** , cuando selecciona el usuario en la página **usuarios** .
     
 - After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Los usuarios pueden usar la herramienta de reunión de Skype empresarial para actualizar las reuniones existentes. Para obtener información sobre cómo descargar, instalar y ejecutar la herramienta de actualización de reuniones de Skype empresarial, consulte:
     

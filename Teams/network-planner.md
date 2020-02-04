@@ -13,17 +13,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.networkplanner.overview
 - ms.teamsadmincenter.networkplanner.personas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aaefec635e6744dc7c1197f28ffb056be4a88860
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: f4c37d36800d9ba52caf67bf1ffc7a34660c9a56
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793486"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708816"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Usar el planificador de red para Microsoft Teams
 

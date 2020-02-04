@@ -13,17 +13,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Skype for Business Certification
 - dn947482
 description: Escritorio IP y teléfonos de conferencia certificados para Microsoft Teams
-ms.openlocfilehash: 8d1cfa4a1cde87791d1770cad05f5b0e644948c3
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 4dbacc0804b7981a990d9401113965b4cb01ba4c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506852"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708446"
 ---
 # <a name="ip-phones-certified-for-microsoft-teams"></a>Teléfonos IP certificados para Microsoft Teams
 

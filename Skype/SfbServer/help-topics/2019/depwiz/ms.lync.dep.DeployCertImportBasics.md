@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertImportBasics
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para importar un certificado, debe proporcionar una ruta de acceso al archivo de certificado. En el cuadro de texto seleccionar archivo de certificado, escriba la ruta de acceso completa y el nombre de archivo, o bien haga clic en el botón examinar y vaya a la ubicación de la ruta de acceso y el nombre de archivo (normalmente, un archivo. p7b,. pfx o. cer).
-ms.openlocfilehash: b04f8a2ca2e6d3104f4b36e4bc04b6cdd3c61940
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 273c5df6892a219c1584569b90cda62371b19c9d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275555"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705785"
 ---
 # <a name="import-certificate-intro"></a>Importar certificado (introducción)
  

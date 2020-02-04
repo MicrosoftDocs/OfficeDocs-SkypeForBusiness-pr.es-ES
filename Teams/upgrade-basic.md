@@ -11,7 +11,7 @@ description: Plan de acción acelerado de diez pasos para actualizar de Skype em
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
 - ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
 - ms.teamsadmincenter.dashboard.widget.upgrade.scheduled
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 425ee7d6821a6765e03e2b9f0d9beaab61858bd4
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: b992c9870ef49847af3a82f3844f691584f97768
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749288"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707716"
 ---
 # <a name="upgrade-basic"></a>Actualizar básico
 
@@ -36,7 +36,7 @@ Diseñada para organizaciones pequeñas o para las que usan Skype empresarial on
 Estos diez pasos sencillos proporcionan todo lo que necesitas para una actualización correcta. Están diseñados para completarse en unos 30 a 45 días, pero debe ajustar las fechas de finalización de las tareas en función de la programación de actualización de su organización.
 
 > [!IMPORTANT]
-> Skype empresarial online se retirará el 31 de julio de 2021. Después de ese tiempo, el servicio de Skype empresarial online ya no será accesible ni compatible. Para maximizar los beneficios y asegurarse de que su organización tenga el tiempo adecuado para implementar su actualización, le recomendamos que comience su viaje a Microsoft Teams hoy.
+> Skype empresarial online se retirará el 31 de julio de 2021. Después de ese tiempo, el servicio de Skype empresarial online ya no será accesible ni compatible. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams.
 
 ¿Qué pasa con Skype empresarial después de la actualización? Después de que los usuarios se actualicen a Teams (modo de**solo Teams** ):
 
@@ -167,7 +167,7 @@ Le recomendamos que, una vez que se haya actualizado a todos los usuarios, enví
 
 **Recursos**
 
-- [Establecer la coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md)
+- [Establecer configuración de actualización y coexistencia](setting-your-coexistence-and-upgrade-settings.md)
 - [Correo electrónico de ejemplo: Bienvenido a los usuarios a teams](upgrade-emails-surveys.md#step-7-email)
 
 [Volver al principio](#about-upgrade-basic)

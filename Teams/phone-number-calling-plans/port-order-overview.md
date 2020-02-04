@@ -12,16 +12,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
 ms.custom:
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de los puertos y cómo transferir números de teléfono de su proveedor de servicios a teams.
-ms.openlocfilehash: 4edaac3722e8fc37ca856b240171f923a0a99f66
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925703"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708766"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 
@@ -161,7 +161,7 @@ A continuación se muestran los errores más comunes entre los clientes que han 
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [¿Cuál es el estado de los pedidos de los puertos?](port-order-status.md)
+- [¿Cuál es el estado de mis solicitudes de portabilidad?](port-order-status.md)
 - [Diferentes tipos de números de teléfono que se usan para Planes de llamada](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [Administrar los números de teléfono para su organización](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [Términos y condiciones de las llamadas de emergencia](../emergency-calling-terms-and-conditions.md)

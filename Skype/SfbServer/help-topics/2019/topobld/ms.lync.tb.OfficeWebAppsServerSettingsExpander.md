@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Edite las propiedades del servidor de Office Web Apps configurado. Pueden modificarse las siguientes propiedades:'
-ms.openlocfilehash: 61110a5db604d6fb3cbe89c0da428428820917a2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2850c4edb793f7680cdd13bae35889a0deaf532e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303280"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701795"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar configuración del servidor Office Web Apps
 

@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Descubra cuáles son los idiomas que puede configurar en Skype Empresarial para los mensajes predeterminados del sistema. '
-ms.openlocfilehash: bae2fccadea6a001c78a8d1f4a1ffabf2f91bae8
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 65b17d13ba0e7c1091b3f55d56a90b4100a4746b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570718"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707836"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas para los mensajes y los saludos de los correos de voz
 

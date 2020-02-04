@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - SMB
 description: Lamentablemente, hay determinadas licencias de usuario que se bloquean cuando el usuario https://broadcast.skype.com va a la difusión de reunión de Skype y quiere usarla. Si un usuario ve este mensaje, quiere decir que tiene una de las licencias bloqueadas asignadas. Si aún así quiere que lo utilicen, asígneles otra licencia de Office 365.
-ms.openlocfilehash: 52e6936e0dd91c896d0eea397f6352ab3b453c64
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a1284cbb6126a0a6d31ab64942f04f9e40c04fe6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299586"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706145"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Licencias de usuario bloqueadas para el alojamiento de difusión de reunión de Skype
 

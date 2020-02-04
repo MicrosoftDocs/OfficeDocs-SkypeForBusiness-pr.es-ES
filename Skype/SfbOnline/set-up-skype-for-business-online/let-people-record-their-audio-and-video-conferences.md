@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365P_RecordingDesc
 ms.custom:
 - Setup
 description: "How to turn on recording for audio and video conferences, and learn what is and isn't included in recordings. "
-ms.openlocfilehash: a7bb57fa4fe0124a4e2d6afb262fd298cb29e419
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 551e7d748a849ae945226b4aa1ef1640e3163da0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792604"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706495"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Permitir a los usuarios grabar sus conferencias de audio y vídeo
 

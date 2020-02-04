@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddEdgeServerNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: El próximo salto del grupo Edge es un grupo front-end (que puede ser un grupo de empresa o un servidor Standard Edition) o, si su implementación incluye un director, el próximo salto es el director.
-ms.openlocfilehash: 9ca6cec10beb114b80610e008b8dd6dda8f26b43
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 63b74c13130d22e177c6c45b053ad78bd93ba45e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278555"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703045"
 ---
 # <a name="add-edge-server-next-hop"></a>Agregar próximo salto del servidor perimetral
 

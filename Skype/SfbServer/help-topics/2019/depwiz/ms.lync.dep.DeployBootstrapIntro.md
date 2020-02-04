@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployBootstrapIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e87b2255-3a00-4c74-b3d0-e0c3da702e3a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se está preparando para instalar y activar o desactivar y desinstalar los componentes de Skype empresarial Server. Los procesos que debe ejecutar dependen de la configuración actual de la definición publicada en el almacén de administración central. Para completar las tareas correctamente, debe haber iniciado sesión como miembro del grupo de administradores locales y, como mínimo, debe poder leer los servicios de dominio de Active Directory.
-ms.openlocfilehash: 9c441b418b9f33c3c5435ff4d0c6111f7f635154
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 59089f436f2d19494c39f7c62bec033bf91cff70
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275604"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705845"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-intro"></a>Instalar o quitar componentes de Skype Empresarial Server (introducción)
  

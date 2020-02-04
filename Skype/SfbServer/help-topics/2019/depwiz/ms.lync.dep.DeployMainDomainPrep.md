@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para preparar un dominio de modo que aloje servidores que ejecuten Skype empresarial Server o usuarios de Skype empresarial Server, debe completar el paso 5: preparar el dominio actual, como se describe en el tema usar el programa de instalación para ejecutar la preparación del dominio. Para completar este paso, debe haber iniciado sesión como miembro del grupo de administradores del dominio en el dominio que está preparando o como miembro del grupo administradores de empresa del bosque al que pertenece el dominio. Para preparar el dominio:'
-ms.openlocfilehash: 16b47a211ebff577844cdc29b6e28acd00952d20
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 966f80fe799529ec4d208318fa417146db67ea13
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303436"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705445"
 ---
 # <a name="prepare-current-domain"></a>Preparar dominio actual
 

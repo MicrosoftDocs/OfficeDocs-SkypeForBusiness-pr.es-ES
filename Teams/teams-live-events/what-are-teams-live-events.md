@@ -11,17 +11,17 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: Obtenga información sobre cómo los eventos en vivo permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Teams, Yammer y Stream.
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.liveevents
 - ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad278fe758c07c734d71f9179386db167ad8f4fc
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 9f0e94ef7a0f71930c2ae840a19db03f4844ba34
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634883"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708346"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -84,7 +84,7 @@ La experiencia de los asistentes es el aspecto más importante de los eventos en
 ### <a name="live-event-usage-report"></a>Informe de uso de eventos en directo 
 Los administradores de inquilinos pueden ver análisis de uso de tiempo real de eventos en directo en el centro de administración de Microsoft Teams.  El [Informe de uso de eventos en directo](../teams-analytics-and-reports/teams-live-event-usage-report.md) muestra la información general de actividad de los eventos en directo que se mantienen en la organización.  Los administradores pueden ver la información de uso de eventos, como el estado de los eventos, la hora de inicio, las vistas y el tipo de producción.  
 
-## <a name="next-steps"></a>Siguientes pasos
+## <a name="next-steps"></a>Pasos siguientes
 Vaya a [planificar eventos en vivo de Teams](plan-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Temas relacionados

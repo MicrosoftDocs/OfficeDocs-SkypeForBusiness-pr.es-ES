@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
@@ -22,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 8fa6af4099238f9ab908de2ea8c37340f93c3dff
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: a384acdadb6ca4df621d45abdde4157df2029619
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494173"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706515"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Configurar Skype Empresarial para usuarios individuales
 
@@ -99,7 +99,7 @@ Para configurar estas opciones en masa, use PowerShell. Consulte [configurar el 
 |**Nombre del proveedor** <br/> |Elija su proveedor de la lista.  <br/> |
 |**Número gratuito** (obligatorio) <br/> |Para un ACP de terceros, estos números de teléfono son los que recibió del proveedor de servicios de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Aplique formato a los números tal y como desee que aparezcan en las convocatorias de reunión de Skype empresarial y Microsoft Teams.  <br/> |
 |**Número gratuito** <br/> |Para un ACP de terceros, estos números de teléfono son los que recibió del proveedor de servicios de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Aplique formato a los números tal y como desee que aparezcan en las convocatorias de reunión de Skype empresarial y Microsoft Teams.  <br/> |
-|**ID de conferencia y PIN** necesario <br/> |El PIN del participante, o código de conferencia, que se usa para unirse a las reuniones programadas por este usuario y que se proporcionan desde un proveedor de servicios de audioconferencia de terceros. Si el usuario usa Microsoft como el proveedor de servicios de audioconferencia, esto no será necesario.  <br/> |
+|**ID de conferencia y PIN** (obligatorio) <br/> |El PIN del participante, o código de conferencia, que se usa para unirse a las reuniones programadas por este usuario y que se proporcionan desde un proveedor de servicios de audioconferencia de terceros. Si el usuario usa Microsoft como el proveedor de servicios de audioconferencia, esto no será necesario.  <br/> |
    
 Para configurar estas opciones en masa, use PowerShell. Consulte [establecer los números de teléfono incluidos en los invitados](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) [configurar el equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 

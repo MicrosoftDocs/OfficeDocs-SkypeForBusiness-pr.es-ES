@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: d4d8927e2abda35ff8cb3346218cb3c4cda9c049
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 8c2b65bf1a9b209ca64d2a8b915f04cfc9669971
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628406"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706885"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar el sistema telefónico de su organización
 

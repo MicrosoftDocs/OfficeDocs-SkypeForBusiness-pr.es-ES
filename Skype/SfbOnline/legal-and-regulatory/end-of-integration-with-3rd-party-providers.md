@@ -14,17 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: El 31 de julio de 2021, el programa de fin del ciclo de vida finalizará para la integración de Skype empresarial con proveedores de servicios de audioconferencia de terceros (ACP de terceros).
-ms.openlocfilehash: f5d821b1dbb71fb2b1371230a6d7575d6fb70fe8
-ms.sourcegitcommit: ca1ac291ab6394f050b9b517d9f3906f3a970b04
+ms.openlocfilehash: b9bd1640d615babab29a073aeeee2b1beb92fc02
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36170997"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706695"
 ---
 # <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>Programa de fin de vida para la integración de Skype empresarial con proveedores de servicios de audioconferencia de terceros 
 
@@ -46,7 +47,7 @@ Como parte del anuncio del inicio del programa de finalización de la vida útil
 
 Para prepararse para este cambio, recomendamos que las organizaciones afectadas notifiquen a los usuarios habilitados de esta actualización planificada antes del 31 de julio de 2021. 
 
-Después del 31 de julio de 2021, los usuarios pueden seguir usando Skype empresarial sin interrupciones en sus reuniones en línea; sin embargo, las organizaciones necesitarán habilitar a sus usuarios para las conferencias de audio proporcionadas por Microsoft si necesitan conferencias de audio de acceso telefónico local con Skype empresarial o Microsoft Teams. Para obtener más información sobre las conferencias de audio [](https://products.office.com/en-us/skype-for-business/audio-conferencing)de Microsoft, vea audioconferencia. 
+Después del 31 de julio de 2021, los usuarios pueden seguir usando Skype empresarial sin interrupciones en sus reuniones en línea; sin embargo, las organizaciones necesitarán habilitar a sus usuarios para las conferencias de audio proporcionadas por Microsoft si necesitan conferencias de audio de acceso telefónico local con Skype empresarial o Microsoft Teams. Para obtener más información sobre las conferencias [de audio de Microsoft, vea audioconferencia](https://products.office.com/en-us/skype-for-business/audio-conferencing). 
 
 Según el estado final deseado de una organización, se pueden seguir tres caminos:
 

@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_ReportsS4BClients
 ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto. Por ejemplo, puede usar el informe de uso de dispositivos de Skype empresarial para ver los dispositivos, incluidos los sistemas operativos basados en Windows y los dispositivos móviles, que tienen la aplicación de Skype empresarial instalada y la usan para la mensajería instantánea y las reuniones. Consulte los informes de actividades en el centro de administración para obtener más información.
-ms.openlocfilehash: e5fade6e28c935a8ff454afc47d77cc691372d83
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 12f16b050a105f6795437bbfd7f5008b177a6714
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793124"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41706065"
 ---
 # <a name="device-usage-report"></a>Informe del uso de los dispositivos
 

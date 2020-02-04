@@ -15,16 +15,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Use esta tabla para obtener información sobre cómo obtener y administrar números de teléfono en Canadá para Microsoft Teams.
-ms.openlocfilehash: b41dc8716973e98ddde6347e833054de94ed28a2
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 317de783786d6485d14ede960c9c1811fa69e794
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925481"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707075"
 ---
 # <a name="phone-number-management-for-canada"></a>Administración de números de teléfono para Canadá
 

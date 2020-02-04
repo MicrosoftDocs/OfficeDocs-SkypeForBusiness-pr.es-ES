@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.collection:
 - M365-collaboration
-f1keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
+f1.keywords: ms.teamsadmincenter.signin.domainerror.nolicensedusers
 ms.reviewer: ritikag
 search.appverid: MET150
 description: Aprenda a habilitar o deshabilitar el acceso a nivel de usuario por cada usuario.
@@ -17,12 +17,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d5db525054e1233d4532f6a7819735b1415e7cd
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 3ee7a8303ed9c46e1b60bbd3588fc36d754f773d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989805"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707455"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Administrar el acceso de los usuarios a Microsoft Teams
 =====================================

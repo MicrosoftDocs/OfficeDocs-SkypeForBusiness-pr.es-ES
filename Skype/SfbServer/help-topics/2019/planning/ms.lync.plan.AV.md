@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.AV
 - ms.lync.plan.AV
 ms.prod: skype-for-business-itpro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
 description: Las conferencias de audio y vídeo (A/V) de Skype empresarial Server permiten a los usuarios participar en conferencias de audio o vídeo en tiempo real.
-ms.openlocfilehash: f5c86eca71af8af72ce2cb00e43af4826a343f66
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c06de5a440a5adb6befdb38a3f764d049ef1c751
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291154"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41703797"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>Audio Video Conferencing (Planning Tool)
  
