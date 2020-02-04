@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceViewSumCommit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: El cuadro de diálogo Valores de configuración de voz no confirmados sirve para revisar todos los cambios realizados. Desplácese por el cuadro de diálogo para repasar todos los cambios sin confirmar o haga clic en las flechas para expandir o contraer las diferentes secciones. Cuando haya terminado, haga clic en Confirmar para confirmar todos los cambios, o bien haga clic en Cancelar para retroceder y modificar los cambios.
-ms.openlocfilehash: 93d1fdfa8321f21b5868c2760efc0391b4e057aa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0582f85168b70e239a9ac43a4a0e73b3e07cff14
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292245"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685663"
 ---
-# <a name="uncommitted-voice-configuration-settings-commit"></a><span data-ttu-id="fa633-105">Valores de configuración de voz no confirmados: Confirmar</span><span class="sxs-lookup"><span data-stu-id="fa633-105">Uncommitted Voice Configuration Settings: Commit</span></span>
+# <a name="uncommitted-voice-configuration-settings-commit"></a><span data-ttu-id="32af9-105">Valores de configuración de voz no confirmados: Confirmar</span><span class="sxs-lookup"><span data-stu-id="32af9-105">Uncommitted Voice Configuration Settings: Commit</span></span>
  
-<span data-ttu-id="fa633-p102">El cuadro de diálogo **Valores de configuración de voz no confirmados** sirve para revisar todos los cambios realizados. Desplácese por el cuadro de diálogo para repasar todos los cambios sin confirmar o haga clic en las flechas para expandir o contraer las diferentes secciones. Cuando haya terminado, haga clic en **Confirmar** para confirmar todos los cambios, o bien haga clic en **Cancelar** para retroceder y modificar los cambios.</span><span class="sxs-lookup"><span data-stu-id="fa633-p102">You can use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made. Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections. When you are finished, either click **Commit** to commit all of these changes, or click **Cancel** to go back and modify your changes.</span></span>
+<span data-ttu-id="32af9-p102">El cuadro de diálogo **Valores de configuración de voz no confirmados** sirve para revisar todos los cambios realizados. Desplácese por el cuadro de diálogo para repasar todos los cambios sin confirmar o haga clic en las flechas para expandir o contraer las diferentes secciones. Cuando haya terminado, haga clic en **Confirmar** para confirmar todos los cambios, o bien haga clic en **Cancelar** para retroceder y modificar los cambios.</span><span class="sxs-lookup"><span data-stu-id="32af9-p102">You can use the **Uncommitted Voice Configuration Settings** dialog box to review all of the changes that you have made. Scroll through the dialog box to review all of the uncommitted changes, or click the arrows to expand or collapse the different sections. When you are finished, either click **Commit** to commit all of these changes, or click **Cancel** to go back and modify your changes.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="fa633-109">Si hace clic en **Confirmar**, confirmará **todos** los cambios de la lista del cuadro de diálogo **Valores de configuración de voz no confirmados**.</span><span class="sxs-lookup"><span data-stu-id="fa633-109">If you click **Commit**, you will commit **all** of the changes that are listed in the **Uncommitted Voice Configuration Settings** dialog box.</span></span>
+> <span data-ttu-id="32af9-109">Si hace clic en **Confirmar**, confirmará **todos** los cambios de la lista del cuadro de diálogo **Valores de configuración de voz no confirmados**.</span><span class="sxs-lookup"><span data-stu-id="32af9-109">If you click **Commit**, you will commit **all** of the changes that are listed in the **Uncommitted Voice Configuration Settings** dialog box.</span></span>
   
-<span data-ttu-id="fa633-110">Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="fa633-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="32af9-110">Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="32af9-110">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 
