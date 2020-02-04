@@ -3,6 +3,8 @@ title: Administrar categorías
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Manage categories
 ms:assetid: 1b118d91-b4c4-4b2f-b842-b451417ec2c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204719(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183543
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7632c0de3c17c921af05a8daa225364727a3a3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3bac2433702a90624e3ee4fb865bfb70b6d07d16
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849990"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757174"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34849990"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="manage-categories"></a><span data-ttu-id="adf3c-102">Manage categories</span><span class="sxs-lookup"><span data-stu-id="adf3c-102">Manage categories</span></span>
+# <a name="manage-categories"></a><span data-ttu-id="fb859-102">Manage categories</span><span class="sxs-lookup"><span data-stu-id="fb859-102">Manage categories</span></span>
 
 </div>
 
@@ -33,9 +35,9 @@ ms.locfileid: "34849990"
 
 <span> </span>
 
-<span data-ttu-id="adf3c-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="adf3c-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+<span data-ttu-id="fb859-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="fb859-103">_**Topic Last Modified:** 2012-10-06_</span></span>
 
-<span data-ttu-id="adf3c-104">Para crear una nueva categoría de servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="adf3c-104">To create a new Persistent Chat Server Category</span></span>
+<span data-ttu-id="fb859-104">Para crear una nueva categoría de servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="fb859-104">To create a new Persistent Chat Server Category</span></span>
 
     New-CsPersistentChatCategory -Name Foo -PersistentChatPoolFqdn client.contoso1b118d91-b4c4-4b2f-b842-b451417ec2c6.com [other parameters]
 
@@ -43,48 +45,48 @@ ms.locfileid: "34849990"
 
 
 > [!IMPORTANT]  
-> <span data-ttu-id="adf3c-105">PersistentChatPoolFqdn solo es necesario si hay más de un grupo de servidores de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="adf3c-105">PersistentChatPoolFqdn is needed only if there is more than one Persistent Chat Server pool.</span></span>
+> <span data-ttu-id="fb859-105">PersistentChatPoolFqdn solo es necesario si hay más de un grupo de servidores de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="fb859-105">PersistentChatPoolFqdn is needed only if there is more than one Persistent Chat Server pool.</span></span>
 
 
 
 </div>
 
-<span data-ttu-id="adf3c-106">Para realizar cambios en la categoría servidor de chat persistente existente</span><span class="sxs-lookup"><span data-stu-id="adf3c-106">To make changes to existing Persistent Chat Server Category</span></span>
+<span data-ttu-id="fb859-106">Para realizar cambios en la categoría servidor de chat persistente existente</span><span class="sxs-lookup"><span data-stu-id="fb859-106">To make changes to existing Persistent Chat Server Category</span></span>
 
     Set-CsPersistentChatCategory -Identity testCat -AllowedMembers @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}  -DeniedMembers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatCategory -Identity testCat -Creators @{Add="sip:user1@contoso.com"}
 
-<span data-ttu-id="adf3c-107">Windows PowerShell: AllowedMembers, DeniedMembers y creadores se pueden establecer simultáneamente.</span><span class="sxs-lookup"><span data-stu-id="adf3c-107">Windows PowerShell: AllowedMembers, DeniedMembers, and Creators can be set simultaneously.</span></span> <span data-ttu-id="adf3c-108">Los creadores deben ser el subconjunto de AllowedMembers menos DeniedMembers.</span><span class="sxs-lookup"><span data-stu-id="adf3c-108">Creators should be the subset of AllowedMembers minus DeniedMembers.</span></span> <span data-ttu-id="adf3c-109">También puede establecer las propiedades de una categoría al mismo tiempo que los miembros y los creadores.</span><span class="sxs-lookup"><span data-stu-id="adf3c-109">You can also set the properties of a category at the same time as the members and creators.</span></span>
+<span data-ttu-id="fb859-107">Windows PowerShell: AllowedMembers, DeniedMembers y creadores se pueden establecer simultáneamente.</span><span class="sxs-lookup"><span data-stu-id="fb859-107">Windows PowerShell: AllowedMembers, DeniedMembers, and Creators can be set simultaneously.</span></span> <span data-ttu-id="fb859-108">Los creadores deben ser el subconjunto de AllowedMembers menos DeniedMembers.</span><span class="sxs-lookup"><span data-stu-id="fb859-108">Creators should be the subset of AllowedMembers minus DeniedMembers.</span></span> <span data-ttu-id="fb859-109">También puede establecer las propiedades de una categoría al mismo tiempo que los miembros y los creadores.</span><span class="sxs-lookup"><span data-stu-id="fb859-109">You can also set the properties of a category at the same time as the members and creators.</span></span>
 
 <div>
 
-## <a name="create-get-set-or-remove-a-category"></a><span data-ttu-id="adf3c-110">Crear, obtener, establecer o quitar una categoría</span><span class="sxs-lookup"><span data-stu-id="adf3c-110">Create, Get, Set, or Remove a Category</span></span>
+## <a name="create-get-set-or-remove-a-category"></a><span data-ttu-id="fb859-110">Crear, obtener, establecer o quitar una categoría</span><span class="sxs-lookup"><span data-stu-id="fb859-110">Create, Get, Set, or Remove a Category</span></span>
 
-<span data-ttu-id="adf3c-111">Para crear una nueva categoría</span><span class="sxs-lookup"><span data-stu-id="adf3c-111">To create a new Category</span></span>
+<span data-ttu-id="fb859-111">Para crear una nueva categoría</span><span class="sxs-lookup"><span data-stu-id="fb859-111">To create a new Category</span></span>
 
     New-CsPersistentChatCategory -Name <String> [-PersistentChatPoolFqdn <String>] [-Description <String>] [-EnableInvitations<Switch Parameter>] [-EnableFileUpload <Switch Parameter>] [-RemoveChatHistory <Switch Parameter>] [-MaxContentSize <Integer>]
 
-<span data-ttu-id="adf3c-112">Para obtener una categoría</span><span class="sxs-lookup"><span data-stu-id="adf3c-112">To get a Category</span></span>
+<span data-ttu-id="fb859-112">Para obtener una categoría</span><span class="sxs-lookup"><span data-stu-id="fb859-112">To get a Category</span></span>
 
     Get-CsPersistentChatCategory -Identity <String>
 
-<span data-ttu-id="adf3c-113">o</span><span class="sxs-lookup"><span data-stu-id="adf3c-113">or</span></span>
+<span data-ttu-id="fb859-113">o</span><span class="sxs-lookup"><span data-stu-id="fb859-113">or</span></span>
 
     Get-CsPersistentChatCategory -PersistentChatPoolFqdn <String>
 
-<span data-ttu-id="adf3c-114">Para establecer una categoría</span><span class="sxs-lookup"><span data-stu-id="adf3c-114">To set a Category</span></span>
+<span data-ttu-id="fb859-114">Para establecer una categoría</span><span class="sxs-lookup"><span data-stu-id="fb859-114">To set a Category</span></span>
 
     Set-CsPersistentChatCategory -Instance <CategoryObject> [-WhatIf] [-Confirm] [<CommonParameters>]
 
-<span data-ttu-id="adf3c-115">o</span><span class="sxs-lookup"><span data-stu-id="adf3c-115">or</span></span>
+<span data-ttu-id="fb859-115">o</span><span class="sxs-lookup"><span data-stu-id="fb859-115">or</span></span>
 
     Set-CsPersistentChatCategory [-Identity] <string> [-Name <string>] [-Description <string>] [-Invitations <bool>] [-FileUpload <bool>] [-ChatHistory <bool>] [-AllowedMembers <PSListModifier[string]>] [-DeniedMembers <PSListModifier[string]>] [-Creators <PSListModifier[string]>] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-<span data-ttu-id="adf3c-116">Para quitar una categoría</span><span class="sxs-lookup"><span data-stu-id="adf3c-116">To remove a Category</span></span>
+<span data-ttu-id="fb859-116">Para quitar una categoría</span><span class="sxs-lookup"><span data-stu-id="fb859-116">To remove a Category</span></span>
 
     Remove-CsPersistentChatCategory -Instance <CategoryObject> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
-<span data-ttu-id="adf3c-117">o</span><span class="sxs-lookup"><span data-stu-id="adf3c-117">or</span></span>
+<span data-ttu-id="fb859-117">o</span><span class="sxs-lookup"><span data-stu-id="fb859-117">or</span></span>
 
     Remove-CsPersistentChatCategory -Identity <String> [-Force <Switch Parameter>] [-Confirm <Switch Parameter>]
 
