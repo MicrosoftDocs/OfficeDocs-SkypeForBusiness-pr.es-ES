@@ -3,6 +3,8 @@ title: 'Lync Server 2013: control de admisión de llamadas en una red MPLS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control on an MPLS network
 ms:assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398168(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ee138a0f61bace067db12c9df4f06338aa13ac8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 23ff730e64b7c7a63e277e73fa082f6d9d4e1ca3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842707"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34842707"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-on-an-mpls-network-with-lync-server-2013"></a><span data-ttu-id="37f67-102">Control de admisión de llamadas en una red MPLS con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="37f67-102">Call admission control on an MPLS network with Lync Server 2013</span></span>
+# <a name="call-admission-control-on-an-mpls-network-with-lync-server-2013"></a><span data-ttu-id="63222-102">Control de admisión de llamadas en una red MPLS con Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="63222-102">Call admission control on an MPLS network with Lync Server 2013</span></span>
 
 </div>
 
@@ -33,19 +35,19 @@ ms.locfileid: "34842707"
 
 <span> </span>
 
-<span data-ttu-id="37f67-103">_**Última modificación del tema:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="37f67-103">_**Topic Last Modified:** 2012-09-22_</span></span>
+<span data-ttu-id="63222-103">_**Última modificación del tema:** 2012-09-22_</span><span class="sxs-lookup"><span data-stu-id="63222-103">_**Topic Last Modified:** 2012-09-22_</span></span>
 
-<span data-ttu-id="37f67-p101">En una red de conmutación de etiquetas multiprotocolo (MPLS), todos los sitios se conectan a través de una malla completa. Es decir, todos los sitios se conectan directamente a la red troncal del proveedor de servicios de Internet MPLS y se proporciona ancho de banda a todos los sitios para que lo usen a través de un vínculo WAN a la nube MPLS. No existe ningún concentrador de red ni ningún sitio central que controle el enrutamiento IP. En la siguiente figura se muestra una red sencilla basada en la tecnología MPLS.</span><span class="sxs-lookup"><span data-stu-id="37f67-p101">In a Multiprotocol Label Switching (MPLS) network, all sites are connected by a full-mesh. That is, all sites are connected directly to the MPLS backbone of the Internet service provider, and each site is provisioned bandwidth to be used across a WAN link to the MPLS cloud. There is no network hub or central site to control IP routing. The following figure shows a simple network based on MPLS technology.</span></span>
+<span data-ttu-id="63222-p101">En una red de conmutación de etiquetas multiprotocolo (MPLS), todos los sitios se conectan a través de una malla completa. Es decir, todos los sitios se conectan directamente a la red troncal del proveedor de servicios de Internet MPLS y se proporciona ancho de banda a todos los sitios para que lo usen a través de un vínculo WAN a la nube MPLS. No existe ningún concentrador de red ni ningún sitio central que controle el enrutamiento IP. En la siguiente figura se muestra una red sencilla basada en la tecnología MPLS.</span><span class="sxs-lookup"><span data-stu-id="63222-p101">In a Multiprotocol Label Switching (MPLS) network, all sites are connected by a full-mesh. That is, all sites are connected directly to the MPLS backbone of the Internet service provider, and each site is provisioned bandwidth to be used across a WAN link to the MPLS cloud. There is no network hub or central site to control IP routing. The following figure shows a simple network based on MPLS technology.</span></span>
 
-<span data-ttu-id="37f67-108">**Red MPLS de ejemplo**</span><span class="sxs-lookup"><span data-stu-id="37f67-108">**Example MPLS network**</span></span>
+<span data-ttu-id="63222-108">**Red MPLS de ejemplo**</span><span class="sxs-lookup"><span data-stu-id="63222-108">**Example MPLS network**</span></span>
 
-<span data-ttu-id="37f67-109">![CAC con MPLS] (images/Gg398168.54602e6e-ec11-4dae-936d-b01acda8a179(OCS.15).jpg "CAC con MPLS")</span><span class="sxs-lookup"><span data-stu-id="37f67-109">![CAC with MPLS](images/Gg398168.54602e6e-ec11-4dae-936d-b01acda8a179(OCS.15).jpg "CAC with MPLS")</span></span>
+<span data-ttu-id="63222-109">![Control de admisión de llamadas (CAC) con MPLS](images/Gg398168.54602e6e-ec11-4dae-936d-b01acda8a179(OCS.15).jpg "Control de admisión de llamadas (CAC) con MPLS")</span><span class="sxs-lookup"><span data-stu-id="63222-109">![CAC with MPLS](images/Gg398168.54602e6e-ec11-4dae-936d-b01acda8a179(OCS.15).jpg "CAC with MPLS")</span></span>
 
-<span data-ttu-id="37f67-p102">Para implementar el servicio de control de admisión de llamadas (CAC) en una red MPLS necesitas crear una región de red que represente la nube MPLS y un sitio de red que represente cada uno de los sitios satélite MPLS. En la siguiente figura se muestra cómo tendrán que configurarse la región de red y los sitios de red para representar la red MPLS de ejemplo de la figura anterior. Los límites de ancho de banda generales y los límites de sesión de ancho de banda se basan en la capacidad del vínculo WAN desde el sitio de red hasta la región de red que representa la nube MPLS.</span><span class="sxs-lookup"><span data-stu-id="37f67-p102">To deploy call admission control (CAC) in an MPLS network, you create a network region to represent the MPLS cloud, and create a network site to represent each MPLS satellite site. The following figure illustrates how the network region and network sites should be configured to represent the example MPLS network in the previous figure. The overall bandwidth limits and bandwidth session limits are then based on the capacity of the WAN link from each network site to the network region that represents the MPLS cloud.</span></span>
+<span data-ttu-id="63222-p102">Para implementar el servicio de control de admisión de llamadas (CAC) en una red MPLS necesitas crear una región de red que represente la nube MPLS y un sitio de red que represente cada uno de los sitios satélite MPLS. En la siguiente figura se muestra cómo tendrán que configurarse la región de red y los sitios de red para representar la red MPLS de ejemplo de la figura anterior. Los límites de ancho de banda generales y los límites de sesión de ancho de banda se basan en la capacidad del vínculo WAN desde el sitio de red hasta la región de red que representa la nube MPLS.</span><span class="sxs-lookup"><span data-stu-id="63222-p102">To deploy call admission control (CAC) in an MPLS network, you create a network region to represent the MPLS cloud, and create a network site to represent each MPLS satellite site. The following figure illustrates how the network region and network sites should be configured to represent the example MPLS network in the previous figure. The overall bandwidth limits and bandwidth session limits are then based on the capacity of the WAN link from each network site to the network region that represents the MPLS cloud.</span></span>
 
-<span data-ttu-id="37f67-113">**Región de red y sitios de red para una red MPLS**</span><span class="sxs-lookup"><span data-stu-id="37f67-113">**Network region and network sites for an MPLS network**</span></span>
+<span data-ttu-id="63222-113">**Región de red y sitios de red para una red MPLS**</span><span class="sxs-lookup"><span data-stu-id="63222-113">**Network region and network sites for an MPLS network**</span></span>
 
-<span data-ttu-id="37f67-114">![Control de admisión de llamadas (CAC) con diagrama MPLS] (images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "Control de admisión de llamadas (CAC) con diagrama MPLS")</span><span class="sxs-lookup"><span data-stu-id="37f67-114">![Call Admission Control (CAC) with MPLS diagram](images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "Call Admission Control (CAC) with MPLS diagram")</span></span>
+<span data-ttu-id="63222-114">![Diagrama de control de admisión de llamadas (CAC) con MPLS](images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "Diagrama de control de admisión de llamadas (CAC) con MPLS")</span><span class="sxs-lookup"><span data-stu-id="63222-114">![Call Admission Control (CAC) with MPLS diagram](images/Gg398168.f8f76283-5c0c-4133-8a78-3fbbfd016dc4(OCS.15).jpg "Call Admission Control (CAC) with MPLS diagram")</span></span>
 
 </div>
 
