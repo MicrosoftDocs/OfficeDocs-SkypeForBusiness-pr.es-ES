@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Habilitación de Office Web Apps Server y Lync Server 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling Office Web Apps Server and Lync Server 2013
 ms:assetid: 3370ab55-9949-4f32-b88b-5cffed6aaad8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204792(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183790
 ms.date: 08/19/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a88a9a1649d8842c9c2c4a1f55aefcfc7853e05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37715182ba704f71bad463044ec9b47cea8f777b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835246"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735790"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

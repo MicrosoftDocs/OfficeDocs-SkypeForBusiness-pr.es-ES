@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información sobre los troncos SIP individuales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View information about individual SIP trunks
 ms:assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721847(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733780
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09c7d29c7318c8fb6d1cd08775853eb46b1c898d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f18b65d119b917d5ba48ef3e6805e4f70ea482ee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850102"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765651"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

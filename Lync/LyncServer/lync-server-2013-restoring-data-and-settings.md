@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restauración de datos y configuración'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring data and settings
 ms:assetid: b07f5dd7-7bed-4819-8cb5-617f5acd478e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202185(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7562e0899a5129832ef4651c041b8c7daf545e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d2a5cf57672126f47089b22d4a5d74381fc46e6e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822394"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

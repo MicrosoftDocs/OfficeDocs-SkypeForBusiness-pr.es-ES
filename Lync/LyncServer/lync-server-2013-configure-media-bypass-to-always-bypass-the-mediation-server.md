@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar la omisión de medios para omitir siempre e
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass to always bypass the Mediation Server
 ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425846(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183819
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7aca094110036692c5ac5327b166a3f81e4b769f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0023fba32b24243dc4bf2a12659700ace6dea91a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842349"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762848"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ _**Última modificación del tema:** 2013-02-25_
 
 Además de habilitar la omisión de medios para conexiones troncales individuales asociadas con un servidor de mediación, también debe establecer la configuración global para la omisión de medios. Si usa los pasos de este tema para establecer la configuración global de omisión de elementos multimedia, se supone que tiene una buena conectividad entre los puntos de conexión de Lync y cualquier elemento del mismo nivel para el que haya configurado el bypass de medios en la conexión troncal.
 
-Si no tiene buena conectividad entre los puntos de conexión de Lync Server y todos los elementos del servidor de media cuyas conexiones troncales se han habilitado para la omisión de medios, debe configurar la configuración de omisión de multimedia global para usar la información del sitio y de la región cuando usar la omisión de medios. Esto permite un mayor control para determinar cuándo el contenido multimedia pasa por alto el servidor de mediación. Para ello, siga los pasos de [configurar la configuración global de omisión de medios en Lync server 2013 para usar la información del sitio y de la región](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) y asociar [una subred con un sitio de red en Lync Server 2013 en](lync-server-2013-associate-a-subnet-with-a-network-site.md) su lugar.
+Si no tiene buena conectividad entre los puntos de conexión de Lync Server y todos los elementos del servidor de media cuyas conexiones troncales se han habilitado para la omisión de medios, debe configurar la configuración de omisión de multimedia global para usar la información del sitio y de la región cuando usar la omisión de medios. Esto permite un mayor control para determinar cuándo el contenido multimedia pasa por alto el servidor de mediación. Para ello, siga los pasos de [configurar la configuración global de omisión de medios en Lync server 2013 para usar la información del sitio y de la región](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) y [asociar una subred con un sitio de red en Lync Server 2013 en](lync-server-2013-associate-a-subnet-with-a-network-site.md) su lugar.
 
 <div>
 

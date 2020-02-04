@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar los nombres de dominio completos (FQDN) de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure web farm FQDNs
 ms:assetid: cb25dbbd-dcea-4997-8e14-e5007dd7d3ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429722(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 517e00baef63e3597c2f5b2b6621e62efb02ca62
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4bd01b02cef8d806f390b6b700fa42acd37e27d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Al definir la configuración del servidor Standard Edition, el grupo de servidor
     
       - **Puertos publicados:** HTTP 80, HTTPS 443
     
-    Donde los **puertos de escucha** son el puerto en el que los servicios web externos se configurarán para recibir solicitudes del proxy inverso, y los **puertos publicados** son los puertos publicados externamente por el proxy inverso y al que se les comunica clientes durante el aprovisionamiento en banda.
+    Donde los **puertos de escucha** son el puerto en el que los servicios web externos se configurarán para recibir solicitudes del proxy inverso, y los **puertos publicados** son los puertos publicados externamente por el proxy inverso y se comunican a los clientes durante el aprovisionamiento en banda.
 
 5.  Cuando haya completado las adiciones y actualizaciones, haga clic en **Aceptar** para continuar.
 

@@ -3,6 +3,8 @@ title: Cómo se muestran las fotos de usuario en Lync
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: How user photos are displayed in Lync
 ms:assetid: b44a364d-a1d2-4d45-b27a-b5f77775e233
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn783119(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62835297
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ac13f066c24f66640aee1360caf1d341d604474
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 8cd3214c3ada87db6f44f6b99373346d4f0a27d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971173"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

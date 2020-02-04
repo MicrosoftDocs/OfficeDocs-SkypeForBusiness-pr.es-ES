@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuración de IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IIS configuration
 ms:assetid: b458babf-bf64-43f0-8a8e-612f5096b63c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412871(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185169
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29b9803fdb6c4a048fdf072b5ba2e5722b863640
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0cb8fe023d872ff19e29beb329488304048895b2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992105"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

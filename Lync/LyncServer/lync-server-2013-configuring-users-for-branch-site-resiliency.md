@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuración de usuarios para la resistencia del sit
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring users for branch site resiliency
 ms:assetid: 36752665-940b-46ed-b14c-324a3e9a05f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425844(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f5527c47e2266468d6de410f0093e6339610a819
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 46b0909b7bbcd8f1b80f0c3e2f5718fc6df4d730
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842163"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

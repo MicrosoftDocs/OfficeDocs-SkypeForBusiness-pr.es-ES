@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad del sistema operativo con el servidor y
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server and tools operating system support
 ms:assetid: b65a0956-f90d-48d0-ac61-558e67339084
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412883(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185214
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a19ae4b69eb261a9d23d767dcd3847d8986847b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f20648d3512914be3c8a32eb61389618eb17abd4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822065"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

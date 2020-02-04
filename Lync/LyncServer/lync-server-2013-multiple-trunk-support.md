@@ -3,6 +3,8 @@ title: 'Lync Server 2013: compatibilidad con múltiples troncales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Multiple trunk support
 ms:assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205127(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 156db04ceb26809c7043f30e9e01ea0071e0a31d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d13ca1a28fd28a6d280ddf3a18e57e09376e668
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826545"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765961"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ En el siguiente diagrama se muestran los diversos troncos que se definen para ca
 
 **Enrutamiento de troncal M-N**
 
-![Varias asignaciones de tronco.] (images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "Varias asignaciones de tronco.")
+![Varias asignaciones de tronco.](images/JJ205127.c61cd9a7-d8d9-4e02-83b9-ab62519a48c4(OCS.15).jpg "Varias asignaciones de tronco.")
 
 </div>
 

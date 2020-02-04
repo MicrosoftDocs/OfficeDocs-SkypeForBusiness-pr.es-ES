@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements
 ms:assetid: 2af3de7b-5a6a-4f0f-b4a7-d19bd6e6c599
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd27e7c516007340c2f48e931ade520e9ea40110
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dabb05b40acc6536b57e00e6355c56bcdc3017df
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835359"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: plataformas compatibles con Lync Web App'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Web App supported platforms
 ms:assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425820(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183808
 ms.date: 06/12/2019
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2713bfee0397c455407d0dc277851b5588fa774
-ms.sourcegitcommit: f5b6270e64752298687a1abff49da58acde8e107
+ms.openlocfilehash: 47a2912aae21e4bdedadabcffd7bbcba09560d64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34912843"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -175,7 +177,7 @@ Para usar Lync Web App, debe disponer de una de las siguientes combinaciones de 
 </table>
 
 
-<sup>1</sup> en Windows 8 y Windows 8,1, el complemento necesario para usar el audio, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, visualización de escritorio y uso compartido de escritorio basado en equipos solo se puede instalar si está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con versiones de Internet Explorer 10 o Internet Explorer 11 que no sean de escritorio.
+<sup>1</sup> en Windows 8 y Windows 8,1, el complemento necesario para usar el audio, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, visualización de escritorio y uso compartido de escritorio basado en el equipo solo se puede instalar si está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con versiones de Internet Explorer 10 o Internet Explorer 11 que no sean de escritorio.
 
 <sup>2</sup> en sistemas operativos Windows 7, windows Server 2008 R2 y Macintosh compatibles, todas las características están disponibles, como la voz, el vídeo, la visualización de aplicaciones, el uso compartido de aplicaciones, la visualización de escritorio y el uso compartido de escritorio basados en equipos. Para usar estas características, necesita instalar un complemento cuando se le indique. Tenga en cuenta que ya no se admite Mac OS X versión 10,6.
 

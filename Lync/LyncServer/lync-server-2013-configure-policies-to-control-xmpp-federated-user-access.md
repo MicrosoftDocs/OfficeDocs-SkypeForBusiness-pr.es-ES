@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar directivas para controlar el acceso de usua
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure policies to control XMPP federated user access
 ms:assetid: 0fe0ff75-e52a-4e3e-923a-64f6412ac4e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552446(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679557
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ec90a1b079935713ce6f13e7b74763e7004dedf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cc79a915d0735f87c0852dff0ba4228b1e391fd8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730039"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Resumen DNS - Servidor perimetral consolidado simple con dirección IP pr
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: a7e5d792-f397-45e5-af85-20d0f4bf405f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412787(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185025
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 156757dbb3afd671d15618e8d3fceb0dfa7a04ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3276219fb4c2227cde75cf9a5d3a47616c03336d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835352"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

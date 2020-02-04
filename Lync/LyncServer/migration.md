@@ -3,6 +3,8 @@ title: Migración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migration
 ms:assetid: 27b8010d-0554-4031-bedf-5f63b3606dbe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425746(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0a57fdc23d456df6b90f553838a9437794f3e51
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4c3774083feecba11572e2e5d5d050422d5f6bfa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849956"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

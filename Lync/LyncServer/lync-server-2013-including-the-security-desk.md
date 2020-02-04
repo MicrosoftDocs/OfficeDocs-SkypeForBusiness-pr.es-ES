@@ -3,6 +3,8 @@ title: 'Lync Server 2013: incluido el escritorio de seguridad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Including the security desk
 ms:assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398299(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184084
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41c60b7f67f22393bf4a6972e68b2d0bdc2ca8a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d792626a973a790313b2cdc1bd9df9092175f28a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835019"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

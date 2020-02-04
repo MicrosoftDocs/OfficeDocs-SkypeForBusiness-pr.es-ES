@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de red para las características de tel
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network settings for the advanced Enterprise Voice features
 ms:assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184632
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d633d111e9df09cde57b91f32f4592b7f80c9f26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1ce4983f7744158c9c9ff56cdfdde818fdc8e14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826510"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765881"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,11 +67,11 @@ Una región de red es un concentrador de red o una red troncal de red que solo s
 
 CAC requiere que cada región de la red tenga un sitio de Lync Server central asociado, que administra el tráfico multimedia dentro de la región (es decir, toma decisiones basadas en las directivas que haya configurado, sobre si una sesión de audio o vídeo en tiempo real puede establecerse). Los sitios centrales de Lync Server no representan ubicaciones geográficas, sino grupos lógicos de servidores que están configurados como un grupo o un conjunto de grupos. Para obtener más información sobre los sitios centrales, consulte [topologías de referencia en Lync Server 2013](lync-server-2013-reference-topologies.md) en la documentación de planeación. Consulte también las [topologías compatibles en Lync Server 2013](lync-server-2013-supported-topologies.md) en la documentación de soporte técnico.
 
-Para configurar una región de red, puede usar la pestaña **regiones** de la sección **configuración de red** del panel de control de Lync Server, o bien, ejecutar el shell de administración de Lync Server **New-CsNetworkRegion** o **set-CsNetworkRegion** cmdlets. Para obtener instrucciones, consulte [crear o modificar una región de red en Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) en la documentación de implementación o consulte la documentación del shell de administración de Lync Server.
+Para configurar una región de red, puede usar la pestaña **regiones** de la sección **configuración de red** del panel de control de Lync Server o ejecutar los cmdlets del shell de administración de Lync Server **New-CsNetworkRegion** o **set-CsNetworkRegion** . Para obtener instrucciones, consulte [crear o modificar una región de red en Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) en la documentación de implementación o consulte la documentación del shell de administración de Lync Server.
 
 Las mismas definiciones de regiones de red son compartidas por las tres características avanzadas de Enterprise Voice. Si ya has creado las regiones de red de una característica, no necesitarás crear regiones de red para las otras características. Pero, es posible que necesites modificar una definición de región de red existente para aplicar una configuración específica de una característica. Por ejemplo, si has creado las regiones de red de E9-1-1 (que no necesitan tener asociado un sitio central) y, más tarde, implementas el servicio de control de admisión de llamadas, necesitas modificar cada una de las definiciones de las regiones de red para especificar un sitio central.
 
-Para asociar un sitio central de Lync Server a una región de red, especifique el nombre del sitio central, ya sea mediante la sección de **configuración de red** del panel de control de Lync Server, o ejecutando el **nuevo-CsNetworkRegion** o **set-CsNetworkRegion **Cmdlets del shell de administración de Lync Server. Para obtener instrucciones, consulte [crear o modificar una región de red en Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) en la documentación de implementación o consulte la documentación del shell de administración de Lync Server.
+Para asociar un sitio central de Lync Server a una región de red, especifique el nombre del sitio central, ya sea mediante la sección de **configuración de red** del panel de control de Lync Server, o ejecutando los cmdlets de Shell de administración de Lync Server **New-CsNetworkRegion** o **set-CsNetworkRegion** . Para obtener instrucciones, consulte [crear o modificar una región de red en Lync Server 2013](lync-server-2013-create-or-modify-a-network-region.md) en la documentación de implementación o consulte la documentación del shell de administración de Lync Server.
 
 </div>
 
@@ -89,7 +91,7 @@ Un sitio de red representa una ubicación geográfica, como una oficina de sucur
 
 </div>
 
-Para configurar un sitio de red y asociarlo a una región de red, puede usar la sección de **configuración de red** del panel de control de Lync Server o ejecutar el shell de administración de Lync Server **New-CsNetworkSite** o **set-CsNetworkSite** cmdlets. Para obtener más información, vea [crear o modificar un sitio de red en Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) en la documentación de implementación o consulte la documentación del shell de administración de Lync Server.
+Para configurar un sitio de red y asociarlo a una región de red, puede usar la sección de **configuración de red** del panel de control de Lync Server o ejecutar el shell de administración de Lync Server **New-CsNetworkSite** o **set-CsNetworkSite** . Para obtener más información, vea [crear o modificar un sitio de red en Lync Server 2013](lync-server-2013-create-or-modify-a-network-site.md) en la documentación de implementación o consulte la documentación del shell de administración de Lync Server.
 
 </div>
 

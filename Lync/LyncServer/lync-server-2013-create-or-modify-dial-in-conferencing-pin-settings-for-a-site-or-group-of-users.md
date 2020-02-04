@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear o modificar la configuración de PIN de conferen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify dial-in conferencing PIN settings for a site or group of users
 ms:assetid: c29bab5c-2b93-48e0-ae0b-29564daaff9a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412959(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185326
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2af1dc8e3f9bde06e799c758b711f94b7c0e6411
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0ec453051e6ef9786e66a2b4d5f6dc4e48d6656f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835780"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

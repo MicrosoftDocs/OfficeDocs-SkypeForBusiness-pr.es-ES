@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ¿Cómo puedo implementar el enlace troncal SIP?'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: How do I implement SIP trunking?
 ms:assetid: 273a22b1-8a4c-4187-acf8-c57d5c6598ce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425743(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183666
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1c14375f9e0b7f3a7615c11ddaca2bc6c46ec72f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: de621d7508b69dd3adc3babf487406825f3a93f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835067"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -151,7 +153,7 @@ Lync Server 2013 solo admite los siguientes códecs:
 
 ## <a name="internet-telephony-service-provider"></a>Proveedor de servicios de telefonía por Internet
 
-El modo en el que se implementa el lado del proveedor de servicios de una conexión basada en troncos SIP varía de un ITSP a otro. Para obtener más información sobre la implementación, ponte en contacto con tu proveedor de servicios. Para obtener una lista de proveedores de servicios de Troncalización de SIP certificados, consulte el [sitio web del programa](http://go.microsoft.com/fwlink/?linkid=287029)de interoperabilidad abierto de comunicaciones unificadas de Microsoft.
+El modo en el que se implementa el lado del proveedor de servicios de una conexión basada en troncos SIP varía de un ITSP a otro. Para obtener más información sobre la implementación, ponte en contacto con tu proveedor de servicios. Para obtener una lista de proveedores de servicios de Troncalización de SIP certificados, consulte el [sitio web del programa de interoperabilidad abierto de comunicaciones unificadas de Microsoft](http://go.microsoft.com/fwlink/?linkid=287029).
 
 Para obtener más información sobre los proveedores de enlaces troncales SIP certificados por Microsoft, ponte en contacto con tu representante de Microsoft.
 

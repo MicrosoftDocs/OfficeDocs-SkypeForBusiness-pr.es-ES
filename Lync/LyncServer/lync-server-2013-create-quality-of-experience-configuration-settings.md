@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear la configuración de la calidad de la experienci
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create Quality of Experience configuration settings
 ms:assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 947fb50c057fdcc04fe7d1b30d25bc8f5a5f4a02
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f651da026dcf73253eaccada14332a7f2f5c1f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835777"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

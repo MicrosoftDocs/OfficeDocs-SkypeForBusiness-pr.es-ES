@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tabla AppSharingMetricsThreshold'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AppSharingMetricsThreshold table
 ms:assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205018(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184556
 ms.date: 12/09/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0f8dc1dac3dc7a9ec362473221d36191dd7dd0f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e247f83b00d226024f9fc671f2d744f1ee7fdf0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850738"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

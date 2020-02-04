@@ -3,6 +3,8 @@ title: Requisitos de la infraestructura de red de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network infrastructure requirements
 ms:assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425841(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc1f74705469bf3a024d84848942eae972e0a629
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fcded907075b6587eb62ea8b6b76566c4f29ac87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826531"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765921"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
