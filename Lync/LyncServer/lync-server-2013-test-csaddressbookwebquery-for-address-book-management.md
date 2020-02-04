@@ -3,6 +3,8 @@ title: 'Lync Server 2013: prueba-CsAddressBookWebQuery para la administración d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test-CsAddressBookWebQuery for Address Book management
 ms:assetid: 977a9c1f-5f4e-4539-9a26-8748b61a57d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429716(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c477c9c899847b1dec28fe70a9b749761dc43689
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c50497979e8439a60799864376d1f93d36646cec
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850423"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34850423"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="fbe01-102">Prueba-CsAddressBookWebQuery para la administración de libretas de direcciones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fbe01-102">Test-CsAddressBookWebQuery for Address Book management in Lync Server 2013</span></span>
+# <a name="test-csaddressbookwebquery-for-address-book-management-in-lync-server-2013"></a><span data-ttu-id="d42cc-102">Prueba-CsAddressBookWebQuery para la administración de libretas de direcciones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="d42cc-102">Test-CsAddressBookWebQuery for Address Book management in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,24 +35,24 @@ ms.locfileid: "34850423"
 
 <span> </span>
 
-<span data-ttu-id="fbe01-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="fbe01-103">_**Topic Last Modified:** 2012-11-01_</span></span>
+<span data-ttu-id="d42cc-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="d42cc-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-<span data-ttu-id="fbe01-104">¿Quién puede ejecutar este cmdlet? de forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet test-CsAddressBookWebQuery: RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="fbe01-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Test-CsAddressBookWebQuery cmdlet: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="fbe01-105">Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="fbe01-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
+<span data-ttu-id="d42cc-104">¿Quién puede ejecutar este cmdlet? de forma predeterminada, los miembros de los siguientes grupos tienen autorización para ejecutar el cmdlet test-CsAddressBookWebQuery: RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="d42cc-104">Who can run this cmdlet: By default, members of the following groups are authorized to run the Test-CsAddressBookWebQuery cmdlet: RTCUniversalServerAdmins.</span></span> <span data-ttu-id="d42cc-105">Para devolver una lista de todas las funciones de control de acceso basado en roles (RBAC) a las que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="d42cc-105">To return a list of all the role-based access control (RBAC) roles this cmdlet has been assigned to (including any custom RBAC roles you have created yourself), run the following command from the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Test-CsAddressBookService"}
 
-<span data-ttu-id="fbe01-106">De forma similar a la transacción sintética CsAddressBookService, test-CsAddressBookWebQuery realiza una consulta en la consulta Web libreta de direcciones para asegurarse de que funciona correctamente.</span><span class="sxs-lookup"><span data-stu-id="fbe01-106">Similar to the Test-CsAddressBookService synthetic transaction, Test-CsAddressBookWebQuery performs a query against the Address Book Web Query to ensure that it is operating properly.</span></span> <span data-ttu-id="fbe01-107">El cmdlet se conectará a la autenticación del vale web y presentará las credenciales especificadas en-UserCredential.</span><span class="sxs-lookup"><span data-stu-id="fbe01-107">The cmdlet will connect to the Web Ticket authentication and present the credentials specified in –UserCredential.</span></span> <span data-ttu-id="fbe01-108">Si se autenticó, el cmdlet presenta la información – TargetSipAddress.</span><span class="sxs-lookup"><span data-stu-id="fbe01-108">If authenticated, the cmdlet then present the –TargetSipAddress information.</span></span> <span data-ttu-id="fbe01-109">El cmdlet debe notificar el éxito si pudo recuperar la información sobre el contacto.</span><span class="sxs-lookup"><span data-stu-id="fbe01-109">The cmdlet should report success if it was able to retrieve the information about the contact.</span></span>
+<span data-ttu-id="d42cc-106">De forma similar a la transacción sintética CsAddressBookService, test-CsAddressBookWebQuery realiza una consulta en la consulta Web libreta de direcciones para asegurarse de que funciona correctamente.</span><span class="sxs-lookup"><span data-stu-id="d42cc-106">Similar to the Test-CsAddressBookService synthetic transaction, Test-CsAddressBookWebQuery performs a query against the Address Book Web Query to ensure that it is operating properly.</span></span> <span data-ttu-id="d42cc-107">El cmdlet se conectará a la autenticación del vale web y presentará las credenciales especificadas en-UserCredential.</span><span class="sxs-lookup"><span data-stu-id="d42cc-107">The cmdlet will connect to the Web Ticket authentication and present the credentials specified in –UserCredential.</span></span> <span data-ttu-id="d42cc-108">Si se autenticó, el cmdlet presenta la información – TargetSipAddress.</span><span class="sxs-lookup"><span data-stu-id="d42cc-108">If authenticated, the cmdlet then present the –TargetSipAddress information.</span></span> <span data-ttu-id="d42cc-109">El cmdlet debe notificar el éxito si pudo recuperar la información sobre el contacto.</span><span class="sxs-lookup"><span data-stu-id="d42cc-109">The cmdlet should report success if it was able to retrieve the information about the contact.</span></span>
 
-<span data-ttu-id="fbe01-110">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fbe01-110">For example:</span></span>
+<span data-ttu-id="d42cc-110">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="d42cc-110">For example:</span></span>
 
     Test-CsAddressBookWebQuery -TargetFqdn atl-cs-001.contoso.com -UserCredential contoso\bob -UserSipAddress "sip:bob@contoso.com" -TargetSipAddress "sip:bob@contoso.com"
 
 <div>
 
-## <a name="see-also"></a><span data-ttu-id="fbe01-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="fbe01-111">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d42cc-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="d42cc-111">See Also</span></span>
 
 
-[<span data-ttu-id="fbe01-112">Test-CsAddressBookWebQuery</span><span class="sxs-lookup"><span data-stu-id="fbe01-112">Test-CsAddressBookWebQuery</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery)  
+[<span data-ttu-id="d42cc-112">Test-CsAddressBookWebQuery</span><span class="sxs-lookup"><span data-stu-id="d42cc-112">Test-CsAddressBookWebQuery</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsAddressBookWebQuery)  
   
 
 </div>
