@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
@@ -14,18 +14,18 @@ localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Si tiene grupos de servidores front-end, grupos de directores o grupos de servidores perimetrales, necesita implementar el equilibrio de carga para estos grupos. El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores. Para obtener detalles, consulte:'
-ms.openlocfilehash: 62958efcb528995e9c7349f6b40baa82ab184707
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 94b6082205deea4d2c64c2aa167e3c3131eec3fd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281576"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689805"
 ---
-# <a name="load-balancer-planning-tool"></a><span data-ttu-id="f87d7-105">Load Balancer (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="f87d7-105">Load Balancer (Planning Tool)</span></span>
+# <a name="load-balancer-planning-tool"></a><span data-ttu-id="11bdb-105">Load Balancer (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="11bdb-105">Load Balancer (Planning Tool)</span></span>
  
-<span data-ttu-id="f87d7-106">Si tiene grupos de servidores front-end, grupos de directores o grupos de servidores perimetrales, necesita implementar el equilibrio de carga para estos grupos.</span><span class="sxs-lookup"><span data-stu-id="f87d7-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="f87d7-107">El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores.</span><span class="sxs-lookup"><span data-stu-id="f87d7-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="f87d7-108">Para obtener detalles, consulte:</span><span class="sxs-lookup"><span data-stu-id="f87d7-108">For details, see:</span></span>
+<span data-ttu-id="11bdb-106">Si tiene grupos de servidores front-end, grupos de directores o grupos de servidores perimetrales, necesita implementar el equilibrio de carga para estos grupos.</span><span class="sxs-lookup"><span data-stu-id="11bdb-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="11bdb-107">El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores.</span><span class="sxs-lookup"><span data-stu-id="11bdb-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="11bdb-108">Para obtener detalles, consulte:</span><span class="sxs-lookup"><span data-stu-id="11bdb-108">For details, see:</span></span>
   
-- [<span data-ttu-id="f87d7-109">Requisitos del equilibrio de carga para Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="f87d7-109">Load balancing requirements for Skype for Business</span></span>](../../../plan-your-deployment/network-requirements/load-balancing.md)
+- [<span data-ttu-id="11bdb-109">Requisitos del equilibrio de carga para Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="11bdb-109">Load balancing requirements for Skype for Business</span></span>](../../../plan-your-deployment/network-requirements/load-balancing.md)
     
 
     
