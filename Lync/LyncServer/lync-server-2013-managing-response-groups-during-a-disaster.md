@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrar grupos de respuesta durante un desastre'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing response groups during a disaster
 ms:assetid: 9f14e677-7be8-4f08-88ba-444ec2148ce8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688154(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23aae917afd696cf78263761817aee97edee06ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe172863d2a1f8e762f8da2d6029f00531e04c70
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827791"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743300"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

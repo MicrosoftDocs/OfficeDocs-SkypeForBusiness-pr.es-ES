@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblADCookie'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblADCookie
 ms:assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558610(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183366
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2eef65e18de609f7e10fed4aaad9283612778070
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8b1b5096c087661bf5afadd2668d6d1bb7ac8330
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850495"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

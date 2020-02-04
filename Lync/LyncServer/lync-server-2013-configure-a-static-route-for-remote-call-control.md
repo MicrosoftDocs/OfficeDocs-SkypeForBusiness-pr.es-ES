@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar una ruta estática para el control remoto d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a static route for remote call control
 ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615051(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185855
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a11b24fc8d4be54f5645853c050891d3821945e4
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: dfb825e51a9beec7010f9f46ed0fc649267897fd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971222"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

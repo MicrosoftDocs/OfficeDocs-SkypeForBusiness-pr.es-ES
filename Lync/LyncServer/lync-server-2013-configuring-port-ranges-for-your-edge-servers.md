@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de intervalos de puertos para los servi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring port ranges for your Edge Servers
 ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184469
 ms.date: 07/24/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73827b9c16903a6b3cf06f0c56446c0409fb9cd4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6eddf59f6fe4b2575e0e7d70adddb2e94c90e05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842187"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

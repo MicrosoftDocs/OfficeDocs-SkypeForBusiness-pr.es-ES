@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Soluciones de resistencia de sitios de sucursales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency solutions
 ms:assetid: 1700f99b-709c-4e47-88eb-c0a5490e26e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398234(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183517
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce14328aed7ae4769d2f2aff18edb9c6135fe025
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16261d4add87462991c877e85cc6a0ff1e7fdfd4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842745"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,7 +60,7 @@ Si decide proporcionar resistencia a sitios de sucursales, tiene tres opciones. 
 <tr class="odd">
 <td><p>Hospedar entre 25 y 1000 usuarios de su sitio de sucursal y si el retorno de la inversión no admite una implementación completa o si no está disponible el soporte administrativo local</p></td>
 <td><p>Aplicación de sucursal con funciones de supervivencia</p>
-<p>El equipo de rama con más supervivencia es un servidor blade estándar de la industria con un registrador de Lync Server y un servidor de mediación que se ejecuta en Windows Server 2008 R2. El dispositivo de sucursal con la supervivencia también contiene una puerta de enlace de red telefónica conmutada (RTC). Los dispositivos de terceros cualificados (desarrollados por los socios de Microsoft en el programa de certificación/titulación de la aplicación de rama superviviente (SBA) proporcionan una conexión RTC continua en el caso de una falla de WAN, pero este enfoque no proporciona resistencia presencia y Conferencia porque estas características dependen de servidores front-end en el sitio central.</p>
+<p>El equipo de rama con más supervivencia es un servidor blade estándar de la industria con un registrador de Lync Server y un servidor de mediación que se ejecuta en Windows Server 2008 R2. El dispositivo de sucursal con la supervivencia también contiene una puerta de enlace de red telefónica conmutada (RTC). Los dispositivos de terceros cualificados (desarrollados por socios de Microsoft en el programa de certificación/titulación de la aplicación de rama superviviente (SBA) proporcionan una conexión RTC continua en el caso de una falla de WAN, pero este enfoque no proporciona presencia y conferencias resistentes porque estas características dependen de servidores frontales en el sitio central.</p>
 <p>Para obtener más información sobre los equipos de las &quot;sucursales que son supervivientes&quot; , vea detalles sobre el equipo de la aplicación que más se muestra en este tema.</p>
 <p><strong>Nota:</strong> Si decide usar también un tronco de SIP con su equipo de sucursal con la supervivencia, póngase en contacto con el proveedor de su equipo de sucursales con la supervivencia para obtener información sobre el proveedor de servicios más adecuado para su organización.</p></td>
 </tr>
@@ -72,7 +74,7 @@ Si decide proporcionar resistencia a sitios de sucursales, tiene tres opciones. 
 <td><p>Si necesita características de presencia y de conferencia, además de características de voz para un máximo de 5000 usuarios, y tiene los administradores de Lync Server capacitados disponibles</p></td>
 <td><p>Implementar como un sitio central con un servidor Standard Edition en lugar de como un sitio de sucursal.</p>
 <p>Una implementación de Lync Server a escala completa proporciona una conexión RTC continua y una presencia resistente y conferencias en caso de que se produzca un error de WAN.</p>
-<p>Para obtener detalles sobre la preparación para esta solución, consulte Planificación de la <a href="lync-server-2013-planning-for-your-organization.md">organización para Lync server 2013</a>, determinación de los <a href="lync-server-2013-determining-your-system-requirements.md">requisitos del sistema para Lync Server 2013</a>, determinación de los <a href="lync-server-2013-determining-your-infrastructure-requirements.md">requisitos de infraestructura para Lync Server 2013</a>y otras secciones relevantes de la documentación de planificación.</p></td>
+<p>Para obtener más información sobre la preparación para esta solución, consulte Planificación de la <a href="lync-server-2013-planning-for-your-organization.md">organización para Lync server 2013</a>, determinación de los <a href="lync-server-2013-determining-your-system-requirements.md">requisitos del sistema para Lync Server 2013</a>, determinación de los <a href="lync-server-2013-determining-your-infrastructure-requirements.md">requisitos de infraestructura para Lync Server 2013</a>y otras secciones relevantes de la documentación de planeación.</p></td>
 </tr>
 </tbody>
 </table>
@@ -86,7 +88,7 @@ En la siguiente ilustración se muestran las topologías recomendadas para la re
 
 **Opciones de resistencia de sitio de sucursal**
 
-![Opciones de resistencia de rama de voz] (images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "Opciones de resistencia de rama de voz")
+![Opciones de resistencia de voz para sucursal](images/Gg398234.47eecd19-08ae-4d82-acbe-61f0de760306(OCS.15).jpg "Opciones de resistencia de voz para sucursal")
 
 </div>
 

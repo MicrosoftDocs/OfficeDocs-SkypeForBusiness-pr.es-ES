@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar el acceso de usuarios móviles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test mobile user access
 ms:assetid: 81d97420-428b-41b7-91ef-185d572d3456
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767947(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969624
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eda2ec2d02fe4189c8e34cf700f6f1fd07895ef6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 628fd3aae4f66316627176c3af025eb63202bafb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850416"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

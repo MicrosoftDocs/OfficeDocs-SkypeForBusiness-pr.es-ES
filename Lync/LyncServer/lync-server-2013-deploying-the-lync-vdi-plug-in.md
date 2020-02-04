@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implementación del complemento VDI de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying the Lync VDI plug-in
 ms:assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204683(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77b2e7ce89fe021c23da81f075aec3d1ce90e7b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d51b1858e3e1944d290d907ee14691786bf3cc53
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835510"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

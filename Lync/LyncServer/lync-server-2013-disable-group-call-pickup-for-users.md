@@ -3,6 +3,8 @@ title: 'Lync Server 2013: deshabilitar la recogida de llamadas grupales para usu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disable Group Call Pickup for users
 ms:assetid: 91b06f9e-2840-45a2-bbb3-6a29179b9a9f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945638(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76b7e0d17b91accdab0f1590d9fc505dec42f430
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f7e47b5c3b12997bd05f3721555a5dfdfe692bbc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835385"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

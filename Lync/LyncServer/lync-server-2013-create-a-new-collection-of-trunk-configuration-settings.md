@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear una nueva colección de parámetros de configura
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new collection of trunk configuration settings
 ms:assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688054(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733647
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f4c578fd670661413df0a8fb81cb1ce0316db13f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc29d75fc90156516751ad53712b53f4848ab5bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842139"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

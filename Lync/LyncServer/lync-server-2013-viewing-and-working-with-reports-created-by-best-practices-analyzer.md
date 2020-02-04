@@ -3,6 +3,8 @@ title: Ver y trabajar con informes creados por el analizador de procedimientos r
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing and working with reports created by Best Practices Analyzer
 ms:assetid: 58a030ca-b827-4370-b848-1358c8bd2b68
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607689(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184215
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8261f5e2d474e30d919aa5bea1538ba8636be691
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0447a2d252cc3a8634275cb1f89d36c2f979a468
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850088"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757354"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

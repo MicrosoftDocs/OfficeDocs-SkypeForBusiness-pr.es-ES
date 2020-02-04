@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar la sesión de conferencia de acceso telefónico
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing dial-in conferencing session
 ms:assetid: 6c505be5-5af7-450c-b3ca-10d9122bee5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743834(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969613
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efcc6d9277f7333989c59b812ed76087b9b6ca9b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1afb4ee2e1a500b08c3481f71994f585298bc8c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850351"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

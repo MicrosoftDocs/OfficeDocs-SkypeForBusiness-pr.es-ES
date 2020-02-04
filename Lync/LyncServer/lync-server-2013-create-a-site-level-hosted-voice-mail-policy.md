@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear una directiva de correo de voz hospedado en el n
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a site-level hosted voice mail policy
 ms:assetid: 145892c8-a6ca-45fb-9e83-786f709dd775
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398216(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183481
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9df91e28eeba8bc9769e4fcbeff6ebba2b3746d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6aeae2e533bd62cf1f3e24e7ceff69b870ebc7b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842076"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

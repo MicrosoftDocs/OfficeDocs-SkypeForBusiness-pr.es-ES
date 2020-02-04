@@ -3,6 +3,8 @@ title: Sincronizar una contraseña de cuenta de autenticación Kerberos con IIS
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Synchronize a Kerberos authentication account password to IIS
 ms:assetid: 05925a66-2684-4c1b-adfa-69bd0da1bf38
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398107(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183296
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bc56da26961caaad236857c88d601676e12cefc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 86e71f87c20064e542aa6a8db1d9b38048c5f736
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850527"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731660"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Comprobar el diseño de la topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify the topology design
 ms:assetid: c1b61814-239e-4101-aab0-de3db1d8793c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412951(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbe262033699e46c77897652cf48969d46b7817f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 85266477df342c16ed69c0507813b905c608745c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850137"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

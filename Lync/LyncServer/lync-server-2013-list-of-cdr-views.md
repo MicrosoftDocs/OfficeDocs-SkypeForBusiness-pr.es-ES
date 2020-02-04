@@ -3,6 +3,8 @@ title: 'Lync Server 2013: lista de vistas de CDR'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: List of CDR views
 ms:assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688009(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 112e565c07c685c1ecdf5db1d8a2de8717ba959e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2fe2620175c2a706bfb2c48fe7fb380d5fae4c09
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834941"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

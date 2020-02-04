@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Probar el enrutamiento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test voice routing
 ms:assetid: d3aae909-fef6-440f-b144-0b62dc82bf5d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ac9fdac24178bfec7ebce97cbdfdd15707913d1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b27fc4f3dfc42e9187ea0aee801b3c2115d83ff0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850377"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

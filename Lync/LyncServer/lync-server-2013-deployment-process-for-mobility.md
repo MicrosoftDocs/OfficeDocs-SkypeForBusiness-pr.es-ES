@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Proceso de implementación para movilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for mobility
 ms:assetid: 5a1cebda-c14b-4ff4-9c36-f7caa868160f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690023(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184220
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dec6f1e089a9418db3d8ece1f390615226687cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6f9f7994981a860aaa02d4674d6a3248c3593d6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835467"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762598"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

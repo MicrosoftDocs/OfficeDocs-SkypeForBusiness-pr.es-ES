@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Usar la conectividad de Lync y Skype como usuario fina
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Lync-Skype connectivity as an end user
 ms:assetid: ad22f731-118c-4349-8790-b1a72941cbdd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440175(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793365
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1d2bf4584f3332171942f941cc382d22bb6a8db7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5404a42b0d8e2052541ccb9f9178bf33408c2099
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850185"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

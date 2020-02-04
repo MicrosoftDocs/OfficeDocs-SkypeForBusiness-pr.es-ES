@@ -3,6 +3,8 @@ title: Comprobación de los parámetros de configuración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify configuration settings
 ms:assetid: 41dbf91c-f2e1-4b9a-88cf-959575558cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204848(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183997
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a20b78ac9275657461beb74a7325c0c46e4e40fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc4d13f3bdd5af1a2c9b90e190775522ea6f11b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849835"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -121,7 +123,7 @@ Después de combinar la topología y ejecutar el cmdlet **Import-CsLegacyConfigu
     
 
     > [!NOTE]  
-    > Si los <STRONG>participantes anónimos</STRONG> están configurados para exigir el <STRONG>cumplimiento de cada usuario</STRONG> en su Directiva de conferencia de Office Communications Server 2007 R2, durante la migración se crean dos directivas de Conferencia: una con <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> establecido en <STRONG>True</STRONG> y otro con <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> establecido en <STRONG>false</STRONG>.
+    > Si los <STRONG>participantes anónimos</STRONG> están configurados para <STRONG>exigir el cumplimiento de cada usuario</STRONG> en su Directiva de conferencia de Office Communications Server 2007 R2, durante la migración se crean dos directivas de Conferencia: una con <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> establecido en <STRONG>true</STRONG> y otra con <STRONG>AllowAnonymousParticipantsInMeetings</STRONG> establecido en <STRONG>false</STRONG>.
 
     
     </div>
@@ -154,7 +156,7 @@ Después de combinar la topología y ejecutar el cmdlet **Import-CsLegacyConfigu
 
 8.  Para comprobar las directivas de acceso externo importadas, haga clic en **Federación y acceso externo**, haga clic en **Directiva de acceso externo**y compruebe que todas las directivas de acceso externas de su entorno de Office Communicator 2007 R2 están incluidas en la lista.
 
-9.  Para comprobar las directivas de archivado, haga clic en **supervisión y archivado**, haga clic en **Directiva**de archivado y compruebe que todas las directivas de archivado del entorno de Office Communications Server 2007 R2 están incluidas en la lista.
+9.  Para comprobar las directivas de archivado, haga clic en **supervisión y archivado**, haga clic en **Directiva de archivado**y compruebe que todas las directivas de archivado del entorno de Office Communications Server 2007 R2 están incluidas en la lista.
 
 10. Abra el shell de administración de Lync Server.
 

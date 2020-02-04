@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrar características de administración de lla
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing call management features
 ms:assetid: c1261140-7a17-4bb2-9823-aa2cf307067c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721872(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733805
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e254b127d4773a97d322771c6b9a94eaa71cf667
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d87756c88866f6fb1c520afd7fe267cede692cf6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828134"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: marcar una aplicación de lenguaje de procesamiento SI
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mark a Microsoft SIP Processing Language (MSPL) application as critical or not critical
 ms:assetid: df68fdc6-b7e6-4f07-acdc-0cd4c2c888a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182598(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 419a162e355434972216f0c47d79850af28cd244
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 54d8b0858145930e0a2144ade55934b39394dcaf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827651"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ No todos los scripts admiten esta opción. Por ejemplo, el script DefaultRouting
 
 5.  Haga clic en **acción**.
 
-6.  Haga clic en **marcar como crítico** o deseleccionar **como crítico** (es decir, si el script admite esta opción).
+6.  Haga clic en **marcar como crítico** o **deseleccionar como crítico** (es decir, si el script admite esta opción).
 
 </div>
 

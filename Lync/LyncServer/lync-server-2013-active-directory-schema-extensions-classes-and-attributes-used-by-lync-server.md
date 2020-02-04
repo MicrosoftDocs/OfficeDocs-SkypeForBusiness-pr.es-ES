@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Extensiones de esquema, clases y atributos de Active D
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory schema extensions, classes, and attributes used by Lync Server 2013
 ms:assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398379(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184188
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc883c1c85acbe41bec6a25467e50800c036996
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2ec6b3eff05ba27b41488aea49bb0347d058b6f0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842958"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar subredes de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting network subnets
 ms:assetid: c1850f38-40a3-48c9-b6f1-f181c5e63b6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721873(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93806d3e9d5f0cb7f004a90d6f461b363aff65f0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c87ca1cfd91344d8f8cbb0b320c70def47bf5ac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835579"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

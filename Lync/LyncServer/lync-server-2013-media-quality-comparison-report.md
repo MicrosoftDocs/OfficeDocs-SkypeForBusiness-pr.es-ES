@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de comparación de calidad multimedia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Comparison Report
 ms:assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205236(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185317
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6697e02d7b821ebd3dc3cabc3a95c8d00960a08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bcec69db6154aa346fc4545dc3b50fcfe0f2d6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827448"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

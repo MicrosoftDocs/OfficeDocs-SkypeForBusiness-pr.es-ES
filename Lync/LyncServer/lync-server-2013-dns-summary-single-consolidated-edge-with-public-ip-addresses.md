@@ -3,6 +3,8 @@ title: Resumen DNS - Servidor perimetral consolidado simple con direcciones IP p
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single consolidated edge with public IP addresses
 ms:assetid: 7b83eae4-aa1a-4cc6-8077-42176d56cab5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205025(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184601
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50aae14309e55919eb3f65560cd7cd0e7f1b1283
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db3578bc7b1668bf8cb2268ed079e558e1cf1761
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835351"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733550"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ La tabla siguiente contiene un resumen de los registros DNS necesarios para admi
 
 ## <a name="important-edge-server-network-adapter-requirements"></a>IMPORTANTE: requisitos del adaptador de red del servidor perimetral
 
-Para evitar problemas de enrutamiento, compruebe que hay al menos dos adaptadores de red en los servidores perimetrales y que la puerta de enlace predeterminada solo está configurada en el adaptador de red asociado a la interfaz externa. Por ejemplo, como se muestra en la única topología de borde consolidado con direcciones IP públicas figura en [un solo borde consolidado con direcciones IP públicas en Lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md), la puerta de enlace predeterminada apunta al enrutador externo del perímetro de Internet o Firewall que puede proporcionar direcciones IP públicas. La relación de red para las interfaces de servidor perimetral es una relación de enrutamiento en lugar de una relación de NAT.
+Para evitar problemas de enrutamiento, compruebe que hay al menos dos adaptadores de red en los servidores perimetrales y que la puerta de enlace predeterminada solo está configurada en el adaptador de red asociado a la interfaz externa. Por ejemplo, como se muestra en la única topología de borde consolidado con direcciones IP públicas figura en [un solo borde consolidado con direcciones IP públicas en Lync Server 2013](lync-server-2013-single-consolidated-edge-with-public-ip-addresses.md), la puerta de enlace predeterminada apunta al enrutador externo del perímetro o firewall de Internet que puede proporcionar direcciones IP públicas. La relación de red para las interfaces de servidor perimetral es una relación de enrutamiento en lugar de una relación de NAT.
 
 Puede configurar dos adaptadores de red en el servidor perimetral de la siguiente manera:
 
@@ -74,7 +76,7 @@ Puede configurar dos adaptadores de red en el servidor perimetral de la siguient
     
     La dirección IP pública perimetral de acceso es principal con la puerta de enlace predeterminada establecida para el enrutador público (131.107.155.1).
     
-    Las conferencias web y las direcciones IP públicas de los bordes A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** del **área local Propiedades de conexión** en Windows Server.
+    Las conferencias web y las direcciones IP públicas de borde A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** de las **propiedades de conexión de área local** de Windows Server.
 
 <div>
 

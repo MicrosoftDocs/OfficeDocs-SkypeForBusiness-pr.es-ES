@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar un intervalo de números sin asignar'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an unassigned number range
 ms:assetid: a8141bfb-b94d-4d0f-a7a9-2e60d10b103a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182565(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185090
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8bf1bcea1a2f84def783b833d232a44282cab6b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a80a28cf4ee5b310790a057253ea52ca17a14aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835607"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Migrar la federación XMPP
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating XMPP federation
 ms:assetid: 7368ee8f-a201-4d3a-b4e8-68396b156d4d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688093(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9764554cf9984ceb35878b87032194a51aec3b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 953b422527e095a6fef1e34cbf8b8fde2d494f42
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849971"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

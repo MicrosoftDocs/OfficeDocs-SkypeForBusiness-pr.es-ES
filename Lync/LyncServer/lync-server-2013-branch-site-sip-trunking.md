@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Troncalización SIP de sitio de sucursal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch site SIP trunking
 ms:assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412974(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 955e920138021941db0e75832d56d06499738edd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c31f0f42a10905f784536b08f10370be9694800
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842726"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

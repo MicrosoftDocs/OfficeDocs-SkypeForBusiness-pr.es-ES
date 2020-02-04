@@ -3,6 +3,8 @@ title: Proceso de migración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migration process
 ms:assetid: b2bd9c76-2f4b-4d14-a5c4-157bbff75de0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205181(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185157
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba15e7fc3d190970d8c7cbc5bf7f6465286d1bc5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2771a7a8b29cf410f9da5155e8f379bd7efe0e4e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849957"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766101"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

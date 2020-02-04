@@ -3,6 +3,8 @@ title: Almacenamiento provisional de certificados de AV y OAuth con el rollo en 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Staging AV and OAuth certificates using -Roll in Set-CsCertificate
 ms:assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ660292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49354387
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4acdf759181dee3df872c7803ec595c63fb07016
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583ab13e50cac7c7a8b345a2ea2cf4c4e1e38d7f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850601"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764436"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Las comunicaciones de audio/vídeo (A/V) son un componente clave de Microsoft Ly
 > <LI>
 > <P>Esta nueva característica está diseñada para que funcione con el servicio a/V Edge y el certificado <EM>OAuthTokenIssuer</EM> . Se pueden aprovisionar otros tipos de certificados junto con el servicio perimetral A/V y el tipo de certificado OAuth, pero no se beneficiará del comportamiento de coexistencia del certificado de servicio perimetral A/V.</P>
 > <LI>
-> <P>Los cmdlets de PowerShell del shell de administración de Lync Server que se usan para administrar certificados de Microsoft Lync Server 2013 se refiere al certificado de servicio perimetral a/V como el tipo de certificado <EM>AudioVideoAuthentication</EM> y el certificado de OAuthServer como tipo <EM> OAuthTokenIssuer</EM>. Para el resto de este tema y para identificar de forma exclusiva los certificados, se les hará referencia mediante el mismo tipo de identificador, <EM>AudioVideoAuthentication</EM> y <EM>OAuthTokenIssuer</EM>.</P></LI></OL>
+> <P>Los cmdlets de PowerShell del shell de administración de Lync Server que se usan para administrar certificados de Microsoft Lync Server 2013 se refiere al certificado de servicio perimetral a/V como el tipo de certificado <EM>AudioVideoAuthentication</EM> y el certificado de OAuthServer como tipo <EM>OAuthTokenIssuer</EM>. Para el resto de este tema y para identificar de forma exclusiva los certificados, se les hará referencia mediante el mismo tipo de identificador, <EM>AudioVideoAuthentication</EM> y <EM>OAuthTokenIssuer</EM>.</P></LI></OL>
 
 
 
@@ -91,7 +93,7 @@ Al ensayar certificados de OAuthTokenIssuer, existen diferentes requisitos para 
     
 
     > [!IMPORTANT]
-    > En el caso de un grupo perimetral, debe tener todos los certificados de AudioVideoAuthentication implementados y aprovisionados por la fecha y la hora definida por el parámetro – EffectiveDate del primer certificado implementado para evitar posibles interrupciones en las comunicaciones a/V debido al antiguo el certificado vence antes de que todos los tokens de cliente y cliente se hayan renovado con el nuevo certificado.
+    > Para un grupo perimetral, debe tener todos los certificados de AudioVideoAuthentication implementados y aprovisionados por la fecha y hora definida por el parámetro – EffectiveDate del primer certificado implementado para evitar posibles interrupciones en las comunicaciones a/V debido a que el certificado más antiguo vence antes de que todos los tokens del cliente y del consumidor se hayan renovado con el nuevo certificado.
 
     
     </div>
@@ -117,7 +119,7 @@ Para obtener más información sobre el proceso que establece-CsCertificate,-rol
 
 En el siguiente ejemplo, el administrador determina que el certificado de servicio perimetral A/V debe expirar a los 2:00:00 PM en 07/22/2012. Solicita y recibe un nuevo certificado y lo importa a cada servidor perimetral de su grupo. A la 2 de la 07/22/2012, comienza a ejecutar Get-CsCertificate con – roll,-Thumbprint es igual a la cadena de la huella digital del nuevo certificado, y-EffectiveTime se establece en 07/22/2012 6:00:00 AM. Este comando se ejecuta en cada servidor perimetral.
 
-![Usar los parámetros roll y EffectiveDate.] (images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Usar los parámetros roll y EffectiveDate.")
+![Usar los parámetros Roll y EffectiveDate.](images/JJ660292.21d51a76-0d03-4ed7-a37e-a7c14940265f(OCS.15).jpg "Usar los parámetros Roll y EffectiveDate.")
 
 Cuando se alcance el tiempo de vigencia (7/22/2012 6:00:00 A.M.), el nuevo certificado emitirá todos los tokens nuevos. Cuando se validan los tokens, los tokens se validan en primer lugar con el nuevo certificado. Si se produce un error en la validación, se intenta el certificado anterior. El proceso de prueba del nuevo y del certificado anterior continuará hasta la fecha de vencimiento del certificado anterior. Una vez que el certificado antiguo haya expirado (7/22/2012 2:00:00 PM), los tokens solo se validarán con el nuevo certificado. El certificado antiguo se puede eliminar de forma segura con el cmdlet Remove-CsCertificate con el parámetro-Previous.
 

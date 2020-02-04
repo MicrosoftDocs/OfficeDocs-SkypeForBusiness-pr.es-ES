@@ -3,6 +3,8 @@ title: 'Lync Server 2013: instrucciones especiales de configuración para transa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Special setup instructions for synthetic transactions
 ms:assetid: 694cbe05-5dba-4035-a01c-c87ebfb0478b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688080(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733676
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b8c2f0f45aa2187f1b47f8dfa81b3ba121388f6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a15177a3c4548b235bf01a10274168e4a830fad3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850598"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ En algunos casos, es posible que se produzcan errores en las transacciones sint�
 
 Para resolver este problema, debe crear manualmente reglas de Firewall entrantes para MonitoringHost. exe y PowerShell. exe en la máquina local. Esto puede hacerse a través del firewall de Windows o de un software de Firewall local de terceros, en función de la configuración preexistente de su servidor.
 
-Si está usando un dispositivo de Firewall de red entre la máquina del host de transacciones sintéticas y los servidores de Lync que está tratando de supervisar, debe tratar el host como un equipo cliente y, a Observer, todos los requisitos del puerto de Firewall de los [puertos y protocolos para los servidores internos en Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
+Si está usando un dispositivo de Firewall de red entre el equipo del host de transacción sintética y los servidores de Lync que está tratando de supervisar, debe tratar el host como un equipo cliente y, a Observer, todos los requisitos del puerto de Firewall de [puertos y protocolos para los servidores internos en Lync Server 2013](lync-server-2013-ports-and-protocols-for-internal-servers.md).
 
 </div>
 

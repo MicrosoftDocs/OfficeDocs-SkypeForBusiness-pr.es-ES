@@ -3,6 +3,8 @@ title: 'Lync Server 2013: asignar una directiva de versión de cliente por usuar
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user client version policy
 ms:assetid: f7e8ba2f-62dc-4e7d-8b63-682986f10240
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182607(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bfd26aff4ae2e5d8dacf7ec145bec0e3247facf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e509427b6d2651f84b96a96c87fbe7cfd6177a7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842753"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738380"
 ---
 # <a name="assign-a-per-user-client-version-policy-in-lync-server-2013"></a>Asignar una directiva de versión de cliente por usuario en Lync Server 2013
 

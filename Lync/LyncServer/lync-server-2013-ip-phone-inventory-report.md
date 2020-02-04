@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de inventario telefónico de IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IP Phone Inventory Report
 ms:assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615027(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335b74b742f3b32437892e27f7db3ecadc5f3b3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fb9bb9a3ae48c8bf2fc9a5122e1b8004e0f6019
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834961"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

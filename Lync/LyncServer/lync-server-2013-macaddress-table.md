@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla MacAddress'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: MacAddress table
 ms:assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412761(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e72977f49319f704fc907bba7ed67fb530fd508
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b9bf888e7e04f60fc8c1e06e4ef4ab4e9d9e0f3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828393"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

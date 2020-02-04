@@ -3,6 +3,8 @@ title: 'Fase 7: agregar el servidor perimetral 2013 de Lync Server a un grupo pi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 7: Add Lync Server 2013 Edge Server to pilot pool'
 ms:assetid: 7dbace6e-0a52-4530-8456-380a9f251f47
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205030(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d33ef033b1bf860e903d8e3f45b2a35dae02229
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 419da11696e5938d4c93cde565e6d0b1b6fc6e76
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849898"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

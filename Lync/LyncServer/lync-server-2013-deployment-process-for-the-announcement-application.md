@@ -3,6 +3,8 @@ title: 'Lync Server 2013: proceso de implementación para la aplicación de anun
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for the Announcement application
 ms:assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398545(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2b1e9f8dd78b299a8e89e958f5b1c03acdffb7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dcb56f197a32403d1207cf0a15d47e0459fc41bf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835449"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762578"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

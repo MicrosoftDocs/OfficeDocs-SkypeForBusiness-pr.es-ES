@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definición de requisitos para conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your requirements for conferencing
 ms:assetid: 5c83e268-22bf-42b2-bac3-3237b5e02e03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204935(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184255
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60193673efff29ec877626a9c5c18be23507e6fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c19269ef06fc2aa7ec19e2ede53f406b345536b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835702"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

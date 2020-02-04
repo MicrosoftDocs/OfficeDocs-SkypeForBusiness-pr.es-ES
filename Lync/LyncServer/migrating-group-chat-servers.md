@@ -3,6 +3,8 @@ title: Migrar servidores de chats grupales
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating Group Chat servers
 ms:assetid: 34bc98f4-919d-4b6f-be82-55bf766a48d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688020(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733609
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d9b5381d182a65d78f0c0155d7ed07e525f89d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5741b3344c6cff3ae3acd641478c9203f5e9a6a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849972"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763312"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

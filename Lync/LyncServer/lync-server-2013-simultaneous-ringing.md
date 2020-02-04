@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tono de llamada simultáneo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Simultaneous ringing
 ms:assetid: df02f919-4d50-4832-9300-6c51f8b4fc56
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994079(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803990
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7303c1fc77d109bd08044c8acff56aaf538790d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1bcdb0d30bccfe628fd02861d257d79268046b77
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850628"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764516"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

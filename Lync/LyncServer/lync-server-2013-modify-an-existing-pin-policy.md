@@ -3,6 +3,8 @@ title: 'Lync Server 2013: modificar una directiva de PIN existente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify an existing PIN policy
 ms:assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520993(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184143
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16f763ebf0d1a8b74a8370ba7b4ca4913886c612
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 19d2a3d259ee5f45241063764cfd905cbd0f0854
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827098"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

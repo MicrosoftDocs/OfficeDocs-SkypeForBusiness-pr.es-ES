@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista FileTransfers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: FileTransfers view
 ms:assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721914(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733848
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4228bbe42f2e7bcf88b26f9147e514f09c106ac3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc4469140f7f92c563a594c883d02f3add1e65c5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835153"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

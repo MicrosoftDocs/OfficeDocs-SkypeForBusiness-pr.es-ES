@@ -3,6 +3,8 @@ title: Crear o modificar una colección de opciones de configuración de Lync Ph
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of Lync Phone Edition configuration settings
 ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688086(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733683
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3012ffeeb8dd4559ee05a45dd07becefd099691
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6b3eaf347693d079ef713716c5ebd0d8c470feef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835816"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763352"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

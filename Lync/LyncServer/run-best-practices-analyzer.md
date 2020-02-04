@@ -3,6 +3,8 @@ title: Ejecutar el analizador de procedimientos recomendados
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Run Best Practices Analyzer
 ms:assetid: 1392ef69-d4fe-45cc-9890-8e8d565df2ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204694(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db4fa3067f122026dc273aae8124d0e1aea29f80
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 266d6e58d7449628e589b2ec2a68cb26a1ca9c35
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849851"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765561"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Usar el portal web administrativo de Lync Room System'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Room System Administrative Web Portal
 ms:assetid: c387b2a3-3e42-4642-af72-88126ed2820f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743660(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62268951
 ms.date: 11/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2369cdde9d14275fddf007b5e073c748ce5a8906
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c891309d76dda20f875592841925c852fe2e3351
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850178"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Después de implementar LRS en el servidor, puede comprobar el estado de todas l
 
 2.  Escriba las credenciales de la cuenta LRSSupport o una cuenta que se haya agregado al grupo de seguridad LRSSupportAdminGroup.
 
-![Pantalla de inicio de sesión del portal de administración de sistemas de Lync Room] (images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Pantalla de inicio de sesión del portal de administración de sistemas de Lync Room")
+![Pantalla de inicio de sesión en el portal de administración del sistema Lync Room](images/Dn436326.050bcf70-2f3b-46b2-9b96-ebd12679b713(OCS.15).png "Pantalla de inicio de sesión en el portal de administración del sistema Lync Room")
 
 </div>
 
@@ -67,7 +69,7 @@ La página de Resumen proporciona la siguiente información para todas las salas
 
   - **Última actualización**   : muestra la última vez que se actualizó la Página Web.
 
-![Vista de resumen del portal de administración del sistema de salas de Lync] (images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Vista de resumen del portal de administración del sistema de salas de Lync")
+![Vista resumida del portal de administración del sistema Lync Room](images/Dn743660.f829ce90-dd95-4725-bd94-6870c5dcf046(OCS.15).png "Vista resumida del portal de administración del sistema Lync Room")
 
 </div>
 
@@ -83,7 +85,7 @@ La sección información de la sala del portal le permite ver y configurar salas
 
 En la sección de configuración, puede establecer la contraseña, la etiqueta de la sala y los valores de volumen predeterminados de la sala. Si estableces esta configuración, los cambios solo se replicarán después de reiniciar la consola LRS. Solo verá la configuración de actualizaciones del sistema para los sistemas de salas de Lync que sean de la versión 15,12 y posteriores.
 
-![Configuración del salón del portal de administración de sistemas de salas de Lync] (images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Configuración del salón del portal de administración de sistemas de salas de Lync")
+![Configuración de salones del portal de administración del sistema Lync Room](images/Dn743660.ab162e19-41ac-4991-9b2a-92575aa53eda(OCS.15).png "Configuración de salones del portal de administración del sistema Lync Room")
 
 </div>
 
@@ -93,7 +95,7 @@ En la sección de configuración, puede establecer la contraseña, la etiqueta d
 
 En la sección de detalles se proporciona un resumen de solo lectura de la configuración de la sala de LRS, que incluye la hora de la última actualización; reunión siguiente; últimas actualizaciones, mantenimiento y calibración; configuración predeterminada de timbre, micrófono y altavoz; versión URI DEL SIP; número de pantallas y detalles de cada pantalla; Estado y actividad.
 
-![Vista detallada del portal de administración de sistemas de salas de Lync] (images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Vista detallada del portal de administración de sistemas de salas de Lync")
+![Vista en detalle del portal de administración del sistema Lync Room](images/Dn743660.2958bbba-db74-4670-a920-87fdfb2fc22d(OCS.15).png "Vista en detalle del portal de administración del sistema Lync Room")
 
 </div>
 
@@ -103,7 +105,7 @@ En la sección de detalles se proporciona un resumen de solo lectura de la confi
 
 La sección de solución de problemas se puede usar para recopilar remotamente registros y guardarlos en una ubicación especificada. También puede reiniciar la consola LRS (interfaz de usuario de LRS) o reiniciar todo el sistema. Para recopilar registros, proporcione una ruta de acceso a la carpeta en el formato especificado y asegúrese de que la carpeta tiene permisos de escritura otorgados a la cuenta de la máquina LRS. Si el tamaño de los registros es muy grande, la recopilación de registros puede tardar hasta 5 minutos. Actualice la página para ver el estado actualizado.
 
-![Registro del salón del portal de administración de sistemas de salas de Lync] (images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Registro del salón del portal de administración de sistemas de salas de Lync")
+![Registro de salones del portal de administración del sistema Lync Room](images/Dn743660.749aee71-deaa-4ace-a146-fe2b349f0f42(OCS.15).png "Registro de salones del portal de administración del sistema Lync Room")
 
 </div>
 
@@ -113,7 +115,7 @@ La sección de solución de problemas se puede usar para recopilar remotamente r
 
 La sección estado ofrece una indicación visual del estado de la conexión de Lync Server, dispositivo de audio, dispositivo de vídeo, estado de resistencia y dispositivo de pantalla.
 
-![Administración del sistema de Lync Room estado] de la sala de reuniones (images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Administración del sistema de Lync Room estado") de la sala de reuniones
+![Estado de los salones del portal de administración del sistema Lync Room](images/Dn743660.8cc644f8-8e3e-42d5-9079-045d8fe9daa7(OCS.15).png "Estado de los salones del portal de administración del sistema Lync Room")
 
 </div>
 

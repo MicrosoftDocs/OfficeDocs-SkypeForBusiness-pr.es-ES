@@ -3,6 +3,8 @@ title: Migrar los números de acceso telefónico
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate dial-in access numbers
 ms:assetid: 568a94b7-a697-4ab2-9008-dc9ecc1c87c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204898(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b86db6e669fd5f52827591c25e5bb237bd9ee012
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a13fdf36dcd36dc71df8ffa06c273c2b2b0f0292
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849977"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34849977"
 
 _**Última modificación del tema:** 2012-09-26_
 
-La migración de números de acceso telefónico local requiere dos pasos: ejecutar el cmdlet **Import-CsLegacyConfiguration** (completado anteriormente en [importar directivas y configuración](import-policies-and-settings.md)) para migrar los planes de marcado y otras opciones de números de acceso telefónico local, y ejecutar el ** Cmdlet Move-CsApplicationEndpoint** para migrar los objetos de contacto.
+La migración de números de acceso telefónico local requiere dos pasos: ejecutar el cmdlet **Import-CsLegacyConfiguration** (completado anteriormente en [importar directivas y configuración](import-policies-and-settings.md)) para migrar los planes de marcado y otras opciones de configuración de números de acceso telefónico y ejecutar el cmdlet **Move-CsApplicationEndpoint** para migrar los objetos de contacto.
 
 <div>
 

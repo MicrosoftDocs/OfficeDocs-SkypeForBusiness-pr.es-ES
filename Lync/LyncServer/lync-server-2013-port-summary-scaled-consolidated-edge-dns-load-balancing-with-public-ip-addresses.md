@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen de puerto - Servidor perimetral consolidado am
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: f7cbd0f1-841d-4116-8d17-e9d991daa4a8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205394(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185865
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2095df7ebd68265d135a8b174ce2d1d3ae76ca5d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f67a12b05d8724d31f8ef83bfa4aa704b41cee13
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824123"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Además de IPv4, el servidor EDGE ahora es compatible con IPv6. Para mayor clari
 
 **Red perimetral empresarial para la tecnología perimetral consolidada, equilibrio de carga DNS con direcciones IP públicas**
 
-![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead] (images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")
+![96f5a8f5-16d2-464d-b86e-7c7ecfc89ead](images/JJ205394.96f5a8f5-16d2-464d-b86e-7c7ecfc89ead(OCS.15).jpg "96f5a8f5-16d2-464d-b86e-7c7ecfc89ead")
 
 <div>
 

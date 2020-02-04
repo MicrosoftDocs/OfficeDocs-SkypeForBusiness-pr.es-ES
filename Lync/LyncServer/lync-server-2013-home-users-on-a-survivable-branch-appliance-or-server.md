@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Usuarios particulares en una aplicación o un servidor
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Home users on a Survivable Branch Appliance or Server
 ms:assetid: faf1ebb9-6d7d-4a58-8ff7-801b7b31d3ba
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413066(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185926
 ms.date: 12/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ceabf8fe7d8f9068e60bbc20406d2496f815b04b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c6cca9528e884807f6180d8c99b143eb0041211
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835073"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

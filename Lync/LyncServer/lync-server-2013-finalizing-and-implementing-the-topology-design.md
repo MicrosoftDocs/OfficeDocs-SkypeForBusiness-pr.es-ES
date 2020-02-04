@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Finalización e implementación del diseño de la topo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Finalizing and implementing the topology design
 ms:assetid: 0d84dc98-de6f-4c85-b3f8-0b07d10dbcfc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398178(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57fc28df185890d54792e9d995f546e1d9724310
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 217857cf0699b68ef3a0daf63bfc0b658258c480
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835140"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765368"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: supervisar el rendimiento de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring network performance
 ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969647
 ms.date: 04/27/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504b0c28e42b6975cd411c6628cd9f91a30783ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826720"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ El rendimiento de la red puede medirse a dos niveles:
 
   - **Rendimiento general de la red**   este nivel de rendimiento permite a una organización crear una vista de "panorama general" de su red y suele implementarse a través de sistemas de supervisión de redes de terceros. Estos sistemas recibirán datos de rendimiento y capacidad de los dispositivos de red remotos, como los enrutadores y se han cambiado por la red, lo que permite a los administradores determinar el estado de cualquier componente de red determinado en cualquier momento del día.
 
-  - **Rendimiento del servidor individual**   este nivel de rendimiento se limita a un servidor específico y ayudará a los administradores a medir el rendimiento de la red de un servidor específico para ayudarle a solucionar un determinado rendimiento. problema o para evaluar el rendimiento del servidor correspondiente a lo largo de un período determinado como parte de un proceso de planeación de capacidad.
+  - **Rendimiento del servidor individual**   este nivel de rendimiento se limita a un servidor específico y ayudará a los administradores a evaluar el rendimiento de la red de un servidor específico para ayudarle a solucionar un problema específico de rendimiento o para evaluar el rendimiento del servidor correspondiente a lo largo de un período determinado como parte de un proceso de planeación de capacidad.
 
 Puede supervisar la red con las herramientas que se describen en las siguientes secciones.
 
@@ -81,9 +83,9 @@ Puede encontrar más información aquí:
 
 ## <a name="third-party-solutions"></a>Soluciones de terceros
 
-**Centro de administración de redes HP (anteriormente conocido como HP OpenView)** El    [centro de administración de redes HP](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) ofrece administración integrada de errores y rendimiento para mejorar la disponibilidad y el rendimiento de la red. El centro de administración de redes es parte de la solución de administración automatizada de redes HP, que unifica los errores, el rendimiento, la configuración y la administración de los cambios.
+**Centro de administración de redes HP (anteriormente conocido como HP OpenView)** el   [centro de administración de redes](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) de HP ofrece administración integrada de fallas y rendimiento para mejorar la disponibilidad y el rendimiento de la red. El centro de administración de redes es parte de la solución de administración automatizada de redes HP, que unifica los errores, el rendimiento, la configuración y la administración de los cambios.
 
-**Productos de administración de redes y de automatización de Cisco**   para empresas, Cisco tiene varios productos de administración disponibles, como la solución de administración LAN de CiscoWorks y el módulo de análisis de redes Cisco, para ayudar a mejorar la eficacia operativa y reduce el tiempo de inactividad de la red. Para obtener más información sobre estos productos, visite el sitio web de [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)Cisco en.
+**Productos de administración de redes y de automatización de Cisco**   para empresas, Cisco tiene varios productos de administración disponibles, como la solución de administración LAN de CiscoWorks y el módulo de análisis de redes Cisco, para ayudar a mejorar la eficiencia operativa y reducir el tiempo de inactividad de la red. Para obtener más información sobre estos productos, visite el sitio web de [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)Cisco en.
 
 El Protocolo simple de administración de redes (SNMP) es un estándar de administración de redes que define una estrategia de administración de redes TCP/IP. SNMP le permite capturar información de configuración y estado de la red, y enviar la información a un equipo designado para su supervisión de eventos. Este protocolo basado en estándares de administración de redes usa una arquitectura distribuida que incluye lo siguiente:
 

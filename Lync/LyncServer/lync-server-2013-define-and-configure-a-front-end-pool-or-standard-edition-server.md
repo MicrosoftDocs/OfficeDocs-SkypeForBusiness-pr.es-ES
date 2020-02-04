@@ -3,6 +3,8 @@ title: Definir y configurar un grupo de servidores front-end o un servidor Stand
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define and configure a Front End pool or Standard Edition server
 ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398538(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8ac840cb40da71f81a24501f3d9caa53fb316e86
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ddc430370c59e279e0e36aa662da0f33973e0d80
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835738"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762768"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,7 +60,7 @@ Si está implementando un servidor empresarial, un número mínimo de servidores
 </tr>
 <tr class="even">
 <td><p>3-4</p></td>
-<td><p>2</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>5-6</p></td>
@@ -115,7 +117,7 @@ Una vez que haya definido su topología, use el siguiente procedimiento para def
 
 3.  En la página **definir los equipos de este grupo** , escriba un FQDN de equipo para el primer servidor front-end en el grupo y, a continuación, haga clic en **Agregar**. Repita este paso para todos los equipos adicionales (hasta doce) que desee agregar a la agrupación y, a continuación, haga clic en **siguiente**.
 
-4.  En la página **seleccionar características** , seleccione las casillas de las características que desee en este grupo de servidores front-end. Por ejemplo, si está implementando solo la mensajería instantánea (mi) y las características de presencia, debe activar la casilla **conferencias** para permitir la mensajería instantánea de varias partes pero no seleccionar las **conferencias de acceso telefónico local (RTC)**, la **telefonía IP empresarial**o ** **Marque las casillas de verificación de control de admisión, ya que representan características de conferencia de voz, vídeo y colaboración.
+4.  En la página **seleccionar características** , seleccione las casillas de las características que desee en este grupo de servidores front-end. Por ejemplo, si va a implementar solo la mensajería instantánea (mi) y las características de presencia, debe activar la casilla **conferencias** para permitir la mensajería instantánea de varias personas, pero no seleccionar las casillas **Conferencia de acceso telefónico local (RTC)**, **telefonía IP empresarial**o **control de admisión de llamadas** , porque representan las características de conferencia de voz, vídeo y colaboración.
     
       - **Conferencia**   : esta selección permite un conjunto de características completo, entre las que se incluyen:
         
@@ -133,7 +135,7 @@ Una vez que haya definido su topología, use el siguiente procedimiento para def
     
       - **** El archivado de archivado le permite archivar contenido de mensajería instantánea, conferencias (reunión) o ambos que se envían a través de Lync Server 2013.   
     
-      - ****   El servidor de supervisión de supervisión le permite recopilar datos numéricos que describan la calidad de los medios de su red y puntos de conexión, información de uso relacionada con llamadas de VoIP, mensajes instantáneos, conversaciones a/V, reuniones, uso compartido de aplicaciones y archivos transfiere y llama a información de errores y de solución de problemas para llamadas fallidas.
+      - ****   El servidor de supervisión de supervisión le permite recopilar datos numéricos que describan la calidad de los medios de su red y puntos de conexión, información de uso relacionada con llamadas VoIP, mensajes instantáneos, conversaciones a/V, reuniones, uso compartido de aplicaciones y transferencias de archivos, así como información sobre errores y solución de problemas para llamadas fallidas.
     
     <div>
     
@@ -277,7 +279,7 @@ Una vez que haya definido su topología, use el siguiente procedimiento para def
     
     </div>
     
-    1.  Si está configurando el equilibrio de carga de DNS, active la casilla invalidar el **FQDN del grupo de servicios Web internos** , escriba la dirección URL de base interna (que debe ser diferente de la del FQDN\<del grupo y\>podría ser, por ejemplo, la dirección URL base) en ** Dirección URL base interna**.
+    1.  Si está configurando el equilibrio de carga de DNS, active la casilla **invalidar el FQDN del grupo de servicios Web interno** , escriba la dirección URL de base interna (que debe ser diferente de la del FQDN\<del grupo y\>podría ser, por ejemplo, la dirección URL base) en la **dirección URL base interna**.
         
         <div>
         
@@ -299,7 +301,7 @@ Una vez que haya definido su topología, use el siguiente procedimiento para def
     
     </div>
 
-10. Si seleccionó **conferencias** en la página **seleccionar características** , en la página **seleccionar un servidor de Office Web Apps** , seleccione **asociar grupo con un servidor de Office Web Apps** y, a continuación, haga clic en **nuevo** (o seleccione un Office Web Apps existente Servidor de la lista desplegable).
+10. Si seleccionó **conferencias** en la **página seleccionar características** , en la página **seleccionar un servidor de Office Web Apps** , seleccione **asociar grupo con un servidor de Office Web Apps** y, a continuación, haga clic en **nuevo** (o seleccione un servidor de Office Web Apps existente de la lista desplegable).
 
 11. En el cuadro de diálogo **Definir nuevo Office Web Apps Server**, escriba el nombre de dominio completo (FQDN) del equipo de Office Web Apps Server en el cuadro **FQDN de Office Web Apps Server**; al hacerlo, la dirección URL de descubrimiento de Office Web Apps Server deberá aparecer automáticamente en el cuadro **Dirección URL de descubrimiento de Office Web Apps Server**.
     
@@ -316,7 +318,7 @@ Una vez que haya definido su topología, use el siguiente procedimiento para def
     
     </div>
 
-12. En la página **definir la tienda SQL** de archivado, seleccione una instancia existente o SQL Server, o bien defina una nueva instancia para almacenar los datos asociados con el archivado de datos.
+12. En la página **definir la tienda SQL de archivado** , seleccione una instancia existente o SQL Server, o bien defina una nueva instancia para almacenar los datos asociados con el archivado de datos.
 
 13. En la página **definir la supervisión de la tienda SQL** , seleccione una instancia existente o SQL Server, o bien defina una nueva instancia para almacenar los datos asociados con la supervisión de datos.
 

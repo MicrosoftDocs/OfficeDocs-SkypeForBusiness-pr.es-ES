@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Consultas de base de datos de QoE de ejemplo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Sample QoE database queries
 ms:assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398100(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e26da6f9e7ed26b4cce896401ed497ed8376f37b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4e0a077a4da1bcbda9e8f14f9e2c4fcd838434b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822198"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765028"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: comprobar las comunicaciones con un cliente de Lync On
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify communications with a Lync Online customer
 ms:assetid: c8287b15-e1bb-4b26-8354-0ec90b2fcfe7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202189(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185378
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6707139535ab30909f74b1a3fa51cce24374d09
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f9b20be32ecbc7c3c684009c9c2f928c9dc897cd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

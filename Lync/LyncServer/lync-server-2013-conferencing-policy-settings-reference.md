@@ -3,6 +3,8 @@ title: 'Lync Server 2013: referencia de configuración de directiva de conferenc
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing policy settings reference
 ms:assetid: ec8125f7-ef78-4a2b-8db0-4dd3cf5a4065
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429724(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185737
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a2189278368d1f26ac46c9edf83d55e1bbe5ed8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9705a56a2167e0afc5e950c387e0f99b15deed1c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842457"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

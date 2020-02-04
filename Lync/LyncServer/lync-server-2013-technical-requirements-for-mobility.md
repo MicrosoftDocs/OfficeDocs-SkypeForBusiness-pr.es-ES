@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos técnicos para la movilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for mobility
 ms:assetid: 831be681-4de0-4e42-b04f-8879ca4dcd23
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690030(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184679
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac74f7e9e85829e500900e03d4b7cfedf89d1e0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4eef2cb185653446627fe6ccec2d49538e1162b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850453"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ El requisito de afinidad de cookies en los equilibradores de carga de hardware s
 
 
 > [!IMPORTANT]  
-> Todo el tráfico del servicio de movilidad pasa por el proxy inverso, independientemente de dónde se encuentra el punto de origen, ya sea interno o externo. En el caso de un único proxy inverso o de una matriz de proxies inversos, o de un dispositivo que proporciona la función de proxy inverso, puede surgir un problema cuando el tráfico interno está desplazado a través de una interfaz e intenta inmediatamente la entrada en la misma interfaz. Esto suele conducir a una violación de la regla de seguridad conocida como imitación de paquetes TCP o suplantación. <EM>Fijación del pelo</EM> (los ingresos y salidas inmediatos de un paquete o serie de paquetes) deben permitirse para que la movilidad funcione. Una forma de resolver este problema es usar un proxy inverso que sea independiente del firewall (la regla de prevención de suplantaciones debe aplicarse siempre en el firewall, por razones de seguridad). El Hairpin puede producirse en la interfaz externa del proxy inverso, en lugar de en la interfaz externa del firewall. Usted detecta la suplantación de identidad en el firewall y relaja la regla en el proxy inverso, lo que permite el Hairpin que requiere la movilidad.<BR>Use el host del sistema de nombres de dominio (DNS) o los registros CNAME para definir el proxy inverso para el comportamiento Hairpin (no el firewall), si es posible.
+> Todo el tráfico del servicio de movilidad pasa por el proxy inverso, independientemente de dónde se encuentra el punto de origen, ya sea interno o externo. En el caso de un único proxy inverso o de una matriz de proxies inversos, o de un dispositivo que proporciona la función de proxy inverso, puede surgir un problema cuando el tráfico interno está desplazado a través de una interfaz e intenta inmediatamente la entrada en la misma interfaz. Esto suele conducir a una violación de la regla de seguridad conocida como imitación de paquetes TCP o suplantación. El <EM>anclaje de cabello</EM> (salida y los ingresos inmediatos de un paquete o de una serie de paquetes) debe permitirse para que la movilidad funcione. Una forma de resolver este problema es usar un proxy inverso que sea independiente del firewall (la regla de prevención de suplantaciones debe aplicarse siempre en el firewall, por razones de seguridad). El Hairpin puede producirse en la interfaz externa del proxy inverso, en lugar de en la interfaz externa del firewall. Usted detecta la suplantación de identidad en el firewall y relaja la regla en el proxy inverso, lo que permite el Hairpin que requiere la movilidad.<BR>Use el host del sistema de nombres de dominio (DNS) o los registros CNAME para definir el proxy inverso para el comportamiento Hairpin (no el firewall), si es posible.
 
 
 
@@ -85,7 +87,7 @@ En el siguiente diagrama se muestra el flujo de solicitudes Web de aplicaciones 
 
 **Flujo de servicio de movilidad con detección automática**
 
-![cdb96424-96f2-4abf-88d7-1d32d1010ffd] (images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4abf-88d7-1d32d1010ffd")
+![cdb96424-96f2-4abf-88d7-1d32d1010ffd](images/Hh690030.cdb96424-96f2-4abf-88d7-1d32d1010ffd(OCS.15).jpg "cdb96424-96f2-4abf-88d7-1d32d1010ffd")
 
 <div>
 

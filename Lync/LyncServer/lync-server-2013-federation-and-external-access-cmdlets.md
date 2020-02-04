@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de Federación y de acceso externo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Federation and external access cmdlets
 ms:assetid: 4a384a57-257f-47a6-98d9-54cea2c647b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415651(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184018
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dc44d6d8dbd196e720d836ba8c3417e06a44c988
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b206d8de27f2cdeebab5db0c125012c2a29c65b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835160"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765138"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

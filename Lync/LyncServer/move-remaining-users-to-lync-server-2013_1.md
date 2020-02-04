@@ -3,6 +3,8 @@ title: Mover los usuarios restantes a Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move remaining users to Lync Server 2013
 ms:assetid: 0eb990f0-f720-47a7-aaee-437fbd4c4c33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687968(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a728afae37c2e8d317cd6c75872c75d358226475
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bcb5a709e896b66a1c8cd33a930bfeed5e05644f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849940"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743740"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Al mover un usuario a un grupo de servidores de Lync Server 2013, los datos del 
 
 2.  Para asegurarse de que las reuniones organizadas por usuarios alojados en Lync Server 2013 funcionan sin problemas con usuarios federados alojados en Office Communications Server 2007 R2, la Directiva de conferencia asignada a los usuarios migrados debe permitir participantes anónimos.
 
-3.  Las directivas de conferencia que permiten a los participantes anónimos **permiten a los participantes invitar a usuarios anónimos** seleccionados en el panel de control de Lync Server 2013 y tienen **AllowAnonymousParticipantsInMeetings** establecido en **verdadero** en el resultado de el cmdlet **Get-CsConferencingPolicy** en el shell de administración de Lync Server.
+3.  Las directivas de conferencia que permiten a los participantes anónimos **permiten a los participantes invitar a usuarios anónimos** seleccionados en el panel de control de Lync Server 2013 y tienen **AllowAnonymousParticipantsInMeetings** establecido en **verdadero** en el resultado del cmdlet **Get-CsConferencingPolicy** en el shell de administración de Lync Server.
 
 4.  Para obtener detalles sobre la configuración de la Directiva de Conferencia mediante el shell de administración de Lync Server, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsConferencingPolicy) en la documentación del shell de administración de Lync Server.
 

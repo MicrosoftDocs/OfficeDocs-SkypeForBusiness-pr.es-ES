@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar certificados para la interfaz perimetral in
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the internal edge interface
 ms:assetid: a1963cc9-87c5-4935-86c0-6bedc6afd0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412750(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184949
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53ba11db5d2c9fc727b7720a1a10d5da547075c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ea6e462bdc629308493799c857ecb6b2434dc268
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822107"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -100,7 +102,7 @@ Si tiene más de un sitio con servidores perimetrales (es decir, una topología 
 
 3.  En la página web certsrv de la CA que emite el certificado, en **Seleccione una tarea**, haga clic en **Descargar certificado de CA, cadena de certificados o CRL**.
 
-4.  En **descargar un certificado de CA, una cadena de certificados o una CRL**, haga clic en **Descargar cadena de certificados**de la entidad emisora.
+4.  En **descargar un certificado de CA, una cadena de certificados o una CRL**, haga clic en **Descargar cadena de certificados de la entidad emisora**.
 
 5.  En el cuadro de diálogo **descarga de archivos** , haga clic en **Guardar**.
 
@@ -205,7 +207,7 @@ Si tiene más de un sitio con servidores perimetrales (es decir, una topología 
         
         </div>
     
-      - Si es necesario exportar el certificado, active la casilla **marcar clave privada de certificado como** exportable.
+      - Si es necesario exportar el certificado, active la casilla **marcar clave privada de certificado como exportable** .
 
 8.  En la página información de la **organización** , escriba el nombre de la organización y la unidad organizativa (OU) (por ejemplo, una división o un departamento).
 
@@ -241,7 +243,7 @@ Si tiene más de un sitio con servidores perimetrales (es decir, una topología 
 
 2.  En el Asistente para la implementación, junto al **paso 3: solicitar, instalar o asignar certificados**, haga clic en **Ejecutar de nuevo**.
     
-    Después de ejecutar el paso 3 por primera vez, el botón cambia **** a ejecutarse, pero no se muestra una marca de verificación verde (que indica que la tarea se ha completado correctamente) hasta que se hayan solicitado, instalado y asignado todos los certificados necesarios.
+    Después de ejecutar el paso 3 por primera vez, el botón cambia a **ejecutarse**, pero no se muestra una marca de verificación verde (que indica que la tarea se ha completado correctamente) hasta que se hayan solicitado, instalado y asignado todos los certificados necesarios.
 
 3.  En la página **tareas de certificados disponibles** , haga clic en **importar un certificado desde un. Archivo P7b,. pfx o. cer**.
 
@@ -334,7 +336,7 @@ Si tiene más de un sitio con servidores perimetrales (es decir, una topología 
 
 6.  En la página de finalización del asistente, haga clic en **Finalizar**.
 
-7.  Después de usar este procedimiento para asignar el certificado de contorno interno, abra el complemento certificado en cada servidor, expanda **certificados (equipo local)**, expanda **personal**, haga clic en **certificados**y, después, compruebe en el panel de detalles el certificado de contorno interno aparece en la lista.
+7.  Después de usar este procedimiento para asignar el certificado de contorno interno, abra el complemento certificado en cada servidor, expanda **certificados (equipo local)**, expanda **personal**, haga clic en **certificados**y, a continuación, compruebe en el panel de detalles que aparece el certificado de contorno interno.
 
 8.  Si su implementación incluye varios servidores perimetrales, repita este procedimiento para cada servidor perimetral.
 

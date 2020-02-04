@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Descripción de los informes creados por el analizador
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding reports created by Best Practices Analyzer
 ms:assetid: 1386dd6c-7f3e-4da9-905b-cef1468bf14a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591344(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183471
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0903c3bafc4017d5455c188c66de3e1f2cf0b178
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2262c490d84ec6f93ff395a9c8ec38d81c82e7de
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850283"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

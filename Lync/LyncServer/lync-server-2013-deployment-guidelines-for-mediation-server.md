@@ -3,6 +3,8 @@ title: 'Lync Server 2013: pautas de implementaci√≥n para el servidor de mediaci√
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment guidelines for Mediation Server
 ms:assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398622(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 400f8cceeb86d407297b3f564c01266a477ca0ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3c91ea4368d96e6a558a25eda86d163e4ced4cb8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835495"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762678"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

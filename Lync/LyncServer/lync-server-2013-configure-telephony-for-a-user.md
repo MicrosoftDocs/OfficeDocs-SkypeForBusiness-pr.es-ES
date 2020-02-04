@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar telefonía para un usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure telephony for a user
 ms:assetid: 4546432e-c839-4517-a2c5-bc0d4d8c6a03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520988(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97f4fc79b871a962fe498d6dbd908b75f6b2fecd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d57c4799c0fe9bb9dc698c3e0e74a9d73cbde524
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842325"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ La configuración de telefonía es una parte de la configuración individual de 
 
 Entre las opciones de telefonía de usuario de Lync Server se incluyen las siguientes:
 
-  - **Audio/vídeo**   deshabilitado el usuario no puede hacer llamadas con audio y vídeo.
+  - **Audio/vídeo deshabilitado**   el usuario no puede hacer llamadas con audio y vídeo.
 
   - **Solo de PC a PC**   el usuario solo puede hacer videollamadas o videollamadas de PC a PC.
 
@@ -59,7 +61,7 @@ Para obtener detalles sobre la configuración de telefonía para una organizaci�
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
-4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar. **.
+4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar**.
 
 5.  En la tabla, haga clic en la cuenta de usuario que desea modificar.
 
@@ -67,7 +69,7 @@ Para obtener detalles sobre la configuración de telefonía para una organizaci�
 
 7.  En **telefonía**, haga lo siguiente:
     
-      - Para deshabilitar las llamadas de audio y vídeo para el usuario, haga clic en **audio/vídeo**deshabilitado.
+      - Para deshabilitar las llamadas de audio y vídeo para el usuario, haga clic en **audio/vídeo deshabilitado**.
     
       - Para habilitar las comunicaciones de audio de PC a PC para el usuario, pero no para el control remoto de llamadas ni para la telefonía IP empresarial, haga clic en **solo de PC a PC**. Especifique un valor para el **URI de línea** del teléfono que usa el usuario para las comunicaciones de audio de PC a PC.
     

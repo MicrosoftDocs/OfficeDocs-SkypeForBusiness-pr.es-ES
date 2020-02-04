@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar la supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling monitoring
 ms:assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687994(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2b13028390328e93a9e90636962dedea8ea8ec9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f11aab3c58a43ac0746cb1f297bf4f3f85d28c0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835257"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
