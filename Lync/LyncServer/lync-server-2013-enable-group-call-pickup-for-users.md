@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar la recogida de llamadas grupales para los us
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Group Call Pickup for users
 ms:assetid: 20ec5f41-6ba2-4156-82ed-b91d05b62a6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945620(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541457
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b54abf04c7c0d892e5cc58938866592f96cc1776
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1fc2f513960371d0115b63260d35180f319bd923
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835313"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

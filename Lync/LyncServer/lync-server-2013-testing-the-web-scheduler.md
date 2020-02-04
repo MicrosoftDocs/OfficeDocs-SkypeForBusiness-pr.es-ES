@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar el programador web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the Web scheduler
 ms:assetid: 58e34058-1afa-42e3-9096-c4ea1954c237
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727304(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969603
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: beb4030a87302c8abaaba9418eaba06b831ed8d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65d7dc70bad90dc4e4c94e2db273f44ed20c50ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850321"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

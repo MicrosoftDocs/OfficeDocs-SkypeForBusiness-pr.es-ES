@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restauración de la configuración del grupo de respue
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring Response Group settings
 ms:assetid: 4f8e1949-925d-4538-be1d-9ac7c06b2aca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202174(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541473
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af4aace2739a2aee8e2f9dbba2a0cb0779f19a3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 64bc766cf970e95ad03be65c490882dd3471955b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822359"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733060"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: presentación del identificador denominado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Called ID presentation
 ms:assetid: cf6c6af5-3418-411e-a50b-7a9cf8e100d4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721892(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30bd84e60118697c94aba6c6088de68fc37d34c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8dc22438a688239618fc7a73cf3aa30ec614568d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842687"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

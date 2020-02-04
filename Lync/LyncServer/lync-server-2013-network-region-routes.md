@@ -3,6 +3,8 @@ title: 'Lync Server 2013: rutas de la región de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network region routes
 ms:assetid: 32da29aa-7612-48fa-a983-72a821651aa3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688018(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a394947a68d6535eefa816583a6094fcf6954a1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e84c2b0114393a0d9234e18af8af7c8c98f3d8b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826454"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765901"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

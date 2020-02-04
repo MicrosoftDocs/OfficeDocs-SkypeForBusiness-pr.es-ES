@@ -3,6 +3,8 @@ title: 'Lync Server 2013: revisar el informe de Resumen'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Summary Report
 ms:assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558626(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541459
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b42532da1272a06309b51d1f0090285fcf10c1f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fdcde0c82f2b1b157db13fe22ee5cb792a4c1c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822324"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2013-02-21_
 
 El informe del administrador de Lync Server es el primero de cuatro informes valiosos que documentan el diseño en detalle. La información de este informe y los otros tres informes asociados es una excelente documentación para los equipos de tecnología de la información:
 
-![Informe de administración general de Resumen] (images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Informe de administración general de Resumen")
+![Informe de administración de resúmenes generales](images/Gg558626.9c529ef7-cb1b-4ce1-a8bc-3ec79aba2377(OCS.15).jpg "Informe de administración de resúmenes generales")
 
   - Informe de certificados
 

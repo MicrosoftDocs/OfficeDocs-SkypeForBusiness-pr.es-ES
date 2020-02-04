@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar interfaces de red para servidores perimetra
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up network interfaces for Edge Servers
 ms:assetid: b0aecdf6-4ae2-46f6-b9b6-948bfc3df11e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412847(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7263c2d7cad3cf1339351f2cb5f90b15a9fa0a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfbae47a5f5e99e603e3f095a2e07dbb9b49515f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821918"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764646"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

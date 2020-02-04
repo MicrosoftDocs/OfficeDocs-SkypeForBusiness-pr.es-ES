@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de infraestructura de herramientas administ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administrative tools infrastructure requirements
 ms:assetid: aa039d01-e721-455f-94c4-076a3aac38bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195766(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185102
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe2c520bd8af46699f2499efcbcb5ef5a7142339
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8bdef9998cf620f2718b8fa42a1f8337af93a9a5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843016"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

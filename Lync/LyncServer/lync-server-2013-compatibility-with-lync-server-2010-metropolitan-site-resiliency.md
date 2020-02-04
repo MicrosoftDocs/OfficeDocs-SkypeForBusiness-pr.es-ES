@@ -3,6 +3,8 @@ title: Compatibilidad de Lync Server 2013 con la resistencia de sitios de metrop
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2010 metropolitan site resiliency
 ms:assetid: 18673ff6-b664-4a57-a89b-cbda8b129e6a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204715(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183526
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3079f05d9860fd659d19df7b71ee633c0cea3fe2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 395ec568ebafea5c7a06e19340ff5ad10158ffb3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842528"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

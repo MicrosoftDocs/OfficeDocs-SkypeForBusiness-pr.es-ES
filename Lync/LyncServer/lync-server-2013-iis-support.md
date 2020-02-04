@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad con IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Internet Information Services (IIS) support
 ms:assetid: dfb9fafb-a3f5-4928-b451-49dba5499ea2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398987(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 609a86df20128573dec478109afd602e1f677345
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 18090f41e33e54f7950ffb334927ec8517a93e3c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835032"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758014"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

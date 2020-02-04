@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar una colección de parámetros de con
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of CDR configuration settings
 ms:assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721878(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733812
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44ec5383a8050370ba259350aed4528765838b47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37ed8be52827f56b14c52f1bddd950ab39883cdf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835811"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763362"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

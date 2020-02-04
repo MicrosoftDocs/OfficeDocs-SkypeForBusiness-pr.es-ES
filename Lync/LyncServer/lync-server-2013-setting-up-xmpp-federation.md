@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar la federación XMPP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up XMPP federation
 ms:assetid: 5fda6cb7-8d4d-495d-90c7-601f1036e085
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204939(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184270
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6bad6bf4e2b09296e21aec75e206ba867415754a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: fd61aded33d37e4a1f5f58e9050f3cd62794f9b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992055"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

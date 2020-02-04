@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar una configuración de archivado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting an Archiving configuration
 ms:assetid: a8744d39-5cf2-474c-9a99-a0f3a37f846f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205167(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185093
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a67d944de9b2c35c9ea2428603b39ddabbbcb26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e4a0c1acf9f605fc927d7006ff50b1f4470c68d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835587"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763124"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34835587"
 
 _**Última modificación del tema:** 2013-02-23_
 
-Puede eliminar una configuración de sitio o una configuración de grupo. No se puede quitar la configuración global. Si elimina la configuración global, esta se restablece automáticamente a sus valores predeterminados. Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, implementación documentación u operación.
+Puede eliminar una configuración de sitio o una configuración de grupo. No se puede quitar la configuración global. Si elimina la configuración global, esta se restablece automáticamente a sus valores predeterminados. Para obtener detalles sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones.
 
 <div>
 

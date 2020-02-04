@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos técnicos para el servidor de chat persiste
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Persistent Chat Server
 ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398495(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184383
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b84f1a2932b76c8030c907463e8f0f2e93bedda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0437f56c5eb5564eb4f85809aefd181c2cbd2eaf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850458"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

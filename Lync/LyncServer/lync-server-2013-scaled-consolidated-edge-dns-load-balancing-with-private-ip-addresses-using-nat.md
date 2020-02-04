@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Servidor perimetral consolidado ampliado, equilibrio d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
 ms:assetid: c7ca4ca8-c639-4d93-86d7-8891170cacbc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398823(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185369
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d0650e156dca03ac5024dfe4f3045a0d8f155643
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: a61ba63ca71cb22ec4b526ab090b9ee7a55dc231
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111534"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de la compatibilidad con la detección 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring support for Autodiscover
 ms:assetid: 3a266456-69a0-4539-ba99-d388b83799a8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945622(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541463
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8eb83156d319db96a4c6ed79768193a24e5cc3e0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 779929d270fa4ae2f8eec59a954c2273ff61b44f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842178"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

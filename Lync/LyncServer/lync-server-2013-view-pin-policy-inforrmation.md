@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver directivas de directiva de inforrmation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View PIN policy inforrmation
 ms:assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687985(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733575
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ad912c4442a243beaaa4410d8931f0940d743177
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5f63b2abcc1278211b70fd575bbead8ae875332
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850100"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

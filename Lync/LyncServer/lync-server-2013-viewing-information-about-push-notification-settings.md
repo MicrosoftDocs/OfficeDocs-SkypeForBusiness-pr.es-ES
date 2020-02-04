@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información sobre la configuración de notificaci
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing information about push notification settings
 ms:assetid: be5c6b01-4294-4d17-9772-fed40201e8a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721868(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da9279d09ab3b344514a472f3fb0f38e7071aabd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d79d16980c29907aa4e254d4be7eaee2fcfaae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850083"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

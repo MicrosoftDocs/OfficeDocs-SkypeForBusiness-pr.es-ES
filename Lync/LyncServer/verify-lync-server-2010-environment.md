@@ -3,6 +3,8 @@ title: Comprobar el entorno de Lync Server 2010
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Lync Server 2010 environment
 ms:assetid: bfc7c620-556a-43cd-b1ed-2c268ec2b5cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205231(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185301
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 248d779bc43b7c3e220728222aca030036f17e00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a871955f53515491ed09ece5e5da21ef7a9fef8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849833"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730920"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Lync Serv
 
 2.  Compruebe que se están ejecutando los siguientes servicios en el servidor front-end:
     
-    ![Lista de servicios que se ejecutan en el servidor front-end] (images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "Lista de servicios que se ejecutan en el servidor front-end")
+    ![Lista de servicios que se ejecutan en el servidor front-end](images/JJ205231.639f2729-b759-4d8e-b4ad-59d7f68adcd2(OCS.15).jpg "Lista de servicios que se ejecutan en el servidor front-end")
 
 **Revisar la topología de Lync Server 2010 en el panel de control de Lync Server**
 
@@ -61,7 +63,7 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Lync Serv
 
 3.  Seleccione **topología**. Compruebe que se muestran los diversos servidores de su implementación de Lync Server 2010.
     
-    ![Página de topología del panel de Control 2010 de Lync Server] (images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Página de topología del panel de Control 2010 de Lync Server")
+    ![Página de topología del panel de control 2010 de Lync Server](images/JJ205231.338ce4fb-2162-4176-a249-ec4ae021fa6a(OCS.15).jpg "Página de topología del panel de control 2010 de Lync Server")
 
 **Para revisar los usuarios de Lync Server 2010 en el panel de control de Lync Server**
 
@@ -71,7 +73,7 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Lync Serv
 
 3.  Compruebe que la columna **registrar grupo** apunta al grupo de servidores de Lync 2010 para cada usuario de la lista.
     
-    ![Panel de control de 2010 de Lync Server] (images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Panel de control de 2010 de Lync Server")
+    ![Panel de control de 2010 de Lync Server](images/JJ205231.a9378c40-7a52-4c78-ad83-1463847c9edb(OCS.15).jpg "Panel de control de 2010 de Lync Server")
 
 **Para comprobar la configuración de Edge y de Federación de Lync Server 2010**
 
@@ -85,15 +87,15 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Lync Serv
 
 5.  Seleccione el nodo de sitio y compruebe si se ha establecido un valor de **asignación de enrutamiento de Federación de sitios** .
     
-    ![Generador de topologías, ruta de Federación de sitios] (images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Generador de topologías, ruta de Federación de sitios")
+    ![Generador de topologías, ruta de Federación de sitios](images/JJ205231.87de3735-af7e-4280-8d72-c42cb0ea1c05(OCS.15).jpg "Generador de topologías, ruta de Federación de sitios")
 
 6.  A continuación, seleccione el servidor Standard Edition o el grupo de servidores front-end Enterprise Edition. Determine si un grupo de medios se ha configurado para los medios por debajo de las **asociaciones**.
     
-    ![Generador de topología que muestra servidores y pools] (images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Generador de topología que muestra servidores y pools")
+    ![Generador de topología que muestra servidores y pools](images/JJ205231.5ad5ea3b-b122-44dd-8968-f1147d6d45f1(OCS.15).jpg "Generador de topología que muestra servidores y pools")
 
 7.  Por último, seleccione el grupo de bordes y identifique si un grupo de saltos siguiente está configurado por debajo de la **selección de próximos saltos**.
     
-    ![Generador de topologías, selección del próximo salto] (images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Generador de topologías, selección del próximo salto")
+    ![Generador de topologías, selección del próximo salto](images/JJ205231.3121e723-fba7-498e-a786-bde7be1a55e2(OCS.15).jpg "Generador de topologías, selección del próximo salto")
 
 **Comprobar la configuración heredada del socio XMPP federado**
 
@@ -101,7 +103,7 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Lync Serv
 
 2.  Compruebe que se ha iniciado el servicio de puerta de enlace XMPP de Office Communications Server.
     
-    ![Servicio de puerta de enlace XMPP de Office Communications Server] (images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Servicio de puerta de enlace XMPP de Office Communications Server")
+    ![Servicio de puerta de enlace XMPP de Office Communications Server](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Servicio de puerta de enlace XMPP de Office Communications Server")
 
 </div>
 

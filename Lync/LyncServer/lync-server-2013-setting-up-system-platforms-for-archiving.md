@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de plataformas del sistema para el arch
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up system platforms for Archiving
 ms:assetid: 2df40fdf-0e32-46d4-9fb2-1ce1d7bfa328
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204768(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183716
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d8d9499d68bcca3848e1e069b4962bb7526091d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 13682b7507e133dd49c102bf6c25293ff5da2c08
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Antes de iniciar la implementación del archivado, debe instalar el sistema oper
 
   - **Plataforma de almacenamiento de datos**   en Lync Server 2013, puede almacenar datos mediante uno de los siguientes procedimientos:
     
-      - **Integración de Microsoft Exchange**   si quiere almacenar datos de archivado de Lync Server 2013 con la implementación de Exchange 2013, en lugar de configurar una base de datos independiente para el almacenamiento de datos de archivado, la implementación de Exchange debe ser ejecutando Exchange 2013. Para obtener detalles sobre la configuración de plataformas del sistema para Exchange 2013, consulte la documentación del producto de Exchange.
+      - **Integración de Microsoft Exchange**   si quiere almacenar datos de archivado de Lync Server 2013 mediante la implementación de Exchange 2013, en lugar de configurar una base de datos independiente para el almacenamiento de datos de archivado, su implementación de Exchange debe ejecutar Exchange 2013. Para obtener detalles sobre la configuración de plataformas del sistema para Exchange 2013, consulte la documentación del producto de Exchange.
     
       - **SQL Server**   si desea usar una base de datos de SQL Server independiente para almacenar los datos de archivado, en lugar de o además de usar la integración de Microsoft Exchange, debe configurar la plataforma del sistema para la base de datos antes de implementar el archivado. Los requisitos de la plataforma de sistema específica dependen de si usa Microsoft SQL Server 2008 R2 o Microsoft SQL Server 2012 para la base de datos de archivado. Para obtener detalles sobre la configuración de plataformas del sistema para estas bases de datos, consulte la documentación del producto Microsoft SQL Server 2008 R2 y Microsoft SQL Server 2012.
 

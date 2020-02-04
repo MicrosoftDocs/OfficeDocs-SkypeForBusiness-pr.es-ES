@@ -3,6 +3,8 @@ title: 'Lync Server 2013: dispositivos de prueba'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test devices
 ms:assetid: 878b7dfc-8cfe-4404-a601-a2c57a441ea9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688119(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a4692c750091743e60b1cd08f968ea61c2bdbd4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 443310b9037baa306827a98323c66939e695e0ee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850417"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

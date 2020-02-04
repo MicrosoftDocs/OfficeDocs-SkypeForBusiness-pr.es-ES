@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar una directiva de versión de cliente existent
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing client version policy
 ms:assetid: b88aaa25-97ff-4eb6-bd34-b97332cd6890
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923064(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50675349
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0adc3ab47b3b441eff900c6a9202a782e524c22c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 99936b495075034e6eae3f90e6dd95325bf6e2be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835622"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Revisión de los informes del administrador'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Administrator Reports
 ms:assetid: 1dee56a9-a033-4201-9765-e3469bd7d3e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558622(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6346e326fa3a113bc5b1ceecd5dc49d76f50f6b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ad04e03571f228fd83339dbc1c36be07d32f0962
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822352"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

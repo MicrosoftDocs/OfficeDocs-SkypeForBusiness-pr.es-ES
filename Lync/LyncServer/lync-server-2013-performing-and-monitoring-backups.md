@@ -3,6 +3,8 @@ title: 'Lync Server 2013: realización y supervisión de copias de seguridad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Performing and monitoring backups
 ms:assetid: 2df415d4-0f37-460e-99ff-4035a9a2f445
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720912(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969595
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fffc6a8355305e11d87513ffc37626f3e386c749
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3181a266e5792d190186e9f09b2cab5852156cbe
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825362"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

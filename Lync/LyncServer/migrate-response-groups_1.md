@@ -3,6 +3,8 @@ title: Migrar grupos de respuesta
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate response groups
 ms:assetid: 5c07bf4b-ad8a-4b83-b970-7d933bb7c4ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204931(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184250
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bf7f0fa04f494eb49a0537011d5f9affcc68065
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c01ec246ba99d2a2f71a16179d839409e6b57b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849968"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de una ubicación de copia de seguridad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up a backup location
 ms:assetid: 006732eb-3d44-414d-8010-227a855caa93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202158(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541440
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6d8f91af650e68348a35e9f485f5ca5f54093fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 723bcbc2aeaae5264645d824a9b10a939b6770ab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821883"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764636"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

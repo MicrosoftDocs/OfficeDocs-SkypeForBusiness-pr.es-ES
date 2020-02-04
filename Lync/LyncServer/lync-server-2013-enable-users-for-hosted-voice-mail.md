@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Habilitar a los usuarios para el correo de voz hospeda
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable users for hosted voice mail
 ms:assetid: fa559f8f-ef99-43a1-b580-9e998b95efb8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45872df26989d8d264ce77406bfbce86f321ccf8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8e0ce9ee4da6ee0a36e5e5f0028371aab8af523f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835274"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

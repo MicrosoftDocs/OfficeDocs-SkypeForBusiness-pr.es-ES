@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar y deshabilitar usuarios para Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling and disabling users for Lync Server 2013
 ms:assetid: 796ac454-58a9-41ac-80c2-3723a127d214
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688099(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733698
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d767ffc6f7164a763d31a58b7e2012c749b77a1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da4624a682899befa4ff8d780c0d9a6d6646279c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835261"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

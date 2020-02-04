@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad de cliente y servidor para el enrutamie
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client and server support for Location-Based Routing
 ms:assetid: 26c2ca3d-026d-4dd7-94fa-15ebb4406953
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994024(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3791b359422c4b5bef463a612db6f0b74c07f096
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ad7ead20eb9961180fec9204a84b3392b7fa96f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842565"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

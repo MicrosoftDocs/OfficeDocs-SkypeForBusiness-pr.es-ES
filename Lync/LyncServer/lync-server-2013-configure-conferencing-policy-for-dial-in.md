@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar la directiva de conferencias para el acceso
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure conferencing policy for dial-in
 ms:assetid: 9bf926d6-0248-4352-98c3-9c5a333debbc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398810(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 74621fee97a1e6721f8772b265761b62b1b9f266
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 107c5fcf4b341c652cd4044fe47f4b650cf5adb4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842406"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Compruebe los siguientes campos de su Directiva de Conferencia:
 
   - **Permitir a los participantes anónimos marcar**   esta configuración permite que los usuarios anónimos que ya se hayan unido a la reunión llamen a un número de teléfono para unirse a la parte de audio de la Conferencia. Esta configuración es opcional para las conferencias de acceso telefónico local. Esta opción no está seleccionada de forma predeterminada en la Directiva de conferencia global predeterminada.
 
-  - **Permitir**   que los participantes que no están habilitados para la telefonía IP empresarial Marque esta configuración permite a los participantes de la reunión y los organizadores que no están habilitados para la telefonía IP empresarial llamar a un número de teléfono para unirse a la parte de audio de la Conferencia. La llamada de acceso telefónico es autorizada en función de la Directiva de voz asignada al organizador. Esta opción no está seleccionada de forma predeterminada en la Directiva de conferencia global predeterminada. El valor predeterminado de configuración es deshabilitado.
+  - **Permitir que los participantes que no están habilitados para**   la telefonía IP empresarial Marque esta configuración permite a los participantes de la reunión y los organizadores que no están habilitados para la telefonía IP empresarial llamar a un número de teléfono para unirse a la parte de audio de la Conferencia. La llamada de acceso telefónico es autorizada en función de la Directiva de voz asignada al organizador. Esta opción no está seleccionada de forma predeterminada en la Directiva de conferencia global predeterminada. El valor predeterminado de configuración es deshabilitado.
     
     <div>
     

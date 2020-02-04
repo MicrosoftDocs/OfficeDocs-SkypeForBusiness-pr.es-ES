@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de DNS para movilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for mobility
 ms:assetid: df6962bc-2a16-440e-a333-022ebd14f957
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690040(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fb933e20b8da627ad48a30802ff86c7ed95faff
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bc11c79c291f7db7ad9e9e3228644ee27d42e555
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835369"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

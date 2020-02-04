@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Habilitar y deshabilitar el acceso anónimo de usuario
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable anonymous user access
 ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d07bf27f5424f121c5dcf070f5231e2fd8c324f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d38d0d9f50ff06b2f7eb95944d9214c2c4c64a5c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835312"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

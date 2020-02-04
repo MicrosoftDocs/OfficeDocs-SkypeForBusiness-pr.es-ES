@@ -3,6 +3,8 @@ title: 'Fase 3: implementar el grupo de pruebas piloto de Lync Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 3: Deploy Lync Server 2013 pilot pool'
 ms:assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205367(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185778
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 345fe1a110a4521fddde239681891a1491a17cca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 38a9e19ea3d9456a5e6f5b395286d77ed831f6b0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849918"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

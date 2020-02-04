@@ -3,6 +3,8 @@ title: Usar Topology Builder para configurar la alta disponibilidad y la recuper
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Topology Builder to configure high availability and disaster recovery
 ms:assetid: abc1a25d-1f5e-46ef-91d2-0144fc847206
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205172(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185113
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b167ea64f42510febe0f405d15e2eafab7efc2bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 73bcd2c2892e4e121512ae852d5920d600af91ff
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850165"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

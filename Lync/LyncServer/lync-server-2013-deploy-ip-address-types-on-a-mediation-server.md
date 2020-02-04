@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implementar tipos de dirección IP en un servidor de m
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy IP address types on a Mediation Server
 ms:assetid: 689ebed5-96ee-4cd4-b7ae-ee2a86a1d9b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184376
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e629b1074f41f1e32795de391b31e8b610f88b2e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab30a2153dc7dbf5a15557f6eeaf3b6cb65f68f7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,13 +43,13 @@ Con el generador de topologías, siga los pasos que se indican en el siguiente p
 
 ## <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Para implementar tipos de direcciones IP en un servidor de mediación
 
-  - En el generador de topologías, en **grupos**de mediación, haga clic con el botón secundario en el servidor de un grupo y seleccione **Editar propiedades**. (También puede seleccionar el servidor y, a continuación, hacer clic en **Editar propiedades** en el menú **acción** ).
+  - En el generador de topologías, en **grupos de mediación**, haga clic con el botón secundario en el servidor de un grupo y seleccione **Editar propiedades**. (También puede seleccionar el servidor y, a continuación, hacer clic en **Editar propiedades** en el menú **acción** ).
 
   - En el cuadro de diálogo **Editar propiedades**, seleccione el tipo de dirección IP que desea configurar. Para establecer una configuración de doble pila, seleccione **Habilitar IPv4** y **Habilitar IPv6**, como se muestra en la figura siguiente.
     
     **Cuadro de diálogo Editar propiedades para el grupo Servidor de mediación**
     
-    ![Página de propiedades generales de Lync Server con FQDN] (images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "Página de propiedades generales de Lync Server con FQDN")
+    ![Página de propiedades generales de Lync Server con FQDN](images/JJ204964.4e650aca-dbff-4a86-b10d-f0162c032539(OCS.15).png "Página de propiedades generales de Lync Server con FQDN")
     
       - **Usar todas las direcciones IP configuradas**. Seleccione esta opción si desea que se usen todas las direcciones IP definidas en el equipo.
         

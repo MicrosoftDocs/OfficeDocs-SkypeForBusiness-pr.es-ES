@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nuevas características de mensajería instantánea y 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New IM and presence features
 ms:assetid: dd54b9ef-37cb-4b8e-9067-9fb80b48b1b0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205322(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185600
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64ada93aebf6b0cb836bc8a3efea3898eaf0a806
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16144eaee77e8eebed4f3bbb7b5e37ba8ec29107
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826223"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758632"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

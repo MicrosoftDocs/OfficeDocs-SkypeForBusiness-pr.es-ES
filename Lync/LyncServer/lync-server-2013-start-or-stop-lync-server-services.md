@@ -3,6 +3,8 @@ title: 'Lync Server 2013: iniciar o detener servicios de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Start or stop Lync Server 2013 services
 ms:assetid: 1c70b4ec-9de5-4f7a-a3c9-c0eb76710505
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520958(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183554
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a44e0725aa622b061acc936606bdf2941050952
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a986f0bef8c41cf5113e99504369974562e294a2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850567"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

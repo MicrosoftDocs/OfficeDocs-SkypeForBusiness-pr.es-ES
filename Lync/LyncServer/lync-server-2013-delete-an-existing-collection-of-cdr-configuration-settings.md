@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar una colección existente de opciones de confi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing collection of CDR configuration settings
 ms:assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688128(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 28d15f224d7e3aa4b43b20925a4efd4007a0c6c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c50df73d59c588094693009ab4c84f2a7809ba5f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835627"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

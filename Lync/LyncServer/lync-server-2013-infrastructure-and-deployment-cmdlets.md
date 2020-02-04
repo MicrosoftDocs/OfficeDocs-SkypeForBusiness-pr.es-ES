@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de infraestructura y implementación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Infrastructure and deployment cmdlets
 ms:assetid: 0a6e872a-9f70-4f23-a4a5-8820dbf55370
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398153(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183364
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38d41545c7d128e57919c4a2bc66069e9a27b67c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d75e0f1f62ec2594ab8d774dc9d426b8bdd56061
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835011"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

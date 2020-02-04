@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tabla UserAgentDef'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UserAgentDef table
 ms:assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205100(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b378b6d71bb5163d1d2d2e9146cf3877c0d38a19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 952f065c5377a4d4e94677f9088569ffca681151
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850228"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,7 +60,7 @@ La tabla UserAgentDef asigna los identificadores de agente de usuario a los nomb
 <td><p>MediationServer</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>1</p></td>
 <td><p>MCU de audio y vídeo</p></td>
 <td><p>MCU de audio y vídeo</p></td>
 </tr>
@@ -99,17 +101,17 @@ La tabla UserAgentDef asigna los identificadores de agente de usuario a los nomb
 </tr>
 <tr class="even">
 <td><p>256</p></td>
-<td><p>Conferencing_Announcement_Service_ 1.0</p></td>
+<td><p>Conferencing_Announcement_Service_1.0</p></td>
 <td><p>ENTIDAD</p></td>
 </tr>
 <tr class="odd">
 <td><p>512</p></td>
-<td><p>Conferencing_Attendant_ 1.0</p></td>
+<td><p>Conferencing_Attendant_1.0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="even">
 <td><p>512</p></td>
-<td><p>Conference_Auto_Attendant_ 1.0</p></td>
+<td><p>Conference_Auto_Attendant_1.0</p></td>
 <td><p>CAA</p></td>
 </tr>
 <tr class="odd">
@@ -119,7 +121,7 @@ La tabla UserAgentDef asigna los identificadores de agente de usuario a los nomb
 </tr>
 <tr class="even">
 <td><p>1032</p></td>
-<td><p>Call_Park_Service_ 1.0</p></td>
+<td><p>Call_Park_Service_1.0</p></td>
 <td><p>CP</p></td>
 </tr>
 <tr class="odd">

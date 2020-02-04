@@ -3,6 +3,8 @@ title: 'Lync Server 2013: acuerdos de nivel de servicio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Service level agreements
 ms:assetid: 10899bad-e8b0-422d-83c9-1599fb3a7d17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720321(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969580
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 445b7189d7f13f1b854bfb4bd921251c319f87ee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8c4b827cf2b82eb315ec166bcabb2452e7d8bdc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821995"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732392"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

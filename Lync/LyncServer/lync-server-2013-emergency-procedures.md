@@ -3,6 +3,8 @@ title: 'Lync Server 2013: procedimientos de emergencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Emergency procedures
 ms:assetid: ac92b267-4c21-4304-91dc-606f9db6d4a6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720345(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969640
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 76312609ddec57afd326ed076d300f01cc2edf1e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 28f6ab6f10d071fc86646deed030ab87d931ad95
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835321"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos técnicos para la aplicación Anuncio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for the Announcement application
 ms:assetid: fbd8c204-3765-4b22-a0c9-a781b5126366
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205413(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185944
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec0da862ce2032f5a659c9e9b7bd3b437349a3cf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8812dca81d656e68fc506c4a87c3c80481040bf6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850434"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

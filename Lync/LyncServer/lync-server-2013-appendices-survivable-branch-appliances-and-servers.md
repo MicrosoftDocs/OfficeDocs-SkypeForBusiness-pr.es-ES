@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Apéndices: Servidores y aplicaciones de sucursal con 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Appendices: Survivable Branch Appliances and Servers'
 ms:assetid: 38a83ac4-9970-4204-8a65-ae3b571bee05
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425861(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183896
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d5c3ed1202a7e760e3848c895571b8be9dd1dcb2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f6f825179b2967ef96db3b2f035eefbad1049572
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843037"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737790"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

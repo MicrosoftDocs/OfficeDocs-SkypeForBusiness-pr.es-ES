@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (Opcional) Comprobar la configuración de conferencia 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Verify dial-in conferencing settings
 ms:assetid: a85efdda-97b0-4f3b-bd26-04416bee8ef5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412789(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 177d8516dcb91272eca2a70b89026fc0e175a73a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd283e8d7b86fbadfb2c23b0e8cbe2dc22b66cce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825733"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755714"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

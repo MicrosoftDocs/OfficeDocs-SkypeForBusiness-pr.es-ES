@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de administración de usuarios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User management cmdlets
 ms:assetid: 85312f3f-28e8-421c-b94c-e6ead1f5f755
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398677(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a841daae6a811b6668c61ac1befca045fb73b03f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2396cb1a157b88d8beb9458006c1c8a44874dba3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850264"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
