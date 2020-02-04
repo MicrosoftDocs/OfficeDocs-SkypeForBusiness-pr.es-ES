@@ -3,6 +3,8 @@ title: 'Lync Server 2013: acceso a datos de supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessing monitoring data
 ms:assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688116(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45f6033c927a0d0c27b139d889c5fb0b0d9d4825
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 609963f3248d5bdd1c50eac45b74c188ab2e6c56
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842973"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34842973"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="accessing-monitoring-data-in-lync-server-2013"></a><span data-ttu-id="40f8f-102">Acceso a datos de supervisión en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="40f8f-102">Accessing monitoring data in Lync Server 2013</span></span>
+# <a name="accessing-monitoring-data-in-lync-server-2013"></a><span data-ttu-id="52e87-102">Acceso a datos de supervisión en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="52e87-102">Accessing monitoring data in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34842973"
 
 <span> </span>
 
-<span data-ttu-id="40f8f-103">_**Última modificación del tema:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="40f8f-103">_**Topic Last Modified:** 2012-09-05_</span></span>
+<span data-ttu-id="52e87-103">_**Última modificación del tema:** 2012-09-05_</span><span class="sxs-lookup"><span data-stu-id="52e87-103">_**Topic Last Modified:** 2012-09-05_</span></span>
 
-<span data-ttu-id="40f8f-p101">Los datos de supervisión se almacenan en dos bases de datos de SQL Server: LcsCdr para obtener los datos del registro detallado y QoEMetrics para los datos de Calidad de la experiencia. No hay nada especial en estas dos bases de datos; esto significa que los datos almacenados en estas bases de datos pueden accederse con cualquiera de las herramientas que usa generalmente para obtener acceso y analizar los datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="40f8f-p101">Monitoring data is stored in a pair of SQL Server databases: LcsCdr for call detail recording data, and QoEMetrics for Quality of Experience data. There is nothing special about these two databases; that means that the data stored in those databases can be accessed using any of the tools you typically use for accessing and analyzing SQL Server data.</span></span>
+<span data-ttu-id="52e87-p101">Los datos de supervisión se almacenan en dos bases de datos de SQL Server: LcsCdr para obtener los datos del registro detallado y QoEMetrics para los datos de Calidad de la experiencia. No hay nada especial en estas dos bases de datos; esto significa que los datos almacenados en estas bases de datos pueden accederse con cualquiera de las herramientas que usa generalmente para obtener acceso y analizar los datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="52e87-p101">Monitoring data is stored in a pair of SQL Server databases: LcsCdr for call detail recording data, and QoEMetrics for Quality of Experience data. There is nothing special about these two databases; that means that the data stored in those databases can be accessed using any of the tools you typically use for accessing and analyzing SQL Server data.</span></span>
 
-<span data-ttu-id="40f8f-106">Una de las herramientas que debe considerar para acceder y analizar los datos de supervisión son los informes de supervisión de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="40f8f-106">One tool you should consider for accessing and analyzing monitoring data is the Lync Server Monitoring Reports.</span></span> <span data-ttu-id="40f8f-107">Son un conjunto de informes estándares que son publicados por el servicio de informes del servidor de Microsoft SQL.</span><span class="sxs-lookup"><span data-stu-id="40f8f-107">Monitoring Reports are a set of standard reports that are published by Microsoft SQL Server Reporting Service.</span></span> <span data-ttu-id="40f8f-108">Estos informes, a los que se puede obtener acceso con un explorador web, proporcionan información de uso, diagnóstico de llamadas y calidad de medios, basada en la información del registro detallado de llamadas (CDR) y la calidad de la experiencia (QoE) almacenada en las bases de datos de CDR y QoE.</span><span class="sxs-lookup"><span data-stu-id="40f8f-108">These reports, which are accessible by using a web browser, provide usage, call diagnostic information, and media quality information, all based on call detail recording (CDR) and Quality of Experience (QoE) records stored in the CDR and QoE databases.</span></span> <span data-ttu-id="40f8f-109">Los informes de supervisión se incluyen en Lync Server 2013 y se pueden instalar desde el Asistente para la implementación de Lync Server después de la instalación de Lync Server y la supervisión se ha configurado.</span><span class="sxs-lookup"><span data-stu-id="40f8f-109">Monitoring Reports ship with Lync Server 2013 and can be installed from the Lync Server Deployment Wizard after Lync Server has been installed and monitoring has been configured.</span></span>
+<span data-ttu-id="52e87-106">Una de las herramientas que debe considerar para acceder y analizar los datos de supervisión son los informes de supervisión de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="52e87-106">One tool you should consider for accessing and analyzing monitoring data is the Lync Server Monitoring Reports.</span></span> <span data-ttu-id="52e87-107">Son un conjunto de informes estándares que son publicados por el servicio de informes del servidor de Microsoft SQL.</span><span class="sxs-lookup"><span data-stu-id="52e87-107">Monitoring Reports are a set of standard reports that are published by Microsoft SQL Server Reporting Service.</span></span> <span data-ttu-id="52e87-108">Estos informes, a los que se puede obtener acceso con un explorador web, proporcionan información de uso, diagnóstico de llamadas y calidad de medios, basada en la información del registro detallado de llamadas (CDR) y la calidad de la experiencia (QoE) almacenada en las bases de datos de CDR y QoE.</span><span class="sxs-lookup"><span data-stu-id="52e87-108">These reports, which are accessible by using a web browser, provide usage, call diagnostic information, and media quality information, all based on call detail recording (CDR) and Quality of Experience (QoE) records stored in the CDR and QoE databases.</span></span> <span data-ttu-id="52e87-109">Los informes de supervisión se incluyen en Lync Server 2013 y se pueden instalar desde el Asistente para la implementación de Lync Server después de la instalación de Lync Server y la supervisión se ha configurado.</span><span class="sxs-lookup"><span data-stu-id="52e87-109">Monitoring Reports ship with Lync Server 2013 and can be installed from the Lync Server Deployment Wizard after Lync Server has been installed and monitoring has been configured.</span></span>
 
-<span data-ttu-id="40f8f-p103">Como se observó, los Informes de supervisión requieren el uso del servicio de informes del servidor SQL. El servicio de informes del servidor SQL puede instalarse simultáneamente con el Servidor SQL o puede instalarse en cualquier momento después de haber instalado el Servidor SQL.</span><span class="sxs-lookup"><span data-stu-id="40f8f-p103">As noted, Monitoring Reports requires the use of SQL Server Reporting Service. SQL Server Reporting Service can be installed at the same time you install SQL Server or can be installed any time after SQL Server itself has been installed.</span></span>
+<span data-ttu-id="52e87-p103">Como se observó, los Informes de supervisión requieren el uso del servicio de informes del servidor SQL. El servicio de informes del servidor SQL puede instalarse simultáneamente con el Servidor SQL o puede instalarse en cualquier momento después de haber instalado el Servidor SQL.</span><span class="sxs-lookup"><span data-stu-id="52e87-p103">As noted, Monitoring Reports requires the use of SQL Server Reporting Service. SQL Server Reporting Service can be installed at the same time you install SQL Server or can be installed any time after SQL Server itself has been installed.</span></span>
 
-<span data-ttu-id="40f8f-112">Para obtener más información, vea el tema sobre [Cómo instalar los informes de supervisión de Lync server 2013](lync-server-2013-installing-lync-server-2013-monitoring-reports.md) en la guía de implementación de lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="40f8f-112">For more information, see the topic [Installing Lync Server 2013 Monitoring Reports](lync-server-2013-installing-lync-server-2013-monitoring-reports.md) in the Lync Server 2013 deployment guide.</span></span>
+<span data-ttu-id="52e87-112">Para obtener más información, vea el tema sobre [Cómo instalar los informes de supervisión de Lync server 2013](lync-server-2013-installing-lync-server-2013-monitoring-reports.md) en la guía de implementación de lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="52e87-112">For more information, see the topic [Installing Lync Server 2013 Monitoring Reports](lync-server-2013-installing-lync-server-2013-monitoring-reports.md) in the Lync Server 2013 deployment guide.</span></span>
 
 </div>
 
