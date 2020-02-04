@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restaurar o archivar datos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring monitoring or archiving data
 ms:assetid: 60118526-13bb-4b03-803e-6ffae219d436
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202175(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 803cb6050d4230653a13f1e3e66c2a092911c509
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9621fe3c1905dbd34fd3b4da39b2562c608d6355
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822387"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -81,7 +83,7 @@ En el procedimiento siguiente se describe cómo usar SQL Server Management Studi
     
     2.  En **nombre de inicio de sesión**, escriba el nombre del grupo que falta, RTCComponentUniversalServices.
     
-    3.  En pertenencia al rol de la **** **base de datos**, seleccione el permiso y haga clic en **Aceptar**.
+    3.  En **pertenencia al rol** **de la** base de datos, seleccione el permiso y haga clic en **Aceptar**.
     
     <div>
     

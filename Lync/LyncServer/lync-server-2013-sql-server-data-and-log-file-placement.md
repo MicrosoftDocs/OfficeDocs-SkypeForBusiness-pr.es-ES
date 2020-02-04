@@ -3,6 +3,8 @@ title: 'Lync Server 2013: SQL Ubicación de datos y de archivos de registro de S
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SQL Server data and log file placement
 ms:assetid: 67aa525b-8aa3-474f-827e-8e1d4697f30f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398479(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184395
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a528ba7a348ebb5c8f865a795f8b1f1c1bc30cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 197141ea62307631eab206fce5403d25b4d89583
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850587"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764446"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

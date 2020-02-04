@@ -3,6 +3,8 @@ title: Requisitos previos y permisos de configuración para conferencias de acce
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing configuration prerequisites and permissions
 ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412865(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185165
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a60fc58e0ec40dadff044257d43629c2f3cb01ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6610272c39583b70c1ab20d8271551796f65372
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835407"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762308"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +101,7 @@ En el siguiente diagrama de flujo se muestran los pasos que debe realizar para p
 
 **Implementación de conferencias de acceso telefónico local**
 
-![Diagrama de flujo de implementación de conferencias de acceso telefónico local] (images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Diagrama de flujo de implementación de conferencias de acceso telefónico local")
+![Diagrama de flujo de implementación de conferencias de acceso telefónico local](images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Diagrama de flujo de implementación de conferencias de acceso telefónico local")
 
 </div>
 

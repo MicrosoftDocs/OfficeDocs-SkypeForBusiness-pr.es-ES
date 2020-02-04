@@ -3,6 +3,8 @@ title: 'Lync Server 2013: mover usuarios a otro grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move users to another pool
 ms:assetid: e7b4968c-0e9d-4d56-b5f1-9edf0f7206f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185879
 ms.date: 02/09/2018
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fb716c0b551475a53cacf09be10ffdc039f5db8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7dffa2e7651e056d9dc14b1e261134783d0fd193
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826657"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,15 +59,15 @@ Puede usar el panel de control de Lync Server para asignar usuarios a un servido
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
-4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar. **.
+4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desee y, a continuación, haga clic en **Buscar**.
 
 5.  En la tabla, seleccione un usuario o usuarios específicos de la lista.
 
 6.  En el menú **acción** , haga clic en **mover los usuarios seleccionados al grupo**.
 
-7.  En **mover usuarios**, seleccione el grupo al que desea mover los usuarios en el grupo de registrador de **destinos**.
+7.  En **mover usuarios**, seleccione el grupo al que desea mover los usuarios en el **grupo de registrador de destinos**.
 
-8.  Faculta Si el servidor de destino o el grupo de servidores no **** están disponibles, active la casilla forzar.
+8.  Faculta Si el servidor de destino o el grupo de servidores no están disponibles, active la casilla **forzar** .
     
     <div>
     
@@ -90,11 +92,11 @@ Puede usar el panel de control de Lync Server para asignar usuarios a un servido
 
 4.  En el menú **acción** , haga clic en **mover todos los usuarios al grupo**.
 
-5.  En **mover usuarios**, seleccione el grupo que contiene las cuentas de usuario que desea mover en el **Grupo**de registrador de origen.
+5.  En **mover usuarios**, seleccione el grupo que contiene las cuentas de usuario que desea mover en el **grupo de registrador de origen**.
 
-6.  En **Grupo**de registradores de destino, seleccione el grupo al que desea mover a los usuarios.
+6.  En **grupo de registradores de destino**, seleccione el grupo al que desea mover a los usuarios.
 
-7.  Faculta Si el servidor de destino o el grupo de servidores no **** están disponibles, active la casilla forzar.
+7.  Faculta Si el servidor de destino o el grupo de servidores no están disponibles, active la casilla **forzar** .
     
     <div>
     
@@ -132,11 +134,11 @@ Puede usar el panel de control de Lync Server para asignar usuarios a un servido
     
     </div>
 
-7.  En **mover usuarios**, seleccione el grupo que contiene las cuentas de usuario que desea mover en el **Grupo**de registrador de origen.
+7.  En **mover usuarios**, seleccione el grupo que contiene las cuentas de usuario que desea mover en el **grupo de registrador de origen**.
 
-8.  En **Grupo**de registradores de destino, seleccione el grupo al que desea mover los usuarios.
+8.  En **grupo de registradores de destino**, seleccione el grupo al que desea mover los usuarios.
 
-9.  Faculta Si el servidor de destino o el grupo de servidores no **** están disponibles, active la casilla forzar.
+9.  Faculta Si el servidor de destino o el grupo de servidores no están disponibles, active la casilla **forzar** .
     
     <div>
     
@@ -155,7 +157,7 @@ Puede usar el panel de control de Lync Server para asignar usuarios a un servido
 
 1.  En función de cómo ejecute los comandos de Windows PowerShell (es decir, de forma local o remota), tendrá que iniciar sesión como miembro de las funciones administrativas correctas de Lync Server 2013 de la siguiente manera:
     
-    1.  Si está ejecutando los comandos en el equipo local (por ejemplo, inicia sesión directamente en un servidor de aplicaciones para el usuario): inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+    1.  Si está ejecutando los comandos en el equipo local (por ejemplo, inicia sesión directamente en un servidor de aplicaciones para el usuario): inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
     
     2.  Si ejecuta los comandos de forma remota en otro equipo (por ejemplo, inicia sesión en el equipo y ejecuta los comandos de forma remota en un servidor front-end Standard Edition): desde una cuenta de usuario asignada al rol CsUserAdministrator o CsAdministrator rol, inicie sesión en cualquier equipo de su implementación interna.
 

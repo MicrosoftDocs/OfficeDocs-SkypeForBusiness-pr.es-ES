@@ -3,6 +3,8 @@ title: 'Lync Server 2013: proceso de implementación para la recogida de llamada
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for Group Call Pickup
 ms:assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945615(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04ff5eda01c5436240c0baca2b1711bba8e9c996
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 015aa2817b7d829d1714288182775b42ba2bb1f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835472"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762638"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

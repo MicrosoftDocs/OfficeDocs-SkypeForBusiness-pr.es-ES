@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear el diseño de topología inicial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create the initial design
 ms:assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615047(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 656e9605695fe7dab160469ffa9e9c5075ac807b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fc8d3e731c2772b275dd861c41b8c10f2127a2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835768"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756964"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,17 +53,17 @@ Una vez que haya terminado de instalar Lync Server 2013, la herramienta de plane
 
 ## <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>Para empezar a usar la herramienta de planificación y crear el diseño inicial
 
-1.  Inicie Lync Server 2013, herramienta de planeación: haga clic en **Inicio**, haga clic en **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **herramienta**de planeación.
+1.  Inicie Lync Server 2013, herramienta de planeación: haga clic en **Inicio**, haga clic en **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **herramienta de planeación**.
 
 2.  Después de iniciar la herramienta de planeación, aparece la página **de bienvenida a la herramienta de planeación de Microsoft Lync Server 2013** . Para empezar el diseño, elija una de las opciones siguientes:
     
       - **Opción 1:**   Introducción al hacer clic en **comenzar** proporciona una serie de preguntas de entrevista con las selecciones pertinentes para definir los criterios. Una vez completada la sección de entrevistas de **Introducción**, se pasa a la fase **Diseñar sitios** para definir la arquitectura del sitio. Para completar esta opción, vaya al paso 3.
     
-      - **Opción 2: diseñar sitios**   al hacer clic en **sitios de diseño** , en la página de bienvenida se omiten las preguntas de entrevista que se presentan en la sección introducción. **** Los datos que el usuario facilita al responder a las preguntas de la entrevista de **Introducción** se definen como sus valores predeterminados con esta opción. Al hacer clic en **Diseñar sitios**, los diseñadores avanzados pueden prescindir de la entrevista inicial y modificar los valores predeterminados a su conveniencia en la página de inicio de **Sitios centrales**. Para completar esta opción, omita los pasos del 3 al 5 y comience en el paso 6.
+      - **Opción 2: diseñar sitios**   al hacer clic en **sitios de diseño** , en la página de bienvenida se omiten las preguntas de entrevista que se presentan en **la sección introducción** . Los datos que el usuario facilita al responder a las preguntas de la entrevista de **Introducción** se definen como sus valores predeterminados con esta opción. Al hacer clic en **Diseñar sitios**, los diseñadores avanzados pueden prescindir de la entrevista inicial y modificar los valores predeterminados a su conveniencia en la página de inicio de **Sitios centrales**. Para completar esta opción, omita los pasos del 3 al 5 y comience en el paso 6.
     
       - **Opción 3: Mostrar la topología**   guardada si ya ha completado y guardado una topología a través del uso anterior de la herramienta de planeación, puede omitir la mayoría de estos pasos y empezar abriendo y mostrando la topología. Además, puede cambiar y actualizar la topología, volverla a guardar y exportarla a Microsoft Excel o Microsoft Visio. Para completar esta opción, omita los pasos del 3 al 12 y comience en el paso 13.
 
-3.  Haga **** clic en introducción para empezar a diseñar su topología de 2013 de Lync Server.
+3.  Haga **clic en introducción para** empezar a diseñar su topología de 2013 de Lync Server.
 
 4.  Responda a cada pregunta seleccionando el criterio correcto para el diseño; después, haga clic en **Siguiente** para pasar a la página siguiente del Asistente. Haga clic en **Atrás** para hacer cambios en páginas anteriores.
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrar socios federados XMPP para su organizació
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage XMPP federated partners for your organization
 ms:assetid: 48681433-725d-457f-926b-f91d95bcf082
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552450(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da73eaa90363f0d8ab32c9484f6fa32a7eed9459
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 329f2621a4c1904e515f77e0cbcc17effad99bc3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828232"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

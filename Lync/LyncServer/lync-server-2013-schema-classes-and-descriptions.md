@@ -3,6 +3,8 @@ title: 'Lync Server 2013: descripciones y clases de esquema'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Schema classes and descriptions
 ms:assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398625(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39bd0b3ff3c99e7de731f94eda0d3775ac4bd7cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5080af0977457f5c4a75d2f121e75560b0f24524
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822142"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764938"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

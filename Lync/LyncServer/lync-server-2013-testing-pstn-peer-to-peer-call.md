@@ -3,6 +3,8 @@ title: 'Lync Server 2013: realizar una llamada de punto a punto de RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN peer to peer call
 ms:assetid: 7e128eef-9ada-49b4-940f-97d7d13f1e4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690131(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969622
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51b74697c7d6d5a037537bb036494d89264c4e75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f120747eb50e8c1c52bb14d0a8883db8133022c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850340"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -126,7 +128,7 @@ Si prueba-CsPstnPeerToPeerCall da error, es posible que desee volver a ejecutar 
 
 Cuando se incluye el parámetro detallado, test-CsPstnPeerToPeerCall devolverá una cuenta paso a paso de cada acción que se probó cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, esta salida indica que hay problemas de red que impiden una conexión con la RTC:
 
-Establecer videollamadas de audio a ' SIP: +12065551219@litwareinc.com; User = Phone '.
+Establecer videollamadas de audio a ' SIP: + 12065551219@litwareinc. com; User = Phone '.
 
 Se ha recibido una respuesta ' una 404 (no se encontró) de la red y se produjo un error en la operación.
 

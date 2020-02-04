@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory cmdlets
 ms:assetid: 313d73cb-f3db-4bc4-8708-de4da1d719c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415640(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 727d2020b733d1956097e294891cf67b1fe333f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f77009f20cfbd3e76f5cfc3786bcd9fa9ba2be9b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842962"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

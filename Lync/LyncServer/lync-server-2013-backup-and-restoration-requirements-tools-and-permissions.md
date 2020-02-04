@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de copia de seguridad y restauración: herr
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Backup and restoration requirements: tools and permissions'
 ms:assetid: 35ec2e33-f33e-4f84-9e64-6550fd78aa52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202171(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53128d99abfd438c174b98544889781b5f29b57b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ea5e4ce57e61be50bfd1e2a78529830b4a40e3ed
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842751"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

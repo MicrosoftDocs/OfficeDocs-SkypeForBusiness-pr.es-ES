@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementación de clientes de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync clients
 ms:assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204827(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183925
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bbbecc50ed88ac9b3237277ba1c991f8c1fcba2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3d7f4497fb6842befba3f5facf5de023b94b4a76
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835553"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733609"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

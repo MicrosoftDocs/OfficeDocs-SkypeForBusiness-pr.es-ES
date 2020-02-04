@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información de teléfono de área común'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View common area phone information
 ms:assetid: e652240c-6a3f-4be7-a083-32f24c08e655
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803992
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 900beb4f96fd71e0e6a4ded40d776f1e7d356529
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 38614b2993ddd9ad3fe3a662a334440a1d1287b7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850123"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

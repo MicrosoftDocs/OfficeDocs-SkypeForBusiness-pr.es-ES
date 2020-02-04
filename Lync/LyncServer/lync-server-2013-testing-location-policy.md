@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Directiva de ubicación de pruebas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing location policy
 ms:assetid: 23d06fd3-31ee-4480-ba1e-d179a55b8b14
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690127(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969591
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e034be609bfe773a15935d7f0875e0155b57df75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a954405cb8dbba842250e0545ac8661d4f3795c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850343"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

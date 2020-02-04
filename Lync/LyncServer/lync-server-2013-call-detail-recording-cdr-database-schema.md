@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Esquema de la base de datos de registro de detalles de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call detail recording (CDR) database schema
 ms:assetid: 754642cd-051a-47da-bb08-27800dae39d1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398570(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f434de445599104acad2ab80b64c1579e5172b12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccda99476c1d74c68aacda358a6759b02bc65a78
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842705"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

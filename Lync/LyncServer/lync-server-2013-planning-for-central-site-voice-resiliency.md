@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planeación de resistencia de voz de sitio central'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for central site voice resiliency
 ms:assetid: 52dd0c3e-cd3c-44cf-bef5-8c49ff5e4c7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398347(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184164
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13195c50e88c035b0775d2958cf62cf71f7924c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fbeda869c078e6adfce18088545428170b356980
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,7 +86,7 @@ La siguiente ilustración muestra la topología recomendada para garantizar una 
 
 **Topología recomendada para resistencia de voz de sitio central**
 
-![Topología para resliency de voz de sitio central] (images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topología para resliency de voz de sitio central")
+![Topología de resistencia de voz para sitio central](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topología de resistencia de voz para sitio central")
 
 </div>
 

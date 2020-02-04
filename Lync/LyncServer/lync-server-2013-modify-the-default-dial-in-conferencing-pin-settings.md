@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Modificar la configuración del PIN de la conferencia 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify the default dial-in conferencing PIN settings
 ms:assetid: 2d110e94-ad29-4755-b17f-d8c2da9b78a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425780(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183712
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ee196fae24ba4a6b7bf8e0ede0bbc0b35a7b3fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7a7b9d07e9fad4eb4e59411c9332f0933bd321b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826839"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

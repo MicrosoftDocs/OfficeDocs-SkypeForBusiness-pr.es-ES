@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lista de tablas de QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: List of QoE tables
 ms:assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398236(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51c82c38a995fd9e847057fedbbce1422085332b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c3161415b65c8e85ace7968ab29d86c0d0c5387a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834944"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen de DNS - Servidor perimetral consolidado ampli
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses
 ms:assetid: dc8f096a-a0a4-4f71-8930-88ff8fc089d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205319(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185594
 ms.date: 03/09/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 226f0ac1c27b18ea19cc1893300ad3614130c798
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f748f8107e4d1c0da41a07285eb61e4a3149551
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835357"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,13 +75,13 @@ Puede configurar dos adaptadores de red en cada uno de los servidores perimetral
     
     La dirección IP pública del servicio perimetral de acceso es principal con la puerta de enlace predeterminada establecida para el enrutador público (131.107.155.1).
     
-    Servicio perimetral de conferencias web y direcciones IP privadas de servicio perimetral A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** de la **Propiedades de conexión de área local** en Windows Server.
+    Servicio perimetral de conferencias web y direcciones IP privadas de servicio perimetral A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** de las **propiedades de conexión de área local** de Windows Server.
     
     <div>
     
 
     > [!NOTE]  
-    > Es posible, aunque no recomendable, usar una única dirección IP para las tres interfaces de servicio perimetral. Aunque esto sí guarda las direcciones IP, requiere números de Puerto diferentes para cada servicio. El número de puerto predeterminado es 443/TCP, lo que garantiza que la mayoría de los firewalls remotos permitan el tráfico. Cambiar los valores del puerto a (por ejemplo) 5061/TCP para el servicio perimetral de acceso, 444/TCP para el servicio perimetral de las conferencias web y 443/TCP para el servicio perimetral a/V puede causar problemas a los usuarios remotos en los que un firewall que estén detrás no permite el tráfico por 5061/TCP y 444/TCP. Además, tres direcciones IP distintas hacen que la solución de problemas sea más fácil, ya que es posible filtrar por dirección IP.
+    > Es posible, aunque no recomendable, usar una única dirección IP para las tres interfaces de servicio perimetral. Aunque esto sí guarda las direcciones IP, requiere números de Puerto diferentes para cada servicio. El número de puerto predeterminado es 443/TCP, lo que garantiza que la mayoría de los firewalls remotos permitan el tráfico. Cambiar los valores del puerto a (por ejemplo) 5061/TCP para el servicio perimetral de acceso, 444/TCP para el servicio perimetral de las conferencias web y 443/TCP para el servicio perimetral a/V puede causar problemas a los usuarios remotos en los que un firewall en el que se encuentra no permite el tráfico a través de 5061/TCP y 444/TCP. Además, tres direcciones IP distintas hacen que la solución de problemas sea más fácil, ya que es posible filtrar por dirección IP.
 
     
     </div>
@@ -90,7 +92,7 @@ Puede configurar dos adaptadores de red en cada uno de los servidores perimetral
     
     La dirección IP pública del servicio perimetral de acceso es principal con la puerta de enlace predeterminada establecida para el enrutador público (131.107.155.1).
     
-    Servicio perimetral de conferencias web y direcciones IP privadas de servicio perimetral A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** de la **Propiedades de conexión de área local** en Windows Server.
+    Servicio perimetral de conferencias web y direcciones IP privadas de servicio perimetral A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** de las **propiedades de conexión de área local** de Windows Server.
 
 <div>
 

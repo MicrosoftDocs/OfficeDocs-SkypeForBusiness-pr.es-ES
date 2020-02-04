@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar un nuevo servidor de aplicaciones de confia
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a new trusted application server
 ms:assetid: a7233db7-fac3-43ff-972e-3bc29a56adb3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg617964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fc5a982724dd390ff97bf6dd4cad10f25572732
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dae7e02d7642fed5fea60235283eaa0d7d7e1e35
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842459"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756364"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

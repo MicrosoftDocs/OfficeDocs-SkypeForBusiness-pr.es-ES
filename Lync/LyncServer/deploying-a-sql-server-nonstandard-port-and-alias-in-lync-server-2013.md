@@ -3,6 +3,8 @@ title: Implementación de un alias y un puerto no estándar de SQL Server en Lyn
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying a SQL Server nonstandard port and alias in Lync Server 2013
 ms:assetid: 2da92c1f-250e-407a-8651-fb2aec76aeb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn776290(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62634609
 ms.date: 09/17/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35365cbd43aa3bea9afe5cdd036bd3834fae5037
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fffa3502b04a9d05387cd94e157ed183e1fe32ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842876"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ En el siguiente artículo se describen los pasos necesarios para configurar un p
 
 El generador de topología de Lync Server 2013 admite el uso de un alias de SQL Server como nombre de dominio completo (FQDN) en lugar del FQDN real de SQL Server al configurar Lync Server 2013. Esto permite que el FQDN real de SQL Server esté oculto para cualquier atacante malintencionado. Además, el uso de un puerto no estándar oculta el puerto real de cualquier atacante que pudiera intentar atacar la base de datos en el puerto estándar 1433, tal como se muestra en la siguiente ilustración.
 
-![Un pirata informático no sabe que el número de puerto es atacado.] (images/Dn776290.2f3923e0-2bdc-416b-a66b-bf56599eb14e(OCS.15).jpg "Un pirata informático no sabe que el número de puerto es atacado.")
+![Los atacantes no saben el número de puerto al que atacar.](images/Dn776290.2f3923e0-2bdc-416b-a66b-bf56599eb14e(OCS.15).jpg "Los atacantes no saben el número de puerto al que atacar.")
 
 Para tener éxito al determinar el puerto que usa Lync Server 2013 para comunicarse con SQL Server, el atacante necesita examinar todos los puertos para obtener la información del puerto. Una exploración de puertos por parte de un atacante aumenta las probabilidades de que la seguridad pueda detectar y detener la instrucción. Además de agregar mayor seguridad con un puerto no estándar, también puede usar un alias de SQL Server para proporcionar flexibilidad a la implementación. Esto es útil para reducir los cambios de configuración en situaciones en las que se requiere un cambio de nombre de SQL Server.
 
@@ -95,33 +97,33 @@ El puerto y el alias no estándar de SQL Server se deben configurar en la instan
 
 1.  Seleccione **Inicio**y elija **Administrador de configuración de SQL Server**, como se muestra en la siguiente ilustración.
     
-    ![El icono de SQL Server Management Studio] (images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "El icono de SQL Server Management Studio")
+    ![Icono de SQL Server Management Studio](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "Icono de SQL Server Management Studio")
 
 2.  En el panel de navegación, elija expandir la **instancia de SQL Server**, expanda la **configuración de red de SQL Server**y elija **protocolos para\>el nombre de \<instancia**, como se muestra en la siguiente ilustración.
     
-    ![Ir a propiedades de TCP/IP] (images/Dn776290.3d7a964c-f17e-47fd-8f0c-535453da7fad(OCS.15).jpg "Ir a propiedades de TCP/IP")
+    ![Propiedades de Navegar a TCP/IP](images/Dn776290.3d7a964c-f17e-47fd-8f0c-535453da7fad(OCS.15).jpg "Propiedades de Navegar a TCP/IP")
 
 3.  En el panel derecho, haga clic con el botón derecho en **TCP/IP**y seleccione **propiedades**. Se muestra el cuadro de diálogo Propiedades de TCP/IP.
 
 4.  Seleccione la ficha **direcciones IP** . La ficha direcciones IP muestra todas las direcciones IP activas en el servidor. Están en el formato IP1, IP2, hasta IPAll, tal y como se muestra en la siguiente ilustración.
     
-    ![Abra propiedades de TCP/IP.] (images/Dn776290.ed2fd70d-1836-4ebf-80fe-09191d96585e(OCS.15).jpg "Abra propiedades de TCP/IP.")
+    ![Propiedades de Abrir TCP/IP.](images/Dn776290.ed2fd70d-1836-4ebf-80fe-09191d96585e(OCS.15).jpg "Propiedades de Abrir TCP/IP.")
 
 5.  Borre el campo **puertos dinámicos TCP** para todas las direcciones IP. Si el campo contiene un carácter cero, significa que SQL Server está escuchando en puertos dinámicos. Asegúrese de que estos campos están desactivados y no contienen un cero.
 
 6.  En la dirección IP que usará Lync Server para conectarse a la base de datos, asegúrese de que la **opción habilitada** está establecida en **sí**, tal y como se muestra en la siguiente ilustración.
     
-    ![Establezca la opción habilitada como sí para la dirección IP correcta.] (images/Dn776290.7f818b91-0793-4594-8932-90447270fad9(OCS.15).jpg "Establezca la opción habilitada como sí para la dirección IP correcta.")
+    ![Establece habilitado en Sí para la IP correcta.](images/Dn776290.7f818b91-0793-4594-8932-90447270fad9(OCS.15).jpg "Establece habilitado en Sí para la IP correcta.")
 
 7.  En la sección **IPAll** de la parte inferior del cuadro de diálogo, escriba el puerto deseado en el campo **puerto TCP** , como se muestra en la siguiente ilustración. En este ejemplo, usamos el puerto 50062, pero puede usar cualquier puerto entre 49152 y 65535. Estos son los puertos asignados a uso dinámico y privado, y esto garantiza que no entrará en conflicto con otros puertos que se usan en la implementación de Lync Server 2013.
     
-    ![Establezca puerto en la sección IPAll.] (images/Dn776290.b5af53e2-7961-4664-b586-3ca8f3a17f06(OCS.15).jpg "Establezca puerto en la sección IPAll.")
+    ![Establece el puerto en la sección IPAII.](images/Dn776290.b5af53e2-7961-4664-b586-3ca8f3a17f06(OCS.15).jpg "Establece el puerto en la sección IPAII.")
 
 8.  Elija **Aceptar** para salir del cuadro de diálogo Propiedades de TCP/IP.
 
 9.  Para reiniciar la instancia de SQL Server, seleccione **servicios de SQL** Server en el panel izquierdo del administrador de configuración de SQL Server. A continuación, haga clic con el botón secundario en **nombre \<\> de instancia de SQL Server** en el panel derecho y seleccione **reiniciar**, como se muestra en la siguiente ilustración.
     
-    ![Restablezca el servicio SQL Server para la instancia.] (images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Restablezca el servicio SQL Server para la instancia.")
+    ![Restablecer el servicio de SQL Server para la instancia.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Restablecer el servicio de SQL Server para la instancia.")
 
 <div>
 
@@ -137,17 +139,17 @@ El puerto y el alias no estándar de SQL Server se deben configurar en la instan
 
 1.  Seleccione **Inicio**y elija **Administrador de configuración de SQL Server**, como se muestra en la siguiente ilustración.
     
-    ![El icono de SQL Server Management Studio] (images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "El icono de SQL Server Management Studio")
+    ![Icono de SQL Server Management Studio](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "Icono de SQL Server Management Studio")
 
 2.  En el panel izquierdo, elija expandir la **instancia de SQL Server**, seleccione para expandir la configuración de la ** \<versión\> de SQL Native Client**y, a continuación, elija **alias**, como se muestra en la siguiente ilustración.
     
-    ![Alias en el administrador de configuración de SQL Server.] (images/Dn776290.95341826-55d7-425f-ae19-d47d6668c5d8(OCS.15).jpg "Alias en el administrador de configuración de SQL Server.")
+    ![Alias en el administrador de configuración de SQL Server.](images/Dn776290.95341826-55d7-425f-ae19-d47d6668c5d8(OCS.15).jpg "Alias en el administrador de configuración de SQL Server.")
 
 3.  Haga clic con el botón derecho en **alias**y seleccione **nuevo alias...**.
 
 4.  Escriba el **nombre de alias**, el **número de Puerto**, el **Protocolo**y el **servidor**, tal y como se muestra en la siguiente ilustración.
     
-    ![Crear un nuevo alias] (images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Crear un nuevo alias")
+    ![Crear un nuevo alias](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Crear un nuevo alias")
     
     <div>
     
@@ -164,21 +166,21 @@ El puerto y el alias no estándar de SQL Server se deben configurar en la instan
 
 2.  Seleccione **Inicio**y elija **Administrador del servidor**, como se muestra en la siguiente ilustración.
     
-    ![Abrir el administrador del servidor] (images/Dn776290.3e4bd8ad-2a65-4a05-af40-c8dd3583bc8f(OCS.15).jpg "Abrir el administrador del servidor")
+    ![Abrir el administrador del servidor](images/Dn776290.3e4bd8ad-2a65-4a05-af40-c8dd3583bc8f(OCS.15).jpg "Abrir el administrador del servidor")
 
 3.  Seleccione el menú desplegable **herramientas** y, a continuación, seleccione **DNS**, como se muestra en la siguiente ilustración.
     
-    ![Abrir DNS desde el administrador del servidor.] (images/Dn776290.415e1da1-7c9a-4a4e-a896-ca34a76aaeff(OCS.15).jpg "Abrir DNS desde el administrador del servidor.")
+    ![Abrir DNS desde el administrador del servidor.](images/Dn776290.415e1da1-7c9a-4a4e-a896-ca34a76aaeff(OCS.15).jpg "Abrir DNS desde el administrador del servidor.")
 
 4.  En el panel de la izquierda, expanda el nodo nombre del servidor, expanda el nodo zonas de búsqueda directa y elija el dominio correspondiente.
 
 5.  Haga clic con el botón derecho en el dominio y seleccione **nuevo alias (CNAME)...**, como se muestra en la siguiente ilustración.
     
-    ![Selección de la opción para crear un nuevo alias CNAME] (images/Dn776290.abe66cca-b53c-427a-9094-1a59dc6840ca(OCS.15).jpg "Selección de la opción para crear un nuevo alias CNAME")
+    ![Selección de la opción para crear un nuevo alias CNAME](images/Dn776290.abe66cca-b53c-427a-9094-1a59dc6840ca(OCS.15).jpg "Selección de la opción para crear un nuevo alias CNAME")
 
 6.  Escriba el **nombre de alias** y el **FQDN de SQL Server**, como se muestra en la siguiente ilustración.
     
-    ![Rellenando el cuadro de diálogo nuevo alias CNAME.] (images/Dn776290.dd0ebd2d-3407-4459-8bd9-2b389a7bc440(OCS.15).jpg "Rellenando el cuadro de diálogo nuevo alias CNAME.")
+    ![Rellenando el cuadro de diálogo nuevo alias CNAME.](images/Dn776290.dd0ebd2d-3407-4459-8bd9-2b389a7bc440(OCS.15).jpg "Rellenando el cuadro de diálogo nuevo alias CNAME.")
 
 7.  Elija **Aceptar** para guardar el CNAME y verlo en el administrador de DNS.
 
@@ -206,7 +208,7 @@ Hay varias formas diferentes de asegurarse de que funciona. Desea asegurarse de 
 
 2.  Escriba **netstat-a-f**y confirme que SQL Server se está ejecutando con el puerto correcto, tal y como se muestra en la siguiente ilustración.
     
-    ![Uso de netstat para comprobar el puerto.] (images/Dn776290.4ff3a1b2-c5eb-4496-8be7-374c351fa027(OCS.15).jpg "Uso de netstat para comprobar el puerto.")
+    ![Uso de netstat para comprobar el puerto.](images/Dn776290.4ff3a1b2-c5eb-4496-8be7-374c351fa027(OCS.15).jpg "Uso de netstat para comprobar el puerto.")
 
 3.  Escriba **Puerto \< \# de nombre\> \<de alias de Telnet** para confirmar la conexión a la instancia de SQL Server. Si la conexión se realiza correctamente, Telnet se conectará y no se producirá un error. Esto muestra que la instancia de SQL Server está escuchando en el puerto correcto con el alias correcto. Si hay un problema al conectarse a la base de datos de SQL Server, entonces Telnet muestra un error que indica que no se puede establecer la conexión. Ahora que ha verificado la conectividad de la base de datos en el servidor de base de datos, puede hacer lo mismo desde Lync Server (a través de la red) y asegurarse de que no haya firewalls bloqueando el acceso durante el proceso.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos previos de configuración del estacionamien
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Park configuration prerequisites and user rights
 ms:assetid: 25b8cfe0-e4e7-487c-9e78-8c040f629059
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425730(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183648
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64a2f322ffec1d2ffa7aa238b76686391fc76ed7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 485c8ee5ba2f7d788ef2917488ebfd86607d48d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842697"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

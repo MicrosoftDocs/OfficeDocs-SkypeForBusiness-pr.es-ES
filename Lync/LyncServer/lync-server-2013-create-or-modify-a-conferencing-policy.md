@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar una directiva de conferencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a conferencing policy
 ms:assetid: e2974030-2c0a-4634-91e8-93f4e2d674d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 898ffb4473fadd4470ef7e1559fa3cc0c54185c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7f3dd712b94838382f6022de888383c0f47bee6e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835810"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758094"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

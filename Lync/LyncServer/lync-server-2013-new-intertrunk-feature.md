@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nueva característica de troncos cruzados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New intertrunk feature
 ms:assetid: ca6c97a4-e981-4628-96e3-ab6a083c6c05
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721886(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733820
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa2b1a0bb852586207eb5a78f36c01ea94a31405
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 833cfd1e11b885fc4291f2bbbfecb7d6118074e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826216"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758622"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

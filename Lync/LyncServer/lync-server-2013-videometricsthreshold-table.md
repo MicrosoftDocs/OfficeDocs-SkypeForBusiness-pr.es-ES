@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tabla VideoMetricsThreshold'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VideoMetricsThreshold table
 ms:assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204778(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183736
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c15910f6478f3df12bf906f04aee82c89a822de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 93dc2fd539ccc24717939ccfa2ca93032fd9f25b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850128"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

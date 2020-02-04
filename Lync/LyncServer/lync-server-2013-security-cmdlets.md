@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de seguridad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security cmdlets
 ms:assetid: 9a6c654d-287d-434e-8d93-409f0d623f5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398799(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31ede87f55754528fc7164c6d7d828eaada662e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df13c5182d97534e32f0f4d383df73985907c8f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822135"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

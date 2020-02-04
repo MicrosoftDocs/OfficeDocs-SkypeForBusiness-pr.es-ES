@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Mover usuarios a telefonía IP empresarial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Moving users to Enterprise Voice
 ms:assetid: a2df6d51-5cf2-4d3e-8f97-496af5fd5e5e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412758(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184958
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1127bd0c767da7f02df8aefb30fda41a64bd353a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e92f0a7d71d42d8551a51028afec209e795941d5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826741"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756694"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -98,9 +100,9 @@ Desde dónde se deben procesar muchos números de teléfono, la mejor opción es
 
   - Si su organización mantiene todos los números de teléfono en los servicios de dominio de Active Directory en un solo formato y este formato es E. 164, su script solo necesita escribir cada número de teléfono principal en el atributo **msRTCSIP-line** .
 
-  - Si su organización mantiene todos los números de teléfono en los servicios de dominio de Active Directory en un solo formato, pero ese formato no es E. 164, su script debe definir una regla de normalización adecuada para convertir los números de teléfono principales de su formato existente. a E. 164 antes de escribirlos en el atributo **msRTCSIP-line** .
+  - Si su organización mantiene todos los números de teléfono en los servicios de dominio de Active Directory en un solo formato, pero ese formato no es E. 164, su script debe definir una regla de normalización adecuada para convertir los números de teléfono principales de su formato existente a E. 164 antes de escribirlos en el atributo de **msRTCSIP-line** .
 
-  - Si su organización no impone un formato estándar para los números de teléfono de los servicios de dominio de Active Directory, su script debe definir las reglas de normalización apropiadas para convertir los números de teléfono principales de los distintos formatos a E. 164 conformidad antes de escribir los números de teléfono primarios en el atributo de **msRTCSIP-line** .
+  - Si su organización no exige un formato estándar para los números de teléfono de los servicios de dominio de Active Directory, su script debe definir las reglas de normalización apropiadas para convertir los números de teléfono principales de los distintos formatos a E. 164 conformidad antes de escribir los números de teléfono principales en el atributo **msRTCSIP-line** .
 
 El script también tendrá que insertar el prefijo **Tel:** antes de cada número principal antes de escribirlo en el atributo de **msRTCSIP-line** .
 
@@ -114,7 +116,7 @@ El formato esperado del número especificado en este atributo es:
     
 
     > [!IMPORTANT]  
-    > La normalización realizada por el servicio de libreta de direcciones (ABS) no reemplaza o elimina la necesidad de normalizar el número de teléfono principal de cada usuario en servicios de dominio de Active Directory porque ABS no tiene acceso a los servicios de dominio de Active Directory y por lo tanto, no puede copiar números primarios en el atributo <STRONG>msRTCSIP-line</STRONG> .
+    > La normalización realizada por el servicio de libreta de direcciones (ABS) no reemplaza o elimina la necesidad de normalizar el número de teléfono principal de cada usuario en servicios de dominio de Active Directory porque ABS no tiene acceso a los servicios de dominio de Active Directory y, por lo tanto, no puede copiar números principales en el atributo <STRONG>msRTCSIP-line</STRONG> .
 
     
     </div>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Permisos de implementación para SQL Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment permissions for SQL Server
 ms:assetid: 56ea0c02-bcf5-4d45-aa13-570531c29074
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398375(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184197
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea0334c7070ae3aadb3191da4bf036a978878688
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 393e293dfc7e20fa1e990d9f87c17c6e72776be3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835477"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762658"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

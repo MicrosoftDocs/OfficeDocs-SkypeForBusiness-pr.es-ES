@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes que usa la aplicación Anuncio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components used by the Announcement application
 ms:assetid: 7b1a0281-cf31-459d-a734-5f10a129089c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184595
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e8e4a0fdfe0dcdd69a3f371aed338caf7f73348
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52ef0b1da665f8797f29582e9ce9e1d311287d61
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842501"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

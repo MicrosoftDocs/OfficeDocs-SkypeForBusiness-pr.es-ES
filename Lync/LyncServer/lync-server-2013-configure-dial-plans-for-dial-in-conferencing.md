@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar planes de marcado para las conferencias de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure dial plans for dial-in conferencing
 ms:assetid: a3e0958e-384f-43e5-b4c9-686b6ecac7ed
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412768(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185051
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 11424148db609fa8225b6c98d1de52fa360eb044
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 544c431257dea20db729e80dd1d9acc565da8201
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842389"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

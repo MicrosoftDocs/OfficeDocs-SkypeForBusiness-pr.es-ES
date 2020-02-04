@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar el inicio de sesión automático de los cli
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Automatic Client Sign-In to use the Director
 ms:assetid: 85369ffc-53ae-43be-8a23-84a094faecff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398678(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184703
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63e885080879b2b7ce3cf87557b21822fe9cd26f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b9a6d9090796b2c6c2271025ed4d17a134943c11
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842422"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

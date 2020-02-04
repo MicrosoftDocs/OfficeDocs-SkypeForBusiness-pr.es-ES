@@ -3,6 +3,8 @@ title: 'Lync Server 2013: modificar la configuración de los archivos de registr
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify settings for Device Update log files
 ms:assetid: 9b57f126-1853-43b3-bbd4-06401e6498bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182554(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184975
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 37002e1043f990ae1e726301b9c720af35556201
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 88d75086f0532205c2897f7e86d49f50072aaa89
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826888"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

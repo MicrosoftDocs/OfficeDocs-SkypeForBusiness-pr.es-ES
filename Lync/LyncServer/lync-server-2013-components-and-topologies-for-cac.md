@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes y topologías para CAC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for CAC
 ms:assetid: 83a2ee45-fa96-48da-8a34-f1aced92b3fe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398663(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e1875f5a0027584a388b4908b5ac97812e9f07a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f9d705acb282c68372a2f3087ff010bab8f9a01
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842517"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

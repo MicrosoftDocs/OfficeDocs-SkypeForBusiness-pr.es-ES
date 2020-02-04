@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar un flujo de trabajo de un grupo de c
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a hunt group workflow
 ms:assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205321(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c927b10107626c1d40c33290b30f331f660e45e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e56a93ae0be1fd6f047dc6cde724afbea7aa4064
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842072"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758064"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

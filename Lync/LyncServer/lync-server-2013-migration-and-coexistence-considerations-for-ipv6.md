@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Consideraciones sobre coexistencia y migración para I
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migration and coexistence considerations for IPv6
 ms:assetid: 8c769c4f-c8a9-4cbf-9080-beee3be9848a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205068(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184751
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8adf81df14d5c87eb2b54b63d9a58fc1b6f5b97e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5785b270aa3070c2b1592112ab4d5ae582e52bc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827070"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766031"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

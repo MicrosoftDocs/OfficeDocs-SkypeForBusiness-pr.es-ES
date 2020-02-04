@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar el acceso anónimo a aplicaciones Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test anonymous Web App access
 ms:assetid: 92f691cd-e05e-4bab-beb5-251d4b837a19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767949(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969630
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 701954a872645e80d6aac82cab1fbf5745ad6984
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8aabac9e106c325b7b1b964e6e594bb2b05ef85c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850429"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar el almacenamiento de archivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DFS file storage
 ms:assetid: a985be20-5a00-4f38-b45b-83dc82de3827
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205150(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185037
 ms.date: 05/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c34d0f93e94c954b3ad2ab6cbd472a3d6a40e3e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1bbb932a602ad1fc49907be9c5ab2777bc7a415f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842404"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ El procedimiento siguiente describe cómo configurar correctamente los permisos 
 
 2.  En el árbol de consola del complemento Administración de DFS, haga clic con el botón secundario en el servidor de espacio de nombres (por ejemplo, filesrv1.contoso.com) y, a continuación, haga clic en **Editar configuración**.
 
-3.  Seleccione **permisos de carpetas**compartidas.
+3.  Seleccione **permisos de carpetas compartidas**.
 
 4.  Seleccione **usar permisos personalizados**.
 

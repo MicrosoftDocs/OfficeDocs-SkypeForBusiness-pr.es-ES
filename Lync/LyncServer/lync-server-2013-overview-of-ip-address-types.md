@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Información general sobre los tipos de direcciones IP
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of IP address types for Lync Server
 ms:assetid: ee9a695f-5cf5-441e-94fb-6adeca50e8d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205363(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185759
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90d31045879c4e6f488c232687346ed0413ef62b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d1172fc7da9600de036312adb05548b51dea6b0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825516"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Tiene tres opciones para configurar las direcciones IP en Lync Server 2013. Pued
 
   - **Solo IPv6 a**   la inversa, una implementación de IPv6 completa, en este momento, excluirá la comunicación con muchos dispositivos existentes.
 
-  - **** Pila Dual Stack es una red en la que se habilitan las direcciones IPv4 e IPv6.    Esta configuración es compatible con Lync Server 2013 porque, en la mayoría de los casos, la transición de IPv4 completa a Full-IPv6 llevará varios años.
+  - **Pila Dual Stack**es una red en la que se habilitan las direcciones IPv4 e IPv6.    Esta configuración es compatible con Lync Server 2013 porque, en la mayoría de los casos, la transición de IPv4 completa a Full-IPv6 llevará varios años.
 
 En las secciones siguientes se describe la compatibilidad entre estas tres configuraciones para varias características de Lync Server.
 

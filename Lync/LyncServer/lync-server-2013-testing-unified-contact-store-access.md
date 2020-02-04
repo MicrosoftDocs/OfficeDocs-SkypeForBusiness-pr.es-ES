@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar el acceso a almacén de contactos unificado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Unified Contact Store access
 ms:assetid: 761f46bd-2e14-4f40-82b9-afa1eaa816b0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727309(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969621
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef1d8d8930b9e732faeef02c76d722331c726b67
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 47d5d216a1d7a389f20bf2c59f94baf54636d409
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850313"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

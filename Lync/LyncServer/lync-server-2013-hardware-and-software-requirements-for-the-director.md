@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de hardware y software para el director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardware and software requirements for the Director
 ms:assetid: 747b701e-7f97-46fe-91c5-1e8d9addf9f7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398560(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184517
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3b1b2a3f642c01d3a4743281554834e9ddda55f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52d91a739935b2e42bb925d5645350c5875e5b43
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835079"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762198"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: nueva característica de recogida de llamadas grupales
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Group Call Pickup feature
 ms:assetid: 59ec90d6-0ec6-4635-91f9-78a6dd02b93c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945630(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541478
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd66d9c73fbe8c537c99b81cfa6386e34244f334
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0e42884d3880fa1a31c96d9a25676b5ceecd8313
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826202"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758642"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

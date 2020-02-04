@@ -3,6 +3,8 @@ title: 'Lync Server 2013: híbrida y dividida-dominio-detección automática'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hybrid and split-domain - Autodiscover
 ms:assetid: c855bcc5-b656-4d2d-92d6-f016f2797d3a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945652(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541520
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 389288a695f7e8ed96ab72d16f612ffd92a7b013
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce38bba4717e3340e7eacf33ce67fc357d208b83
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835044"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763018"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista de registro'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Registration view
 ms:assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688120(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733718
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe1b01b748204d3d4365b6f28ae4480d3632b35a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 120f0cb40bb3401a327e495a460db400a9359891
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823829"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

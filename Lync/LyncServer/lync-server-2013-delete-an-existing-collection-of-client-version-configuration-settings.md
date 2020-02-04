@@ -3,6 +3,8 @@ title: Eliminar una colección existente de parámetros de configuración de la 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing collection of client version configuration settings
 ms:assetid: 70bf1216-d0d2-45ce-881f-b8edadf3cec7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898480(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a71df7af1f0a6158cb61e780b44ed4227d32018
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf3015358c27786b03b505e580acd599e26d4f3a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835617"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

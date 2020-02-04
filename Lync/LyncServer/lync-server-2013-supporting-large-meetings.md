@@ -3,6 +3,8 @@ title: 'Lync Server 2013: compatibilidad con reuniones grandes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supporting large meetings using Lync Server
 ms:assetid: 509a424f-a33d-4e72-8f87-a3ec7bb1ddeb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204894(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4e8c37c5498702e893da803497177c086a39a35
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d2c36d99bc5af62771aabb643df1223db3a291c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850530"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764306"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

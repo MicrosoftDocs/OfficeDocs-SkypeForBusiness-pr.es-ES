@@ -3,6 +3,8 @@ title: 'Lync Server 2013: solución de problemas de roles de servidor y cmdlets 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting server roles and services cmdlets
 ms:assetid: 03be4cae-bf35-40b2-8e02-477b64afa4c9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415628(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183268
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39c4e8a69a87df5454a9e23cb75d2da85a8ae920
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bb8c4504674e5459fbbb0e7529ea4e6c4ad7a8f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850297"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

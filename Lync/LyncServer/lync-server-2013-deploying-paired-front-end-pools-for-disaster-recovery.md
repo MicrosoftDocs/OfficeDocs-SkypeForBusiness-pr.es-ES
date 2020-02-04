@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implementación de grupos front-end emparejados para r
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying paired Front End pools for disaster recovery
 ms:assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204773(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183727
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c01549722fe04d0a4833a9d2c37fd5e85dc575a7
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: d264128a7fef38fd220d2527772d6065dca7c964
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971124"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740920"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

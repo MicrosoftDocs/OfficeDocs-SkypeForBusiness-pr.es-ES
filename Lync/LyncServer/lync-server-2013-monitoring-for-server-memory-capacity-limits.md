@@ -3,6 +3,8 @@ title: 'Lync Server 2013: supervisión de los límites de capacidad de memoria d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring for server memory capacity limits
 ms:assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh689982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183506
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68728c85b14231644b445569857896f34abe535f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5c9746240335b1c66606da24edf6ffa2a0e7bda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826734"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765981"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,11 +57,11 @@ Dos contadores de rendimiento de movilidad pueden ayudarle a determinar su uso a
 
 Si la diferencia entre **Número de sesiones actualmente activas con suscripciones de presencia activas** y **Número de sesiones actualmente activas** es pequeña con el transcurso del tiempo, significa que la mayoría de los usuarios de dispositivos móviles tiene un dispositivo conectado siempre, como un dispositivo móvil Android o Nokia (solo para Mcx). UCWA los dispositivos siempre conectados incluyen Apple y Android que ejecutan clientes móviles de Lync 2013). Si **Número de sesiones actualmente activas** es muy superior a **Número de sesiones actualmente activas con suscripciones de presencia activas**, quiere decir que hay más usuarios que usan un dispositivo de extremo en segundo plano, como un dispositivo Apple iOS o Windows Phone con Mcx. (Windows Phone es el único cliente móvil de Lync 2013 que se registrará como this).
 
-Debe establecer un límite en el recuento de **sesiones activas actualmente con suscripciones de presencia activas** y contadores de rendimiento de recuento de **sesiones actualmente activos** según el uso previsto, los resultados de la planificación de capacidad y la supervisión continuada de Servicio de movilidad y otros contadores de servidor front-end. Los límites que establezca necesitan permitirle evaluar la capacidad del servidor y generar alertas cuando dicha capacidad se exceda.
+Debe establecer un límite en el **recuento de sesiones activas actualmente con suscripciones de presencia activas** y contadores de rendimiento de **recuento de sesiones actualmente activos** según el uso previsto, los resultados de la planificación de capacidad y la supervisión continua de los contadores de servicio de movilidad y otros servidores front-end. Los límites que establezca necesitan permitirle evaluar la capacidad del servidor y generar alertas cuando dicha capacidad se exceda.
 
 Para determinar los límites adecuados, primero debe determinar cuánta memoria está disponible en el servidor front-end para el servicio de movilidad. Supervise los contadores para determinar cuándo hay que planear la capacidad adicional según la fórmula siguiente:
 
-Memoria total usada por el servicio de movilidad de MCX (MB) = 164 + (400 + 134) \* /1024 recuento **de sesión activo actualmente con suscripciones de presencia activas** + 400/1024 \* (recuento de**sesiones actualmente** activas; recuento de **sesiones activas actualmente con suscripciones de presencia activas**)
+Memoria total usada por el servicio de movilidad de MCX (MB) = 164 + (400 + 134) \* /1024 **recuento de sesiones activas con suscripciones de presencia activas** + 400/1024 \* (recuento de**sesiones actualmente** activas; **recuento de sesiones activas actualmente con suscripciones de presencia activas**)
 
 <div>
 

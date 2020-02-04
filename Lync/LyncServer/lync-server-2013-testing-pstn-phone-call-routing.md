@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar el enrutamiento de llamadas de teléfono RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN phone call routing
 ms:assetid: 301dd44d-03e9-41cd-9722-54e00365aa45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727302(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969598
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faa6bfe178397ab474c1bcd8edc21107faff8dc3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2dabe54fb2ba4df864d172015efb62ef161c77cb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850342"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

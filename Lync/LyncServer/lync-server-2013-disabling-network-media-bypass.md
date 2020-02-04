@@ -3,6 +3,8 @@ title: 'Lync Server 2013: deshabilitar la omisión de medios de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disabling network media bypass
 ms:assetid: 936d2678-d712-4589-b172-b5793013652f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688141(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9bfab9fbf8174a1124a45681098196c84ac5444
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0457281a743d317e17a5fd0728e1a747b4d88271
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835377"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757614"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

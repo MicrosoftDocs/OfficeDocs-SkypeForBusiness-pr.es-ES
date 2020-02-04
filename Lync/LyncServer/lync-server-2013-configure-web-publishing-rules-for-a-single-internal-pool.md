@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar las reglas de publicación web para un solo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure web publishing rules for a single internal pool
 ms:assetid: 86ff4b2a-1ba9-46a2-a175-8b19e00a49dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429712(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184725
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ffe61072df14e28c20c45eb72302905986c6357
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ea798f3d5cefa3b65194eb8afcb6e9b35aaa9c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842335"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,12 +77,12 @@ Use los procedimientos siguientes para crear reglas de publicación en Web.
     
 
     > [!NOTE]  
-    > Si su servidor interno es un servidor Standard Edition, este FQDN es el FQDN del servidor Standard Edition. Si su servidor interno es un grupo front-end, este FQDN es una IP virtual (VIP) de equilibrador de carga de hardware que equilibra la carga de los servidores internos de la granja de servidores Web. El servidor de TMG debe poder resolver el FQDN en la dirección IP del servidor Web interno. Si el servidor de TMG no puede resolver el FQDN en la dirección IP correcta, puede seleccionar <STRONG>usar un nombre de equipo o una dirección IP para conectarse al servidor publicado</STRONG>y, a continuación, en el cuadro <STRONG>dirección IP</STRONG> <STRONG>o nombre del equipo</STRONG> , escriba la dirección IP del servidor EB. Si lo hace, debe asegurarse de que el puerto 53 está abierto en el servidor de TMG y de que puede comunicarse con un servidor DNS que reside en la red perimetral. También puede usar entradas en el archivo hosts local para proporcionar resolución de nombres.
+    > Si su servidor interno es un servidor Standard Edition, este FQDN es el FQDN del servidor Standard Edition. Si su servidor interno es un grupo front-end, este FQDN es una IP virtual (VIP) de equilibrador de carga de hardware que equilibra la carga de los servidores internos de la granja de servidores Web. El servidor de TMG debe poder resolver el FQDN en la dirección IP del servidor Web interno. Si el servidor de TMG no puede resolver el FQDN en la dirección IP correcta, puede seleccionar <STRONG>usar un nombre de equipo o una dirección IP para conectarse al servidor publicado</STRONG>y, a continuación, en el cuadro <STRONG>dirección IP</STRONG> <STRONG>o nombre del equipo</STRONG> , escriba la dirección IP del servidor Web interno. Si lo hace, debe asegurarse de que el puerto 53 está abierto en el servidor de TMG y de que puede comunicarse con un servidor DNS que reside en la red perimetral. También puede usar entradas en el archivo hosts local para proporcionar resolución de nombres.
 
     
     </div>
 
-8.  En la página **Internal Publishing** details, en la **ruta de acceso (opcional)** , escriba ** / ** como la ruta de acceso de la carpeta que se va a publicar.
+8.  En la página **Internal Publishing details** , en la **ruta de acceso (opcional)** , escriba ** / ** como la ruta de acceso de la carpeta que se va a publicar.
     
     <div>
     
@@ -111,7 +113,7 @@ Use los procedimientos siguientes para crear reglas de publicación en Web.
 
 18. En la página de **configuración de inicio de sesión único** , haga clic en **siguiente**.
 
-19. En la página **finalización del Asistente para la escucha de web** , compruebe que la configuración de la escucha de **Web** es correcta y, a continuación, haga clic en **Finalizar**.
+19. En la página **finalización del Asistente para la escucha de web** , compruebe que la configuración de la **escucha de web** es correcta y, a continuación, haga clic en **Finalizar**.
 
 20. En la página **delegación de autenticación** , seleccione **sin delegación, pero el cliente puede autenticar directamente**.
 
@@ -153,13 +155,13 @@ Use los procedimientos siguientes para crear reglas de publicación en Web.
     
     </div>
 
-5.  En la parte izquierda de la consola, debajo del nombre del servidor IIS, haga clic con el botón secundario en granjas de **servidores** y haga clic en **crear granja de servidores...**.
+5.  En la parte izquierda de la consola, debajo del nombre del servidor IIS, haga clic con el botón secundario en **granjas de servidores** y haga clic en **crear granja de servidores...**.
     
     <div>
     
 
     > [!NOTE]  
-    > Si no ve el nodo de las granjas de <STRONG>servidores</STRONG> , tendrá que instalar el enrutamiento de solicitudes de aplicación. Para obtener más información, consulte <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">configuración de servidores proxy inversos para Lync Server 2013</A>.
+    > Si no ve el nodo de las <STRONG>granjas de servidores</STRONG> , tendrá que instalar el enrutamiento de solicitudes de aplicación. Para obtener más información, consulte <A href="lync-server-2013-setting-up-reverse-proxy-servers.md">configuración de servidores proxy inversos para Lync Server 2013</A>.
 
     
     </div>
@@ -232,7 +234,7 @@ Use los procedimientos siguientes para crear reglas de publicación en Web.
 
 13. En la parte izquierda de la consola, haga clic en el nombre del servidor IIS. En el medio de la consola, busque **URL Rewrite** en **IIS**. Haga doble clic en la dirección URL de reescritura para abrir la configuración de la URL de reescritura de reglas. Debería ver las reglas de cada granja de servidores que creó en los pasos anteriores. Si no lo hace, confirme que hizo clic en el nombre del **servidor IIS** inmediatamente debajo del nodo de la **Página de inicio** en la consola del administrador de Internet Information Server.
 
-14. En el cuadro de diálogo de reescritura de **direcciones URL** , con webext.contoso.com como ejemplo, el nombre completo de la regla tal como se muestra es **ARR\_\_webext.contoso.com loadbalance\_SSL**.
+14. En el cuadro de diálogo de **reescritura de direcciones URL** , con webext.contoso.com como ejemplo, el nombre completo de la regla tal como se muestra es **\_ARR webext.contoso.com\_loadbalance\_SSL**.
     
       - Haga doble clic en la regla para abrir el cuadro de diálogo **Editar regla de entrada** .
     
@@ -240,7 +242,7 @@ Use los procedimientos siguientes para crear reglas de publicación en Web.
     
       - En la **entrada de condición** **Agregar condición** : escriba **{http\_host}**. (Mientras escribe, aparece un cuadro de diálogo que le permitirá seleccionar la condición). en **comprobar si la cadena de entrada:** seleccione **coincide con el patrón**. En el **** tipo **\*** de entrada de patrón. Se debe seleccionar **ignorar mayúsculas y minúsculas** . Haga clic en **Aceptar**.
     
-      - Desplácese hacia abajo en el cuadro de diálogo **Editar regla de entrada** para ubicar el cuadro de diálogo de **acción** . **Tipo de acción:** debe establecerse en enrutar **a granja de servidores**, **esquema:** establecer en **https://**, **granja de servidores:** establezca la dirección URL a la que se aplica esta regla. Para este ejemplo, debe establecerse en **webext.contoso.com**. **Path:** se establece en **/{R: 0}**
+      - Desplácese hacia abajo en el cuadro de diálogo **Editar regla de entrada** para ubicar el cuadro de diálogo de **acción** . **Tipo de acción:** debe establecerse en **enrutar a granja de servidores**, **esquema:** establecer en **https://**, **granja de servidores:** establezca la dirección URL a la que se aplica esta regla. Para este ejemplo, debe establecerse en **webext.contoso.com**. **Path:** se establece en **/{R: 0}**
     
       - Haga clic en **aplicar** para guardar los cambios. Haga clic en **volver a reglas** para volver a las reglas de reescritura de URL.
 
@@ -250,7 +252,7 @@ Use los procedimientos siguientes para crear reglas de publicación en Web.
     
 
     > [!WARNING]  
-    > De forma predeterminada, las reglas HTTP también se crean y se indican con nombres parecidos a las reglas de SSL. Para nuestro ejemplo actual, la regla HTTP se denomina <STRONG>ARR_webext. contoso. com _loadbalance</STRONG>. No se necesitan modificaciones en estas reglas y se pueden ignorar con seguridad.
+    > De forma predeterminada, las reglas HTTP también se crean y se indican con nombres parecidos a las reglas de SSL. Para nuestro ejemplo actual, la regla HTTP se denomina <STRONG>ARR_webext. contoso. com_loadbalance</STRONG>. No se necesitan modificaciones en estas reglas y se pueden ignorar con seguridad.
 
     
     </div>
@@ -277,7 +279,7 @@ Use los procedimientos siguientes para crear reglas de publicación en Web.
 
 5.  En la pestaña **para** , asegúrese de que la casilla **reenviar el encabezado de host original en lugar de la real** está activada.
 
-6.  En la pestaña **puente** , seleccione la casilla de verificación redirigir la **solicitud al puerto SSL** y, a continuación, especifique el puerto **4443**.
+6.  En la pestaña **puente** , seleccione la casilla de verificación **redirigir la solicitud al puerto SSL** y, a continuación, especifique el puerto **4443**.
 
 7.  En la pestaña **nombre público** , agregue las direcciones URL simples (por ejemplo, meet.contoso.com y Dialin.contoso.com).
 

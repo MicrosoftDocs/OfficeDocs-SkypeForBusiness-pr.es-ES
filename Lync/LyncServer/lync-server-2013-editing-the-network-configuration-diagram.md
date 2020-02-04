@@ -3,6 +3,8 @@ title: 'Lync Server 2013: edición del diagrama de configuración de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the network configuration diagram
 ms:assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558643(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541469
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2772cad1d1a16aa0363b1ab50d0bcaadacb91a08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc199098d27364c3bc5f512a48d2e512c7c9d984
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835319"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2013-02-21_
 
 La mayoría del trabajo que un diseñador hace en Lync Server 2013, la herramienta de planeación consiste en definir las entradas de las direcciones IP y los nombres de dominio completos (FQDN) de las entradas del diagrama de red. La información que se introduce en esta página se repite en los informes y otra información de la herramienta de planificación.
 
-![Diagrama de red] de la herramienta de planificación (images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Diagrama de red") de la herramienta de planificación
+![Diagrama de red de la Herramienta de planeación](images/Gg558643.eeabee2d-698c-4b79-baa5-caa4cfb7edb3(OCS.15).jpg "Diagrama de red de la Herramienta de planeación")
 
 La herramienta de planeación crea un diagrama de red con texto predeterminado para las direcciones IP y FQDN.
 

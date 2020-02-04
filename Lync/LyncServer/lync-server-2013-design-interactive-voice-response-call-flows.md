@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Diseñar flujos de llamada para respuestas de voz inte
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Design interactive voice response call flows
 ms:assetid: f3477f0a-3ad5-4b13-a73c-046aa451db19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413020(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185826
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 487fa3d4842ad67f3433966a08a889e454450351
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd53ac8d06ec336940abe53d7da1353faf4f9414
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835466"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762528"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -97,7 +99,7 @@ En la figura siguiente se muestra el flujo de la llamada.
 
 **Flujo de llamada interactiva de un nivel**
 
-![Diseñar flujos de llamadas usando la voz interactiva resp] . (images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Diseñar flujos de llamadas usando la voz interactiva resp") .
+![Diseñar flujos de llamadas a través de la respuesta interactiva de voz](images/Gg413020.4820a9f7-b5b0-4831-b972-baae0c015ec1(OCS.15).jpg "Diseñar flujos de llamadas a través de la respuesta interactiva de voz")
 
 </div>
 
@@ -133,7 +135,7 @@ En la figura siguiente se muestra el flujo de la llamada.
 
 **Flujo de llamada interactiva de dos niveles**
 
-![Diseñar flujos de llamadas usando la voz interactiva resp] . (images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Diseñar flujos de llamadas usando la voz interactiva resp") .
+![Diseñar flujos de llamadas a través de la respuesta interactiva de voz](images/Gg413020.a5b62083-312d-4419-898b-d1a225a5379f(OCS.15).jpg "Diseñar flujos de llamadas a través de la respuesta interactiva de voz")
 
 </div>
 

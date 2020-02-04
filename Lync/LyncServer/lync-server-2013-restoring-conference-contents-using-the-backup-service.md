@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Restauración de contenidos de conferencia mediante el
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring conference contents using the Backup Service
 ms:assetid: 3e0f18ec-7319-4c07-a59b-2938e7787bc9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688030(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733620
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14ee33f24f7b1a58812db146901695cba1ae05f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 873ca354ca592eb6bc317b579a0a6f5008e6a172
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822947"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

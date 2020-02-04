@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cifrado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Encryption for Lync Server 2013
 ms:assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481135(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893874
 ms.date: 09/14/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 01c989213b050bdb536e95a8a42e8f7b35292eaf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f4b655ff632a50d2c28451a577f5be03bfabc82
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835233"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -139,7 +141,7 @@ El tráfico de audio y vídeo no se cifra entre Microsoft Lync 2013 y los client
 
 ## <a name="fips"></a>FIPS
 
-Lync Server 2013 y Microsoft Exchange Server 2013 funcionan con los algoritmos estándar federal de procesamiento de información (FIPS) 140-2 si los sistemas operativos Windows Server están configurados para usar los algoritmos FIPS 140-2 para el cifrado de sistema. Para implementar la compatibilidad con FIPS, debe configurar cada servidor que ejecute Lync Server 2013 de soporte técnico. Para obtener detalles sobre el uso de los algoritmos compatibles con FIPS y cómo implementar la compatibilidad con FIPS, consulte el artículo 811833 de Microsoft Knowledge base, los efectos de habilitar la seguridad "criptografía del sistema: usar algoritmos compatibles con FIPS para cifrado, hash y firma" configuración en Windows XP y en versiones posteriores de Windows en [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833). Para obtener más información sobre las limitaciones y la compatibilidad de FIPS 140-2 en Exchange 2010, consulte Exchange 2010 SP1 y la compatibilidad [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)con los algoritmos compatibles con FIPS en.
+Lync Server 2013 y Microsoft Exchange Server 2013 funcionan con los algoritmos estándar federal de procesamiento de información (FIPS) 140-2 si los sistemas operativos Windows Server están configurados para usar los algoritmos FIPS 140-2 para el cifrado de sistema. Para implementar la compatibilidad con FIPS, debe configurar cada servidor que ejecute Lync Server 2013 de soporte técnico. Para obtener más información sobre el uso de los algoritmos compatibles con FIPS y cómo implementar la compatibilidad con FIPS, consulte el artículo 811833 de Microsoft Knowledge base, los efectos de habilitar la configuración de seguridad "criptografía de sistema: usar algoritmos compatibles con FIPS para cifrado, hash y firma" en Windows XP [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=811833](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=811833)y en versiones posteriores de Windows en. Para obtener más información sobre las limitaciones y la compatibilidad de FIPS 140-2 en Exchange 2010, consulte Exchange 2010 SP1 y la compatibilidad [https://go.microsoft.com/fwlink/p/?LinkId=205335](https://go.microsoft.com/fwlink/p/?linkid=205335)con los algoritmos compatibles con FIPS en.
 
 </div>
 

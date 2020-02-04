@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topologías admitidas de Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported Active Directory topologies
 ms:assetid: 0c76b778-7652-4eb0-b161-86f2d4a94ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398173(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183391
 ms.date: 10/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3dc15cea3d07dc4e00f1d2a5527c862d90a078c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3e4aca368f6ea7d5b31a1cfe74273dfbd42a6594
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850544"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764366"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ En la siguiente ilustración se identifican los iconos que se usan en las ilustr
 
 **Ilustraciones de la clave de la topología**
 
-![Ilustraciones de la clave de la topología] (images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Ilustraciones de la clave de la topología")
+![Ilustraciones de la clave de la topología](images/Gg398173.0c3cc89f-6c43-4bc8-b2ec-61d89e391ee9(OCS.15).jpg "Ilustraciones de la clave de la topología")
 
 <div>
 
@@ -65,7 +67,7 @@ En la siguiente ilustración se muestra una implementación de Lync Server en un
 
 **Topología de dominio único**
 
-![Topología de dominio único] (images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topología de dominio único")
+![Topología de dominio único](images/Gg398173.258b3b3f-0558-4a36-a4c2-031be7299668(OCS.15).jpg "Topología de dominio único")
 
 </div>
 
@@ -85,7 +87,7 @@ En la siguiente ilustración se muestra una implementación en un solo bosque co
 
 **Bosque único con varios dominios**
 
-![Bosque único con varios dominios] (images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Bosque único con varios dominios")
+![Bosque único con varios dominios](images/Gg398173.2b809c72-c3cd-4fad-afe6-8c2dae779750(OCS.15).jpg "Bosque único con varios dominios")
 
 </div>
 
@@ -105,7 +107,7 @@ En la ilustración siguiente se muestra un bosque único con varios árboles. En
 
 **Bosque único con varios árboles**
 
-![Bosque único con varios árboles] (images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Bosque único con varios árboles")
+![Bosque único con varios árboles](images/Gg398173.db30fa49-174a-4974-8695-41dd78e39432(OCS.15).jpg "Bosque único con varios árboles")
 
 </div>
 
@@ -129,7 +131,7 @@ En la siguiente ilustración se muestra una topología de bosque central. En est
 
 **Topología de bosque central**
 
-![Topología de bosque central] (images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Topología de bosque central")
+![Topología de bosque central](images/Gg398173.7feb049a-453b-4134-9128-873b83ee1755(OCS.15).jpg "Topología de bosque central")
 
 </div>
 
@@ -147,7 +149,7 @@ En el siguiente diagrama se muestra una topología de bosque de recursos.
 
 **Topología de bosque de recursos**
 
-![Topología de bosque de recursos de Active] Directory (images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Topología de bosque de recursos de Active") Directory
+![Topología de bosque de recursos de Active Directory](images/Gg398173.54ab82f1-e9e5-40f0-a54e-86e340b65c2a(OCS.15).jpg "Topología de bosque de recursos de Active Directory")
 
 </div>
 

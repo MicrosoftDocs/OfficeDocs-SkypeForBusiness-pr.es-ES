@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lista de tablas de cumplimiento del servidor de chat p
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: List of Persistent Chat Server compliance tables
 ms:assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215878(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706007
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31d3df9a0bfd5fa4b8b4acdda15ed86940c2572a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3c4f6e9622e839e2f1fd719b8e2d7ba95286247e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834939"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765418"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

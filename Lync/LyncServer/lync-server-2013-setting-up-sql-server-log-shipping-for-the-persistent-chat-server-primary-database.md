@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar registro de transacciones de SQL Server par
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up SQL Server Log Shipping for the Persistent Chat Server primary database
 ms:assetid: 088ea1c2-d592-4a11-b3b8-f1e2f8beae93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204653(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183337
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0de2285d77ba2228b90d244c841efc0b986bf454
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae44d410ef165cdd4f77b877afcfb9349dd0ec00
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850642"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764576"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

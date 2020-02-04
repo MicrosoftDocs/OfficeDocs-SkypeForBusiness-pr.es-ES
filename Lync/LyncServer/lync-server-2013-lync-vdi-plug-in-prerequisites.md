@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos previos del componente de VDI de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync VDI plug-in prerequisites
 ms:assetid: da25a976-7624-4dfc-b332-9c4db4ee78da
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205304(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185552
 ms.date: 03/07/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae32480e5a3dbfbdfc22c4dbde59c62383c9587f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 51fb0081188618b6a5ea2951968effb0d55c4af7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834920"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765458"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

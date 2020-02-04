@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración del ancho de banda de vídeo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring video bandwidth in Lync Server
 ms:assetid: 446bed91-b26f-4ab2-b2f5-36e6810b405b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204842(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ee374be85bc9427135ff89f3eb75acefd1cf5a8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cca8df1ea3c4c2458851da24ab8b39dbbab2d3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842162"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

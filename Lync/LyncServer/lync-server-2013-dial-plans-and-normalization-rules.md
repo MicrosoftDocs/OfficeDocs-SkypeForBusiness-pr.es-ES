@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planes de marcado y reglas de normalización'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial plans and normalization rules
 ms:assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413082(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5d399c49db109a7bac1a1cd3ac430280cb70f665
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4f1cc8221281502487a8f58e1562674432ea29d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835420"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762278"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

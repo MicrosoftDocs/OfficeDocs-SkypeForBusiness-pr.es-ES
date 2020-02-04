@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planificar la omisión de medios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for media bypass
 ms:assetid: 8ac732b6-8538-4d7b-b1a9-2035e419dac2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398703(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184768
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa60b6658eca7a73e509a7f6c707c3cf48c7f16e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97b28559ea58439d370042d54ab7ef58943bc594
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824648"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ La siguiente figura muestra las rutas de señalización y los medios básicos en
 
 **Rutas de señalización y medios con omisión de medios y sin ella**
 
-![Aplicación de omisión multimedia de voz CAC] (images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Aplicación de omisión multimedia de voz CAC")
+![Aplicación de la conexión de desvío de medios del control de admisión de llamadas de voz](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Aplicación de la conexión de desvío de medios del control de admisión de llamadas de voz")
 
 Como regla general, habilita la omisión de medios siempre que sea posible.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar regiones de red para CAC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure network regions for CAC
 ms:assetid: ea3ff988-dd5a-4bc4-bec5-39a0fb09793a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399051(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185906
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 773bae62596143c0e974ae02f2bd643172a99ac3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d80a5ec8d02376ae084f1973f47690259cac364d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842344"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758378"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de grupos de agentes de grupo de respu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Response Group agent groups
 ms:assetid: 36084cdc-38f1-4c45-922f-f81c7e86210c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520976(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c6cbea3b1a0d6638206a022ce5aded610dd60f23
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6001e8b6301df1863de21e0d88369116cef03ff5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827847"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756094"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

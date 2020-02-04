@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla AudioStream'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AudioStream table
 ms:assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425961(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184077
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9412001652f4f323bdd3fb5722d0d7222535fd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97a8015bce118991b21b541faf588dd4d76ac784
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842902"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos previos de copia de seguridad para la conmu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup prerequisites for ABC pool failover
 ms:assetid: 652046f5-6086-4592-902d-d5789581977d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7cdb228b0a748c830aa488e7b058bf8664360d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a6b5694d8eaa9467fafa8923bb97423fd6e33f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842744"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Para sacar el máximo provecho del uso del procedimiento de failover de grupo AB
     
     En general, le recomendamos que realice copias de seguridad diarias pero, si tiene un gran volumen de cambios, es posible que desee programar copias de seguridad más frecuentes. La cantidad de información que puede perder en caso de que se produzca un desastre depende de la frecuencia de las copias de seguridad, así como de la frecuencia y el volumen de los cambios.
     
-    La aplicación de grupo de respuesta solo puede almacenar un conjunto de parámetros de nivel de aplicación por grupo. Se puede acceder a esta configuración a través de los cmdlets **Get-CsRgsConfiguration** . La configuración incluye la configuración predeterminada de música en espera, el archivo de audio de música activada predeterminada, el período de gracia con anillo de los agentes y la configuración del contexto de la llamada. Esta configuración se puede transferir de una agrupación a otra mediante el cmdlet **Import-CsRgsConfiguration** mediante el parámetro **ReplaceExistingSettings** , pero esta operación invalidará cualquier configuración de nivel de aplicación en el destino. agrupa.
+    La aplicación de grupo de respuesta solo puede almacenar un conjunto de parámetros de nivel de aplicación por grupo. Se puede acceder a esta configuración a través de los cmdlets **Get-CsRgsConfiguration** . La configuración incluye la configuración predeterminada de música en espera, el archivo de audio de música activada predeterminada, el período de gracia con anillo de los agentes y la configuración del contexto de la llamada. Esta configuración se puede transferir de una agrupación a otra mediante el cmdlet **Import-CsRgsConfiguration** mediante el parámetro **ReplaceExistingSettings** , pero esta operación invalidará cualquier configuración de nivel de aplicación en el grupo de destino.
     
     <div>
     

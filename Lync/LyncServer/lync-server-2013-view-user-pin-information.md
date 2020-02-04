@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información de PIN de usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View user PIN information
 ms:assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688067(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eb3d854f68e9e22e8d8fb1fa0d26f555f09af1ae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1e6f8e12e7b6d2dde684a4cf558eec0ece216a9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850084"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757384"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

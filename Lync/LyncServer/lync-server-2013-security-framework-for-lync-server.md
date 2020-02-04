@@ -3,6 +3,8 @@ title: 'Lync Server 2013: marco de seguridad para Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security framework for Lync Server 2013
 ms:assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481316(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17900e0ca9db8f9dbc1bf66a1bd65aff62d9dd62
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1a2b58d34c1ed1f899e0daac8c1bb0132b1a22d7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822079"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764908"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

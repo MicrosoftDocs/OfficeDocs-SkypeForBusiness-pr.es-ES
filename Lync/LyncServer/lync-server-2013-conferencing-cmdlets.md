@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de conferencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing cmdlets
 ms:assetid: 7ff94637-6319-4c45-9230-be34e8d81ede
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9bd951904e14d864c165ff98c50088b96e42f04f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a95cf0c07726670b15891b2a067346e3452f333
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842475"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Microsoft Lync Server 2013 permite que los usuarios se unan a conferencias de do
 
 ## <a name="conferencing-cmdlets"></a>Cmdlets de conferencia
 
-Los cmdlets de **CsDialInConferencing** se usan para configurar las propiedades de conferencia de acceso telefónico local, lo que incluye todo lo que haya que especificar los números de teléfono a los que los usuarios pueden llamar para unirse a una conferencia con los comandos del teclado disponibles después de unirse a un Conferencia (por ejemplo, pulse 6 para desactivar o reactivar el audio del teléfono). La mayoría de las demás características de una conferencia (por ejemplo, los usuarios pueden grabar la Conferencia, los usuarios pueden compartir aplicaciones durante la Conferencia, etc.) se administran mediante los cmdlets de **CsConferencingPolicy** .
+Los cmdlets de **CsDialInConferencing** se usan para configurar las propiedades de conferencia de acceso telefónico local, lo que incluye todo lo que le permite especificar los números de teléfono a los que los usuarios pueden llamar para unirse a una conferencia con los comandos del teclado disponibles después de unirse a una conferencia (por ejemplo, si pulsas 6 para desactivar o reactivar el audio de su teléfono). La mayoría de las demás características de una conferencia (por ejemplo, los usuarios pueden grabar la Conferencia, los usuarios pueden compartir aplicaciones durante la Conferencia, etc.) se administran mediante los cmdlets de **CsConferencingPolicy** .
 
 **[Cmdlets de conferencias de acceso telefónico local en Lync Server 2013](lync-server-2013-dial-in-conferencing-cmdlets.md)**
 

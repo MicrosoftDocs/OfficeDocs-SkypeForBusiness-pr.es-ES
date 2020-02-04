@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar una ruta de voz E9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure an E9-1-1 voice route
 ms:assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398496(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59f4e2a6707d270f66a66663b19f975ac69961c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d40d2ee5dcb0dd7f759751bdab0d3e09f4ebc577
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842440"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

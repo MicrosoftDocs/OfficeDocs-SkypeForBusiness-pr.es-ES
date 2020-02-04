@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar la base de datos de ubicaciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the location database
 ms:assetid: 8544be31-6958-47ef-b926-fdc80d56191c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398679(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184704
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15a9456cc79e02735fe94c24748674944722b49c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b2b15f0c679e9380a1f1a624f00f6c19384878fd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842313"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Requisitos previos y derechos de usuario para la configuración de la lla
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group Call Pickup configuration prerequisites and user rights
 ms:assetid: 8757b1d3-751d-49c3-b1b8-b678f663f18e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2eb0af5b78d5d391ba055e557ad71da79484b5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2ed2a44ccd1730de2ebede4b08c1a4d3d7e0da9d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835113"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

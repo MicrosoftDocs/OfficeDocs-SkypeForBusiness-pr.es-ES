@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver reglas de directiva de versión de cliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View client version policy rules
 ms:assetid: f3a0215f-f72f-4e9b-a07b-25858dc4203a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923060(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50675350
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2f4bf9d60d9f99addffed25a87b05ea91650294
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b64dce1b74be8ed1aed0c5d1f515910341f57c52
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850122"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

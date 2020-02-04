@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planeamiento de recuperación ante desastres del grupo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for response group disaster recovery
 ms:assetid: 14e0f5dc-77cd-42cd-a9c9-4d0da38fb1cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204699(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183482
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70622364349eb83ecbc171cb3d5bf894ba03d3f9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db3a196a258198fe0bc65b533841544decd96aa2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824564"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Tenga en cuenta lo siguiente cuando prepare y lleve a cabo procedimientos de rec
 
   - Guarde una copia de seguridad separada de todos los archivos de audio originales que usó para la aplicación de grupo de respuesta, incluidas las grabaciones y los archivos de música en suspensión. Mantenga los archivos de copia de seguridad en un lugar seguro.
 
-  - Para la recuperación ante desastres de Lync Server 2013, toda la configuración del grupo de respuesta debe tener nombres únicos en toda la implementación. Este requisito se aplica a flujos de trabajo, colas, grupos de agentes, conjuntos de días festivos y horas de trabajo. Debe comprobar que este requisito se cumple cuando los grupos principal y de copia de seguridad siguen estando activos y antes de que usted necesite iniciar cualquier procedimiento de conmutación por error. Si se produce un conflicto de nombres al importar datos de grupo de respuesta al grupo de copia de seguridad, se produce un error en la importación. Para completar el procedimiento de importación y conmutación por error, debe resolver los conflictos de nombre al cambiar el nombre del objeto de grupo de respuesta en el grupo de copias de seguridad o mediante el cmdlet **Import-CsRgsConfiguration** con el parámetro-ResolveNameConflicts para resolver el conflicto, anexe un número de identificación único al objeto de grupo de respuesta.
+  - Para la recuperación ante desastres de Lync Server 2013, toda la configuración del grupo de respuesta debe tener nombres únicos en toda la implementación. Este requisito se aplica a flujos de trabajo, colas, grupos de agentes, conjuntos de días festivos y horas de trabajo. Debe comprobar que este requisito se cumple cuando los grupos principal y de copia de seguridad siguen estando activos y antes de que usted necesite iniciar cualquier procedimiento de conmutación por error. Si se produce un conflicto de nombres al importar datos de grupo de respuesta al grupo de copia de seguridad, se produce un error en la importación. Para completar el procedimiento de importación y conmutación por error, debe resolver los conflictos de nombre al cambiar el nombre del objeto de grupo de respuesta en el grupo de copias de seguridad o mediante el cmdlet **Import-CsRgsConfiguration** con el parámetro-ResolveNameConflicts para resolver automáticamente el conflicto anexando un número único de identificación al objeto de grupo de respuesta.
 
   - En general, le recomendamos que realice copias de seguridad diarias pero, si tiene un gran volumen de cambios, es posible que desee programar copias de seguridad más frecuentes. La cantidad de información que puede perder en caso de que se produzca un desastre depende de la frecuencia de las copias de seguridad, así como de la frecuencia y el volumen de los cambios.
 
@@ -116,7 +118,7 @@ Puede transferir esta configuración de nivel de aplicación de un grupo a otro 
 
 Si no quiere reemplazar la configuración de nivel de aplicación en el grupo de copias de seguridad durante un desastre y no se puede recuperar el grupo principal, se perderá la configuración de nivel de aplicación del grupo principal. Si necesita crear un nuevo grupo para reemplazar el grupo primario durante la recuperación, ya sea con el mismo FQDN o con un FQDN diferente, no puede recuperar la configuración de nivel de aplicación original. En este caso, debe configurar el nuevo grupo con esta configuración e incluir el archivo de audio de música en espera.
 
-Si decide usar el cmdlet **Import-CsRgsConfiguration** para transferir la configuración de nivel de aplicación del grupo principal al grupo de copia de seguridad durante un desastre, puede transferir la configuración del grupo de copias de seguridad al nuevo grupo durante la recuperación en el mismo modo en que los transfirió del repositorio principal al grupo de copias de seguridad.
+Si decide usar el cmdlet **Import-CsRgsConfiguration** para transferir la configuración de nivel de aplicación del grupo principal al grupo de copia de seguridad durante un desastre, puede transferir la configuración del grupo de copias de seguridad al nuevo grupo durante la recuperación de la misma manera que lo transfirió del grupo principal al grupo de copia de seguridad.
 
 La tabla siguiente es una descripción general de los pasos necesarios para recuperar grupos de respuesta.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de DNS para el inicio de sesión automátic
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for automatic client sign-in
 ms:assetid: 3bcd4bb3-a022-4ffa-b005-1a95ad2b1796
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425884(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afd8ac315222a5582bde9802c22ab7b4911ddfe3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d033621382587367630d9119c2176e976cb2c2d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835379"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

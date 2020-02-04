@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topología perimetral consolidada de un solo equipo co
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Single consolidated edge with public IP addresses
 ms:assetid: a92d1179-6a1f-4efe-908a-f8dfc5024f30
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205148(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185035
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bf6655c596be657d1779a404c6f1f5b108f3251
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8189d360a43887e2992b8b8abf063ef96230e06e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850630"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764506"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34850630"
 
 _**Última modificación del tema:** 2012-09-08_
 
-Si su organización necesita soporte técnico para menos de 15.000 conexiones de cliente del servicio perimetral de acceso, 1.000 conexiones de cliente del servicio de conferencias por Internet de Lync Server activas y 500 de concurrentes a/V, y la alta disponibilidad del servidor perimetral no es importante, Esta topología ofrece las ventajas de un menor costo de hardware y una implementación más simple. Si necesita una mayor capacidad o necesita una alta disponibilidad, debe implementar una topología de servidor perimetral consolidado a escala.
+Si su organización necesita soporte técnico para menos de 15.000 conexiones de cliente del servicio perimetral de acceso, 1.000 conexiones de cliente del servicio de conferencias por Internet de Lync Server activas y 500 de concurrentes en las sesiones perimetrales A/V, y la alta disponibilidad del servidor perimetral no es importante, esta topología ofrece las ventajas de un menor costo de hardware y una implementación más simple. Si necesita una mayor capacidad o necesita una alta disponibilidad, debe implementar una topología de servidor perimetral consolidado a escala.
 
   - <span></span>  
     [Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)
@@ -86,7 +88,7 @@ Existen tecnologías de traducción de direcciones de red (NAT) para IPv6 que pe
 
 **Un solo borde consolidado con topología pública de direcciones IP**
 
-![2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d] (images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d")
+![2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d](images/JJ205148.2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d(OCS.15).jpg "2db9f9e1-75aa-4de0-ab3f-c6effddb4f4d")
 
 <div>
 

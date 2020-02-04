@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planear la apariencia de las líneas compartidas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Plan for Shared Line Appearance
 ms:assetid: a35c83d8-f531-445b-a8d2-d5d8cec77c6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Mt712151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 72522136
 ms.date: 03/21/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 938bc723d9803acc955899a2b625f983d860b421
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 755bff84b8902e346135139d1c8c5b26c55605c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825138"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

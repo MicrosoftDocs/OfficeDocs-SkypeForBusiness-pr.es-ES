@@ -3,6 +3,8 @@ title: 'Lync Server 2013: topologías para teléfonos IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topologies for IP phones
 ms:assetid: 26ebffcf-43ff-4e70-847d-0fbc90e94e57
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425740(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183662
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d3247783acb0f65fb069f418c4a66a4c53b1a83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e05a56d30167f2e20a383cde9fcfaaa70418e650
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850307"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ El siguiente diagrama describe todos los componentes implicados en la conectivid
 
 **Topología interna**
 
-![3d88893e-df57-46e3-855A-a1d24589030a] (images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855A-a1d24589030a")
+![3d88893e-df57-46e3-855a-a1d24589030a](images/Gg425740.3d88893e-df57-46e3-855a-a1d24589030a(OCS.15).jpg "3d88893e-df57-46e3-855a-a1d24589030a")
 
 <div>
 
@@ -67,7 +69,7 @@ En el siguiente diagrama se ofrece información general sobre los componentes qu
 
 **Topología externa**
 
-![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3] (images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")
+![8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3](images/Gg425740.8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3(OCS.15).jpg "8ce6bb8e-b89c-4c4e-ac6d-41ac6c68f6f3")
 
 <div>
 

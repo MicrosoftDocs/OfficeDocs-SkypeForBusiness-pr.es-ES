@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar los números del grupo de recogida de llama
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure call pickup group numbers
 ms:assetid: 5cc67f0b-d70d-446a-8db1-befda8671121
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945631(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541479
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9cd20374a0e2507ff656c547d55b70d31969d821
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bc2badf254fc42e9e8db401065467a6c673660ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842419"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

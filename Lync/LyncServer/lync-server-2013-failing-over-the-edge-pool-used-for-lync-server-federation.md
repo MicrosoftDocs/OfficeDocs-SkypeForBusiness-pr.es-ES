@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Conmutación por error para el grupo de servidores per
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over the Edge pool used for Lync Server federation
 ms:assetid: 5c9da0f2-7429-40bb-bb3c-5cc4ecb5a13d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733665
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68969c0e7be81eca835661e3fb6a19f1565e623f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f144def3d3a8df9cc63221342a85666eb3c28913
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835166"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765198"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Guía de operaciones de Lync Server 2013:'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Operations Guide
 ms:assetid: dcb9ddff-6fe3-4077-a2e3-0ba64f65e264
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720467(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969658
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1259a66c4f7471538939a51610018e19231104c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 21b4f3e0a9beaae9419b11bf7353319b3b3ad2b0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825852"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

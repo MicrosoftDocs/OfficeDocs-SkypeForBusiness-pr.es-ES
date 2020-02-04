@@ -3,6 +3,8 @@ title: 'Lync Server 2013: visualización de la información de directiva de ubic
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing location policy information
 ms:assetid: 14e41bcb-ea0a-49c2-99b3-1f61fc34416d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520954(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183489
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72e932449cc0e5b69fad46056dfda898d463c531
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f68ad38ffbc8bb1b4abdfbf8119add7d9f965e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850085"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

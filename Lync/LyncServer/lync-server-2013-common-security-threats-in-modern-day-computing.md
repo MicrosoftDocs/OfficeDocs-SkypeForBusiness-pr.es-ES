@@ -3,6 +3,8 @@ title: 'Lync Server 2013: amenazas de seguridad comunes en los equipos informát
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Common security threats in modern day computing
 ms:assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn433220(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56708403
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2446ee0755f4544f17f6c04c6059d70576a466f
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 99e17f9f6dbba30697c72fecf77fbff4bfbdc003
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221366"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742760"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

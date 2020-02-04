@@ -3,6 +3,8 @@ title: 'Lync Server 2013: asignar una directiva de archivado por usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user archiving policy
 ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
 ms:mtpsurl: https://technet.microsoft.com/library/Gg182560(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185014
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 36d23e44e397a77f0d490d8fda27ee711d1c61c5
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: e633521b00277dcc5f0e7dec96ab0250a8934574
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111584"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738400"
 ---
 # <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a>Asignar una directiva de archivado por usuario en Lync Server 2013
 

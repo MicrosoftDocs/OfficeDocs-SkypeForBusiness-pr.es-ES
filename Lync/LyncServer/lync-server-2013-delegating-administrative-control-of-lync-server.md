@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Delegación del control administrativo de Microsoft Ly
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delegating administrative control of Lync Server 2013
 ms:assetid: 0f378eff-8ef4-4c60-9fd2-67d7ee259ef8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520951(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2acecec7a4b6543bb5dd22720af7a3f9aab62137
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 134d5a4abae1173cc1d74cecb876951cea6d72c1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835665"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar la configuración de estacionamiento de lla
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Call Park settings
 ms:assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425886(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183922
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9acbd44acf2ca78042452d2c1f52d4c5fa26056f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ee4f12ccf614816e27262f8b393cdc1dac4a7a5e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842429"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

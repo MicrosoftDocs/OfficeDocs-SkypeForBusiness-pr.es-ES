@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Agregar un servidor de chat persistente a la topologí
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add Persistent Chat Server to the topology
 ms:assetid: 8389b307-8c17-4e45-b3b5-5dc9fcfc2ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8985ee2fd28a81f3630e4f80c0ac4dd5a23d4475
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53f8c65f561a0f2c7b1937d60344c0177d221ba8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842941"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,14 +53,14 @@ Para implementar varios grupos de servidores de chat persistentes, repita el mis
     
 
     > [!NOTE]  
-    > Puede definir una topología con una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para instalar un servidor de Lync Server 2013, debe usar una cuenta que sea miembro del grupo de <STRONG>administradores de dominio</STRONG> y la <STRONG>RTCUniversalS Grupo erverAdmins</STRONG> y que tiene permisos de control total (es decir, lectura, escritura y modificación) en el almacén de archivos que va a usar para el almacén de archivos del servidor de chat persistente (es decir, para que el generador de topología pueda configurar las DACL obligatorias) o una cuenta con derechos equivalentes.
+    > Puede definir una topología con una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para instalar un servidor de Lync Server 2013, debe usar una cuenta que sea miembro del grupo de <STRONG>administradores del dominio</STRONG> y el grupo <STRONG>RTCUniversalServerAdmins</STRONG> , y que tenga permisos de control total (es decir, leer, escribir y modificar) en el almacén de archivos que va a usar para el almacén de archivos del servidor de chat persistente (es decir, para que el generador de topología pueda configurar las DACL obligatorias) o una cuenta con derechos equivalentes.
 
     
     </div>
 
 2.  Iniciar el generador de topología.
 
-3.  En el árbol de consola, vaya al nodo **grupos** de chats persistentes y expándalo para seleccionar un grupo de servidores de chat persistente, o haga clic con el botón derecho en el nodo y seleccione **nuevo grupo**de chats persistentes. You must define the pool’s fully qualified domain name (FQDN), and indicate whether the pool will be a single-server pool or multiple-server pool deployment.
+3.  En el árbol de consola, vaya al nodo **grupos de chats persistentes** y expándalo para seleccionar un grupo de servidores de chat persistente, o haga clic con el botón derecho en el nodo y seleccione **nuevo grupo de chats persistentes**. You must define the pool’s fully qualified domain name (FQDN), and indicate whether the pool will be a single-server pool or multiple-server pool deployment.
     
     Puede elegir un **Grupo de varios equipos** o **Grupo de un solo equipo**. Elija el primero si está planeando tener más de un servidor de usuario de chat persistente en el grupo de servidores de chat persistente. Realice esta elección ahora, porque después de crear un grupo de un solo equipo no le podrá agregar servidores adicionales más adelante. Si elige un grupo de varios equipos, escriba los nombres de los servidores de cliente de la conversación persistente que forman el grupo.
     
@@ -106,7 +108,7 @@ Para implementar varios grupos de servidores de chat persistentes, repita el mis
     
 
     > [!IMPORTANT]  
-    > Para obtener más información sobre cómo configurar espejos de SQL Server para una alta disponibilidad de la base de datos del servidor de chat persistente y la base de datos de cumplimiento del servidor de chat persistente, consulte <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">configuración del servidor de chat persistente para una mayor disponibilidad y recuperación ante desastres en Lync. Server 2013</A> en la documentación de la implementación.
+    > Para obtener más información sobre cómo configurar espejos de SQL Server para una alta disponibilidad de la base de datos del servidor de chat persistente y la base de datos de cumplimiento del servidor de chat persistente, vea <A href="lync-server-2013-configuring-persistent-chat-server-for-high-availability-and-disaster-recovery.md">configurar el servidor de chat persistente para una alta disponibilidad y recuperación ante desastres en Lync Server 2013</A> en la documentación de implementación.
 
     
     </div>

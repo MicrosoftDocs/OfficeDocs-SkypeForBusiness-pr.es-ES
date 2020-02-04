@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen de puerto - Grupo de director escalado, equili
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Scaled Director pool, hardware load balancer
 ms:assetid: 6ae2f4ac-5b64-4e45-8253-133308f5812d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204983(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184434
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9a78225f7cf523d5f120f291498007fcdfa0cd3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fdf054ee603f2c0917e35bdd2f19d108094c7c78
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824221"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

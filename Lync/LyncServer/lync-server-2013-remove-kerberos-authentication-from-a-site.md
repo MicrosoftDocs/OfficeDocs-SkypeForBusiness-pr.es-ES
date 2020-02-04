@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Quitar la autenticación Kerberos de un sitio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove Kerberos authentication from a site
 ms:assetid: 93171b02-bb36-42dc-943d-86d9dde45b59
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398749(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184806
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 372c8d4689a2c594c853819ced6ccb92adfa6944
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: e88f3de6f653354087d1abd0f7884ee09eda2f36
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992707"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

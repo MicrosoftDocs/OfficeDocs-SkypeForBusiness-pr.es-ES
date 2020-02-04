@@ -3,6 +3,8 @@ title: 'Lync Server 2013: modificar el filtro de transferencia de archivos prede
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify the default file transfer filter
 ms:assetid: 791774a2-0bb6-4b5b-aeb0-ff69abb170f4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521017(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 475f6e9b599af9ba6db80fdb174d3b38e5df6b00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e8a0d9ade3fd750f5dc89526969bad7e39ad0f35
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826825"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756894"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

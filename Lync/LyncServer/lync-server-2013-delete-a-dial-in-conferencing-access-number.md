@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar un número de acceso de conferencia de acceso
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a dial-in conferencing access number
 ms:assetid: 199c5d9c-0489-4ad5-a7f1-ca59fe0e6ac7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520956(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183522
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2559b8a3e053c02a6a67ccc17ab5a1f25b46a05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65d461aafd4f111484faf295bef2dd50685e41e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835648"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

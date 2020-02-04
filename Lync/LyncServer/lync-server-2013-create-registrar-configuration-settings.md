@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear parámetros de configuración de registradores'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create Registrar configuration settings
 ms:assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182601(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 624dc1cfcc8ba8de1f749d6a1a50de9989783070
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 81aec9ee6923dc125769ad16a26390b23155852c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835774"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Puede usar el registrador para configurar los métodos de autenticación de serv
 
   - **NTLM**   esta es la autenticación basada en contraseña disponible para los clientes que usan un esquema de hash de desafío/respuesta en la contraseña. Esta es la única forma de autenticación disponible para los clientes sin conexión a un centro de distribución de claves (controlador de dominio de Kerberos), como los usuarios remotos. Si un servidor autentica solo usuarios remotos, debe elegir NTLM.
 
-  - **Autenticación de certificados**   este es el método de autenticación nuevo cuando el servidor necesita obtener certificados de clientes de Lync Phone Edition, teléfonos de área común, Lync 2013 y la aplicación de la tienda Windows de Lync. En los clientes de Lync Phone Edition, después de que un usuario inicie sesión y se autentique correctamente proporcionando un número de identificación personal (PIN), Lync Server 2013 entonces le da el URI del SIP al teléfono y aprovisiona un certificado firmado de Lync Server o un certificado de usuario. que identifica Joe (por ejemplo: SN=joe@contoso.com) en el teléfono. Este certificado se usa para autenticarse con el Registrador y los Servicios web.
+  - **Autenticación de certificados**   este es el método de autenticación nuevo cuando el servidor necesita obtener certificados de clientes de Lync Phone Edition, teléfonos de área común, Lync 2013 y la aplicación de la tienda Windows de Lync. En los clientes de Lync Phone Edition, después de que un usuario inicie sesión y se autentique correctamente proporcionando un número de identificación personal (PIN), Lync Server 2013 entonces le da el URI del SIP al teléfono y aprovisiona un certificado firmado de Lync Server o un certificado de usuario que identifica Joe (por ejemplo: SN=joe@contoso.com) en el teléfono. Este certificado se usa para autenticarse con el Registrador y los Servicios web.
 
 <div>
 

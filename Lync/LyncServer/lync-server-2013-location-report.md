@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location Report
 ms:assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615035(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185641
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ac5ab1d077acb8f96849b4ac44911a4c90786fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4bb42f32313acd3609b21180ddaef90c53c27564
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834943"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762158"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

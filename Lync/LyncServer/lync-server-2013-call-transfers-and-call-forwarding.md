@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Transferencia y desvío de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call transfers and call forwarding
 ms:assetid: 978610ec-63c7-4cf6-ad7a-9ef91559bf12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994051(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803962
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6d5b0661cfaaef2e514f070260f44abc4ea00572
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 512deaf8af03f112e35443c25e46685c42a2f2e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842685"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

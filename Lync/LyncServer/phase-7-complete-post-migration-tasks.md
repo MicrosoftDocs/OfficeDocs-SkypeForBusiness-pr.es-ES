@@ -3,6 +3,8 @@ title: 'Fase 7: Finalización de las tareas posteriores a la migración'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 7: Complete post-migration tasks'
 ms:assetid: 709ef27e-78eb-4b63-a62d-348711687b1c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204998(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184485
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8208f2e42fb05532820d72bb89eb69d0ee2f8c9b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6eb1761688070e13e22057d1cbec339c87db0f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849891"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757134"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

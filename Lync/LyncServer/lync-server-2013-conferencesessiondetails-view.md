@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista ConferenceSessionDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ConferenceSessionDetails view
 ms:assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688066(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733660
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0432606a49766f7ea6755f5f234343ac70ca6c0e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 46356099c3eee20794a4198720597dc4395b563f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842498"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

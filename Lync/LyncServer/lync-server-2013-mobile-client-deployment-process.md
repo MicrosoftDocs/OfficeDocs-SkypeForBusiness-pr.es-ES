@@ -3,6 +3,8 @@ title: 'Lync Server 2013: proceso de implementación de cliente móvil'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobile client deployment process
 ms:assetid: 6498235b-2fa9-421d-bfa0-0ccc09508dbd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690982(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f0d0bf17fe4906d49fefd8bd319d25d1268191e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6beaeac91dae0ff5fbf755c4ccb33cae288df75
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827084"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

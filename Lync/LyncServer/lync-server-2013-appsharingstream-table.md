@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tabla AppSharingStream'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AppSharingStream table
 ms:assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204808(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56f23e214ffcffad8613d413924a53ffe571883d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c00a606981ab09d370d5aac390aa244a31063f24
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842783"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

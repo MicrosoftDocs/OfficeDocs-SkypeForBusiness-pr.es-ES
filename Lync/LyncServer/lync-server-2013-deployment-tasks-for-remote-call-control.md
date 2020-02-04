@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implementación de tareas para el control remoto de ll
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment tasks for remote call control
 ms:assetid: 20218871-4f27-4611-9b7e-c0ca55908284
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558624(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f63c9cba56ccedf3559b1e9f1da1ee58cc03e195
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df80ebcdc879598677a037d60c9eeeee46ba5209
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835456"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762558"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Puede consultar a los proveedores en el sitio web del programa de interoperabili
 
 ## <a name="step-2-configure-lync-server-to-route-csta-requests-to-the-sipcsta-gateway"></a>Paso 2: configurar Lync Server para enrutar las solicitudes de CSTA a la puerta de enlace SIP/CSTA
 
-Debe crear rutas estáticas en los grupos de servidores de Lync para la dirección de destino (URI de servidor) de todas las puertas de enlace SIP/CSTA de su implementación a las que desea enrutar solicitudes de control de llamadas remotas. También debe crear una entrada de aplicación de confianza que corresponda a cada dirección de destino. Al designar la puerta de enlace como aplicación de confianza, se le otorga el estado de confianza para ejecutarse como parte del entorno de Lync Server, aunque la haya desarrollado un tercero (y ejecuta lo que se conoce como *servicio externo* porque es un servicio que no es un parte integrada del producto). Por último, si Lync Server se conecta a la puerta de enlace SIP/CSTA con una conexión de protocolo de control de transmisión (TCP) en lugar de una conexión de seguridad de nivel de transporte (TLS), también debe definir la dirección IP de la puerta de enlace con el generador de topologías.
+Debe crear rutas estáticas en los grupos de servidores de Lync para la dirección de destino (URI de servidor) de todas las puertas de enlace SIP/CSTA de su implementación a las que desea enrutar solicitudes de control de llamadas remotas. También debe crear una entrada de aplicación de confianza que corresponda a cada dirección de destino. Al designar la puerta de enlace como una aplicación de confianza, se le otorga el estado de confianza para ejecutarse como parte del entorno de Lync Server, aunque la haya desarrollado un tercero (y ejecuta lo que se conoce como un *servicio externo* porque es un servicio que no es una parte integrada del producto). Por último, si Lync Server se conecta a la puerta de enlace SIP/CSTA con una conexión de protocolo de control de transmisión (TCP) en lugar de una conexión de seguridad de nivel de transporte (TLS), también debe definir la dirección IP de la puerta de enlace con el generador de topologías.
 
 Para obtener detalles sobre la configuración de rutas estáticas, vea [configurar una ruta estática para el control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md).
 

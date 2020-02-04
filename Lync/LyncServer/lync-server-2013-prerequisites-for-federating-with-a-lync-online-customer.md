@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos previos para la Federación con un cliente 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for federating with a Lync Online customer
 ms:assetid: f57d8f8a-2b1e-4186-a74f-1d7c6872bfdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202196(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185838
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af3db1918e2d347084f1bbdcdf5ea4eb92ae8d91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 337189476cf7c2767b359086014944715afbd623
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823675"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planeación de capacidad para el servidor de chat pers
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Persistent Chat Server
 ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184580
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7af60947a1132d26d5e8ba015d54cdbea80b8b54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dde4bcb499e38e729850f06bb08590bf537696e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842704"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -82,7 +84,7 @@ La siguiente ilustración muestra todos los componentes obligatorios y opcionale
 
 **Servidor único de chat persistente**
 
-![Topología de servidor único con servicio de cumplimiento] (images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topología de servidor único con servicio de cumplimiento")
+![Topología de servidor único con servicio de cumplimiento](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topología de servidor único con servicio de cumplimiento")
 
 </div>
 
@@ -96,7 +98,7 @@ La siguiente ilustración muestra todos los componentes de una topología de var
 
 **Varios servidores de chat persistentes**
 
-![Topología de varios servidores] (images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topología de varios servidores")
+![Topología de varios servidores](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topología de varios servidores")
 
 En una implementación de servidor de chat persistente de cuatro servidores, en la que los usuarios de 80.000 pueden iniciar sesión y usar la conversación de forma permanente, la carga se distribuye uniformemente en 20.000 usuarios por servidor. Si un servidor no está disponible, los usuarios que estén conectados a él perderán el acceso al servidor de chat persistente. Los usuarios desconectados se transferirán automáticamente a los servidores restantes hasta que se restaure el servidor que no se encuentra disponible. En función de la cantidad de tráfico de chat persistente en la red, esta transferencia puede demorar unos minutos o más. Como es posible que cada uno de los servidores restantes aloje hasta 30.000 usuarios, le recomendamos que restaure el servidor no disponible lo antes posible para evitar problemas de rendimiento. De lo contrario, puede hacer que otro servidor de chat persistente esté disponible con el generador de topologías o el cmdlet de Windows PowerShell **set-CsPersistentChatActiveServer**.
 
@@ -148,7 +150,7 @@ Usa la siguiente tabla de muestra para determinar la cantidad de usuarios que po
 </table>
 
 
-En el ejemplo anterior, el plan es compatible con el número máximo de usuarios que el servidor de chat persistente permite: cuatro servidores/instancias del servicio de chat persistente (pueden tener cuatro servidores más pasivos que ejecuten servidores de chat persistentes para una alta disponibilidad y recuperación ante desastres) y 20.000 usuarios por servidor, para un total de 80.000 usuarios activos.
+En el ejemplo anterior, el plan es compatible con el número máximo de usuarios que permite el servidor de chat persistente: cuatro servidores/instancias del servicio de chat persistente (pueden tener cuatro servidores más pasivos con servidor de chat persistente para una alta disponibilidad y recuperación ante desastres) y 20.000 usuarios por servidor, para un total de 80.000 usuarios activos.
 
 </div>
 
@@ -597,11 +599,11 @@ En la siguiente tabla se describe el modelo de usuario para el servidor de chat 
 </tr>
 <tr class="even">
 <td><p>Cantidad de salones de chat medianos por usuario</p></td>
-<td><p>2</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>Cantidad de salones de chat grandes por usuario</p></td>
-<td><p>2</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
 <td><p>Cantidad de salones a los que se han unido por usuario</p></td>

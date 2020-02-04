@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos técnicos para grupos de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Response Group
 ms:assetid: 477488bd-124f-437b-9327-732a0d7271ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204863(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184044
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2dd87cb270d527753d9c6404ded4162791b542f7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b7ab381a70a8a6d69170959fbaf488982887d765
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850452"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

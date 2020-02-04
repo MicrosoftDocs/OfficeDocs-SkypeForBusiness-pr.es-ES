@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Recuperación ante desastres del servidor perimetral'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Edge Server disaster recovery
 ms:assetid: 05ec8d26-d167-4a6f-a966-a1f8873cf974
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687960(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d19e5a606c3217ad7653fd4c3c885a97aafdb5ee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 431b4853407b65bca2b029626cc5659490a493d3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835329"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

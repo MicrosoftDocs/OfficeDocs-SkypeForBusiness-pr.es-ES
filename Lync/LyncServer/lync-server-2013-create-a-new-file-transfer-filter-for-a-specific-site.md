@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear un filtro de transferencia de archivos para un s
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new file transfer filter for a specific site
 ms:assetid: d0006487-5217-491c-b730-e6c551cd9825
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182589(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ddb23081acba6eb208607a0bacddb7b403468b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edaf0afabff9d212cdd3b5353a8e54840979f827
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842079"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

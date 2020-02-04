@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planificación e implementación de video'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning and deploying video
 ms:assetid: dadfb7f3-dfd6-4847-b137-17dacafd7368
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205307(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185558
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: feac758dcc8547128c9b3684bc74dd6b69599d5f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2662a6397bc096969ca73baab096bc886de65ce3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825103"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

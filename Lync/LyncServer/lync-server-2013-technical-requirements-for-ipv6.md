@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos técnicos para IPv6'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for IPv6
 ms:assetid: caff0123-ce41-4a62-87a0-00b1d118b72b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205278(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 972b59ba2ea01f967d5cfb8a7767a4f322bcb2fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e0688319a1b37dbd609a2f2051b3b8c6dfc6a2d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

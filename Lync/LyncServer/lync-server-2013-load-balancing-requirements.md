@@ -3,6 +3,8 @@ title: Requisitos de equilibrio de carga de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Load balancing requirements
 ms:assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615011(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4848c78c755b95a15c28ab1f8e2555a180e22bfa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8081ba60d826f0f765533abdb6c0f548045a7fa8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834937"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

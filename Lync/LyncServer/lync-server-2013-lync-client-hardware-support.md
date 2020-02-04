@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad de hardware del cliente Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync client hardware support
 ms:assetid: 91b84b67-965c-45c0-808c-bab680a5e10a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688134(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a632cf1fc7947a393ca64cf19e32e2bd30cbe03d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 907e3244e7c9410d6b6c8f7d61517a7ef5055c6c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834931"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765531"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

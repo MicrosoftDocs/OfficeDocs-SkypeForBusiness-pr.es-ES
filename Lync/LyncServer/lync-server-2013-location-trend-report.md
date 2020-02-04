@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de tendencias de ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location Trend Report
 ms:assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204941(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184280
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68c1eac461d65c2c0b023086422bb66505e9c929
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 26f825a33eeb90817685c1694a5c6579110ffcd6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834940"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver una lista de aplicaciones de confianza'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View a list of trusted applications
 ms:assetid: f09300b3-67cf-4e70-a51a-23d62479b913
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182604(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185844
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 23866bfbc437d87911a84d065ae7f501c7d80466
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3d5f9d112e045e753147f7fcffa875177a6feb0d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850120"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: deshabilitar o volver a habilitar la cuenta de usuario
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disable or re-enable user account for Lync Server
 ms:assetid: 12497d00-f665-4a97-be68-854c5a8be4fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429696(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183455
 ms.date: 04/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7944af89ffae7545ba3a2593c7617fc944a7916e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aea86048fa29e9b6a21aa040093edff3f53ffe27
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835388"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Puede usar el siguiente procedimiento para deshabilitar una cuenta de usuario ha
 
 
 > [!WARNING]  
-> Simplemente deshabilitar una cuenta de usuario en Active Directory <STRONG>no</STRONG> impedirá que un usuario pueda iniciar sesión o usar Lync Server. Esto se debe a que Lync usa la autenticación de certificados que optimiza el proceso de autenticación y estos certificados de cliente son válidos durante 180 días. Si desea detener la deshabilitación de las cuentas de Active Directory que se han habilitado para que Lync tenga acceso a Lync Server, debe usar el cmdlet <STRONG>Disable-CsUser</STRONG> , o el <STRONG>Panel de control de Lync Server</STRONG> , como se indica en este artículo. Una vez que el usuario está deshabilitado en Lync y el almacén central de administración se ha replicado en el entorno, los usuarios ya no podrán iniciar sesión. Además, se desconectarán los usuarios que hayan iniciado sesión.
+> Simplemente deshabilitar una cuenta de usuario en Active Directory <STRONG>no impedirá</STRONG> que un usuario pueda iniciar sesión o usar Lync Server. Esto se debe a que Lync usa la autenticación de certificados que optimiza el proceso de autenticación y estos certificados de cliente son válidos durante 180 días. Si desea detener la deshabilitación de las cuentas de Active Directory que se han habilitado para que Lync tenga acceso a Lync Server, debe usar el cmdlet <STRONG>Disable-CsUser</STRONG> , o el <STRONG>Panel de control de Lync Server</STRONG> , como se indica en este artículo. Una vez que el usuario está deshabilitado en Lync y el almacén central de administración se ha replicado en el entorno, los usuarios ya no podrán iniciar sesión. Además, se desconectarán los usuarios que hayan iniciado sesión.
 
 
 
@@ -57,7 +59,7 @@ Puede usar el siguiente procedimiento para deshabilitar una cuenta de usuario ha
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
-4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea deshabilitar o volver a habilitar, a continuación, haga clic en **Buscar**.
+4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea deshabilitar o volver a habilitar y, a continuación, haga clic en **Buscar**.
 
 5.  En la tabla, haga clic en la cuenta de usuario que desea deshabilitar o volver a habilitar.
 

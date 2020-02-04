@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista McuJoinsAndLeaves'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: McuJoinsAndLeaves view
 ms:assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688088(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733687
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7592879a1c6c6cc6bbcac54fd843046b69acee83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d339df5b3b591cbf67376c36c5e0e4261c390851
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827574"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

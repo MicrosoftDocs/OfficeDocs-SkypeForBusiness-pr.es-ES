@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad con infraestructura y software de dispo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client and device software and infrastructure support
 ms:assetid: 5dcccc2d-efb0-4e7d-9f14-34435fac8dde
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398412(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184265
 ms.date: 08/27/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eed2bfdaa01ef1aa4b688e62932d4e97a0fb4052
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1a741d4696d883d9a29dc0117be28ea82f474cff
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842558"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729870"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

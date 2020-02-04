@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblActivePeers'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblActivePeers
 ms:assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615030(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185176
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ceb6089cfa3f3a9da8103dd0d0691031dac05d05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29d7c5c806e7540cc742781ce364748c47c10b39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850498"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764246"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

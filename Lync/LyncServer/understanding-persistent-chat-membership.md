@@ -3,6 +3,8 @@ title: Introducción a la pertenencia al chat persistente
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding Persistent Chat membership
 ms:assetid: 900392d6-6e9f-4dae-93d6-39d7474409ef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398730(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e525d93e58e73304b9d3a26248418c88b5e9ea79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2b4eb5fbe4342c1bd6bcb3bbb842e076e5863ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849842"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34849842"
 
 _**Última modificación del tema:** 2013-02-22_
 
-El acceso de usuarios a salas de chat persistentes lo administran los miembros. los usuarios deben ser miembros de un salón de chat para poder publicar y leer mensajes. Solo **** los moderadores que tienen una afiliación designada con salones de chat pueden usar la **publicación en salas de Auditorio**. Un auditorio es un tipo de salón de chat (el otro es **normal**), en el que solo los moderadores pueden publicar y cualquier persona puede leer.
+El acceso de usuarios a salas de chat persistentes lo administran los miembros. los usuarios deben ser miembros de un salón de chat para poder publicar y leer mensajes. Solo los **moderadores** que tienen una afiliación designada con salones de chat pueden usar la **publicación en salas de Auditorio**. Un auditorio es un tipo de salón de chat (el otro es **normal**), en el que solo los moderadores pueden publicar y cualquier persona puede leer.
 
 Además, los salones de chat persistente funcionan conforme a las normas de una categoría. Para obtener más información acerca de las categorías, vea [administrar categorías, salas y complementos en Lync Server 2013](lync-server-2013-managing-categories-rooms-and-add-ins.md), así como las secciones "Cómo funciona el ámbito de la categoría" y "estrategias de categorías de sala" más adelante en este tema.
 
@@ -63,7 +65,7 @@ El servidor de chat persistente depende de Active Directory para el grupo de usu
 
 ## <a name="how-category-scoping-works"></a>Cómo funciona el ámbito de la categoría
 
-Una categoría especifica todos los usuarios y grupos que pueden ser miembros de una lista de miembros de un salón de chat persistente en esa categoría, en función de su propiedad **AllowedMembers** . Por ejemplo, si establece la **AllowedMembers** de la categoría en contoso.com, puede agregar cualquier grupo o usuario de *contoso* como miembro a los salones de chat de esa categoría. Si establece las **AllowedMembers** en una categoría para las *ventas*, solo se pueden agregar grupos y usuarios de esta lista de distribución como miembros de los salones de chat de esa categoría. De forma similar **** , la propiedad Creators te permite controlar quién puede crear salones de chat en esa categoría. Una vez que se crea el salón de chat, cualquier persona del grupo **AllowedMembers** se puede designar como **Administrador** para las operaciones de administración continuas en las salas (por ejemplo, cambios de miembros y aprobaciones).
+Una categoría especifica todos los usuarios y grupos que pueden ser miembros de una lista de miembros de un salón de chat persistente en esa categoría, en función de su propiedad **AllowedMembers** . Por ejemplo, si establece la **AllowedMembers** de la categoría en contoso.com, puede agregar cualquier grupo o usuario de *contoso* como miembro a los salones de chat de esa categoría. Si establece las **AllowedMembers** en una categoría para las *ventas*, solo se pueden agregar grupos y usuarios de esta lista de distribución como miembros de los salones de chat de esa categoría. De forma similar, la propiedad **Creators** te permite controlar quién puede crear salones de chat en esa categoría. Una vez que se crea el salón de chat, cualquier persona del grupo **AllowedMembers** se puede designar como **Administrador** para las operaciones de administración continuas en las salas (por ejemplo, cambios de miembros y aprobaciones).
 
 La definición de **AllowedMembers** y **creadores** de una categoría tiene las siguientes ventajas:
 

@@ -3,6 +3,8 @@ title: Herramientas del kit de recursos de chat persistente de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 Persistent Chat Resource Kit Tools
 ms:assetid: 7a34d2ba-eb25-4e22-92d1-b9baf81b102c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c851be7bb7046021cc2d37c88ef03bdea60c95a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a827892dac61ff88d0527eafb7d94948afa21885
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843043"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Para instalar Lync Server 2013, herramientas del kit de recursos, descargue **Pe
 
 
 > [!IMPORTANT]  
-> Después de instalar Lync Server 2013, las herramientas del kit de recursos, debe instalar <STRONG>PsExec. exe</STRONG> y copiar <STRONG>PsExec. exe</STRONG> en la siguiente \\ruta de acceso: <STRONG>archivos de programa \ Microsoft Lync Server 2013 \ recursos de servidor de chat persistentes Kit\ChatStressTool </STRONG>. Si no copia <STRONG>PsExec. exe</STRONG>, la herramienta de carga persistente de la conversación generará una excepción de error y no se realizará correctamente. Asegúrese de que cumple con este requisito previo antes de ejecutar la herramienta. Para obtener más información sobre cómo instalar <STRONG>PsExec. exe</STRONG>, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>.
+> Después de instalar Lync Server 2013, las herramientas del kit de recursos, debe instalar <STRONG>PsExec. exe</STRONG> y copiar <STRONG>PsExec. exe</STRONG> en la siguiente \\ruta de acceso: <STRONG>archivos de programa \ Microsoft Lync Server 2013 \ recursos de servidor de chat persistentes Kit\ChatStressTool</STRONG>. Si no copia <STRONG>PsExec. exe</STRONG>, la herramienta de carga persistente de la conversación generará una excepción de error y no se realizará correctamente. Asegúrese de que cumple con este requisito previo antes de ejecutar la herramienta. Para obtener más información sobre cómo instalar <STRONG>PsExec. exe</STRONG>, consulte <A href="http://go.microsoft.com/fwlink/p/?linkid=282246">http://go.microsoft.com/fwlink/p/?LinkId=282246</A>.
 
 
 
@@ -246,7 +248,7 @@ Crear usuarios y canales para usarlos en la ejecución de la tensión:
 
   - Cree tantos usuarios como el modelo de usuario llame, habilítelo para Lync y establezca su Directiva de chat persistente en habilitado.
 
-  - Cree una categoría para sus canales de estrés y, a continuación, cree tantas habitaciones como necesite en esa categoría. La categoría debe tener todos los usuarios de estrés **** en la lista permitida (a través de la adición de su uo) y las salas de estrés deben tener una configuración de privacidad de **abrir**.
+  - Cree una categoría para sus canales de estrés y, a continuación, cree tantas habitaciones como necesite en esa categoría. La categoría debe tener todos los usuarios de estrés en la lista **permitida** (a través de la adición de su uo) y las salas de estrés deben tener una configuración de privacidad de **abrir**.
 
   - Recomendamos crear salas de estrés adicionales. Puede crear salas de 50.000 con el siguiente comando de la interfaz de línea de comandos de Windows PowerShell:
     ```Powershell
@@ -331,7 +333,7 @@ Ejecute **ChatUpgradeVerifier** sin ningún parámetro.
 
 ## <a name="example"></a>Ejemplo
 
-![Ejecutando ChatUpgradeVerifier. exe.] (images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Ejecutando ChatUpgradeVerifier. exe.")
+![Ejecutar ChatUpgradeVerifier.exe.](images/JJ945599.4c273bc3-7926-47c7-ade7-34522721ebf9(OCS.15).jpg "Ejecutar ChatUpgradeVerifier.exe.")
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: capacidad de pruebas para realizar conversaciones grup
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing ability to do group IM
 ms:assetid: ca5545bc-51ac-490f-b96b-917bb742ad04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743839(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969652
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c371db385b29f68aa8cc9280a901d095c43f2ac2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8552d5caadf26d70265f5538f10c6152eb67dcc8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850364"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

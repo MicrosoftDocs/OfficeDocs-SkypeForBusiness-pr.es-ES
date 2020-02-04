@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar DNS para admitir servidores perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS for edge support
 ms:assetid: 955493e6-aa29-424d-bb81-1ef87b3b15e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79e1712b3425c7cce4020799b37f10aba894aeb3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c905c8fff7a67b26a7df8d2c741ce0a16fddce6c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842392"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

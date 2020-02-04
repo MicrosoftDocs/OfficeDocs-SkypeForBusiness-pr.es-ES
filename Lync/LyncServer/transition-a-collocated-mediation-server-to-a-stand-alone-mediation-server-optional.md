@@ -3,6 +3,8 @@ title: Transición de un servidor de mediación en un servidor de mediación ind
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Transition a collocated Mediation Server to a stand-alone Mediation Server (optional)
 ms:assetid: 7c3c2fb4-4ff2-47b1-aab3-0aa91472eadb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205026(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c49b75845bb9a673872c5f08225dd6e1c96b69a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2c6a76bceb935900521859911ce5398ae2213e22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849846"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,11 +45,11 @@ Use el procedimiento que se indica a continuación para realizar la transición 
 
 1.  Abra una topología existente desde el generador de topología.
 
-2.  En el panel de la izquierda, vaya a **grupos**de mediación.
+2.  En el panel de la izquierda, vaya a **grupos de mediación**.
 
-3.  Haga clic con el botón secundario en **grupos** de mediación y seleccione **nuevo servidor**de mediación.
+3.  Haga clic con el botón secundario en **grupos de mediación** y seleccione **nuevo servidor de mediación**.
 
-4.  En la página **definir nuevo grupo** de mediación, proporcione el FQDN del nuevo grupo de servidores de mediación. Además, seleccione si este grupo será un solo servidor o un grupo de varios servidores y, a continuación, haga clic en **siguiente**.
+4.  En la página **definir nuevo grupo de mediación** , proporcione el FQDN del nuevo grupo de servidores de mediación. Además, seleccione si este grupo será un solo servidor o un grupo de varios servidores y, a continuación, haga clic en **siguiente**.
 
 5.  Seleccione el grupo de servidores front-end de próximo salto al que el servidor de mediación enrutará las llamadas entrantes y, a continuación, haga clic en **siguiente**.
 
@@ -55,9 +57,9 @@ Use el procedimiento que se indica a continuación para realizar la transición 
 
 7.  En la página **especificar puertas de enlace RTC** , asocie la puerta de enlace RTC anterior con el servidor de mediación. Seleccione la puerta de enlace y, a continuación, haga clic en **Agregar**.
 
-8.  Haga clic en **Finalizar** para cerrar el asistente **definir nuevo grupo** de mediación.
+8.  Haga clic en **Finalizar** para cerrar el asistente **definir nuevo grupo de mediación** .
 
-9.  En el **generador**de topologías, seleccione el nodo superior de **Lync Server 2013**.
+9.  En el **generador de topologías**, seleccione el nodo superior de **Lync Server 2013**.
 
 10. En el panel **acciones** , seleccione **publicar topología** y complete el asistente.
 
@@ -67,9 +69,9 @@ Use el procedimiento que se indica a continuación para realizar la transición 
 
 13. Haga clic con el botón derecho en el grupo y seleccione **Editar propiedades**.
 
-14. En **servidor**de mediación, desactive la casilla servidor de mediación con el que **está habilitada** y haga clic en **Aceptar**.
+14. En **servidor de mediación**, desactive la casilla servidor de mediación con el que **está habilitada** y haga clic en **Aceptar**.
 
-15. En el **generador**de topologías, seleccione el nodo superior de **Lync Server 2013**.
+15. En el **generador de topologías**, seleccione el nodo superior de **Lync Server 2013**.
 
 16. En el menú **acción** , seleccione **publicar topología** y complete el asistente.
 
