@@ -3,6 +3,8 @@ title: 'Lync Server 2013: asignar una directiva de movilidad por usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user mobility policy
 ms:assetid: d8bf997f-4bc7-48d3-973b-323505f55e9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721902(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733836
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e79a9b76ac4774bbbac7772bef19902d6d70f15a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 20b5929959e87f4a39c69ab09f7836a471e16b66
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850705"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722850"
 ---
 # <a name="assign-a-per-user-mobility-policy-in-lync-server-2013"></a>Asignar una directiva de movilidad por usuario en Lync Server 2013
 

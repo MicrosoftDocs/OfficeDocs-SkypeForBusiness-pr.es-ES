@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets del servidor de base de datos y administració
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Database and Management Server cmdlets
 ms:assetid: b323bd59-8f71-4f03-af94-f3afb8620f4e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415671(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185174
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53b970f55a8389af757d2a55a2255e8028bb78a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 770107bb4f7fafc4b1d43db8a5bdfcd3efef63e0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835733"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

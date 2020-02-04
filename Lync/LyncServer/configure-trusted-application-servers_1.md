@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure trusted application servers
 ms:assetid: 47a9e72e-566c-4c23-bec2-760a3098a974
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204865(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48184056
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b28002e8bb060e9ac966121a419d8475b4828258
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 92e7f2c808e9ea5a3e8dfbf3010715c86e02596e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233169"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -52,7 +54,7 @@ En un entorno mixto, si crea un nuevo servidor de aplicaciones de confianza desp
 
 5.  En la página **seleccionar el próximo salto** , en la lista, seleccione el grupo de servidores front-end de Lync Server 2013.
     
-    ![Cuadro de diálogo definir nuevo grupo de aplicaciones de confianza] (images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "Cuadro de diálogo definir nuevo grupo de aplicaciones de confianza")  
+    ![Cuadro de diálogo definir nuevo grupo de aplicaciones de confianza](images/JJ204865.ecfe2bb8-758b-4b36-8146-573005c4ab09(OCS.15).jpg "Cuadro de diálogo definir nuevo grupo de aplicaciones de confianza")  
 
 6.  Haga clic en **Finalizar**.
 

@@ -3,6 +3,8 @@ title: Quitar un servidor front-end de un grupo de servidores
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a Front End Server from a pool
 ms:assetid: 767225c9-7c0b-4d54-a407-d77134ba2abe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688095(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b798674173d14c2bd3f5638f6049c3a723786f91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e0637754c6e7b1a03c233025703297c182dc3099
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849869"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

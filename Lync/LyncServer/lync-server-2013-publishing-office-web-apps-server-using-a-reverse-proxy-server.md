@@ -3,6 +3,8 @@ title: Publicación de Office Web Apps Server con un servidor proxy inverso
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publishing Office Web Apps Server using a reverse proxy server
 ms:assetid: 0babe39f-c4b9-46f0-995a-33dc99c2be03
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204665(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183384
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f68ae51dba366282d7d3a5668b1358042a29917
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 43a81fff75adbeadb6cfcead3316dab2c89b4269
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,9 +53,9 @@ Para configurar una regla de publicación de sitios web en Forefront Threat Mana
 
 6.  En la página **seguridad de conexión de servidor** , seleccione **usar SSL para conectarse al servidor web o conjunto** de servidores publicado y, a continuación, haga clic en **siguiente**.
 
-7.  En la página **Internal Publishing** details, escriba el FQDN de su servidor de Office Web Apps (por ejemplo, **officewebapps01.contoso.com**) en el cuadro **nombre de sitio interno** y, a continuación, haga clic en **siguiente**. El nombre introducido en el cuadro **nombre de sitio interno** debe aparecer en el campo de asunto o en el campo de nombre alternativo de asunto del certificado que haya asignado a Office Web Apps Server.
+7.  En la página **Internal Publishing details** , escriba el FQDN de su servidor de Office Web Apps (por ejemplo, **officewebapps01.contoso.com**) en el cuadro **nombre de sitio interno** y, a continuación, haga clic en **siguiente**. El nombre introducido en el cuadro **nombre de sitio interno** debe aparecer en el campo de asunto o en el campo de nombre alternativo de asunto del certificado que haya asignado a Office Web Apps Server.
 
-8.  En la **Página Internal Publishing** details, ** / ** escriba la ruta de **acceso (opcional)** y, a continuación, haga clic en **Next**. La sintaxis\* /ayuda a garantizar que todas las carpetas y subcarpetas del sitio estén publicadas.
+8.  En la página **Internal Publishing details** , escriba ** / ** la ruta de **acceso (opcional)** y, a continuación, haga clic en **Next**. La sintaxis\* /ayuda a garantizar que todas las carpetas y subcarpetas del sitio estén publicadas.
 
 9.  En la página **detalles de nombre público** , seleccione **este nombre de dominio (escriba a continuación)** en la lista desplegable **aceptar solicitudes de** y, a continuación, escriba el nombre completo de su servidor de Office Web Apps en el cuadro Nombre público. Este nombre debe ser el nombre usado para acceder a su sitio Web. Por ejemplo, si se obtiene acceso a su sitio con la http://officewebapps01.contoso.com dirección URL, debe escribir **officewebapps01.contoso.com** en el cuadro **nombre público** .
 
@@ -81,7 +83,7 @@ Para configurar una regla de publicación de sitios web en Forefront Threat Mana
 
 21. En la página **seleccionar escucha de web** , haga clic en **siguiente**.
 
-22. En la página **delegación de autenticación** , seleccione **sin delegación, pero el cliente puede autenticar directamente** desde el **Seleccione el método usado por Forefront TMG para autenticarse en la lista desplegable servidor Web publicado** y, a continuación, haga clic en **siguiente. **.
+22. En la página **delegación de autenticación** , seleccione **sin delegación, pero el cliente puede autenticar directamente** desde el **Seleccione el método usado por Forefront TMG para autenticarse en la lista desplegable servidor Web publicado** y, a continuación, haga clic en **siguiente**.
 
 23. En la página **conjuntos de usuarios** , confirme que aparecen los conjuntos de usuarios adecuados. De forma predeterminada, este es el conjunto de usuarios de **todos los usuarios** . Haga clic en **Agregar** para agregar otros conjuntos de usuarios que haya definido. Cuando haya terminado, haga clic en **siguiente**.
 

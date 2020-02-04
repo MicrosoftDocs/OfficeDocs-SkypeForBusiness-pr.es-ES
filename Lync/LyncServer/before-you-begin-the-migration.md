@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Before you begin the migration
 ms:assetid: 035e38f7-eb75-4e2f-9f3a-c9f942b0a55b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204634(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48183259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0efc35dab497b2525344f5d4723d30c9684b517c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 83fd5b0ddbb4a1e1266a99963dc443f516c86b9a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232894"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

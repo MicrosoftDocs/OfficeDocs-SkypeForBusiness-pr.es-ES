@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar una nueva regla de directiva de vers
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a new client version policy rule
 ms:assetid: 6f879d99-8401-41e0-a562-195c890d63ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898478(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873758
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa5f9074f928a9bec20ca275487806b790a0226b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 442341c51ef6477f72fb9e88cdea5fe7fc527aa8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835785"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +105,7 @@ Las reglas de directiva de versión de cliente definen las acciones que se deben
     
       - **Posterior a o igual que**
 
-6.  Para especificar la acción que se realizará cuando se cumplan los criterios de los pasos anteriores, haga clic en **** una de las siguientes acciones:
+6.  Para especificar **la acción que**se realizará cuando se cumplan los criterios de los pasos anteriores, haga clic en una de las siguientes acciones:
     
       - Para permitir que el cliente inicie sesión, haga clic en **permitir**.
     

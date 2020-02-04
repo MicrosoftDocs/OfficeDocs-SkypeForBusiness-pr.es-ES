@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Quitar un host autorizado heredado (opcional)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a legacy authorized host (optional)
 ms:assetid: 0316b2c3-b2aa-4c24-a8cd-e7f2cfe4d024
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558603(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183252
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e149a95bdb9111aee4b92afde8842a5871ca4f0c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d10b9c9bf31328f5008a8be84fe3c10c901b668
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823136"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

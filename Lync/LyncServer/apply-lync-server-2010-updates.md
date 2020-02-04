@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Apply Lync Server 2010 updates
 ms:assetid: 1e452282-a2ad-4081-9f2e-d3f61219364e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204730(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48183571
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9c09b43e8c6b7cd64e95080417606ab6ae7ce8d6
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 89acd5632290b39c70cdd0427fc7402027296f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232901"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

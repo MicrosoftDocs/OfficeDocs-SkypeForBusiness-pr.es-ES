@@ -3,6 +3,8 @@ title: Configurar Perfil de usuario
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure User Profile
 ms:assetid: 52713245-e502-4539-a238-66ff1aca26b1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945594(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e982156928cf36b4e20eaf86175d7acbdf048b6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2441fe97bb57ffdf0f6200f1201e192bfc6bf14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843053"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Rellene los campos de cada pestaña de la herramienta de configuración de carga
 
 La pestaña **configuración común** de la herramienta de configuración de carga de Lync Server 2013 se muestra en la siguiente ilustración. Rellene los campos de la pestaña **configuración común** , como se describe en los siguientes pasos.
 
-![Ficha Configuración común.] (images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Ficha Configuración común.")
+![Pestaña de configuración común.](images/JJ945594.c68dcc8f-10f2-499e-95a2-fccbcc206c2f(OCS.15).jpg "Pestaña de configuración común.")
 
 1.  En **número de equipos disponibles**, escriba o haga clic en el número de equipos que desea usar para ejecutar LyncPerfTool. exe. Le recomendamos que tenga un equipo para cada 4.500 usuarios que va a simular. Ese número puede variar si se reduce el nivel de carga o si usas solo un subconjunto de las características disponibles. (Los niveles de carga se establecen en la ficha **escenarios generales** ).
 
@@ -95,7 +97,7 @@ La ficha **General Scenarios** de la herramienta de configuración de carga de L
 
 Configure los niveles de carga y los parámetros de cada uno de los escenarios generales que desee ejecutar o deje deshabilitado.
 
-![Ficha escenarios generales.] (images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Ficha escenarios generales.")
+![Pestaña de escenarios generales.](images/JJ945594.4f046d39-b532-4baf-99a6-c89d1d6d1fcc(OCS.15).jpg "Pestaña de escenarios generales.")
 
 1.  En la **mensajería instantánea**, que incluye el par a par y las conferencias, especifique el valor adecuado para el nivel de carga.
     
@@ -103,7 +105,7 @@ Configure los niveles de carga y los parámetros de cada uno de los escenarios g
     
 
     > [!NOTE]  
-    > Los valores de nivel de carga de todos los campos (excepto servicios <STRONG></STRONG>de información de ubicación) están deshabilitados, <STRONG>bajo</STRONG>, <STRONG>medio</STRONG>, <STRONG>alto</STRONG>y <STRONG>personalizado</STRONG>. Cuando se selecciona Low, Medium, High o Custom, se generará una configuración para cada modalidad y cliente. Alto hará que se genere la carga máxima admitida para el servidor, medio corresponde al 60 por ciento de la carga y menor corresponde al 30 por ciento de la carga.
+    > Los valores de nivel de carga de todos los campos (excepto servicios de información de ubicación) están <STRONG>deshabilitados</STRONG>, <STRONG>bajo</STRONG>, <STRONG>medio</STRONG>, <STRONG>alto</STRONG>y <STRONG>personalizado</STRONG>. Cuando se selecciona Low, Medium, High o Custom, se generará una configuración para cada modalidad y cliente. Alto hará que se genere la carga máxima admitida para el servidor, medio corresponde al 60 por ciento de la carga y menor corresponde al 30 por ciento de la carga.
 
     
     </div>
@@ -120,7 +122,7 @@ Configure los niveles de carga y los parámetros de cada uno de los escenarios g
 
 7.  En el **servicio de grupo de respuesta**, especifique el valor adecuado para el nivel de carga. También debe hacer clic en el botón **Opciones avanzadas** correspondiente y, a continuación, especificar los URI de los grupos de respuesta que ya ha creado al aprovisionar agentes del servicio del grupo de respuesta. Debe especificar al menos un grupo de respuesta. Use signos de punto y coma para separar varios grupos de respuesta. Actualice RGSUriSuffixStartIndex y RGSUriSuffixEndIndex a los valores reales.
 
-8.  En **servicios de información de ubicación**, seleccione el valor adecuado para el nivel de carga. El nivel de carga de servicios de información de **** ubicación debe estar habilitado o deshabilitado. ****
+8.  En **servicios de información de ubicación**, seleccione el valor adecuado para el nivel de carga. El nivel de carga de servicios de información de ubicación debe estar **habilitado** o **deshabilitado**.
 
 <div>
 
@@ -142,11 +144,11 @@ La pestaña **escenarios de voz** de la herramienta de configuración de carga d
 
 Use la pestaña **escenarios de voz** para configurar todos los escenarios relacionados con la voz.
 
-![Ficha escenarios de voz.] (images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Ficha escenarios de voz.")
+![Pestaña de escenarios de voz.](images/JJ945594.28edf664-da59-40b0-9a0e-196f01e9ca86(OCS.15).jpg "Pestaña de escenarios de voz.")
 
 1.  En **VoIP**, haga clic en el botón **avanzadas** y, a continuación, proporcione los valores de los campos **PhoneAreaCode** y **LocationProfile** (plan de marcado). También debe especificar un valor para el **nivel de carga**. Si se habilita el nivel de carga para **VoIP** y la **puerta de enlace UC/RTC** , siempre se generará una red telefónica conmutada (RTC) en un archivo de configuración de comunicaciones unificadas (UC) que simulará las llamadas externas.
 
-2.  En la **puerta de enlace UC/RTC**, especifique un valor para el nivel de carga. Si selecciona un nivel de carga distinto de **** deshabilitado, debe proporcionar un valor para el **código de área RTC** haciendo clic en el botón **Agregar** en servidor de mediación y RTC. Compruebe que tiene una ruta configurada para ese código de área.
+2.  En la **puerta de enlace UC/RTC**, especifique un valor para el nivel de carga. Si selecciona un nivel de carga distinto de **deshabilitado**, debe proporcionar un valor para el **código de área RTC** haciendo clic en el botón **Agregar** en servidor de mediación y RTC. Compruebe que tiene una ruta configurada para ese código de área.
     
     <div>
     
@@ -157,7 +159,7 @@ Use la pestaña **escenarios de voz** para configurar todos los escenarios relac
     
     </div>
 
-3.  En el **operador de conferencias**, especifique un valor para nivel de carga. Si selecciona un nivel de carga ( **** que no sea deshabilitado), se habilitará el campo **número de teléfono** . Escribe el número de teléfono del operador automático que deseas usar. Además, haga clic en el botón **avanzadas** y, a continuación, especifique un valor para el campo **LocationProfile** .
+3.  En el **operador de conferencias**, especifique un valor para nivel de carga. Si selecciona un nivel de carga (que no sea **deshabilitado**), se habilitará el campo **número de teléfono** . Escribe el número de teléfono del operador automático que deseas usar. Además, haga clic en el botón **avanzadas** y, a continuación, especifique un valor para el campo **LocationProfile** .
 
 4.  En **servicio de estacionamiento**, especifique el valor adecuado para el **nivel de carga**.
 
@@ -183,7 +185,7 @@ Llegar es una nueva experiencia en Lync Server 2013 que admite escenarios de con
 
 Use la pestaña **REACH** para configurar todos los escenarios relacionados con el acceso.
 
-![Ficha REACH.] (images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Ficha REACH.")
+![Pestaña de alcance.](images/JJ945594.65ccf6de-0e8d-47ba-93f3-9dcb39d3fd62(OCS.15).jpg "Pestaña de alcance.")
 
 1.  Haga clic en el botón **avanzadas** junto a **Configuración general de alcance**. Establezca el campo **UcwaTargetServerUrl** en la dirección IP virtual del grupo de directores (VIP) o en la de la agrupación de front-end.
 
@@ -201,7 +203,7 @@ Use la pestaña **REACH** para configurar todos los escenarios relacionados con 
 
 Use la pestaña **movilidad** para configurar todos los escenarios relacionados con la movilidad.
 
-![Ficha movilidad.] (images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Ficha movilidad.")
+![Pestaña de movilidad.](images/JJ945594.4dd8f3e0-921c-48a5-8b23-2a0330d3c334(OCS.15).jpg "Pestaña de movilidad.")
 
 1.  Haga clic en el botón **avanzadas** junto a **movilidad (UCWA)**. Establezca el campo **UcwaTargetServerUrl** en la dirección IP virtual del grupo de directores (VIP) o en la de la agrupación de front-end.
 
@@ -225,11 +227,11 @@ Use la pestaña **movilidad** para configurar todos los escenarios relacionados 
 
 La pestaña **Resumen** de la herramienta de configuración de carga de Lync Server 2013 se muestra en la siguiente ilustración.
 
-![Pestaña Resumen.] (images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Pestaña Resumen.")
+![Pestaña de resumen.](images/JJ945594.c675e869-8ded-4195-8c2a-68d844fc96ad(OCS.15).jpg "Pestaña de resumen.")
 
 La pestaña **Resumen** indica qué usuarios deben usar para cada uno de los escenarios. Es posible configurar manualmente los intervalos de número de usuario seleccionando la casilla de verificación **Habilitar la generación de intervalos de usuario personalizada** y, a continuación, hacer doble clic en el escenario de la tabla que tiene el **intervalo de usuario** que desea personalizar. Comprobar (RunClient. bat) Agregue la demora de inicio de sesión al iniciarse, a fin de incluir retrasos en los archivos por lotes generados para que se corresponda con la tasa de inicio de sesión. Esto resulta útil para evitar la sobrecarga del servidor al iniciar sesión en un gran número de usuarios. Haga clic en **generar archivos**y seleccione la carpeta en la que desea generar la configuración. Cuando los archivos se hayan creado correctamente, aparecerá un cuadro de diálogo similar a la siguiente ilustración.
 
-![Confirmación de que se han creado los archivos.] (images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Confirmación de que se han creado los archivos.")
+![Confirmación de que se han creado los archivos.](images/JJ945594.00dc1e92-bfba-48e7-9568-b97ad864491e(OCS.15).jpg "Confirmación de que se han creado los archivos.")
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de uso de grupo de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Response Group Usage Report
 ms:assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558632(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183811
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9334fea5bded88b4f2453f46a0848819743766d9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 702ab291955ef7c8ec992e3607de581dff52b6a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

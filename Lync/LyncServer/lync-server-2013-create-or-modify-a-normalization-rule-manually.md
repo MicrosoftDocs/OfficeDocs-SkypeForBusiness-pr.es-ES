@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear o modificar una regla de normalización manualme
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a normalization rule manually
 ms:assetid: fc0335e6-8830-4cfb-8c64-6aeb98c0a992
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413074(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e4bff312dda32aea118f91c1e5e54f2c8334698
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2cf7693eb4a8bac814c81ef69b9f158edb3684f3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835784"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722421"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Complete los pasos siguientes si desea crear o modificar una regla de normalizac
     
       - En **Regla de conversión**, especifique un patrón para el formato de los números de teléfono E.164 convertidos.
     
-    Por ejemplo, si introduce **^\\({7}d) $** en coincidir **con este patrón** y **+ 1425 $1** en la regla de **traducción**, la regla normaliza 5550100 a + 14255550100.
+    Por ejemplo, si introduce **\\^ (d{7}) $** en **coincidir con este patrón** y **+ 1425 $1** en la **regla de traducción**, la regla normaliza 5550100 a + 14255550100.
 
 8.  (Opcional) Si la regla de normalización da un número de teléfono interno de la organización, seleccione **Extensión interna**.
 

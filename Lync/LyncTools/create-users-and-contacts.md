@@ -3,6 +3,8 @@ title: Crear usuarios y contactos
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Create Users and Contacts
 ms:assetid: 04b24d07-2864-463d-b508-544c2674c4ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945587(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6f09ac6fd667b77b47e27ec9fb9caac44b9a13e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b1463a7caaad2bcf36996eaac4bd47e2bab25e6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843047"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Debe usar la herramienta de aprovisionamiento de usuarios de Lync Server para cr
 
 Cuando se abra la herramienta de aprovisionamiento de usuarios de Lync Server, haga clic en **configuración** y seleccione **cargar configuración**. Para empezar a configurar usuarios y contactos, cargue el archivo predeterminado que se incluye en el paquete, SampleData. Xml. Esto rellenará previamente los campos con datos de ejemplo que necesitará revisar para su sistema. Si tiene un archivo XML preconfigurado que ya contiene una configuración personalizada, cargue ese archivo en su lugar. Rellene los campos de la herramienta de aprovisionamiento de usuarios de Lync Server, tal y como se describe en las secciones siguientes.
 
-![Ficha creación de usuario.] (images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Ficha creación de usuario.")
+![Pestaña de creación de usuarios.](images/JJ945587.80d3c17b-7482-4818-8381-1eff8717d2fe(OCS.15).jpg "Pestaña de creación de usuarios.")
 
 Para configurar las opciones del servidor, siga estos pasos.
 
@@ -149,7 +151,7 @@ Al hacer clic en el botón eliminar usuarios, se validan todos los parámetros d
 
 La ficha creación de contactos le permite especificar los detalles de los contactos de los usuarios.
 
-![Ficha creación de contactos.] (images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Ficha creación de contactos.")
+![Pestaña de creación de contactos.](images/JJ945587.7508726e-83e6-4878-8edd-114543d9af24(OCS.15).jpg "Pestaña de creación de contactos.")
 
 Para configurar los contactos de los usuarios, siga estos pasos.
 
@@ -195,7 +197,7 @@ Para configurar los contactos de los usuarios, siga estos pasos.
 
 Una de las características de la herramienta de rendimiento y estrés de Lync Server 2013 es simular la característica de expansión de la lista de distribución (DL) en Lync 2013. Si no va a habilitar la expansión de DL en UserProvisioningTool, puede omitir este paso.
 
-![Ficha creación de lista de distribución.] (images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Ficha creación de lista de distribución.")
+![Pestaña de creación de listas de distribución.](images/JJ945587.0a1d681b-2aea-4724-90d8-efa8a526f600(OCS.15).jpg "Pestaña de creación de listas de distribución.")
 
 La pestaña lista de distribución le permite crear listas de distribución que la herramienta esfuerzo y rendimiento usará para la característica de expansión de la lista de distribución. Antes de crear las listas de distribución, Lync Server 2013 debe estar instalado. Debe tener instalado ForestPrep de Lync Server 2013. En caso contrario, los atributos de DL no existen en el esquema de los servicios de dominio de Active Directory y la herramienta no podrá crear listas de distribución.
 
@@ -225,7 +227,7 @@ Al hacer clic en el botón crear listas de distribución, la herramienta consult
 
 Una de las características de la herramienta Lync Server 2013 stress and performance es generar archivos de configuración ficticios para el servicio de información de ubicación. El servicio de información de ubicación normalmente no tiene ningún impacto significativo en el rendimiento de los servidores.
 
-![Ficha Configuración del servicio de información de ubicación.] (images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Ficha Configuración del servicio de información de ubicación.")
+![Pestaña de configuración del servicio de información de ubicación.](images/JJ945587.52ea4e9e-d50a-4dc9-982b-31ee5ace4578(OCS.15).jpg "Pestaña de configuración del servicio de información de ubicación.")
 
 Si elige probar esta característica, puede rellenar los valores mencionados en el formulario y, a continuación, hacer clic en el botón generar archivos de configuración de LIS. Generará archivos CSV llamados subred LIS\_. csv, conmutadores\_Lis. csv, puertos\_Lis. csv y Lis\_. csv de lis. Después, puede importar estos archivos CSV en la base de datos de LIS con el cmdlet **set-CsLisSubnet** , el cmdlet Set **-CsLisSwitch** , el cmdlet **set-CsLisPort** y el cmdlet **set-CsWirelessAccessPoint** , respectivamente.
 

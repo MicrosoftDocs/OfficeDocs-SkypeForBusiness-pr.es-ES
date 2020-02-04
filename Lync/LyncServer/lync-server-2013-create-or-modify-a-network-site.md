@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear o modificar un sitio de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a network site
 ms:assetid: 14e24856-9996-4da4-9f31-300940bdf5aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398218(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1afb986f88af11ee2020b760e0a6d65aabed838c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ed721a48b12a497b25d58e7ebb65ff3a91980904
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835804"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

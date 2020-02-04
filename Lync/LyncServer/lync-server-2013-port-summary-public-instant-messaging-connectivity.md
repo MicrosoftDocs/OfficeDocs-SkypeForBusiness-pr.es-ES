@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen de puertos: conectividad de mensajería instan
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Public instant messaging connectivity
 ms:assetid: f46756ec-1401-4ca2-a4a4-5cd28bcfdc7f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618376(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105663
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5bb6b8d0d9277b7d77440519596da76585b9d91b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 16430849221631d9b540f5ee51b0a07758a38b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824249"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725060"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34824249"
 
 _**Última modificación del tema:** 2013-02-16_
 
-Para configurar el firewall para los puertos y protocolos necesarios para admitir la conectividad de mensajería instantánea pública, primero tenga en cuenta que el SIP/MTLS/TCP 5061 es bidireccional para tener en cuenta la capacidad de los contactos en el proveedor de mensajería instantánea pública para ponerse en contacto con los clientes de Lync o para que Lync pueda Póngase en contacto con contactos públicos de mensajería instantánea.
+Para configurar el firewall para los puertos y protocolos necesarios para admitir la conectividad de mensajería instantánea pública, primero tenga en cuenta que los SIP/MTLS/TCP 5061 son bidireccionales para tener en cuenta la capacidad de los contactos en el proveedor de mi pública para ponerse en contacto con los clientes de Lync o para que Lync pueda comunicarse con los contactos públicos de mensajería instantánea.
 
 Windows Live Messenger puede participar en comunicaciones de audio y vídeo con clientes de Lync. Esto cuenta con una configuración de protocolo y un puerto de Firewall muy similar que normalmente tendría en el firewall para admitir clientes de Lync como usuarios externos.
 

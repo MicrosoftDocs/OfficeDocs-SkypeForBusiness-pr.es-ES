@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Procedimientos de recuperación ante desastres del gru
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Response group disaster recovery procedures
 ms:assetid: b49577b7-0ca3-4f20-b614-f3a2a0046b58
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205186(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185171
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7f28f13d1acdbdae58b1aadd6f73871af270b7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5325f84ff5bf5a0f8d9d1a856110e0ac18b37d93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823290"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

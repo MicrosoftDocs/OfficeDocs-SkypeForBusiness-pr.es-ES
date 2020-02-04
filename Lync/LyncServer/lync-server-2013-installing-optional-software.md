@@ -3,6 +3,8 @@ title: 'Lync Server 2013: instalación de software opcional'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing optional software
 ms:assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615032(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541509
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6723d005a41b52025c7e3e475bc3b3a108f2c3d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a493fed33fff897ea2cccc2a89c0d55c5b8a8097
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834974"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726130"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

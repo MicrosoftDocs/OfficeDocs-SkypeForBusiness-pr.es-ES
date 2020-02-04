@@ -3,6 +3,8 @@ title: 'Lync Server 2013: servidores perimetrales de audio/vídeo (A/V)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Audio/Video (A/V) Edge Servers
 ms:assetid: b0cc538b-77eb-47fb-be82-5ab0631c6219
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721852(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733785
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce9738dbb11ce731ac832a5529d2013f3f9b2907
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c99cc3522c13ece937c6e2a0ba06f995431e08d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842905"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

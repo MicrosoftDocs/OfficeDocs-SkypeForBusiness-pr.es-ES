@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tiempo de recuperación para la conmutación por error
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Recovery time for pool failover and pool failback
 ms:assetid: 902c658f-8442-4d0d-b3ad-bf795ecd550d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205079(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184786
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a746eb96de7b1e22291cf7a147851b313469bed5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3fff6f74b5d486c05d01bcd3a911ae674b4f0708
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823787"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

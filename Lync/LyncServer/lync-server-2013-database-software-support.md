@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad con software de base de datos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Database software support
 ms:assetid: e05d0032-bbea-4e61-987d-d07b1c045fd5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398990(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185517
 ms.date: 12/02/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bc8daef764ce5b15fd8c8b7e29f7031ebcfbafc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d4c39a51f742266c12f618f687c23c645977ffdb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835737"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

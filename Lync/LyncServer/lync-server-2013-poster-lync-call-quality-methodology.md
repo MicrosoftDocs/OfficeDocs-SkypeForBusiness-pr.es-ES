@@ -3,6 +3,8 @@ title: 'Lync Server 2013: póster: metodología de calidad de llamadas de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Lync Call Quality Methodology'
 ms:assetid: a069f4e5-4f80-4f0f-8657-2e07276b6b41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593600(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084874
 ms.date: 06/24/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e18dc59e0b8669bb48962874291e63523f37eb48
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 95105501d0403600e88d01ad5fa84363c1e81785
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824018"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2016-06-24_
 
 Este artículo es un complemento del póster [metodología de calidad de llamadas de Lync](http://go.microsoft.com/fwlink/?linkid=391841) , que puede descargar desde el centro de descarga.
 
-![Póster que describe el proceso de CQM] (images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Póster que describe el proceso de CQM")
+![Póster que describe el proceso de CQM](images/Dn594589.d239e04a-1c3b-4f0e-93af-88b85198615a(OCS.15).jpg "Póster que describe el proceso de CQM")
 
 Puede usar este póster para obtener más información sobre CQM, la metodología de calidad de las llamadas de Lync 2013 y 2010 que le ayuda a buscar y eliminar problemas que afectan a la calidad de las llamadas y a la experiencia del usuario para las implementaciones de Lync que incluyen características de telefonía IP empresarial. La metodología de la calidad de las llamadas es un nuevo marco de solución de problemas y administración de servicios que puede concentrar mejor los esfuerzos para mejorar los servicios de voz empresariales en Lync. En este artículo, puede obtener más información sobre CQM, los tipos de servidores y soluciones que se supervisan y qué hacer con los datos de telemetría recopilados.
 
@@ -193,7 +195,7 @@ Para **declarar** un objetivo de calidad, revise los parámetros que se aplican 
 
 Para **obtener** el juego, use las tarjetas proporcionadas en lugar de las consultas de datos y del sistema de KHI. Si al principio del juego no dibujaste una tarjeta relacionada con un aspecto determinado, puedes continuar después de la misma. Si hay una tarjeta relevante, desplace el chip. Si has revertido el número que figura en la tarjeta, significa que has tenido éxito. Si retiras el número indicado, deberás dibujar otra tarjeta desde la baraja. Si la tarjeta indica que dos o más jugadores tienen que desplazarse, deben reponerse correctamente.
 
-Para **** mantenerlo en el juego, indique en alto el plan de administración de servicios que se refiere al aspecto del entorno de Lync.
+Para **mantenerlo** en el juego, indique en alto el plan de administración de servicios que se refiere al aspecto del entorno de Lync.
 
 </div>
 

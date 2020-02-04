@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de la recogida de llamadas grupales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Group Call Pickup
 ms:assetid: b4b0a9a0-91c6-43a5-9e2b-a086caeb3f94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945645(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d7f82d976d3e6e2594cecafe5634edfe0b52841
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3096c468b478da365bcfa0e38fa287a5c2ab57a2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842240"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

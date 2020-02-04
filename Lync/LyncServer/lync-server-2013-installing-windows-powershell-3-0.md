@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalar Windows PowerShell 3.0'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing Windows PowerShell 3.0
 ms:assetid: d87bf21e-0a43-41cb-8fdc-626cedec8538
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205328(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185621
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 471fd6bd04dd1ec0839aa32c4e71d171dea28de7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7cd8b4b48f2ff5a50ef7cafc1ec39671f672670f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834968"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725836"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

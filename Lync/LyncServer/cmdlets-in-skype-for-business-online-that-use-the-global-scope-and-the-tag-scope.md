@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use the global scope and the tag scope
 ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362774(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 56558824
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b274469f16ebb10338504afb2855e1c92774e545
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 04eb5f71a0092452eb8b24fa9acf53d46fb3bcd5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233102"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728100"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a>Cmdlets de Skype empresarial online que usan el ámbito global y el ámbito de la etiqueta
 
@@ -37,7 +39,7 @@ Para devolver una directiva por usuario que tenga la identidad "RedmondAccessPol
 
 
 > [!NOTE]  
-> Cuando se hace referencia a una directiva por usuario, <STRONG></STRONG> el prefijo de etiqueta es opcional. Esta sintaxis, que incluye el prefijo, también es válida:<BR>Get-CsExternalAccessPolicy – Identity "etiqueta: RedmondAccessPolicy"
+> Cuando se hace referencia a una directiva por usuario, el <STRONG>prefijo</STRONG> de etiqueta es opcional. Esta sintaxis, que incluye el prefijo, también es válida:<BR>Get-CsExternalAccessPolicy – Identity "etiqueta: RedmondAccessPolicy"
 
 
 

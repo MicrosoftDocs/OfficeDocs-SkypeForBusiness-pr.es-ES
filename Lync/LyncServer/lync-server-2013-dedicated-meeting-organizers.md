@@ -3,6 +3,8 @@ title: 'Lync Server 2013: organizadores de reuniones dedicados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dedicated meeting organizers
 ms:assetid: 2f99049a-ac9a-43e3-a46d-5122b597420f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204775(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183730
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09d23e13e039e7f7c007d3aab4fbc37cdc8f1acc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 429c68ad96d4738b835f549a5f355e6c133ead74
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835729"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

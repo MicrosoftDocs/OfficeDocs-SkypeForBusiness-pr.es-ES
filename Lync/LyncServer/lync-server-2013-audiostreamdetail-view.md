@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista AudioStreamDetail'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: AudioStreamDetail view
 ms:assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721859(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733792
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10992007c76321f8ed3b436b9786cbef840173ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77cebcd47d735f1779396c0272877c0ec64a6189
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842901"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

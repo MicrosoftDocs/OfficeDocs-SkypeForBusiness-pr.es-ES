@@ -3,6 +3,8 @@ title: 'Lync Server 2013: personalizar la música de estacionamiento de llamadas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Customize Call Park music on hold
 ms:assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688031(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733621
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 62983c10033ddc350b39a123c62fa31c132bb9c9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 301625a36d23c69d02dfdcde8c4985def53630af
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835747"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728760"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

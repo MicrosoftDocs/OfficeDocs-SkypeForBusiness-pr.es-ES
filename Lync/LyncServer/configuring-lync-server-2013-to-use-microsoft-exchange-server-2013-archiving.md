@@ -3,6 +3,8 @@ title: Configuración de Lync Server 2013 para usar el archivado de Microsoft Ex
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to use Exchange Server 2013 archiving
 ms:assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679896(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49557731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b3f8ab22ed23adbce2d6cbd6ccbf1f378476ff00
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3b163b0ce3324455f8a80eca7be5c1423b302a3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842844"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

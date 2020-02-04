@@ -3,6 +3,8 @@ title: 'Lync Server 2013: definir el ámbito de la implementación de E9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the scope of the E9-1-1 deployment
 ms:assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425775(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff32a71ec9b724bad9efee68784d284a71b8f385
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96f5ac1fb747a3e64be6cc84c44b390de8ce821c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835693"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

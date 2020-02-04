@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planeamiento de la capacidad de administración y la v
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for manageability and virtualization
 ms:assetid: 0b774fcd-211e-42f3-8542-f8699a8e2420
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687966(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eba3cede21a7ec63ddfb6db7dafe0c5166831817
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2cc796ec5489cce79b091a92144816266d1cb6ec
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824753"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

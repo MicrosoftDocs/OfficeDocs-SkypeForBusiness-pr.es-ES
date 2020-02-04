@@ -3,6 +3,8 @@ title: Quitar el servidor front-end de Enterprise Edition o el servidor front-en
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the Enterprise Edition Front End Server or Standard Edition Front End Server
 ms:assetid: 8cabb187-cff7-44e7-a126-9b25861ef2c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688123(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733721
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d8add7525f5855f63dec0b18d29bd6c496aa178
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e175b4771b9e9777f0fa162cb2a59f7a3b17cc7e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849863"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

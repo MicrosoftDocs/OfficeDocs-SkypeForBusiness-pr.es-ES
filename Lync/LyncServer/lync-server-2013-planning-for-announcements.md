@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planear los anuncios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for announcements
 ms:assetid: eb9f5420-0222-4fe0-81a7-9d249e56cd84
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e112429af7d3778755585e2bcb90bbe604170a85
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3cd5a537b31b36c7a55f19ac476bb5d4c0fde93c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825082"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

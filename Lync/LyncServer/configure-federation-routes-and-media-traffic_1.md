@@ -3,6 +3,8 @@ title: Configurar las rutas de federación y el tráfico multimedia
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: ed6cb922-7863-453a-adce-2ce0ba761d74
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721925(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733860
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4542ae02cc72dfbac05dfa982e2fbda7f2924919
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7af8228a7537f1bbef4e92af852834459281a817
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842784"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728180"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurar las rutas de federación y el tráfico multimedia
 
@@ -34,7 +36,7 @@ Use los procedimientos que se describen a continuación para realizar la transic
 
 
 > [!IMPORTANT]  
-> Si el servidor perimetral de Office Communications Server 2007 R2 heredado está configurado para usar el mismo FQDN para el servicio perimetral de acceso, el servicio perimetral de conferencia web y el servicio perimetral a/V, los procedimientos de esta sección para realizar la transición de la configuración de Federación a un servidor de Lync 2013 servidor perimetral no es compatible. Si los servicios perimetrales heredados están configurados para usar el mismo FQDN, primero debe migrar todos los usuarios de Office Communications Server 2007 R2 a Lync Server 2013 y, después, retirar el servidor perimetral de Office Communications Server 2007 R2 antes de habilitar la Federación en Servidor perimetral 2013 de Lync Server. Para obtener más información, consulte los temas siguientes: 
+> Si el servidor perimetral de Office Communications Server 2007 R2 heredado está configurado para usar el mismo FQDN para el servicio perimetral de acceso, el servicio perimetral de conferencia web y el servicio perimetral a/V, no se admiten los procedimientos de esta sección para realizar la transición de la configuración de Federación a un servidor perimetral de Lync Server 2013. Si los servicios perimetrales heredados están configurados para usar el mismo FQDN, primero debe migrar todos los usuarios de Office Communications Server 2007 R2 a Lync Server 2013 y, después, retirar el servidor perimetral de Office Communications Server 2007 R2 antes de habilitar la Federación en Servidor perimetral 2013 de Lync Server. Para obtener más información, consulte los temas siguientes: 
 > <UL>
 > <LI>
 > <P><A href="move-remaining-users-to-lync-server-2013_1.md">Mover los usuarios restantes a Lync Server 2013</A></P>
@@ -63,27 +65,27 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 5.  En asignación de enrutamiento de Federación de sitios, desactive la casilla situada junto a **Habilitar la Federación SIP** para deshabilitar la ruta de Federación a través de la **BackCompatSite**.
     
-    ![Editar propiedades, ruta de Federación] (images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Editar propiedades, ruta de Federación")
+    ![Editar propiedades, ruta de Federación](images/JJ721925.2a80c103-c0cc-43ed-ba00-420f9add006a(OCS.15).jpg "Editar propiedades, ruta de Federación")
 
 6.  Haga clic en **Aceptar** para cerrar la página Editar propiedades.
 
-7.  En el **generador**de topologías, seleccione el nodo de nivel superior de **Lync Server**.
+7.  En el **generador de topologías**, seleccione el nodo de nivel superior de **Lync Server**.
 
 8.  En el menú **acción** , haga clic en **publicar topología** y complete el asistente.
 
 ## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Para configurar el servidor perimetral heredado como servidor perimetral de no Federación
 
-1.  Desde el **generador**de topologías, en el menú **acción** haga clic en **combinar topología de Office Communications Server 2007 R2**.
+1.  Desde el **generador de topologías**, en el menú **acción** haga clic en **combinar topología de Office Communications Server 2007 R2**.
 
 2.  Haga clic en **Siguiente** para continuar.
 
 3.  En la **configuración de especificar Edge**, seleccione el **FQDN interno del servidor perimetral** que está configurado actualmente para la Federación y, a continuación, haga clic en **cambiar**.
     
-    ![Combinar OCS 2007 R2 Topology, especificar configuración perimetral] (images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "Combinar OCS 2007 R2 Topology, especificar configuración perimetral")
+    ![Combinar OCS 2007 R2 Topology, especificar configuración perimetral](images/JJ721925.42c15aaf-c1ac-4fb1-a086-665835c57b23(OCS.15).jpg "Combinar OCS 2007 R2 Topology, especificar configuración perimetral")
 
 4.  Haga clic en **siguiente** y acepte la configuración predeterminada hasta llegar a la página **especificar borde externo** :
     
-    El ![generador de topología especifica la página de borde externo] El (images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "generador de topología especifica la página de borde externo")
+    ![El generador de topología especifica la página de borde externo](images/JJ721925.e36f3a1f-3655-456e-9e6d-4814c37da0bf(OCS.15).jpg "El generador de topología especifica la página de borde externo")
 
 5.  En **especificar borde externo**, desactive la casilla **este grupo perimetral se usa para la Federación y la conectividad de mensajería instantánea pública** . Esto quitará la Asociación de Federación con el BackCompatSite.
     
@@ -103,9 +105,9 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 10. Cuando finalice el Asistente para la **publicación** , haga clic en **Finalizar** para cerrar el asistente.
     
-    ![Generador de topología con sitio que se muestra después de la combinación] (images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Generador de topología con sitio que se muestra después de la combinación")
+    ![Generador de topología con sitio que se muestra después de la combinación](images/JJ721925.92b679ad-332f-49aa-b4e2-19f939b711ca(OCS.15).jpg "Generador de topología con sitio que se muestra después de la combinación")
     
-    Tal como se muestra en la ilustración anterior, la **Federación SIP** , ubicada en asignación de la **ruta de Federación de sitios** , se establece en deshabilitado. ****
+    Tal como se muestra en la ilustración anterior, la **Federación SIP** , ubicada en asignación de la **ruta de Federación de sitios** , se establece en **deshabilitado**.
 
 ## <a name="to-configure-certificates-on-the-lync-server-2013-edge-server"></a>Para configurar certificados en el servidor perimetral de Lync Server 2013
 
@@ -129,11 +131,11 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 5.  Escriba el FQDN del servidor perimetral de Lync Server 2013 y, a continuación, haga clic en **Aceptar**.
     
-    ![Propiedades globales de OCS, ficha Federación] (images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Propiedades globales de OCS, ficha Federación")
+    ![Propiedades globales de OCS, ficha Federación](images/JJ721925.da633f72-43c6-4dac-8d37-ccd0dcde79c9(OCS.15).jpg "Propiedades globales de OCS, ficha Federación")
 
 ## <a name="to-turn-on-lync-server-2013-edge-server-federation"></a>Para activar la Federación de Lync Server 2013 Edge Server
 
-1.  Desde el generador de topologías, en el panel izquierdo, vaya al nodo de **** las agrupaciones perimetrales de Lync Server 2013.
+1.  Desde el generador de topologías, en el panel izquierdo, vaya al nodo de las **agrupaciones perimetrales** de Lync Server 2013.
 
 2.  Expanda el nodo, haga clic con el botón secundario en el servidor perimetral que aparece y, a continuación, haga clic en **Editar propiedades**.
     
@@ -145,7 +147,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 3.  En la página **General** , active la casilla **Habilitar la Federación para este grupo perimetral (puerto 5061)** .
     
-    ![Editar propiedades, general, habilitar Federación perimetral] (images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "Editar propiedades, general, habilitar Federación perimetral")
+    ![Editar propiedades, general, habilitar Federación perimetral](images/JJ721925.2aeb5958-da55-4910-b3d7-2124e144a2f0(OCS.15).jpg "Editar propiedades, general, habilitar Federación perimetral")
 
 4.  Haga clic en **Aceptar** para cerrar la página Editar propiedades.
 
@@ -159,13 +161,13 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 9.  Haga clic en **Aceptar** para cerrar la página **Editar propiedades** .
     
-    ![Editar propiedades, general, asociar grupo Edge] (images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Editar propiedades, general, asociar grupo Edge")
+    ![Editar propiedades, general, asociar grupo Edge](images/JJ721925.33d43297-10cd-412e-bf4a-a1d9a84b9009(OCS.15).jpg "Editar propiedades, general, asociar grupo Edge")
     
     Para implementaciones de varios sitios, complete este procedimiento en cada sitio.
 
 ## <a name="to-configure-lync-server-2013-edge-server-outbound-media-path"></a>Para configurar la ruta multimedia de salida de Lync Server 2013 Edge Server
 
-1.  Desde el **generador**de topologías, vaya al grupo de servidores de Lync Server 2013, debajo de **los servidores de aplicaciones para** el usuario de la edición Standard o **Enterprise Edition**.
+1.  Desde el **generador de topologías**, vaya al grupo de servidores de Lync Server 2013, debajo de **los servidores de aplicaciones para** el usuario de la edición Standard o **Enterprise Edition**.
 
 2.  Haga clic con el botón secundario en el grupo y luego haga clic en **Editar propiedades**.
 
@@ -173,13 +175,13 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 4.  En el cuadro desplegable, seleccione el servidor perimetral de Lync Server 2013.
     
-    ![Cuadro de diálogo Editar propiedades, asociar grupo perimetral] (images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Cuadro de diálogo Editar propiedades, asociar grupo perimetral")
+    ![Cuadro de diálogo Editar propiedades, asociar grupo perimetral](images/JJ721925.0cb76b08-5923-4972-8d7a-a829cb77136b(OCS.15).jpg "Cuadro de diálogo Editar propiedades, asociar grupo perimetral")
 
 5.  Haga clic en **Aceptar** para cerrar la página **Editar propiedades** .
 
 ## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar cambios en la configuración del servidor perimetral
 
-1.  En el **generador**de topologías, seleccione el nodo de nivel superior de **Lync Server**.
+1.  En el **generador de topologías**, seleccione el nodo de nivel superior de **Lync Server**.
 
 2.  En el menú **acción** , seleccione **publicar topología** y complete el asistente.
 
@@ -227,7 +229,7 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 6.  Haga clic con el botón secundario en el nombre de servicios y, a continuación, seleccione **detener** para detener el servicio.
 
-7.  Establezca el tipo de inicio **** en deshabilitado.
+7.  Establezca el tipo de inicio en **deshabilitado**.
 
 8.  Haga clic en **Aceptar** para cerrar la ventana **propiedades** .
 

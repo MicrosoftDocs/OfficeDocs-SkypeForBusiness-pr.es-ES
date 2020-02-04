@@ -3,6 +3,8 @@ title: Quitar BackCompatSite
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove BackCompatSite
 ms:assetid: 039650e3-541b-45c2-a682-c4fa08423118
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183265
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6a3d1dc92e45bc99892e7827394376b6f28b12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ccfcd48c575e300b12fe08611d6f898749041478
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849868"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Una vez desactivados todos los grupos y todos los servidores perimetrales se han
 
 4.  En la página **especificar borde heredado** , asegúrese de que la lista de servidores perimetrales esté vacía. Si la lista no está vacía, use el botón **quitar** para quitar todos los servidores perimetrales heredados y, a continuación, haga clic en **siguiente**.
     
-    ![Asistente para combinar topología, especificar página de configuración de Edge] (images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Asistente para combinar topología, especificar página de configuración de Edge")  
+    ![Asistente para combinar topología, especificar página de configuración de Edge](images/JJ204637.fb35a59a-711e-4259-b177-7311df1fed3c(OCS.15).jpg "Asistente para combinar topología, especificar página de configuración de Edge")  
 
 5.  En la página **especificar la configuración interna del puerto SIP** , haga clic en **siguiente**.
 
@@ -61,7 +63,7 @@ Una vez desactivados todos los grupos y todos los servidores perimetrales se han
 
 9.  Haga clic con el botón secundario en el **BackCompatSite**y luego haga clic en **eliminar**.
 
-10. En el **generador**de topologías, seleccione el nodo de nivel superior de **Lync Server**.
+10. En el **generador de topologías**, seleccione el nodo de nivel superior de **Lync Server**.
 
 11. En el menú **acción** , seleccione **publicar topología** y, a continuación, haga clic en **siguiente**.
 

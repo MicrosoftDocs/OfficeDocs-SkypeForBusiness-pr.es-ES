@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista FocusJoinsAndLeaves'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: FocusJoinsAndLeaves view
 ms:assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687992(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e1302bf744b0954d00eae4f4cc27454b2889745
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d7cc1da4f5923a7c42e74c9069054863f1d99a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835147"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722412"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

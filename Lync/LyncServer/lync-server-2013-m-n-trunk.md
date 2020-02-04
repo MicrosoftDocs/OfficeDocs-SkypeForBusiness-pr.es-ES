@@ -3,6 +3,8 @@ title: 'Lync Server 2013: M:N troncal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: M:N trunk
 ms:assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a99a76c2291b8ffcfcb1c68367ab6a999211c24f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4485380d6de5d247511b863761fcf7c75d38a29b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834916"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2012-10-01_
 
 Lync Server 2013 admite una mayor flexibilidad en la definición de un tronco para el enrutamiento de llamadas de versiones anteriores. Un tronco es una asociación lógica entre un servidor de mediación y un número de puerto de escucha con una puerta de enlace y un número de puerto de escucha. Esto implica varias cosas: un servidor de mediación puede tener varios troncos para la misma puerta de enlace. un servidor de mediación puede tener varios troncos en diferentes puertas de enlace. a la inversa, una puerta de enlace puede tener varios troncos en diferentes servidores de mediación.
 
-Aún es necesario crear un tronco de raíz cuando se agrega una puerta de enlace a la topología de Lync con el generador de topologías. El número de puertas de enlace que un servidor de mediación dado puede controlar depende de la capacidad de procesamiento del servidor durante las horas de mayor actividad. Si implementa un servidor de mediación en hardware que supera los requisitos mínimos de hardware para Lync Server 2013, tal y como se describe en [hardware compatible con Lync server 2013](lync-server-2013-supported-hardware.md) en la documentación de soporte técnico, la estimación de cuántos activos sin omisión llamadas un servidor de mediación independiente puede controlar es de aproximadamente 1000 llamadas. Cuando se implementa en el hardware que cumple estas especificaciones, se espera que el servidor de mediación realice la transcodificación, pero sigue enrutando las llamadas para varias puertas de enlace incluso si las puertas de enlace no admiten la omisión de medios.
+Aún es necesario crear un tronco de raíz cuando se agrega una puerta de enlace a la topología de Lync con el generador de topologías. El número de puertas de enlace que un servidor de mediación dado puede controlar depende de la capacidad de procesamiento del servidor durante las horas de mayor actividad. Si implementa un servidor de mediación en hardware que supera los requisitos mínimos de hardware para Lync Server 2013, según se describe en [hardware compatible con Lync server 2013](lync-server-2013-supported-hardware.md) en la documentación de compatibilidad, la estimación de cuántas llamadas de no omisión activas puede controlar un servidor de mediación independiente es de aproximadamente 1000 llamadas. Cuando se implementa en el hardware que cumple estas especificaciones, se espera que el servidor de mediación realice la transcodificación, pero sigue enrutando las llamadas para varias puertas de enlace incluso si las puertas de enlace no admiten la omisión de medios.
 
 Al definir una ruta de llamada, especifica los troncos asociados a esa ruta, pero no especifica qué servidores de mediación están asociados a esa ruta. En su lugar, use el generador de topología para asociar troncos con servidores de mediación. En otras palabras, el enrutamiento determina qué tronco se debe usar para una llamada y, posteriormente, el servidor de mediación asociado con ese tronco se envía a través de la señalización de esa llamada.
 

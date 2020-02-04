@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar una colección de parámetros de configuraci�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a collection of Device Update configuration settings
 ms:assetid: 1a649136-34a9-42a7-a5b3-a78bbfe93f36
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994019(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803928
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6de7e3e6ecef8338a3a5514cf3a84180e05ca276
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 936a591ea46c6b599a9a72f06a9287be35e66cce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835657"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

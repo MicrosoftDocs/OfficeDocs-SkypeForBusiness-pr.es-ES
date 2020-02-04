@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración y asignación de directivas de archivad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring and assigning Archiving policies
 ms:assetid: acd18ea8-c7f1-4178-871a-cd3b75bdaa8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205175(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185121
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8b3b4f1f9465684d7c9139b8cd548caacf91c41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d8cfb5b446456d99750529d883172ed3cb56e3e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842289"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ En Lync Server 2013, se usan directivas para habilitar y deshabilitar el archiva
 
   - Directivas opcionales a nivel de sitio y de usuario que puede crear y usar para especificar cómo se implementa el archivado para usuarios o sitios específicos.
 
-Inicialmente, debe configurar las directivas de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar directivas después de la implementación. En el panel de control de Lync Server 2013, puede usar la página **Directiva** de archivado del grupo **archivado y supervisión** para administrar directivas a nivel global, nivel de sitio y nivel de usuario.
+Inicialmente, debe configurar las directivas de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar directivas después de la implementación. En el panel de control de Lync Server 2013, puede usar la página **Directiva de archivado** del grupo **archivado y supervisión** para administrar directivas a nivel global, nivel de sitio y nivel de usuario.
 
 <div>
 

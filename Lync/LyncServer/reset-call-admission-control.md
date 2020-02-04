@@ -3,6 +3,8 @@ title: Restablecer el control de admisión de llamadas
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Reset call admission control
 ms:assetid: 5873f56c-f3d6-4d73-beea-c9f37d5077f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688064(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733658
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf7067ba3d130c264ead39ed9d2c044a037960f4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6956b1a871a4a0a5c7e758d2890a58989f5ac8a2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849853"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

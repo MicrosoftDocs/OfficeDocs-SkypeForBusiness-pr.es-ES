@@ -3,6 +3,8 @@ title: Migrar Lync Server 2010 a Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migration from Lync Server 2010 to Lync Server 2013
 ms:assetid: ef99d4a9-a666-4a92-9994-4d7930f70d55
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205369(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4be42da09e14f91d82310258c728de4ed7976be2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c32d2679d4f31863e389735efb6660ea670b959
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849958"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

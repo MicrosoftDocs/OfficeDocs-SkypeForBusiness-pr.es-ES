@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar y supervisar el servicio de copia de seguri
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring and monitoring the Backup Service
 ms:assetid: c608280e-a7d1-4ae0-a75c-da6b524752fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205252(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185365
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66a800014b3327e83426c9f758b7d5359c1ce6c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9992f0466ceb2e01fa54cb2b2d511eeb96af755a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842285"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

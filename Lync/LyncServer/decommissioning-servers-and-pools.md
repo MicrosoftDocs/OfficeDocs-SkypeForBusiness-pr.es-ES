@@ -3,6 +3,8 @@ title: Retirar servidores y grupos
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Decommissioning servers and pools
 ms:assetid: 83bb222c-03f8-46ec-a54d-f80d00dfced2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205053(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184694
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 89109f7ca45003eb9c6cb7efc75771261f6678e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b0dc7c9006170b2df6f3b54aea7ef80509e15438
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842839"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723060"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

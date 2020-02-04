@@ -3,6 +3,8 @@ title: 'Lync Server 2013: instalación de los módulos de administración de Lyn
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: nstalling the Lync Server 2013 management packs
 ms:assetid: b800d4ab-fdc8-4c72-a76a-b78932779fe3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205202(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fea443225744bfd0d0e2dfa90a317ffa4cc890ac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffc102eccdbaa941e2691df88899c0cc01348838
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834992"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de aplicaciones de confianza'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing trusted applications
 ms:assetid: 0df4f899-aa7b-470d-a6c2-2e8eb2871aa2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687967(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733552
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 491d59921ac1c957ee39b30e490fa7a126275115
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 502193873b4dd80ae7d8698a98ecaad2df8a5b52
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827672"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos del servicio Detección automática'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Autodiscover service requirements
 ms:assetid: 0ac5dbf7-9acd-4d25-b21a-932022b8b983
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690012(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183368
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ea9d9be05561d200696a5ad0256c0d5424cf9b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 777d70b20a51e5408fe9d9248028c3dbcaebeba2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842898"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

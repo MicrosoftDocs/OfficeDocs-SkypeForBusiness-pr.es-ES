@@ -3,6 +3,8 @@ title: 'Lync Server 2013: realizar una copia de seguridad de los datos y la conf
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backing up core data and settings
 ms:assetid: 278bc95a-7b8d-4e01-a872-a844830459de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202170(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541452
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1737dac3369361b0937e6b870839e11e5706e41a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4185c02bc85077b0f68ca76d83fd48203e0e5fd9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842895"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727920"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Recursos requeridos para el servidor de chat persisten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Required resources
 ms:assetid: bce50b95-f3c8-407e-963a-d8896ee77fbc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205211(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185255
 ms.date: 02/05/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac51432de0a6ca261e42f77d64ef1aa1a615cb6d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31683641e50a3e3bc898841b0cf4b0911e046262
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823255"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,13 +71,13 @@ La siguiente ilustración muestra una topología de grupo de servidores de chat 
 
 **Grupo de servidores de chat persistente estirado cuando los centros de datos se encuentran en un gran ancho de banda y baja latencia.**
 
-![Examen de configuración HBW del grupo de servidores de chat persistente] (images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Examen de configuración HBW del grupo de servidores de chat persistente")
+![Examen de configuración HBW del grupo de servidores de chat persistente](images/JJ205211.55d10910-c824-41e6-bed2-08d13a2abd65(OCS.15).jpg "Examen de configuración HBW del grupo de servidores de chat persistente")
 
 La siguiente ilustración muestra una topología de grupo de servidores de chat persistente superpuesto en la que los centros de datos se encuentran en una ubicación geográfica con un ancho de banda bajo y una latencia elevada.
 
 **Grupo de servidores de chat persistente estirado cuando los centros de datos se encuentran en una ubicación geográfica con un ancho de banda bajo y una latencia alta.**
 
-![Examen de configuración LBW del grupo de servidores de chat persistente] (images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Examen de configuración LBW del grupo de servidores de chat persistente")
+![Examen de configuración LBW del grupo de servidores de chat persistente](images/JJ205211.586b0a3a-3767-4991-944f-ee54389512aa(OCS.15).jpg "Examen de configuración LBW del grupo de servidores de chat persistente")
 
 </div>
 

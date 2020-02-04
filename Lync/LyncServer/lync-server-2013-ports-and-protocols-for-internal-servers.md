@@ -3,6 +3,8 @@ title: 'Lync Server 2013: puertos y protocolos para servidores internos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Ports and protocols for internal servers
 ms:assetid: c94063f1-e802-4a61-be90-022fc185335e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398833(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185402
 ms.date: 04/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 026843216e433ebea120384209ed90f38be3437b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1001cce83d9b23125b177725c77715bd19a00e03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824375"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

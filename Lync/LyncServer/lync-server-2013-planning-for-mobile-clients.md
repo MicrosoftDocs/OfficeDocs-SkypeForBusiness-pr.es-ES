@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planificación de clientes móviles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for mobile clients
 ms:assetid: a7b263a4-eeb8-4a04-acc2-0d29d72742cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8693c35d43ec70cbff8badd16b51d0b0c68b52fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff36e17e0add5cdf45347921292dadbdd4d635ef
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824641"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725389"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

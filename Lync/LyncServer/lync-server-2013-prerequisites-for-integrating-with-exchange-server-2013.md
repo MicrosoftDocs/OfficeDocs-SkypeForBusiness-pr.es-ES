@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos previos para la integración con Exchange S
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prerequisites for integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: ea22beb9-c02e-47cb-836d-97a556969052
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721919(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e51bc3ce48756f746b2f2f5c0ce65d08567fea74
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1a381f765c9c91e9c5e218d66320d542a11bf878
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823752"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ Puede asignar el URI de detección automática ejecutando un comando similar al 
 
 Para obtener más información sobre el servicio de detección automática, consulte "Descripción del servicio de [http://go.microsoft.com/fwlink/p/?LinkId=268542](http://go.microsoft.com/fwlink/p/?linkid=268542)detección automática" en.
 
-Después de configurar el servicio de detección automática, debe modificar la configuración de OAuth de Lync Server. Esto garantiza que Lync Server sepa dónde encontrar el servicio Detección automática. Para modificar la configuración de OAuth en Lync Server 2013, ejecute el siguiente comando desde el shell de administración de Lync Server. Al ejecutar este comando, asegúrese de especificar el URI para el servicio de detección automática que se está ejecutando en el servidor de Exchange y de que usa **Autodiscover. SVC** para apuntar a la ubicación del servicio en lugar de Autodiscover **. XML** (que apunta al archivo XML utilizado por el servicio):
+Después de configurar el servicio de detección automática, debe modificar la configuración de OAuth de Lync Server. Esto garantiza que Lync Server sepa dónde encontrar el servicio Detección automática. Para modificar la configuración de OAuth en Lync Server 2013, ejecute el siguiente comando desde el shell de administración de Lync Server. Al ejecutar este comando, asegúrese de especificar el URI para el servicio de detección automática que se ejecuta en el servidor de Exchange y de que usa **Autodiscover. SVC** para apuntar a la ubicación del servicio en lugar de **Autodiscover. XML** (que señala el archivo XML usado por el servicio):
 
     Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc"
 

@@ -3,6 +3,8 @@ title: Conecte el grupo de servidores piloto a los servidores perimetrales hered
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: 9ed13c41-f3ab-4e1d-beb6-a00152c541e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205136(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185003
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40d54a7432451901a32cb8e31d201ef732a731bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 09858b03c787af034790c94bcbf12ca6ea7ceecf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842838"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Para habilitar el sitio de Lync Server 2013 para que use el director y el servid
 
 4.  En **asignación**de la ruta de Federación de sitios, seleccione **Habilitar Federación SIP**y, a continuación, seleccione el director de Office Communications Server 2007 R2 o el servidor perimetral de Office Communications Server 2007 R2 si no se muestra ningún director.
     
-    ![Cuadro de diálogo Editar propiedades, página Ruta de Federación] (images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página Ruta de Federación")  
+    ![Cuadro de diálogo Editar propiedades, página Ruta de Federación](images/JJ205136.bc13014b-3578-4d9e-9ff7-bdd09130b676(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página Ruta de Federación")  
 
 5.  Haga clic en **Aceptar** para cerrar la página **Editar propiedades** .
 
@@ -61,11 +63,11 @@ Para habilitar el sitio de Lync Server 2013 para que use el director y el servid
 
 8.  En la lista, seleccione la interfaz del servidor perimetral para la BackCompatSite.
     
-    ![Cuadro de diálogo Editar propiedades, página general] (images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página general")  
+    ![Cuadro de diálogo Editar propiedades, página general](images/JJ205136.75045212-03ca-4b82-8337-5dacb487094f(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página general")  
 
 9.  Haga clic en **Aceptar** para cerrar la página **Editar propiedades** .
 
-10. En el **generador**de topologías, seleccione el nodo de nivel superior, **Lync Server**.
+10. En el **generador de topologías**, seleccione el nodo de nivel superior, **Lync Server**.
 
 11. En el menú **acción** , haga clic en **publicar topología**y, a continuación, haga clic en **siguiente**.
 

@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use a user identity
 ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362842(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 56558859
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce46e700a65f00625aeebad1032c54a5affeaa19
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 94c29eb2aadefcb6a9f3ca9b5c11a49f7e41167a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233116"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728130"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Cmdlets de Skype empresarial online que usan una identidad de usuario
 

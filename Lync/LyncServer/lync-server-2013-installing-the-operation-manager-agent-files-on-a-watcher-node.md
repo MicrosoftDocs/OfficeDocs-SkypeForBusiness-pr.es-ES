@@ -3,6 +3,8 @@ title: Instalar los archivos del agente Operations Manager en un nodo de monitor
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Operation Manager agent files on a watcher node
 ms:assetid: 39014de3-aec2-4954-a148-64c9d0af3c04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204819(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183901
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0d0c8f4a8692e8a46600ce5719e45492b8bc8a7b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2d50bbcb6397888308424e5140913680ab89995e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834973"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Restaurar un servidor de servicios de fondo de la edición empresarial d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a mirrored Enterprise Edition Back End Server - primary
 ms:assetid: bc555b46-70c5-4eee-ae91-e195df238293
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945648(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541512
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dbf0c8562ed4180fb14bf0bda74a03dd4ee8f746
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 07546b59839631cbd558e91e3e617fefd1c6e362
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823066"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

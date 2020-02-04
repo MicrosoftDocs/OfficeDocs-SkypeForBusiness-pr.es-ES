@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Permisos y requisitos previos de configuración de gru
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Response Group configuration permissions and prerequisites
 ms:assetid: 4266f16a-b387-452c-a8ca-d771a3c58f0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204840(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1360a6dee8dbbf169fa0ceda1ee1b2f215ff09b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bcf10a61ed5285fe5cfc907c2624a14112d96eae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823276"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

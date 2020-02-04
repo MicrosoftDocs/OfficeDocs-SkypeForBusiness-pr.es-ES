@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lista de comprobación para la implementación de conf
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for conferencing
 ms:assetid: ee0ee939-6b78-4371-b39d-d09a27375601
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205362(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185754
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 347ec613293a92ac29dbb98a7ca1c25737879ce0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9ea0fec545c2241a05b7f6b65d1a05fad9add349
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835504"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

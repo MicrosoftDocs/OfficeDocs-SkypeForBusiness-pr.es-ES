@@ -3,6 +3,8 @@ title: 'Lync Server 2013: personalizar el comportamiento de Lync y la interfaz d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Customizing Lync behavior and the user interface
 ms:assetid: 1196dfe5-eb2b-4e57-9bda-d247f341b0b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398200(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09e7decbe1355613a2e5f7d5057154e882036c4b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: df800b1670226d90deee6921d0c0514cbfdcee14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835746"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728720"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

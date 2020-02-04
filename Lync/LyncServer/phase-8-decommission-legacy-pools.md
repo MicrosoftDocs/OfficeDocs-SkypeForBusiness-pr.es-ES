@@ -3,6 +3,8 @@ title: 'Fase 8: Retirar los grupos de servidores heredados'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 8: Decommission legacy pools'
 ms:assetid: 1c68e5d8-fb5f-45e6-b6e3-27f5e830c966
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204724(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183557
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df23d085a63cf67736b038b120fc294aa376f962
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9c21aa29f2e98aacd3ec68076a21ba2b4d2a76e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849887"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2016-12-08_
 
 En el siguiente tema se proporcionan instrucciones para actualizar entradas DNS, mover el servidor de administración de contenido, decomisar grupos y desactivar y quitar servidores y grupos de servidores de una implementación heredada de Lync Server 2010. No todos los procedimientos enumerados en esta sección son obligatorios. Lea la documentación y determine qué procedimiento de retiro se debe usar.
 
-Para obtener una cobertura exhaustiva de la eliminación de servidores y roles de servidor de Lync Server 2010, y una guía paso a paso para dar de baja una implementación de Lync Server 2010, consulte "desinstalar Microsoft Lync Server 2010 y quitar roles de servidor", [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227) que se puede descargar en .
+Para obtener una cobertura exhaustiva de la eliminación de servidores y roles de servidor de Lync Server 2010, y una guía paso a paso para dar de baja una implementación de Lync Server 2010, consulte "desinstalar Microsoft Lync Server 2010 y quitar roles de servidor", [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkid=246227)que se puede descargar en.
 
 <div>
 

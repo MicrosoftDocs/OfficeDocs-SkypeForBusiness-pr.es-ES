@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla ProgressReport'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ProgressReport table
 ms:assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425864(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa8ca0341cd5b85418ef5f71234870ae4171af27
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2e1cb7c8e764097af96981220ee74d481b379341
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823724"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

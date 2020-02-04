@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Adquirir una ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Acquiring a location
 ms:assetid: 9bf069aa-d240-4d95-be3a-e795537f8e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205110(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184903
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6fb123cf2f38d935bc0cc641c67e6d0ff1d54e4e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e54c7032973f75922f6c6893a0c758409ec945be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842967"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ El cliente de Lync Server incluye los datos de PIDF como parte de una llamada de
 
 En el siguiente diagrama se muestra cómo un cliente de Lync Server adquiere una ubicación (excepto para el método de ubicación basado en direcciones MAC del cliente de terceros):
 
-![Cómo obtiene el cliente un diagrama de ubicación] (images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "Cómo obtiene el cliente un diagrama de ubicación")
+![Diagrama sobre cómo adquiere una ubicación el cliente](images/JJ205110.4438f5fc-f1b2-444b-8565-09035363ed43(OCS.15).jpg "Diagrama sobre cómo adquiere una ubicación el cliente")
 
 Para que un cliente adquiera una ubicación, es preciso seguir estos pasos:
 

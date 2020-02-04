@@ -3,6 +3,8 @@ title: 'Lync Server 2013: acceso a datos de supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Accessing monitoring data
 ms:assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688116(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 45f6033c927a0d0c27b139d889c5fb0b0d9d4825
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 609963f3248d5bdd1c50eac45b74c188ab2e6c56
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842973"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

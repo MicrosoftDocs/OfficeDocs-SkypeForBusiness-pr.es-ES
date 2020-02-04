@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuración del hardware'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardware setup
 ms:assetid: 37a9f295-cde3-4beb-9a6a-2580082798ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425852(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183834
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e2d05db28ffa61ea25dbb237c388c37a87ac5a0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6831ba5f8d2afea7bddbd0c26ab4cebb2cff44f1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835086"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727900"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

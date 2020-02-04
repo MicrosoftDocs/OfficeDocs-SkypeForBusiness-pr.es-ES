@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use a conferencing provider identity
 ms:assetid: be5621b6-ec11-4b12-83ec-075af269ca6a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362841(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 56558858
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2957fbc63a885a1c2e1f053cffbf7439d2b648d4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9dc5438a0fe246b1e988d60a0e6ce1ac3d3f6d67
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233123"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726720"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-conferencing-provider-identity"></a>Cmdlets de Skype empresarial online que usan una identidad de proveedor de conferencias
 

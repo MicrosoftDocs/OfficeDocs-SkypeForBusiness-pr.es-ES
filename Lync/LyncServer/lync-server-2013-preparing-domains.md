@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Preparar dominios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing domains
 ms:assetid: 8eea541c-5f9d-4afc-92a8-a31d6f742544
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398721(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184816
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cd8c09346c8f5b562a72e77b9ba40915b480c91
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 20a6897ae45964f3f179e951916dfb6bf7180641
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991385"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

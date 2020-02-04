@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Notas de la versión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Release notes
 ms:assetid: 9f9e864c-3365-4800-803c-5289bd8fd363
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205120(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184930
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf5eadb591b7e198ee75ff197b3836673ae0ecc3
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 10961f0a8e59fe1d0dc0268b430f37fd294252b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992387"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

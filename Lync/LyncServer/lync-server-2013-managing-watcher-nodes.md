@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de nodos de monitor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing watcher nodes
 ms:assetid: 66deaf49-a71f-4a6e-ada0-ea8b688ee921
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688078(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7edddd1a1bb67dc4bf3df5b7809aa76b2397e56
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27d2afd025897df4f9b98e235d408a264d2cceb2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827644"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34827644"
 
 _**Última modificación del tema:** 2012-10-20_
 
-Además de modificar las transacciones sintéticas que se ejecutan en un nodo de monitor, los administradores también pueden usar el cmdlet **set-CsWatcherNodeConfiguration** para llevar a cabo otras dos tareas importantes: habilitar y deshabilitar el nodo de monitor, y configurar el nodo de monitor para que use direcciones URL internas o direcciones URL externas al ejecutar sus pruebas.
+Además de modificar las transacciones sintéticas que se ejecutan en un nodo de monitor, los administradores también pueden usar el cmdlet **set-CsWatcherNodeConfiguration** para llevar a cabo otras dos tareas importantes: habilitar y deshabilitar el nodo de supervisor, y configurar el nodo de monitor para usar direcciones URL internas o externas al ejecutar sus pruebas.
 
 De forma predeterminada, los nodos de monitor están diseñadas para ejecutar periódicamente todas sus transacciones sintéticas habilitadas. Sin embargo, a veces es posible que debas suspender dichas transacciones. Por ejemplo, si el nodo de monitor está desconectado temporalmente de la red y, a continuación, no hay ningún motivo para ejecutar las transacciones sintéticas. Sin la conectividad de red, se garantizará el error de esas transacciones. Si desea deshabilitar temporalmente un nodo de monitor, ejecute un comando similar a este desde el shell de administración de Lync Server:
 

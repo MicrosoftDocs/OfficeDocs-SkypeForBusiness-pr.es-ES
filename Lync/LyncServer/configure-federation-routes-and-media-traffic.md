@@ -3,6 +3,8 @@ title: Configurar las rutas de federación y el tráfico multimedia
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation routes and media traffic
 ms:assetid: 8b2f5f81-a955-4ad1-ad74-397322ff9521
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688121(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733720
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ed16ac6b8aceea6828b600ce18da8b9a72827846
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cd9cf1c7c61261e4e1a6974498f9f9dff980169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842097"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,11 +85,11 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 5.  En **asignación de ruta de Federación de sitios**, desactive la casilla de verificación **Habilitar Federación SIP** para deshabilitar la ruta de Federación a través del entorno heredado de Lync Server 2010.
     
-    ![Cuadro de diálogo Editar propiedades, página Ruta de Federación] (images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página Ruta de Federación")
+    ![Cuadro de diálogo Editar propiedades, página Ruta de Federación](images/JJ688121.8d755ae0-fc7d-4253-b0db-0cf31b863c55(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página Ruta de Federación")
 
 6.  Haga clic en **Aceptar** para cerrar la página Editar propiedades.
 
-7.  En el **generador**de topologías, seleccione el nodo de nivel superior de **Lync Server**.
+7.  En el **generador de topologías**, seleccione el nodo de nivel superior de **Lync Server**.
 
 8.  En el menú **acción** , haga clic en **publicar topología**.
 
@@ -107,7 +109,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 4.  Desactive la casilla **Habilitar Federación para este grupo perimetral (puerto 5061)** y seleccione **Aceptar** para cerrar la página.
     
-    ![Editar propiedades, general, habilitar la Federación] (images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Editar propiedades, general, habilitar la Federación")
+    ![Editar propiedades, general, habilitar la Federación](images/JJ688121.3be2c8c0-9ed9-4544-bafd-b7694271fafc(OCS.15).jpg "Editar propiedades, general, habilitar la Federación")
 
 5.  En el menú **acción** , seleccione **publicar topología**y, a continuación, haga clic en **siguiente**.
 
@@ -115,7 +117,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 7.  Comprobar que la Federación del servidor perimetral heredado está deshabilitada.
     
-    ![Generador de topología, grupo Edge, Federación] deshabilitada (images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Generador de topología, grupo Edge, Federación") deshabilitada
+    ![Generador de topología, grupo Edge, Federación deshabilitada](images/JJ688121.a2948438-d51a-4aeb-9eaa-d899ca950758(OCS.15).jpg "Generador de topología, grupo Edge, Federación deshabilitada")
 
 </div>
 
@@ -145,7 +147,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 4.  Seleccione la entrada de la casilla **Habilitar Federación para este grupo perimetral (puerto 5061)** y, a continuación, haga clic en **Aceptar** para cerrar la página.
     
-    ![Cuadro de diálogo Editar propiedades, página general] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página general")
+    ![Cuadro de diálogo Editar propiedades, página general](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página general")
 
 5.  En el menú **acción** , seleccione **publicar topología**y, a continuación, haga clic en **siguiente**.
 
@@ -153,7 +155,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 7.  Comprobar la **Federación (el puerto 5061)** está **habilitado**.
     
-    ![Generador de topología, grupo Edge, Federación habilitada] (images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Generador de topología, grupo Edge, Federación habilitada")
+    ![Generador de topología, grupo Edge, Federación habilitada](images/JJ688121.e8ccdada-23f4-47e5-a99d-5bf795fefc48(OCS.15).jpg "Generador de topología, grupo Edge, Federación habilitada")
 
 </div>
 
@@ -167,11 +169,11 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 3.  En la página **General** , en **selección del próximo salto**, seleccione de la lista desplegable el grupo de servidores de Lync 2013.
     
-    ![Cuadro de diálogo Editar propiedades, página de salto siguiente] (images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página de salto siguiente")
+    ![Cuadro de diálogo Editar propiedades, página de salto siguiente](images/JJ688121.5741b9a8-e729-4457-9f62-38f08a2c5b02(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página de salto siguiente")
 
 4.  Haga clic en **Aceptar** para cerrar la página Editar propiedades.
 
-5.  En el **generador**de topologías, seleccione el nodo de nivel superior de **Lync Server** .
+5.  En el **generador de topologías**, seleccione el nodo de nivel superior de **Lync Server** .
 
 6.  En el menú **acción** , haga clic en **publicar topología** y complete el asistente.
 
@@ -187,7 +189,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 3.  En la sección **asociaciones** , active la casilla **asociar grupo perimetral (para componentes multimedia)** .
     
-    ![Editar propiedades, general, asociar grupo Edge] (images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Editar propiedades, general, asociar grupo Edge")
+    ![Editar propiedades, general, asociar grupo Edge](images/JJ688121.fd9b18ca-fda2-4764-9bf0-726bf39f6a12(OCS.15).jpg "Editar propiedades, general, asociar grupo Edge")
 
 4.  En el cuadro desplegable, seleccione el servidor perimetral de Lync Server 2013.
 
@@ -214,7 +216,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 3.  En la página **General** , compruebe que la opción **Habilitar Federación para este grupo perimetral (puerto 5061)** esté activada.
     
-    ![Cuadro de diálogo Editar propiedades, página general] (images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página general")
+    ![Cuadro de diálogo Editar propiedades, página general](images/JJ688121.cc79a88c-cce4-4cab-80ad-4f70325dc7c4(OCS.15).jpg "Cuadro de diálogo Editar propiedades, página general")
 
 4.  Haga clic en **Aceptar** para cerrar la página Editar propiedades.
 
@@ -226,7 +228,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 8.  En **asignación**de la ruta de Federación de sitios, seleccione **Habilitar Federación SIP**y, en la lista, seleccione el servidor perimetral 2013 de Lync Server en la lista.
     
-    ![Editar propiedades, página de ruta de Federación] (images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Editar propiedades, página de ruta de Federación")
+    ![Editar propiedades, página de ruta de Federación](images/JJ688121.c50c13b8-0859-4e3e-8793-45c431a5b4b5(OCS.15).jpg "Editar propiedades, página de ruta de Federación")
 
 9.  Haga clic en **Aceptar** para cerrar la página **Editar propiedades** .
     
@@ -238,7 +240,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 ## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar cambios en la configuración del servidor perimetral
 
-1.  En el **generador**de topologías, seleccione el nodo de nivel superior de **Lync Server** .
+1.  En el **generador de topologías**, seleccione el nodo de nivel superior de **Lync Server** .
 
 2.  En el menú **acción** , seleccione **publicar topología** y complete el asistente.
 
@@ -280,7 +282,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
 
 6.  Haga clic con el botón secundario en el nombre de servicios y, a continuación, seleccione **detener** para detener el servicio.
 
-7.  Establezca el tipo de inicio **** en deshabilitado.
+7.  Establezca el tipo de inicio en **deshabilitado**.
 
 8.  Haga clic en **Aceptar** para cerrar la ventana **propiedades** .
 

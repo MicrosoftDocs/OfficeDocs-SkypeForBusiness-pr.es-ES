@@ -3,6 +3,8 @@ title: (Recomendado) Crear directorios de conferencia
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: (Recommended) Create Conference Directories
 ms:assetid: 787f4c94-1c96-468a-a74d-e06b7bd4b8a3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn832056(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63146389
 ms.date: 10/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e912beac1eeffe3214f8a8d638926d84f547a270
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5d525951dcb77ee365c9c83461f678c26ae53af6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849877"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

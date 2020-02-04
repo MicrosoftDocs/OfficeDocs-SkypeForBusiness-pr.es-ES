@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planificar conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for conferencing
 ms:assetid: 983a272a-e1b3-4d70-8f84-836b092fe526
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398781(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184937
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2aff3eef21ca150f4ad6fc9bb2358c2ac81680fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 53b7813a197dd7cc3116540c605d7efbdb22a04b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824823"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Quitar la base de datos de SQL Server para un grupo de servidores front-e
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the SQL Server database for a Front End pool
 ms:assetid: 6bb932df-3ed7-49b6-ae17-61e4c6a5fe82
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688084(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a6dcbe9bcab20438d02fe489666f9b4c0c0f6d0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 853b52c6f6a06d05f106114ab6b59ebc52129fc3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849857"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Después de quitar un grupo front-end de Microsoft Lync Server 2010 o volver a c
 
 1.  Desde el servidor front-end de Lync Server 2013, abra Topology Builder y descargue la topología existente.
 
-2.  En el generador de topología, vaya a **componentes** compartidos y, a continuación, a **almacenes de SQL Server**, haga clic con el botón secundario en la instancia de SQL Server asociada al grupo front-end eliminado o reconfigurado y, a continuación, haga clic en **eliminar**.
+2.  En el generador de topología, vaya a **componentes compartidos** y, a continuación, a **almacenes de SQL Server**, haga clic con el botón secundario en la instancia de SQL Server asociada al grupo front-end eliminado o reconfigurado y, a continuación, haga clic en **eliminar**.
 
 3.  Publique la topología y, a continuación, compruebe el estado de replicación.
 

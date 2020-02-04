@@ -3,6 +3,8 @@ title: Quitar una entrada de host autorizado
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove an authorized host entry
 ms:assetid: 56a04140-347e-4eef-bede-0e858534f71e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204902(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184177
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca9bc99382e904c398dbb7434b2ee6343ab661ee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 849617676305cc2d7308c0c8b1a48bef327f3c87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849865"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

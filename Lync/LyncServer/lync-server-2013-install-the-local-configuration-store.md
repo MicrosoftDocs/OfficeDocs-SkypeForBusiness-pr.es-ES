@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalar el almacén de configuración local'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install the Local Configuration store
 ms:assetid: b563030d-d338-411f-9611-28d5eb4b3238
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412874(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185180
 ms.date: 06/28/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 135dedc38bbc24dd69dfd44b74c70db8e3397252
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4af6d4b6dfe203f69a6b104b6ade636d2658178
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834991"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

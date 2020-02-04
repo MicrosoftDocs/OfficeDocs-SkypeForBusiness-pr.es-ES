@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos para el enrutamiento basado en la ubicació
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Requirements for Location-Based Routing for conferencing
 ms:assetid: 766d9286-2c34-4faf-bb3e-f0ca478a70cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362806(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 925b71497012d7e6ed9c19042a079a7b30630c47
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac57a32476d80ab1aca5d2ad0928e2862a4c8558
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823325"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

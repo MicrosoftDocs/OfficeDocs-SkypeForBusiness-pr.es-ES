@@ -3,6 +3,8 @@ title: Ejecutar compatibilidad con versiones anteriores para servidor de chat pe
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Run backward compatibility for Persistent Chat Server
 ms:assetid: 53f1a706-3104-4a94-8b4e-8badd9a066d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204901(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184175
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b512d18449c881efd856674477a727cec137b64c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d7054e9dfb3eba8e6365710accfd3a9693bc39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849852"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ No es necesario crear varios puntos de conexión del servidor de chat persistent
 
 Este escenario estándar generalmente sigue este patrón:
 
-  - Los usuarios se administran con un servidor de Lync Server 2010, un grupo de chats grupales y los clientes de chat grupal de Lync 2010 se conectan a ese grupo mediante algún usuario\<conocido\>(SIP predeterminado: ocschat @ domainname. com o uno similar). Los usuarios son servicios de dominio de Active Directory habilitados para SIP y el servicio de búsqueda se registra con ellos para recibir solicitudes entrantes.
+  - Los usuarios se administran con un servidor de Lync Server 2010, un grupo de chats grupales y los clientes de chat grupal de Lync 2010 se conectan a ese grupo mediante algún\<usuario\>conocido (SIP predeterminado: ocschat@ domainname. com o uno similar). Los usuarios son servicios de dominio de Active Directory habilitados para SIP y el servicio de búsqueda se registra con ellos para recibir solicitudes entrantes.
 
   - Después, instale un servidor de chat persistente de Lync Server 2013 y un grupo de servidores de chat persistente.
 

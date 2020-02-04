@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topología de referencia para organizaciones medianas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for medium-size organizations
 ms:assetid: 446b0914-2198-445e-ab6e-94802acebd5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425939(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184026
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 41a003bd87e4dc8b85e78946a5ce870f3f6dd045
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da4c29107a6ca3d33e76708be9eec07297eeaf93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824046"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ La topología de referencia con alta disponibilidad y un único centro de datos 
 
 **Topología de referencia para organizaciones medianas**
 
-![Topología de referencia para un único diagrama de centro de datos] (images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Topología de referencia para un único diagrama de centro de datos")
+![Diagrama de la topología de referencia para un solo centro de datos](images/Gg425939.12b574fd-0b14-4563-a88c-3c8b0809bb90(OCS.15).jpg "Diagrama de la topología de referencia para un solo centro de datos")
 
   - **Dar cabida a más usuarios agregando más servidores de aplicaciones para el usuario.**    La topología exacta de este diagrama tiene tres servidores front-end para proporcionar compatibilidad con usuarios de 20.000. Si dispone de un único sitio central y más usuarios, solo tiene que agregar más servidores front-end al grupo de servidores. La cantidad máxima de usuarios por grupo de servidores es de 80 000, con doce servidores front-end.
     
@@ -53,7 +55,7 @@ La topología de referencia con alta disponibilidad y un único centro de datos 
 
   - **Supervisar las opciones de base de datos del servidor.**    Esta organización ha implementado la supervisión para garantizar la calidad de las llamadas de voz de empresa y las conferencias a/V. La supervisión se implementa en cada servidor front-end y la base de datos de supervisión se combina con los servidores back-end. También se admiten topologías en las que la base de datos de supervisión se encuentra en un servidor independiente.
 
-  - **Alta disponibilidad del servidor perimetral**    En esta organización de ejemplo con usuarios de 20.000, solo un servidor perimetral sería suficiente para el rendimiento. Sin embargo, hay un grupo de dos servidores perimetrales implementados para ofrecer una alta disponibilidad.
+  - **Servidor perimetral alta disponibilidad**    en esta organización de ejemplo con usuarios de 20.000, solo un servidor perimetral sería suficiente para el rendimiento. Sin embargo, hay un grupo de dos servidores perimetrales implementados para ofrecer una alta disponibilidad.
 
   - **Opciones de implementación de sitio de sucursal.**    La organización de esta topología tiene la característica telefonía IP implementada como solución de voz. El sitio de la sucursal 1 no tiene un vínculo de red de área extensa (WAN) resistente al sitio central, por lo que tiene un dispositivo de sucursal que se ha implementado para mantener muchas características de Lync Server en caso de que se produzca un vínculo WAN al sitio central. Pero, el sitio de sucursal 2 tiene un vínculo WAN resistente, por lo que solo se necesita una puerta de enlace de la red telefónica conmutada (RTC). La puerta de enlace RTC implementada allí permite la omisión de medios, por lo que no se necesita ningún servidor de mediación en el sitio de sucursal 2. Para obtener más información sobre cómo decidir qué implementar en un sitio de sucursal, consulte planear la resistencia de voz de un [sitio de sucursal en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) en la documentación de planificación.
 

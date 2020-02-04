@@ -3,6 +3,8 @@ title: Habilitar control remoto de llamadas
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Enable remote call control
 ms:assetid: 0b91d418-e6ed-4556-97af-e8523e01f249
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204664(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183380
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 310a140d3497a77ddcaeb8ba32403aa8f28b68e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 190f4e56a291ce48b5cd18b2dcd3e1b3461e3d7d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842873"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ El control remoto de llamadas permite a los usuarios controlar sus teléfonos de
 
 4.  Configure los usuarios de Lync 2013 para el control remoto de llamadas habilitando el control remoto de llamadas y asignando un identificador uniforme de recursos (URI) de line Server y un URI de línea. Al migrar usuarios de la implementación heredada a Lync Server 2013, se migra la configuración de control de llamada remota junto con la configuración del otro usuario.
 
-5.  Si ha personalizado las reglas de normalización de números de teléfono de la libreta de direcciones en la implementación heredada, tendrá que realizar algunas tareas manuales una vez completada la migración automática de las directivas y la configuración para migrar las reglas de normalización personalizadas. Si no ha personalizado las reglas de normalización, la libreta de direcciones se migrará junto con el resto de la topología. Para obtener detalles sobre la migración manual de reglas de normalización, consulte migrar la [Libreta de direcciones](migrate-address-book_1.md).
+5.  Si ha personalizado las reglas de normalización de números de teléfono de la libreta de direcciones en la implementación heredada, tendrá que realizar algunas tareas manuales una vez completada la migración automática de las directivas y la configuración para migrar las reglas de normalización personalizadas. Si no ha personalizado las reglas de normalización, la libreta de direcciones se migrará junto con el resto de la topología. Para obtener detalles sobre la migración manual de reglas de normalización, consulte [migrar la libreta de direcciones](migrate-address-book_1.md).
 
 </div>
 

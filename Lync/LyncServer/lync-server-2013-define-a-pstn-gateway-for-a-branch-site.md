@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir una puerta de enlace RTC para un sitio de sucu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a PSTN gateway for a branch site
 ms:assetid: 87be2fe2-1d56-4062-b430-439d4536414c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398689(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184724
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c253f82001fef4dd52e19dccb11e7ac77bb12417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e4445647e6ffcbfc2cfc137bd120d0aced6a9908
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835717"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,7 +60,7 @@ Realice este procedimiento en el sitio central, que contiene al menos un grupo d
 
 1.  Haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server**y, a continuación, haga clic en **generador de topología de Lync Server**.
 
-2.  En el árbol de consola, expanda el sitio central, expanda **sitios de sucursal**, expanda el nombre del sitio de la sucursal para el que desea definir una puerta de enlace de red telefónica conmutada (RTC) y, a continuación, expanda **componentes**compartidos.
+2.  En el árbol de consola, expanda el sitio central, expanda **sitios de sucursal**, expanda el nombre del sitio de la sucursal para el que desea definir una puerta de enlace de red telefónica conmutada (RTC) y, a continuación, expanda **componentes compartidos**.
 
 3.  Haga clic con el botón secundario en **puertas de enlace RTC**y luego haga clic en **nueva puerta de enlace IP/PSTN**.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: personalizar la instalación del cliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Customizing client installation
 ms:assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204934(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184254
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd099f5d57174eb02733abd70bb99a91679a1328
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ce9491e48d107d01f86d18e8154331ef3ae7e478
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835748"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar la Federación con Lync Online'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation with Lync Online
 ms:assetid: a10bd1d5-c003-46db-9f57-7d55d3fa08da
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205126(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184946
 ms.date: 08/15/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ee7cf175e2ca46a54f3c6505fe5f94b69120763
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: ba9179f05918504df15a18b35b9c411f23919330
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971208"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

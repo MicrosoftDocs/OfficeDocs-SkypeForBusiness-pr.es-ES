@@ -3,6 +3,8 @@ title: 'Lync Server 2013: modificar la configuración de la calidad de la experi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify Quality of Experience settings
 ms:assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182563(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ce6041e6512714f10785cf2976727788e105f70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2cf4745f76fa4667d14c9da5ca2b4e5309767b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826874"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de telefonía IP empresarial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Enterprise Voice
 ms:assetid: 7df179fa-d3a2-4b23-a433-b750aedf980b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994041(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803952
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e46bd64efd8aa2eb6e1aead17083aa8593c8544
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d6bf9f79725f1f4812ac1e1c1c3c0e3217b939b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842260"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -146,8 +148,8 @@ Para obtener más información, vea [configuración de directivas de voz y regis
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
-<td><p>False</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
+<td><p>Falso</p></td>
 </tr>
 </tbody>
 </table>

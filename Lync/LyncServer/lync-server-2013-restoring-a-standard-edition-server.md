@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restaurar un servidor Standard Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a Standard Edition server
 ms:assetid: d1845663-3138-4fd6-b3e7-337e294d40d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202190(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541519
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 101cf0cb2fc4073e2b79aa008187465f84d2d439
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0ecc58dc2683cd07b83a8c57385593961c3e985
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823045"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de la aplicación de grupos de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Response Group application cmdlets
 ms:assetid: 5710163c-e6c2-4ca5-b247-5bf9df6c954e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415654(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184199
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a20f0d9bc23acfb564de220e944b6886daee11c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c91b5541a0587d427d3b45e72ba156b7d1f79487
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823199"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

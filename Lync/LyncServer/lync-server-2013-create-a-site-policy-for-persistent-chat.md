@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear una directiva de sitio para chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a site policy for Persistent Chat
 ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204693(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be98028bf06c20c82dca98fc3bc20d25e97a94c5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4feb77aa99e1fe3018a469e61e9688a87cf81760
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842075"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

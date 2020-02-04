@@ -3,6 +3,8 @@ title: Lync Server 2013 tiene nuevas características de control de acceso basad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New role based access control (RBAC) features
 ms:assetid: 22b4ac42-f234-4b86-bb0c-f20d476205fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398297(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ce313abf85dfd9e8de2e3e1eb491d956b692958
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3dbabc4ca6a471924c6ac76346ad7d59442690db
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835075"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Conecte el grupo de servidores piloto a los servidores perimetrales hered
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Connect pilot pool to legacy Edge Servers
 ms:assetid: c3b67220-5705-47f6-852e-415204f3626c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721875(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7fc42c645548ea9bad072da5f18643271a9eceeb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 447a0ead887b8283aa2701963a0107ef318bb312
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842840"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Para habilitar el sitio de 2013 de Lync Server para que use el director y el ser
 
 ## <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Para asociar el grupo perimetral heredado mediante el generador de topología
 
-1.  Abra el **generador**de topologías.
+1.  Abra el **generador de topologías**.
 
 2.  Seleccione su sitio, que se encuentra directamente debajo del nodo de **Lync Server** .
 
@@ -53,7 +55,7 @@ Para habilitar el sitio de 2013 de Lync Server para que use el director y el ser
 
 5.  En **asignación**de la ruta de Federación de sitios, seleccione **Habilitar Federación SIP**y, a continuación, seleccione el Director de Lync Server 2010 o el servidor perimetral de Lync Server 2010 si no se muestra ningún director.
     
-    ![Editar propiedades, página de ruta de Federación] (images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Editar propiedades, página de ruta de Federación")  
+    ![Editar propiedades, página de ruta de Federación](images/JJ721875.5f1d04c3-c724-426d-b27d-3fe89c6c5cfb(OCS.15).jpg "Editar propiedades, página de ruta de Federación")  
 
 6.  Haga clic en **Aceptar** para cerrar la página **Editar propiedades** .
 
@@ -63,11 +65,11 @@ Para habilitar el sitio de 2013 de Lync Server para que use el director y el ser
 
 9.  En la lista, seleccione el servidor perimetral heredado.
     
-    ![Cuadro de diálogo Editar propiedades, selección del borde heredado] (images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Cuadro de diálogo Editar propiedades, selección del borde heredado")  
+    ![Cuadro de diálogo Editar propiedades, selección del borde heredado](images/JJ721875.feae8156-540e-4804-bb0a-2b5736ec2900(OCS.15).jpg "Cuadro de diálogo Editar propiedades, selección del borde heredado")  
 
 10. Haga clic en **Aceptar** para cerrar la página **Editar propiedades** .
 
-11. En el **generador**de topologías, seleccione el nodo de nivel superior, **Lync Server**.
+11. En el **generador de topologías**, seleccione el nodo de nivel superior, **Lync Server**.
 
 12. En el menú **acción** , haga clic en **publicar topología**y, a continuación, haga clic en **siguiente**.
 

@@ -3,6 +3,8 @@ title: 'Preguntas frecuentes: Aprovisionamiento de conectividad de Lync Server p
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Frequently Asked Questions: Provisioning Lync Server for Skype connectivity'
 ms:assetid: 4d1b2bfc-780b-4b8c-afd5-11c2e59203b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440172(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793362
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0fc06cda300945ccf4d7da9424b5615028c2e8f5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7204119aca18bfeb2539b0ee5eae5bb53f38efd7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835150"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

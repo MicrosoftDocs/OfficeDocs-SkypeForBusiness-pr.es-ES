@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalar la herramienta de planeación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Planning Tool
 ms:assetid: ebdc9e26-4b22-4b02-85b9-7462bcfe7c93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615046(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e528062d5fd04e1a11df934cbc01b2dc8c92aa4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7a427ab99368d74180e1d0321741117a9ed97e9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834969"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725900"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Después de que se cumplan los requisitos de preinstalación, puede instalar la 
 
 3.  Busque el LyncPlanningTool. msi. En el Explorador de Windows, haga doble clic en el archivo. En la ventana de línea de comandos, escriba el nombre del archivo y presione **Entrar** para ejecutarlo.
 
-4.  En la Página principal de **Microsoft Lync Server 2013, Asistente para la instalación**de la herramienta de planeación, haga clic en **siguiente**.
+4.  En la Página principal de **Microsoft Lync Server 2013, Asistente para la instalación de la herramienta de planeación**, haga clic en **siguiente**.
 
 5.  Lea el **Contrato de licencia para el usuario final**, seleccione **Acepto los términos del contrato de licencia**, si quiere aceptar los términos de uso del contrato de licencia, y haga clic en **Siguiente**.
 

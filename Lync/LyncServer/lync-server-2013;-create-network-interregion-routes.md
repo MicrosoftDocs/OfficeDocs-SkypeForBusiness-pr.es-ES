@@ -5,18 +5,20 @@ ms.author: kenwith
 author: kenwith
 audience: admin
 manager: serdars
+f1.keywords:
+- NOCSH
 TOCTitle: Create network interregion routes
 ms:assetid: 5555262a-a502-4b01-9593-836dd30064f5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398368(v=OCS.15)
 ms:contentKeyID: 48184159
 ms.date: 07/23/2014
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d234d959f434e9e2b96850add488ecd4eac952c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 3909c41328e18302ef1104ac05d9a7c7987f57d6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991715"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

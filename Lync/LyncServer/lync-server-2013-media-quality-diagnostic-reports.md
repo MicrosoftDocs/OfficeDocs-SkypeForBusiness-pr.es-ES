@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informes de diagnóstico de calidad multimedia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Diagnostic Reports
 ms:assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615044(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185935
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05836ea853c89b132d39eaaba1b66056fa958072
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f7db75e8f4e6e7d8b8a36d0e5ba614ac89c22e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827336"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Los Informes de diagnósticos de calidad de medios proporcionan información sob
 
 ## <a name="in-this-section"></a>En esta sección
 
-  - [Informe de Resumen de calidad de medios en Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   proporciona datos de calidad general para diferentes tipos de extremos, entre los que se incluyen llamadas de voz de punto a punto de empresa, llamadas de conferencia de voz de empresa y llamadas que se basan, al menos en parte, en el público red telefónica conmutada (RTC).
+  - [El informe Resumen de calidad de los medios de Lync Server 2013](lync-server-2013-media-quality-summary-report.md)   proporciona datos de calidad general para diferentes tipos de extremos, incluidas las llamadas de punto a punto de voz empresarial, llamadas de conferencia de voz de empresa y llamadas que dependen, al menos, en la red de telefonía pública conmutada (RTC).
 
   - [El informe de comparación de calidad multimedia de Lync Server 2013](lync-server-2013-media-quality-comparison-report.md)   ofrece una comparación de los valores de calidad de las llamadas para diferentes tipos de llamadas de audio (por ejemplo, llamadas hechas a través de una red inalámbrica, y llamadas hechas a través de una conexión por cable).
 

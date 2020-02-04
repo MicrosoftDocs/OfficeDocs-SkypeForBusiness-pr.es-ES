@@ -3,6 +3,8 @@ title: Resumen de puerto - Servidor perimetral consolidado ampliado con equilibr
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 91213b1e-f875-464b-83e8-fe3a351595a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398739(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184841
 ms.date: 04/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60250db155922999ce677248a41c3f4158aba466
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6260a4ad7f2717e0b4eb2446fc5b17671c3e45a5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824347"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Además de IPv4, el servidor EDGE ahora es compatible con IPv6. Para mayor clari
 
 **Borde consolidado escalado mediante el equilibrio de carga de hardware**
 
-![Puertos y protocolos de red perimetral de servidores perimetrales] (images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "Puertos y protocolos de red perimetral de servidores perimetrales")
+![Protocolos y puertos de la red perimetral de servidores perimetrales](images/Gg398739.063f7dd1-16db-4cc7-8708-bca9bc41184d(OCS.15).jpg "Protocolos y puertos de la red perimetral de servidores perimetrales")
 
 <div>
 
@@ -249,7 +251,7 @@ Al configurar equilibradores de carga de hardware, tenga en cuenta los siguiente
 
 </div>
 
-![Detalles de los puertos y protocolos del servidor perimetral] (images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "Detalles de los puertos y protocolos del servidor perimetral")
+![Detalles de puertos y protocolos de servidores perimetrales](images/Gg398739.1c193b80-98ab-4d59-a854-dbfdb5e209e2(OCS.15).jpg "Detalles de puertos y protocolos de servidores perimetrales")
 
 ### <a name="external-port-settings-required-for-scaled-consolidated-edge-hardware-load-balanced-external-interface-virtual-ips"></a>Configuración de puertos externos necesaria para el perímetro consolidado con escala, equilibrio de carga de hardware: IPs virtual de interfaz externa
 

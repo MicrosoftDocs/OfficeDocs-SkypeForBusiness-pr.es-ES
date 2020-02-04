@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Combining Skype for Business Online cmdlets with other Windows PowerShell cmdlets
 ms:assetid: 8bb8800a-f966-4570-8c8b-db87a91ad783
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362816(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 56558835
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afcd352521285e619c9ceeb55a0699b4d4ea73e7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e7d0dd6070eb3c69b23f03e56bf542025c221b15
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233057"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727989"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

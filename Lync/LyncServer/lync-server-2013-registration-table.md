@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla Registration'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Registration table
 ms:assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398114(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183298
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfee81d83fb58b2fbeccff68a672da47e6770bd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0bc19c35893b12aae7842be5fc474f7831b7f979
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823801"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

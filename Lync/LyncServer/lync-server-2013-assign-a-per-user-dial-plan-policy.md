@@ -3,6 +3,8 @@ title: 'Lync Server 2013: asignar una directiva de plan de marcado por usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user dial plan policy
 ms:assetid: 9fea861f-7770-4cae-9b1f-2a960595bfc9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688156(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7f9bca09515daba6db7e072625d5b4a217d37cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2bc62981a69b1260ba5f2fbaeabc112553b85f5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850746"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722970"
 ---
 # <a name="assign-a-per-user-dial-plan-policy-in-lync-server-2013"></a>Asignar una directiva de plan de marcado por usuario en Lync Server 2013
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restablecer una regla de actualización de dispositivo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reset a Device Update rule
 ms:assetid: d1f597e7-dffd-4756-af07-10613a5d8729
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab03c5c28db28ddbd883f3f50845eaf91d4fd1a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36a85ed29f6bf4838428af302904d80a2f792388
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823213"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

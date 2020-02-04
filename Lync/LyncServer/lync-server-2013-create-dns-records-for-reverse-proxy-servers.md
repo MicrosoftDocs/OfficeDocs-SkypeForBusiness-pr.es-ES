@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear registros DNS para servidores de proxy inverso'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create DNS records for reverse proxy servers
 ms:assetid: b3513339-e49b-4665-80f1-b5a1c81a0e2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429719(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185181
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5608e3dd851c943e890fe3f718a38c2df02c1c08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0f85b222688dcefd45030f2c05f7b59ce45ec0ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835843"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34835843"
 
 _**Última modificación del tema:** 2013-03-29_
 
-Crear registros DNS A externos que apunten a la interfaz externa pública de la aplicación Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, el servidor de Forefront Threat Management Gateway 2010 o el enrutamiento de solicitudes de Internet Information Server, como se describe en [configurar DNS para compatibilidad con Edge en Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md). Necesita registros DNS para los FQDN de servicio Web externo para cada grupo, el director (o grupo de directores) y cada dirección URL simple.
+Crear registros DNS A externos que apunten a la interfaz externa pública de Microsoft Internet Security and Acceleration (ISA) Server 2006 SP1, Forefront Threat Management Gateway 2010 Server o solicitud enrutamiento de Internet Information Server, como se describe en [configurar la compatibilidad con DNS para Edge en Lync Server 2013](lync-server-2013-configure-dns-for-edge-support.md). Necesita registros DNS para los FQDN de servicio Web externo para cada grupo, el director (o grupo de directores) y cada dirección URL simple.
 
 Los registros DNS mínimos para la resolución del cliente en el proxy inverso, se deben crear los siguientes registros:
 

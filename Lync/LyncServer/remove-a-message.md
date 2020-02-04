@@ -3,6 +3,8 @@ title: Quitar un mensaje
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a message
 ms:assetid: 90fcb30d-4987-4e9c-afbc-4482644ce0e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184790
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a95f32e022e75b0ecc46df5859665c4c0c35a462
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff5ff630162d8576bb0a099253c7a4ca2af4523c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849871"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

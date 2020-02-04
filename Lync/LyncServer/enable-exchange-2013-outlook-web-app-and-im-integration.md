@@ -3,6 +3,8 @@ title: Habilitar Exchange 2013 Outlook Web App y la integración con mensajería
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable Exchange 2013 Outlook Web App and IM integration
 ms:assetid: 44d08cf0-b17d-46e1-a4f0-fcc2fe96a958
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204857(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184027
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69df3f33f0671d3014e90859fd39cc2b85f9558b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0bd9fb94dd0f068547819aa884b608ac6ddf7e39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842874"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Para habilitar la integración de Exchange 2013 Outlook Web Access (OWA) y la me
     
 
     > [!IMPORTANT]  
-    > Si el servidor CAS <EM>no</EM> se encuentra en el mismo servidor que ejecuta la mensajería unificada (UM) de Exchange 2013, omita los pasos restantes de este procedimiento y realice el procedimiento "crear una aplicación de confianza para el servidor de Exchange 2013" más adelante en este mismo. Si el servidor CAS se encuentra en el mismo servidor que ejecuta la mensajería unificada (UM) de Exchange 2013, realice los pasos de este procedimiento y no realice el procedimiento "crear una aplicación de confianza para el servidor CAS de Exchange 2013" más adelante en este tema.
+    > Si el servidor CAS <EM>no</EM> se encuentra en el mismo servidor que ejecuta la mensajería unificada (UM) de Exchange 2013, omita los pasos restantes de este procedimiento y realice el procedimiento "crear una aplicación de confianza para el servidor de Exchange 2013" más adelante en este tema. Si el servidor CAS se encuentra en el mismo servidor que ejecuta la mensajería unificada (UM) de Exchange 2013, realice los pasos de este procedimiento y no realice el procedimiento "crear una aplicación de confianza para el servidor CAS de Exchange 2013" más adelante en este tema.
 
     
     </div>

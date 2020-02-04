@@ -3,6 +3,8 @@ title: Instalar los archivos básicos de Lync Server 2013 y la base de datos de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing the Lync Server 2013 core files and the RTCLocal database
 ms:assetid: 206f0c1d-40f7-45b6-aa62-88aaef6cf7f6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204734(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183591
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99eccdd8d6473c25c6096c370f616975c7da141f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da8f0dd1fb83c595ed444a487d0321c571a09315
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834976"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

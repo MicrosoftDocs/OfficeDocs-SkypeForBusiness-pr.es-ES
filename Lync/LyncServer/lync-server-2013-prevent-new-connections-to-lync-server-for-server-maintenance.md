@@ -3,6 +3,8 @@ title: Impedir nuevas conexiones a Lync Server para el mantenimiento del servido
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Prevent new connections to Lync Server for server maintenance
 ms:assetid: 22b27adf-a590-43bd-9306-a5789ae108d7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520964(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: db3838af59a6a91699fa6d38b8aa2912e2b30012
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb0e2db6eeff584c4d1ab08bdd293113f1394e4a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823766"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ Además de impedir nuevas conexiones para todos los servicios en un servidor que
 
 3.  En la lista, haga doble clic en el servicio de Windows de Lync Server en el que desea evitar nuevas conexiones.
 
-4.  En el cuadro de diálogo Propiedades, en **Estado del servicio: iniciado**, haga clic en pausar. ****
+4.  En el cuadro de diálogo Propiedades, en **Estado del servicio: iniciado**, haga clic en **pausar**.
 
 5.  De forma opcional, pero recomendado, junto a **tipo de inicio**, haga clic en **manual**.
     

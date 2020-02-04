@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar la compatibilidad de Federación para un do
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation support for a Lync Online domain
 ms:assetid: 19d5d5be-cd7f-47b8-b6c5-651a3191def7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202166(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d7568e3e93850301a0c37fc73ae44cf4f5a84dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9f883e8d730e63788b4cbe0ccd3315f21e6fea97
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842376"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

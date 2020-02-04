@@ -3,6 +3,8 @@ title: 'Lync Server 2013: calidad de la experiencia (QoE)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Quality of Experience (QoE)
 ms:assetid: 097fb65e-4a3e-45ff-a88c-d6022dc8f872
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687963(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2501293a8c8b0fce27ad6495c33b45fbf380594f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 28ebdc40c4747d0ec2c3f97a3d39d07b9366e39a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823913"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

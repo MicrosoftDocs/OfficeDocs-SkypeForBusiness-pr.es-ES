@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the client experience
 ms:assetid: 61e783f1-24f4-430b-ae52-c76a4d206dc7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn954919(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 65227958
 ms.date: 09/18/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 632eed40992bfcff53072d618313afe3501431be
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 1e1aa407fbb1d7d8a006698d30545165352386b1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233235"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +80,7 @@ El siguiente comando selecciona la experiencia del cliente de Skype empresarial 
 
     Set-CsClientPolicy -Identity site:Redmond -EnableSkypeUI $true
 
-Si desea configurar la experiencia de cliente para usuarios específicos de su organización, puede crear una nueva Directiva de usuario con el cmdlet **New-ClientPolicy** y, a continuación, asignar la Directiva a usuarios específicos mediante la **concesión-ClientPolicy** cmdlet.
+Si desea configurar la experiencia de cliente para usuarios específicos de su organización, puede crear una nueva Directiva de usuario con el cmdlet **New-ClientPolicy** y, después, asignar la Directiva a usuarios específicos mediante el cmdlet **Grant-ClientPolicy** .
 
 Por ejemplo, el siguiente comando crea una nueva Directiva de cliente, SalesClientUI, que selecciona la experiencia de cliente de Skype empresarial:
 
@@ -102,7 +104,7 @@ Si desea mostrar la interfaz de usuario de Lync cuando los usuarios inician el c
 
 2.  Actualice el registro del sistema en el equipo del usuario. Hágalo una sola vez antes de que los usuarios inicien el cliente Skype Empresarial por primera vez. Para obtener información sobre cómo crear un objeto de directiva de grupo para actualizar el registro en un equipo unido a un dominio, consulte la sección correspondiente en este mismo tema.
     
-    En la ** \[clave\_del software HKEY\\current\\\_User\\software\] de Microsoft Office\\Lync** , cree un nuevo valor **binario** .
+    En la ** \[clave\_del\_software\\HKEY\\current\\User\\software\] de Microsoft Office Lync** , cree un nuevo valor **binario** .
     
     El **Nombre del valor** debe ser **EnableSkypeUI** y los **Datos del valor** deben configurarse como **00 00 00 00**.
     
@@ -174,12 +176,12 @@ Si su organización tiene instalados tanto Skype empresarial Server 2015 como Ly
 </tr>
 <tr class="even">
 <td><p>Skype Empresarial Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Skype Empresarial</p></td>
 </tr>
 <tr class="odd">
 <td><p>Skype Empresarial Server 2015</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>El usuario solicitó cambiar al modo de Lync (el usuario puede cambiar a Skype empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)</p></td>
 </tr>
 <tr class="even">
@@ -189,12 +191,12 @@ Si su organización tiene instalados tanto Skype empresarial Server 2015 como Ly
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 o Lync Server 2013 (con las revisiones correctas)</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>Skype Empresarial</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010 o Lync Server 2013 (con las revisiones correctas)</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>El usuario solicitó cambiar al modo de Lync (el usuario puede cambiar a Skype empresarial más adelante si cambia la configuración de la interfaz de usuario a $true)</p></td>
 </tr>
 <tr class="odd">
@@ -227,25 +229,25 @@ La siguiente tabla muestra la experiencia del cliente cuando el administrador ca
 <tbody>
 <tr class="odd">
 <td><p>Skype Empresarial Server 2015</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>El usuario solicitó cambiar a Skype empresarial</p></td>
 <td><p>Skype Empresarial</p></td>
 </tr>
 <tr class="even">
 <td><p>Skype Empresarial Server 2015</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>IU de Lync</p></td>
 <td><p>El usuario solicitó cambiar a la interfaz de usuario de Lync</p></td>
 </tr>
 <tr class="odd">
 <td><p>Lync Server 2010 o Lync Server 2013 (con las revisiones correctas)</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 <td><p>El usuario solicitó cambiar a Skype empresarial</p></td>
 <td><p>Skype Empresarial</p></td>
 </tr>
 <tr class="even">
 <td><p>Lync Server 2010 o Lync Server 2013 (con las revisiones correctas)</p></td>
-<td><p>False</p></td>
+<td><p>Falso</p></td>
 <td><p>IU de Lync</p></td>
 <td><p>El usuario solicitó cambiar a la interfaz de usuario de Lync</p></td>
 </tr>

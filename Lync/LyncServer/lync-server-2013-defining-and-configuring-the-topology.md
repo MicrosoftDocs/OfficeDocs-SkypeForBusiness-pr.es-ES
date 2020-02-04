@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definición y configuración de la topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining and configuring the topology
 ms:assetid: 51d1601e-4f83-48d4-ad08-3b4d5e2003aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398339(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184146
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8660ac75e325e5737ceb5df59e9463c88ef1c077
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8430ec5cc8b362aa78f97afc24ab0e588c7bc650
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835709"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

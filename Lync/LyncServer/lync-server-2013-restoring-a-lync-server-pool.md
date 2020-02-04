@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restauración de un grupo de servidores de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring a Lync Server pool
 ms:assetid: 6fe80fb3-38ad-4931-a07b-1763b61aa448
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202176(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541488
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4035ddb27b77e165d612be9e35cbb02970892c8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f43cbe049fdedc2f0b4d31eecc4a0506a4a62201
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823059"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

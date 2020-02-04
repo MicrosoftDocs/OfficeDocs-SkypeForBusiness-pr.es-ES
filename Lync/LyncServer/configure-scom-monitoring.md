@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure SCOM monitoring
 ms:assetid: 4003d225-2a33-448c-abd9-571750661140
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688033(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733624
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8e114d3f18e482c11a8e83c9d4308f3c5712932c
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 7904edf9723dacdd28f69a75bec17cb5db3c2061
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971159"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728149"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

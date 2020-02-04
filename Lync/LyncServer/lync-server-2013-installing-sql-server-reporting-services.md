@@ -3,6 +3,8 @@ title: 'Lync Server 2013: instalar SQL Server Reporting Services'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing SQL Server Reporting Services
 ms:assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204957(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184345
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6707cafc3a08123bd2189639704741681eb9cdd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6342743486e3a3261e297d602ceb994d421dc13c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834986"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,11 +43,11 @@ Si ya ha instalado SQL Server pero no ha instalado SQL Server Reporting Services
 
 Siga los pasos que se indican a continuación para comprobar que Reporting Services se ha instalado correctamente:
 
-1.  Si está ejecutando Microsoft SQL Server 2008 R2, haga clic en **Inicio**, haga clic en **todos los programas**, **Microsoft SQL Server 2008 R2**, **herramientas de configuración**y, a continuación, haga clic en **Administrador de configuración**de Reporting Services.
+1.  Si está ejecutando Microsoft SQL Server 2008 R2, haga clic en **Inicio**, haga clic en **todos los programas**, **Microsoft SQL Server 2008 R2**, **herramientas de configuración**y, a continuación, haga clic en **Administrador de configuración de Reporting Services**.
     
-    Si está ejecutando Microsoft SQL Server 2012, haga clic en **Inicio**, haga clic en **todos los programas**, en **Microsoft SQL Server 2012**, en **herramientas de configuración**y, por último, en **Administrador de configuración**de Reporting Services.
+    Si está ejecutando Microsoft SQL Server 2012, haga clic en **Inicio**, haga clic en **todos los programas**, en **Microsoft SQL Server 2012**, en **herramientas de configuración**y, por último, en **Administrador de configuración de Reporting Services**.
 
-2.  En el cuadro de diálogo **conexión de configuración** de Reporting Services, compruebe que el nombre del servidor aparece en el cuadro **nombre del servidor** y que el nombre de la instancia de SQL Server que almacena los datos de supervisión aparece en el servidor de **informes **Cuadro de instancia. Haga clic en **conectar**.
+2.  En el cuadro de diálogo **conexión de configuración de Reporting Services** , compruebe que el nombre del servidor aparece en el cuadro **nombre del servidor** y que el nombre de la instancia de SQL Server que almacena los datos de supervisión aparece en el cuadro instancia del **servidor de informes** . Haga clic en **conectar**.
 
 En el administrador de configuración del servicio de informes, el panel estado del servidor de informes debe mostrar que SQL Server Reporting Services se ha instalado y que los servicios de creación de informes se están ejecutando: el estado del servidor de informes debe mostrarse como **iniciado** y el botón **Inicio** debe estar atenuado y no disponible. Si el servicio de informes no se está ejecutando, haga clic en **iniciar** para iniciar el servicio.
 

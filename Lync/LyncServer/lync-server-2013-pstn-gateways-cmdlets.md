@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de puertas de enlace RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN gateways cmdlets
 ms:assetid: 6a8aa6ea-f349-4b95-b3ce-c28d2ae0a84b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416491(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184397
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b3481d274f71ac5a0458e5ed1db018fc456f213
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b82b4cd1a5458fac6b2d5ade712fcfeeaf120208
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823570"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

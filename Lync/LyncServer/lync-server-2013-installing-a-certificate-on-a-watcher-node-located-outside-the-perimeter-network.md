@@ -3,6 +3,8 @@ title: 'Lync Server 2013: instalar un certificado en un nodo de monitor ubicado 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing a certificate on a watcher node located outside the perimeter network
 ms:assetid: 825c9c02-1951-4d7a-a25e-a313a85333f8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688113(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733711
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1479ffdd7f6652b96f3015e047194d76bf1e8978
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 10cd31639445fab6138ea77cb40a03d727ecce12
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834993"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

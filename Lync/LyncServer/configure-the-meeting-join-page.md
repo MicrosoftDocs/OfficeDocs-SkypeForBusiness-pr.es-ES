@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure the meeting join page
 ms:assetid: 036c9d03-ad95-4d63-a3d8-6cae1a8ad530
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204635(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48183260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c01c2be988c94bd0bc90ed6b48702d426b42e505
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4c6622eb6820857b117c16bfa9ea2065678d3b88
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233207"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

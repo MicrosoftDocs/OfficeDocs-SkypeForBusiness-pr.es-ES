@@ -3,6 +3,8 @@ title: Configurar servidor de mediación
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Mediation Server
 ms:assetid: 583236fd-33cd-4045-81df-baa58ed07779
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204913(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60bacd308249536aee49101cbcab739a0876343e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eb9b2c7cf8da1d454f310a8ac999dddbc7d34f68
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842826"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728170"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,11 +73,11 @@ Para publicar, habilitar o deshabilitar correctamente una topología al agregar 
 
 6.  Haga clic con el botón secundario en el grupo y luego haga clic en **Editar propiedades**.
 
-7.  En **servidor**de mediación, configure los **puertos de escucha**.
+7.  En **servidor de mediación**, configure los **puertos de escucha**.
 
 8.  A continuación, para asociar la puerta de enlace RTC recién creada, selecciónela y haga clic en **Agregar**.
 
-9.  En el **generador**de topologías, seleccione el nodo de nivel superior de **Lync Server**.
+9.  En el **generador de topologías**, seleccione el nodo de nivel superior de **Lync Server**.
 
 10. En el menú **acción** , seleccione **publicar topología** y, a continuación, haga clic en **siguiente**.
 

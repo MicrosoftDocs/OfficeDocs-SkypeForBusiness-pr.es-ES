@@ -3,6 +3,8 @@ title: 'Lync Server 2013: asociar informes de supervisión a una base de datos r
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Associating Monitoring Reports with a mirror database
 ms:assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945624(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 19ff2455d473c83855320555cdffdc2e33001d0d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 93e5f10e3e4bd3c063cafcb2fd984098482ebf22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842906"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722760"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

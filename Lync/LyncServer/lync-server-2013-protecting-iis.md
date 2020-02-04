@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Proteger IIS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Protecting IIS in Lync Server 2013
 ms:assetid: a67171a6-6703-4e09-abb3-35d335bb674e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518332(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62625492
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 711adaec00e37cbd826f8aabcadc45948548c3f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 03d0f3e736284970bf22fe813093e0e54accd29e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823633"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724790"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

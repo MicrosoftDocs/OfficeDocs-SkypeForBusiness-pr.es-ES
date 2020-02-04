@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir y configurar una topología en Topology Builde
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define and configure a topology in Topology Builder
 ms:assetid: 99231ff5-1c21-432b-ad65-8675fcd484f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398788(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184953
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ee952eef30fc50f30448c98956899c3a1a06dc2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 876651b0d0c5ed33d4e82429822585de4a2b8579
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835708"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

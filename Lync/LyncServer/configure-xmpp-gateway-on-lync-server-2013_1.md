@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure XMPP gateway on Lync Server 2013
 ms:assetid: 00777a34-cc36-4992-9459-08c14543ef6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687953(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733538
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 185a52322ad0eea681e9a3318787921d9c49453a
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 82c7cec94a65a35f4f5141950c4691fec0b28706
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971152"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

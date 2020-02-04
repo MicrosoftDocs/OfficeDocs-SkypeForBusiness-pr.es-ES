@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Introducción'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Introduction to Lync Server
 ms:assetid: 99dd6b65-e591-421f-852b-ee9fe9588998
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398795(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184885
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df182c8d58d6f1e60b164fbb28299945f6a8cba3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8879bd2f3638df17215b7b8f0ee4a12c751277f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834967"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -69,7 +71,7 @@ Esta tabla y las siguientes secciones ilustran los conjuntos de características
 
 
 </div>
-<p>La presencia establece y muestra la disponibilidad y el uso personal de un usuario para comunicarse a través del uso de Estados comunes como <strong>disponible</strong> u <strong>ocupado</strong>, así como de Estados más detallados, como <strong>ser devuelto</strong> y <strong>no molestar </strong>. Esta variada información de presencia permite que otros usuarios hagan opciones de comunicación eficaces inmediatamente.</p></td>
+<p>La presencia establece y muestra la disponibilidad y el uso personal de un usuario para comunicarse a través del uso de Estados comunes como <strong>disponible</strong> u <strong>ocupado</strong>, así como de Estados más detallados, como <strong>ser devuelto</strong> y <strong>no molestar</strong>. Esta variada información de presencia permite que otros usuarios hagan opciones de comunicación eficaces inmediatamente.</p></td>
 </tr>
 <tr class="even">
 <td><p>Conferencias</p></td>
@@ -84,7 +86,7 @@ Esta tabla y las siguientes secciones ilustran los conjuntos de características
 <tr class="even">
 <td><p>Soporte técnico para usuarios remotos</p></td>
 <td><p>Puede proporcionar toda la funcionalidad de Lync Server a los usuarios que se encuentren fuera de los firewalls de la organización si implementan servidores denominados <em>servidores perimetrales</em> para proporcionar una conexión a estos usuarios remotos. Estos usuarios remotos pueden conectarse a conferencias usando un equipo personal con Lync 2013 instalado, el teléfono o una interfaz Web.</p>
-<p>La implementación de servidores perimetrales también le <em></em> permite federar a organizaciones de socios o proveedores. Una relación federada permite a los usuarios poner a los usuarios federados en sus listas de contactos, intercambiar información de presencia y mensajes instantáneos con estos usuarios e invitarlos a llamadas de audio, videollamadas y conferencias.</p></td>
+<p>La implementación de servidores perimetrales también le permite <em>federar</em> a organizaciones de socios o proveedores. Una relación federada permite a los usuarios poner a los usuarios federados en sus listas de contactos, intercambiar información de presencia y mensajes instantáneos con estos usuarios e invitarlos a llamadas de audio, videollamadas y conferencias.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Compatibilidad con clientes móviles</p></td>

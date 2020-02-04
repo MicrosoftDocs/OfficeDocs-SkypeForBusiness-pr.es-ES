@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad de certificado de comodín'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Wildcard certificate support
 ms:assetid: 0bae2aa8-b6dc-46f5-a3be-3fe7581809d4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202161(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183382
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9422c3bebbb5fb32be88cfe5c41968207bbed2ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8a3e64dcfd16212e618a8ebe152bd2516a25b26d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850002"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

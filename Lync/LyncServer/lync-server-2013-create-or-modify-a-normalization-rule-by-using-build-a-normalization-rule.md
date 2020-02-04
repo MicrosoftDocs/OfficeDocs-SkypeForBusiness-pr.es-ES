@@ -3,6 +3,8 @@ title: Crear o modificar una regla de normalización mediante la creación de un
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a normalization rule by using Build a Normalization Rule
 ms:assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399036(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 527510ac9b683df191414f5dffe456353d9cf277
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 519d4d8ee00e0922d40155c541b0f869df095ab1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835788"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -71,7 +73,7 @@ Complete los pasos siguientes si desea crear o modificar una regla de normalizac
     
       - (Opcional) Escriba un valor en el campo **Dígitos que se agregarán** para especificar los dígitos que se agregarán al principio del número convertido (por ejemplo, **+1425**).
     
-    Por ejemplo, si el **modelo de coincidencia** contiene **^\\({7}d) $** , ya que el patrón para los números marcados y la **regla de traducción** contiene **+ 1425 $1** como patrón para E. 164 números de teléfono, la regla normaliza 5550100 a + 14255550100.
+    Por ejemplo, si el **modelo de coincidencia** contiene **^\\({7}d) $** como patrón para los números marcados y la **regla de traducción** contiene **+ 1425 $1** como patrón para E. 164 números de teléfono, la regla normaliza 5550100 a + 14255550100.
 
 8.  (Opcional) Si la regla de normalización da un número de teléfono interno de la organización, seleccione **Extensión interna**.
 

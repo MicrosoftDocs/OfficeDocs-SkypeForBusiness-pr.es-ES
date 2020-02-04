@@ -3,6 +3,8 @@ title: 'Lync Server 2013: integración de Lync Server y Outlook Web App 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Integrating Lync Server 2013 and Outlook Web App 2013
 ms:assetid: 513d4cc7-aa87-4f68-b99d-d58b63bdf242
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688055(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733649
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31a25e1d0a6410171201af578d6b28f496468e06
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: faa75694ecaac662a643d331a4efdf91b41223e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834985"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Microsoft Lync 2013 también se puede usar conjuntamente con Exchange 2010 y Out
 
 **Creación de un grupo de aplicaciones de confianza para Outlook Web App**
 
-Si ha instalado el servicio de enrutamiento de llamadas de mensajería unificada de Microsoft Exchange y el servicio de mensajería unificada de Microsoft Exchange en el mismo equipo, no es necesario crear un grupo de aplicaciones de confianza para Outlook Web App. (Esto supone que el servidor en cuestión hospeda un plan de marcado de mensajería unificada de SipName). Si está usando un solo equipo para hospedar ambos servicios, puede ir a la sección de este documento titulada habilitación de la **mensajería instantánea en Outlook Web App**.
+Si ha instalado el servicio de enrutamiento de llamadas de mensajería unificada de Microsoft Exchange y el servicio de mensajería unificada de Microsoft Exchange en el mismo equipo, no es necesario crear un grupo de aplicaciones de confianza para Outlook Web App. (Esto supone que el servidor en cuestión hospeda un plan de marcado de mensajería unificada de SipName). Si está usando un solo equipo para hospedar ambos servicios, puede ir a la sección de este documento titulada **habilitación de la mensajería instantánea en Outlook Web App**.
 
 Lync Server 2013 puede descubrir autodescubrimiento de cualquier servidor de Exchange que hospede un plan de marcado de MU de SipName; Estos servidores se agregan automáticamente a la lista de servidores conocidos de Lync Server. No es necesario crear un grupo de aplicaciones de confianza y agregar estos servidores a la lista de servidores conocidos. De hecho, esto hará que la integración de Outlook Web App deje de funcionar.
 

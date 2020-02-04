@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informes de QoE'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: QoE reports
 ms:assetid: 49c827af-b8dd-4c6e-b0dc-b4bc6d60e9a3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720913(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969601
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04960c43dc8e29c6e5af44a1d3109e40dd578479
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9eead17e9cd08267f941d80cb25460f4d456d896
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823738"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

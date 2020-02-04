@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear un anuncio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create an announcement
 ms:assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412783(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185005
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b80210787a8261d122fa7508807ab995279c7d0e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cfae1817cb47c769885ca42a7ca3ff6f57f7b669
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835849"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

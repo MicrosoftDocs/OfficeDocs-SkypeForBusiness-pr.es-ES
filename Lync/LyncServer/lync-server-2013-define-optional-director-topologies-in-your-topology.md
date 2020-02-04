@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir topologías de Director opcionales en la topol
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define optional Director topologies in your topology
 ms:assetid: 8e9a659d-23b0-401d-b296-59c7df414d49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398717(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184808
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 524259226b44d68367b631c2b7cef5513e0770e1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 86f3c78730e8c866e3838f22a1267a57bb3d237b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835716"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

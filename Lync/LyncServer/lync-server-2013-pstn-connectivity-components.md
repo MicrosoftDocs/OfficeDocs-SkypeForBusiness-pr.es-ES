@@ -3,6 +3,8 @@ title: 'Lync Server 2013: componentes de conectividad RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN connectivity components
 ms:assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398504(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184408
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ecda38b4164a70cd4dbb21271ff6efedb08cd498
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 63b5534b817477ea42dbefd5244c974fc70881f9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823577"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

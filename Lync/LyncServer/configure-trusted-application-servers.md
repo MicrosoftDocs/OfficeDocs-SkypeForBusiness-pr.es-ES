@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure trusted application servers
 ms:assetid: 20c3815f-3048-4940-8c0f-cdfcd0801d5d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204735(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48183592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cab126429fc5ec77a2308fdc1e1f8965fdfccb5b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: fee8a8894285a321a4a0bc51a7cdf0462be7af85
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233186"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

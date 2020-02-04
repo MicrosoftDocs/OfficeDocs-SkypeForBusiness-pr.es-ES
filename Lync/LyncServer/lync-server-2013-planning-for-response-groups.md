@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planificar para grupos de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for response groups
 ms:assetid: 7c10ce08-0068-4b22-8ecc-33e94811c900
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398617(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184608
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1b9e0bd7da85a06295819955b77916f419e2a0f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 087c6fa4518f90fdfca6b752386e0eed3b5162bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824291"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

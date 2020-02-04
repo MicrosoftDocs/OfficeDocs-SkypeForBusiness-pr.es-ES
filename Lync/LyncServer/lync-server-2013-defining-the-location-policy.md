@@ -3,6 +3,8 @@ title: 'Lync Server 2013: definir la Directiva de ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the location policy
 ms:assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398962(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185553
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26b0e9aca4b3e66202d6b3c4a47b90db4f207fda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: feb7550412fa6cdcda3a8fc4dd9b7913912c34e1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -79,7 +81,7 @@ Cada directiva de ubicación contiene la información siguiente:
     
 
     > [!NOTE]  
-    > Si su organización no usa un prefijo de acceso de línea externa, no es necesario crear una regla de normalización de plan de marcado correspondiente que agregue un signo "+" a la cadena de 911 antes de enviar la llamada al enrutamiento de salida en un servidor de grupo de Lync. el cliente de Lync agrega automáticamente el prefijo "+" como resultado de la Directiva de ubicación. Sin embargo, si su sitio utiliza un prefijo de acceso externo, debe agregar una regla de normalización a la directiva de plan de marcado correspondiente que quite el prefijo de acceso externo y agregue el signo “+”. Por ejemplo, si su ubicación usa un prefijo de acceso externo de 9 y un usuario marca&nbsp;9 911 para realizar una llamada de emergencia, el cliente usará su Directiva de plan de marcado para normalizarlo a + 911 antes de que las rutas de la ubicación del autor de la llamada evalúen el número marcado. perfiles.
+    > Si su organización no usa un prefijo de acceso de línea externa, no es necesario crear una regla de normalización de plan de marcado correspondiente que agregue un signo "+" a la cadena de 911 antes de enviar la llamada al enrutamiento de salida en un servidor de grupo de Lync. el cliente de Lync agrega automáticamente el prefijo "+" como resultado de la Directiva de ubicación. Sin embargo, si su sitio utiliza un prefijo de acceso externo, debe agregar una regla de normalización a la directiva de plan de marcado correspondiente que quite el prefijo de acceso externo y agregue el signo “+”. Por ejemplo, si su ubicación usa un prefijo de acceso externo de 9 y un usuario marca&nbsp;9 911 para realizar una llamada de emergencia, el cliente usará su Directiva de plan de marcado para normalizarlo a + 911 antes de que el número marcado sea evaluado por las rutas en el perfil de ubicación de la persona que llama.
 
     
     </div>

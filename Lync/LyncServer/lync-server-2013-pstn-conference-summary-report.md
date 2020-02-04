@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe Resumen de conferencia RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN Conference Summary Report
 ms:assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184764
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b98628ea56fb36ec594e5ea4ff9915e9785b3cfa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f8cd36f651a84b25f7e8163a8cfc40aff5162f90
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823808"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

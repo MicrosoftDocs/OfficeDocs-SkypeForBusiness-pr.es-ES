@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear perfiles de directiva de ancho de banda'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create bandwidth policy profiles
 ms:assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412785(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185086
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69aa99d94843c6daa1483911325d45ede0a39f4a
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 7d3eef3ea6dfb349f0f712c1127adb8310d90c27
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971278"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

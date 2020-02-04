@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de Lync Server por categoría'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server 2013 cmdlets by category
 ms:assetid: 4ce274d7-b0ec-40b8-b85e-9a0613916ffb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398306(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184106
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c7a5e0b3fa81d6730caed1f4ce2f89adf0d7d96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8d5d0dfc2540f5c623bff18f9739968983288e9e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834923"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

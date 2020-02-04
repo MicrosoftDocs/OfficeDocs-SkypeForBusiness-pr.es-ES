@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Back up systems and data
 ms:assetid: b0bbab1e-0361-4bc4-9998-21d182be7b46
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205174(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 48185118
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7ec81cbcaeb26a786da382c240968bc27712fda
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c3d8b50276c2e547ba5f240f429198ef0bca8303
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232916"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

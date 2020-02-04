@@ -3,6 +3,8 @@ title: Remove-CsAddressBookConfiguration para la administración de la libreta d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove-CsAddressBookConfiguration for Address Book management
 ms:assetid: 5d173ebe-ec4d-4640-8432-a25071ea9cc5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429705(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184258
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2662ef012c33d173f836bc3a49581653e846b00b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: de016366fe888a159a449f7840a0f6dca03c7075
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823115"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

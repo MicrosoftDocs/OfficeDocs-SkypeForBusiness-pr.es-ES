@@ -3,6 +3,8 @@ title: Descargar una topología desde una implementación existente
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Download topology from existing deployment
 ms:assetid: e39065a2-d4b0-4f27-8c49-f56be78fa55b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721913(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26c47e6d78d3bd9522b8f0369924f05f8f939037
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29a8bd95af99b6b79b91f84231120c6981eeedb7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842875"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,13 +49,13 @@ Al crear un grupo de servidores de Lync Server 2013, usará el almacén de admin
 
 4.  Seleccione **Descargar topología de la implementación existente**.
     
-    ![Configuración del generador de topología del Asistente para la implementación] (images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Configuración del generador de topología del Asistente para la implementación")
+    ![Configuración del generador de topología del Asistente para la implementación](images/JJ721913.d5b39fd9-3c13-422e-a06c-25d2568fe781(OCS.15).jpg "Configuración del generador de topología del Asistente para la implementación")
 
 5.  Elija un nombre de archivo y guarde la topología con el tipo de archivo default. tbxml.
 
 6.  Expanda el nodo de Lync Server, como se muestra a continuación, para mostrar los distintos roles de servidor en la implementación.
     
-    ![Propiedades generales de roles del servidor del generador] de topologías (images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Propiedades generales de roles del servidor del generador") de topologías
+    ![Propiedades generales de roles del servidor del generador de topologías](images/JJ721913.af99ead3-676b-47fd-8369-5a5f9717383f(OCS.15).jpg "Propiedades generales de roles del servidor del generador de topologías")
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Reducir la mensajería instantánea no solicitada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reducing unsolicited IM for Lync Server 2013
 ms:assetid: d2998708-e699-4465-a918-e1d9ea4c49c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518335(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62625493
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5042c4400cdf16be650a3c2c74ed756f01d93114
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0f8326d6fa9f85b202e0ea2dcbe3fed63a723aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823920"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724459"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

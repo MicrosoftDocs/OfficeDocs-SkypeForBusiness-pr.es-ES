@@ -3,6 +3,8 @@ title: Identidades, ámbitos y espacios empresariales en Skype empresarial onlin
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Identities, scopes, and tenants
 ms:assetid: 7cfa194a-2d01-4370-9b48-ee13ff597fa5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362819(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56558817
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a759c53b717cbaf1ecdb747d5cb01e94b305f52
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b08c459f64a4655ebb4dc670255645f985452aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842871"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Es posible que también tenga dos usuarios: Ken Myer y Pilar Ackerman. Ken Myer 
 
 Como puede ver, Ken Myer puede comunicarse con proveedores de mensajes instantáneos públicos. Esto se debe a que la configuración de la Directiva por usuario asignada suplanta la configuración de la directiva global. Pilar Ackerman no puede comunicarse con proveedores de mensajes instantáneos públicos. Esto se debe a que está administrado por la directiva global y la directiva global prohíbe dichas comunicaciones.
 
-Las directivas por usuario deben crearse para usted por soporte técnico de Office 365. Después de crear las directivas, puede asignarlas a los usuarios mediante el cmdlet **Grant-CS** correspondiente (por ejemplo, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Las directivas por usuario son fáciles de identificar porque la identidad de la Directiva siempre comienza con **** el prefijo de etiqueta. Por ejemplo:
+Las directivas por usuario deben crearse para usted por soporte técnico de Office 365. Después de crear las directivas, puede asignarlas a los usuarios mediante el cmdlet **Grant-CS** correspondiente (por ejemplo, [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/powershell/module/skype/Grant-CsExternalAccessPolicy)). Las directivas por usuario son fáciles de identificar porque la identidad de la Directiva siempre comienza con el **prefijo**de etiqueta. Por ejemplo:
 
     Identity : tag:AllowPublicIMCommunication
 
@@ -95,7 +97,7 @@ Las directivas por usuario deben crearse para usted por soporte técnico de Offi
 
 
 > [!NOTE]  
-> Las fechas <STRONG></STRONG> del prefijo de etiqueta a los primeros días de desarrollo de Lync Server 2010. En esos días, las directivas por usuario se denominaban <EM>directivas de etiquetas</EM> y fueron identificadas por el <STRONG>prefijo</STRONG>de etiqueta. Ahora estas directivas se conocen con más precisión como <EM>directivas por usuario</EM>y el ámbito de la etiqueta se conoce con más precisión como <EM>ámbito de usuario</EM>. Sin embargo, por razones técnicas, el <STRONG>prefijo</STRONG> de etiqueta nunca se cambió.
+> Las fechas del <STRONG>prefijo</STRONG> de etiqueta a los primeros días de desarrollo de Lync Server 2010. En esos días, las directivas por usuario se denominaban <EM>directivas de etiquetas</EM> y fueron identificadas por el <STRONG>prefijo</STRONG>de etiqueta. Ahora estas directivas se conocen con más precisión como <EM>directivas por usuario</EM>y el ámbito de la etiqueta se conoce con más precisión como <EM>ámbito de usuario</EM>. Sin embargo, por razones técnicas, el <STRONG>prefijo</STRONG> de etiqueta nunca se cambió.
 
 
 

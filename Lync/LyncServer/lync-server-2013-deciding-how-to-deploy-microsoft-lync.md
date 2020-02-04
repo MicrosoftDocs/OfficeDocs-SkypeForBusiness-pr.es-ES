@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Decidir cómo implementar Microsoft Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deciding how to deploy Microsoft Lync
 ms:assetid: 6ca677d3-745d-4935-8f05-19274a8bccf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204979(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184423
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d641f4da1884c1fb6e84eefb2127490f2ed3c4a9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aef6ac76b6c0e8a6fb3c0444ab219acf78119ecd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835730"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Una implementación local de Lync Server es la mejor para los siguientes escenar
 
   - **las aplicaciones**   de servidor de terceros solo pueden funcionar con aplicaciones de terceros de confianza que usen la API administrada de comunicaciones unificadas de Microsoft (UCMA).
 
-  - **Empresas multinacionales o multiregional que necesitan asistencia**   regional si tiene centros de información en varios países o regiones y necesita que se implementen y administren servidores de forma regional, es mejor usar una implementación local, ya que proporciona este tipo de las funciones de administración regional.
+  - **Empresas multinacionales o multiregional que necesitan asistencia**   regional si tiene centros de información en varios países o regiones y necesita que se implementen y administren servidores de forma regional, la implementación local es la mejor, ya que proporciona este tipo de capacidades de administración regional.
 
   - **Control completo de las directivas, informes y actualizaciones**   con una implementación local de Lync Server, tendrá acceso al conjunto completo de directivas de servidor y de cliente, la supervisión y otros informes, y los intervalos de actualizaciones. Lync Online proporciona un subconjunto de los informes y la configuración de directivas, y ofrece una ventana limitada, aunque importante, para aceptar actualizaciones.
 

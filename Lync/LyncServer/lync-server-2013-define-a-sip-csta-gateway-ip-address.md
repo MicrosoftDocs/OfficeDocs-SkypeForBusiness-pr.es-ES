@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir una dirección IP de puerta de enlace SIP/CSTA
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a SIP/CSTA gateway IP address
 ms:assetid: ae944057-3ad6-4474-a09b-81a3d27bd50f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg602125(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185073
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6143b4b92c8927375dcaa772360e0b3f870dae25
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c50958f2c7c44045e25ff4ac9619f3ad73a5f302
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835721"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Si Lync Server se conecta a la puerta de enlace SIP/CSTA que ha implementado par
 
 6.  Desactive la casilla **Habilitar la replicación de datos de configuración en este grupo** .
 
-7.  Haga clic en **limitar el uso del servicio a las direcciones IP seleccionadas**. La configuración predeterminada es **usar todas las direcciones IP**configuradas.
+7.  Haga clic en **limitar el uso del servicio a las direcciones IP seleccionadas**. La configuración predeterminada es **usar todas las direcciones IP configuradas**.
 
 8.  En el cuadro de texto **dirección IP principal** , escriba la dirección IP de la puerta de enlace SIP/CSTA.
 

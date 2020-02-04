@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen del puerto - Director único'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Single Director
 ms:assetid: 079c1414-723f-4499-b7d4-a0d7121c1626
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204648(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183322
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5568a37093f161caef6717df5d3a3f09be6f18c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0179d6fd27207d28caa10ffa01bea155f9b00c03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824207"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

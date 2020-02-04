@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Change simple URLs after migration
 ms:assetid: addb0dc8-8324-42b1-9a00-f4bd14fdf5c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721844(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 811296efc12badd61d148b7dbd60a3489e74a747
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a24eda274734e0c5a27fab30640a363de6653514
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36232873"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

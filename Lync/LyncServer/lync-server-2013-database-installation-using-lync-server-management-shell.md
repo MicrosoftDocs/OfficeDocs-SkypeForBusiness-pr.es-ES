@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalación de la base de datos con el Shell de admin
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Database installation using Lync Server Management Shell
 ms:assetid: c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398832(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185401
 ms.date: 06/16/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: deac68fb5f20066632bc48a9e9b6244a9bd34fe9
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 8c617d323eb00476b53677b670c8cc6db0b8d05c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971180"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

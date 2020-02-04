@@ -3,6 +3,8 @@ title: 'Lync Server 2013: lectura de registros de captura del servicio de regist
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reading capture logs from the Centralized Logging Service
 ms:assetid: c86ccf61-d86f-4ebd-b8d1-984a1b73005d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721879(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733813
 ms.date: 12/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 55bfeaa5bc9a2e89d8c52529c5d05ae7e3ee8feb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2713c9a1209aad4a96fcb3a76afaf7c2bc61c0dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823731"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,23 +51,23 @@ Usted se da cuenta de la ventaja real del servicio de registro centralizado desp
 
 Lync Server 2013 introduce una versión actualizada del Snoop que incluye algunas características nuevas. La siguiente captura de pantalla muestra la versión del Snoop de Office Communications Server 2007.
 
-![Office Communications 2007 versión del Snoop.] (images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007 versión del Snoop.")
+![Office Communications 2007 versión del Snoop.](images/JJ721879.129503a8-8edd-4bb0-a68f-c43f9a548b93(OCS.15).jpg "Office Communications 2007 versión del Snoop.")
 
 La siguiente captura de pantalla muestra la nueva versión de Snoop, que se incluye en las herramientas de depuración de Lync Server 2013.
 
-![Lync Server 2013 versión del Snoop.] (images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 versión del Snoop.")
+![Lync Server 2013 versión del Snoop.](images/JJ721879.131495dd-8220-4ae4-af37-0ac5c318fd45(OCS.15).jpg "Lync Server 2013 versión del Snoop.")
 
 La siguiente captura de pantalla muestra la barra de herramientas con funciones usadas con frecuencia.
 
-![Barra de herramientas del 2013.] (images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Barra de herramientas del 2013.")
+![Barra de herramientas del 2013.](images/JJ721879.989249c5-a33e-4251-b8b4-411019cc12b2(OCS.15).jpg "Barra de herramientas del 2013.")
 
 Y la característica más reciente que agrega valor es la vista de diagrama de diagrama de flujo (flujo de llamadas). Selecciona un flujo de mensajes en la pestaña **mensaje** y haz clic en el botón **flujo de llamadas** . A medida que avance por los mensajes, el diagrama de flujo de llamadas se actualizará con datos nuevos.
 
-![Diagrama de flujo de llamadas del snooper 2013.] (images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Diagrama de flujo de llamadas del snooper 2013.")
+![Diagrama de flujo de llamadas del Snooper 2013.](images/JJ721879.bb8be45d-a842-48fe-86f8-380207d70bab(OCS.15).jpg "Diagrama de flujo de llamadas del Snooper 2013.")
 
 Puede desplazar el puntero sobre la vista de diagrama y obtener detalles sobre los mensajes y el contenido de los flujos y mensajes, así como los elementos del servidor. Haga clic en cualquier flecha de flujo de llamadas para ir al mensaje en la vista mensajes.
 
-![Detalles del mensaje del diagrama de flujo de llamadas.] (images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Detalles del mensaje del diagrama de flujo de llamadas.")
+![Detalles del mensaje del diagrama de flujo de llamadas.](images/JJ721879.1147d720-38a9-4bda-8361-78f27ecde3d1(OCS.15).jpg "Detalles del mensaje del diagrama de flujo de llamadas.")
 
 <div>
 

@@ -3,6 +3,8 @@ title: Preparar la instalación de los servidores en la red del perímetro
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing for installation of servers in the perimeter network
 ms:assetid: 5e6c457a-f964-4ef7-a709-97abda9c673a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398416(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184292
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8474ea56062a89952001850b1a78fd86f5843cc1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a28fc1e77a98e2a6123537ec5c062dca5d0c6ffb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823885"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

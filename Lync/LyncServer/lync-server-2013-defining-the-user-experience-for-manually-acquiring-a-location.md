@@ -3,6 +3,8 @@ title: Definir la experiencia de usuario para la adquisición manual de una ubic
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining the user experience for manually acquiring a location
 ms:assetid: d37f67d3-e248-483b-b64c-3986559ef357
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398912(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185435
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5be01e4cf35d51b457cd575ef31254475bfda5bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 46b5913547ab7d5030ca40070de36b4deb1f6a89
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835696"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

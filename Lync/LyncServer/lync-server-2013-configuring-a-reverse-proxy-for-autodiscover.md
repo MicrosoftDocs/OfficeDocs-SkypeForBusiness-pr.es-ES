@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de un proxy inverso para detección aut
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a reverse proxy for Autodiscover
 ms:assetid: 1e3c3cc2-fe55-408b-99c4-c6e0a9252689
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945619(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5445a9ce81835863b610ef32ecc51ccac5331c3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a02bf765941c7240f08fecc91d5912f31a0f2f87
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842301"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -79,9 +81,9 @@ Los procedimientos de esta sección describen cómo crear o modificar las reglas
 
 6.  En la página **seguridad de conexión de servidor** , seleccione **usar SSL para conectarse al servidor web o conjunto**de servidores publicado.
 
-7.  En la página **Internal Publishing** details, en **nombre de sitio interno**, escriba el nombre de dominio completo (FQDN) de su grupo de directores (por ejemplo, lyncdir01. contoso. local). Si va a crear una regla para la dirección URL de servicios web externos en el grupo de servidores front-end, escriba el FQDN del grupo de servidores front-end (por ejemplo, lyncpool01. contoso. local).
+7.  En la página **Internal Publishing details** , en **nombre de sitio interno**, escriba el nombre de dominio completo (FQDN) de su grupo de directores (por ejemplo, lyncdir01. contoso. local). Si va a crear una regla para la dirección URL de servicios web externos en el grupo de servidores front-end, escriba el FQDN del grupo de servidores front-end (por ejemplo, lyncpool01. contoso. local).
 
-8.  En la **página datos internos de publicación** , en **ruta de acceso (opcional)**, escriba ** / ** la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione reenviar **el encabezado de host original**.
+8.  En la **página datos internos de publicación** , en **ruta de acceso (opcional)**, escriba ** / ** la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original**.
 
 9.  En la página **detalles de nombre público** , haga lo siguiente:
     
@@ -168,9 +170,9 @@ Los procedimientos de esta sección describen cómo crear o modificar las reglas
 
 6.  En la página **seguridad de conexión de servidor** , seleccione **usar conexiones no seguras para conectarse al servidor web o conjunto**de servidores publicado.
 
-7.  En la página **Internal Publishing** details, en **nombre de sitio interno**, escriba el FQDN de los servicios Web internos de su grupo de front-end (por ejemplo, lyncpool01. contoso. local).
+7.  En la página **Internal Publishing details** , en **nombre de sitio interno**, escriba el FQDN de los servicios Web internos de su grupo de front-end (por ejemplo, lyncpool01. contoso. local).
 
-8.  En la página **datos internos de publicación** , en **ruta de acceso (opcional)**, escriba ** / ** la ruta de acceso de la carpeta que se va a publicar y, después, seleccione reenviar **el encabezado de host original en lugar del especificado en el campo Nombre del sitio interno. **.
+8.  En la **página datos internos de publicación** , en **ruta de acceso (opcional)**, escriba ** / ** la ruta de acceso de la carpeta que se va a publicar y, a continuación, seleccione **reenviar el encabezado de host original en lugar del especificado en el campo Nombre del sitio interno**.
 
 9.  En la página **detalles de nombre público** , haga lo siguiente:
     

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planificación de clientes y dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for clients and devices in Lync Server
 ms:assetid: 7b45958a-bb98-4f69-b597-18bb27034244
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398610(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184598
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3294a4e8d0f94e2cf8c2dd5d028da36266c7fd0a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89ddf40f5f713481ddda36a072c2fd5b91e3f80f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824900"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

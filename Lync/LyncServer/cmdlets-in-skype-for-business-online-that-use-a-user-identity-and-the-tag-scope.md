@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use a user identity and the tag scope
 ms:assetid: 344a21b0-5301-4e77-853a-970bb1c11e1d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362781(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 56558838
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 31f6b76b6c63b39bf22f456260f084736d481513
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 24c197934705a86d91e0492949aa2a9e6484f903
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233130"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727570"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity-and-the-tag-scope"></a>Cmdlets de Skype empresarial online que usan una identidad de usuario y el ámbito de la etiqueta
 

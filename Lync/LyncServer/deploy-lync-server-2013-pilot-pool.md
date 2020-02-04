@@ -3,6 +3,8 @@ title: Implementar el grupo de pruebas piloto de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy Lync Server 2013 pilot pool
 ms:assetid: a81aba1e-e636-434b-8c56-4150435bb55d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205144(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185028
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93fb3c5062cc1f817d3de7b869f57600178ad454
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dbe36710ab0acee23af1d8b83adece108cf86c4d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842835"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Al implementar un grupo piloto, se usa el Asistente para definir el nuevo grupo 
 
 3.  Haga clic con el botón secundario en **grupos front-end Enterprise Edition**y seleccione **nuevo grupo de servidores front-end**.
     
-    ![Submenú selección del grupo de servidores del generador] de topologías (images/JJ205144.c2feed27-3418-42a6-a254-76e83607db9c(OCS.15).jpg "Submenú selección del grupo de servidores del generador") de topologías
+    ![Submenú selección del grupo de servidores del generador de topologías](images/JJ205144.c2feed27-3418-42a6-a254-76e83607db9c(OCS.15).jpg "Submenú selección del grupo de servidores del generador de topologías")
 
 4.  Escriba el FQDN del grupo. Cuando define el grupo piloto, puede optar por implementar un grupo de servidores front-end Enterprise Edition o un servidor Standard Edition. Lync Server 2013 no requiere que las características de su grupo piloto coincidan con lo que se ha implementado en su grupo heredado.
     
@@ -70,31 +72,31 @@ Al implementar un grupo piloto, se usa el Asistente para definir el nuevo grupo 
     
     </div>
     
-    ![Página FQDN del Asistente para definir un nuevo grupo front end] (images/JJ205144.c5fd138c-e75a-413a-827f-b1461c996d40(OCS.15).jpg "Página FQDN del Asistente para definir un nuevo grupo front end")
+    ![Página FQDN del Asistente para definir un nuevo grupo front end](images/JJ205144.c5fd138c-e75a-413a-827f-b1461c996d40(OCS.15).jpg "Página FQDN del Asistente para definir un nuevo grupo front end")
 
 5.  En la página **seleccionar características** , seleccione las casillas de las características que desee en este grupo de servidores front-end. Por ejemplo, si va a implementar solo la mensajería instantánea (mi) y las características de presencia, active la casilla conferencias para permitir la mensajería instantánea entre usuarios, pero no seleccione las casillas Conferencia de acceso telefónico local (RTC), telefonía IP empresarial o control de admisión de llamadas. porque representan características de conferencia de voz, vídeo y colaboración. Para obtener más información sobre cómo seleccionar las características, vea [definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync server 2013](lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md) en la documentación de implementación.
     
-    ![Página seleccionar características de la agrupación de front-end] (images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "Página seleccionar características de la agrupación de front-end")
+    ![Página seleccionar características de la agrupación de front-end](images/JJ204718.5c3f3ff9-6e17-4d66-9b13-3bd55b38246b(OCS.15).jpg "Página seleccionar características de la agrupación de front-end")
 
 6.  En la página **Seleccionar roles de servidor** de la aplicación, le recomendamos que Collocate el servidor de mediación en Lync Server 2013. Al combinar una topología heredada con Lync Server 2013, es necesario que primero Collocate el servidor de mediación de Lync Server 2010. Después de combinar las topologías y configurar el servidor de mediación de Lync Server 2013, puede decidir si desea mantener el servidor de mediación o cambiarlo a un servidor independiente cuando mueva la función de servidor de mediación a Lync Server 2013 más adelante en la implementación. cuatricromía.
     
-    ![Página del grupo de servidores front-end seleccionar roles de servidor en la página] (images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "Página del grupo de servidores front-end seleccionar roles de servidor en la página")
+    ![Página del grupo de servidores front-end seleccionar roles de servidor en la página](images/JJ204718.e00b7eba-010b-44ed-b0a6-6ab3e534fb8c(OCS.15).jpg "Página del grupo de servidores front-end seleccionar roles de servidor en la página")
 
 7.  En la página **asociar roles de servidor con este grupo de servidores front-end** , durante la implementación de un grupo piloto, no elija la opción **habilitar un grupo perimetral para que lo use el componente multimedia de este grupo de servidores front-end** . Esta es una característica que habilitará y se conectará en línea en una fase posterior de la migración. Mantener esta configuración desactivada por ahora.
     
-    ![Página asociar roles de servidor con grupo de servidores front-end] (images/JJ204718.2d95a798-ad76-4dad-9392-ce41f4d938d1(OCS.15).jpg "Página asociar roles de servidor con grupo de servidores front-end")
+    ![Página asociar roles de servidor con grupo de servidores front-end](images/JJ204718.2d95a798-ad76-4dad-9392-ce41f4d938d1(OCS.15).jpg "Página asociar roles de servidor con grupo de servidores front-end")
 
 8.  En la página **seleccionar un servidor de Office Web Apps** , haga clic en **nuevo**y especifique el FQDN del servidor de aplicaciones.
     
-    ![Definir nuevas propiedades de FQDN de Office Web Apps Server] (images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "Definir nuevas propiedades de FQDN de Office Web Apps Server")
+    ![Definir nuevas propiedades de FQDN de Office Web Apps Server](images/JJ204718.25c6b455-f1b8-4326-a569-6e338153d398(OCS.15).jpg "Definir nuevas propiedades de FQDN de Office Web Apps Server")
 
 9.  En la página **definir el archivado del almacén SQL Server** , al definir el almacén de SQL Server para el archivado y la supervisión de Lync Server, seleccione la instancia de SQL Server creada anteriormente para Lync Server 2013.
     
-    Definir el archivado de la ![página del almacén SQL Server] Definir el archivado de la (images/JJ204718.0f76f1dc-d0d7-42a0-aea3-400b8e1f35cd(OCS.15).jpg "página del almacén SQL Server")
+    ![Definir el archivado de la página del almacén SQL Server](images/JJ204718.0f76f1dc-d0d7-42a0-aea3-400b8e1f35cd(OCS.15).jpg "Definir el archivado de la página del almacén SQL Server")
 
 10. Para publicar su topología, haga clic con el botón secundario en el nodo de **Lync Server** y, a continuación, haga clic en **publicar topología**.
     
-    ![Generador de topología que muestra una topología] configurada (images/JJ205144.c3eafa20-159e-4355-a23d-9f72aeb26037(OCS.15).jpg "Generador de topología que muestra una topología") configurada
+    ![Generador de topología que muestra una topología configurada](images/JJ205144.c3eafa20-159e-4355-a23d-9f72aeb26037(OCS.15).jpg "Generador de topología que muestra una topología configurada")
 
 11. Cuando el proceso de publicación haya finalizado, haga clic en **Finalizar**.
 

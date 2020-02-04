@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Herramientas de administración de Windows PowerShell 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Windows PowerShell and Lync Server 2013 management tools
 ms:assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481130(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893869
 ms.date: 07/20/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 814253d909ff7065ccc028cf5822be7a7331a2fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dbfd15ff3c1047f04a6878b65a3d16e63bac490b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849999"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

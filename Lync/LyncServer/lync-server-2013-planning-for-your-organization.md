@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planeación para la organización'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Planning primer: Planning for your organization'
 ms:assetid: fbbfcc5b-eece-48de-800f-2c28954eca33
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185940
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4c2b9521f9c8603829c2a35cbccc430b67f0184e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80eda087b78fa5733f3ac58d758a7187c1061c91
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824256"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

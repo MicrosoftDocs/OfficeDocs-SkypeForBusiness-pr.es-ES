@@ -3,6 +3,8 @@ title: 'Lync Server 2013: validar la configuración del sistema de nombres de do
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validate Domain Name System settings for load balancing
 ms:assetid: 92858e1c-91a5-4303-9bb4-b182e7f9c78b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969625
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d56219dc36859eb37a766a94f827fb0c28a9909
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0178d179a9684cf07450cdee839af1c8c1ebc22d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850154"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727530"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

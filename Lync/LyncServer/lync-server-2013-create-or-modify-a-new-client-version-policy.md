@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar una nueva Directiva de versión de c
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a new client version policy
 ms:assetid: 4be6e449-aa82-4b46-abb1-d31281573a72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898476(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64e9d9d2879d4633b1775f8934186b8b01992d13
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1469bb017f9597bcd1fffba54f39e62dc0bd6e96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835779"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

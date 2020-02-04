@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure XMPP gateway access policies and certificates
 ms:assetid: fac02f4e-d14d-4be3-b53c-74c82436fd93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721945(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 49733882
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 022d396d9d87b0112a24d06ee6a863f98795dec8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 5b1aab41b1a9af8c7b8df888dcb3a0c8621fa44e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233162"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

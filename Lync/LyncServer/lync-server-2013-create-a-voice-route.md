@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear una ruta de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a voice route
 ms:assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398898(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185438
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe4c6a9492cbbecafff95a1f6e626087e79f62d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30a25f9d070c81d45ffc966be49560dc67c292c4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842073"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

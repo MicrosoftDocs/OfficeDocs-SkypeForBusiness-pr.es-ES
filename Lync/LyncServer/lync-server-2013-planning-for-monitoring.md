@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planeamiento de la supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for monitoring
 ms:assetid: 26cead5a-183c-42f1-a4b0-0e8d61c6159d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204752(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183671
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a866be23c9bcf59133fb60f4facf46e867d3d08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c04194f84b008b741bce887a3115c1ca31fc3ec7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824606"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

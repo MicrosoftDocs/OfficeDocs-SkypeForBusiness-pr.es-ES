@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir las reglas de normalización'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining normalization rules
 ms:assetid: ed31d56c-00b5-4f72-bd9f-beb4100d441f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185741
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9406e4fa7445242ae3f112ebfb772713d9d2219c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b75883d99d218d711e9d96de7ebfd7d360972a6a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835703"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Para obtener más información sobre cómo escribir expresiones regulares, vea "
 
 Puede usar cualquiera de los siguientes métodos para definir o editar una regla de normalización:
 
-  - Use la herramienta **crear una regla** de normalización para especificar valores para los dígitos iniciales, la longitud, los dígitos que se van a quitar y los dígitos que se van a agregar y, a continuación, deje que el panel de control de Lync Server genere el patrón correspondiente y la regla de traducción correspondiente.
+  - Use la herramienta **crear una regla de normalización** para especificar valores para los dígitos iniciales, la longitud, los dígitos que se van a quitar y los dígitos que se van a agregar y, a continuación, deje que el panel de control de Lync Server genere el patrón correspondiente y la regla de traducción correspondiente.
 
   - Escriba de forma manual expresiones regulares para definir el patrón de coincidencia y la regla de traducción.
 

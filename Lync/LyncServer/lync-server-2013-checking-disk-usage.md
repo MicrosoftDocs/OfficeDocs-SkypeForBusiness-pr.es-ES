@@ -3,6 +3,8 @@ title: 'Lync Server 2013: comprobar el uso del disco'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Checking disk usage
 ms:assetid: 0f0cb9bf-3f11-43ff-be10-5c8e1b5c4f08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969578
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 791f4a0f9db56c38c837fa77b443d5aa6de74bd1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 554b493ba7ca837a8ea5c80f6751ddb91061c374
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842571"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar una cola'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a queue
 ms:assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205207(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185247
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 96b6bc1e5f956b5b975e14f07a3c37f2802d1b39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77bad1729c67c363dc56eaf8788e57caabd51876
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835792"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,11 +95,11 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
       - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
     
-      - Para desviar la llamada al correo de voz, haga clic en\>@\< **reenviar al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección de correo de voz con el formato SIP: nombre de usuario nombreDeDominio\> (por ejemplo, SIP: bob@contoso.com).
+      - Para desviar la llamada al correo de voz, haga clic en **reenviar al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección\>@\<de\> correo de voz con el formato SIP: nombreusuario nombreDeDominio (por ejemplo, SIP:Bob@contoso.com).
     
-      - Para desviar la llamada a otro número de teléfono, haga clic en\>@\< **reenviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el número de teléfono en el formato SIP: número domainname\> (por ejemplo, sip:+14255550121@contoso.com).
+      - Para desviar la llamada a otro número de teléfono, haga clic en **reenviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el\>@\<número\> de teléfono en el formato SIP: Number domainname (por ejemplo, SIP:+14255550121@contoso.com).
     
-      - Para desviar la llamada a otro usuario, haga clic en\>@\< **reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el\<usuario con\>el formato SIP: nombreusuario nombreDeDominio.
+      - Para desviar la llamada a otro usuario, haga clic en **reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el\<usuario\>@\<con\>el formato SIP: nombreusuario nombreDeDominio.
     
       - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
 
@@ -113,11 +115,11 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
       - Para desconectar la llamada una vez transcurrido el tiempo de espera, haga clic en **Desconectar**.
     
-      - Para desviar la llamada al correo de voz, haga clic en\>@\< **reenviar al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección de correo de voz con el formato SIP: nombre de usuario nombreDeDominio\> (por ejemplo, SIP: bob@contoso.com).
+      - Para desviar la llamada al correo de voz, haga clic en **reenviar al correo de voz**y, a continuación, en el campo **dirección SIP** , escriba una\<dirección\>@\<de\> correo de voz con el formato SIP: nombreusuario nombreDeDominio (por ejemplo, SIP:Bob@contoso.com).
     
-      - Para desviar la llamada a otro número de teléfono, haga clic en\>@\< **reenviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el número de teléfono en el formato SIP: número domainname\> (por ejemplo, sip:+14255550121@contoso.com).
+      - Para desviar la llamada a otro número de teléfono, haga clic en **reenviar a número de teléfono**y, a continuación, en el campo **dirección SIP** , escriba\<el\>@\<número\> de teléfono en el formato SIP: Number domainname (por ejemplo, SIP:+14255550121@contoso.com).
     
-      - Para desviar la llamada a otro usuario, haga clic en\>@\< **reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el\<usuario con\>el formato SIP: nombreusuario nombreDeDominio.
+      - Para desviar la llamada a otro usuario, haga clic en **reenviar a dirección SIP**y, a continuación, en el campo **dirección SIP** , escriba el URI para el\<usuario\>@\<con\>el formato SIP: nombreusuario nombreDeDominio.
     
       - Para reenviar la llamada a otra cola, haga clic en **Desviar a otra cola** y busque la cola que desea usar.
 
