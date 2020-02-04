@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de control de admisión de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Admission Control Report
 ms:assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615043(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185933
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4f31159742757b7ef8b6889b7961bad747b1f6d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff036a27149db4360a938fe2ce9d63c2718f4d94
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842718"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730290"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34842718"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="call-admission-control-report-in-lync-server-2013"></a><span data-ttu-id="e882d-102">Informe de control de admisión de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e882d-102">Call Admission Control Report in Lync Server 2013</span></span>
+# <a name="call-admission-control-report-in-lync-server-2013"></a><span data-ttu-id="a9254-102">Informe de control de admisión de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9254-102">Call Admission Control Report in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,43 +35,43 @@ ms.locfileid: "34842718"
 
 <span> </span>
 
-<span data-ttu-id="e882d-103">_**Última modificación del tema:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="e882d-103">_**Topic Last Modified:** 2012-06-29_</span></span>
+<span data-ttu-id="a9254-103">_**Última modificación del tema:** 2012-06-29_</span><span class="sxs-lookup"><span data-stu-id="a9254-103">_**Topic Last Modified:** 2012-06-29_</span></span>
 
-<span data-ttu-id="e882d-104">El Informe de control de admisión de llamadas ofrece información sobre las sesiones de punto a punto y de conferencia que se han llevado a cabo con restricciones definidas por el Control de admisión de llamadas.</span><span class="sxs-lookup"><span data-stu-id="e882d-104">The Call Admission Control Report provides information about peer-to-peer and conferencing sessions that were conducted under restrictions set in place by Call Admission Control.</span></span> <span data-ttu-id="e882d-105">El control de admisión de llamadas, presentado en Microsoft Lync Server 2010, proporciona a los administradores una manera de permitir (o no permitir) sesiones de comunicación basadas en restricciones de ancho de banda.</span><span class="sxs-lookup"><span data-stu-id="e882d-105">Call Admission Control, introduced in Microsoft Lync Server 2010, provides a way for administrators to allow (or not allow) communication sessions based on bandwidth constraints.</span></span> <span data-ttu-id="e882d-106">Por ejemplo, los administradores pueden crear directivas que impongan un límite a la cantidad de ancho de banda disponible para las llamadas de voz y vídeo.</span><span class="sxs-lookup"><span data-stu-id="e882d-106">For example, administrators can create policies that impose a limit on the amount of bandwidth available for voice and video calls.</span></span> <span data-ttu-id="e882d-107">Si se alcanza ese límite de ancho de banda, no se podrán realizar nuevas llamadas de voz o vídeo hasta que finalice alguna de las llamadas en curso y se liberen los recursos de red necesarios.</span><span class="sxs-lookup"><span data-stu-id="e882d-107">If that bandwidth limit has been reached, then no new voice or video calls can be placed until one of the current calls has ended and freed up the required network resources.</span></span>
+<span data-ttu-id="a9254-104">El Informe de control de admisión de llamadas ofrece información sobre las sesiones de punto a punto y de conferencia que se han llevado a cabo con restricciones definidas por el Control de admisión de llamadas.</span><span class="sxs-lookup"><span data-stu-id="a9254-104">The Call Admission Control Report provides information about peer-to-peer and conferencing sessions that were conducted under restrictions set in place by Call Admission Control.</span></span> <span data-ttu-id="a9254-105">El control de admisión de llamadas, presentado en Microsoft Lync Server 2010, proporciona a los administradores una manera de permitir (o no permitir) sesiones de comunicación basadas en restricciones de ancho de banda.</span><span class="sxs-lookup"><span data-stu-id="a9254-105">Call Admission Control, introduced in Microsoft Lync Server 2010, provides a way for administrators to allow (or not allow) communication sessions based on bandwidth constraints.</span></span> <span data-ttu-id="a9254-106">Por ejemplo, los administradores pueden crear directivas que impongan un límite a la cantidad de ancho de banda disponible para las llamadas de voz y vídeo.</span><span class="sxs-lookup"><span data-stu-id="a9254-106">For example, administrators can create policies that impose a limit on the amount of bandwidth available for voice and video calls.</span></span> <span data-ttu-id="a9254-107">Si se alcanza ese límite de ancho de banda, no se podrán realizar nuevas llamadas de voz o vídeo hasta que finalice alguna de las llamadas en curso y se liberen los recursos de red necesarios.</span><span class="sxs-lookup"><span data-stu-id="a9254-107">If that bandwidth limit has been reached, then no new voice or video calls can be placed until one of the current calls has ended and freed up the required network resources.</span></span>
 
 <div>
 
-## <a name="accessing-the-call-admission-control-report"></a><span data-ttu-id="e882d-108">Acceso al Informe de control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="e882d-108">Accessing the Call Admission Control Report</span></span>
+## <a name="accessing-the-call-admission-control-report"></a><span data-ttu-id="a9254-108">Acceso al Informe de control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="a9254-108">Accessing the Call Admission Control Report</span></span>
 
-<span data-ttu-id="e882d-p102">Al Informe de control de admisión de llamadas se obtiene acceso desde la página de inicio de Informes de supervisión. Desde el Informe de control de admisión de llamadas, puede obtener acceso a cualquiera de los informes siguientes:</span><span class="sxs-lookup"><span data-stu-id="e882d-p102">The Call Admission Control Report is accessed from the Monitoring Reports home page. From the Call Admission Control Report you can drill down to either of the following reports:</span></span>
+<span data-ttu-id="a9254-p102">Al Informe de control de admisión de llamadas se obtiene acceso desde la página de inicio de Informes de supervisión. Desde el Informe de control de admisión de llamadas, puede obtener acceso a cualquiera de los informes siguientes:</span><span class="sxs-lookup"><span data-stu-id="a9254-p102">The Call Admission Control Report is accessed from the Monitoring Reports home page. From the Call Admission Control Report you can drill down to either of the following reports:</span></span>
 
-  - <span data-ttu-id="e882d-111">Informe de detalles de conferencia: para obtener acceso a este informe, hada clic en la métrica Detalles desde una sesión de conferencia.</span><span class="sxs-lookup"><span data-stu-id="e882d-111">Conference Detail Report – To access this report, click the Details metric from a conference session.</span></span>
+  - <span data-ttu-id="a9254-111">Informe de detalles de conferencia: para obtener acceso a este informe, hada clic en la métrica Detalles desde una sesión de conferencia.</span><span class="sxs-lookup"><span data-stu-id="a9254-111">Conference Detail Report – To access this report, click the Details metric from a conference session.</span></span>
 
-  - <span data-ttu-id="e882d-112">Informe de detalles de sesiones punto a punto: para obtener acceso a este informe, haga clic en la métrica Detalles desde una sesión punto a punto.</span><span class="sxs-lookup"><span data-stu-id="e882d-112">Peer-to-Peer Session Detail Report – To access this report, click the Details metric for a peer-to-peer session.</span></span>
+  - <span data-ttu-id="a9254-112">Informe de detalles de sesiones punto a punto: para obtener acceso a este informe, haga clic en la métrica Detalles desde una sesión punto a punto.</span><span class="sxs-lookup"><span data-stu-id="a9254-112">Peer-to-Peer Session Detail Report – To access this report, click the Details metric for a peer-to-peer session.</span></span>
 
 </div>
 
 <div>
 
-## <a name="making-the-best-use-of-the-call-admission-control-report"></a><span data-ttu-id="e882d-113">Cómo hacer el mejor uso del Informe de control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="e882d-113">Making the Best Use of the Call Admission Control Report</span></span>
+## <a name="making-the-best-use-of-the-call-admission-control-report"></a><span data-ttu-id="a9254-113">Cómo hacer el mejor uso del Informe de control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="a9254-113">Making the Best Use of the Call Admission Control Report</span></span>
 
-<span data-ttu-id="e882d-p103">Para obtener una lista de las llamadas que no se han podido completar correctamente porque el ancho de banda no era suficiente, seleccione Llamadas rechazadas por el control de admisión de llamadas en la lista desplegable Categoría de llamada. La mayoría de las llamadas devueltas presentarán seguramente el identificador de diagnóstico 5:</span><span class="sxs-lookup"><span data-stu-id="e882d-p103">To get a list of calls that failed because of insufficient bandwidth, select Calls rejected because of call admission control from the Call category dropdown list. Most of the returned calls will likely have a diagnostic ID of 5:</span></span>
+<span data-ttu-id="a9254-p103">Para obtener una lista de las llamadas que no se han podido completar correctamente porque el ancho de banda no era suficiente, seleccione Llamadas rechazadas por el control de admisión de llamadas en la lista desplegable Categoría de llamada. La mayoría de las llamadas devueltas presentarán seguramente el identificador de diagnóstico 5:</span><span class="sxs-lookup"><span data-stu-id="a9254-p103">To get a list of calls that failed because of insufficient bandwidth, select Calls rejected because of call admission control from the Call category dropdown list. Most of the returned calls will likely have a diagnostic ID of 5:</span></span>
 
-<span data-ttu-id="e882d-p104">Ancho de banda insuficiente para establecer la sesión. Intente volver a enrutar la llamada a través de RTC.</span><span class="sxs-lookup"><span data-stu-id="e882d-p104">Insufficient bandwidth to establish session. Attempt PSTN re-route.</span></span>
+<span data-ttu-id="a9254-p104">Ancho de banda insuficiente para establecer la sesión. Intente volver a enrutar la llamada a través de RTC.</span><span class="sxs-lookup"><span data-stu-id="a9254-p104">Insufficient bandwidth to establish session. Attempt PSTN re-route.</span></span>
 
-<span data-ttu-id="e882d-118">Este mensaje indica que las limitaciones del Control de admisión de llamadas impidió que la llamada se realizara en la red VoIP.</span><span class="sxs-lookup"><span data-stu-id="e882d-118">That indicates that Call Admission Control limitations were preventing the call from being made on the VoIP network.</span></span>
+<span data-ttu-id="a9254-118">Este mensaje indica que las limitaciones del Control de admisión de llamadas impidió que la llamada se realizara en la red VoIP.</span><span class="sxs-lookup"><span data-stu-id="a9254-118">That indicates that Call Admission Control limitations were preventing the call from being made on the VoIP network.</span></span>
 
 </div>
 
 <div>
 
-## <a name="filters"></a><span data-ttu-id="e882d-119">Filtros</span><span class="sxs-lookup"><span data-stu-id="e882d-119">Filters</span></span>
+## <a name="filters"></a><span data-ttu-id="a9254-119">Filtros</span><span class="sxs-lookup"><span data-stu-id="a9254-119">Filters</span></span>
 
-<span data-ttu-id="e882d-p105">Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. Por ejemplo, el Informe de control de admisión de llamadas le permite filtrar llamadas por el usuario que inicia la llamada o por el usuario que recibe la llamada. También puede elegir cómo agrupar los datos. En este caso, las llamadas se agrupan por hora, día, semana o mes.</span><span class="sxs-lookup"><span data-stu-id="e882d-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Call Admission Control Report enables you to filter calls by the user who initiated the call or by the user who was being called. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
+<span data-ttu-id="a9254-p105">Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. Por ejemplo, el Informe de control de admisión de llamadas le permite filtrar llamadas por el usuario que inicia la llamada o por el usuario que recibe la llamada. También puede elegir cómo agrupar los datos. En este caso, las llamadas se agrupan por hora, día, semana o mes.</span><span class="sxs-lookup"><span data-stu-id="a9254-p105">Filters provide a way for you to return a more finely-targeted set of data or to view the returned data in different ways. For example, the Call Admission Control Report enables you to filter calls by the user who initiated the call or by the user who was being called. You can also choose how data should be grouped. In this case, calls are grouped by hour, day, week, or month.</span></span>
 
-<span data-ttu-id="e882d-124">En la tabla siguiente se muestran los filtros que se pueden utilizar con el Informe de control de admisión de llamadas.</span><span class="sxs-lookup"><span data-stu-id="e882d-124">The following table lists the filters that you can use with the Call Admission Control Report.</span></span>
+<span data-ttu-id="a9254-124">En la tabla siguiente se muestran los filtros que se pueden utilizar con el Informe de control de admisión de llamadas.</span><span class="sxs-lookup"><span data-stu-id="a9254-124">The following table lists the filters that you can use with the Call Admission Control Report.</span></span>
 
-### <a name="call-admission-control-report-filters"></a><span data-ttu-id="e882d-125">Filtros del Informe de control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="e882d-125">Call Admission Control Report Filters</span></span>
+### <a name="call-admission-control-report-filters"></a><span data-ttu-id="a9254-125">Filtros del Informe de control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="a9254-125">Call Admission Control Report Filters</span></span>
 
 <table>
 <colgroup>
@@ -78,51 +80,51 @@ ms.locfileid: "34842718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e882d-126">Nombre</span><span class="sxs-lookup"><span data-stu-id="e882d-126">Name</span></span></th>
-<th><span data-ttu-id="e882d-127">Descripción</span><span class="sxs-lookup"><span data-stu-id="e882d-127">Description</span></span></th>
+<th><span data-ttu-id="a9254-126">Nombre</span><span class="sxs-lookup"><span data-stu-id="a9254-126">Name</span></span></th>
+<th><span data-ttu-id="a9254-127">Descripción</span><span class="sxs-lookup"><span data-stu-id="a9254-127">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-128"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-128"><strong>From</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-p106">Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="e882d-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
-<p><span data-ttu-id="e882d-131">7/17/12012 1:00 P.M.</span><span class="sxs-lookup"><span data-stu-id="e882d-131">7/17/12012 1:00 PM</span></span></p>
-<p><span data-ttu-id="e882d-p107">Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="e882d-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="e882d-134">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="e882d-134">7/17/12012</span></span></p>
-<p><span data-ttu-id="e882d-135">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="e882d-135">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="e882d-136">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="e882d-136">7/13/2012</span></span></p>
-<p><span data-ttu-id="e882d-137">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="e882d-137">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-128"><strong>De</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-128"><strong>From</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-p106">Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="a9254-p106">Start date/time for the time range. To view data by hours, enter both the start date and time as follows:</span></span></p>
+<p><span data-ttu-id="a9254-131">7/17/12012 1:00 P.M.</span><span class="sxs-lookup"><span data-stu-id="a9254-131">7/17/12012 1:00 PM</span></span></p>
+<p><span data-ttu-id="a9254-p107">Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="a9254-p107">If you do not enter a start time, the report automatically begins at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="a9254-134">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="a9254-134">7/17/12012</span></span></p>
+<p><span data-ttu-id="a9254-135">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="a9254-135">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="a9254-136">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="a9254-136">7/13/2012</span></span></p>
+<p><span data-ttu-id="a9254-137">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="a9254-137">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-138"><strong>Hasta</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-138"><strong>To</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-p108">Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="e882d-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
-<p><span data-ttu-id="e882d-141">7/17/12012 1:00 P.M.</span><span class="sxs-lookup"><span data-stu-id="e882d-141">7/17/12012 1:00 PM</span></span></p>
-<p><span data-ttu-id="e882d-p109">Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="e882d-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
-<p><span data-ttu-id="e882d-144">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="e882d-144">7/17/12012</span></span></p>
-<p><span data-ttu-id="e882d-145">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="e882d-145">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
-<p><span data-ttu-id="e882d-146">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="e882d-146">7/13/2012</span></span></p>
-<p><span data-ttu-id="e882d-147">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="e882d-147">Weeks always run from Sunday through Saturday.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-138"><strong>Hasta</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-138"><strong>To</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-p108">Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="a9254-p108">End date/time for the time range. To view data by hours, enter both the end date and time as follows:</span></span></p>
+<p><span data-ttu-id="a9254-141">7/17/12012 1:00 P.M.</span><span class="sxs-lookup"><span data-stu-id="a9254-141">7/17/12012 1:00 PM</span></span></p>
+<p><span data-ttu-id="a9254-p109">Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</span><span class="sxs-lookup"><span data-stu-id="a9254-p109">If you do not enter an end time, the report automatically ends at 12:00 AM on the specified day. To view data by day, enter just the date:</span></span></p>
+<p><span data-ttu-id="a9254-144">7/17/12012</span><span class="sxs-lookup"><span data-stu-id="a9254-144">7/17/12012</span></span></p>
+<p><span data-ttu-id="a9254-145">Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</span><span class="sxs-lookup"><span data-stu-id="a9254-145">To view by week or by month, enter a date that falls anywhere within the week or month that you want to view (you do not have to enter the first day of the week or month):</span></span></p>
+<p><span data-ttu-id="a9254-146">7/13/2012</span><span class="sxs-lookup"><span data-stu-id="a9254-146">7/13/2012</span></span></p>
+<p><span data-ttu-id="a9254-147">Las semanas siempre van del domingo al sábado.</span><span class="sxs-lookup"><span data-stu-id="a9254-147">Weeks always run from Sunday through Saturday.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-148"><strong>Grupo</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-148"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-p110">Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todos]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="e882d-p110">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-148"><strong>Grupo</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-148"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-p110">Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todos]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="a9254-p110">Fully qualified domain name (FQDN) of the Registrar pool or Edge Server. You can either select an individual pool or click <strong>[All]</strong> to view data for all the pools. This drop-down list is automatically populated for you based on the records in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-152"><strong>Tipo de actividad</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-152"><strong>Activity type</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-p111">Tipo de actividad. Seleccione una de las siguientes actividades:</span><span class="sxs-lookup"><span data-stu-id="e882d-p111">Type of activity. Select one of the following activities:</span></span></p>
+<td><p><span data-ttu-id="a9254-152"><strong>Tipo de actividad</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-152"><strong>Activity type</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-p111">Tipo de actividad. Seleccione una de las siguientes actividades:</span><span class="sxs-lookup"><span data-stu-id="a9254-p111">Type of activity. Select one of the following activities:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="e882d-155">[Todas]</span><span class="sxs-lookup"><span data-stu-id="e882d-155">[All]</span></span></p></li>
-<li><p><span data-ttu-id="e882d-156">Punto a punto</span><span class="sxs-lookup"><span data-stu-id="e882d-156">Peer-to-Peer</span></span></p></li>
-<li><p><span data-ttu-id="e882d-157">Una conferencia</span><span class="sxs-lookup"><span data-stu-id="e882d-157">Conference</span></span></p></li>
+<li><p><span data-ttu-id="a9254-155">[Todas]</span><span class="sxs-lookup"><span data-stu-id="a9254-155">[All]</span></span></p></li>
+<li><p><span data-ttu-id="a9254-156">Punto a punto</span><span class="sxs-lookup"><span data-stu-id="a9254-156">Peer-to-Peer</span></span></p></li>
+<li><p><span data-ttu-id="a9254-157">Una conferencia</span><span class="sxs-lookup"><span data-stu-id="a9254-157">Conference</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-158"><strong>Categoría de llamada</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-158"><strong>Call category</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-p112">Indica el motivo por el que se usó el control de admisión de llamadas para la llamada. Seleccione una de las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="e882d-p112">Indicates the reason that CAC was used for the call. Select one of the following:</span></span></p>
+<td><p><span data-ttu-id="a9254-158"><strong>Categoría de llamada</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-158"><strong>Call category</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-p112">Indica el motivo por el que se usó el control de admisión de llamadas para la llamada. Seleccione una de las siguientes opciones:</span><span class="sxs-lookup"><span data-stu-id="a9254-p112">Indicates the reason that CAC was used for the call. Select one of the following:</span></span></p>
 <ul>
-<li><p><span data-ttu-id="e882d-161">[Todas]</span><span class="sxs-lookup"><span data-stu-id="e882d-161">[All]</span></span></p></li>
-<li><p><span data-ttu-id="e882d-162">Llamada rechazada por el control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="e882d-162">Call rejected because of call admission control</span></span></p></li>
-<li><p><span data-ttu-id="e882d-163">Llamadas que se han vuelto a enrutar a través de RTC por el control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="e882d-163">Calls rerouted through PSTN because of call admission control</span></span></p></li>
+<li><p><span data-ttu-id="a9254-161">[Todas]</span><span class="sxs-lookup"><span data-stu-id="a9254-161">[All]</span></span></p></li>
+<li><p><span data-ttu-id="a9254-162">Llamada rechazada por el control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="a9254-162">Call rejected because of call admission control</span></span></p></li>
+<li><p><span data-ttu-id="a9254-163">Llamadas que se han vuelto a enrutar a través de RTC por el control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="a9254-163">Calls rerouted through PSTN because of call admission control</span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
@@ -133,11 +135,11 @@ ms.locfileid: "34842718"
 
 <div>
 
-## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="e882d-164">Métricas de las sesiones punto a punto</span><span class="sxs-lookup"><span data-stu-id="e882d-164">Metrics for Peer-to-Peer Sessions</span></span>
+## <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="a9254-164">Métricas de las sesiones punto a punto</span><span class="sxs-lookup"><span data-stu-id="a9254-164">Metrics for Peer-to-Peer Sessions</span></span>
 
-<span data-ttu-id="e882d-165">En la siguiente tabla se muestra la información proporcionada por el Informe del control de admisión de llamadas para las sesiones punto a punto (es decir, sesiones entre solo dos participantes).</span><span class="sxs-lookup"><span data-stu-id="e882d-165">The following table lists the information provided in the Call Admission Control Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
+<span data-ttu-id="a9254-165">En la siguiente tabla se muestra la información proporcionada por el Informe del control de admisión de llamadas para las sesiones punto a punto (es decir, sesiones entre solo dos participantes).</span><span class="sxs-lookup"><span data-stu-id="a9254-165">The following table lists the information provided in the Call Admission Control Report for peer-to-peer sessions (that is, sessions involving just two participants).</span></span>
 
-### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="e882d-166">Métricas de las sesiones punto a punto</span><span class="sxs-lookup"><span data-stu-id="e882d-166">Metrics for Peer-to-Peer Sessions</span></span>
+### <a name="metrics-for-peer-to-peer-sessions"></a><span data-ttu-id="a9254-166">Métricas de las sesiones punto a punto</span><span class="sxs-lookup"><span data-stu-id="a9254-166">Metrics for Peer-to-Peer Sessions</span></span>
 
 <table>
 <colgroup>
@@ -147,51 +149,51 @@ ms.locfileid: "34842718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e882d-167">Nombre</span><span class="sxs-lookup"><span data-stu-id="e882d-167">Name</span></span></th>
-<th><span data-ttu-id="e882d-168">¿Se pueden ordenar los datos por este elemento?</span><span class="sxs-lookup"><span data-stu-id="e882d-168">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="e882d-169">Descripción</span><span class="sxs-lookup"><span data-stu-id="e882d-169">Description</span></span></th>
+<th><span data-ttu-id="a9254-167">Nombre</span><span class="sxs-lookup"><span data-stu-id="a9254-167">Name</span></span></th>
+<th><span data-ttu-id="a9254-168">¿Se pueden ordenar los datos por este elemento?</span><span class="sxs-lookup"><span data-stu-id="a9254-168">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="a9254-169">Descripción</span><span class="sxs-lookup"><span data-stu-id="a9254-169">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-170"><strong>Detalle</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-170"><strong>Detail</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-171">No</span><span class="sxs-lookup"><span data-stu-id="e882d-171">No</span></span></p></td>
-<td><p><span data-ttu-id="e882d-172">Cuando se hace clic en este elemento, el informe muestra un informe detallado de sesión punto a punto de la sesión específica.</span><span class="sxs-lookup"><span data-stu-id="e882d-172">When you click this item, the report shows you a Peer-to-Peer Session Detail Report for the specified session.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-170"><strong>Detalle</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-170"><strong>Detail</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-171">No</span><span class="sxs-lookup"><span data-stu-id="a9254-171">No</span></span></p></td>
+<td><p><span data-ttu-id="a9254-172">Cuando se hace clic en este elemento, el informe muestra un informe detallado de sesión punto a punto de la sesión específica.</span><span class="sxs-lookup"><span data-stu-id="a9254-172">When you click this item, the report shows you a Peer-to-Peer Session Detail Report for the specified session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-173"><strong>Remitente</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-173"><strong>From user</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-174">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-174">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-175">Dirección SIP del usuario que inició la sesión.</span><span class="sxs-lookup"><span data-stu-id="e882d-175">SIP address of the user who initiated the session.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-173"><strong>Remitente</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-173"><strong>From user</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-174">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-174">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-175">Dirección SIP del usuario que inició la sesión.</span><span class="sxs-lookup"><span data-stu-id="a9254-175">SIP address of the user who initiated the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-176"><strong>Destinatario</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-176"><strong>To user</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-177">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-177">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-178">Dirección SIP del usuario al que se invitó a unirse a la sesión.</span><span class="sxs-lookup"><span data-stu-id="e882d-178">SIP address of the user who was invited to join the session.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-176"><strong>Destinatario</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-176"><strong>To user</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-177">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-177">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-178">Dirección SIP del usuario al que se invitó a unirse a la sesión.</span><span class="sxs-lookup"><span data-stu-id="a9254-178">SIP address of the user who was invited to join the session.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-179"><strong>Modalidades</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-179"><strong>Modalities</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-180">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-180">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-181">Modalidades de comunicación (como audio y vídeo) que se usaron durante la sesión.</span><span class="sxs-lookup"><span data-stu-id="e882d-181">Communication modalities (such as audio and video) that were used during the session.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-179"><strong>Modalidades</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-179"><strong>Modalities</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-180">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-180">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-181">Modalidades de comunicación (como audio y vídeo) que se usaron durante la sesión.</span><span class="sxs-lookup"><span data-stu-id="a9254-181">Communication modalities (such as audio and video) that were used during the session.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-182"><strong>Hora de invitación</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-182"><strong>Invite time</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-183">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-183">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-184">Fecha y hora en que se envió al remitente la invitación a la sesión inicial.</span><span class="sxs-lookup"><span data-stu-id="e882d-184">Date and time the initial session invitation was sent to the From user.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-182"><strong>Hora de invitación</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-182"><strong>Invite time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-183">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-183">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-184">Fecha y hora en que se envió al remitente la invitación a la sesión inicial.</span><span class="sxs-lookup"><span data-stu-id="a9254-184">Date and time the initial session invitation was sent to the From user.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-185"><strong>Tiempo de respuesta</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-185"><strong>Response time</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-186">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-186">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-187">Fecha y hora en que se recibió la aceptación de la invitación.</span><span class="sxs-lookup"><span data-stu-id="e882d-187">Date and time that the invitation acceptance was received.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-185"><strong>Tiempo de respuesta</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-185"><strong>Response time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-186">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-186">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-187">Fecha y hora en que se recibió la aceptación de la invitación.</span><span class="sxs-lookup"><span data-stu-id="a9254-187">Date and time that the invitation acceptance was received.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-188"><strong>Hora de finalización</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-188"><strong>End time</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-189">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-189">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-190">Fecha y hora en que finalizó la sesión.</span><span class="sxs-lookup"><span data-stu-id="e882d-190">Date and time that the session ended.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-188"><strong>Hora de finalización</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-188"><strong>End time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-189">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-189">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-190">Fecha y hora en que finalizó la sesión.</span><span class="sxs-lookup"><span data-stu-id="a9254-190">Date and time that the session ended.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-191"><strong>Id. de diagnóstico</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-191"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-192">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-192">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-p113">Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores. Los encabezados de diagnóstico son opcionales (es posible que haya sesiones SIP que no incluyan estos encabezados) y los identificadores de diagnóstico se notifican únicamente para las sesiones que tienen problemas de algún tipo.</span><span class="sxs-lookup"><span data-stu-id="e882d-p113">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-191"><strong>Id. de diagnóstico</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-191"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-192">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-192">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-p113">Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores. Los encabezados de diagnóstico son opcionales (es posible que haya sesiones SIP que no incluyan estos encabezados) y los identificadores de diagnóstico se notifican únicamente para las sesiones que tienen problemas de algún tipo.</span><span class="sxs-lookup"><span data-stu-id="a9254-p113">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -201,11 +203,11 @@ ms.locfileid: "34842718"
 
 <div>
 
-## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="e882d-195">Métricas de las sesiones de conferencia</span><span class="sxs-lookup"><span data-stu-id="e882d-195">Metrics for Conferencing Sessions</span></span>
+## <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="a9254-195">Métricas de las sesiones de conferencia</span><span class="sxs-lookup"><span data-stu-id="a9254-195">Metrics for Conferencing Sessions</span></span>
 
-<span data-ttu-id="e882d-196">En la siguiente tabla se muestra información proporcionada en el Informe de control de admisión de llamadas para las sesiones de conferencia (es decir, sesiones con tres o más participantes).</span><span class="sxs-lookup"><span data-stu-id="e882d-196">The following table lists the information provided in the Call Admission Control Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
+<span data-ttu-id="a9254-196">En la siguiente tabla se muestra información proporcionada en el Informe de control de admisión de llamadas para las sesiones de conferencia (es decir, sesiones con tres o más participantes).</span><span class="sxs-lookup"><span data-stu-id="a9254-196">The following table lists the information provided in the Call Admission Control Report for conferencing sessions (that is, sessions involving three or more participants).</span></span>
 
-### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="e882d-197">Métricas de las sesiones de conferencia</span><span class="sxs-lookup"><span data-stu-id="e882d-197">Metrics for Conferencing Sessions</span></span>
+### <a name="metrics-for-conferencing-sessions"></a><span data-ttu-id="a9254-197">Métricas de las sesiones de conferencia</span><span class="sxs-lookup"><span data-stu-id="a9254-197">Metrics for Conferencing Sessions</span></span>
 
 <table>
 <colgroup>
@@ -215,36 +217,36 @@ ms.locfileid: "34842718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e882d-198">Nombre</span><span class="sxs-lookup"><span data-stu-id="e882d-198">Name</span></span></th>
-<th><span data-ttu-id="e882d-199">¿Se pueden ordenar los datos por este elemento?</span><span class="sxs-lookup"><span data-stu-id="e882d-199">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="e882d-200">Descripción</span><span class="sxs-lookup"><span data-stu-id="e882d-200">Description</span></span></th>
+<th><span data-ttu-id="a9254-198">Nombre</span><span class="sxs-lookup"><span data-stu-id="a9254-198">Name</span></span></th>
+<th><span data-ttu-id="a9254-199">¿Se pueden ordenar los datos por este elemento?</span><span class="sxs-lookup"><span data-stu-id="a9254-199">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="a9254-200">Descripción</span><span class="sxs-lookup"><span data-stu-id="a9254-200">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-201"><strong>URI de conferencia</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-201"><strong>Conference URI</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-202">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-202">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-p114">Identificador único de la conferencia. Cuando se hace clic en este elemento, el informe muestra los participantes individuales de la conferencia.</span><span class="sxs-lookup"><span data-stu-id="e882d-p114">Unique identifier for the conference. When you click this item, the report shows the individual conference participants.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-201"><strong>URI de conferencia</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-201"><strong>Conference URI</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-202">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-202">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-p114">Identificador único de la conferencia. Cuando se hace clic en este elemento, el informe muestra los participantes individuales de la conferencia.</span><span class="sxs-lookup"><span data-stu-id="a9254-p114">Unique identifier for the conference. When you click this item, the report shows the individual conference participants.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-205"><strong>Organizador</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-205"><strong>Organizer</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-206">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-206">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-207">Dirección SIP del usuario que organizó la conferencia</span><span class="sxs-lookup"><span data-stu-id="e882d-207">SIP address of the user who organized the conference.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-205"><strong>Organizador</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-205"><strong>Organizer</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-206">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-206">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-207">Dirección SIP del usuario que organizó la conferencia</span><span class="sxs-lookup"><span data-stu-id="a9254-207">SIP address of the user who organized the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-208"><strong>Grupo de servidores</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-208"><strong>Pool</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-209">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-209">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-210">Servidor perimetral usado en la conferencia.</span><span class="sxs-lookup"><span data-stu-id="e882d-210">Edge Server used in the conference.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-208"><strong>Grupo de servidores</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-208"><strong>Pool</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-209">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-209">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-210">Servidor perimetral usado en la conferencia.</span><span class="sxs-lookup"><span data-stu-id="a9254-210">Edge Server used in the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-211"><strong>Hora de inicio</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-211"><strong>Start time</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-212">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-212">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-213">Fecha y hora en que comenzó la conferencia.</span><span class="sxs-lookup"><span data-stu-id="e882d-213">Date and time that the conference started.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-211"><strong>Hora de inicio</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-211"><strong>Start time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-212">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-212">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-213">Fecha y hora en que comenzó la conferencia.</span><span class="sxs-lookup"><span data-stu-id="a9254-213">Date and time that the conference started.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-214"><strong>Hora de finalización</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-214"><strong>End time</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-215">Sí</span><span class="sxs-lookup"><span data-stu-id="e882d-215">Yes</span></span></p></td>
-<td><p><span data-ttu-id="e882d-216">Fecha y hora en que la conferencia finalizó.</span><span class="sxs-lookup"><span data-stu-id="e882d-216">Date and time that the conference ended.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-214"><strong>Hora de finalización</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-214"><strong>End time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-215">Sí</span><span class="sxs-lookup"><span data-stu-id="a9254-215">Yes</span></span></p></td>
+<td><p><span data-ttu-id="a9254-216">Fecha y hora en que la conferencia finalizó.</span><span class="sxs-lookup"><span data-stu-id="a9254-216">Date and time that the conference ended.</span></span></p></td>
 </tr>
 </tbody>
 </table>
@@ -254,11 +256,11 @@ ms.locfileid: "34842718"
 
 <div>
 
-## <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="e882d-217">Métricas de participantes en conferencias individuales</span><span class="sxs-lookup"><span data-stu-id="e882d-217">Metrics for Individual Conference Participants</span></span>
+## <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="a9254-217">Métricas de participantes en conferencias individuales</span><span class="sxs-lookup"><span data-stu-id="a9254-217">Metrics for Individual Conference Participants</span></span>
 
-<span data-ttu-id="e882d-218">En la siguiente tabla se muestra la información proporcionada en el Informe de control de admisión de llamadas sobre participantes en conferencias individuales.</span><span class="sxs-lookup"><span data-stu-id="e882d-218">The following table lists the information provided in the Call Admission Control Report for individual conference participants.</span></span>
+<span data-ttu-id="a9254-218">En la siguiente tabla se muestra la información proporcionada en el Informe de control de admisión de llamadas sobre participantes en conferencias individuales.</span><span class="sxs-lookup"><span data-stu-id="a9254-218">The following table lists the information provided in the Call Admission Control Report for individual conference participants.</span></span>
 
-### <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="e882d-219">Métricas de participantes en conferencias individuales</span><span class="sxs-lookup"><span data-stu-id="e882d-219">Metrics for Individual Conference Participants</span></span>
+### <a name="metrics-for-individual-conference-participants"></a><span data-ttu-id="a9254-219">Métricas de participantes en conferencias individuales</span><span class="sxs-lookup"><span data-stu-id="a9254-219">Metrics for Individual Conference Participants</span></span>
 
 <table>
 <colgroup>
@@ -268,46 +270,46 @@ ms.locfileid: "34842718"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="e882d-220">Nombre</span><span class="sxs-lookup"><span data-stu-id="e882d-220">Name</span></span></th>
-<th><span data-ttu-id="e882d-221">¿Se pueden ordenar los datos por este elemento?</span><span class="sxs-lookup"><span data-stu-id="e882d-221">Can you sort on this item?</span></span></th>
-<th><span data-ttu-id="e882d-222">Descripción</span><span class="sxs-lookup"><span data-stu-id="e882d-222">Description</span></span></th>
+<th><span data-ttu-id="a9254-220">Nombre</span><span class="sxs-lookup"><span data-stu-id="a9254-220">Name</span></span></th>
+<th><span data-ttu-id="a9254-221">¿Se pueden ordenar los datos por este elemento?</span><span class="sxs-lookup"><span data-stu-id="a9254-221">Can you sort on this item?</span></span></th>
+<th><span data-ttu-id="a9254-222">Descripción</span><span class="sxs-lookup"><span data-stu-id="a9254-222">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-223"><strong>Rol</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-223"><strong>Role</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-224">No</span><span class="sxs-lookup"><span data-stu-id="e882d-224">No</span></span></p></td>
-<td><p><span data-ttu-id="e882d-225">Rol (por ejemplo, Moderador) que ocupó el participante de la conferencia.</span><span class="sxs-lookup"><span data-stu-id="e882d-225">Role (for example, Presenter) played by the conference participant.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-223"><strong>Rol</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-223"><strong>Role</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-224">No</span><span class="sxs-lookup"><span data-stu-id="a9254-224">No</span></span></p></td>
+<td><p><span data-ttu-id="a9254-225">Rol (por ejemplo, Moderador) que ocupó el participante de la conferencia.</span><span class="sxs-lookup"><span data-stu-id="a9254-225">Role (for example, Presenter) played by the conference participant.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-226"><strong>Participante</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-226"><strong>Participant</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-227">No</span><span class="sxs-lookup"><span data-stu-id="e882d-227">No</span></span></p></td>
-<td><p><span data-ttu-id="e882d-228">Dirección SIP del participante de la conferencia.</span><span class="sxs-lookup"><span data-stu-id="e882d-228">SIP address of the conference participant.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-226"><strong>Participante</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-226"><strong>Participant</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-227">No</span><span class="sxs-lookup"><span data-stu-id="a9254-227">No</span></span></p></td>
+<td><p><span data-ttu-id="a9254-228">Dirección SIP del participante de la conferencia.</span><span class="sxs-lookup"><span data-stu-id="a9254-228">SIP address of the conference participant.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-229"><strong>Conectividad</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-229"><strong>Connectivity</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-230">No</span><span class="sxs-lookup"><span data-stu-id="e882d-230">No</span></span></p></td>
-<td><p><span data-ttu-id="e882d-231">Conectividad de red (normalmente Desde conexión interna o Desde conexión externa) del participante.</span><span class="sxs-lookup"><span data-stu-id="e882d-231">Network connectivity (typically From Internal or From External) for the participant.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-229"><strong>Conectividad</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-229"><strong>Connectivity</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-230">No</span><span class="sxs-lookup"><span data-stu-id="a9254-230">No</span></span></p></td>
+<td><p><span data-ttu-id="a9254-231">Conectividad de red (normalmente Desde conexión interna o Desde conexión externa) del participante.</span><span class="sxs-lookup"><span data-stu-id="a9254-231">Network connectivity (typically From Internal or From External) for the participant.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-232"><strong>Modalidad</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-232"><strong>Modality</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-233">No</span><span class="sxs-lookup"><span data-stu-id="e882d-233">No</span></span></p></td>
-<td><p><span data-ttu-id="e882d-234">Tipo de conferencia (por ejemplo, conferencia A/V).</span><span class="sxs-lookup"><span data-stu-id="e882d-234">Conference type (for example, A/V conferencing).</span></span></p></td>
+<td><p><span data-ttu-id="a9254-232"><strong>Modalidad</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-232"><strong>Modality</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-233">No</span><span class="sxs-lookup"><span data-stu-id="a9254-233">No</span></span></p></td>
+<td><p><span data-ttu-id="a9254-234">Tipo de conferencia (por ejemplo, conferencia A/V).</span><span class="sxs-lookup"><span data-stu-id="a9254-234">Conference type (for example, A/V conferencing).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-235"><strong>Hora de conexión</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-235"><strong>Join time</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-236">No</span><span class="sxs-lookup"><span data-stu-id="e882d-236">No</span></span></p></td>
-<td><p><span data-ttu-id="e882d-237">Fecha y hora en que el participante se unió a la conferencia.</span><span class="sxs-lookup"><span data-stu-id="e882d-237">Date and time that the participant joined the conference.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-235"><strong>Hora de conexión</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-235"><strong>Join time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-236">No</span><span class="sxs-lookup"><span data-stu-id="a9254-236">No</span></span></p></td>
+<td><p><span data-ttu-id="a9254-237">Fecha y hora en que el participante se unió a la conferencia.</span><span class="sxs-lookup"><span data-stu-id="a9254-237">Date and time that the participant joined the conference.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e882d-238"><strong>Hora de desconexión</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-238"><strong>Leave time</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-239">No</span><span class="sxs-lookup"><span data-stu-id="e882d-239">No</span></span></p></td>
-<td><p><span data-ttu-id="e882d-240">Fecha y hora en que el participante abandonó la conferencia.</span><span class="sxs-lookup"><span data-stu-id="e882d-240">Date and time that the participant left the conference.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-238"><strong>Hora de desconexión</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-238"><strong>Leave time</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-239">No</span><span class="sxs-lookup"><span data-stu-id="a9254-239">No</span></span></p></td>
+<td><p><span data-ttu-id="a9254-240">Fecha y hora en que el participante abandonó la conferencia.</span><span class="sxs-lookup"><span data-stu-id="a9254-240">Date and time that the participant left the conference.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e882d-241"><strong>Id. de diagnóstico</strong></span><span class="sxs-lookup"><span data-stu-id="e882d-241"><strong>Diagnostic ID</strong></span></span></p></td>
-<td><p><span data-ttu-id="e882d-242">No</span><span class="sxs-lookup"><span data-stu-id="e882d-242">No</span></span></p></td>
-<td><p><span data-ttu-id="e882d-p115">Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores. Los encabezados de diagnóstico son opcionales (es posible que haya sesiones SIP que no incluyan estos encabezados) y los identificadores de diagnóstico se notifican únicamente para las sesiones que tienen problemas de algún tipo.</span><span class="sxs-lookup"><span data-stu-id="e882d-p115">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
+<td><p><span data-ttu-id="a9254-241"><strong>Id. de diagnóstico</strong></span><span class="sxs-lookup"><span data-stu-id="a9254-241"><strong>Diagnostic ID</strong></span></span></p></td>
+<td><p><span data-ttu-id="a9254-242">No</span><span class="sxs-lookup"><span data-stu-id="a9254-242">No</span></span></p></td>
+<td><p><span data-ttu-id="a9254-p115">Identificador único (con formato de encabezado de ms-diagnostics) adjunto a un mensaje SIP que a menudo aporta información útil para solucionar errores. Los encabezados de diagnóstico son opcionales (es posible que haya sesiones SIP que no incluyan estos encabezados) y los identificadores de diagnóstico se notifican únicamente para las sesiones que tienen problemas de algún tipo.</span><span class="sxs-lookup"><span data-stu-id="a9254-p115">Unique identifier (in the form of an ms-diagnostics header) attached to a SIP message that often provides information useful in troubleshooting errors. Diagnostics headers are optional (it is possible to have SIP sessions that do not include these headers), and diagnostic IDs are reported only for sessions that experienced problems of some kind.</span></span></p></td>
 </tr>
 </tbody>
 </table>
