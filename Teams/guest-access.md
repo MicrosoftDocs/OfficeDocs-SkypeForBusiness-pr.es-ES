@@ -10,18 +10,18 @@ audience: admin
 search.appverid: MET150
 description: Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales.
 localization_priority: Priority
-f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ccaf4cae1b82b206ebfd27b185dddaf2ab0eece
-ms.sourcegitcommit: 9a6e59c0fa020656ed3e858d43e628c3122fc71a
+ms.openlocfilehash: e3490d208f95138d9aad57d69f55957dafb8734e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38746293"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707555"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================
@@ -74,7 +74,6 @@ La experiencia de invitado tiene limitaciones deliberadamente establecidas. Aseg
 - Crear o revisar un equipo
 - Explorar en un equipo
 - Cargar archivos en un chat entre personas
-- Los invitados pueden seguir buscando usuarios (fuera de su equipo) si conocen el ID. completo de correo electrónico del usuario. Para evitar esto, los administradores de TI pueden usar patrones como la [búsqueda con ámbito de directorio](teams-scoped-directory-search.md) que permiten restringir invitados a su propia LGD virtual.
 - Actualmente, Teams solo admiten los tipos de estado 1 y estado 2 de usuarios invitados [definido por Azure B2B](https://docs.microsoft.com/azure/active-directory/b2b/user-properties)
 
 Para obtener una lista completa de qué puede y no puede hacer un invitado en Teams, vea la tabla de [comparación entre las funciones de los miembros del equipo y los invitados](guest-experience.md#comparison-of-team-member-and-guest-capabilities). Para más información sobre el acceso de invitado a nivel de Office 365, lea [Agregar invitados a los grupos de Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
