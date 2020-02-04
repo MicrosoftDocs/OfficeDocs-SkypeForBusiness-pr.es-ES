@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nuevas características del servidor de chat persisten
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Persistent Chat Server features
 ms:assetid: c3ec6f33-6261-4bf5-aa31-baa8ab2a87d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412965(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185341
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6d5cd0b8197b64abfc0761dfb333f338b507ff7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe207d2469a36d880e9ed519ff1d47d942ed79aa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826209"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755914"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Para obtener más información sobre la versión más reciente del servidor de c
 
   - La ayuda de chat persistente <http://go.microsoft.com/fwlink/p/?linkid=270945> , en la que se proporciona una lista detallada de las características de los chats persistentes, cómo funcionan y cómo usarlos mientras se ejecuta el servidor de chat persistente.
 
-  - El [planeamiento del servidor de chat persistente en Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md) en la documentación de planeación, [implementar un servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) en la documentación de implementación, [migración desde Lync Server 2010, chat grupal u Office Chat grupal de Communications Server 2007 R2 a Lync Server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) en la documentación de la migración y [Administración de lync Server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md) en la documentación de operaciones, que proporcionan instrucciones para configuración del servidor de chat persistente.
+  - El [plan de servidor de chat persistente en Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) en la documentación de planeación, [implementar un servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) en la documentación de implementación, [migración desde Lync Server 2010, chat grupal o grupo de Office Communications Server 2007 R2 a Lync Server 2013, servidor de chat persistente](migration-from-lync-server-2010-group-chat-or-office-communications-server-2007-r2-group-chat-to-lync-server-2013-persistent-chat-server.md) en la documentación de la migración y [Administración de Lync Server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md) en la documentación de las operaciones, todas las cuales proporcionan instrucciones para configurar Servidor de chat persistente.
 
   - El archivo. msi de la documentación del servidor de chat persistente (archivo de Windows Installer) permite a los usuarios acceder a documentación sin conexión completa sobre el servidor de chat persistente.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver detalles sobre un servicio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View details about a service
 ms:assetid: bc8e8202-cd68-47e4-95b2-bb36e51cc124
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182578(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 65fd84ad7290f3b82130f04d8b81955f6ffb4921
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9bc8f0f9f6e0296f279cb09495a92fd9950625e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850113"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

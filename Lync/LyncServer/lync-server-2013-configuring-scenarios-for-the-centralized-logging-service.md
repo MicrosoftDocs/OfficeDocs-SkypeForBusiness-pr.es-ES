@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de escenarios para el servicio de regis
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring scenarios for the Centralized Logging Service
 ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733682
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abc0be2ac6459c34546de41ee7e2c709e0d0c0f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd3933ff81fad6947fcc4ab1ff7a7dc9ad136c39
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842183"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34842183"
 
 _**Última modificación del tema:** 2014-02-05_
 
-Los escenarios definen el ámbito (es decir, global, sitio, grupo o equipo) y qué proveedores usar en el servicio de registro centralizado. Al usar escenarios, puede habilitar o deshabilitar el seguimiento de proveedores (por ejemplo, S4, SIPStack, mensajería instantánea y presencia). Al configurar un escenario, puede agrupar a todos los proveedores de una colección lógica determinada que aborda una condición para un problema concreto. Si encuentra que un escenario debe modificarse para satisfacer sus necesidades de solución de problemas y registro, las herramientas de depuración de Lync Server 2013 le proporcionan un módulo de Windows PowerShell denominado *ClsController. psm1* que contiene una función denominada *Edit-CsClsScenario *. La finalidad del módulo es editar las propiedades del escenario en cuestión. En este tema se muestran ejemplos del funcionamiento de este módulo. Las herramientas de depuración de Lync Server 2013 se descargan desde el siguiente vínculo:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+Los escenarios definen el ámbito (es decir, global, sitio, grupo o equipo) y qué proveedores usar en el servicio de registro centralizado. Al usar escenarios, puede habilitar o deshabilitar el seguimiento de proveedores (por ejemplo, S4, SIPStack, mensajería instantánea y presencia). Al configurar un escenario, puede agrupar a todos los proveedores de una colección lógica determinada que aborda una condición para un problema concreto. Si encuentra que un escenario debe modificarse para satisfacer sus necesidades de registro y solución de problemas, las herramientas de depuración de Lync Server 2013 le proporcionan un módulo de Windows PowerShell denominado *ClsController. psm1* que contiene una función denominada *Edit-CsClsScenario*. La finalidad del módulo es editar las propiedades del escenario en cuestión. En este tema se muestran ejemplos del funcionamiento de este módulo. Las herramientas de depuración de Lync Server 2013 se descargan desde el siguiente vínculo:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
 
 <div>
 

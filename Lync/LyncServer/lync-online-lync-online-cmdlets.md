@@ -3,6 +3,8 @@ title: 'Lync Online: Cmdlets de Lync Online'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Online cmdlets
 ms:assetid: 1d85a61f-80e5-49c6-be7f-971ff5fe4dbe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994021(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2892177104c9361e788ea94c9cb0960140cdb23
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cc8a5c1868620446af3fe574db7af10aa8b34785
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842983"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

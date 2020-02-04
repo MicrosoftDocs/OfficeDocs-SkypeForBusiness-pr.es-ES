@@ -3,6 +3,8 @@ title: 'Lync Server 2013: pruebas de notificaciones de Exchange a Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Exchange to Lync notifications
 ms:assetid: ed2d6325-3cf5-4450-9951-03092bcb0a7c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727315(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969665
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3fba2f5ad22cb4a741192d5e4d51020b8c04cc39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37f163d5a43dce9672535ec3d78f360bcec8d926
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850349"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

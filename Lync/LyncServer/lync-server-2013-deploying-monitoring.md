@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementación de la supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying monitoring
 ms:assetid: 117f4a3e-0670-4388-a553-b9854921145f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398199(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183442
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 584b99b6e5fad72a07a35b748ab9bafa4116701a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 637897bce0a160a8cc3b199ec6aee3ffd7375852
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835536"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

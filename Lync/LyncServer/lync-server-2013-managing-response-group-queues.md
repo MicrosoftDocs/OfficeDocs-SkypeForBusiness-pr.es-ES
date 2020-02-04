@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de colas de grupos de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Response Group queues
 ms:assetid: 1e91720c-ab67-4dfb-b30c-0ef2a8012310
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520960(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183576
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c000bb475d97f933d1038e9ef727264e5672644b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 496dcc3dfafcc7a583fe74d729c3b90d8677691e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827812"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: comprobar los servicios de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Lync Server services
 ms:assetid: b564b450-a746-4ec9-aabb-e076309ccd5f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689119(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969644
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b193473ad5941c647c572fae1b7cb5e7ece7f95d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bdafd84f5a8edd21d6e62433d028ed735e37a37d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850341"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745660"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

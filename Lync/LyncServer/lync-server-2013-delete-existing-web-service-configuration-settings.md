@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar parámetros de configuración de servicios We
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete existing Web Service configuration settings
 ms:assetid: c2b96f4c-4b07-48e6-9ca6-55bc0e0cf5a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182582(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185333
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: faecc3675e4ed22e6bab3a85825ae65c50a8511f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0eb310836e78d46f94412018f3034a4a5f7d7173
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835595"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734229"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Configurar escenarios de 2013 de Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Lync Server 2013 Scenarios
 ms:assetid: 6705346b-1512-4af3-85e4-64dfa6ee6f80
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945596(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541420
 ms.date: 12/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 93ad7a3be8b69c956b1cca0f1d1554a5fa288f17
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 789c3ee8c18b5fb0e92ef9a520152644bebbdde1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843055"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730729"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

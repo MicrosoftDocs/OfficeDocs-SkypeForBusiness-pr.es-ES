@@ -3,6 +3,8 @@ title: 'Lync Server 2013: establecimiento de un plan de copia de seguridad y res
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Establishing a backup and restoration plan
 ms:assetid: 9f562ef1-3804-41e2-b3e4-d45b2e8c63c9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202183(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541499
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b3516e63a7cbada4a89fad3540406e38b299fef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cee1c4571dafa4e513f42613de13205ecec9de42
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835193"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735267"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

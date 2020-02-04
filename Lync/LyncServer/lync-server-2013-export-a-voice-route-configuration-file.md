@@ -3,6 +3,8 @@ title: 'Lync Server 2013: exportar un archivo de configuración de la ruta de vo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Export a voice route configuration file
 ms:assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398081(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183248
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d61bb4dfda9aa91191515f60b0a26b2665f31421
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55ecc35d2724fa8c635b9d4099764c25e76874c9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835188"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756234"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

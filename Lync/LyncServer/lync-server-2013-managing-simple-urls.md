@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de direcciones URL simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing simple URLs
 ms:assetid: 97ad8230-f422-462a-9ce4-6061fa7f2617
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688146(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733748
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1bc4a09cf31308b146424dfd2421c7ce5f91a6f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1436855e3a5de0a20a0d08a8b8a526939d1bd17c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827749"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

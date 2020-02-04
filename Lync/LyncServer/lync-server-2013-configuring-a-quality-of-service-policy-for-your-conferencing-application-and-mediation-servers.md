@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar la directiva de calidad de servicio para lo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a Quality of Service policy for your Conferencing, Application, and Mediation servers
 ms:assetid: 8adcbbc5-c9f5-476d-ab7f-72e61859cacf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184769
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 47a79835fb19f5a30a11eac4859f133aeec5c8cb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 385530e45c208ced2cce4815d1f60e596c2a08b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842308"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +101,7 @@ Para comprobar que se han aplicado las nuevas directivas de QoS, haga lo siguien
 
 1.  En un equipo de Lync Server, haga clic en **Inicio** y, a continuación, en **Ejecutar**.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit** y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda **equipo**, expanda **\_HKEY local\_Machine**, expanda **software**, expanda **directivas**, expanda **Microsoft**, expanda **Windows**y, a continuación, haga clic en **QoS**. En **QoS** , debe ver las claves del registro para cada una de las directivas de QoS que acaba de crear. Por ejemplo, si ha creado dos nuevas directivas (una con el nombre QoS de audio de Lync Server y la otra llamada de vídeo de Lync Server QoS), debe entradas del registro para QoS de audio de Lync Server y la calidad de video de Lync Server.
 
@@ -107,7 +109,7 @@ Para asegurarse de que los paquetes de red estén marcados con el valor de DSCP 
 
 1.  Haga clic en **Inicio** y, después, en **Ejecutar**.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit** y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **Services**y, a continuación, expanda **TCPIP**.
 

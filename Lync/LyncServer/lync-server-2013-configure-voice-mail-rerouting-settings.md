@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar los valores para volver a enrutar el correo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure voice mail rerouting settings
 ms:assetid: 7ab6be28-eabb-4a79-a796-648887d71b83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398606(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184593
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73aa16f7c18665c0b74c1e31e2ce888abdbe1c5a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b4ea243e87490bcabd48c866cce525d6bbd17077
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842307"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Para obtener más información, consulte la sección "prepararse para la supervi
 
 1.  Pida a su administrador de Exchange que configure el AA para aceptar solo los mensajes (en el shell de Exchange use el cmdlet siguiente: **set-UMAutoAttendant \<AA nombre\> -CallSomeoneEnabled $false**. El parámetro que especifica que se permite dejar mensajes (*SendVoiceMsgEnabled*) es verdadero de forma predeterminada.
 
-2.  En el shell de administración de Lync Server, use el cmdlet **New-CSVoiceMailReroutingConfiguration** para establecer el número de teléfono AA como el número de teléfono del operador automático de mensajería unificada de Exchange en la configuración de redireccionamiento del correo de voz en el dispositivo de sucursal con la supervivencia o Servidor de sucursal superviviente.
+2.  En el shell de administración de Lync Server, use el cmdlet **New-CSVoiceMailReroutingConfiguration** para establecer el número de teléfono AA como el número de teléfono del operador automático de mensajería unificada de Exchange en la configuración de redireccionamiento del correo de voz en la sucursal superviviente o en el servidor de sucursal superviviente.
     
     <div>
     

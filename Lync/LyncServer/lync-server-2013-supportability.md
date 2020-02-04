@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supportability
 ms:assetid: 3af43205-09dc-465d-ad64-3621f5622d52
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425877(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183916
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f7ffd59e7ae9ec4f9244456e08923d31c1fa2ecb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5c2829ff9869287a08532584e318362ba57e51d6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850549"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731760"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Uso de cmdlets para revertir la preparación del domin
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using cmdlets to reverse domain preparation
 ms:assetid: 014dba5d-fcb3-44c9-9d63-ae0755276dac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183227
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b03ab3218a1568613731efe60eaa95b05a91ebc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d72c135e7daccd677f8e42ea93a2aace8d7cafb8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850202"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

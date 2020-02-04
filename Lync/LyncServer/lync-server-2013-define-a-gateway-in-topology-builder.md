@@ -3,6 +3,8 @@ title: 'Lync Server 2013: definir una puerta de enlace en el generador de topolo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a gateway in Topology Builder
 ms:assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184036
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c9e57ad4e3d8c1692731bcfd4a56dc5c3d05bda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 18f257648ba24930eaab0d314e34178ffd67a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835727"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733660"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Siga estos pasos para usar el generador de topología para definir un *interlocu
 
 
 > [!NOTE]  
-> En este tema se supone que ha configurado al menos un grupo de servidores front-end interno o un servidor Standard Edition en al menos un sitio central con un servidor de mediación colocada o independiente, como se describe en <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync Server 2013</A> y <A href="lync-server-2013-publish-the-topology.md">publique la topología de lync Server 2013</A> en la documentación de implementación. En este tema también se presupone que ha verificado que su infraestructura cumple con los requisitos previos descritos en <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">requisitos de software para telefonía IP empresarial en Lync Server 2013</A> y los <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">requisitos previos de seguridad y configuración de telefonía IP empresarial en Lync. Server 2013</A>.
+> En este tema se supone que ha configurado al menos un grupo de servidores front-end interno o un servidor Standard Edition en al menos un sitio central con un servidor de mediación colocada o independiente, como se describe en <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync server 2013</A> y <A href="lync-server-2013-publish-the-topology.md">publicar la topología en Lync Server 2013</A> en la documentación de implementación. En este tema también se presupone que ha verificado que su infraestructura cumple con los requisitos previos descritos en <A href="lync-server-2013-software-prerequisites-for-enterprise-voice.md">requisitos de software para telefonía IP empresarial en Lync server 2013</A> y los <A href="lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md">requisitos previos de seguridad y configuración de telefonía IP empresarial en Lync Server 2013</A>.
 
 
 
@@ -55,11 +57,11 @@ Siga estos pasos para usar el generador de topología para definir un *interlocu
 
 2.  En Lync Server 2013, nombre del sitio, componentes compartidos, haga clic con el botón derecho en el nodo **puertas de enlace RTC** y, a continuación, haga clic en **nueva puerta de enlace RTC**.
     
-    ![d898c3c1-8798-4b74-8f02-b994ef3db4c1] (images/Gg425945.d898c3c1-8798-4b74-8f02-b994ef3db4c1(OCS.15).png "d898c3c1-8798-4b74-8f02-b994ef3db4c1")
+    ![d898c3c1-8798-4b74-8f02-b994ef3db4c1](images/Gg425945.d898c3c1-8798-4b74-8f02-b994ef3db4c1(OCS.15).png "d898c3c1-8798-4b74-8f02-b994ef3db4c1")
 
 3.  En **Definir nueva puerta de enlace IP/RTC**, escriba el nombre de dominio completo (FQDN) o la dirección IP del par y haga clic en **Siguiente**.
     
-    ![8017ba5e-41bc-48d4-97d9-fd306cd322b8] (images/Gg425945.8017ba5e-41bc-48d4-97d9-fd306cd322b8(OCS.15).png "8017ba5e-41bc-48d4-97d9-fd306cd322b8")
+    ![8017ba5e-41bc-48d4-97d9-fd306cd322b8](images/Gg425945.8017ba5e-41bc-48d4-97d9-fd306cd322b8(OCS.15).png "8017ba5e-41bc-48d4-97d9-fd306cd322b8")
     
     <div>
     
@@ -72,7 +74,7 @@ Siga estos pasos para usar el generador de topología para definir un *interlocu
 
 4.  Defina el modo de escucha (IPv4 o IPv6) de la dirección IP de la nueva puerta de enlace RTC y haga clic en **Siguiente**.
     
-    ![c7fc0d12-adc8-45a7-Aca1-b376e1d2fcec] (images/Gg425945.c7fc0d12-adc8-45a7-aca1-b376e1d2fcec(OCS.15).png "c7fc0d12-adc8-45a7-Aca1-b376e1d2fcec")
+    ![c7fc0d12-adc8-45a7-aca1-b376e1d2fcec](images/Gg425945.c7fc0d12-adc8-45a7-aca1-b376e1d2fcec(OCS.15).png "c7fc0d12-adc8-45a7-aca1-b376e1d2fcec")
 
 5.  Defina un *tronco raíz* para la nueva puerta de enlace RTC. Un tronco es una conexión lógica entre un servidor de mediación y una puerta de enlace que se identifica de forma única por la tupla.
     
@@ -82,7 +84,7 @@ Siga estos pasos para usar el generador de topología para definir un *interlocu
     
       - El tronco raíz no puede quitarse hasta que se quite la puerta de enlace RTC asociada.
     
-    ![3b030757-eb35-4616-bb6b-74ee67507e3d] (images/Gg425945.3b030757-eb35-4616-bb6b-74ee67507e3d(OCS.15).png "3b030757-eb35-4616-bb6b-74ee67507e3d")
+    ![3b030757-eb35-4616-bb6b-74ee67507e3d](images/Gg425945.3b030757-eb35-4616-bb6b-74ee67507e3d(OCS.15).png "3b030757-eb35-4616-bb6b-74ee67507e3d")
 
 6.  En **Puerto de escucha para la puerta de enlace IP/RTC**, escriba el puerto de escucha que usará la puerta de enlace, PBX o SBC para los mensajes SIP del servidor de mediación que se asociará con el tronco raíz de la puerta de enlace RTC. (De forma predeterminada, los puertos son 5066 para Protocolo de transmisión de control [TCP] y 5067 para la Seguridad de la capa de transporte [TLS] en una puerta de enlace RTC, PBX o SBC. En un equipo de sucursales con la supervivencia en un sitio de sucursal, los puertos predeterminados son 5081 para TCP y 5082 para TLS.
 

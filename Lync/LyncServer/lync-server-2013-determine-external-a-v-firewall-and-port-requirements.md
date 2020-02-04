@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Determinar los requisitos de los puertos y el firewall
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Determine external A/V firewall and port requirements
 ms:assetid: 3b849dc7-175d-40d1-820d-80e6ade6d332
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425882(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183872
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b278c60eaca69fd17508d0e82198a002484ce586
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3d5519ef37ff334ddf196e94b40aa7df14d69d25
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835446"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762478"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -199,7 +201,7 @@ Por ejemplo, en la dirección de salida de la siguiente ilustración, el 10.45.1
 
 **En la siguiente ilustración se muestra cómo la NAT cambia la dirección IP de destino para el tráfico entrante y la dirección IP de origen para el tráfico saliente.**
 
-![Cambiar las direcciones IP de destino y de origen] (images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Cambiar las direcciones IP de destino y de origen")
+![Cambio de direcciones IP de destino/origen](images/Gg425882.0fee7ec5-4cb8-4aff-9164-e7fbab73336d(OCS.15).jpg "Cambio de direcciones IP de destino/origen")
 
 Los puntos clave son:
 

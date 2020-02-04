@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Herramientas administrativas de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server administrative tools
 ms:assetid: 9b006f93-4f3d-461d-89b8-e80a34fdb3c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg195756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184972
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6756aee8d7c65b179fb5c1c15ca008b3bd205778
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a34561e9880870b53cd8f7aaad2fe13cfe33c8d4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834929"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ En este tema se describen las herramientas administrativas para Lync Server 2013
 
 Las herramientas administrativas se instalan de forma predeterminada en cada servidor de Lync Server. Además, puede instalar las herramientas administrativas en otros equipos, como consolas administrativas dedicadas. Para obtener información sobre los procedimientos para instalar las herramientas administrativas, consulte [instalar herramientas administrativas 2013 de Lync Server](lync-server-2013-install-lync-server-administrative-tools.md). Para obtener información sobre los procedimientos para abrir las herramientas para realizar tareas de administración, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-Asegúrese de revisar los requisitos de los derechos de infraestructura, sistema operativo, software y administrador antes de instalar o usar las herramientas administrativas de Lync Server. Para obtener más información sobre los requisitos de infraestructura, consulte [requisitos de infraestructura de herramientas administrativas en Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Para obtener más información sobre los requisitos del sistema operativo y del software para instalar las herramientas administrativas de Lync Server, consulte [compatibilidad del sistema operativo servidor y herramientas en Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [requisitos de software adicionales para Lync Server 2013](lync-server-2013-additional-software-requirements.md)y [ Requisitos y compatibilidad de servidor adicionales en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Los derechos de usuario y los permisos necesarios para instalar y usar las herramientas se describen en [derechos de administrador y permisos necesarios para la configuración y administración de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
+Asegúrese de revisar los requisitos de los derechos de infraestructura, sistema operativo, software y administrador antes de instalar o usar las herramientas administrativas de Lync Server. Para obtener más información sobre los requisitos de infraestructura, consulte [requisitos de infraestructura de herramientas administrativas en Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Para obtener más información sobre los requisitos del sistema operativo y del software para instalar las herramientas administrativas de Lync Server, consulte [compatibilidad del sistema operativo de servidor y herramientas en Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [requisitos de software adicionales para Lync Server 2013](lync-server-2013-additional-software-requirements.md), así como [requisitos y compatibilidad de servidor adicionales en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Los derechos de usuario y los permisos necesarios para instalar y usar las herramientas se describen en [derechos de administrador y permisos necesarios para la configuración y administración de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
 
 Las herramientas administrativas son las siguientes:
 

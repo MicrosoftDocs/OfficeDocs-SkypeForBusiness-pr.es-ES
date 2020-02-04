@@ -3,6 +3,8 @@ title: 'Lync Server 2013: visualización de informes desde Best Practices Analyz
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing reports from Best Practices Analyzer
 ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607690(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184465
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb2c229d683ecd0dcf4fee94b456514527226152
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e79732661152ba0929b62ae64f46b0cbfdb95217
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850059"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -56,7 +58,7 @@ Use el procedimiento siguiente para ver los resultados del examen generados prev
 1.  Inicie sesión en un equipo en el que se instale Best Practices Analyzer con una cuenta que sea miembro de la cuenta de usuario local.
     
     > [!NOTE]  
-    > Puede ver los resultados de un análisis con una cuenta que sea miembro del grupo de administradores locales, pero no puede ejecutar un examen a menos que tenga los derechos de usuario y permisos adecuados. Para obtener más información, consulte pertenencias <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">a grupos y requisitos de derechos de usuario para Best Practices Analyzer en Lync Server 2013</A>.
+    > Puede ver los resultados de un análisis con una cuenta que sea miembro del grupo de administradores locales, pero no puede ejecutar un examen a menos que tenga los derechos de usuario y permisos adecuados. Para obtener más información, consulte <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">pertenencias a grupos y requisitos de derechos de usuario para Best Practices Analyzer en Lync Server 2013</A>.
 
 2.  Haga clic en **Inicio**, seleccione **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **Best Practices Analyzer**.
 
@@ -83,7 +85,7 @@ Use el procedimiento siguiente para ver los resultados del examen generados prev
       - Para ver otros informes, haga clic en **otros informes**.
     
     > [!NOTE]  
-    > Para obtener más información sobre los informes del analizador de procedimientos recomendados y los problemas que identifican, consulte <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">ver y trabajar con informes creados por Best Practices Analyzer en Lync Server 2013</A> y <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analizar y resolver los problemas identificados por los procedimientos recomendados. Analyzer en Lync Server 2013</A>.
+    > Para obtener más información sobre los informes del analizador de procedimientos recomendados y los problemas que identifican, consulte <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">ver y trabajar con informes creados por Best Practices Analyzer en Lync server 2013</A> y <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analizar y resolver los problemas identificados por Best Practices Analyzer en Lync Server 2013</A>.
 
 </div>
 

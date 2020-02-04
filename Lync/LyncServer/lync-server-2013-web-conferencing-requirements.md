@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de conferencia Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Web conferencing requirements
 ms:assetid: 125f847c-58ab-450f-ae43-41219fd38477
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619171(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dddfd7c2fdfe6cbcefcca7533e93c3c377cceea8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 186f597c4328c8cee5085e7e599228b60c300a96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850015"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

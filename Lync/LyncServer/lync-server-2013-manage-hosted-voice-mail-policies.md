@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrar directivas de correo de voz hospedado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage hosted voice mail policies
 ms:assetid: 50ff22e3-9c8b-4a33-a72f-d149892acf53
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398332(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184139
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9f0db0d2c4e1e8258fb5d9a212084823d1e25f7d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 434cc1eb721635f4a56be33f48802da3bc6db0e3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828267"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

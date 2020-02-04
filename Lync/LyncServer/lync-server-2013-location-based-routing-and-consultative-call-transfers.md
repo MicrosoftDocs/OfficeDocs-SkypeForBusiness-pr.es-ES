@@ -3,6 +3,8 @@ title: 'Lync Server 2013: enrutamiento basado en la ubicación y transferencias 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Location-Based Routing and consultative call transfers
 ms:assetid: b12460c2-36c8-481f-b867-fe10dc1c0bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56335089
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d7c7b73efb670c5569b8c4600c1759e981cda211
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4e433baf180b8e4abf50ec374848204bf6628eb0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834938"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765338"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Además de exigir el enrutamiento basado en la ubicación para las reuniones de 
 
 **Flujo de llamadas de transferencia de llamada de consulta**
 
-![Enrutamiento basado en la ubicación del diagrama de conferencias] (images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Enrutamiento basado en la ubicación del diagrama de conferencias")
+![Enrutamiento basado en ubicación para diagrama de conferencias](images/Dn362836.e4d43d6f-23d2-49c9-b12b-15248a743f92(OCS.15).jpg "Enrutamiento basado en ubicación para diagrama de conferencias")
 
 Cuando un usuario habilitado para el enrutamiento basado en la ubicación inicia una llamada Consultiva de un extremo RTC (tal como se muestra en la ilustración anterior), se crean dos llamadas activas, una llamada entre el usuario de la RTC y el usuario de Lync A y la otra entre el usuario de Lync A y el usuario B de Lync. el comportamiento siguiente es aplicado por la aplicación de conferencia de enrutamiento basada en ubicación:
 

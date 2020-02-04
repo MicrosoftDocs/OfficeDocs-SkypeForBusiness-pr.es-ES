@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información del dispositivo de conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View conferencing device information
 ms:assetid: 838bdbf8-8b68-4eb6-8fa3-45bfd5b0b1cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994043(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803954
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b4b40e0ee28f13aa6be52009b750258c5cdadffe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5355ae418e53c44cc61340b57910993ac2afea2c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850117"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

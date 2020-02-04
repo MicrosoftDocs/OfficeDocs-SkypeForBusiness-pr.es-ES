@@ -3,6 +3,8 @@ title: 'Lync Server 2013: validar direcciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validate addresses
 ms:assetid: aae557c9-e6f5-4d23-8af1-1d4cd7968c54
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412808(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185108
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57ae7698a50706ed0076650a657a8ec503ffa6aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 397c1037937e100f1981a689f0860362d852ed10
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850155"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

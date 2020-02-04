@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Servidor perimetral consolidado ampliado con equilibra
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled consolidated edge with hardware load balancers
 ms:assetid: 6783e225-9677-415a-8731-0bf2e2c4cf8b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398478(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aa5a395c8509961937af23c12763a5bf55cc326
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5fe027019953175c0ac6ede51a86ad3a300c2681
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822576"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2012-10-21_
 
 En la topología del grupo perimetral, dos o más servidores perimetrales se implementan como un grupo de carga equilibrada en la red perimetral del centro de datos. El equilibrio de carga de hardware se usa para el tráfico de las interfaces de los servidores perimetrales externos e internos.
 
-Si su organización requiere soporte técnico para más de 15.000 conexiones de cliente del servicio perimetral de acceso, 1.000 conexiones de cliente del servicio perimetral activas de conferencias web o 500 sesiones de servicio perimetral A/V activas, y la alta disponibilidad del servidor perimetral es importante, Esta topología ofrece las ventajas de la escalabilidad y la compatibilidad con la conmutación por error.
+Si su organización requiere soporte técnico para más de 15.000 conexiones de cliente del servicio perimetral de acceso, 1.000 conexiones de cliente del servicio perimetral activas de conferencias web, o 500 sesiones de servicio perimetral A/V activas, y la alta disponibilidad del servidor perimetral es importante, esta topología ofrece las ventajas de la escalabilidad y la compatibilidad con la conmutación por error.
 
 La figura no muestra los directores, un rol de servidor opcional implementado en la red interna entre los servidores perimetrales y los grupos de servidores front-end o el servidor. . Para obtener más información sobre la topología para directores, consulte [componentes necesarios para el director de Lync Server 2013](lync-server-2013-components-required-for-the-director.md).
 
@@ -73,7 +75,7 @@ Para obtener más información, consulte la sección "requisitos del equilibrado
 
 **Topología perimetral consolidada escalada (equilibrio de carga de hardware)**
 
-![3a57cd0d-8de4-4ecc-a783-4dff5b3456a2] (images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "3a57cd0d-8de4-4ecc-a783-4dff5b3456a2")
+![3a57cd0d-8de4-4ecc-a783-4dff5b3456a2](images/Gg398478.3a57cd0d-8de4-4ecc-a783-4dff5b3456a2(OCS.15).jpg "3a57cd0d-8de4-4ecc-a783-4dff5b3456a2")
 
 <div>
 

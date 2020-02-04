@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restauración de un servidor de servicios de fondo de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring an Enterprise Edition Back End Server
 ms:assetid: 1450eb4e-3315-4d02-8f02-6e1791fb1550
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202163(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541446
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e0121ee654846bcb60acc6da6847995b967a880
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2bd57054505b3200f63bed8a60c47b400f7e7642
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823052"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Use el procedimiento que se describe en este tema en los dos siguientes casos:
 
   - Se produce un error en el servidor de servicios de fondo de la edición empresarial que no está reflejado.
 
-Si tiene un back-end de la edición empresarial reflejada y solo se produce un error en el reflejo o la base de datos principal, consulte [restaurar un servidor de back-end de la edición empresarial duplicada en Lync Server 2013-principal](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md) para restaurar la base de datos principal, y [restaurar un Servidor de back-end Enterprise en Lync Server 2013: Mirror](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md) para restaurar el reflejo.
+Si tiene un back-end de la edición empresarial reflejada y solo se produce un error en el reflejo o la base de datos principal, consulte [restaurar un servidor de back-end de empresa duplicada en Lync server 2013-principal](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-primary.md) para restaurar la base de datos principal, y [restaurar un servidor back-end empresarial reflejado en Lync Server 2013-Mirror](lync-server-2013-restoring-a-mirrored-enterprise-edition-back-end-server-mirror.md) para restaurar el reflejo.
 
 Si se produce un error en el almacén de administración central, vea [restaurar el servidor que hospeda el almacén de administración central en Lync server 2013](lync-server-2013-restoring-the-server-hosting-the-central-management-store.md). Si se produce un error en un servidor miembro de Enterprise Edition que no es el servidor back-end, consulte [restaurar un servidor miembro de Enterprise Edition en Lync server 2013](lync-server-2013-restoring-an-enterprise-edition-member-server.md).
 

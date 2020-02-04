@@ -3,6 +3,8 @@ title: 'Lync Server 2013: asignar una directiva de ubicación por usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user location policy
 ms:assetid: 343f2de3-a0ae-4403-8456-6e520b579d32
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520974(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a387d0f603addea31bd1e3ee6b591e06a26b2c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d3a53ae779ccc6fb19bb2d16274e007b8fc405c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850747"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739400"
 ---
 # <a name="assign-a-per-user-location-policy-in-lync-server-2013"></a>Asignar una directiva de ubicación por usuario en Lync Server 2013
 

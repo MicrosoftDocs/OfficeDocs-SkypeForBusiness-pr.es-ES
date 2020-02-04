@@ -3,6 +3,8 @@ title: Migrar la libreta de direcciones
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Address Book
 ms:assetid: ac7f0f39-4c6d-4702-8e25-93a73e3d800f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205160(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185064
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2293b7ad3e5ac14071bae4d5ecb935c24cfbb335
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b678dea3e8ad7f05f82d28dfdd23ad9e45b38e92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849985"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Si ha personalizado las reglas de normalización de la libreta de direcciones en
 
 **UseNormalizationRules establecido en falso**
 
-Si establece el valor de **UseNormalizationRules** en false para que los usuarios puedan usar números de teléfono a medida que se definen en servicios de dominio de Active Directory sin que Lync Server 2013 aplique reglas de normalización, debe establecer la **UseNormalizationRules **y **IgnoreGenericRules** parámetros a true. Siga el procedimiento más adelante en esta sección para establecer estos parámetros en true.
+Si establece el valor de **UseNormalizationRules** en false para que los usuarios puedan usar números de teléfono a medida que se definen en servicios de dominio de Active Directory sin que Lync Server 2013 aplique reglas de normalización, debe establecer los parámetros **UseNormalizationRules** y **IgnoreGenericRules** en true. Siga el procedimiento más adelante en esta sección para establecer estos parámetros en true.
 
 <div>
 
@@ -75,7 +77,7 @@ Si establece el valor de **UseNormalizationRules** en false para que los usuario
     
 
     > [!NOTE]  
-    > Las reglas de normalización de libreta de direcciones de muestra se han instalado en el directorio de archivos de ABS web Component. La ruta de acceso es <STRONG>$installedDriveLetter: \Archivos de Programa\microsoft Lync Server 2013 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules. txt,</STRONG>. Este archivo se puede copiar y cambiar de &nbsp;nombre como <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;para el directorio raíz de la carpeta compartida de la libreta de direcciones. Por ejemplo, la libreta de direcciones compartida <STRONG></STRONG>en $serverX&nbsp;, la ruta de acceso será similar a: <STRONG> \\$serverX \LyncFileShare\2-webservices-1\ABFiles</STRONG>.
+    > Las reglas de normalización de libreta de direcciones de muestra se han instalado en el directorio de archivos de ABS web Component. La ruta de acceso es <STRONG>$installedDriveLetter: \Archivos de Programa\microsoft Lync Server 2013 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules. txt</STRONG>. Este archivo se puede copiar y cambiar de &nbsp;nombre como <STRONG>Company_Phone_Number_Normalization_Rules. txt</STRONG> &nbsp;al directorio raíz de la carpeta compartida de la libreta de direcciones. Por ejemplo, la libreta de direcciones compartida <STRONG></STRONG>en $serverX&nbsp;, la ruta de acceso será similar a: <STRONG> \\$serverX \LyncFileShare\2-webservices-1\ABFiles</STRONG>.
 
     
     </div>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: comprobar el número de teléfono con una directiva de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test telephone number against a voice policy
 ms:assetid: 30c51700-17c6-4c57-891a-8d5ec30b50ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725207(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969596
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7a1e24a07a0f6e1e985c9fc42f7468838074d3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37d0c9ae6512cb7755c7ef73e4cfd3e37b92884d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850393"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

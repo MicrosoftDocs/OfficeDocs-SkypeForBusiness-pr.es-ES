@@ -3,6 +3,8 @@ title: 'Lync Server 2013: reglas de actualización de dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Update rules
 ms:assetid: a2f7e293-3342-4566-9605-410cb95f3b3b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cce4b0be575665d23b2b09126905fc35791f61ce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4912497f1c8481d44b02a0213e01a0e8908ebfa2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835423"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

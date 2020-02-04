@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear o editar proveedores federados de SIP públicos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or edit public SIP federated providers
 ms:assetid: 5321598c-1ab1-40e3-b739-4b2e6d0a3a3b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398349(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184167
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 876a79e840990afb0c9cf0bae4fc819ec10db5d8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 33303217e6e1a1fefb502f1e9b364a46adc85e02
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835823"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

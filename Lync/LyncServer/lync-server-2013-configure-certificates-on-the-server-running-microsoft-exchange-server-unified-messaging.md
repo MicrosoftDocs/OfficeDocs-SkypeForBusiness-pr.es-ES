@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar certificados en el servidor que ejecuta la 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates on the server running Microsoft Exchange Server Unified Messaging
 ms:assetid: 74c883b4-cef6-41a9-b2eb-7212be32fea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398564(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfc9ed0f51b3f534d5967c7195cc39736a4ecae9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d31ed8b750d0162a2c09d49ca8a350731896086
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842412"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34842412"
 
 _**Última modificación del tema:** 2012-09-26_
 
-Si ha implementado la mensajería unificada de Exchange (UM), como se describe en [planeamiento de la integración de mensajería unificada de Exchange en Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) en la documentación de planeación y desea proporcionar características de mensajería unificada de Exchange a los usuarios de voz de empresa de su organización, puede usar los procedimientos siguientes para configurar el certificado en el servidor que ejecuta la mensajería unificada de Exchange.
+Si ha implementado la mensajería unificada de Exchange (UM), como se describe en [planear la integración de mensajería unificada de Exchange en Lync Server 2013](lync-server-2013-planning-for-exchange-unified-messaging-integration.md) en la documentación de planeación y desea proporcionar características de mensajería unificada de Exchange a los usuarios de voz de empresa de su organización, puede usar los procedimientos siguientes para configurar el certificado en el servidor que ejecuta la mensajería unificada de Exchange.
 
 <div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Proceso de implementación para el enrutamiento basado
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for Location-Based Routing
 ms:assetid: 9e923e72-83fc-4a4f-8937-28a55739ed3e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994055(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 108dd35c7f184c974a317f68901c94bc81e9e403
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02e09106bc9d96fbfab2935aec07f3c472f49d6a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835476"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762608"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -113,7 +115,7 @@ CsServerAdministrator</p></td>
 
 La siguiente implementación se usa para ilustrar aún más los mecanismos habilitados por el enrutamiento basado en la ubicación.
 
-![e1bd2230-44da-4784-b359-24572b6ce02d] (images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44da-4784-b359-24572b6ce02d")
+![e1bd2230-44da-4784-b359-24572b6ce02d](images/JJ994055.e1bd2230-44da-4784-b359-24572b6ce02d(OCS.15).png "e1bd2230-44da-4784-b359-24572b6ce02d")
 
 <div>
 

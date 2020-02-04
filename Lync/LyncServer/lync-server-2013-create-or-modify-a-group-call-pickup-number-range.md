@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar un intervalo de números de recogida
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a Group Call Pickup number range
 ms:assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945627(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541472
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a82f9cdc02052bf08dba3e9529871eff2b01211
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d5a644cb6008976894c88de570aa9cb6530e10c3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835807"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

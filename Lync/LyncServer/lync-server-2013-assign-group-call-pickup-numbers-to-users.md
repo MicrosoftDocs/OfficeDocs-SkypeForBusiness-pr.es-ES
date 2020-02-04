@@ -3,6 +3,8 @@ title: 'Lync Server 2013: asignar números de llamada de grupo a los usuarios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign Group Call Pickup numbers to users
 ms:assetid: b8e79275-8e7e-4799-b908-f34f61df22f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945647(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541508
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e919b1fb4ee225eba1c5317ff1f3049791075bcc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e65eef9fcf425ad8ea9f36dc57899bb6af924bf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850701"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734060"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar un servidor de administración central exis
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure an existing Central Management Server
 ms:assetid: d715b24a-1256-4a7c-a5ef-1cee41d6b733
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205315(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185584
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eec9193d8c40a26179c5dfe1f142740abdda8bc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5b5df4fedc49e85d7fe26a918ea36de3a64b440a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842433"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757834"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

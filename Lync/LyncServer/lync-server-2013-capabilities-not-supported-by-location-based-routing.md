@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Capacidades no compatibles con el enrutamiento basado 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capabilities not supported by Location-Based Routing
 ms:assetid: c3d54953-a7d6-4465-a6c3-ae411b2d8ea9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994071(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803982
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ca2d775fc17d0919ceb31a38b242e54d37b6a55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 967b5b7388ce60eafd46791c226bf1a3edbe0c2b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842682"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

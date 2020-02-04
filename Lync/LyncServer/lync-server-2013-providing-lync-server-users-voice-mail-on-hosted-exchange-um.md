@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Proporcionar correo de voz a usuarios de Lync Server 2
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Providing Lync Server 2013 users voice mail on hosted Exchange UM
 ms:assetid: 306d3fb5-231b-4f0b-b8d8-0d9083b5ed77
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425807(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183752
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ba7541ce5d96f59132c86b5c01e9d997836e1e05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02feacedfc2b0cf7d3f34788c5c9a6ee65d50a9c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823563"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

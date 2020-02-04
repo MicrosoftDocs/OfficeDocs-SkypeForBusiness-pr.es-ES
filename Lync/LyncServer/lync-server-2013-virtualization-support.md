@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad con la virtualización'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Virtualization support
 ms:assetid: cb940808-2852-406a-a357-3eb5638ed2a0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398853(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185484
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 61ae8f3c4e4b6ca626a15653bbca27224e3df1d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e0666203c2c6409da871c99aaa85b90240b64d76
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850043"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757214"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

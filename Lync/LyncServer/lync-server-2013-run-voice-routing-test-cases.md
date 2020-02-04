@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ejecutar la ruta de voz casos de prueba'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Run voice routing test cases
 ms:assetid: fb4d32df-b9ea-4944-8cd7-a6102c78c465
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413068(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0cded8f3bf44388103ccf5a33507973817de45ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 14f2df8a04c5efbf8c62bc4e17bbdd156913daae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822401"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Puede ejecutar todos los casos de prueba en el conjunto de casos de prueba de en
         
 
         > [!NOTE]  
-        > El <STRONG>registro de uso de RTC esperado</STRONG> y los campos de <STRONG>ruta</STRONG> previstos son opcionales en la configuración del caso de prueba de enrutamiento de voz. Si el caso de prueba no especifica estos valores, el campo correspondiente en los resultados de la prueba estará vacío.
+        > El <STRONG>registro de uso de RTC esperado</STRONG> y los campos de <STRONG>ruta previstos</STRONG> son opcionales en la configuración del caso de prueba de enrutamiento de voz. Si el caso de prueba no especifica estos valores, el campo correspondiente en los resultados de la prueba estará vacío.
 
         
         </div>
@@ -106,7 +108,7 @@ Puede ejecutar todos los casos de prueba en el conjunto de casos de prueba de en
         
 
         > [!NOTE]  
-        > El <STRONG>registro de uso de RTC esperado</STRONG> y los campos de <STRONG>ruta</STRONG> previstos son opcionales en la configuración del caso de prueba de enrutamiento de voz. Si el caso de prueba no especifica estos valores, el campo correspondiente en los resultados de la prueba estará vacío.
+        > El <STRONG>registro de uso de RTC esperado</STRONG> y los campos de <STRONG>ruta previstos</STRONG> son opcionales en la configuración del caso de prueba de enrutamiento de voz. Si el caso de prueba no especifica estos valores, el campo correspondiente en los resultados de la prueba estará vacío.
 
         
         </div>

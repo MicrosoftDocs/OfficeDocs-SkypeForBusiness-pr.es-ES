@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalar servidores perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Edge Servers
 ms:assetid: 1655ab69-3899-4ee4-a1cc-8243bc1bfa0f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398230(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183503
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 211baa13f80e89fa081b6bf65d4bd7e90d50d000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22d1961a158ead735ae63d20bb2bd233d6ed5958
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835006"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2012-09-08_
 
 Para instalar Lync Server 2013 en servidores perimetrales, use el Asistente para la implementación de Lync Server. Al ejecutar el Asistente para la implementación en cada servidor perimetral, puede completar la mayoría de las tareas necesarias para configurar el servidor perimetral. Para implementar Lync Server 2013 en un servidor perimetral, debe ejecutar ya el generador de topologías para definir y publicar la topología del servidor perimetral, y exportarla a medios que estén disponibles desde el servidor perimetral. Para obtener información detallada, vea [escenarios de acceso de usuarios externos en Lync server 2013](lync-server-2013-scenarios-for-external-user-access.md) y [exportar su topología de Lync Server 2013 y copiarla en medios externos para la instalación perimetral](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md).
 
-Después de usar el Asistente para la implementación para instalar cada servidor perimetral, instalar y asignar los certificados necesarios e iniciar los servicios necesarios, puede completar la configuración con la información de [configurar compatibilidad con el acceso de usuarios externos en Lync Server 2013 ](lync-server-2013-configuring-support-for-external-user-access.md)para habilitar y configurar el acceso externo del usuario y la información para [comprobar la implementación perimetral en Lync Server 2013](lync-server-2013-verifying-your-edge-deployment.md) para validar la configuración, incluida la conectividad de servidor y de cliente.
+Después de usar el Asistente para la implementación para instalar cada servidor perimetral, instalar y asignar los certificados necesarios e iniciar los servicios necesarios, puede completar la configuración con la información de [configuración compatibilidad para el acceso de usuarios externos en Lync server 2013](lync-server-2013-configuring-support-for-external-user-access.md) para habilitar y configurar el acceso externo de usuarios y la información para [comprobar la implementación de Edge en Lync Server 2013](lync-server-2013-verifying-your-edge-deployment.md) para validar la configuración, incluida la conectividad de cliente
 
 <div>
 
@@ -62,7 +64,7 @@ Después de usar el Asistente para la implementación para instalar cada servido
 
 5.  Una vez que el asistente determina el estado de implementación, en el **paso 1. Instale el almacén de configuración local**, haga clic en **Ejecutar** y luego haga lo siguiente:
     
-      - En el cuadro de diálogo **configurar réplica local del almacén de administración central** , haga clic en **Importar desde un archivo (recomendado para servidores perimetrales)**, vaya a la ubicación del archivo de configuración de topología exportada, seleccione el archivo. zip, haga clic en **abrir**y, a continuación, Haga clic en **siguiente**.
+      - En el cuadro de diálogo **configurar réplica local del almacén de administración central** , haga clic en **Importar desde un archivo (recomendado para servidores perimetrales)**, vaya a la ubicación del archivo de configuración de topología exportada, seleccione el archivo. zip, haga clic en **abrir**y, a continuación, haga clic en **siguiente**.
     
       - El Asistente para la implementación lee la información de configuración del archivo de configuración y escribe el archivo de configuración XML en el equipo local.
     

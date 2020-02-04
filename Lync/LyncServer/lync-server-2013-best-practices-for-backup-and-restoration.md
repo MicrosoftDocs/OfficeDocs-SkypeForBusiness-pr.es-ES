@@ -3,6 +3,8 @@ title: 'Lync Server 2013: procedimientos recomendados para copias de seguridad y
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for backup and restoration
 ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202184(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4fc7a926bd8fd5c61f87d5e8252c30f40e5a6a69
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e51f846d92f5d8cfecbbface31df6543c5c9ac23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842725"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Para facilitar el proceso de copia de seguridad y restauración, al hacer una co
 
   - Realice copias de seguridad periódicas en intervalos apropiados. La programación de rotación y el tipo de copia de seguridad más simple y frecuente es una copia de seguridad nocturna completa de toda la base de datos de SQL Server. Después, si es necesario restaurar, el proceso de restauración solo requiere una copia de seguridad, y no se deben perder más de un día.
 
-  - Si usa cmdlets o el panel de control de Lync Server para realizar cambios de configuración, use el cmdlet **Export-CsConfiguration** para tomar una copia de seguridad de instantáneas del archivo de configuración de topología (XDS. MDF) después de realizar los cambios, de modo que no pierda los cambios si debe restaurar las bases de datos. Tenga en cuenta que se realiza una copia de seguridad de esta configuración en formato XML y se comprime como archivo ZIP.
+  - Si usa cmdlets o el panel de control de Lync Server para realizar cambios de configuración, use el cmdlet **Export-CsConfiguration** para tomar una copia de seguridad de instantáneas del archivo de configuración de topología (XDS. MDF) después de realizar los cambios, de modo que no pierda los cambios si necesita restaurar las bases de datos. Tenga en cuenta que se realiza una copia de seguridad de esta configuración en formato XML y se comprime como archivo ZIP.
 
   - Asegúrese de que la carpeta compartida que va a usar para realizar copias de seguridad de Lync Server tenga suficiente espacio en disco para almacenar todos los datos de la copia de seguridad.
 
@@ -71,7 +73,7 @@ Para facilitar el proceso de copia de seguridad y restauración, al hacer una co
 
 La mejor estrategia para resolver interrupciones de servicio desastrosas (causadas por eventos no manejables, como cortes de energía o errores de hardware repentinos) es asumir que ocurrirán y planificar según corresponda.
 
-Si los servicios de Lync, con un mínimo de interrupción y interrupción, son importantes para la empresa, debe considerar la posibilidad de implementar grupos de servidores de solicitudes de cliente emparejados, como se describe en [planear la alta disponibilidad y la recuperación ante desastres en Lync Server. 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Después, si uno de estos grupos de servidores tiene un desastre, un administrador puede cambiar los usuarios de ese grupo para que el otro grupo lo atienda, con un mínimo de tiempo de inactividad.
+Si los servicios de Lync, con un mínimo de interrupción y interrupción, son importantes para la empresa, debe considerar la posibilidad de implementar grupos de servidores de solicitudes de cliente emparejados, como se describe en [planear la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Después, si uno de estos grupos de servidores tiene un desastre, un administrador puede cambiar los usuarios de ese grupo para que el otro grupo lo atienda, con un mínimo de tiempo de inactividad.
 
 Los planes de administración ante desastres que desarrolla como parte de su estrategia de copia de seguridad y restauración deben incluir lo siguiente:
 

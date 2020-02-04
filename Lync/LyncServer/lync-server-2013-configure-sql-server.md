@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar SQL Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure SQL Server
 ms:assetid: 84504918-cb4f-4b2f-be17-a70770b69025
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398669(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184699
 ms.date: 01/22/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3da3cea6019b6314eccb2968f9b05ef44e7de75e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a074da011f02b0a78d0886badc991651bb7d9c91
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842319"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733880"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

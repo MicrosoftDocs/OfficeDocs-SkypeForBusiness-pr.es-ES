@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de Lync Server para usar el almacén de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to use the unified contact store
 ms:assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688083(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79c26321945444bcf5d450a7397fefb244223ec0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 794d14172c5932436d46fbeb66ea1da4dd7a5e44
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842233"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762788"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

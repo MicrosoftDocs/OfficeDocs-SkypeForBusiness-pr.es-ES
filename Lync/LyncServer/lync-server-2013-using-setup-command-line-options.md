@@ -3,6 +3,8 @@ title: 'Lync Server 2013: usar las opciones de la línea de comandos de configur
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Setup command-line options
 ms:assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184957
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5087c8ac777e5e2fd3259f925a4217a4d47dd800
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fcf3637ac0d334c2d22ef714891ea0544ee1a6d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850174"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

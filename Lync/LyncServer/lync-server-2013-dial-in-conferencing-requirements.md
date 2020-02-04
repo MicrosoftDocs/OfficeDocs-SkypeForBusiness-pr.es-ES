@@ -3,6 +3,8 @@ title: Requisitos de conferencia de acceso telefónico local de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dial-in conferencing requirements
 ms:assetid: 9aff949e-3dac-481a-be46-a180c72e8066
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398802(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184969
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a2f4878e81a28b5d51726cb1f3e2dc5c7c5aa0fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c54e162aeda43730dea471732124023588e9041
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835405"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762288"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

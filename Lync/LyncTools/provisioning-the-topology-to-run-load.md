@@ -3,6 +3,8 @@ title: Aprovisionamiento de la topología para ejecutar la carga
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Provisioning the Topology to Run Load
 ms:assetid: 6fba03df-3914-4d2a-8208-e252ad993aff
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945598(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 026915b4a08073e96d29b32278adc4e260eaaea4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf4c296068e2bd0deea9470dd84d8fd0c0c9d451
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850762"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763604"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información sobre las reglas de actualización de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View information about Device Update rules
 ms:assetid: d6677ca4-024b-4816-8511-8d7630788107
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994077(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803988
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d873cbd80e599313b60a57cfc28eb9752d85ef66
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6e26b67aba2bf792b3248e7771f938a8bced1668
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850109"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765661"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

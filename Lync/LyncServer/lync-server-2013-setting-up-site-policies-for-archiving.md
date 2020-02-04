@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de directivas del sitio para archivar'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up site policies for Archiving
 ms:assetid: dc2ea206-8b9c-44dd-a479-efb217593c89
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205325(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185613
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08a4ccd7f88f21aaf0c7e3d1575b9e4a887c31d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1ebb1efdfff09f51b13ada9d1e2aa571ab88c888
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850665"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2012-10-09_
 
 Puede habilitar o deshabilitar el archivado de sitios específicos creando y configurando una directiva de archivado para cada uno de esos sitios. Las directivas de sitio invalidan las directivas globales, pero las directivas de usuario invalidan las directivas de sitio. Las directivas de archivado solo se aplican si no usa la integración de Microsoft Exchange o si usa la integración de Microsoft Exchange, pero tiene algunos usuarios que no están alojados en Exchange 2013 y tienen sus buzones en conservación local.
 
-Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte Cómo funciona el archivado en la documentación de planeamiento, la documentación de implementación o la documentación de operaciones [de Lync Server 2013](lync-server-2013-how-archiving-works.md) .
+Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte [Cómo funciona el archivado en](lync-server-2013-how-archiving-works.md) la documentación de planeamiento, la documentación de implementación o la documentación de operaciones de Lync Server 2013.
 
 <div>
 
@@ -59,7 +61,7 @@ Para obtener detalles sobre cómo funcionan las directivas de archivado, incluid
 
 3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
     
-    Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte Cómo funciona el archivado en la documentación de planeamiento, la documentación de implementación o la documentación de operaciones [de Lync Server 2013](lync-server-2013-how-archiving-works.md) .
+    Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte [Cómo funciona el archivado en](lync-server-2013-how-archiving-works.md) la documentación de planeamiento, la documentación de implementación o la documentación de operaciones de Lync Server 2013.
 
 4.  Haga clic en **Nuevo** y en **Directiva de sitio**.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Consultas de base de datos del chat persistente de eje
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Sample Persistent Chat database queries
 ms:assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558649(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184133
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c5e442ebf3aef34d297a1b23da06b00fc4724aa0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a31863ef11f144b5996468ccbeef35f55bd9aa66
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822212"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar QoS para dispositivos que no se basan en Win
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: QoS for devices that are not based on Windows
 ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183661
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d993a6905dfad9f5f2eda10a48553f2ae29b58ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7574169c5a8c9cb660a81b384711a4937056b37
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835231"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735639"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

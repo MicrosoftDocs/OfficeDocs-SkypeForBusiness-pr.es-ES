@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración del servicio de movilidad para un alto 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Mobility Service for high performance
 ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690042(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185332
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54a1c9b901e9a861b40a5cfa8c2642e3e3e41ffe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 29eaea1e45c5d3b745debbc2f97370a76e6d16db
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842201"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

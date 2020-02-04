@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla Session'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Session table
 ms:assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398635(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184626
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ab4eb63b95ecdf08c1967babba39cff2b2abf19
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 81b97d6a7521add62817147ae87995508b841f2d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822051"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

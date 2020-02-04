@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes y topologías para conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for conferencing
 ms:assetid: eb83052a-3360-4ba1-a6a0-6ee419942809
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399061(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185707
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5caf5ba33e863e08bf4f728d2bf11394f37f20b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db44e7c8430865fcf8138c9b51f6e700ff85dd7b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842534"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,11 +53,11 @@ Además de los requisitos para las conferencias web y A/V, las conferencias de a
 
   - ****   El Asistente para conferencias de conferencia del operador de conferencia es una aplicación de comunicaciones unificadas que acepta llamadas de red telefónica conmutada (RTC), reproduce preguntas y une las llamadas a una conferencia a/V. El operador de conferencias se instala y activa de forma predeterminada al implementar una carga de trabajo de conferencia y seleccionar la opción de conferencia de acceso telefónico local.
 
-  - **Anuncio de conferencia**   la aplicación de anuncios de conferencias es una aplicación de comunicaciones unificadas que reproduce tonos y se solicita a los participantes de la RTC en determinadas acciones, como cuando se unen a los participantes o salen de una conferencia. los participantes se silencian o se silencian, alguien entra en la sala de conferencias o la Conferencia está bloqueada o desbloqueada. La aplicación de anuncio de conferencia también es compatible con los comandos multifrecuencia de tono dual (DTMF) del teclado del teléfono. El anuncio de conferencia se instala automáticamente y se activa de forma predeterminada al implementar una carga de trabajo de conferencia y seleccionar la opción de conferencia de acceso telefónico local.
+  - **Anuncio de conferencia**   la aplicación de anuncios de conferencias es una aplicación de comunicaciones unificadas que reproduce tonos y se solicita a los participantes de la RTC en determinadas acciones, como cuando un participante se une a una conferencia o sale de ella, los participantes se silencian o se reactivan, por lo que alguien entra en la sala de conferencias o la Conferencia está bloqueada o desbloqueada. La aplicación de anuncio de conferencia también es compatible con los comandos multifrecuencia de tono dual (DTMF) del teclado del teléfono. El anuncio de conferencia se instala automáticamente y se activa de forma predeterminada al implementar una carga de trabajo de conferencia y seleccionar la opción de conferencia de acceso telefónico local.
 
-  - **Página configuración de conferencia de acceso telefónico**   local la página Configuración de conferencia de acceso telefónico local muestra los números de acceso telefónico local de la Conferencia con los idiomas disponibles, la información de conferencia asignada (es decir, las reuniones que no es necesario programar) y controles de DTMF en conferencia y admite la administración del número de identificación personal (PIN) e información de conferencia asignada. La página de Configuración de conferencia de acceso telefónico local se instala automáticamente como parte de los servicios web.
+  - **Página configuración de conferencia de acceso telefónico**   local la página Configuración de conferencia de acceso telefónico local muestra los números de acceso telefónico local de la Conferencia con los idiomas disponibles, la información de conferencia asignada (es decir, las reuniones que no es necesario programar) y los controles de DTMF de la Conferencia, y admite la administración del número de identificación personal (PIN) y la información de conferencia asignada. La página de Configuración de conferencia de acceso telefónico local se instala automáticamente como parte de los servicios web.
 
-  - **Lync Server 2013, servidor de mediación y**   Conferencia de acceso telefónico local de la puerta de enlace RTC requiere un servidor de mediación para traducir la señalización (y los medios, en algunas configuraciones) entre Lync Server 2013 y la puerta de enlace RTC, y una puerta de enlace RTC para traducir señalización y medios entre el servidor de mediación y la puerta de enlace PSTN. Para las conferencias de acceso telefónico local, debe implementar al menos un servidor de mediación y al menos uno de los siguientes elementos:
+  - **Lync Server 2013, Media Server y**   la Conferencia de acceso telefónico local de la puerta de enlace RTC requieren un servidor de mediación para traducir la señalización (y los medios, en algunas configuraciones) entre Lync Server 2013 y la puerta de enlace PSTN, y una puerta de enlace RTC para traducir la señalización y los medios entre el servidor de mediación y la puerta de enlace RTC. Para las conferencias de acceso telefónico local, debe implementar al menos un servidor de mediación y al menos uno de los siguientes elementos:
     
       - Puerta de enlace RTC
     

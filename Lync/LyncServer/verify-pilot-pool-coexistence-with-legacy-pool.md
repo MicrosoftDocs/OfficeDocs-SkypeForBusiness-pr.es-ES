@@ -3,6 +3,8 @@ title: Comprobar la coexistencia del grupo de servidores piloto con el grupo de 
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify pilot pool coexistence with legacy pool
 ms:assetid: fe7e14bb-c7eb-4719-b154-009e99360520
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205420(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7de258bff926e2e100fa7c9a4952a4d70ca64373
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fe3b3e04940c90cba4e46fc165c2494f77105667
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849831"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730900"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Después de implementar el grupo piloto, debe comprobar la coexistencia de las d
 
 **Servicios de Lync Server 2013**
 
-![Lista de servicios de Lync Server iniciada] (images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Lista de servicios de Lync Server iniciada")
+![Lista de servicios de Lync Server iniciada](images/JJ205420.cfff9385-6bf6-461c-982c-e727c9f20b70(OCS.15).png "Lista de servicios de Lync Server iniciada")
 
 </div>
 
@@ -59,7 +61,7 @@ Desde el servidor front-end de su implementación de Lync Server 2013, abra el p
 
 **Abrir el panel de control de Lync Server 2013**
 
-![Cuadro de diálogo Seleccionar dirección URL] (images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Cuadro de diálogo Seleccionar dirección URL")
+![Cuadro de diálogo Seleccionar dirección URL](images/JJ205420.b1f8e650-9c3c-4563-a403-5069f198342f(OCS.15).png "Cuadro de diálogo Seleccionar dirección URL")
 
 <div>
 
@@ -75,7 +77,7 @@ Esta topología incluye ahora los roles de servidor de Lync Server 2010 y Lync S
 
 **Página de topología del panel de control 2013 de Lync Server**
 
-![Panel de control de Lync Server-página de topología] (images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Panel de control de Lync Server-página de topología")
+![Panel de control de Lync Server-página de topología](images/JJ205420.4ed1cc7a-cb3e-42f6-82e2-6d4d71d19352(OCS.15).jpg "Panel de control de Lync Server-página de topología")
 
 </div>
 
@@ -87,7 +89,7 @@ Si intenta abrir la topología con el generador de topología de Lync Server 201
 
 **Mensaje de error del generador de topología 2010 de Lync Server**
 
-![Error de acoplamiento de MMC del generador de topología de Lync Server] (images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Error de acoplamiento de MMC del generador de topología de Lync Server")
+![Error de acoplamiento de MMC del generador de topología de Lync Server](images/JJ205420.f6666343-c348-4d81-ae0e-6ba5a44e16c4(OCS.15).png "Error de acoplamiento de MMC del generador de topología de Lync Server")
 
 </div>
 

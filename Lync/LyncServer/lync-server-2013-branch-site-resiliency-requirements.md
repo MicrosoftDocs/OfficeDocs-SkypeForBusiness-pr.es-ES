@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de resistencia de sitios de sucursal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency requirements
 ms:assetid: a570922c-52bd-42d7-bd64-226578b3d110
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412772(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184984
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7ff969638f8c46abdd0ebcc8d11821a6a31b3c76
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f146f2c358e6eb6718aa60f8a51106430e6a4a3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842761"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Si un sitio de sucursal no tiene un servidor DNS, hay dos formas alternativas de
 
 ## <a name="voice-routing-for-branch-users"></a>Enrutamiento de voz para usuarios de la sucursal
 
-Le recomendamos que cree una directiva de protocolo de voz a través de Internet (VoIP) de nivel de usuario independiente para los usuarios de un sitio de sucursal. Esta Directiva debe incluir una ruta principal que use la aplicación de rama superviviente o la puerta de enlace de servidor de sucursal, y una o más rutas de copia de seguridad que usen un tronco con una puerta de enlace de red telefónica conmutada (RTC) en el sitio central. Si la ruta principal no está disponible, se usa en su lugar la ruta de la copia de seguridad que usa una o más puertas de enlace de sitio central. De esta manera, independientemente de dónde esté registrado un usuario, en el registrador de sitios de la sucursal o en el grupo de registro de la copia de seguridad del sitio central, la Directiva de VoIP del usuario siempre está activa. Esta es una consideración importante para escenarios de conmutación por error. Por ejemplo, si necesita cambiar el nombre de la aplicación de la rama que tiene la configuración o volver a configurar el dispositivo de rama que tiene la mayoría para conectarse a un grupo de registro de la copia de seguridad en el sitio central, debe mover los usuarios del sitio de la sucursal al sitio central durante el tiempo. (Para obtener detalles sobre cómo cambiar el nombre o la configuración de un dispositivo de sucursal que sea reviviente, consulte el [Apéndice B: administrar un dispositivo de sucursal con la supervivencia en Lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) en la documentación de implementación). Si esos usuarios no tienen directivas de VoIP de nivel de usuario o planes de marcado de nivel de usuario, cuando se mueven los usuarios a otro sitio, las directivas de VoIP de nivel de sitio y los planes de marcado de nivel de sitio del sitio central se aplican a los usuarios de forma predeterminada, en lugar de la VoIP de nivel de sitio de sucursal directivas y planes de marcado,. En este caso, a menos que las directivas VoIP de nivel de sitio y los planes de marcado de nivel de sitio que usa el grupo de registro de la copia de seguridad también se apliquen a los usuarios de la sucursal, se producirá un error en sus llamadas. Por ejemplo, si los usuarios de un sitio de sucursal ubicado en Japón se mueven a un sitio central de Redmond, es improbable que un plan de marcado con reglas de normalización que antepongan + 1425 a todas las llamadas de 7 dígitos no sea la adecuada para traducir las llamadas de esos usuarios.
+Le recomendamos que cree una directiva de protocolo de voz a través de Internet (VoIP) de nivel de usuario independiente para los usuarios de un sitio de sucursal. Esta Directiva debe incluir una ruta principal que use la aplicación de rama superviviente o la puerta de enlace de servidor de sucursal, y una o más rutas de copia de seguridad que usen un tronco con una puerta de enlace de red telefónica conmutada (RTC) en el sitio central. Si la ruta principal no está disponible, se usa en su lugar la ruta de la copia de seguridad que usa una o más puertas de enlace de sitio central. De esta manera, independientemente de dónde esté registrado un usuario, en el registrador de sitios de la sucursal o en el grupo de registro de la copia de seguridad del sitio central, la Directiva de VoIP del usuario siempre está activa. Esta es una consideración importante para escenarios de conmutación por error. Por ejemplo, si necesita cambiar el nombre de la aplicación de la rama que tiene la configuración o volver a configurar el dispositivo de rama que tiene la mayoría para conectarse a un grupo de registro de la copia de seguridad en el sitio central, debe mover los usuarios del sitio de la sucursal al sitio central durante el tiempo. (Para obtener detalles sobre cómo cambiar el nombre o la configuración de un dispositivo de sucursal que sea reviviente, consulte el [Apéndice B: administrar un dispositivo de sucursal con la supervivencia en Lync Server 2013](lync-server-2013-appendix-b-managing-a-survivable-branch-appliance.md) en la documentación de implementación). Si esos usuarios no tienen directivas de VoIP de nivel de usuario o planes de marcado de nivel de usuario, cuando los usuarios se mueven a otro sitio, las directivas de VoIP de nivel de sitio y los planes de marcado de nivel de sitio del sitio central se aplican a los usuarios de forma predeterminada, en lugar de los planes de marcado y las directivas de VoIP de nivel de sitio de sucursal En este caso, a menos que las directivas VoIP de nivel de sitio y los planes de marcado de nivel de sitio que usa el grupo de registro de la copia de seguridad también se apliquen a los usuarios de la sucursal, se producirá un error en sus llamadas. Por ejemplo, si los usuarios de un sitio de sucursal ubicado en Japón se mueven a un sitio central de Redmond, es improbable que un plan de marcado con reglas de normalización que antepongan + 1425 a todas las llamadas de 7 dígitos no sea la adecuada para traducir las llamadas de esos usuarios.
 
 <div>
 
@@ -95,7 +97,7 @@ Al preparar planes de marcado y directivas de voz para usuarios de sitios de suc
 
 Reglas de normalización y traducciones que coinciden con los identificadores URI que contienen un número de extensión, ya sea de forma exclusiva o adicional a un número de teléfono E. 164 completo, tienen requisitos adicionales. En esta sección se describen varios escenarios de ejemplo para enrutar llamadas de identificadores URI con un número de extensión.
 
-Si su organización no tiene números de teléfono de marcado directo (sí) configurados para usuarios individuales y el URI de línea de cada usuario ** se configura con un número de extensión, los usuarios internos pueden llamarse solo por un número de extensión. Sin embargo, debe configurar las reglas de normalización que se pueden aplicar a las llamadas de un usuario del sitio de la sucursal a un usuario del sitio central, que coincidan con los números de extensión.
+Si su organización no tiene números de teléfono de marcado directo (sí) configurados para usuarios individuales y el URI de línea de cada usuario se configura con un número de extensión, los usuarios internos pueden llamarse solo por un *número de extensión* . Sin embargo, debe configurar las reglas de normalización que se pueden aplicar a las llamadas de un usuario del sitio de la sucursal a un usuario del sitio central, que coincidan con los números de extensión.
 
 En un escenario en el que está disponible el vínculo WAN entre un sitio de sucursal y un sitio central, las llamadas de usuarios de sitios de sucursales a usuarios de sitios centrales no requieren la regla de normalización correspondiente para traducir el número, porque la llamada no se enruta a través de la RTC. Por ejemplo:
 
@@ -195,7 +197,7 @@ En este caso, si el punto de conexión del mismo nivel que controla el redirecci
 
 Si un vínculo WAN está disponible o no, si su organización no tiene números realizados para usuarios individuales y el URI de línea para un usuario contiene el número de teléfono de la organización y el número de extensión exclusivo del usuario, debe configurar el URI de la línea del número de teléfono de la organización con un número al que se puede alcanzar la puerta de enlace troncal o la puerta de enlace RTC en el sitio de la sucursal. También debe configurar el URI de la línea de número de teléfono de su organización para que incluya su propia extensión exclusiva para que las llamadas se enruten a ese número.
 
-Para más información sobre las llamadas de un usuario del sitio central a un usuario de un sitio de sucursal cuando el vínculo WAN entre los sitios no está disponible, consulte "prepararse para la supervivencia del correo de voz" más adelante en este tema. Para obtener más información sobre los planes de marcado y las reglas de normalización, incluidas otras reglas de ejemplo, consulte [planes de marcado y reglas de normalización en Lync server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) en la documentación de planeación y [configurar planes de marcado en Lync Server 2013](lync-server-2013-configuring-dial-plans.md) en la implementación documentación. Para obtener detalles sobre las reglas de traducción salientes, vea [reglas de traducción en Lync server 2013](lync-server-2013-translation-rules.md) en la documentación de planeación y [definición de reglas de traducción en Lync Server 2013](lync-server-2013-defining-translation-rules.md) en la documentación de implementación.
+Para más información sobre las llamadas de un usuario del sitio central a un usuario de un sitio de sucursal cuando el vínculo WAN entre los sitios no está disponible, consulte "prepararse para la supervivencia del correo de voz" más adelante en este tema. Para obtener más información sobre los planes de marcado y las reglas de normalización, incluidas otras reglas de ejemplo, consulte [planes de marcado y reglas de normalización en Lync server 2013](lync-server-2013-dial-plans-and-normalization-rules.md) en la documentación de planeación y [configurar planes de marcado en Lync Server 2013](lync-server-2013-configuring-dial-plans.md) en la documentación de implementación. Para obtener detalles sobre las reglas de traducción salientes, vea [reglas de traducción en Lync server 2013](lync-server-2013-translation-rules.md) en la documentación de planeación y [definición de reglas de traducción en Lync Server 2013](lync-server-2013-defining-translation-rules.md) en la documentación de implementación.
 
 </div>
 
@@ -217,7 +219,7 @@ Recomendamos las siguientes configuraciones para los usuarios de sitios de sucur
 
   - El administrador de Lync Server debe tomar el número de teléfono AA y usarlo como el número de **operador automático de mensajería unificada de Exchange** en la configuración de redireccionamiento del correo de voz para el dispositivo de sucursal o el servidor de sucursal.
 
-  - El administrador de Lync Server debe obtener el número de teléfono de acceso a la mensajería unificada de Exchange y usar ese número como el número de **acceso** del suscriptor en la configuración de redireccionamiento del correo de voz para el equipo de la sucursal o el servidor de sucursal con la supervivencia.
+  - El administrador de Lync Server debe obtener el número de teléfono de acceso a la mensajería unificada de Exchange y usar ese número como el número de **acceso del suscriptor** en la configuración de redireccionamiento del correo de voz para el equipo de la sucursal o el servidor de sucursal con la supervivencia.
 
   - El administrador de Lync Server debe configurar la mensajería unificada de Exchange para que solo se asocie un plan de marcado a todos los usuarios de la sucursal que necesiten acceso al correo de voz durante una interrupción de la WAN.
 

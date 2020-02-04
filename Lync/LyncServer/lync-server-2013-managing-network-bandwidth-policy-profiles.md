@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de perfiles de directiva de ancho de b
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing network bandwidth policy profiles
 ms:assetid: bc7b1a8a-5dce-425f-a84d-6a9aff569c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721867(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733800
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a7828c8895ef056c800547ec9e8247956421459
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3bd960561309bf8d7e82b028b5a2314400763dc4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827889"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

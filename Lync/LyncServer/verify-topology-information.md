@@ -3,6 +3,8 @@ title: Comprobar la información de la topología
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify topology information
 ms:assetid: aa4c424e-f87c-4be6-8df6-a0cd193b11fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185046
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7657bb80d7acb6d48a4027c665fae70e469bb236
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec6c73f274cb67b527aaf1147f20e83959487255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849828"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -56,7 +58,7 @@ El primer paso para comprobar que la combinación se completó correctamente es 
     
     </div>
 
-![Cuadro de diálogo BackCompatSite del generador de topología] (images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Cuadro de diálogo BackCompatSite del generador de topología")
+![Cuadro de diálogo BackCompatSite del generador de topología](images/JJ205243.62751c76-f018-4c6d-bb48-c61ef8974d31(OCS.15).jpg "Cuadro de diálogo BackCompatSite del generador de topología")
 
 También puede usar el panel de control de Lync Server 2013 para ver la topología combinada. En el panel de control de Lync Server 2013, puede ver cada FQDN del servidor, FQDN del grupo y nombre del sitio de la topología de la combinación. Los servidores combinados tienen un nombre de **sitio** de **BackCompatSite**.
 
@@ -72,7 +74,7 @@ También puede usar el panel de control de Lync Server 2013 para ver la topolog�
 
 3.  En la pestaña **Estado** , compruebe que los servidores y las agrupaciones que ha combinado aparecen en la columna **sitio** de **BackCompatSite** .
 
-![Panel de control de Lync Server que muestra una topología combinada] (images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Panel de control de Lync Server que muestra una topología combinada")
+![Panel de control de Lync Server que muestra una topología combinada](images/JJ205151.f986ddd4-2040-454d-9389-7f6154b59cc9(OCS.15).jpg "Panel de control de Lync Server que muestra una topología combinada")
 
 Para ver más detalles sobre una agrupación combinada, use el cmdlet **Get-CsPool** . Además de la información que está disponible en el generador de topología y el panel de control de Lync Server 2013, este cmdlet muestra los servicios que se ejecutan en el grupo de servidores de Lync Server 2013.
 

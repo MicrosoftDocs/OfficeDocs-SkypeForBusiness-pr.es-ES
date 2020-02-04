@@ -3,6 +3,8 @@ title: Mover un solo usuario a la agrupación piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move a single user to the pilot pool
 ms:assetid: 80d5b365-f153-4c61-a148-f9e18ce6e027
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688109(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733708
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 086af622644f8d8285ef5f7be8e17f75ff436000
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e8cb89fde2a62858c3bd9a402207f4b23fd51643
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849946"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756054"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2012-09-28_
 
 Puede mover un usuario del grupo de Office Communications Server 2007 R2 a su grupo de pruebas piloto de Lync Server 2013 mediante el panel de control de Lync Server 2013 o el shell de administración de Lync Server 2013. En el ejemplo siguiente, en la columna registrar grupo, ** \<Office Communications Server\> ** es el grupo de Office Communications Server 2007 R2 y todos los seis de estos usuarios están conectados a este grupo. Use los procedimientos siguientes para mover un usuario a su grupo de servidores de Lync Server 2013 con el panel de control de Lync Server 2013 y el shell de administración de Lync Server.
 
-![Buscar usuarios de OCS en el panel de control de Lync Server] (images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Buscar usuarios de OCS en el panel de control de Lync Server")
+![Buscar usuarios de OCS en el panel de control de Lync Server](images/JJ688109.d2008fd6-868b-4f26-84cf-57bb69e073d3(OCS.15).jpg "Buscar usuarios de OCS en el panel de control de Lync Server")
 
 <div>
 
@@ -57,7 +59,7 @@ Puede mover un usuario del grupo de Office Communications Server 2007 R2 a su gr
 
 7.  Haga clic en **Buscar** para buscar usuarios heredados de Office Communications Server 2007 R2.
     
-    ![Buscar usuarios de OCS en el panel de control de Lync Server] (images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Buscar usuarios de OCS en el panel de control de Lync Server")  
+    ![Buscar usuarios de OCS en el panel de control de Lync Server](images/JJ688109.09528349-7915-41e1-91b4-6ab5c12b1b38(OCS.15).jpg "Buscar usuarios de OCS en el panel de control de Lync Server")  
 
 8.  Seleccione el usuario que desea mover al grupo de servidores de Lync Server 2013. En este ejemplo, moveremos a Sara Davis.
 
@@ -67,7 +69,7 @@ Puede mover un usuario del grupo de Office Communications Server 2007 R2 a su gr
 
 11. Haga clic en **Acción** y, posteriormente, haga clic en **Mover usuarios seleccionados a grupo**. Haga clic en **Aceptar**.
     
-    ![Establecer el grupo de destino en el cuadro de diálogo mover usuarios] (images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Establecer el grupo de destino en el cuadro de diálogo mover usuarios")  
+    ![Establecer el grupo de destino en el cuadro de diálogo mover usuarios](images/JJ688109.d7dc0759-87c5-4c23-938f-361576621504(OCS.15).jpg "Establecer el grupo de destino en el cuadro de diálogo mover usuarios")  
 
 12. Compruebe que la columna del **Grupo registrador** del usuario contiene ahora el grupo de servidores de Lync Server 2013, lo que indica que se movió correctamente el usuario
 
@@ -89,13 +91,13 @@ Puede mover un usuario del grupo de Office Communications Server 2007 R2 a su gr
 
 4.  La identidad de **RegistrarPool** apunta ahora al grupo de servidores de Lync 2013. La presencia de esta identidad confirma que el usuario se movió correctamente.
     
-    ![Resultado del cmdlet Get-CsUser con el filtro de identidad] (images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Resultado del cmdlet Get-CsUser con el filtro de identidad")  
+    ![Resultado del cmdlet Get-CsUser con el filtro de identidad](images/JJ205401.bc5d4672-8068-4475-b882-dbd305c801a9(OCS.15).jpg "Resultado del cmdlet Get-CsUser con el filtro de identidad")  
     
     <div>
     
 
     > [!NOTE]  
-    > Para obtener detalles sobre el cmdlet <STRONG>Get-CsUser</STRONG> , ejecute: <STRONG>Get-Help Get-CsUser-</STRONG> Detailed
+    > Para obtener detalles sobre el cmdlet <STRONG>Get-CsUser</STRONG> , ejecute: <STRONG>Get-Help Get-CsUser-Detailed</STRONG>
 
     
     </div>
