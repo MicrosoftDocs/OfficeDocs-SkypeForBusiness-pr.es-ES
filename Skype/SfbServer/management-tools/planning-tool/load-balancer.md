@@ -7,26 +7,26 @@ manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 'Si tiene grupos de servidores front-end, grupos de directores o grupos de servidores perimetrales, necesita implementar el equilibrio de carga para estos grupos. El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores. Para obtener detalles, consulte:'
-ms.openlocfilehash: 1d348231ef31016c765a69739116a882fbdee650
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9f305f8358905b3102ed7977f5eeae0ca9f0483c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279154"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696285"
 ---
-# <a name="load-balancer-planning-tool"></a><span data-ttu-id="bb6d3-105">Load Balancer (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="bb6d3-105">Load Balancer (Planning Tool)</span></span>
+# <a name="load-balancer-planning-tool"></a><span data-ttu-id="16005-105">Load Balancer (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="16005-105">Load Balancer (Planning Tool)</span></span>
  
-<span data-ttu-id="bb6d3-106">Si tiene grupos de servidores front-end, grupos de directores o grupos de servidores perimetrales, necesita implementar el equilibrio de carga para estos grupos.</span><span class="sxs-lookup"><span data-stu-id="bb6d3-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="bb6d3-107">El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores.</span><span class="sxs-lookup"><span data-stu-id="bb6d3-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="bb6d3-108">Para obtener detalles, consulte:</span><span class="sxs-lookup"><span data-stu-id="bb6d3-108">For details, see:</span></span>
+<span data-ttu-id="16005-106">Si tiene grupos de servidores front-end, grupos de directores o grupos de servidores perimetrales, necesita implementar el equilibrio de carga para estos grupos.</span><span class="sxs-lookup"><span data-stu-id="16005-106">If you have Front End pools, Director pools, or Edge Server pools, you need to deploy load balancing for these pools.</span></span> <span data-ttu-id="16005-107">El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores.</span><span class="sxs-lookup"><span data-stu-id="16005-107">Load balancing distributes the traffic among the servers in a pool.</span></span> <span data-ttu-id="16005-108">Para obtener detalles, consulte:</span><span class="sxs-lookup"><span data-stu-id="16005-108">For details, see:</span></span>
   
-- [<span data-ttu-id="bb6d3-109">Requisitos del equilibrio de carga para Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="bb6d3-109">Load balancing requirements for Skype for Business</span></span>](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [<span data-ttu-id="16005-109">Requisitos del equilibrio de carga para Skype Empresarial</span><span class="sxs-lookup"><span data-stu-id="16005-109">Load balancing requirements for Skype for Business</span></span>](../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [<span data-ttu-id="bb6d3-110">Requisitos de DNS para Skype empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="bb6d3-110">DNS requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/network-requirements/dns.md)
+- [<span data-ttu-id="16005-110">Requisitos de DNS para Skype empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="16005-110">DNS requirements for Skype for Business Server 2015</span></span>](../../plan-your-deployment/network-requirements/dns.md)
     
 

@@ -7,29 +7,29 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserViewMobility
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: El cuadro de diálogo de la Directiva de movilidad de vista muestra las propiedades de la Directiva de movilidad seleccionada.
-ms.openlocfilehash: ebf59784c7947c643bb98dc52d5a206dc78c02ca
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 94371a8deeb7b66e0ad866f73998ce8f957de773
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292189"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699174"
 ---
-# <a name="users-view-mobility-policy"></a><span data-ttu-id="2601b-103">Usuarios: Ver directiva de movilidad</span><span class="sxs-lookup"><span data-stu-id="2601b-103">Users: View Mobility Policy</span></span>
+# <a name="users-view-mobility-policy"></a><span data-ttu-id="fae94-103">Usuarios: Ver directiva de movilidad</span><span class="sxs-lookup"><span data-stu-id="fae94-103">Users: View Mobility Policy</span></span>
 
-<span data-ttu-id="2601b-104">El cuadro de diálogo de la **Directiva de movilidad de vista** muestra las propiedades de la Directiva de movilidad seleccionada.</span><span class="sxs-lookup"><span data-stu-id="2601b-104">The **View - Mobility Policy** dialog displays the properties of the selected mobility policy.</span></span>
+<span data-ttu-id="fae94-104">El cuadro de diálogo de la **Directiva de movilidad de vista** muestra las propiedades de la Directiva de movilidad seleccionada.</span><span class="sxs-lookup"><span data-stu-id="fae94-104">The **View - Mobility Policy** dialog displays the properties of the selected mobility policy.</span></span>
 
-<span data-ttu-id="2601b-105">Para obtener más información sobre cómo asignar directivas de movilidad, consulte [asignar una directiva de movilidad por usuario](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) y [configurar la Directiva de movilidad](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).</span><span class="sxs-lookup"><span data-stu-id="2601b-105">For details about assigning mobility policies, see [Assign a Per-User Mobility Policy](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) and [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).</span></span>
+<span data-ttu-id="fae94-105">Para obtener más información sobre cómo asignar directivas de movilidad, consulte [asignar una directiva de movilidad por usuario](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) y [configurar la Directiva de movilidad](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).</span><span class="sxs-lookup"><span data-stu-id="fae94-105">For details about assigning mobility policies, see [Assign a Per-User Mobility Policy](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx) and [Configuring Mobility Policy](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2601b-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="2601b-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fae94-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="fae94-106">See also</span></span>
 
-[<span data-ttu-id="2601b-107">Planificación de movilidad</span><span class="sxs-lookup"><span data-stu-id="2601b-107">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
+[<span data-ttu-id="fae94-107">Planificación de movilidad</span><span class="sxs-lookup"><span data-stu-id="fae94-107">Planning for Mobility</span></span>](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 
-[<span data-ttu-id="2601b-108">Implementación de movilidad</span><span class="sxs-lookup"><span data-stu-id="2601b-108">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
+[<span data-ttu-id="fae94-108">Implementación de movilidad</span><span class="sxs-lookup"><span data-stu-id="fae94-108">Deploying Mobility</span></span>](https://technet.microsoft.com/library/f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f.aspx)
 
-[<span data-ttu-id="2601b-109">Directivas de movilidad</span><span class="sxs-lookup"><span data-stu-id="2601b-109">Mobility Policies</span></span>](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)
+[<span data-ttu-id="fae94-109">Directivas de movilidad</span><span class="sxs-lookup"><span data-stu-id="fae94-109">Mobility Policies</span></span>](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx)
