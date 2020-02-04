@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos del sistema'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System requirements
 ms:assetid: 9d4d1e6f-f6ed-4263-8425-3f72b415e2a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205115(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 758e9df3c40e682b5bb06e355d923119d298df2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6af1d9bd6fdb02b31f81d70199cb71c960296013
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850519"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34850519"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="system-requirements-for-lync-server-2013"></a><span data-ttu-id="92399-102">Requisitos del sistema para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92399-102">System requirements for Lync Server 2013</span></span>
+# <a name="system-requirements-for-lync-server-2013"></a><span data-ttu-id="5051a-102">Requisitos del sistema para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5051a-102">System requirements for Lync Server 2013</span></span>
 
 </div>
 
@@ -33,23 +35,23 @@ ms.locfileid: "34850519"
 
 <span> </span>
 
-<span data-ttu-id="92399-103">_**Última modificación del tema:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="92399-103">_**Topic Last Modified:** 2012-06-20_</span></span>
+<span data-ttu-id="5051a-103">_**Última modificación del tema:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="5051a-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-<span data-ttu-id="92399-104">En esta sección se explican los requisitos del sistema para implementar Lync Server 2013 y todos los componentes asociados.</span><span class="sxs-lookup"><span data-stu-id="92399-104">This section discusses the system requirements for deploying Lync Server 2013 and all of the associated components.</span></span>
+<span data-ttu-id="5051a-104">En esta sección se explican los requisitos del sistema para implementar Lync Server 2013 y todos los componentes asociados.</span><span class="sxs-lookup"><span data-stu-id="5051a-104">This section discusses the system requirements for deploying Lync Server 2013 and all of the associated components.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="92399-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="92399-105">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="5051a-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="5051a-105">In This Section</span></span>
 
-  - [<span data-ttu-id="92399-106">Derechos de administrador y permisos requeridos para la instalación y la administración de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92399-106">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
+  - [<span data-ttu-id="5051a-106">Derechos de administrador y permisos requeridos para la instalación y la administración de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5051a-106">Administrator rights and permissions required for setup and administration of Lync Server 2013</span></span>](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md)
 
-  - [<span data-ttu-id="92399-107">Requisitos del sistema para servidores que ejecuten Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92399-107">System requirements for servers running Lync Server 2013</span></span>](lync-server-2013-system-requirements-for-servers-running-lync-server-2013.md)
+  - [<span data-ttu-id="5051a-107">Requisitos del sistema para servidores que ejecuten Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5051a-107">System requirements for servers running Lync Server 2013</span></span>](lync-server-2013-system-requirements-for-servers-running-lync-server-2013.md)
 
-  - [<span data-ttu-id="92399-108">Requisitos del sistema para SQL Server en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92399-108">System requirements for SQL Server in Lync Server 2013</span></span>](lync-server-2013-system-requirements-for-sql-server.md)
+  - [<span data-ttu-id="5051a-108">Requisitos del sistema para SQL Server en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5051a-108">System requirements for SQL Server in Lync Server 2013</span></span>](lync-server-2013-system-requirements-for-sql-server.md)
 
-  - [<span data-ttu-id="92399-109">Requisitos del sistema para herramientas de administración en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92399-109">System requirements for administration tools in Lync Server 2013</span></span>](lync-server-2013-system-requirements-for-administration-tools.md)
+  - [<span data-ttu-id="5051a-109">Requisitos del sistema para herramientas de administración en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5051a-109">System requirements for administration tools in Lync Server 2013</span></span>](lync-server-2013-system-requirements-for-administration-tools.md)
 
-  - [<span data-ttu-id="92399-110">Requisitos de DNS para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="92399-110">DNS requirements for Lync Server 2013</span></span>](lync-server-2013-dns-requirements.md)
+  - [<span data-ttu-id="5051a-110">Requisitos de DNS para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5051a-110">DNS requirements for Lync Server 2013</span></span>](lync-server-2013-dns-requirements.md)
 
 </div>
 

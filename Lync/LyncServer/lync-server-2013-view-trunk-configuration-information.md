@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información de configuración troncal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View trunk configuration information
 ms:assetid: ebe10e14-08c2-4797-9254-9ed89516d5cd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721927(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733862
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abf496382ed33b95e8de9f387a8623fb0984ed28
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77f53a4263fd0e0b64ccd6894d27e30c0c5be95c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850091"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34850091"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-trunk-configuration-information-in-lync-server-2013"></a><span data-ttu-id="b1611-102">Ver la información de configuración troncal en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="b1611-102">View trunk configuration information in Lync Server 2013</span></span>
+# <a name="view-trunk-configuration-information-in-lync-server-2013"></a><span data-ttu-id="7299b-102">Ver la información de configuración troncal en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="7299b-102">View trunk configuration information in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,43 +35,43 @@ ms.locfileid: "34850091"
 
 <span> </span>
 
-<span data-ttu-id="b1611-103">_**Última modificación del tema:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="b1611-103">_**Topic Last Modified:** 2013-02-22_</span></span>
+<span data-ttu-id="7299b-103">_**Última modificación del tema:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="7299b-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-<span data-ttu-id="b1611-104">Los ajustes de configuración del tronco del SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red de telefonía pública conmutada (RTC), una central de conmutación (PBX) IP o un controlador de borde de sesión (SBC) en el proveedor de servicios.</span><span class="sxs-lookup"><span data-stu-id="b1611-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="b1611-105">Estas opciones de configuración especifican:</span><span class="sxs-lookup"><span data-stu-id="b1611-105">These settings do such things as specify:</span></span>
+<span data-ttu-id="7299b-104">Los ajustes de configuración del tronco del SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red de telefonía pública conmutada (RTC), una central de conmutación (PBX) IP o un controlador de borde de sesión (SBC) en el proveedor de servicios.</span><span class="sxs-lookup"><span data-stu-id="7299b-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="7299b-105">Estas opciones de configuración especifican:</span><span class="sxs-lookup"><span data-stu-id="7299b-105">These settings do such things as specify:</span></span>
 
-  - <span data-ttu-id="b1611-106">Si se debe activar la omisión de medios en los troncos.</span><span class="sxs-lookup"><span data-stu-id="b1611-106">Whether media bypass should be enabled on the trunks.</span></span>
+  - <span data-ttu-id="7299b-106">Si se debe activar la omisión de medios en los troncos.</span><span class="sxs-lookup"><span data-stu-id="7299b-106">Whether media bypass should be enabled on the trunks.</span></span>
 
-  - <span data-ttu-id="b1611-107">Las condiciones en que se envían paquetes de protocolo de control de transporte (RTCP) en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="b1611-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
+  - <span data-ttu-id="7299b-107">Las condiciones en que se envían paquetes de protocolo de control de transporte (RTCP) en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="7299b-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
 
-  - <span data-ttu-id="b1611-108">Si se requiere o no cifrado de protocolo en tiempo real seguro (SRTP) en cada tronco.</span><span class="sxs-lookup"><span data-stu-id="b1611-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
+  - <span data-ttu-id="7299b-108">Si se requiere o no cifrado de protocolo en tiempo real seguro (SRTP) en cada tronco.</span><span class="sxs-lookup"><span data-stu-id="7299b-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
 
-<span data-ttu-id="b1611-109">Al instalar Microsoft Lync Server 2013, se crea una colección global de parámetros de configuración del tronco del SIP.</span><span class="sxs-lookup"><span data-stu-id="b1611-109">When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="b1611-110">Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC).</span><span class="sxs-lookup"><span data-stu-id="b1611-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span>
+<span data-ttu-id="7299b-109">Al instalar Microsoft Lync Server 2013, se crea una colección global de parámetros de configuración del tronco del SIP.</span><span class="sxs-lookup"><span data-stu-id="7299b-109">When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="7299b-110">Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC).</span><span class="sxs-lookup"><span data-stu-id="7299b-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span>
 
 <div>
 
-## <a name="to-view-sip-trunk-configuration-information-by-using-lync-server-control-panel"></a><span data-ttu-id="b1611-111">Para ver la información de configuración del tronco de SIP mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="b1611-111">To view SIP trunk configuration information by using Lync Server Control Panel</span></span>
+## <a name="to-view-sip-trunk-configuration-information-by-using-lync-server-control-panel"></a><span data-ttu-id="7299b-111">Para ver la información de configuración del tronco de SIP mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="7299b-111">To view SIP trunk configuration information by using Lync Server Control Panel</span></span>
 
-1.  <span data-ttu-id="b1611-112">En el panel de control de Lync Server, haga clic en **enrutamiento de voz** y luego en **configuración troncal**.</span><span class="sxs-lookup"><span data-stu-id="b1611-112">In Lync Server Control Panel, click **Voice Routing** and then click **Trunk Configuration**.</span></span>
+1.  <span data-ttu-id="7299b-112">En el panel de control de Lync Server, haga clic en **enrutamiento de voz** y luego en **configuración troncal**.</span><span class="sxs-lookup"><span data-stu-id="7299b-112">In Lync Server Control Panel, click **Voice Routing** and then click **Trunk Configuration**.</span></span>
 
-2.  <span data-ttu-id="b1611-113">En la pestaña **configuración de tronco** verá una lista de toda la colección de valores de configuración de troncal; para cada colección verá los valores de las propiedades de **nombre**, **ámbito**, **Estado**y **omisión de elementos multimedia** , junto con el número de **usos de RTC**, **las reglas de números de llamadas**y **las reglas de números** asociados a las mismas. con la colección.</span><span class="sxs-lookup"><span data-stu-id="b1611-113">On the **Trunk Configuration** tab you will see a list of all your trunk configuration settings collection; for each collection you will see values for the **Name**, **Scope**, **State**, and **Media bypass** properties, along with the number of **PSTN usages**, **Calling number rules**, and **Called number rules** associated with the collection.</span></span> <span data-ttu-id="b1611-114">Para ver más detalles sobre una colección de valores de configuración del tronco, haga clic en la colección de interés, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.</span><span class="sxs-lookup"><span data-stu-id="b1611-114">To see additional details about a collection of trunk configuration settings, click the collection of interest, click **Edit**, and then click **Show details**.</span></span> <span data-ttu-id="b1611-115">Tenga en cuenta que solo puede ver información detallada de una colección de valores de configuración de troncales a la vez.</span><span class="sxs-lookup"><span data-stu-id="b1611-115">Note that you can view detailed information only for one collection of trunk configuration settings at a time.</span></span>
+2.  <span data-ttu-id="7299b-113">En la pestaña **configuración de tronco** verá una lista de toda la colección de valores de configuración de troncal; para cada colección verá valores para las propiedades **nombre**, **ámbito**, **Estado**y omisión de **elementos multimedia** , junto con el número de **usos de RTC**, **las reglas de números de llamadas**y **las reglas numéricas** asociadas a la colección.</span><span class="sxs-lookup"><span data-stu-id="7299b-113">On the **Trunk Configuration** tab you will see a list of all your trunk configuration settings collection; for each collection you will see values for the **Name**, **Scope**, **State**, and **Media bypass** properties, along with the number of **PSTN usages**, **Calling number rules**, and **Called number rules** associated with the collection.</span></span> <span data-ttu-id="7299b-114">Para ver más detalles sobre una colección de valores de configuración del tronco, haga clic en la colección de interés, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.</span><span class="sxs-lookup"><span data-stu-id="7299b-114">To see additional details about a collection of trunk configuration settings, click the collection of interest, click **Edit**, and then click **Show details**.</span></span> <span data-ttu-id="7299b-115">Tenga en cuenta que solo puede ver información detallada de una colección de valores de configuración de troncales a la vez.</span><span class="sxs-lookup"><span data-stu-id="7299b-115">Note that you can view detailed information only for one collection of trunk configuration settings at a time.</span></span>
 
 </div>
 
 <div>
 
-## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="b1611-116">Visualización de la información de configuración del tronco de SIP mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="b1611-116">Viewing SIP Trunk Configuration Information by Using Windows PowerShell Cmdlets</span></span>
+## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="7299b-116">Visualización de la información de configuración del tronco de SIP mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="7299b-116">Viewing SIP Trunk Configuration Information by Using Windows PowerShell Cmdlets</span></span>
 
-<span data-ttu-id="b1611-117">Los ajustes de configuración del tronco de SIP se pueden ver con Lync Server PowerShell y el cmdlet Get-CsTrunkConfiguration.</span><span class="sxs-lookup"><span data-stu-id="b1611-117">SIP trunk configuration settings can be viewed by using Lync Server PowerShell and the Get-CsTrunkConfiguration cmdlet.</span></span> <span data-ttu-id="b1611-118">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="b1611-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session Windows PowerShell.</span></span> <span data-ttu-id="b1611-119">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="b1611-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+<span data-ttu-id="7299b-117">Los ajustes de configuración del tronco de SIP se pueden ver con Lync Server PowerShell y el cmdlet Get-CsTrunkConfiguration.</span><span class="sxs-lookup"><span data-stu-id="7299b-117">SIP trunk configuration settings can be viewed by using Lync Server PowerShell and the Get-CsTrunkConfiguration cmdlet.</span></span> <span data-ttu-id="7299b-118">Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="7299b-118">This cmdlet can be run either from the Lync Server 2013 Management Shell or from a remote session Windows PowerShell.</span></span> <span data-ttu-id="7299b-119">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="7299b-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
 <div>
 
-## <a name="to-view-sip-trunk-configuration-information"></a><span data-ttu-id="b1611-120">Para ver la información de configuración del tronco del SIP</span><span class="sxs-lookup"><span data-stu-id="b1611-120">To view SIP trunk configuration information</span></span>
+## <a name="to-view-sip-trunk-configuration-information"></a><span data-ttu-id="7299b-120">Para ver la información de configuración del tronco del SIP</span><span class="sxs-lookup"><span data-stu-id="7299b-120">To view SIP trunk configuration information</span></span>
 
-  - <span data-ttu-id="b1611-121">Para ver información sobre todos los valores de configuración del tronco del SIP, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="b1611-121">To view information about all your SIP trunk configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
+  - <span data-ttu-id="7299b-121">Para ver información sobre todos los valores de configuración del tronco del SIP, escriba el siguiente comando en el shell de administración de Lync Server y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="7299b-121">To view information about all your SIP trunk configuration settings, type the following command in the Lync Server Management Shell and then press ENTER:</span></span>
     
         Get-CsTrunkConfiguration
     
-    <span data-ttu-id="b1611-122">Devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="b1611-122">That will return information similar to this:</span></span>
+    <span data-ttu-id="7299b-122">Devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="7299b-122">That will return information similar to this:</span></span>
     
         Identity                                  : Global
         OutboundTranslationRulesList              : {}
@@ -98,7 +100,7 @@ ms.locfileid: "34850091"
 
 </div>
 
-<span data-ttu-id="b1611-123">Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="b1611-123">For more information, see the help topic for the [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet.</span></span>
+<span data-ttu-id="7299b-123">Para obtener más información, consulte el tema de ayuda para el cmdlet [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="7299b-123">For more information, see the help topic for the [Get-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTrunkConfiguration) cmdlet.</span></span>
 
 </div>
 
