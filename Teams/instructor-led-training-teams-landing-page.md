@@ -10,15 +10,15 @@ author: lolajacobsen
 audience: admin
 ms.author: lolaj
 ms.service: msteams
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.instructorled
 ms.collection:
 - M365-collaboration
-ms.openlocfilehash: a4f18ee6f2237748c44385a06ac74625f89d9015
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 55470cf91638f299b888e49365ca75f69682c47c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506872"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708739"
 ---
 <div id="main" class="v2">
     <div class="container">

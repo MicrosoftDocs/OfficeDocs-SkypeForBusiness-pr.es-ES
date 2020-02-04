@@ -14,16 +14,16 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.deploymentadvisor.overview
 ms.custom: ''
 description: Use el Asesor de Teams (versión preliminar) para ayudar a planear y completar la implementación de Microsoft Teams.
-ms.openlocfilehash: 0c5cd0b2bc01b213a10c7a9be79d9ec7dc307fbe
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: 0e9af496c6ebb3373bc8ec3542f4645ae7f67d4c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41004785"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41707736"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>Usar el Asesor de Teams para ayudar a implementar Microsoft Teams
 
