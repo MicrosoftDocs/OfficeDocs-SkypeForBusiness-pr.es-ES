@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Las configuraciones de archivado sirven para controlar las opciones de archivado de su implementación. Las configuraciones de archivado constan de la configuración global y, de forma opcional, de una o varias configuraciones de sitio y grupo:'
-ms.openlocfilehash: 68d5de88fc56441989e8ffc9ceabfd3236179d1f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c387095f40078246a1391af5968925a7b28caf2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291981"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691145"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuración de archivado: Crear nueva o editar existente
  
@@ -44,7 +44,7 @@ Especifique las siguientes opciones para configurar los ajustes de una nueva con
     
 - **Descripción** Esto es opcional. Utilícelo para proporcionar detalles adicionales, como el ámbito o el uso de la configuración. Por ejemplo, coordine con departamentos jurídicos de otros sitios.
     
-- **Configuración** de archivado Entre las opciones se incluyen las siguientes:
+- **Configuración de archivado** Entre las opciones se incluyen las siguientes:
     
   - **Archivar sesiones de mensajería instantánea (MI)**
     
@@ -52,7 +52,7 @@ Especifique las siguientes opciones para configurar los ajustes de una nueva con
     
   - **Deshabilitar archivado**
     
-- **Bloquear sesiones de mensajería instantánea (mi) o conferencias web si falla** el archivado Entre los errores se incluyen los siguientes:
+- **Bloquear sesiones de mensajería instantánea (mi) o conferencias web si falla el archivado** Entre los errores se incluyen los siguientes:
     
   - **Mensaje instantáneo** un error puede ser una base de datos completa o un problema con el servicio de almacenamiento. En este caso, la mensajería instantánea se bloquea para los usuarios que tienen el archivado habilitado.
     
@@ -71,5 +71,5 @@ Especifique las siguientes opciones para configurar los ajustes de una nueva con
     > [!NOTE]
     > Si habilita la integración de Microsoft Exchange, la depuración de usuarios alojados en Exchange y con sus buzones colocados en la conservación local está controlada por Exchange. La única excepción es para los archivos de conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention. 
   
-Para más información sobre la característica y capacidades de archivado, como la integración de Exchange, consulte [planear el archivado en Skype empresarial Server](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado para Skype empresarial Server](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype empresarial. Servidor](../../../manage/archiving/archiving.md).
+Para obtener información sobre la característica y capacidades de archivado, incluyendo la integración de Exchange, consulte [planear el archivado en Skype empresarial Server](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado para Skype empresarial Server](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype empresarial Server](../../../manage/archiving/archiving.md).
 

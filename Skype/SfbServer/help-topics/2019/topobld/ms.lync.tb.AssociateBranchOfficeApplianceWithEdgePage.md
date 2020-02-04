@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Si tiene servidores perimetrales implementados y debe proporcionar servicios multimedia para uso externo, elija el servidor perimetral o grupo de servidores que se asociará con el equipo de la sucursal o el servidor de sucursal que siga funcionando, seleccionándolo en la lista desplegable. Haga clic en siguiente para continuar.
-ms.openlocfilehash: d4076565e95786895eb012454056e0bc0ddf7619
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8fe50b48b079e255289e90eb1c4940737d801d3
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281349"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688853"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Asociar la aplicación de la sucursal con el perímetro
  

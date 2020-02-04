@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'En el generador de topología, puede realizar tareas relacionadas con un servidor individual que ejecute supervisión haciendo clic con el botón secundario en el servidor que ejecuta la supervisión en el árbol de consola, haciendo clic en acción en la barra de herramientas o haciendo clic en una tarea en el panel de acciones y, a continuación, haciendo clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:'
-ms.openlocfilehash: 2b1544d73ce324e908e03f491a76a260e972d520
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ab3565efefe7f11b4d65472e8b0a97e73ebd47c4
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289142"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688183"
 ---
 # <a name="monitoring-scope-node"></a>Nodo de ámbito de supervisión
  
-En el generador de topología, puede realizar tareas relacionadas con un servidor individual que ejecute supervisión haciendo clic con el botón secundario en el servidor que ejecuta la supervisión en el árbol de consola, haciendo clic en **acción** en la barra de herramientas o haciendo clic en una tarea en el panel de acciones y, a continuación, Haga clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:
+En el generador de topología, puede realizar tareas relacionadas con un servidor individual que ejecute supervisión haciendo clic con el botón secundario en el servidor que ejecuta la supervisión en el árbol de consola, haciendo clic en **acción** en la barra de herramientas o haciendo clic en una tarea en el panel de acciones y, a continuación, haciendo clic en una de las siguientes opciones para el servidor que ejecuta la supervisión:
   
 - **Editar propiedades**. Abre la página **Editar propiedades** del servidor que ejecuta la supervisión, donde puede cambiar el nombre de dominio completo (FQDN) del servidor que ejecuta la supervisión o la base de datos de supervisión de SQL Server.
     

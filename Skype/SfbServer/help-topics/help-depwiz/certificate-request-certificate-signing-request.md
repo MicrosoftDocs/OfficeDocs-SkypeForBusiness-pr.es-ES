@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestCSRFile
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Para crear una solicitud sin conexión, primero debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo del CSR en el cuadro de texto nombre de archivo. Puede hacer clic en examinar para elegir una ubicación donde crear el CSR. Haga clic en siguiente para continuar.
-ms.openlocfilehash: 0918776a9ed04ea76a9344678b0f8ddd16d52052
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a62f93755d8e7898d2555c39f61b198903459c1e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302061"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687783"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Solicitud de certificado (solicitud de firma de certificado)
  

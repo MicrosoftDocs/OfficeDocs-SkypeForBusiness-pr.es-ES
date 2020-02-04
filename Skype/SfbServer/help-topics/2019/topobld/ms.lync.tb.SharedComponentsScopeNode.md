@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Haga clic con el botón secundario en componentes compartidos en el árbol de jerarquía del generador de topología para crear nuevos componentes compartidos o para obtener acceso a opciones de nivel de topología.
-ms.openlocfilehash: 6325eeff420b480e36fa36eb80ddc2e606b48cd5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 912d85b6dd05a583015ff6a0d67e57455be5a057
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303196"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688003"
 ---
 # <a name="shared-components-scope-node"></a>Nodo de ámbito de componentes compartidos
  
-Haga clic con el botón secundario en **componentes** compartidos en el árbol de jerarquía del generador de topología para crear nuevos componentes compartidos o para obtener acceso a opciones de nivel de topología.
+Haga clic con el botón secundario en **componentes compartidos** en el árbol de jerarquía del generador de topología para crear nuevos componentes compartidos o para obtener acceso a opciones de nivel de topología.
   
 ![Nodo de ámbito de componentes compartidos](../../../media/Shared_Components_Scope_Node.jpg)
   

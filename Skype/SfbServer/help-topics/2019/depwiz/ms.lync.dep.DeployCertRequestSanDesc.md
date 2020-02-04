@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployCertRequestSanDesc
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página nombre del sujeto/nombres alternativos de asunto presenta un resumen del nombre del asunto y todos los nombres alternativos del sujeto que rellenarán el certificado. Los nombres que se presentan para el nombre del asunto y los nombres alternativos del sujeto se recopilan del documento de definición, tal como se creó al definir la implementación en Topology Builder.
-ms.openlocfilehash: 43bc61a0a67a00c681b9d8a56331340c7d65369d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e731d0cebf405150a1bdbb2674d4f411193b83d1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299247"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691995"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>Solicitud de certificado (nombres alternativos de sujeto)
  

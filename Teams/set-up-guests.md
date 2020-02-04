@@ -14,15 +14,15 @@ search.appverid: MET150
 description: Active o desactive el acceso de invitado en Microsoft Teams.
 ms.custom:
 - NewAdminCenter_Update
-f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20971fd985d4512e8a9bf00db23092f1a6e44702
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: 357ada56590bb42655e1a45a6e27ab7dac1c4167
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753355"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693645"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 ===================================================
@@ -80,6 +80,6 @@ Leer [use PowerShell para activar o desactivar el acceso de invitados](guest-acc
 | Agregar invitados en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/1daMBDyBLZc" frameborder="0" allowfullscreen></iframe>   | 
 
 
-## <a name="external-access-federation-vs-guest-access"></a>Acceso externo (Federación) frente a acceso de invitados
+## <a name="external-access-federation-vs-guest-access"></a>Acceso externo (federación) frente a acceso de invitado
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]

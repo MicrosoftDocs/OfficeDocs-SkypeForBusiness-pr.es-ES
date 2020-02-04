@@ -16,21 +16,21 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.NumberActivationStateIncomplete
 ms.custom:
 - Calling Plans
 description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
-ms.openlocfilehash: 48a0d06241af18b1d36d9bc23293f2a2cd3de004
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 0fd510ecd3d465407668f47dbc233d51b35a5735
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793388"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692275"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>¿Por qué la activación del número se incluye como incompleta?
 
-La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Si, por algún motivo, un número de teléfono no está activado **** y aparece como incompleto por la validación de la dirección, tendrá que crear y enviar una solicitud de servicio. La forma que elija para hacerlo depende del tamaño de su organización.
+La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Si, por algún motivo, un número de teléfono no está activado y aparece como **incompleto** por la validación de la dirección, tendrá que crear y enviar una solicitud de servicio. La forma que elija para hacerlo depende del tamaño de su organización.
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>Para organizaciones de 150 o menos, siga estos pasos.
 1. En el centro de administración, elija ¿ **necesita ayuda**?

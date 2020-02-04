@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.lync.lac.OrgPresencePrivacy
 ms.custom:
 - Setup
 description: 'Obtenga información sobre cómo configurar el modo de privacidad para sus usuarios para que puedan controlar mejor la forma en que las personas ven su disponibilidad. '
-ms.openlocfilehash: 42c902c11cd54d97e94499e23ac769161cfebbb9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e55d1533c8889801eaaf9fc4ba09716b12334b04
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285318"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692935"
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurar el modo de privacidad de presencia
 
@@ -33,7 +33,7 @@ La configuración de presencia de Skype empresarial online ofrece más control a
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Elegir la configuración de presencia en línea predeterminada para todos los usuarios de su organización
 <a name="__top"> </a>
 
-1. Vaya al centro de administración de Skype empresarial online > **Organization _GT_ general**.
+1. Vaya al centro de administración de Skype empresarial online > **organización > general**.
     
 2. En **modo de privacidad de presencia**, elija la configuración y, a continuación, haga clic en **Guardar**.
     

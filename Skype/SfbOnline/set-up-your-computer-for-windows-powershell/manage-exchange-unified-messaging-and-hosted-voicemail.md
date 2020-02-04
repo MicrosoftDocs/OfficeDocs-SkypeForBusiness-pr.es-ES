@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - PowerShell
 description: Use PowerShell para administrar las capacidades de mensajería unificada de Exchange, como el acceso de operador automático y el buzón de voz hospedado en Skype empresarial online.
-ms.openlocfilehash: 4bc953307059a1679ad435b3674befe824e34056
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d0c2ff8cad705a2d00685e2c6935616ab8d64ac9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284704"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692685"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Administrar la mensajería unificada de Exchange y el correo de voz hospedado
 

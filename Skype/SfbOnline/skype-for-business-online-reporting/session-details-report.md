@@ -14,16 +14,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
-ms.openlocfilehash: faee3d0a4f2228ddc32121bf85cc2f6b3018f2cc
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 58f3c42c0a0188d4a2858e6b6b0a5bed93dfc72d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35793066"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692355"
 ---
 # <a name="session-details-report"></a>Informe de detalles de la sesión
 
@@ -69,7 +70,7 @@ Este es el aspecto del informe.
 *    **Identificador de cuadro de diálogo** es el identificador del identificador único de la sesión SIP.
 *    **Media Types Description** describe si la sesión es una llamada en conferencia o una sesión P2P y el tipo de medio usado (audio/vídeo/aplicación compartida).
 *    La **hora de inicio** es la hora a la que se inició la sesión.
-*    **Hora** de finalización es la hora de finalización de la sesión.
+*    **Hora de finalización** es la hora de finalización de la sesión.
 *    **From URI** es el identificador URI del usuario o servicio que inició la sesión. Puede estar en blanco si el usuario ha iniciado la sesión desde un teléfono PSTN.
 *    **To URI** es el identificador URI del usuario o servicio que era el destino del inicio de sesión. En el caso de la Conferencia, este es el URI del organizador. Puede estar en blanco si el destino de la sesión era un número de teléfono RTC.
 *    **Desde la versión de cliente** , se indica el agente de usuario y la versión del cliente que ha usado el usuario o servicio que inició la sesión.

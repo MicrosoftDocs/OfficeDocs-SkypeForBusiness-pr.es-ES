@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué teléfonos funcionan con Skype for Business de Polycom, HP y Mitel, y las licencias necesarias. '
-ms.openlocfilehash: ac3b262a9888acb95eef4e2e8822abc3441617c4
-ms.sourcegitcommit: 2f12e0d4dc2ef8e848a63bf3a9c63e07e4439cf5
+ms.openlocfilehash: e852d54a1189ed8de7561e64809b1fc782fa644a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35587938"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692255"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos para Skype for Business Online
 
@@ -99,14 +100,14 @@ Para obtener las características y capacidades completas del dispositivo, consu
 |Controles de reunión  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
 |Correo de voz visual  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
 |Bloqueo de teléfono  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
-|Actualización de dispositivo  <br/> |Sí  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
-|Aprovisionamiento en banda  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
+|Actualización de dispositivo  <br/> |Sí  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |
+|Aprovisionamiento en banda  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |
 |QoE  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |No  <br/> |
-|Carga de registros  <br/> <br/> **Nota:** Actualmente, todos los registros se cargan solo en el equipo de soporte técnico de Microsoft; el acceso a los registros telefónicos del cliente aún no está disponible.           |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
+|Carga de registros  <br/> <br/> **Nota:** Actualmente, todos los registros se cargan solo en el equipo de soporte técnico de Microsoft; el acceso a los registros telefónicos del cliente aún no está disponible.           |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |
 |Autenticación moderna  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |No  <br/> |
-|Varios números de emergencia  <br/> |Sí  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Sí  <br/> |
-|Integración con el calendario de Exchange*  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> <br/> **Nota:** Requiere tethering en el equipo           |
-|Integración de presencia  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
+|Varios números de emergencia  <br/> |Sí  <br/> |No  <br/> |No  <br/> |Sí  <br/> |
+|Integración con el calendario de Exchange*  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> <br/> **Nota:** Requiere tethering en el equipo           |
+|Integración de presencia  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |
 |Directorio corporativo  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
 |Delegación  <br/> |Sí  <br/> |Sí   <br/> |Sí  <br/> |No  <br/> |
 |Integración de imagen de contacto  <br/> |No  <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |

@@ -18,16 +18,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: bb37794cbf034c05c6e0bd856fbd42695ee508b5
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 492d484074687c1aff3cb59716091a4502cbba6a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570826"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693595"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restricciones de marcado de número gratuito en India
 
@@ -43,7 +44,7 @@ ms.locfileid: "37570826"
 |Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
 |Disponibilidad de línea fija/por cable  <br/> |Parcial. Ver comentarios.  <br/> |
 |Disponibilidad de red móvil  <br/> |Parcial. Ver comentarios.  <br/> |
-|Comentarios, restricciones y problemas de acceso  <br/> |Acceso disponible desde las siguientes redes: loop móvil, BSNL: corregido (todas las regiones, excepto Bhopal), Vodafone, IDEA o picante (todas las regiones pero Punjab picante), MTS India/Shyam (corregido), &amp; MTNL: móvil fijo, redependencia (todas las regiones excepto Ahmedabad, Bhopal, Bhuneswer , Jaipur, Lucknow, Meerut), TTML &amp; TTSL (devolución &amp; fija), Tata DoCoMo, HFCL Infotel/ping móvil, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-Mobile, Bharti/Airtel Network.  <br/> Access no está disponible en las siguientes redes: TTSL (prepagar), Etisalat DB Telecom y Jio.  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Acceso disponible desde las siguientes redes: loop móvil, BSNL-fixed (todas las regiones, excepto Bhopal), Vodafone, IDEA/picante (todas las regiones pero Punjab picante), MTS India/Shyam (corregido), MTNL &amp; : móvil fijo, dependencia (todas las regiones, excepto Ahmedabad, Bhopal, Bhuneswer, Jaipur, Lucknow, Meerut &amp; ), TTML &amp; TTSL (postpagar fijo), Tata, HFCL Infotel/ping Mobile,, teléfono móvil,, Uninor, Videocon, BSNL/Bharti Network.  <br/> Access no está disponible en las siguientes redes: TTSL (prepagar), Etisalat DB Telecom y Jio.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)

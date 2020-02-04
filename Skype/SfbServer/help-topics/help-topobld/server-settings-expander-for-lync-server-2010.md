@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 'Para editar las propiedades de este equipo, haga lo siguiente:'
-ms.openlocfilehash: 28261b3637040acda70218f23101b4337b1f90c3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: da1029b6298d85aab8a80af1c52b152e040fbd80
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297613"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684413"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>Expansor de configuración de servidor para Lync Server 2010
  
@@ -28,7 +28,7 @@ Para editar las propiedades de este equipo, haga lo siguiente:
     
 - Seleccione una de las opciones siguientes:
     
-    **Usar todas las direcciones IP**configuradas: Seleccione esta para usar todas las direcciones IP configuradas en el equipo.
+    **Usar todas las direcciones IP configuradas**: Seleccione esta para usar todas las direcciones IP configuradas en el equipo.
     
     > [!IMPORTANT]
     > Si el equipo tiene varias direcciones IP, debe tener en cuenta que los servicios asociados con este equipo usarán todas las direcciones IP para todos los servicios. Si un servidor o servicio de escucha espera la comunicación de una dirección IP y un puerto específicos, es posible que el servicio no haga la mejor selección de la dirección IP en la que escuchar. 

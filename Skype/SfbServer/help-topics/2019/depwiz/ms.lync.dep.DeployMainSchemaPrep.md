@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar el esquema para servicios de dominio de Active Directory, ejecute el paso preparar el esquema en el Asistente para la implementación de Skype empresarial Server. Haga clic en Ejecutar para comenzar la preparación del esquema.
-ms.openlocfilehash: e48ae4ff28cf0423d3a29ae9f7d637cb8a58297c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4b0d24ff89badf1b026e6c57a4fbb75f2d46936f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288214"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691805"
 ---
 # <a name="prepare-schema"></a>Preparar esquema
  

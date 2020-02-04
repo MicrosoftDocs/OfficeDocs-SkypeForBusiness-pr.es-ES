@@ -16,21 +16,21 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords:
+f1.keywords:
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 073c84781e2345f3a4fb2c00515153679678c84f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 18e568e226f62b4704ee3a392eacf54a31950c71
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290532"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692265"
 ---
 # <a name="your-port-order-was-accepted"></a>Se ha aceptado su solicitud de portabilidad
 
-Tu solicitud de portabilidad está aprobada. Busque sus números de teléfono en los**** > **números de teléfono**de telefonía del **Centro** > de administración de Skype empresarial.
+Tu solicitud de portabilidad está aprobada. Busque sus números de teléfono en los > **números de teléfono****de telefonía del** **Centro** > de administración de Skype empresarial.
   
  **IMPORTANTE**: Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype Empresarial, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia del complemento **Sistema telefónico** o una licencia del complemento **Audioconferencia**.
   

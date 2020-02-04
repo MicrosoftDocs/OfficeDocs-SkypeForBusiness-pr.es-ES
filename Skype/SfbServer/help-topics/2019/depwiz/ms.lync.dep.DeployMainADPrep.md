@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainADPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para comenzar la instalación de Skype empresarial Server, debe preparar el esquema, el bosque y los dominios de los servicios de dominio de Active Directory que alojarán los servidores y los usuarios. El Asistente de implementación de Skype empresarial Server le guiará a través de los pasos necesarios para preparar Active Directory, empezando con el esquema y luego en la preparación del bosque. Después de confirmar que la replicación de Active Directory se realiza correctamente, prepare todos los dominios que hospedarán usuarios o servidores.
-ms.openlocfilehash: e4de6019303b53a1828d7ee271194ebca107b0c5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1cb997223a9f613bac4aeeec45d3a029d4436e18
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276299"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41691865"
 ---
 # <a name="prepare-active-directory"></a>Preparar Active Directory
 

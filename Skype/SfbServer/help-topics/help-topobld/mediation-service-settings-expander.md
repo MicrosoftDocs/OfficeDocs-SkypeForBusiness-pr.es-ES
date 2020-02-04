@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 'Puede especificar lo siguiente en relación con un servidor de mediación:'
-ms.openlocfilehash: fcff87faeb5911d12806f80499c2b2f0d63caff3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a6e0321ddde79a088610e9e2b1c79739c68b2b90
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285606"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684513"
 ---
 # <a name="mediation-service-settings-expander"></a>Expansor de configuración del servidor de mediación
 
 Puede especificar lo siguiente en relación con un **servidor de mediación**:
 
-Si collocating el servidor de mediación en el grupo de servidores front-end o el servidor Standard Edition, seleccione la casilla **servidor**de mediación con el que se ha habilitado. Si decide no collocater el servidor de mediación, no hay ninguna configuración que se pueda definir en esta sección.
+Si collocating el servidor de mediación en el grupo de servidores front-end o el servidor Standard Edition, seleccione la casilla **servidor de mediación**con el que se ha habilitado. Si decide no collocater el servidor de mediación, no hay ninguna configuración que se pueda definir en esta sección.
 
 Si ha habilitado la collocation del servidor de mediación, debe definir el intervalo de puertos de escucha en el servidor para seguridad de la capa de transporte (TLS). Este puerto es 5067 de forma predeterminada. Si selecciona **Habilitar puerto TCP**, necesita definir un puerto TCP para el servidor de mediación combinado. Se trata de una configuración opcional; recomendamos consultar los requisitos de la puerta de enlace o los de la RTC para saber si esto es realmente necesario. El valor de este puerto es 5068 de forma predeterminada.
 

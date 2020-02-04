@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Seleccione las bases de datos que desea crear para su implementación. De forma predeterminada, la base de datos se creará en el SQL Server definido del sitio definido e implementará y configurará automáticamente los archivos de base de datos basándose en el SQL Server en el que está colocando las bases de datos.
-ms.openlocfilehash: f4ee4bb5c5b6dcfe66680fdc163930470f1b50a5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 884043cc1197c60b98c455882740d09157ab3228
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291682"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41688543"
 ---
 # <a name="install-and-create-databases"></a>Instalar y crear bases de datos
 

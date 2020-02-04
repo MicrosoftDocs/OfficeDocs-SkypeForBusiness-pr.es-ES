@@ -15,16 +15,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Optimization
 description: 'Learn about using Azure ExpressRoute to have a network with bandwidth requirements and Quality of Service capability for a business class user experience. '
-ms.openlocfilehash: e42cf42caafbb5ecd43b3660608a23d20cf8814e
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: f638a154e379d065d355010160bf8dff0ecc1b78
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221251"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693085"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute y QoS en Skype Empresarial Online
 
@@ -70,7 +71,7 @@ Dewey Law, LLC. es un bufete relativamente nuevo, y los abogados y otros miembro
 |Asociados  <br/> |300  <br/> |100  <br/> |veinte  <br/> |base10  <br/> |
 |Asistente jurídico  <br/> |400  <br/> |125  <br/> |0,30  <br/> |4,5  <br/> |
 |Administradores ejecutivos  <br/> |100  <br/> |35  <br/> |6  <br/> |3  <br/> |
-|TI y administrativos generales  <br/> |100  <br/> |veinticinco  <br/> |3  <br/> |2  <br/> |
+|TI y administrativos generales  <br/> |100  <br/> |veinticinco  <br/> |3  <br/> |1  <br/> |
 |Total por sitio  <br/> |1.070  <br/> |345  <br/> |70  <br/> |36  <br/> |
 |Total por clase de sitio  <br/> |1.070  <br/> |1.035  <br/> |1.680  <br/> |1.800  <br/> |
    
@@ -325,7 +326,7 @@ IEEE 802.1p usa un punto de código de prioridad (PCP) de 3 bits para identifica
 |5  <br/> |5  <br/> |VO  <br/> |Voz  <br/> |
 |4  <br/> |4  <br/> |VI  <br/> |Vídeo  <br/> |
 |3  <br/> |3  <br/> |CA  <br/> |Aplicaciones críticas  <br/> |
-|2  <br/> |2  <br/> |EE  <br/> |Esfuerzo excelente  <br/> |
+|2  <br/> |1  <br/> |EE  <br/> |Esfuerzo excelente  <br/> |
 |,0  <br/> |1  <br/> |BE  <br/> |Mejor esfuerzo  <br/> |
 |1  <br/> |,0  <br/> |BK  <br/> |Fondo  <br/> |
    
@@ -364,7 +365,7 @@ Aquí se muestra la asociación recomendada de las prioridades de la capa 3 con 
 |Valor de DSCP: 34  <br/> |
 |Señalización de llamadas  <br/> |Comportamiento por salto (PHB): selector de clases (CS) 3  <br/> |3  <br/> |2(AC_VI)  <br/> |
 |Valor de DSCP: 24  <br/> |
-|Datos de baja latencia  <br/> |Comportamiento por salto (PHB): desvío garantizado (AF) 21  <br/> |2  <br/> |3(AC_BE)  <br/> |
+|Datos de baja latencia  <br/> |Comportamiento por salto (PHB): desvío garantizado (AF) 21  <br/> |1  <br/> |3(AC_BE)  <br/> |
 |Valor de DSCP: 18  <br/> |
 |Datos de alto rendimiento  <br/> |Comportamiento por salto (PHB): desvío garantizado (AF) 11  <br/> |1  <br/> |3(AC_BE)  <br/> |
 |Valor de DSCP: 10  <br/> |

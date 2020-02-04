@@ -15,15 +15,16 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom: None
 description: Más información sobre el buzón de voz en la nube.
-ms.openlocfilehash: 67b7eededc906e1adf46d70e2311e7ad12bff73a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c5d5cf27a1cf944c8b837168aceae5da62a5495
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301245"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692495"
 ---
 # <a name="license-options-based-on-your-plan"></a>Opciones de licencias en función de su plan
 

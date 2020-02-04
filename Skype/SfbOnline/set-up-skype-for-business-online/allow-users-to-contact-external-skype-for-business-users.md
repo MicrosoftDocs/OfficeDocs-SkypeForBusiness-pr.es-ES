@@ -14,7 +14,10 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1_keywords:
+f1.keywords:
+- CSH
+ms.custom:
+- Setup
 - For O365M_ShareLync
 - ms.lync.lac.OrgExternalAccess
 - ms.lync.lac.skypefederation
@@ -23,16 +26,14 @@ f1_keywords:
 - O365M_ShareLync
 - O365P_ExternalCommDesc
 - O365P_ShareLync
-ms.custom:
-- Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 570861f532371dc8eca253956ffdd200e60f5990
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bc0a59487d3cfd3e5721d60213d367c750349604
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792688"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41692945"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial
 
@@ -68,7 +69,7 @@ Para ello, debe tener [permisos de administrador](https://support.office.com/en-
     
     O BIEN, si desea habilitar la comunicación con todo el mundo que tenga directivas de Skype Empresarial abiertas, seleccione **Activado excepto para los dominios bloqueados**. Esta es la configuración predeterminada.
     
-6. En **dominios bloqueados o**permitidos **+** , elija y agregue el nombre del dominio que desea permitir.
+6. En **dominios bloqueados o permitidos**, elija **+** y agregue el nombre del dominio que desea permitir.
     
 7. Asegúrese de que el administrador de la otra organización Realice estos mismos pasos en el **centro de administración de Skype empresarial**. Por ejemplo, en su lista de **dominios permitidos**, el otro administrador tendrá que especificar el dominio de la empresa de la que usted forma parte.
     
@@ -126,7 +127,7 @@ Después de habilitar la comunicación externa para toda su empresa, puede desac
   
 1. Inicie sesión con su cuenta de administrador de Office 365.
     
-2. En el centro de administración, vaya **** > a usuarios**activos**.
+2. En el centro de administración, vaya **a** > usuarios**activos**.
     
 3. En la lista de usuarios, elija el usuario y, a continuación, en **Más configuraciones**, haga clic en **Editar propiedades de Skype Empresarial**.
     
