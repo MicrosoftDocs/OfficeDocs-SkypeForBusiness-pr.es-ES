@@ -3,6 +3,8 @@ title: Introducción a la escalabilidad de conferencias de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Lync Server 2013 conferencing scalability
 ms:assetid: 12da650b-4361-4487-91cb-1a2e9a0a7e19
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204687(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183461
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b76e32dc6a8dff8d3aa8aa94731095fa3be7e9a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a65fe1ddd19046c1d6b424031d27127965f3849f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842460"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

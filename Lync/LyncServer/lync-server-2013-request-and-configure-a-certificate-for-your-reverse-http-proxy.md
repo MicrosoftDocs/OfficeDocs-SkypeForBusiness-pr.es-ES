@@ -3,6 +3,8 @@ title: Solicitar y configurar un certificado para el proxy HTTP inverso
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Request and configure a certificate for your reverse HTTP proxy
 ms:assetid: 4b70991e-5f10-40a3-b069-0b227c3a3a0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429704(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184085
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ffe1ce6a4b206b927b2fcdec4c02b905e01d5bd1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2597bf31c9f0cc9f4316f505811426f2c9948a6f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823311"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41723860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -144,7 +146,7 @@ Crear una solicitud de certificado en el proxy inverso. Usted crea una solicitud
 
 
 > [!TIP]
-> Si planea los certificados de su servidor perimetral y los certificados de proxy inverso al mismo tiempo, debe tener en cuenta que hay una gran similitud entre los dos requisitos de los certificados. Cuando configure y solicite el certificado del servidor perimetral, combine los nombres alternativos con el servidor perimetral y el proxy inverso. Puede usar el mismo certificado para el proxy inverso si exporte el certificado y la clave privada, y copie el archivo exportado en el proxy inverso y, a continuación, importe el par de certificado o clave y asígnelo según sea necesario en los procedimientos que se describen a continuación. Consulte los requisitos de certificado para el plan de&nbsp;servidores perimetrales<A href="lync-server-2013-plan-for-edge-server-certificates.md">para los certificados de servidor perimetral en Lync Server 2013</A> y el resumen del certificado de proxy inverso <A href="lync-server-2013-certificate-summary-reverse-proxy.md">: proxy inverso en Lync Server 2013</A>. Asegúrese de crear el certificado con una clave privada exportable. La creación del certificado y de la solicitud de certificados con una clave privada exportable es necesaria para los servidores perimetrales agrupados, por lo que esto es una práctica normal, y el Asistente de certificados del asistente de implementación de Lync Server para el servidor perimetral le permitirá establecer la <STRONG>marca marca de exportación de clave privada</STRONG> . Una vez que reciba de nuevo la solicitud de certificado de la entidad emisora de certificados pública, exportará el certificado y la clave privada. Consulte la sección "para exportar el certificado con la clave privada para servidores perimetrales en un grupo" en el tema <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">configurar certificados para la interfaz de borde externo para Lync Server 2013</A> para obtener más información sobre cómo crear y exportar el certificado con una clave privada. La extensión del certificado debe ser de tipo <STRONG>. pfx</STRONG>.
+> Si planea los certificados de su servidor perimetral y los certificados de proxy inverso al mismo tiempo, debe tener en cuenta que hay una gran similitud entre los dos requisitos de los certificados. Cuando configure y solicite el certificado del servidor perimetral, combine los nombres alternativos con el servidor perimetral y el proxy inverso. Puede usar el mismo certificado para el proxy inverso si exporte el certificado y la clave privada, y copie el archivo exportado en el proxy inverso y, a continuación, importe el par de certificado o clave y asígnelo según sea necesario en los procedimientos que se describen a continuación. Consulte los requisitos de certificado para el plan de&nbsp;servidores perimetrales<A href="lync-server-2013-plan-for-edge-server-certificates.md">para los certificados de servidor perimetral en Lync Server 2013</A> y el resumen del certificado de proxy inverso <A href="lync-server-2013-certificate-summary-reverse-proxy.md">: proxy inverso en Lync Server 2013</A>. Asegúrese de crear el certificado con una clave privada exportable. La creación del certificado y de la solicitud de certificados con una clave privada exportable es necesaria para los servidores perimetrales agrupados, por lo que esto es una práctica normal y el Asistente para certificados en el Asistente de implementación de Lync Server para el servidor perimetral le permitirá establecer la marca de <STRONG>hacer que la clave privada</STRONG> se pueda exportar. Una vez que reciba de nuevo la solicitud de certificado de la entidad emisora de certificados pública, exportará el certificado y la clave privada. Consulte la sección "para exportar el certificado con la clave privada para servidores perimetrales en un grupo" en el tema <A href="lync-server-2013-set-up-certificates-for-the-external-edge-interface.md">configurar certificados para la interfaz de borde externo para Lync Server 2013</A> para obtener más información sobre cómo crear y exportar el certificado con una clave privada. La extensión del certificado debe ser de tipo <STRONG>. pfx</STRONG>.
 
 
 
@@ -162,7 +164,7 @@ Para generar una solicitud de firma de certificado en el equipo en el que se asi
 
 4.  En la página **seleccionar Directiva de inscripción de certificados** , en **solicitud personalizada**, seleccione **continuar sin directiva de inscripción**. Haga clic en **Siguiente**.
 
-5.  En la página de **solicitud personalizada** , para la clave de selección de **plantilla** **(sin plantilla) heredada**. A menos que su proveedor de certificados le indique lo contrario, deje **suprimir las extensiones** predeterminadas desactivadas y la **solicitud de formato** seleccionado en **PKCS \#10**. Haga clic en **Siguiente**.
+5.  En la página de **solicitud personalizada** , para la clave de selección de **plantilla** **(sin plantilla) heredada**. A menos que su proveedor de certificados le indique lo contrario, deje **suprimir las extensiones predeterminadas** desactivadas y la **solicitud de formato** seleccionado en **PKCS \#10**. Haga clic en **Siguiente**.
 
 6.  En la página **información del certificado** , haga clic en **detalles**y, a continuación, en **propiedades**.
 
@@ -174,11 +176,11 @@ Para generar una solicitud de firma de certificado en el equipo en el que se asi
 
 10. En la página de **propiedades del certificado** , haga clic en la pestaña **extensiones** . En esta página, definirá los objetivos de las claves criptográficas en **uso de claves** y el uso de claves extendidas en el **uso mejorado de claves (directivas de aplicación)**.
 
-11. Haga clic en la flecha **uso de clave** para mostrar las **opciones disponibles**. En opciones disponibles, haga clic en **firma digital**y, a continuación, en **Agregar**. Haga clic en cifrado de **clave**y, a continuación, en **Agregar**. Si la casilla para **hacer que estos usos de claves sean críticas** no está marcada, active la casilla.
+11. Haga clic en la flecha **uso de clave** para mostrar las **opciones disponibles**. En opciones disponibles, haga clic en **firma digital**y, a continuación, en **Agregar**. Haga clic en **cifrado de clave**y, a continuación, en **Agregar**. Si la casilla para **hacer que estos usos de claves sean críticas** no está marcada, active la casilla.
 
 12. Haga clic en la flecha **uso de clave extendida (directivas de aplicación)** para mostrar las **opciones disponibles**. En opciones disponibles, haga clic en **autenticación de servidor**y luego en **Agregar**. Haga clic en **autenticación de cliente**y luego en **Agregar**. Si la casilla para **hacer que los usos extendidos de claves** estén marcadas, anule la selección de la casilla. Al contrario que la casilla de uso de claves (que debe estar activada), debe asegurarse de que la casilla uso de clave extendida no esté activada.
 
-13. En la página de **propiedades del certificado** , haga clic en la pestaña **clave privada** . Haga clic en la flecha **Opciones de clave** . En **tamaño de clave**, seleccione **2048** de la lista desplegable. Si está generando este par de claves y CSR en un equipo distinto del proxy inverso para el que se ha diseñado este certificado, seleccione hacer que la **clave privada**sea exportable.
+13. En la página de **propiedades del certificado** , haga clic en la pestaña **clave privada** . Haga clic en la flecha **Opciones de clave** . En **tamaño de clave**, seleccione **2048** de la lista desplegable. Si está generando este par de claves y CSR en un equipo distinto del proxy inverso para el que se ha diseñado este certificado, seleccione hacer que la **clave privada sea exportable**.
     
     <div>
     
@@ -190,7 +192,7 @@ Para generar una solicitud de firma de certificado en el equipo en el que se asi
     </thead>
     <tbody>
     <tr class="odd">
-    <td>La selección de <strong>hacer que una clave privada</strong> sea exportable se suele aconsejar cuando tiene más de un proxy inverso en una granja de servidores porque copiará el certificado y la clave privada en cada uno de los equipos de la granja. Si permite una clave privada exportable, debe tener especial cuidado con el certificado y el equipo en el que está generada. La clave privada, si se pone en peligro, representará el certificado sin utilidad, y también expondrá el equipo o equipos a acceso externo y otras vulnerabilidades de seguridad.</td>
+    <td>La selección de <strong>hacer que una clave privada sea exportable</strong> se suele aconsejar cuando tiene más de un proxy inverso en una granja de servidores porque copiará el certificado y la clave privada en cada uno de los equipos de la granja. Si permite una clave privada exportable, debe tener especial cuidado con el certificado y el equipo en el que está generada. La clave privada, si se pone en peligro, representará el certificado sin utilidad, y también expondrá el equipo o equipos a acceso externo y otras vulnerabilidades de seguridad.</td>
     </tr>
     </tbody>
     </table>

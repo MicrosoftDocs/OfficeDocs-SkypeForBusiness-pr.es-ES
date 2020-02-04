@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar el estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Call Park
 ms:assetid: e4c5da53-7f6c-4535-bc9b-9da2026caec8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399014(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69e2a1c6ef9da447688ea1ca7d0308afc0b4ab9c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 750ea65da2b5507099f097b31044673c474bfc7c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842271"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758348"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34842271"
 
 _**Última modificación del tema:** 2012-10-30_
 
-El parque de llamadas permite a un usuario de telefonía empresarial poner una llamada en espera desde un teléfono y, a continuación, recuperar la llamada más adelante marcando un número interno **(denominado Parque de llamadas órbitas) desde cualquier teléfono.
+El parque de llamadas permite a un usuario de telefonía empresarial poner una llamada en espera desde un teléfono y, a continuación, recuperar la llamada más adelante marcando un número interno (denominado Parque de llamadas *órbitas*) desde cualquier teléfono.
 
 Los componentes que llaman a los usos de estacionamiento se instalan y se habilitan automáticamente en el servidor front-end o el servidor Standard Edition al implementar la telefonía IP empresarial. Sin embargo, debe configurar el parque de llamadas antes de que esté disponible para los usuarios.
 

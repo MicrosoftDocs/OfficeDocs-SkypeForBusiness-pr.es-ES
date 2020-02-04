@@ -3,6 +3,8 @@ title: 'Lync Server 2013: integración con Microsoft Exchange Server 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Integrating Lync Server 2013 and Exchange Server 2013
 ms:assetid: 795dc1c6-524f-4012-8b66-103b55198044
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688098(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733697
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5ba140e4f7e33684a280a9d9c4b71f1d7e141a65
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1467f6a570f83908eb5809f9493303bdc91c169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834972"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41725860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Exchange y Lync Server tienen un largo historial de integración y compatibilida
 
 Esto se aplica especialmente a la publicación de Microsoft Lync Server 2013 y Microsoft Exchange Server 2013. Además de las características, como mensajería unificada y mensajería instantánea y presencia, que se encuentran en Microsoft Exchange Server 2010 y Microsoft Lync Server 2010, las versiones 2013 de los productos de servidor incluyen varias capacidades nuevas. Estas funciones incluyen elementos como los siguientes:
 
-  - **Integración**de archivado de Lync. En Lync Server 2013, los administradores siguen teniendo la opción de archivar la mensajería instantánea y las transcripciones de conferencias por Internet en SQL Server (de la misma manera que estas transcripciones se archivaron en Lync Server 2010). Sin embargo, de forma alternativa, los administradores pueden optar por archivar transcripciones en Exchange 2013, almacenar dichas transcripciones en los buzones de los usuarios individuales de la misma forma en que Exchange archiva las comunicaciones. Eso significa que un único repositorio para todas sus comunicaciones electrónicas (tanto de Exchange como de Lync Server), lo que facilita la búsqueda y la recuperación de esas comunicaciones archivadas en caso de que surja la necesidad.
+  - **Integración de archivado de Lync**. En Lync Server 2013, los administradores siguen teniendo la opción de archivar la mensajería instantánea y las transcripciones de conferencias por Internet en SQL Server (de la misma manera que estas transcripciones se archivaron en Lync Server 2010). Sin embargo, de forma alternativa, los administradores pueden optar por archivar transcripciones en Exchange 2013, almacenar dichas transcripciones en los buzones de los usuarios individuales de la misma forma en que Exchange archiva las comunicaciones. Eso significa que un único repositorio para todas sus comunicaciones electrónicas (tanto de Exchange como de Lync Server), lo que facilita la búsqueda y la recuperación de esas comunicaciones archivadas en caso de que surja la necesidad.
 
   - **Almacén de contactos unificado**. En Lync Server 2010, los usuarios tenían que mantener listas de contactos independientes en Outlook y Lync; de hecho, para asegurarse de que tenía los mismos contactos disponibles en los dos productos, tenía que mantener listas de contactos duplicadas, una para Outlook y otra para Lync. Sin embargo, con Lync Server 2013, los contactos de usuario se pueden almacenar en Exchange 2013 y en el almacenamiento de contactos unificado. Usar un único almacén de contactos permite a los usuarios mantener un solo conjunto de contactos, con el mismo conjunto de contactos disponibles en Lync 2013, Outlook 2013 y Outlook Web Access 2013.
 

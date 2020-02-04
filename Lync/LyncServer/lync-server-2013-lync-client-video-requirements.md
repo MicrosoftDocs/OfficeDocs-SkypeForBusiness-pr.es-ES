@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de vídeo de cliente de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync client video requirements
 ms:assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688132(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733731
 ms.date: 01/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 56743abd386cb59b177806eed3d441aaf587ccce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d174b73bd4369220ae83bc8365267a626849e235
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834930"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765508"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

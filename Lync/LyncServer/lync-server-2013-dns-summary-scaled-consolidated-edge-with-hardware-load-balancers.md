@@ -3,6 +3,8 @@ title: Resumen DNS - Servidor perimetral consolidado ampliado con equilibradores
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge with hardware load balancers
 ms:assetid: 8453297c-da1d-4b9e-a37e-6721458c6feb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398670(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184700
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d411b004edde96314e3c06d7f28a9f9d294688ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6be703e13ec50eb66ba52c981196df06adc6e5b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835353"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Puede configurar dos adaptadores de red en cada uno de los servidores perimetral
     
 
     > [!NOTE]
-    > Las direcciones IP que se asignan a las interfaces de red externas reales del servidor perimetral pueden depender del equilibrador de carga de hardware que elija. Consulte la documentación de su equilibrador de carga de hardware para conocer los requisitos de las direcciones IP reales.<BR>Es posible, aunque no recomendable, usar una única dirección IP para las tres interfaces de servicio perimetral. Aunque esto sí guarda las direcciones IP, requiere números de Puerto diferentes para cada servicio. El número de puerto predeterminado es 443/TCP, lo que garantiza que la mayoría de los firewalls remotos permitan el tráfico. Cambiar los valores del puerto a (por ejemplo) 5061/TCP para el servicio perimetral de acceso, 444/TCP para el servicio perimetral de las conferencias web y 443/TCP para el servicio perimetral a/V puede causar problemas a los usuarios remotos en los que un firewall que estén detrás no permite el tráfico por 5061/TCP y 444/TCP. Además, tres direcciones IP distintas hacen que la solución de problemas sea más fácil, ya que es posible filtrar por dirección IP.
+    > Las direcciones IP que se asignan a las interfaces de red externas reales del servidor perimetral pueden depender del equilibrador de carga de hardware que elija. Consulte la documentación de su equilibrador de carga de hardware para conocer los requisitos de las direcciones IP reales.<BR>Es posible, aunque no recomendable, usar una única dirección IP para las tres interfaces de servicio perimetral. Aunque esto sí guarda las direcciones IP, requiere números de Puerto diferentes para cada servicio. El número de puerto predeterminado es 443/TCP, lo que garantiza que la mayoría de los firewalls remotos permitan el tráfico. Cambiar los valores del puerto a (por ejemplo) 5061/TCP para el servicio perimetral de acceso, 444/TCP para el servicio perimetral de las conferencias web y 443/TCP para el servicio perimetral a/V puede causar problemas a los usuarios remotos en los que un firewall en el que se encuentra no permite el tráfico a través de 5061/TCP y 444/TCP. Además, tres direcciones IP distintas hacen que la solución de problemas sea más fácil, ya que es posible filtrar por dirección IP.
 
     
     </div>

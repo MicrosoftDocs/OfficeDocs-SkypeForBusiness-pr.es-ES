@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Asociar una subred a un sitio de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Associate a subnet with a network site
 ms:assetid: aa69e3ac-542a-4ba1-9582-2e6bee29f633
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412804(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185043
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ec5a896af6312fecf53259ac10e72f99598d4a7e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f54ba8be2be6ae042633e519c5d7d27bde834162
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842915"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Cmdlets, parámetros y valores de parámetros de Windows PowerShell en Sk
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Windows PowerShell cmdlets, parameters, and parameter values
 ms:assetid: 04615700-099f-4ac5-a801-ddeffccb9e4f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362765(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56558799
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9e9582941b05a4151be5baa2ce74acfc79b3db3
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: f2d607b4a7e7cf87a08082a820f3b3a216621de3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992577"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

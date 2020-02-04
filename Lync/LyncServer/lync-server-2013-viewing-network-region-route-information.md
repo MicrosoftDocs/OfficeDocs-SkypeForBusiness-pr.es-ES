@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información de ruta de la región de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network region route information
 ms:assetid: 34dd9fa3-e695-4680-b244-3019298b5009
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688021(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4438a3af4a9bfbdaf88d4412b769cdaaba9d3d43
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c8299bd598edf18b7ed7f06088e4bfbbcebab354
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850070"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757374"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

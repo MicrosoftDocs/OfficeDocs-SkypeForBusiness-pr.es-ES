@@ -3,6 +3,8 @@ title: Proceso de migración - Detalles
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migration process - details
 ms:assetid: ca7e352c-9bde-47d9-8273-5cf2fdfdfe7e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205264(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185412
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 39560d69842c104c7db956418dabac9aa6d29d7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1d3b46e2b80d9ad5a4b08108d1dc2bad03cf5f0f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849952"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757144"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -94,7 +96,7 @@ Realice los siguientes pasos para preparar correctamente los datos de origen par
     
     3.  Verifique la longitud de los nombres de las salas. Después de la migración, debido a las estructuras de categoría simplificadas, si los salones existen en una categoría secundaria, están prefijados con nombres completos de categorías primarias. El límite de nombres es de 256 caracteres, incluidos los nombres de categorías principales. Debe verificar la longitud de los nombres de las salas y, posiblemente, acortar la longitud si son demasiado largas.
     
-    4.  En Lync Server 2013, si la configuración **** de invitaciones de categoría se establece en verdadero, puede elegir verdadero o falso para las invitaciones a salas de esta categoría. Sin embargo, si la configuración de invitaciones de categorías está establecida en falso, las salas de esta categoría tienen desactivadas las invitaciones. Antes de la migración, debe restablecer la configuración de la invitación en la versión del servidor de chat del grupo de Lync Server heredado, si quiere que los salones existan en una categoría específica. De lo contrario, durante la migración, Lync Server 2013 muestra advertencias y establece salas en el valor predeterminado de falso.
+    4.  En Lync Server 2013, si la configuración de **invitaciones** de categoría se establece en verdadero, puede elegir verdadero o falso para las invitaciones a salas de esta categoría. Sin embargo, si la configuración de invitaciones de categorías está establecida en falso, las salas de esta categoría tienen desactivadas las invitaciones. Antes de la migración, debe restablecer la configuración de la invitación en la versión del servidor de chat del grupo de Lync Server heredado, si quiere que los salones existan en una categoría específica. De lo contrario, durante la migración, Lync Server 2013 muestra advertencias y establece salas en el valor predeterminado de falso.
     
     5.  Si ha usado archivos en salones de chat, debe XCOPY manualmente en el nuevo almacén de archivos de chat persistente después de la migración. Las herramientas no hacen esto.
     
@@ -139,7 +141,7 @@ Realice los siguientes pasos para migrar el servidor de chat de grupo heredado.
 
 8.  Porte el URI del servidor de búsqueda de chat de Lync Server 2010, chat de grupo u Office Communications Server 2007 R2 a Lync Server 2013, objeto de contacto del servidor de chat persistente. Los pasos siguientes son necesarios si el chat grupal de Lync 2010 o los clientes de chat grupal de Office Communicator 2007 R2 necesitan conectarse a la última versión de Lync 2013, chat persistente (cliente) después de la migración sin cambios en la configuración del cliente:
     
-      - Elimine la cuenta\<de\>usuario del servidor de búsqueda ocschat @ domainname. com. Esto se usaba para apuntar al servicio de búsqueda en Lync Server 2010, conversación grupal. Puede desinstalar el grupo y quitar las entradas de confianza más adelante.
+      - Elimine la\<cuenta\>de usuario del servidor de búsqueda ocschat@ domainname. com. Esto se usaba para apuntar al servicio de búsqueda en Lync Server 2010, conversación grupal. Puede desinstalar el grupo y quitar las entradas de confianza más adelante.
     
       - Cree un extremo heredado (objeto de contacto del servidor de chat persistente) ejecutando el cmdlet de Windows PowerShell, **New-CsPersistentChatEndpoint**, con el URI de SIP idéntico para que el cliente heredado funcione de forma eficaz cuando se reinicie el servicio.
     

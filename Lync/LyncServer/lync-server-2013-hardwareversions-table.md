@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla HardwareVersions'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: HardwareVersions table
 ms:assetid: ca05582b-082c-4bab-9233-36fc9434dbca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398839(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185406
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05c263cf5d9971e93c7adac0ff6b2f6a5b680a79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 870b80dd5f67cf2a79e1c44c9754223f6d576e2c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835077"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: conexiones SIP directas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Direct SIP connections
 ms:assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398151(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183357
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1decdfd4c755ea1788d088a4b539d8c555987f02
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5cd00033eeccc855cd5ff10b6a2bee6f78da1d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835397"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762238"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

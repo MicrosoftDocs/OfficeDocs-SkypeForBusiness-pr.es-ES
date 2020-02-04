@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de PIN de usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing user PINs
 ms:assetid: 806a813c-bdd4-49eb-9923-0dbb03968d8a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688107(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733706
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8649efa43d89dc15d848c838c5c1093070542b8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 34c3603d7fa0dc3c5b2c1d40319bbf30c1d09b63
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827686"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de diagnóstico de actividad punto a punto'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer Activity Diagnostic Report
 ms:assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558602(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f435a4b0ff0ec42e8898260c3ada528963bbebb1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc98f1c81f79605da2de2b06397d8a23d8086861
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825411"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

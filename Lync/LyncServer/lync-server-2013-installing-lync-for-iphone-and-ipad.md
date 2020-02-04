@@ -3,6 +3,8 @@ title: 'Lync Server 2013: instalación de Lync para iPhone y iPad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Installing Lync for iPhone and iPad
 ms:assetid: 88d1c149-5842-4ecf-a15e-fcda0330325b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690987(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541496
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3e3b9c954d862789f5fb1d9ad2b128f2269122c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c0383fd4aa389912a9942d7cafd7ac22fdc4f477
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834982"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

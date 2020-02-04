@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar Lync Server para enrutar a una puerta de en
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server 2013 to route to a SIP/CSTA gateway
 ms:assetid: d75e4cf6-7b36-430a-a91a-0f2559306ba1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615038(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185605
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b822ec41b594025f50b6ef08ff80358cc5ac354b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 626ce85fec80508f4411e92c2a2ce469da5a0b2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842231"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762798"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

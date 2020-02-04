@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de control de admisión de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call admission control cmdlets
 ms:assetid: dd9d3912-b562-4839-a337-bfc5277cfb62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415676(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6e192d30205a43d2bf13a347b7ee40f0ac424320
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3805a597cba993e8b50e006a198fdc693a1d595b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842721"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

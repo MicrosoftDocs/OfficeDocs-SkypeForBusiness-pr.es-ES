@@ -4,6 +4,8 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 audience: Admin
+f1.keywords:
+- NOCSH
 TOCTitle: Cmdlets that use the Tenant parameter
 ms:assetid: e7fe7c12-fbe0-49c1-9e8c-eef6958f27d0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362850(v=OCS.15)
@@ -11,12 +13,12 @@ ms:contentKeyID: 56558865
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd58e375bcacfcb18cbc21e6ac352b8d98b56661
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 40f325c55415f97822b1e8c9d21a6d2e80e27273
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233095"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41728020"
 ---
 # <a name="cmdlets-in-skype-for-business-online-that-use-the-tenant-parameter"></a>Cmdlets de Skype empresarial online que usan el parámetro tenant
 

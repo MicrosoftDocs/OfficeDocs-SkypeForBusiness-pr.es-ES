@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver el estado de los servicios que se ejecutan en un e
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View the status of services running on a computer
 ms:assetid: f41918e7-4c02-431e-840a-88a1f36ae499
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182606(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185804
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 52f7b1628f9e9fcd99eea84ebda2cbfe934fc7d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 984f85fca13704864b3cd47c83e8f6adca575705
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850092"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

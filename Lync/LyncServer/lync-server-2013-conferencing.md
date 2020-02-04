@@ -3,6 +3,8 @@ title: Conferencias de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing
 ms:assetid: 6129b7e0-9abd-488e-a54e-86094eb9df7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417161(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184274
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00f368a375a73eddc78b858c0d85a1bc21a1bd04
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e92f14a9f23617c55f1c09abc4daf29b5849b3bb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842471"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

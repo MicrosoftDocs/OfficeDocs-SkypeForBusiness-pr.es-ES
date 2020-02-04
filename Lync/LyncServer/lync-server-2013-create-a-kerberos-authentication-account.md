@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear una cuenta de autenticación Kerberos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a Kerberos authentication account
 ms:assetid: 63f0cef6-562a-4209-ae25-71f8dc7c7295
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398449(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184348
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ab4f93d4204f7ed1f2b22d27ddb51328f8330c5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 797e9216aed5d523e39dc4827d630e0cb1b857fd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842133"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

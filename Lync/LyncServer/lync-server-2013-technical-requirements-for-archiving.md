@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos técnicos para el archivado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for Archiving
 ms:assetid: 896d60e2-be4b-462d-8357-4cd307ab7304
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205059(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e4847815f10a48b954d3d83348d95cc137f4b39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6cc8a64ee7a49971660e7435a51c816bd4367e26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850463"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

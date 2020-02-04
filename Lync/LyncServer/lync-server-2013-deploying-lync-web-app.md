@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementación de Lync Web App'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync Web App
 ms:assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205190(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185189
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c355be1c1709cede9c032d59790d6beefb337ff6
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 6b7415be2210e6c791434ced8af8f309b49603e8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971138"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

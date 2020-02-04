@@ -3,6 +3,8 @@ title: 'Lync Server 2013: regiones de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network regions
 ms:assetid: 1818e9d2-bbb7-420a-93ea-4c3da3a55ad3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687979(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733567
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f9a2fd8ce5de11f592d010615ddee9c253913c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4085b3c554429c960e6f9f558f82366d7b2b2532
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826433"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765891"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

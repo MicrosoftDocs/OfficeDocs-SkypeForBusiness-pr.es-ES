@@ -3,6 +3,8 @@ title: Configurar una entrada de aplicación de confianza para control remoto de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure a trusted application entry for remote call control
 ms:assetid: 37777f93-8b24-40cf-808e-7c6230eb2132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558636(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183829
 ms.date: 11/03/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: be0dda3eedc73e5c64f7c275714955f3ce92af3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bfaec78b0c7d64308b5899a6e7dc5fa95c1f53fb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842455"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757874"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ La puerta de enlace SIP/CSTA debe estar configurada como aplicación de confianz
 
 
 > [!IMPORTANT]
-> Si va a migrar usuarios de una versión anterior de la implementación de Lync Server, asegúrese de que ha quitado todas las entradas de aplicaciones de confianza existentes (anteriormente conocidas como entradas de host autorizadas) que ha creado para la puerta de enlace SIP/CSTA antes de seguir los procedimientos de este tema. Para obtener más información, consulte <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">quitar un host autorizado heredado en Lync Server 2013 (opcional)</A>.<BR>Si tiene previsto implementar un control de llamada remota nuevo mediante una conexión de protocolo de control de transmisión (TCP), debe comprobar que el <STRONG>uso del servicio para las direcciones IP seleccionadas</STRONG> debe establecerse en las aplicaciones y grupos de confianza existentes, si quiere usar el mismo Puerto TCP para la nueva aplicación de confianza.
+> Si va a migrar usuarios de una versión anterior de la implementación de Lync Server, asegúrese de que ha quitado todas las entradas de aplicaciones de confianza existentes (anteriormente conocidas como entradas de host autorizadas) que ha creado para la puerta de enlace SIP/CSTA antes de seguir los procedimientos de este tema. Para obtener más información, consulte <A href="lync-server-2013-remove-a-legacy-authorized-host-optional.md">quitar un host autorizado heredado en Lync Server 2013 (opcional)</A>.<BR>Si tiene previsto implementar un control de llamada remota nuevo mediante una conexión de protocolo de control de transmisión (TCP), debe comprobar que el <STRONG>uso del servicio para las direcciones IP seleccionadas</STRONG> debe establecerse en las aplicaciones y grupos de confianza existentes, si desea usar el mismo puerto TCP para la nueva aplicación de confianza.
 
 
 

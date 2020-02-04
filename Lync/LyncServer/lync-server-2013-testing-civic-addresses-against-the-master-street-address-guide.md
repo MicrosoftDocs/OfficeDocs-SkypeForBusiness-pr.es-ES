@@ -3,6 +3,8 @@ title: Comprobación de direcciones de cívica con la guía de dirección princi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing civic addresses against the master street address guide
 ms:assetid: dc680de9-2a0f-4fd3-a99e-9bab0bc30ae5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690132(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969657
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dfa4dd28ec05546366e029b6fb9fdf1c4b3ae310
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37d6aa1443dc2e062aa099237d9b25f2b33e32b2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850360"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745819"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

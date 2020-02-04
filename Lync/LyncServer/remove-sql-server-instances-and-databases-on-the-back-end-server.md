@@ -3,6 +3,8 @@ title: Quitar instancias de SQL Server y bases de datos en el servidor back-end
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove SQL Server instances and databases on the Back End Server
 ms:assetid: 32457df9-7dd9-4fca-9362-ea4de26b0296
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688016(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733606
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f03a318e81b839d5f92dbaa4ddcc70bbbc8e2e3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11439dd9fd339c3620b3e6288526459f45a2a542
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849860"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41727110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
