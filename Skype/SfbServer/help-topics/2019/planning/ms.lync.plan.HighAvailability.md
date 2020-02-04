@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: El esquema de alta disponibilidad principal para la mayoría de los roles de servidor de Skype empresarial Server se basa en la redundancia de los servidores a través de la agrupación. Si falla un servidor que está ejecutando un determinado rol de servidor, los demás servidores del grupo que estén ejecutando el mismo rol asumirán su carga.
-ms.openlocfilehash: 36869cedb2443d13774e8646b72a51a039683f16
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: dc438d5b46f54f7526b0d1327a3263d9e334b68d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418615"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689825"
 ---
 # <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  

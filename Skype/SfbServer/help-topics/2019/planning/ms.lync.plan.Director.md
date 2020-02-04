@@ -6,7 +6,7 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.Director
 - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Un director es un servidor que ejecuta el software de comunicaciones de Skype empresarial Server y que puede autenticar solicitudes de usuario, pero no aloja ninguna cuenta de usuario.
-ms.openlocfilehash: fa81954e59577ab15edd2a8190e556f4e8e66d47
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 529c9c0feea8d5ed3e28ee132f64c73228c6bd60
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275916"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689865"
 ---
 # <a name="director-planning-tool"></a>Director (Planning Tool)
  

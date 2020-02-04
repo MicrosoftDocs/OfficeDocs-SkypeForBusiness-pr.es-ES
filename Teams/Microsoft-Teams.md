@@ -10,17 +10,17 @@ author: kenwith
 description: Documentación técnica de Microsoft Teams
 ms.topic: hub-page
 localization_priority: Priority
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: 91bf9adced6c190661c78aa22d7208de9677a489
-ms.sourcegitcommit: d4e69d46de564c445feb855cbee55954a7063bba
+ms.openlocfilehash: d50e41e6441e1f916296fceb8b5cdc9141579f66
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "36483196"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41681437"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -189,13 +189,12 @@ ms.locfileid: "36483196"
                                         </a>
                                     </li>
                         <li>
-  
                             <a href="https://docs.microsoft.com/microsoftteams/platform/overview"> <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/es-ES/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/developer-teams.svg" alt="Developer" data-linktype="external">
                                             </div>
                                         </div>
                                         <div class="cardText">

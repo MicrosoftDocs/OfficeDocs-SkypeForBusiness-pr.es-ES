@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddBranchOfficeAppliancePstnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir la puerta de enlace de red de telefonía pública conmutada (RTC) para un equipo de sucursales con la mayoría de las sucursales, especifique lo siguiente:'
-ms.openlocfilehash: bd069a5bc9c8dcb4f1f787cbd436e31872bceddd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 133f109c1d076432cd628bccde9e3c49518500c2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288146"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689735"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>Agregar RTC de aplicación de sucursal con funciones de supervivencia
  

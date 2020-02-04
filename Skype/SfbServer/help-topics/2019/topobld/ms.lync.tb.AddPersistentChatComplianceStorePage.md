@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatComplianceStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: Configure los almacenes de cumplimiento de SQL Server que proporcionarán bases de datos para el servidor de chat persistente o la característica de cumplimiento del servidor de chat persistente.
-ms.openlocfilehash: 01c0480809c506a760a160750e0338dc5410c40e
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 6750e7bc655801bc200270d3215e3c458f621085
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418395"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689119"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Agregar almacén SQL Server de cumplimiento del chat persistente
 

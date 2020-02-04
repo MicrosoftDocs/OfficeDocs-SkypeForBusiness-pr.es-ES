@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.RgsSelAgent
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los agentes son usuarios designados para responder a llamadas grupales de respuesta. Los grupos de respuesta necesitan tener un grupo de agentes asignados que identifique los agentes que pueden recibir llamadas para el grupo de respuesta. Una forma de crear un grupo de agentes es definir un grupo personalizado seleccionando los usuarios aptos. Los usuarios elegibles están habilitados para Skype empresarial Server y Enterprise Voice.
-ms.openlocfilehash: 84af4c10e6e6e0bacd053d16d4d9cce85d80f88e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15185ab3ad7bb16018d7995d5e7eaef6198dc68a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292566"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690775"
 ---
 # <a name="select-agents"></a>Seleccionar agentes
 

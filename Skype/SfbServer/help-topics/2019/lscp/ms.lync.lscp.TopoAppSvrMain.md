@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.TopoAppSvrMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La página topología: aplicación de servidor muestra las aplicaciones de servidor de la implementación.'
-ms.openlocfilehash: 2dbb49a7ca8e0a4377450653d95cdd04452efe96
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f370e0d464f6becb90236c2d3ad33dcf839c8cc0
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275961"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41690585"
 ---
 # <a name="topology-server-application"></a>Topología: Aplicación de servidor
 

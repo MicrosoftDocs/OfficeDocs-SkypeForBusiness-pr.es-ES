@@ -12,16 +12,16 @@ description: Guía paso a paso para desplegar equipos, canales, chat y aplicacio
 localization_priority: Priority
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c76a50c330a6f67a61edcb29861eecb76312f05a
-ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
+ms.openlocfilehash: ee1c3c7e9c897c08b47925d64edca56bd3654899
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39886257"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680527"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 

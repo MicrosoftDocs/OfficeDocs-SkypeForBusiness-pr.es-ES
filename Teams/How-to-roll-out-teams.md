@@ -13,16 +13,16 @@ localization_priority: Priority
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.rolloutteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 355e3fe5648fd9f3adac6ac3f48a52af0ff290ce
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0c38a1359b70a00f393b9b5b2aa2e6ddfc31453f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569859"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695985"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Cómo implementar Microsoft Teams
 

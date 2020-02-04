@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddPersistentChatNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use esta página para definir el siguiente salto desde el servidor del servidor de chat persistente en su implementación. Para obtener más información sobre cómo implementar un servidor de chat persistente, consulte implementar un servidor de chat persistente en Skype empresarial Server 2015.
-ms.openlocfilehash: ee5908731382a0d0fc346933cbc7426bc9842b50
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 5071cf2df1e2227814db403a82843aceda40e8f2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418326"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689099"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>Página Agregar el próximo salto del chat persistente
 

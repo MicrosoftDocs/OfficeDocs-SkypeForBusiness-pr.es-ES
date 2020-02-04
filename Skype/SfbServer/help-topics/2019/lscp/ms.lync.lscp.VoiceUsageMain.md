@@ -6,19 +6,19 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceUsageMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: eaff91ab3c2b803c2dec519164b3c9a3e7444b7c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a06836cb7fac48631697b085411dfeaf62998007
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290619"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41689995"
 ---
 # <a name="pstn-usage"></a>Uso de RTC
 
