@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementación de telefonía IP empresarial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Enterprise Voice
 ms:assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412876(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185207
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ae445d954bd1be7c956d76aa48da2ad7854c6a54
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf57d55899d556ddfde633c975ae9f0516e48e14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835561"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -68,7 +70,7 @@ Además, debe haber implementado ya implementado Lync Server, Enterprise Edition
 
 Para ver las topologías de referencia con ejemplos de dónde se pueden implementar los roles de servidor de telefonía IP (y su relación entre sí y otros roles de servidor de Lync Server 2013), vea [topologías de referencia en Lync server 2013](lync-server-2013-reference-topologies.md) en la documentación de planificación.
 
-Para ver una topología de referencia que ilustre y explique una implementación de control de admisión de llamadas de ejemplo, incluidas las regiones de red, los sitios de red y las subredes, vea [ejemplo: recopilar los requisitos para el control de admisión de llamadas en Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) en el Documentación de planificación.
+Para ver una topología de referencia que ilustre y explique una implementación de control de admisión de llamadas de ejemplo, incluidas las regiones de red, los sitios de red y las subredes, vea [ejemplo: recopilar los requisitos para el control de admisión de llamadas en Lync Server 2013](lync-server-2013-example-of-gathering-your-requirements-for-call-admission-control.md) en la documentación de planeación.
 
 </div>
 

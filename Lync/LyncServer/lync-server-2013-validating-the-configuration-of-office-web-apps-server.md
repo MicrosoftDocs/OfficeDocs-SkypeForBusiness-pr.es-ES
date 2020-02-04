@@ -3,6 +3,8 @@ title: 'Lync Server 2013: validar la configuración de Office Web Apps Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validating the configuration of Office Web Apps Server
 ms:assetid: f6e8ecbf-305d-4a13-92d0-b61dbd82b0ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205393(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35844ae2ae73937d6840e480dc57393b91d13eaf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 541929233eff5e401b3998aa84e463e2640378c0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850151"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763574"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

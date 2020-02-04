@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferences view
 ms:assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721871(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733803
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 710aadb2770e9389d9e4becf206d68b8e8d815ee
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 36278c1053c2b5737e0de6caf914c050db93ea4b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842486"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741610"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

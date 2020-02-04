@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tabla PurgeSettings'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PurgeSettings table
 ms:assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205121(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184932
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18b9fc0aa03596677cb73641ed46e86ea133f308
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56ea95d0ba54a34eaa315ff345efb45cd563700c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823773"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

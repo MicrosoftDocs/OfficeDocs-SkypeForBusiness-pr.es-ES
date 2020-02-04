@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Comprobar la conectividad de usuarios externos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verify connectivity for external users
 ms:assetid: 5c02bd6e-1c96-448a-a21d-58c9961c6640
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398402(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 577ba970e272e2306aae3a587d9ae014ba75ba17
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1c1f8a9bbda54c596a9ccae8451b15ce7300bffd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850143"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763524"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

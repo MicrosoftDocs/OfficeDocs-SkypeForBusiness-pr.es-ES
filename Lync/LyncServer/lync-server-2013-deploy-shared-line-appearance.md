@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementación de la apariencia de línea compartida'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy Shared Line Appearance
 ms:assetid: 6666dfef-9ecf-4834-af6a-2d5da227dfa3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Mt712152(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 72522137
 ms.date: 06/13/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da81073fc239822a682f926e1b782c8555153bf6
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 5e0f6aeb7d235ea7691c6878a4f21e6ec98f531e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971250"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

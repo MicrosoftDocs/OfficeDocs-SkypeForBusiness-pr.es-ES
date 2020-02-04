@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información de la aplicación de confianza'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View trusted application information
 ms:assetid: 7b916323-96fb-4308-bc95-c178de41a3d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688103(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733702
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 139a4fedbfd703fea77464929ef3f5800517260e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf8a95fa58ea1398c281fc5cba2f8b08a5ec902e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850090"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

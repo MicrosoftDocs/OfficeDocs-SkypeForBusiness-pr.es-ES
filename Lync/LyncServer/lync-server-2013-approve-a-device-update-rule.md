@@ -3,6 +3,8 @@ title: 'Lync Server 2013: aprobar una regla de actualización de dispositivo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Approve a Device Update rule
 ms:assetid: 9dbb1c9a-be0f-4e13-9234-05501ab43ac5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994053(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803964
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aa560be6b8c341310c4831277902dab6f2e5552c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8bb464d0845f70012bdd8e70365c8a7993de6b4c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850736"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Después de importar una regla de actualización de dispositivo, se instala en l
 
 ## <a name="approving-a-device-update-rule-by-using-windows-powershell-cmdlets"></a>Aprobar una regla de actualización de dispositivo mediante cmdlets de Windows PowerShell
 
-Las reglas de actualización de dispositivos también pueden aprobarse con Windows PowerShell y el cmdlet approven **-CsDeviceUpdateRule** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.
+Las reglas de actualización de dispositivos también pueden aprobarse con Windows PowerShell y el cmdlet **Approven-CsDeviceUpdateRule** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.
 
 <div>
 
@@ -91,7 +93,7 @@ Las reglas de actualización de dispositivos también pueden aprobarse con Windo
 
 </div>
 
-Para obtener más información, vea el tema de ayuda para el cmdlet approven [-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) .
+Para obtener más información, vea el tema de ayuda para el cmdlet [Approven-CsDeviceUpdateRule](https://docs.microsoft.com/powershell/module/skype/Approve-CsDeviceUpdateRule) .
 
 </div>
 

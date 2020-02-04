@@ -3,6 +3,8 @@ title: 'Lync Server 2013: información general sobre la llamada en estacionamien
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of Call Park
 ms:assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205124(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2d6f6b8f0f6a91e75071c7d103cf4bff3b4be1f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c5deeff873b37c0056bf03c598c39e448cba4379
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825558"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755594"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

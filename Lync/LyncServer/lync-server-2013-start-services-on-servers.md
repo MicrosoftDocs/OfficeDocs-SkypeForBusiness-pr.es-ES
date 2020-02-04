@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Iniciar servicios en servidores'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Start services on servers
 ms:assetid: fa26eaed-0529-4f32-9f3f-f32c4bd4b1c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413059(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185912
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0c0c14aea9966e61703e85dd2aff8a2e448d5eb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1e6474071e7f95228f3c04c4931b4f899df68b40
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850566"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764416"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

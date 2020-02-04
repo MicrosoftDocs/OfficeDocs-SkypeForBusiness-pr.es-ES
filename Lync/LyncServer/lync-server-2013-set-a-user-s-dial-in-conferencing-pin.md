@@ -3,6 +3,8 @@ title: 'Lync Server 2013: establecer el PIN de conferencia de acceso telefónico
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set a user's dial-in conferencing PIN
 ms:assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520985(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 258c6e5da1dc5b78d53bbc3779d50890935d7b58
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ab97b3efe350ef82527262103e9b00104990245a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822030"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764696"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

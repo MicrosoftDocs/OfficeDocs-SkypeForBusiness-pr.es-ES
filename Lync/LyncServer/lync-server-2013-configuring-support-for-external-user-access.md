@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar la compatibilidad para el acceso de usuario
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring support for external user access
 ms:assetid: f8424f8c-f965-4414-8485-30f07e10214a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413051(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185874
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f10e266674d102b25753aeb58c89a365e7bb8e7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 143e7e661f793f7a05cb2fdbad8cdab8acaf660e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842181"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Una vez completada la configuración de un servidor perimetral o un grupo perime
 
 Para admitir el acceso de usuarios externos, debe hacer lo siguiente:
 
-  - **Habilitar la compatibilidad de su organización**   para habilitar la compatibilidad con el acceso de usuarios externos en su implementación, habilite cada tipo de acceso externo que desee admitir. Para habilitar y deshabilitar el acceso de usuarios externos, puede editar la configuración global o crear y configurar un sitio o una directiva de usuario en la página de la **Directiva de acceso externo** en el grupo **Federación y acceso externo** del panel de control de Lync Server. o bien, mediante el shell de administración de Lync Server y los cmdlets asociados. Los cmdlets para administrar la **Directiva de acceso externo** se encuentran en el tema [Federación y cmdlets de acceso externo en Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/). Habilitar la compatibilidad con el acceso externo especifica que los servidores que ejecutan el servicio perimetral de acceso de Lync Server admiten comunicaciones con usuarios y servidores externos. Los usuarios internos y externos no pueden comunicarse, mientras que el acceso de usuarios externos está deshabilitado o si aún no se han configurado las directivas para admitirlo.
+  - **Habilitar la compatibilidad de su organización**   para habilitar la compatibilidad con el acceso de usuarios externos en su implementación, habilite cada tipo de acceso externo que desee admitir. Para habilitar y deshabilitar el acceso de usuarios externos, puede editar la configuración global o crear y configurar un sitio o una directiva de usuario en la página **Directiva de acceso externo** en el grupo **Federación y acceso externo** del panel de control de Lync Server o mediante el shell de administración de Lync Server y los cmdlets asociados. Los cmdlets para administrar la **Directiva de acceso externo** se encuentran en el tema [Federación y cmdlets de acceso externo en Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/). Habilitar la compatibilidad con el acceso externo especifica que los servidores que ejecutan el servicio perimetral de acceso de Lync Server admiten comunicaciones con usuarios y servidores externos. Los usuarios internos y externos no pueden comunicarse, mientras que el acceso de usuarios externos está deshabilitado o si aún no se han configurado las directivas para admitirlo.
 
   - **Configurar y asignar una o más directivas**   para admitir el acceso de usuarios externos, debe configurar directivas para resolver requisitos que incluyen:
     
@@ -49,7 +51,7 @@ Para admitir el acceso de usuarios externos, debe hacer lo siguiente:
     
       - **Directivas de conferencia**   puede crear y configurar directivas para controlar las conferencias de su organización, incluidos los usuarios de su organización que pueden invitar a usuarios anónimos a las conferencias que hospedan. En la página de **Conferencia** del panel de control de Lync Server están las opciones de directiva en el ámbito global, de sitio y de usuario que controlan la configuración de las conferencias reales. Para obtener más información, vea [administrar reuniones y conferencias en Lync Server 2013](lync-server-2013-managing-meetings-and-conferences.md). Habilite usuarios anónimos para conferencias, usuarios remotos y usuarios federados en la página **configuración de Edge de Access** . La Directiva de la **configuración del límite de acceso** es global en el ámbito. No hay opciones para definir un sitio o una directiva de usuario. El ámbito se controla en la página **Directiva de acceso externo** mediante el uso de la configuración de directivas global, de sitio o de usuario.
         
-        Por ejemplo, si desea permitir que los usuarios creen, inviten y administren conferencias con usuarios remotos, debe configurar **Habilitar comunicaciones con usuarios remotos** en la **Directiva de acceso externo** global, sitio o Directiva de usuario, y **Habilitar comunicaciones con usuarios remotos** en la página de **configuración de Edge de Access** . De forma similar, para permitir conferencias con usuarios anónimos o socios federados con los que tenga una relación definida (como los dominios y proveedores federados configurados, la Federación XMPP no admite conferencias), establezca **Habilitar comunicaciones con los usuarios públicos** y **habilitar las comunicaciones con usuarios federados** en la Directiva de **acceso externo** , sitio global, sitio o Directiva de usuario. Después, seleccione Configuración de directiva gratuita global **para habilitar el acceso de usuarios anónimos a las conferencias** y **Habilitar la conectividad de mensajería instantánea pública y federada** en la página de **configuración de Edge de Access** .
+        Por ejemplo, si desea permitir que los usuarios creen, inviten y administren conferencias con usuarios remotos, debe configurar **Habilitar comunicaciones con usuarios remotos** en la **Directiva de acceso externo** global, sitio o Directiva de usuario, y **Habilitar comunicaciones con usuarios remotos** en la página de **configuración de Edge de Access** . De forma similar, para permitir conferencias con usuarios anónimos o socios federados con los que tenga una relación definida (como los dominios y proveedores federados configurados, la Federación de XMPP no admite conferencias), establezca **Habilitar comunicaciones con usuarios públicos** y **habilite las comunicaciones con usuarios federados** en la **Directiva de acceso externo** global, sitio o usuario. Después, seleccione Configuración de directiva gratuita global **para habilitar el acceso de usuarios anónimos a las conferencias** y **Habilitar la conectividad de mensajería instantánea pública y federada** en la página de **configuración de Edge de Access** .
 
 Puede configurar la configuración de acceso de usuarios externos, incluidas las directivas que desee usar para controlar el acceso de usuarios externos, incluso si no ha habilitado el acceso de usuarios externos para su organización. Sin embargo, las directivas y otras opciones de configuración que se configuran solo estarán vigentes cuando tenga habilitado el acceso de usuarios externos a su organización. Los usuarios externos no pueden comunicarse con los usuarios de su organización cuando el acceso de usuarios externos está deshabilitado o si ninguna directiva de acceso de usuarios externos está configurada para admitirlo.
 

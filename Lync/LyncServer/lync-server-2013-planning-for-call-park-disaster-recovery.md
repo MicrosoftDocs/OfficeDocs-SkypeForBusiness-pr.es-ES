@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planear la recuperación ante desastres del estacionam
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Call Park disaster recovery
 ms:assetid: f7cf3958-177b-4340-a864-35a6f44d6d88
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205395(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2a7da940f55574e1c6d50aeb06c0c80710bdbaad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a76052297e527e24fd3daf0c03d02661c7ddc255
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825005"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

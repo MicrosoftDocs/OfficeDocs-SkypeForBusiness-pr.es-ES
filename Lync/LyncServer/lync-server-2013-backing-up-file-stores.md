@@ -3,6 +3,8 @@ title: 'Lync Server 2013: copia de seguridad de los almacenes de archivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backing up file stores
 ms:assetid: 1a7f4e93-aa3d-461e-878e-2c572baa1293
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202167(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f6facef86481e247d1f51d3ec567c8a4ee4bfde8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1989c399ec01ab2bbe3412a086a58c2583c0dad5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842892"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

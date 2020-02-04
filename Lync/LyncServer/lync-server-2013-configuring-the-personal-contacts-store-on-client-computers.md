@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración del almacén de contactos personales en
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the personal contacts store on client computers
 ms:assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721922(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4f9b7bbb50b5e63e87904d29a01715fcdcac8c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 77e6e48593bb3dc7a11375b13346ad59b2f40c0e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842174"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Comprobar la implementación de la movilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verifying your mobility deployment
 ms:assetid: 72f9b4d3-57b0-4705-9480-cfdca313a70c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690024(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b38e87a8266763085c74bf7119cc996f793ca93
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96b6c82478fffe2815e9d69b870b3b434eadb3cf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850132"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

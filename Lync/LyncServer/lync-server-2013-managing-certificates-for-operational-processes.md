@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de certificados para procesos operativ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing certificates for operational processes
 ms:assetid: 328d2ae3-9d43-46bd-98a6-520726d55492
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688017(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733607
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a3c9d53b3b709c29c00389b7afd179b3aae3a22d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7192462f5e9306a7410eb45cfb9060e4ddc11af4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828078"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

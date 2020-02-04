@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de servicios y servidores de aplicaciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Application server and services cmdlets
 ms:assetid: 4db74a72-2beb-4c95-a761-310ac9e5f624
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415653(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184076
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a03771492872d262c27877aa9f02d9edec4c8d3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ad4c2afc759ccf14e8b639f1d6e00292e4df457
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843031"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

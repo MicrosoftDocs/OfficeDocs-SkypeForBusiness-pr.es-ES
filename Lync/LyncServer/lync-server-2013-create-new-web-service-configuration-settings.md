@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear nuevos parámetros de configuración del servici
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create new Web Service configuration settings
 ms:assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182605(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185801
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 86105e4dbf6b624f87844a68ebe5fca6bba02247
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b8c3e81379eb411b2b77129e51b59ce675887394
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835824"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

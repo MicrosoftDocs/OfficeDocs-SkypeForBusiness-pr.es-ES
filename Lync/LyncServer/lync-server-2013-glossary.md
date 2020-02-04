@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Glosario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Glossary
 ms:assetid: 3d3efa39-df4a-43fc-b639-9fb10a150258
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh393341(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183930
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e30d9637b4fa378cd69ee20245620a26c7126389
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 65d43f0641d61b60d05c11176fe38866a137e7fc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763924"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Conmutación por error de una base de datos reflejada'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over a mirrored database
 ms:assetid: 70185476-e3d4-440a-9316-fa24b226343e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204991(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184450
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a943705f13cff4f015285b1ef74feb11dc540091
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 822a7a2fa13ce444bbaf590ee0d8ba2144debcc7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835174"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

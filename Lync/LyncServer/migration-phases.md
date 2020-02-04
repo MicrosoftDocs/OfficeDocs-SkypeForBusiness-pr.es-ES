@@ -3,6 +3,8 @@ title: Fases de la migración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migration phases
 ms:assetid: cb7747ba-b872-42ca-ab41-76e3c4e77d06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205336(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185642
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa7226a442d8e41d4ab0e6e3511a35e020decb65
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76719513d3b9df6b3259efef57fc0bd5ae94050f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849953"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

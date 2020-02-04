@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de mensajería unificada en Microsoft E
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Unified Messaging on Microsoft Exchange
 ms:assetid: 07547968-c59b-4dde-ace4-9fd286933759
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183311
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4a97a97d96f91b0433c65b7eb3e352dcf47c7d5
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: edac9ff9b72c00e7520d80c376e49b03a9e35bab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971229"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Directivas de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Voice policies
 ms:assetid: b7433c62-9d8c-48af-89a0-19f0d34806ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412891(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca1e72a1b62a224898d98aec7fcef9bc62ddf8bc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3998bd6f879b20b1a22f46818a22f26bbb2cc29a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850034"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758612"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -102,11 +104,11 @@ Puedes habilitar o deshabilitar las siguientes características de llamada para 
 
   - El **reemplazo de directiva de ancho de banda** permite a los administradores cambiar las decisiones de la directiva del servicio de control de admisión de llamadas para un usuario en concreto. Está deshabilitado de forma predeterminada.
 
-  - El **seguimiento de llamadas** malintencionadas permite a los usuarios denunciar llamadas malintencionadas mediante el cliente de Lync y, a continuación, marca dichas llamadas en los registros de detalles de llamadas. Está deshabilitado de forma predeterminada.
+  - El **seguimiento de llamadas malintencionadas** permite a los usuarios denunciar llamadas malintencionadas mediante el cliente de Lync y, a continuación, marca dichas llamadas en los registros de detalles de llamadas. Está deshabilitado de forma predeterminada.
 
   - El **escape en correo de voz** impide que las llamadas se redirijan de inmediato al sistema de correo de voz del teléfono móvil del usuario cuando se configura la característica de llamadas simultáneas y el teléfono está apagado, sin batería o fuera del alcance, y se basa en un valor del temporizador. Esta configuración habilita y deshabilita el temporizador, y establece su valor. Solo se puede configurar mediante el shell de administración de Lync Server. Está deshabilitado de forma predeterminada.
 
-  - El **desvío de llamadas y los usos de RTC** de llamadas simultáneas permite a los administradores especificar el mismo uso de la RTC que la Directiva de voz para el desvío de llamadas y las llamadas simultáneas, restringir el desvío de llamadas y las llamadas simultáneas solo a usuarios internos de Lync. o especifique un uso de RTC personalizado que sea diferente del uso de RTC de la Directiva de voz. La opción predeterminada es usar el mismo uso de RTC que la directiva de voz para el desvío de llamadas y las llamadas simultáneas.
+  - El **desvío de llamadas y los usos simultáneos de RTC** permiten a los administradores especificar el mismo uso de la RTC que la Directiva de voz para el desvío de llamadas y las llamadas simultáneas, restringir el desvío de llamadas y las llamadas simultáneas a usuarios internos de Lync, o especificar un uso de RTC personalizado que sea diferente del uso de RTC de la Directiva de voz. La opción predeterminada es usar el mismo uso de RTC que la directiva de voz para el desvío de llamadas y las llamadas simultáneas.
 
 </div>
 

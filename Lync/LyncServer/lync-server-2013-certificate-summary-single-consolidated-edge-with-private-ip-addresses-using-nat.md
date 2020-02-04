@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen de certificado - Servidor perimetral consolida
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - Single consolidated edge with private IP addresses using NAT
 ms:assetid: 6de6680e-5f47-48e6-8e06-4994d710ea6d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398519(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184433
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77b9f2421d1ed6ef8a3127225f3911f0ea9a3973
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b76ba1e92c6c396b81e0a815a9b1368f90b8b85d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842628"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2012-10-22_
 
 Microsoft Lync Server 2013 usa certificados para autenticar mutuamente otros servidores y para cifrar los datos del servidor al servidor y del servidor al cliente. Los certificados requieren que coincidan los registros del sistema de nombres de dominio (DNS) asociados con los servidores y el nombre de asunto (SN) y el nombre alternativo de asunto (SAN) en el certificado. Para asignar correctamente servidores, registros DNS y entradas de certificados, debe planificar cuidadosamente los nombres de dominio completos del servidor previsto como registrados en DNS y las entradas SN y SAN del certificado.
 
-El certificado asignado a las interfaces externas del servidor perimetral se solicita desde una entidad de certificación (CA) pública. Las CA públicas que han demostrado su éxito en el suministro de certificados para las comunicaciones unificadas se muestran en el [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)artículo siguiente:. Al solicitar el certificado, puede usar la solicitud de certificado generada por el Asistente de implementación de Lync Server o crear la solicitud manualmente con los cmdlets del shell de administración de Lync Server o mediante un proceso proporcionado por una CA pública. Para obtener más información sobre los cmdlets del shell de administración de Lync Server para la administración de certificados, consulte cmdlets de [certificados y autenticación en Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/) al asignar el certificado, el certificado se asigna a la interfaz del servicio perimetral de acceso, la web Interfaz de servicio perimetral de conferencia y el servicio de autenticación de audio y vídeo. El servicio de autenticación de audio y vídeo no debe confundirse con el servicio de borde a/V que no usa un certificado para cifrar las transmisiones de audio y vídeo. La interfaz de servidor de borde interno puede usar un certificado de una entidad de certificación interna o de un certificado de una entidad de certificación pública. El certificado de interfaz interna usa solo el SN y no necesita ni usar entradas de SAN.
+El certificado asignado a las interfaces externas del servidor perimetral se solicita desde una entidad de certificación (CA) pública. Las CA públicas que han demostrado su éxito en el suministro de certificados para las comunicaciones unificadas se muestran en el [http://go.microsoft.com/fwlink/p/?linkid=3052\&kbid=929395](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=929395)artículo siguiente:. Al solicitar el certificado, puede usar la solicitud de certificado generada por el Asistente de implementación de Lync Server o crear la solicitud manualmente con los cmdlets del shell de administración de Lync Server o mediante un proceso proporcionado por una CA pública. Para obtener más información sobre los cmdlets del shell de administración de Lync Server para la administración de certificados, consulte [cmdlets de certificados y autenticación en Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/) al asignar el certificado, el certificado se asigna a la interfaz de servicio perimetral de acceso, la interfaz de servicio perimetral de conferencias web y el servicio de autenticación de audio y vídeo. El servicio de autenticación de audio y vídeo no debe confundirse con el servicio de borde a/V que no usa un certificado para cifrar las transmisiones de audio y vídeo. La interfaz de servidor de borde interno puede usar un certificado de una entidad de certificación interna o de un certificado de una entidad de certificación pública. El certificado de interfaz interna usa solo el SN y no necesita ni usar entradas de SAN.
 
 <div>
 

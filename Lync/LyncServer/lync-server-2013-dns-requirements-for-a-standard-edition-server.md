@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos DNS para un servidor Standard Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for a Standard Edition server
 ms:assetid: 5d1daf54-6e60-4ce0-9254-7d57a0835fa4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204936(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184259
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7508fea0fa6640546bda4f1ecb559821d468803d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3ab4280ca3ed329d0dc926756f6bfd933595ca08
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835371"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -62,7 +64,7 @@ En la tabla siguiente se especifican los requisitos DNS para la implementación 
 </tr>
 <tr class="even">
 <td><p>Inicio de sesión de clientes automático</p></td>
-<td><p>Para cada dominio SIP admitido, un registro SRV para _sipinternaltls. _ TCP. &lt;dominio&gt; sobre el puerto 5061 que se asigna al FQDN del servidor Standard Edition que autentica y redirige las solicitudes de inicio de sesión de los clientes. Para obtener más información, consulte <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">requisitos de DNS para el inicio de sesión automático de cliente en Lync Server 2013</a>.</p></td>
+<td><p>Para cada dominio SIP admitido, un registro SRV para _sipinternaltls. _tcp. &lt;dominio&gt; sobre el puerto 5061 que se asigna al FQDN del servidor Standard Edition que autentica y redirige las solicitudes de inicio de sesión de los clientes. Para obtener más información, consulte <a href="lync-server-2013-dns-requirements-for-automatic-client-sign-in.md">requisitos de DNS para el inicio de sesión automático de cliente en Lync Server 2013</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Detección del servicio web de actualización de dispositivos por los dispositivos de comunicaciones unificadas (UC)</p></td>

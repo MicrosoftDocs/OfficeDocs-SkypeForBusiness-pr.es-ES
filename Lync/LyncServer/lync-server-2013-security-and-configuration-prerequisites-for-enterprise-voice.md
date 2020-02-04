@@ -3,6 +3,8 @@ title: Requisitos previos de seguridad y configuración para telefonía IP empre
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security and configuration prerequisites for Enterprise Voice
 ms:assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398221(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d06cdb4c679d1a40eb5c6fa0e8cf837ec8d2e332
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6530e00a942e2e839eaf4bc2d069212b746e2504
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822058"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -101,7 +103,7 @@ Si ha implementado recientemente la carga de trabajo de telefonía IP empresaria
 
 Después de verificar el software y los requisitos previos del entorno de telefonía IP empresarial, puede usar el siguiente contenido para:
 
-  - Instale el servidor de mediación, como se describe en [instalar los archivos de Media Server en Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), pero solo si desea implementar un servidor o grupo de mediación independiente, ya que los servidores de mediación están instalados como parte de la aplicación de front-end o el estándar Proceso de implementación del servidor de la edición cuando se colocan.
+  - Instale el servidor de mediación, como se describe en [instalar los archivos de Media Server en Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), pero solo si desea implementar un servidor de mediación o un grupo de mediación independiente cuando se colocan en el servidor de mediación.
 
   - También puede empezar a configurar las opciones para enrutar llamadas para usuarios de Enterprise Voice, como se describe en [configuración de troncos en Lync Server 2013](lync-server-2013-configuring-trunks.md).
 

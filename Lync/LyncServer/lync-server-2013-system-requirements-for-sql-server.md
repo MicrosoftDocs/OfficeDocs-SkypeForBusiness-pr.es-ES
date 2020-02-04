@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos del sistema para SQL Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System requirements for SQL Server
 ms:assetid: 9c235085-cbfa-4e9e-9cec-3f5749039a6b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205112(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d8e8bb923fd10d505eb9e1b02b0b0ee31612d40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c798194cd921bcf2576bc2d9199ea28f7eaeb7ab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850512"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764266"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

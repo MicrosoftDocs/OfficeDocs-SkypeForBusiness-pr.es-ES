@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Procedimientos recomendados para el servicio de contro
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for call admission control
 ms:assetid: 97173cca-8175-4ae2-a247-eb7ef809da93
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398770(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b89be654a01615c750ce4f49f866e9339bc7e261
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d8f75c546b2307de8f55504c2c6ebaab5c48f7c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842724"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

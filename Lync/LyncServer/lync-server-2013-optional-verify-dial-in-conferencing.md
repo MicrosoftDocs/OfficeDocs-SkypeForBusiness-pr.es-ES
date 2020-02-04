@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (Opcional) Comprobar la conferencia de acceso telefón
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Verify dial-in conferencing
 ms:assetid: 3e2b4220-8fb3-442f-98b1-78447adb321f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425905(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183941
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70a0b18ce596e4799c82a2843b5f3a008b5cb285
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1b5f078ccd5e95df708012b7be1527736133392
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825642"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755704"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

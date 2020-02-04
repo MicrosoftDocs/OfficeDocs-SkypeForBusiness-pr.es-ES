@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Descripción de los requisitos de firewall para SQL Se
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Understanding firewall requirements for SQL Server
 ms:assetid: 31d7df2c-589f-465e-be74-cf6767db190d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425818(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183781
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 586985c3059e12d358249a71dc2435c3be9254f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dba3296ee01f997857660d2a3f328f663d32cf99
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

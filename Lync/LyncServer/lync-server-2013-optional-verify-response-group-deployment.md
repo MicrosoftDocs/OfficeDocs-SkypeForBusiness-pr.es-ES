@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (opcional) comprobar la implementación de grupos de r
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Verify Response Group deployment
 ms:assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687989(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733579
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f3b031ab8fdaac5249146faedafcc23517040b3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 065a48aedf1b093358193d0c8afbd12b44653025
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825607"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

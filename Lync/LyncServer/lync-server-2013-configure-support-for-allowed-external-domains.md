@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar la compatibilidad con dominios externos per
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure support for allowed external domains
 ms:assetid: 3ee6e175-986d-4c33-b03a-b9f93083dca6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183943
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfab1a41f39d975d2920bdf97ea601618277f35a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31aa2ab9db9ffccd3acda90e9651dfad20b85e96
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842326"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

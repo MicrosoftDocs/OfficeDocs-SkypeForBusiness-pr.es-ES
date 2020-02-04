@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Grupo de director escalado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scaled Director pool
 ms:assetid: 47a293ce-c964-4685-a9ec-2868dc1f2bc8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204864(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184055
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2963b37d213c931ba3706c873b9bf4ec5b68ee13
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 93c3147f9397db444e816dea433fbe5478c8e87a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822149"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764988"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lista de comprobación de la implementación del acces
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for external user access
 ms:assetid: 3f55f502-88a0-4315-8783-45a32a0b78ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425910(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183947
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c8831e8bd94040095fabd9fb335113b62b5287b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ad2ad90ab43402babdd10478e1d86cac2a38ddf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835518"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762728"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Antes de implementar la red perimetral e implementar compatibilidad para usuario
 
 Microsoft Lync Server 2013 incluye herramientas para facilitar la planificación y la implementación de servidores internos y servidores perimetrales. Una vez completada la topología, publique la definición de topología resultante en su entorno de producción. Para ello, debe ser miembro del grupo **administradores de dominio** y del grupo **RTCUniversalServerAdmins** .
 
-  - **Herramienta**   de planeación Office Communications Server 2007 R2 incluye una herramienta de planificación y una herramienta de planeación de bordes que puede usar para guiar el diseño de la topología. En Lync Server 2010, estas dos herramientas se combinaron en una sola herramienta de planeación con características y funciones adicionales, como la recopilación de recuento de usuarios planificados, los requisitos de voz, los tipos de acceso de usuarios externos y las opciones de Federación. Además, puede planear los parámetros de red de la infraestructura, como direcciones IP, tipos de equilibradores de carga y otras consideraciones de la red perimetral.
+  - **Herramienta de planeación**   Office Communications Server 2007 R2 incluye una herramienta de planificación y una herramienta de planeación de bordes que puede usar para guiar el diseño de la topología. En Lync Server 2010, estas dos herramientas se combinaron en una sola herramienta de planeación con características y funciones adicionales, como la recopilación de recuento de usuarios planificados, los requisitos de voz, los tipos de acceso de usuarios externos y las opciones de Federación. Además, puede planear los parámetros de red de la infraestructura, como direcciones IP, tipos de equilibradores de carga y otras consideraciones de la red perimetral.
 
   - ****   El generador de topologías Lync Server 2013 Builder le ayuda a definir su topología y sus componentes. El generador de topología es esencial para implementar servidores que ejecuten Lync Server 2013. El generador de topología publica los resultados en un almacén de administración central que se usa para configurar todos los servidores que ejecutan Lync Server 2013 de su organización. No puede instalar Lync Server 2013 en servidores sin usar el generador de topologías.
 

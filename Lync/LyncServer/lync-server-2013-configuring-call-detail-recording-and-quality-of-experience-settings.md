@@ -3,6 +3,8 @@ title: Configuración del registro detallado de llamadas y de las opciones de la
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring call detail recording and Quality of Experience settings
 ms:assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204621(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183223
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67c9759faad4ed96cdf65d8bd22c5778512933de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 504c2221e9f8a3ef32e2cebbb792f5e03aef15c5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842281"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756344"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,12 +61,12 @@ Al instalar Microsoft Lync Server 2013, también instalará una colección prede
 <tr class="odd">
 <td><p>EnableCDR</p></td>
 <td><p>Indica si está habilitado o no el CDR. Si se establece en True, se recopilarán y se escribirán todos los registros del CDR en la base de datos de supervisión.</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>
 <td><p>Indica si los registros del CDR se eliminarán o no periódicamente de la base de datos. Si se establece en True, los registros se eliminarán tras el período de tiempo especificado por las propiedades KeepCallDetailForDays (para registros del CDR) y KeepErrorReportForDays (para errores del CDR). Si se define como False, los registros detallados de llamadas se conservarán indefinidamente.</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 </tr>
 <tr class="odd">
 <td><p>KeepCallDetailForDays</p></td>
@@ -102,7 +104,7 @@ De manera similar, los valores predeterminados para la configuración de QoE se 
 <tr class="odd">
 <td><p>EnableQoE</p></td>
 <td><p>Indica si la supervisión de QoE está o no habilitada. Si se establece en True, todos los registros de QoE se recopilarán y se escribirán en la base de datos de supervisión.</p></td>
-<td><p>True</p></td>
+<td><p>Verdadero</p></td>
 </tr>
 <tr class="even">
 <td><p>EnablePurging</p></td>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar un anuncio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an announcement
 ms:assetid: 26ea7149-4470-4c22-9bab-8a4065aca44e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687998(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733588
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8bb942c57394e2141ad4c550ecaf33ae2ef128fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91a15057e4785a16e7fc632422573ee02d1d920b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835628"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

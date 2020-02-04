@@ -3,6 +3,8 @@ title: 'Lync Server 2013: subinforme del Resumen P2P'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: P2P Summary Subreport
 ms:assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205416(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185950
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7199d9571adfb90b6f848f8f46474fd14813bc76
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3cff1eb86376068d53651f0d88224bf7f030921
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825383"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755404"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

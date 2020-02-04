@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definición de los requisitos para el servidor de chat
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for Persistent Chat Server
 ms:assetid: 568674fb-c08a-4170-ac38-e2f8428c69e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398372(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 68f9195a91a4f8334933d1fce7ffd3a5dceb564c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0e7482ab85b72168e990eaa97b2f79cb3665532
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835672"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Antes de implementar un servidor de chat persistente para su organización, es e
 
   - ¿Cómo desea crear salas? El servidor de chat persistente proporciona una característica basada en la web para la creación y administración de salas. Esto se puede iniciar desde el cliente de Lync 2013. Puede definir una solución personalizada (mediante el kit de desarrollo de software (SDK) del servidor de chat persistente) que implementa los requisitos y los flujos de trabajo de su empresa, y configurar el servidor de chat persistente para dirigir a los usuarios a su solución personalizada.
 
-  - ¿Qué tipo de complementos desea suministrar? **** Los complementos mejoran la experiencia en la sala aprovechando el panel de extensibilidad en el cliente de Lync 2013 para proporcionar contexto que sea relevante para el salón. Puede elegir qué complementos generales podrían ser más útiles (por ejemplo, el sitio web de la compañía, los documentos de colaboración interna, etc.). Los directores del salón de chat pueden elegir uno de los complementos registrados y asociarlo a los salones, si así lo desean.
+  - ¿Qué tipo de complementos desea suministrar? Los **Complementos** mejoran la experiencia en la sala aprovechando el panel de extensibilidad en el cliente de Lync 2013 para proporcionar contexto que sea relevante para el salón. Puede elegir qué complementos generales podrían ser más útiles (por ejemplo, el sitio web de la compañía, los documentos de colaboración interna, etc.). Los directores del salón de chat pueden elegir uno de los complementos registrados y asociarlo a los salones, si así lo desean.
 
   - ¿Qué tipo de requisitos de alta disponibilidad y recuperación ante desastres tiene? El servidor de chat persistente admite el reflejo de SQL Server y el clúster de SQL Server para ofrecer alta disponibilidad y admite hasta 8 servidores (4 activos y 4 en espera) en un grupo expandido con el trasvase de registros de SQL Server para la recuperación de desastres.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver la configuración del servidor perimetral'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Edge Server settings
 ms:assetid: 684154cc-cffc-4d2e-8baa-be52c625e5d7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747890(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969612
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 972a5861af803dbaf66843883595c446345ac29a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6eaab70f2f6d651d6446aaa4a569277494b7a9ee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850104"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738749"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

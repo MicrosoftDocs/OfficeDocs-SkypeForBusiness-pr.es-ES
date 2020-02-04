@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de movilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Mobility cmdlets
 ms:assetid: 42a30a34-d66b-4c91-b596-a6fc7666e600
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690019(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183973
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 34b62a35da2d289bee1a08abe354ed990c75e6fb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c2e1f5339f2c47a611fa29d9511d4d73148afcda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826972"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758712"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

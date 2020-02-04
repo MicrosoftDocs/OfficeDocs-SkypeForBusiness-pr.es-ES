@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Omisión de medios y servidor de mediación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media bypass and Mediation Server
 ms:assetid: 8ed35f95-05cd-4b5d-8470-442d2323df71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398719(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184774
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8524c0f2556eec339b6698f156966ea95538dbaa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf57bd94925ef5337656afc1b7cf4aa1ebc8ab17
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827525"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762012"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

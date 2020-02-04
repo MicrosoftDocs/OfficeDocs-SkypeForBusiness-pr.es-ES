@@ -3,6 +3,8 @@ title: 'Lync Server 2013: modificar la Directiva de correo de voz hospedado glob
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modify the global hosted voice mail policy
 ms:assetid: f059b3ce-a7d8-4ea9-b10b-0052222ec2ce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412994(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185757
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4759fd0cfe4f8a4c55905b265c2418354a6a6dae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e930e0b1f9a6e2d246a8011c59e2c92c75ba138d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826797"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

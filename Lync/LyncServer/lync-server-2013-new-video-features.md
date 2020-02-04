@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nuevas características de vídeo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New video features
 ms:assetid: c5d7ef57-cda7-456e-b263-c78179991b79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205246(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185355
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6560b18bd2b1db72aca6dc98997c8a7cdf33445b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 46172b2996905b763f4b646a52c2c0ea95fc30b4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825964"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755874"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

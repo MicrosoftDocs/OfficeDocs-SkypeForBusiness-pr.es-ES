@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cambios realizados por la preparación del bosque'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by forest preparation
 ms:assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425791(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183734
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef94ea82f31871cf90939aa25a130903f15ef756
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4df16ffb24c4eb4e010e2b57f6af62d3518c05b6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842615"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ En esta sección se describen la configuración global y los objetos, así como 
 
 ## <a name="active-directory-global-settings-and-objects"></a>Objetos y configuración global de Active Directory
 
-Si almacena la configuración global en el contenedor de configuración (como es el caso de todas las implementaciones de Lync Server 2013 nuevas), la preparación del bosque usa el contenedor servicios existentes y agrega un objeto\\de **servicio RTC** en los servicios de configuración examina. En el objeto de servicio RTC, la preparación del bosque agrega un objeto de **configuración global** de tipo MsRTCSIP-GlobalContainer. El objeto configuración global contiene toda la configuración que se aplica a la implementación de Lync Server. Si almacena la configuración global en el contenedor del sistema, la preparación del bosque usa un contenedor de Microsoft en el contenedor del sistema del dominio raíz y un\\objeto de servicio RTC bajo el objeto Microsoft del sistema.
+Si almacena la configuración global en el contenedor de configuración (como es el caso de todas las implementaciones de Lync Server 2013 nuevas), la preparación del bosque usa el contenedor servicios existentes y agrega un objeto\\de **servicio RTC** en el objeto de servicios de configuración. En el objeto de servicio RTC, la preparación del bosque agrega un objeto de **configuración global** de tipo MsRTCSIP-GlobalContainer. El objeto configuración global contiene toda la configuración que se aplica a la implementación de Lync Server. Si almacena la configuración global en el contenedor del sistema, la preparación del bosque usa un contenedor de Microsoft en el contenedor del sistema del dominio raíz y un\\objeto de servicio RTC bajo el objeto Microsoft del sistema.
 
 La preparación del bosque también agrega un nuevo objeto **msRTCSIP-Domain** para el dominio raíz en el que se ejecuta el procedimiento.
 
@@ -253,9 +255,9 @@ En el contenedor configuración, en el contexto de nomenclatura de configuració
 
   - Agrega un objeto **RTCUserSearchPropertySet** de tipo **controlAccessRight** bajo **Extended-Rights** que se aplica a las clases User, Contact, ou y DomainDNS.
 
-  - Agrega **msRTCSIP-PrimaryUserAddress** bajo el atributo de **columnas** extracolumnas del especificador de pantalla de unidad organizativa (OU) de cada idioma (por ejemplo, CN = ORGANIZATIONALUNIT-display, CN = 409, CN = DisplaySpecifiers) y copia los valores de la el atributo de **columnas** extracolumnas de la pantalla predeterminada (por ejemplo, CN = default-display, CN = 409, CN = DisplaySpecifiers).
+  - Agrega **msRTCSIP-PrimaryUserAddress** en el atributo **extracolumns** del especificador de pantalla de cada idioma de unidad organizativa (OU) (por ejemplo, CN = ORGANIZATIONALUNIT-display, CN = 409, CN = DisplaySpecifiers) y copia los valores del atributo **extracolumns** de la presentación predeterminada (por ejemplo, CN = default-display, CN = 409, CN = DisplaySpecifiers).
 
-  - Agrega **atributos msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer**y **msRTCSIP-UserEnabled** en el atributo **attributeDisplayNames** de cada especificador de presentación de idioma para usuarios, contactos, y objetos InetOrgPerson (por ejemplo, en Inglés: CN = usuario-display, CN = 409, CN = DisplaySpecifiers).
+  - Agrega **atributos msRTCSIP-PrimaryUserAddress**, **msRTCSIP-PrimaryHomeServer**y **msRTCSIP-UserEnabled** al atributo **attributeDisplayNames** de cada especificador de visualización de idioma para los objetos users, Contacts e INETORGPERSON (por ejemplo, en Inglés: CN = user-Display, CN = 409, CN = DisplaySpecifiers).
 
 </div>
 

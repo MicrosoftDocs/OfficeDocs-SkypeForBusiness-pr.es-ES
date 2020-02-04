@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restaurar el servidor que hospeda el almacén de admin
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring the server hosting the Central Management store
 ms:assetid: 3bd6c82c-07fb-4798-b8f9-e7c78a5a83d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202172(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541464
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95696c682e7acfba32e4f9a2bfd71ba988f22243
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 976f486d096f7be59e2eef74eab7b03d6cc4bab0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822450"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

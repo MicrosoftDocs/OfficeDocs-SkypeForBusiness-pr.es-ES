@@ -3,6 +3,8 @@ title: 'Lync Server 2013: proceso de programación de reuniones grandes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Large-meeting scheduling process
 ms:assetid: de267458-885f-4176-a8d7-1a218e67640e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205334(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185639
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: af97cdbd07603c420780a92fbbe0a03c8a4d0520
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b2cfe26b70db612249ca840c86b41fb3d60db663
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834946"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ En el caso de los organizadores de reuniones de gran tamaño, la programación d
     
     En la siguiente ilustración se muestra un flujo de trabajo de solicitud y aprobación típico para programar reuniones grandes.
     
-    ![5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d] (images/JJ205334.5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d(OCS.15).jpg "5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d")  
+    ![5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d](images/JJ205334.5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d(OCS.15).jpg "5d8b1f62-1dc3-47bf-bf8f-be2d8899ab9d")  
 
 </div>
 

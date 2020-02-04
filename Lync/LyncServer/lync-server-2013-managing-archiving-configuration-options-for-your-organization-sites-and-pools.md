@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de las opciones de configuración de a
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Archiving configuration options for your organization, sites, and pools
 ms:assetid: 377a6f80-5f2b-4bc1-b507-e930a461fb1d
 ms:mtpsurl: https://technet.microsoft.com/library/JJ204802(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183830
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4d27ea110c345be8963c5b3be3fa8b761e1b3727
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 59db9765b9e9ee0b453268ea9c22d897f10ba662
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111724"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765611"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

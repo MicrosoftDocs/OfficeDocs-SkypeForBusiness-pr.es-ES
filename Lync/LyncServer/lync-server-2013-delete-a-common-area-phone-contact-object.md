@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar un objeto de contacto telefónico de área co
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a common area phone Contact object
 ms:assetid: f4c139dc-f07c-4c75-9345-e291aea41173
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994087(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803999
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17ab84f88417a6f5cb1c96c4cf7b6df45fa24b16
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a3088150c882a5ebca99318f7c85ddbddddc333
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835650"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

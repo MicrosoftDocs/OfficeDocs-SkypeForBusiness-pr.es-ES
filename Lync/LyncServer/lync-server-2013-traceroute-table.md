@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tabla TraceRoute'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: TraceRoute table
 ms:assetid: b9493cef-6ece-4f13-bf68-dbf132aab4f4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205205(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f1dd0f9bc3bd900d71a316bf2ff1ab7612a51194
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 691b7576d59511428400d14a3ff21109525dc5a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850296"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

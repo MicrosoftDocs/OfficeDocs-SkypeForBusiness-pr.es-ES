@@ -3,6 +3,8 @@ title: 'Lync Server 2013: asignar una directiva de conferencia por usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a per-user conferencing policy
 ms:assetid: 72f12c72-65f7-44fe-ab81-0f57cb2f87d1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184475
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9dbeb129ef58c6993d1cd919b03d7417d35b439a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0d43bf1663a475bed93985b2257eefaaa07ff8c0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842918"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738370"
 ---
 # <a name="assign-a-per-user-conferencing-policy-in-lync-server-2013"></a>Asignar una directiva de conferencia por usuario en Lync Server 2013
 

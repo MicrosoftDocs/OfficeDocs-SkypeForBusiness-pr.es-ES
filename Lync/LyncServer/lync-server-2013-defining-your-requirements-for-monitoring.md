@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir los requisitos para la supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organizations's requirements for monitoring
 ms:assetid: d587ff04-9af6-4ac1-ad42-076e7a40ac75
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205284(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7a81f83cddca46a50f84fb20785a59b20a3db78
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 102735e7a8149edcb858b30644197553f5392c1e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835681"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

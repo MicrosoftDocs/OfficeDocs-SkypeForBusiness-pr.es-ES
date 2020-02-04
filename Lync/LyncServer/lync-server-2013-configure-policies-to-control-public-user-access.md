@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar directivas para controlar el acceso de usua
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure policies to control public user access
 ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183343
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e259082aa73d4354e8e4aa93eb7a0cc8d7ed7a6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b348abcce00eb57988c7aa5184c0cfb5ea302adb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842356"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763282"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Para acceder al sitio de aprovisionamiento de la conectividad de mensajería ins
 
 Para controlar el acceso de los usuarios públicos, puede configurar directivas en el nivel global, de sitio y de usuario. Para obtener más información sobre los tipos de directivas que puede configurar, vea [configurar la compatibilidad del acceso de usuarios externos en Lync Server 2013](lync-server-2013-configuring-support-for-external-user-access.md) en la documentación de implementación o en la documentación de planeación. La configuración de directiva de Lync Server que se aplica a un nivel de Directiva puede invalidar la configuración que se aplica a otro nivel de directiva. La prioridad de la Directiva de Lync Server es: la Directiva de usuario (más influencia) reemplaza a una directiva de sitio y, después, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto.
 
-En el caso de las invitaciones de mensajería instantánea, la respuesta depende del software de cliente. La solicitud se acepta a menos que los remitentes externos se bloquean explícitamente mediante una regla configurada por el usuario (es decir, la configuración de las listas **permitir** o **bloquear** del cliente del usuario). Además, las invitaciones de mensajería instantánea se pueden bloquear si un usuario decide bloquear todos los mensajes instantáneos de usuarios que no estén **** en su lista de permitidos.
+En el caso de las invitaciones de mensajería instantánea, la respuesta depende del software de cliente. La solicitud se acepta a menos que los remitentes externos se bloquean explícitamente mediante una regla configurada por el usuario (es decir, la configuración de las listas **permitir** o **bloquear** del cliente del usuario). Además, las invitaciones de mensajería instantánea se pueden bloquear si un usuario decide bloquear todos los mensajes instantáneos de usuarios que no estén en su lista de **permitidos** .
 
 <div>
 

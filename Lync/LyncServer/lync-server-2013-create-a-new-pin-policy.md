@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear una nueva Directiva de PIN'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new PIN policy
 ms:assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182547(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184777
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 958952a0fdac0ddd198c1952fc2e55ef4845976b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9c381e33c54f38bfdb00f968885dafa85184018b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842088"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

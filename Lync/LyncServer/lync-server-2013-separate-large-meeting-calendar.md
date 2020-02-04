@@ -3,6 +3,8 @@ title: 'Lync Server 2013: calendario independiente de reuniones grandes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Separate large-meeting calendar
 ms:assetid: 4f744b4e-67d8-4264-bfae-7aaa157ee73d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204880(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184095
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00729f05e886e3c84a2ed4a2dde4f73699e84b61
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d6ed3e1e50ab140aea6481e92519660f91bf7e8e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822086"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764898"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

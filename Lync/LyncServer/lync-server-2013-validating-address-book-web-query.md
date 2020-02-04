@@ -3,6 +3,8 @@ title: 'Lync Server 2013: validación de la consulta Web de la libreta de direcc
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validating address book web query
 ms:assetid: e6ae0a5a-e131-4cfe-9a33-6e611831072d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720925(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969662
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 44c43b4332be67bb164f21a2bb07459d61b23e85
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 31d6a38c0c1d8a67977f9dd66da2a94b51a4f9ab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850159"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

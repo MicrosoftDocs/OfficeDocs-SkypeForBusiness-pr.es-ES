@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar la capacidad de un usuario para iniciar sesión
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the ability of a user to log on to Lync Server
 ms:assetid: d9cd0f9b-6ef2-4050-a4ca-263c5afa93ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743841(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969655
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: adf6cae2899d08765faf5d605ea20ae111f395ce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4fb1d0af8a5191c7e0af1ffe3319c426c116b586
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850329"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

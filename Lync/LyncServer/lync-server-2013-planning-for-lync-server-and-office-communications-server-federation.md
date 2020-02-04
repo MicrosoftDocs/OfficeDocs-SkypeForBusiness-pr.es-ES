@@ -3,6 +3,8 @@ title: Planeación de la Federación de Lync Server y Office Communications Serv
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Lync Server and Office Communications Server federation
 ms:assetid: c9eaf06b-054f-41a4-ad0c-499400d6c4c7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205335(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c683092b61d278d380ad68cef86795d496498fbf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 015f824ff2b8510559a7bd4910be76321d44d242
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824788"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751870"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ La Federación apareció por primera vez en Microsoft Office Live Communications
 
   - *Federación directa*: configurar el nombre de dominio SIP del socio y el FQDN al servidor perimetral del socio
 
-  - *Lista*de permitidos del servidor: aceptar cualquier dominio, usar DNS SRV para buscar el servidor perimetral de un proveedor de hospedaje o un proveedor de conectividad de mensajería instantánea pública (mi)
+  - *Lista de permitidos del servidor*: aceptar cualquier dominio, usar DNS SRV para buscar el servidor perimetral de un proveedor de hospedaje o un proveedor de conectividad de mensajería instantánea pública (mi)
 
 Microsoft Office Communications Server 2007 introdujo nombres actualizados para los tipos de Federación para definir mejor lo que hace realmente cada tipo de Federación:
 
@@ -66,7 +68,7 @@ Habilitar la Federación entre Microsoft Lync Server 2013, Lync Server 2010 y Of
   - Determinar los requisitos para la detección de dominios federados:
     
       - <span></span>  
-        Para la configuración manual de la Federación, debe tener el nombre de dominio completo (FQDN) del servidor perimetral y el nombre de dominio del asociado, o el nombre de dominio en línea, que se especifica en el panel de control de Lync Server, **Federación y acceso externo**, **SIP Dominios federados**. Cree una directiva **nueva** o **edite** una existente para permitir o bloquear dominios por FQDN.
+        Para la configuración manual de la Federación, debe tener el nombre de dominio completo (FQDN) del servidor perimetral y el nombre de dominio del asociado, o el nombre de dominio en línea, que se especifica en el panel de control de Lync Server, **Federación y acceso externo**, **dominios federados de SIP**. Cree una directiva **nueva** o **edite** una existente para permitir o bloquear dominios por FQDN.
         
         <div>
         
@@ -93,7 +95,7 @@ Habilitar la Federación entre Microsoft Lync Server 2013, Lync Server 2010 y Of
         
 
         > [!IMPORTANT]
-        > Si admite clientes móviles de Microsoft Lync en Windows Phone o Apple iPhone, iPad u otros dispositivos Apple y está usando el servicio de notificaciones Push o el servicio de notificaciones push, debe planear _sipfederationtls. _ TCP. &lt;Registros SRV&gt; de dominio SIP para cada dominio SIP que tenga clientes móviles de Lync. Android y Nokia Symbian Lync Mobile no usan la notificación de inserción y no están sujetos a este requisito.
+        > Si admite clientes móviles de Microsoft Lync en Windows Phone o Apple iPhone, iPad u otros dispositivos Apple y usa el servicio de notificaciones Push o el servicio de notificaciones push, debe planear _sipfederationtls. _tcp. &lt;Registros SRV&gt; de dominio SIP para cada dominio SIP que tenga clientes móviles de Lync. Android y Nokia Symbian Lync Mobile no usan la notificación de inserción y no están sujetos a este requisito.
 
         
         </div>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Llamadas entrantes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Incoming calls
 ms:assetid: 65b9c1b4-6af7-4527-8c33-22c4442bd209
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994038(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803948
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c007fbaec317a8e9d9d374ea62dafcab6c7a63f4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e70e5a489cbfa581c666374e6535b898727e1fdc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835015"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763804"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

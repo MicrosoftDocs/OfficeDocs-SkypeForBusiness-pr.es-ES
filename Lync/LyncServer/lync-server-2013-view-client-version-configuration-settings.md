@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver la configuración de la versión de cliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View client version configuration settings
 ms:assetid: c72df4e6-a889-4cb6-86f7-8334d7774c6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ923062(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50675353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9db03377f8f2fc880de61639f4eedc5b1c302d21
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b6c789275cf33b48e27d60de9a9f9846fc230276
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850127"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731120"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: teléfonos de área común'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Common area phones
 ms:assetid: d63bb3de-154e-4347-9251-9fa94e7d593a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803987
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 179d6a0102e62a081846a14981ed70294432ed44
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 71fa61773a4801d2050d67d4e86458eb5d37759c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742790"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Configurar servidores de chat persistente para la alta disponibilidad y l
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Persistent Chat Server for high availability and disaster recovery
 ms:assetid: eebc581c-e3a0-4b69-8a43-80b607b4d8f2
 ms:mtpsurl: https://technet.microsoft.com/library/JJ205364(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185760
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b9ceda51485b0f4f9fde33a9499ca05998176b3
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 86d0c3b9a35a138e3aadac8cc6ffcd4e808b2dca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111514"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756324"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

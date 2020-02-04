@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear una directiva de voz y configurar los registros 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a voice policy and configure PSTN usage records
 ms:assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399027(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185693
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c11eafa265bf2ba20e8a68a84231092dcb01ffa3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80537aabe132f1b83714d42244409224ca53f72d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842078"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756294"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -101,7 +103,7 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
     
       - La **llamada de equipo** permite a los usuarios de un equipo determinado responder llamadas por otros miembros del equipo. Está habilitada de forma predeterminada.
     
-      - La reenrutación de **RTC** permite que las llamadas realizadas por los usuarios que tienen asignada esta directiva a otros usuarios de la empresa se vuelvan a enrutar en la red de telefonía pública conmutada (RTC) si la WAN está congestionada o no disponible. Está habilitado de forma predeterminada.
+      - La **reenrutación de RTC** permite que las llamadas realizadas por los usuarios que tienen asignada esta directiva a otros usuarios de la empresa se vuelvan a enrutar en la red de telefonía pública conmutada (RTC) si la WAN está congestionada o no disponible. Está habilitado de forma predeterminada.
     
       - El **reemplazo de directiva de ancho de banda** permite a los administradores cambiar las decisiones de la directiva del servicio de control de admisión de llamadas para un usuario en concreto. Esta opción está deshabilitada de forma predeterminada.
         
@@ -114,7 +116,7 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
         
         </div>
     
-      - El **seguimiento de llamadas** malintencionadas permite a los usuarios denunciar llamadas malintencionadas (como amenazas de bomba) mediante la interfaz de usuario del cliente, que a su vez marca las llamadas en los registros de detalles de llamadas (CDRs). Está deshabilitada de forma predeterminada.
+      - El **seguimiento de llamadas malintencionadas** permite a los usuarios denunciar llamadas malintencionadas (como amenazas de bomba) mediante la interfaz de usuario del cliente, que a su vez marca las llamadas en los registros de detalles de llamadas (CDRs). Está deshabilitada de forma predeterminada.
 
 8.  Para asociar y configurar los registros de uso de RTC correspondientes a esta directiva de voz, realice una de las siguientes acciones:
     
@@ -180,7 +182,7 @@ Siga estos pasos si desea crear una nueva Directiva de voz. Si desea editar una 
     
       - Para usar los mismos registros de uso de RTC que esta directiva de voz, para el desvío de llamadas y las llamadas simultáneas, seleccione la opción **Distribuir con los usos de la RTC de llamada** en el menú desplegable.
     
-      - Para permitir el desvío de llamadas y las llamadas simultáneas solo a los usuarios internos de Lync, seleccione la opción enrutar **solo a los usuarios internos de Lync** desde el menú desplegable. Calls will not be forwarded to external PSTN numbers.
+      - Para permitir el desvío de llamadas y las llamadas simultáneas solo a los usuarios internos de Lync, seleccione la opción **enrutar solo a los usuarios internos de Lync** desde el menú desplegable. Calls will not be forwarded to external PSTN numbers.
     
       - Para usar unos registros de uso de RTC para el desvío de llamadas y las llamadas simultáneas que no sean los que se usan para esta directiva de voz, seleccione la opción **Distribuir con los usos de la RTC personalizados** en el menú desplegable. Esta opción muestra un control para seleccionar registros de uso de RTC o crear nuevos registros de uso de RTC destinados concretamente a desviar llamadas o a realizar llamadas simultáneas.
         

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad de servicios de dominio de Active Direc
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services support
 ms:assetid: aeb62d5e-e424-473a-b795-9452150c98dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412831(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185136
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b264abefb1234892df355fee123dd6ce68b4dfb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 32e1bce2546512900efb0b5ecd1256a97adde41e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Lync Server 2013 usa el almacén de administración central para almacenar los d
     
       - Extensiones de Lync Server 2010 y las clases de Office Communications Server 2007 R2 para mantener la compatibilidad con versiones anteriores compatibles
 
-  - **Datos** (almacenado en el esquema extendido de Lync Server 2013 y en las clases existentes)
+  - **Datos** (almacenados en el esquema extendido de Lync Server 2013 y en las clases existentes)
     
       - URI de SIP del usuario y otros parámetros de usuario
     
@@ -119,7 +121,7 @@ Lync Server no es compatible con los dominios con etiqueta única. Por ejemplo, 
 
 ## <a name="locked-down-adds-environments"></a>Entornos AD DS bloqueados
 
-En un entorno de AD DS bloqueado, los usuarios y los objetos de equipos a menudo se colocan en unidades organizativas (OU) específicas con la herencia de permisos deshabilitada para ayudar a proteger la delegación administrativa y habilitar el uso de objetos de directiva de grupo (GPO) para aplicar directivas de seguridad. Lync Server 2013 se puede implementar en un entorno de Active Directory bloqueado. Para obtener más información sobre lo que se necesita para implementar Lync Server en un entorno bloqueado, consulte preparar los servicios de dominio de Active Directory bloqueados en [Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) en la documentación de implementación.
+En un entorno de AD DS bloqueado, los usuarios y los objetos de equipos a menudo se colocan en unidades organizativas (OU) específicas con la herencia de permisos deshabilitada para ayudar a proteger la delegación administrativa y habilitar el uso de objetos de directiva de grupo (GPO) para aplicar directivas de seguridad. Lync Server 2013 se puede implementar en un entorno de Active Directory bloqueado. Para obtener más información sobre lo que se necesita para implementar Lync Server en un entorno bloqueado, consulte [preparar los servicios de dominio de Active Directory bloqueados en Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) en la documentación de implementación.
 
 </div>
 

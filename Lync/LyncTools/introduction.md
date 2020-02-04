@@ -3,6 +3,8 @@ title: Introducción
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Introduction
 ms:assetid: 276395be-93df-4a16-97e2-cb468cd0f2e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945588(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541414
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d496d0aeaabd8ef7502cae8db89f2668d0574499
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 893205127b6b1ccba958a0882c3aa0d1360a7c06
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843045"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

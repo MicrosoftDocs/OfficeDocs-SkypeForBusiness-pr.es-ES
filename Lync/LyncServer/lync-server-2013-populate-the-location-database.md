@@ -3,6 +3,8 @@ title: 'Lync Server 2013: rellenar la base de datos de ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Populate the location database
 ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185939
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a93cee85afec1e3943af692d598d0d02ab678d58
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824053"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747650"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -66,8 +68,8 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 </tr>
 <tr class="odd">
 <td><p><strong>Puerto</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Descripción&gt;,&lt;ubicación&gt;,&lt;NombreCompañía&gt;,&lt;HouseNumber&gt;,&lt; HouseNumberSuffix&gt;,...</p>
-<p>... &lt;Predireccionales&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;posdireccionales&gt;,&lt;ciudad&gt;,&lt;estado&gt;,&lt;CódigoPostal&gt;,&lt; Tercer&gt;</p></td>
+<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Descripción&gt;,&lt;ubicación&gt;,&lt;NombreCompañía&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,...</p>
+<p>... &lt;Predireccionales&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;posdireccionales&gt;,&lt;ciudad&gt;,&lt;estado&gt;,&lt;CódigoPostal&gt;,&lt;país&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Conmutador</strong></p></td>

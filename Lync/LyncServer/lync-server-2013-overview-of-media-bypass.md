@@ -3,6 +3,8 @@ title: 'Lync Server 2013: información general sobre la omisión de medios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of media bypass
 ms:assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412740(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184924
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a04bc9dfa250bc399f10a56ef58f78462044f5cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 84c70cae521deebecf30e7c8ec6505b18e9842fa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825418"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

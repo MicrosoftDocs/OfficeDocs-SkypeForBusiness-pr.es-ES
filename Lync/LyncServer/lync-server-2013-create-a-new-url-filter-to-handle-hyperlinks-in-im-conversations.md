@@ -3,6 +3,8 @@ title: Crear un filtro de dirección URL para procesar hipervínculos en convers
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a new URL filter to handle hyperlinks in IM conversations
 ms:assetid: d0ee01e5-f039-4a34-ac9d-659fe4e9e879
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182590(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185426
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3f8f9a06dd80f87f2758269ddd2d468aeae2014d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a7f6cd39034dbc3114f5b89fb15d252b71149762
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842081"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ Además de modificar el filtro de dirección URL global, puede configurar filtro
 
 7.  Para bloquear cualquier dirección URL activa que contenga un archivo con una extensión enumerada en **extensiones de tipo de archivo que se bloquean** en **Editar filtro de archivo**, active la casilla **bloquear direcciones URL con extensión de archivo** .
 
-8.  En el **** cuadro de lista desplegable prefijo del hipervínculo, haga clic en la opción que corresponde a cómo desea controlar las direcciones URL en las conversaciones de mensajes instantáneos.
+8.  En el cuadro de lista desplegable **prefijo del hipervínculo** , haga clic en la opción que corresponde a cómo desea controlar las direcciones URL en las conversaciones de mensajes instantáneos.
     
     El cuadro **permitir mensaje** permite que se envíe un mensaje de advertencia al usuario al enviar hipervínculos que pueden enviarse.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Exportar casos de prueba de enrutamiento de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Export voice routing test cases
 ms:assetid: 489ac472-1a35-4755-b390-48f7cdf31e94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425957(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184050
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d6e47158d9ea3da6f04a1424026c7edb73c1d482
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 781c9e312044193cb6195ee849a880bea6e08485
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835184"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756224"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

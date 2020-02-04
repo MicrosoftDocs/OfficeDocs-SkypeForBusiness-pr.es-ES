@@ -3,6 +3,8 @@ title: Crear o modificar una colección de valores de configuración de reunione
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a collection of meeting configuration settings
 ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b948d5aded2447e5319378a613fdf474c3e5450
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0a5f80066a68b45e062a351478bea93a5c2e8fd0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835814"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763342"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

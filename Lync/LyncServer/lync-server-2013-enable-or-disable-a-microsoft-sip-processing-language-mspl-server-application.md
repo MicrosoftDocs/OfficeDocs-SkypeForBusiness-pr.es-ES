@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar o deshabilitar una aplicación de servidor d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable a Microsoft SIP Processing Language (MSPL) server application
 ms:assetid: b20af38d-224a-4459-991d-0b7eabb3ca7c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182573(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185145
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da7ff3379f0e32166ceb263e1dbda46117b6984a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 12fb1160742898b65b14ea17bc10a9c6ed56c780
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835302"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ No todos los scripts se pueden habilitar o deshabilitar. Por ejemplo, el script 
 
 5.  Haga clic en **acción**.
 
-6.  Haga clic en **Habilitar aplicación** o deshabilitar **aplicación** (es decir, si el script admite esta opción).
+6.  Haga clic en **Habilitar aplicación** o **deshabilitar aplicación** (es decir, si el script admite esta opción).
 
 </div>
 

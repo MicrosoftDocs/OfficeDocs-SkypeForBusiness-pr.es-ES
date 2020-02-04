@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar tipos de direcciones IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure IP address types
 ms:assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204710(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183515
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b19a9ee054cb0dee5a435d0b9cfa358bc1f0343c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e1b03e7c64c15d147e09883b9d7580bacbca7be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842351"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

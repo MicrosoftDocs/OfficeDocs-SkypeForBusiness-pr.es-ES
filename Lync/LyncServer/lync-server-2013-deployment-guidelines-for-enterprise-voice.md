@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instrucciones para la implementación de la telefonía
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment guidelines for Enterprise Voice
 ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0f4f6198f8fb82720834d112bcf363554aaf84d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 221c09fc5dadda267baad35f4784c22cc4f3c9c6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835494"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762688"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -112,7 +114,7 @@ Para las ubicaciones en las que se instala un cliente de voz (por ejemplo, un eq
 
 ## <a name="emergency-calls-and-multi-line-telephone-systems"></a>Llamadas de emergencia y sistemas telefónicos de varias líneas
 
-El uso de un sistema telefónico multilínea (MLTS) puede estar sujeto al estado U de la legislación federal o a la legislación de otros países o regiones que requieran que el MLTS ofrezca a los servicios de emergencia el número de teléfono, la extensión o la ubicación física de un llamador cuando un la persona que llama se coloca en los servicios de emergencia (por ejemplo, al marcar un número de acceso de emergencia, como 911 o 999). En esta versión, Lync Server se puede configurar para proporcionar a un proveedor de servicios de emergencia la ubicación física de una llamada, como se describe en [planeamiento de servicios de emergencia (E9-1-1) en Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md). El cumplimiento de las leyes de MLTS es responsabilidad exclusiva del comprador de Lync Server, del cliente de Lync y de los dispositivos Lync Phone Edition.
+El uso de un sistema telefónico multilínea (MLTS) puede estar sujeto a U. el estado o leyes federales o las leyes de otros países o regiones que requieren el MLTS para proporcionar al número de teléfono de una persona que llama, la extensión o la ubicación física a servicios de emergencia aplicables cuando la persona que llama se coloca en servicios de emergencia (por ejemplo, cuando se marca un número de acceso de emergencia, como 911 o 999). En esta versión, Lync Server se puede configurar para proporcionar a un proveedor de servicios de emergencia la ubicación física de una llamada, como se describe en [planeamiento de servicios de emergencia (E9-1-1) en Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md). El cumplimiento de las leyes de MLTS es responsabilidad exclusiva del comprador de Lync Server, del cliente de Lync y de los dispositivos Lync Phone Edition.
 
 </div>
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla Dialog'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Dialog table
 ms:assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398313(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184068
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d47744cf17d3459c16e382c3551b427aa45b5ce6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2f0ef564ad1224ba9970b7cceb5db60e0eb344da
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835391"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762248"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

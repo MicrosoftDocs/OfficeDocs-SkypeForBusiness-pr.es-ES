@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblRoleType'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblRoleType
 ms:assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558623(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 698d6b07d5662a403a7485d009a39a0a8beccc73
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba6b5041453b0965fafc12ada2be62ec42316f89
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850472"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

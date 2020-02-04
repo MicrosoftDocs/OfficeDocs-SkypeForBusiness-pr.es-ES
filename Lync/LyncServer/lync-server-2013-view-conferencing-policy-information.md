@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información de directiva de conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View conferencing policy information
 ms:assetid: e99fdc4d-926a-4e36-ac99-ab5035568847
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733852
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8dc9174356b1d5f8e5c6316ef761c51db1eb969
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5c2cccd61d710acd9d2155412ec427c65eafc2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850116"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

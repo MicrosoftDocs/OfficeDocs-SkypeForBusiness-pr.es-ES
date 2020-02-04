@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalar la base de datos del servidor Standard Editio
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Standard Edition server database
 ms:assetid: 0bd3a804-aad6-48cb-981b-54725af032db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398167(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183385
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cad6f67dbf1bfff1ee16dbd7455b02d904aac0d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 63f2ef304b1a603203d09f260b8d3c7c46e23ccf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835000"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763694"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -60,7 +62,7 @@ Configurar un servidor Standard Edition como el único servidor de la infraestru
     
     </div>
 
-6.  En la página del Asistente para la implementación de Lync Server, haga clic en **instalar generador** de topologías si todavía no ha instalado las herramientas administrativas. Para obtener información detallada, consulte [instalar herramientas administrativas 2013 de Lync Server](lync-server-2013-install-lync-server-administrative-tools.md).
+6.  En la página del Asistente para la implementación de Lync Server, haga clic en **instalar generador de topologías** si todavía no ha instalado las herramientas administrativas. Para obtener información detallada, consulte [instalar herramientas administrativas 2013 de Lync Server](lync-server-2013-install-lync-server-administrative-tools.md).
 
 7.  Confirme que hay marcas de verificación verdes junto a "preparar Active Directory", "preparar el primer servidor Standard Edition" e "instalar el generador de topología".
 

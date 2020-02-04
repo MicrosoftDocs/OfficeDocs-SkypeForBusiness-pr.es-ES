@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear o editar un salón de chat nuevo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating or editing a new room
 ms:assetid: aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215880(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706008
 ms.date: 03/19/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1442454b2afb129fda50d98ed17ccdc2c7ba35c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7bd0fdbce300f417764e093fec3acb8705b2d17b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835753"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741110"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

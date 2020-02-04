@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Roles de servidor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server roles
 ms:assetid: 7137fc06-fca2-4e5f-9db5-10c7c29a788c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398536(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184456
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 35b8c5b052defcdc1d60ef9900c283f9f50b3809
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b22115bf137c388fd6cd15103ac882056affa4f6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822226"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764858"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

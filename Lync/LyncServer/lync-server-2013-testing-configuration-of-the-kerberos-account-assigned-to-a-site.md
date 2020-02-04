@@ -3,6 +3,8 @@ title: Probar la configuración de la cuenta Kerberos asignada a un sitio
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing configuration of the Kerberos account assigned to a site
 ms:assetid: a087d77e-c59e-44f5-9caa-ccfd41be7276
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743837(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969637
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e12a780c4c900423b23eff6cdaae15ba15786b6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c096edc0267501bb17870a5c018e4b6b0c513422
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850355"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745850"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

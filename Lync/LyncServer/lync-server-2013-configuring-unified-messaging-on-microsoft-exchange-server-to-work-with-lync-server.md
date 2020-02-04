@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuración de la mensajería unificada en Microsof
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Unified Messaging on Microsoft Exchange Server to work with Lync Server 2013
 ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398106(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 461d822862e837879f1feb2d3f980b816aae5280
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e2bc41d4fa0411c4184c0edda35d6d0cd98df9a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842166"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-10-11_
 
 
 > [!IMPORTANT]  
-> Si desea usar la mensajería unificada de Exchange (UM) para proporcionar contestador automático, Outlook Voice Access o los servicios de operador automático para usuarios de Enterprise Voice, consulte <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">planificación de la integración de mensajería unificada de Exchange en Lync Server 2013</A> en la planificación documentación y, a continuación, siga las instrucciones de esta sección.
+> Si desea usar la mensajería unificada de Exchange (UM) para proporcionar contestador automático, Outlook Voice Access o los servicios de operador automático para usuarios de Enterprise Voice, consulte <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">planificación de la integración de mensajería unificada de Exchange en Lync Server 2013</A> en la documentación de planeación y, a continuación, siga las instrucciones de esta sección.
 
 
 

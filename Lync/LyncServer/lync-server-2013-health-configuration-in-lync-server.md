@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de estado en Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Health configuration in Lync Server 2013
 ms:assetid: c00a8c8e-c2d2-4557-8c42-211c7cc96550
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205234(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185305
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a719a5e8695dbbd0705aa649d72a32a2bfdc7d38
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 14a4da3ec3f06dfb573ef7e9422bdd6b751db636
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835088"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

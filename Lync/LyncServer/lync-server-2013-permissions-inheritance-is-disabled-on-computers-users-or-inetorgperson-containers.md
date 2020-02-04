@@ -3,6 +3,8 @@ title: 'Lync Server 2013: La herencia de permisos está deshabilitada en los con
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Permissions inheritance Is disabled on computers, users, or InetOrgPerson containers
 ms:assetid: c472ad21-a93d-4fcb-a3d9-60a2134a87fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412970(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185348
 ms.date: 12/19/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73692539fb5dda38446ffddccbe35c8d366e2d67
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: da84454a6e02e02520206b5eb667edfcf4fce849
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825306"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ En un entorno de Active Directory bloqueado donde la herencia de permisos está 
 
 Este cmdlet agrega las ACE necesarias directamente en los contenedores o unidades organizativas especificados y los objetos user o InetOrgPerson dentro del contenedor. Si la OU en la que se ejecuta este comando tiene unidades organizativas secundarias con objetos user o InetOrgPerson, los permisos no se aplicarán a esos permisos. Tendrá que ejecutar el comando en cada unidad organizativa secundaria individualmente. Este es un escenario común con las implementaciones de hospedaje de Lync, por ejemplo, uo primaria = inquilinos de OCS, DC = CONTOSO, DC = LOCAL y secundarias = Tenant1, OU = OCS.
 
-Necesita los derechos de usuario equivalentes a los miembros del grupo administradores de dominio para ejecutar este cmdlet. Si las entradas ACE de usuarios autenticados también se han eliminado en el entorno bloqueado, debe conceder a esta cuenta las entradas de acceso de lectura en los contenedores o las unidades organizativas relevantes del dominio raíz del bosque, como se describe en [permisos de usuario autenticados que se quitan en Lync. Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) o use una cuenta que sea miembro del grupo administradores de la empresa.
+Necesita los derechos de usuario equivalentes a los miembros del grupo administradores de dominio para ejecutar este cmdlet. Si las entradas ACE de los usuarios autenticados también se han quitado en el entorno bloqueado, debe conceder a esta cuenta las entradas de acceso de lectura en los contenedores o las unidades organizativas relevantes del dominio raíz del bosque, como se describe en [permisos de usuario autenticados se quitan en Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) o usar una cuenta que sea miembro del grupo administradores de la empresa.
 
 **Para establecer las entradas ACE necesarias para los objetos user, InetOrgPerson y Contact**
 
@@ -92,7 +94,7 @@ En un entorno de Active Directory bloqueado donde la herencia de permisos está 
 
 Este procedimiento agrega las entradas ACE necesarias directamente en los contenedores especificados.
 
-Necesita los derechos de usuario equivalentes a los miembros del grupo administradores de dominio para ejecutar este cmdlet. Si las ACE de los usuarios autenticados también se han eliminado, debe conceder a esta cuenta las entradas de acceso de lectura en los contenedores relevantes del dominio raíz del bosque, como se describe en [permisos de usuario autenticados se quitan de Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) o usar una cuenta que sea miembro del grupo de administradores de la empresa.
+Necesita los derechos de usuario equivalentes a los miembros del grupo administradores de dominio para ejecutar este cmdlet. Si las ACE de los usuarios autenticados también se han eliminado, debe conceder a esta cuenta las entradas de acceso de lectura en los contenedores relevantes del dominio raíz del bosque, como se describe en [permisos de usuario autenticados se quitan de Lync Server 2013](lync-server-2013-authenticated-user-permissions-are-removed.md) o usar una cuenta que sea miembro del grupo administradores de empresa.
 
 **Para establecer las entradas ACE necesarias para objetos de equipo**
 
@@ -125,7 +127,7 @@ Necesita los derechos de usuario equivalentes a los miembros del grupo administr
     
 
     > [!NOTE]  
-    > Si ejecuta la preparación del dominio en el dominio raíz del bosque en un entorno de Active Directory bloqueado, tenga en cuenta que Lync Server requiere acceso al esquema y a los contenedores de configuración de Active Directory.<BR>Si se quita el permiso de usuario autenticado predeterminado del esquema o los contenedores de configuración de&nbsp;AD DS, solo se permiten miembros del grupo de administradores de esquema (para el contenedor de esquemas) o del grupo de administradores de la empresa (en el caso del contenedor de configuración). obtener acceso al contenedor determinado. Como Setup. exe, los cmdlets del shell de administración de Lync Server y el panel de control de Lync Server requieren acceso a estos contenedores, la configuración e instalación de las herramientas administrativas no se realizarán correctamente, a menos que el usuario que ejecuta la instalación tenga los derechos de usuario equivalentes al esquema Miembros del grupo administradores y administradores de empresa.<BR>Para solucionar este problema, debe conceder al grupo RTCUniversalGlobalWriteGroup lectura, acceso de escritura al esquema y a los contenedores de configuración.
+    > Si ejecuta la preparación del dominio en el dominio raíz del bosque en un entorno de Active Directory bloqueado, tenga en cuenta que Lync Server requiere acceso al esquema y a los contenedores de configuración de Active Directory.<BR>Si se quita el permiso de usuario autenticado predeterminado del esquema o los contenedores de configuración de&nbsp;AD DS, solo se permite el acceso a los miembros del grupo de administradores de esquema (para el contenedor de esquemas) o del grupo de administradores de la empresa (en el contenedor de configuración). Como Setup. exe, los cmdlets del shell de administración de Lync Server y el panel de control de Lync Server requieren acceso a estos contenedores, la configuración e instalación de las herramientas administrativas no se realizarán correctamente, a menos que el usuario que ejecuta la instalación tenga los derechos de usuario equivalentes al esquema Miembros del grupo administradores y administradores de empresa.<BR>Para solucionar este problema, debe conceder al grupo RTCUniversalGlobalWriteGroup lectura, acceso de escritura al esquema y a los contenedores de configuración.
 
     
     </div>

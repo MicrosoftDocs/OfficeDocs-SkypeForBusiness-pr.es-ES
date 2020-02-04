@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista SessionDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SessionDetails view
 ms:assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721924(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733859
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bd3902fd35679366e905c04e99ff1e72b2ece86
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fabf7ae963240f6a2b14ac8c3db272e0cb06091c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822093"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764716"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

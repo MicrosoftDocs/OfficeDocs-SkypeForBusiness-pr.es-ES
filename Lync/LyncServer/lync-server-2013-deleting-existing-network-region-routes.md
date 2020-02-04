@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar rutas de región de red existentes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting existing network region routes
 ms:assetid: 6256ff80-5f1e-48b4-928b-24aeb3c1a0e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688074(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733669
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e188ef3214088fe9c38c144fad1908d13fef162
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e9f9ba7c20aff0bba3101edc9b04f3704314cfc8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835584"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763058"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de usuarios en una implementación hí
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Administering users in a hybrid deployment
 ms:assetid: 6924ed7b-30a9-4be7-b952-90655625f2c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204967(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7804aacb226d06fbf239939658b6592d438a84f9
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: e416901fd5a98ffa3974c29e469eef2b6f4cb783
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971131"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

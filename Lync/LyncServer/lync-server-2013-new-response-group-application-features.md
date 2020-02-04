@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nuevas funciones de las aplicaciones de grupo de respu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Response Group application features
 ms:assetid: 569544b4-fa97-429b-97e6-568afab6c19b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398373(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184196
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33dd01cf7516f950e58dbc90ee09b06901bccf74
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bddf1f670ef2a0a246100564962b2f69db741186
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826153"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755904"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

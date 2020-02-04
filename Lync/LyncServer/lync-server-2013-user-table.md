@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla User'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User table
 ms:assetid: 6b52047e-286d-47ab-b7bc-a9b266f62d82
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398505(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184437
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4baaf8b8dea0f9e5aa77986791c82051fc00e90b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8256dec91c93ca6e8f0fd3cfff65280a417324e4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850239"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

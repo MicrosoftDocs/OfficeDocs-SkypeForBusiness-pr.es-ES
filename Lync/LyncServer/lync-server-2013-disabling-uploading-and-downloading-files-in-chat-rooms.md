@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Deshabilitar la carga y descarga de archivos en salone
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disabling uploading and downloading files in chat rooms
 ms:assetid: c4faffb0-ae6a-47df-ae95-403c7101280f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215882(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706010
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 71990efd54f9127384e50a710147f3f74c374b1f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 324845a2be7fd7a0479842d082e1f5e0f38c5e99
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835382"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

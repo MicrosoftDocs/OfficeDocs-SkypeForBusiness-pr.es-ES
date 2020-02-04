@@ -3,6 +3,8 @@ title: 'Lync Server 2013: supervisar el sistema operativo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Monitoring operating system
 ms:assetid: 72406d3e-54c8-4796-8d6d-2144a5b6f030
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969617
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2f8124afcf2d1acbde3518ff625d528d6e34a3e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42ac03f61fca5717d279d39e703a8ffa97e8c2cf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826699"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756794"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

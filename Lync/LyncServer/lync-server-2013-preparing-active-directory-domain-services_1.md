@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Preparar Servicios de dominio de Active Directory'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing Active Directory Domain Services
 ms:assetid: 7b0d9aa4-f1ab-4578-b22f-b802b6ed1530
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398607(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184583
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7deb5594c0d3c009ee4b10565bc4dbe12f56d2c4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8abab29930e8b09d0642c84f1e02026d4c554637
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824004"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

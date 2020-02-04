@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementación de la aplicación de la tienda Windows
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync Windows Store app
 ms:assetid: 9e00aaf4-15f9-4356-9ed7-5a58a2bfa043
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ822971(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50117635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eef2e96b1e58bb9a92b2dc9748624d38f605965f
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 49fcea107a4613ca78661a21d492612f82d9775f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971243"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

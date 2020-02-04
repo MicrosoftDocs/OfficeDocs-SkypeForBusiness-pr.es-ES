@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Enrutamiento de mensajería unificada de Exchange hosp
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange UM routing
 ms:assetid: 6c90dc8b-6aef-4ce8-b483-37c7b5a553c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398512(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184422
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 90cc1112effd0eac0a25614ee50d7008ee1c5e37
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e04198813f7bb0647671dbb23e12889b108ee846
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835054"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739010"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ La aplicación Lync Server 2013 Exchange UM Routing usa información de la confi
 
 **Ejemplo de implementación mixta enrutamiento de mensajería unificada de Exchange**
 
-![Implementación de mensajería unificada de Exchange de Lync Server local] (images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Implementación de mensajería unificada de Exchange de Lync Server local")
+![Implementación de mensajería unificada de Exchange de Lync Server local](images/Gg398512.75258286-1f23-487b-bf46-d8538e7d540e(OCS.15).jpg "Implementación de mensajería unificada de Exchange de Lync Server local")
 
 El enrutamiento de MU de Exchange se puede configurar para que enrute las llamadas a los usuarios que están habilitados para la mensajería unificada de Exchange local para los usuarios que están habilitados para la mensajería unificada de Exchange hospedada o para una combinación de ambas.
 

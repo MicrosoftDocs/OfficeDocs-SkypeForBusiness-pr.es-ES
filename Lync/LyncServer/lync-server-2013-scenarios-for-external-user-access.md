@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Escenarios para el acceso de usuarios externos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for external user access
 ms:assetid: 25697446-b045-4d12-9b1c-47f694b4f224
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425727(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183640
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27e4f7410d7038971c6ddefe1af1c7b3ecd97ab9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eab8323744615dc3f5d0b68f4325fbfb85bf911e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822331"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764978"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,9 +45,9 @@ En esta sección se definen los escenarios para las implementaciones de servidor
 
 **Proceso de selección del escenario de implementación del servidor perimetral**
 
-![Diagrama de flujo de implementación de ejemplo] (images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Diagrama de flujo de implementación de ejemplo")
+![Diagrama de flujo de la implementación de muestra](images/Gg425727.007100b5-6923-4909-bfd7-897d8867205f(OCS.15).jpg "Diagrama de flujo de la implementación de muestra")
 
-Mediante este proceso, puede planear y documentar la configuración de todas las características potenciales que desea implementar para sus usuarios. Sin embargo, puede agregar servicios de Federación y movilidad después de haber implementado el servidor perimetral y haber confirmado la operación correcta antes de agregar otras características. El proceso de agregar características a una implementación existente de un servidor perimetral se trata en la sección implementación. Para obtener más información sobre la implementación, consulte [implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) incluyendo la planificación de estas características durante el proceso de planeación inicial, puede prepararse para los requisitos de DNS, Firewall y certificados para las características agregadas. lo que le permite adquirir los certificados y configurar DNS y los requisitos de puerto y Protocolo por adelantado.
+Mediante este proceso, puede planear y documentar la configuración de todas las características potenciales que desea implementar para sus usuarios. Sin embargo, puede agregar servicios de Federación y movilidad después de haber implementado el servidor perimetral y haber confirmado la operación correcta antes de agregar otras características. El proceso de agregar características a una implementación existente de un servidor perimetral se trata en la sección implementación. Para obtener más información sobre la implementación, consulte [implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) incluyendo la planificación de estas características durante el proceso de planeación inicial, puede prepararse para los requisitos de DNS, Firewall y certificados para las características agregadas, lo que le permite adquirir los certificados y configurar los requisitos de protocolo y puerto de forma anticipada.
 
 <div>
 
@@ -61,7 +63,7 @@ Mediante este proceso, puede planear y documentar la configuración de todas las
 
 
 > [!NOTE]  
-> Todos los servicios de Edge se ejecutan en cada servidor perimetral. Los servicios no se pueden dividir entre dos servidores perimetrales diferentes. Si implementa un grupo perimetral para escalabilidad, todos los servicios perimetrales se implementan en cada servidor perimetral en el grupo. La Federación de XMPP, Office Communications Server y Lync Server, la conectividad de mensajería instantánea pública y la movilidad de clientes son servicios adicionales que se pueden implementar después de implementar el primer servidor perimetral o el grupo perimetral. Mobility Services es una característica que usa el proxy inverso. La instalación de Mobility Services no agregará características a los servidores perimetrales, pero requerirá la reconfiguración de su proxy inverso. La columna <STRONG>objetivo de instalación</STRONG> que contiene estas características proporciona instrucciones de planeación en la columna asociada de la sección de planeación del <STRONG>servidor EDGE o secciones</STRONG> para planear de forma simultánea estas características que se implementarán cuando los servidores perimetrales estén instalado y configurado.
+> Todos los servicios de Edge se ejecutan en cada servidor perimetral. Los servicios no se pueden dividir entre dos servidores perimetrales diferentes. Si implementa un grupo perimetral para escalabilidad, todos los servicios perimetrales se implementan en cada servidor perimetral en el grupo. La Federación de XMPP, Office Communications Server y Lync Server, la conectividad de mensajería instantánea pública y la movilidad de clientes son servicios adicionales que se pueden implementar después de implementar el primer servidor perimetral o el grupo perimetral. Mobility Services es una característica que usa el proxy inverso. La instalación de Mobility Services no agregará características a los servidores perimetrales, pero requerirá la reconfiguración de su proxy inverso. La columna <STRONG>objetivo de instalación</STRONG> que contiene estas características proporciona instrucciones de planeación en la columna asociada de la sección de <STRONG>planeación del servidor EDGE o secciones</STRONG> para planear de forma simultánea estas características que se implementarán cuando se instalen y configuren los servidores perimetrales.
 
 
 

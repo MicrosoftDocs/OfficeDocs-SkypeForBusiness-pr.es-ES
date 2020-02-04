@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Conmutación por error del servidor de chat persistent
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over Persistent Chat Server
 ms:assetid: 2cd79ffd-fee6-44ce-96cf-b98bf25e2690
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204772(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183726
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 021b34cafd91397cc36da1dbc22f91b8665aea96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd62d4037ae1795a553d207cb698f88f9b3b8ab8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835169"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765208"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

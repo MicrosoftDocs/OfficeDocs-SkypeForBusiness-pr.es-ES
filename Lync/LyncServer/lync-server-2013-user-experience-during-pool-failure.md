@@ -3,6 +3,8 @@ title: Experiencia de usuario de Lync Server 2013 durante un error de grupo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User experience during pool failure
 ms:assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205184(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185166
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca33dc8f77ac697b7eea9cc89fee9aa401318566
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2e6506ac67415ca19b33ee968d698d0ed574df8d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850251"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

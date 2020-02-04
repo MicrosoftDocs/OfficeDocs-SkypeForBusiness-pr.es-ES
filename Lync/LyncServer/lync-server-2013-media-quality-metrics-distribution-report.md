@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de distribución de métricas de calidad media
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media Quality Metrics Distribution Report
 ms:assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205262(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185409
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d1d814fd001f3510a7ae83e63746bdc1265932e4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 085525063d13c60dc1702ebf169fed92707675e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827392"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ El Informe de distribución de métricas de calidad de medios permite ver un gr�
 <td><p>50</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
+<td><p>1</p></td>
 <td><p>50</p></td>
 </tr>
 <tr class="odd">

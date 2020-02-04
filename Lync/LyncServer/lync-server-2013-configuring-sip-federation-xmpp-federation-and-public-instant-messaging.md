@@ -3,6 +3,8 @@ title: Configurar la federación SIP, la federación XMPP y la mensajería insta
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring SIP federation, XMPP federation and public instant messaging
 ms:assetid: a6d04f0b-5cb8-4084-a3a2-d501938971f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205134(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184998
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f82e154347c0a77dd4367678fefd518b1abf2fc7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 45abe0b4c32cf236912ad1a0e39f842653817e59
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842180"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

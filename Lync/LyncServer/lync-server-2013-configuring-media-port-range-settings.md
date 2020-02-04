@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de intervalos de puertos de medios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring media port range settings
 ms:assetid: 2c4b7c0b-0dce-48f4-a489-336d6e526f7c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204770(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 300bec82443e1d2929df63a808cbe17c5bd6f9fe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80e835bfcf12495c75612ecee93d87cf3c421651
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842204"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

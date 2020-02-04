@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementación de Lync para iPhone y iPad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Lync for iPhone and iPad
 ms:assetid: becd732f-4515-48bb-bdce-e7d09ac85621
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690994(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541511
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 051e6a9b17ea2ce55517122572b3b18b98137cda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d3cf86aa601d17301b261ae8144c0b911672a0bd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835547"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

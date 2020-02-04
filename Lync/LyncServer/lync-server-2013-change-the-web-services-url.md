@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cambiar la dirección URL de los servicios Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Change the Web Services URL
 ms:assetid: 4cee37c0-3b99-4207-997f-bf4229d760c0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520992(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184063
 ms.date: 11/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 335c73a56da1d8b9a28e7089a7cc2238724a322b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 934e448f48413df2938deab8a0d08389cfad37bd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842620"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730160"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Al configurar las agrupaciones front-end y los servidores Standard Edition, tien
 
 </div>
 
-![Editar la configuración del grupo de servicios web] (images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Editar la configuración del grupo de servicios web")
+![Editar la configuración del grupo de servicios Web](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Editar la configuración del grupo de servicios Web")
 
 <div>
 

@@ -3,6 +3,8 @@ title: Usar los paquetes de administración de Lync Server 2010 en un escenario 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Server 2010 management packs in a coexistence scenario
 ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205078(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184772
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 159aaa55e61068356701abaed3c0a67a60265c75
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 264cd8f1495840eb6dd86879f279110cd4de4784
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850172"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ Puede crear esta clave del registro completando el procedimiento siguiente:
 
 1.  Haga clic en **Inicio** y, después, en **Ejecutar**.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit** y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda el **\_equipo local\_HKEY**, expanda **software**, expanda **Microsoft**y, a continuación, expanda **comunicaciones en tiempo real**.
 
@@ -93,13 +95,13 @@ Después de indicar a un equipo de Lync Server 2010 que informe sobre los equipo
 
 1.  En la consola de Operations Manager, haga clic en **creación**.
 
-2.  En la pestaña creación, expanda **objetos del módulo de administración**, haga clic en descubrimientos de **objetos**y, a continuación, haga clic en **ámbito**.
+2.  En la pestaña creación, expanda **objetos del módulo de administración**, haga clic en **descubrimientos de objetos**y, a continuación, haga clic en **ámbito**.
 
 3.  En el cuadro de diálogo **objetos del módulo de administración del ámbito** , seleccione el elemento con el candidato de detección de **LS** de destino y haga clic en **Aceptar**. Tenga en cuenta que el candidato de detección de LS solo aparecerá si ha instalado el módulo de administración de Lync Server 2010.
 
-4.  En la consola de Operations Manager, haga clic con el botón secundario del **** mouse en la **detección de LS**, seleccione reemplazos, seleccione **invalidar la detección de objetos**y, a continuación, haga clic en **para todos los objetos de clase: candidato de detección de LS**.
+4.  En la consola de Operations Manager, haga clic con el botón secundario del mouse en la **detección de LS**, **Seleccione reemplazos, seleccione** **invalidar la detección de objetos**y, a continuación, haga clic en **para todos los objetos de clase: candidato de detección de LS**.
 
-5.  En el cuadro de diálogo **reemplazar propiedades** , seleccione **** la casilla invalidar situada junto al parámetro de **descubrimiento central WatcherNode FQDN**. Escriba el nombre de dominio completo del equipo de Lync Server 2010 en los cuadros **valor de reemplazo** y **valor efectivo** . Seleccione la **** casilla exigido y haga clic en **Aceptar**.
+5.  En el cuadro de diálogo **reemplazar propiedades** , seleccione la casilla **invalidar** situada junto al parámetro de **descubrimiento central WatcherNode FQDN**. Escriba el nombre de dominio completo del equipo de Lync Server 2010 en los cuadros **valor de reemplazo** y **valor efectivo** . Seleccione la casilla **exigido** y haga clic en **Aceptar**.
 
 Una vez que haya creado el reemplazo, debe reiniciar el servicio de mantenimiento en el servidor de administración raíz. Para reiniciar el servicio de mantenimiento, complete el procedimiento siguiente en el servidor de administración raíz:
 

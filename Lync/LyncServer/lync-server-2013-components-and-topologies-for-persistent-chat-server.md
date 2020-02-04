@@ -3,6 +3,8 @@ title: 'Lync Server 2013: componentes y topologías para el servidor de chat per
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Persistent Chat Server
 ms:assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398500(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184420
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14ae22b2afed27109fb6e2c514211293cef42a46
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 862635d091a216df61058c0f0ff00eaa9d32a0c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842526"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ La instalación de la versión más reciente del servidor de chat persistente re
 
 Para administrar el servidor de chat persistente desde un equipo independiente (como una consola administrativa), use el panel de control de Lync Server en el equipo. Este equipo debe implementarse en un dominio de servicios de dominio de Active Directory, con al menos un servidor de catálogo global en la raíz del bosque.
 
-Para obtener más información sobre los requisitos de hardware y software para el servidor de chat persistente, consulte [los requisitos técnicos para el servidor de chat persistente en Lync server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [hardware compatible para Lync Server 2013](lync-server-2013-supported-hardware.md), así como la [infraestructura y el software de servidor. soporte técnico de Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) en la documentación de soporte técnico.
+Para obtener más información sobre los requisitos de hardware y software para el servidor de chat persistente, consulte [los requisitos técnicos para el servidor de chat persistente en Lync server 2013](lync-server-2013-technical-requirements-for-persistent-chat-server.md), [hardware compatible para Lync Server 2013](lync-server-2013-supported-hardware.md), así como compatibilidad de la [infraestructura y el software de servidor en Lync Server 2013](lync-server-2013-server-software-and-infrastructure-support.md) en la documentación de soporte técnico.
 
 </div>
 
@@ -153,7 +155,7 @@ La siguiente ilustración muestra todos los componentes obligatorios y opcionale
 
 **Servidor único de chat persistente**
 
-![Topología de servidor único con servicio de cumplimiento] (images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topología de servidor único con servicio de cumplimiento")
+![Topología de servidor único con servicio de cumplimiento](images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topología de servidor único con servicio de cumplimiento")
 
 </div>
 
@@ -167,7 +169,7 @@ La siguiente ilustración muestra todos los componentes de una topología de var
 
 **Varios servidores de chat persistentes**
 
-![Topología de varios servidores] (images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topología de varios servidores")
+![Topología de varios servidores](images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topología de varios servidores")
 
 Las topologías de varios servidores permiten agrupar las funciones de servidor. En un grupo de servidores, los servicios de chat persistentes se comunican y comparten datos. Por ejemplo, el historial de conversaciones publicado originalmente en un servicio de chat persistente está disponible desde cualquier servicio de chat persistente en el sistema. Cualquier servicio de chat persistente puede acceder a un archivo que se carga a través de un servicio de chat persistente. Los usuarios se pueden conectar a diferentes servidores de aplicaciones para el servidor de mensajería instantánea y pueden estar conversando y comunicándose entre sí.
 

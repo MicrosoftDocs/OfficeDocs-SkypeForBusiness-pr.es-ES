@@ -3,6 +3,8 @@ title: 'Lync Server 2013: reemplazar XmlAdapter por un adaptador de cumplimiento
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Replacing the XmlAdapter with a customized Persistent Chat Server Compliance adapter
 ms:assetid: 2cb70db2-663f-40a6-abcf-89ea7d4a8b65
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ680106(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49558152
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3d26e470438dc8a79dbaa3944c05ad4158cafe44
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9235c57a055131049251d17b75f73a4370cc5f2c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823143"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746690"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

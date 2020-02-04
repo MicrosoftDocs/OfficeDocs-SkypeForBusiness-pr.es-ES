@@ -3,6 +3,8 @@ title: Crear y configurar directivas de usuario para archivar en Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating and configuring user policies for Archiving in Lync Server
 ms:assetid: 5af0e605-3563-4d6f-a3c6-511d204a3165
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184234
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3adccda55d1ae033acf52d64b093e73fe81dad10
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb4385d219173ca33ae7120dcf3e9d75d4c65f14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835764"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756954"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

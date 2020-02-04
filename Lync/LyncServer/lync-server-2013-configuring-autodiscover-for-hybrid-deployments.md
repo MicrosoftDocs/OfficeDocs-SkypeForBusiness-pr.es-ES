@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de detección automática para implemen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Autodiscover for hybrid deployments
 ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945653(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541521
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc2c28d42569d2f52b55dd04a90f5a788969c3ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8924194d89eafb75c06ff78ed3b765699e36b196
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842277"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734870"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

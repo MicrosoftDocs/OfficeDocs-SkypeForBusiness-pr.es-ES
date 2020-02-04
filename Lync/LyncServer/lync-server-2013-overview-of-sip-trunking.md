@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Información general sobre los enlaces troncales SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of SIP trunking
 ms:assetid: 204f2c21-436f-4b2d-93ea-d6db98fa2952
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398285(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183601
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e2c79261923456575e208aa472daae4aaab5f55
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 340c27b3e874ea3d9f55aac2b415bd1a440aab9d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825348"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755474"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

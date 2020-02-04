@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instalar componentes del servidor Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Install Lync Server server components
 ms:assetid: 186aed6e-7adf-4a92-9f2e-f9a4de5ff202
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398239(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183528
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 895047715bfa632970adbabb20311d8c68182499
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f039f9363469663410f08f078a3b7e17a170075
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835001"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763724"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ El Asistente para la implementación de Lync Server se usa para instalar los com
 
 5.  En la página **configurar los componentes de Lync Server** , haga clic en **siguiente** para configurar los componentes definidos en la topología publicada.
 
-6.  La **** página Commands Execute mostrará un resumen de comandos e información de instalación a medida que se realiza la configuración. Cuando finalice, puede usar la lista para seleccionar un registro que quiera ver y, luego, hacer clic en **Ver registro**.
+6.  La página **Commands Execute** mostrará un resumen de comandos e información de instalación a medida que se realiza la configuración. Cuando finalice, puede usar la lista para seleccionar un registro que quiera ver y, luego, hacer clic en **Ver registro**.
 
 7.  Cuando termine la instalación de los componentes de Lync Server 2013 y haya revisado los registros según sea necesario, haga clic en **Finalizar** para completar este paso en la instalación.
     

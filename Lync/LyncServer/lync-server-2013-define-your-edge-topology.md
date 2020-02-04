@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir la topología perimetral'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define your edge topology
 ms:assetid: 787b23f1-8fa0-4c37-abf2-c516c5dd66f0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398591(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184562
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d8364d2167b719e020ecebc3808c2ca850d14bc0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4a04dca4b935caf8f07546babd2c53f65fff4e89
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835749"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763944"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34835749"
 
 _**Última modificación del tema:** 2012-09-28_
 
-Debe usar topología Builder para crear su topología y debe configurar al menos un grupo de servidores front-end interno o un servidor Standard Edition para poder implementar el servidor perimetral. Use el siguiente procedimiento para definir la topología de borde para un único servidor perimetral y, a continuación, use los procedimientos de [publicar su topología en Lync server 2013](lync-server-2013-publish-your-topology.md) y [exportar su topología de Lync Server 2013 y copiarla en medios externos para la instalación perimetral](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) . para publicar la topología y ponerla a disposición de su servidor perimetral.
+Debe usar topología Builder para crear su topología y debe configurar al menos un grupo de servidores front-end interno o un servidor Standard Edition para poder implementar el servidor perimetral. Use el siguiente procedimiento para definir la topología de borde para un único servidor perimetral y, a continuación, use los procedimientos de [publicar su topología en Lync Server 2013](lync-server-2013-publish-your-topology.md) y [exportar su topología de Lync Server 2013 y copiarla en medios externos para la instalación perimetral](lync-server-2013-export-your-topology-and-copy-it-to-external-media-for-edge-installation.md) para publicar la topología y ponerla a disposición de su servidor perimetral.
 
 <div>
 
@@ -77,7 +79,7 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
 
 2.  En el árbol de consola, expanda el sitio en el que desea implementar un servidor perimetral.
 
-3.  Haga clic con **** el botón secundario en agrupaciones perimetrales y luego haga clic en **nuevo borde**.
+3.  Haga clic con el botón secundario en **agrupaciones perimetrales**y luego haga clic en **nuevo borde**.
 
 4.  En **definir el nuevo grupo de límites**, haga clic en **siguiente**.
 
@@ -150,9 +152,9 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
     
       - Si decide usar direcciones IPv6, escriba la dirección IPv6 externa del servidor perimetral en **acceso SIP**y, a continuación, haga clic en **siguiente**.
     
-      - Si no ha elegido usar un único FQDN e dirección IP para el acceso SIP, el servicio de conferencias web y el servicio perimetral A/V, escriba las direcciones IPv4 externas del servidor perimetral en **acceso SIP**, **conferencias web**y **conferencias a/v**y, a continuación, Haga clic en **siguiente**.
+      - Si no ha elegido usar un FQDN y una dirección IP únicos para el acceso SIP, el servicio de conferencias web y el servicio perimetral A/V, escriba las direcciones IPv4 externas del servidor perimetral en **acceso SIP**, **conferencia web**y **Conferencia a/v**y, a continuación, haga clic en **siguiente**.
     
-      - Si decide usar direcciones IPv6 y no ha elegido usar un FQDN y una dirección IP únicos para el acceso SIP, el servicio de conferencias web y el servicio perimetral a/V, escriba las direcciones IPv6 externas del servidor perimetral en **acceso SIP**, **conferencias web**y **a/ V Conferencia**y, a continuación, haga clic en **siguiente**.
+      - Si decide usar direcciones IPv6 y no ha elegido usar un FQDN y una dirección IP únicos para el acceso SIP, el servicio de conferencias web y el servicio perimetral a/V, escriba las direcciones IPv6 externas del servidor perimetral en **acceso SIP**, **conferencias web**y **conferencias a/v**y, a continuación, haga clic en **siguiente**.
         
         <div>
         
@@ -187,7 +189,7 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
 
 14. En **definir el próximo salto**, en **grupo de próximo salto**, seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo de servidores Standard. O bien, si su implementación incluye un director, seleccione el director. A continuación, haga clic en **siguiente**.
 
-15. En la opción **asociar grupos front end**, especifique uno o varios pools internos, que pueden incluir grupos front-end y servidores Standard Edition, que se asociarán con este servidor perimetral, seleccionando los nombres de los pools internos para los que se usará este servidor perimetral. comunicación con usuarios externos admitidos.
+15. En la opción **asociar grupos front end**, especifique uno o varios grupos internos, que pueden incluir grupos de aplicaciones para el usuario y servidores Standard Edition, para que se asocien a este servidor perimetral; para ello, seleccione los nombres de los grupos internos que usarán este servidor perimetral para la comunicación con los usuarios externos admitidos.
     
     <div>
     
@@ -212,7 +214,7 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
 
 2.  En el árbol de consola, expanda el sitio en el que desea implementar servidores perimetrales.
 
-3.  Haga clic con **** el botón secundario en agrupaciones perimetrales y luego haga clic en **nuevo borde**.
+3.  Haga clic con el botón secundario en **agrupaciones perimetrales**y luego haga clic en **nuevo borde**.
 
 4.  En **definir el nuevo grupo de límites**, haga clic en **siguiente**.
 
@@ -356,9 +358,9 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
     
     </div>
 
-21. En **definir el próximo salto**, en la lista **siguiente grupo** de saltos, seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo Standard Edition. O bien, si su implementación incluye un director, seleccione el nombre del director. A continuación, haga clic en **siguiente**.
+21. En **definir el próximo salto**, en la lista **siguiente grupo de saltos** , seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo Standard Edition. O bien, si su implementación incluye un director, seleccione el nombre del director. A continuación, haga clic en **siguiente**.
 
-22. En la sección **asociar grupos front end**, especifique uno o varios grupos internos, que pueden incluir grupos de aplicaciones para el usuario y servidores Standard Edition, que se asociarán con este servidor perimetral seleccionando los nombres de los pools internos que usarán este servidor perimetral para comunicación con usuarios externos admitidos.
+22. En las **agrupaciones front end de Associate**, especifique uno o varios grupos internos, que pueden incluir grupos front-end y servidores Standard Edition, que se asociarán con este servidor perimetral seleccionando los nombres de los pools internos que usarán este servidor perimetral para la comunicación con los usuarios externos admitidos.
     
     <div>
     
@@ -383,7 +385,7 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
 
 2.  En el árbol de consola, expanda el sitio en el que desea implementar servidores perimetrales.
 
-3.  Haga clic con **** el botón secundario en agrupaciones perimetrales y seleccione **nuevo grupo perimetral**.
+3.  Haga clic con el botón secundario en **agrupaciones perimetrales**y seleccione **nuevo grupo perimetral**.
 
 4.  En **definir el nuevo grupo de límites**, haga clic en **siguiente**.
 
@@ -517,9 +519,9 @@ El proceso para definir la topología del servidor perimetral se realiza en el g
     
     </div>
 
-18. En **definir el próximo salto**, en la lista **siguiente grupo** de saltos, seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo Standard Edition. O bien, si su implementación incluye un director, seleccione el nombre del director. A continuación, haga clic en **siguiente**.
+18. En **definir el próximo salto**, en la lista **siguiente grupo de saltos** , seleccione el nombre del grupo interno, que puede ser un grupo de servidores front-end o un grupo Standard Edition. O bien, si su implementación incluye un director, seleccione el nombre del director. A continuación, haga clic en **siguiente**.
 
-19. En la sección **asociar grupos front end**, especifique uno o varios grupos internos, que pueden incluir grupos de aplicaciones para el usuario y servidores Standard Edition, que se asociarán con este servidor perimetral seleccionando los nombres de los pools internos que usarán este servidor perimetral para comunicación con usuarios externos admitidos.
+19. En las **agrupaciones front end de Associate**, especifique uno o varios grupos internos, que pueden incluir grupos front-end y servidores Standard Edition, que se asociarán con este servidor perimetral seleccionando los nombres de los pools internos que usarán este servidor perimetral para la comunicación con los usuarios externos admitidos.
     
     <div>
     

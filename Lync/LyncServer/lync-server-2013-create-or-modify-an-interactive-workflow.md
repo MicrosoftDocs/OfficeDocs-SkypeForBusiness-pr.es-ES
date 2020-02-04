@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear o modificar un flujo de trabajo interactivo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify an interactive workflow
 ms:assetid: bc7bb1bc-bf6a-4636-ae93-c56fa22613fa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205213(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185260
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ede826df74d63270afe2ea3f4e992cdcddbbe412
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: eec10d1d9c3281485078b2d7823978c429ea1be3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842071"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

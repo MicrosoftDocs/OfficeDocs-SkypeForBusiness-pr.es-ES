@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración del escape de correo de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring voice mail escape
 ms:assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688157(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733761
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f08e12b97c51d68b4b08d10692802cb035ce8f0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c32d3bbc39d8f18e30153193c1e722db1ec9d50e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842157"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

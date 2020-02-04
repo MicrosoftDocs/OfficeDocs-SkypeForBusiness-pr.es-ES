@@ -3,6 +3,8 @@ title: 'Lync Server 2013: subinforme del Resumen de la Conferencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conference Summary Subreport
 ms:assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204779(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183742
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b87ea9648404f495f487a639a3b11900f91dcda4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2537cbe959639baee6f0f986b3faea1ebd79b5a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842492"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756994"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

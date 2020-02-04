@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de migración y coexistencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Migration and coexistence cmdlets
 ms:assetid: ff1a56e0-e883-473d-92fe-ca77ea4eb63b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415682(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185968
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21b78bea6bee197444e275403f8a2abcf7d06634
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cbae93a344909139fba3b40e2864ca3b943e77a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827063"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757534"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Opciones de implementación de la puerta de enlace RTC
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: PSTN gateway deployment options
 ms:assetid: d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398899(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 137c9996429e953db22bea0c0dbd382f5a7af9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5b2f3cd153a6dc8d101f44a3f087f0ccedfa9bf7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823822"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -83,7 +85,7 @@ La topología de la puerta de enlace distribuida resultante se muestra en la sig
 
 **Topología de puerta de enlace distribuida**
 
-![Diagrama de topología de puerta de enlace distribuida] (images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Diagrama de topología de puerta de enlace distribuida")
+![Diagrama de topología de puerta de enlace distribuida](images/Gg398899.f0f65a0b-a462-491a-878b-4d4bf0a96f6d(OCS.15).jpg "Diagrama de topología de puerta de enlace distribuida")
 
 Con esta topología, las llamadas entre los trabajadores de cada sitio y entre sitios se enrutan a través de la intranet. Las llamadas a la RTC se enrutan a través de la red IP de la empresa a las puertas de enlace que están más cerca de la ubicación de los números de destino. Pero, ¿qué sucede si su organización admite decenas, cientos o incluso miles de sitios distribuidos en uno o más continentes, ya que muchas instituciones financieras y otras grandes empresas sí lo hacen? En estos casos, no es práctico implementar una puerta de enlace independiente en cada sitio.
 
@@ -91,7 +93,7 @@ Para solucionar este problema, muchas de las grandes empresas prefieren implemen
 
 **Topología de sitio central de telefonía**
 
-![Topología de puerta de enlace de centro de datos] (images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Topología de puerta de enlace de centro de datos")
+![Topología de puerta de enlace de centro de datos](images/Gg398899.927f4808-bf74-405a-be20-2cd9cd87af6d(OCS.15).jpg "Topología de puerta de enlace de centro de datos")
 
 En esta topología, se implementan varias puertas de enlace grandes suficientes para dar cabida a la carga de usuarios prevista en cada sitio central. El proveedor de servicios telefónicos de la empresa reenvía todas las llamadas a los usuarios de la empresa a un sitio central. La lógica de enrutamiento en el sitio central determina si la llamada se debe enrutar a través de la intranet o de la RTC.
 

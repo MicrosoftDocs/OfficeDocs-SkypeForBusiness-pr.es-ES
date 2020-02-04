@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Características de la mensajería unificada integrada
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Features of integrated Unified Messaging and Lync Server
 ms:assetid: 094f549d-fccc-43ab-9f39-6ddd18130915
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398144(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183353
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5dc6396bd78977d099e650f14ae1a0b4b46c54e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 69726c614df344c76b06cf68e4d844c0514af7dd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835159"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765148"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

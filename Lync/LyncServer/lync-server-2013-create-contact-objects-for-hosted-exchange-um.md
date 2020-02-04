@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear objetos de contacto para la mensajería unificad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create contact objects for hosted Exchange UM
 ms:assetid: a39be52f-488a-4523-ad5f-ce1f0d681959
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412765(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185045
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53d5bdfe3b341f534a3e8066fe85be5e93b0a7f7
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 358b595fceb05a377c59479b0a08e100bffb318a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971271"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

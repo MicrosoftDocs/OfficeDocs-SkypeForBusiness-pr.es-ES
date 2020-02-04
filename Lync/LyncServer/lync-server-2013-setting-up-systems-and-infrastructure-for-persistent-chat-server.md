@@ -3,6 +3,8 @@ title: Configurar los sistemas y la infraestructura para servidores de chat pers
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up systems and infrastructure for Persistent Chat Server
 ms:assetid: d433d056-988d-40f1-9521-5f3e7316756f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205290(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185501
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8c7dd7b36d81fbcfcca6d335ea60ea2039167e1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 38b5f798db96dda8e0f4cfc0dd83562be19554f6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850635"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

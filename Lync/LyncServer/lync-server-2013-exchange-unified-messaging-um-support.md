@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad de mensajería unificada (UM) de Exchan
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Exchange Unified Messaging (UM) support
 ms:assetid: 0da62b8d-7416-4fb8-a405-381ca805c53a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398179(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183405
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c8c952ed8aa407e2a4cbc836372c9238d4888572
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8925bd8a07693800c49ff2d818d3677b33452b97
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835190"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756244"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

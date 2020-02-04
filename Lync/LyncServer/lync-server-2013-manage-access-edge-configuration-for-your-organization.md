@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrar la configuración perimetral de acceso par
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage Access Edge Configuration for your organization
 ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 05d2bcca7836bd451b2535fb02c350facd7fc1bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4739599f92b9189a208e1bb320a53b82d66a3a9c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834915"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ Estas opciones incluyen los siguientes tipos de acceso que se pueden configurar 
 
   - **Habilitar el acceso**   de usuarios remotos habilite esta opción si quiere que los usuarios de su organización que estén fuera del firewall, como los teletrabajadores y los usuarios que viajan, puedan conectarse a Lync Server. Para obtener más información, vea [habilitar o deshabilitar el acceso de usuarios remotos en Lync Server 2013](lync-server-2013-enable-or-disable-remote-user-access.md).
 
-  - **Permitir el acceso de usuarios anónimos**   a las conferencias habilite esta opción si desea que los usuarios internos inviten a usuarios anónimos externos a conferencias que organizan. Habilitar esta opción solo permite usuarios anónimos en conferencias. Para configurar la experiencia de conferencia y las opciones que definen cómo y qué pueden hacer los usuarios con las conferencias y para la inclusión de usuarios anónimos, vea los detalles en [crear o modificar la experiencia de usuario de conferencias para un sitio o usuarios](https://technet.microsoft.com/en-us/library/gg429715\(v=ocs.15\)) y [ Referencia de configuración de directiva de conferencia para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
+  - **Permitir el acceso de usuarios anónimos**   a las conferencias habilite esta opción si desea que los usuarios internos inviten a usuarios anónimos externos a conferencias que organizan. Habilitar esta opción solo permite usuarios anónimos en conferencias. Para configurar la experiencia de conferencia y las opciones que definen cómo y qué pueden hacer los usuarios con las conferencias y para la inclusión de usuarios anónimos, vea detalles en [crear o modificar la experiencia de usuario de conferencias para un sitio o una](https://technet.microsoft.com/en-us/library/gg429715\(v=ocs.15\)) [referencia de configuración de directiva de usuarios y conferencias para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md).
 
 <div>
 

@@ -3,6 +3,8 @@ title: Migrar servidores de archivado y supervisión
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrating Archiving and Monitoring servers
 ms:assetid: 77831579-df45-4697-b8c5-207b74a07a40
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184550
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 901961ad7456dfd8b0340cba03ff44a9e77a147f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 572cbee046ed960017a3b60b7ae68c58ec67cf23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849973"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762888"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

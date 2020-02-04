@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración del servidor de administración princip
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the primary management server
 ms:assetid: 44e2e9a8-c130-4c66-9871-80b1ff11b27c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204844(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183986
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 54b34c685ef59c6315b9d1a667f0715aa4300a83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7d6cb7d0f27413449873cb8a0d8498aec230fdfd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842168"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

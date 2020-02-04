@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver n√∫meros de acceso a conferencias de acceso telef√
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View dial-in conferencing access numbers
 ms:assetid: 41a7dfb4-0c89-4650-b61b-0e1bf875c62b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688037(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733628
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0b9d9e6ca8d4f388edf6f04f4012726f6abee9e9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e86127c2a945bcd9154df0456545f5783fd1a34
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850111"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Publicar una topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publish your topology
 ms:assetid: bfed3829-7a54-4b5c-a7cb-28871acd35e7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412935(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3bd542db6acedbec75e475045ae2ace6d63d5469
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bd80b5b3dfdb71a054c7600a06e892f1396f048
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823668"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747060"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

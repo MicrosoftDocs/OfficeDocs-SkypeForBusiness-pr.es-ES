@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver detalles de direcciones URL simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View simple URL details
 ms:assetid: 6ab00f2c-e1d5-4698-a58f-04b72260f9ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184399
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b9c351ef8d9913ea96cea3412db4ba6159cedb9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f77c860d58ecc391298b88f4e1855ddd80199d8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850099"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

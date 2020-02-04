@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de la configuración del tronco del SIP
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test SIP trunk configuration settings
 ms:assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721880(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733814
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a6b1c8a43258c849de73b10a10bccf8ff537c5e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 13f5357ae1a0dd4e8db044c2081154d4c3f4febf
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850405"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

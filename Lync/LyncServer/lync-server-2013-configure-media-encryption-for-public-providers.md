@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar el cifrado de medios para proveedores públ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media encryption for public providers
 ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205149(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185036
 ms.date: 12/13/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 270035730b8268c56b1730d8c212e90c8a9f1a30
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 6d4ab36d19726a6092f978a2ac2a119b248cd0f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971257"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758398"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

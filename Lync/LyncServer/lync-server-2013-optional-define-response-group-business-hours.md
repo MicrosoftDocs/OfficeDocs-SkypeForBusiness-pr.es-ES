@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (opcional) definir las horas de trabajo del grupo de r
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Define Response Group business hours
 ms:assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205291(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e8ddd2bde582c66cf337deb9aa78178d3e22d1b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5829ca56c2a06f54ba19064a5b24caad2aa7ed25
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825789"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755774"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad con infraestructura de certificados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate infrastructure support
 ms:assetid: 47aa5c95-eb60-4d4b-81d5-7fdaef1a1145
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425950(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184047
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13e04e2e6746dac9c40eaa6df0c3b33d52c6a547
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc8cb5bdad02de4fcb407d7eb27960258a46dd3e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842659"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736814"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

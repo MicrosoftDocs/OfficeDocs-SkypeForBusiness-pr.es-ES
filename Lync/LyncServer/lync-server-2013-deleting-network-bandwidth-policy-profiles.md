@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar perfiles de directiva de ancho de banda de re
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting network bandwidth policy profiles
 ms:assetid: 4d6beda8-6aa5-4d5e-8a07-363598f0e0c8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688050(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733643
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c33f781e8818dbefa3dc37b3f17c789099e6add
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2d01bdea6efb632d95a15c631715e9ebe0c9a3bd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835581"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763038"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

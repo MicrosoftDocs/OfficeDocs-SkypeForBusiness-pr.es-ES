@@ -3,6 +3,8 @@ title: Administrar salones
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Manage rooms
 ms:assetid: d4835cf4-cd09-4769-a08e-e92706861b64
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205292(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185505
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f611b3cb6d54711557c8a172b1213127696c9b3a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 416da390f277dfc7179a45e0b1dc989b240ab394
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849994"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757164"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar una ruta de conmutación por error'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a failover route
 ms:assetid: 76e48df4-3b78-4fb7-b1f7-c1e604b81bad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398581(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184542
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e65070326c82e3a30977b3512bd2785d6bb4bd2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 22ebdf359a8cdf5f20ada8740a589b0181c3cc93
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842302"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741290"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

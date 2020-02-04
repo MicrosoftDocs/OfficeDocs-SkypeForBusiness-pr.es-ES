@@ -3,6 +3,8 @@ title: Mover directorios de conferencia de Lync Server 2010 a Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move Conference Directories
 ms:assetid: 659867e0-ce91-4a95-9787-b1c1566460a8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727126(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62387565
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fa32bb5be86d72d4f18d11bb85d5ce0b57a96725
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e9bd597665f389c814fbdc8fe1745587fd3d1b3e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849942"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766121"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

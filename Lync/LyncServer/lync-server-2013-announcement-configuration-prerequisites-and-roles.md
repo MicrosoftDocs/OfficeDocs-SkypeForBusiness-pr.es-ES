@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos previos y roles para configurar anuncios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Announcement configuration prerequisites and roles
 ms:assetid: 82f2dfe9-4c5e-4d65-96a1-96495d506ea4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398658(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184674
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb5f909170e1de2566e21e9305175211c306fee6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42cbc1429d4e27ee172dc1dacf6b86fa6ac243d9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843039"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

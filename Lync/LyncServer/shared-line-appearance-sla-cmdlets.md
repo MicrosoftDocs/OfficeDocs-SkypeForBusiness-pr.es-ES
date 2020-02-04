@@ -3,6 +3,8 @@ title: Cmdlets de apariencia de línea compartida (SLA)
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Shared Line Appearance (SLA) cmdlets
 ms:assetid: 7a7c1f7e-9af8-4b67-bb21-7f0ec82e48bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Mt703198(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 72808515
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ccd438833d03a912392e810fe3ae9f6f1f532096
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd799d8f6dc04a060fa658ccca53096b8432e806
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849850"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730232"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

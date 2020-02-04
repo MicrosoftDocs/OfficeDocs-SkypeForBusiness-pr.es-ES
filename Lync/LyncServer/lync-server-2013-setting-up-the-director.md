@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuración del director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up the Director
 ms:assetid: 408b76f7-6fdd-4e50-8a3e-e87db12c1394
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 18de0fe7b06bbeed714aca444e75086fba9579e9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58d0b309e87dddb621d6c3a90b16b6c2e02845df
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850675"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764546"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

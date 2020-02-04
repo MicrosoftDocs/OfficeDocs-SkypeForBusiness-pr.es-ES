@@ -3,6 +3,8 @@ title: Configuración de una directiva de calidad de servicio para los servidore
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a Quality of Service policy for your A/V Edge Servers
 ms:assetid: 119ee1f5-45b9-40ba-98e5-c694dd2fc5c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204681(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183444
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 58f5bfabfe794ed274d28074aaf162bc715a6ed3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ac9c31b4eb4a902074ba56d952e90bc0139a142
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842309"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -93,7 +95,7 @@ Para asegurarse de que los paquetes de red estén marcados con el valor de DSCP 
 
 1.  Haga clic en **Inicio** y, después, en **Ejecutar**.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit** y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **Services**y, a continuación, expanda **TCPIP**.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planificar el archivado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Archiving
 ms:assetid: 898b83c1-007b-43be-9484-08fe49c10951
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 488c45c3dc917a4161ed6e606c2fc3bd4d47a71b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c6f159cc77cccd5db031caa83b1d9abf90c92790
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825117"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

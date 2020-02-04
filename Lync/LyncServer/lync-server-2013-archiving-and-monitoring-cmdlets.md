@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de archivado y supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Archiving and Monitoring cmdlets
 ms:assetid: 04e1d0f6-d00e-4d8f-b969-daf092b2cdb4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415629(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183281
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc6654a8edd078b0f478d39d19d768809d540d83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58f7242ee62bb7f9796b1f8445d49dc5efd32c06
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842768"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

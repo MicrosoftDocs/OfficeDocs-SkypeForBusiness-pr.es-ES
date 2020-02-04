@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar extensiones de números de teléfono para l
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure phone number extensions for parking calls
 ms:assetid: fbf97624-9587-42a6-b276-1b69c574a74d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182611(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185980
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0a0fd55b851715fe8aef238797392af6317dff0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba64f4f622a6f9ae9e134b2447abe21bc99ec62c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842338"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762828"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

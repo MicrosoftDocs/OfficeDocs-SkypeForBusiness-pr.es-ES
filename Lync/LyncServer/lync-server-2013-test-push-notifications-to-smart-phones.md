@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar las notificaciones de inserción en teléfonos 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test push notifications to smart phones
 ms:assetid: 8f5ca7d1-1ccb-4cb0-b417-730559e79b6e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767948(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969626
 ms.date: 03/15/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 653becc1cc22abc8b3c04e0ab3d2a2d1260a98d9
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 94daa288757e2a0af446b455b951af9a990147b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992085"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

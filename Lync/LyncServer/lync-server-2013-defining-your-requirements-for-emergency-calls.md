@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definición de los requisitos para llamadas de emergen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your requirements for emergency calls
 ms:assetid: 5c12b517-9be6-41d0-83e2-11c78793620c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398404(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53543d815519dc440ba038999e5fc531173551f3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: beb4b1e196a95d19a06c502cc9aeb989d6806b06
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835695"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

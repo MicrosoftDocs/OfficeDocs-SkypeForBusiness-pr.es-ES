@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Característica nueva de correo de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New voice mail feature
 ms:assetid: 84d13238-67ef-42cc-801a-2d8147ba3b7f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688117(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733715
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 40db78aa126521ddce496721681ceb322f72beda
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27dbea942488181eb69695f78713c9e126c32aab
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825978"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755854"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

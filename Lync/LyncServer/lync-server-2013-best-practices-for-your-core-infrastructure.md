@@ -3,6 +3,8 @@ title: 'Lync Server 2013: procedimientos recomendados para su infraestructura b√
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Best practices for your core infrastructure in Lync Server 2013
 ms:assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518328(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61071242
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfb6e12f6f2c6d66a0d4f5fed17bc01dc250db5e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1c6a8663bfae2411926fe08a497a5004def051ae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842729"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

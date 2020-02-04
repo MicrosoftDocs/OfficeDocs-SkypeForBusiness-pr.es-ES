@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nuevas funciones de conferencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New conferencing features
 ms:assetid: feeb81e8-1424-408c-a440-886aa0fb133c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413085(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b3436abea9f520c790195d28cd0fed5eaccd013
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7f1214cc4296e01e5cd9018c5dedb0141ca0365
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826482"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765781"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

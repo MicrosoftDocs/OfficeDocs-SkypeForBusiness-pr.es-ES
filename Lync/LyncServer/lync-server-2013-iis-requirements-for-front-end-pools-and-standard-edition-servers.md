@@ -3,6 +3,8 @@ title: Requisitos de IIS para grupos de servidores front-end y servidores Standa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IIS requirements for Front End pools and Standard Edition servers
 ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399038(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185888
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d804df614eab49eeabe82cca9d304e082d9ced3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c00ffe97b77f20107fc3351a678c71e28bbc6675
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835040"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -147,7 +149,7 @@ En la tabla siguiente se enumeran los URI de los directorios virtuales de acceso
 </tr>
 <tr class="odd">
 <td><p>Actualizaciones de dispositivos</p></td>
-<td><p>http://&lt;FQDN&gt;interno de/DeviceUpdateFiles_Int</p></td>
+<td><p>FQDN&lt;&gt;http:///DeviceUpdateFiles_Int interno</p></td>
 <td><p>Ubicación de los archivos de actualización de dispositivos de comunicaciones unificadas (UC) para dispositivos internos de UC.</p></td>
 </tr>
 <tr class="even">

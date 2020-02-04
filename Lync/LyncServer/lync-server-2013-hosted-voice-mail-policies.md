@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Directivas de correo de voz hospedado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted voice mail policies
 ms:assetid: d62a35ed-cbe2-4f06-86b4-e192c18435c1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398932(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a23f5fa67a34d479bbc5b9d5c9bf55071b187c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 811f975868dad7bc0fcf6d5a2867ca2f3b81cd59
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835062"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

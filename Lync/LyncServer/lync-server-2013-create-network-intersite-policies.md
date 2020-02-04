@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear directivas de sitios intersitios de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create network intersite policies
 ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412844(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185148
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b6309b27ddedb37c2c38e7d40e74e427f61b904a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 655cde30a3d798d57520c57e3882b2162010888c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835831"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

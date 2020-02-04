@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planificar la capacidad para el estacionamiento de lla
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Call Park
 ms:assetid: 75520310-760a-4b1b-bcc1-4d724d13f87a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg416493(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184529
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5fe55e09c67e62676202def9e3def3454d7cbd33
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd4cc9d10a3a3562c035c7bc2f64f551b70cc5da
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842677"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

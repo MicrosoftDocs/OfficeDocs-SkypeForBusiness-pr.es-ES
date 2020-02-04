@@ -3,6 +3,8 @@ title: 'Lync Server 2013: prueba de recuperación ante desastres'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disaster recovery test
 ms:assetid: 04f5e747-d837-4350-9fc0-8605dbf025a7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747887(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969571
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f9b17f5841cad96cb83399082f61c00194ec4828
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f7c6c3b7c3b5d78324fe9c674650dd94338baea4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835384"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

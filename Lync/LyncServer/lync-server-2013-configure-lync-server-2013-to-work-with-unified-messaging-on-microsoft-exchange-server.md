@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar Lync Server 2013 para trabajar con la mensa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
 ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398193(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183430
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 27909f4ae6231b1452cbfefdd82e0a0eb107c6fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 985b2d286f65be2353c2ace0d59872f4d0fc47ad
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842361"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -58,7 +60,7 @@ Al ejecutar la herramienta de integración de mensajería unificada de Exchange,
 > <p>Para Microsoft Exchange Server 2010, consulte &quot;crear un plan&quot; de marcado de <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>MU en.</p>
 > <p>Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), consulte &quot;cómo crear un plan&quot; de marcado URI SIP Messaging Messaging en <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
 > <li><p>Cree uno o varios de los planes de marcado de Lync Server correspondientes, tal y como se describe en <a href="lync-server-2013-create-a-dial-plan.md">crear un plan de marcado en Lync Server 2013</a>.</p></li>
-> <ul><li>Si está usando una versión de Exchange anterior a Microsoft Exchange Server 2010 SP1, debe escribir el nombre de dominio completo (FQDN) del plan de marcado SIP de mensajería unificada de Exchange (UM) correspondiente en el nombre simple del plan de marcado de Lync Server 2013 <STRONG> </STRONG>campo. Si está usando Microsoft Exchange Server 2010 SP1 o el Service Pack más reciente, la coincidencia de nombres de plan de marcado no es necesaria.</li></ul>
+> <ul><li>Si está usando una versión de Exchange anterior a Microsoft Exchange Server 2010 SP1, debe escribir el nombre de dominio completo (FQDN) del plan de marcado SIP de mensajería unificada de Exchange (UM) correspondiente en el campo de <STRONG>nombre simple</STRONG> del plan de marcado de Lync Server 2013. Si está usando Microsoft Exchange Server 2010 SP1 o el Service Pack más reciente, la coincidencia de nombres de plan de marcado no es necesaria.</li></ul>
 > <li>Cree un operador automático y asegúrese de que tanto el número de acceso del suscriptor como el número de operador automático estén en formato E. 164.</li></ul>
 
 
@@ -74,7 +76,7 @@ Al ejecutar la herramienta de integración de mensajería unificada de Exchange,
 
 4.  En la lista de los **planes de marcado SIP** , seleccione un plan de marcado SIP de mensajería unificada para el que desee crear objetos de contacto y, a continuación, haga clic en **Agregar**.
 
-5.  En el cuadro **contacto** , acepte la unidad organizativa predeterminada o haga clic en **examinar** para iniciar el **selector de Uo**. En el cuadro **selector de ou** , seleccione una unidad organizativa y haga clic en **Aceptar**, o bien haga clic en crear una **nueva** unidad organizativa para crear una nueva unidad organizativa en la raíz o en cualquier otra unidad organizativa del dominio (por ejemplo, "ou = RTC Special Accounts, DC = fourthcoffee, DC = com") y, a continuación, haga clic en **Aceptar**.
+5.  En el cuadro **contacto** , acepte la unidad organizativa predeterminada o haga clic en **examinar** para iniciar el **selector de Uo**. En el cuadro **selector de ou** , seleccione una unidad organizativa y haga clic en **Aceptar**, o bien haga clic en **crear nueva** unidad organizativa para crear una nueva unidad organizativa bajo la raíz o cualquier otra unidad organizativa del dominio (por ejemplo, "ou = RTC Special Accounts, DC = fourthcoffee, DC = com") y, a continuación, haga clic en **Aceptar**.
     
     <div>
     

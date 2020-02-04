@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar certificados para la interfaz perimetral ex
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up certificates for the external edge interface
 ms:assetid: 5d78182c-88d8-4483-95ad-74b17f2d5fac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398409(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b2cb33a91d6609f9109e6416f5688d1b2ddfb9ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c1c836191c19eeadd915d0263c89b52289f60fe9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822121"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764676"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Cada servidor perimetral requiere un certificado público en la interfaz entre l
 
 Para obtener más información sobre este y otros requisitos de certificado, consulte [requisitos de certificados para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-certificate-requirements-for-external-user-access.md).
 
-Para obtener una lista de entidades de certificación (CA) públicas que proporcionen certificados que cumplan con los requisitos específicos para certificados de comunicaciones unificadas y que se hayan asociado con Microsoft para asegurarse de que funcionan con el Asistente para certificados de Lync Server 2013, consulte Artículo 929395 de Microsoft Knowledge base, "partners de certificados de comunicaciones unificadas para Exchange Server y para Communications [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)Server", en.
+Para obtener una lista de entidades de certificación (CA) públicas que proporcionen certificados que cumplan con los requisitos específicos para certificados de comunicaciones unificadas y que se hayan asociado con Microsoft para asegurarse de que funcionan con el Asistente para certificados de Lync Server 2013, consulte el artículo 929395 de Microsoft Knowledge base, "asociados [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)de certificados de comunicaciones unificadas para Exchange Server y Communications Server", en.
 
 <div>
 
@@ -92,7 +94,7 @@ Si decide usar los certificados Microsoft Management Console (MMC) para importar
 
 3.  En la página **solicitud de certificado** , haga clic en certificado de **borde externo**.
 
-4.  En la página **solicitud inmediata o** demorada, active la casilla **preparar la solicitud ahora pero enviarla más tarde** .
+4.  En la página **solicitud inmediata o demorada** , active la casilla **preparar la solicitud ahora pero enviarla más tarde** .
 
 5.  En la **Página archivo de solicitud de certificado** , escriba la ruta de acceso completa y el nombre del archivo en el que se va a guardar la solicitud (por\\ejemplo\_,\_c: CERT la Edge. cer).
 
@@ -104,7 +106,7 @@ Si decide usar los certificados Microsoft Management Console (MMC) para importar
     
       - En **longitud bit**, especifique la longitud en bits (normalmente, el valor predeterminado de **2048**).
     
-      - Compruebe que la casilla **marcar clave privada de certificado como** exportable está activada.
+      - Compruebe que la casilla **marcar clave privada de certificado como exportable** está activada.
 
 8.  En la página información de la **organización** , escriba el nombre de la organización y la unidad organizativa (por ejemplo, una división o un departamento).
 
@@ -211,7 +213,7 @@ Si decide usar los certificados Microsoft Management Console (MMC) para importar
 
 4.  En **Agregar o quitar complementos**, haga clic en **certificados**y, a continuación, haga clic en **Agregar**.
 
-5.  En el cuadro de diálogo **certificados** , seleccione **cuenta de equipo**, haga clic en **siguiente**, seleccione **equipo local: (el equipo en el que se está ejecutando esta consola)** en **seleccionar equipo**, haga clic en **Finalizar** y, a continuación, haga clic en **Aceptar** para configuración completa de la consola de MMC.
+5.  En el cuadro de diálogo **certificados** , seleccione **cuenta de equipo**, haga clic en **siguiente**, seleccione **equipo local: (el equipo en el que se está ejecutando esta consola)** en **seleccionar equipo**, haga clic en **Finalizar** y, a continuación, haga clic en **Aceptar** para completar la configuración de la consola MMC.
 
 6.  Haga doble clic en **certificados (equipo local)** para expandir los almacenes de certificados, haga doble clic en **personal**y, a continuación, haga doble clic en **certificados**.
     
@@ -293,7 +295,7 @@ Si decide usar los certificados Microsoft Management Console (MMC) para importar
 
 7.  En la página de finalización del asistente, haga clic en **Finalizar**.
 
-8.  Después de usar este procedimiento para asignar el certificado perimetral, abra el complemento certificado en cada servidor, expanda **certificados (equipo local)**, expanda **personal**, haga clic en **certificados**y, después, compruebe en el panel de detalles que el el certificado aparece en la lista.
+8.  Después de usar este procedimiento para asignar el certificado perimetral, abra el complemento certificado en cada servidor, expanda **certificados (equipo local)**, expanda **personal**, haga clic en **certificados**y, después, compruebe en el panel de detalles que aparece el certificado.
 
 9.  Si su implementación incluye varios servidores perimetrales, repita este procedimiento para cada servidor perimetral.
 

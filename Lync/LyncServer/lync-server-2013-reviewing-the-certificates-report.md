@@ -3,6 +3,8 @@ title: 'Lync Server 2013: revisar el informe certificados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reviewing the Certificates Report
 ms:assetid: 549cfc9b-3cc5-4483-a93c-fc0738c7f622
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558651(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541477
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4a83167576746d3f90d96658b0dd3d65815f5375
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 410e9e99fccae7378b5260c9aa3a2281a3004cd5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822338"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2013-02-21_
 
 El informe certificados contiene todos los certificados necesarios en la implementación recomendada de Lync Server 2013. La herramienta de planeación cuenta con los nombres de asunto y los nombres alternativos de asunto que se escriben. El texto predeterminado que se deja sin editar puede representar un posible desafío para el equipo responsable de solicitar y emitir los certificados. La información del certificado también contiene datos sobre el origen desde el cual puede emitirse normalmente el certificado. Si la infraestructura no dispone de una infraestructura de clave pública (PKI) interna, todos los certificados se pueden solicitar a través de un proveedor de certificados público. Los campos “Uso mejorado de clave (EKU)” y “Asignar a” del informe son muy útiles para comprender el objetivo y la ubicación de cada certificado.
 
-![Informe de administración de certificados] (images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "Informe de administración de certificados")
+![Informe de administración de certificados](images/Gg558651.63a29335-d9e4-41ae-97ec-3c9d9fd30d8a(OCS.15).jpg "Informe de administración de certificados")
 
 Revise con atención y comprenda completamente el uso y el propósito de cada certificado de la implementación. Si tiene alguna pregunta acerca de la función de un certificado, determine los elementos con los que se comunica un servidor o servicio. Los certificados de Lync Server 2013 se usan para dos propósitos principales:
 

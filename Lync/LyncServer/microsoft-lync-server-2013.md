@@ -3,6 +3,8 @@ title: Microsoft Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: '@NoTitle'
 ms:assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398616(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4006715d24ac4e1d7c98788ad8007b92d1881c43
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 88de2c999b82621ddb0b176b49fc74dfac4a6371
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849988"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763634"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -314,7 +316,7 @@ En las tablas siguientes se enumeran los temas de la biblioteca de documentació
 <td><p>Ver en línea: <a href="lync-server-2013-managing-the-lync-server-topology.md">administrar la topología de 2013 de Lync Server</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ver en línea: delegar el <a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">control administrativo de Lync Server 2013</a></p></td>
+<td><p>Ver en línea: <a href="lync-server-2013-delegating-administrative-control-of-lync-server.md">delegar el control administrativo de Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Ver en línea: <a href="lync-server-2013-managing-im-and-presence-settings.md">administrar la mensajería instantánea y la configuración de presencia en Lync Server 2013</a></p></td>
@@ -338,7 +340,7 @@ En las tablas siguientes se enumeran los temas de la biblioteca de documentació
 <td><p>Ver en línea: <a href="lync-server-2013-managing-federation-and-external-access-to-lync-server-2013.md">administrar la Federación y el acceso externo a Lync Server 2013</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Ver en línea: administrar el archivado de <a href="lync-server-2013-managing-archiving.md">Lync Server 2013</a></p></td>
+<td><p>Ver en línea: <a href="lync-server-2013-managing-archiving.md">administrar el archivado de Lync Server 2013</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Ver en línea: administración de la <a href="lync-server-2013-managing-lync-server-authentication.md">autenticación de Lync Server 2013</a></p></td>

@@ -3,6 +3,8 @@ title: Implementar una aplicación o servidor de sucursal con funciones de super
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy a Survivable Branch Appliance or Server - branch site task
 ms:assetid: 7989ba29-0419-46dd-892c-4ad3238afd56
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184586
 ms.date: 10/29/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f9c50e2c2377ead96f155beb2471419edb9da91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2edf70ccbc4817942775d953b7d43313d96e25c7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835577"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739790"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

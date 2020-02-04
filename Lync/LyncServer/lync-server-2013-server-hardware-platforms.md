@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Plataformas de hardware de servidor'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server hardware platforms
 ms:assetid: c964c1c0-0153-472b-88ad-a38866e0df0c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398835(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185395
 ms.date: 07/28/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2682d0d8636c024dee4151842a143e65b11d48c5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 95c8b0e9b1e13d845672cff07d30b7f2ac1a5b22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822128"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764878"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

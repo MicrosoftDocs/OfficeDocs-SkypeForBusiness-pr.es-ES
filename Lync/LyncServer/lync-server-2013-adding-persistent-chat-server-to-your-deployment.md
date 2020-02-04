@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Agregar un servidor de chat persistente a la implement
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Adding Persistent Chat Server to your deployment
 ms:assetid: 9ddbbcf9-60bf-4b04-92b9-af7ca66e2362
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205116(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184919
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e81ed7403f40e1d1510c9fe4ad4080376a0d4721
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c7a41e89193f4871197ab9b429eb6ab9a9078a7e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842929"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

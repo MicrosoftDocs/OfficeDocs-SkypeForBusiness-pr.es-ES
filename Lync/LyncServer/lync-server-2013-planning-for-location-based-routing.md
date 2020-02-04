@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planificar el enrutamiento basado en ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Location-Based Routing
 ms:assetid: bb035924-6b52-4f0f-8e05-b76864fb9ef3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994068(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803979
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3873e8710d6ab70212de7780ef5f34d1436df1d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 34a2dc25aa80e45d7e24f3a91a18b2dd83a4d554
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824795"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

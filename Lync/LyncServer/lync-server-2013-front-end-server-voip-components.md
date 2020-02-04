@@ -3,6 +3,8 @@ title: 'Lync Server 2013: componentes de VoIP del servidor front-end'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Front End Server VoIP components
 ms:assetid: 310e81a7-da45-47d4-95d0-92837e386502
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425812(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3558d230b1fb767f0e7844be3894b579149c3f6c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8bab5751fc0291047f3795731f379d1e14f5f12b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835138"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739740"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informes de diagnósticos de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call Diagnostic Reports
 ms:assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615013(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184794
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 342c1727985418930a333c723962da2bb276692f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 41100a6cc41c38b3d32870d530f99d8c919a2e83
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842701"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

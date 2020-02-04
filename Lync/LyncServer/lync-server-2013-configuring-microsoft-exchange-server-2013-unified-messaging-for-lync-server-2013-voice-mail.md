@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de la mensajería unificada de Microsof
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Exchange Server 2013 Unified Messaging for Lync Server 2013 voice mail
 ms:assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687983(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733573
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e1d2bac84183e6cc274d6bb297c17401b3ff7f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 367f4cc517771f51d7a1452293ad9803075d285f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842210"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755934"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

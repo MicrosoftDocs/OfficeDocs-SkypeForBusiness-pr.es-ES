@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes requeridos para el director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components required for the Director
 ms:assetid: 15c7c8d4-b93f-4386-b2d1-d76dab8f801e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398228(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c80002d0c91853be1523f6ce1bedfdccef72a68
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 12db97a72a9882964727edd3084e0bd598527358
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842510"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757094"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

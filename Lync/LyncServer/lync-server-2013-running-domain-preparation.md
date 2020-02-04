@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ejecutar la preparación del dominio'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Running domain preparation
 ms:assetid: 95dab800-1f2c-4506-b36c-99986643b149
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398761(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184847
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16fdd01b15fe5858129300c3a9f2f26c3d3de672
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 408dea780b4136f86ffed30d199d1d0ee63d6821
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822282"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765068"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

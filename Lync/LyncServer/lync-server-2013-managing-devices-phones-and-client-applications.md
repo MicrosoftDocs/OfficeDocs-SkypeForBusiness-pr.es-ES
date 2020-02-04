@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrar dispositivos, teléfonos y aplicaciones cl
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing devices, phones, and client applications
 ms:assetid: 7c52ecc7-e0f6-4684-9fe8-ba45437a08e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521021(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd0e244bbc2e732063f7c75a34b0855ab644607b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e80416897370711ce3bbadf3285cf25fad51f67d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828071"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729310"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

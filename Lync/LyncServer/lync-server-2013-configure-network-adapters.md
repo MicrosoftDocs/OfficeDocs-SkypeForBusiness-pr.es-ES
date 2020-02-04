@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar adaptadores de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure network adapters
 ms:assetid: 6519ed80-020f-47a3-851c-03dea5eac5d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429707(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3469e9d5fa3f7aeb45bc8f35ff692d97d09b8481
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30889a6b145e7256a313c4deedafc74d99499719
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842354"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758388"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ En los procedimientos siguientes, el servidor que ejecuta Forefront Threat Manag
 
 ## <a name="to-configure-the-network-adapter-cards-on-the-reverse-proxy-computer"></a>Para configurar las tarjetas de adaptador de red en el equipo del proxy inverso
 
-1.  En los servidores Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 o Windows Server 2012 R2 que se ejecutan como proxy inverso, Abra **Cambiar configuración del adaptador** haciendo clic en **Inicio**, seleccionando **Panel de control**y, a continuación, haga clic en **red y centro de uso compartido**y, a continuación, haga clic en **Cambiar configuración del adaptador**.
+1.  En Windows Server 2008, Windows Server 2008 R2, Windows Server 2012 o Windows Server 2012 R2 que se ejecuta como proxy inverso, Abra **Cambiar configuración del adaptador** haciendo clic en **Inicio**, seleccione **Panel de control**, haga clic en centro de **redes y recursos compartidos**y, a continuación, haga clic en **Cambiar configuración del adaptador**.
 
 2.  Haga clic con el botón secundario en la conexión de red externa que desee usar para la interfaz externa y, a continuación, haga clic en **propiedades**.
 
@@ -69,7 +71,7 @@ En los procedimientos siguientes, el servidor que ejecuta Forefront Threat Manag
     
 
     > [!NOTE]  
-    > Si el proxy inverso ya está siendo usado por otras aplicaciones que usan HTTPS/TCP/443, como para publicar Outlook Web Access, es necesario agregar otra dirección IP para que pueda publicar los servicios Web de Lync Server 2013 en HTTPS/TCP/443 sin interferir con las reglas existentes y las escuchas de Web, o necesita reemplazar el certificado existente por uno que agregue los nuevos nombres FQDN externos al asunto nombre alternativo.
+    > Si el proxy inverso ya está siendo usado por otras aplicaciones que usan HTTPS/TCP/443, como, por ejemplo, para publicar Outlook Web Access, es necesario agregar otra dirección IP para que pueda publicar los servicios Web de Lync Server 2013 en HTTPS/TCP/443 sin interferir con las reglas y las escuchas de Web existentes, o bien, necesita reemplazar el certificado existente por uno que agregue los nuevos nombres de FQDN externos al nombre alternativo de asunto.
 
     
     </div>

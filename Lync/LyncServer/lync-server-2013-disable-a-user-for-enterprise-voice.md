@@ -3,6 +3,8 @@ title: 'Lync Server 2013: deshabilitar un usuario para telefonía IP empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Disable a user for Enterprise Voice
 ms:assetid: 462002d8-21df-4d77-bf7f-4d059d6a4bb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688043(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733635
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dabe378f07cbca263ba3b32257c310b01bd922c0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8f89b40a7398f35efab418fac7be92536ec17270
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835389"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762218"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Use el siguiente procedimiento para deshabilitar Enterprise Voice para una cuent
     
 
     > [!NOTE]  
-    > Para impedir que un usuario realice llamadas de audio o vídeo mediante Lync, en <STRONG>telefonía</STRONG>, haga clic en <STRONG>audio/vídeo</STRONG>deshabilitado.
+    > Para impedir que un usuario realice llamadas de audio o vídeo mediante Lync, en <STRONG>telefonía</STRONG>, haga clic en <STRONG>audio/vídeo deshabilitado</STRONG>.
 
     
     </div>

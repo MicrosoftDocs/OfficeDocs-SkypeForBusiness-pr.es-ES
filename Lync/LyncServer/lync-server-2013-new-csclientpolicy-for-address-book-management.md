@@ -3,6 +3,8 @@ title: 'Lync Server 2013: nuevo-ClientPolicy para la administración de libretas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New-CsClientPolicy for Address Book management
 ms:assetid: ef4415fc-82c4-4dc8-97d1-37a084553343
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429726(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185771
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77cf1f7ebe085fc11d23381db9d1c474c79403d0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f68f6cfa2fde4d1e5a2bc58a36478a60060dd5e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826272"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765761"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

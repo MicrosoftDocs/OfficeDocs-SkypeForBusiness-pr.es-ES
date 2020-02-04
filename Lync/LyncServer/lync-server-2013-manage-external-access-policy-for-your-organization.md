@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrar la directiva de acceso de la organización
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Manage external access policy for your organization
 ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184160
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 10a08e096d517d2ac53866df763ab2f553480da5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e9ade02d1c7a3eae1d65cd62ba69684129105dce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834914"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733410"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

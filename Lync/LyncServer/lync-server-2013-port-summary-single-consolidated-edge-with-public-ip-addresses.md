@@ -3,6 +3,8 @@ title: Resumen de puerto - Perímetro consolidado de equipo único con direccion
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Single consolidated edge with public IP addresses
 ms:assetid: 28407acc-8b92-4f78-875c-fd6b4323b602
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204756(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183685
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7c1a61341908bef3a3098e70b06816bbf5ea328b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ad4d6dc9b7eda2e476068d5fae4a40d066a0d71
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824242"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747480"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ Además de IPv4, el servidor EDGE ahora es compatible con IPv6. Para mayor clari
 
 **Red perimetral empresarial para un solo borde consolidado con direccionamiento IP público**
 
-![f8c144c5-e5fb-498a-823e-eb39f26b6847] (images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")
+![f8c144c5-e5fb-498a-823e-eb39f26b6847](images/Gg425891.f8c144c5-e5fb-498a-823e-eb39f26b6847(OCS.15).jpg "f8c144c5-e5fb-498a-823e-eb39f26b6847")
 
 <div>
 

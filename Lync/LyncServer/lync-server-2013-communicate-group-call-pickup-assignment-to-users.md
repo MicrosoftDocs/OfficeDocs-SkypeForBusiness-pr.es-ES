@@ -3,6 +3,8 @@ title: 'Lync Server 2013: comunicar la asignación de llamada grupal a los usuar
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Communicate Group Call Pickup assignment to users
 ms:assetid: f878e6ae-0f2a-4aa2-afb0-5e82eeaeeeef
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945658(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541533
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d818f752704ee8694791e533d2b6233360a2edb5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 389416ddbab40aa4aa49d9225c7908ff4a4c82ca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842523"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

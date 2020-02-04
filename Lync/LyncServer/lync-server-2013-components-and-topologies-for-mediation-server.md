@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes y topologías para el servidor de mediaci�
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for Mediation Server
 ms:assetid: 71397168-36c3-4d21-b8ef-db6a751634ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398537(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184487
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f9c353dc65f5e943e082df9321a934ea8f14be1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 62516645266f67b7be61154b45afd00107ec3814
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842525"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,13 +77,13 @@ En la siguiente figura se muestra una topología sencilla que consta de dos siti
 
 **Ejemplo de sitios conectados por medio de un vínculo WAN con un servidor de mediación en el Sitio 1 y una puerta de enlace RTC en el Sitio 2**
 
-![Topología de voz con puerta de enlace WAN del servidor de mediación] (images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "Topología de voz con puerta de enlace WAN del servidor de mediación")
+![Puerta de enlace de WAN de topología de voz con servidor de mediación](images/Gg398537.67872e61-1444-447b-918c-abe89abc3004(OCS.15).jpg "Puerta de enlace de WAN de topología de voz con servidor de mediación")
 
 La siguiente figura muestra una topología simple en la que el servidor de mediación se encuentra con el registrador en el grupo front-end en el sitio 1 y tiene una conexión SIP directa con IP-PBX en el sitio 1. En esta ilustración, el servidor de mediación también controla una puerta de enlace RTC en el sitio 2. Supongamos que los usuarios de Lync existen en los dos sitios 1 y 2. También se supone que el IP-PBX tiene un procesador de medios asociado al que deben atravesarse todos los medios originarios de los puntos de conexión de Lync antes de enviarlos a los puntos de conexión multimedia controlados por el IP-PBX. En esta topología, la omisión de medios se habilita de forma global para usar la información del sitio y de la región, y los troncos a la puerta de enlace RTC y la PBX tienen la omisión de medios habilitada.
 
 **Ejemplo de sitios conectados mediante un vínculo WAN con un servidor de mediación en el Sitio 1 y un sistema PBX en el Sitio 2**
 
-![Servidor de mediación de voz PBX PBX] (images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "Servidor de mediación de voz PBX PBX")
+![PBX de WAN del servidor de mediación de topología de voz](images/Gg398537.df6c8a5b-8431-4187-907d-ff5ca26eeeec(OCS.15).jpg "PBX de WAN del servidor de mediación de topología de voz")
 
 Para más información sobre la planeación de topologías PBX, vea [directrices de implementación para servidor de mediación en Lync server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md) y [Opciones de implementación de SIP directo en Lync Server 2013](lync-server-2013-direct-sip-deployment-options.md).
 

@@ -3,6 +3,8 @@ title: 'Fase 5: configurar el grupo piloto'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 5: Configure the pilot pool'
 ms:assetid: 190faee2-e2d6-45cb-8315-f39e477df418
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204717(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e5ffa799a07cdb5b1583ba96708dc79599d52df5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e3d956d4252d73d2aa1d393917a5b3d72976209
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849905"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765711"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

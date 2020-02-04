@@ -3,6 +3,8 @@ title: Ver las aplicaciones de servidor del lenguaje de procesamiento de SIP de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Microsoft SIP Processing Language (MSPL) server applications
 ms:assetid: b7df1323-b6bd-4925-8fe6-5241c91fe51b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182575(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185202
 ms.date: 09/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f2a8aea4b412d2d744c42d659d2414a93c8435e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 63c1ce638e6bc9509c8faf46b39989b366f610a0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850103"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765621"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

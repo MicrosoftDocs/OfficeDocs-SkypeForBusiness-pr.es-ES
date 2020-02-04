@@ -3,6 +3,8 @@ title: 'Lync Server 2013: prueba de llamadas telefónicas RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing PSTN phone call
 ms:assetid: dc7d319d-a627-45b6-a978-6111901251e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690133(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969656
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 641b2f77079fee100d8f3ac85a1a7580d7cf7d84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8095b4b0bb6aa4e6920d291c3fde3885ae6bfb03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850332"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -125,7 +127,7 @@ Si prueba-CsPstnOutboundCall da error, es posible que desee volver a ejecutar la
 
 Cuando se incluye el parámetro detallado, test-CsPstnOutboundCall devolverá una cuenta paso a paso de cada acción que se probó cuando se comprobó la capacidad del usuario especificado para iniciar sesión en Lync Server. Por ejemplo, esta salida indica que hay problemas de red que impiden una conexión con la RTC:
 
-Establecer videollamadas de audio a ' SIP: +12065551219@litwareinc.com; User = Phone '.
+Establecer videollamadas de audio a ' SIP: + 12065551219@litwareinc. com; User = Phone '.
 
 Se ha recibido una respuesta ' una 404 (no se encontró) de la red y se produjo un error en la operación.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Características de resistencia de sitios de sucursal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Branch-site resiliency features
 ms:assetid: 8e3feda5-9a38-4e3c-b808-af29f19c5eb9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398715(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5e452dc297a79525b587d13aa58ed1e1270d41aa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a490de36322914235346cbc141784aab2c24f2ce
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842737"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

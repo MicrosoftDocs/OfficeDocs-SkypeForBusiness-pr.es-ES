@@ -3,6 +3,8 @@ title: 'Lync Server 2013: uso de Microsoft SQL Server 2008 R2 como base de datos
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Microsoft SQL Server 2008 R2 as your System Center Operations Manager database
 ms:assetid: 0efe76da-8854-499e-bdc7-3623244a8e85
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687969(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 858134b4d7f2a2fbc4e15c14e121ac12679c9ddc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27516e7ca6c3fb70a01b7c1d245054d515ae351b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850186"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744060"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Antes de empezar a instalar System Center Operations Manager, debe realizar dos 
 
 1.  Haga clic en **Inicio** y, después, en **Ejecutar**.
 
-2.  En el cuadro de diálogo **Ejecutar** , escriba **C\\: archivos\\de programa Microsoft\\ SQL\_Server MSRS10 50\\. ARCHINST\\Reporting Services ReportServer** y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , **escriba C\\: archivos\\de programa Microsoft\\ SQL\_Server MSRS10 50\\. ARCHINST\\Reporting Services ReportServer** y, a continuación, presione Entrar.
 
 3.  En la carpeta **ReportServer** , abra el archivo **Rsreportserver. config** en el Bloc de notas o en cualquier otro editor de texto.
 
@@ -57,9 +59,9 @@ Antes de empezar a instalar System Center Operations Manager, debe realizar dos 
 
 Después de actualizar el archivo de configuración del servidor de informes, debe asignar el certificado correcto a SQL Server Reporting Services. Para ello:
 
-1.  Haga clic en **Inicio**, en **todos los programas**, en **Microsoft SQL Server 2008 R2**, en **herramientas de configuración**y, por último, en Administrador de configuración de reporting **Services**.
+1.  Haga clic en **Inicio**, en **todos los programas**, en **Microsoft SQL Server 2008 R2**, en **herramientas de configuración**y, por último, en Administrador de **configuración de Reporting Services**.
 
-2.  En el cuadro de diálogo **conexión de configuración** de Reporting Services, asegúrese de que el nombre del servidor aparece en el cuadro **nombre del servidor** . Seleccione la instancia de SQL Server que hospedará la base de datos de Operations Manager (por ejemplo, **ARCHINST**) en la lista desplegable **instancia del servidor de informes** y, a continuación, haga clic en **conectar**.
+2.  En el cuadro de diálogo **conexión de configuración de Reporting Services** , asegúrese de que el nombre del servidor aparece en el cuadro **nombre del servidor** . Seleccione la instancia de SQL Server que hospedará la base de datos de Operations Manager (por ejemplo, **ARCHINST**) en la lista desplegable **instancia del servidor de informes** y, a continuación, haga clic en **conectar**.
 
 3.  En el administrador de configuración de Reporting Services, haga clic en **URL de servicio Web**.
 
@@ -111,7 +113,7 @@ Para poder usar estos nuevos informes, debe instalar un almacén de datos de Sys
 
 2.  En el Asistente para configuración de base de datos, en la página asistente **para configuración de base de datos** , haga clic en **siguiente**.
 
-3.  En la página **información** de la base de datos, seleccione base de datos del almacén de datos de Operations Manager de la lista desplegable **tipo de base** de **datos** y haga clic en **siguiente**.
+3.  En la página **información** de la base de datos, seleccione base de datos del almacén de **datos de Operations Manager** de la lista desplegable **tipo de base** de datos y haga clic en **siguiente**.
 
 4.  En la página **Resumen** , haga clic en **Finalizar**.
 
@@ -153,7 +155,7 @@ Para instalar la consola de System Center Operations Manager:
 
 14. En la página **listo para instalar el programa** , haga clic en **instalar**.
 
-15. En la página **finalización del programa de instalación de System Center Operations Manager** , desactive la casilla de verificación clave de cifrado de **copia de seguridad** e **inicie la consola** y haga clic en **Finalizar**.
+15. En la página **finalización del programa de instalación de System Center Operations Manager** , desactive la casilla de verificación **clave de cifrado de copia de seguridad** e **inicie la consola** y haga clic en **Finalizar**.
 
 16. En el programa de instalación de System Center Operations Manager, haga clic en **salir**.
 
@@ -191,9 +193,9 @@ En este momento, está listo para instalar System Center Reporting Services. Par
 
 7.  En la página **conectar con el servidor de administración raíz** , escriba el nombre del servidor de administración de raíz de Operations Manager en el cuadro **servidor de administración raíz** y, a continuación, haga clic en **siguiente**.
 
-8.  En la página **conectar con el almacén de datos de Operations Manager** , escriba la instancia de SQL Server donde se encuentra el almacén de datos en el cuadro instancia de **SQL Server** . (Si el almacén de datos se encuentra en la instancia predeterminada, simplemente escriba el nombre del servidor; por ejemplo: ATL-SQL-001.) Compruebe que el nombre de la base de datos **OperationsManagerDW** aparece en el cuadro **nombre** y que el puerto **1433** aparece en el cuadro **Puerto de SQL Server** . Haga clic en **Siguiente**.
+8.  En la página **conectar con el almacén de datos de Operations Manager** , escriba la instancia de SQL Server donde se encuentra el almacén de datos en el cuadro **instancia de SQL Server** . (Si el almacén de datos se encuentra en la instancia predeterminada, simplemente escriba el nombre del servidor; por ejemplo: ATL-SQL-001.) Compruebe que el nombre de la base de datos **OperationsManagerDW** aparece en el cuadro **nombre** y que el puerto **1433** aparece en el cuadro **Puerto de SQL Server** . Haga clic en **Siguiente**.
 
-9.  En la página **instancia de SQL Server** reporting, seleccione su SQL Server Reporting Server en la lista desplegable **entrar en el servidor de SQL Server Reporting Services** y haga clic en **siguiente**.
+9.  En la página **instancia de SQL Server Reporting** , seleccione su SQL Server Reporting Server en la lista desplegable **entrar en el servidor de SQL Server Reporting Services** y haga clic en **siguiente**.
 
 10. En la página de escritura de la **cuenta de almacenamiento de datos** , escriba el nombre y la contraseña del usuario al que se asignará inicialmente permisos de escritura para el almacén de datos en los cuadros cuenta de **usuario** y **contraseña** . Seleccione el dominio del usuario de la lista desplegable **dominio** y haga clic en **siguiente**.
 
@@ -205,7 +207,7 @@ En este momento, está listo para instalar System Center Reporting Services. Par
 
 14. En la página **listo para instalar el programa** , haga clic en **instalar**.
 
-15. En la página **finalización del Asistente para la instalación** de los componentes de informes de Operations Manager, haga clic en **Finalizar**.
+15. En la página **finalización del Asistente para la instalación de los componentes de informes de Operations Manager** , haga clic en **Finalizar**.
 
 16. En System Center Operations Manager 2007 R2 Setup, haga clic en **Exit**.
 

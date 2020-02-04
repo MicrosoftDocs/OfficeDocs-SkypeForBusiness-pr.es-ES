@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar un flujo de trabajo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a workflow
 ms:assetid: 5ac1c0f3-e82f-40ca-b972-91950e38c05b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520997(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9725958a302f50b0d1cdddf399b98fdd47ff6fc2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 13bcb9dd285beaaf96e56aef1114751b74c290a6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835773"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

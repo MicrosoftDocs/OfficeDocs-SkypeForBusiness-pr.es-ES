@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planificar la capacidad para el grupo de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning for Response Group
 ms:assetid: a2459a69-1f45-4f2f-bca5-d4f442708e44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412754(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184951
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 72f3e49806dc573a4e17bc917834deba97a74ca2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5efb1b928ce7b4bafbbff20ad31872fe12735fe0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842671"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -78,7 +80,7 @@ En la siguiente tabla se describe el modelo de usuario de grupo de respuesta que
 <tr class="odd">
 <td><p>Llamadas entrantes por segundo</p></td>
 <td><p>apartado</p></td>
-<td><p>2</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
 <td><p>Llamadas simultáneas conectadas a IVR o a la música en espera</p></td>

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad de conexiones SIP directas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Direct SIP connections support
 ms:assetid: 2107b5b1-b619-4c10-a7db-81d0b9c7f8bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398289(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183611
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cf3658e83eb7197dbde882686810710ae8cfe118
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9b987069b4b242ab91cf1b4e6a6cadf4113ed387
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835398"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver una lista de equipos que ejecutan Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View a list of computers running Lync Server 2013
 ms:assetid: 44eeec27-8b99-44f0-b0bd-622c12393d34
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520987(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184030
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce8b81f213e11f62632f4c74bdf62e3ac64e0168
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b11c6234cbe646888946313df8dd77abc60837fd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850124"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de la configuración de grupo de respu
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing application-level Response Group settings
 ms:assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721843(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733776
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bac03eaafc40ccd86aca8514319e3bf632ea6a83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ffce659c2c4dc6c91ba4e4935b72c15e4cef4da5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828218"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

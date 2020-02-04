@@ -3,6 +3,8 @@ title: Implementar el servidor perimetral piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Deploy pilot Edge Server
 ms:assetid: dab345c0-8577-4c11-ac73-fe8b2a75f4cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205306(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185559
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bd8fddd611422562c9384a52748623623d4e6f68
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cc9f88d731873a16535e80eb0726aec8335e447b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842836"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,27 +45,27 @@ Mientras navega por el asistente **definir nuevo grupo de bordes** , revise la c
 
 1.  Inicie sesión en el equipo donde se encuentre instalado el Generador de topologías como miembro del grupo Administradores del dominio y el grupo RTCUniversalServerAdmins.
 
-2.  Vaya al nodo de 2013 de Lync Server. Haga clic con **** el botón secundario en agrupaciones perimetrales y haga clic en **nuevo borde**.
+2.  Vaya al nodo de 2013 de Lync Server. Haga clic con el botón secundario en **agrupaciones perimetrales**y haga clic en **nuevo borde**.
     
-    ![Definir el cuadro de diálogo nuevo grupo perimetral] (images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Definir el cuadro de diálogo nuevo grupo perimetral")
+    ![Definir el cuadro de diálogo nuevo grupo perimetral](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Definir el cuadro de diálogo nuevo grupo perimetral")
 
 3.  Un grupo de servidores perimetrales puede ser un **grupo de varios equipos** o un **único grupo de equipos**.
     
-    ![Definir el cuadro de diálogo FQDN del grupo de bordes] (images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Definir el cuadro de diálogo FQDN del grupo de bordes")
+    ![Definir el cuadro de diálogo FQDN del grupo de bordes](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Definir el cuadro de diálogo FQDN del grupo de bordes")
 
 4.  En la página **seleccionar características** , no habilite la Federación ni la Federación XMPP. La Federación y la Federación XMPP actualmente se enrutan a través del servidor perimetral antiguo de Lync Server 2010. Estas características se configurarán en una fase posterior de la migración.
     
-    ![Cuadro de diálogo Seleccionar características] (images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "Cuadro de diálogo Seleccionar características")
+    ![Cuadro de diálogo Seleccionar características](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "Cuadro de diálogo Seleccionar características")
 
 5.  A continuación, siga completando las siguientes páginas del asistente: **FQDN externos**, **defina la dirección IP interna**y **defina la dirección IP externa**.
 
 6.  En la página **definir el siguiente salto** , seleccione el director para el próximo salto del grupo de servidores perimetrales de Lync Server 2010.
     
-    ![Definir el cuadro de diálogo siguiente del salto] (images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "Definir el cuadro de diálogo siguiente del salto")
+    ![Definir el cuadro de diálogo siguiente del salto](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "Definir el cuadro de diálogo siguiente del salto")
 
 7.  En la página **asociar grupos de servicios de media o front-end** , no asocie un grupo con este grupo de límites en este momento. El tráfico multimedia externo está enrutado a través del servidor perimetral heredado de Lync Server 2010. Esta configuración se configurará en una fase posterior de la migración.
     
-    ![Cuadro de diálogo asociar grupos front-end] (images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "Cuadro de diálogo asociar grupos front-end")
+    ![Cuadro de diálogo asociar grupos front-end](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "Cuadro de diálogo asociar grupos front-end")
 
 8.  Haga clic en **Finalizar** y, a continuación, **publique** la topología.
 

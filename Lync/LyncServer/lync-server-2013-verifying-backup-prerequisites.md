@@ -3,6 +3,8 @@ title: 'Lync Server 2013: comprobar los requisitos previos de la copia de seguri
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Verifying backup prerequisites
 ms:assetid: 17f8e00a-f970-4e94-b5a4-c18d97ad641a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202165(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541448
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 25e2a504cc9e465faa22dc1b818009a62ba2d33d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6106fb91f3366c7857fe0cf9fd894b647ca70b99
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850134"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742130"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

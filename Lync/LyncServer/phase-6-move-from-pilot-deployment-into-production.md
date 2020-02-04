@@ -3,6 +3,8 @@ title: 'Fase 6: Pasar de la implementación piloto a la producción'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 6: Move from pilot deployment into production'
 ms:assetid: f06425f8-0971-4dd6-9c3c-d400b4a95155
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721932(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733867
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 743fae3912dfb185e2930d08dcb5e092df1ac944
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 61720e8a255be3f5eedbee3c8cf409b4342427af
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849902"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar las conferencias de audio de terceros'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing third-party audio conferencing
 ms:assetid: 0428eb2f-a5ce-47e5-9ea4-383965dfc1e4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn727299(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969576
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1c23f65015dd34f5efbaafa8472466394caa52c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2a90aab3b0aec4fce46b311baccd0f28f2e7101b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850319"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Eliminar la configuración del PIN de conferencias de acceso telefónico 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete dial-in conferencing PIN settings for a site or group of users
 ms:assetid: 15a9faee-d024-4c0e-b2a0-fe7e7dc00589
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520955(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183498
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 488970df9e85bdbf8e3f2d8cbe21965eaf3c621c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae81fd45c2679c8b4d2ab0bf6813fbb405905224
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835608"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

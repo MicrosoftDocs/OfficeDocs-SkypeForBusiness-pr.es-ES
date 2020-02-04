@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar el control de admisión de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable call admission control
 ms:assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398642(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 864de6f8ac456ad8a312b5c47af1f19124e7be3f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1776cc173d7ddec50aae34e8316844d14f67b009
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835322"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

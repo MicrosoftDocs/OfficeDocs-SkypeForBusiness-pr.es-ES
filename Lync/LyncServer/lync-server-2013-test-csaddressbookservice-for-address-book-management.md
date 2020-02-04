@@ -3,6 +3,8 @@ title: 'Lync Server 2013: prueba-CsAddressBookService para la administración de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test-CsAddressBookService for Address Book management
 ms:assetid: b88cea74-41fd-4c0e-9284-7135bff27a27
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429720(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185206
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 120a61ff03957a25cb7e6e0d09b8d3bccb11343c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5250eca6372f8cd5394dc9607e4e6330934368b8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850424"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746330"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

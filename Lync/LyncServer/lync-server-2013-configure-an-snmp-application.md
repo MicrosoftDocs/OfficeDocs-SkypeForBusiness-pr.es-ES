@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar una aplicación SNMP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure an SNMP application
 ms:assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412972(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185346
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a15a911abc614ff30c4130fb2a35886458fcb1dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e11d79278318c99e1c6a1db3c4609e19553ba4c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842431"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

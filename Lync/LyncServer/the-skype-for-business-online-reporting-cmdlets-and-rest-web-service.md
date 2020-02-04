@@ -3,6 +3,8 @@ title: Cmdlet de informes y servicio Web REST de Skype empresarial online
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: The Skype for Business Online reporting cmdlets and REST web service
 ms:assetid: cadd73a7-c08a-4102-b73a-ccb3ad4987bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362845(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56563409
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2b1e11b4c9d68dbc5e177d684cd3053a83df8ea
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: bf02e845acc35ff4381b43beb91d798ec49f58d2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792712"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756024"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

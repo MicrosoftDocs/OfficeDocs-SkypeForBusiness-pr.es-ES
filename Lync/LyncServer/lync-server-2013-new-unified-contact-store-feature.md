@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nueva característica de almacenamiento de contactos u
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New unified contact store feature
 ms:assetid: 6003405d-08f6-4cfc-afda-3d9f6ebc91a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204947(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184308
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e3a10a1e55b94b118ea8d430b65d0e851c17b203
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f6ab6688a7a2d9b743843c226f2c869f18d3643
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825915"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755884"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla Tenants'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Tenants table
 ms:assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412950(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a7da863aa2b713f874aba00f5a4f481f45fb79b3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: de776adeb8c280c5216b35cc8236a0834c14aa13
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850433"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: get-CsService para la administración de libretas de d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Get-CsService for Address Book management
 ms:assetid: 373b717d-5efa-4c36-a899-a23a5bd922b4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429698(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183853
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4cfa9bd42bb29ca32ab27dc64d2ee9a111abab8d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 656c1aa545a1f10e49c5ff60b51c20386854d146
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835136"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

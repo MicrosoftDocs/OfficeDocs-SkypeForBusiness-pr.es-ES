@@ -3,6 +3,8 @@ title: 'Lync Server 2013: solución de problemas del complemento VDI de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Troubleshooting the Lync VDI plug-in
 ms:assetid: 183c9449-b907-409c-b5ed-b02af3bd93ee
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204713(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183525
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7afaa0067e4ca06f8bb40ff201b090a45c66f442
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f1dfd8082ef0f0cdfc2a7931a675398507daaa51
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850288"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Si hay problemas con la instalación del complemento VDI en un cliente ligero, c
 
 Cuando el emparejamiento de complemento de VDI falla, el icono de emparejamiento de la esquina inferior derecha se muestra como una "X" de color rojo, como se muestra a continuación:
 
-![Icono de VDI de Lync que muestra el emparejamiento correcto] (images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Icono de VDI de Lync que muestra el emparejamiento correcto")
+![Icono de VDI de Lync que muestra el emparejamiento correcto](images/JJ204948.303d618c-4bc8-41c4-8553-2475de0d395e(OCS.15).png "Icono de VDI de Lync que muestra el emparejamiento correcto")
 
 A continuación se indican las posibles razones por las que se producen errores y las acciones correctivas que puede realizar.
 

@@ -3,6 +3,8 @@ title: Configuración de los usuarios de prueba y los parámetros de configuraci
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring watcher node test users and configuration settings
 ms:assetid: ab00e9cb-f539-4aa6-bcb4-5533fbe7bc44
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205152(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185048
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d446934e8d84a12a6eecd84fbc94a956d8ae95e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3713844d5d2364459a28c5919bb1d32d421d706
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842158"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Si usa el método de autenticación Negotiate, también debe usar el cmdlet **se
     Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "litwareinc\watcher2" -Password "P@ssw0rd"
     Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 
-Tenga en cuenta que debe incluir no solo la dirección SIP sino también el nombre de usuario y la contraseña. Si no incluye la contraseña establecida, CsTestUserCredential le pedirá que introduzca esa información. El nombre de usuario se puede especificar con el formato\\de nombre de usuario del nombre de usuario que se muestra arriba o usando el formato nombre de usuario @ nombre de dominio. por ejemplo:
+Tenga en cuenta que debe incluir no solo la dirección SIP sino también el nombre de usuario y la contraseña. Si no incluye la contraseña establecida, CsTestUserCredential le pedirá que introduzca esa información. El nombre de usuario se puede especificar con el formato\\de nombre de usuario del nombre de usuario que se muestra arriba o usando el formato de usuario Name@domain nombre; por ejemplo:
 
     -UserName "watcher3@litwareinc.com"
 

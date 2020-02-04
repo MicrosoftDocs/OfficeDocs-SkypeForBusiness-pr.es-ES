@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de Estados de presencia personalizados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring custom presence states
 ms:assetid: e17364a8-8b93-45fc-a614-c80e45435d42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398997(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185534
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12083d1895f8e5191f15b43efaf2835faecdb5ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c69f7a5b32b4ad0dd31f8be118aa2f2173ff3e22
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842274"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34842274"
 
 _**Última modificación del tema:** 2013-01-10_
 
-Para definir Estados de presencia personalizado en Lync 2013, cree un archivo de configuración de presencia personalizado XML y, a continuación, especifique su ubicación con los cmdlets del shell de administración de Lync Server **New-ClientPolicy** o **set-ClientPolicy** con el parámetro CustomStateURL.
+Para definir Estados de presencia personalizado en Lync 2013, cree un archivo de configuración de presencia personalizado XML y, a continuación, especifique su ubicación mediante los cmdlets del shell de administración de Lync Server **New-ClientPolicy** o **set-ClientPolicy** con el parámetro CustomStateURL.
 
 Los archivos de configuración tienen las siguientes propiedades:
 
@@ -56,12 +58,12 @@ Los archivos de configuración tienen las siguientes propiedades:
 > Aunque no se recomienda en un entorno de producción, puede probar un archivo de configuración que se encuentre en un recurso compartido de archivos no HTTPS mediante la configuración del registro EnableSIPHighSecurityMode para deshabilitar el modo de alta seguridad SIP en el cliente. A continuación, puede usar la configuración del registro CustomStateURL para especificar una ubicación que no sea HTTPS para el archivo de configuración. Observe que Lync 2013 acepta la configuración del registro de Lync 2010, pero se ha actualizado el subárbol del registro. Crearía la configuración del registro de la siguiente manera: 
 > <UL>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
+> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\EnableSIPHighSecurityMode</P>
 > <P>Tipo: DWORD</P>
 > <P>Datos del valor: 0</P>
 > <LI>
-> <P>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
-> <P>Tipo: cadena (REG_SZ)</P>
+> <P>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync\CustomStateURL</P>
+> <P>Tipo: String (REG_SZ)</P>
 > <P>Datos de valor (ejemplos):\\File://lspool. Corp. contoso. com\LSFileShare\ClientConfigFolder\Presence.xml o File:///c:/LSFileShare/ClientConfigFolder/Group_1_Pres.XML</P></LI></UL>
 
 
@@ -118,7 +120,7 @@ Para obtener más información, vea [New-ClientPolicy](https://docs.microsoft.co
 > <LI>
 > <P>De forma predeterminada, Lync Server&nbsp;2013 actualiza las directivas y la configuración del cliente cada tres horas.</P>
 > <LI>
-> <P>Si desea seguir usando la configuración de la Directiva de grupo de versiones anteriores, como CustomStateURL, Lync 2013 reconocerá la configuración si se encuentra en el subárbol del registro de la nueva Directiva (HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Sin embargo, las directivas de cliente basadas en servidor tienen prioridad.</P></LI></UL>
+> <P>Si desea seguir usando la configuración de la Directiva de grupo de versiones anteriores, como CustomStateURL, Lync 2013 reconocerá la configuración si se encuentra en el subárbol del registro de la nueva Directiva (HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync). Sin embargo, las directivas de cliente basadas en servidor tienen prioridad.</P></LI></UL>
 
 
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Agregar sitios de sucursal a la topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add branch sites to your topology
 ms:assetid: b9c35fb0-0081-4aeb-8f95-ac2fcc6c3335
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412905(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 029627060ff03b804d0d2f76f40fdd4052f0d1c6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2df1871956b33b3781128e2b62af13bdd875d10b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842949"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

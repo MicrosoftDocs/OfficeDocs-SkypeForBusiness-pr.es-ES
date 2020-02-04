@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar la configuración de registro existente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete existing Registrar configuration settings
 ms:assetid: ae43cd75-cae4-4f78-b037-779a2cdb583b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182571(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185132
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d9fe0ee46ff823a5184ee79f3b06bb02bb68115d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 960d0dd055ccf2f380b1ebf8124432da8daf6563
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835597"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763504"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

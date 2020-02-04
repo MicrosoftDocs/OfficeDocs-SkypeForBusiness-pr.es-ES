@@ -3,6 +3,8 @@ title: Lync Server 2013 planeamiento de capacidad con los modelos de usuario
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Capacity planning using the user models
 ms:assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733733
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b7db58e8c6f3e84f95a51ddd393ddca5ec18091
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cd9b3861e4c84b8df7585ad5cfbdfd5a82359282
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842690"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736997"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -310,7 +312,7 @@ Si Collocate Server Mediation with front end Server, Media Server se ejecuta en 
 
 Si implementa un grupo de servidores de mediación independiente, entonces la cantidad de servidores de mediación que se van a implementar depende de muchos factores, incluido el hardware usado para el servidor de mediación, el número de usuarios de VoIP que tiene, el número de puertas de enlace y el número de puertas de enlace de cada grupo de servidores de mediación controles, el tráfico de horas ocupado a través de estas puertas de enlace y el porcentaje de llamadas con medios que omiten el servidor de mediación.
 
-En las siguientes tablas se ofrecen instrucciones sobre cuántas llamadas simultáneas puede controlar un servidor de mediación, suponiendo que el hardware de los servidores de mediación cumpla con los requisitos de las [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) y que Hyper-Threading está habilitado. Para obtener más información sobre la escalabilidad del servidor de mediación, consulte estimar el [uso de voz y el tráfico para Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) y las [directrices de implementación para servidor de mediación en Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
+En las siguientes tablas se ofrecen instrucciones sobre cuántas llamadas simultáneas puede controlar un servidor de mediación, suponiendo que el hardware de los servidores de mediación cumpla los requisitos de las [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) y que la tecnología Hyper-Threading esté habilitada. Para obtener más información sobre la escalabilidad del servidor de mediación, consulte [estimar el uso de voz y el tráfico para Lync server 2013](lync-server-2013-estimating-voice-usage-and-traffic.md) y las [directrices de implementación para servidor de mediación en Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md).
 
 En todas las tablas siguientes se supone el uso tal como se resume en los [modelos de usuario en Lync Server 2013](lync-server-2013-user-models.md).
 
@@ -494,17 +496,17 @@ Durante las pruebas de rendimiento, Microsoft usó el hardware de la tabla sigui
 <tr class="odd">
 <td><p>Archivo de registro de la base de datos CDR</p></td>
 <td><p>1</p></td>
-<td><p>2</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
 <td><p>Archivo de registro de la base de datos QoE</p></td>
 <td><p>1</p></td>
-<td><p>2</p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="odd">
 <td><p>Archivo de registro de la base de datos de archivado</p></td>
 <td><p>1</p></td>
-<td><p>2</p></td>
+<td><p>1</p></td>
 </tr>
 </tbody>
 </table>

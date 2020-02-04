@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Lista de comprobación para la implementación del arc
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for Archiving
 ms:assetid: 7479734d-be01-40d9-ad82-320a09d19d04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205009(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184516
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 51c556dd288ff3539bbf2f4de816eab3a544b847
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e55e2471a71c985861c35c4ec2e07582dbfa0f23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835519"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740760"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -108,12 +110,12 @@ La tabla siguiente proporciona información general de los pasos necesarios para
 <td><p><strong>Crear la topología interna adecuada para admitir el archivado (solo si no se usa la integración de Microsoft Exchange para todos los usuarios de la implementación)</strong></p></td>
 <td><p>Ejecute el generador de topología para agregar bases de datos de archivo de Lync Server 2013 (bases de datos de SQL Server) a la topología y, después, publique la topología.</p></td>
 <td><p>Para definir una topología para incorporar bases de datos de archivado, una cuenta que sea miembro del grupo usuarios locales.</p>
-<p>Para publicar la topología, una cuenta que sea miembro del grupo administradores del dominio y del grupo RTCUniversalServerAdmins, y que tenga permisos de control total (lectura/escritura/modificación) en el recurso compartido de archivos para el almacén de archivos de Lync Server 2013 (para que topología pueda Configure las DACL obligatorias).</p></td>
+<p>Para publicar la topología, una cuenta que sea miembro del grupo administradores del dominio y del grupo RTCUniversalServerAdmins, y que tenga permisos de control total (lectura/escritura/modificación) en el recurso compartido de archivos para el almacén de archivos de Lync Server 2013 (para que topología pueda configurar las DACL obligatorias).</p></td>
 <td><p><a href="lync-server-2013-adding-archiving-databases-to-an-existing-lync-server-2013-deployment.md">Agregar bases de datos de archivado a una implementación existente de Lync Server 2013</a> en la documentación de implementación.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Configurar la autenticación de servidor a servidor (solo si se usa la integración de Microsoft Exchange)</strong></p></td>
-<td><p>Configure servidores para habilitar la autenticación entre Lync Server 2013 y Exchange 2013. Le recomendamos que ejecute <strong>Test-CsExchangeStorageConnectivity testuser_sipUri – contenedor de carpetas</strong> para validar la Conectividad del almacenamiento de archivado de Exchange antes de habilitar el archivado.</p></td>
+<td><p>Configure servidores para habilitar la autenticación entre Lync Server 2013 y Exchange 2013. Le recomendamos que ejecute <strong>Test-CsExchangeStorageConnectivity testuser_sipUri: contenedor de carpetas</strong> para validar la Conectividad del almacenamiento de archivado de Exchange antes de habilitar el archivado.</p></td>
 <td><p>Una cuenta con los permisos necesarios para administrar certificados en los servidores.</p></td>
 <td><p><a href="lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md">Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones de socios en Lync server 2013</a> en la documentación de implementación o en la documentación de operaciones.</p></td>
 </tr>

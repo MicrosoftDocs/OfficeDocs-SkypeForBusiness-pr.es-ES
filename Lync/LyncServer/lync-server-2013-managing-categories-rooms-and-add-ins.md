@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administrar categorías, salones de chat y complemento
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing categories, rooms, and add-ins
 ms:assetid: a9807031-7369-4a51-9369-6f09bec24141
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412799(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185100
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2870d83d463866e07afdffab7c0a840bb2686928
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89d7caadc6ccc4bd7c1030a3e7020129be14a68f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828085"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

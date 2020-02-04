@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Editar o configurar direcciones URL sencillas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Edit or configure simple URLs
 ms:assetid: 0008aeea-4ae9-4e36-83cd-ef7ff7b6e128
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398063(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183216
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b1439ddb0dafc63b0e70439ee5231477fdbb6be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fe6ae7197e2f47c590384547c34dd4b1db50950
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835320"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

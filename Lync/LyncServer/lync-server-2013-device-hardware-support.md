@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad con hardware de dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device hardware support
 ms:assetid: ba07ca91-32b4-49cf-801c-47a2d1d96e18
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185222
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da92e5f8d37ae5112ccea2d2b33f7f2b0186dfcf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ea720eda982ab20333e56de268085a706ab2cdc7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835434"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762438"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

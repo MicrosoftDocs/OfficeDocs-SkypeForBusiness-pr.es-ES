@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de vínculos a sitios de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring network site links
 ms:assetid: 7e9147ae-e727-46c8-8c1a-6c13201f09be
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521023(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184622
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fd0ddd5e28cd37cd31e28e5c6427b9b700b5a4c9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e379a8195dd0a50d97a514307ac594908be4736c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842202"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763484"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

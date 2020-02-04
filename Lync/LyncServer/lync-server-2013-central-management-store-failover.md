@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Conmutación por error del almacén de administración
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Central Management store failover
 ms:assetid: f464d715-68a4-462c-9584-00f41ab10db0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205376(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185809
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5b320b3313f37a1912b909d018bbe37de5a997be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 38bde96b74fa1c00fc937a159c5e8e40df42d4dc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842665"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736870"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

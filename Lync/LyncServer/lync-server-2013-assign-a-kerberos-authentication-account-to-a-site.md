@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Asignar una cuenta de autenticación Kerberos a un sit
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Assign a Kerberos authentication account to a site
 ms:assetid: 3d9c587c-c8b8-4f81-8ed9-1458a31fc292
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425901(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183929
 ms.date: 04/18/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb755f7e7b814d4ca643bd04ddfc0241b4d96d60
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: 230341bfc6b26bebd22b55195280ffdff130873d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

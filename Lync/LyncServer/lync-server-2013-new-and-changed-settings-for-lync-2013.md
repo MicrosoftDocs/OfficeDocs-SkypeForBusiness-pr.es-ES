@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración nueva y modificada para Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New and changed settings for Lync 2013
 ms:assetid: bb13789c-7eda-461c-a387-02ea8ca4dabe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205204(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185241
 ms.date: 12/08/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 675997e815dc80ec173e75ca68358ef23c12f380
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb5366f7e3d4c2aba81b5b8b25873ea22d54c3a6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826475"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765851"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -149,7 +151,7 @@ En este tema se tratan los cambios en los cmdlets del shell de administración d
 <td><p>EnableSQMData</p></td>
 <td><p>ClientPolicy</p></td>
 <td><p>El parámetro EnableSQMData del cmdlet Set-ClientPolicy se ha eliminado en Lync Server 2013. En su lugar, puede usar la configuración de directiva de grupo compartida para datos de administración de calidad de software (SQM) para determinar la interfaz de usuario para la opción de mejora de la experiencia del cliente en la página Opciones generales del cliente de Lync:</p>
-<p>HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\Common\QMEnable</p>
+<p>HKEY_CURRENT_USER \Software\Policies\Microsoft\Office\Common\QMEnable</p>
 <p>Los</p>
 <p>1 = Mostrar y seleccionar la casilla (el usuario puede desactivar la casilla de verificación)</p>
 <p>0 = desactivar y deshabilitar la casilla (el usuario no puede reemplazar)</p>

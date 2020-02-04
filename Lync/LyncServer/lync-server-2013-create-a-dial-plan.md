@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear un plan de marcado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create a dial plan
 ms:assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398909(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185424
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8734ce4503ef62eb0fc04aab376f2819d1fc8fea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d1d4647f374fd65c0be52da111b7ef2d41c0faae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842144"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740540"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -137,7 +139,7 @@ Para crear un nuevo plan de marcado, realice los pasos del procedimiento siguien
     
 
     > [!IMPORTANT]  
-    > Lync Server recorre la lista de reglas de normalización de la parte superior hacia abajo y usa la primera regla que coincida con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<BR>La regla <STRONG></STRONG> predeterminada de normalización <STRONG>^ (\d{11}) $</STRONG> coincide con cualquier número de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que <STRONG>mantener todo</STRONG> se ordene debajo de la regla <STRONG>^ (1425 \{7}d) $</STRONG> más restrictiva.
+    > Lync Server recorre la lista de reglas de normalización de la parte superior hacia abajo y usa la primera regla que coincida con el número marcado. Si configura un plan de marcado de forma que un número marcado pueda coincidir con más de una regla de normalización, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas.<BR>La regla <STRONG>predeterminada de</STRONG> normalización <STRONG>^ (\d{11}) $</STRONG> coincide con cualquier número de 11 dígitos. Por ejemplo, si agrega una regla de normalización que coincide con los números de 11 dígitos que comienzan por 1425, asegúrese de que <STRONG>mantener todo</STRONG> se ordene debajo de la regla <STRONG>^ (1425 \{7}d) $</STRONG> más restrictiva.
 
     
     </div>

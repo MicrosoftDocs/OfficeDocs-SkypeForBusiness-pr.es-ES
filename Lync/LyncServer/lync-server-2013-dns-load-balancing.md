@@ -3,6 +3,8 @@ title: 'Lync Server 2013: equilibrio de carga de DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS load balancing
 ms:assetid: 7ed0ed20-33ad-4253-926d-21d392590ae7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398634(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184625
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4248815c2e896c6c4ce36d22fd6544c298527766
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 30d3b88ac66ad7dc6dd3216d941f4a99fc2feedd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835386"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -75,7 +77,7 @@ Para implementar el equilibrio de carga de DNS en grupos de servidores front-end
 
   - Si un grupo de servidores usa equilibrio de carga de DNS, necesita tener dos FQDN: el FQDN normal del grupo que usa el equilibrio de carga de DNS (como, por ejemplo, pool01.contoso.com) y que se resuelve en las IP físicas de los servidores del grupo, y otro FQDN para los servicios web del grupo (como, por ejemplo, web01.contoso.com), que se resuelve como la dirección IP virtual del grupo.
     
-    En el generador de topología, si desea implementar el equilibrio de carga de DNS para un grupo, para crear este FQDN adicional para los servicios web del grupo, debe activar la casilla **invalidar FQDN del grupo de servicios Web internos** y escribir el FQDN, en **especificar las direcciones URL de servicios web para Esta** página de grupo.
+    En el generador de topología, si desea implementar el equilibrio de carga de DNS para un grupo, para crear este FQDN adicional para los servicios web del grupo, debe activar la casilla **invalidar FQDN del grupo de servicios Web internos** y escribir el FQDN en la página **especificar las direcciones URL de los servicios web para este grupo** .
 
   - Para admitir el FQDN que usa el equilibrio de carga de DNS, necesita aprovisionar el DNS, de modo que resuelva el FQDN del grupo (como, por ejemplo, pool01.contoso.com) en las direcciones IP de todos los servidores del grupo (por ejemplo, 192.168.1.1, 192.168.1.2, etc.). Necesita incluir solo las direcciones IP de los servidores implementados actualmente.
     

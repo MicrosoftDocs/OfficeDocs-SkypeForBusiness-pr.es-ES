@@ -3,6 +3,8 @@ title: Migrar servidor de mediación
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate Mediation Server
 ms:assetid: b0b77121-2c8f-413e-b276-dbf1038361d3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205173(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185117
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 79fc35a7641b4acb42578ec4e75375e171ae905e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3478bb3bb837e44ed33597f72738b181b4c67561
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849980"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762918"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

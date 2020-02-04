@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Shell de administración de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Server Management Shell
 ms:assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398474(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184386
 ms.date: 09/20/2017
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29fdc8e5f13687d2bed0e0c35609187c57d11592
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d519b647eae4937af10a38673803484a253baef7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834917"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

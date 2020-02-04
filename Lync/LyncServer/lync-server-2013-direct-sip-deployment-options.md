@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Opciones de implementación SIP directa'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Direct SIP deployment options
 ms:assetid: 84691944-03f2-4a89-9f2b-1ab3d7f388cc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398672(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184692
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 277b64346dc17815438f2ac34da58f36d2b150f2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e88dd5a576e467fbca25e9f467bd168fd6401d17
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835395"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ La siguiente ilustración muestra la topología genérica para la implementació
 
 **Opción de implementación incremental**
 
-![Diagrama de opciones de migración a departamentos] (images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "Diagrama de opciones de migración a departamentos")
+![Diagrama de opción de migración departamental](images/Gg398672.e951ecf4-7cd2-425a-9106-76977492d682(OCS.15).jpg "Diagrama de opción de migración departamental")
 
 <div>
 
@@ -159,7 +161,7 @@ En la siguiente ilustración se muestra una topología típica para una implemen
 
 **Opción de implementación solo de VoIP**
 
-![Opción de implementación Greenfidle] (images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Opción de implementación Greenfidle")
+![Opción de implementación en entorno virgen](images/Gg398672.820dc5fe-0e20-431b-ae4e-fefdf2221d3b(OCS.15).jpg "Opción de implementación en entorno virgen")
 
 <div>
 

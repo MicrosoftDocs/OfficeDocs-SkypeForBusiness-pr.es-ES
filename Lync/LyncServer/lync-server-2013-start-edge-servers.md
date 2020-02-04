@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Iniciar los servidores perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Start Edge Servers
 ms:assetid: fe62b18f-2189-4112-ba90-b1c590cf84d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413083(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185963
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ce25eade115b434dc9b3701ac1e509fe89a5a155
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2488e81c0512e8698337209161558b2789cd2f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850573"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764426"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

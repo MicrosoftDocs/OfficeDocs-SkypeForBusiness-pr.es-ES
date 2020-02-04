@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Habilitar o deshabilitar la federación y conectividad
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable federation and public IM connectivity
 ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4123a17c01ad6358038b1937b57bab29eeec85c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edbf03ee2e2772e6df1425ffd666176c1947f0e4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ La compatibilidad con la Federación es necesaria para habilitar a los usuarios 
 
 Para admitir el acceso de usuarios de dominios federados, debe habilitar la Federación. Si habilita la Federación de su organización, también debe especificar si desea implementar las siguientes opciones:
 
-  - **Habilitar detección**   de dominios asociados si habilita esta opción, Lync Server usará los registros del sistema de nombres de dominio (DNS) para intentar descubrir dominios no incluidos en la lista de dominios permitidos, lo que evalúa automáticamente el tráfico entrante de los descubiertos federados Partners y limitar o bloquear el tráfico en función del nivel de confianza, la cantidad de tráfico y la configuración del administrador. Si no selecciona esta opción, acceso de usuarios federados solo se habilitará para los usuarios de los dominios que incluya en la lista de dominios permitidos. Independientemente de si selecciona esta opción, puede especificar que los dominios individuales se bloqueen o se permitan, incluido el acceso restringido a servidores específicos que ejecuten el servicio perimetral de acceso en el dominio federado. Para obtener más información sobre cómo controlar el acceso por parte de los dominios federados, consulte [configurar la compatibilidad de dominios externos permitidos en Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
+  - **Habilitar detección**   de dominios asociados si habilita esta opción, Lync Server usará los registros del sistema de nombres de dominio (DNS) para intentar descubrir dominios no incluidos en la lista de dominios permitidos, evaluar automáticamente el tráfico entrante de socios federados descubiertos y limitar o bloquear ese tráfico en función del nivel de confianza, la cantidad de tráfico y la configuración del administrador. Si no selecciona esta opción, acceso de usuarios federados solo se habilitará para los usuarios de los dominios que incluya en la lista de dominios permitidos. Independientemente de si selecciona esta opción, puede especificar que los dominios individuales se bloqueen o se permitan, incluido el acceso restringido a servidores específicos que ejecuten el servicio perimetral de acceso en el dominio federado. Para obtener más información sobre cómo controlar el acceso por parte de los dominios federados, consulte [configurar la compatibilidad de dominios externos permitidos en Lync Server 2013](lync-server-2013-configure-support-for-allowed-external-domains.md).
 
   - **Enviar una renuncia de archivado a los socios**     federados el aviso de declinación de responsabilidades se envía a los socios federados que el archivado de la implementación está en su lugar. Si admite el archivado de comunicaciones externas con dominios federados, debe habilitar la notificación de renuncia de archivado para avisar a los socios de que sus mensajes se han archivado.
 

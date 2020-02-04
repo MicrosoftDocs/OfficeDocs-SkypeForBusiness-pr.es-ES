@@ -3,6 +3,8 @@ title: Mover varios usuarios a la agrupación piloto
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move multiple users to the pilot pool
 ms:assetid: 9492797f-2a26-4773-8ad2-97cb53fa68fc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688143(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733745
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2ffc3e01df30f4a8e1b9c9b9aeca2b2013003980
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 70d031481746f9f7408cc7b5e36081bb977b189d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849935"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743770"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Puede mover varios usuarios del grupo de Office Communications Server 2007 R2 a 
 
 6.  Seleccione dos usuarios que desee mover al grupo de servidores de Lync Server 2013. En este ejemplo, se moverán los usuarios Chen Yang y Claus Hansen.
     
-    ![Lista de usuarios que se muestra al buscar usuarios de OCS] (images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "Lista de usuarios que se muestra al buscar usuarios de OCS")  
+    ![Lista de usuarios que se muestra al buscar usuarios de OCS](images/JJ688143.76beb4fa-72e0-41ef-b96e-3553e96645c0(OCS.15).jpg "Lista de usuarios que se muestra al buscar usuarios de OCS")  
 
 7.  En el menú **acción** , seleccione **mover usuarios seleccionados al grupo**.
 
@@ -61,7 +63,7 @@ Puede mover varios usuarios del grupo de Office Communications Server 2007 R2 a 
 
 9.  Haga clic en **Acción** y, posteriormente, haga clic en **Mover usuarios seleccionados a grupo**. Haga clic en Aceptar.
     
-    ![Cuadro de diálogo mover usuarios, conjunto de registradores de destino] (images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Cuadro de diálogo mover usuarios, conjunto de registradores de destino")  
+    ![Cuadro de diálogo mover usuarios, conjunto de registradores de destino](images/JJ205401.8a375003-dc00-4541-b578-4d88f2010601(OCS.15).png "Cuadro de diálogo mover usuarios, conjunto de registradores de destino")  
 
 10. Compruebe que la columna del **Grupo registrador** de los usuarios contiene ahora el grupo de servidores de Lync Server 2013, lo que indica que los usuarios se movieron correctamente.
 
@@ -77,15 +79,15 @@ Puede mover varios usuarios del grupo de Office Communications Server 2007 R2 a 
     
         Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsLegacyUser -Target "pool_FQDN"
     
-    ![Cmdlet de ejemplo para mover un usuario heredado] (images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "Cmdlet de ejemplo para mover un usuario heredado")  
+    ![Cmdlet de ejemplo para mover un usuario heredado](images/JJ688143.57cfc28e-3df5-459f-83ef-8b0edf182a25(OCS.15).jpg "Cmdlet de ejemplo para mover un usuario heredado")  
 
 3.  En la línea de comandos, escriba lo siguiente:
     
         Get-CsUser -Identity "User1"
 
-4.  La identidad del **Grupo** de registradores debe apuntar ahora al grupo que especificó como **FQDN del grupo\_** en el paso anterior. La presencia de esta identidad confirma que el usuario se movió correctamente. Repita el paso para verificar que se ha movido **usuario2** .
+4.  La identidad del **grupo de registradores** debe apuntar ahora al grupo que especificó como **FQDN del grupo\_** en el paso anterior. La presencia de esta identidad confirma que el usuario se movió correctamente. Repita el paso para verificar que se ha movido **usuario2** .
     
-    ![Resultado del cmdlet Get-UsUser-Identity de PowerShell] (images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Resultado del cmdlet Get-UsUser-Identity de PowerShell")  
+    ![Resultado del cmdlet Get-UsUser-Identity de PowerShell](images/JJ205096.8ff04c67-37a0-4156-bfbc-28f9f7b137c8(OCS.15).jpg "Resultado del cmdlet Get-UsUser-Identity de PowerShell")  
 
 </div>
 
@@ -101,17 +103,17 @@ En este ejemplo, todos los usuarios han sido devueltos al grupo de servidores de
     
         Get-CsUser -OnOfficeCommunicationServer | Move-CsLegacyUser -Target "pool_FQDN"
     
-    ![Cmdlet de ejemplo para mover todos los usuarios heredados de un grupo] (images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "Cmdlet de ejemplo para mover todos los usuarios heredados de un grupo")  
+    ![Cmdlet de ejemplo para mover todos los usuarios heredados de un grupo](images/JJ688143.e6a2d578-296e-476c-bd45-d757917ea853(OCS.15).jpg "Cmdlet de ejemplo para mover todos los usuarios heredados de un grupo")  
 
 3.  A continuación, ejecute **Get-CsUser** para uno de los usuarios de la prueba piloto.
     
         Get-CsUser -Identity "Hao Chen"
 
-4.  La identidad del **Grupo** de registradores de cada usuario apunta ahora al grupo que especificó\_como "FQDN del grupo" en el paso anterior. La presencia de esta identidad confirma que el usuario se movió correctamente.
+4.  La identidad del **grupo de registradores** de cada usuario apunta ahora al grupo que especificó\_como "FQDN del grupo" en el paso anterior. La presencia de esta identidad confirma que el usuario se movió correctamente.
 
 5.  Además, podemos ver la lista de usuarios en el panel de control de Lync Server 2013 y comprobar que el valor del grupo de registradores apunta al grupo de Lync Server 2013.
     
-    ![Lista de usuarios del panel de control de Lync Server 2013] (images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lista de usuarios del panel de control de Lync Server 2013")  
+    ![Lista de usuarios del panel de control de Lync Server 2013](images/JJ205096.3f2e87a7-ec59-43c5-82cb-e770108bfb04(OCS.15).jpg "Lista de usuarios del panel de control de Lync Server 2013")  
 
 </div>
 

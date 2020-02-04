@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de versiones de cliente compatibles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring supported client versions
 ms:assetid: aebf7b48-9aa2-4a06-adc5-0c9d11b6358d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412832(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185137
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14bc6decfea38151d1f060b13fa55c81006e98e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9a262cab2145013d83cdae573d98b5db17e0e890
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842175"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

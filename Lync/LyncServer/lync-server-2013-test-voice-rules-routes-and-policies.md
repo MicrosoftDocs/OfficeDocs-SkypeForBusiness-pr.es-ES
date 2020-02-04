@@ -3,6 +3,8 @@ title: 'Lync Server 2013: probar reglas, rutas y directivas de voz'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test voice rules, routes, and policies
 ms:assetid: ebb9c3fa-6950-4311-87ca-e1ecd9280a43
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725213(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969661
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8b3d0cec7e5bd127f5b69eba6956fc3c653cfa51
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0c3b2d98846e537a9a416eaabaf6b02627c7273f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850366"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746030"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

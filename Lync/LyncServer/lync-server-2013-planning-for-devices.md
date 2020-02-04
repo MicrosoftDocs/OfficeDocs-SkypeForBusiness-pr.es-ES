@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planificación de dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for devices
 ms:assetid: 76f7f6a2-52dd-411d-a6ec-5ed5b6124f3e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398583(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184545
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0c7a9b7b2c9ac7cdc8736ae9215682d2d7306079
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 632c76e04c58abd5458de78d17c4a8f6bb079e6d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824858"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754140"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

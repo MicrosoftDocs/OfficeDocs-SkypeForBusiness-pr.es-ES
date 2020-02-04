@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla Phones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Phones table
 ms:assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425923(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183996
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 920454a5db71c1e6f3cd2ea2ae1134d149b4f297
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cddf5eac7cc85852f4a7f61f4b746091158257e2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825180"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen DNS - Director único'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Single Director
 ms:assetid: 790ecb56-92cd-41f4-baf6-c290a707aa4d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205021(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184568
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ca7fea825267dcdc5aa03a2e6c3c9fb3fc26a84b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 71fb3052de36a92afb4ed9076820f7fcb2b54997
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835340"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757584"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

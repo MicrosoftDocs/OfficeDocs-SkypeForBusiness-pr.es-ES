@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Plan para certificados de servidores perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Plan for Edge Server certificates
 ms:assetid: f1dfe220-2398-4ac8-ba4c-206c8c0cbc50
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185798
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 737e0845b4b9966accd8c450b8a300b4f1bb128e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: faad6dba610df8033b75b0c87c52fbb065dc5dcb
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825159"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755180"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ La creación de certificados para Edge se ha simplificado en Lync Server 2013.
 
 **Diagrama de flujo de certificados para el servidor perimetral**
 
-![a5fc20db-7ced-4364-b577-6a709a8367cd] (images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
+![a5fc20db-7ced-4364-b577-6a709a8367cd](images/Gg413010.a5fc20db-7ced-4364-b577-6a709a8367cd(OCS.15).jpg "a5fc20db-7ced-4364-b577-6a709a8367cd")
 
 Cree un único certificado público, asegúrese de que tiene una clave privada exportable definida para el certificado y asígnela a las siguientes interfaces externas de servidor perimetral con el Asistente para certificados:
 
@@ -89,7 +91,7 @@ Crear un único certificado interno con una clave privada exportable, cópielo y
 
 
 > [!IMPORTANT]  
-> Es posible usar certificados diferentes y diferentes para cada servicio de servidor perimetral. Una buena razón para elegir certificados independientes es si desea usar la nueva característica de certificados sucesivos para el certificado de servicio perimetral A/V. En el caso de esta característica, se recomienda disociar el certificado de servicio perimetral A/V del servicio perimetral de acceso y el servicio perimetral de conferencia Web. Si elige solicitar, adquirir y asignar certificados independientes para cada servicio, debe solicitar que se pueda exportar la clave privada para el servicio perimetral A/V (nuevamente, esto es en realidad el servicio de autenticación A/V) y asignar el mismo certificado a la A/V Interfaz externa de Edge en cada servidor perimetral.
+> Es posible usar certificados diferentes y diferentes para cada servicio de servidor perimetral. Una buena razón para elegir certificados independientes es si desea usar la nueva característica de certificados sucesivos para el certificado de servicio perimetral A/V. En el caso de esta característica, se recomienda disociar el certificado de servicio perimetral A/V del servicio perimetral de acceso y el servicio perimetral de conferencia Web. Si elige solicitar, adquirir y asignar certificados independientes para cada servicio, debe solicitar que la clave privada sea exportable para el servicio perimetral de A/V (de nuevo, esto es en realidad el servicio de autenticación A/V) y asignar el mismo certificado a la interfaz externa perimetral de A/V en cada servidor perimetral.
 
 
 

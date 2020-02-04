@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementación de dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying devices
 ms:assetid: 37f48fe8-e385-4279-b512-5f78a200b361
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425854(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183889
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cc69ed64cabaf8791d046c3a838985d3cf880337
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0cc72daeeac3f4bd15c47eb3b9bfa27e4e1c7362
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835556"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

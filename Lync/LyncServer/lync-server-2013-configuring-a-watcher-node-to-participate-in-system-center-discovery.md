@@ -3,6 +3,8 @@ title: Configurar un nodo de monitor para que participe en la detección de Syst
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring a watcher node to participate in System Center discovery
 ms:assetid: 15c5dcfd-603b-47ea-af1b-8714c2ec08af
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204704(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183500
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66be6bd0336471626f2ca4e41a89c3a45b073f05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9ca3724f9b5bc8200e2ca006d9fa7445d7368ab7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842296"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763494"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

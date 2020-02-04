@@ -3,6 +3,8 @@ title: 'Lync Server 2013: TLS y MTLS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: TLS and MTLS for Lync Server 2013
 ms:assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481133(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 066612f08c61ad1df342b4f2dd9b61ff5a5cc286
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 06938cfb6c37a84de5256feb6e4b370eb36f3702
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850308"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745260"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ En la siguiente ilustración se muestra en un nivel superior cómo Lync Server 2
 
 **Conexiones de confianza en una red de Lync Server**
 
-![437749da-c372-4f0d-AC72-ccfd5191696b] (images/Dn481133.437749da-c372-4f0d-ac72-ccfd5191696b(OCS.15).jpg "437749da-c372-4f0d-AC72-ccfd5191696b")
+![437749da-c372-4f0d-ac72-ccfd5191696b](images/Dn481133.437749da-c372-4f0d-ac72-ccfd5191696b(OCS.15).jpg "437749da-c372-4f0d-ac72-ccfd5191696b")
 
 </div>
 

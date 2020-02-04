@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topologías y componentes para movilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topologies and components for mobility
 ms:assetid: be3cae7a-095d-4785-91ba-6fac99eba92a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690037(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185282
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 537eda14f2587e06bd8a1112f2a6a44299b0b78e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 739deecf47e25e57ca0175c29a2721e509f8dbe2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745230"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -87,7 +89,7 @@ Los servicios que admiten la movilidad son los siguientes:
     
     </div>
 
-  - **Servicio Detección automática de Lync Server 2013**   este servicio identifica la ubicación del usuario y permite que los dispositivos móviles y otros clientes de Lync encuentren recursos, como las direcciones URL internas y externas para los servicios Web de Lync Server 2013 y la dirección URL de la MCX o UCWA, independientemente de la ubicación de red. El descubrimiento automático usa nombres de host codificados (lyncdiscoverinternal para los usuarios de la red; lyncdiscover para usuarios ajenos a la red) y el dominio SIP del usuario. Admite conexiones de cliente con HTTP o HTTPS.
+  - **Servicio Detección automática de Lync Server 2013**   este servicio identifica la ubicación del usuario y permite que los dispositivos móviles y otros clientes de Lync encuentren recursos, como las direcciones URL internas y externas para los servicios Web de Lync Server 2013 y la dirección URL de MCX o UCWA, independientemente de la ubicación de red. El descubrimiento automático usa nombres de host codificados (lyncdiscoverinternal para los usuarios de la red; lyncdiscover para usuarios ajenos a la red) y el dominio SIP del usuario. Admite conexiones de cliente con HTTP o HTTPS.
     
     El servicio de detección automática se instala en todos los servidores front-end y en cada director de cada grupo que sea compatible con la funcionalidad de Lync en dispositivos móviles. Al instalar el servicio Detección automática, se crea un nuevo directorio virtual (detección automática) en el sitio Web interno y en el sitio web externo, tanto en servidores de aplicaciones para el usuario como en directores.
     
@@ -106,11 +108,11 @@ Los servicios que admiten la movilidad son los siguientes:
 
 En el siguiente diagrama se muestra cómo el servicio de notificaciones de inserción encaja en una topología de Lync Server 2013 que usa UCWA y clientes móviles de Lync 2013.
 
-![166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae] (images/Hh690037.166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae(OCS.15).jpg "166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae")
+![166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae](images/Hh690037.166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae(OCS.15).jpg "166d60fd-ff71-4ffe-9f66-3c8bbde0b5ae")
 
 Introducido en la actualización acumulativa para Lync Server 2010:2011 de noviembre, el servicio MCX ofrece servicios a clientes móviles de Lync 2010. En el siguiente diagrama se muestra el servicio de notificaciones push tal y como se aplica a una topología mediante MCX y clientes móviles de Lync 2010.
 
-![3081634e-60e7-4348-b24e-bbbf05a90f5f] (images/Hh690037.3081634e-60e7-4348-b24e-bbbf05a90f5f(OCS.15).jpg "3081634e-60e7-4348-b24e-bbbf05a90f5f")
+![3081634e-60e7-4348-b24e-bbbf05a90f5f](images/Hh690037.3081634e-60e7-4348-b24e-bbbf05a90f5f(OCS.15).jpg "3081634e-60e7-4348-b24e-bbbf05a90f5f")
 
 </div>
 
@@ -132,7 +134,7 @@ Una implementación de Lync Server 2013 sin las actualizaciones acumulativas par
 
 
 > [!IMPORTANT]  
-> El servicio de movilidad es compatible con los servidores front-end que se colocan con la función de servidor de mediación con dos interfaces de red, pero debe seguir los pasos adecuados para configurar las interfaces. Debe asignar las direcciones IP a la interfaz específica que se comunicará como el servidor de mediación y la IP de la interfaz de red que se comunicará como servidor front-end. Puede hacerlo en el generador de topología seleccionando la dirección IP correcta para cada servicio, en lugar de <STRONG>usar las direcciones IP</STRONG>configuradas de forma predeterminada.
+> El servicio de movilidad es compatible con los servidores front-end que se colocan con la función de servidor de mediación con dos interfaces de red, pero debe seguir los pasos adecuados para configurar las interfaces. Debe asignar las direcciones IP a la interfaz específica que se comunicará como el servidor de mediación y la IP de la interfaz de red que se comunicará como servidor front-end. Puede hacerlo en el generador de topología seleccionando la dirección IP correcta para cada servicio, en lugar de <STRONG>usar las direcciones IP configuradas</STRONG>de forma predeterminada.
 
 
 

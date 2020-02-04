@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de clientes para su uso con Office Web 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring clients for use with Office Web Apps Server
 ms:assetid: e5eaead7-0b32-42fb-97eb-ca203af59a9d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205339(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185668
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 263f53b61aa609c4385af2a9646bf84da2dea3cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fb4b9b881d0f7d469c924a0ba032071092bddbbc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842273"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758318"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

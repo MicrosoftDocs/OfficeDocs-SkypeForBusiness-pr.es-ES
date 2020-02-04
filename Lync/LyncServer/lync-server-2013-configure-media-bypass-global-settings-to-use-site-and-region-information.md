@@ -3,6 +3,8 @@ title: Configurar las opciones globales del desvío de medios para usar informac
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure media bypass global settings to use site and region information
 ms:assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398150(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cd070e6380a896548b851ac7d3472cd86eeba75b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac820c444f894aabf060c06d6f034f7d92b696c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842359"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757754"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ _**Última modificación del tema:** 2012-09-21_
 
 
 > [!NOTE]
-> En este tema se supone que ya ha configurado la omisión de medios para las conexiones troncales desde el servidor de mediación a un interlocutor (una puerta de enlace de red de telefonía pública conmutada (RTC), una IP-PBX o un controlador de borde de sesión (SBC) en un servicio de telefonía por Internet Proveedor (ITSP) para un sitio o servicio específico para el cual quiere que los medios omitan el servidor de mediación.<BR>En este tema también se presupone que ha definido todos los sitios centrales y los sitios de sucursales en el generador de topologías de forma que coincidan con la región de red, el sitio de red y la configuración de subred que haya realizado según los pasos de <A href="lync-server-2013-create-or-modify-a-network-region.md">crear o modificar una región de red en Lync Server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">crear o modificar un sitio de red en lync Server 2013</A>y <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">asociar una subred con un sitio de red en Lync Server 2013</A>. Si no coinciden, la omisión de elementos multimedia no se realizará correctamente.
+> En este tema se supone que ya ha configurado la omisión de medios para las conexiones troncales desde el servidor de mediación a un interlocutor (una puerta de enlace de red de telefonía pública conmutada (RTC), una IP-PBX o un controlador de borde de sesión (SBC) en un servicio de telefonía por Internet Proveedor (ITSP) para un sitio o servicio específico para el cual quiere que los medios omitan el servidor de mediación.<BR>En este tema también se da por sentado que ha definido todos los sitios centrales y sucursales en el generador de topologías de forma que coincidan con la región de red, el sitio de red y la configuración de subred que ha realizado según los pasos de <A href="lync-server-2013-create-or-modify-a-network-region.md">crear o modificar una región de red en Lync server 2013</A>, <A href="lync-server-2013-create-or-modify-a-network-site.md">crear o modificar un sitio de red en Lync Server 2013</A>y <A href="lync-server-2013-associate-a-subnet-with-a-network-site.md">asociar una 2013 subred</A> Si no coinciden, la omisión de elementos multimedia no se realizará correctamente.
 
 
 

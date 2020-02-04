@@ -3,6 +3,8 @@ title: 'Lync Server 2013: enfrentar las amenazas a su infraestructura básica'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Addressing threats to your core infrastructure for Lync Server 2013
 ms:assetid: bf90ecc3-f9ea-45db-93e2-9aecec06f0d8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518334(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 60918604
 ms.date: 08/01/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d653fef54e2ab994625a991b32adb89119b5c6f0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1ca8675fea59c34ba5bf40269387e328f357fe88
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842919"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

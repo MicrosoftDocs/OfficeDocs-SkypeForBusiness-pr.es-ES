@@ -3,6 +3,8 @@ title: 'Lync Server 2013: compatibilidad con el software de cliente de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync client software support
 ms:assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412781(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184994
 ms.date: 02/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9d11037f6a70d99b5e49958e72c1847912f1fff3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6c17f30b05141e9b47ce09685ff18cd166c195f8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834932"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765521"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

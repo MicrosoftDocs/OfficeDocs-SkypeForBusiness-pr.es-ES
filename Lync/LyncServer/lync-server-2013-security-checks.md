@@ -3,6 +3,8 @@ title: 'Lync Server 2013: comprobaciones de seguridad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Security checks
 ms:assetid: 053c099f-a078-4121-bfe0-3fe5ef110b79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725205(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969572
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4a89e0e0e13c91e2a7737589fbd542455537718
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 03b9b966aaea9c74b0fbd9c0306aa559fd981419
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821862"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764918"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

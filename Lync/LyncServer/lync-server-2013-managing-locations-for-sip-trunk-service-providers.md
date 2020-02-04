@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de ubicaciones para proveedores de ser
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing locations for SIP trunk service providers
 ms:assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398959(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185548
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eba237ae4e984169a354339ce0222dfd58f324c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e9ebc471459c8e406914f5a075d7e4cf8b69fadd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828008"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

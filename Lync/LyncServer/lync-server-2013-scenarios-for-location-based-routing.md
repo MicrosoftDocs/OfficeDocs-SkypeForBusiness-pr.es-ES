@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Escenarios para el enrutamiento basado en ubicación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for Location-Based Routing
 ms:assetid: a5e9355a-a64b-46fe-a1ff-25550b46cc35
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994064(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803975
 ms.date: 08/11/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a8ef0e8941dae57c1e9b53d767d7dd0b9d5578de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bf44e24df2333a8af114b3508ea8a224028b6b6d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822205"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

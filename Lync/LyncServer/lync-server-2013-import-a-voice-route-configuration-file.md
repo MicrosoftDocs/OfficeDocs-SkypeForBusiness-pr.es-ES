@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Importar un archivo de configuración de enrutamiento 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Import a voice route configuration file
 ms:assetid: 4bac05e5-ed8b-4f10-96b0-b8a65ff356ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398301(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184049
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91f0d523cad59ee965fa90bdf6907ea030cc8a3b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2f00b1eb3406c1a3d425727820da8686f96f1dae
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835029"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763864"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

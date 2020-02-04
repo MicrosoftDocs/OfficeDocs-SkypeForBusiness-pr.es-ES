@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de certificado para el acceso de usuarios e
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate requirements for external user access
 ms:assetid: d45b6b10-556f-4b10-b1a7-fb0d0a64a498
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185503
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e7e7a0802cee8b91e18eaf50e5c2c3942ca54308
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a1b6495dbad5350f94873099985922f1adc198f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842662"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736840"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -84,7 +86,7 @@ A continuación se indican los requisitos para el certificado público que se us
     
     </div>
 
-Si implementa varios servidores perimetrales con equilibrio de carga en un sitio, el certificado del servicio de autenticación A/V instalado en cada servidor perimetral debe ser de la misma CA y debe usar la misma clave privada. Tenga en cuenta que la clave privada del certificado debe ser exportable, independientemente de si se usa en un servidor perimetral o en muchos servidores perimetrales. También debe ser exportable si solicita el certificado desde cualquier equipo que no sea el servidor perimetral. Puesto que el servicio de autenticación A/V no usa el nombre de asunto ni el nombre alternativo de asunto, puede volver a usar el certificado perimetral de acceso siempre que se cumplan los requisitos de nombre de asunto y nombre alternativo del sujeto para el límite de acceso y el borde de conferencia Web y la clave privada del certificado es exportable.
+Si implementa varios servidores perimetrales con equilibrio de carga en un sitio, el certificado del servicio de autenticación A/V instalado en cada servidor perimetral debe ser de la misma CA y debe usar la misma clave privada. Tenga en cuenta que la clave privada del certificado debe ser exportable, independientemente de si se usa en un servidor perimetral o en muchos servidores perimetrales. También debe ser exportable si solicita el certificado desde cualquier equipo que no sea el servidor perimetral. Puesto que el servicio de autenticación A/V no usa el nombre de asunto o el nombre alternativo de asunto, puede reutilizar el certificado perimetral de acceso siempre que se cumplan los requisitos de nombre de asunto y nombre alternativo del asunto para el límite de acceso y la clave privada del certificado, y la clave privada del certificado se puede exportar.
 
 Los requisitos para el certificado privado (o público) que se usa para la interfaz interna de Edge son los siguientes:
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: visualización de la información de Perfil de la Dire
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network bandwidth policy profile information
 ms:assetid: eed453fc-04e9-4971-959c-6fad54bf1c96
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721931(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733866
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 513bd20e9a1ecd40f061c4873e7da8bff4738f36
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c497ad849135e5bdfea4a3f001e86e65c269dca8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850087"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757314"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

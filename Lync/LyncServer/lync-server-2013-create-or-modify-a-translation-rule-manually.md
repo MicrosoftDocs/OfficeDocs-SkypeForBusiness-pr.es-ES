@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar una regla de traducción de forma ma
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a translation rule manually
 ms:assetid: 049d1db3-af58-48c5-be89-52e1d068a4bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398099(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183276
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 445b17b5a878e066ed0a77c725ae035101d57469
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 372b394619a83ec01ca7a36bac4037c815f09fc1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835781"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757894"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

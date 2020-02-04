@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Agregar una aplicación de sucursal con funciones de s
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add a Survivable Branch Appliance to Active Directory
 ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425906(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183938
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4dc057318a0d241a28b8529802ea9f2016a1f5b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8712dcb5b68522a8b770aac63c5a37a1a70a669a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842956"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

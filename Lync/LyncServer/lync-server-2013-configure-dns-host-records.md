@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar registros de host DNS'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS Host records
 ms:assetid: 78a1afcf-41c8-4da5-8740-c6570c19078c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398593(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184577
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ac3bb3c771d99e56e0c584675d77a92d95fdd757
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b74da23cb0139a982a30207b61032f043f795b76
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842386"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755984"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

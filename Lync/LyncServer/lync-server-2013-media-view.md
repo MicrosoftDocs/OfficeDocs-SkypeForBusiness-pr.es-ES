@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista multimedia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Media view
 ms:assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687981(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733570
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1ec4b80cc790068029a286a54d26a59a35fc125
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6ad833bc84d488221d46822686077cfde2cda0ff
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827301"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765098"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

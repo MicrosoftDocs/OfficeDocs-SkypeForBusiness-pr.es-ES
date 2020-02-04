@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla Roles'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Roles table
 ms:assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399043(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 12ed7ed4a6f152ce103e3e100bf14918cf945345
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 251b266d18be3b472f4a22a635d134f6fe3dc77e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822310"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732970"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

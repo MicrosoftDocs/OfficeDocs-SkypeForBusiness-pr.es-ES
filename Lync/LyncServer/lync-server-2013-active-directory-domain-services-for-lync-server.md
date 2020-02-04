@@ -3,6 +3,8 @@ title: 'Lync Server 2013: servicios de dominio de Active Directory para Lync Ser
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Active Directory Domain Services for Lync Server 2013
 ms:assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893871
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b9a7dd0a5d5c6d8323abab3a8abfbc5f1025379e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4ac4b4da954fd792559d2160ce457aec91cb0ac6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842963"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730500"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34842963"
 
 _**Última modificación del tema:** 2013-11-13_
 
-Los servicios de dominio de Active Directory funcionan como el servicio de directorio para Windows Server 2003, Windows Server 2008, Windows Server 2012 y redes Windows Server 2012 R2. Los servicios de dominio de Active Directory también sirven como la base en la que se creó la infraestructura de seguridad 2013 de Microsoft Lync Server. El propósito de esta sección es describir cómo Lync Server 2013 usa los servicios de dominio de Active Directory para crear un entorno digno de confianza para mensajería instantánea, conferencias web, multimedia y voz. Para obtener más información sobre las extensiones de Lync Server a los servicios de dominio de Active Directory y sobre cómo preparar el entorno para los servicios de dominio de Active Directory, vea [preparar los servicios de dominio de Active Directory para Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) en la implementación. documentación. Para obtener más información sobre el rol de los servicios de dominio de Active Directory en las redes de Windows Server, consulte la documentación de la versión del sistema operativo que está usando.
+Los servicios de dominio de Active Directory funcionan como el servicio de directorio para Windows Server 2003, Windows Server 2008, Windows Server 2012 y redes Windows Server 2012 R2. Los servicios de dominio de Active Directory también sirven como la base en la que se creó la infraestructura de seguridad 2013 de Microsoft Lync Server. El propósito de esta sección es describir cómo Lync Server 2013 usa los servicios de dominio de Active Directory para crear un entorno digno de confianza para mensajería instantánea, conferencias web, multimedia y voz. Para obtener más información sobre las extensiones de Lync Server a los servicios de dominio de Active Directory y sobre cómo preparar el entorno para los servicios de dominio de Active Directory, vea [preparar los servicios de dominio de Active Directory para Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) en la documentación de implementación. Para obtener más información sobre el rol de los servicios de dominio de Active Directory en las redes de Windows Server, consulte la documentación de la versión del sistema operativo que está usando.
 
 Lync Server 2013 usa los servicios de dominio de Active Directory para almacenar:
 
@@ -99,7 +101,7 @@ Durante la preparación del bosque, Lync Server 2013 crea varios grupos universa
 
   - **Grupos de infraestructura**. Estos grupos proporcionan permiso para acceder a áreas específicas de la infraestructura de Lync Server. Funcionan como componentes de los grupos administrativos y no deben modificarse ni se deben agregar directamente usuarios a esos grupos. Durante la preparación del bosque, se añaden grupos de servicio y administración específicos a los grupos de infraestructura correspondientes.
 
-Para obtener información sobre los grupos universales específicos que se han creado al preparar AD para Lync Server, así como los grupos de servicio y administración que se agregan a los grupos de infraestructura, consulte [cambios realizados por la preparación del bosque en Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) en el Documentación de implementación.
+Para obtener información sobre los grupos universales específicos que se han creado al preparar AD para Lync Server, así como los grupos de servicio y administración que se agregan a los grupos de infraestructura, consulte [cambios realizados por la preparación del bosque en Lync Server 2013](lync-server-2013-changes-made-by-forest-preparation.md) en la documentación de implementación.
 
 <div>
 
@@ -129,7 +131,7 @@ La preparación del bosque crea ACE privadas y públicas, y añade ACE en los gr
 
 El paso de preparación del dominio agrega las entradas de control de acceso (ACE) necesarias a los grupos universales que conceden permisos para hospedar y administrar los usuarios dentro del dominio. La preparación del dominio crea entradas ACE en la raíz del dominio y tres contenedores integrados: usuarios, equipos y controladores de dominio.
 
-Para obtener detalles sobre las ACE públicas creadas y agregadas por la preparación del bosque y la preparación del dominio, consulte [los cambios realizados por la preparación del bosque en Lync server 2013](lync-server-2013-changes-made-by-forest-preparation.md) y [los cambios realizados por la preparación del dominio en Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md) en la implementación documentación.
+Para obtener detalles sobre las ACE públicas creadas y agregadas por la preparación del bosque y la preparación del dominio, vea [los cambios realizados por la preparación del bosque en Lync server 2013](lync-server-2013-changes-made-by-forest-preparation.md) y [los cambios realizados por la preparación del dominio en Lync Server 2013](lync-server-2013-changes-made-by-domain-preparation.md) en la documentación de implementación.
 
 Las organizaciones suelen bloquear los servicios de dominio de Active Directory (AD DS) para ayudar a mitigar los riesgos de seguridad. Sin embargo, un entorno de Active Directory bloqueado puede limitar los permisos que necesita Lync Server 2013. Puede incluir la eliminación de ACE de contenedores y unidades organizativas y la deshabilitación de la herencia de permisos en los objetos User, Contact, InetOrgPerson o Computer. En un entorno de Active Directory bloqueado, los permisos deben establecerse manualmente en contenedores y unidades organizativas que los requieran. Para obtener más información, vea [preparar servicios de dominio de Active Directory bloqueados en Lync Server 2013](lync-server-2013-preparing-a-locked-down-active-directory-domain-services.md) en la documentación de implementación.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: usar el panel de supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Monitoring Dashboard
 ms:assetid: e00e5783-116f-481f-ad17-3af847d6769a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721905(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733839
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 50c5a435baf9ef6b2ef24e235270326507b68789
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 929d0fbc650a7b067d86738e5ded176a15c511f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850161"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743880"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Sitios de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Sites
 ms:assetid: 022cb6dd-37e2-4882-a53e-5ddfdbc6f53a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398076(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183233
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e1843ac4256e71723abf59fa272155ced2010e72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f2e5dc3323ad14f02a5b24258878512707f66f19
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850607"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764476"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Cada sitio de la sucursal contiene una de las siguientes opciones:
 
   - Un *servidor de sucursal (SBS) con supervivencia*, que es un servidor que ejecuta Windows Server y que cumple con los requisitos de hardware especificados y que tiene instalado el software de servidor de mediación y registrador de Lync Server. Debe conectarse a una puerta de enlace PSTN o a un tronco SIP a un proveedor de servicios telefónicos. El servidor de sucursal con la supervivencia está diseñado para sucursales con usuarios de 1000 y 5000.
 
-  - Una puerta de enlace RTC y, opcionalmente, un *servidor*de mediación. Para obtener más información sobre este y otros roles de servidor, vea [roles de servidor en Lync server 2013](lync-server-2013-server-roles.md).
+  - Una puerta de enlace RTC y, opcionalmente, un *servidor de mediación*. Para obtener más información sobre este y otros roles de servidor, vea [roles de servidor en Lync server 2013](lync-server-2013-server-roles.md).
 
 Una sucursal con un vínculo de red de área extensa (WAN) resistente a un sitio central puede usar la tercera opción: una puerta de enlace RTC y, opcionalmente, un servidor de mediación. Los sitios de sucursales con vínculos menos resistentes deben usar un equipo de sucursal o un servidor de sucursal que sea reviviente y que ofrezcan resiliencia en momentos de errores de red de área extensa. Por ejemplo, en un sitio con una sucursal o un servidor de sucursal superviviente implementado, los usuarios pueden seguir realizando y recibiendo llamadas de voz empresariales si la WAN que conecta el sitio de la sucursal con el sitio central está desactivada. Para más información sobre la aplicación de sucursales con capacidad de supervivencia, servidor de sucursal y resistencia, consulte [planificación de la resistencia de voz empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) en la documentación de planificación.
 

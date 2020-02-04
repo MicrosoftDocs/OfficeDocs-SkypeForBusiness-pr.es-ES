@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar plataformas del sistema'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up system platforms
 ms:assetid: 2e72e49d-2737-4b5b-8c0a-60f6ecb15bf1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204783(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183756
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 317bfe0efed0417d49cc59dc8f6e7ad3bcca7d7a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6bb714cf9da27e968a4e02e8d822ab8e597f654d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821911"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732228"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

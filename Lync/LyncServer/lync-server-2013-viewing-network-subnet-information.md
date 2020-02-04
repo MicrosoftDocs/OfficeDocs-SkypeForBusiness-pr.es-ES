@@ -3,6 +3,8 @@ title: 'Lync Server 2013: visualización de la información de subred de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network subnet information
 ms:assetid: 46f165f2-efe3-4cc1-9fee-a78b7f2ed41e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688044(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733636
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a157746e40de8f4793fab24e7e91121779d7602e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8609c2254084a1693f909692349176928d28ec92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850063"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757254"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

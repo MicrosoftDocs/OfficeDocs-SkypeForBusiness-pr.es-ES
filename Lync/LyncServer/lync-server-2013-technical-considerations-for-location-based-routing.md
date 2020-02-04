@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Consideraciones técnicas para el enrutamiento basado 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical considerations for Location-Based Routing
 ms:assetid: 2e2a9199-7c6f-48d3-9adb-3873fc4f8c4e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994027(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803936
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 29187cf1a5cf99ae5312f655c924565f6a38a706
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 978590484cbb6bd3c23fac26422c186847662e49
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850467"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Información general de conferencia de Lync Server 2013 A/V
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: A/V conferencing overview
 ms:assetid: 9583de87-4618-4a99-a47a-45e8cc4cc221
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619186(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733747
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d477a8423e7e5ee57e54d0bde584edeb02db4608
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 405d44f9128ef4c8120a6a8389f8d566b6880b2a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842981"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: problemas con la topología de la prueba'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Issues with the topology test
 ms:assetid: 821e8916-7b5d-4f64-8fb0-e5cc392ec1bb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205045(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184670
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d416aac6460870ab14d5296bcc6c7944ecf699e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0492f53692230bf02b3b66d91ba7fdf14b01c23
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834954"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765448"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -59,7 +61,7 @@ Cuando realice cambios en su topología, los cambios solo se aplicarán cuando s
 
 Al publicar los cambios, la nueva información (por ejemplo, un nuevo sitio o una nueva función de servidor) se escribe en el almacén de administración central. Sin embargo, estos nuevos objetos (o los recién modificados) no se unen inmediatamente a su topología. Los objetos se unen a su topología solo cuando habilita la topología actualizada. Si selecciona la opción de publicación en el generador de topología, se realizan ambos pasos: los cambios se publican (es decir, se escriben en el almacén de administración central) y, a continuación, se habilita la nueva topología.
 
-De forma predeterminada, los miembros del grupo RTCUniversalServerAdmins tienen autorización para ejecutar el cmdlet **Publish-CsTopology** y el cmdlet enable **-CsTopology** . Sin embargo, si los permisos de configuración no se han delegado, debe haber iniciado sesión como administrador de dominio para poder ejecutar **Publish-CsTopology**. Para otorgar a RTCUniversalServerAdmins el derecho de usar el cmdlet **Publish-CsTopology** , debe ejecutar el cmdlet **Grant-CsSetupPermission** en todos los contenedores de Active Directory que contienen los equipos que ejecutan los servicios de Lync Server. Para otorgar a RTCUniversalServerAdmins el derecho de usar el cmdlet **enable-CsTopology** , debe ejecutar el cmdlet **set-CsSetupPermission** en todos los contenedores de los servicios de dominio de Active Directory que contengan equipos con los servicios de Lync Server. Tenga en cuenta que esto se aplica a habilitar y publicar una topología mediante el generador de topologías. Si no ha delegado permisos mediante **set-CsSetupPermission**, solo el administrador del dominio puede habilitar y publicar una topología a través de Topology Builder.
+De forma predeterminada, los miembros del grupo RTCUniversalServerAdmins tienen autorización para ejecutar el cmdlet **Publish-CsTopology** y el cmdlet **enable-CsTopology** . Sin embargo, si los permisos de configuración no se han delegado, debe haber iniciado sesión como administrador de dominio para poder ejecutar **Publish-CsTopology**. Para otorgar a RTCUniversalServerAdmins el derecho de usar el cmdlet **Publish-CsTopology** , debe ejecutar el cmdlet **Grant-CsSetupPermission** en todos los contenedores de Active Directory que contienen los equipos que ejecutan los servicios de Lync Server. Para otorgar a RTCUniversalServerAdmins el derecho de usar el cmdlet **enable-CsTopology** , debe ejecutar el cmdlet **set-CsSetupPermission** en todos los contenedores de los servicios de dominio de Active Directory que contengan equipos con los servicios de Lync Server. Tenga en cuenta que esto se aplica a habilitar y publicar una topología mediante el generador de topologías. Si no ha delegado permisos mediante **set-CsSetupPermission**, solo el administrador del dominio puede habilitar y publicar una topología a través de Topology Builder.
 
 </div>
 

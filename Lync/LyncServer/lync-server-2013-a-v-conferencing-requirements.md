@@ -3,6 +3,8 @@ title: Requisitos de conferencia A/V de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: A/V conferencing requirements
 ms:assetid: fb8c282b-059a-455c-92e5-819d75739142
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619193(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733883
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 73fe77b87e3fd5fe3ef72554c3890cdff454ab08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6c9c9d9c272a0646395a907976056e460cf8fd84
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842976"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730492"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

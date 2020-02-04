@@ -3,6 +3,8 @@ title: 'Lync Server 2013: mover usuarios a Lync Online'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move users to Lync Online
 ms:assetid: 6a523c86-2eac-4fa4-973a-4406872c9a7d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204969(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184392
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6172c526816a3572d6c364b714d5d4e7e5323cac
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: da56c7230f35d2f900f51b53beef98c64d1e750a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991375"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756734"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

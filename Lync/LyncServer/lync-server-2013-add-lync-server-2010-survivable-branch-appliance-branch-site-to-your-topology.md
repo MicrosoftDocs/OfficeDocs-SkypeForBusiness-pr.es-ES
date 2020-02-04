@@ -3,6 +3,8 @@ title: Agregar un sitio de sucursal de aplicación de sucursal con función de s
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Add Lync Server 2010 Survivable Branch Appliance branch site to your topology
 ms:assetid: 2920d66e-6e1f-4f7f-89d8-510f004ac4c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688004(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733592
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1ec9cb57776cd5197e8d8a49810384534a816b50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 64f359a97f6c4bc76d5e0d6f475a037ab53afb91
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842948"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735040"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

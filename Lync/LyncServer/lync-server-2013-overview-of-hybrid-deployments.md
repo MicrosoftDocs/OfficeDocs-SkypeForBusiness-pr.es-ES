@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Información general sobre las implementaciones híbri
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of hybrid deployments
 ms:assetid: f6610f2f-c804-4f36-81fc-7aa3297bb4a2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205386(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185845
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1a04adde388475a318bb0338bf7d3437395e1b6b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e7acc66fa3393785497160cd327b1918c27d85b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825460"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755544"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

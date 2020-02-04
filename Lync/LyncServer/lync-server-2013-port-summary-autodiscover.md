@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen de puertos-detección automática'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Port summary - Autodiscover
 ms:assetid: 8bd16363-5e18-4e4b-be99-b3e6457b4c99
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945642(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541497
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7a40d86799b4922a819642aedf2461f038330593
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 945e3ed9d532f27676e250c29ab415646bd967ec
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824081"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

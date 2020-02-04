@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes que usa el estacionamiento de llamadas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components used by Call Park
 ms:assetid: c7ffbee3-0ce1-48c0-bb56-af098b41d6d6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398824(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185374
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 64f74161230504ee3f24ed19780e0a62ad4e7d08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae458d7ef3245e366e4f2bdd61f192401909213b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842507"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757084"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

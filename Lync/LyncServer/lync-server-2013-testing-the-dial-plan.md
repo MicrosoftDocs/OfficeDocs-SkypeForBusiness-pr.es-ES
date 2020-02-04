@@ -3,6 +3,8 @@ title: 'Lync Server 2013: prueba del plan de marcado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing the dial plan
 ms:assetid: 70eec03c-aca3-4106-86a7-77ae96b53779
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn690130(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969616
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2815248084e7591c11157cde3fb4851722315073
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8e0e39b88d7b6c90a55d236038d03cc4cc717319
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850330"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

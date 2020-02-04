@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración del sistema'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System administration
 ms:assetid: 063eb962-b96a-4699-8579-bb7125112df4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720318(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969577
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d62526daf43308b4ed38538e5ea16e15b271fc9a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8e10f0d340ec0d291d0b184b8649f8f132683e08
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850522"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764286"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -55,7 +57,7 @@ En el siguiente diagrama se muestra el proceso de solución de problemas del sis
 
 **Diagrama de flujo de solución de problemas del sistema**
 
-![Diagrama de flujo de solución de problemas del sistema] (images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "Diagrama de flujo de solución de problemas del sistema")
+![Diagrama de flujo de solución de problemas del sistema](images/Dn720318.869d0b89-6473-4b1f-9d90-59604b4b8e98(OCS.15).jpg "Diagrama de flujo de solución de problemas del sistema")
 
   - **Clasificar y priorizar**   esta tarea normalmente la realiza el servicio de asistencia al cliente. Por ejemplo, un problema puede estar agrupado como un problema de software o un problema de hardware. El problema se redirige al equipo de soporte técnico adecuado para que lo investigue. Las reglas para determinar la prioridad de un problema, junto con el tiempo para responder y el momento de la resolución, se definen normalmente en el SLA.
 
@@ -87,7 +89,7 @@ Los roles y las responsabilidades para realizar las tareas de administración de
 
   - **Modelo centralizado**   en un modelo centralizado, uno o varios grupos administrativos mantienen un control total de todo el entorno de Lync Server. Este modelo administrativo se asemeja a un centro de datos en el que todas las tareas de administración las realiza un único grupo de tecnología de la información. Las funciones y responsabilidades dentro del equipo deben definirse en función de la experiencia y la experiencia.
 
-  - **Modelo**   descentralizado las organizaciones descentralizadas se encuentran en varias ubicaciones geográficas y tienen servidores de Lync Server y equipos de administradores en diferentes ubicaciones. Por ejemplo, es posible que haya personal de administración local y uno o más servidores que ejecuten Lync Server 2013 para cada país o región. O bien, puede haber un grupo de servidores que ejecuten Lync Server 2013 y un equipo administrativo para Norteamérica y otro para Europa. En ocasiones, es posible que desee que los administradores sean responsables de su propio área geográfica y restringir los permisos para administrar los recursos de otras áreas.
+  - **Modelo descentralizado**   las organizaciones descentralizadas se encuentran en varias ubicaciones geográficas y tienen servidores de Lync Server y equipos de administradores en diferentes ubicaciones. Por ejemplo, es posible que haya personal de administración local y uno o más servidores que ejecuten Lync Server 2013 para cada país o región. O bien, puede haber un grupo de servidores que ejecuten Lync Server 2013 y un equipo administrativo para Norteamérica y otro para Europa. En ocasiones, es posible que desee que los administradores sean responsables de su propio área geográfica y restringir los permisos para administrar los recursos de otras áreas.
 
 Lync Server también le permite delegar tareas administrativas específicas a personas o grupos específicos mediante el control de acceso basado en roles (RBAC). RBAC permite que los administradores deleguen permisos y derechos de usuario específicos a otros administradores para realizar un subconjunto de las tareas administrativas posibles. Al usar RBAC, la capacidad del usuario para realizar tareas administrativas específicas depende de los roles RBAC que se asignan al usuario. RBAC proporciona una lista de cmdlets que el usuario puede ejecutar en función de los roles RBAC de los que es miembro el usuario.
 

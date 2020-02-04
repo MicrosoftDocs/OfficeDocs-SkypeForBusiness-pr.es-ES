@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Escenarios para el director'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scenarios for the Director
 ms:assetid: d2cf384a-0860-4779-80ce-cba2543be322
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398908(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185419
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: eba35647e8ecc0cfa59d5c7c6b5c32b07bedf95e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ac7c5a262f5323f28ff089766cab1f4d65e30757
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822156"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732623"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

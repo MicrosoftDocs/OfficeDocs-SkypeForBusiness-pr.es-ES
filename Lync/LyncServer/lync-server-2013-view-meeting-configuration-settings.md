@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver la configuración de la reunión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View meeting configuration settings
 ms:assetid: d03a4684-9d8b-4728-917d-5b5c91511e2c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721894(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4b3107045d62b244c7ee89dbb47228bc5dd72583
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5737fbba63915501bea80105ef3509511d8cb436
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850105"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765631"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

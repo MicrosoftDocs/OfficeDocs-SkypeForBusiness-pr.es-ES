@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Procedimiento de conmutación por error de ABC del gru
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Front End pool ABC failover procedure
 ms:assetid: 67763ad3-6796-45eb-a486-901f21ac1a95
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945635(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 87b6cb610d153374f6f4c9ba8a3c2798c50b88ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: edf3d12aa519ab7746ccec92998995ed463aa9be
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835149"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739780"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

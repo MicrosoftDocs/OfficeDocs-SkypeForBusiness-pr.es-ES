@@ -3,6 +3,8 @@ title: Migrar grupos de respuesta
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate response groups
 ms:assetid: 43741ae7-c871-4573-b660-f2f5febc0856
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204854(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184020
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 60a5bb2b2124b84adeb6a494f6f33ce867f7d416
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 23ef26b86b1de3fa7f9656cdb2ea82bb7a220948
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849974"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762908"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -95,7 +97,7 @@ Al migrar grupos de respuesta, los grupos de respuesta 2010 de Lync Server no se
 
 </div>
 
-Lync Server 2013 incorpora una nueva característica de grupo de respuesta denominada **tipo de flujo de trabajo**. El tipo de flujo **** de **trabajo** se puede administrar o **no administrar**. Todos los grupos de respuesta se migran con el **tipo de flujo de trabajo** establecido en **no administrado** y con una lista vacía de administrador.
+Lync Server 2013 incorpora una nueva característica de grupo de respuesta denominada **tipo de flujo de trabajo**. El **tipo de flujo de trabajo** se puede administrar o **no administrar**. **** Todos los grupos de respuesta se migran con el **tipo de flujo de trabajo** establecido en **no administrado** y con una lista vacía de administrador.
 
 Al ejecutar el cmdlet **Move-CsRgsConfiguration** , los grupos de agentes, las colas, los flujos de trabajo y los archivos de audio permanecen en el grupo heredado para fines de desinstalación. Sin embargo, si necesita volver al grupo heredado, debe ejecutar el cmdlet **Move-CsApplicationEndpoint** para mover los objetos de contacto de nuevo al grupo heredado.
 

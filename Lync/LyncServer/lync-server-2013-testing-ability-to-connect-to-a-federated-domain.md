@@ -3,6 +3,8 @@ title: 'Lync Server 2013: capacidad de probar la conexión a un dominio federado
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing ability to connect to a federated domain
 ms:assetid: d8ccfade-ef54-47a4-9f87-36213a635ce5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743840(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969653
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2176008e3e941068f61a2fb385fa6230df6b25dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f18a8c703b085fe559b3a979ac72d9c0b0dfe38f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850371"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

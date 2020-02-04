@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planeación del enrutamiento de voz saliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning outbound voice routing
 ms:assetid: 37c55fa4-175a-4190-b9e4-c2e5ac7b9261
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425853(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183835
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a5315b18e83b84980ff6d61e5385626e104a5e1e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d33fbe8d15b78bed9dd651cd7facf35a8249f64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824158"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

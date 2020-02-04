@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Conmutación por error para el grupo de servidores per
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing over the Edge pool used for XMPP federation
 ms:assetid: 587e7829-a26b-46f8-8aad-b78a7b325b55
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688065(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 551774c070ebafd25376d220b20acccc8c573af2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d1c76dc37ce1abb2d34c474d4144b0894d93a0f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835161"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765188"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: eliminar una cola de grupo de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete a Response Group queue
 ms:assetid: 67c7a489-8c5f-4c6b-9387-9d4c11d43695
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521008(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184356
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 14f713407756863e1976be536cf16e9557c93a56
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d78b1396d92b16be120484f5bf1b40ef2e47a81
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835642"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

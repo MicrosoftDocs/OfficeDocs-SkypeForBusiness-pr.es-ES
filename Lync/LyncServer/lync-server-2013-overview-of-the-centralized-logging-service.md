@@ -3,6 +3,8 @@ title: 'Lync Server 2013: información general sobre el servicio de registro cen
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Centralized Logging Service
 ms:assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688145(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733746
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 647e6b1e5797b3936dc1fef6023c85ce4baf68b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1460699b6516ab4e510c9715b2464ce442466faa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825446"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ El servicio de registro centralizado está diseñado para proporcionar un medio 
 
 **Comunicaciones de ClsController con ClsAgent**
 
-![Relación entre CLSController y CLSAgent.] (images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "Relación entre CLSController y CLSAgent.")
+![Relación entre CLSController y CLSAgent.](images/JJ688145.68c90811-5cf9-4a84-95b7-ea9ffc61eac4(OCS.15).jpg "Relación entre CLSController y CLSAgent.")
 
 Los comandos se emiten con la interfaz de línea de comandos de Windows Server o mediante el shell de administración de Lync Server. Los comandos se ejecutan en el equipo donde haya iniciado sesión y se envían a ClsAgent de forma local o a los demás equipos y grupos de la implementación.
 

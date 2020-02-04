@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos del sistema para servidores que ejecuten Ly
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System requirements for servers running Lync Server 2013
 ms:assetid: 781d487d-5958-416a-becb-904d9af3cc0a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398588(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184564
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 301cd234e2218fc806423a9ffe9beb49994402f2
-ms.sourcegitcommit: 208179a3dd166f53b5a3058242cb84207909f4ee
+ms.openlocfilehash: c6566202dbbfa112f884ac1bb8380d1d554ba994
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "41104499"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731610"
 ---
 # <a name="system-requirements-for-servers-running-lync-server-2013"></a>Requisitos del sistema para servidores que ejecuten Lync Server 2013
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topología de referencia para grandes organizaciones c
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for large organizations with multiple data centers
 ms:assetid: 9a6aeae6-629b-49e6-9804-7ef369d7c3dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398797(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2460378d19f8edb4e845778cacaf01c7141204c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56d9edde5ab097f3244919d6dd2c572b4a1dc112
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823836"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,19 +45,19 @@ Esta topología se muestra en varios diagramas con información general seguida 
 
 **Información general de la topología de referencia para organizaciones de gran tamaño con varios centros de datos**
 
-![Topología de referencia para varios centros de datos] (images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Topología de referencia para varios centros de datos")
+![Topología de referencia para varios centros de datos](images/Gg398797.471e1ce9-be11-44b9-9f4a-59e0551b7b30(OCS.15).jpg "Topología de referencia para varios centros de datos")
 
 **Topología de referencia para organizaciones de gran tamaño: Vista detallada del Sitio central A**
 
-![dab33f19-e77b-42da-9047-858fb9851264] (images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
+![dab33f19-e77b-42da-9047-858fb9851264](images/Gg398797.dab33f19-e77b-42da-9047-858fb9851264(OCS.15).jpg "dab33f19-e77b-42da-9047-858fb9851264")
 
 **Topología de referencia para organizaciones de gran tamaño: Vista detallada del Sitio central B**
 
-![5ccaf1d4-bd53-4cb7-96fe-723147334e7f] (images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
+![5ccaf1d4-bd53-4cb7-96fe-723147334e7f](images/Gg398797.5ccaf1d4-bd53-4cb7-96fe-723147334e7f(OCS.15).jpg "5ccaf1d4-bd53-4cb7-96fe-723147334e7f")
 
 **Topología de referencia para organizaciones de gran tamaño: Vista detallada del Sitio central C**
 
-![7238ca40-340c-491f-b497-ddc2665dadb6] (images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
+![7238ca40-340c-491f-b497-ddc2665dadb6](images/Gg398797.7238ca40-340c-491f-b497-ddc2665dadb6(OCS.15).jpg "7238ca40-340c-491f-b497-ddc2665dadb6")
 
   - **Los grupos de servidores front-end se emparejan para habilitar la recuperación ante desastres.**    Los grupos de aplicaciones para el usuario del sitio a y el sitio B están emparejados entre sí, para proporcionar compatibilidad con la recuperación ante desastres. Si se produce un error en el grupo de un sitio, el administrador puede migrar por error los usuarios de ese sitio a la agrupación front-end del otro sitio, con una interrupción mínima de servicio para los usuarios. Each of these two Front End pools has six servers, which is enough for all 40,000 users in both pools in case of failover. Para obtener más información, vea [planear la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 
@@ -67,7 +69,7 @@ Esta topología se muestra en varios diagramas con información general seguida 
     
     A pesar de que el sitio C se considera un sitio central, no es necesario implementar servidores perimetrales en él. En este ejemplo, el sitio C usará los servidores perimetrales implementados en el sitio A.
 
-  - **La supervisión**y el archivado de esta organización han implementado la supervisión y el archivado.    Si se implementa la supervisión o el archivado, se ejecutarán en todos los servidores front-end. Las bases de datos de estas características pueden combinarse con la base de datos back-end, o bien ubicarse en un servidor aparte. Esta organización ha ubicado dichas bases de datos en un servidor aparte de los servidores back-end, en el sitio central B. Las bases de datos de esta ubicación reciben datos de supervisión y archivado desde los servidores front-end de todos los sitios.
+  - **La supervisión y el archivado de**esta organización han implementado la supervisión y el archivado.    Si se implementa la supervisión o el archivado, se ejecutarán en todos los servidores front-end. Las bases de datos de estas características pueden combinarse con la base de datos back-end, o bien ubicarse en un servidor aparte. Esta organización ha ubicado dichas bases de datos en un servidor aparte de los servidores back-end, en el sitio central B. Las bases de datos de esta ubicación reciben datos de supervisión y archivado desde los servidores front-end de todos los sitios.
 
   - **Opciones de implementación de sitio de sucursal.**    En realidad, esta organización tiene más de 50 sitios de sucursales, solo tres de los cuales se muestran en los diagramas detallados. Los sitios de sucursales 1 y 3 no tienen un vínculo WAN resistente al sitio central, por lo que tienen equipos de sucursales reutilizables implementados para proporcionar servicio telefónico en caso de que se produzca un vínculo WAN al sitio central. El sitio de la sucursal 2 no obstante, tiene un vínculo WAN resistente, por lo que solo necesita una puerta de enlace de red telefónica conmutada (RTC). La puerta de enlace RTC implementada admite la omisión de medios, por lo que no es necesario un servidor de mediación en el sitio de sucursal B. Para más información sobre cómo decidir qué instalar en un sitio de sucursal, consulte [planificación de la resistencia de telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice-resiliency.md) en la documentación de planificación.
 

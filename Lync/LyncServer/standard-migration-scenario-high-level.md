@@ -3,6 +3,8 @@ title: Escenario de migración estándar - Alto nivel
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Standard migration scenario - high-level
 ms:assetid: e768a7ca-44e3-4969-a6d9-7ed3e7029c5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205354(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185709
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 69349b90c6845d8a3f3d5ed13544da4fe4832eb8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 68ff7110cc7e14ccc76ab7d0c0125e723477934a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849849"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741960"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

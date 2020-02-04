@@ -3,6 +3,8 @@ title: 'Lync Server 2013: clientes compatibles con la recogida de llamadas grupa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Group Call Pickup
 ms:assetid: f4d4975a-ba15-4be5-9078-7b3e0bf2d706
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945655(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541527
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: afb529c7a06d8325783c7f6217fdd4429cb17f40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b924741e6dc733f167368f88faa24e6d56b362e5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842544"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

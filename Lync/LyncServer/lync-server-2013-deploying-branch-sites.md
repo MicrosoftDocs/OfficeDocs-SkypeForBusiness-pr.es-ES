@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implementación de sitios de sucursales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying branch sites
 ms:assetid: 1475dee0-66ae-4ee5-b6f1-7409b4bbff45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398217(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183483
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c96a8c99b6f80e7e70f3129e502d33b93a73f42
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: facfda5d1d7ce67ea08f71cbfb943792eeced7a1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835560"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729510"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -49,7 +51,7 @@ Los usuarios de un sitio de sucursal obtienen la mayor parte de su funcionalidad
 
 Los sitios de sucursales con un equipo de sucursal o un servidor de sucursal con la supervivencia son más resistentes en las horas de la red de área amplia o errores de sitio central que las sucursales sin una de estas soluciones. Por ejemplo, en un sitio con una sucursal o un servidor de sucursal superviviente implementado, los usuarios pueden seguir realizando y recibiendo llamadas RTC si la red que conecta el sitio de la sucursal con el sitio central está desactivada. Otra forma de lograr la resistencia al sitio de la sucursal es usar una puerta de enlace PSTN o un tronco del SIP con una implementación de Lync Server de escala completa en el sitio de la sucursal.
 
-Para obtener detalles sobre qué implementación de sitio de sucursal es adecuada para su organización, incluidos los requisitos previos y otras consideraciones de planeación, consulte [planificación de la conectividad RTC en Lync Server 2013](lync-server-2013-planning-for-pstn-connectivity.md) y [planeamiento de resistencia de voz de sitio de sucursal en Lync. Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) en la documentación de planificación.
+Para obtener detalles sobre qué implementación de sitio de sucursal es adecuada para su organización, incluidos los requisitos previos y otras consideraciones de planeación, consulte [planificación de la conectividad RTC en Lync server 2013](lync-server-2013-planning-for-pstn-connectivity.md) y [planeamiento de resistencia de voz de sitio de sucursal en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md) en la documentación de planificación.
 
 <div>
 

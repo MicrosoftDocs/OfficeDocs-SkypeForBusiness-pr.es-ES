@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (Opcional) Dar la bienvenida a los usuarios de la conf
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Welcome users to dial-in conferencing
 ms:assetid: caa4fd61-f506-4c09-bb5b-1aa260d7a720
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398846(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: df3defde18a01ed09ac529ba9b289749f28c4cdd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27abf5da520f1c5befd3a477783bc3f9ae67e1b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825817"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755664"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

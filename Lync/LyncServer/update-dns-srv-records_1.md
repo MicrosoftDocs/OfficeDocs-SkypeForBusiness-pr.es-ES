@@ -3,6 +3,8 @@ title: Actualizar registros SRV de DNS
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Update DNS SRV records
 ms:assetid: a29149aa-30cc-4a59-af98-fb95c2385cce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688161(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733765
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 97ff3eed81a90960444b260bd0ca5b9c4c67022e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 927bdab6721583fd744f68969a852f29ba478027
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849841"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741930"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

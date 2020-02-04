@@ -3,6 +3,8 @@ title: 'Lync Server 2013: set-CsAddressBookConfiguration para la administración
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set-CsAddressBookConfiguration for Address Book management
 ms:assetid: 3a64ceb1-9f79-4f3b-bf33-eaf346dbd60d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429700(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183913
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edafd6b51da15b3302a9c3f454400325527fa631
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a45d5fb9e8ea6eb4b37c34c5347c37c6c9bfe940
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821939"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Apéndice A: Usar cmdlets para implementar una aplicac
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Appendix A: Using cmdlets to deploy a Survivable Branch Appliance'
 ms:assetid: 796a26cf-7ec9-453b-8757-6153a6dd86c5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398598(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184569
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c9541e6cb63cee91a6bfd1072695fb3ce09a0134
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4a2da84e03cc05607a47f1fe5af4a8b7987946df
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843034"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

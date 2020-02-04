@@ -3,6 +3,8 @@ title: 'Fase 6: mover usuarios a la agrupación piloto'
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: 'Phase 6: Move users to the pilot pool'
 ms:assetid: 676df4a5-2ef8-4f12-8b92-ce133d731fcc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204968(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184388
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4e39cbc2042fb46c68633cebc50898cb81a03ccb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 353f36d2ecb12823535e06fd137d7e9eaae06ae9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849895"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

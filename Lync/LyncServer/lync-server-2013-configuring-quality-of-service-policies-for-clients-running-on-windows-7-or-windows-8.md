@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de directivas de calidad de servicio pa
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Quality of Service policies for clients running on Windows 7 or Windows 8
 ms:assetid: efff2b98-b3fb-4183-a4f0-329a9105ce2c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205371(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185785
 ms.date: 03/29/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b36c16056ef378910dc0cd5c885dc7b5d896d860
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bc06f5079fc6876c85324af67bd22be12f85a3c9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842182"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763514"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -92,7 +94,7 @@ Para crear una directiva de audio de calidad de servicio para equipos con Window
 
 6.  En el cuadro de diálogo **QoS basado en directivas** , en la página de apertura, escriba un nombre para la nueva Directiva (por ejemplo, **audio de Lync**) en el cuadro **nombre** . Seleccione **especificar valor de DSCP** y establezca el valor en **46**. Deje la **tasa de límite saliente** desactivada y, a continuación, haga clic en **siguiente**.
 
-7.  En la página siguiente, asegúrese de que **todas las aplicaciones** está seleccionada y, a continuación, haga clic en **siguiente**. Esta configuración instruye a la red para que busque todos los paquetes con un marcado de DSCP de 46, no solo los paquetes creados por una aplicación específica.
+7. En la página siguiente, seleccione **solo las aplicaciones con este nombre de archivo ejecutable** , escriba el nombre **Lync. exe**y, a continuación, haga clic en **siguiente**. Esta configuración indica a la Directiva que solo asigne prioridad al tráfico coincidente del cliente de Lync.
 
 8.  En la tercera página, asegúrese de que **todas las direcciones IP de origen** y **cualquier dirección IP de destino** estén seleccionadas y, a continuación, haga clic en **siguiente**. Estas dos opciones de configuración garantizan que los paquetes se administrarán independientemente del equipo (dirección IP) que hayan enviado esos paquetes y qué equipo (dirección IP) recibirá esos paquetes.
 
@@ -118,7 +120,7 @@ Si decide crear una directiva para administrar el tráfico de uso compartido de 
 
 Para una directiva de transferencia de archivos:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, transferencias de **archivos de Lync Server**).
+  - Use un nombre de directiva diferente (y único) (por ejemplo, **transferencias de archivos de Lync Server**).
 
   - Establezca el valor de DSCP en **14**. (Nuevamente, este valor no tiene que ser 14; simplemente debe ser un código DSCP único).
 
@@ -136,7 +138,7 @@ Para asegurarse de que los paquetes de red estén marcados con el valor de DSCP 
 
 1.  Haga clic en **Inicio** y, después, en **Ejecutar**.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit** y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **Services**y, a continuación, expanda **TCPIP**.
 
@@ -158,7 +160,7 @@ Si desea etiquetar valores DSCP para todos los adaptadores de red de un equipo, 
 
 1.  Haga clic en **Inicio** y, después, en **Ejecutar**.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit** y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **Services**y, a continuación, expanda **TCPIP**.
 

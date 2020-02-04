@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Solicitar certificados para componentes perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Request certificates for edge components
 ms:assetid: 8c72b877-febc-428f-89dc-389e7a7ac849
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398708(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184779
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0e848e5fb8ea120bab2251dff776e2c9c27eacca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 096603b48e6a3636a397c4abf7c19c2b4237f132
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823304"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763322"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

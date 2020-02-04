@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implementar el almacenamiento de contactos unificado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying unified contact store
 ms:assetid: 68959d58-ac8a-45de-afcd-b9de2c36799c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204963(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184373
 ms.date: 06/06/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 94f4c52eb3adda31f32de410f139154788fa37e9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d224ec7a9c452c45f9f3471403301460a2a31cc8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835509"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

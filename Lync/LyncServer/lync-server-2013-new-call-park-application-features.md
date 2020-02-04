@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nuevas características de aplicación de estacionamie
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New Call Park application features
 ms:assetid: bddff13c-92cc-47fd-bfd4-6e8bfbfed11b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412927(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185277
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9dc0dc2c47bbe322402338095dc10eebef7a5ae9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ed681497eee3033ea18cdac0487257f02052491c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826300"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765811"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
