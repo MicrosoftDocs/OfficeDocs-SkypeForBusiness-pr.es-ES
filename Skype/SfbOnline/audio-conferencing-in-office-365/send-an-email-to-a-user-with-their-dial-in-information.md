@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Envíe un correo electrónico a los usuarios con la información de las conferencias de audio en Skype empresarial online.
-ms.openlocfilehash: 08e1f67f042d9497854f6d96643ff41e9bf528ed
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 78ce937bd9aa3bcdab8c860ce261c419af7cc768
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962578"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680407"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Enviar un correo electrónico a un usuario con su información de audioconferencia en Skype empresarial online
 

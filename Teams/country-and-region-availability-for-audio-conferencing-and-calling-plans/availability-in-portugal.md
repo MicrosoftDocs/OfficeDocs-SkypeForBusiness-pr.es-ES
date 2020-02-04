@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Portugal.
-ms.openlocfilehash: 20fda05f632dc4baa7d1926b1c5cb3acf4815db6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c12f64899b9c7343116b71b1ea7ed46e89bef51d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562796"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683633"
 ---
 # <a name="availability-in-portugal"></a>Disponibilidad en Portugal
 

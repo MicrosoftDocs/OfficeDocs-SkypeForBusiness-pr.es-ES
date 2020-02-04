@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: Configure los requisitos que no son de servidor para Skype empresarial Server 2015. Hay una variedad de cosas que desea configurar antes de realizar la implementación, como Active Directory, DNS, Certs y Fileshares.'
-ms.openlocfilehash: 59f7bed17c217eda46314d2a133c0d5671682824
-ms.sourcegitcommit: ab259764dc50bdd52efed3abb1d065ee19486946
+ms.openlocfilehash: 60244391a04b1bab31464bd0ef0b804510e40955
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "36393376"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678964"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
 **Resumen:** Configure los requisitos que no son de servidor para Skype empresarial Server 2015. Hay una variedad de cosas que desea configurar antes de realizar la implementación, como Active Directory, DNS, Certs y Fileshares.
   
-¿Qué es un requisito medioambiental para Skype empresarial Server 2015? Bueno, hemos colocado todo lo que no está directamente relacionado con este tema, por lo que no tiene que hacer clic en él. Si está buscando requisitos previos del servidor, puede consultar los [requisitos del servidor para Skype empresarial Server 2015](server-requirements.md) doc. la planeación de[redes](../../plan-your-deployment/network-requirements/network-requirements.md) también está documentada por separado. De lo contrario, esto es lo que tenemos en este artículo:
+¿Qué es un requisito medioambiental para Skype empresarial Server 2015? Bueno, hemos colocado todo lo que no está directamente relacionado con este tema, por lo que no tiene que hacer clic en él. Si está buscando requisitos previos del servidor, puede consultar los [requisitos del servidor para Skype empresarial Server 2015](server-requirements.md) doc. la[planeación de redes](../../plan-your-deployment/network-requirements/network-requirements.md) también está documentada por separado. De lo contrario, esto es lo que tenemos en este artículo:
   
 - [Active Directory](environmental-requirements.md#AD)
   
@@ -250,6 +250,9 @@ Así que la planificación de certificados es imprescindible. Ahora, echemos un 
   
 > [!NOTE]
 > No está permitido usar el algoritmo de firma RSASSA-PSS, ya que podría dar lugar a errores en problemas relacionados con el inicio de sesión y el desvío de llamadas, entre otros.  
+
+> [!NOTE]
+> Skype empresarial Server 2015 no admite certificados CNG.
   
 - Se admiten longitudes de clave de cifrado de 1024, 2048 y 4096. Se recomienda usar longitudes de clave de 2048 y superiores.
     
@@ -362,7 +365,7 @@ Este SAN debe asignarse al certificado asignado al agente de escucha SSL de su p
 
 Skype empresarial Server 2015 puede usar el mismo recurso compartido de archivos para todo el almacenamiento de archivos. Deberá tener en cuenta lo siguiente:
   
-- Un recurso compartido de archivos debe estar en un almacenamiento conectado directo (DAS) o en un almacenamiento en red (SAN), y esto incluye el sistema de archivos distribuidos (DFS) y las matrices redundantes de discos independientes (RAID). Para obtener más información sobre DFS para Windows Server 2012, consulte [esta página de DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- Un recurso compartido de archivos debe estar en un almacenamiento conectado directo (DAS) o en un almacenamiento en red (SAN), y esto incluye el sistema de archivos distribuidos (DFS) y las matrices redundantes de discos independientes (RAID). Para obtener más información sobre DFS para Windows Server 2012, consulte [esta página de DFS](https://technet.microsoft.com/library/jj127250.aspx).
     
 - Recomendamos un clúster compartido para el recurso compartido de archivos. Si está usando una, debería crear un clúster de Windows Server 2012 o Windows Server 2012 R2. Windows Server 2008 R2 también es aceptable. ¿Por qué es la última versión de Windows? Es posible que las versiones anteriores no tengan los permisos adecuados para habilitar todas las características. Puede usar el administrador de clústeres para crear los recursos compartidos de archivos, y este [procedimiento para crear recursos compartidos de archivos en un clúster](https://support.microsoft.com/en-us/help/224967/how-to-create-file-shares-on-a-cluster) le ayudará con esos detalles.
     

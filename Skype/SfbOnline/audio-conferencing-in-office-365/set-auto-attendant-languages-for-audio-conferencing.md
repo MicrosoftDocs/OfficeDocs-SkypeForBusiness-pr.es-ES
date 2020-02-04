@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Vea cómo seleccionar los idiomas operador automático de audio conferencia para un número de audioconferencia en Skype for Business Online.
-ms.openlocfilehash: 753efca2117363774865817d3095d8b981b4342c
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 22c3ad1d2386dec07060548cd055a5d289db4364
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35220906"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680387"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Establecer los idiomas de operador automático para audioconferencias en Skype for Business Online
 
@@ -46,7 +47,7 @@ Choose one primary language and up to four secondary languages. The primary lang
 
 Debe ser un [administrador global de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) o [administrador de Skype for Business](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para llevar a cabo este paso.
     
-1. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, vaya a **portal heredado**. Una vez en el portal heredado ****, seleccione audioconferencias y, a continuación, haga clic en **puente de Microsoft**.
+1. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, vaya a **portal heredado**. Una vez en el portal heredado, seleccione **audioconferencias**y, a continuación, haga clic en **puente de Microsoft**.
     
 2. Seleccione el número de teléfono de audioconferencias en la lista y, en el panel de acciones, haga clic en **establecer idiomas**. Solo es posible cambiar los idiomas de los números de audioconferencias dedicados.  
     

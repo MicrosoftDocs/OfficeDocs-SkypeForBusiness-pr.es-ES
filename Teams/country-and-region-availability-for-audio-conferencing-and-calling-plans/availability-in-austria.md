@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Austria.
-ms.openlocfilehash: d92eb5cf9fbdeee715de3f9f94b735457dbad3a6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 27d59c77adbaaa68e99941f96986c9076b88c573
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570815"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684073"
 ---
 # <a name="availability-in-austria"></a>Disponibilidad en Austria
 

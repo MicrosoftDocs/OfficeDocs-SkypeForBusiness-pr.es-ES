@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.NcsLocEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: Puede configurar directivas de ubicación para determinar si 9-1-1 mejorado (E9-1-1) está habilitado y el modo de usarlo, así como el modo en que la información de ubicación se usa para usuarios y contactos.
-ms.openlocfilehash: b0b1e16f7227100394dd132e52a17a3192ccab43
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2623e5f3a723dc0ce061109e047961d68bd7badd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293504"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686393"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Directiva de ubicación: Crear nueva o editar existente
 
@@ -62,7 +62,7 @@ En la siguiente lista se describen los campos de la página.
 
 - **Modo de conferencia** Si especificó un valor para el URI de la **Conferencia**, establezca este campo en uno de los valores siguientes:
 
-  - **** Unidireccional Especifica que el tercero solo puede escuchar la llamada entre el operador de llamadas y el operador PSAP.
+  - **Unidireccional** Especifica que el tercero solo puede escuchar la llamada entre el operador de llamadas y el operador PSAP.
 
   - **Bidireccional** Especifica que el tercero puede participar en la llamada entre la persona que llama y el operador PSAP.
 

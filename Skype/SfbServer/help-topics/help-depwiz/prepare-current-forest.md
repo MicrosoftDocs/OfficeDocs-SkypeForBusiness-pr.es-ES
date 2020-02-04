@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Para preparar el bosque de los servicios de dominio de Active Directory, debe extender correctamente el esquema, como se describe en el tema ejecución de la preparación del esquema y asegurarse de que el esquema se ha replicado.
-ms.openlocfilehash: 3d22b2a2cbe69132d7c84cbcced3090fd4ade266
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4286ff0bd9b3291f631e3466b0e790174807a8bf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283836"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687403"
 ---
 # <a name="prepare-current-forest"></a>Preparar bosque actual
 
@@ -35,7 +35,7 @@ Una vez completados los requisitos previos, puede empezar el **Paso 3: Preparar 
 
 3. En la página **Ejecución de comandos**, busque **Estado de tarea: Completado** y haga clic en **Ver registro**. Asegúrese de que no haya errores. Examine las advertencias para saber si son las previstas y son habituales en la infraestructura.
 
-4. En la columna **acción** del registro, expanda **preparación del bosque**, busque un ** \<resultado\> ** de ejecución correcta al final de cada tarea para comprobar que la preparación del bosque se completó correctamente, cierre el registro y, a continuación, haga clic en **Finalizar. **.
+4. En la columna **acción** del registro, expanda **preparación del bosque**, busque un ** \<resultado\> ** de ejecución correcta al final de cada tarea para comprobar que la preparación del bosque se completó correctamente, cierre el registro y, a continuación, haga clic en **Finalizar**.
 
 5. Espere a que se complete la replicación de servicios de dominio de Active Directory, o fuerce la replicación en todos los controladores de dominio que aparecen en el complemento **sitios y servicios de Active** Directory para el controlador de dominio raíz del bosque, antes de ejecutar la preparación del dominio. Fuerce la replicación entre los controladores de dominio de todos los sitios de Active Directory para que la replicación dentro de los sitios se produzca en minutos.
 

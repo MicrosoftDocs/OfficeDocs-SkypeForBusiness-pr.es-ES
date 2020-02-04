@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo buscar sus números de conferencias de acceso telefónico local desde Skype empresarial online. '
-ms.openlocfilehash: c183fa177f886717a52d4020bffbf06881527f35
-ms.sourcegitcommit: 4c041e8a7c39bd6517605ed7fc9aab18cf466596
+ms.openlocfilehash: 6cfbc79ff4e282c1b7f8f3f6b19483aa9347f646
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35792449"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680517"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver una lista de números de Audioconferencia de Skype for Business Online
 
@@ -37,7 +38,7 @@ Cuando establece una Audioconferencia para usuarios de Skype for Business, puede
  **¿Busca los precios?** Consulta los [precios de las conferencias de audio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia.** Si desea ver si hay números de teléfono de acceso telefónico local disponibles en su zona o país o región, vaya a**** > **números de teléfono**de telefonía del centro > de **Administración de Skype empresarial**, haga clic en **Agregar**y, a continuación, haga clic en **nuevo servicio. Números**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si estás buscando números de servicio gratuitos, selecciona gratis en la **** lista **Estado o región** .
+> **No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia.** Si desea ver si hay números de teléfono de acceso telefónico local disponibles en su zona o país o región, vaya a > **números de teléfono****de telefonía del**centro > de **Administración de Skype empresarial**, haga clic en **Agregar**y, a continuación, haga clic en **nuevos números de servicio**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si estás buscando **números de servicio gratuitos, selecciona gratis** en la lista **Estado o región** .
   
 Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en las invitaciones a reuniones de Skype empresarial.
   
@@ -55,7 +56,7 @@ Puede ver [configurar los números de teléfono incluidos en los invitados](set-
     
 2. Vaya al centro de administración > **Skype empresarial**.
     
-3. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda **** > , vaya a**Microsoft Bridge**y, a continuación, haga lo siguiente:
+3. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, vaya a > **Microsoft Bridge**y **, a continuación**, haga lo siguiente:
     
    - Puede ver los números de teléfono que están disponibles para las conferencias de audio.
     

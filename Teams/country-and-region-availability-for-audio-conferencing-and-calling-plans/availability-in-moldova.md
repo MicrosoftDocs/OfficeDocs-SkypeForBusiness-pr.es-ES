@@ -18,17 +18,18 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: f59b511498f43e459f9d5d9b920b852f8af4d5e9
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 3ce67a13a2da66ebf582eb0aa9b928983910b173
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952433"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683703"
 ---
 # <a name="availability-in-moldova"></a>Disponibilidad en Moldova
 

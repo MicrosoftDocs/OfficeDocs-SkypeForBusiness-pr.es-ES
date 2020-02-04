@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddOfficeWebAppsServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 description: 'El asistente definir nuevo Office Web Apps Server define un nuevo servidor de Office Web Apps en su implementación. Proporcione la información siguiente:'
-ms.openlocfilehash: d1b36a2146d6be0addd9b66fd02665eee8de907d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2af737d2579fb4d89c6670e016ff89a8d24f3743
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275202"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685093"
 ---
 # <a name="add-office-web-apps-server"></a>Agregar servidor Office Web Apps
 
@@ -31,7 +31,7 @@ El asistente **definir nuevo Office Web Apps Server** define un nuevo servidor d
 > [!TIP]
 > El comportamiento predeterminado de la **dirección URL de detección de Office Web Apps Server** es crear la dirección URL en función del FQDN de Office Web Apps Server con el `https://<FQDN of the Office Web Apps Server/hosting/discovery` formato:. En la mayoría de los casos no será necesario cambiar el formato predeterminado. Es posible que tenga que cambiar el formato predeterminado en caso de que el servidor de Office Web Apps y la dirección URL de detección de Office Web Apps Server deban ser diferentes. Por ejemplo, su servidor de Office Web Apps se coloca en la red perimetral y tendrá una dirección URL diferente en función de la ubicación.
 
- **Office Web Apps Server se implementa en una red externa (es decir, perimetral/Internet)**: Active la casilla si su servidor de Office Web Apps se coloca fuera de su firewall interno, como la red perimetral, la red externa u otra zona de red. eso no es lo mismo que su red interna.
+ **Office Web Apps Server se implementa en una red externa (es decir, perimetral/Internet)**: Active la casilla si su servidor de Office Web Apps se coloca fuera de su firewall interno, como la red perimetral, la red externa u otra zona de red que no sea la misma que su red interna.
 
 ## <a name="see-also"></a>Vea también
 

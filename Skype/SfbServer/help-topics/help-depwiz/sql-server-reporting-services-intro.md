@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeploySSRSIntro
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: Cada grupo de servidores front-end y la aplicación de rama superviviente puede tener un solo servidor de supervisión asociado. Cuando la supervisión está habilitada para el sitio, el servidor de supervisión proporciona record detallas de llamadas (CDR) y informes y recopilación de datos de la calidad de la experiencia (QoE).
-ms.openlocfilehash: 2bbc521bc8d9ba825c1db38b249bbae9cd06ced8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f9b838ee474fce848dc4d8f1511a5061d5f8cfe2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284732"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687304"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (introducción)
  

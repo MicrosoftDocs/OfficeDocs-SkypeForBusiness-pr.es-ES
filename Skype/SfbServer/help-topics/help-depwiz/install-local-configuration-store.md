@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 4/13/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainInstallReplica
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: Para comenzar la instalación de un nuevo servidor de roles de Skype empresarial Server 2015, primero debe instalar el servidor SQL Server local que hospedará el almacén de configuración local. El almacén de configuración local actuará como una réplica de solo lectura del almacén de administración central (CMS) de Skype empresarial Server. Necesita iniciar sesión en el servidor que ejecute el paso Instalar almacén de configuración local como administrador local en el equipo, además de ser miembro del grupo RTCUniversalServerAdmins o del grupo RTCUniversalGlobalReadOnlyGroup. Si la instalación se efectúa en un servidor perimetral, no hace falta ser miembro del grupo RTCUniversalServerAdmins ni del grupo RTCUniversalGlobalReadOnlyGroup. El documento de definición del generador de topología se leerá desde el documento de definición exportado en lugar del almacén de administración central. Para exportar el documento de definición del generador de topología y hacer que esté disponible para los servidores perimetrales, vea el tema exportar su topología y copiarla en medios externos para la instalación perimetral.
-ms.openlocfilehash: c3da29e6c9630b22e7ae947f9b23ab5dbeebd13c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 83412bbef1305dab51cbb35ad9044f756154905c
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301448"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687650"
 ---
 # <a name="install-local-configuration-store"></a>Instalar almacén de configuración local
 

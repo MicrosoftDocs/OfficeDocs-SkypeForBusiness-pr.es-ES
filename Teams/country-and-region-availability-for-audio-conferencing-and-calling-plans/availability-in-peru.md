@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft teams que están disponibles para Perú.
-ms.openlocfilehash: 03e78ec88b8a89b264ab4420d016b0d6559d8888
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3c2ca68c033d2a64dea465814f95a477f4c010c1
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562807"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683643"
 ---
 # <a name="availability-in-peru"></a>Disponibilidad en Perú
 

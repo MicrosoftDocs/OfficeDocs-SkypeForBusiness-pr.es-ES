@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddDirectorAssociationPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
 description: Defina si el director o el grupo de directores tendrá un servidor de supervisión asociado a él. Seleccione la casilla para asociar un servidor de supervisión al director o al grupo de directores.
-ms.openlocfilehash: 2c1ba79b62fa0050083ed249ec60622c9771b735
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 04f0da8a0f7d8f8e517b474464f12d5851763550
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304859"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685353"
 ---
 # <a name="add-director-association-for-lync-server-2010"></a>Agregar Asociación de director para Lync Server 2010
  

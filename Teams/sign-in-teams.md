@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a5698058cbfecd62f92cfe9f198657f7c280deff
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
+ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37563125"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678974"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Iniciar sesión en Microsoft Teams con la autenticación moderna
 ==========================
@@ -38,6 +38,11 @@ La autenticación moderna es un proceso que permite a los equipos saber que los 
 - Si los usuarios no han iniciado sesión en su cuenta de Office 365 Enterprise en ningún otro lugar, cuando inicien Teams, se les pedirá que proporcionen autenticación multifactor o de factor único (fútbolso o MFA), en función de lo que su organización haya decidido que le gustaría proceso.
 
 - Si los usuarios han iniciado sesión en un equipo unido a un dominio, cuando inicien Teams, es posible que se le pida un paso más de autenticación, en función de si su organización optó por requerir MFA o si su equipo ya requiere MFA para iniciar sesión. Si su equipo ya requiere que MFA inicie sesión, cuando abra Teams, la aplicación se iniciará automáticamente.
+
+- Si los usuarios han iniciado sesión en un equipo unido a un dominio y no desea que su nombre de usuario se haya rellenado previamente en la pantalla de inicio de sesión de Teams, los administradores pueden configurar el siguiente registro de Windows para desactivar el rellenado anterior del nombre de usuario: equipo \ HKEY_CURRENT_USER \Software\ Microsoft\Office\Teams DisableUpnSuffixCheck (REG_DWORD) 0x00000001 (1)
+
+  Nota: si se omite nombre de usuario, se rellenan previamente los nombres de usuario que terminan en ". local" o ". Corp" de forma predeterminada, por lo que no es necesario configurar una clave del registro para desactivarlos. 
+
 
 ### <a name="mac-users"></a>Usuarios de Mac 
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Francia.
-ms.openlocfilehash: 3c29d4188e7e49e7a0f5a49d916bbc4c333b5270
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5d9532cfb10e4968866d57ed2b0fece3b04312ab
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569270"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683903"
 ---
 # <a name="availability-in-france"></a>Disponibilidad en Francia
 

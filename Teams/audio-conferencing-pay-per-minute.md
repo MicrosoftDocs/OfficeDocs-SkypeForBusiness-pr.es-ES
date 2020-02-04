@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: Además de la licencia por usuario de audioconferencias estándar, las organizaciones que usan licencias por volumen de Microsoft también pueden elegir una oferta de pago por minuto para habilitar las capacidades de audioconferencia para sus organizaciones.
-ms.openlocfilehash: 0f31d5b79c8b298dbd13c516856446ee2ead977a
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515897"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684143"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferencia con pago por minuto
 
@@ -41,7 +42,7 @@ Puede averiguar si su [país o región es compatible](country-and-region-availab
   
 ## <a name="need-some-details"></a>¿Necesitas algunos detalles?
 
-Mientras que la oferta de licencia por usuario de audioconferencia incluye el uso de acceso telefónico y el uso de llamadas, las conferencias de audio pagan por minuto **le permiten pagar todo el uso de la audioconferencia por minuto sin pagar por un mes por usuario licencia**. Con esto, todas las llamadas de acceso telefónico local y de llamada saliente se cobrarán cada minuto, entre las que se incluyen:
+Mientras que la oferta de licencia por usuario de audioconferencia incluye el uso de acceso telefónico y el uso de llamadas, las conferencias de audio pagan por minuto **le permiten pagar todo el uso de la audioconferencia por minuto sin pagar por una licencia mensual por usuario**. Con esto, todas las llamadas de acceso telefónico local y de llamada saliente se cobrarán cada minuto, entre las que se incluyen:
   
 - Llamadas entrantes a números de conferencias de audio de pago de su organización.
     

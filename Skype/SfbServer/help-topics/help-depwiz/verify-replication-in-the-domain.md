@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainVerifyDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 'Para comprobar la replicación de la preparación del dominio que se realizó en el paso 1: preparar el esquema, es necesario ejecutar un cmdlet desde el shell de administración de Lync Server de Shell de administración de Skype empresarial. Para ejecutar el cmdlet de Windows PowerShell, inicie sesión en un equipo que sea miembro del dominio que ha preparado y como miembro del grupo administradores de dominio. Siga este procedimiento:'
-ms.openlocfilehash: f20806a11850276032bae19b4311734669be5a53
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: add0434223dcd4f08256adbdcc207ee6be4df1b8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989055"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687373"
 ---
 # <a name="verify-replication-in-the-domain"></a>Comprobar replicación en el dominio
  

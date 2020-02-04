@@ -17,17 +17,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 Robots: noindex
 ms.custom:
 - Audio Conferencing
 redirect_url: https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user
 redirect_document_id: true
 description: ''
-ms.openlocfilehash: 25344430267eab53f1de284bcbebd7d751f7eb55
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 38a6674d228e18097a533668c2b179879cdef351
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302754"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680227"
 ---

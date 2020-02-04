@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateFrontEndWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 description: Un grupo de servidores front-end puede tener asociado un solo servidor perimetral o grupo de servidores perimetrales. Al habilitar el acceso de usuarios externos para un sitio, puede permitir el acceso a usuarios remotos. También puede permitir el acceso a usuarios federados, que pueden ser usuarios de determinados proveedores de conectividad para mensajería instantánea (como Windows Live), y a usuarios anónimos.
-ms.openlocfilehash: d8daeb1fd03d0952cac31d6c8dbe603c14053787
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c68195607feea74f29048affaf12662b2682ad39
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301718"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684933"
 ---
 # <a name="associate-front-end-with-edge"></a>Asociar front-end con servidor perimetral
 

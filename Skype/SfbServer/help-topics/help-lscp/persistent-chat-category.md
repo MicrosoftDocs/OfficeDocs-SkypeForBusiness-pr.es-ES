@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.PersistentChatCategory
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: Puede usar la sección Categoría de la página Chat persistente para configurar categorías. Una categoría de salón de chat persistente es una estructura lógica para organizar salones de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que se pueden crear o unir a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
-ms.openlocfilehash: fc430c7d61ad4662d28f81594d59bf95d03f84c8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f7a87e45bc7f337fc86e1617bf17ffb4c9b5715e
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302667"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41686269"
 ---
 # <a name="persistent-chat-category"></a>Categoría de chat persistente
  
 Puede usar la sección **Categoría** de la página **Chat persistente** para configurar categorías. Una categoría de salón de chat persistente es una estructura lógica para organizar salones de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que se pueden crear o unir a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
   
-Las categorías de salones de chat pueden contener salones de chat, pero no otras categorías. Cada categoría describe su contenido con metadatos, como _el nombre_ y la _Descripción_. Además, la categoría tiene propiedades que pueden configurarse para controlar el comportamiento de los salones de chat que pertenecen a ella, por ejemplo, si los __ salones de chat permiten invitaciones o _cargas de archivos_, o bien contienen _historial de conversaciones_.
+Las categorías de salones de chat pueden contener salones de chat, pero no otras categorías. Cada categoría describe su contenido con metadatos, como _el nombre_ y la _Descripción_. Además, la categoría tiene propiedades que pueden configurarse para controlar el comportamiento de los salones de chat que pertenecen a ella, por ejemplo, si los salones de chat permiten _invitaciones_ o _cargas de archivos_, o bien contienen _historial de conversaciones_.
   
 Para crear una nueva categoría, consulte [administrar categorías en el servidor de chat persistente en Skype empresarial server 2015](../../manage/persistent-chat/categories.md). Si es un administrador de chat persistente, puede crear categorías con el panel de control o los cmdlets de Windows PowerShell.
   
@@ -69,9 +69,9 @@ En la página **Categoría** puede realizar las siguientes tareas:
     
 12. En **Editar categoría**, haga lo siguiente:
     
-    - En **pertenencia**, en la sección **miembros permitidos** , agregar o quitar usuarios y otros principios de los servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, etc.) que se pueden agregar como miembros de salones de chat pertenece a la categoría. Las entidades de seguridad permitidas por una categoría pueden buscar los salones de la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón podrán encontrarlo en el directorio).
+    - En **pertenencia**, en la sección **miembros permitidos** , agregue o quite usuarios y otros principios de los servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, etc.) que pueden agregarse como miembros de los salones de chat que pertenecen a la categoría. Las entidades de seguridad permitidas por una categoría pueden buscar los salones de la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón podrán encontrarlo en el directorio).
     
-    - En **pertenencia**, en la sección **miembros** denegados, agregue o quite usuarios y otros principales de Active Directory asociados a miembros que se deniegan del salón.
+    - En **pertenencia**, en la sección **miembros denegados** , agregue o quite usuarios y otros principales de Active Directory asociados a miembros que se deniegan del salón.
     
     - En **pertenencia**, en la sección **creadores** , agregue o quite usuarios y otras entidades de Active Directory asociadas con los creadores de la categoría. Un creador es un usuario que tiene permisos para crear salones de chat y asignar administradores y miembros de los salones de chat.
     

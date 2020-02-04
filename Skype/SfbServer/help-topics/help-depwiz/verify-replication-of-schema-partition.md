@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 description: 'Para comprobar que la extensión de esquema se ha replicado correctamente en el bosque de los servicios de dominio de Active Directory, haga lo siguiente:'
-ms.openlocfilehash: 9b055120f33f4bc80b2fdbf163e9ab627927dd54
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0b90f61849e66e78c49d7d00783133198bab6b54
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289473"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41687323"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Comprobar la replicación de la partición del esquema
  

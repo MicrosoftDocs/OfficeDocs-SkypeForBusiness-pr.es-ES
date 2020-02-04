@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Marruecos.
-ms.openlocfilehash: ac89283080c66fbcf3d89541fff93e67750dbd34
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 5e835821828bed8eeae02612e37ac8d231aa9f5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952423"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41683693"
 ---
 # <a name="availability-in-morocco"></a>Disponibilidad en Marruecos
 

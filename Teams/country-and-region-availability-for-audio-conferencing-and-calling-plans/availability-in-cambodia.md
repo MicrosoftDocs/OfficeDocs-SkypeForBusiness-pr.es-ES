@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Camboya.
-ms.openlocfilehash: 438ac6dc00ea92c46143df287a4615879300a540
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 9425f1638614ff970e3d7a961e0b9451ea0e4c77
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741374"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41684003"
 ---
 # <a name="availability-in-cambodia"></a>Disponibilidad en Camboya
 

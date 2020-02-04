@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddAvMcuPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: Todos los servidores de aplicaciones para el usuario de Enterprise Edition de un sitio central que no dispongan de un servicio de conferencia A/V, pueden usar el mismo grupo independiente de conferencias A/V. Para cada grupo de conferencias A/V, debe especificar un nombre de dominio completo (FQDN) para el grupo y si tendrá un único servidor de conferencia A/V o varios servidores de conferencia A/V con equilibrio de carga.
-ms.openlocfilehash: b854e7ecaeed13bd7df15c3ac0439323f3deb311
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf34ca6b82f31b0232748d15f0b0cc6597511249
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304999"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41685393"
 ---
 # <a name="add-av-mcu-pool"></a>Agregar grupo de servidores MCU de A/V
  
