@@ -3,6 +3,8 @@ title: Configurar Lync Server para que funcione con System Center Operations Man
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Lync Server to work with System Center Operations Manager
 ms:assetid: b55a24ab-648b-4142-b3cd-3792860ba872
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205188(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185179
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a6f26d4701cf1ed48f0069bcf7994e20ef0b2af
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f0cf422ddab501acf521c26c36d8f373bd42dbf9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842223"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762778"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34842223"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a><span data-ttu-id="5764c-102">Configuración de Lync Server 2013 para que funcione con System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="5764c-102">Configuring Lync Server 2013 to work with System Center Operations Manager</span></span>
+# <a name="configuring-lync-server-2013-to-work-with-system-center-operations-manager"></a><span data-ttu-id="8912c-102">Configuración de Lync Server 2013 para que funcione con System Center Operations Manager</span><span class="sxs-lookup"><span data-stu-id="8912c-102">Configuring Lync Server 2013 to work with System Center Operations Manager</span></span>
 
 </div>
 
@@ -33,29 +35,29 @@ ms.locfileid: "34842223"
 
 <span> </span>
 
-<span data-ttu-id="5764c-103">_**Última modificación del tema:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="5764c-103">_**Topic Last Modified:** 2012-10-22_</span></span>
+<span data-ttu-id="8912c-103">_**Última modificación del tema:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="8912c-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-<span data-ttu-id="5764c-104">Para configurar la infraestructura de Microsoft Lync Server 2013 de forma que funcione con System Center Operations Manager, debe realizar tres acciones:</span><span class="sxs-lookup"><span data-stu-id="5764c-104">In order to configure your Microsoft Lync Server 2013 infrastructure to work with System Center Operations Manager you must do three things:</span></span>
+<span data-ttu-id="8912c-104">Para configurar la infraestructura de Microsoft Lync Server 2013 de forma que funcione con System Center Operations Manager, debe realizar tres acciones:</span><span class="sxs-lookup"><span data-stu-id="8912c-104">In order to configure your Microsoft Lync Server 2013 infrastructure to work with System Center Operations Manager you must do three things:</span></span>
 
-  - <span data-ttu-id="5764c-105">Identifique y configure su servidor de administración principal de System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="5764c-105">Identify and configure your primary System Center Operations Manager management server.</span></span> <span data-ttu-id="5764c-106">La configuración del servidor de administración incluye la instalación de System Center Operations Manager 2012 o System Center Operations Manager 2007 R2, así como la configuración de una base de datos back-end con SQL Server.</span><span class="sxs-lookup"><span data-stu-id="5764c-106">Configuring the management server includes installing System Center Operations Manager 2012 or System Center Operations Manager 2007 R2, as well as setting up a back-end database using SQL Server.</span></span> <span data-ttu-id="5764c-107">La versión real de SQL Server que necesita usar depende de la versión de System Center Operations Manager que esté usando.</span><span class="sxs-lookup"><span data-stu-id="5764c-107">The actual version of SQL Server that you need to be use depends on the version of System Center Operations Manager you are using.</span></span> <span data-ttu-id="5764c-108">Para obtener más información, vea [configurar el servidor de administración principal en Lync server 2013](lync-server-2013-configuring-the-primary-management-server.md).</span><span class="sxs-lookup"><span data-stu-id="5764c-108">For details, see [Configuring the primary management server in Lync Server 2013](lync-server-2013-configuring-the-primary-management-server.md).</span></span>
+  - <span data-ttu-id="8912c-105">Identifique y configure su servidor de administración principal de System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="8912c-105">Identify and configure your primary System Center Operations Manager management server.</span></span> <span data-ttu-id="8912c-106">La configuración del servidor de administración incluye la instalación de System Center Operations Manager 2012 o System Center Operations Manager 2007 R2, así como la configuración de una base de datos back-end con SQL Server.</span><span class="sxs-lookup"><span data-stu-id="8912c-106">Configuring the management server includes installing System Center Operations Manager 2012 or System Center Operations Manager 2007 R2, as well as setting up a back-end database using SQL Server.</span></span> <span data-ttu-id="8912c-107">La versión real de SQL Server que necesita usar depende de la versión de System Center Operations Manager que esté usando.</span><span class="sxs-lookup"><span data-stu-id="8912c-107">The actual version of SQL Server that you need to be use depends on the version of System Center Operations Manager you are using.</span></span> <span data-ttu-id="8912c-108">Para obtener más información, vea [configurar el servidor de administración principal en Lync server 2013](lync-server-2013-configuring-the-primary-management-server.md).</span><span class="sxs-lookup"><span data-stu-id="8912c-108">For details, see [Configuring the primary management server in Lync Server 2013](lync-server-2013-configuring-the-primary-management-server.md).</span></span>
 
-  - <span data-ttu-id="5764c-109">Identifique y configure los equipos de Lync Server que desea supervisar.</span><span class="sxs-lookup"><span data-stu-id="5764c-109">Identify and configure the Lync Server computers that you want to monitor.</span></span> <span data-ttu-id="5764c-110">Para supervisar un equipo de Lync Server con System Center Operations Manager, debe instalar los archivos del agente System Center Operations Manager y configurar cada servidor para que actúe como proxy.</span><span class="sxs-lookup"><span data-stu-id="5764c-110">To monitor a Lync Server computer by using System Center Operations Manager you must install the System Center Operations Manager agent files, and configure each server to act as a proxy.</span></span>
+  - <span data-ttu-id="8912c-109">Identifique y configure los equipos de Lync Server que desea supervisar.</span><span class="sxs-lookup"><span data-stu-id="8912c-109">Identify and configure the Lync Server computers that you want to monitor.</span></span> <span data-ttu-id="8912c-110">Para supervisar un equipo de Lync Server con System Center Operations Manager, debe instalar los archivos del agente System Center Operations Manager y configurar cada servidor para que actúe como proxy.</span><span class="sxs-lookup"><span data-stu-id="8912c-110">To monitor a Lync Server computer by using System Center Operations Manager you must install the System Center Operations Manager agent files, and configure each server to act as a proxy.</span></span>
 
-  - <span data-ttu-id="5764c-111">Identifique y configure los equipos que desea que actúen como *nodos de monitor*de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="5764c-111">Identify and configure the computers that you want to act as Lync Server *watcher nodes*.</span></span> <span data-ttu-id="5764c-112">Los nodos de monitor son equipos que ejecutan periódicamente transacciones sintéticas de Lync Server, que son cmdlets de Windows PowerShell que comprueban que los componentes clave de Lync Server, como la capacidad de iniciar sesión en el sistema o la posibilidad de intercambiar mensajes instantáneos, funciona según lo esperado.</span><span class="sxs-lookup"><span data-stu-id="5764c-112">Watcher nodes are computers that periodically run Lync Server synthetic transactions, which are Windows PowerShell cmdlets that verify that key Lync Server components, such as the ability to log on to the system or the ability to exchange instant messages are working as expected.</span></span>
+  - <span data-ttu-id="8912c-111">Identifique y configure los equipos que desea que actúen como *nodos de monitor*de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8912c-111">Identify and configure the computers that you want to act as Lync Server *watcher nodes*.</span></span> <span data-ttu-id="8912c-112">Los nodos de monitor son equipos que ejecutan periódicamente transacciones sintéticas de Lync Server, que son cmdlets de Windows PowerShell que comprueban que los componentes clave de Lync Server, como la capacidad de iniciar sesión en el sistema o la posibilidad de intercambiar mensajes instantáneos, funciona según lo esperado.</span><span class="sxs-lookup"><span data-stu-id="8912c-112">Watcher nodes are computers that periodically run Lync Server synthetic transactions, which are Windows PowerShell cmdlets that verify that key Lync Server components, such as the ability to log on to the system or the ability to exchange instant messages are working as expected.</span></span>
 
-<span data-ttu-id="5764c-113">Los temas de esta sección contienen instrucciones para llevar a cabo cada una de estas tareas.</span><span class="sxs-lookup"><span data-stu-id="5764c-113">The topics in this section contain instructions for carrying out each of these tasks.</span></span>
+<span data-ttu-id="8912c-113">Los temas de esta sección contienen instrucciones para llevar a cabo cada una de estas tareas.</span><span class="sxs-lookup"><span data-stu-id="8912c-113">The topics in this section contain instructions for carrying out each of these tasks.</span></span>
 
 <div>
 
-## <a name="in-this-section"></a><span data-ttu-id="5764c-114">En esta sección</span><span class="sxs-lookup"><span data-stu-id="5764c-114">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="8912c-114">En esta sección</span><span class="sxs-lookup"><span data-stu-id="8912c-114">In This Section</span></span>
 
-  - [<span data-ttu-id="5764c-115">Configurar el servidor de administración principal en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5764c-115">Configuring the primary management server in Lync Server 2013</span></span>](lync-server-2013-configuring-the-primary-management-server.md)
+  - [<span data-ttu-id="8912c-115">Configurar el servidor de administración principal en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8912c-115">Configuring the primary management server in Lync Server 2013</span></span>](lync-server-2013-configuring-the-primary-management-server.md)
 
-  - [<span data-ttu-id="5764c-116">Instalar los módulos de administración de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5764c-116">Installing the Lync Server 2013 management packs</span></span>](lync-server-2013-installing-the-lync-server-2013-management-packs.md)
+  - [<span data-ttu-id="8912c-116">Instalar los módulos de administración de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8912c-116">Installing the Lync Server 2013 management packs</span></span>](lync-server-2013-installing-the-lync-server-2013-management-packs.md)
 
-  - [<span data-ttu-id="5764c-117">Configurar los equipos de Lync Server que se supervisarán en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5764c-117">Configuring the Lync Server computers that will be monitored in Lync Server 2013</span></span>](lync-server-2013-configuring-the-lync-server-computers-that-will-be-monitored.md)
+  - [<span data-ttu-id="8912c-117">Configurar los equipos de Lync Server que se supervisarán en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8912c-117">Configuring the Lync Server computers that will be monitored in Lync Server 2013</span></span>](lync-server-2013-configuring-the-lync-server-computers-that-will-be-monitored.md)
 
-  - [<span data-ttu-id="5764c-118">Instalar y configurar nodos de monitor en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5764c-118">Installing and configuring watcher nodes in Lync Server 2013</span></span>](lync-server-2013-installing-and-configuring-watcher-nodes.md)
+  - [<span data-ttu-id="8912c-118">Instalar y configurar nodos de monitor en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8912c-118">Installing and configuring watcher nodes in Lync Server 2013</span></span>](lync-server-2013-installing-and-configuring-watcher-nodes.md)
 
 </div>
 
