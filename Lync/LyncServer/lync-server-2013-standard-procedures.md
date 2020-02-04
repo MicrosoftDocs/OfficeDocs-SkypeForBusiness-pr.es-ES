@@ -3,6 +3,8 @@ title: 'Lync Server 2013: procedimientos estándar'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Standard procedures
 ms:assetid: 1b45d610-9840-4568-89e5-004ba31a15cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720323(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969581
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ac1d42075f48b780a96f9ca7ad8b831379b5187
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5160e67d13b7ff3ea1502c093a0ed010d176568f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850572"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731870"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

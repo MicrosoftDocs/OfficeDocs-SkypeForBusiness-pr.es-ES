@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla FocusJoinsAndLeaves'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: FocusJoinsAndLeaves table
 ms:assetid: e6f0212c-67e9-4061-8720-d0296e855991
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399026(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185690
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ead6fc2ce79f7ab1206476ee420bd2ba5a7711f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4365e5bbfe92168047165adf6504333e1c34fab6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835146"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765268"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

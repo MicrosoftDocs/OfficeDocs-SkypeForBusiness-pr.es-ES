@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tabla IMReportSummary'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: IMReportSummary table
 ms:assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204753(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c2254bafe059cc1a4bc6436580e9d604711f5fb3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a7a6be73d31892b5a0d5a3a5b10ad136f92afbf5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835021"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763824"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

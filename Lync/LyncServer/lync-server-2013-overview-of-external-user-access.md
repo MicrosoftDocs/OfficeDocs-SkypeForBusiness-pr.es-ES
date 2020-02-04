@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Información general sobre el acceso de usuarios exter
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of external user access
 ms:assetid: 97aded6c-5fa3-4225-95a6-9ad094d61654
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398775(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184934
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0a527df5a3bc7b296d17860c7a02876dbc31fbc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1007dfb330aaa21dbac269f606102c51712c9bf7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825523"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

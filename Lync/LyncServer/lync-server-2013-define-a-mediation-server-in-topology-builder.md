@@ -3,6 +3,8 @@ title: 'Lync Server 2013: definir un servidor de mediación en el generador de t
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Define a Mediation Server in Topology Builder
 ms:assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398391(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184217
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f1356217b9effe3f2282f6931b601e84aa46770
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: bdff7da86bd7298511ea0ef384b2736a47882a03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835726"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742560"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Siga los pasos que se indican en este tema para usar el generador de topologías
 
 4.  Avance por el asistente para **Definir nuevo grupo de servidores front-end** hasta llegar a la página **Seleccionar roles de servidor combinados**.
 
-5.  En **Seleccionar roles de servidor**colocados, active la opción servidor de mediación de **Collocate**.
+5.  En **Seleccionar roles de servidor**colocados, active la opción **servidor de mediación de Collocate**.
     
     <div>
     
@@ -105,7 +107,7 @@ Si ya ha implementado servidores de mediación colocados en grupos front-end en 
 
 
 > [!NOTE]  
-> En esta sección se supone que ya ha configurado al menos un grupo de servidores front-end, como se describe en <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync server 2013</A> y <A href="lync-server-2013-publish-the-topology.md">publicar la topología en Lync Server 2013</A> en la guía de implementación documentación.
+> En esta sección se supone que ya ha configurado al menos un grupo de servidores front-end, como se describe en <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync server 2013</A> y <A href="lync-server-2013-publish-the-topology.md">publicar la topología en Lync Server 2013</A> , en la documentación de la guía de implementación.
 
 
 
@@ -119,9 +121,9 @@ Si ya ha implementado servidores de mediación colocados en grupos front-end en 
 
 2.  En el generador de topologías, en el árbol de consola, expanda el nombre del sitio para el que desea definir un servidor de mediación.
 
-3.  En el árbol de consola, haga clic con el botón derecho en el nodo de **grupos** de mediación y en **grupo de servidores**de mediación.
+3.  En el árbol de consola, haga clic con el botón derecho en el nodo de **grupos de mediación** y en **grupo de servidores de mediación**.
 
-4.  En **definir nuevo grupo**de mediación, escriba el nombre de dominio completo (FQDN) del grupo de servidores de mediación.
+4.  En **definir nuevo grupo de mediación**, escriba el nombre de dominio completo (FQDN) del grupo de servidores de mediación.
 
 5.  A continuación, siga uno de los procedimientos siguientes:
     
@@ -144,7 +146,7 @@ Si ya ha implementado servidores de mediación colocados en grupos front-end en 
 
 8.  En la página **Seleccionar un servidor perimetral**, realice una de las operaciones siguientes:
     
-      - Si desea proporcionar conectividad RTC a usuarios externos habilitados para telefonía IP empresarial, en **Seleccionar grupo perimetral usado por este servidor**de mediación, haga clic en el FQDN del grupo de servidores perimetrales que usarán este grupo de servidores de mediación para proporcionar conectividad RTC a esos usuarios externos y, a continuación, haga clic en **siguiente**.
+      - Si desea proporcionar conectividad RTC a usuarios externos habilitados para telefonía IP empresarial, en **Seleccionar grupo perimetral usado por este servidor de mediación**, haga clic en el FQDN del grupo de servidores perimetrales que usará este grupo de servidores de mediación para proporcionar conectividad RTC a esos usuarios externos y, a continuación, haga clic en **siguiente**.
     
       - Si no tiene previsto habilitar usuarios externos para telefonía IP empresarial, o si no desea proporcionar conectividad RTC a los usuarios cuando se encuentren fuera de la red interna, haga clic en **siguiente**.
 
@@ -166,7 +168,7 @@ Siga los pasos que se indican en este tema para usar el generador de topología 
 
 1.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
 
-2.  En el generador de topología, en el árbol de consola, expanda el nodo **grupos** de mediación y haga clic con el botón secundario en el servidor de mediación creado previamente.
+2.  En el generador de topología, en el árbol de consola, expanda el nodo **grupos de mediación** y haga clic con el botón secundario en el servidor de mediación creado previamente.
 
 3.  De forma predeterminada, los puertos de escucha SIP en el servidor de mediación son 5070 para el tráfico TLS desde Lync Server, 5067 para tráfico TLS de pares (gateways, PBXes o SBCs). El puerto TCP está deshabilitado de forma predeterminada. Debe habilitar el puerto TCP si tiene puertas de enlace que no son compatibles con TLS.
 

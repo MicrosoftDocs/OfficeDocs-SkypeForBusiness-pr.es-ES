@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar la Federación para un proveedor de servici
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure federation for an audio conferencing provider
 ms:assetid: 08dedcce-0d3f-45da-8282-cf2634a41665
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn510996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 60595883
 ms.date: 07/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 30bf49947034f995b10551985450f560bc1d3693
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c5c1ca77b2f68a2285fb15d65c19631323a03bda
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842375"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758444"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

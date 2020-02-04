@@ -3,6 +3,8 @@ title: Migración de reuniones existentes y contenido de reuniones
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Migrate existing meetings and meeting content
 ms:assetid: 30516731-2ae1-4a6d-a7e1-d3f05778c954
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688011(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733599
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 38b4f374aef66fa95d49b2330a07f9def4135328
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0aa0b83e2e206421300d16faf220b3fa0bb81503
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849976"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762928"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

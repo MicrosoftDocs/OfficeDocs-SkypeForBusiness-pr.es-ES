@@ -3,6 +3,8 @@ title: 'Lync Server 2013: quitar una cuenta de usuario de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Remove a user account from Lync Server
 ms:assetid: 2f512aba-e358-45ae-af58-74312ee9c514
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688008(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733596
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9780e19fb608855d9c820285cc87582787ff896d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 97ee26fd15eb9df9174fd33cf9a45a6fe49411af
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823157"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Puede usar el siguiente procedimiento para quitar una cuenta de usuario agregada
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
 
-4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea deshabilitar o volver a habilitar, a continuación, haga clic en **Buscar**.
+4.  En el cuadro **Buscar usuarios** , escriba todas o la primera parte del nombre para mostrar, el nombre, el apellido, el nombre de cuenta del administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario que desea deshabilitar o volver a habilitar y, a continuación, haga clic en **Buscar**.
 
 5.  En la tabla, haga clic en la cuenta de usuario que desea quitar.
 

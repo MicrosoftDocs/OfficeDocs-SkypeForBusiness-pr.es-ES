@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ejecutar pruebas de enrutamiento de voz informal'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Run informal voice routing tests
 ms:assetid: ea0e6059-bf04-4b03-b6d3-8f5534b731e2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185904
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b47394f595926fe37df9a0809380ed96fa1dec66
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2f916de228545a560c94bc45ea0a774ccc538c60
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765078"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34822303"
 
 _**Última modificación del tema:** 2012-08-07_
 
-Puede usar el cuadro de diálogo **crear información de caso de prueba de enrutamiento de voz** para ejecutar pruebas informales antes de crear un caso de prueba real. Cuando esté satisfecho con el resultado de una prueba, tiene la opción de guardarla como caso de prueba formal.
+Puede usar el cuadro de diálogo crear información de caso de prueba de enrutamiento de voz para ejecutar pruebas **informales** antes de crear un caso de prueba real. Cuando esté satisfecho con el resultado de una prueba, tiene la opción de guardarla como caso de prueba formal.
 
 <div>
 
@@ -53,13 +55,13 @@ Puede usar el cuadro de diálogo **crear información de caso de prueba de enrut
 
 6.  En la lista **plan de marcado** , seleccione el plan de marcado que se va a usar para probar el número marcado. El valor predeterminado es el plan de marcado global.
     
-    Al ejecutar la prueba, la primera regla de normalización del plan de marcado que coincida con el número marcado se mostrará en el campo **regla** de normalización del panel **resultados** .
+    Al ejecutar la prueba, la primera regla de normalización del plan de marcado que coincida con el número marcado se mostrará en el campo **regla de normalización** del panel **resultados** .
 
 7.  En la lista **Directiva de voz** , seleccione la Directiva de voz que se va a usar para probar el número marcado. El valor predeterminado es la Directiva de voz global.
     
     Al ejecutar la prueba, se mostrará el primer registro de uso de RTC coincidente en esta directiva de voz en el **primer campo uso de RTC** del panel **resultados** . Además, la primera ruta de voz coincidente asociada con este registro de uso de RTC se mostrará en el **primer** campo de ruta.
 
-8.  Faculta Active la casilla de verificación rellenar **desde el usuario** si desea probar el número marcado con la Directiva de voz asignada a un usuario en particular.
+8.  Faculta Active la casilla **de verificación rellenar desde el usuario** si desea probar el número marcado con la Directiva de voz asignada a un usuario en particular.
     
     1.  Haga clic en **examinar** para mostrar el cuadro de diálogo **Seleccionar usuarios de voz de empresa** .
     

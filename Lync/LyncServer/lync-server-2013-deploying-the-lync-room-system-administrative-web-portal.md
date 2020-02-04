@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementar el portal web administrativo del sistema d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying the Lync Room System Administrative Web Portal
 ms:assetid: ecba5b36-632e-40b9-9c2e-ab825baf7a46
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436324(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56737621
 ms.date: 05/04/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 16fc5e7d0f136481ddce5d34de41268cb224822e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7f62a5c7fde401452744abba5f4b6dfec175da2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835522"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740810"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

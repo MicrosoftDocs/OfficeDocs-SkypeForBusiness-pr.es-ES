@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de escenarios de ejemplo de vídeo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring video example scenarios
 ms:assetid: da0d61a2-7ac4-4562-bf6a-18473a29acb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205297(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185536
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9800f97c8ccd49780098c29c9c6c1325b072dab5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cbdd47056b97da1ba3ac1bf884cc3e8bd9aaf43f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842161"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734430"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34842161"
 
 _**Última modificación del tema:** 2012-10-02_
 
-Lync 2013 agrega nuevas características de vídeo para admitir 1920 x 1080 de vídeo de alta definición completo (HD) y la vista de vídeo de la galería. Las medidas basadas en los datos de los clientes muestran que el ancho de banda de video típico ha aumentado ligeramente comparado con Lync 2010, pero el ancho de banda de la secuencia de vídeo máxima ha aumentado debido a una compatibilidad de alta definición completa (para obtener información detallada, consulte la sección "uso de redes de tráfico de medios" en [ Requisitos de ancho de banda de red para el tráfico multimedia en Lync Server 2013](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md)). Por lo tanto, es posible que los administradores deseen restringir el ancho de banda de vídeo para determinados usuarios (como usuarios de una sucursal que tiene menos capacidad de red) y ayudar a garantizar la mejor calidad de video posible para otros usuarios (como ejecutivos).
+Lync 2013 agrega nuevas características de vídeo para admitir 1920 x 1080 de vídeo de alta definición completo (HD) y la vista de vídeo de la galería. Las medidas basadas en los datos de los clientes muestran que el ancho de banda de video típico ha aumentado ligeramente comparado con Lync 2010, pero el ancho de banda de la secuencia de vídeo máxima ha aumentado debido a compatibilidad completa de alta definición (para obtener información detallada, consulte la sección "uso de redes de tráfico de medios" en [los requisitos de ancho de banda de red para el 2013 tráfico multimedia](lync-server-2013-network-bandwidth-requirements-for-media-traffic.md) Por lo tanto, es posible que los administradores deseen restringir el ancho de banda de vídeo para determinados usuarios (como usuarios de una sucursal que tiene menos capacidad de red) y ayudar a garantizar la mejor calidad de video posible para otros usuarios (como ejecutivos).
 
 En la tabla siguiente se proporciona una lista de las opciones de configuración recomendadas para configurar el vídeo para diferentes capacidades de red. Esta configuración restringirá algunos escenarios de usuario del envío y recepción de videos de mayor resolución (consulte la columna del extremo derecho). La configuración mínima provocará que el video de la galería no esté disponible debido a que el ancho de banda de la red de recepción es reducido.
 
@@ -90,8 +92,8 @@ En la tabla siguiente se proporciona una lista de las opciones de configuración
 </tr>
 <tr class="even">
 <td><p>Minima</p></td>
-<td><p>True</p></td>
-<td><p>False</p></td>
+<td><p>Verdadero</p></td>
+<td><p>Falso</p></td>
 <td><p>350</p></td>
 <td><p>350</p></td>
 <td><p>De punto a punto: hasta 424 x 240 de resolución de video</p>

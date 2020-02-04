@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de voz y vídeo de punto a punto'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Peer-to-Peer Voice and Video Report
 ms:assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615040(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185535
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b938a5281717528143cfc077a42f51bd68f69bae
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 68cddb8296a94ff5d5b084895024d7379a42022c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825397"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755290"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: herramienta de diagnóstico de PRELLAMADA de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync PreCall Diagnostics Tool
 ms:assetid: 0ff291ec-cfb4-43eb-b5d6-a7a325681e3f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn451255(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56708404
 ms.date: 11/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1e22b542a5840714455d4abdb0a7163e6a8ba748
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 004d3b30dc2c2886eb7a2d8977f1da062277cc92
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834926"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742340"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -121,17 +123,17 @@ El PCD de Lync incluye las características siguientes:
 
   - Diagnosticar errores de inicio de sesión (PCD de Lync para Windows 8 solamente)
 
-![Captura de pantalla de características de PCD de Lync] (images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Captura de pantalla de características de PCD de Lync")
+![Captura de pantalla de características de PCD de Lync](images/Dn451255.7e0eb891-1481-47ae-8d63-164468f69c96(OCS.15).png "Captura de pantalla de características de PCD de Lync")
 
   - Vista gráfica de métricas de red: MOS de red, pérdida de paquetes e vibración de la interrecepción en la vista de pantalla completa y acoplada.
 
 **Vista pantalla completa**
 
-![Gráficos de resultados de pruebas] de la herramienta de diagnóstico prellamar (images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Gráficos de resultados de pruebas") de la herramienta de diagnóstico prellamar
+![Gráficos de los resultados de las pruebas de la herramienta de diagnóstico previo a la llamada](images/Dn451255.5d01fd94-9e59-4823-96c7-7a1c83dd7d31(OCS.15).png "Gráficos de los resultados de las pruebas de la herramienta de diagnóstico previo a la llamada")
 
 **Vista acoplada**
 
-![Resultados de pruebas de uso de la herramienta de diagnóstico PRELLAMADA] (images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Resultados de pruebas de uso de la herramienta de diagnóstico PRELLAMADA")
+![Resultados de la prueba de utilización de la herramienta de diagnóstico previo a la llamada](images/Dn451255.30501ba7-22d1-4db1-9297-56cf7dc6721c(OCS.15).png "Resultados de la prueba de utilización de la herramienta de diagnóstico previo a la llamada")
 
 </div>
 
@@ -145,11 +147,11 @@ El PCD de Lync incluye las características siguientes:
 
 ## <a name="running-windows-desktop-app"></a>Ejecutando la aplicación de escritorio de Windows
 
-1.  Para iniciar el PCD en un sistema Windows 7, seleccione **diagnósticos** de PRELLAMADA en el menú **Inicio** .
+1.  Para iniciar el PCD en un sistema Windows 7, seleccione **diagnósticos de PRELLAMADA** en el menú **Inicio** .
     
     Para iniciar el PCD en un sistema Windows 8, seleccione el icono de la pantalla de inicio o busque "diagnósticos de PRELLAMADA".
     
-    ![Icono] de la herramienta de diagnóstico de PRELLAMADA (images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Icono") de la herramienta de diagnóstico de PRELLAMADA
+    ![Icono de la herramienta de diagnóstico previo a la llamada](images/Dn451255.c9800fde-54f6-4efe-bb35-1a38064ec380(OCS.15).png "Icono de la herramienta de diagnóstico previo a la llamada")
 
 2.  Cuando se inicie la herramienta, seleccione el método preferido para proporcionar credenciales y seleccione el modo de funcionamiento de red en el cuadro de diálogo Opciones de la **herramienta de diagnóstico PRELLAMADA** y, a continuación, seleccione **Aceptar**:
 
@@ -171,9 +173,9 @@ El PCD de Lync incluye las características siguientes:
 
 Para quitar el PCD de Lync, siga el procedimiento correspondiente a su sistema operativo:
 
-  - En un sistema Windows 7, abra el **Panel de control**, seleccione **programas y características**y haga doble clic en diagnósticos de prellamada de **Lync 2013**.
+  - En un sistema Windows 7, abra el **Panel de control**, seleccione **programas y características**y haga doble clic en **diagnósticos de PRELLAMADA de Lync 2013**.
 
-  - En un sistema Windows 8, haga clic con el botón derecho en el mosaico **** de PCD y haga clic en desinstalar en la barra de aplicaciones de la parte inferior de la pantalla de inicio.
+  - En un sistema Windows 8, haga clic con el botón derecho en el mosaico de PCD y haga clic en **desinstalar** en la barra de aplicaciones de la parte inferior de la pantalla de inicio.
 
 </div>
 

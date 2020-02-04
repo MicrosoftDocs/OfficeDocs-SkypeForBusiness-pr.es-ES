@@ -3,6 +3,8 @@ title: 'Lync Server 2013: registradores y cmdlets de directores'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Registrar and Director cmdlets
 ms:assetid: 327c08ab-7e1e-47c0-b280-a001722c116f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415641(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183813
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e6b27addf56bd9a3c1171d9b2430005675f8eb3e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5512b80d5860c94d379c5c5d43e51cdb8ac5177
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824032"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746860"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

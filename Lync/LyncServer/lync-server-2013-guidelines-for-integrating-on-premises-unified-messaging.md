@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Instrucciones para integrar mensajería unificada loca
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Guidelines for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 829ac017-6907-40f9-be22-787a28eae0ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398656(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184681
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15973bf2055339e375e4aecc7cfd1f61ac205dbb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3f3e57245f0a8edf5b545f9a67547e6be6f63399
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835102"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739620"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -88,7 +90,7 @@ Los siguientes ejemplos de configuraciones ofrecen resistencia a la mensajería 
 
 **Ejemplo 1: Resistencia de la mensajería unificada de Exchange**
 
-![Ejemplo 1 de mensajería unificada de Exchange] (images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Ejemplo 1 de mensajería unificada de Exchange")
+![Ejemplo 1 de Mensajería unificada de Exchange](images/Gg398656.3644b847-0847-4550-a989-e3fc51de5c4b(OCS.15).jpg "Ejemplo 1 de Mensajería unificada de Exchange")
 
 En el Ejemplo 1, los servidores de mensajería unificada de Exchange 1 y 2 están habilitados en el centro de datos de Tukwila, y los servidores de mensajería unificada de Exchange 3 y 4 están habilitados en el centro de datos de Dublín. En el caso de que se produzca una interrupción de la mensajería unificada de Exchange en Tukwila, los registros de sistemas de nombre de dominio (DNS) A de los servidores 1 y 2 deben estar configurados para apuntar, respectivamente, a los servidores 3 y 4. En el caso de que se produzca una interrupción de la mensajería unificada de Exchange en Dublín, los registros DNS A de los servidores 3 y 4 deben estar configurados para apuntar, respectivamente, a los servidores 1 y 2.
 
@@ -109,7 +111,7 @@ En el Ejemplo 1, los servidores de mensajería unificada de Exchange 1 y 2 está
 
 **Ejemplo 2: Resistencia de la mensajería unificada de Exchange**
 
-![Ejemplo 2 de mensajería unificada de Exchange] (images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Ejemplo 2 de mensajería unificada de Exchange")
+![Ejemplo 2 de Mensajería unificada de Exchange](images/Gg398656.15754273-306e-448d-b258-84bc2936a2e8(OCS.15).jpg "Ejemplo 2 de Mensajería unificada de Exchange")
 
 En el Ejemplo 2, en condiciones normales de funcionamiento, los servidores de mensajería unificada de Exchange 1 y 2 están habilitados en el centro de datos de Tukwila, y los servidores de mensajería unificada de Exchange 3 y 4 están habilitados en el centro de datos de Dublín. Los cuatro servidores están incluidos en el plan de marcado URI del SIP de los usuarios de Tukwila; sin embargo, los servidores 3 y 4 están deshabilitados. En el caso de que se produzca una interrupción de la mensajería unificada de Exchange en Tukwila, por ejemplo, los servidores 1 y 2 de mensajería unificada de Exchange deben deshabilitarse y los servidores 3 y 4 de mensajería unificada de Exchange deben habilitarse para que el tráfico de mensajería unificada de Exchange de Tukwila se enrute a los servidores de Dublín.
 

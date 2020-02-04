@@ -3,6 +3,8 @@ title: 'Lync Server 2013: compatibilidad de Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync 2013 compatibility
 ms:assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412817(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541502
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e177003efb73cd1e16ae8fd772d579eb222af8bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 19099440c37da5550fb39643fad328ded08851f4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834934"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765541"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -110,14 +112,14 @@ En la siguiente tabla se describen las características de Lync 2013 que son com
 <td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>Sí</p></td>
-<td><p>Sí</p></td>
+<td><p>Sí </p></td>
 </tr>
 <tr class="even">
 <td><p>Estado de presencia en los campos Para y Cc de Microsoft Outlook</p></td>
 <td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>Sí</p></td>
-<td><p>Sí</p></td>
+<td><p>Sí </p></td>
 </tr>
 <tr class="odd">
 <td><p>Responder con llamada de conferencia desde el menú de disponibilidad</p></td>
@@ -131,14 +133,14 @@ En la siguiente tabla se describen las características de Lync 2013 que son com
 <td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>Sí</p></td>
-<td><p>Sí</p></td>
+<td><p>Sí </p></td>
 </tr>
 <tr class="odd">
 <td><p>Responder con mensajería instantánea o llamar desde la barra de herramientas o la cinta en un mensaje de correo electrónico recibido</p></td>
 <td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>Sí</p></td>
-<td><p>Sí</p></td>
+<td><p>Sí </p></td>
 </tr>
 <tr class="even">
 <td><p>Estado de presencia en el campo De de Microsoft Outlook</p></td>
@@ -166,7 +168,7 @@ En la siguiente tabla se describen las características de Lync 2013 que son com
 <td><p>No</p></td>
 <td><p>No</p></td>
 <td><p>Sí</p></td>
-<td><p>Sí</p></td>
+<td><p>Sí </p></td>
 </tr>
 </tbody>
 </table>

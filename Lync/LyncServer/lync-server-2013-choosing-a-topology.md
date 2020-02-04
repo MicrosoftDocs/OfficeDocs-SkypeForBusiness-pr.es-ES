@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Elección de una topología'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Choosing a topology
 ms:assetid: 23f2aeb6-fed9-4349-8fba-dcbf18ee4b04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425716(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183634
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3aa98d479ca2bfeaf6214bbd1e66bb3f41b09782
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0b9f59648d845f37c7cf6d92c471b81a29415753
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842579"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729890"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -170,7 +172,7 @@ El uso de NAT para todas las interfaces externas de borde requiere el uso del eq
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>1</p></td>
 <td><p>6</p></td>
 <td><p>3 (1 por VIP) + 6</p></td>
 </tr>
@@ -211,7 +213,7 @@ El uso de NAT para todas las interfaces externas de borde requiere el uso del eq
 <tbody>
 <tr class="odd">
 <td><p>2</p></td>
-<td><p>2</p></td>
+<td><p>1</p></td>
 <td><p>1 (1 por VIP) + 2</p></td>
 </tr>
 <tr class="even">

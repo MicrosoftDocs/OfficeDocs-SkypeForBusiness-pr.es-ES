@@ -3,6 +3,8 @@ title: 'Lync Server 2013: copia de seguridad y restauración de Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backing up and restoring Lync Server 2013
 ms:assetid: 07dc1f5e-af66-4e18-bf39-881dceff8bc3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202160(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541443
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5a0cf9f9baabd095e54373c31acd4f4522974a82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 43a96f47bfe9d28fdbc37eea0ae62ef6cd763098
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842897"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

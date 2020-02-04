@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar certificados para servidores'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure certificates for servers
 ms:assetid: e12e59b5-a146-4859-86ec-cabfc198c7b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398995(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185531
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 21a0e239074b4f6d4638214fad41ff8ba18078fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 303724fa705fa94e9bbacacb4764bba7b918c460
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842427"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -98,7 +100,7 @@ Use el siguiente procedimiento para solicitar, asignar e instalar certificados d
     
     </div>
 
-8.  En la página **nombre y configuración de seguridad** , especifique un **nombre descriptivo** que le permita identificar el certificado y el propósito. Si deja el campo en blanco, se generará un nombre automáticamente. Establezca la **longitud de bit** de la tecla o acepte el valor predeterminado de 2048 bits. Seleccione la **clave privada del certificado como** exportable si determina que el certificado y la clave privada se deben mover o copiar a otros sistemas y, a continuación, haga clic en **siguiente**.
+8.  En la página **nombre y configuración de seguridad** , especifique un **nombre descriptivo** que le permita identificar el certificado y el propósito. Si deja el campo en blanco, se generará un nombre automáticamente. Establezca la **longitud de bit** de la tecla o acepte el valor predeterminado de 2048 bits. Seleccione la **clave privada del certificado como exportable** si determina que el certificado y la clave privada se deben mover o copiar a otros sistemas y, a continuación, haga clic en **siguiente**.
     
     <div>
     

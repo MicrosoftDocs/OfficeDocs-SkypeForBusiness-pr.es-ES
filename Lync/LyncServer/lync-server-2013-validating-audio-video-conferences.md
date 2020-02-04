@@ -3,6 +3,8 @@ title: 'Lync Server 2013: validación de conferencias de audio o vídeo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Validating audio/video conferences
 ms:assetid: 6c8c422a-d501-42cb-820b-b002f9b2250b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720915(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969615
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b0e608f0c765c4dd552645320ec947c7e8a54ac4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89bb8f38ea650bf64179b917b227d7ccaaf10791
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850157"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763654"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

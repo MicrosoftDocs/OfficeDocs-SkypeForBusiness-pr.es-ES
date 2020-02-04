@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Novedades para clientes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: What's new for clients
 ms:assetid: 5c144677-4d58-4fc3-8445-74b76c9fcf07
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204933(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184253
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: edf37f68d0ea11e17a799956f285d8ca82eb2a27
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f938ccc4e4a040307a7cf86a8084353c480cfdca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850006"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

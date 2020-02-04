@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Telefonía IP empresarial'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enterprise Voice
 ms:assetid: c9da8099-6f4f-4346-ac67-f041bb96072c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417163(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185404
 ms.date: 04/08/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c7c8131c2f52dfc7ab061d8dec46ee34b62f89e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e62224a7187c54222364045d0ac7b1aa70bccb9c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835215"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735423"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

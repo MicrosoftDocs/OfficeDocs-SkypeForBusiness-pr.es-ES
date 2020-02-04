@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver información del sitio de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Viewing network site information
 ms:assetid: 24a97d98-b168-4016-81bf-c2c478092b87
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733586
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 788440d02a3f41198a870f8419cece4dc8e66900
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6d3c6b0e4855cd8620205a70d6538465c32c0f0d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850067"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757264"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

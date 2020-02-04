@@ -3,6 +3,8 @@ title: 'Lync Server 2013: opciones de omisión de multimedia global'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Global media bypass options
 ms:assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398255(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183551
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4ebe39b6faeffd36f0dfc9e25959fe7a0b356153
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 653c47cd993bac8ada899f62fa3be6700cd34c33
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835128"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ En este tema se describe cómo usar el panel de control de Lync Server y el shel
 
 Después de habilitar la omisión de medios en las conexiones troncales a un interlocutor para determinados servicios o sitios, use el siguiente contenido para:
 
-  - Habilite siempre la omisión de medios, como se describe en [configurar omisión de contenido multimedia en Lync Server 2013 para omitir siempre el servidor](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md)de mediación.
+  - Habilite siempre la omisión de medios, como se describe en [configurar omisión de contenido multimedia en Lync Server 2013 para omitir siempre el servidor de mediación](lync-server-2013-configure-media-bypass-to-always-bypass-the-mediation-server.md).
 
   - También puede configurar la omisión de medios para usar la información del sitio y de la región, como se describe en [configurar la configuración global de omisión de contenido multimedia en Lync Server 2013 para usar la información de la región y el sitio](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md).
 

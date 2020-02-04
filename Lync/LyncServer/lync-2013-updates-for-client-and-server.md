@@ -3,6 +3,8 @@ title: 'Lync 2013: actualizaciones para clientes y servidores'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Updates for Lync
 ms:assetid: c4341430-7c0b-4119-aa08-91791e95d8c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn798863(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63369406
 ms.date: 11/12/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 114049cc462972e6d39272ccaef3651dfeb0a5be
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 937af764342def5e4d3923cfb82e771e31fe9aa8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842985"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730550"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

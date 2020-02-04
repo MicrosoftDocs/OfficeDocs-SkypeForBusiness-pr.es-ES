@@ -3,6 +3,8 @@ title: Eliminar un conjunto existente de opciones de configuración de troncos S
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing collection of SIP trunk configuration settings
 ms:assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688024(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733614
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2b896d53760184d15b02afed14b8a9c0d660f96b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b0dbb07a11cd96a330d503dc18db9102a7b33ca3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835619"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

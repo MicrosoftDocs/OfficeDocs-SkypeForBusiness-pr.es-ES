@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear vínculos de región de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create network region links
 ms:assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413047(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6c0f21f599b8afa4f9f31ec16aad82e305c8a08e
-ms.sourcegitcommit: 30ed4457d7004ba732372fee11a6f0b1baf48e05
+ms.openlocfilehash: f40b9d569cbc571fe931a53b6f399b6273efd055
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971264"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

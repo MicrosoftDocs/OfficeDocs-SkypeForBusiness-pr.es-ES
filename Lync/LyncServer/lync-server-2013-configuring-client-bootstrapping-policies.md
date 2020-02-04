@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de directivas de inicio de cliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring client bootstrapping policies
 ms:assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425941(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184031
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06119d5488b47adfe01a934aca9a55581feaf33e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8258063645267fb12801548ddfdeae1b4ef7c795
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842288"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -157,12 +159,12 @@ Las directivas configuradas en el servidor tienen prioridad frente a la configur
 <td><p>Aprovisionamiento en banda de Lync Server 2013</p></td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>1</p></td>
+<td><p>HKEY_LOCAL_MACHINE \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="odd">
 <td><p>3</p></td>
-<td><p>HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
+<td><p>HKEY_CURRENT_USER \SOFTWARE\Policies\Microsoft\Office\15.0\Lync</p></td>
 </tr>
 <tr class="even">
 <td><p>4</p></td>

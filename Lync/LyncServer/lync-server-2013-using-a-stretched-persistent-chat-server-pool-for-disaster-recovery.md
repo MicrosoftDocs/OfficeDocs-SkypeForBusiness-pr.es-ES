@@ -3,6 +3,8 @@ title: Usar un grupo de servidores de chat persistente estirado para la recupera
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using a stretched Persistent Chat Server pool for disaster recovery
 ms:assetid: 74c5287e-d70d-490a-9adc-ab419917ddd9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205007(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184506
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3ae23ed2d12548388cd1462aad653de4652633dc
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: e2d5091623e381191d23ae0c8a62835577a1f66a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111744"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

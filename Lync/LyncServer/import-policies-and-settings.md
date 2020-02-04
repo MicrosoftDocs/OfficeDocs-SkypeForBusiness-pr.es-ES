@@ -3,6 +3,8 @@ title: Importar directivas y configuración
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Import policies and settings
 ms:assetid: b25decee-2ee5-4836-b370-454411d39252
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205178(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185147
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5f4a4d86d687236934c319e3fb7bd5e6c8027a73
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6f8023f917e3da6757ce27ede44a63cf0ab1a08d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842987"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

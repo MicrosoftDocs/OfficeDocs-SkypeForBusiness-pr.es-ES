@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla Gateways'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Gateways table
 ms:assetid: a909daad-d137-45e0-b149-1de9f8e1e029
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412795(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a4f26a45d992d716b94cb7353f813c038272b132
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a5ee7296b93b3a9e1d7900b3ddde5c1b850c3580
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835131"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

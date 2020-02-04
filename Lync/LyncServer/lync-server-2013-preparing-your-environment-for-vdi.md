@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Preparar su entorno para VDI'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing your environment for VDI
 ms:assetid: a3ec2e13-1a73-4b1c-a54a-8db7d4cd50f9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205154(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185052
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5081d1267b9de521ebd17fa5f3ec5ae57a912970
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 57a3fb2563e287f24d49c23a468b4a44528707b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823703"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747280"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

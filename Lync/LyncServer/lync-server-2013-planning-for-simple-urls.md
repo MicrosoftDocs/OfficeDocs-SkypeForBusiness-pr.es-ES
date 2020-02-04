@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planeación de las direcciones URL simples'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for simple URLs
 ms:assetid: 20e4f4b6-b7ff-4297-b00d-d1211ee800ac
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398287(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183610
 ms.date: 12/12/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17dbfce9f699f31e09bb66d6d596e0a3cbf0ba96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 224ca0315aff2618500182398cfe792c9626b883
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824228"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41750470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

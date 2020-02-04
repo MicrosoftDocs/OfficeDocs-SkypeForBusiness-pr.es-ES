@@ -3,6 +3,8 @@ title: 'Lync Server 2013: comprobación de la autenticación de clientes de Lync
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing Lync Client authentication
 ms:assetid: e22114cb-4456-4e5f-93ab-51592c4a8209
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn689120(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969659
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7d8ea26c39582a69062526c7b4ae00343bb19482
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e24f579a4fcaca2651c0225b515241db00ff990
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850346"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

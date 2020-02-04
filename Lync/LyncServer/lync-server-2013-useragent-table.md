@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla UserAgent'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: UserAgent table
 ms:assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398939(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185582
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 09bb2e3a71f81014bcb08952c03b59c93ac6a62f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 25d1cd6b48b09ad3083499ec3f173772d242ba6b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850238"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Modificación de certificados para movilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Modifying certificates for mobility
 ms:assetid: 4e9107af-20f4-4c2a-8c98-ca35b39a4e2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690015(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184120
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bccb901f241089a21fd7428e28b005f46e157300
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 150dc8c7b4021e1e2c7ccab6ccc71823c01c388e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826860"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756874"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,11 +37,11 @@ ms.locfileid: "34826860"
 
 _**Última modificación del tema:** 2014-06-20_
 
-Para admitir conexiones seguras entre su entorno de Lync y sus clientes móviles, los certificados de nivel de socket seguro (SSL) para el grupo de directores, el grupo front-end y el proxy inverso deben actualizarse con un nombre alternativo de asunto adicional ( SAN). Si necesita consultar más detalles sobre los requisitos de certificados para la movilidad, consulte la sección de requisitos técnicos de los requisitos [técnicos de movilidad de Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), pero básicamente necesitará obtener nuevos certificados de la Entidad emisora de certificados con las entradas adicionales de SAN incluidas y, a continuación, agregue esos certificados siguiendo los pasos de este artículo.
+Para admitir conexiones seguras entre su entorno de Lync y sus clientes móviles, los certificados de nivel de socket seguro (SSL) para el grupo de directores, el grupo front-end y el proxy inverso deben actualizarse con un nombre alternativo de asunto adicional ( SAN). Si necesita consultar más detalles sobre los requisitos de certificados para la movilidad, consulte la sección requisitos técnicos de la [movilidad en Lync Server 2013](lync-server-2013-technical-requirements-for-mobility.md), pero básicamente tendrá que obtener nuevos certificados de la entidad emisora de certificados con las entradas de San adicionales incluidas y, después, agregar esos certificados siguiendo los pasos de este artículo.
 
 Por supuesto que antes de empezar, suele ser una buena idea saber qué nombres alternativos de sujeto ya tienen los certificados. Si no está seguro de lo que ya está configurado, hay muchas formas de averiguarlo. Si bien la opción está allí para ejecutar **Get-CsCertificate** y otros comandos de PowerShell para ver esta información, (que trataremos a continuación) de forma predeterminada, se truncarán los datos, por lo que es posible que no vea todas las propiedades que necesita. Para obtener un buen aspecto del certificado y de todas sus propiedades, puede ir a Microsoft Management Console (MMC) y cargar el complemento certificados (que también trataremos a continuación), o bien, puede simplemente comprobar el Asistente para la implementación de Lync Server.
 
-Como se mencionó anteriormente, los pasos siguientes le guiarán en la actualización de certificados mediante el shell de administración de Lync Server y MMC. Si le interesa usar el Asistente para certificados en el Asistente para la implementación de Lync Server, en su lugar, puede comprobar la [configuración de certificados para el director de Lync server 2013](lync-server-2013-configure-certificates-for-the-director.md) para el grupo de directores o directores, si ha configurado uno (es posible que no tiene). Para el servidor front-end o el grupo front-end, querrá ver [configurar certificados para servidores en Lync Server 2013](lync-server-2013-configure-certificates-for-servers.md).
+Como se mencionó anteriormente, los pasos siguientes le guiarán en la actualización de certificados mediante el shell de administración de Lync Server y MMC. Si está interesado en usar el Asistente para certificados en el Asistente para la implementación de Lync Server, en su lugar, puede comprobar la [configuración de certificados para el director de Lync server 2013](lync-server-2013-configure-certificates-for-the-director.md) para el grupo de directores o directores, si ha configurado uno (es posible que no lo tenga). Para el servidor front-end o el grupo front-end, querrá ver [configurar certificados para servidores en Lync Server 2013](lync-server-2013-configure-certificates-for-servers.md).
 
 Un último aspecto que se debe tener en cuenta es que puede tener un único certificado predeterminado en el entorno de Lync Server 2013, o puede que tenga certificados separados de forma predeterminada (que es todo menos los servicios web), WebServicesExternal y WebServicesInternal. Independientemente de la configuración, estos pasos le ayudarán.
 
@@ -61,7 +63,7 @@ Un último aspecto que se debe tener en cuenta es que puede tener un único cert
     
         Set-CsCertificate -Type <type of certificate as displayed in the Use parameter> -Thumbprint <unique identifier>
     
-    Por ejemplo, si el cmdlet **Get-CsCertificate** muestra un certificado con el uso predeterminado, otro con el uso de WebServicesInternal, y otro con el uso de WebServicesExternal, y todos tenían el mismo valor de huella digital, en la línea de comandos debe escrita
+    Por ejemplo, si el cmdlet **Get-CsCertificate** muestra un certificado con el uso predeterminado, otro con el uso de WebServicesInternal y otro con el uso de WebServicesExternal, y todos tenían el mismo valor de huella digital, en la línea de comandos, debe escribir:
     
         Set-CsCertificate -Type Default,WebServicesInternal,WebServicesExternal -Thumbprint <Certificate Thumbprint>
     
@@ -77,7 +79,7 @@ Un último aspecto que se debe tener en cuenta es que puede tener un único cert
 
 7.  En el menú MMC, seleccione **archivo**, seleccione **Agregar o quitar complemento...**, seleccione certificados. Haga clic en **Agregar**. Cuando se le solicite, seleccione **cuenta de equipo**y, a continuación, haga clic en **siguiente**.
 
-8.  Si este es el servidor donde se encuentra el certificado, seleccione **equipo local**. Si el certificado se encuentra en otro equipo, debe seleccionar **otro equipo**y, a continuación, puede escribir el nombre de dominio completo del equipo o hacer clic en **examinar** , escriba el nombre de **objeto que desea seleccionar**y escriba el nombre de el equipo. Haga clic en **Comprobar nombres**. Cuando se resuelva el nombre del equipo, aparecerá subrayado. Haga clic en **Aceptar**y, después, en **Finalizar**. Haga clic en **Aceptar** para confirmar la selección y cerrar el cuadro de diálogo **Agregar o quitar complementos** .
+8.  Si este es el servidor donde se encuentra el certificado, seleccione **equipo local**. Si el certificado se encuentra en otro equipo, debe seleccionar **otro equipo**y, a continuación, puede escribir el nombre de dominio completo del equipo o hacer clic en **examinar** , escriba el nombre de **objeto que desea seleccionar**y escriba el nombre del equipo. Haga clic en **Comprobar nombres**. Cuando se resuelva el nombre del equipo, aparecerá subrayado. Haga clic en **Aceptar**y, después, en **Finalizar**. Haga clic en **Aceptar** para confirmar la selección y cerrar el cuadro de diálogo **Agregar o quitar complementos** .
 
 9.  Para ver las propiedades del certificado, expanda **certificados**, expanda **personal**y seleccione **certificados**. Seleccione el certificado que desea ver, haga clic con el botón derecho en el certificado y seleccione **abrir**.
 

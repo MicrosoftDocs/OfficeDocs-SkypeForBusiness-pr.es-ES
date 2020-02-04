@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos del sistema para componentes perimetrales'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: System requirements for external user access components
 ms:assetid: 4139b9a5-5b98-42a8-bfcc-6b371f1980db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425919(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183966
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e2efef4e5cdf3f7aaf4026017ffc91fa2283a078
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8407f7fa407713f6feff6123e5526c779d3bfd3d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850518"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764276"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

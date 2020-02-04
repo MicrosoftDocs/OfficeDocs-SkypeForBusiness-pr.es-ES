@@ -3,6 +3,8 @@ title: 'Lync Server 2013: lista de comprobación de implementación para E9-1-1'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment checklist for E9-1-1
 ms:assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398864(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185655
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c9a48ba3d999e55106298d7419e4590147e1e9e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5efe5c55386eb431c91e798ad960cc510ce33ce1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835512"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763454"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

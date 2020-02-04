@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Iniciar el proceso de planeación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Beginning the planning process
 ms:assetid: df3722b3-f859-49e1-b3ff-ee6863483731
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398986(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185618
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 582769109a3792ddc2efdbef5d4a557b781c39b8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9da1c5535f190a6f57aa76b78a04845d4a073e2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842743"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741730"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ Recomendamos el siguiente proceso general para usar la documentación y la herra
 
 1.  Si está familiarizado con las versiones anteriores de Lync Server, lea [nuevas características de Lync server 2013](lync-server-2013-new-features.md) para familiarizarse con las nuevas características y requisitos de lync Server 2013.
 
-2.  Lea el resto de temas de esta sección de la documentación: [aspectos básicos de topología que debe conocer antes de planear Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md), [topologías de referencia en Lync Server 2013](lync-server-2013-reference-topologies.md), [decisiones iniciales de planeación para Lync Server 2013](lync-server-2013-initial-planning-decisions.md)y [ Clientes para Lync Server 2013](lync-server-2013-clients.md). Observe las decisiones de planeación representadas en las [topologías de referencia en Lync Server 2013](lync-server-2013-reference-topologies.md).
+2.  Lea el resto de temas de esta sección de la documentación: [conceptos básicos que debe conocer antes de planear Lync server 2013](lync-server-2013-topology-basics-you-must-know-before-planning.md), [topologías de referencia en Lync Server 2013](lync-server-2013-reference-topologies.md), [decisiones iniciales de planeación para](lync-server-2013-initial-planning-decisions.md)Lync Server 2013 y [clientes para Lync Server 2013](lync-server-2013-clients.md). Observe las decisiones de planeación representadas en las [topologías de referencia en Lync Server 2013](lync-server-2013-reference-topologies.md).
 
 3.  Ahora que está más familiarizado con las características de Lync Server y los tipos de preguntas que deben responderse, ejecute la herramienta de planeación y vea la topología resultante y sus detalles. Asegúrese de que la topología cumpla con los requisitos únicos de su organización.
 
@@ -97,7 +99,7 @@ Recomendamos el siguiente proceso general para usar la documentación y la herra
 
 6.  Cuando haya finalizado el plan de topología, use la herramienta de planeación para crear e imprimir un diagrama de Visio de su topología. Puede usar esta copia impresa mientras trabaja con Topology Builder para introducir su topología.
 
-7.  Antes de comenzar la implementación, lea la determinación de los [requisitos del sistema para Lync server 2013](lync-server-2013-determining-your-system-requirements.md) y la determinación de los [requisitos de infraestructura de Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) para familiarizarse con los requisitos previos y la infraestructura necesaria para Lync Server. Además, asegúrese de que ha leído todas las secciones de [planeación de Lync Server 2013](lync-server-2013-planning.md) que se aplican a las cargas de trabajo y las características que planea implementar.
+7.  Antes de comenzar la implementación, lea [determinar los requisitos del sistema para Lync server 2013](lync-server-2013-determining-your-system-requirements.md) y [determinar los requisitos de infraestructura de Lync Server 2013](lync-server-2013-determining-your-infrastructure-requirements.md) para familiarizarse con los requisitos previos y la infraestructura necesaria de Lync Server. Además, asegúrese de que ha leído todas las secciones de [planeación de Lync Server 2013](lync-server-2013-planning.md) que se aplican a las cargas de trabajo y las características que planea implementar.
 
 </div>
 

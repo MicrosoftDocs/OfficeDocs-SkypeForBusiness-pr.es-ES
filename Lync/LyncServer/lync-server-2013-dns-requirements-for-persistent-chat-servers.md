@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de DNS para servidores de chat persistentes
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Persistent Chat Servers
 ms:assetid: f7531374-d7ed-4b63-ae81-02294cb4496a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205391(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a1f52fde1ee1034f453fe62f2aa3aa44d04b389c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b97d3238c64173cb5f9bfcfc12dce40f987da123
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835364"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

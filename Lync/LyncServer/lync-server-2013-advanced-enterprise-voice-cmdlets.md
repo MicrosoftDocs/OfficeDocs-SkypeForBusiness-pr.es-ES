@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de voz de Enterprise Advanced'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Advanced Enterprise Voice cmdlets
 ms:assetid: 247179fb-1c66-4edb-8401-1c1aad189062
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415637(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183637
 ms.date: 04/12/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bbe524cafa29dedcde62229bece52144898cbf06
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a2eb83fe91f9c1f2cc0a79adc1232a051534e22e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843028"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

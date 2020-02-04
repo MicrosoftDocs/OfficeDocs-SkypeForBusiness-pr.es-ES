@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar o deshabilitar el control de versiones del c
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable client versioning
 ms:assetid: 33a98cb9-a979-4bb6-afb2-512f601d7ac5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ898475(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50873755
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8a0f6e5306e30baca3c2a8178a0d979f82d55481
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f413df3ec1d35438155492a32d9fdff449aec3c3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835301"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

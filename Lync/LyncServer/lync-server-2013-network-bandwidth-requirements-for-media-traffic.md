@@ -3,6 +3,8 @@ title: Requisitos de ancho de banda de red de Lync Server 2013 para el tráfico 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Network bandwidth requirements for media traffic
 ms:assetid: 83e83b16-0f0e-4d87-901a-0faa4618cdc2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688118(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733716
 ms.date: 09/25/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3e12092934ddd311f4fa9cd3860bc6fe0b79eff7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 684f13a10c066e8902bed0024d7546017450ee9e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826783"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765931"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

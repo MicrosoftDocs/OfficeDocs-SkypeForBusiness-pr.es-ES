@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de la configuración'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuration management
 ms:assetid: 00ea1196-cb40-427f-99a4-5e8037cbf367
 ms:mtpsurl: https://technet.microsoft.com/library/Dn720316(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969570
 ms.date: 05/16/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cb652485b03bcaee5e63bc4fc23d25fd5df958bd
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 6997f64695a4df606e6fbaa9767f22be04de6615
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628356"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741400"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

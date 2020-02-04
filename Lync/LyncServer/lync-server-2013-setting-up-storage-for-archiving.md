@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración del almacenamiento para archivar'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up storage for Archiving
 ms:assetid: f751245c-743e-454f-8325-968ae5e3de71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205392(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185858
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6728c02e9aa73faceaa8b3e681a5cf9cc4c700cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a5a380ce6c863c54739e74488bfa3b3979664e78
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850637"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732090"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

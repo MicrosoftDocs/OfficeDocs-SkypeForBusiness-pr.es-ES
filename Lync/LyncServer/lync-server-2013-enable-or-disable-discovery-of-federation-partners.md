@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Habilitar o deshabilitar la detección de socios de fe
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable discovery of federation partners
 ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184857
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e83f261fe6fa3ece259518b7730239adf20944c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f97a6ab26a3b8b3f011a62cd92bbd0271f781a1a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835304"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ En el momento de implementar los servidores perimetrales y de habilitar la Feder
 
 6.  Haga clic en **Confirmar**.
 
-Para permitir que los usuarios federados colaboren con los usuarios de su implementación de Lync Server, también debe haber configurado al menos una directiva de acceso externa para admitir el acceso de usuarios federados. Para obtener más información, vea [habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública en Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) en la documentación de implementación o en la documentación de operaciones. Para obtener más información sobre cómo controlar el acceso a dominios federados específicos, consulte [administrar dominios federados SIP para su organización en Lync server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md), [administrar proveedores federados SIP para su organización en Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) y [administrar XMPP socios federados de Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md) en la documentación de operaciones.
+Para permitir que los usuarios federados colaboren con los usuarios de su implementación de Lync Server, también debe haber configurado al menos una directiva de acceso externa para admitir el acceso de usuarios federados. Para obtener más información, vea [habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública en Lync Server 2013](lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md) en la documentación de implementación o en la documentación de operaciones. Para más información sobre cómo controlar el acceso a dominios federados específicos, consulte [administrar dominios federados SIP para su organización en Lync server 2013](lync-server-2013-manage-sip-federated-domains-for-your-organization.md), [administrar proveedores federados SIP para su organización en Lync Server 2013](lync-server-2013-manage-sip-federated-providers-for-your-organization.md) y [administrar XMPP federados socios en Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md) en la documentación de operaciones.
 
 </div>
 

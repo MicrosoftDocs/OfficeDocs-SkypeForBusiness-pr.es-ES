@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos técnicos para conferencias'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Technical requirements for conferencing
 ms:assetid: 3c0d89e1-53e6-46d7-bf8c-491260b292ea
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425889(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183923
 ms.date: 06/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 719bd7f8de6fd7356a6b2e454cc86e9aa85abd6e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3a275836b940cfe2c56b184d238bc12c432132e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850455"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Para Lync Server 2013, las conferencias de acceso telefónico local, las confere
 
 En esta sección se detallan los requisitos de hardware y software de estos servidores, junto con el collocation compatible.
 
-Las conferencias de acceso telefónico local son una característica que incluye una variedad de componentes. Algunos de los componentes son específicos de las conferencias de acceso telefónico local y otros son componentes de telefonía empresarial. En esta sección se describen los requisitos para los componentes específicos de las conferencias de acceso telefónico local. Para obtener más información sobre los requisitos de la puerta de enlace de red telefónica conmutada (RTC) y el servidor de mediación, consulte [componente servidor de mediación en Lync server 2013](lync-server-2013-mediation-server-component.md) , así como [componentes y topologías de servidor de mediación en Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) en la planificación documentación.
+Las conferencias de acceso telefónico local son una característica que incluye una variedad de componentes. Algunos de los componentes son específicos de las conferencias de acceso telefónico local y otros son componentes de telefonía empresarial. En esta sección se describen los requisitos para los componentes específicos de las conferencias de acceso telefónico local. Para obtener más información sobre los requisitos de la puerta de enlace de red telefónica conmutada (RTC) y el servidor de mediación, consulte [componente servidor de mediación en Lync server 2013](lync-server-2013-mediation-server-component.md) , así como [componentes y topologías de servidor de mediación en Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md) en la documentación de planificación.
 
 <div>
 
@@ -194,7 +196,7 @@ La página de configuración de la Conferencia de acceso telefónico local admit
 
 Lync Server 2013 no admite la personalización de mensajes de voz y de música para conferencias de acceso telefónico local. Sin embargo, si tiene una gran necesidad comercial que le exija cambiar los archivos de audio predeterminados, consulte el artículo 961177 de Microsoft Knowledge base, [Cómo personalizar las solicitudes de voz o los archivos de música para conferencias de audio de acceso telefónico local en Microsoft Office Communications Server 2007 R2](http://go.microsoft.com/fwlink/p/?linkid=3052%26kbid=961177).
 
-También puede usar la herramienta de administración de [avisos de voz personalizadas del operador de conferencias de Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , que permite a los administradores reemplazar los avisos de voz predeterminados que se usan cuando una persona que llama a la reunión se une a una reunión de Lync con avisos personalizados para proporcionar una una experiencia de reunión diferente. Las solicitudes de voz personalizadas se pueden instalar en un servidor que ejecute Lync Server 2010 o Lync Server 2013, Enterprise o Standard.
+También puede usar la herramienta de administración de [solicitudes de voz personalizadas del operador de conferencias de Microsoft Lync Server](http://go.microsoft.com/fwlink/p/?linkid=396880) , que permite a los administradores reemplazar los avisos de voz predeterminados que se usan cuando una llamada de teléfono se une a una reunión de Lync con peticiones personalizadas para proporcionar otra experiencia de entrada de reunión. Las solicitudes de voz personalizadas se pueden instalar en un servidor que ejecute Lync Server 2010 o Lync Server 2013, Enterprise o Standard.
 
 El operador de conferencia y la aplicación de anuncio de Conferencia tienen los siguientes requisitos de música en espera, nombre grabado y archivos de solicitud de audio:
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla Pools'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Pools table
 ms:assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398991(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185680
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1dab7679f663d20b5c81998c6252132a6051244b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8df31be5f0ede7217c8b6ed1539bfddea50a7280
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824144"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: establecimiento de una estrategia de copia de segurida
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Establishing a backup and restoration strategy
 ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541532
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d378c66ae820ef0be7b7b3b0492b023863e977ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5ee1a13667e28ad374f538d61f6cfd941d31fade
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835194"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -73,7 +75,7 @@ Las prioridades empresariales y los acuerdos de nivel de servicio actúan en la 
 
   - **Ubicación**   de la copia de seguridad identifique si las copias de seguridad se guardan de forma local o remota, teniendo en cuenta la seguridad y la accesibilidad. Especifique el medio que se va a usar para las copias de seguridad.
 
-  - **Los requisitos**   de hardware y software identifican y documentan los requisitos específicos de hardware y software, incluido el hardware para el almacenamiento de copias de seguridad y la restauración de componentes específicos y cualquier software y conectividad de red necesarios para admitir copia de seguridad y restauración. A medida que desarrolla los requisitos de hardware y software, tenga en cuenta los distintos escenarios de restauración que siguen.
+  - **Los requisitos**   de hardware y software identifican y documentan los requisitos específicos de hardware y software, incluido el hardware para el almacenamiento de copias de seguridad y la restauración de componentes específicos y cualquier software y conectividad de red necesarios para admitir la copia de seguridad y la restauración. A medida que desarrolla los requisitos de hardware y software, tenga en cuenta los distintos escenarios de restauración que siguen.
 
   - **Escenarios de restauración**   a continuación se muestran los procesos de restauración de los siguientes escenarios:
     

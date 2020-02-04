@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen de DNS - Topologías perimetrales consolidadas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with private IP addresses using NAT
 ms:assetid: 11bc7b84-91cf-48f9-ad0e-06ad30b46a2e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398201(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183447
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7476f258ddd70adad7f200db90b39438a19f4f84
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a7836a8d9ce998a8de9185de7aeb12eb088f190
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835367"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -82,7 +84,7 @@ Puede configurar dos adaptadores de red en cada uno de los servidores perimetral
     
     La dirección IP pública perimetral de Access es principal con la puerta de enlace predeterminada establecida para el enrutador integrado (10.45.16.1).
     
-    Las direcciones IP privadas de las conferencias web y A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** del **área local Propiedades de conexión** en Windows Server.
+    Las direcciones IP privadas de los bordes de las conferencias web y A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** de las **propiedades de conexión de área local** de Windows Server.
 
   - **Adaptador de red 2 nodo 2 (interfaz externa)**
     
@@ -90,7 +92,7 @@ Puede configurar dos adaptadores de red en cada uno de los servidores perimetral
     
     La dirección IP pública perimetral de Access es principal con la puerta de enlace predeterminada establecida para el enrutador integrado (10.45.16.1).
     
-    Las direcciones IP privadas de las conferencias web y A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** del **área local Propiedades de conexión** en Windows Server.
+    Las direcciones IP privadas de los bordes de las conferencias web y A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** de las **propiedades de conexión de área local** de Windows Server.
 
 <div>
 

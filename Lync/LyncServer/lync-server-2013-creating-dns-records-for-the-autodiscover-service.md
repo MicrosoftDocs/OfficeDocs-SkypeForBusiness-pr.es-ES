@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Creación de registros DNS para el servicio Detección
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Creating DNS records for the Autodiscover Service
 ms:assetid: 3756ffe4-c6b1-492d-850e-42a832e06567
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690010(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183823
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5307251e9c3dea202b08b48bf45e109ef19449ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d91c67620a87fdd91a1755592175e8cf2964d259
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835771"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +91,7 @@ Los registros DNS que cree pueden ser registros A (hospedaje) o registros CNAME.
 
 7.  Debe haber alguna forma de cuadro de texto **nombre de alias** como con el DNS interno, debe escribir lyncdiscover como nombre de host para la dirección URL del servicio de detección automática externa.
 
-8.  También debe haber alguna forma de un **nombre de dominio completo (FQDN) para** el cuadro de texto de host de destino, aquí es donde debe especificar el FQDN de los servicios web externos para el grupo de directores (por ejemplo, lyncwebexdir01.contoso.com) y, a continuación, hacer clic en aceptar o tomar lo que haya acción en el DNS externo para aceptar la creación de esta entrada. Como se mencionó anteriormente en el paso 4, si no tiene un grupo de directores, tendrá que usar el FQDN del grupo de servidores front-end o el FQDN de servidor único que ha configurado, según corresponda.
+8.  También debe haber alguna forma de un **nombre de dominio completo (FQDN) para** el cuadro de texto de host de destino, aquí es donde especificará el FQDN de servicios web externos para el grupo de directores (por ejemplo, lyncwebexdir01.contoso.com) y, a continuación, haga clic en aceptar o realice cualquier acción en el DNS externo para aceptar la creación de esta entrada. Como se mencionó anteriormente en el paso 4, si no tiene un grupo de directores, tendrá que usar el FQDN del grupo de servidores front-end o el FQDN de servidor único que ha configurado, según corresponda.
 
 9.  Tendrá que crear un nuevo registro CNAME de detección automática en la zona de búsqueda directa de cada dominio SIP que se admita en su entorno de Lync 2013.
 
@@ -143,7 +145,7 @@ Los registros DNS que cree pueden ser registros A (hospedaje) o registros CNAME.
 
 7.  Debe haber un lugar para escribir un **nombre**, escriba lyncdiscover como nombre de host para la dirección URL del servicio de detección automática externa.
 
-8.  También debe haber un cuadro de texto **dirección IP** , aquí es donde debe especificar la dirección IP de su grupo de directores (por ejemplo, lyncwebexdir01.contoso.com) o, posiblemente, la IP del equilibrador de carga del grupo (o una IP de proxy invertida que lleva a la misma) y, a continuación, haga clic en Aceptar o tomar cualquier acción en el DNS externo para aceptar la creación de esta entrada. Como se mencionó anteriormente en el paso 4, si no tiene un grupo de directores, tendrá que usar la dirección IP del grupo de servidores front-end o la dirección IP del servidor único que haya configurado, según corresponda.
+8.  También debe haber un cuadro de texto **dirección IP** , aquí es donde debe especificar la IP de su grupo de directores (por ejemplo, lyncwebexdir01.contoso.com) o posiblemente la IP del equilibrador de carga del grupo (o una IP de proxy invertida que lleva a la misma) y, a continuación, haga clic en aceptar o realice cualquier acción en el DNS externo para aceptar la creación de esta entrada. Como se mencionó anteriormente en el paso 4, si no tiene un grupo de directores, tendrá que usar la dirección IP del grupo de servidores front-end o la dirección IP del servidor único que haya configurado, según corresponda.
 
 9.  Tendrá que crear un nuevo registro de detección automática A o AAAA en la zona de búsqueda directa de cada dominio SIP que se admita en su entorno de Lync 2013.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Troncalización SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SIP trunking
 ms:assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398619(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184615
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9b7103b965c08df66d86eec99722ad03b937e407
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d76907c1868e9fccb1a31e705c73807a8cbe501b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850612"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764486"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: tblComplianceFanout'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: tblComplianceFanout
 ms:assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615050(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185828
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6edae4c6e37f5abb6714e7c6863c80b7a6e7756b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 196911f4fdcb7f2713ed25cca114ff9954b0c6e2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850504"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764216"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar o deshabilitar la integración con almacenam
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling or disabling integration with Exchange storage
 ms:assetid: c08b9ba5-04f6-452a-b44c-c130f1564a34
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205228(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185295
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8d2ded7e4cf586faf1f15ea6205aa23802413dc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c5c8a52aabb504ce63ef6e340b5a68e9e8c4c0e7
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835236"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ En el panel de control de Lync Server 2013, se usan configuraciones de archivado
 
   - Configuraciones de nivel de sitio y de grupo opcionales que puede crear y usar para especificar cómo se implementa el archivado para grupos o sitios específicos.
 
-Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, implementación documentación u operación.
+Para obtener detalles sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones.
 
 <div>
 

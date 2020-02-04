@@ -3,6 +3,8 @@ title: Migración de usuario
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: User migration
 ms:assetid: 4c0391e4-bf50-47bd-b4d4-213ae8055584
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204876(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184088
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f20281812032ca62602d13dce2d9c271c4d05c50
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 45353d0705cba7589577b1769fa1207d60fe2002
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849840"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: operaciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Operations
 ms:assetid: 528db561-0efe-4e55-8547-9f3836993f2d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398344(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184155
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 63fe79fbf30d41f3f365d3ae06027cb43e557b1f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27e99c56ae8c7699b3e19f18ef057b194539b75e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825838"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755784"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

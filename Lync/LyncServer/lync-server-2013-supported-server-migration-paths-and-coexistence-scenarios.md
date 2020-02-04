@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Vías de migración de servidor compatibles y escenari
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported server migration paths and coexistence scenarios
 ms:assetid: 2a6a730f-7f80-45f9-9540-3edfdaa265fb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425764(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 33b2ce878fef53f444e3834e8b1cd40286c24b0e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1b16b0c92954c004aa04b9cc665786badb9bf632
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850548"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -90,7 +92,7 @@ El generador de topología mostrará el siguiente mensaje para informarle de est
 
 </div>
 
-Para los requisitos de coexistencia específicos y otros detalles sobre la coexistencia y la migración de los componentes de Lync Server 2010 o de Office Communications Server 2007 R2 y Lync Server 2013, consulte [migración de Lync server 2010 a Lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) y [ Migración de Office Communications Server 2007 R2 a Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) en la documentación de la migración. Para obtener más información sobre compatibilidad con versiones mixtas para clientes, consulte [clientes admitidos de implementaciones anteriores en Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md).
+Para los requisitos de coexistencia específicos y otros detalles sobre la coexistencia y la migración de los componentes de Lync Server 2010 o de Office Communications Server 2007 R2 y Lync Server 2013, consulte [migración de Lync server 2010 a Lync server 2013](migration-from-lync-server-2010-to-lync-server-2013.md) y [migración de Office Communications Server 2007 R2 a Lync Server 2013](migration-from-office-communications-server-2007-r2-to-lync-server-2013.md) en la documentación de la migración. Para obtener más información sobre compatibilidad con versiones mixtas para clientes, consulte [clientes admitidos de implementaciones anteriores en Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md).
 
 </div>
 

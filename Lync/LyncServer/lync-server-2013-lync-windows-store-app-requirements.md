@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de la aplicación de la tienda Windows de L
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync Windows Store app requirements
 ms:assetid: 5f2e0a40-8450-4f61-b6f6-913fc1906020
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ823129(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 50120200
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 806fb7a71232492be7ef01474136817b7808111e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9cc1ab2b397111cef1040592f29a11d55e5f1f64
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34828428"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765328"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

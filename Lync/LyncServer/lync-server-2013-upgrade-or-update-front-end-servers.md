@@ -3,6 +3,8 @@ title: 'Lync Server 2013: actualizar o actualizar servidores front-end'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Upgrade or update Front End Servers
 ms:assetid: 20fa39ae-ecfb-4c72-9cc4-8e183d3c752f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204736(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183597
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 99c91a4f5fcae9f8d78bf01b19a17795916fb660
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af1680da68299881fe94244969d44fce1900532b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850271"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Los servidores front-end de un grupo de servidores Enterprise Edition se organiz
 
 Al actualizar los servidores, debe hacerlo a un dominio de actualización cada vez. Vuelva a poner cada servidor en un dominio de actualización, actualícelo y, a continuación, reinícielo antes de pasar a otro dominio de actualización. Asegúrese de realizar un seguimiento de los dominios de actualización y los servidores que ha actualizado hasta ahora. Use el siguiente diagrama de diagrama de flujo al actualizar cada servidor.
 
-![42ed59a4-1c26-49f7-ade4-a5a788457ab9] (images/JJ204736.42ed59a4-1c26-49f7-ade4-a5a788457ab9(OCS.15).jpg "42ed59a4-1c26-49f7-ade4-a5a788457ab9")
+:::image type="content" source="images/UpgradeUpdateFrontEndServerslync2013.png" alt-text="Actualizar o actualizar servidores front-end":::
 
 <div>
 
@@ -61,7 +63,7 @@ Al actualizar los servidores, debe hacerlo a un dominio de actualización cada v
         
 
         > [!NOTE]  
-        > Si va a realizar estas actualizaciones del servidor durante un tiempo de inactividad del servidor programado, puede ejecutar este cmdlet<STRONG></STRONG>sin el parámetro "-acNormal", de la siguiente manera: <STRONG>Stop-CsWindowsService</STRONG>. Esto cerrará inmediatamente los servicios, sin tener que esperar a que se completen todas las solicitudes de servicio existentes.
+        > Si va a realizar estas actualizaciones del servidor durante un<STRONG>tiempo de inactividad del servidor</STRONG>programado, puede ejecutar este cmdlet sin el parámetro "-acNormal", de la siguiente manera: <STRONG>Stop-CsWindowsService</STRONG>. Esto cerrará inmediatamente los servicios, sin tener que esperar a que se completen todas las solicitudes de servicio existentes.
 
         
         </div>

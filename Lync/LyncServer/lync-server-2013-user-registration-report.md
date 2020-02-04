@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de registro de usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User Registration Report
 ms:assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558614(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183486
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8f56ffd05e677d5106552a9ebcf8a0718efbc100
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 079e6cb96a9401d909be4f459d7bbe7c3f6d4ed6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850249"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744520"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

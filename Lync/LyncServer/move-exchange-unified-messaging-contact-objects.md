@@ -3,6 +3,8 @@ title: Mover objetos de contacto de mensajería unificada de Exchange
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Move Exchange Unified Messaging Contact objects
 ms:assetid: 35c7e987-41b5-4798-b617-3303f20e52e3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688022(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733612
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 946bf7221ab9f4c5a7111839bca25dabaad31d82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d79354522675daaf221052579b0863899d1176ee
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849941"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34849941"
 
 _**Última modificación del tema:** 2012-10-19_
 
-Para migrar los objetos de contacto de operador automático (AA) y de acceso de suscriptor (SA) a la nueva implementación de Lync Server 2013, primero debe mover los objetos de la implementación heredada de Office Communications Server 2007 R2 a la nueva implementación de Lync Server 2013 con el ** Cmdlets Get-CsExUmContact** y **Move-CsExUmContact** . En el servidor de Exchange, ejecute el script de Windows PowerShell **ExchUCUtil** para hacer lo siguiente para el grupo de Lync recién implementado:
+Para migrar los objetos de contacto del operador automático (AA) y del acceso de suscriptor (SA) a la nueva implementación de Lync Server 2013, primero debe mover los objetos de la implementación heredada de Office Communications Server 2007 R2 a la nueva implementación de Lync Server 2013 con los cmdlets **Get-CsExUmContact** y **Move-CsExUmContact** . En el servidor de Exchange, ejecute el script de Windows PowerShell **ExchUCUtil** para hacer lo siguiente para el grupo de Lync recién implementado:
 
   - Agréguelo a las puertas de enlace IP de mensajería unificada.
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nuevas funciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: New server features
 ms:assetid: 2e6f8a57-ab84-4578-b358-870796cddf31
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425795(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183722
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8fa65936e2e27a2b33595778961ca7edd1a2bcb4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ed5fa866c178a6e859cfba5eff92e2f6ba13b23a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826230"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

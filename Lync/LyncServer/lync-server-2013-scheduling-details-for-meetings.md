@@ -3,6 +3,8 @@ title: 'Lync Server 2013: detalles de programación de reuniones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scheduling details
 ms:assetid: 39ca6fff-2c15-4347-9f1f-6c8687a39a49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204823(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183910
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f027aac5372865bfb2803e19591dadaa1aca4805
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4a0f85e93588e725e825fee22a8c2e95b74095b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822254"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764958"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -94,7 +96,7 @@ Para garantizar la mejor experiencia de usuario, es importante programar la reun
 
 La siguiente ilustración muestra la configuración recomendada para el complemento de reunión en línea para Lync.
 
-![54e4e70d-06b0-45cd-8d94-bab649cd5dc0] (images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")
+![54e4e70d-06b0-45cd-8d94-bab649cd5dc0](images/JJ204823.54e4e70d-06b0-45cd-8d94-bab649cd5dc0(OCS.15).jpg "54e4e70d-06b0-45cd-8d94-bab649cd5dc0")
 
 </div>
 

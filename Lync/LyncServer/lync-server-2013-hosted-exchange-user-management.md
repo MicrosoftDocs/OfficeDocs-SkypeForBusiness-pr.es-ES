@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Administración de usuarios de Hosted Exchange'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange user management
 ms:assetid: e8723af5-0604-4d7d-bad2-463a9832efb4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399037(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185887
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ead9762c67f3239f84cc1290b4ff2e9acc976318
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 23289399e4eee4a654b41f2978191a6329739b4e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835063"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738990"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Resumen del certificado: SIP, Federación XMPP y mensajería instantáne
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate summary - SIP, XMPP federation, and public instant messaging
 ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
 ms:mtpsurl: https://technet.microsoft.com/library/JJ618372(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49105659
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: aede53e06493fab89a843ccc2de543aed7f05dae
-ms.sourcegitcommit: 0119af282f53f49c4ab6e01c3319d01bc6fdad2c
+ms.openlocfilehash: 0fc3b7a1745d045954fb06403dbb3359fb699a29
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111554"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

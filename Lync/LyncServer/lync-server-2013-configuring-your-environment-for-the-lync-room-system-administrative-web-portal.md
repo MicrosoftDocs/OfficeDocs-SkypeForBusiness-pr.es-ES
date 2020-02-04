@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuración del entorno para el portal web administ
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring your environment for the Lync Room System Administrative Web Portal
 ms:assetid: 1bf3cc55-cfa8-46ee-a8bc-6dab3bff76b2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn436325(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56737623
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0ef7596e65c44f871da8c26a0526a389dde72a45
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4f0f415cfeca5b798a1e29ac6ebe09105fbf08b4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842143"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,19 +67,19 @@ Para usar el portal web administrativo de Lync Room System (LRS), tendrá que in
     
      
     
-    ![Lista de grupos de administración con rol de grupo de seguridad] (images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "Lista de grupos de administración con rol de grupo de seguridad")  
+    ![Lista de grupos de administración con el rol de grupo de seguridad](images/Dn436325.5d432819-a2e2-452c-bc2a-5d4ee79d8c33(OCS.15).png "Lista de grupos de administración con el rol de grupo de seguridad")  
     
      
 
 5.  Agregue LRSFullAccessAdminGroup como miembro de LRSSupportAdminGroup.
     
-    ![Página de miembros de propiedades de LRSSupportAdminGroup] (images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "Página de miembros de propiedades de LRSSupportAdminGroup")  
+    ![Página de miembros de la propiedad LRSSupportAdminGroup](images/Dn436325.91a4a28a-cacf-4ef6-aac1-915ec41c9648(OCS.15).png "Página de miembros de la propiedad LRSSupportAdminGroup")  
     
      
 
 6.  Cree un usuario de Active Directory habilitado para usar SIP con el nombre LRSSupport. Agregue este usuario a LRSSupportAdminGroup.
     
-    ![Página de miembros de propiedades de LRSSupportAdminGroup] (images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "Página de miembros de propiedades de LRSSupportAdminGroup")  
+    ![Página de miembros de la propiedad LRSSupportAdminGroup](images/Dn436325.7638055d-22ac-4909-914d-1966f5623909(OCS.15).png "Página de miembros de la propiedad LRSSupportAdminGroup")  
     
      
 

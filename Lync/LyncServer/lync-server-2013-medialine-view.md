@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista MediaLine'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: MediaLine view
 ms:assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687972(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733560
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d930f3beeeddb5c5582f41c44f1c68ff7f21f18d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7aebd16d8bd2efaf8deeb6752deeb199411ab125
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827399"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763008"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Clientes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients for Lync Server
 ms:assetid: e143ce9b-3624-4066-942d-6c86ad99be91
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185530
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0012719827a79b92a699a642c3518db6b4c7c222
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b74341cca1d66309cecf405fda92ce944995ec53
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842564"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756434"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

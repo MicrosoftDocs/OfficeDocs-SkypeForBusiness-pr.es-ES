@@ -3,6 +3,8 @@ title: 'Lync Server 2013: aplicar una directiva de archivado de Lync Server a un
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Applying a Lync Server Archiving policy to a user
 ms:assetid: a23e4876-aa8d-4f49-a3bd-3696616e8290
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205143(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185024
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 295f1a0370372d937b07a38eab51cd43d0ef9f5c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c7b82fd0d42aa6a34533f6b5005e15edd2aa5cbd
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850722"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -61,7 +63,7 @@ Para obtener detalles sobre cómo funcionan las directivas de archivado, incluid
 
 4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
 
-5.  En **Editar usuario de Lync Server** , en **Directiva**de archivado, seleccione la Directiva de usuario de archivado que desea aplicar.
+5.  En **Editar usuario de Lync Server** , en **Directiva de archivado**, seleccione la Directiva de usuario de archivado que desea aplicar.
     
     <div>
     

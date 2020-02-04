@@ -3,6 +3,8 @@ title: Topología de referencia de Lync Server 2013 para pequeñas organizacione
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Reference topology for small organizations
 ms:assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398095(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183272
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c06a3585a342ecc7fa7c41ff2b2b2682d2b8a0c3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7e0171d9678d5d890cf4ecb81f6de25f9b558b05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823815"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746870"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ La topología de referencia para organizaciones pequeñas muestra cómo puede im
 
 **Topología de referencia para pequeñas organizaciones**
 
-![Topología de referencia implementar tres diagramas de servidores] (images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Topología de referencia implementar tres diagramas de servidores")
+![Diagrama de la topología de referencia con tres servidores implementados](images/Gg398095.25196d0d-dd07-451b-83ba-94c0ddf59030(OCS.15).jpg "Diagrama de la topología de referencia con tres servidores implementados")
 
   - **Par de servidores Standard Edition implementados**     esta organización tiene 4.000 usuarios en su sitio central. La organización ha implementado dos servidores Standard Edition y los ha emparejado para habilitar la alta disponibilidad y la recuperación ante desastres. Each server homes 2,000 users, but information about all users is synchronized between the two servers. If one goes down, an administrator can fail over those users to be served by the other server, with a minimum of disruption to users. Para obtener más información sobre las características de alta disponibilidad y recuperación ante desastres de Lync Server 2013, consulte [planear la alta disponibilidad y la recuperación ante desastres en Lync server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).
 

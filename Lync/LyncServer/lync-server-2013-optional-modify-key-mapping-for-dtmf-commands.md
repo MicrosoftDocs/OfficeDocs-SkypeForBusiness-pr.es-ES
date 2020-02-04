@@ -3,6 +3,8 @@ title: 'Lync Server 2013: (Opcional) Modificar la asignación de teclas para com
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: (Optional) Modify key mapping for DTMF commands
 ms:assetid: d753b78d-400c-4df2-957f-e7576b2019c2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398943(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dd1a9fbe17a07403fbf0195026d44b490680973e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 036092f1199ad0e361f8509b36930410685ece21
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825768"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755744"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

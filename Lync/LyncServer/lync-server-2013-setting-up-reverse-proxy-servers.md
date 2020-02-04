@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuración de los servidores proxy inversos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up reverse proxy servers
 ms:assetid: 00bc138a-243f-4389-bfa5-9c62fcc95132
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398069(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183225
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef13f2351ab74c0e3b2ba558a9dbf0aef43d71b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fbc6e0aee918d08f47c6df88f91493cd62ae6a3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850640"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764586"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34850640"
 
 _**Última modificación del tema:** 2014-05-08_
 
-Para implementaciones de servidor perimetral de Microsoft Lync Server 2013, es necesario un proxy inverso HTTPS en la red perimetral para que los clientes externos tengan acceso a los servicios Web de Lync Server 2013 (denominados *componentes Web* en Office Communications Server) en el director y el grupo de usuarios domésticos. Algunas de las características que requieren acceso externo a través de un proxy inverso son las siguientes:
+Para implementaciones de servidor perimetral de Microsoft Lync Server 2013, es necesario un proxy inverso HTTPS en la red perimetral para que los clientes externos tengan acceso a los servicios Web de Lync Server 2013 (denominados *componentes Web* en Office Communications Server) en el director y en el grupo de hogar del usuario. Algunas de las características que requieren acceso externo a través de un proxy inverso son las siguientes:
 
   - Permitir a los usuarios externos descargar el contenido de la reunión para sus reuniones.
 

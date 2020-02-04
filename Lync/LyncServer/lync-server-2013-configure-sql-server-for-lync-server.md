@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar SQL Server para Lync Server'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure SQL Server for Lync Server 2013
 ms:assetid: 375e5cc4-e436-46dc-9b02-5063f35cdcc1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425848(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0154b468540873f9b8ae6796f30336327809d394
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: efdd9d8fa7b010b420c7c532d422c9b52b6d69ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842331"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756974"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

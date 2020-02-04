@@ -3,6 +3,8 @@ title: Detener los servicios de Lync Server 2010
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Stop Lync Server 2010 services
 ms:assetid: bbb29565-819c-4f6f-a222-22494e56e91a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721863(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733796
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ffe7a6204154d5cf45a277ea2dddbdf2b8021f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 630472c67c560438f37fa65607dc817782535963
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849848"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756034"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

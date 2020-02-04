@@ -3,6 +3,8 @@ title: 'Lync Server 2013: póster: indicadores clave de estado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: 'Poster: Key Health Indicators'
 ms:assetid: 8367dccf-adaa-4a0b-a4ed-bc9570cc5e24
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn593599(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 61084873
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9454197642ac87f5d8bc0d768795854d792f9a31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 812ce68c84f86250fd25cc646bbcd5faddf0e566
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824011"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747450"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2014-02-10_
 
 Este artículo es un complemento de los [indicadores clave de estado: la base para mantener el póster de los servidores de Lync en buen estado](http://go.microsoft.com/fwlink/?linkid=391838) , que puede descargar desde el centro de descarga.
 
-![Póster que describe la solución de problemas con datos de KHI] (images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Póster que describe la solución de problemas con datos de KHI")
+![Póster que describe la solución de problemas con datos de KHI](images/Dn594589.b6fe82bd-d70f-4c1f-a812-b615ac5fa7d7(OCS.15).jpg "Póster que describe la solución de problemas con datos de KHI")
 
 Puede usar este póster para obtener información sobre los indicadores clave de estado (KHIs), los contadores de rendimiento con umbrales destinados a revelar problemas de experiencia del usuario. La recopilación de datos de KHI suele ser el primer paso para implementar la metodología de calidad de las llamadas (CQM), que se centra en garantizar una experiencia de audio de calidad para los usuarios de Lync.
 

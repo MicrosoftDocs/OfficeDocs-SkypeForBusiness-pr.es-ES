@@ -3,6 +3,8 @@ title: Eliminar una colección existente de parámetros de configuración del se
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Delete an existing collection of A/V Edge Server configuration settings
 ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688077(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733673
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6af42c338cb7032231ce562ac2227ff4089729ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7cc085cd6ac39c4712647795c5baf06eaa68f77a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835618"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737550"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

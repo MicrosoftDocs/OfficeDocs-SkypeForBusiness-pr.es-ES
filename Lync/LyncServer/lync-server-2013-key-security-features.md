@@ -3,6 +3,8 @@ title: 'Lync Server 2013: características de seguridad clave'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Key security features in Lync Server 2013
 ms:assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn342829(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56107266
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 53a6d9e23442cb127f0f08849e18f1d63bae76d6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55d59a6978b90db82ccf899df90b05c739e71a57
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834960"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738320"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ La seguridad es un tema muy amplio. La seguridad alcanza todas las característi
 
 Lync Server 2013 ofrece dos herramientas para facilitar la planeación y el diseño y reducir la posibilidad de que se configuren los componentes de Lync Server.
 
-  - La herramienta de planeación de la **topología** automatiza gran parte del proceso de diseño de la topología. Puede exportar los resultados de la herramienta de planeación a Topology Builder, que es la herramienta necesaria para instalar cada servidor que ejecute Lync Server 2013.
+  - La **herramienta de planeación** de la topología automatiza gran parte del proceso de diseño de la topología. Puede exportar los resultados de la herramienta de planeación a Topology Builder, que es la herramienta necesaria para instalar cada servidor que ejecute Lync Server 2013.
 
   - El **Generador de topologías** almacena toda la información de configuración en el almacén de administración central.
 
@@ -99,7 +101,7 @@ Microsoft Lync Server 2013 ofrece control de acceso basado en roles (RBAC) que p
 
 ## <a name="network-address-translation-nat"></a>Traducción de direcciones de red (NAT)
 
-Lync Server 2013 no admite el uso de la traducción de direcciones de red (NAT) en la interfaz interna del servidor perimetral, pero admite la colocación de la interfaz externa del servicio perimetral de acceso, el servicio perimetral de conferencias web y el servicio perimetral a/V tras una enrutador o firewall que realiza la traducción de direcciones de red (NAT) para topologías de servidores perimetrales individuales y a escala. Si hay varios servidores perimetrales tras un equilibrador de carga de hardware, no se podrá utilizar NAT. Si hay varios servidores perimetrales que utilizan NAT en sus interfaces externas, se necesitará aplicar equilibrio de carga de sistema de nombres de dominio (DNS). El equilibrio de carga de DNS permite, al mismo tiempo, reducir el número de direcciones IP públicas por servidor perimetral en grupo de servidores perimetrales. Para obtener más información, consulte[planear el acceso de usuarios externos en Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
+Lync Server 2013 no admite el uso de la traducción de direcciones de red (NAT) en la interfaz interna del servidor perimetral, pero admite la colocación de la interfaz externa del servicio perimetral de acceso, el servicio perimetral de conferencias web y el servicio perimetral A/V detrás de un enrutador o firewall que realice la traducción de direcciones de red Si hay varios servidores perimetrales tras un equilibrador de carga de hardware, no se podrá utilizar NAT. Si hay varios servidores perimetrales que utilizan NAT en sus interfaces externas, se necesitará aplicar equilibrio de carga de sistema de nombres de dominio (DNS). El equilibrio de carga de DNS permite, al mismo tiempo, reducir el número de direcciones IP públicas por servidor perimetral en grupo de servidores perimetrales. Para obtener más información, consulte[planear el acceso de usuarios externos en Lync Server 2013](lync-server-2013-planning-for-external-user-access.md).
 
 <div>
 
@@ -131,7 +133,7 @@ Lync Server 2013 se ha diseñado y desarrollado en conformidad con el ciclo de v
 
   - **Digno de confianza**de forma predeterminada, las comunicaciones de red en Lync Server 2013 están cifradas.    Como todos los servidores usan certificados y autenticación Kerberos, TLS, protocolo seguro de transporte en tiempo real (SRTP) y otras técnicas de cifrado estándar de la industria, incluido el cifrado estándar de cifrado avanzado de 128 bits (AES), casi todas las Lync Los datos del servidor están protegidos en la red. Además, el control de acceso basado en roles permite implementar servidores que ejecuten Lync Server 2013 para que cada rol de servidor solo ejecute los servicios y solo tenga los permisos relacionados con esos servicios, que son adecuados para el rol de servidor.
 
-  - **Confianza por implementación**   toda la documentación de Lync Server 2013 incluye las prácticas recomendadas y las recomendaciones para ayudarle a determinar y configurar los niveles de seguridad óptimos para su implementación y evaluar los riesgos de seguridad de activar no predeterminado Opciones.
+  - **Confianza por implementación**   toda la documentación de Lync Server 2013 incluye prácticas recomendadas y recomendaciones que le ayudarán a determinar y configurar los niveles de seguridad óptimos para su implementación y a evaluar los riesgos de seguridad de activar opciones no predeterminadas.
 
 </div>
 

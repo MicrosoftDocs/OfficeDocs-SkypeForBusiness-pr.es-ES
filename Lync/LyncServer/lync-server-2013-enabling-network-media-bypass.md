@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar la omisión de medios de red'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enabling network media bypass
 ms:assetid: 95c4fa06-49d3-41ac-acdc-7dcda66e5508
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182552(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184846
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ff18c69d6d257a520d2413bff266c97879d4963e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4e0b5e7b060d056a785e80fdf29ded718d120bc1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835256"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735800"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -65,7 +67,7 @@ Puede habilitar y configurar la omisión de medios en el panel de control de Lyn
         
           - Hay conectividad completa entre las puertas de enlace y los clientes.
     
-      - **Usar la configuración**   de sitios y regiones si CAC está habilitado, esta opción está seleccionada de forma predeterminada y no se puede cambiar. Cuando esta opción está seleccionada, se usarán regiones y sitios de configuración de red para determinar cuándo es posible la omisión de medios. Si selecciona esta opción, puede habilitar el omisión de sitios que no están asignados. Haga clic en la casilla **de verificación Habilitar el omisión de sitios no asignados** solo si tiene uno o varios sitios grandes asociados a la misma región que no tienen restricciones de ancho de banda (por ejemplo, un sitio central grande) y también tiene algunos sitios de rama asociados con el la misma región que tiene restricciones de ancho de banda. Cuando habilita el bypass para sitios no asignados, la configuración se simplifica porque especifica solo las subredes asociadas a las sucursales en lugar de tener que especificar todas las subredes asociadas a todos los sitios. Le recomendamos que no active la casilla **Habilitar omisión para sitios no asignados** si CAC está habilitado.
+      - **Usar la configuración**   de sitios y regiones si CAC está habilitado, esta opción está seleccionada de forma predeterminada y no se puede cambiar. Cuando esta opción está seleccionada, se usarán regiones y sitios de configuración de red para determinar cuándo es posible la omisión de medios. Si selecciona esta opción, puede habilitar el omisión de sitios que no están asignados. Haga clic en la casilla **de verificación Habilitar el omisión de sitios no asignados** solo si tiene uno o varios sitios grandes asociados a la misma región que no tienen restricciones de ancho de banda (por ejemplo, un sitio central grande) y también tiene algunos sitios de rama asociados a la misma región que tienen restricciones de ancho de banda. Cuando habilita el bypass para sitios no asignados, la configuración se simplifica porque especifica solo las subredes asociadas a las sucursales en lugar de tener que especificar todas las subredes asociadas a todos los sitios. Le recomendamos que no active la casilla **Habilitar omisión para sitios no asignados** si CAC está habilitado.
 
 8.  Haga clic en **confirmar** para guardar los cambios.
 

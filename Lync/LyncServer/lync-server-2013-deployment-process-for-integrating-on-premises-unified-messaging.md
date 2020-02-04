@@ -3,6 +3,8 @@ title: Proceso de implementación para integrar la mensajería unificada local
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment process for integrating on-premises Unified Messaging and Lync Server
 ms:assetid: 269a4436-f09f-415b-96ab-49a64370a385
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425737(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183664
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7147a83bad1ed8b5cacc369d8d64e71fcaac32b1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76a45210fa90e5d2493885e54f07bb922f6d0495
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835479"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762618"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -35,7 +37,7 @@ ms.locfileid: "34835479"
 
 _**Última modificación del tema:** 2012-12-17_
 
-Si desea integrar la mensajería unificada de Exchange (UM) con Lync Server 2013, debe realizar las tareas descritas en este tema. Además, asegúrese de revisar las prácticas recomendadas de planeamiento e implementación descritas en [directrices para integrar la mensajería unificada local y Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md). En este tema se supone que ha implementado Lync Server 2013 con un servidor de mediación en el que ha habilitado usuarios para Lync Server 2013, pero no necesariamente que haya realizado todos los pasos de implementación y configuración para habilitar la telefonía IP empresarial, como se describe en [implementación de telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) en la documentación de implementación.
+Si desea integrar la mensajería unificada de Exchange (UM) con Lync Server 2013, debe realizar las tareas descritas en este tema. Además, asegúrese de revisar las prácticas recomendadas de planeamiento e implementación descritas en [directrices para integrar la mensajería unificada local y Lync Server 2013](lync-server-2013-guidelines-for-integrating-on-premises-unified-messaging.md). En este tema se supone que ha implementado Lync Server 2013 con un servidor de mediación en el que ha habilitado usuarios para Lync Server 2013, pero no necesariamente que haya realizado todos los pasos de implementación y configuración para habilitar la telefonía IP empresarial, como se describe en [implementar la telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) , en la documentación de implementación.
 
 <div>
 

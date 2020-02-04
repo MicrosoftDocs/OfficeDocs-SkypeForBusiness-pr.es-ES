@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cambios realizados por Grant-CsSetupPermission'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by Grant-CsSetupPermission
 ms:assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205250(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185360
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bc63cf814f2bd901ab9753fe0f4501e7f44e2189
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9d82b896f1d6d1da1184bfa61d7352c9b4803a03
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842593"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742360"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

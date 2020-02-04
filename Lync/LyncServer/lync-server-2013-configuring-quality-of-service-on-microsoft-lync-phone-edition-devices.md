@@ -3,6 +3,8 @@ title: Configuración de la calidad de servicio en dispositivos Microsoft Lync P
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Quality of Service on Microsoft Lync Phone Edition devices
 ms:assetid: a6eb2620-a512-4ab6-bdfd-eb76be43bbfe
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205137(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185004
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a9f7f96e90aa07da193f9ffb714fc3437ba46cd8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: aa8068b69afa3e02a5634041c61be6f7711e8f30
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842189"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734820"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

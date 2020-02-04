@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Preparación del bosque'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Preparing the forest
 ms:assetid: 3d188fcb-c64e-46cf-a3a7-9e3ebefed7fd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425898(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183926
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c374252f94c3a872eacbb99a4f6b891204bb56cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8a485ba2a406fd762d70ba4e8ff621d2d6af3801
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823843"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747390"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

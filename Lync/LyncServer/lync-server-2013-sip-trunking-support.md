@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Compatibilidad con conexiones de enlace troncal SIP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SIP trunking support
 ms:assetid: e3042831-e8d8-4ea2-baa2-1a697401ffa0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399005(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185714
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d2bdcf814a62bed4954c77be76bef32e1b6807ba
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58108df8795aaae8d431b320125d34d14ee3a275
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850622"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731950"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

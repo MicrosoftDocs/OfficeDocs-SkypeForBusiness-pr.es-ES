@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Interoperabilidad de clientes en Lync 2013'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Client interoperability in Lync 2013
 ms:assetid: 0f126571-91a2-45d5-855c-1e4ddb45fc04
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204672(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183417
 ms.date: 03/04/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f8ccc6239ffa0216e36839a7e58b510d8c8c3240
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b28d0de09a46a2be8b968e55c8f551e397da6ae8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842580"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756764"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -197,7 +199,7 @@ En la tabla siguiente se compara la disponibilidad de las características de la
 <tr class="header">
 <th>Cliente</th>
 <th>Mensajería instantánea</th>
-<th>Presencia</th>
+<th>Presence</th>
 <th>Voz</th>
 <th>Vídeo</th>
 <th>Uso compartido de aplicaciones</th>
@@ -448,7 +450,7 @@ las características de presencia y mensajería instantánea de 4The en Office C
 
 La compatibilidad del servidor para los distintos complementos de programación es coherente con la compatibilidad de versiones de servidor y cliente. En general, los complementos de programación siguientes son compatibles con Lync Server 2013. Sin embargo, las versiones anteriores de complementos no proporcionan nuevas características de complemento de Lync 2013, como la opción de silenciar el audio y vídeo de todos los asistentes en la entrada de la reunión.
 
-  - **Complemento de reunión en línea para Lync 2013**   proporciona las mismas características que el complemento de reunión en línea para Lync 2010, con la adición de controles de silencio de asistente, que permiten a los organizadores de reuniones programar conferencias en las que se ha silenciado el audio y el vídeo de los asistentes programas. Los administradores también pueden personalizar las invitaciones a reuniones de la organización agregando un logotipo personalizado, una dirección URL de soporte técnico, una dirección URL de renuncia legal o texto de pie de página personalizado.
+  - **Complemento de reunión en línea para Lync 2013**   proporciona las mismas características que el complemento de reunión en línea para Lync 2010, con la adición de controles de silencio de asistente, que permiten a los organizadores de reuniones programar conferencias en las que se ha silenciado el audio y el vídeo del asistente de forma predeterminada. Los administradores también pueden personalizar las invitaciones a reuniones de la organización agregando un logotipo personalizado, una dirección URL de soporte técnico, una dirección URL de renuncia legal o texto de pie de página personalizado.
 
   - **Complemento de reunión en línea para Lync 2010**   proporciona programación para reuniones de Lync y elimina la capacidad de programar conferencias de Office Live Meeting.
 

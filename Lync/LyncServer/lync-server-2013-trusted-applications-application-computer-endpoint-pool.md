@@ -3,6 +3,8 @@ title: 'Lync Server 2013: aplicaciones de confianza (aplicación/equipo/punto de
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Trusted applications (application/computer/endpoint/pool)
 ms:assetid: 5ec751df-1697-4739-b9e6-f7e23d8c6d54
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688073(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733667
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: da1fb1a0629873d283aa7465d6eccc4d40dbf040
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 04a80b13cc7fd1bd88ce8b361b08938719f5929b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850287"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744920"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

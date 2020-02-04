@@ -3,6 +3,8 @@ title: 'Lync Server 2013: prueba de la publicación de presencia de usuario y su
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing user presence publishing and subscribing
 ms:assetid: 27694c71-8e63-4aa4-b49f-fa06ccb81949
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743832(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969587
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17c7052550067868ff201c809a51e1d119c5f8a1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4d506ed0115fd5346048ff8870763a7ffc888a69
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850315"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745300"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

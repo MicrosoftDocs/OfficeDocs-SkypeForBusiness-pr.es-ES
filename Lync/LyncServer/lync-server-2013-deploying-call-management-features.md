@@ -3,6 +3,8 @@ title: 'Lync Server 2013: implementar características de administración de lla
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying call management features
 ms:assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204706(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183504
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fc8e13127242cb81a1e51af72230c67a6a774111
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d67e0fdae8c8936df615640e3d641a5794c7350b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835559"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729440"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos adicionales de software'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Additional software requirements
 ms:assetid: 87b318e3-03ae-41f7-af5e-29bb294f6af0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398686(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184731
 ms.date: 12/09/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2e21a375fecbd109e108806dc816a9fa3fce81a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: fc650b4c427640398af1748e86c7bca9d76c703d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842921"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41738020"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

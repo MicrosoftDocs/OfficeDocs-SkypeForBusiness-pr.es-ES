@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar grupos de respuesta'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring Response Group
 ms:assetid: c56db929-cb21-4af0-be3f-c8f807b78a5a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205249(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c4d12d1ee21cfa5e480dea52a0de9f89b250715c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b94bc731ac00a4ff774930f506282b6aef16cbaa
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842179"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739270"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

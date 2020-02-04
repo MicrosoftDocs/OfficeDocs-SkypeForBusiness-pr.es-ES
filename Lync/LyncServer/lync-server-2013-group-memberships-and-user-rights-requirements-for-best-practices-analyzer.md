@@ -3,6 +3,8 @@ title: Pertenencias a grupos y requisitos de derechos de usuario para el analiza
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Group memberships and user rights requirements for Best Practices Analyzer
 ms:assetid: f812e343-8f75-454e-b7a8-1b404e32071a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591354(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185869
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 2c60f6256cead59b16f443994143d40bdbc00393
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b9561736fc6dce1649d0a3dd29e15a7d88500a38
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835110"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757564"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

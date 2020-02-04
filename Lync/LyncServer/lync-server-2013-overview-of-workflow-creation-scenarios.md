@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Resumen de escenarios de creación de flujo de trabajo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of workflow creation scenarios
 ms:assetid: 05e0c175-0f1a-4bb1-b048-c68584d00649
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204646(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183309
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1fc785392c50ea0ea1babe79ca5d30b455844ecd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 08ecb210ea937184039587d289c5c9c57cb4fa4d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825313"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755414"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

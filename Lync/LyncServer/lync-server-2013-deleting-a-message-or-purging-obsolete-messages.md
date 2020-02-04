@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Eliminación de un mensaje o depuración de mensajes o
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deleting a message or purging obsolete messages
 ms:assetid: 3f0c612d-6dfd-41a4-a5fe-5ff3448eb0ce
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215874(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48706000
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75e6d383b1c64441f8ff052e390dc141102e8901
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d8040d52690628b6085727d6a1fdac9288b94d5e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835592"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763242"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

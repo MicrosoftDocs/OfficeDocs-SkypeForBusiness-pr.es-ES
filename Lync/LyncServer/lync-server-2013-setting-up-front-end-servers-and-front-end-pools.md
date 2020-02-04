@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar servidores front-end y grupos de servidores
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Front End Servers and Front End pools
 ms:assetid: c88526f9-69e2-47dd-b3d7-056139d74fb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398827(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185381
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ab21e5933623af58834d3b9effa5ba1e2beecc43
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8b912eca536960bccc09c5e7a14c9adc245fe69e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850678"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

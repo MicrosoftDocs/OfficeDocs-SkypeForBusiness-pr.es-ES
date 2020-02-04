@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de la infraestructura de certificados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Certificate infrastructure requirements
 ms:assetid: 0051aa23-0bbe-4e72-9f29-e01c6bcc6190
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398066(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183219
 ms.date: 06/23/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 59089e9e44110809374ef0bf11fb2dc97705d0d1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 61205cf4ecdac8eac78820442264286f414095ac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842661"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736830"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

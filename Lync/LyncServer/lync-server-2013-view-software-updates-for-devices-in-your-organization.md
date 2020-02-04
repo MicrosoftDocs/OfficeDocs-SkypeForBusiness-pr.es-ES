@@ -3,6 +3,8 @@ title: 'Lync Server 2013: ver actualizaciones de software para dispositivos de s
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View software updates for devices in your organization
 ms:assetid: d2cca12b-ed43-4e1f-90ab-d14bca8b482c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182592(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185418
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 06700e198dcd1923e875401b4539a0af84417c44
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d9a969aac4559f02ee7d05f36bece84e40f65aca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850097"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757424"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

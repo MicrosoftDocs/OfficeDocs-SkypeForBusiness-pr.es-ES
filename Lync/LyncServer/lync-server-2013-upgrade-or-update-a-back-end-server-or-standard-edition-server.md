@@ -3,6 +3,8 @@ title: Actualizar o actualizar un servidor de servicios de fondo o un servidor S
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Upgrade or update a Back End Server or Standard Edition server
 ms:assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721942(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733879
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6b9d5ffba604ed5e32109ed5f1a2020b1e083b22
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0526cc7ba6a6abefd066bf07d845ffed3a4107ca
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850270"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

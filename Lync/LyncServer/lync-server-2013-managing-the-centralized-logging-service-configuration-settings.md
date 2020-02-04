@@ -3,6 +3,8 @@ title: Administración de los parámetros de configuración del servicio de regi
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing the Centralized Logging Service configuration settings
 ms:assetid: f455c3aa-0061-413d-bdfb-a3e78f82723d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721938(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733875
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b1ce13f34a5a48c80c1f825e225a20c96ebfa2db
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4cb3b16210b3fac64c0c5bd7886849da7dd0d065
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827742"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

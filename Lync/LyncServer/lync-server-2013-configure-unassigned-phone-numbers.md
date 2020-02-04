@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configurar números de teléfono sin asignar'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure unassigned phone numbers
 ms:assetid: a0650659-dce7-455f-8977-02454bbfa400
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182559(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185009
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 22441573c22a932c383c7821cce16d79b9767a7c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02dd4f71b3bc9d53fcbd65f4e143fec550c6a528
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842312"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de conferencia Web'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Web conferencing cmdlets
 ms:assetid: dac4d934-1500-4799-be4d-82809d4e7eb3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415675(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185556
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 407fc4645f01692c664d80d0c60b337efa28f20f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 64957b303c723bb4548ac37b1aa25b2fee2a593e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850018"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758532"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

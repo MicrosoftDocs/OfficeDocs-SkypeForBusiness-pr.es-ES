@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Nota acerca de Lync: conectividad de Skype para Lync e
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Note about Lync-Skype connectivity for Lync On
 ms:assetid: 1d0f5c1a-74c6-468f-9877-ad2b1ddf355f
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440169(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9a3c3327a731f3a7c6bba25469376ffffeee8d8d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 053c29573ccac6a67473db8ba46b80cf1cdf3dcc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34826048"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755844"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

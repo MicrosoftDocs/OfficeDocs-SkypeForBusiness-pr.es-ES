@@ -3,6 +3,8 @@ title: Uso del analizador de procedimientos recomendados para buscar problemas p
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using Best Practices Analyzer to scan your deployment for potential issues
 ms:assetid: 09c84509-dc91-4e7b-882b-3c467b6b026d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg591343(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183359
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 17c7d881ebc35a4f56207fedaa8533f0a3df3c7a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 1f787268301570d4440240289c19fdd1e266a607
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850213"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2012-10-21_
 
 Para ejecutar un examen del analizador de procedimientos recomendados, debe especificar lo siguiente:
 
-  - **Credenciales**   para ejecutar un examen, debe iniciar sesión en un equipo en el que se instale Best Practices Analyzer con una cuenta que sea miembro del grupo de administradores local. Además, debe iniciar sesión con una cuenta de usuario que tenga los derechos de usuario y permisos necesarios para ejecutar las exploraciones apropiadas, o debe especificar credenciales que tengan los derechos de usuario y permisos apropiados cuando ejecute Best Practices Analyzer. Para obtener más información, consulte pertenencias [a grupos y requisitos de derechos de usuario para Best Practices Analyzer en Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
+  - **Credenciales**   para ejecutar un examen, debe iniciar sesión en un equipo en el que se instale Best Practices Analyzer con una cuenta que sea miembro del grupo de administradores local. Además, debe iniciar sesión con una cuenta de usuario que tenga los derechos de usuario y permisos necesarios para ejecutar las exploraciones apropiadas, o debe especificar credenciales que tengan los derechos de usuario y permisos apropiados cuando ejecute Best Practices Analyzer. Para obtener más información, consulte [pertenencias a grupos y requisitos de derechos de usuario para Best Practices Analyzer en Lync Server 2013](lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md).
 
   - **Ámbito de análisis**   para especificar el ámbito del análisis, seleccione las categorías y servidores que desea analizar. Puede seleccionar todas las categorías, una o varias categorías, o uno o varios servidores dentro de una categoría específica en su entorno de Lync Server.
 
@@ -59,7 +61,7 @@ Para ejecutar un examen del analizador de procedimientos recomendados, debe espe
     
       - Para ejecutar un análisis con las credenciales que usó para iniciar sesión en el equipo, haga clic en **conectar con el servidor de Active**Directory.
     
-      - Para especificar credenciales diferentes que desee usar para servicios de dominio de Active Directory, servidor perimetral o Exchange Server, haga clic en **Mostrar opciones de inicio de sesión avanzadas**, seleccione las casillas de verificación para las que se necesitan credenciales independientes y especifique las credenciales. para cada casilla seleccionada y, a continuación, haga clic en **conectar con el servidor de Active**Directory.
+      - Para especificar credenciales diferentes que desee usar para servicios de dominio de Active Directory, servidor perimetral o Exchange Server, haga clic en **Mostrar opciones de inicio de sesión avanzadas**, active las casillas de verificación para las que se necesiten credenciales distintas, especifique las credenciales para cada casilla seleccionada y, a continuación, haga clic en **conectar con el servidor de Active**Directory.
     
     <div>
     
@@ -86,7 +88,7 @@ Para ejecutar un examen del analizador de procedimientos recomendados, debe espe
     
 
     > [!NOTE]
-    > Para obtener más información sobre los informes del analizador de procedimientos recomendados y los problemas que identifican, consulte <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">ver y trabajar con informes creados por Best Practices Analyzer en Lync Server 2013</A> y <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analizar y resolver los problemas identificados por Best Practices Analyzer en Lync Server 2013</A>.
+    > Para obtener más información sobre los informes del analizador de procedimientos recomendados y los problemas que identifican, consulte <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">ver y trabajar con informes creados por Best Practices Analyzer en Lync server 2013</A> y <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analizar y resolver los problemas identificados por Best Practices Analyzer en Lync Server 2013</A>.
 
     
     </div>

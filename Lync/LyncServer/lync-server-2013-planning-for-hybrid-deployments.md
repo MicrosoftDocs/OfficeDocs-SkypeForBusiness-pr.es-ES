@@ -3,6 +3,8 @@ title: 'Lync Server 2013: planeamiento de implementaciones híbridas'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for hybrid deployments
 ms:assetid: f8b3d240-bc2e-42c9-acf8-d532d641a14c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205403(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185910
 ms.date: 05/25/2016
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3b528e22e24635d47755096cd4bf81d4066feb3c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e0902150170d51aa590afc8b3d02c887968a2031
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825152"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41751980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Debe tener el siguiente configurado en su entorno para implementar e implementar
 
   - Una sola implementación local (infraestructura) de Skype empresarial Server o Lync Server implementada en una topología compatible. Consulte requisitos de topología.
     
-    Para obtener información sobre cómo configurar su implementación de Lync Server 2013 o Lync Server 2010 para entornos híbridos, consulte Configuración de implementaciones híbridas de [Lync server 2013](lync-server-2013-configuring-hybrid-deployments.md).
+    Para obtener información sobre cómo configurar su implementación de Lync Server 2013 o Lync Server 2010 para entornos híbridos, consulte [configuración de implementaciones híbridas de Lync server 2013](lync-server-2013-configuring-hybrid-deployments.md).
 
   - Herramientas administrativas de Skype empresarial Server 2015. Si está usando Lync Server 2013 o Lync Server 2010, puede usar las herramientas administrativas de Lync Server 2013.
 
@@ -137,13 +139,13 @@ Para configurar la implementación de un entorno híbrido con Skype empresarial 
 
 
 > [!IMPORTANT]  
-> Toda la administración de usuarios, incluidos los movimientos de usuarios locales y UNRESOLVED_TOKEN_VAL (skypeforbusiness) en línea, debe realizarse con la última versión instalada de las herramientas administrativas. Las herramientas administrativas deben instalarse en un servidor independiente que tenga acceso de conexión a la implementación local existente y a Internet. El cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-CsUser</A> para mover usuarios de la implementación local a UNRESOLVED_TOKEN_VAL (skype16_online) debe ejecutarse desde las herramientas administrativas conectadas a la implementación local.
+> Toda la administración de usuarios, incluidos los movimientos de usuario locales y UNRESOLVED_TOKEN_VAL (skypeforbusiness) en línea, debe realizarse con la última versión instalada de las herramientas administrativas. Las herramientas administrativas deben instalarse en un servidor independiente que tenga acceso de conexión a la implementación local existente y a Internet. El cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Move-CsUser">Move-CsUser</A> para mover usuarios de la implementación local a UNRESOLVED_TOKEN_VAL (skype16_online) debe ejecutarse desde las herramientas administrativas conectadas a la implementación local.
 
 
 
 </div>
 
-Para obtener más información sobre las topologías admitidas, consulte topologías [admitidas en Lync server 2013](lync-server-2013-supported-topologies.md)y topologías de [referencia de Lync Server 2013 para implementaciones híbridas empresariales](http://go.microsoft.com/fwlink/p/?linkid=398709).
+Para obtener más información sobre las topologías admitidas, consulte topologías [admitidas en Lync server 2013](lync-server-2013-supported-topologies.md)y [topologías de referencia de Lync Server 2013 para implementaciones híbridas empresariales](http://go.microsoft.com/fwlink/p/?linkid=398709).
 
 Para obtener información sobre la solución de problemas de implementaciones híbridas y sobre cómo conectar PowerShell a Lync Online, vea [Lync Online: Lync PowerShell y solución de problemas híbrida](http://go.microsoft.com/fwlink/p/?linkid=306718).
 
@@ -189,7 +191,7 @@ Además, debe asegurarse de que la resolución DNS que se describe en la siguien
 <td><p>Requisito de DNS</p></td>
 </tr>
 <tr class="even">
-<td><p>Registro SRV de DNS para _sipfederationtls. _ TCP. &lt;sipdomain.com&gt; para todos los dominios SIP compatibles que se resuelven para acceder a las IP externas perimetrales</p></td>
+<td><p>Registro SRV de DNS para _sipfederationtls. _tcp. &lt;sipdomain.com&gt; para todos los dominios SIP compatibles que se resuelven para acceder a las IP externas perimetrales</p></td>
 <td><p>Servidores perimetrales</p></td>
 <td><p>Habilite la comunicación federada en una configuración híbrida. El servidor perimetral tiene que saber hacia dónde redirigir el tráfico federado para el dominio SIP que se divide entre las formas local y en línea.</p></td>
 </tr>

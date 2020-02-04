@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla ContentTypes'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: ContentTypes table
 ms:assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399007(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185723
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7947531c6ec4a518fa7e2c605dea3bba8b6cf9b5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4cf7ba9c9fb267e8c65c3ba672850c04eb95a459
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842135"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740570"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

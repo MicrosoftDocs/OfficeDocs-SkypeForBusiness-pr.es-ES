@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de Lync para Android'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Lync for Android requirements
 ms:assetid: 4ff53e03-0c1f-4a2b-9cec-1131c2a48563
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690980(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 53312965
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fb4c7ce56fb65b9f5998af90bfe63ab6eed5d28c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2c584a20df5dc2516115b4b137c0543576d5fa4d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34834928"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765498"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

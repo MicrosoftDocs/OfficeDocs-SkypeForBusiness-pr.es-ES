@@ -3,6 +3,8 @@ title: Calculadora de planeación de capacidad 2013 de Lync Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Using the Lync Server 2013 capacity planning calculator
 ms:assetid: e86c1f05-1393-408a-9549-6001572ec50d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362852(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56280894
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 385127f1686c2a4fa5beaf33f02d2eec6ba19500
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 26abf069d7c1686fe8abb804d6de4508ba6333fe
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842689"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742370"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

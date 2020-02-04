@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Componentes y topologías para la supervisión'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components and topologies for monitoring
 ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412952(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185313
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0c848b3c404bc9bce3b54d6ed52157d1b9da679
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 76e857d0c80793f61b8e60686cc9455d27bb9f95
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842515"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41742600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

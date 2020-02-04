@@ -3,6 +3,8 @@ title: 'Lync Server 2013: publicación de la topología actualizada para agregar
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Publishing the updated topology to add Archiving databases
 ms:assetid: 454c68df-2ef5-4b5f-a44c-4eee02635d45
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204860(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184034
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7f39e5f35dbd088543456f09ddd49f6aa2f9325c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d0d12b1b4195e57fc289d11eb54f24903d05ea26
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823696"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747050"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -47,7 +49,7 @@ Después de actualizar su topología en el generador de topología, debe publica
     
 
     > [!NOTE]  
-    > Puede definir una topología con una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para agregar un servidor a la topología, debe usar una cuenta que sea miembro del grupo de <STRONG>administradores de dominio</STRONG> y la de <STRONG>RTCUniversalServer Grupo administradores</STRONG> , que tiene permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que está usando para el almacén de archivos de Lync Server 2013 (es decir, el generador de topología puede configurar la lista de control de acceso discrecional (DACL) requerida. o una cuenta con derechos equivalentes.
+    > Puede definir una topología con una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para agregar un servidor a la topología. debe usar una cuenta que sea miembro del grupo <STRONG>administradores de dominio</STRONG> y el grupo <STRONG>RTCUniversalServerAdmins</STRONG> , y que tenga permisos de control total (es decir, leer, escribir y modificar) en el recurso compartido de archivos de Lync Server 2013 (es decir, para que el generador de topología pueda configurar la lista de control de acceso discrecional (DACL) requerida. o una cuenta con derechos equivalentes.
 
     
     </div>

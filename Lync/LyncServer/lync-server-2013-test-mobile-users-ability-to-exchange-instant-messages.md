@@ -3,6 +3,8 @@ title: 'Lync Server 2013: posibilidad de probar los mensajes instantáneos de lo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test mobile users' ability to exchange instant messages
 ms:assetid: a78a048f-d413-4bee-8626-d62b8b74f811
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn767950(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969638
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b7fd19f6ef2f4a44a61d56848b4bf845c79736ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db5af113c6ea87a700ca824bcef09b525338f4e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850407"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746240"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

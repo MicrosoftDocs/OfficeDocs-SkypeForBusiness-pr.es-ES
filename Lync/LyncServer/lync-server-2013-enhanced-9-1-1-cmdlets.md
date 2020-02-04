@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de 9-1-1 mejorados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enhanced 9-1-1 cmdlets
 ms:assetid: e560c688-7b34-4bd7-8104-24f390644105
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415678(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185650
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 674f74d9027789c63d76b8d8f280099b596b62b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 59b626f05bdbb2d8a93f23f2f5afdb3cc03e07b3
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835217"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735470"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

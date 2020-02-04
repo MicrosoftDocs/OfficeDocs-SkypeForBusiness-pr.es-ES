@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista VideoStreamDetail'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VideoStreamDetail view
 ms:assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721928(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733863
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 95cc003a0e136a4a4c123355548b95c9566b4b31
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfa754fbcc24377b07bab3b13473adb1c5e953ea
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850126"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741980"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

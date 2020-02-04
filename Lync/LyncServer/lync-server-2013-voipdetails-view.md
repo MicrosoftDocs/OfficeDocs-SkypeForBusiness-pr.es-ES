@@ -3,6 +3,8 @@ title: 'Lync Server 2013: vista VoIPDetails'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: VoIPDetails view
 ms:assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ687973(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733561
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9553be13dcd73f89ba8d6ab051602d378bf353da
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: db65da0af7c34d1121e97436af47750186706b68
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850017"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758552"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

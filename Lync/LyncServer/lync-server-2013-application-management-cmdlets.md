@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de administración de aplicaciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Application management cmdlets
 ms:assetid: 3b06d974-bda8-4ea6-b8fb-4d9e60265868
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415646(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183917
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 096553e41753cbc0101cc099b71b78b5f1330396
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8482a7efa1a66017bdc55cb2f121e5a3c14eade9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34843032"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41737750"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

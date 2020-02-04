@@ -3,6 +3,8 @@ title: 'Lync Server 2013: crear o modificar un objeto de contacto de dispositivo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or modify a conferencing device Contact object
 ms:assetid: 62ed64be-379c-417d-9453-511881cf5604
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994035(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803945
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b468b2338d115e7b646c28fd4d0b310b6e132d79
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 56d594f0bf6e393545f4a7c29785b5f66b328bdc
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835808"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758104"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

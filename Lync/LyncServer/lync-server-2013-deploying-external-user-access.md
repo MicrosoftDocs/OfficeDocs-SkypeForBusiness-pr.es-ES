@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implementar el acceso de usuarios externos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying external user access
 ms:assetid: d40c9574-c16b-4fe6-b848-21ae0b7e4f0e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398918(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185495
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9e8522eac5ace72f615cc3cb7b9271981d1b84c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ba083650b9a068d48e28bf8af0c51b4b25b5c227
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835552"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758044"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ La implementación de componentes de Edge para Microsoft Lync Server 2013 permit
 
 
 > [!IMPORTANT]  
-> La instalación y la&nbsp;configuración del servidor perimetral 2013 de Microsoft Lync Server pueden ser un proceso complejo que requiere una cantidad potencialmente importante de planificación y coordinación con sus equipos internos, entre los que se incluyen, entre otros, seguridad, redes, consideraciones de firewall, sistema de nombres de dominio (DNS), equilibrador de carga e infraestructura de clave pública (PKI). Le recomendamos encarecidamente que revise y use la documentación y el proceso de planeamiento que se proporcionan antes de implementar sus componentes de acceso externo. Esto le ayudará a limitar el número y la frecuencia de los cambios y la frecuencia de los cambios no deseados a medida que avanza por el proceso de implementación. Para obtener información sobre cómo planear el acceso de usuarios externos, vea <A href="lync-server-2013-planning-for-external-user-access.md">planear el acceso de usuarios externos en Lync Server 2013</A>.
+> La instalación y configuración&nbsp;del servidor perimetral 2013 de Microsoft Lync Server pueden ser un proceso complejo que requiere una cantidad potencialmente importante de planificación y coordinación con sus equipos internos, entre los que se incluyen, entre otros, consideraciones de seguridad, redes, firewalls, sistema de nombres de dominio (DNS), equilibrador de carga e infraestructura de clave pública (PKI). Le recomendamos encarecidamente que revise y use la documentación y el proceso de planeamiento que se proporcionan antes de implementar sus componentes de acceso externo. Esto le ayudará a limitar el número y la frecuencia de los cambios y la frecuencia de los cambios no deseados a medida que avanza por el proceso de implementación. Para obtener información sobre cómo planear el acceso de usuarios externos, vea <A href="lync-server-2013-planning-for-external-user-access.md">planear el acceso de usuarios externos en Lync Server 2013</A>.
 
 
 
@@ -59,7 +61,7 @@ La implementación de componentes de Edge para Microsoft Lync Server 2013 permit
 
   - [Creación de una topología perimetral y de director Lync Server 2013](lync-server-2013-building-an-edge-and-director-topology.md)
 
-  - [Configuración del Director en Lync Server 2013](lync-server-2013-setting-up-the-director.md) faculta
+  - [Configuración del Director en Lync Server 2013](lync-server-2013-setting-up-the-director.md) (opcional)
 
   - [Configuración de servidores perimetrales en Lync Server 2013](lync-server-2013-setting-up-edge-servers.md)
 

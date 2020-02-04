@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de la directiva global para archivar'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the global policy for Archiving
 ms:assetid: 58341d6b-c3ff-4dd9-b1c7-0048f33861ca
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204906(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184192
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ccb5ba267c3dc94e14f00cf96f240fa2f0e91b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c14cbb69ce620498e1d804483f97c47da37e8522
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842173"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734670"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -37,7 +39,7 @@ _**Última modificación del tema:** 2012-10-09_
 
 Al implementar los servidores front-end, Lync Server crea una directiva global para el archivado. De forma predeterminada, el archivado está deshabilitado en la directiva global. La directiva global controla si el archivado está habilitado para las comunicaciones internas y externas para toda la implementación, a no ser que Configure directivas de usuario o de sitio, que invaliden la directiva global, o si usa la integración de Microsoft Exchange para algunas o todas los usuarios. Si usa la integración de Microsoft Exchange, la directiva global no se aplica a los usuarios alojados en Exchange 2013 y tienen los buzones en conservación local.
 
-Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte Cómo funciona el archivado en la documentación de planeamiento, la documentación de implementación o la documentación de operaciones [de Lync Server 2013](lync-server-2013-how-archiving-works.md) .
+Para obtener detalles sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte [Cómo funciona el archivado en](lync-server-2013-how-archiving-works.md) la documentación de planeamiento, la documentación de implementación o la documentación de operaciones de Lync Server 2013.
 
 <div>
 

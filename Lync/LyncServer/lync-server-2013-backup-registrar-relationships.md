@@ -3,6 +3,8 @@ title: Relaciones del registrador de copia de seguridad en Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Backup Registrar relationships
 ms:assetid: 7e078271-84b9-4666-989c-c4507a0cdf4a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205033(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184631
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a642c8d8872b2c0d1372a209c9c05dac704ee20
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 44111dbdec945e525b1ef54d910e1cf7f3b5a5d0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842741"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730350"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

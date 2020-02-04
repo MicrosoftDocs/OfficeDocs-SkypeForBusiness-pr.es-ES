@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Reforzar y proteger los servidores y las aplicaciones'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hardening and protecting servers and applications for Lync Server 2013
 ms:assetid: 9ca2b233-26f1-4d72-96e7-81a82c727806
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn518331(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 62625491
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 00fea9bd192dedaf16567209798f12c7bff23e6a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42b8b9d3fc21c590bda12841cb6002987d4c0650
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835090"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739600"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

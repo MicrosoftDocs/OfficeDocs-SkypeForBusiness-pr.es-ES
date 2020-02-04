@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cambios realizados por Grant-CsOUPermission'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Changes made by Grant-CsOUPermission
 ms:assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205310(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185564
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6ce6b16dff48afeeec848024d763655695905008
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9056753e57f57b131a05d13eb2862611ba34f966
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842604"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41729940"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

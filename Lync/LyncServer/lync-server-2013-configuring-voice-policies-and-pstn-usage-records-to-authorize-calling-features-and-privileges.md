@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar directivas de voz y registros de uso de la 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring voice policies and PSTN usage records to authorize calling features and privileges
 ms:assetid: 63f22010-a3d7-4cbd-86e8-6fc0e13c2b84
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398450(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184307
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 91a14a9b7c3014fef3ecffdcff3aec4db8d6665e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b9f7da3f8560ae0a897211405d686d9ed35101e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842160"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734420"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

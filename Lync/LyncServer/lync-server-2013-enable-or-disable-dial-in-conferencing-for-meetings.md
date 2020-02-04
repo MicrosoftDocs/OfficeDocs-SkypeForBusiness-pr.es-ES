@@ -3,6 +3,8 @@ title: 'Lync Server 2013: habilitar o deshabilitar las conferencias de acceso te
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Enable or disable dial-in conferencing for meetings
 ms:assetid: 418dcf2d-c8d6-4b2c-b1ab-8723c7ef53e0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688036(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733627
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b5df22a87208238c828b20e485a2ec416fcb3065
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4600d5f978c553699029416951505c952f62bb62
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835303"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41736190"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

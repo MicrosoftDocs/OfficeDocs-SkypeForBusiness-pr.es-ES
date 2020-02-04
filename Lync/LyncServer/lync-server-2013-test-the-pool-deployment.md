@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Probar la implementación del grupo de servidores'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Test the pool deployment
 ms:assetid: ffd80617-155a-4041-bbeb-74503e7938dd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413092(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185976
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 70a1dc68b8dbe6285cdf4b7e9c21c873caaf730d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cfde95e7323d68f05e78f670a6b027a5949f0169
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850368"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41746070"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -103,7 +105,7 @@ En el procedimiento siguiente se describe cómo probar la implementación del gr
     
     A fin de probar la funcionalidad básica, seleccione la opción que prefiera para la configuración de **URI de SIP del usuario** (las demás opciones de la configuración usarán la configuración predeterminada) y, a continuación, haga clic en **Habilitar**.
 
-11. Se muestra una página de resumen que muestra una marca de verificación **** en la columna habilitada para indicar que los objetos ya están listos para su uso. En la columna **Dirección SIP** figura la dirección que se necesita para configurar el inicio de sesión del usuario.
+11. Se muestra una página de resumen que muestra una marca de verificación en la columna **habilitada** para indicar que los objetos ya están listos para su uso. En la columna **Dirección SIP** figura la dirección que se necesita para configurar el inicio de sesión del usuario.
 
 12. Iniciar sesión de un usuario en un equipo que se une al dominio y otro usuario en otro equipo del dominio.
 

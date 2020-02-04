@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Planear la resistencia de la telefonía IP empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Planning for Enterprise Voice resiliency
 ms:assetid: ca116700-1055-4ca5-9b87-4c7f380c3655
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398840(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185408
 ms.date: 10/17/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 66bba2fe6f53198fcc1e1fc423423e02d46ac8b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b8b35871b740bd6d52d741922a3dcea9b7b60b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34824844"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754060"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

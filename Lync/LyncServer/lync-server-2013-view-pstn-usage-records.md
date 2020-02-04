@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ver registros de uso de RTC'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View PSTN usage records
 ms:assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398458(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184361
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9042eca0b8ddd1f04b34c3fea0b57dd6235b69c1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b2551c8bbc40429d7e5bc4af45cae862991381a8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850101"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756684"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

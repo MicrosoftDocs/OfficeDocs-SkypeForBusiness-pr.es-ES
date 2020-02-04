@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos de DNS para el grupo de servidores front-en
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DNS requirements for Front End pool
 ms:assetid: 02d2aa6b-9e01-437b-a2df-00590280150d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398082(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183249
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3c033d8f1a4167e423d5663b0c9b0b7dbfb2d760
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 252bacd9818676155dcab0f84e3e1c5fcdb31b5d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835381"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765298"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Debe configurar los registros de sistema de nombres de dominio (DNS) necesarios 
 
 
 > [!IMPORTANT]  
-> El nombre que especifique debe ser idéntico al nombre de equipo configurado en el servidor. De forma predeterminada, el nombre de equipo de un equipo que no está unido a un dominio es un nombre corto, no un FQDN. El Generador de topologías usa nombres de dominio completos, no nombres cortos. <STRONG>Usar solo caracteres estándar</STRONG> (incluidos A-Z, a-z, 0-9 y guiones) al asignar FQDN de los servidores que ejecutan Lync Server, servidores perimetrales y grupos. No utilice caracteres Unicode ni de subrayado. A menudo, los caracteres no estándar de un FQDN no son admitidos por el DNS externo y las entidades de certificación públicas (CA) (cuando se debe asignar el FQDN al SN en el certificado).
+> El nombre que especifique debe ser idéntico al nombre de equipo configurado en el servidor. De forma predeterminada, el nombre de equipo de un equipo que no está unido a un dominio es un nombre corto, no un FQDN. El Generador de topologías usa nombres de dominio completos, no nombres cortos. <STRONG>Use solo caracteres estándar</STRONG> (incluidos A-z, a-z, 0-9 y guiones) al asignar FQDN de los servidores que ejecutan Lync Server, servidores perimetrales y grupos. No utilice caracteres Unicode ni de subrayado. A menudo, los caracteres no estándar de un FQDN no son admitidos por el DNS externo y las entidades de certificación públicas (CA) (cuando se debe asignar el FQDN al SN en el certificado).
 
 
 
@@ -210,7 +212,7 @@ La tabla sigue las arquitecturas de referencia presentadas en la sección de pla
 <tr class="odd">
 <td><p>DNS interno</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _ TCP. contoso. com</p></td>
+<td><p>_sipinternaltls. _tcp. contoso. com</p></td>
 <td><p>pool01.contoso.com</p></td>
 <td><p>5061</p></td>
 <td><p>Necesario para que la configuración automática de los clientes de Lync 2013 funcione internamente.</p></td>
@@ -218,7 +220,7 @@ La tabla sigue las arquitecturas de referencia presentadas en la sección de pla
 <tr class="even">
 <td><p>DNS interno</p></td>
 <td><p>SRV</p></td>
-<td><p>_sipinternaltls. _ TCP. fabrikam. com</p></td>
+<td><p>_sipinternaltls. _tcp. fabrikam. com</p></td>
 <td><p>pool01.fabrikam.com</p></td>
 <td><p>5061</p></td>
 <td><p>Necesario para que la configuración automática de los clientes de Lync 2013 funcione internamente.</p></td>
@@ -226,7 +228,7 @@ La tabla sigue las arquitecturas de referencia presentadas en la sección de pla
 <tr class="odd">
 <td><p>DNS interno</p></td>
 <td><p>SRV</p></td>
-<td><p>_ntp. _ UDP. contoso. com</p></td>
+<td><p>_ntp. _udp. contoso. com</p></td>
 <td><p>dc01.contoso.com</p></td>
 <td><p>123</p></td>
 <td><p>El origen de protocolo de tiempo de red (NTP) es necesario para los dispositivos que ejecutan Lync Phone Edition. Internamente, debe apuntar al controlador de dominio. Si el controlador de dominio no está definido, intentará usar el servidor NTP time.windows.com.</p></td>

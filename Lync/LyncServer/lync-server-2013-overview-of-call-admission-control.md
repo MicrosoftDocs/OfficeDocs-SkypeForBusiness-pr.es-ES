@@ -3,6 +3,8 @@ title: 'Lync Server 2013: información general sobre el control de admisión de 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of call admission control
 ms:assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398529(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184474
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 5cba1a83ce64fa575cf5de724d5dd215fcb459c7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b38fbb1ae1e209e5b5332e896d806d1ca24975
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825845"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755624"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -117,7 +119,7 @@ En la siguiente figura se muestra cómo se aplica el CAC a las conexiones RTC co
 
 **Cumplimiento del control de admisión de llamadas en conexiones al RTC**
 
-![Aplicación de omisión multimedia de voz CAC] (images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Aplicación de omisión multimedia de voz CAC")
+![Aplicación de la conexión de desvío de medios del control de admisión de llamadas de voz](images/Gg398703.4d66d529-0912-4de1-abec-266f54272eb3(OCS.15).jpg "Aplicación de la conexión de desvío de medios del control de admisión de llamadas de voz")
 
 </div>
 
@@ -131,7 +133,7 @@ El control de admisión de llamadas no se puede habilitar en los extremos que ej
 
 **Aplicación de CAC en diferentes versiones de Lync Server**
 
-![Diagrama de comparación de versiones de voz CAC] (images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "Diagrama de comparación de versiones de voz CAC")
+![Diagrama de comparación de versiones de voz CAC](images/Gg398529.fdbfee7e-15fc-445b-949d-8d61e61ac350(OCS.15).jpg "Diagrama de comparación de versiones de voz CAC")
 
 </div>
 

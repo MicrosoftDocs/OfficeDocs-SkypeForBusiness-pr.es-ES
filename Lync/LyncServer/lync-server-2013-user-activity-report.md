@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe actividad de usuario'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User Activity Report
 ms:assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558638(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183862
 ms.date: 02/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 04a7dd3dd1f2a061a327cc2a0bac79ee05f21d82
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 583c647ac3cdab290f1833539abbbd033ea89410
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850265"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744630"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

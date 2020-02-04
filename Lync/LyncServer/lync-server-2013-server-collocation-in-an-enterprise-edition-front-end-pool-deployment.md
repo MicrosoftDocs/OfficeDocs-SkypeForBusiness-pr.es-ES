@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Colocación de un servidor en una implementación de g
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Server collocation in an Enterprise Edition Front End pool deployment
 ms:assetid: 0516b18d-14c0-4237-9279-0f92e341b1bd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398102(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183287
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6947d732cf17cc053e48596ffd310f5df3b11636
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ad549c614fc14b74126a7e81e0223ad584e68141
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822023"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

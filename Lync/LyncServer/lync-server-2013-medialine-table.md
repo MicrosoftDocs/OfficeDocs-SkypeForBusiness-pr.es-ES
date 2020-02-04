@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla MediaLine'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: MediaLine table
 ms:assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425920(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183956
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4828f67614115eb4d6f46ab0a0a7c315e02d1924
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7488aa258fd30c2f9b519806dc84f9d897a08656
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34827441"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758758"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

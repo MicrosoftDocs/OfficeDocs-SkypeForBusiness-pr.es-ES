@@ -3,6 +3,8 @@ title: Configurar el equipo de Lync Server para que participe en la detección d
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the Lync Server computer to participate in System Center discovery
 ms:assetid: 2f9c9cb0-3120-4571-9cd2-657c2123fe21
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204776(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183731
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e4b50fad3e0d197259847db9a94bf9e64618d7e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 8cec18903f1621d5a616debbbdd16f3c834ac21c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842171"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734680"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

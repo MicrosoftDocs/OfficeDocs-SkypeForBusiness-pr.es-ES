@@ -3,6 +3,8 @@ title: Comprobar el entorno de Office Communications Server 2007 R2
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Verify Office Communications Server 2007 R2 environment
 ms:assetid: e051bdd5-e7ef-4754-8705-900b2c57f37c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721906(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733840
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9369ad631b772e0a73677ab3214e24083426148a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 0fb67868c9f7eddfe2b11b4238c5fdd1bd14d8e6
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849832"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -45,7 +47,7 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Office Co
 
 3.  Asegúrese de que los servicios se están ejecutando en el servidor Standard Edition o en el grupo de servidores Enterprise.
     
-    ![Consola de administración de Office Communications Server 2007 R2] (images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Consola de administración de Office Communications Server 2007 R2")
+    ![Consola de administración de Office Communications Server 2007 R2](images/JJ721906.76897b6d-f433-47d2-930d-0816fc30a3c2(OCS.15).jpg "Consola de administración de Office Communications Server 2007 R2")
 
 **Revisar los usuarios configurados para Office Communications Server 2007 R2**
 
@@ -57,7 +59,7 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Office Co
 
 4.  Compruebe la lista de usuarios de Office Communications Server 2007 R2.
     
-    ![Lista de usuarios de la herramienta de administración de OCS] (images/JJ721906.f6bb7c4f-cbed-4389-8d0a-69a28577f17a(OCS.15).jpg "Lista de usuarios de la herramienta de administración de OCS")
+    ![Lista de usuarios de la herramienta de administración de OCS](images/JJ721906.f6bb7c4f-cbed-4389-8d0a-69a28577f17a(OCS.15).jpg "Lista de usuarios de la herramienta de administración de OCS")
 
 **Comprobar la configuración heredada del socio XMPP federado**
 
@@ -65,7 +67,7 @@ Antes de implementar Lync Server 2013 en un estado de coexistencia con Office Co
 
 2.  Compruebe que se ha iniciado el servicio de puerta de enlace XMPP de Office Communications Server.
     
-    ![Servicio de puerta de enlace XMPP de Office Communications Server] (images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Servicio de puerta de enlace XMPP de Office Communications Server")
+    ![Servicio de puerta de enlace XMPP de Office Communications Server](images/JJ721906.23223724-3c4b-4cb9-ace2-1cab2c3c91c3(OCS.15).jpg "Servicio de puerta de enlace XMPP de Office Communications Server")
 
 </div>
 

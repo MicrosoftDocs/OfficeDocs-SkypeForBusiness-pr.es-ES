@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Crear o editar la configuración de socios de XMPP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Create or edit XMPP partner configuration
 ms:assetid: 362dbe5e-8ee9-4aba-8c26-5907312b4a60
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552447(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48679558
 ms.date: 09/03/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 488fa84a3f24133c6ebcde4467cacdbdcffe7ff8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 488665bca5cd2ad1b4d2d91a3c85a6a1ddaa3916
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835836"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41763394"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -53,7 +55,7 @@ Microsoft Lync Server 2013 integra un proxy de protocolo de presencia y mensajer
 
 6.  Para crear o Editar configuraciones para los **socios de XMPP federados**, defina las siguientes opciones de configuración:
 
-7.  **Dominio principal** (Obligatorio). El dominio principal es el dominio base del socio XMPP. Por ejemplo, tendría que escribir **fabrikam.com** para el nombre de dominio del socio XMPP. Esta es una entrada obligatoria.
+7.  **Dominio principal** (obligatorio). El dominio principal es el dominio base del socio XMPP. Por ejemplo, tendría que escribir **fabrikam.com** para el nombre de dominio del socio XMPP. Esta es una entrada obligatoria.
 
 8.  **Descripción**. La descripción es para notas u otra información que la identifique para esta configuración en particular. Esta entrada es opcional.
 
@@ -65,7 +67,7 @@ Microsoft Lync Server 2013 integra un proxy de protocolo de presencia y mensajer
     
       - **Verificado público**. Un socio **verificado público** es cuando los contactos que forman parte de una implementación verificada por el proveedor se pueden agregar a la lista de contactos del usuario. Las invitaciones pueden enviarse desde el usuario de Lync o el usuario de Lync puede aceptar invitaciones del contacto del socio.
     
-      - No se ha comprobado el **público**. Una relación **pública** no verificada implica que no hay ningún estado verificado y comprobado entre las dos implementaciones. Un usuario de Lync debe invitar al contacto no verificado para que sea capaz de agregar el usuario de Lync a su lista de contactos. Por ejemplo, Google GTalk no es un servicio XMPP de comprobación pública, ya que se relaciona con Lync Server. Un usuario de GTalk no podrá agregar el usuario de Lync como contacto, a menos que haya una invitación explícita enviada por el usuario de Lync.
+      - No se ha **comprobado el público**. Una relación **pública no verificada** implica que no hay ningún estado verificado y comprobado entre las dos implementaciones. Un usuario de Lync debe invitar al contacto no verificado para que sea capaz de agregar el usuario de Lync a su lista de contactos. Por ejemplo, Google GTalk no es un servicio XMPP de comprobación pública, ya que se relaciona con Lync Server. Un usuario de GTalk no podrá agregar el usuario de Lync como contacto, a menos que haya una invitación explícita enviada por el usuario de Lync.
 
 11. Notas sobre la negociación de secuencias y los métodos de seguridad seguridad de la capa de transporte (TLS) y nivel de seguridad y autenticación de software (SASL):
     
@@ -92,7 +94,7 @@ Microsoft Lync Server 2013 integra un proxy de protocolo de presencia y mensajer
         
 
         > [!WARNING]  
-        > SASL requiere TLS. Para usar SASL, TLS debe ser obligatorio u opcional. Cualquier configuración que defina SASL como requerido u opcional debe tener compatibilidad con TLS. Al hacer clic en <STRONG>confirmar</STRONG> para guardar los cambios, si no ha establecido TLS en obligatorio u opcional, se le advertirá de que SASL debe tener compatibilidad con TLS y los cambios no se guardarán. Para resolver el error, establezca TLS en <STRONG></STRONG> required u <STRONG>Optional</STRONG>. Si el uso de SASL es opcional y la compatibilidad con la negociación TLS no es posible, debe establecer la negociación de SASL en <STRONG>no compatible</STRONG>. Confirmar con el servicio XMPP qué deben tener las secuencias de negociación apropiadas para TLS y SASL, o se producirá una interrupción del servicio.
+        > SASL requiere TLS. Para usar SASL, TLS debe ser obligatorio u opcional. Cualquier configuración que defina SASL como requerido u opcional debe tener compatibilidad con TLS. Al hacer clic en <STRONG>confirmar</STRONG> para guardar los cambios, si no ha establecido TLS en obligatorio u opcional, se le advertirá de que SASL debe tener compatibilidad con TLS y los cambios no se guardarán. Para resolver el error, establezca TLS en <STRONG>required</STRONG> u <STRONG>Optional</STRONG>. Si el uso de SASL es opcional y la compatibilidad con la negociación TLS no es posible, debe establecer la negociación de SASL en <STRONG>no compatible</STRONG>. Confirmar con el servicio XMPP qué deben tener las secuencias de negociación apropiadas para TLS y SASL, o se producirá una interrupción del servicio.
 
         
         </div>

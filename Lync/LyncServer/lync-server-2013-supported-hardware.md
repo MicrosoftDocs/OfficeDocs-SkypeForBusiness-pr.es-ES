@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Hardware admitido'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Supported hardware
 ms:assetid: 5f9c085d-205e-4235-9061-9ad875283cb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398423(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184269
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c0b8a5f2a499ae32dd3ac0df1be60ab873d81a37
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: de2dc455581ded139ac58a87a5f0cbaf3725873a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850539"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731710"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

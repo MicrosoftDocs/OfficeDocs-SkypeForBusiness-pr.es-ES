@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Definir los requisitos para archivado'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Defining your organization's requirements for Archiving
 ms:assetid: ce0fc0f6-7704-4b80-bf19-a1fa9818fc7a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205276(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185462
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 75ed62d577cc6b382509f83e53088973e16b6827
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a3cee7269620a9525456e40604ae3f1d1c2cf33d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835714"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762738"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Si su organización debe seguir las normas de cumplimiento, puede implementar el
 
 Para implementar el archivado, primero debe decidir cómo cumplir los requisitos de archivo de su organización. Esto requiere determinar lo siguiente:
 
-  - **Cuándo implementar**el archivado. Puede implementar el archivado como parte de la implementación inicial de Lync Server 2013, o bien puede agregarlo a una implementación existente. Para implementar el archivado, use el generador de topologías para agregarlo a su topología y, a continuación, publique la topología.
+  - **Cuándo implementar el archivado**. Puede implementar el archivado como parte de la implementación inicial de Lync Server 2013, o bien puede agregarlo a una implementación existente. Para implementar el archivado, use el generador de topologías para agregarlo a su topología y, a continuación, publique la topología.
 
   - **Si archivar las comunicaciones internas o externas**. Puede habilitar el archivado de las comunicaciones internas (comunicaciones entre usuarios internos), las comunicaciones externas (comunicaciones que incluyen al menos un usuario fuera de la red interna), o ambas. Puede especificar estas opciones para toda la organización, o bien para grupos y sitios específicos. De forma predeterminada, no se habilita ninguna de estas opciones.
     
@@ -52,7 +54,7 @@ Para implementar el archivado, primero debe decidir cómo cumplir los requisitos
     
     </div>
 
-  - **Por qué habilitar**el archivado. Puede habilitar y deshabilitar el archivado para toda la implementación en un nivel global, y puede habilitar y deshabilitar el archivado para determinados sitios y usuarios. En cada uno de estos niveles, especifica si desea habilitar el archivado de sesiones de mensajería instantánea (de punto a punto), conferencias (reuniones, que son sesiones de varias personas) o ambas. De forma predeterminada, el archivado está deshabilitado.
+  - **Por qué habilitar el archivado**. Puede habilitar y deshabilitar el archivado para toda la implementación en un nivel global, y puede habilitar y deshabilitar el archivado para determinados sitios y usuarios. En cada uno de estos niveles, especifica si desea habilitar el archivado de sesiones de mensajería instantánea (de punto a punto), conferencias (reuniones, que son sesiones de varias personas) o ambas. De forma predeterminada, el archivado está deshabilitado.
 
   - **Cómo se archiva el archivo fundamental para los usuarios de su organización**. Si el archivado es de misión crítica en su organización, puede especificar que Lync Server 2013 se ejecute en modo crítico, lo que bloquea las sesiones de mensajería instantánea y de conferencia si se produce un error de archivado. Por ejemplo:
     
@@ -74,7 +76,7 @@ Para implementar el archivado, primero debe decidir cómo cumplir los requisitos
 
 Controle el archivado con los métodos siguientes:
 
-  - **Directivas**de archivado. Use una o más directivas de archivado para habilitar y deshabilitar el archivado de las comunicaciones internas y externas. De forma predeterminada, no se habilita el archivado. Habilite o deshabilite el archivado para comunicaciones internas, comunicaciones externas o ambas en la implementación mediante la directiva global predeterminada. No puede eliminar la directiva global. Puede especificar una o varias directivas de sitio opcionales para habilitar o deshabilitar el archivado de las comunicaciones internas y externas de sitios específicos. También puede especificar una o más directivas de usuario para habilitar o deshabilitar el archivado de usuarios y grupos de usuarios específicos. Las directivas de nivel de usuario invalidan las directivas del sitio. Las directivas de nivel de sitio anulan las directivas de nivel global. Las directivas de nivel de usuario solo se implementan para los usuarios específicos que están configurados para usar la Directiva. Los mensajes instantáneos grupales y las conferencias solo se archivan si una directiva para al menos uno de los participantes está configurada para habilitar el archivado.
+  - **Directivas de archivado**. Use una o más directivas de archivado para habilitar y deshabilitar el archivado de las comunicaciones internas y externas. De forma predeterminada, no se habilita el archivado. Habilite o deshabilite el archivado para comunicaciones internas, comunicaciones externas o ambas en la implementación mediante la directiva global predeterminada. No puede eliminar la directiva global. Puede especificar una o varias directivas de sitio opcionales para habilitar o deshabilitar el archivado de las comunicaciones internas y externas de sitios específicos. También puede especificar una o más directivas de usuario para habilitar o deshabilitar el archivado de usuarios y grupos de usuarios específicos. Las directivas de nivel de usuario invalidan las directivas del sitio. Las directivas de nivel de sitio anulan las directivas de nivel global. Las directivas de nivel de usuario solo se implementan para los usuarios específicos que están configurados para usar la Directiva. Los mensajes instantáneos grupales y las conferencias solo se archivan si una directiva para al menos uno de los participantes está configurada para habilitar el archivado.
     
     <div>
     
@@ -85,7 +87,7 @@ Controle el archivado con los métodos siguientes:
     
     </div>
 
-  - **Configuraciones**de archivado. Use una o más configuraciones de archivado para especificar la mayoría de las opciones de archivado descritas anteriormente en este tema, excepto para habilitar el archivado de comunicaciones internas y externas (configurado mediante directivas de archivado, como se describe en el viñeta anterior). Las configuraciones de archivado incluyen la configuración global predeterminada y las configuraciones de sitios y grupos opcionales. No puede eliminar la configuración global. Las configuraciones de nivel de grupo invalidan las configuraciones de nivel de sitio. Las configuraciones de nivel de sitio invalidan la configuración de nivel global.
+  - **Configuraciones de archivado**. Use una o más configuraciones de archivado para especificar la mayoría de las opciones de archivado descritas anteriormente en este tema, excepto para habilitar el archivado de comunicaciones internas y externas (configurado mediante directivas de archivado, como se describe en el viñeta anterior). Las configuraciones de archivado incluyen la configuración global predeterminada y las configuraciones de sitios y grupos opcionales. No puede eliminar la configuración global. Las configuraciones de nivel de grupo invalidan las configuraciones de nivel de sitio. Las configuraciones de nivel de sitio invalidan la configuración de nivel global.
 
 Como parte de los análisis de requisitos, debe determinar cómo configurar la directiva global de archivado y la configuración de archivado global. También necesita determinar sus requerimientos para cualquier configuración de archiving de nivel de sitio, configuraciones de archiving de nivel de grupo, políticas de archiving de nivel de sitio y políticas de archiving a nivel de usuario.
 

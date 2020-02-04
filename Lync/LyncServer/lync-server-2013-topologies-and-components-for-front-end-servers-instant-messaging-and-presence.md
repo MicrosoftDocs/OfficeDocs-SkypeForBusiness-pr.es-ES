@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Topologías y componentes para los servidores front-en
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Topologies and components for Front End Servers, instant messaging, and presence
 ms:assetid: f08ce7a1-d14e-4a54-9771-a82c870658bf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412996(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185763
 ms.date: 10/24/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 4bc44790fc9584676cdd10305085b23bd5e99299
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 181ae682ec5ee1352c5d4f4280b4164fbbcd91f2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850312"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745250"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -89,7 +91,7 @@ La primera vez que inicia un nuevo grupo de servidores front-end, es fundamental
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>1</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="even">
@@ -170,7 +172,7 @@ Para que un grupo de servidores front-end funcione, no puede estar en pérdida d
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>2</p></td>
+<td><p>1</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="even">

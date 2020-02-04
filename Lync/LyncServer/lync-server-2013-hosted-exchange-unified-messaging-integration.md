@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Integración de la mensajería unificada de Exchange h
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Hosted Exchange Unified Messaging integration
 ms:assetid: f4de0165-da3b-499e-98fc-28ddd0db02d5
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413027(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185829
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a743e79434a521f0bba43e9ad4103625e9720844
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6fff608d74da3851f810b971f922bafd2e4c1f76
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835053"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

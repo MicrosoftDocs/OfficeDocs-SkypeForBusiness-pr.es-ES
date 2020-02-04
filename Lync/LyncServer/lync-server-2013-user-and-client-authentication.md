@@ -3,6 +3,8 @@ title: 'Lync Server 2013: autenticación de usuario y de cliente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: User and client authentication for Lync Server 2013
 ms:assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn481132(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 59893868
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 052c65bad805dff0d993cbf8533593c1f12915a6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6c9c91f1b8355c95ceb3deae5f07e5c95710d036
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850266"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41744610"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

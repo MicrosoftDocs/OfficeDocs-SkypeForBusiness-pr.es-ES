@@ -3,6 +3,8 @@ title: Administrar el servidor de chat persistente de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Managing Lync Server 2013, Persistent Chat Server
 ms:assetid: 82befdc6-5d32-45f1-bfd7-aaedffed1ab8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398657(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184672
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: de49e9843c5243457d1c4d736d9bfeda246f042e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 067e24a7e1534e355e39f80b6a3fda90e059be14
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849997"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -51,7 +53,7 @@ El contenido de los salones de chat persistente consta principalmente de mensaje
 
 El acceso a un salón de chat está controlado por una lista de miembros. El historial completo de los salones de chat está disponible para todos los miembros de la revisión cronológica o la búsqueda de texto completo. Para obtener más información sobre cómo usar el cliente de chat persistente, consulte [planificación de clientes en Lync server 2013](lync-server-2013-planning-for-clients.md) en la documentación de planeación e [implementación de clientes y dispositivos en Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md) en la documentación de implementación.
 
-Al configurar un servidor de chat persistente para su organización, debe especificar la configuración inicial durante la implementación. Sin embargo, puede haber ocasiones en las que desee cambiar el modo en que se implementa la compatibilidad con el servidor de chat. Por ejemplo, es posible que tenga que configurar la compatibilidad del servidor de chat persistente y los controles de forma diferente para un equipo o grupo específico de su organización. Esta sección proporciona información y procedimientos para ayudarle a personalizar la implementación del servidor de chat persistente. Para obtener más información sobre las características y funcionalidades que puede configurar para el servidor de chat persistente, vea [definir los requisitos de su organización para el servidor de chat persistente en Lync Server 2013](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md) en la documentación de planeación y [Cómo conversar persistente Servidor funciona en Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) , en la documentación de planeación, la documentación de implementación o la documentación de operaciones. Para obtener más información sobre cómo implementar el servidor de chat persistente para Lync Server 2013, vea [implementar un servidor de chat persistente en Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) en la documentación de implementación.
+Al configurar un servidor de chat persistente para su organización, debe especificar la configuración inicial durante la implementación. Sin embargo, puede haber ocasiones en las que desee cambiar el modo en que se implementa la compatibilidad con el servidor de chat. Por ejemplo, es posible que tenga que configurar la compatibilidad del servidor de chat persistente y los controles de forma diferente para un equipo o grupo específico de su organización. Esta sección proporciona información y procedimientos para ayudarle a personalizar la implementación del servidor de chat persistente. Para obtener detalles sobre las características y funcionalidades que puede configurar para el servidor de chat persistente, vea [definir los requisitos de su organización para el servidor de chat persistente en Lync server 2013](lync-server-2013-defining-your-requirements-for-persistent-chat-server.md) en la documentación de planeación y [Cómo funciona el servidor de chat persistente en Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) en la documentación de planeación, la documentación de implementación o la documentación de operaciones. Para obtener más información sobre cómo implementar el servidor de chat persistente para Lync Server 2013, vea [implementar un servidor de chat persistente en Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) en la documentación de implementación.
 
 <div>
 

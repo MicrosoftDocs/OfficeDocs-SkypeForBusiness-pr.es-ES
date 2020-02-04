@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla DeviceDriver'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: DeviceDriver table
 ms:assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398844(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185449
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ea4ab9ad8b2eda5388791c98c1e1da90d9bd5c65
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f52354a153f155f57ce6466ea8082b63ef105e34
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835416"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762368"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

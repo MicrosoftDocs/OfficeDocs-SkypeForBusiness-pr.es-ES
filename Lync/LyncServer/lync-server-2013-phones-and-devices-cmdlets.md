@@ -3,6 +3,8 @@ title: 'Lync Server 2013: cmdlets de teléfonos y dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Phones and devices cmdlets
 ms:assetid: 6ebeba4b-43ce-4a31-9060-50d249b7564c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg415657(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184467
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 67162d9d3c800040817fa26f1ab65788f2d4e995
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e5e698c23c87f679302c6612bec138bcbae39f71
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825173"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755200"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

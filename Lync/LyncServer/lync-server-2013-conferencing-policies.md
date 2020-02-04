@@ -3,6 +3,8 @@ title: 'Lync Server 2013: directivas de conferencia'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Conferencing policies
 ms:assetid: 8f92eb7c-ee66-4df6-a726-4bff93b122cb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688133(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733732
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b60b521c69b821dacfe8bd569a6300b4c21e0287
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 96d1d9ed6fc0ad75e316a41ef7939f36ecaba354
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842468"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741490"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

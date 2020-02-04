@@ -3,6 +3,8 @@ title: 'Lync Server 2013: grabación de detalles de llamadas (CDR)'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Call detail recording (CDR)
 ms:assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688079(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733675
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 26a15053ee79a246889f1802e5b7801e548574c2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2e7490e974b970c7c0a68e16b03ed19306d89183
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842700"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743150"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

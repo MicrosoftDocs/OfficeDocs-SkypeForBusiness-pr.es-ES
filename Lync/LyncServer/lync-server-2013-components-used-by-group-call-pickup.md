@@ -3,6 +3,8 @@ title: 'Lync Server 2013: componentes usados por la recogida de llamadas grupale
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Components used by Group Call Pickup
 ms:assetid: 45db2f23-d486-4b20-a8cf-7b48a1f9fd3a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945625(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541470
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3583ee73c78a78317b1808bde395f76dcae85149
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7b9c810d5835d113a26bd3a15295f75a71552590
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842505"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757074"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: administración de cambios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Change management
 ms:assetid: 73c774f5-c12f-4c72-be73-e07dc745b994
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720336(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969618
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 13eb521ea6b4be5f8d701885df65a3e1672b2eaa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dd6e60749e35c9680300925f07e84d98d675884c
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842621"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730210"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -63,7 +65,7 @@ El siguiente ejemplo de administración de cambios examina cómo interactúan di
 
   - **Notas de la versión del Service Pack Revise**   el equipo del administrador de Lync revisa las notas de la versión del Service Pack para identificar el efecto en el sistema.
 
-  - **Se realiza**   una serie de pruebas de laboratorio el equipo de administrador de Lync debe realizar actualizaciones de prueba en un servidor en un entorno de prueba para decidir si el Service Pack se puede aplicar correctamente sin afectar a ninguna de las aplicaciones y servidores instalados. redes. Si hay aplicaciones de terceros o creadas internamente con la interfaz de Lync Server en un entorno de producción, también se deben probar. Estas pruebas también se pueden usar para estimar el tiempo necesario para realizar las actualizaciones.
+  - **Se realiza**   una serie de pruebas de laboratorio el equipo de administrador de Lync debe realizar actualizaciones de prueba en un servidor en un entorno de prueba para decidir si el Service Pack se puede aplicar correctamente sin afectar a ninguna de las aplicaciones y los sistemas de servidor instalados. Si hay aplicaciones de terceros o creadas internamente con la interfaz de Lync Server en un entorno de producción, también se deben probar. Estas pruebas también se pueden usar para estimar el tiempo necesario para realizar las actualizaciones.
 
   - **Se informa a los usuarios de la interrupción**   : el equipo de administrador de Lync, el equipo de comunicaciones o el servicio de asistencia al usuario informa a todos los usuarios afectados sobre el ciclo de mantenimiento planeado y el tiempo durante el cual el servicio no estará disponible.
 

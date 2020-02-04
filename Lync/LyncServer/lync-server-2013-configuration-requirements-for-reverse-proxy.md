@@ -3,6 +3,8 @@ title: 'Lync Server 2013: requisitos de configuración para el proxy inverso'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuration requirements for reverse proxy
 ms:assetid: c37d688a-28e4-4822-80cc-6add59c71052
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945651(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541518
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0367ea79a0f3de6ad716f18aab980e9d9442e148
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37a2a535ddaa90efa2f4140236b52788fa58e41a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842452"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41741380"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

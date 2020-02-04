@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar equilibradores de carga de hardware para to
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Set up hardware load balancers for scaled edge topologies
 ms:assetid: 77b4dd64-5eff-4b67-a441-2adaa22a0fd9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398586(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184563
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bf1dfdc4b559de76d3896605905e1f8f7231f6cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e9fdb64f5e67aec67f3246dc0c1693cf53c0fe09
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821890"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764656"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

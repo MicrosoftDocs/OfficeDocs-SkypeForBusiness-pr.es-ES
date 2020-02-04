@@ -3,6 +3,8 @@ title: Conexión de la aplicación de sucursal con funciones de supervivencia a 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool
 ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688026(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733616
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 77d22a71272ae7dd3c426b0439f7a3765ca6848c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d73806f481cfe7c44a5eb9507d043565765a08f9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842145"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

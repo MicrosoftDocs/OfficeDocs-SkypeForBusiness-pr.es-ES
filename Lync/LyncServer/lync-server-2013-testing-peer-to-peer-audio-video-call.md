@@ -3,6 +3,8 @@ title: 'Lync Server 2013: realizar una llamada de audio o vídeo de par a par'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Testing peer to peer audio/video call
 ms:assetid: 95eb3693-b866-4652-bc45-9b75fdb40b49
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn743835(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969627
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 43fc4da7619dcc4cfd88417b52543dc23c447883
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e319ace4ee4cc6613ac5ed29659ac14c5853d7b5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850337"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41745640"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: Mover el servidor de administración central de Lync Server 2010 a Lync S
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Move the Lync Server 2010 Central Management Server to Lync Server 2013
 ms:assetid: 30cc98f2-1916-4dbe-99d0-8df5368ed3ec
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688013(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733602
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: abcb361beb82b98cd765b3797b63b22c280fdf70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5f301c8f6e11ca3c8f19ed167489bb3fbf51fc63
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849934"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41743700"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -41,7 +43,7 @@ El servidor de administración central es un único sistema de réplica principa
 
 Después de mover correctamente el servidor de administración central, debe quitar las bases de datos del servidor de administración central del servidor front-end original. Para obtener información sobre cómo quitar las bases de datos del servidor de administración central, vea [quitar la base de datos de SQL Server de un grupo de servidores front-end](remove-the-sql-server-database-for-a-front-end-pool.md).
 
-Use el cmdlet **Move-CsManagementServer** de Windows PowerShell en el shell de administración de Lync Server para mover la base de datos de la base de datos de lync Server 2010 de SQL Server a la base de datos de sql server 2013 de Lync Server y, después, actualice el SCP para que apunte a Lync. Server 2013 Ubicación del servidor de administración central.
+Use el cmdlet **Move-CsManagementServer** de Windows PowerShell en el shell de administración de Lync Server para mover la base de datos de la base de datos de lync Server 2010 de SQL Server a la base de datos de sql server 2013 de Lync Server y, a continuación, actualice el SCP para que apunte a la ubicación del servidor de administración central de lync Server 2013.
 
 <div>
 

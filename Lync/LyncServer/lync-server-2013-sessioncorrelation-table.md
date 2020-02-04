@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla SessionCorrelation'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: SessionCorrelation table
 ms:assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398091(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183267
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: c588a58126fb83df08550a6300ca8db36cceb647
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6fe8deda7486d699073bf271953e382ac7b7c508
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34821953"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764808"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

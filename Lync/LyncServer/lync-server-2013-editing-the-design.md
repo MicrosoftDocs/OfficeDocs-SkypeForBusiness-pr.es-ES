@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Edición del diseño'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Editing the design
 ms:assetid: 08f639ba-0e5f-4ae7-9191-c3d96c25b169
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558608(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541445
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 601c313231a26341c3c4cf8a4897d11872dec9a2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dfce3bc4242140364005a9a981282ecb90a42d3b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835318"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41739460"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -39,7 +41,7 @@ Una vez completadas las preguntas iniciales de la entrevista, podrá editar las 
 
 La herramienta de planeación muestra la topología del sitio seleccionado. En la parte inferior de la página del sitio hay cuatro pestañas:
 
-![Topología de sitio] de la herramienta de planificación (images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Topología de sitio") de la herramienta de planificación
+![Herramienta de planeación - Topología del sitio](images/Gg558608.e6189c20-360a-42bd-ba90-11bdb5b7551b(OCS.15).jpg "Herramienta de planeación - Topología del sitio")
 
   - Topología del sitio: la página que se muestra actualmente con información general visual de la topología recomendada.
 
@@ -47,7 +49,7 @@ La herramienta de planeación muestra la topología del sitio seleccionado. En l
 
   - Informe de administración de la red perimetral: el informe de administración perimetral contiene un total de cuatro informes:
     
-    ![Página Informe de administración de Edge] (images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Página Informe de administración de Edge")  
+    ![Página Informe de administración de servidores perimetrales](images/Gg558608.0019cc5e-af39-4cb9-82ce-58f6388242ff(OCS.15).jpg "Página Informe de administración de servidores perimetrales")  
     
       - Informe de resumen: un informe general de los valores de configuración de la red perimetral. Si modifica los valores de la página **Diagrama de red perimetral** por los valores de TCP/IP y FQDN de la topología que se usarán en la implementación real, esas direcciones y nombres se representarán aquí. De lo contrario, se mostrará el texto predeterminado.
     

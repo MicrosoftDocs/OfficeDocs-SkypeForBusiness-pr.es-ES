@@ -3,6 +3,8 @@ title: 'Lync Server 2013: get-CsWebServiceConfiguration para la administración 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Get-CsWebServiceConfiguration for Address Book management
 ms:assetid: 0b223733-5224-47d1-9b47-2109e6f135c9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg429692(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183372
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e88d13a910a7883f88ceadc28225cbaa85bb17b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c04cc523e27d655aa69b05f522efccf8153a37ba
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835132"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41730580"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

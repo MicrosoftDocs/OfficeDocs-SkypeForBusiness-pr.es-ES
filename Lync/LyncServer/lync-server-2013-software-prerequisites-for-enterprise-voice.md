@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Requisitos previos de software para la telefonía IP'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Software prerequisites for Enterprise Voice
 ms:assetid: 41172119-9631-46c7-9d9f-386d951c650b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425916(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183960
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 9ac981d7a30a85d25d2dfb376cfa34f812e898bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: cb85a8da9fe0d009f46ef23b919aeb9fd006fab4
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850604"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731900"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -57,7 +59,7 @@ Después de comprobar los requisitos previos de software de telefonía IP empres
 
 1.  Comprobar la seguridad, la configuración de usuario y el hardware perquisites, como se describe en [seguridad y configuración requisitos previos para telefonía IP empresarial en Lync Server 2013](lync-server-2013-security-and-configuration-prerequisites-for-enterprise-voice.md).
 
-2.  Instale el servidor de mediación, como se describe en [instalar los archivos de Media Server en Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), pero *solo* si desea implementar un servidor o grupo de mediación independiente, ya que los servidores de mediación están instalados como parte del grupo de servidores front-end o Proceso de implementación de servidor Standard Edition cuando se colocan.
+2.  Instale el servidor de mediación, como se describe en [instalar los archivos de Media Server en Lync Server 2013](lync-server-2013-install-the-files-for-mediation-server.md), pero *solo* si desea implementar un servidor de mediación o un grupo de mediación independiente cuando se colocan en el servidor de mediación.
 
 3.  Configure conexiones troncales para proporcionar conectividad RTC para los usuarios, como se describe en [configuración de troncos en Lync Server 2013](lync-server-2013-configuring-trunks.md).
 

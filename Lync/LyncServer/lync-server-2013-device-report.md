@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de dispositivos'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Device Report
 ms:assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615049(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185807
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: e172837622c4ad40a29cca74dcaf42497c4b2bd5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: dc453ca1e83d8077e67ef130ef7a83e03c138be2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835448"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762428"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

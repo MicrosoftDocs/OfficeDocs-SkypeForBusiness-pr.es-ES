@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Tabla Endpoint'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Endpoint table
 ms:assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398327(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184098
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6cedf4d85cefd8a9fefb9f0ee4608f4a290fdc09
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 11da225da1a8120f5de7ac21b3beb318326601f9
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835214"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735590"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

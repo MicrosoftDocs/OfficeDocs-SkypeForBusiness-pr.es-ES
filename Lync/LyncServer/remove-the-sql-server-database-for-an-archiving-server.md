@@ -3,6 +3,8 @@ title: Quitar la base de datos de SQL Server de un servidor de archivado
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Remove the SQL Server database for an Archiving server
 ms:assetid: 6e8a1fcd-ed09-43b0-82c9-60e7ce116a01
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688087(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733686
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 3a0794d751ae0c469539971d4b29685e2971d865
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 57a820780b7ca3646ba9fa6cc5d02a3c5022db9d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849855"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765571"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -43,7 +45,7 @@ Después de quitar un servidor de archivado de Microsoft Lync Server 2010, puede
 
 1.  En el servidor front-end de Lync Server 2013, abra Topology Builder.
 
-2.  En el generador de topología, vaya a **componentes** compartidos y, a continuación, a **almacenes de SQL Server**, haga clic con el botón secundario en la instancia de SQL Server asociada al servidor de archivado reconfigurado o quitado y, a continuación, haga clic en **eliminar**.
+2.  En el generador de topología, vaya a **componentes compartidos** y, a continuación, a **almacenes de SQL Server**, haga clic con el botón secundario en la instancia de SQL Server asociada al servidor de archivado reconfigurado o quitado y, a continuación, haga clic en **eliminar**.
 
 3.  Publique la topología y, a continuación, compruebe el estado de replicación.
 

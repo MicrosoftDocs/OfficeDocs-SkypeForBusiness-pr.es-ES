@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Introducción general a la implementación'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deployment overview
 ms:assetid: da67555e-f410-4c37-9996-d511f37da8d1
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205305(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185555
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: f71a61e2bd374f1dfe2863aead5bbadc23c8afe8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3d237e0ba3f94f81ce3988e2ce8994d49f97087d
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835485"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762668"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

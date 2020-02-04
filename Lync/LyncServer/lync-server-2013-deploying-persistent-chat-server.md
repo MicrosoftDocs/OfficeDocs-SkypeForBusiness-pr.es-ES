@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Implementar el servidor de chat persistente'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Deploying Persistent Chat Server
 ms:assetid: e3b930fb-6855-47f0-b6b3-7dfae386540d
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205357(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185717
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 6a730057735f187dc5e5080d532515a4eb9db110
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7fe18bf750eabdb1f53c97a349b553da4f13dec8
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835535"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41740870"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -67,7 +69,7 @@ Como mínimo, cada topología requiere un servidor con Lync Server 2013 instalad
 
 Use el generador de topología para agregar un servidor de chat persistente a las implementaciones de Lync Server 2013. Puede elegir agregar uno o varios grupos de servidores de chat persistentes con el generador de topologías. Siga las mismas instrucciones de implementación para implementar varios grupos de servidores de chat persistentes como lo haría para cualquier grupo. Para obtener más información, vea [implementación de Lync Server 2013](lync-server-2013-deploying-lync-server.md) en la documentación de implementación.
 
-Para obtener detalles sobre las topologías disponibles y los requisitos técnicos y de software para instalar un servidor de chat persistente, consulte [planear el servidor de chat persistente en Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md) en la documentación de planeación, [Cómo funciona el servidor de chat persistente en Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) , en la documentación de planeación, la documentación de implementación o la documentación de operaciones, y [hardware compatible con Lync Server 2013](lync-server-2013-supported-hardware.md) en la documentación de soporte técnico.
+Para obtener información detallada sobre las topologías disponibles y los requisitos técnicos y de software para instalar el servidor de chat persistente, consulte [planear el servidor de chat persistente en Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md) en la documentación de planeación, [Cómo funciona el servidor de chat persistente en Lync Server 2013](lync-server-2013-how-persistent-chat-server-works.md) , en la documentación de planeación, la documentación de implementación o la documentación de operaciones, y el [hardware compatible para Lync Server 2013](lync-server-2013-supported-hardware.md)
 
 Para obtener detalles sobre la adquisición de certificados, la creación de la base de datos de SQL Server y la creación de almacenes de archivos, vea [implementar Lync server 2013](lync-server-2013-deploying-lync-server.md) en la documentación de implementación.
 

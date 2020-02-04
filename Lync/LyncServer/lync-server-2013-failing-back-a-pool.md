@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Conmutación por recuperación de grupo'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Failing back a pool
 ms:assetid: 6232b644-ef57-4c9c-abec-14ff8ffc9fe7
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204945(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48184289
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: cade83015f57e86e08978ac3bfd9fb848dae9563
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91e1dca7ffc210e9b44913f21846726f7a776912
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835178"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

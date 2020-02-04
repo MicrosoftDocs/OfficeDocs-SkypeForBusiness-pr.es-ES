@@ -3,6 +3,8 @@ title: 'Lync Server 2013: información general sobre la aplicación de anuncios'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Overview of the Announcement application
 ms:assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204757(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183689
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: a0e9cedddf6dfdf714bb3d0eef0e0cd01063b89f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a4c1b9210fcb0734b305a30d27c77b4e81257909
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34825341"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41755464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

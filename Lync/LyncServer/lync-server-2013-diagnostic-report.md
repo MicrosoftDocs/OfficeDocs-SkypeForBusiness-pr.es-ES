@@ -3,6 +3,8 @@ title: 'Lync Server 2013: informe de diagnóstico'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Diagnostic Report
 ms:assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615445(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185159
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: b314bccb0c1df539598e17ffc8ca12b30287b8eb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 14a2fa69e0e2397b970850a91042f0241060f839
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835413"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41762348"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

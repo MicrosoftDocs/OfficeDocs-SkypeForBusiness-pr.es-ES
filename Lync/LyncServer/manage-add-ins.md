@@ -3,6 +3,8 @@ title: Administrar complementos
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
+f1.keywords:
+- NOCSH
 TOCTitle: Manage add-ins
 ms:assetid: b84f868e-b36e-4ab4-b284-7db212d401c3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205193(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185204
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: ef4586d0d84d53173f5e27fc504a9911905f1dd5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55a14e84404d11f4b52bc6438991ae070ca8806a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34849993"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41757184"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

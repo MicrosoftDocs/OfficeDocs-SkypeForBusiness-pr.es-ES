@@ -3,6 +3,8 @@ title: 'Lync Server 2013: restaurar un servidor miembro de Enterprise Edition'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Restoring an Enterprise Edition member server
 ms:assetid: d960b19c-2104-4719-b736-0d940f254d42
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202191(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51541523
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 83f0283dc6525dbb75ce74809bd88f4e962a9aec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e870b68d1252ea5a203b3c334299fb65b6a56512
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822975"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

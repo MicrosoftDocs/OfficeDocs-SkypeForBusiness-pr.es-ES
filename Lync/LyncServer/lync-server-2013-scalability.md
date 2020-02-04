@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Escalabilidad'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Scalability
 ms:assetid: 46fa0cb5-1507-4a12-ad3f-ba64585e2dc4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg417160(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183995
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0dfdc96934871fd2e73af30507288c734e786cc0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e6ff4828bdfddbfca7734836fdfdbe24f0b90c4a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822170"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765018"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

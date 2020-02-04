@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración de las opciones predeterminadas de la i
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring default picture options
 ms:assetid: b1c986f0-6400-447a-9e36-78c1c3a4f793
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn205074(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 56280893
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 1f41fa8fb590b2f5bc2e38db9a72545e13fb8d73
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e551d069da9a3afb7a884c28096dd97ab3702539
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842268"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758154"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

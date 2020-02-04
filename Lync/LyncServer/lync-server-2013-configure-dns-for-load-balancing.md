@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configurar el DNS para el equilibrio de carga'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configure DNS for load balancing
 ms:assetid: 1b2e8414-8676-4872-8ecf-ea07196f74de
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398251(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183540
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 7e370d3b66e82b02bd5668fc1c9cab4ee41da759
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f5b68bf226c71d65835791577ab9a45f18b2a10e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842390"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41758358"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -85,7 +87,7 @@ Para poder usar el equilibrio de carga de DNS, debe hacer lo siguiente:
 
 3.  Haga clic con el botón secundario en el grupo, haga clic en **Editar propiedades**y, a continuación, en **servicios web**.
 
-4.  Debajo de **servicios Web internos**, seleccione la casilla invalidar **FQDN** .
+4.  Debajo de **servicios Web internos**, seleccione la casilla **invalidar FQDN** .
 
 5.  Escriba el FQDN del grupo de servidores que se resuelve en las direcciones IP físicas de los servidores del grupo.
 
@@ -160,9 +162,9 @@ Para poder usar el equilibrio de carga de DNS, debe hacer lo siguiente:
 
 2.  Expanda **DNS**, haga clic con el botón secundario en el servidor DNS que desea configurar y, después, haga clic en **propiedades**.
 
-3.  Haga clic en la pestaña **avanzadas** , seleccione **Habilitar** ordenación por turnos y **Habilitar ordenación de máscaras de máscara**y, después, haga clic en **Aceptar**.
+3.  Haga clic en la pestaña **avanzadas** , seleccione Habilitar ordenación por **turnos** y **Habilitar ordenación de máscaras de máscara**y, después, haga clic en **Aceptar**.
     
-    ![Cuadro de diálogo Round Robin de DNS] (images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Cuadro de diálogo Round Robin de DNS")
+    ![Cuadro de diálogo Round Robin de DNS](images/Gg398251.e7bf6125-8d78-4460-8401-0a8e7e21d305(OCS.15).jpg "Cuadro de diálogo Round Robin de DNS")
 
 <div>
 

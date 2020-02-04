@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Revertir usuarios migrados'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Roll back migrated users
 ms:assetid: bfabaf0b-9a42-4057-b729-a7ab9eee8c72
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205224(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185286
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 57462cee6c4996f0beb51290f8382a1736d3e635
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5e8b8c53f835bbbaa363a91ef547dd1d301c8976
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822443"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41732910"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -77,7 +79,7 @@ Si necesita revertir la característica de almacenamiento de contactos unificado
 
 </div>
 
-El procedimiento siguiente describe cómo revertir los contactos del usuario. Si usa el cmdlet **Move-CsUser** para mover usuarios entre lync Server 2013 y lync Server 2010, puede omitir estos pasos porque el cmdlet **Move-CsUser** automáticamente deshace unifed almacén de contactos cuando mueve usuarios de Lync Server 2013 a Lync Server 2010. **Mover-CsUser** no deshabilita la Directiva de almacén de contactos unificado, por lo que la migración al almacén de contactos unificado se repetirá si el usuario se vuelve a mover a Lync Server 2013.
+El procedimiento siguiente describe cómo revertir los contactos del usuario. Si usa el cmdlet **Move-CsUser** para mover usuarios entre lync Server 2013 y lync Server 2010, puede omitir estos pasos porque el cmdlet **Move-CsUser** revierte automáticamente unifed almacén de contactos cuando mueve usuarios de Lync Server 2013 a Lync Server 2010. **Mover-CsUser** no deshabilita la Directiva de almacén de contactos unificado, por lo que la migración al almacén de contactos unificado se repetirá si el usuario se vuelve a mover a Lync Server 2013.
 
 <div>
 

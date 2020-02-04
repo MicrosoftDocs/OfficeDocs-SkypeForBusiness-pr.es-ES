@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Exportar e importar la configuración del enrutamiento
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Exporting and importing voice routing configuration
 ms:assetid: c9b78622-5725-43b0-9ee1-5b82b1e1c8eb
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398836(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185398
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 8cb02759cb4fa7cf9c979ef06b594f78a6b253c5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 23ca3642204e4097f5345f879c704dcfcb4d8c9a
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34835180"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756204"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Guía de aprovisionamiento para la conectividad entre 
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Provisioning guide for Lync-Skype connectivity
 ms:assetid: 69adda9b-5b72-4538-9be6-079b2f462e09
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn440173(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 57793363
 ms.date: 11/26/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 0f595916502a7c7ec27ff220a7b3f138b41e6fc2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f94da566e4322f9b8d1d039441c561f5ed60f6c2
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34823591"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41747220"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

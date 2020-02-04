@@ -3,6 +3,8 @@ title: 'Lync Server 2013: devolver información de configuración del servidor p
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Return A/V Edge Server configuration information
 ms:assetid: b041f5a4-2387-4075-846c-ec4f99640903
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721850(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733783
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 15096099184525890328dbe1c89d891487b46d87
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2ea7d7ed1ef74c092dac60ecfb2f009219564455
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34822366"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41733080"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

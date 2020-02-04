@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Clientes admitidos para el estacionamiento de llamadas
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Clients supported for Call Park
 ms:assetid: c236d2ba-9d83-418c-9cbc-92541f115fb0
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412958(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48185320
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: 46b9ac77a82cf8d833c3f06a8fe3c738e2501937
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 52304a0241425a3b88c7f9419afa57f3d768fbb0
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842541"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756464"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
