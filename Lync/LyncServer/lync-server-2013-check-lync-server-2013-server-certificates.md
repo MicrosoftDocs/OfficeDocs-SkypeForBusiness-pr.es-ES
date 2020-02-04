@@ -3,6 +3,8 @@ title: 'Lync Server 2013: comprobar certificados de servidor de Lync Server 2013
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Check server certificates
 ms:assetid: 7b0474e8-0efe-47f0-84eb-a1ba575dabfd
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn725210(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 63969620
 ms.date: 01/27/2015
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: dced86c93b7ec35cb410601f1d72720e25d156b0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af0a80df18a4fc6e27200d1ac04476fcea798b9b
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842586"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734000"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 

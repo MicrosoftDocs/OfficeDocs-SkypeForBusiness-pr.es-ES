@@ -3,6 +3,8 @@ title: 'Lync Server 2013: configuración del uso de fotos de alta resolución'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Configuring the use of high-resolution photos in Lync Server 2013
 ms:assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688150(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 49733753
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: efa45f6a7e3f561e56e5563b5024c84bb5731fd7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5cb82c047491a43f2a8682d3a6688f67e76af730
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34842167"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41734610"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
