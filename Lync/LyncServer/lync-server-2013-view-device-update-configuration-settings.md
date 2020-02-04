@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Ver las opciones de configuración de la actualizació
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: View Device Update configuration settings
 ms:assetid: aa6a70a9-bd77-4606-b797-ea6a3bab9cf2
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994059(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 51803970
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: d4c334e44212116418a953b2bbf84ece75063f8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 01edeb2d40fae7b82ac35fb5561a1332f67c9e11
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850114"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41731100"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -23,7 +25,7 @@ ms.locfileid: "34850114"
 
 <div data-asp="http://msdn2.microsoft.com/asp">
 
-# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="5191a-102">Ver las opciones de configuración de la actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5191a-102">View Device Update configuration settings in Lync Server 2013</span></span>
+# <a name="view-device-update-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="086f5-102">Ver las opciones de configuración de la actualización de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="086f5-102">View Device Update configuration settings in Lync Server 2013</span></span>
 
 </div>
 
@@ -33,15 +35,15 @@ ms.locfileid: "34850114"
 
 <span> </span>
 
-<span data-ttu-id="5191a-103">_**Última modificación del tema:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="5191a-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+<span data-ttu-id="086f5-103">_**Última modificación del tema:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="086f5-103">_**Topic Last Modified:** 2013-02-20_</span></span>
 
-<span data-ttu-id="5191a-104">Puede ver las opciones de configuración del servicio de actualización de dispositivos mediante el shell de administración de Lync Server y el cmdlet **Get-CsDeviceUpdateConfiguration** , que puede ejecutar desde el shell de administración de lync Server 2013 o desde una sesión remota de Windows. PowerShell</span><span class="sxs-lookup"><span data-stu-id="5191a-104">You can view the Device Update Service configuration settings by using Lync Server Management Shell and the **Get-CsDeviceUpdateConfiguration** cmdlet, which you can run from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell</span></span>
+<span data-ttu-id="086f5-104">Puede ver las opciones de configuración del servicio de actualización de dispositivos mediante el shell de administración de Lync Server y el cmdlet **Get-CsDeviceUpdateConfiguration** , que puede ejecutar desde el shell de administración de lync Server 2013 o desde una sesión remota de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="086f5-104">You can view the Device Update Service configuration settings by using Lync Server Management Shell and the **Get-CsDeviceUpdateConfiguration** cmdlet, which you can run from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell</span></span>
 
 <div>
 
 
 > [!NOTE]  
-> <span data-ttu-id="5191a-105">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="5191a-105">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
+> <span data-ttu-id="086f5-105">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="086f5-105">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at <A href="http://go.microsoft.com/fwlink/p/?linkid=255876">http://go.microsoft.com/fwlink/p/?linkId=255876</A>.</span></span>
 
 
 
@@ -53,11 +55,11 @@ ms.locfileid: "34850114"
 <div>
 
 
-  - <span data-ttu-id="5191a-106">Para ver información sobre todas las rutas de voz, escriba el siguiente comando en el shell de administración de Lync Server y presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="5191a-106">To view information about all your voice routes, type the following command in the Lync Server Management Shell and press Enter:</span></span>
+  - <span data-ttu-id="086f5-106">Para ver información sobre todas las rutas de voz, escriba el siguiente comando en el shell de administración de Lync Server y presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="086f5-106">To view information about all your voice routes, type the following command in the Lync Server Management Shell and press Enter:</span></span>
     
         Get-CsDeviceUpdateConfiguration
     
-    <span data-ttu-id="5191a-107">Este comando devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="5191a-107">This command returns information similar to the following:</span></span>
+    <span data-ttu-id="086f5-107">Este comando devolverá información similar a la siguiente:</span><span class="sxs-lookup"><span data-stu-id="086f5-107">This command returns information similar to the following:</span></span>
     
         Identity               : Global
         ValidLogFileTypes      : {Watson, Config, Diaglog, CELog}
@@ -70,7 +72,7 @@ ms.locfileid: "34850114"
 
 </div>
 
-<span data-ttu-id="5191a-108">Para obtener más información sobre este cmdlet, consulte el tema de ayuda en [obtener-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span><span class="sxs-lookup"><span data-stu-id="5191a-108">For details about this cmdlet, see Help topic at [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span></span>
+<span data-ttu-id="086f5-108">Para obtener más información sobre este cmdlet, consulte el tema de ayuda en [obtener-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span><span class="sxs-lookup"><span data-stu-id="086f5-108">For details about this cmdlet, see Help topic at [Get-CsDeviceUpdateConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsDeviceUpdateConfiguration).</span></span>
 
 </div>
 
