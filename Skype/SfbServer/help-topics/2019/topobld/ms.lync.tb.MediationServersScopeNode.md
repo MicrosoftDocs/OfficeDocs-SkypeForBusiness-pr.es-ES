@@ -6,32 +6,32 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MediationServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Grupos de servidores de mediación contiene los grupos de servidores de mediación de la topología. You can perform the following action:'
-ms.openlocfilehash: ad39efed00fcc3c90abd3c8e62c9171804dbdeb3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 906882b4cbb15e708e2150ff6d73617d123a9990
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299128"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701885"
 ---
-# <a name="mediation-servers-scope-node"></a><span data-ttu-id="32268-104">Nodo de ámbito de servidores de mediación</span><span class="sxs-lookup"><span data-stu-id="32268-104">Mediation Servers Scope Node</span></span>
+# <a name="mediation-servers-scope-node"></a><span data-ttu-id="3f670-104">Nodo de ámbito de servidores de mediación</span><span class="sxs-lookup"><span data-stu-id="3f670-104">Mediation Servers Scope Node</span></span>
  
-<span data-ttu-id="32268-p102">El nodo **Grupos de servidores de mediación** contiene los grupos de servidores de mediación de la topología. Puede efectuar la acción siguiente:</span><span class="sxs-lookup"><span data-stu-id="32268-p102">The **Mediation pools** node lists the Mediation pools in your topology. You can perform the following action:</span></span>
+<span data-ttu-id="3f670-p102">El nodo **Grupos de servidores de mediación** contiene los grupos de servidores de mediación de la topología. Puede efectuar la acción siguiente:</span><span class="sxs-lookup"><span data-stu-id="3f670-p102">The **Mediation pools** node lists the Mediation pools in your topology. You can perform the following action:</span></span>
   
-- <span data-ttu-id="32268-p103">**Nuevo grupo de servidores de mediación**. Inicia el asistente **Definir nuevo grupo de servidores de mediación**, que sirve para agregar un nuevo grupo de servidores de mediación a la topología.</span><span class="sxs-lookup"><span data-stu-id="32268-p103">**New Mediation Pool**. Starts the **Define New Mediation Pool** wizard, which you use to add a new Mediation pool to the topology.</span></span>
+- <span data-ttu-id="3f670-p103">**Nuevo grupo de servidores de mediación**. Inicia el asistente **Definir nuevo grupo de servidores de mediación**, que sirve para agregar un nuevo grupo de servidores de mediación a la topología.</span><span class="sxs-lookup"><span data-stu-id="3f670-p103">**New Mediation Pool**. Starts the **Define New Mediation Pool** wizard, which you use to add a new Mediation pool to the topology.</span></span>
     
-<span data-ttu-id="32268-109">Además de las opciones de grupo de servidores de mediación, puede realizar las tareas generales siguientes:</span><span class="sxs-lookup"><span data-stu-id="32268-109">In addition to the Mediation pool options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="3f670-109">Además de las opciones de grupo de servidores de mediación, puede realizar las tareas generales siguientes:</span><span class="sxs-lookup"><span data-stu-id="3f670-109">In addition to the Mediation pool options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="32268-p104">**Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.</span><span class="sxs-lookup"><span data-stu-id="32268-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="3f670-p104">**Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.</span><span class="sxs-lookup"><span data-stu-id="3f670-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="32268-p105">**Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.</span><span class="sxs-lookup"><span data-stu-id="32268-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="3f670-p105">**Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.</span><span class="sxs-lookup"><span data-stu-id="3f670-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="32268-p106">**Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.</span><span class="sxs-lookup"><span data-stu-id="32268-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="3f670-p106">**Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.</span><span class="sxs-lookup"><span data-stu-id="3f670-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

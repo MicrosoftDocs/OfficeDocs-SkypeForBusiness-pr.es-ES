@@ -14,16 +14,16 @@ ms.collection:
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Talleres interactivos en vivo diseñados para ayudarle a empezar a trabajar con Microsoft Teams en tan solo 30 días.
-f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b57b34eea5459e3d800df49876b133510dbde4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fb8d5b133bcc8ee905df51b9c006f173eb4947b6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570217"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41708456"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -70,7 +70,7 @@ ms.locfileid: "37570217"
                     </div>
                     <div class="cardText">
                     <h3>Preparar su entorno-parte I</h3>
-                    <p>Establezca la base para el lanzamiento de Teams. Identifique los requisitos previos de Teams, procedimientos recomendados de seguridad y redes, directivas de coexistencia, análisis y creación de informes y recomendaciones de distribución de clientes.</p><p>Público: administradores de ti</p>
+                    <p>Establezca la base para el lanzamiento de Teams. Identifique los requisitos previos de Teams, procedimientos recomendados de seguridad y redes, directivas de coexistencia, análisis y creación de informes y recomendaciones de distribución de clientes.</p><p>Público: administradores de IT</p>
 </div>
                 </div>
             </div>
@@ -88,7 +88,7 @@ ms.locfileid: "37570217"
                     </div>
                     <div class="cardText">
                         <h3>Preparar su entorno: parte II</h3>
-                    <p>Ahora que tiene la base, comprenda los procedimientos recomendados para implementar el cumplimiento, la retención, el gobierno y las conferencias de audio de Teams.</p><p>Público: administradores de ti</p>
+                    <p>Ahora que tiene la base, comprenda los procedimientos recomendados para implementar el cumplimiento, la retención, el gobierno y las conferencias de audio de Teams.</p><p>Público: administradores de IT</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ ms.locfileid: "37570217"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Preparar a los usuarios finales</h3>
+                        <h3>Listos sus usuarios finales:</h3>
                     <p>Descubra estrategias y recursos para preparar a los usuarios, crear un contingente de campeones y garantizar la aceptación del usuario como componente fundamental de la implementación de sus equipos.</p><p>Público: adopción y cambio de propietarios</p>
                     </div>
                 </div>

@@ -15,17 +15,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: Configure y use el análisis de llamadas para identificar y solucionar problemas de calidad de llamadas de Skype empresarial y Microsoft Teams.
-ms.openlocfilehash: d6428afc9fc15bc94dbb2e5b1c3aae44a4f96500
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 865e8fddbf67e8aae85b7f38ee263c86ecf96716
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303855"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41705915"
 ---
-# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="5b277-103">Uso de la calidad de las llamadas en su organización</span><span class="sxs-lookup"><span data-stu-id="5b277-103">Using Call Quality in your organization</span></span>
+# <a name="using-call-quality-in-your-organization"></a><span data-ttu-id="3f64f-103">Uso de la calidad de las llamadas en su organización</span><span class="sxs-lookup"><span data-stu-id="3f64f-103">Using Call Quality in your organization</span></span>
 
 

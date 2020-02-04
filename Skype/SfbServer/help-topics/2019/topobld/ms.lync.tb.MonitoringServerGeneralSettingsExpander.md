@@ -6,26 +6,26 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'En el Generador de topologías puede editar las propiedades de un servidor de supervisión concreto, ya sea haciendo clic con el botón secundario en el servidor de supervisión en el árbol de consola; haciendo clic en Acción en la barra de herramientas; o haciendo clic en una tarea del panel Acciones, haciendo clic en Editar propiedades y, a continuación, cambiando cualquiera de las opciones siguientes:'
-ms.openlocfilehash: 0c3f807b183a9f30af48bcdaf913b9fdf3b28312
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0588d7922e6f9d8455d83543064068f17f2ac410
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289177"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41701877"
 ---
-# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="3a89c-103">Expansor de configuración general del servidor de supervisión</span><span class="sxs-lookup"><span data-stu-id="3a89c-103">Monitoring Server General Settings Expander</span></span>
+# <a name="monitoring-server-general-settings-expander"></a><span data-ttu-id="14f39-103">Expansor de configuración general del servidor de supervisión</span><span class="sxs-lookup"><span data-stu-id="14f39-103">Monitoring Server General Settings Expander</span></span>
  
-<span data-ttu-id="3a89c-104">En el Generador de topologías puede editar las propiedades de un servidor de supervisión concreto, ya sea haciendo clic con el botón secundario en el servidor de supervisión en el árbol de consola; haciendo clic en **Acción** en la barra de herramientas; o haciendo clic en una tarea del panel Acciones, haciendo clic en **Editar propiedades** y, a continuación, cambiando cualquiera de las opciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="3a89c-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
+<span data-ttu-id="14f39-104">En el Generador de topologías puede editar las propiedades de un servidor de supervisión concreto, ya sea haciendo clic con el botón secundario en el servidor de supervisión en el árbol de consola; haciendo clic en **Acción** en la barra de herramientas; o haciendo clic en una tarea del panel Acciones, haciendo clic en **Editar propiedades** y, a continuación, cambiando cualquiera de las opciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="14f39-104">In Topology Builder, you can edit the properties for an individual Monitoring Server either by right-clicking the Monitoring Server in the console tree and then clicking **Action** in the toolbar, or by clicking a task in the Actions pane and then clicking **Edit Properties**, and changing any of the following options:</span></span>
   
-- <span data-ttu-id="3a89c-105">**FQDN**, para cambiar el nombre de dominio completo (FQDN) del servidor que desea implementar como servidor de supervisión.</span><span class="sxs-lookup"><span data-stu-id="3a89c-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
+- <span data-ttu-id="14f39-105">**FQDN**, para cambiar el nombre de dominio completo (FQDN) del servidor que desea implementar como servidor de supervisión.</span><span class="sxs-lookup"><span data-stu-id="14f39-105">**FQDN**, to change the fully qualified domain name (FQDN) of the server that you want to deploy as a Monitoring Server.</span></span>
     
-- <span data-ttu-id="3a89c-p101">**Almacén SQL**, para cambiar la instancia de SQL Server que se debe usar en la base de datos de SQL Server de supervisión. Si se cambia la base de datos de SQL Server de un servidor de supervisión, debe reiniciar el servidor para que el cambio surta efecto.</span><span class="sxs-lookup"><span data-stu-id="3a89c-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
+- <span data-ttu-id="14f39-p101">**Almacén SQL**, para cambiar la instancia de SQL Server que se debe usar en la base de datos de SQL Server de supervisión. Si se cambia la base de datos de SQL Server de un servidor de supervisión, debe reiniciar el servidor para que el cambio surta efecto.</span><span class="sxs-lookup"><span data-stu-id="14f39-p101">**SQL store**, to change the instance of SQL Server to be used for the monitoring SQL Server database. If you change the SQL Server database of a Monitoring Server, you must restart the Monitoring Server for the change to take effect.</span></span>
     
 
