@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Polonia.
-ms.openlocfilehash: e18d69a973dbd5d9127f246500394cae818a0800
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 775f29ea1791f96e6cda206120752d2e2bc07a9b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37562785"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694765"
 ---
 # <a name="availability-in-poland"></a>Disponibilidad en Polonia
 

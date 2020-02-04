@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.PublishTopologySelectCmsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: Publique la topología que ha configurado con el generador de topología. Se le pedirá que seleccione de una lista en la que el servidor front-end o el grupo de servidores front-end asumirán la función de mantener el almacén de administración central. Solo un servidor front-end o un grupo de servidores front-end pueden mantener este rol en un momento dado.
-ms.openlocfilehash: 8f529f9b7fb303a7c5477bd28eea6d2881960937
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a5078389b1489f6b690b324b72cdf2808822554f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289850"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696775"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publicar página CMS de selección de topología
 

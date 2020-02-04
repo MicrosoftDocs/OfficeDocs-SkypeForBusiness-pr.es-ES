@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FederationRouteSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: Para establecer una asignación de enrutamiento de Federación de sitios, primero debe tener habilitada la Federación en el servidor perimetral o en el grupo de servidores perimetrales. Si la Federación no está habilitada en el servidor perimetral o grupo, la configuración de asignación de rutas de Federación para el sitio no estará disponible para su modificación.
-ms.openlocfilehash: 2bbce59458ba409579757a6aea3b2dc614f545d1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7e91ef645ee309ece6df6d95bc032220db662c03
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284476"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697335"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de configuración de ruta de federación
  

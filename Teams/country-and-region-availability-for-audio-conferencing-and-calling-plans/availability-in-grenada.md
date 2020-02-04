@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Granada.
-ms.openlocfilehash: 2a5c3a4dfd997be5d2266f24c488b267ba4ac563
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: be8219847bbd3c37681d814b3012fd6a8583bf6f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741676"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695095"
 ---
 # <a name="availability-in-grenada"></a>Disponibilidad en Granada
 

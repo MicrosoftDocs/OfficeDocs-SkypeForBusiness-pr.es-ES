@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.locations.emergencyaddresses.overview
 - ms.lync.lac.AddressAndLocation
 ms.custom:
 - Calling Plans
 - Direct Routing
 description: Más información sobre las llamadas de emergencia, incluida información sobre las direcciones de emergencia, el enrutamiento de llamadas de emergencia y las llamadas de emergencia dinámicas.
-ms.openlocfilehash: b97a14310014ea2e8271ee54f3bd6e777afa4d57
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 1e8eb5ee3f95afb08dc5f33862287fc3b3379806
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615840"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694315"
 ---
 # <a name="manage-emergency-calling"></a>Administrar las llamadas de emergencia
 

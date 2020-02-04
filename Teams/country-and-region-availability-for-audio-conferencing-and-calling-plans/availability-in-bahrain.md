@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Bahrein.
-ms.openlocfilehash: 0c4c9f0f51193296b7ee6131e08cf3c2625896f1
-ms.sourcegitcommit: b9710149ad0bb321929139118b7df0bc4cca08de
+ms.openlocfilehash: 18aa99c7a96814d80dd8a38e43ea4f9a5f68246b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38010613"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695425"
 ---
 # <a name="availability-in-bahrain"></a>Disponibilidad en Baréin
 

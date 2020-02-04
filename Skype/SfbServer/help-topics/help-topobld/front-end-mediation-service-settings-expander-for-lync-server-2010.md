@@ -7,24 +7,24 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Edite las propiedades de la configuración de la puerta de enlace RTC del servidor de mediación en este diálogo. Defina la siguiente configuración:'
-ms.openlocfilehash: b57ca675d3681886ea2a2853aa1357b394fda4c4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bd24c24d14e24ed7e4ce53bc30d01b2e955be6cf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284392"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697285"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de configuración del servicio de mediación front-end para Lync Server 2010
  
-Edite las propiedades de la configuración de la **puerta de enlace RTC del servidor** de mediación en este diálogo. Defina la siguiente configuración:
+Edite las propiedades de la configuración de la **puerta de enlace RTC del servidor de mediación** en este diálogo. Defina la siguiente configuración:
   
-- Seleccione el **servidor** de mediación agrupado habilitado si desea Collocate el servidor de mediación con este servidor front-end o grupos front-end.
+- Seleccione el **servidor de mediación agrupado habilitado** si desea Collocate el servidor de mediación con este servidor front-end o grupos front-end.
     
 - **Puertos de escucha**: defina los puertos en los que escuchará el servidor de mediación. Puede definir un puerto para **TLS** o para la seguridad de la capa de transporte, **TCP**o protocolo de control de transporte. Para que la entrada de puerto para TCP esté disponible, debe activar la casilla de **Habilitar puerto TCP**. 
     

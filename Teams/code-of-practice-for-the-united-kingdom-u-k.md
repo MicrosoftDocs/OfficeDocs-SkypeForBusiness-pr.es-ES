@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: 6ece2fcc6190ba800ba927147f4746a4fc0f2fd0
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 99ca68670d743279ded96df26adb1f09d66e8b12
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515856"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695465"
 ---
 # <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Planes de llamada en Office 365: código de prácticas para Reino Unido (UK)
 

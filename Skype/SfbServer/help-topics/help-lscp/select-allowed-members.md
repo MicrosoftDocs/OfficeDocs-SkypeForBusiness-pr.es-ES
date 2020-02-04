@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.SelectAllowedMembers
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Crear y administrar salones de chat persistentes es mucho más fácil con el uso correcto de categorías. Un administrador de chat persistente puede definir AllowedMembers y creadores de cada categoría, y también puede definir la configuración y los comportamientos predeterminados del salón de chat que se aplicarán a todos los salones de chat creados en la categoría. Los administradores de chats persistentes crean y administran categorías con el panel de control o los cmdlets de Windows PowerShell.
-ms.openlocfilehash: dedc022853738ad02b4da2ce0ab2cdc7ccbee576
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 916077fe25e1616888dd58dc40f0ef0f14c61e7a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282255"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699705"
 ---
 # <a name="select-allowed-members"></a>Seleccionar los miembros permitidos
 
@@ -38,7 +38,7 @@ Para obtener más información sobre los distintos procedimientos que puede real
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>Configuración de las categorías de los salones de chat
 
-En **pertenencia**, en la sección **miembros permitidos** , agregar o quitar usuarios y otros principios de los servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, etc.) que se pueden agregar como miembros de salones de chat pertenece a la categoría. Las entidades de seguridad permitidas por una categoría pueden buscar los salones de la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón podrán encontrarlo en el directorio).
+En **pertenencia**, en la sección **miembros permitidos** , agregue o quite usuarios y otros principios de los servicios de dominio de Active Directory (usuarios, grupos de distribución, unidades organizativas, etc.) que pueden agregarse como miembros de los salones de chat que pertenecen a la categoría. Las entidades de seguridad permitidas por una categoría pueden buscar los salones de la categoría (a menos que el salón esté oculto, en cuyo caso solo los miembros del salón podrán encontrarlo en el directorio).
 
 
 Para obtener más información sobre las funciones y características del servidor de chat persistentes, vea [información general sobre el servidor de chat persistente](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) en la documentación de planificación. Para obtener más información sobre cómo trabajar con configuraciones de servidor de chat persistentes, vea [configurar el servidor de chat persistente](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) en la documentación de implementación y [administrar Lync Server 2013, servidor de chat persistente](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) en la documentación de operaciones.

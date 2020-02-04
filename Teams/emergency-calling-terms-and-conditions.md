@@ -17,16 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: 'Descubre cómo los servicios de emergencia (911) difieren de los servicios telefónicos tradicionales y cómo hacer una llamada. '
-ms.openlocfilehash: 356e858f39b1e7c6b812b99f46ecde42a35de81d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 921756e7b26774066e0d0b7c5c2a7693c1405a90
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568424"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696135"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Términos y condiciones de las llamadas de emergencias
 
@@ -34,7 +35,7 @@ ms.locfileid: "37568424"
 
 Las llamadas a servicios de emergencia funcionan de manera diferente en los planes de llamadas de Office 365 que en los servicios telefónicos tradicionales. Es importante que comprenda estas diferencias y las comunique a todos los usuarios con planes de llamadas en Office 365. Usted reconoce y acepta que ha leído y entendido las diferencias en nuestros servicios de emergencia y lo proporcionará a cada usuario con planes de llamadas en Office 365.
   
-Las diferencias en nuestras capacidades de llamadas a servicios de emergencia incluyen lo siguiente: (i) es posible que Skype empresarial y Teams no conozcan la ubicación real de una llamada de servicios de emergencia, lo que puede provocar que la llamada se dirija a una emergencia incorrecta. El centro de llamadas de servicios o los servicios de emergencia se envían a una ubicación incorrecta; (II) si el cliente de Teams del usuario está desconectado, o si el dispositivo del usuario no puede obtener acceso a Internet por algún motivo, como una interrupción de la red o un corte de energía, las llamadas de servicios de emergencia a través del sistema telefónico en Office 365 no son compatibles y no se espera que funcionen; y (III) aunque los planes de llamadas en Office 365 se pueden usar en cualquier lugar del mundo donde esté disponible una conexión a Internet, los usuarios no deberían hacer una llamada de servicios de emergencia desde una ubicación fuera de su país o región, porque es probable que la llamada no se dirija a el centro de llamadas adecuado de ese país o región.
+Las diferencias en nuestras capacidades de llamadas a servicios de emergencia incluyen lo siguiente: (i) es posible que Skype para empresas y equipos no conozcan la ubicación real de las llamadas de servicios de emergencia, lo cual podría dar lugar a que la llamada se dirija al centro equivocado de llamadas de servicios de emergencia o a los servicios de emergencia enviándose a una ubicación incorrecta; (II) si el cliente de Teams del usuario está desconectado, o si el dispositivo del usuario no puede obtener acceso a Internet por algún motivo, como una interrupción de la red o un corte de energía, las llamadas de servicios de emergencia a través del sistema telefónico en Office 365 no son compatibles y no se espera que funcionen; y (III) aunque los planes de llamadas en Office 365 se pueden usar en cualquier lugar del mundo donde esté disponible una conexión a Internet, los usuarios no deberían llamar a servicios de emergencia desde una ubicación fuera de su país o región, ya que es probable que la llamada no se dirija al centro de llamadas adecuado de ese país o región.
   
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)

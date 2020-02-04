@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: Vea cómo se seleccionan los idiomas del operador automático de audioconferencias para un número de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: 7a8f8c677d8f8b917100360189585b7fd82bb07e
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: a8755acf77d0b512924156ff303ed0b11f014a45
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571309"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694045"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceTrunkMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: dec2679ffa557d39bd8800f854935ef20f4dfdd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0266024e655433b254de55f8baa7ae8693bf9f2a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293063"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699315"
 ---
 # <a name="trunk-configuration"></a>Configuración del tronco
 

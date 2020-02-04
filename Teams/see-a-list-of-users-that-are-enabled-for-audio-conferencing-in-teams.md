@@ -16,16 +16,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo se puede ver una lista de usuarios de su organización que estén habilitados para la conferencia de acceso telefónico local desde Microsoft Teams. '
-ms.openlocfilehash: 83d5ee7451ce2d5a3b1e9c0ee7beb83e8ff52f0d
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: f769953a2cbce7ee91a5a75c00cbcb0e2a2b3814
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37571353"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694135"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams
 

@@ -14,21 +14,21 @@ ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.adoption
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25ed0a4f704663a05364ca05031f89924cc7b3f5
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: d534bfd865de1f12fb902b4a7ce1a2a0f5edef6a
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "36483416"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695705"
 ---
 # <a name="adopt-microsoft-teams"></a>Adoptar Microsoft Teams
 
-Si es una pequeña empresa o si desea implementar Teams a partir de una conversación, Teams & canales y reuniones, use nuestra [Guía de introducción](get-started-with-teams-quick-start.md)a las directrices, que está diseñada para que pueda empezar a trabajar rápidamente. Si es una organización grande con una configuración híbrida o local de Skype empresarial, o si desea implementar características de voz (como planes de llamadas de Office 365 o un sistema telefónico), puede comenzar con nuestra guía de introducción, pero necesitará el adicional instrucciones a continuación, en **orientación sobre adopción más profunda**.
+Si es una pequeña empresa o si desea implementar Teams a partir de una conversación, Teams & canales y reuniones, use nuestra [Guía de introducción](get-started-with-teams-quick-start.md)a las directrices, que está diseñada para que pueda empezar a trabajar rápidamente. Si es una organización grande con una configuración híbrida o local de Skype empresarial, o si desea implementar características de voz (como planes de llamadas de Office 365 o un sistema telefónico), puede comenzar con nuestra guía de introducción, pero necesitará la orientación adicional que se muestra a continuación, en una **Guía de adopción más profunda**.
 
 <ul class="panelContent cardsFTitle">
     <li>

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: El FQDN externo de las conferencias web permite a los usuarios externos unirse a reuniones locales. Escriba el nombre de dominio completo (FQDN) de la interfaz externa de conferencias web del servidor perimetral heredado.
-ms.openlocfilehash: b1d0211c51864b55a81b7c648d84402a44300f2a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb059855f7893ef7b2b9c601835bb53e6f0d280b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284133"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697095"
 ---
 # <a name="legacy-merge"></a>Combinar información heredada
 

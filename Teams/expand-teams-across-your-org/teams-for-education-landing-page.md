@@ -12,15 +12,15 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-f1keywords: ms.teamsadmincenter.assignments.overview
+f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ee71b414f40895d34172ce214b6ab7f555830a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 0c0ef954c1a6f93ab47df5a968be3c5950d24d44
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569649"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693795"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams para el ámbito educativo
 

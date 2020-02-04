@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Para editar las propiedades del servidor front-end o del grupo front-end, edite o configure los siguientes atributos. La página de configuración se divide en las siguientes secciones:'
-ms.openlocfilehash: b0ee8a2d0081d937bf93d4a638e4f56b1cc79134
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1e7fa730745c3eab20288b5b4bfbb9c0d781be83
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284406"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697295"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general front-end para Lync Server 2010
 
@@ -28,7 +28,7 @@ Para editar las propiedades del servidor front-end o del grupo front-end, edite 
 
 - **FQDN**: el nombre de dominio completo del servidor front-end o del grupo de servidores front-end.
 
-- Seleccione **usar todas las direcciones IP** configuradas para usar todas las direcciones configuradas en el servidor front-end o en el grupo front-end.
+- Seleccione **usar todas las direcciones IP configuradas** para usar todas las direcciones configuradas en el servidor front-end o en el grupo front-end.
 
     > [!IMPORTANT]
     > No debe seleccionar esta opción si Collocate el servidor de mediación en el servidor front-end o en el grupo front-end. Los servidores de mediación y los servidores front-end necesitan direcciones IP dedicadas en las que comunicarse.
@@ -41,7 +41,7 @@ Para editar las propiedades del servidor front-end o del grupo front-end, edite 
 
 - Si selecciona conferencias, se pueden seleccionar **conferencias de acceso telefónico local (RTC)** . Seleccione la casilla para habilitar las características de conferencia de acceso telefónico local.
 
-- Active la casilla **voz empresarial** si tiene previsto implementar características para habilitar Lync Server 2013 para que actúe como sistema de voz telefónica usando las tecnologías de voz sobre IP (VoIP), entre las que se incluyen la opción de implementar teléfonos de telefonía, troncos SIP o pública Conectividad de red telefónica conmutada usando el servidor de mediación, las puertas de enlace RTC e IP-PBX, en forma combinada o independiente, en función del diseño y los requisitos. Para obtener información detallada sobre la telefonía IP empresarial, consulte la [telefonía IP empresarial](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) y el [plan de telefonía IP empresarial en Skype empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Active la casilla **voz empresarial** si desea implementar características para habilitar Lync Server 2013 para que actúe como el sistema de voz telefónica usando las tecnologías de voz sobre IP (VoIP), entre las que se incluyen la opción de implementar teléfonos de telefonía, troncos SIP o conectividad de red telefónica pública conmutada con el servidor de mediación, las puertas de enlace RTC e IP-PBX, en forma combinada Para obtener información detallada sobre la telefonía IP empresarial, consulte la [telefonía IP empresarial](https://technet.microsoft.com/library/c9da8099-6f4f-4346-ac67-f041bb96072c.aspx) y el [plan de telefonía IP empresarial en Skype empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Asociaciones**
 
@@ -57,7 +57,7 @@ Para editar las propiedades del servidor front-end o del grupo front-end, edite 
 
   **Resistencia**
 
-- Active la casilla de verificación grupo de registro de la **copia de seguridad asociado** para seleccionar de la lista un servidor front-end o un grupo de servidores front-end que será el registrador de la copia de seguridad (es decir, el servidor front-end o el grupo de servidores front-end designado como registrador secundario en el caso de que el principal pasa
+- Active la casilla de verificación grupo de registro de la **copia de seguridad asociado** para seleccionar de la lista un servidor front-end o un grupo de servidores front-end que será el registrador de la copia de seguridad (es decir, el servidor front-end o el grupo front-end designado como registrador secundario en caso de que se produzcan errores en el principal)
 
 - Si seleccionó un grupo de registro de copia de seguridad asociado y ha elegido un registrador de copia de seguridad, puede activar la casilla de verificación de **conmutación por error automática y la conmutación por error para voz**. Ahora puede definir propiedades numéricas para la detección de la **conmutación por error de voz interna (SEC)** y **intervalo de failback de voz (s)**. Para obtener más información, consulte [planificación de la resistencia de telefonía IP empresarial](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)
 
@@ -75,7 +75,7 @@ Para editar las propiedades del servidor front-end o del grupo front-end, edite 
 
   **Servidor de mediación**
 
-- Para configurar las propiedades del **servidor** de mediación para un servidor de mediación en cola (es decir, un servidor de mediación implementado en el servidor front-end o en el grupo de servidores front-end), seleccione **servidor**de mediación agrupado.
+- Para configurar las propiedades del **servidor** de mediación para un servidor de mediación en cola (es decir, un servidor de mediación implementado en el servidor front-end o en el grupo de servidores front-end), seleccione **servidor de mediación**agrupado.
 
 - Para definir los **puertos de escucha** de un servidor de mediación, escriba el valor de puerto **TCP** y **TLS** que está escuchando el servidor de mediación. De forma predeterminada, TLS se define como el puerto TCP 5067.
 

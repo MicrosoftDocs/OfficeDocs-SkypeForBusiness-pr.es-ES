@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AddVideoGatewayIPPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 description: Los pasos necesarios para definir una nueva puerta de enlace de VIS o video en el generador de topología se describen en línea en crear un grupo VIS de Skype empresarial Server 2015.
-ms.openlocfilehash: a98e2378fc88f6035868d7bd787399fed2504df8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fb59c0d551eb4232b8ff7ec45e86d951e6e1306b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34302632"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697945"
 ---
 # <a name="add-video-gateway-ip"></a>Agregar IP de puerta de enlace de vídeo
  

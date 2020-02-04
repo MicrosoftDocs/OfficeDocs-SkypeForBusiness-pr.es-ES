@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Paraguay.
-ms.openlocfilehash: fafce8cd7c6d630cfa4be9c94fa6cb8ec1450d45
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f0fad255f9050e6265eff48bd3eea80e4859c8e8
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570041"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694795"
 ---
 # <a name="availability-in-paraguay"></a>Disponibilidad en Paraguay
 

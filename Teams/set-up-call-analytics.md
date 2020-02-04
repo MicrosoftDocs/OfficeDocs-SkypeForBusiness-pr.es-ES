@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Reporting
 description: Configure y use el análisis de llamadas para identificar y solucionar problemas de calidad de llamadas de Skype empresarial y Microsoft Teams.
-ms.openlocfilehash: 7a91bc0d8503d313ae3b3dfa7ddd32b6a8c5207a
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4b4ab2b60025169351e10a5a8cc3938d146e4f2d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571254"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693945"
 ---
 # <a name="set-up-call-analytics"></a>Configurar el Análisis de llamadas
 

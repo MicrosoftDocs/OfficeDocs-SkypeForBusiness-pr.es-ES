@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Brasil.
-ms.openlocfilehash: 0a2c435b155a8cdca39a934d97b1a6f003354948
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8414e87d74d1d88cf9a05dd780c24eadbab66edc
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571089"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695325"
 ---
 # <a name="availability-in-brazil"></a>Disponibilidad en Brasil
 

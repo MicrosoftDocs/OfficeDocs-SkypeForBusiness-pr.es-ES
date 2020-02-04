@@ -16,7 +16,7 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords:
+f1.keywords:
 - O365E_E5Voiceplandetails
 - O365M_E5Voiceplandetails
 - O365P_E5Voiceplandetails
@@ -24,12 +24,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 305416df22353743b891df6c7722bededaae0980
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: 3dc132e1ccbb4c9720d6c17ca37aa7e72e42751b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37516752"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695585"
 ---
 # <a name="calling-plans-for-office-365"></a>Planes de llamadas para Office 365
 

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.VoiceUsageEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: c4f0fc2b37de94ab3b50e917cc663d1893c51e8b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 24ebce1825b6f6fe4e7051d14af38d3413006e38
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305587"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699825"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>Uso de RTC: Crear nuevos o editar los existentes
 

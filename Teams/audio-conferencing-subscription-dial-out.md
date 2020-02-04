@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'A los clientes se les ha proporcionado una capacidad de llamada gratuita que finalizará el 30 de noviembre de 2019.  A partir del 1 de diciembre de 2019, cada suscripción de audioconferencia proporciona 60 minutos por usuario a cualquiera de los países de la zona A, tal y como se describe en este documento. '
-ms.openlocfilehash: e98844a1b3d9b00d489cd32e90add357b4b85b57
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 6309bc48d07c767aa9babb9139f6ad885689cb38
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311275"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695655"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Beneficios de la suscripción de audioconferencias de "acceso telefónico local"/"llamarme al"
 

@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
-ms.openlocfilehash: e0ddeac2230d057ac64237a6728e8e707f5d8958
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: 1e33928c8ebd241d37f572d80eb895a0164e0d41
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952483"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693825"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 

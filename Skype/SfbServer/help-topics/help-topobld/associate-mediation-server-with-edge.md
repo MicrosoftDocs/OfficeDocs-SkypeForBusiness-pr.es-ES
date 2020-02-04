@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 'Para definir un servidor de mediación, especifique la configuración que asocia el servidor de mediación con un servidor front-end y con un servidor perimetral o un grupo. Para asociar el servidor o grupo de mediación a un grupo de servidores perimetrales o perimetrales, haga lo siguiente:'
-ms.openlocfilehash: 36ea1d851ca167062ed42872e2a46f9f161c04bd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77a1ea9143084afecb67689e44f11cdf168521a9
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34301648"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697755"
 ---
 # <a name="associate-mediation-server-with-edge"></a>Asociar servidor de mediación con perimetral
  

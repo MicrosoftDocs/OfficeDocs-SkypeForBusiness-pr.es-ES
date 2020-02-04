@@ -12,16 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e0f6424770e2a0ccbe7367d2786949ef4ef2f6d
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 400e6523a867e5ee7c2da1b3d0ccaba14db55f27
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573646"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693925"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -120,7 +120,7 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 | |  |  |
 |---------|---------|---------|
 |![Un icono que representa un punto de decisión](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![Un icono que representa los pasos siguientes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Siguientes pasos         |Revise las licencias actuales de su organización y confirme que cumple con todos los requisitos empresariales de cumplimiento y seguridad.         |
+|![Un icono que representa los pasos siguientes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Pasos siguientes         |Revise las licencias actuales de su organización y confirme que cumple con todos los requisitos empresariales de cumplimiento y seguridad.         |
 
 Antes de habilitar cualquiera de estas características, asegúrese de que tiene acceso al centro de cumplimiento de & de seguridad en el centro de administración de Microsoft 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
 

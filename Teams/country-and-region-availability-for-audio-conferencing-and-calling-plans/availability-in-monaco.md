@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Mónaco.
-ms.openlocfilehash: e14fc6459a3a100dbdfa35a3755156a7594ccf04
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1b7103ac82daf6cba1700f17de571bd35a3ebc60
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571056"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694885"
 ---
 # <a name="availability-in-monaco"></a>Disponibilidad en Mónaco
 

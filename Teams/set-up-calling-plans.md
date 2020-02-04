@@ -16,17 +16,18 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Para el plan de llamadas de Office 365, obtenga información sobre cómo comprar y configurar licencias, obtener números de teléfono, agregar y asignar números de teléfono y ubicaciones de emergencia a los usuarios, e informar a los usuarios sobre sus nuevos números de teléfono.
-ms.openlocfilehash: b77db0169eedf1250ff7ddc8ea83c208e2b91849
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 6c43408c09edaa220a6d3f030680a48fe321e6dd
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628416"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693935"
 ---
 # <a name="set-up-calling-plans"></a>Configurar las llamadas RTC en Skype Empresarial
 

@@ -17,16 +17,16 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.autoattendants.overview
+f1.keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Aprenda Cuáles son los operadores automáticos de la nube y cómo usarlos.
-ms.openlocfilehash: e9d6da8a73333218990611bd287a852683d52f9c
-ms.sourcegitcommit: 2fab6105dfc4c225de8c09ab79d9c2c273a3e4f6
+ms.openlocfilehash: ab88eb27eb12e8de119b90c7d53de750384afcea
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41004775"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694305"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos de la nube?
 

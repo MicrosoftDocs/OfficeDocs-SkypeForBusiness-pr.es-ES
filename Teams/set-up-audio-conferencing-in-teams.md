@@ -16,17 +16,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas en conferencia. '
-ms.openlocfilehash: d630f6f149f61609209cc4ead23ed7232647cb08
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 0a483dba984799a3c9e0f1a63ed908dde9a9ca08
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "37925371"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693955"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferencias para Microsoft Teams
 
@@ -79,7 +80,7 @@ Siga estos pasos para asignar un nuevo número de teléfono a su puente de audio
 ![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial:**
 
  1. Vaya al portal de > **Administración** > de **centro de administración de Microsoft 365****Teams** > **Legacy**.
- 2. Seleccione **** > **números de teléfono**de voz.
+ 2. Seleccione **Voz** > **Números de teléfono**.
  3. Seleccione el número de teléfono y haga clic en **asignar**.
 
 Para obtener más información, consulte [cambiar los números de teléfono en el puente de audioconferencia](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).

@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ExtDomainEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 83d4275f395ea2cc1135a75877ca58fe6e0df728
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b7e5b82b13a610e831c92f1fbac8d7a688459ae7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285816"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700205"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>Dominios federados: Crear nuevo o editar existente
 

@@ -18,18 +18,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Australia.
-ms.openlocfilehash: 2ce9e45a4f2addbe35c0a853c6c009d58998d336
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: acbde97d1b0facf077b175650d4748318d53b591
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573746"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695435"
 ---
 # <a name="availability-in-australia"></a>Disponibilidad en Australia
 

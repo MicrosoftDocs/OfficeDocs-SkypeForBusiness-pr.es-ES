@@ -16,16 +16,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: 284c4b04ad1652b7a9ab3cb5d6d9bcb2f0902550
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 5da6f5807f5fd2868097525f1abe6ecd5def6d5f
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568580"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694285"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -55,7 +56,7 @@ Si se está preguntando cuál es el costo de las llamadas para los planes de lla
   
 ## <a name="what-is-it"></a>¿Qué es?
 
-Para usar números gratuitos en Skype empresarial, se necesitan créditos de comunicaciones, ya que estas llamadas se cobran por minuto. Además, le recomendamos que configure créditos de comunicaciones para el plan de llamadas y los usuarios de las conferencias de audio que necesiten poder llamar a **cualquier destino de RTC**. Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en su plan de llamadas o suscripciones de audioconferencia. Si no configura créditos de comunicaciones o asigna una licencia a los usuarios y ejecuta minutos para su organización (según el plan de llamadas, el plan de audioconferencia o el país o la región), esos usuarios no podrán hacer llamadas ni llamar desde Internet. Reuniones de audioconferencia.
+Para usar números gratuitos en Skype empresarial, se necesitan créditos de comunicaciones, ya que estas llamadas se cobran por minuto. Además, le recomendamos que configure créditos de comunicaciones para el plan de llamadas y los usuarios de las conferencias de audio que necesiten poder llamar a **cualquier destino de RTC**. Se incluyen muchos países o regiones, pero es posible que algunos destinos no se incluyan en su plan de llamadas o suscripciones de audioconferencia. Si no configura créditos de comunicaciones o asigna una licencia a los usuarios y ejecuta minutos para su organización (dependiendo de su plan de llamadas, de audio o de su país o región), esos usuarios no podrán hacer llamadas ni llamar desde reuniones de conferencias de audio en línea.
   
 > [!NOTE]
 > Debe configurar créditos de comunicaciones y, a continuación, asignar una licencia de créditos de comunicaciones para cada usuario del **Centro** > **** > de administración de Microsoft 365 usuarios**activos**. 
@@ -71,7 +72,7 @@ En los planes de > **facturación** > del **centro de administración de Microso
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
-Cada organización tendrá un uso diferente de los planes de llamadas: el volumen y las tarifas a tener en cuenta. You will need to get this type of usage data from your current service provider. Para las organizaciones que usan Skype empresarial como proveedor de servicios, puede obtener los datos de uso si los revisan en los**informes** del **Centro** > de administración de Microsoft 365 o en los informes del **Centro** > de administración de Skype empresarial.** **Detalles de **uso de RTC.**  > 
+Cada organización tendrá un uso diferente de los planes de llamadas: el volumen y las tarifas a tener en cuenta. You will need to get this type of usage data from your current service provider. Para las organizaciones que usan Skype empresarial como proveedor de servicios, puede obtener los datos de uso si los**** > revisan en los**informes** del **Centro** > de administración de Microsoft 365 o en el **Centro** > de administración de Skype empresarial para obtener**información sobre el uso de RTC**.
   
 Al configurar créditos de comunicaciones, tendrá que investigar el uso de las llamadas de su organización para determinar los montos que necesitará incluir. Puede obtener la información del uso de llamadas en el informe **Detalles de uso de RTC**. Este informe le permite exportar los registros de datos de llamadas a Excel y crear informes personalizados.
 

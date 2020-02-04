@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPhoneCfgEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: En la página Configuración de nuevo dispositivo o configuración de dispositivo de edición, puede crear o modificar una colección de configuraciones utilizadas para administrar Skype empresarial Phone Edition. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
-ms.openlocfilehash: 2af651846a70605b36a8481ee53a54c47901e258
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0bd8d79a97f9dd48faff09f1d7a8e0cfb41473f6
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285970"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700325"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuración de dispositivo: Crear nueva o editar existente
  

@@ -17,18 +17,19 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Bermudas.
-ms.openlocfilehash: 52a54a5ec6ef4d4ae68472d5489e829bc642f281
-ms.sourcegitcommit: cb394272050d049ebceedb7df835b86362dfd8d1
+ms.openlocfilehash: 422fcb988140a272619f00174c29715ed5c99b37
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2019
-ms.locfileid: "40741678"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695346"
 ---
 # <a name="availability-in-bermuda"></a>Disponibilidad de Bermudas
 

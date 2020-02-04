@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: None
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Legal
 description: Los clientes pueden usar el plan de llamadas de Office 365 y las conferencias de audio de Office 365 según permitan los términos y el contrato de licencias por volumen del cliente de Skype empresarial online y Microsoft Teams.
-ms.openlocfilehash: 10f56c62ccac79fcd20b0ca88fd7d71a8fc7c43a
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 65d1426fd74a219206a725a33a52646ab6058337
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311235"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695445"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 

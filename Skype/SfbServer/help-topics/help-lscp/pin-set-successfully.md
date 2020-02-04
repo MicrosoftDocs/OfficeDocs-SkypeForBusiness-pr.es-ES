@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.UserPinNum
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 description: Para usar el correo electrónico para enviar el PIN al usuario, haga clic en abrir mi aplicación de correo electrónico para enviar el nuevo PIN al usuario. Para copiar el PIN en el mensaje de correo electrónico, seleccione Mostrar PIN.
-ms.openlocfilehash: ade43afaf7d5593087038151f65ec3a1d8ace8a6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5e965d71ed16e6752711914bbfc5cedf8961be33
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291035"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41699845"
 ---
 # <a name="pin-set-successfully"></a>PIN establecido correctamente
  

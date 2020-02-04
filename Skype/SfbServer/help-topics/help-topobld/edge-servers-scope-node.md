@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: 'El nodo Grupos de servidores perimetrales contiene los grupos de servidores perimetrales de la topología. You can perform the following action:'
-ms.openlocfilehash: 949a3482489d8e1aafcf902950cc950aed981ee8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 16c650947c8307937676554508ffb82aa66452c7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282557"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697414"
 ---
 # <a name="edge-servers-scope-node"></a>Nodo de ámbito de servidores perimetrales
  

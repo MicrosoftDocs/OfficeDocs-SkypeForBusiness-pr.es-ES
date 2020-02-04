@@ -7,19 +7,19 @@ manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.ExchagneUMSettings
 - ms.lync.plan.ExchagneUMSettings
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: Skype empresarial Server 2015 admite la integración con mensajería unificada de Exchange (UM) para combinar la mensajería de voz y la mensajería de correo electrónico en una sola infraestructura de mensajería.
-ms.openlocfilehash: 5d61de5aa498bc316886bdb977763ea07889c209
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7b5d2c43545bc8f265648b23b748f4220040f2fa
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274194"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696345"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange Unified Messaging Settings (Planning Tool)
 

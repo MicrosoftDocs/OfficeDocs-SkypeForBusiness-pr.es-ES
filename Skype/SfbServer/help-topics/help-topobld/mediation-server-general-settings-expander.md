@@ -7,17 +7,17 @@ manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.MediationServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
-ms.openlocfilehash: 68ce332b0db24147121f66ed88725518abb2c464
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a460cfcaf696740fa108be451156d53bec96f95d
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285697"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697005"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de configuración general del servidor de mediación
  

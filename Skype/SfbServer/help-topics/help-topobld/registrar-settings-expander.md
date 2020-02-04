@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: La resistencia proporciona una alta disponibilidad y una recuperación ante desastres para el grupo de servidores de registro. Al proporcionar un registrador de copias de seguridad en caso de que se produzca un error en el registrador principal, el registrador de la copia de seguridad puede tomar el control del registrador incorrecto, lo que permite a los usuarios iniciar sesión y comunicarse. Los usuarios pueden experimentar la funcionalidad reducida en función de los sistemas que hayan fallado con el registrador principal.
-ms.openlocfilehash: d23258e0573136843b4efab19f92ff0a3190c405
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bac382486b45acbb2e25d3be26d23ea67f1aa15b
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297655"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696735"
 ---
 # <a name="registrar-settings-expander"></a>Expansor de configuración de registrador
  
@@ -32,7 +32,7 @@ En la sección **resistencia** del cuadro de diálogo **Editar propiedades** del
     
 - **Intervalo de detección de errores (s)** Escriba el número de segundos que deben transcurrir antes de determinar que el registrador principal ha fallado. El valor predeterminado es 120 segundos. Este campo es obligatorio si selecciona **Habilitar conmutación por error y conmutación por recuperación**.
     
-- **Intervalo de detección de reserva (s)** Escriba el número de segundos que deben transcurrir antes de determinar que se hace una copia de seguridad del registrador principal. El valor predeterminado es 240 segundos. Este campo es obligatorio si selecciona **Habilitar conmutación por error y**retrasar.
+- **Intervalo de detección de reserva (s)** Escriba el número de segundos que deben transcurrir antes de determinar que se hace una copia de seguridad del registrador principal. El valor predeterminado es 240 segundos. Este campo es obligatorio si selecciona **Habilitar conmutación por error y retrasar**.
     
 > [!IMPORTANT]
 > Cuando defina el intervalo de detección de errores y el intervalo de detección de reserva, tenga cuidado de no introducir un intervalo que hará que la conmutación por error y la reserva se produzcan si el registrador no responde durante un breve período de tiempo. Es posible que el registrador principal no responda por breves períodos de tiempo en función de la carga del grupo de servidores o los servidores. 

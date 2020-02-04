@@ -15,13 +15,13 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams.
-f1keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 996ac202d837b4cfb253a2809880ce0907b33c6c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
+ms.openlocfilehash: 8eee73b3ce6283cf2cb6105b4d1b43433ec7e057
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992717"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694385"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams
 

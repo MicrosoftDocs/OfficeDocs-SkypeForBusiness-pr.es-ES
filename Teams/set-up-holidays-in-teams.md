@@ -14,14 +14,14 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
+f1.keywords: ms.teamsadmincenter.orgwidesettings.holidays.overview
 description: Aprenda a configurar las festividades en Microsoft Teams y a conectarlas a su operador automático.
-ms.openlocfilehash: ee07b33325ee436f6f0397a30034f40db819be09
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 3f52cd1e99a2dec23cae5e6b9f80dd664017d881
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571573"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41693845"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar vacaciones en Microsoft Teams
 

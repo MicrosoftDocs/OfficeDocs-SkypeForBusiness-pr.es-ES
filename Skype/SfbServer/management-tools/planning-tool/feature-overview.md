@@ -7,19 +7,19 @@ manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Herramienta de planeación de Skype Empresarial Server 2015
-ms.openlocfilehash: fddf71cef6dc54045c657ca466137b4adb650d9d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 360ce0cbac209c6076c470242eb1f552afacc949
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274180"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41696335"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
@@ -83,7 +83,7 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
     Skype empresarial Server 2015 incorpora un proxy XMPP completamente integrado (implementado en los servidores perimetrales) y una puerta de enlace XMPP implementada en los servidores frontales. Puede implementar agregar y configurar el proxy XMPP y la puerta de enlace XMPP permite a los usuarios de Skype empresarial Server 2015 agregar contactos de socios basados en XMPP para mensajería instantánea (mi) y presencia.
 
 > [!NOTE]
-> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte [migrar la Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
     
 - **Movilidad**
     

@@ -7,22 +7,22 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Para configurar las notificaciones de inserción de Microsoft y las notificaciones push de Apple, debe crear una directiva para definir qué tipos de notificaciones push necesita.
-ms.openlocfilehash: 571efc74050dc7b7cf55677167a803ddcd8c8f14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 36cf19d42a2378e024f90d3dbe60123b3d5473fa
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293392"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700035"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente móvil: Configuración de notificaciones de inserción
  
-Para configurar las **notificaciones de inserción de Microsoft** y las notificaciones push de **Apple**, debe crear una directiva para definir qué tipos de notificaciones push necesita.
+Para configurar las **notificaciones de inserción de Microsoft** y las **notificaciones push de Apple**, debe crear una directiva para definir qué tipos de notificaciones push necesita.
   
 En la pantalla principal de configuración, puede hacer clic en **Actualizar** para actualizar y volver a rellenar la lista de directivas. Se proporciona un cuadro de búsqueda para restringir la lista de directivas mostradas. A medida que escriba el nombre que está buscando, la lista de directivas se reducirá automáticamente.
   
@@ -31,7 +31,7 @@ En la pantalla principal de configuración, puede hacer clic en **Actualizar** p
   
 Hay dos opciones disponibles para la creación y edición de directivas:
   
-1. **Nuevo**: haga clic para crear una nueva Directiva. Debe proporcionar un sitio para que la Directiva se aplique a. A continuación, configure las opciones de la notificación push. Para la configuración de notificaciones de **inserción**, solo puede crear directivas para sitios que ya haya creado.
+1. **Nuevo**: haga clic para crear una nueva Directiva. Debe proporcionar un sitio para que la Directiva se aplique a. A continuación, configure las opciones de la notificación push. Para la **configuración de notificaciones de inserción**, solo puede crear directivas para sitios que ya haya creado.
     
 2. **Editar**: Seleccione una directiva y haga clic en Editar para seleccionar una acción de una lista desplegable. Solo puede editar los sitios que ya ha creado o editar la directiva global:
     

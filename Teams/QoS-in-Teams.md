@@ -11,19 +11,19 @@ audience: admin
 description: Prepare la red de su organización para la calidad de servicio (QoS) en Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.meetingsettings.qos
 - ms.teamsadmincenter.meetingsettings.network.qosmarkers
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efa2dfadc760d99f87d8d69137992712c90b32ef
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 83275f7fbcec60727ed75c0a56ffda113b36fd26
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567150"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695645"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
@@ -65,7 +65,7 @@ Para proporcionar QoS, los dispositivos de red deben tener una forma de clasific
 
 Cuando el tráfico de red entra en un enrutador, el tráfico se coloca en una cola. Si una directiva QoS no está configurada, solo hay una cola y todos los datos se tratan como "primero en estar", primero en salir con la misma prioridad. Eso significa que el tráfico de voz (que es muy sensible a los retrasos) puede demorarse tras el tráfico, en el que un retraso de algunos milisegundos adicionales no sería un problema.
 
-Al implementar QoS, se definen varias colas con una de varias características de administración de congestión (como la cola de prioridades de Cisco y las características de puesta en cola [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)) basadas en clases y de prevención de congestión (como la ponderación de la carga anticipada). detección de [WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)).
+Al implementar QoS, se definen varias colas con una de varias características de administración de congestión (como la cola de prioridad de Cisco y las características de puesta en cola [CBWFQ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)) basadas en clases y las características de prevención de congestión (como la detección de carga anticipada de [WRED](https://en.wikipedia.org/wiki/Weighted_random_early_detection)).
 
 _Ilustración 2. Ejemplos de colas de QoS_
 
@@ -77,7 +77,7 @@ Una analogía simple es que QoS crea "carriles de autousos" virtuales en su red 
 
 Puede implementar QoS mediante el etiquetado basado en el puerto, mediante listas de control de acceso (ACL) en los enrutadores de su red. El etiquetado basado en puertos es el método más confiable porque funciona en entornos Windows y Mac mixtos y es el más fácil de implementar. Los clientes móviles no proporcionan un mecanismo para marcar el tráfico mediante valores de DSCP, por lo que necesitarán este método.  
 
-Con este método, el enrutador de la red examina un paquete entrante y, si el paquete llegó con un determinado puerto o intervalo de puertos, lo identifica como un tipo de medio determinado y lo coloca en la cola para ese tipo, agregando una marca de [DSCP](https://tools.ietf.org/html/rfc2474) predeterminada a la dirección IP Encabezado de paquete para que otros dispositivos puedan reconocer su tipo de tráfico y darle prioridad a su cola.
+Con este método, el enrutador de la red examina un paquete entrante y, si el paquete llegó usando un determinado puerto o intervalo de puertos, lo identifica como un tipo de medio determinado y lo coloca en la cola para ese tipo, agregando una marca de [DSCP](https://tools.ietf.org/html/rfc2474) predeterminada al encabezado del paquete IP para que otros dispositivos puedan reconocer su tipo de tráfico y darle prioridad a su cola.
 
 Aunque esto funciona en todas las plataformas, solo marca el tráfico en la periferia de la WAN (no en el equipo cliente) y crea un overhead de administración. Para obtener instrucciones sobre cómo implementar este método, consulte la documentación proporcionada por el fabricante del router.
 
@@ -162,7 +162,7 @@ Para obtener información sobre cómo configurar puertos de firewall, vaya a [Of
 En Teams, los puertos de origen QoS usados por las diferentes cargas de trabajo deben administrarse activamente y ajustarse según sea necesario. Al hacer referencia a la tabla en [elegir los intervalos de puerto iniciales para cada tipo de medio](#choose-initial-port-ranges-for-each-media-type), los intervalos de puertos son ajustables, pero los marcadores de DSCP no se pueden configurar. Una vez que haya implementado esta configuración, puede encontrarse con que se necesitan más o menos puertos para un tipo de medio determinado. El [Panel de análisis de llamadas y el panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md) se debe usar para tomar la decisión de ajustar los intervalos de puertos después de la implementación de equipos y periódicamente a medida que cambian las necesidades.
 
 > [!NOTE]
-> Si ya ha configurado QoS en función de los intervalos de puertos de origen y las marcas de DSCP para Skype empresarial online, se aplicará la misma configuración a teams y no se requerirán cambios adicionales en el cliente o la red para la asignación, aunque es posible que tenga que [establecer los intervalos se usa en el centro de administración de Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) para coincidir con lo que se ha configurado para Skype empresarial online.
+> Si ya ha configurado QoS en función de los intervalos de puertos de origen y las marcas de DSCP para Skype empresarial online, la misma configuración se aplicará a teams y no será necesario realizar cambios adicionales en el cliente o en la red para la asignación, aunque es posible que tenga que [configurar los intervalos usados en el centro de administración de Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) para que coincidan con lo configurado para Skype empresarial
 
 Si ha implementado previamente Skype empresarial Server local, es posible que tenga que volver a examinar las directivas de QoS y ajustarlas según sea necesario para que coincidan con la configuración de intervalo de puertos que ha verificado ofrezca una experiencia de calidad a los usuarios de los equipos.
 

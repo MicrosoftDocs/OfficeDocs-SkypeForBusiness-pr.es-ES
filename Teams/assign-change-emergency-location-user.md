@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 description: Obtenga información sobre cómo asignar o cambiar una ubicación de emergencia para los usuarios de su organización.
-ms.openlocfilehash: cca8db844b8b0400fe2940583f6c01140dc247be
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: dca0116188eddeb3c28b8d1f8486ae601e742079
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515875"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695715"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 

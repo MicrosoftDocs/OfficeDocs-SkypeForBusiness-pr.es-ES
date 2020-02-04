@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.lscp.ClientMobilityPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: En la página de directiva ClientsMobility se muestran las directivas de movilidad disponibles en su implementación.
-ms.openlocfilehash: 5a7f24958f23fec857fccbac7745d18bd478e4a3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0fa7a0fb406bd164baa27c7a2cbbfd1c46d21467
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34293709"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700415"
 ---
 # <a name="clients-mobility-policy"></a>Clientes: directiva de movilidad
 

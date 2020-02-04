@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.dep.DeployAIOInvoke
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: En la página comandos en ejecución, las tareas de instalación de SQL Server Express y la configuración para actuar como almacén de administración central se pueden ver en el panel de tareas. De forma predeterminada, se crea una instancia de una base de datos basada en SQL Server llamada RTC. También se crean reglas de Firewall para permitir el acceso entrante y saliente a los servidores y clientes para que se comuniquen con la base de datos y la instancia. Una vez completada la tarea, puede seleccionar el archivo de registro en la lista desplegable. El archivo de registro se denomina bootstrap local Machine. Después de seleccionar el archivo de registro, haga clic en Ver registro. Revise el archivo de registro en busca de errores y advertencias. Cuando esté listo para continuar, haga clic en finalizar. Ahora debe definir su topología con Topology Builder si todavía no lo ha hecho.
-ms.openlocfilehash: ec9d3dd8cd1eeadd4d7a69bacdcf6d7e89b1af7d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 729bdacffff09876272e45a34377ced950e88ebf
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34292252"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41700815"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Preparar un servidor único de Standard Edition (invocar)
  

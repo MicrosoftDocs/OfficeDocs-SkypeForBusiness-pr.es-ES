@@ -17,16 +17,17 @@ appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
-f1keywords: None
+f1.keywords:
+- NOCSH
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo usar el centro de administración de Microsoft Teams para ver una lista de todos los números de teléfono de su organización y todos los números que se asignan a los usuarios o que no están asignados.
-ms.openlocfilehash: 9f2dc399e90e5992d05d4c63edf2e07471321d29
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9cbc26171b8f7321a941cc577e61f90048bf22a7
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571438"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41694145"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver una lista de números de teléfono de su organización
 

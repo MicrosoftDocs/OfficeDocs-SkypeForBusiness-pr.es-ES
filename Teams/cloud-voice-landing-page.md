@@ -11,18 +11,18 @@ ms.collection:
 - M365-collaboration
 - M365-voice
 ms.reviewer: crowe
-f1keywords:
+f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.cloudvoice
 search.appverid: MET150
 description: Página de aterrizaje para implementar la voz en la nube en Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969d55f41226d1c6effaf4c183992f15bf48e385
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: b1c172de4e29b5246e17bd6cd280679b7f3ef8a2
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925581"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41695485"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
@@ -106,7 +106,7 @@ De forma predeterminada, todas las llamadas salientes usan el número de teléfo
 
 ### <a name="phone-numbers-from-microsoft"></a>Números de teléfono de Microsoft
 
-Microsoft tiene dos tipos de números telefónicos disponibles: números de *suscriptor* (usuario), que se pueden asignar a los usuarios de su organización, y números de *servicio* , disponibles como números de servicio de pago y gratuitos, que tienen llamadas simultáneas más altas capacidad que los números de suscriptores y se pueden asignar a servicios como audioconferencias, operadores automáticos o colas de llamadas.
+Microsoft tiene dos tipos de números telefónicos disponibles: números de *suscriptor* (usuario), que se pueden asignar a los usuarios de su organización, y números de *servicio* , disponibles como números de servicio de pago y gratuitos, que tienen mayor capacidad de llamadas simultáneas que los números de suscriptor y que se pueden asignar a servicios como audioconferencias, operadores automáticos o colas de llamadas.
 
 |Pregúntese lo siguiente:|Acción |
 | :------------|:-------|

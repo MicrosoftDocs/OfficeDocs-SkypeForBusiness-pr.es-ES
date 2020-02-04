@@ -7,18 +7,18 @@ manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
-f1_keywords:
+f1.keywords:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Para editar la configuración del servidor perimetral o del grupo Edge, configure las siguientes propiedades:'
-ms.openlocfilehash: 1b349d5640ea2debb4730ce262795616258b3475
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78edbc8093b54474ac9f0429b5232851a5a16663
+ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282527"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41697385"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar expansor de configuración perimetral para Lync Server 2010
  
@@ -31,7 +31,7 @@ Para editar la configuración del servidor perimetral o del grupo Edge, configur
 - Seleccione **Habilitar Federación para este grupo perimetral (puerto 5061)** si desea habilitar el servidor perimetral o el grupo perimetral para la Federación con otros socios del Protocolo de inicio de sesión.
     
     > [!IMPORTANT]
-    > Solo puede definir un servidor perimetral o un grupo perimetral de forma activa para la Federación. La configuración que se muestra en la captura de pantalla asociada indica que ya está configurado otro servidor perimetral o un grupo perimetral para la Federación. El registro SRV de DNS externo para Federación (_sipfederationtls. _\< TCP. nombre\>de dominio externo) apuntará al servidor perimetral o al grupo perimetral para la Federación. 
+    > Solo puede definir un servidor perimetral o un grupo perimetral de forma activa para la Federación. La configuración que se muestra en la captura de pantalla asociada indica que ya está configurado otro servidor perimetral o un grupo perimetral para la Federación. El registro SRV de DNS externo para la Federación (_sipfederationtls.\< _tcp. nombre\>de dominio externo) apuntará al servidor perimetral o al grupo perimetral para la Federación. 
   
 - El **Puerto de replicación de configuración interna (https)**, de forma predeterminada en el puerto TCP 4443, es el puerto por el que se replica la copia local (es decir, local de los servidores perimetrales) del almacén central de administración. La copia local del almacén de administración central está en la base de datos **RTCLOCAL** en SQL Server en cada equipo. La replicación es unidireccional, iniciada desde el servidor de administración central (o, el servidor front-end o el grupo de servidores front-end que tiene el rol de servidor de administración central) en los servidores perimetrales y es un puerto de interfaz interna.
     
