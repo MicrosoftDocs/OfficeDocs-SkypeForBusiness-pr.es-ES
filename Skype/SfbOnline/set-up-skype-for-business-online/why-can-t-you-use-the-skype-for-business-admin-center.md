@@ -16,16 +16,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.TenantInMigration
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.TenantInMigration
 description: 'Obtenga información sobre lo que puede y no puede usar en el centro de administración de Skype empresarial y otras características cuando su servicio se está migrando a otro centro de datos de Microsoft. '
-ms.openlocfilehash: 3987675a5c054671be7a1d52227cf1f3161f2300
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7825b0bb6cd60995a103736641af36a532ad0ba8
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692735"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769523"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>¿Por qué no puedo usar el centro de administración de Skype empresarial online en este momento?
 

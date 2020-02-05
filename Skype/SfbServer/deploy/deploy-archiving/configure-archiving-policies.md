@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar las directivas de archivado iniciales para los usuarios de Skype empresarial Server.'
-ms.openlocfilehash: 4e1bf5d713201604df18db9d63c2057bfa5bb4e8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ff946fe2fde2fcd8aae842e809a89bffb7852bca
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234558"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769213"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configurar directivas de archivado para Skype empresarial Server
  
@@ -29,7 +31,7 @@ En Skype empresarial Server, se usan directivas para habilitar y deshabilitar el
     
 - Directivas de nivel de usuario opcionales que especifican cómo se implementa el archivado para usuarios específicos
     
-Las directivas de archivado se configuran inicialmente al implementar el archivado, pero es posible cambiar, agregar y eliminar directivas después de la implementación. En el panel de control de Skype empresarial Server, puede usar la página **Directiva** de archivado del grupo **archivado y supervisión** para administrar directivas en los niveles global, de sitio y de usuario.
+Las directivas de archivado se configuran inicialmente al implementar el archivado, pero es posible cambiar, agregar y eliminar directivas después de la implementación. En el panel de control de Skype empresarial Server, puede usar la página **Directiva de archivado** del grupo **archivado y supervisión** para administrar directivas en los niveles global, de sitio y de usuario.
   
 > [!NOTE]
 > Para controlar la implementación del archivado, es necesario especificar opciones, como por ejemplo, si archivar la mensajería instantánea (MI) o las conferencias, el uso del modo crítico y las opciones de purga. De manera predeterminada, no hay opciones habilitadas en la configuración del archivado global ni en ninguna otra configuración de archivado de sitio o de grupo. Es preciso especificar todas las opciones correspondientes antes de habilitar el archivado para las comunicaciones internas o externas. Para obtener más información, consulte [configurar opciones de archivado para Skype empresarial Server](configure-archiving-options.md). 
@@ -132,7 +134,7 @@ Una directiva de usuario solo se aplica a los usuarios a los que asigne la direc
     
 4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
     
-5. En **editar el usuario de Skype empresarial Server** en **Directiva**de archivado, seleccione la Directiva de usuario de archivado que desea aplicar.
+5. En **editar el usuario de Skype empresarial Server** en **Directiva de archivado**, seleccione la Directiva de usuario de archivado que desea aplicar.
     
     > [!NOTE]
     > La ** \<configuración\> automática** aplica la configuración predeterminada de la instalación del servidor. El servidor aplica automáticamente esta configuración.

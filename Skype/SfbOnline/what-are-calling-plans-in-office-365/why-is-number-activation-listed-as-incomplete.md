@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStateIncomplete
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStateIncomplete
 description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
-ms.openlocfilehash: 0fd510ecd3d465407668f47dbc233d51b35a5735
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 81d6b46813783fbc9eb0bac645a5107d1467d73c
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692275"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769093"
 ---
 # <a name="why-is-number-activation-listed-as-incomplete"></a>¿Por qué la activación del número se incluye como incompleta?
 

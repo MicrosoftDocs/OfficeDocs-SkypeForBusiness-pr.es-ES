@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la experiencia de cliente para usuarios de Skype empresarial.'
-ms.openlocfilehash: 0122e86648a30cf0c4a17957b5d000b742d4c16a
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 678bda8499ddae61f0cca3b3bbb606283192660b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003540"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769083"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar la experiencia de cliente con Skype empresarial 2015
  

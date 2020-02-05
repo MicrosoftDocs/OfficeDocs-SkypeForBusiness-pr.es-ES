@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.PortOrderDetailPanelWhois
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.PortOrderDetailPanelWhois
 description: 'Más información sobre qué hacer si su transportista no aparece en la lista de Skype empresarial. '
-ms.openlocfilehash: 60bca0ead152bbde7f70da6f9f75080b07272b3d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: a8349e1bedbfbb43310debbd0fdec8414b43fbdd
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692305"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769293"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>¿Qué sucede si mi operador de telefonía no está incluido como operador de origen?
 

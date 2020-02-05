@@ -16,17 +16,18 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.DashboardOrganizationInformation
-- ms.lync.lac.DashboardUserStatistics
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.DashboardOrganizationInformation
+- ms.lync.lac.DashboardUserStatistics
 description: Vea qué estadísticas tienen disponibles los usuarios de Skype Empresarial, como el número de usuarios habilitados, los usuarios habilitados con conferencia o los usuarios que están habilitados para Office 365.
-ms.openlocfilehash: 2d6856129a9d94875efb05254293d87fbc88b8ec
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8771171f9b6e2bf0d2590e9a8a66242d4379e716
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692753"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769533"
 ---
 # <a name="user-statistics-and-organization-information"></a>Estadísticas del usuario e información de la organización
 

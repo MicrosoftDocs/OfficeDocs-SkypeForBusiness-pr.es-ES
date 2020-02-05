@@ -15,17 +15,18 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.MeetingInvitation
-- ms.teamsadmincenter.meetingsettings.invitationurls
+- CSH
 ms.custom:
 - Setup
+- ms.lync.lac.MeetingInvitation
+- ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Personalice las invitaciones a reuniones de Skype con logotipos gráficos, URL de ayuda y oficio y texto de pie de página. '
-ms.openlocfilehash: f17a6e3ab03484d250d6243caafcc3aecb0ff6ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b30c31d3e109fa36e49665c19a7aaebad581c7cc
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692905"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769643"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar invitaciones a reuniones
 

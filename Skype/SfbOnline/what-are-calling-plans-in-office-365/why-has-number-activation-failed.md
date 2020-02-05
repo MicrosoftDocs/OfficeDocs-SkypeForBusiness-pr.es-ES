@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.NumberActivationStateFailed
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.NumberActivationStateFailed
 description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
-ms.openlocfilehash: ebfe408183de656f271d65ad7bebb6e413ab39c8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: aa84186013deab98143113197dc080406dcec798
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692285"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769154"
 ---
 # <a name="why-has-number-activation-failed"></a>¿Por qué ha fallado la activación del número?
 La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Si, por algún motivo, un número de teléfono no está activado debido a la validación de la dirección, tendrá que crear una solicitud de servicio. La forma que elija para hacerlo depende del tamaño de su organización.

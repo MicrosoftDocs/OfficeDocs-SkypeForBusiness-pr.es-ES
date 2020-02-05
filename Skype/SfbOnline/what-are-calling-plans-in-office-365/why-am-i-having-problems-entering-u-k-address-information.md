@@ -17,16 +17,17 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-- ms.lync.lac.CivicAddressGBSyntaxError
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.CivicAddressGBSyntaxError
 description: Estas son algunas de las razones por las que es posible que tenga problemas para que su dirección o direcciones se validen correctamente en el Reino Unido (RU).
-ms.openlocfilehash: 0d854f41c13f2f34a0582b70d85ca841b4ccc53a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac8a5382d508d683f0467dd77742f19999628976
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705865"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769163"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué tengo problemas para ingresar al Reino Unido? información sobre la dirección?
 

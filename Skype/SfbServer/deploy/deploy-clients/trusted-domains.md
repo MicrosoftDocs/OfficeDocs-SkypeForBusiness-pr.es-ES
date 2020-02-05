@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: Lea este tema para obtener información sobre cómo configurar los dominios de confianza de Sistema de salas de Skype y Skype Empresarial.
-ms.openlocfilehash: a63ecbfe9ed8e71656bd21988e297897b62e9cf3
-ms.sourcegitcommit: a2deac5e8308fc58aba34060006bffad2b19abed
+ms.openlocfilehash: 618ea5ce6cd4e12cd1e6a811a065f7a29a5c9ced
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "36775245"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768673"
 ---
 # <a name="skype-room-system-trusted-domains"></a>Dominios de confianza del Sistema de salas de Skype
  

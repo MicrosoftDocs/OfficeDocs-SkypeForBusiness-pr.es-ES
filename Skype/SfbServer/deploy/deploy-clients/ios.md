@@ -7,15 +7,17 @@ audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Resumen: Cómo instalar y probar la aplicación de Skype empresarial para iOS.'
-ms.openlocfilehash: 5bf40e3ed12b5d04c4be6d4b8bf96e8641838153
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b494048a3502f668062ab63435ba7ffeaecbb4ab
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234424"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768947"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Install and test Skype for Business for iOS
  
