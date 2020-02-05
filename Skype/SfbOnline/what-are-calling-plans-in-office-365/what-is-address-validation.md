@@ -15,35 +15,36 @@ appliesto:
 - Skype for Business
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.CivicAddressValidation
+- CSH
 ms.custom:
 - Calling Plans
+- ms.lync.lac.CivicAddressValidation
 description: 'Descubra qué es la validación de direcciones, por qué es importante y de qué forma está relacionada con los servicios y las direcciones de emergencia. '
-ms.openlocfilehash: ad555792bf6951e8de5fb746546aec40e05b0eba
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 695698f8d1b6a466829174802f2ece0b92398f7e
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705875"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41769253"
 ---
-# <a name="what-is-address-validation"></a><span data-ttu-id="a4445-103">¿Qué es la validación de direcciones?</span><span class="sxs-lookup"><span data-stu-id="a4445-103">What is address validation?</span></span>
+# <a name="what-is-address-validation"></a><span data-ttu-id="ce2cd-103">¿Qué es la validación de direcciones?</span><span class="sxs-lookup"><span data-stu-id="ce2cd-103">What is address validation?</span></span>
 
-<span data-ttu-id="a4445-104">Cuando configura Planes de llamada en Office 365, tiene que asignar un número de teléfono y una dirección de emergencia a cada uno de los usuarios.</span><span class="sxs-lookup"><span data-stu-id="a4445-104">When you set up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span>
+<span data-ttu-id="ce2cd-104">Cuando configura Planes de llamada en Office 365, tiene que asignar un número de teléfono y una dirección de emergencia a cada uno de los usuarios.</span><span class="sxs-lookup"><span data-stu-id="ce2cd-104">When you set up Calling Plans in Office 365, you will need to assign a phone number and emergency address to each of your users.</span></span>
   
-<span data-ttu-id="a4445-105">Para validar una dirección postal o civil es necesario comprobar que sea legítima y que tenga el formato correcto.</span><span class="sxs-lookup"><span data-stu-id="a4445-105">Validating a street or civic address involves making sure that it is correct and also correctly formatted.</span></span> <span data-ttu-id="a4445-106">Es posible que una dirección de emergencia parcialmente correcta, como un nombre escrito de la ciudad, pueda seguir pasando la validación.</span><span class="sxs-lookup"><span data-stu-id="a4445-106">It is possible that a partially correct emergency address, such as a mistyped name of the city, may still pass validation.</span></span> <span data-ttu-id="a4445-107">El proceso de validación usa todas las partes de una dirección específica para determinar si contiene suficiente información para redirigir la llamada al centro de emergencias apropiado.</span><span class="sxs-lookup"><span data-stu-id="a4445-107">The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency services center.</span></span> <span data-ttu-id="a4445-108">De ser así, cambiará a validada y después se asignará a un número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="a4445-108">If so, it will be returned as validated and can then be assigned to a phone number.</span></span>
+<span data-ttu-id="ce2cd-105">Para validar una dirección postal o civil es necesario comprobar que sea legítima y que tenga el formato correcto.</span><span class="sxs-lookup"><span data-stu-id="ce2cd-105">Validating a street or civic address involves making sure that it is correct and also correctly formatted.</span></span> <span data-ttu-id="ce2cd-106">Es posible que una dirección de emergencia parcialmente correcta, como un nombre escrito de la ciudad, pueda seguir pasando la validación.</span><span class="sxs-lookup"><span data-stu-id="ce2cd-106">It is possible that a partially correct emergency address, such as a mistyped name of the city, may still pass validation.</span></span> <span data-ttu-id="ce2cd-107">El proceso de validación usa todas las partes de una dirección específica para determinar si contiene suficiente información para redirigir la llamada al centro de emergencias apropiado.</span><span class="sxs-lookup"><span data-stu-id="ce2cd-107">The validation process uses all parts of a given address to determine whether it contains enough information to route the call to the appropriate emergency services center.</span></span> <span data-ttu-id="ce2cd-108">De ser así, cambiará a validada y después se asignará a un número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="ce2cd-108">If so, it will be returned as validated and can then be assigned to a phone number.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="a4445-109">Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="a4445-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="ce2cd-109">Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="ce2cd-109">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="a4445-110">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="a4445-110">Related topics</span></span>
-[<span data-ttu-id="a4445-111">¿Qué son las direcciones, las ubicaciones de emergencia y el enrutamiento de llamadas?</span><span class="sxs-lookup"><span data-stu-id="a4445-111">What are emergency locations, addresses, and call routing?</span></span>](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+## <a name="related-topics"></a><span data-ttu-id="ce2cd-110">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="ce2cd-110">Related topics</span></span>
+[<span data-ttu-id="ce2cd-111">¿Qué son las direcciones, las ubicaciones de emergencia y el enrutamiento de llamadas?</span><span class="sxs-lookup"><span data-stu-id="ce2cd-111">What are emergency locations, addresses, and call routing?</span></span>](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
 
-[<span data-ttu-id="a4445-112">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="a4445-112">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+[<span data-ttu-id="ce2cd-112">Administrar los números de teléfono para su organización</span><span class="sxs-lookup"><span data-stu-id="ce2cd-112">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-[<span data-ttu-id="a4445-113">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="a4445-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="ce2cd-113">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="ce2cd-113">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="a4445-114">[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="a4445-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="ce2cd-114">[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="ce2cd-114">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
