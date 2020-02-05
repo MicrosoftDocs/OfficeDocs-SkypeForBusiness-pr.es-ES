@@ -3,6 +3,8 @@ title: 'Lync Server 2013: Configuración de federación de Lync'
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
+f1.keywords:
+- NOCSH
 TOCTitle: Setting up Lync federation
 ms:assetid: 374ddc43-26f9-499d-be68-a5158adfa49c
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204800(v=OCS.15)
@@ -10,12 +12,12 @@ ms:contentKeyID: 48183822
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: fe6dc0a2aeb39c86db54d21a2c4be5ff6c5be599
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7df0dd85bac0aa3053fb6a3496d6a13fa1f4a85e
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "34850653"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41764606"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
@@ -97,7 +99,7 @@ Si ya ha implementado el servidor o servidores perimetrales, agregue las caracte
     <tbody>
     <tr class="odd">
     <td><p>Dominio de socio descubierto</p></td>
-    <td><p>Configure el registro SRV con el formato _sipfederationtls. _ TCP. &lt;nombre&gt;de dominio externo donde el valor del puerto para el registro SRV es TCP 5061 y el hospedador que <strong>ofrece este servicio</strong> se define como SIP. &lt;nombre&gt; de dominio externo: el FQDN de su servicio perimetral de acceso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</p></td>
+    <td><p>Configure el registro SRV del formato _sipfederationtls. _tcp. &lt;nombre&gt;de dominio externo donde el valor del puerto para el registro SRV es TCP 5061 y el <strong>hospedador que ofrece este servicio</strong> se define como SIP. &lt;nombre&gt; de dominio externo: el FQDN de su servicio perimetral de acceso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></p></li>
     <li><p><a href="lync-server-2013-enable-or-disable-discovery-of-federation-partners.md">Habilitar o deshabilitar la detección de socios de federación en Lync Server 2013</a></p></li>
@@ -106,7 +108,7 @@ Si ya ha implementado el servidor o servidores perimetrales, agregue las caracte
     </tr>
     <tr class="even">
     <td><p>Dominio asociado permitido</p></td>
-    <td><p>Configure el registro SRV con el formato _sipfederationtls. _ TCP. &lt;nombre&gt;de dominio externo donde el valor del puerto para el registro SRV es TCP 5061 y el hospedador que <strong>ofrece este servicio</strong> se define como SIP. &lt;nombre&gt; de dominio externo: el FQDN de su servicio perimetral de acceso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</p></td>
+    <td><p>Configure el registro SRV del formato _sipfederationtls. _tcp. &lt;nombre&gt;de dominio externo donde el valor del puerto para el registro SRV es TCP 5061 y el <strong>hospedador que ofrece este servicio</strong> se define como SIP. &lt;nombre&gt; de dominio externo: el FQDN de su servicio perimetral de acceso. Consulte <a href="lync-server-2013-configure-dns-for-edge-support.md">configure DNS for Edge support in Lync Server 2013</a> para obtener más información sobre cómo crear el registro SRV</p></td>
     <td><ul>
     <li><p><a href="lync-server-2013-enable-or-disable-federation-and-public-im-connectivity.md">Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Lync Server 2013</a></p></li>
     </ul></td>
@@ -151,7 +153,7 @@ Si ya ha implementado el servidor o servidores perimetrales, agregue las caracte
 
 2.  Definir y configurar los registros DNS (A o AAAA para IPv6) necesarios y los registros SRV de DNS
 
-3.  Defina y configure las directivas mediante el panel de control de Lync Server o mediante el shell de administración de Lync Server y los cmdlets apropiados. Para obtener más información sobre los cmdlets del shell de administración de Lync Server, consulte cmdlets de [Federación y de acceso externo en Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)
+3.  Defina y configure las directivas mediante el panel de control de Lync Server o mediante el shell de administración de Lync Server y los cmdlets apropiados. Para obtener más información sobre los cmdlets del shell de administración de Lync Server, consulte [cmdlets de Federación y de acceso externo en Lync Server 2013](https://docs.microsoft.com/powershell/module/skype/)
     
     <div>
     

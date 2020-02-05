@@ -8,6 +8,8 @@ ms.date: 2/7/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Resumen: Aprenda a definir e implementar un servidor de mediación en el generador de topologías de Skype empresarial Server.'
-ms.openlocfilehash: 23d1567816c56408b276672fdd0330b0aa3d635c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c651ff3e254165161642c4e729d0d4e3f2983023
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245497"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767693"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Implementar un servidor de mediación en el generador de topología en Skype empresarial Server
  
@@ -46,7 +48,7 @@ Puede Agregar un servidor de mediación como un rol colocado en un grupo de serv
     
 4. Avance por el asistente para **Definir nuevo grupo de servidores front-end** hasta llegar a la página **Seleccionar roles de servidor combinados**.
     
-5. En **Seleccionar roles de servidor**colocados, active la opción servidor de mediación de **Collocate**.
+5. En **Seleccionar roles de servidor**colocados, active la opción **servidor de mediación de Collocate**.
     
     > [!NOTE]
     > Si el tipo de grupo de front-end que seleccionó es Enterprise Edition, el componente de servidor de mediación se instalará en todos los servidores front-end de ese grupo de servidores front-end. 
@@ -72,9 +74,9 @@ Puede Agregar un servidor de mediación como un rol colocado en un grupo de serv
     
 2. En el generador de topologías, en el árbol de consola, expanda el nombre del sitio para el que desea definir un servidor de mediación.
     
-3. En el árbol de consola, haga clic con el botón derecho en el nodo de **grupos** de mediación y en **grupo de servidores**de mediación.
+3. En el árbol de consola, haga clic con el botón derecho en el nodo de **grupos de mediación** y en **grupo de servidores de mediación**.
     
-4. En **definir nuevo grupo**de mediación, escriba el nombre de dominio completo (FQDN) del grupo de servidores de mediación.
+4. En **definir nuevo grupo de mediación**, escriba el nombre de dominio completo (FQDN) del grupo de servidores de mediación.
     
 5. A continuación, siga uno de los procedimientos siguientes:
     
@@ -91,7 +93,7 @@ Puede Agregar un servidor de mediación como un rol colocado en un grupo de serv
     
 8. En la página **Seleccionar un servidor perimetral**, realice una de las operaciones siguientes:
     
-   - Si desea proporcionar conectividad RTC a usuarios externos habilitados para telefonía IP empresarial, en **Seleccionar grupo perimetral usado por este servidor**de mediación, haga clic en el FQDN del grupo de servidores perimetrales que usarán este grupo de servidores de mediación para proporcionar conectividad RTC a esos usuarios externos y, a continuación, haga clic en **siguiente**.
+   - Si desea proporcionar conectividad RTC a usuarios externos habilitados para telefonía IP empresarial, en **Seleccionar grupo perimetral usado por este servidor de mediación**, haga clic en el FQDN del grupo de servidores perimetrales que usará este grupo de servidores de mediación para proporcionar conectividad RTC a esos usuarios externos y, a continuación, haga clic en **siguiente**.
     
    - Si no tiene previsto habilitar usuarios externos para telefonía IP empresarial, o si no desea proporcionar conectividad RTC a los usuarios cuando se encuentren fuera de la red interna, haga clic en **siguiente**.
     
@@ -105,7 +107,7 @@ Siga los pasos que se indican en este tema para usar el generador de topología 
 
 1. Iniciar generador de topología: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Skype empresarial Server 2015**y, a continuación, haga clic en **Skype empresarial Server 2015Topology Builder**.
     
-2. En el generador de topología, en el árbol de consola, expanda el nodo **grupos** de mediación y haga clic con el botón secundario en el servidor de mediación creado previamente.
+2. En el generador de topología, en el árbol de consola, expanda el nodo **grupos de mediación** y haga clic con el botón secundario en el servidor de mediación creado previamente.
     
 3. De forma predeterminada, los puertos de escucha SIP en el servidor de mediación son 5070 para el tráfico de TLS desde Skype empresarial Server y 5067 para el tráfico TLS de homólogos (como puertas de enlace, PBXes o SBCs). El puerto TCP está deshabilitado de forma predeterminada. Debe habilitar el puerto TCP si tiene puertas de enlace que no son compatibles con TLS.
     

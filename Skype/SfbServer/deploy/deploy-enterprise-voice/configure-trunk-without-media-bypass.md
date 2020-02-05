@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Resumen: configure un tronco sin omisión de medios habilitado para Skype empresarial Server.'
-ms.openlocfilehash: c60217b6dc127616dfbaf9590c43adec25c20eff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ccdcc6612d13770eaffc663a95fdfca3c349e4e9
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233667"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768083"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar un tronco sin omisión de medios en Skype empresarial Server
 
@@ -154,7 +156,7 @@ Tal como se describe a continuación, una configuración de tronco agrupa un con
 16. Asegúrese de que las reglas de traducción del tronco estén organizadas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
 
     > [!IMPORTANT]
-    > Skype empresarial Server recorre la lista de reglas de traducción de la parte superior abajo y usa la primera regla que coincida con el número marcado. Si configura un tronco de forma que un número marcado puede coincidir con más de una regla de conversión, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. Por ejemplo, si ha incluido una regla de traducción que coincide con cualquier número de 11 dígitos y una regla de traducción que coincida solo con números de 11 dígitos que empiecen por + 1425, asegúrese de que la regla que coincide con cualquier número de 11 dígitos se ordene *por debajo* de la más restrictiva. Filete.
+    > Skype empresarial Server recorre la lista de reglas de traducción de la parte superior abajo y usa la primera regla que coincida con el número marcado. Si configura un tronco de forma que un número marcado puede coincidir con más de una regla de conversión, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. Por ejemplo, si ha incluido una regla de traducción que coincide con cualquier número de 11 dígitos y una regla de traducción que coincida con solo números de 11 dígitos que empiecen por + 1425, asegúrese de que la regla que coincide con cualquier número de 11 dígitos se ordene *debajo* de la regla más restrictiva.
 
 17. Cuando haya terminado de configurar el tronco, haga clic en **Aceptar**.
 

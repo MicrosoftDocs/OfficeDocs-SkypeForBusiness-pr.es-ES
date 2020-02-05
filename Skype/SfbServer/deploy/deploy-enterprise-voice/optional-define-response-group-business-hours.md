@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Crear o modificar el horario laboral de un grupo de respuesta en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 602494d014c1a3c7874c91462f88b4bcd84f0abb
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: f6a7d6bb8154d3113282a603ab39b45cf92d5556
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003110"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767303"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>Faculta Definir las horas de trabajo del grupo de respuesta en Skype empresarial 
  

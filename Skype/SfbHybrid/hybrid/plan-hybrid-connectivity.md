@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Consideraciones de planeación para implementar la conectividad híbrida entre Skype empresarial Server y Skype empresarial online o Teams.
-ms.openlocfilehash: 65e0f19e536cb2ec9b92fc73a1abb938be3b3c7c
-ms.sourcegitcommit: 3c40bdd228ef88967cdf689100f2030f6997d9d5
+ms.openlocfilehash: 55986df708c1ce190605ecef77b3789ae7e55db5
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "36715833"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756014"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Planeación de la conectividad híbrida entre Skype empresarial Server y Office 365
 
@@ -66,7 +68,7 @@ Para implementar la conectividad híbrida entre su entorno local y Office 365 Co
 - Un inquilino de Microsoft Office 365 con Skype empresarial online habilitado.
     > [!NOTE]
     > Solo puede usar un inquilino para una configuración híbrida con su implementación local.
-- Azure Active Directory Connect para sincronizar su directorio local con Office 365. Para obtener más información, consulte [Azure ad Connect: accounts and](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)Permissions.
+- Azure Active Directory Connect para sincronizar su directorio local con Office 365. Para obtener más información, consulte [Azure ad Connect: accounts and Permissions](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions).
 - Herramientas administrativas de Skype empresarial Server.  Son necesarios para mover usuarios de local a la nube. Estas herramientas deben instalarse en un servidor con acceso a la implementación local e Internet.
 - Herramientas administrativas en línea.  Puede usar tanto el centro de administración de Microsoft Teams como Windows PowerShell para administrar Teams y Skype empresarial online. Para usar PowerShell para administrar Teams o Skype empresarial online, descargue e instale el conector de Skype empresarial online.
 - El espacio de direcciones SIP compartido debe estar habilitado y la implementación local debe estar configurada para usar Office 365 como proveedor de hospedaje. Para obtener más información acerca de los pasos necesarios para configurar la conectividad híbrida, vea [Configure Hybrid Connectivity](configure-hybrid-connectivity.md).
@@ -144,7 +146,7 @@ Además, debe asegurarse de que la resolución DNS que se describe en la tabla s
 
 |Registro DNS  <br/> |Resuelto por  <br/> |Requisito de DNS  <br/> |
 |:-----|:-----|:-----|
-|Registro SRV de DNS para _sipfederationtls. _ TCP. \<sipdomain.com\> para todos los dominios SIP compatibles que se resuelven para obtener acceso a las IP externas perimetrales  <br/> |Servidor (es) perimetral  <br/> |Habilitar la comunicación federada en una configuración híbrida. El servidor perimetral tiene que saber dónde enrutar el tráfico federado para el dominio SIP que se divide entre las instalaciones locales y en línea.  <br/> Debe usar una coincidencia de nombres DNS estricta entre el dominio del nombre de usuario y el registro SRV.  <br/> |
+|Registro SRV de DNS para _sipfederationtls. _tcp. \<sipdomain.com\> para todos los dominios SIP compatibles que se resuelven para obtener acceso a las IP externas perimetrales  <br/> |Servidor (es) perimetral  <br/> |Habilitar la comunicación federada en una configuración híbrida. El servidor perimetral tiene que saber dónde enrutar el tráfico federado para el dominio SIP que se divide entre las instalaciones locales y en línea.  <br/> Debe usar una coincidencia de nombres DNS estricta entre el dominio del nombre de usuario y el registro SRV.  <br/> |
 |Registros A de DNS para el FQDN del servicio de conferencia web perimetral, por ejemplo, webcon.contoso.com para la resolución de direcciones IP externas del servidor perimetral de conferencia Web  <br/> |Equipos de usuarios conectados a la red corporativa interna  <br/> |Permitir que los usuarios en línea presenten o vean contenido en las reuniones hospedadas locales. El contenido incluye archivos de PowerPoint, pizarras, sondeos y notas compartidas.  <br/> |
 
 En función de la configuración de DNS en la organización, es posible que deba agregar estos registros a la zona DNS hospedada interna para los dominios SIP correspondientes para proporcionar resolución DNS interna a estos registros.

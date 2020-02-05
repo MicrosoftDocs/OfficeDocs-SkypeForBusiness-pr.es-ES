@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Resumen: Aprenda a definir una puerta de enlace RTC en el generador de topologías de Skype empresarial Server.'
-ms.openlocfilehash: 322c526c87c3a354f11fd0c906256b36e6df526e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 41f5f37d7da23848c8a19d11347183d0c0697532
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233221"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767733"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definir una puerta de enlace en el generador de topologías de Skype empresarial Server
  

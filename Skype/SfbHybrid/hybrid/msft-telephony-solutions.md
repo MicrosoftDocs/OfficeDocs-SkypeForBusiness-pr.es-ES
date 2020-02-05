@@ -6,6 +6,8 @@ author: CarolynRowe
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Describe las soluciones de telefonía de Microsoft.
-ms.openlocfilehash: 57d1abe69bc0513fa015543e8440e9d9f778b78c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 350f7ed0ba2606e34af711bbdd3189c7a0bd1a02
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160341"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765248"
 ---
 # <a name="microsoft-telephony-solutions"></a>Soluciones de telefonía de Microsoft
 

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Comprobar el éxito de implementación del grupo de respuesta en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 758836f7003d5f1473801eae4bef400b0e048891
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e80328c2f14db4b7c9633509e36832966af5ca34
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240398"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767313"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>Faculta Comprobar la implementación de grupos de respuesta en Skype empresarial
  

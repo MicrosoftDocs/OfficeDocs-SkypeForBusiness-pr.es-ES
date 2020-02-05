@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Obtenga más información sobre cómo instalar y configurar las opciones de ocupado en Skype empresarial Server.
-ms.openlocfilehash: 45779af0410dcadd1b5fe8e3988905e88acd9213
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: dd22d07bcabc86b0d16f3ad1029087b659a3e4a5
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002520"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767223"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar y configurar Opciones de disponibilidad para Skype Empresarial Server
 

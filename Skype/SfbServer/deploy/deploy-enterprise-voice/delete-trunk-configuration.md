@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumen: Aprenda a eliminar una colección de parámetros de configuración de troncal con el panel de control de Skype empresarial Server.'
-ms.openlocfilehash: 97a0820258a837968b88e6840232829f3ad11d21
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 1cd46f855a92f4b1b975f565b12ff07c3af24111
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001000"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767713"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Eliminar una colección existente de parámetros de configuración del tronco de SIP en Skype empresarial Server
  

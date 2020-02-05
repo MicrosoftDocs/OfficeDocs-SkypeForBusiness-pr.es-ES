@@ -5,17 +5,19 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de un operador automático de la nube con Skype empresarial Server 2019.
-ms.openlocfilehash: bcb1f14ed9dfc3471b146a318a97700c362f115c
-ms.sourcegitcommit: 868db85f0126e8f56d711ea590ad44acce8f96f6
+ms.openlocfilehash: 24a0bba82ef38288f5c96cc7c51ce1bfb88c8f05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "36160797"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41735230"
 ---
 # <a name="plan-cloud-call-queues"></a>Planear colas de llamadas en la nube
 
@@ -49,7 +51,7 @@ Además de los requisitos anteriores, deben configurarse los siguientes requisit
 
 ## <a name="additional-planning-resources"></a>Recursos de planeación adicionales
 
-En el tutorial titulado [Small Business example-set up an operador automático](/microsoftteams/tutorial-org-aa) se recorre el proceso de recopilar información sobre las necesidades de los usuarios, planear una estructura de operadores y usuarios automáticos (y posiblemente colas de llamadas), escribir los mensajes del menú y implementar el plan en el centro de administración en línea. Revise el tutorial y use los ejercicios en los que se crea el plan.
+En el tutorial titulado [Small Business example-set up an operador automático](/microsoftteams/tutorial-org-aa) se recorre el proceso de recopilar información sobre las necesidades de los usuarios, planear una estructura de operadores automáticos y usuarios (y, posiblemente, colas de llamadas), escribir los mensajes del menú e implementar el plan en el centro de administración en línea. Revise el tutorial y use los ejercicios en los que se crea el plan.
 
 Cuando tenga una estructura sólida que satisfaga sus necesidades y un script que guíe a los clientes con eficacia, continúe con la [configuración de las cuentas de recursos](configure-onprem-ra.md).
 

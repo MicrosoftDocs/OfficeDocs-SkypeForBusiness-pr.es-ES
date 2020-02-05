@@ -5,16 +5,18 @@ author: dstrome
 ms.author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 localization_priority: Normal
 ms.prod: skype-for-business-itpro
 description: Este tema cubre lo que debe tener en cuenta cuando decida migrar las implementaciones existentes de Skype empresarial Server o Exchange Server a la versión más reciente o a Skype empresarial online o Exchange Online.
-ms.openlocfilehash: 864a777c1fcb483df7f3779e9b105c1af551748e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 072720499ac91942d5f1fdbdbe05fffe2de4db05
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237475"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41756004"
 ---
 # <a name="plan-for-skype-for-business-server-and-exchange-server-migration"></a>Planeación de la migración de Skype empresarial Server y Exchange Server
 
@@ -37,7 +39,7 @@ Si ha implementado el rol de mensajería unificada en Exchange 2013 o el servici
 
 ### <a name="pbx-support-in-exchange-2019-and-skype-for-business-server-2019"></a>Compatibilidad con PBX en Exchange 2019 y Skype empresarial Server 2019
 
-El correo de voz de nube no proporciona la funcionalidad de mensajería de voz a las centrales de conmutación (PBX). Si usa la mensajería unificada de Exchange Server para las PBX y desea actualizar a Exchange Server 2019, deberá adoptar una de las tres opciones enumeradas en la nueva fecha de entrada de blog [para la interrupción de la compatibilidad con los controladores de borde de sesión de Exchange. Mensajería unificada en línea](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) en el [blog del equipo de Exchange](https://blogs.technet.microsoft.com/exchange/).
+El correo de voz de nube no proporciona la funcionalidad de mensajería de voz a las centrales de conmutación (PBX). Si usa la mensajería unificada de Exchange Server para las PBX y desea actualizar a Exchange Server 2019, deberá adoptar una de las tres opciones enumeradas en la nueva fecha de entrada de blog [para la interrupción de la compatibilidad con los controladores de borde de sesión en la mensajería unificada de Exchange Online](https://blogs.technet.microsoft.com/exchange/2018/04/24/new-date-for-discontinuation-of-support-for-session-border-controllers-in-exchange-online-unified-messaging/) en el [blog del equipo de Exchange](https://blogs.technet.microsoft.com/exchange/).
 
 ### <a name="exchange-online-um-support-in-skype-for-business-server-2019"></a>Soporte técnico de mensajería unificada de Exchange online en Skype empresarial Server 2019
 
@@ -66,7 +68,7 @@ El orden en que se mueven los usuarios a Exchange 2019 y Skype empresarial Serve
 | Buzón ubicado en:            | Usuario ubicado en Skype empresarial Server 2015 | Usuario ubicado en Skype empresarial Server 2019  |
 |--------------------------------|-----------------------------------------|------------------------------------------|
 | Exchange 2013/Exchange 2016    | UM de Exchange                             | UM de Exchange                              |
-| Exchange 2019                  | No compatible                           | Correo de voz de nube                          |
+| Exchange 2019                  | No admitido                           | Correo de voz de nube                          |
 
 Antes de iniciar la migración a Skype empresarial Server 2019 y Exchange 2019, tenga en cuenta lo siguiente:
 

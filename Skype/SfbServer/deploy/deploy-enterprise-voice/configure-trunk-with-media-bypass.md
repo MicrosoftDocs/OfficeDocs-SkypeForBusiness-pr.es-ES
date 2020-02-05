@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumen: configure un enlace con omisión de medios habilitado para Skype empresarial Server. Esto te permitirá minimizar la cantidad de servidores de mediación, lo cual supone que tu proveedor de troncal de SIP lo admite.'
-ms.openlocfilehash: 3b51cedfbead08cd70b543e9019c351adcc2a4eb
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4f834a908f002e334fbad70a8c1c8c0617ca2189
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233674"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768103"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurar un tronco con la omisión de medios en Skype empresarial Server
 
@@ -172,7 +174,7 @@ Una configuración de tronco tal como se describe más abajo agrupa un conjunto 
 17. Asegúrese de que las reglas de traducción del tronco estén organizadas en el orden correcto. Para cambiar la posición de una regla en la lista, resalte el nombre de la regla y, a continuación, haga clic en la flecha arriba o abajo.
 
     > [!IMPORTANT]
-    > Skype empresarial Server recorre la lista de reglas de traducción de la parte superior abajo y usa la primera regla que coincida con el número marcado. Si configura un tronco de forma que un número marcado puede coincidir con más de una regla de conversión, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. Por ejemplo, si ha incluido una regla de traducción que coincide con cualquier número de 11 dígitos y una regla de traducción que coincida solo con números de 11 dígitos que empiecen por + 1425, asegúrese de que la regla que coincide con cualquier número de 11 dígitos se ordene *por debajo* de la más restrictiva. Filete.
+    > Skype empresarial Server recorre la lista de reglas de traducción de la parte superior abajo y usa la primera regla que coincida con el número marcado. Si configura un tronco de forma que un número marcado puede coincidir con más de una regla de conversión, asegúrese de que las reglas más restrictivas estén dispuestas encima de las reglas menos restrictivas. Por ejemplo, si ha incluido una regla de traducción que coincide con cualquier número de 11 dígitos y una regla de traducción que coincida con solo números de 11 dígitos que empiecen por + 1425, asegúrese de que la regla que coincide con cualquier número de 11 dígitos se ordene *debajo* de la regla más restrictiva.
 
 18. Cuando haya terminado de configurar el tronco, haga clic en **Aceptar**.
 

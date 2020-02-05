@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumen: cree o modifique directivas de voz y configure los registros de uso de RTC con el panel de control de Skype empresarial Server.'
-ms.openlocfilehash: 76ce531eab2eb88b9a62c4bc38aae1e899802084
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6fe67c9c3764196559740e114419dc427cdeadf3
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239932"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766973"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial
 
@@ -129,7 +131,7 @@ ms.locfileid: "36239932"
 
    - Para usar los mismos registros de uso de RTC que esta directiva de voz, para el desvío de llamadas y las llamadas simultáneas, seleccione la opción **Distribuir con los usos de la RTC de llamada** en el menú desplegable.
 
-   - Para permitir el desvío de llamadas y las llamadas simultáneas solo a usuarios internos de Skype empresarial, seleccione la opción enrutar solo **a los usuarios internos de Skype empresarial** en el menú desplegable. Calls will not be forwarded to external PSTN numbers.
+   - Para permitir el desvío de llamadas y las llamadas simultáneas solo a usuarios internos de Skype empresarial, seleccione la opción **enrutar solo a los usuarios internos de Skype empresarial** en el menú desplegable. Calls will not be forwarded to external PSTN numbers.
 
    - Para usar unos registros de uso de RTC para el desvío de llamadas y las llamadas simultáneas que no sean los que se usan para esta directiva de voz, seleccione la opción **Distribuir con los usos de la RTC personalizados** en el menú desplegable. Esta opción muestra un control para seleccionar registros de uso de RTC o crear nuevos registros de uso de RTC destinados concretamente a desviar llamadas o a realizar llamadas simultáneas.
 
@@ -278,7 +280,7 @@ ms.locfileid: "36239932"
 
    - Para usar los mismos registros de uso de RTC que esta directiva de voz, para el desvío de llamadas y las llamadas simultáneas, seleccione la opción **Distribuir con los usos de la RTC de llamada** en el menú desplegable.
 
-   - Para permitir el desvío de llamadas y las llamadas simultáneas solo a usuarios internos de Skype empresarial, seleccione enrutar **a los usuarios internos de Skype empresarial solo** en el menú desplegable. Calls will not be forwarded to external PSTN numbers.
+   - Para permitir el desvío de llamadas y las llamadas simultáneas solo a usuarios internos de Skype empresarial, seleccione **enrutar a los usuarios internos de Skype empresarial solo** en el menú desplegable. Calls will not be forwarded to external PSTN numbers.
 
    - Para especificar unos registros de uso de RTC para el desvío de llamadas y en las llamadas simultáneas distintos de los de esta directiva de voz, seleccione la opción **Distribuir con los usos de la RTC personalizados** en el menú desplegable. Esta opción muestra un control para seleccionar unos registros de uso de RTC existentes o bien para crear otros registros de uso de RTC específicos para el desvío de llamadas y las llamadas simultáneas.
 

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: Configure una aplicación SNMP para que funcione con E9-1-1 en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 5941a7fee85b486577df4c79848274528ddab952
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: fd8db117f590343d3e2f5a0194a0f6d8c3bcfb39
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001380"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768143"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Configurar una aplicación SNMP en Skype empresarial Server
  

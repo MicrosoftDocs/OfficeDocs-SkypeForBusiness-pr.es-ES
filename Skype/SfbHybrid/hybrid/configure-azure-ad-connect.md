@@ -5,6 +5,8 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones para configurar Azure AD Connect en un entorno híbrido.
-ms.openlocfilehash: 9df0e42224d3186c3d7b5b1748412e9ec9121897
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3060ef443fd2ee57157c2590441c5fe04b1d8739
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160777"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726940"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>Configurar Azure AD Connect para Teams y Skype empresarial
  
@@ -32,7 +34,7 @@ Las organizaciones que tienen Skype empresarial Server (o Lync Server) local y q
 
 ## <a name="background-information"></a>Información general
 
-Azure Active Directory Connect mantiene su Active Directory local sincronizado permanentemente con Office 365.  El directorio local sigue siendo el origen de identidad autoritativo y los cambios de su entorno local se sincronizan en Azure AD. Para obtener más información, consulte [sincronización de Azure ad Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis).  Incluso si no va a mover a todos los usuarios de la nube local a la nube, todos los usuarios que usen Microsoft Teams, Skype empresarial local o Skype empresarial online deben estar sincronizados desde una ubicación local a Azure AD para garantizar la comunicación entre los usuarios locales y en línea. . *Los usuarios de la organización se representarán en los directorios local y en línea.*
+Azure Active Directory Connect mantiene su Active Directory local sincronizado permanentemente con Office 365.  El directorio local sigue siendo el origen de identidad autoritativo y los cambios de su entorno local se sincronizan en Azure AD. Para obtener más información, consulte [sincronización de Azure ad Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis).  Incluso si no va a mover a todos los usuarios de la nube local a la nube, todos los usuarios que usen Teams, Skype empresarial local o Skype empresarial online deben estar sincronizados desde una ubicación local a Azure AD para garantizar la comunicación entre los usuarios locales y en línea. *Los usuarios de la organización se representarán en los directorios local y en línea.*
 
 
 ## <a name="configuring-azure-ad-when-you-have-skype-for-business-server"></a>Configuración de Azure AD cuando tiene Skype empresarial Server 
@@ -86,6 +88,6 @@ En estos escenarios, es responsabilidad del cliente garantizar una configuració
 
 - [Sincronización de Azure AD Connect: comprender y personalizar la sincronización](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sync-whatis)
 
-- [Topologías para Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)
+- [Topologías de Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/plan-connect-topologies)
 
 - [Sincronización de Azure AD Connect: atributos sincronizados con Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)

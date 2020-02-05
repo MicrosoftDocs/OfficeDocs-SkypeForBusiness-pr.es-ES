@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Crear o modificar una tabla de intervalos orbitar de llamadas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: e4dc9e9384210ec2abcceb652b814aef8c401b05
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a5df3b61baf66a09bf968daf5c088e1c2ebf5734
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001730"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767903"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Crear o modificar un intervalo de llamada de Parque orbital en Skype empresarial
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
 description: 'Resumen: Cómo usar la herramienta de personalización de Office con el cliente de Skype empresarial.'
-ms.openlocfilehash: b5c66fee4f6c879c8ded2897b64e63654dd950be
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: d5b9e5363f56842675831c4b3c0fe3582fb6d02a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001600"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768453"
 ---
 # <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Usar la herramienta de personalización de Office (OCT) en Skype empresarial Server
  

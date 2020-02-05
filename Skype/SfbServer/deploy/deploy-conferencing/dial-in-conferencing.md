@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar conferencias de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: ff04637cf077bae4c1408a48a487582a04123b54
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 4e8523cbaadfc13b985cf33e06e68fcd5d209c89
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002930"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768533"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar conferencias de acceso telefónico local en Skype empresarial Server
  

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: Proceso de implementación y pasos de la llamada en el parque de Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 55fc887d77d3b68088bb396763a244ef81ce3a6b
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e0e0559a99160bad06379751cbc0bb89fb882c20
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233020"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767483"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>Proceso de implementación para el parque de llamadas en Skype empresarial
  

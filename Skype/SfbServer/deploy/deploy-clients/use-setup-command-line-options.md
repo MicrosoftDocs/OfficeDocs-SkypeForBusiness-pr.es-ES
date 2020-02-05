@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Resumen: Obtenga información sobre las operaciones de la línea de comandos de Setup. exe en el programa de instalación de Office.'
-ms.openlocfilehash: a84c1f8a69bdff07dfec5e274932a522bf139c9a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 68add6e2744e9648db49508519c14e64b4e6aeef
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234840"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768633"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Usar las opciones de la línea de comandos de configuración con clientes de Skype empresarial
  

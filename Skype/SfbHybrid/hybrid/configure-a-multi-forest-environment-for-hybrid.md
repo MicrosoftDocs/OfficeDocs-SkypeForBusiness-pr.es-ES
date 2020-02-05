@@ -6,6 +6,8 @@ author: CarolynRowe
 manager: serdars
 audience: ITPro
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: En las secciones siguientes se proporcionan instrucciones sobre cómo configurar un entorno con varios bosques en un modelo de bosque de recursos y usuarios para proporcionar funcionalidad de Skype empresarial en un escenario híbrido.
-ms.openlocfilehash: 7ef895648c044dc5d1f3f907ad4f75d950a4253a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f018699040fc202cbe827a2b8b05bd1f4371e190
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160776"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726950"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>Implementación de una topología de bosque de recursos
  
@@ -117,7 +119,7 @@ AAD Connect debe instalarse con los valores predeterminados, excepto los siguien
     
 2. Conecte los directorios: Agregue todos los dominios.
     
-3. Identificar a los usuarios en directorios locales: seleccione las identidades de **usuario que existen en varios directorios**y seleccione los atributos **ObjectSID** y **msExchangeMasterAccountSID** .
+3. Identificar a los usuarios en directorios locales: seleccione las **identidades de usuario que existen en varios directorios**y seleccione los atributos **ObjectSID** y **msExchangeMasterAccountSID** .
     
 4. Identificar usuarios en Azure AD: delimitador de origen: seleccione el atributo que ha elegido después de leer [seleccionando un buen atributo de sourceAnchor](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-design-concepts/), nombre principal de usuario- **userPrincipalName**.
     
@@ -138,6 +140,6 @@ Siga los procedimientos recomendados para configurar el entorno híbrido de Skyp
   
 ## <a name="configure-hybrid-connectivity-for-exchange-server"></a>Configurar la conectividad híbrida para Exchange Server
 
-Si es necesario, siga los procedimientos recomendados para configurar la implementación híbrida de Exchange. Para obtener más información, consulte implementaciones híbridas de [Exchange Server](https://docs.microsoft.com/en-us/exchange/exchange-hybrid). 
+Si es necesario, siga los procedimientos recomendados para configurar la implementación híbrida de Exchange. Para obtener más información, consulte [implementaciones híbridas de Exchange Server](https://docs.microsoft.com/en-us/exchange/exchange-hybrid). 
   
 

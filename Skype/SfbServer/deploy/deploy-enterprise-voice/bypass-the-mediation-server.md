@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: Habilitar omisión de elementos multimedia para omitir siempre el servidor de mediación en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: dfffda1130fc1fb119e6cbf5d9b12af766b9c038
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cde2a1bff41016e05ac6c74978fa65b45f11a1e7
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233840"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768273"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurar la omisión de elementos multimedia en Skype empresarial Server para omitir siempre el servidor de mediación
  
@@ -27,7 +29,7 @@ Habilitar omisión de elementos multimedia para omitir siempre el servidor de me
   
  Si usa los pasos de este tema para establecer la configuración global para la omisión de medios, se supone que tiene una buena conectividad entre los puntos de conexión de Skype empresarial y cualquier otro elemento del mismo nivel para el que haya configurado el bypass de medios en la conexión troncal.
   
-Si no tiene buena conectividad entre los puntos de conexión de Skype empresarial y todos los elementos del servidor de media cuyas conexiones troncales se hayan habilitado para la omisión de medios, debe configurar la configuración de omisión de multimedia global para usar la información del sitio y de la región. al emplear la omisión de medios. Esto permite un mayor control para determinar cuándo el contenido multimedia pasa por alto el servidor de mediación. Para ello, use los pasos de [configurar la configuración global de omisión de medios en Skype empresarial Server para usar la información del sitio y de la región](use-site-and-region-information.md) y asociar [una subred con un sitio de red](deploy-network.md#BKMK_AssociateSubnets) .
+Si no tiene buena conectividad entre los puntos de conexión de Skype empresarial y todos los elementos del servidor de media cuyas conexiones troncales se hayan habilitado para la omisión de medios, debe configurar la configuración de omisión de multimedia global para usar la información del sitio y de la región. al emplear la omisión de medios. Esto permite un mayor control para determinar cuándo el contenido multimedia pasa por alto el servidor de mediación. Para ello, use los pasos de [configurar la configuración global de omisión de medios en Skype empresarial Server para usar la información del sitio y de la región](use-site-and-region-information.md) y [asociar una subred con un sitio de red](deploy-network.md#BKMK_AssociateSubnets) .
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Para habilitar globalmente el desvío de medios para que omita siempre el servidor de mediación
 

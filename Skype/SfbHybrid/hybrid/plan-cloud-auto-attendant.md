@@ -5,17 +5,19 @@ author: jambirk
 manager: serdars
 ms.reviewer: wasseemh
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de un operador automático de la nube con Skype empresarial Server 2019
-ms.openlocfilehash: 635d9c6548ba807153876d63ad228f69646e93c8
-ms.sourcegitcommit: a49caec01ff724475d6670b303d851ddd8266c2c
+ms.openlocfilehash: d34e298db9cdd8f1bbd0378e37c6d9aae2b02726
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "36207040"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41724230"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planeación de operadores automáticos en la nube
 
@@ -91,7 +93,7 @@ Vea [mover un operador automático de mensajería unificada de Exchange o una co
 
 ## <a name="additional-planning-resources"></a>Recursos de planeación adicionales
 
-En el tutorial titulado [Small Business example-set up an operador automático](/microsoftteams/tutorial-org-aa) se recorre el proceso de recopilar información sobre las necesidades de los usuarios, planear una estructura de operadores y usuarios automáticos (y posiblemente colas de llamadas), escribir los mensajes del menú y implementación del plan en el centro de administración de Teams. Revise el tutorial y use los ejercicios que hay para crear el plan.
+En el tutorial titulado [Small Business example-set up an operador automático](/microsoftteams/tutorial-org-aa) se recorre el proceso de recopilación de información sobre las necesidades de los usuarios, la planeación de una estructura de operadores automáticos y los usuarios (y posiblemente las colas de llamadas), la escritura de los mensajes del menú y la implementación del plan en el centro de administración de Teams. Revise el tutorial y use los ejercicios que hay para crear el plan.
 
 Cuando tenga una estructura sólida que satisfaga sus necesidades y un script que guíe a los clientes con eficacia, continúe con la [configuración de las cuentas de recursos](configure-onprem-ra.md).
 

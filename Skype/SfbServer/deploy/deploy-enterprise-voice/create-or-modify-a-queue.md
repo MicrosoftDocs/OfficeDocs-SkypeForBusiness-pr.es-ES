@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Crear o modificar una cola de grupo de respuesta en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 9027c239c92c7c04b9de8b5579d7ebb73069b1a3
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 8cd306e849eeddd8a11b76604826084c0eb9b41d
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001710"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767873"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Crear o modificar una cola en Skype empresarial
  

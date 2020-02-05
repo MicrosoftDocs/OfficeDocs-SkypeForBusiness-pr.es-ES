@@ -6,17 +6,19 @@ author: dstrome
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para implementar el correo de voz basado en la nube para los usuarios alojados en Skype empresarial Server.
-ms.openlocfilehash: 5dee8259cd994e4d83b92aa2f68c7f6b4a11df27
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: df76051081baaae412c36acf4e73171f2ebce220
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580837"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726920"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar el servicio de correo de voz en la nube para los usuarios locales
 

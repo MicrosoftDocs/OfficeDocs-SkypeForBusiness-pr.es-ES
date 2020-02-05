@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Resumen: Revise estos escenarios para ayudarle a planear la topología de servidores perimetrales en Skype empresarial Server.'
-ms.openlocfilehash: f978d3ac5da0611808b09c7556302f52478d95ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 64d38b5c9b4a32991bf87bd6ba8af87c92db115f
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277156"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41754170"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Escenarios de servidores perimetrales en Skype empresarial Server
  
@@ -33,7 +33,7 @@ Los diagramas muestran .com para la interfaz externa y .net para la interna, que
   
 No incluimos el director (que es un componente opcional) en ninguno de los diagramas, pero puede leer sobre esto por separado (se menciona en otros temas de planificación).
   
-Como se indica anteriormente, hay datos de ejemplo de IPv6 en los diagramas. La mayor parte de la documentación del plan de implementaciones de [servidores perimetrales en Skype empresarial Server](edge-server-deployments.md) hará referencia a IPv4, pero ciertamente es compatible Si desea usar IPv6. Tenga en cuenta que necesitará direcciones IPv6 en el espacio de direcciones asignadas y que tendrán que funcionar con el direccionamiento interno y el externo, al igual que con IP de IPv4. Puede, con Windows, recurrir a la característica de pila doble, que es una pila de red diferente y separada para IPv4 e IPv6. Esto permitirá, si lo necesita, asignar las direcciones IPv4 e IPv6 simultáneamente.
+Como se indica anteriormente, hay datos de ejemplo de IPv6 en los diagramas. La mayor parte de la documentación del [plan de implementaciones de servidores perimetrales en Skype empresarial Server](edge-server-deployments.md) hará referencia a IPv4, pero ciertamente es compatible Si desea usar IPv6. Tenga en cuenta que necesitará direcciones IPv6 en el espacio de direcciones asignadas y que tendrán que funcionar con el direccionamiento interno y el externo, al igual que con IP de IPv4. Puede, con Windows, recurrir a la característica de pila doble, que es una pila de red diferente y separada para IPv4 e IPv6. Esto permitirá, si lo necesita, asignar las direcciones IPv4 e IPv6 simultáneamente.
   
 Existen dispositivos NAT que permiten para NAT64 (IPv6 a IPv4) y NAT66 (IPv6 a IPv6)), y esto es válido para usar con Skype empresarial Server.
   
@@ -93,11 +93,4 @@ También tenemos un diagrama de grupos de límites consolidados con el equilibri
 Con este escenario, puede tener alta disponibilidad en la implementación perimetral, lo que le proporciona las ventajas de escalabilidad y compatibilidad con la conmutación por error.
   
 ![Escenario perimetral para el perímetro consolidado escalado con equilibrador de carga de hardware](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
-  
-### <a name="port-diagram"></a>Diagrama de puerto
-
-También tenemos un diagrama de las agrupaciones de límites consolidados con equilibrio de carga de hardware
-  
-![Protocolos y puertos de la red perimetral de servidores perimetrales](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeHLB.jpg)
-  
-
+ 

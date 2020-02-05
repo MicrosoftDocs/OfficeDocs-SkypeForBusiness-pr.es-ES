@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -15,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: Instrucciones para implementar la conectividad híbrida entre Skype empresarial Server y Skype empresarial online.
-ms.openlocfilehash: ab7fb32c16e57e554c702a7b0f29ba350c1eedbe
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0f7494388508aca689a1b019babf2f14a06d3f65
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "36160769"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726810"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-office-365"></a>Configurar la conectividad híbrida entre Skype empresarial Server y Office 365
 

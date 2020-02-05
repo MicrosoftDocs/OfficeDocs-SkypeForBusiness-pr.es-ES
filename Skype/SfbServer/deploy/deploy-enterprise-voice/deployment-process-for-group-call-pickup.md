@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: Proceso de implementación y pasos para la recogida de llamadas grupales en la telefonía IP empresarial de Skype empresarial.
-ms.openlocfilehash: 870692b1395d96c75d6d96a5914004a8a95f088a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6f46303316bceaae28802ec27fcaea67a8ccaa08
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245321"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767473"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Proceso de implementación para la recogida de llamadas grupales en Skype empresarial
  

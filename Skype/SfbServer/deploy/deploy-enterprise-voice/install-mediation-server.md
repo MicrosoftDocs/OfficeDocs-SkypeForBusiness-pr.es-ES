@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Resumen: Aprenda a instalar los archivos para el servidor de mediación en Skype empresarial Server.'
-ms.openlocfilehash: b73832586ba4a09cc51f67bddcaf30c2f85fcca1
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 4dc4c9971b74bf27d0f516ed70484646b666a845
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240300"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767123"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Instalar los archivos para el servidor de mediación en Skype empresarial Server
  
@@ -60,5 +62,5 @@ Siga los pasos que se indican en este tema para ejecutar el Asistente para la im
     
 13. En el equipo en el que esté ejecutando el panel de control de Skype empresarial Server, compruebe en la página **topología** del panel de control de Skype empresarial Server que el estado del servicio del servidor de mediación se muestra como una marca de verificación verde. Si en lugar de ello aparece una X de color rojo, seleccione el servidor de mediación. En el menú **Acción**, haga clic en **Iniciar todos los servicios**. 
     
-Si ha agregado más de un equipo al grupo de servidores de mediación, realice los pasos de este procedimiento en todos los demás equipos del grupo de servidores de mediación. Si no necesita instalar archivos para el servidor de mediación para otros equipos, siga los procedimientos que se describen en [configurar troncos en Skype empresarial Server](configure-trunks.md) para configurar las opciones de conexión troncal entre este grupo de servidores de mediación (o todo el medio de mediación). Servidores en un sitio) y sus pares.
+Si ha agregado más de un equipo al grupo de servidores de mediación, realice los pasos de este procedimiento en todos los demás equipos del grupo de servidores de mediación. Si no necesita instalar archivos para el servidor de mediación para otros equipos, siga los procedimientos que se describen en [configurar troncos en Skype empresarial Server](configure-trunks.md) para establecer la configuración de la conexión troncal entre este grupo de servidores de mediación (o todos los servidores de mediación de un sitio) y su par.
 

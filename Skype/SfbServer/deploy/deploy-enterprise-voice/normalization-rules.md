@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Resumen: Aprenda a definir, crear y modificar una regla de normalización en Skype empresarial Server.'
-ms.openlocfilehash: af0f09710d427dc97a919468b5decfa9ef3d93fa
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c206bd20c02053f4e3775f32b1ba61000bb59a63
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240263"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767093"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Crear o modificar una regla de normalización en Skype empresarial
 
@@ -33,19 +35,19 @@ Definir, crear y modificar reglas de normalización en Skype empresarial Server.
 
 2. Faculta Siga los pasos que se indican en [crear o modificar un plan de marcado en Skype empresarial Server](dial-plans.md) por medio del paso 11 o [modificar un plan de marcado mediante el](https://technet.microsoft.com/library/a91f02df-cf60-40cf-82fe-e0342c118b91.aspx) paso 10.
 
-3. En **nueva regla** de normalización o **Editar regla**de normalización, escriba un nombre que describa el patrón de números que se está normalizando en **nombre** (por ejemplo, 5DigitExtension).
+3. En **nueva regla de normalización** o **Editar regla de normalización**, escriba un nombre que describa el patrón de números que se está normalizando en **nombre** (por ejemplo, 5DigitExtension).
 
 4. (Opcional) En **Descripción**, escriba una descripción de la regla de normalización (por ejemplo, "Convierte extensiones de 5 dígitos").
 
 5. En **Generar regla de normalización**, escriba valores en los siguientes campos:
 
-   - **Dígitos iniciales** Faculta Especifique los dígitos iniciales de los números marcados que desea que coincidan con el patrón. Por ejemplo, type425 si desea que el patrón coincida con los números marcados que comienzan con 425.
+   - **Dígitos iniciales** (opcional) especifique los dígitos iniciales de los números marcados que desea que coincidan con el diseño. Por ejemplo, type425 si desea que el patrón coincida con los números marcados que comienzan con 425.
 
    - **Duración** Especifique el número de dígitos en el patrón de coincidencia y seleccione si desea que el patrón coincida exactamente con esta longitud, que coincide con números marcados que tienen al menos esta longitud o que coinciden con números marcados de cualquier longitud.
 
-   - **Dígitos para quitar** Faculta Especifique el número de dígitos iniciales que se van a quitar de los números marcados que desea que coincidan con el diseño.
+   - **Dígitos para quitar** (opcional) especifique la cantidad de dígitos iniciales que quiere que se quiten de los números marcados a los que desea que coincida el patrón.
 
-   - **Dígitos para agregar** Faculta Especifique los dígitos que se van a agregar a los números marcados que desea que coincidan con el patrón.
+   - **Dígitos para agregar** (opcional) especifique los dígitos que desea agregar a los números marcados que desea que coincidan con el patrón.
 
      Los valores que introduzca en estos campos se reflejarán en **Patrón con el que coincidir** y **Regla de conversión**. Por ejemplo, si deja los **dígitos iniciales** en blanco, Type7 en el campo **longitud** y selecciona **exactamente**, y especifica 0 en **dígitos para quitar**, la expresión regular resultante en el **patrón para coincidir** es:
 
@@ -82,7 +84,7 @@ comando **Confirmar todo** para publicar el cambio de configuración. Para obten
 
 2. Faculta Siga los pasos que se indican en [crear o modificar un plan de marcado en Skype empresarial Server](dial-plans.md).
 
-3. En **nueva regla** de normalización o **Editar regla**de normalización, escriba un nombre que describa el patrón de números que se está normalizando en **nombre** (por ejemplo, asigne un nombre a la rule5DigitExtension de normalización).
+3. En **nueva regla de normalización** o **Editar regla de normalización**, escriba un nombre que describa el patrón de números que se está normalizando en **nombre** (por ejemplo, asigne un nombre a la rule5DigitExtension de normalización).
 
 4. (Opcional) En el campo **Descripción**, escriba una descripción de la regla de normalización (por ejemplo, "Convierte extensiones de 5 dígitos").
 

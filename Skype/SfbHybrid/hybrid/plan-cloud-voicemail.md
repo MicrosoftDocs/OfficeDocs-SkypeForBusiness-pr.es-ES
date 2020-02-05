@@ -5,17 +5,19 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: En este artículo se describen las ventajas, las consideraciones de planeación y los requisitos para implementar el servicio de correo de voz en la nube de Microsoft. Para obtener información sobre cómo configurar el correo de voz de nube, consulte Configurar el correo de voz de nube.
-ms.openlocfilehash: 0071154ab1b9c1211725dd9b6addc2dfd5449e15
-ms.sourcegitcommit: 46fb558814cb6bd7d70729eac590afd51fc6606e
+ms.openlocfilehash: 11b6704a532a3e522792c2234d199e891799c2ac
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2019
-ms.locfileid: "36160793"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765701"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planear el servicio de correo de voz en la nube para usuarios locales
 

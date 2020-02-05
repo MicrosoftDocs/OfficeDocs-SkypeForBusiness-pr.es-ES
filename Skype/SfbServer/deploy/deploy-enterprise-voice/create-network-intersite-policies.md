@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Cree directivas de red entre sitios, que usan el control de admisión de llamadas de telefonía de empresa en Skype empresarial Server.
-ms.openlocfilehash: ce1826a1205216791f056a46fa625d26e0362f1f
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: f24d0ad289d9388c45a5dbd9a31aa60e8c41e357
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001750"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767923"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Crear directivas de red entre sitios en Skype empresarial Server
  

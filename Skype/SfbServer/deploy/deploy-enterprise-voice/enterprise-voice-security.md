@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Resumen: Obtenga información sobre los requisitos previos de seguridad y configuración de telefonía IP empresarial en Skype empresarial Server.'
-ms.openlocfilehash: 70acac97bd2a3554c0613f64bdbf93f64811a0b0
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 314c25429dbf346a5f62705afa4f19a5b518452a
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240327"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767243"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Requisitos previos de seguridad y configuración de telefonía IP empresarial en Skype empresarial Server
  
@@ -59,7 +61,7 @@ Si ha implementado recientemente la carga de trabajo de telefonía IP empresaria
 
 Después de verificar el software y los requisitos previos del entorno de telefonía IP empresarial, puede:
   
-- Instale el servidor de mediación, como se describe en [implementar un servidor de mediación en el generador de topologías de Skype empresarial Server](deploy-a-mediation-server.md), pero solo si desea implementar un servidor de mediación o un grupo de mediación independiente, ya que los servidores de mediación están instalados como parte del front-end el proceso de implementación del grupo o del servidor Standard Edition cuando se colocaba.
+- Instale el servidor de mediación, como se describe en [implementar un servidor de mediación en el generador de topologías de Skype empresarial Server](deploy-a-mediation-server.md), pero solo si desea implementar un servidor de mediación o un grupo de servidores de mediación independiente cuando se colocan.
     
 - También puede empezar a configurar las opciones para enrutar llamadas para usuarios de Enterprise Voice, como se describe en [configurar los troncos de Skype empresarial Server](configure-trunks.md).
     

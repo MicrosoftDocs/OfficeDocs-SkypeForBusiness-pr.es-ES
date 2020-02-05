@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Habilite usuarios para la recogida de llamadas grupales en Skype empresarial Server Enterprise Voice y asigne un número de grupo.
-ms.openlocfilehash: 8ded9fbf7e9a9c8034684c1477c6aad92bfc9e5f
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: bebddb5f71612cf23d442366c774d0e8d4b9f500
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002550"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767273"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Habilitar la recogida de llamadas grupales para los usuarios y asignar un número de grupo en Skype empresarial
 

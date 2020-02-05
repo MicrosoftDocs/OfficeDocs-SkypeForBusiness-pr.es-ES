@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Resumen: Aprenda a crear una nueva colección de parámetros de configuración de troncal con el panel de control de Skype empresarial Server.'
-ms.openlocfilehash: f724526f35a530c19e709e7faa62369e454ea6a4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 9e208355f02d97802b2e1de2457e542fc0bb12c3
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240104"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41766954"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Crear una nueva colección de parámetros de configuración de troncal en Skype empresarial Server 
 

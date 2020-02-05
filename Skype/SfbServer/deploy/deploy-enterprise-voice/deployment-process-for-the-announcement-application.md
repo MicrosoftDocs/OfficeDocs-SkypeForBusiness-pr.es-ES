@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Proceso de implementación y pasos para la aplicación de anuncios en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 2edb9364408658e9a164210a9fcd5a0196b10da7
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 89f01ed4c9488aa74b07bfae41f3bf27032b552e
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245314"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767403"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Proceso de implementación para la aplicación de anuncios en Skype empresarial Server
  

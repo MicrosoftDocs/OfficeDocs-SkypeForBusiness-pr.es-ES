@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 'Resumen: Aprenda a configurar la identificación de llamadas con el panel de control de Skype empresarial Server.'
-ms.openlocfilehash: ca35b3398732296f435196ffeb38d915472b303d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d6b2e594d0f16e9b3278145087af854650a957da
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233770"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768163"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de traducción para la presentación de identificación de llamadas en Skype empresarial Server
 
 **Resumen:** Obtenga información sobre cómo configurar la identificación de llamadas con el panel de control de Skype empresarial Server.
 
-Con Skype empresarial Server, el número de teléfono de la persona que llamó (es decir, el número de teléfono llamado) puede traducirse desde el formato E. 164 al formato de marcado local requerido por el _interlocutor troncal_ (es decir, la puerta de enlace asociada, la sucursal privada de intercambio ( PBX) o el tronco del SIP. Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
+Con Skype empresarial Server, el número de teléfono de la persona que se llama (es decir, el número de teléfono llamado) se puede traducir desde el formato E. 164 al formato de marcado local requerido por el _interlocutor troncal_ (es decir, la puerta de enlace asociada, la central de conmutación (PBX) o el tronco del SIP). Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
 
 Skype empresarial Server también le ofrece la opción de traducir el número de teléfono de la persona que llama (es decir, el número de teléfono desde el que llama el autor de la llamada) desde el formato E. 164 al formato de marcado local requerido por el interlocutor troncal. Por ejemplo, puede escribir una regla de conversión para quitar el prefijo +34 del principio de una cadena de llamada y sustituirlo por 0134.
 

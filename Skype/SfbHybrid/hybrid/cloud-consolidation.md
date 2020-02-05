@@ -14,17 +14,19 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 audience: ITPro
+f1.keywords:
+- NOCSH
 appliesto:
 - Skype for Business
 - Microsoft Teams
 localization_priority: Normal
 description: En este artículo se describe cómo lograr esa consolidación para las organizaciones con implementaciones locales de Skype empresarial (o Lync) que buscan migrar para transferir su carga de trabajo de comunicaciones unificadas a Microsoft Teams o Skype empresarial online.
-ms.openlocfilehash: 33cbc823fd7aeece1591810d63d2ebf4a348237a
-ms.sourcegitcommit: 6b73b89f29a0eabbd9cdedf995d5325291594bac
+ms.openlocfilehash: 7f3ad27404ec80e0592baa7174b01363f1aa0ed1
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "37018849"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726960"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Consolidación en la nube para Teams y Skype empresarial
 
@@ -177,7 +179,7 @@ Al mover usuarios de local a la nube en un entorno híbrido, puede moverlos a Sk
     - Nota: debe hacerlo en un nivel de inquilino, ya que la Directiva no se puede asignar a usuarios individuales que no tengan una dirección SIP en el directorio en línea. Mientras haya deshabilitado los dominios SIP en línea para las implementaciones locales puras, los usuarios de esos dominios no tendrán direcciones SIP en el directorio en línea por diseño. Por lo tanto, la única forma de aplicar la Directiva a los usuarios locales es asignar en el nivel de espacio empresarial. Por el contrario, en los usuarios de la implementación híbrida tendrán una dirección SIP en el directorio en línea, por lo que se les puede asignar de forma explícita una Directiva si desea que tengan un valor distinto al de la directiva global de inquilino.
 - La experiencia de usuario del cliente de Microsoft Teams todavía no respeta los modos de SfB de TeamsUpgradePolicy. Por ejemplo, en estos modos, el inicio de llamadas y chats en Microsoft Teams es posible en la actualidad, aunque en el futuro no será el caso. Esto puede causar confusión entre los usuarios porque las respuestas a veces pueden estar en Microsoft Teams y, a continuación, en Skype empresarial, en función de las circunstancias. Se recomienda deshabilitar por separado las llamadas y el chat a través de TeamsMessagingPolicy y TeamsCallingPolicy para los usuarios que todavía están en local.
 
-## <a name="see-also"></a>Ver también
+## <a name="see-also"></a>Vea también
 
 [Actualizar el certificado perimetral](cloud-consolidation-edge-certificates.md)
 

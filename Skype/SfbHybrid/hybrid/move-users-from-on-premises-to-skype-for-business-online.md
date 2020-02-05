@@ -5,6 +5,8 @@ author: CarolynRowe
 manager: serdars
 ms.reviewer: bjwhalen
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: Obtenga información sobre cómo mover usuarios a Skype empresarial online.
-ms.openlocfilehash: ddf25614afae48ef647dc325e53ccbab8ac2e5d0
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: 6653ca8fe7082f0cabd2057c078f7d0d8d6f0389
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963028"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41726760"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>Mover usuarios de local a Skype empresarial online
 

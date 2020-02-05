@@ -5,17 +5,19 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 audience: ITPro
+f1.keywords:
+- NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Información general sobre el uso de las herramientas de telemetría de Skype empresarial online para supervisar una implementación local en un escenario híbrido.
-ms.openlocfilehash: 3300ad17b109ac069c4f7382f610dd0214b30197
-ms.sourcegitcommit: 1f84b0edc4e418259b9f6392370e2cc4dc70df82
+ms.openlocfilehash: 910bfe2a1af1f39976d0098aeb1fd23a7ef31490
+ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37328432"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41765238"
 ---
 # <a name="plan-call-data-connector"></a>Conector de datos de llamada del plan
 

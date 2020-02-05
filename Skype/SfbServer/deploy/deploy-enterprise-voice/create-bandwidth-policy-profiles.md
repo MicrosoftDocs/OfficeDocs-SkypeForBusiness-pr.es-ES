@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Crear o modificar directivas de ancho de banda, que usan el control de admisión de llamadas de voz de empresa en Skype empresarial Server.
-ms.openlocfilehash: 86ab5d7fc7ae46223118250626d12107c35b9ef8
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e54fc20c142e0eacc2758d97bdeba8043511b3fe
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001770"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767953"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Crear perfiles de directiva de ancho de banda en Skype empresarial Server 
  

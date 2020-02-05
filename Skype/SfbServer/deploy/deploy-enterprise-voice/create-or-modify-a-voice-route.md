@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Resumen: Aprenda a crear o modificar una ruta de voz en Skype empresarial Server mediante el panel de control de Skype empresarial Server.'
-ms.openlocfilehash: e5b8fcb5617d1f5abcbbda0826c3366ab4f73cd8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8732a07e835e6888efbc132da8dc99a0b4263f29
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36233346"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767803"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Crear o modificar una ruta de voz en Skype empresarial
  

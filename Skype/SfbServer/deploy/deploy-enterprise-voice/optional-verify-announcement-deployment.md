@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: Comprobar la implementación de la aplicación de anuncios en Skype empresarial Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: 4b1377d5cfa32e0860f6932320966ea9c5f8fa27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 0c6036635edf2315c3d61e4ec08d2072b5651216
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36240421"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41767333"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>Faculta Comprobar la implementación de la presentación en Skype empresarial
  

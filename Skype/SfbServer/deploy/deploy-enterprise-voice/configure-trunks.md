@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Resumen: Aprenda a configurar un tronco entre un servidor de mediación y los homólogos de telefonía IP empresarial en Skype empresarial Server.'
-ms.openlocfilehash: 9bd285f1364d54940afd827858248656a6bb9f00
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: eb2cf3042fe4e0d1a7c840fb31c583b18289bb7b
+ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001240"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41768073"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Configurar troncos en Skype empresarial Server
  
