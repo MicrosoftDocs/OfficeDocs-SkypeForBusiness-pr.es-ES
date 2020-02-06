@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployMainDeploySystem
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para iniciar la instalación o actualizar una implementación existente de Skype empresarial Server, haga clic en instalar o actualizar Skype empresarial Server. Los pasos de esta sección instalarán componentes específicos de un rol de servidor determinado, según el documento del generador de topologías. Antes de comenzar esta serie de pasos, debe definir la implementación en el generador de topologías. Debe iniciar sesión en el equipo que está implementando como administrador local y como miembro del grupo de administradores del dominio en el dominio donde se encuentra el servidor. El equipo debe estar unido al dominio antes de completar este paso.
-ms.openlocfilehash: e466c82d327c1353460bffdef84a1d2d89581d9d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: df7f5342ad1d0d6a6b80f782e431acf99c3d68ee
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691835"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798337"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Instalar o actualizar el sistema Skype Empresarial Server
 
