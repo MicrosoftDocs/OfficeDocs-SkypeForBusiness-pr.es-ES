@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d266799bf2bc2cab9cd107836f9017bd7dc369bf
-ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
+ms.openlocfilehash: 9911a014fe3bd3e3ede151e2a85e8181c399e463
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678974"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790618"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Iniciar sesión en Microsoft Teams con la autenticación moderna
 ==========================
@@ -54,6 +54,9 @@ Si los usuarios trabajan en un equipo unido a un dominio (por ejemplo, si su inq
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Cerrar la sesión de Microsoft Teams tras completar la autenticación moderna
 Para cerrar la sesión de Teams, los usuarios pueden hacer clic en su imagen de perfil en la parte superior de la aplicación y, a continuación, seleccionar **Cerrar sesión**. También puede hacer clic con el botón derecho en el icono de la aplicación en la barra de tareas y, a continuación, seleccionar **Cerrar sesión**. Una vez que se cierra la sesión de Teams, es necesario volver a escribir sus credenciales para iniciar la aplicación.
+
+## <a name="urls-and-ip-address-ranges"></a>Direcciones URL e intervalos de direcciones IP
+Teams requiere conectividad a Internet. Para comprender los puntos de conexión que deben ser accesibles para los clientes que usan equipos en planes de Office 365, administración pública y otras nubes, lea las [instrucciones disponibles aquí](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Además, también necesitará permitir el acceso a https://ssl.gstatic.com.
 
 ## <a name="troubleshooting-modern-authentication"></a>Solución de problemas de autenticación moderna
 

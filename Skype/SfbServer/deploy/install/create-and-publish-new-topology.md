@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Resumen: Aprenda a crear, publicar y comprobar una nueva topología antes de instalar Skype empresarial Server. Descargue una prueba gratuita de Skype empresarial Server en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: c62e2ae061f02f195d0a9560d08234c452543d88
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 631b0e44dfc632cbcc07f4fa6020e39b8dd292e0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244663"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791808"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Crear y publicar una nueva topología en Skype empresarial Server
  
@@ -148,7 +150,7 @@ Puede usar el generador de topologías de Skype empresarial Server para diseñar
     - Si va a configurar el equilibrio de carga de DNS, como es el caso de este ejemplo, active la casilla **Reemplazar el FQDN del grupo de servicios web internos** y escriba la dirección URL base interna (que necesita ser distinta del FQDN del grupo de servidores) en **URL base interna**. 
     
     > [!CAUTION]
-    > Si decide reemplazar los servicios web externos por un FQDN de definición propia, todos los FQDN necesitan ser diferentes de cualquier otro grupo de servidores front-end, director o grupo de directores. **Usar solo caracteres estándar** (incluidos A-Z, a-z, 0-9 y guiones) cuando se definen direcciones URL o nombres de dominio completos. No use caracteres Unicode ni guiones bajos. Por lo general, los DNS externos y las entidades de certificación (CA) públicas no admiten caracteres que no sean estándares en un FQDN o en una dirección URL (es decir, cuando el FQDN o la dirección URL se necesitan asignar al nombre de sujeto o al nombre de sujeto alternativo en el certificado).
+    > Si decide reemplazar los servicios web externos por un FQDN de definición propia, todos los FQDN necesitan ser diferentes de cualquier otro grupo de servidores front-end, director o grupo de directores. **Use solo caracteres estándar** (incluidos a-z, a-z, 0-9 y guiones) cuando defina direcciones URL o nombres de dominio completos. No use caracteres Unicode ni guiones bajos. Por lo general, los DNS externos y las entidades de certificación (CA) públicas no admiten caracteres que no sean estándares en un FQDN o en una dirección URL (es decir, cuando el FQDN o la dirección URL se necesitan asignar al nombre de sujeto o al nombre de sujeto alternativo en el certificado).
   
     - También puede escribir la dirección URL base externa en **URL base externa**. En tal caso, escribiríamos una dirección URL base externa de forma que se distinguiera de los nombres de dominio internos. Por ejemplo, el dominio interno es contoso.local, pero el nombre de dominio externo es contoso.com. La dirección URL se definiría con el nombre de dominio contoso.com porque necesita resolverse desde el DNS público. También es importante en el caso de un proxy inverso. El nombre de dominio de la dirección URL base externa sería el mismo que el nombre de dominio del FQDN del servidor proxy inverso. El acceso HTTP al grupo de servidores front-end es necesario para la presencia y la mensajería instantánea en los clientes móviles.
     

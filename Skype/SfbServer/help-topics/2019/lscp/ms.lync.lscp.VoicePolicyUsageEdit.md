@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoicePolicyUsageEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL (¤ bigfin_UI_help_intro)
-ms.openlocfilehash: 66526e1b30739e3a14da8600fa89e5bfa62c4eb0
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d2699a234a1b3a2c3816a35e077b9815844997f5
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703885"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41792038"
 ---
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>Directiva de voz: Crear nuevos o editar los existentes registros de uso de RTC
 

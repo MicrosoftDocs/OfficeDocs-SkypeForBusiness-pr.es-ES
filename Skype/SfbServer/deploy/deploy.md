@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Resumen: explore estos vínculos para información sobre cómo instalar y configurar Skype Empresarial Server 2015 y actualizar desde versiones anteriores de Lync Server.'
-ms.openlocfilehash: 434af9c9fd515b93f41d015009701d0128dd7c6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 29f592d0c176f1c450729cea3bf9f05b904c5c67
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235306"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41790208"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>Implementar Skype Empresarial Server 2015
  

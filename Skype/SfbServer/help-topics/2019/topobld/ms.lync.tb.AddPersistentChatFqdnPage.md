@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para crear un nuevo servidor de chat persistente o un grupo de servidores de chat persistente, use el asistente definir nuevo grupo de chats persistentes. Seleccione un Grupo de varios equipos o un Grupo de un solo equipo. Si selecciona un grupo de un solo equipo y, más adelante, necesita uno de varios equipos, deberá eliminar el grupo de un solo equipo y definir uno de varios equipos.
-ms.openlocfilehash: 19c09767008ce83c54eea966073693db36fa4dd1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b868c3f9f0af07dc438480516854a723171f21cf
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689109"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41787720"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Definir FQDN de chat persistente
 

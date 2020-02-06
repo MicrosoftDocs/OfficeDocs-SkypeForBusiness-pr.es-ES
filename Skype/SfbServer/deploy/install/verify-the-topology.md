@@ -8,6 +8,8 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Resumen: Aprenda a comprobar la topología de Skype empresarial Server y los servidores de Active Directory que funcionan de la forma esperada. Descargue una prueba gratuita de Skype empresarial Server en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: 6c7d7a67cab2cbd383ee26eb64f478985bcc4b27
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: aa631e5b08ff8cbe9cb6db17009f286dcc975679
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36245239"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41791718"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Comprobar la topología en Skype empresarial Server
  
