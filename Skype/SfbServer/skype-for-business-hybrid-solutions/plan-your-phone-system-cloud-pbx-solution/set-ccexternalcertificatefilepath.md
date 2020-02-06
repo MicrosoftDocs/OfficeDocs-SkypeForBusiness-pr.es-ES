@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: El cmdlet Set-CcExternalCertificateFilePath especifica la ruta de acceso en la que se almacena el certificado del servidor de mediación o del servidor perimetral.
-ms.openlocfilehash: e71a50f09a4ce3d085746c30f7591e8a07eb38de
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 9216b82626da7160d6e1bfa8d611757321a2683a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003210"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824204"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  

@@ -8,15 +8,17 @@ ms.date: 07/23/2019
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Script auxiliar para configurar la autenticación del panel de control de SFB 2019 con Office 365 a través del protocolo OAuth.
-ms.openlocfilehash: d53848aa0724f381d5f7320c13be14087777bfab
-ms.sourcegitcommit: 11c5c046371b4203c585ef8f1e4ab5d3659144a0
+ms.openlocfilehash: d434ad1530e05af396982a6c6278a80b9a416aa6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35842653"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824064"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>Script de autenticación del panel de control de Skype empresarial Server 2019
 

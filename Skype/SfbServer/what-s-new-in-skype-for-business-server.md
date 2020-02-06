@@ -8,16 +8,18 @@ ms.date: 12/20/2017
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 'Resumen: Lea este tema para obtener información sobre las nuevas características de Skype empresarial Server 2015. Para obtener información detallada sobre la nueva experiencia del cliente, vea Lync ahora es Skype empresarial: vea las novedades.'
-ms.openlocfilehash: e59d158242a5d2dd4b129da3a531749b22e3eadc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0a11c94f7c31b0140a256ab350f5dad6112bc71e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34291518"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824084"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Novedades de Skype Empresarial Server 2015
 
@@ -138,7 +140,7 @@ Skype empresarial Server 2015 usa cmdlets de Windows PowerShell para administrar
   
 El servicio de registro centralizado puede ejecutarse en cualquier Skype empresarial Server 2015. Los escenarios integrados (seguimientos predefinidos) son los mismos y sigue siendo posible crear escenarios personalizados. Hay un escenario especial, AlwaysOn, que siempre está en ejecución y permite a los administradores localizar problemas comunes casi en tiempo real.
   
-La herramienta de depuración de Snoop también se ha actualizado para permitir la depuración de registros de movilidad y funcionará con dispositivos que se conectan a Lync 2013 o a Skype empresarial Server 2015. La herramienta está disponible como descarga desde [herramientas](https://go.microsoft.com/fwlink/?LinkId=285257)de depuración.
+La herramienta de depuración de Snoop también se ha actualizado para permitir la depuración de registros de movilidad y funcionará con dispositivos que se conectan a Lync 2013 o a Skype empresarial Server 2015. La herramienta está disponible como descarga desde herramientas de [depuración](https://go.microsoft.com/fwlink/?LinkId=285257).
   
 ## <a name="hybrid-deployment-and-management"></a>Administración de implementaciones híbridas
 

@@ -8,15 +8,17 @@ ms.date: 7/11/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
 description: El cmdlet Update-CcServerCertificate renueva los certificados para Skype empresarial Cloud Connector Edition cuando están cerca de la expiración o ya han expirado.
-ms.openlocfilehash: 920770b4ce77e893a7195d1326ea13ac73e0cc70
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: da52efcd3fdf6a0793e085098bf6f72725115e9c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003120"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824114"
 ---
 # <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  

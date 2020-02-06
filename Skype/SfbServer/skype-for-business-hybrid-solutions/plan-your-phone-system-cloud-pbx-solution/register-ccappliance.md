@@ -8,15 +8,17 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: El cmdlet Register-CcAppliance registra la información de los dispositivos en un sitio RTC en una configuración de inquilinos en línea. Los dispositivos deben registrarse antes de que el servicio de administración de Skype Empresarial Cloud Connector Edition pueda implementarlos y administrarlos.
-ms.openlocfilehash: 93f1fe59a199214615c5ecdf8445f6c363ce6bbe
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: a94f9d7189f4872fcee2439afd2b210933f8bb06
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003310"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824306"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  

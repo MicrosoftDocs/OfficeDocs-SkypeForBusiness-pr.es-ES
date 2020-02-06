@@ -8,15 +8,17 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: El cmdlet Set-CcSiteDirectory establece el directorio en el que se almacenarán los archivos de configuración del nivel de sitio para Skype Empresarial Cloud Connector Edition. La carpeta contendrá el VHD base y los archivos de configuración de Cloud Connector.
-ms.openlocfilehash: d0cc8d2a66adb831ea2d85381902eb9d3df7ba6a
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 1e66c735e888fe9d5701b8f71baf462ec449acd4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003200"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824194"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  

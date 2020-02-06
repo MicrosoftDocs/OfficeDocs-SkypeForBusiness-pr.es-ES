@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: ''
 description: Los temas de esta sección le ayudan a comprender cómo planear e implementar Skype empresarial Server para poder planear de forma adecuada el número de usuarios de su organización y planear la carga del servidor que generan sus actividades.
-ms.openlocfilehash: 4dca5470b5512bb8a6310a60442478c761c7411e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 15f59d2052a4d73f6e1b1c09b10525b503958fea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284077"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824034"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planificación de la capacidad de Skype empresarial Server 2019
 
@@ -53,7 +55,7 @@ En la tabla siguiente se resumen nuestras recomendaciones.
 > [!NOTE]
 > Los grupos extendidos no son compatibles con este rol del servidor.
 
-En un grupo de servidores front-end, debe disponer de un servidor front-end para cada 6.660 usuarios alojados en su grupo, suponiendo que Hyper-Threading está habilitado en todos los servidores del grupo, que está usando SQL Server Express Edition y que el hardware del servidor cumpla con las recomendaciones [requisitos del servidor para Skype empresarial server 2019](system-requirements.md). El número máximo de usuarios de un grupo de servidores front-end es de 106.000, suponiendo que Hyper-Threading está habilitado y se usa SQL Server Express en todos los servidores de su grupo. Si tiene más de 106.000 usuarios en un sitio, puede implementar más de un grupo de servidores front-end.
+En un grupo de servidores front-end, debe disponer de un servidor front-end para cada 6.660 usuarios alojados en su grupo, suponiendo que Hyper-Threading está habilitado en todos los servidores del grupo, que está usando SQL Server Express Edition y que el hardware del servidor cumpla con las recomendaciones de los [requisitos de servidor de Skype empresarial Server 2019](system-requirements.md). El número máximo de usuarios de un grupo de servidores front-end es de 106.000, suponiendo que Hyper-Threading está habilitado y se usa SQL Server Express en todos los servidores de su grupo. Si tiene más de 106.000 usuarios en un sitio, puede implementar más de un grupo de servidores front-end.
 
 Si tiene en cuenta el número de usuarios de un grupo de servidores front-end, incluya a los usuarios alojados en los equipos de las sucursales y los servidores de sucursal que sean revivientes y que estén asociados a este grupo de servidores front-end.
 
@@ -122,7 +124,7 @@ Si Collocate Server Mediation with front end Server, Media Server se ejecuta en 
 
 Si implementa un grupo de servidores de mediación independiente, entonces la cantidad de servidores de mediación que se van a implementar depende de muchos factores, incluido el hardware usado para el servidor de mediación, el número de usuarios de VoIP que tiene, el número de puertas de enlace y el número de puertas de enlace de cada grupo de servidores de mediación controles, el tráfico de horas ocupado a través de estas puertas de enlace y el porcentaje de llamadas con medios que omiten el servidor de mediación.
 
-En las siguientes tablas se ofrecen instrucciones sobre cuántas llamadas simultáneas puede controlar un servidor de mediación, suponiendo que el hardware de los servidores de mediación cumpla los requisitos de las [plataformas de hardware de servidor](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) y que la tecnología Hyper-Threading esté habilitada. Para obtener más información sobre la escalabilidad del servidor de mediación, consulte estimar el [uso de voz y el tráfico de Skype empresarial Server](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md) y las [pautas de implementación para el servidor de mediación en Skype empresarial Server](../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md).
+En las siguientes tablas se ofrecen instrucciones sobre cuántas llamadas simultáneas puede controlar un servidor de mediación, suponiendo que el hardware de los servidores de mediación cumpla los requisitos de las [plataformas de hardware de servidor](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx) y que la tecnología Hyper-Threading esté habilitada. Para obtener más información sobre la escalabilidad del servidor de mediación, consulte [estimar el uso de voz y el tráfico de Skype empresarial Server](../../SfbServer/plan-your-deployment/capacity/estimating-voice-traffic.md) y las [pautas de implementación para el servidor de mediación en Skype empresarial Server](../../SfbServer/plan-your-deployment/capacity/mediation-server-deployment-guidelines.md).
 
 En todas las tablas siguientes se supone que el uso está resumido en [modelos de usuario en Skype empresarial Server](../../SfbServer/plan-your-deployment/capacity/user-models.md).
 
@@ -130,7 +132,7 @@ En todas las tablas siguientes se supone que el uso está resumido en [modelos d
 
 |**Hardware de servidor**|**Número máximo de llamadas.**|**Número máximo de líneas T1**|**Número máximo de líneas E1**|
 |:-----|:-----|:-----|:-----|
-|Intel Xeon E5-2673 V3 de doble procesador, 6 núcleo, 2,4 gigahercios (GHz) o superior **con hiper-subprocesamiento**desactivado, con 64 GB de memoria y una tarjeta de adaptador de red de dos puertos.  <br/> |1500  <br/> |64  <br/> |49  <br/> |
+|Intel Xeon E5-2673 V3 de doble procesador, 6 núcleo, 2,4 gigahercios (GHz) o superior **con hiper-subprocesamiento desactivado**, con 64 GB de memoria y una tarjeta de adaptador de red de dos puertos.  <br/> |1500  <br/> |64  <br/> |49  <br/> |
 |Intel Xeon E5-2673 V3 de doble procesador, 6 núcleo, 2,4 gigahercios (GHz) o superior, con 64 GB de memoria y una tarjeta de adaptador de red de doble puerto.  <br/> |2000  <br/> |88  <br/> |66  <br/> |
 
 > [!NOTE]
@@ -180,9 +182,9 @@ Durante las pruebas de rendimiento, Microsoft usó el hardware de la tabla sigui
 |**Unidad** <br/> |**Configuración RAID** <br/> |**Número de discos** <br/> |
 |:-----|:-----|:-----|
 |Archivos de datos de las bases de datos de CDR, QoE y archivado, en una sola unidad  <br/> |1+0  <br/> |apartado  <br/> |
-|Archivo de registro de la base de datos CDR  <br/> |1  <br/> |2  <br/> |
-|Archivo de registro de la base de datos QoE  <br/> |1  <br/> |2  <br/> |
-|Archivo de registro de la base de datos de archivado  <br/> |1  <br/> |2  <br/> |
+|Archivo de registro de la base de datos CDR  <br/> |1  <br/> |1  <br/> |
+|Archivo de registro de la base de datos QoE  <br/> |1  <br/> |1  <br/> |
+|Archivo de registro de la base de datos de archivado  <br/> |1  <br/> |1  <br/> |
 
 ## <a name="video-interop-server-capacity"></a>Capacidad del servidor de interoperabilidad de vídeo
 

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: configure el servidor de administración principal, instale System Center Operations Manager e importe los paquetes de administración para Skype empresarial Server 2019.'
-ms.openlocfilehash: b5835f0638231cff6176aa7377d6f7c60e81b6f7
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: a4fda367307b99bb952e6673b3b4d1c2967299c6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989075"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824004"
 ---
 # <a name="configure-the-primary-management-server"></a>Configurar el servidor de administración principal
 

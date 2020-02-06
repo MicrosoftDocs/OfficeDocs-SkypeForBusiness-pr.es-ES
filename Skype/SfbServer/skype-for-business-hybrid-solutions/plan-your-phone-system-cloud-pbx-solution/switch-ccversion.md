@@ -8,15 +8,17 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: El cmdlet switch-CcVersion desconecta el equipo que se ejecuta y cambia a un dispositivo de copia de seguridad o recién implementado.
-ms.openlocfilehash: 157d1b677cc6c63d7707c9e1633cd8b6e3ad5927
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 31dbb841caae51de0accedf081fa576ec378044b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003160"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824154"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  

@@ -8,15 +8,17 @@ ms.date: 7/18/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7844b55e-b7e9-4599-9962-f0322728405a
 description: El cmdlet Renew-CcServerCertificate renueva los certificados de Skype Empresarial Cloud Connector Edition cuando están a punto de expirar o ya han expirado. Este comando se cambió a Update-CcServerCertificate en el conector en la nube 2,0 y versiones posteriores.
-ms.openlocfilehash: 47f2bbefa6510ae49e2e4a3ddc321e288dee266e
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: e4f3f4bbf0904733cf39f71534115543ff15fa65
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003270"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824266"
 ---
 # <a name="renew-ccservercertificate"></a>Renew-CcServerCertificate
  
