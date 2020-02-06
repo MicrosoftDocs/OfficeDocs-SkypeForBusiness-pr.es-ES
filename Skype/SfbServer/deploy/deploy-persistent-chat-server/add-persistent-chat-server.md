@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Resumen: Lea este tema para obtener información sobre cómo agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server.'
-ms.openlocfilehash: 7d5a61dd001c759eab4b168cb3543032de7b4fc4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 733d75e954c75cecfab38e0a2f1294c6e20984c1
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239871"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794118"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server
  
@@ -40,11 +42,11 @@ Para implementar varios grupos de servidores de chat persistentes, repita el mis
 1. En un equipo que ejecuta Skype empresarial Server o en el que están instaladas las herramientas administrativas de Skype empresarial Server, inicie sesión con una cuenta que sea miembro del grupo usuarios locales (o una cuenta con derechos de usuario equivalentes).
     
     > [!NOTE]
-    > Puede definir una topología con una cuenta que sea miembro del grupo de usuarios locales, pero para publicar una topología necesaria para instalar Skype empresarial Server, debe usar una cuenta que sea miembro del grupo de **administradores de dominio** y el **grupo de administradores del dominio. Grupo RTCUniversalServerAdmins** y que tiene permisos de control total (lectura, escritura y modificación) en el almacén de archivos que va a usar para el almacén de archivos del servidor de chat persistente (para que el generador de topología pueda configurar las DACL requeridas) o una cuenta con derechos equivalentes.
+    > Puede definir una topología con una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para instalar Skype empresarial Server,, debe usar una cuenta que sea miembro del grupo de **administradores de dominio** y el grupo **RTCUniversalServerAdmins** , y que tenga permisos de control total (lectura, escritura y modificación) en el almacén de archivos que va a usar para el almacén de archivos del servidor de chat persistente (de modo que topología pueda configurar las DACL requeridas) o una cuenta con un equivalente Rights.
   
 2. Iniciar el generador de topología.
     
-3. En el árbol de consola, vaya al nodo **grupos** de chats persistentes y expándalo para seleccionar un grupo de servidores de Skype empresarial, o haga clic con el botón derecho en el nodo y seleccione **nuevo grupo**de chats persistentes. Debe definir el nombre de dominio completo (FQDN) de la agrupación e indicar si el grupo será un grupo de un solo servidor o una implementación de grupo de varios servidores.
+3. En el árbol de consola, vaya al nodo **grupos de chats persistentes** y expándalo para seleccionar un grupo de servidores de Skype empresarial, o haga clic con el botón derecho en el nodo y seleccione **nuevo grupo de chats persistentes**. Debe definir el nombre de dominio completo (FQDN) de la agrupación e indicar si el grupo será un grupo de un solo servidor o una implementación de grupo de varios servidores.
     
     Puede elegir un **Grupo de varios equipos** o **Grupo de un solo equipo**. Elija el primero si planea tener más de un servidor front-end en el grupo de servidores de chat persistente. Realice esta elección ahora, porque después de crear un grupo de un solo equipo no le podrá agregar servidores adicionales más adelante. Si elige un grupo de varios equipos, escriba los nombres de los servidores front-end individuales que componen el grupo.
     
@@ -78,7 +80,7 @@ Para implementar varios grupos de servidores de chat persistentes, repita el mis
 9. Defina el almacén de cumplimiento de SQL Server si ha habilitado la compatibilidad.
     
     > [!IMPORTANT]
-    > Para obtener más información sobre cómo configurar espejos de SQL Server para una alta disponibilidad de la base de datos del servidor de chat persistente y la base de datos de cumplimiento del servidor de chat persistente, consulte [configurar la alta disponibilidad y la recuperación ante desastres para servidores de chat persistentes en Skype. para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > Para obtener más información sobre cómo configurar las duplicaciones de SQL Server para una alta disponibilidad de la base de datos del servidor de chat persistente y la base de datos de cumplimiento del servidor de chat persistente, consulte [configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype empresarial server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
 10. Defina el almacén de archivos. Un almacén de archivos es una carpeta en la que se almacena una copia de cualquier archivo cargado al repositorio de archivos (por ejemplo, el almacenamiento de datos adjuntos de archivos publicados en un salón de chat). En el caso de una topología de servidor de chat persistente de varios servidores, debe ser una ruta de acceso UNC (Convención de nomenclatura universal); para una topología de servidor de chat persistente de un solo servidor, puede ser una ruta de acceso de archivo local.
     
@@ -107,7 +109,7 @@ Después de actualizar su topología en el generador de topología, debe publica
   
 Antes de publicar su topología, instale las bases de datos para el servidor de chat persistente. Use el generador de topología para instalar bases de datos seleccionando **acción** e **instalar base de datos**.
   
-1. En un equipo que ejecuta Skype empresarial Server o en el que están instaladas las herramientas administrativas de Skype empresarial Server, inicie sesión con una cuenta que sea miembro del grupo administradores de **dominio** y del grupo **RTCUniversalServerAdmins** . y que tiene permisos de control total (lectura, escritura y modificación) en el almacén de archivos para usarse en el almacén de archivos del servidor de chat persistente (de modo que el generador de topología puede configurar las listas de control de acceso discrecional (DACL) obligatorias) o una cuenta con un usuario equivalente Rights.
+1. En un equipo que ejecuta Skype empresarial Server o en el que están instaladas las herramientas administrativas de Skype empresarial Server, inicie sesión con una cuenta que sea miembro del grupo de **administradores del dominio** y del grupo **RTCUniversalServerAdmins** , y que tenga permisos de control total (lectura, escritura y modificación) en el almacén de archivos para que se pueda usar en el almacén de archivos del servidor de chat persistente (para que topología pueda configurar las listas de control de acceso discrecional (DACL) obligatorias) o una cuenta con un usuario equivalente Rights.
     
 2. Iniciar el generador de topología. Seleccione **Abrir la topología desde un archivo local**, si la ha guardado de forma local.
     

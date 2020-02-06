@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.UserViewCVP
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: b1b440cf5ffd7eaa7bc09496ea652af2600aec44
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8e0f71a104d2c9bdb30b5278271bb13942198020
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41704104"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797987"
 ---
 # <a name="users-view-or-configure-client-version-policy"></a>Usuarios: Ver o configurar directiva de versión de clientes
 

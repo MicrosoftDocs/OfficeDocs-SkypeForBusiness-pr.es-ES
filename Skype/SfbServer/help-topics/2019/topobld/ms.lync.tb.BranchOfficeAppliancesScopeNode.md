@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.BranchOfficeAppliancesScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo de las sucursales supervivientes enumera los equipos de las sucursales que son supervivientes en este sitio de sucursal. You can perform the following action:'
-ms.openlocfilehash: 11c3f41d8e24fec0436f071da25b3b9761af5439
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9c664ac38d23c0b5b6f5367f16c8e221148d1c16
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702365"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793888"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nodo de ámbito de aplicaciones de sucursal
  

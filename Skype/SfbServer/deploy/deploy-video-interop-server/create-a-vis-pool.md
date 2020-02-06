@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Resumen: cree un grupo de servidores de interoperabilidad de vídeo en Skype empresarial Server con el generador de topologías.'
-ms.openlocfilehash: dc97fde4447778be20cb60d86cddac65b663c321
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 474752253312b58b87a3d01f445bd93eabdaf203
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235666"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798057"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Crear un grupo de VIS en Skype empresarial Server
  
@@ -24,7 +26,7 @@ ms.locfileid: "36235666"
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>Crear un VIS o un grupo de VIS con el Generador de topologías
 
-1. Abra el Generador de topologías en el servidor front-end. En el panel izquierdo del creador de topología, haga clic con el botón secundario en **grupos de servidores** de interoperabilidad y seleccione **nuevo grupo de servidores**de interoperabilidad de vídeo. 
+1. Abra el Generador de topologías en el servidor front-end. En el panel izquierdo del creador de topología, haga clic con el botón secundario en **grupos de servidores de interoperabilidad** y seleccione **nuevo grupo de servidores de interoperabilidad**de vídeo. 
     
 2. De este modo, se abrirá un asistente para **Crear un grupo de servidores de interoperabilidad de vídeo**. Proporcione el FQDN del grupo para el nuevo servidor de interoperabilidad de vídeo y seleccione **este grupo tiene un servidor** o **este grupo tiene varios servidores** en función de su requisito y, a continuación, haga clic en **siguiente**.
     

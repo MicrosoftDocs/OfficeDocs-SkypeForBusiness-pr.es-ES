@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.ArchivingServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el Generador de topologías puede ejecutar tareas relacionadas con un determinado servidor de archivado. Para ello, haga clic con el botón secundario en Servidor de archivado en el árbol de consola, haga clic en Acción en la barra de herramientas o haga clic en una tarea del panel Acciones y, luego, haga clic en la siguiente opción de servidor de archivado.
-ms.openlocfilehash: 46bd2ec34ccd6a1e4004acb14c9718120529eb66
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 899b2d52dd37f9768d0e46613bff7fd87d2c8148
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688873"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794058"
 ---
 # <a name="archiving-servers-scope-node"></a>Nodo de ámbito de servidores de archivado
  

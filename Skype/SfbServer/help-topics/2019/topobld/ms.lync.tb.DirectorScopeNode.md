@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), los puertos y el almacén de archivos asociado de este grupo de directores. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 512154d7b38edf2b79f09af1d58495d0009ee88b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4f86767d92552f2651a44c9e439b6d7efdceadfe
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688613"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793848"
 ---
 # <a name="director-scope-node"></a>Nodo de ámbito de director
  

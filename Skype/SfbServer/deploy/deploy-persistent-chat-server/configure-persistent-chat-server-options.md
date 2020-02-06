@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 'Resumen: Aprenda a configurar opciones del servidor de chat persistentes a nivel global, de sitio o de grupo en Skype empresarial Server 2015.'
-ms.openlocfilehash: 524e225da84796674a41a2693bc369fa96c8ffb4
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c842d0c0790f7aad18dda6f3f9cabe5382eb4f33
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239821"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793568"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Configurar las opciones del servidor de chat persistentes en Skype Empresarial Server 2015
  

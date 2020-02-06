@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AssociateVisWithEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los pasos necesarios para definir una nueva puerta de enlace de VIS o video en el generador de topología se describen en línea en crear un grupo VIS en Skype empresarial Server.
-ms.openlocfilehash: c716c8e24db4b1def96010758748b95154f54783
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8a7f24aa5d23182fdb35b977b2dde5eda8838a12
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688823"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793958"
 ---
 # <a name="associate-vis-with-edge"></a>Asociar VIS con servidor perimetral
  

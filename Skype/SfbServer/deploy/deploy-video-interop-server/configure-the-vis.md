@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Resumen: configure el rol servidor de interoperabilidad de video (VIS) en Skype empresarial Server.'
-ms.openlocfilehash: fb9dc36bcf2f1a6f1346705f74dd3cf2844a973c
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 2618a7829fde79bd63eb2c3c91dbe921530e3b04
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003060"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41798067"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar el servidor de interoperabilidad de vídeo en Skype empresarial Server
  

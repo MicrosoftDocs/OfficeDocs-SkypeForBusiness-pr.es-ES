@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AvMcuGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de un grupo de servidores de conferencia A/V que ya haya definido, puede hacer lo siguiente:'
-ms.openlocfilehash: 4ad336ca8ddc6e5a2a63a90a9299289bf643aa87
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 557f762b78d589e975d88c808a6911e46c5b9187
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702405"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793948"
 ---
 # <a name="av-mcu-general-settings-expander"></a>Expansor de configuración general de MCU AV
  

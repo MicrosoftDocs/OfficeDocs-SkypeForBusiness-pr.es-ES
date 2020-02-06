@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dispone de las siguientes secciones para editar la configuración de un grupo de servidores front-end o un servidor Standard Edition:'
-ms.openlocfilehash: 76992a6d88c25a1907e4bb2cc1f6dee69a418f01
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cbe0f6cde8aadc82256d8423d45a6d6d41f96956
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688524"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793658"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de configuración general front-end
 

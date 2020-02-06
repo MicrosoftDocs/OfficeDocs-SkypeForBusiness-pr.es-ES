@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AvMcuScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores y los grupos de servidores asociados de este grupo de servidores de conferencias A/V. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 6a0458f9537eafdce7e3aff25ad5e21dd15b7185
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8bd760582919ce9ff9c056b30a47c73148e5d030
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688793"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793928"
 ---
 # <a name="av-mcu-scope-node"></a>Nodo de ámbito MCU AV
  

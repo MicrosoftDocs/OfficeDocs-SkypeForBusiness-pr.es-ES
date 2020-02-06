@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.FrontEndServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Grupos de servidores front-end Enterprise Edition contiene los grupos de servidores front-end de este sitio y los nodos Servidores front-end Standard Edition, los servidores Standard Edition de este sitio. You can perform the following action:'
-ms.openlocfilehash: 4a1032e7aa89ce4ee372a99f0a6f667de94b2fa7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 378563067522e86c73efc584d0038231bbc3562b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688534"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793638"
 ---
 # <a name="front-end-servers-scope-node"></a>Nodo de ámbito de servidores front-end
  

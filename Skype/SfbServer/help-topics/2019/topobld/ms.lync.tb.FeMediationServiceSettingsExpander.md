@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede especificar lo siguiente en relación con un servidor de mediación:'
-ms.openlocfilehash: badc56265dfab1e8c1a46f7a3d9f122ec845d162
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fe3fe13cc5e6ca27ac8eb561b7d328db8744025b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702185"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41793708"
 ---
 # <a name="mediation-service-settings-expander"></a>Expansor de configuración del servidor de mediación
 
