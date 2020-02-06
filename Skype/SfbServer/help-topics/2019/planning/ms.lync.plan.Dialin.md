@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.Dialin
 - ms.lync.plan.Dialin
 ms.prod: skype-for-business-itpro
@@ -14,19 +16,19 @@ localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: La Conferencia de acceso telefónico local de Skype empresarial Server permite a los usuarios unirse a la parte de audio de una conferencia de Skype empresarial Server mediante un teléfono con red telefónica conmutada (RTC) sin requerir un proveedor de servicios de audioconferencia de terceros.
-ms.openlocfilehash: b8705103a6e84491228b0787a2aa41ee09d01111
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fb992a77d2cdd4b80fd7d1e946b6b0580bedc79f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41703725"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797351"
 ---
-# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="631e0-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="631e0-103">Dial-in Conferencing (Planning Tool)</span></span>
+# <a name="dial-in-conferencing-planning-tool"></a><span data-ttu-id="83e5d-103">Dial-in Conferencing (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="83e5d-103">Dial-in Conferencing (Planning Tool)</span></span>
  
-<span data-ttu-id="631e0-104">La Conferencia de acceso telefónico local de Skype empresarial Server permite a los usuarios unirse a la parte de audio de una conferencia de Skype empresarial Server mediante un teléfono con red telefónica conmutada (RTC) sin requerir un proveedor de servicios de audioconferencia de terceros.</span><span class="sxs-lookup"><span data-stu-id="631e0-104">Skype for Business Server dial-in conferencing enables users to join the audio portion of a Skype for Business Server conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
+<span data-ttu-id="83e5d-104">La Conferencia de acceso telefónico local de Skype empresarial Server permite a los usuarios unirse a la parte de audio de una conferencia de Skype empresarial Server mediante un teléfono con red telefónica conmutada (RTC) sin requerir un proveedor de servicios de audioconferencia de terceros.</span><span class="sxs-lookup"><span data-stu-id="83e5d-104">Skype for Business Server dial-in conferencing enables users to join the audio portion of a Skype for Business Server conference by using a public switched telephone network (PSTN) phone without requiring a third-party audio conferencing provider.</span></span>
   
-<span data-ttu-id="631e0-105">Para obtener información sobre la planeación de la habilitación de la conferencia de acceso telefónico en la organización, consulte el siguiente tema y los temas a los que se vincula:</span><span class="sxs-lookup"><span data-stu-id="631e0-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
+<span data-ttu-id="83e5d-105">Para obtener información sobre la planeación de la habilitación de la conferencia de acceso telefónico en la organización, consulte el siguiente tema y los temas a los que se vincula:</span><span class="sxs-lookup"><span data-stu-id="83e5d-105">For planning details about enabling dial-in conferencing for your organization, see the following topic and the topics it links to:</span></span> 
   
-- [<span data-ttu-id="631e0-106">Planear la Conferencia en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="631e0-106">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
+- [<span data-ttu-id="83e5d-106">Planear la Conferencia en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="83e5d-106">Plan for conferencing in Skype for Business Server</span></span>](../../../plan-your-deployment/conferencing/conferencing.md)
     
 
