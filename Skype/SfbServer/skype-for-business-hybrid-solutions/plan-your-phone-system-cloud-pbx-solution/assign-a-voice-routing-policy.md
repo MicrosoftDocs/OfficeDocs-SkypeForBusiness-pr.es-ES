@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Ent_O365_Hybrid
@@ -17,96 +19,96 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Resumen: Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan el sistema telefónico en Office 365 con conectividad RTC local.'
-ms.openlocfilehash: fc1bf50eabc1b596ba54e3447c0357cfd304ad2c
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 0e9a39fba8d1db7b70f0422e71223d49917716ac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003040"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804000"
 ---
-# <a name="assign-a-voice-routing-policy"></a><span data-ttu-id="b3adf-103">Asignar una directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="b3adf-103">Assign a Voice Routing Policy</span></span>
+# <a name="assign-a-voice-routing-policy"></a><span data-ttu-id="fb7d8-103">Asignar una directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="fb7d8-103">Assign a Voice Routing Policy</span></span>
  
-<span data-ttu-id="b3adf-104">**Resumen:** Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan el sistema telefónico en Office 365 con conectividad RTC local.</span><span class="sxs-lookup"><span data-stu-id="b3adf-104">**Summary:** Read this topic to learn how to assign a voice policy for users using Phone System in Office 365 with on-premises PSTN connectivity.</span></span> 
+<span data-ttu-id="fb7d8-104">**Resumen:** Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan el sistema telefónico en Office 365 con conectividad RTC local.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-104">**Summary:** Read this topic to learn how to assign a voice policy for users using Phone System in Office 365 with on-premises PSTN connectivity.</span></span> 
   
-<span data-ttu-id="b3adf-105">Una vez que un usuario está en Skype empresarial online y usa un sistema telefónico en Office 365 con conectividad RTC local, se le aplicarán dos directivas de voz.</span><span class="sxs-lookup"><span data-stu-id="b3adf-105">Once a user is on Skype for Business Online and using Phone System in Office 365 with on-premises PSTN connectivity, two voice policies will apply to them.</span></span> <span data-ttu-id="b3adf-106">Uno es una directiva de enrutamiento de voz local que asignará en local.</span><span class="sxs-lookup"><span data-stu-id="b3adf-106">One is an on-premises voice routing policy that you will assign on premises.</span></span> <span data-ttu-id="b3adf-107">Esta Directiva puede ser global o específica de usuario y define qué registros de uso de RTC están asociados con el usuario.</span><span class="sxs-lookup"><span data-stu-id="b3adf-107">This policy can be global or user-specific and defines what PSTN usage records are associated with the user.</span></span> <span data-ttu-id="b3adf-108">En este tema se explica cómo asignar esta directiva.</span><span class="sxs-lookup"><span data-stu-id="b3adf-108">This topic explains how to assign this policy.</span></span>
+<span data-ttu-id="fb7d8-105">Una vez que un usuario está en Skype empresarial online y usa un sistema telefónico en Office 365 con conectividad RTC local, se le aplicarán dos directivas de voz.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-105">Once a user is on Skype for Business Online and using Phone System in Office 365 with on-premises PSTN connectivity, two voice policies will apply to them.</span></span> <span data-ttu-id="fb7d8-106">Uno es una directiva de enrutamiento de voz local que asignará en local.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-106">One is an on-premises voice routing policy that you will assign on premises.</span></span> <span data-ttu-id="fb7d8-107">Esta Directiva puede ser global o específica de usuario y define qué registros de uso de RTC están asociados con el usuario.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-107">This policy can be global or user-specific and defines what PSTN usage records are associated with the user.</span></span> <span data-ttu-id="fb7d8-108">En este tema se explica cómo asignar esta directiva.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-108">This topic explains how to assign this policy.</span></span>
   
-<span data-ttu-id="b3adf-109">La otra política de voz define qué características de llamadas están disponibles para el usuario. esta directiva de voz está definida por Microsoft y es idéntica para todos los sistemas telefónicos en Office 365 con usuarios de conectividad RTC locales.</span><span class="sxs-lookup"><span data-stu-id="b3adf-109">The other voice policy defines what calling features are available to the user; this voice policy is defined by Microsoft and is identical for all Phone System in Office 365 with on-premises PSTN connectivity users.</span></span> <span data-ttu-id="b3adf-110">Se asigna automáticamente al sistema telefónico en los usuarios de Office 365.</span><span class="sxs-lookup"><span data-stu-id="b3adf-110">It is automatically assigned to Phone System in Office 365 users.</span></span>
+<span data-ttu-id="fb7d8-109">La otra política de voz define qué características de llamadas están disponibles para el usuario. esta directiva de voz está definida por Microsoft y es idéntica para todos los sistemas telefónicos en Office 365 con usuarios de conectividad RTC locales.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-109">The other voice policy defines what calling features are available to the user; this voice policy is defined by Microsoft and is identical for all Phone System in Office 365 with on-premises PSTN connectivity users.</span></span> <span data-ttu-id="fb7d8-110">Se asigna automáticamente al sistema telefónico en los usuarios de Office 365.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-110">It is automatically assigned to Phone System in Office 365 users.</span></span>
   
-||<span data-ttu-id="b3adf-111">**Usuario local**</span><span class="sxs-lookup"><span data-stu-id="b3adf-111">**On-premises user**</span></span>|<span data-ttu-id="b3adf-112">**Sistema telefónico en Office 365 con usuario de conectividad RTC local**</span><span class="sxs-lookup"><span data-stu-id="b3adf-112">**Phone System in Office 365 with on-premises PSTN connectivity user**</span></span>|
+||<span data-ttu-id="fb7d8-111">**Usuario local**</span><span class="sxs-lookup"><span data-stu-id="fb7d8-111">**On-premises user**</span></span>|<span data-ttu-id="fb7d8-112">**Sistema telefónico en Office 365 con usuario de conectividad RTC local**</span><span class="sxs-lookup"><span data-stu-id="fb7d8-112">**Phone System in Office 365 with on-premises PSTN connectivity user**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="b3adf-113">Características de llamadas definidas en</span><span class="sxs-lookup"><span data-stu-id="b3adf-113">Calling features defined in</span></span>  <br/> |<span data-ttu-id="b3adf-114">Directiva de voz</span><span class="sxs-lookup"><span data-stu-id="b3adf-114">Voice policy</span></span>  <br/> |<span data-ttu-id="b3adf-115">Directiva de voz predefinida, asignada automáticamente cuando el usuario tiene licencia para el sistema telefónico en Office 365.</span><span class="sxs-lookup"><span data-stu-id="b3adf-115">Pre-defined voice policy, assigned automatically when the user is licensed for Phone System in Office 365.</span></span>  <br/> |
-|<span data-ttu-id="b3adf-116">Registros de uso de RTC asociados con</span><span class="sxs-lookup"><span data-stu-id="b3adf-116">PSTN usage records associated with</span></span>  <br/> |<span data-ttu-id="b3adf-117">Directiva de voz</span><span class="sxs-lookup"><span data-stu-id="b3adf-117">Voice policy</span></span>  <br/> |<span data-ttu-id="b3adf-118">Directiva de enrutamiento de voz, asignada cuando el usuario aún está hospedado de forma local.</span><span class="sxs-lookup"><span data-stu-id="b3adf-118">Voice routing policy, assigned while the user is still homed on-premises.</span></span>  <br/> |
+|<span data-ttu-id="fb7d8-113">Características de llamadas definidas en</span><span class="sxs-lookup"><span data-stu-id="fb7d8-113">Calling features defined in</span></span>  <br/> |<span data-ttu-id="fb7d8-114">Directiva de voz</span><span class="sxs-lookup"><span data-stu-id="fb7d8-114">Voice policy</span></span>  <br/> |<span data-ttu-id="fb7d8-115">Directiva de voz predefinida, asignada automáticamente cuando el usuario tiene licencia para el sistema telefónico en Office 365.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-115">Pre-defined voice policy, assigned automatically when the user is licensed for Phone System in Office 365.</span></span>  <br/> |
+|<span data-ttu-id="fb7d8-116">Registros de uso de RTC asociados con</span><span class="sxs-lookup"><span data-stu-id="fb7d8-116">PSTN usage records associated with</span></span>  <br/> |<span data-ttu-id="fb7d8-117">Directiva de voz</span><span class="sxs-lookup"><span data-stu-id="fb7d8-117">Voice policy</span></span>  <br/> |<span data-ttu-id="fb7d8-118">Directiva de enrutamiento de voz, asignada cuando el usuario aún está hospedado de forma local.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-118">Voice routing policy, assigned while the user is still homed on-premises.</span></span>  <br/> |
    
-<span data-ttu-id="b3adf-119">Lleve a cabo los siguientes pasos con la implementación local, mientras el usuario sigue alojado en la implementación local.</span><span class="sxs-lookup"><span data-stu-id="b3adf-119">You perform the following steps using your on-premises deployment, while the user is still homed in the on-premises deployment.</span></span>
+<span data-ttu-id="fb7d8-119">Lleve a cabo los siguientes pasos con la implementación local, mientras el usuario sigue alojado en la implementación local.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-119">You perform the following steps using your on-premises deployment, while the user is still homed in the on-premises deployment.</span></span>
   
-## <a name="using-a-global-voice-routing-policy"></a><span data-ttu-id="b3adf-120">Usar una directiva de enrutamiento de voz global</span><span class="sxs-lookup"><span data-stu-id="b3adf-120">Using a global voice routing policy</span></span>
+## <a name="using-a-global-voice-routing-policy"></a><span data-ttu-id="fb7d8-120">Usar una directiva de enrutamiento de voz global</span><span class="sxs-lookup"><span data-stu-id="fb7d8-120">Using a global voice routing policy</span></span>
 
-<span data-ttu-id="b3adf-121">Antes de usar una directiva de enrutamiento de voz global para su sistema telefónico en Office 365 con usuarios de conectividad RTC local, debe agregar los registros de uso de RTC a la Directiva.</span><span class="sxs-lookup"><span data-stu-id="b3adf-121">Before using a global voice routing policy for your Phone System in Office 365 with on-premises PSTN connectivity users, you must add PSTN usage records to the policy.</span></span>
+<span data-ttu-id="fb7d8-121">Antes de usar una directiva de enrutamiento de voz global para su sistema telefónico en Office 365 con usuarios de conectividad RTC local, debe agregar los registros de uso de RTC a la Directiva.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-121">Before using a global voice routing policy for your Phone System in Office 365 with on-premises PSTN connectivity users, you must add PSTN usage records to the policy.</span></span>
   
-### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a><span data-ttu-id="b3adf-122">Para asignar registros de uso de RTC a la directiva de enrutamiento de voz global</span><span class="sxs-lookup"><span data-stu-id="b3adf-122">To assign PSTN usage records to the global voice routing policy</span></span>
+### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a><span data-ttu-id="fb7d8-122">Para asignar registros de uso de RTC a la directiva de enrutamiento de voz global</span><span class="sxs-lookup"><span data-stu-id="fb7d8-122">To assign PSTN usage records to the global voice routing policy</span></span>
 
-1. <span data-ttu-id="b3adf-123">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="b3adf-123">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="fb7d8-123">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-123">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="b3adf-124">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="b3adf-124">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="fb7d8-124">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-124">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="b3adf-125">Agregue los registros de uso de RTC a la Directiva:</span><span class="sxs-lookup"><span data-stu-id="b3adf-125">Add the PSTN usage records to the policy:</span></span>
+3. <span data-ttu-id="fb7d8-125">Agregue los registros de uso de RTC a la Directiva:</span><span class="sxs-lookup"><span data-stu-id="fb7d8-125">Add the PSTN usage records to the policy:</span></span>
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    <span data-ttu-id="b3adf-126">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="b3adf-126">For example:</span></span>
+    <span data-ttu-id="fb7d8-126">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fb7d8-126">For example:</span></span>
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
    ```
 
-## <a name="creating-a-new-voice-routing-policy"></a><span data-ttu-id="b3adf-127">Crear una directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="b3adf-127">Creating a new voice routing policy</span></span>
+## <a name="creating-a-new-voice-routing-policy"></a><span data-ttu-id="fb7d8-127">Crear una directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="fb7d8-127">Creating a new voice routing policy</span></span>
 
-### <a name="to-create-a-new-voice-routing-policy"></a><span data-ttu-id="b3adf-128">Para crear una directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="b3adf-128">To create a new voice routing policy</span></span>
+### <a name="to-create-a-new-voice-routing-policy"></a><span data-ttu-id="fb7d8-128">Para crear una directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="fb7d8-128">To create a new voice routing policy</span></span>
 
-1. <span data-ttu-id="b3adf-129">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="b3adf-129">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="fb7d8-129">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-129">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="b3adf-130">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="b3adf-130">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="fb7d8-130">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-130">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="b3adf-131">Crea una directiva de enrutamiento de voz:</span><span class="sxs-lookup"><span data-stu-id="b3adf-131">Create a new voice routing policy:</span></span>
+3. <span data-ttu-id="fb7d8-131">Crea una directiva de enrutamiento de voz:</span><span class="sxs-lookup"><span data-stu-id="fb7d8-131">Create a new voice routing policy:</span></span>
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    <span data-ttu-id="b3adf-132">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="b3adf-132">For example:</span></span>
+    <span data-ttu-id="fb7d8-132">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fb7d8-132">For example:</span></span>
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
    ```
 
-<span data-ttu-id="b3adf-133">En este ejemplo se crea una directiva de enrutamiento de voz llamada HybridVoice, que tiene asociados dos usos de RTC.</span><span class="sxs-lookup"><span data-stu-id="b3adf-133">This example creates a new voice routing policy called HybridVoice, which has two PSTN usages associated with it.</span></span>
+<span data-ttu-id="fb7d8-133">En este ejemplo se crea una directiva de enrutamiento de voz llamada HybridVoice, que tiene asociados dos usos de RTC.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-133">This example creates a new voice routing policy called HybridVoice, which has two PSTN usages associated with it.</span></span>
   
-## <a name="assigning-a-voice-routing-policy"></a><span data-ttu-id="b3adf-134">Asignar una directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="b3adf-134">Assigning a voice routing policy</span></span>
+## <a name="assigning-a-voice-routing-policy"></a><span data-ttu-id="fb7d8-134">Asignar una directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="fb7d8-134">Assigning a voice routing policy</span></span>
 
-<span data-ttu-id="b3adf-135">Siga estos pasos para asignar la directiva a un usuario, independientemente de si usa la directiva de enrutamiento de voz global o directivas específicas de usuario.</span><span class="sxs-lookup"><span data-stu-id="b3adf-135">No matter whether you use the global voice routing policy, or user-specific ones, use the following steps to assign the policy to a user.</span></span>
+<span data-ttu-id="fb7d8-135">Siga estos pasos para asignar la directiva a un usuario, independientemente de si usa la directiva de enrutamiento de voz global o directivas específicas de usuario.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-135">No matter whether you use the global voice routing policy, or user-specific ones, use the following steps to assign the policy to a user.</span></span>
   
-### <a name="to-assign-the-voice-routing-policy"></a><span data-ttu-id="b3adf-136">Para asignar la directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="b3adf-136">To assign the voice routing policy</span></span>
+### <a name="to-assign-the-voice-routing-policy"></a><span data-ttu-id="fb7d8-136">Para asignar la directiva de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="fb7d8-136">To assign the voice routing policy</span></span>
 
-1. <span data-ttu-id="b3adf-137">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="b3adf-137">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+1. <span data-ttu-id="fb7d8-137">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-137">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
     
-2. <span data-ttu-id="b3adf-138">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="b3adf-138">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="fb7d8-138">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-138">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="b3adf-139">Asignar una directiva de voz existente a un usuario:</span><span class="sxs-lookup"><span data-stu-id="b3adf-139">Assign an existing voice policy to a user:</span></span>
+3. <span data-ttu-id="fb7d8-139">Asignar una directiva de voz existente a un usuario:</span><span class="sxs-lookup"><span data-stu-id="fb7d8-139">Assign an existing voice policy to a user:</span></span>
     
    ```powershell
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    <span data-ttu-id="b3adf-140">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="b3adf-140">For example:</span></span>
+    <span data-ttu-id="fb7d8-140">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="fb7d8-140">For example:</span></span>
     
    ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
    ```
 
-<span data-ttu-id="b3adf-141">En este ejemplo, se asigna el usuario con el nombre para mostrar Guillermo Rodarte a la directiva de voz creada anteriormente con el nombre HybridVoice.</span><span class="sxs-lookup"><span data-stu-id="b3adf-141">In this example, the user with the display name Bob Kelly is assigned to the previously created voice policy with the name HybridVoice.</span></span>
+<span data-ttu-id="fb7d8-141">En este ejemplo, se asigna el usuario con el nombre para mostrar Guillermo Rodarte a la directiva de voz creada anteriormente con el nombre HybridVoice.</span><span class="sxs-lookup"><span data-stu-id="fb7d8-141">In this example, the user with the display name Bob Kelly is assigned to the previously created voice policy with the name HybridVoice.</span></span>
   
-<span data-ttu-id="b3adf-142">Para obtener más información sobre las directivas de enrutamiento de voz, consulte [crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)y [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="b3adf-142">For more details about voice routing policies, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps), and [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).</span></span>
+<span data-ttu-id="fb7d8-142">Para obtener más información sobre las directivas de enrutamiento de voz, consulte [crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)y [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="fb7d8-142">For more details about voice routing policies, see [Create or modify a voice policy and configure PSTN usage records in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps), and [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).</span></span>
   
 

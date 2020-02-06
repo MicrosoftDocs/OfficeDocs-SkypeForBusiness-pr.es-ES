@@ -8,77 +8,79 @@ ms.date: 3/31/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: El cmdlet Convert-CcIsoToVhdx crea un archivo de disco duro virtual base (VHDX) mediante un archivo ISO de Windows Server 2012 R2 proporcionado por el cliente. El archivo VHDX se usará durante la implementación de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: 780002c54a77746c51f418cae077ffcc9b1fb608
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: f6b16c27b82919f24b9ee0e3094fb03fffa6443b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41001350"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802430"
 ---
-# <a name="convert-ccisotovhdx"></a><span data-ttu-id="56ff9-104">Convert-CcIsoToVhdx</span><span class="sxs-lookup"><span data-stu-id="56ff9-104">Convert-CcIsoToVhdx</span></span>
+# <a name="convert-ccisotovhdx"></a><span data-ttu-id="a248c-104">Convert-CcIsoToVhdx</span><span class="sxs-lookup"><span data-stu-id="a248c-104">Convert-CcIsoToVhdx</span></span>
  
-<span data-ttu-id="56ff9-p102">El cmdlet Convert-CcIsoToVhdx crea un archivo de disco duro virtual base (VHDX) mediante un archivo ISO de Windows Server 2012 R2 proporcionado por el cliente. El archivo VHDX se usará durante la implementación de Skype Empresarial Cloud Connector Edition.</span><span class="sxs-lookup"><span data-stu-id="56ff9-p102">The Convert-CcIsoToVhdx cmdlet creates a base virtual hard disk file (VHDX) using a customer supplied Windows Server 2012 R2 ISO file. The VHDX file will be used during the deployment of Skype for Business Cloud Connector Edition.</span></span>
+<span data-ttu-id="a248c-p102">El cmdlet Convert-CcIsoToVhdx crea un archivo de disco duro virtual base (VHDX) mediante un archivo ISO de Windows Server 2012 R2 proporcionado por el cliente. El archivo VHDX se usará durante la implementación de Skype Empresarial Cloud Connector Edition.</span><span class="sxs-lookup"><span data-stu-id="a248c-p102">The Convert-CcIsoToVhdx cmdlet creates a base virtual hard disk file (VHDX) using a customer supplied Windows Server 2012 R2 ISO file. The VHDX file will be used during the deployment of Skype for Business Cloud Connector Edition.</span></span>
   
 ```powershell
 Convert-CcIsoToVhdx [[-IsoFilePath] <string>] [-GeneralizeOnly] [-PauseBeforeUpdate]
 ```
 
-## <a name="parameters"></a><span data-ttu-id="56ff9-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="56ff9-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a248c-107">Parámetros</span><span class="sxs-lookup"><span data-stu-id="a248c-107">Parameters</span></span>
 
-|<span data-ttu-id="56ff9-108">**Parámetro**</span><span class="sxs-lookup"><span data-stu-id="56ff9-108">**Parameter**</span></span>|<span data-ttu-id="56ff9-109">**Requerida.**</span><span class="sxs-lookup"><span data-stu-id="56ff9-109">**Required**</span></span>|<span data-ttu-id="56ff9-110">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="56ff9-110">**Type**</span></span>|<span data-ttu-id="56ff9-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="56ff9-111">**Description**</span></span>|
+|<span data-ttu-id="a248c-108">**Parámetro**</span><span class="sxs-lookup"><span data-stu-id="a248c-108">**Parameter**</span></span>|<span data-ttu-id="a248c-109">**Requerida.**</span><span class="sxs-lookup"><span data-stu-id="a248c-109">**Required**</span></span>|<span data-ttu-id="a248c-110">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="a248c-110">**Type**</span></span>|<span data-ttu-id="a248c-111">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="a248c-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="56ff9-112">IsoFilePath</span><span class="sxs-lookup"><span data-stu-id="56ff9-112">IsoFilePath</span></span>  <br/> | <span data-ttu-id="56ff9-113">Requerido</span><span class="sxs-lookup"><span data-stu-id="56ff9-113">Required</span></span> <br/> |<span data-ttu-id="56ff9-114">System.String</span><span class="sxs-lookup"><span data-stu-id="56ff9-114">System.String</span></span>  <br/> | <span data-ttu-id="56ff9-115">La ruta de acceso al archivo ISO de Windows Server 2012 R2. </span><span class="sxs-lookup"><span data-stu-id="56ff9-115">The path to the Windows Server 2012 R2 ISO file.</span></span> <br/> |
-|<span data-ttu-id="56ff9-116">GeneralizeOnly</span><span class="sxs-lookup"><span data-stu-id="56ff9-116">GeneralizeOnly</span></span>  <br/> |<span data-ttu-id="56ff9-117">Opcional</span><span class="sxs-lookup"><span data-stu-id="56ff9-117">Optional</span></span>  <br/> |<span data-ttu-id="56ff9-118">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="56ff9-118">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="56ff9-p103">Si se produce un error en el proceso de conversión durante la actualización de Windows, puede intentar configurar una red y un proxy, y actualizar Windows manualmente. Después de completar las tareas manuales, podrá ejecutar este cmdlet con el parámetro -GeneralizeOnly para que finalicen los trabajos restantes. </span><span class="sxs-lookup"><span data-stu-id="56ff9-p103">If the conversion process fails during Windows update, you can try to configure a network/proxy and update Windows manually. After the manual work is done, you can run this cmdlet with the -GeneralizeOnly parameter and it will complete the remaining jobs.</span></span>  <br/> |
-|<span data-ttu-id="56ff9-121">PauseBeforeUpdate</span><span class="sxs-lookup"><span data-stu-id="56ff9-121">PauseBeforeUpdate</span></span>  <br/> |<span data-ttu-id="56ff9-122">Opcional</span><span class="sxs-lookup"><span data-stu-id="56ff9-122">Optional</span></span>  <br/> |<span data-ttu-id="56ff9-123">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="56ff9-123">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="56ff9-p104">Para actualizar Windows, podría ser necesario realizar una configuración manual de la red o del proxy en la máquina virtual base. El proceso de conversión se pondrá en pausa antes de la actualización de Windows si se proporciona este parámetro. Al finalizar la configuración manual, podrá reanudar el proceso. </span><span class="sxs-lookup"><span data-stu-id="56ff9-p104">To update Windows, some manual network/proxy configuration on the base VM might be necessary. The conversion process will pause before Windows update if this parameter is provided. After the manual configuration is done, you can resume the process.</span></span>  <br/> |
+|<span data-ttu-id="a248c-112">IsoFilePath</span><span class="sxs-lookup"><span data-stu-id="a248c-112">IsoFilePath</span></span>  <br/> | <span data-ttu-id="a248c-113">Requerido</span><span class="sxs-lookup"><span data-stu-id="a248c-113">Required</span></span> <br/> |<span data-ttu-id="a248c-114">System.String</span><span class="sxs-lookup"><span data-stu-id="a248c-114">System.String</span></span>  <br/> | <span data-ttu-id="a248c-115">La ruta de acceso al archivo ISO de Windows Server 2012 R2. </span><span class="sxs-lookup"><span data-stu-id="a248c-115">The path to the Windows Server 2012 R2 ISO file.</span></span> <br/> |
+|<span data-ttu-id="a248c-116">GeneralizeOnly</span><span class="sxs-lookup"><span data-stu-id="a248c-116">GeneralizeOnly</span></span>  <br/> |<span data-ttu-id="a248c-117">Opcional</span><span class="sxs-lookup"><span data-stu-id="a248c-117">Optional</span></span>  <br/> |<span data-ttu-id="a248c-118">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="a248c-118">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="a248c-p103">Si se produce un error en el proceso de conversión durante la actualización de Windows, puede intentar configurar una red y un proxy, y actualizar Windows manualmente. Después de completar las tareas manuales, podrá ejecutar este cmdlet con el parámetro -GeneralizeOnly para que finalicen los trabajos restantes. </span><span class="sxs-lookup"><span data-stu-id="a248c-p103">If the conversion process fails during Windows update, you can try to configure a network/proxy and update Windows manually. After the manual work is done, you can run this cmdlet with the -GeneralizeOnly parameter and it will complete the remaining jobs.</span></span>  <br/> |
+|<span data-ttu-id="a248c-121">PauseBeforeUpdate</span><span class="sxs-lookup"><span data-stu-id="a248c-121">PauseBeforeUpdate</span></span>  <br/> |<span data-ttu-id="a248c-122">Opcional</span><span class="sxs-lookup"><span data-stu-id="a248c-122">Optional</span></span>  <br/> |<span data-ttu-id="a248c-123">System.Management.Automation.SwitchParameter</span><span class="sxs-lookup"><span data-stu-id="a248c-123">System.Management.Automation.SwitchParameter</span></span>  <br/> |<span data-ttu-id="a248c-p104">Para actualizar Windows, podría ser necesario realizar una configuración manual de la red o del proxy en la máquina virtual base. El proceso de conversión se pondrá en pausa antes de la actualización de Windows si se proporciona este parámetro. Al finalizar la configuración manual, podrá reanudar el proceso. </span><span class="sxs-lookup"><span data-stu-id="a248c-p104">To update Windows, some manual network/proxy configuration on the base VM might be necessary. The conversion process will pause before Windows update if this parameter is provided. After the manual configuration is done, you can resume the process.</span></span>  <br/> |
    
-## <a name="examples"></a><span data-ttu-id="56ff9-127">Ejemplos</span><span class="sxs-lookup"><span data-stu-id="56ff9-127">Examples</span></span>
-<span data-ttu-id="56ff9-128"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="56ff9-128"></span></span>
+## <a name="examples"></a><span data-ttu-id="a248c-127">Ejemplos</span><span class="sxs-lookup"><span data-stu-id="a248c-127">Examples</span></span>
+<span data-ttu-id="a248c-128"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="a248c-128"><a name="Examples"> </a></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="56ff9-129">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="56ff9-129">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="a248c-129">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="a248c-129">Example 1</span></span>
 
-<span data-ttu-id="56ff9-130">El siguiente ejemplo prepara el archivo VHDX base mediante un archivo ISO de Windows Server 2012 R2 que se encuentra en "C:\Windows_Server_2012_R2-EN-US-x64.ISO": </span><span class="sxs-lookup"><span data-stu-id="56ff9-130">The following example prepares the base VHDX file using a Windows Server 2012 R2 ISO file located at "C:\Windows_Server_2012_R2-EN-US-x64.ISO":</span></span> 
+<span data-ttu-id="a248c-130">El siguiente ejemplo prepara el archivo VHDX base mediante un archivo ISO de Windows Server 2012 R2 que se encuentra en "C:\Windows_Server_2012_R2-EN-US-x64.ISO": </span><span class="sxs-lookup"><span data-stu-id="a248c-130">The following example prepares the base VHDX file using a Windows Server 2012 R2 ISO file located at "C:\Windows_Server_2012_R2-EN-US-x64.ISO":</span></span> 
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" 
 ```
 
-### <a name="example-2"></a><span data-ttu-id="56ff9-131">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="56ff9-131">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="a248c-131">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="a248c-131">Example 2</span></span>
 
-<span data-ttu-id="56ff9-132">Si se produce un error en el cmdlet Convert-CcIsoToVhdx durante la actualización de Windows, probablemente se deba a una configuración incorrecta de la red o el proxy.</span><span class="sxs-lookup"><span data-stu-id="56ff9-132">If the Convert-CcIsoToVhdx cmdlet fails during Windows update, it's probably because of incorrect network/proxy configuration.</span></span> <span data-ttu-id="56ff9-133">Puede seguir las instrucciones del mensaje de error e iniciar sesión en la máquina virtual base para corregir el problema y actualizar Windows manualmente.</span><span class="sxs-lookup"><span data-stu-id="56ff9-133">You can follow the instructions in the error message and log on to the base virtual machine to fix the issue and update Windows manually.</span></span> <span data-ttu-id="56ff9-134">Después de completar las tareas manuales, ejecute el cmdlet de nuevo con el parámetro -GeneralizeOnly para que finalicen los trabajos restantes:</span><span class="sxs-lookup"><span data-stu-id="56ff9-134">After the manual work is done, run the cmdlet again with the -GeneralizeOnly parameter to complete the remaining jobs:</span></span> 
+<span data-ttu-id="a248c-132">Si se produce un error en el cmdlet Convert-CcIsoToVhdx durante la actualización de Windows, probablemente se deba a una configuración incorrecta de la red o el proxy.</span><span class="sxs-lookup"><span data-stu-id="a248c-132">If the Convert-CcIsoToVhdx cmdlet fails during Windows update, it's probably because of incorrect network/proxy configuration.</span></span> <span data-ttu-id="a248c-133">Puede seguir las instrucciones del mensaje de error e iniciar sesión en la máquina virtual base para corregir el problema y actualizar Windows manualmente.</span><span class="sxs-lookup"><span data-stu-id="a248c-133">You can follow the instructions in the error message and log on to the base virtual machine to fix the issue and update Windows manually.</span></span> <span data-ttu-id="a248c-134">Después de completar las tareas manuales, ejecute el cmdlet de nuevo con el parámetro -GeneralizeOnly para que finalicen los trabajos restantes:</span><span class="sxs-lookup"><span data-stu-id="a248c-134">After the manual work is done, run the cmdlet again with the -GeneralizeOnly parameter to complete the remaining jobs:</span></span> 
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
 ```
 
-### <a name="example-3"></a><span data-ttu-id="56ff9-135">Ejemplo 3</span><span class="sxs-lookup"><span data-stu-id="56ff9-135">Example 3</span></span>
+### <a name="example-3"></a><span data-ttu-id="a248c-135">Ejemplo 3</span><span class="sxs-lookup"><span data-stu-id="a248c-135">Example 3</span></span>
 
-<span data-ttu-id="56ff9-136">Si se requiere la configuración manual para actualizar Windows, puede usar el parámetro -PauseBeforeUpdate.</span><span class="sxs-lookup"><span data-stu-id="56ff9-136">If manual configuration is necessary to update Windows, you can use the -PauseBeforeUpdate parameter.</span></span> <span data-ttu-id="56ff9-137">Con este parámetro, Cloud Connector se detendrá antes del proceso de Windows Update.</span><span class="sxs-lookup"><span data-stu-id="56ff9-137">With this parameter, Cloud Connector will pause before the Windows update process.</span></span> <span data-ttu-id="56ff9-138">Después podrá completar la configuración manual y reanudar el proceso de conversión de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="56ff9-138">You can then complete the manual configuration and resume the conversion process as follows:</span></span>
+<span data-ttu-id="a248c-136">Si se requiere la configuración manual para actualizar Windows, puede usar el parámetro -PauseBeforeUpdate.</span><span class="sxs-lookup"><span data-stu-id="a248c-136">If manual configuration is necessary to update Windows, you can use the -PauseBeforeUpdate parameter.</span></span> <span data-ttu-id="a248c-137">Con este parámetro, Cloud Connector se detendrá antes del proceso de Windows Update.</span><span class="sxs-lookup"><span data-stu-id="a248c-137">With this parameter, Cloud Connector will pause before the Windows update process.</span></span> <span data-ttu-id="a248c-138">Después podrá completar la configuración manual y reanudar el proceso de conversión de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="a248c-138">You can then complete the manual configuration and resume the conversion process as follows:</span></span>
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="56ff9-139">Descripción detallada</span><span class="sxs-lookup"><span data-stu-id="56ff9-139">Detailed Description</span></span>
-<span data-ttu-id="56ff9-140"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="56ff9-140"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="a248c-139">Descripción detallada</span><span class="sxs-lookup"><span data-stu-id="a248c-139">Detailed Description</span></span>
+<span data-ttu-id="a248c-140"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="a248c-140"><a name="DetailedDescription"> </a></span></span>
 
-<span data-ttu-id="56ff9-141">El cmdlet Convert-CcIsoToVhdx crea en primer lugar una VM básica, instala algunos componentes básicos de los que depende Cloud Connector y, después, instala actualizaciones de Windows.</span><span class="sxs-lookup"><span data-stu-id="56ff9-141">The Convert-CcIsoToVhdx cmdlet creates a base VM first, installs some basic components that Cloud Connector depends on, and then installs Windows updates.</span></span> <span data-ttu-id="56ff9-142">Por último, generaliza la máquina virtual (Sysprep) para obtener un archivo VHDX básico que las máquinas virtuales de un dispositivo de conector de nube usarán.</span><span class="sxs-lookup"><span data-stu-id="56ff9-142">Finally, it generalizes the virtual machine (sysprep) to get a base VHDX file that will be used by the virtual machines of a Cloud Connector appliance.</span></span> 
+<span data-ttu-id="a248c-141">El cmdlet Convert-CcIsoToVhdx crea en primer lugar una VM básica, instala algunos componentes básicos de los que depende Cloud Connector y, después, instala actualizaciones de Windows.</span><span class="sxs-lookup"><span data-stu-id="a248c-141">The Convert-CcIsoToVhdx cmdlet creates a base VM first, installs some basic components that Cloud Connector depends on, and then installs Windows updates.</span></span> <span data-ttu-id="a248c-142">Por último, generaliza la máquina virtual (Sysprep) para obtener un archivo VHDX básico que las máquinas virtuales de un dispositivo de conector de nube usarán.</span><span class="sxs-lookup"><span data-stu-id="a248c-142">Finally, it generalizes the virtual machine (sysprep) to get a base VHDX file that will be used by the virtual machines of a Cloud Connector appliance.</span></span> 
   
-## <a name="input-types"></a><span data-ttu-id="56ff9-143">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="56ff9-143">Input Types</span></span>
-<span data-ttu-id="56ff9-144"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="56ff9-144"></span></span>
+## <a name="input-types"></a><span data-ttu-id="a248c-143">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="a248c-143">Input Types</span></span>
+<span data-ttu-id="a248c-144"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="a248c-144"><a name="InputTypes"> </a></span></span>
 
-<span data-ttu-id="56ff9-p108">Ninguno. El cmdlet Convert-CcIsoToVhdx no acepta entradas canalizadas.</span><span class="sxs-lookup"><span data-stu-id="56ff9-p108">None. The Convert-CcIsoToVhdx cmdlet does not accept pipelined input.</span></span> 
+<span data-ttu-id="a248c-p108">Ninguno. El cmdlet Convert-CcIsoToVhdx no acepta entradas canalizadas.</span><span class="sxs-lookup"><span data-stu-id="a248c-p108">None. The Convert-CcIsoToVhdx cmdlet does not accept pipelined input.</span></span> 
   
-## <a name="return-types"></a><span data-ttu-id="56ff9-147">Tipos de valores devueltos</span><span class="sxs-lookup"><span data-stu-id="56ff9-147">Return Types</span></span>
-<span data-ttu-id="56ff9-148"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="56ff9-148"></span></span>
+## <a name="return-types"></a><span data-ttu-id="a248c-147">Tipos de valores devueltos</span><span class="sxs-lookup"><span data-stu-id="a248c-147">Return Types</span></span>
+<span data-ttu-id="a248c-148"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="a248c-148"><a name="ReturnTypes"> </a></span></span>
 
-<span data-ttu-id="56ff9-149">Ninguno </span><span class="sxs-lookup"><span data-stu-id="56ff9-149">None</span></span>
+<span data-ttu-id="a248c-149">Ninguno </span><span class="sxs-lookup"><span data-stu-id="a248c-149">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="56ff9-150">Consulte también</span><span class="sxs-lookup"><span data-stu-id="56ff9-150">See also</span></span>
-<span data-ttu-id="56ff9-151"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="56ff9-151"></span></span>
+## <a name="see-also"></a><span data-ttu-id="a248c-150">Consulte también</span><span class="sxs-lookup"><span data-stu-id="a248c-150">See also</span></span>
+<span data-ttu-id="a248c-151"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="a248c-151"><a name="ReturnTypes"> </a></span></span>
 
-<span data-ttu-id="56ff9-152">Ninguno</span><span class="sxs-lookup"><span data-stu-id="56ff9-152">None</span></span>
+<span data-ttu-id="a248c-152">Ninguno</span><span class="sxs-lookup"><span data-stu-id="a248c-152">None</span></span>
   
 

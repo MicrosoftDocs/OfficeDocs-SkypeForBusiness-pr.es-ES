@@ -7,12 +7,14 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: En Skype empresarial Server, puede ver los registros RTC
-ms.openlocfilehash: eaab08565b8d44f6bbc4e99d152185b06ea2aab5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 2b7e4f8cc98948a5cfd622f255fc8a0599c3d1e7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235460"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816919"
 ---
