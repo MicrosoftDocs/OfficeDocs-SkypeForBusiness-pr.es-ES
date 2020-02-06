@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Resumen: Lea este tema para obtener información sobre los requisitos de hardware y software para las conferencias en Skype empresarial Server.'
-ms.openlocfilehash: c4efb85c7ae1674cab7ee123833df779a835e14c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0d09e0e85e7059e0a761b2822f963765751623e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277345"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815988"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Requisitos de hardware y software para conferencias en Skype empresarial Server
 
@@ -107,7 +109,7 @@ El Asistente de conferencia y la aplicación de anuncio de conferencia requieren
 
 Skype empresarial Server no admite la personalización de mensajes de voz y de música para conferencias de acceso telefónico local. Sin embargo, si tiene una gran necesidad comercial que le exija cambiar los archivos de audio predeterminados, consulte el artículo 961177 de Microsoft Knowledge base, [Cómo personalizar las solicitudes de voz o los archivos de música para conferencias de audio de acceso telefónico local](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177).
 
-También puede usar la herramienta de administración de [solicitudes de voz personalizadas del operador de conferencias de Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=396880) , que permite a los administradores reemplazar los mensajes de voz predeterminados que se usan cuando una llamada de teléfono se une a una reunión de Skype empresarial con avisos personalizados para proporcionar una experiencia de entrada de reunión diferente. Los mensajes de voz personalizados pueden instalarse en un servidor Enterprise o Standard Edition.
+También puede usar la herramienta de administración de [solicitudes de voz personalizadas del operador de conferencias de Microsoft Lync Server](https://go.microsoft.com/fwlink/p/?LinkId=396880) , que permite a los administradores reemplazar los avisos de voz predeterminados que se usan cuando una llamada de teléfono se une a una reunión de Skype empresarial con avisos personalizados para proporcionar una experiencia de reunión diferente. Los mensajes de voz personalizados pueden instalarse en un servidor Enterprise o Standard Edition.
 
 El operador de conferencia y la aplicación de anuncio de Conferencia tienen los siguientes requisitos de música en espera, nombre grabado y archivos de solicitud de audio:
 
@@ -142,7 +144,7 @@ Para poder usar las características de conferencia, Skype empresarial Server re
 |Servidores front-end  <br/> |Servicio de uso compartido de aplicaciones de Skype empresarial Server  <br/> |5065  <br/> |TCP  <br/> |Se usa para las solicitudes de escucha SIP entrantes para compartir las aplicaciones.  <br/> |
 |Servidores front-end  <br/> |Servicio de uso compartido de aplicaciones de Skype empresarial Server  <br/> |49152-65535  <br/> |TCP  <br/> |Intervalo de puertos de medios que se usa para compartir aplicaciones.  <br/> |
 |Servidores front-end  <br/> |Servicio de anuncios de conferencias de Skype empresarial Server  <br/> |5073  <br/> |TCP  <br/> |Se usa para solicitudes SIP entrantes para el servicio de anuncios de conferencias de Skype empresarial Server (es decir, para conferencias de acceso telefónico local).  <br/> |
-|Todos los usuarios internos  <br/> |Varios  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |El intervalo de puertos de medios se usa para audioconferencias en todos los servidores internos. Usado por todos los servidores que terminan audio: servidores front-end (para el servicio del operador de conferencias de Skype empresarial Server, servicio de anuncios de conferencias de Skype empresarial Server y servicio de videoconferencia de audio y videollamada de Skype empresarial), y Servidor de mediación.  <br/> |
+|Todos los usuarios internos  <br/> |Varios  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |El intervalo de puertos de medios se usa para audioconferencias en todos los servidores internos. Usado por todos los servidores que terminan audio: servidores front-end (para el servicio del operador de conferencias de Skype empresarial Server, servicio de anuncios de conferencias de Skype empresarial Server y el servidor de mediación de audio o videoconferencia de Skype empresarial Server).  <br/> |
 |Servidores de Office Web Apps  <br/> ||443  <br/> ||Usado por Skype empresarial Server para conectarse a Office Web Apps Server.  <br/> |
 
 **Puertos de cliente necesarios**

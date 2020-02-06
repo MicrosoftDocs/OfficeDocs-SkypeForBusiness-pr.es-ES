@@ -8,6 +8,8 @@ ms.date: 12/20/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Resumen: Obtenga información sobre el nuevo Skype empresarial y los pasos que puede realizar para preparar su entorno y sus usuarios para la actualización, ya sea que esté usando Skype empresarial online, Skype empresarial Server 2019, Skype empresarial Server 2015, Lync Server 2013 o Lync Server 2010.'
-ms.openlocfilehash: 21a28af999b285910884241e6e7809a88b943a87
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: afd0f9f8a764ef9430d9ac1a9887a872c02fedd7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989855"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803530"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planear la experiencia del cliente de Skype empresarial 2015 para los usuarios
  

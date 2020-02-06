@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planear el enrutamiento basado en la ubicación en Skype empresarial Server Enterprise Voice, incluida la interacción con llamadas simultáneas y la delegación y escenarios admitidos para el enrutamiento basado en la ubicación.
-ms.openlocfilehash: 8c6ce8467c48231ebcab706874e70341ba431fd8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fae78dcbc1aa1d92d6fe192618d9fda5001436a1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276750"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802910"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planear el enrutamiento basado en la ubicación en Skype empresarial
 

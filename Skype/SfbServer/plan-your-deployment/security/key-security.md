@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype empresarial Server incluye varias características de seguridad, entre las que se incluyen la autenticación de servidor a servidor, el control de acceso basado en roles y el almacenamiento centralizado de los datos de configuración.
-ms.openlocfilehash: cd86d1ac404cd2fe487f6f9369cc73df0d72c52f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac1891194d231c4d494ba4014e4abd8bd7f1185b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296892"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815658"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Características de seguridad clave de Skype empresarial Server
  
@@ -32,7 +34,7 @@ La seguridad es un tema muy amplio. La seguridad llega a todas las característi
 
 Skype empresarial Server proporciona dos herramientas para facilitar la planificación y el diseño, y para reducir la posibilidad de que se configuren componentes de Skype empresarial. 
   
-- La herramienta de planeación de la **topología** automatiza gran parte del proceso de diseño de la topología. Puede exportar los resultados de la herramienta de planeación a Topology Builder, que es la herramienta necesaria para instalar cada servidor que ejecute Skype empresarial Server.
+- La **herramienta de planeación** de la topología automatiza gran parte del proceso de diseño de la topología. Puede exportar los resultados de la herramienta de planeación a Topology Builder, que es la herramienta necesaria para instalar cada servidor que ejecute Skype empresarial Server.
     
 - El **Generador de topologías** almacena toda la información de configuración en el almacén de administración central.
     
@@ -58,7 +60,7 @@ Skype empresarial Server proporciona control de acceso basado en roles (RBAC) pa
   
 ## <a name="network-address-translation-nat"></a>Traducción de direcciones de red (NAT)
 
-Skype empresarial Server no admite el uso de la traducción de direcciones de red (NAT) en la interfaz interna del servidor perimetral, pero admite la colocación de la interfaz externa del servicio perimetral de acceso, el servicio perimetral de conferencias web y el servicio perimetral A/V detrás de un enrutador o firewall que realice la traducción de direcciones de red (NAT) para topologías de servidores perimetrales individuales y a escala. Si hay varios servidores perimetrales tras un equilibrador de carga de hardware, no se podrá utilizar NAT. Si hay varios servidores perimetrales que utilizan NAT en sus interfaces externas, se necesitará aplicar equilibrio de carga de sistema de nombres de dominio (DNS). El equilibrio de carga de DNS permite, al mismo tiempo, reducir el número de direcciones IP públicas por servidor perimetral en grupo de servidores perimetrales. Para obtener más información, consulte [escenarios de servidores perimetrales en Skype empresarial Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
+Skype empresarial Server no admite el uso de la traducción de direcciones de red (NAT) en la interfaz interna del servidor perimetral, pero admite la colocación de la interfaz externa del servicio perimetral de acceso, el servicio perimetral de conferencias web y el servicio perimetral A/V detrás de un enrutador o firewall que realice la traducción de direcciones de red (NAT) para topologías de servidores perimetrales individuales y Si hay varios servidores perimetrales tras un equilibrador de carga de hardware, no se podrá utilizar NAT. Si hay varios servidores perimetrales que utilizan NAT en sus interfaces externas, se necesitará aplicar equilibrio de carga de sistema de nombres de dominio (DNS). El equilibrio de carga de DNS permite, al mismo tiempo, reducir el número de direcciones IP públicas por servidor perimetral en grupo de servidores perimetrales. Para obtener más información, consulte [escenarios de servidores perimetrales en Skype empresarial Server](../../plan-your-deployment/edge-server-deployments/scenarios.md).
   
 > [!NOTE]
 > Si su empresa se federa con otra que tenga una implementación de Microsoft Office Communications Server 2007 y necesita utilizar audio/vídeo entre su empresa y la empresa federada, los requisitos de los puertos serán los correspondientes a la versión antigua de servidores perimetrales que se haya implementado. Por ejemplo, los intervalos de puertos necesarios para esas versiones anteriores deben abrirse en ambas empresas hasta que el socio federado actualice sus servidores perimetrales a Skype empresarial Server. En ese momento, los requisitos en materia de puertos se podrán revisar y reducir de acuerdo con la nueva configuración. 

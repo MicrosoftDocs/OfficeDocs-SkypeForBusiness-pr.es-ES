@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Resumen: Revise las consideraciones de DNS en este tema antes de implementar Skype empresarial Server.'
-ms.openlocfilehash: 5e6bb5866cfc52dc02a1fc48c19b1f43af6077f7
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 52984c0813fb96c78ff5a1581c0722a691501ccb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221227"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802130"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos de DNS para Skype empresarial Server
 
@@ -31,7 +33,7 @@ Un servidor de servicio de nombres de dominio (DNS) asigna nombres de host<span>
 
 A pesar de que esto puede parecer complicado, el trabajo pesado para planear esto puede hacerse con la [herramienta de planificación de Skype empresarial Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=50357). Una vez que haya finalizado las preguntas del asistente sobre las características que planea usar, para cada sitio que defina, puede ver el informe DNS dentro del informe de administración perimetral y usar la información que se muestra allí para crear los registros DNS. También puede realizar ajustes en muchos de los nombres y direcciones IP usados, para obtener información detallada, consulte [revisar el informe DNS](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report). Tenga en cuenta que puede exportar el informe de administración perimetral a una hoja de cálculo de Excel y el informe DNS será una de las hojas de cálculo del archivo. Aunque esta herramienta incluye características [desusadas de Skype empresarial Server 2019](../../../SfBServer2019/deprecated.md), aún puede usarse para crear un plan inicial si estas características no están seleccionadas
 
-Al instalar una nueva implementación como se describe en [crear registros DNS para Skype empresarial Server](../../deploy/install/create-dns-records.md) y crear su topología para Skype empresarial Server, reconocemos que puede elegir usar las capacidades de DNS integradas en Windows Server 2016 o un paquete DNS de terceros, por lo que guardaremos las discusiones de este artículo en general en lugar de específicas. Le detallamos lo que necesita y cómo usted se reúne con su decisión de tomar.
+Al instalar una nueva implementación, como se describe en [crear registros DNS para Skype empresarial Server](../../deploy/install/create-dns-records.md) y crear su topología para Skype empresarial Server, reconocemos que puede elegir usar las capacidades DNS integradas en Windows Server 2016 o un paquete DNS de terceros, por lo que mantendremos las discusiones en este artículo generales en lugar de específicas. Le detallamos lo que necesita y cómo usted se reúne con su decisión de tomar.
 
 Es probable que los administradores experimentados de Skype empresarial, Lync y Office Communications Suite encuentren las siguientes tablas útiles. Si la tabla le resulta confusa, los artículos o secciones posteriores arrojarán luz sobre los siguientes conceptos:
 

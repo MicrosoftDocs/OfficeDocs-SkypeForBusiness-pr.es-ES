@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Resumen: Skype empresarial Server 2015 o los administradores de Skype empresarial online pueden usar estas tablas para comprender qué características son compatibles con los clientes.'
-ms.openlocfilehash: a1df39ed3a426c7e01e753222526b0f18f260f19
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b2a5bd1f0544713501bfce2fc0dffc9776ec64e2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277380"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803680"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>Comparación de características de cliente de escritorio para Skype empresarial Server 2015
 
@@ -223,7 +225,7 @@ En esta tabla se presentan las características relacionadas con la compatibilid
 
 Esta tabla reúne las características que requieren soporte para la autenticación moderna.
   
-La autenticación moderna también requiere una topología descrita en las topologías de [Skype empresarial compatibles con la autenticación moderna](../../plan-your-deployment/modern-authentication/topologies-supported.md).
+La autenticación moderna también requiere una topología descrita en las [topologías de Skype empresarial compatibles con la autenticación moderna](../../plan-your-deployment/modern-authentication/topologies-supported.md).
 
 | Característica / función | Cliente de Skype Empresarial 2015 o 2016 | Skype Empresarial en Mac | Cliente de Lync 2013 | Aplicación de la Tienda Windows de Lync | Lync 2010 | Operador de Lync 2010 | Lync Phone Edition | Communicator para Mac 2011 | Lync para Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

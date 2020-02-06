@@ -8,16 +8,18 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 'Resumen: Instale los archivos del agente de Operations Manager en el servidor de Skype empresarial Server 2015 que se va a supervisar y configure el equipo para que funcione como un proxy de System Center.'
-ms.openlocfilehash: 5279924c29e8dba11882ca7d172c06894a7808b8
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: f5da9d309fd2353fbfd4009b825b731074c81fbb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992477"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816139"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configurar los equipos de Skype Empresarial Server equipos que se supervisarán
 

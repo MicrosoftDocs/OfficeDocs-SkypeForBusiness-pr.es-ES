@@ -8,18 +8,17 @@ ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.FeatureOverview
-- ms.lync.plan.FeatureOverview
+- NOCSH
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Herramienta de planeación de Skype Empresarial Server 2015
-ms.openlocfilehash: 360ce0cbac209c6076c470242eb1f552afacc949
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 25e4a576db481de6d6f23f5fc682f5d2c620fedc
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696335"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816419"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  

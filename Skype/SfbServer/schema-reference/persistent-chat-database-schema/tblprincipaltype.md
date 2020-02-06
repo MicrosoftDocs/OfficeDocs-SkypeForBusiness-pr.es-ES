@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType contiene tipos de principales para categorizar lo que hay en la tabla tblPrincipal.
-ms.openlocfilehash: 473b718a8a863432a71ff04d709bef4c0ac1327f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1aacfdf34689bebc2c7e012c926731ae1f4a8349
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295247"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812938"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -42,7 +44,7 @@ tblPrincipalType contiene tipos de principales para categorizar lo que hay en la
 |**ID**|**Rol**|**Descripción**|**Usuario**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Cualquiera  <br/> |Entidad de identidad genérica con un tipo no conocido. No se usa en la tabla tblPrincipal.  <br/> ||
-|2  <br/> |AnyUser  <br/> |Identidad genérica del tipo de usuario. No se usa en la tabla tblPrincipal.  <br/> |Sí  <br/> |
+|1  <br/> |AnyUser  <br/> |Identidad genérica del tipo de usuario. No se usa en la tabla tblPrincipal.  <br/> |Sí  <br/> |
 |3  <br/> |AnyGroup  <br/> |Principal genérico con semántica de grupo. No se usa en la tabla tblPrincipal.  <br/> ||
 |4  <br/> |SystemUser  <br/> |Principal utilizado internamente por el servidor de chat persistente.  <br/> ||
 |5  <br/> |Usuario  <br/> |Usuario normal.  <br/> |Sí  <br/> |

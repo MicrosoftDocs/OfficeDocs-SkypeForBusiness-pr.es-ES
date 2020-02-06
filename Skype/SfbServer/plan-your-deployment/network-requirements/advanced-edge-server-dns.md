@@ -7,6 +7,8 @@ audience: ITPro
 manager: serdars
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumen: Revise los escenarios de las opciones de implementación de Skype empresarial Server. Si desea un único servidor o prefiere un grupo de servidores con DNS o HLB, este tema debería ser de ayuda.'
-ms.openlocfilehash: 6507f0ae0cae0712b261bfb772d5da9e528d3994
-ms.sourcegitcommit: c554b09527817dc3e06b10509f6668b42ccc5cb9
+ms.openlocfilehash: e0fef305a29f753b9293593e7e1eb70b936f1a19
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "35758945"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802170"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Planificación de DNS de Advanced Edge Server para Skype empresarial Server
  
@@ -50,11 +52,11 @@ Los clientes de Skype empresarial son similares a versiones anteriores de client
     
      *Es un registro de host A para el servicio Detección automática en los servicios web externos.* 
     
-3. _sipinternaltls. _ TCP. \<dominio\>
+3. _sipinternaltls. _tcp. \<dominio\>
     
      *Es un registro SRV para las conexiones TLS internas.* 
     
-4. _ SIP. _ TLS. \<dominio\>
+4. _sip. _tls. \<dominio\>
     
      *Es un registro SRV para las conexiones TLS externas.* 
     
@@ -162,7 +164,7 @@ Ahora que lo sabemos todo, si necesita requisitos automáticos para sus clientes
     
     Tendrá que crear una zona en el DNS interno que coincida con su zona DNS externa (por ejemplo, contoso.com) y, a continuación, crear los registros de DNS a (y AAAA si usa direcciones IPv6) que corresponden al grupo de servidores de Skype empresarial usado para la característica automática configuración.
     
-    Por ejemplo, si tiene un usuario alojado en pool01.contoso.net, pero inicia sesión en Skype empresarial como bob@contoso.com, cree una zona DNS interna denominada contoso.com y, dentro de ella, necesita crear un registro DNS (y AAAA si se está usando una dirección IPv6) para pool01.contoso.com.
+    Por ejemplo, si tiene un usuario alojado en pool01.contoso.net, pero inicia sesión en Skype empresarial como bob@contoso.com, cree una zona DNS interna llamada contoso.com y, dentro de ella, debe crear un registro DNS A (y AAAA si se está usando la dirección IPv6).
     
 - **Zona interna de punto de anclaje**
     

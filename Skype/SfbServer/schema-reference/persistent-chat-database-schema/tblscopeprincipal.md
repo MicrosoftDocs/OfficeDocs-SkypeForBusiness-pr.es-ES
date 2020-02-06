@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
 description: tblScopePrincipal contiene ámbitos asignados a los nodos.
-ms.openlocfilehash: 2fd8e434710c7bcd266c427fa492e23adacedb22
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 24a38ef4acf3e0d500c7652f5ca418af585343b6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295198"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812448"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Resumen: Lea este tema para obtener información sobre la planificación de la topología de conferencias en Skype empresarial Server.'
-ms.openlocfilehash: 39067403513173e3fe26c5767042c62f549e0a7c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1b9d9024d90b4bd847c763747dad7a5f96616aa3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277401"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816019"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planear la topología de conferencias de Skype empresarial Server
  
@@ -82,7 +84,7 @@ Skype empresarial Server proporciona las siguientes formas de configurar Office 
     
     Los clientes externos de Skype empresarial se pueden conectar a Skype empresarial Server y a Office Web Apps Server/Office Online Server con un servidor proxy inverso, que es un servidor que recibe solicitudes de Internet y las reenvía a la red interna. (Los clientes internos no necesitan usar el servidor proxy inverso porque pueden conectarse directamente a Office Web Apps Server/Office Online Server). Esta topología funciona mejor si desea usar una granja de Office Web Apps Server/Office Online Server dedicada que solo se usa en Skype empresarial Server.
     
-- **Use un servidor de Office Web Apps o un servidor de Office Online implementado externamente.** En esta topología, Skype empresarial Server se ha implementado de forma local y usa un servidor de Office Web Apps o de Office online que se ha implementado fuera de la zona de red de Skype empresarial Server. Esto puede ocurrir cuando Office Web Apps Server/Office Online Server se comparte en varias aplicaciones de la Corporación y se implementa en una red que requiere que Skype empresarial Server use la interfaz externa de Office Web Apps Server/Office Online Server y viceversa.
+- **Use un servidor de Office Web Apps o un servidor de Office Online implementado externamente.** En esta topología, Skype empresarial Server se ha implementado de forma local y usa un servidor de Office Web Apps o de Office online que se ha implementado fuera de la zona de red de Skype empresarial Server. Esto puede ocurrir cuando Office Web Apps Server/Office Online Server se comparte entre varias aplicaciones de la Corporación y se implementa en una red que requiere que Skype empresarial Server use la interfaz externa de Office Web Apps Server/Office Online Server y viceversa.
     
     No es necesario instalar un servidor proxy inverso; en su lugar, todas las solicitudes de Office Web Apps Server/Office Online Server a Skype empresarial Server se enrutan a través del servidor perimetral. Los clientes internos y externos de Skype empresarial se conectan a Office Web Apps Server/Office Online Server mediante la dirección URL externa.
     

@@ -8,15 +8,17 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lea este tema para obtener información sobre cómo supervisar la implementación de la versión 2,1 y posteriores de su conector de la nube mediante Microsoft Operations Management Suite (OMS).
-ms.openlocfilehash: 6258ad9386b895f97a6f6dc0a1b40ce1076568aa
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1dcac3519624cef898622f915b08b24363453b84
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287268"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799630"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Supervisar Cloud Connector con Operations Management Suite (OMS)
 
@@ -114,15 +116,15 @@ En el portal de OMS, debe especificar información sobre los registros de evento
 
      Total de llamadas activas:
 
-   - LS: MediationServer: llamadas entrantes (_ total\- ) actuales 
+   - LS: MediationServer: llamadas entrantes (_Total)\- actuales 
 
-   - LS: MediationServer-llamadas salientes (_ total\- ) Current 
+   - LS: MediationServer: llamadas salientes (_Total)\- al día 
 
      Llamadas de omisión de medios activos totales:
 
-   - LS: MediationServer-llamadas entrantes (_ total\- ) llamadas de omisión de medios activos 
+   - LS: MediationServer-llamadas entrantes (_Total)\- llamadas de omisión de medios activos 
 
-   - LS: MediationServer-llamadas salientes (_ total\- ) llamadas de omisión de medios activos 
+   - LS: MediationServer-llamadas salientes (_Total)\- llamadas de omisión de medios activos 
 
      > [!NOTE]
      > Debe introducir manualmente los contadores de rendimiento en el cuadro de texto. No aparecen como opciones en la lista desplegable. 
@@ -233,13 +235,13 @@ En la tabla siguiente se enumeran los problemas de red que Microsoft recomienda 
 
 A continuación se enumeran los contadores de capacidad de llamadas que deberían supervisarse. Estos números deberían ser menos de 500 para el conector de nube Standard Edition; menos de 50 para la edición mínima de Cloud Connector.
 
-- LS: MediationServer: llamadas entrantes (_ total\- ) actuales 
+- LS: MediationServer: llamadas entrantes (_Total)\- actuales 
 
-- LS: MediationServer-llamadas salientes (_ total\- ) Current 
+- LS: MediationServer: llamadas salientes (_Total)\- al día 
 
-- LS: MediationServer-llamadas entrantes (_ total\- ) llamadas de omisión de medios activos
+- LS: MediationServer-llamadas entrantes (_Total)\- llamadas de omisión de medios activos
 
-- LS: MediationServer-llamadas salientes (_ total\- ) llamadas de omisión de medios activos
+- LS: MediationServer-llamadas salientes (_Total)\- llamadas de omisión de medios activos
 
 ## <a name="see-also"></a>Vea también
 

@@ -8,15 +8,17 @@ ms.date: 2/23/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Resumen: Lea este tema para obtener información sobre la planificación de capacidad de un servidor de chat persistente en Skype empresarial Server 2015.'
-ms.openlocfilehash: 7aa76aecf183fc0872adf6f6040132310d54a989
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 9f5571be81fbda47150bbde7edf5757ebdea8a4c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418494"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815778"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planificar la capacidad para el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -57,7 +59,7 @@ Usa la siguiente tabla de muestra para determinar la cantidad de usuarios que po
 |Cantidad total de usuarios aprovisionados  <br/> |150,000  <br/> |
 |Cantidad de extremos  <br/> |120,000  <br/> |
    
-En el ejemplo anterior, el plan es compatible con el número máximo de usuarios que el servidor de chat persistente permite: cuatro servidores/instancias del servicio de chat persistente (pueden tener cuatro servidores más pasivos que ejecuten servidores de chat persistentes para una alta disponibilidad y recuperación ante desastres) y 20.000 usuarios por servidor, para un total de 80.000 usuarios activos.
+En el ejemplo anterior, el plan es compatible con el número máximo de usuarios que permite el servidor de chat persistente: cuatro servidores/instancias del servicio de chat persistente (pueden tener cuatro servidores más pasivos con servidor de chat persistente para una alta disponibilidad y recuperación ante desastres) y 20.000 usuarios por servidor, para un total de 80.000 usuarios activos.
   
 ### <a name="plan-capacity-for-chat-room-access"></a>Planificar la capacidad para el acceso a los salones de chat
 
@@ -86,7 +88,7 @@ La siguiente tabla de ejemplo puede ayudarle a planear la administración del ac
 |Entidades basadas en usuarios y grupos de usuarios en todos los salones de chat de auditorio  <br/> |,0  <br/> |192  <br/> |50  <br/> ||
 |Entidades de administradores basadas en usuarios y grupos de usuarios en todas las listas de administrador de salones de chat  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
 |Usuarios activos por salón de chat  <br/> |0,30  <br/> |150  <br/> |16,000  <br/> ||
-|Salones de chat por usuario  <br/> |2007  <br/> |2  <br/> |2  <br/> |apartado  <br/> |
+|Salones de chat por usuario  <br/> |2007  <br/> |2  <br/> |1  <br/> |apartado  <br/> |
 |Grupos de usuarios en la lista de pertenencia de cada salón de chat  <br/> |base10  <br/> |base10  <br/> |4,5  <br/> ||
 |Salones administrados por grupos de usuarios  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |Entidades de pertenencia basadas en grupos de usuarios en todos los salones de chat  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
@@ -157,8 +159,8 @@ En la siguiente tabla se describe el modelo de usuario para el servidor de chat 
 |Cantidad de salones de chat grandes  <br/> |base10  <br/> |
 |Cantidad total de salones de chat por usuario  <br/> |apartado  <br/> |
 |Cantidad de salones de chat pequeños por usuario  <br/> |2007  <br/> |
-|Cantidad de salones de chat medianos por usuario  <br/> |2  <br/> |
-|Cantidad de salones de chat grandes por usuario  <br/> |2  <br/> |
+|Cantidad de salones de chat medianos por usuario  <br/> |1  <br/> |
+|Cantidad de salones de chat grandes por usuario  <br/> |1  <br/> |
 |Cantidad de salones a los que se han unido por usuario  <br/> |veinticuatro  <br/> |
 |Tasa máxima de uniones  <br/> |10/segundo  <br/> |
 |Tasa de chats total  <br/> |24/segundo  <br/> |

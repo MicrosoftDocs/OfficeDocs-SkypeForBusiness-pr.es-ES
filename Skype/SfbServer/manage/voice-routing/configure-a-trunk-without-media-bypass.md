@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Siga estos pasos para configurar un tronco con la omisión de medios habilitada. '
-ms.openlocfilehash: 119b0450f2327c58508e85b5aecc76a27cca6fa5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 9b72392bceeec2a5fd737dc7587a74a43e90949c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275013"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817030"
 ---
 # <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>Configurar un tronco sin omisión de medios en Skype empresarial Server
 

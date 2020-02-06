@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Obtenga más información sobre los servicios mejorados de 9-1-1 (E9-1-1) en la telefonía IP empresarial de Skype empresarial, incluida la adquisición de la ubicación y el enrutamiento de llamadas.
-ms.openlocfilehash: 20d1a258b022b8369f59aaa74a2b95de45f931e2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f09729bc6fdbd2fa64dee5b30af88494cd618915
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276897"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802990"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planear los servicios de emergencia en Skype empresarial Server
 
@@ -41,7 +43,7 @@ Skype empresarial Server admite dos métodos para enrutar llamadas de emergencia
 
 - Una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) a un proveedor de servicios E9-1-1 basado en una Red telefónica conmutada (RTC).
 
-Cuando usa un proveedor de servicios E9-1-1 de SIP, agrega ERLs a la base de datos de servicios de información de ubicación y, a continuación, valida las ubicaciones con una guía de dirección maestra (MSAG) que mantiene el proveedor de servicios E9-1-1. Si un proveedor de servicios E9-1 recibe una llamada que no tiene información de ubicación o tiene una ubicación que no se ha validado contra el MSAG, el E9-1-1 dirige la llamada a un centro de respuesta de llamada de emergencia nacional o regional (ECRC), que es personal con personal de formación especial que obtiene verbalmente la ubicación de la persona que llama, siempre que sea posible, y enrute manualmente la llamada a la PSAP adecuada. Algunos proveedores de servicios E9-1-1 de enlace troncal SIP también proporcionan a los clientes un número de marcado directo (DID) de RTC para el ECRC, que constituye un medio alternativo de enrutamiento de las llamadas al 9-1-1 si por algún motivo se produce un error en el enlace troncal SIP.
+Cuando usa un proveedor de servicios E9-1-1 de SIP, agrega ERLs a la base de datos de servicios de información de ubicación y, a continuación, valida las ubicaciones con una guía de dirección maestra (MSAG) que mantiene el proveedor de servicios E9-1-1. Si un proveedor de servicios E9-1 recibe una llamada que no tiene información de ubicación o tiene una ubicación que no se ha validado contra el MSAG, el proveedor de servicios E9-1 dirige la llamada a un centro de respuesta de llamada de emergencia nacional o regional (ECRC), que cuenta con personal especialmente cualificado para obtener la ubicación del autor de la llamada, si es posible, y enrutar manualmente la llamada a la PSAP correspondiente. Algunos proveedores de servicios E9-1-1 de enlace troncal SIP también proporcionan a los clientes un número de marcado directo (DID) de RTC para el ECRC, que constituye un medio alternativo de enrutamiento de las llamadas al 9-1-1 si por algún motivo se produce un error en el enlace troncal SIP.
 
 A diferencia de la multiplexación de división de tiempo (TDM) y los teléfonos de central de conmutación (PBX) basados en IP, que tienen ubicaciones fijas, un punto de conexión de Skype empresarial puede ser muy móvil. Al implementar la característica E9-1-1, Skype empresarial Server le ayuda a garantizar que no importa dónde se encuentre la persona que llama, la llamada de emergencia puede enrutarse al PSAP que sirve la ubicación de la persona que llama. Por ejemplo, si la oficina principal de un usuario se encuentra en Redmond, Washington, pero el usuario realiza una llamada de emergencia desde un equipo de una sucursal en Wichita, Kansas, el enlace SIP o el proveedor de servicios E9-1-based de RTC enrutará la llamada al PSAP en Wichita , no al PSAP en Redmond.
 

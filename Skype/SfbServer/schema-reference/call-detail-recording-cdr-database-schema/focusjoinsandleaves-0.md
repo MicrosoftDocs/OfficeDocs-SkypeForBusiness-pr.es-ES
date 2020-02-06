@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: La vista FocusJoinsAndLeaves almacena información acerca de la Unión y la información de salida de una conferencia. Cada conferencia se representa en esta vista por un registro que se escribe cada vez que un usuario se une y sale de la Conferencia. Esta vista se presentó en Microsoft Lync Server 2013.
-ms.openlocfilehash: f739ae390b636913d96b49dd516d2618c72515e6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 771685a5546ef5b462a3ce3955406eb535f4c3eb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296220"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815198"
 ---
 # <a name="focusjoinsandleaves-view"></a>Vista FocusJoinsAndLeaves
  
@@ -28,7 +30,7 @@ La vista FocusJoinsAndLeaves almacena información acerca de la Unión y la info
 |**SessionIdSeq** <br/> |int  <br/> |Número de identificación para identificar la instancia de la Conferencia. Se usa junto con SessionIdTime para identificar de forma exclusiva una instancia de conferencia. Para obtener más información, consulte la [tabla conferencias en Skype empresarial Server 2015](conferences.md) . <br/> |
 |**UserUri** <br/> |nvarchar (450)  <br/> |URI del usuario en el que se capturó la información de unión o salida de la Conferencia.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario cuya información de unión o salida de conferencia se capturó. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario cuya información de unión o salida de conferencia fue capturada. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario cuya información de unión o salida de conferencia fue capturada. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**UserEndpointId** <br/> |identificador  <br/> |Identificador único del usuario cuya información de unión o salida de conferencia se capturó.  <br/> |
 |**UserClientVersion** <br/> |nvarchar(256)  <br/> |Versión del cliente usada por el usuario cuya información de unión o salida de conferencia ha sido capturada.  <br/> |
 |**UserClientType** <br/> |int  <br/> |Cliente usado por el usuario cuya información de unión o salida de conferencia fue capturada. Para obtener más información, consulta la [tabla UserAgentDef](useragentdef.md) . <br/> |

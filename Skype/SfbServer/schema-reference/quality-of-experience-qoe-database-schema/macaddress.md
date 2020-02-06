@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 description: La tabla MacAddress es una tabla de soporte. Cada registro representa un origen.
-ms.openlocfilehash: a94296e63c8b6d9a3408e12fa7a48ea3b635c238
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a67f1bfac99bb3b98751ef43df17f37c0c39ecd6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294911"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41808958"
 ---
 # <a name="macaddress-table"></a>Tabla MacAddress
  

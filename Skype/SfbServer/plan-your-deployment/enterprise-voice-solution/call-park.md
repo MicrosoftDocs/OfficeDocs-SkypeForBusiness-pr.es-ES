@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planificación del parque de llamadas en Skype empresarial Server Enterprise Voice, que permite poner llamadas en espera y transferir llamadas a departamentos. Incluye el planeamiento de capacidad, llamadas admitidas y clientes admitidos.
-ms.openlocfilehash: 3272efe89ac995b304d96ad7ce5660144641073b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3effeab4afef60fb7a5021206d9fc3cd0227ceb1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277058"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803200"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Plan para el parque de llamadas en Skype empresarial
  

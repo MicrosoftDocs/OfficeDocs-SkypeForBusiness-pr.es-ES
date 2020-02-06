@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumen: Obtenga información sobre los requisitos ambientales para el servidor perimetral en Skype empresarial Server.'
-ms.openlocfilehash: 25584c10c8359cb4a3e695cee4838b80bc9643f5
-ms.sourcegitcommit: bd50c6239cee414ea9933e9d569fa5a24bc05544
+ms.openlocfilehash: 15cc6c54d420cd95962afb1faa219a3a370056a6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35414992"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803380"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos ambientales para servidores perimetrales en Skype empresarial Server
  
@@ -100,7 +102,7 @@ Puede ser un poco más complicado con topologías consolidadas ampliadas, por lo
 
 |**Número de servidores perimetrales por grupo**|**Número de direcciones IP necesarias para el equilibrio de carga de DNS**|**Número de direcciones IP necesarias para el equilibrio de carga de hardware**|
 |:-----|:-----|:-----|
-|2  <br/> |6  <br/> |3 (1 por VIP) + 6  <br/> |
+|1  <br/> |6  <br/> |3 (1 por VIP) + 6  <br/> |
 |3  <br/> |99,999  <br/> |3 (1 por VIP) + 9  <br/> |
 |4  <br/> |2007  <br/> |3 (1 por VIP) + 12  <br/> |
 |5  <br/> |4,5  <br/> |3 (1 por VIP) +15  <br/> |
@@ -109,7 +111,7 @@ Puede ser un poco más complicado con topologías consolidadas ampliadas, por lo
 
 |**Número de servidores perimetrales por grupo**|**Número de direcciones IP necesarias para el equilibrio de carga de DNS**|**Número de direcciones IP necesarias para el equilibrio de carga de hardware**|
 |:-----|:-----|:-----|
-|2  <br/> |2  <br/> |1 (1 por VIP) + 2  <br/> |
+|2  <br/> |1  <br/> |1 (1 por VIP) + 2  <br/> |
 |3  <br/> |3  <br/> |1 (1 por VIP) + 3  <br/> |
 |4  <br/> |4  <br/> |1 (1 por VIP) + 4  <br/> |
 |5  <br/> |5  <br/> |1 (1 por VIP) + 5  <br/> |
@@ -158,7 +160,7 @@ Estos serán los registros DNS que necesitará para un servidor perimetral únic
     
   - Borde A/V: 131.107.155.30 (secundaria)
     
-  Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
+  Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Windows Server.
     
   - IP privadas:
     
@@ -168,7 +170,7 @@ Estos serán los registros DNS que necesitará para un servidor perimetral únic
     
   - Borde A/V: 10.45.16.30 (secundaria)
     
-Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
+Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Windows Server.
   
 > [!TIP]
 >Hay otra configuración posible:
@@ -211,7 +213,7 @@ Estos serán los registros DNS que necesitará para un servidor perimetral únic
     
         - Borde A/V: 131.107.155.30 (secundaria)
     
-          Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
+          Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Windows Server.
     
     - IP privadas:
     
@@ -221,7 +223,7 @@ Estos serán los registros DNS que necesitará para un servidor perimetral únic
     
          - Borde A/V: 10.45.16.30 (secundaria)
     
-      Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
+      Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Windows Server.
     
   - Nodo 2
     
@@ -233,7 +235,7 @@ Estos serán los registros DNS que necesitará para un servidor perimetral únic
     
       - Borde A/V: 131.107.155.31 (secundaria)
     
-      Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
+      Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Windows Server.
     
   - IP privadas:
     
@@ -243,7 +245,7 @@ Estos serán los registros DNS que necesitará para un servidor perimetral únic
     
     - Borde A/V: 10.45.16.31 (secundaria)
     
-      Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
+      Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Windows Server.
     
 Hay otra configuración posible:
   
@@ -274,7 +276,7 @@ Hay otra configuración posible:
 |DNS externo  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |Dirección IP del servicio perimetral de acceso en el servidor perimetral o grupo perimetral que aloja el servicio de proxy XMPP  <br/> |Esto señala el servicio perimetral de acceso en el servidor perimetral o el grupo perimetral que hospeda el servicio de proxy XMPP. Por lo general, el registro SRV que crea apuntará a este registro de host (A o AAAA).  <br/> |
    
 > [!NOTE]
-> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte [migrar la Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
 
 ## <a name="certificate-planning"></a>Planificar certificado
 <a name="CertPlan"> </a>
@@ -376,7 +378,7 @@ La dirección IP de origen y la dirección IP de destino contendrán informació
 
 |**Protocolo**|**TCP o UDP**|**Puerto**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes que ejecutan el servicio de puerta de enlace XMPP:  <br/> • Servidor front-end  <br/> • Pool front-end  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de salida XMPP desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o en el grupo front-end.  <br/> **Nota:** Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .|
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes que ejecutan el servicio de puerta de enlace XMPP:  <br/> • Servidor front-end  <br/> • Pool front-end  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de salida XMPP desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o en el grupo front-end.  <br/> **Nota:** Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte [migrar la Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .|
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Cualquier:  <br/> • Director  <br/> • Grupo de directores  <br/> • Servidor front-end  <br/> • Pool front-end  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico SIP saliente de su director, grupo de directores, servidor front-end o grupo front-end a la interfaz interna del servidor perimetral.  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Interfaz interna de Edge Server  <br/> |Cualquier:  <br/> • Director  <br/> • Grupo de directores  <br/> • Servidor front-end  <br/> • Pool front-end  <br/> |Tráfico SIP entrante a su director, grupo de directores, servidor front-end o grupo front-end de la interfaz interna de su servidor perimetral.  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Cualquier:  <br/> • Servidor front-end  <br/> • Cada servidor front-end  <br/>  en el grupo de servidores front-end <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de conferencias web de su servidor front-end o de cada servidor front-end (si tiene un grupo de servidores front-end) a la interfaz interna de su servidor perimetral.  <br/> |
@@ -412,7 +414,7 @@ La dirección IP de origen y la dirección IP de destino contendrán informació
 
 |**Protocolo**|**TCP o UDP**|**Puerto**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes que ejecutan el servicio de puerta de enlace XMPP:  <br/> • Servidor front-end  <br/> • Dirección VIP del grupo de servidores front-end que ejecuta el servicio de puerta de enlace XMPP  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de salida XMPP desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o en el grupo front-end.  <br/><br/> **Nota:** Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes que ejecutan el servicio de puerta de enlace XMPP:  <br/> • Servidor front-end  <br/> • Dirección VIP del grupo de servidores front-end que ejecuta el servicio de puerta de enlace XMPP  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de salida XMPP desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o en el grupo front-end.  <br/><br/> **Nota:** Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte [migrar la Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . |
 |HTTPS  <br/> |TCP  <br/> |4443  <br/> |Cualquier:  <br/> • Servidor front-end que contiene el almacén de administración central  <br/> • Grupo front-end que contiene el almacén de administración central  <br/> |Interfaz interna de Edge Server  <br/> |La replicación de los cambios desde la tienda de administración central en el servidor perimetral.  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Cualquier:  <br/> • Servidor front-end  <br/> • Cada servidor front-end en el grupo de servidores front-end  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de conferencias web de su servidor front-end o de cada servidor front-end (si tiene un grupo de servidores front-end) a la interfaz interna de su servidor perimetral.  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquier:  <br/> • Servidor front-end  <br/> • Cada servidor front-end en el grupo de servidores front-end  <br/> |Interfaz interna de Edge Server  <br/> |Ruta de acceso preferida para la transferencia de medios A/V entre los usuarios internos y externos y el equipo de sucursal que tiene la supervivencia o el servidor de sucursal con la supervivencia.  <br/> |

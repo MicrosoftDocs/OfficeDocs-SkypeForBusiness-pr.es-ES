@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Obtenga más información sobre la Troncalización SIP en sucursales en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 14af9a096b368f310b0d4fbce425bf6d1c08696a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 158c1cff28ba0c21f5c995a1fe5b7dfdf2f9f150
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277114"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803260"
 ---
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>Troncalización SIP de sitio de sucursal en Skype empresarial Server
  

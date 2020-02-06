@@ -8,15 +8,17 @@ ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Resumen: Lea este tema para obtener información sobre las topologías y los componentes del servidor de chat persistentes en Skype empresarial Server 2015.'
-ms.openlocfilehash: c31cb8b0ada280b52d902e975f1bacf947fd19e7
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: afcdf7ed85cca6b54652dcf5170316258a6b5551
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418276"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815728"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Planificar una topología de servidores de chat persistente
  

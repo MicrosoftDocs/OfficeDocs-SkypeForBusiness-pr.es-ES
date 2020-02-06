@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Resumen: Revise este tema mientras planea el servicio de supervisión en Skype empresarial Server.'
-ms.openlocfilehash: ebe94d3088e319a0c210c9d169f35f1c783ad5f5
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6089997a606463b93e7ae68a2cf080f1bb58ebc1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991785"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815808"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planear la supervisión en Skype empresarial Server
 

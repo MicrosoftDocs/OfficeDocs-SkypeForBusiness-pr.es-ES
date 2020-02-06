@@ -8,16 +8,18 @@ ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Cuando haya terminado de instalar la herramienta de planeación de Skype empresarial, estará listo para iniciar la herramienta de planificación y empezar a diseñar la infraestructura de Skype empresarial Server 2015.
-ms.openlocfilehash: 47a3725c1307bd6efe57fa07a955004bd6e5ff29
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8c19551d2273b992b5148646e28d726f5aea5900
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274275"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816499"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Crear el diseño de la topología inicial para Skype Empresarial Server 2015
 
@@ -34,11 +36,11 @@ Cuando haya terminado de instalar la herramienta de planeación de Skype empresa
 
    - **Opción 1: Introducción** Haga clic en **comenzar** proporciona una serie específica de preguntas de la entrevista con las selecciones pertinentes para definir los criterios. Una vez completada la sección de entrevistas de **Introducción**, se pasa a la fase **Diseñar sitios** para definir la arquitectura del sitio. Para completar esta opción, vaya al paso 3.
 
-   - **Opción 2: diseñar sitios** Al hacer clic en **diseñar sitios** en la página de bienvenida, se omiten **** las preguntas de entrevistas presentadas en la sección introducción. Los datos que el usuario facilita al responder a las preguntas de la entrevista de **Introducción** se definen como sus valores predeterminados con esta opción. Al hacer clic en **Diseñar sitios**, los diseñadores avanzados pueden prescindir de la entrevista inicial y modificar los valores predeterminados a su conveniencia en la página de inicio de **Sitios centrales**. Para completar esta opción, omita los pasos del 3 al 5 y comience en el paso 6.
+   - **Opción 2: diseñar sitios** Al hacer clic en **diseñar sitios** en la página de bienvenida, se omiten las preguntas de entrevistas presentadas en **la sección introducción** . Los datos que el usuario facilita al responder a las preguntas de la entrevista de **Introducción** se definen como sus valores predeterminados con esta opción. Al hacer clic en **Diseñar sitios**, los diseñadores avanzados pueden prescindir de la entrevista inicial y modificar los valores predeterminados a su conveniencia en la página de inicio de **Sitios centrales**. Para completar esta opción, omita los pasos del 3 al 5 y comience en el paso 6.
 
    - **Opción 3: Mostrar la topología guardada** Si ya ha completado y guardado una topología a través del uso anterior de la herramienta de planeación, puede omitir la mayoría de estos pasos y empezar abriendo y mostrando la topología. Además, puede cambiar y actualizar la topología, volverla a guardar y exportarla a Microsoft Excel o Microsoft Visio. Para completar esta opción, omita los pasos del 3 al 12 y comience en el paso 13.
 
-3. Haga **** clic en introducción para empezar a diseñar su topología de 2015 de Skype empresarial Server.
+3. Haga **clic en introducción para** empezar a diseñar su topología de 2015 de Skype empresarial Server.
 
 4. Responda a cada pregunta seleccionando el criterio correcto para el diseño; después, haga clic en **Siguiente** para pasar a la página siguiente del Asistente. Haga clic en **Atrás** para hacer cambios en páginas anteriores.
 

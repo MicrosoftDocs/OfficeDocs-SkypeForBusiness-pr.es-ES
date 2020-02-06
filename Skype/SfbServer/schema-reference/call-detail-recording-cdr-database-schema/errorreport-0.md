@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: La vista ErrorReport almacena información sobre los errores notificados. Cada registro es una aparición de error. Los errores se capturan mediante el agente CDR que se ejecuta en el servidor front-end o se envían desde el cliente. Esta vista se presentó en Microsoft Lync Server 2013.
-ms.openlocfilehash: a95d3d1e99fc41727c10ecef7beaafddc213dd17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d51b085d5dabb8a6ae0dc367b23dd23a1702174e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296276"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815248"
 ---
 # <a name="errorreport-view"></a>Vista ErrorReport
  
@@ -29,10 +31,10 @@ La vista ErrorReport almacena información sobre los errores notificados. Cada r
 |**MsDiagId** <br/> |int  <br/> |IDENTIFICADOR de diagnóstico del informe de errores.  <br/> |
 |**FromUri** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que originó el error.  <br/> |
 |**FromUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que originó el error. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**FromTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que originó el error. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**FromTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que originó el error. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**ToUr** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que era el destino del informe de errores.  <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que se dirige al informe de errores. Para obtener más información, consulte la tabla UriTypes.  <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que se dirige al informe de errores. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que se dirige al informe de errores. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**ConferenceUri** <br/> |nvarchar (450)  <br/> |URI de la Conferencia que era el destino del informe de errores.  <br/> |
 |**ConferenceUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI de la Conferencia que era el destino del informe de errores. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
 |**SessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión que originó el informe de errores. Se usa en conjunción con SessionIdSeq para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |

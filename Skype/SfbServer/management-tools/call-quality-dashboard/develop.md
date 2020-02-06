@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
 description: 'Resumen: Aprenda a desarrollar soluciones para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: debb63a80bb4a5d9d02dc3364a063399eff74e13
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 02504c129f566ee98c8dfc0a49f6ab65be3d366f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274782"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816849"
 ---
 # <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>Desarrollar el panel de calidad de llamadas para Skype empresarial Server
  

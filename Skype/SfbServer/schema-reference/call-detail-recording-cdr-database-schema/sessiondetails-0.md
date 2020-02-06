@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: La vista SessionDetails almacena información sobre sesiones de punto a punto, que podrían ser una llamada de teléfono VoIP-VoIP, una sesión de mensajería instantánea de dos proveedores u otro tipo de sesión. Esta vista se presentó en Microsoft Lync Server 2013.
-ms.openlocfilehash: 627d038389098583b5e42f73e8dd0a1cc339d014
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1d0d68fe152f277c02c53fd87afdb0ea4e4ab0c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295849"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814918"
 ---
 # <a name="sessiondetails-view"></a>Vista SessionDetails
  
@@ -31,8 +33,8 @@ La vista SessionDetails almacena información sobre sesiones de punto a punto, q
 |**ToUr** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que se unió a la sesión.  <br/> |
 |**FromUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que inició la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que se unió a la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**FromTenant** <br/> |nvarchar (450)  <br/> |Espacio empresarial del usuario que inició la sesión. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |El inquilino del usuario que se unió a la sesión. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**FromTenant** <br/> |nvarchar (450)  <br/> |Espacio empresarial del usuario que inició la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |El inquilino del usuario que se unió a la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**FromEndpointId** <br/> |identificador  <br/> |Identificador único del extremo del usuario que inició la sesión.  <br/> |
 |**ToEndpointId** <br/> |identificador  <br/> |Identificador único del extremo del usuario que se unió a la sesión.  <br/> |
 |**EndTime** <br/> |datetime  <br/> |Hora de finalización de la sesión.  <br/> |
@@ -48,10 +50,10 @@ La vista SessionDetails almacena información sobre sesiones de punto a punto, q
 |**TargetUriType** <br/> |nvarchar (450)  <br/> |Tipo de URI del usuario de destino de la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar (450)  <br/> |URI del usuario en cuyo nombre se inició la sesión.  <br/> |
 |**OnnnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario en cuyo nombre se inició la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario cuyo en nombre se ha iniciado la sesión. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario cuyo en nombre se ha iniciado la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**ReferredByUri** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que remitió la sesión.  <br/> |
 |**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que ha remitido la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**ReferredByTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que remitió la sesión. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**ReferredByTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que remitió la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**DialogId** <br/> |VARCHAR (775)  <br/> |IDENTIFICACIÓN del cuadro de diálogo SIP. El formato es:  <br/> cuadro de diálogo; desde: etiqueta; to-Tag  <br/> |
 |**CorrelationId** <br/> |identificador  <br/> |GUID que se usa para correlacionar varias sesiones.  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Hora del cuadro de diálogo que se ha sustituido por la sesión. Se usa junto con ReplaceDialogIdSeq para identificar de forma exclusiva un cuadro de diálogo que se reemplaza por la sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |

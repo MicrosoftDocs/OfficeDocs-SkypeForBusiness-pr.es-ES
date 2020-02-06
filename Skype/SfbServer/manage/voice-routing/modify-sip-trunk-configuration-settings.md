@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Los ajustes de configuración del tronco del SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red de telefonía pública conmutada (RTC), una central de conmutación (PBX) IP o un controlador de borde de sesión (SBC) en el proveedor de servicios. '
-ms.openlocfilehash: fec64de813a9e4b0686e257ccfed7cb9c034467c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76196df2cf0bd74ef804a082862891c326048408
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274929"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816960"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar los ajustes de configuración del tronco de SIP en Skype empresarial Server
 
@@ -59,5 +61,5 @@ Al modificar los ajustes de configuración del tronco de SIP mediante el panel d
 2. En la pestaña **Configuración de tronco**, haga doble clic en las opciones de configuración de tronco que se modificarán. Tenga en cuenta que solo puede editar un grupo de opciones de configuración a la vez. Si desea realizar los mismos cambios en varias colecciones, use Windows PowerShell.
 3. En el cuadro de diálogo **Editar configuración de tronco** , realice las selecciones adecuadas y, a continuación, haga clic en **Aceptar**.
 4. La propiedad Estado para la colección se actualizará a No confirmado. Para confirmar los cambios y eliminar la colección, haga clic en **confirmar**y, a continuación, haga clic en **confirmar todo**.
-5. En el cuadro de diálogo Configuración de **voz**no confirmada, haga clic en **Aceptar**.
+5. En el cuadro de diálogo Configuración de **voz no confirmada**, haga clic en **Aceptar**.
 6. En el cuadro de diálogo **Panel de control de Skype empresarial Server** , haga clic en **Aceptar**.

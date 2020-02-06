@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: La vista de registro almacena información sobre el registro de usuarios. Esta vista se presentó en Lync Server 2013.
-ms.openlocfilehash: 6202e40e6385fd243f55badd25dbe196452c890a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0ee19d4addae9ee7318828c4ab294dc15bd72f86
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295870"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814958"
 ---
 # <a name="registration-view"></a>Vista registro
  
@@ -29,7 +31,7 @@ La vista de registro almacena información sobre el registro de usuarios. Esta v
 |**RegisterTime** <br/> |datetime  <br/> |Hora en la que se realizó el registro.  <br/> |
 |**UserUri** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que se registró.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que se registró. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario que se registró. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario que se registró. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**EndpointId** <br/> |identificador  <br/> |Identificador único del extremo del usuario registrado con.  <br/> |
 |**EndpointEra** <br/> |identificador  <br/> |Identificador único que se usa para diferenciar los registros que implican al mismo usuario y al mismo punto de conexión.  <br/> |
 |**DeRegisterType** <br/> |datetime  <br/> |Hora en la que se produjo la anulación de inscripción.  <br/> |

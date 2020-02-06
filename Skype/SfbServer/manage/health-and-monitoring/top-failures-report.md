@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 'Resumen: Obtenga información sobre el informe de errores principales en Skype empresarial Server.'
-ms.openlocfilehash: a1b3337a65e3193324b30f5d83f6858ef996111a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c1c7d5617581a004501568edc995871032e5cb5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279721"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817639"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>Informe de errores principales en Skype empresarial Server
  

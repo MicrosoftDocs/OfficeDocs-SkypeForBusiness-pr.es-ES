@@ -8,16 +8,18 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumen: Revise este tema mientras planea la integración de Skype empresarial Server con Exchange 2013 o 2016.'
-ms.openlocfilehash: bed73151b1010dd287c21ea55372e4eb18117665
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 1ae6ad10f1e817b9ace0240c79d09251a23dd61c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772623"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815868"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planear la integración de la mensajería unificada de Exchange en Skype Empresarial
 
@@ -61,7 +63,7 @@ Skype empresarial Server, Enterprise Voice usa la infraestructura de mensajería
 
 ### <a name="exchange-server-components"></a>Componentes de Exchange Server
 
-Para proporcionar las características y los servicios de mensajería unificada de Exchange descritos en [características de la mensajería unificada integrada y de Skype empresarial Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) a usuarios de voz empresarial de su organización, debe implementar un servidor de buzón de Microsoft Exchange y acceso de cliente Server, que hospeda los buzones de los usuarios y proporciona una única ubicación de almacenamiento para el correo electrónico y el correo de voz. La mensajería unificada de Exchange se ejecuta como un servicio en el buzón de Exchange y los servidores de acceso de cliente.
+Para proporcionar las características y los servicios de mensajería unificada de Exchange descritos en [características de mensajería unificada integrada y de Skype empresarial Server](#features-of-integrated-unified-messaging-and-skype-for-business-server) a usuarios de voz empresarial de su organización, debe implementar un servidor de correo de Microsoft Exchange y un servidor de acceso de cliente, que aloje buzones de usuario y proporciona una única ubicación de almacenamiento para el correo electrónico y el correo de voz. La mensajería unificada de Exchange se ejecuta como un servicio en el buzón de Exchange y los servidores de acceso de cliente.
 
 Para obtener más información sobre los componentes de mensajería unificada de Exchange en Microsoft Exchange Server 2010, consulte [implementación de mensajería unificada de Exchange local para proporcionar el correo de voz de vista previa de Lync Server 2013](https://technet.microsoft.com/library/9673bd73-a3a3-425d-870f-04d801c6d0d5.aspx) .
 

@@ -8,18 +8,20 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lea este tema para obtener información sobre los requisitos de hardware, software y infraestructura para ejecutar Skype empresarial en un equipo Mac.
-ms.openlocfilehash: aca2329fa3e7d42dfd1aaf47e4c069773c7206f0
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: 08f3aeabbfd88b432c28f05727ec7cf009e297a7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221719"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803600"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Requisitos del cliente de Skype empresarial en Mac
  

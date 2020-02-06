@@ -8,15 +8,17 @@ ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumen: Lea este tema para obtener información sobre las categorías, los salones de chat y los roles de usuario y administrador para el servidor de chat persistente en Skype empresarial Server 2015.'
-ms.openlocfilehash: bffdebdf6bbb57165b902026083de5628cdbc404
-ms.sourcegitcommit: d4248fefd706616bd3ccc5b510a6696303fa88e1
+ms.openlocfilehash: 03a7b68a9728b60ebae25081e3e974bb61b0fc5b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35418472"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815768"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorías de chat persistente, salones de chat y roles de usuario en Skype Empresarial Server 2015
  
@@ -66,7 +68,7 @@ Además de los miembros permitidos y denegados para las categorías, también pu
 
 A continuación se muestran los roles de administrador para el servidor de chat persistente:
   
-- **Administrador de chat persistente**: el rol de administrador de chat persistente puede administrar salones de chat (para modificar todas las propiedades, entre las que se incluyen Membership, Managers, categorías, marcar salas como deshabilitadas), así como crear y administrar categorías de salones de chat que definan quién permite crear y tener acceso a salones de chat. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Los administradores también pueden modificar y administrar la configuración de los chats persistentes (propiedades de grupo, configuración global y configuración de cumplimiento) y también pueden planear e implementar la migración desde una implementación de servidor de chat de grupo anterior a Skype empresarial Server 2015 Servidor de chat persistente.
+- **Administrador de chat persistente**: el rol de administrador de chat persistente puede administrar salones de chat (para modificar todas las propiedades, entre las que se incluyen Membership, Managers, categorías, marcar salas como deshabilitadas), así como crear y administrar categorías de salones de chat que definan quién puede crear y acceder a salones de chat. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Los administradores también pueden modificar y administrar la configuración de los chats persistentes (propiedades de grupo, configuración global y configuración de cumplimiento) y también pueden planear e implementar la migración desde una implementación de servidor de chat de grupo anterior a Skype empresarial Server 2015 Servidor de chat persistente.
     
     Los administradores de chats persistentes pueden administrar el servidor de chat persistente mediante cmdlets de Windows PowerShell de forma remota (es decir, desde un equipo distinto del servidor de chat persistente). El servidor de chat persistente comprueba que el administrador de chats persistentes sea miembro del grupo local RTC local Administrators en el servidor front-end del servidor de chat persistente.
     

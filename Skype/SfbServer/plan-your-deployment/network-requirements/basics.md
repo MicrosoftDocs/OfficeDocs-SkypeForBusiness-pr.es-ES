@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 tiene software integrado que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la guía de escenario de la Directiva DNS. Si lo prefiere, puede elegir una solución de terceros.
-ms.openlocfilehash: c1084a756a79ebcf15b8e99eef049690b5dcd9af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5438ee6ccedda6e840ca706cf285af49326a3bf4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297277"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815798"
 ---
 # <a name="dns-basics"></a>Conceptos básicos de DNS
  
@@ -28,7 +30,7 @@ Le recomendamos que, como práctica recomendada, dedique un servidor específico
 Cada asignación de un nombre a una dirección IP (y puede ser una dirección IPv4 o IPv6) se almacena en un registro DNS en el servidor DNS. El nombre se describe en el informe DNS específicamente como un FQDN (un nombre de dominio completo). Aunque *contoso.com* es un nombre de dominio válido, es una forma abreviada de * \*. contoso.com* , por lo que es ambiguo y podría hacer referencia a cualquier servidor del dominio. Un ejemplo de un FQDN que haría referencia a un único servidor de su dominio podría ser **meeting01.contoso.com**.
   
 > [!IMPORTANT]
-> De manera predeterminada, el nombre de equipo de un equipo que no está unido a un dominio es un nombre de host, en lugar de un nombre de dominio completo (FQDN). El generador de topología usa FQDN, no nombres de host. Por lo tanto, debe configurar un sufijo DNS en el nombre del equipo para implementarse como servidor perimetral que no está unido a un dominio. **Usar solo caracteres estándar** (incluidos a-Z, a-z, 0-9 y guiones) al asignar FQDN a los servidores que ejecutan Skype empresarial Server. No utilice caracteres Unicode ni de subrayado. Los caracteres no estándar en una dirección URL o un FQDN a menudo no son compatibles con DNS externas y CA públicas (es decir, cuando el FQDN debe asignarse al SN en el certificado).
+> De manera predeterminada, el nombre de equipo de un equipo que no está unido a un dominio es un nombre de host, en lugar de un nombre de dominio completo (FQDN). El generador de topología usa FQDN, no nombres de host. Por lo tanto, debe configurar un sufijo DNS en el nombre del equipo para implementarse como servidor perimetral que no está unido a un dominio. **Use solo caracteres estándar** (incluidos a-z, a-z, 0-9 y guiones) al asignar FQDN a los servidores que ejecutan Skype empresarial Server. No utilice caracteres Unicode ni de subrayado. Los caracteres no estándar en una dirección URL o un FQDN a menudo no son compatibles con DNS externas y CA públicas (es decir, cuando el FQDN debe asignarse al SN en el certificado).
   
 Además de una dirección IP, el FQDN podría asignarse a una **VIP** (una dirección IP virtual). Una VIP es una dirección IP que no se corresponde con una interfaz de red física real. Una VIP a menudo apunta a un grupo de servidores que realizan una función de servidor o a un par de servidores configurados para redundancia y tolerancia a errores.
   

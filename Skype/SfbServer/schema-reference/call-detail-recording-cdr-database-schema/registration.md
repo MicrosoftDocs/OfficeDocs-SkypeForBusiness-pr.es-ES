@@ -8,15 +8,17 @@ ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: Cada registro representa un evento de registro de usuario.
-ms.openlocfilehash: 7dcf96c5cb5b140711590943eb7ae5d2be8704b4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bca31b85a0b88854760c2a79528792ee82bd272e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295863"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814948"
 ---
 # <a name="registration-table"></a>Tabla Registration
  

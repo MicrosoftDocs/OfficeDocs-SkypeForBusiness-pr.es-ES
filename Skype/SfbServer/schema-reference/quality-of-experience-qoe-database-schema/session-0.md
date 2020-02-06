@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: La vista de sesión almacena información sobre las sesiones que tienen registros en la base de datos. Esta vista se presentó en Microsoft Lync Server 2013.
-ms.openlocfilehash: b24afdff32b5223725aa4f8ff0b7d875199713c7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cd304123022e0d4d921ecb1cd2599c636aaa9013
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294687"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805908"
 ---
 # <a name="session-view"></a>Vista de sesión
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 'Resumen: Obtenga información sobre el informe de tendencia de calidad de Media Server en Skype empresarial Server.'
-ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: eca6aa75d7b831356da15a86692658019b3c0d54
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279833"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817719"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Informe de tendencias de calidad de Media Server en Skype empresarial Server
  
@@ -29,7 +31,7 @@ Se puede obtener acceso al Informe de tendencias de calidad de medios de servido
   
 - [Informe de rendimiento del servidor en Skype empresarial Server](server-performance.md) (al hacer clic en la métrica de tendencia)
     
-- [Informe de detalles de llamadas en Skype empresarial Server](call-detail-report.md) (haciendo clic en la métrica del servidor perimetral A/V. Si el autor o el destinatario de la llamada es un servidor, también puede obtener acceso al Informe de tendencias de calidad de medios de servidores haciendo clic en el nombre del extremo).
+- [Informe de detalles de llamadas en Skype empresarial Server](call-detail-report.md) (haciendo clic en la métrica del servidor perimetral a/V). Si el autor o el destinatario de la llamada es un servidor, también puede obtener acceso al Informe de tendencias de calidad de medios de servidores haciendo clic en el nombre del extremo).
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Uso óptimo del Informe de tendencias de calidad de medios de servidores
 

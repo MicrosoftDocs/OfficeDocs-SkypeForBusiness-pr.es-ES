@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: La vista ConferenceSessionDetails almacena información sobre las sesiones de varias partes. Cada registro representa una sesión de conferencia, que puede ser la sesión con el foco o la sesión con un servidor de conferencia específico. Esta vista se presentó en Microsoft Lync Server 2013.
-ms.openlocfilehash: 96eec5450709d4b3fcb9958e387248062febce1b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3dc345c10836a34f99baa4d6a088ab152b23427d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296416"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815338"
 ---
 # <a name="conferencesessiondetails-view"></a>Vista ConferenceSessionDetails
  
@@ -34,7 +36,7 @@ La vista ConferenceSessionDetails almacena información sobre las sesiones de va
 |**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del servidor de conferencia. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
 |**UserUri** <br/> |nvarchar (450)  <br/> |URI del usuario implicado en la sesión.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que formaba parte de la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que formaba parte de la sesión. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que formaba parte de la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**UserEndpointId** <br/> |identificador  <br/> |Identificador único del usuario que forma parte de la sesión.  <br/> |
 |**EndTime** <br/> |datetime  <br/> |Hora de finalización de la sesión.  <br/> |
 |**ConferenceClientVersion** <br/> |nvarchar(256)  <br/> |Versión del servidor de conferencia.  <br/> |
@@ -45,10 +47,10 @@ La vista ConferenceSessionDetails almacena información sobre las sesiones de va
 |**UserClientCategory** <br/> |nvarchar (64)  <br/> |Nombre de la categoría del cliente que ha usado el usuario que forma parte de la sesión.  <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar (450)  <br/> |URI del usuario en cuyo nombre se inició la sesión.  <br/> |
 |**OnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario en cuyo nombre se inició la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario cuyo en nombre se ha iniciado la sesión. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario cuyo en nombre se ha iniciado la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**ReferredByUri** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que remitió la sesión.  <br/> |
 |**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que ha remitido la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
-|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que remitió la sesión. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que remitió la sesión. Para obtener más información, consulte la [tabla de inquilinos](tenants.md) . <br/> |
 |**DialogId** <br/> |varstring (775)  <br/> |IDENTIFICACIÓN del cuadro de diálogo SIP. El formato es  <br/> :d ialog; de-etiqueta; to-Tag  <br/> |
 |**ReplaceDialogIdTime** <br/> |datetime  <br/> |Número de identificación para identificar el cuadro de diálogo que se reemplazó por la sesión actual. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
 |**ReplaceDialogIdSeq** <br/> |int  <br/> |Número de identificación para identificar la sesión. Se usa junto con ReplaceDialogIdTime para identificar de forma única una sesión que se reemplaza por esta sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |

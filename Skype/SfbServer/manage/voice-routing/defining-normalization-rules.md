@@ -7,25 +7,27 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Las reglas de normalización de Skype empresarial Server utilizan expresiones regulares de .NET Framework para traducir números de teléfono marcados al formato E. 164; en otras palabras, las reglas de normalización toman el número de teléfono marcado por un usuario y convierten ese número al formato usado internamente por Skype empresarial Server. Cada plan de marcado debe tener asignadas una o más reglas de normalización.
-ms.openlocfilehash: e5156816de13a8d59e3e6eea4890046d5b4f586a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ed9db264dc637251c535f111e419aac9aa0f5e5e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274985"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817000"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definir reglas de normalización en Skype empresarial Server
 
 Las reglas de normalización de Skype empresarial Server utilizan expresiones regulares de .NET Framework para traducir números de teléfono marcados al formato E. 164; en otras palabras, las reglas de normalización toman el número de teléfono marcado por un usuario y convierten ese número al formato usado internamente por Skype empresarial Server. Cada plan de marcado debe tener asignadas una o más reglas de normalización.
 
-Para obtener más información sobre las reglas de normalización, consulte [planes de marcado y reglas](https://technet.microsoft.com/en-us/library/gg413082(v=ocs.15).aspx)de normalización.
+Para obtener más información sobre las reglas de normalización, consulte [planes de marcado y reglas de normalización](https://technet.microsoft.com/en-us/library/gg413082(v=ocs.15).aspx).
 
 Para obtener más información sobre cómo escribir expresiones regulares, vea [expresiones regulares de .NET Framework](http://go.microsoft.com/fwlink/p/?linkId=140927).
 
 Puede usar cualquiera de los siguientes métodos para definir o editar una regla de normalización:
-- [Use la herramienta **crear una regla** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) de normalización para especificar valores para los dígitos iniciales, la longitud, los dígitos que se van a quitar y los dígitos que se van a agregar y, a continuación, deje que el panel de control de Skype empresarial Server genere la regla de traducción y el patrón correspondiente. Para tí.
+- [Use la herramienta **crear una regla de normalización** ](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) para especificar valores para los dígitos de inicio, la longitud, los dígitos que se van a quitar y los dígitos que se van a agregar y, a continuación, deje que el panel de control de Skype empresarial Server genere la regla de traducción y el patrón correspondiente.
 - [Escriba de forma manual expresiones regulares](#create-or-modify-a-normalization-rule-manually) para definir el patrón de coincidencia y la regla de traducción. 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>Crear o modificar una regla de normalización mediante la creación de una regla de normalización

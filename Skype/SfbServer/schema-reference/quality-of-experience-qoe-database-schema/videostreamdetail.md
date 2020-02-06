@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: La vista VideoStreamDetail almacena información acerca de cada secuencia de vídeo de la base de datos. Esta vista se presentó en Microsoft Lync Server 2013.
-ms.openlocfilehash: ee342de919ffca8b62c60f8c7b724f3dc7be0205
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3fb598feec3b4dca87086504c620109a99bce7d0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294533"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804150"
 ---
 # <a name="videostreamdetail-view"></a>Vista VideoStreamDetail
  

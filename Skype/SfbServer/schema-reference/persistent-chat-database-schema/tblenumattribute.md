@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: tblEnumAttribute es una tabla codificada que contiene los atributos de visibilidad y comportamiento que se usan en la tabla de nodos.
-ms.openlocfilehash: b326ebe98592daccf7560dc90e299f31c158cd5c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 8244e2fb6ace6c4ed73f017f52df0c85d1f02315
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295422"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814618"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
@@ -40,7 +42,7 @@ tblEnumAttribute es una tabla codificada que contiene los atributos de visibilid
 |**attributeID**|**attributeName**|
 |:-----|:-----|
 |1  <br/> |Visión.  <br/> |
-|2  <br/> |Problema.  <br/> |
+|1  <br/> |Problema.  <br/> |
    
 ## <a name="see-also"></a>Vea también
 

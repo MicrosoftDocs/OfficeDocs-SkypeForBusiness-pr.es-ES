@@ -8,18 +8,20 @@ ms.date: 1/31/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Obtenga más información sobre cómo implementar varios sitios de RTC en Cloud Connector Edition.
-ms.openlocfilehash: ba6b76366b65a9febb9fab06e7cfb0fad759e5ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 98890bb3ffe53497c5e915acba5c073c4316f3b7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287331"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41799700"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implementar varios sitios en Cloud Connector
  

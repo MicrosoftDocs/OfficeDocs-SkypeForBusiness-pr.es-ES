@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Resumen: Lea este tema para obtener información sobre la planificación de conferencias de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: e5c058f614ca7201815cb623d45fd28c18520b85
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277331"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815998"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Plan para conferencias de acceso telefónico local en Skype empresarial Server
  
@@ -48,7 +50,7 @@ Puede implementar un servidor de mediación en un sitio central o en un sitio de
   
 Puede implementar una puerta de enlace RTC en un sitio central o en un sitio de sucursal. En un sitio de sucursal, la puerta de enlace RTC puede ser independiente o un componente de la aplicación de sucursal con funciones de supervivencia.
   
-Para obtener más información sobre los requisitos del servidor de mediación y la puerta de enlace RTC, consulte [componente servidor de mediación en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [implementar un servidor de mediación en el generador de topología en Skype empresarial Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)y [definir una puerta de enlace en la topología Generador en Skype empresarial Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Para obtener más información sobre los requisitos de servidor de mediación y puerta de enlace RTC, consulte [componente servidor de mediación en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [implementar un servidor de mediación en el generador de topologías en Skype empresarial Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)y [definir una puerta de enlace en el generador de topologías de Skype empresarial Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Plan para los planes de marcado, números de acceso y las regiones de conferencia
 

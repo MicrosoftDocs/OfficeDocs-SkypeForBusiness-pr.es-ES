@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planificación de grupos de respuesta en Skype empresarial Server Enterprise Voice, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
-ms.openlocfilehash: b1c8a2ab1a7dc42fd290df4bdc1ccf69b52db43a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec0bbe0e02fd7b4f027f8c2e57784c402aa0f039
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276471"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802490"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planear la aplicación de grupo de respuesta en Skype empresarial Server
 
@@ -189,9 +191,9 @@ El cliente específico que puede usar depende del tipo de usuario del grupo de r
 
 - Los **autores de llamadas** pueden llamar a un grupo de respuesta a través de cualquiera de los clientes de la lista anterior y a través de un teléfono estándar por la red telefónica conmutada (RTC).
 
-- **Agentes** informales (los agentes que no inician y salen a sus grupos para aceptar llamadas) pueden aceptar llamadas mediante un asistente, Lync o Lync Phone Edition. Los agentes informales inician sesión automáticamente en sus grupos cuando inician sesión en Skype empresarial Server mediante uno de estos clientes.
+- **Agentes** informales (los agentes que no inician y salen de sus grupos para aceptar llamadas) pueden aceptar llamadas mediante un asistente, Lync o Lync Phone Edition. Los agentes informales inician sesión automáticamente en sus grupos cuando inician sesión en Skype empresarial Server mediante uno de estos clientes.
 
-- **Agentes formales** (los agentes que deben iniciar y cerrar la sesión de sus grupos para aceptar llamadas) pueden aceptar llamadas con Skype empresarial y acceder a la consola del agente desde el elemento de menú, o mediante el asistente y el acceso a la consola del agente directamente desde Internet Explorer.
+- Los **agentes formales** (agentes que deben iniciar y cerrar sesión en sus grupos para aceptar llamadas) pueden aceptar llamadas con Skype empresarial y acceder a la consola del agente desde el elemento de menú, o mediante el asistente y el acceso a la consola del agente directamente desde Internet Explorer.
 
 ## <a name="capacity-planning"></a>Planificación de la capacidad
 
@@ -207,7 +209,7 @@ En la siguiente tabla se describe el modelo de usuario de grupo de respuesta que
 
 |**Métrica**|**Por grupo <br/> de servidores Enterprise (con 8 servidores front-end)**|**Por servidor Standard Edition**|
 |:-----|:-----|:-----|
-|Llamadas entrantes por segundo  <br/> |apartado  <br/> |2  <br/> |
+|Llamadas entrantes por segundo  <br/> |apartado  <br/> |1  <br/> |
 |Llamadas simultáneas conectadas a IVR o a la música en espera  <br/> |480  <br/> |60  <br/> |
 |Sesiones anónimas simultáneas (sin MI)  <br/> |224  <br/> |apartado  <br/> |
 |Sesiones anónimas simultáneas (con MI)  <br/> |64  <br/> |4,8  <br/> |

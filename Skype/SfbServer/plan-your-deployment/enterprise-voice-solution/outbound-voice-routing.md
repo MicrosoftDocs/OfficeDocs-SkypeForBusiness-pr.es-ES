@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Obtenga más información sobre el enrutamiento de voz saliente en Skype empresarial Server Enterprise Voice, como la configuración de enrutamiento de llamadas, los planes de marcado, las reglas de normalización, las directivas de voz, los registros de uso de RTC y las rutas de voz.
-ms.openlocfilehash: bb57d824d9d44886973f60b3061b2e86e949f071
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 26bea8452db00657ae87b5acbdd3f986c637d6fe
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276585"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802580"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planear el enrutamiento de voz saliente en Skype empresarial Server
  
@@ -229,11 +231,11 @@ Puedes habilitar o deshabilitar las siguientes características de llamada para 
     
 - El **reemplazo de directiva de ancho de banda** permite a los administradores cambiar las decisiones de la directiva del servicio de control de admisión de llamadas para un usuario en concreto. Está deshabilitado de forma predeterminada.
     
-- El **seguimiento de llamadas** malintencionadas permite a los usuarios denunciar llamadas malintencionadas con el cliente de Skype empresarial y, a continuación, marca dichas llamadas en los registros de detalles de llamadas. Está deshabilitado de forma predeterminada.
+- El **seguimiento de llamadas malintencionadas** permite a los usuarios denunciar llamadas malintencionadas con el cliente de Skype empresarial y, a continuación, marca dichas llamadas en los registros de detalles de llamadas. Está deshabilitado de forma predeterminada.
     
 - El **buzón de voz** evita que las llamadas se enruten inmediatamente al sistema de buzón de voz del teléfono móvil del usuario cuando se configura el tono de llamada simultánea y el teléfono está apagado, fuera de la batería o fuera de intervalo, y se basa en un valor del temporizador. Esta configuración habilita y deshabilita el temporizador, y establece su valor. Solo se puede configurar mediante el shell de administración de Skype empresarial Server. Está deshabilitado de forma predeterminada.
     
-- El **desvío de llamadas y los usos de RTC** de llamadas simultáneas permiten a los administradores especificar el mismo uso de la RTC que la Directiva de voz para el desvío de llamadas y las llamadas simultáneas, para restringir el desvío de llamadas y las llamadas simultáneas a Skype para Solo usuarios empresariales o especificar un uso de RTC personalizado que sea diferente del uso de RTC de la Directiva de voz. La opción predeterminada es usar el mismo uso de RTC que la directiva de voz para el desvío de llamadas y las llamadas simultáneas.
+- El **desvío de llamadas y los usos de RTC de llamadas simultáneas** permite a los administradores especificar el mismo uso de la RTC que la Directiva de voz para el desvío de llamadas y las llamadas simultáneas, restringir el desvío de llamadas y las llamadas simultáneas a usuarios internos de Skype empresarial, o especificar un uso de RTC personalizado que sea diferente del uso de RTC de la Directiva de voz. La opción predeterminada es usar el mismo uso de RTC que la directiva de voz para el desvío de llamadas y las llamadas simultáneas.
     
 ### <a name="pstn-usage-records"></a>Registros de uso de RTC
 

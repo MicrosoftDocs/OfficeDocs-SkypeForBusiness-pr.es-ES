@@ -8,16 +8,18 @@ ms.date: 10/10/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
 description: Administrar actualizaciones de Windows para salas de Microsoft Teams
-ms.openlocfilehash: 346747d3d5731f5b4504c45066a39a28f5289e70
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: 9b195b4158f234146c362b65642d53960c9f5c24
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628686"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817201"
 ---
 # <a name="manage-windows-updates"></a>Administrar actualizaciones de Windows
 

@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Los ajustes de configuración del tronco del SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red de telefonía pública conmutada (RTC), una central de conmutación (PBX) IP o un controlador de borde de sesión (SBC) en el proveedor de servicios. '
-ms.openlocfilehash: 55636cc34df4b05ccdd4b9035ef3aa4bb169e9a0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5be81bccdb5df94cff4e8a2a13aaabb20dfdce29
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274936"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816980"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Eliminar una colección existente de parámetros de configuración del tronco de SIP en Skype empresarial Server
 
@@ -38,7 +40,7 @@ Los Administradores también pueden crear configuraciones de tronco personalizad
 3. La propiedad **Estado** para la colección se actualizará a **No confirmado**. Para confirmar los cambios y eliminar la colección, haga clic en **Confirmar** y luego en **Confirmar todo**.
 4. En el cuadro de diálogo **Valores de configuración de voz no confirmados**, haga clic en **Aceptar**.
 5. En el cuadro de diálogo **Panel de control de Skype empresarial Server** , haga clic en **Aceptar**.
-6. Si cambia de opinión y decide no eliminar la colección, haga clic en **confirmar**y, a continuación, haga clic en **cancelar todos los cambios**no confirmados. Cuando aparezca el cuadro de diálogo **Panel de control de Skype empresarial Server** , haga clic en **Aceptar**.
+6. Si cambia de opinión y decide no eliminar la colección, haga clic en **confirmar**y, a continuación, haga clic en **cancelar todos los cambios no confirmados**. Cuando aparezca el cuadro de diálogo **Panel de control de Skype empresarial Server** , haga clic en **Aceptar**.
 
 ## <a name="removing-trunk-configuration-settings-by-using-windows-powershell-cmdlets"></a>Quitar las opciones de configuración de troncal mediante cmdlets de Windows PowerShell
 

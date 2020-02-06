@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Para ejecutar la herramienta de estrés y rendimiento de Skype empresarial Server 2015, tendrá que poder administrar los usuarios, los contactos y los perfiles de usuario, configurar la herramienta para ejecutar y, a continuación, revisar los resultados generados por la herramienta.
-ms.openlocfilehash: af4d0dcb1cc4196f98941799c61dcf29510ba795
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9920eb446452b9df23470a46c16eab754cc91577
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992487"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816149"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Usar la herramienta de estrés y rendimiento de Skype empresarial Server 2015
  

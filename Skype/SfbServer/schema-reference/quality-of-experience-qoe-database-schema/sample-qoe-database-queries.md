@@ -8,15 +8,17 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: Esta sección contiene consultas de ejemplo de la base de datos de la calidad de la experiencia (QoE).
-ms.openlocfilehash: 42000bfe28acde629165009bbb7b6c33d15f8cdb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46286f23a2f687d8c7464c2e131e4cef943a57c2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294708"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41806208"
 ---
 # <a name="sample-qoe-database-queries"></a>Consultas de base de datos de QoE de ejemplo
  

@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Preguntas más frecuentes (p + f) sobre la herramienta de estrés y rendimiento de Skype empresarial 2015, útil para descubrir qué configuraciones de herramientas son compatibles, problemas de herramientas de solución de problemas y clarificar comportamientos que puede ver al ejecutar las herramientas de estrés y rendimiento .
-ms.openlocfilehash: 36bb3e05751bd69b747d84fa563347b29362ddd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 2847ecd54389f64d6961cc72ecb94d87e847b0b0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299713"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816189"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Preguntas más frecuentes sobre la herramienta de estrés y rendimiento de Skype empresarial Server 2015
  

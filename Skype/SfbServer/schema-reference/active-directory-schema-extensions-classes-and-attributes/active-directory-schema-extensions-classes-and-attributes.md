@@ -8,15 +8,17 @@ ms.date: 2/1/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'Esta sección de referencia incluye la siguiente información:'
-ms.openlocfilehash: 5934c9ffab8055de86cdaf3bcf507fa9c806f245
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 98ce04f38d9ee6c572f517441a370823ab7647d5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296745"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815558"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Extensiones de esquema, clases y atributos de Active Directory
  
@@ -36,9 +38,9 @@ Esta sección de referencia incluye la siguiente información:
     
 - Entradas de control de acceso (ACE) creadas en la raíz del dominio y en los contenedores integrados durante la preparación del dominio
     
-- Cambios que se realizan en una unidad organizativa (OU) de Active Directory mediante el cmdlet Grant_CsSetupPermission.
+- Los cambios que se realizan en una unidad organizativa (OU) de Active Directory por el cmdlet Grant_CsSetupPermission.
     
-- Cambios que se realizan en una unidad organizativa de Active Directory mediante el cmdlet Grant_CsOUPermission.
+- Los cambios que se realizan en una unidad organizativa de Active Directory mediante el cmdlet Grant_CsOUPermission.
     
 ## <a name="in-this-section"></a>En esta sección
 

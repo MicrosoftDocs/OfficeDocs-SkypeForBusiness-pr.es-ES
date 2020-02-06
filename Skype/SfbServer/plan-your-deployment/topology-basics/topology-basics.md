@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumen: Elija su topología para Skype empresarial Server. Obtenga más información sobre Server collocation para Skype empresarial Server.'
-ms.openlocfilehash: 00154c754292fd960942f0f0da7f95bb6b5b1c19
-ms.sourcegitcommit: da87a3c4c781223ab7de2fb539bb0796dc27ea9e
+ms.openlocfilehash: b3f45a37bde409dcda38f3047e60776ebc8560e6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35820995"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41801700"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos sobre la topología de Skype empresarial Server
 
@@ -27,7 +29,7 @@ ms.locfileid: "35820995"
 
 Antes de prepararse, debe saber que está planificando la topología adecuada para su implementación de Skype empresarial Server. Lo primero que debe decidir es si va a tener una implementación local de Skype empresarial Server, o si va a combinarlo con una implementación en línea de Skype empresarial Server en una implementación híbrida de Skype empresarial. En ambos casos, deseará leer más, ya que detallamos las topologías locales aquí, pero los detalles híbridos se documentan en su propia sección.
 
-También puede ver algunas topologías de ejemplo en las topologías de [referencia de Skype empresarial Server](reference-topologies.md).
+También puede ver algunas topologías de ejemplo en las [topologías de referencia de Skype empresarial Server](reference-topologies.md).
 
 ## <a name="sites"></a>Sitios
 
@@ -163,7 +165,7 @@ La implementación de servidor perimetral también permite servicios de movilida
 Los servidores perimetrales también incluyen un proxy totalmente integrado de Extensible Messaging and Presence Protocol (XMPP), con una puerta de enlace XMPP incluida en los servidores front-end. Puede configurar estos componentes XMPP para permitir que los usuarios de Skype empresarial Server agreguen contactos de socios basados en XMPP para la mensajería instantánea y la presencia.
 
 > [!NOTE]
-> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte [migrar la Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
 
 ### <a name="mediation-server"></a>Servidor de mediación
 

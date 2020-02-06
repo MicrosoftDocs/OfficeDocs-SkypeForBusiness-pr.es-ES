@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planear el enrutamiento basado en la ubicación de las conferencias en la telefonía IP empresarial de Skype empresarial, incluyendo las transferencias de llamadas Consultiva.
-ms.openlocfilehash: d9ca03920fe361cf4d7692fd80031bef01b03b17
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d03bab835556bf0cea4dffb33bcfbcc48ba7fa42
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276785"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802850"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Enrutamiento basado en la ubicación para conferencias en Skype empresarial Server
 
@@ -143,7 +145,7 @@ Por ejemplo, si la aplicación "UdcAgent" tiene un valor de prioridad de "2", la
 
 Después de encontrar el valor de prioridad correcto para el enrutamiento basado en la ubicación de la aplicación de conferencias, escriba el siguiente cmdlet para cada grupo de servidores front-end o un servidor Standard Edition que aloje usuarios habilitados para el enrutamiento basado en la ubicación:
 
-New-CsServerApplication-Identity Service: registrar: >/LBRouting-Priority Application Priority $true Enabled $true-URI<http://www.microsoft.com/LCS/LBRouting> 
+New-CsServerApplication-Identity Service: registrar:`<Pool FQDN`>/Lbrouting-prioridad \<aplicación de\> prioridad de aplicación habilitada $true-URI $true-crítico<http://www.microsoft.com/LCS/LBRouting> 
 
 Por ejemplo:
 

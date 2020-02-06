@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: En esta sección se describen todas las clases de esquema usadas por Skype empresarial Server.
-ms.openlocfilehash: 6d27ff464bcd4613f12180b8f263686c9cc04bcd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6cb67c47c20ecb9cc6af79e51ebc05c332fd0bf3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296598"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815478"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Clases y descripciones de esquema en Skype empresarial Server
  

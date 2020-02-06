@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: Planificación de usuarios móviles en una implementación de E9-1-1 con proveedores de Troncalización SIP, Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 221c123c9630996d487644d0f5358b95d65fe1a6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 85bf13325d3c7c16958877d50f49057a7f402226
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276722"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802720"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Definir la experiencia de usuario para la adquisición manual de una ubicación en Skype empresarial Server
  

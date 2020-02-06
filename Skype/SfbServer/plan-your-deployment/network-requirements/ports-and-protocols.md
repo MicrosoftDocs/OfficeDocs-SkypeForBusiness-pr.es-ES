@@ -8,6 +8,8 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 'Resumen: Revise las consideraciones de uso de puertos antes de implementar Skype empresarial Server.'
-ms.openlocfilehash: 613067d90da4fb06811ca1497c83237019b3c021
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ca790f2ca4ff1504ab4851fedfbba086e251d91a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297025"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802020"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>Requisitos de puertos y protocolos para servidores
  
@@ -30,7 +32,7 @@ Skype empresarial Server requiere que los puertos específicos de los firewalls 
   
 A pesar de que esto puede parecer complicado, el trabajo pesado para planear esto puede hacerse con la [herramienta de planificación de Skype empresarial Server 2015](https://go.microsoft.com/fwlink/p/?LinkID=282725). Una vez que haya finalizado las preguntas del asistente sobre las características que planea usar, para cada sitio que defina, puede ver el informe de Firewall dentro del informe de administración perimetral y usar la información que se muestra aquí para crear reglas de yourfirewall. También puede realizar ajustes en muchos de los nombres y direcciones IP usados, para obtener detalles, consulte [revisar el informe de Firewall](../../management-tools/planning-tool/review-the-administrator-reports.md#Firewall_report). Tenga en cuenta que puede exportar el informe de administración perimetral a una hoja de cálculo de Excel y el informe de Firewall será una de las hojas de cálculo del archivo. 
   
-También puede encontrar la información de estas tablas en forma de diagrama revisando el póster de cargas de trabajo de protocolo vinculado de los diagramas técnicos para el artículo de [Skype empresarial Server 2015](../../technical-diagrams.md) .
+También puede encontrar la información de estas tablas en forma de diagrama revisando el póster de cargas de trabajo de protocolo vinculado de los [diagramas técnicos para el artículo de Skype empresarial Server 2015](../../technical-diagrams.md) .
 > [!NOTE]
 > - Si va a implementar Skype empresarial online (O365), consulte [Office 365 URL e intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US). Los entornos híbridos deberán hacer referencia a este tema y también [planear la conectividad híbrida](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json).
 > - Puede tener servidores de seguridad de hardware o software, no requieran versiones o modelos específicos. Lo que importa es qué puertos están en la lista blanca para que el Firewall no perjudique el funcionamiento de Skype empresarial Server.
@@ -89,7 +91,7 @@ En la tabla siguiente se enumeran los puertos que debe abrir en cada rol del ser
 |Servidores front-end  |Servicio de directivas de ancho de banda de Skype empresarial Server  |448  |TCP  |Usado por el servicio de directivas de ancho de banda de Skype empresarial Server.  |
 |Servidores front-end en los que reside el almacén de administración central  | Servicio agente de replicación maestra de Skype empresarial Server |445  |TCP  |Se usa para insertar datos de configuración desde el almacén de administración central en servidores que ejecuten Skype empresarial Server.  |
 |Todos los servidores  |Explorador SQL  |1434  |UDP  |Explorador SQL para la copia replicada local de los datos del almacén central de administración en la instancia local de SQL Server  |
-|Todos los usuarios internos  |Varios  |49152-57500  |TCP/UDP  |El intervalo de puertos de medios se usa para audioconferencias en todos los servidores internos. Usado por todos los servidores que terminan audio: servidores front-end (para el servicio del operador de conferencias de Skype empresarial Server, servicio de anuncios de conferencias de Skype empresarial Server y servicio de videoconferencia de audio y videollamada de Skype empresarial), y Servidor de mediación.  |
+|Todos los usuarios internos  |Varios  |49152-57500  |TCP/UDP  |El intervalo de puertos de medios se usa para audioconferencias en todos los servidores internos. Usado por todos los servidores que terminan audio: servidores front-end (para el servicio del operador de conferencias de Skype empresarial Server, servicio de anuncios de conferencias de Skype empresarial Server y el servidor de mediación de audio o videoconferencia de Skype empresarial Server).  |
 |Servidores de Office Web Apps  ||443  ||Usado por Skype empresarial Server para conectarse a Office Web Apps Server.  |
 |Directores  |Servicio front-end de Skype empresarial Server  |5060  |TCP  |Se usa opcionalmente para rutas estáticas a servicios de confianza, como los servidores de control remoto de llamadas.  |
 |Directores  |Servicio front-end de Skype empresarial Server  |444  |HTTPS  <br/> TCP  |Comunicación entre servidores front-end y Director. Además, la publicación de certificados de cliente (a servidores de aplicaciones para el usuario) o la validación si el certificado de cliente ya se ha publicado.  |

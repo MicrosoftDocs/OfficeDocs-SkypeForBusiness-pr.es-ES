@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Los ajustes de configuración del tronco del SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red de telefonía pública conmutada (RTC), una central de conmutación (PBX) IP o un controlador de borde de sesión (SBC) en el proveedor de servicios.
-ms.openlocfilehash: 884116e8ac6cb5818c026123c652f439f44dc374
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6db4978151bf9b649375adb7a2200710a1a503c3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275041"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817010"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Crear una nueva colección de parámetros de configuración de troncal en Skype empresarial Server
 
@@ -56,7 +58,7 @@ Al crear parámetros de configuración de tronco de usingSkype para Business Ser
 
 1. En el panel de control de Skype empresarial Server, haga clic en **enrutamiento de voz**y, a continuación, en **configuración troncal**.
 2. En la pestaña **Configuración de tronco**, haga clic en **Nuevo** y luego haga clic en **Tronco de sitio** para crear el nuevo parámetro en el ámbito del sitio o en **Tronco de grupo** para crear el nuevo parámetro en el ámbito del servicio.
-3. En el cuadro de diálogo **seleccionar un sitio** o **seleccionar un servicio** (el cuadro de diálogo que aparece dependerá de si va a crear una configuración de ámbito de sitio o de ámbito o de servicio), seleccione la ubicación de la nueva configuración y, a continuación, haga clic en **Aceptar. **. Si el cuadro de diálogo está en blanco, significa que no hay ningún lugar para crear la nueva configuración; por ejemplo, si el cuadro de diálogo **seleccionar un sitio** está en blanco, significa que a todos los sitios ya se les ha asignado una colección de sitios de configuración de troncales y cada sitio (y cada servicio) solo puede hospedar uno de ellos. En ese caso, puede eliminar la colección existente y crear una nueva o simplemente cambiar la colección existente.
+3. En el cuadro de diálogo **seleccionar un sitio** o **seleccionar un servicio** (el cuadro de diálogo que aparece dependerá de si está creando una configuración de ámbito de sitio o de ámbito o de servicio), seleccione la ubicación de la nueva configuración y, a continuación, haga clic en **Aceptar**. Si el cuadro de diálogo está en blanco, significa que no hay ningún lugar para crear la nueva configuración; por ejemplo, si el cuadro de diálogo **seleccionar un sitio** está en blanco, significa que a todos los sitios ya se les ha asignado una colección de sitios de configuración de troncales y cada sitio (y cada servicio) solo puede hospedar uno de ellos. En ese caso, puede eliminar la colección existente y crear una nueva o simplemente cambiar la colección existente.
 4. En el cuadro de diálogo **Nueva configuración de tronco**, relacione las selecciones adecuadas y haga clic en **Aceptar**.
 5. La propiedad **Estado** para la colección se actualizará a **No confirmado**. Para confirmar los cambios y eliminar la colección, haga clic en **Confirmar** y luego en **Confirmar todo**.
 6. En el cuadro de diálogo **Valores de configuración de voz no confirmados**, haga clic en **Aceptar**.

@@ -8,18 +8,20 @@ ms.date: 1/9/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: En este tema se describen las consideraciones de planeación para el uso de Skype empresarial mientras se conecta a un escritorio virtual remoto.
-ms.openlocfilehash: c6bf1cea2a18920231ea4d347b8b0471cfebbba3
-ms.sourcegitcommit: 208321bb45f7fb228757b9958a13f7e0bca91687
+ms.openlocfilehash: d2d65167eb574d17e31c19759364841147af6c05
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "35221242"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803510"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planificar Skype Empresarial en entornos de VDI
  
@@ -33,7 +35,7 @@ Existen tres soluciones disponibles para el componente de complemento VDI, ofrec
     
 - El **paquete de optimización en tiempo real de Citrix** se basa en el complemento VDI de Lync y funciona con los clientes de Lync 2013 o Skype empresarial 2016 en un escritorio virtual. Se desarrolló de manera conjunta entre Citrix y Microsoft para mejorar a partir del complemento de VDI original. Puede instalarse en clientes con sistemas operativos Windows y distintos de Windows (incluidos Windows 10, Mac y Linux). Consta de dos componentes: el conector en tiempo real (que está instalado en el escritorio virtual) y el motor de medios en tiempo real (que está instalado en el equipo local del usuario final). Estos dos componentes permiten que el equipo local del usuario Use el cliente de Skype empresarial que se ejecuta en el escritorio virtual con el procesamiento de A/V que se ha movido al equipo local. Para los entornos de escritorio virtual basados en Citrix, se recomienda Citrix RealTime Optimization Pack y se prevé proporcionar mayor compatibilidad en el futuro.
     
-- El **paquete** de virtualización del horizonte de VMware para Skype empresarial, desarrollado en colaboración con VMware, le permite ofrecer Skype empresarial en un escritorio virtual mientras ofrece una excelente experiencia para el usuario. La solución funciona aprovechando un motor multimedia en el cliente para crear una solución optimizada, con el punto final del cliente que proporciona capacidades de descarga de medios para las llamadas de audio y vídeo. Esta solución puede proporcionar audio y vídeo directamente entre los puntos de conexión para colaborar uno a uno o descargarlo en una unidad de control multipunto (MCU) central para llamadas en conferencia o reuniones.
+- El **paquete de virtualización del horizonte de VMware** para Skype empresarial, desarrollado en colaboración con VMware, le permite ofrecer Skype empresarial en un escritorio virtual mientras ofrece una excelente experiencia para el usuario. La solución funciona aprovechando un motor multimedia en el cliente para crear una solución optimizada, con el punto final del cliente que proporciona capacidades de descarga de medios para las llamadas de audio y vídeo. Esta solución puede proporcionar audio y vídeo directamente entre los puntos de conexión para colaborar uno a uno o descargarlo en una unidad de control multipunto (MCU) central para llamadas en conferencia o reuniones.
     
 > [!NOTE]
 > Los clientes básicos de Skype empresarial no son compatibles con el paquete de optimización en tiempo real de Citrix HDX ni con el paquete de virtualización horizonte de VMWare. 

@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: La vista ConfernceUris almacena información sobre los URI que participaron en sesiones de conferencia. Esta vista se presentó en Microsoft Lync Server 2013.
-ms.openlocfilehash: 03d8aae303a4161ab847d1b31b358fa236210b57
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4f8b61628a3049086799b901d826834bf54c9a68
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296409"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815328"
 ---
 # <a name="conferenceuris-view"></a>Vista ConferenceUris
  

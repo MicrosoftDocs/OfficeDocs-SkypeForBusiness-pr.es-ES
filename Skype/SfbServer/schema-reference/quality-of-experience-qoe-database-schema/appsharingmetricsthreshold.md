@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: La tabla AppSharingMetricsThreshold contiene valores óptimos y aceptables para las métricas de la calidad de la experiencia que se usan con el uso compartido de aplicaciones. Estos umbrales se usan para determinar si la experiencia de uso compartido de aplicaciones se debe clasificar como mala.
-ms.openlocfilehash: d3e7bab384c5fffea59e165d5fdf4e6b3d0c09a9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3639d9f2783b6433353f23d15e6ce063fb8ec49f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295128"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41811388"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>Tabla AppSharingMetricsThreshold
  

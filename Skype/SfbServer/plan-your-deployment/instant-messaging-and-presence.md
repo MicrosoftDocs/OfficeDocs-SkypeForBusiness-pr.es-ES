@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Resumen: Aprenda a planificar la mensajería instantánea y la presencia en Skype empresarial Server.'
-ms.openlocfilehash: 29026a0b4ef7cce55f155f024efc9ccc84457906
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d62559afe0c7767ee7863f41b41f2d1b64127643
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297382"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815908"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planear la mensajería instantánea y la presencia en Skype empresarial Server
  
@@ -33,7 +35,7 @@ La presencia proporciona información a los usuarios sobre el estado de los otro
   
 ### <a name="technical-requirements"></a>Requisitos técnicos
 
-La mensajería instantánea (MI) y la presencia siempre se ejecutan en los grupos de servidores front-end Enterprise Edition y en los servidores Standard Edition. Para obtener información sobre hardware, sistemas operativos y software de base de datos admitidos, consulte [puertas de enlace certificadas](../../SfbPartnerCertification/certification/infra-gateways.md), [requisitos para el entorno de Skype empresarial 2015](requirements-for-your-environment/requirements-for-your-environment.md)y [requisitos de infraestructura para Skype empresarial Server 2019 ](../../SfBServer2019/plan/system-requirements.md).
+La mensajería instantánea (MI) y la presencia siempre se ejecutan en los grupos de servidores front-end Enterprise Edition y en los servidores Standard Edition. Para obtener información sobre hardware, sistemas operativos y software de base de datos admitidos, consulte [puertas de enlace certificadas](../../SfbPartnerCertification/certification/infra-gateways.md), [requisitos para el entorno de Skype empresarial 2015](requirements-for-your-environment/requirements-for-your-environment.md)y [requisitos de infraestructura para Skype empresarial Server 2019](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Habilitar la comunicación con los usuarios externos
 

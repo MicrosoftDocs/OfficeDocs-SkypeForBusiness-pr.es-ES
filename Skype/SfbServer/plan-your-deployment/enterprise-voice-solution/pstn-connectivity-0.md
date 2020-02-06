@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Planear la conectividad RTC en telefonía empresarial en Skype empresarial Server.
-ms.openlocfilehash: f0b6aa6b43562fea91885b0d55d75fd234ab97de
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 12c18ba0be3f01651fb72ff325d7e51566da86ae
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276500"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802550"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planear la conectividad RTC en Skype empresarial Server
  

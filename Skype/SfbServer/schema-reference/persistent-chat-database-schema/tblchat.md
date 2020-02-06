@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat contiene todos los mensajes instantáneos.
-ms.openlocfilehash: 15c7030fe14f62c5d32af54c0f5a6901da3f977b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7221136c435c1d4af836174ddfde5cbd02f4c5f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295541"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814678"
 ---
 # <a name="tblchat"></a>tblChat
  

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Cada registro representa las métricas de señal de audio de un extremo. Normalmente, cada llamada tiene dos registros, uno para la persona que llama y el otro es para el destinatario de la llamada.
-ms.openlocfilehash: f8d617e96fe3427493bcb9e4cc70008fedae72e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1b35aa4111feb77ae905e833d7bb1f4d4acd01e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295079"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41810678"
 ---
 # <a name="audiosignal-table"></a>Tabla AudioSignal
  
@@ -39,7 +41,7 @@ Cada registro representa las métricas de señal de audio de un extremo. Normalm
 |**AudioTimestampDriftRateSpk** <br/> |decimal (9; 2)  <br/> | <br/> |Velocidad de desplazamiento del reloj del dispositivo de altavoz, relativa al reloj de la CPU.  <br/> |
 |**AudioTimestampErrorMicMs** <br/> |decimal (9; 2)  <br/> | <br/> |Velocidad de desplazamiento del reloj del dispositivo de altavoz, relativa al reloj de la CPU.  <br/> Error de marca de tiempo de captura de micrófono promedio, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
 |**AudioTimestampErrorSpkMs** <br/> |decimal (9; 2)  <br/> | <br/> |El altavoz promedio representa el error de marca de tiempo de la secuencia, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
-|**VsEntryCauses** <br/> |smallint  <br/> | <br/> |El cambio de voz es un modo de dúplex medio con una capacidad de interrupción reducida. Causas de la entrada de conmutación de voz:  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> La causa puede ser una combinación de estas causas individuales. La clave de permiso solo puede habilitarse ENTER_VS_FORCEORCONVERGENCE para fines de prueba.  <br/> El tipo de datos de esta columna se modificó en Microsoft Lync Server 2013.  <br/> |
+|**VsEntryCauses** <br/> |smallint  <br/> | <br/> |El cambio de voz es un modo de dúplex medio con una capacidad de interrupción reducida. Causas de la entrada de conmutación de voz:  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> La causa puede ser una combinación de estas causas individuales. RegKey solo puede habilitar ENTER_VS_FORCEORCONVERGENCE para fines de prueba.  <br/> El tipo de datos de esta columna se modificó en Microsoft Lync Server 2013.  <br/> |
 |**EchoEventCauses** <br/> |tinyint  <br/> | <br/> |Causas de un evento de eco:  <br/> ECHO_EVENT_BAD_TIMESTAMP 0x01  <br/> ECHO_EVENT_POSTAEC_ECHO 0x02  <br/> ECHO_EVENT_ANLP 0x04  <br/> ECHO_EVENT_DNLP 0x08  <br/> ECHO_EVENT_MIC_CLIPPING 0x10  <br/> ECHO_EVENT_BAD_STATE 0x20  <br/> La causa puede ser una combinación de estas causas individuales.  <br/> |
 |**EchoPercentMicIn** <br/> |decimal (4,5)  <br/> | <br/> |Porcentaje de tiempo para la detección del eco en la secuencia de captura del micrófono. En general, los valores son bajos para auriculares, y altos para altavoces de teléfono o independientes. En el caso de dispositivos que son compatibles con la cancelación del eco acústico incorporada, los valores altos indican filtraciones de eco. En otros dispositivos, esta métrica no debe utilizarse para evaluar la calidad del dispositivo.  <br/> |
 |**EchoPercentSend** <br/> |decimal (4,5)  <br/> ||Porcentaje de tiempo durante el que se detecta eco en el flujo enviado. Porcentaje de eco alto en secuencias de envío indica una pérdida de eco.  <br/> |

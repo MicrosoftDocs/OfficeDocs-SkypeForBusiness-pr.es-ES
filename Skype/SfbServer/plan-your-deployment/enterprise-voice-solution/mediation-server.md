@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Obtenga información sobre los servidores de mediación de Skype empresarial Server, incluidas las topologías compatibles y sus relaciones con los troncos de M:N, la omisión de medios y el control de admisión de llamadas.
-ms.openlocfilehash: 8c58e0b866d62e7dd1ea60888ba611d78328489f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5a8e9d7728f8c78643869a6f816ade9431229751
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276701"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802700"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente de servidor de mediación en Skype empresarial Server
  
@@ -64,7 +66,7 @@ La siguiente ilustración muestra los protocolos de señalización y multimedia 
 
 Skype empresarial Server admite flexibilidad en la definición de un tronco para el enrutamiento de llamadas. Un tronco es una asociación lógica entre un servidor de mediación y un número de puerto de escucha, con una puerta de enlace y un número de puerto de escucha. Esto implica varias cosas: un servidor de mediación puede tener varios troncos para la misma puerta de enlace. un servidor de mediación puede tener varios troncos en diferentes puertas de enlace. a la inversa, una puerta de enlace puede tener varios troncos en diferentes servidores de mediación.
   
-Aún debe crear un tronco raíz al agregar una puerta de enlace a su topología de Skype empresarial con el generador de topologías. El número de puertas de enlace que un servidor de mediación dado puede controlar depende de la capacidad de procesamiento del servidor durante las horas de mayor actividad. Si implementa un servidor de mediación en hardware que cumpla los requisitos mínimos de hardware para Skype empresarial Server, según se describe en [requisitos del servidor para Skype empresarial server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), un servidor de mediación independiente puede controlar aproximadamente llamadas de 1000. El servidor de mediación realiza la transcodificación, pero sigue enrutando las llamadas para varias puertas de enlace incluso si las puertas de enlace no admiten la omisión de medios.
+Aún debe crear un tronco raíz al agregar una puerta de enlace a su topología de Skype empresarial con el generador de topologías. El número de puertas de enlace que un servidor de mediación dado puede controlar depende de la capacidad de procesamiento del servidor durante las horas de mayor actividad. Si implementa un servidor de mediación en hardware que cumpla los requisitos mínimos de hardware para Skype empresarial Server, según se describe en [requisitos del servidor para Skype empresarial server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), un servidor de mediación independiente puede controlar aproximadamente 1000 llamadas. El servidor de mediación realiza la transcodificación, pero sigue enrutando las llamadas para varias puertas de enlace incluso si las puertas de enlace no admiten la omisión de medios.
   
 Al definir una ruta de llamada, especifica los troncos asociados a esa ruta, pero no especifica qué servidores de mediación están asociados a esa ruta. En su lugar, use el generador de topología para asociar troncos con servidores de mediación. En otras palabras, el enrutamiento determina qué tronco se debe usar para una llamada y, posteriormente, el servidor de mediación asociado con ese tronco se envía a través de la señalización de esa llamada.
   

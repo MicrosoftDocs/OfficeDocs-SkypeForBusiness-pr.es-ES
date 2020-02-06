@@ -8,18 +8,20 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Resumen: Revise los requisitos de video para el cliente mientras planea Skype empresarial Server.'
-ms.openlocfilehash: 15fd424f7ad2e11d473e49e271c7fbf1db83b45c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f51e9369cfba636ae37205a6e56e27c7622f12e6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277282"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803500"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Resoluciones de video para clientes de Skype empresarial
  
@@ -39,7 +41,7 @@ Consulte también [los requisitos de hardware de Windows y Mac](https://products
 
 |**Característica**|**Requisito**|
 |:-----|:-----|
-|Descodificación H.264 acelerada por hardware mediante DirectX Video Acceleration (DXVA)  <br/> |• La tarjeta gráfica debe admitir DirectX 9,0 y debe exponer el modo de descodificación de DXVA2_ModeH264_VLD_NoFGT y la API de DirectX 9.  <br/> • El controlador de la tarjeta gráfica más reciente debe estar instalado.  <br/> |
+|Descodificación H.264 acelerada por hardware mediante DirectX Video Acceleration (DXVA)  <br/> |• La tarjeta gráfica debe admitir DirectX 9,0 y debe exponer el modo de descodificación DXVA2_ModeH264_VLD_NoFGT y la API de DirectX 9.  <br/> • El controlador de la tarjeta gráfica más reciente debe estar instalado.  <br/> |
 |Codificación H.264 acelerada por hardware: requisitos del conjunto de chips  <br/> |Se admiten las siguientes soluciones de codificación de vídeo acelerada por hardware Intel:  <br/> • Chipsets Intel HD de segunda y tercera generación 2000, 2500, 3000 y 4000 (o versiones posteriores) con codificadores de vídeo de hardware integrados. Se requiere la instalación del controlador Intel HD Graphics 15.28.9.2884 o el controlador más reciente que contenga lo siguiente:  <br/> • 9.17.10.2884 de controlador de vídeo o el controlador más reciente  <br/> • Hardware Media Foundation Transform (HMFT) versión 3.12.10.31 o la última HMFT  <br/> Se admiten las siguientes soluciones de codificación de vídeo acelerada por hardware AMD:  <br/> • Procesador AMD de códecs de video, disponible en varias tarjetas de gráficos independientes y en unidades de procesamiento aceleradas integradas de procesadores acelerados AMD A-Series. Debe instalarse el controlador del motor de códecs de vídeo AMD 9.12.0.0 o versiones posteriores.  <br/> |
 |Codificación H.264 acelerada por hardware: requisitos de la cámara  <br/> |Cámaras de vídeo USB con codificador de hardware H.264 integrado que cumplan la especificación USB Video Class (UVC) versión 1.5.  <br/> **Nota:** Skype para empresas admite cámaras UVC 1,5 con Windows 8 o Windows 8,1, que incluye compatibilidad con UVC 1,5. Debido a que Windows 7 no incluye compatibilidad con UVC 1,5, Skype para empresas trata las cámaras de UVC 1,5 como cámaras normales sin compatibilidad con la codificación de hardware. <br/> |
    

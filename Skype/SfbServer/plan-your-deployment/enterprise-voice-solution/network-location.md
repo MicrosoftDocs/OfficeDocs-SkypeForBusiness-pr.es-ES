@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: Decisiones necesarias para planear qué componentes de red usará para asignar las personas que llaman a ubicaciones para la implementación de E9-1-1 en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: a68f1517d038f82e62a7aca3ef909e4e67d25e4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 404ac2d151f367ad391e4d5426090f20448cc383
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276694"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802670"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Definir los elementos de red que se usan para determinar la ubicación en Skype empresarial Server
  

@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Los servicios de dominio de Active Directory funcionan como el servicio de directorio para Windows Server 2003, Windows Server 2008, Windows Server 2012 y redes Windows Server 2012 R2. Los servicios de dominio de Active Directory también sirven como la base en la que se ha creado la infraestructura de seguridad de Skype empresarial Server. El propósito de esta sección es describir cómo Skype empresarial Server usa los servicios de dominio de Active Directory para crear un entorno digno de confianza para mensajería instantánea, conferencias web, multimedia y voz. Para obtener detalles sobre cómo preparar el entorno para los servicios de dominio de Active Directory, consulte instalar Skype empresarial Server en la documentación de implementación. Para obtener más información sobre el rol de los servicios de dominio de Active Directory en las redes de Windows Server, consulte la documentación de la versión del sistema operativo que está usando.
-ms.openlocfilehash: 4458d49bf2f57284ac29c68bb40f3979761d5c50
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec3a09e2203b6f862d87403818b43ab6daae33ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297011"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815718"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Servicios de dominio de Active Directory para Skype empresarial Server
  
@@ -52,7 +54,7 @@ Durante la preparación del bosque, Skype empresarial Server crea varios grupos 
     
 - **Grupos de infraestructura**. Estos grupos proporcionan permiso para acceder a áreas específicas de la infraestructura de Skype empresarial Server. Funcionan como componentes de los grupos administrativos y no deben modificarse ni se deben agregar directamente usuarios a esos grupos. Durante la preparación del bosque, se añaden grupos de servicio y administración específicos a los grupos de infraestructura correspondientes.
     
-Para obtener más información sobre los grupos universales específicos que se han creado al preparar AD para Skype empresarial Server, así como los grupos de servicio y administración que se agregan a los grupos de infraestructura, consulte [cambios realizados por la preparación del bosque en Skype empresarial Servidor](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación de implementación.
+Para obtener más información sobre los grupos universales específicos que se han creado al preparar AD para Skype empresarial Server, así como los grupos de servicio y administración que se agregan a los grupos de infraestructura, consulte [cambios realizados por la preparación del bosque en Skype empresarial Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación de implementación.
   
 > [!NOTE]
 > Skype empresarial Server es compatible con los grupos universales de Windows Server 2012, así como con los sistemas operativos Windows Server 2003 para controladores de dominio. Los miembros de grupos universales pueden incluir otros grupos y cuentas de cualquier dominio en el árbol de dominio o bosque, y se les pueden asignar permisos en cualquier dominio en el árbol de dominio o bosque. La compatibilidad con los grupos universales, junto con la delegación de administrador, simplifica la administración de una implementación de Skype empresarial Server. Por ejemplo, no es necesario agregar un dominio a otro para que un administrador pueda administrar ambos. 
@@ -67,7 +69,7 @@ La preparación del bosque crea ACE privadas y públicas, y añade ACE en los gr
   
 El paso de preparación del dominio agrega las entradas de control de acceso (ACE) necesarias a los grupos universales que conceden permisos para hospedar y administrar los usuarios dentro del dominio. La preparación del dominio crea entradas ACE en la raíz del dominio y tres contenedores integrados: usuarios, equipos y controladores de dominio.
   
-Para obtener detalles sobre las ACE públicas creadas y agregadas por la preparación del bosque y la preparación del dominio, consulte [los cambios realizados por la preparación del bosque en Skype empresarial Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) y [los cambios realizados por la preparación del dominio en Skype empresarial Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) en el Documentación de implementación.
+Para obtener detalles sobre las ACE públicas creadas y agregadas por la preparación del bosque y la preparación del dominio, consulte [los cambios realizados por la preparación del bosque en Skype empresarial Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) y [los cambios realizados por la preparación del dominio en Skype empresarial Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) en la documentación de implementación.
   
 Las organizaciones suelen bloquear los servicios de dominio de Active Directory (AD DS) para ayudar a mitigar los riesgos de seguridad. Sin embargo, un entorno de Active Directory bloqueado puede limitar los permisos que requiere Skype empresarial Server. Puede incluir la eliminación de ACE de contenedores y unidades organizativas y la deshabilitación de la herencia de permisos en los objetos User, Contact, InetOrgPerson o Computer. En un entorno de Active Directory bloqueado, los permisos deben establecerse manualmente en contenedores y unidades organizativas que los requieran.
   

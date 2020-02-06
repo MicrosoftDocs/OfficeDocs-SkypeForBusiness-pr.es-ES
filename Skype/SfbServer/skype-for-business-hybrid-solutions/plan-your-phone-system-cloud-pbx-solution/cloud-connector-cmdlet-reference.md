@@ -8,15 +8,17 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: En la siguiente tabla se muestran los cmdlets de Skype Empresarial Cloud Connector Edition con una breve descripción y vínculos a más información.
-ms.openlocfilehash: 58fed82857138bf9716db88648344e9140b29d6f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c82d81fe19af7c0f305ce18e0bbce83f944b5d73
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294386"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803720"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Cloud Connector cmdlet reference
  

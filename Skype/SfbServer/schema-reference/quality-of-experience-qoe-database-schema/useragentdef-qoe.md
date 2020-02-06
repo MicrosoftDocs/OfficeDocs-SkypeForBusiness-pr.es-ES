@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: La tabla UserAgentDef asigna los identificadores de agente de usuario a los nombres descriptivos del agente. Los agentes de usuario son clientes de software que se usan para conectarse a Skype empresarial Server.
-ms.openlocfilehash: 1cb64834cf9a68536dab9a5f5f90cf1189dff7e9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 515795ceed159d34a9b776e81b7f00b112ef29b8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294566"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805018"
 ---
 # <a name="useragentdef-table-qoe"></a>Tabla UserAgentDef (QoE)
  
@@ -25,7 +27,7 @@ La tabla UserAgentDef asigna los identificadores de agente de usuario a los nomb
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
 |1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2  <br/> |MCU de audio y vídeo  <br/> |MCU de audio y vídeo  <br/> |
+|1  <br/> |MCU de audio y vídeo  <br/> |MCU de audio y vídeo  <br/> |
 |4  <br/> |OC  <br/> |OC  <br/> |
 |4,8  <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |apartado  <br/> |LMC  <br/> |LMC  <br/> |
@@ -33,11 +35,11 @@ La tabla UserAgentDef asigna los identificadores de agente de usuario a los nomb
 |64  <br/> |MM  <br/> |MM  <br/> |
 |64  <br/> |MC  <br/> |MM  <br/> |
 |128  <br/> |Operador  <br/> |Operador  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_ 1.0  <br/> |ENTIDAD  <br/> |
-|512  <br/> |Conferencing_Attendant_ 1.0  <br/> |CAA  <br/> |
-|512  <br/> |Conference_Auto_Attendant_ 1.0  <br/> |CAA  <br/> |
+|256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |ENTIDAD  <br/> |
+|512  <br/> |Conferencing_Attendant_1.0  <br/> |CAA  <br/> |
+|512  <br/> |Conference_Auto_Attendant_1.0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RGS  <br/> |
-|1032  <br/> |Call_Park_Service_ 1.0  <br/> |CP  <br/> |
+|1032  <br/> |Call_Park_Service_1.0  <br/> |CP  <br/> |
 |1040  <br/> |Response_Group_Service Announcement_Service  <br/> |CUYA  <br/> |
 |2048  <br/> |Microsoft. RTC. Applications. CCS  <br/> |CCS  <br/> |
 |16386  <br/> |Notifica  <br/> |Notifica  <br/> |

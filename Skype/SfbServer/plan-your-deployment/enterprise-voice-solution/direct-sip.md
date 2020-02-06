@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Se admiten conexiones SIP directas entre Skype empresarial Server y las puertas de enlace RTC y IP-PBX en telefonía IP empresarial.
-ms.openlocfilehash: d70fa72032b86251870ebaf623679dedc782fe24
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1948e08d63aed9d49c70443a386adce6dc65f78e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276967"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803060"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype empresarial Server
 
@@ -57,7 +59,7 @@ La siguiente ilustración muestra la topología genérica para la implementació
 ![Diagrama de opción de migración departamental](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> Si va a conectar su implementación de Skype empresarial Server a un socio certificado SIP certificado, una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX no es necesaria. Para obtener una lista de socios de SIP directos certificados, consulte el programa de interoperabilidad [abierta de comunicaciones unificadas de Microsoft](https://go.microsoft.com/fwlink/p/?linkId=203309).
+> Si va a conectar su implementación de Skype empresarial Server a un socio certificado SIP certificado, una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX no es necesaria. Para obtener una lista de socios de SIP directos certificados, consulte el [programa de interoperabilidad abierta de comunicaciones unificadas de Microsoft](https://go.microsoft.com/fwlink/p/?linkId=203309).
 
 > [!NOTE]
 > La ruta multimedia que se muestra en esta figura tiene habilitada la omisión de medios (configuración recomendada). Si opta por deshabilitar la omisión de medios, la ruta de medios se redirige a través del servidor de mediación.

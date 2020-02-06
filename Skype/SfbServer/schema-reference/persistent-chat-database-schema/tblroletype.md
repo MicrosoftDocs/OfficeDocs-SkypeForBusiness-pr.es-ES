@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 description: tblRoleType es una tabla de búsqueda estática con tipos de roles y sus conjuntos de permisos asociados.
-ms.openlocfilehash: 8d49e9f2c61b8672a01a9c77bcc825925a4e7b2b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 888628c1aca01e90694ed946569a81b1b7394b95
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295219"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812908"
 ---
 # <a name="tblroletype"></a>tblRoleType
  

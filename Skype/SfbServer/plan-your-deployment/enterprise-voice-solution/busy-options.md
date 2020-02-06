@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Obtenga más información sobre la característica de opciones de ocupado en Skype empresarial Server.
-ms.openlocfilehash: 8e88b4bf3b92c7fea9bcf79822e2711ff3bee7de
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cf9ee9dbb3785804b1bb63f4118a29d29cf7715c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277107"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803250"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Plan para Opciones de disponibilidad para Skype Empresarial Server
  

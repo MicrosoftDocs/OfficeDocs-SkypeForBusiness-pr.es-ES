@@ -8,15 +8,17 @@ ms.date: 2/13/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: El esquema de la base de datos consta de las siguientes tablas.
-ms.openlocfilehash: ba6f439d97692a40fd485a2c550da079092d7365
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6c82585195befda13ebb14215e72a59341fac1d3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294918"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41809008"
 ---
 # <a name="list-of-qoe-tables"></a>Lista de tablas de QoE
  

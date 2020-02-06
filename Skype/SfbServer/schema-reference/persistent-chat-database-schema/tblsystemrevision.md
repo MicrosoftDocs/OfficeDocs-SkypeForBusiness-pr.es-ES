@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 95b8e307-117c-4fb0-bd52-bc5a5b9ade55
 description: tblSystemRevision contiene el número de revisión que se usa con la tabla tblAdminLock para lograr la coherencia en varios clientes de administrador.
-ms.openlocfilehash: 3a739450bdd8e8bb640207004a2e4fbb54f951c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f08c8c98e9e4dd78e394268859032a4fe598b361
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295149"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41811908"
 ---
 # <a name="tblsystemrevision"></a>tblSystemRevision
  

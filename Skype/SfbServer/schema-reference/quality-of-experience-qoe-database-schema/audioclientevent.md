@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: 'Cada registro contiene un evento de cliente para un punto final en una llamada de audio. Generalmente, una llamada tiene dos registros: uno para el autor de la llamada y otro para el destinatario.'
-ms.openlocfilehash: 1f754f9b7ef19919503988d40347fdeb218830d5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 713804875f9cd2a1fc37a2255697c4ffda47a3c5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295107"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41811088"
 ---
 # <a name="audioclientevent-table"></a>Tabla AudioClientEvent
  

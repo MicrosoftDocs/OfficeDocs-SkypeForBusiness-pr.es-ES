@@ -8,14 +8,16 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms.openlocfilehash: 557300dc7e0473a06bd5d2c609a191c32c6c81e3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b8db1363cdfa2c2e2559c69ad06d79f92c5af782
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294519"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41804140"
 ---
 # <a name="schema-reference-for-skype-for-business-server-2015"></a>Referencia de esquemas para Skype empresarial Server 2015
  

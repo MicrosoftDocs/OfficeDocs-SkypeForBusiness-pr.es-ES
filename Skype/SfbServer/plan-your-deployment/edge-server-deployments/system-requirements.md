@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumen: Obtenga información sobre los requisitos del sistema para el servidor perimetral en Skype empresarial Server.'
-ms.openlocfilehash: 01a5cce8dd1ccb85d322b6c66615d022c8d6c2df
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 4ef2feeb2b486bc9be9f4eb59136d74ef542dd31
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34277149"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803320"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos del sistema del servidor perimetral en Skype empresarial Server
  
@@ -193,7 +195,7 @@ Si se implementan dispositivos móviles, el HLB debe poder equilibrar la carga d
   
 Estos son los requisitos de HLB para el director (opcional) y los servicios web del grupo de servidores front-end (obligatorio):
   
-- Para los VIP de servicios Web internos, establezca la persistencia de Source_addr (puerto interno 80, 443) en su HLB. Para Skype empresarial Server, la persistencia de Source_addr significa que varias conexiones provenientes de una única dirección IP siempre se envían a un servidor, para mantener el estado de la sesión.
+- Para los VIP de servicios Web internos, establezca la persistencia de Source_addr (puerto interno 80, 443) en su HLB. En el caso de Skype empresarial Server, la persistencia de la Source_addr significa que todas las conexiones provenientes de una única dirección IP siempre se envían a un servidor, para mantener el estado de la sesión.
     
 - Use un tiempo de espera de inactividad TCP de 1.800 segundos.
     
@@ -213,8 +215,8 @@ Puede definir la supervisión de puertos en sus equilibradores de carga de hardw
   
 |**Puerto/IP virtual**|**Puerto de nodo**|**Monitor/máquina de nodo**|**Perfil de persistencia**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<Grupo\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTPS  <br/> |
-|\<Grupo\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTP  <br/> |
+|\<web_mco_443_vs\>de grupo  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTPS  <br/> |
+|\<web_mco_80_vs\>de grupo  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>Requisitos de hardware y software
 

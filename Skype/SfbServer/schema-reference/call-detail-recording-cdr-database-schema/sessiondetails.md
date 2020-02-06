@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: Cada registro representa una sesión de punto a punto, que puede ser una llamada de teléfono VoIP-VoIP, una sesión de mi de dos partes u otro tipo de sesión. Puede realizar una combinación de tabla con la tabla multimedia para buscar los detalles de cada elemento multimedia implicado en esta sesión.
-ms.openlocfilehash: d6c0d68cf5b8efd83cc764e74a56621cdd591ac1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1a211598e7771c5637af191f19ad2926e3cc803e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34295807"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814908"
 ---
 # <a name="sessiondetails-table"></a>Tabla SessionDetails
  
@@ -56,7 +58,7 @@ Observe que los campos IsUser1IntegratedWithDeskPhone y IsUser2IntegratedWithDes
 |**User1MessageCount** <br/> |int  <br/> ||Número de mensajes enviados por el usuario1 durante la sesión.  <br/> |
 |**User2MessageCount** <br/> |int  <br/> ||Número de mensajes enviados por usuario2 durante la sesión.  <br/> |
 |**SessionEndTime** <br/> |datetime  <br/> ||Hora de finalización de la sesión.  <br/> |
-|**MediaTypes** <br/> |int  <br/> ||Un conjunto de bits que indica el tipo de medio de esta sesión. En la lista se muestran las definiciones de los tipos:  <br/> 1-MI  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-AUDIO  <br/> 32-VIDEO  <br/> 64-APP_INVITE  <br/> |
+|**MediaTypes** <br/> |int  <br/> ||Un conjunto de bits que indica el tipo de medio de esta sesión. En la lista se muestran las definiciones de los tipos:  <br/> 1-MI  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-AUDIO  <br/> 32-VIDEO  <br/> 64 APP_INVITE  <br/> |
 |**User1Flag** <br/> |smallint  <br/> ||Un conjunto de bits que indica los atributos del Usuario1. Se muestran las siguientes definiciones de atributos:  <br/> 0x01: integrado con un teléfono de escritorio  <br/> |
 |**User2Flag** <br/> |smallint  <br/> ||Un conjunto de bits que indica los atributos de usuario2. Se muestran las siguientes definiciones de atributos:  <br/> 0x01: integrado con un teléfono de escritorio  <br/> |
 |**CallFlag** <br/> |smallint  <br/> ||Un conjunto de bits que indica los atributos de la llamada. Se muestran las siguientes definiciones de atributos:  <br/> 0x01-reintento de sesión  <br/> 0x02: una llamada realizada por el agente en nombre de un grupo de respuesta  <br/> |

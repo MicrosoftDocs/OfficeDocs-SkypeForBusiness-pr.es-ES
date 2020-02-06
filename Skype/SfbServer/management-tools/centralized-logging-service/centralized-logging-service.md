@@ -8,16 +8,18 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Resumen: Obtenga información sobre los componentes de servicio y las opciones de configuración para el servicio de registro centralizado en Skype empresarial Server 2015.'
-ms.openlocfilehash: 1dfdc0de999e79182e5beb57c6d51ecc75359672
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 6d3ac969e5d9e5898acfe2a95c6fc08e115ab545
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992607"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816629"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Servicio de registro centralizado en Skype Empresarial 2015
  

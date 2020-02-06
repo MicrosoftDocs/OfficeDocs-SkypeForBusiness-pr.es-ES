@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Obtenga más información sobre las reglas de traducción y la normalización de marcado de cadenas en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 1f435db01b5b15c97ae577565e4ba43f5de554ea
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c82b925c9ef168d8a5f5e7ac730a93a53a432e2d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297368"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802400"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Reglas de traducción en Skype empresarial Server
 

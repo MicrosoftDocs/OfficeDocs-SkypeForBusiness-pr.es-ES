@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 'Resumen: Obtenga información sobre el informe de voz y vídeo de punto a punto en Skype empresarial Server.'
-ms.openlocfilehash: 8ba665886e91371373358f98f69fa15b8d62a9dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1f67cb4de6f5980afa2fc2393160ffc854a7e94f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279637"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817589"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Informe de voz y vídeo de punto a punto en Skype empresarial Server
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumen: Lea este tema para obtener información sobre los procedimientos recomendados para implementar y administrar grandes reuniones en Skype empresarial Server.'
-ms.openlocfilehash: 136896a45be36508af419d84bc5bd684c9d8a429
-ms.sourcegitcommit: 9fd23cf0e03dd8fcf7ed04ef09dcdac048ebb44a
+ms.openlocfilehash: 615b34158ebbd8985610d704fd4d6605c762ab3e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "34696046"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815978"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planear reuniones grandes en Skype empresarial Server
  
@@ -57,7 +59,7 @@ Para tener suficientes recursos de CPU y memoria para reuniones de hasta 1000 us
   
 Un grupo de servidores de Skype empresarial dedicado a hospedar reuniones grandes debe hospedar una y solo una reunión de hasta 1000 usuarios al mismo tiempo, de modo que es necesario reservar de antemano las horas de reunión a través de un proceso de programación fuera de banda para garantizar la compatibilidad exclusiva de la Servidores front-end. Para admitir más de una gran reunión al mismo tiempo, tendría que configurar varios grupos de grandes reuniones dedicados.
   
-Para obtener más información sobre los requisitos de hardware y software, y para planear una topología que admita reuniones grandes, consulte [requisitos de hardware y software para conferencias en Skype empresarial Server](hardware-and-software-requirements.md) y [planear la topología de conferencias para Skype empresarial Server](conferencing-topology.md).
+Para obtener más información sobre los requisitos de hardware y software, y planear una topología que admita reuniones grandes, consulte [requisitos de hardware y software para conferencias en Skype empresarial Server](hardware-and-software-requirements.md) y [planear la topología de conferencia de Skype empresarial Server](conferencing-topology.md).
   
 ## <a name="implement-best-practices-for-large-meetings"></a>Aplicar procedimientos recomendados para reuniones grandes
 

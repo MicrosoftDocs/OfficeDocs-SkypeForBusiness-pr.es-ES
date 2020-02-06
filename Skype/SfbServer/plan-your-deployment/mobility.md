@@ -8,16 +8,18 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planee la implementación de movilidad de Skype empresarial Server.
-ms.openlocfilehash: 8b0ba8dd4ae07d3330a8ca722a1101c6b41a7cec
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dd57da19a935ce1a8713cc856d553b81f4f7cd6b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297326"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815858"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planear la movilidad de Skype empresarial Server
  
@@ -121,7 +123,7 @@ Tenemos las siguientes aplicaciones compatibles de Skype empresarial Server para
     
 Debería poder usar esta funcionalidad con servidores perimetrales de Skype empresarial Server o servidores perimetrales de Lync Server 2013.
   
-El servicio de movilidad es compatible con los servidores front-end cuando se colocan con el rol de servidor de mediación, con dos interfaces de red, pero tiene que seguir los pasos adecuados para configurar esas interfaces. Tendrá que asignar direcciones IP a la interfaz específica que se comunicará como el servidor de mediación y la interfaz IP de red que se comunicará como el servidor front-end. Puede hacerlo en el generador de topología seleccionando la dirección IP correcta para cada servicio, en lugar de usar la selección predeterminada **usar todas las direcciones IP** configuradas.
+El servicio de movilidad es compatible con los servidores front-end cuando se colocan con el rol de servidor de mediación, con dos interfaces de red, pero tiene que seguir los pasos adecuados para configurar esas interfaces. Tendrá que asignar direcciones IP a la interfaz específica que se comunicará como el servidor de mediación y la interfaz IP de red que se comunicará como el servidor front-end. Puede hacerlo en el generador de topología seleccionando la dirección IP correcta para cada servicio, en lugar de usar la selección predeterminada **usar todas las direcciones IP configuradas** .
   
 ## <a name="technical-requirements"></a>Requisitos técnicos
 <a name="TechRequirements"> </a>
@@ -187,7 +189,7 @@ Hemos cubierto la mayoría de esto en nuestra otra documentación, pero específ
 
 Si está usando la detección automática para sus clientes móviles de Skype empresarial, tendrá que modificar las listas SAN (nombre alternativo del sujeto) en sus certificados para admitir conexiones seguras desde sus clientes móviles. Si ya dispone de certificados, necesitará solicitar y asignar nuevos certificados con las entradas de SAN aquí descritas. Debe hacerse para cada servidor front-end y director (si se encuentra en su entorno) que ejecute el servicio Detección automática. También recomendamos modificar las listas SAN en los certificados de proxy inverso, agregando entradas SAN para cada dominio SIP de su organización.
   
-Esto debe ser un proceso simple si va a solicitar los nuevos certificados de una entidad emisora de certificados interna (entidad emisora de certificados), pero los certificados públicos son más complejos y posiblemente mucho más caro para volver a solicitarlos, por lo que puede ser costoso agregar una gran cantidad de SIP Dominios a un nuevo certificado público. En ese caso, existe un enfoque que es compatible, pero que **no se recomienda**. Puede configurar su proxy inverso para que la solicitud de servicio de detección automática inicial pase por el puerto 80, que usará HTTP, en lugar del puerto 443, que es HTTPS (y que 443 es la configuración predeterminada). La solicitud entrante se redirigirá al puerto 8080 en el grupo de servidores front-end o en el director. Al hacerlo, no tendrá que realizar ningún cambio en los certificados porque este tráfico no usa HTTPS para las solicitudes. Sin embargo, de nuevo, no recomendamos esto, aunque sí lo hará.
+Esto debe ser un proceso sencillo si va a solicitar los nuevos certificados de una entidad emisora de certificados interna (entidad emisora de certificados), pero los certificados públicos son más complejos y posiblemente mucho más caro para volver a solicitarlos, por lo que puede ser costoso agregar una gran cantidad de dominios SIP a un nuevo certificado público. En ese caso, existe un enfoque que es compatible, pero que **no se recomienda**. Puede configurar su proxy inverso para que la solicitud de servicio de detección automática inicial pase por el puerto 80, que usará HTTP, en lugar del puerto 443, que es HTTPS (y que 443 es la configuración predeterminada). La solicitud entrante se redirigirá al puerto 8080 en el grupo de servidores front-end o en el director. Al hacerlo, no tendrá que realizar ningún cambio en los certificados porque este tráfico no usa HTTPS para las solicitudes. Sin embargo, de nuevo, no recomendamos esto, aunque sí lo hará.
   
 ### <a name="windows-and-iis-requirements"></a>Requisitos de Windows e IIS
 
@@ -197,7 +199,7 @@ Debe tener una versión de Windows Server admitida para su entorno de Skype empr
 
 Si está usando una topología de Skype empresarial Server que incluye un HLB para su grupo front-end (que sería cualquier topología que incluya más de un servidor front-end), se debe configurar el tráfico IPs virtual de servicios web (VIP) para servicios Web para el origen. La afinidad de origen sirve para garantizar que varias conexiones de un único cliente se envían a un servidor para mantener el estado de la sesión.
   
-Si tiene previsto admitir clientes móviles de Skype empresarial solo en su red Wi-Fi interna, debe configurar los VIP de servicios Web internos para el origen como se describe para los VIP de servicios web externos. En esta situación, debe usar la afinidad de source_addr (o TCP) para los VIP de servicios Web internos de la HLB.
+Si tiene previsto admitir clientes móviles de Skype empresarial solo en su red Wi-Fi interna, debe configurar los VIP de servicios Web internos para el origen como se describe para los VIP de servicios web externos. En esta situación, debe usar afinidad de source_addr (o TCP) para los VIP de servicios Web internos de la HLB.
   
 Para obtener información sobre esta cuestión, consulte el tema [Load balancing requirements for Skype for Business](network-requirements/load-balancing.md).
   
@@ -207,7 +209,7 @@ Para admitir el descubrimiento automático para clientes móviles de Skype empre
   
 - Si decide actualizar las listas SAN en los certificados de proxy inverso y usa HTTPS para la solicitud de servicio de detección automática inicial, tendrá que actualizar la regla de publicación web para lyncdiscover. \<sipdomain\>. Esto se suele combinar con el RUL de publicación de la dirección URL de los servicios web externos en el grupo de servidores front-end.
     
-- Si ha decidido usar HTTP para la solicitud de servicio de detección automática inicial para evitar tener que actualizar la lista de SAN para los certificados de proxy inverso (que no recomendamos), tendrá que crear una nueva regla de publicación web para el puerto HTTP/TCP 80, si no hay ninguna Has. Si la regla existe, actualícelo para incluir un lyncdiscover. \<entrada\> sipdomain.
+- Si ha decidido usar HTTP para la solicitud de servicio de detección automática inicial para evitar tener que actualizar la lista de SAN para los certificados de proxy inverso (que no recomendamos), tendrá que crear una nueva regla de publicación web para el puerto HTTP/TCP 80, si aún no lo ha hecho. Si la regla existe, actualícelo para incluir un lyncdiscover. \<entrada\> sipdomain.
     
 ## <a name="defining-your-mobility-needs"></a>Definir las necesidades de movilidad
 <a name="MobilityNeeds"> </a>
@@ -242,10 +244,10 @@ Tenemos una tabla para ayudar con algunas de las características que están dis
   
 |**Característica**|**Nombre del parámetro**|**Descripción**|**Valor predeterminado**|
 |:-----|:-----|:-----|:-----|
-|Permitir movilidad  <br/> |EnableMobility  <br/> |Controla los usuarios de un ámbito dado que tienen instalado el cliente móvil de Skype empresarial. Si la directiva está definida en falso, los usuarios no podrán iniciar sesión con su cliente.  <br/> |True  <br/> |
-|Voz externa  <br/> |EnableOutsideVoice  <br/> |Habilita la capacidad de un usuario para usar Vía trabajo, que permite a los usuarios enviar y recibir llamadas utilizando su número de teléfono del trabajo en lugar de su número de teléfono móvil. Si está definida en falso, los usuarios no podrán realizar o recibir llamadas en su teléfono móvil cuando utilicen su número de teléfono del trabajo.  <br/> |True  <br/> |
+|Permitir movilidad  <br/> |EnableMobility  <br/> |Controla los usuarios de un ámbito dado que tienen instalado el cliente móvil de Skype empresarial. Si la directiva está definida en falso, los usuarios no podrán iniciar sesión con su cliente.  <br/> |Verdadero  <br/> |
+|Voz externa  <br/> |EnableOutsideVoice  <br/> |Habilita la capacidad de un usuario para usar Vía trabajo, que permite a los usuarios enviar y recibir llamadas utilizando su número de teléfono del trabajo en lugar de su número de teléfono móvil. Si está definida en falso, los usuarios no podrán realizar o recibir llamadas en su teléfono móvil cuando utilicen su número de teléfono del trabajo.  <br/> |Verdadero  <br/> |
 |Permitir Audio y vídeo IP  <br/> |EnableIPAudioVideo  <br/> |Si se define en el valor predeterminado, permite a un usuario utilizar VoIP para realizar o recibir llamadas de teléfono o videollamadas en su dispositivo móvil. Si se define en falso, los usuarios no podrán utilizar su dispositivo móvil para dichos fines.  <br/> |True  <br/> |
-|Requerir Wi-Fi para audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Define si un cliente necesitará realizar y recibir llamadas de VoIP con una red WiFi en lugar de con una red de datos de telefonía móvil. Si se define en verdadero, los usuarios solo podrán realizar y recibir llamadas de VoIP cuando estén conectados a una red WiFi.  <br/> |False  <br/> |
+|Requerir Wi-Fi para audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Define si un cliente necesitará realizar y recibir llamadas de VoIP con una red WiFi en lugar de con una red de datos de telefonía móvil. Si se define en verdadero, los usuarios solo podrán realizar y recibir llamadas de VoIP cuando estén conectados a una red WiFi.  <br/> |Falso  <br/> |
 |Requerir Wi-Fi para vídeo IP  <br/> |RequireWiFiForIPVideo  <br/> |Define si un cliente necesitará realizar y recibir videollamadas con una red WiFi en lugar de con una red de datos de telefonía móvil. Si se define en verdadero, los usuarios solo podrán realizar y recibir llamadas de VoIP cuando estén conectados a una red WiFi.  <br/> |Falso  <br/> |
    
 ### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>¿Los usuarios no habilitados para Telefonía IP empresarial deberán poder hacer clic para unirse a conferencias?

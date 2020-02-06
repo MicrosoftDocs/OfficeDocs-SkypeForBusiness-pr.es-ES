@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: Elegir el proveedor de servicios para una implementación de E9-1-1 en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 271ea9bbffc1d41c48cb66bf2a4fb536227d1b34
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae59f29bcf53039e13098906d8449e85af3acc21
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277023"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803140"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Elegir un proveedor de servicios E9-1-1 en Skype Empresarial Server
  

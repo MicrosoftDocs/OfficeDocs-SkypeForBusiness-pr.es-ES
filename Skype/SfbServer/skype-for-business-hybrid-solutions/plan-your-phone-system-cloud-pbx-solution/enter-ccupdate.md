@@ -8,15 +8,17 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: El cmdlet Enter-CcUpdate prepara el servidor host de la edición Cloud Connector de Skype empresarial para el proceso de actualización al ponerlo en el modo de mantenimiento. El dispositivo detiene inmediatamente todos los servicios, finaliza cualquier llamada en curso y rechaza cualquier otra llamada.
-ms.openlocfilehash: 694faf7f03fb672ec61ee97db08fb61bcf0dc532
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 25d2fbc56bd4de6a08985de18c178d5a8f993492
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003460"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802180"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 

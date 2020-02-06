@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype empresarial Server Enterprise Voice enruta las llamadas basadas en números de teléfono normalizados al formato E. 164. Esto significa que todas las cadenas marcadas deben normalizarse al formato E. 164 con el fin de realizar la búsqueda de números invertidas (RNL) para que puedan traducirse al URI SIP correspondiente. Skype empresarial Server proporciona la capacidad de manipular el identificador llamado y la presentación de identificación de llamadas.
-ms.openlocfilehash: 633b0c16fefb66d1ea44f96b5f32c2ca91f357f2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cdcfe3a847e148461b97abed33df070057dcd00b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274979"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816990"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definición de reglas de traducción en Skype empresarial Server
 
@@ -63,7 +65,7 @@ Siga estos pasos si desea definir una regla de traducción escribiendo un conjun
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [permisos de configuración del delegado](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Skype para empresas, consulte [instalar y abrir herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
-3. Para empezar a definir una regla de traducción, siga los pasos que se indican en [configurar un tronco con medios](GET LINK AFTER MIGRATION)para omitir el paso 10 o [configurar un tronco sin medios omitir](GET LINK AFTER MIGRATION) a través del paso 9.
+3. Para empezar a definir una regla de traducción, siga los pasos que se indican en [configurar un tronco con medios para omitir](GET LINK AFTER MIGRATION)el paso 10 o [configurar un tronco sin medios omitir](GET LINK AFTER MIGRATION) a través del paso 9.
 4. En **Nombre**, en las páginas **Nueva regla de conversión** o **Editar regla de conversión**, escriba un nombre que describa el patrón de número objeto de la conversión.
 5. Faculta En **Descripción**, escriba una descripción de la regla de traducción, por ejemplo, **llamadas internacionales de larga distancia de Estados Unidos**.
 6. En la sección **Crear una regla de conversión** del cuadro de diálogo, especifique valores en los campos siguientes:
@@ -98,7 +100,7 @@ Siga estos pasos si desea definir una regla de traducción escribiendo una expre
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener más información, consulte [permisos de configuración del delegado](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Skype para empresas, consulte [instalar y abrir herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
-3. Para empezar a definir una regla de traducción, siga los pasos que se indican en [configurar un tronco con medios](GET LINK AFTER MIGRATION)para omitir el paso 10 o [configurar un tronco sin medios omitir](GET LINK AFTER MIGRATION) a través del paso 9.
+3. Para empezar a definir una regla de traducción, siga los pasos que se indican en [configurar un tronco con medios para omitir](GET LINK AFTER MIGRATION)el paso 10 o [configurar un tronco sin medios omitir](GET LINK AFTER MIGRATION) a través del paso 9.
 4. En el campo **Nombre** de las páginas **Nueva regla de conversión** o **Editar regla de conversión**, escriba un nombre que describa el patrón de número de objeto de la conversión.
 5. Faculta En **Descripción**, escriba una descripción de la regla de traducción. por ejemplo, **EE. UU. Internacional de llamadas de larga distancia**.
 6. Haga clic en **Editar** en la parte inferior de la sección **Crear una regla de conversión**.

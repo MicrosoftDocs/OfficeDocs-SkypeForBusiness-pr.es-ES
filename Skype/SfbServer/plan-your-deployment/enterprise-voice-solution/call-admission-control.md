@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Obtenga más información sobre el control de admisión de llamadas, que puede impedir que se realicen llamadas si tienen una mala calidad de los medios en Skype empresarial Server Enterprise Voice.
-ms.openlocfilehash: 3942c3d50267593f393655e19d0cc80b5f5028f8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33aad955d0d1c592900683213a13e50433265a10
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277072"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803240"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Plan para el control de admisión de llamadas en Skype empresarial Server
 
@@ -84,7 +86,7 @@ Si tu empresa admite medios a través de VPN, asegúrate de que tanto la secuenc
 
 ### <a name="call-admission-control-of-outside-users"></a>Servicio de control de admisión de llamadas de usuarios externos
 
-El control de admisión de la llamada no se aplica más allá de los límites de la organización de Skype empresarial Server. No se puede aplicar CAC al tráfico multimedia que atraviesa Internet, que no es administrado por Skype empresarial Server. Las comprobaciones CAC se realizarán en la parte de la llamada que fluye por la red empresarial si el punto de conexión llamado pertenece a la organización y el servidor perimetral se ha agregado a la configuración de red, como se describe en [control de admisión de llamadas. implementación: lista de comprobación final de Skype empresarial Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Si el extremo destinatario de la llamada no pertenece a la organización, como un usuario federado o un usuario PIC, no se realizan comprobaciones de la directiva de ancho de banda y la llamada saliente ignorará cualquier restricción de CAC.
+El control de admisión de la llamada no se aplica más allá de los límites de la organización de Skype empresarial Server. No se puede aplicar CAC al tráfico multimedia que atraviesa Internet, que no es administrado por Skype empresarial Server. Las comprobaciones CAC se realizarán en la parte de la llamada que fluye a través de la red empresarial si el punto de conexión llamado pertenece a la organización y el servidor perimetral se ha agregado a la configuración de red, como se describe en [implementación de control de admisión de llamadas: lista de comprobación final de Skype empresarial Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Si el extremo destinatario de la llamada no pertenece a la organización, como un usuario federado o un usuario PIC, no se realizan comprobaciones de la directiva de ancho de banda y la llamada saliente ignorará cualquier restricción de CAC.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>Servicio de control de admisión de llamadas de conexiones RTC
 
@@ -180,7 +182,7 @@ Las directivas de ancho de banda del CAC pueden definir cualquiera de las siguie
 - Ancho de banda máximo asignado para una única videollamada (sesión).
 
 > [!NOTE]
-> Todos los valores de ancho de banda ** CAC representan los límites de ancho de banda unidireccional máximo.
+> Todos los valores de ancho de banda CAC representan los límites de ancho de banda *unidireccional* máximo.
 
 > [!NOTE]
 > Las características de la Directiva de voz de Skype empresarial Server proporcionan la capacidad de invalidar las comprobaciones de la Directiva de ancho de banda para las llamadas entrantes al usuario (no para las llamadas salientes que son colocadas por el usuario). Una vez establecida la sesión, se justificará detalladamente el consumo de ancho de banda. Esta configuración se tiene que usar con moderación. Para obtener más información, consulte [crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) o [modificar una directiva de voz y configurar los registros de uso de RTC](https://technet.microsoft.com/library/6c53aaf5-218b-4bd4-8cea-31bc9d53f1bd.aspx) en la documentación de implementación.

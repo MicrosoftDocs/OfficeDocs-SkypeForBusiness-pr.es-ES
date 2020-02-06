@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: En este tema se describe cómo instalar y abrir las herramientas administrativas necesarias para implementar y administrar Skype empresarial.
-ms.openlocfilehash: 612ea46fe8870944fa4b460b034bb9a7386a88bc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c720aba3998df8742406f4c9954f523b20e9af5f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34274404"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816559"
 ---
 # <a name="install-and-open-administrative-tools"></a>Instalar y abrir herramientas administrativas
 
@@ -33,7 +35,7 @@ En este tema se describe cómo instalar las herramientas administrativas necesar
     > [!Important]
     > Si su organización requiere que encuentre Internet Information Services (IIS) y todos los servicios web en una unidad distinta de la del sistema, puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Skype empresarial Server en el cuadro de diálogo Configuración. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Skype empresarial Server también se implementarán en esta unidad. 
 
-5. En la página contrato de licencia para el usuario final, revise los términos **** de licencia, haga clic en Acepto y, después, haga clic en **Aceptar**. Este paso es necesario para poder continuar.
+5. En la página contrato de licencia para el usuario final, revise los términos de licencia **, haga clic en Acepto y**, después, haga clic en **Aceptar**. Este paso es necesario para poder continuar.
 6. En la página Asistente para la implementación, haga clic en **instalar herramientas de administrador**. 
 7. Cuando la instalación finalice correctamente, haga clic en **salir**.
 

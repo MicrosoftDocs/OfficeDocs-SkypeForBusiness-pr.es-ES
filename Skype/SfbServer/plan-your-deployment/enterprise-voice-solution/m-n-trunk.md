@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: Skype empresarial Server Enterprise Voice es compatible con la Troncalización de M:N entre el servidor de mediación y los componentes, como las puertas de enlace RTC, los controladores de borde de sesión y IP-PBX.
-ms.openlocfilehash: 24be86c3b174eff70632ddd85a71b5ee7016b990
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d9a4a4f08f71cf00e079a5fe9fc5598380936474
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276736"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802740"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>M:N troncal en Skype empresarial Server
  
@@ -27,7 +29,7 @@ Skype empresarial Server Enterprise Voice es compatible con la Troncalización d
   
 Skype empresarial Server admite una mayor flexibilidad en la definición de un tronco para el enrutamiento de llamadas de versiones anteriores. Un tronco es una asociación lógica entre un servidor de mediación y un número de puerto de escucha con una puerta de enlace y un número de puerto de escucha. Esto implica varias cosas: un servidor de mediación puede tener varios troncos para la misma puerta de enlace. un servidor de mediación puede tener varios troncos en diferentes puertas de enlace. a la inversa, una puerta de enlace puede tener varios troncos en diferentes servidores de mediación.
   
-Aún debe crear un tronco raíz siempre que use el generador de topología para Adde una puerta de enlace a la topología. El número de puertas de enlace que un servidor de mediación dado puede controlar depende de la capacidad de procesamiento del servidor durante las horas de mayor actividad. Si implementa un servidor de mediación en hardware que supera los requisitos mínimos de hardware para Skype empresarial Server, según se describe en [requisitos del servidor para Skype empresarial server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), entonces se calcula la cantidad de llamadas activas de no omisión a el servidor de mediación independiente puede controlar es de aproximadamente 1000 llamadas. Cuando se implementa en el hardware que cumple estas especificaciones, se espera que el servidor de mediación realice la transcodificación, pero sigue enrutando las llamadas para varias puertas de enlace incluso si las puertas de enlace no admiten la omisión de medios.
+Aún debe crear un tronco raíz siempre que use el generador de topología para Adde una puerta de enlace a la topología. El número de puertas de enlace que un servidor de mediación dado puede controlar depende de la capacidad de procesamiento del servidor durante las horas de mayor actividad. Si implementa un servidor de mediación en hardware que supera los requisitos mínimos de hardware para Skype empresarial Server, según se describe en [requisitos de servidor para Skype empresarial server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md), la estimación de cuántas llamadas de no omisión activas puede controlar un servidor de mediación independiente es de aproximadamente 1000 llamadas. Cuando se implementa en el hardware que cumple estas especificaciones, se espera que el servidor de mediación realice la transcodificación, pero sigue enrutando las llamadas para varias puertas de enlace incluso si las puertas de enlace no admiten la omisión de medios.
   
 Al definir una ruta de llamada, especifica los troncos asociados a esa ruta, pero no especifica qué servidores de mediación están asociados a esa ruta. En su lugar, use el generador de topología para asociar troncos con servidores de mediación. En otras palabras, el enrutamiento determina qué tronco se debe usar para una llamada y, posteriormente, el servidor de mediación asociado con ese tronco se envía a través de la señalización de esa llamada.
   

@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumen: Revise las consideraciones de equilibrio de carga antes de implementar Skype empresarial Server.'
-ms.openlocfilehash: 2db9b7aa37f71d445feb3cfd9a09e49f44ca48f0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 199c93528d89786573bdac16077f1e32feb1fe6f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297060"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802050"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos del equilibrio de carga para Skype Empresarial
  
@@ -114,7 +116,7 @@ Si se implementan dispositivos móviles, es preciso que el equilibrador de carga
   
 A continuación, se muestran los requisitos del equilibrador de carga de hardware para los servicios web del grupo de servidores front-end y de directores:
   
-- Para VIP de los servicios web internos, configure la persistencia Source_addr (puerto interno 80, 443) en el equilibrador de carga de hardware. En el caso de Skype empresarial Server, la persistencia de Source_addr significa que varias conexiones provenientes de una única dirección IP siempre se envían a un servidor para mantener el estado de la sesión.
+- Para VIP de los servicios web internos, configure la persistencia Source_addr (puerto interno 80, 443) en el equilibrador de carga de hardware. En el caso de Skype empresarial Server, la persistencia de Source_addr significa que varias conexiones procedentes de una única dirección IP siempre se envían a un servidor para mantener el estado de la sesión.
     
 - Use un tiempo de espera de inactividad de TCP de 1800 segundos.
     
@@ -136,15 +138,15 @@ Es necesario definir la supervisión de puertos en los equilibradores de carga d
 
 |**Puerto/IP virtual**|**Puerto de nodo**|**Monitor/máquina de nodo**|**Perfil de persistencia**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<Web\>de Pool-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-end  <br/> 5061  <br/> |Origen  <br/> |HTTPS  <br/> |
-|\<Web\>de Pool-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-end  <br/> 5061  <br/> |Origen  <br/> |HTTP  <br/> |
+|\<Web\>del grupo: int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-end  <br/> 5061  <br/> |Origen  <br/> |HTTPS  <br/> |
+|\<Web\>del grupo: int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-end  <br/> 5061  <br/> |Origen  <br/> |HTTP  <br/> |
    
 **Grupo de usuarios del servidor front-end-interfaz externa de HLB**
 
 |**Puerto/IP virtual**|**Puerto de nodo**|**Monitor/máquina de nodo**|**Perfil de persistencia**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<Grupo\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTPS  <br/> |
-|\<Grupo\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTP  <br/> |
+|\<web_mco_443_vs\>de grupo  <br/> 443  <br/> |4443  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTPS  <br/> |
+|\<web_mco_80_vs\>de grupo  <br/> 80  <br/> |8080  <br/> |Front-end  <br/> 5061  <br/> |Ninguno  <br/> |HTTP  <br/> |
    
 ## <a name="dns-load-balancing"></a>Equilibrio de carga de DNS
 <a name="BKMK_DNSLoadBalancing"> </a>
@@ -159,7 +161,7 @@ En el siguiente diagrama se muestra un ejemplo que incluye el equilibrio de carg
 
 ![ejemplo de diagrama de red DNS](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-Si se utiliza el equilibrio de carga de DNS también podrá adquirir equilibradores de carga de hardware a un precio más económico que si usa equilibradores de carga de hardware para todos los tipos de tráfico. Debe usar equilibradores de carga que hayan superado las pruebas de calificación de interoperabilidad con Skype empresarial Server. Para obtener detalles sobre las pruebas de interoperabilidad de equilibrador de carga, consulte [Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=202452)de equilibrador de carga. El contenido que se aplica a Skype empresarial Server.
+Si se utiliza el equilibrio de carga de DNS también podrá adquirir equilibradores de carga de hardware a un precio más económico que si usa equilibradores de carga de hardware para todos los tipos de tráfico. Debe usar equilibradores de carga que hayan superado las pruebas de calificación de interoperabilidad con Skype empresarial Server. Para obtener detalles sobre las pruebas de interoperabilidad de equilibrador de carga, consulte [Lync Server 2010 de equilibrador de carga](https://go.microsoft.com/fwlink/p/?linkId=202452). El contenido que se aplica a Skype empresarial Server.
   
 El equilibrio de carga de DNS es compatible con grupos de servidores front-end, grupos de servidores perimetrales, grupos de servidores de director y grupos de servidores de mediación independientes.
   
@@ -233,7 +235,7 @@ Para implementar el equilibrio de carga de DNS en grupos de servidores front-end
   
 - Un grupo que usa el equilibrio de carga DNS debe tener dos FQDN: el FQDN de la agrupación normal que usa el equilibrio de carga DNS (como pool01.contoso.com), y se resuelve en la IPs física de los servidores del grupo, y otro FQDN para los servicios web del grupo (como, por ejemplo, web01.contoso.com), que se resuelve en la dirección IP virtual del grupo. 
     
-    En el generador de topología, si desea implementar el equilibrio de carga de DNS para un grupo, para crear este FQDN adicional para los servicios web del grupo, debe activar la casilla **invalidar FQDN del grupo de servicios Web internos** y escribir el FQDN, en **especificar las direcciones URL de servicios web para Esta** página de grupo.
+    En el generador de topología, si desea implementar el equilibrio de carga de DNS para un grupo, para crear este FQDN adicional para los servicios web del grupo, debe activar la casilla **invalidar FQDN del grupo de servicios Web internos** y escribir el FQDN en la página **especificar las direcciones URL de los servicios web para este grupo** .
     
 - Para admitir el FQDN que usa el equilibrio de carga de DNS, necesita aprovisionar el DNS, de modo que resuelva el FQDN del grupo (como, por ejemplo, pool01.contoso.com) en las direcciones IP de todos los servidores del grupo (por ejemplo, 192.168.1.1, 192.168.1.2, etc.). Necesita incluir solo las direcciones IP de los servidores implementados actualmente.
     

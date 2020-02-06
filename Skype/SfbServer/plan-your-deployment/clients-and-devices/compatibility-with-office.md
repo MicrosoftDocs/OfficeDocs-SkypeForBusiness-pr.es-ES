@@ -8,18 +8,20 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Comprender las formas en las que puede obtener acceso a las características de Skype empresarial desde Outlook y desde otras aplicaciones de Microsoft Office.
-ms.openlocfilehash: c24c6b08e21db357d52b1cc130e53f23b6123ff6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e91174850cb82d325eb9a3f75577d3aaeb3b90f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277436"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803690"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Compatibilidad de Skype empresarial con las aplicaciones de Office
  
@@ -36,14 +38,14 @@ En la siguiente tabla se describen las características de Skype empresarial com
 |**Característica**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 y 2016**|&#x2776; **de Office 2016 para Mac** |
 |:-----|:-----|:-----|:-----|
 |**Características de Outlook** ||||
-|Personalizar invitaciones a reuniones de Outlook (agregar logotipo, URL de ayuda, declinación de responsabilidades, texto del pie de página)  |No  |Sí    |Sí|
+|Personalizar invitaciones a reuniones de Outlook (agregar logotipo, URL de ayuda, declinación de responsabilidades, texto del pie de página)  |No  |Sí   |Sí|
 |Configurar la opción de reunión para silenciar el audio y el vídeo de los asistentes de manera predeterminada    |No    |Sí    |No    |
 |Almacén de contactos unificado para administrar listas de contactos en Office y Skype empresarial    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
 |Imágenes de Perfil de alta resolución    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
-|Estado de presencia en los campos de Microsoft Outlook de, para y CC    |Sí     |Sí     |Sí    |
+|Estado de presencia en los campos de Microsoft Outlook de, para y CC    |Sí     |Sí     |Sí     |
 |Responder con mensajes instantáneos o llamadas desde el menú de disponibilidad    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |
 |Estado de presencia en una convocatoria de reunión en la pestaña Asistente para programación    |Sí     |Sí    |No    |
-|Responder con mi o llamar desde la barra de herramientas o la cinta de opciones en un mensaje de correo electrónico recibido    |Sí     |Sí     |Sí    |
+|Responder con mi o llamar desde la barra de herramientas o la cinta de opciones en un mensaje de correo electrónico recibido    |Sí     |Sí     |Sí     |
 |**Otras aplicaciones de Office**   ||||
 |Notas compartidas de OneNote    |No    |Sí    |No    |
 |Configuración integrada en el programa de configuración de Office    |No    |Sí    |No    |

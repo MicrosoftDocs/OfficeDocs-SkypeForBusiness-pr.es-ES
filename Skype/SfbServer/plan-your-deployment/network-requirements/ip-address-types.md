@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Resumen: Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype empresarial Server.'
-ms.openlocfilehash: 21e6254255766874872a342a2316dc8cddd5f9d2
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 74cb0738c7c6eb0518d8ab4ed4fae7db66921bfb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297053"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802120"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de dirección IP en Skype Empresarial
 
@@ -59,7 +61,7 @@ Con el generador de topologías, siga los pasos que se indican en el siguiente p
 
 ### <a name="to-deploy-ip-address-types-on-a-mediation-server"></a>Para implementar tipos de direcciones IP en un servidor de mediación
 
-- En el generador de topologías, en **grupos**de mediación, haga clic con el botón secundario en el servidor de un grupo y seleccione **Editar propiedades**. (También puede seleccionar el servidor y, a continuación, hacer clic en **Editar propiedades** en el menú **acción** ).
+- En el generador de topologías, en **grupos de mediación**, haga clic con el botón secundario en el servidor de un grupo y seleccione **Editar propiedades**. (También puede seleccionar el servidor y, a continuación, hacer clic en **Editar propiedades** en el menú **acción** ).
 
 - En el cuadro de diálogo **Editar propiedades**, seleccione el tipo de dirección IP que desea configurar. Para establecer una configuración de doble pila, seleccione **Habilitar IPv4** y **Habilitar IPv6**, como se muestra en la figura siguiente.
 

@@ -8,15 +8,17 @@ ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 043b63ae-2d64-4f38-a0df-18aa08d6caf5
 description: La tabla CallPriorities es una tabla estática que almacena la lista de posibles prioridades de llamadas, como ' Emergency ', ' urgente ' o ' normal '.
-ms.openlocfilehash: 6d324ce11b2e149378b6275441cb4a2467a641db
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 57ab4c2b190b14d26a7f8be1791eb70473f1eb3c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296570"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815448"
 ---
 # <a name="callpriorities-table-in-skype-for-business-server-2015"></a>Tabla CallPriorities en Skype empresarial Server 2015
  

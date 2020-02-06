@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Obtenga información sobre cómo Skype empresarial Server Enterprise Voice admite el enrutamiento entre troncales.
-ms.openlocfilehash: f590463eced61cf2e8b19a27f7cfc2dd648c63c1
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 85a77fea8fb414a90b556e5862c42e2c59046dec
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276834"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41802860"
 ---
 # <a name="inter-trunk-routing-in-skype-for-business-server"></a>Enrutamiento entre troncales en Skype empresarial Server
  

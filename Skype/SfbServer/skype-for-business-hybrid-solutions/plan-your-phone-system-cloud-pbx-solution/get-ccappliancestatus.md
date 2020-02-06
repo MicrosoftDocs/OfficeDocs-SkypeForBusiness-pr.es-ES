@@ -8,15 +8,17 @@ ms.date: 11/15/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
 description: El cmdlet Get-CcApplianceStatus proporciona información de diagnóstico para el dispositivo de la edición Cloud Connector de Skype empresarial.
-ms.openlocfilehash: b728ae51fba1b8f448cc161f3ea3fe5b89297488
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 65fc14301d85fd4826479eabcdf238b85dff54ab
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287345"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41800590"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  

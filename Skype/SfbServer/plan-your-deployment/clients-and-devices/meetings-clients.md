@@ -8,6 +8,8 @@ ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: los profesionales de TI deben revisar los requisitos de soporte técnico para la aplicación Web de Skype empresarial y la aplicación reuniones de Skype mientras planea Skype empresarial Server. Este artículo no está dirigido a los usuarios de estas aplicaciones.'
-ms.openlocfilehash: a2bc418b9179a63452c5d4fdd1990676f9db4b14
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 126d8ffc71a2ff1a0bcbf26c744301736d2b47b2
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34277317"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41803560"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planear clientes de reuniones (aplicación web y aplicación reuniones)
  
@@ -38,7 +40,7 @@ Más adelante, los usuarios pueden crear reuniones e invitar a usuarios externos
   
 De forma predeterminada, el servidor que hospeda la reunión indicará al usuario que descargue e instale la aplicación Web de Skype empresarial para unirse a la reunión. La aplicación Web de Skype empresarial se almacena en el servidor front-end y se envía al asistente de la reunión. 
   
-Para Skype empresarial Server, la aplicación reuniones de Skype (en Windows) y Skype empresarial para Mac (en Mac) están disponibles como reemplazos de la aplicación Web de Skype empresarial a partir de CU5, pero proporcionar las aplicaciones de reemplazo requiere la configuración adicional. se describe en [Habilitar la aplicación reuniones de Skype para reemplazar la aplicación Web de Skype empresarial (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si la aplicación reuniones de Skype y Skype empresarial para Mac están habilitadas, los usuarios descargarán la versión más reciente de las aplicaciones de la red de entrega de contenido (CDN) de Office 365 en lugar de hacerlo desde Skype empresarial Server. Para Skype empresarial Server 2019, usar la aplicación reuniones de Skype y Skype empresarial para Mac es la única opción.
+Para Skype empresarial Server, la aplicación reuniones de Skype (en Windows) y Skype empresarial para Mac (en Mac) están disponibles como reemplazos de la aplicación Web de Skype empresarial empezando por CU5, pero para ello es necesario que la configuración adicional descrita en [Habilitar la aplicación reuniones de Skype para reemplazar la aplicación Web de Skype empresarial (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si la aplicación reuniones de Skype y Skype empresarial para Mac están habilitadas, los usuarios descargarán la versión más reciente de las aplicaciones de la red de entrega de contenido (CDN) de Office 365 en lugar de hacerlo desde Skype empresarial Server. Para Skype empresarial Server 2019, usar la aplicación reuniones de Skype y Skype empresarial para Mac es la única opción.
   
 La aplicación reuniones de Skype ofrece una experiencia de explorador simplificada para descargar e instalar la aplicación y unirse a reuniones, incluida una unión con un solo clic para los usuarios de Internet Explorer. La aplicación reuniones de Skype también tiene muchas mejoras en la aplicación Web de Skype empresarial para la confiabilidad y la experiencia de reunión. 
   
@@ -156,7 +158,7 @@ Para los usuarios finales, la [ayuda en línea](https://aka.ms/smahelp) para est
     
 - Debe tener [ActiveX habilitado sin filtrar](https://support.office.com/en-us/article/Turn-off-ActiveX-filtering-for-Skype-for-Business-Web-App-b6de8ff6-ac7e-4e2f-b18c-2f13db643c41?ui=en-US&amp;rs=en-US&amp;ad=US) en Internet Explorer, incluso si IE no es el explorador predeterminado. En la aplicación Web de Skype empresarial, es necesario un control ActiveX, un pequeño módulo que agrega características adicionales a una aplicación web u otro programa, para compartir audio, vídeo y pantalla.
     
-- Para que algunas de las características de la aplicación Web de Skype empresarial funcionen correctamente, debe permitir que el explorador [guarde](https://support.office.com/en-us/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) las cookies en el equipo o dispositivo.
+- Para que algunas de las características de la aplicación Web de Skype empresarial funcionen correctamente, debe permitir que el explorador [Guarde las cookies](https://support.office.com/en-us/article/Allow-cookies-for-Skype-Meetings-App-Skype-for-Business-Web-App-2108276b-b5c3-484b-bf2b-dac6eeba4c93) en el equipo o dispositivo.
     
 - Es posible que tenga que activar la compatibilidad con [JavaScript](https://support.office.com/en-us/article/Turn-on-JavaScript-for-Skype-Meetings-App-Skype-for-Business-Web-App-3d997bf9-637c-4fe6-8ee3-9e62bfda52cd) en el explorador para que algunas características de la aplicación Web de Skype empresarial funcionen de la forma esperada.
     

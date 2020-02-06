@@ -8,15 +8,17 @@ ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Antes de implementar y trabajar con Skype empresarial Server, debe preparar los servicios de dominio de Active Directory extendiendo el esquema. Las extensiones de esquema agregan las clases y los atributos que necesita Skype empresarial Server.
-ms.openlocfilehash: 34f97f7a37adc23635f938fb12c9a72e22429538
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 0c3765fe36b252cc03218a3fa4365c5cc36c7f48
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34296661"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41815488"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Cambios de esquema en Skype empresarial Server
  
@@ -33,7 +35,7 @@ Skype empresarial Server requiere varias clases y atributos nuevos y modifica al
     
   - Extensiones para las clases para mantener la compatibilidad con versiones anteriores compatibles de Lync Server.
     
-- **Datos** (se almacena en el esquema extendido de Skype empresarial Server y en las clases de esquema existentes):
+- **Datos** (almacenados en el esquema extendido de Skype empresarial Server y en las clases de esquema existentes):
     
   - Identificador uniforme de recursos (URI) SIP de usuario y otra configuración de usuario
     

@@ -8,15 +8,17 @@ ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: La tabla SessionCorrelation es una tabla de soporte. Cada registro representa un CorrelationID que se usa para correlacionar varias sesiones.
-ms.openlocfilehash: 3c307b9542b9c1f37967a40ae63979d72e0504ae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: cd9f477ad71b836fb204aab651aceb7bbb5832f8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294659"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41805748"
 ---
 # <a name="sessioncorrelation-table"></a>Tabla SessionCorrelation
  
