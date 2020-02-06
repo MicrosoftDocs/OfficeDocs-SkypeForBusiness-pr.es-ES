@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Uno de los primeros pasos necesarios para la migración a Skype empresarial Server 2019 es implementar un grupo piloto. El grupo piloto es donde se prueba la coexistencia de Skype empresarial Server 2019 con la implementación heredada. La coexistencia es un estado temporal que dura hasta que ha movido todos los usuarios y los grupos a Skype empresarial Server 2019.
-ms.openlocfilehash: dc0e5b984aaa9ed931f3937b253fbe40aef9b051
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 55f7383300ba8fbe1623e63bc42aa40102dd8b41
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238384"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813648"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Implementar el grupo piloto de Skype empresarial Server 2019
 
@@ -54,7 +56,7 @@ Al implementar un grupo piloto, se usa el Asistente para definir el nuevo grupo 
   
 11. Cuando el proceso de publicación haya finalizado, haga clic en **Finalizar**.
 
-12. Antes de pasar a la sección siguiente denominada "comprobar coexistencia de grupo piloto con grupo de servidores heredados", debe instalar el nuevo grupo piloto front end de Skype empresarial que acabamos de definir en la topología publicada, siga los procedimientos descritos aquí [instalar Skype para Servidor empresarial en servidores de la topología](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+12. Antes de pasar a la sección siguiente denominada "comprobar coexistencia con grupo piloto", debe instalar el nuevo grupo piloto front end de Skype empresarial que acabamos de definir en la topología publicada, siga los procedimientos descritos aquí [instalar Skype empresarial Server en servidores de la topología](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
 
 13. Una vez completado el paso anterior, vaya a la siguiente sección para comprobar la coexistencia del grupo piloto con el grupo heredado.
     

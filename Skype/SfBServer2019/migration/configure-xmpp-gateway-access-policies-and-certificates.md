@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'La Federación XMPP define una implementación externa basada en el protocolo de presencia y mensajería extensible (XMPP). Una configuración XMPP permite a los usuarios acceder a los usuarios del dominio XMPP de la siguiente manera:'
-ms.openlocfilehash: 01adcbe06718068e84844f704858e04198b197b2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8182153bf3633b2392969f5870a7d5b96471d4fb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239294"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813768"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar certificados y directivas de acceso por puerta de enlace XMPP
 
@@ -27,7 +29,7 @@ La Federación XMPP define una implementación externa basada en el protocolo de
 Al configurar directivas para la compatibilidad de los socios de XMPP federados, las directivas se aplican a los usuarios de XMPP Federated Domains, pero no a los usuarios de los proveedores de servicios de mensajería instantánea (mi) protocolo de inicio de sesión (mi) ni a los dominios federados de SIP. Configure un socio de XMPP federado para cada dominio de XMPP federado que desee permitir a los usuarios que añadan contactos y se comuniquen con ellos. Una vez que las directivas estén en vigor, tendrá que configurar los certificados de la puerta de enlace XMPP. 
   
 > [!NOTE]
-> La funcionalidad de XMPP es obsoleta en Skype empresarial Server 2019, pero puede continuarse en un servidor heredado en coexistencia con Skype empresarial Server 2019. Asegúrese de que ya ha implementado el servidor heredado (Skype empresarial Server 2015/Lync Server 2013) puerta de enlace XMPP y ha configurado las directivas de acceso para habilitar a los usuarios para la puerta de enlace XMPP heredada. Para obtener más información, consulte migrar la [Federación XMPP](migrating-xmpp-federation.md). 
+> La funcionalidad de XMPP es obsoleta en Skype empresarial Server 2019, pero puede continuarse en un servidor heredado en coexistencia con Skype empresarial Server 2019. Asegúrese de que ya ha implementado el servidor heredado (Skype empresarial Server 2015/Lync Server 2013) puerta de enlace XMPP y ha configurado las directivas de acceso para habilitar a los usuarios para la puerta de enlace XMPP heredada. Para obtener más información, consulte [migrar la Federación XMPP](migrating-xmpp-federation.md). 
   
 ### <a name="configure-an-external-access-policy-to-enable-users-for-legacy-xmpp-gateway"></a>Configurar una directiva de acceso externo para habilitar a los usuarios para la puerta de enlace XMPP heredada
 

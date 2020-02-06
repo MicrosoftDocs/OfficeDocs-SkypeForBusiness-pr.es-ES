@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Puede mover varios usuarios de su grupo heredado a su grupo piloto de Skype empresarial Server 2019 con el panel de control de Skype empresarial Server 2019 o el shell de administración de Skype empresarial 2019.
-ms.openlocfilehash: abaffea04ff190b2ae99639484f63b564fd7784a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 62cf398a55be9c17526e8d607642db236ae57a3f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40988955"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813278"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Mover varios usuarios a la agrupación piloto
 

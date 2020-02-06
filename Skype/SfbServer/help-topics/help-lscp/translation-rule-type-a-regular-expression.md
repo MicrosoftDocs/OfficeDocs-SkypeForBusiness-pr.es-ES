@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceRuleRegexEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 description: En el campo coincidir con este patrón, especifique el patrón que se usará para coincidir con los números que se van a traducir. En el campo regla de traducción, especifique un patrón para el formato de los números traducidos. Por ejemplo, si escribe ^\+(\d{9}\d +) $ en el campo coincidir con este patrón y 011 $1 en el campo regla de traducción, la regla traducirá + 441235551010 a 011441235551010.
-ms.openlocfilehash: 98a04d3c7346557bcb095e7187a13f2e93646075
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b2797d8c37e666d86eb3b25cdcd43f069eb25498
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699355"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821942"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>Regla de conversión: Escribir una expresión regular
  

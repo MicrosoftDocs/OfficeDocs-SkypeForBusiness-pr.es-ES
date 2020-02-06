@@ -8,18 +8,20 @@ ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.DisasterRecovery
 - ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: Skype empresarial Server 2015 incluye medidas de recuperación ante desastres que le permiten emparejar grupos de aplicaciones para el usuario que se encuentran en dos centros de datos.
-ms.openlocfilehash: 78abad6c8c7baa12ca1162ddfa5b5db6773d7e03
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ccd71aec340f8f9dd60e687967d77bc387e2f57d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698925"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821512"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)
  

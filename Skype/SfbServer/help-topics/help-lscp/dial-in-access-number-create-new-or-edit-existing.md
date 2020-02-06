@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ConfCAAEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 4b8099d1704c23e33cb5401472f273d80b899b31
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9c9057ed360b12f3dbd29e16c2f0d3d30db22855
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686823"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822883"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Número de acceso telefónico local: Crear nuevo o editar existente
 

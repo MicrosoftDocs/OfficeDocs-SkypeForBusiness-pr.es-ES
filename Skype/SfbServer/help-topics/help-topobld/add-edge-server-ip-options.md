@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerIPOptionsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: 'Microsoft Lync Server 2013 le permite configurar direcciones IPv4 e IPv6 para cada interfaz del servidor perimetral y el grupo Edge. Para ello, haga lo siguiente:'
-ms.openlocfilehash: f6721f170bbe9a05a247d5ab79fb2cbd1cb7ccaf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7dd3766bf88dee6e59fb890925cd9f73c23ceab6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698415"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821032"
 ---
 # <a name="add-edge-server-ip-options"></a>Agregar opciones IP de servidor perimetral
  

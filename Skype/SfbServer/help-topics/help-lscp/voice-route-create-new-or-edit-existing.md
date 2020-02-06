@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceRouteEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 6e638e7d8ebe035c744b22001ae76e45d5c81961
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b7bf1aff923500ff659fe21f159f25b72d0d737b
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685563"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821652"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>Ruta de voz: Crear nuevos o editar los existentes
 

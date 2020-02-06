@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerOptionsPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 'Defina un nuevo servidor perimetral o un grupo de servidores perimetrales y se le presentará la oportunidad de definir características para el nuevo servidor o grupo. Las opciones que puede elegir son:'
-ms.openlocfilehash: 953aa6c0bcb5d5bf65f0ba649545aef909d3b647
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 983a8a6e4fdeea34930cc9adf2b2cb29e4c75759
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698365"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820992"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Agregar opciones de servidor perimetral para Lync Server 2010
 

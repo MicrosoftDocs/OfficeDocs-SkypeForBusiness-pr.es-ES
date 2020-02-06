@@ -8,17 +8,19 @@ ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.ConfCAASelLang
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: Seleccione los idiomas que quiera usar para el número de acceso para conferencia de acceso telefónico local. Para obtener información detallada, consulte Create or Modify a Dial-in Conferencing Access Number.
-ms.openlocfilehash: 801b36a94ee972aaed1ef0934263d79a5e2907de
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5400374b6754122b25c2bfa5bcb877c552ba410e
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699575"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822183"
 ---
 # <a name="select-languages"></a>Seleccionar idiomas
 

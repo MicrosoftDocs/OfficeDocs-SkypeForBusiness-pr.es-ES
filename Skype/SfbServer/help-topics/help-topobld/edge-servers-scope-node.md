@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: 'El nodo Grupos de servidores perimetrales contiene los grupos de servidores perimetrales de la topología. You can perform the following action:'
-ms.openlocfilehash: 16c650947c8307937676554508ffb82aa66452c7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ae6cc28e414d2cea853f1e920a6cc51c25125942
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697414"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820032"
 ---
 # <a name="edge-servers-scope-node"></a>Nodo de ámbito de servidores perimetrales
  

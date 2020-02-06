@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: La Federación es una relación de confianza entre dos o más dominios SIP que permite a los usuarios de organizaciones independientes comunicarse a través de los límites de la red. Después de migrar a su grupo piloto, debe realizar una transición de la ruta de Federación de sus servidores perimetrales de versiones anteriores a la ruta de Federación de sus servidores perimetrales de Skype empresarial Server 2019.
-ms.openlocfilehash: 50c10a4dced237e59c8dad12b5bdee1ef7d970fe
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 71417307fd46c2c29535cea3a52f0286ad6dc951
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239365"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813818"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurar las rutas de federación y el tráfico multimedia
 
@@ -45,7 +47,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
   
 6. Haga clic en **Aceptar** para cerrar la página Editar propiedades. 
     
-7. En el **generador**de topologías, seleccione el nodo principal de **Skype empresarial Server**.
+7. En el **generador de topologías**, seleccione el nodo principal de **Skype empresarial Server**.
     
 8. En el menú **acción** , haga clic en **publicar topología**.
     
@@ -53,7 +55,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
     
 ## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Para configurar el servidor perimetral heredado como servidor perimetral de no Federación
 
-1. En el panel de la izquierda, navegue hasta el nodo instalación heredada y, a continuación, al nodo contornos de **borde** . 
+1. En el panel de la izquierda, navegue hasta el nodo instalación heredada y, a continuación, al nodo **contornos de borde** . 
     
 2. Haga clic con el botón secundario en el servidor perimetral y luego haga clic en **Editar propiedades**.
     
@@ -104,7 +106,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
   
 4. Haga clic en **Aceptar** para cerrar la página Editar propiedades. 
     
-5. En el **generador**de topologías, seleccione el nodo principal de **Skype empresarial Server**. 
+5. En el **generador de topologías**, seleccione el nodo principal de **Skype empresarial Server**. 
     
 6. En el menú **acción** , haga clic en **publicar topología** y complete el asistente. 
     
@@ -147,7 +149,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
     
 ## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar cambios en la configuración del servidor perimetral
 
-1. En el **generador**de topologías, seleccione el nodo principal de **Skype empresarial Server**. 
+1. En el **generador de topologías**, seleccione el nodo principal de **Skype empresarial Server**. 
     
 2. En el menú **acción** , seleccione **publicar topología** y complete el asistente. 
     
@@ -173,7 +175,7 @@ Use los procedimientos siguientes para realizar la transición de la ruta de Fed
     
 6. Haga clic con el botón secundario en el nombre de servicios y, a continuación, seleccione **detener** para detener el servicio. 
     
-7. Establezca el tipo de inicio **** en deshabilitado. 
+7. Establezca el tipo de inicio en **deshabilitado**. 
     
 8. Haga clic en **Aceptar** para cerrar la ventana **propiedades** . 
     

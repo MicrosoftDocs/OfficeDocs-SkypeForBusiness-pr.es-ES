@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerAssociationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: Use esta página para seleccionar qué grupos de aplicaciones para usuario y servidores Standard Edition usarán este grupo perimetral para tráfico de A/V.
-ms.openlocfilehash: 6c0e55922897270990cc36fe2b20ea3469bad298
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2fc4bd0f582fcac45f397d04467ed20d7f217551
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685283"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821102"
 ---
 # <a name="add-edge-server-associations"></a>Agregar asociaciones de servidor perimetral
  

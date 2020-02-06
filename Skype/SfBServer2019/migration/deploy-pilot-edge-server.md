@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: En este tema se destacan las opciones de configuración que debería conocer antes de implementar el servidor perimetral de Skype empresarial Server 2019. Los procesos de implementación y configuración de Skype empresarial Server 2019 son muy similares a los de Skype empresarial Server 2015. Esta sección solo resalta los puntos clave que debe considerar como parte de la implementación de un grupo piloto. Para conocer los pasos detallados, vea implementar el acceso de usuarios externos en Skype empresarial Server 2019 en la documentación de implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
-ms.openlocfilehash: b416ba38646d05f3d10a7d2643c01924fe57020a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c2beb22e2cce608b692884ad9b49fef40cb87058
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238391"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813658"
 ---
 # <a name="deploy-pilot-edge-server"></a>Implementar el servidor perimetral piloto
 
@@ -27,7 +29,7 @@ Mientras navega por el asistente **definir nuevo grupo de bordes** , revise la c
 
 1. Inicie sesión en el equipo donde se encuentre instalado el Generador de topologías como miembro del grupo Administradores del dominio y el grupo RTCUniversalServerAdmins.
     
-2. Vaya al nodo de Skype empresarial Server 2019. Haga clic con **** el botón secundario en agrupaciones perimetrales y haga clic en **nuevo borde**.
+2. Vaya al nodo de Skype empresarial Server 2019. Haga clic con el botón secundario en **agrupaciones perimetrales**y haga clic en **nuevo borde**.
     
      ![Definir el cuadro de diálogo nuevo grupo perimetral](../media/migration_ocs_topo_edgepool_page1.JPG)
   

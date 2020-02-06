@@ -8,17 +8,19 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddVisUsagePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 description: Los pasos necesarios para definir una nueva puerta de enlace de VIS o video en el generador de topología se describen en línea en crear un grupo VIS de Skype empresarial Server 2015.
-ms.openlocfilehash: 20ee9ab5f4ab5d618fcc17bbd99564e5c09250cb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f7ac281c316cab9964bd9f9a1b243bf7072d62e0
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684983"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41820502"
 ---
 # <a name="add-vis-usage"></a>Agregar uso de VIS
  

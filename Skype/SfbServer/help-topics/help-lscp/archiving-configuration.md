@@ -8,17 +8,19 @@ ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'Las configuraciones de archivado se usan para controlar las opciones de archivado de la implementación de Skype empresarial Server, incluida la activación y desactivación de las siguientes opciones:'
-ms.openlocfilehash: f56b452058a8ce51ac5d5761e9b24c6595bbdd39
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c8c0b9ba6937dbc0e898da417ce87d6efc25477d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687043"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823213"
 ---
 # <a name="archiving-configuration"></a>Configuración de archivado
  

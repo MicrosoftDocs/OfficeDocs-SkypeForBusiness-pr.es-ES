@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.UserViewMobility
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: El cuadro de diálogo de la Directiva de movilidad de vista muestra las propiedades de la Directiva de movilidad seleccionada.
-ms.openlocfilehash: 94371a8deeb7b66e0ad866f73998ce8f957de773
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cd4bf527deb5d893f97a843c6fd8c2247501a4d7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699174"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821802"
 ---
 # <a name="users-view-mobility-policy"></a>Usuarios: Ver directiva de movilidad
 

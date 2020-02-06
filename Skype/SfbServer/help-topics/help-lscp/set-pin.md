@@ -8,17 +8,19 @@ ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.UserSetPin
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: Para generar el PIN del usuario, seleccione generar automáticamente un PIN válido.
-ms.openlocfilehash: 3f128fdee98ac89348819d3d79291c431c7a115d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5e3b10f574d64a9f8ed66e5dd7446f9cf352dd3f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685813"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822092"
 ---
 # <a name="set-pin"></a>Establecer PIN
 

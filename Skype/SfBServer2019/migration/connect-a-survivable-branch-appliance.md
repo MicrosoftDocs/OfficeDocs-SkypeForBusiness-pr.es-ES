@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Cada dispositivo de sucursal con supervivencia (SBA) está asociado con un grupo de servidores front-end que sirve como registrador de copias de seguridad de la SBA. Cuando el grupo de servidores front-end se migra a Skype empresarial Server 2019, SBA debe estar desvinculado del grupo front-end mientras se actualiza el grupo, una vez que el grupo se ha migrado a Skype empresarial Server 2019, la SBA se puede volver a asociar con la actualización frontal E Grupo ND. Esto implica eliminar la SBA de la topología heredada en el generador de topología y, a continuación, agregar el SBA a la topología de Skype empresarial Server 2019. Los usuarios alojados en el SBA heredado deben moverse primero a otro grupo de servidores front end antes de quitar SBA de la topología. Una vez agregada SBA a la topología de Skype empresarial Server 2019, esos usuarios podrán volver a la SBA. Estos pasos se resumen a continuación:'
-ms.openlocfilehash: e5545a2de4eddd65790f425ab888b8fd07faf970
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: daeb061936ece02767e3299d2358d8e16ba09218
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239287"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813738"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar una aplicación de sucursal con funciones de supervivencia
 
@@ -30,7 +32,7 @@ Cada dispositivo de sucursal con supervivencia (SBA) está asociado con un grupo
     
 ### <a name="add-legacy-sba-branch-site-to-your-topology"></a>Agregar el sitio de la sucursal de SBA heredado a su topología
 
-1. Abra el **generador**de topologías.
+1. Abra el **generador de topologías**.
     
 2. En el panel de la izquierda, haga clic con el botón secundario en **sitios de sucursales**y luego haga clic en **nuevo sitio de sucursal**.
     

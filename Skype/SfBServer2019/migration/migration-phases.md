@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: En Skype empresarial Server 2019, define sitios en su red que contienen componentes de Skype empresarial Server 2019. Un sitio es un conjunto de equipos que están conectados correctamente mediante una red de alta velocidad y baja latencia, como una única red de área local (LAN) o dos redes conectadas por una red de fibra óptica de alta velocidad.
-ms.openlocfilehash: 1ad93a512a1aab596e08744f76d74e2e41a9faa5
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: b7d7fbddfe77c1303f0f6bde95827d94d7483f32
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237789"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813428"
 ---
 # <a name="migration-phases"></a>Fases de la migración
 

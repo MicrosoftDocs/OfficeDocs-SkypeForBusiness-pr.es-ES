@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: 'Puede mover usuarios a la nueva implementación de Skype empresarial Server 2019 con el panel de control de Skype empresarial Server o el shell de administración de Skype empresarial. Debe cumplir algunos requisitos para garantizar una transición sin problemas a Skype empresarial Server 2019. Para obtener más información sobre los requisitos previos para completar los procedimientos de este tema, vea Configurar clientes para la migración. Para conocer los pasos detallados sobre cómo mover usuarios, consulte la fase 4: mover usuarios de prueba a la agrupación piloto.'
-ms.openlocfilehash: 8c12ca52e162c4317dabc59d5de9b74082730882
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ac384e9f9e4aaaa534f5b646f1d847485dbb4c23
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244568"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813268"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Mover los usuarios restantes a Skype empresarial Server 2019
 
@@ -37,7 +39,7 @@ Al mover un usuario a un grupo de servidores de Skype empresarial 2019, los dato
     
 2. Para asegurarse de que las reuniones organizadas por usuarios alojados en Skype empresarial Server 2019 funcionen sin problemas con usuarios federados que estén alojados en una instalación heredada, la Directiva de conferencia asignada a los usuarios migrados debe permitir participantes anónimos.
     
-3. Las directivas de conferencia que permiten a los participantes anónimos **permiten a los participantes invitar a usuarios anónimos** seleccionados en el panel de control de Skype empresarial Server 2019 y tienen **AllowAnonymousParticipantsInMeetings** establecido en **verdadero** en el salida del cmdlet **Get-CsConferencingPolicy** en el shell de administración de Skype empresarial Server. 
+3. Las directivas de conferencia que permiten a los participantes anónimos **permiten a los participantes invitar a usuarios anónimos** seleccionados en el panel de control de Skype empresarial Server 2019 y tienen **AllowAnonymousParticipantsInMeetings** establecido en **verdadero** en el resultado del cmdlet **Get-CsConferencingPolicy** en el shell de administración de Skype empresarial Server. 
     
 <!-- 4. For details about configuring conferencing policy by using Skype for Business Server Management Shell, see 
  [Set-CsConferencingPolicy](../../lync-server-management-shell/lync-server-2013-cmdlets-by-category/set-csconferencingpolicy.md) in the Skype for Business Server Management Shell documentation.  -->

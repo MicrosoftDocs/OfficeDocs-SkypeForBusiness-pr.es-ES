@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.SecRegistrarEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: c0f2203f2637302dc79ea653fad17b856aec05e8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 252a2cfc9d39456e6fa9562a7df8badd18ae01e9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699805"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822423"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>Configuración de seguridad de registrador: Crear nuevos o editar los existentes
 

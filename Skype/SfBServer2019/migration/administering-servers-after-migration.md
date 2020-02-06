@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: En general, debe usar la herramienta administrativa correspondiente a la versión del servidor que desea administrar.
-ms.openlocfilehash: a65d503d0e8f7aa2f00748dde7d3e95f06716f55
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 98b06f85a2bf31eacf366847a9f3dcca59952ad9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239541"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813968"
 ---
 # <a name="administering-servers-after-migration"></a>Administrar los servidores tras la migración
 

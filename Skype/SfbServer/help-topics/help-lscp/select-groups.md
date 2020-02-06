@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.RgsSelGroup
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Las colas de grupo de respuesta contienen llamadas a grupos de respuesta hasta que un agente responde a la llamada. Las colas tienen grupos de agentes asignados. Al crear o editar una cola, se usa el cuadro de diálogo Seleccionar grupos para seleccionar uno o más grupos de agentes para asignarlos a la cola.
-ms.openlocfilehash: ea097fcda4023b307eb3649eb5dcf12494791e59
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c84d98b47ba5bfec1ec69dd4b60b073dc5935f48
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41699585"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822203"
 ---
 # <a name="select-groups"></a>Seleccionar grupos
 

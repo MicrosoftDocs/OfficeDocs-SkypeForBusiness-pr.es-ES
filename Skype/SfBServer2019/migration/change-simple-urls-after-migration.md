@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype empresarial Server admite URL simples.
-ms.openlocfilehash: 806003a2639d3861c066248657521ceb58a4e986
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ab820c1b24eb9b2e8befc85a34e82d068c9083ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239496"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813888"
 ---
 # <a name="change-simple-urls-after-migration"></a>Cambiar las direcciones URL simples tras la migración
 

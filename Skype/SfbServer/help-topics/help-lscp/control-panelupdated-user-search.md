@@ -8,17 +8,19 @@ ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: Puede usar los resultados de una consulta de búsqueda para configurar los usuarios de Skype empresarial Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el nombre de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea. También Puede buscar usuarios con el panel de control de Lync Server o el complemento de usuarios y equipos de Active Directory.
-ms.openlocfilehash: 75682c6cc732ce94baf312ddae847b5bb8bf37ec
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4d0fc01a5843408effa69aceb5c95a74c875213a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41686833"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41822943"
 ---
 # <a name="control-panel---updated-user-search"></a>Panel de control - actualización: Búsqueda de usuarios
 

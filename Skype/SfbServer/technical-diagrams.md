@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: hub-page
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -14,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 'Resumen: Revise estos pósteres según sea necesario al planear, implementar o administrar Skype empresarial Server.'
-ms.openlocfilehash: 60c7550d095c68f5fff1a7d9da8292adaa86922c
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 2b2d7383c2f9df5c4f05a0e53e7c5afae0db5609
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002254"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41814098"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Technical diagrams for Skype for Business Server
 

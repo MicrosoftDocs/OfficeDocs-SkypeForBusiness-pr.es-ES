@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertPendingReturned
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: La página de estado de la solicitud de certificado en línea devuelve el estado actual del certificado. Si el certificado aún está en estado de aprobación pendiente con el administrador de la entidad emisora de certificados, es decir, si aún no se ha aprobado, el estado indicará que el certificado aún se está procesando.
-ms.openlocfilehash: 7355115229969824ec88de628fbc86a4d29bee87
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 73a979d80fd397ebb8f1e60100d4044e9a9967c4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41687699"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823584"
 ---
 # <a name="pending-certificate-returned"></a>Certificado pendiente (devuelto)
  

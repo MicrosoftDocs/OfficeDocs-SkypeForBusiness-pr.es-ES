@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployAssignedCertList
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 description: En la página ver certificado, hay un panel que le permite seleccionar cualquier certificado válido en el almacén de certificados local. Puede seleccionar un certificado y, a continuación, hacer clic en ver detalles del certificado. El certificado aparecerá en un panel nuevo. En el panel certificado, puede ver la información de certificado general. Haga clic en la pestaña detalles para mostrar información detallada sobre el certificado, como el nombre del asunto y el nombre alternativo del asunto. La ruta de certificación mostrará la ruta de la cadena de trustfor del certificado. Cuando haya terminado de revisar la información del certificado, haga clic en Aceptar.
-ms.openlocfilehash: 53a08b01c15682544ba4083102414dfbf03e670d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2a7339fdc84aef39bfe1ed67c73bbeeafa9fd08f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700565"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823264"
 ---
 # <a name="view-certificate"></a>Ver certificado
  

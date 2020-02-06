@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddEdgeServerExternalIPPage2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: Puede configurar las propiedades de esta página para que apunten al servidor perimetral a las ubicaciones externas del servicio perimetral de acceso, el servicio perimetral de conferencias web y el servicio perimetral a/V.
-ms.openlocfilehash: 10e0723c34b1eeef090791f292bc70e5cfdfff43
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: bae7633d21cff373730eac835b8772ed676a8366
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698465"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821092"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Agregar IP externa del servidor perimetral 2010
 

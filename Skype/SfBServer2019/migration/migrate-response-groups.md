@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Después de mover los usuarios a los grupos de servidores de Skype empresarial 2019, puede migrar los grupos de respuesta. La migración de grupos de respuesta incluye copiar grupos de agentes, colas, flujos de trabajo, archivos de audio y mover los objetos de contacto del grupo de respuesta de la implementación heredada al grupo de servidores de Skype empresarial 2019. Después de migrar los grupos de respuesta heredados, las llamadas a los grupos de respuesta se controlan mediante la aplicación de grupo de respuesta en el grupo de servidores de Skype empresarial 2019. Las llamadas a grupos de respuesta ya no son controladas por el grupo heredado.
-ms.openlocfilehash: 148fbe2ca547c3bd7e3d240e687b37c94d10270b
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 9e7605daf92646e5bb53626eeed2371888bf9cb1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991115"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813468"
 ---
 # <a name="migrate-response-groups"></a>Migrar grupos de respuesta
 

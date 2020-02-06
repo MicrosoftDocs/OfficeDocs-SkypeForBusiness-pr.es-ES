@@ -8,17 +8,19 @@ ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: El Asistente para certificados se usa para solicitar, asignar, quitar o ver certificados. Debe haber iniciado sesión como miembro del grupo RTCUniversalServerAdmins. No hace falta pertenecer a ningún otro grupo para solicitar un certificado a una entidad de certificación pública. Para solicitar un certificado de la infraestructura de clave pública (PKI) de su organización, debe confirmar qué es la pertenencia a grupos (si existe). Durante la tarea de solicitud, puede especificar credenciales alternativas que se usarán para solicitar el certificado a la entidad emisora de certificados de su PKI.
-ms.openlocfilehash: 75f324415bbf0af96f79b0e6e5f00e1ee3faaab5
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f37b4edae379ac96bc8b4854da891ef223192fa4
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701145"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823764"
 ---
 # <a name="certificate-wizard"></a>Asistente para certificados
  

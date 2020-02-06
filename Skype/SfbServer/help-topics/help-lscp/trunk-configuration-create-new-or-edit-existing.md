@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.VoiceTrunkEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: bdc2aeb5da1cac8633859dd437f3fa29f2041aef
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4c751399bb2053a6cf1d99e3a9cf71a73e020e54
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41685683"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821932"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Configuración del tronco: Crear nuevos o editar los existentes
 

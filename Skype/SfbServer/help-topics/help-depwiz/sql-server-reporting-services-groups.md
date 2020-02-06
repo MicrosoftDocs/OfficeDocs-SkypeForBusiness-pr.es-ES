@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.dep.DeploySSRSGroups
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 description: En el grupo especificar solo lectura, especifique el grupo a quien desea conceder acceso de solo lectura a los informes de supervisión.
-ms.openlocfilehash: 04ad7fa4ce2454f1719db41a7e7467958af77ad1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8962fa38ed61d5636b4e4a3178b634368ef66dd1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700775"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823364"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (grupos)
 

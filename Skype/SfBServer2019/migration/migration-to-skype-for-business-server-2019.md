@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Los temas de esta sección le guían a través del proceso de migración a Skype empresarial Server 2019.
-ms.openlocfilehash: 8e58eaa3870e8149e874a1ec196a728976f429f3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 51c3be10b90198e1abe24172aa35ab167e871739
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237775"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813408"
 ---
 # <a name="migration-to-skype-for-business-server-2019"></a>Migración a Skype empresarial Server 2019
 

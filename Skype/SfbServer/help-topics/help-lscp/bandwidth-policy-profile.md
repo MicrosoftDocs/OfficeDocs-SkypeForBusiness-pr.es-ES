@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.lscp.NcsProfileMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 60ed0167352748e143c1f9d084a20b5f218a9a75
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 605b3cf56a18472604e42bca37496bdafeca556f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41700595"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41823143"
 ---
 # <a name="bandwidth-policy-profile"></a>Perfil de directivas de ancho de banda
 

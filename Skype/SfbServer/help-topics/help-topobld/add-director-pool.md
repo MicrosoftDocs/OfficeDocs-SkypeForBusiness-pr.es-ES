@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 description: Para definir el FQDN del grupo de directores, seleccione un grupo de varios equipos que consistirá en dos o más directores en un grupo de carga equilibrada o en un solo grupo de equipos. También debe escribir el nombre de dominio completo (FQDN) que se usará para conectarse al grupo de directores o el FQDN de un solo Director. Para un grupo de equipos de directores, esta es la entrada sistema de nombres de dominio (DNS) de la IP virtual de un equilibrador de carga de hardware o la entrada DNS compartida para el equilibrio de carga DNS.
-ms.openlocfilehash: 150975cedf09c19acac1afffab25f5becf053fe3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1a419c6a27118cbdf7ffe841a39b9b60e6e84577
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41698575"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41821192"
 ---
 # <a name="add-director-pool"></a>Agregar grupo de servidores director
  

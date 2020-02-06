@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Después de implementar Skype empresarial Server 2019, debe configurar una ruta de Federación para el sitio. Para poder usar la ruta federada que usa la instalación heredada, Skype empresarial Server 2019 debe estar configurado para usar esta ruta.
-ms.openlocfilehash: 7a5a65e1488d5a119e3d11affbbaa9995a06626e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 6cc49da3cb27679ef295c7bbeca122aea5a89d10
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239227"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41813708"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Conecte el grupo de servidores piloto a los servidores perimetrales heredados
 
@@ -44,7 +46,7 @@ Para permitir que el sitio de Skype empresarial Server 2019 use el director y el
   
 10. Haga clic en **Aceptar** para cerrar la página **Editar propiedades** . 
     
-11. En el **generador**de topologías, seleccione el nodo de nivel superior, **Skype empresarial Server**.
+11. En el **generador de topologías**, seleccione el nodo de nivel superior, **Skype empresarial Server**.
     
 12. En el menú **acción** , haga clic en **publicar topología**y, a continuación, haga clic en **siguiente**.
     
