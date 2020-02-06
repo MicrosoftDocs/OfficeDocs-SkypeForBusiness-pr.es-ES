@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Proceso para comprobar la coexistencia de un grupo piloto con grupo heredado.
-ms.openlocfilehash: e71160a2a20d4a80979e3c3c4875c19db181f2da
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 386ea4a7857fcdef7d45e5d8029ff4bf31293819
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243753"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812678"
 ---
 # <a name="verify-pilot-pool-coexistence-with-legacy-pool"></a>Comprobar la coexistencia del grupo de servidores piloto con el grupo de servidores heredado
 

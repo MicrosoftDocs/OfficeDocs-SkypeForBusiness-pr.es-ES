@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Puede usar el panel de control de Skype empresarial Server para iniciar o detener todos los servicios heredados que se ejecutan en un equipo específico o para iniciar o detener un servicio heredado específico.
-ms.openlocfilehash: e7cde5a947d9822106223216f1f826d6ebac036f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8e0ae8532330861cbdb153083072b582d757351c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36241247"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812798"
 ---
 # <a name="stop-legacy-services"></a>Detener servicios heredados
 

@@ -8,6 +8,8 @@ ms.date: 2/8/2019
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - IT_Skype16
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo desarrollar diseños conceptuales, lógicos y físicos para configurar características, servidores y topologías de Skype empresarial Server 2019.'
-ms.openlocfilehash: ecb785bf4f89034cfe14f9e71891c4772359ba4c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 75dab04deea31d06f4ed2a81e54fc129ab5e2c08
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280559"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41812588"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>Planear la implementación de Skype empresarial Server 2019
  
@@ -50,7 +52,7 @@ Los artículos siguientes sobre cómo planear Skype empresarial Server están di
 |**[Plan para la integración de Skype Empresarial y Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md)** <br/><br/>¿Su organización implementa Exchange Server y Skype empresarial Server? If so, read bout how you can integrate features of both products. For example, presence information and archiving of data.   |**[Planificar los clientes y los dispositivos](../../SfbServer/plan-your-deployment/clients-and-devices/clients-and-devices.md)** <br/><br/>Skype empresarial Server admite una colección de interfaces de cliente que puede implementar en los usuarios de su organización. Un planeamiento exhaustivo asegura que los empleados obtengan lo que necesitan y que Skype empresarial está disponible en cualquier lugar.   |
 |**[Plan para implementaciones de servidores perimetrales en Skype empresarial Server](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)** <br/><br/> ¿Se comunica su organización con usuarios fuera de su red interna? Si es así, Lea acerca de cómo puede implementar el servidor perimetral para admitir las comunicaciones en el Firewall de su organización.   |**[Planear la alta disponibilidad y la recuperación ante desastres en Skype empresarial Server](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)** <br/><br/>La alta disponibilidad se refiere a asegurarse de que los servicios de Skype empresarial Server estén disponibles incluso si uno o más servidores están desactivados. Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible. Lea los temas de esta sección para planear la alta disponibilidad y la recuperación ante desastres.   |
 |**[Planear la Conferencia en Skype empresarial Server](../../SfbServer/plan-your-deployment/conferencing/conferencing.md)** <br/><br/> ¿Cuáles son los requisitos de conferencia para su organización? Read about web conferencing, A/V conferencing, and dial-in conferencing features and requirements.   |**[Planear la seguridad en Skype empresarial Server](../../SfbServer/plan-your-deployment/security/security.md)** <br/><br/>Busque recursos sobre la autenticación de usuarios, la autenticación de servidor a servidor y la autenticación de aplicaciones para ayudarle a comprender y planear la autenticación en Skype empresarial Server.   |
-|**[Planear la conectividad híbrida](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)**  <br/><br/>¿Tiene usuarios alojados en las versiones locales de Skype empresarial Server y en Skype empresarial online? If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain.   
+|**[Planear conectividad híbrida](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)**  <br/><br/>¿Tiene usuarios alojados en las versiones locales de Skype empresarial Server y en Skype empresarial online? If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain.   
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Recursos adicionales sobre la planeación de Skype Empresarial Server
 
