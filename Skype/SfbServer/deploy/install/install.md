@@ -8,17 +8,19 @@ ms.date: 7/14/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 'Resumen: Aprenda a preparar el entorno para una instalación de Skype empresarial Server. Descargue una prueba gratuita de Skype empresarial Server en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
-ms.openlocfilehash: f15a305a660586e017984a171db217636e2e09ff
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: cac618aba9f97237e585ffc57b99c71a8a5c8645
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244341"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797091"
 ---
 # <a name="install-skype-for-business-server"></a>Instalar Skype Empresarial Server
  
@@ -56,7 +58,7 @@ Para que Skype empresarial Server se ejecute por primera vez, se necesitan ocho 
     
 - [Crear y publicar una nueva topología en Skype empresarial Server](create-and-publish-new-topology.md) : antes de poder instalar el sistema de Skype empresarial Server en cada uno de los servidores de la topología, debe crear una topología y publicarla. Cuando se publica una topología, se carga información relativa a ella en la base de datos del Almacén de administración central. Si se trata de un grupo de servidores Enterprise Edition, la base de datos del Almacén de administración central se creará la primera vez que se publique una topología nueva. Si es Standard Edition, será necesario ejecutar el proceso Preparar el primer servidor Standard Edition del Asistente para la implementación para poder publicar una topología. Esto prepara a Standard Edition con la instalación de una instancia de SQL Server Express Edition y con la creación del Almacén de administración central.
     
-- [Instalar Skype empresarial Server en servidores de la topología](install-skype-for-business-server.md) : una vez que se carga la topología en el almacén de administración central y Active Directory sabe qué servidores realizarán qué roles, necesita instalar el sistema de Skype empresarial Server en cada uno de los servidores de la topología.
+- [Instalar Skype empresarial Server en servidores de la topología](install-skype-for-business-server.md) : una vez que se carga la topología en el almacén de administración central y Active Directory sabe qué servidores realizarán qué roles, debe instalar el sistema de Skype empresarial Server en cada uno de los servidores de la topología.
     
 - [Comprobar la topología en Skype empresarial Server](verify-the-topology.md) : después de haber publicado la topología y los componentes del sistema de Skype empresarial Server instalados en cada uno de los servidores de la topología, estará listo para comprobar que la topología funciona de la forma esperada. Esto incluye comprobar que la configuración se propagó a todos los servidores de Active Directory para que todo el dominio sepa que Skype empresarial está disponible en el dominio.
     

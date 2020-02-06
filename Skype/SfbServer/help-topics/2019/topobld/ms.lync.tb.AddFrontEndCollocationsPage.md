@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para una implementación de Enterprise Edition, el servicio de conferencia A/V se encuentra en el grupo de servidores front-end. También puede Collocate el servidor de mediación en el grupo de servidores front-end o puede implementarlo como servidor independiente. El servicio de conferencia A/V siempre se encuentra en el que se encuentra habilitada la Conferencia.
-ms.openlocfilehash: fe9eccaa7a59963b202009eba68aa0fdb9f1a15d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f651a206529ee968fc32bf86b6314c004f82c3bd
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702925"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794889"
 ---
 # <a name="add-front-end-server-collocations"></a>Agregar colocación de servidor front-end
 

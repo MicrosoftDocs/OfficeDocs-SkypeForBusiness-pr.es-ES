@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 'Resumen: Lea este tema para obtener información sobre cómo usar el Asistente de implementación de Skype empresarial Server para instalar los componentes y servicios de Skype empresarial Server 2015.'
-ms.openlocfilehash: 5b8205cb2ab828001eae76eeaab8cd4f697c9315
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 019700b169c3507540c93a3a152c3741de2681fb
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36234755"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795691"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Instalar los componentes del chat persistente en Skype Empresarial Server 2015
  

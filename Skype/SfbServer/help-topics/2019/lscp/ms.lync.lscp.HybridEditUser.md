@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.HybridEditUser
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Utilice el asistente Editar usuarios para modificar las cuentas de usuario en la implementación. Para más información, consulte Use the Hybrid Manageability wizard.
-ms.openlocfilehash: ff75272cf8e64abd65e54e35aa50a05411c61d88
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cdea63adb2a5899fdd5d10e5da6c72bb996e0e03
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691265"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796479"
 ---
 # <a name="hybrid-wizard-edit-users"></a>Asistente híbrido: Editar usuarios
 

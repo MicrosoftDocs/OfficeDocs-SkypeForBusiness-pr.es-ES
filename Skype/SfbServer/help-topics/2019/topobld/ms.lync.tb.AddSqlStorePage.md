@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir una nueva tienda SQL, lo que significa que especifica una base de datos basada en SQL Server y una instancia de SQL Server (ya sea una instancia predeterminada o una instancia con nombre), especifica lo siguiente.
-ms.openlocfilehash: 78d58de8aad06062bf7f105353c0ded58c8e6df7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 80fb2fbbf1bad7a160df087969c9820ed05ebeea
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41702645"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794329"
 ---
 # <a name="add-sql-store"></a>Agregar almacén SQL
 

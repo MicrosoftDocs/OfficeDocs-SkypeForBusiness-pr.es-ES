@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Herramienta de planeación de Skype empresarial Server
-ms.openlocfilehash: 6b90f29e37b64bfe2b1b808a23e11f66a8758760
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 35fd0d44bbfde381b18eaf7c4e009b623dea8888
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689835"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797201"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  

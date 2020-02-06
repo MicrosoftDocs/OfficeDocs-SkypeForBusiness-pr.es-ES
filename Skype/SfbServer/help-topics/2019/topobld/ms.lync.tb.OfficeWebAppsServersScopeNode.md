@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.OfficeWebAppsServersScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: Haga clic con el botón secundario en servidores de Office Web Apps y seleccione nuevo servidor de Office Web Apps para abrir el asistente.
-ms.openlocfilehash: 8299c6e710a4b264f903b393cba1d5e776158e0d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fb4fbbc977d276df90463c4476ea51458ea56d89
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688133"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794829"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nodo de ámbito de los servidores de Office Web Apps
 

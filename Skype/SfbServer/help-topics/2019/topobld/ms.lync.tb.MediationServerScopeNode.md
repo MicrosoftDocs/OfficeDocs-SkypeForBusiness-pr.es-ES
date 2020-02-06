@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.MediationServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra los puertos de escucha y las puertas de enlace de red telefónica conmutada (RTC) asociadas a este grupo de servidores de mediación. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 74adcdf400afe2e1a21f758f8885fb1574b34216
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: cfc0e973aa56d7260acd45170ec538d6520d346c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688193"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796219"
 ---
 # <a name="mediation-server-scope-node"></a>Nodo de ámbito del servidor de mediación
  

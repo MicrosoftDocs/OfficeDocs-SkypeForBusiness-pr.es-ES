@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientMobilityPolicyEdit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el cuadro de diálogo Editar Directiva de movilidad, puede editar los detalles de una directiva de movilidad.
-ms.openlocfilehash: 13bd3f328c661e90d925a9c1f55e2afe25c3ddea
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1ab1bd85c870ec548c075b6189d98003a6fe16f0
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691495"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794509"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar directiva de movilidad de cliente
 

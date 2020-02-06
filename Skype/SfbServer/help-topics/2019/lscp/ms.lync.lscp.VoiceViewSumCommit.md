@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.VoiceViewSumCommit
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 ROBOTS: NOINDEX, NOFOLLOW
 description: El cuadro de diálogo Valores de configuración de voz no confirmados sirve para revisar todos los cambios realizados. Desplácese por el cuadro de diálogo para repasar todos los cambios sin confirmar o haga clic en las flechas para expandir o contraer las diferentes secciones. Cuando haya terminado, haga clic en Confirmar para confirmar todos los cambios, o bien haga clic en Cancelar para retroceder y modificar los cambios.
-ms.openlocfilehash: ee092761451c6871691b609994a5e8789bcf3eaf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f87c5f19df93f5676b3b0bb28a57264b27db262b
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689975"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796139"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>Valores de configuración de voz no confirmados: Confirmar
  

@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.SiteScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra uno de los sitios definidos en la topología. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 131eb0ff970f1b0863e549abfa5cb4da2dda50af
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 94d9d1a893fa52d1dcf4f85f461360412e087e2a
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41701515"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795189"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Nodo de ámbito del sitio de Lync Server
  

@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 953cfc1ba7c9b05954859f7bc8ac1db2352b3a0e
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: f291e0c2902754f346dfadb855e4e6bc6fbd573c
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871726"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795159"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo que abarque toda la organización en Microsoft Teams
 
@@ -58,9 +58,9 @@ Reduzca el ruido del canal haciendo que solo los propietarios del equipo publiqu
 
  Reduzca @mentions para evitar que se sobrecargue toda la organización. Vaya al equipo y haga clic en **̇ ̇ ̇ más opciones** > **administrar equipo**. En la pestaña **configuración** , haga clic en <strong>@mentions</strong> > desactivar **Mostrar miembros la opción @team o @ [nombre del equipo]**. 
 
-### <a name="automatically-favorite-important-channels"></a>Marcar automáticamente como favoritos los canales importantes
+### <a name="automatically-show-important-channels"></a>Mostrar automáticamente canales importantes
 
-Marcar canales importantes como favoritos para asegurarse de que todos los miembros de la organización participen en conversaciones específicas. Para obtener más información, consulte [la opción canales de favoritos automáticos para todo el equipo](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6).
+Mostrar canales importantes para asegurarse de que todos los miembros de la organización participen en conversaciones específicas. Para obtener más información, consulte [la opción canales de favoritos automáticos para todo el equipo](https://support.office.com/article/auto-favorite-channels-for-the-whole-team-a948272c-5aa5-429c-863c-4e1e1cd6b0f6). 
 
 ### <a name="set-up-channel-moderation"></a>Configurar la moderación de canales
 

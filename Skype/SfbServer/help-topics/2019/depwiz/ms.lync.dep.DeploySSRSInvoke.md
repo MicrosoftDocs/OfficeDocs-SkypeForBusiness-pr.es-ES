@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeploySSRSInvoke
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Después de suministrar la información necesaria para la implementación de los informes del servidor de supervisión a Microsoft SQL Server 2008 R2, o a Microsoft SQL Server 2012 Report Services, los comandos de ejecución de la página muestran un resumen de los comandos que se emiten para instalar el informes a SQL Server Reporting Services.
-ms.openlocfilehash: 970b570c2fba75cf1afe4f4a217e809eb62a7411
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 30e97757c8ad66df9f706b6bf74549e8f1eec65f
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691675"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794679"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (invocar)
  

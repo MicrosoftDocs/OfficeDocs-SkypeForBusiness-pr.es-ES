@@ -7,18 +7,20 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El puerto SIP de Protocolo de control de transmisión (TCP) predeterminado para la comunicación con los clientes, servidores y grupos de servidores front-end es el 5061. Si no se usa el valor predeterminado, seleccione Puerto SIP para todos los servidores y grupos de servidores: y escriba el nuevo valor.'
-ms.openlocfilehash: 54637d3ea84849da2750ab3f95fbc5db97de28f4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1a3035e25b5eb716bf955a1bfd9ca9c11e770071
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41688233"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41795341"
 ---
 # <a name="legacy-merge-sip-port"></a>Puerto SIP de combinación de implementación heredada
  

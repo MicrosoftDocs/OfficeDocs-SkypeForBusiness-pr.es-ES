@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertRequestCAAccount
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para enviar una solicitud, la entidad de certificación (CA) puede requerir credenciales distintas de las del usuario con el que inició sesión actualmente.
-ms.openlocfilehash: 8319b18340d705645529dba93ccfab40a96b68a2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2871e8265bb7d1a4228d162e435dedf307165ec8
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41705685"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796751"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Solicitud de certificado (cuenta de entidad de certificación)
  

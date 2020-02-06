@@ -7,6 +7,8 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- CSH
+ms.custom:
 - ms.lync.plan.EdgeNetwork
 - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
@@ -14,12 +16,12 @@ localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La mayoría de los componentes perimetrales se implementan en una red perimetral. Los siguientes componentes conforman la topología perimetral de una red perimetral. Excepto donde se indique lo contrario, los componentes forman parte de los escenarios de servidores perimetrales en Skype empresarial Server y están en la red perimetral. Los componentes perimetrales engloban los siguientes:'
-ms.openlocfilehash: 340076ac84c772eda921f40000414536e9367a2b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 85e859f19e0513313176820621b9dd706170deee
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41689855"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797321"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Red perimetral (herramienta de planificación) en Skype empresarial 
  

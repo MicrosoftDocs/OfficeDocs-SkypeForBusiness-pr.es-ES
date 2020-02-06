@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.dep.DeployCertAssignIntroFromRequest
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Asignación del certificado comienza el proceso de asignar un certificado a los usos solicitados en el rol de servidor. Haga clic en Ver detalles del certificado para ver el certificado. Puede seleccionar la pestaña general, la pestaña detalles o la ficha ruta de certificación. La pestaña General mostrará información básica sobre el certificado, como la entidad emisora de certificados y el estado de una clave privada. La ficha Detalles mostrará información sobre el certificado; por ejemplo, el nombre del sujeto, los nombres alternativos del sujeto, etcétera. La ficha ruta de certificación mostrará la certificatechain de trustfrom el certificado a través de las entidades emisoras de certificados emisoras o intermedias (si están presentes) a la entidad emisora de certificados raíz.
-ms.openlocfilehash: 6f906172e832336edc2f09e3269a04ff6c7f1ce2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 40f9608e622ffa38645223d14385d4efd142fa65
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692195"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796901"
 ---
 # <a name="certificate-assignment-from-request"></a>Asignación de certificados (a partir de solicitud)
  

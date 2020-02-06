@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Este artículo le guiará a través de los pasos para configurar una instalación existente de Skype empresarial Server con el fin de usar el servicio de movilidad, de modo que sus dispositivos móviles puedan aprovechar las características de movilidad de Skype empresarial Server.
-ms.openlocfilehash: 3e39c354fd77d7ac36e3a4c36ed7e36e1d8ffbbf
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: 7b619da5b0567aff73b3d8d48eda96efdc098611
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41002870"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41796089"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Implementar y configurar la movilidad en Skype empresarial Server  
  

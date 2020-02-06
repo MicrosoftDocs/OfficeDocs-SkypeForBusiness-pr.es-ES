@@ -8,16 +8,18 @@ ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Resumen: Configure las transcripciones de mensajes instantáneos para Exchange Server 2016 o Exchange Server 2013 y Skype empresarial Server.'
-ms.openlocfilehash: f3ada031b6dc2175ff3241b809a6288daf043010
-ms.sourcegitcommit: fe274303510d07a90b506bfa050c669accef0476
+ms.openlocfilehash: d8d97fc455521b2557064a683f7b19553a9642d3
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "41003570"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41797011"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configurar Skype empresarial Server para usar el archivado de Exchange Server
 

@@ -6,19 +6,21 @@ author: lanachin
 manager: serdars
 audience: ITPro
 ms.topic: article
-f1.keywords:
+ms.custom:
 - ms.lync.lscp.ClientCVSettingMain
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Además de especificar la versión de clientes que desea admitir en su entorno, también puede especificar una acción predeterminada para los clientes que aún no tienen definida una directiva de versión. Esto le permite restringir las versiones de cliente que se usan en su entorno, lo que puede ayudarle a controlar los costos asociados con el soporte de varias versiones de cliente.
-ms.openlocfilehash: d19eb77fd86020f01785ef77bd6651a83c748b55
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e5675a2b3cab2309a78c2d8dc88041beee8cc619
+ms.sourcegitcommit: b1229ed5dc25a04e56aa02aab8ad3d4209559d8f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41691575"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41794569"
 ---
 # <a name="client-version-configuration"></a>Configuración de versiones de cliente
 
