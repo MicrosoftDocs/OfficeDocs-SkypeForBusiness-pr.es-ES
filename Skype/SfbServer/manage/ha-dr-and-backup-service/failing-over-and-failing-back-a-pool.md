@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: .
-ms.openlocfilehash: f2a1970df43aa2fb7becb03319ee6ff5934afe0a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: d5409441336ef2af8bbe9c6a39530584a167ec05
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991805"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818211"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Conmutación por error y reversión de un grupo en Skype empresarial Server 
 

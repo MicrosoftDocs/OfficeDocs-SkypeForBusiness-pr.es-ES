@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 'Resumen: Aprenda a eliminar la configuración de la reunión en Skype empresarial Server.'
-ms.openlocfilehash: cbf63ba635077dd61599d4bc84a740906b662a6c
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: dd07d3239b212f09391e9bc8c66f29bca62b2c3f
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991865"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818591"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Eliminar la configuración de la reunión en Skype empresarial Server
  

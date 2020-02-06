@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Resumen: Use la autenticación en dos fases con Skype empresarial Server y Skype empresarial.'
-ms.openlocfilehash: 532e7567444b78dd30d053cf91aef1c10f0970bb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 378b76b61acd004dfe16f04dba922cc2b6fedc83
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286112"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818712"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Usar la autenticación en dos fases con el cliente de Skype empresarial y Skype empresarial Server
  
@@ -50,7 +52,7 @@ Cuando haya terminado de usar Skype empresarial, puede cerrar la pantalla, cerra
 |:-----|:-----|:-----|
 |Cerrar  <br/> |Cierra la pantalla, pero permite que la sesión de Skype empresarial identificada con su identificador de usuario continúe ejecutándose. El motivo es poder seguir recibiendo notificaciones e interactuando con los demás. <br/> <br/> Puede volver a abrir la pantalla en cualquier momento haciendo clic en el icono de Skype empresarial en la barra de tareas o en el área de notificación de la parte inferior de la pantalla.  <br/> | En la ventana principal de Skype empresarial, realice una de las siguientes acciones: <br/> 1. Haga clic en el botón **Opciones** y, a continuación, seleccione**cerrar** **archivo** > .  <br/> 2. Haga clic en el botón **cerrar** (X) en la esquina superior derecha de la ventana. <br/> |
 |Cerrar sesión  <br/> |Finaliza la sesión asociada con su identificador de usuario, pero Skype empresarial continúa ejecutándose en segundo plano. Al cerrar la sesión, aparece la ventana de inicio de sesión.  <br/> **Sugerencia:** Seleccione **eliminar mi información** de inicio de sesión cuando cierre la sesión para quitar el registro de su identificador de inicio de sesión y contraseña del equipo. De este modo tiene que resultar más fácil al equipo técnico ayudar a los usuarios a resolver problemas de inicio de sesión. También puede ayudar a garantizar que la información de inicio de sesión es más segura, ya que resulta más difícil para los usuarios no autorizados iniciar sesión con credenciales ajenas. <br/> |En la ventana principal de Skype empresarial, seleccione el botón **Opciones** y, a continuación, seleccione**Cerrar sesión**en **archivo** > .  <br/> |
-|Salir  <br/> |Finaliza la sesión de Skype empresarial y cierra Skype empresarial en su equipo. Después de haber salido, si quiere reiniciar, seleccione **iniciar** > **todos los programas** > Skype empresarial. <br/> |En la ventana principal de Skype empresarial, seleccione el **botón Opciones** y, a continuación, seleccione**salida**de **archivo** > .  <br/> |
+|Salir  <br/> |Finaliza la sesión de Skype empresarial y cierra Skype empresarial en su equipo. Después de haber salido, si desea reiniciar, seleccione **iniciar** > **todos los programas** > Skype empresarial. <br/> |En la ventana principal de Skype empresarial, seleccione el **botón Opciones** y, a continuación, seleccione**salida**de **archivo** > .  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Iniciar sesión en Skype Empresarial con una tarjeta inteligente
 

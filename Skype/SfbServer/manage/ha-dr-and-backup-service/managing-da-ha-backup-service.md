@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Obtenga más información sobre procedimientos para las operaciones de recuperación ante desastres, así como para mantener el servicio de copia de seguridad, que sincroniza los datos de las agrupaciones frontales emparejadas.
-ms.openlocfilehash: 9664a7d9d48ca084232e2a0473a15d29d970cea6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bb8178b98d355159a92d7187884e5502912f4436
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303901"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818341"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Administración de la recuperación ante desastres, la alta disponibilidad y el servicio de copia de seguridad de Skype empresarial Server
 

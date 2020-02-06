@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Si se ha habilitado un usuario en Skype empresarial Server, puede configurar la Federación SIP, el acceso de usuarios remotos y la conectividad de mensajería instantánea (mi) pública en el panel de control de Skype empresarial Server aplicando las directivas apropiadas a usuarios específicos.
-ms.openlocfilehash: ae8bea38a01f9211fc3338faf3e97f737c99e1a4
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b87eb377b23063dbcdfd9562a99533da230a8f30
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280176"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818331"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Asignar una directiva de acceso de usuarios externos a un usuario habilitado para Skype empresarial
 
@@ -45,7 +47,7 @@ Use el procedimiento de este tema para aplicar una directiva de acceso de usuari
 5.  En **Editar usuario de Skype empresarial Server** , en **Directiva de acceso externo**, seleccione la Directiva de usuario que desea aplicar.
      
 > [!NOTE]  
-> La configuración de ** \<Automatic>** aplica el servidor predeterminado o la configuración de la directiva global.
+> La configuración de ** \<>automático** aplica el servidor predeterminado o la configuración de la directiva global.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Asignar directivas de acceso externo por usuario mediante cmdlets de Windows PowerShell

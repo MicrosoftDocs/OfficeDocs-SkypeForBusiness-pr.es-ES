@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 description: 'Resumen: Obtenga información sobre los datos de supervisión usados en Skype empresarial Server.'
-ms.openlocfilehash: b5000c2fdec4933ef3377800b011ef15df8b4fb7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b4eca36a09c4aa56b7216b476e0f0c5fa06d7a45
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303893"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818191"
 ---
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>Acceso a datos de supervisión en Skype empresarial Server
  

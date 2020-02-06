@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Skype empresarial Server admite llamadas mejoradas de 9-1-1 (E9-1-1) desde clientes de Skype empresarial. Al configurar Skype empresarial Server para E9-1-1, las llamadas de emergencia realizadas desde Skype empresarial incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación.
-ms.openlocfilehash: a0cf7254e12f00a01082b7aad71ce350cb382b9c
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: de02c4a9a3210220e368d87d4ae8e21a80f3dbac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280302"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818431"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Administrar la 9-1-1 mejorada y el servicio de ubicación en Skype para Business Server
 
@@ -97,7 +99,7 @@ En Skype empresarial Server, puede invalidar la cantidad de tiempo predeterminad
     
       - **Modo**   de conferencia si especifica un valor en el campo URI de la **Conferencia** , el **modo de conferencia** determina si un tercero puede participar en la llamada o si solo puede escuchar. Especifique una de las siguientes opciones:
         
-          - **** Una tercera persona sólo puede escuchar la conversación entre el autor de la llamada y el operador PSAP.   
+          - **Una tercera**persona sólo puede escuchar la conversación entre el autor de la llamada y el operador PSAP.   
         
           - **Dos direcciones**   de terceros pueden escuchar y participar en la llamada entre el operador de llamadas y el operador PSAP.
 

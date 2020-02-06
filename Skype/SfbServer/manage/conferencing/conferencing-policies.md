@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 'Resumen: Aprenda a administrar directivas de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: d835c4760ef3e77bc36f21e64cb80aeb618526ee
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fc069093b9cc7cf5ce0e1e1f1efc0ee9e18e335d
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289058"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818651"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Administrar directivas de conferencia en Skype empresarial Server
  

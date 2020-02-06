@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Resumen: Obtenga información sobre el panel de supervisión de Skype empresarial Server.'
-ms.openlocfilehash: 39f5e9c2b024f73f669098c4da7eaca40ef4ea61
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c2c86d5d5ede9581a2b41f32594118ab2605d63a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992035"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817829"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Usar el panel de supervisión de Skype empresarial Server
  

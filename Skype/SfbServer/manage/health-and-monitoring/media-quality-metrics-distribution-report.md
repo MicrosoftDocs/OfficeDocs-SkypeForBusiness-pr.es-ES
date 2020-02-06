@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Resumen: Obtenga información sobre el informe de distribución de métrica de calidad media en Skype empresarial Server.'
-ms.openlocfilehash: 0376f75ff94b1b189c15e53aa7259880da96554a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f656a44ac1437a9c57cb5efe757757e7d695c2a5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280043"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817859"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>El informe de distribución de métricas de calidad media en Skype empresarial Server 
  
@@ -26,7 +28,7 @@ El Informe de distribución de métricas de calidad de medios permite ver un gr�
 |**Número de llamada**|**Tiempo de recorrido de ida y vuelta (milisegundos)**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
-|2  <br/> |50  <br/> |
+|1  <br/> |50  <br/> |
 |3  <br/> |50  <br/> |
 |4  <br/> |50  <br/> |
 |5  <br/> |50  <br/> |

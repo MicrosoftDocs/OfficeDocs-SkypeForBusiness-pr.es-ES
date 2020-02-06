@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 description: 'Resumen: Obtenga información sobre el informe de tendencias de ubicación en Skype empresarial Server.'
-ms.openlocfilehash: e27dc4c42bebedc65d4af26eb1d25cb75d4b672f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c8ef28d24fa32abb8a5ba52f7bf7df864499657a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280078"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817879"
 ---
 # <a name="location-trend-report-in-skype-for-business-server"></a>Informe de tendencia de ubicación en Skype empresarial Server
  

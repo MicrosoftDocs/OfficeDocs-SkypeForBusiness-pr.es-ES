@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: En este artículo se describe cómo configurar intervalos de puertos para sus clientes y configurar directivas de calidad de servicio en Skype empresarial Server para clientes que se ejecutan en Windows 10.
-ms.openlocfilehash: 4d7999634864e222dd627ea3b46a3a3da5c67fe5
-ms.sourcegitcommit: 67282b5f2f1aac3e675c4a485f4846deba15deb4
+ms.openlocfilehash: 9a82a254ab5a01982e9f1d4bd3a994fd67c03615
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35841472"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817429"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configuración de intervalos de puertos y una directiva de calidad de servicio para sus clientes en Skype empresarial Server
 
@@ -213,7 +215,7 @@ Si decide crear una directiva para administrar el tráfico de uso compartido de 
 
 Para una directiva de transferencia de archivos:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, transferencias de **archivos de Skype empresarial Server**).
+  - Use un nombre de directiva diferente (y único) (por ejemplo, **transferencias de archivos de Skype empresarial Server**).
 
   - Establezca el valor de DSCP en **14**. (Nuevamente, este valor no tiene que ser 14; simplemente debe ser un código DSCP único).
 
@@ -231,7 +233,7 @@ Para asegurarse de que los paquetes de red estén marcados con el valor de DSCP 
 
 1.  Haga clic en  **Inicio ** y en  **Ejecutar **.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit**y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **Services**y, a continuación, expanda **TCPIP**.
 
@@ -251,7 +253,7 @@ Si desea etiquetar valores DSCP para todos los adaptadores de red de un equipo, 
 
 1.  Haga clic en  **Inicio ** y en  **Ejecutar **.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit**y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **Services**y, a continuación, expanda **TCPIP**.
 

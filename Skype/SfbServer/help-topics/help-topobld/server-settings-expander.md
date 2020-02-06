@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MachineSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) y la configuración de dirección IP de este servidor. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 3afdbd3cfcc3c12bb5a9917be1015576da8eb5a3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fec7a9704c85f12ab34716f08ad449f6e33825f6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696695"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819292"
 ---
 # <a name="server-settings-expander"></a>Expansor de configuración de servidor
  

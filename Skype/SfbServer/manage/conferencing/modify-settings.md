@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Resumen: Aprenda a modificar la configuración de la reunión en Skype empresarial Server.'
-ms.openlocfilehash: 2e9d8a737a2bfc48cdcbe39540a22e4c236003b3
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 893e3fb8c9c441f8dc515eaf3a8a4aaa1ff04620
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992857"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818501"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar la configuración de la reunión en Skype empresarial Server
  

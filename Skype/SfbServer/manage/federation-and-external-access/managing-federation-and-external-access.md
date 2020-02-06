@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Puede habilitar y configurar el acceso de usuarios externos para controlar si los usuarios externos compatibles pueden colaborar con usuarios internos de Skype empresarial Server.
-ms.openlocfilehash: 555fa5ca08a707f09c9e33d8b98294b7bb584046
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 366b65b53135388f4163154001f6400cc9fa2963
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280106"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818251"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Administración de la Federación y el acceso externo a Skype empresarial Server
 

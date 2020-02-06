@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: " Después de configurar la red de control de admisión de llamadas (CAC), debe habilitar CAC para exigir las limitaciones de ancho de banda."
-ms.openlocfilehash: cbe3ad690f7061611a91474ce6df1fe39d84b0fd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 4f9f3f09f943b417ec589f26dc5c6505d30831f9
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279553"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817539"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Habilitar el control de admisión de llamadas en Skype Empresarial Server
 

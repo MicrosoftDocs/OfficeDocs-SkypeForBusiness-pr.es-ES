@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Resumen: Obtenga información sobre el informe de inventario telefónico de IP en Skype empresarial Server.'
-ms.openlocfilehash: 51d4a3a7cbd4bf856efa93ae04c25accc5415796
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 94afa2271b1bde399e6da509f7171d9daa073e56
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992175"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817900"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Informe de inventario telefónico de IP en Skype empresarial Server
  

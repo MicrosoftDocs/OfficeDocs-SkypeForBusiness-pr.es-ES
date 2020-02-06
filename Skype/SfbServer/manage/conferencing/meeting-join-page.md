@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: 'Resumen: Aprenda a configurar la página de la combinación de reuniones en Skype empresarial Server.'
-ms.openlocfilehash: 30e220f2a1745aea0a77e3ec3ff491b842a2b221
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7381db4983b5a2c1ec6dccf474f0b381e079e222
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283728"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818521"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>Configurar la página de combinación de reuniones en Skype empresarial Server
  

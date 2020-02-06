@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores, la opción de replicación y el grupo de servidores del próximo salto de este grupo de servidores de aplicaciones de confianza. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 31bba8131531b039253475553e91d6ff8580c4ae
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 1f92255c156cd7845385ae7368916177d4cbd2ca
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697355"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819972"
 ---
 # <a name="external-application-scope-node"></a>Nodo de ámbito de aplicación externa
  

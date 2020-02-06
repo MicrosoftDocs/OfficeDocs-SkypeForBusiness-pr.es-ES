@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Resumen: Aprenda a cambiar las opciones de la base de datos de archivado para Skype empresarial Server.'
-ms.openlocfilehash: 3e7ae30e012464b6d1f72e323dd60ad397e7430d
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c489117894eca69141ac07860c45aa07eb5916ac
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992767"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818982"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Cambiar las opciones de la base de datos de archivado en Skype empresarial Server
 

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Resumen: Obtenga información sobre el informe de diagnóstico de conferencia usado en Skype empresarial Server.'
-ms.openlocfilehash: bfe84c50b3aaee53da1dc460f501e3c9a82528af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dd36fa61cf3f1d9beb7f7db4702e740761af6b21
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289303"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818091"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico de conferencia en Skype empresarial Server
  

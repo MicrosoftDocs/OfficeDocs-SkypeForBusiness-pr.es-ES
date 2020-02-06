@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Resumen: Obtenga información sobre el informe de Resumen de la Conferencia en Skype empresarial Server.'
-ms.openlocfilehash: 7bc3c1c33f50d53b0243060cd84b823e0734afb9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 13480a3f96ebc6375d5cb0f0e131b0ff10505fad
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305881"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818081"
 ---
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Informe de Resumen de conferencia en Skype empresarial Server
  

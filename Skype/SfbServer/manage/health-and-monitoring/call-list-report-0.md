@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Resumen: Obtenga información sobre el informe de la lista de llamadas que se usa en Skype empresarial Server.'
-ms.openlocfilehash: fcf7f0e5f34a48644c8bd3bad3f1f2267afeb63d
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3013dcce34804c7afb4c0d1ca7a211f8decf56ed
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289332"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818121"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Informe de la lista de llamadas en Skype empresarial Server
  

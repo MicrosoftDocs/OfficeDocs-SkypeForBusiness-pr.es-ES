@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 'Resumen: Obtenga información sobre el informe Resumen de tiempo de combinación de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: a6ded5dad2d55c6c629cd61809c803ee40de862a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 057d2bd756b866c1a01dd5fcd363a205deb8ecb8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305643"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817910"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>Informe de tiempo de combinación en conferencia en Skype empresarial Server
  

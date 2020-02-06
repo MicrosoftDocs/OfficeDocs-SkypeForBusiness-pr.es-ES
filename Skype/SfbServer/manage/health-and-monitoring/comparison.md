@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Resumen: Obtenga información sobre el informe de comparación de calidad multimedia en Skype empresarial Server.'
-ms.openlocfilehash: d665c568bcda1be6124b30f5f2907447fa585343
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6ba62abcef7abf9e8702a4b51582a434fdd57df6
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289310"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818101"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Informe de comparación de calidad multimedia en Skype empresarial Server
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Resumen: Obtenga información sobre el informe de Resumen de la Conferencia RTC en Skype empresarial Server.'
-ms.openlocfilehash: c0ecb9ae2a5630a8d68b9d22892890617127826a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 1b45ab5c58f9796d2019c96731d40cf3f567a8ae
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992165"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817759"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Informe Resumen de la Conferencia RTC en Skype empresarial Server
  

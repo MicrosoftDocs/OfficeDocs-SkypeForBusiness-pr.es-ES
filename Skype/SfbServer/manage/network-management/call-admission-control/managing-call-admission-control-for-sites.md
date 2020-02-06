@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Los sitios de red son las oficinas o ubicaciones dentro de cada región de la red de control de admisión de llamadas (CAC), E9-1-1 y las implementaciones por omisión de medios.
-ms.openlocfilehash: a90781eae38d92d560dd1bf34db3b6918e8aeaf5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ec2a3dda70bdd4b952169ca663ca271b76f98481
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279546"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817519"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Administrar el control de admisión de llamadas para sitios en Skype Empresarial Server
 
@@ -143,7 +145,7 @@ Los sitios de red son las oficinas o ubicaciones configuradas dentro de cada reg
 10. Haga clic en **Confirmar**.
 
     > [!NOTE]  
-    > No use la tabla de **subredes asociada** cuando cree un nuevo sitio de red. Al crear o modificar la subred, se asocia una subred con un sitio. Para obtener más información, consulte Administración de subredes de [red](managing-network-subnets.md).
+    > No use la tabla de **subredes asociada** cuando cree un nuevo sitio de red. Al crear o modificar la subred, se asocia una subred con un sitio. Para obtener más información, consulte [Administración de subredes de red](managing-network-subnets.md).
 
 ### <a name="to-modify-a-network-site"></a>Para modificar un sitio de red
 

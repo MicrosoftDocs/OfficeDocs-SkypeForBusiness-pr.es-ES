@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Resumen: Obtenga información sobre el informe de actividad de usuario en Skype empresarial Server.'
-ms.openlocfilehash: 1940b28886b4bf48f5396689f6f7a5069482adc8
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 0fdb7ab84748e971da7ef50c2b63651511ee38c8
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991705"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817619"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Informe de actividad de usuario en Skype empresarial Server
 

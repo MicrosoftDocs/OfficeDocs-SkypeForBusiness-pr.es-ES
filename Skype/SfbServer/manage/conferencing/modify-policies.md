@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
 description: 'Resumen: Aprenda a modificar directivas de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: 9cfb13436a01439a8d5ea152ca1d8ac543bc0e88
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 4f78a956754e4375ac1dfa7460222b1fb1bbf9ef
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991815"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818511"
 ---
 # <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modificar directivas de conferencia en Skype empresarial Server
  

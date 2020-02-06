@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: En este artículo se describe cómo configurar intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencias, aplicaciones y mediación.
-ms.openlocfilehash: e0bd6092792a9ed813aadecc004f58830bc5b133
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 76373407a8087e3646668d7ce9952c83c500af97
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279468"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817449"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Configuración de intervalos de puerto y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación
 
@@ -173,7 +175,7 @@ Para comprobar que se han aplicado las nuevas directivas de QoS, haga lo siguien
 
 1.  En un equipo con Skype empresarial Server, haga clic en **Inicio**y, a continuación, haga clic en **Ejecutar**.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit**y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda **equipo**, expanda **\_HKEY local\_Machine**, expanda **software**, expanda **directivas**, expanda **Microsoft**, expanda **Windows**y, a continuación, haga clic en **QoS**. En **QoS** , debe ver las claves del registro para cada una de las directivas de QoS que acaba de crear. Por ejemplo, si ha creado dos nuevas directivas (una con el nombre QoS de audio de Skype empresarial Server y la otra denominada QoS de vídeo de Skype empresarial Server), debería ver las entradas del registro para la calidad de audio de Skype empresarial Server y la calidad de video de Skype empresarial Server.
 
@@ -181,7 +183,7 @@ Para asegurarse de que los paquetes de red estén marcados con el valor de DSCP 
 
 1.  Haga clic en  **Inicio ** y en  **Ejecutar **.
 
-2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit**y, a continuación, presione Entrar.
 
 3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **Services**y, a continuación, expanda **TCPIP**.
 

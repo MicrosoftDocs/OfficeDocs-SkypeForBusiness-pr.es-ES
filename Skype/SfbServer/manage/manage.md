@@ -7,16 +7,18 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo administrar y mantener Skype empresarial Server.'
-ms.openlocfilehash: 2199762872b638b6a141c6dc48827580b00c6233
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b02fba1db57498b0cda6b8d50e4ac631b82755ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279644"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817569"
 ---
 # <a name="manage-skype-for-business-server"></a>Administrar Skype Empresarial Server 
 

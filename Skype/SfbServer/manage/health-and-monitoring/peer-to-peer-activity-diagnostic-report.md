@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 'Resumen: Obtenga información sobre el informe de diagnóstico de actividad de punto a punto en Skype empresarial Server.'
-ms.openlocfilehash: 37773edc939787eff034d8dd6d001e3529c0db91
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7491fc6752bbf7c08c7433f83ea58fcd1a2ba86c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279903"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817819"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico de actividad de punto a punto en Skype empresarial Server
  

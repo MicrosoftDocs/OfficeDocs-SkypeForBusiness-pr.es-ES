@@ -11,14 +11,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Después de implementar uno o varios servidores perimetrales, debe habilitar el acceso de los tipos de dominios externos o proveedores, el acceso de usuarios remotos y el acceso de usuarios anónimos a las conferencias a través de los servidores perimetrales que serán compatibles con su organización.
-ms.openlocfilehash: b79560d2cb0e570ab2b4fcf061a5b91c6a74a8bf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7308d6914f3f6d79cd217a31c0246c6f2d189516
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280197"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818351"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Administrae la configuración perimetral de acceso para su organización
 

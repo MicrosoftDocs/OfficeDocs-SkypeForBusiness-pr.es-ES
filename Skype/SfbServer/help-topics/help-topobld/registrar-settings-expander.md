@@ -8,17 +8,19 @@ ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.RegistrarSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: La resistencia proporciona una alta disponibilidad y una recuperación ante desastres para el grupo de servidores de registro. Al proporcionar un registrador de copias de seguridad en caso de que se produzca un error en el registrador principal, el registrador de la copia de seguridad puede tomar el control del registrador incorrecto, lo que permite a los usuarios iniciar sesión y comunicarse. Los usuarios pueden experimentar la funcionalidad reducida en función de los sistemas que hayan fallado con el registrador principal.
-ms.openlocfilehash: bac382486b45acbb2e25d3be26d23ea67f1aa15b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c603310e6b99721aace04c4e596989fc394ef0ea
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696735"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819332"
 ---
 # <a name="registrar-settings-expander"></a>Expansor de configuración de registrador
  

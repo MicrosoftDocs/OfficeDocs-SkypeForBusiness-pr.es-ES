@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Resumen: Obtenga información sobre el informe de Resumen de actividad punto a punto en Skype empresarial Server.'
-ms.openlocfilehash: dd11e5d998c8aef779b98cc0a74ba83a4dc70d84
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 001298b948f3a3b8b9b404387fe4d93843297c8a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279899"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817789"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de Resumen de actividad de punto a punto en Skype empresarial Server
  

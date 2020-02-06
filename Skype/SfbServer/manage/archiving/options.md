@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 'Resumen: Obtenga información sobre cómo configurar las opciones de archivado para Skype empresarial Server.'
-ms.openlocfilehash: c7353c305125e8e35523c573150471821f53301e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: af5c8f90cd49f556e1e787e5f550b54da1976c45
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278422"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818902"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Administrar las opciones de archivado en Skype empresarial Server
 

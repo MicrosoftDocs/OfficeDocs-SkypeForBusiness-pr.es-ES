@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Resumen: Aprenda a administrar la combinación de conferencia y a abandonar anuncios en Skype empresarial Server.'
-ms.openlocfilehash: 5c2bc7175f99ee50e94bee26ef0e6d54a6a8db5a
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 5f975637ca1d85e11c6889a07ff90055ef79ffc5
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40991835"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818551"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar la combinación de conferencia y dejar anuncios en Skype empresarial Server
  

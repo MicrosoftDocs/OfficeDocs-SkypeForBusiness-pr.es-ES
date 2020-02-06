@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 'Resumen: Aprenda a administrar el archivado de Skype empresarial Server.'
-ms.openlocfilehash: e4566760a9d071b87596e581689f6373ca3cda49
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 46b0937a00f289ad5383d3bb1a4acf890bf48390
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34282031"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819002"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>Administrar el archivado en Skype empresarial Server
 

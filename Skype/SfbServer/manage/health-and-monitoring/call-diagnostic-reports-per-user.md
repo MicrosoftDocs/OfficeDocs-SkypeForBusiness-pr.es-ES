@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Resumen: Obtenga información sobre los informes de diagnóstico de llamadas por usuario que se usan en Skype empresarial Server.'
-ms.openlocfilehash: c2ef55243680cbb8bc088c2b056b298428b70b50
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: dbe9fc3e9140619f3c0f6015a313f84d2e8cbdaf
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992075"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818141"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Informes de diagnósticos de llamadas (por usuario) en Skype empresarial Server
   

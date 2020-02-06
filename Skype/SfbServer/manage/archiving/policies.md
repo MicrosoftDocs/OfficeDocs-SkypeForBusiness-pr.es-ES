@@ -8,15 +8,17 @@ ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 'Resumen: Aprenda a administrar directivas de usuario para archivar en Skype empresarial Server.'
-ms.openlocfilehash: f6918907f73ffe1b098ed96e1997d8ab8ffe4f9f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f2dca47dd7fd3095b2865ff72516b6be84144352
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34278429"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818892"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Administrar directivas de archivado en Skype empresarial Server
 

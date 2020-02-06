@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 'Resumen: Aprenda a ver directivas de conferencia en Skype empresarial Server.'
-ms.openlocfilehash: 7ea7b5cb9ba54fcf26e5f37b79320466c19d1050
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 2273e694ce2f34c8d395f87f207de85b409e18af
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992195"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818451"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Ver directivas de conferencia en Skype empresarial Server
  

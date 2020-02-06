@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Resumen: Obtenga información sobre el informe de mensajería instantánea de punto a punto en Skype empresarial Server.'
-ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 7775e7dc4a6fc3cd36283decd12971ac0e0f780a
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305657"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817920"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Informe de mensajería instantánea de punto a punto en Skype empresarial Server
  

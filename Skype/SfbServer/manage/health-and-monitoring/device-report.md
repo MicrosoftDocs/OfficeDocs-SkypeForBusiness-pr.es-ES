@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Resumen: Obtenga información sobre el informe de dispositivos en Skype empresarial Server.'
-ms.openlocfilehash: 9b9198d8080c8f1e22e59e2cd496bb7fb318eaae
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: cb3dcf506d7853136b1cddf7f6b7848891cb77e7
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992417"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818000"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Informe de dispositivos en Skype empresarial Server
  

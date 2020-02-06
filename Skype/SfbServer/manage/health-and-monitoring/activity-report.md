@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Resumen: Obtenga información sobre el informe de actividad de conferencia usado en Skype empresarial Server.'
-ms.openlocfilehash: 790a9d5076a371dda7c8862a74f253fdb8508296
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: b9ea4112d144bff88ae72e5805d79f17e655d8f3
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34303883"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41818181"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Informe de actividad de conferencia en Skype empresarial Server
  

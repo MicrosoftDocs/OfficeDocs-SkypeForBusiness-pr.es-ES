@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.LegacyMergeAddExpandedEdgePage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 description: Skype empresarial Server no admite la combinación de una configuración heredada de servidor perimetral ampliado de Office Communications Server 2007 R2. Antes, hay que convertir el servidor perimetral expandido a una configuración de servidor perimetral consolidado para poder combinar la información del servidor perimetral.
-ms.openlocfilehash: a5e67db3b1836aa9d5386535d2db5d47e651b978
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7fda3df67989434c1cd1d647fecf3ece1a739511
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41697185"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819792"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Combinación heredada del perímetro expandido agregado
  

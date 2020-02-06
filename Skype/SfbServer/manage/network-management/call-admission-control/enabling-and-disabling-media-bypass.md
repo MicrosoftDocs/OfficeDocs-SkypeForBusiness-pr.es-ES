@@ -7,14 +7,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: Use los procedimientos de este artículo para habilitar o deshabilitar la omisión de medios con el panel de control de Skype empresarial Server.
-ms.openlocfilehash: acfa963e71f3c3b89d0e79648d00871b1ab44616
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: d1c0a5eb409c6bb5c07c530b4799ab8a53a9fddb
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279588"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817549"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitar y deshabilitar la omisión de medios en Skype Empresarial Server
 
@@ -51,7 +53,7 @@ Puede habilitar y configurar la omisión de medios desde el panel de control de 
         
           - Hay conectividad completa entre las puertas de enlace y los clientes.
     
-      - **Usar la configuración**   de sitios y regiones si CAC está habilitado, esta opción está seleccionada de forma predeterminada y no se puede cambiar. Cuando esta opción está seleccionada, se usarán regiones y sitios de configuración de red para determinar cuándo es posible la omisión de medios. Si selecciona esta opción, puede habilitar el omisión de sitios que no están asignados. Haga clic en la casilla **de verificación Habilitar el omisión de sitios no asignados** solo si tiene uno o varios sitios grandes asociados a la misma región que no tienen restricciones de ancho de banda (por ejemplo, un sitio central grande) y también tiene algunos sitios de rama asociados con el la misma región que tiene restricciones de ancho de banda. Cuando habilita el bypass para sitios no asignados, la configuración se simplifica porque especifica solo las subredes asociadas a las sucursales en lugar de tener que especificar todas las subredes asociadas a todos los sitios. Le recomendamos que no active la casilla **Habilitar omisión para sitios no asignados** si CAC está habilitado.
+      - **Usar la configuración**   de sitios y regiones si CAC está habilitado, esta opción está seleccionada de forma predeterminada y no se puede cambiar. Cuando esta opción está seleccionada, se usarán regiones y sitios de configuración de red para determinar cuándo es posible la omisión de medios. Si selecciona esta opción, puede habilitar el omisión de sitios que no están asignados. Haga clic en la casilla **de verificación Habilitar el omisión de sitios no asignados** solo si tiene uno o varios sitios grandes asociados a la misma región que no tienen restricciones de ancho de banda (por ejemplo, un sitio central grande) y también tiene algunos sitios de rama asociados a la misma región que tienen restricciones de ancho de banda. Cuando habilita el bypass para sitios no asignados, la configuración se simplifica porque especifica solo las subredes asociadas a las sucursales en lugar de tener que especificar todas las subredes asociadas a todos los sitios. Le recomendamos que no active la casilla **Habilitar omisión para sitios no asignados** si CAC está habilitado.
 
 8.  Haga clic en **confirmar** para guardar los cambios.
 

@@ -8,17 +8,19 @@ ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
+- NOCSH
+ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: 'En el Generador de topologías puede editar las propiedades de un servidor de supervisión concreto, ya sea haciendo clic con el botón secundario en el servidor de supervisión en el árbol de consola; haciendo clic en Acción en la barra de herramientas; o haciendo clic en una tarea del panel Acciones, haciendo clic en Editar propiedades y, a continuación, cambiando cualquiera de las opciones siguientes:'
-ms.openlocfilehash: 23e6a1c4e1db0fd01ce5b6043a795e9abb4070b1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3f81469727c2c99caef4895eb3d55ad03091d36c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684523"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41819542"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de configuración general del servidor de supervisión
  

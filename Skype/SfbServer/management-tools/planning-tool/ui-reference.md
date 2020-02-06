@@ -8,14 +8,16 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: c570b84e43ede5327803ddbb07532fc1325c7b91
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 65d76c522b028900bbfe6fb92c574330dfab15e1
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34288960"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41816289"
 ---
 # <a name="planning-tool-ui-reference"></a>Referencia de interfaz de usuario de la herramienta de planeación
  

@@ -7,15 +7,17 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Resumen: Obtenga información sobre la supervisión de informes en Skype empresarial Server.'
-ms.openlocfilehash: ea984a27e2322b08357719e41892fa65892b550a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1468a012501753a720807f1b1ec609ff187ffc1c
+ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34279889"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41817809"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Usar informes de supervisión en Skype empresarial Server 
  
