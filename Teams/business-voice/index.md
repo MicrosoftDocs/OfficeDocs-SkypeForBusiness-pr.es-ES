@@ -6,6 +6,8 @@ ms.author: dstrome
 author: dstrome
 manager: serdars
 keywords: Microsoft 365 Empresa, Microsoft 365, empresa, pyme, pequeña o mediana empresa, documentación de Microsoft 365 Empresa, documentos, documentación, información técnica
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 audience: admin
 ms.service: msteams
@@ -14,12 +16,12 @@ ms.collection:
 - Teams_Business_Voice
 title: Microsoft 365 Empresa Voice
 description: 'Aprenda a planear, implementar y usar Microsoft 365 Empresa Voice. '
-ms.openlocfilehash: 4e8d681955013c7f1efd5d75fd90cd0a7b0c7af8
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: be2a6222a947f5fd064add7dadff0e438dfe626d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268686"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824858"
 ---
 <div id="main" class="v2">
     <div class="container">
