@@ -7,6 +7,8 @@ author: lanachin
 ms.author: v-lanac
 audience: admin
 manager: serdars
+f1.keywords:
+- NOCSH
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
@@ -14,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21f0238225736a731844b9f0bd1f6f7c29ea4459
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a38198d2c551b7202bcf47122039365b98525ef7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569627"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827528"
 ---
 # <a name="teams-for-retail"></a>Teams para el comercio
 

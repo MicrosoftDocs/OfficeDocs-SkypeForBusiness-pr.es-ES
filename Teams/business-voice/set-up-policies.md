@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,11 +17,11 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5eaadc25d8180f10be249c587a4617f6d615deaf
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: 8fe21a2c4a900374814080af4923d4dbedf5caf8
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972231"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827428"
 ---
 [!INCLUDE [teams-calling-policy](../teams-calling-policy.md)]
