@@ -7,20 +7,20 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: svemu
+f1.keywords: ms.teamsadmincenter.analyticsandreports.overview
 localization_priority: Normal
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.analyticsandreports.overview
 ms.collection:
 - M365-collaboration
 description: Obtenga más información sobre los informes de teams que están disponibles en el centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b0bcf2fe9d45d9ec2a4c574e9683688d58eb4a7
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: fc5c3c3c5588abe0c3ee748bdcd8a5ba3a2bf302
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708486"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827228"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 

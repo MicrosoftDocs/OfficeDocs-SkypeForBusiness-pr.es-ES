@@ -9,19 +9,21 @@ ms.service: msteams
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- CSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: Obtenga información sobre los pasos necesarios para configurar los eventos en Teams, incluida la preparación de la red, la asignación de licencias, el uso de directivas para habilitar las características de eventos en vivo y la programación de usuarios, y la configuración de un proveedor de distribución de terceros.
-f1.keywords: ms.teamsadmincenter.liveevents.policies
+ms.custom: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebc72d8238e5551c7a09cae3d617e8f6a187befb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 469e693b8ad04bb214831e2c444c9fb11fc10128
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708336"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827028"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
 

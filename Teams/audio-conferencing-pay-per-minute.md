@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Licensing
 description: Además de la licencia por usuario de audioconferencias estándar, las organizaciones que usan licencias por volumen de Microsoft también pueden elegir una oferta de pago por minuto para habilitar las capacidades de audioconferencia para sus organizaciones.
-ms.openlocfilehash: 7f0f0775ea6d3beef7dcd590f04c40845448a71b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ac73ca3396e5fff9e9146206a8f9e2008d9065f7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684143"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826288"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferencia con pago por minuto
 

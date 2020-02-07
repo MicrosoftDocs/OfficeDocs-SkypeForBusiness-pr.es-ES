@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom: Reporting
 description: Obtenga información detallada sobre las dimensiones y medidas usadas por el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online.
-ms.openlocfilehash: 9e2dc32802b2a13d9d0a24824a083702c2f2d27c
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6ad18b0674dec96c163bf64b6a16f014a0413ab8
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696045"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826918"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard"></a>Dimensiones y medidas disponibles en el panel de calidad de llamadas
 

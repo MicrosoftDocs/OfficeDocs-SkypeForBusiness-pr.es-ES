@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: En este artículo se explica cómo se puede planear y configurar la interoperabilidad de vídeo en la nube para los usuarios de su organización.
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a94292719f8f93b818cbc52dd312859611940e3b
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 1e937e7825000d02156c1f5ede2671711006cbdd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516666"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825108"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar la interoperabilidad de vídeos en la nube para Microsoft Teams
 
@@ -100,10 +102,10 @@ A continuación, programe Teams reunión con coordenadas de interoperabilidad de
 Puede unirse a las reuniones de Teams con sus dispositivos de VTC de las siguientes maneras:
  
 - IVR (respuesta interactiva de voz)
-    - Puede llamar al IVR del socio mediante el dominio tenantkey @. 
+    - Puedes llamar al IVR del socio con el tenantkey@domain. 
     - Una vez que se encuentre en el IVR de socio, se le pedirá que introduzca el VTC conferenceId, que le conectará a la reunión de Teams.
 - Marcado directo
-    - Puede llamar directamente a la reunión de Teams sin interactuar con el IVR del socio mediante la característica de marcado directo con la cadena completa de tenantkey. VTC ConferenceId @ dominio.
+    - Puede llamar directamente a la reunión de Teams sin interactuar con el IVR del socio mediante la característica de marcado directo con la cadena completa de tenantkey. VTC ConferenceId@domain.
 - Marcación sencilla
     - Si tiene una sala de equipos integrada, puede usar las funciones de marcado con un solo toque que le ofrece su partner (sin necesidad de escribir ninguna cadena de marcado).
 

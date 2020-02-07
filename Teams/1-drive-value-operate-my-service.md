@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Tareas y actividades necesarias para la administración de servicios de Teams, incluidos el seguimiento del estado del servicio, la evaluación y la seguridad de la calidad y el uso de la red.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61d0bc220de81b67c27d21d3ea22c7974a4c84d1
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a63ce726a3a09fb820a6008aa0edf50a0e88ea95
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516622"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826988"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -39,7 +41,7 @@ La administración de servicios engloba todas las actividades y los procesos imp
 
 Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como se muestra en el siguiente diagrama. Cada una de estas categorías se expandirá en las secciones siguientes.
 
-![Un diagrama que muestra una lista de categorías de tareas y actividades](media/operate-my-service-image1.png "un diagrama que muestra una lista de categorías de tareas y actividades que incluye la administración de servicios para Teams. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
+![Un diagrama que muestra una lista de categorías de tareas y actividades](media/operate-my-service-image1.png "Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
 
 
 <table>
@@ -251,7 +253,7 @@ Los otros dos informes son específicos de Teams y proporcionan más informació
 
 #### <a name="required-permissions"></a>Permisos necesarios
 
-Es posible obtener acceso a los informes de uso del centro de administración mediante personas a las que se les ha asignado una función de **administrador global** o un rol de administrador específico de producto (**Administrador de Exchange**, **Administrador de Skype empresarial**, **SharePoint Administrador**).
+Es posible obtener acceso a los informes de uso en el centro de administración mediante personas a las que se les haya asignado una función de **administrador global** o un rol de administrador específico de producto (**Administrador de Exchange**, **Administrador de Skype empresarial**, administrador de **SharePoint**).
 
 Además, la función **lector de informes** está disponible para los usuarios que necesiten acceder a los informes, pero no realizar las tareas que requieran permisos de nivel de administrador. Puede asignar este rol para proporcionar informes de uso a cualquier persona que sea parte interesada, supervisar y conducir la adopción. Para obtener más información acerca de los diferentes roles disponibles, consulte [acerca de los roles de administrador de Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -316,7 +318,7 @@ NPS es un índice, comprendido entre-100 y 100, que mide la disposición de un c
 
 -   De 1 a 6 son elementos interactivos: clientes insatisfechos que pueden dañar tu servicio e impedir el crecimiento.
 
-![Un diagrama que muestra la escala de NPS](media/operate-my-service-image2.png "este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
+![Un diagrama que muestra la escala de NPS](media/operate-my-service-image2.png "Este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
 
 Aunque la cantidad básica de NPS es útil, obtendrá el máximo valor de analizar los comentarios de usuario. Le ayudarán a comprender por qué el usuario recomendaría (o no) equipos a otras personas. Estos comentarios pueden proporcionar valiosos comentarios para ayudar al equipo de administración de servicios o proyectos a comprender los ajustes necesarios para proporcionar un servicio de calidad.
 
@@ -548,7 +550,7 @@ De forma predeterminada, todos los usuarios con un buzón en Exchange Online tie
 
 La [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide) incluye un conjunto de actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario, como se muestra a continuación.
 
-![Diagrama de las áreas que debe examinar durante una calidad de experiencia Revise](media/plan-my-service-management-image2.png "las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la confiabilidad y los resultados de la encuesta de usuarios.")
+![Diagrama de las áreas que se deben examinar durante una revisión de la calidad de la experiencia](media/plan-my-service-management-image2.png "Las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la fiabilidad y los resultados de la encuesta de usuarios.")
 
 Al evaluar y corregir continuamente las áreas descritas en la guía, puede reducir su potencial de afectar negativamente a la experiencia del usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 

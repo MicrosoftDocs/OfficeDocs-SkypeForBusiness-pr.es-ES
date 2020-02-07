@@ -8,6 +8,8 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 ms.reviewer: srividhc
+f1.keywords:
+- NOCSH
 description: La interoperabilidad de vídeo en nube permite que los dispositivos de la sala de reuniones de terceros participen en reuniones de Microsoft Teams.
 localization_priority: Normal
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44f945304bd6e21e0c572ad17afe165fe6eedcd
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: e3a8d3d41d974e78a708fdf91ee6aac13beb6b7b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516688"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825068"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Interoperabilidad de vídeos en la nube para Microsoft Teams
 
@@ -92,10 +94,10 @@ Una vez que un usuario está habilitado para la interoperabilidad de vídeo en l
 En función de la solución asociada, hay varias maneras de unirse a una reunión habilitada para la interoperabilidad de vídeo en la nube. Su socio de interoperabilidad de video en la nube proporcionará escenarios de combinación de reuniones exactas. A continuación se muestran algunos ejemplos:
 
 - IVR (respuesta interactiva de voz) 
-  - Puede llamar al IVR del socio mediante el dominio tenantkey @.
+  - Puedes llamar al IVR del socio con el tenantkey@domain.
   - Cuando se encuentre en el IVR de socio, se le pedirá que introduzca el VTC conferenceId, que le conectará a la reunión de Teams.
 - Marcado directo 
-  - Puede llamar directamente a la reunión de Teams sin interactuar con el IVR del socio mediante la característica de marcado directo, usando la cadena completa de tenantkey. VTC ConferenceId @ dominio.
+  - Puede llamar directamente a la reunión de Teams sin interactuar con el IVR del socio mediante la característica de marcado directo, usando la cadena completa de tenantkey. VTC ConferenceId@domain.
 - Marcación sencilla 
   - Si tiene una sala de equipos integrada, puede usar las funciones de marcado con un solo toque que le ofrece su partner (sin necesidad de escribir ninguna cadena de marcado).
 

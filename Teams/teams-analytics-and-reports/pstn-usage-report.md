@@ -7,6 +7,8 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: v-rifer
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -14,12 +16,12 @@ MS.collection:
 description: Obtenga información sobre cómo usar el informe de uso de RTC de Teams en el centro de administración de Microsoft Teams para obtener información general sobre el uso de las llamadas y las conferencias de audio de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c91530af745a287198e99dbb83cd39257d978452
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 430ef53d5739a79644a57dbee1c0a30b0ab26852
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257439"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827288"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Informe de uso de RTC de Microsoft Teams
 

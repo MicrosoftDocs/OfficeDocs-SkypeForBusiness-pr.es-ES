@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac0835e92232a77f524af5b601fc9f59881e3450
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0cd5bf036a3f613fff4af5cd97044bf8beebe7fa
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268676"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824848"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Recursos para socios de voz de Microsoft 365 Business
 

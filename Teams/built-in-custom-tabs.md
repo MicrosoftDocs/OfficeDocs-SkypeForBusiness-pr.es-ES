@@ -10,16 +10,18 @@ audience: admin
 ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
+f1.keywords:
+- NOCSH
 search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4a07a8e6469de812dfc440119e5f53bcf393c03
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: e542b1370cdd03fb0c39c5bf471df58ec0c7e989
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909366"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824698"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
@@ -53,7 +55,7 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
 ## <a name="develop-custom-tabs"></a>Desarrollar fichas personalizadas
 
-Además de las pestañas integradas, puede diseñar y desarrollar sus propias pestañas para integrarlas a teams o compartirlo con el resto de la comunidad. Para obtener más información, consulta nuestra [documentación para desarrolladores](/microsoftteams/platform/tabs/what-are-tabs) .
+Además de las pestañas integradas, puede diseñar y desarrollar sus propias pestañas para integrarlas a teams o compartirlo con el resto de la comunidad. Consulte nuestra[ documentación para desarrolladores ](/microsoftteams/platform/tabs/what-are-tabs)para obtener más información.
 
 ![Captura de pantalla de una ficha personalizada de ejemplo en Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

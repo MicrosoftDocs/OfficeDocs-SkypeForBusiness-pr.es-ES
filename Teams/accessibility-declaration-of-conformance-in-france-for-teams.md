@@ -14,17 +14,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: None
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre promociona a personnes, contenus et Outils no votre Équipe a besoin verter être más impliquée et efficace. "
-ms.openlocfilehash: e6bb0bd6e8a066d88070136611f523111b837227
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4e93da9de70145f837590d2901cfe77a5998d50c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41684183"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825768"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de Conformité en matière d'accessibilité
 

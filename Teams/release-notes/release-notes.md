@@ -7,6 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -15,11 +17,11 @@ appliesto:
 - Microsoft Teams
 description: Notas de la versión de Microsoft Teams
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 75cd3b1f7112f0bf610cb99bfb2aa9c4003987f4
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3a6f24e58c9587ef861cb7c9c48f875574242ce5
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/06/2020
-ms.locfileid: "41823984"
+ms.locfileid: "41826238"
 ---
 # <a name="release-notes-for-microsoft-teams"></a>Notas de la versión de Microsoft Teams

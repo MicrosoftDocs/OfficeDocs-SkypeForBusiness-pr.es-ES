@@ -11,19 +11,21 @@ search.appverid: MET150
 description: Instrucciones para continuar con el viaje de Skype empresarial a Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74471d45e99742774133477f6b978939864aab2e
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7453743407696a0ba8c41cb401caf4f22ba7b78f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236370"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825308"
 ---
-![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
+![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
 Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
 
@@ -56,4 +58,4 @@ El ciclo de vida de cualquier tecnología dada se ha desplazado a un ciclo de cr
 - Implemente un formulario de planificación de cambios (como se muestra a continuación) para preparar e implementar nuevas funcionalidades. Asegúrese de incluir las actividades de disponibilidad técnica y de usuario.
 
 
-![Formulario de ejemplo que muestra las fechas y notas de lanzamiento esperadas] (media/upgrade-change-plan-form.png "Formulario de ejemplo que muestra las fechas de lanzamiento previstas y notas acerca de la nueva funcionalidad, enumeradas con los siguientes pasos y propietarios")
+![Formulario de ejemplo que muestra las fechas y notas de lanzamiento esperadas](media/upgrade-change-plan-form.png "Formulario de ejemplo que muestra las fechas de lanzamiento previstas y notas acerca de la nueva funcionalidad, enumeradas con los siguientes pasos y propietarios")

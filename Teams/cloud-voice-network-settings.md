@@ -10,16 +10,18 @@ audience: admin
 search.appverid: MET150
 description: Obtenga más información sobre la configuración de red que debe configurar para el enrutamiento basado en la ubicación para el enrutamiento directo y los servicios de emergencia mejorados.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74cf743d41f37cca2b8df4f25cc8f5328db6d776
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 9c24444e9beb38aa1d0888e415d9dca3a46e249a
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615890"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824958"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Configuración de red de las características de voz en la nube en Microsoft Teams
 

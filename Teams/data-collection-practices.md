@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft recopila datos de recuento, uso y error para comprender cómo se usa Skype empresarial y dónde se encuentran los problemas. Los datos se usan para planear mejoras del producto.
-ms.openlocfilehash: e84946fd8c61daad7e16f8f7e248f4a0e06c2ae4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: ec443c54041e77d419e4b387029be0f5b06c9177
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680467"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826768"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Prácticas de recopilación de datos de Skype empresarial y Microsoft Teams
 

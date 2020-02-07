@@ -12,16 +12,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ''
+f1.keywords:
+- CSH
 ms.custom:
 - Calling Plans
 description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: 3ad816e9dcedc18fe13d45db0bec36285d4f090f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2c141bab63990c39ef7fd08837eb4ad99d72682d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708636"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827958"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>¿Cuál es el estado de mis solicitudes de portabilidad?
 

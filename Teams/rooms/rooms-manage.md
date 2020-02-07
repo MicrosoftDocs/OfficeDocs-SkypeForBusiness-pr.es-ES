@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
 description: Información general de administración para salas de Microsoft Teams.
-ms.openlocfilehash: 6b42f9aa34acf14749a3674e975d15292f363cf0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 3a56a03342ca0edb0da9dc9ed3a4cada77816bc7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269222"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825888"
 ---
 # <a name="management-overview"></a>Introducción a la administración
 
@@ -54,7 +56,7 @@ Con esta guía, puede crear un panel fácil de usar para identificar cualquier p
 |    |     |
 |-----------|------------|
 |![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que va a usar Operations Management Suite para supervisar la implementación de las salas de Microsoft Teams.</li><li>Decida la lista de distribución de destino que usará para las alertas de correo electrónico.</li></ul>|
-|![](../media/audio_conferencing_image9.png)<br/>Siguientes pasos|<ul><li>Definir el método de supervisión de la calidad y la fiabilidad.</li></ul>|
+|![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Definir el método de supervisión de la calidad y la fiabilidad.</li></ul>|
 
 ## <a name="quality-and-reliability-monitoring-cqd"></a>Supervisión de la calidad y la confiabilidad (CQD)
 

@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Cree un plan para impulsar la adopción por parte de los usuarios definiendo los objetivos, comprender el aspecto de la aceptación y proporcionar aprendizaje y soporte técnico.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 026edba5c85fa010ee583b501d1ecc1f18308518
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 7e4404d27b1e3b7e32d6c4b53558fd17e30ef4ae
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516276"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825088"
 ---
 # <a name="prepare-my-users"></a>Preparar a mis usuarios
 
@@ -46,7 +48,7 @@ Configurar su visión del proyecto permite a las partes interesadas clave ver la
 
 La imagen siguiente es un ejemplo de una declaración a valor para un cliente que se actualiza de Skype empresarial a teams.
 
-![Tabla de dos columnas que muestra]una tabla con dos columnas de visión y de valor(media/prepare-my-users-new-image1.png "con visión: ¿por qué estamos haciendo esto? (nivel de organización) a la izquierda y valor: ¿Qué es lo que me está buscando? (nivel de usuario) a la derecha")
+![Tabla de dos columnas que muestra la visión y el valor](media/prepare-my-users-new-image1.png "Tabla de dos columnas con visión: ¿por qué estamos haciendo esto? (nivel de organización) a la izquierda y valor: ¿Qué es lo que me está buscando? (nivel de usuario) a la derecha")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Ha articulado la ventaja y el valor para sus usuarios de una forma que gana su compra para esta nueva solución?</li></ul></td></tr>
@@ -126,7 +128,7 @@ Para cada grupo de roles, explique lo siguiente con su equipo de proyecto:
 
 La imagen siguiente es un ejemplo de una tabla de roles.
 
-![Tabla de valores]que contiene la tabla de detalles de los(media/prepare-my-users-image2.png "roles, así como las dependencias de las soluciones de comunicación y colaboración. El rol Ejecutivo está resaltado con detalles sobre el perfil (día en la vida) y las características, dispositivos y formación que necesita un ejecutivo.")
+![Tabla de valores que enumera los detalles de los roles](media/prepare-my-users-image2.png "Tabla en la que se enumeran los roles y las dependencias de la solución de comunicación y colaboración. El rol Ejecutivo está resaltado con detalles sobre el perfil (día en la vida) y las características, dispositivos y formación que necesita un ejecutivo.")
 
 Para cada caso de uso, comente lo siguiente con su equipo de proyecto:
 

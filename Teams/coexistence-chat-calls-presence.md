@@ -9,18 +9,20 @@ ms.reviewer: francoid
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 description: Este documento describe el comportamiento de la conversación, el enrutamiento de llamadas y la presencia entre los usuarios de Teams y Skype empresarial, tanto en el inquilino como en el federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio de modo de TeamsUpgrade predeterminado de *heredado* a *islas* y la jubilación inminente de la *herencia*.
-ms.openlocfilehash: 3af54bdfecc7843fbbc095ca0d0cebb91732e648
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 449340affb00b1f05ba199c3376941a843da329c
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515867"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824938"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -75,27 +77,27 @@ En las siguientes tablas:
 
 **Tabla 1A: nueva conversación en el inquilino o enrutamiento de llamadas a un destinatario de modo islas**
 
-| <br/><br/> Multimodo | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | | Remite <br/><br/> Logra  |
+| <br/><br/> Modo | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | | Remite <br/><br/> Aplicaciones aisladas  |
 |--- |--- |--- |--- |--- |
-| Logra | Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial| En línea<br/> En línea<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial|
+| Aplicaciones aisladas | Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial| En línea<br/> En línea<br/> Local<br/>Local| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial|
 |SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv;|Skype Empresarial<br/>Skype Empresarial<br/>|
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/>|Teams|
 | | | | | |
 
 **Tabla 1B: nueva conversación en el inquilino o enrutamiento de llamadas a un destinatario en modo\* SfB**
 
-| <br/><br/> Multimodo   | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | |   Remite <br/><br/> SfB\*   |
+| <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | |   Remite <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| Logra |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial<br/> **No es posible** <br/>Skype Empresarial<br/> |
+| Aplicaciones aisladas |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial<br/> **No es posible** <br/>Skype Empresarial<br/> |
 |SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> |&boxv;<br/>&boxv; |  Skype Empresarial<br/>Skype Empresarial<br/> |
 |TeamsOnly |Teams| Online<br/>|&boxv;<br/> |  *Skype Empresarial* <br/>| 
 | | | | | |
 
 **Tabla 1C: nueva conversación en el inquilino o enrutamiento de llamadas a destinatarios en modo TeamsOnly**
 
-| <br/><br/> Multimodo   | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | |   Remite <br/><br/> TeamsOnly  |
+| <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp; | |   Remite <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Logra   |Teams<br/>Skype Empresarial<br/>Teams <br/>Skype Empresarial<br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+| Aplicaciones aisladas   |Teams<br/>Skype Empresarial<br/>Teams <br/>Skype Empresarial<br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
 |SfB\*  | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> Local<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Teams | Online |  &boxv; |Teams   |
 |  |  |  | | |
@@ -115,27 +117,27 @@ Las tablas siguientes describen qué cliente recibirá una llamada de su origina
 
 **Tabla 2A: nueva conversación o enrutamiento de llamadas a un destinatario de islas**
 
-| <br/><br/>Multimodo   | Autor<br/><br/> Cliente| <br/><br/>SfB| | Remite<br/><br/> Logra |
+| <br/><br/>Modo   | Autor<br/><br/> Cliente| <br/><br/>SfB| | Remite<br/><br/> Aplicaciones aisladas |
 |--- |--- |--- |--- |--- |
-| Logra |Teams<br/>Skype Empresarial <br/>Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible**   <br/> Skype Empresarial |
+| Aplicaciones aisladas |Teams<br/>Skype Empresarial <br/>Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible**   <br/> Skype Empresarial |
 | SfB\* |Skype Empresarial <br/>Skype Empresarial |Online<br/> Local<br/> | &boxv;<br/>&boxv;|Skype Empresarial <br/>Skype Empresarial |
 | TeamsOnly |Teams |Online| &boxv;|*Skype Empresarial* |
 |  | | | | 
 
 **Tabla 2B: nueva conversación o enrutamiento de llamadas a un destinatario en modo SfB\***
 
-| <br/><br/>Multimodo   | Autor<br/><br/> Cliente| <br/><br/>SfB| |  Remite<br/><br/> SfB\* |  
+| <br/><br/>Modo   | Autor<br/><br/> Cliente| <br/><br/>SfB| |  Remite<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Logra |Teams<br/>Skype Empresarial <br/>Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible** <br/>Skype Empresarial <br/> |  
+| Aplicaciones aisladas |Teams<br/>Skype Empresarial <br/>Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible** <br/>Skype Empresarial <br/> |  
 | SfB\* |Skype Empresarial <br/>Skype Empresarial  |Online<br/> Local<br/>  |&boxv;<br/>&boxv; | Skype Empresarial <br/>Skype Empresarial  |
 | TeamsOnly | Teams|Online |&boxv; |*Skype Empresarial*  |
 |  | | | | |
 
 **Tabla 2C: nueva conversación federada o enrutamiento de llamadas a destinatarios en modo TeamsOnly**
 
-| <br/><br/>Multimodo | Autor<br/><br/> Cliente| <br/><br/>SfB| |  Remite<br/>  <br/> TeamsOnly  |
+| <br/><br/>Modo | Autor<br/><br/> Cliente| <br/><br/>SfB| |  Remite<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Logra  |Teams<br/>Skype Empresarial <br/>Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**No es posible** <br/>*Teams* |
+| Aplicaciones aisladas  |Teams<br/>Skype Empresarial <br/>Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> Local<br/> Local<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Teams <br/>*Teams* <br/>**No es posible** <br/>*Teams* |
 | SfB\* |Skype Empresarial <br/>Skype Empresarial  | Online<br/> Local| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Teams |Online |&boxv; |Teams |
 |  | | | | |
@@ -186,10 +188,10 @@ En la tabla se describe la presencia del editor que verá un monitor, según el 
 
 **Tabla 3: presencia en el inquilino (nuevo subproceso)**
 
-|Monitor <br/><br/>Cliente| |<br/><br/>Logra |Publisher <br/><br/>SfB\* |<br/>Solo equipos|
+|Monitor <br/><br/>Cliente| |<br/><br/>Aplicaciones aisladas |Publisher <br/><br/>SfB\* |<br/>Solo equipos|
 |--- |--- |--- |--- |---|
 |Skype Empresarial |&boxv;|Skype Empresarial | Skype Empresarial | Teams|
-|Microsoft Teams |&boxv; |Microsoft Teams |Skype Empresarial |Teams |
+|Teams |&boxv; |Teams |Skype Empresarial |Teams |
 | | | | |
 
 ## <a name="federated-presence"></a>Presencia federada
@@ -200,10 +202,10 @@ En la tabla siguiente se describe la presencia del editor que verá un monitor, 
 
 **Tabla 4: presencia federada (nuevo hilo)**
 
-|Monitor <br/><br/> Cliente | |<br/><br/> Logra  |Publisher <br/><br/> SfB\* |<br/><br/> Solo equipos |
+|Monitor <br/><br/> Cliente | |<br/><br/> Aplicaciones aisladas  |Publisher <br/><br/> SfB\* |<br/><br/> Solo equipos |
 |--- |--- |--- |--- |---|
 |Skype Empresarial |&boxv; |Skype Empresarial  | Skype Empresarial  | Teams  |
-|Microsoft Teams | &boxv;|Skype Empresarial |Skype Empresarial |Teams|
+|Teams | &boxv;|Skype Empresarial |Skype Empresarial |Teams|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Presencia en subprocesos preexistentes

@@ -13,17 +13,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga más información acerca de las licencias de complemento, qué características obtendrá con cada licencia, cómo comprarlas para su producto y cómo usar su operador existente con ellas. Puede obtener información sobre precios y detalles del plan para Office 365, créditos de comunicación y planes de llamadas.
-ms.openlocfilehash: 6b3f850980db71e1347802dd0ab59c38c46e4ebc
-ms.sourcegitcommit: 4a4ed872eff22663720296ae29c0e644286857f2
+ms.openlocfilehash: e7a4853bcb5cb1522f185f8f66ccb0931cdc2be2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "37571207"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826638"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licencias complementarias de Microsoft Teams
 

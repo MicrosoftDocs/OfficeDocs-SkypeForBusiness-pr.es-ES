@@ -20,12 +20,12 @@ ms.custom:
 - PowerShell
 - LIL_Placement
 description: Descargue, instale y use Windows PowerShell 5,1 para crear una sesión remota de PowerShell que se conecte a Skype empresarial online.
-ms.openlocfilehash: 1bea6ab4081acbc5efa07c3ec0e60677fe60a326
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 227023d5c86b99a66ecdbdabd3b2973d0383a534
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41692915"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831161"
 ---
 # <a name="download-and-install-windows-powershell-51"></a>Descargar e instalar Windows PowerShell 5.1
 
@@ -94,7 +94,7 @@ Antes de instalar Windows Management Framework 5,1:
 
 Si no está seguro de qué versión de Windows está ejecutando o si no está seguro de si ha instalado el Service Pack 1 de Windows 7, haga clic en **Inicio**, haga clic con el botón secundario en **equipo**y, a continuación, haga clic en **propiedades**. Esta información se notificará en el cuadro de diálogo sistema.
   
-Para instalar Windows Management Framework 5,1, complete el procedimiento de [instalación y configuración de WMF 5,1](https://docs.microsoft.com/powershell/wmf/setup/install-configure).
+Para instalar Windows Management Framework 5,1, complete el procedimiento de [instalación y configuración de WMF 5,1](https://docs.microsoft.com/powershell/scripting/wmf/setup/install-configure).
   
 Después de reiniciar el equipo, compruebe que Windows PowerShell puede iniciarse y que la aplicación se puede ejecutar con credenciales administrativas. Para ello, haga lo siguiente:
   

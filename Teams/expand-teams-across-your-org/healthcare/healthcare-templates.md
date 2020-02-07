@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a las plantillas para las organizaciones sanitarias de Teams
-ms.openlocfilehash: 756f9a50dac14575250a521750f80dbe8d1242b8
-ms.sourcegitcommit: 9ae5dadaab999acd061cc9418dbd55d98b82980e
+ms.openlocfilehash: d2e22b47fbb0e6387a183fc12da70f7729af9172
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38702321"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827768"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas para las organizaciones sanitarias de Teams
 
@@ -36,7 +38,7 @@ La plantilla en adelante está pensada para la comunicación y la colaboración 
 
 |Tipo de plantilla base |baseTemplateId |Canales de plantillas de línea base|
 |:--- |:---|:---|
-|Atención médica en adelante | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Anuncios\* <br> Huddles\* <br> Hacia\* <br> Personal\* <br> Instrui\* |
+|Atención médica en adelante | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Anuncios\* <br> Huddles\* <br> Hacia\* <br> Personal\* <br> Aprendizaje\* |
 |     | |         |
 
 \*Con favoritos automáticos

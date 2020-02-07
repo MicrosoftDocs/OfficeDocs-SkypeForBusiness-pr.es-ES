@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Elija aplicaciones cliente de Teams, planear la calidad del extremo, obtener recomendaciones para implementar puntos de conexión Wi-Fi y elegir dispositivos de audio.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f12b80fa1914166d48860b15cda7a928ca94ece
-ms.sourcegitcommit: dc240b123efb03d5ab0545d650a973bf60d04506
+ms.openlocfilehash: d156761d8ebc39822d6ccf2fc28ed6c380c4e117
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2019
-ms.locfileid: "40069201"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825188"
 ---
 # <a name="plan-my-users-experience"></a>Planear la experiencia de mis usuarios
 
@@ -89,7 +91,7 @@ Si su organización usa puntos de acceso o routers inalámbricos que no admiten 
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Qué clientes de equipos se implementarán en la organización?</li><li>¿Cómo se implementarán inicialmente los clientes de Teams para los usuarios?</li><li>¿Quién es el responsable de evaluar los extremos y dispositivos para validar que cumplen con los requisitos de Teams para obtener una experiencia de calidad?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Documente el proceso que se va a seguir para implementar los clientes de Teams.</li><li>Evaluar los extremos y dispositivos, y realizar y corregir el requisito.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Documente el proceso que se va a seguir para implementar los clientes de Teams.</li><li>Evaluar los extremos y dispositivos, y realizar y corregir el requisito.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -112,7 +114,7 @@ Una vez que se seleccionen los dispositivos, se deben incluir en el plan de prue
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir la estrategia general de dispositivos de su organización para experiencias de usuarios y salas de reuniones.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Complete un ejercicio de asignación entre dispositivos para su organización.</li><li>Documente el proceso de obtención de dispositivos para usuarios y salas de reuniones.</li><li>Documente el proceso de implementación y configuración de dispositivos para usuarios y salas de reuniones.</li><li>Adquirir dispositivos iniciales para comenzar la implementación.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Complete un ejercicio de asignación entre dispositivos para su organización.</li><li>Documente el proceso de obtención de dispositivos para usuarios y salas de reuniones.</li><li>Documente el proceso de implementación y configuración de dispositivos para usuarios y salas de reuniones.</li><li>Adquirir dispositivos iniciales para comenzar la implementación.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -9,6 +9,8 @@ ms.service: msteams
 audience: admin
 ms.reviewer: rowille, crowe
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Guía de inicio rápido para configurar Planes de llamada en Microsoft Teams.
 localization_priority: Normal
 ms.collection:
@@ -16,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0bebe58780456435388f9f5c2b5ef75478dda12
-ms.sourcegitcommit: e59914458b4c22cc12556795468bc019e00a8940
+ms.openlocfilehash: b7f1ded5d843689e828b00c0a466e012b8750582
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910008"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825368"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================

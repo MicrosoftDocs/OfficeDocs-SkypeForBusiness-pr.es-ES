@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,11 +17,11 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58149b73d2737fce913be816734b9a57343cd877
-ms.sourcegitcommit: 30b4b979e20066253e32ab9e44d79c48a97e6211
+ms.openlocfilehash: e813e8dd29e224cd8f5b5211d2f8907b9538acd9
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37972221"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824817"
 ---
 [!INCLUDE [create-a-phone-system-auto-attendant](../create-a-phone-system-auto-attendant.md)]

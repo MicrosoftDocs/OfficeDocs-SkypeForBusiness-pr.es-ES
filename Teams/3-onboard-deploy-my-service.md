@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Descargue la guía de habilitación de sitios para planificar los lanzamientos de equipos y acelerar y optimizar la adopción de los usuarios, la percepción de su calidad y la satisfacción.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 760beb6b5f786367c76ce9ac2b66d808fa10c6de
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516003"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825178"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 
@@ -42,7 +44,7 @@ Al completar las actividades de esta guía, su organización puede:
 -   Reduzca las necesidades de soporte técnico y aumente la satisfacción del usuario.
 
 > [!NOTE]
-> Este artículo y la guía relacionada no se destinan a describir todos los pasos de configuración técnica necesarios para la habilitación del servicio o el suministro de tono de marcado a un sitio específico. En su lugar, se concentran en actividades y tareas recomendadas para los usuarios que se incorporan fácilmente y que les permiten comenzar a consumir cargas de trabajo de voz a través de una transición rápida y fluida con una tasa de adopción elevada, a la vez que minimizan los requisitos de soporte técnico. Para obtener instrucciones técnicas sobre cómo configurar mejor su entorno para la voz de Teams, consulte las listas de comprobación de incorporación para [configurar las cargas de trabajo de voz de Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), configurar el [enrutamiento directo en Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), [capacidades básicas de Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md), [redes para Teams](onboarding-checklist-configure-networking.md)y [habilitar Office 365](onboarding-checklist-enable-office-365.md).
+> Este artículo y la guía relacionada no se destinan a describir todos los pasos de configuración técnica necesarios para la habilitación del servicio o el suministro de tono de marcado a un sitio específico. En su lugar, se concentran en actividades y tareas recomendadas para los usuarios que se incorporan fácilmente y que les permiten comenzar a consumir cargas de trabajo de voz a través de una transición rápida y fluida con una tasa de adopción elevada, a la vez que minimizan los requisitos de soporte técnico. Para obtener instrucciones técnicas sobre cómo configurar mejor su entorno para la voz de Teams, vea las listas de comprobación de la incorporación para [configurar las cargas de trabajo de voz de Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), configurar el [enrutamiento directo en Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), las [funciones principales](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)de Teams, las funciones [de red para Teams](onboarding-checklist-configure-networking.md)y [Habilitar Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 
@@ -65,7 +67,7 @@ El foco de la guía consiste en tratar los factores que influyen en la percepci�
 
 La [Guía de habilitación de sitios para voz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) es un libro de Microsoft Excel. Cada una de estas cinco áreas de enfoque es una hoja independiente en el libro, y cada tarea y actividad de implementación se agrupan en una de estas hojas.
 
-![Captura de pantalla de la guía de activación de sitios](media/deploy-my-service-image1.png "de la guía")
+![Captura de pantalla de la guía de habilitación de sitios](media/deploy-my-service-image1.png "Captura de pantalla de la guía")
 
 > [!NOTE]
 > Creará una instancia independiente de la guía para cada sitio en el ámbito de la implementación de Teams.
@@ -84,7 +86,7 @@ Independientemente del tamaño y la complejidad de la ubicación, habilitar cada
 
 4. Escriba el **nombre del sitio, el código de sitio**y la **fecha de lanzamiento planificada**, como se muestra a continuación. Este es un paso crítico, ya que ajusta las fechas límite recomendadas para cada actividad de la guía.
 
-   Ejemplo ![con nombre de sitio, código de sitio y ejemplo de fecha de lanzamiento planeada](media/deploy-my-service-image2.png "con el nombre de sitio de Nueva York, código de sitio NY01 y fecha de lanzamiento planificada de 20 de marzo de 18")
+   ![Ejemplo con nombre de sitio, código de sitio y fecha de lanzamiento planeada](media/deploy-my-service-image2.png "Ejemplo con nombre de sitio de Nueva York, código de sitio NY01 y fecha de lanzamiento planificada de 20 de marzo de 18")
 
 5. Revise cada actividad, lleve a cabo las acciones necesarias y actualice el estado a medida que recorra la escala de tiempo. El estado se representa de forma gráfica, como se describe a continuación:
   
@@ -94,7 +96,7 @@ Independientemente del tamaño y la complejidad de la ubicación, habilitar cada
 
 6. El estado se resume dentro de cada sección y el título de la sección tiene el formato de uno de estos indicadores de estado. El **Estado semanal** también se actualiza automáticamente.
 
-![Captura de pantalla de los resúmenes de estado semanales en la guía](media/deploy-my-service-image6.png "de la guía de los resúmenes de estado semanales en la guía")
+![Captura de pantalla de los resúmenes de estado semanales en la guía](media/deploy-my-service-image6.png "Captura de pantalla de los resúmenes de estado semanales en la guía")
 
 > [!TIP]
 > Repita los pasos anteriores para todas las ubicaciones que tiene.

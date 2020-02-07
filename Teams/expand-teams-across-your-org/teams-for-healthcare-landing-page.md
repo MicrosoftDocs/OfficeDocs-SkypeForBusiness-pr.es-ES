@@ -7,6 +7,8 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords:
+- NOCSH
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cc058a0d23008ebb827f3a661baed3611207f24
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 4944dd2f48f56032a0c3a54e3c2cacabd210520d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570330"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826668"
 ---
 # <a name="teams-for-healthcare"></a>Teams para sanidad
 

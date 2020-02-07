@@ -7,17 +7,19 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.assetid: f8109905-3279-475f-a64b-31d37af48bfe
 ms.collection:
 - M365-collaboration
 description: En este artículo se explica cómo administrar los dispositivos de salas de Microsoft Teams de forma integrada con Azure monitor.
-ms.openlocfilehash: 33132d7d72498fd01a156ce28114d1e584d6760c
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 1b7038c1a2b46164e233e54af18875318d1c47d4
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269253"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826128"
 ---
 # <a name="manage-microsoft-teams-rooms-devices-with-azure-monitor"></a>Administrar dispositivos de salas de Microsoft Teams con Azure monitor
 

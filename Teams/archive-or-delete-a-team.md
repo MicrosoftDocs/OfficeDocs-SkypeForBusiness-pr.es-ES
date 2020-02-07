@@ -10,18 +10,20 @@ ms.reviewer: jastark
 search.appverid: MET150
 description: Obtenga información sobre cómo archivar o eliminar permanentemente un equipo.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30913e67c80f5f5e8c04ddf5d7855dcf25536834
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: e367fe85f1af35391fa00b4a416b6e796383d962
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992910"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826408"
 ---
 <a name="archive-or-delete-a-team-in-microsoft-teams"></a>Archivar o borrar un equipo en Microsoft Teams
 ===========================================

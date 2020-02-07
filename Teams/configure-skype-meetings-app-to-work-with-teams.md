@@ -9,17 +9,19 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Los administradores pueden usar el centro de administración de Microsoft Teams para configurar la aplicación reuniones de Skype para que funcione con Teams
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f478eaaa1248e7738026f32ae0ccfb7ee03480f
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: a6d2725b3419283d5588882356c7334bb3d33405
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516927"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825528"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación de Reuniones de Skype para trabajar con Teams
 ===================================================
@@ -44,4 +46,4 @@ Los usuarios que usan la aplicación reuniones de Skype con Teams están sujetos
 ## <a name="more-information"></a>Más información
 
 - [¿Qué es la aplicación reuniones de Skype (aplicación Web de Skype empresarial)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
-- [Skype Meetings App minimum network requirements](https://technet.microsoft.com/library/mt845808.aspx) (Requisitos de red mínimos de la aplicación Reuniones de Skype)
+- [Requisitos de red mínimos de la aplicación Reuniones de Skype](https://technet.microsoft.com/library/mt845808.aspx)

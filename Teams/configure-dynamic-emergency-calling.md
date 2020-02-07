@@ -11,15 +11,17 @@ ms.collection:
 ms.reviewer: roykuntz
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Configurar las llamadas de emergencia dinámicas
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a282d8c5cd923f6881a04da7f2569a5dca11421b
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 0cd5f3320896c823eb81a9147a1b1b1adb36dbac
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634813"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825518"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planear y configurar las llamadas de emergencia dinámicas 
 

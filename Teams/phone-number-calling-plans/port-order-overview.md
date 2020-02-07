@@ -12,16 +12,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-f1.keywords: ms.teamsadmincenter.voice.phonenumbers.porting.overview
+f1.keywords:
+- CSH
 ms.custom:
+- ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Obtenga información general sobre qué son los pedidos de los puertos y cómo transferir números de teléfono de su proveedor de servicios a teams.
-ms.openlocfilehash: 3f75acf8711838b159bacfe11169e500273eaf01
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7d92c76c62405efbffaff378b2045195c175d867
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708766"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827948"
 ---
 # <a name="whats-a-port-order"></a>¿Qué es un pedido de portabilidad?
 

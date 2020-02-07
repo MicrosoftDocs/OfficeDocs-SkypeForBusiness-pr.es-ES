@@ -9,18 +9,20 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Use esta plantilla de correo electrónico para comunicar a los usuarios de la organización sobre la transición de Microsoft StaffHub a Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7b78940590d6c81422f09002685d7911055dfc4
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 1baea026c70d3132e1753e334341b89e261a1493
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569657"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825778"
 ---
 # <a name="staffhub-to-teams-sample-email-to-users"></a>El correo electrónico de muestra a los usuarios de StaffHub
 

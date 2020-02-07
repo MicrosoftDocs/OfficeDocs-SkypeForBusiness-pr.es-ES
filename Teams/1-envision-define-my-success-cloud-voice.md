@@ -13,15 +13,17 @@ description: Mida los resultados de su Conferencia de audio, sistema telefónico
 ms.collection:
 - M365-voice
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 918869697b5cd63580a654b9d0051fdac35c44f4
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 3c3669e904db7dbea805daa5737b0bfb81e931d7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517080"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825428"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
@@ -29,7 +31,7 @@ Este artículo proporciona una descripción general de los requisitos para defin
 
 <!--ENDOFSECTION-->
 
-La **audioconferencia** proporciona a las organizaciones puntos de entrada adicionales a cualquier reunión (ad hoc o programada) al permitir a los participantes de la reunión unirse a través de una red de telefonía pública conmutada (RTC) al llamar con el teléfono fijo tradicional, privado Exchange de sucursales (PBX) o teléfonos móviles. Esto es útil cuando el organizador o los participantes no están delante de un equipo o cuando las conexiones de datos no están disponibles o son demasiado inconfiables para admitir las comunicaciones de voz, por ejemplo, en un área remota con cobertura de datos para dispositivos móviles Spotty o conectada a una Wi-Fi pública gratuita. servicio con ancho de banda limitado o cuando los participantes de la reunión prefieren llamar a la reunión con un punto de conexión de telefonía que sea accesible fácilmente.
+La **audioconferencia** proporciona a las organizaciones puntos de entrada adicionales a cualquier reunión (ad hoc o programada) al permitir que los participantes de la reunión se unan a través de una red de telefonía pública conmutada (RTC) mediante llamadas a teléfonos fijos tradicionales, centrales de conmutación (PBX) o móviles. Esto es útil cuando el organizador o los participantes no están delante de un equipo o cuando las conexiones de datos no están disponibles o son demasiado inconfiables para admitir las comunicaciones de voz, por ejemplo, en un área remota con cobertura de datos para dispositivos móviles Spotty o conectada a una Wi-Fi pública gratuita. servicio con ancho de banda limitado o cuando los participantes de la reunión prefieren llamar a la reunión con un punto de conexión de telefonía que sea accesible fácilmente.
 
 El **sistema telefónico con los planes de llamadas ("planes de llamadas")** ofrece a las organizaciones una forma de modernizar su lugar de trabajo al permitir que los usuarios hagan llamadas telefónicas relacionadas con el negocio desde sus equipos y dispositivos móviles. El proceso de actualización de un lugar de trabajo puede formar parte de varios escenarios: una implementación de trabajo basada en actividades, una importante mudanza de Office, una actualización de la oficina, la retirada de una solución PBX heredada, la conclusión de un contrato de proveedor de servicios RTC, etc. Con los planes de llamadas, Microsoft facilita la conectividad a la RTC.
 

@@ -10,16 +10,18 @@ ms.service: msteams
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.reviewer: mikedav
 description: Obtenga información sobre cómo asignar licencias de características como audioconferencia, sistema telefónico y planes de llamadas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e5783a2fa0c6479d59e563b9001b736015f20fa
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 967b67c1d8bc92009e1319260373c9b8abc52b99
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515785"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826318"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Asignar licencias de Microsoft Teams
 

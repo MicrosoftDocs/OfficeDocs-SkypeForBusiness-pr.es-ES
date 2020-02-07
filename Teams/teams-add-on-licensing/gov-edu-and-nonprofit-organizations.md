@@ -12,17 +12,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga más información sobre las licencias de complementos y las características de los planes de organización sin ánimo de lucro y de GOV, EDU. '
-ms.openlocfilehash: d63145cf6a8c761b4454fff212bd0e593ac8f395
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 9d33cbb7367a1608b0ff7c9fdd05447a98edba8b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37571218"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826688"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU y organizaciones sin ánimo de lucro
 

@@ -17,6 +17,8 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - O365E_SFBVoiceCredit
 - O365E_SFBVoiceCreditAether
 - O365M_SFBVoiceCredit
@@ -25,15 +27,14 @@ f1.keywords:
 - O365E_SFBVoiceCreditAether
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
-ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo pagar crédito de comunicación (consumo RTC) para servicios de Skype empresarial y consulte planes para mantener a los usuarios con acceso continuo al sistema telefónico. '
-ms.openlocfilehash: 76b1281c69968164091daebff035a4c2b9bc75e1
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9ba413c80c403e69eb977bb1911ad37e67ad87cd
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695842"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827218"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 

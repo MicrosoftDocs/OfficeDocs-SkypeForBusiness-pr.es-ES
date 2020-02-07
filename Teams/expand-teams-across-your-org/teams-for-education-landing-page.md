@@ -7,20 +7,20 @@ author: lanachin
 ms.author: v-lanac
 manager: serdars
 audience: admin
+f1.keywords: ms.teamsadmincenter.assignments.overview
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c0ef954c1a6f93ab47df5a968be3c5950d24d44
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9966c8dcf454952e1f06c3ad6e2fa65b44422881
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693795"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826658"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams para el ámbito educativo
 

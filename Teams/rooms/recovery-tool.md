@@ -9,14 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 description: En este artículo se describe cómo usar la herramienta de recuperación para salas de Microsoft Teams, que se usaría para poner un sistema obsoleto en un estado compatible.
-ms.openlocfilehash: 3a62256a5e39d93033588ca2be779e9c3b76a4f5
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 452f5d9d15375bec7ac25c07c865add8a01b0345
+ms.sourcegitcommit: ac922addbc1422b5c41273a2e03196efb2ed7770
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269233"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41831182"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Usar la herramienta de recuperación de Sala de Microsoft Teams
 
@@ -27,7 +29,7 @@ En este artículo se describe cómo usar la herramienta de recuperación para sa
 Descargue el [paquete de instalación de Microsoft Team Rooms](https://go.microsoft.com/fwlink/?linkid=851168) más reciente y extráigalo en un Memory stick USB o en un recurso compartido de red accesible para el dispositivo de salas de Microsoft Teams.
 
 > [!NOTE]
-> La extracción de los archivos desde el MSI puede hacerse con muchos medios. Cualquier mecanismo que extrae todos los archivos y conserva su estructura de directorios es aceptable. Una de estas maneras es usar el comando `msiexec /qn PathToMsi /qb TARGETDIR=PathToTarget` donde `PathToMsi` representa la ruta de acceso completa al paquete de instalación de Microsoft Teams Room y `PathToTarget` representa la ruta de acceso completa de la carpeta en la que desea que se extraigan los archivos.
+> La extracción de los archivos desde el MSI puede hacerse con muchos medios. Cualquier mecanismo que extrae todos los archivos y conserva su estructura de directorios es aceptable. Una de estas maneras es usar el comando `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` donde `PathToMsi` representa la ruta de acceso completa al paquete de instalación de Microsoft Teams Room y `PathToTarget` representa la ruta de acceso completa de la carpeta en la que desea que se extraigan los archivos.
 
 ## <a name="running-the-tool"></a>Ejecutar la herramienta
 

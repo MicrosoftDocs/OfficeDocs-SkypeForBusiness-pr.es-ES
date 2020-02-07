@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: rafarhi
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Aprenda a habilitar la aplicación cliente de escritorio de Teams con directivas de control de aplicaciones de AppLocker.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6035341aa649e966f15be7d33894f450ec8be251
-ms.sourcegitcommit: b1bf37a96a8faa169d8a32b7478f1e2d1022ebbb
+ms.openlocfilehash: 2d3e9df38164c5253aab3a331b47b26892a910b7
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311255"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826388"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>Directivas de control de aplicaciones de AppLocker en Microsoft Teams
 

@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Elija un modelo de implementación, desarrolle una matriz de consulta responsable, consultada, informada (RACI), cree planes de control y ejecución.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ef741290a4d669084ad55335d0a08ec1c9ffd5c
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: cd3cacafdf5f3f8369ea6bce18da2aac976e437b
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37515995"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825138"
 ---
 # <a name="document-my-success-plan"></a>Documentar el plan de éxito
 

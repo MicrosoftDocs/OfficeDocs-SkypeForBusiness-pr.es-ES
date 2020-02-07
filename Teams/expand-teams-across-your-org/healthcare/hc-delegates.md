@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: acolonna
 description: Un usuario puede establecer explícitamente otro usuario como delegado en su mensaje de estado.
-ms.openlocfilehash: 56c0e9bd5394e738170130bab15803e5cb4d741c
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ec1f590cad4ada605b4a487d982b3a2459ecb5f2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570363"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827788"
 ---
 # <a name="message-delegation"></a>Delegación de mensajes
 
@@ -45,7 +47,7 @@ Los administradores deben tener en cuenta que los comportamientos de notas de es
 |Modo de coexistencia | Comportamiento esperado|
 |---|---|
 |TeamsOnly |Los usuarios solo pueden establecer una nota desde Teams. <br> La nota de Teams del usuario está visible en Teams & SfB. |
-|Logra | La nota del usuario se establece en Teams visible solo en Teams. <br> La nota del usuario se establece en SfB visible solo en SfB |
+|Aplicaciones aisladas | La nota del usuario se establece en Teams visible solo en Teams. <br> La nota del usuario se establece en SfB visible solo en SfB |
 |Modos SfB * | Los usuarios solo pueden establecer una nota desde SfB. <br> La nota de SfB del usuario está visible en los equipos de SfB &.  |
 |||
 

@@ -10,18 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Use los roles y el análisis de red para evaluar la disponibilidad de su organización, abrir los puertos TCP y UDP correctos, realizar cualquier corrección de la red.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ad3700b3b0186ba3e95d8f55ad704f37cf33bc7
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 3efb5a58c36a38757b2f6046ca8c8c42ab80f6ce
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925081"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41825078"
 ---
 # <a name="evaluate-my-environment"></a>Evaluar mi entorno
 
@@ -47,7 +49,7 @@ Conocer esto ayudará a su organización a ajustar el plan del proyecto según c
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será el responsable de completar una evaluación del entorno?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Documente los resultados de la evaluación del entorno.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Documente los resultados de la evaluación del entorno.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -64,7 +66,7 @@ Use las siguientes consideraciones para evaluar la preparación de la organizaci
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Ha tenido éxito previamente con la adopción por el usuario de software o servicios?</li><li>¿Puede hacer un seguimiento del uso?</li><li>¿Tiene los recursos para diseñar y administrar una campaña inicial&mdash;y constante&mdash;de adopción (conciencia, aprendizaje y soporte)?</li><li>¿Tiene un equipo de administración de cambios/adopción de usuarios dedicado o puede invertir en esos recursos para garantizar el resultado empresarial?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Si respondió &quot;afirmativamente&quot; a todo lo anterior, identifique los participantes de la administración de cambios de los usuarios correctos y empiece la planeación de la disponibilidad de los usuarios.</li><li>Si ha &quot;respondido&quot; a una parte o a todas las anteriores, considere la posibilidad de repartir recursos externos para ayudarle a impulsar las actividades de administración de cambios y relacionadas con la adopción de su organización.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Si respondió &quot;afirmativamente&quot; a todo lo anterior, identifique los participantes de la administración de cambios de los usuarios correctos y empiece la planeación de la disponibilidad de los usuarios.</li><li>Si ha &quot;respondido&quot; a una parte o a todas las anteriores, considere la posibilidad de repartir recursos externos para ayudarle a impulsar las actividades de administración de cambios y relacionadas con la adopción de su organización.</li></ol></td></tr>
 </table>
 
 
@@ -170,7 +172,7 @@ Después de descargar e instalar la herramienta, puede encontrarla en C:\\archiv
 Abra una ventana del símbolo del sistema y navegue al directorio de la herramienta de evaluación de redes escribiendo **\\CD\\C: archivos de programa herramienta Evaluación de red de Microsoft Skype**empresarial. En el símbolo del sistema, inicie la prueba de puertos abiertos escribiendo **networkassessmenttool. exe/connectivitycheck**
 
 Después de ejecutar las comprobaciones, la herramienta mostrará el mensaje "comprobaciones completadas correctamente" o informe sobre los puertos bloqueados.
-También genera un archivo denominado Connectivity_results. txt, que contiene el resultado de la herramienta y lo almacena en el\\directorio de herramientas\\\\\\ de evaluación de redes locales de% userprofile% AppData de Microsoft Skype empresarial.
+También genera un archivo denominado Connectivity_results. txt, que contiene el resultado de la herramienta y lo almacena en el directorio de la herramienta\\\\ de\\evaluación\\de redes local% userprofile% AppData de Microsoft Skype empresarial.
 
 Le recomendamos que ejecute las comprobaciones de conectividad de forma regular para asegurarse de que los puertos se hayan abierto y funcionen correctamente.
 
@@ -218,7 +220,7 @@ Para obtener más información, consulte [calidad de servicio en Microsoft Teams
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será el responsable de realizar las evaluaciones de red apropiadas en todos los segmentos de red y ubicaciones de la organización?</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Siguientes pasos</td><td><ul><li>Puede realizar una evaluación de red detallada para asegurarse de que su red está lista para su implementación de Microsoft Teams.</li><li>Realizar correcciones de red basadas en los resultados de la evaluación de cada segmento de red.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Puede realizar una evaluación de red detallada para asegurarse de que su red está lista para su implementación de Microsoft Teams.</li><li>Realizar correcciones de red basadas en los resultados de la evaluación de cada segmento de red.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

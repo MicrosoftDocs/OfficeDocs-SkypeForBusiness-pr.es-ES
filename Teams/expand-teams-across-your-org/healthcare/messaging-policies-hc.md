@@ -7,6 +7,8 @@ audience: ITPro
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
@@ -15,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a la mensajería segura para las organizaciones sanitarias
-ms.openlocfilehash: 1b4048dc168de0c36c3c322cc9bb7d4e2d9c3958
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: ff4f9089d7fba87678345d37f8c9d85949fb478e
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570341"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41827738"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 
@@ -28,7 +30,7 @@ Las directivas de mensajería se usan para controlar qué características de me
 
 Puede usar la directiva predeterminada o bien crear una o más directivas de mensajería personalizadas para los miembros de su organización. Después de crear una directiva, tendrá que asignarla a un usuario o grupos de usuarios de la organización. Por ejemplo, puede optar por permitir que determinados roles de trabajo utilicen estas características (tal vez solo para médicos y enfermeras) y otros trabajadores (como el personal de la cocina o el JANITORIAL) para obtener un conjunto más limitado de características. Decidir usted mismo qué necesidades tiene su organización, esta guía es como más una sugerencia.
 
-Las directivas se pueden administrar fácilmente en el [centro de administración de Microsoft Teams](http://admin.teams.microsoft.com) iniciando sesión con credenciales de administrador y eligiendo **directivas de mensajería** en el panel de navegación izquierdo.
+Las directivas se pueden administrar fácilmente en el [centro de administración de Microsoft Teams](https://admin.teams.microsoft.com) iniciando sesión con credenciales de administrador y eligiendo **directivas de mensajería** en el panel de navegación izquierdo.
 
  ![Captura de pantalla de la página de directivas de mensajería](../../media/messaging-policies-image1.png)
 
@@ -42,7 +44,7 @@ La siguiente configuración es de especial interés para las aplicaciones de cui
 
 - ![Icono del número 1, que hace referencia a una llamada en la](../../media/sfbcallout1.png) captura de pantalla anterior, **lectura** de lectura confirmaciones de lectura permite al remitente de un mensaje de conversación saber cuándo el destinatario ha leído el mensaje en 1:1 y los chats grupales o menos. Use esta opción para especificar si las confirmaciones de lectura están controladas por el usuario, en para todos o desactivadas para todo el mundo. Las confirmaciones de lectura de mensajes son importantes en las organizaciones de cuidado de la salud porque no eliminan certeza acerca de si se leyó un mensaje.
 
-  Para las aplicaciones de cuidado de la salud, elija controlado por el **usuario** o **activado para todos**. Tenga en cuenta que al usar la configuración **activado para todos** , la única forma de establecer confirmaciones para todo el inquilino es que solo tenga una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para tener todas las directivas de mensajería en el inquilino usa la misma configuración para los recibos. La característica confirmaciones de lectura es más eficaz cuando la característica está habilitada para **todos los usuarios**.
+  Para las aplicaciones de cuidado de la salud, elija controlado por el **usuario** o **activado para todos**. Tenga en cuenta que al usar la configuración **activado para todos** , la única forma de establecer confirmaciones para todo el inquilino es que solo tenga una directiva de mensajería para todo el inquilino (la directiva predeterminada denominada "global (valor predeterminado de toda la organización)") o para que todas las directivas de mensajería del inquilino usen la misma configuración para las confirmaciones. La característica confirmaciones de lectura es más eficaz cuando la característica está habilitada para **todos los usuarios**.
 
     *Ejemplo de uso sin confirmaciones de lectura:* Jakob Roth, un paciente de alto riesgo, es admitido en el hospital.Sofía Krause es una enfermera que funciona como parte del equipo inter-disciplinar (IDT) de los trabajadores de medicina, incluidos los distintos especialistas, se asigna como Coordinador de atención primaria encargado de este paciente.  Sofía envía correos electrónicos y otros mensajes instantáneos a un grupo de enfermeras y doctores que usan una variedad de clientes y aplicaciones de mensajería, y con frecuencia no recibe respuesta o indica si los miembros del equipo leyeron un mensaje. Debido a los procesos de comunicación, el medicamento de Jakob se ha aplicado de forma indebida y se amplía la estadía de su hospital.
 

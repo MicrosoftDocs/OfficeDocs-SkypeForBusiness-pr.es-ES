@@ -9,18 +9,20 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Obtenga información sobre cómo ejecutar un informe para obtener una lista de los usuarios activos de StaffHub en su organización.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49091f7d8ada565adea61bf8219c6da828358893
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: fe7851e57cd6d812d0b8904668ca5fd67fd5999d
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37569668"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826698"
 ---
 # <a name="run-a-report-to-show-active-staffhub-usage"></a>Ejecutar un informe para mostrar el uso de StaffHub activo
 
