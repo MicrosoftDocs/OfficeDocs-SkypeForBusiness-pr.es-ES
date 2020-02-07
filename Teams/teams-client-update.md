@@ -10,15 +10,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: annaray
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Obtenga información sobre cómo se actualiza el cliente de escritorio de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ace50cc0f9c59375c5a182cf18559b0a449db109
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 8058fa1e79b7d415d03c08500213206579029042
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570261"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832620"
 ---
 # <a name="teams-update-process"></a>Proceso de actualización de Teams
 

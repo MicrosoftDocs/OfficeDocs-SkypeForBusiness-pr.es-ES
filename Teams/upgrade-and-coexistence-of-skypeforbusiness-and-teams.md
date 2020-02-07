@@ -10,8 +10,10 @@ ms.reviewer: dearbeen, bjwhalen
 description: Detalles de Skype Empresarial y Microsoft Teams opciones y modos de coexistencia, y vías de actualización para Teams desde Skype Empresarial con escenarios de ejemplo.
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
 f1.keywords:
+- CSH
+ms.custom:
+- Teams-upgrade-guidance
 - ms.teamsadmincenter.orgwidesettings.teamsfeatures.upgradetoteamsarticle
 - ms.teamsadmincenter.upgradeoverride.learnmore
 ms.collection:
@@ -19,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d9f4583e3ea15a073e0dbbebbebaee9db64678d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 31966dbb98d89cf6a4ef9b4d4dd12710b098c755
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707535"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833730"
 ---
 ![Diagrama de itinerario de actualización, énfasis en la fase de definición del proyecto](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
 

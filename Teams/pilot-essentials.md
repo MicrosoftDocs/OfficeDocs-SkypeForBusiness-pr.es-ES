@@ -11,25 +11,27 @@ description: Instrucciones para iniciar un programa piloto de Microsoft Teams pa
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa6f433c3888a9d3b3e20b098562592ea90b5e6f
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ec60beb606224a5b202a03187027b8e3e002dfd1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36237444"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833900"
 ---
-![Diagrama de viaje de actualización, resaltado implementación e implementación] (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
+![Diagrama de viaje de actualización, resaltado implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
 
-Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización y comparte información para ejecutar un plan piloto eficaz. Antes de continuar, confirme que ha completado las siguientes actividades:
+Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización y comparte información para ejecutar un plan piloto eficaz. Antes de continuar, confirme que ha completado las actividades siguientes:
 
-- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
-- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
@@ -42,8 +44,8 @@ Para lograr los resultados más realistas, la prueba piloto debe incluir a usuar
 
 | | |
 |---|---|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cómo usará una prueba piloto para informarle sobre la dirección del proyecto?</li></ul> |
-| ![Un icono que muestra el siguiente paso](media/audio_conferencing_image9.png)<br/>Siguiente paso|<ul><li>Use las instrucciones a continuación para diseñar y ejecutar su piloto formal.</li></ul>|
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>¿Cómo usará una prueba piloto para informarle sobre la dirección del proyecto?</li></ul> |
+| ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Use las instrucciones a continuación para diseñar y ejecutar su piloto formal.</li></ul>|
 
 > [!Tip]
 > Use los [recursos piloto](https://aka.ms/UpgradeSuccessKit) de ejemplo para ayudar a diseñar las comunicaciones, el plan de pruebas y la encuesta de comentarios.

@@ -9,16 +9,18 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: Identifique un grupo de control de los participantes clave y los líderes de proyectos para identificar los objetivos de implementación, realizar un seguimiento del progreso y quitar bloqueos.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 482779904ba49e945f6b071b3be17fe0a6f290dd
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: a4ab037b416ab7a197f15729c73d8c1b9e107e50
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564565"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832800"
 ---
 # <a name="steering-committee"></a>Comité Director
 

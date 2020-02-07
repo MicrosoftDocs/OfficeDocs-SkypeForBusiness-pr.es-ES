@@ -8,18 +8,20 @@ ms.date: 09/25/2017
 audience: admin
 ms.topic: troubleshooting
 ms.service: msteams
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba40d1d3694666f8fd0b4612ffe53c49808f7297
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 2c8da7e60e785d765e77e17935b60382e864a83b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37564927"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833380"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================

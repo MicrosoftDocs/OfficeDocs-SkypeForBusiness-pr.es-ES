@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Use PowerShell para permitir el acceso de invitado a los equipos de Microsoft Teams o bloquearlo.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94b7be4f67906ad5df2fe23b01cc2bdce662a8cb
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c91d64973c97ce358741874ba45c1d6338915264
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989845"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834030"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Usar PowerShell para controlar el acceso de invitado a un equipo
 ================================================

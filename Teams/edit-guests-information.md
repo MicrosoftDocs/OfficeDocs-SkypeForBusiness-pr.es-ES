@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Descubra cómo un administrador puede editar información sobre los usuarios invitados en el portal de Azure Active Directory.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6092366ab2687c40aa7d722023afb3c5eed97b3
-ms.sourcegitcommit: 09e719ead5c02b3cfa96828841c4905748d192a3
+ms.openlocfilehash: d59e991212391ea9cdac194ef3687da9095f0679
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37753275"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833780"
 ---
 <a name="edit-guest-user-information"></a>Editar información del usuario invitado
 ===========================

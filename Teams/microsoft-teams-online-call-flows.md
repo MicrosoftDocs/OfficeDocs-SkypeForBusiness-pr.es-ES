@@ -10,17 +10,19 @@ ms.reviewer: sonua
 audience: admin
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Describe cómo usa Teams los flujos de 365 de Office en diversas topologías.
-ms.openlocfilehash: dba85db0f031cfc72043f381c5a4c0a40c86f51f
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: 409af0b815c87e6d8285c3cb9a1bd8a5d61fa98b
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634903"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832830"
 ---
 # <a name="microsoft-teams-call-flows"></a>Flujos de llamadas de Microsoft Teams
 

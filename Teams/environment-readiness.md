@@ -9,18 +9,20 @@ ms.service: msteams
 audience: admin
 ms.reviewer: dansteve
 description: Sepa lo que debe buscar cuando compruebe si el entorno está preparado para Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7988d286c7f75f880572f42793568eb083929e8e
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 48af92d4e7a325fdcabd1650b987a12bfb1ddf50
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567455"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41832870"
 ---
 <a name="check-your-environments-readiness-for-microsoft-teams"></a>Comprobación de la preparación del entorno para Microsoft Teams
 ===========================================
