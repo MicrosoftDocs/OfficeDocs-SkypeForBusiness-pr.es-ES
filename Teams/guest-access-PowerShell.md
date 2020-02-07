@@ -11,39 +11,41 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: sbhatta
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Use PowerShell para permitir el acceso de invitado a los equipos de Microsoft Teams o bloquearlo.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94b7be4f67906ad5df2fe23b01cc2bdce662a8cb
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: c91d64973c97ce358741874ba45c1d6338915264
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989845"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834030"
 ---
-<a name="use-powershell-to-control-guest-access-to-a-team"></a><span data-ttu-id="145bf-103">Usar PowerShell para controlar el acceso de invitado a un equipo</span><span class="sxs-lookup"><span data-stu-id="145bf-103">Use PowerShell to control guest access to a team</span></span>
+<a name="use-powershell-to-control-guest-access-to-a-team"></a><span data-ttu-id="ebf70-103">Usar PowerShell para controlar el acceso de invitado a un equipo</span><span class="sxs-lookup"><span data-stu-id="ebf70-103">Use PowerShell to control guest access to a team</span></span>
 ================================================
 
-<span data-ttu-id="145bf-104">Además de usar el centro de administración de Microsoft 365 y el portal de Azure Active Directory (Azure AD), puede usar Windows PowerShell para controlar el acceso de invitados.</span><span class="sxs-lookup"><span data-stu-id="145bf-104">In addition to using the Microsoft 365 admin center and the Azure Active Directory (Azure AD) portal, you can use Windows PowerShell to control guest access.</span></span> <span data-ttu-id="145bf-105">Con PowerShell, puede hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="145bf-105">With PowerShell, you can do the following:</span></span>
+<span data-ttu-id="ebf70-104">Además de usar el centro de administración de Microsoft 365 y el portal de Azure Active Directory (Azure AD), puede usar Windows PowerShell para controlar el acceso de invitados.</span><span class="sxs-lookup"><span data-stu-id="ebf70-104">In addition to using the Microsoft 365 admin center and the Azure Active Directory (Azure AD) portal, you can use Windows PowerShell to control guest access.</span></span> <span data-ttu-id="ebf70-105">Con PowerShell, puede hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ebf70-105">With PowerShell, you can do the following:</span></span>
   
-- <span data-ttu-id="145bf-106">Permitir o bloquear el acceso de invitados a todos los grupos de Teams y Office 365</span><span class="sxs-lookup"><span data-stu-id="145bf-106">Allow or block guest access to all teams and Office 365 Groups</span></span>
+- <span data-ttu-id="ebf70-106">Permitir o bloquear el acceso de invitados a todos los grupos de Teams y Office 365</span><span class="sxs-lookup"><span data-stu-id="ebf70-106">Allow or block guest access to all teams and Office 365 Groups</span></span>
 
-- <span data-ttu-id="145bf-107">Permitir que los invitados se agreguen a todos los grupos de equipos y de Office 365</span><span class="sxs-lookup"><span data-stu-id="145bf-107">Allow guests to be added to all teams and Office 365 Groups</span></span>
+- <span data-ttu-id="ebf70-107">Permitir que los invitados se agreguen a todos los grupos de equipos y de Office 365</span><span class="sxs-lookup"><span data-stu-id="ebf70-107">Allow guests to be added to all teams and Office 365 Groups</span></span>
 
-- <span data-ttu-id="145bf-108">Permitir o bloquear a usuarios invitados en un equipo o grupo específico de Office 365</span><span class="sxs-lookup"><span data-stu-id="145bf-108">Allow or block guest users from a specific team or Office 365 group</span></span>
+- <span data-ttu-id="ebf70-108">Permitir o bloquear a usuarios invitados en un equipo o grupo específico de Office 365</span><span class="sxs-lookup"><span data-stu-id="ebf70-108">Allow or block guest users from a specific team or Office 365 group</span></span>
 
-<span data-ttu-id="145bf-109">Para obtener más información, vea "usar PowerShell para controlar el acceso de invitados" en [administrar el acceso de invitados en los grupos de Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access).</span><span class="sxs-lookup"><span data-stu-id="145bf-109">For details, see "Use PowerShell to control guest access" in [Manage guest access in Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access).</span></span>
+<span data-ttu-id="ebf70-109">Para obtener más información, vea "usar PowerShell para controlar el acceso de invitados" en [administrar el acceso de invitados en los grupos de Office 365](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access).</span><span class="sxs-lookup"><span data-stu-id="ebf70-109">For details, see "Use PowerShell to control guest access" in [Manage guest access in Office 365 Groups](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups#use-powershell-to-control-guest-access).</span></span>
 
   
-<span data-ttu-id="145bf-110">También se puede usar PowerShell para permitir o bloquear un usuario invitado en función de su dominio.</span><span class="sxs-lookup"><span data-stu-id="145bf-110">You can also use PowerShell to allow or block a guest user based on their domain.</span></span> <span data-ttu-id="145bf-111">Por ejemplo, vamos a imaginar que su negocio (Contoso) tiene una asociación con otra empresa (Fabrikam).</span><span class="sxs-lookup"><span data-stu-id="145bf-111">For example, let's say your business (Contoso) has a partnership with another business (Fabrikam).</span></span> <span data-ttu-id="145bf-112">Fabrikam se puede agregar a su lista de permitidos de manera que sus usuarios puedan agregar a esos invitados a sus grupos.</span><span class="sxs-lookup"><span data-stu-id="145bf-112">You can add Fabrikam to your Allow list so your users can add those guests to their groups.</span></span> <span data-ttu-id="145bf-113">Para obtener más información, consulte [permitir o bloquear el acceso de invitados a grupos de Office 365](https://go.microsoft.com/fwlink/?linkid=854001).</span><span class="sxs-lookup"><span data-stu-id="145bf-113">For more information, see [Allow/Block guest access to Office 365 Groups](https://go.microsoft.com/fwlink/?linkid=854001).</span></span>
+<span data-ttu-id="ebf70-110">También se puede usar PowerShell para permitir o bloquear un usuario invitado en función de su dominio.</span><span class="sxs-lookup"><span data-stu-id="ebf70-110">You can also use PowerShell to allow or block a guest user based on their domain.</span></span> <span data-ttu-id="ebf70-111">Por ejemplo, vamos a imaginar que su negocio (Contoso) tiene una asociación con otra empresa (Fabrikam).</span><span class="sxs-lookup"><span data-stu-id="ebf70-111">For example, let's say your business (Contoso) has a partnership with another business (Fabrikam).</span></span> <span data-ttu-id="ebf70-112">Fabrikam se puede agregar a su lista de permitidos de manera que sus usuarios puedan agregar a esos invitados a sus grupos.</span><span class="sxs-lookup"><span data-stu-id="ebf70-112">You can add Fabrikam to your Allow list so your users can add those guests to their groups.</span></span> <span data-ttu-id="ebf70-113">Para obtener más información, consulte [permitir o bloquear el acceso de invitados a grupos de Office 365](https://go.microsoft.com/fwlink/?linkid=854001).</span><span class="sxs-lookup"><span data-stu-id="ebf70-113">For more information, see [Allow/Block guest access to Office 365 Groups](https://go.microsoft.com/fwlink/?linkid=854001).</span></span>
   
-<span data-ttu-id="145bf-114">Si desea bloquear invitados en Teams y aún desea permitirles el acceso a sitios de SharePoint, puede usar los cmdlets de PowerShell de Azure AD para deshabilitar el parámetro AllowGuestsToAccessGroups en el objeto de la compañía, suponiendo que el uso compartido externo esté activado para los sitios de SharePoint .</span><span class="sxs-lookup"><span data-stu-id="145bf-114">If you want to block guests in Teams and still want to allow them to access SharePoint sites, you can use Azure AD Powershell cmdlets to disable the AllowGuestsToAccessGroups parameter on the Company object, assuming external sharing is turned on for SharePoint sites.</span></span>
+<span data-ttu-id="ebf70-114">Si desea bloquear invitados en Teams y aún desea permitirles el acceso a sitios de SharePoint, puede usar los cmdlets de PowerShell de Azure AD para deshabilitar el parámetro AllowGuestsToAccessGroups en el objeto de la compañía, suponiendo que el uso compartido externo esté activado para los sitios de SharePoint .</span><span class="sxs-lookup"><span data-stu-id="ebf70-114">If you want to block guests in Teams and still want to allow them to access SharePoint sites, you can use Azure AD Powershell cmdlets to disable the AllowGuestsToAccessGroups parameter on the Company object, assuming external sharing is turned on for SharePoint sites.</span></span>
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a><span data-ttu-id="145bf-115">Usar PowerShell para activar o desactivar el acceso de invitados</span><span class="sxs-lookup"><span data-stu-id="145bf-115">Use PowerShell to turn guest access on or off</span></span>
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a><span data-ttu-id="ebf70-115">Usar PowerShell para activar o desactivar el acceso de invitados</span><span class="sxs-lookup"><span data-stu-id="ebf70-115">Use PowerShell to turn guest access on or off</span></span>
 
-1.  <span data-ttu-id="145bf-116">Descargue el módulo de PowerShell de Skype Empresarial Online en https://www.microsoft.com/en-us/download/details.aspx?id=39366</span><span class="sxs-lookup"><span data-stu-id="145bf-116">Download the Skype for Business Online PowerShell module from https://www.microsoft.com/en-us/download/details.aspx?id=39366</span></span>
+1.  <span data-ttu-id="ebf70-116">Descargue el módulo de PowerShell de Skype Empresarial Online en https://www.microsoft.com/en-us/download/details.aspx?id=39366</span><span class="sxs-lookup"><span data-stu-id="ebf70-116">Download the Skype for Business Online PowerShell module from https://www.microsoft.com/en-us/download/details.aspx?id=39366</span></span>
  
-2.  <span data-ttu-id="145bf-117">Conecte una sesión de PowerShell al punto de conexión de Skype Empresarial Online.</span><span class="sxs-lookup"><span data-stu-id="145bf-117">Connect a PowerShell session to the Skype for Business Online endpoint.</span></span>
+2.  <span data-ttu-id="ebf70-117">Conecte una sesión de PowerShell al punto de conexión de Skype Empresarial Online.</span><span class="sxs-lookup"><span data-stu-id="ebf70-117">Connect a PowerShell session to the Skype for Business Online endpoint.</span></span>
 
     ```PowerShell
     Import-Module SkypeOnlineConnector
@@ -51,7 +53,7 @@ ms.locfileid: "40989845"
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.  <span data-ttu-id="145bf-118">Compruebe la configuración y si `AllowGuestUser` es `$False`, use el cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) para establecerlo en `$True`.</span><span class="sxs-lookup"><span data-stu-id="145bf-118">Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.</span></span>
+3.  <span data-ttu-id="ebf70-118">Compruebe la configuración y si `AllowGuestUser` es `$False`, use el cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) para establecerlo en `$True`.</span><span class="sxs-lookup"><span data-stu-id="ebf70-118">Check your configuration and if `AllowGuestUser` is `$False`, use the [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) cmdlet to set it to `$True`.</span></span>
 
     ```PowerShell
     Get-CsTeamsClientConfiguration
@@ -73,9 +75,9 @@ ms.locfileid: "40989845"
     
     Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
     ```
-<span data-ttu-id="145bf-119">Ahora puede tener usuarios invitados en Teams en su organización.</span><span class="sxs-lookup"><span data-stu-id="145bf-119">You can now have guest users in Teams for your organization.</span></span>
+<span data-ttu-id="ebf70-119">Ahora puede tener usuarios invitados en Teams en su organización.</span><span class="sxs-lookup"><span data-stu-id="ebf70-119">You can now have guest users in Teams for your organization.</span></span>
 
 
-## <a name="guest-access-vs-external-access"></a><span data-ttu-id="145bf-120">Acceso de invitado frente a acceso externo</span><span class="sxs-lookup"><span data-stu-id="145bf-120">Guest access vs. external access</span></span>
+## <a name="guest-access-vs-external-access"></a><span data-ttu-id="ebf70-120">Acceso de invitado frente a acceso externo</span><span class="sxs-lookup"><span data-stu-id="ebf70-120">Guest access vs. external access</span></span>
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
