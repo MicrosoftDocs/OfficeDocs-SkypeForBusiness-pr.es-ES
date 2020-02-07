@@ -10,18 +10,20 @@ audience: admin
 search.appverid: MET150
 description: Con el acceso de invitado en Microsoft Teams, los equipos de su organización pueden colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales.
 localization_priority: Priority
-f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.overview
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3490d208f95138d9aad57d69f55957dafb8734e
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 010dd452bc727a3d5ccfe33b981d9bdafd953f73
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707555"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41833250"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================

@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
@@ -22,12 +24,12 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 590b9fe1889d1a9e4dc9250726e5dc41e85c01d0
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 0e0d483a3655753527b42a44e51aab68c08eaa95
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268656"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824578"
 ---
 # <a name="what-do-i-need-to-buy-to-use-microsoft-365-business-voice"></a>¿Qué debo comprar para usar Microsoft 365 Business Voice?
 

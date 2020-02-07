@@ -10,19 +10,21 @@ audience: admin
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 ms.collection:
-- Teams_ITAdmin_Help
 - Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c7b40002101765c38bff412bef79d171951430a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7aac21e8e6b840c234e9d65d8469607cb05a8122
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235855"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836790"
 ---
 <div id="main" class="v2">
     <div class="container">

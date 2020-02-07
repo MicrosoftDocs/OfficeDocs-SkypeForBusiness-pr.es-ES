@@ -12,16 +12,18 @@ ms.service: msteams
 ms.collection:
 - M365-voice
 - M365-collaboration
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 81ba166d86fde3272131e1349551c6df0eab6376
-ms.sourcegitcommit: 100ba1409bf0af58e4430877c1d29622d793d23f
+ms.openlocfilehash: 78c4443352bffa02dc5bdeef6297ede6bed01e64
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925091"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826748"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferencia en Microsoft Teams
 

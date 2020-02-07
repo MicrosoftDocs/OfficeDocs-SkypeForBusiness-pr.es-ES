@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11de57eced80df46b74e9134c1ddd6131a33ea5a
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: ac33cd0c815aec39855351dbd1abf16ce4f52b7f
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268626"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824828"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>Personalización de Microsoft 365 Business Voice
 

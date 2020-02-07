@@ -8,18 +8,20 @@ ms.author: lolaj
 manager: serdars
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b0375a2710337e3c95755bdd2676bf730e26bad
-ms.sourcegitcommit: ed7439d03e37c9c0184daf5215a68c5492932a83
+ms.openlocfilehash: 77a935041cd0cdcb35a28e315ab48eadf6263273
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290970"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41826888"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 

@@ -6,6 +6,8 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
@@ -15,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9bc355bce9fbcbc4a83b86f71202b2f6316ecf71
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: 72cb35b2927dfb8cc1db65018d107bc209fd7ed2
+ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41268696"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41824748"
 ---
 # <a name="how-do-i-get-my-users-ready-for-microsoft-365-business-voice"></a>¿Cómo preparo a mis usuarios para Microsoft 365 Business Voice?
 

@@ -11,16 +11,18 @@ ms.reviewer: lolaj
 description: Incorporar usuarios pioneros al primer conjunto de equipos y canales que creó en Microsoft Teams.
 localization_priority: Priority
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c859ea669d8c8dfcc0813059a29e4d95df4fd09b
-ms.sourcegitcommit: ed3a6789dedf54275e0b1ab41d4a4230eed6eb72
+ms.openlocfilehash: c532748df9361a9cc7bba8b227c07fbdfc8f4a45
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628726"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837160"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Incorporar usuarios pioneros en Microsoft Teams
 

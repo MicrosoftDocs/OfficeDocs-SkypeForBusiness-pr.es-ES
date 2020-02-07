@@ -13,14 +13,16 @@ localization_priority: Priority
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123cb1b8962122c2b19aefd785a0796e3de885c4
-ms.sourcegitcommit: 2fd1fcb0e5944f36261e551df04819713d868a11
+ms.openlocfilehash: 6efdbb15ce4a9bcd5a3691a5fa9a9a82d0b7cd5f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "39886256"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837650"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 

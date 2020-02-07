@@ -11,16 +11,18 @@ description: Documentación técnica de Microsoft Teams
 ms.topic: hub-page
 localization_priority: Priority
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: d50e41e6441e1f916296fceb8b5cdc9141579f66
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 80a9bb8ef8fa50671c0a8227f822eb6ac4674857
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41681437"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834410"
 ---
 <div id="main" class="v2">
     <div class="container">
