@@ -17,48 +17,48 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo se puede ver una lista de usuarios de su organización que estén habilitados para la conferencia de acceso telefónico local desde Microsoft Teams. '
-ms.openlocfilehash: f769953a2cbce7ee91a5a75c00cbcb0e2a2b3814
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9330aef9e143764949c4589535126eb2dd72e883
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694135"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838150"
 ---
-# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="1e8a2-103">Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="1e8a2-103">See a list of users that are enabled for Audio Conferencing in Microsoft Teams</span></span>
+# <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a><span data-ttu-id="bc83f-103">Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="bc83f-103">See a list of users that are enabled for Audio Conferencing in Microsoft Teams</span></span>
 
-<span data-ttu-id="1e8a2-104">Una vez que haya habilitado a los usuarios de Microsoft Teams en su organización para la audioconferencia, puede ver la lista de los usuarios que se han habilitado.</span><span class="sxs-lookup"><span data-stu-id="1e8a2-104">After you have enabled Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled.</span></span> 
+<span data-ttu-id="bc83f-104">Una vez que haya habilitado a los usuarios de Microsoft Teams en su organización para la audioconferencia, puede ver la lista de los usuarios que se han habilitado.</span><span class="sxs-lookup"><span data-stu-id="bc83f-104">After you have enabled Microsoft Teams users in your organization for Audio Conferencing, you can view the list of those users who have been enabled.</span></span> 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
-## <a name="viewing-a-list-of-users"></a><span data-ttu-id="1e8a2-105">Ver una lista de los usuarios</span><span class="sxs-lookup"><span data-stu-id="1e8a2-105">Viewing a list of users</span></span>
+## <a name="viewing-a-list-of-users"></a><span data-ttu-id="bc83f-105">Ver una lista de los usuarios</span><span class="sxs-lookup"><span data-stu-id="bc83f-105">Viewing a list of users</span></span>
 
-- <span data-ttu-id="1e8a2-106">En el centro de administración de Microsoft Teams, en el navegación de la izquierda, haga clic en **usuarios**.</span><span class="sxs-lookup"><span data-stu-id="1e8a2-106">In the Microsoft Teams admin center, in the left navigation, click **Users**.</span></span>
+- <span data-ttu-id="bc83f-106">En el centro de administración de Microsoft Teams, en el navegación de la izquierda, haga clic en **usuarios**.</span><span class="sxs-lookup"><span data-stu-id="bc83f-106">In the Microsoft Teams admin center, in the left navigation, click **Users**.</span></span>
 
 
-## <a name="what-else-should-i-know"></a><span data-ttu-id="1e8a2-107">¿Qué más debo saber?</span><span class="sxs-lookup"><span data-stu-id="1e8a2-107">What else should I know?</span></span>
+## <a name="what-else-should-i-know"></a><span data-ttu-id="bc83f-107">¿Qué más debo saber?</span><span class="sxs-lookup"><span data-stu-id="bc83f-107">What else should I know?</span></span>
 
-- <span data-ttu-id="1e8a2-108">Cuando ve la lista de usuarios que están habilitados, puede seleccionar un usuario de la lista para editar la configuración de la audioconferencia para ese usuario.</span><span class="sxs-lookup"><span data-stu-id="1e8a2-108">When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.</span></span>
+- <span data-ttu-id="bc83f-108">Cuando ve la lista de usuarios que están habilitados, puede seleccionar un usuario de la lista para editar la configuración de la audioconferencia para ese usuario.</span><span class="sxs-lookup"><span data-stu-id="bc83f-108">When you view the list of users that are enabled, you can select a user from the list to edit the audio conferencing settings for that user.</span></span>
     
-- <span data-ttu-id="1e8a2-109">Al seleccionar un solo usuario, puede ver el número de teléfono predeterminado asignado al usuario y cualquier otra configuración de audioconferencia relevante.</span><span class="sxs-lookup"><span data-stu-id="1e8a2-109">When you select a single user, you can view the default phone number assigned to the user and any other relevant audio conferencing settings.</span></span>    
+- <span data-ttu-id="bc83f-109">Al seleccionar un solo usuario, puede ver el número de teléfono predeterminado asignado al usuario y cualquier otra configuración de audioconferencia relevante.</span><span class="sxs-lookup"><span data-stu-id="bc83f-109">When you select a single user, you can view the default phone number assigned to the user and any other relevant audio conferencing settings.</span></span>    
    
-- <span data-ttu-id="1e8a2-110">Puede usar el botón Buscar para buscar un usuario individual en la lista.</span><span class="sxs-lookup"><span data-stu-id="1e8a2-110">You can use the search button to search for an individual user in the list.</span></span>
+- <span data-ttu-id="bc83f-110">Puede usar el botón Buscar para buscar un usuario individual en la lista.</span><span class="sxs-lookup"><span data-stu-id="bc83f-110">You can use the search button to search for an individual user in the list.</span></span>
     
     
-## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="1e8a2-111">¿Quiere saber más sobre Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="1e8a2-111">Want to know more about Windows PowerShell?</span></span>
+## <a name="want-to-know-more-about-windows-powershell"></a><span data-ttu-id="bc83f-111">¿Quiere saber más sobre Windows PowerShell?</span><span class="sxs-lookup"><span data-stu-id="bc83f-111">Want to know more about Windows PowerShell?</span></span>
 
-<span data-ttu-id="1e8a2-p101">Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:</span><span class="sxs-lookup"><span data-stu-id="1e8a2-p101">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
+<span data-ttu-id="bc83f-p101">Windows PowerShell se usa para administrar los usuarios y las acciones que pueden o no realizar. Con Windows PowerShell, puede administrar Office 365 con un único punto de administración que puede simplificar el trabajo diario cuando tenga que realizar varias tareas. Para empezar a usar Windows PowerShell, vea estos temas:</span><span class="sxs-lookup"><span data-stu-id="bc83f-p101">Windows PowerShell is all about managing users and what users are allowed or not allowed to do. With Windows PowerShell, you can manage Office 365 using a single point of administration that can simplify your daily work when you have multiple tasks to do. To get started with Windows PowerShell, see these topics:</span></span>
     
-  - [<span data-ttu-id="1e8a2-115">Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365</span><span class="sxs-lookup"><span data-stu-id="1e8a2-115">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
+  - [<span data-ttu-id="bc83f-115">Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365</span><span class="sxs-lookup"><span data-stu-id="bc83f-115">Why you need to use Office 365 PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-  - [<span data-ttu-id="1e8a2-116">Las mejores formas de administrar Office 365 con Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="1e8a2-116">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
+  - [<span data-ttu-id="bc83f-116">Las mejores formas de administrar Office 365 con Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="bc83f-116">Best ways to manage Office 365 with Windows PowerShell</span></span>](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-<span data-ttu-id="1e8a2-117">Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="1e8a2-117">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
+<span data-ttu-id="bc83f-117">Para obtener más información sobre Windows PowerShell, consulte la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps).</span><span class="sxs-lookup"><span data-stu-id="bc83f-117">For more information about Windows PowerShell, see the [Microsoft Teams PowerShell reference](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) for more information.</span></span>
     
-## <a name="related-topics"></a><span data-ttu-id="1e8a2-118">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="1e8a2-118">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bc83f-118">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="bc83f-118">Related topics</span></span>
 
-[<span data-ttu-id="1e8a2-119">Probar o comprar Audioconferencia en Office 365</span><span class="sxs-lookup"><span data-stu-id="1e8a2-119">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[<span data-ttu-id="bc83f-119">Probar o comprar Audioconferencia en Office 365</span><span class="sxs-lookup"><span data-stu-id="bc83f-119">Try or purchase Audio Conferencing in Office 365</span></span>](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
