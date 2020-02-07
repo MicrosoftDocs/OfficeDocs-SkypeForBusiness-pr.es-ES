@@ -11,18 +11,20 @@ ms.reviewer: bjwhalen
 description: Consideraciones para actualizar a teams desde una implementación local de Skype empresarial.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b41e716bb115d84b38aa5f2ead25d6347e2e0f1a
-ms.sourcegitcommit: e43a66a7f769f855dc45c1bb7f83636d0390949b
+ms.openlocfilehash: e7fa2629127e4a779087eadbea5ac5dc6065be73
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "37396426"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836242"
 ---
 ![Actualizar diagrama de viaje, enfatizar implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
 

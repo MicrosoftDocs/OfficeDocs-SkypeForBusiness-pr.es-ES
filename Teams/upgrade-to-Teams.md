@@ -10,26 +10,28 @@ audience: admin
 description: Elegir la ruta de actualización a Microsoft Teams en función de la implementación actual de Skype empresarial
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06c941f39dee36b14cd8c79e55af21b171e18bfa
-ms.sourcegitcommit: 15fe483079847d24869e325eead35f252da8c7dd
+ms.openlocfilehash: 8038b1d04c3deda955465d6262982d0e216e8f23
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "36437566"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836302"
 ---
 ![Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación](media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e implementación")
 
-Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
+Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las actividades siguientes:
 
-- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
-- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 - [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)

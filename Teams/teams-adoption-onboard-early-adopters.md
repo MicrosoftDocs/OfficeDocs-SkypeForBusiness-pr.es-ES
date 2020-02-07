@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Elija pioneros en adoptar la fase experimental de la adopción de Teams y, a continuación, recopile los comentarios de su proyecto.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb2c890ad47a6c57a550ec607b84d12dcdf5c26c
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 65e697ef46f9ec087975b47741597a7e0ff68508
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242310"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837810"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Incorporar usuarios pioneros y recopilar comentarios para Microsoft Teams
 

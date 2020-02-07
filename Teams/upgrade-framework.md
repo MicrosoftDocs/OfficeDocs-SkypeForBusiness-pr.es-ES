@@ -10,18 +10,20 @@ audience: admin
 description: Use un marco cuyo éxito ya se ha demostrado para realizar la transición de actualización de Skype Empresarial a Teams en su organización
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52564961f3737b3b5ed9c48686adab1fe040b44d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236414"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837190"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
@@ -29,7 +31,7 @@ Para ayudarle a tomar las conjeturas de la actualización, hemos empleado un mar
 
 Empiece por reunir a las partes interesadas adecuadas y a definir su plan de actualización (por ejemplo, ámbito, objetivos y escala de tiempo). Con un plan en contexto, confirme su entorno técnico y los usuarios finales estarán listos para los equipos. Después, implemente la actualización por etapas y pase de un programa piloto a una actualización para toda la organización cuando esté listo. Una vez que su organización esté en Teams, establezca un plan operativo que supervise la calidad y acelere la adopción por el usuario.
 
-![Ilustración de la actualización del marco de viaje] (media/upgrade-banner-main.png "Asegúrese de que su proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito del proyecto, los objetivos y la escala de tiempo. Confirmar la disponibilidad técnica y para el usuario. Ejecute el plan de implementación. Mantener el impulso para maximizar los resultados.")
+![Ilustración de la actualización del marco de viaje](media/upgrade-banner-main.png "Asegúrese de que su proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito del proyecto, los objetivos y la escala de tiempo. Confirmar la disponibilidad técnica y para el usuario. Ejecute el plan de implementación. Mantener el impulso para maximizar los resultados.")
 
 Busque este gráfico de .NET Framework en las páginas relacionadas para identificar dónde se encuentre en el proceso de actualización.
 
@@ -122,7 +124,7 @@ Para ayudar a demostrar cómo puede desdoblar su viaje de actualización, hemos 
 
 
 > [!Note]
-> Nuestro contenido de upgrade está evolucionado continuamente. Asegúrese de consultar las instrucciones más recientes y lea el [blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)de Teams. 
+> Nuestro contenido de upgrade está evolucionado continuamente. Asegúrese de consultar las instrucciones más recientes y lea el [blog de Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
 
 > [!Important]
-> Skype empresarial online se retirará el 31 de julio de 2021, después del cual ya no será accesible ni compatible. Para maximizar los beneficios y asegurarse de que su organización tenga el tiempo adecuado para implementar su actualización, le recomendamos que comience su viaje a Microsoft Teams hoy. Recuerde que una actualización correcta alinea la disposición de los usuarios y técnicos, así que asegúrese de aprovechar las instrucciones de este documento a medida que navega por Microsoft Teams.
+> Skype Empresarial Online se retirará el 31 de julio de 2021, momento a partir del cual ya no será posible obtener acceso a este soporte. Para aprovechar al máximo las ventajas y asegurarse de que su organización dispone del tiempo adecuado para implementar la actualización, le recomendamos que comience ahora su viaje hacia Microsoft Teams. Recuerde que una actualización correcta alinea la disposición de los usuarios y técnicos, así que asegúrese de aprovechar las instrucciones de este documento a medida que navega por Microsoft Teams.

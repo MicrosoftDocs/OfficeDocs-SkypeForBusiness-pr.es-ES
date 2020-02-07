@@ -12,15 +12,17 @@ ms.collection:
 ms.reviewer: corbinm
 search.appverid: MET150
 description: Obtenga ayuda y solucione problemas con el acceso de invitado en Microsoft Teams.
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: e0a3530b7a1f9029d9f671d0a02ef58cbb7907bf
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 0c0f65f7026e6c083d9230551d689f0dd19d6b0d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871736"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837640"
 ---
 <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Solución de problemas con el acceso de invitado en Microsoft Teams
 ======================================================

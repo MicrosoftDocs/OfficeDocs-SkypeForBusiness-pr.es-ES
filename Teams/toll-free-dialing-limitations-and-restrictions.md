@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 41bc08f37d96674a88ad4d180198cba189780846
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 270d169be6992b97dfba94bedd4802560af78ef8
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708218"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836910"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>Restricciones y limitaciones de marcado de número gratuito
 

@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a impulsar la adopción de equipos mediante el uso del producto.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce2cec58d96e5c812cf63a9af1ebf6dfeffa7c13
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: c8cf33a5ac4c498e6d6996f6096fbf9599b5ad2e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36244818"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837720"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
@@ -34,7 +36,7 @@ La mejor manera de impulsar la adopción de equipos es usar el producto. Le reco
 | Implementación de Microsoft Teams | General <br/> Conocimiento y adopción <br/> Compromiso empresarial <br/> Programa de adopción anticipada <br/> Comentarios y sugerencias <br/> Seguridad y cumplimiento <br/> Estrategia y planificación <br/> Estado del servicio e incidentes <br/> Aprendizaje <br/> Watercooler chat |
 | Campeones de trabajo en equipo | General <br/> Procedimientos recomendados, aprendizaje y procedimientos <br/> Rincón del campeón <br/> Comentarios y soporte técnico <br/> Clientes potenciales <br/> Concentrador social |
 
-En Microsoft Teams, la [Galería](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) de pestañas le proporciona acceso a todas las aplicaciones de Office 365 y de terceros que haya activado el administrador. Para obtener el máximo valor de su producto, sugerimos anclar recursos clave como pestañas en cada uno de los canales correspondientes. Vea el ejemplo siguiente.
+En Microsoft Teams, la [Galería de pestañas](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) le proporciona acceso a todas las aplicaciones de Office 365 y de terceros que haya activado el administrador. Para obtener el máximo valor de su producto, sugerimos anclar recursos clave como pestañas en cada uno de los canales correspondientes. Vea el ejemplo siguiente.
 
 ![Captura de pantalla que muestra pestañas predeterminadas y personalizadas](media/teams-adoption-tab-example.png)
 
@@ -43,7 +45,7 @@ En sus equipos iniciales, se recomienda anclar los siguientes elementos para fac
 |Nombre de equipo/canal | Pestaña anclada |
 |----------------- | ---------- |
 | **Implementación de Microsoft Teams** ||
-| General | Pestaña Web: [documentación](https://aka.ms/SuccessWithTeams) de Teams |
+| General | Pestaña Web: [documentación de Teams](https://aka.ms/SuccessWithTeams) |
 | Conocimiento y adopción | [Centro de adopción de equipos](https://aka.ms/DriveTeamsAdoption)<br/>[Kit para el éxito del cliente de Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)|
 | Compromiso empresarial | Wiki: Guía de compromiso<br/>Formulario: solicitud de consulta de Teams<br/>Lista: solicitudes de compromiso |
 |Pioneros | Comunidad de comentarios anclados <br/> OneNote para preguntas más frecuentes y temas comunes |

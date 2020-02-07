@@ -11,14 +11,16 @@ audience: admin
 description: Recopile los comentarios de los usuarios para mejorar la implementación de voz en la nube en Microsoft Teams o Skype empresarial.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4690321129ef9b57e70ec497161acd863f061ef9
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 89c7f6384df285d4f47eac4407cb9b0884dd2486
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567682"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834630"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios de los usuarios 
 

@@ -13,16 +13,18 @@ ms.collection:
 localization_priority: Normal
 search.appverid: MET150
 description: Enumera las combinaciones de sistema operativo, modelo y drivers que no están habilitados para la aceleración de hardware debido a problemas de controladores.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b526af86ccf76c5d96694fef655f1e56c33d4d78
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: dace536d8d47ecacc15661d159563a916b447113
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772603"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836440"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>Recomendaciones para el controlador del codificador y descodificador de hardware
 

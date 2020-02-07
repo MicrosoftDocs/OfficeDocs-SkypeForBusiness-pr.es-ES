@@ -8,6 +8,7 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
+f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
 ms.collection:
 - M365-voice
 appliesto:
@@ -15,13 +16,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams.
-f1.keywords: ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 8eee73b3ce6283cf2cb6105b4d1b43433ec7e057
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: af0b7a6a82e0d5ff06c65d726b2f67af22b6f4aa
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694385"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836510"
 ---
 # <a name="manage-emergency-call-routing-policies-in-microsoft-teams"></a>Administrar las directivas de enrutamiento de llamadas de emergencia en Microsoft Teams
 
@@ -114,7 +114,7 @@ $members = Get-AzureADGroupMember -ObjectId $group.ObjectId -All $true | Where-O
 ```
 Asignar todos los usuarios del grupo a una directiva de equipos en particular. En este ejemplo, es la Directiva de enrutamiento de llamadas de emergencia de RRHH.
 ```PowerShell
-$members | ForEach-Object { Grant-CsTeamsChannelsPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
+$members | ForEach-Object {Grant-CsTeamsEmergencyCallRoutingPolicy -PolicyName "HR Emergency Call Routing Policy" -Identity $_.UserPrincipalName}
 ``` 
 Según el número de miembros del grupo, este comando puede demorar varios minutos en ejecutarse.
 

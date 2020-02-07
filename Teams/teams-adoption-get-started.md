@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre las fases de inicio, experimento y habilitar de la adopción de Microsoft Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 168799878ff5f2a9ec1662c905f480854130bb45
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 04c785a704c5619dbeb0bd4b2089ed75d52fd5f1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242288"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837830"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Comenzar a impulsar la adopción de Microsoft Teams
 

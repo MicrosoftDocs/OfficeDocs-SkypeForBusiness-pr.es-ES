@@ -10,16 +10,18 @@ ms.reviewer: anach, kehardy
 description: Obtenga información sobre dónde se almacenan los datos en Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24432b0854ac0c4256f5d097bacfca5f1a392d72
-ms.sourcegitcommit: 2cb46af39a0d116e8fd020aa04bd2ecbd6998a5f
+ms.openlocfilehash: 3908100a0270f9e72835e189a220ece6e54a27bd
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41679051"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836540"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Ubicación de los datos en Microsoft Teams
 

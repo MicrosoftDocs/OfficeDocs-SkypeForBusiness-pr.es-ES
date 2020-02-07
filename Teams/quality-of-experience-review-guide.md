@@ -12,14 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a25b7db3a254c4bc1c1266b6b9be48ed798f331
-ms.sourcegitcommit: 013190ad10cdc02ce02e583961f433d024d5d370
+ms.openlocfilehash: ff4fe3a0a8a43c23978345461b0d32fe5182a6dd
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "41634893"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838260"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 

@@ -13,15 +13,17 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.dashboard.helparticle.securityandcompliance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 400e6523a867e5ee7c2da1b3d0ccaba14db55f27
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8f75d7fbbe3aa936163068e5652a6535d1b77251
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693925"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835840"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================

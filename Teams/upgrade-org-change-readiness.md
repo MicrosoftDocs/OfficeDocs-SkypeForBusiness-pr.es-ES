@@ -10,33 +10,35 @@ ms.reviewer: dearbeen
 description: Asegurarse de que la organización y los usuarios están listos para Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716e5342d29bca21ea2963a28244ae6d766c0392
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e3f569cfc225c1933b978e9a0a7d9e9bf95be783
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236444"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837140"
 ---
-![Actualizar el diagrama de viaje, enfatizando la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación del usuario")
+![Actualizar el diagrama de viaje, enfatizando la fase de preparación del usuario](media/upgrade-banner-user-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación del usuario")
 
 Este artículo forma parte de la fase de preparación del usuario de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación técnica. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
 
-- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
-- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="assess-organizational-change-readiness"></a>Evaluar si la organización está preparada para el cambio
 
 Una vez que haya asegurado el equipo del proyecto y haya definido su visión, alcance y metas, el siguiente paso del viaje de actualización es asegurarse de que la organización y los usuarios están listos para los equipos, una actividad que ha completado en paralelo con la garantía de su disponibilidad técnica. Para obtener valor de Teams, los usuarios deben usarlo. Solo habilitar Teams no garantiza que logres tu objetivo. Los usuarios tienen diferentes casos de uso y distintos estilos de aprendizaje, y se adaptan a nuevas tecnologías a velocidades diferentes. La buena noticia es que administrar el cambio no es tan complicado, pero tiene un esfuerzo prioritario. Las explicaciones guiadas a continuación se han diseñado para ayudarle a comprender a su base de usuarios de modo que pueda preparar el nivel adecuado de educación para facilitar y acelerar la adopción de usuarios. Hay dos maneras de mirar la base de usuarios:
 
-- **Preparación**de los cambios organizacionales: comprender la rapidez (o no) que los usuarios suelen reaccionar ante los cambios. Esta información le ayudará a informar de la cantidad de conciencia, capacitación y venta de valor que puede necesitar para impulsar la adopción por parte del usuario.
+- **Preparación de los cambios organizacionales**: comprender la rapidez (o no) que los usuarios suelen reaccionar ante los cambios. Esta información le ayudará a informar de la cantidad de conciencia, capacitación y venta de valor que puede necesitar para impulsar la adopción por parte del usuario.
 - **Escenarios**de trabajo en equipo: comprender cómo los usuarios trabajan le permitirán asignar equipos a sus actividades laborales, acelerar la adopción y facilitar el cambio de Skype empresarial.
 
 > [!Note]
@@ -44,8 +46,8 @@ Una vez que haya asegurado el equipo del proyecto y haya definido su visión, al
 
 | | |
 |---|---|
-| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cuál es la referencia cultural de su organización cuando se trata de cambiar?</li><li>¿Cómo puede la nueva tecnología optimizar la manera en que trabajan los usuarios?</li><li>¿Qué usuarios probablemente necesitarán atención especial para poder cambiar la forma en que trabajan?</li></ul> |
-| ![Un icono que muestra los pasos siguientes](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use las siguientes guías y actividades asociadas para capturar el perfil de disponibilidad de los usuarios de su organización.</li></ul>|
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cuál es la referencia cultural de su organización cuando se trata de cambiar?</li><li>¿Cómo puede la nueva tecnología optimizar la manera en que trabajan los usuarios?</li><li>¿Qué usuarios probablemente necesitarán atención especial para poder cambiar la forma en que trabajan?</li></ul> |
+| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use las siguientes guías y actividades asociadas para capturar el perfil de disponibilidad de los usuarios de su organización.</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>Preparación de los cambios de organización
 
@@ -104,12 +106,12 @@ Para sacar el máximo provecho de Teams, cree una estrategia de trabajo en equip
 
 | | |
 |---|---|
-| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué relatable escenarios de trabajo en equipo para ayudar a acelerar la adopción de equipos por parte de los usuarios y facilitar la actualización de Skype empresarial?</li></ul> |
-| ![Un icono que muestra los pasos siguientes](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use los siguientes ejemplos para ayudarle a diseñar sus propios escenarios de trabajo en equipo. Documente la actualización en el [libro](https://aka.ms/upgradesuccesskit).</li><li>Para escenarios y ejemplos adicionales, vaya a la [biblioteca de productividad](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>¿Qué relatable escenarios de trabajo en equipo para ayudar a acelerar la adopción de equipos por parte de los usuarios y facilitar la actualización de Skype empresarial?</li></ul> |
+| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use los siguientes ejemplos para ayudarle a diseñar sus propios escenarios de trabajo en equipo. Documente la actualización en el [libro](https://aka.ms/upgradesuccesskit).</li><li>Para escenarios y ejemplos adicionales, vaya a la [biblioteca de productividad](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>Ejemplos
 
-**Trabajo en equipo centrado en el proyecto: evento de lanzamiento de producto** (por ejemplo: su organización está preparada para iniciar un nuevo producto en el mercado y está planeando un amplio evento promocional para impulsar el conocimiento, generar clientes potenciales y fomentar las ventas).
+**Trabajo en equipo centrado en el proyecto: evento de lanzamiento de producto** (por ejemplo: su organización está preparando para iniciar un nuevo producto en el mercado y está planeando un amplio evento promocional para impulsar el conocimiento, generar clientes potenciales y fomentar las ventas).
 
 | Examina | Notas |
 |----|---|
@@ -120,7 +122,7 @@ Para sacar el máximo provecho de Teams, cree una estrategia de trabajo en equip
 
 <sup>1</sup> compatibilidad con la integración de aplicaciones o la alineación en Teams.
 
-**Equipo centrado en el trabajo: equipo de ventas** (por ejemplo: su equipo de ventas con dispersas regionales debe permanecer conectado de la carretera, permanecer alineado en la canalización, y comprender las ofertas y las iniciativas clave que pueden ayudar a impulsar los objetivos anuales de la cuota).
+**Trabajo centrado en la gente: equipo de ventas** (por ejemplo: su equipo de ventas disperso por regiones debe permanecer conectado de la carretera, permanecer alineado en la canalización, y comprender las ofertas e iniciativas clave que pueden ayudar a impulsar los objetivos anuales de la cuota)
 
 | Examina | Notas |
 |----|---|

@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Determine si su organización está lista para la transición a teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da70e1207165a9034749382dbbf0ff4444bd9311
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 8e7f1261857905cea3c849654fdbcf926c36026d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242455"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837880"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>¿Hasta qué punto está preparada su organización para Microsoft Teams?
 
@@ -74,16 +76,16 @@ Cada organización se aproxima a un cambio diferente según la región, el estil
 
 1. ¿Qué porcentaje de usuarios pertenecen a cada bucket? (*Cambiar resistencia*)
     - **Primeros pioneros**: solicitar la solución antes de que esté disponible.
-    - **Usuarios**informados: Use la solución una vez que se haya probado su valor.
+    - **Usuarios informados**: Use la solución una vez que se haya probado su valor.
     - Mensajes no **enviados**: vuelve a introducir cualquier cambio.
     
    > [!TIP]
    > Los primeros pioneros son buenos evaluadores de la prueba piloto y campeones del mismo nivel. Los usuarios que son lentos para adoptar nuevas herramientas necesitan más estímulos y más tiempo para ajustarlo. 
 
 2. ¿Cuál es la competencia de los usuarios para el cambio? (*Aprendizaje*)
-    - **** Los inicios automáticos solo requieren un vínculo a un vídeo.
+    - Los **inicios automáticos** solo requieren un vínculo a un vídeo.
     - Los **creadores de equipos** hacen bien con la formación de grupos.
-    - **** Los aprendizajes individuales requieren soporte personal.
+    - Los **aprendizajes** individuales requieren soporte personal.
 
     > [!TIP]
     > Adapte el tipo y la cantidad de formación a la competencia y a los roles. Mantener el aprendizaje actualizado a medida que se conecten nuevas características.

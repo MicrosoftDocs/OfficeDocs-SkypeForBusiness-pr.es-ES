@@ -10,17 +10,19 @@ audience: admin
 description: Instrucciones para los profesionales de TI para impulsar implementaciones de Office 365 en entidades que controlan datos sujetos a la normativa DoD de Estados Unidos.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33495b8a4122df6c0c5d380b835dbfb3a9271eb2
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: be952d838135a03a873d7193118febf5639bd415
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37573300"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836860"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública
 
@@ -65,7 +67,7 @@ Le recomendamos que tome el tiempo de revisar detenidamente la [configuración d
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si necesita modificar cualquiera de los valores predeterminados de la configuración de seguridad de Microsoft 365 gubernamentales-DoD, resolviendo primero el impacto de los cambios que puede realizar.</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si necesita modificar cualquiera de los valores predeterminados de la configuración de seguridad de Microsoft 365 gubernamentales-DoD, resolviendo primero el impacto de los cambios que puede realizar.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-microsoft-365-government---dod"></a>Paso 4. Comprender qué capacidades de Teams están disponibles actualmente en Microsoft 365 gobierno-DoD
@@ -139,7 +141,7 @@ Para cumplir con los requisitos de nuestros clientes gubernamentales de la nube,
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
 
 ## <a name="step-5-plan-for-governance"></a>Paso 5. Planear la gobernanza
 
@@ -147,7 +149,7 @@ Determina los requisitos de gobierno y cómo puedes reunirse. Para obtener más 
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Puntos de decisión |<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md). </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt= "An icon depicting a decision point"/>|Punto de decisión |<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md). </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementar Teams para la colaboración
 

@@ -15,14 +15,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Más información sobre la administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: d1963c5c5bfdfe28385756762b86ddcbbbe6f644
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6666482c45cb8d97567ffb9a5c8b8a3f3bcc5636
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706905"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836282"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 

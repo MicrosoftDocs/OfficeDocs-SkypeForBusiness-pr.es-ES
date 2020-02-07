@@ -9,6 +9,8 @@ ms.reviewer: dearbeen
 audience: admin
 description: Para planear la actualización, enlistar partes interesadas en primer lugar y, a continuación, ámbito del proyecto.
 localization_priority: Normal
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
 ms.collection:
@@ -16,14 +18,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a72e32fc363d00c2da85be70a567551440ba942
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: a3226dd3887a4d289b810bb866d96dba704dd448
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236064"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837120"
 ---
-![Diagrama del viaje de actualización de equipos] (media/upgrade-banner-main.png "Asegúrese de que su proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito del proyecto, los objetivos y la escala de tiempo. Confirmar la disponibilidad técnica y para el usuario. Ejecute el plan de implementación. Mantener el impulso para maximizar los resultados.")
+![Diagrama del viaje de actualización de equipos](media/upgrade-banner-main.png "Asegúrese de que su proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito del proyecto, los objetivos y la escala de tiempo. Confirmar la disponibilidad técnica y para el usuario. Ejecute el plan de implementación. Mantener el impulso para maximizar los resultados.")
 
 # <a name="plan-for-your-upgrade"></a>Planear la actualización
 
@@ -31,9 +33,9 @@ Un entorno técnico saludable, la adopción sostenida de usuarios y la realizaci
 
 - [Inscripción de las partes interesadas del proyecto](upgrade-enlist-stakeholders.md).
 - [Definir el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope).
-- Comprender la coexistencia y la interoperabilidad [de Skype empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist).
+- [Comprender la coexistencia y la interoperabilidad de Skype empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist).
 
 > [!TIP]
-> Únase a los talleres interactivos y en vivo en los que compartimos orientación, procedimientos recomendados y recursos diseñados para la planificación e implementación de la actualización de lanzamiento.
+> Únase a los talleres interactivos en vivo en los que le ofrecemos la orientación, prácticas recomendadas y recursos que necesita para comenzar a planificar la actualización y la implementación.
 >
-> Únase primero a la [planificación de tu actualización](https://aka.ms/SkypeToTeamsPlanning) para comenzar.
+> Para empezar, únase en primer lugar a la sesión [Planificar la actualización](https://aka.ms/SkypeToTeamsPlanning).

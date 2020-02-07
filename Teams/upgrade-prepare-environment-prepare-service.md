@@ -10,26 +10,28 @@ ms.reviewer: dearbeen
 description: Use esta guía para preparar su espacio empresarial para la implementación y el despliegue de Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f90c287f200ea93d771e5aad38912e9fd8eb7fd2
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: d723cae9bf26896f40fe14ad8f04038da6ed04dc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236119"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836120"
 ---
-![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
+![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
 Este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
 
-- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
-- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Preparar el servicio para la actualización a teams
@@ -62,7 +64,7 @@ Cuando incorpora usuarios en función de cada sitio, le recomendamos encarecidam
 >La mayoría de las opciones de configuración son comunes entre equipos y Skype empresarial online. Use el centro de administración de Microsoft Teams para configurar estas opciones.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será el responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Punto de decisión</td><td><ul><li>¿Quién será el responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Descargue las listas de comprobación de incorporación.</li><li>Trabaje paso a paso en la lista de comprobación de complementos de acuerdo con el plan de implementación de su organización.</li></ul></td></tr>
 </table>
 

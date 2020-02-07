@@ -12,15 +12,17 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo definir y usar etiquetas de confidencialidad en Microsoft Teams.
-ms.openlocfilehash: 899bf8c3dc187df6fa5e035817458a10330c66a6
-ms.sourcegitcommit: c2e315d0fcec742d2e1ba5ad90dffd1a1157a466
+ms.openlocfilehash: 446bd222ce29ed627eb3229b244228665bbff6c0
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2019
-ms.locfileid: "40002324"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838120"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
 

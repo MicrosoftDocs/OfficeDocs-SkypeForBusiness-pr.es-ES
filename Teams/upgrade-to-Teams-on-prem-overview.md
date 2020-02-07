@@ -11,17 +11,19 @@ ms.reviewer: bjwhalen
 description: Actualización de Skype Empresarial a Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d33c0ab186013ca00c18b96dad539bd2af0f5ae
-ms.sourcegitcommit: afc7edd03f4baa1d75f9642d4dbce767fec69b00
+ms.openlocfilehash: e63a287fcd265a22dc2f9264920d3b0283a5bd6a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40963088"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836212"
 ---
 # <a name="upgrade-from-skype-for-business-to-teams-mdash-for-it-administrators"></a>Actualizar de Skype empresarial a teams &mdash; para administradores de ti
 

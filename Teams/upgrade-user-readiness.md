@@ -10,39 +10,41 @@ audience: admin
 description: Planear la comunicación con los usuarios, el aprendizaje y el soporte técnico durante la fase piloto, la incorporación y la actualización a teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71ee20ae80fa9fc7f8916efbc5a4736f50bd56f8
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ad51dd4b269652ec1899b2af6ace6a9b7b9f713a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36235924"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836800"
 ---
-![Fases del viaje de actualización, resaltando la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación del usuario")
+![Fases del viaje de actualización, resaltando la fase de preparación del usuario](media/upgrade-banner-user-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación del usuario")
 
 Este artículo forma parte de la fase de preparación del usuario de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación técnica. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
 
-- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
-- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="prepare-a-user-readiness-plan"></a>Preparar un plan de preparación del usuario
 
-Un plan de preparación de usuario óptimo incluye cómo comunicarse, entrenar y dar soporte técnico a los usuarios durante la fase piloto, la incorporación y la actualización a teams. Como descubriste en la evaluación de la disponibilidad de los [cambios de organización](https://aka.ms/OrgReadiness), la disponibilidad no se ajusta a todos. Para garantizar la integración óptima de la nueva tecnología, use una combinación de mensajería de alcance amplio (con los casos de mensajería de visión/valor y de uso universal) y mensajería, formación y soporte adaptados a los roles y cohorts que haya definido y también a tu laggards, según corresponda. Este plan personalizado le ayudará a facilitar la adopción por parte de los usuarios al permitir que los usuarios se relacionen más rápidamente con los equipos, a la vez que demuestran sus necesidades.
+Un plan de preparación de usuario óptimo incluye cómo comunicarse, entrenar y dar soporte técnico a los usuarios durante la fase piloto, la incorporación y la actualización a teams. Como descubriste en la evaluación de la disponibilidad de los [cambios de organización](https://aka.ms/OrgReadiness), la disponibilidad no se ajusta a todos. Para garantizar la integración óptima de la nueva tecnología, use una combinación de mensajería de alcance general (con los casos de mensajería de visión/valor y de uso universal) y mensajería, formación y soporte adaptados a los roles y cohorts que haya definido y también a su laggards, según corresponda. Este plan personalizado le ayudará a facilitar la adopción por parte de los usuarios al permitir que los usuarios se relacionen más rápidamente con los equipos, a la vez que demuestran sus necesidades.
 
 > [!Tip]
 > Descargue el [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) para los materiales de preparación de usuarios de plantillas, como las comunicaciones y las encuestas de usuarios, además de un plan de actualización de proyecto y un plan de pruebas piloto.
 
 | | |
 |---|---|
-| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cómo se puede crear un plan de preparación para facilitar y acelerar la adopción de la nueva solución por el usuario?</li><li>¿Tiene los conocimientos, la formación y los recursos de soporte técnico correctos que se alinean con la capacidad de los usuarios para manejar los cambios y los usuarios que haya definido?</li></ul> |
-| ![Un icono que muestra el siguiente paso](media/audio_conferencing_image9.png)<br/>Siguiente paso|<ul><li>Use la siguiente lista para generar ideas para su plan de preparación. Seleccione las actividades más relevantes (o agregue las suyas) para diseñar un plan de preparación optimizado para su organización. Acuérdese de usar una combinación de las campañas de alcance amplio (para toda la organización) y de destino (para laggards o personas específicas) para obtener resultados máximos.</li></ul>|
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cómo se puede crear un plan de preparación para facilitar y acelerar la adopción de la nueva solución por el usuario?</li><li>¿Tiene los conocimientos, la formación y los recursos de soporte técnico correctos que se alinean con la capacidad de los usuarios para manejar los cambios y los usuarios que haya definido?</li></ul> |
+| ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Use la siguiente lista para generar ideas para su plan de preparación. Seleccione las actividades más relevantes (o agregue las suyas) para diseñar un plan de preparación optimizado para su organización. Acuérdese de usar una combinación de las campañas de alcance amplio (para toda la organización) y de destino (para laggards o personas específicas) para obtener resultados máximos.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

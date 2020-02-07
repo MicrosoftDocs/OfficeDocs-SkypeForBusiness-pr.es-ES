@@ -10,18 +10,18 @@ ms.service: msteams
 audience: Admin
 ms.collection:
 - M365-voice
+f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar y administrar las directivas de llamadas de emergencia en Microsoft Teams.
-f1.keywords: ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: b339f2ef46e0d9949fb440d2ad5a6fa0dee09fe4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 73404749b350f19abe248743dec7d3e740d50fc6
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694382"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836500"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Administrar las directivas de llamadas de emergencia en Microsoft Teams
 

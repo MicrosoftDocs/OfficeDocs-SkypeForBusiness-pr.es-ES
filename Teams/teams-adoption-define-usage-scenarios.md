@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Elija escenarios de uso para la fase experimental de la adopción de Teams.
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85183f76327575b40ff2fb2e68e6c77247e8dd98
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: e2b1103163f56fcb5910b0e883a26fe5b76d0450
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36242379"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837850"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir escenarios de uso para Microsoft Teams
 

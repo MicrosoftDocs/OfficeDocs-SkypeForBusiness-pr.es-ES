@@ -7,18 +7,20 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
+f1.keywords:
+- NOCSH
 description: Aprenda a usar el bot de timbre para el enrutamiento directo para evitar que se produzcan silencios inesperados cuando se establezca una llamada.
 localization_priority: Normal
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fcb69ba1bc612fe940054ec982eb7462c6679be
-ms.sourcegitcommit: a23f45ab3a2cb7b5c279356edddf61c4030c41bd
+ms.openlocfilehash: 2a9ee3f227faa736d7fdda3ebedc755c8ac5049d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962507"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835000"
 ---
 # <a name="set-up-the-ringback-bot-for-direct-routing"></a>Configurar el bot de timbre para el enrutamiento directo
 

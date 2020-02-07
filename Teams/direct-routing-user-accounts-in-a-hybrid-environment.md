@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Obtenga más información sobre las diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no.
-ms.openlocfilehash: bf2fee0646e5230964673af4dbfa4fed22086cdc
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: f33c7bffadb443aafad6fa0e7d910f6416a95d6f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37572118"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837290"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 

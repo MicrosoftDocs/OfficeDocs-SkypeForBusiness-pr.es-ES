@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Descubra qué países y regiones tienen números de conferencia de acceso telefónico local, y cómo se asignan automáticamente.
-ms.openlocfilehash: df588b2bd920a66b7d44d3dbaedd01478a2229f2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e7a9d67bfb843e65721ebbd18b03b48aca8a24f0
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708626"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836880"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Números de teléfono para Audioconferencia en Microsoft Teams
 

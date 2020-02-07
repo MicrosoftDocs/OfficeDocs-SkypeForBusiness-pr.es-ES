@@ -11,18 +11,20 @@ ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Tomar decisiones clave para la fase 2 de su plan de adopción
+f1.keywords:
+- CSH
 ms.custom: Adopt
 ms.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae71be1cfed86597f70b6ed7bfec08b42a2ce256
-ms.sourcegitcommit: 800a5c3881d0ebceb505a538fcf7e48f7b6df17e
+ms.openlocfilehash: d1dfd82cc10f90616dcdd557e9d1d70f36a9ae1f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913033"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837820"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Comenzar el inicio rápido para Microsoft Teams
 

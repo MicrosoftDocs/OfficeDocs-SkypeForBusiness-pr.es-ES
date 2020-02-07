@@ -16,13 +16,15 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre las directivas de configuración de aplicaciones en Microsoft Teams y cómo usarlas para anclar aplicaciones para personalizar equipos para los usuarios de su organización.
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 93b687bffb536295e758fb6d7c1baf43710901e9
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 9117837aab1b218ea34a77731eebaba8f4d27783
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708496"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837400"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 

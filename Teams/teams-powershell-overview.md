@@ -10,15 +10,17 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a83e8114020ef400ba983f483727436bbd383736
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: d22eb0b14d25bec57949bb804e8bb8098ee33510
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37570129"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836960"
 ---
 # <a name="teams-powershell-overview"></a>Descripción de PowerShell para Teams
 
@@ -120,7 +122,7 @@ Las configuraciones son cubos de configuración mantenidos en el servicio que no
 
 ## <a name="other-powershell-tools"></a>Otras herramientas de PowerShell
 
-Puede encontrar instrucciones detalladas sobre cómo usar todos los controles de PowerShell para administrar Microsoft Teams y Skype empresarial, incluyendo descripciones detalladas de la configuración de cada Directiva, en la [Referencia del cmdlet de Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps) y [Skype para Referencia del cmdlet empresarial](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
+Puede encontrar instrucciones detalladas sobre cómo usar todos los controles de PowerShell para administrar Microsoft Teams y Skype empresarial, incluyendo descripciones detalladas de la configuración de cada Directiva, en la [Referencia del cmdlet de Microsoft Teams](https://docs.microsoft.com/powershell/teams/?view=teams-ps) y en la referencia de cmdlet de [Skype empresarial](https://docs.microsoft.com/powershell/skype/intro?view=skype-ps).
 
 ## <a name="learn-more"></a>Más información
 

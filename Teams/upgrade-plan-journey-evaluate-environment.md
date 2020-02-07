@@ -10,26 +10,28 @@ ms.reviewer: dearbeen
 description: Use esta guía para obtener información sobre los requisitos para evaluar correctamente su entorno actual para actualizar a teams.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4716eac44880ca149fb757d2f16ebfe80ccab65
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 5000ecb5195654e902c06f329c910c0a5edb7d55
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772324"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837138"
 ---
 ![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
 Este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
 
-- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
-- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>Evaluar el entorno antes de actualizar a teams
@@ -190,7 +192,7 @@ Use la siguiente tabla para capturar el estado actual de adopción y preparació
 > | ¿Cuál de las siguientes opciones describe mejor el despliegue? <br>estrategia usada para Skype empresarial <br>implementación? | <input type="checkbox">Amplio alcance: campaña de correo electrónico con <br>&nbsp;&nbsp; &nbsp; <br/> <input type="checkbox">Ampliado: amplio alcance más una variedad <br>&nbsp;&nbsp; de campañas de conciencia (pósteres &nbsp;, <br>&nbsp;&nbsp; eventos, campeones) &nbsp;y formación <br>&nbsp;&nbsp; (vídeos, guías para usuarios, &nbsp;personal) <br/> <input type="checkbox">Personalizado: ampliado, además de destino <br>&nbsp;&nbsp; &nbsp;por persona <br/> <input type="checkbox">Otros <br>&nbsp;&nbsp; (Tenga en cuenta los detalles de la columna comentarios &nbsp;). | |
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será el responsable de completar una evaluación del entorno?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Punto de decisión</td><td><ul><li>¿Quién será el responsable de completar una evaluación del entorno?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>Paso siguiente</td><td><ul><li>Documente los resultados de la evaluación del entorno.</li></ul></td></tr>
 </table>
 

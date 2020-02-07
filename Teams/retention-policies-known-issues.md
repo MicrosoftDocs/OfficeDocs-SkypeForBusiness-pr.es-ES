@@ -13,14 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5565409ea2f3dbb83754ced08a78e12283b1601c
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: d070180505081971eca6c4075bd5bc4563bcd184
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968341"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838210"
 ---
 # <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Problemas conocidos para directivas de retención en Microsoft Teams
 

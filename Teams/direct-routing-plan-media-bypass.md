@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: dbc88f7954708ef3842c0cb7afa67815c70976a6
-ms.sourcegitcommit: 4c763a3824e6a2271d98a46d25a03c8f04ee2f74
+ms.openlocfilehash: 98f09d00960615c09dca8dcd78275a418d650f3e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257489"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835980"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 

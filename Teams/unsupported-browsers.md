@@ -9,17 +9,19 @@ audience: admin
 MS.collection:
 - M365-collaboration
 ms.reviewer: nakulm
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo Teams admite audio y vídeo en exploradores no compatibles.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3412d195e560ee2be1e850d9fcb146d0a0f54d25
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 5f2fc7ee97a5172a849c14d9ede6d93ffc08d302
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615910"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837260"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Reuniones de Microsoft Teams en exploradores no admitidos
 

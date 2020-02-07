@@ -11,16 +11,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.directrouting.overview
+f1.keywords:
+- NOCSH
 description: Página de aterrizaje para enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc686f6e59eabedc405d0b6c517feb10908600a2
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d146c2188f57dbee3887dd2fd595c1b06a86c30e
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707255"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836070"
 ---
 # <a name="phone-system-direct-routing"></a>Enrutamiento directo del Sistema telefónico
 

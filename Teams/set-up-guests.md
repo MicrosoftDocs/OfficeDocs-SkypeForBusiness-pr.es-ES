@@ -12,17 +12,17 @@ ms.collection:
 ms.reviewer: sbhatta
 search.appverid: MET150
 description: Active o desactive el acceso de invitado en Microsoft Teams.
-ms.custom:
-- NewAdminCenter_Update
-f1.keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+ms.custom: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
+f1.keywords:
+- CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 357ada56590bb42655e1a45a6e27ab7dac1c4167
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 5bcdbc3251820bdcee860323ad993efc8d6673c0
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693645"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835650"
 ---
 <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Active o desactive el acceso de invitado a Microsoft Teams
 ===================================================

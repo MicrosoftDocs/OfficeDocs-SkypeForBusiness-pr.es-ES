@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: Vea cómo puede habilitar o deshabilitar a los usuarios para que registren su nombre cuando se unan a una reunión en Microsoft Teams
-ms.openlocfilehash: e81a4ad209a07eee2ab72d428aa7bd32a6e2c4c3
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: b7b04ba5959d4ffbbb4664401ccf8e95b46c48b9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41696155"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836110"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>Habilitar que los usuarios registren su nombre cuando se unan a una reunión en Microsoft Teams
 

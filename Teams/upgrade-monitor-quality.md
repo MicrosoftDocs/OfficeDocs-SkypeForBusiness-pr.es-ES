@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Tareas y actividades necesarias para supervisar la calidad y el uso de Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecc3781f3190b7c7e5f52aec7ecf9dbae0894886
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 69f36da55daf95da66fa87b90487dde447953f53
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236433"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837180"
 ---
-![Diagrama resaltado de excelencia operativa fase de actualización de viaje] (media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
+![Diagrama resaltado de excelencia operativa fase de actualización de viaje](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
 Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
 
@@ -31,7 +33,7 @@ Este artículo forma parte de la fase de excelencia operativa de su viaje de act
 
 La [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide) incluye un conjunto de actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario, como se muestra a continuación.
 
-![Ilustración de las áreas clave que se deben examinar durante una revisión.] (media/plan-my-service-management-image2.png "Las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la fiabilidad y los resultados de la encuesta de usuarios.")
+![Ilustración de las áreas clave que se deben examinar durante una revisión.](media/plan-my-service-management-image2.png "Las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la fiabilidad y los resultados de la encuesta de usuarios.")
 
 Al evaluar y corregir continuamente las áreas descritas en la guía, puede reducir su potencial de afectar negativamente a la experiencia del usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 

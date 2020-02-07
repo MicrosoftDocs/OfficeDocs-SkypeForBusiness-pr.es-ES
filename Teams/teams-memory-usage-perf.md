@@ -1,5 +1,5 @@
 ---
-title: Cómo usa Microsoft teams la memoria
+title: Cómo usa Microsoft Teams la memoria
 author: msdmaguire
 ms.author: dmaguire
 manager: serdars
@@ -12,16 +12,18 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_PracticalGuidance
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6dcbe03851b8dbb31cd0bd6f1b580913d4dc683d
-ms.sourcegitcommit: f017e38095098d4d28c71241dddac53538be79d7
+ms.openlocfilehash: 05cbd2f4b6691c873393a7ba711e03aadf70a2f2
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41506937"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836990"
 ---
-# <a name="how-microsoft-teams-uses-memory"></a>Cómo usa Microsoft teams la memoria
+# <a name="how-microsoft-teams-uses-memory"></a>Cómo usa Microsoft Teams la memoria
 
 Algunos usuarios de Microsoft Teams tienen preguntas sobre cómo usa la memoria los equipos. En este artículo se describe cómo se usa la memoria por parte de Teams y por qué la aplicación de escritorio de Teams (aplicación) y la aplicación Web de Teams no evitan que otras aplicaciones y cargas de trabajo del mismo equipo tengan suficiente memoria para funcionar de manera óptima. Teams está diseñado para usar la tecnología moderna de Internet. Para lograr esto, el cliente de escritorio de Teams se desarrolló en electrones, que usa cromo para la representación. Este es el mismo motor de representación tras muchos de los exploradores más populares de hoy, incluidos Edge y Chrome.
 

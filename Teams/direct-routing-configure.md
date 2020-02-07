@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: d4d804d48a97757d0a810cb16b22fec9f09df300
-ms.sourcegitcommit: dd3a3ab4ddbdcfe772f30fb01ba3b97c45c43dd4
+ms.openlocfilehash: 22cb8e289cd78d1736bb594280c6ebfc248c02a0
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41769823"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836090"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 

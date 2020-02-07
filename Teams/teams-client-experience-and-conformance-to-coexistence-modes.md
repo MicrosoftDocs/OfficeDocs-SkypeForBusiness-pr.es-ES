@@ -10,18 +10,20 @@ audience: admin
 description: Experiencia del cliente de Teams y cumplimiento con los modos de coexistencia
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e05a95871dbe36f969c048f32d9bca99fec5d45
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: eea9d83a582bfe463233cfafe9564a238e00e198
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435244"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837380"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -69,14 +71,14 @@ Como se describe anteriormente, el modo de coexistencia del usuario afecta a la 
 
 Los administradores *no* necesitan establecer explícitamente estas configuraciones de directiva al usar el modo de coexistencia, pero es importante comprender que esta configuración se comporta de la siguiente manera de forma eficaz para un modo determinado. 
 
-|Multimodo|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
+|Modo|AllowUserChat|AllowPrivateCalling|AllowPrivateMeetingScheduling|AllowChannelMeetingScheduling|
 |---|---|---|---|---|
 |TeamsOnly o islas|Habilitado|Habilitado|Habilitado|Habilitado|
 |SfBWithTeamsCollabAndMeetings|Deshabilitado|Deshabilitado|Habilitado|Habilitado|
 |SfBWithTeamsCollab o SfBOnly|Deshabilitado|Deshabilitado|Deshabilitado|Deshabilitado|
 ||||||
 
-Al usar PowerShell, el `Grant-CsTeamsUpgradePolicy` cmdlet comprueba la configuración de los valores correspondientes en TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy para determinar si esa configuración sería reemplazada por TeamsUpgradePolicy y, si es así, una el mensaje informativo se proporciona en PowerShell.  Como se indicó anteriormente, ya no es necesario establecer estas otras configuraciones de directiva. A continuación se muestra un ejemplo del aspecto de la advertencia de PowerShell:
+Al usar PowerShell, el `Grant-CsTeamsUpgradePolicy` cmdlet comprueba la configuración de los valores correspondientes en TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy para determinar si esa configuración sería reemplazada por TeamsUpgradePolicy y, si es así, se proporciona un mensaje informativo en PowerShell.  Como se indicó anteriormente, ya no es necesario establecer estas otras configuraciones de directiva. A continuación se muestra un ejemplo del aspecto de la advertencia de PowerShell:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

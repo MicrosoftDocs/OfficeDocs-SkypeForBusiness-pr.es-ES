@@ -11,15 +11,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Los conectores mantienen a su equipo al día al brindarles, directamente en un canal, contenido y actualizaciones de servicios que se utilizan con frecuencia.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f892791c3f299cbd146d7a34b0062cc957486f
-ms.sourcegitcommit: dc70fd277d9542d831741e14dba9ae22367210ae
+ms.openlocfilehash: cc65939048fd8e54bd122a4dc52d2a611b8453cc
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909336"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834380"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Usar Office 365 y conectores personalizados en Microsoft Teams
 =======================================================
@@ -54,4 +56,4 @@ En la actualidad, puede Agregar conectores con el escritorio de Microsoft Teams 
 <a name="develop-custom-connectors"></a>Desarrollar conectores personalizados
 ----------------------------
 
-También puede crear conectores personalizados, así como los webhooks entrantes y salientes. Para obtener más información, consulta nuestra [documentación para desarrolladores](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) .
+También puede crear conectores personalizados, así como los webhooks entrantes y salientes. Consulte nuestra[ documentación para desarrolladores ](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)para obtener más información.

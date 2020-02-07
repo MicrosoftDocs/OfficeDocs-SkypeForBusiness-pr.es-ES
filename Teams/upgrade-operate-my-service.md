@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Tareas y actividades necesarias para la administración de servicios de Teams, como la supervisión del estado del servicio, la evaluación y la seguridad de la calidad y el uso de la red
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7be47504bab7c12803dee3728fcc872ce3a73ca
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: eab5673c1b4dcbc1810c96588577e6ee53938609
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236499"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837150"
 ---
-![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
+![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
 Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
 
@@ -43,7 +45,7 @@ La administración de servicios engloba todas las actividades y los procesos imp
 
 Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como se muestra en el siguiente diagrama. Cada una de estas categorías se expandirá en las secciones siguientes.
 
-![Un diagrama que muestra una lista de categorías de tareas y actividades] (media/operate-my-service-image1.png "Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
+![Un diagrama que muestra una lista de categorías de tareas y actividades](media/operate-my-service-image1.png "Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
@@ -173,7 +175,7 @@ El primer paso de la administración de cambios es la supervisión de los cambio
 En el [blog de Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog), puede obtener información sobre las prácticas recomendadas, las tendencias y las novedades de las actualizaciones de productos de Teams. Es posible que se anuncien actualizaciones de características principales a teams aquí. También puede suscribirse al blog a través de una fuente RSS. Después, puede agregar [la fuente RSS](https://techcommunity.microsoft.com/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog) directamente a un canal de Teams, de modo que todas las noticias importantes se entreguen directamente dentro de Teams.
 
 Todas las características que se publican se documentan en las [notas de la versión de Microsoft Teams](https://support.office.com/article/Release-notes-for-Microsoft-Teams-d7092a6d-c896-424c-b362-a472d5f105de).
-Aquí encontrarás una lista de características que se lanzaron para dispositivos de escritorio, Web y móviles. El mismo conjunto de notas de la versión también está disponible **** en la pestaña novedades de la [ayuda](get-help-in-microsoft-teams.md).
+Aquí encontrarás una lista de características que se lanzaron para dispositivos de escritorio, Web y móviles. El mismo conjunto de notas de la versión también está disponible en **la pestaña novedades de la** [ayuda](get-help-in-microsoft-teams.md).
 
 Familiarícese con los recursos disponibles y asegúrese de que asigna los propietarios correspondientes para que supervisen el cambio.
 
@@ -253,7 +255,7 @@ Los otros dos informes son específicos de Teams y proporcionan más informació
 
 #### <a name="required-permissions"></a>Permisos necesarios
 
-Es posible obtener acceso a los informes de uso del centro de administración mediante personas a las que se les ha asignado una función de **administrador global** o un rol de administrador específico de producto (**Administrador de Exchange**, **Administrador de Skype empresarial**, **SharePoint Administrador**).
+Es posible obtener acceso a los informes de uso en el centro de administración mediante personas a las que se les haya asignado una función de **administrador global** o un rol de administrador específico de producto (**Administrador de Exchange**, **Administrador de Skype empresarial**, administrador de **SharePoint**).
 
 Además, la función **lector de informes** está disponible para los usuarios que necesiten acceder a los informes, pero no realizar las tareas que requieran permisos de nivel de administrador. Puede asignar este rol para proporcionar informes de uso a cualquier persona que sea parte interesada, supervisar y conducir la adopción. Para obtener más información acerca de los diferentes roles disponibles, consulte [acerca de los roles de administrador de Office 365](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
@@ -318,7 +320,7 @@ NPS es un índice comprendido entre-100 y 100 que mide la disposición de un cli
 
 - De 1 a 6 son elementos interactivos: clientes insatisfechos que pueden dañar tu servicio e impedir el crecimiento.
 
-![Un diagrama que muestra la escala de NPS] (media/operate-my-service-image2.png "Este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
+![Un diagrama que muestra la escala de NPS](media/operate-my-service-image2.png "Este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
 
 Aunque la cantidad básica de NPS es útil, obtendrá el máximo valor de analizar los comentarios de usuario. Le ayudarán a comprender por qué el usuario recomendaría (o no) equipos a otras personas. Estos comentarios pueden proporcionar valiosos comentarios para ayudar al equipo de administración de servicios o proyectos a comprender los ajustes necesarios para proporcionar un servicio de calidad.
 

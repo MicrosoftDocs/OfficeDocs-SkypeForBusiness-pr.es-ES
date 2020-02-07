@@ -14,16 +14,18 @@ ms.collection:
 ms.reviewer: dearbeen, nsuter
 search.appverid: MET150
 description: Talleres interactivos en vivo diseñados para ayudarle a empezar a trabajar con Microsoft Teams en tan solo 30 días.
-f1.keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb8d5b133bcc8ee905df51b9c006f173eb4947b6
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 3415c68ec8d27789bd00161fc70107a3be672431
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708456"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837370"
 ---
 <div id="main" class="v2">
     <div class="container">

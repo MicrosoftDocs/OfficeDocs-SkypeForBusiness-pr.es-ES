@@ -7,11 +7,13 @@ manager: serdars
 ms.author: v-lanac
 author: lanachin
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.service: msteams
-ms.openlocfilehash: 3e0841bf49d6d61bb96ea3f3d45e0f6daf804e5b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42e4889345fe6d68788ca3a1398f079f0af26386
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906985"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835210"
 ---

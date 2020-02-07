@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 description: Vea qué problemas hay con caracteres especiales en los nombres de las directivas y qué puede hacer para corregirlo.
-ms.openlocfilehash: a3b7c8dfcba8d88f0428711a913344b33b431c37
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 4116f34c06667a3bd4e75f9a5541b23c8ea79dcb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707595"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837930"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>¿Cuáles son las restricciones de caracteres especiales en directivas de Teams?
 

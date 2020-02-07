@@ -7,18 +7,20 @@ audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.service: msteams
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams en un entorno híbrido con Exchange local.
-ms.openlocfilehash: c8309f4d7007bcd249334c554d284e5be00bfa16
-ms.sourcegitcommit: 9bead87a7f4c4e71f19f8980e9dce2b979735055
+ms.openlocfilehash: eb399eea64707e07d796ee36e85036e662ce8de1
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269264"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838190"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Salas de Microsoft Teams con Exchange local
 
@@ -69,7 +71,7 @@ Si implementa salas de Microsoft Teams con Exchange local, usará las herramient
 
 1. [Abra el shell de administración de Exchange](https://docs.microsoft.com/powershell/exchange/exchange-server/open-the-exchange-management-shell) o [Conéctese a su servidor de Exchange con PowerShell remoto](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell).
 
-2. En Exchange PowerShell, busque un buzón para la cuenta (para habilitar el buzón de correo) ejecutando el siguiente comando:
+2. En Exchange PowerShell, cree un buzón de correo para la cuenta (para habilitar el buzón de la cuenta) ejecutando el siguiente comando:
 
    ```PowerShell
    Enable-Mailbox PROJECTRIGEL01@contoso.com -Room

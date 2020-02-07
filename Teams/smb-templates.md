@@ -10,16 +10,18 @@ search.appverid: MET150
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
 ms.reviewer: lavenkat
 description: Introducción a las plantillas de Teams para pequeñas y medianas empresas
-ms.openlocfilehash: 3ca5e78f3a61f1e272960dc1d7338bd06f81d4c6
-ms.sourcegitcommit: 1de5e4d829405b75c0a87918cc7c8fa7227e0ad6
+ms.openlocfilehash: be42728387189f2281f892e5cc608f9e6f557b02
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40952773"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837940"
 ---
 # <a name="get-started-with-teams-templates-for-small-and-medium-businesses"></a>Introducción a las plantillas de Teams para pequeñas y medianas empresas
 

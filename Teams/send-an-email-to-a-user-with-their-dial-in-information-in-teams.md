@@ -17,16 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: Envíe a sus usuarios un correo electrónico con la información de sus audioconferencias en Microsoft Teams.
-ms.openlocfilehash: d30e925d35531a2a152778bc805184cfbfc279cb
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c2ae5fe3af00cece551db690aa76805edd480373
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694075"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838130"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar un correo electrónico a un usuario con su información de audioconferencia en Microsoft Teams
 

@@ -12,14 +12,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7660cc35986b8b0debc449bacde686bb9e2694b
-ms.sourcegitcommit: 43a17ce6fea3951719b55bfbda03c500cef4816c
+ms.openlocfilehash: f6b64a54a2a6f198c893894dc0302c81c1bff5da
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41580927"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837340"
 ---
 # <a name="user-presence-in-teams"></a>La presencia del usuario en Teams
 

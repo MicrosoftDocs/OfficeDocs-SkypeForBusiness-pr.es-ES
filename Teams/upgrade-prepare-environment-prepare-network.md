@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Use esta guía para preparar la red para la implementación y el lanzamiento de Teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ede6e6ce211393211e7c1d31365c2f22c26751a
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: ec47733accfe9973887cd9f3f7019ac368e8e970
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236141"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837220"
 ---
-![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
+![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
 Este artículo forma parte de la etapa de preparación técnica del recorrido de actualización, una actividad que se completa en paralelo a la etapa de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades de las etapas anteriores:
 
@@ -33,13 +35,13 @@ Este artículo forma parte de la etapa de preparación técnica del recorrido de
 - [Ha elegido su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 > [!Tip]
-> Vea la siguiente sesión para obtener información sobre cómo Teams aprovecha su red y sobre el mejor plan para una conectividad de red óptima: Planeación de [redes](https://aka.ms/teams-networking) de Teams
+> Vea la siguiente sesión para obtener información sobre cómo Teams aprovecha su red y sobre el mejor plan para una conectividad de red óptima: [planeación de redes de Teams](https://aka.ms/teams-networking)
 
 # <a name="prepare-your-network-for-upgrading-to-teams"></a>Preparar la red para actualizar a teams
 
 Si está implementando audio, vídeo o reuniones, puede realizar algunos pasos adicionales para optimizar su red para esa funcionalidad. Teams usa tecnología de audio y vídeo (códecs) que puede adaptarse y, por lo tanto, funcionar mejor en la mayoría de las condiciones de la red. Para garantizar un rendimiento óptimo y coherente, debe preparar su red para los equipos.
 
-![Diagrama que describe los tres componentes de la calidad] (media/evaluate-my-environment-image1.png "Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes. Con un foco en la red.")
+![Diagrama que describe los tres componentes de la calidad](media/evaluate-my-environment-image1.png "Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes. Con un foco en la red.")
 
 ## <a name="why-should-you-prepare-your-network"></a>¿Por qué debería preparar su red?
 
@@ -153,7 +155,7 @@ Después de descargar e instalar la herramienta, puede encontrarla en C:\Archivo
 
 Abra una ventana del símbolo del sistema y navegue al directorio de la herramienta de evaluación de redes escribiendo **CD c:\Archivos de programa (x86) \Microsoft Skype empresarial herramienta de evaluación de redes**. En el símbolo del sistema, inicie la prueba de puertos abiertos escribiendo **networkassessmenttool. exe/connectivitycheck**
 
-Después de ejecutar las comprobaciones, la herramienta mostrará el mensaje "comprobaciones completadas correctamente" o informe sobre los puertos bloqueados. También genera un archivo denominado Connectivity_results. txt, que contiene el resultado de la herramienta y lo almacena en el\\directorio de herramientas\\\\\\ de evaluación de redes locales de% userprofile% AppData de Microsoft Skype empresarial.
+Después de ejecutar las comprobaciones, la herramienta mostrará el mensaje "comprobaciones completadas correctamente" o informe sobre los puertos bloqueados. También genera un archivo denominado Connectivity_results. txt, que contiene el resultado de la herramienta y lo almacena en el directorio de la herramienta\\\\ de\\evaluación\\de redes local% userprofile% AppData de Microsoft Skype empresarial.
 
 Le recomendamos que ejecute las comprobaciones de conectividad de forma regular para asegurarse de que los puertos se hayan abierto y funcionen correctamente.
 
@@ -195,7 +197,7 @@ La calidad de servicio (QoS) se puede usar para luchar contra las dificultades a
 >Muchas redes van evolucionando gracias a las actualizaciones, al ampliarlas o por otros requisitos de negocio. Asegúrese de contar con procesos operativos que ayuden a mantener estas áreas como parte de su planificación de administración de servicios.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será el responsable de realizar las evaluaciones de red apropiadas en todos los segmentos de red y ubicaciones de la organización?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Punto de decisión</td><td><ul><li>¿Quién será el responsable de realizar las evaluaciones de red apropiadas en todos los segmentos de red y ubicaciones de la organización?</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Puede realizar una evaluación de red detallada para asegurarse de que su red está lista para su implementación de Microsoft Teams. </li><li>Realizar correcciones de red basadas en los resultados de la evaluación de disponibilidad de red para cada segmento de red.</li></ul></td></tr>
 </table>
 

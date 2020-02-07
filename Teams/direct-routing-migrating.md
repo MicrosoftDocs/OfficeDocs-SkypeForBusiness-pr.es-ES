@@ -13,13 +13,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
+f1.keywords:
+- NOCSH
 description: Descubra qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Teams.
-ms.openlocfilehash: 4c65a8c5d5a28ab5046c23e2743962fe1114c2a4
-ms.sourcegitcommit: 2cc98fcecd753e6e8374fc1b5a78b8e3d61e0cf7
+ms.openlocfilehash: 85b53bf33cd8f9015ea9294876a06da3532ad085
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40992587"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836060"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar a enrutamiento directo
 

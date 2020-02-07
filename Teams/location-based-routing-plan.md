@@ -10,16 +10,18 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 description: Aprenda a planificar el enrutamiento basado en la ubicación para el enrutamiento directo.
 localization_priority: Normal
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 429ed4dcd2996c404b47839de036972d44cc0d26
-ms.sourcegitcommit: 021c86bf579e315f15815dcddf232a0c651cbf6b
+ms.openlocfilehash: 0c341b808890ecc1d3b237ae70190aad9d1de8ea
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615820"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836550"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 

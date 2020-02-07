@@ -13,14 +13,16 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 - SPO_Content
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe181e7ef55b386d4a6eb40bb7e383ca89a956d9
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: de798e3e76b4c826cf5b235b61b3fe88e94ea1c7
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231251"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837700"
 ---
 <a name="teams-experience-in-an-office-365-onedrive-and-sharepoint-online-multi-geo-enabled-tenancy"></a>Experiencia de Teams en un espacio empresarial de OneDrive y SharePoint Online Multi-Geo en Office 365
 ===========================================

@@ -1,5 +1,5 @@
 ---
-title: Retirada de Skype empresarial online
+title: Retirada de Skype Empresarial Online
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae0d278955f6935b55fda9b0e2dc3b13503b1f77
-ms.sourcegitcommit: 8cfb6bd11706ac3f0da93382359d5231e16e9234
+ms.openlocfilehash: c9986355905cb40e26182368dec8f53d796432fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36849843"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837950"
 ---
-# <a name="skype-for-business-online-retirement"></a>Retirada de Skype empresarial online
+# <a name="skype-for-business-online-retirement"></a>Retirada de Skype Empresarial Online
 
 Skype empresarial online se retirará el 31 de julio de 2021. Este artículo proporciona detalles sobre el plan de jubilación, una breve explicación de por qué estamos haciendo este anuncio ahora y un resumen de lo que estamos haciendo para ayudar a los clientes a migrar a teams.
  
@@ -45,6 +47,6 @@ En primer lugar, estamos haciendo inversiones en productos para abordar las soli
 - **Equipos y interoperabilidad entre consumidores de Skype**. La interoperabilidad entre los equipos y los consumidores de Skype permitirá que los usuarios de los dos servicios se comuniquen mediante llamadas y chats.  Los equipos y la interoperabilidad de consumidores de Skype estarán disponibles en Teams en el primer trimestre del año civil 2020.
 - **Integración del centro de contactos y grabación de cumplimiento**. En el momento de inspirarse este mes, anunciamos las asociaciones de Teams con Five9, los genes y el bonito para permitir las soluciones de centro de contactos, y con ASC, NICE y Verint, para ofrecer grabaciones de cumplimiento.   También estamos trabajando con otros socios certificados de Skype empresarial online para que el centro de contacto y las soluciones de grabación de cumplimiento del cumplimiento sean comercializados para los equipos.
  
-Y cuando esté listo para empezar, ofrecemos [un conjunto completo de orientación técnica y recursos de planificación](https://aka.ms/SkypeToTeams), como un marco de éxito probado, procedimientos recomendados, documentos de planificación, [capacitación gratuita guiada por un instructor](instructor-led-training-teams-landing-page.md)y [FastTrack. ](https://www.microsoft.com/FastTrack)asistencia para la incorporación de suscripciones elegibles.
+Y cuando esté listo para empezar, ofrecemos [un conjunto completo de orientación técnica y recursos de planificación](https://aka.ms/SkypeToTeams), como un marco de éxito probado, procedimientos recomendados, documentos de planeación, [formación gratuita guiada por instructor](instructor-led-training-teams-landing-page.md)y asistencia para la incorporación de [FastTrack](https://www.microsoft.com/FastTrack) para las suscripciones elegibles.
  
 Desde su introducción en 2014, Skype empresarial ha sido una herramienta valiosa para millones de personas de todo el mundo.  Al combinar la mensajería instantánea, las llamadas y el video en una sola aplicación, el producto estableció una nueva visión atractiva para las comunicaciones empresariales. Microsoft Teams es el siguiente capítulo de esa visión, y con las noticias actuales no solo anunciamos la retirada del servicio Skype empresarial online, sino que también comunicamos nuestra confianza en Teams.  Después de más de dos años en el mercado, Teams está listo para nuestros clientes más exigentes, y estamos convencidos de que te encantará.  Si es un cliente actual de Skype empresarial online, comience a planificar la migración hoy mismo.  Nos comprometemos a ayudarte cada paso del camino, y no podemos esperar a que disfrutes de la nueva forma de trabajar. 

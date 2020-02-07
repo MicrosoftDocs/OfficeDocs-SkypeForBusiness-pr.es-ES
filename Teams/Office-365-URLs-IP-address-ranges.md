@@ -11,17 +11,19 @@ ms.service: msteams
 description: Aprenda a configurar correctamente los intervalos de direcciones IP y URL de Office 365, omita el proxy de reenvío cuando esté disponible para las conexiones con el servicio de Microsoft Teams y los requisitos para las directivas de redes y seguridad.
 localization_priority: Normal
 search.appverid: MET150
-f1.keywords: ms.teamsadmincenter.meetingsettings.network.ports
+f1.keywords:
+- CSH
+ms.custom: ms.teamsadmincenter.meetingsettings.network.ports
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ccecd9faf9bb023ba80c01783c24a95c44e586f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 52bbf0ae0c104989c63315b42d3aaa08985da637
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41695675"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834390"
 ---
 <a name="office-365-urls-and-ip-address-ranges"></a>Direcciones URL e intervalos de direcciones IP de Office 365
 =====================================

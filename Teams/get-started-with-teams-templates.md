@@ -13,16 +13,18 @@ search.appverid: MET150
 ms.collection:
 - M365-collaboration
 description: Aprenda a usar las plantillas de Teams para crear un equipo con canales predefinidos.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378977e86854f3c4b2192017fa10ce19aeb4990e
-ms.sourcegitcommit: 4a22bf77f529cfc2e68a6498a0c4aa9030ee2168
+ms.openlocfilehash: fef3357f938be0e9261d0b5459c9f6aa16942329
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968321"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837020"
 ---
 # <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams
 
@@ -72,7 +74,7 @@ De forma predeterminada, la plantilla base se establece en **estándar** , que n
 |Educativo<br>Equipo de PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Phone<ul><li>Bloc de notas PLC de OneNote (anclado a la pestaña **General** )</ul></li>|
 | Anuales<br>Guarde | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canales<ul><li>Transición de turno</li><li>Aprendiendo</li></ul>Propiedades del equipo<ul><li>Visibilidad de equipo establecida como pública</li></ul>Permisos de miembro<ul><li>Evitar que los miembros creen, actualicen o quiten canales</li><li>Evitar que los miembros agreguen o quiten aplicaciones</li><li>Evitar que los miembros creen, actualicen o quiten conectores</li></ul> |
 | Anuales<br>Colaboración de administrador | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales<ul><li>Transición de turno</li><li>Aprendiendo</li></ul>Propiedades del equipo:<ul><li>Visibilidad del equipo establecida en privado</li></ul>Permisos de miembro:<ul><li>Evitar que los miembros creen, actualicen o quiten canales</li><li>Evitar que los miembros agreguen o quiten aplicaciones</li><li>Evitar que los miembros creen, actualicen o quiten conectores</li></ul>|
-| Healthcare<br>Hacia |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Hacia</li><li>Personal\*</li><li>Instrui\*</li></ul>\*Canales favoritos automáticos |
+| Healthcare<br>Hacia |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Hacia</li><li>Personal\*</li><li>Aprendizaje\*</li></ul>\*Canales favoritos automáticos |
 |Healthcare<br>Hospitales | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canales<ul><li>Anuncios\*</li><li>Respeto\*</li><li>Private</li><li>Recursos humanos</li></li><li>Pertenecie</li></ul>\*Canal de favoritos automáticos|
 |||
 

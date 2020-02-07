@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: Obtenga información sobre los parámetros para la duración y los requisitos de un PIN y vea cómo establecer la duración de las reuniones en Microsoft Teams.
-ms.openlocfilehash: 7f7f477d14556baa7d2a47e5062aacd5de5796fd
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 2827845cb53aa822f09ebdd0948cc06e679e4c0a
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694005"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838080"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>Cambiar la longitud del PIN para las reuniones de Audioconferencia en Microsoft Teams
 

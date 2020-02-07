@@ -10,20 +10,22 @@ ms.reviewer: dearbeen
 description: Evalúe regularmente las oportunidades para mejorar el servicio de Teams después de la actualización, supervise la guía básica de Teams para las mejoras de las características interesantes.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff5cbba5f66e409a1c079f7a5f24170adb5c3e41
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 02772dddf435e8c3dc2bc0fe243e453e387cd244
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236466"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837210"
 ---
-![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
+![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa](media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
 Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
 

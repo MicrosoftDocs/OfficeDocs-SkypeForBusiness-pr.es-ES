@@ -10,18 +10,20 @@ audience: admin
 description: Ejemplos de correo electrónico y encuestas para usar en conjunciton con el plan de acción acelerado de diez pasos para actualizar de Skype empresarial a teams
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 27dc5a5daf92ce0dad214dcc5cf8c26bbc78ea6d
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 7b90c8f5d7094c036f29a6b64ecfca4e26f51640
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236392"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837230"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Correo electrónico y encuestas de ejemplo para actualizar comunicaciones básicas
 
@@ -223,7 +225,7 @@ Indique su experiencia en las actividades siguientes de Teams y, si hay una o m�
 
 **¿Qué probabilidades hay de que recomiende Microsoft Teams a un amigo o colega? (0 = no es probable... 10 = extremadamente probable)**
 
-| ,0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 4,8 | 99,999 | base10 |
+| ,0 | 1 | 1 | 3 | 4 | 5 | 6 | 7 | 4,8 | 99,999 | base10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

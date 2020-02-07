@@ -14,15 +14,17 @@ ms.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Obtenga información sobre cómo medir los resultados y el éxito de su habilitación a escala general de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24b04571a647838ee4890c813e7f3b83f387c12d
-ms.sourcegitcommit: 25b6bf2c3050390cd668d2495ffcf31c44d0ff62
+ms.openlocfilehash: 51f1af667e7cf4e387b9e05eec40d17bb48a550d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749278"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837860"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 
@@ -85,7 +87,7 @@ Estas son nuestras recomendaciones para la mayoría de las organizaciones de cli
 
     La gran importancia de los equipos es también la estrategia de habilitación preferida para las organizaciones de empresas de 1.000 empleados que desean simplificar la comunicación y la participación de sus empleados. Usar el equipo de toda la organización puede reunir a las personas para revisar tareas e iniciativas comunes en cualquier dispositivo. 
 
-- **Elija en paralelo**: para las organizaciones que usan Skype empresarial para conferencias de audio, compatibilidad con dispositivos de salas de conferencias o capacidades de voz en la nube, recomendamos la ejecución de Teams y de Skype en paralelo para familiarizar a sus empleados con el características básicas de colaboración, a la vez que se planea la migración fuera de Skype empresarial en un momento adecuado para su empresa. Tenga en cuenta que la ejecución de ambos clientes en paralelo puede presentar la confusión de los usuarios sobre qué herramienta usar, por lo que le recomendamos que se mantenga esta fase en el camino de adopción. 
+- **Elija en paralelo**: para las organizaciones que usan Skype empresarial para las conferencias de audio, compatibilidad con dispositivos de salas de conferencias o capacidades de voz en la nube, recomendamos la ejecución de Teams y Skype en paralelo para familiarizar a sus empleados con las características de colaboración básicas, a la vez que planea la migración fuera de Skype empresarial en un momento adecuado para su empresa. Tenga en cuenta que la ejecución de ambos clientes en paralelo puede presentar la confusión de los usuarios sobre qué herramienta usar, por lo que le recomendamos que se mantenga esta fase en el camino de adopción. 
 
 - **Elegir migración**: migrar desde Skype empresarial a teams tiene componentes adicionales desde un punto de vista técnico, pero el viaje de adopción de usuarios tiene los mismos componentes que una implementación importante de Teams. Además, estará enseñando a las personas sobre la experiencia y la interfaz de los equipos, el nuevo comportamiento de la conversación persistente y otros elementos de la experiencia que difieren de Skype empresarial.
 

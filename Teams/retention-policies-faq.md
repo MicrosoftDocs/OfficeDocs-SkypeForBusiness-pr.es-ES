@@ -13,14 +13,16 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa8e71d167bbb5f5381c66a1a8545a6f94f74e62
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 7d35fb3203f60e4fbf718b5bae40914a3b6b15bf
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793506"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838220"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Preguntas más frecuentes sobre las directivas de retención de Microsoft Teams
 

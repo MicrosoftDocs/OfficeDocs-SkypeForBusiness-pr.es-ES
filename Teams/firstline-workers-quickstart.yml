@@ -12,6 +12,8 @@ metadata:
   ms.date: 02/09/2019
   ms.service: msteams
   ms.topic: tutorial
+  f1.keywords:
+  - NOCSH
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
@@ -19,12 +21,12 @@ metadata:
   - Teams_ITAdmin_FLW
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 5e04a643ac1c544f04775cbbfc0fc31e0aa5fa73
-  ms.sourcegitcommit: d6a0ff7f00defda2b58726f5f0f0fac871f46ab7
+  ms.openlocfilehash: abd6405763311d1f939c95a91cb6cf9553750a67
+  ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 10/24/2019
-  ms.locfileid: "37664937"
+  ms.lasthandoff: 02/06/2020
+  ms.locfileid: "41836840"
 items:
 - durationInMinutes: 2
   content: >
@@ -105,7 +107,7 @@ items:
     -   Comunicación, medición e iteración basadas en la implementación piloto
 
 
-    ### <a name="next-steps"></a>Siguientes pasos
+    ### <a name="next-steps"></a>Pasos siguientes
 
 
     1.  Siga usando Teams para satisfacer las necesidades de Frontline Worker de su organización.

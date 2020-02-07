@@ -11,19 +11,22 @@ ms.reviewer: dearbeen
 description: Prepararse para la actualización al modo solo de Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
-f1.keywords: ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
+f1.keywords:
+- CSH
+ms.custom:
+- Teams-upgrade-guidance
+- ms.teamsadmincenter.orgwidesettings.teamsupgrade.upgradetoteams
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89aded4747bc0a3f41fd78ce1bdced7b3363775b
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: d9ad590f61b63aad1208fb2ad04f4aa3b80a3ddb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708316"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836980"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 

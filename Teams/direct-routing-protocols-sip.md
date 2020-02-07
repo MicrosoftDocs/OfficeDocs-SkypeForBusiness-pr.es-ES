@@ -12,15 +12,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ab2203544e1d0e4d8679a4ad8107c2048e5b3b8
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 5fc90ace7a2b1bd8a6984c7268903a1a6063e137
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40065680"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835040"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 

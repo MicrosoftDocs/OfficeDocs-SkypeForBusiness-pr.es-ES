@@ -10,18 +10,20 @@ ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams instala un complemento en Outlook que permite a los usuarios programar reuniones de Microsoft Teams desde Outlook.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52bc712798a1412a1c7c2c510c92af090608865d
-ms.sourcegitcommit: 5932ec62a42d7b392fa31c6a2a3462389ac24b73
+ms.openlocfilehash: 3054c961faa2587b203bd1522c266a55e0c34174
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573626"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834670"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================

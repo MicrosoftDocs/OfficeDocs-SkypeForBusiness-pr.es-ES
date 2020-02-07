@@ -10,18 +10,20 @@ ms.reviewer: dearbeen
 description: Descontinuación de la actualización a teams si el centro de administración no se ha iluminado en su espacio empresarial
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 397cabcbba35c153d234bc4355d12e4eb44b5c57
-ms.sourcegitcommit: de7e0afbd40bbe52994ab99d85cf9e95ecbc4a6c
+ms.openlocfilehash: 20864b6b0a4be8cf9a0a88c6f3ce63c18687f2af
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435094"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837240"
 ---
 # <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>Actualización de los usuarios de Skype empresarial online a Microsoft Teams
 
@@ -34,7 +36,7 @@ Estamos implementando de forma activa las herramientas de actualización en el [
 
 Si está listo para actualizar hoy, puede usar los comandos de [PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) que se muestran en la tabla siguiente.
 
-| Paso básico de actualización # | Multimodo | Comando de PowerShell |
+| Paso básico de actualización # | Modo | Comando de PowerShell |
 |---|---|---|
 | [5](upgrade-basic.md#step-5) | Islas + notificar al usuario de Skype empresarial<br>(Use este comando si los usuarios están actualmente en modo **islas** (predeterminado)) | ```Grant-CsTeamsUpgradePolicy -PolicyName IslandsWithNotify -Identity $SipAddress```<br>*(por ejemplo, $SipAddress = ' TestUser@contoso.com ')* |
 | [5](upgrade-basic.md#step-5) | Solo para Skype empresarial + notificar al usuario de Skype empresarial <br>(Use este comando si los usuarios se encuentran actualmente en modo de **solo Skype para empresas** ). | ```Grant-CsTeamsUpgradePolicy -PolicyName SfBOnlyWithNotify -Identity $SipAddress```  |

@@ -10,26 +10,28 @@ audience: admin
 description: Use esta guía para obtener información sobre los requisitos necesarios para proporcionar y mantener una implementación de Microsoft Teams de alta calidad.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b4d9f5033e0a3fb0446709438e670f6f9408de3
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 72b1f737386d652e4fdbc027cf814ba838c8275d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236513"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836152"
 ---
-![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
+![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
 Este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
 
-- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
-- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Ha incorporado a las partes interesadas del proyecto](upgrade-enlist-stakeholders.md)
+- [Ha definido el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [Ha comprendido la coexistencia y la interoperabilidad de Skype Empresarial y Teams](https://aka.ms/SkypeToTeams-Coexist)
 - [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
@@ -64,7 +66,7 @@ Hay determinados requisitos en la implementación que son extremadamente importa
 
 Una organización o un socio auxiliar deberían comenzar a planear tres componentes clave durante la fase de preparación técnica de una implementación de Teams: administración de servicios, red y puntos de conexión. La combinación de todas estas tres áreas es fundamental para poder ofrecer una experiencia de usuario de calidad.
 
-![Diagrama que ilustra los tres componentes de la calidad] (media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagrama que ilustra los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes.")
+![Diagrama que ilustra los tres componentes de la calidad](media/envision-planning-for-service-management-and-quality-complete-guide-image1.png "Diagrama que ilustra los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes.")
 
 #### <a name="service-management"></a>Administración de servicios
 
@@ -102,7 +104,7 @@ Seguramente, el concepto de "administración de servicios" no es nuevo para la m
 
 En la administración de servicios se incluyen todas las actividades y procesos que se ven implicados en la administración de Microsoft Teams de un extremo a otro. Como se ha descrito anteriormente, algunos de los componentes de la administración de servicios (los componentes de infraestructura de los que consta el mismo servicio de Office 365) son responsabilidad de Microsoft, mientras que el cliente debe responder ante sus clientes de la administración de diversos aspectos de Teams, la red y los puntos de conexión que se ofrecen. En esta sección del documento se explica la responsabilidad del cliente desde la perspectiva de la administración de servicios.
 
-![Diagrama que ilustra los tres componentes de la calidad] (media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagrama que ilustra los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes. Centrándose en la administración de servicios.")
+![Diagrama que ilustra los tres componentes de la calidad](media/envision-planning-for-service-management-and-quality-complete-guide-image2.png "Diagrama que ilustra los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes. Centrándose en la administración de servicios.")
 
 ### <a name="introduction-to-the-operations-guide"></a>Introducción a la guía de operaciones
 
@@ -132,7 +134,7 @@ Las tareas y las actividades que se asocian al rol también se explican en la Gu
 
 La Guía de revisión de la experiencia de calidad incluye un conjunto de actividades que se utilizan para evaluar y ofrecer acciones correctivas en áreas clave que influyen en gran medida en mejorar la experiencia de usuario, como se muestra en la figura siguiente.
 
-![Diagrama ilustrativo de las áreas examinadas durante la revisión] de la experiencia (media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Un diagrama que muestra las áreas clave que se examinan durante una revisión de la experiencia de calidad.")
+![Diagrama ilustrativo de las áreas examinadas durante la revisión de la experiencia](media/envision-planning-for-service-management-and-quality-complete-guide-image3.png "Un diagrama que muestra las áreas clave que se examinan durante una revisión de la experiencia de calidad.")
 
 Al evaluar y corregir de forma continua las áreas que se describen en este documento, se reducen los posibles efectos negativos que puedan afectar a la experiencia de usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 
@@ -158,7 +160,7 @@ Puede encontrar esta guía [aquí](https://aka.ms/qerguide).
 
 La planificación de la calidad de las redes se debe centrar en la siguiente sección.
 
-![Diagrama que ilustra los tres componentes de la calidad] (media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagrama que ilustra los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes. Con un foco en la red.")
+![Diagrama que ilustra los tres componentes de la calidad](media/envision-planning-for-service-management-and-quality-complete-guide-image4.png "Diagrama que ilustra los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes. Con un foco en la red.")
 
 Como se mencionó anteriormente, es fundamental planificar la calidad de las redes antes de incorporar Microsoft Teams. Para obtener más información sobre cómo preparar las redes, consulte [Preparar la red de la organización para Microsoft Teams](prepare-network.md).
 
@@ -273,7 +275,7 @@ La evaluación de red se puede llevar a cabo mediante un socio de Microsoft, her
 
 Como se puede ver en el diagrama siguiente, los puntos de conexión son un importante bloque de creación a la hora de proporcionar una experiencia de gran calidad para los usuarios.
 
-![Diagrama que ilustra los tres componentes de la calidad] (media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagrama que ilustra los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes. Centrado en los puntos de conexión.")
+![Diagrama que ilustra los tres componentes de la calidad](media/envision-planning-for-service-management-and-quality-complete-guide-image5.png "Diagrama que ilustra los tres componentes de la calidad y cómo la administración de servicios se superpone a los tres componentes. Centrado en los puntos de conexión.")
 
 Los puntos de conexión de Microsoft Teams se pueden ejecutar en muchos dispositivos, incluidos PC, Mac, tabletas y dispositivos móviles. Parte de la experiencia no solo incluye el dispositivo, sino cómo se conecta un usuario al dispositivo; por ejemplo, mediante el micrófono o el altavoz del dispositivo, miniauriculares o auriculares con micrófono optimizados. El uso de un auricular con micrófono optimizado, se puede enriquecer la experiencia general del usuario.
 
@@ -343,14 +345,14 @@ En esta tabla se incluye un resumen de las actividades de planificación con ví
 | Plan para la administración de servicios | Realizar un ejercicio de asignación de roles operativos <br/> Validación de equipos designados <br/> Preparación de roles | [Guía de operaciones](1-drive-value-operate-my-service.md) |
 | | Nombrar expertos en calidad <br/> Preparación de expertos en calidad| <br/> [Guía de revisión de la experiencia de calidad](https://aka.ms/qerguide) |
 | | Instalar las plantillas de revisión de la experiencia de calidad <br/> Cargar un archivo de compilación | [Plantillas QERLite](https://aka.ms/qertemplates) <br/> [Cargar información de compilación](turning-on-and-using-call-quality-dashboard.md)|
-| Plan para la calidad de las redes | Realizar la planificación de red |  |
+| Plan para la calidad de las redes | Realizar planificación de red |  |
 | | Implementar QoS | [Calidad de servicio (QoS) en Microsoft Teams](qos-in-teams.md) |
 | | Omitir servidores proxy | [Instrucciones del proxy](https://support.office.com/article/Managing-Office-365-endpoints-99cab9d4-ef59-4207-9f2b-3728eb46bf9a) |
 | | Implementar VPN de túnel dividido |  |
 | | Optimizar redes Wi-Fi para medios en tiempo real | Consultar proveedores de terceros |
 | | Implementar salida local de Internet | [Salida local de Internet](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694) |
-| | Implementar conectividad de red <br/> Comprobar la conectividad de red | [URL de Office 365 y direcciones IP](https://aka.ms/o365ips) |
-| | Realizar evaluación de red |[Herramienta de evaluación de red de Microsoft](https://www.microsoft.com/download/details.aspx?id=53885)  |
+| | Implementar conectividad de red <br/> Comprobar la conectividad de red | [Direcciones IP y URL de Office 365](https://aka.ms/o365ips) |
+| | Realizar evaluación de red |[Herramienta de evaluación de red](https://www.microsoft.com/download/details.aspx?id=53885)  |
 | Plan para la calidad de los puntos de conexión | Actualizar firewalls de puntos de conexión | [URL de Office 365 y direcciones IP](https://aka.ms/o365ips) |
 | | Validar requisitos de software | [Obtener clientes para Microsoft Teams](get-clients.md) |
 | | Implementar recomendaciones Wi-Fi de puntos de conexión | Consultar proveedores de terceros |

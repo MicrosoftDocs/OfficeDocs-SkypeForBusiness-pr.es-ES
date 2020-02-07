@@ -17,16 +17,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Audio Conferencing
 description: 'Aprenda a buscar números de conferencia de acceso telefónico local desde Skype Empresarial. '
-ms.openlocfilehash: 693012a2417e6fc828d2ff5be9b22e255a3bc810
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 05008f8c3d51d17023be26dcc78e9e0b60243a5c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694155"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41838170"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Consultar una lista de números de Audioconferencia en Microsoft Teams
 

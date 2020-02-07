@@ -16,16 +16,18 @@ localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a administrar la configuración y las directivas de la aplicación personalizada para controlar qué usuarios de su organización pueden cargar aplicaciones personalizadas en Microsoft Teams.
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.allowsideloading
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-ms.openlocfilehash: 5357f368d6c5716c5af30e110a9193c4b4c2ad5f
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c86e140c917300d1d9a05a42e81cf8095ed3a670
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708466"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837710"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams
 

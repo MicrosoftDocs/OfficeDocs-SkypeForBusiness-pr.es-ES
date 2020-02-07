@@ -12,17 +12,19 @@ ms.collection:
 ms.reviewer: lolaj
 search.appverid: MET150
 description: Obtenga información sobre cómo descargar y usar la herramienta Asistente para pruebas de red.
+f1.keywords:
+- CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 193bc6b335766da15e28ff805efb0558bdf6ef4d
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: c3d292eecb6173f98a2e95dbbd5a1097f5f785eb
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37568608"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836760"
 ---
 <a name="use-the-network-testing-companion"></a>Use el Asistente para pruebas de red
 =================================

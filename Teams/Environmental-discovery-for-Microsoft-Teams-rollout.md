@@ -8,6 +8,8 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Cómo realizar un descubrimiento medioambiental detallado mientras planea su viaje de Skype empresarial a Microsoft Teams.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -15,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 029d4870a6826866ddff9b712c5acd2b59897b75
-ms.sourcegitcommit: 8db50c46992dccf54c1d4be58d8a0d21ec64ddd0
+ms.openlocfilehash: 7f49626f6526fe05aed81f39574a094347e0a3ae
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772404"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834530"
 ---
 <a name="environmental-discovery-for-a-microsoft-teams-rollout"></a>Descubrimiento ambiental para una implementación de Microsoft Teams
 ===================================================

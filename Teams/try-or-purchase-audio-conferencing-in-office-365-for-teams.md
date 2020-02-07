@@ -17,16 +17,17 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- ms.lync.lac.CpcGettingStarted
+- CSH
 ms.custom:
 - Audio Conferencing
+- ms.lync.lac.CpcGettingStarted
 description: 'Descubra cómo probar o comprar licencias de audioconferencia (conferencia RTC) para Office 365 con el fin de configurar llamadas de conferencia a las que la gente pueda acceder. '
-ms.openlocfilehash: 527455cc0f4d1a818c18271e3cf9bbafb04e2794
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 6c2b7583dcf286ba3b761a3445e3eff241896194
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708646"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837620"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-office-365-for-microsoft-teams"></a>Probar o comprar Audioconferencia en Office 365 para Microsoft Teams
 

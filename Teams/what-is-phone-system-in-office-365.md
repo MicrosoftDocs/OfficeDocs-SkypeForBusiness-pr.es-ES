@@ -16,16 +16,16 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1.keywords:
-- NOCSH
+- CSH
 ms.custom:
 - Phone System
 description: Más información sobre el sistema telefónico que puede hacer por usted.
-ms.openlocfilehash: fa16f94317923a26af8e44f7eebb5586de3b44cf
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 398b1e159a54da21ca83ced5014f54d758420c2d
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694275"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836660"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 

@@ -10,10 +10,6 @@ audience: admin
 description: Obtenga más información sobre la actualización de Skype empresarial a Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-ms.custom: Teams-upgrade-guidance
-ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
 f1.keywords:
 - ms.teamsadmincenter.dashboard.helparticle.journeyskypeforbusinessteams
 - ms.teamsadmincenter.dashboard.trainingvideos.journeytoteams
@@ -24,14 +20,18 @@ f1.keywords:
 - ms.teamsadmincenter.users.teamsupgradepage
 - ms.teamsadmincenter.dashboard.helparticle.quickstartteamsadmin
 - ms.teamsadmincenter.dashboard.helparticle.upgradetoteams
+ms.custom: Teams-upgrade-guidance
+ms.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdaed37210283152d35d2b4d73b9cc03b884ec07
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8ebbefefa64df4ac2a27b4b5cc10cd447327281f
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41707706"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837090"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introducción a su actualización de Microsoft Teams
 

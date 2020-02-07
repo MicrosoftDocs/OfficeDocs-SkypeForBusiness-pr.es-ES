@@ -13,14 +13,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 - SPO_Content
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e48c3e156fed45e447ddcbaaba5300537c651ab
-ms.sourcegitcommit: ddb4eaf634476680494025a3aa1c91d15fb58413
+ms.openlocfilehash: 236b1d570d44395f3499c0a5fec3d3a415953e12
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38231111"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834690"
 ---
 # <a name="how-sharepoint-online-and-onedrive-for-business-interact-with-microsoft-teams"></a>Interacción de SharePoint Online y OneDrive para la Empresa con Microsoft Teams
 

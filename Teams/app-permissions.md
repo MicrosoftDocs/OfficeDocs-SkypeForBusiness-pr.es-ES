@@ -13,15 +13,17 @@ ms.collection:
 search.appverid: MET150
 ms.reviewer: rowille
 description: Vea qué datos y permisos están solicitando las aplicaciones de su organización.
+f1.keywords:
+- NOCSH
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4a5efc1ec447d1aeda3c42841752b6fd6e1f1938
-ms.sourcegitcommit: 5695ce88d4a6a8fb9594df8dd1c207e45be067be
+ms.openlocfilehash: 5d7548d4d162310bc239c752e2bce38e725008f9
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37516789"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845231"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -39,7 +41,7 @@ Los permisos que se indican a continuación en mayúscula (por ejemplo, RECEIVE_
 
 |    |     |
 |-----------|------------|
-| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Use las tablas siguientes como guía para comprender qué permisos solicitan las aplicaciones que está investigando.</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Punto de decisión|<ul><li>Use las tablas siguientes como guía para comprender qué permisos solicitan las aplicaciones que está investigando.</li></ul> |
 | ![Un icono que representa el siguiente paso](media/audio_conferencing_image9.png)<br/>Paso siguiente|<ul><li>Investigue la aplicación o el servicio para decidir si desea permitir el acceso a él dentro de su organización. Por ejemplo, los bots envían y reciben mensajes de los usuarios y, excepto los bots de línea de negocios empresariales, se encuentran fuera del límite de cumplimiento. Por lo tanto, cualquier aplicación que incluya un bot necesitará esos permisos y tendrá ese perfil de riesgo, como mínimo. </li></ul>|
 
 ## <a name="global-app-permissions-and-considerations"></a>Permisos de aplicación global y consideraciones
@@ -72,7 +74,7 @@ Una aplicación debe revelar los datos que utiliza y los datos que se usan en la
 
 - POST_MESSAGE_TEAM. Permite que los bots de una aplicación envíen mensajes directos (proactivos) a cualquier miembro del equipo en cualquier momento, incluso si el usuario nunca antes ha hablado con el bot.
 
-- Los siguientes son permisos explícitos, pero están implícitos en RECEIVE_MESSAGE y REPLYTO_MESSAGE y en los ámbitos en los que se pueden usar los bots, que se declaran en el manifiesto:
+- Los siguientes elementos no son permisos explícitos, pero están implícitos en RECEIVE_MESSAGE y REPLYTO_MESSAGE y los ámbitos en los que se pueden usar los bots, declarados en el manifiesto:
  
     - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
     - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
@@ -106,7 +108,7 @@ Una aplicación debe revelar los datos que utiliza y los datos que se usan en la
 
 - Las extensiones de mensajería, por otra parte, ven las direcciones IP de los usuarios y la información de referencia.
 
-- Las directrices de la aplicación (y nuestro proceso de revisión de AppSource) requieren la necesidad de publicar mensajes de conversaciones personales a los usuarios (mediante el permiso POST_MESSAGE_TEAM) para propósitos válidos. En caso de abusos, los usuarios pueden bloquear el bot, los administradores de inquilinos pueden bloquear la aplicación y Microsoft puede bloquear bots de forma centralizada si es necesario.
+- Las directrices de la aplicación (y nuestro proceso de revisión de AppSource) requieren la necesidad de publicar mensajes de conversaciones personales a los usuarios (a través del permiso de POST_MESSAGE_TEAM) para propósitos válidos. En caso de abusos, los usuarios pueden bloquear el bot, los administradores de inquilinos pueden bloquear la aplicación y Microsoft puede bloquear bots de forma centralizada si es necesario.
 
 <sup>1</sup> algunos Bots solo envían mensajes (POST_MESSAGE_USER). Se denominan bots "solo de notificación", pero el término no se refiere a lo que se permite o no se permite a un bot, esto significa que bot no quiere exponer una experiencia de conversación. Teams usa este campo para deshabilitar la funcionalidad en la interfaz de usuario que normalmente se habilitaría; el bot no está restringido en lo que se permite hacer en comparación con los bots que exponen una experiencia de conversación.
 
@@ -153,7 +155,7 @@ REPLYTO_CONNECTOR_MESSAGE. Algunos conectores admiten mensajes accionables, que 
 
 - Ningún dato deja la red corporativa cuando los mensajes del conector se envían a un canal.
 
-- Los conectores que admiten mensajes accionables (permiso REPLYTO_CONNECTOR_MESSAGE) tampoco ven la dirección IP y la información de referencia; Esta información se envía a Microsoft y, a continuación, se enrutan a puntos de conexión HTTP previamente registrados con Microsoft en el portal de conectores.
+- Los conectores que admiten mensajes accionables (REPLYTO_CONNECTOR_MESSAGE permiso) tampoco ven la dirección IP y la información de referencia; Esta información se envía a Microsoft y, a continuación, se enrutan a puntos de conexión HTTP previamente registrados con Microsoft en el portal de conectores.
 
 - Cada vez que se configura un conector para un canal, se crea una dirección URL única para la instancia del conector. Si la instancia del conector se elimina, la dirección URL ya no se puede usar.
 
@@ -164,11 +166,11 @@ REPLYTO_CONNECTOR_MESSAGE. Algunos conectores admiten mensajes accionables, que 
 - Si el servicio que envía los mensajes del conector se viera comprometido y comienza a enviar vínculos de correo no deseado/suplantación de identidad, un administrador de inquilinos puede evitar que se creen nuevas instancias del conector y Microsoft puede bloquearlas de forma centralizada.
 
 > [!NOTE]
-> En la actualidad, no es posible saber qué conectores admiten mensajes accionables (permiso REPLYTO_CONNECTOR_MESSAGE).
+> En la actualidad, no es posible saber qué conectores admiten mensajes accionables (REPLYTO_CONNECTOR_MESSAGE permiso).
 
 ## <a name="outgoing-webhooks"></a>Webhooks salientes
 
-Los encargados de los equipos o los miembros del equipo crean directamente los *enlaces* a través de la misma si se habilita la transferencia local para un inquilino. No son funciones de las aplicaciones de Teams; Esta información se incluye para completar.
+Los encargados del equipo o los miembros del equipo crean sobre la marcha los *enlaces* . No son funciones de las aplicaciones de Teams; Esta información se incluye para completar.
 
 ### <a name="required-permissions"></a>Permisos necesarios
 

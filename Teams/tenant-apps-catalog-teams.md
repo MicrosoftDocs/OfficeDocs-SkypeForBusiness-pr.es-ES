@@ -12,18 +12,20 @@ description: Guía para la publicación de aplicaciones en el catálogo de aplic
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
+- CSH
+ms.custom:
 - ms.teamsadmincenter.apppermspolicies.publishtenantapps
 - ms.teamsadmincenter.apppolicies.publishtenantapps
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 547461cee1b172fccf9fe021347cff36ba8a9d79
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: c1b2fb38dcca7142cad82d290b1225e69f035bae
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41708236"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836920"
 ---
 <a name="publish-apps-in-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones de inquilino de Microsoft Teams
 =======================================================

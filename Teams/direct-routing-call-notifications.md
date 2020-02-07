@@ -12,16 +12,18 @@ ms.collection:
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Notificación de llamada de enrutamiento directo
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: a031af6a7bdfedfebd6d666b717d03259d92f56c
-ms.sourcegitcommit: 1aa98e3865d5a0f7be5e1cba497dea4ac7b9c607
+ms.openlocfilehash: 3d53245d241435e869dbdbeb15dcb1c81e18ff96
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074612"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837600"
 ---
 # <a name="manage-call-notifications"></a>Administrar notificaciones perdidas
 

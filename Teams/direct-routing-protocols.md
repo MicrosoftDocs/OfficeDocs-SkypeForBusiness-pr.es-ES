@@ -12,15 +12,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: nmurav
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a470c402ebfd4e70955f4e864d45dbaaca476dfd
-ms.sourcegitcommit: 89106cfda0d900d8be541943b7d1537bc69ed57f
+ms.openlocfilehash: 7462822626b698f95b80a716a55f94dfe92148ff
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2019
-ms.locfileid: "40065630"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41835030"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>Enrutamiento directo: definiciones y estándares de RFC
 

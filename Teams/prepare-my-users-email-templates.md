@@ -11,14 +11,16 @@ audience: admin
 description: Use plantillas para enviar correos electrónicos a los usuarios a medida que implementa funcionalidades de voz en la nube en Teams o Skype empresarial.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f5793678df25f353b2400719fa8d64c3a0acd78
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: eaba4d3231438eb3eb93a1c88100eec5ca6a518c
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37567709"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41834650"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción por el usuario del nuevo sistema telefónico en línea
 
