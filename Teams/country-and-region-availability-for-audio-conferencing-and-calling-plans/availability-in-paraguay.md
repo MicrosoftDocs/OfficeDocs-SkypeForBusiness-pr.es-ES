@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Paraguay.
-ms.openlocfilehash: f0fad255f9050e6265eff48bd3eea80e4859c8e8
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 94a423f80f9cac9c615810221ae9c53e4371ac32
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694795"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852737"
 ---
 # <a name="availability-in-paraguay"></a>Disponibilidad en Paraguay
 
@@ -62,6 +62,8 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |¿Los planes de llamada están disponibles para la compra?  <br/> |No  <br/> |
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
+
+Si los planes de llamadas no están disponibles para su compra, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

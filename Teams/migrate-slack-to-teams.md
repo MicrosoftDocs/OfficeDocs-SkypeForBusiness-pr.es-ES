@@ -14,14 +14,15 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.custom: ''
+f1.keywords:
+- NOCSH
 description: Instrucciones detalladas para migrar de Slack a Microsoft Teams.
-ms.openlocfilehash: 56278359062bb7f154b5e3248c343f98c62cb916
-ms.sourcegitcommit: 0f6321d51b40f06855679c18f7313febfedd419a
+ms.openlocfilehash: 15ef6203fa2cf27d081865e3966198f033b1bd80
+ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793476"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41845221"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migración de Slack a Microsoft Teams
 
@@ -43,7 +44,7 @@ Para más información sobre las opciones de exportación de Slack, vaya al siti
 
 El siguiente diagrama muestra una visión general del panorama de migración de Slack que trataremos en este artículo. 
 
-:::image type="content" source="media/migrate-slack-to-teams-image2.png" alt-text="Diagrama en el que se muestra el panorama de exportación de Slack.":::
+![Diagrama en el que se muestra el panorama de exportación de Slack.](media/migrate-slack-to-teams-image2.png)
 
 Cuando haya terminado con esta sección, debería comprender lo siguiente:
 - El nivel de servicio de sus áreas de trabajo de Slack.
@@ -80,7 +81,7 @@ Las aplicaciones en Slack son similares a las aplicaciones en Teams. Cuando teng
 
 Vaya a <your Slack workspace>.slack.com/apps/manage para obtener una lista de aplicaciones e integraciones personalizadas. En esta página también se muestra el número de configuraciones en que se usa cada aplicación. Las integraciones personalizadas pueden variar en su "capacidad de migración". Si es un enlace web, normalmente puede enviarlo a un conector de Office 365 para cambiar el flujo de trabajo a Teams. Evalúe los bots y otras aplicaciones uno a uno para planear su migración a Teams.
 
-* Si el administrador ha restringido el uso de aplicaciones, es posible que no tenga acceso a la lista completa de aplicaciones disponibles.
+\* Si el administrador ha restringido el uso de aplicaciones, es posible que no tenga acceso a la lista completa de aplicaciones disponibles.
 
 ### <a name="users"></a>Usuarios
 Es posible que los esquemas de identidad que usaba en Slack no se asignen directamente a Office 365. Por ejemplo, es posible que las direcciones de correo electrónico de los usuarios de Slack no se asignen a cuentas profesionales o educativas de Office 365. Debería crear un mapa de asignación de ID. y usuarios antes de empezar a planear su implementación de Teams.

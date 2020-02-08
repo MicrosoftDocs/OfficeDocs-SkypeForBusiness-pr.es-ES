@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd2c2918b2b65e33f1fa4afc7bfb61a28abb08e6
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e07ec04ba567963662d7f83bdba3fe9f788abd9e
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837040"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862840"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 
@@ -48,7 +48,6 @@ Si es una pequeña empresa, puede usar estas instrucciones de introducción para
 
 Antes de empezar, deberá planificar la implementación de Teams revisando los siguientes elementos:
 
-- [Comprobación de la preparación del entorno para Teams](environment-readiness.md)
 - [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
 - [Obtener información sobre las ventajas de instalar los clientes de escritorio, web y móvil](get-clients.md)
 

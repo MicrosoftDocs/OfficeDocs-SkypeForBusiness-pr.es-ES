@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Pakistán.
-ms.openlocfilehash: bf0c3eca9d440ac5967875d83b9fe4f75b1f3313
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: f621798c3ae7f32df2e6b9a5fa86c75642de4b8f
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41694825"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852939"
 ---
 # <a name="availability-in-pakistan"></a>Disponibilidad en Pakistán
 
@@ -62,6 +62,8 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |¿Los planes de llamada están disponibles para la compra?  <br/> |No  <br/> |
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
+
+Si los planes de llamadas no están disponibles para su compra, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

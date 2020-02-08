@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para la Dominica.
-ms.openlocfilehash: 3c33e6e9fc6e5d0eed0a05df08a2bfaf06d16083
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 8d84eff275f65dde3ea9f27c45f15e3299e8e7ee
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683953"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41853595"
 ---
 # <a name="availability-in-dominica"></a>Disponibilidad de Dominica
 
@@ -63,6 +63,8 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |¿Los planes de llamada están disponibles para la compra?  <br/> | No <br/> |
 |Minutos disponibles para Planes de llamada  <br/> | No aplicable<br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
+
+Si los planes de llamadas no están disponibles para su compra, considere la posibilidad de usar el [enrutamiento directo del sistema telefónico](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

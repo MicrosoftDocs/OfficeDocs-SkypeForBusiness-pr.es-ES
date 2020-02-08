@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener información sobre la implementación de salas de Microsoft Teams.
-ms.openlocfilehash: 3cc8df810989163b622a96dc5f16c8aa883447cd
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 650302d6d952a59c1cc460e2cdf8758cfb0fcd41
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825968"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863351"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -45,7 +45,7 @@ Puede obtener más información sobre estas dependencias en los vínculos de la 
 -   [Certificados](rooms-prep.md#certificates)
 -   [Proxy](rooms-prep.md#proxy)
 
-**Sugerencia** : Si tiene previsto usar servidores proxy para proporcionar acceso a Microsoft Teams o a Skype empresarial online, primero [revise este artículo](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Tenga en cuenta que cuando se trata de tráfico de Skype empresarial por servidores proxy, se recomienda omitir los servidores proxy por completo. El tráfico de Skype empresarial ya está cifrado, por lo que los servidores proxy no lo hacen más seguro. Como parte de su implementación más amplia, le recomendamos que siga las instrucciones de [evaluar mi entorno](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) para planear el ancho de banda y evaluar la idoneidad de su red para el tráfico en tiempo real.
+**Sugerencia** : Si tiene previsto usar servidores proxy para proporcionar acceso a teams o a Skype empresarial online, primero [revise este artículo](../proxy-servers-for-skype-for-business-online.md). Tenga en cuenta que cuando se trata de tráfico de Skype empresarial por servidores proxy, se recomienda omitir los servidores proxy por completo. El tráfico de Skype empresarial ya está cifrado, por lo que los servidores proxy no lo hacen más seguro. Como parte de su implementación más amplia, le recomendamos que siga las instrucciones de [preparar la red para Teams](../prepare-network.md) para planear el ancho de banda y evaluar la idoneidad de su red para el tráfico en tiempo real.
 
 |    |     |
 |-----------|------------|

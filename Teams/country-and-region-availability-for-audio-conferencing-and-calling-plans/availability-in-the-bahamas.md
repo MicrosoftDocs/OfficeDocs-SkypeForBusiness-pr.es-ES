@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para las Bahamas.
-ms.openlocfilehash: f7737dc9409f44629b45ae1a181846f85972ed0d
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: e29521e5af41fae97570f4f66baf134952a5ce49
+ms.sourcegitcommit: eb2182617d8f72f8a7ea95f7af101d10c6f4e9a0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41683523"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41852337"
 ---
 # <a name="availability-in-the-bahamas"></a>Disponibilidad en las Bahamas
 
@@ -61,6 +61,8 @@ Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams d
 |¿Los planes de llamada están disponibles para la compra?  <br/> |No  <br/> |
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
+
+Si los planes de llamadas no están disponibles para la compra, considere la posibilidad de usar el [enrutamiento directo](../direct-routing-landing-page.md). Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números de pago y gratuitos para servicios
 

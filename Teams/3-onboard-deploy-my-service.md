@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65a9c79dd29656b7bdc8563f0444d90133399f2b
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 86e9fd1b26bebd120136c3c33abf0a44ffa03e0d
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825178"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862820"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 
@@ -44,7 +44,7 @@ Al completar las actividades de esta guía, su organización puede:
 -   Reduzca las necesidades de soporte técnico y aumente la satisfacción del usuario.
 
 > [!NOTE]
-> Este artículo y la guía relacionada no se destinan a describir todos los pasos de configuración técnica necesarios para la habilitación del servicio o el suministro de tono de marcado a un sitio específico. En su lugar, se concentran en actividades y tareas recomendadas para los usuarios que se incorporan fácilmente y que les permiten comenzar a consumir cargas de trabajo de voz a través de una transición rápida y fluida con una tasa de adopción elevada, a la vez que minimizan los requisitos de soporte técnico. Para obtener instrucciones técnicas sobre cómo configurar mejor su entorno para la voz de Teams, vea las listas de comprobación de la incorporación para [configurar las cargas de trabajo de voz de Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), configurar el [enrutamiento directo en Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), las [funciones principales](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)de Teams, las funciones [de red para Teams](onboarding-checklist-configure-networking.md)y [Habilitar Office 365](onboarding-checklist-enable-office-365.md).
+> Este artículo y la guía relacionada no se destinan a describir todos los pasos de configuración técnica necesarios para la habilitación del servicio o el suministro de tono de marcado a un sitio específico. En su lugar, se concentran en actividades y tareas recomendadas para los usuarios que se incorporan fácilmente y que les permiten comenzar a consumir cargas de trabajo de voz a través de una transición rápida y fluida con una tasa de adopción elevada, a la vez que minimizan los requisitos de soporte técnico. Para obtener instrucciones técnicas sobre cómo configurar mejor su entorno para la voz de Teams, vea las listas de comprobación de la incorporación para [configurar las cargas de trabajo de voz de Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md), configurar el [enrutamiento directo en Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md), las [funciones principales](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)de Teams, las funciones [de red para Teams](prepare-network.md)y [Habilitar Office 365](onboarding-checklist-enable-office-365.md).
 
 <!--ENDOFSECTION-->
 

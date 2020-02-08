@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cd5bf036a3f613fff4af5cd97044bf8beebe7fa
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 74b5679805b325250a1c29e01a436738747dc49f
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824848"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862850"
 ---
 # <a name="microsoft-365-business-voice-partner-resources"></a>Recursos para socios de voz de Microsoft 365 Business
 
@@ -34,9 +34,9 @@ Este artículo es una breve oferta de recursos para el personal técnico y de so
 
 - [Orientación práctica de Teams](../cloud-voice-landing-page.md)
 - [Evaluación previa y planificación](../3-envision-evaluate-my-environment.md)
-- [Deployment](../3-onboard-deploy-my-service.md)
-- [Operación](../1-drive-value-operate-my-service.md)
-- [Soporte técnico](../envision-planning-for-service-management-and-quality-complete-guide.md#plan-for-service-management)
+- [Implementar](../3-onboard-deploy-my-service.md)
+- [Actua](../1-drive-value-operate-my-service.md)
+- [Soporte técnico](../prepare-network.md)
 - [Solución de problemas](../connectivity-issues.md)
 - [Planes de asistencia al socio](https://partner.microsoft.com/support/partnersupport)
 - [Guía del proveedor de servicios de Teams](https://aka.ms/teamsserviceproviderguide)

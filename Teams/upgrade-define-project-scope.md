@@ -10,22 +10,24 @@ ms.reviewer: dearbeen
 description: Definir el ámbito de su proyecto de actualización refinando la visión y los objetivos.
 localization_priority: Normal
 search.appverid: MET150
+f1.keywords:
+- CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8f1fb718ae254f3239153acd5664c4e1709de40
-ms.sourcegitcommit: e1c8a62577229daf42f1a7bcfba268a9001bb791
+ms.openlocfilehash: 13da1a583d5aa0abaad4e981e5fc68d3aa913ce9
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36236477"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837250"
 ---
-![Diagrama de viaje de actualización, resaltado de la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Etapas del viaje de actualización, con énfasis en la fase de definición del proyecto")
+![Diagrama de viaje de actualización, resaltado de la fase de definición del proyecto](media/upgrade-banner-project-definition.png "Fases del itinerario de la actualización, con énfasis en la fase de definición del proyecto")
 
-Este artículo forma parte de la etapa de definición de proyecto del viaje de actualización, una actividad completada después de crear un Coalition de patrocinio y un equipo de proyecto de las partes que identificó son fundamentales para el éxito del proyecto. Antes de continuar, confirme que ha completado las siguientes actividades:
+Este artículo forma parte de la etapa de definición de proyecto del viaje de actualización, una actividad completada después de crear un Coalition de patrocinio y un equipo de proyecto de las partes que identificó son fundamentales para el éxito del proyecto. Antes de continuar, confirme que ha completado las actividades siguientes:
 
 - [Participantes inlistados en el proyecto](upgrade-enlist-stakeholders.md)
 
@@ -35,8 +37,8 @@ Tomarse el tiempo para definir la visión, el ámbito, los objetivos y el gobier
 
 | | |
 |---|---|
-| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué desea hacer con este proyecto (en otras palabras, ¿por qué lo está haciendo)?</li><li>¿Qué aspecto tiene el éxito?</li><li>¿Cuáles son los riesgos y cuál es su plan para mitigar esos riesgos?</li></ul> |
-| ![Un icono que muestra los pasos siguientes](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comente las siguientes secciones con el equipo del proyecto y los patrocinadores.</li><li>Documente su visión, alcance, metas y riesgos para este proyecto.</li><li>Vuelva a visitar el equipo del proyecto para validar que ha contratado el equipo adecuado.</li></ul>|
+| ![Un icono que representa los puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué desea hacer con este proyecto (en otras palabras, ¿por qué lo está haciendo)?</li><li>¿Qué aspecto tiene el éxito?</li><li>¿Cuáles son los riesgos y cuál es su plan para mitigar esos riesgos?</li></ul> |
+| ![Un icono que representa los siguientes pasos](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comente las siguientes secciones con el equipo del proyecto y los patrocinadores.</li><li>Documente su visión, alcance, metas y riesgos para este proyecto.</li><li>Vuelva a visitar el equipo del proyecto para validar que ha contratado el equipo adecuado.</li></ul>|
 
 ## <a name="project-vision"></a>Visión del proyecto
 
@@ -62,7 +64,7 @@ Considere los siguientes puntos de discusión para ayudarle a afinar su visión:
 
 Es posible que su visión solo se pueda realizar a lo largo del tiempo, a través de varias fases. El ámbito del proyecto define el foco de su proyecto _en este momento_ y sirve para mantener el equipo del proyecto centrado en sus tareas actuales, permitiéndole realizar su visión a largo plazo. Por ejemplo, su ámbito puede que le llame para ejecutar una prueba piloto, implementar una carga de trabajo específica como voz o reuniones, o habilitar equipos junto a Skype empresarial, a medida que planea la actualización a lo largo del tiempo. Como parte del ámbito del proyecto, debe evaluar:
 
-- [Los distintos modos](https://aka.ms/SkypeToTeams-Coexist)de coexistencia y cuáles serían óptimos para su organización.
+- [Los distintos modos de coexistencia](https://aka.ms/SkypeToTeams-Coexist)y cuáles serían óptimos para su organización.
 - La mejor manera de que Skype empresarial y los equipos coexistan antes de pasar a teams.
 - Si debe realizar una [prueba piloto](https://aka.ms/SkypeToTeams-Pilot) para validar la disponibilidad técnica y de usuario de su organización.
 

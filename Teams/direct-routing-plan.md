@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Lea este tema para obtener información sobre cómo el enrutamiento directo de Microsoft Phone System le permite conectar un controlador de borde de sesión compatible suministrado por el cliente (SBC) a Microsoft Phone System.
-ms.openlocfilehash: f1d6c914a2ed95a073fdf900628ad96fa10b7428
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4e6e26f0beaa74806ebc52ca31c007f5ec085fdc
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835150"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863181"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -249,17 +249,15 @@ Necesitas abrir puertos para todas estas direcciones IP en tu firewall para perm
 
 ## <a name="sip-signaling-ports"></a>Señalización SIP: puertos
 
-Los requisitos de puerto son los mismos para todos los entornos de Office 365 donde se ofrece enrutamiento directo:
+Debe usar los siguientes puertos para los entornos de Office 365 donde se ofrece un enrutamiento directo:
 - Office 365
 - Office 365 GCC
 - Office 365 GCC High
 - Office 365 DoD
 
-Debe usar los siguientes puertos:
-
 |**Transmisión**|**De**|**Hasta**|**Puerto de origen**|**Puerto de destino**|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|Proxy SIP|SBC|1024 – 65535|Definido en la SBC|
+|SIP/TLS|Proxy SIP|SBC|1024 – 65535 (para Office 365 GCC High/DoD solo se deben usar los puertos 5061 y 5062)|Definido en la SBC|
 SIP/TLS|SBC|Proxy SIP|Definido en la SBC|5061|
 ||||||
 

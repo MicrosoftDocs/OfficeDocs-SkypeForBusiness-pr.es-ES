@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c44d1b35c19abb224f40bf71c81c61b91967c182
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 1268a87e5e5ae48547e1f2489641ac13cd3bae64
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41825158"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862720"
 ---
 # <a name="plan-my-service-management"></a>Planificar la administración de mis servicios
 
@@ -36,7 +36,7 @@ La administración de servicios es un tema muy amplio que cubre las operaciones 
 Seguramente, el concepto de "administración de servicios" no es nuevo para la mayoría de organizaciones. Probablemente ya ha implementado procesos y tareas asociados a los servicios que ya ofrece. De este modo, es posible que baste con aumentar lo que ya tiene cuando planifique la administración de servicios que respaldarán a Microsoft Teams más adelante.
 
 En la administración de servicios se incluyen todas las actividades y procesos que se ven implicados en la administración de Microsoft Teams de un extremo a otro. Algunos de los componentes de la administración de servicios (los componentes de infraestructura de los que consta el mismo servicio de Office 365) son responsabilidad de Microsoft, mientras que el cliente debe responder ante sus clientes de la administración de diversos aspectos de Teams, la red y los puntos de conexión que se ofrecen.
-Para ver una descripción completa de la responsabilidad del cliente en la administración de servicios de Teams y cómo esto se relaciona con los componentes clave que respaldan la calidad de la experiencia del usuario, consulte [Plan para la calidad y la administración de servicios](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
+Para ver una descripción completa de la responsabilidad del cliente en la administración de servicios de Teams y cómo esto se relaciona con los componentes clave que respaldan la calidad de la experiencia del usuario, consulte [Plan para la calidad y la administración de servicios](https://docs.microsoft.com/MicrosoftTeams/prepare-network).
 
 ![Diagrama de los tres componentes de calidad](media/plan-my-service-management-image1.png "Diagrama de los tres componentes de calidad--Office 365, servicio, red y puntos de conexión, y cómo la administración de servicios se superpone a los tres.")
 

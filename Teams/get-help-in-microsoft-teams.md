@@ -12,15 +12,17 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: karuanag
 search.appverid: MET150
+f1.keywords:
+- NOCSH
 description: Descubra todas las formas de obtener ayuda en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1e552ad73bbea9ce35a27fb1c797b03580311d6
-ms.sourcegitcommit: 0dcd078947a455a388729fd50c7a939dd93b0b61
+ms.openlocfilehash: 37203cb0dc875f7fdbefe62752bff006edf7fb31
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37565294"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836830"
 ---
 <a name="get-help-in-microsoft-teams"></a>Obtener ayuda en Microsoft Teams
 ============================================

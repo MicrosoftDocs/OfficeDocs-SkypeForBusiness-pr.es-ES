@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c5287db10067ad26feac8b3074de97a977646cf
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 82b9418f2e87550667cbc163f8f37a0989ec2b30
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837100"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863441"
 ---
 ![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
@@ -43,5 +43,5 @@ Complete estas actividades en paralelo con la preparación de la preparación de
 - [Prepare su personal de ti](upgrade-prepare-IT-pros.md) para asegurarse de que tienen lo que necesitan para que el viaje de actualización se realice correctamente.
 - Compruebe que su entorno cumple con todos los [requisitos previos](upgrade-plan-journey-prerequisites.md)y comprenda las dependencias entre los servicios y equipos de Office 365.
 - [Evalúe el entorno](upgrade-plan-journey-evaluate-environment.md) mediante el descubrimiento ambiental con un cuestionario de ejemplo para confirmar que la disponibilidad de la organización lleva a cabo un viaje correcto de actualización a teams.
-- [Prepare su red mediante la](upgrade-prepare-environment-prepare-network.md) planeación, la preparación y la realización de los pasos de corrección necesarios para que la red admita las cargas de trabajo de Teams.
+- [Prepare su red mediante la](prepare-network.md) planeación, la preparación y la realización de los pasos de corrección necesarios para que la red admita las cargas de trabajo de Teams.
 - [Prepare su servicio](upgrade-prepare-environment-prepare-service.md) para el despliegue mediante listas de comprobación de incorporación para asegurarse de que la configuración de equipos está lista para permitir la migración de los usuarios de Skype empresarial a teams.

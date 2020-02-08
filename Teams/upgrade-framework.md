@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d403a97b5c9a7320834d6c78f78cafa28d54116a
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 42b4efcd2e9b38aebb7f44d3aa09d7be1ca634f3
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837190"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863531"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
@@ -68,7 +68,7 @@ Para ayudar a demostrar cómo puede desdoblar su viaje de actualización, hemos 
 | Paso |  | Resumen | Recursos |
 |------|--|---------|----------|
 | **1** | **Evaluar su entorno y completar la incorporación técnica de equipos** | Asegúrese de que su entorno está listo para que los equipos ayuden a optimizar la experiencia del usuario y a facilitar la actualización a lo largo del tiempo. | [Evalúe su entorno antes de actualizar a teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Preparar el servicio para la actualización a teams](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **Optimizar la red para equipos, especialmente para escenarios de medios en tiempo real** | Si va a implementar audio, vídeo o reuniones, lleve a cabo estos pasos adicionales para optimizar su red para esa funcionalidad. | [Preparar la red para actualizar a teams](upgrade-prepare-environment-prepare-network.md) |
+| **2** | **Optimizar la red para equipos, especialmente para escenarios de medios en tiempo real** | Si va a implementar audio, vídeo o reuniones, lleve a cabo estos pasos adicionales para optimizar su red para esa funcionalidad. | [Preparar la red para actualizar a teams](prepare-network.md) |
 | **3** | **Evaluar la preparación de los cambios organizativos y definir escenarios de trabajo en equipo** | Comprender la base de usuarios para preparar la mensajería de valor adecuado y el nivel de educación para facilitar y acelerar la adopción de usuarios. | [Preparación de los cambios de organización](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **Preparar un plan de preparación de usuarios para definir cómo se comunicarán, entrenarán y proporcionarán soporte técnico a los usuarios** | Personalice su plan de comunicaciones, aprendizaje y soporte para garantizar la accesibilidad óptima a la nueva tecnología. | [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)<br><br>[Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **Anunciar el lanzamiento pendiente de Microsoft Teams** | Comunícate pronto para ayudar a los usuarios a incluir, reducir la confusión y generar entusiasmo. | [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |

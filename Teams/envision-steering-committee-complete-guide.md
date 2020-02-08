@@ -15,12 +15,12 @@ localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4ab037b416ab7a197f15729c73d8c1b9e107e50
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 4338e2b6b169fa6f8fc46ae116f3d297096543f7
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41832800"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862991"
 ---
 # <a name="steering-committee"></a>Comité Director
 
@@ -127,7 +127,7 @@ Los siguientes activos deben completarse e incluirse en la presentación para la
 
         -   Identifique los pasos siguientes y qué ayuda podrían requerir los miembros de la Comisión.
 
--   Descripción general de la calidad: usar informes del [experto de calidad](envision-planning-for-service-management-and-quality-complete-guide.md#the-quality-champion-role)
+-   Descripción general de la calidad: use [la guía para preparar su red para equipos](prepare-network.md).
 
     -   Prepárese para explicar los resultados de los informes de calidad en profundidad, así como las recomendaciones para corregir cualquier problema que se tenga en cuenta.
 

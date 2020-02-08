@@ -1,7 +1,7 @@
 ---
 title: Implementar Calidad de servicio en clientes de Microsoft Teams
-author: jambirk
-ms.author: jambirk
+author: lolajacobsen
+ms.author: lolaj
 manager: Serdars
 ms.date: 2/17/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43a4c7ea45fe0feabbe8851cde944a70994829da
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6fb3823a77995e401be7e60e86603f9d8c56099f
+ms.sourcegitcommit: 2511cd95a186d95f4571afa4212f8e0fc207817d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836490"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41863161"
 ---
 # <a name="set-qos-on-windows-clients"></a>Configurar QoS en clientes de Windows
 
