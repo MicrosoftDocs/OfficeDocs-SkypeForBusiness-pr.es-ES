@@ -480,7 +480,6 @@
 ### [Preparar al personal de TI para Teams](upgrade-prepare-IT-pros.md)
 ### [Requisitos previos](upgrade-plan-journey-prerequisites.md)
 ### [Evaluar el entorno](upgrade-plan-journey-evaluate-environment.md) 
-### [Preparar la red](upgrade-prepare-environment-prepare-network.md)
 ### [Preparar los servicios](upgrade-prepare-environment-prepare-service.md)
 
 ## Prepare a su organización para Teams
@@ -673,7 +672,6 @@
 # Referencia
 
 ## Prepararse para implementar Teams
-### [Comprobar la preparación del entorno para Teams](environment-readiness.md).
 ### [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
 ### [Usar el Asesor de Teams para implementar Teams](use-advisor-teams-roll-out.md)
 ### [ Usar Network Planner para Teams ](network-planner.md)
