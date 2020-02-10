@@ -10,16 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Priority
 description: Los usuarios de Office 365 que no tienen una licencia de Microsoft Teams pueden activar una licencia exploratoria de Teams.
+f1.keywords:
+- NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6777dfbafac89c798955245b93f1e4537093b0cf
-ms.sourcegitcommit: 96d98e145ff300833d827a7d43b4e4b0331b7538
+ms.openlocfilehash: 7aa3969d3943598c8e5657e1fcb94730179f57fe
+ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871795"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41837690"
 ---
 <a name="manage-the-microsoft-teams-exploratory-license"></a>Administrar la licencia de Microsoft Teams Exploratory
 =======================================================
@@ -79,15 +81,16 @@ Los administradores pueden desactivar la opción de que los usuarios finales eje
 
 Puede desactivar la capacidad de un usuario para instalar aplicaciones y servicios de prueba, lo que impediría al usuario ejecutar la experiencia de Teams Exploratory.
 
-1. Desde el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), vaya a **Configuración** > **Servicios y complementos** > **Aplicaciones y servicios en propiedad del usuario**.
+1. Desde el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), vaya a **Configuración** > **Configuración**, seleccione **Servicios** y **Aplicaciones y servicios en propiedad del usuario**.
 
-    ![Captura de pantalla de la página Servicios y complementos en el Centro de administración.](media/iw-trial-enable-1.png)
+    ![Captura de pantalla de la página Servicios en el centro de administración.](media/iw-trial-services.png)
 
-2. Desactive **Permitir a los usuarios instalar servicios y aplicaciones de prueba**.
+2. Desactive la casilla **Permitir que los usuarios instalen aplicaciones y servicios de prueba**.
 
-    ![Captura de pantalla de la página Aplicaciones y servicios en propiedad del usuario en el Centro de administración.](media/iw-trial-enable-2.png)
-> [!NOTE]
-> Si su organización no es apta para la experiencia de Teams Exploratory, no verá el conmutador **Dejar que los usuarios instalen aplicaciones y servicios de prueba**. 
+    ![Captura de pantalla de la página Aplicaciones y servicios en propiedad del usuario en el centro de administración.](media/iw-trial-user-owned-apps-services.png)
+
+    > [!NOTE]
+    > Si su organización no es apta para la experiencia de Teams Exploratory, no verá la opción **Dejar que los usuarios instalen aplicaciones y servicios de prueba**. 
 
 ### <a name="manage-availability-for-a-user-with-a-license-that-includes-teams"></a>Administrar la disponibilidad de un usuario con una licencia que incluye Teams
 
@@ -118,10 +121,9 @@ Desactivar la licencia de la experiencia Teams Exploratory:
 3. En la parte derecha, en la fila **Licencias de producto**, elija **Editar**.
 
 4. En el panel de **licencias de producto**, cambie el botón de alternancia para la licencia exploratoria a** Desactivado**.
-
-    
->[!Note]
->El botón de alternancia de Teams Exploratory aparecerá después de que el primer usuario de la organización inicie la experiencia de Teams Exploratory.
+   
+    >[!Note]
+    >El botón de alternancia de Teams Exploratory aparecerá después de que el primer usuario de la organización inicie la experiencia de Teams Exploratory.
 
 ### <a name="manage-teams-for-users-who-have-the-teams-exploratory-license"></a>Administrar Teams para los usuarios que dispongan de la licencia de Teams Exploratory
 
