@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: Lea este tema para obtener información sobre cómo implementar salas de Microsoft Teams con Office 365.
-ms.openlocfilehash: d3fcfdd0b2aabc5d69946ba60b5b8c6fbc73f713
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 39a703b844df1a1ff487187772ff8eb8ea035191
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827448"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888759"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Implementar Salas de Microsoft Teams con Office 365
 
@@ -36,7 +36,7 @@ Para habilitar Skype empresarial, debe disponer de lo siguiente:
 
 - Skype empresarial online (plan 2 o un plan basado en la empresa) o superior en el plan 365 de Office. El plan debe permitir las capacidades de conferencia de acceso telefónico local.
 
-- Si necesita capacidades de acceso telefónico desde una reunión, necesitará una licencia de audioconferencia y sistema telefónico.  Si necesita poder llamar desde una reunión, necesitará un plan de llamadas nacionales o nacionales e internacionales.
+- Si necesita capacidades de acceso telefónico desde una reunión, necesitará una licencia de audioconferencia y sistema telefónico.  Si necesita capacidades de llamada saliente de una reunión, necesitará una licencia de audioconferencia.
 
 - Los usuarios de inquilinos deben tener buzones de Exchange.
 

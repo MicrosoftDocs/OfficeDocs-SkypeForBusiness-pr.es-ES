@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Descubra qué necesita para migrar al enrutamiento directo en la configuración de Skype Empresarial Online y Teams.
-ms.openlocfilehash: 85b53bf33cd8f9015ea9294876a06da3532ad085
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: fa7a3e09d4f79328545bff29b2f440ba0bfe6990
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836060"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888589"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar a enrutamiento directo
 
@@ -31,7 +31,7 @@ Este artículo describe qué necesita para migrar al enrutamiento directo en la 
 - Sistema telefónico de Office 365 con una conectividad RTC local en Skype Empresarial Server (para Skype Empresarial Online)  
 - Sistema telefónico de Office 365 con una conectividad RTC local con la Edición de conector de nube (para Skype Empresarial Online)
 
-  
+
 Además de estos pasos de configuración, también debe configurar el controlador de borde de sesión (SBC) para redirigir las llamadas a la nueva ruta. Sin embargo, esto se escapa al ámbito de este documento. Si desea más información sobre este tema, consulte la documentación de su proveedor SBC.  
 
 ## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Estado final del aprovisionamiento de usuarios para varias opciones de conectividad RTC 
@@ -55,7 +55,7 @@ OnPremLineURI |N/D|El número de teléfono debe estar sincronizado desde el AD l
 |TeamsCallingPolicy</br>AllowGroupCalling|True|N/D|N/D|True|
 ||||||
 
-<sup>1</sup>Elegir el modo adecuado de TeamsUpgradePolicy depende del contexto. Lea cómo cambia la experiencia de voz en los diferentes modos en [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md).
+<sup>1</sup> la elección del modo adecuado de la TeamsUpgradePolicy depende del escenario. Lea cómo cambia la experiencia de voz en los diferentes modos en [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md).
 
 En este sentido, Microsoft actualizó recientemente el «Centro de administración de Microsoft Teams» (también conocido como Portal Moderno) para reflejar el nuevo modelo de administración según los modos de coexistencia. En Portal Moderno, la configuración de TeamsUpgradePolicy ahora también establecerá automáticamente TeamsInteropPolicy en un valor uniforme, por lo que TeamsInteropPolicy ya no aparecerá en la interfaz de usuario. Sin embargo, los administradores que usen PowerShell deben establecer conjuntamente TeamsUpgradePolicy y TeamsInteropPolicy para asegurar el enrutamiento adecuado. Una vez completada la transición a TeamsUpgradePolicy, dejará de ser necesario establecer TeamsInteropPolicy.
 
@@ -72,7 +72,7 @@ Para obtener más información sobre cómo migrar desde los Planes de llamadas, 
  
 Se recomienda quitar la información configurada anteriormente en el plan de licencias de la siguiente manera:
  
-```
+```powershell
 $companyname = “contoso” 
 $lic1 = $companyname + “:MCOPSTN1” 
 $lic2 = $companyname + “:MCOPSTN2” 
@@ -91,6 +91,7 @@ Se recomienda quitar la información configurada anteriormente en el enrutamient
 ```PowerShell
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
+> [!NOTE]
 > Si se configura un CsVoiceRoutingPolicy global, se recomienda quitar los usos de RTC asociados a esta directiva global. 
 
 ## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migrar desde el Sistema telefónico de Office 365 con una conectividad RTC local mediante la edición de conector en la nube 
@@ -109,7 +110,7 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 ```
 
 
-## <a name="related-links"></a>VÍNCULOS RELACIONADOS
+## <a name="related-links"></a>Vínculos relacionados
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md)
 

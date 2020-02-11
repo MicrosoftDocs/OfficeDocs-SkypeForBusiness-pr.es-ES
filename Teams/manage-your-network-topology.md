@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo configurar las opciones de red para las características de voz en la nube en Microsoft Teams.
-ms.openlocfilehash: d192fdd03f38b3e9c7fb0832d3a84bf464af0665
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 2f615de14cb38c24a1789b968e7c77e38698e26d
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837500"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888709"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Administrar la topología de red para las características de voz en la nube en Microsoft Teams
 
@@ -104,11 +104,14 @@ Use el cmdlet [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/mo
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
+
 En este ejemplo, creamos dos nuevos sitios de red, Delhi y Hyderabad, en la región de India.
+
 ```PowerShell
 New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
+
 En la tabla siguiente se muestran los sitios de red definidos en este ejemplo.
 
 ||Sitio 1 |Sitio 2 |
@@ -131,8 +134,8 @@ En este ejemplo, creamos una asociación entre la subred 192.168.0.0 y el sitio 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID "192.168.0.0" -MaskBits "24" -NetworkSiteID "Delhi"
 New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskBits "120" -NetworkSiteID "Hyderabad"
-
 ```
+
 En la tabla siguiente se muestran las subredes definidas en este ejemplo.
 
 ||Sitio 1 |Sitio 2 |
@@ -142,11 +145,14 @@ En la tabla siguiente se muestran las subredes definidas en este ejemplo.
 |IDENTIFICADOR de sitio  | Sitio (Delhi) | Sitio 2 (Hyderabad) |
 
 En el caso de varias subredes, puede importar un archivo CSV con una secuencia de comandos como la siguiente.
+
 ```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.SubnetID-MaskBits $_.Mask -NetworkSiteID $_.SiteID}  
 ```
+
 En este ejemplo, el archivo CSV tiene un aspecto similar a este:
-```output
+
+```console
 Identity, Mask, SiteID
 172.11.12.0, 24, Redmond
 172.11.13.0, 24, Chicago
@@ -159,10 +165,13 @@ Consulte también [set-CsTenantNetworkSubnet](hhttps://docs.microsoft.com/powers
 ### <a name="define-external-subnets-external-trusted-ip-addresses"></a>Definir subredes externas (direcciones IP externas de confianza)
 
 Use el cmdlet [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) para definir subredes externas y asignarlas al inquilino. Puede definir un número ilimitado de subredes externas para un inquilino.
+
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
+
 Por ejemplo:
+
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  
 ```

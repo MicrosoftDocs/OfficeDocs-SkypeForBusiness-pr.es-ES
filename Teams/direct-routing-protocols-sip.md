@@ -17,12 +17,12 @@ f1.keywords:
 description: Protocolos de enrutamiento directo
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5fc90ace7a2b1bd8a6984c7268903a1a6063e137
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 6b93ea469a1a27e796b5cc2016fd63c9cfd3acdd
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41835040"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888569"
 ---
 # <a name="direct-routing---sip-protocol"></a>Enrutamiento directo: protocolo SIP
 
@@ -92,7 +92,7 @@ Para todas las llamadas entrantes, el URI de solicitud se usa para hacer coincid
 
 Por el momento, el número de teléfono debe contener un signo más (+), tal como se muestra en el siguiente ejemplo. 
 
-```
+```console
 INVITE sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0
 ```
 
@@ -204,7 +204,7 @@ El proxy SIP selecciona el método en función de las capacidades notificadas po
 
 El siguiente es un ejemplo de un SBC que envía el mensaje de que el método refer es compatible:
 
-```
+```console
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
@@ -212,7 +212,7 @@ Si el SBC no indica que se refiere como un método admitido, el enrutamiento dir
 
 Ejemplo de SBC que indica que no se admite el método refer:
 
-```
+```console
 ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 ```
 
@@ -292,7 +292,7 @@ Si se envía, la información del historial se habilita de la siguiente manera:
 
 A continuación se encuentra el formato del encabezado info-info enviado por el proxy SIP:
 
-```
+```console
 <sip:UserB@sip.pstnhub.microsoft.com?Privacy=history&Reason=SIP%3B\cause%3D486>;index=1.2,
 ```
 
@@ -301,7 +301,7 @@ Si la llamada se redirigió varias veces, la información sobre cada redirecció
 
 Ejemplo de encabezado:
 
-```
+```console
 History-info: 
 <sip:+14257123456@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=302;text=”Move Temporarily”>;index=1
 <sip:+14257123457@sip.pstnhub.microsoft.com;user=phone?Reason=SIP;cause=496;text=”User Busy”>;index=1.1

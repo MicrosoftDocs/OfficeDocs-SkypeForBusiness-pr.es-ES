@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: 22cb8e289cd78d1736bb594280c6ebfc248c02a0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 86406af88648d367f02fd420c9ba278bdfd47185
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836090"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888599"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -49,9 +49,9 @@ Puede configurar el sistema de Microsoft Phone y permitir que los usuarios usen 
 
 Estos son los tres pasos de alto nivel que permiten conectar, o emparejar, la SBC a la interfaz de enrutamiento directo: 
 
-- Conectarse al centro **de administración de Skype empresarial online** con PowerShell 
-- Emparejar la SBC 
-- Validar el emparejamiento 
+1. Conectarse al centro **de administración de Skype empresarial online** con PowerShell 
+2. Emparejar la SBC 
+3. Validar el emparejamiento 
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Conectarse a Skype empresarial online con PowerShell 
 
@@ -204,16 +204,16 @@ Para agregar el número de teléfono y habilitar el buzón de voz:
     Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true -OnPremLineURI tel:<E.164 phone number>
     ```
 
-Por ejemplo, para añadir un número de teléfono para el usuario "Spencer Low", tendría que escribir lo siguiente: 
+    Por ejemplo, para añadir un número de teléfono para el usuario "Spencer Low", tendría que escribir lo siguiente: 
 
-```PowerShell
-Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
-```
+    ```PowerShell
+    Set-CsUser -Identity "Spencer Low" -OnPremLineURI tel:+14255388797 -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
+    ```
 
-El número de teléfono usado debe configurarse como un número de teléfono E. 164 completo con prefijo internacional. 
+    El número de teléfono usado debe configurarse como un número de teléfono E. 164 completo con prefijo internacional. 
 
-  > [!NOTE]
-  > Si el número de teléfono del usuario se administra localmente, use el shell local de administración de Skype empresarial o el panel de control para configurar el número de teléfono del usuario. 
+      > [!NOTE]
+      > Si el número de teléfono del usuario se administra localmente, use el shell local de administración de Skype empresarial o el panel de control para configurar el número de teléfono del usuario. 
 
 ### <a name="configure-voice-routing"></a>Configurar el enrutamiento de voz 
 
@@ -286,7 +286,7 @@ Valide que el uso se haya creado especificando:
 Get-CSOnlinePSTNUsage
 ``` 
 Que devuelve una lista de los nombres que se pueden truncar:
-```output
+```console
 Identity    : Global
 Usage       : {testusage, US and Canada, International, karlUsage. . .}
 ```
@@ -487,28 +487,28 @@ Name                      : International
 
 El uso de RTC "Redmond 1" y "Redmond" se reutiliza en esta directiva de enrutamiento de voz para mantener un control especial de las llamadas al número "+ 1 425 XXX XX XX" y "+ 1 206 XXX XX XX" como llamadas locales o locales.
 
-   ```PowerShell
-   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-   ```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
 Tome nota del orden de uso de RTC:
 
-a. Si una llamada se realiza en el número "+ 1 425 XXX XX XX" con los usos configurados como en el ejemplo siguiente, la llamada sigue el conjunto de rutas en "Estados Unidos y Canadá" y se aplica la lógica de enrutamiento especial. Es decir, la llamada se enruta usando sbc1.contoso.biz y sbc2.contoso.biz en primer lugar y, a continuación, sbc3.contoso.biz y sbc4.contoso.biz como rutas de copia de seguridad.
+  a. Si una llamada se realiza en el número "+ 1 425 XXX XX XX" con los usos configurados como en el ejemplo siguiente, la llamada sigue el conjunto de rutas en "Estados Unidos y Canadá" y se aplica la lógica de enrutamiento especial. Es decir, la llamada se enruta usando sbc1.contoso.biz y sbc2.contoso.biz en primer lugar y, a continuación, sbc3.contoso.biz y sbc4.contoso.biz como rutas de copia de seguridad.
 
-b. Si el uso de RTC "internacional" es anterior a "Estados Unidos y Canadá", las llamadas a + 1 425 XXX XX XX se enrutan a sbc2.contoso.biz y sbc5.contoso.biz como parte de la lógica de enrutamiento. Escribe el comando:
+  b. Si el uso de RTC "internacional" es anterior a "Estados Unidos y Canadá", las llamadas a + 1 425 XXX XX XX se enrutan a sbc2.contoso.biz y sbc5.contoso.biz como parte de la lógica de enrutamiento. Escribe el comando:
 
-```PowerShell
-New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
-```
+  ```PowerShell
+  New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
+  ```
 
-Que devuelve
+Que devuelve:
 
-<pre>
-Identity              : International 
-OnlinePstnUsages : {US and Canada, International}    
-Description      :  
-RouteType             : BYOT
-</pre>
+    <pre>
+    Identity              : International 
+    OnlinePstnUsages : {US and Canada, International}    
+    Description      :  
+    RouteType             : BYOT
+    </pre>
 
 **Paso 4**: asignar la Directiva de enrutamiento de voz al usuario "John Woods" con el siguiente comando.
 

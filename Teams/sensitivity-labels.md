@@ -17,12 +17,12 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo definir y usar etiquetas de confidencialidad en Microsoft Teams.
-ms.openlocfilehash: 446bd222ce29ed627eb3229b244228665bbff6c0
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e9f007fd174027443191cd7d2dbb8f8321c7424f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838120"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888739"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Etiquetas de confidencialidad para Microsoft Teams
 
@@ -68,9 +68,9 @@ Si la creación del equipo comienza a fallar en cualquier momento durante la ver
 
 Observe que la configuración EnableMIPLabels debe establecerse en falso de la siguiente manera:
 
-```
+```console
 $setting["EnableMIPLabels"] = "False"
- ```
+```
 
 ## <a name="using-sensitivity-labels-with-teams"></a>Usar etiquetas de confidencialidad con equipos
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: 71e12447d0a6951ef787bf7c7cd82024375e11fd
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1ae56200132ab4468b6db8d490c12d11b7a6deb
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837990"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888729"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Configurar el sistema telefónico de su organización
 
@@ -116,7 +116,7 @@ Para obtener más información sobre las colas de llamadas, consulte [crear una 
 
 ## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>Paso 8: Si desea configurar un operador automático de la nube
 
-Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para obtener acceso al Departamento adecuado, a la cola de llamadas, a la persona o al operador. Puede crear un operador automático para su organización con el centro de administración de Skype empresarial.
+Los operadores automáticos permiten a los usuarios llamar a su organización y navegar por un sistema de menús para obtener acceso al Departamento adecuado, a la cola de llamadas, a la persona o al operador. Puede crear un operador automático para su organización mediante el centro de administración de Teams.
 
 Para obtener información sobre la configuración de una attendendant automática de la nube, vea [configurar un operador automático de la nube](create-a-phone-system-auto-attendant.md).
 

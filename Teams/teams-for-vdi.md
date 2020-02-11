@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e412f6f45fabda12ca01df0f50c46f3989b0afd1
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 7abe63551eee449afd507a786cd2efbf70e89afa
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41837670"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888649"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
@@ -141,7 +141,7 @@ Para obtener más información sobre los equipos y Office 365 ProPlus, consulte 
 
     - Instalación por usuario (predeterminado)
   
-        ```
+        ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name>
         ```
     
@@ -149,7 +149,7 @@ Para obtener más información sobre los equipos y Office 365 ProPlus, consulte 
     
     - Instalación por equipo
 
-        ```
+        ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1
         ```
 
@@ -165,7 +165,7 @@ Para obtener más información sobre los equipos y Office 365 ProPlus, consulte 
     
     - Línea de comandos: este enfoque quita Teams, pero impide la reinstalación de Teams. Ejecute el siguiente comando:
   
-      ```
+      ```console
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
       Esto desinstala equipos de la carpeta archivos de programa (x86) o de la carpeta archivos de programa, según el entorno del sistema operativo.

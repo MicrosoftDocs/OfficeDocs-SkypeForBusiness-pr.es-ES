@@ -1,0 +1,53 @@
+### YamlMime:Hub
+title: Documentación técnica de Microsoft Teams
+summary: Documentación técnica de Microsoft Teams
+brand: teams
+metadata:
+  title: Documentación técnica de Microsoft Teams
+  description: Documentación técnica de Microsoft Teams
+  ms.service: msteams
+  ms.topic: hub-page
+  audience: ITPro
+  author: samanro
+  ms.author: samanro
+  ms.date: 07/03/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 6c588d03d27d0f4c6641546a75e9e371b2b8c04b
+  ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
+  ms.translationtype: MT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 02/11/2020
+  ms.locfileid: "41889429"
+additionalContent:
+  sections:
+  - title: Para profesionales de ti
+    items:
+    - title: Bienvenido a Teams
+      summary: Obtenga información general sobre Teams y encuentre la orientación técnica que necesita como un administrador de equipos o un profesional de ti.
+      url: /MicrosoftTeams/teams-overview
+    - title: Actualización de Skype Empresarial a Microsoft Teams
+      summary: Encuentre orientación y herramientas para explorar su ruta de acceso óptima a teams.
+      url: /MicrosoftTeams/upgrade-start-here
+    - title: Centro de adopción
+      summary: Obtenga herramientas para el lanzamiento de su equipo.
+      url: /MicrosoftTeams/adopt-microsoft-teams-landing-page
+    - title: Buscar aprendizaje y vídeos
+      summary: 'Obtenga formación de equipos: para usted y sus usuarios.'
+      url: /MicrosoftTeams/training-microsoft-teams-landing-page
+    - title: 'Carteles: arquitectura de Teams, soluciones de telefonía'
+      summary: Obtén ilustraciones que se puede imprimir de Teams arquitectura y telefonía de ti.
+      url: /microsoftteams/teams-architecture-solutions-posters
+    - title: Expandir Teams en toda la organización
+      summary: Encuentre soluciones personalizadas para su sector, entre las que se incluyen los trabajadores de la los Firstline, el comercio minorista, la administración pública y el ámbito educativo.
+      url: /MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page
+  - title: Para otras audiencias
+    items:
+    - title: Comunidad técnica de Teams
+      summary: Únase a la comunidad tecnológica de Teams para formular preguntas y obtener respuestas, y para leer el blog de Teams.
+      url: https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams
+    - title: Ayudar de Teams para el usuario final
+      summary: Vaya a ayuda, aprendizaje y el nuevo contenido para usuarios finales.
+      url: https://support.office.com/Teams
+    - title: Plataforma para desarrolladores de Teams
+      summary: Obtenga más información sobre la plataforma para desarrolladores de equipos y sobre cómo le permite crear aplicaciones útiles y eficaces.
+      url: /microsoftteams/platform/overview

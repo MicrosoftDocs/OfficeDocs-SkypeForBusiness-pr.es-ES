@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06f2dee7e7dbc4e15d544433057a8bb12b75b7c4
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: 4b45eef7792ce9c0930c9e78249259caedb325c5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41827418"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888749"
 ---
 <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>Ejemplo de script de PowerShell: Crear un equipo y asignar una directiva de mensajería.
 -------------------------------------------------------------------------
@@ -34,7 +34,7 @@ Si es la primera vez que usa PowerShell y necesita ayuda para comenzar, consulte
 
 ## <a name="sample-script"></a>Ejemplo de script
 
-````powershell
+```powershell
 <#
 .SYNOPSIS
 This script creates a messaging policy in Teams and assigns it to users.
@@ -51,6 +51,6 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
     Grant-CsTeamsMessagingPolicy -PolicyName "<<PolicyName for a policy created with Chat Off>>" -Identity $userId
 
  }
-````
+```
 
 

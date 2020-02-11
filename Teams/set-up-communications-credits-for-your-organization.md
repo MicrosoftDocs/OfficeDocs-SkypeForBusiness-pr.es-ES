@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 426ca88cb25aad988960add812595f89eed17595
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: e1672c2d3c66690393e34b90fbeb1b2be4d54042
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41838030"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889419"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -58,9 +58,9 @@ Para obtener más información, consulte [licencias complementarias de Microsoft
 
 1. Inicie sesión en el nuevo portal de Office 365 con su cuenta profesional o educativa.
     
-2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, vaya a**** > **suscripciones**de **facturación** > agregar suscripciones.
+2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, vaya a**servicios de compra**de **facturación** > . Desplácese hacia abajo y seleccione **Complementos**.
 
-3. Expanda **suscripciones de complementos**y, a continuación, seleccione **créditos** > de comunicaciones**comprar ahora**.
+3. Seleccione **créditos de comunicaciones**.
     
 4. En la página de suscripción de **crédito de comunicaciones** , rellene la información y, a continuación, haga clic en **siguiente**:
     
@@ -93,9 +93,9 @@ Al configurar créditos de comunicaciones, tendrá que investigar el uso de las 
     
 2. En el centro de navegación izquierdo del centro de administración de Microsoft 365, **vaya a** > usuarios**activos**y, a continuación, seleccione un usuario o usuarios de la lista.
     
-3. En el panel de acciones, en **Licencias de productos**, haga clic en **Editar**.
+3. Elija **licencias y aplicaciones**.
     
-4. En la página **licencias de producto** , active la opción créditos de **comunicaciones** en **activado** para asignar esta licencia y, a continuación, haga clic en **Guardar**.
+4. Alterne **créditos de comunicaciones** en **activado** para asignar esta licencia y, a continuación, seleccione **Guardar**.
     
     > [!NOTE]
     > Aunque tenga usuarios a los que se les haya asignado una licencia de **Enterprise E5** , le recomendamos que lo haga.
