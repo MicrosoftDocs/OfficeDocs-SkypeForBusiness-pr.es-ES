@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 'Resumen: Obtenga información sobre cómo migrar la configuración de usuario y mover usuarios a Microsoft Teams.'
-ms.openlocfilehash: c719741323c0e1bc8435adf10364356d069e8774
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: af5281faffa9bd9439e045dc40f67283bb740cb5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726750"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888779"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>Mover usuarios de local a teams
 
@@ -73,11 +73,11 @@ Para mover un usuario al modo de solo Teams mediante Move-CsUser:
 
 La siguiente secuencia de cmdlet se puede usar para mover un usuario a TeamsOnly y asume que la credencial Office 365 es una cuenta independiente que se proporciona como entrada para el mensaje Get-Credential.
 
-    ```
-    $cred=Get-Credential
-    $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
-    Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
-    ```
+  ```powershell
+  $cred=Get-Credential
+  $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
+  Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -MoveToTeams -Credential $cred -HostedMigrationOverrideUrl $url
+  ```
 
 ### <a name="move-to-teams-using-skype-for-business-server-control-panel"></a>Mover a Microsoft Teams mediante el panel de control de Skype empresarial Server
 
@@ -101,14 +101,16 @@ Las herramientas de administración locales de Skype empresarial Server 2015 con
 
 Para notificar a los usuarios locales que pronto se actualizarán a Microsoft Teams, cree una nueva instancia de TeamsUpgradePolicy con NotifySfBUsers = true. A continuación, asigne la Directiva a los usuarios a los que quiera notificar, ya sea asignando la Directiva directamente al usuario o estableciendo la Directiva en el nivel global, de sitio o de grupo. Los siguientes cmdlets crean y conceden una directiva de nivel de usuario:
 
-```
+```powershell
 New-CsTeamsUpgradePolicy -Identity EnableNotifications -NotifySfbUser $true
 Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName EnableNotifications
 ```
 
 La descarga automática de equipos a través del cliente Win32 de Skype empresarial se controla a través del cmdlet TeamsUpgradeConfiguration local con el parámetro DownloadTeams. Esta configuración se crea en un nivel global, de sitio o de grupo. Por ejemplo, el siguiente comando crea la configuración para el sitio Redmond1:
 
-`New-CsTeamsUpgradeConfiguration -Identity “site:redmond1”`
+```powershell
+New-CsTeamsUpgradeConfiguration -Identity "site:redmond1"
+```
 
 De forma predeterminada, el valor de DownloadTeams es true; sin embargo, *solo* se acepta si NotifySfbUser = true para un usuario determinado.
 

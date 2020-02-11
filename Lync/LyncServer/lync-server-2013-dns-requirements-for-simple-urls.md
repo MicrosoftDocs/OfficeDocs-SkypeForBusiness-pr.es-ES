@@ -12,18 +12,18 @@ ms:contentKeyID: 48183912
 ms.date: 07/23/2014
 manager: serdars
 mtps_version: v=OCS.15
-ms.openlocfilehash: bfc827a1cd48bdc6a7a15b8ba54f7ac451d1b352
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: 2a05b5e5afc645c9219d02c8a551e4c0af9d93b0
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41737380"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888719"
 ---
 <div data-xmlns="http://www.w3.org/1999/xhtml">
 
-<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
+<div class="topic" data-xmlns="https://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="https://msdn.microsoft.com/">
 
-<div data-asp="http://msdn2.microsoft.com/asp">
+<div data-asp="https://msdn2.microsoft.com/asp">
 
 # <a name="dns-requirements-for-simple-urls-in-lync-server-2013"></a>Requisitos de DNS para direcciones URL simples en Lync Server 2013
 
@@ -182,13 +182,13 @@ Si tiene varios sitios que contienen grupos front-end y su proveedor DNS admite 
 
 Para configurar esto, cree dos direcciones de GeoDNS. Cada dirección tiene dos registros A de DNS o CNAME que se resuelven en dos grupos de servidores que funcionan juntos con fines de recuperación ante desastres. Una dirección de GeoDNS se utiliza para el acceso interno y se resuelve en el FQDN web interno o la dirección IP del equilibrador de carga para dos grupos de servidores. La otra dirección de GeoDNS se utiliza para el acceso externo y se resuelve en el FQDN web externo o la dirección IP del equilibrador de carga para dos grupos de servidores. Lo siguiente es un ejemplo de dirección URL sencilla de reunión, que utiliza los FQDN para los grupos de servidores.
 
-   ```
+   ```console
     Meet-int.geolb.contoso.com
          Pool1InternalWebFQDN.contoso.com
          Pool2InternalWebFQDN.contoso.com
    ```
 
-   ```
+   ```console
    Meet-ext.geolb.contoso.com
          Pool1ExternalWebFQDN.contoso.com
          Pool2ExternalWebFQDN.contoso.com
@@ -212,8 +212,10 @@ Puede configurar las mismas opciones para la dirección URL sencilla de acceso t
 
 Una vez que esta configuración esté definida, necesita utilizar una aplicación de supervisión para configurar la supervisión HTTP para que busque errores. Para el acceso externo, supervise para asegurarse de que HTTPS Obtenga solicitudes de descubrimiento automático para el FQDN de la web externa o la dirección IP del equilibrador de carga de los dos grupos se hayan realizado correctamente. Por ejemplo, las siguientes solicitudes no tienen que contener ningún encabezado **ACCEPT** y necesitan devolver **200 OK**.
 
+```console
     HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
     HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
+```
 
 Para el acceso interno, necesita supervisar el puerto 5061 en el FQDN web interno o la dirección IP del equilibrador de carga para los dos grupos de servidores. Si se detectan errores de conectividad, la VIP de estos grupos debe cerrar los puertos 80, 443 y 444.
 

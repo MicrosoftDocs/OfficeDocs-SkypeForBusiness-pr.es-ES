@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Instrucciones para implementar el correo de voz basado en la nube para los usuarios alojados en Skype empresarial Server.
-ms.openlocfilehash: df76051081baaae412c36acf4e73171f2ebce220
-ms.sourcegitcommit: b693d5923d6240cbb865241a5750963423a4b33e
+ms.openlocfilehash: f99286d4a3495d0214c46d28b105ad9076d238b2
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41726920"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888539"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Configurar el servicio de correo de voz en la nube para los usuarios locales
 
@@ -102,7 +102,7 @@ Por ejemplo, el siguiente comando asigna una directiva de correo de voz hospedad
 
 
 ```PowerShell
-Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:CloudVoiceMailUsers" 
+Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -Identity "Tag:CloudVoiceMailUsers" 
 ```
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Habilitar a un usuario para el correo de voz de la nube
@@ -111,13 +111,17 @@ Para permitir que las llamadas de correo de voz de un usuario se enruten al corr
 
 Por ejemplo, el siguiente comando habilita una cuenta de usuario para el correo de voz de la nube: 
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $True```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $True
+```
 
 El cmdlet comprueba que una directiva de correo de voz de nube, en el nivel global, de sitio o de usuario, se aplica a este usuario. Si no se aplica ninguna directiva, el cmdlet no se completará correctamente.  
 
 El siguiente ejemplo deshabilita una cuenta de usuario para el correo de voz de la nube:
 
-```Set-CsUser -Identity "User1" -HostedVoiceMail $False```
+```powershell
+Set-CsUser -Identity "User1" -HostedVoiceMail $False
+```
 
 El cmdlet comprueba que ninguna directiva de correo de voz hospedada, en el nivel global, de sitio o de usuario, se aplica a este usuario. Si se aplica alguna directiva, el cmdlet no se completará correctamente.
 
