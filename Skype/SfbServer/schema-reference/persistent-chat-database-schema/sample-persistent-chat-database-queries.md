@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: Esta sección contiene consultas de ejemplo de la base de datos de chat persistente.
-ms.openlocfilehash: f967e62ade8186bb2f0dae79c06af71e872808af
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f161deb55cb9ecb0e42eb23e71cd842aa8f3d99a
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814728"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887719"
 ---
-# <a name="sample-persistent-chat-database-queries"></a><span data-ttu-id="037a8-103">Consultas de base de datos del chat persistente de ejemplo</span><span class="sxs-lookup"><span data-stu-id="037a8-103">Sample Persistent Chat database queries</span></span>
+# <a name="sample-persistent-chat-database-queries"></a><span data-ttu-id="f8db5-103">Consultas de base de datos del chat persistente de ejemplo</span><span class="sxs-lookup"><span data-stu-id="f8db5-103">Sample Persistent Chat database queries</span></span>
  
-<span data-ttu-id="037a8-104">Esta sección contiene consultas de ejemplo de la base de datos de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="037a8-104">This section contains sample queries for the Persistent Chat database.</span></span>
+<span data-ttu-id="f8db5-104">Esta sección contiene consultas de ejemplo de la base de datos de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f8db5-104">This section contains sample queries for the Persistent Chat database.</span></span>
   
-<span data-ttu-id="037a8-105">Use el siguiente ejemplo para obtener una lista de sus salones de chat persistentes más activos después de una fecha determinada.</span><span class="sxs-lookup"><span data-stu-id="037a8-105">Use the following example to get a list of your most active Persistent Chat rooms after a certain date.</span></span>
+<span data-ttu-id="f8db5-105">Use el siguiente ejemplo para obtener una lista de sus salones de chat persistentes más activos después de una fecha determinada.</span><span class="sxs-lookup"><span data-stu-id="f8db5-105">Use the following example to get a list of your most active Persistent Chat rooms after a certain date.</span></span>
   
-```
+```SQL
 SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   FROM tblChat, tblNode
   WHERE channelId = nodeID AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
@@ -34,9 +34,9 @@ SELECT nodeName as ChatRoom, COUNT(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-<span data-ttu-id="037a8-106">Use el ejemplo siguiente para obtener una lista de los usuarios más activos después de una fecha determinada.</span><span class="sxs-lookup"><span data-stu-id="037a8-106">Use the following example to get a list of your most active users after a certain date.</span></span>
+<span data-ttu-id="f8db5-106">Use el ejemplo siguiente para obtener una lista de los usuarios más activos después de una fecha determinada.</span><span class="sxs-lookup"><span data-stu-id="f8db5-106">Use the following example to get a list of your most active users after a certain date.</span></span>
   
-```
+```SQL
 SELECT prinName as Name, count(*) as ChatMessages
   FROM tblChat, tblPrincipal
   WHERE prinID = userId AND dbo.fnTicksToDate(chatDate) > '1/1/2011'
@@ -44,33 +44,33 @@ SELECT prinName as Name, count(*) as ChatMessages
   ORDER BY ChatMessages DESC
 ```
 
-<span data-ttu-id="037a8-107">Use el ejemplo siguiente para obtener una lista de todas las personas que hayan enviado un mensaje con "Hola a todos".</span><span class="sxs-lookup"><span data-stu-id="037a8-107">Use the following example to get a list of everyone who ever sent a message with "Hello World" in it.</span></span>
+<span data-ttu-id="f8db5-107">Use el ejemplo siguiente para obtener una lista de todas las personas que hayan enviado un mensaje con "Hola a todos".</span><span class="sxs-lookup"><span data-stu-id="f8db5-107">Use the following example to get a list of everyone who ever sent a message with "Hello World" in it.</span></span>
   
-```
+```SQL
 SELECT nodeName as ChatRoom, prinName as Name, content as Message
   FROM tblChat, tblNode, tblPrincipal
   WHERE channelId = nodeID AND userId = prinID AND content like '%Hello World%'
 ```
 
-<span data-ttu-id="037a8-108">Use el ejemplo siguiente para obtener una lista de pertenencias a grupos de un determinado principal.</span><span class="sxs-lookup"><span data-stu-id="037a8-108">Use the following example to get a list of group memberships for a certain principal.</span></span>
+<span data-ttu-id="f8db5-108">Use el ejemplo siguiente para obtener una lista de pertenencias a grupos de un determinado principal.</span><span class="sxs-lookup"><span data-stu-id="f8db5-108">Use the following example to get a list of group memberships for a certain principal.</span></span>
   
-```
+```SQL
 SELECT prinName as Name    
   FROM tblPrincipalAffiliations as pa, tblPrincipal
   where principalID = 7 and affiliationID = prinID
 ```
 
-<span data-ttu-id="037a8-109">Use el ejemplo siguiente para obtener una lista de todos los salones de chat con los que un usuario, Julia Dow, es miembro directo.</span><span class="sxs-lookup"><span data-stu-id="037a8-109">Use the following example to get a list of every chat room that a user, Jane Dow, is a direct member of.</span></span>
+<span data-ttu-id="f8db5-109">Use el ejemplo siguiente para obtener una lista de todos los salones de chat con los que un usuario, Julia Dow, es miembro directo.</span><span class="sxs-lookup"><span data-stu-id="f8db5-109">Use the following example to get a list of every chat room that a user, Jane Dow, is a direct member of.</span></span>
   
-```
+```SQL
 SELECT DISTINCT nodeName as ChatRoom, prinName as Name          
   FROM tblPrincipalRole, tblPrincipal, tblNode
   WHERE  prinRoleNodeID = nodeID AND prinRolePrinID = prinID AND prinName = 'Jane Dow'
 ```
 
-<span data-ttu-id="037a8-110">Use el ejemplo siguiente para obtener una lista de las invitaciones que un usuario ha recibido.</span><span class="sxs-lookup"><span data-stu-id="037a8-110">Use the following example to get a list of invitations that a user has received.</span></span>
+<span data-ttu-id="f8db5-110">Use el ejemplo siguiente para obtener una lista de las invitaciones que un usuario ha recibido.</span><span class="sxs-lookup"><span data-stu-id="f8db5-110">Use the following example to get a list of invitations that a user has received.</span></span>
   
-```
+```SQL
 SELECT prinName
       ,nodeName
       ,invID   
