@@ -18,12 +18,12 @@ f1.keywords:
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f18bd8fa85ce07596fe36106ea97ef36e698a78
-ms.sourcegitcommit: 8e2fa7b744d0a174b699ae7298d4688b971eeff3
+ms.openlocfilehash: b90c2ab7b204964082c05cbc657c4945f5730fde
+ms.sourcegitcommit: f859843003b34feab18a3d2df34fdbb9858e7148
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41845151"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889453"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -75,6 +75,10 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |Información de interoperabilidad de vídeo en la nube en Reunirse ahora  <br/> |Si crea una instancia Reunirse ahora de una reunión en Microsoft Teams con una licencia CVI existente, la información de CVI no se completará. <br/> |Le recomendamos programar la reunión para completar esta información.  <br/> |11/6/2019  <br/> |
 
 ## <a name="authentication"></a>Autenticación
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Teams necesita acceso a Google Gstatic <br/> |En la actualidad, Teams necesita acceso (puerto TCP 443) al servicio de Google ssl.gstatic.com (https://ssl.gstatic.com) para todos los usuarios, esto sucede aunque no esté usando Gstatic. Teams quitará este requisito pronto (principios de 2020). <br/> | No hay ninguna solución. <br/> |10/2/20.  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
