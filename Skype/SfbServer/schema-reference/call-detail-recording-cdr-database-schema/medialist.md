@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: La tabla MediaList es una tabla estática que almacena la lista de los diferentes tipos de medios.
-ms.openlocfilehash: 7742baf17240ca810268721c0e47e37f17e555cd
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e7d739b27bf45b5f5a21183c30bd5b07108b4a9d
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815038"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888519"
 ---
 # <a name="medialist-table"></a>Tabla MediaList
  
@@ -31,6 +31,6 @@ La tabla MediaList es una tabla estática que almacena la lista de los diferente
    
 Si está intentando determinar el tipo de modalidad para los valores en LcsCDR.SessionDetailsView.MediaTypes, deberá usar el siguiente fragmento de código de JOIN.  
   
-```json
+```SQL
 LEFT JOIN on Media.MediaId = MediaList.MediaId
 ```

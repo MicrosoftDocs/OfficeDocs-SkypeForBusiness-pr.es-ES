@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Si necesita quitar el servidor de archivos que actualmente actúa como almacén de archivos para su implementación de Skype empresarial Server, o si necesita realizar otros cambios que hagan que el almacén de archivos actual no esté disponible, primero necesita crear un nuevo recurso compartido. Después deberá realizar los siguientes pasos:'
-ms.openlocfilehash: e1c4338e33e736c04dbb1a2a2e81a7233df65763
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 91ba8393a958188e368ff3f8f5d2a85bcfcc1396
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817111"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888459"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Mover los datos del almacén de archivos a un nuevo almacén de archivos en Skype empresarial Server
 
@@ -37,7 +37,7 @@ Si necesita quitar el servidor de archivos que actualmente actúa como almacén 
 
 1. Inicie sesión en un equipo como miembro del grupo RTCUniversersalServerAdmins o CsServerAdministrator en el que están instaladas las herramientas administrativas de Skype empresarial Server.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.
 
 3. En la barra de navegación izquierda, haga clic en **Topología ** y, a continuación, en **Estado **. 
 
@@ -55,8 +55,8 @@ Si necesita quitar el servidor de archivos que actualmente actúa como almacén 
 
    c. En **Definir nuevo almacén de archivos**, en **FQDN del servidor de archivos**, escriba el nombre de dominio completo (FQDN) del servidor de archivos. En **Recurso compartido de archivos**, escriba el nombre de la carpeta del nuevo recurso compartido de archivos y después haga clic en **Aceptar**.
 
-    > [!IMPORTANT]
-    > Este paso define un nuevo almacén de archivos para usar en el generador de topología. Debe definirlo solo una vez, no en cada servidor. Antes de publicar la topología, deberá crear el recurso compartido de archivos definido en el servidor de archivos definido. Para obtener información detallada, consulte [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > [!IMPORTANT]
+     > Este paso define un nuevo almacén de archivos para usar en el generador de topología. Debe definirlo solo una vez, no en cada servidor. Antes de publicar la topología, deberá crear el recurso compartido de archivos definido en el servidor de archivos definido. Para obtener información detallada, consulte [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
 8. Por cada servidor o grupo que use el almacén de archivos, realice lo siguiente:
 
@@ -70,10 +70,9 @@ Si necesita quitar el servidor de archivos que actualmente actúa como almacén 
 
 11. En la línea de comandos, escriba:
 
-     ```console
-     Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
-
-     ```
+    ```console
+    Robocopy \\<OldFileServer>\<OldShare> \\<NewFileServer>\<NewShare> /S /R:10 /W:10 /XF Meeting.Active /MT /LOG:<directory path\logname>
+    ```
 
     > [!TIP]
     > El conmutador /S copia los archivos, directorios y subdirectorios. El conmutador /XF omite los archivos con el nombre Meeting.Active. Las versiones actuales de robocopy.exe con el conmutador /MT dispara considerablemente la velocidad de copiado, debido a que usa varios subprocesos. Para el modificador/LOG, use una ruta de acceso del directorio y un nombre de archivo de registro con el formato C:\Logfiles\log.txt. Este conmutador crea un archivo de registro de operaciones en la ubicación designada.
@@ -88,8 +87,6 @@ Si necesita quitar el servidor de archivos que actualmente actúa como almacén 
 
 ## <a name="see-also"></a>Vea también
 
-
 [Reasignar un servidor a otro almacén de archivos](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 
 [Quitar un almacén de archivos](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx)
-

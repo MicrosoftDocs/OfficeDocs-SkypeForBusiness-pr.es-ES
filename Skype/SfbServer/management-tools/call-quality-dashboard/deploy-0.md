@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: Obtenga información sobre el proceso de implementación del panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: ccfb19bf8069bf72d52d7399b012d81af72e4110
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3ab7ea5130b33578169505969ee8f43a73a2ac32
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816859"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888839"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implementar el panel de calidad de llamadas para Skype empresarial Server
  
@@ -88,7 +88,7 @@ La implementación del panel de calidad de llamadas implica la configuración de
    - **Trabajo del Agente SQL-contraseña del &amp; nombre de usuario:** Nombre y contraseña de la cuenta de servicio de dominio (enmascarado) que se utilizarán para ejecutar el paso "información del archivo de QoE" del trabajo del Agente SQL Server (que ejecutará el procedimiento almacenado para capturar datos de la base de datos de la serie QoE a la BD de archivo, por lo que esta cuenta debe tener acceso de lectura a la base de datos de la métrica Esta cuenta también necesita tener un inicio de sesión en la instancia de Archive SQL Server de QoE).
     
      > [!NOTE]
-     > La cuenta con la que se ejecuta la instancia de SQL Server, como NT SERVICE\MSSQLSERVER, debe tener acceso/permiso a los directorios mencionados anteriormente para que la instalación se realice correctamente. Para obtener más información, vea [configurar permisos del sistema de archivos para el acceso del motor de base de datos](https://msdn.microsoft.com/en-us/library/jj219062%28v=sql.110%29.aspx)
+     > La cuenta con la que se ejecuta la instancia de SQL Server, como NT SERVICE\MSSQLSERVER, debe tener acceso/permiso a los directorios mencionados anteriormente para que la instalación se realice correctamente. Para obtener más información, vea [configurar permisos del sistema de archivos para el acceso del motor de base de datos](https://msdn.microsoft.com/library/jj219062%28v=sql.110%29.aspx)
   
 7. Al hacer clic en siguiente, el instalador realizará comprobaciones y notificaciones de requisitos previos si se producen problemas. Cuando se superan todas las comprobaciones de requisitos previos, el instalador irá a la página de configuración del cubo. 
     
@@ -104,7 +104,7 @@ La implementación del panel de calidad de llamadas implica la configuración de
    - **Servidor de análisis de cubos:** Nombre de instancia de SQL Server Analysis Services para la ubicación donde se va a crear el cubo. Puede ser un equipo diferente, pero el usuario de instalación tiene que ser miembro de los administradores de servidor de la instancia de SQL Server Analysis Services de destino.
     
      > [!NOTE]
-     >  Para obtener más información sobre cómo configurar permisos de administrador del servidor de Analysis Services, consulte [conceder permisos de administrador de servidor (Analysis Services)](https://msdn.microsoft.com/en-us/library/ms174561.aspx) .
+     >  Para obtener más información sobre cómo configurar permisos de administrador del servidor de Analysis Services, consulte [conceder permisos de administrador de servidor (Analysis Services)](https://msdn.microsoft.com/library/ms174561.aspx) .
   
    - **Usar varias particiones:** El valor predeterminado se establece en "partición múltiple", que requiere Business Intelligence Edition o Enterprise Edition de SQL Server. Para Standard Edition, seleccione la opción "partición única". Tenga en cuenta que el rendimiento del procesamiento del cubo puede verse afectado si se usa una única partición.
     
@@ -135,7 +135,7 @@ Una vez finalizado el instalador, lo más probable es que el trabajo del Agente 
   
 Los mensajes de registro detallados se mostrarán si el modo de depuración está habilitado. Para habilitar el modo de depuración, vaya a **%SystemDrive%\Archivos de Files\Skype para empresas 2015 CQD\QoEDataService\web.config**y actualice la siguiente línea para que el valor se establezca en **verdadero**:
 
-```
+```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
 ```
 
@@ -161,7 +161,7 @@ Después, los administradores deben agregar nuevas reglas de autorización y con
   
 Los detalles de configuración se almacenan en la Web. config, que se encuentra en el directorio físico del portal.
   
-```XML
+```xml
 <?xml version="1.0" encoding="UTF-8"?> <configuration> <system.webServer> <security> <authorization> <remove users="*" roles="" verbs="" /> <add accessType="Allow" roles="CQDPortalUsers" /> </authorization> </security> </system.webServer> </configuration> 
 ```
 
@@ -233,7 +233,7 @@ Para los enlaces de Puerto HTTP y HTTPS, el instalador creará enlaces de puerto
   
 Para habilitar SSL/TLS en IIS y obligar a los usuarios a conectarse a través de HTTPS seguro en lugar de HTTP:
   
-1. Configurar la capa de sockets seguros en IIS, vea [configurar el nivel de sockets seguros en IIS 7](https://technet.microsoft.com/en-us/library/cc771438%28v=ws.10%29.aspx). Una vez hecho esto `http` , `https`reemplaza por.
+1. Configurar la capa de sockets seguros en IIS, vea [configurar el nivel de sockets seguros en IIS 7](https://technet.microsoft.com/library/cc771438%28v=ws.10%29.aspx). Una vez hecho esto `http` , `https`reemplaza por.
     
 2. Para obtener instrucciones sobre cómo habilitar TLS en las conexiones de SQL Server, consulte [Cómo habilitar el cifrado SSL para una instancia de SQL Server mediante Microsoft Management Console](https://support.microsoft.com/en-us/kb/316898/).
     

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'En general, la libreta de direcciones se migra junto con el resto de la topología. Sin embargo, es posible que tenga que realizar algunos pasos posteriores a la migración si ha personalizado lo siguiente en su entorno heredado:'
-ms.openlocfilehash: 73c491a538e6bce95779533b88513321c674f018
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 976717679a5a2f1dbdd1e2045cc5d5dfe43911e3
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41813608"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888169"
 ---
 # <a name="migrate-address-book"></a>Migrar la libreta de direcciones
 
@@ -51,13 +51,13 @@ Si establece el valor de **UseNormalizationRules** en false para que los usuario
 
     Las cadenas que incluyen el espacio en blanco o la puntuación obligatorios producen errores en las reglas de normalización, ya que estos caracteres se eliminan de la cadena introducida en las reglas de normalización. Si tiene cadenas que incluyen el espacio en blanco o la puntuación necesarios, debe modificar las cadenas. Por ejemplo, la siguiente cadena haría que la regla de normalra fallara:
 
-   ```
+   ```console
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
    ```
 
     La cadena siguiente no provocará errores en la regla de normalización:
 
-   ```
+   ```console
    \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
    ```
 

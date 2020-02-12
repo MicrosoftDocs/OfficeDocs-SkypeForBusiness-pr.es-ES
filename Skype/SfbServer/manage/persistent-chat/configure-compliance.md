@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumen: Aprenda a configurar el servicio de cumplimiento del servidor de chat persistente en Skype empresarial Server 2015.'
-ms.openlocfilehash: 54131eeddc95afd71978ada3a84fba3d4ab52716
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f25df3e85112f91c1286c0be49c428c364acf018
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817241"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887849"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar el servicio de cumplimiento para el servidor de chat persistente en Skype Empresarial Server 2015
 
@@ -116,8 +116,8 @@ Los resultados del Servicio de cumplimiento se clasifican por conversación (el 
 
 Un elemento Conversation contiene cuatro elementos (Channel, FirstMessage, StartTimeUTC y EndTimeUTC). El elemento Channel contiene el Identificador uniforme de recursos (URI) del salón de chat, mientras que el elemento FirstMessage describe el primer mensaje del elemento Messages. Los elementos StartTimeUTC y EndTimeUTC contienen las horas de inicio y de finalización de la conversación, tal como se muestra en el siguiente ejemplo de código:
 
-```XML
-<<FirstMessage type="JOIN" content="" id="0">
+```xml
+<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
       <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
 </FirstMessage>
@@ -125,7 +125,7 @@ Un elemento Conversation contiene cuatro elementos (Channel, FirstMessage, Start
 
 Un elemento Message contiene dos elementos (Sender y DateTimeUTC) y tres atributos (Type, Content e ID). El elemento Sender representa el usuario que envía el mensaje, mientras que el elemento DateTimeUTC representa el momento en el que tiene lugar un evento, tal como se muestra en el siguiente ejemplo de código:
 
-```XML
+```xml
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -158,7 +158,7 @@ En los siguientes ejemplos se muestran los tipos de mensajes que el elemento mes
 
 Unirse: un usuario se une a un salón de chat.
 
-```XML
+```xml
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206211842612" string="2008-03-22T18:50:42.6127374Z" long="633418086426127374" /> 
@@ -167,7 +167,7 @@ Unirse: un usuario se une a un salón de chat.
 
 Elemento: un usuario abandona un salón de chat.
 
-```XML
+```xml
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212610602532" string="2008-06-04T20:16:42.5324614Z" long="633482074025324614" /> 
@@ -176,7 +176,7 @@ Elemento: un usuario abandona un salón de chat.
 
 Chat: la dirección de correo electrónico del remitente.
 
-```XML
+```xml
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351800522" string="2008-03-12T19:56:40.522264Z" long="633409486005222640" /> 
@@ -185,7 +185,7 @@ Chat: la dirección de correo electrónico del remitente.
 
 Chat: un usuario solicita contenido del historial de conversaciones.
 
-```XML
+```xml
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1206034385284" string="2008-03-20T17:33:05.2841594Z" long="633416311852841594" /> 
@@ -194,7 +194,7 @@ Chat: un usuario solicita contenido del historial de conversaciones.
 
 Carga de archivo: un usuario carga un archivo.
 
-```XML
+```xml
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1205351828975" string="2008-03-12T19:57:08.9755711Z" long="633409486289755711" /> 
@@ -203,7 +203,7 @@ Carga de archivo: un usuario carga un archivo.
 
 Descarga de archivo: un usuario descarga un archivo.
 
-```XML
+```xml
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
   <DateTimeUTC since1970="1212611141851" string="2008-06-04T20:25:41.8518646Z" long="633482079418518646" /> 
@@ -214,7 +214,7 @@ Descarga de archivo: un usuario descarga un archivo.
 
 El siguiente ejemplo de código muestra el resultado predeterminado del Servidor de cumplimiento:
 
-```XML
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
    <xs:simpleType name="ComplianceMessageType">
@@ -313,7 +313,7 @@ El siguiente ejemplo de código muestra el resultado predeterminado del Servidor
 
 El siguiente ejemplo de código contiene un ejemplo de transformación XSL:
 
-```XML
+```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
 

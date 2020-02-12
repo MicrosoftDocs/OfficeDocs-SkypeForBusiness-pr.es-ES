@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 'Resumen: Obtenga información sobre la operación obtener registro de integración, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
-ms.openlocfilehash: 9caa909e80a0bab5257af16fe77e9d154947a56e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: e1d790f4723eaaf716482143f08c78624db47433
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816819"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888809"
 ---
 # <a name="get-integration-log"></a>Obtener integración de registro
  
@@ -51,7 +51,7 @@ Esta operación está deshabilitada de forma predeterminada por razones de segur
   
  **Cuerpo de respuesta** : a continuación se muestra una estructura de ejemplo de entradas de registro.
   
-```
+```json
 [
 {"LogCategory":"<category>","LogTime":"2015-03-18T10:28:29.10","LogDescription":"<log description>"}
 ]

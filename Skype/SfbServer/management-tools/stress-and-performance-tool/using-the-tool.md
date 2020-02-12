@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Para ejecutar la herramienta de estrés y rendimiento de Skype empresarial Server 2015, tendrá que poder administrar los usuarios, los contactos y los perfiles de usuario, configurar la herramienta para ejecutar y, a continuación, revisar los resultados generados por la herramienta.
-ms.openlocfilehash: 9920eb446452b9df23470a46c16eab754cc91577
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 0bdffee133e583ebaf4177d3226479838495c69f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816149"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888869"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Usar la herramienta de estrés y rendimiento de Skype empresarial Server 2015
  
@@ -145,8 +145,8 @@ Esta pestaña le permite proporcionar los detalles de los contactos de los usuar
     
 8. Haga clic en **crear contactos** para comenzar la creación de contactos. Este proceso puede demorar varios minutos. Una vez completada, aparecerá un cuadro de diálogo con el mensaje "la operación se completó correctamente". Puede validar los contactos que se crearon iniciando sesión como un usuario creado desde la pestaña creación de usuarios.
     
-> [!NOTE]
-> Una vez que se crean los contactos, esta herramienta reiniciará todos los servidores front-end en el grupo de destino. Es posible que se tarde más (hasta 2 horas) en iniciarse los servidores front-end, dependiendo de cuántos contactos haya creado esta operación. 
+    > [!NOTE]
+    > Una vez que se crean los contactos, esta herramienta reiniciará todos los servidores front-end en el grupo de destino. Es posible que se tarde más (hasta 2 horas) en iniciarse los servidores front-end, dependiendo de cuántos contactos haya creado esta operación. 
   
 #### <a name="distribution-list"></a>Lista de distribución
 
@@ -367,7 +367,7 @@ La herramienta de configuración de carga (UserProfileGenerator. exe) crea un ar
     
 2. Vaya a la carpeta cliente y ejecute el script de proceso por lotes **RunClient** . Puede hacer doble clic en el archivo por lotes en el explorador de Windows y se ejecutarán todos los archivos de configuración de ese cliente. También puede ejecutar el script desde una carpeta de cliente con la siguiente sintaxis:
     
-   ```PowerShell
+   ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
    ```
 

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Resumen: Revise las consideraciones de la dirección URL simple en este tema antes de implementar los registros DNS para Skype empresarial Server.'
-ms.openlocfilehash: 7eb734fb4a9005f833f27efd3b0d180593155f39
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 3296e3678d1d38f021b792a2362f61de66796d0f
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815788"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888481"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>Requisitos de DNS para las direcciones URL simples en Skype empresarial Server
 
@@ -102,13 +102,13 @@ Si tiene varios sitios que contienen grupos front-end y su proveedor DNS admite 
 
 Para configurar esto, cree dos direcciones de GeoDNS. Cada dirección tiene dos registros A de DNS o CNAME que se resuelven en dos grupos de servidores que funcionan juntos con fines de recuperación ante desastres. Una dirección de GeoDNS se utiliza para el acceso interno y se resuelve en el FQDN web interno o la dirección IP del equilibrador de carga para dos grupos de servidores. La otra dirección de GeoDNS se utiliza para el acceso externo y se resuelve en el FQDN web externo o la dirección IP del equilibrador de carga para dos grupos de servidores. Lo siguiente es un ejemplo de dirección URL sencilla de reunión, que utiliza los FQDN para los grupos de servidores. 
 
-```
+```console
 Meet-int.geolb.contoso.com
      Pool1InternalWebFQDN.contoso.com
      Pool2InternalWebFQDN.contoso.com
 ```
 
-```
+```console
 Meet-ext.geolb.contoso.com
      Pool1ExternalWebFQDN.contoso.com
      Pool2ExternalWebFQDN.contoso.com
@@ -125,7 +125,7 @@ Puede configurar las mismas opciones para la dirección URL sencilla de acceso t
 
 Una vez que esta configuración esté definida, necesita utilizar una aplicación de supervisión para configurar la supervisión HTTP para que busque errores. Para obtener acceso externo, supervise para asegurarse de que HTTPS obtenga lyncdiscover.<sipdomain> las solicitudes al FQDN de la web externa o la dirección IP del equilibrador de carga de los dos grupos se han realizado correctamente. Por ejemplo, las siguientes solicitudes no tienen que contener ningún encabezado **ACCEPT** y necesitan devolver **200 OK**.
 
-```
+```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 HTTPS GET Pool2ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root
 ```

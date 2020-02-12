@@ -20,18 +20,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenga información sobre Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementa la conectividad RTC local con el Sistema telefónico de Office 365 (PBX en la nube).
-ms.openlocfilehash: 20ea88b230fe0fd9a590c489cb6f0017a2c27209
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 966c295692dcc176a9003d134a161c45e90d47e6
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41814468"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887739"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plan para Skype Empresarial Cloud Connector Edition
 
 Obtenga información sobre Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementa la conectividad RTC local con el Sistema telefónico de Office 365 (PBX en la nube).
 
-Cloud Connector Edition puede ser la solución adecuada para su organización si todavía no tiene una implementación de Lync Server o Skype empresarial Server existente. Si todavía está investigando qué sistema telefónico en la solución de Office 365 es adecuado para su empresa, vea [soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
+Cloud Connector Edition puede ser la solución adecuada para su organización si todavía no tiene una implementación de Lync Server o Skype empresarial Server existente. Si todavía está investigando qué sistema telefónico en la solución de Office 365 es adecuado para su empresa, vea [soluciones de telefonía de Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
 Este documento describe los requisitos de Cloud Connector Edition y las topologías compatibles, y le ayuda a planificar la implementación de Cloud Connector Edition. Asegúrese de leer este tema antes de configurar el entorno de conector de la nube. Cuando esté listo para implementar y configurar Cloud Connector Edition, vea [configurar y administrar Cloud Connector de Skype empresarial](configure-skype-for-business-cloud-connector-edition.md).
 
@@ -429,7 +429,7 @@ Si se requieren reglas más restrictivas, consulte las siguientes direcciones UR
 
 - [Direcciones URL de la lista de revocación de certificados](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) en [Office 365 URL e intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-- Windows Update: [Cómo configurar un firewall para actualizaciones de software](https://technet.microsoft.com/en-us/library/bb693717.aspx)
+- Windows Update: [Cómo configurar un firewall para actualizaciones de software](https://technet.microsoft.com/library/bb693717.aspx)
 
 - PowerShell de administración de Skype empresarial online \*:. online.Lync.com
 
@@ -545,14 +545,14 @@ Cada componente perimetral necesita un certificado de una entidad de certificaci
 
 - **Opción 1.** El nombre del asunto tiene que contener el nombre de grupo que asignó a los componentes perimetrales. Tenga en cuenta que el nombre del asunto no puede ser sip.sipdomain.com porque este nombre está reservado para el componente perimetral de Skype empresarial en línea. El SAN tiene que contener sip.sipdomain.com y el nombre de grupo perimetral de acceso:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com,
   acessedgepoolnameforsite1.sipdomain.com
   ```
 
 - **Opción 2.** Si desea usar un único certificado comodín en todos los servidores de grupo perimetral que implementa, puede usar una entrada SAN comodín de \*. sipdomain.com en lugar del nombre del grupo de bordes en el certificado. El nombre del firmante puede ser el nombre de grupo perimetral de acceso de cualquiera de los grupos de servidores perimetrales que ya haya implementado:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain.com, SAN = *.sipdomain.com
   ```
 
@@ -568,14 +568,14 @@ Necesitará agregar sip.sipdomain.com para todos los dominios SIP y el nombre de
 
 - **Opción 1.** El nombre del asunto debe contener el nombre de la sección que asignó a los componentes de Edge. Tenga en cuenta que el nombre del asunto no puede ser sip.sipdomain.com porque este nombre está reservado para el componente perimetral de Skype empresarial en línea. El SAN tiene que contener sip.sipdomain.com y el nombre de grupo perimetral de acceso:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain1.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   acessedgepoolnameforsite1.sipdomain1.com
   ```
 
 - <strong>Opción 2.</strong> Si desea usar un único certificado comodín en todos los servidores de grupo perimetral que implementa, puede usar una entrada SAN comodín de \*. sipdomain.com en lugar del nombre del grupo de bordes en el certificado. El nombre del firmante puede ser el nombre de grupo perimetral de acceso de cualquiera de los grupos de servidores perimetrales que ya haya implementado:
 
-  ```
+  ```console
   SN = accessedgepoolnameforsite1.sipdomain.com, SAN = sip.sipdomain1.com, sip.sipdomain2.com,
   SAN = *.sipdomain1.com
   ```
@@ -708,7 +708,7 @@ Cloud Connector 2.1 y versiones posteriores admiten la supervisión de Cloud Con
 
 Para obtener más información, vea los artículos siguientes:
 
-- [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
+- [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/SkypeForBusiness/hybrid/msft-telephony-solutions)
 
 - [Configuración y administración de Skype Empresarial Cloud Connector Edition](configure-skype-for-business-cloud-connector-edition.md)
 

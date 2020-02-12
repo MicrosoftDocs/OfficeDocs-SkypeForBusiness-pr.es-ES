@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo asignar un identificador de conferencia a un usuario en Skype empresarial online y cuáles deben ser los parámetros de IDs de conferencia. '
-ms.openlocfilehash: 84218fefb831e37255e7049e082f7fe715dc0eb4
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 10acf425db0230dd90f8c125b0d871e07dd69728
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41680457"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888069"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Ver y restablecer un Id. de conferencia asignado a un usuario en Skype for Business Online
 
@@ -65,11 +65,11 @@ Vea **Enviar un correo electrónico a un usuario con su información de conferen
 
 You can use Windows PowerShell to view the conference ID for a user. To do so, run:
 
-  ```PowerShell
+  ```powershell
   Get-CsOnlineDialInConferencingUser -Identity "Amos Marble"
   ```
 
-    See [Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) to learn more about the cmdlet.
+Para obtener más información sobre el cmdlet [, vea Get-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617693 ) .
 
 
 ### <a name="to-reset-the-conference-id"></a>Para restablecer el identificador de conferencia
@@ -84,11 +84,11 @@ Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, este lo
 
 3. En el **Centro**> de administración de Skype empresarial,**los usuarios**de la**Conferencia** > de audio, en el panel de acciones, en **ID de conferencia**, haga clic en **restablecer**.
 
-4. In the **Reset conference ID?** window, click **Yes**. A conference ID will be automatically created and an email sent to the user with the new conference ID.
+4. En la ventana **Restablecer Id. de conferencia?**, haga clic en **Sí**. Se creará automáticamente un ID de conferencia y un mensaje de correo electrónico con el nuevo identificador de conferencia.
 
 Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
 
-You can reset the conference ID for a user by using the Windows PowerShell. To do this, run:
+Puede restablecer el id. de conferencia de un usuario mediante Windows PowerShell. Para ello, ejecute:
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
@@ -97,11 +97,11 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 ## <a name="what-else-should-you-know"></a>¿Qué más debe saber?
 
    > [!IMPORTANT]
-   >  After a new conference ID is created or one is reset, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. To see how to download, install, and run the tool, see: [Meeting Update Tool for Skype for Business and Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype for Business Online, Meeting Migration Tool (64-bit)](https://go.microsoft.com/fwlink/?LinkID=626047), and  [Skype for Business Online, Meeting Migration Tool (32-bit)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
+   >  Una vez que se crea un nuevo identificador de conferencia o se restablece uno, la persona que llama no puede usar el antiguo identificador de conferencia. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. The users can use the Skype for Business Meeting Migration Tool to update their existing meetings. Para ver cómo descargar, instalar y ejecutar la herramienta, consulte la herramienta [de actualización de reuniones para Skype empresarial y Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4), [Skype empresarial online, herramienta de migración de reuniones (64 bits)](https://go.microsoft.com/fwlink/?LinkID=626047)y [Skype empresarial online, herramienta de migración de reuniones (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=54079).
 
 - Para más información sobre el cmdlet, vea [Set-CsOnlineDialInConferencingUser](https://go.microsoft.com/fwlink/?LinkId=617688 ).
 
-- The conference ID must meet the length in digits set on the audio conferencing bridge. You can't use alphabetic or special characters in conference IDs; only numbers can be used.
+- El identificador de conferencia debe cumplir la longitud en dígitos establecidos en el puente de audioconferencia. No se pueden usar caracteres alfabéticos o especiales en los id. de conferencia, solo se pueden usar números.
 
 - El identificador de conferencia de todos los usuarios de la audioconferencia será de 7 dígitos de forma predeterminada, y no se podrá cambiar el número de dígitos.
 
@@ -114,7 +114,7 @@ You can reset the conference ID for a user by using the Windows PowerShell. To d
 
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Obtenga más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 

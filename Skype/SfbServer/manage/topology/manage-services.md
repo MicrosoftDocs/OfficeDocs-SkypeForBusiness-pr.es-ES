@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Obtenga información sobre cómo ver el estado del servicio, iniciar y detener servicios, y evitar las sesiones de servicios.
-ms.openlocfilehash: 154c7b2d5ff858e22be4159ec1797ef6a6724445
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: da617e386f30469c1b787522f8472d822d02b1e5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41817121"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888449"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Administrar servicios en Skype empresarial Server
 
@@ -59,7 +59,9 @@ También puede ver el estado del servicio con Windows PowerShell y el cmdlet Get
 
 Para ver el estado del servicio en un equipo, escriba un comando similar al siguiente en el shell de administración de Skype empresarial Server y, a continuación, presione ENTRAR:
 
-`Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status`
+```powershell
+Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
+```
 
 Este comando devolverá información similar a la siguiente:
 
@@ -75,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-Para obtener más información, vea [Get-CsWindowsService](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsWindowsService).
+Para obtener más información, vea [Get-CsWindowsService](https://docs.microsoft.com/powershell/module/skype/Get-CsWindowsService).
 
 ## <a name="start-or-stop-skype-for-business-services"></a>Iniciar o detener servicios de Skype empresarial
 
@@ -85,7 +87,9 @@ Use el panel de control de Skype empresarial Server para iniciar o detener todos
 
 1. Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Skype empresarial Server. . Puede determinar si se le ha asignado el rol de CsServerAdministrator o el rol de RBAC de CsAdministrator ejecutando un comando similar al siguiente:
 
-    `Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```powershell
+    Get-CsAdminRoleAssignment -Identity "kenmyer"`
+    ```
 
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Skype empresarial Server, consulte [instalar y abrir herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
 3. En la barra de navegación izquierda, haga clic en **Topología ** y, a continuación, en **Estado **. 

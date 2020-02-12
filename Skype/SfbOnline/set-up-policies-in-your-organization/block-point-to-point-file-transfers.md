@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: En Skype empresarial online, tiene la capacidad de controlar las transferencias de archivos punto a punto (P2P) como parte de la configuración de directivas de conferencia existentes. Sin embargo, esto permite o bloquea las transferencias de archivos para los usuarios, ya sea que transfieran archivos a un usuario que está dentro de la misma organización o a un usuario federado de otra organización. Siguiendo los pasos que se indican a continuación, puede bloquear las transferencias de archivos P2P con organizaciones o socios federados.
-ms.openlocfilehash: 8c2cc90af2642a9094076c1569eee8b0ec4b15ff
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 7983ae72cd3b06a21fd4947883a3043d2506b92e
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41693045"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887969"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquear las transferencias de archivos punto a punto
 
@@ -55,31 +55,31 @@ Para que esto funcione, el usuario debe estar usando una versión compatible de 
 
 - **Comprobar que está ejecutando Windows PowerShell versión 3.0 o superior**
     
-1. Para comprobar que se está ejecutando la versión 3.0 o superior: **Menú Inicio** > **Windows PowerShell**.
-    
-2. Para comprobar la versión, escriba _Get-host_ en la ventana de **Windows PowerShell** .
-    
-3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le solicite.
-    
-4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
+    1. Para comprobar que se está ejecutando la versión 3.0 o superior: **Menú Inicio** > **Windows PowerShell**.
+        
+    2. Para comprobar la versión, escriba _Get-host_ en la ventana de **Windows PowerShell** .
+        
+    3. Si no tiene la versión 3.0 o superior, deberá descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le solicite.
+        
+    4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
     Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Iniciar una sesión de Windows PowerShell**
     
-1. En el **menú Inicio** > **Windows PowerShell**.
+    1. En el **menú Inicio** > **Windows PowerShell**.
+        
+    2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
     
-2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
-    
-    > [!NOTE]
-    > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
+        > [!NOTE]
+        > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
+       ```PowerShell      
+        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        $credential = Get-Credential
+        $session = New-CsOnlineSession -Credential $credential
+        Import-PSSession $session
+       ```
 
    Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
@@ -96,14 +96,14 @@ Para permitir las transferencias P2P para dentro de su organización pero bloque
 ## <a name="disable-p2p-file-transfers-for-a-user"></a>Deshabilitar las transferencias de archivos P2P para un usuario
 
 Puede aplicar esta función a un usuario creando una nueva Directiva y concediendo a ese usuario. Para ello, ejecute: 
-> 
->   ```PowerShell
->   New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
->   ```
-> 
->   ```PowerShell
->   Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
->   ```
+
+```powershell
+New-CsExternalUserCommunicationPolicy -Identity BlockExternalFT -EnableP2PFileTransfer $False
+```
+
+```powershell
+Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity amosm@contoso.com
+```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 

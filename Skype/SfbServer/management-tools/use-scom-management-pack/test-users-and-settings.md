@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Resumen: configurar las opciones de las cuentas de usuario y del nodo de monitor para las transacciones sintéticas de Skype empresarial Server.'
-ms.openlocfilehash: ce0c82f6f850c7a2b632c828f938979747d99e97
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 877e7256c31bf5bf66f25e80c9625078cfc15b02
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816119"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888859"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar los usuarios y las opciones de configuración de la prueba del nodo de monitor
  
@@ -278,19 +278,21 @@ Si el equipo que actúa como nodo de monitor no está en la red perimetral, lo m
     
 2. En la ventana de la consola, escriba el siguiente comando y presione ENTRAR: 
     
-```console
-bitsadmin /util /SetIEProxy NetworkService NO_PROXY
-```
+    ```console
+    bitsadmin /util /SetIEProxy NetworkService NO_PROXY
+    ```
 
-Verá el siguiente mensaje que se muestra en la ventana de línea de comandos:
+    Verá el siguiente mensaje que se muestra en la ventana de línea de comandos:
+
+    ```console
+    BITSAdmin is deprecated and is not guaranteed to be available in future versions of Windows. Administration tools for the BITS service are now provided by BITS PowerShell cmdlets.
   
-BITSAdmin está en desuso y no se garantiza que esté disponible en futuras versiones de Windows. Las herramientas de administración para el servicio BITS ahora se proporcionan a través de cmdlets de BITS PowerShell.
-  
-Configuración de proxy para la cuenta NetworkService establecida en NO_PROXY. 
-  
-(conexión = predeterminada)
-  
-Este mensaje indica que ha deshabilitado la configuración de proxy de Internet Explorer para la cuenta de servicio de red.
+    Internet proxy settings for account NetworkService set to NO_PROXY. 
+      
+    (connection = default)
+    ```
+      
+    Este mensaje indica que ha deshabilitado la configuración de proxy de Internet Explorer para la cuenta de servicio de red.
   
 ### <a name="exchange-unified-messaging-synthetic-transaction"></a>Transacción sintética de mensajería unificada de Exchange
 
@@ -304,7 +306,7 @@ Para usar la transacción sintética de chat persistente, en primer lugar se deb
   
 Puede usar la transacción sintética de chat persistente para configurar este canal: 
   
-```
+```powershell
 $cred1 = Get-Credential "contoso\testUser1"
 $cred2 = Get-Credential "contoso\testUser2"
 
@@ -376,7 +378,7 @@ La transacción sintética del servidor de interoperabilidad de vídeo requiere 
   
 Para instalar VISSTSupportPackage.msi, asegúrese de que las dependencias (en los requisitos del sistema) para el archivo msi ya estén instaladas. Ejecute VISSTSupportPackage.msi para realizar una instalación sencilla. El archivo. msi instala todos los archivos en la siguiente ruta de acceso: "paquete de compatibilidad con la transacción sintética de%ProgramFiles%\VIS".
   
-Para obtener más información sobre cómo ejecutar la transacción sintética, consulte la documentación del cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) .
+Para obtener más información sobre cómo ejecutar la transacción sintética, consulte la documentación del cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/library/dn985894.aspx) .
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Cambiar la frecuencia de ejecución para transacciones sintéticas
 <a name="special_synthetictrans"> </a>

@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Obtenga más información sobre las opciones de alta disponibilidad del servidor de back-end admitidas en Skype empresarial Server, incluidos los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error de AlwaysOn, la creación de reflejo de base de datos y la conmutación por error de SQL
-ms.openlocfilehash: a0aeb53aea0ee2eab25875de0fddbfd0fc26d90a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 4c814e525b3a1d0900e7162255ec4d7e86d79605
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815958"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888619"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Servidor back-end de alta disponibilidad en Skype empresarial Server
  
@@ -56,7 +56,7 @@ Skype empresarial Server admite el reflejo con el siguiente software de base de 
     
 
 > [!NOTE]
-> La creación de reflejos de SQL está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. Los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error (FCI) AlwaysOn, y los métodos de clúster de conmutación por error de SQL son preferidos con Skype empresarial Server 2019.
+> La creación de reflejos de SQL está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. Los métodos grupos de disponibilidad AlwaysOn, instancias de clúster de conmutación por error (FCI) y de clústeres de conmutación por error de SQL son las únicas opciones compatibles con Skype empresarial Server 2019.
     
 El reflejo de la base de datos asincrónica no es compatible con la alta disponibilidad del servidor back-end en Skype empresarial Server. En lo que resta de este documento, la creación de reflejo de la base de datos implica la creación de reflejo de la base de datos sincrónica, a menos que se indique lo contrario. 
   

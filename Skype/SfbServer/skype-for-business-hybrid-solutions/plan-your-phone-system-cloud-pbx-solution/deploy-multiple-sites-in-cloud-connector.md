@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Obtenga más información sobre cómo implementar varios sitios de RTC en Cloud Connector Edition.
-ms.openlocfilehash: 98890bb3ffe53497c5e915acba5c073c4316f3b7
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 1276d436a05e5151bdc90c19bbf41b8e90d913bf
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799700"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887639"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implementar varios sitios en Cloud Connector
  
@@ -35,7 +35,7 @@ A continuación se muestra un ejemplo de configuración para implementar Skype e
   
 Sitio de RTC 1
   
-```
+```console
 [Common]
 SiteName=Site1
 [EdgeServer]
@@ -53,7 +53,7 @@ ExternalMRPublicIPs=23.99.115.35
 
 Sitio de RTC 2
   
-```
+```console
 [Common]
 SiteName=Site2
 [EdgeServer]

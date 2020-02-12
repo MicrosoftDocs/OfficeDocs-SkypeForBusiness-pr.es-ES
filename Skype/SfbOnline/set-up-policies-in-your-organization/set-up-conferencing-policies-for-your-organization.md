@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'El servicio de conferencias es una parte importante de Skype Empresarial Online: mediante las conferencias, los grupos de usuarios pueden reunirse en línea para ver diapositivas y vídeo, compartir aplicaciones, cederse archivos, y colaborar y comunicarse de otros modos.'
-ms.openlocfilehash: ef7b764d674590ed07e461029110505446b09900
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: aba41b8c1e527157c9ff8d58a2a7a78bfebb0a82
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706645"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887899"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>Establecer directivas de conferencia en su organización
 
@@ -45,85 +45,85 @@ La configuración de la Directiva se puede configurar en el momento en que se cr
 
 - **Comprobar que está ejecutando Windows PowerShell versión 3.0 o superior**
     
-1. Para comprobar que se está ejecutando la versión 3.0 o superior: **Menú Inicio** > **Windows PowerShell**.
-    
-2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
-    
-3. Si no tiene la versión 3,0 o superior, debe descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le pida.
-    
-4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
+    1. Para comprobar que se está ejecutando la versión 3.0 o superior: **Menú Inicio** > **Windows PowerShell**.
+        
+    2. Para comprobar la versión, escriba  _Get-Host_ en la ventana **Windows PowerShell**.
+        
+    3. Si no tiene la versión 3,0 o superior, debe descargar e instalar las actualizaciones de Windows PowerShell. Vea [Windows Management Framework 4,0](https://go.microsoft.com/fwlink/?LinkId=716845) para descargar y actualizar Windows PowerShell a la versión 4,0. Reinicie el equipo cuando se le pida.
+        
+    4. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
     Si necesita más información, consulte [Conectarse a todos los servicios de Office 365 en una única ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx).
     
 - **Iniciar una sesión de Windows PowerShell**
     
-1. En el **menú Inicio** > **Windows PowerShell**.
-    
-2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
-    
-    > [!NOTE]
-    > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
+    1. En el **menú Inicio** > **Windows PowerShell**.
+        
+    2. En la ventana **Windows PowerShell**, puede conectarse a su organización de Office 365 ejecutando:
+        
+        > [!NOTE]
+        > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
 
-   ```PowerShell      
-    Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
-    $credential = Get-Credential
-    $session = New-CsOnlineSession -Credential $credential
-    Import-PSSession $session
-   ```
+       ```PowerShell      
+        Import-Module "C:\Program Files\Common Files\Skype for Business Online\Modules\SkypeOnlineConnector\SkypeOnlineConnector.psd1"
+        $credential = Get-Credential
+        $session = New-CsOnlineSession -Credential $credential
+        Import-PSSession $session
+       ```
 
    Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>Bloquear la transferencia de archivos y el uso compartido de escritorios durante las reuniones
 
 - Para crear una nueva Directiva para esta configuración, ejecute:
-  > 
-  > ```PowerShell
-  > New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
-  > ```
-  > Para obtener más información, consulte el cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
+   
+   ```powershell
+   New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
+   ```
+   Para obtener más información, consulte el cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
     
 - Para conceder la nueva directiva que ha creado a todos los usuarios de su organización, ejecute:
-  > 
-  > ```PowerShell
-  > Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
-  > ```
-  > Para obtener más información, consulta el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
+   
+   ```powershell
+   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName DesktopConferencingPolicy
+   ```
+   Para obtener más información, consulta el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
     
   Si ya ha creado una directiva, puede usar el cmdlet [set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet[Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="block-recording-of-conferences-and-prevent-anonymous-meeting-participants"></a>Bloquear la grabación de conferencias e impedir la realización de participantes de reuniones anónimas
 
 - Para crear una nueva Directiva para esta configuración, ejecute: 
-  > 
-  > ```PowerShell
-  > New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
-  > ```
-  > Para obtener más información, consulte el cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
+   
+   ```powershell
+   New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
+   ```
+   Para obtener más información, consulte el cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
     
 - Para conceder a la nueva directiva que ha creado a amos Marble, ejecute:
-  > 
-  > ```PowerShell
-  >  Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
-  > ```
-  > Para obtener más información, consulta el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com//library/mt779156.aspx) .
+   
+   ```powershell
+    Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName ConferencingPolicy
+   ```
+   Para obtener más información, consulta el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
     
 Si ya ha creado una directiva, puede usar el cmdlet [set-CsConferencingPolicy](https://technet.microsoft.com/library/mt779157.aspx) para realizar cambios en la directiva existente y, después, usar el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) para aplicar la configuración a los usuarios.
   
 ### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>Impedir que los participantes anónimos puedan grabar reuniones y que los usuarios externos puedan guardar contenido de las reuniones
 
 - Para crear una nueva Directiva para esta configuración, ejecute:  
-  > 
-  > ```PowerShell
-  > New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
-  > ```
-  > Para obtener más información, consulte el cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
+   
+   ```powershell
+   New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
+   ```
+   Para obtener más información, consulte el cmdlet [New-CsConferencingPolicy](https://technet.microsoft.com/library/mt779148.aspx) .
     
 - Para conceder la nueva directiva que ha creado a todos los usuarios de su organización, ejecute:
     
-> 
->   ```PowerShell
->   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
->   ```
+ 
+   ```powershell
+   Grant-CsConferencingPolicy -Identity "amos.marble@contoso.com" -PolicyName BlockedConferencingPolicy
+   ```
 
 Para obtener más información, consulta el cmdlet [Grant-CsConferencingPolicy](https://technet.microsoft.com/library/mt779156.aspx) .
     

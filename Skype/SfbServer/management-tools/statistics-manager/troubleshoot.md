@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Resumen: Lea este tema para solucionar problemas de implementación de Statistics Manager para Skype empresarial Server.'
-ms.openlocfilehash: a787297b25b983303e65f398dfb7b275ae044944
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: 12b6176e64d034d94e8a6ad86e748c1906f9c0c5
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41816219"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888879"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
  
@@ -47,7 +47,7 @@ En este tema se describe cómo solucionar problemas de la implementación del ad
 
     Busque "MaxProcessMemoryMB" y cambie el valor a "0", como se muestra a continuación:
     
-  ```console
+  ```xml
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
@@ -60,13 +60,13 @@ En este tema se describe cómo solucionar problemas de la implementación del ad
     
     Si el agente no puede conectarse con el equipo de escucha, compruebe lo siguiente:
     
-1. Garantice que el servicio de escucha se esté ejecutando en el equipo de escucha. Si no, asegúrese de que Redis se esté ejecutando en ese servidor y, a continuación, reinicie el servicio de escucha.
-    
-    Compruebe el registro de eventos del administrador de estadísticas en el equipo de escucha para asegurarse de que no hay ningún problema con el servicio de escucha del administrador de estadísticas.
-    
-2. Use una herramienta de conectividad como telnet para comprobar la conectividad desde el equipo del agente al de escucha en el puerto correcto.
-    
-    Si no, asegúrese de que la regla de firewall entrante esté habilitada en el equipo de escucha para el tipo de red al que está conectado el equipo de escucha (privado/público/dominio). Si el equipo de escucha no se une a un dominio, la red puede aparecer como pública y, en ese caso, las reglas de Firewall instaladas con statistic Manager no se aplicarán de forma predeterminada.
+    1. Garantice que el servicio de escucha se esté ejecutando en el equipo de escucha. Si no, asegúrese de que Redis se esté ejecutando en ese servidor y, a continuación, reinicie el servicio de escucha.
+        
+        Compruebe el registro de eventos del administrador de estadísticas en el equipo de escucha para asegurarse de que no hay ningún problema con el servicio de escucha del administrador de estadísticas.
+        
+    2. Use una herramienta de conectividad como telnet para comprobar la conectividad desde el equipo del agente al de escucha en el puerto correcto.
+        
+        Si no, asegúrese de que la regla de firewall entrante esté habilitada en el equipo de escucha para el tipo de red al que está conectado el equipo de escucha (privado/público/dominio). Si el equipo de escucha no se une a un dominio, la red puede aparecer como pública y, en ese caso, las reglas de Firewall instaladas con statistic Manager no se aplicarán de forma predeterminada.
     
 - **4000**: error al descargar información del servidor desde la escucha (motivo desconocido)
     

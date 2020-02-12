@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Resumen: Lea este tema para obtener información sobre la planificación de conferencias de acceso telefónico local en Skype empresarial Server.'
-ms.openlocfilehash: 90fe1ff1770d34b9fe0671de1a2fc0f9382acae5
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: f78f5dcea5ce26bdfeb0ba52a6eeaf046ae6965b
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41815998"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41888549"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Plan para conferencias de acceso telefónico local en Skype empresarial Server
  
@@ -92,9 +92,9 @@ Para obtener más información sobre cómo crear un plan de marcado, consulte [c
 
 Los directorios de conferencia mantienen una asignación entre el identificador de reunión alfanumérico que un participante usa para unirse a una conferencia cuando se usa Skype empresarial y el identificador de conferencia de acceso telefónico local que usa un participante de conferencia de acceso telefónico local para unirse a la Conferencia. El formato del identificador de conferencia es el siguiente:
   
-```
-<housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
-```
+
+\<dígito de mantenimiento (1 dígito\>\<) directorio de conferencia (generalmente 1-2\>\<dígitos) número de conferencia (número\>\<variable de dígitos control Digit (1 dígito)\>
+
 
 Si crea varios directorios de conferencia, se asegurará de que los Id. de conferencia se mantienen cortos hasta que se haya creado un número significativo de conferencias. En una organización con un número establecido de conferencias por usuario, se recomienda crear un directorio de conferencia por cada 999 usuarios en el grupo de servidores. Si aplica esta sugerencia, los Id. de conferencia, por lo general, se mantendrán cortos. Ahora bien, una vez que entre los diferentes grupos de servidores haya más de 9 directorios de conferencia, el número de Id. de conferencia crecerá para facilitar la creación de nuevas conferencias.
   

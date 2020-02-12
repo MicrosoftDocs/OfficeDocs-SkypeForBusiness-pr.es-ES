@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: Skype empresarial online le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de conferencia o del cliente, donde puede tener varias combinaciones, hay tres directivas de acceso externo predefinidas que pueden cubrir la mayoría de los escenarios.
-ms.openlocfilehash: 49572dc1aaef3d595bd0de41fd6359d90e8d803a
-ms.sourcegitcommit: 19f534bfafbc74dbc2d381672b0650a3733cb982
+ms.openlocfilehash: 19b022bac8a43c595b07085db921da6a404d9ac7
+ms.sourcegitcommit: 1a08ec9069332e19135312d35fc6a6c3247ce2d2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41706665"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41887919"
 ---
 # <a name="create-custom-external-access-policies"></a>Crear directivas personalizadas de acceso externo
 
@@ -85,15 +85,15 @@ Para que esto funcione, el usuario debe usar una versión compatible de 2016 apl
 
 Para ello, ejecute:
   
-> 
->   ```PowerShell
->   New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
->   ```
-> 
-> 
->   ```PowerShell
->   Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
->   ```
+ 
+```powershell
+New-CsExternalAccessPolicy -Identity BlockSkypeVideo -EnablePublicCloudAccess $True -EnablePublicCloudAudioVideoAccess $False -EnableFederationAccess $True -EnableOutsideAccess $True
+```
+
+
+```powershell
+Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso.com
+```
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 

@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumen: Prepare los servidores de Skype empresarial Server 2019 y la infraestructura de dominio con este tema. El hardware, el sistema operativo, las bases de datos, el software, todos los requisitos y las recomendaciones del sistema, junto con el DNS de certificados, el uso compartido de archivos y la información de Active Directory, están aquí para ayudar a garantizar una instalación y una implementación correctas de su granja de servidores.'
-ms.openlocfilehash: c6f30ad4caa8dcb31cf035c3f82de4ab87c41f3d
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+ms.openlocfilehash: fbfb66d24b3e3fbc07ac5fa798b372cc1bf4a268
+ms.sourcegitcommit: 5e2dc3430e63bc0a17b87a63fa36ac93d96d8134
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41812598"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41889379"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos del sistema para Skype empresarial Server 2019
  
@@ -265,8 +265,6 @@ Se pueden usar los siguientes sistemas operativos de controlador de dominio:
     
 El nivel funcional de dominio de cualquier dominio en el que se implemente Skype empresarial Server 2019 y el nivel funcional de bosque de cualquier bosque en el que se implemente Skype empresarial Server 2019 debe ser uno de los siguientes:
   
-- Windows Server 2019
-
 - Windows Server 2016
     
 - Windows Server 2012 R2
