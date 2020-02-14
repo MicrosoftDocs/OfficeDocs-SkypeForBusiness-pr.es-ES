@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea50a504aa43c9df333a077c7f866a487f544a04
-ms.sourcegitcommit: ed3d7ebb193229cab9e0e5be3dc1c28c3f622c1b
+ms.openlocfilehash: 0fd871f36c2261dd5ec243dbd8dbdd52a3a8e694
+ms.sourcegitcommit: 93a8bd330c9a8ced81cd3eafb7b7236e9ed2066f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41833460"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "41962089"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
@@ -42,12 +42,15 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de equipos que puede tener un espacio empresarial de Office 365    | 500 000&sup2;     |
 |Número de canales por equipo    | 200 (incluye canales eliminados)&sup3;         |
 |Número de cadenas privadas por equipo    |30|
+|Tamaño de publicación de conversación de canal | Aproximadamente 28 KB por publicación<sup>4</sup> |
 
 &sup1; Cualquier objeto de directorio en Azure Active Directory cuenta para este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llaman a Microsoft Graph usando[permisos de aplicación](https://docs.microsoft.com/graph/permissions-reference).
 
 &sup2; Este límite incluye los equipos archivados.
 
 &sup3; Los canales borrados pueden ser restaurados en un plazo de 30 días. Durante estos 30 días, se sigue contando el canal eliminado en el límite de 200 canales por equipo. Después de 30 días, un canal eliminado y su contenido se eliminan de forma permanente y se deja de contar el canal en el límite de 200 canales por equipo.
+
+<sup>4</sup> 28 KB es un límite aproximado, ya que incluye el mensaje en sí (texto, vínculos a imágenes, etc.), las @menciones, el número de conectores y las reacciones.
 
 ## <a name="messaging"></a>Mensajería 
 
@@ -61,10 +64,13 @@ El chat de Teams funciona en un servidor backend de Microsoft Exchange, por lo q
 |---------|---------|
 |Número de usuarios en un chat privado<sup>1</sup>  | 100    |
 |Número de datos adjuntos de archivo<sup>2</sup>  |10     |
+|Tamaño de chat | Aproximadamente 28 KB por publicación<sup>3</sup> |
 
 <sup>1</sup> Si tienes más de 20 personas en un chat, las siguientes funciones de chat están desactivadas: Respuestas automáticas de Outlook y mensajes de estado de los equipos; indicador de escritura; llamadas de vídeo y audio; compartir; leer recibos.
 
 <sup>2</sup> Si el número de archivos adjuntos supera este límite, aparecerá un mensaje de error.
+
+<sup>3</sup> 28 KB es un límite aproximado, ya que incluye el mensaje en sí (texto, vínculos a imágenes, etc.), las @menciones y las reacciones.
 
 ### <a name="emailing-a-channel"></a>Enviar un correo electrónico a un canal
 
